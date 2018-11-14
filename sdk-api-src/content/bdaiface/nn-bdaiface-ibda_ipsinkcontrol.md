@@ -54,16 +54,16 @@ req.redist:
 This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
         
 
-The <b>IBDA_IPSinkControl</b> interface is implemented on the <a href="https://msdn.microsoft.com/78cd6cba-3bd7-4ad4-b65d-c6b866a18d4e">BDA IP Sink</a> filter, which manages the delivery of in-band IP data to the network stack. This interface is superseded by <a href="https://msdn.microsoft.com/fbbe12ea-964a-4a83-ac0a-ac8808bd9a63">IBDA_IPSinkInfo</a>.
+The <b>IBDA_IPSinkControl</b> interface is implemented on the <a href="https://msdn.microsoft.com/en-us/library/Dd693009(v=VS.85).aspx">BDA IP Sink</a> filter, which manages the delivery of in-band IP data to the network stack. This interface is superseded by <a href="https://msdn.microsoft.com/en-us/library/Dd693378(v=VS.85).aspx">IBDA_IPSinkInfo</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_IPSinkControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_IPSinkControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_IPSinkControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_IPSinkControl</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -76,7 +76,7 @@ The <b>IBDA_IPSinkControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce9710e6-f611-4457-a282-9a7677b3055e">GetAdapterIPAddress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693376(v=VS.85).aspx">GetAdapterIPAddress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the IP address of the NIC.
@@ -85,7 +85,7 @@ Retrieves the IP address of the NIC.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/005cce5c-e8fb-49f0-8a75-b05cdd1f5e1b">GetMulticastList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693377(v=VS.85).aspx">GetMulticastList</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the multicast addresses to which the IP Sink filter is listening.
@@ -109,7 +109,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
  
 
  

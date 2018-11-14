@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies options for the <a href="https://msdn.microsoft.com/D16224C7-1BB7-46F5-B66C-54D0B9679006">RoGetAgileReference</a> function.
+Specifies options for the <a href="https://msdn.microsoft.com/en-us/library/Dn269839(v=VS.85).aspx">RoGetAgileReference</a> function.
 
 
 ## -enum-fields
@@ -73,7 +73,7 @@ Marshaling happens on demand.  Use this option only in situations where it's kno
 
 
 
-<a href="https://msdn.microsoft.com/D16224C7-1BB7-46F5-B66C-54D0B9679006">RoGetAgileReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn269839(v=VS.85).aspx">RoGetAgileReference</a>
  
 
  

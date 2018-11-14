@@ -68,7 +68,7 @@ Determines whether any of the specified application instances (processes) are pa
 
 ### -param pVarApplicationInstanceID [in]
 
-The application instances to be checked. Each element of the <b>Variant</b> may be a <b>String</b> containing an application instance ID (for example, as returned by the <a href="https://msdn.microsoft.com/a09569af-11ec-406a-a51c-72b81b84fe41">GetApplicationInstanceIDFromProcessID</a> method), a single catalog object, or a catalog collection (for example, as returned by the <a href="https://msdn.microsoft.com/b1861e8f-bb42-42b5-9435-6fa366f8284a">GetCollectionByQuery2</a> method).
+The application instances to be checked. Each element of the <b>Variant</b> may be a <b>String</b> containing an application instance ID (for example, as returned by the <a href="https://msdn.microsoft.com/en-us/library/ms685077(v=VS.85).aspx">GetApplicationInstanceIDFromProcessID</a> method), a single catalog object, or a catalog collection (for example, as returned by the <a href="https://msdn.microsoft.com/en-us/library/ms685970(v=VS.85).aspx">GetCollectionByQuery2</a> method).
 
 
 ### -param pVarBoolPaused [out, retval]
@@ -121,7 +121,7 @@ A specified application instance does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
  
 
  

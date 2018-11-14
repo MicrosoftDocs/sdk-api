@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Releases resources that may be held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet and calls the <a href="https://msdn.microsoft.com/a642a20f-3a3c-46bc-b833-e424dab3a16d">CoReleaseMarshalData</a> function on each interface pointer.
+Releases resources that may be held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet and calls the <a href="https://msdn.microsoft.com/en-us/library/ms690490(v=VS.85).aspx">CoReleaseMarshalData</a> function on each interface pointer.
 
 
 ## -parameters
@@ -93,7 +93,7 @@ The data representation with which the data was marshaled.
 
 ### -param pcontext [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/4ecc4646-db3f-4d0e-9c45-b78a288156e1">CALLFRAME_MARSHALCONTEXT</a> structure that contains information about the context in which unmarshaling is to be carried out.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms682388(v=VS.85).aspx">CALLFRAME_MARSHALCONTEXT</a> structure that contains information about the context in which unmarshaling is to be carried out.
 
 
 ## -returns
@@ -139,7 +139,7 @@ An unexpected error has occurred.
 
 
 
-To clean up resources held in the marshaled buffer, the <b>ReleaseMarshalData</b> method must be called. However when the <a href="https://msdn.microsoft.com/42a482be-d4b8-4f2e-ae43-1d210cb44c7c">MSHLFLAGS</a> enumeration is set to normal, this is done automatically when unmarshaling.
+To clean up resources held in the marshaled buffer, the <b>ReleaseMarshalData</b> method must be called. However when the <a href="https://msdn.microsoft.com/en-us/library/ms680759(v=VS.85).aspx">MSHLFLAGS</a> enumeration is set to normal, this is done automatically when unmarshaling.
 
 <b>ReleaseMarshalData</b> can be used on both marshaled in and out parameters.
 
@@ -151,7 +151,7 @@ To clean up resources held in the marshaled buffer, the <b>ReleaseMarshalData</b
 
 
 
-<a href="https://msdn.microsoft.com/66de8d71-c27c-41bd-a741-02de5c779290">ICallUnmarshal</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684028(v=VS.85).aspx">ICallUnmarshal</a>
  
 
  

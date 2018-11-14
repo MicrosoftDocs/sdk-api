@@ -56,7 +56,7 @@ An unordered-access-view interface represents the parts of a resource the pipeli
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11UnorderedAccessView1</b> interface inherits from <a href="https://msdn.microsoft.com/9def4a7d-f145-4073-8d7d-bf3c7ac7a060">ID3D11UnorderedAccessView</a>. <b>ID3D11UnorderedAccessView1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11UnorderedAccessView1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Ff476639(v=VS.85).aspx">ID3D11UnorderedAccessView</a>. <b>ID3D11UnorderedAccessView1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -97,7 +97,7 @@ All resources must be bound to the pipeline before they can be accessed. Call <a
 
 
 
-<a href="https://msdn.microsoft.com/9def4a7d-f145-4073-8d7d-bf3c7ac7a060">ID3D11UnorderedAccessView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476639(v=VS.85).aspx">ID3D11UnorderedAccessView</a>
 
 
 

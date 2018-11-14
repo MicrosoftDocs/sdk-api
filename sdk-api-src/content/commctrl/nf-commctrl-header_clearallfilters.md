@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Clears all of the filters for a given header control. You can use this macro or send the <a href="https://msdn.microsoft.com/74c0265e-68d1-4414-8fd9-20f5f041d4b4">HDM_CLEARFILTER</a> message explicitly. 
+Clears all of the filters for a given header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775306(v=VS.85).aspx">HDM_CLEARFILTER</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Clears all of the filters for a given header control. You can use this macro or 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the header control. 
 
@@ -77,7 +77,7 @@ A handle to the header control.
 
 
 
-When all the filters are cleared, the <a href="https://msdn.microsoft.com/0a46af14-569a-4119-881f-549a130f9b0d">HDN_FILTERCHANGE</a> notification will be sent only once. 
+When all the filters are cleared, the <a href="https://msdn.microsoft.com/en-us/library/Bb775277(v=VS.85).aspx">HDN_FILTERCHANGE</a> notification will be sent only once. 
 
 
 
@@ -87,7 +87,7 @@ When all the filters are cleared, the <a href="https://msdn.microsoft.com/0a46af
 
 
 
-<a href="https://msdn.microsoft.com/d52e4636-9d08-42fc-8e64-e07245183c91">Header_ClearFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775377(v=VS.85).aspx">Header_ClearFilter</a>
  
 
  

@@ -78,7 +78,7 @@ A handle to theme data.
 
 Type: <b>int</b>
 
-The part that contains the bitmap. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
+The part that contains the bitmap. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
 
 
 ### -param iStateId [in]

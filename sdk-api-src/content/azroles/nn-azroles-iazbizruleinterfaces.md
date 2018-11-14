@@ -50,15 +50,15 @@ req.redist:
 ## -description
 
 
-The <b>IAzBizRuleInterfaces</b> interface provides methods and properties used to manage a list of <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interfaces that can be called by business rule (BizRule) scripts.
+The <b>IAzBizRuleInterfaces</b> interface provides methods and properties used to manage a list of <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interfaces that can be called by business rule (BizRule) scripts.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleInterfaces</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAzBizRuleInterfaces</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleInterfaces</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzBizRuleInterfaces</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,25 +71,25 @@ The <b>IAzBizRuleInterfaces</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/063492b9-9970-4605-84f5-d8b80afc719b">AddInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965800(v=VS.85).aspx">AddInterface</a>
 </td>
 <td align="left" width="63%">
-Adds the specified interface to the list of interfaces available to BizRule scripts.  To add the specified interface, AzMan calls the  <a href="a7c6317d-948f-4bb3-b169-1bbe5b7c7cc5">AddNamedItem</a> method of the <a href="d8acee11-7f0d-4999-b97a-66774af16f71">IActiveScript</a> interface.
+Adds the specified interface to the list of interfaces available to BizRule scripts.  To add the specified interface, AzMan calls the  <a href="https://msdn.microsoft.com/library/s8eyc3sh(v=VS.85).aspx">AddNamedItem</a> method of the <a href="https://msdn.microsoft.com/library/ky29ffxd(v=VS.85).aspx">IActiveScript</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91822c84-4daa-4d3c-bbe2-9ceb7fc642b2">AddInterfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377618(v=VS.85).aspx">AddInterfaces</a>
 </td>
 <td align="left" width="63%">
-Adds the specified interfaces to the list of interfaces available to BizRule scripts. To add the specified interfaces, AzMan calls the <a href="a7c6317d-948f-4bb3-b169-1bbe5b7c7cc5">AddNamedItem</a> method of the <a href="d8acee11-7f0d-4999-b97a-66774af16f71">IActiveScript</a> interface once for each specified interface.
+Adds the specified interfaces to the list of interfaces available to BizRule scripts. To add the specified interfaces, AzMan calls the <a href="https://msdn.microsoft.com/library/s8eyc3sh(v=VS.85).aspx">AddNamedItem</a> method of the <a href="https://msdn.microsoft.com/library/ky29ffxd(v=VS.85).aspx">IActiveScript</a> interface once for each specified interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5d12529-6ce8-4189-949b-210d8ec84084">GetInterfaceValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377629(v=VS.85).aspx">GetInterfaceValue</a>
 </td>
 <td align="left" width="63%">
 Gets the ID and flags of the interface that corresponds to the specified interface name.
@@ -98,7 +98,7 @@ Gets the ID and flags of the interface that corresponds to the specified interfa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/398e4151-aeda-48d0-b6f5-e0ea749d0720">Remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377639(v=VS.85).aspx">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the specified interface from the list of interfaces available to BizRule scripts.
@@ -107,7 +107,7 @@ Removes the specified interface from the list of interfaces available to BizRule
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05e0d7af-5b09-4112-9229-862197a9895b">RemoveAll</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377632(v=VS.85).aspx">RemoveAll</a>
 </td>
 <td align="left" width="63%">
 Removes all interfaces from the list of interfaces available to BizRule scripts.
@@ -125,7 +125,7 @@ Removes all interfaces from the list of interfaces available to BizRule scripts.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f6838790-2223-4ae8-9cee-9d881d071ba0">Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377626(v=VS.85).aspx">Count</a>
 
 
 </td>

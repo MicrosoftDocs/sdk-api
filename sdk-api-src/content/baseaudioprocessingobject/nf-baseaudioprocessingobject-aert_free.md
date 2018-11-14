@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-The <code>AERT_Free</code> utility function releases (frees) memory that was locked by the <a href="https://msdn.microsoft.com/b992842d-0612-464c-9b82-b75137fa49eb">AERT_Allocate</a> function, for use by audio processing objects to process audio data.
+The <code>AERT_Free</code> utility function releases (frees) memory that was locked by the <a href="https://msdn.microsoft.com/en-us/library/Ff536175(v=VS.85).aspx">AERT_Allocate</a> function, for use by audio processing objects to process audio data.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/b992842d-0612-464c-9b82-b75137fa49eb">AERT_Allocate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff536175(v=VS.85).aspx">AERT_Allocate</a>
  
 
  

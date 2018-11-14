@@ -140,7 +140,7 @@ When you no longer need the information, pass the returned pointer to
 If the function succeeds, the function returns STATUS_SUCCESS.
 
 If the function fails, it returns an <b>NTSTATUS</b> value, which can be the following value or one of the 
-<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

@@ -85,7 +85,7 @@ This method returns S_OK on success.
 
 
 
-<a href="_win32_GetMessage_cpp">GetMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>
 
 
 
@@ -93,7 +93,7 @@ This method returns S_OK on success.
 
 
 
-<a href="_win32_PeekMessage_cpp">PeekMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
  
 
  

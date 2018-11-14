@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Retrieves a <a href="c_gly.htm">cluster's</a> name and version. The <b>PCLUSAPI_GET_CLUSTER_INFORMATION</b> type defines a pointer to this function.
+Retrieves a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster's</a> name and version. The <b>PCLUSAPI_GET_CLUSTER_INFORMATION</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -89,8 +89,8 @@ Pointer to the size of the <i>lpszClusterName</i> buffer as a count of character
 ### -param lpClusterInfo [out, optional]
 
 Either <b>NULL</b> or a pointer to a 
-      <a href="https://msdn.microsoft.com/e1cecdbc-f0e4-4ee8-9a97-14859ceba5fd">CLUSTERVERSIONINFO</a> structure describing the version 
-      of the <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a>. When 
+      <a href="https://msdn.microsoft.com/en-us/library/Aa369056(v=VS.85).aspx">CLUSTERVERSIONINFO</a> structure describing the version 
+      of the <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a>. When 
       <i>lpClusterInfo</i> is not <b>NULL</b>, the 
       <b>dwVersionInfoSize</b> member of this structure should be set as follows: 
       <code>lpClusterInfo-&gt;dwVersionInfoSize = sizeof(CLUSTERVERSIONINFO);</code>
@@ -103,7 +103,7 @@ Either <b>NULL</b> or a pointer to a
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is one of the 
+       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is one of the 
        possible values.
 
 
@@ -116,7 +116,7 @@ If the operation fails, the function returns a
 Note that <i>lpcchClusterName</i> refers to a count of characters and not a count of bytes, 
     and that the returned size does not include the terminating <b>NULL</b> in the count. For more 
     information on sizing buffers, see 
-    <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369338(v=VS.85).aspx">Data Size Conventions</a>.
 
 
 
@@ -126,7 +126,7 @@ Note that <i>lpcchClusterName</i> refers to a count of characters and not a coun
 
 
 
-<a href="https://msdn.microsoft.com/e1cecdbc-f0e4-4ee8-9a97-14859ceba5fd">CLUSTERVERSIONINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369056(v=VS.85).aspx">CLUSTERVERSIONINFO</a>
  
 
  

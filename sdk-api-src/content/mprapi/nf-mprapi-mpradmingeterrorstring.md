@@ -73,7 +73,7 @@ Specifies the error code for a  router error.
 ### -param lplpwsErrorString [out]
 
 Pointer to an <b>LPWSTR</b> variable that points to the text associated with the <i>dwError</i> code on successful return. Free this memory by calling 
-<a href="_win32_localfree">LocalFree</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa366730(v=VS.85).aspx">LocalFree</a>.
 
 
 ## -returns
@@ -126,7 +126,7 @@ The error code in <i>dwError</i> is unknown.
 
 
 
-<a href="_win32_localfree">LocalFree</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366730(v=VS.85).aspx">LocalFree</a>
 
 
 

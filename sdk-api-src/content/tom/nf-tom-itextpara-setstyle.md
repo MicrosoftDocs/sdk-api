@@ -70,7 +70,7 @@ Sets the paragraph style for the paragraphs in a range.
 
 Type: <b>long</b>
 
-New paragraph style handle. For a list of styles, see the Remarks section of <a href="https://msdn.microsoft.com/fe85a591-6254-46a2-8f06-8079f0a602c1">ITextPara::GetStyle</a>. 
+New paragraph style handle. For a list of styles, see the Remarks section of <a href="https://msdn.microsoft.com/en-us/library/Bb787845(v=VS.85).aspx">ITextPara::GetStyle</a>. 
 
 
 ## -returns
@@ -156,11 +156,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/fe85a591-6254-46a2-8f06-8079f0a602c1">GetStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787845(v=VS.85).aspx">GetStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -168,7 +168,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

@@ -86,7 +86,7 @@ The <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">ID
 
 Type: <b>long</b>
 
-The clipboard format to use in the paste operation. Zero is best format, which usually is RTF, but <b>CF_UNICODETEXT</b> and other formats are also possible. The default value is zero. For more information, see <a href="winui._win32_Clipboard_Formats">Clipboard Formats</a>.
+The clipboard format to use in the paste operation. Zero is best format, which usually is RTF, but <b>CF_UNICODETEXT</b> and other formats are also possible. The default value is zero. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Clipboard Formats</a>.
 
 
 ## -returns
@@ -134,7 +134,7 @@ Destination cannot contain the text to be pasted.
 
 
 
-For more information, see<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-8389-3760e9289151">ITextRange::Copy</a>.
+For more information, see<a href="https://msdn.microsoft.com/en-us/library/Bb787742(v=VS.85).aspx">ITextRange::Copy</a>.
 
 
 
@@ -144,7 +144,7 @@ For more information, see<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-
 
 
 
-<a href="winui._win32_Clipboard_Formats">Clipboard Formats</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Clipboard Formats</a>
 
 
 
@@ -152,11 +152,11 @@ For more information, see<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-
 
 
 
-<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-8389-3760e9289151">Copy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787742(v=VS.85).aspx">Copy</a>
 
 
 
-<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
@@ -164,7 +164,7 @@ For more information, see<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

@@ -55,7 +55,7 @@ Exposes methods that provide additional load and save methods that take <a href=
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPersistStream</b> interface inherits from <a href="d47b175c-7054-42af-ae1a-9a350ead867c">IPersistStream</a>. <b>IWICPersistStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPersistStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx">IPersistStream</a>. <b>IWICPersistStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

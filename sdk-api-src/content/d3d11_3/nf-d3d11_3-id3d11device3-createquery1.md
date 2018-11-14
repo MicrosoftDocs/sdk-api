@@ -69,26 +69,26 @@ Creates a query object for querying information from the graphics processing uni
 
 ### -param pQueryDesc1 [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/56FFA63E-E7C6-45A4-80E9-B12E9042AE13">D3D11_QUERY_DESC1</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn899156(v=VS.85).aspx">D3D11_QUERY_DESC1</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/56FFA63E-E7C6-45A4-80E9-B12E9042AE13">D3D11_QUERY_DESC1</a> structure that represents a query description.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899156(v=VS.85).aspx">D3D11_QUERY_DESC1</a> structure that represents a query description.
 
 
 ### -param ppQuery1 [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/6DF4364F-A20D-466E-8F26-17C6DD32E84B">ID3D11Query1</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn899236(v=VS.85).aspx">ID3D11Query1</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/6DF4364F-A20D-466E-8F26-17C6DD32E84B">ID3D11Query1</a> interface for the created query object. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return <b>S_FALSE</b> if the other input parameters pass validation).
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899236(v=VS.85).aspx">ID3D11Query1</a> interface for the created query object. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return <b>S_FALSE</b> if the other input parameters pass validation).
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns E_OUTOFMEMORY if there is insufficient memory to create the query object.  
-        See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
+        See <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a> for other possible return values.
 
 
 
@@ -98,7 +98,7 @@ This method returns E_OUTOFMEMORY if there is insufficient memory to create the 
 
 
 
-<a href="https://msdn.microsoft.com/0AA10851-0077-4075-BD41-72FCD7BC0556">ID3D11Device3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899218(v=VS.85).aspx">ID3D11Device3</a>
  
 
  

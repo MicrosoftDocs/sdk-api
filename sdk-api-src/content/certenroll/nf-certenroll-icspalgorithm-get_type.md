@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-The main difference between the <b>Type</b> property and the <a href="https://msdn.microsoft.com/46e6bf91-a50a-4360-9bfe-e41e8bcc1112">Operations</a> property is that the latter contains a bitfield in which multiple bits can be set. Because many algorithms can be used for multiple purposes, the <b>Operations</b> property is often more useful. The <b>Type</b> value can correspond to only one of the <b>Operations</b> value bits. For example, if the <b>Operations</b> property returns XCN_NCRYPT_SIGNATURE_OPERATION | XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, the <b>Type</b> property may return XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE.
+The main difference between the <b>Type</b> property and the <a href="https://msdn.microsoft.com/en-us/library/Aa375964(v=VS.85).aspx">Operations</a> property is that the latter contains a bitfield in which multiple bits can be set. Because many algorithms can be used for multiple purposes, the <b>Operations</b> property is often more useful. The <b>Type</b> value can correspond to only one of the <b>Operations</b> value bits. For example, if the <b>Operations</b> property returns XCN_NCRYPT_SIGNATURE_OPERATION | XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, the <b>Type</b> property may return XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE.
 
 
 
@@ -81,11 +81,11 @@ The main difference between the <b>Type</b> property and the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a>
 
 
 
-<a href="https://msdn.microsoft.com/46e6bf91-a50a-4360-9bfe-e41e8bcc1112">Operations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375964(v=VS.85).aspx">Operations</a>
  
 
  

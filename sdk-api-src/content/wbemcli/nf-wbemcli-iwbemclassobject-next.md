@@ -96,10 +96,10 @@ TBD
 ### -param pVal [out]
 
 This <b>VARIANT</b> is filled with the value of the property. The method calls 
-       <a href="96aeb671-5528-4d3c-8e70-313716550b42">VariantInit</a> on this 
+       <a href="https://msdn.microsoft.com/en-us/library/ms221402(v=VS.85).aspx">VariantInit</a> on this 
        <b>VARIANT</b>, so the caller should ensure that the <b>VARIANT</b> 
        is not active prior to the call. The caller must use 
-       <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> when the value is no 
+       <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> when the value is no 
        longer required.
 
 You can set this parameter to <b>NULL</b> if the value is not required. If an error code 
@@ -154,7 +154,7 @@ For instances:
 
 Receives a new <b>BSTR</b> that contains the property name. To prevent memory leaks 
       in the client process, the caller must call 
-      <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when the name is no 
+      <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the name is no 
       longer required. You can set this parameter to <b>NULL</b> if the name is not required.
 
 

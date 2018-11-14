@@ -89,7 +89,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<b>OpenIcon</b> sends a <a href="https://msdn.microsoft.com/6e14d5fd-6598-4d2e-a463-2b153c9c2aa3">WM_QUERYOPEN</a> message to the given window. 
+<b>OpenIcon</b> sends a <a href="https://msdn.microsoft.com/en-us/library/ms632640(v=VS.85).aspx">WM_QUERYOPEN</a> message to the given window. 
 
 
 
@@ -99,7 +99,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/6bb41c24-458a-42ee-9e60-592e20881e06">CloseWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632678(v=VS.85).aspx">CloseWindow</a>
 
 
 
@@ -107,7 +107,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/a2f0ff67-e625-4f42-9d8f-e81f52c597e8">IsIconic</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633527(v=VS.85).aspx">IsIconic</a>
 
 
 
@@ -115,11 +115,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

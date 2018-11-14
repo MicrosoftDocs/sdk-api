@@ -59,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates an empty <a href="https://msdn.microsoft.com/b53cc1cd-9dc8-4e93-9f92-7ebed7d034b6">PrivateFontCollection</a> object.
+Creates an empty <a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a> object.
 
 
 ## -parameters

@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the hot item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/0aa2b15d-4983-4234-9863-f1fdee09f913">LVM_SETHOTITEM</a> message explicitly. 
+Sets the hot item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761172(v=VS.85).aspx">LVM_SETHOTITEM</a> message explicitly. 
 
 
 ## -parameters

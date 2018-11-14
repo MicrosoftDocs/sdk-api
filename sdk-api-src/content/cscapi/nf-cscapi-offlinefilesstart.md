@@ -80,7 +80,7 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/1916F3F7-3B99-40CA-B503-EA1D10991BF4">OfflineFilesQueryStatusEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh920946(v=VS.85).aspx">OfflineFilesQueryStatusEx</a>
  
 
  

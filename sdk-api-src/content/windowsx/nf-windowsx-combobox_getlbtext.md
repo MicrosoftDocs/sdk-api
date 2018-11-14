@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets a string from a list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/f84e302a-65bb-45c8-958b-1cb438fb5a7a">CB_GETLBTEXT</a> message explicitly.
+Gets a string from a list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775862(v=VS.85).aspx">CB_GETLBTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The zero-based index of the item.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
 
-A pointer to the buffer that will receive the string. The buffer must have sufficient space for the string and a terminating null character. Before allocating the buffer, you can call <a href="https://msdn.microsoft.com/09e65c79-c154-4c1e-b143-07d6c0f6b661">ComboBox_GetLBTextLen</a> to retrieve the length of the string. 
+A pointer to the buffer that will receive the string. The buffer must have sufficient space for the string and a terminating null character. Before allocating the buffer, you can call <a href="https://msdn.microsoft.com/en-us/library/Bb856478(v=VS.85).aspx">ComboBox_GetLBTextLen</a> to retrieve the length of the string. 
 
 
 
@@ -92,7 +92,7 @@ A pointer to the buffer that will receive the string. The buffer must have suffi
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/f84e302a-65bb-45c8-958b-1cb438fb5a7a">CB_GETLBTEXT</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775862(v=VS.85).aspx">CB_GETLBTEXT</a>.
 	
 
 

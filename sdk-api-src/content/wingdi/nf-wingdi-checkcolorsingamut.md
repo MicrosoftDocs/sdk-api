@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>CheckColorsInGamut</b> function determines whether a specified set of RGB triples lies in the output <a href="g.htm">gamut</a> of a specified device. The RGB triples are interpreted in the input logical color space.
+The <b>CheckColorsInGamut</b> function determines whether a specified set of RGB triples lies in the output <a href="https://msdn.microsoft.com/en-us/library/Dd316909(v=VS.85).aspx">gamut</a> of a specified device. The RGB triples are interpreted in the input logical color space.
 
 
 ## -parameters

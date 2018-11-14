@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Enables a credential to initiate events in the Logon UI or Credential UI through a callback interface. This method should be called before other methods in <a href="https://msdn.microsoft.com/ef9bb148-0b4e-4c13-b69d-3e63a5592e4a">ICredentialProviderCredential</a> interface.
+Enables a credential to initiate events in the Logon UI or Credential UI through a callback interface. This method should be called before other methods in <a href="https://msdn.microsoft.com/en-us/library/Bb776029(v=VS.85).aspx">ICredentialProviderCredential</a> interface.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ Enables a credential to initiate events in the Logon UI or Credential UI through
 
 ### -param pcpce [in]
 
-Type: <b><a href="https://msdn.microsoft.com/258449a4-78e2-475e-ab16-6481207e7354">ICredentialProviderCredentialEvents</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb776010(v=VS.85).aspx">ICredentialProviderCredentialEvents</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/258449a4-78e2-475e-ab16-6481207e7354">ICredentialProviderCredentialEvents</a> callback interface to be used as the notification mechanism.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb776010(v=VS.85).aspx">ICredentialProviderCredentialEvents</a> callback interface to be used as the notification mechanism.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method is optional. If you do not implement this method, you should just return <b>E_NOTIMPL</b>.
 
-Credential providers that implement this method have the responsibility of calling <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> on the provided <a href="https://msdn.microsoft.com/258449a4-78e2-475e-ab16-6481207e7354">ICredentialProviderCredentialEvents</a>. Those credential providers also need to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> during the <a href="https://msdn.microsoft.com/29e01ef4-3186-4f9a-9898-b7424bba2b61">UnAdvise</a> method.
+Credential providers that implement this method have the responsibility of calling <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on the provided <a href="https://msdn.microsoft.com/en-us/library/Bb776010(v=VS.85).aspx">ICredentialProviderCredentialEvents</a>. Those credential providers also need to call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> during the <a href="https://msdn.microsoft.com/en-us/library/Bb776036(v=VS.85).aspx">UnAdvise</a> method.
 
 
 
@@ -100,11 +100,11 @@ Credential providers that implement this method have the responsibility of calli
 
 
 
-<a href="https://msdn.microsoft.com/ef9bb148-0b4e-4c13-b69d-3e63a5592e4a">ICredentialProviderCredential</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776029(v=VS.85).aspx">ICredentialProviderCredential</a>
 
 
 
-<a href="https://msdn.microsoft.com/29e01ef4-3186-4f9a-9898-b7424bba2b61">ICredentialProviderCredential::UnAdvise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776036(v=VS.85).aspx">ICredentialProviderCredential::UnAdvise</a>
  
 
  

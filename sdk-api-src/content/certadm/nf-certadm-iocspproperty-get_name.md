@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-For possible values of <i>pVal</i>, see <a href="https://msdn.microsoft.com/d792283b-dde9-46b7-8483-b3011b4433eb">OCSPServiceProperties</a> or <a href="https://msdn.microsoft.com/60ac0123-9696-4893-ae2a-278b4e70c098">ProviderProperties</a>.
+For possible values of <i>pVal</i>, see <a href="https://msdn.microsoft.com/en-us/library/Aa386325(v=VS.85).aspx">OCSPServiceProperties</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa386372(v=VS.85).aspx">ProviderProperties</a>.
 
 
 
@@ -81,7 +81,7 @@ For possible values of <i>pVal</i>, see <a href="https://msdn.microsoft.com/d792
 
 
 
-<a href="https://msdn.microsoft.com/854848f0-ea89-4c25-a8a5-40f1e4d229be">IOCSPProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386391(v=VS.85).aspx">IOCSPProperty</a>
  
 
  

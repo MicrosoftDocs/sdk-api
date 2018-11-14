@@ -69,7 +69,7 @@ Retrieves the name of the file that contains the reply data from the server appl
 ### -param pReplyFileName [out]
 
 Null-terminated string that contains the full path to the reply file. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>pReplyFileName</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>pReplyFileName</i> when done.
 
 
 ## -returns
@@ -116,11 +116,11 @@ This method is not implemented for jobs of type <b>BG_JOB_TYPE_DOWNLOAD</b> or <
 
 
 To specify a reply file name, call the 
-<a href="https://msdn.microsoft.com/9f8591a3-ecc2-497a-ac12-67e5862efde4">IBackgroundCopyJob2::SetReplyFileName</a> method. If you did not specify a name, the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa362989(v=VS.85).aspx">IBackgroundCopyJob2::SetReplyFileName</a> method. If you did not specify a name, the 
 <b>GetReplyFileName</b> method returns the name that BITS generated for you. If you did not specify a name and you called this method before adding a file to the job, <i>pReplyFileName</i> is set to <b>NULL</b>.
 
 You must call the 
-<a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">IBackgroundCopyJob::Complete</a> method before opening and reading the reply file; the reply file is not available to the client until you call the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa363021(v=VS.85).aspx">IBackgroundCopyJob::Complete</a> method before opening and reading the reply file; the reply file is not available to the client until you call the 
 <b>Complete</b> method.
 
 The file is empty if the server application did not provide a reply.
@@ -130,7 +130,7 @@ The file is empty if the server application did not provide a reply.
 
 For an example that uses the 
 <b>GetReplyFileName</b> method, see 
-<a href="https://msdn.microsoft.com/bab28a2c-1e2f-4b76-9dc6-57df26f7efec">Retrieving the Reply From an Upload-Reply Job</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363150(v=VS.85).aspx">Retrieving the Reply From an Upload-Reply Job</a>.
 
 <div class="code"></div>
 
@@ -141,11 +141,11 @@ For an example that uses the
 
 
 
-<a href="https://msdn.microsoft.com/f29df35f-48c2-4837-9809-46bd04f08bfb">IBackgroundCopyJob2::GetReplyData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362983(v=VS.85).aspx">IBackgroundCopyJob2::GetReplyData</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f8591a3-ecc2-497a-ac12-67e5862efde4">IBackgroundCopyJob2::SetReplyFileName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362989(v=VS.85).aspx">IBackgroundCopyJob2::SetReplyFileName</a>
  
 
  

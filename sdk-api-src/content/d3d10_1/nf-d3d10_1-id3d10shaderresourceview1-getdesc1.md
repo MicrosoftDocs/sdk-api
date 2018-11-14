@@ -68,9 +68,9 @@ Get the shader resource view's description.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/788a696d-5e39-4f7b-a7dd-860671a6d2b8">D3D10_SHADER_RESOURCE_VIEW_DESC1</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb694534(v=VS.85).aspx">D3D10_SHADER_RESOURCE_VIEW_DESC1</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/788a696d-5e39-4f7b-a7dd-860671a6d2b8">D3D10_SHADER_RESOURCE_VIEW_DESC1</a> structure to be filled with data about the shader resource view.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb694534(v=VS.85).aspx">D3D10_SHADER_RESOURCE_VIEW_DESC1</a> structure to be filled with data about the shader resource view.
 
 
 ## -returns
@@ -96,7 +96,7 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/601e8261-11d5-4c2a-a0ef-f498327feb13">ID3D10ShaderResourceView1 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb694557(v=VS.85).aspx">ID3D10ShaderResourceView1 Interface</a>
  
 
  

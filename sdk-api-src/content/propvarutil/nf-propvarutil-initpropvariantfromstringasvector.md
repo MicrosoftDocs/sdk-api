@@ -100,7 +100,7 @@ If <i>psz</i> is <b>NULL</b> or contains no values, the <a href="https://msdn.mi
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -127,19 +127,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
 
 
 
-<a href="shell.InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
 
 
 
-<a href="shell.InitVariantFromStringArray">InitVariantFromStringArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762336(v=VS.85).aspx">InitVariantFromStringArray</a>
 
 
 
-<a href="shell.PropVariantToStringVector">PropVariantToStringVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776561(v=VS.85).aspx">PropVariantToStringVector</a>
  
 
  

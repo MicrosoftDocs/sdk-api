@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>IWiaItem::FindItemByName</b> method searches an item's tree of sub-items using the name as the search key. Each <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> object has a name as one of its standard properties.
+The <b>IWiaItem::FindItemByName</b> method searches an item's tree of sub-items using the name as the search key. Each <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> object has a name as one of its standard properties.
 
 
 ## -parameters
@@ -82,9 +82,9 @@ Specifies the name of the item for which to search.
 
 ### -param ppIWiaItem [out]
 
-Type: <b><a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a>**</b>
 
-Pointer to the <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> interface.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> interface.
 
 
 ## -returns
@@ -102,7 +102,7 @@ This method returns S_OK if it finds the item, or S_FALSE if it does not find th
 
 
 
-This method searches the current item's tree of sub-items using the name as the search key. If <b>IWiaItem::FindItemByName</b> finds the item specified by <i>bstrFullItemName</i>, it stores the address of a pointer to the <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> interface of the item in the <i>ppIWiaItem</i> parameter.
+This method searches the current item's tree of sub-items using the name as the search key. If <b>IWiaItem::FindItemByName</b> finds the item specified by <i>bstrFullItemName</i>, it stores the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> interface of the item in the <i>ppIWiaItem</i> parameter.
 
 Applications must call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIWiaItem</i> parameter.
 

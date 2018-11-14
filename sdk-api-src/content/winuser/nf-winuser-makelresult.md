@@ -85,15 +85,15 @@ The high-order word of the new value.
 
 
 
-<a href="https://msdn.microsoft.com/161979a1-296c-47ed-bf41-74a561b5ba05">MAKELONG</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632660(v=VS.85).aspx">MAKELONG</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8107ab0-b800-45de-b705-8439d0c9c0d7">MAKELPARAM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632661(v=VS.85).aspx">MAKELPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/029f334b-53f6-46cf-8fa7-613bf241d0e6">MAKEWPARAM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632664(v=VS.85).aspx">MAKEWPARAM</a>
 
 
 

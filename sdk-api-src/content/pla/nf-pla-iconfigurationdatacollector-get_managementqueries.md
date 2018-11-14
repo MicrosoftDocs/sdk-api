@@ -72,7 +72,7 @@ This property is read/write.
 
 
 
-For details on writing WMI queries, see <a href="wmi.sql_for_wmi">WQL (SQL for WMI)</a>.
+For details on writing WMI queries, see <a href="https://msdn.microsoft.com/en-us/library/Aa394606(v=VS.85).aspx">WQL (SQL for WMI)</a>.
 
 
 

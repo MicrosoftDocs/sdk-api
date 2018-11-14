@@ -68,7 +68,7 @@ Creates an icon or cursor from resource bits describing the icon.
 
 Type: <b>PBYTE</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://msdn.microsoft.com/5ab25565-30a5-4d4f-bf41-2ce3948d6f2f">LookupIconIdFromDirectoryEx</a> and <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a> functions. 
+The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> and <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a> functions. 
 
 
 ### -param dwResSize [in]
@@ -188,14 +188,14 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The <a href="https://msdn.microsoft.com/c5a1c301-0b1f-49b7-9648-9cf706b74e05">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="https://msdn.microsoft.com/adef864c-22f5-4d72-adc7-02d9b7a09e86">CreateIconIndirect</a>, <a href="https://msdn.microsoft.com/94cc619b-1ca8-4268-9af3-d10d221e093e">GetIconInfo</a>, and <a href="https://msdn.microsoft.com/5ab25565-30a5-4d4f-bf41-2ce3948d6f2f">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms648060(v=VS.85).aspx">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="https://msdn.microsoft.com/en-us/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>, <a href="https://msdn.microsoft.com/en-us/library/ms648070(v=VS.85).aspx">GetIconInfo</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
 
-You should call <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
+You should call <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
 
 
 #### Examples
 
-For an example, see <a href="using_icons.htm">Sharing Icon Resources</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648051(v=VS.85).aspx">Sharing Icon Resources</a>.
 
 <div class="code"></div>
 
@@ -214,31 +214,31 @@ For an example, see <a href="using_icons.htm">Sharing Icon Resources</a>.
 
 
 
-<a href="https://msdn.microsoft.com/c5a1c301-0b1f-49b7-9648-9cf706b74e05">CreateIconFromResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648060(v=VS.85).aspx">CreateIconFromResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/adef864c-22f5-4d72-adc7-02d9b7a09e86">CreateIconIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/94cc619b-1ca8-4268-9af3-d10d221e093e">GetIconInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648070(v=VS.85).aspx">GetIconInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dc588f4-b032-40a8-82ef-5b9fc04abb0b">Icons</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ab25565-30a5-4d4f-bf41-2ce3948d6f2f">LookupIconIdFromDirectoryEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a>
 
 
 

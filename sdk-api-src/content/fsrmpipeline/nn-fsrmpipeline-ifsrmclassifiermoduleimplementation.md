@@ -149,7 +149,7 @@ Specifies the collection of rules and relevant property definitions the classifi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/edda630a-947d-4c81-b4d5-c02b3ba02f10">LastModified</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd878724(v=VS.85).aspx">LastModified</a>
 
 
 </td>

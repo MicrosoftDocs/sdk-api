@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Determines whether the list-view control has a specified group. You can use this macro or send the <a href="https://msdn.microsoft.com/0b8a9208-5221-4f66-8b26-7de55afe485f">LVM_HASGROUP</a> message explicitly. 
+Determines whether the list-view control has a specified group. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761097(v=VS.85).aspx">LVM_HASGROUP</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Determines whether the list-view control has a specified group. You can use this
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -82,7 +82,7 @@ Type: <b>int</b>
 
 
 
-To use <b>ListView_HasGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
+To use <b>ListView_HasGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

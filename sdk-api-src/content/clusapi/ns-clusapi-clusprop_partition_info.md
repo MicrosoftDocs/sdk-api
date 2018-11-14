@@ -52,14 +52,14 @@ req.redist:
 
 Contains 
     information relevant to 
-    <a href="s_gly.htm">storage class resources</a>. It is used as an 
-    entry in a <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value list</a> and consists of:
+    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resources</a>. It is used as an 
+    entry in a <a href="https://msdn.microsoft.com/en-us/library/Aa373112(v=VS.85).aspx">value list</a> and consists of:
 <ul>
-<li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure describing the format, 
+<li>A <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> structure describing the format, 
      type, and length of the partition information.</li>
-<li>A <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure.</li>
-</ul>For convenience, the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> and 
-    <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> members are listed 
+<li>A <a href="https://msdn.microsoft.com/en-us/library/Aa369186(v=VS.85).aspx">CLUS_PARTITION_INFO</a> structure.</li>
+</ul>For convenience, the <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> and 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369186(v=VS.85).aspx">CLUS_PARTITION_INFO</a> members are listed 
     explicitly.
 
 
@@ -82,20 +82,20 @@ Contains
 
 #### - Syntax
 
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a value 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> structure with a value 
        of <b>CLUSPROP_SYNTAX_PARTITION_INFO</b> (0x00080001).
 
 
 #### - cbLength
 
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> structure indicating 
       the count of bytes in the 
       <b>CLUSPROP_PARTITION_INFO</b> structure.
 
 
 #### - dwFileSystemFlags
 
-Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa369186(v=VS.85).aspx">CLUS_PARTITION_INFO</a> structure 
        that describes the file system. One or more of the following flags are valid.
 
 
@@ -125,9 +125,9 @@ The file system preserves and enforces access control lists (ACLs).
 
 #### - dwFlags
 
-Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa369186(v=VS.85).aspx">CLUS_PARTITION_INFO</a> structure 
        that describes the storage class resource, enumerated by the 
-       <a href="https://msdn.microsoft.com/54597c05-57af-49ad-96e0-171f09c45a65">CLUSPROP_PIFLAGS</a> enumeration.
+       <a href="https://msdn.microsoft.com/en-us/library/Bb309114(v=VS.85).aspx">CLUSPROP_PIFLAGS</a> enumeration.
 
 
 
@@ -146,7 +146,7 @@ The storage class resource is removable.
 #### CLUSPROP_PIFLAG_USABLE (0x00000004)
 
 The storage class resource is formatted with a file system that is usable by the 
-         <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a>.
+         <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a>.
 
 
 
@@ -154,39 +154,39 @@ The storage class resource is formatted with a file system that is usable by the
 
 The partition should be used to store quorum files if no partition is specified in the 
          <a href="https://msdn.microsoft.com/1a00c09e-4470-4c02-807d-c559fd992066">SetClusterQuorumResource</a> function. For 
-         <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a> resources, the smallest NTFS partition 
+         <a href="https://msdn.microsoft.com/en-us/library/Aa371789(v=VS.85).aspx">Physical Disk</a> resources, the smallest NTFS partition 
          larger than 50MB automatically receives this flag.
 
 
 #### - dwSerialNumber
 
-Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa369186(v=VS.85).aspx">CLUS_PARTITION_INFO</a> structure 
        that describes the serial number of the storage class resource volume.
 
 
 #### - rgdwMaximumComponentLength
 
-Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa369186(v=VS.85).aspx">CLUS_PARTITION_INFO</a> structure 
        that describes the maximum length, in characters, of a file name component supported by the specified file 
        system. A file name component is that portion of a file name between backslashes.
 
 
 #### - szDeviceName
 
-Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa369186(v=VS.85).aspx">CLUS_PARTITION_INFO</a> structure 
        that describes the device name for the storage class resource, such as "C:". No backslashes 
        are included.
 
 
 #### - szFileSystem
 
-Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa369186(v=VS.85).aspx">CLUS_PARTITION_INFO</a> structure 
        that describes the name of the file system, such as "FAT" or "NTFS".
 
 
 #### - szVolumeLabel
 
-Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa369186(v=VS.85).aspx">CLUS_PARTITION_INFO</a> structure 
        that describes the volume label for the storage class resource.
 
 
@@ -195,23 +195,23 @@ Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72
 
 
 
-<a href="https://msdn.microsoft.com/54597c05-57af-49ad-96e0-171f09c45a65">CLUSPROP_PIFLAGS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309114(v=VS.85).aspx">CLUSPROP_PIFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368389(v=VS.85).aspx">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369186(v=VS.85).aspx">CLUS_PARTITION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data structures</a>
  
 
  

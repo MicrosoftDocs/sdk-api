@@ -70,10 +70,10 @@ Creates a device that represents the display adapter.
 Type: <b>IUnknown*</b>
 
 A pointer to the video adapter to use when creating a <a href="https://msdn.microsoft.com/b9b45d18-f7b7-40f9-ae4e-576ca7a6eba7">device</a>.
-            Pass <b>NULL</b> to use the default adapter, which is the first adapter that is enumerated by <a href="https://msdn.microsoft.com/23e876c7-b32a-4bc9-84c1-9e8949680e14">IDXGIFactory1::EnumAdapters</a>.
+            Pass <b>NULL</b> to use the default adapter, which is the first adapter that is enumerated by <a href="https://msdn.microsoft.com/en-us/library/Bb174538(v=VS.85).aspx">IDXGIFactory1::EnumAdapters</a>.
             
 
-<div class="alert"><b>Note</b>  Don't mix the use of DXGI 1.0 (<a href="https://msdn.microsoft.com/642aac36-ca5a-4c62-b5cb-f9d35965ca2f">IDXGIFactory</a>) and DXGI 1.1 (<a href="https://msdn.microsoft.com/271f1877-25a7-4d32-9ffa-cb174b366b74">IDXGIFactory1</a>) in an application.
+<div class="alert"><b>Note</b>  Don't mix the use of DXGI 1.0 (<a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>) and DXGI 1.1 (<a href="https://msdn.microsoft.com/271f1877-25a7-4d32-9ffa-cb174b366b74">IDXGIFactory1</a>) in an application.
               Use <b>IDXGIFactory</b> or <b>IDXGIFactory1</b>, but not both in an application.
             </div>
 <div> </div>
@@ -107,12 +107,12 @@ A pointer to a memory block that receives a pointer to the device.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method can return one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
-Possible return values include those documented for <a href="https://msdn.microsoft.com/6fb9d7a3-0b59-4b7a-8871-b99d59811d46">CreateDXGIFactory1</a> and  <a href="https://msdn.microsoft.com/23e876c7-b32a-4bc9-84c1-9e8949680e14">IDXGIFactory::EnumAdapters</a>.
+Possible return values include those documented for <a href="https://msdn.microsoft.com/6fb9d7a3-0b59-4b7a-8871-b99d59811d46">CreateDXGIFactory1</a> and  <a href="https://msdn.microsoft.com/en-us/library/Bb174538(v=VS.85).aspx">IDXGIFactory::EnumAdapters</a>.
           
 
 
@@ -151,7 +151,7 @@ The function signature PFN_D3D12_CREATE_DEVICE is provided as a typedef, so that
       
 
 The <b>REFIID</b>, or <b>GUID</b>, of the interface to a device can be obtained by using the<code> __uuidof()</code> macro.
-        For example, <code>__uuidof</code>(<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>) will get the <b>GUID</b> of the interface to a device.
+        For example, <code>__uuidof</code>(<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>) will get the <b>GUID</b> of the interface to a device.
       
 
 
@@ -191,7 +191,7 @@ else
 ```
 
 
-Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>. 
+Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>. 
 
 <div class="code"></div>
 
@@ -202,11 +202,11 @@ Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A
 
 
 
-<a href="https://msdn.microsoft.com/C0F9A52C-483D-40B2-9E1F-CB92ADDC2856">Core Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770456(v=VS.85).aspx">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">Working Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">Working Samples</a>
  
 
  

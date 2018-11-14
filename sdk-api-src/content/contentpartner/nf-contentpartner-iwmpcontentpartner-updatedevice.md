@@ -108,7 +108,7 @@ The method succeeded.
 
 
 
-You must call <a href="https://msdn.microsoft.com/0d21d9a0-1a7c-4f4e-9c9d-36a0d30ea63f">IWMPContentPartnerCallback::UpdateDeviceComplete</a> exactly once for each call to <b>UpdateDevice</b> from which you return a success code.
+You must call <a href="https://msdn.microsoft.com/en-us/library/Dd563154(v=VS.85).aspx">IWMPContentPartnerCallback::UpdateDeviceComplete</a> exactly once for each call to <b>UpdateDevice</b> from which you return a success code.
 
 
 
@@ -118,7 +118,7 @@ You must call <a href="https://msdn.microsoft.com/0d21d9a0-1a7c-4f4e-9c9d-36a0d3
 
 
 
-<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>WebEnrollmentFlags</b> enumeration specifies web enrollment behavior. It is used by the <a href="https://msdn.microsoft.com/4f178df7-714f-49e6-9bf5-647acc23b0ad">Enroll</a> method on the <a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a> interface.
+The <b>WebEnrollmentFlags</b> enumeration specifies web enrollment behavior. It is used by the <a href="https://msdn.microsoft.com/en-us/library/Ee351690(v=VS.85).aspx">Enroll</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Ee351687(v=VS.85).aspx">IX509EnrollmentHelper</a> interface.
 
 
 ## -enum-fields
@@ -60,7 +60,7 @@ The <b>WebEnrollmentFlags</b> enumeration specifies web enrollment behavior. It 
 
 ### -field EnrollPrompt
 
-If this flag is set and no authentication credential is available for the certificate enrollment server, the certificate service prompts for a credential. If there is no authentication credential and this flag is not set, the <a href="https://msdn.microsoft.com/4f178df7-714f-49e6-9bf5-647acc23b0ad">Enroll</a> method fails.
+If this flag is set and no authentication credential is available for the certificate enrollment server, the certificate service prompts for a credential. If there is no authentication credential and this flag is not set, the <a href="https://msdn.microsoft.com/en-us/library/Ee351690(v=VS.85).aspx">Enroll</a> method fails.
 
 
 ## -see-also
@@ -68,11 +68,11 @@ If this flag is set and no authentication credential is available for the certif
 
 
 
-<a href="https://msdn.microsoft.com/4f178df7-714f-49e6-9bf5-647acc23b0ad">Enroll</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351690(v=VS.85).aspx">Enroll</a>
 
 
 
-<a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351687(v=VS.85).aspx">IX509EnrollmentHelper</a>
  
 
  

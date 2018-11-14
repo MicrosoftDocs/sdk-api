@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/a0d0a0d5-a519-4495-a87a-2438c4590e4c">MCM_GETSELRANGE</a> message explicitly. 
+Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760985(v=VS.85).aspx">MCM_GETSELRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Retrieves date information that represents the upper and lower limits of the dat
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to a month calendar control. 
 

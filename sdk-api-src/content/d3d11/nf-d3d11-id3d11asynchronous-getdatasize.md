@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">ID3D11DeviceContext::GetData</a>.
+Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/en-us/library/Ff476428(v=VS.85).aspx">ID3D11DeviceContext::GetData</a>.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ Get the size of the data (in bytes) that is output when calling <a href="https:/
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Size of the data (in bytes) that is output when calling GetData.
 
@@ -85,7 +85,7 @@ Size of the data (in bytes) that is output when calling GetData.
 
 
 
-<a href="https://msdn.microsoft.com/37ff9dc0-5ec2-4cd5-b252-44e2dac45355">ID3D11Asynchronous</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476347(v=VS.85).aspx">ID3D11Asynchronous</a>
  
 
  

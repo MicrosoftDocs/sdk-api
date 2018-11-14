@@ -60,7 +60,7 @@ req.redist:
 ## -description
 
 
-The <b>DeleteColorSpace</b> function removes and destroys a specified <a href="c.htm">color space</a>.
+The <b>DeleteColorSpace</b> function removes and destroys a specified <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a>.
 
 
 ## -parameters

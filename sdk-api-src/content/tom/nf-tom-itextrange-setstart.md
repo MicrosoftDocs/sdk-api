@@ -91,7 +91,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 Note that if <i>cpFirst</i> is greater than the range's end position, this method sets the end position equal to <i>cpFirst</i>, making the range an insertion point. If this range is the selection, the start position becomes the active end and is scrolled into view if the display isn't frozen.
 
 
-<a href="https://msdn.microsoft.com/d84f9fd8-ac3c-4b26-a745-7528c7ba0bb3">ITextRange::SetEnd</a> sets the range's end position, and <a href="https://msdn.microsoft.com/aad455a2-bcc1-45f8-b376-c9785400c248">ITextRange::SetRange</a> sets both range ends simultaneously. The following example shows how to convert a nondegenerate range into a degenerate one (insertion point).
+<a href="https://msdn.microsoft.com/en-us/library/Bb774139(v=VS.85).aspx">ITextRange::SetEnd</a> sets the range's end position, and <a href="https://msdn.microsoft.com/en-us/library/Bb787805(v=VS.85).aspx">ITextRange::SetRange</a> sets both range ends simultaneously. The following example shows how to convert a nondegenerate range into a degenerate one (insertion point).
 
 <code>range.End = range.Start</code>
 
@@ -115,11 +115,11 @@ This also makes the end position the active end of the range, and it can turn a 
 
 
 
-<a href="https://msdn.microsoft.com/55c6785f-1e56-4e9d-86bb-d6f963c693b5">GetStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774026(v=VS.85).aspx">GetStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
@@ -127,15 +127,15 @@ This also makes the end position the active end of the range, and it can turn a 
 
 
 
-<a href="https://msdn.microsoft.com/d84f9fd8-ac3c-4b26-a745-7528c7ba0bb3">SetEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774139(v=VS.85).aspx">SetEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/aad455a2-bcc1-45f8-b376-c9785400c248">SetRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787805(v=VS.85).aspx">SetRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

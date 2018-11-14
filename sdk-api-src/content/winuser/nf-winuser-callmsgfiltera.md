@@ -62,7 +62,7 @@ req.redist:
 ## -description
 
 
-Passes the specified message and hook code to the hook procedures associated with the <a href="about_hooks.htm">WH_SYSMSGFILTER and WH_MSGFILTER</a> hooks. A <b>WH_SYSMSGFILTER</b> or <b>WH_MSGFILTER</b> hook procedure is an application-defined callback function that examines and, optionally, modifies messages for a dialog box, message box, menu, or scroll bar.
+Passes the specified message and hook code to the hook procedures associated with the <a href="https://msdn.microsoft.com/en-us/library/ms644959(v=VS.85).aspx">WH_SYSMSGFILTER and WH_MSGFILTER</a> hooks. A <b>WH_SYSMSGFILTER</b> or <b>WH_MSGFILTER</b> hook procedure is an application-defined callback function that examines and, optionally, modifies messages for a dialog box, message box, menu, or scroll bar.
 
 
 ## -parameters
@@ -74,14 +74,14 @@ Passes the specified message and hook code to the hook procedures associated wit
 
 Type: <b>LPMSG</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure that contains the message to be passed to the hook procedures. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains the message to be passed to the hook procedures. 
 
 
 ### -param nCode [in]
 
 Type: <b>int</b>
 
-An application-defined code used by the hook procedure to determine how to process the message. The code must not have the same value as system-defined hook codes (MSGF_ and HC_) associated with the <a href="about_hooks.htm">WH_SYSMSGFILTER</a> and <b>WH_MSGFILTER</b> hooks. 
+An application-defined code used by the hook procedure to determine how to process the message. The code must not have the same value as system-defined hook codes (MSGF_ and HC_) associated with the <a href="https://msdn.microsoft.com/en-us/library/ms644959(v=VS.85).aspx">WH_SYSMSGFILTER</a> and <b>WH_MSGFILTER</b> hooks. 
 
 
 ## -returns
@@ -104,12 +104,12 @@ If the application should not process the message further, the return value is n
 
 The system calls <b>CallMsgFilter</b> to enable applications to examine and control the flow of messages during internal processing of dialog boxes, message boxes, menus, and scroll bars, or when the user activates a different window by pressing the ALT+TAB key combination. 
 
-Install this hook procedure by using the <a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a> function. 
+Install this hook procedure by using the <a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="about_hooks.htm">WH_MSGFILTER and WH_SYSMSGFILTER Hooks</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644959(v=VS.85).aspx">WH_MSGFILTER and WH_SYSMSGFILTER Hooks</a>.
 
 <div class="code"></div>
 
@@ -124,15 +124,15 @@ For an example, see <a href="about_hooks.htm">WH_MSGFILTER and WH_SYSMSGFILTER H
 
 
 
-<a href="https://msdn.microsoft.com/987095d7-059f-4eae-925d-6723ab6d524c">Hooks</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
 
 
 
-<a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>
 
 
 
-<a href="https://msdn.microsoft.com/20f8511d-8160-4565-99b3-d373501b1bd1">MessageProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644987(v=VS.85).aspx">MessageProc</a>
 
 
 
@@ -140,11 +140,11 @@ For an example, see <a href="about_hooks.htm">WH_MSGFILTER and WH_SYSMSGFILTER H
 
 
 
-<a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ed3a4f0-8b7e-4896-b8d4-b5f071de895d">SysMsgProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644992(v=VS.85).aspx">SysMsgProc</a>
  
 
  

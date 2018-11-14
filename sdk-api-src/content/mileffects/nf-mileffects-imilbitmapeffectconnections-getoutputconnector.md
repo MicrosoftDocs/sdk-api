@@ -75,7 +75,7 @@ A zero based index value indicating which output pin to use to retrieve the outp
 
 ### -param ppConnector [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18f">IMILBitmapEffectOutputConnector</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a>**</b>
 
 When this method returns, contains the output connector for the given output pin.
 

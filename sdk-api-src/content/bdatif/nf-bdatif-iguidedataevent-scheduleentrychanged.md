@@ -71,7 +71,7 @@ The <b>ScheduleEntryChanged</b> method is called by the TIF when information abo
 
 ### -param varScheduleEntryDescriptionID [in]
 
-Specifies the unique identifier of the program that has changed. Call <a href="https://msdn.microsoft.com/7fe01a0b-8101-40a2-97ee-e0f5c9d8d1a0">IGuideData::GetScheduleEntryProperties</a> to get information about the program. The value of this parameter may be an empty <b>VARIANT</b> type (VT_EMPTY); if so, examine all of the programs to determine which ones have changed.
+Specifies the unique identifier of the program that has changed. Call <a href="https://msdn.microsoft.com/en-us/library/Dd694115(v=VS.85).aspx">IGuideData::GetScheduleEntryProperties</a> to get information about the program. The value of this parameter may be an empty <b>VARIANT</b> type (VT_EMPTY); if so, examine all of the programs to determine which ones have changed.
 
 
 ## -returns
@@ -88,11 +88,11 @@ Return S_OK if successful, or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/9da565f2-fbcb-4d71-ae40-7d9821f46630">IGuideDataEvent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694099(v=VS.85).aspx">IGuideDataEvent Interface</a>
  
 
  

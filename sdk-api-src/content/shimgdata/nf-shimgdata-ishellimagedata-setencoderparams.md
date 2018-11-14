@@ -68,9 +68,9 @@ Sets encoder parameters.
 
 ### -param pbagEnc [in]
 
-Type: <b><a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
 
-A pointer to an <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> containing the encoder properties.
+A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> containing the encoder properties.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Always returns<b> S_OK</b>.
 
 
 
-The <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> passed in <i>pbagEnc</i> is used during a save operation. The image and any edits made to it, such as <a href="https://msdn.microsoft.com/42fd8596-e130-4029-bf3c-67199e8dd804">Rotate</a> or <a href="https://msdn.microsoft.com/ebcc9cc1-b6ee-4fb9-9125-54d6a9ee9434">Scale</a>, can be saved by calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> for either <a href="https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546">IPersistFile</a> or <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a> and calling their <b>Save</b> method.
+The <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> passed in <i>pbagEnc</i> is used during a save operation. The image and any edits made to it, such as <a href="https://msdn.microsoft.com/42fd8596-e130-4029-bf3c-67199e8dd804">Rotate</a> or <a href="https://msdn.microsoft.com/ebcc9cc1-b6ee-4fb9-9125-54d6a9ee9434">Scale</a>, can be saved by calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> for either <a href="https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546">IPersistFile</a> or <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a> and calling their <b>Save</b> method.
 
 
 

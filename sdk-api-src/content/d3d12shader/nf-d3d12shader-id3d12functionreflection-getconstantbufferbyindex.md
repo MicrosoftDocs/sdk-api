@@ -68,7 +68,7 @@ Gets a constant buffer by index for a function.
 
 ### -param BufferIndex [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Zero-based index.
 
@@ -77,9 +77,9 @@ Zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933680(v=VS.85).aspx">ID3D12ShaderReflectionConstantBuffer</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a> interface that represents the constant buffer.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn933680(v=VS.85).aspx">ID3D12ShaderReflectionConstantBuffer</a> interface that represents the constant buffer.
           
 
 
@@ -102,7 +102,7 @@ A constant buffer supplies either scalar constants or texture constants to a sha
 
 
 
-<a href="https://msdn.microsoft.com/F0BF4AA9-66D7-4A33-A51C-B03C1D61F537">ID3D12FunctionReflection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933668(v=VS.85).aspx">ID3D12FunctionReflection</a>
  
 
  

@@ -86,7 +86,7 @@ The pointer to the handle of the created batch.
 
 
 The function returns one of the following 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
 
 
 

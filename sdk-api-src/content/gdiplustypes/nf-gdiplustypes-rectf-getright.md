@@ -86,31 +86,31 @@ This method returns the x-coordinate of the right edge of the rectangle.
 
 
 
-<a href="https://msdn.microsoft.com/dbd3dd3e-e735-4dd0-888d-ab3f3ee185f1">GetBottom</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534964(v=VS.85).aspx">GetBottom</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b03a86b-370b-4da6-b287-5031fe7ff285">GetLeft</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534966(v=VS.85).aspx">GetLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c23c2ab-edbe-45c4-99bb-6fb3e39ebaba">GetTop</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534970(v=VS.85).aspx">GetTop</a>
 
 
 
-<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

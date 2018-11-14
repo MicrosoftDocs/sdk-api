@@ -88,7 +88,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-You can also set the default paragraph formatting by calling <a href="https://msdn.microsoft.com/1952c4b7-9f78-49a9-ba4b-a9c666fa1010">ITextPara::Reset(tomDefault)</a>.
+You can also set the default paragraph formatting by calling <a href="https://msdn.microsoft.com/en-us/library/Bb787849(v=VS.85).aspx">ITextPara::Reset(tomDefault)</a>.
 
 
 

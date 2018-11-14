@@ -61,7 +61,7 @@ req.redist:
 
 The <b>_NewEnum</b> property gets an enumerator for the configuration set.
 
-To enumerate the collection of properties in C++, use the <a href="https://msdn.microsoft.com/28cf1108-42a8-41d1-baf4-140b5789fb24">Count</a> and <a href="https://msdn.microsoft.com/33fce781-f65d-433a-b2ba-0f694cee1220">Item</a> properties defined by the <a href="https://msdn.microsoft.com/4e232c34-b5ab-4269-903b-189aac5a8ddc">IOCSPCAConfigurationCollection</a> interface.
+To enumerate the collection of properties in C++, use the <a href="https://msdn.microsoft.com/en-us/library/Aa386399(v=VS.85).aspx">Count</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa386423(v=VS.85).aspx">Item</a> properties defined by the <a href="https://msdn.microsoft.com/en-us/library/Aa386330(v=VS.85).aspx">IOCSPCAConfigurationCollection</a> interface.
 
 This property is read-only.
 
@@ -74,7 +74,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/4e232c34-b5ab-4269-903b-189aac5a8ddc">IOCSPCAConfigurationCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386330(v=VS.85).aspx">IOCSPCAConfigurationCollection</a>
  
 
  

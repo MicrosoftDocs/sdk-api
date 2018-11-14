@@ -73,10 +73,10 @@ Gets a bit field of flags that indicates which debug features are on or off.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/36E0A5DC-8313-4D9D-988C-21E6FFCC8730">D3D12_DEBUG_FEATURE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn950141(v=VS.85).aspx">D3D12_DEBUG_FEATURE</a></b>
 
 Mask of feature-mask flags,
-            as a bitwise OR'ed combination of <a href="https://msdn.microsoft.com/36E0A5DC-8313-4D9D-988C-21E6FFCC8730">D3D12_DEBUG_FEATURE</a> enumeration constants.
+            as a bitwise OR'ed combination of <a href="https://msdn.microsoft.com/en-us/library/Dn950141(v=VS.85).aspx">D3D12_DEBUG_FEATURE</a> enumeration constants.
             If a flag is present, then that feature will be set to on, otherwise the feature will be set to off. 
           
 
@@ -88,11 +88,11 @@ Mask of feature-mask flags,
 
 
 
-<a href="https://msdn.microsoft.com/6FD77F14-E260-4DBB-8434-664DE1F6DE39">ID3D12DebugDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn986873(v=VS.85).aspx">ID3D12DebugDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/12232AB8-BBEA-4663-BEB2-7E296851FE5E">ID3D12DebugDevice::SetFeatureMask</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn986876(v=VS.85).aspx">ID3D12DebugDevice::SetFeatureMask</a>
  
 
  

@@ -59,7 +59,7 @@ req.product: Windows UI
 ## -description
 
 
-Called when the state of a  <a href="https://msdn.microsoft.com/e7549b8b-0f95-477a-9024-1a99ee1412c2">View</a> changes.
+Called when the state of a  <a href="https://msdn.microsoft.com/en-us/library/Dd371600(v=VS.85).aspx">View</a> changes.
 
 
 ## -parameters
@@ -77,15 +77,15 @@ The ID for the View.
 
 ### -param typeID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9df0b3b7-f41b-4f0b-aa04-307b2eb7652a">UI_VIEWTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371586(v=VS.85).aspx">UI_VIEWTYPE</a></b>
 
-The <a href="https://msdn.microsoft.com/9df0b3b7-f41b-4f0b-aa04-307b2eb7652a">UI_VIEWTYPE</a> hosted by the application.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371586(v=VS.85).aspx">UI_VIEWTYPE</a> hosted by the application.
 				
 
 
 ### -param view [in]
 
-Type: <b><a href="_com_iunknown">IUnknown</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
 A pointer to the View interface.
 				
@@ -93,9 +93,9 @@ A pointer to the View interface.
 
 ### -param verb [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9245db43-1bd3-488f-b50b-c56576108109">UI_VIEWVERB</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371588(v=VS.85).aspx">UI_VIEWVERB</a></b>
 
-The <a href="https://msdn.microsoft.com/9245db43-1bd3-488f-b50b-c56576108109">UI_VIEWVERB</a> (or action) performed by the View.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371588(v=VS.85).aspx">UI_VIEWVERB</a> (or action) performed by the View.
 				
 
 
@@ -125,7 +125,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This callback notification is sent by the framework to the host application on each View state change.
 			
 
-<div class="alert"><b>Important</b>  This callback only occurs for the <a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon View</a> with a <i>viewId</i> of 0.</div>
+<div class="alert"><b>Important</b>  This callback only occurs for the <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon View</a> with a <i>viewId</i> of 0.</div>
 <div> </div>
 <b>IUIApplication::OnViewChanged</b> is useful for initializing Ribbon properties when the host application starts, modifying Ribbon properties based on user actions, such as resizing the application window, and querying Ribbon properties when the application closes. 
 
@@ -221,11 +221,11 @@ STDMETHODIMP CApplication::OnViewChanged(
 
 
 
-<a href="https://msdn.microsoft.com/0df1d890-cc78-4375-a17e-6fe7c0249107">IUIApplication</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371528(v=VS.85).aspx">IUIApplication</a>
 
 
 
-<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

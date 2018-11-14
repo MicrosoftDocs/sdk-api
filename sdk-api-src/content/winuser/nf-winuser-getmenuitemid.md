@@ -102,11 +102,11 @@ The return value is the identifier of the specified menu item. If the menu item 
 
 
 
-<a href="https://msdn.microsoft.com/6a1d542e-b955-48aa-a3b8-e348fefd6f14">GetMenuItemCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647978(v=VS.85).aspx">GetMenuItemCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
 
 
 

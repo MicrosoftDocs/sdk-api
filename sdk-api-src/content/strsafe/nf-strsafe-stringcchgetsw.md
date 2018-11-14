@@ -115,7 +115,7 @@ Characters were read from stdin, were copied to the buffer at <i>pszDest</i>, an
 </dl>
 </td>
 <td width="60%">
-Indicates an error or end-of-file condition. Use <a href="09081eee-7c4b-4189-861f-2fad95d3ec6d">feof</a> or <a href="528a34bc-f2aa-4c3f-b89a-5b148e6864f7">ferror</a> to determine which one has occurred.
+Indicates an error or end-of-file condition. Use <a href="https://msdn.microsoft.com/library/xssktc6e(v=VS.100).aspx">feof</a> or <a href="https://msdn.microsoft.com/library/y2wc3w90(v=VS.100).aspx">ferror</a> to determine which one has occurred.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 <b>StringCchGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchGets</b>always null-terminates a nonzero-length destination buffer.
 
-The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/12937a53-377d-46a7-88fb-124ade72f866">StringCchGetsEx</a> if you require the handling of null string pointer values.
+The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/en-us/library/ms647538(v=VS.85).aspx">StringCchGetsEx</a> if you require the handling of null string pointer values.
 
 <b>StringCchGets</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use, as shown in the following table.
 
@@ -195,11 +195,11 @@ The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/6dea3433-9d63-40b0-907a-c79dd11ecd6f">StringCbGets</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647505(v=VS.85).aspx">StringCbGets</a>
 
 
 
-<a href="https://msdn.microsoft.com/12937a53-377d-46a7-88fb-124ade72f866">StringCchGetsEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647538(v=VS.85).aspx">StringCchGetsEx</a>
  
 
  

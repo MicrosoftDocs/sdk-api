@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a> object.
+The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/en-us/library/Ee351687(v=VS.85).aspx">IX509EnrollmentHelper</a> object.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/
 
 ### -param Context [in]
 
-An <a href="https://msdn.microsoft.com/2db0e129-a566-47ba-ab57-53c7db09e8e3">X509CertificateEnrollmentContext</a> enumeration value that specifies the nature of the end entity for which the issued certificate is intended. This can be one of the following values.
+An <a href="https://msdn.microsoft.com/en-us/library/Aa379399(v=VS.85).aspx">X509CertificateEnrollmentContext</a> enumeration value that specifies the nature of the end entity for which the issued certificate is intended. This can be one of the following values.
 
 <table>
 <tr>
@@ -115,7 +115,7 @@ The certificate is being requested by an administrator acting on the behalf of a
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -144,7 +144,7 @@ The object has already been initialized.
 
 
 
-<a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351687(v=VS.85).aspx">IX509EnrollmentHelper</a>
  
 
  

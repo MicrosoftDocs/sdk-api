@@ -73,7 +73,7 @@ On input, specifies the size of the <i>pbBuffer</i> array, in bytes. On output, 
 
 ### -param pbBuffer [out]
 
-Pointer to a byte array that receives a list of service identifiers. A service identifier is a 64-bit value. To translate a service identifier into a tune request, call <a href="https://msdn.microsoft.com/5f429473-6a48-4298-b8f4-61809604ffbd">IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx</a>.
+Pointer to a byte array that receives a list of service identifiers. A service identifier is a 64-bit value. To translate a service identifier into a tune request, call <a href="https://msdn.microsoft.com/en-us/library/Dd693373(v=VS.85).aspx">IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx</a>.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5329f725-e77e-49c2-87f5-f7204d022adc">IBDA_GuideDataDeliveryService</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693368(v=VS.85).aspx">IBDA_GuideDataDeliveryService</a>
  
 
  

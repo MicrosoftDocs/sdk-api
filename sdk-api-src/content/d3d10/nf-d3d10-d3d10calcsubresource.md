@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Calculate a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a> index for a texture.
+Calculate a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> index for a texture.
 
 
 ## -parameters
@@ -66,21 +66,21 @@ Calculate a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d
 
 ### -param MipSlice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 A zero-based index into an array of subtextures; 0 indicates the first, most detailed subtexture (or mipmap level).
 
 
 ### -param ArraySlice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The zero-based index of the first texture to use (in an array of textures).
 
 
 ### -param MipLevels [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of mipmap levels (or subtextures) to use.
 
@@ -110,11 +110,11 @@ A buffer is an unstructured resource and is therefore defined as containing a si
 
 
 
-<a href="https://msdn.microsoft.com/012577cd-970e-43bc-996e-3be7c2283b60">Core Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205151(v=VS.85).aspx">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/15d6b1ba-303d-4c56-a875-30edc8c343ab">Resource Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb694532(v=VS.85).aspx">Resource Functions</a>
  
 
  

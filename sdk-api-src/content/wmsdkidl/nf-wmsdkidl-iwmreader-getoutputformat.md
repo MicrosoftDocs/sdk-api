@@ -100,7 +100,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-The Windows Media codecs can deliver media samples for a stream in a number of formats. For example, the Windows Media Video 9 codec can deliver samples in various RGB or <a href="wmformat_glossary.htm">YUV</a> formats. You can use this method in conjunction with <a href="https://msdn.microsoft.com/282c5fb6-6b8a-4a13-8a20-4926c6f68800">IWMReader::GetOutputFormatCount</a> to loop through the available formats and find the one you need.
+The Windows Media codecs can deliver media samples for a stream in a number of formats. For example, the Windows Media Video 9 codec can deliver samples in various RGB or <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">YUV</a> formats. You can use this method in conjunction with <a href="https://msdn.microsoft.com/282c5fb6-6b8a-4a13-8a20-4926c6f68800">IWMReader::GetOutputFormatCount</a> to loop through the available formats and find the one you need.
 
 To use a format returned by this method, you must call <a href="https://msdn.microsoft.com/0a5325d1-880b-4d65-96af-9d311dca989b">IWMReader::SetOutputProps</a>.
 

@@ -68,18 +68,18 @@ Get an effect-type description.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/6ed4c32f-26f7-47c0-b8dc-6520364113e9">D3D10_EFFECT_TYPE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205054(v=VS.85).aspx">D3D10_EFFECT_TYPE_DESC</a>*</b>
 
-A pointer to an effect-type description. See <a href="https://msdn.microsoft.com/6ed4c32f-26f7-47c0-b8dc-6520364113e9">D3D10_EFFECT_TYPE_DESC</a>.
+A pointer to an effect-type description. See <a href="https://msdn.microsoft.com/en-us/library/Bb205054(v=VS.85).aspx">D3D10_EFFECT_TYPE_DESC</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -98,7 +98,7 @@ The effect-variable description contains data about the name, annotations, seman
 
 
 
-<a href="https://msdn.microsoft.com/8b396c86-82de-4a0e-8b86-228e3716c09b">ID3D10EffectType Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173716(v=VS.85).aspx">ID3D10EffectType Interface</a>
  
 
  

@@ -82,7 +82,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/f870557e-0e01-4f5c-81be-c709e397e5fd">ICameraUIControlEventCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802718(v=VS.85).aspx">ICameraUIControlEventCallback</a>
  
 
  

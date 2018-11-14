@@ -123,7 +123,7 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 
 When you create a job, the job is initially suspended. Calling <b>Resume</b> moves the job from the suspended state to the queued state. The job stays in the queued state until the scheduler determines it is the job's turn to transfer files. Note that the job must contain one or more files before calling this method. If the job is of type BG_JOB_TYPE_UPLOAD_REPLY and you want to specify the name of the reply file, you should call the 
-<a href="https://msdn.microsoft.com/9f8591a3-ecc2-497a-ac12-67e5862efde4">IBackgroundCopyJob2::SetReplyFileName</a> method before calling 
+<a href="https://msdn.microsoft.com/en-us/library/Aa362989(v=VS.85).aspx">IBackgroundCopyJob2::SetReplyFileName</a> method before calling 
 <b>Resume</b>.
 
 If a job that is in the BG_JOB_STATE_TRANSIENT_ERROR or BG_JOB_STATE_ERROR state, call the 
@@ -137,11 +137,11 @@ If a job that is in the BG_JOB_STATE_TRANSIENT_ERROR or BG_JOB_STATE_ERROR state
 
 
 
-<a href="https://msdn.microsoft.com/bb3f32d9-298a-4099-8d87-4057ddefb0ba">IBackgroundCopyJob::Cancel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363020(v=VS.85).aspx">IBackgroundCopyJob::Cancel</a>
 
 
 
-<a href="https://msdn.microsoft.com/88429730-b8e5-4969-934c-f0945fdd46a6">IBackgroundCopyJob::Suspend</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363048(v=VS.85).aspx">IBackgroundCopyJob::Suspend</a>
  
 
  

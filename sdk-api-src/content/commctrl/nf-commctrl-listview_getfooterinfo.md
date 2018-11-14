@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets information on the footer of a specified list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/5734e151-50c0-46df-8f2c-220c4910a590">LVM_GETFOOTERINFO</a> message explicitly.
+Gets information on the footer of a specified list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774927(v=VS.85).aspx">LVM_GETFOOTERINFO</a> message explicitly.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Gets information on the footer of a specified list-view control. Use this macro 
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -77,5 +77,5 @@ A handle to the list-view control.
 
 Type: <b>LPLVFOOTERINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/e988eb29-3ea1-4af5-b908-45832a7acadd">LVFOOTERINFO</a> structure to receive information depending on the value of the <b>mask</b> member. The calling application is responsible for allocating this structure and setting the <b>mask</b> member.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774748(v=VS.85).aspx">LVFOOTERINFO</a> structure to receive information depending on the value of the <b>mask</b> member. The calling application is responsible for allocating this structure and setting the <b>mask</b> member.
 

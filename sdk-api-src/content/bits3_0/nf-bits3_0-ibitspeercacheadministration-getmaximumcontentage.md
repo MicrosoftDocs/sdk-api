@@ -105,11 +105,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964272(v=VS.85).aspx">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/815d9e48-f1f0-4c40-a277-d78db9d6ace1">IBitsPeerCacheAdministration::SetMaximumContentAge</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964290(v=VS.85).aspx">IBitsPeerCacheAdministration::SetMaximumContentAge</a>
  
 
  

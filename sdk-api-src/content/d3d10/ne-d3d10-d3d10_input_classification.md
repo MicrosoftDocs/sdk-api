@@ -72,7 +72,7 @@ Input data is per-instance data.
 
 
 
-Use these values to specify the type of data for a particular input element (see <a href="https://msdn.microsoft.com/b1d65bf3-5a94-4831-854b-dd124b663975">D3D10_INPUT_ELEMENT_DESC</a>) of an input-layout object.
+Use these values to specify the type of data for a particular input element (see <a href="https://msdn.microsoft.com/en-us/library/Bb205316(v=VS.85).aspx">D3D10_INPUT_ELEMENT_DESC</a>) of an input-layout object.
 
 
 
@@ -82,7 +82,7 @@ Use these values to specify the type of data for a particular input element (see
 
 
 
-<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

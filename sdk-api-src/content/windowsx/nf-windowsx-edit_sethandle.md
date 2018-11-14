@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the handle of the memory that will be used by a multiline edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/0eae9365-62af-4040-8a51-273997a00b81">EM_SETHANDLE</a> message explicitly.
+Sets the handle of the memory that will be used by a multiline edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761641(v=VS.85).aspx">EM_SETHANDLE</a> message explicitly.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ A handle to the memory buffer the edit control uses to store the currently displ
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/0eae9365-62af-4040-8a51-273997a00b81">EM_SETHANDLE</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761641(v=VS.85).aspx">EM_SETHANDLE</a>.
 
 
 

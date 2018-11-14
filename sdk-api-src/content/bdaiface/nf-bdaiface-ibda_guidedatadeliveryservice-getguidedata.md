@@ -78,7 +78,7 @@ Pointer to a byte array that receives the guide data.
 
 ### -param pulGuideDataPercentageProgress [out]
 
-Receives a value from 0 to 100. The value specifies the percent of guide data that was transferred from the media transform device (MTD) to the media sink device (MSD) since the last call to <a href="https://msdn.microsoft.com/e9aee857-237a-4bfd-85c2-3d5850f37ce7">IBDA_GuideDataDeliveryService::RequestGuideDataUpdate</a>.
+Receives a value from 0 to 100. The value specifies the percent of guide data that was transferred from the media transform device (MTD) to the media sink device (MSD) since the last call to <a href="https://msdn.microsoft.com/en-us/library/Dd693374(v=VS.85).aspx">IBDA_GuideDataDeliveryService::RequestGuideDataUpdate</a>.
 
 
 ## -returns
@@ -125,7 +125,7 @@ The MTD has no more data to return.
 
 
 
-<a href="https://msdn.microsoft.com/5329f725-e77e-49c2-87f5-f7204d022adc">IBDA_GuideDataDeliveryService</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693368(v=VS.85).aspx">IBDA_GuideDataDeliveryService</a>
  
 
  

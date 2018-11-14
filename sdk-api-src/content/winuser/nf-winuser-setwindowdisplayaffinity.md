@@ -102,14 +102,14 @@ If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE
 
 
 
-This function and <a href="https://msdn.microsoft.com/f54167a7-6306-4317-91d2-bbda52850a47">GetWindowDisplayAffinity</a> are designed to support the window content protection feature that is new to Windows 7. This feature enables applications to protect their
+This function and <a href="https://msdn.microsoft.com/en-us/library/Dd375338(v=VS.85).aspx">GetWindowDisplayAffinity</a> are designed to support the window content protection feature that is new to Windows 7. This feature enables applications to protect their
 		own onscreen window content from being captured or copied through a specific set of public operating system features 
 		and APIs. However, it works only when the Desktop Window Manager(DWM) is composing the desktop. 
 		
 
 It is important to note that unlike a security feature or an implementation of Digital Rights Management (DRM), there is no guarantee that 
 		 using <b>SetWindowDisplayAffinity</b> 
-		and <a href="https://msdn.microsoft.com/f54167a7-6306-4317-91d2-bbda52850a47">GetWindowDisplayAffinity</a>, and other necessary functions such as <a href="https://msdn.microsoft.com/31edec77-9869-4585-838d-93b2fcab31a5">DwmIsCompositionEnabled</a>, will strictly protect windowed content, for example where someone takes a photograph of the screen.
+		and <a href="https://msdn.microsoft.com/en-us/library/Dd375338(v=VS.85).aspx">GetWindowDisplayAffinity</a>, and other necessary functions such as <a href="https://msdn.microsoft.com/en-us/library/Aa969518(v=VS.85).aspx">DwmIsCompositionEnabled</a>, will strictly protect windowed content, for example where someone takes a photograph of the screen.
 
 
 
@@ -127,11 +127,11 @@ It is important to note that unlike a security feature or an implementation of D
 
 
 
-<a href="https://msdn.microsoft.com/fb6c50e1-3051-4881-bd94-46c1206ff4ab">SetWindowDisplayAffinity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375340(v=VS.85).aspx">SetWindowDisplayAffinity</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

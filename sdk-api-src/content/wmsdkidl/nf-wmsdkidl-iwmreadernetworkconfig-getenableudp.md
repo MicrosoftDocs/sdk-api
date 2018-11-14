@@ -62,7 +62,7 @@ req.redist:
 
 
 
-The <b>GetEnableUDP</b> method queries whether <a href="wmformat_glossary.htm">UDP</a> is enabled for protocol rollover.
+The <b>GetEnableUDP</b> method queries whether <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">UDP</a> is enabled for protocol rollover.
 
 
 

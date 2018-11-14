@@ -505,7 +505,7 @@ int main()
 
 
 
-<a href="_iphlp_settcpentry">SetTcpEntry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366378(v=VS.85).aspx">SetTcpEntry</a>
 
 
 

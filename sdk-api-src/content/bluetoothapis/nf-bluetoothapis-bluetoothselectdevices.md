@@ -68,7 +68,7 @@ The
 ### -param pbtsdp
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/34ab348b-ce5d-422a-9bec-adbefa4a5ea0">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure that identifies Bluetooth devices.
+<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure that identifies Bluetooth devices.
 
 
 ## -returns
@@ -131,7 +131,7 @@ The <b>BluetoothSelectDevices</b> function opens a common dialog box for selecti
 
 If 
 <b>BluetoothSelectDevices</b> returns <b>TRUE</b>, the <b>pDevices</b> member of the 
-<a href="https://msdn.microsoft.com/34ab348b-ce5d-422a-9bec-adbefa4a5ea0">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure points to valid data. The caller should verify that  the <b>fAuthenticated</b> and <b>fRemembered</b> flags in the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure points to valid data. The caller should verify that  the <b>fAuthenticated</b> and <b>fRemembered</b> flags in the 
 <b>BLUETOOTH_SELECT_DEVICE_PARAMS</b> structure to determine which devices were successfully authenticated, and which devices are valid selections for the user. Call the 
 <b>BluetoothSelectDevicesFree</b> function to free resources only if the 
 <b>BluetoothSelectDevices</b> function returns <b>TRUE</b>.
@@ -144,11 +144,11 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/34ab348b-ce5d-422a-9bec-adbefa4a5ea0">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a2bf4dc-43c3-49c0-8ce0-d14ab9f4ae97">PFN_DEVICE_CALLBACK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362947(v=VS.85).aspx">PFN_DEVICE_CALLBACK</a>
  
 
  

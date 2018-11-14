@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can use this macro or send the <a href="https://msdn.microsoft.com/675ebe8d-b381-46ca-b328-ebe9f25d864a">BM_SETSTATE</a> message explicitly. 
+Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761823(v=VS.85).aspx">BM_SETSTATE</a> message explicitly. 
 
 
 

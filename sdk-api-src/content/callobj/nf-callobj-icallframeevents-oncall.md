@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Informs the event sink if it receives a method call on the interceptor. The sink is provided with an <a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a> instance which is bound to the intercepted incoming method invocation. Through that sink the call frame can be manipulated in various ways.
+Informs the event sink if it receives a method call on the interceptor. The sink is provided with an <a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a> instance which is bound to the intercepted incoming method invocation. Through that sink the call frame can be manipulated in various ways.
 
 
 ## -parameters
@@ -114,9 +114,9 @@ An unexpected error has occurred.
 
 
 
-On return from <b>OnCall</b>, the interceptor assumes that by some means the out-values of the method have been appropriately initialized as needed, if any; the interceptor does not itself manipulate the call frame further in any way. Typically, the <b>OnCall</b> implementation will have set the out-values by some means, either by invoking the call frame on an object, successfully unmarshalling some previously marshaled out-values, or clearing them with <a href="https://msdn.microsoft.com/97261d93-40cf-4a27-9bee-677600c04699">ICallFrame::Free</a>.
+On return from <b>OnCall</b>, the interceptor assumes that by some means the out-values of the method have been appropriately initialized as needed, if any; the interceptor does not itself manipulate the call frame further in any way. Typically, the <b>OnCall</b> implementation will have set the out-values by some means, either by invoking the call frame on an object, successfully unmarshalling some previously marshaled out-values, or clearing them with <a href="https://msdn.microsoft.com/en-us/library/ms690081(v=VS.85).aspx">ICallFrame::Free</a>.
 
-The return value should also have been appropriately set during the call in a similar manner. See <a href="https://msdn.microsoft.com/848cccc7-19c8-4ce6-b609-bcf798ec8c76">ICallFrame::SetReturnValue</a>.
+The return value should also have been appropriately set during the call in a similar manner. See <a href="https://msdn.microsoft.com/en-us/library/ms687292(v=VS.85).aspx">ICallFrame::SetReturnValue</a>.
 
 
 
@@ -126,11 +126,11 @@ The return value should also have been appropriately set during the call in a si
 
 
 
-<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f1e1b8d-6150-45e9-89e2-524d80df558d">ICallFrameEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680109(v=VS.85).aspx">ICallFrameEvents</a>
  
 
  

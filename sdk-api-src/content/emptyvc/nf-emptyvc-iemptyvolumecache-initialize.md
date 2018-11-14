@@ -220,7 +220,7 @@ The cleanup operation failed.
 
 This method is used by the Windows 98 disk cleanup manager. Windows 2000 uses the <a href="https://msdn.microsoft.com/42f39dcd-0292-4121-89e9-80145b1c1c7d">InitializeEx</a> method exported by <a href="https://msdn.microsoft.com/a3e941ee-0477-48a8-96bd-c9d74c66ca41">IEmptyVolumeCache2</a>. 
 
-Use <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> to allocate memory for the strings returned through <i>ppwszDisplayName</i> and <i>ppwszDescription</i>. The disk cleanup manager will free the memory when it is no longer needed.
+Use <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> to allocate memory for the strings returned through <i>ppwszDisplayName</i> and <i>ppwszDescription</i>. The disk cleanup manager will free the memory when it is no longer needed.
 
 
 

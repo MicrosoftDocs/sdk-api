@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Set an array of sampler states to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">pixel shader</a> pipeline stage.
+Set an array of sampler states to the <a href="https://msdn.microsoft.com/library/Bb205146(v=VS.85).aspx">pixel shader</a> pipeline stage.
 
 
 ## -parameters
@@ -69,23 +69,23 @@ Set an array of sampler states to the <a href="direct3d10.d3d10_graphics_program
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Index into the device's zero-based array to begin setting samplers to.
 
 
 ### -param NumSamplers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of samplers in the array. Each pipeline stage has a total of 16 sampler slots available.
 
 
 ### -param ppSamplers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/5815f809-aec0-49b1-bcef-d04146551af9">ID3D10SamplerState</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>*</b>
 
-Pointer to an array of sampler-state interfaces (see <a href="https://msdn.microsoft.com/5815f809-aec0-49b1-bcef-d04146551af9">ID3D10SamplerState</a>). See Remarks.
+Pointer to an array of sampler-state interfaces (see <a href="https://msdn.microsoft.com/en-us/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>). See Remarks.
 
 
 ## -returns
@@ -173,7 +173,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

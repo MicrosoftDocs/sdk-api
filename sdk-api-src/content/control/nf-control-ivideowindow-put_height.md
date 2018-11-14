@@ -131,15 +131,15 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1d29cd5-1e82-4406-b007-aa7b581d158e">IVideoWindow::get_Height</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377295(v=VS.85).aspx">IVideoWindow::get_Height</a>
  
 
  

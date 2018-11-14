@@ -105,7 +105,7 @@ Creates a VT_VECTOR | VT_UI4 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromUInt32Vector">InitPropVariantFromUInt32Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762312(v=VS.85).aspx">InitPropVariantFromUInt32Vector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -134,15 +134,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromUInt32">InitPropVariantFromUInt32</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762311(v=VS.85).aspx">InitPropVariantFromUInt32</a>
 
 
 
-<a href="shell.InitVariantFromUInt32Array">InitVariantFromUInt32Array</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762341(v=VS.85).aspx">InitVariantFromUInt32Array</a>
 
 
 
-<a href="shell.PropVariantToUInt32Vector">PropVariantToUInt32Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776570(v=VS.85).aspx">PropVariantToUInt32Vector</a>
  
 
  

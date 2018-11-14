@@ -77,7 +77,7 @@ Handle to a window to apply changes to.
 
 Type: <b>enum WINDOWTHEMEATTRIBUTETYPE</b>
 
-Value of type <a href="https://msdn.microsoft.com/1ad98d4a-7b88-426e-901a-8bfa8caa64d2">WINDOWTHEMEATTRIBUTETYPE</a> that specifies the type of attribute to set. The value of this parameter determines the type of data that should be passed in the <i>pvAttribute</i> parameter. Can be the following value.
+Value of type <a href="https://msdn.microsoft.com/en-us/library/Bb759870(v=VS.85).aspx">WINDOWTHEMEATTRIBUTETYPE</a> that specifies the type of attribute to set. The value of this parameter determines the type of data that should be passed in the <i>pvAttribute</i> parameter. Can be the following value.
 
 <table>
 <tr>
@@ -90,7 +90,7 @@ Value of type <a href="https://msdn.microsoft.com/1ad98d4a-7b88-426e-901a-8bfa8c
 </dl>
 </td>
 <td width="60%">
-Specifies non-client related attributes. <i>pvAttribute</i> must be a pointer of type <a href="https://msdn.microsoft.com/00d147ef-32e3-40d8-9bdb-70eeaac3e8b6">WTA_OPTIONS</a>.
+Specifies non-client related attributes. <i>pvAttribute</i> must be a pointer of type <a href="https://msdn.microsoft.com/en-us/library/Bb773248(v=VS.85).aspx">WTA_OPTIONS</a>.
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/1ad98d4a-7b88-426e-901a-8bfa8caa64d2">WINDOWTHEMEATTRIBUTETYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb759870(v=VS.85).aspx">WINDOWTHEMEATTRIBUTETYPE</a>
  
 
  

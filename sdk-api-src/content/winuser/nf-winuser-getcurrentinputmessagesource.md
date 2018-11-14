@@ -75,7 +75,7 @@ Retrieves the source of the input message.
 
 The <a href="https://msdn.microsoft.com/75437c0a-925a-44d9-9254-43095b281c21">INPUT_MESSAGE_SOURCE</a> structure that holds the device type and the ID of the input message source.
 
-<div class="alert"><b>Note</b>  <b>deviceType</b> in <a href="https://msdn.microsoft.com/75437c0a-925a-44d9-9254-43095b281c21">INPUT_MESSAGE_SOURCE</a> is set to   <a href="https://msdn.microsoft.com/aaaa8d9b-1056-4fa3-afcf-43d2c4b41c0e">IMDT_UNAVAILABLE</a> when <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> is used to inject input (system generated or through messages such as <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a>). This remains true until  <b>SendMessage</b> returns.</div>
+<div class="alert"><b>Note</b>  <b>deviceType</b> in <a href="https://msdn.microsoft.com/75437c0a-925a-44d9-9254-43095b281c21">INPUT_MESSAGE_SOURCE</a> is set to   <a href="https://msdn.microsoft.com/aaaa8d9b-1056-4fa3-afcf-43d2c4b41c0e">IMDT_UNAVAILABLE</a> when <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> is used to inject input (system generated or through messages such as <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a>). This remains true until  <b>SendMessage</b> returns.</div>
 <div> </div>
 
 ## -returns

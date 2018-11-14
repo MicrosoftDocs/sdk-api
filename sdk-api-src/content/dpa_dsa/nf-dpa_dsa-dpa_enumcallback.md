@@ -105,7 +105,7 @@ No return value.
 
 
 
-<a href="https://msdn.microsoft.com/2fe1546f-d517-4d63-a3a6-1d3ea0238b3d">PFNDAENUMCALLBACKCONST</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775713(v=VS.85).aspx">PFNDAENUMCALLBACKCONST</a>
  
 
  

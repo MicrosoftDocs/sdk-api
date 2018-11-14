@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>Decode</b> method decodes an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded string array and stores the resulting array of strings in the <b>CertEncodeStringArray</b> object.
+The <b>Decode</b> method decodes an <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1)-encoded string array and stores the resulting array of strings in the <b>CertEncodeStringArray</b> object.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ An ASN.1-encoded string array.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 
 
@@ -93,7 +93,7 @@ This method will place the decoded contents of <i>strBinary</i> into the object'
 
 #### Examples
 
-For an example that uses the <b>Decode</b> method, see the <a href="https://msdn.microsoft.com/d8fc51ea-4d83-402a-a4ac-ce55d385905c">ICertEncodeStringArray::Encode</a> method.
+For an example that uses the <b>Decode</b> method, see the <a href="https://msdn.microsoft.com/en-us/library/Aa385015(v=VS.85).aspx">ICertEncodeStringArray::Encode</a> method.
 
 <div class="code"></div>
 
@@ -104,11 +104,11 @@ For an example that uses the <b>Decode</b> method, see the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/5515c25e-f788-4222-8f66-f5d86bd2a3a3">ICertEncodeStringArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385013(v=VS.85).aspx">ICertEncodeStringArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8fc51ea-4d83-402a-a4ac-ce55d385905c">ICertEncodeStringArray::Encode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385015(v=VS.85).aspx">ICertEncodeStringArray::Encode</a>
  
 
  

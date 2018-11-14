@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Creates a Command object, specifying computers, catalogs, and scopes.
 
@@ -68,7 +68,7 @@ Creates a Command object, specifying computers, catalogs, and scopes.
 
 ### -param ppCommand
 
-A pointer to an output variable that receives the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface pointer.
+A pointer to an output variable that receives the <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface pointer.
 
 
 ### -param cScope
@@ -78,22 +78,22 @@ The number of scopes in the <i>awcsScope</i> array.
 
 ### -param aDepths
 
-A pointer to an array of values that represent the type of search (deep or shallow, virtual or physical) for each scope in <i>awcsScope</i>. For the possible values for each scope, see <a href="https://msdn.microsoft.com/77bf0e7e-d575-4ae7-b390-ab75eac2f58d">QUERY_*</a> scope constants.
+A pointer to an array of values that represent the type of search (deep or shallow, virtual or physical) for each scope in <i>awcsScope</i>. For the possible values for each scope, see <a href="https://msdn.microsoft.com/en-us/library/ms690819(v=VS.85).aspx">QUERY_*</a> scope constants.
 
 
 ### -param awcsScope
 
-A pointer to a an array of null-terminated strings that specify the names of the file path(s) over which the query is processed. This is the value for the DBPROP_CI_INCLUDE_SCOPE property of the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface. Use L"\" for the entire catalog. Use L"\" for the entire Internet Information Services (IIS) virtual-path namespace, but set QUERY_VIRTUAL_PATH in the <i>aDepths</i> parameter to indicate that the path is virtual.
+A pointer to a an array of null-terminated strings that specify the names of the file path(s) over which the query is processed. This is the value for the DBPROP_CI_INCLUDE_SCOPE property of the <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface. Use L"\" for the entire catalog. Use L"\" for the entire Internet Information Services (IIS) virtual-path namespace, but set QUERY_VIRTUAL_PATH in the <i>aDepths</i> parameter to indicate that the path is virtual.
 
 
 ### -param awcsCatalogs
 
-A pointer to a an array of null-terminated strings that specify the names of the catalogs used to execute queries. This is the value for the DBPROP_CI_CATALOG_NAME property of the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface. 
+A pointer to a an array of null-terminated strings that specify the names of the catalogs used to execute queries. This is the value for the DBPROP_CI_CATALOG_NAME property of the <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface. 
 
 
 ### -param awcsMachine
 
-A pointer to a null-terminated string that specifies the name of the computer on which the query is to be executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface. Use L"." for the local computer.
+A pointer to a null-terminated string that specifies the name of the computer on which the query is to be executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface. Use L"." for the local computer.
 
 
 ## -returns
@@ -193,11 +193,11 @@ The <b>CIMakeICommand</b> function does not return an error if the catalog or co
 
 
 
-<a href="https://msdn.microsoft.com/44159df2-3703-44f0-a448-33f673a23e2e">CICreateCommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690973(v=VS.85).aspx">CICreateCommand</a>
 
 
 
-<a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a>
+<a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a>
  
 
  

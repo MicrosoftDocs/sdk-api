@@ -75,7 +75,7 @@ The index of the bitmap source to retrieve.
 
 ### -param pRect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/da11ec7a-3d36-49b2-be4d-cbc05517d364">MIL_RECTD</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735228(v=VS.85).aspx">MIL_RECTD</a>*</b>
 
 Pointer that receives the bounds of the input source.
 

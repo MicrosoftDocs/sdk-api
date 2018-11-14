@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Checks if a <a href="s_gly.htm">service</a> identified by a handle is starting or currently running. The <b>PRESUTIL_VERIFY_SERVICE</b> type defines a pointer to this function.
+Checks if a <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">service</a> identified by a handle is starting or currently running. The <b>PRESUTIL_VERIFY_SERVICE</b> type defines a pointer to this function.
 
 
 ## -parameters

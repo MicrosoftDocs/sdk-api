@@ -80,7 +80,7 @@ Type of reset. It can be one of the following possible values.
 <tr>
 <td width="40%"><a id=""></a><dl>
 <dt><b></b></dt>
-<dt><a href="tomconstants.htm">tomDefault</a></dt>
+<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomDefault</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -91,11 +91,11 @@ Used for paragraph formatting that is defined by the RTF \pard, that is, the par
 <tr>
 <td width="40%"><a id=""></a><dl>
 <dt><b></b></dt>
-<dt><a href="tomconstants.htm">tomUndefined</a></dt>
+<dt><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUndefined</a></dt>
 </dl>
 </td>
 <td width="60%">
-Used for all undefined values. The tomUndefined value is only valid for duplicate (clone) <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a> objects.
+Used for all undefined values. The tomUndefined value is only valid for duplicate (clone) <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a> objects.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -183,7 +183,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

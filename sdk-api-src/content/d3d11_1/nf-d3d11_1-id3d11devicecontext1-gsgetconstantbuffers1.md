@@ -115,7 +115,7 @@ If no buffer is bound at a slot, <i>pFirstConstant</i> and <i>pNumConstants</i> 
 
 
 
-<a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>
  
 
  

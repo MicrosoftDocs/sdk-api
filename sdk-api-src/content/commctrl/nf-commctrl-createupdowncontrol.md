@@ -67,9 +67,9 @@ Creates an up-down control.
 
 ### -param dwStyle
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
-Window styles for the control. This parameter should include the <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_CHILD</a>, <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_BORDER</a>, and <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_VISIBLE</a> styles, and it may include any of the window styles specific to the up-down control. 
+Window styles for the control. This parameter should include the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_CHILD</a>, <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_BORDER</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_VISIBLE</a> styles, and it may include any of the window styles specific to the up-down control. 
 
 
 ### -param x
@@ -102,7 +102,7 @@ Height, in pixels, of the up-down control.
 
 ### -param hParent
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the parent window of the up-down control. 
 
@@ -116,14 +116,14 @@ Identifier for the up-down control.
 
 ### -param hInst
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HINSTANCE</a></b>
 
 Handle to the module instance of the application creating the up-down control. 
 
 
 ### -param hBuddy
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the window associated with the up-down control. If this parameter is <b>NULL</b>, the control has no buddy window. 
 
@@ -153,7 +153,7 @@ Position of the control.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 If the function succeeds, the return value is the window handle to the up-down control. If the function fails, the return value is <b>NULL</b>.
 

@@ -67,7 +67,7 @@ req.redist:
 
 Compares two character strings. The comparison is case-sensitive.
 
-To perform a comparison that is not case-sensitive, use the <a href="https://msdn.microsoft.com/7edd4896-04d3-4b71-9ce6-d64149d683e0">lstrcmpi</a> function.
+To perform a comparison that is not case-sensitive, use the <a href="https://msdn.microsoft.com/en-us/library/ms647489(v=VS.85).aspx">lstrcmpi</a> function.
 
 
 ## -parameters
@@ -133,11 +133,11 @@ choice of comparison functions.
 
 
 
-<a href="winui._win32_CompareString">CompareString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx">CompareString</a>
 
 
 
-<a href="winui._win32_CompareStringEx">CompareStringEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317761(v=VS.85).aspx">CompareStringEx</a>
 
 
 
@@ -157,23 +157,23 @@ choice of comparison functions.
 
 
 
-<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
 
 
 
-<a href="https://msdn.microsoft.com/346f6c95-6ebe-4e73-8f29-2778cc813e36">lstrcat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647487(v=VS.85).aspx">lstrcat</a>
 
 
 
-<a href="https://msdn.microsoft.com/7edd4896-04d3-4b71-9ce6-d64149d683e0">lstrcmpi</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647489(v=VS.85).aspx">lstrcmpi</a>
 
 
 
-<a href="https://msdn.microsoft.com/3960fe0e-954d-4463-bc81-e1682e468278">lstrcpy</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647490(v=VS.85).aspx">lstrcpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/0024853f-3a1f-4742-bc5e-f0ca89e23f3a">lstrlen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647492(v=VS.85).aspx">lstrlen</a>
  
 
  

@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/d404c4f8-cc97-4254-bca8-41bc359f0777">IBackgroundCopyFile4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd904468(v=VS.85).aspx">IBackgroundCopyFile4</a>
  
 
  

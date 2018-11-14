@@ -154,11 +154,11 @@ Displayed text typically has a zero value for this property. Positive values rai
 
 
 
-<a href="https://msdn.microsoft.com/feb68cd1-7bca-4de7-bf8f-5fa2312aff9e">GetPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774005(v=VS.85).aspx">GetPosition</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -166,7 +166,7 @@ Displayed text typically has a zero value for this property. Positive values rai
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

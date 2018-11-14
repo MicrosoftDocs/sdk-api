@@ -89,9 +89,9 @@ This method does not return a value.
 The text services object must call <b>TxViewChange</b> every time its visual representation has changed, even if the control is inactive. If the control is active, then text services must also make sure the control's window is updated. It can do this in a number of ways: 
 
 <ul>
-<li>Call <a href="https://msdn.microsoft.com/8ffc852a-d179-4ea4-84f7-cd03043450ea">ITextHost::TxGetDC</a> to get a device context for the control's window and then repaint or update the window. Afterward, call <a href="https://msdn.microsoft.com/f6acad6e-2ae4-4d0c-b0ce-4ded27f6f8d4">ITextHost::TxReleaseDC</a>. </li>
-<li>Call <a href="https://msdn.microsoft.com/a1c1fc9f-3a77-495f-a73a-d60e0d84db1a">ITextHost::TxInvalidateRect</a> to invalidate the control's window. </li>
-<li>Call <a href="https://msdn.microsoft.com/47528256-8414-4b9b-a8db-cd33364b6b25">ITextHost::TxScrollWindowEx</a> to scroll the control's window. </li>
+<li>Call <a href="https://msdn.microsoft.com/en-us/library/Bb787660(v=VS.85).aspx">ITextHost::TxGetDC</a> to get a device context for the control's window and then repaint or update the window. Afterward, call <a href="https://msdn.microsoft.com/en-us/library/Bb787712(v=VS.85).aspx">ITextHost::TxReleaseDC</a>. </li>
+<li>Call <a href="https://msdn.microsoft.com/en-us/library/Bb787706(v=VS.85).aspx">ITextHost::TxInvalidateRect</a> to invalidate the control's window. </li>
+<li>Call <a href="https://msdn.microsoft.com/en-us/library/Bb787716(v=VS.85).aspx">ITextHost::TxScrollWindowEx</a> to scroll the control's window. </li>
 </ul>
 After the text services object has updated the active view, it can call <b>TxViewChange</b> and set <i>fUpdate</i> to <b>TRUE</b> along with the call. By passing <b>TRUE</b>, the text host calls <a href="https://msdn.microsoft.com/51a50f1f-7b4d-4acd-83a0-1877f5181766">UpdateWindow</a> to make sure any unpainted areas of the active control are repainted.
 
@@ -107,7 +107,7 @@ After the text services object has updated the active view, it can call <b>TxVie
 
 
 
-<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
 
 
 
@@ -115,23 +115,23 @@ After the text services object has updated the active view, it can call <b>TxVie
 
 
 
-<a href="https://msdn.microsoft.com/8ffc852a-d179-4ea4-84f7-cd03043450ea">TxGetDC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787660(v=VS.85).aspx">TxGetDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1c1fc9f-3a77-495f-a73a-d60e0d84db1a">TxInvalidateRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787706(v=VS.85).aspx">TxInvalidateRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6acad6e-2ae4-4d0c-b0ce-4ded27f6f8d4">TxReleaseDC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787712(v=VS.85).aspx">TxReleaseDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/47528256-8414-4b9b-a8db-cd33364b6b25">TxScrollWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787716(v=VS.85).aspx">TxScrollWindowEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

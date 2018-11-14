@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the <a href="shell.IPropertyEnumType">IPropertyEnumType</a> object at the specified index in the list.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a> object at the specified index in the list.
 
 
 ## -parameters
@@ -87,9 +87,9 @@ TBD
 
 #### - ppenumtype [out]
 
-Type: <b><a href="shell.IPropertyEnumType">IPropertyEnumType</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a>**</b>
 
-When this method returns, contains the address of an <a href="shell.IPropertyEnumType">IPropertyEnumType</a> interface pointer.
+When this method returns, contains the address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a> interface pointer.
 
 
 ## -returns

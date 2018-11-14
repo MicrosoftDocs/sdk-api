@@ -96,7 +96,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 Use the <b>BringWindowToTop</b> function to uncover any window that is partially or completely obscured by other windows. 
 
-Calling this function is similar to calling the <a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a> function to change a window's position in the Z order. <b>BringWindowToTop</b> does not make a window a top-level window. 
+Calling this function is similar to calling the <a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a> function to change a window's position in the Z order. <b>BringWindowToTop</b> does not make a window a top-level window. 
 
 
 
@@ -114,11 +114,11 @@ Calling this function is similar to calling the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

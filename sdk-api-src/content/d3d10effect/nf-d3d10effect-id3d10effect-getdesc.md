@@ -68,18 +68,18 @@ Get an effect description.
 
 ### -param pDesc [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4e25e0d5-b614-4dba-ade2-e60b468c46a4">D3D10_EFFECT_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205047(v=VS.85).aspx">D3D10_EFFECT_DESC</a>*</b>
 
-A pointer to an effect description (see <a href="https://msdn.microsoft.com/4e25e0d5-b614-4dba-ade2-e60b468c46a4">D3D10_EFFECT_DESC</a>).
+A pointer to an effect description (see <a href="https://msdn.microsoft.com/en-us/library/Bb205047(v=VS.85).aspx">D3D10_EFFECT_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -98,7 +98,7 @@ An effect description contains basic information about an effect such as the tec
 
 
 
-<a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
  
 
  

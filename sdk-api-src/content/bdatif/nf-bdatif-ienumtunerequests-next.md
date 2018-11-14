@@ -86,7 +86,7 @@ Receives the number of items retrieved.
 
 #### - ppProp [out]
 
-Array of size <i>celt</i> that is filled with <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface pointers.
+Array of size <i>celt</i> that is filled with <a href="https://msdn.microsoft.com/en-us/library/Dd694997(v=VS.85).aspx">ITuneRequest</a> interface pointers.
 
 
 ## -returns
@@ -133,11 +133,11 @@ The collection is at the end of the enumeration sequence.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ad872be-4408-4069-80db-ae73b2127b91">IEnumTuneRequests Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694005(v=VS.85).aspx">IEnumTuneRequests Interface</a>
  
 
  

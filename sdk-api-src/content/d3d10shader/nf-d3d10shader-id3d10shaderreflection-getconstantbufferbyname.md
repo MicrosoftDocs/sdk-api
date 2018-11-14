@@ -77,9 +77,9 @@ The constant-buffer name.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/5418147a-6d9f-44fc-a9ce-f619fc389ee4">ID3D10ShaderReflectionConstantBuffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173836(v=VS.85).aspx">ID3D10ShaderReflectionConstantBuffer</a>*</b>
 
-A pointer to a constant buffer (see <a href="https://msdn.microsoft.com/5418147a-6d9f-44fc-a9ce-f619fc389ee4">ID3D10ShaderReflectionConstantBuffer Interface</a>).
+A pointer to a constant buffer (see <a href="https://msdn.microsoft.com/en-us/library/Bb173836(v=VS.85).aspx">ID3D10ShaderReflectionConstantBuffer Interface</a>).
 
 
 
@@ -98,7 +98,7 @@ A constant buffer supplies either scalar constants or texture constants to a sha
 
 
 
-<a href="https://msdn.microsoft.com/097ed643-4e7a-4214-80a1-9a56d1157044">ID3D10ShaderReflection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173835(v=VS.85).aspx">ID3D10ShaderReflection Interface</a>
  
 
  

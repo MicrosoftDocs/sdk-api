@@ -114,11 +114,11 @@ The value is the maximum elapsed time that the job can spend in the CONNECTING o
 
 
 
-<a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362995(v=VS.85).aspx">IBackgroundCopyJob4</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e29c082-5bd1-465a-8853-aea81a593db6">IBackgroundCopyJob4::SetMaximumDownloadTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964248(v=VS.85).aspx">IBackgroundCopyJob4::SetMaximumDownloadTime</a>
  
 
  

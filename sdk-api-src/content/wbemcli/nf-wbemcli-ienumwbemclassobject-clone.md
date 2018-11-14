@@ -80,7 +80,7 @@ The <b>IEnumWbemClassObject::Clone</b> method makes
 
 Receives a pointer to a new 
       <a href="https://msdn.microsoft.com/142ea48d-d47b-4b7b-ab84-049a54955488">IEnumWbemClassObject</a> object. The caller must call 
-      <a href="_com_iunknown_release">Release</a> when the interface pointer is no longer 
+      <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> when the interface pointer is no longer 
       required. On error, there will not be a return of a new object.
 
 

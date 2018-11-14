@@ -60,7 +60,7 @@ req.redist:
 ## -description
 
 
-The <b>PropertyId</b> property specifies or retrieves a value of the <a href="https://msdn.microsoft.com/e7ad0ec5-a568-4506-ba54-908e00083c2b">CERTENROLL_PROPERTYID</a> enumeration that identifies an external  certificate property.
+The <b>PropertyId</b> property specifies or retrieves a value of the <a href="https://msdn.microsoft.com/en-us/library/Aa374867(v=VS.85).aspx">CERTENROLL_PROPERTYID</a> enumeration that identifies an external  certificate property.
 
 This property is read/write.
 
@@ -72,7 +72,7 @@ This property is read/write.
 
 
 
- Call the <b>PropertyId</b> property before trying to initialize the <a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a> object. Call the <a href="https://msdn.microsoft.com/38b51242-cd4a-402e-b7ff-286f7bf66953">InitializeDecode</a> method or the <a href="https://msdn.microsoft.com/5d23bacc-bbe5-42fa-b4c5-57a6767f79ba">InitializeFromCertificate</a> method to create a value for the certificate property. Call the <a href="https://msdn.microsoft.com/1413f6da-0fcf-42ca-a79f-43f164368407">RawData</a> property to retrieve the property value.
+ Call the <b>PropertyId</b> property before trying to initialize the <a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a> object. Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375811(v=VS.85).aspx">InitializeDecode</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa375817(v=VS.85).aspx">InitializeFromCertificate</a> method to create a value for the certificate property. Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375836(v=VS.85).aspx">RawData</a> property to retrieve the property value.
 
 
 
@@ -82,11 +82,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/b830c0af-0a38-419d-8a33-8e3626c4e8f1">ICertProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375231(v=VS.85).aspx">ICertProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
  
 
  

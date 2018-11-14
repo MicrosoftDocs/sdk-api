@@ -215,7 +215,7 @@ The following code example creates the geometry groups used the preceding illust
 
 
 
-<a href="https://msdn.microsoft.com/f5870d4b-dd30-4034-884e-1c398a6865c6">Geometries Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756653(v=VS.85).aspx">Geometries Overview</a>
 
 
 

@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Creates a deferred context, which can record <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>.
+Creates a deferred context, which can record <a href="https://msdn.microsoft.com/en-us/library/Ff476885(v=VS.85).aspx">command lists</a>.
         
 
 
@@ -80,7 +80,7 @@ Reserved for future use.  Pass 0.
 
 Type: <b>ID3D11DeviceContext3**</b>
 
-Upon completion of the method, the passed pointer to an <a href="https://msdn.microsoft.com/65F462DB-5546-4B23-B438-60067FD60103">ID3D11DeviceContext3</a> interface pointer is initialized.
+Upon completion of the method, the passed pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dn912875(v=VS.85).aspx">ID3D11DeviceContext3</a> interface pointer is initialized.
           
 
 
@@ -88,7 +88,7 @@ Upon completion of the method, the passed pointer to an <a href="https://msdn.mi
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following:
             
@@ -99,7 +99,7 @@ Returns S_OK if successful; otherwise, returns one of the following:
               </li>
 <li>Returns <b>DXGI_ERROR_INVALID_CALL</b> if the
                 <b>CreateDeferredContext3</b>method can't be called from the current context.
-                For example, if the device was created with the <a href="https://msdn.microsoft.com/580c784a-17de-495c-9159-833f858ad155">D3D11_CREATE_DEVICE_SINGLETHREADED</a> value,  <b>CreateDeferredContext3</b> returns <b>DXGI_ERROR_INVALID_CALL</b>.
+                For example, if the device was created with the <a href="https://msdn.microsoft.com/en-us/library/Ff476107(v=VS.85).aspx">D3D11_CREATE_DEVICE_SINGLETHREADED</a> value,  <b>CreateDeferredContext3</b> returns <b>DXGI_ERROR_INVALID_CALL</b>.
               </li>
 <li>Returns <b>E_INVALIDARG</b> if the <i>ContextFlags</i> parameter is invalid.
               </li>
@@ -114,19 +114,19 @@ Returns S_OK if successful; otherwise, returns one of the following:
 
 
 
-<a href="https://msdn.microsoft.com/2F7E343F-2A25-44F2-9352-5F378718D6F6">ID3D11Device1::CreateDeferredContext1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404580(v=VS.85).aspx">ID3D11Device1::CreateDeferredContext1</a>
 
 
 
-<a href="https://msdn.microsoft.com/57901FAC-428C-437B-9C9B-2DB2D16049F8">ID3D11Device2::CreateDeferredContext2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280495(v=VS.85).aspx">ID3D11Device2::CreateDeferredContext2</a>
 
 
 
-<a href="https://msdn.microsoft.com/0AA10851-0077-4075-BD41-72FCD7BC0556">ID3D11Device3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899218(v=VS.85).aspx">ID3D11Device3</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbf01844-eaf1-4360-833e-c95ba686fff5">ID3D11Device::CreateDeferredContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476505(v=VS.85).aspx">ID3D11Device::CreateDeferredContext</a>
  
 
  

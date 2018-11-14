@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-A smart card provider is typically identified by the <a href="https://msdn.microsoft.com/d69ade8c-3b74-4391-9048-6511f3d7e9fa">IsHardwareDevice</a> property and the <a href="https://msdn.microsoft.com/50f78dcc-4d32-40c9-8153-f0b6ac72c03b">IsSoftwareDevice</a> property being set or the <a href="https://msdn.microsoft.com/ee67670b-80a9-4637-a5ed-84d3430853ea">IsRemovable</a> property being set.
+A smart card provider is typically identified by the <a href="https://msdn.microsoft.com/en-us/library/Aa376747(v=VS.85).aspx">IsHardwareDevice</a> property and the <a href="https://msdn.microsoft.com/en-us/library/Aa376750(v=VS.85).aspx">IsSoftwareDevice</a> property being set or the <a href="https://msdn.microsoft.com/en-us/library/Aa376748(v=VS.85).aspx">IsRemovable</a> property being set.
 
 
 
@@ -81,7 +81,7 @@ A smart card provider is typically identified by the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
  
 
  

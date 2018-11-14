@@ -82,7 +82,7 @@ Percentage values must be in the range 0 through 100; the default value is 90. A
 
 
 
-<a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386328(v=VS.85).aspx">IOCSPCAConfiguration</a>
  
 
  

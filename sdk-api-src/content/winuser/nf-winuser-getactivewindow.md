@@ -92,9 +92,9 @@ The return value is the handle to the active window attached to the calling thre
 
 
 
-To get the handle to the foreground window, you can use <a href="https://msdn.microsoft.com/ee30a5fc-a229-4b84-b1f7-2d071d641a22">GetForegroundWindow</a>.
+To get the handle to the foreground window, you can use <a href="https://msdn.microsoft.com/en-us/library/ms633505(v=VS.85).aspx">GetForegroundWindow</a>.
 
-To get the window handle to the active window in the message queue for another thread, use <a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a>.
+To get the window handle to the active window in the message queue for another thread, use <a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a>.
 
 
 
@@ -108,15 +108,15 @@ To get the window handle to the active window in the message queue for another t
 
 
 
-<a href="https://msdn.microsoft.com/ee30a5fc-a229-4b84-b1f7-2d071d641a22">GetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633505(v=VS.85).aspx">GetForegroundWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
@@ -124,7 +124,7 @@ To get the window handle to the active window in the message queue for another t
 
 
 
-<a href="https://msdn.microsoft.com/3a761bd3-5eba-4263-b670-405d91996a89">SetActiveWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646311(v=VS.85).aspx">SetActiveWindow</a>
  
 
  

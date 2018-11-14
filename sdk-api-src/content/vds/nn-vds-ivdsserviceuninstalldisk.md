@@ -97,7 +97,7 @@ Uninstalls a set of disks.
 
 
 
-<a href="startup_and_service_objects.htm">Service Object</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383123(v=VS.85).aspx">Service Object</a>
 
 
 

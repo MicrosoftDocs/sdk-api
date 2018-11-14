@@ -73,11 +73,11 @@ The <b>RemoveAll</b> method removes all interfaces from the list of interfaces t
 
 
 
-<a href="https://msdn.microsoft.com/063492b9-9970-4605-84f5-d8b80afc719b">AddInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965800(v=VS.85).aspx">AddInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/96cc0e45-ddd5-4ab0-9243-5f2046e48f78">IAzBizRuleInterfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377614(v=VS.85).aspx">IAzBizRuleInterfaces</a>
  
 
  

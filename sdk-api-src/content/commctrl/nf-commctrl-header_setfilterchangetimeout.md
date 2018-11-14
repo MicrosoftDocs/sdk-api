@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the timeout interval between the time a change takes place in the filter attributes and the posting of an <a href="https://msdn.microsoft.com/0a46af14-569a-4119-881f-549a130f9b0d">HDN_FILTERCHANGE</a> notification. You can use this macro or send the <a href="https://msdn.microsoft.com/9bc8e0e7-d7c1-4dd6-9d39-6ae937f19d60">HDM_SETFILTERCHANGETIMEOUT</a> message explicitly. 
+Sets the timeout interval between the time a change takes place in the filter attributes and the posting of an <a href="https://msdn.microsoft.com/en-us/library/Bb775277(v=VS.85).aspx">HDN_FILTERCHANGE</a> notification. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775359(v=VS.85).aspx">HDM_SETFILTERCHANGETIMEOUT</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Sets the timeout interval between the time a change takes place in the filter at
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the header control. 
 
@@ -85,11 +85,11 @@ The timeout value, in milliseconds.
 
 
 
-<a href="https://msdn.microsoft.com/9bc8e0e7-d7c1-4dd6-9d39-6ae937f19d60">HDM_SETFILTERCHANGETIMEOUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775359(v=VS.85).aspx">HDM_SETFILTERCHANGETIMEOUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a46af14-569a-4119-881f-549a130f9b0d">HDN_FILTERCHANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775277(v=VS.85).aspx">HDN_FILTERCHANGE</a>
 
 
 

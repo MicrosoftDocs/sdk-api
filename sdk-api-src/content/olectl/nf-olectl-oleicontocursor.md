@@ -78,7 +78,7 @@ A handle to the icon to be converted.
 
 
 
-The function returns a handle to the new cursor object. The caller is responsible for deleting this cursor with the <a href="_win32_DestroyCursor_cpp">DestroyCursor</a> function. If the conversion could not be completed, the return value is <b>NULL</b>.
+The function returns a handle to the new cursor object. The caller is responsible for deleting this cursor with the <a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a> function. If the conversion could not be completed, the return value is <b>NULL</b>.
 
 
 
@@ -87,7 +87,7 @@ The function returns a handle to the new cursor object. The caller is responsibl
 
 
 
-This function calls the <a href="_win32_CopyCursor_cpp">CopyCursor</a> function.
+This function calls the <a href="https://msdn.microsoft.com/en-us/library/ms648384(v=VS.85).aspx">CopyCursor</a> function.
 
 
 

@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the bounding rectangle of all items in the list-view control. The list view must be in icon or small icon view. You can use this macro or send the <a href="https://msdn.microsoft.com/69b96f86-8b7e-42c1-ad73-f9b2732ab9f9">LVM_GETVIEWRECT</a> message explicitly. 
+Gets the bounding rectangle of all items in the list-view control. The list view must be in icon or small icon view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761093(v=VS.85).aspx">LVM_GETVIEWRECT</a> message explicitly. 
 
 
 ## -parameters

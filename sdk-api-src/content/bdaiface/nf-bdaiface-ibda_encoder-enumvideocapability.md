@@ -68,7 +68,7 @@ Gets one of the video formats supported by the device.
 
 ### -param FmtIndex [in]
 
-The zero-based index of the video format to retrieve. To get the number of video formats, call <a href="https://msdn.microsoft.com/038f9360-0515-4655-9397-cd1bfb6c3d21">IBDA_Encoder::QueryCapabilities</a>.
+The zero-based index of the video format to retrieve. To get the number of video formats, call <a href="https://msdn.microsoft.com/en-us/library/Dd693327(v=VS.85).aspx">IBDA_Encoder::QueryCapabilities</a>.
 
 
 ### -param MethodID [out]
@@ -181,7 +181,7 @@ The <i>VerticalSize</i>, <i>HorizontalSize</i>, <i>AspectRatio</i>, <i>FrameRate
 
 
 
-<a href="https://msdn.microsoft.com/43ed9d91-c769-4fb3-bcd9-e5239ec5d9c7">IBDA_Encoder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693323(v=VS.85).aspx">IBDA_Encoder</a>
  
 
  

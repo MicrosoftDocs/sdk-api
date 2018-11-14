@@ -77,14 +77,14 @@ Size, in TWIPS (one TWIP is 1/1440 inch), of the area near the margin that exclu
 
 Type: <b>PFNHYPHENATEPROC</b>
 
-The client-defined <a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a> callback function. 
+The client-defined <a href="https://msdn.microsoft.com/en-us/library/Bb774370(v=VS.85).aspx">HyphenateProc</a> callback function. 
 
 
 ## -remarks
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/70ccb698-e440-493b-8f38-2bf7f32e4b26">EM_GETHYPHENATEINFO</a> and <a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a> messages.
+This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb788033(v=VS.85).aspx">EM_GETHYPHENATEINFO</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774242(v=VS.85).aspx">EM_SETHYPHENATEINFO</a> messages.
 
 
 
@@ -94,15 +94,15 @@ This structure is used with the <a href="https://msdn.microsoft.com/70ccb698-e44
 
 
 
-<a href="https://msdn.microsoft.com/70ccb698-e440-493b-8f38-2bf7f32e4b26">EM_GETHYPHENATEINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb788033(v=VS.85).aspx">EM_GETHYPHENATEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774242(v=VS.85).aspx">EM_SETHYPHENATEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774370(v=VS.85).aspx">HyphenateProc</a>
 
 
 

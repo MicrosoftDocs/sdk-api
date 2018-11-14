@@ -62,7 +62,7 @@ req.redist:
 
 
 
-The <b>StartAtMarker</b> method starts the reader from a specified <a href="wmformat_glossary.htm">marker</a>.
+The <b>StartAtMarker</b> method starts the reader from a specified <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a>.
 
 
 

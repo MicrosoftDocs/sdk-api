@@ -73,7 +73,7 @@ A <b>BSTR</b> variable that contains the string to encode.
 
 ### -param NameFlags [in]
 
-An <a href="https://msdn.microsoft.com/8961f21c-1aab-4bbf-a696-e5bc0f37724a">X500NameFlags</a> enumeration value that specifies the format of the encoded value.
+An <a href="https://msdn.microsoft.com/en-us/library/Aa379394(v=VS.85).aspx">X500NameFlags</a> enumeration value that specifies the format of the encoded value.
 
 <div class="alert"><b>Note</b>  The following flags are set automatically:<ul>
 <li>The default value specified in Certenroll.h is <b>XCN_CERT_NAME_STR_NONE</b>.</li>
@@ -90,7 +90,7 @@ An <a href="https://msdn.microsoft.com/8961f21c-1aab-4bbf-a696-e5bc0f37724a">X50
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -141,7 +141,7 @@ The length, in characters of the <i>strName</i> parameter cannot exceed 64 * 102
 
 
 
-This method internally calls the CryptoAPI <a href="https://msdn.microsoft.com/8bdfafa6-9833-4689-a155-dff09647ec8d">CertStrToName</a> function. Call the <a href="https://msdn.microsoft.com/1335c726-c16a-4a15-b231-8a3bd212f4ec">Name</a> property to retrieve the name as a null-terminated character string. Call the  <a href="https://msdn.microsoft.com/c3b2966c-5149-462d-908b-f6eca6a0409d">EncodedName</a> property to retrieve a string containing an encoded name.
+This method internally calls the CryptoAPI <a href="https://msdn.microsoft.com/en-us/library/Aa377160(v=VS.85).aspx">CertStrToName</a> function. Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377056(v=VS.85).aspx">Name</a> property to retrieve the name as a null-terminated character string. Call the  <a href="https://msdn.microsoft.com/en-us/library/Aa377053(v=VS.85).aspx">EncodedName</a> property to retrieve a string containing an encoded name.
 
 
 
@@ -151,7 +151,7 @@ This method internally calls the CryptoAPI <a href="https://msdn.microsoft.com/8
 
 
 
-<a href="https://msdn.microsoft.com/49f176d9-33f6-4bc1-992c-c613279b0969">IX500DistinguishedName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377051(v=VS.85).aspx">IX500DistinguishedName</a>
  
 
  

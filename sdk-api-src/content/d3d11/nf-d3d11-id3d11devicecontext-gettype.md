@@ -85,7 +85,7 @@ A member of <a href="https://msdn.microsoft.com/1c2e6ed9-63d5-4ea0-bd98-7604c0ee
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
  
 
  

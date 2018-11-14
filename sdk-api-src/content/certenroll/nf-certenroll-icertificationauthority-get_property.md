@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/4588891e-7be4-482a-bbad-c23759b06b1b">Property</a> method  retrieves a certification authority property value.
+The <a href="https://msdn.microsoft.com/en-us/library/Ee351680(v=VS.85).aspx">Property</a> method  retrieves a certification authority property value.
 
 This property is read-only.
 
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee338621(v=VS.85).aspx">ICertificationAuthority</a>
  
 
  

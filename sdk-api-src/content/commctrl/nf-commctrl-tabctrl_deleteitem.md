@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Removes an item from a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/54bfa446-580a-4ea7-b5e9-9429f4ee1c2b">TCM_DELETEITEM</a> message explicitly. 
+Removes an item from a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760577(v=VS.85).aspx">TCM_DELETEITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Removes an item from a tab control. You can use this macro or send the <a href="
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the tab control. 
 

@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Create a <a href="https://msdn.microsoft.com/4ad2fd3e-6e1a-4326-8469-3198acf931dc">domain shader</a>.
+Create a <a href="https://msdn.microsoft.com/en-us/library/Ff476340(v=VS.85).aspx">domain shader</a>.
 
 
 ## -parameters
@@ -76,16 +76,16 @@ A pointer to a compiled shader.
 
 ### -param BytecodeLength [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">SIZE_T</a></b>
 
 Size of the compiled shader.
 
 
 ### -param pClassLinkage [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/eac03911-d881-4304-9598-912321ac0b0c">ID3D11ClassLinkage</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476358(v=VS.85).aspx">ID3D11ClassLinkage</a>*</b>
 
-A pointer to a class linkage interface (see <a href="https://msdn.microsoft.com/eac03911-d881-4304-9598-912321ac0b0c">ID3D11ClassLinkage</a>); the value can be <b>NULL</b>.
+A pointer to a class linkage interface (see <a href="https://msdn.microsoft.com/en-us/library/Ff476358(v=VS.85).aspx">ID3D11ClassLinkage</a>); the value can be <b>NULL</b>.
 
 
 ### -param ppDomainShader [out, optional]
@@ -99,9 +99,9 @@ Address of a pointer to a <a href="https://msdn.microsoft.com/cd01c872-4df5-4741
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
 
 
 
@@ -120,36 +120,36 @@ If you pass a compiled shader to <i>pShaderBytecode</i> that uses any of the fol
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/F9F5583F-E3D0-447F-9227-BBB1B4E71934">dcl_uav_typed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446942(v=VS.85).aspx">dcl_uav_typed</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/D0F43FF8-FF1C-4E42-AF42-F528C98FD680">dcl_uav_raw</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446938(v=VS.85).aspx">dcl_uav_raw</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/40D6B8F7-8A41-4EFE-A8A3-44A646B4D43B">dcl_uav_structured</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446941(v=VS.85).aspx">dcl_uav_structured</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/F7DBA80D-4DD5-4271-B571-24FB6188ABFE">ld_raw</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447155(v=VS.85).aspx">ld_raw</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ED572B76-FF6C-405E-9110-4B12AD5E5AE6">ld_structured</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447157(v=VS.85).aspx">ld_structured</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/E5E03311-3596-4497-9271-FE6445DBFC62">ld_uav_typed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447160(v=VS.85).aspx">ld_uav_typed</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/D166116A-CF4E-4020-9F6A-F9CEEFCDAB21">store_raw</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447236(v=VS.85).aspx">store_raw</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8080B2CA-5BDA-4F01-8B2B-B85BDD58C5AF">store_structured</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447237(v=VS.85).aspx">store_structured</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/AD8E035B-DACD-4241-A05B-7D6DC8E3222C">store_uav_typed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447238(v=VS.85).aspx">store_uav_typed</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/DCA637FE-8F5C-41D0-8B5E-F913463BA387">sync_uglobal</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447241(v=VS.85).aspx">sync_uglobal</a>
 </li>
-<li>All atomics and immediate atomics (for example, <a href="https://msdn.microsoft.com/5FA731E0-7D18-4416-9579-FCA01FF5FC38">atomic_and</a> and <a href="https://msdn.microsoft.com/DA2A70C3-57BD-41F0-865C-235AA4DF1A52">imm_atomic_and</a>)</li>
+<li>All atomics and immediate atomics (for example, <a href="https://msdn.microsoft.com/en-us/library/Hh446819(v=VS.85).aspx">atomic_and</a> and <a href="https://msdn.microsoft.com/en-us/library/Hh447118(v=VS.85).aspx">imm_atomic_and</a>)</li>
 </ul>
 
 
@@ -159,7 +159,7 @@ If you pass a compiled shader to <i>pShaderBytecode</i> that uses any of the fol
 
 
 
-<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
  
 
  

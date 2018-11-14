@@ -112,7 +112,7 @@ The length, in bytes, of the message string.
 
 The contents and behavior of the message box. This value is typically 
       <b>MB_OK</b>. For a complete list of values, see the <i>uType</i> 
-      parameter of the <a href="winui._win32_messagebox">MessageBox</a> function.
+      parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> function.
 
 
 ### -param Timeout [in]
@@ -226,7 +226,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="winui._win32_messagebox">MessageBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>
  
 
  

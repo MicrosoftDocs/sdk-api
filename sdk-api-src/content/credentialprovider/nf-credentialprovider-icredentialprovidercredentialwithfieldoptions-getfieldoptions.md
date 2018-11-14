@@ -73,7 +73,7 @@ The ID of the field in the logon or credential UI.
 
 ### -param options [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/6E8623D0-7FC3-4ccb-B17A-CB12A0508F15">CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS</a> value that, when this method returns successfully, receives one or more flags that specify the current options for the field.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Hh706885(v=VS.85).aspx">CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS</a> value that, when this method returns successfully, receives one or more flags that specify the current options for the field.
 
 
 ## -returns
@@ -90,11 +90,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5507E8DE-5746-4031-900B-3EF5C97BC2EE">ICredentialProviderCredentialEvents2::SetFieldOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh706917(v=VS.85).aspx">ICredentialProviderCredentialEvents2::SetFieldOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/37C391D7-23C2-4053-BC7F-62F8AFD50DA3">ICredentialProviderCredentialWithFieldOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh706918(v=VS.85).aspx">ICredentialProviderCredentialWithFieldOptions</a>
  
 
  

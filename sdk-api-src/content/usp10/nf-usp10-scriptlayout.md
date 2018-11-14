@@ -59,7 +59,7 @@ req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ## -description
 
 
-Converts an array of run <a href="uniscribe_glossary.htm">embedding levels</a> to a map of visual-to-logical position and/or logical-to-visual position.
+Converts an array of run <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">embedding levels</a> to a map of visual-to-logical position and/or logical-to-visual position.
 
 
 ## -parameters

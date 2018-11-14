@@ -77,7 +77,7 @@ A handle to the control.
 
 
 
-The macro expands to a call to <a href="https://msdn.microsoft.com/dfd05c5b-2e60-4f4f-aa6b-53f723a048be">GetWindowTextLength</a>.
+The macro expands to a call to <a href="https://msdn.microsoft.com/en-us/library/ms633521(v=VS.85).aspx">GetWindowTextLength</a>.
 	
 
 

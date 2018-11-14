@@ -80,9 +80,9 @@ A Boolean flag that determines whether the runtime saves deferred context state 
 
 ### -param ppCommandList [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/432f1d21-bf13-4569-9c8f-04f5d2845150">ID3D11CommandList</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476361(v=VS.85).aspx">ID3D11CommandList</a>**</b>
 
-Upon completion of the method, the passed pointer to an <a href="https://msdn.microsoft.com/432f1d21-bf13-4569-9c8f-04f5d2845150">ID3D11CommandList</a> interface pointer is initialized with the recorded command list information. The resulting <b>ID3D11CommandList</b> object is immutable and can only be used with <a href="https://msdn.microsoft.com/54e74f7d-b8a4-458d-bb39-3d8a824f06ef">ID3D11DeviceContext::ExecuteCommandList</a>.
+Upon completion of the method, the passed pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ff476361(v=VS.85).aspx">ID3D11CommandList</a> interface pointer is initialized with the recorded command list information. The resulting <b>ID3D11CommandList</b> object is immutable and can only be used with <a href="https://msdn.microsoft.com/en-us/library/Ff476423(v=VS.85).aspx">ID3D11DeviceContext::ExecuteCommandList</a>.
           
 
 
@@ -90,7 +90,7 @@ Upon completion of the method, the passed pointer to an <a href="https://msdn.mi
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following:
 
@@ -107,16 +107,16 @@ Returns S_OK if successful; otherwise, returns one of the following:
 
 
 
-Create a command list from a deferred context and record commands into it by calling <b>FinishCommandList</b>. Play back a command list with an immediate context by calling <a href="https://msdn.microsoft.com/54e74f7d-b8a4-458d-bb39-3d8a824f06ef">ID3D11DeviceContext::ExecuteCommandList</a>.
+Create a command list from a deferred context and record commands into it by calling <b>FinishCommandList</b>. Play back a command list with an immediate context by calling <a href="https://msdn.microsoft.com/en-us/library/Ff476423(v=VS.85).aspx">ID3D11DeviceContext::ExecuteCommandList</a>.
         
 
 Immediate context state is cleared before and after a command list is executed. A command list has no concept of inheritance. Each call to <b>FinishCommandList</b> will record only the state set since any previous call to  <b>FinishCommandList</b>.
         
 
-For example, the state of a <a href="https://msdn.microsoft.com/b9b45d18-f7b7-40f9-ae4e-576ca7a6eba7">device context</a> is its render state or pipeline state. To retrieve device context state, an application can call  <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">ID3D11DeviceContext::GetData</a> or  <a href="https://msdn.microsoft.com/9a283895-51c4-4de5-bdeb-994f3085bd79">ID3D11DeviceContext::GetPredication</a>.
+For example, the state of a <a href="https://msdn.microsoft.com/en-us/library/Ff476880(v=VS.85).aspx">device context</a> is its render state or pipeline state. To retrieve device context state, an application can call  <a href="https://msdn.microsoft.com/en-us/library/Ff476428(v=VS.85).aspx">ID3D11DeviceContext::GetData</a> or  <a href="https://msdn.microsoft.com/en-us/library/Ff476429(v=VS.85).aspx">ID3D11DeviceContext::GetPredication</a>.
         
 
-For more information about how to use <b>FinishCommandList</b>, see <a href="https://msdn.microsoft.com/f5b90dfb-0b07-432e-813b-1541efbe3de5">How to: Record a Command List</a>.
+For more information about how to use <b>FinishCommandList</b>, see <a href="https://msdn.microsoft.com/en-us/library/Ff476887(v=VS.85).aspx">How to: Record a Command List</a>.
         
 
 <b>Windows Phone 8:
@@ -131,7 +131,7 @@ For more information about how to use <b>FinishCommandList</b>, see <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
  
 
  

@@ -88,15 +88,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef5dbf4a-ecbb-4f2c-a34d-ce3864133adc">IBDA_FrequencyFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693355(v=VS.85).aspx">IBDA_FrequencyFilter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1f787f6-5d52-44a0-90d7-c905b7e8b8b1">IBDA_FrequencyFilter::get_Polarity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693360(v=VS.85).aspx">IBDA_FrequencyFilter::get_Polarity</a>
  
 
  

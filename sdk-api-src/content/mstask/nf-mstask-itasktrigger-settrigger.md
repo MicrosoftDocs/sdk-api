@@ -61,7 +61,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
-<b>SetTrigger</b> method sets the trigger criteria for a task <a href="t.htm">trigger</a>.
+<b>SetTrigger</b> method sets the trigger criteria for a task <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">trigger</a>.
 
 
 ## -parameters
@@ -136,7 +136,7 @@ The <b>wBeginDay</b>, <b>wBeginMonth</b>, and <b>wBeginYear</b> members of the
 A task can have any number of triggers associated with it. The times that the task will run are the union of all the triggers defined for that task.
 
 To update the task with these new trigger settings, applications must call the 
-<a href="_com_ipersistfile_save">IPersistFile::Save</a> method after calling 
+<a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a> method after calling 
 <b>SetTrigger</b>.
 
 
@@ -181,7 +181,7 @@ if (FAILED(hr))
 
 
 
-<a href="_com_ipersistfile_save">IPersistFile::Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>
 
 
 

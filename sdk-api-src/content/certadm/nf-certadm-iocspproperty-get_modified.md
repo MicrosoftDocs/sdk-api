@@ -72,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/854848f0-ea89-4c25-a8a5-40f1e4d229be">IOCSPProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386391(v=VS.85).aspx">IOCSPProperty</a>
  
 
  

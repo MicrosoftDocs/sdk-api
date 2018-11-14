@@ -575,7 +575,7 @@ The CSP <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb
 
 
 
-<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
  
 
  

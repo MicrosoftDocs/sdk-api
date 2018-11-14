@@ -73,7 +73,7 @@ Sets the opacity and transparency color key of a layered window.
 
 Type: <b>HWND</b>
 
-A handle to the layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> function or by setting <b>WS_EX_LAYERED</b> via <a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a> after the window has been created.
+A handle to the layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function or by setting <b>WS_EX_LAYERED</b> via <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a> after the window has been created.
 
 <b>Windows 8:  </b>The <b>WS_EX_LAYERED</b> style is supported for top-level windows and child windows. Previous Windows versions support <b>WS_EX_LAYERED</b> only for top-level windows.
 
@@ -149,9 +149,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Note that once <b>SetLayeredWindowAttributes</b> has been called for a layered window, subsequent <a href="https://msdn.microsoft.com/3f4a3608-2383-46d5-b1b2-53a939bf736a">UpdateLayeredWindow</a> calls will fail until the layering style bit is cleared and set again.
+Note that once <b>SetLayeredWindowAttributes</b> has been called for a layered window, subsequent <a href="https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a> calls will fail until the layering style bit is cleared and set again.
 
-For more information, see <a href="using_windows.htm">Using Layered Windows</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Using Layered Windows</a>.
 
 
 
@@ -173,7 +173,7 @@ For more information, see <a href="using_windows.htm">Using Layered Windows</a>.
 
 
 
-<a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
 
 
 
@@ -189,7 +189,7 @@ For more information, see <a href="using_windows.htm">Using Layered Windows</a>.
 
 
 
-<a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a>
 
 
 
@@ -197,15 +197,15 @@ For more information, see <a href="using_windows.htm">Using Layered Windows</a>.
 
 
 
-<a href="https://msdn.microsoft.com/3f4a3608-2383-46d5-b1b2-53a939bf736a">UpdateLayeredWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/7695fb64-3918-4d9a-8cd8-01d20edd9c55">Using Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Using Windows</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

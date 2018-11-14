@@ -70,7 +70,7 @@ Get a message category to break on when a message with that category passes thro
 
 ### -param Category [in]
 
-Type: <b><a href="https://msdn.microsoft.com/297923A3-CE6A-46AF-B8B6-E2AE0C1920CC">D3D12_MESSAGE_CATEGORY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn950145(v=VS.85).aspx">D3D12_MESSAGE_CATEGORY</a></b>
 
 Message category to break on.
           
@@ -94,7 +94,7 @@ Whether this breaking condition is turned on or off (true for on, false for off)
 
 
 
-<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
  
 
  

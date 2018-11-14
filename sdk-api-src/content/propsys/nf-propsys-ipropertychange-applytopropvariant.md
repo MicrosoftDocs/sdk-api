@@ -96,11 +96,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="shell.IPropertyChange">IPropertyChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775244(v=VS.85).aspx">IPropertyChange</a>
 
 
 
-<a href="shell.PSCreateSimplePropertyChange">PSCreateSimplePropertyChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776494(v=VS.85).aspx">PSCreateSimplePropertyChange</a>
  
 
  

@@ -116,7 +116,7 @@ this function must be aligned on a 64-bit boundary; otherwise, this function wil
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="c3ad79c0-a523-4930-a3a4-69a65d7d5c81">_InterlockedCompareExchange64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/ttk2z1ws(v=VS.85).aspx">_InterlockedCompareExchange64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

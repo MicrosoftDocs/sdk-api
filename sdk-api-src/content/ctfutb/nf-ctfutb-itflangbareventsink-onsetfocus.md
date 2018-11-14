@@ -67,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param dwThreadId [in]
 
-Contains the current thread identifier. This is the same value returned from <a href="https://msdn.microsoft.com/a496f61a-e027-44e7-8b22-4f6651d7afb2">GetCurrentThreadId</a>.
+Contains the current thread identifier. This is the same value returned from <a href="https://msdn.microsoft.com/en-us/library/ms683183(v=VS.85).aspx">GetCurrentThreadId</a>.
 
 
 ## -returns
@@ -84,11 +84,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/a496f61a-e027-44e7-8b22-4f6651d7afb2">GetCurrentThreadId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683183(v=VS.85).aspx">GetCurrentThreadId</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ef8b8ff-6549-41f8-baf3-3c5b8e2411a3">ITfLangBarEventSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628694(v=VS.85).aspx">ITfLangBarEventSink</a>
  
 
  

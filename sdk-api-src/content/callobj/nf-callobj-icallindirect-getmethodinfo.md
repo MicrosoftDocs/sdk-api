@@ -73,7 +73,7 @@ The method number.
 
 ### -param pInfo [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/3d490c8b-d254-458b-b355-39c3942ddc5e">CALLFRAMEINFO</a> structure containing information about the specified method.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680725(v=VS.85).aspx">CALLFRAMEINFO</a> structure containing information about the specified method.
 
 
 ### -param pwszMethod [out]
@@ -124,7 +124,7 @@ An unexpected error has occurred.
 
 
 
-The information returned is a static analysis of the method, not a dynamic one, in that it is based on an analysis of the method signature only, not the actual current contents of the call frame. For example, the static analysis might indicate that this method has the potential of having an in-interface, but because of, say, a union switch, a given call might not actually have any such interfaces. This method is equivalent to the <a href="https://msdn.microsoft.com/807b4542-c18d-48e4-8493-c40a85e5e1de">GetInfo</a> and <a href="https://msdn.microsoft.com/3efb0819-51db-419b-a9f1-710bb3abae2d">GetNames</a> methods in <a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>, but avoids the need to actually make any invocation to get the information.
+The information returned is a static analysis of the method, not a dynamic one, in that it is based on an analysis of the method signature only, not the actual current contents of the call frame. For example, the static analysis might indicate that this method has the potential of having an in-interface, but because of, say, a union switch, a given call might not actually have any such interfaces. This method is equivalent to the <a href="https://msdn.microsoft.com/en-us/library/ms687268(v=VS.85).aspx">GetInfo</a> and <a href="https://msdn.microsoft.com/en-us/library/ms680733(v=VS.85).aspx">GetNames</a> methods in <a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>, but avoids the need to actually make any invocation to get the information.
 
 
 
@@ -134,7 +134,7 @@ The information returned is a static analysis of the method, not a dynamic one, 
 
 
 
-<a href="https://msdn.microsoft.com/b85585fd-5f44-4c07-91a4-145eb44a6bdd">ICallIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691485(v=VS.85).aspx">ICallIndirect</a>
  
 
  

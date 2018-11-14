@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the current line color. You can also use the <a href="https://msdn.microsoft.com/e74441b3-5d4f-4454-b896-2e96ce649419">TVM_GETLINECOLOR</a> message directly. 
+Gets the current line color. You can also use the <a href="https://msdn.microsoft.com/en-us/library/Bb773619(v=VS.85).aspx">TVM_GETLINECOLOR</a> message directly. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Gets the current line color. You can also use the <a href="https://msdn.microsof
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -77,7 +77,7 @@ Handle to the tree-view control.
 
 
 
-This message only retrieves line colors. To retrieve the colors of the plus sign (+) and minus sign (-) inside the buttons, use the <a href="https://msdn.microsoft.com/a4c003eb-0e0e-496a-a048-ce733e8fcd45">TreeView_GetTextColor</a> macro.
+This message only retrieves line colors. To retrieve the colors of the plus sign (+) and minus sign (-) inside the buttons, use the <a href="https://msdn.microsoft.com/en-us/library/Bb773893(v=VS.85).aspx">TreeView_GetTextColor</a> macro.
 
 
 
@@ -87,7 +87,7 @@ This message only retrieves line colors. To retrieve the colors of the plus sign
 
 
 
-<a href="https://msdn.microsoft.com/e74441b3-5d4f-4454-b896-2e96ce649419">TVM_GETLINECOLOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773619(v=VS.85).aspx">TVM_GETLINECOLOR</a>
  
 
  

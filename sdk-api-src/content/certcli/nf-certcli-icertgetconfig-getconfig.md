@@ -58,10 +58,10 @@ req.redist:
 ## -description
 
 
-The <b>GetConfig</b> method retrieves the configuration string for a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Services</a> server.
+The <b>GetConfig</b> method retrieves the configuration string for a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Services</a> server.
 			
 
-The configuration string is the server name and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) name separated by a backslash (\); for example: <i>ServerName</i>\<i>CAName</i>. This configuration string can be used to refer unambiguously to a specific Certificate Services server. For more information, see Remarks.
+The configuration string is the server name and <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) name separated by a backslash (\); for example: <i>ServerName</i>\<i>CAName</i>. This configuration string can be used to refer unambiguously to a specific Certificate Services server. For more information, see Remarks.
 
 
 ## -parameters
@@ -157,7 +157,7 @@ TBD
 
 #### - pbstrOut [out]
 
-A pointer to a <b>BSTR</b> that contains the configuration. When you have finished using the configuration, call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to free <i>pbstrOut</i>.
+A pointer to a <b>BSTR</b> that contains the configuration. When you have finished using the configuration, call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to free <i>pbstrOut</i>.
 
 
 ## -returns
@@ -167,7 +167,7 @@ A pointer to a <b>BSTR</b> that contains the configuration. When you have finish
 If the function is successful, the return value is S_OK.
 
  
-If the method fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 
 
@@ -176,7 +176,7 @@ If the method fails, the return value is an <b>HRESULT</b> that indicates the er
 
 
 
-The <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) name portion of the configuration string that this function returns is the exact text entered during the Certificate Services setup process. Note that this text may be different from the form of the CA name found in file names (such as for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a>) or in registry keys. This is because file names and registry keys use a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">sanitized</a> version of the CA name.
+The <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) name portion of the configuration string that this function returns is the exact text entered during the Certificate Services setup process. Note that this text may be different from the form of the CA name found in file names (such as for the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a>) or in registry keys. This is because file names and registry keys use a <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">sanitized</a> version of the CA name.
 
 The process of sanitizing the CA name is necessary to remove characters that are illegal for file names, registry key names, or distinguished name values, or illegal for reasons specific to Certificate Services. In the sanitizing process, any illegal character in the common name is converted to a five-character representation in the format <b>!</b><i>xxxx</i>, where the exclamation point (<b>!</b>) is used as an escape character and <i>xxxx</i> represents four hexadecimal digits that uniquely identify the character to be converted.
 
@@ -248,12 +248,12 @@ The following characters, if entered for the common name of the CA during setup,
 </table>
  
 
-Any nonprinting character and all <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> characters that are not seven bits are also converted to the <b>!</b><i>xxxx</i> format.
+Any nonprinting character and all <a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">Unicode</a> characters that are not seven bits are also converted to the <b>!</b><i>xxxx</i> format.
 
-A sanitized short name is generated when the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">sanitized name</a> is too long for a 64-character directory services <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">relative distinguished name</a> (RDN). The sanitized short name consists of the sanitized name truncated and appended with a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the full sanitized name. The sanitized short name reserves some of the 64 characters to contain <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) suffixes, such as (123).
+A sanitized short name is generated when the <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">sanitized name</a> is too long for a 64-character directory services <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">relative distinguished name</a> (RDN). The sanitized short name consists of the sanitized name truncated and appended with a <a href="https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx">hash</a> of the full sanitized name. The sanitized short name reserves some of the 64 characters to contain <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) suffixes, such as (123).
 
 The CA name portion of the configuration string returned by this method is the original text entered during setup. Note that Certificate Services methods that require a CA name as a parameter accept the originally entered CA name. For example, for the CA name <b>#</b><i>YourName</i>, the  
-<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">ICertView2::OpenConnection</a> method accepts <b>#</b><i>YourName</i> as the parameter's CA portion.
+<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">ICertView2::OpenConnection</a> method accepts <b>#</b><i>YourName</i> as the parameter's CA portion.
 
 
 
@@ -263,15 +263,15 @@ The CA name portion of the configuration string returned by this method is the o
 
 
 
-<a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">ICertConfig2::GetConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383274(v=VS.85).aspx">ICertConfig2::GetConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/753d1527-1863-41af-9715-2c1fe138e67d">ICertGetConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385027(v=VS.85).aspx">ICertGetConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">ICertView2::OpenConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">ICertView2::OpenConnection</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 ## -description
 
 
-Elements of the <b>TfCandidateResult</b> enumeration are used with the <a href="https://msdn.microsoft.com/dcc172f9-4fc3-46f4-a1db-0e75fceafb28">ITfCandidateList::SetResult</a> method to specify the result of a reconversion operation performed on a given candidate string.
+Elements of the <b>TfCandidateResult</b> enumeration are used with the <a href="https://msdn.microsoft.com/en-us/library/ms538496(v=VS.85).aspx">ITfCandidateList::SetResult</a> method to specify the result of a reconversion operation performed on a given candidate string.
 
 
 ## -enum-fields

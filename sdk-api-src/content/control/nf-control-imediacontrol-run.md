@@ -117,11 +117,11 @@ All filters in the graph completed the transition to a running state.
 
 If the filter graph is stopped, this method pauses the graph before running. If the graph is already running, the method returns S_OK but has no effect.
 
-The graph runs until the application calls the <a href="https://msdn.microsoft.com/cfb875b7-cc4e-4ae2-8379-964d0e3ceb04">IMediaControl::Pause</a> or <a href="https://msdn.microsoft.com/89e48d43-a31f-4912-98ff-36ba2069812d">IMediaControl::Stop</a> method. When playback reaches the end of the stream, the graph continues to run, but the filters do not stream any more data. At that point, the application can pause or stop the graph. For information about the end-of-stream event, see <b>IMediaControl::Pause</b> and <a href="https://msdn.microsoft.com/46037d53-085d-4fd0-91a0-408702cbfce5">EC_COMPLETE</a>.
+The graph runs until the application calls the <a href="https://msdn.microsoft.com/en-us/library/Dd390175(v=VS.85).aspx">IMediaControl::Pause</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd390178(v=VS.85).aspx">IMediaControl::Stop</a> method. When playback reaches the end of the stream, the graph continues to run, but the filters do not stream any more data. At that point, the application can pause or stop the graph. For information about the end-of-stream event, see <b>IMediaControl::Pause</b> and <a href="https://msdn.microsoft.com/en-us/library/Dd319485(v=VS.85).aspx">EC_COMPLETE</a>.
 
-This method does not seek to the beginning of the stream. Therefore, if you run the graph, pause it, and then run it again, playback resumes from the paused position. If you run the graph after it has reached the end of the stream, nothing is rendered. To seek the graph, use the <a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking</a> interface.
+This method does not seek to the beginning of the stream. Therefore, if you run the graph, pause it, and then run it again, playback resumes from the paused position. If you run the graph after it has reached the end of the stream, nothing is rendered. To seek the graph, use the <a href="https://msdn.microsoft.com/en-us/library/Dd407023(v=VS.85).aspx">IMediaSeeking</a> interface.
 
-If method returns <b>S_FALSE</b>, it means that the method returned before all of the filters switched to a running state. The filters will complete the transition after the method returns. Optionally, you can wait  for the transition to complete by calling the <a href="https://msdn.microsoft.com/653a94ff-6929-41b1-9b94-dccaff0f7ec7">IMediaControl::GetState</a> method with a timeout value. However, this is not required.
+If method returns <b>S_FALSE</b>, it means that the method returned before all of the filters switched to a running state. The filters will complete the transition after the method returns. Optionally, you can wait  for the transition to complete by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd390172(v=VS.85).aspx">IMediaControl::GetState</a> method with a timeout value. However, this is not required.
 
 If the <b>Run</b> method returns an error code, it means that one or more filters failed to run. However, some filters might be in a running state. In a multistream graph, entire streams might be playing successfully. Typically the application would tear down the graph and report an error in this case.
 
@@ -133,11 +133,11 @@ If the <b>Run</b> method returns an error code, it means that one or more filter
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/bce64088-3751-420c-b9de-b9b5f3119198">IMediaControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390170(v=VS.85).aspx">IMediaControl Interface</a>
  
 
  

@@ -85,7 +85,7 @@ The command line (file name plus optional parameters) for the application to be 
 ### -param uCmdShow [in]
 
 The display options. For a list of the acceptable values, see the description of the <i>nCmdShow</i> parameter of the 
-<a href="_win32_showwindow_cpp">ShowWindow</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> function.
 
 
 ## -returns
@@ -156,7 +156,7 @@ The specified path was not found.
 
 
 The 
-<b>WinExec</b> function returns when the started process calls the <a href="_win32_getmessage_cpp">GetMessage</a> function or a time-out limit is reached. To avoid waiting for the time out delay, call the <b>GetMessage</b> function as soon as possible in any process started by a call to 
+<b>WinExec</b> function returns when the started process calls the <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> function or a time-out limit is reached. To avoid waiting for the time out delay, call the <b>GetMessage</b> function as soon as possible in any process started by a call to 
 <b>WinExec</b>.
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>

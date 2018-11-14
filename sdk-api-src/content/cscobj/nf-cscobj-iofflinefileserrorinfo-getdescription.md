@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Retrieves a text string describing the error. In most cases, this is the system error string reported for the sync result using the Win32 function <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a>.
+Retrieves a text string describing the error. In most cases, this is the system error string reported for the sync result using the Win32 function <a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Retrieves a text string describing the error. In most cases, this is the system 
 
 ### -param ppszDescription [out]
 
-Receives the address of a text string describing the error.  The caller must free this memory block by using the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function.
+Receives the address of a text string describing the error.  The caller must free this memory block by using the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
 
 
 ## -returns
@@ -86,11 +86,11 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c78d475-aa63-49e4-863f-1a197801f2f9">IOfflineFilesErrorInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530517(v=VS.85).aspx">IOfflineFilesErrorInfo</a>
  
 
  

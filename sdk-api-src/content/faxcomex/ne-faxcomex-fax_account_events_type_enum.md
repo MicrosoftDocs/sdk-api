@@ -92,7 +92,7 @@ A notification is sent whenever the fax service stops executing.
 
 
 
-The following table lists the <a href="https://msdn.microsoft.com/10867869-66bb-4e17-a9b3-7e943fe5f510">IFaxAccountNotify</a> methods called by each member of the enumeration:
+The following table lists the <a href="https://msdn.microsoft.com/en-us/library/Aa359031(v=VS.85).aspx">IFaxAccountNotify</a> methods called by each member of the enumeration:
 
 
 <table class="clsStd">

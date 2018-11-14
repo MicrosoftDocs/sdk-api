@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the size needed to display the control without clipping. Use this macro or send the <a href="https://msdn.microsoft.com/15ec26a1-645b-4a96-af66-1031e1a46c6c">DTM_GETIDEALSIZE</a> message explicitly.
+Gets the size needed to display the control without clipping. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761757(v=VS.85).aspx">DTM_GETIDEALSIZE</a> message explicitly.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Gets the size needed to display the control without clipping. Use this macro or 
 
 ### -param hdp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the DTP control.
 

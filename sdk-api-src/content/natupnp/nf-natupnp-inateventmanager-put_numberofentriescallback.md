@@ -69,8 +69,8 @@ The <b>put_NumberOfEntriesCallback</b> method enables the NAT application with U
 ### -param pUnk [in]
 
 Pointer to an object that supports either the 
-<a href="_com_iunknown">IUnknown</a> interface or the 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. See the Remarks section for more information.
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface or the 
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. See the Remarks section for more information.
 
 
 ## -returns
@@ -185,10 +185,10 @@ The method failed for unknown reasons.
 
 
 The object referred to by <i>pUnk</i> must either support the 
-<a href="https://msdn.microsoft.com/c64e5ce3-78f6-4f51-8ae1-c871c4716d26">INATNumberOfEntriesCallback</a> interface or the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. The NAT first queries <i>pUnk</i> for the 
+<a href="https://msdn.microsoft.com/c64e5ce3-78f6-4f51-8ae1-c871c4716d26">INATNumberOfEntriesCallback</a> interface or the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. The NAT first queries <i>pUnk</i> for the 
 <b>INATNumberOfEntriesCallback</b> interface. If this interface is not supported, the NAT queries <i>pUnk</i> for the <b>IDispatch</b> interface. If the <b>IDispatch</b> interface is not supported, the <b>NumberOfEntriesCallback</b> method returns E_FAIL.
 
-If only <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> is supported, the NAT invokes the callback by calling <a href="964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a> with the dispatch ID specified as zero, which indicates the default method. This <b>IDispatch</b> method is passed the same parameters as the 
+If only <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> is supported, the NAT invokes the callback by calling <a href="https://msdn.microsoft.com/en-us/library/ms221479(v=VS.85).aspx">IDispatch::Invoke</a> with the dispatch ID specified as zero, which indicates the default method. This <b>IDispatch</b> method is passed the same parameters as the 
 <a href="https://msdn.microsoft.com/c64e5ce3-78f6-4f51-8ae1-c871c4716d26">INATNumberOfEntriesCallback</a> method, except that the first parameter passed is a string that indicates the reason the callback is invoked.
 
 
@@ -199,7 +199,7 @@ If only <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> is supporte
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

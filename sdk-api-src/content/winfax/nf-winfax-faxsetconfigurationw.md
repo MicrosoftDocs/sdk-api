@@ -71,14 +71,14 @@ A fax client application calls the <b>FaxSetConfiguration</b> function to change
 
 Type: <b>HANDLE</b>
 
-Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a> function.
+Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function.
 
 
 ### -param FaxConfig [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/94b09265-a53c-47a2-8b24-bccb662b21c6">FAX_CONFIGURATION</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/94b09265-a53c-47a2-8b24-bccb662b21c6">FAX_CONFIGURATION</a> structure. The structure contains data to modify the current fax server configuration settings.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a> structure. The structure contains data to modify the current fax server configuration settings.
 
 
 ## -returns
@@ -103,7 +103,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-Access is denied. <a href="https://msdn.microsoft.com/7d6ff208-33e4-42b2-ae21-76ec8ff58809">FAX_CONFIG_SET</a> access is required.
+Access is denied. <a href="https://msdn.microsoft.com/en-us/library/ms692302(v=VS.85).aspx">FAX_CONFIG_SET</a> access is required.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Access is denied. <a href="https://msdn.microsoft.com/7d6ff208-33e4-42b2-ae21-76
 </dl>
 </td>
 <td width="60%">
-Access is denied. <a href="https://msdn.microsoft.com/7d6ff208-33e4-42b2-ae21-76ec8ff58809">FAX_PORT_QUERY</a> access is required.
+Access is denied. <a href="https://msdn.microsoft.com/en-us/library/ms692302(v=VS.85).aspx">FAX_PORT_QUERY</a> access is required.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Access is denied. <a href="https://msdn.microsoft.com/7d6ff208-33e4-42b2-ae21-76
 </dl>
 </td>
 <td width="60%">
-The <i>FaxConfig</i> parameter is <b>NULL</b>, or the <b>SizeOfStruct</b> member of the specified <a href="https://msdn.microsoft.com/94b09265-a53c-47a2-8b24-bccb662b21c6">FAX_CONFIGURATION</a> structure is not equal to <b>sizeof(FAX_CONFIGURATION)</b>.
+The <i>FaxConfig</i> parameter is <b>NULL</b>, or the <b>SizeOfStruct</b> member of the specified <a href="https://msdn.microsoft.com/en-us/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a> structure is not equal to <b>sizeof(FAX_CONFIGURATION)</b>.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The <i>FaxConfig</i> parameter is <b>NULL</b>, or the <b>SizeOfStruct</b> member
 
 
 
-A fax administration application typically calls the <b>FaxSetConfiguration</b> function to administer the global configuration settings for a fax server. To query the settings, an application can call the <a href="https://msdn.microsoft.com/c29f0eaf-39a5-45e2-afb9-010494552969">FaxGetConfiguration</a> function. For more information, see <a href="https://msdn.microsoft.com/49416909-d475-4c76-ae2a-bd3c39611b32">Fax Server Configuration Management</a>.
+A fax administration application typically calls the <b>FaxSetConfiguration</b> function to administer the global configuration settings for a fax server. To query the settings, an application can call the <a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a> function. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691849(v=VS.85).aspx">Fax Server Configuration Management</a>.
 
 
 
@@ -149,23 +149,23 @@ A fax administration application typically calls the <b>FaxSetConfiguration</b> 
 
 
 
-<a href="https://msdn.microsoft.com/94b09265-a53c-47a2-8b24-bccb662b21c6">FAX_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/c29f0eaf-39a5-45e2-afb9-010494552969">FaxGetConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a>
  
 
  

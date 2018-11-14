@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/f9a949c8-acd9-45b2-882e-84daf0acfad4">Initialize</a> method to specify the property value.
+Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375251(v=VS.85).aspx">Initialize</a> method to specify the property value.
 
 
 
@@ -81,11 +81,11 @@ Call the <a href="https://msdn.microsoft.com/f9a949c8-acd9-45b2-882e-84daf0acfad
 
 
 
-<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/25eab0e9-4980-49ad-9d3b-35ad47c20bcb">ICertPropertyAutoEnroll</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375250(v=VS.85).aspx">ICertPropertyAutoEnroll</a>
  
 
  

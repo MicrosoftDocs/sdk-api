@@ -75,7 +75,7 @@ Number of elements in pInputProcessParameters.
 
 ### -param pInputProcessParameters [in]
 
-Input array of <a href="https://msdn.microsoft.com/03f182f4-b051-4e2f-8b93-7e78dcf7e9ae">XAPO_PROCESS_BUFFER_PARAMETERS</a> structures. 
+Input array of <a href="https://msdn.microsoft.com/en-us/library/Ee419209(v=VS.85).aspx">XAPO_PROCESS_BUFFER_PARAMETERS</a> structures. 
 
 
 ### -param OutputProcessParameterCount [in]
@@ -87,7 +87,7 @@ Number of elements in <i>pOutputProcessParameters</i>.
 
 ### -param pOutputProcessParameters [in, out]
 
-Output array of <a href="https://msdn.microsoft.com/03f182f4-b051-4e2f-8b93-7e78dcf7e9ae">XAPO_PROCESS_BUFFER_PARAMETERS</a> structures. On input, the value of <b>XAPO_PROCESS_BUFFER_PARAMETERS</b>. <b>ValidFrameCount</b> indicates the number of frames that the XAPO should write to the output buffer. On output, the value of <b>XAPO_PROCESS_BUFFER_PARAMETERS</b>. <b>ValidFrameCount</b> indicates the actual number of frames written.
+Output array of <a href="https://msdn.microsoft.com/en-us/library/Ee419209(v=VS.85).aspx">XAPO_PROCESS_BUFFER_PARAMETERS</a> structures. On input, the value of <b>XAPO_PROCESS_BUFFER_PARAMETERS</b>. <b>ValidFrameCount</b> indicates the number of frames that the XAPO should write to the output buffer. On output, the value of <b>XAPO_PROCESS_BUFFER_PARAMETERS</b>. <b>ValidFrameCount</b> indicates the actual number of frames written.
 
 
 ### -param IsEnabled
@@ -112,7 +112,7 @@ Implementations of this function should not block, as the function is called fro
 
 
 
-All code that could cause a delay, such as format validation and memory allocation, should be put in the <a href="https://msdn.microsoft.com/2143A204-342F-4A78-A6D7-D319360A3948">IXAPO::LockForProcess</a> method, which is not called from the realtime audio processing thread. 
+All code that could cause a delay, such as format validation and memory allocation, should be put in the <a href="https://msdn.microsoft.com/en-us/library/Ee418455(v=VS.85).aspx">IXAPO::LockForProcess</a> method, which is not called from the realtime audio processing thread. 
 
 
 
@@ -146,7 +146,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/21DA61D2-8EDE-496B-8513-D67121697FBA">IXAPO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a>
  
 
  

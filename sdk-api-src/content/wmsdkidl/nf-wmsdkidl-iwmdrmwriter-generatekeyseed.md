@@ -65,7 +65,7 @@ req.redist:
 ]
 
 
-The <b>GenerateKeySeed</b> method generates a <a href="wmformat_glossary.htm">DRM</a> key seed.
+The <b>GenerateKeySeed</b> method generates a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DRM</a> key seed.
 
 
 

@@ -56,9 +56,9 @@ A 4D vector consisting of 16-bit unsigned integer components.
 
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMUSHORT4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/71c50c11-4be2-4d7d-ae53-0f3b95981998">XMUSHORT4 Extensions</a>.
+	using <code>XMUSHORT4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415502(v=VS.85).aspx">XMUSHORT4 Extensions</a>.
 <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.
+	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -109,7 +109,7 @@ Unsigned 16-bit integer in the range [0, 65535] describing the w-coordinate of t
 	    using <a href="https://msdn.microsoft.com/87367099-9e73-44de-a045-a9fbbb396455">XMLoadUShort4</a>.
 	
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUSHORT4</code> with <a href="https://msdn.microsoft.com/7d1db031-d336-4ee2-b1e7-5835bf2ca399">XMStoreUShort4</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUSHORT4</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420388(v=VS.85).aspx">XMStoreUShort4</a>.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -129,7 +129,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/71c50c11-4be2-4d7d-ae53-0f3b95981998">XMUSHORT4 Extensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415502(v=VS.85).aspx">XMUSHORT4 Extensions</a>
  
 
  

@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
+Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
 
 
 ## -parameters
@@ -82,9 +82,9 @@ The PROPID of the property.
 
 ### -param pflags [out]
 
-Type: <b><a href="shell.PROPERTYUI_FLAGS">PROPERTYUI_FLAGS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762529(v=VS.85).aspx">PROPERTYUI_FLAGS</a>*</b>
 
-The <a href="shell.PROPERTYUI_FLAGS">PROPERTYUI_FLAGS</a> for the property.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb762529(v=VS.85).aspx">PROPERTYUI_FLAGS</a> for the property.
 
 
 ## -returns

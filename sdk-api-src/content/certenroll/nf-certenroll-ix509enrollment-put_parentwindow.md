@@ -82,7 +82,7 @@ You can call this property before initializing the enrollment object. If you do 
 
 
 
-<a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a>
  
 
  

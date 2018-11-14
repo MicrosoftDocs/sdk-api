@@ -73,7 +73,7 @@ Find out if multithreading is turned on or not.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
 
 Whether or not multithreading is turned on. True means on, false means off.
 
@@ -85,7 +85,7 @@ Whether or not multithreading is turned on. True means on, false means off.
 
 
 
-<a href="https://msdn.microsoft.com/ff4890fe-25a3-4515-b20d-45f68637e7b3">ID3D10Multithread Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173816(v=VS.85).aspx">ID3D10Multithread Interface</a>
  
 
  

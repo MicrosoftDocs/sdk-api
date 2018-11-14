@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/2ce9405a-e36d-4b9e-b9d2-2a58b78696ac">D2D1_EFFECT_INPUT_DESCRIPTION</a> structure.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/Hh404305(v=VS.85).aspx">D2D1_EFFECT_INPUT_DESCRIPTION</a> structure.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ The input index of the effect that is being considered.
 
 ### -param inputRectangle
 
-Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a></b>
 
 The amount of data that would be available on the input. This can be used to query this information when the data is not yet available. 
 
@@ -89,7 +89,7 @@ The amount of data that would be available on the input. This can be used to que
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/2ce9405a-e36d-4b9e-b9d2-2a58b78696ac">D2D1_EFFECT_INPUT_DESCRIPTION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh404305(v=VS.85).aspx">D2D1_EFFECT_INPUT_DESCRIPTION</a></b>
 
 The filled description structure that describes the input to the effect.
 

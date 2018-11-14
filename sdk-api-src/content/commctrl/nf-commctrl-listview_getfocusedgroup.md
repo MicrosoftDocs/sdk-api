@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the group that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/c1902f35-84b7-4f46-89a6-e48148f06172">LVM_GETFOCUSEDGROUP</a> message explicitly. 
+Gets the group that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774925(v=VS.85).aspx">LVM_GETFOCUSEDGROUP</a> message explicitly. 
 
 
 
@@ -69,7 +69,7 @@ Gets the group that has the focus. Use this macro or send the <a href="https://m
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control.
 

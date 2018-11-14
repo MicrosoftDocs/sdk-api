@@ -83,7 +83,7 @@ The video card must support DirectX 10.
 
 
 
-<a href="https://msdn.microsoft.com/360900bd-1353-4a92-865c-ad34d5e98123">D2D1_RENDER_TARGET_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd368155(v=VS.85).aspx">D2D1_RENDER_TARGET_PROPERTIES</a>
  
 
  

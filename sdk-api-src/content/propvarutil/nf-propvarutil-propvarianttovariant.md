@@ -56,7 +56,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Converts the contents of a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure to a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+Converts the contents of a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure to a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Pointer to a source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-
 
 Type: <b>VARIANT*</b>
 
-Pointer to a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure. When this function returns, the <b>VARIANT</b> contains the converted information.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure. When this function returns, the <b>VARIANT</b> contains the converted information.
 
 
 ## -returns
@@ -93,7 +93,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Normally, the data stored in the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> is copied to the <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> without a datatype change. However, in the following cases, there is no direct <b>VARIANT</b> support for the datatype, and they are converted as shown.
+Normally, the data stored in the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> is copied to the <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> without a datatype change. However, in the following cases, there is no direct <b>VARIANT</b> support for the datatype, and they are converted as shown.
                 
                 
 
@@ -101,7 +101,7 @@ Normally, the data stored in the <a href="https://msdn.microsoft.com/e86cc279-82
 <table class="clsStd">
 <tr>
 <th>Original <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> Type</th>
-<th>Stored as <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> Type</th>
+<th>Stored as <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> Type</th>
 </tr>
 <tr>
 <td>VT_BLOB, VT_STREAM</td>

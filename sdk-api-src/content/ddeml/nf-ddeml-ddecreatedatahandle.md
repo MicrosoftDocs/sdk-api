@@ -68,7 +68,7 @@ Creates a Dynamic Data Exchange (DDE) object and fills the object with data from
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a> function. 
+The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
 
 
 ### -param pSrc [in, optional]
@@ -99,7 +99,7 @@ An offset, in bytes, from the beginning of the buffer pointed to by the
 
 Type: <b>HSZ</b>
 
-A handle to the string that specifies the data item corresponding to the DDE object. This handle must have been created by a previous call to the <a href="https://msdn.microsoft.com/561bbf80-cc73-4fe1-ba95-837d515834eb">DdeCreateStringHandle</a> function. If the data handle is to be used in an <a href="https://msdn.microsoft.com/6001eb7d-59c0-49ec-97ce-26132891188c">XTYP_EXECUTE</a> transaction, this parameter must be 0L. 
+A handle to the string that specifies the data item corresponding to the DDE object. This handle must have been created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a> function. If the data handle is to be used in an <a href="https://msdn.microsoft.com/en-us/library/ms648722(v=VS.85).aspx">XTYP_EXECUTE</a> transaction, this parameter must be 0L. 
 
 
 ### -param wFmt [in]
@@ -113,7 +113,7 @@ The standard clipboard format of the data.
 
 Type: <b>UINT</b>
 
-The creation flags. This parameter can be <b>HDATA_APPOWNED</b>, which specifies that the server application calling the <b>DdeCreateDataHandle</b> function owns the data handle this function creates. This flag enables the application to share the data handle with other DDEML applications rather than creating a separate handle to pass to each application. If this flag is specified, the application must eventually free the shared memory object associated with the handle by using the <a href="https://msdn.microsoft.com/817a6c2a-57e8-4a6d-86db-0c34cfa44999">DdeFreeDataHandle</a> function. If this flag is not specified, the handle becomes invalid in the application that created the handle after the data handle is returned by the application's DDE callback function or is used as a parameter in another DDEML function. 
+The creation flags. This parameter can be <b>HDATA_APPOWNED</b>, which specifies that the server application calling the <b>DdeCreateDataHandle</b> function owns the data handle this function creates. This flag enables the application to share the data handle with other DDEML applications rather than creating a separate handle to pass to each application. If this flag is specified, the application must eventually free the shared memory object associated with the handle by using the <a href="https://msdn.microsoft.com/en-us/library/ms648752(v=VS.85).aspx">DdeFreeDataHandle</a> function. If this flag is not specified, the handle becomes invalid in the application that created the handle after the data handle is returned by the application's DDE callback function or is used as a parameter in another DDEML function. 
 
 
 ## -returns
@@ -126,7 +126,7 @@ If the function succeeds, the return value is a data handle.
 
 If the function fails, the return value is 0L. 
 
-The <a href="https://msdn.microsoft.com/ea7d758e-bf88-49a9-a51f-9be26376a1ed">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -151,27 +151,27 @@ After a data handle has been used as a parameter in another DDEML function or ha
 
 
 
-<a href="https://msdn.microsoft.com/7695d435-3bb4-4041-8992-9155efa8911e">DdeAccessData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648740(v=VS.85).aspx">DdeAccessData</a>
 
 
 
-<a href="https://msdn.microsoft.com/561bbf80-cc73-4fe1-ba95-837d515834eb">DdeCreateStringHandle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/817a6c2a-57e8-4a6d-86db-0c34cfa44999">DdeFreeDataHandle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648752(v=VS.85).aspx">DdeFreeDataHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/26ffce87-b5af-4f5d-9853-1b112e80052f">DdeGetData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648754(v=VS.85).aspx">DdeGetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 

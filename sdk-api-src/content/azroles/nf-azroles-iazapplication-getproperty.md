@@ -59,7 +59,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en-us/library/Aa446684(v=VS.85).aspx">IAzApplication</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/ea
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="https://msdn.microsoft.com/en-us/library/Aa446684(v=VS.85).aspx">IAzApplication</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -112,7 +112,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/4fa03e8c-e039-465c
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/722b0693-a11f-434a-a278-780619b0077a">ApplyStoreSacl</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377339(v=VS.85).aspx">ApplyStoreSacl</a> property
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/b20e1d5c-b07e-4f75-8b63-38036b07b24d">DelegatedPolicyUsers</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377346(v=VS.85).aspx">DelegatedPolicyUsers</a> property
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/b20e1d5c-b07e-4f75
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/ee18b86f-7ae2-4984-ac7a-3909eda647e3">DelegatedPolicyUsersName</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377347(v=VS.85).aspx">DelegatedPolicyUsersName</a> property
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/ee18b86f-7ae2-4984
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/32ccf51c-b820-4819-9e19-135ed3a0581d">Description</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377360(v=VS.85).aspx">Description</a> property
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/32ccf51c-b820-4819
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/c35f612e-4a2c-46b6-913a-26b0819394f4">GenerateAudits</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377361(v=VS.85).aspx">GenerateAudits</a> property
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/c35f612e-4a2c-46b6
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/f94a902a-9187-486c-9442-6defa9893532">Name</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377366(v=VS.85).aspx">Name</a> property
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/f94a902a-9187-486c
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/a0b66213-3dc7-4886-9c93-0d27d43a7d92">PolicyAdministrators</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377373(v=VS.85).aspx">PolicyAdministrators</a> property
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/a0b66213-3dc7-4886
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/fdabb04b-deb4-494a-bdde-264a301388b3">PolicyAdministratorsName</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377374(v=VS.85).aspx">PolicyAdministratorsName</a> property
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/fdabb04b-deb4-494a
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/7dcacc91-6327-4e6c-8aa0-06e7e0191a41">PolicyReaders</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377375(v=VS.85).aspx">PolicyReaders</a> property
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/7dcacc91-6327-4e6c
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/e6ed4504-0df1-438b-87c7-1861264d02bd">PolicyReadersName</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377376(v=VS.85).aspx">PolicyReadersName</a> property
 
 </td>
 </tr>
@@ -222,7 +222,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/e6ed4504-0df1-438b
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/b7aacab4-e013-4649-9673-790dfaafffd9">Writable</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa377579(v=VS.85).aspx">Writable</a> property
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object property.
+A pointer to the returned <a href="https://msdn.microsoft.com/en-us/library/Aa446684(v=VS.85).aspx">IAzApplication</a> object property.
 
 
 ## -returns

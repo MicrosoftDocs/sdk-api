@@ -73,9 +73,9 @@ Gets the layout of the root signature, without converting between root signature
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/46F692DD-55FF-4DFF-AF11-78CAD10922C1">D3D12_VERSIONED_ROOT_SIGNATURE_DESC</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt709125(v=VS.85).aspx">D3D12_VERSIONED_ROOT_SIGNATURE_DESC</a></b>
 
-This method returns a deserialized root signature in a <a href="https://msdn.microsoft.com/46F692DD-55FF-4DFF-AF11-78CAD10922C1">D3D12_VERSIONED_ROOT_SIGNATURE_DESC</a> structure that describes the layout of the root signature.
+This method returns a deserialized root signature in a <a href="https://msdn.microsoft.com/en-us/library/Mt709125(v=VS.85).aspx">D3D12_VERSIONED_ROOT_SIGNATURE_DESC</a> structure that describes the layout of the root signature.
 
 
 
@@ -85,11 +85,11 @@ This method returns a deserialized root signature in a <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/3B1E9837-72CA-4C44-B06C-C77E32480958">ID3D12VersionedRootSignatureDeserializer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt709151(v=VS.85).aspx">ID3D12VersionedRootSignatureDeserializer</a>
 
 
 
-<a href="https://msdn.microsoft.com/8FE42C1C-7F1D-4E70-A7EE-D5EC67237327">Root Signature Version 1.1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt709473(v=VS.85).aspx">Root Signature Version 1.1</a>
  
 
  

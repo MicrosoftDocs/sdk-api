@@ -75,7 +75,7 @@ Retrieves a string that represents the name of a key.
 Type: <b>LONG</b>
 
 The second parameter of the keyboard message (such as 
-     <a href="https://msdn.microsoft.com/0e37149f-445c-4b20-ad68-fdf39428ac91">WM_KEYDOWN</a>) to be processed. The function interprets the following bit positions in the <i>lParam</i>.
+     <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>) to be processed. The function interprets the following bit positions in the <i>lParam</i>.
 
 <table>
 <tr>
@@ -159,7 +159,7 @@ The format of the key-name string depends on the current keyboard layout. The ke
 
 
 
-<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
  
 
  

@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Moves the internal counter to the beginning of the list so that a subsequent call to <a href="https://msdn.microsoft.com/ef4472f1-348d-4545-8c8f-852a587e8096">IEnumSearchScopeRules::Next</a> retrieves from the beginning.
+Moves the internal counter to the beginning of the list so that a subsequent call to <a href="https://msdn.microsoft.com/en-us/library/Bb266500(v=VS.85).aspx">IEnumSearchScopeRules::Next</a> retrieves from the beginning.
 
 
 ## -parameters

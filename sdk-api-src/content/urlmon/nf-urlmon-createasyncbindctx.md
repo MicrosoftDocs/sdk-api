@@ -71,7 +71,7 @@ This parameter is reserved and must be 0.
 
 ### -param pBSCb [in]
 
-A pointer to the <a href="_inet_IBindStatusCallback_Interface_cpp">IBindStatusCallback</a> interface used for receiving data availability and progress notification.
+A pointer to the <a href="https://msdn.microsoft.com/library/ms775060(v=VS.85).aspx">IBindStatusCallback</a> interface used for receiving data availability and progress notification.
 
 
 ### -param pEFetc [in]
@@ -138,9 +138,9 @@ One or more parameters are invalid.
 
 
 
-This function automatically registers the <a href="_inet_IBindStatusCallback_Interface_cpp">IBindStatusCallback</a> and <a href="https://msdn.microsoft.com/4d180fdd-2d58-4d26-9242-6552dda0d3e6">IEnumFORMATETC</a> interfaces with the bind context. The client can specify flags from <a href="https://msdn.microsoft.com/82ca0285-5a03-40ab-b244-72e853e2a14a">BSCO_OPTION</a> to indicate which callback notifications the client is capable of receiving. If the client does not wish to receive certain notification, it can choose to implement those callback methods as empty function stubs (returning E_NOTIMPL), and they should not be called.
+This function automatically registers the <a href="https://msdn.microsoft.com/library/ms775060(v=VS.85).aspx">IBindStatusCallback</a> and <a href="https://msdn.microsoft.com/4d180fdd-2d58-4d26-9242-6552dda0d3e6">IEnumFORMATETC</a> interfaces with the bind context. The client can specify flags from <a href="https://msdn.microsoft.com/82ca0285-5a03-40ab-b244-72e853e2a14a">BSCO_OPTION</a> to indicate which callback notifications the client is capable of receiving. If the client does not wish to receive certain notification, it can choose to implement those callback methods as empty function stubs (returning E_NOTIMPL), and they should not be called.
 
-The <a href="_inet_RegisterBindStatusCallback_Function_cpp">RegisterBindStatusCallback</a> function can also be used to register callback interfaces in the bind context.
+The <a href="https://msdn.microsoft.com/library/ms775115(v=VS.85).aspx">RegisterBindStatusCallback</a> function can also be used to register callback interfaces in the bind context.
 
 
 
@@ -151,11 +151,11 @@ The <a href="_inet_RegisterBindStatusCallback_Function_cpp">RegisterBindStatusCa
 
 
 
-<a href="_inet_IBindStatusCallback_Interface_cpp">IBindStatusCallback</a>
+<a href="https://msdn.microsoft.com/library/ms775060(v=VS.85).aspx">IBindStatusCallback</a>
 
 
 
-<a href="_inet_RegisterBindStatusCallback_Function_cpp">RegisterBindStatusCallback</a>
+<a href="https://msdn.microsoft.com/library/ms775115(v=VS.85).aspx">RegisterBindStatusCallback</a>
  
 
  

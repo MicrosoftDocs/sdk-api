@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/f6798542-382a-4074-bbe1-707bc00b3575">D2D1_GRADIENT_STOP</a> structure. 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368119(v=VS.85).aspx">D2D1_GRADIENT_STOP</a> structure. 
 
 
 ## -parameters
@@ -73,7 +73,7 @@ A value that indicates the relative position of the gradient stop in the brush. 
 
 ### -param color [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368081(v=VS.85).aspx">D2D1_COLOR_F</a></b>
 
 The color of the gradient stop.
 
@@ -84,7 +84,7 @@ The color of the gradient stop.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/f6798542-382a-4074-bbe1-707bc00b3575">D2D1_GRADIENT_STOP</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368119(v=VS.85).aspx">D2D1_GRADIENT_STOP</a></b>
 
 The new gradient stop.
 
@@ -96,7 +96,7 @@ The new gradient stop.
 
 
 
-<a href="https://msdn.microsoft.com/f6798542-382a-4074-bbe1-707bc00b3575">D2D1_GRADIENT_STOP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd368119(v=VS.85).aspx">D2D1_GRADIENT_STOP</a>
 
 
 

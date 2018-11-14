@@ -95,7 +95,7 @@ Optional. Element of the <a href="https://msdn.microsoft.com/fd54e07b-74a2-4bce-
 
 
 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 

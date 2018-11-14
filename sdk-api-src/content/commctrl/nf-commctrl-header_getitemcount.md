@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets a count of the items in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/0e6d2131-53b4-4927-bd0f-577b8eaf237a">HDM_GETITEMCOUNT</a> message explicitly. 
+Gets a count of the items in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775337(v=VS.85).aspx">HDM_GETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Gets a count of the items in a header control. You can use this macro or send th
 
 ### -param hwndHD
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the header control. 
 

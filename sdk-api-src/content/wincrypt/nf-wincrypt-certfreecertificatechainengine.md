@@ -87,7 +87,7 @@ This function does not return a value.
 
 
 
-<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
  
 
  

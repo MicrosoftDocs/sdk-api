@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Discovers whether the message queue contains a <a href="https://msdn.microsoft.com/370aa19e-4939-4ac3-9c0b-137a9792e52a">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
+Discovers whether the message queue contains a <a href="https://msdn.microsoft.com/en-us/library/ms645606(v=VS.85).aspx">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Discovers whether the message queue contains a <a href="https://msdn.microsoft.c
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-Returns <b>TRUE</b> if a <a href="https://msdn.microsoft.com/370aa19e-4939-4ac3-9c0b-137a9792e52a">WM_LBUTTONDBLCLK</a> message is pending, or <b>FALSE</b> if not.
+Returns <b>TRUE</b> if a <a href="https://msdn.microsoft.com/en-us/library/ms645606(v=VS.85).aspx">WM_LBUTTONDBLCLK</a> message is pending, or <b>FALSE</b> if not.
 
 
 

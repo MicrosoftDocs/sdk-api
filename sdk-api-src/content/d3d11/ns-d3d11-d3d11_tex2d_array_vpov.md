@@ -82,7 +82,7 @@ The number of textures in the array.
 
 
 
-<a href="https://msdn.microsoft.com/EC7AFE44-877C-4FB0-9E61-FCD504A334D3">ID3D11VideoDevice::CreateVideoProcessorOutputView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447791(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoProcessorOutputView</a>
  
 
  

@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Returns a <a href="https://msdn.microsoft.com/85adc440-3dc8-47ce-aae8-dfb04f824b09">FaxAccount</a> object from a <a href="https://msdn.microsoft.com/bf26e82e-af97-43a1-81be-1bcb61b6cf98">FaxAccounts</a> collection. 
+Returns a <a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).aspx">FaxAccount</a> object from a <a href="https://msdn.microsoft.com/en-us/library/Aa358940(v=VS.85).aspx">FaxAccounts</a> collection. 
 
 
 ## -parameters
@@ -84,7 +84,7 @@ TBD
 
 Type: <b><a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>**</b>
 
-The <a href="https://msdn.microsoft.com/85adc440-3dc8-47ce-aae8-dfb04f824b09">FaxAccount</a> object.
+The <a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).aspx">FaxAccount</a> object.
 
 
 ## -returns
@@ -103,7 +103,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/73210bf5-cae8-4fea-802a-a37f59a1dd2f">IFaxAccounts</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359019(v=VS.85).aspx">IFaxAccounts</a>
 
 
 
