@@ -291,18 +291,14 @@ The system uses these registry entries to complete the operations at restart in 
      <i>szDstFile</i> and rename <i>szSrcFile</i> to be 
      <i>szDstFile</i> at restart:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>MoveFileEx(szDstFile, NULL, MOVEFILE_DELAY_UNTIL_REBOOT);
+
+```cpp
+MoveFileEx(szDstFile, NULL, MOVEFILE_DELAY_UNTIL_REBOOT);
 MoveFileEx(szSrcFile, szDstFile, MOVEFILE_DELAY_UNTIL_REBOOT);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Because the actual move and deletion operations specified with the 
      <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> flag take place after the calling application has ceased 
      running, the return value cannot reflect success or failure in moving or deleting the file. Rather, it reflects 

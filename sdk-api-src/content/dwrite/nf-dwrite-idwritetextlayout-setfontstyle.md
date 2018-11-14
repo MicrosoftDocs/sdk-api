@@ -104,25 +104,21 @@ The font style can be set to Normal, Italic or Oblique. The following illustrati
 
 The following code illustrates how to set the font style to italic.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Set the font style to italic for the entire string.
 DWRITE_TEXT_RANGE textRange = {0, cTextLength_};
 
 if (SUCCEEDED(hr))
 {
-    hr = pTextLayout_-&gt;SetFontStyle(DWRITE_FONT_STYLE_ITALIC, textRange);
+    hr = pTextLayout_->SetFontStyle(DWRITE_FONT_STYLE_ITALIC, textRange);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

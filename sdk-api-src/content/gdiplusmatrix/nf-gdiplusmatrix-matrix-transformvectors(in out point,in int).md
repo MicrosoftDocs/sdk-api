@@ -115,13 +115,9 @@ The following example creates a vector and a point. The tip of the vector and th
 						<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a> object and initializes its elements so that it represents a clockwise rotation followed by a translation 100 units to the right. The code calls the 
 						<a href="https://msdn.microsoft.com/2cabdfe3-e222-4afb-99c5-201e87b4c24e">Matrix::TransformPoints</a> method of the matrix to transform the point and calls the <b>Matrix::TransformVectors</b> method of the matrix to transform the vector. The entire transformation (rotation followed by translation) is performed on the point, but only the rotation part of the transformation is performed on the vector. The elements of the matrix that represent translation are ignored by the <b>Matrix::TransformVectors</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_TransVectors(HDC hdc)
+
+```cpp
+VOID Example_TransVectors(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -134,24 +130,24 @@ The following example creates a vector and a point. The tip of the vector and th
    Point vector(100, 50);
 
    // Draw the original point and vector in blue.
-   graphics.FillEllipse(&amp;brush, point.X - 5, point.Y - 5, 10, 10);
+   graphics.FillEllipse(&brush, point.X - 5, point.Y - 5, 10, 10);
 
-   graphics.DrawLine(&amp;pen, Point(0, 0), vector);
+   graphics.DrawLine(&pen, Point(0, 0), vector);
 
    // Transform.
    Matrix matrix(0.8f, 0.6f, -0.6f, 0.8f, 100.0f, 0.0f);
-   matrix.TransformPoints(&amp;point);
-   matrix.TransformVectors(&amp;vector);
+   matrix.TransformPoints(&point);
+   matrix.TransformVectors(&vector);
 
    // Draw the transformed point and vector in red.
    pen.SetColor(Color(255, 255, 0, 0));
    brush.SetColor(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&amp;brush, point.X - 5, point.Y - 5, 10, 10);
-   graphics.DrawLine(&amp;pen, Point(0, 0), vector); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillEllipse(&brush, point.X - 5, point.Y - 5, 10, 10);
+   graphics.DrawLine(&pen, Point(0, 0), vector); 
+}
+```
+
+
 
 
 

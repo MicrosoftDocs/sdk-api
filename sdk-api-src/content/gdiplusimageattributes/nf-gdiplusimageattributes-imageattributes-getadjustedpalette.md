@@ -110,13 +110,9 @@ When you call <b>ImageAttributes::GetAdjustedPalette</b>, you can specify the ad
 
 The following example initializes a <a href="https://msdn.microsoft.com/10b81e2d-00a2-4f36-bd9d-3dddb68de781">ColorPalette</a> structure with four colors: aqua, black, red, and green. The code also creates an <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object and sets its bitmap remap table so that green will be converted to blue. Then the code adjusts the palette colors by passing the address of the palette to the <b>ImageAttributes::GetAdjustedPalette</b> method of the <b>ImageAttributes</b> object. The code displays the four palette colors twice: once before the adjustment and once after the adjustment.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_GetAdjustedPalette(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -125,20 +121,20 @@ VOID Example_GetAdjustedPalette(HDC hdc)
    // Create a palette that has four entries.
    ColorPalette* palette = 
       (ColorPalette*)malloc(sizeof(ColorPalette) + 3 * sizeof(ARGB));
-   palette-&gt;Flags = 0;
-   palette-&gt;Count = 4;
+   palette->Flags = 0;
+   palette->Count = 4;
 
-   palette-&gt;Entries[0] = 0xFF00FFFF;   // aqua
-   palette-&gt;Entries[1] = 0xFF000000;   // black
-   palette-&gt;Entries[2] = 0xFFFF0000;   // red
-   palette-&gt;Entries[3] = 0xFF00FF00;   // green
+   palette->Entries[0] = 0xFF00FFFF;   // aqua
+   palette->Entries[1] = 0xFF000000;   // black
+   palette->Entries[2] = 0xFFFF0000;   // red
+   palette->Entries[3] = 0xFF00FF00;   // green
   
    // Display the four palette colors with no adjustment.
    SolidBrush brush(Color());
-   for(j = 0; j &lt; 4; ++j)
+   for(j = 0; j < 4; ++j)
    {
-      brush.SetColor(palette-&gt;Entries[j]);
-      graphics.FillRectangle(&amp;brush, 30*j, 0, 20, 20);
+      brush.SetColor(palette->Entries[j]);
+      graphics.FillRectangle(&brush, 30*j, 0, 20, 20);
    }
 
    // Create a remap table that converts green to blue.
@@ -148,22 +144,22 @@ VOID Example_GetAdjustedPalette(HDC hdc)
 
    // Create an ImageAttributes object, and set its bitmap remap table.
    ImageAttributes imAtt;
-   imAtt.SetRemapTable(1, &amp;map, ColorAdjustTypeBitmap);
+   imAtt.SetRemapTable(1, &map, ColorAdjustTypeBitmap);
 
    // Adjust the palette.
    imAtt.GetAdjustedPalette(palette, ColorAdjustTypeBitmap);
 
    // Display the four palette colors after the adjustment.
-   for(j = 0; j &lt; 4; ++j)
+   for(j = 0; j < 4; ++j)
    {
-      brush.SetColor(palette-&gt;Entries[j]);
-      graphics.FillRectangle(&amp;brush, 30*j, 30, 20, 20);
+      brush.SetColor(palette->Entries[j]);
+      graphics.FillRectangle(&brush, 30*j, 30, 20, 20);
    }
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
+
+
 The following illustration shows the output of the preceding code. Note that the green in the original palette was changed to blue.
 
 <img alt="Illustration with two rows of colored rectangles; the last of which is green in Row 1, blue in Row 2" src="./images/imageattributesgetadjustedpalette.png"/>

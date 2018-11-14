@@ -89,34 +89,26 @@ Returns the rotated <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-
 
 The following code demonstrates how this function may be used.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR v = XMVectorSet( 10.0f, 20.0f, 30.0f, 40.0f );
-XMVECTOR result = XMVectorRotateLeft( v, 1 );</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+XMVECTOR v = XMVectorSet( 10.0f, 20.0f, 30.0f, 40.0f );
+XMVECTOR result = XMVectorRotateLeft( v, 1 );
+```
+
+
 The rotated vector (<i>result</i>) will be &lt;20.0f, 30.0f, 40.0f, 10.0f&gt;.
 
 In the case of a constant rotate value, it is more efficient to use the template form of <a href="https://msdn.microsoft.com/ba3698ed-212d-4ef0-846a-4099d0e1abec">XMVectorRotateLeft</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-template&lt;uint32_t Elements&gt;
+
+```
+
+template<uint32_t Elements>
     XMVECTOR XMVectorRotateLeft(FXMVECTOR V)
-   </pre>
-</td>
-</tr>
-</table></span></div>
+   
+```
+
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

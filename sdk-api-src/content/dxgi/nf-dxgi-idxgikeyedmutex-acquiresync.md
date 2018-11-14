@@ -143,31 +143,27 @@ The <b>AcquireSync</b> method uses the key as follows, depending on the state of
 
 The following code example demonstrates how to acquire a lock to a shared resource and how to specify a key upon release.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 // pDesc has already been set up with texture description.
 pDesc.MiscFlags = D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX;
 
 // Create a shared texture resource.
-pD3D10DeviceD-&gt;CreateTexture2D(pDesc, NULL, pD3D10Texture);
+pD3D10DeviceD->CreateTexture2D(pDesc, NULL, pD3D10Texture);
 
 // Acquire a reference to the keyed mutex.
-pD3D10Texture-&gt;QueryInterface(_uuidof(IDXGIKeyedMutex), pDXGIKeyedMutex);
+pD3D10Texture->QueryInterface(_uuidof(IDXGIKeyedMutex), pDXGIKeyedMutex);
 
 // Acquire a lock to the resource.
-pDXGIKeyedMutex-&gt;AcquireSync(0, INFINITE);
+pDXGIKeyedMutex->AcquireSync(0, INFINITE);
 
 // Release the lock and specify a key.
-pDXGIKeyedMutex-&gt;ReleaseSync(1);
-          </pre>
-</td>
-</tr>
-</table></span></div>
+pDXGIKeyedMutex->ReleaseSync(1);
+          
+```
+
+
 <div class="code"></div>
 
 

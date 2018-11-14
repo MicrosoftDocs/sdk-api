@@ -106,22 +106,18 @@ The following example calls <b>Graphics::FromHDC</b> to create a
 						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and then uses that 
 						<b>Graphics</b> object to draw a rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_FromHDC(HDC hdc)
+
+```cpp
+VOID Example_FromHDC(HDC hdc)
 {
    Graphics* pGraphics = Graphics::FromHDC(hdc);
    Pen pen(Color(255, 255, 0, 0));
-   pGraphics-&gt;DrawRectangle(&amp;pen, 10, 10, 200, 100);
+   pGraphics->DrawRectangle(&pen, 10, 10, 200, 100);
    delete pGraphics;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

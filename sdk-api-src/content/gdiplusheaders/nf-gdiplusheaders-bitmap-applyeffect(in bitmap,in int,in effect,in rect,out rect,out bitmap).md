@@ -137,13 +137,9 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 The following example creates two <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> objects: <b>inputBitmap</b> and <b>outputBitmap</b>. First, <b>inputBitmap</b> is constructed from a BMP file. Then <b>outputBitmap</b> is created by passing the address of <b>inputBitmap</b> to the <b>Bitmap::ApplyEffect</b> method. <b>Bitmap::ApplyEffect</b> takes the portion of <b>inputBitmap</b> specified by <b>rectOfInterest</b> and increases the contrast as specified by <b>briCon</b>, a <a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a> object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_BrightnessContrastApplyEffect2(HDC hdc)
+
+```cpp
+VOID Example_BrightnessContrastApplyEffect2(HDC hdc)
 {
    Graphics graphics(hdc);
    Bitmap* inputBitmap = new Bitmap(L"Picture.bmp");
@@ -154,24 +150,24 @@ The following example creates two <a href="https://msdn.microsoft.com/f9826772-b
    briConParams.brightnessLevel = 0;
    briConParams.contrastLevel = 25;
    BrightnessContrast briCon;
-   briCon.SetParameters(&amp;briConParams);
+   briCon.SetParameters(&briConParams);
 
    // Draw the original image.
    graphics.DrawImage(inputBitmap, 20, 20);
 
    // Apply the change in contrast.
    Bitmap::ApplyEffect(
-      &amp;inputBitmap, 1, &amp;briCon, &amp;rectOfInterest, NULL, &amp;outputBitmap);
+      &inputBitmap, 1, &briCon, &rectOfInterest, NULL, &outputBitmap);
 
    // Draw the new image.
    graphics.DrawImage(outputBitmap, 200, 20);
 
    delete inputBitmap;
    delete outputBitmap;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

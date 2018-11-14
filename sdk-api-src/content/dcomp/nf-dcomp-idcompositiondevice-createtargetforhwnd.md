@@ -123,14 +123,10 @@ At most, only two composition targets can be created for each window in the syst
 
 The following example creates and initializes a device object, and then binds the device object to a composition target window.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;dcomp.h&gt;
-#include &lt;d3d11.h&gt;
+
+```cpp
+#include <dcomp.h>
+#include <d3d11.h>
 
 HRESULT InitializeDirectCompositionDevice(HWND hwndTarget, 
         ID3D11Device **ppD3D11Device, IDCompositionDevice **ppDevice,
@@ -159,34 +155,34 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
         0,
         D3D11_SDK_VERSION,
         ppD3D11Device,
-        &amp;featureLevelSupported,
+        &featureLevelSupported,
         NULL);
 
     if (SUCCEEDED(hr))
     {
         // Create the DXGI device used to create bitmap surfaces.
-        hr = (*ppD3D11Device)-&gt;QueryInterface(&amp;pDXGIDevice);
+        hr = (*ppD3D11Device)->QueryInterface(&pDXGIDevice);
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, __uuidof(IDCompositionDevice), 
-                reinterpret_cast&lt;void **&gt;(ppDevice));
+                reinterpret_cast<void **>(ppDevice));
     }
 
     if (SUCCEEDED(hr))
     {
         // Bind the DirectComposition device to the target window.
-        hr = (*ppDevice)-&gt;CreateTargetForHwnd(hwndTarget, TRUE, ppCompTarget);   
+        hr = (*ppDevice)->CreateTargetForHwnd(hwndTarget, TRUE, ppCompTarget);   
     }
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -116,31 +116,27 @@ The <b>ProviderType</b> property affects the behavior of the following methods:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD    dwProvType;
+
+```cpp
+DWORD    dwProvType;
 HRESULT  hr;
 
 // Get the ProviderType value.
 // pEnroll is previously instantiated ICEnroll interface pointer
-hr = pEnroll-&gt;get_ProviderType(&amp;dwProvType);
+hr = pEnroll->get_ProviderType(&dwProvType);
 if (FAILED( hr ))
     printf("Failed get_ProviderType - %x\n", hr);
 else
     printf("ProviderType: %d\n", dwProvType);
 
 // Set the ProviderType value.
-hr = pEnroll-&gt;put_ProviderType(PROV_MS_EXCHANGE);
+hr = pEnroll->put_ProviderType(PROV_MS_EXCHANGE);
 if (FAILED(hr))
     printf("Failed put_ProviderType - %x\n", hr);
 else
-    printf("ProviderType set to %d\n", PROV_MS_EXCHANGE);</pre>
-</td>
-</tr>
-</table></span></div>
+    printf("ProviderType set to %d\n", PROV_MS_EXCHANGE);
+```
+
+
 
 

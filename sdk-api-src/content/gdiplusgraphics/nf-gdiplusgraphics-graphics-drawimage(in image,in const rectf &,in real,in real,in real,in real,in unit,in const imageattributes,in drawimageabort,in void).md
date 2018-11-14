@@ -167,13 +167,9 @@ The portion of the source image to be drawn is scaled to fit the rectangle.
 
 The following example draws the original source image and then draws a portion of the image in a specified rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_DrawImage6(HDC hdc)
+
+```cpp
+VOID Example_DrawImage6(HDC hdc)
 
 {
 
@@ -189,7 +185,7 @@ The following example draws the original source image and then draws a portion o
 
    // Draw the original source image.
 
-   graphics.DrawImage(&amp;image, 10, 10);
+   graphics.DrawImage(&image, 10, 10);
 
 
 
@@ -207,7 +203,7 @@ The following example draws the original source image and then draws a portion o
 
    // Create a RectF object that specifies the destination of the image.
 
-   RectF destRect(200.0f, 10.0f, &lt;REAL&gt;image.GetWidth(), &lt;REAL&gt;image.GetHeight());
+   RectF destRect(200.0f, 10.0f, <REAL>image.GetWidth(), <REAL>image.GetHeight());
 
    
 
@@ -221,7 +217,7 @@ The following example draws the original source image and then draws a portion o
 
    redToBlue.newColor = Color(255, 0, 0, 255);
 
-   remapAttributes.SetRemapTable(1, &amp;redToBlue);
+   remapAttributes.SetRemapTable(1, &redToBlue);
 
 
 
@@ -229,7 +225,7 @@ The following example draws the original source image and then draws a portion o
 
    graphics.DrawImage(
 
-   &amp;image,
+   &image,
 
    destRect,
 
@@ -243,16 +239,16 @@ The following example draws the original source image and then draws a portion o
 
    UnitPixel,
 
-   &amp;remapAttributes,
+   &remapAttributes,
 
    NULL,
 
    NULL);
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The following illustration shows the output of the preceding code.
 
 <img alt="Illustration showing two graphics: a multicolored checkerboard pattern, then a two-toned enlargement from that pattern" src="./images/drawimage3.png"/>

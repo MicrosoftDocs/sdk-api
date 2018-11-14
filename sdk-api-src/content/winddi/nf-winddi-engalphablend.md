@@ -167,13 +167,11 @@ The driver should never call <b>EngAlphaBlend</b> with overlapping source and de
 The three possible cases for the AC_SRC_OVER blend function are:
 
 <ul>
-<li>The source bitmap has no per-pixel alpha (AC_SRC_ALPHA is not set), so the blend is applied to the pixel's color channels based on the constant source alpha value specified in <b>SourceConstantAlpha</b> as follows:<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Dst.Red = Round(((Src.Red * SourceConstantAlpha) + 
+<li>The source bitmap has no per-pixel alpha (AC_SRC_ALPHA is not set), so the blend is applied to the pixel's color channels based on the constant source alpha value specified in <b>SourceConstantAlpha</b> as follows:
+
+
+```
+Dst.Red = Round(((Src.Red * SourceConstantAlpha) + 
     ((255 − SourceConstantAlpha) * Dst.Red)) / 255);
 Dst.Green = Round(((Src.Green * SourceConstantAlpha) + 
     ((255 − SourceConstantAlpha) * Dst.Green)) / 255);
@@ -182,18 +180,16 @@ Dst.Blue = Round(((Src.Blue * SourceConstantAlpha) +
 /* Do the next computation only if the destination bitmap 
     has an alpha channel. */
 Dst.Alpha = Round(((Src.Alpha * SourceConstantAlpha) + 
-    ((255 − SourceConstantAlpha) * Dst.Alpha)) / 255);</pre>
-</td>
-</tr>
-</table></span></div>
+    ((255 − SourceConstantAlpha) * Dst.Alpha)) / 255);
+```
+
+
 </li>
-<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is not used (it is set to 255). The blend is computed as follows:<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Dst.Red = Src.Red + 
+<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is not used (it is set to 255). The blend is computed as follows:
+
+
+```
+Dst.Red = Src.Red + 
     Round(((255 − Src.Alpha) * Dst.Red) / 255);
 Dst.Green = Src.Green + 
     Round(((255 − Src.Alpha) * Dst.Green) / 255);
@@ -202,18 +198,16 @@ Dst.Blue = Src.Blue +
 /* Do the next computation only if the destination bitmap 
     has an alpha channel. */
 Dst.Alpha = Src.Alpha + 
-    Round(((255 − Src.Alpha) * Dst.Alpha) / 255);</pre>
-</td>
-</tr>
-</table></span></div>
+    Round(((255 − Src.Alpha) * Dst.Alpha) / 255);
+```
+
+
 </li>
-<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is used (it is not set to 255). The blend is computed as follows:<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Temp.Red = Round((Src.Red * SourceConstantAlpha) / 255);
+<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is used (it is not set to 255). The blend is computed as follows:
+
+
+```
+Temp.Red = Round((Src.Red * SourceConstantAlpha) / 255);
 Temp.Green = Round((Src.Green * SourceConstantAlpha) / 255);
 Temp.Blue = Round((Src.Blue * SourceConstantAlpha) / 255);
 /* The next computation must be done even if the 
@@ -231,10 +225,10 @@ Dst.Blue = Temp.Blue +
 /* Do the next computation only if the destination bitmap 
     has an alpha channel. */
 Dst.Alpha = Temp.Alpha + 
-    Round(((255 − Temp.Alpha) * Dst.Alpha) / 255);</pre>
-</td>
-</tr>
-</table></span></div>
+    Round(((255 − Temp.Alpha) * Dst.Alpha) / 255);
+```
+
+
 </li>
 </ul>
 The driver should call <b>EngAlphaBlend</b> if it has hooked <a href="https://msdn.microsoft.com/fff3df30-cb29-4da3-97bc-dba5fbba1db5">DrvAlphaBlend</a> and it is called to do something that it does not support.

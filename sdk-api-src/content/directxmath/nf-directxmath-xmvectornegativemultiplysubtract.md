@@ -94,23 +94,19 @@ Returns the resulting vector. See the remarks.
 
 The following pseudocode demonstrates the operation of the function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR result;
+
+```
+XMVECTOR result;
 
 result.x = V3.x - V1.x * V2.x;
 result.y = V3.y - V1.y * V2.y;
 result.z = V3.z - V1.z * V2.z;
 result.w = V3.w - V1.w * V2.w;
 
-return result;</pre>
-</td>
-</tr>
-</table></span></div>
+return result;
+```
+
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

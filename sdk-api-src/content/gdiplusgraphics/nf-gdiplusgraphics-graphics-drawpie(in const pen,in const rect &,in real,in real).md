@@ -123,13 +123,9 @@ The following illustration shows the pie that is drawn in the ellipse that is bo
 
 The following example draws a pie.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_DrawPie(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -143,12 +139,12 @@ VOID Example_DrawPie(HDC hdc)
    REAL sweepAngle = 45.0f;
 
    // Draw the pie.
-   graphics.DrawPie(&amp;blackPen, ellipseRect, startAngle, sweepAngle);
+   graphics.DrawPie(&blackPen, ellipseRect, startAngle, sweepAngle);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

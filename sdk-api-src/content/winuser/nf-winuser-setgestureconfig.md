@@ -289,13 +289,9 @@ The following example shows how you could receive horizontal and vertical single
 		inertia. This is a typical configuration for a 2-D navigation application such as the Microsoft PixelSense Globe application.		
 		
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// set up our want / block settings
+
+```cpp
+// set up our want / block settings
 DWORD dwPanWant  = GC_PAN_WITH_SINGLE_FINGER_VERTICALLY | GC_PAN_WITH_SINGLE_FINGER_HORIZONTALLY;
 DWORD dwPanBlock = GC_PAN_WITH_GUTTER | GC_PAN_WITH_INERTIA;
 
@@ -311,10 +307,10 @@ BOOL bResult = SetGestureConfig(hWnd, 0, uiGcs, gc, sizeof(GESTURECONFIG));
 if (!bResult){                
     DWORD err = GetLastError();                                       
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following example shows how to receive single-finger pan gestures and disable gutter panning.  This is a typical
 		  configuration for applications that scroll text such as Notepad.
 		  
@@ -322,13 +318,9 @@ The following example shows how to receive single-finger pan gestures and disabl
 <div class="alert"><b>Note</b>  You should explicitly set all the flags that you want enabled or disabled when controlling single-finger panning.
         </div>
 <div> </div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// set up our want / block settings
+
+```cpp
+// set up our want / block settings
 DWORD dwPanWant  = GC_PAN | GC_PAN_WITH_SINGLE_FINGER_VERTICALLY;                    
 DWORD dwPanBlock = GC_PAN_WITH_GUTTER;    
 
@@ -344,19 +336,15 @@ BOOL bResult = SetGestureConfig(hWnd, 0, uiGcs, gc, sizeof(GESTURECONFIG));
 if (!bResult){                
     DWORD err = GetLastError();                                       
 }   
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following example shows how you can disable all gestures.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// set the settings in the gesture configuration
+
+```cpp
+// set the settings in the gesture configuration
 GESTURECONFIG gc[] = {0,0,GC_ALLGESTURES};
                      
 UINT uiGcs = 1;
@@ -365,40 +353,32 @@ BOOL bResult = SetGestureConfig(hWnd, 0, uiGcs, gc, sizeof(GESTURECONFIG));
 if (!bResult){                
     DWORD err = GetLastError();                                       
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following example shows how you could enable all gestures.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>GESTURECONFIG gc = {0,GC_ALLGESTURES,0};
+
+```cpp
+GESTURECONFIG gc = {0,GC_ALLGESTURES,0};
 
 UINT uiGcs = 1;
 
-BOOL bResult = SetGestureConfig(hWnd, 0, uiGcs, &amp;gc, sizeof(GESTURECONFIG));  
+BOOL bResult = SetGestureConfig(hWnd, 0, uiGcs, &gc, sizeof(GESTURECONFIG));  
 
 if (!bResult){                
     DWORD err = GetLastError();                                       
 }              
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following example shows how you could enable all Windows 7 gestures.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// set the settings in the gesture configuration
+
+```cpp
+// set the settings in the gesture configuration
 GESTURECONFIG gc[] = {{ GID_ZOOM, GC_ZOOM, 0 },
                       { GID_ROTATE, GC_ROTATE, 0},
                       { GID_PAN, GC_PAN , 0},
@@ -412,21 +392,17 @@ BOOL bResult = SetGestureConfig(hWnd, 0, uiGcs, gc, sizeof(GESTURECONFIG));
 if (!bResult){                
     DWORD err = GetLastError();                                       
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following example configuration would set the parent window to 
 		enable support for zoom, horizontal pan, and vertical pan while the child window would just support horizontal pan.
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// set up our want / block settings for a parent window
+
+```cpp
+// set up our want / block settings for a parent window
 DWORD dwPanWant  = GC_PAN_WITH_SINGLE_FINGER_VERTICALLY | GC_PAN_WITH_SINGLE_FINGER_HORIZONTALLY;
 DWORD dwPanBlock = GC_PAN_WITH_GUTTER | GC_PAN_WITH_INERTIA;
 
@@ -455,10 +431,10 @@ if (isParent){
 if (!bResult){                
     DWORD err = GetLastError();                                       
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

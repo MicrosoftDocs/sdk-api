@@ -95,34 +95,26 @@ Each horizontal base unit is equal to 4 horizontal dialog template units; each v
 				
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 pixelX = MulDiv(templateunitX, baseunitX, 4);
-pixelY = MulDiv(templateunitY, baseunitY, 8);</pre>
-</td>
-</tr>
-</table></span></div>
+pixelY = MulDiv(templateunitY, baseunitY, 8);
+```
+
+
 Similarly, to convert from pixels to dialog template units, use the following formulas:
 				
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 templateunitX = MulDiv(pixelX, 4, baseunitX);
-templateunitY = MulDiv(pixelY, 8, baseunitY);</pre>
-</td>
-</tr>
-</table></span></div>
+templateunitY = MulDiv(pixelY, 8, baseunitY);
+```
+
+
 
 #### Examples
 

@@ -109,13 +109,9 @@ If you do not explicitly set the clipping region of a
 
 The following example sets a clipping region, gets the rectangle that encloses the clipping region, and then fills the rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetClipBounds2(HDC hdc)
+
+```cpp
+VOID Example_GetClipBounds2(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -131,20 +127,20 @@ The following example sets a clipping region, gets the rectangle that encloses t
    myRegion.Union(rect);
 
    // Set the clipping region of the graphics object.
-   graphics.SetClip(&amp;myRegion);
+   graphics.SetClip(&myRegion);
 
    // Now, get the clipping region, and fill it
-   graphics.GetClip(&amp;gRegion);
-   graphics.FillRegion(&amp;blueBrush, &amp;gRegion);
+   graphics.GetClip(&gRegion);
+   graphics.FillRegion(&blueBrush, &gRegion);
 
    // Get a rectangle that encloses the clipping region, and draw the enclosing
    // rectangle.
-   graphics.GetClipBounds(&amp;enclosingRect);
+   graphics.GetClipBounds(&enclosingRect);
    graphics.ResetClip();
-   graphics.DrawRectangle(&amp;greenPen, enclosingRect);}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&greenPen, enclosingRect);}
+```
+
+
 
 
 

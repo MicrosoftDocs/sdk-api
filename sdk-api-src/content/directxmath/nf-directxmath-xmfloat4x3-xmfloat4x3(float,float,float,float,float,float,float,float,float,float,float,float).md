@@ -161,13 +161,9 @@ Value used to initialize the <b>_43</b> member (equivalently the
 The following two pseudocode examples demonstrate the operation of this constructor:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
    XMFLOAT4X3 mat;
    mat._11 = m00;
    mat._12 = m01;
@@ -181,20 +177,16 @@ The following two pseudocode examples demonstrate the operation of this construc
    mat._41 = m30;
    mat._42 = m31;
    mat._43 = m32;
-      </pre>
-</td>
-</tr>
-</table></span></div>
+      
+```
+
+
 Or
       
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
    XMFLOAT4X3 mat;
    mat.m[0,0] = m00;
    mat.m[0,1] = m01;
@@ -208,10 +200,10 @@ Or
    mat.m[3,0] = m30;
    mat.m[3,1] = m31;
    mat.m[3,2] = m32;
-     </pre>
-</td>
-</tr>
-</table></span></div>
+     
+```
+
+
 
 
 

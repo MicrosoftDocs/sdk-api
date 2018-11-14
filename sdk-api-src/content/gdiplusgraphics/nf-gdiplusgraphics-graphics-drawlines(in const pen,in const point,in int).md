@@ -118,13 +118,9 @@ Each line requires a starting point and an ending point. The ending point of eac
 
 The following example draws a sequence of connected lines.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_DrawLines(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -142,12 +138,12 @@ VOID Example_DrawLines(HDC hdc)
    Point* pPoints = points;
 
    // Draw the lines.
-   graphics.DrawLines(&amp;blackPen, pPoints, 4);
+   graphics.DrawLines(&blackPen, pPoints, 4);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

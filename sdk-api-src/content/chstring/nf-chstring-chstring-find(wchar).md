@@ -100,18 +100,14 @@ The <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Fi
 
 The following code example shows the use of <b>CHString::Find</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHString s( L"abcdef" );
+
+```cpp
+CHString s( L"abcdef" );
 assert( s.Find( 'c' ) == 2 );
-assert( s.Find( L"de" ) == 3 );</pre>
-</td>
-</tr>
-</table></span></div>
+assert( s.Find( L"de" ) == 3 );
+```
+
+
 
 
 
