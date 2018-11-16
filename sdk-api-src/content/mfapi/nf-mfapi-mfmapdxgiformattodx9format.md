@@ -66,7 +66,7 @@ Converts a Microsoft DirectX Graphics Infrastructure (DXGI) format identifier to
 
 ### -param dx11 [in]
 
-The <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> value to convert.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> value to convert.
 
 
 ## -returns

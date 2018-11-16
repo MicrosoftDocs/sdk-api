@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Creates a  <a href="https://msdn.microsoft.com/61169871-4998-4e9f-97dc-77344bbfa962">CLUSPROP_BINARY</a> structure with the <b>rgb</b> member set to a size determined by the caller.
+Creates a  <a href="https://msdn.microsoft.com/en-us/library/Aa368368(v=VS.85).aspx">CLUSPROP_BINARY</a> structure with the <b>rgb</b> member set to a size determined by the caller.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Creates a  <a href="https://msdn.microsoft.com/61169871-4998-4e9f-97dc-77344bbfa
 
 ### -param name
 
-Name of the  <a href="https://msdn.microsoft.com/61169871-4998-4e9f-97dc-77344bbfa962">CLUSPROP_BINARY</a> structure to be created.
+Name of the  <a href="https://msdn.microsoft.com/en-us/library/Aa368368(v=VS.85).aspx">CLUSPROP_BINARY</a> structure to be created.
 
 
 ### -param cb
@@ -116,7 +116,7 @@ memcpy( ByteValue.rgb, ByteData, sizeof( ByteData ) );
 
 
 
-<a href="https://msdn.microsoft.com/61169871-4998-4e9f-97dc-77344bbfa962">CLUSPROP_BINARY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368368(v=VS.85).aspx">CLUSPROP_BINARY</a>
  
 
  

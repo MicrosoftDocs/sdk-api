@@ -68,7 +68,7 @@ The <b>Initialize</b> method initializes the object from a SHA-1 hash of the new
 
 ### -param Encoding [in]
 
-An <a href="https://msdn.microsoft.com/b42628ae-deed-497b-a20f-d175843b79c2">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to the input string that contains the hash.
+An <a href="https://msdn.microsoft.com/en-us/library/Aa374936(v=VS.85).aspx">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to the input string that contains the hash.
 
 
 ### -param strRenewalValue [in]
@@ -82,7 +82,7 @@ A <b>BSTR</b> variable that contains the hash.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -111,9 +111,9 @@ The object is already initialized.
 
 
 
-Typically this property is initialized during the enrollment process. You can retrieve the certificate used during enrollment by calling the <a href="https://msdn.microsoft.com/636e4c6d-38b9-4a27-b640-4c071816ee97">Certificate</a> property on the <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a> interface.
+Typically this property is initialized during the enrollment process. You can retrieve the certificate used during enrollment by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa377867(v=VS.85).aspx">Certificate</a> property on the <a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a> interface.
 
-Call the <a href="https://msdn.microsoft.com/46c409c4-46bd-4349-8363-1983f4411bc2">SetValueOnCertificate</a> method to associate the property with a certificate. Call the <a href="https://msdn.microsoft.com/f2ea8198-01ec-4485-9f7e-9b9fa8ddba6f">Renewal</a> property to retrieve the hash.
+Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375928(v=VS.85).aspx">SetValueOnCertificate</a> method to associate the property with a certificate. Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375766(v=VS.85).aspx">Renewal</a> property to retrieve the hash.
 
 
 
@@ -123,7 +123,7 @@ Call the <a href="https://msdn.microsoft.com/46c409c4-46bd-4349-8363-1983f4411bc
 
 
 
-<a href="https://msdn.microsoft.com/c87a391a-aec9-4b42-8084-c593ecbb0bc6">ICertPropertyRenewal</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375749(v=VS.85).aspx">ICertPropertyRenewal</a>
  
 
  

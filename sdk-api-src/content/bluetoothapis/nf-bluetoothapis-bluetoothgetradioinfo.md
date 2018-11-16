@@ -68,12 +68,12 @@ The <b>BluetoothGetRadioInfo</b> function obtains information about a Bluetooth 
 
 ### -param hRadio
 
-A handle to a local Bluetooth radio, obtained by calling the <a href="https://msdn.microsoft.com/f31bb18b-c129-417f-ab87-cf114a2e094f">BluetoothFindFirstRadio</a> or similar functions, or the <b>SetupDiEnumerateDeviceInterfances</b> function.
+A handle to a local Bluetooth radio, obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa362786(v=VS.85).aspx">BluetoothFindFirstRadio</a> or similar functions, or the <b>SetupDiEnumerateDeviceInterfances</b> function.
 
 
 ### -param pRadioInfo
 
-A pointer to a <a href="https://msdn.microsoft.com/14440e02-ff2e-4fae-aac9-1b2fd936510e">BLUETOOTH_RADIO_INFO</a> structure into which information about the radio will be placed. The <b>dwSize</b> member of the <b>BLUETOOTH_RADIO_INFO</b> structure must match the size of the structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa362929(v=VS.85).aspx">BLUETOOTH_RADIO_INFO</a> structure into which information about the radio will be placed. The <b>dwSize</b> member of the <b>BLUETOOTH_RADIO_INFO</b> structure must match the size of the structure.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The <i>hRadio</i> or <i>pRadioInfo</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <b>dwSize</b> member of the <a href="https://msdn.microsoft.com/14440e02-ff2e-4fae-aac9-1b2fd936510e">BLUETOOTH_RADIO_INFO</a> structure pointed to by <i>pRadioInfo</i> is not valid.
+The <b>dwSize</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa362929(v=VS.85).aspx">BLUETOOTH_RADIO_INFO</a> structure pointed to by <i>pRadioInfo</i> is not valid.
 
 </td>
 </tr>
@@ -131,19 +131,19 @@ The <b>dwSize</b> member of the <a href="https://msdn.microsoft.com/14440e02-ff2
 
 
 
-<a href="https://msdn.microsoft.com/b997203d-e7e4-43aa-b751-e419483020ac">BLUETOOTH_FIND_RADIO_PARAMS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362926(v=VS.85).aspx">BLUETOOTH_FIND_RADIO_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/f31bb18b-c129-417f-ab87-cf114a2e094f">BluetoothFindFirstRadio</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362786(v=VS.85).aspx">BluetoothFindFirstRadio</a>
 
 
 
-<a href="https://msdn.microsoft.com/7dd6b823-f9c6-4375-80b6-d59c4570c8fb">BluetoothFindNextRadio</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362790(v=VS.85).aspx">BluetoothFindNextRadio</a>
 
 
 
-<a href="https://msdn.microsoft.com/859771b1-d06c-414b-81cb-bb3913fd0380">BluetoothFindRadioClose</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362792(v=VS.85).aspx">BluetoothFindRadioClose</a>
 
 
 

@@ -69,12 +69,12 @@ Gets a record from the cache.
 
 ### -param id [in]
 
-Identifier of the record to get from the cache. The <a href="https://msdn.microsoft.com/a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa">IBitsPeerCacheRecord::GetId</a> method returns the identifier.
+Identifier of the record to get from the cache. The <a href="https://msdn.microsoft.com/en-us/library/Aa964295(v=VS.85).aspx">IBitsPeerCacheRecord::GetId</a> method returns the identifier.
 
 
 ### -param ppRecord [out]
 
-An <a href="https://msdn.microsoft.com/61db33de-a38c-4c52-9f1b-66d46f25c297">IBitsPeerCacheRecord</a> interface of the cache record. Release <i>ppRecord</i> when done.
+An <a href="https://msdn.microsoft.com/en-us/library/Aa964291(v=VS.85).aspx">IBitsPeerCacheRecord</a> interface of the cache record. Release <i>ppRecord</i> when done.
 
 
 ## -returns
@@ -110,15 +110,15 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964272(v=VS.85).aspx">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/c86199c3-9fe7-4d8f-8b33-b12b65b94e54">IBitsPeerCacheAdministration::DeleteRecord</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964275(v=VS.85).aspx">IBitsPeerCacheAdministration::DeleteRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/b471cee0-0ad0-4488-9819-e524e50dbc76">IBitsPeerCacheAdministration::EnumRecords</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964279(v=VS.85).aspx">IBitsPeerCacheAdministration::EnumRecords</a>
  
 
  

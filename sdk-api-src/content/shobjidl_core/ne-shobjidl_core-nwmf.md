@@ -60,7 +60,7 @@ Flags used by <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-752784
 
 ### -field NWMF_UNLOADING
 
-The page is unloading. This flag is set in response to the <a href="_inet_IHTMLWindow2_Interface_inet_Onbeforeunload_Property_cpp">onbeforeunload</a> and <a href="_inet_IHTMLWindow2_Interface_inet_Onunload_Property_cpp">onunload</a> events. Some pages load pop-up windows when you leave them, not when you enter. This flag is used to identify those situations.
+The page is unloading. This flag is set in response to the <a href="https://msdn.microsoft.com/library/Aa741480(v=VS.85).aspx">onbeforeunload</a> and <a href="https://msdn.microsoft.com/library/Aa741488(v=VS.85).aspx">onunload</a> events. Some pages load pop-up windows when you leave them, not when you enter. This flag is used to identify those situations.
 
 
 ### -field NWMF_USERINITED
@@ -79,12 +79,12 @@ The override key (ALT) was pressed. The override key is used to bypass the pop-u
             
                 
 
-<div class="alert"><b>Note</b>  When <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">INewWindowManager::EvaluateNewWindow</a> is implemented for a <a href="_inet_MLang_1">WebBrowser</a> control host, the implementer can choose to ignore the override key.</div>
+<div class="alert"><b>Note</b>  When <a href="https://msdn.microsoft.com/0721298f-99c2-463b-8ffa-7527844dcab4">INewWindowManager::EvaluateNewWindow</a> is implemented for a <a href="https://msdn.microsoft.com/library/Aa752040(v=VS.85).aspx">WebBrowser</a> control host, the implementer can choose to ignore the override key.</div>
 <div> </div>
 
 ### -field NWMF_SHOWHELP
 
-The new window attempting to load is the result of a call to the <a href="_inet_showHelp_Method_scr">showHelp</a> method. Help is sometimes displayed in a separate window, and this flag is valuable in those cases.
+The new window attempting to load is the result of a call to the <a href="https://msdn.microsoft.com/library/ms536758(v=VS.85).aspx">showHelp</a> method. Help is sometimes displayed in a separate window, and this flag is valuable in those cases.
 
 
 ### -field NWMF_HTMLDIALOG

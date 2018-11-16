@@ -58,7 +58,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>GetAssignedScopesPage</b> method retrieves a list of the scopes in which the client represented by the current <a href="https://msdn.microsoft.com/8e922370-18e3-481c-93f2-9a56d7898ba7">IAzClientContext2</a> object is assigned to at least one role.
+The <b>GetAssignedScopesPage</b> method retrieves a list of the scopes in which the client represented by the current <a href="https://msdn.microsoft.com/en-us/library/Aa377840(v=VS.85).aspx">IAzClientContext2</a> object is assigned to at least one role.
 
 
 ## -parameters
@@ -111,7 +111,7 @@ On return, contains an array of variables of type <b>VARIANT</b>. Each element o
 
 If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 
 
@@ -122,7 +122,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 If multiple threads access the same authorization store, a call to the  <b>GetAssignedScopesPage</b> method on one of the threads might not return accurate results if the other thread modifies the store.
 
-In  JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> values must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object.
+In  JScript, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> values must be converted to the JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object.
 
 
 

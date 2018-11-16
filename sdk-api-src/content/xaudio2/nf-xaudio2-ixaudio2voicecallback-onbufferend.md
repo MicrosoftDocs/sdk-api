@@ -68,7 +68,7 @@ Called when the voice finishes processing a buffer.
 
 ### -param pBufferContext
 
-Context pointer assigned to the <b>pContext</b> member of the <a href="https://msdn.microsoft.com/b6c2a08b-6abb-4e6a-8acb-6f8983aef95f">XAUDIO2_BUFFER</a> structure when the buffer was submitted.
+Context pointer assigned to the <b>pContext</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> structure when the buffer was submitted.
 
 
 ## -returns
@@ -88,7 +88,7 @@ After an <b>OnBufferEnd</b> callback the audio memory for the buffer associated 
 
 
 
-<i>pBufferContext</i> is the context pointer originally provided by the <b>pContext </b>member of the <a href="https://msdn.microsoft.com/b6c2a08b-6abb-4e6a-8acb-6f8983aef95f">XAUDIO2_BUFFER</a> structure, which may be NULL.
+<i>pBufferContext</i> is the context pointer originally provided by the <b>pContext </b>member of the <a href="https://msdn.microsoft.com/en-us/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> structure, which may be NULL.
 
 
 
@@ -96,7 +96,7 @@ After an <b>OnBufferEnd</b> callback the audio memory for the buffer associated 
 
 
 
-For information about <a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a> interface methods, see the <a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598">XAudio2 Callbacks</a> topic.
+For information about <a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a> interface methods, see the <a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598">XAudio2 Callbacks</a> topic.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -117,7 +117,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>
  
 
  

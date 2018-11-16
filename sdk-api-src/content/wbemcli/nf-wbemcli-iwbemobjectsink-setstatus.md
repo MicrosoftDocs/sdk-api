@@ -69,7 +69,7 @@ Typically, a client implements the
 <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> methods that return their results using the 
 <b>IWbemObjectSink</b> interface. During this operation, WMI calls 
 <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">Indicate</a> as many times as required, followed by a final call to 
-<b>SetStatus</b>, and in many cases, <a href="_com_iunknown_release">Release</a>.
+<b>SetStatus</b>, and in many cases, <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a>.
 
 
 ## -parameters
@@ -115,7 +115,7 @@ Receives a pointer to a read-only <b>BSTR</b>, if the original asynchronous oper
 ### -param pObjParam [in]
 
 In cases where a complex error or status object is returned, this contains a pointer to the error object. If the object is required after 
-<b>SetStatus</b> returns, the called object must use the <a href="_com_iunknown_addref">AddRef</a> method on the pointer before the called object returns.
+<b>SetStatus</b> returns, the called object must use the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the pointer before the called object returns.
 
 
 ## -returns

@@ -144,7 +144,7 @@ The magnification window itself is automatically excluded.
 
 
 
-<a href="https://msdn.microsoft.com/a2f7beaa-12fd-4363-a9a2-4d564158dda1">MagGetWindowFilterList</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692389(v=VS.85).aspx">MagGetWindowFilterList</a>
  
 
  

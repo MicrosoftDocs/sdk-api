@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the <a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a> associated with the property.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb762588(v=VS.85).aspx">PROPDESC_SEARCHINFO_FLAGS</a> associated with the property.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ Gets the <a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a>
 
 ### -param ppdsiFlags [out]
 
-Type: <b><a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762588(v=VS.85).aspx">PROPDESC_SEARCHINFO_FLAGS</a>*</b>
 
-When this method returns successfully, contains a pointer to the <a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a> associated with the property.
+When this method returns successfully, contains a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb762588(v=VS.85).aspx">PROPDESC_SEARCHINFO_FLAGS</a> associated with the property.
 
 
 ## -returns
@@ -89,11 +89,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="shell.IPropertyDescriptionSearchInfo">IPropertyDescriptionSearchInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761505(v=VS.85).aspx">IPropertyDescriptionSearchInfo</a>
 
 
 
-<a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762588(v=VS.85).aspx">PROPDESC_SEARCHINFO_FLAGS</a>
  
 
  

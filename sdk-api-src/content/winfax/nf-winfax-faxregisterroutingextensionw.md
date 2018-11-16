@@ -69,14 +69,14 @@ The <b>FaxRegisterRoutingExtension</b> function registers a fax routing extensio
 
 Type: <b>HANDLE</b>
 
-Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a> function.
+Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function.
 
 
 ### -param ExtensionName [in]
 
 Type: <b>LPCWSTR</b>
 
-Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a> function.
+Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function.
 
 
 ### -param FriendlyName [in]
@@ -97,14 +97,14 @@ Pointer to a constant null-terminated Unicode character string that specifies th
 
 Type: <b>PFAX_ROUTING_INSTALLATION_CALLBACK</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/7628137d-a601-410a-bcef-4c83df3a612f">FaxRoutingInstallationCallback</a> function that installs a fax routing method for the specified fax routing extension DLL. The <b>FaxRegisterRoutingExtension</b> function calls the <b>FaxRoutingInstallationCallback</b> function multiple times, until it returns a value of zero, indicating that all routing methods in the fax routing extension DLL have been registered.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms692817(v=VS.85).aspx">FaxRoutingInstallationCallback</a> function that installs a fax routing method for the specified fax routing extension DLL. The <b>FaxRegisterRoutingExtension</b> function calls the <b>FaxRoutingInstallationCallback</b> function multiple times, until it returns a value of zero, indicating that all routing methods in the fax routing extension DLL have been registered.
 
 
 ### -param Context [in]
 
 Type: <b>LPVOID</b>
 
-Pointer to a variable that contains application-specific context information or an application-defined value. <b>FaxRegisterRoutingExtension</b> passes this data to the <a href="https://msdn.microsoft.com/7628137d-a601-410a-bcef-4c83df3a612f">FaxRoutingInstallationCallback</a> function.
+Pointer to a variable that contains application-specific context information or an application-defined value. <b>FaxRegisterRoutingExtension</b> passes this data to the <a href="https://msdn.microsoft.com/en-us/library/ms692817(v=VS.85).aspx">FaxRoutingInstallationCallback</a> function.
 
 
 ## -returns
@@ -129,7 +129,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-At least one parameter to the <a href="https://msdn.microsoft.com/27158cf3-9616-499e-8cd9-4eee60bf1f44">FaxRegisterRoutingExtension</a> function is <b>NULL</b>.
+At least one parameter to the <a href="https://msdn.microsoft.com/en-us/library/ms691846(v=VS.85).aspx">FaxRegisterRoutingExtension</a> function is <b>NULL</b>.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ The <i>FaxHandle</i> specifies a remote fax server connection.
 
 
 
-<b>FaxRegisterRoutingExtension</b> calls the <a href="https://msdn.microsoft.com/7628137d-a601-410a-bcef-4c83df3a612f">FaxRoutingInstallationCallback</a> function once for each fax routing method in the fax routing extension DLL.
+<b>FaxRegisterRoutingExtension</b> calls the <a href="https://msdn.microsoft.com/en-us/library/ms692817(v=VS.85).aspx">FaxRoutingInstallationCallback</a> function once for each fax routing method in the fax routing extension DLL.
 
 Because the <b>FaxRegisterRoutingExtension</b> function modifies the registry, the user, generally a system administrator, must have write access to the <b>HKEY_LOCAL_MACHINE</b> registry key.
 
@@ -164,7 +164,7 @@ All parameters to the <b>FaxRegisterRoutingExtension</b> function are required.
 
 You must restart the fax service to use a fax routing method exported by a fax routing extension you install using <b>FaxRegisterRoutingExtension</b>.
 
-For more information about the steps required to register with the fax service, see <a href="https://msdn.microsoft.com/797a4d48-7676-4b0d-93bf-ebe3043da4a0">Registration of a Fax Routing Extension</a>.
+For more information about the steps required to register with the fax service, see <a href="https://msdn.microsoft.com/en-us/library/ms691426(v=VS.85).aspx">Registration of a Fax Routing Extension</a>.
 
 
 
@@ -174,19 +174,19 @@ For more information about the steps required to register with the fax service, 
 
 
 
-<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/7628137d-a601-410a-bcef-4c83df3a612f">FaxRoutingInstallationCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692817(v=VS.85).aspx">FaxRoutingInstallationCallback</a>
  
 
  

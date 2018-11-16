@@ -60,10 +60,10 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/507c8262-c5e8-470e-be89-566ae732946d">CHPtrArray</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa384922(v=VS.85).aspx">CHPtrArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://msdn.microsoft.com/en-us/library/JJ152383(v=VS.85).aspx">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetSize</b> function obtains the pointer array size. Because indexes are zero-based, the size is one greater than the largest index.
@@ -90,11 +90,11 @@ If the <b>GetSize</b> method is successful, it returns the number of elements in
 
 
 
-<a href="https://msdn.microsoft.com/507c8262-c5e8-470e-be89-566ae732946d">CHPtrArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa384922(v=VS.85).aspx">CHPtrArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2414a72-3435-4035-bcd9-b3ec87f5709c">Provider Framework Utility Classes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa392773(v=VS.85).aspx">Provider Framework Utility Classes</a>
  
 
  

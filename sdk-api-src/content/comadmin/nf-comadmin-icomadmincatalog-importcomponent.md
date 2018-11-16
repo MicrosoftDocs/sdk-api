@@ -89,7 +89,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-Generally, this method should not be used unless you want to restrict a component to local use only. Otherwise, use the <a href="https://msdn.microsoft.com/63af9aa4-a1f0-4277-bd36-8b4c64227b3f">InstallComponent</a> method instead of <b>ImportComponent</b>. <b>InstallComponent</b> fully registers the component in the COM+ class registration database (RegDB), whereas <b>ImportComponent</b> does not, resulting in an application with limited functionality.
+Generally, this method should not be used unless you want to restrict a component to local use only. Otherwise, use the <a href="https://msdn.microsoft.com/en-us/library/ms681794(v=VS.85).aspx">InstallComponent</a> method instead of <b>ImportComponent</b>. <b>InstallComponent</b> fully registers the component in the COM+ class registration database (RegDB), whereas <b>ImportComponent</b> does not, resulting in an application with limited functionality.
 
 <b>ImportComponent</b> does not bring any interface, method, or type library information for the component into the COM+ class registration database. This behavior restricts how the component can be configured. When you attempt to export a COM+ application that has an imported component to an application proxy, the proxy contains no interface or type library information for the component and marshaling for that component fails.
 
@@ -101,7 +101,7 @@ Generally, this method should not be used unless you want to restrict a componen
 
 
 
-<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
  
 
  

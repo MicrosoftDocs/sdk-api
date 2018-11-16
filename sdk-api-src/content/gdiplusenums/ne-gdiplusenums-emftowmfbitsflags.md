@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Specifies options for the <a href="https://msdn.microsoft.com/e3846642-b7cb-4191-98a3-622e3f0bdf69">Metafile::EmfToWmfBits</a> method, which converts an Enhanced Metafile (EMF) metafile to a Windows Metafile Format (WMF) metafile.
+Specifies options for the <a href="https://msdn.microsoft.com/en-us/library/ms535269(v=VS.85).aspx">Metafile::EmfToWmfBits</a> method, which converts an Enhanced Metafile (EMF) metafile to a Windows Metafile Format (WMF) metafile.
 
 
 ## -enum-fields
@@ -76,7 +76,7 @@ Specifies that the resulting WMF metafile is in the placeable metafile format; t
 
 ### -field EmfToWmfBitsFlagsNoXORClip
 
-Specifies that the clipping region is stored in the metafile in the traditional way. If you do not set this flag, the <a href="https://msdn.microsoft.com/e3846642-b7cb-4191-98a3-622e3f0bdf69">Metafile::EmfToWmfBits</a> method applies an optimization that stores the clipping region as a path and simulates clipping by using the XOR operator.
+Specifies that the clipping region is stored in the metafile in the traditional way. If you do not set this flag, the <a href="https://msdn.microsoft.com/en-us/library/ms535269(v=VS.85).aspx">Metafile::EmfToWmfBits</a> method applies an optimization that stores the clipping region as a path and simulates clipping by using the XOR operator.
 
 
 ## -see-also
@@ -84,11 +84,11 @@ Specifies that the clipping region is stored in the metafile in the traditional 
 
 
 
-<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3846642-b7cb-4191-98a3-622e3f0bdf69">Metafile::EmfToWmfBits</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535269(v=VS.85).aspx">Metafile::EmfToWmfBits</a>
  
 
  

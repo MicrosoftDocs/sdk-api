@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/e520b2b4-c181-4fb1-98e8-f159bd0d31b4">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/a314dfac-fe17-4e33-b528-491a2622e80c">InitializeDecode</a> method to initialize the collection. You can also call the <a href="https://msdn.microsoft.com/b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/d3508bfe-e323-4075-9c82-d9b53b8f54aa">ObjectId</a> property to retrieve the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) associated with the extension.
+Call the <a href="https://msdn.microsoft.com/en-us/library/Aa378090(v=VS.85).aspx">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa378087(v=VS.85).aspx">InitializeDecode</a> method to initialize the collection. You can also call the <a href="https://msdn.microsoft.com/en-us/library/Aa378409(v=VS.85).aspx">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/en-us/library/Aa378518(v=VS.85).aspx">ObjectId</a> property to retrieve the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) associated with the extension.
 
 
 
@@ -81,7 +81,7 @@ Call the <a href="https://msdn.microsoft.com/e520b2b4-c181-4fb1-98e8-f159bd0d31b
 
 
 
-<a href="https://msdn.microsoft.com/facfcc85-c1ca-47a1-90a6-10522b15cc65">IX509ExtensionAlternativeNames</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378081(v=VS.85).aspx">IX509ExtensionAlternativeNames</a>
  
 
  

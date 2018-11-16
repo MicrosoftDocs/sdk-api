@@ -66,7 +66,7 @@ The <b>SizeF</b> class encapsulates a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea34e596-1c5e-48ce-ab1d-70905e3e2667">SizeF::SizeF()</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534744(v=VS.85).aspx">SizeF::SizeF()</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>SizeF</b> object and initializes the members to zero. This is the default constructor.
@@ -75,7 +75,7 @@ Creates a <b>SizeF</b> object and initializes the members to zero. This is the d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d552a785-f8fe-4700-8d81-5800ef61f205">SizeF::SizeF(REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534745(v=VS.85).aspx">SizeF::SizeF(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>SizeF</b> object and initializes its 
@@ -86,7 +86,7 @@ Creates a <b>SizeF</b> object and initializes its
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b7e3acc0-9f87-4adf-9a57-746846ec5b20">SizeF::SizeF(SizeF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534746(v=VS.85).aspx">SizeF::SizeF(SizeF&)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>SizeF</b> object and initializes its members by copying the members of another <b>SizeF</b> object.
@@ -102,39 +102,39 @@ Creates a <b>SizeF</b> object and initializes its members by copying the members
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f37e895d-6e4b-489e-80dd-d9ccd806b9de">SizeF::Empty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534740(v=VS.85).aspx">SizeF::Empty</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/f37e895d-6e4b-489e-80dd-d9ccd806b9de">SizeF::Empty</a> method determines whether a 
+The <a href="https://msdn.microsoft.com/en-us/library/ms534740(v=VS.85).aspx">SizeF::Empty</a> method determines whether a 
 			<b>SizeF</b> object is empty.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a9978d0d-7567-4711-89a4-635ae5c99ade">SizeF::Equals</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534741(v=VS.85).aspx">SizeF::Equals</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/a9978d0d-7567-4711-89a4-635ae5c99ade">SizeF::Equals</a> method determines whether two 
+The <a href="https://msdn.microsoft.com/en-us/library/ms534741(v=VS.85).aspx">SizeF::Equals</a> method determines whether two 
 			<b>SizeF</b> objects are equal.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e39ab3d-8799-4a5a-b588-21105b125189">SizeF::operator-(SizeF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534743(v=VS.85).aspx">SizeF::operator-(SizeF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/3e39ab3d-8799-4a5a-b588-21105b125189">SizeF::operator-</a> method subtracts the <b>Width</b> and <b>Height</b> data members of two <b>SizeF</b> objects.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534743(v=VS.85).aspx">SizeF::operator-</a> method subtracts the <b>Width</b> and <b>Height</b> data members of two <b>SizeF</b> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b70299b-b367-4eb6-a9c3-02d0763ce996">SizeF::operator+(SizeF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534742(v=VS.85).aspx">SizeF::operator+(SizeF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/7b70299b-b367-4eb6-a9c3-02d0763ce996">SizeF::operator+</a> method adds the <b>Width</b> and <b>Height</b> data members of two <b>SizeF</b> objects.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534742(v=VS.85).aspx">SizeF::operator+</a> method adds the <b>Width</b> and <b>Height</b> data members of two <b>SizeF</b> objects.
 
 </td>
 </tr>

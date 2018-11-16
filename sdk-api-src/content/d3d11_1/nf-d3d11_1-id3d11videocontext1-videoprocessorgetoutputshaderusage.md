@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets a value indicating whether the output surface from a call to <a href="https://msdn.microsoft.com/D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A">ID3D11VideoContext::VideoProcessorBlt</a> can be read by Direct3D shaders.
+Gets a value indicating whether the output surface from a call to <a href="https://msdn.microsoft.com/en-us/library/Hh447719(v=VS.85).aspx">ID3D11VideoContext::VideoProcessorBlt</a> can be read by Direct3D shaders.
 
 
 ## -parameters
@@ -70,14 +70,14 @@ Gets a value indicating whether the output surface from a call to <a href="https
 
 Type: <b>ID3D11VideoProcessor*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh447799(v=VS.85).aspx">ID3D11VideoProcessor</a> interface.
 
 
 ### -param pShaderUsage [out]
 
 Type: <b>BOOL*</b>
 
-A pointer to a boolean value indicating if the output surface can be read by Direct3D shaders. True if the surface rendered using <a href="https://msdn.microsoft.com/D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A">ID3D11VideoContext::VideoProcessorBlt</a> can be read by Direct3D shaders; otherwise, false.
+A pointer to a boolean value indicating if the output surface can be read by Direct3D shaders. True if the surface rendered using <a href="https://msdn.microsoft.com/en-us/library/Hh447719(v=VS.85).aspx">ID3D11VideoContext::VideoProcessorBlt</a> can be read by Direct3D shaders; otherwise, false.
 
 
 ## -returns
@@ -94,7 +94,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/64D12F68-C2AA-4C1D-9608-5F97CF7AD430">ID3D11VideoContext1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894126(v=VS.85).aspx">ID3D11VideoContext1</a>
  
 
  

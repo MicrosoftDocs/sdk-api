@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Indicates whether the <a href="https://msdn.microsoft.com/0826a2f0-d4a5-40e2-b951-291d67f0d201">Add</a> method is enabled for the collection.
+Indicates whether the <a href="https://msdn.microsoft.com/en-us/library/ms678897(v=VS.85).aspx">Add</a> method is enabled for the collection.
 
 This property is read-only.
 
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
  
 
  

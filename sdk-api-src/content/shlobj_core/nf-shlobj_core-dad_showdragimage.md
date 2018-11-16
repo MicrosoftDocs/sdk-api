@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>DAD_ShowDragImage</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/b4e4c1c0-21b4-4eb0-b38e-375eb5195816">ImageList_DragShowNolock</a> instead.
+<p class="CCE_Message">[<b>DAD_ShowDragImage</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/en-us/library/Bb761532(v=VS.85).aspx">ImageList_DragShowNolock</a> instead.
       ]
 
 Shows or hides the image being dragged.

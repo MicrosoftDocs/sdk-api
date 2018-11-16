@@ -137,7 +137,7 @@ Entry number is out of range.
 
 
 
-<a href="https://msdn.microsoft.com/9734c73e-9325-4a6d-bbf3-3f87f96a662e">IITWordWheel</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670057(v=VS.85).aspx">IITWordWheel</a>
  
 
  

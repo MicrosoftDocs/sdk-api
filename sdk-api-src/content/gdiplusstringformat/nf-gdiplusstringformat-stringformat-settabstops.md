@@ -60,7 +60,7 @@ req.product: GDI+ 1.0
 
 
 The <b>StringFormat::SetTabStops</b> method sets the offsets for tab stops in this 
-			<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
 
 
 ## -parameters
@@ -94,14 +94,14 @@ Pointer to an array of real numbers that specify the tab-stop offsets. The offse
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -120,7 +120,7 @@ Each tab-stop offset in the
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object, sets tab stops, and uses the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object, sets tab stops, and uses the 
 						<b>StringFormat</b> object to draw a string that contains tab characters (\t). The code also draws the string's layout rectangle.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -163,15 +163,15 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/4014a602-88f6-4fac-b4b2-3dafdcff8f33">Formatting Text</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533823(v=VS.85).aspx">Formatting Text</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/51c80843-9435-4926-b699-1ee4e558cac0">StringFormat::GetTabStops</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534722(v=VS.85).aspx">StringFormat::GetTabStops</a>
  
 
  

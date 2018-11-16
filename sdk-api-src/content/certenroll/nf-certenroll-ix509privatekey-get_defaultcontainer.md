@@ -73,7 +73,7 @@ This property is read-only.
 
 Key containers are identified by name. The name can be specified by the client, or it can be a default value supported by the CSP or KSP. For example, some CSPs use the logon name of the current user as the default container name.
 
-This property value is set when the <a href="https://msdn.microsoft.com/965e3bf8-22b9-4015-8fb2-102c5f7b1cb5">Open</a> or <a href="https://msdn.microsoft.com/e8c6564a-6009-437e-9b83-3711e43a7374">Create</a> methods are called.
+This property value is set when the <a href="https://msdn.microsoft.com/en-us/library/Aa379027(v=VS.85).aspx">Open</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa378957(v=VS.85).aspx">Create</a> methods are called.
 
 
 
@@ -83,7 +83,7 @@ This property value is set when the <a href="https://msdn.microsoft.com/965e3bf8
 
 
 
-<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
  
 
  

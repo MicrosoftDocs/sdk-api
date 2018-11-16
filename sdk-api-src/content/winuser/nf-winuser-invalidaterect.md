@@ -69,7 +69,7 @@ The <b>InvalidateRect</b> function adds a rectangle to the specified window's up
 
 ### -param hWnd [in]
 
-A handle to the window whose update region has changed. If this parameter is <b>NULL</b>, the system invalidates and redraws all windows, not just the windows for this application, and sends the <a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a> and <a href="https://msdn.microsoft.com/d8a2a8b9-2c5d-484c-be09-67eb33de67c0">WM_NCPAINT</a> messages before the function returns. Setting this parameter to <b>NULL</b> is not recommended.
+A handle to the window whose update region has changed. If this parameter is <b>NULL</b>, the system invalidates and redraws all windows, not just the windows for this application, and sends the <a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> and <a href="https://msdn.microsoft.com/d8a2a8b9-2c5d-484c-be09-67eb33de67c0">WM_NCPAINT</a> messages before the function returns. Setting this parameter to <b>NULL</b> is not recommended.
 
 
 ### -param lpRect [in]
@@ -145,7 +145,7 @@ For an example, see <a href="https://msdn.microsoft.com/41c2bc07-768b-4d27-a869-
 
 
 
-<a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a>
 
 
 

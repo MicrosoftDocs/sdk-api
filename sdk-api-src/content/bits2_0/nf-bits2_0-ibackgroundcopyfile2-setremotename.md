@@ -75,7 +75,7 @@ TBD
 
 #### - RemoteName [in]
 
-Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/bf5302e9-da8f-4c57-a998-fd49484e0584">BG_FILE_INFO</a> structure.
+Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structure.
 					
 
 
@@ -146,7 +146,7 @@ The state of the job cannot be <b>BG_JOB_STATE_CANCELLED</b> or <b>BG_JOB_STATE_
 
  Typically, you call this method if you want to change the protocol used to transfer the file (for example, from SMB to HTTP) or if you want to change the file name or path.
 
-This method does not serialize when it returns. To serialize the change, <a href="https://msdn.microsoft.com/88429730-b8e5-4969-934c-f0945fdd46a6">suspend</a> the job, call this method (if changing multiple files in the job, use a loop), and <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">resume</a> the job. Calling the <b>IBackgroundCopyJob::Resume</b> method serializes the change. 
+This method does not serialize when it returns. To serialize the change, <a href="https://msdn.microsoft.com/en-us/library/Aa363048(v=VS.85).aspx">suspend</a> the job, call this method (if changing multiple files in the job, use a loop), and <a href="https://msdn.microsoft.com/en-us/library/Aa363039(v=VS.85).aspx">resume</a> the job. Calling the <b>IBackgroundCopyJob::Resume</b> method serializes the change. 
 
 If the time stamp or file size of the new remote name is different from the previous remote name or the new server does not support checkpoint resume (for HTTP remote names), BITS restarts the download. Otherwise, the transfer resumes from the same position on the new server. BITS does not restart already transferred files. 
 
@@ -175,7 +175,7 @@ If the remote name identifies a server message block (SMB) path, the following t
 
 #### Examples
 
-The following example shows how to call the <b>SetRemoteName</b> method to change the remote name of a file. The example assumes the <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> variable, pJob, is valid and the job contains one or more files.
+The following example shows how to call the <b>SetRemoteName</b> method to change the remote name of a file. The example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> variable, pJob, is valid and the job contains one or more files.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -259,11 +259,11 @@ The following example shows how to call the <b>SetRemoteName</b> method to chang
 
 
 
-<a href="https://msdn.microsoft.com/facff24d-56a3-4a1f-a726-3442c17fe869">IBackgroundCopyFile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362944(v=VS.85).aspx">IBackgroundCopyFile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf">IBackgroundCopyJob3::ReplaceRemotePrefix</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362993(v=VS.85).aspx">IBackgroundCopyJob3::ReplaceRemotePrefix</a>
  
 
  

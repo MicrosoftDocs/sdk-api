@@ -88,7 +88,7 @@ Currently, a copy is not made of the context, and the returned context is the sa
 
 
 
-<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
  
 
  

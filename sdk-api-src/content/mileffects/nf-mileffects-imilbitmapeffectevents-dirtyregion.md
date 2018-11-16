@@ -58,7 +58,7 @@ req.redist: Microsoft .Net 3.0
 ## -description
 
 
-Invalidates the specified region of the given <a href="https://msdn.microsoft.com/23eea785-8545-44d3-bfcb-1ffbc82ecc6a">IMILBitmapEffectPrimitive</a>.
+Invalidates the specified region of the given <a href="https://msdn.microsoft.com/en-us/library/ms735258(v=VS.85).aspx">IMILBitmapEffectPrimitive</a>.
 
 
 ## -parameters
@@ -68,14 +68,14 @@ Invalidates the specified region of the given <a href="https://msdn.microsoft.co
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>*</b>
 
 A pointer to the primitive to dirty.
 
 
 ### -param pRect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/da11ec7a-3d36-49b2-be4d-cbc05517d364">MIL_RECTD</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735228(v=VS.85).aspx">MIL_RECTD</a>*</b>
 
 A pointer to the rectangle to dirty.
 

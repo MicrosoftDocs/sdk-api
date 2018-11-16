@@ -83,7 +83,7 @@ The memory information class about which to retrieve information. The only suppo
 
 A pointer to a buffer that receives the specified information.
 
-If the <i>MemoryInformationClass</i> parameter has a value of  <b>MemoryRegionInfo</b>, this parameter must point to a <a href="base.win32_memory_region_information">WIN32_MEMORY_REGION_INFORMATION</a> structure.
+If the <i>MemoryInformationClass</i> parameter has a value of  <b>MemoryRegionInfo</b>, this parameter must point to a <a href="https://msdn.microsoft.com/en-us/library/Mt845762(v=VS.85).aspx">WIN32_MEMORY_REGION_INFORMATION</a> structure.
 
 
 ### -param MemoryInformationSize [in]
@@ -109,7 +109,7 @@ Returns <b>TRUE</b> on success. Returns <b>FALSE</b> for failure. To get extende
 
 
 
-If the <i>MemoryInformationClass</i> parameter has a value of <b>MemoryRegionInfo</b>, the <i>MemoryInformation</i> parameter must point to a <a href="base.win32_memory_region_information">WIN32_MEMORY_REGION_INFORMATION</a> structure. The <i>VirtualAddress</i> parameter must point to an address within a valid memory allocation. If the <i>VirtualAddress</i> parameter points to an unallocated memory region, the function fails.
+If the <i>MemoryInformationClass</i> parameter has a value of <b>MemoryRegionInfo</b>, the <i>MemoryInformation</i> parameter must point to a <a href="https://msdn.microsoft.com/en-us/library/Mt845762(v=VS.85).aspx">WIN32_MEMORY_REGION_INFORMATION</a> structure. The <i>VirtualAddress</i> parameter must point to an address within a valid memory allocation. If the <i>VirtualAddress</i> parameter points to an unallocated memory region, the function fails.
 
 
 
@@ -127,7 +127,7 @@ If the <i>MemoryInformationClass</i> parameter has a value of <b>MemoryRegionInf
 
 
 
-<a href="base.win32_memory_region_information">WIN32_MEMORY_REGION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt845762(v=VS.85).aspx">WIN32_MEMORY_REGION_INFORMATION</a>
  
 
  

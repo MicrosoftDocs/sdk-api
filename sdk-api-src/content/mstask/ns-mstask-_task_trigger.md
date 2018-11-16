@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Defines the times to run a scheduled <a href="w.htm">work item</a>.
+Defines the times to run a scheduled <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
 
 
 ## -struct-fields
@@ -214,7 +214,7 @@ These times may include the start time, end time, duration, and modification fla
 
 
 
-<a href="trigger_interfaces.htm">Task Scheduler 2.0 Trigger Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383953(v=VS.85).aspx">Task Scheduler 2.0 Trigger Interfaces</a>
  
 
  

@@ -70,7 +70,7 @@ Get a message severity level to break on when a message with that severity level
 
 ### -param Severity [in]
 
-Type: <b><a href="https://msdn.microsoft.com/44D94C37-4BA8-49FC-BEEF-6666AD59B627">D3D12_MESSAGE_SEVERITY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn950147(v=VS.85).aspx">D3D12_MESSAGE_SEVERITY</a></b>
 
 Message severity level to break on.
 
@@ -93,7 +93,7 @@ Whether this breaking condition is turned on or off (true for on, false for off)
 
 
 
-<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
  
 
  

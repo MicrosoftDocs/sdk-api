@@ -67,7 +67,7 @@ The <b>CertSrvRestoreRegisterThroughFile</b> function registers a Certificate Se
 ### -param hbc [in]
 
 A handle to the Certificate Services restore context. This handle is obtained by calling 
-the <a href="https://msdn.microsoft.com/e607b61c-9636-40e6-abba-74152f37b49e">CertSrvRestorePrepare</a> function.
+the <a href="https://msdn.microsoft.com/en-us/library/Aa377007(v=VS.85).aspx">CertSrvRestorePrepare</a> function.
 
 
 ### -param pwszCheckPointFilePath [in, optional]
@@ -83,7 +83,7 @@ A pointer to a null-terminated Unicode string that contains the current log file
 ### -param rgrstmap [in, optional]
 
 An array of <b>CSEDB_RSTMAP</b> structures that contains the restore map. If you are performing a full database restoration, this parameter specifies the name of the backup database, as well as a new name for the database after it is restored. The backup database name is referenced by the <b>pwszDatabaseName</b> member, and the new database name is referenced by the <b>pwszNewDatabaseName</b> member. If the intent is to maintain the same name for both the backup database and the restored database, set both the <b>pwszNewDatabaseName</b> and the <b>pwszDatabaseName</b> members to the same name. The backup database name is constructed from the path returned by the backup client's call to 
-the <a href="https://msdn.microsoft.com/02355bd7-6788-4c32-940e-b89e47619aa0">CertSrvRestoreGetDatabaseLocations</a> function. <b>CertSrvRestoreGetDatabaseLocations</b> would have been called during a full backup, and the backup client would have saved the returned path.
+the <a href="https://msdn.microsoft.com/en-us/library/Aa377003(v=VS.85).aspx">CertSrvRestoreGetDatabaseLocations</a> function. <b>CertSrvRestoreGetDatabaseLocations</b> would have been called during a full backup, and the backup client would have saved the returned path.
 
 If you are performing an incremental restoration, set this parameter to <b>NULL</b>.
 
@@ -121,7 +121,7 @@ The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 
 
 
-This function is identical to the <a href="https://msdn.microsoft.com/4549ba26-d52c-4779-b27d-126cef6ef15d">CertSrvRestoreRegister</a> function except that <b>CertSrvRestoreRegister</b> requires the calling account to be a local administrator. The <b>CertSrvRestoreRegisterThroughFile</b> function only requires that the calling account have the restore privilege.
+This function is identical to the <a href="https://msdn.microsoft.com/en-us/library/Aa377010(v=VS.85).aspx">CertSrvRestoreRegister</a> function except that <b>CertSrvRestoreRegister</b> requires the calling account to be a local administrator. The <b>CertSrvRestoreRegisterThroughFile</b> function only requires that the calling account have the restore privilege.
 
 
 
@@ -131,15 +131,15 @@ This function is identical to the <a href="https://msdn.microsoft.com/4549ba26-d
 
 
 
-<a href="https://msdn.microsoft.com/4549ba26-d52c-4779-b27d-126cef6ef15d">CertSrvRestoreRegister</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377010(v=VS.85).aspx">CertSrvRestoreRegister</a>
 
 
 
-<a href="https://msdn.microsoft.com/1459d5b2-2c12-48df-ae01-c713c86f1c2e">CertSrvRestoreRegisterComplete</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377015(v=VS.85).aspx">CertSrvRestoreRegisterComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

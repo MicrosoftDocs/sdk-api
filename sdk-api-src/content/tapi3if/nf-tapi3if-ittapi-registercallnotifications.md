@@ -98,7 +98,7 @@ Boolean value indicating whether the application will own incoming calls. VARIAN
 
 ### -param lCallbackInstance [in]
 
-Callback instance to be used by the TAPI 3 DLL. Can be the gulAdvise value returned by <a href="_com_iconnectionpoint_advise">IConnectionPoint::Advise</a> during registration of the 
+Callback instance to be used by the TAPI 3 DLL. Can be the gulAdvise value returned by <a href="https://msdn.microsoft.com/en-us/library/ms678815(v=VS.85).aspx">IConnectionPoint::Advise</a> during registration of the 
 <a href="https://msdn.microsoft.com/06cfe56c-907f-49ed-8a7a-db31383a06f9">ITTAPIEventNotification</a> outgoing interface.
 
 

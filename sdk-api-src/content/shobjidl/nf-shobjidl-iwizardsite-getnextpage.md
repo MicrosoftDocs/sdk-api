@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
+Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Called when the user navigates forward past the wizard extension pages. Gets the
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to a handle variable of type <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> for the wizard page following the extension page.
+A pointer to a handle variable of type <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> for the wizard page following the extension page.
 
 
 ## -returns

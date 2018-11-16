@@ -58,9 +58,9 @@ A module interface creates an instance of a module that is used for resource reb
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Module</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11Module</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Module</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D11Module</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>ID3D11Module</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/737A69EF-F74E-4480-98EA-31D6CCAC0F8A">CreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280608(v=VS.85).aspx">CreateInstance</a>
 </td>
 <td align="left" width="63%">
 Initializes an instance of a shader module that is used for resource rebinding.
@@ -87,7 +87,7 @@ Initializes an instance of a shader module that is used for resource rebinding.
 
 
 
-To get a module interface, call <a href="https://msdn.microsoft.com/698AADA6-0A88-44AD-9F15-F085BFE52CA1">D3DLoadModule</a>.
+To get a module interface, call <a href="https://msdn.microsoft.com/en-us/library/Dn280342(v=VS.85).aspx">D3DLoadModule</a>.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D11Module</b> requires the D3dcompiler_47.dll or a later version of the DLL.
@@ -101,11 +101,11 @@ To get a module interface, call <a href="https://msdn.microsoft.com/698AADA6-0A8
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476161(v=VS.85).aspx">Shader Interfaces</a>
  
 
  

@@ -60,7 +60,7 @@ req.redist:
 
 The 
 <b>put_AvgBytesPerSec</b> method sets the <b>nAvgBytesPerSec</b> member in the 
-<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The
 ### -param nNewVal [in]
 
 New value for the <b>nAvgBytesPerSec</b> member in the 
-<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
 
 
 ## -returns

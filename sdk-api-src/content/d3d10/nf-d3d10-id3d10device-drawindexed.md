@@ -69,21 +69,21 @@ Draw indexed, non-instanced primitives.
 
 ### -param IndexCount [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of indices to draw.
 
 
 ### -param StartIndexLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Index of the first index to use when accesssing the vertex buffer; begin at <i>StartIndexLocation</i> to index vertices from the vertex buffer.
 
 
 ### -param BaseVertexLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
 
 Offset from the start of the vertex buffer to the first vertex.
 
@@ -101,7 +101,7 @@ Returns nothing.
 
 
 
-A <a href="https://msdn.microsoft.com/84c0ca29-2356-4b7f-98ee-ff1758edc540">draw API</a> submits work to the rendering pipeline.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">draw API</a> submits work to the rendering pipeline.
 
 If the sum of both indices is negative, the result of the function call is undefined.
 
@@ -113,7 +113,7 @@ If the sum of both indices is negative, the result of the function call is undef
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

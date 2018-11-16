@@ -78,9 +78,9 @@ The ID for the Command, which is specified in the markup resource file.
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e3476cac-f088-46fd-bb4a-8a02e17461ed">UI_INVALIDATIONS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371573(v=VS.85).aspx">UI_INVALIDATIONS</a></b>
 
-Identifies which <a href="https://msdn.microsoft.com/e3476cac-f088-46fd-bb4a-8a02e17461ed">aspect</a> of a command to invalidate.
+Identifies which <a href="https://msdn.microsoft.com/en-us/library/Dd371573(v=VS.85).aspx">aspect</a> of a command to invalidate.
 					
 
 <div class="alert"><b>Note</b>  Passing <b>UI_INVALIDATIONS_ALLPROPERTIES</b> invalidates all properties bound to a command, including value and state.
@@ -140,7 +140,7 @@ After invalidation, the framework queries the host application for the resource 
 When a Command value is invalidated (<i>flags</i> contains UI_INVALIDATIONS_VALUE) the value of <i>key</i> is <b>NULL</b>.
 
 If <b>IUIFramework::InvalidateUICommand</b> is called multiple times
-				and the <a href="https://msdn.microsoft.com/e3476cac-f088-46fd-bb4a-8a02e17461ed">UI_INVALIDATIONS</a> 
+				and the <a href="https://msdn.microsoft.com/en-us/library/Dd371573(v=VS.85).aspx">UI_INVALIDATIONS</a> 
 				value passed in each call specifies overlapping properties, such as <b>UI_INVALIDATIONS_STATE</b> 
 				and <b>UI_INVALIDATIONS_ALLPROPERTIES</b>, then only one callback to the host application is created.
 			
@@ -153,15 +153,15 @@ If <b>IUIFramework::InvalidateUICommand</b> is called multiple times
 
 
 
-<a href="https://msdn.microsoft.com/a9b8a30d-dd00-4088-a588-304fde97b84e">IUIFramework</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3476cac-f088-46fd-bb4a-8a02e17461ed">UI_INVALIDATIONS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371573(v=VS.85).aspx">UI_INVALIDATIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

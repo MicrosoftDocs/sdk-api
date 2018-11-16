@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/en-us/library/Ff538074(v=VS.85).aspx">CM_Get_Child</a> instead.]
 
 The <b>CM_Get_Child_Ex</b> function is used to retrieve a device instance handle to the first child node of a specified device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>) in a local or a remote machine's <a href="https://msdn.microsoft.com/3220389a-06cc-4a43-8164-b785d1a16365">device tree</a>.
 
@@ -101,7 +101,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-To enumerate all children of a devnode in a local or a remote machine's device tree, first call <b>CM_Get_Child_Ex</b> to obtain a handle to the first child node, then call <a href="https://msdn.microsoft.com/6be82983-7ac7-4956-a409-77a371e4d6b4">CM_Get_Sibling_Ex</a> to obtain handles for the rest of the children.
+To enumerate all children of a devnode in a local or a remote machine's device tree, first call <b>CM_Get_Child_Ex</b> to obtain a handle to the first child node, then call <a href="https://msdn.microsoft.com/en-us/library/Ff538682(v=VS.85).aspx">CM_Get_Sibling_Ex</a> to obtain handles for the rest of the children.
 
 <b>Using Device Instance Handles</b>
 
@@ -131,11 +131,11 @@ To obtain a local or a remote device instance handle, do one of the following.
 
 <ul>
 <li>
-Use one of the following functions to retrieve a device instance handle bound to the local machine: <a href="https://msdn.microsoft.com/b0bb2510-44be-4598-96ea-9b8fdcc7f7c6">CM_Locate_DevNode</a>, <a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>, <a href="https://msdn.microsoft.com/e9d1db59-e9fb-4704-81f6-86523397c114">CM_Get_Parent</a>, or <a href="https://msdn.microsoft.com/ac3b7bca-1504-465a-8dcf-dcde9da686a9">CM_Get_Sibling</a>.
+Use one of the following functions to retrieve a device instance handle bound to the local machine: <a href="https://msdn.microsoft.com/en-us/library/Ff538742(v=VS.85).aspx">CM_Locate_DevNode</a>, <a href="https://msdn.microsoft.com/en-us/library/Ff538074(v=VS.85).aspx">CM_Get_Child</a>, <a href="https://msdn.microsoft.com/en-us/library/Ff538610(v=VS.85).aspx">CM_Get_Parent</a>, or <a href="https://msdn.microsoft.com/en-us/library/Ff538674(v=VS.85).aspx">CM_Get_Sibling</a>.
 
 </li>
 <li>
-Use one of the following functions to retrieve a device instance handle bound to a local or a remote machine: <a href="https://msdn.microsoft.com/255d828c-5a71-4d53-80ee-b0a0b3e97414">CM_Locate_DevNode_Ex</a>, <b>CM_Get_Child_Ex</b>, <a href="https://msdn.microsoft.com/ef92f516-e820-41d0-b267-a7e1d01aa7da">CM_Get_Parent_Ex</a>, or <a href="https://msdn.microsoft.com/6be82983-7ac7-4956-a409-77a371e4d6b4">CM_Get_Sibling_Ex</a>.
+Use one of the following functions to retrieve a device instance handle bound to a local or a remote machine: <a href="https://msdn.microsoft.com/en-us/library/Ff538751(v=VS.85).aspx">CM_Locate_DevNode_Ex</a>, <b>CM_Get_Child_Ex</b>, <a href="https://msdn.microsoft.com/en-us/library/Ff538615(v=VS.85).aspx">CM_Get_Parent_Ex</a>, or <a href="https://msdn.microsoft.com/en-us/library/Ff538682(v=VS.85).aspx">CM_Get_Sibling_Ex</a>.
 
 </li>
 </ul>
@@ -147,7 +147,7 @@ Obtain a device information set.
 
 </li>
 <li>
-Obtain an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure for a device instance in the device information set.
+Obtain an <a href="https://msdn.microsoft.com/en-us/library/Ff552344(v=VS.85).aspx">SP_DEVINFO_DATA</a> structure for a device instance in the device information set.
 
 </li>
 <li>
@@ -155,7 +155,7 @@ Obtain the device instance handle for the device instance from the <b>DevInst</b
 
 </li>
 <li>
-Obtain the machine handle to which the device instance handle is bound. A device instance handle obtained from a device information set is bound to the machine handle to which the device information set is bound. You obtain the machine handle for a device information set from the <b>RemoteMachineHandle</b> member of its <a href="https://msdn.microsoft.com/03e6c137-5a7f-443d-878f-5e5c6642dde9">SP_DEVINFO_LIST_DETAIL_DATA</a> structure. (Call <a href="https://msdn.microsoft.com/3f624882-9ccc-4be1-92aa-8bba9f0022ea">SetupDiGetDeviceInfoListDetail</a> to obtain an SP_DEVINFO_LIST_DETAIL_DATA structure.)
+Obtain the machine handle to which the device instance handle is bound. A device instance handle obtained from a device information set is bound to the machine handle to which the device information set is bound. You obtain the machine handle for a device information set from the <b>RemoteMachineHandle</b> member of its <a href="https://msdn.microsoft.com/en-us/library/Ff552345(v=VS.85).aspx">SP_DEVINFO_LIST_DETAIL_DATA</a> structure. (Call <a href="https://msdn.microsoft.com/en-us/library/Ff551103(v=VS.85).aspx">SetupDiGetDeviceInfoListDetail</a> to obtain an SP_DEVINFO_LIST_DETAIL_DATA structure.)
 
 </li>
 </ol>
@@ -169,43 +169,43 @@ Obtain the machine handle to which the device instance handle is bound. A device
 
 
 
-<a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff538074(v=VS.85).aspx">CM_Get_Child</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9d1db59-e9fb-4704-81f6-86523397c114">CM_Get_Parent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff538610(v=VS.85).aspx">CM_Get_Parent</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef92f516-e820-41d0-b267-a7e1d01aa7da">CM_Get_Parent_Ex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff538615(v=VS.85).aspx">CM_Get_Parent_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac3b7bca-1504-465a-8dcf-dcde9da686a9">CM_Get_Sibling</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff538674(v=VS.85).aspx">CM_Get_Sibling</a>
 
 
 
-<a href="https://msdn.microsoft.com/6be82983-7ac7-4956-a409-77a371e4d6b4">CM_Get_Sibling_Ex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff538682(v=VS.85).aspx">CM_Get_Sibling_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0bb2510-44be-4598-96ea-9b8fdcc7f7c6">CM_Locate_DevNode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff538742(v=VS.85).aspx">CM_Locate_DevNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/255d828c-5a71-4d53-80ee-b0a0b3e97414">CM_Locate_DevNode_Ex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff538751(v=VS.85).aspx">CM_Locate_DevNode_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff552344(v=VS.85).aspx">SP_DEVINFO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/03e6c137-5a7f-443d-878f-5e5c6642dde9">SP_DEVINFO_LIST_DETAIL_DATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff552345(v=VS.85).aspx">SP_DEVINFO_LIST_DETAIL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f624882-9ccc-4be1-92aa-8bba9f0022ea">SetupDiGetDeviceInfoListDetail</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff551103(v=VS.85).aspx">SetupDiGetDeviceInfoListDetail</a>
  
 
  

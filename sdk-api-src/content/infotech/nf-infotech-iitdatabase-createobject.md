@@ -150,7 +150,7 @@ The memory required for internal structures could not be allocated.
 
 
 
-<a href="https://msdn.microsoft.com/16051c95-5fad-43ea-9b85-a4754077dc3c">IITDatabase</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670034(v=VS.85).aspx">IITDatabase</a>
  
 
  

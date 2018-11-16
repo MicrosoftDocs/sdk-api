@@ -66,12 +66,12 @@ The <b>ADsPropCreateNotifyObj</b> function is used to create, or obtain, a notif
 
 ### -param pAppThdDataObj [in]
 
-A pointer to the <a href="_ole_idataobject">IDataObject</a> object that represents the directory object that the property page applies to. This is the <b>IDataObject</b> passed to the property page <a href="_win32_ishellextinit_win32_ishellextinit_initialize_cpp">IShellExtInit::Initialize</a> method.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> object that represents the directory object that the property page applies to. This is the <b>IDataObject</b> passed to the property page <a href="https://msdn.microsoft.com/library/Bb775094(v=VS.85).aspx">IShellExtInit::Initialize</a> method.
 
 
 ### -param pwzADsObjName [in]
 
-The Active Directory Domain Services object name obtained by calling the <a href="_ole_idataobject_getdata">IDataObject::GetData</a> method for the <a href="https://msdn.microsoft.com/9be96d2a-6545-4986-b47b-1eab6a02ac26">CFSTR_DSOBJECTNAMES</a> clipboard format on the <a href="_ole_idataobject">IDataObject</a> represented by <i>pAppThdDataObj</i>.
+The Active Directory Domain Services object name obtained by calling the <a href="https://msdn.microsoft.com/library/ms678431(v=VS.85).aspx">IDataObject::GetData</a> method for the <a href="https://msdn.microsoft.com/9be96d2a-6545-4986-b47b-1eab6a02ac26">CFSTR_DSOBJECTNAMES</a> clipboard format on the <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> represented by <i>pAppThdDataObj</i>.
 
 
 ### -param phNotifyObj [out]
@@ -92,7 +92,7 @@ Returns <b>S_OK</b> if successful, or an OLE-defined error value otherwise.
 
 
 
-The <b>ADsPropCreateNotifyObj</b> function is used in the implementation of an Active Directory Domain Services property sheet extension. The extension must first request the  <a href="https://msdn.microsoft.com/9be96d2a-6545-4986-b47b-1eab6a02ac26">CFSTR_DSOBJECTNAMES</a> data from the <a href="_ole_idataobject">IDataObject</a> interface passed to <a href="_win32_ishellextinit_win32_ishellextinit_initialize_cpp">IShellExtInit::Initialize</a> by calling <a href="_ole_idataobject_getdata">IDataObject::GetData</a>. This provides the data object and object name required to call <b>ADsPropCreateNotifyObj</b>.
+The <b>ADsPropCreateNotifyObj</b> function is used in the implementation of an Active Directory Domain Services property sheet extension. The extension must first request the  <a href="https://msdn.microsoft.com/9be96d2a-6545-4986-b47b-1eab6a02ac26">CFSTR_DSOBJECTNAMES</a> data from the <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface passed to <a href="https://msdn.microsoft.com/library/Bb775094(v=VS.85).aspx">IShellExtInit::Initialize</a> by calling <a href="https://msdn.microsoft.com/library/ms678431(v=VS.85).aspx">IDataObject::GetData</a>. This provides the data object and object name required to call <b>ADsPropCreateNotifyObj</b>.
 
 When the notification object is no longer required, a <a href="https://msdn.microsoft.com/b0f58c73-8953-412d-b801-bf34967fe0b4">WM_ADSPROP_NOTIFY_EXIT</a> message is sent to the notification object. This causes the notification object to destroy itself. When the <b>WM_ADSPROP_NOTIFY_EXIT</b> message is sent, the notification object handle should be considered invalid.
 
@@ -167,15 +167,15 @@ The following C++ example shows how to use the <b>ADsPropCreateNotifyObj</b> fun
 
 
 
-<a href="_ole_idataobject">IDataObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
 
 
 
-<a href="_ole_idataobject_getdata">IDataObject::GetData</a>
+<a href="https://msdn.microsoft.com/library/ms678431(v=VS.85).aspx">IDataObject::GetData</a>
 
 
 
-<a href="_win32_ishellpropsheetext_win32_ishellpropsheetext_addpages_cpp">IShellPropSheetExt::AddPages</a>
+<a href="https://msdn.microsoft.com/library/Bb774878(v=VS.85).aspx">IShellPropSheetExt::AddPages</a>
 
 
 

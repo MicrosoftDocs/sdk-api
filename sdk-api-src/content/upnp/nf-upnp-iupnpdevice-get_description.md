@@ -69,7 +69,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains a short description of the intended functionality of devices of this type. Release this string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required. If the device does not specify a description, this parameter is set to <b>NULL</b>.
+Receives a reference to a string that contains a short description of the intended functionality of devices of this type. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required. If the device does not specify a description, this parameter is set to <b>NULL</b>.
 
 
 ## -returns

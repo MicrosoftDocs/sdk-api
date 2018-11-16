@@ -497,7 +497,7 @@ If more than one object is listed, the object may be enumerated from more than o
 
 
 
-<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
 
 
 

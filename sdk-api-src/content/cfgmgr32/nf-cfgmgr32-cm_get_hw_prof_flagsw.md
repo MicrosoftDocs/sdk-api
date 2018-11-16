@@ -71,7 +71,7 @@ The <b>CM_Get_HW_Prof_Flags</b> function retrieves the <a href="https://msdn.mic
 
 ### -param pDeviceID [in]
 
-Pointer to a NULL-terminated string that contains the <a href="devinst.device_instance_ids">device instance ID</a> of the device for which to retrieve hardware profile-specific configuration flags.
+Pointer to a NULL-terminated string that contains the <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> of the device for which to retrieve hardware profile-specific configuration flags.
 
 
 ### -param ulHardwareProfile [in]
@@ -148,9 +148,9 @@ If the operation succeeds, <b>CM_Get_HW_Prof_Flags</b> returns CR_SUCCESS. Other
 
 
 
-To retrieve a list of hardware profile IDs that are currently defined on a local machine, call <a href="https://msdn.microsoft.com/59fc7202-0e03-4eaa-b3ca-7d55be767b1a">SetupDiGetHwProfileList</a>.
+To retrieve a list of hardware profile IDs that are currently defined on a local machine, call <a href="https://msdn.microsoft.com/en-us/library/Ff551997(v=VS.85).aspx">SetupDiGetHwProfileList</a>.
 
-To retrieve configuration flags for a device instance on a remote machine, call <a href="https://msdn.microsoft.com/660d63b6-b70f-422f-9023-57923290ba47">CM_Get_HW_Prof_Flags_Ex</a>.
+To retrieve configuration flags for a device instance on a remote machine, call <a href="https://msdn.microsoft.com/en-us/library/Ff538574(v=VS.85).aspx">CM_Get_HW_Prof_Flags_Ex</a>.
 
 
 
@@ -160,15 +160,15 @@ To retrieve configuration flags for a device instance on a remote machine, call 
 
 
 
-<a href="https://msdn.microsoft.com/660d63b6-b70f-422f-9023-57923290ba47">CM_Get_HW_Prof_Flags_Ex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff538574(v=VS.85).aspx">CM_Get_HW_Prof_Flags_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/92f08c8a-b31a-4f88-8ff5-c60d985b79bf">SetupDiGetHwProfileFriendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff551983(v=VS.85).aspx">SetupDiGetHwProfileFriendlyName</a>
 
 
 
-<a href="https://msdn.microsoft.com/59fc7202-0e03-4eaa-b3ca-7d55be767b1a">SetupDiGetHwProfileList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff551997(v=VS.85).aspx">SetupDiGetHwProfileList</a>
  
 
  

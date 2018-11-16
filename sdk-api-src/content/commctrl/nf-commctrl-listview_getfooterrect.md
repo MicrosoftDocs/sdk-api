@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the coordinates of the footer for a specified list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/f8816f35-c1d2-4072-81d3-0a9a3df53d64">LVM_GETFOOTERRECT</a> message explicitly.
+Gets the coordinates of the footer for a specified list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774930(v=VS.85).aspx">LVM_GETFOOTERRECT</a> message explicitly.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Gets the coordinates of the footer for a specified list-view control. Use this m
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control.
 

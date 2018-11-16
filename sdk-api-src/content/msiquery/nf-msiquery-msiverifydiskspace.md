@@ -94,7 +94,7 @@ See
 
 
 
-<a href="database_functions.htm">Installer Selection Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
  
 
  

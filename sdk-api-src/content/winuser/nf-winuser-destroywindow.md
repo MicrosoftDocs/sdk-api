@@ -66,11 +66,11 @@ req.redist:
 ## -description
 
 
-Destroys the specified window. The function sends <a href="https://msdn.microsoft.com/089c0645-199b-4a90-9cbc-740f0cf3267d">WM_DESTROY</a> and <a href="https://msdn.microsoft.com/64ab268d-0e90-4401-81d3-a4da64196001">WM_NCDESTROY</a> messages to the window to deactivate it and remove the keyboard focus from it. The function also destroys the window's menu, flushes the thread message queue, destroys timers, removes clipboard ownership, and breaks the clipboard viewer chain (if the window is at the top of the viewer chain).
+Destroys the specified window. The function sends <a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> and <a href="https://msdn.microsoft.com/en-us/library/ms632636(v=VS.85).aspx">WM_NCDESTROY</a> messages to the window to deactivate it and remove the keyboard focus from it. The function also destroys the window's menu, flushes the thread message queue, destroys timers, removes clipboard ownership, and breaks the clipboard viewer chain (if the window is at the top of the viewer chain).
 
 If the specified window is a parent or owner window, <b>DestroyWindow</b> automatically destroys the associated child or owned windows when it destroys the parent or owner window. The function first destroys child or owned windows, and then it destroys the parent or owner window.
 
-<b>DestroyWindow</b> also destroys modeless dialog boxes created by the <a href="https://msdn.microsoft.com/9641daf4-2c38-49fb-b4fb-0e54491d095d">CreateDialog</a> function.
+<b>DestroyWindow</b> also destroys modeless dialog boxes created by the <a href="https://msdn.microsoft.com/en-us/library/ms645434(v=VS.85).aspx">CreateDialog</a> function.
 
 
 ## -parameters
@@ -105,12 +105,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 A thread cannot use <b>DestroyWindow</b> to destroy a window created by a different thread. 
 
-If the window being destroyed is a child window that does not have the <b>WS_EX_NOPARENTNOTIFY</b> style, a <a href="https://msdn.microsoft.com/4170fbee-211c-4cee-bf19-311f2fd0490f">WM_PARENTNOTIFY</a> message is sent to the parent. 
+If the window being destroyed is a child window that does not have the <b>WS_EX_NOPARENTNOTIFY</b> style, a <a href="https://msdn.microsoft.com/en-us/library/Hh454920(v=VS.85).aspx">WM_PARENTNOTIFY</a> message is sent to the parent. 
 
 
 #### Examples
 
-For an example, see <a href="using_windows.htm">Destroying a Window</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Destroying a Window</a>.
 
 <div class="code"></div>
 
@@ -125,15 +125,15 @@ For an example, see <a href="using_windows.htm">Destroying a Window</a>.
 
 
 
-<a href="https://msdn.microsoft.com/9641daf4-2c38-49fb-b4fb-0e54491d095d">CreateDialog</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645434(v=VS.85).aspx">CreateDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
 
 
 
@@ -141,19 +141,19 @@ For an example, see <a href="using_windows.htm">Destroying a Window</a>.
 
 
 
-<a href="https://msdn.microsoft.com/089c0645-199b-4a90-9cbc-740f0cf3267d">WM_DESTROY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a>
 
 
 
-<a href="https://msdn.microsoft.com/64ab268d-0e90-4401-81d3-a4da64196001">WM_NCDESTROY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632636(v=VS.85).aspx">WM_NCDESTROY</a>
 
 
 
-<a href="https://msdn.microsoft.com/4170fbee-211c-4cee-bf19-311f2fd0490f">WM_PARENTNOTIFY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh454920(v=VS.85).aspx">WM_PARENTNOTIFY</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

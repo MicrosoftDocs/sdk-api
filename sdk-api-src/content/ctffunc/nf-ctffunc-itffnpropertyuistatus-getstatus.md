@@ -67,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param refguidProp [in]
 
-Specifies the property identifier. This can be a custom identifier or one of the <a href="https://msdn.microsoft.com/d88f2eba-4c98-4b32-96e1-cd019fe0f7ad">predefined property</a> identifiers.
+Specifies the property identifier. This can be a custom identifier or one of the <a href="https://msdn.microsoft.com/en-us/library/ms629017(v=VS.85).aspx">predefined property</a> identifiers.
 
 
 ### -param pdw [out]
@@ -148,7 +148,7 @@ The text service does not support this method.
 
 
 
-<a href="https://msdn.microsoft.com/5583ae98-02a5-4303-9674-b8a85b52442a">ITfFnPropertyUIStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538963(v=VS.85).aspx">ITfFnPropertyUIStatus</a>
 
 
 

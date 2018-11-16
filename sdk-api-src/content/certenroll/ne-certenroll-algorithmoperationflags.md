@@ -52,16 +52,16 @@ req.redist:
 
 The <b>AlgorithmOperationFlags</b> enumeration type specifies the operations that an algorithm can perform. This enumeration is used in the following interfaces to retrieve the operational capabilities of a cryptographic provider or status information based on those capabilities.<ul>
 <li>
-<a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375968(v=VS.85).aspx">ICspInformations</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a>
 </li>
 </ul>
 
@@ -96,27 +96,27 @@ No operation is specified.
 
 ### -field XCN_NCRYPT_CIPHER_OPERATION
 
-The algorithm can be  used for <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">symmetric encryption</a>. This includes the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RC2</a>, <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RC4</a>, <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Data Encryption Standard</a> (DES), 3DED, and <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">AES</a> algorithms.
+The algorithm can be  used for <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">symmetric encryption</a>. This includes the <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">RC2</a>, <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">RC4</a>, <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Data Encryption Standard</a> (DES), 3DED, and <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">AES</a> algorithms.
 
 
 ### -field XCN_NCRYPT_HASH_OPERATION
 
-The algorithm can be used for hashing. This includes the <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">MD2</a>, <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">MD4</a>, SHA1, SHA256, SHA384, SHA512 MAC, and <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">Hash-Based Message Authentication Code</a> (HMAC) <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashing algorithms</a>.
+The algorithm can be used for hashing. This includes the <a href="https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx">MD2</a>, <a href="https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx">MD4</a>, SHA1, SHA256, SHA384, SHA512 MAC, and <a href="https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx">Hash-Based Message Authentication Code</a> (HMAC) <a href="https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx">hashing algorithms</a>.
 
 
 ### -field XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION
 
-The algorithm can be used for <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> encryption. This includes <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RSA</a>.
+The algorithm can be used for <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> encryption. This includes <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">RSA</a>.
 
 
 ### -field XCN_NCRYPT_SECRET_AGREEMENT_OPERATION
 
-The algorithm can used for key exchange. This includes the <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Diffie-Hellman algorithm</a> and ECDH algorithm.
+The algorithm can used for key exchange. This includes the <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Diffie-Hellman algorithm</a> and ECDH algorithm.
 
 
 ### -field XCN_NCRYPT_SIGNATURE_OPERATION
 
-The algorithm can be  used for signing. This includes the RSA algorithm, <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Algorithm</a> (DSA), and ECDSA algorithm.
+The algorithm can be  used for signing. This includes the RSA algorithm, <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Digital Signature Algorithm</a> (DSA), and ECDSA algorithm.
 
 
 ### -field XCN_NCRYPT_RNG_OPERATION
@@ -139,7 +139,7 @@ The algorithm can be used for public key encryption, key exchange, and signing. 
 
 ### -field XCN_NCRYPT_PREFER_SIGNATURE_ONLY_OPERATION
 
-Signature algorithms are preferred but not required. An encryption algorithm may be chosen instead. This is used when searching for <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) status information based on supported operational capability.
+Signature algorithms are preferred but not required. An encryption algorithm may be chosen instead. This is used when searching for <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service provider</a> (CSP) status information based on supported operational capability.
 
 
 ### -field XCN_NCRYPT_PREFER_NON_SIGNATURE_OPERATION
@@ -162,15 +162,15 @@ Use to mask the algorithm operation preference.
 
 
 
-<a href="https://msdn.microsoft.com/1a3da2df-b3e2-45fa-bae7-a9c0bac8b210">AlgorithmType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374827(v=VS.85).aspx">AlgorithmType</a>
 
 
 
-<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374846(v=VS.85).aspx">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
  
 
  

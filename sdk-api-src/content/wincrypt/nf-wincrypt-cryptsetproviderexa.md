@@ -195,7 +195,7 @@ Most applications do not specify a CSP name when calling the
 
 
 
-<a href="cryptography_functions.htm">Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
  
 
  

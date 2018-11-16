@@ -224,7 +224,7 @@ To get extended error information, call the <a href="https://msdn.microsoft.com/
 
 
 
-To show or hide a window without special effects, use <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>.
+To show or hide a window without special effects, use <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>.
 
 When using slide or roll animation, you must specify the direction. It can be either <b>AW_HOR_POSITIVE</b>, <b>AW_HOR_NEGATIVE</b>, AW_VER_POSITIVE, or AW_VER_NEGATIVE. 
 
@@ -258,7 +258,7 @@ Avoid animating a window that has a drop shadow because it produces visually dis
 
 
 
-<a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
 
 
 
@@ -270,7 +270,7 @@ Avoid animating a window that has a drop shadow because it produces visually dis
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-If the FSP did not load successfully, the property indicates the reason for the failure, and <a href="https://msdn.microsoft.com/bbb2f8f1-81dd-4f54-ac91-1101ad2803fb">IFaxDeviceProvider::get_InitErrorCode</a> holds the last error code value. For more information, see <a href="https://msdn.microsoft.com/e39bbe9b-117e-4d1f-9eda-25368923f832">FAX_PROVIDER_STATUS_ENUM</a>.
+If the FSP did not load successfully, the property indicates the reason for the failure, and <a href="https://msdn.microsoft.com/en-us/library/ms684578(v=VS.85).aspx">IFaxDeviceProvider::get_InitErrorCode</a> holds the last error code value. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690089(v=VS.85).aspx">FAX_PROVIDER_STATUS_ENUM</a>.
 
 
 
@@ -81,15 +81,15 @@ If the FSP did not load successfully, the property indicates the reason for the 
 
 
 
-<a href="https://msdn.microsoft.com/ef32eb3d-e158-4740-82f5-661d5eded88c">FaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684890(v=VS.85).aspx">FaxDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/91899618-9164-4db4-94d3-a971db9f1ca0">IFaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684893(v=VS.85).aspx">IFaxDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/422003a1-7db2-4eff-97bd-8ca889a3e5f6">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693462(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

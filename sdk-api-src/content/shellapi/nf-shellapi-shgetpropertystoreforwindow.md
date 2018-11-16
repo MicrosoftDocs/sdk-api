@@ -85,7 +85,7 @@ A reference to the IID of the property store object to retrieve through <i>ppv</
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyStore">IPropertyStore</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>.
 
 
 ## -returns
@@ -103,11 +103,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-An application can use this function to obtain access to a window's property store so that it can set an explicit Application User Model ID (AppUserModelID) in the <a href="shell.props_System_AppUserModel_Id">System.AppUserModel.ID</a> property.
+An application can use this function to obtain access to a window's property store so that it can set an explicit Application User Model ID (AppUserModelID) in the <a href="https://msdn.microsoft.com/en-us/library/Dd391569(v=VS.85).aspx">System.AppUserModel.ID</a> property.
 
 A window's properties must be removed before the window is closed. If this is not done, the resources used by those properties are not returned to the system. A property is removed by setting it to the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> type VT_EMPTY.
 
-When a call is made to <a href="shell.IPropertyStore_SetValue">IPropertyStore::SetValue</a> on the object retrieved through <i>ppv</i>, the properties and values are immediately stored on the window. Therefore, no call to <a href="shell.IPropertyStore_Commit">IPropertyStore::Commit</a> is needed. No error occurs if it is called, but it has no effect.
+When a call is made to <a href="https://msdn.microsoft.com/en-us/library/Ff536963(v=VS.85).aspx">IPropertyStore::SetValue</a> on the object retrieved through <i>ppv</i>, the properties and values are immediately stored on the window. Therefore, no call to <a href="https://msdn.microsoft.com/en-us/library/Ff536957(v=VS.85).aspx">IPropertyStore::Commit</a> is needed. No error occurs if it is called, but it has no effect.
 
 An application sets AppUserModelIDs on individual windows to control the application's taskbar grouping and Jump List contents. For instance, a suite application might want to provide a different taskbar button for each of its subfeatures, with the windows relating to that subfeature grouped under that button. Without window-level AppUserModelIDs, those windows would all be grouped together under the main process.
 
@@ -117,13 +117,13 @@ Applications should also use this property store to set these relaunch propertie
 
 <ul>
 <li>
-<a href="shell.props_System_AppUserModel_RelaunchCommand">System.AppUserModel.RelaunchCommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd391571(v=VS.85).aspx">System.AppUserModel.RelaunchCommand</a>
 </li>
 <li>
-<a href="shell.props_System_AppUserModel_RelaunchDisplayNameResource">System.AppUserModel.RelaunchDisplayNameResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd391572(v=VS.85).aspx">System.AppUserModel.RelaunchDisplayNameResource</a>
 </li>
 <li>
-<a href="shell.props_System_AppUserModel_RelaunchIconResource">System.AppUserModel.RelaunchIconResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd391573(v=VS.85).aspx">System.AppUserModel.RelaunchIconResource</a>
 </li>
 </ul>
 

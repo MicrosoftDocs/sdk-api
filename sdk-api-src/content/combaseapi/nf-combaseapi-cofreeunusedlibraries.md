@@ -84,7 +84,7 @@ This function does not return a value.
 
 
 
-Applications can call <b>CoFreeUnusedLibraries</b> periodically to free resources. It is most efficient to call it either at the top of a message loop or in some idle-time task. <b>CoFreeUnusedLibraries</b> internally calls <a href="https://msdn.microsoft.com/a47df9eb-97cb-4875-a121-1dabe7bc9db6">DllCanUnloadNow</a> for DLLs that implement and export that function.
+Applications can call <b>CoFreeUnusedLibraries</b> periodically to free resources. It is most efficient to call it either at the top of a message loop or in some idle-time task. <b>CoFreeUnusedLibraries</b> internally calls <a href="https://msdn.microsoft.com/en-us/library/ms690368(v=VS.85).aspx">DllCanUnloadNow</a> for DLLs that implement and export that function.
 
 
 
@@ -96,19 +96,19 @@ Applications can call <b>CoFreeUnusedLibraries</b> periodically to free resource
 
 
 
-<a href="https://msdn.microsoft.com/20616c05-21c6-4895-a1b5-4bae1aa417c7">CoFreeAllLibraries</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679758(v=VS.85).aspx">CoFreeAllLibraries</a>
 
 
 
-<a href="https://msdn.microsoft.com/3959e7d9-6220-474e-8f85-76f7f935727f">CoFreeLibrary</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680658(v=VS.85).aspx">CoFreeLibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/01660e9d-d8f2-40ef-a6d6-b80f0140ab5f">CoFreeUnusedLibrariesEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678413(v=VS.85).aspx">CoFreeUnusedLibrariesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/be0d9e82-2438-488e-88c3-68dc7ac3e16f">CoLoadLibrary</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692578(v=VS.85).aspx">CoLoadLibrary</a>
  
 
  

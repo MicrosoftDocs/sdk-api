@@ -184,11 +184,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/b9d3ad53-3d64-4260-b4cf-41038e652ba8">GetLineSpacing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773979(v=VS.85).aspx">GetLineSpacing</a>
 
 
 
-<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -196,11 +196,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/36ef5af4-90dd-4185-92c9-5c4e88bf5ec2">SetLineSpacing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774169(v=VS.85).aspx">SetLineSpacing</a>
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

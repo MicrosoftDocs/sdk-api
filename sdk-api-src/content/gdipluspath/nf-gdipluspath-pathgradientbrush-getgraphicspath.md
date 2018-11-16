@@ -69,5 +69,5 @@ The <b>PathGradientBrush::GetGraphicsPath</b> method is not implemented in Windo
 
 ### -param path
 
-Type: <b><a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
 

@@ -124,7 +124,7 @@ If the <i>nIconIndex</i> parameter is -1, the <i>phiconLarge</i> parameter is <b
 
 
 
-When they are no longer needed, you must destroy all icons extracted by <b>ExtractIconEx</b> by calling the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function.
+When they are no longer needed, you must destroy all icons extracted by <b>ExtractIconEx</b> by calling the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
 
 To retrieve the dimensions of the large and small icons, use this function with the SM_CXICON, SM_CYICON, SM_CXSMICON, and SM_CYSMICON flags.
 

@@ -69,9 +69,9 @@ Gets the description of a shader-reflection-variable type.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/B0AF7987-B25B-4496-9B8F-1D9C16DF5E50">D3D12_SHADER_TYPE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960202(v=VS.85).aspx">D3D12_SHADER_TYPE_DESC</a>*</b>
 
-A pointer to a shader-type description (see <a href="https://msdn.microsoft.com/B0AF7987-B25B-4496-9B8F-1D9C16DF5E50">D3D12_SHADER_TYPE_DESC</a>).
+A pointer to a shader-type description (see <a href="https://msdn.microsoft.com/en-us/library/Dn960202(v=VS.85).aspx">D3D12_SHADER_TYPE_DESC</a>).
           
 
 
@@ -79,7 +79,7 @@ A pointer to a shader-type description (see <a href="https://msdn.microsoft.com/
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

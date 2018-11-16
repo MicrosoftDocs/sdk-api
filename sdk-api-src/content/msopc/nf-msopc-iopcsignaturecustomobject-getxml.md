@@ -70,9 +70,9 @@ Gets the XML markup of an application-specific <b>Object</b> element.
 
 A pointer to a buffer that contains the XML markup of an <b>Object</b> element and includes the opening and closing <b>Object</b> tags.
 
-In the buffer, XML markup is preceded by a <a href="_win32_Byte_Order_Mark">byte order mark</a> that corresponds to the encoding of the markup.
+In the buffer, XML markup is preceded by a <a href="https://msdn.microsoft.com/library/ms776429(v=VS.85).aspx">byte order mark</a> that corresponds to the encoding of the markup.
 
-Supported encodings and <a href="_win32_Byte_Order_Mark">byte order mark</a> values.<table>
+Supported encodings and <a href="https://msdn.microsoft.com/library/ms776429(v=VS.85).aspx">byte order mark</a> values.<table>
 <tr>
 <th>Encoding</th>
 <th>Description</th>
@@ -98,7 +98,7 @@ Supported encodings and <a href="_win32_Byte_Order_Mark">byte order mark</a> val
 
 
 
-For an example of a buffer with a <a href="_win32_Byte_Order_Mark">byte order mark</a>, see the Remarks section.
+For an example of a buffer with a <a href="https://msdn.microsoft.com/library/ms776429(v=VS.85).aspx">byte order mark</a>, see the Remarks section.
 
 
 ### -param count [out]
@@ -157,7 +157,7 @@ To replace signature markup, call the <a href="https://msdn.microsoft.com/cacd0c
 
 To sign an application-specific  <b>Object</b> element or a child of that element, create a reference to the XML element to be signed. Create the reference by calling the <a href="https://msdn.microsoft.com/5e943769-a043-4354-80e7-d471a1dbde7a">IOpcSignatureReferenceSet::Create</a> method with the <i>referenceUri</i> parameter value set to "#" followed by the <b>Id</b> attribute value  of the referenced element. For example, if the <b>Id</b> attribute of the referenced element is "Application",  set <i>referenceUri</i> to "#Application".
 
-The following table shows a <a href="_win32_Byte_Order_Mark">byte order mark</a> at the beginning of an <i>xmlMarkup</i> buffer that contains "&lt;Object Id="id1"&gt;&lt;/Object&gt;":
+The following table shows a <a href="https://msdn.microsoft.com/library/ms776429(v=VS.85).aspx">byte order mark</a> at the beginning of an <i>xmlMarkup</i> buffer that contains "&lt;Object Id="id1"&gt;&lt;/Object&gt;":
 		
 
 <table>

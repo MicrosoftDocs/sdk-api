@@ -52,7 +52,7 @@ req.redist:
 
 
 Provides an application callback mechanism during data transfers from Windows Image Acquisition (WIA) hardware devices to applications.
-<div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://msdn.microsoft.com/8fcaccf5-4d7b-4984-97ec-ec8c838a8360">IWiaTransferCallback</a> instead of <b>IWiaDataCallback</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://msdn.microsoft.com/en-us/library/ms629914(v=VS.85).aspx">IWiaTransferCallback</a> instead of <b>IWiaDataCallback</b>.</div><div> </div>
 
 ## -inheritance
 
@@ -71,10 +71,10 @@ The <b>IWiaDataCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f7fc88e-187e-41b1-a958-1f06ed81cb8f">BandedDataCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630156(v=VS.85).aspx">BandedDataCallback</a>
 </td>
 <td align="left" width="63%">
-Provides data transfer status notifications. WIA data transfer methods of the <a href="https://msdn.microsoft.com/565e48b7-30c5-4c8b-ae4a-071c2e90b2f9">IWiaDataTransfer</a> interface periodically call this method. 
+Provides data transfer status notifications. WIA data transfer methods of the <a href="https://msdn.microsoft.com/en-us/library/ms630155(v=VS.85).aspx">IWiaDataTransfer</a> interface periodically call this method. 
 
 </td>
 </tr>

@@ -212,7 +212,7 @@ The parameters for user-interface initialization are logged.
 </dl>
 </td>
 <td width="60%">
-<a href="p_gly.htm">Progress bar</a> information. This message includes information on units so far and total number of units. For an explanation of the message format, see 
+<a href="https://msdn.microsoft.com/en-us/library/Aa370946(v=VS.85).aspx">Progress bar</a> information. This message includes information on units so far and total number of units. For an explanation of the message format, see 
 the <a href="https://msdn.microsoft.com/136662bd-b970-4ff3-8ae5-c5e3097ee00d">MsiProcessMessage</a> function. This message is only sent to an external user interface and is not logged.
 
 </td>
@@ -223,7 +223,7 @@ the <a href="https://msdn.microsoft.com/136662bd-b970-4ff3-8ae5-c5e3097ee00d">Ms
 </dl>
 </td>
 <td width="60%">
-If this is not a quiet installation, then the <a href="b_gly.htm">basic UI</a> has been initialized. If this is a <a href="f_gly.htm">full UI</a> installation, the <i>full UI</i> is not yet initialized. This message is only sent to an external user interface and is not logged.
+If this is not a quiet installation, then the <a href="https://msdn.microsoft.com/en-us/library/Aa367839(v=VS.85).aspx">basic UI</a> has been initialized. If this is a <a href="https://msdn.microsoft.com/en-us/library/Aa368613(v=VS.85).aspx">full UI</a> installation, the <i>full UI</i> is not yet initialized. This message is only sent to an external user interface and is not logged.
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ If this is not a quiet installation, then the <a href="b_gly.htm">basic UI</a> h
 </dl>
 </td>
 <td width="60%">
-If a <a href="f_gly.htm">full UI</a> is being used, the <i>full UI</i> has ended. If this is not a quiet installation, the <a href="b_gly.htm">basic UI</a> has not yet ended. This message is only sent to an external user interface and is not logged.
+If a <a href="https://msdn.microsoft.com/en-us/library/Aa368613(v=VS.85).aspx">full UI</a> is being used, the <i>full UI</i> has ended. If this is not a quiet installation, the <a href="https://msdn.microsoft.com/en-us/library/Aa367839(v=VS.85).aspx">basic UI</a> has not yet ended. This message is only sent to an external user interface and is not logged.
 
 </td>
 </tr>
@@ -243,7 +243,7 @@ If a <a href="f_gly.htm">full UI</a> is being used, the <i>full UI</i> has ended
 </dl>
 </td>
 <td width="60%">
-Sent prior to display of the <a href="f_gly.htm">full UI</a> dialog. This message is only sent to an external user interface and is not logged.
+Sent prior to display of the <a href="https://msdn.microsoft.com/en-us/library/Aa368613(v=VS.85).aspx">full UI</a> dialog. This message is only sent to an external user interface and is not logged.
 
 </td>
 </tr>
@@ -314,7 +314,7 @@ The external user interface handler pointed to by the <i>puiHandler</i> paramete
 
 
 
-<a href="installer_function_reference.htm">Interface and Logging Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369426(v=VS.85).aspx">Interface and Logging Functions</a>
  
 
  

@@ -69,9 +69,9 @@ Get a pointer to the device that created this interface.
 
 ### -param ppDevice [out]
 
-Type: <b><a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>**</b>
 
-Address of a pointer to a device (see <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>).
+Address of a pointer to a device (see <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>).
 
 
 ## -returns
@@ -97,7 +97,7 @@ Any returned interfaces will have their reference count incremented by one, so b
 
 
 
-<a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild Interface</a>
  
 
  

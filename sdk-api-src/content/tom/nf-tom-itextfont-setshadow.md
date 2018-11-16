@@ -70,7 +70,7 @@ Sets whether characters are displayed as shadowed characters.
 
 Type: <b>long</b>
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -169,11 +169,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/cf572173-afa2-4c49-a62d-25fbf1d828d4">GetShadow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774015(v=VS.85).aspx">GetShadow</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -181,7 +181,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

@@ -85,7 +85,7 @@ This function is not currently implemented and always returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
  
 
  

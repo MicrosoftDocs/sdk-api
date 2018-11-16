@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Specifies the replicated disk types for the <a href="https://msdn.microsoft.com/0C020CC3-43CD-49ED-B42D-2365D76ED40D">SR_RESOURCE_TYPE_REPLICATED_DISK</a> structure.
+Specifies the replicated disk types for the <a href="https://msdn.microsoft.com/en-us/library/Mt164375(v=VS.85).aspx">SR_RESOURCE_TYPE_REPLICATED_DISK</a> structure.
 
 
 ## -enum-fields
@@ -104,7 +104,7 @@ Other.
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
  
 
  

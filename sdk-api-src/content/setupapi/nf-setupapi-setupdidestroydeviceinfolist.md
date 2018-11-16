@@ -69,7 +69,7 @@ The <b>SetupDiDestroyDeviceInfoList</b> function deletes a device information se
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> to delete.
+A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> to delete.
 
 
 ## -returns

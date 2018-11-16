@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Searches a list box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/fd443ade-665d-439a-8951-3d9fed50695b">LB_SELECTSTRING</a> message explicitly.
+Searches a list box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761327(v=VS.85).aspx">LB_SELECTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -91,7 +91,7 @@ The string to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/fd443ade-665d-439a-8951-3d9fed50695b">LB_SELECTSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761327(v=VS.85).aspx">LB_SELECTSTRING</a>.
 	
 
 

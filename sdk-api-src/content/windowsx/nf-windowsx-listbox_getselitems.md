@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the indexes of selected items in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/95dd72ef-76a5-4188-b2c8-d4c5eb2f34e3">LB_GETSELITEMS</a> message explicitly.
+Gets the indexes of selected items in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761311(v=VS.85).aspx">LB_GETSELITEMS</a> message explicitly.
 
 
 ## -parameters

@@ -98,7 +98,7 @@ A plane describing the frustum.
 
 
 
-A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> indicating whether the frustum contains the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+A <a href="https://msdn.microsoft.com/en-us/library/Hh449605(v=VS.85).aspx">ContainmentType</a> indicating whether the frustum contains the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
 
 
 

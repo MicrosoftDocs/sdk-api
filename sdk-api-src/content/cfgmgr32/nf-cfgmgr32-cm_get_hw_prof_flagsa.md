@@ -71,7 +71,7 @@ The <b>CM_Get_HW_Prof_Flags</b> function retrieves the <a href="https://msdn.mic
 
 ### -param pDeviceID [in]
 
-Pointer to a NULL-terminated string that contains the <a href="devinst.device_instance_ids">device instance ID</a> of the device for which to retrieve hardware profile-specific configuration flags.
+Pointer to a NULL-terminated string that contains the <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> of the device for which to retrieve hardware profile-specific configuration flags.
 
 
 ### -param ulHardwareProfile [in]

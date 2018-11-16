@@ -57,7 +57,7 @@ req.redist:
 ## -description
 
 
-The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="devinst.device_information_sets">device information set</a> on a remote or a local computer and optionally associates the set with a device setup class .
+The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> on a remote or a local computer and optionally associates the set with a device setup class .
 
 
 ## -parameters

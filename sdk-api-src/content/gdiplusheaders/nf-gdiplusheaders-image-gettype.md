@@ -60,7 +60,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Image::GetType</b> method gets the type (bitmap or metafile) of this 
-			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
 
 
 ## -parameters
@@ -74,10 +74,10 @@ The <b>Image::GetType</b> method gets the type (bitmap or metafile) of this
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/953b3b7e-14c8-40e8-bcad-f14ccd4b260c">ImageType</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534139(v=VS.85).aspx">ImageType</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/953b3b7e-14c8-40e8-bcad-f14ccd4b260c">ImageType</a> enumeration that indicates the image type.
+This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534139(v=VS.85).aspx">ImageType</a> enumeration that indicates the image type.
 
 
 
@@ -87,19 +87,19 @@ This method returns an element of the <a href="https://msdn.microsoft.com/953b3b
 
 
 
-<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/953b3b7e-14c8-40e8-bcad-f14ccd4b260c">ImageType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534139(v=VS.85).aspx">ImageType</a>
 
 
 
-<a href="https://msdn.microsoft.com/79b8df1b-6fc5-455b-9d08-57d64bf6bffa">Loading and Displaying Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/fac60d01-d07e-41e9-98a3-34c592d97a92">Types of Bitmaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536393(v=VS.85).aspx">Types of Bitmaps</a>
  
 
  

@@ -70,7 +70,7 @@ Contains the number of elements in the <b>rgpInterfaces</b> array.
 
 ### -field rgpInterfaces
 
-A pointer to an array of <a href="https://msdn.microsoft.com/80204d2a-ebc8-40f6-bccb-7cd112d7769b">CRYPT_INTERFACE_REG</a> structure pointers that specify the types of cryptographic interfaces that are supported by the provider. For example, if the provider supports both a cipher interface (<b>BCRYPT_CIPHER_INTERFACE</b>) and a hash interface (<b>BCRYPT_HASH_INTERFACE</b>), this array would contain two <b>CRYPT_INTERFACE_REG</b> structure pointers, one for the cipher interface and one for the hash interface.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Aa376226(v=VS.85).aspx">CRYPT_INTERFACE_REG</a> structure pointers that specify the types of cryptographic interfaces that are supported by the provider. For example, if the provider supports both a cipher interface (<b>BCRYPT_CIPHER_INTERFACE</b>) and a hash interface (<b>BCRYPT_HASH_INTERFACE</b>), this array would contain two <b>CRYPT_INTERFACE_REG</b> structure pointers, one for the cipher interface and one for the hash interface.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/80204d2a-ebc8-40f6-
 
 
 
-<a href="https://msdn.microsoft.com/ca0ac386-9435-49f0-95fe-503aa7183517">CRYPT_PROVIDER_REG</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376233(v=VS.85).aspx">CRYPT_PROVIDER_REG</a>
  
 
  

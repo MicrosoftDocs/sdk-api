@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>MSCEPSetupProperty</b> enumeration specifies a property type for setup and configuration of a Microsoft <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Simple Certificate Enrollment Protocol</a> (SCEP) role using <a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>.
+The <b>MSCEPSetupProperty</b> enumeration specifies a property type for setup and configuration of a Microsoft <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">Simple Certificate Enrollment Protocol</a> (SCEP) role using <a href="https://msdn.microsoft.com/en-us/library/Bb736404(v=VS.85).aspx">IMSCEPSetup</a>.
 
 
 ## -enum-fields
@@ -105,12 +105,12 @@ A <b>VT_BSTR</b> value that specifies the country or region name to be added in 
 
 ### -field ENUM_CEPSETUPPROP_SIGNINGKEYINFORMATION
 
-A <b>VT_IDISPATCH</b> value that is made up of an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP signing certificate. Setup creates a signing certificate based on an "EnrollmentAgentOffline" template.
+A <b>VT_IDISPATCH</b> value that is made up of an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP signing certificate. Setup creates a signing certificate based on an "EnrollmentAgentOffline" template.
 
 
 ### -field ENUM_CEPSETUPPROP_EXCHANGEKEYINFORMATION
 
-A <b>VT_IDISPATCH</b> value that is made up of an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP key exchange certificate. Setup creates a key exchange certificate based on a "CEPEncryption" template.
+A <b>VT_IDISPATCH</b> value that is made up of an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object used to create a Microsoft SCEP key exchange certificate. Setup creates a key exchange certificate based on a "CEPEncryption" template.
 
 
 ### -field ENUM_CEPSETUPPROP_CAINFORMATION

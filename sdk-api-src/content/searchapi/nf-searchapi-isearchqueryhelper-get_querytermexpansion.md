@@ -68,9 +68,9 @@ Gets the value that specifies how query terms are to be expanded.
 
 ### -param pExpandTerms [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/9259fce0-235b-4629-8b9a-56385ff9f2af">SEARCH_TERM_EXPANSION</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965705(v=VS.85).aspx">SEARCH_TERM_EXPANSION</a>*</b>
 
-Receives a pointer to a value from the <a href="https://msdn.microsoft.com/9259fce0-235b-4629-8b9a-56385ff9f2af">SEARCH_TERM_EXPANSION</a> enumeration that specifies the query term expansion.
+Receives a pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965705(v=VS.85).aspx">SEARCH_TERM_EXPANSION</a> enumeration that specifies the query term expansion.
 
 
 ## -returns
@@ -88,9 +88,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-While the <a href="https://msdn.microsoft.com/9259fce0-235b-4629-8b9a-56385ff9f2af">SEARCH_TERM_EXPANSION</a> enumerated type lets you specify stem expansion, Windows Search does not currently support its use with the <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a> interface.
+While the <a href="https://msdn.microsoft.com/en-us/library/Aa965705(v=VS.85).aspx">SEARCH_TERM_EXPANSION</a> enumerated type lets you specify stem expansion, Windows Search does not currently support its use with the <a href="https://msdn.microsoft.com/en-us/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a> interface.
 
-The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>.
+The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/en-us/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>.
 
 
 
@@ -100,23 +100,23 @@ The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>
 
 
 
-<a href="https://msdn.microsoft.com/edcc8a86-b677-4f84-aa6f-90ada895dbcc">ISearchQueryHelper::put_QueryTermExpansion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231321(v=VS.85).aspx">ISearchQueryHelper::put_QueryTermExpansion</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c161b7f-4e28-4e8a-add6-3c1cda00a622">Querying the Index Programmatically</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266517(v=VS.85).aspx">Querying the Index Programmatically</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2eb550a-bb55-4dbd-9ca1-60b776eb9339">Querying the Index with Windows Search SQL Syntax</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231256(v=VS.85).aspx">Querying the Index with Windows Search SQL Syntax</a>
 
 
 
-<a href="https://msdn.microsoft.com/9259fce0-235b-4629-8b9a-56385ff9f2af">SEARCH_TERM_EXPANSION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965705(v=VS.85).aspx">SEARCH_TERM_EXPANSION</a>
  
 
  

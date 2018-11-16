@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>RoleAssignments</b> property retrieves an <a href="https://msdn.microsoft.com/d38fd7e0-6d0b-4b68-b6e5-f7adc2cfef47">IAzRoleAssignments</a> object that represents the collection of <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> objects associated with this scope.
+The <b>RoleAssignments</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa377919(v=VS.85).aspx">IAzRoleAssignments</a> object that represents the collection of <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> objects associated with this scope.
 
 This property is read-only.
 

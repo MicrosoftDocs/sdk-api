@@ -76,9 +76,9 @@ Ordinal number denoting the display adapter from which to retrieve the display m
 
 ### -param pFilter [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/4a03d0f0-dec5-4209-8c99-b58cc13064f5">D3DDISPLAYMODEFILTER</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172550(v=VS.85).aspx">D3DDISPLAYMODEFILTER</a>*</b>
 
-Specifies the characteristics of the desired display mode. See <a href="https://msdn.microsoft.com/4a03d0f0-dec5-4209-8c99-b58cc13064f5">D3DDISPLAYMODEFILTER</a>.
+Specifies the characteristics of the desired display mode. See <a href="https://msdn.microsoft.com/en-us/library/Bb172550(v=VS.85).aspx">D3DDISPLAYMODEFILTER</a>.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The number of display modes available. A return of value zero from this method i
 
 Events such as display mode changes on other heads of the same hardware, monitor change or its connection status change, and desktop extension/unextension could all affect the number of display mode available.
 
-To fullscreen applications, S_PRESENT_MODE_CHANGED returned from <a href="https://msdn.microsoft.com/845c72ff-669d-44bf-8065-cff456418e8c">PresentEx</a> or <a href="https://msdn.microsoft.com/89a9b112-5f0a-4e57-9b8e-48b3a76a09ce">CheckDeviceState</a> is the indication of display mode setting failure due to those events.
+To fullscreen applications, S_PRESENT_MODE_CHANGED returned from <a href="https://msdn.microsoft.com/en-us/library/Bb174343(v=VS.85).aspx">PresentEx</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb174338(v=VS.85).aspx">CheckDeviceState</a> is the indication of display mode setting failure due to those events.
 
 To increase the chance of setting a currently available display mode successfully, fullscreen applications should try to requery the available display mode list upon receiving S_PRESENT_MODE_CHANGED.
 
@@ -110,7 +110,7 @@ To increase the chance of setting a currently available display mode successfull
 
 
 
-<a href="https://msdn.microsoft.com/68dbd2d4-0a38-47fc-ad3d-4ac209ed98a8">IDirect3D9Ex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a>
  
 
  

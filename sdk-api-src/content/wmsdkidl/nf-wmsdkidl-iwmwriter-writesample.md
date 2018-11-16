@@ -95,7 +95,7 @@ The <b>WriteSample</b> method passes in uncompressed data to be compressed and a
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="wmformat_glossary.htm">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>

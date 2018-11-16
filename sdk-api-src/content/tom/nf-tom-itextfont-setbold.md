@@ -70,7 +70,7 @@ Sets whether characters are bold.
 
 Type: <b>long</b>
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -169,15 +169,15 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/77c4371c-d73f-4867-91e9-0c1dcc9f9e65">GetBold</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773935(v=VS.85).aspx">GetBold</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bbbcd2d-3d40-4c87-a786-13acbf2be502">GetWeight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774040(v=VS.85).aspx">GetWeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -185,11 +185,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/12ca699b-8e9c-4071-aac9-783480541526">SetWeight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787833(v=VS.85).aspx">SetWeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

@@ -80,16 +80,16 @@ An index of the image.
 
 ### -param flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
-A combination of flags that specify the drawing style. For a list of values, see the description of the <i>fStyle</i> parameter of the <a href="https://msdn.microsoft.com/d50d94e4-89cb-4992-b98b-84b22ff11191">ImageList_Draw</a> function. 
+A combination of flags that specify the drawing style. For a list of values, see the description of the <i>fStyle</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Bb761533(v=VS.85).aspx">ImageList_Draw</a> function. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HICON</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HICON</a></b>
 
 Returns the handle to the icon if successful, or <b>NULL</b> otherwise. 
 
@@ -100,7 +100,7 @@ Returns the handle to the icon if successful, or <b>NULL</b> otherwise.
 
 
 
-It is the responsibility of the calling application to destroy the icon returned from this function using the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function. 
+It is the responsibility of the calling application to destroy the icon returned from this function using the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function. 
 
 
 

@@ -70,7 +70,7 @@ The
 ### -param pDestAddress [in]
 
 Pointer to <b>BSTR</b> representation of address to be dialed. The format must conform to a standard 
-<a href="address_ovr.htm">dialable address</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms726017(v=VS.85).aspx">dialable address</a>.
 
 
 ## -returns
@@ -139,8 +139,8 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 The application must use 
-<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> parameter and use 
-<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> parameter and use 
+<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 In some cases, the application may need to use the address translation interfaces (
 <a href="https://msdn.microsoft.com/e1cd88f1-1ed7-4e7f-a745-9a9c4af69317">ITAddressTranslation</a> and 
@@ -166,7 +166,7 @@ The
 
 
 
-<a href="address_ovr.htm">Dialable Addresses</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726017(v=VS.85).aspx">Dialable Addresses</a>
 
 
 

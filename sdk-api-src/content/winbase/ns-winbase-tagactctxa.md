@@ -218,7 +218,7 @@ Use this member rather than <b>lpSource</b> if you have already loaded a DLL and
 
 If the file identified by the value of the <b>lpSource</b> member is a PE image file, 
 <a href="https://msdn.microsoft.com/11508215-8d8b-4040-a725-88804103fac4">CreateActCtx</a> searches for the manifest in the .manifest file located in the same directory and in the first RT_MANIFEST resource located in the PE image file. To find a specific named resource from the image, set the <b>lpResourceName</b> to the name of the resource, and add the ACTCTX_FLAG_RESOURCE_NAME_VALID to the <b>dwFlags</b> member. Refer to 
-<a href="_win32_findresource_cpp">FindResource</a> for more information on specifying resource names.
+<a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a> for more information on specifying resource names.
 
 In most cases, the caller should not set the ACTCTX_FLAG_PROCESSOR_ARCHITECTURE_VALID and ACTCTX_FLAG_LANGID_VALID flags of the <b>dwFlags</b> member. Also, in most cases, the value of the <b>lpResourceName</b> member should be set to null.
 

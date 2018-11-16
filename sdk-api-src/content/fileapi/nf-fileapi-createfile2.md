@@ -72,7 +72,7 @@ When called from a Windows Store app, <b>CreateFile2</b>
     <a href="https://msdn.microsoft.com/a1e5ac4f-d877-4127-afa9-f1c1e3871087">Package.InstalledLocation</a> 
     directories. You can't open named pipes or mailslots or create encrypted files 
     (<b>FILE_ATTRIBUTE_ENCRYPTED</b>).
-<div class="alert"><b>Note</b>  We refer here to the app's local folder and the package's installed location, not additional packages in the package graph, like resource packages. <b>CreateFile2</b> doesn't support opening files in additional packages in the package graph. For example, suppose an app has a dependency on <a href="wc_ref.winjs_namespace">WinJS</a>. The app can call <b>CreateFile2</b> to open a file in its package but not in the <b>WinJS</b> package.</div><div> </div>To perform this operation as a transacted operation, which results in a handle that can be used for transacted 
+<div class="alert"><b>Note</b>  We refer here to the app's local folder and the package's installed location, not additional packages in the package graph, like resource packages. <b>CreateFile2</b> doesn't support opening files in additional packages in the package graph. For example, suppose an app has a dependency on <a href="https://msdn.microsoft.com/library/BR212652(v=Win.10).aspx">WinJS</a>. The app can call <b>CreateFile2</b> to open a file in its package but not in the <b>WinJS</b> package.</div><div> </div>To perform this operation as a transacted operation, which results in a handle that can be used for transacted 
     I/O, use the <a href="https://msdn.microsoft.com/0cbc081d-8787-409b-84bc-a6a28d8f83a0">CreateFileTransacted</a> function.
 
 
@@ -675,7 +675,7 @@ The <b>CreateFile2</b> function can create a handle to console
       input (CONIN$). If the process has an open handle to it as a result of inheritance or 
       duplication, it can also create a handle to the active screen buffer (CONOUT$). The 
       calling process must be attached to an inherited console or one allocated by the 
-      <a href="base.allocconsole">AllocConsole</a> function. For console handles, set the 
+      <a href="https://msdn.microsoft.com/library/ms681944(v=VS.85).aspx">AllocConsole</a> function. For console handles, set the 
       <b>CreateFile2</b> parameters as follows.
 
 <table>
@@ -694,13 +694,13 @@ Use the CONIN$ value to specify console input.
 Use the CONOUT$ value to specify console output.
 
 CONIN$ gets a handle to the console input buffer, even if the 
-         <a href="base.setstdhandle">SetStdHandle</a> function redirects the standard input 
+         <a href="https://msdn.microsoft.com/library/ms686244(v=VS.85).aspx">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="base.getstdhandle">GetStdHandle</a>function.
+         <a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a>function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="base.setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
-         get the standard output handle, use <a href="base.getstdhandle">GetStdHandle</a>.
+         <a href="https://msdn.microsoft.com/library/ms686244(v=VS.85).aspx">SetStdHandle</a>redirects the standard output handle. To 
+         get the standard output handle, use <a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a>.
 
 </td>
 </tr>

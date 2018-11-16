@@ -89,7 +89,7 @@ Type: <b>UINT</b>
 
 The message to be sent.
 
-For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/21a4d40b-52da-49e4-a374-afc4927e96e8">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/en-us/library/ms644927(v=VS.85).aspx">System-Defined Messages</a>.
 
 
 ### -param wParam [in]
@@ -123,12 +123,12 @@ The return value specifies the result of the message processing and depends on t
 
 The <b>SendDlgItemMessage</b> function does not return until the message has been processed. 
 
-Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the specified control and calling the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function. 
+Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the specified control and calling the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="using_dialog_boxes.htm">Creating a Modeless Dialog Box</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Creating a Modeless Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -143,7 +143,7 @@ For an example, see <a href="using_dialog_boxes.htm">Creating a Modeless Dialog 
 
 
 
-<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 
@@ -151,7 +151,7 @@ For an example, see <a href="using_dialog_boxes.htm">Creating a Modeless Dialog 
 
 
 
-<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
  
 
  

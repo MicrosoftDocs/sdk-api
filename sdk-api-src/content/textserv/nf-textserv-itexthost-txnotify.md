@@ -101,9 +101,9 @@ Return S_FALSE if the method fails. For more information on COM error codes, see
 
 Note that there are two basic categories of events, 
 				<i>direct</i> and 
-				<i>delayed</i> . Direct events are sent immediately because they need some processing, for example, <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>. Delayed events are sent after all processing has occurred; the control is thus in a stable state. Examples of delayed notifications are <a href="https://msdn.microsoft.com/8a04e6fb-ae9d-4d94-8047-6de96df899f5">EN_CHANGE</a>, <a href="https://msdn.microsoft.com/23a6eb10-a9d7-4fd5-9176-407c35e6f492">EN_ERRSPACE</a>, and <a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a>.
+				<i>delayed</i> . Direct events are sent immediately because they need some processing, for example, <a href="https://msdn.microsoft.com/en-us/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a>. Delayed events are sent after all processing has occurred; the control is thus in a stable state. Examples of delayed notifications are <a href="https://msdn.microsoft.com/en-us/library/Bb761676(v=VS.85).aspx">EN_CHANGE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761678(v=VS.85).aspx">EN_ERRSPACE</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb787987(v=VS.85).aspx">EN_SELCHANGE</a>.
 
-The notification events are the same as the notification codes sent to the parent window of a rich edit window. The firing of events may be controlled with a mask set through the <a href="https://msdn.microsoft.com/139f6e44-fc54-40f2-a3f6-2b7efc819cae">EM_SETEVENTMASK</a> message.
+The notification events are the same as the notification codes sent to the parent window of a rich edit window. The firing of events may be controlled with a mask set through the <a href="https://msdn.microsoft.com/en-us/library/Bb774238(v=VS.85).aspx">EM_SETEVENTMASK</a> message.
 
 In general, it is legal to make calls to the text services object while processing this method; however, implementers are cautioned to avoid excessive recursion.
 
@@ -116,13 +116,13 @@ The following is a list of the notifications that may be sent.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/8a04e6fb-ae9d-4d94-8047-6de96df899f5">EN_CHANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761676(v=VS.85).aspx">EN_CHANGE</a>
 </td>
 <td>Sent after the system updates the screen, when the user takes an action that may have altered text in the control. </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/fcae0ff8-ce37-4c71-b14c-cbd6429b4ab3">EN_DROPFILES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787966(v=VS.85).aspx">EN_DROPFILES</a>
 </td>
 <td>Sent when either a 
 							<a href="https://msdn.microsoft.com/07dc2df7-4699-4e9c-b1a5-4ce877116268">WM_DROPFILES</a> message or an 
@@ -130,96 +130,96 @@ The following is a list of the notifications that may be sent.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/23a6eb10-a9d7-4fd5-9176-407c35e6f492">EN_ERRSPACE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761678(v=VS.85).aspx">EN_ERRSPACE</a>
 </td>
 <td>Sent when a control cannot allocate enough memory to meet a specified request.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/beaaa80c-4108-4a8e-aed8-04c9a3a08f3e">EN_HSCROLL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761680(v=VS.85).aspx">EN_HSCROLL</a>
 </td>
 <td>Sent when the user clicks the control's horizontal scroll bar before the screen is updated.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/c31f4b6c-afed-4506-b98a-65c902b0f63a">EN_KILLFOCUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761682(v=VS.85).aspx">EN_KILLFOCUS</a>
 </td>
 <td>Sent when the control loses the keyboard focus.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787970(v=VS.85).aspx">EN_LINK</a>
 </td>
 <td>Sent when a rich edit control receives various messages, such as mouse click messages, when the mouse pointer is over text that has the CFE_LINK effect. </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b03835d6-d06f-415a-97f2-d2b62b17e175">EN_MAXTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761684(v=VS.85).aspx">EN_MAXTEXT</a>
 </td>
 <td>Sent when the current text insertion has exceeded the maximum number of characters for the control.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b674c36f-2454-473e-8e1c-368c0afd8c34">EN_OLEOPFAILED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787979(v=VS.85).aspx">EN_OLEOPFAILED</a>
 </td>
 <td>Sent when a user action on an OLE object has failed.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a>
 </td>
 <td>Sent when the user takes an action that changes the protected range of text.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/708c23b1-7b81-46f1-9595-46230693855d">EN_REQUESTRESIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787983(v=VS.85).aspx">EN_REQUESTRESIZE</a>
 </td>
 <td>Sent when a rich edit control's contents are different from the control's window size. </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e8b95e80-6494-4153-8e78-ede9ed17c66f">EN_SAVECLIPBOARD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787985(v=VS.85).aspx">EN_SAVECLIPBOARD</a>
 </td>
 <td>Sent when an edit control is being destroyed. The text host should indicate whether <a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a> should be called. Data indicating the number of characters and objects to be flushed is sent in the 
-							<a href="https://msdn.microsoft.com/127286d6-a56e-46fe-8fb6-b540188f75c9">ENSAVECLIPBOARD</a> data structure. Mask value is nothing.</td>
+							<a href="https://msdn.microsoft.com/en-us/library/Bb787905(v=VS.85).aspx">ENSAVECLIPBOARD</a> data structure. Mask value is nothing.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787987(v=VS.85).aspx">EN_SELCHANGE</a>
 </td>
-<td>Sent when the current selection has changed. A <a href="https://msdn.microsoft.com/9f5c0041-df07-44dc-b517-c01a8910560f">SELCHANGE</a> data structure is also sent, which indicates the new selection range at the type of data the selection is currently over. Controlled through the <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_SELCHANGE</a> mask.</td>
+<td>Sent when the current selection has changed. A <a href="https://msdn.microsoft.com/en-us/library/Bb787952(v=VS.85).aspx">SELCHANGE</a> data structure is also sent, which indicates the new selection range at the type of data the selection is currently over. Controlled through the <a href="https://msdn.microsoft.com/en-us/library/Bb774366(v=VS.85).aspx">ENM_SELCHANGE</a> mask.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/482d2afa-4e21-4f3f-bdf4-6966b34cc3c4">EN_SETFOCUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761685(v=VS.85).aspx">EN_SETFOCUS</a>
 </td>
 <td>Sent when the edit control receives the keyboard focus. No extra data is sent; there is no mask.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/5608f6dd-83dc-4712-b485-dd9bc17dea24">EN_STOPNOUNDO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787989(v=VS.85).aspx">EN_STOPNOUNDO</a>
 </td>
 <td>Sent when an action occurs for which the control cannot allocate enough memory to maintain the undo state. If S_FALSE is returned, the action will be stopped; otherwise, the action will continue.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/59138736-6cc9-4a3f-95f3-ada9cbf253cb">EN_UPDATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761687(v=VS.85).aspx">EN_UPDATE</a>
 </td>
-<td>Sent before an edit control requests a redraw of altered data or text. No additional data is sent. This event is controlled through the <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_UPDATE</a> mask. 
-							<b>Rich Edit 2.0 and later:</b> The <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_UPDATE</a> mask is ignored and the <a href="https://msdn.microsoft.com/59138736-6cc9-4a3f-95f3-ada9cbf253cb">EN_UPDATE</a> notification code is always sent. However, when Microsoft Rich Edit 3.0 emulates Microsoft Rich Edit 1.0, the <b>ENM_UPDATE</b> mask controls this notification.
+<td>Sent before an edit control requests a redraw of altered data or text. No additional data is sent. This event is controlled through the <a href="https://msdn.microsoft.com/en-us/library/Bb774366(v=VS.85).aspx">ENM_UPDATE</a> mask. 
+							<b>Rich Edit 2.0 and later:</b> The <a href="https://msdn.microsoft.com/en-us/library/Bb774366(v=VS.85).aspx">ENM_UPDATE</a> mask is ignored and the <a href="https://msdn.microsoft.com/en-us/library/Bb761687(v=VS.85).aspx">EN_UPDATE</a> notification code is always sent. However, when Microsoft Rich Edit 3.0 emulates Microsoft Rich Edit 1.0, the <b>ENM_UPDATE</b> mask controls this notification.
 
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/46307dee-3c5c-4020-9c2b-ec4638a0cea5">EN_VSCROLL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761689(v=VS.85).aspx">EN_VSCROLL</a>
 </td>
-<td>Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control, before the screen is updated. This is controlled through the <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_SCROLL</a> mask; no extra data is sent.</td>
+<td>Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control, before the screen is updated. This is controlled through the <a href="https://msdn.microsoft.com/en-us/library/Bb774366(v=VS.85).aspx">ENM_SCROLL</a> mask; no extra data is sent.</td>
 </tr>
 </table>
  
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/96cf0047-baae-46cd-82e8-ab6f3f353260">EN_MSGFILTER</a> is not sent to <b>TxNotify</b>. To filter window messages, use <a href="https://msdn.microsoft.com/86e64047-68f7-4cd8-a18d-0f2e84340f52">TxSendMessage</a>.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/Bb787974(v=VS.85).aspx">EN_MSGFILTER</a> is not sent to <b>TxNotify</b>. To filter window messages, use <a href="https://msdn.microsoft.com/en-us/library/Bb787680(v=VS.85).aspx">TxSendMessage</a>.</div>
 <div> </div>
 
 
@@ -233,75 +233,75 @@ The following is a list of the notifications that may be sent.
 
 
 
-<a href="https://msdn.microsoft.com/139f6e44-fc54-40f2-a3f6-2b7efc819cae">EM_SETEVENTMASK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774238(v=VS.85).aspx">EM_SETEVENTMASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a04e6fb-ae9d-4d94-8047-6de96df899f5">EN_CHANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761676(v=VS.85).aspx">EN_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/fcae0ff8-ce37-4c71-b14c-cbd6429b4ab3">EN_DROPFILES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787966(v=VS.85).aspx">EN_DROPFILES</a>
 
 
 
-<a href="https://msdn.microsoft.com/23a6eb10-a9d7-4fd5-9176-407c35e6f492">EN_ERRSPACE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761678(v=VS.85).aspx">EN_ERRSPACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/beaaa80c-4108-4a8e-aed8-04c9a3a08f3e">EN_HSCROLL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761680(v=VS.85).aspx">EN_HSCROLL</a>
 
 
 
-<a href="https://msdn.microsoft.com/c31f4b6c-afed-4506-b98a-65c902b0f63a">EN_KILLFOCUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761682(v=VS.85).aspx">EN_KILLFOCUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787970(v=VS.85).aspx">EN_LINK</a>
 
 
 
-<a href="https://msdn.microsoft.com/b03835d6-d06f-415a-97f2-d2b62b17e175">EN_MAXTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761684(v=VS.85).aspx">EN_MAXTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/b674c36f-2454-473e-8e1c-368c0afd8c34">EN_OLEOPFAILED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787979(v=VS.85).aspx">EN_OLEOPFAILED</a>
 
 
 
-<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a>
 
 
 
-<a href="https://msdn.microsoft.com/708c23b1-7b81-46f1-9595-46230693855d">EN_REQUESTRESIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787983(v=VS.85).aspx">EN_REQUESTRESIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8b95e80-6494-4153-8e78-ede9ed17c66f">EN_SAVECLIPBOARD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787985(v=VS.85).aspx">EN_SAVECLIPBOARD</a>
 
 
 
-<a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787987(v=VS.85).aspx">EN_SELCHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/482d2afa-4e21-4f3f-bdf4-6966b34cc3c4">EN_SETFOCUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761685(v=VS.85).aspx">EN_SETFOCUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/5608f6dd-83dc-4712-b485-dd9bc17dea24">EN_STOPNOUNDO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787989(v=VS.85).aspx">EN_STOPNOUNDO</a>
 
 
 
-<a href="https://msdn.microsoft.com/59138736-6cc9-4a3f-95f3-ada9cbf253cb">EN_UPDATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761687(v=VS.85).aspx">EN_UPDATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/46307dee-3c5c-4020-9c2b-ec4638a0cea5">EN_VSCROLL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761689(v=VS.85).aspx">EN_VSCROLL</a>
 
 
 
-<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
 
 
 
@@ -309,7 +309,7 @@ The following is a list of the notifications that may be sent.
 
 
 
-<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

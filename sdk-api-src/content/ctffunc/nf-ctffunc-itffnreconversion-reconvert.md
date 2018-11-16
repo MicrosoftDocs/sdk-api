@@ -67,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that covers the text to be reconverted. To obtain this range object call <a href="https://msdn.microsoft.com/022d0ad7-5359-48df-b83b-2319eb1a84bf">ITfFnReconversion::QueryRange</a>.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628908(v=VS.85).aspx">ITfRange</a> object that covers the text to be reconverted. To obtain this range object call <a href="https://msdn.microsoft.com/en-us/library/ms538973(v=VS.85).aspx">ITfFnReconversion::QueryRange</a>.
 
 
 ## -returns
@@ -145,7 +145,7 @@ If this method causes some type of user interface to be displayed, such as a dia
 
 
 
-<a href="https://msdn.microsoft.com/deb5c007-58d5-4bae-92eb-a05675f5dfac">ITfFnReconversion</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538970(v=VS.85).aspx">ITfFnReconversion</a>
 
 
 

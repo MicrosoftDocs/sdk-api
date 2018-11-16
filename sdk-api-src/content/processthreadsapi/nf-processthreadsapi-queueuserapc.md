@@ -129,8 +129,8 @@ When the thread is terminated using the
 
 When the thread is in the process of being terminated, calling QueueUserAPC to add to the thread's APC queue will fail with <b>(31) ERROR_GEN_FAILURE</b>.
 
-Note that the <a href="base.readfileex">ReadFileEx</a>, 
-<a href="https://msdn.microsoft.com/237e22dc-696d-473f-8bb5-c28f7c7c75b2">SetWaitableTimer</a>, and <a href="base.writefileex">WriteFileEx</a> functions are implemented using an APC as the completion notification callback mechanism.
+Note that the <a href="https://msdn.microsoft.com/en-us/library/Aa365468(v=VS.85).aspx">ReadFileEx</a>, 
+<a href="https://msdn.microsoft.com/237e22dc-696d-473f-8bb5-c28f7c7c75b2">SetWaitableTimer</a>, and <a href="https://msdn.microsoft.com/en-us/library/Aa365748(v=VS.85).aspx">WriteFileEx</a> functions are implemented using an APC as the completion notification callback mechanism.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0400 or later. For more information, see 
 <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.

@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Bitmap::ApplyEffect</b> method  creates a new <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object by applying a specified effect to an existing <b>Bitmap</b> object.
+The <b>Bitmap::ApplyEffect</b> method  creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object by applying a specified effect to an existing <b>Bitmap</b> object.
 
 
 ## -parameters
@@ -69,9 +69,9 @@ The <b>Bitmap::ApplyEffect</b> method  creates a new <a href="https://msdn.micro
 
 ### -param inputs [in]
 
-Type: <b><a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>**</b>
 
-Address of a pointer to a <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object to which the effect is applied.
+Address of a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object to which the effect is applied.
 
 
 ### -param numInputs [in]
@@ -104,9 +104,9 @@ Pointer to a RECT structure that receives the portion of the input bitmap that w
 
 ### -param output [out]
 
-Type: <b><a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>**</b>
 
-Address of a variable that receives a pointer to the new <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object.
+Address of a variable that receives a pointer to the new <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object.
 
 
 ## -returns
@@ -128,14 +128,14 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<b>Bitmap::ApplyEffect</b> returns a pointer to a new <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object. When you have finished using that <b>Bitmap</b> object, call <a href="https://msdn.microsoft.com/b489f6d6-bc04-4234-8f77-b48dce1f2fe6">delete</a> to free the memory that it occupies.
+<b>Bitmap::ApplyEffect</b> returns a pointer to a new <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object. When you have finished using that <b>Bitmap</b> object, call <a href="https://msdn.microsoft.com/b489f6d6-bc04-4234-8f77-b48dce1f2fe6">delete</a> to free the memory that it occupies.
 
 
 #### Examples
 
 
 
-The following example creates two <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> objects: <b>inputBitmap</b> and <b>outputBitmap</b>. First, <b>inputBitmap</b> is constructed from a BMP file. Then <b>outputBitmap</b> is created by passing the address of <b>inputBitmap</b> to the <b>Bitmap::ApplyEffect</b> method. <b>Bitmap::ApplyEffect</b> takes the portion of <b>inputBitmap</b> specified by <b>rectOfInterest</b> and increases the contrast as specified by <b>briCon</b>, a <a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a> object.
+The following example creates two <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> objects: <b>inputBitmap</b> and <b>outputBitmap</b>. First, <b>inputBitmap</b> is constructed from a BMP file. Then <b>outputBitmap</b> is created by passing the address of <b>inputBitmap</b> to the <b>Bitmap::ApplyEffect</b> method. <b>Bitmap::ApplyEffect</b> takes the portion of <b>inputBitmap</b> specified by <b>rectOfInterest</b> and increases the contrast as specified by <b>briCon</b>, a <a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a> object.
 
 
 ```cpp
@@ -176,7 +176,7 @@ VOID Example_BrightnessContrastApplyEffect2(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
 
 
 

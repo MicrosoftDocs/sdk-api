@@ -92,7 +92,7 @@ This function returns MSICONDITION.
 
 
 
-<a href="database_functions.htm">General Database Access Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
  
 
  

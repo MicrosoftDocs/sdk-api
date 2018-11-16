@@ -102,7 +102,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Creating a placeholder with this function is preferred compared to creating a new file with <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> and then converting it to a placeholder with <a href="https://msdn.microsoft.com/FDDE9CB0-E1A2-46D6-94E0-228495675271">CfConvertToPlaceholder</a>; both for efficiency and because it eliminates the time window where the file is not a placeholder.  The function can also create multiple files or directories in a batch, which can also be more efficient.
+Creating a placeholder with this function is preferred compared to creating a new file with <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> and then converting it to a placeholder with <a href="https://msdn.microsoft.com/FDDE9CB0-E1A2-46D6-94E0-228495675271">CfConvertToPlaceholder</a>; both for efficiency and because it eliminates the time window where the file is not a placeholder.  The function can also create multiple files or directories in a batch, which can also be more efficient.
 
 This function is useful when performing an initial sync of files or directories from the cloud down to the client, or when syncing down a newly created single file or directory from the cloud.
 

@@ -70,7 +70,7 @@ Checks whether a resource, or subresource, is in a specified state, or not.
 
 Type: <b>ID3D12Resource*</b>
 
-Specifies the  <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> to check.
+Specifies the  <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a> to check.
 
 
 ### -param Subresource
@@ -103,7 +103,7 @@ This method returns true if the resource or subresource is in the specified stat
 
 
 
-<a href="https://msdn.microsoft.com/EDE527F0-4091-4B03-9030-6F693FE901BE">ID3D12DebugCommandList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950154(v=VS.85).aspx">ID3D12DebugCommandList</a>
  
 
  

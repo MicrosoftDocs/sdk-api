@@ -68,18 +68,18 @@ Get a constant-buffer description.
 
 ### -param pDesc
 
-Type: <b><a href="https://msdn.microsoft.com/deea8d5d-2431-4449-baa8-68a4b9b30307">D3D11_SHADER_BUFFER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476208(v=VS.85).aspx">D3D11_SHADER_BUFFER_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/deea8d5d-2431-4449-baa8-68a4b9b30307">D3D11_SHADER_BUFFER_DESC</a>, which represents a shader-buffer description.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476208(v=VS.85).aspx">D3D11_SHADER_BUFFER_DESC</a>, which represents a shader-buffer description.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
 
 
 
@@ -98,7 +98,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/4b47ed8d-e814-4a7b-bc8e-25a8b71200ce">ID3D11ShaderReflectionConstantBuffer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476591(v=VS.85).aspx">ID3D11ShaderReflectionConstantBuffer Interface</a>
  
 
  

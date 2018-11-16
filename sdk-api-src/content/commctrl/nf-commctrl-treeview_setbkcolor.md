@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the background color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/087f5e0b-ac73-4db4-b82e-15c7641b681c">TVM_SETBKCOLOR</a> message explicitly. 
+Sets the background color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773741(v=VS.85).aspx">TVM_SETBKCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -86,7 +86,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-<a href="https://msdn.microsoft.com/f0bd6ad9-b662-41c2-a436-5f512b9f9538">TreeView_GetBkColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773807(v=VS.85).aspx">TreeView_GetBkColor</a>
  
 
  

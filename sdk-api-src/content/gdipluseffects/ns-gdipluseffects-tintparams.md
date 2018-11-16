@@ -56,8 +56,8 @@ A <b>TintParams</b> structure contains members that specify the nature of a tint
 You can adjust the tint of a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>TintParams</b> structure.</li>
-<li>Pass the address of the <b>TintParams</b> structure to the <a href="https://msdn.microsoft.com/f1d19fc2-2912-47f9-aa6b-29ae8df64a90">Tint::SetParameters</a> method of a <a href="https://msdn.microsoft.com/f012ec61-986d-40f4-a730-1b73a52952a8">Tint</a> object.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/f012ec61-986d-40f4-a730-1b73a52952a8">Tint</a> object to the <a href="https://msdn.microsoft.com/cb85a7ac-5af0-45c7-8035-d7bc2827af6a">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>TintParams</b> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms534518(v=VS.85).aspx">Tint::SetParameters</a> method of a <a href="https://msdn.microsoft.com/en-us/library/ms534513(v=VS.85).aspx">Tint</a> object.</li>
+<li>Pass the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534513(v=VS.85).aspx">Tint</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields

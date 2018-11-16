@@ -107,7 +107,7 @@ You can specify the user name as:
 
 
 
-<a href="https://msdn.microsoft.com/c16c616c-f4cb-483d-8a15-6ff9d45762ae">BG_AUTH_CREDENTIALS_UNION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362787(v=VS.85).aspx">BG_AUTH_CREDENTIALS_UNION</a>
  
 
  

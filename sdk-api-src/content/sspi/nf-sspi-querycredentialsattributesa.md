@@ -255,7 +255,7 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 
 
 
-<a href="authentication_functions.htm">SSPI Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
 
 
 

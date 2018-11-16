@@ -62,7 +62,7 @@ req.redist:
 The <b>SetValue</b> method sets a <b>Long</b> value at the specified index of the <b>Long</b> array.
 
  You must call 
-<a href="https://msdn.microsoft.com/4b5821e0-c81a-47b7-98b0-2a293967d8f6">ICertEncodeLongArray::Reset</a> before calling <b>SetValue</b> for the first time.
+<a href="https://msdn.microsoft.com/en-us/library/Aa385010(v=VS.85).aspx">ICertEncodeLongArray::Reset</a> before calling <b>SetValue</b> for the first time.
 
 
 ## -parameters
@@ -87,7 +87,7 @@ Specifies the <b>Long</b> value to set.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 
 
@@ -97,15 +97,15 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/e8555282-6c09-4f23-830e-358bc73287ee">ICertEncodeLongArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa384997(v=VS.85).aspx">ICertEncodeLongArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a7c1d6b-8fe7-4cc0-8cbd-2831dd3a178b">ICertEncodeLongArray::GetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385007(v=VS.85).aspx">ICertEncodeLongArray::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b5821e0-c81a-47b7-98b0-2a293967d8f6">ICertEncodeLongArray::Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385010(v=VS.85).aspx">ICertEncodeLongArray::Reset</a>
  
 
  

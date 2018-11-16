@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Packs two byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/03068c5d-822f-459d-8f79-e7f0430a27bf">IPM_SETRANGE</a> message. 
+Packs two byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/en-us/library/Bb761382(v=VS.85).aspx">IPM_SETRANGE</a> message. 
 
 
 ## -parameters
@@ -68,14 +68,14 @@ Packs two byte-values into a single LPARAM suitable for use with the <a href="ht
 
 ### -param low
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
 The lower limit of the range. 
 
 
 ### -param high
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
 The upper limit of the range. 
 

@@ -62,7 +62,7 @@ req.redist:
 
 
 
-The <b>SetMinPacketSize</b> method sets the minimum <a href="wmformat_glossary.htm">packet</a> size for files created with the profile. This method cannot be called from an interface belonging to a reader or synchronous reader object.
+The <b>SetMinPacketSize</b> method sets the minimum <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> size for files created with the profile. This method cannot be called from an interface belonging to a reader or synchronous reader object.
 
 
 

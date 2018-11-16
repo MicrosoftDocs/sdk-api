@@ -59,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>StringFormat::GetHotkeyPrefix</b> method gets an element of the <a href="https://msdn.microsoft.com/79b7fa3b-55f8-4ac8-814d-82e4f8280863">HotkeyPrefix</a> enumeration that indicates the type of processing that is performed on a string when a hot key prefix, an ampersand (&amp;), is encountered.
+The <b>StringFormat::GetHotkeyPrefix</b> method gets an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a> enumeration that indicates the type of processing that is performed on a string when a hot key prefix, an ampersand (&amp;), is encountered.
 
 
 ## -parameters
@@ -73,10 +73,10 @@ The <b>StringFormat::GetHotkeyPrefix</b> method gets an element of the <a href="
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/79b7fa3b-55f8-4ac8-814d-82e4f8280863">HotkeyPrefix</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/79b7fa3b-55f8-4ac8-814d-82e4f8280863">HotkeyPrefix</a> enumeration that indicates the type of hot key prefix processing that is performed on a string.
+This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a> enumeration that indicates the type of hot key prefix processing that is performed on a string.
 
 
 
@@ -90,7 +90,7 @@ Hot keys, also called access keys, are keys that are programmed to provide an en
 				<b>File</b> menu.
 
 A client programmer designates a hot key in an application by using the hot key prefix, an ampersand (&amp;), in a string that typically is displayed as the name of a menu or an item in a menu and by using the 
-				<a href="https://msdn.microsoft.com/abbc693e-5b04-4386-a21a-1f7bee3a16d7">StringFormat::SetHotkeyPrefix</a> method to set the appropriate type of processing. When a character in a string is preceded with an ampersand, the key that corresponds to the character becomes a hot key during the processing that occurs when the string is drawn on the display device. The ampersand is called a hot key prefix because it precedes the character to be activated. If HotkeyPrefixNone is passed to 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534727(v=VS.85).aspx">StringFormat::SetHotkeyPrefix</a> method to set the appropriate type of processing. When a character in a string is preceded with an ampersand, the key that corresponds to the character becomes a hot key during the processing that occurs when the string is drawn on the display device. The ampersand is called a hot key prefix because it precedes the character to be activated. If HotkeyPrefixNone is passed to 
 				<b>StringFormat::SetHotkeyPrefix</b>, no processing of hot key prefixes occurs.
 
 <div class="alert"><b>Note</b>  The term 
@@ -104,7 +104,7 @@ A client programmer designates a hot key in an application by using the hot key 
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object, sets the type of hot key prefix processing to be performed on the string, and then gets the type of processing and stores it in a variable. The code then creates a second 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object, sets the type of hot key prefix processing to be performed on the string, and then gets the type of processing and stores it in a variable. The code then creates a second 
 						<b>StringFormat</b> object and uses the stored value to set the type of hot key prefix processing for the second 
 						<b>StringFormat</b> object. The code uses the second 
 						<b>StringFormat</b> object to draw a string that contains the hot key prefix character. The code also draws the string's layout rectangle.
@@ -158,11 +158,11 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/79b7fa3b-55f8-4ac8-814d-82e4f8280863">HotkeyPrefix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
  
 
  

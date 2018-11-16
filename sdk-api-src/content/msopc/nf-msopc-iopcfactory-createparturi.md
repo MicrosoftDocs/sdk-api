@@ -226,7 +226,7 @@ A part name cannot be an absolute URI. An absolute URI begins with a schema comp
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function. 
+An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/library/ms775098(v=VS.85).aspx">CreateUri</a> function. 
 
 </td>
 </tr>
@@ -269,7 +269,7 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="inet_CreateUri_Function">CreateUri</a>
+<a href="https://msdn.microsoft.com/library/ms775098(v=VS.85).aspx">CreateUri</a>
 
 
 

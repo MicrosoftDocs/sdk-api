@@ -60,9 +60,9 @@ Describes a counter.
 
 ### -field Counter
 
-Type: <b><a href="https://msdn.microsoft.com/b4c63ba3-29cf-4fb9-903f-28ac7750f9b6">D3D10_COUNTER</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204904(v=VS.85).aspx">D3D10_COUNTER</a></b>
 
-Type of counter (see <a href="https://msdn.microsoft.com/b4c63ba3-29cf-4fb9-903f-28ac7750f9b6">D3D10_COUNTER</a>).
+Type of counter (see <a href="https://msdn.microsoft.com/en-us/library/Bb204904(v=VS.85).aspx">D3D10_COUNTER</a>).
 
 
 ### -field MiscFlags
@@ -77,7 +77,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
  
 
  

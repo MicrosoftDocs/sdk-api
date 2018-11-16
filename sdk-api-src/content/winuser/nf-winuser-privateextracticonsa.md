@@ -132,7 +132,7 @@ The number of icons to extract from the file. This parameter
 Type: <b>UINT</b>
 
 Specifies flags that control this function.  These flags are the LR_*
-				flags used by the <a href="https://msdn.microsoft.com/27a18763-60e0-4a91-9262-807ea2b67416">LoadImage</a> function.
+				flags used by the <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> function.
 
 
 ## -returns
@@ -169,7 +169,7 @@ The <i>cxIcon</i> and
       For example, <code>MAKELONG(24, 48)</code> for both the cxIcon and cyIcon parameters would extract
       both 24 and 48 size icons.
 
-You must destroy all icons extracted by <b>PrivateExtractIcons</b>by calling the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function. 
+You must destroy all icons extracted by <b>PrivateExtractIcons</b>by calling the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function. 
 
 This function was not included in the SDK headers and libraries until Windows XP Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>.
 
@@ -185,19 +185,19 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/323c5e09-4e22-4a67-b8aa-5e5f369fb585">ExtractIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776416(v=VS.85).aspx">ExtractIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef7a141f-9711-4345-8035-b7ad18a37caf">ExtractIconEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776417(v=VS.85).aspx">ExtractIconEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dc588f4-b032-40a8-82ef-5b9fc04abb0b">Icons</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
 
 
 

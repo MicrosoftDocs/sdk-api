@@ -61,7 +61,7 @@ req.redist:
 
 The 
 <b>PreRestore</b> method will cause VSS to generate a 
-<a href="vssgloss_p.htm">PreRestore</a> event, signaling writers to prepare for an upcoming restore operation.
+<a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PreRestore</a> event, signaling writers to prepare for an upcoming restore operation.
 
 
 ## -parameters
@@ -164,7 +164,7 @@ Special consideration should be given to EFI systems when the requester has sele
 <li>You are restoring to an EFI system disk whose partitioning has changed since the last ASR backup.</li>
 <li>You are restoring to a different physical drive than the one from which the backup was taken.</li>
 </ul>
-Failure to perform this disk-cleaning step may result in unexpected results during <a href="vssgloss_p.htm">PreRestore</a>.
+Failure to perform this disk-cleaning step may result in unexpected results during <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PreRestore</a>.
 
 For more information about the ASR writer, see <a href="https://msdn.microsoft.com/e20a303d-9440-42be-b383-85f6fad89157">In-Box VSS Writers</a>.
 

@@ -60,7 +60,7 @@ req.redist:
 
 Exports a partition to a file.
 
-An exported partition can be imported using the <a href="https://msdn.microsoft.com/e1f54a6a-9b90-4e9e-b94c-46f6c9b683a3">InstallPartition</a> method.
+An exported partition can be imported using the <a href="https://msdn.microsoft.com/en-us/library/ms687112(v=VS.85).aspx">InstallPartition</a> method.
 
 
 ## -parameters
@@ -192,7 +192,7 @@ The specified partition does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
  
 
  

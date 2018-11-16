@@ -75,7 +75,7 @@ Address of a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82b
 
 Type: <b>VARIANT*</b>
 
-Address of a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> that receives the object. The <b>VARIANT</b> contains a <b>VT_DISPATCH</b> object that can be queried for the <a href="https://msdn.microsoft.com/c77547ab-e666-4d72-b8ef-4b2f3d61ad38">IADsSecurityDescriptor</a> interface. The caller must release this <b>VARIANT</b> by passing the <b>VARIANT</b> to the <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> function.
+Address of a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> that receives the object. The <b>VARIANT</b> contains a <b>VT_DISPATCH</b> object that can be queried for the <a href="https://msdn.microsoft.com/c77547ab-e666-4d72-b8ef-4b2f3d61ad38">IADsSecurityDescriptor</a> interface. The caller must release this <b>VARIANT</b> by passing the <b>VARIANT</b> to the <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> function.
 
 
 ### -param pszServerName [in]
@@ -161,7 +161,7 @@ This function is used for legacy applications that must  manually convert securi
 
 
 
-<a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>
  
 
  

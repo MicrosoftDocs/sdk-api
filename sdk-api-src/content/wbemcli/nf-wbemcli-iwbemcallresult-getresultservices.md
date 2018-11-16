@@ -78,7 +78,7 @@ The maximum time in milliseconds that this call blocks before it returns. If you
 
 Cannot be <b>NULL</b>. It receives a pointer to the 
 <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> interface requested by the original call to 
-<a href="https://msdn.microsoft.com/09ff9078-3d97-432b-8626-62f12b5e3ef4">OpenNamespace</a> when it becomes available The caller must call <a href="_com_iunknown_release">IWbemServices::Release</a>on the returned object when it is no longer required.
+<a href="https://msdn.microsoft.com/09ff9078-3d97-432b-8626-62f12b5e3ef4">OpenNamespace</a> when it becomes available The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IWbemServices::Release</a>on the returned object when it is no longer required.
 
 On error, a new object is not returned.
 

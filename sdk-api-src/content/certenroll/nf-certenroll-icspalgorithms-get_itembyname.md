@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>ItemByName</b> property retrieves an <a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a> object from the collection by name. This property is web enabled.
+The <b>ItemByName</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a> object from the collection by name. This property is web enabled.
 
 This property is read-only.
 
@@ -72,11 +72,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85).aspx">ICspAlgorithm</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbf8cff4-b1b2-480e-8c30-eb34166db143">ICspAlgorithms</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375948(v=VS.85).aspx">ICspAlgorithms</a>
  
 
  

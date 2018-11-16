@@ -59,10 +59,10 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://msdn.microsoft.com/en-us/library/JJ152383(v=VS.85).aspx">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetAt</b> method gets the array element at the specified index.
@@ -75,16 +75,16 @@ The <b>GetAt</b> method gets the array element at the specified index.
 
 ### -param nIndex
 
-An integer index that is greater than or equal to zero (0), and less than or equal to the value returned by <a href="https://msdn.microsoft.com/77c200f9-c63b-4842-881f-5c077e4618b8">GetUpperBound</a>.
+An integer index that is greater than or equal to zero (0), and less than or equal to the value returned by <a href="https://msdn.microsoft.com/en-us/library/Aa385377(v=VS.85).aspx">GetUpperBound</a>.
 
-<div class="alert"><b>Note</b>  The <i>nIndex</i> parameter must be greater than or equal to 0. The debug version of the <a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a> library validates the bounds of <i>nIndex</i>; the release version does not.</div>
+<div class="alert"><b>Note</b>  The <i>nIndex</i> parameter must be greater than or equal to 0. The debug version of the <a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a> library validates the bounds of <i>nIndex</i>; the release version does not.</div>
 <div> </div>
 
 ## -returns
 
 
 
-If the <b>GetAt</b> method is successful, it returns the <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> pointer element currently at this index.
+If the <b>GetAt</b> method is successful, it returns the <a href="https://msdn.microsoft.com/en-us/library/Aa384937(v=VS.85).aspx">CHString</a> pointer element currently at this index.
 
 
 
@@ -93,7 +93,7 @@ If the <b>GetAt</b> method is successful, it returns the <a href="https://msdn.m
 
 
 
-Passing a negative value or a value greater than the value returned by <a href="https://msdn.microsoft.com/77c200f9-c63b-4842-881f-5c077e4618b8">GetUpperBound</a> results in a failed assertion for debug builds.
+Passing a negative value or a value greater than the value returned by <a href="https://msdn.microsoft.com/en-us/library/Aa385377(v=VS.85).aspx">GetUpperBound</a> results in a failed assertion for debug builds.
 
 
 #### Examples
@@ -122,27 +122,27 @@ assert( array.GetAt( 0 ) == "String 1" );</pre>
 
 
 
-<a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5a0b8e6-b40a-4dc7-bf36-ec629e2899db">CHStringArray::Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385329(v=VS.85).aspx">CHStringArray::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/5431a9ae-e009-4457-87e4-bb91da8bfdb6">CHStringArray::ElementAt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385356(v=VS.85).aspx">CHStringArray::ElementAt</a>
 
 
 
-<a href="https://msdn.microsoft.com/b59a0c42-e753-43ff-bf39-279f0a8b9d2b">CHStringArray::GetData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385367(v=VS.85).aspx">CHStringArray::GetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/709bed59-c154-4103-9d38-398945657ec6">CHStringArray::SetAt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385402(v=VS.85).aspx">CHStringArray::SetAt</a>
 
 
 
-<a href="https://msdn.microsoft.com/93b10bef-908e-4c5e-aac3-b13051b2e7c9">CHStringArray::operator []</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385421(v=VS.85).aspx">CHStringArray::operator []</a>
  
 
  

@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxOutboundRoutingGroups::get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a> collection.
+The <b>IFaxOutboundRoutingGroups::get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ The <b>IFaxOutboundRoutingGroups::get__NewEnum</b> method returns a reference to
 
 ### -param ppUnk [out, retval]
 
-Type: <b><a href="_com_IUnknown">IUnknown</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>**</b>
 
-Receives an indirect pointer to the enumerator object's <a href="_com_IUnknown">IUnknown</a> interface for this collection.
+Receives an indirect pointer to the enumerator object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for this collection.
 
 
 ## -returns
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a>
  
 
  

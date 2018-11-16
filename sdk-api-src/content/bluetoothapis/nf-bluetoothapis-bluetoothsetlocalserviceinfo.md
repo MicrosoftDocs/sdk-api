@@ -86,7 +86,7 @@ An instance ID for the device node of the Plug and Play (PnP) ID.
 
 ### -param pServiceInfoIn [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure that describes the local service to
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb870604(v=VS.85).aspx">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure that describes the local service to
      set.
 
 
@@ -174,12 +174,12 @@ To use Bluetooth APIs like
 <div class="alert"><b>Warning</b>  The process that calls 
     <b>BluetoothSetLocalServiceInfo</b> must have the <b>SE_LOAD_DRIVER_NAME</b> privilege. A process running in the
     system or an administrator context can elevate its privilege by using the SDK 
-    <a href="https://msdn.microsoft.com/334b8ba8-101d-43a1-a8bf-1c7e0448c272">LookupPrivilegeValue</a> and 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa379180(v=VS.85).aspx">LookupPrivilegeValue</a> and 
     <a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> functions. For more information about this see 
     <a href="https://msdn.microsoft.com/2bf2b2df-260c-42a5-9ee9-6db91f304036">Installing a Bluetooth
     Device</a>.</div>
 <div> </div>
-The <a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure is defined in the SDK 
+The <a href="https://msdn.microsoft.com/en-us/library/Bb870604(v=VS.85).aspx">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure is defined in the SDK 
     BluetoothApis.h header file.
 
 
@@ -190,7 +190,7 @@ The <a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BL
 
 
 
-<a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BLUETOOTH_LOCAL_SERVICE_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870604(v=VS.85).aspx">BLUETOOTH_LOCAL_SERVICE_INFO</a>
  
 
  

@@ -60,7 +60,7 @@ req.redist:
 ## -description
 
 
-The <b>AlternateSignatureAlgorithm</b> property specifies and retrieves a Boolean value that specifies whether the <a href="https://msdn.microsoft.com/e5b43e74-d802-43ff-bdf2-96ab475c31e7">GetSignatureAlgorithm</a> method should retrieve a discrete or combined algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) for a PKCS #10 certificate request.
+The <b>AlternateSignatureAlgorithm</b> property specifies and retrieves a Boolean value that specifies whether the <a href="https://msdn.microsoft.com/en-us/library/Aa379053(v=VS.85).aspx">GetSignatureAlgorithm</a> method should retrieve a discrete or combined algorithm <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) for a PKCS #10 certificate request.
 
 This property is read/write.
 
@@ -72,7 +72,7 @@ This property is read/write.
 
 
 
-PKCS #7 and CMC certificate requests always use a discrete signature algorithm OID and a separate hashing algorithm OID. Only PKCS #10 certificate requests use combined algorithm OIDs. You can set the <b>AlternateSignatureAlgorithm</b> property to retrieve a discrete signature algorithm OID from the <a href="https://msdn.microsoft.com/e5b43e74-d802-43ff-bdf2-96ab475c31e7">GetSignatureAlgorithm</a> method for a PKCS #10 request. If you set this property, the hashing algorithm OID can be retrieved from the <a href="https://msdn.microsoft.com/cb5675d5-cf06-4407-a7fd-b703a56cacba">Parameters</a> property, and the <a href="https://msdn.microsoft.com/fd28072f-9b79-4068-b4dd-61a6a4f8beda">AlternateSignatureAlgorithmSet</a> property is also set. For examples of discrete and combined OIDs, see <a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a>
+PKCS #7 and CMC certificate requests always use a discrete signature algorithm OID and a separate hashing algorithm OID. Only PKCS #10 certificate requests use combined algorithm OIDs. You can set the <b>AlternateSignatureAlgorithm</b> property to retrieve a discrete signature algorithm OID from the <a href="https://msdn.microsoft.com/en-us/library/Aa379053(v=VS.85).aspx">GetSignatureAlgorithm</a> method for a PKCS #10 request. If you set this property, the hashing algorithm OID can be retrieved from the <a href="https://msdn.microsoft.com/en-us/library/Aa379057(v=VS.85).aspx">Parameters</a> property, and the <a href="https://msdn.microsoft.com/en-us/library/Aa965845(v=VS.85).aspx">AlternateSignatureAlgorithmSet</a> property is also set. For examples of discrete and combined OIDs, see <a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a>
 
 
 
@@ -83,7 +83,7 @@ PKCS #7 and CMC certificate requests always use a discrete signature algorithm O
 
 
 
-<a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a>
  
 
  

@@ -57,7 +57,7 @@ req.redist:
 
 
 Returns the current state of a 
-    <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>. The <b>PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE</b> type defines a pointer to this function.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interface</a>. The <b>PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Handle to the network interface for which state information should be returned.
 
 <b>GetClusterNetInterfaceState</b> returns 
        the current state of the network interface, which is represented by one of the following values enumerated by 
-       the <a href="https://msdn.microsoft.com/8b4dc26c-0bac-4ff1-b5ae-4524c81ccdf7">CLUSTER_NETINTERFACE_STATE</a> 
+       the <a href="https://msdn.microsoft.com/en-us/library/Bb309152(v=VS.85).aspx">CLUSTER_NETINTERFACE_STATE</a> 
        enumeration.
 
 <table>
@@ -156,7 +156,7 @@ The operation was not successful. For more information about the error, call the
 
 
 
-<a href="https://msdn.microsoft.com/8b4dc26c-0bac-4ff1-b5ae-4524c81ccdf7">CLUSTER_NETINTERFACE_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309152(v=VS.85).aspx">CLUSTER_NETINTERFACE_STATE</a>
 
 
 
@@ -164,7 +164,7 @@ The operation was not successful. For more information about the error, call the
 
 
 
-<a href="https://msdn.microsoft.com/3bc6bec3-bfe4-4ab4-8ad3-c42eba6d7cba">State Property of the ClusNetInterface Object</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa367768(v=VS.85).aspx">State Property of the ClusNetInterface Object</a>
  
 
  

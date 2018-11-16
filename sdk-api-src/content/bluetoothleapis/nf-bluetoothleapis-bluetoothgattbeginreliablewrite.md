@@ -156,13 +156,13 @@ The <b>BluetoothGATTBeginReliableWrite</b> function notifies the Bluetooth stack
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/114C1FCD-95F8-4358-8178-C9B283CA7323">BluetoothGATTSetCharacteristicValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450806(v=VS.85).aspx">BluetoothGATTSetCharacteristicValue</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4A3CB135-55D7-41BA-8067-D4B865D05733">BluetoothGATTEndReliableWrite</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450794(v=VS.85).aspx">BluetoothGATTEndReliableWrite</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6EC1D80A-6327-4D5A-8460-87C339669BDA">BluetoothGATTAbortReliableWrite</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450791(v=VS.85).aspx">BluetoothGATTAbortReliableWrite</a>
 </li>
 </ul>
 

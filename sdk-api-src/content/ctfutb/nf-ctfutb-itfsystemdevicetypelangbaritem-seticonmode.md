@@ -142,11 +142,11 @@ The system language bar item does not support this method.
 
 
 
-<a href="https://msdn.microsoft.com/0dc32f10-eecd-4203-992c-80eb0f991615">ITfSystemDeviceTypeLangBarItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628953(v=VS.85).aspx">ITfSystemDeviceTypeLangBarItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1740636-7ba3-4748-9005-ee94d04dbb15">Miscellaneous Language Bar Constants</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629003(v=VS.85).aspx">Miscellaneous Language Bar Constants</a>
  
 
  

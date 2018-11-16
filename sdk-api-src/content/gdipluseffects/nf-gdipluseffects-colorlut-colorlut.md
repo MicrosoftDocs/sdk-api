@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/d13dc185-e6f2-4a0f-b972-e9b6ce0859c6">ColorLUT</a> object. 
+Creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534430(v=VS.85).aspx">ColorLUT</a> object. 
 
 
 ## -parameters
@@ -74,15 +74,15 @@ Creates a new <a href="https://msdn.microsoft.com/d13dc185-e6f2-4a0f-b972-e9b6ce
 
 
 
-<a href="https://msdn.microsoft.com/d13dc185-e6f2-4a0f-b972-e9b6ce0859c6">ColorLUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534430(v=VS.85).aspx">ColorLUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/94f35947-7e62-4f47-b21a-ed3939a4f36f">ColorLUT::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536237(v=VS.85).aspx">ColorLUT::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ae866ac-6335-428a-bb11-ec793b69c2b7">ColorLUTParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534061(v=VS.85).aspx">ColorLUTParams</a>
  
 
  

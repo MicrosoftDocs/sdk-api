@@ -76,7 +76,7 @@ This property is write-only.
 
 
 
-<a href="https://msdn.microsoft.com/F7BA7EFB-D9DC-4FF2-97A4-C4818BCBD599">ICoreInputInterop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn302114(v=VS.85).aspx">ICoreInputInterop</a>
  
 
  

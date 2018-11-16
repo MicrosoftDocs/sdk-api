@@ -67,7 +67,7 @@ req.redist:
 
 
 Retrieves information about the specified window. The function also retrieves the value at a specified offset into the extra window memory. 
-<div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetWindowLongPtr</b>. When compiling for 32-bit Windows, <b>GetWindowLongPtr</b> is defined as a call to the <a href="https://msdn.microsoft.com/4c2b634d-1df8-44bb-825c-261eb13045ce">GetWindowLong</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetWindowLongPtr</b>. When compiling for 32-bit Windows, <b>GetWindowLongPtr</b> is defined as a call to the <a href="https://msdn.microsoft.com/en-us/library/ms633584(v=VS.85).aspx">GetWindowLong</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -143,7 +143,7 @@ Retrieves the identifier of the window.
 </dl>
 </td>
 <td width="60%">
-Retrieves the <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">window styles</a>.
+Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">window styles</a>.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Retrieves the user data associated with the window. This data is intended for us
 </dl>
 </td>
 <td width="60%">
-Retrieves the pointer to the window procedure, or a handle representing the pointer to the window procedure. You must use the <a href="https://msdn.microsoft.com/667449cd-1eea-43de-8268-3da73022d7ac">CallWindowProc</a> function to call the window procedure.
+Retrieves the pointer to the window procedure, or a handle representing the pointer to the window procedure. You must use the <a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a> function to call the window procedure.
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ The following values are also available when the <i>hWnd</i> parameter identifie
 </dl>
 </td>
 <td width="60%">
-Retrieves the pointer to the dialog box procedure, or a handle representing the pointer to the dialog box procedure. You must use the <a href="https://msdn.microsoft.com/667449cd-1eea-43de-8268-3da73022d7ac">CallWindowProc</a> function to call the dialog box procedure.
+Retrieves the pointer to the dialog box procedure, or a handle representing the pointer to the dialog box procedure. You must use the <a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a> function to call the dialog box procedure.
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ If the function succeeds, the return value is the requested value.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
 
-If <a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a> or <a href="https://msdn.microsoft.com/6c7c4f93-8b6b-403d-a8c7-954d69b37b59">SetWindowLongPtr</a> has not been called previously, <b>GetWindowLongPtr</b> returns zero for values in the extra window or class memory.
+If <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644898(v=VS.85).aspx">SetWindowLongPtr</a> has not been called previously, <b>GetWindowLongPtr</b> returns zero for values in the extra window or class memory.
 
 
 
@@ -240,7 +240,7 @@ If <a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">Set
 
 
 Reserve extra window memory by specifying a nonzero value in the 
-				<b>cbWndExtra</b> member of the <a href="https://msdn.microsoft.com/f7e60154-b52c-4dee-b6dd-b6a4882ad4a9">WNDCLASSEX</a> structure used with the <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> function. 
+				<b>cbWndExtra</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a> structure used with the <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. 
 
 
 
@@ -250,7 +250,7 @@ Reserve extra window memory by specifying a nonzero value in the
 
 
 
-<a href="https://msdn.microsoft.com/667449cd-1eea-43de-8268-3da73022d7ac">CallWindowProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a>
 
 
 
@@ -262,23 +262,23 @@ Reserve extra window memory by specifying a nonzero value in the
 
 
 
-<a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/a13f1cfc-dedc-4190-826f-b29b731e76df">SetParent</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633541(v=VS.85).aspx">SetParent</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c7c4f93-8b6b-403d-a8c7-954d69b37b59">SetWindowLongPtr</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644898(v=VS.85).aspx">SetWindowLongPtr</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7e60154-b52c-4dee-b6dd-b6a4882ad4a9">WNDCLASSEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ef633db-af76-42d6-b211-96846578eaac">Window Classes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632596(v=VS.85).aspx">Window Classes</a>
  
 
  

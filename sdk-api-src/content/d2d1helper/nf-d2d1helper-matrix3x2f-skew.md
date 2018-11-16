@@ -82,7 +82,7 @@ The y-axis skew angle, which is measured in degrees clockwise from the x-axis.
 
 ### -param center
 
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
 
 The point about which the skew is performed.
 
@@ -110,7 +110,7 @@ For example, the following illustration shows the rectangle skewed with y-axis s
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/bdc12ca3-eb0d-49ab-8ef7-f42f24fef7ff">How to Skew an Object</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/Dd756689(v=VS.85).aspx">How to Skew an Object</a>.
 
 <div class="code"></div>
 

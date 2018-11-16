@@ -59,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a> object based on an image, a defining rectangle, and a set of image properties.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a> object based on an image, a defining rectangle, and a set of image properties.
 
 
 ## -parameters
@@ -113,7 +113,7 @@ Optional. Pointer to an <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-8
 
 
 
-<a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534512(v=VS.85).aspx">TextureBrush</a>
  
 
  

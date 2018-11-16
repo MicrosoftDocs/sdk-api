@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Sets the background color for an image list. This function only works if you add an icon or use <a href="https://msdn.microsoft.com/ea3a3365-a453-4029-9556-f17275d373ea">ImageList_AddMasked</a> with a black and white bitmap. Without a mask, the entire image is drawn; hence the background color is not visible. 
+Sets the background color for an image list. This function only works if you add an icon or use <a href="https://msdn.microsoft.com/en-us/library/Bb761514(v=VS.85).aspx">ImageList_AddMasked</a> with a black and white bitmap. Without a mask, the entire image is drawn; hence the background color is not visible. 
 
 
 ## -parameters
@@ -73,7 +73,7 @@ A handle to the image list.
 
 ### -param clrBk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
 
 The background color to set. This parameter can be the CLR_NONE value; in that case, images are drawn transparently using the mask. 
 
@@ -82,7 +82,7 @@ The background color to set. This parameter can be the CLR_NONE value; in that c
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
 
 Returns the previous background color if successful, or CLR_NONE otherwise.
 

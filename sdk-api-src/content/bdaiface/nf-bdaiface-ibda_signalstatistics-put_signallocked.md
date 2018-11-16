@@ -88,15 +88,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee8b25d5-d39b-42ac-9f6a-0825e396241c">IBDA_SignalStatistics Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693432(v=VS.85).aspx">IBDA_SignalStatistics Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a67ff4b-1abc-43c4-b171-f9af90c5aaf7">IBDA_SignalStatistics::get_SignalLocked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693434(v=VS.85).aspx">IBDA_SignalStatistics::get_SignalLocked</a>
  
 
  

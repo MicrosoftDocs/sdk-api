@@ -161,7 +161,7 @@ If the item is a folder, gets an <a href="https://msdn.microsoft.com/07aed597-35
 
 #### BHID_Filter
 
-<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://msdn.microsoft.com/5fb7219a-608c-43f8-a8e3-48bbf0218c6e">IFilter</a>.
+<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>.
 
 
 
@@ -173,7 +173,7 @@ If the item is a folder, gets an <a href="https://msdn.microsoft.com/07aed597-35
 
 #### BHID_RandomAccessStream
 
-<b>Introduced in Windows 8</b>: Gets an <a href="https://msdn.microsoft.com/a9a4bd11-8c69-4826-9ea0-6f42421c8367">IRandomAccessStream</a> object for the item.
+<b>Introduced in Windows 8</b>: Gets an <a href="https://msdn.microsoft.com/en-us/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> object for the item.
 
 
 

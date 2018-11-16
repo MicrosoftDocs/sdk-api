@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Packs four byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/52e72437-3558-4789-844f-5ab5b0b7967c">IPM_SETADDRESS</a> message. 
+Packs four byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/en-us/library/Bb761380(v=VS.85).aspx">IPM_SETADDRESS</a> message. 
 
 
 ## -parameters
@@ -68,28 +68,28 @@ Packs four byte-values into a single LPARAM suitable for use with the <a href="h
 
 ### -param b1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
 The field 0 address. 
 
 
 ### -param b2
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
 The field 1 address. 
 
 
 ### -param b3
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
 The field 2 address. 
 
 
 ### -param b4
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
 The field 3 address. 
 

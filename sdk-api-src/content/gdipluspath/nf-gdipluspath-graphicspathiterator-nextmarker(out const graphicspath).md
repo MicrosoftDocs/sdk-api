@@ -99,7 +99,7 @@ The first time you call the <b>GraphicsPathIterator::NextMarker</b> method of an
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object and adds five figures to the path. The calls to the <a href="https://msdn.microsoft.com/c0c82a33-88f6-4540-9cc9-5cad31a59e58">SetMarker</a> method place two markers in the path. The first marker is at the end of a figure, and the second marker is in the middle of a figure. The code passes the address of the <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. Then the code calls the iterator's <b>GraphicsPathIterator::NextMarker</b> method twice to obtain the second marker-delimited section of the path. Finally, the code draws the retrieved section of the path.
+The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object and adds five figures to the path. The calls to the <a href="https://msdn.microsoft.com/c0c82a33-88f6-4540-9cc9-5cad31a59e58">SetMarker</a> method place two markers in the path. The first marker is at the end of a figure, and the second marker is in the middle of a figure. The code passes the address of the <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. Then the code calls the iterator's <b>GraphicsPathIterator::NextMarker</b> method twice to obtain the second marker-delimited section of the path. Finally, the code draws the retrieved section of the path.
 
 
 ```cpp
@@ -165,7 +165,7 @@ VOID NextMarkerExample(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
 
 
 

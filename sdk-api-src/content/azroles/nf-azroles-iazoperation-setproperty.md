@@ -195,7 +195,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 
 
-You must call the <a href="https://msdn.microsoft.com/f6265bfa-c856-47db-a688-f5de25ef7157">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa377912(v=VS.85).aspx">Submit</a> method to persist any changes made by this method.
 
 
 

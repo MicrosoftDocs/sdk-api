@@ -356,7 +356,7 @@ Result   = test%2Ft%e%3Cs%20t.asp</pre>
 
 
 
-<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
  
 
  

@@ -79,7 +79,7 @@ A pointer to a <b>VARIANT_BOOL</b> variable to receive the refresh indicator.
 <h3>C++</h3>
  If the method succeeds, the method returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>BOOL</b> that indicates whether the client's policy service is out of date.
@@ -91,7 +91,7 @@ The return value is a <b>BOOL</b> that indicates whether the client's policy ser
 
 
 
-The <b>GetRefreshPolicy</b> method returns <b>TRUE</b> only when the enrollment server returns a fault. Before calling the <b>GetRefreshPolicy</b> method you must contact the enrollment server. If a fault is returned, then call  the <b>GetRefreshPolicy</b> method from same instance of <a href="https://msdn.microsoft.com/01de2ac0-4844-41a6-acef-e3e83b350393">ICertRequest3</a> to determine whether  the cached policy is out of date and needs to be refreshed.
+The <b>GetRefreshPolicy</b> method returns <b>TRUE</b> only when the enrollment server returns a fault. Before calling the <b>GetRefreshPolicy</b> method you must contact the enrollment server. If a fault is returned, then call  the <b>GetRefreshPolicy</b> method from same instance of <a href="https://msdn.microsoft.com/en-us/library/Ee373776(v=VS.85).aspx">ICertRequest3</a> to determine whether  the cached policy is out of date and needs to be refreshed.
 
 
 

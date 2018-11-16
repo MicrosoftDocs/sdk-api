@@ -77,9 +77,9 @@ Specifies the <a href="https://msdn.microsoft.com/330DE59A-8098-4255-85DD-0C439D
 
 ### -param Type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/F6FA9ACE-0089-4C7B-99D7-FD286CF4B18D">D3D12_QUERY_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn903812(v=VS.85).aspx">D3D12_QUERY_TYPE</a></b>
 
-Specifies one member of <a href="https://msdn.microsoft.com/F6FA9ACE-0089-4C7B-99D7-FD286CF4B18D">D3D12_QUERY_TYPE</a>.
+Specifies one member of <a href="https://msdn.microsoft.com/en-us/library/Dn903812(v=VS.85).aspx">D3D12_QUERY_TYPE</a>.
           
 
 
@@ -105,13 +105,13 @@ This method does not return a value.
 
 
 
-Refer to the remarks for <a href="https://msdn.microsoft.com/38011ED8-C867-4ECE-880F-3963A17790F7">BeginQuery</a>, and to <a href="https://msdn.microsoft.com/D7403B5D-7E1B-4DD2-AE45-52E1153233C6">Queries</a>.
+Refer to the remarks for <a href="https://msdn.microsoft.com/en-us/library/Dn903838(v=VS.85).aspx">BeginQuery</a>, and to <a href="https://msdn.microsoft.com/D7403B5D-7E1B-4DD2-AE45-52E1153233C6">Queries</a>.
         
 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::EndQuery</b> as follows:
+The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::EndQuery</b> as follows:
         
 
 
@@ -192,7 +192,7 @@ void D3D12PredicationQueries::PopulateCommandList()
 ```
 
 
-See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -204,7 +204,7 @@ See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Ex
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
  
 
  

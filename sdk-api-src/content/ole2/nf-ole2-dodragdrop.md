@@ -209,7 +209,7 @@ If the return value is DRAGDROP_S_CANCEL, the <b>DoDragDrop</b> function calls <
 
 To support touch or pen input, do not call <b>DoDragDrop</b> from your touch handler. Instead, call <b>DoDragDrop</b> from your handler for those mouse messages that the system synthesizes upon touch input.
 
-The application can identify synthesized messages by calling the <a href="https://msdn.microsoft.com/c2b978b4-165b-44a0-8091-580e82f7e310">GetMessageExtraInfo</a> function. For more information about using <b>GetMessageExtraInfo</b> to distinguish between mouse input and Windows Touch input,  see <a href="https://msdn.microsoft.com/dfdc5a97-aa0a-4011-8f61-6e405e28b6f8">Troubleshooting Applications</a>.
+The application can identify synthesized messages by calling the <a href="https://msdn.microsoft.com/en-us/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a> function. For more information about using <b>GetMessageExtraInfo</b> to distinguish between mouse input and Windows Touch input,  see <a href="https://msdn.microsoft.com/dfdc5a97-aa0a-4011-8f61-6e405e28b6f8">Troubleshooting Applications</a>.
 
 
 

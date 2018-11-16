@@ -259,7 +259,7 @@ RSM uses this file system info as the OMID. The format utilities (LDM, explorer,
 
 
 
-<a href="removable_storage_manager_functions.htm">On-Media-Identifier Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">On-Media-Identifier Management Functions</a>
  
 
  

@@ -60,7 +60,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetCompositingMode</b> method gets the compositing mode currently set for this 
-			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 ## -parameters
@@ -74,12 +74,12 @@ The <b>Graphics::GetCompositingMode</b> method gets the compositing mode current
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/5bc2691d-8d7d-4322-bdae-a3b8ceb2d963">CompositingMode</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534093(v=VS.85).aspx">CompositingMode</a></b>
 </strong>
 
 This method returns an element of the 
-						<a href="https://msdn.microsoft.com/5bc2691d-8d7d-4322-bdae-a3b8ceb2d963">CompositingMode</a> enumeration that indicates the compositing mode currently set for this 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534093(v=VS.85).aspx">CompositingMode</a> enumeration that indicates the compositing mode currently set for this 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 
@@ -88,8 +88,8 @@ This method returns an element of the
 
 
 
-Suppose you create a <a href="https://msdn.microsoft.com/8d5c8780-f03c-40b2-b237-e40121e3d6f6">SolidBrush</a> object based on a color that has an alpha component of 192, which is about 75 percent of 255. If your 
-				<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object has its compositing mode set to CompositingModeSourceOver, then areas filled with the solid brush are a blend that is 75 percent brush color and 25 percent background color. If your 
+Suppose you create a <a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a> object based on a color that has an alpha component of 192, which is about 75 percent of 255. If your 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object has its compositing mode set to CompositingModeSourceOver, then areas filled with the solid brush are a blend that is 75 percent brush color and 25 percent background color. If your 
 				<b>Graphics</b> object has its compositing mode set to CompositingModeSourceCopy, then the background color is not blended with the brush color. However, the color rendered by the brush has an intensity that is 75 percent of what it would be if the alpha component were 255.
 
 
@@ -98,8 +98,8 @@ Suppose you create a <a href="https://msdn.microsoft.com/8d5c8780-f03c-40b2-b237
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and sets its compositing mode to CompositingModeSourceCopy. The code creates a <a href="https://msdn.microsoft.com/8d5c8780-f03c-40b2-b237-e40121e3d6f6">SolidBrush</a> object based on a color with an alpha component of 128. The code passes the address of that brush to the
-<a href="https://msdn.microsoft.com/eff3454e-f4d7-4cc2-9385-268d9ced2715">Graphics::FillRectangle</a> method of the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and sets its compositing mode to CompositingModeSourceCopy. The code creates a <a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a> object based on a color with an alpha component of 128. The code passes the address of that brush to the
+<a href="https://msdn.microsoft.com/en-us/library/ms535957(v=VS.85).aspx">Graphics::FillRectangle</a> method of the 
 						<b>Graphics</b> object to fill a rectangle with a color that is not blended with the background color. The call to the <b>Graphics::GetCompositingMode</b> method of the 
 						<b>Graphics</b> object demonstrates how to obtain the compositing mode (which is already known in this case). The code determines whether the compositing mode is CompositingModeSourceCopy and if so, changes it to CompositingModeSourceOver. Then the code calls 
 						<b>Graphics::FillRectangle</b> a second time to fill a rectangle with a color that is a half-and-half blend of the brush color and the background color.
@@ -140,39 +140,39 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/f8c22d1a-b96b-4d16-928e-20adbae4c4a7">Alpha Blending Lines and Fills</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533803(v=VS.85).aspx">Alpha Blending Lines and Fills</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d37da31-6ab0-4054-8a98-64cfbf9225ec">Graphics::GetCompositingQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535701(v=VS.85).aspx">Graphics::GetCompositingQuality</a>
 
 
 
-<a href="https://msdn.microsoft.com/93367fac-4f61-4082-9f67-13028f1b8a94">Graphics::SetCompositingMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3544a81-d039-4bd6-89ea-d3883c95f7a9">Graphics::SetCompositingQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e633cb2-8b0f-4b6a-95d8-f494d5f972eb">HatchBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534459(v=VS.85).aspx">HatchBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/0257a23c-560e-472e-863a-6ab5881dc156">New Features</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536340(v=VS.85).aspx">New Features</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d5c8780-f03c-40b2-b237-e40121e3d6f6">SolidBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a7590ce-daf4-4892-a838-603e3f89b1bb">Using Compositing Mode to Control Alpha Blending</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533955(v=VS.85).aspx">Using Compositing Mode to Control Alpha Blending</a>
  
 
  

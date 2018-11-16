@@ -92,7 +92,7 @@ This parameter may have two different values. See remarks.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -103,7 +103,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-There are two constants defined in d3d9types.h that are designed to use with SetStreamSourceFreq: D3DSTREAMSOURCE_INDEXEDDATA and D3DSTREAMSOURCE_INSTANCEDATA. To see how to use the constants, see <a href="https://msdn.microsoft.com/d8d9b0c8-b1c4-406d-bf2a-9716d725aec7">Efficiently Drawing Multiple Instances of Geometry (Direct3D 9)</a>.
+There are two constants defined in d3d9types.h that are designed to use with SetStreamSourceFreq: D3DSTREAMSOURCE_INDEXEDDATA and D3DSTREAMSOURCE_INSTANCEDATA. To see how to use the constants, see <a href="https://msdn.microsoft.com/en-us/library/Bb173349(v=VS.85).aspx">Efficiently Drawing Multiple Instances of Geometry (Direct3D 9)</a>.
 
 
 
@@ -113,11 +113,11 @@ There are two constants defined in d3d9types.h that are designed to use with Set
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/7be2e5bd-c105-451e-b195-43b296b3a9bd">IDirect3DDevice9::GetStreamSourceFreq</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174410(v=VS.85).aspx">IDirect3DDevice9::GetStreamSourceFreq</a>
  
 
  

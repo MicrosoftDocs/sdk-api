@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can use this macro or send the <a href="https://msdn.microsoft.com/b14b35ad-bae0-4461-a90f-e2bc5e2ccfc2">PSM_INDEXTOPAGE</a> message explicitly.
+Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774589(v=VS.85).aspx">PSM_INDEXTOPAGE</a> message explicitly.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ Zero-based index of the page.
 
 
 
-<a href="https://msdn.microsoft.com/e93d4d3f-a046-4f2b-8eab-91bf33c7cd1d">PropSheet_PageToIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774664(v=VS.85).aspx">PropSheet_PageToIndex</a>
  
 
  

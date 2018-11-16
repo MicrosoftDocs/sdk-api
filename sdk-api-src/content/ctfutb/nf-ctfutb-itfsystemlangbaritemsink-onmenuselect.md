@@ -67,7 +67,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param wID [in]
 
-Specifies the identifier of the menu item selected. This is the value passed for <i>uId</i> in <a href="https://msdn.microsoft.com/c00048d1-d7c1-4ea3-a132-5f5aa570148f">ITfMenu::AddMenuItem</a>.
+Specifies the identifier of the menu item selected. This is the value passed for <i>uId</i> in <a href="https://msdn.microsoft.com/en-us/library/ms628781(v=VS.85).aspx">ITfMenu::AddMenuItem</a>.
 
 
 ## -returns
@@ -119,7 +119,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/a88b20ec-fc54-4814-9ca1-131664b4f377">ITfSystemLangBarItemSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628957(v=VS.85).aspx">ITfSystemLangBarItemSink</a>
  
 
  

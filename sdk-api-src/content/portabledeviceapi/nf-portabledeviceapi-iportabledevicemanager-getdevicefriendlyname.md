@@ -150,7 +150,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 
-A device is not required to support this method. If this method fails to retrieve a name, try requesting the <a href="object_properties.htm">WPD_OBJECT_NAME</a> property of the device object (the object with the ID WPD_DEVICE_OBJECT_ID).
+A device is not required to support this method. If this method fails to retrieve a name, try requesting the <a href="https://msdn.microsoft.com/en-us/library/Dd375704(v=VS.85).aspx">WPD_OBJECT_NAME</a> property of the device object (the object with the ID WPD_DEVICE_OBJECT_ID).
 
 
 

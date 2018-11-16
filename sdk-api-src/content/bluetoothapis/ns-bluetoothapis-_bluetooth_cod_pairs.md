@@ -86,7 +86,7 @@ See the Bluetooth specification at
 
 
 
-<a href="https://msdn.microsoft.com/34ab348b-ce5d-422a-9bec-adbefa4a5ea0">BLUETOOTH_SELECT_DEVICE_PARAMS </a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS </a>
  
 
  

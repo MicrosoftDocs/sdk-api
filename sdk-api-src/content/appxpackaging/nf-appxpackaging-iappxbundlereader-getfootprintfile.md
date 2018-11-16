@@ -114,7 +114,7 @@ The <i>fileType</i> parameter is not a valid value in the <a href="https://msdn.
 The bundle doesn't contain a footprint file of the specified type.
 
 
-<a href="https://msdn.microsoft.com/BD60CD3E-2C08-4B97-B311-00C0EEBEF752">GetFootprintFile</a> can return this error for the <a href="appx_bundle_footprint_file_type.htm">APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE</a> type.
+<a href="https://msdn.microsoft.com/BD60CD3E-2C08-4B97-B311-00C0EEBEF752">GetFootprintFile</a> can return this error for the <a href="https://msdn.microsoft.com/en-us/library/Dn280275(v=VS.85).aspx">APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE</a> type.
 
 </td>
 </tr>

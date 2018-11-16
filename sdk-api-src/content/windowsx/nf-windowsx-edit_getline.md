@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves a line of text from an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/ff56d2c6-5013-46c6-90d8-ee2bdc9074b1">EM_GETLINE</a> message explicitly.
+Retrieves a line of text from an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761584(v=VS.85).aspx">EM_GETLINE</a> message explicitly.
 
 
 ## -parameters
@@ -99,7 +99,7 @@ The maximum number of characters to be copied to the buffer.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/ff56d2c6-5013-46c6-90d8-ee2bdc9074b1">EM_GETLINE</a>
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761584(v=VS.85).aspx">EM_GETLINE</a>
 
 
 

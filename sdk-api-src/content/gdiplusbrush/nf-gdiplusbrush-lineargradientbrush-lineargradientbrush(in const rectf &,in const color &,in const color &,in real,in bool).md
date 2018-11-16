@@ -122,7 +122,7 @@ where ß is the new angle of the directional line; width and height are the dime
 
 
 
-<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
  
 
  

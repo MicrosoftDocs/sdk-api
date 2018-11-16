@@ -76,7 +76,7 @@ TBD
 #### - ppOwner [out]
 
 Null-terminated string that contains the string version of the SID that identifies the job's owner. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>ppOwner</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppOwner</i> when done.
 
 
 ## -returns
@@ -126,9 +126,9 @@ To convert the string format of the SID into a domain\user-name format, which is
 
 <ul>
 <li>To convert the string SID to a SID, call the 
-<a href="https://msdn.microsoft.com/bf7262e3-ad2c-44c4-99cb-dcf29ad36efd">ConvertStringSidToSid</a> function.</li>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376402(v=VS.85).aspx">ConvertStringSidToSid</a> function.</li>
 <li>To retrieve the domain and user name associated with the SID, call the 
-<a href="https://msdn.microsoft.com/b8a44ffc-86e1-4f79-ad51-8340da9eaefd">LookupAccountSid</a> function.</li>
+<a href="https://msdn.microsoft.com/en-us/library/Aa379166(v=VS.85).aspx">LookupAccountSid</a> function.</li>
 </ul>
 
 
@@ -138,7 +138,7 @@ To convert the string format of the SID into a domain\user-name format, which is
 
 
 
-<a href="https://msdn.microsoft.com/12ac2dd8-516b-4b5d-a2bf-0abb55d18ee0">IBackgroundCopyJob::TakeOwnership</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363049(v=VS.85).aspx">IBackgroundCopyJob::TakeOwnership</a>
  
 
  

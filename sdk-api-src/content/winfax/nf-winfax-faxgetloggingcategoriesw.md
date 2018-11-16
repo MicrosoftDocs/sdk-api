@@ -71,25 +71,25 @@ The <b>FaxGetLoggingCategories</b> function returns to a fax client application 
 
 Type: <b>HANDLE</b>
 
-Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a> function.
+Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function.
 
 
 ### -param Categories [out]
 
 Type: <b>PFAX_LOG_CATEGORY*</b>
 
-Pointer to the address of a buffer to receive an array of <a href="https://msdn.microsoft.com/125addbb-5567-4ddc-9d48-e05ae93ec075">FAX_LOG_CATEGORY</a> structures. Each structure describes one current logging category. The data includes the descriptive name of the logging category, the category number, and the current logging level. 
+Pointer to the address of a buffer to receive an array of <a href="https://msdn.microsoft.com/en-us/library/ms690890(v=VS.85).aspx">FAX_LOG_CATEGORY</a> structures. Each structure describes one current logging category. The data includes the descriptive name of the logging category, the category number, and the current logging level. 
 
                     
 
-For a description of predefined logging categories and logging levels, see the <a href="https://msdn.microsoft.com/125addbb-5567-4ddc-9d48-e05ae93ec075">FAX_LOG_CATEGORY</a> topic. For information about memory allocation, see the following Remarks section.
+For a description of predefined logging categories and logging levels, see the <a href="https://msdn.microsoft.com/en-us/library/ms690890(v=VS.85).aspx">FAX_LOG_CATEGORY</a> topic. For information about memory allocation, see the following Remarks section.
 
 
 ### -param NumberCategories [out]
 
 Type: <b>LPDWORD</b>
 
-Pointer to a <b>DWORD</b> variable to receive the number of <a href="https://msdn.microsoft.com/125addbb-5567-4ddc-9d48-e05ae93ec075">FAX_LOG_CATEGORY</a> structures the function returns in the <i>Categories</i> parameter.
+Pointer to a <b>DWORD</b> variable to receive the number of <a href="https://msdn.microsoft.com/en-us/library/ms690890(v=VS.85).aspx">FAX_LOG_CATEGORY</a> structures the function returns in the <i>Categories</i> parameter.
 
 
 ## -returns
@@ -114,7 +114,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-Access is denied. <a href="https://msdn.microsoft.com/7d6ff208-33e4-42b2-ae21-76ec8ff58809">FAX_CONFIG_QUERY</a> access is required.
+Access is denied. <a href="https://msdn.microsoft.com/en-us/library/ms692302(v=VS.85).aspx">FAX_CONFIG_QUERY</a> access is required.
 
 </td>
 </tr>
@@ -150,11 +150,11 @@ An error occurred during memory allocation.
 
 
 
-A fax client application typically calls the <b>FaxGetLoggingCategories</b> function to query the current logging categories and logging levels for a fax server. To modify the current logging categories and levels, call the <a href="https://msdn.microsoft.com/4faddf91-a689-4247-86af-8d6dbc1b6af3">FaxSetLoggingCategories</a> function.
+A fax client application typically calls the <b>FaxGetLoggingCategories</b> function to query the current logging categories and logging levels for a fax server. To modify the current logging categories and levels, call the <a href="https://msdn.microsoft.com/en-us/library/ms691374(v=VS.85).aspx">FaxSetLoggingCategories</a> function.
 
-The <b>FaxGetLoggingCategories</b> function allocates the memory required for the <a href="https://msdn.microsoft.com/125addbb-5567-4ddc-9d48-e05ae93ec075">FAX_LOG_CATEGORY</a> buffer array pointed to by the <i>Categories</i> parameter. An application must call the <a href="https://msdn.microsoft.com/9a7eedc8-e00f-40e8-a9f4-8e919012ed47">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter.
+The <b>FaxGetLoggingCategories</b> function allocates the memory required for the <a href="https://msdn.microsoft.com/en-us/library/ms690890(v=VS.85).aspx">FAX_LOG_CATEGORY</a> buffer array pointed to by the <i>Categories</i> parameter. An application must call the <a href="https://msdn.microsoft.com/en-us/library/ms692846(v=VS.85).aspx">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter.
 
-For more information, see <a href="https://msdn.microsoft.com/958fecf7-a787-4f86-bc67-53f7564ec43a">Managing Logging Categories</a> and <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690748(v=VS.85).aspx">Managing Logging Categories</a> and <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
 
 
@@ -164,27 +164,27 @@ For more information, see <a href="https://msdn.microsoft.com/958fecf7-a787-4f86
 
 
 
-<a href="https://msdn.microsoft.com/125addbb-5567-4ddc-9d48-e05ae93ec075">FAX_LOG_CATEGORY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690890(v=VS.85).aspx">FAX_LOG_CATEGORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a7eedc8-e00f-40e8-a9f4-8e919012ed47">FaxFreeBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692846(v=VS.85).aspx">FaxFreeBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/4faddf91-a689-4247-86af-8d6dbc1b6af3">FaxSetLoggingCategories</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691374(v=VS.85).aspx">FaxSetLoggingCategories</a>
  
 
  

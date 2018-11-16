@@ -141,7 +141,7 @@ Typically NULL. Otherwise, this is a pointer to an
 Pointer to the caller's implementation of 
 <a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a>. This handler receives the objects as they become available. If any error code is returned, then the supplied 
 <b>IWbemObjectSink</b> pointer is not used. If <b>WBEM_S_NO_ERROR</b> is returned, then the user's 
-<b>IWbemObjectSink</b> implementation will be called to indicate the result of the operation. Windows Management only calls <a href="_com_iunknown_addref">AddRef</a> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For more information, see 
+<b>IWbemObjectSink</b> implementation will be called to indicate the result of the operation. Windows Management only calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For more information, see 
 <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 
 
@@ -234,7 +234,7 @@ HRESULT CStdProvider::CreateInstanceEnumAsync(
 ```
 
 
-In the previous example, the instance provider acquires a thread from WMI to perform any necessary operations. You may want to call the sink <a href="_com_iunknown_addref">AddRef</a> method and create another thread for delivering the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether or not  the provider chooses the single thread design over the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
+In the previous example, the instance provider acquires a thread from WMI to perform any necessary operations. You may want to call the sink <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method and create another thread for delivering the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether or not  the provider chooses the single thread design over the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
 
 <div class="code"></div>
 

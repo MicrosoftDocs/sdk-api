@@ -105,7 +105,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="https://msdn.microsoft.com/34ff3420-a1d2-46cc-9378-4b3340bec8c8">Carets</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646968(v=VS.85).aspx">Carets</a>
 
 
 
@@ -125,7 +125,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="https://msdn.microsoft.com/0a8d4ca6-d409-4468-b29a-552adbea0918">SetCaretPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
  
 
  

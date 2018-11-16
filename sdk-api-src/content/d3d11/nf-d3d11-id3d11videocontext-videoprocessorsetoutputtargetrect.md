@@ -106,7 +106,7 @@ If this method is never called, or if the <i>Enable</i> parameter is <b>FALSE</b
 
 
 
-<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447703(v=VS.85).aspx">ID3D11VideoContext</a>
  
 
  

@@ -55,9 +55,9 @@ Use this interface to request file ranges for On Demand download jobs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile6</b> interface inherits from <a href="https://msdn.microsoft.com/548b507a-4874-4ccf-829e-13e1ca6cc958">IBackgroundCopyFile5</a>. <b>IBackgroundCopyFile6</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile6</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Mt147017(v=VS.85).aspx">IBackgroundCopyFile5</a>. <b>IBackgroundCopyFile6</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IBackgroundCopyFile6</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D3549C42-6642-4C3C-9D97-6F2F9732C48E">GetFilledFileRanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt492764(v=VS.85).aspx">GetFilledFileRanges</a>
 </td>
 <td align="left" width="63%">
 Returns the set of file ranges that have been downloaded.
@@ -79,7 +79,7 @@ Returns the set of file ranges that have been downloaded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C36BDE94-03AC-4F06-B17B-B8729226F8AC">RequestFileRanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt492766(v=VS.85).aspx">RequestFileRanges</a>
 </td>
 <td align="left" width="63%">
 Adds a new set of file ranges to be prioritized for download. 
@@ -88,7 +88,7 @@ Adds a new set of file ranges to be prioritized for download.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/243F9D5A-32D8-4D39-A9B2-E452CF745844">UpdateDownloadPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt492767(v=VS.85).aspx">UpdateDownloadPosition</a>
 </td>
 <td align="left" width="63%">
 Specifies a position to prioritize downloading missing data from.  
@@ -113,23 +113,23 @@ To get an <b>IBackgroundCopyFile6</b> interface    pointer, call the <b>IBackgro
 
 
 
-<a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362881(v=VS.85).aspx">IBackgroundCopyFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/facff24d-56a3-4a1f-a726-3442c17fe869">IBackgroundCopyFile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362944(v=VS.85).aspx">IBackgroundCopyFile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5304f93a-993a-4327-9fdb-fb2ef1dafecb">IBackgroundCopyFile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362952(v=VS.85).aspx">IBackgroundCopyFile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/d404c4f8-cc97-4254-bca8-41bc359f0777">IBackgroundCopyFile4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd904468(v=VS.85).aspx">IBackgroundCopyFile4</a>
 
 
 
-<a href="https://msdn.microsoft.com/548b507a-4874-4ccf-829e-13e1ca6cc958">IBackgroundCopyFile5</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt147017(v=VS.85).aspx">IBackgroundCopyFile5</a>
  
 
  

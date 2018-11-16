@@ -89,7 +89,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This API must be called from the UI thread to create <a href="https://msdn.microsoft.com/675ca745-c593-4714-9fae-5fcab2c0336e">ICoreInputSourceBase</a> object. The object created using this API can be used only in that thread in which it was created. 
 
-If the call is successful, the  caller can call <b>QueryInterface</b> on the returned <a href="https://msdn.microsoft.com/675ca745-c593-4714-9fae-5fcab2c0336e">ICoreInputSourceBase</a> object to obtain the <a href="https://msdn.microsoft.com/F7BA7EFB-D9DC-4FF2-97A4-C4818BCBD599">ICoreInputInterop</a> object that created it.
+If the call is successful, the  caller can call <b>QueryInterface</b> on the returned <a href="https://msdn.microsoft.com/675ca745-c593-4714-9fae-5fcab2c0336e">ICoreInputSourceBase</a> object to obtain the <a href="https://msdn.microsoft.com/en-us/library/Dn302114(v=VS.85).aspx">ICoreInputInterop</a> object that created it.
 
 
 

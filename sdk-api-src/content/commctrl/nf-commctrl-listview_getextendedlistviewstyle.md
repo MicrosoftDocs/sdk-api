@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the extended styles that are currently in use for a given list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/5cfccdb8-a81c-4fa9-a4fa-19cf49bd6ce0">LVM_GETEXTENDEDLISTVIEWSTYLE</a> message explicitly. 
+Gets the extended styles that are currently in use for a given list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774923(v=VS.85).aspx">LVM_GETEXTENDEDLISTVIEWSTYLE</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Gets the extended styles that are currently in use for a given list-view control
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to a list-view control. 
 

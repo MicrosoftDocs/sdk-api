@@ -72,7 +72,7 @@ This property is read/write.
 
 
 
-You can call the <a href="https://msdn.microsoft.com/aa7c3325-c897-49e3-b38c-ff1efead5f26">AppendText</a> method to add information to the message.
+You can call the <a href="https://msdn.microsoft.com/en-us/library/Aa377820(v=VS.85).aspx">AppendText</a> method to add information to the message.
 
 
 
@@ -82,7 +82,7 @@ You can call the <a href="https://msdn.microsoft.com/aa7c3325-c897-49e3-b38c-ff1
 
 
 
-<a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377818(v=VS.85).aspx">IX509EnrollmentStatus</a>
  
 
  

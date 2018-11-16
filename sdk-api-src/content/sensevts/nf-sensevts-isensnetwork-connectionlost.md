@@ -143,7 +143,7 @@ SENS calls this method to notify your application that the specified connection 
 			
 
 Filtering can be performed on the publisher property <i>ulConnectionLostType</i> by setting it to either CONNECTION_LAN or CONNECTION_WAN or both. Use 
-<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a> to set the publisher property.
+<a href="https://msdn.microsoft.com/en-us/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a> to set the publisher property.
 
 
 
@@ -157,11 +157,11 @@ Filtering can be performed on the publisher property <i>ulConnectionLostType</i>
 
 
 
-<a href="_cos_ieventsubscription">IEventSubscription</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
 
 
 
-<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
 
 
 

@@ -88,14 +88,14 @@ The identifier or position of the menu item to change. The meaning of this param
 
 Type: <b>BOOL</b>
 
-The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="https://msdn.microsoft.com/fd0b26f1-93cd-421b-9097-8502ab7681e9">About Menus</a> for more information.
+The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="https://msdn.microsoft.com/en-us/library/ms647553(v=VS.85).aspx">About Menus</a> for more information.
 
 
 ### -param lpmii [in]
 
 Type: <b>LPMENUITEMINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/43d30b39-c1e1-4711-97a2-b5bc29dad9df">MENUITEMINFO</a> structure that contains information about the menu item and specifies which menu item attributes to change. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms647578(v=VS.85).aspx">MENUITEMINFO</a> structure that contains information about the menu item and specifies which menu item attributes to change. 
 
 
 ## -returns
@@ -115,14 +115,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The application must call the <a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window.
+The application must call the <a href="https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window.
 
-In order for keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://msdn.microsoft.com/de6c91bb-80fd-44b2-8d96-d016477a6547">WM_MENUCHAR</a> message. See <a href="using_menus.htm">Owner-Drawn Menus and the WM_MENUCHAR Message</a> for more information.
+In order for keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://msdn.microsoft.com/en-us/library/ms646349(v=VS.85).aspx">WM_MENUCHAR</a> message. See <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Owner-Drawn Menus and the WM_MENUCHAR Message</a> for more information.
 
 
 #### Examples
 
-For an example, see <a href="using_menus.htm">Example of Owner-Drawn Menu Items</a>. 
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Example of Owner-Drawn Menu Items</a>. 
 
 
 
@@ -139,19 +139,19 @@ For an example, see <a href="using_menus.htm">Example of Owner-Drawn Menu Items<
 
 
 
-<a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx">DrawMenuBar</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a2c9135-510b-4ccf-bdba-35ffabc49d5c">GetMenuItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/43d30b39-c1e1-4711-97a2-b5bc29dad9df">MENUITEMINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647578(v=VS.85).aspx">MENUITEMINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
 
 
 

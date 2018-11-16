@@ -88,7 +88,7 @@ the function returns a different <a href="https://msdn.microsoft.com/4a3a8feb-a0
 
 
 
-<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Failover Cluster Resource Management Functions</a>
  
 
  

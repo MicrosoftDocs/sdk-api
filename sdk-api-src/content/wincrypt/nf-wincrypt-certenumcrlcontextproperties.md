@@ -99,7 +99,7 @@ The return value is a <b>DWORD</b> value that identifies a CRL context's propert
 
 
 
-<a href="cryptography_functions.htm">Extended Property Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Extended Property Functions</a>
  
 
  

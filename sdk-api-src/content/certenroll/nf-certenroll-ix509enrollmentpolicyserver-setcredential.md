@@ -73,7 +73,7 @@ Parent window handle.
 
 ### -param flag [in]
 
-An <a href="https://msdn.microsoft.com/84a7e6e3-dfbb-4c27-af63-e521103e1b00">X509EnrollmentAuthFlags</a> enumeration value that specifies the authentication type. This can be one of the following values.
+An <a href="https://msdn.microsoft.com/en-us/library/Ee373782(v=VS.85).aspx">X509EnrollmentAuthFlags</a> enumeration value that specifies the authentication type. This can be one of the following values.
 
 <table>
 <tr>
@@ -140,7 +140,7 @@ A <b>BSTR</b> variable that contains the password.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -207,7 +207,7 @@ The <i>strCredential</i> and <i>strPassword</i> arguments will change depending 
 
 
 
-<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
  
 
  

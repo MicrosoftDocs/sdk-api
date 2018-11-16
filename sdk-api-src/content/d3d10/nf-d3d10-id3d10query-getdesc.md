@@ -68,9 +68,9 @@ Get a query description.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/50fab3df-78f7-4bac-b353-0e840873f13e">D3D10_QUERY_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172405(v=VS.85).aspx">D3D10_QUERY_DESC</a>*</b>
 
-Pointer to a query description (see <a href="https://msdn.microsoft.com/50fab3df-78f7-4bac-b353-0e840873f13e">D3D10_QUERY_DESC</a>).
+Pointer to a query description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172405(v=VS.85).aspx">D3D10_QUERY_DESC</a>).
 
 
 ## -returns
@@ -87,7 +87,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/ffa69b76-ce8d-4386-b0be-fecada85d37c">ID3D10Query Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173823(v=VS.85).aspx">ID3D10Query Interface</a>
  
 
  

@@ -68,7 +68,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device for which to get the device status. This handle is created by using the 
-<a href="base.createfile">CreateFile</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
 
 
 ## -returns
@@ -287,7 +287,7 @@ The media is write protected.
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
  
 
  

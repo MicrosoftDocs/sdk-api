@@ -142,7 +142,7 @@ Pointer to a structure that contains the information to set. The type of structu
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code. For more information, see 
-the "LSA Policy Function Return Values" section of <a href="management_return_values.htm">Security Management Return Values</a>.
+the "LSA Policy Function Return Values" section of <a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">Security Management Return Values</a>.
 
 You can use the 
 <a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.

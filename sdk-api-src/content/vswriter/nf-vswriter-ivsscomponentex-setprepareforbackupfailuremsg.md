@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Sets a <a href="vssgloss_p.htm">PrepareForBackup</a> failure message string for a component.
+Sets a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> failure message string for a component.
 
 This method can only be called by a writer's <a href="https://msdn.microsoft.com/4e88d92b-48f3-42f9-bf66-61337a745902">CVssWriter::OnPrepareBackup</a> method.
 
@@ -72,7 +72,7 @@ This method can only be called by a writer's <a href="https://msdn.microsoft.com
 ### -param wszFailureMsg [in]
 
 The address of a caller-allocated <b>NULL</b>-terminated wide character string containing the failure message that describes an error that occurred 
-      while processing a <a href="vssgloss_p.htm">PrepareForBackup</a> 
+      while processing a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> 
       event.
 
 

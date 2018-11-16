@@ -60,7 +60,7 @@ Describes a trace register.
 
 ### -field RegType
 
-A <a href="https://msdn.microsoft.com/94B0BA0B-94DB-4449-8E3B-EEB1F6B85FB5">D3D11_TRACE_REGISTER_TYPE</a>-typed value that identifies the type of register that the shader-trace object uses.
+A <a href="https://msdn.microsoft.com/en-us/library/Hh404535(v=VS.85).aspx">D3D11_TRACE_REGISTER_TYPE</a>-typed value that identifies the type of register that the shader-trace object uses.
           
 
 
@@ -142,7 +142,7 @@ The following register types do not require an index:
 
 
 
-<a href="https://msdn.microsoft.com/3b8ece5c-5065-4711-b12c-06cf7ea0e1ba">Shader Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476176(v=VS.85).aspx">Shader Structures</a>
  
 
  

@@ -57,7 +57,7 @@ req.redist:
 
 
 The <b>mouse_event</b> function synthesizes mouse motion and button clicks.
-<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a> instead.</div><div> </div>
 
 ## -parameters
 
@@ -300,7 +300,7 @@ Set if the second X button was pressed or released.
 
 Type: <b>ULONG_PTR</b>
 
-An additional value associated with the mouse event. An application calls <a href="https://msdn.microsoft.com/c2b978b4-165b-44a0-8091-580e82f7e310">GetMessageExtraInfo</a> to obtain this extra information. 
+An additional value associated with the mouse event. An application calls <a href="https://msdn.microsoft.com/en-us/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a> to obtain this extra information. 
 
 
 ## -returns
@@ -349,11 +349,11 @@ The <b>mouse_event</b> function is used to synthesize mouse events by applicatio
 
 
 
-<a href="https://msdn.microsoft.com/c2b978b4-165b-44a0-8091-580e82f7e310">GetMessageExtraInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 

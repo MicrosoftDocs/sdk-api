@@ -99,7 +99,7 @@ The alpha value of the color to be constructed. An alpha channel value ranges fr
 
 
 
-<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756651(v=VS.85).aspx">Brushes Overview</a>
 
 
 

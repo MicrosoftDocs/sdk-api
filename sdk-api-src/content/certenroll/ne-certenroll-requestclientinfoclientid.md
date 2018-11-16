@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>RequestClientInfoClientId</b> enumeration  specifies the type of application that created a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>.  This can be used to initialize a <a href="https://msdn.microsoft.com/82b773e3-7d47-4c85-a6b3-c8ef3e67630a">IX509AttributeClientId</a> object that contains information about the client. It is also used by the <a href="https://msdn.microsoft.com/5425c9ab-565d-449d-87e1-e5765868acfb">IX509CertificateRequest</a> interface.
+The <b>RequestClientInfoClientId</b> enumeration  specifies the type of application that created a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate request</a>.  This can be used to initialize a <a href="https://msdn.microsoft.com/en-us/library/Aa377073(v=VS.85).aspx">IX509AttributeClientId</a> object that contains information about the client. It is also used by the <a href="https://msdn.microsoft.com/en-us/library/Aa377123(v=VS.85).aspx">IX509CertificateRequest</a> interface.
 
 
 ## -enum-fields
@@ -85,7 +85,7 @@ Specifies the Certreq.exe command-line tool that is available on Windows Server�
 
 ### -field ClientIdDefaultRequest
 
-Specifies the default certificate request object that is available starting with Windows Vista. This is represented by the <a href="https://msdn.microsoft.com/5425c9ab-565d-449d-87e1-e5765868acfb">IX509CertificateRequest</a> interface and is the default value if the client ID is not set by the caller.
+Specifies the default certificate request object that is available starting with Windows Vista. This is represented by the <a href="https://msdn.microsoft.com/en-us/library/Aa377123(v=VS.85).aspx">IX509CertificateRequest</a> interface and is the default value if the client ID is not set by the caller.
 
 
 ### -field ClientIdAutoEnroll
@@ -126,19 +126,19 @@ This is the base value for custom applications.
 
 
 
-<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374846(v=VS.85).aspx">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/82b773e3-7d47-4c85-a6b3-c8ef3e67630a">IX509AttributeClientId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377073(v=VS.85).aspx">IX509AttributeClientId</a>
 
 
 
-<a href="https://msdn.microsoft.com/5425c9ab-565d-449d-87e1-e5765868acfb">IX509CertificateRequest</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377123(v=VS.85).aspx">IX509CertificateRequest</a>
  
 
  

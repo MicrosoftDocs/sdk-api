@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Sets the display of a date and time picker (DTP) control based on a given format string. You can use this macro or send the <a href="https://msdn.microsoft.com/a89fa3ad-9894-4c52-ab56-fb62208e39b3">DTM_SETFORMAT</a> message explicitly. 
+Sets the display of a date and time picker (DTP) control based on a given format string. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761771(v=VS.85).aspx">DTM_SETFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -68,16 +68,16 @@ Sets the display of a date and time picker (DTP) control based on a given format
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to a DTP control. 
 
 
 ### -param sz
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCTSTR</a></b>
 
-A pointer to a zero-terminated <a href="Date_and_Time_Picker_Controls.htm">format string</a> that defines the desired display. Setting this parameter to <b>NULL</b> will reset the control to the default format string for the current style. 
+A pointer to a zero-terminated <a href="https://msdn.microsoft.com/en-us/library/Bb761726(v=VS.85).aspx">format string</a> that defines the desired display. Setting this parameter to <b>NULL</b> will reset the control to the default format string for the current style. 
 
 
 ## -remarks

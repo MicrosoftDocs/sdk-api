@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>_NewEnum</b> property retrieves an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on an object that can be used to enumerate the <a href="https://msdn.microsoft.com/9d17647c-3ff9-4881-a02f-d7bcb508e102">IAzRoleDefinitions</a> collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+The <b>_NewEnum</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an object that can be used to enumerate the <a href="https://msdn.microsoft.com/9d17647c-3ff9-4881-a02f-d7bcb508e102">IAzRoleDefinitions</a> collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 This property is read-only.
 

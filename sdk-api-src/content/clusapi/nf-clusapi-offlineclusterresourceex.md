@@ -199,7 +199,7 @@ The size of <i>lpInBuffer</i>, in bytes.
     <b>CLUSAPI_RESOURCE_OFFLINE_IGNORE_RESOURCE_LOCKED_STATUS</b> flag is not set and the resource 
     has indicated that it is “locked” in its current state.
 
-Similar to <a href="https://msdn.microsoft.com/CE56BA9D-3527-43D3-8656-EA0BBDF48B98">MoveClusterGroupEx</a>, if 
+Similar to <a href="https://msdn.microsoft.com/en-us/library/Hh418101(v=VS.85).aspx">MoveClusterGroupEx</a>, if 
     <b>OfflineClusterResourceEx</b> returns 
     <b>ERROR_IO_PENDING</b>, then the cluster service will attempt to bring the resource to the 
     offline state.
