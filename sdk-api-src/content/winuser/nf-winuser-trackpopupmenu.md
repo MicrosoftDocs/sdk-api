@@ -380,13 +380,9 @@ However, when the current window is the foreground window, the second time this 
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
    SetForegroundWindow(hDlg);
 
    // Display the menu
@@ -399,10 +395,10 @@ However, when the current window is the foreground window, the second time this 
                      NULL);
 
    PostMessage(hDlg, WM_NULL, 0, 0);
- </pre>
-</td>
-</tr>
-</table></span></div>
+ 
+```
+
+
 
 #### Examples
 

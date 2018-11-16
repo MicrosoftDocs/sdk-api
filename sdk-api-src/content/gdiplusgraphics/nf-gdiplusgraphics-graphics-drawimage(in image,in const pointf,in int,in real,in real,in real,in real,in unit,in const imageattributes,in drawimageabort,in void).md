@@ -177,13 +177,9 @@ The value of the
 
 The following example draws the original source image and then draws a portion of the image in a specified parallelogram.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_DrawImage4(HDC hdc)
+
+```cpp
+VOID Example_DrawImage4(HDC hdc)
 
 {
 
@@ -193,7 +189,7 @@ The following example draws the original source image and then draws a portion o
    Image image(L"pattern.png");
 
    // Draw the original source image.
-   graphics.DrawImage(&amp;image, 10, 10);
+   graphics.DrawImage(&image, 10, 10);
 
    // Define the portion of the image to draw.
    REAL srcX = 70.0f;
@@ -214,11 +210,11 @@ The following example draws the original source image and then draws a portion o
    ColorMap redToBlue;
    redToBlue.oldColor = Color(255, 255, 0, 0);
    redToBlue.newColor = Color(255, 0, 0, 255);
-   remapAttributes.SetRemapTable(1, &amp;redToBlue);
+   remapAttributes.SetRemapTable(1, &redToBlue);
 
    // Draw the cropped image.
    graphics.DrawImage(
-   &amp;image,
+   &image,
    pdestPoints,
    3,
    srcX,
@@ -226,13 +222,13 @@ The following example draws the original source image and then draws a portion o
    srcWidth,
    srcHeight,
    UnitPixel,
-   &amp;remapAttributes,
+   &remapAttributes,
    NULL,
    NULL);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The following illustration shows the output of the preceding code.
 
 <img alt="Illustration showing a multicolored checkerboard pattern, then an enlarged, two-toned subset of that pattern, sheared to a parallelogram" src="./images/drawimage2.png"/>

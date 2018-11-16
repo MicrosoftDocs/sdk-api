@@ -114,13 +114,9 @@ You call the <b>Dispatch</b> method to execute commands in a compute shader. A c
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12GraphicsCommandList::Dispatch</b> as follows:
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Run the particle simulation using the compute shader.
+
+```cpp
+// Run the particle simulation using the compute shader.
 void D3D12nBodyGravity::Simulate(UINT threadIndex)
 {
     ID3D12GraphicsCommandList* pCommandList = m_computeCommandList[threadIndex].Get();
@@ -141,29 +137,29 @@ void D3D12nBodyGravity::Simulate(UINT threadIndex)
         pUavResource = m_particleBuffer0[threadIndex].Get();
     }
 
-    pCommandList-&gt;ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(pUavResource, D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE, D3D12_RESOURCE_STATE_UNORDERED_ACCESS));
+    pCommandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(pUavResource, D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE, D3D12_RESOURCE_STATE_UNORDERED_ACCESS));
 
-    pCommandList-&gt;SetPipelineState(m_computeState.Get());
-    pCommandList-&gt;SetComputeRootSignature(m_computeRootSignature.Get());
+    pCommandList->SetPipelineState(m_computeState.Get());
+    pCommandList->SetComputeRootSignature(m_computeRootSignature.Get());
 
     ID3D12DescriptorHeap* ppHeaps[] = { m_srvUavHeap.Get() };
-    pCommandList-&gt;SetDescriptorHeaps(_countof(ppHeaps), ppHeaps);
+    pCommandList->SetDescriptorHeaps(_countof(ppHeaps), ppHeaps);
 
-    CD3DX12_GPU_DESCRIPTOR_HANDLE srvHandle(m_srvUavHeap-&gt;GetGPUDescriptorHandleForHeapStart(), srvIndex + threadIndex, m_srvUavDescriptorSize);
-    CD3DX12_GPU_DESCRIPTOR_HANDLE uavHandle(m_srvUavHeap-&gt;GetGPUDescriptorHandleForHeapStart(), uavIndex + threadIndex, m_srvUavDescriptorSize);
+    CD3DX12_GPU_DESCRIPTOR_HANDLE srvHandle(m_srvUavHeap->GetGPUDescriptorHandleForHeapStart(), srvIndex + threadIndex, m_srvUavDescriptorSize);
+    CD3DX12_GPU_DESCRIPTOR_HANDLE uavHandle(m_srvUavHeap->GetGPUDescriptorHandleForHeapStart(), uavIndex + threadIndex, m_srvUavDescriptorSize);
 
-    pCommandList-&gt;SetComputeRootConstantBufferView(RootParameterCB, m_constantBufferCS-&gt;GetGPUVirtualAddress());
-    pCommandList-&gt;SetComputeRootDescriptorTable(RootParameterSRV, srvHandle);
-    pCommandList-&gt;SetComputeRootDescriptorTable(RootParameterUAV, uavHandle);
+    pCommandList->SetComputeRootConstantBufferView(RootParameterCB, m_constantBufferCS->GetGPUVirtualAddress());
+    pCommandList->SetComputeRootDescriptorTable(RootParameterSRV, srvHandle);
+    pCommandList->SetComputeRootDescriptorTable(RootParameterUAV, uavHandle);
 
-    pCommandList-&gt;Dispatch(static_cast&lt;int&gt;(ceil(ParticleCount / 128.0f)), 1, 1);
+    pCommandList->Dispatch(static_cast<int>(ceil(ParticleCount / 128.0f)), 1, 1);
 
-    pCommandList-&gt;ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(pUavResource, D3D12_RESOURCE_STATE_UNORDERED_ACCESS, D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE));
+    pCommandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(pUavResource, D3D12_RESOURCE_STATE_UNORDERED_ACCESS, D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE));
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 

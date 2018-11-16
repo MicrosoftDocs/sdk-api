@@ -511,18 +511,14 @@ The <b>FormatMessage</b> function can be used to obtain
 <div class="code"></div>
 The following example shows how to use an argument array and the width and precision specifiers.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+#include <windows.h>
+#include <stdio.h>
 
 void main(void)
 {
@@ -550,25 +546,21 @@ void main(void)
     wprintf(L"Formatted message: %s\n", buffer);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following example shows how to implement the previous example using 
      <b>va_list</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+#include <windows.h>
+#include <stdio.h>
 
 LPWSTR GetFormattedMessage(LPWSTR pMessage, ...);
 
@@ -606,18 +598,18 @@ LPWSTR GetFormattedMessage(LPWSTR pMessage, ...)
                   pMessage, 
                   0,
                   0,
-                  (LPWSTR)&amp;pBuffer, 
+                  (LPWSTR)&pBuffer, 
                   0, 
-                  &amp;args);
+                  &args);
 
     va_end(args);
 
     return pBuffer;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

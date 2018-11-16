@@ -119,13 +119,9 @@ If the first and last coordinates in the
 
 The following example draws a polygon, defined by an array of points.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_DrawPolygon2(HDC hdc)
+
+```cpp
+VOID Example_DrawPolygon2(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -142,11 +138,11 @@ The following example draws a polygon, defined by an array of points.
    PointF* pPoints = points;
 
    // Draw the polygon.
-   graphics.DrawPolygon(&amp;blackPen, pPoints, 5);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawPolygon(&blackPen, pPoints, 5);
+}
+```
+
+
 
 
 

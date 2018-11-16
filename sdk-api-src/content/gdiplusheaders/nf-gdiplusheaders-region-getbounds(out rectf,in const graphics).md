@@ -112,13 +112,9 @@ The current world and page transformations of the graphics object are used to ca
 
 The following example creates a region from a path, gets the region's enclosing rectangle, and then displays both.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetBoundsRectF(HDC hdc)
+
+```cpp
+VOID Example_GetBoundsRectF(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -138,18 +134,18 @@ The following example creates a region from a path, gets the region's enclosing 
    path.AddClosedCurve(points, 6);
 
     // Create a region from a path.
-    Region pathRegion(&amp;path);
+    Region pathRegion(&path);
     
     // Get the region's enclosing rectangle.
-    pathRegion.GetBounds(&amp;rect, &amp;graphics);
+    pathRegion.GetBounds(&rect, &graphics);
 
     // Show the region and the enclosing rectangle.
-    graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
-    graphics.DrawRectangle(&amp;pen, rect);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    graphics.FillRegion(&solidBrush, &pathRegion);
+    graphics.DrawRectangle(&pen, rect);
+}
+```
+
+
 
 
 

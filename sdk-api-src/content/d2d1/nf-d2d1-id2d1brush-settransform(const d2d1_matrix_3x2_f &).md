@@ -103,13 +103,9 @@ The illustration on the right shows the result of transforming the <a href="http
 
 The following code examples show how to create the transformation shown in the right diagram in the preceding illustration. First apply a translation to the <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>, moving the brush 50 pixels right along the x-axis and 50 pixels down along the y-axis. Then use the <b>ID2D1BitmapBrush</b> to fill  the rectangle that has the upper-left corner at (100, 100) and the lower-right corner at (200, 200).   
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Create the bitmap to be used by the bitmap brush.
+
+```cpp
+// Create the bitmap to be used by the bitmap brush.
 if (SUCCEEDED(hr))
 {
     hr = LoadResourceBitmap(
@@ -117,65 +113,52 @@ if (SUCCEEDED(hr))
         m_pWICFactory,
         L"FERN",
         L"Image",
-        &amp;m_pBitmap
+        &m_pBitmap
         );
    
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if (SUCCEEDED(hr))
+
+```
+
+
+
+```cpp
+if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget-&gt;CreateBitmapBrush(
+    hr = m_pRenderTarget->CreateBitmapBrush(
         m_pBitmap,
-        &amp;m_pBitmapBrush
+        &m_pBitmapBrush
         );
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
 
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> // Demonstrate the effect of transforming a bitmap brush.
- m_pBitmapBrush-&gt;SetTransform(
+```
+
+
+
+```cpp
+D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
+
+
+```
+
+```cpp
+ // Demonstrate the effect of transforming a bitmap brush.
+ m_pBitmapBrush->SetTransform(
      D2D1::Matrix3x2F::Translation(D2D1::SizeF(50,50))
      );
 
  // To see the content of the rcTransformedBrushRect, comment
  // out this statement.
- m_pRenderTarget-&gt;FillRectangle(
-     &amp;rcTransformedBrushRect, 
+ m_pRenderTarget->FillRectangle(
+     &rcTransformedBrushRect, 
      m_pBitmapBrush
      );
 
- m_pRenderTarget-&gt;DrawRectangle(rcTransformedBrushRect, m_pBlackBrush, 1, NULL);
-</pre>
-</td>
-</tr>
-</table></span></div>
+ m_pRenderTarget->DrawRectangle(rcTransformedBrushRect, m_pBlackBrush, 1, NULL);
+
+```
+
+
 
 
 

@@ -129,13 +129,9 @@ The mode affects the boundaries of the gradient:
 
 The following example creates a linear gradient brush using LinearGradientModeVertical for the mode setting. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_Construct04(HDC hdc)
+
+```cpp
+VOID Example_Construct04(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -144,11 +140,11 @@ The following example creates a linear gradient brush using LinearGradientModeVe
       Color(255, 255, 0, 0),   // red
       Color(255, 0, 0, 255),   // blue
       LinearGradientModeVertical);
-   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 300, 300); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   myGraphics.FillRectangle(&linGrBrush, 0, 0, 300, 300); 
+}
+```
+
+
 
 
 

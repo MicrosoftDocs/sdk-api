@@ -106,17 +106,13 @@ The <a href="https://msdn.microsoft.com/2036813b-f991-4ca3-95d3-8bbe858aae09">Mi
 
 The following code example shows the use of <b>CHString::Mid</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHString s( L"abcdef" );
-assert( s.Mid( 2, 3 ) == L"cde" );</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+CHString s( L"abcdef" );
+assert( s.Mid( 2, 3 ) == L"cde" );
+```
+
+
 
 
 

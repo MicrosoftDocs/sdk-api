@@ -151,163 +151,147 @@ The debug layer will issue an error if the subresources referenced by the view a
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::ClearDepthStencilView</b> as follows:
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Pipeline objects.
+
+```cpp
+// Pipeline objects.
 D3D12_VIEWPORT m_viewport;
-ComPtr&lt;IDXGISwapChain3&gt; m_swapChain;
-ComPtr&lt;ID3D12Device&gt; m_device;
-ComPtr&lt;ID3D12Resource&gt; m_renderTargets[FrameCount];
-ComPtr&lt;ID3D12Resource&gt; m_depthStencil;
-ComPtr&lt;ID3D12CommandAllocator&gt; m_commandAllocator;
-ComPtr&lt;ID3D12GraphicsCommandList&gt; m_commandList;
-ComPtr&lt;ID3D12CommandQueue&gt; m_commandQueue;
-ComPtr&lt;ID3D12RootSignature &gt;m_rootSignature;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_rtvHeap;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_cbvSrvHeap;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_dsvHeap;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_samplerHeap;
-ComPtr&lt;ID3D12PipelineState&gt; m_pipelineState1;
-ComPtr&lt;ID3D12PipelineState&gt; m_pipelineState2;
+ComPtr<IDXGISwapChain3> m_swapChain;
+ComPtr<ID3D12Device> m_device;
+ComPtr<ID3D12Resource> m_renderTargets[FrameCount];
+ComPtr<ID3D12Resource> m_depthStencil;
+ComPtr<ID3D12CommandAllocator> m_commandAllocator;
+ComPtr<ID3D12GraphicsCommandList> m_commandList;
+ComPtr<ID3D12CommandQueue> m_commandQueue;
+ComPtr<ID3D12RootSignature >m_rootSignature;
+ComPtr<ID3D12DescriptorHeap> m_rtvHeap;
+ComPtr<ID3D12DescriptorHeap> m_cbvSrvHeap;
+ComPtr<ID3D12DescriptorHeap> m_dsvHeap;
+ComPtr<ID3D12DescriptorHeap> m_samplerHeap;
+ComPtr<ID3D12PipelineState> m_pipelineState1;
+ComPtr<ID3D12PipelineState> m_pipelineState2;
 D3D12_RECT m_scissorRect;
-</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
+
+```
+
+
+
+```cpp
+void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
 {
     // Command list allocators can only be reset when the associated
     // command lists have finished execution on the GPU; apps should use
     // fences to determine GPU execution progress.
-    ThrowIfFailed(m_pCurrentFrameResource-&gt;m_commandAllocator-&gt;Reset());
+    ThrowIfFailed(m_pCurrentFrameResource->m_commandAllocator->Reset());
 
     // However, when ExecuteCommandList() is called on a particular command
     // list, that command list can then be reset at any time and must be before
     // re-recording.
-    ThrowIfFailed(m_commandList-&gt;Reset(m_pCurrentFrameResource-&gt;m_commandAllocator.Get(), m_pipelineState1.Get()));
+    ThrowIfFailed(m_commandList->Reset(m_pCurrentFrameResource->m_commandAllocator.Get(), m_pipelineState1.Get()));
 
     // Set necessary state.
-    m_commandList-&gt;SetGraphicsRootSignature(m_rootSignature.Get());
+    m_commandList->SetGraphicsRootSignature(m_rootSignature.Get());
 
     ID3D12DescriptorHeap* ppHeaps[] = { m_cbvSrvHeap.Get(), m_samplerHeap.Get() };
-    m_commandList-&gt;SetDescriptorHeaps(_countof(ppHeaps), ppHeaps);
+    m_commandList->SetDescriptorHeaps(_countof(ppHeaps), ppHeaps);
 
-    m_commandList-&gt;RSSetViewports(1, &amp;m_viewport);
-    m_commandList-&gt;RSSetScissorRects(1, &amp;m_scissorRect);
+    m_commandList->RSSetViewports(1, &m_viewport);
+    m_commandList->RSSetScissorRects(1, &m_scissorRect);
 
     // Indicate that the back buffer will be used as a render target.
-    m_commandList-&gt;ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
+    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
 
-    CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap-&gt;GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
-    CD3DX12_CPU_DESCRIPTOR_HANDLE dsvHandle(m_dsvHeap-&gt;GetCPUDescriptorHandleForHeapStart());
-    m_commandList-&gt;OMSetRenderTargets(1, &amp;rtvHandle, FALSE, &amp;dsvHandle);
+    CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap->GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
+    CD3DX12_CPU_DESCRIPTOR_HANDLE dsvHandle(m_dsvHeap->GetCPUDescriptorHandleForHeapStart());
+    m_commandList->OMSetRenderTargets(1, &rtvHandle, FALSE, &dsvHandle);
 
     // Record commands.
     const float clearColor[] = { 0.0f, 0.2f, 0.4f, 1.0f };
-    m_commandList-&gt;ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
-    m_commandList-&gt;ClearDepthStencilView(m_dsvHeap-&gt;GetCPUDescriptorHandleForHeapStart(), D3D12_CLEAR_FLAG_DEPTH, 1.0f, 0, 0, nullptr);
+    m_commandList->ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
+    m_commandList->ClearDepthStencilView(m_dsvHeap->GetCPUDescriptorHandleForHeapStart(), D3D12_CLEAR_FLAG_DEPTH, 1.0f, 0, 0, nullptr);
 
     if (UseBundles)
     {
         // Execute the prebuilt bundle.
-        m_commandList-&gt;ExecuteBundle(pFrameResource-&gt;m_bundle.Get());
+        m_commandList->ExecuteBundle(pFrameResource->m_bundle.Get());
     }
     else
     {
         // Populate a new command list.
-        pFrameResource-&gt;PopulateCommandList(m_commandList.Get(), m_pipelineState1.Get(), m_pipelineState2.Get(), m_currentFrameResourceIndex, m_numIndices, &amp;m_indexBufferView,
-            &amp;m_vertexBufferView, m_cbvSrvHeap.Get(), m_cbvSrvDescriptorSize, m_samplerHeap.Get(), m_rootSignature.Get());
+        pFrameResource->PopulateCommandList(m_commandList.Get(), m_pipelineState1.Get(), m_pipelineState2.Get(), m_currentFrameResourceIndex, m_numIndices, &m_indexBufferView,
+            &m_vertexBufferView, m_cbvSrvHeap.Get(), m_cbvSrvDescriptorSize, m_samplerHeap.Get(), m_rootSignature.Get());
     }
 
     // Indicate that the back buffer will now be used to present.
-    m_commandList-&gt;ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
+    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
 
-    ThrowIfFailed(m_commandList-&gt;Close());
+    ThrowIfFailed(m_commandList->Close());
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Multithreading</a> sample uses <b>ID3D12GraphicsCommandList::ClearDepthStencilView</b> as follows:
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void FrameResource::Init()
+
+```cpp
+void FrameResource::Init()
 {
     // Reset the command allocators and lists for the main thread.
-    for (int i = 0; i &lt; CommandListCount; i++)
+    for (int i = 0; i < CommandListCount; i++)
     {
-        ThrowIfFailed(m_commandAllocators[i]-&gt;Reset());
-        ThrowIfFailed(m_commandLists[i]-&gt;Reset(m_commandAllocators[i].Get(), m_pipelineState.Get()));
+        ThrowIfFailed(m_commandAllocators[i]->Reset());
+        ThrowIfFailed(m_commandLists[i]->Reset(m_commandAllocators[i].Get(), m_pipelineState.Get()));
     }
 
     // Clear the depth stencil buffer in preparation for rendering the shadow map.
-    m_commandLists[CommandListPre]-&gt;ClearDepthStencilView(m_shadowDepthView, D3D12_CLEAR_FLAG_DEPTH, 1.0f, 0, 0, nullptr);
+    m_commandLists[CommandListPre]->ClearDepthStencilView(m_shadowDepthView, D3D12_CLEAR_FLAG_DEPTH, 1.0f, 0, 0, nullptr);
 
     // Reset the worker command allocators and lists.
-    for (int i = 0; i &lt; NumContexts; i++)
+    for (int i = 0; i < NumContexts; i++)
     {
-        ThrowIfFailed(m_shadowCommandAllocators[i]-&gt;Reset());
-        ThrowIfFailed(m_shadowCommandLists[i]-&gt;Reset(m_shadowCommandAllocators[i].Get(), m_pipelineStateShadowMap.Get()));
+        ThrowIfFailed(m_shadowCommandAllocators[i]->Reset());
+        ThrowIfFailed(m_shadowCommandLists[i]->Reset(m_shadowCommandAllocators[i].Get(), m_pipelineStateShadowMap.Get()));
 
-        ThrowIfFailed(m_sceneCommandAllocators[i]-&gt;Reset());
-        ThrowIfFailed(m_sceneCommandLists[i]-&gt;Reset(m_sceneCommandAllocators[i].Get(), m_pipelineState.Get()));
+        ThrowIfFailed(m_sceneCommandAllocators[i]->Reset());
+        ThrowIfFailed(m_sceneCommandLists[i]->Reset(m_sceneCommandAllocators[i].Get(), m_pipelineState.Get()));
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Assemble the CommandListPre command list.
+
+```
+
+
+
+```cpp
+// Assemble the CommandListPre command list.
 void D3D12Multithreading::BeginFrame()
 {
-    m_pCurrentFrameResource-&gt;Init();
+    m_pCurrentFrameResource->Init();
 
     // Indicate that the back buffer will be used as a render target.
-    m_pCurrentFrameResource-&gt;m_commandLists[CommandListPre]-&gt;ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
+    m_pCurrentFrameResource->m_commandLists[CommandListPre]->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
 
     // Clear the render target and depth stencil.
     const float clearColor[] = { 0.0f, 0.0f, 0.0f, 1.0f };
-    CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap-&gt;GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
-    m_pCurrentFrameResource-&gt;m_commandLists[CommandListPre]-&gt;ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
-    m_pCurrentFrameResource-&gt;m_commandLists[CommandListPre]-&gt;ClearDepthStencilView(m_dsvHeap-&gt;GetCPUDescriptorHandleForHeapStart(), D3D12_CLEAR_FLAG_DEPTH, 1.0f, 0, 0, nullptr);
+    CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap->GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
+    m_pCurrentFrameResource->m_commandLists[CommandListPre]->ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
+    m_pCurrentFrameResource->m_commandLists[CommandListPre]->ClearDepthStencilView(m_dsvHeap->GetCPUDescriptorHandleForHeapStart(), D3D12_CLEAR_FLAG_DEPTH, 1.0f, 0, 0, nullptr);
 
-    ThrowIfFailed(m_pCurrentFrameResource-&gt;m_commandLists[CommandListPre]-&gt;Close());
+    ThrowIfFailed(m_pCurrentFrameResource->m_commandLists[CommandListPre]->Close());
 }
 
 // Assemble the CommandListMid command list.
 void D3D12Multithreading::MidFrame()
 {
     // Transition our shadow map from the shadow pass to readable in the scene pass.
-    m_pCurrentFrameResource-&gt;SwapBarriers();
+    m_pCurrentFrameResource->SwapBarriers();
 
-    ThrowIfFailed(m_pCurrentFrameResource-&gt;m_commandLists[CommandListMid]-&gt;Close());
+    ThrowIfFailed(m_pCurrentFrameResource->m_commandLists[CommandListMid]->Close());
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 

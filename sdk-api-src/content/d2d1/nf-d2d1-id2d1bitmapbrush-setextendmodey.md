@@ -101,20 +101,16 @@ It produces the following output.
 
 <img alt="Illustration of an original image and the resulting image from setting both x- and y- extend modes to mirror" src="./images/brushes_ovw_bitmapmirrormirror.png"/>
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>m_pBitmapBrush-&gt;SetExtendModeX(D2D1_EXTEND_MODE_MIRROR);
-m_pBitmapBrush-&gt;SetExtendModeY(D2D1_EXTEND_MODE_MIRROR);
 
-m_pRenderTarget-&gt;FillRectangle(exampleRectangle, m_pBitmapBrush);
-</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+m_pBitmapBrush->SetExtendModeX(D2D1_EXTEND_MODE_MIRROR);
+m_pBitmapBrush->SetExtendModeY(D2D1_EXTEND_MODE_MIRROR);
+
+m_pRenderTarget->FillRectangle(exampleRectangle, m_pBitmapBrush);
+
+```
+
+
 For more information about bitmap brushes, see the <a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>.
 
 <div class="code"></div>

@@ -123,13 +123,9 @@ For each Command specified in the Ribbon markup, the Ribbon framework requires a
 
 The following example demonstrates a basic implementation of the <b>IUIApplication::OnCreateUICommand</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 //  FUNCTION: OnCreateUICommand(UINT, UI_COMMANDTYPE, IUICommandHandler)
 //
 //  PURPOSE: Called by the Ribbon framework for each command specified in markup to allow
@@ -158,21 +154,21 @@ STDMETHODIMP CApplication::OnCreateUICommand(
         case UI_COMMANDTYPE_DECIMAL:
             {
                 _cwprintf(L"IUIApplication::OnCreateUICommand called for Spinner.\r\n");
-                hr = _spSpinnerSite-&gt;QueryInterface(IID_PPV_ARGS(ppCommandHandler));
+                hr = _spSpinnerSite->QueryInterface(IID_PPV_ARGS(ppCommandHandler));
                 break;
             }
         default:
             {
                 _cwprintf(L"IUIApplication::OnCreateUICommand called with CmdID=%u, typeID=%u.\r\n", nCmdID, typeID);
-                hr = _spCommandHandler-&gt;QueryInterface(IID_PPV_ARGS(ppCommandHandler));
+                hr = _spCommandHandler->QueryInterface(IID_PPV_ARGS(ppCommandHandler));
             }
     }    
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <div class="code"></div>
 
 

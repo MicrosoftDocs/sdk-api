@@ -173,13 +173,9 @@ Value used to initialize the <b>_44</b> member of the <code>XMMATRIX</code>struc
 The following pseudocode example demonstrates the operation of this constructor:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
    XMMATRIX mat;
    mat._11 = m00;
    mat._12 = m01;
@@ -197,10 +193,10 @@ The following pseudocode example demonstrates the operation of this constructor:
    mat._42 = m31;
    mat._43 = m32;
    mat._44 = m33;
-      </pre>
-</td>
-</tr>
-</table></span></div>
+      
+```
+
+
 
 
 

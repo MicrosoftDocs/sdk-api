@@ -136,13 +136,9 @@ To call the Unicode version of this function, define <b>DBGHELP_TRANSLATE_TCHAR<
    Dbghelp.h.
    
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL
+
+```cpp
+BOOL
 IMAGEAPI
 SymGetLineFromAddrW64(
     _In_ HANDLE hProcess,
@@ -153,20 +149,16 @@ SymGetLineFromAddrW64(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
  #define SymGetLineFromAddr64   SymGetLineFromAddrW64
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 This function supersedes the <b>SymGetLineFromAddr</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetLineFromAddr</b> is defined as follows in Dbghelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
+
+```cpp
+#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
 #define SymGetLineFromAddr SymGetLineFromAddr64
 #define SymGetLineFromAddrW SymGetLineFromAddrW64
 #else
@@ -187,10 +179,10 @@ SymGetLineFromAddrW(
     _Out_ PDWORD pdwDisplacement,
     _Out_ PIMAGEHLP_LINEW Line
     );
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 
 #### Examples
 

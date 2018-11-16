@@ -172,16 +172,12 @@ The <a href="https://msdn.microsoft.com/b5ed4b48-f622-4a55-897d-d800ada0270f">Ge
 
 The following query, followed by a call to <a href="https://msdn.microsoft.com/b5ed4b48-f622-4a55-897d-d800ada0270f">GetValuesForProp</a>("PropInt", values), returns <b>WBEM_E_INVALID_QUERY</b> while <b>GetValuesForProp</b>("PropStr", values) returns <b>S_OK</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>SELECT * FROM Test WHERE PropInt = 32 AND PropStr = "a"</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+SELECT * FROM Test WHERE PropInt = 32 AND PropStr = "a"
+```
+
+
 
 
 

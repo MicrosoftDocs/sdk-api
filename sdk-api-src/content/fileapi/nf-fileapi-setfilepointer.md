@@ -261,13 +261,9 @@ If the return value is <b>INVALID_SET_FILE_POINTER</b> and if
     <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to determine whether or not the function has 
     succeeded or failed. The following code example shows you that scenario.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>  // Case One: calling the function with lpDistanceToMoveHigh == NULL 
+
+```cpp
+  // Case One: calling the function with lpDistanceToMoveHigh == NULL 
 
   // Try to move hFile file pointer some distance  
   DWORD dwPtr = SetFilePointer( hFile, 
@@ -292,21 +288,21 @@ If the return value is <b>INVALID_SET_FILE_POINTER</b> and if
   // Try to move hFile file pointer a huge distance 
   DWORD dwPtrLow = SetFilePointer( hFile, 
                                    lDistLow, 
-                                   &amp;lDistHigh, 
+                                   &lDistHigh, 
                                    FILE_BEGIN ); 
    
   // Test for failure
-  if ( dwPtrLow == INVALID_SET_FILE_POINTER &amp;&amp; 
+  if ( dwPtrLow == INVALID_SET_FILE_POINTER && 
        GetLastError() != NO_ERROR )
    {
     // Deal with failure
     // . . .
 
    } // End of error handler
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Although the parameter <i>lpDistanceToMoveHigh</i> is used to manipulate huge files, the 
     value of the parameter should be set when moving files of any size. If it is set to 
     <b>NULL</b>, then <i>lDistanceToMove</i> has a maximum value of 
@@ -341,13 +337,9 @@ Also, it is best to use a function to hide the interface to
     <b>SetFilePointer</b>. The following code example shows you that 
     scenario.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>__int64 myFileSeek (HANDLE hf, __int64 distance, DWORD MoveMethod)
+
+```cpp
+__int64 myFileSeek (HANDLE hf, __int64 distance, DWORD MoveMethod)
 {
    LARGE_INTEGER li;
 
@@ -355,10 +347,10 @@ Also, it is best to use a function to hide the interface to
 
    li.LowPart = SetFilePointer (hf, 
                                 li.LowPart, 
-                                &amp;li.HighPart, 
+                                &li.HighPart, 
                                 MoveMethod);
 
-   if (li.LowPart == INVALID_SET_FILE_POINTER &amp;&amp; GetLastError() 
+   if (li.LowPart == INVALID_SET_FILE_POINTER && GetLastError() 
        != NO_ERROR)
    {
       li.QuadPart = -1;
@@ -366,10 +358,10 @@ Also, it is best to use a function to hide the interface to
 
    return li.QuadPart;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 You can use <b>SetFilePointer</b> to determine the length of 
     a file. To do this, use <b>FILE_END</b> for <i>dwMoveMethod</i> and seek to 
     location zero. The file offset returned is the length of the file. However, this practice can have unintended 

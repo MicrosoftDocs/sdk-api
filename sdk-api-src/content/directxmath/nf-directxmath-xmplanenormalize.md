@@ -66,13 +66,11 @@ Normalizes the coefficients of a plane so that coefficients of x, y, and z form 
 
 ### -param P [in]
 
-<b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR Result;
+<b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation 
+
+
+```
+XMVECTOR Result;
 
 float LengthSq = P.x * P.x + P.y * P.y + P.z * P.z;
 
@@ -82,10 +80,10 @@ Result.y = P.y * ReciprocalLength;
 Result.z = P.z * ReciprocalLength;
 Result.w = P.w * ReciprocalLength;
 
-return Result;</pre>
-</td>
-</tr>
-</table></span></div>.
+return Result;
+```
+
+.
 
 
 ## -returns

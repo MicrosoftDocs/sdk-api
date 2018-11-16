@@ -249,17 +249,13 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define _WIN32_WINNT 0x0500
 
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;tchar.h&gt;
+```cpp
+#define _WIN32_WINNT 0x0500
+
+#include <windows.h>
+#include <stdio.h>
+#include <tchar.h>
 
 void _tmain(void)
 {
@@ -275,9 +271,9 @@ void _tmain(void)
     int cnf = 0;
     DWORD dwSize = sizeof(buffer);
     
-    for (cnf = 0; cnf &lt; ComputerNameMax; cnf++)
+    for (cnf = 0; cnf < ComputerNameMax; cnf++)
     {
-        if (!GetComputerNameEx((COMPUTER_NAME_FORMAT)cnf, buffer, &amp;dwSize))
+        if (!GetComputerNameEx((COMPUTER_NAME_FORMAT)cnf, buffer, &dwSize))
         {
             _tprintf(TEXT("GetComputerNameEx failed (%d)\n"), GetLastError());
             return;
@@ -288,10 +284,10 @@ void _tmain(void)
         ZeroMemory(buffer, dwSize);
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

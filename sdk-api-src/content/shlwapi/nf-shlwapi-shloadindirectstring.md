@@ -132,17 +132,15 @@ The string is extracted from the .pri file named, using the <i>resource</i> as a
 
 An example of this type of indirect string is shown here.
                         
-                            <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-@{C:\Program Files\WindowsApps\Microsoft.Camera_6.2.8376.0_x64__8wekyb3d8bbwe\resources.pri? ms-resource://Microsoft.Camera/resources/manifestAppDescription}</pre>
-</td>
-</tr>
-</table></span></div>
+                            
+
+
+```
+
+@{C:\Program Files\WindowsApps\Microsoft.Camera_6.2.8376.0_x64__8wekyb3d8bbwe\resources.pri? ms-resource://Microsoft.Camera/resources/manifestAppDescription}
+```
+
+
 
 
 </li>
@@ -151,30 +149,26 @@ The string is extracted from the Resources.pri file stored in the app's root dir
 
 <div class="alert"><b>Note</b>  This string must refer to a package installed for the current user. If it does not, the call will fail.</div>
 <div> </div>
-An example of this type of indirect string is shown here. In this example, the reference name is fully-qualified, but it contains no namespace (for example, "resources"). The deployment stack expands the name to look for it in all namespaces.<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-@{Microsoft.Camera_6.2.8376.0_x64__8wekyb3d8bbwe? ms-resource://Microsoft.Camera/manifestAppDescription}</pre>
-</td>
-</tr>
-</table></span></div>
+An example of this type of indirect string is shown here. In this example, the reference name is fully-qualified, but it contains no namespace (for example, "resources"). The deployment stack expands the name to look for it in all namespaces.
 
 
-In this next example, the fully-qualified reference name does specify a namespace to limit the lookup to.<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-@{Microsoft.Camera_6.2.8376.0_x64__8wekyb3d8bbwe? ms-resource://Microsoft.Camera/resources/manifestAppDescription}</pre>
-</td>
-</tr>
-</table></span></div>
+```
+
+@{Microsoft.Camera_6.2.8376.0_x64__8wekyb3d8bbwe? ms-resource://Microsoft.Camera/manifestAppDescription}
+```
+
+
+
+
+In this next example, the fully-qualified reference name does specify a namespace to limit the lookup to.
+
+
+```
+
+@{Microsoft.Camera_6.2.8376.0_x64__8wekyb3d8bbwe? ms-resource://Microsoft.Camera/resources/manifestAppDescription}
+```
+
+
 
 
 </li>

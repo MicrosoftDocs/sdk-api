@@ -116,13 +116,9 @@ A Bézier spline does not pass through its control points. The control points ac
 
 The following example draws a pair of Bézier curves.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_DrawBeziers2(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -148,22 +144,22 @@ VOID Example_DrawBeziers2(HDC hdc)
       endPoint2};
 
    // Draw the Bezier curves.
-   graphics.DrawBeziers(&amp;greenPen, curvePoints, 7);
+   graphics.DrawBeziers(&greenPen, curvePoints, 7);
 
    // Draw the control and end points.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&amp;redBrush, Rect(100 - 5, 100 - 5, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(500 - 5, 100 - 5, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(500 - 5, 500 - 5, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(100 - 5, 100 - 5, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(500 - 5, 100 - 5, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(500 - 5, 500 - 5, 10, 10));
    SolidBrush blueBrush(Color(255, 0, 0, 255));
-   graphics.FillEllipse(&amp;blueBrush, Rect(200 - 5, 50 - 5, 10, 10));
-   graphics.FillEllipse(&amp;blueBrush, Rect(400 - 5, 10 - 5, 10, 10));
-   graphics.FillEllipse(&amp;blueBrush, Rect(600 - 5, 200 - 5, 10, 10));
-   graphics.FillEllipse(&amp;blueBrush, Rect(700 - 5, 400 - 5, 10, 10));
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillEllipse(&blueBrush, Rect(200 - 5, 50 - 5, 10, 10));
+   graphics.FillEllipse(&blueBrush, Rect(400 - 5, 10 - 5, 10, 10));
+   graphics.FillEllipse(&blueBrush, Rect(600 - 5, 200 - 5, 10, 10));
+   graphics.FillEllipse(&blueBrush, Rect(700 - 5, 400 - 5, 10, 10));
+}
+```
+
+
 
 
 

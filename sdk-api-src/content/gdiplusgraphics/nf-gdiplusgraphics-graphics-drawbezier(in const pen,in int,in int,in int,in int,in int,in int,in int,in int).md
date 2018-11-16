@@ -159,13 +159,9 @@ A Bézier spline does not pass through its control points. The control points ac
 
 The following example draws a Bézier curve.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_DrawBezier3(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -183,7 +179,7 @@ VOID Example_DrawBezier3(HDC hdc)
 
    //Draw the curve.
    graphics.DrawBezier(
-   &amp;greenPen,
+   &greenPen,
    startPointx,
    startPointy,
    ctrlPoint1x,
@@ -196,14 +192,14 @@ VOID Example_DrawBezier3(HDC hdc)
    //Draw the end points and control points.
    SolidBrush redBrush(Color(255, 255, 0, 0));
    SolidBrush blueBrush(Color(255, 0, 0, 255));
-   graphics.FillEllipse(&amp;redBrush, 100 - 5, 100 - 5, 10, 10);
-   graphics.FillEllipse(&amp;redBrush, 500 - 5, 100 - 5, 10, 10);
-   graphics.FillEllipse(&amp;blueBrush, 200 - 5, 10 - 5, 10, 10);
-   graphics.FillEllipse(&amp;blueBrush, 350 - 5, 50 - 5, 10, 10);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillEllipse(&redBrush, 100 - 5, 100 - 5, 10, 10);
+   graphics.FillEllipse(&redBrush, 500 - 5, 100 - 5, 10, 10);
+   graphics.FillEllipse(&blueBrush, 200 - 5, 10 - 5, 10, 10);
+   graphics.FillEllipse(&blueBrush, 350 - 5, 50 - 5, 10, 10);
+}
+```
+
+
 
 
 

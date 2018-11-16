@@ -57,15 +57,11 @@ This interface is used to extend the display features of an existing object in A
 <a href="https://msdn.microsoft.com/758ec25d-42ab-46ba-aa58-416d7ac8fd68">Extending the User Interface for Directory Objects</a>.
 
 To create an instance of this interface,  call <a href="_com_cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsDisplaySpecifier</b> object identifier as shown in the following code  example.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;objbase.h&gt;
+
+```cpp
+#include <objbase.h>
 #define INITGUID
-#include &lt;initguid.h&gt;
+#include <initguid.h>
 #include "dsclient.h"
  
 HRESULT hr;
@@ -77,18 +73,18 @@ hr = CoCreateInstance( CLSID_DsDisplaySpecifier,
                        NULL,
                        CLSCTX_INPROC_SERVER,
                        IID_IDsDisplaySpecifier,
-                       (void**)&amp;pDS);
+                       (void**)&pDS);
 if(SUCCEEDED(hr))
 {
     // More code calling the interface methods.
     
-    pDS-&gt;Release();
+    pDS->Release();
 }
  
-CoUninitialize();</pre>
-</td>
-</tr>
-</table></span></div>
+CoUninitialize();
+```
+
+
 
 ## -inheritance
 

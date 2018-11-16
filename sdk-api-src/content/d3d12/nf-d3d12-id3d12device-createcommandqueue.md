@@ -116,21 +116,17 @@ The <b>REFIID</b>, or <b>GUID</b>, of the interface to the command queue can be 
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12Device::CreateCommandQueue</b> as follows:
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>D3D12_COMMAND_QUEUE_DESC queueDesc = {};
+
+```cpp
+D3D12_COMMAND_QUEUE_DESC queueDesc = {};
 queueDesc.Flags = D3D12_COMMAND_QUEUE_FLAG_NONE;
 queueDesc.Type = D3D12_COMMAND_LIST_TYPE_DIRECT;
 
-ThrowIfFailed(m_device-&gt;CreateCommandQueue(&amp;queueDesc, IID_PPV_ARGS(&amp;m_commandQueue)));
-</pre>
-</td>
-</tr>
-</table></span></div>
+ThrowIfFailed(m_device->CreateCommandQueue(&queueDesc, IID_PPV_ARGS(&m_commandQueue)));
+
+```
+
+
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

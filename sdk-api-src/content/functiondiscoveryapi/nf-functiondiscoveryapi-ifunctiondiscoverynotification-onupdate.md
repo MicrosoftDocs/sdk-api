@@ -137,13 +137,9 @@ Because other <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599f
 
 The following code shows an OnUpdate handler implementation. The <b>CMyNotificationListener</b> class is defined in the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> topic.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
+
+```cpp
+#include <windows.h>
 
 HRESULT STDMETHODCALLTYPE CMyNotificationListener::OnUpdate(
                                           IN QueryUpdateAction Action,
@@ -165,10 +161,10 @@ HRESULT STDMETHODCALLTYPE CMyNotificationListener::OnUpdate(
     }
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

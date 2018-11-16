@@ -109,36 +109,32 @@ If the window is moved off-screen or resized to zero, the system stops composing
 
 The following code snippet creates a wrapper object that represents the rasterization of a layered window.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = S_OK;
+
+```cpp
+HRESULT hr = S_OK;
 IDCompositionVisual *pVisual = nullptr;
 IUnknown *pSurface = nullptr;
 
 // Create a visual. g_pDevice is the IDCompositionDevice pointer of a 
 // device object created earlier.
-hr = g_pDevice-&gt;CreateVisual(&amp;pVisual);
+hr = g_pDevice->CreateVisual(&pVisual);
 
 if (SUCCEEDED(hr))
 {
     // Create a surface that contains the image of the layered child 
     // window identified by the g_hwndChild window handle (HWND). 
-    hr = g_pDevice-&gt;CreateSurfaceFromHwnd(g_hwndChild, &amp;pSurface);
+    hr = g_pDevice->CreateSurfaceFromHwnd(g_hwndChild, &pSurface);
 }
 
 if (SUCCEEDED(hr))
 {
     // Set the content of the Control child visual.
-    hr = pVisual-&gt;SetContent(pSurface);
+    hr = pVisual->SetContent(pSurface);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

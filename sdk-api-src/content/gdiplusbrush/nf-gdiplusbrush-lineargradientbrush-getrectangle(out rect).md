@@ -103,13 +103,9 @@ The rectangle defines the boundaries of the gradient in the following ways: The 
 
 The following example creates a linear gradient brush. Then the code gets the brush's rectangle and draws it.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetRect(HDC hdc)
+
+```cpp
+VOID Example_GetRect(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -122,15 +118,15 @@ The following example creates a linear gradient brush. Then the code gets the br
 
    // Obtain information about the linear gradient brush.
    Rect rect;
-   linGrBrush.GetRectangle(&amp;rect);
+   linGrBrush.GetRectangle(&rect);
 
    // Draw the retrieved rectangle.
    Pen myPen(Color(255, 0, 0, 0));
-   myGraphics.DrawRectangle(&amp;myPen, rect);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   myGraphics.DrawRectangle(&myPen, rect);
+}
+```
+
+
 
 
 

@@ -181,13 +181,9 @@ This method fails if <i>initialWidth</i> or <i>initialHeight</i> exceeds 16,777,
 
 The following example shows how to create a virtual surface and associate it with a visual.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
+
+```cpp
+HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
                          UINT surfaceWidth, UINT surfaceHeight) 
 {
     // Validate the input parameters.
@@ -202,39 +198,39 @@ The following example shows how to create a virtual surface and associate it wit
     POINT offset = {0};
 
     // Create the rendering target. 
-    hr = pDCompDevice-&gt;CreateTargetForHwnd(hwndTarget, TRUE, &amp;pTargetWindow);
+    hr = pDCompDevice->CreateTargetForHwnd(hwndTarget, TRUE, &pTargetWindow);
 
     if (SUCCEEDED(hr))
     {
         // Create a visual.
-        hr = pDCompDevice-&gt;CreateVisual(&amp;pVisual);
+        hr = pDCompDevice->CreateVisual(&pVisual);
     }
 
     if (SUCCEEDED(hr))
     {
         // Add the visual to the root of the composition tree.
-        hr = pTargetWindow-&gt;SetRoot(pVisual);
+        hr = pTargetWindow->SetRoot(pVisual);
     }
 
     if (SUCCEEDED(hr))
     {
         // Create a virtual surface.
-        hr = pDCompDevice-&gt;CreateVirtualSurface(surfaceWidth, surfaceHeight, 
+        hr = pDCompDevice->CreateVirtualSurface(surfaceWidth, surfaceHeight, 
             DXGI_FORMAT_R8G8B8A8_UNORM, DXGI_ALPHA_MODE_IGNORE, 
-            &amp;pVirtualSurface);
+            &pVirtualSurface);
     }
 
     if (SUCCEEDED(hr))
     {
         // Set the virtual surface as the content of the visual.
-        hr = pVisual-&gt;SetContent(pVirtualSurface);
+        hr = pVisual->SetContent(pVirtualSurface);
     }
     
     if (SUCCEEDED(hr))
     {
         // Retrieve and interface pointer for draw on the surface.
-        hr = pVirtualSurface-&gt;BeginDraw(NULL, __uuidof(ID3D10Texture2D), 
-            (void **) &amp;pTex2D, &amp;offset);
+        hr = pVirtualSurface->BeginDraw(NULL, __uuidof(ID3D10Texture2D), 
+            (void **) &pTex2D, &offset);
     }
 
     //
@@ -244,25 +240,25 @@ The following example shows how to create a virtual surface and associate it wit
     if (SUCCEEDED(hr))
     {
         // Complete the updates to the surface.
-        hr = pVirtualSurface-&gt;EndDraw();
+        hr = pVirtualSurface->EndDraw();
     }
 
     // Commit the composition for rendering.
-    hr = pDCompDevice-&gt;Commit();
+    hr = pDCompDevice->Commit();
 
     // Clean up.
-    SafeRelease(&amp;pTargetWindow);
-    SafeRelease(&amp;pVisual);
-    SafeRelease(&amp;pVirtualSurface);
-    SafeRelease(&amp;pTex2D);
+    SafeRelease(&pTargetWindow);
+    SafeRelease(&pVisual);
+    SafeRelease(&pVirtualSurface);
+    SafeRelease(&pTex2D);
 
     return hr;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

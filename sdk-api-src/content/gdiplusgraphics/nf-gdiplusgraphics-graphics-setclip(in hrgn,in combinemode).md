@@ -109,29 +109,25 @@ This method assumes that the GDI region specified by
 
 The following example uses a GDI region to update the clipping region.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetClip2(HDC hdc)
+
+```cpp
+VOID Example_SetClip2(HDC hdc)
 {
    Graphics graphics(hdc);
 
    // Create a Region object, and get its handle.
    Region region(Rect(0, 0, 100, 100));
-   HRGN hRegion = region.GetHRGN(&amp;graphics);
+   HRGN hRegion = region.GetHRGN(&graphics);
 
    // Set the clipping region with hRegion.
    graphics.SetClip(hRegion);
 
    // Fill a rectangle to demonstrate the clipping region.
-   graphics.FillRectangle(&amp;SolidBrush(Color(255, 0, 0, 0)), 0, 0, 500, 500);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillRectangle(&SolidBrush(Color(255, 0, 0, 0)), 0, 0, 500, 500);
+}
+```
+
+
 
 
 
