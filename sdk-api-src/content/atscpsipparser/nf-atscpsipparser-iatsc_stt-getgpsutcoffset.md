@@ -4,10 +4,10 @@ title: IATSC_STT::GetGpsUtcOffset
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_stt_getgpsutcoffset.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 124c864a-a504-4f3c-836f-bdbe730beda7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetGpsUtcOffset, GetGpsUtcOffset method [Microsoft TV Technologies], GetGpsUtcOffset method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetGpsUtcOffset method, IATSC_STT.GetGpsUtcOffset, IATSC_STT::GetGpsUtcOffset, IATSC_STTGetGpsUtcOffset, atscpsipparser/IATSC_STT::GetGpsUtcOffset, mstv.iatsc_stt_getgpsutcoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

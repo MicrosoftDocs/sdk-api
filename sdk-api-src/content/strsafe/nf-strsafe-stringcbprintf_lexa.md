@@ -7,7 +7,7 @@ old-location: menurc\stringcbprintf_lex.htm
 tech.root: menurc
 ms.assetid: 64992b8f-4f85-47fc-bb14-37fdf0847eac
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbPrintf_lEx, StringCbPrintf_lEx function [Menus and Other Resources], StringCbPrintf_lExA, StringCbPrintf_lExW, menurc.stringcbprintf_lex, strsafe/StringCbPrintf_lEx, strsafe/StringCbPrintf_lExA, strsafe/StringCbPrintf_lExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -166,14 +166,7 @@ The format string. This string must be null-terminated. For more information, se
 The locale object. For more information, see <b>_create_locale</b>.
 
 
-### -param arg8
-
-TBD
-
-
-
-
-#### - param [in]
+### -param arg8 [in]
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 

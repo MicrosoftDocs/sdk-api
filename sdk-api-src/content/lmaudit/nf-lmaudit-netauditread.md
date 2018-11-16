@@ -7,7 +7,7 @@ old-location: netmgmt\netauditread.htm
 tech.root: NetMgmt
 ms.assetid: d80caf09-30b0-484f-bbf9-e381a3eda9f8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NetAuditRead, NetAuditRead function [Network Management], _win32_netauditread, lmaudit/NetAuditRead, netmgmt.netauditread
 ms.prod: windows-hardware
 ms.technology: windows-devices

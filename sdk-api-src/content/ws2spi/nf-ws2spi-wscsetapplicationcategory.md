@@ -4,10 +4,10 @@ title: WSCSetApplicationCategory function
 author: windows-sdk-content
 description: Sets the permitted layered service provider (LSP) categories associated with an application.
 old-location: winsock\wscsetapplicationcategory.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 266c9424-f6ab-4630-843d-bc0833d74e4f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: WSCSetApplicationCategory, WSCSetApplicationCategory function [Winsock], winsock.wscsetapplicationcategory, ws2spi/WSCSetApplicationCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

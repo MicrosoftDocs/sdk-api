@@ -4,10 +4,10 @@ title: CMSPCallMultiGraph::RegisterWaitEvent
 author: windows-sdk-content
 description: The RegisterWaitEvent method should be called only within a critical section on the call object.
 old-location: tapi3\cmspcallmultigraph_registerwaitevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3c75ed75-a0b2-435b-aa49-c1e7dadf260f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],RegisterWaitEvent method, CMSPCallMultiGraph.RegisterWaitEvent, CMSPCallMultiGraph::RegisterWaitEvent, RegisterWaitEvent, RegisterWaitEvent method [TAPI 2.2], RegisterWaitEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_registerwaitevent, mspcall/CMSPCallMultiGraph::RegisterWaitEvent, tapi3.cmspcallmultigraph_registerwaitevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,18 +70,13 @@ The
 
 ### -param pIMediaEvent
 
-TBD
+Pointer to DirectShow <b>IMediaEvent</b> interface.
 
 
 ### -param pITStream
 
 Pointer to 
 <a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface.
-
-
-#### - pIMediaMedia
-
-Pointer to DirectShow <b>IMediaEvent</b> interface.
 
 
 ## -returns

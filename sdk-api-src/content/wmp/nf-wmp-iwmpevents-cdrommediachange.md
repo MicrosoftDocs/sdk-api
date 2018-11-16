@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__cdrommediachange.htm
 tech.root: WMP
 ms.assetid: 019ab066-ae2b-4517-bc1c-d96bb6e8e15e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: CdromMediaChange, CdromMediaChange method [Windows Media Player], CdromMediaChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CdromMediaChange method, IWMPEvents.CdromMediaChange, IWMPEvents::CdromMediaChange, IWMPEventsCdromMediaChange, wmp.iwmpevents_iwmpevents__cdrommediachange, wmp/IWMPEvents::CdromMediaChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingprivateconnection_next.htm
 tech.root: ICS
 ms.assetid: 3f9cc481-8967-4b1e-95b2-c6ddec20a1ea
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Next method, IEnumNetSharingPrivateConnection.Next, IEnumNetSharingPrivateConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPrivateConnection interface, _ics_ienumnetsharingprivateconnection_next, ics.ienumnetsharingprivateconnection_next, netcon/IEnumNetSharingPrivateConnection::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,14 +81,7 @@ Pointer to a
 <a href="https://msdn.microsoft.com/7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f">INetConnection</a> interface.
 
 
-### -param pCeltFetched
-
-TBD
-
-
-
-
-#### - pceltFetched [out]
+### -param pCeltFetched [out]
 
 Pointer to a <b>ULONG</b> variable that, on successful return, specifies the number of privately-shared connections actually returned.
 

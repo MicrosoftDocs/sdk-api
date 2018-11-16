@@ -4,10 +4,10 @@ title: RpcNsProfileDeleteW function
 author: windows-sdk-content
 description: The RpcNsProfileDelete function deletes a profile attribute.
 old-location: rpc\rpcnsprofiledelete.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: bac77a37-a4e8-4edf-a31b-28692ccec0f7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: RpcNsProfileDelete, RpcNsProfileDelete function [RPC], RpcNsProfileDeleteA, RpcNsProfileDeleteW, _rpc_rpcnsprofiledelete, rpc.rpcnsprofiledelete, rpcnsi/RpcNsProfileDelete, rpcnsi/RpcNsProfileDeleteA, rpcnsi/RpcNsProfileDeleteW
 ms.prod: windows-hardware
 ms.technology: windows-devices

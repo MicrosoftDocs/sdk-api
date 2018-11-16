@@ -7,7 +7,7 @@ old-location: taskschd\iemailaction_bcc.htm
 tech.root: TaskSchd
 ms.assetid: 7f0a4da7-d2de-433a-ab0d-79b9741aae59
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Bcc property [Task Scheduler], Bcc property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Bcc property, IEmailAction.Bcc, IEmailAction.put_Bcc, IEmailAction::Bcc, IEmailAction::get_Bcc, IEmailAction::put_Bcc, put_Bcc, taskschd.iemailaction_bcc, taskschd/IEmailAction::Bcc, taskschd/IEmailAction::get_Bcc, taskschd/IEmailAction::put_Bcc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_MMC_COLUMN_SET_DATA"
 author: windows-sdk-content
 description: The MMC_COLUMN_SET_DATA structure is introduced in MMC 1.2.
 old-location: mmc\mmc_column_set_data.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 15088a2f-3dfc-4af4-bcae-e7e9e456df8b
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: MMC_COLUMN_SET_DATA, MMC_COLUMN_SET_DATA structure [MMC], _MMC_COLUMN_SET_DATA, _slate_mmc_column_set_data, mmc.mmc_column_set_data, mmc/MMC_COLUMN_SET_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_setcolorkeydata.htm
 tech.root: display
 ms.assetid: 08d17ac7-a5d4-47ed-9ee4-896471b46769
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PDD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA structure [Display Devices], _DD_SETCOLORKEYDATA, ddrawint/DD_SETCOLORKEYDATA, ddstrcts_2798d2f9-38f8-42c3-a28e-a0d2a2ac3433.xml, display.dd_setcolorkeydata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

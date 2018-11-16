@@ -4,10 +4,10 @@ title: IAnalogLocator
 author: windows-sdk-content
 description: The IAnalogLocator interface provides tuning information for an analog television network.
 old-location: mstv\ianaloglocator.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d5ed0dcc-347d-4196-a551-88775cb1b253
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IAnalogLocator, IAnalogLocator interface [Microsoft TV Technologies], IAnalogLocator interface [Microsoft TV Technologies],described, IAnalogLocatorInterface, mstv.ianaloglocator, tuner/IAnalogLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

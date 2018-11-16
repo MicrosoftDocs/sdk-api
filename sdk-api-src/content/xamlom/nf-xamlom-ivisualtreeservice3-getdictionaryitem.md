@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice3_getdictionaryitem.htm
 tech.root: xaml_diagnostics
 ms.assetid: E836FE12-A49A-427C-8013-F1AFBD2C08A2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDictionaryItem, GetDictionaryItem method, GetDictionaryItem method,IVisualTreeService3 interface, IVisualTreeService3 interface,GetDictionaryItem method, IVisualTreeService3.GetDictionaryItem, IVisualTreeService3::GetDictionaryItem, xaml_diagnostics.ivisualtreeservice3_getdictionaryitem, xamlom/IVisualTreeService3::GetDictionaryItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

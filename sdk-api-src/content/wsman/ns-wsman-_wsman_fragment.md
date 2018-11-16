@@ -7,7 +7,7 @@ old-location: winrm\wsman_fragment.htm
 tech.root: WinRM
 ms.assetid: 2aa4ee38-6991-4f95-90fd-867b188fc9ff
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: WSMAN_FRAGMENT, WSMAN_FRAGMENT structure [Windows Remote Management], _WSMAN_FRAGMENT, winrm.wsman_fragment, wsman/WSMAN_FRAGMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

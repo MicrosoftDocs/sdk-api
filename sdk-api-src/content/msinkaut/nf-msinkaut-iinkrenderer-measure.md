@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_measure.htm
 tech.root: tablet
 ms.assetid: 1ef9ef91-ae96-454f-9ef8-570e64852395
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 1ef9ef91-ae96-454f-9ef8-570e64852395, IInkRenderer interface [Tablet PC],Measure method, IInkRenderer.Measure, IInkRenderer::Measure, Measure, Measure method [Tablet PC], Measure method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::Measure, tablet.inkrenderer_measure
 ms.prod: windows-hardware
 ms.technology: windows-devices

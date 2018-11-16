@@ -7,7 +7,7 @@ old-location: mediastreaming\connectionstatus.htm
 tech.root: mediastreaming
 ms.assetid: e1893a59-ce7d-4e9c-a013-02ac916d4ee8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ConnectionStatus, ConnectionStatus enumeration [Media Streaming API], Offline, Online, Sleeping, mediastreaming.connectionstatus, windows/ConnectionStatus, windows/Offline, windows/Online, windows/Sleeping
 ms.prod: windows-hardware
 ms.technology: windows-devices

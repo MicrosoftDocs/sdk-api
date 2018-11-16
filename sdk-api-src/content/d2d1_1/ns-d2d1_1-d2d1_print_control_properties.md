@@ -4,10 +4,10 @@ title: D2D1_PRINT_CONTROL_PROPERTIES
 author: windows-sdk-content
 description: The creation properties for a ID2D1PrintControl object.
 old-location: direct2d\d2d1_print_control_properties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5A4D4DDC-4161-44A2-9EB6-E4C14696B810
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_PRINT_CONTROL_PROPERTIES, D2D1_PRINT_CONTROL_PROPERTIES structure [Direct2D], d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES, direct2d.d2d1_print_control_properties
 ms.prod: windows-hardware
 ms.technology: windows-devices

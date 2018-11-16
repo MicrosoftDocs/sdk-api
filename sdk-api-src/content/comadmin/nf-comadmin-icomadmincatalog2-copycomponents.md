@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_copycomponents.htm
 tech.root: cossdk
 ms.assetid: 931f4929-b99b-4c4f-8980-eaceacc0e7fa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CopyComponents, CopyComponents method [COM+], CopyComponents method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CopyComponents method, ICOMAdminCatalog2.CopyComponents, ICOMAdminCatalog2::CopyComponents, _cos_icomadmincatalog2_CopyComponents, comadmin/ICOMAdminCatalog2::CopyComponents, cos.icomadmincatalog2_copycomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

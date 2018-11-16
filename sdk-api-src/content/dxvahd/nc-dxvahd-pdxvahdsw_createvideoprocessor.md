@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_createvideoprocessor.htm
 tech.root: medfound
 ms.assetid: 69ddcfc4-e91a-4ad5-ac0f-41683352d55a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: PDXVAHDSW_CreateVideoProcessor, PDXVAHDSW_CreateVideoProcessor callback, PDXVAHDSW_CreateVideoProcessor callback function [Media Foundation], dxvahd/PDXVAHDSW_CreateVideoProcessor, mf.pdxvahdsw_createvideoprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices

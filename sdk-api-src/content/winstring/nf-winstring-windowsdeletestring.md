@@ -7,7 +7,7 @@ old-location: winrt\windowsdeletestring.htm
 tech.root: WinRT
 ms.assetid: 79B9E5CF-396C-45FB-931B-7B50281A0446
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: WindowsDeleteString, WindowsDeleteString function [Windows Runtime], winrt.windowsdeletestring, winstring/WindowsDeleteString
 ms.prod: windows-hardware
 ms.technology: windows-devices

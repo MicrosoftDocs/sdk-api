@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_dssetshader.htm
 tech.root: direct3d11
 ms.assetid: 5ee4a072-3b4a-44e6-ae70-19e0888905a2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DSSetShader, DSSetShader method [Direct3D 11], DSSetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSSetShader method, ID3D11DeviceContext.DSSetShader, ID3D11DeviceContext::DSSetShader, b38d5392-9654-20ac-d78c-5d92274289d3, d3d11/ID3D11DeviceContext::DSSetShader, direct3d11.id3d11devicecontext_dssetshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

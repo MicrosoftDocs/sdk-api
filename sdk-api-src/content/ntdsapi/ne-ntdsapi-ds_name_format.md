@@ -7,7 +7,7 @@ old-location: ad\ds_name_format.htm
 tech.root: ad
 ms.assetid: 7a99e531-5a38-4352-8921-7b5a765ffd03
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: DS_CANONICAL_NAME, DS_CANONICAL_NAME_EX, DS_DISPLAY_NAME, DS_DNS_DOMAIN_NAME, DS_FQDN_1779_NAME, DS_NAME_FORMAT, DS_NAME_FORMAT enumeration [Active Directory], DS_NT4_ACCOUNT_NAME, DS_SERVICE_PRINCIPAL_NAME, DS_SID_OR_SID_HISTORY_NAME, DS_UNIQUE_ID_NAME, DS_UNKNOWN_NAME, DS_USER_PRINCIPAL_NAME, _glines_ds_name_format, ad.ds__name__format, ad.ds_name_format, ntdsapi/DS_CANONICAL_NAME, ntdsapi/DS_CANONICAL_NAME_EX, ntdsapi/DS_DISPLAY_NAME, ntdsapi/DS_DNS_DOMAIN_NAME, ntdsapi/DS_FQDN_1779_NAME, ntdsapi/DS_NAME_FORMAT, ntdsapi/DS_NT4_ACCOUNT_NAME, ntdsapi/DS_SERVICE_PRINCIPAL_NAME, ntdsapi/DS_SID_OR_SID_HISTORY_NAME, ntdsapi/DS_UNIQUE_ID_NAME, ntdsapi/DS_UNKNOWN_NAME, ntdsapi/DS_USER_PRINCIPAL_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices

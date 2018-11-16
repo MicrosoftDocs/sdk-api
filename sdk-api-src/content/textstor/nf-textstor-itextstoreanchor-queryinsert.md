@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_queryinsert.htm
 tech.root: TSF
 ms.assetid: 953b3f9c-63b7-4d62-accb-b07acfa97432
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],QueryInsert method, ITextStoreAnchor.QueryInsert, ITextStoreAnchor::QueryInsert, QueryInsert, QueryInsert method [Text Services Framework], QueryInsert method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::QueryInsert, tsf.itextstoreanchor_queryinsert
 ms.prod: windows-hardware
 ms.technology: windows-devices

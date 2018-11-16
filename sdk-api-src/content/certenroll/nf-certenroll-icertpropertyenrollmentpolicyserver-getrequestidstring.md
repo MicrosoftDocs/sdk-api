@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollmentpolicyserver_getrequestidstring.ht
 tech.root: SecCertEnroll
 ms.assetid: c9855a9d-938f-4579-8447-a931dbba1428
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetRequestIdString method, ICertPropertyEnrollmentPolicyServer.GetRequestIdString, ICertPropertyEnrollmentPolicyServer::GetRequestIdString, certenroll/ICertPropertyEnrollmentPolicyServer::GetRequestIdString, security.icertpropertyenrollmentpolicyserver_getrequestidstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

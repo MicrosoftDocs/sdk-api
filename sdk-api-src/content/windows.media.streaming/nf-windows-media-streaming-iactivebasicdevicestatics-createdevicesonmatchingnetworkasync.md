@@ -7,7 +7,7 @@ old-location: mediastreaming\iactivebasicdevicestatics_createdevicesonmatchingne
 tech.root: mediastreaming
 ms.assetid: E113C600-1F55-4653-A4FD-A1286699B137
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: CreateDevicesOnMatchingNetworkAsync, CreateDevicesOnMatchingNetworkAsync method [Media Streaming API], CreateDevicesOnMatchingNetworkAsync method [Media Streaming API],IActiveBasicDeviceStatics interface, IActiveBasicDeviceStatics interface [Media Streaming API],CreateDevicesOnMatchingNetworkAsync method, IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics.streaming, IActiveBasicDeviceStatics::CreateDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics::streaming, mediastreaming.iactivebasicdevicestatics_createdevicesonmatchingnetworkasync, windows/IActiveBasicDeviceStatics::CreateDevicesOnMatchingNetworkAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,9 @@ Asynchronously creates a <a href="https://msdn.microsoft.com/88F63873-9844-4EF9-
 
 
 
-### -param serverUDN
+### -param serverUDN [in]
 
-TBD
+The basic device server.
 
 
 ### -param renderer [in]
@@ -86,19 +86,7 @@ Specifies whether or not to optimize for proxying.
 Specifies whether or not the renderer network can be changed.
 
 
-### -param operation
-
-TBD
-
-
-
-
-#### - server [in]
-
-The basic device server.
-
-
-#### - value [out, retval]
+### -param operation [out, retval]
 
 The asynchronous operation. Upon completion, <a href="https://msdn.microsoft.com/1E40AEED-8D57-4FBC-AF25-11B27399477C">IAsyncOperation.GetResults</a> returns a <a href="https://msdn.microsoft.com/88F63873-9844-4EF9-A868-5CA0330F9242">DevicePair</a> object.
 

@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_casetup_0000_0005_0001"
 author: windows-sdk-content
 description: Used by the GetProperty and SetProperty methods on the ICertificateEnrollmentPolicyServerSetup interface to specify the type of property information to retrieve or set.
 old-location: security\cepsetupproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 344701CA-089C-4152-BDA4-249728863180
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CEPSetupProperty, CEPSetupProperty enumeration [Security], ENUM_CEPSETUPPROP_AUTHENTICATION, ENUM_CEPSETUPPROP_KEYBASED_RENEWAL, ENUM_CEPSETUPPROP_SSLCERTHASH, ENUM_CEPSETUPPROP_URL, __MIDL___MIDL_itf_casetup_0000_0005_0001, casetup/CEPSetupProperty, casetup/ENUM_CEPSETUPPROP_AUTHENTICATION, casetup/ENUM_CEPSETUPPROP_KEYBASED_RENEWAL, casetup/ENUM_CEPSETUPPROP_SSLCERTHASH, casetup/ENUM_CEPSETUPPROP_URL, security.cepsetupproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: of\offlinefilesstart.htm
 tech.root: OfflineFiles
 ms.assetid: 79060780-A2C1-45CE-BB9A-75DF433C3F3C
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: OfflineFilesStart, OfflineFilesStart function [Offline Files], cscapi/OfflineFilesStart, of.offlinefilesstart
 ms.prod: windows-hardware
 ms.technology: windows-devices

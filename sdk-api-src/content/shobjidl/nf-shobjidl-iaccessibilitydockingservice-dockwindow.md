@@ -2,26 +2,26 @@
 UID: NF:shobjidl.IAccessibilityDockingService.DockWindow
 title: IAccessibilityDockingService::DockWindow
 author: windows-sdk-content
-description: Docks the specified window handle to the specified monitor handle.
-old-location: com\iaccessibilitydockingservice_dockwindow.htm
-tech.root: com
-ms.assetid: 99C6A82C-A421-4A5E-B23A-167384A7AB90
+description: Docks an accessibility app window to the bottom of a screen while the system is in a full-screen or filled mode.
+old-location: shell\IAccessibilityDockingService_DockWindow.htm
+tech.root: shell
+ms.assetid: D7B2AC62-D044-45b6-AF12-9BAC32A3B114
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: DockWindow, DockWindow method [COM], DockWindow method [COM],IAccessibilityDockingService interface, IAccessibilityDockingService interface [COM],DockWindow method, IAccessibilityDockingService.DockWindow, IAccessibilityDockingService::DockWindow, com.iaccessibilitydockingservice_dockwindow, shobjidl/IAccessibilityDockingService::DockWindow
+ms.date: 11/15/2018
+ms.keywords: DockWindow, DockWindow method [Windows Shell], DockWindow method [Windows Shell],IAccessibilityDockingService interface, IAccessibilityDockingService interface [Windows Shell],DockWindow method, IAccessibilityDockingService.DockWindow, IAccessibilityDockingService::DockWindow, shell.IAccessibilityDockingService_DockWindow, shobjidl/IAccessibilityDockingService::DockWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - shobjidl.h
+ - Shobjidl.h
 api_name:
  - IAccessibilityDockingService.DockWindow
 product: Windows
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Docks the specified window handle to the specified monitor handle.
+Docks an accessibility app window to the bottom of a screen while the system is in a full-screen or filled mode.
 
 
 ## -parameters
@@ -68,32 +68,37 @@ Docks the specified window handle to the specified monitor handle.
 
 ### -param hwnd [in]
 
-The accessibility application window that will be docked on the passed monitor handle.
+Type: <b>HWND</b>
+
+The handle of the accessibility app window to dock on the monitor.
 
 
 ### -param hMonitor [in]
 
-The monitor on which the accessibility application window will be docked.
+Type: <b>HMONITOR</b>
+
+The monitor on which the accessibility app window will be docked.
 
 
-### -param cyRequested
+### -param cyRequested [in]
 
-TBD
+Type: <b>UINT</b>
+
+The requested height, in physical pixels, of the docked window. This must be less than or equal to the <i>pcyMax</i> value retrieved through <a href="https://msdn.microsoft.com/B447D464-EFAF-4743-900F-E77A2FE140DD">GetAvailableSize</a>).
 
 
 ### -param pCallback [in]
 
-The callback pointer on which the accessibility application will receive the <a href="https://msdn.microsoft.com/8A88D02C-E542-49F0-B423-771E755D506D">Undock</a> notification.
+Type: <b><a href="https://msdn.microsoft.com/E357E47C-5A29-4b92-AD26-E604E501B7D6">IAccessibilityDockingServiceCallback</a>*</b>
 
-
-#### - uHeight [in]
-
-The height at which the window will be docked, in pixels, if this function is successful. Must be less than or equal to the <i>puMaxHeight</i> variable retrieved from a call to the <a href="https://msdn.microsoft.com/1C838B01-EF26-4FCC-878F-A36DEFBA3142">GetAvailableSize</a> method.
+A callback method pointer through which the accessibility app can receive a notification when the docked window is undocked.
 
 
 ## -returns
 
 
+
+Type: <b>HRESULT</b>
 
 This method can return one of these values.
 
@@ -109,7 +114,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-Success.
+The method succeeded.
 
 </td>
 </tr>
@@ -131,7 +136,7 @@ The window handle or monitor handle is not valid.
 </dl>
 </td>
 <td width="60%">
-The calling process is not a UIAcess accessibility application or the calling process does not own the window.
+The calling process is not a UIAccess accessibility app or the calling process does not own the window.
 
 </td>
 </tr>
@@ -153,7 +158,7 @@ There is already another window occupying the docking space. Only one window can
 </dl>
 </td>
 <td width="60%">
-The requested <i>uHeight</i> is larger than the maximum allowed docking height for the specified monitor. However, if this error code is being returned, it means that this monitor does support docking, though at a height indicated by a call to the <a href="https://msdn.microsoft.com/1C838B01-EF26-4FCC-878F-A36DEFBA3142">GetAvailableSize</a> method.
+The height requested in <i>cyRequested</i> is larger than the maximum allowed docking height for the specified monitor. Note that if this error code is returned, it means that this monitor supports docking, though for a window of less height. Call <a href="https://msdn.microsoft.com/B447D464-EFAF-4743-900F-E77A2FE140DD">GetAvailableSize</a> to determine the maximum value for <i>cyRequested</i>.
 
 </td>
 </tr>
@@ -164,7 +169,7 @@ The requested <i>uHeight</i> is larger than the maximum allowed docking height f
 </dl>
 </td>
 <td width="60%">
-The monitor specified by the monitor handle does not support docking.
+The monitor specified by <i>hMonitor</i> does not support docking.
 
 </td>
 </tr>
@@ -174,12 +179,65 @@ The monitor specified by the monitor handle does not support docking.
 
 
 
+## -remarks
+
+
+
+This function will dock the specified window to the specified monitor. The window's new width will be the current width of the monitor. The window's new height will be <i>cyRequested</i> if it is less than the maximum available docking height for the monitor.
+
+
+#### Examples
+
+The following example shows the use of <b>DockWindow</b>. The method first calls <a href="https://msdn.microsoft.com/B447D464-EFAF-4743-900F-E77A2FE140DD">GetAvailableSize</a> to determine the maximum height of the docked window.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+ class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallback
+ {
+     // ...
+ 
+     HRESULT _Dock()
+     {
+         IAccessibilityDockingService *pDockingService;
+        
+         HRESULT hr = CoCreateInstance(CLSID_AccessibilityDockingService, 
+                                       CLSCTX_INPROV_SERVER, 
+                                       nullptr, 
+                                       IID_PPV_ARGS(&amp;pDockingService));
+         if (SUCCEEDED(hr)) 
+         {
+             UINT uMaxHeight;
+             UINT uFixedWidth;
+             
+             HMONITOR hMonitor = MonitorFromWindow(_hwndMyApplication, MONITOR_DEFAULTTONULL);
+             if (hMonitor != nullptr)
+             {
+                 hr = pDockingService-&gt;GetAvailableSize(hMonitor, &amp;uMaxHeight, &amp;uFixedWidth);
+                 if (SUCCEEDED(hr))
+                 {
+                     hr = pDockingService-&gt;DockWindow(_hwndMyApplication, hMonitor, uMaxHeight, this)
+                 }
+             }
+         }
+     }
+ }</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
 ## -see-also
 
 
 
 
-<a href="https://msdn.microsoft.com/DBAFE260-0AC6-4801-8590-DE058667C9A6">IAccessibilityDockingService</a>
+<a href="https://msdn.microsoft.com/EB66604E-4665-4d62-878C-7777C1C042F3">IAccessibilityDockingService</a>
  
 
  

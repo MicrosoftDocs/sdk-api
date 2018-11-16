@@ -4,10 +4,10 @@ title: D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
 author: windows-sdk-content
 description: Specifies additional features supportable by a compatible render target when it is created. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c20bf016-2304-4bd3-88ad-42d81e69c302
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS, D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS enumeration [Direct2D], D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE, D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE, d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS, d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE, d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE, direct2d.D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices

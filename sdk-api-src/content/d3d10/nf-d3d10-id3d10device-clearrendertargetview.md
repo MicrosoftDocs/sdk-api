@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_clearrendertargetview.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_clearrendertargetview.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 3433c2e0-695b-85b1-b1ed-77a71348bc1f, ClearRenderTargetView, ClearRenderTargetView method [Direct3D 10], ClearRenderTargetView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],ClearRenderTargetView method, ID3D10Device.ClearRenderTargetView, ID3D10Device::ClearRenderTargetView, d3d10/ID3D10Device::ClearRenderTargetView, direct3d10.id3d10device_clearrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,14 +74,7 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173827(v=VS.85).asp
 Pointer to the render target.
 
 
-### -param ColorRGBA
-
-TBD
-
-
-
-
-#### - ColorRGBA[4] [in]
+### -param ColorRGBA [in]
 
 Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">FLOAT</a></b>
 

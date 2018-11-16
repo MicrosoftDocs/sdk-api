@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpipelinemoduleimplementation.htm
 tech.root: Fsrm
 ms.assetid: a4420b1e-e2e5-460c-948c-3c5f97d7a0e7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IFsrmPipelineModuleImplementation, IFsrmPipelineModuleImplementation interface [File Server Resource Manager], IFsrmPipelineModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduleimplementation, fsrm.ifsrmpipelinemoduleimplementation, fsrm/IFsrmPipelineModuleImplementation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_ScaleTransform_sx_sy_or
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\scaletransform_12sx_sy_order.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: LinearGradientBrush class [GDI+],ScaleTransform method, LinearGradientBrush.ScaleTransform, LinearGradientBrush::ScaleTransform, ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_LinearGradientBrush_ScaleTransform_sx_sy_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices

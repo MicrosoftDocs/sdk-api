@@ -4,10 +4,10 @@ title: IMPEG2Component
 author: windows-sdk-content
 description: The IMPEG2Component interface contains methods for getting and setting properties that describe an MPEG2 elementary stream.
 old-location: mstv\impeg2component.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 63d1ae17-8e38-457e-98d7-e81e7576f1c1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMPEG2Component, IMPEG2Component interface [Microsoft TV Technologies], IMPEG2Component interface [Microsoft TV Technologies],described, IMPEG2ComponentInterface, mstv.impeg2component, tuner/IMPEG2Component
 ms.prod: windows-hardware
 ms.technology: windows-devices

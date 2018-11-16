@@ -4,10 +4,10 @@ title: LsaUnregisterPolicyChangeNotification function
 author: windows-sdk-content
 description: The LsaUnregisterPolicyChangeNotification function disables a previously registered notification event.
 old-location: security\lsaunregisterpolicychangenotification.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: c1000904-20a6-40db-9b59-2cbb79e00a67
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: LsaUnregisterPolicyChangeNotification, LsaUnregisterPolicyChangeNotification function [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyServerRoleInformation, _lsa_lsaunregisterpolicychangenotification, ntsecapi/LsaUnregisterPolicyChangeNotification, security.lsaunregisterpolicychangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_getproxyexceptionlist.htm
 tech.root: WMP
 ms.assetid: ddd3a6b2-3637-4da1-b3ce-f01364e8b818
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyExceptionList method, IWMPNetwork.getProxyExceptionList, IWMPNetwork::getProxyExceptionList, IWMPNetworkgetProxyExceptionList, getProxyExceptionList, getProxyExceptionList method [Windows Media Player], getProxyExceptionList method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyexceptionlist, wmp/IWMPNetwork::getProxyExceptionList
 ms.prod: windows-hardware
 ms.technology: windows-devices

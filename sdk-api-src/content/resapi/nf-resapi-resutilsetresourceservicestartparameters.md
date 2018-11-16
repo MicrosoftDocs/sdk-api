@@ -4,10 +4,10 @@ title: ResUtilSetResourceServiceStartParameters function
 author: windows-sdk-content
 description: Adjusts the start parameters of a specified service so that it will operate correctly as a cluster resource. It must be called from a resource DLL. The PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS type defines a pointer to this function.
 old-location: mscs\resutilsetresourceservicestartparameters.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5400ed27-4299-470c-bfce-bc91d09f1708
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS, PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS function [Failover Cluster], ResUtilSetResourceServiceStartParameters, ResUtilSetResourceServiceStartParameters function [Failover Cluster], _wolf_resutilsetresourceservicestartparameters, mscs.resutilsetresourceservicestartparameters, resapi/PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS, resapi/ResUtilSetResourceServiceStartParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IESValueUpdatedEvent
 author: windows-sdk-content
 description: Implements an event that Protected Broadcast Driver Architecture (PBDA) Media Transform Devices (MTDs) use to inform a Media Sink Device that the MTD has updated the value for a name-value pair or exposed a new name-value pair.
 old-location: mstv\iesvalueupdatedevent.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 6639c483-aebe-43b4-94cd-494b820c1b14
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IESValueUpdatedEvent, IESValueUpdatedEvent interface [Microsoft TV Technologies], IESValueUpdatedEvent interface [Microsoft TV Technologies],described, mstv.iesvalueupdatedevent, tuner/IESValueUpdatedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

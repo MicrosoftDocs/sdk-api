@@ -4,10 +4,10 @@ title: IIsdbComponentGroupDescriptor::GetComponentGroupType
 author: windows-sdk-content
 description: Gets the value of the component_group_type field from an Integrated Services Digital Broadcasting (ISDB) component group descriptor. This three-bit field indicates the group type to which the components in the descriptor belong.
 old-location: mstv\iisdbcomponentgroupdescriptor_getcomponentgrouptype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 6bf17c29-ee43-4de8-a536-bea44238aa53
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetComponentGroupType, GetComponentGroupType method [Microsoft TV Technologies], GetComponentGroupType method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetComponentGroupType method, IIsdbComponentGroupDescriptor.GetComponentGroupType, IIsdbComponentGroupDescriptor::GetComponentGroupType, dvbsiparser/IIsdbComponentGroupDescriptor::GetComponentGroupType, mstv.iisdbcomponentgroupdescriptor_getcomponentgrouptype
 ms.prod: windows-hardware
 ms.technology: windows-devices

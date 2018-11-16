@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapitransportstreamevents_onreadcompleted.htm
 tech.root: Rdp
 ms.assetid: 27c3a16a-3d78-46b1-b328-1a1b6f059687
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnReadCompleted method, IRDPSRAPITransportStreamEvents.OnReadCompleted, IRDPSRAPITransportStreamEvents::OnReadCompleted, OnReadCompleted, OnReadCompleted method [RDP], OnReadCompleted method [RDP],IRDPSRAPITransportStreamEvents interface, rdp.irdpsrapitransportstreamevents_onreadcompleted, rdpencomapi/IRDPSRAPITransportStreamEvents::OnReadCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getmethodprops.htm
 tech.root: WinRT
 ms.assetid: 973f2a8c-025d-4d27-ac99-56902b1132dd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetMethodProps, GetMethodProps method [Windows Runtime], GetMethodProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetMethodProps method, IMetaDataImport.GetMethodProps, IMetaDataImport::GetMethodProps, rometadataapi/IMetaDataImport::GetMethodProps, winrt.imetadataimport_getmethodprops
 ms.prod: windows-hardware
 ms.technology: windows-devices

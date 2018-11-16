@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandallocator_reset.htm
 tech.root: direct3d12
 ms.assetid: B7477767-9110-45DE-962F-E56FDB635D17
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D12CommandAllocator interface,Reset method, ID3D12CommandAllocator.Reset, ID3D12CommandAllocator::Reset, Reset, Reset method, Reset method,ID3D12CommandAllocator interface, d3d12/ID3D12CommandAllocator::Reset, direct3d12.id3d12commandallocator_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

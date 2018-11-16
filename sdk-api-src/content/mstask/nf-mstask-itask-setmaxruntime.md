@@ -7,7 +7,7 @@ old-location: taskschd\itask_setmaxruntime.htm
 tech.root: TaskSchd
 ms.assetid: fb9012c6-be41-4ec6-bb1a-73bd7896738f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITask interface [Task Scheduler],SetMaxRunTime method, ITask.SetMaxRunTime, ITask::SetMaxRunTime, SetMaxRunTime, SetMaxRunTime method [Task Scheduler], SetMaxRunTime method [Task Scheduler],ITask interface, _msb_itask_setmaxruntime, mstask/ITask::SetMaxRunTime, taskschd.itask_setmaxruntime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,7 @@ This method sets the maximum time the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-### -param dwMaxRunTimeMS
-
-TBD
-
-
-
-
-#### - dwMaxRunTime [in]
+### -param dwMaxRunTimeMS [in]
 
 A <b>DWORD</b> value that specifies the maximum run time (in milliseconds), for the task. This parameter may be set to INFINITE to specify an unlimited time.
 

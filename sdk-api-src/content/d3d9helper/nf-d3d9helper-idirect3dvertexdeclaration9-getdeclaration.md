@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexdeclaration9__getdeclaration.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9__getdeclaration.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetDeclaration, GetDeclaration method [Direct3D 9], GetDeclaration method [Direct3D 9],IDirect3DVertexDeclaration9 interface, IDirect3DVertexDeclaration9 interface [Direct3D 9],GetDeclaration method, IDirect3DVertexDeclaration9.GetDeclaration, IDirect3DVertexDeclaration9::GetDeclaration, bd1cb4cd-85cf-525d-1ac3-ebd3eb527b1a, d3d9helper/IDirect3DVertexDeclaration9::GetDeclaration, direct3d9.idirect3dvertexdeclaration9__getdeclaration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,11 +67,9 @@ Gets the vertex shader declaration.
 
 
 
-#### - arg1 [in, out]
+### -param arg1
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a>*</b>
-
-Array of vertex elements (see <a href="https://msdn.microsoft.com/en-us/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a>) that make up a vertex shader declaration. The application needs to allocate enough room for this. The vertex element array ends with the <a href="https://msdn.microsoft.com/en-us/library/Bb172535(v=VS.85).aspx">D3DDECL_END</a> macro.
+TBD
 
 
 ### -param pNumElements [out]
@@ -79,6 +77,13 @@ Array of vertex elements (see <a href="https://msdn.microsoft.com/en-us/library/
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 Number of elements in the array. The application needs to allocate enough room for this. 
+
+
+#### - pElement [in, out]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a>*</b>
+
+Array of vertex elements (see <a href="https://msdn.microsoft.com/en-us/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a>) that make up a vertex shader declaration. The application needs to allocate enough room for this. The vertex element array ends with the <a href="https://msdn.microsoft.com/en-us/library/Bb172535(v=VS.85).aspx">D3DDECL_END</a> macro.
 
 
 ## -returns

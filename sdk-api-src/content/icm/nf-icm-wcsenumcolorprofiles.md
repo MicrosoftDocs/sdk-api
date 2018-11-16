@@ -7,7 +7,7 @@ old-location: wcs\wcsenumcolorprofiles.htm
 tech.root: WCS
 ms.assetid: 45d670ae-a2f1-4281-bcd8-0663ee3e7fe4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: WcsEnumColorProfiles, WcsEnumColorProfiles function [Windows Color System], WcsEnumColorProfilesA, WcsEnumColorProfilesW, _color_WcsEnumColorProfiles, icm/WcsEnumColorProfiles, icm/WcsEnumColorProfilesA, icm/WcsEnumColorProfilesW, wcs.wcsenumcolorprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,9 @@ Enumerates all color profiles that satisfy the enumeration criteria in the speci
 
 
 
-### -param scope
+### -param scope [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value specifying the scope of this profile management operation.
 
 
 ### -param pEnumRecord [in]
@@ -89,11 +89,6 @@ A variable that contains the size, in bytes, of the buffer that is pointed to by
 ### -param pnProfiles [out, optional]
 
 An optional pointer to a variable that receives the number of profile names that are copied to the buffer to which <i>pBuffer</i> points. Can be <b>NULL</b> if this information is not needed.
-
-
-#### - profileManagementScope [in]
-
-A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value specifying the scope of this profile management operation.
 
 
 ## -returns

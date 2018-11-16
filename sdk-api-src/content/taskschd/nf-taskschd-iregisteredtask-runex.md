@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_runex.htm
 tech.root: TaskSchd
 ms.assetid: d6d09ab1-026d-4ee9-b520-c7702e37504e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],RunEx method, IRegisteredTask.RunEx, IRegisteredTask::RunEx, RunEx, RunEx method [Task Scheduler], RunEx method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_runex, taskschd/IRegisteredTask::RunEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

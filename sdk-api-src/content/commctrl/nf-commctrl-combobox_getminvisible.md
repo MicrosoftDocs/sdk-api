@@ -4,10 +4,10 @@ title: ComboBox_GetMinVisible macro
 author: windows-sdk-content
 description: Gets the minimum number of visible items in the drop-down list of a combo box.
 old-location: controls\ComboBox_GetMinVisible.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getminvisible.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ComboBox_GetMinVisible, ComboBox_GetMinVisible macro [Windows Controls], _win32_ComboBox_GetMinVisible, _win32_ComboBox_GetMinVisible_cpp, commctrl/ComboBox_GetMinVisible, controls.ComboBox_GetMinVisible, controls._win32_ComboBox_GetMinVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices

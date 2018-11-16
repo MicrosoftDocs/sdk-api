@@ -7,7 +7,7 @@ old-location: gpmc\igpmcsecollection.htm
 tech.root: GPMC
 ms.assetid: e32c1c39-b817-4db6-ad76-b2e66b54d79d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GPMCSECollection, IGPMCSECollection, IGPMCSECollection interface [GPMC], IGPMCSECollection interface [GPMC],described, _win32_igpmcsecollection, gpmc.igpmcsecollection, gpmgmt/IGPMCSECollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

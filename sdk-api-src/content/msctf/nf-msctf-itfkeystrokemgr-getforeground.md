@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_getforeground.htm
 tech.root: TSF
 ms.assetid: c447c4cb-47e3-4bc7-8eba-6e102762c69b
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetForeground, GetForeground method [Text Services Framework], GetForeground method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],GetForeground method, ITfKeystrokeMgr.GetForeground, ITfKeystrokeMgr::GetForeground, _tsf_itfkeystrokemgr_getforeground_ref, msctf/ITfKeystrokeMgr::GetForeground, tsf.itfkeystrokemgr_getforeground
 ms.prod: windows-hardware
 ms.technology: windows-devices

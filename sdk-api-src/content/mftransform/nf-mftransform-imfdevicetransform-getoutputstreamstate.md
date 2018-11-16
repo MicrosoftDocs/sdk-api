@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getoutputstreamstate.htm
 tech.root: stream
 ms.assetid: A79FC296-7D18-4C74-97E0-F37475AB90D5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetOutputStreamState, GetOutputStreamState method [Streaming Media Devices], GetOutputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputStreamState method, IMFDeviceTransform.GetOutputStreamState, IMFDeviceTransform::GetOutputStreamState, mftransform/IMFDeviceTransform::GetOutputStreamState, stream.imfdevicetransform_getoutputstreamstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,14 +71,7 @@ The  <b>GetOutputStreamState</b> method gets the Device MFT’s output stream st
 Stream ID of the output stream whose state needs to be retrieved.
 
 
-### -param value
-
-TBD
-
-
-
-
-#### - deviceStreamState [out]
+### -param value [out]
 
 Specifies the current <b>DeviceStreamState</b> of the specified output Device MFT stream. 
 

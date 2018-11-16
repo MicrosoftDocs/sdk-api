@@ -4,10 +4,10 @@ title: "_MI_Uint64AField"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_uint64afield.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 4ecaf6fa-f2d9-4a79-82b7-653b93c3eba4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint64AField, MI_Uint64AField structure [Windows Management Infrastructure (MI)], _MI_Uint64AField, mi/MI_Uint64AField, wmi._mi_uint64afield, wmi_v2.mi_uint64afield
 ms.prod: windows-hardware
 ms.technology: windows-devices

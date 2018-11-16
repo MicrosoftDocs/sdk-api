@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_setproperty.htm
 tech.root: WMP
 ms.assetid: 33b36239-3bda-44d3-8f85-7826bd8d3376
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMPPluginUI interface [Windows Media Player],SetProperty method, IWMPPluginUI.SetProperty, IWMPPluginUI::SetProperty, IWMPPluginUISetProperty, SetProperty, SetProperty method [Windows Media Player], SetProperty method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_setproperty, wmpplug/IWMPPluginUI::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,17 +69,7 @@ The <b>SetProperty</b> method is called by Windows Media Player to set name/valu
 
 
 
-### -param pwszName
-
-TBD
-
-
-### -param pvarProperty [in]
-
-Pointer to a <b>VARIANT</b> containing the new value of the property.
-
-
-#### - pswzName [in]
+### -param pwszName [in]
 
 Pointer to a <b>WCHAR</b><b>NULL</b>-terminated string constant containing the name of the property. Contains one of the following values:
 
@@ -104,6 +94,11 @@ Pointer to a <b>WCHAR</b><b>NULL</b>-terminated string constant containing the n
 </tr>
 </table>
  
+
+
+### -param pvarProperty [in]
+
+Pointer to a <b>VARIANT</b> containing the new value of the property.
 
 
 ## -returns

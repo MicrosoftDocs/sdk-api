@@ -4,10 +4,10 @@ title: IExtendPropertySheet2::GetWatermarks
 author: windows-sdk-content
 description: The IExtendPropertySheet2::GetWatermarks method gets the watermark bitmap and header bitmap for wizard sheets implemented as Wizard 97-style wizards.
 old-location: mmc\iextendpropertysheet2_getwatermarks.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: caecb35a-3f59-4a04-af46-862ded9685cf
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetWatermarks, GetWatermarks method [MMC], GetWatermarks method [MMC],IExtendPropertySheet2 interface, IExtendPropertySheet2 interface [MMC],GetWatermarks method, IExtendPropertySheet2.GetWatermarks, IExtendPropertySheet2::GetWatermarks, _slate_iextendpropertysheet2_getwatermarks, mmc.iextendpropertysheet2_getwatermarks, mmc/IExtendPropertySheet2::GetWatermarks
 ms.prod: windows-hardware
 ms.technology: windows-devices

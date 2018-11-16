@@ -7,7 +7,7 @@ old-location: wua\iupdate_downloadpriority.htm
 tech.root: Wua_Sdk
 ms.assetid: a1963c34-6387-442f-847a-1348789f3b05
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: DownloadPriority property [Windows Update Agent], DownloadPriority property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DownloadPriority property, IUpdate.DownloadPriority, IUpdate.get_DownloadPriority, IUpdate::DownloadPriority, IUpdate::get_DownloadPriority, get_DownloadPriority, wua.iupdate_downloadpriority, wuapi/IUpdate::DownloadPriority, wuapi/IUpdate::get_DownloadPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: LsaQueryTrustedDomainInfo function
 author: windows-sdk-content
 description: The LsaQueryTrustedDomainInfo function retrieves information about a trusted domain.
 old-location: security\lsaquerytrusteddomaininfo.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 62925515-a6f3-4b5f-bf97-edb968af19a3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: LsaQueryTrustedDomainInfo, LsaQueryTrustedDomainInfo function [Security], TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsaquerytrusteddomaininfo, ntsecapi/LsaQueryTrustedDomainInfo, security.lsaquerytrusteddomaininfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

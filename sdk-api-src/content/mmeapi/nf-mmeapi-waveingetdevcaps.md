@@ -7,7 +7,7 @@ old-location: multimedia\waveingetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: f8d4edc7-99b6-488d-974b-6fb8f0080f77
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_waveInGetDevCaps, mmeapi/waveInGetDevCaps, multimedia.waveingetdevcaps, waveInGetDevCaps, waveInGetDevCaps function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices

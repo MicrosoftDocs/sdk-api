@@ -7,7 +7,7 @@ old-location: netmgmt\netservicegetinfo.htm
 tech.root: NetMgmt
 ms.assetid: dcbea171-75fd-4d92-a2a0-ebd2867b233e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NetServiceGetInfo, NetServiceGetInfo function [Network Management], _win32_netservicegetinfo, lmsvc/NetServiceGetInfo, netmgmt.netservicegetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

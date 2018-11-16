@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsaturate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorSaturate(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMVectorSaturate, XMVectorSaturate, XMVectorSaturate method [DirectX Math Support APIs], dxmath.xmvectorsaturate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__createcubetexture.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createcubetexture.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: 0b1afd24-65fb-4a7c-77ef-c3b832e6d5f1, CreateCubeTexture, CreateCubeTexture method [Direct3D 9], CreateCubeTexture method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateCubeTexture method, IDirect3DDevice9.CreateCubeTexture, IDirect3DDevice9::CreateCubeTexture, d3d9helper/IDirect3DDevice9::CreateCubeTexture, direct3d9.idirect3ddevice9__createcubetexture
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\SHAnsiToAnsi.htm
 tech.root: shell
 ms.assetid: e57142ca-3098-4118-aac0-89724f711872
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: SHAnsiToAnsi, SHAnsiToAnsi function [Windows Shell], _win32_SHAnsiToAnsi, shell.SHAnsiToAnsi, shlwapi/SHAnsiToAnsi
 ms.prod: windows-hardware
 ms.technology: windows-devices

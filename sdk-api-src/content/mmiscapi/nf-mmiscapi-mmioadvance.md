@@ -7,7 +7,7 @@ old-location: multimedia\mmioadvance.htm
 tech.root: Multimedia
 ms.assetid: 30c0b014-a0ac-4002-aeef-24816673f1ed
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_mmioAdvance, mmioAdvance, mmioAdvance function [Windows Multimedia], mmsystem/mmioAdvance, multimedia.mmioadvance"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,22 +77,10 @@ File handle of a file opened by using the <a href="https://msdn.microsoft.com/73
 
 ### -param pmmioinfo
 
-TBD
-
-
-### -param fuAdvance
-
-TBD
-
-
-
-
-#### - lpmmioinfo
-
 Pointer to the <a href="https://msdn.microsoft.com/44a46d1c-9c9c-42ee-8a2b-ac5b1bc19560">MMIOINFO</a> structure obtained by using the <a href="https://msdn.microsoft.com/9ca58586-8cd6-4d74-9cef-f0ae41b24fe3">mmioGetInfo</a> function. This structure is used to set the current file information, and then it is updated after the buffer is advanced. This parameter is optional.
 
 
-#### - wFlags
+### -param fuAdvance
 
 Flags for the operation. It can be one of the following.
 

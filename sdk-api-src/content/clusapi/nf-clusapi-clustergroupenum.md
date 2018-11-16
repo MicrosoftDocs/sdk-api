@@ -4,10 +4,10 @@ title: ClusterGroupEnum function
 author: windows-sdk-content
 description: Enumerates the resources in a group or the nodes that are the preferred owners of a group, returning the name of the resource or node with each call.
 old-location: mscs\clustergroupenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: fffcae88-8df0-487f-9f6d-bc3560283ef1
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, ClusterGroupEnum, ClusterGroupEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM, PCLUSAPI_CLUSTER_GROUP_ENUM function [Failover Cluster], _wolf_clustergroupenum, clusapi/ClusterGroupEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM, mscs.clustergroupenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,6 +116,54 @@ A pointer to the size of the <i>lpszResourceName</i> buffer as a count of charac
 
 
 The function can returns one of the following values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234 (0xEA)</dt>
+</dl>
+</td>
+<td width="60%">
+More data is available. This value is returned if the buffer pointed to by 
+         <i>lpszResourceName</i> is not big enough to hold the result. The 
+         <i>lpcchName</i> parameter returns the number of characters in the result, excluding the 
+         terminating <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+<dt>259 (0x103)</dt>
+</dl>
+</td>
+<td width="60%">
+No more data is available. This value is returned if there are no more resources or nodes to be 
+         returned.
+
+</td>
+</tr>
+</table>
+ 
 
 If the operation was not successful due to a problem other than those described with the 
        <b>ERROR_NO_MORE_ITEMS</b> or <b>ERROR_MORE_DATA</b> values, 

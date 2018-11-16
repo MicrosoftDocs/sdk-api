@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportjob.htm
 tech.root: Fsrm
 ms.assetid: ea8a3f6b-326b-4c8f-a6fc-7b7525c5543f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], IFsrmReportJob interface [File Server Resource Manager],described, fs.ifsrmreportjob, fsrm.ifsrmreportjob, fsrm/IFsrmReportJob
 ms.prod: windows-hardware
 ms.technology: windows-devices

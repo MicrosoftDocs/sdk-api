@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_opened_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 7f02b3d7-ab3a-4413-81ac-c626bc79a88c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509PrivateKey interface [Security],Opened property, IX509PrivateKey.Opened, IX509PrivateKey.get_Opened, IX509PrivateKey::Opened, IX509PrivateKey::get_Opened, Opened property [Security], Opened property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Opened, certenroll/IX509PrivateKey::get_Opened, get_Opened, security.ix509privatekey_opened_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

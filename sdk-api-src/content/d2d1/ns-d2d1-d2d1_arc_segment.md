@@ -4,10 +4,10 @@ title: D2D1_ARC_SEGMENT
 author: windows-sdk-content
 description: Describes an elliptical arc between two points.
 old-location: direct2d\D2D1_ARC_SEGMENT.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3f391265-20b4-4897-aa0b-d14b71cd5f0a
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_ARC_SEGMENT, D2D1_ARC_SEGMENT structure [Direct2D], d2d1/D2D1_ARC_SEGMENT, direct2d.D2D1_ARC_SEGMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

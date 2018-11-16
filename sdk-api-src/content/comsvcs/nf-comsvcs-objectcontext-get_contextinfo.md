@@ -7,7 +7,7 @@ old-location: cos\objectcontext_get_contextinfo.htm
 tech.root: cossdk
 ms.assetid: 1974edd5-3348-4ac4-a80c-c549f2d79161
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ObjectContext interface [COM+],get_ContextInfo method, ObjectContext.get_ContextInfo, ObjectContext::get_ContextInfo, _cos_ObjectContext_get_ContextInfo, comsvcs/ObjectContext::get_ContextInfo, cos.objectcontext_get_contextinfo, get_ContextInfo, get_ContextInfo method [COM+], get_ContextInfo method [COM+],ObjectContext interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

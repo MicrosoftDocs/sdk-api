@@ -4,10 +4,10 @@ title: SCardReleaseStartedEvent function
 author: windows-sdk-content
 description: Decrements the reference count for a handle acquired by a previous call to the SCardAccessStartedEvent function.
 old-location: security\scardreleasestartedevent.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2c08500f-3ebf-4267-8436-b67543e1c13c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: SCardReleaseStartedEvent, SCardReleaseStartedEvent function [Security], _smart_scardreleasestartedevent, security.scardreleasestartedevent, winscard/SCardReleaseStartedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

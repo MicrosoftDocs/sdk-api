@@ -4,10 +4,10 @@ title: ITPluggableTerminalSuperclassInfo
 author: windows-sdk-content
 description: The ITPluggableTerminalSuperclassInfo interface exposes methods that get the name and CLSID of a pluggable terminal class.
 old-location: tapi3\itpluggableterminalsuperclassinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f9226af1-90e7-4317-af73-e1563883e2b6
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITPluggableTerminalSuperclassInfo, ITPluggableTerminalSuperclassInfo interface [TAPI 2.2], ITPluggableTerminalSuperclassInfo interface [TAPI 2.2],described, _tapi3_itpluggableterminalsuperclassinfo, tapi3.itpluggableterminalsuperclassinfo, tapi3if/ITPluggableTerminalSuperclassInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

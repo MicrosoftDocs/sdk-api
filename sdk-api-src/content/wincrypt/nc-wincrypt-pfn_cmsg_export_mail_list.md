@@ -4,10 +4,10 @@ title: PFN_CMSG_EXPORT_MAIL_LIST
 author: windows-sdk-content
 description: Encrypts and exports the content encryption key for a mailing list recipient of an enveloped message.
 old-location: security\pfn_cmsg_export_mail_list.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 68a75714-cf47-40f9-95ab-e1ffc8936390
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: PFN_CMSG_EXPORT_MAIL_LIST, PFN_CMSG_EXPORT_MAIL_LIST callback, PFN_CMSG_EXPORT_MAIL_LIST callback function [Security], security.pfn_cmsg_export_mail_list, wincrypt/PFN_CMSG_EXPORT_MAIL_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

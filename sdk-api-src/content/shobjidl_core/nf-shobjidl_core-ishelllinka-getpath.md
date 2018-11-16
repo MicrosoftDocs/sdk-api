@@ -7,7 +7,7 @@ old-location: shell\IShellLink_GetPath.htm
 tech.root: shell
 ms.assetid: 7c60f5a2-dc21-4b13-a201-1fab04c53bb4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IShellLink interface, GetPath method [Windows Shell],IShellLinkA interface, GetPath method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetPath method, IShellLink::GetPath, IShellLinkA interface [Windows Shell],GetPath method, IShellLinkA.GetPath, IShellLinkA::GetPath, IShellLinkW interface [Windows Shell],GetPath method, IShellLinkW::GetPath, SLGP_RAWPATH, SLGP_RELATIVEPRIORITY, SLGP_SHORTPATH, SLGP_UNCPRIORITY, _win32_IShellLink_GetPath, shell.IShellLink_GetPath, shobjidl_core/IShellLink::GetPath, shobjidl_core/IShellLinkA::GetPath, shobjidl_core/IShellLinkW::GetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,9 +75,11 @@ Type: <b>LPTSTR</b>
 The address of a buffer that receives the path and file name of the target of the Shell link object.
 
 
-### -param cch
+### -param cch [in]
 
-TBD
+Type: <b>int</b>
+
+The size, in characters, of the buffer pointed to by the <i>pszFile</i> parameter, including the terminating null character. The maximum path size that can be returned is MAX_PATH. This parameter is commonly set by calling ARRAYSIZE(pszFile). The ARRAYSIZE macro is defined in Winnt.h.
 
 
 ### -param pfd [in, out]
@@ -116,13 +118,6 @@ Retrieves the raw path name. A raw path is something that might not exist and ma
 #### SLGP_RELATIVEPRIORITY
 
 <b>Windows Vista and later</b>. Retrieves the path, if possible, of the shortcut's target relative to the path set by a previous call to <a href="https://msdn.microsoft.com/f9cbd1db-253b-4ce8-a8ea-cfc48759c9d3">IShellLink::SetRelativePath</a>.
-
-
-#### - cchMaxPath [in]
-
-Type: <b>int</b>
-
-The size, in characters, of the buffer pointed to by the <i>pszFile</i> parameter, including the terminating null character. The maximum path size that can be returned is MAX_PATH. This parameter is commonly set by calling ARRAYSIZE(pszFile). The ARRAYSIZE macro is defined in Winnt.h.
 
 
 ## -returns

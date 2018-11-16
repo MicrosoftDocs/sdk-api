@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::CreateColorContextFromFilename
 author: windows-sdk-content
 description: Creates a color context by loading it from the specified filename. The profile bytes are the contents of the file specified by Filename.
 old-location: direct2d\id2d1devicecontext_createcolorcontextfromfilename.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ae72c68a-d984-4287-b607-a18913f083d4
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CreateColorContextFromFilename, CreateColorContextFromFilename method [Direct2D], CreateColorContextFromFilename method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateColorContextFromFilename method, ID2D1DeviceContext.CreateColorContextFromFilename, ID2D1DeviceContext::CreateColorContextFromFilename, d2d1_1/ID2D1DeviceContext::CreateColorContextFromFilename, direct2d.id2d1devicecontext_createcolorcontextfromfilename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,9 @@ Creates a color context by loading it from the specified filename.  The profile 
 
 ### -param filename
 
-TBD
+Type: <b>PCWSTR</b>
+
+The path to the file containing the profile bytes to initialize the color context with.
 
 
 ### -param colorContext [out]
@@ -76,13 +78,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/acdda11e-eb3f-4258-b24e-daa3b7a23fd6">ID2D1ColorContext</a>**</b>
 
 When this method returns, contains the address of a pointer to a new color context.
-
-
-#### - Filename
-
-Type: <b>PCWSTR</b>
-
-The path to the file containing the profile bytes to initialize the color context with.
 
 
 ## -returns

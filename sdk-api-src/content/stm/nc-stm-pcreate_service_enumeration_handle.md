@@ -4,10 +4,10 @@ title: PCREATE_SERVICE_ENUMERATION_HANDLE
 author: windows-sdk-content
 description: The CreateServiceEnumerationHandle function returns a handle that allows the use of fast and change-tolerant enumeration functions.
 old-location: rras\createserviceenumerationhandle.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 68ed5662-ffa8-456b-b79c-a6fb27339262
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CreateServiceEnumerationHandle, CreateServiceEnumerationHandle callback function [RAS], PCREATE_SERVICE_ENUMERATION_HANDLE, PCREATE_SERVICE_ENUMERATION_HANDLE callback, STM_ONLY_THIS_INTERFACE, STM_ONLY_THIS_PROTOCOL, STM_ONLY_THIS_TYPE, _mpr_createserviceenumerationhandle, rras.createserviceenumerationhandle, stm/CreateServiceEnumerationHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

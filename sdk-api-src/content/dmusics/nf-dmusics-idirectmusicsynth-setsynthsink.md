@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth_setsynthsink.htm
 tech.root: audio
 ms.assetid: 51153ea3-7c61-458a-8879-10efbd678b53
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],SetSynthSink method, IDirectMusicSynth.SetSynthSink, IDirectMusicSynth::SetSynthSink, SetSynthSink, SetSynthSink method [Audio Devices], SetSynthSink method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setsynthsink, audmp-routines_4a1e1c4d-af5d-4141-8740-308cf711184e.xml, dmusics/IDirectMusicSynth::SetSynthSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

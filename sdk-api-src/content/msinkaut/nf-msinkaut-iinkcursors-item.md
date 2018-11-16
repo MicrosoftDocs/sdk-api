@@ -7,7 +7,7 @@ old-location: tablet\iinkcursors_item.htm
 tech.root: tablet
 ms.assetid: 59174954-4994-4773-acee-a3db363cb8fe
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 59174954-4994-4773-acee-a3db363cb8fe, IInkCursors interface [Tablet PC],Item method, IInkCursors.Item, IInkCursors::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursors interface, msinkaut/IInkCursors::Item, tablet.iinkcursors_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,19 +70,14 @@ Returns the <a href="https://msdn.microsoft.com/39b365ad-1eb0-4183-8799-a3c3ecbd
 
 
 
-### -param Index
+### -param Index [in]
 
-TBD
+The zero-based index of the <a href="https://msdn.microsoft.com/39b365ad-1eb0-4183-8799-a3c3ecbd3f6e">IInkCursor</a> object to get.
 
 
 ### -param Cursor [out, retval]
 
 Whenthis method returns, contains a pointer to the <a href="https://msdn.microsoft.com/39b365ad-1eb0-4183-8799-a3c3ecbd3f6e">IInkCursor</a> object at the specified index within the <a href="https://msdn.microsoft.com/3ae7dbc4-e5a2-4916-a1cc-651659a008fc">IInkCursors</a> collection.
-
-
-#### - index [in]
-
-The zero-based index of the <a href="https://msdn.microsoft.com/39b365ad-1eb0-4183-8799-a3c3ecbd3f6e">IInkCursor</a> object to get.
 
 
 ## -returns

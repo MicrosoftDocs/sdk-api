@@ -7,7 +7,7 @@ old-location: imapi\iwritespeeddescriptor.htm
 tech.root: imapi
 ms.assetid: 9efaa744-ae0c-4101-8d78-091cba990533
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IWriteSpeedDescriptor, IWriteSpeedDescriptor interface [IMAPI], IWriteSpeedDescriptor interface [IMAPI],described, imapi.iwritespeeddescriptor, imapi2/IWriteSpeedDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

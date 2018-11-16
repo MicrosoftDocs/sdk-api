@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetDataLocale function
 author: windows-sdk-content
 description: Gets the data locale (as opposed to UI locale) set by the user.
 old-location: wmi_v2\mi_destinationoptions_getdatalocale.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 301cf7d1-0df3-43e6-940d-4c0f29c8cd76
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_DestinationOptions_GetDataLocale, MI_DestinationOptions_GetDataLocale function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetDataLocale, wmi_v2.mi_destinationoptions_getdatalocale
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wininet\ftpputfile.htm
 tech.root: WinInet
 ms.assetid: 161d4c04-c928-4178-b75b-f4552ac051ea
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FTP_TRANSFER_TYPE_ASCII, FTP_TRANSFER_TYPE_BINARY, FTP_TRANSFER_TYPE_UNKNOWN, FtpPutFile, FtpPutFile function [WinINet], FtpPutFileA, FtpPutFileW, INTERNET_FLAG_HYPERLINK, INTERNET_FLAG_NEED_FILE, INTERNET_FLAG_RELOAD, INTERNET_FLAG_RESYNCHRONIZE, INTERNET_FLAG_TRANSFER_ASCII, INTERNET_FLAG_TRANSFER_BINARY, _inet_ftpputfile_function, wininet.ftpputfile, wininet/FtpPutFile, wininet/FtpPutFileA, wininet/FtpPutFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

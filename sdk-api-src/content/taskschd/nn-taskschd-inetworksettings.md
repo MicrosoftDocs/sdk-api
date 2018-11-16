@@ -7,7 +7,7 @@ old-location: taskschd\inetworksettings.htm
 tech.root: TaskSchd
 ms.assetid: 831e1259-df2b-4b03-8336-706727fd7b14
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetworkSettings, INetworkSettings interface [Task Scheduler], INetworkSettings interface [Task Scheduler],described, taskschd.inetworksettings, taskschd/INetworkSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

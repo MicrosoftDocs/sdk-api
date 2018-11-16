@@ -7,7 +7,7 @@ old-location: dshow\ienumfilters_skip.htm
 tech.root: DirectShow
 ms.assetid: 594e25b1-03a8-4b6c-965c-f34dae9f3d3b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumFilters interface [DirectShow],Skip method, IEnumFilters.Skip, IEnumFilters::Skip, IEnumFiltersSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumFilters interface, dshow.ienumfilters_skip, strmif/IEnumFilters::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ The <code>Skip</code> method skips over a specified number of filters.
 
 
 
-### -param cFilters
-
-TBD
-
-
-
-
-#### - cFilter [in]
+### -param cFilters [in]
 
 Number of filters to skip.
 

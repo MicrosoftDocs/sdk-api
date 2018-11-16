@@ -7,7 +7,7 @@ old-location: pla\ivaluemap_addrange.htm
 tech.root: PLA
 ms.assetid: 80893a3d-fcfc-475f-86ad-d19bb9e43ee0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IValueMap interface, IValueMap interface [PLA],AddRange method, IValueMap.AddRange, IValueMap::AddRange, base.ivaluemap_addrange, pla.ivaluemap_addrange, pla/IValueMap::AddRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Adds one or more items to the collection.
 
 
 
-### -param map
-
-TBD
-
-
-
-
-#### - pMap [in]
+### -param map [in]
 
 An <a href="https://msdn.microsoft.com/a7134395-91c6-4ea1-8b76-63830048289f">IValueMap</a> interface that contains a collection of items to add to this collection.
 

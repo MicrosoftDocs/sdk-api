@@ -7,7 +7,7 @@ old-location: mf\mfp_mediaitem_set_event.htm
 tech.root: medfound
 ms.assetid: 51ff492f-8199-4e1a-8d8b-d86bbb3c98dc
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: MFP_MEDIAITEM_SET_EVENT, MFP_MEDIAITEM_SET_EVENT structure [Media Foundation], mf.mfp_mediaitem_set_event, mfplay/MFP_MEDIAITEM_SET_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wintouch\imanpiulationprocessor_processdownwithtime.htm
 tech.root: wintouch
 ms.assetid: a76c9150-49b8-4a74-8ef0-bfa5ce9ec28a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessDownWithTime method, IManipulationProcessor.ProcessDownWithTime, IManipulationProcessor::ProcessDownWithTime, ProcessDownWithTime, ProcessDownWithTime method [Windows Touch], ProcessDownWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessDownWithTime, wintouch.imanpiulationprocessor_processdownwithtime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:control
 ms.assetid: f733fa94-5a03-3d90-8bc0-76283dc51940
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

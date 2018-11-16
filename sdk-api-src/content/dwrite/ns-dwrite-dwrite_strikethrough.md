@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_strikethrough.htm
 tech.root: DirectWrite
 ms.assetid: 05d86485-2c34-4e3b-99e8-ca54a3b1e5f6
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: DWRITE_STRIKETHROUGH, DWRITE_STRIKETHROUGH structure [Direct Write], directwrite.dwrite_strikethrough, dwrite/DWRITE_STRIKETHROUGH
 ms.prod: windows-hardware
 ms.technology: windows-devices

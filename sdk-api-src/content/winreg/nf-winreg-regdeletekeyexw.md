@@ -4,10 +4,10 @@ title: RegDeleteKeyExW function
 author: windows-sdk-content
 description: Deletes a subkey and its values from the specified platform-specific view of the registry.
 old-location: base\regdeletekeyex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 41fde6a5-647c-4293-92b8-74be54fa4136
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, RegDeleteKeyEx, RegDeleteKeyEx function, RegDeleteKeyExA, RegDeleteKeyExW, base.regdeletekeyex, winreg/RegDeleteKeyEx, winreg/RegDeleteKeyExA, winreg/RegDeleteKeyExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

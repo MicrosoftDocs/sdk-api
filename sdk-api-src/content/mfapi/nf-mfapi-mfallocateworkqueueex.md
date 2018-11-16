@@ -7,7 +7,7 @@ old-location: mf\mfallocateworkqueueex.htm
 tech.root: medfound
 ms.assetid: 422b8bc2-0616-4f7f-9908-775940f8c1ab
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: MFAllocateWorkQueueEx, MFAllocateWorkQueueEx function [Media Foundation], MF_MULTITHREADED_WORKQUEUE, MF_STANDARD_WORKQUEUE, MF_WINDOW_WORKQUEUE, mf.mfallocateworkqueueex, mfapi/MFAllocateWorkQueueEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

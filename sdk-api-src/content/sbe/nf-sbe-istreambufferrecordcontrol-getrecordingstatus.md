@@ -4,10 +4,10 @@ title: IStreamBufferRecordControl::GetRecordingStatus
 author: windows-sdk-content
 description: The GetRecordingStatus method retrieves the status of the recording.
 old-location: mstv\istreambufferrecordcontrol_getrecordingstatus.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 313f2ad0-7401-4a36-a229-abfc67737324
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetRecordingStatus, GetRecordingStatus method [Microsoft TV Technologies], GetRecordingStatus method [Microsoft TV Technologies],IStreamBufferRecordControl interface, IStreamBufferRecordControl interface [Microsoft TV Technologies],GetRecordingStatus method, IStreamBufferRecordControl.GetRecordingStatus, IStreamBufferRecordControl::GetRecordingStatus, IStreamBufferRecordControlGetRecordingStatus, mstv.istreambufferrecordcontrol_getrecordingstatus, sbe/IStreamBufferRecordControl::GetRecordingStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,9 @@ The <b>GetRecordingStatus</b> method retrieves the status of the recording.
 
 
 
-### -param phResult
+### -param phResult [out]
 
-TBD
+Pointer to a variable that receives an <b>HRESULT</b> value. The <b>HRESULT</b> value indicates the current status of writing or closing the file. This parameter can be <b>NULL</b>.
 
 
 ### -param pbStarted [out]
@@ -119,11 +119,6 @@ Pointer to a variable that receives a Boolean value, indicating whether recordin
  
 
 This parameter can be <b>NULL</b>.
-
-
-#### - phLastResult [out]
-
-Pointer to a variable that receives an <b>HRESULT</b> value. The <b>HRESULT</b> value indicates the current status of writing or closing the file. This parameter can be <b>NULL</b>.
 
 
 ## -returns

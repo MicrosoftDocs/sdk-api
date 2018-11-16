@@ -4,10 +4,10 @@ title: "_MI_HostedProviderFT"
 author: windows-sdk-content
 description: A support structure used in the MI_HostedProvider structure. Use the functions with the name prefix &#0034;MI_HostedProvider_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_hostedproviderft.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 148c4f5a-277a-41fa-b801-34884fbf3225
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_HostedProviderFT, MI_HostedProviderFT structure [Windows Management Infrastructure (MI)], _MI_HostedProviderFT, mi/MI_HostedProviderFT, wmi_v2.mi_hostedproviderft
 ms.prod: windows-hardware
 ms.technology: windows-devices

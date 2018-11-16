@@ -4,10 +4,10 @@ title: "_CRYPT_PSOURCE_ALGORITHM"
 author: windows-sdk-content
 description: Identifies the algorithm and (optionally) the value of the label for an RSAES-OAEP key encryption.
 old-location: security\crypt_psource_algorithm.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cd390487-2bba-4d57-a779-579ffbd16acb
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM structure [Security], PCRYPT_PSOURCE_ALGORITHM, PCRYPT_PSOURCE_ALGORITHM structure pointer [Security], _CRYPT_PSOURCE_ALGORITHM, security.crypt_psource_algorithm, szOID_RSA_PSPECIFIED, wincrypt/CRYPT_PSOURCE_ALGORITHM, wincrypt/PCRYPT_PSOURCE_ALGORITHM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

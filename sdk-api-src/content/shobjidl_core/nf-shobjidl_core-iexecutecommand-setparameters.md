@@ -7,7 +7,7 @@ old-location: shell\IExecuteCommand_SetParameters.htm
 tech.root: shell
 ms.assetid: 3e08777c-865b-49c2-8f37-1a427c4945b4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetParameters method, IExecuteCommand.SetParameters, IExecuteCommand::SetParameters, SetParameters, SetParameters method [Windows Shell], SetParameters method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetParameters, shell.IExecuteCommand_SetParameters, shobjidl_core/IExecuteCommand::SetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

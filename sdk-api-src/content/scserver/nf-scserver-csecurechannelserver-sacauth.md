@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_sacauth.htm
 tech.root: WMDM
 ms.assetid: e32aac59-4b7f-4c0e-a200-0dec50d89cb0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],SACAuth method, CSecureChannelServer.SACAuth, CSecureChannelServer::SACAuth, CSecureChannelServerSACAuth, SACAuth, SACAuth method [windows Media Device Manager], SACAuth method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::SACAuth, wmdm.csecurechannelserver_sacauth
 ms.prod: windows-hardware
 ms.technology: windows-devices

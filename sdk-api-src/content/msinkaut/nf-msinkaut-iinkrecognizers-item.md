@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizers_item.htm
 tech.root: tablet
 ms.assetid: 65c169f0-fe61-4609-809c-52c53cfcba7f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 65c169f0-fe61-4609-809c-52c53cfcba7f, IInkRecognizers interface [Tablet PC],Item method, IInkRecognizers.Item, IInkRecognizers::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkRecognizers interface, msinkaut/IInkRecognizers::Item, tablet.inkrecognizers_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,19 +70,14 @@ Retrieves the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc
 
 
 
-### -param Index
+### -param Index [in]
 
-TBD
+The zero-based index of the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer</a> object to get.
 
 
 ### -param InkRecognizer [out, retval]
 
 When this method returns, contains a pointer to the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer</a> object at the specified index within the <a href="https://msdn.microsoft.com/b916e53f-9acd-40dc-961b-ebbecb15bd21">InkRecognizers</a> collection.
-
-
-#### - index [in]
-
-The zero-based index of the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer</a> object to get.
 
 
 ## -returns

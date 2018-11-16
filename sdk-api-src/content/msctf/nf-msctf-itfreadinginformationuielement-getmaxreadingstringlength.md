@@ -7,7 +7,7 @@ old-location: tsf\itfreadinginformationuielement_getmaxreadingstringlength.htm
 tech.root: TSF
 ms.assetid: a26aa8d0-a447-4ebb-b892-28b959b57681
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetMaxReadingStringLength, GetMaxReadingStringLength method [Text Services Framework], GetMaxReadingStringLength method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetMaxReadingStringLength method, ITfReadingInformationUIElement.GetMaxReadingStringLength, ITfReadingInformationUIElement::GetMaxReadingStringLength, msctf/ITfReadingInformationUIElement::GetMaxReadingStringLength, tsf.itfreadinginformationuielement_getmaxreadingstringlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

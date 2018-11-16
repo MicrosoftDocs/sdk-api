@@ -4,10 +4,10 @@ title: IWEExtendPropertySheet::CreatePropertySheetPages
 author: windows-sdk-content
 description: Creates property pages for a cluster object and adds them to a Failover Cluster Administrator property sheet.
 old-location: mscs\iweextendpropertysheet_createpropertysheetpages.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 00eca370-a2c6-4f5c-94a9-7d7e4334ccd5
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CreatePropertySheetPages, CreatePropertySheetPages method [Failover Cluster], CreatePropertySheetPages method [Failover Cluster],IWEExtendPropertySheet interface, IWEExtendPropertySheet interface [Failover Cluster],CreatePropertySheetPages method, IWEExtendPropertySheet.CreatePropertySheetPages, IWEExtendPropertySheet::CreatePropertySheetPages, _wolf_iweextendpropertysheet_createpropertysheetpages, cluadmex/IWEExtendPropertySheet::CreatePropertySheetPages, mscs.iweextendpropertysheet_createpropertysheetpages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,6 +120,50 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa370507(v=VS.85
 
 Return one of the following values or any <b>HRESULT</b> that describes the results of 
        the operation.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+At least one of the parameters is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+<dt>0x80004001</dt>
+</dl>
+</td>
+<td width="60%">
+The extension does not support adding property pages.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

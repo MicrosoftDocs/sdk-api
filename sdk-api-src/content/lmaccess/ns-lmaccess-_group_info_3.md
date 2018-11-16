@@ -7,7 +7,7 @@ old-location: netmgmt\group_info_3_str.htm
 tech.root: NetMgmt
 ms.assetid: aa0c3b6e-ab27-48b9-a37f-5cceb63c70fd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PGROUP_INFO_3, GROUP_INFO_3, GROUP_INFO_3 structure [Network Management], PGROUP_INFO_3, PGROUP_INFO_3 structure pointer [Network Management], _GROUP_INFO_3, _win32_group_info_3_str, lmaccess/GROUP_INFO_3, lmaccess/PGROUP_INFO_3, netmgmt.group_info_3_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

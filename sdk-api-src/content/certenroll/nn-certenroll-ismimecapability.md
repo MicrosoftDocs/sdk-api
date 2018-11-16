@@ -7,7 +7,7 @@ old-location: security\ismimecapability.htm
 tech.root: SecCertEnroll
 ms.assetid: 3cfbb16f-88fa-41f1-b719-cd5e8ad636cc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISmimeCapability, ISmimeCapability interface [Security], ISmimeCapability interface [Security],described, certenroll/ISmimeCapability, security.ismimecapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

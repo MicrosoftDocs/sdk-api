@@ -4,10 +4,10 @@ title: LocalDiscard macro
 author: windows-sdk-content
 description: Discards the specified local memory object. The lock count of the memory object must be zero.
 old-location: base\localdiscard.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 05842fa7-0438-4237-962f-055dc338368c
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: LocalDiscard, LocalDiscard macro, _win32_localdiscard, base.localdiscard, minwinbase/LocalDiscard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,16 +66,7 @@ Discards the specified local memory object. The lock count of the memory object 
 
 
 
-### -param h
-
-TBD
-
-
-
-
-
-
-#### - hlocMem [in]
+### -param h [in]
 
 A handle to the local memory object. This handle is returned by either the 
 <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> or 

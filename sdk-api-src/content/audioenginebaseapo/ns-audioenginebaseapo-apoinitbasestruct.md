@@ -7,7 +7,7 @@ old-location: audio\apoinitbasestruct.htm
 tech.root: audio
 ms.assetid: 15C973AE-B0E8-42FD-9F34-671A6A915B47
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: APOInitBaseStruct, APOInitBaseStruct structure [Audio Devices], PAPOInitBaseStruct, PAPOInitBaseStruct structure pointer [Audio Devices], audio.apoinitbasestruct, audioenginebaseapo/APOInitBaseStruct, audioenginebaseapo/PAPOInitBaseStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices

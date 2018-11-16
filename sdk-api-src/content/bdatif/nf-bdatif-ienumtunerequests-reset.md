@@ -4,10 +4,10 @@ title: IEnumTuneRequests::Reset
 author: windows-sdk-content
 description: The Reset method sets the enumerator to the first item in the collection.
 old-location: mstv\ienumtunerequests_reset.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: bb06a6b3-83a6-4deb-8394-1c17cf97c1b2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Reset method, IEnumTuneRequests.Reset, IEnumTuneRequests::Reset, IEnumTuneRequestsReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Reset, mstv.ienumtunerequests_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

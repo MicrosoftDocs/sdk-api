@@ -2,12 +2,12 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS3
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS3
 author: windows-sdk-content
-description: Used to indicate the level of support that the adapter provides for optional features of Direct3D 12.
+description: Indicates the level of support that the adapter provides for timestamp queries, format-casting, immediate write, view instancing, and barycentrics.
 old-location: direct3d12\d3d12_feature_data_d3d12_options3.htm
 tech.root: direct3d12
 ms.assetid: 4BA37E6A-124D-4808-8005-CC049B8EE165
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS3, D3D12_FEATURE_DATA_D3D12_OPTIONS3 structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS3, direct3d12.d3d12_feature_data_d3d12_options3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Used to indicate the level of support that the adapter provides for optional features of Direct3D 12.
+Indicates the level of support that the adapter provides for timestamp queries, format-casting, immediate write, view instancing, and barycentrics.
 
 
 ## -struct-fields
@@ -88,21 +88,16 @@ Indicates whether barycentrics are supported.
           
 
 
-## -remarks
-
-
-
-
-
-
-
-
 ## -see-also
 
 
 
 
 <a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>
  
 
  

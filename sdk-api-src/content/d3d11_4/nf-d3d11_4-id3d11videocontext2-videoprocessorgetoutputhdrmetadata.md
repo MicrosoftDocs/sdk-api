@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext2_videoprocessorgetoutputhdrmetadata.htm
 tech.root: medfound
 ms.assetid: 5739668F-DCF8-448C-8690-E254315B92AF
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorGetOutputHDRMetaData method, ID3D11VideoContext2.VideoProcessorGetOutputHDRMetaData, ID3D11VideoContext2::VideoProcessorGetOutputHDRMetaData, VideoProcessorGetOutputHDRMetaData, VideoProcessorGetOutputHDRMetaData method [Media Foundation], VideoProcessorGetOutputHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorGetOutputHDRMetaData, mf.id3d11videocontext2_videoprocessorgetoutputhdrmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,9 +71,9 @@ Gets the HDR metadata describing the display on which the content will be presen
 A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface.
 
 
-### -param pType
+### -param pType [out]
 
-TBD
+The type of HDR metadata supplied.
 
 
 ### -param Size [in]
@@ -83,19 +83,7 @@ The size of the memory referenced by <i>pHDRMetaData</i>.
 If <i>pHDRMetaData</i> is NULL, <i>Size</i> should be 0.
 
 
-### -param pMetaData
-
-TBD
-
-
-
-
-#### - Type [out]
-
-The type of HDR metadata supplied.
-
-
-#### - pHDRMetaData [out]
+### -param pMetaData [out]
 
 Pointer to a buffer that receives the HDR metadata.
 

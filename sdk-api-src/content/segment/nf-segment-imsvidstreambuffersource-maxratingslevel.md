@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSource::MaxRatingsLevel
 author: windows-sdk-content
 description: The MaxRatingsLevel method specifies the maximum ratings level the object is permitted to play.
 old-location: mstv\imsvidstreambuffersource_maxratingslevel.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 74dbb008-21c9-4651-8386-761626b7bf19
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],MaxRatingsLevel method, IMSVidStreamBufferSource.MaxRatingsLevel, IMSVidStreamBufferSource::MaxRatingsLevel, IMSVidStreamBufferSourceMaxRatingsLevel, MaxRatingsLevel, MaxRatingsLevel method [Microsoft TV Technologies], MaxRatingsLevel method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_maxratingslevel, segment/IMSVidStreamBufferSource::MaxRatingsLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,36 +66,19 @@ The <b>MaxRatingsLevel</b> method specifies the maximum ratings level the object
 
 
 
-### -param enSystem
+### -param enSystem [in]
 
-TBD
-
-
-### -param enRating
-
-TBD
+Specifies the rating system, as an <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration value.
 
 
-### -param lbfEnAttr
-
-TBD
-
-
-
-
-#### - pBfEnAttr [in]
-
-Specifies zero or more ratings attributes, as a bitwise combination of flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration.
-
-
-#### - pEnRating [in]
+### -param enRating [in]
 
 Specifies the maximum rating level, as an <a href="https://msdn.microsoft.com/f96a8f1a-d8e2-4976-92e3-719f0039d2a8">EnTvRat_GenericLevel</a> enumeration value.
 
 
-#### - pEnSystem [in]
+### -param lbfEnAttr [in]
 
-Specifies the rating system, as an <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration value.
+Specifies zero or more ratings attributes, as a bitwise combination of flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration.
 
 
 ## -returns

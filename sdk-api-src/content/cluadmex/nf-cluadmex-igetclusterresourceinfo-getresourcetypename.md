@@ -4,10 +4,10 @@ title: IGetClusterResourceInfo::GetResourceTypeName
 author: windows-sdk-content
 description: Returns the type of a resource.
 old-location: mscs\igetclusterresourceinfo_getresourcetypename.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c7154163-0ab9-4766-99be-31457a0efc17
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetResourceTypeName, GetResourceTypeName method [Failover Cluster], GetResourceTypeName method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceTypeName method, IGetClusterResourceInfo.GetResourceTypeName, IGetClusterResourceInfo::GetResourceTypeName, _wolf_igetclusterresourceinfo_getresourcetypename, cluadmex/IGetClusterResourceInfo::GetResourceTypeName, mscs.igetclusterresourceinfo_getresourcetypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,6 +100,53 @@ On input, pointer to the count of characters in the buffer pointed to by the
 
 If <b>GetResourceTypeName</b> 
        is not successful, it can return other <b>HRESULT</b> values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the parameters are invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_MORE_DATA)</b></dt>
+<dt>0x800700ea</dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by <i>lpResTypeName</i> is too small to hold the requested 
+         resource type. 
+         <a href="https://msdn.microsoft.com/c7154163-0ab9-4766-99be-31457a0efc17">GetResourceTypeName</a> 
+         returns the required number of characters in the content of <i>pcchResTypeName</i>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

@@ -4,10 +4,10 @@ title: IHeaderCtrl::GetColumnText
 author: windows-sdk-content
 description: Retrieves text from a specified column.
 old-location: mmc\iheaderctrl_getcolumntext.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 854FC5F0-8049-4A98-948F-F1BF78788B88
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetColumnText, GetColumnText method [MMC], GetColumnText method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],GetColumnText method, IHeaderCtrl.GetColumnText, IHeaderCtrl::GetColumnText, mmc.iheaderctrl_getcolumntext, mmc/IHeaderCtrl::GetColumnText
 ms.prod: windows-hardware
 ms.technology: windows-devices

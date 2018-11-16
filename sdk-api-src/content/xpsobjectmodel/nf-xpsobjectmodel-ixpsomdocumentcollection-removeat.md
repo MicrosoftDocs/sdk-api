@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocumentcollection_removeat.htm
 tech.root: printdocs
 ms.assetid: e5e7d04c-c1da-4af7-9048-1a9b79ba4872
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IXpsOMDocumentCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDocumentCollection.RemoveAt, IXpsOMDocumentCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, xps.ixpsomdocumentcollection_removeat, xpsobjectmodel/IXpsOMDocumentCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

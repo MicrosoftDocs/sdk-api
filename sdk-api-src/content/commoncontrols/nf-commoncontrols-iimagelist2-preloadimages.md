@@ -4,10 +4,10 @@ title: IImageList2::PreloadImages
 author: windows-sdk-content
 description: Preloads images, as specified.
 old-location: controls\IImageList2_PreloadImages.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\preloadimages.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IImageList2 interface [Windows Controls],PreloadImages method, IImageList2.PreloadImages, IImageList2::PreloadImages, PreloadImages, PreloadImages method [Windows Controls], PreloadImages method [Windows Controls],IImageList2 interface, _shell_IImageList2_PreloadImages, _shell_IImageList2_PreloadImages_cpp, commoncontrols/IImageList2::PreloadImages, controls.IImageList2_PreloadImages, controls._shell_IImageList2_PreloadImages
 ms.prod: windows-hardware
 ms.technology: windows-devices

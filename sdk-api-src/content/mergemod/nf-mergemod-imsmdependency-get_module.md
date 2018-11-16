@@ -4,10 +4,10 @@ title: IMsmDependency::get_Module
 author: windows-sdk-content
 description: The get_Module method retrieves the Module property of the Dependency object. This method returns the ModuleID of the module required by the current string in the form of a BSTR. The ModuleID is of the same form as used in the ModuleSignature table.
 old-location: setup\imsmdependency_get_module.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 2a3e85ea-4727-45ca-a8c9-c168b9cb7467
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: IMsmDependency interface,get_Module method, IMsmDependency.get_Module, IMsmDependency::get_Module, _msi_get_module_function, get_Module, get_Module method, get_Module method,IMsmDependency interface, mergemod/IMsmDependency::get_Module, setup.imsmdependency_get_module
 ms.prod: windows-hardware
 ms.technology: windows-devices

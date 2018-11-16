@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat3x3_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3X3.#ctor(const float)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: XMFLOAT3X3 constructor [DirectX Math Support APIs], XMFLOAT3X3 constructor [DirectX Math Support APIs],XMFLOAT3X3 structure, XMFLOAT3X3 structure [DirectX Math Support APIs],XMFLOAT3X3 constructor, XMFLOAT3X3.XMFLOAT3X3(const float), XMFLOAT3X3.XMFLOAT3X3(const float*), dxmath.xmfloat3x3_ctor_3
 ms.prod: windows-hardware
 ms.technology: windows-devices

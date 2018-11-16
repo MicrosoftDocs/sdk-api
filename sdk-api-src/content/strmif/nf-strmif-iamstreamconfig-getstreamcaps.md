@@ -7,7 +7,7 @@ old-location: dshow\iamstreamconfig_getstreamcaps.htm
 tech.root: DirectShow
 ms.assetid: 9dd84847-2cae-42f2-a858-7106cd2ac075
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetStreamCaps, GetStreamCaps method [DirectShow], GetStreamCaps method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetStreamCaps method, IAMStreamConfig.GetStreamCaps, IAMStreamConfig::GetStreamCaps, IAMStreamConfigGetStreamCaps, dshow.iamstreamconfig_getstreamcaps, strmif/IAMStreamConfig::GetStreamCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,19 +75,14 @@ The <b>GetStreamCaps</b> method retrieves a set of format capabilities.
 Specifies the format capability to retrieve, indexed from zero. To determine the number of capabilities that the pin supports, call the <a href="https://msdn.microsoft.com/355b8c4c-6d07-4d31-8dc5-ddc5ec2bf1cd">IAMStreamConfig::GetNumberOfCapabilities</a> method.
 
 
-### -param ppmt
+### -param ppmt [out]
 
-TBD
+Address of a pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure. The method allocates the structure and fills it with a media type.
 
 
 ### -param pSCC [out]
 
 Pointer to a byte array allocated by the caller. For video, use the <a href="https://msdn.microsoft.com/c4e68065-79d0-4e2e-abe5-2e5b6a51bd40">VIDEO_STREAM_CONFIG_CAPS</a> structure (see Remarks). For audio, use the <a href="https://msdn.microsoft.com/8a923e8e-173e-4258-ba81-7d398bd9c5fe">AUDIO_STREAM_CONFIG_CAPS</a> structure. To determine the required size of the array, call the <b>GetNumberOfCapabilities</b> method. The size is returned in the <i>piSize</i> parameter.
-
-
-#### - pmt [out]
-
-Address of a pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure. The method allocates the structure and fills it with a media type.
 
 
 ## -returns

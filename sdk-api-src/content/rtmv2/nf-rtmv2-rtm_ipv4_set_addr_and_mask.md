@@ -4,10 +4,10 @@ title: RTM_IPV4_SET_ADDR_AND_MASK macro
 author: windows-sdk-content
 description: The RTM_IPV4_SET_ADDR_AND_MASK macro converts an IPv4 address and mask to a generic RTM_NET_ADDRESS structure.
 old-location: rras\rtm_ipv4_set_addr_and_mask.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 23849eed-309a-41b8-b853-1267806166fa
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: RTM_IPV4_SET_ADDR_AND_MASK, RTM_IPV4_SET_ADDR_AND_MASK macro [RAS], _rtmv2ref_rtm_ipv4_set_addr_and_mask, rras.rtm_ipv4_set_addr_and_mask, rtmv2/RTM_IPV4_SET_ADDR_AND_MASK
 ms.prod: windows-hardware
 ms.technology: windows-devices

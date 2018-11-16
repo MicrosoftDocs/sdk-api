@@ -4,10 +4,10 @@ title: GetClusterInformation function
 author: windows-sdk-content
 description: Retrieves a cluster's name and version.
 old-location: mscs\getclusterinformation.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5b259eb9-c5d0-4f4f-8a6b-14eaed716612
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetClusterInformation, GetClusterInformation function [Failover Cluster], PCLUSAPI_GET_CLUSTER_INFORMATION, PCLUSAPI_GET_CLUSTER_INFORMATION function [Failover Cluster], _wolf_getclusterinformation, clusapi/GetClusterInformation, clusapi/PCLUSAPI_GET_CLUSTER_INFORMATION, mscs.getclusterinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,6 +105,27 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 If the operation fails, the function returns a 
        <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is one of the 
        possible values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by <i>lpszClusterName</i> is not big enough to hold the result. 
+        The <i>lpcchClusterName</i> parameter returns the number of characters in the result, 
+        excluding the terminating <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

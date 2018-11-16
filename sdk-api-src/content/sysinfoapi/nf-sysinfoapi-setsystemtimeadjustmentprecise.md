@@ -4,10 +4,10 @@ title: SetSystemTimeAdjustmentPrecise function
 author: windows-sdk-content
 description: Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information.
 old-location: base\setsystemtimeadjustmentprecise.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 8B429BFC-9781-4434-9A2F-9E50E2BF299A
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SetSystemTimeAdjustmentPrecise, SetSystemTimeAdjustmentPrecise function, base.setsystemtimeadjustmentprecise, sysinfoapi/SetSystemTimeAdjustmentPrecise
 ms.prod: windows-hardware
 ms.technology: windows-devices

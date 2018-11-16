@@ -7,7 +7,7 @@ old-location: fs\updatentmsomidinfo.htm
 tech.root: Rsm
 ms.assetid: 2e154005-a14c-4de6-aec5-f30b934c64a2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NTMS_OMID_TYPE_FILESYSTEM_INFO, NTMS_OMID_TYPE_RAW_LABEL, UpdateNtmsOmidInfo, UpdateNtmsOmidInfo function [Files], _zaw_updatentmsomidinfo, base.updatentmsomidinfo, fs.updatentmsomidinfo, ntmsapi/UpdateNtmsOmidInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wininet\internetsetfilepointer.htm
 tech.root: WinInet
 ms.assetid: 0fdd85cb-f6a9-4a08-b72b-10d2075efb59
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: InternetSetFilePointer, InternetSetFilePointer function [WinINet], _inet_internetsetfilepointer_function, wininet.internetsetfilepointer, wininet/InternetSetFilePointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

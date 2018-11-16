@@ -4,10 +4,10 @@ title: lineBlindTransferW function
 author: windows-sdk-content
 description: The lineBlindTransfer function performs a blind or single-step transfer of the specified call to the specified destination address.
 old-location: tapi2\lineblindtransfer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c1997933-475e-4bcd-be44-ad92a2a678eb
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "_tapi2_lineblindtransfer, lineBlindTransfer, lineBlindTransfer function [TAPI 2.2], lineBlindTransferA, lineBlindTransferW, tapi/lineBlindTransfer, tapi/lineBlindTransferA, tapi/lineBlindTransferW, tapi2.lineblindtransfer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,19 +72,14 @@ The
 Handle to the call to be transferred. The application must be an owner of this call. The call state of <i>hCall</i> must be <i>connected</i>.
 
 
-### -param lpszDestAddressW
+#### - lpszDestAddressW
 
-TBD
+Pointer to a null-terminated string identifying where the call is to be transferred to. The destination address uses the standard dialable number format.
 
 
 ### -param dwCountryCode
 
 Country or region code of the destination. This is used by the implementation to select the call progress protocols for the destination address. If a value of 0 is specified, a default call-progress protocol defined by the service provider is used.
-
-
-#### - lpszDestAddress
-
-Pointer to a null-terminated string identifying where the call is to be transferred to. The destination address uses the standard dialable number format.
 
 
 ## -returns

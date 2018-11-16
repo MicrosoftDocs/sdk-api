@@ -4,10 +4,10 @@ title: EapMethodAuthenticatorFreeErrorMemory function
 author: windows-sdk-content
 description: Releases error-specific memory allocated by the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorfreeerrormemory.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 8fcf82d6-9809-4a28-a694-1f7494216f82
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: EapMethodAuthenticatorFreeErrorMemory, EapMethodAuthenticatorFreeErrorMemory function [EAPHost], eaphost.eapmethodauthenticatorfreeerrormemory, eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: nla\inetworklistmanagerevents.htm
 tech.root: NLA
 ms.assetid: cdcb661f-5f17-481a-a4b7-db06d53e1b97
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetworkListManagerEvents, INetworkListManagerEvents interface [Network Awareness], INetworkListManagerEvents interface [Network Awareness],described, netlistmgr/INetworkListManagerEvents, nla.inetworklistmanagerevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

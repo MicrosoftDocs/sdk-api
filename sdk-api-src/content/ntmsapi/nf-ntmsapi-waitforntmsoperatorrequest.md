@@ -7,7 +7,7 @@ old-location: fs\waitforntmsoperatorrequest.htm
 tech.root: Rsm
 ms.assetid: abc78047-a6d7-4e98-baec-5e4ba394c64f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: WaitForNtmsOperatorRequest, WaitForNtmsOperatorRequest function [Files], _zaw_waitforntmsoperatorrequest, base.waitforntmsoperatorrequest, fs.waitforntmsoperatorrequest, ntmsapi/WaitForNtmsOperatorRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

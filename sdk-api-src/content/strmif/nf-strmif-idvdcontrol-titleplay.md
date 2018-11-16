@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_titleplay.htm
 tech.root: DirectShow
 ms.assetid: 5ca710f0-8f08-43d6-8cc1-a25068d5e0ef
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IDvdControl interface [DirectShow],TitlePlay method, IDvdControl.TitlePlay, IDvdControl::TitlePlay, IDvdControlTitlePlay, TitlePlay, TitlePlay method [DirectShow], TitlePlay method [DirectShow],IDvdControl interface, dshow.idvdcontrol_titleplay, strmif/IDvdControl::TitlePlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,13 +72,6 @@ Finds the media file with the specified title index and plays it back.
 
 
 ### -param ulTitle
-
-TBD
-
-
-
-
-#### - uiTitle
 
 Value that specifies the title number DirectShow will play back; this value must be from 1 through 99.
 

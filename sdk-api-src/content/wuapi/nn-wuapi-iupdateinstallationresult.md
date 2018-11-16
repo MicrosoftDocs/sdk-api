@@ -7,7 +7,7 @@ old-location: wua\iupdateinstallationresult.htm
 tech.root: Wua_Sdk
 ms.assetid: 6c27d691-d9b1-41ce-b3e8-dd2574c19b8b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IUpdateInstallationResult, IUpdateInstallationResult interface [Windows Update Agent], IUpdateInstallationResult interface [Windows Update Agent],described, wua.iupdateinstallationresult, wuapi/IUpdateInstallationResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

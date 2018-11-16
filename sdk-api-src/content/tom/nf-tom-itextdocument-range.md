@@ -4,10 +4,10 @@ title: ITextDocument::Range
 author: windows-sdk-content
 description: Retrieves a text range object for a specified range of content in the active story of the document.
 old-location: controls\ITextDocument_Range.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\range.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ITextDocument interface [Windows Controls],Range method, ITextDocument.Range, ITextDocument::Range, Range, Range method [Windows Controls], Range method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Range, _win32_ITextDocument_Range_cpp, controls.ITextDocument_Range, controls._win32_ITextDocument_Range, tom/ITextDocument::Range
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,12 +68,16 @@ Retrieves a text range object for a specified range of content in the active sto
 
 ### -param cpActive
 
-TBD
+Type: <b>long</b>
+
+The start position of new range. The default value is zero, which represents the start of the document. 
 
 
 ### -param cpAnchor
 
-TBD
+Type: <b>long</b>
+
+The end position of new range. The default value is zero. 
 
 
 ### -param ppRange
@@ -81,20 +85,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>**</b>
 
 Address of a pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> that receives a pointer to the specified text range. 
-
-
-#### - cpFirst
-
-Type: <b>long</b>
-
-The start position of new range. The default value is zero, which represents the start of the document. 
-
-
-#### - cpLim
-
-Type: <b>long</b>
-
-The end position of new range. The default value is zero. 
 
 
 ## -returns

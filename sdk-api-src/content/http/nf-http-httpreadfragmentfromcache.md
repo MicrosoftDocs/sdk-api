@@ -7,7 +7,7 @@ old-location: http\httpreadfragmentfromcache.htm
 tech.root: Http
 ms.assetid: 2f066e1d-035f-4c1c-b854-de4a6ef58a58
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: HttpReadFragmentFromCache, HttpReadFragmentFromCache function [HTTP], _http_httpreadfragmentfromcache, http.httpreadfragmentfromcache, http/HttpReadFragmentFromCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,9 +78,10 @@ Handle to the request queue with which the specified response fragment is associ
 Pointer to a <a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix string</a> that contains the name of the fragment to be retrieved. This must match a UrlPrefix string used in a previous successful call to <a href="https://msdn.microsoft.com/caef2e93-39cd-4282-97d9-870f8236d8c4">HttpAddFragmentToCache</a>.
 
 
-### -param ByteRange
+### -param ByteRange [in]
 
-TBD
+Optional pointer to an 
+<a href="https://msdn.microsoft.com/a57d23cd-1e91-401a-b242-6549b1457594">HTTP_BYTE_RANGE</a> structure that indicates a starting offset in the specified fragment and byte-count to be returned. <b>NULL</b> if not used, in which case the entire fragment is returned.
 
 
 ### -param Buffer [out]
@@ -103,20 +104,7 @@ Optional pointer to a variable that receives the number of bytes to be written i
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesRead</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesRead</i> must contain a valid memory address, and not be set to <b>NULL</b>.
 
 
-### -param Overlapped
-
-TBD
-
-
-
-
-#### - pByteRange [in]
-
-Optional pointer to an 
-<a href="https://msdn.microsoft.com/a57d23cd-1e91-401a-b242-6549b1457594">HTTP_BYTE_RANGE</a> structure that indicates a starting offset in the specified fragment and byte-count to be returned. <b>NULL</b> if not used, in which case the entire fragment is returned.
-
-
-#### - pOverlapped [in]
+### -param Overlapped [in]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure, or for synchronous calls, set it to <b>NULL</b>. 

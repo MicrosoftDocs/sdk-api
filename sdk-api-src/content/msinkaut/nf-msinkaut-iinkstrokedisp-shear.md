@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_shear.htm
 tech.root: tablet
 ms.assetid: 887dd883-1a24-4a78-8f08-f4cd45bf4840
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 887dd883-1a24-4a78-8f08-f4cd45bf4840, IInkStrokeDisp interface [Tablet PC],Shear method, IInkStrokeDisp.Shear, IInkStrokeDisp::Shear, Shear, Shear method [Tablet PC], Shear method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Shear, tablet.iinkstrokedisp_shear
 ms.prod: windows-hardware
 ms.technology: windows-devices

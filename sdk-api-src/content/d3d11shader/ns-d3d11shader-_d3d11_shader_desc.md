@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_shader_desc.htm
 tech.root: direct3d11
 ms.assetid: 25c8f773-e319-4ba1-b332-d45b8323e8c8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 60a58f35-71f5-ec69-15ed-a355dd62d5f7, D3D11_SHADER_DESC, D3D11_SHADER_DESC structure [Direct3D 11], _D3D11_SHADER_DESC, d3d11shader/D3D11_SHADER_DESC, direct3d11.d3d11_shader_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

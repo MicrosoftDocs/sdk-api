@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionmanagerevents.htm
 tech.root: mbn
 ms.assetid: 153ab8c5-2b39-44a7-8c12-9f1df0012270
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMbnConnectionManagerEvents, IMbnConnectionManagerEvents interface [Microsoft Broadband Networks], IMbnConnectionManagerEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectionmanagerevents, mbnapi/IMbnConnectionManagerEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: GradientMeshPatchFromCoonsPatch function
 author: windows-sdk-content
 description: Creates a D2D1_GRADIENT_MESH_PATCH from a given Coons patch description.
 old-location: direct2d\gradientmeshpatchfromcoonspatch.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 12469ab9-890c-e4a9-57b2-41a804712052
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GradientMeshPatchFromCoonsPatch, GradientMeshPatchFromCoonsPatch function [Direct2D], d2d1_3helper/GradientMeshPatchFromCoonsPatch, direct2d.gradientmeshpatchfromcoonspatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

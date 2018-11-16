@@ -7,7 +7,7 @@ old-location: base\cvsswriter_onfreeze.htm
 tech.root: VSS
 ms.assetid: 2aff5e87-4053-46a0-a7fb-7411e76166ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CVssWriter interface [VSS],OnFreeze method, CVssWriter.OnFreeze, CVssWriter::OnFreeze, OnFreeze, OnFreeze method [VSS], OnFreeze method [VSS],CVssWriter interface, _win32_cvsswriter_onfreeze, base.cvsswriter_onfreeze, vswriter/CVssWriter::OnFreeze
 ms.prod: windows-hardware
 ms.technology: windows-devices

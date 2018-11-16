@@ -4,10 +4,10 @@ title: MesDecodeBufferHandleCreate function
 author: windows-sdk-content
 description: The MesDecodeBufferHandleCreate function creates a decoding handle and initializes it for a (fixed) buffer style of serialization.
 old-location: rpc\mesdecodebufferhandlecreate.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 10a2312d-5969-4dde-bf62-308ad425569b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: MesDecodeBufferHandleCreate, MesDecodeBufferHandleCreate function [RPC], _rpc_mesdecodebufferhandlecreate, midles/MesDecodeBufferHandleCreate, rpc.mesdecodebufferhandlecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

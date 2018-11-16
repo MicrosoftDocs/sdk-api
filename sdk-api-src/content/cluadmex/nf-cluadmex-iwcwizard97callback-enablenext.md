@@ -4,10 +4,10 @@ title: IWCWizard97Callback::EnableNext
 author: windows-sdk-content
 description: Enables or disables the Next or Finish button on a Wizard97 wizard page, depending on whether the current page is last.
 old-location: mscs\iwcwizard97callback_enablenext.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: aac4dd75-aa98-4db0-8201-33d4c115896b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: EnableNext, EnableNext method [Failover Cluster], EnableNext method [Failover Cluster],IWCWizard97Callback interface, IWCWizard97Callback interface [Failover Cluster],EnableNext method, IWCWizard97Callback.EnableNext, IWCWizard97Callback::EnableNext, _wolf_iwcwizard97callback_enablenext, cluadmex/IWCWizard97Callback::EnableNext, mscs.iwcwizard97callback_enablenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,6 +88,38 @@ Value indicating whether to enable or disable the button. If <i>bEnable</i> is s
 
 If <b>EnableNext</b> is not successful, it can return other 
        <b>HRESULT</b> values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+The <i>hpage</i> parameter represents an unknown page.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

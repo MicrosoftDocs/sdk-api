@@ -7,7 +7,7 @@ old-location: multimedia\midistreamout.htm
 tech.root: Multimedia
 ms.assetid: f2ebc646-7d8b-4fde-a6fc-2455b02d3d8b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_midiStreamOut, midiStreamOut, midiStreamOut function [Windows Multimedia], mmeapi/midiStreamOut, multimedia.midistreamout"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,36 +71,19 @@ The <b>midiStreamOut</b> function plays or queues a stream (buffer) of MIDI data
 
 ### -param hms
 
-TBD
-
-
-### -param pmh
-
-TBD
-
-
-### -param cbmh
-
-TBD
-
-
-
-
-#### - cbMidiHdr
-
-Size, in bytes, of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure.
-          
-
-
-#### - hMidiStream
-
 Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://msdn.microsoft.com/355cf034-e1d7-4530-b117-4c505ad0aac6">midiStreamOpen</a> function. This handle identifies the output device.
           
 
 
-#### - lpMidiHdr
+### -param pmh
 
 Pointer to a <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure that identifies the MIDI buffer.
+          
+
+
+### -param cbmh
+
+Size, in bytes, of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure.
           
 
 

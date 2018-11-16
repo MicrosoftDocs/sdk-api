@@ -7,7 +7,7 @@ old-location: taskschd\irunningtask.htm
 tech.root: TaskSchd
 ms.assetid: 71a06a8f-8628-415d-b002-977c0d27f9a4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IRunningTask, IRunningTask interface [Task Scheduler], IRunningTask interface [Task Scheduler],described, taskschd.irunningtask, taskschd/IRunningTask
 ms.prod: windows-hardware
 ms.technology: windows-devices

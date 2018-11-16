@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactProperties_DeleteProperty.htm
 tech.root: wincontacts
 ms.assetid: 74ed72da-e82c-4257-9d16-c5204a88c9bf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DeleteProperty, DeleteProperty method [Windows Contacts], DeleteProperty method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],DeleteProperty method, IContactProperties.DeleteProperty, IContactProperties::DeleteProperty, _wincontacts_IContactProperties_DeleteProperty, icontact/IContactProperties::DeleteProperty, wincontacts._wincontacts_IContactProperties_DeleteProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

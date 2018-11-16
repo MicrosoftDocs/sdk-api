@@ -4,10 +4,10 @@ title: LsaLookupNames2 function
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) for specified account names. LsaLookupNames2 can look up the SID for any account in any domain in a Windows forest.
 old-location: security\lsalookupnames2.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: fe219070-6a00-4b8c-b2e4-2ad290a1cb9c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: LSA_LOOKUP_ISOLATED_AS_LOCAL, LsaLookupNames2, LsaLookupNames2 function [Security], _lsa_lsalookupnames2, ntsecapi/LsaLookupNames2, security.lsalookupnames2
 ms.prod: windows-hardware
 ms.technology: windows-devices

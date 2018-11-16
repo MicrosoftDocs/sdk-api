@@ -4,10 +4,10 @@ title: CLUSPROP_ULARGE_INTEGER
 author: windows-sdk-content
 description: Describes an unsigned large integer.
 old-location: mscs\clusprop_ularge_integer.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1db28e46-e5e0-4d99-b9a8-80c3f1534ca6
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER structure [Failover Cluster], PCLUSPROP_ULARGE_INTEGER, PCLUSPROP_ULARGE_INTEGER structure pointer [Failover Cluster], _wolf_clusprop_ularge_integer, clusapi/CLUSPROP_ULARGE_INTEGER, clusapi/PCLUSPROP_ULARGE_INTEGER, mscs.clusprop_ularge_integer"
 ms.prod: windows-hardware
 ms.technology: windows-devices

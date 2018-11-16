@@ -7,7 +7,7 @@ old-location: xaudio2\cxapobase.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.cxapobase.CXAPOBase
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CXAPOBase, CXAPOBase class [XAudio2 Audio Mixing APIs], CXAPOBase class [XAudio2 Audio Mixing APIs],described, xapobase/CXAPOBase, xaudio2.cxapobase
 ms.prod: windows-hardware
 ms.technology: windows-devices

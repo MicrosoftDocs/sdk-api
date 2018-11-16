@@ -4,10 +4,10 @@ title: IAzApplication3::DeleteRoleDefinition
 author: windows-sdk-content
 description: Removes the specified IAzRoleDefinition object from the IAzApplication3 object.
 old-location: security\iazapplication3_deleteroledefinition.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 34dc0bb8-1a44-418a-9b2c-f506f21f6ab1
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteRoleDefinition method, IAzApplication3.DeleteRoleDefinition, IAzApplication3::DeleteRoleDefinition, azroles/IAzApplication3::DeleteRoleDefinition, security.iazapplication3_deleteroledefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>DeleteRoleDefinition</b> method removes the specified <a href="https://ms
 
 
 
-### -param bstrRoleDefinitionName
-
-TBD
-
-
-
-
-#### - bstrRoleDefinition [in]
+### -param bstrRoleDefinitionName [in]
 
 A string that contains the name of the <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object to remove.
 

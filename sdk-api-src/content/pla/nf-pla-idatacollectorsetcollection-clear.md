@@ -7,7 +7,7 @@ old-location: pla\idatacollectorsetcollection_clear.htm
 tech.root: PLA
 ms.assetid: a7a4754c-8c64-4add-89b1-c5bdbf4cb807
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Clear method, IDataCollectorSetCollection.Clear, IDataCollectorSetCollection::Clear, base.idatacollectorsetcollection_clear, pla.idatacollectorsetcollection_clear, pla/IDataCollectorSetCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

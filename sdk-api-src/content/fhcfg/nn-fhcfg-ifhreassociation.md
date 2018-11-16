@@ -4,10 +4,10 @@ title: IFhReassociation
 author: windows-sdk-content
 description: This interface allows client applications to reassociate a File History configuration from a File History target with the current user.
 old-location: winprog\ifhreassociation.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: B1CBD7DD-5B4D-4B3E-BE7D-B6497ABFB588
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: IFhReassociation, IFhReassociation interface [Windows API], IFhReassociation interface [Windows API],described, fhcfg/IFhReassociation, winprog.ifhreassociation
 ms.prod: windows-hardware
 ms.technology: windows-devices

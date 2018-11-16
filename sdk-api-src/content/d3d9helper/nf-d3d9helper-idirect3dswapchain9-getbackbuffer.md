@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dswapchain9__getbackbuffer.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getbackbuffer.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: 138c5b9c-c0c2-7051-6dd4-c5933f8d32fa, GetBackBuffer, GetBackBuffer method [Direct3D 9], GetBackBuffer method [Direct3D 9],IDirect3DSwapChain9 interface, IDirect3DSwapChain9 interface [Direct3D 9],GetBackBuffer method, IDirect3DSwapChain9.GetBackBuffer, IDirect3DSwapChain9::GetBackBuffer, d3d9helper/IDirect3DSwapChain9::GetBackBuffer, direct3d9.idirect3dswapchain9__getbackbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,9 +67,11 @@ Retrieves a back buffer from the swap chain of the device.
 
 
 
-### -param iBackBuffer
+### -param iBackBuffer [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+Index of the back buffer object to return. Back buffers are numbered from 0 to the total number of back buffers - 1. A value of 0 returns the first back buffer, not the front buffer. The front buffer is not accessible through this method. Use <a href="https://msdn.microsoft.com/en-us/library/Bb205905(v=VS.85).aspx">IDirect3DSwapChain9::GetFrontBufferData</a> to retrieve a copy of the front buffer.
 
 
 ### -param Type [in]
@@ -84,13 +86,6 @@ Stereo view is not supported in Direct3D 9, so the only valid value for this par
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>**</b>
 
 Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface, representing the returned back buffer surface. 
-
-
-#### - BackBuffer [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-Index of the back buffer object to return. Back buffers are numbered from 0 to the total number of back buffers - 1. A value of 0 returns the first back buffer, not the front buffer. The front buffer is not accessible through this method. Use <a href="https://msdn.microsoft.com/en-us/library/Bb205905(v=VS.85).aspx">IDirect3DSwapChain9::GetFrontBufferData</a> to retrieve a copy of the front buffer.
 
 
 ## -returns

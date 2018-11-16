@@ -7,7 +7,7 @@ old-location: dshow\ipin_connectedto.htm
 tech.root: DirectShow
 ms.assetid: 970c814f-2309-481e-9e8e-9bd32b83fdc7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ConnectedTo, ConnectedTo method [DirectShow], ConnectedTo method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectedTo method, IPin.ConnectedTo, IPin::ConnectedTo, IPinConnectedTo, dshow.ipin_connectedto, strmif/IPin::ConnectedTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ The <b>ConnectedTo</b> method retrieves a pointer to the connected pin, if any.
 
 
 
-### -param pPin
-
-TBD
-
-
-
-
-#### - ppPin [out]
+### -param pPin [out]
 
 Receives a pointer to the <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface of the other pin. The caller must release the interface. This parameter cannot be <b>NULL</b>.
           

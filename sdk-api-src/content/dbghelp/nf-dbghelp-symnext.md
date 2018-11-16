@@ -4,10 +4,10 @@ title: SymNext function
 author: windows-sdk-content
 description: Retrieves symbol information for the next symbol.
 old-location: base\symnext.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: ffd2d416-7149-4a4c-a1d5-7a7f3bdf5dc4
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymNext, SymNext function, SymNextW, base.symnext, dbghelp/SymNext, dbghelp/SymNextW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ A handle to a process. This handle must have been previously passed to the
 <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
 
 
-### -param si
-
-TBD
-
-
-
-
-#### - siw [in, out]
+### -param si [in, out]
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/785a9702-8b77-4ce1-99df-143ce78490ab">SYMBOL_INFO</a> structure that provides information about the current symbol. Upon return, the structure contains information about the next symbol.

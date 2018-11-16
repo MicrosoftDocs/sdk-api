@@ -7,7 +7,7 @@ old-location: netmgmt\netusergetlocalgroups.htm
 tech.root: NetMgmt
 ms.assetid: cc5c1c15-cad7-4103-a2c9-1a8adf742703
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 0, NetUserGetLocalGroups, NetUserGetLocalGroups function [Network Management], _win32_netusergetlocalgroups, lmaccess/NetUserGetLocalGroups, netmgmt.netusergetlocalgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IAnalogAudioComponentType
 author: windows-sdk-content
 description: The IAnalogAudioComponentType interface provides methods for accessing the analog audio mode.
 old-location: mstv\ianalogaudiocomponenttype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: bd2256b4-6e9a-4520-8988-d271fb2b84af
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IAnalogAudioComponentType, IAnalogAudioComponentType interface [Microsoft TV Technologies], IAnalogAudioComponentType interface [Microsoft TV Technologies],described, IAnalogAudioComponentTypeInterface, mstv.ianalogaudiocomponenttype, tuner/IAnalogAudioComponentType
 ms.prod: windows-hardware
 ms.technology: windows-devices

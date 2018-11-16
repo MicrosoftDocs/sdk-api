@@ -4,10 +4,10 @@ title: IAzScope2::CreateRoleAssignment
 author: windows-sdk-content
 description: Creates a new IAzRoleAssignment object with the specified name in this scope.
 old-location: security\iazscope2_createroleassignment.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 98cb412b-9742-4f94-a470-61e675f6b253
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CreateRoleAssignment, CreateRoleAssignment method [Security], CreateRoleAssignment method [Security],IAzScope2 interface, IAzScope2 interface [Security],CreateRoleAssignment method, IAzScope2.CreateRoleAssignment, IAzScope2::CreateRoleAssignment, azroles/IAzScope2::CreateRoleAssignment, security.iazscope2_createroleassignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

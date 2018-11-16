@@ -4,10 +4,10 @@ title: SymAddSourceStream function
 author: windows-sdk-content
 description: Adds the stream to the specified module for use by the Source Server.
 old-location: base\symaddsourcestream.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 1f85a5d3-70dc-430f-9a54-7cc08484ca93
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymAddSourceStream, SymAddSourceStream function, SymAddSourceStreamW, base.symaddsourcestream, dbghelp/SymAddSourceStream, dbghelp/SymAddSourceStreamW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,9 +77,9 @@ A handle to a process. This handle must have been previously passed to the
 The base address of the module.
 
 
-### -param StreamFile
+### -param StreamFile [in, optional]
 
-TBD
+A null-terminated string that contains the absolute or relative path to a file that contains the source indexing stream. Can be <b>NULL</b> if <i>Buffer</i> is not <b>NULL</b>.
 
 
 ### -param Buffer [in, optional]
@@ -90,11 +90,6 @@ A buffer that contains the source indexing stream. Can be <b>NULL</b> if <i>Stre
 ### -param Size [in]
 
 Size, in bytes, of the <i>Buffer</i> buffer.
-
-
-#### - FileSpec [in, optional]
-
-A null-terminated string that contains the absolute or relative path to a file that contains the source indexing stream. Can be <b>NULL</b> if <i>Buffer</i> is not <b>NULL</b>.
 
 
 ## -returns

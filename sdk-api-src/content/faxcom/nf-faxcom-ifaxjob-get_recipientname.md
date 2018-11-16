@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_recipientname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5vvp.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxJob interface [Fax Service],RecipientName property, IFaxJob.RecipientName, IFaxJob.get_RecipientName, IFaxJob::RecipientName, IFaxJob::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_recipientname, fax._mfax_ifaxjob_get_recipientname, fax._mfax_ifaxjob_mfax_ifaxjob_get_recipientname_cpp, faxcom/IFaxJob::RecipientName, faxcom/IFaxJob::get_RecipientName, get_RecipientName
 ms.prod: windows-hardware
 ms.technology: windows-devices

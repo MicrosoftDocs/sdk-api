@@ -7,7 +7,7 @@ old-location: shell\IShellFolder_BindToObject.htm
 tech.root: shell
 ms.assetid: 5e699494-1974-4b9b-8324-9394f7b96fe4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: BindToObject, BindToObject method [Windows Shell], BindToObject method [Windows Shell],IShellFolder interface, BindToObject method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],BindToObject method, IShellFolder.BindToObject, IShellFolder2 interface [Windows Shell],BindToObject method, IShellFolder2::BindToObject, IShellFolder::BindToObject, _win32_IShellFolder_BindToObject, shell.IShellFolder_BindToObject, shobjidl_core/IShellFolder2::BindToObject, shobjidl_core/IShellFolder::BindToObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,14 +92,7 @@ Type: <b>REFIID</b>
 The identifier of the interface to return. This may be <b>IID_IShellFolder</b>, <b>IID_IStream</b>, or any other interface that identifies a particular handler.
 
 
-### -param ppv
-
-TBD
-
-
-
-
-#### - ppvOut [out]
+### -param ppv [out]
 
 Type: <b>void**</b>
 

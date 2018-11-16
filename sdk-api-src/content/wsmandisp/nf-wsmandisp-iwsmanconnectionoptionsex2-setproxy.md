@@ -7,7 +7,7 @@ old-location: winrm\iwsmanconnectionoptionsex2_setproxy.htm
 tech.root: WinRM
 ms.assetid: b87d5625-c77d-41cb-a75d-a45ba0d3fbe6
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],SetProxy method, IWSManConnectionOptionsEx2.SetProxy, IWSManConnectionOptionsEx2::SetProxy, SetProxy, SetProxy method [Windows Remote Management], SetProxy method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_setproxy, wsmandisp/IWSManConnectionOptionsEx2::SetProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

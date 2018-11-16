@@ -7,7 +7,7 @@ old-location: base\ivssadmin_abortallsnapshotsinprogress.htm
 tech.root: VSS
 ms.assetid: 64feae8f-c627-45b5-a3bc-0c47e9f8a4cb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AbortAllSnapshotsInProgress, AbortAllSnapshotsInProgress method, AbortAllSnapshotsInProgress method,IVssAdmin interface, IVssAdmin interface,AbortAllSnapshotsInProgress method, IVssAdmin.AbortAllSnapshotsInProgress, IVssAdmin::AbortAllSnapshotsInProgress, base.ivssadmin_abortallsnapshotsinprogress, vsadmin/IVssAdmin::AbortAllSnapshotsInProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

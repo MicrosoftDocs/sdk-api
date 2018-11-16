@@ -4,10 +4,10 @@ title: connect function
 author: windows-sdk-content
 description: The connect function establishes a connection to a specified socket.
 old-location: winsock\connect_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 13468139-dc03-45bd-850c-7ac2dbcb6e60
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_connect_2, connect, connect function [Winsock], winsock.connect_2, winsock2/connect"
 ms.prod: windows-hardware
 ms.technology: windows-devices

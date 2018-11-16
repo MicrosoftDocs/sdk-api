@@ -7,7 +7,7 @@ old-location: wcs\xyzcolor.htm
 tech.root: WCS
 ms.assetid: 0220b278-0387-4206-b64e-3196623a7e6c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: XYZCOLOR, XYZCOLOR structure [Windows Color System], icm/XYZCOLOR, wcs.xyzcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices

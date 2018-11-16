@@ -7,7 +7,7 @@ old-location: shell\APPCATEGORYINFOLIST.htm
 tech.root: shell
 ms.assetid: c590d9ab-ab41-4192-a6c2-c6c2c931e873
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: APPCATEGORYINFOLIST, APPCATEGORYINFOLIST structure [Windows Shell], _APPCATEGORYINFOLIST, appmgmt/APPCATEGORYINFOLIST, inet_APPCATEGORYINFOLIST, shell.APPCATEGORYINFOLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_getsecuritydescriptor.htm
 tech.root: TaskSchd
 ms.assetid: 474d62a5-9ec7-40f7-b26e-54923f8ebe1e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetSecurityDescriptor, GetSecurityDescriptor method [Task Scheduler], GetSecurityDescriptor method [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],GetSecurityDescriptor method, IRegisteredTask.GetSecurityDescriptor, IRegisteredTask::GetSecurityDescriptor, taskschd.iregisteredtask_getsecuritydescriptor, taskschd/IRegisteredTask::GetSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITextFont2::SetOldNumbers
 author: windows-sdk-content
 description: Sets whether old-style numbers are active.
 old-location: controls\itextfont2_setoldnumbers.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: f510781e-ede9-41dc-ae69-3b0ca52a6773
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetOldNumbers method, ITextFont2.SetOldNumbers, ITextFont2::SetOldNumbers, SetOldNumbers, SetOldNumbers method [Windows Controls], SetOldNumbers method [Windows Controls],ITextFont2 interface, controls.itextfont2_setoldnumbers, tom/ITextFont2::SetOldNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices

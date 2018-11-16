@@ -4,10 +4,10 @@ title: "_HEAP_OPTIMIZE_RESOURCES_INFORMATION"
 author: windows-sdk-content
 description: Specifies flags for a HeapOptimizeResources operation initiated with HeapSetInformation.
 old-location: base\heap_optimize_resources_information.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: c801a08a-0b1a-4ffe-8ec7-c3ea8d913ec8
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PHEAP_OPTIMIZE_RESOURCES_INFORMATION, HEAP_OPTIMIZE_RESOURCES_INFORMATION, HEAP_OPTIMIZE_RESOURCES_INFORMATION structure, PHEAP_OPTIMIZE_RESOURCES_INFORMATION, PHEAP_OPTIMIZE_RESOURCES_INFORMATION structure pointer, _HEAP_OPTIMIZE_RESOURCES_INFORMATION, base.heap_optimize_resources_information, winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION, winnt/PHEAP_OPTIMIZE_RESOURCES_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

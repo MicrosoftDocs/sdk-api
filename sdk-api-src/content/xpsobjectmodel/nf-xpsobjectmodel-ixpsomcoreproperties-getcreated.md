@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getcreated.htm
 tech.root: printdocs
 ms.assetid: 8ee96d96-bd66-4738-bfae-fbbc98ba8621
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetCreated, GetCreated method [XPS Documents and Packaging], GetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreated method, IXpsOMCoreProperties.GetCreated, IXpsOMCoreProperties::GetCreated, xps.ixpsomcoreproperties_getcreated, xpsobjectmodel/IXpsOMCoreProperties::GetCreated
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: AddClusterResourceDependency function
 author: windows-sdk-content
 description: Creates a dependency relationship between two resources.
 old-location: mscs\addclusterresourcedependency.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 37f173f3-514e-434b-8531-d308c6233a24
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AddClusterResourceDependency, AddClusterResourceDependency function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY function [Failover Cluster], _wolf_addclusterresourcedependency, clusapi/AddClusterResourceDependency, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY, mscs.addclusterresourcedependency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,6 +87,86 @@ If the operation fails,
        <b>AddClusterResourceDependency</b> returns 
        one of the <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>. The following are 
        possible return values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_CIRCULAR_DEPENDENCY</b></dt>
+<dt>1059 (0x423)</dt>
+</dl>
+</td>
+<td width="60%">
+A resource depends on itself.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_DEPENDENCY_ALREADY_EXISTS</b></dt>
+<dt>5003 (0x138B)</dt>
+</dl>
+</td>
+<td width="60%">
+The resource dependency already exists.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_DEPENDENCY_NOT_ALLOWED</b></dt>
+<dt>5069 (0x13CD)</dt>
+</dl>
+</td>
+<td width="60%">
+The dependent resource is the quorum.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+<dt>87 (0x57)</dt>
+</dl>
+</td>
+<td width="60%">
+The resources are not in the same group.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_NOT_AVAILABLE</b></dt>
+<dt>5006 (0x138E)</dt>
+</dl>
+</td>
+<td width="60%">
+At least one of the resources is marked for deletion.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_ONLINE</b></dt>
+<dt>5019 (0x139B)</dt>
+</dl>
+</td>
+<td width="60%">
+The dependent resource is already online.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

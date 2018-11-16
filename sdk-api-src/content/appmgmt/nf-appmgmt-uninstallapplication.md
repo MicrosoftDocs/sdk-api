@@ -7,7 +7,7 @@ old-location: policy\uninstallapplication.htm
 tech.root: Policy
 ms.assetid: d45494e2-d86e-4d94-a158-4024eacf46a2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: UninstallApplication, UninstallApplication function [Group Policy], appmgmt/UninstallApplication, policy.uninstallapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: CertFreeCTLContext function
 author: windows-sdk-content
 description: Frees a certificate trust list (CTL) context by decrementing its reference count.
 old-location: security\certfreectlcontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 84b1aa0c-44d9-4a2f-861c-fa7d8caac192
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CertFreeCTLContext, CertFreeCTLContext function [Security], _crypto2_certfreectlcontext, security.certfreectlcontext, wincrypt/CertFreeCTLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

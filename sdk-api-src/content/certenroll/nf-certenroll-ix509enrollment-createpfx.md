@@ -7,7 +7,7 @@ old-location: security\ix509enrollment_createpfx_method.htm
 tech.root: SecCertEnroll
 ms.assetid: 4a51bea0-e7f8-4a4e-b612-95616b126466
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreatePFX, CreatePFX method [Security], CreatePFX method [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CreatePFX method, IX509Enrollment.CreatePFX, IX509Enrollment::CreatePFX, certenroll/IX509Enrollment::CreatePFX, security.ix509enrollment_createpfx_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMSVidGenericSink::put_SinkStreams
 author: windows-sdk-content
 description: The put_SinkStreams method sets the streams that are required to be rendered down to the sink. Not implemented.
 old-location: mstv\imsvidgenericsink_put_sinkstreams.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: a9bb76ad-6b10-4a48-9d94-64e6d28a3b9f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],put_SinkStreams method, IMSVidGenericSink.put_SinkStreams, IMSVidGenericSink::put_SinkStreams, IMSVidGenericSinkput_SinkStreams, mstv.imsvidgenericsink_put_sinkstreams, put_SinkStreams, put_SinkStreams method [Microsoft TV Technologies], put_SinkStreams method [Microsoft TV Technologies],IMSVidGenericSink interface, segment/IMSVidGenericSink::put_SinkStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

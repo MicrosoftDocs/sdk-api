@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping_get_description.htm
 tech.root: ICS
 ms.assetid: 2b25fdff-8ad1-470f-bfd1-758f0bf8ea1f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_Description method, IStaticPortMapping.get_Description, IStaticPortMapping::get_Description, _ics_istaticportmapping_get_description, get_Description, get_Description method [ICS/ICF], get_Description method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_description, natupnp/IStaticPortMapping::get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices

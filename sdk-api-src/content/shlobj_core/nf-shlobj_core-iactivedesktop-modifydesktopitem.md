@@ -7,7 +7,7 @@ old-location: lwef\iactivedesktop_modifydesktopitem.htm
 tech.root: lwef
 ms.assetid: f80a0b49-3fa9-4041-833e-1e809a606a0c
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/15/2018
 ms.keywords: COMP_ELEM_ALL, COMP_ELEM_CHECKED, COMP_ELEM_CURITEMSTATE, COMP_ELEM_FRIENDLYNAME, COMP_ELEM_NOSCROLL, COMP_ELEM_ORIGINAL_CSI, COMP_ELEM_POS_LEFT, COMP_ELEM_POS_TOP, COMP_ELEM_POS_ZINDEX, COMP_ELEM_RESTORED_CSI, COMP_ELEM_SIZE_HEIGHT, COMP_ELEM_SIZE_WIDTH, COMP_ELEM_SOURCE, COMP_ELEM_TYPE, IActiveDesktop interface [Legacy Windows Environment Features],ModifyDesktopItem method, IActiveDesktop.ModifyDesktopItem, IActiveDesktop::ModifyDesktopItem, ModifyDesktopItem, ModifyDesktopItem method [Legacy Windows Environment Features], ModifyDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_ModifyDesktopItem, lwef.iactivedesktop_modifydesktopitem, shell.iactivedesktop_modifydesktopitem, shlobj/IActiveDesktop::ModifyDesktopItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: of\ienumofflinefilessettings.htm
 tech.root: OfflineFiles
 ms.assetid: 2d0e45d5-5559-4c2e-9c20-4e5b84b5fbbd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumOfflineFilesSettings, IEnumOfflineFilesSettings interface [Offline Files], IEnumOfflineFilesSettings interface [Offline Files],described, cscobj/IEnumOfflineFilesSettings, of.ienumofflinefilessettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

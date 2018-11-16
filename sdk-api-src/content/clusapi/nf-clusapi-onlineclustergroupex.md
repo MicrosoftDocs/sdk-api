@@ -4,10 +4,10 @@ title: OnlineClusterGroupEx function
 author: windows-sdk-content
 description: Brings a group online.
 old-location: mscs\onlineclustergroupex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: F79E75E9-EB54-4C66-AB7C-98AF075718B1
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUSAPI_GROUP_ONLINE_BEST_POSSIBLE_NODE, CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_GROUP_ONLINE_SYNCHRONOUS, OnlineClusterGroupEx, OnlineClusterGroupEx function [Failover Cluster], clusapi/OnlineClusterGroupEx, mscs.onlineclustergroupex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,6 +125,36 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following are possible error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_HOST_NODE_NOT_AVAILABLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+A suitable host node was not available.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_IO_PENDING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation is in progress.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

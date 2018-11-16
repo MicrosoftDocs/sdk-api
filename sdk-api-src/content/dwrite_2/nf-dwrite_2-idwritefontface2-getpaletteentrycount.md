@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface2_getpaletteentrycount.htm
 tech.root: DirectWrite
 ms.assetid: 7DFB0D3F-18E8-44AA-A7DA-4B9D971D3C35
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetPaletteEntryCount, GetPaletteEntryCount method [Direct Write], GetPaletteEntryCount method [Direct Write],IDWriteFontFace2 interface, IDWriteFontFace2 interface [Direct Write],GetPaletteEntryCount method, IDWriteFontFace2.GetPaletteEntryCount, IDWriteFontFace2::GetPaletteEntryCount, directwrite.idwritefontface2_getpaletteentrycount, dwrite_2/IDWriteFontFace2::GetPaletteEntryCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientstopcollection_getat.htm
 tech.root: printdocs
 ms.assetid: 5e75d595-0124-4239-b53e-f1b8101d2dcf
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMGradientStopCollection.GetAt, IXpsOMGradientStopCollection::GetAt, xps.ixpsomgradientstopcollection_getat, xpsobjectmodel/IXpsOMGradientStopCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmmutualexclusion2_setname.htm
 tech.root: wmformat
 ms.assetid: b288c28c-04bd-49a4-bf11-21d4968772d4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],SetName method, IWMMutualExclusion2.SetName, IWMMutualExclusion2::SetName, IWMMutualExclusion2SetName, SetName, SetName method [windows Media Format], SetName method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_setname, wmsdkidl/IWMMutualExclusion2::SetName
 ms.prod: windows-hardware
 ms.technology: windows-devices

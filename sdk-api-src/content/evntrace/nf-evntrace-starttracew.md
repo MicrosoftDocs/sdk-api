@@ -4,10 +4,10 @@ title: StartTraceW function
 author: windows-sdk-content
 description: The StartTrace function registers and starts an event tracing session.
 old-location: etw\starttrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: c040514a-733d-44b9-8300-a8341d2630b3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: StartTrace, StartTrace function [ETW], StartTraceA, StartTraceW, _evt_starttrace, base.starttrace, etw.starttrace, evntrace/StartTrace, evntrace/StartTraceA, evntrace/StartTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,24 @@ The <b>StartTrace</b> function registers and starts an event
 
 
 
-### -param TraceHandle
+### -param TraceHandle [out]
 
-TBD
+Handle to the event tracing session.
+
+Do not use this handle if the function fails. Do not compare the session handle to INVALID_HANDLE_VALUE; the 
+       session handle is 0 if the handle is not valid.
 
 
-### -param InstanceName
+### -param InstanceName [in]
 
-TBD
+Null-terminated string that contains the name of the event tracing session. The session name is limited to 
+       1,024 characters, is case-insensitive, and must be unique.
+
+<b>Windows 2000:  </b>Session names are case-sensitive. As a result, duplicate session names are allowed. However, to reduce 
+        confusion, you should make sure your session names are unique.
+
+This function copies the session name that you provide to the offset that the 
+       <b>LoggerNameOffset</b> member of <i>Properties</i> points to.
 
 
 ### -param Properties [in, out]
@@ -100,26 +110,6 @@ Pointer to an <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5
 Depending on the type of log file you choose to create, you may also need to specify a value for <b>MaximumFileSize</b>. See the Remarks section for more information on setting the <i>Properties</i> parameter and the behavior of the session.
 
 <b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>StartTrace</b> when starting system wide private loggers. You will need to pass in the new <a href="https://msdn.microsoft.com/2EEDB53B-75BC-48AC-A70D-9AEAED526C40">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="https://msdn.microsoft.com/fb6a3899-194e-4cb7-b9e5-a7ff85fb7891">Configuring and Starting a Private Logger Session</a> for more details.
-
-
-#### - SessionHandle [out]
-
-Handle to the event tracing session.
-
-Do not use this handle if the function fails. Do not compare the session handle to INVALID_HANDLE_VALUE; the 
-       session handle is 0 if the handle is not valid.
-
-
-#### - SessionName [in]
-
-Null-terminated string that contains the name of the event tracing session. The session name is limited to 
-       1,024 characters, is case-insensitive, and must be unique.
-
-<b>Windows 2000:  </b>Session names are case-sensitive. As a result, duplicate session names are allowed. However, to reduce 
-        confusion, you should make sure your session names are unique.
-
-This function copies the session name that you provide to the offset that the 
-       <b>LoggerNameOffset</b> member of <i>Properties</i> points to.
 
 
 ## -returns

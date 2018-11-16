@@ -4,10 +4,10 @@ title: IBDA_EthernetFilter::GetMulticastMode
 author: windows-sdk-content
 description: The GetMulticastMode method retrieves the multicast mode.
 old-location: mstv\ibda_ethernetfilter_getmulticastmode.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 8a0a5dbb-642a-458b-a5b2-80e993ab61ca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetMulticastMode, GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastMode method, IBDA_EthernetFilter.GetMulticastMode, IBDA_EthernetFilter::GetMulticastMode, IBDA_EthernetFilterGetMulticastMode, bdaiface/IBDA_EthernetFilter::GetMulticastMode, mstv.ibda_ethernetfilter_getmulticastmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

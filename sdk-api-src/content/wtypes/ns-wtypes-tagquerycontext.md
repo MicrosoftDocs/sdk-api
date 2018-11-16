@@ -3,25 +3,25 @@ UID: NS:wtypes.tagQUERYCONTEXT
 title: tagQUERYCONTEXT
 author: windows-sdk-content
 description: Contains a list of attributes used to look up a class implementation.
-old-location: com\querycontext.htm
-tech.root: com
-ms.assetid: 5d6a17e1-dcdd-4691-aec2-f63dbcb26027
+old-location: winprog\querycontext.htm
+tech.root: DevNotes
+ms.assetid: 8b27c090-2bae-4511-9be8-4bc077295ac5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: QUERYCONTEXT, QUERYCONTEXT structure [COM], _com_QUERYCONTEXT, com.querycontext, tagQUERYCONTEXT, wtypes/tagQUERYCONTEXT
+ms.date: 11/15/2018
+ms.keywords: QUERYCONTEXT, QUERYCONTEXT structure [Windows API], tagQUERYCONTEXT, winprog.querycontext, wtypes/tagQUERYCONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wtypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - WTypes.h
+ - wtypes.h
 api_name:
  - QUERYCONTEXT
 product: Windows
@@ -65,12 +65,12 @@ The execution context.
 
 ### -field Platform
 
-The operating system platform and processor architecture. For more information, see <a href="https://msdn.microsoft.com/e9ffa8ba-98a2-431c-a069-20ed4a45e6f8">CSPLATFORM</a>.
+The operating system platform and processor architecture. For more information, see <a href="https://msdn.microsoft.com/cb8b4615-427d-4277-ad4b-c9988c3e1be7">CSPLATFORM</a>.
 
 
 ### -field Locale
 
-The locale identifier. For more information, see <a href="https://msdn.microsoft.com/8a6373e0-46c2-4b1b-bc67-543f426ef15a">Language Identifier Constants and Strings</a>.
+The locale ID.
 
 
 ### -field dwVersionHi
@@ -88,11 +88,11 @@ The low version number.
 
 
 
-<a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a>
+<a href="https://msdn.microsoft.com/cb8b4615-427d-4277-ad4b-c9988c3e1be7">CSPLATFORM</a>
 
 
 
-<a href="https://msdn.microsoft.com/9486ef2d-51a1-41b4-85e5-427af9a98cec">CoInstall</a>
+<a href="https://msdn.microsoft.com/92b290a5-0923-42fc-8231-1decca26adc1">CoInstall</a>
  
 
  

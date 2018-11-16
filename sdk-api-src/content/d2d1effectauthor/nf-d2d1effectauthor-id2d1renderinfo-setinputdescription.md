@@ -4,10 +4,10 @@ title: ID2D1RenderInfo::SetInputDescription
 author: windows-sdk-content
 description: Sets how a specific input to the transform should be handled by the renderer in terms of sampling.
 old-location: direct2d\id2d1renderinfo_setinputdescription.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 31571676-7030-4FBB-BDED-3CE3BA7E7CE6
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1RenderInfo interface [Direct2D],SetInputDescription method, ID2D1RenderInfo.SetInputDescription, ID2D1RenderInfo::SetInputDescription, SetInputDescription, SetInputDescription method [Direct2D], SetInputDescription method [Direct2D],ID2D1RenderInfo interface, d2d1effectauthor/ID2D1RenderInfo::SetInputDescription, direct2d.id2d1renderinfo_setinputdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,9 @@ Sets how a specific input to the transform should be handled by the renderer in 
 
 ### -param inputIndex
 
-TBD
+Type: <b>UINT32</b>
+
+The index of the input that will have the input description applied.
 
 
 ### -param inputDescription
@@ -77,13 +79,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/ba900ef8-a71a-4aac-a884-38917b78b8df">D2D1_INPUT_DESCRIPTION</a></b>
 
 The description of the input to be applied to the transform.
-
-
-#### - index
-
-Type: <b>UINT32</b>
-
-The index of the input that will have the input description applied.
 
 
 ## -returns

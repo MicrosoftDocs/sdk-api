@@ -7,7 +7,7 @@ old-location: taskschd\inetworksettings_name.htm
 tech.root: TaskSchd
 ms.assetid: 4f1c8327-c4e2-4cb6-aeeb-b72f9ebc250b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetworkSettings interface [Task Scheduler],Name property, INetworkSettings.Name, INetworkSettings.get_Name, INetworkSettings::Name, INetworkSettings::get_Name, INetworkSettings::put_Name, Name property [Task Scheduler], Name property [Task Scheduler],INetworkSettings interface, get_Name, taskschd.inetworksettings_name, taskschd/INetworkSettings::Name, taskschd/INetworkSettings::get_Name, taskschd/INetworkSettings::put_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

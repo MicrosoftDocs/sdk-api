@@ -4,10 +4,10 @@ title: MI_Context_PostInstance function
 author: windows-sdk-content
 description: Posts an instance back to the client (through the server) in response to a request.
 old-location: wmi_v2\mi_context_postinstance.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: b7c5e677-5b49-48b8-8273-4fd04c2f4a90
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Context_PostInstance, MI_Context_PostInstance function [Windows Management Infrastructure (MI)], mi/MI_Context_PostInstance, wmi.mi_postinstance, wmi_v2.mi_context_postinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: WSAProviderConfigChange function
 author: windows-sdk-content
 description: The WSAProviderConfigChange function notifies the application when the provider configuration is changed.
 old-location: winsock\wsaproviderconfigchange_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: abaf367a-8f99-478c-a58c-d57e9f9cd8a1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: WSAProviderConfigChange, WSAProviderConfigChange function [Winsock], _win32_wsaproviderconfigchange_2, winsock.wsaproviderconfigchange_2, winsock2/WSAProviderConfigChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

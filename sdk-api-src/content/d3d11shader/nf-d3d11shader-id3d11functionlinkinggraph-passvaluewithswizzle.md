@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11functionlinkinggraph_passvaluewithswizzle.htm
 tech.root: direct3d11
 ms.assetid: 3D74F848-A58D-4FE9-89D3-7F02A8C86A61
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11FunctionLinkingGraph interface [Direct3D 11],PassValueWithSwizzle method, ID3D11FunctionLinkingGraph.PassValueWithSwizzle, ID3D11FunctionLinkingGraph::PassValueWithSwizzle, PassValueWithSwizzle, PassValueWithSwizzle method [Direct3D 11], PassValueWithSwizzle method [Direct3D 11],ID3D11FunctionLinkingGraph interface, d3d11shader/ID3D11FunctionLinkingGraph::PassValueWithSwizzle, direct3d11.id3d11functionlinkinggraph_passvaluewithswizzle
 ms.prod: windows-hardware
 ms.technology: windows-devices

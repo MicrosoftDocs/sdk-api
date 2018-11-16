@@ -4,10 +4,10 @@ title: D2D1_EFFECT_INPUT_DESCRIPTION
 author: windows-sdk-content
 description: Describes features of an effect.
 old-location: direct2d\d2d1_effect_input_description.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2ce9405a-e36d-4b9e-b9d2-2a58b78696ac
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_EFFECT_INPUT_DESCRIPTION, D2D1_EFFECT_INPUT_DESCRIPTION structure [Direct2D], PD2D1_EFFECT_INPUT_DESCRIPTION, PD2D1_EFFECT_INPUT_DESCRIPTION structure pointer [Direct2D], d2d1_1/D2D1_EFFECT_INPUT_DESCRIPTION, d2d1_1/PD2D1_EFFECT_INPUT_DESCRIPTION, direct2d.d2d1_effect_input_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

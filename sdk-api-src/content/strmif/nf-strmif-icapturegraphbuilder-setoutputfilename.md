@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder_setoutputfilename.htm
 tech.root: DirectShow
 ms.assetid: f410465f-c560-49ab-9194-66d708274f77
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ICaptureGraphBuilder interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder.SetOutputFileName, ICaptureGraphBuilder::SetOutputFileName, ICaptureGraphBuilderSetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder interface, dshow.icapturegraphbuilder_setoutputfilename, strmif/ICaptureGraphBuilder::SetOutputFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,9 +76,9 @@ Creates the rendering section of the filter graph, which will save bits to disk 
 Pointer to a <b>GUID</b> representing the media subtype. Must be <code>&amp;MEDIASUBTYPE_Avi</code>.
 
 
-### -param lpstrFile
+### -param lpstrFile [in]
 
-TBD
+Pointer to a wide-character string containing the output file name.
 
 
 ### -param ppf [out]
@@ -86,19 +86,7 @@ TBD
 Address of a pointer to an <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> interface representing the multiplexer filter. This method increments the reference count on the <b>IBaseFilter</b> interface so you must decrement the reference count by using the <b>Release</b> method on this parameter when done using the filter.
 
 
-### -param ppSink
-
-TBD
-
-
-
-
-#### - lpwstrFile [in]
-
-Pointer to a wide-character string containing the output file name.
-
-
-#### - pSink [out]
+### -param ppSink [out]
 
 Address of a pointer to an <a href="https://msdn.microsoft.com/aa1d3f8e-9790-4442-ba7e-896981bf1b96">IFileSinkFilter</a> interface representing the file writer. This method increments the reference count on the IFileSinkFilter interface so you must decrement the reference count using <b>Release</b> when done using the filter.
 

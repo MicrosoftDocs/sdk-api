@@ -4,10 +4,10 @@ title: TraceEvent function
 author: windows-sdk-content
 description: The TraceEvent function sends an event to an event tracing session.
 old-location: etw\traceevent.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 9b21f6f0-dd9b-4f9c-a879-846901a3bab7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: TraceEvent, TraceEvent function [ETW], _evt_traceevent, base.traceevent, etw.traceevent, evntrace/TraceEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,9 +69,9 @@ The
 
 
 
-### -param TraceHandle
+### -param TraceHandle [in]
 
-TBD
+Handle to the event tracing session that records the event. The provider obtains the handle when it calls the <a href="https://msdn.microsoft.com/050d3a01-0087-40f1-af35-b9ceeaf47813">GetTraceLoggerHandle</a> function in its <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> implementation.
 
 
 ### -param EventTrace [in]
@@ -93,11 +93,6 @@ Depending on the complexity of the information your provider provides, you shoul
 <li><b>Class.Type</b></li>
 <li><b>Class.Level</b></li>
 </ul>
-
-#### - SessionHandle [in]
-
-Handle to the event tracing session that records the event. The provider obtains the handle when it calls the <a href="https://msdn.microsoft.com/050d3a01-0087-40f1-af35-b9ceeaf47813">GetTraceLoggerHandle</a> function in its <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> implementation.
-
 
 ## -returns
 

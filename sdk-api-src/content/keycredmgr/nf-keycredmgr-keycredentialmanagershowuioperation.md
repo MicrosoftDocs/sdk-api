@@ -4,10 +4,10 @@ title: KeyCredentialManagerShowUIOperation function
 author: windows-sdk-content
 description: API to perform the requested WHFB operation.
 old-location: security\keycredentialmanagershowuioperation.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 94AB2BA7-810C-4AC4-A719-FD9684C21BA0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: KeyCredentialManagerShowUIOperation, KeyCredentialManagerShowUIOperation function [Security], keycredmgr/KeyCredentialManagerShowUIOperation, security.keycredentialmanagershowuioperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

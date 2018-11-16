@@ -4,10 +4,10 @@ title: ClusterControl function
 author: windows-sdk-content
 description: Initiates an operation that affects a cluster.
 old-location: mscs\clustercontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7ef06c95-8d9d-4b87-a6d8-d6a2d49523ee
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusterControl, ClusterControl function [Failover Cluster], _wolf_clustercontrol, clusapi/ClusterControl, mscs.clustercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -185,6 +185,57 @@ Returns the actual size (in bytes) of the data resulting from the operation. If 
 
 
 The function returns one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful. If the operation required an output buffer, 
+         <i>lpcbBytesReturned</i> (if not <b>NULL</b> on input) points to the 
+         actual size of the data returned in the buffer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The output buffer pointed to by <i>lpOutBuffer</i> was not large enough to hold the data 
+         resulting from the operation. The <i>lpcbBytesReturned</i> parameter (if not 
+         <b>NULL</b> on input) points to the size required for the output buffer. Only operations 
+         requiring an output buffer return <b>ERROR_MORE_DATA</b>. If the 
+         <i>lpOutBuffer</i> parameter is <b>NULL</b> and the 
+         <i>nOutBufferSize</i> parameter is zero, then <b>ERROR_SUCCESS</b> may 
+         be returned, not <b>ERROR_MORE_DATA</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System error code</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. If the operation required an output buffer, the value specified by 
+         <i>lpcbBytesReturned</i> (if not <b>NULL</b> on input) is 
+         unreliable.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

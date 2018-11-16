@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecache_getspaceused.htm
 tech.root: lwef
 ms.assetid: c8ec2f70-f327-49d4-babb-a9640f105003
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/15/2018
 ms.keywords: GetSpaceUsed, GetSpaceUsed method [Legacy Windows Environment Features], GetSpaceUsed method [Legacy Windows Environment Features],IEmptyVolumeCache interface, IEmptyVolumeCache interface [Legacy Windows Environment Features],GetSpaceUsed method, IEmptyVolumeCache.GetSpaceUsed, IEmptyVolumeCache::GetSpaceUsed, _win32_IEmptyVolumeCache_GetSpaceUsed, emptyvc/IEmptyVolumeCache::GetSpaceUsed, lwef.iemptyvolumecache_getspaceused, shell.iemptyvolumecache_getspaceused
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Requests the amount of disk space that the disk cleanup handler can free.
 
 
 
-### -param pdwlSpaceUsed
+### -param pdwlSpaceUsed [out]
 
-TBD
+Type: <b>DWORDLONG*</b>
+
+The amount of disk space, in bytes, that the handler can free. This value will be displayed in the disk cleanup manager's list, to the right of the handler's check box. To indicate that you do not know how much disk space can be freed, set this parameter to -1, and "???MB" will be displayed. If you set the <b>EVCF_DONTSHOWIFZERO</b> flag when <a href="https://msdn.microsoft.com/e0d66c58-6963-4694-984f-6f4a710d08c0">Initialize</a> was called, setting <i>pdwSpaceUsed</i> to zero will notify the disk cleanup manager to omit the handler from its list. 
 
 
 ### -param picb [in]
@@ -77,13 +79,6 @@ Type: <b>IEmptyVolumeCacheCallback*</b>
 
 A pointer to the disk cleanup manager's <a href="https://msdn.microsoft.com/d6775458-3b39-4ee8-90f9-d8a749bd1800">IEmptyVolumeCacheCallback</a> interface. This pointer can be used to call that interface's <a href="https://msdn.microsoft.com/41ebc9db-d402-47d7-b303-f87357ae820d">ScanProgress</a> method to report on the progress of the operation.
         
-
-
-#### - pdwSpaceUsed [out]
-
-Type: <b>DWORDLONG*</b>
-
-The amount of disk space, in bytes, that the handler can free. This value will be displayed in the disk cleanup manager's list, to the right of the handler's check box. To indicate that you do not know how much disk space can be freed, set this parameter to -1, and "???MB" will be displayed. If you set the <b>EVCF_DONTSHOWIFZERO</b> flag when <a href="https://msdn.microsoft.com/e0d66c58-6963-4694-984f-6f4a710d08c0">Initialize</a> was called, setting <i>pdwSpaceUsed</i> to zero will notify the disk cleanup manager to omit the handler from its list. 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: base\ivdsdrive2_getproperties2.htm
 tech.root: VDS
 ms.assetid: 635957be-780f-4dee-8d70-b7fc37fecd5c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsDrive2 interface, IVdsDrive2 interface,GetProperties2 method, IVdsDrive2.GetProperties2, IVdsDrive2::GetProperties2, base.ivdsdrive2_getproperties2, vds/IVdsDrive2::GetProperties2, vdshwprv/IVdsDrive2::GetProperties2
 ms.prod: windows-hardware
 ms.technology: windows-devices

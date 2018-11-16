@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterPattern.htm
 tech.root: WinAuto
 ms.assetid: 6aa61295-e035-4a51-9157-7cf9cfaee37a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterPattern method, IUIAutomationRegistrar.RegisterPattern, IUIAutomationRegistrar::RegisterPattern, RegisterPattern, RegisterPattern method [Windows Accessibility], RegisterPattern method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterPattern, uiauto_IUIAutomationRegistrar_RegisterPattern, uiautomationcore/IUIAutomationRegistrar::RegisterPattern, winauto.uiauto_IUIAutomationRegistrar_RegisterPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,9 +73,11 @@ Type: <b><a href="https://msdn.microsoft.com/f45c5736-75f3-4e44-b92a-3b0a51b4184
 A pointer to a structure that contains information about the control pattern to register.
 
 
-### -param pPatternId
+### -param pPatternId [out]
 
-TBD
+Type: <b>PATTERNID*</b>
+
+Receives the pattern identifier.
 
 
 ### -param pPatternAvailablePropertyId [out]
@@ -111,13 +113,6 @@ The number of events supported by the control pattern.
 Type: <b>EVENTID*</b>
 
 Receives an array of identifiers for events that are raised by the pattern.
-
-
-#### - patternId [out]
-
-Type: <b>PATTERNID*</b>
-
-Receives the pattern identifier.
 
 
 ## -returns

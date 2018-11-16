@@ -4,10 +4,10 @@ title: RasSecurityDialogBegin function
 author: windows-sdk-content
 description: The RasSecurityDialogBegin function is a third-party RAS security DLL entry point that the RAS server calls when a remote user tries to connect. This enables the security DLL to begin its authentication of the remote user.
 old-location: rras\rassecuritydialogbegin.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 19f4591b-ecae-478b-b110-c0d88c72f7eb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: RasSecurityDialogBegin, RasSecurityDialogBegin callback, RasSecurityDialogBegin callback function [RAS], _ras_rassecuritydialogbegin, rasshost/RasSecurityDialogBegin, rras.rassecuritydialogbegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,14 +102,7 @@ Pointer to a buffer allocated by the RAS server. The security DLL uses this buff
 Specifies the size, in bytes, of the <i>pRecvBuf</i> buffer.
 
 
-### -param VOID
-
-TBD
-
-
-
-
-#### - RasSecurityDialogComplete [in]
+### -param VOID [in]
 
 Pointer to the 
 <a href="https://msdn.microsoft.com/9ebe8b85-7500-405f-98c2-6f51f3339629">RasSecurityDialogComplete</a> function. When the security DLL has completed the authentication of the remote user, it calls this function to report the results to the RAS server.

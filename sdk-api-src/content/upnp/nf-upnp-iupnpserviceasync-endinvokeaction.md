@@ -7,7 +7,7 @@ old-location: upnp\iupnpserviceasync_endinvokeaction.htm
 tech.root: UPnP
 ms.assetid: 1B10F8E9-D3C9-432B-B773-77B4BB82224C
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: EndInvokeAction, EndInvokeAction method [UPnP APIs], EndInvokeAction method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndInvokeAction method, IUPnPServiceAsync.EndInvokeAction, IUPnPServiceAsync::EndInvokeAction, upnp.iupnpserviceasync_endinvokeaction, upnp/IUPnPServiceAsync::EndInvokeAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,29 +66,24 @@ The <b>EndInvokeAction</b> method retrieves the results of  a previous <a href="
 
 
 
-### -param ullRequestID [in]
+### -param ullRequestID [in, out]
 
-A 64-bit <b>ULONG</b> value that corresponds to the <a href="https://msdn.microsoft.com/40900CE1-03EE-451A-84DE-5C496EB2D7E5">BeginInvokeAction</a> operation initiated prior to this call.
+On input, contains a reference to an empty array. On output, receives a reference to the array of service-specific output arguments. In the event the action doesn't have output arguments, this parameter contains an empty array.
 
+<div class="alert"><b>Note</b>  Clear this parameter with <a href="https://msdn.microsoft.com/28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.</div>
+<div> </div>
 
-### -param pvOutActionArgs
-
-TBD
-
-
-### -param pvRetVal [in, out]
+### -param pvOutActionArgs [in, out]
 
 On input contains a reference to an empty array. On output, receives a reference to a VARIANT that contains the return value of the invoked action. 
 
 <div class="alert"><b>Note</b>  Clear this parameter with <a href="https://msdn.microsoft.com/28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.</div>
 <div> </div>
 
-#### - pvarOutActionArgs [in, out]
+### -param pvRetVal [in]
 
-On input, contains a reference to an empty array. On output, receives a reference to the array of service-specific output arguments. In the event the action doesn't have output arguments, this parameter contains an empty array.
+A 64-bit <b>ULONG</b> value that corresponds to the <a href="https://msdn.microsoft.com/40900CE1-03EE-451A-84DE-5C496EB2D7E5">BeginInvokeAction</a> operation initiated prior to this call.
 
-<div class="alert"><b>Note</b>  Clear this parameter with <a href="https://msdn.microsoft.com/28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.</div>
-<div> </div>
 
 ## -returns
 

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationeventhandlergroup_addchangeseventhandl
 tech.root: WinAuto
 ms.assetid: AB46E0D3-FFE0-4565-A971-191C0D266506
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: AddChangesEventHandler, AddChangesEventHandler method [Windows Accessibility], AddChangesEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddChangesEventHandler method, IUIAutomationEventHandlerGroup.AddChangesEventHandler, IUIAutomationEventHandlerGroup::AddChangesEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddChangesEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addchangeseventhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,19 +81,14 @@ A pointer to a list of integers that indicate the change types the event represe
 The number of changes that occurred in this event.
 
 
-### -param cacheRequest
+### -param cacheRequest [in]
 
-TBD
+A pointer to a cache request, or <b>NULL</b> if no caching is wanted.
 
 
 ### -param handler [in]
 
 A pointer to the object that handles the changes event.
-
-
-#### - pCacheRequest [in]
-
-A pointer to a cache request, or <b>NULL</b> if no caching is wanted.
 
 
 ## -returns

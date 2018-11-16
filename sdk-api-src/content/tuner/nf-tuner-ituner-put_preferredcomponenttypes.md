@@ -4,10 +4,10 @@ title: ITuner::put_PreferredComponentTypes
 author: windows-sdk-content
 description: The put_PreferredComponentTypes method sets the collection of ComponentType objects used for default component selection.
 old-location: mstv\ituner_put_preferredcomponenttypes.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: cca12a71-c842-4340-9233-f4143f6e0eea
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],put_PreferredComponentTypes method, ITuner.put_PreferredComponentTypes, ITuner::put_PreferredComponentTypes, ITunerput_PreferredComponentTypes, mstv.ituner_put_preferredcomponenttypes, put_PreferredComponentTypes, put_PreferredComponentTypes method [Microsoft TV Technologies], put_PreferredComponentTypes method [Microsoft TV Technologies],ITuner interface, tuner/ITuner::put_PreferredComponentTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>put_PreferredComponentTypes</b> method sets the collection of <b>Componen
 
 
 
-### -param ComponentTypes
-
-TBD
-
-
-
-
-#### - pComponentTypes [in]
+### -param ComponentTypes [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/47c3837b-1348-4359-ad3d-3d82c5fe3781">IComponentTypes</a> interface that contains the collection of ComponentType objects.
 

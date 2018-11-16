@@ -4,10 +4,10 @@ title: FindDebugInfoFileExW function
 author: windows-sdk-content
 description: Locates the specified debug (.dbg) file.
 old-location: base\finddebuginfofileex.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 1e89fe9a-4631-42b9-96ee-90393b4d9084
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: FindDebugInfoFileEx, FindDebugInfoFileEx function, FindDebugInfoFileExW, _win32_finddebuginfofileex, base.finddebuginfofileex, dbghelp/FindDebugInfoFileEx, dbghelp/FindDebugInfoFileExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

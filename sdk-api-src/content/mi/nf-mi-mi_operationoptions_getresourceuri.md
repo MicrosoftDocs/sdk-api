@@ -4,10 +4,10 @@ title: MI_OperationOptions_GetResourceUri function
 author: windows-sdk-content
 description: Gets the resource URI being used for an operation.
 old-location: wmi_v2\mi_operationoptions_getresourceuri.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 24aff5ba-21e9-496c-a28d-7daeda26b670
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_OperationOptions_GetResourceUri, MI_OperationOptions_GetResourceUri function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetResourceUri, wmi_v2.mi_operationoptions_getresourceuri
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced2.htm
 tech.root: wmformat
 ms.assetid: 94790b67-690c-4a0f-9b82-801bfcec9eb0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMWriterAdvanced2, IWMWriterAdvanced2 interface [windows Media Format], IWMWriterAdvanced2 interface [windows Media Format],described, IWMWriterAdvanced2Interface, wmformat.iwmwriteradvanced2, wmsdkidl/IWMWriterAdvanced2
 ms.prod: windows-hardware
 ms.technology: windows-devices

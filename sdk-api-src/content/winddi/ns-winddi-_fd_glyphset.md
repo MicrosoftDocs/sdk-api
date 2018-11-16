@@ -7,7 +7,7 @@ old-location: display\fd_glyphset.htm
 tech.root: display
 ms.assetid: af56f2a0-92a6-4217-8121-944a0b4f26f6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PFD_GLYPHSET, FD_GLYPHSET, FD_GLYPHSET structure [Display Devices], PFD_GLYPHSET, PFD_GLYPHSET structure pointer [Display Devices], _FD_GLYPHSET, display.fd_glyphset, grstrcts_69cd5b01-58bb-4141-8f1d-26a6258423ce.xml, winddi/FD_GLYPHSET, winddi/PFD_GLYPHSET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

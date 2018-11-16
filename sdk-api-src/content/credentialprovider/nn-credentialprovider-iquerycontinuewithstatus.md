@@ -7,7 +7,7 @@ old-location: shell\IQueryContinueWithStatus.htm
 tech.root: shell
 ms.assetid: 3f41714e-d8f6-46ea-aea4-19dca4723ca5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IQueryContinueWithStatus, IQueryContinueWithStatus interface [Windows Shell], IQueryContinueWithStatus interface [Windows Shell],described, _shell_IQueryContinueWithStatus, credentialprovider/IQueryContinueWithStatus, shell.IQueryContinueWithStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

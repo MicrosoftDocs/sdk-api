@@ -7,7 +7,7 @@ old-location: tablet\inktablets_count.htm
 tech.root: tablet
 ms.assetid: 6224871c-044e-478a-9635-6b2874bdcf45
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkTablets interface, IInkTablets interface [Tablet PC],Count property, IInkTablets.Count, IInkTablets.get_Count, IInkTablets::Count, IInkTablets::get_Count, InkTablets.get_Count, get_Count, msinkaut/IInkTablets::Count, msinkaut/IInkTablets::get_Count, tablet.inktablets_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

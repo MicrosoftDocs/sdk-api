@@ -4,10 +4,10 @@ title: IOCSPCAConfigurationCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets an enumerator for the configuration set.
 old-location: security\iocspcaconfigurationcollection__newenum_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 71f14b78-2b3e-44eb-8bca-6fff6b9a2293
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],_NewEnum property, IOCSPCAConfigurationCollection._NewEnum, IOCSPCAConfigurationCollection.get__NewEnum, IOCSPCAConfigurationCollection::_NewEnum, IOCSPCAConfigurationCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::_NewEnum, certadm/IOCSPCAConfigurationCollection::get__NewEnum, get__NewEnum, security.iocspcaconfigurationcollection__newenum_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

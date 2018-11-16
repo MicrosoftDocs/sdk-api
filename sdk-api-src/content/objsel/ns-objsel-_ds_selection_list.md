@@ -7,7 +7,7 @@ old-location: ad\ds_selection_list.htm
 tech.root: ad
 ms.assetid: 15493b8c-014e-4e69-9e67-40b24d44606d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: "*PDS_SELECTION_LIST, DS_SELECTION_LIST, DS_SELECTION_LIST structure [Active Directory], PDS_SELECTION_LIST, PDS_SELECTION_LIST structure pointer [Active Directory], _DS_SELECTION_LIST, _glines_ds_selection_list, ad.ds__selection__list, ad.ds_selection_list, objsel/DS_SELECTION_LIST, objsel/PDS_SELECTION_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

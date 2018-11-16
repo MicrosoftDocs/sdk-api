@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_description_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_820e.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: Description property [Fax Service], Description property [Fax Service],IFaxDevice interface, IFaxDevice interface [Fax Service],Description property, IFaxDevice.Description, IFaxDevice.get_Description, IFaxDevice.put_Description, IFaxDevice::Description, IFaxDevice::get_Description, IFaxDevice::put_Description, _mfax_faxdevice.description, fax._mfax_faxdevice_cpp_mfax_faxdevice_description_cpp, fax._mfax_faxdevice_description, faxcomex/IFaxDevice::Description, faxcomex/IFaxDevice::get_Description, faxcomex/IFaxDevice::put_Description, get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices

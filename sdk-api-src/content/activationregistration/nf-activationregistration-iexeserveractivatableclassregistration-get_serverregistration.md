@@ -7,7 +7,7 @@ old-location: winrt\iexeserveractivatableclassregistration_serverregistration.ht
 tech.root: WinRT
 ms.assetid: 6116DC84-2DE0-427E-BDC7-425178B08C1A
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IExeServerActivatableClassRegistration interface [Windows Runtime],get_ServerRegistration method, IExeServerActivatableClassRegistration.get_ServerRegistration, IExeServerActivatableClassRegistration::get_ServerRegistration, activationregistration/IExeServerActivatableClassRegistration::get_ServerRegistration, get_ServerRegistration, get_ServerRegistration method [Windows Runtime], get_ServerRegistration method [Windows Runtime],IExeServerActivatableClassRegistration interface, winrt.iexeserveractivatableclassregistration_serverregistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

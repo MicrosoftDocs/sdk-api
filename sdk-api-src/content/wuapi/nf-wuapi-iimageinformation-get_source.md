@@ -7,7 +7,7 @@ old-location: wua\iimageinformation_source.htm
 tech.root: Wua_Sdk
 ms.assetid: 631d5887-7f0d-4051-a8fe-9c1df0b35382
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IImageInformation interface [Windows Update Agent],Source property, IImageInformation.Source, IImageInformation.get_Source, IImageInformation::Source, IImageInformation::get_Source, Source property [Windows Update Agent], Source property [Windows Update Agent],IImageInformation interface, get_Source, wua.iimageinformation_source, wuapi/IImageInformation::Source, wuapi/IImageInformation::get_Source
 ms.prod: windows-hardware
 ms.technology: windows-devices

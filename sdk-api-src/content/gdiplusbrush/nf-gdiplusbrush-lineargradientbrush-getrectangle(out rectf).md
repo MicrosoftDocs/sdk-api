@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetRectangle_RectF_rect
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\lineargradientbrushgetrectanglemethods\getrectangle_7rectfrect.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetRectangle, GetRectangle method [GDI+], GetRectangle method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetRectangle method, LinearGradientBrush.GetRectangle, LinearGradientBrush.GetRectangle(OUT RectF), LinearGradientBrush.GetRectangle(RectF*), LinearGradientBrush::GetRectangle, LinearGradientBrush::GetRectangle(OUT RectF), _gdiplus_CLASS_LinearGradientBrush_GetRectangle_RectF_rect_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetRectangle_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

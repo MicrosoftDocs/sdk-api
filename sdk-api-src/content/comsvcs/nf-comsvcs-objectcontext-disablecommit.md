@@ -7,7 +7,7 @@ old-location: cos\objectcontext_disablecommit.htm
 tech.root: cossdk
 ms.assetid: cf0e59d9-2760-445e-aa7d-8c2b78457181
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DisableCommit, DisableCommit method [COM+], DisableCommit method [COM+],ObjectContext interface, ObjectContext interface [COM+],DisableCommit method, ObjectContext.DisableCommit, ObjectContext::DisableCommit, _cos_ObjectContext_DisableCommit, comsvcs/ObjectContext::DisableCommit, cos.objectcontext_disablecommit
 ms.prod: windows-hardware
 ms.technology: windows-devices

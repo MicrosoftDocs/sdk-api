@@ -7,7 +7,7 @@ old-location: cos\csc_partitionconfig.htm
 tech.root: cossdk
 ms.assetid: 584c4744-193d-43d4-a305-8f4ea9802d58
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CSC_InheritPartition, CSC_NewPartition, CSC_NoPartition, CSC_PartitionConfig, CSC_PartitionConfig enumeration [COM+], _cos_CSC_PartitionConfig, comsvcs/CSC_InheritPartition, comsvcs/CSC_NewPartition, comsvcs/CSC_NoPartition, comsvcs/CSC_PartitionConfig, cos.csc_partitionconfig, tagCSC_PartitionConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

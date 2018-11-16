@@ -7,7 +7,7 @@ old-location: base\cvsswriter_onthaw.htm
 tech.root: VSS
 ms.assetid: 36028e9f-f7a7-41f1-a570-48f943e9ab83
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CVssWriter interface [VSS],OnThaw method, CVssWriter.OnThaw, CVssWriter::OnThaw, OnThaw, OnThaw method [VSS], OnThaw method [VSS],CVssWriter interface, _win32_cvsswriter_onthaw, base.cvsswriter_onthaw, vswriter/CVssWriter::OnThaw
 ms.prod: windows-hardware
 ms.technology: windows-devices

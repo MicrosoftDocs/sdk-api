@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs7v2_policyserver.htm
 tech.root: SecCertEnroll
 ms.assetid: f4174e93-0edb-4188-8ad1-599584ad899f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509CertificateRequestPkcs7V2 interface [Security],PolicyServer property, IX509CertificateRequestPkcs7V2.PolicyServer, IX509CertificateRequestPkcs7V2.get_PolicyServer, IX509CertificateRequestPkcs7V2::PolicyServer, IX509CertificateRequestPkcs7V2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509CertificateRequestPkcs7V2 interface, certenroll/IX509CertificateRequestPkcs7V2::PolicyServer, certenroll/IX509CertificateRequestPkcs7V2::get_PolicyServer, get_PolicyServer, security.ix509certificaterequestpkcs7v2_policyserver
 ms.prod: windows-hardware
 ms.technology: windows-devices

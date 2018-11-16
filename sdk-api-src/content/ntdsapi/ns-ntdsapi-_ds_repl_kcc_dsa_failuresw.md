@@ -7,7 +7,7 @@ old-location: ad\ds_repl_kcc_dsa_failures.htm
 tech.root: ad
 ms.assetid: bb011502-38ae-43b7-a6ad-de16b499f61b
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: DS_REPL_KCC_DSA_FAILURES, DS_REPL_KCC_DSA_FAILURES structure [Active Directory], DS_REPL_KCC_DSA_FAILURESW, _DS_REPL_KCC_DSA_FAILURESW, _glines_ds_repl_kcc_dsa_failures, ad.ds__repl__kcc__dsa__failures, ad.ds_repl_kcc_dsa_failures, ntdsapi/DS_REPL_KCC_DSA_FAILURES
 ms.prod: windows-hardware
 ms.technology: windows-devices

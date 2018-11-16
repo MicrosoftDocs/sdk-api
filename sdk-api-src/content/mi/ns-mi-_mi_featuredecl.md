@@ -4,10 +4,10 @@ title: "_MI_FeatureDecl"
 author: windows-sdk-content
 description: Contains properties that are common to the MI_PropertyDeclMI_ParameterDecland MI_MethodDecl structures.
 old-location: wmi_v2\mi_featuredecl.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 7C669B89-C6D7-45E5-AAD8-A884F4E87659
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_FeatureDecl, MI_FeatureDecl structure [Windows Management Infrastructure (MI)], _MI_FeatureDecl, mi/MI_FeatureDecl, wmi_v2.mi_featuredecl
 ms.prod: windows-hardware
 ms.technology: windows-devices

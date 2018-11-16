@@ -4,10 +4,10 @@ title: IMSVidInputDevices::Add
 author: windows-sdk-content
 description: The Add method adds an input device to the collection.
 old-location: mstv\imsvidinputdevices_add.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: b3a8ab2a-4b9c-41d2-9fb6-5862891eba42
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidInputDevices interface, IMSVidInputDevices interface [Microsoft TV Technologies],Add method, IMSVidInputDevices.Add, IMSVidInputDevices::Add, IMSVidInputDevicesAdd, mstv.imsvidinputdevices_add, segment/IMSVidInputDevices::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

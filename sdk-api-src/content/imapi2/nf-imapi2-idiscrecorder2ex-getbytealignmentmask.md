@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_getbytealignmentmask.htm
 tech.root: imapi
 ms.assetid: 6a92efb1-4da8-4cf4-8011-b06a0f82a3eb
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetByteAlignmentMask, GetByteAlignmentMask method [IMAPI], GetByteAlignmentMask method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetByteAlignmentMask method, IDiscRecorder2Ex.GetByteAlignmentMask, IDiscRecorder2Ex::GetByteAlignmentMask, imapi.idiscrecorder2ex_getbytealignmentmask, imapi2/IDiscRecorder2Ex::GetByteAlignmentMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

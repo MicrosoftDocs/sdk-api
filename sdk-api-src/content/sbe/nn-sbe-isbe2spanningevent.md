@@ -4,10 +4,10 @@ title: ISBE2SpanningEvent
 author: windows-sdk-content
 description: Implements in-band spanning events for the Stream Buffer Engine, version 2 (SBE2). An in-band spanning event is an in-band event that can be recorded as part of the state information in a stream.
 old-location: mstv\isbe2spanningevent.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 155a2e61-3b53-4225-b298-ee51e2afca96
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISBE2SpanningEvent, ISBE2SpanningEvent interface [Microsoft TV Technologies], ISBE2SpanningEvent interface [Microsoft TV Technologies],described, mstv.isbe2spanningevent, sbe/ISBE2SpanningEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

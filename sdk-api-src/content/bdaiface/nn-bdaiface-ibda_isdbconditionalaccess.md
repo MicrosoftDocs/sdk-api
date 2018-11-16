@@ -4,10 +4,10 @@ title: IBDA_ISDBConditionalAccess
 author: windows-sdk-content
 description: Sends conditional access system (CAS) commands for Integrated Services Digital Broadcasting (ISDB).
 old-location: mstv\ibda_isdbconditionalaccess.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 0e45e5ea-9f38-4a96-be44-8ee123492aa9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_ISDBConditionalAccess, IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies], IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies],described, bdaiface/IBDA_ISDBConditionalAccess, mstv.ibda_isdbconditionalaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

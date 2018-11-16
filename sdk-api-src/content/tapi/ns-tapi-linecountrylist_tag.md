@@ -4,10 +4,10 @@ title: linecountrylist_tag
 author: windows-sdk-content
 description: The LINECOUNTRYLIST structure describes a list of countries/regions. This structure can contain an array of LINECOUNTRYENTRY structures. LINECOUNTRYLIST is returned by the lineGetCountry function.
 old-location: tapi2\linecountrylist_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f6634d40-0c17-4eb1-a0ca-9590e9e649e2
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPLINECOUNTRYLIST, LINECOUNTRYLIST, LINECOUNTRYLIST structure [TAPI 2.2], LPLINECOUNTRYLIST, LPLINECOUNTRYLIST structure pointer [TAPI 2.2], _tapi2_linecountrylist_str, linecountrylist_tag, tapi/LINECOUNTRYLIST, tapi/LPLINECOUNTRYLIST, tapi2.linecountrylist_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

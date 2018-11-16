@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_depth_stencil_desc.htm
 tech.root: direct3d11
 ms.assetid: 5e136ca8-8655-4c75-9bc0-bcf3a7af930a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 36285118-9eb2-1ef6-7c18-5d5e3cdd5535, D3D11_DEPTH_STENCIL_DESC, D3D11_DEPTH_STENCIL_DESC structure [Direct3D 11], d3d11/D3D11_DEPTH_STENCIL_DESC, direct3d11.d3d11_depth_stencil_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

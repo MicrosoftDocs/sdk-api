@@ -7,7 +7,7 @@ old-location: search\_search_STRUCTURED_QUERY_MULTIOPTION.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\structured_query_multioption.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: SQMO_DEFAULT_PROPERTY, SQMO_GENERATOR_FOR_TYPE, SQMO_MAP_PROPERTY, SQMO_VIRTUAL_PROPERTY, STRUCTURED_QUERY_MULTIOPTION, STRUCTURED_QUERY_MULTIOPTION enumeration [search], _search_STRUCTURED_QUERY_MULTIOPTION, search._search_STRUCTURED_QUERY_MULTIOPTION, structuredquery/SQMO_DEFAULT_PROPERTY, structuredquery/SQMO_GENERATOR_FOR_TYPE, structuredquery/SQMO_MAP_PROPERTY, structuredquery/SQMO_VIRTUAL_PROPERTY, structuredquery/STRUCTURED_QUERY_MULTIOPTION, tagSTRUCTURED_QUERY_MULTIOPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

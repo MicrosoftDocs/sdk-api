@@ -7,7 +7,7 @@ old-location: wmi\provider_validatedeletionflags.htm
 tech.root: WmiSdk
 ms.assetid: eaaf49e3-e768-4494-ba0b-dc2c8c35be47
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: "?ValidateDeletionFlags@Provider@@MAEJJ@Z, ?ValidateDeletionFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateDeletionFlags method, Provider.ValidateDeletionFlags, Provider::ValidateDeletionFlags, ValidateDeletionFlags, ValidateDeletionFlags method [Windows Management Instrumentation], ValidateDeletionFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validatedeletionflags, provider/Provider::ValidateDeletionFlags, wmi.provider_validatedeletionflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices

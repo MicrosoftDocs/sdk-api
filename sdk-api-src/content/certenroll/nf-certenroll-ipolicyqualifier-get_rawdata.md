@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifier_rawdata_property.htm
 tech.root: SecCertEnroll
 ms.assetid: a654f60c-7f67-4fe2-847b-e8c5f91fde80
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IPolicyQualifier interface [Security],RawData property, IPolicyQualifier.RawData, IPolicyQualifier.get_RawData, IPolicyQualifier::RawData, IPolicyQualifier::get_RawData, RawData property [Security], RawData property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::RawData, certenroll/IPolicyQualifier::get_RawData, get_RawData, security.ipolicyqualifier_rawdata_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

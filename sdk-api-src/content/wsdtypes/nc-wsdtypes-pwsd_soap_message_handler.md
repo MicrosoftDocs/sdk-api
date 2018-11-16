@@ -7,7 +7,7 @@ old-location: ncd\pwsd_soap_message_handler_func.htm
 tech.root: WsdApi
 ms.assetid: 175d4352-ba85-4c3c-be9f-4612c4b66123
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: PWSD_SOAP_MESSAGE_HANDLER, PWSD_SOAP_MESSAGE_HANDLER callback, PWSD_SOAP_MESSAGE_HANDLER callback function, callback function pointer, ncd.pwsd_soap_message_handler_func, wsdtypes/PWSD_SOAP_MESSAGE_HANDLER
 ms.prod: windows-hardware
 ms.technology: windows-devices

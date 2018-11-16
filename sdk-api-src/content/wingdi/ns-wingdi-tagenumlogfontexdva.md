@@ -7,7 +7,7 @@ old-location: gdi\enumlogfontexdv.htm
 tech.root: gdi
 ms.assetid: 8d483f52-250e-4c4f-83cf-ff952bb84fd3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPENUMLOGFONTEXDVA, *PENUMLOGFONTEXDVA, ENUMLOGFONTEXDV, ENUMLOGFONTEXDV structure [Windows GDI], ENUMLOGFONTEXDVA, ENUMLOGFONTEXDVW, PENUMLOGFONTEXDV, PENUMLOGFONTEXDV structure pointer [Windows GDI], _win32_ENUMLOGFONTEXDV_str, gdi.enumlogfontexdv, tagENUMLOGFONTEXDVA, wingdi/ENUMLOGFONTEXDV, wingdi/ENUMLOGFONTEXDVA, wingdi/ENUMLOGFONTEXDVW, wingdi/PENUMLOGFONTEXDV"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\requestbody_unsubscribe_struct.htm
 tech.root: WsdApi
 ms.assetid: 4032fe2b-1fd4-4e6d-998d-3fb80a5b906f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: REQUESTBODY_Unsubscribe, REQUESTBODY_Unsubscribe structure, ncd.requestbody_unsubscribe_struct, wsdtypes/REQUESTBODY_Unsubscribe
 ms.prod: windows-hardware
 ms.technology: windows-devices

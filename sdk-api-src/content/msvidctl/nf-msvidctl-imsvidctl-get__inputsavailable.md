@@ -4,10 +4,10 @@ title: IMSVidCtl::get__InputsAvailable
 author: windows-sdk-content
 description: The get__InputsAvailable method retrieves the input devices that are available in a specified category.
 old-location: mstv\imsvidctl_get__inputsavailable.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2d77eca3-aec9-423d-8d02-92e6f9ab5167
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get__InputsAvailable method, IMSVidCtl.get__InputsAvailable, IMSVidCtl::get__InputsAvailable, IMSVidCtlget__InputsAvailable, get__InputsAvailable, get__InputsAvailable method [Microsoft TV Technologies], get__InputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get__inputsavailable, msvidctl/IMSVidCtl::get__InputsAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,14 +93,7 @@ Pointer to a GUID that specifies the category to enumerate. Supported categories
  
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - ppVal [out]
+### -param pVal [out]
 
 Receives an <a href="https://msdn.microsoft.com/cb9d9885-718e-43b9-b195-66149bd7e973">IMSVidInputDevices</a> interface pointer. The caller must release the interface.
 

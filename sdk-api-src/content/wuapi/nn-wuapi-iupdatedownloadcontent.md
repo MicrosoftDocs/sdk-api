@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloadcontent.htm
 tech.root: Wua_Sdk
 ms.assetid: c3e355bb-6e68-432c-83ef-1c9e0d6b63f8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IUpdateDownloadContent, IUpdateDownloadContent interface [Windows Update Agent], IUpdateDownloadContent interface [Windows Update Agent],described, wua.iupdatedownloadcontent, wuapi/IUpdateDownloadContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: http\httpcancelhttprequest.htm
 tech.root: Http
 ms.assetid: 9ece13ab-7b13-49b7-8d29-bbbb2755db52
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: HttpCancelHttpRequest, HttpCancelHttpRequest function [HTTP], http.httpcancelhttprequest, http/HttpCancelHttpRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,14 +74,7 @@ A handle to the request queue from which the request came.
 The ID of the request to be canceled.
 
 
-### -param Overlapped
-
-TBD
-
-
-
-
-#### - pOverlapped [in, optional]
+### -param Overlapped [in, optional]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>.

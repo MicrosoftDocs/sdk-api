@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_getversion.htm
 tech.root: winsync
 ms.assetid: b54114f1-aa54-493d-b449-0b9161004ffa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetVersion, GetVersion method [Windows Sync], GetVersion method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetVersion method, ISyncKnowledge.GetVersion, ISyncKnowledge::GetVersion, winsync.isyncknowledge_getversion, winsync/ISyncKnowledge::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

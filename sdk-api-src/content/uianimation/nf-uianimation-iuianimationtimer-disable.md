@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimer_disable.htm
 tech.root: UIAnimation
 ms.assetid: 981f2086-3588-4150-aa0a-c427b93ef8bb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Disable, Disable method [Windows Animation], Disable method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],Disable method, IUIAnimationTimer.Disable, IUIAnimationTimer::Disable, uianimation.iuianimationtimer_disable, uianimation/IUIAnimationTimer::Disable
 ms.prod: windows-hardware
 ms.technology: windows-devices

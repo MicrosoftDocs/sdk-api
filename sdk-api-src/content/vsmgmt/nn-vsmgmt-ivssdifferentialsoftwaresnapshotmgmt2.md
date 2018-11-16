@@ -7,7 +7,7 @@ old-location: base\ivssdifferentialsoftwaresnapshotmgmt2.htm
 tech.root: VSS
 ms.assetid: b11d53cb-5b08-4798-acca-45237fc3e170
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2, IVssDifferentialSoftwareSnapshotMgmt2 interface, IVssDifferentialSoftwareSnapshotMgmt2 interface,described, base.ivssdifferentialsoftwaresnapshotmgmt2, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2
 ms.prod: windows-hardware
 ms.technology: windows-devices

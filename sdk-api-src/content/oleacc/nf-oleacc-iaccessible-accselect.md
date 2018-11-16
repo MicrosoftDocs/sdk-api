@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__accselect.htm
 tech.root: WinAuto
 ms.assetid: ae55831c-0dfa-4901-b241-27e2cdf1035f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accSelect method, IAccessible.accSelect, IAccessible::accSelect, _msaa_IAccessible_accSelect, accSelect, accSelect method [Windows Accessibility], accSelect method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accselect, oleacc/IAccessible::accSelect, winauto.iaccessible_iaccessible__accselect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,7 @@ Type: <b>long</b>
 Specifies which selection or focus operations are to be performed. This parameter must have a combination of the <a href="https://msdn.microsoft.com/52755540-dcf4-4e0b-bb5c-88b05f134d79">SELFLAG Constants</a>.
 
 
-### -param varChild
-
-TBD
-
-
-
-
-#### - varID [in]
+### -param varChild [in]
 
 Type: <b>VARIANT</b>
 

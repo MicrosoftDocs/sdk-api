@@ -4,10 +4,10 @@ title: IBDA_GuideDataDeliveryService::GetGuideDataType
 author: windows-sdk-content
 description: Gets the format UUID for the data that is retrieved on this service.
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedatatype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 74370ba8-2104-41f9-aa02-02b6790236da
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CLSID_PBDA_GDDS_DATA_TYPE, GetGuideDataType, GetGuideDataType method [Microsoft TV Technologies], GetGuideDataType method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetGuideDataType method, IBDA_GuideDataDeliveryService.GetGuideDataType, IBDA_GuideDataDeliveryService::GetGuideDataType, bdaiface/IBDA_GuideDataDeliveryService::GetGuideDataType, mstv.ibda_guidedatadeliveryservice_getguidedatatype
 ms.prod: windows-hardware
 ms.technology: windows-devices

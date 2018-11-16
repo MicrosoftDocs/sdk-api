@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineclassfactoryex.htm
 tech.root: medfound
 ms.assetid: d672ee59-f702-49c7-8ccf-5ba0260c9b23
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IMFMediaEngineClassFactoryEx, IMFMediaEngineClassFactoryEx interface [Media Foundation], IMFMediaEngineClassFactoryEx interface [Media Foundation],described, mf.imfmediaengineclassfactoryex, mfmediaengine/IMFMediaEngineClassFactoryEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

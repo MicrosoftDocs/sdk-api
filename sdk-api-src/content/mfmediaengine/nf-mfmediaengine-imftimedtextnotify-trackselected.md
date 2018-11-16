@@ -7,7 +7,7 @@ old-location: mf\imftimedtextnotify_trackselected.htm
 tech.root: medfound
 ms.assetid: C4757863-3D92-4D49-A2CA-8AD7C65461E6
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackSelected method, IMFTimedTextNotify.TrackSelected, IMFTimedTextNotify::TrackSelected, TrackSelected, TrackSelected method [Media Foundation], TrackSelected method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_trackselected, mfmediaengine/IMFTimedTextNotify::TrackSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,19 +66,7 @@ Called when a track is selected or deselected.
 
 
 
-### -param trackId
-
-TBD
-
-
-### -param selected
-
-TBD
-
-
-
-
-#### - dwTrackId [in]
+### -param trackId [in]
 
 Type: <b>DWORD</b>
 
@@ -87,7 +75,7 @@ The identifier of the track that was selected or deselected.
 
 
 
-#### - fSelected [in]
+### -param selected [in]
 
 Type: <b>BOOL</b>
 

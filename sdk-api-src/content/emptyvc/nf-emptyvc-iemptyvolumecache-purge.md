@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecache_purge.htm
 tech.root: lwef
 ms.assetid: c42430da-9d6a-42e9-bc4f-325d986c7c48
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/15/2018
 ms.keywords: IEmptyVolumeCache interface [Legacy Windows Environment Features],Purge method, IEmptyVolumeCache.Purge, IEmptyVolumeCache::Purge, Purge, Purge method [Legacy Windows Environment Features], Purge method [Legacy Windows Environment Features],IEmptyVolumeCache interface, _win32_IEmptyVolumeCache_Purge, emptyvc/IEmptyVolumeCache::Purge, lwef.iemptyvolumecache_purge, shell.iemptyvolumecache_purge
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Notifies the handler to start deleting its unneeded files.
 
 
 
-### -param dwlSpaceToFree
+### -param dwlSpaceToFree [in]
 
-TBD
+Type: <b>DWORDLONG</b>
+
+The amount of disk space that the handler should free. If this parameter is set to -1, the handler should delete all its files. 
 
 
 ### -param picb [in]
@@ -76,13 +78,6 @@ TBD
 Type: <b>IEmptyVolumeCacheCallback*</b>
 
 A pointer to the disk cleanup manager's <a href="https://msdn.microsoft.com/d6775458-3b39-4ee8-90f9-d8a749bd1800">IEmptyVolumeCacheCallBack</a> interface. This pointer can be used to call the interface's <a href="https://msdn.microsoft.com/96b97919-9b3b-418e-a76a-a2e8aad453b9">PurgeProgress</a> method to report on the progress of the operation. 
-
-
-#### - dwSpaceToFree [in]
-
-Type: <b>DWORDLONG</b>
-
-The amount of disk space that the handler should free. If this parameter is set to -1, the handler should delete all its files. 
 
 
 ## -returns

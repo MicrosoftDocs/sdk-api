@@ -4,10 +4,10 @@ title: ISCTE_EAS::GetAlertText
 author: windows-sdk-content
 description: The GetAlertText method gets the alert text for a specified ISO 639 language code.
 old-location: mstv\iscte_eas_getalerttext.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4bef1a14-b0f6-40a0-bac0-1d6c00c120e5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetAlertText, GetAlertText method [Microsoft TV Technologies], GetAlertText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetAlertText method, ISCTE_EAS.GetAlertText, ISCTE_EAS::GetAlertText, ISCTE_EASGetAlertText, atscpsipparser/ISCTE_EAS::GetAlertText, mstv.iscte_eas_getalerttext
 ms.prod: windows-hardware
 ms.technology: windows-devices

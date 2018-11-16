@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11texture2d.htm
 tech.root: direct3d11
 ms.assetid: 49cd6e21-6cb1-45ea-b83a-3c93f0560915
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 92f1d183-b220-944f-113a-e7696cd05d2f, ID3D11Texture2D, ID3D11Texture2D interface [Direct3D 11], ID3D11Texture2D interface [Direct3D 11],described, d3d11/ID3D11Texture2D, direct3d11.id3d11texture2d
 ms.prod: windows-hardware
 ms.technology: windows-devices

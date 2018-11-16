@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_GetBounds_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getbounds_74rect.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],RectF class, RectF class [GDI+],GetBounds method, RectF.GetBounds, RectF::GetBounds, _gdiplus_CLASS_RectF_GetBounds_rect_, gdiplus._gdiplus_CLASS_RectF_GetBounds_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxenumjobs.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6fhv.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: FaxEnumJobs, FaxEnumJobs function [Fax Service], FaxEnumJobsA, FaxEnumJobsW, _mfax_faxenumjobs, fax._mfax_faxenumjobs, winfax/FaxEnumJobs, winfax/FaxEnumJobsA, winfax/FaxEnumJobsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITSubStream::PauseSubStream
 author: windows-sdk-content
 description: The PauseSubStream method pauses the substream.
 old-location: tapi3\itsubstream_pausesubstream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 77bd3726-3996-45a6-88be-cb033f5dddc0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],PauseSubStream method, ITSubStream.PauseSubStream, ITSubStream::PauseSubStream, PauseSubStream, PauseSubStream method [TAPI 2.2], PauseSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_pausesubstream, tapi3.itsubstream_pausesubstream, tapi3if/ITSubStream::PauseSubStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

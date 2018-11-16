@@ -7,7 +7,7 @@ old-location: cos\ieventobjectchange_changedeventclass.htm
 tech.root: cossdk
 ms.assetid: 8db711c8-7c01-4fb0-975c-a66c83063124
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ChangedEventClass, ChangedEventClass method [COM+], ChangedEventClass method [COM+],IEventObjectChange interface, IEventObjectChange interface [COM+],ChangedEventClass method, IEventObjectChange.ChangedEventClass, IEventObjectChange::ChangedEventClass, _cos_IEventObjectChange_ChangedEventClass, cos.ieventobjectchange_changedeventclass, eventsys/IEventObjectChange::ChangedEventClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

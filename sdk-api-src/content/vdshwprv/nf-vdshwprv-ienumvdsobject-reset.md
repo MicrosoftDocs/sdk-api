@@ -7,7 +7,7 @@ old-location: base\ienumvdsobject_reset.htm
 tech.root: VDS
 ms.assetid: cdc13cd3-bd6f-422e-89fe-244e7a7540bd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumVdsObject interface [VDS],Reset method, IEnumVdsObject.Reset, IEnumVdsObject::Reset, Reset, Reset method [VDS], Reset method [VDS],IEnumVdsObject interface, base.ienumvdsobject_reset, vds/IEnumVdsObject::Reset, vdshwprv/IEnumVdsObject::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

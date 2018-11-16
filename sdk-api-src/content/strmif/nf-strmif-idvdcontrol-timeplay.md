@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_timeplay.htm
 tech.root: DirectShow
 ms.assetid: 56b4b086-e315-486c-8dbd-97960f5b76d1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IDvdControl interface [DirectShow],TimePlay method, IDvdControl.TimePlay, IDvdControl::TimePlay, IDvdControlTimePlay, TimePlay, TimePlay method [DirectShow], TimePlay method [DirectShow],IDvdControl interface, dshow.idvdcontrol_timeplay, strmif/IDvdControl::TimePlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,17 +73,12 @@ Plays the media file with the specified title index, starting at the specified t
 
 ### -param ulTitle
 
-TBD
+Value that specifies the title number DirectShow will play back; this value must be from 1 through 99.
 
 
 ### -param bcdTime
 
 Pointer to the <a href="https://msdn.microsoft.com/7ad0b11e-5bb7-426f-9a2c-fbc34b2f45b4">DVD_TIMECODE</a> structure where DirectShow will start playback.
-
-
-#### - uiTitle
-
-Value that specifies the title number DirectShow will play back; this value must be from 1 through 99.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mf\ievrtrustedvideoplugin.htm
 tech.root: medfound
 ms.assetid: 1dcaa01c-2596-4a22-9e2a-7f0e26d58ffe
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: 1dcaa01c-2596-4a22-9e2a-7f0e26d58ffe, IEVRTrustedVideoPlugin, IEVRTrustedVideoPlugin interface [Media Foundation], IEVRTrustedVideoPlugin interface [Media Foundation],described, evr/IEVRTrustedVideoPlugin, mf.ievrtrustedvideoplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

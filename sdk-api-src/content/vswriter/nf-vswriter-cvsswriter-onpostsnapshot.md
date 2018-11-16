@@ -7,7 +7,7 @@ old-location: base\cvsswriter_onpostsnapshot.htm
 tech.root: VSS
 ms.assetid: d97d4246-882e-49c3-a214-d8d3887c1508
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CVssWriter class [VSS],OnPostSnapshot method, CVssWriter.OnPostSnapshot, CVssWriter::OnPostSnapshot, OnPostSnapshot, OnPostSnapshot method [VSS], OnPostSnapshot method [VSS],CVssWriter class, _win32_cvsswriter_onpostsnapshot, base.cvsswriter_onpostsnapshot, vswriter/CVssWriter::OnPostSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices

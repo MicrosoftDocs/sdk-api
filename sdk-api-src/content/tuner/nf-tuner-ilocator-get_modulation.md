@@ -4,10 +4,10 @@ title: ILocator::get_Modulation
 author: windows-sdk-content
 description: The get_Modulation method gets the modulation type.
 old-location: mstv\ilocator_get_modulation.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 6aca60fa-ea8d-440d-a037-20537c25a105
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],get_Modulation method, ILocator.get_Modulation, ILocator::get_Modulation, ILocatorget_Modulation, get_Modulation, get_Modulation method [Microsoft TV Technologies], get_Modulation method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_modulation, tuner/ILocator::get_Modulation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_Modulation</b> method gets the modulation type.
 
 
 
-### -param Modulation
-
-TBD
-
-
-
-
-#### - pModulation [out]
+### -param Modulation [out]
 
 Receives the modulation type, as a member of the <a href="https://msdn.microsoft.com/fd8691d3-a862-4294-8b0b-9723a080d722">ModulationType</a> enumeration.
 

@@ -7,7 +7,7 @@ old-location: dshow\iamcameracontrol_getrange.htm
 tech.root: DirectShow
 ms.assetid: f09090ea-d916-47cd-8621-e8c2bb46aeca
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetRange, GetRange method [DirectShow], GetRange method [DirectShow],IAMCameraControl interface, IAMCameraControl interface [DirectShow],GetRange method, IAMCameraControl.GetRange, IAMCameraControl::GetRange, IAMCameraControlGetRange, dshow.iamcameracontrol_getrange, strmif/IAMCameraControl::GetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,9 +70,10 @@ The <b>GetRange</b> method gets the range and default value of a specified camer
 
 
 
-### -param Property
+### -param Property [in]
 
-TBD
+Specifies the property to query, as a value from the <a href="https://msdn.microsoft.com/eebf2246-960f-48ea-86b7-7542e69f2e3e">CameraControlProperty</a> enumeration.
+          
 
 
 ### -param pMin [out]
@@ -102,12 +103,6 @@ Receives the default value of the property.
 ### -param pCapsFlags [out]
 
 Receives a member of the <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a> enumeration, indicating whether the property is controlled automatically or manually.
-          
-
-
-#### - property [in]
-
-Specifies the property to query, as a value from the <a href="https://msdn.microsoft.com/eebf2246-960f-48ea-86b7-7542e69f2e3e">CameraControlProperty</a> enumeration.
           
 
 

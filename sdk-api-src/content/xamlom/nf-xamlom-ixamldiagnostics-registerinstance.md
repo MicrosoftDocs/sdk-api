@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ixamldiagnostics_registerinstance.htm
 tech.root: xaml_diagnostics
 ms.assetid: B1BD13CE-6B20-45D0-83E2-AB7E15BDA6FC
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IXamlDiagnostics interface,RegisterInstance method, IXamlDiagnostics.RegisterInstance, IXamlDiagnostics::RegisterInstance, RegisterInstance, RegisterInstance method, RegisterInstance method,IXamlDiagnostics interface, xaml_diagnostics.ixamldiagnostics_registerinstance, xamlom/IXamlDiagnostics::RegisterInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ Adds an <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C
 An instance of the object.
 
 
-### -param pInstanceHandle
-
-TBD
-
-
-
-
-#### - *pInstanceHandle [out, retval]
+### -param pInstanceHandle [out, retval]
 
 A handle to the object.
 

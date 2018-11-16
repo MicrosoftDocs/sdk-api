@@ -4,10 +4,10 @@ title: "_TRUSTED_POSIX_OFFSET_INFO"
 author: windows-sdk-content
 description: Used to query or set the value used to generate Posix user and group identifiers.
 old-location: security\trusted_posix_offset_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 0686da5e-43d4-49ac-8c5d-5c56b8d12e50
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PTRUSTED_POSIX_OFFSET_INFO, PTRUSTED_POSIX_OFFSET_INFO, PTRUSTED_POSIX_OFFSET_INFO structure pointer [Security], TRUSTED_POSIX_OFFSET_INFO, TRUSTED_POSIX_OFFSET_INFO structure [Security], _TRUSTED_POSIX_OFFSET_INFO, _lsa_trusted_posix_offset_info, ntsecapi/PTRUSTED_POSIX_OFFSET_INFO, ntsecapi/TRUSTED_POSIX_OFFSET_INFO, security.trusted_posix_offset_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

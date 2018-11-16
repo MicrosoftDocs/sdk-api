@@ -4,10 +4,10 @@ title: ISBE2MediaTypeProfile::DeleteStream
 author: windows-sdk-content
 description: Removes a stream from a media type profile.
 old-location: mstv\isbe2mediatypeprofile_deletestream.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 83e8b802-d28f-4130-addf-772682ac327f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DeleteStream, DeleteStream method [Microsoft TV Technologies], DeleteStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],DeleteStream method, ISBE2MediaTypeProfile.DeleteStream, ISBE2MediaTypeProfile::DeleteStream, mstv.isbe2mediatypeprofile_deletestream, sbe/ISBE2MediaTypeProfile::DeleteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

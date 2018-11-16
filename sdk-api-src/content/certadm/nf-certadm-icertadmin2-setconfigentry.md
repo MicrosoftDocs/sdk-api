@@ -4,10 +4,10 @@ title: ICertAdmin2::SetConfigEntry
 author: windows-sdk-content
 description: Sets configuration information for a certification authority (CA).
 old-location: security\icertadmin2_setconfigentry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6ed1dd69-3553-4dcc-a98a-1954013082cd
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ICertAdmin2 interface [Security],SetConfigEntry method, ICertAdmin2.SetConfigEntry, ICertAdmin2::SetConfigEntry, SetConfigEntry, SetConfigEntry method [Security], SetConfigEntry method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetConfigEntry, security.icertadmin2_setconfigentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,14 +84,7 @@ String value that represents the node path for the configuration information. Th
 String value that represents the name of the entry whose information is being set. This value can be an empty string, in which case the default entry  is the entry being set. This parameter cannot be <b>NULL</b>.
 
 
-### -param pvarEntry
-
-TBD
-
-
-
-
-#### - varEntry [in]
+### -param pvarEntry [in]
 
 <table>
 <tr>

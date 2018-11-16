@@ -4,10 +4,10 @@ title: "_MI_HostedProvider"
 author: windows-sdk-content
 description: Represents the hosting of a provider in a client application.
 old-location: wmi_v2\mi_hostedprovider.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: e63283b4-82eb-4bf4-a2f8-f7db29ccb6da
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_HostedProvider, MI_HostedProvider structure [Windows Management Infrastructure (MI)], _MI_HostedProvider, mi/MI_HostedProvider, wmi_v2.mi_hostedprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

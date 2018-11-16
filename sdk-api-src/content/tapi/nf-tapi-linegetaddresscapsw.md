@@ -4,10 +4,10 @@ title: lineGetAddressCapsW function
 author: windows-sdk-content
 description: The lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities.
 old-location: tapi2\linegetaddresscaps.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 08cdea8a-5b36-428c-b90f-8741ae5f3205
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "_tapi2_linegetaddresscaps, lineGetAddressCaps, lineGetAddressCaps function [TAPI 2.2], lineGetAddressCapsA, lineGetAddressCapsW, tapi/lineGetAddressCaps, tapi/lineGetAddressCapsA, tapi/lineGetAddressCapsW, tapi2.linegetaddresscaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

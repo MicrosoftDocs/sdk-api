@@ -7,7 +7,7 @@ old-location: base\ivdslun_shrink.htm
 tech.root: VDS
 ms.assetid: a02f7741-c17a-48f3-a823-292613aa287b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsLun interface [VDS],Shrink method, IVdsLun.Shrink, IVdsLun::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsLun interface, base.ivdslun_shrink, vds/IVdsLun::Shrink, vdshwprv/IVdsLun::Shrink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,21 +70,16 @@ Shrinks a LUN by a specified
 
 
 
-### -param ullNumberOfBytesToRemove
+### -param ullNumberOfBytesToRemove [in]
 
-TBD
+The number of bytes by which to shrink the LUN. The number of bytes is not required to be an even multiple 
+      of the block or sector size.
 
 
 ### -param ppAsync [out]
 
 The address of an <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c32b67e5af93">IVdsAsync</a> interface pointer. 
       Callers must release the interface. Use this interface to cancel, wait for, or query the status of the operation.
-
-
-#### - uNumberOfBytesToRemove [in]
-
-The number of bytes by which to shrink the LUN. The number of bytes is not required to be an even multiple 
-      of the block or sector size.
 
 
 ## -returns

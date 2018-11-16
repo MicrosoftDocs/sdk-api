@@ -7,7 +7,7 @@ old-location: taskschd\itasknamedvaluecollection.htm
 tech.root: TaskSchd
 ms.assetid: 440dc70b-02de-4974-ad2a-462491d12775
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITaskNamedValueCollection, ITaskNamedValueCollection interface [Task Scheduler], ITaskNamedValueCollection interface [Task Scheduler],described, taskschd.itasknamedvaluecollection, taskschd/ITaskNamedValueCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

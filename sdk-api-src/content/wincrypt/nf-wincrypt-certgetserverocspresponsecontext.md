@@ -4,10 +4,10 @@ title: CertGetServerOcspResponseContext function
 author: windows-sdk-content
 description: Retrieves a non-blocking, time valid online certificate status protocol (OCSP) response context for the specified handle.
 old-location: security\certgetserverocspresponsecontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 07476e43-db6b-4119-8d6b-41143b98744e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CertGetServerOcspResponseContext, CertGetServerOcspResponseContext function [Security], security.certgetserverocspresponsecontext, wincrypt/CertGetServerOcspResponseContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ad\cqpageproc.htm
 tech.root: ad
 ms.assetid: 11d40439-0877-4870-80f8-88026c448a32
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: CQPageProc, CQPageProc callback, CQPageProc callback function [Active Directory], LPCQPAGEPROC, LPCQPAGEPROC callback function pointer [Active Directory], ad.cqpageproc, cmnquery/CQPageProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

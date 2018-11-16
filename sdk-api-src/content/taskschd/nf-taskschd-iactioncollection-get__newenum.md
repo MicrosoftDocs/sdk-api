@@ -7,7 +7,7 @@ old-location: taskschd\iactioncollection__newenum.htm
 tech.root: TaskSchd
 ms.assetid: 09d8924e-5153-4911-9662-93f71e39e583
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IActionCollection interface [Task Scheduler],_NewEnum property, IActionCollection._NewEnum, IActionCollection.get__NewEnum, IActionCollection::_NewEnum, IActionCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],IActionCollection interface, get__NewEnum, taskschd.iactioncollection__newenum, taskschd/IActionCollection::_NewEnum, taskschd/IActionCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

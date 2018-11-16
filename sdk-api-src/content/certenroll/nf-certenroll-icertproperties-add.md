@@ -7,7 +7,7 @@ old-location: security\icertproperties_add_method.htm
 tech.root: SecCertEnroll
 ms.assetid: 53ea895d-0c41-445e-bfcc-2b2e53e10ff8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertProperties interface, ICertProperties interface [Security],Add method, ICertProperties.Add, ICertProperties::Add, certenroll/ICertProperties::Add, security.icertproperties_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>Add</b> method adds a property to the collection. This method is web enab
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - pValue [in]
+### -param pVal [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a> interface that represents the property to add to the collection.
 

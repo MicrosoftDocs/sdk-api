@@ -4,10 +4,10 @@ title: CLUSPROP_LONG
 author: windows-sdk-content
 description: Describes signed LONG data.
 old-location: mscs\clusprop_long.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: aa214e43-cadc-4f06-8c98-e6a5b13258b8
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCLUSPROP_LONG, CLUSPROP_LONG, CLUSPROP_LONG structure [Failover Cluster], PCLUSPROP_LONG, PCLUSPROP_LONG structure pointer [Failover Cluster], _wolf_clusprop_long, clusapi/CLUSPROP_LONG, clusapi/PCLUSPROP_LONG, mscs.clusprop_long"
 ms.prod: windows-hardware
 ms.technology: windows-devices

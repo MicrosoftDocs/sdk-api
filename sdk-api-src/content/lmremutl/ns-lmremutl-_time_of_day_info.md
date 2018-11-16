@@ -7,7 +7,7 @@ old-location: netmgmt\time_of_day_info_str.htm
 tech.root: NetMgmt
 ms.assetid: bf89f071-5c04-40c2-a7b7-4e59fc9eaa02
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPTIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, LPTIME_OF_DAY_INFO, LPTIME_OF_DAY_INFO structure pointer [Network Management], PTIME_OF_DAY_INFO, PTIME_OF_DAY_INFO structure pointer [Network Management], TIME_OF_DAY_INFO, TIME_OF_DAY_INFO structure [Network Management], _TIME_OF_DAY_INFO, _win32_time_of_day_info_str, lmremutl/LPTIME_OF_DAY_INFO, lmremutl/PTIME_OF_DAY_INFO, lmremutl/TIME_OF_DAY_INFO, netmgmt.time_of_day_info_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

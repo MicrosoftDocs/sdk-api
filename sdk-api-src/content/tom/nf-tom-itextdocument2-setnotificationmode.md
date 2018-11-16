@@ -4,10 +4,10 @@ title: ITextDocument2::SetNotificationMode
 author: windows-sdk-content
 description: Sets the notification mode.
 old-location: controls\itextdocument2_setnotificationmode.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: b3dd9895-9fdd-4919-9e3a-382bb130f4b9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetNotificationMode method, ITextDocument2.SetNotificationMode, ITextDocument2::SetNotificationMode, SetNotificationMode, SetNotificationMode method [Windows Controls], SetNotificationMode method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setnotificationmode, tom/ITextDocument2::SetNotificationMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

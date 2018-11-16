@@ -7,7 +7,7 @@ old-location: display\dd_colorcontroldata.htm
 tech.root: display
 ms.assetid: 7c983faa-de9d-4a04-ac8d-d37fb182a662
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PDD_COLORCONTROLDATA, DD_COLORCONTROLDATA, DD_COLORCONTROLDATA structure [Display Devices], _DD_COLORCONTROLDATA, ddrawint/DD_COLORCONTROLDATA, ddstrcts_5bc6386d-437a-4fa7-b9ac-def03150b340.xml, display.dd_colorcontroldata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

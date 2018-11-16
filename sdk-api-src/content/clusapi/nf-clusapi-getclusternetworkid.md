@@ -4,10 +4,10 @@ title: GetClusterNetworkId function
 author: windows-sdk-content
 description: Returns the identifier of a network.
 old-location: mscs\getclusternetworkid.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 25091883-12fa-41b6-9ac0-70bc22db3f05
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetClusterNetworkId, GetClusterNetworkId function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NETWORK_ID, PCLUSAPI_GET_CLUSTER_NETWORK_ID function [Failover Cluster], _wolf_getclusternetworkid, clusapi/GetClusterNetworkId, clusapi/PCLUSAPI_GET_CLUSTER_NETWORK_ID, mscs.getclusternetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,6 +87,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is one of the possible values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by <i>lpszNetworkID</i> is not big enough to hold the result. The <i>lpcchNetworkID</i> parameter returns the number of characters in the result, excluding the terminating <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs7.htm
 tech.root: SecCertEnroll
 ms.assetid: ae869557-6523-4387-835e-c9631898d864
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509CertificateRequestPkcs7, IX509CertificateRequestPkcs7 interface [Security], IX509CertificateRequestPkcs7 interface [Security],described, certenroll/IX509CertificateRequestPkcs7, security.ix509certificaterequestpkcs7
 ms.prod: windows-hardware
 ms.technology: windows-devices

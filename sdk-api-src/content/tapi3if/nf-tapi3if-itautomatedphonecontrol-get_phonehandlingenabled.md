@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::get_PhoneHandlingEnabled
 author: windows-sdk-content
 description: The get_PhoneHandlingEnabled method retrieves the current value of the PhoneHandlingEnabled property.
 old-location: tapi3\itautomatedphonecontrol_get_phonehandlingenabled.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a6174caa-6045-4b82-9b13-11b86f8cf8a8
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_PhoneHandlingEnabled method, ITAutomatedPhoneControl.get_PhoneHandlingEnabled, ITAutomatedPhoneControl::get_PhoneHandlingEnabled, _tapi3_itautomatedphonecontrol_get_phonehandlingenabled, get_PhoneHandlingEnabled, get_PhoneHandlingEnabled method [TAPI 2.2], get_PhoneHandlingEnabled method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_phonehandlingenabled, tapi3if/ITAutomatedPhoneControl::get_PhoneHandlingEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

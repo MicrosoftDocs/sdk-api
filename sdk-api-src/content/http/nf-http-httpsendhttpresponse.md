@@ -7,7 +7,7 @@ old-location: http\httpsendhttpresponse.htm
 tech.root: Http
 ms.assetid: 0183584f-105e-4fa3-8991-d3f2dfca1d62
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: HTTP_SEND_RESPONSE_FLAG_BUFFER_DATA, HTTP_SEND_RESPONSE_FLAG_DISCONNECT, HTTP_SEND_RESPONSE_FLAG_ENABLE_NAGLING, HTTP_SEND_RESPONSE_FLAG_MORE_DATA, HTTP_SEND_RESPONSE_FLAG_OPAQUE, HTTP_SEND_RESPONSE_FLAG_PROCESS_RANGES, HttpSendHttpResponse, HttpSendHttpResponse function [HTTP], _http_httpsendhttpresponse, http.httpsendhttpresponse, http/HttpSendHttpResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -186,53 +186,41 @@ A pointer to an
 <a href="https://msdn.microsoft.com/F94646C0-7293-4543-842B-F08D8C7E2247">HTTP_RESPONSE</a> structure that defines the HTTP response.
 
 
-### -param CachePolicy
-
-TBD
-
-
-### -param BytesSent
-
-TBD
-
-
-### -param Reserved1 [out]
-
-Optional. A pointer to a variable that receives the number, in bytes, sent if the function operates synchronously.
-
-When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesSent</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesSent</i> must contain a valid memory address and not be set to <b>NULL</b>.
-
-
-### -param Reserved2 [in]
-
-This parameter is reserved and must be <b>NULL</b>.
-
-
-### -param Overlapped
-
-TBD
-
-
-### -param LogData
-
-TBD
-
-
-
-
-#### - Reserved3 [in]
-
-This parameter is reserved and must be zero.
-
-
-#### - pCachePolicy [in, optional]
+### -param CachePolicy [in, optional]
 
 A pointer to the <a href="https://msdn.microsoft.com/91fcbf35-ef8b-4f70-9c31-3f741c0e2f6e">HTTP_CACHE_POLICY</a> structure used to cache the response.
 
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>This parameter is reserved and must be <b>NULL</b>.
 
 
-#### - pLogData [in, optional]
+### -param BytesSent [out]
+
+Optional. A pointer to a variable that receives the number, in bytes, sent if the function operates synchronously.
+
+When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesSent</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesSent</i> must contain a valid memory address and not be set to <b>NULL</b>.
+
+
+### -param Reserved1 [in]
+
+This parameter is reserved and must be <b>NULL</b>.
+
+
+### -param Reserved2 [in]
+
+This parameter is reserved and must be zero.
+
+
+### -param Overlapped [in]
+
+For asynchronous calls, set <i>pOverlapped</i> to point to an 
+<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure; for synchronous calls, set  to <b>NULL</b>.
+
+A synchronous call blocks until all response data specified in the <i>pHttpResponse</i> parameter is sent, whereas an asynchronous call immediately returns <b>ERROR_IO_PENDING</b> and the calling application then uses 
+<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
+<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structures for synchronization, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
+
+
+### -param LogData [in, optional]
 
 A pointer to the  <a href="https://msdn.microsoft.com/31598e37-d487-4ef0-9443-e704cc60a6b2">HTTP_LOG_DATA</a> structure used to log the response. Pass a pointer to the <a href="https://msdn.microsoft.com/5d1b86fe-161d-4182-b3fe-9a03a843e62e">HTTP_LOG_FIELDS_DATA</a> structure and cast it to <b>PHTTP_LOG_DATA</b>.
 
@@ -241,16 +229,6 @@ Be aware that even when logging is enabled on a URL Group, or server session, th
 <b>Windows Server 2003 and Windows XP with SP2:  </b>This parameter is reserved and must be <b>NULL</b>.
 
 <b>Windows Vista and Windows Server 2008:  </b>This parameter is new for Windows Vista, and Windows Server 2008
-
-
-#### - pOverlapped [in]
-
-For asynchronous calls, set <i>pOverlapped</i> to point to an 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure; for synchronous calls, set  to <b>NULL</b>.
-
-A synchronous call blocks until all response data specified in the <i>pHttpResponse</i> parameter is sent, whereas an asynchronous call immediately returns <b>ERROR_IO_PENDING</b> and the calling application then uses 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structures for synchronization, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
 
 
 ## -returns

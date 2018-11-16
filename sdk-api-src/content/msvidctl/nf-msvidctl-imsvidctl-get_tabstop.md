@@ -4,10 +4,10 @@ title: IMSVidCtl::get_TabStop
 author: windows-sdk-content
 description: The get_TabStop method queries whether a user can use the TAB key to give the focus to the Video Control.
 old-location: mstv\imsvidctl_get_tabstop.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 9579144d-22b6-4d97-a52c-0d8bbc9066e4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_TabStop method, IMSVidCtl.get_TabStop, IMSVidCtl::get_TabStop, IMSVidCtlget_TabStop, get_TabStop, get_TabStop method [Microsoft TV Technologies], get_TabStop method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_tabstop, msvidctl/IMSVidCtl::get_TabStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

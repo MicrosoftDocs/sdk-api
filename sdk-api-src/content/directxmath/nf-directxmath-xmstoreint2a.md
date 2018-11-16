@@ -7,7 +7,7 @@ old-location: dxmath\xmstoreint2a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt2A(VOID@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMStoreInt2A, XMStoreInt2A, XMStoreInt2A method [DirectX Math Support APIs], dxmath.xmstoreint2a
 ms.prod: windows-hardware
 ms.technology: windows-devices

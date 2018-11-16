@@ -7,7 +7,7 @@ old-location: security\ix509extensionmsapplicationpolicies_initializeencode_meth
 tech.root: SecCertEnroll
 ms.assetid: 2b79c295-5260-4708-9a20-2ac41052a171
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies interface [Security],InitializeEncode method, IX509ExtensionMSApplicationPolicies.InitializeEncode, IX509ExtensionMSApplicationPolicies::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionMSApplicationPolicies interface, certenroll/IX509ExtensionMSApplicationPolicies::InitializeEncode, security.ix509extensionmsapplicationpolicies_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

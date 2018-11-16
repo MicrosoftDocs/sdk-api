@@ -7,7 +7,7 @@ old-location: display\engmarkbandingsurface.htm
 tech.root: display
 ms.assetid: 0ee3d697-42aa-4117-9d85-63472e4a042f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EngMarkBandingSurface, EngMarkBandingSurface function [Display Devices], display.engmarkbandingsurface, gdifncs_b597b27e-e521-40ec-a16f-7961b64dead2.xml, winddi/EngMarkBandingSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

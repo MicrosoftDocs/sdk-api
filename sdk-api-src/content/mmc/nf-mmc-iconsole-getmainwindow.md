@@ -4,10 +4,10 @@ title: IConsole::GetMainWindow
 author: windows-sdk-content
 description: Retrieves a handle to the main frame window.
 old-location: mmc\iconsole_getmainwindow.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: C861307B-38DD-4FC0-A790-59E26AB6F7AD
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetMainWindow, GetMainWindow method [MMC], GetMainWindow method [MMC],IConsole interface, IConsole interface [MMC],GetMainWindow method, IConsole.GetMainWindow, IConsole::GetMainWindow, mmc.iconsole_getmainwindow, mmc/IConsole::GetMainWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

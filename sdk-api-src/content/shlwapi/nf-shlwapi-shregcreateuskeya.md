@@ -7,7 +7,7 @@ old-location: shell\SHRegCreateUSKey.htm
 tech.root: shell
 ms.assetid: 10e3e31e-bff6-4260-95fa-2d750de16ab3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSET_HKCU, SHREGSET_HKLM, SHRegCreateUSKey, SHRegCreateUSKey function [Windows Shell], SHRegCreateUSKeyA, SHRegCreateUSKeyW, _win32_SHRegCreateUSKey, shell.SHRegCreateUSKey, shlwapi/SHRegCreateUSKey, shlwapi/SHRegCreateUSKeyA, shlwapi/SHRegCreateUSKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,11 @@ Creates or opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER
 
 
 
-### -param pszPath
+### -param pszPath [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string that contains the subkey to be created or opened. If a value with this name is already present in the subkey, it will be opened.
 
 
 ### -param samDesired [in]
@@ -129,13 +131,6 @@ Create/open the key under <b>HKEY_LOCAL_MACHINE</b>. Creates a key even if it is
 #### SHREGSET_DEFAULT
 
 Create/open the key under both <b>HKEY_CURRENT_USER</b> (forced) and <b>HKEY_LOCAL_MACHINE</b> (only if empty). This flag is the equivalent of (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
-
-
-#### - pwzPath [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string that contains the subkey to be created or opened. If a value with this name is already present in the subkey, it will be opened.
 
 
 ## -returns

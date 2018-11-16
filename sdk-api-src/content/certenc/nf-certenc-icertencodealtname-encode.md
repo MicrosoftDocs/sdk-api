@@ -4,10 +4,10 @@ title: ICertEncodeAltName::Encode
 author: windows-sdk-content
 description: Returns an ASN.1-encoded string of the alternate name array stored in this object. The names in the object are not encoded.
 old-location: security\icertencodealtname_encode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 34136053-1c25-4f6b-8bd6-699fffb6670b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CCertEncodeAltName object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeAltName object, Encode method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],Encode method, ICertEncodeAltName.Encode, ICertEncodeAltName::Encode, _certsrv_icertencodealtname_encode, certenc/ICertEncodeAltName::Encode, security.icertencodealtname_encode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,7 @@ Before using this method, you must call both the
 
 
 
-### -param pstrBinary
-
-TBD
-
-
-
-
-#### - pbstrBinary [out]
+### -param pstrBinary [out]
 
 A pointer to a <b>BSTR</b> that receives the ASN.1-encoded alternate name extension. When done, call <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free <i>pbstrBinary</i>.
 

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_command_queue_priority.htm
 tech.root: direct3d12
 ms.assetid: 70DB58DB-7EE0-4E5C-8B24-22DA9347A80F
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY, D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY structure, d3d12/D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY, direct3d12.d3d12_feature_data_command_queue_priority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,6 +96,10 @@ See the enumeration constant <b>D3D12_FEATURE_COMMAND_QUEUE_PRIORITY</b> in the 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/Dn770363(v=VS.85).aspx">D3D12_FEATURE</a>
  
 
  

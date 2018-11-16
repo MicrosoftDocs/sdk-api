@@ -4,10 +4,10 @@ title: MI_Context_ConstructInstance function
 author: windows-sdk-content
 description: Initializes an MI class instance on the stack or as a member of a structure.
 old-location: wmi_v2\mi_context_constructinstance.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: c1b90938-401a-4fae-99de-9954d02b892e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Context_ConstructInstance, MI_Context_ConstructInstance function [Windows Management Infrastructure (MI)], mi/MI_Context_ConstructInstance, wmi.mi_constructinstance, wmi_v2.mi_context_constructinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

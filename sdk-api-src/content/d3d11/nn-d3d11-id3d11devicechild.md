@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicechild.htm
 tech.root: direct3d11
 ms.assetid: bed17239-0358-4768-8655-9a1d92f25a2e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11DeviceChild, ID3D11DeviceChild interface [Direct3D 11], ID3D11DeviceChild interface [Direct3D 11],described, d3d11/ID3D11DeviceChild, direct3d11.id3d11devicechild, ea2a7e4d-06b6-a8d0-51ff-52cc4806e595
 ms.prod: windows-hardware
 ms.technology: windows-devices

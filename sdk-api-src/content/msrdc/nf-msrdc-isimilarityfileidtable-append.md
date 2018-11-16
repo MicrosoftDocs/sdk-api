@@ -7,7 +7,7 @@ old-location: rdc\isimilarityfileidtable_append.htm
 tech.root: Rdc
 ms.assetid: 2157d6e6-0d60-45a2-9f5c-4096088cb2bb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Append, Append method [Remote Differential Compression], Append method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],Append method, ISimilarityFileIdTable.Append, ISimilarityFileIdTable::Append, fs.isimilarityfileidtable_append, msrdc/ISimilarityFileIdTable::Append, rdc.isimilarityfileidtable_append
 ms.prod: windows-hardware
 ms.technology: windows-devices

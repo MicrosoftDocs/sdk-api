@@ -7,7 +7,7 @@ old-location: taskschd\itaskscheduler_gettargetcomputer.htm
 tech.root: TaskSchd
 ms.assetid: c421a739-3290-4698-88e6-5c746baf903d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetTargetComputer, GetTargetComputer method [Task Scheduler], GetTargetComputer method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],GetTargetComputer method, ITaskScheduler.GetTargetComputer, ITaskScheduler::GetTargetComputer, _msb_itaskscheduler_gettargetcomputer, mstask/ITaskScheduler::GetTargetComputer, taskschd.itaskscheduler_gettargetcomputer
 ms.prod: windows-hardware
 ms.technology: windows-devices

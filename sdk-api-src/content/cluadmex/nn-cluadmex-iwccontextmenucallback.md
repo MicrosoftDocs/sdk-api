@@ -4,10 +4,10 @@ title: IWCContextMenuCallback
 author: windows-sdk-content
 description: The IWCContextMenuCallback interface is called by a Failover Cluster Administrator extension to add items to a Failover Cluster Administrator context menu.
 old-location: mscs\iwccontextmenucallback.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 50dbb062-100a-40af-8e52-7bd4574334f4
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: IWCContextMenuCallback, IWCContextMenuCallback interface [Failover Cluster], IWCContextMenuCallback interface [Failover Cluster],described, _wolf_iwccontextmenucallback, cluadmex/IWCContextMenuCallback, mscs.iwccontextmenucallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

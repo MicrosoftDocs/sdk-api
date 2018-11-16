@@ -4,10 +4,10 @@ title: EvictClusterNodeEx function
 author: windows-sdk-content
 description: Evicts a node from the cluster and initiates cleanup operations on the node.
 old-location: mscs\evictclusternodeex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7f7ba010-265e-40d5-a429-a776d164fa07
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: EvictClusterNodeEx, EvictClusterNodeEx function [Failover Cluster], PCLUSAPI_EVICT_CLUSTER_NODE_EX, PCLUSAPI_EVICT_CLUSTER_NODE_EX function [Failover Cluster], _wolf_evictclusternodeex, clusapi/EvictClusterNodeEx, clusapi/PCLUSAPI_EVICT_CLUSTER_NODE_EX, mscs.evictclusternodeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,6 +90,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>, including the following value.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_CLUSTER_EVICT_WITHOUT_CLEANUP</b></dt>
+</dl>
+</td>
+<td width="60%">
+The node was evicted but the cleanup operation returned a value other than S_OK.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

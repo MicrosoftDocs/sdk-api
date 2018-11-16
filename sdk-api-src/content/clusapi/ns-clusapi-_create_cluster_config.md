@@ -4,10 +4,10 @@ title: "_CREATE_CLUSTER_CONFIG"
 author: windows-sdk-content
 description: Defines the initial cluster configuration.
 old-location: mscs\create_cluster_config.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5fc90422-47e4-44da-a49f-66d4b7712f53
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG structure [Failover Cluster], PCREATE_CLUSTER_CONFIG, PCREATE_CLUSTER_CONFIG structure pointer [Failover Cluster], _CREATE_CLUSTER_CONFIG, clusapi/CREATE_CLUSTER_CONFIG, clusapi/PCREATE_CLUSTER_CONFIG, mscs.create_cluster_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices

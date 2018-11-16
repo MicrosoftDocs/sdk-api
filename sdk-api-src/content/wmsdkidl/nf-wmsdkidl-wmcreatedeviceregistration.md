@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatedeviceregistration.htm
 tech.root: wmformat
 ms.assetid: 0e318691-07dc-421b-951d-9e65e9160bb0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: WMCreateDeviceRegistration, WMCreateDeviceRegistration function [windows Media Format], wmformat.wmcreatedeviceregistration, wmsdkidl/WMCreateDeviceRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

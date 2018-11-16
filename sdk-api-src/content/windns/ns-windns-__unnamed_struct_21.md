@@ -7,7 +7,7 @@ old-location: dns\dns_nsec_data.htm
 tech.root: DNS
 ms.assetid: ea446732-bc6a-4597-b164-11bfd77c07f2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PDNS_NSEC_DATA, *PDNS_NSEC_DATAA, DNS_NSEC_DATA, DNS_NSEC_DATA structure [DNS], DNS_NSEC_DATAA, PDNS_NSEC_DATA, PDNS_NSEC_DATA structure pointer [DNS], dns.dns_nsec_data, windns/DNS_NSEC_DATA, windns/PDNS_NSEC_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

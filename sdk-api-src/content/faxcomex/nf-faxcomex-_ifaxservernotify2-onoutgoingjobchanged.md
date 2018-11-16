@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onoutgoingjobchanged.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingjobchanged.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutgoingJobChanged method, IFaxServerNotify2.OnOutgoingJobChanged, IFaxServerNotify2::OnOutgoingJobChanged, OnOutgoingJobChanged, OnOutgoingJobChanged method [Fax Service], OnOutgoingJobChanged method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutgoingJobChanged, _IFaxServerNotify2::OnOutgoingJobChanged, _mfax_ifaxservernotify2_onoutgoingjobchanged, fax._mfax_ifaxservernotify2_onoutgoingjobchanged, faxcomex/IFaxServerNotify2::OnOutgoingJobChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,9 @@ The fax service calls the <b>IFaxServerNotify2::OnOutgoingJobChanged</b> method 
 
 ### -param pFaxServer
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
+
+A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ### -param bstrJobId
@@ -84,13 +86,6 @@ Null-terminated string that contains the ID of the job for which the status has 
 Type: <b><a href="https://msdn.microsoft.com/38527d34-feab-4fae-90c6-45ff9bcfd15c">IFaxJobStatus</a>*</b>
 
 A <a href="https://msdn.microsoft.com/b4e2dc9e-6a32-4fc7-94fc-2132dedcec9e">FaxJobStatus</a> object.
-
-
-#### - pFaxServer2
-
-Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
-
-A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ## -returns

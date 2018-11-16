@@ -4,10 +4,10 @@ title: IPropertySheetProvider::FindPropertySheet
 author: windows-sdk-content
 description: Determines whether a specific property sheet exists.
 old-location: mmc\ipropertysheetprovider_findpropertysheet.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 14f3a2b7-9e14-4068-a85a-20c41d7e4a4d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: FindPropertySheet, FindPropertySheet method [MMC], FindPropertySheet method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],FindPropertySheet method, IPropertySheetProvider.FindPropertySheet, IPropertySheetProvider::FindPropertySheet, _slate_ipropertysheetprovider_findpropertysheet, mmc.ipropertysheetprovider_findpropertysheet, mmc/IPropertySheetProvider::FindPropertySheet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,8 @@ The <b>IPropertySheetProvider::FindPropertySheet</b> method determines whether a
 
 ### -param hItem
 
-TBD
+A handle to the selected item in the scope pane.
+
 
 
 ### -param lpComponent [in]
@@ -82,12 +83,6 @@ A pointer to the
 
 A pointer to the 
 <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the data object.
-
-
-#### - HSCOPEITEM
-
-A handle to the selected item in the scope pane.
-
 
 
 ## -returns

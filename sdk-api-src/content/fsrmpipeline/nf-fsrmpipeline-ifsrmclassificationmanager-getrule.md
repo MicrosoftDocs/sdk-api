@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager_getrule.htm
 tech.root: Fsrm
 ms.assetid: 2c21ed09-6c69-4f03-91bb-9beeb816ed62
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetRule method, GetRule, GetRule method [File Server Resource Manager], GetRule method [File Server Resource Manager],FsrmClassificationManager class, GetRule method [File Server Resource Manager],IFsrmClassificationManager interface, GetRule method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetRule method, IFsrmClassificationManager.GetRule, IFsrmClassificationManager2 interface [File Server Resource Manager],GetRule method, IFsrmClassificationManager2::GetRule, IFsrmClassificationManager::GetRule, fs.ifsrmclassificationmanager_getrule, fsrm.ifsrmclassificationmanager_getrule, fsrmpipeline/IFsrmClassificationManager2::GetRule, fsrmpipeline/IFsrmClassificationManager::GetRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,14 +85,7 @@ The type of the rule to retrieve. For possible types, see the
 <div class="alert"><b>Note</b>  The <b>FsrmRuleType_Generic</b> type is not supported by this method.</div>
 <div> </div>
 
-### -param Rule
-
-TBD
-
-
-
-
-#### - rule [out]
+### -param Rule [out]
 
 An <a href="https://msdn.microsoft.com/e1de871f-a2c9-4787-a3e8-8c3428e9249e">IFsrmRule</a> interface to  the retrieved rule. Query the 
       <b>IFsrmRule</b> interface to get the interface for the specified 

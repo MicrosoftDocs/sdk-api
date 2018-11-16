@@ -4,10 +4,10 @@ title: CLUSTER_NODE_RESUME_FAILBACK_TYPE
 author: windows-sdk-content
 description: Specifies the failback type to use when a cluster node in a paused state is resumed by the ResumeClusterNodeEx function.
 old-location: mscs\cluster_node_resume_failback_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 26A002F6-A933-450B-84FF-F2BC8B301B6B
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUSTER_NODE_RESUME_FAILBACK_TYPE, CLUSTER_NODE_RESUME_FAILBACK_TYPE enumeration [Failover Cluster], ClusterNodeResumeFailbackTypeCount, DoNotFailbackGroups, FailbackGroupsImmediately, FailbackGroupsPerPolicy, clusapi/CLUSTER_NODE_RESUME_FAILBACK_TYPE, clusapi/ClusterNodeResumeFailbackTypeCount, clusapi/DoNotFailbackGroups, clusapi/FailbackGroupsImmediately, clusapi/FailbackGroupsPerPolicy, mscs.cluster_node_resume_failback_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

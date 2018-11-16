@@ -4,10 +4,10 @@ title: IDVB_EIT2::GetRecordSection
 author: windows-sdk-content
 description: Gets the number of a section containing an event information table (EIT) record.
 old-location: mstv\idvb_eit2_getrecordsection.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 249c93f2-53d7-4110-9db3-34f3b0296b48
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetRecordSection, GetRecordSection method [Microsoft TV Technologies], GetRecordSection method [Microsoft TV Technologies],IDVB_EIT2 interface, IDVB_EIT2 interface [Microsoft TV Technologies],GetRecordSection method, IDVB_EIT2.GetRecordSection, IDVB_EIT2::GetRecordSection, dvbsiparser/IDVB_EIT2::GetRecordSection, mstv.idvb_eit2_getrecordsection
 ms.prod: windows-hardware
 ms.technology: windows-devices

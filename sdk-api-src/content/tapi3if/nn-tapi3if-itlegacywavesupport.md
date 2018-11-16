@@ -4,10 +4,10 @@ title: ITLegacyWaveSupport
 author: windows-sdk-content
 description: The ITLegacyWaveSupport interface allows an application to discover whether a terminal created by a legacy TSP (pre-TAPI 3) can be controlled using the Wave API.
 old-location: tapi3\itlegacywavesupport.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f1ef5f5d-822d-466d-997e-e9c1a09abcbe
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITLegacyWaveSupport, ITLegacyWaveSupport interface [TAPI 2.2], ITLegacyWaveSupport interface [TAPI 2.2],described, _tapi3_itlegacywavesupport, tapi3.itlegacywavesupport, tapi3if/ITLegacyWaveSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices

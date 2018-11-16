@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_GetAlpha_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getalpha.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Color class [GDI+],GetAlpha method, Color.GetAlpha, Color::GetAlpha, GetAlpha, GetAlpha method [GDI+], GetAlpha method [GDI+],Color class, _gdiplus_CLASS_Color_GetAlpha_, gdiplus._gdiplus_CLASS_Color_GetAlpha_
 ms.prod: windows-hardware
 ms.technology: windows-devices

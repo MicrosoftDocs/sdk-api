@@ -7,7 +7,7 @@ old-location: shell\IQueryAssociations_GetData.htm
 tech.root: shell
 ms.assetid: 7f21e564-97c6-4f9d-a4fa-160b78dbfc2f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetData, GetData method [Windows Shell], GetData method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetData method, IQueryAssociations.GetData, IQueryAssociations::GetData, _win32_IQueryAssociations_GetData, shell.IQueryAssociations_GetData, shlwapi/IQueryAssociations::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,9 +80,11 @@ Type: <b><a href="https://msdn.microsoft.com/0ae5c8db-81fd-4d00-8e54-0c474f1bfd0
 The <a href="https://msdn.microsoft.com/0ae5c8db-81fd-4d00-8e54-0c474f1bfd06">ASSOCDATA</a> value that specifies the type of data that is to be returned.
 
 
-### -param pszExtra
+### -param pszExtra [in, optional]
 
-TBD
+Type: <b>LPCWSTR</b>
+
+A pointer to an optional, null-terminated Unicode string with information about the location of the data. It is normally set to a Shell verb such as <b>open</b>. Set this parameter to <b>NULL</b> if it is not used.
 
 
 ### -param pvOut [out, optional]
@@ -97,13 +99,6 @@ A pointer to a value that, when this method returns successfully, receives the r
 Type: <b>DWORD*</b>
 
 A pointer to a value that, when this method is called, holds the size of <i>pvOut</i>, in bytes. When this method returns successfully, the value contains the size of the data actually retrieved.
-
-
-#### - pwszExtra [in, optional]
-
-Type: <b>LPCWSTR</b>
-
-A pointer to an optional, null-terminated Unicode string with information about the location of the data. It is normally set to a Shell verb such as <b>open</b>. Set this parameter to <b>NULL</b> if it is not used.
 
 
 ## -returns

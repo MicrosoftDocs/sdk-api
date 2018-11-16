@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccess::SetProgram
 author: windows-sdk-content
 description: The SetProgram method sets the program number.
 old-location: mstv\ibda_conditionalaccess_setprogram.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d38fc9bc-70e8-419e-b7be-33d1f53a723e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],SetProgram method, IBDA_ConditionalAccess.SetProgram, IBDA_ConditionalAccess::SetProgram, IBDA_ConditionalAccessSetProgram, SetProgram, SetProgram method [Microsoft TV Technologies], SetProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::SetProgram, mstv.ibda_conditionalaccess_setprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices

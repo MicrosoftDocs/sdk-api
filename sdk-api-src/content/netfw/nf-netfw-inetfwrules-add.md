@@ -7,7 +7,7 @@ old-location: ics\inetfwrules_add.htm
 tech.root: ICS
 ms.assetid: c81bdf56-df71-425a-93d2-1fbae5ab536e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwRules interface, INetFwRules interface [ICS/ICF],Add method, INetFwRules.Add, INetFwRules::Add, ics.inetfwrules_add, netfw/INetFwRules::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialWithFieldOptions.htm
 tech.root: shell
 ms.assetid: 37C391D7-23C2-4053-BC7F-62F8AFD50DA3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ICredentialProviderCredentialWithFieldOptions, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell], ICredentialProviderCredentialWithFieldOptions interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialWithFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivsscomponentex2.htm
 tech.root: VSS
 ms.assetid: f40705bf-46a9-464d-a545-1d68d89876c2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssComponentEx2, IVssComponentEx2 interface, IVssComponentEx2 interface,described, base.ivsscomponentex2, vswriter/IVssComponentEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IKnownFolder_SetPath.htm
 tech.root: shell
 ms.assetid: 235f69de-3571-4184-aa52-b409fbc1d643
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IKnownFolder interface [Windows Shell],SetPath method, IKnownFolder.SetPath, IKnownFolder::SetPath, KF_FLAG_DONT_UNEXPAND, SetPath, SetPath method [Windows Shell], SetPath method [Windows Shell],IKnownFolder interface, _shell_IKnownFolder_SetPath, shell.IKnownFolder_SetPath, shobjidl_core/IKnownFolder::SetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

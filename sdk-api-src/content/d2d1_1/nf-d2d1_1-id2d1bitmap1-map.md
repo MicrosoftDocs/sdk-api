@@ -4,10 +4,10 @@ title: ID2D1Bitmap1::Map
 author: windows-sdk-content
 description: Maps the given bitmap into memory.
 old-location: direct2d\id2d1bitmap1_map.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 284c16ea-1a9f-4f13-b359-214178650add
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1Bitmap1 interface [Direct2D],Map method, ID2D1Bitmap1.Map, ID2D1Bitmap1::Map, Map, Map method [Direct2D], Map method [Direct2D],ID2D1Bitmap1 interface, d2d1_1/ID2D1Bitmap1::Map, direct2d.id2d1bitmap1_map
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,9 @@ Maps  the given bitmap into memory.
 
 ### -param options
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/8706c3e3-eb29-4760-bdfd-f19afc6f2bf7">D2D1_MAP_OPTIONS</a></b>
+
+The options used in mapping the bitmap into memory.
 
 
 ### -param mappedRect [out]
@@ -76,13 +78,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/1cd81f1a-c39b-4975-a801-aa9444dde172">D2D1_MAPPED_RECT</a>*</b>
 
 When this method returns, contains a reference to the rectangle that is mapped into memory.
-
-
-#### - Options
-
-Type: <b><a href="https://msdn.microsoft.com/8706c3e3-eb29-4760-bdfd-f19afc6f2bf7">D2D1_MAP_OPTIONS</a></b>
-
-The options used in mapping the bitmap into memory.
 
 
 ## -returns

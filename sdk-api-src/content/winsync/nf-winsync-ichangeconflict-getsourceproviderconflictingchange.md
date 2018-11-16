@@ -7,7 +7,7 @@ old-location: winsync\ichangeconflict_getsourceproviderconflictingchange.htm
 tech.root: winsync
 ms.assetid: a77983ec-77fd-4e24-a978-df37a85b0ede
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetSourceProviderConflictingChange, GetSourceProviderConflictingChange method [Windows Sync], GetSourceProviderConflictingChange method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetSourceProviderConflictingChange method, IChangeConflict.GetSourceProviderConflictingChange, IChangeConflict::GetSourceProviderConflictingChange, winsync.ichangeconflict_getsourceproviderconflictingchange, winsync/IChangeConflict::GetSourceProviderConflictingChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Gets the change metadata from the source provider.
 
 
 
-### -param ppConflictingChange
-
-TBD
-
-
-
-
-#### - ppSyncChange [out]
+### -param ppConflictingChange [out]
 
 Returns the change metadata from the source provider.
 

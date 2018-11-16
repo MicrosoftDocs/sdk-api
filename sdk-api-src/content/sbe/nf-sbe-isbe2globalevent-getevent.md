@@ -4,10 +4,10 @@ title: ISBE2GlobalEvent::GetEvent
 author: windows-sdk-content
 description: Gets a global spanning event and its data from a Stream Buffer Source filter.
 old-location: mstv\isbe2globalevent_getevent.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2ffa323d-6793-49e2-98ea-b9349c946c7c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetEvent, GetEvent method [Microsoft TV Technologies], GetEvent method [Microsoft TV Technologies],ISBE2GlobalEvent interface, ISBE2GlobalEvent interface [Microsoft TV Technologies],GetEvent method, ISBE2GlobalEvent.GetEvent, ISBE2GlobalEvent::GetEvent, mstv.isbe2globalevent_getevent, sbe/ISBE2GlobalEvent::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

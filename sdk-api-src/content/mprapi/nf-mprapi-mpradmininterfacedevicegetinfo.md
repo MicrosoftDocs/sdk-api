@@ -4,10 +4,10 @@ title: MprAdminInterfaceDeviceGetInfo function
 author: windows-sdk-content
 description: The MprAdminInterfaceDeviceGetInfo retrieves information about a device that is used in a router demand-dial interface.
 old-location: rras\mpradmininterfacedevicegetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: edff88dd-80ae-4704-b320-925006346dda
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MprAdminInterfaceDeviceGetInfo, MprAdminInterfaceDeviceGetInfo function [RAS], _mpr_mpradmininterfacedevicegetinfo, mprapi/MprAdminInterfaceDeviceGetInfo, rras.mpradmininterfacedevicegetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

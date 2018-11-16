@@ -7,7 +7,7 @@ old-location: cos\isecurityidentitycoll.htm
 tech.root: cossdk
 ms.assetid: 6844bfb2-028f-4155-85a6-b7023432f6cd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISecurityIdentityColl, ISecurityIdentityColl interface [COM+], ISecurityIdentityColl interface [COM+],described, _cos_ISecurityIdentityColl, comsvcs/ISecurityIdentityColl, cos.isecurityidentitycoll
 ms.prod: windows-hardware
 ms.technology: windows-devices

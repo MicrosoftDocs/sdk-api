@@ -7,7 +7,7 @@ old-location: mediastreaming\idevicepair_renderer.htm
 tech.root: mediastreaming
 ms.assetid: A130AB29-285A-4BBB-B02F-8DA515E0E529
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IDevicePair interface [Media Streaming API],get_Renderer method, IDevicePair.get_Renderer, IDevicePair.streaming, IDevicePair::get_Renderer, IDevicePair::streaming, get_Renderer, get_Renderer method [Media Streaming API], get_Renderer method [Media Streaming API],IDevicePair interface, mediastreaming.idevicepair_renderer, windows/IDevicePair::get_Renderer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rdc\similaritymappedviewinfo.htm
 tech.root: Rdc
 ms.assetid: f7bd0ebd-6abd-4d2c-af7d-21a90a633276
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: SimilarityMappedViewInfo, SimilarityMappedViewInfo structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0011, fs.similaritymappedviewinfo, msrdc/SimilarityMappedViewInfo, rdc.similaritymappedviewinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_AddDefaultScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\adddefaultscoperule.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: AddDefaultScopeRule, AddDefaultScopeRule method [search], AddDefaultScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddDefaultScopeRule method, ISearchCrawlScopeManager.AddDefaultScopeRule, ISearchCrawlScopeManager::AddDefaultScopeRule, _search_ISearchCrawlScopeManager_AddDefaultScopeRule, search._search_ISearchCrawlScopeManager_AddDefaultScopeRule, searchapi/ISearchCrawlScopeManager::AddDefaultScopeRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,9 +67,11 @@ Adds a URL as the default scope for this rule.
 
 
 
-### -param pszURL
+### -param pszURL [in]
 
-TBD
+Type: <b>LPCWSTR</b>
+
+Pointer to a null-terminated, Unicode buffer that contains the URL to use as a default scope.
 
 
 ### -param fInclude [in]
@@ -84,13 +86,6 @@ Type: <b>BOOL</b>
 Type: <b>DWORD</b>
 
 Sets the <a href="https://msdn.microsoft.com/en-us/library/Aa965693(v=VS.85).aspx">FOLLOW_FLAGS</a> to specify whether to follow complex URLs and whether a URL is to be indexed or just followed.
-
-
-#### - pszUrl [in]
-
-Type: <b>LPCWSTR</b>
-
-Pointer to a null-terminated, Unicode buffer that contains the URL to use as a default scope.
 
 
 ## -returns

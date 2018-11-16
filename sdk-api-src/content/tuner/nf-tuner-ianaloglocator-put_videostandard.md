@@ -4,10 +4,10 @@ title: IAnalogLocator::put_VideoStandard
 author: windows-sdk-content
 description: The put_VideoStandard method specifies the format of the analog television signal.
 old-location: mstv\ianaloglocator_put_videostandard.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 6af47a98-ceea-45dd-8a34-3f82ed8a66b1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IAnalogLocator interface [Microsoft TV Technologies],put_VideoStandard method, IAnalogLocator.put_VideoStandard, IAnalogLocator::put_VideoStandard, IAnalogLocatorput_VideoStandard, mstv.ianaloglocator_put_videostandard, put_VideoStandard, put_VideoStandard method [Microsoft TV Technologies], put_VideoStandard method [Microsoft TV Technologies],IAnalogLocator interface, tuner/IAnalogLocator::put_VideoStandard
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\cpinfo.htm
 tech.root: Intl
 ms.assetid: accb7ce8-c1d0-4f89-9390-be26d7014de7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPCPINFO, CPINFO, CPINFO structure [Internationalization for Windows Applications], LPCPINFO, LPCPINFO structure pointer [Internationalization for Windows Applications], _cpinfo, _win32_CPINFO_str, intl.cpinfo, winnls/CPINFO, winnls/LPCPINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_MEM_ADDRESS_REQUIREMENTS"
 author: windows-sdk-content
 description: Specifies a lowest and highest base address and alignment as part of an extended parameter to a function that manages virtual memory.
 old-location: base\mem_address_requirements.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 1CAB4942-F0D2-4A60-9472-4EDF2FC9FA7A
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PMEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS structure, PMEM_ADDRESS_REQUIREMENTS, PMEM_ADDRESS_REQUIREMENTS structure pointer, _MEM_ADDRESS_REQUIREMENTS, base.mem_address_requirements, winnt/MEM_ADDRESS_REQUIREMENTS, winnt/PMEM_ADDRESS_REQUIREMENTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,12 +60,12 @@ Specifies a lowest and highest base address and alignment as part of an extended
 
 ### -field LowestStartingAddress
 
-Specifies the lowest acceptable address. Calling <a href="base.virtualalloc2">Virtual2Alloc</a> or <a href="base.mapviewoffile3">MapViewOfFile3</a>, and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, gives the same behavior as calling <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>/<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a>.
+Specifies the lowest acceptable address. Calling <a href="base.virtualalloc2">VirtualAlloc2</a> or <a href="base.mapviewoffile3">MapViewOfFile3</a>, and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, gives the same behavior as calling <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>/<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a>.
 
 
 ### -field HighestEndingAddress
 
-Specifies the highest acceptable address (inclusive). This address must not exceed <b>lpMaximumApplicationAddress</b> returned by <a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a>. Calling <a href="base.virtualalloc2">Virtual2Alloc</a> or <a href="base.mapviewoffile3">MapViewOfFile3</a>, and specifying <b>NULL</b> for <i>HighestEndingAddress</i>, gives the same behavior as calling <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>/<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a>.
+Specifies the highest acceptable address (inclusive). This address must not exceed <b>lpMaximumApplicationAddress</b> returned by <a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a>. Calling <a href="base.virtualalloc2">VirtualAlloc2</a> or <a href="base.mapviewoffile3">MapViewOfFile3</a>, and specifying <b>NULL</b> for <i>HighestEndingAddress</i>, gives the same behavior as calling <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>/<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a>.
 
 
 ### -field Alignment

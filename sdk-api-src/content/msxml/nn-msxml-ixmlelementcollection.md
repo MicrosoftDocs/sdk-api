@@ -4,10 +4,10 @@ title: IXMLElementCollection
 author: windows-sdk-content
 description: Supports collection of XML elements for indexed access.
 old-location: winprog\ixmlelementcollection.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 1d27e5fc-0491-44ee-9134-40f9f909b1cb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: IXMLElementCollection, IXMLElementCollection interface [Windows API], IXMLElementCollection interface [Windows API],described, msxml/IXMLElementCollection, winprog.ixmlelementcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

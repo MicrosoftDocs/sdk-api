@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadata_getbackupschema.htm
 tech.root: VSS
 ms.assetid: d7099d6e-b8dd-44a5-af68-f3347c5d251b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetBackupSchema, GetBackupSchema method [VSS], GetBackupSchema method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetBackupSchema method, IVssExamineWriterMetadata.GetBackupSchema, IVssExamineWriterMetadata::GetBackupSchema, _win32_ivssexaminewritermetadata_getbackupschema, base.ivssexaminewritermetadata_getbackupschema, vsbackup/IVssExamineWriterMetadata::GetBackupSchema
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,13 +69,6 @@ The
 
 
 ### -param pdwSchemaMask
-
-TBD
-
-
-
-
-#### - pdsSchemaMask
 
 The types of backup operations that a given writer supports, expressed as a bit mask (or bitwise OR) of 
 <a href="https://msdn.microsoft.com/3541c8bd-2712-458b-9153-1fffe6bf5688">VSS_BACKUP_SCHEMA</a> enumeration values.

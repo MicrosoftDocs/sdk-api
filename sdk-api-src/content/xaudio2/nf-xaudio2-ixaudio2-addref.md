@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_addref.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.AddRef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AddRef, AddRef method [XAudio2 Audio Mixing APIs], AddRef method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],AddRef method, IXAudio2.AddRef, IXAudio2::AddRef, xaudio2.ixaudio2_interface_addref, xaudio2/IXAudio2::AddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\waveoutsetpitch.htm
 tech.root: Multimedia
 ms.assetid: 103560b6-a93a-42ac-8c62-839091c56433
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_waveOutSetPitch, mmeapi/waveOutSetPitch, multimedia.waveoutsetpitch, waveOutSetPitch, waveOutSetPitch function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices

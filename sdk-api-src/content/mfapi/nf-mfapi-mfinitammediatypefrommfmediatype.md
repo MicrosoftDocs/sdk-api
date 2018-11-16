@@ -7,7 +7,7 @@ old-location: mf\mfinitammediatypefrommfmediatype.htm
 tech.root: medfound
 ms.assetid: dbb69578-2563-476f-92f4-6b4e2bb2c77a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: MFInitAMMediaTypeFromMFMediaType, MFInitAMMediaTypeFromMFMediaType function [Media Foundation], dbb69578-2563-476f-92f4-6b4e2bb2c77a, mf.mfinitammediatypefrommfmediatype, mfapi/MFInitAMMediaTypeFromMFMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

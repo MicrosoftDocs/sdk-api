@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getnumberofchapters.htm
 tech.root: DirectShow
 ms.assetid: 65d36d1c-956f-480f-adbb-1682eafc9c93
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetNumberOfChapters, GetNumberOfChapters method [DirectShow], GetNumberOfChapters method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetNumberOfChapters method, IDvdInfo.GetNumberOfChapters, IDvdInfo::GetNumberOfChapters, IDvdInfoGetNumberOfChapters, dshow.idvdinfo_getnumberofchapters, strmif/IDvdInfo::GetNumberOfChapters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,14 +76,7 @@ Retrieves the number of chapters that are defined for a given title.
 Title for which to retrieve the number of chapters.
 
 
-### -param pulNumberOfChapters
-
-TBD
-
-
-
-
-#### - pNumberOfChapters [out]
+### -param pulNumberOfChapters [out]
 
 Pointer to the retrieved number of chapters for the specified title.
 

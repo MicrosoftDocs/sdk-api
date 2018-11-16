@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatawriter_setvaluebyindex.htm
 tech.root: wic
 ms.assetid: 012ef661-c1cf-48fd-a748-223fa965f9a9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],SetValueByIndex method, IWICMetadataWriter.SetValueByIndex, IWICMetadataWriter::SetValueByIndex, SetValueByIndex, SetValueByIndex method [Windows Imaging Component], SetValueByIndex method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_setvaluebyindex, wic._wic_codec_iwicmetadatawriter_setvaluebyindex, wincodecsdk/IWICMetadataWriter::SetValueByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

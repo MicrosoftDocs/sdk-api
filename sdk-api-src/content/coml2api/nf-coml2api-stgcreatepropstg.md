@@ -7,7 +7,7 @@ old-location: stg\stgcreatepropstg.htm
 tech.root: Stg
 ms.assetid: fc171888-3723-4894-a356-1b234352c4e8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: StgCreatePropStg, StgCreatePropStg function [Structured Storage], _stg_stgcreatepropstg, coml2api/StgCreatePropStg, stg.stgcreatepropstg
 ms.prod: windows-hardware
 ms.technology: windows-devices

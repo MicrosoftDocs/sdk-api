@@ -4,10 +4,10 @@ title: SymSrvStoreSupplement function
 author: windows-sdk-content
 description: Stores a file in the specified supplement to a symbol store. The file is typically associated with a file in the symbol server.
 old-location: base\symsrvstoresupplement.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 579bd9ff-cb23-426b-8188-6897d83ada28
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymSrvStoreSupplement, SymSrvStoreSupplement function, SymSrvStoreSupplementW, base.symsrvstoresupplement, dbghelp/SymSrvStoreSupplement, dbghelp/SymSrvStoreSupplementW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,9 @@ A handle to a process. This handle must have been previously passed to the
 <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
 
 
-### -param SrvPath [in, optional]
+### -param SrvPath
 
-The path to the symbol store.
+TBD
 
 
 ### -param Node [in]
@@ -90,6 +90,11 @@ The name of the file.
 ### -param Flags [in]
 
 If this parameter is <b>SYMSTOREOPT_COMPRESS</b>, the file is compressed in the symbol store. Currently, there are no other supported values.
+
+
+#### - SymPath [in, optional]
+
+The path to the symbol store.
 
 
 ## -returns

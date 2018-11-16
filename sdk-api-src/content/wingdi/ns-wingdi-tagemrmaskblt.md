@@ -7,7 +7,7 @@ old-location: gdi\emrmaskblt.htm
 tech.root: gdi
 ms.assetid: 4c9e8631-8b76-423f-9691-8c93c6412d41
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PEMRMASKBLT, EMRMASKBLT, EMRMASKBLT structure [Windows GDI], PEMRMASKBLT, PEMRMASKBLT structure pointer [Windows GDI], _win32_EMRMASKBLT_str, gdi.emrmaskblt, tagEMRMASKBLT, wingdi/EMRMASKBLT, wingdi/PEMRMASKBLT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

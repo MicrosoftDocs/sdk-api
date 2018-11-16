@@ -4,10 +4,10 @@ title: RpcServerUseProtseqA function
 author: windows-sdk-content
 description: The RpcServerUseProtseq function tells the RPC run-time library to use the specified protocol sequence for receiving remote procedure calls.
 old-location: rpc\rpcserveruseprotseq.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 9b2c9cf0-fe96-4063-a893-f2793595af57
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: RpcServerUseProtseq, RpcServerUseProtseq function [RPC], RpcServerUseProtseqA, RpcServerUseProtseqW, _rpc_rpcserveruseprotseq, rpc.rpcserveruseprotseq, rpcdce/RpcServerUseProtseq, rpcdce/RpcServerUseProtseqA, rpcdce/RpcServerUseProtseqW
 ms.prod: windows-hardware
 ms.technology: windows-devices

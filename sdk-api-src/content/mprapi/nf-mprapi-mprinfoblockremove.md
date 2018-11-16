@@ -4,10 +4,10 @@ title: MprInfoBlockRemove function
 author: windows-sdk-content
 description: The MprInfoBlockRemove function creates a new header that is identical to an existing header with a specified block removed.
 old-location: rras\mprinfoblockremove.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 2d124541-c954-4031-95cd-68a96c8e0a77
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MprInfoBlockRemove, MprInfoBlockRemove function [RAS], _mpr_mprinfoblockremove, mprapi/MprInfoBlockRemove, rras.mprinfoblockremove
 ms.prod: windows-hardware
 ms.technology: windows-devices

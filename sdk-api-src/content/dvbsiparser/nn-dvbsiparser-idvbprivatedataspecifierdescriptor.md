@@ -4,10 +4,10 @@ title: IDvbPrivateDataSpecifierDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) private data descriptor. The private data descriptor describes broadcaster-specific data that is not part of the official MPEG-2 standard for broadcast streams.
 old-location: mstv\idvbprivatedataspecifierdescriptor.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 0d5a78a3-0d56-47e8-939f-006d5f4db5c4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDvbPrivateDataSpecifierDescriptor, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies], IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbPrivateDataSpecifierDescriptor, mstv.idvbprivatedataspecifierdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

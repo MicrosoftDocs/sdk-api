@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_setworkitemdata.htm
 tech.root: TaskSchd
 ms.assetid: 9135b37a-d9f8-4bee-a851-9daca6dc733c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetWorkItemData method, IScheduledWorkItem.SetWorkItemData, IScheduledWorkItem::SetWorkItemData, SetWorkItemData, SetWorkItemData method [Task Scheduler], SetWorkItemData method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setworkitemdata, mstask/IScheduledWorkItem::SetWorkItemData, taskschd.ischeduledworkitem_setworkitemdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,19 +68,14 @@ This method stores application-defined data associated with the <a href="https:/
 
 
 
-### -param cbData
+### -param cbData [in]
 
-TBD
+The number of bytes in the data buffer. The caller allocates and frees this memory.
 
 
 ### -param rgbData [in]
 
 The data to copy.
-
-
-#### - cBytes [in]
-
-The number of bytes in the data buffer. The caller allocates and frees this memory.
 
 
 ## -returns

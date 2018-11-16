@@ -4,10 +4,10 @@ title: InterlockedOr function
 author: windows-sdk-content
 description: Performs an atomic OR operation on the specified LONG values.
 old-location: base\interlockedor.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: c677e9fb-4188-466a-8283-9d65a50d150e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: InterlockedOr, InterlockedOr function, base.interlockedor, winnt/InterlockedOr
 ms.prod: windows-hardware
 ms.technology: windows-devices

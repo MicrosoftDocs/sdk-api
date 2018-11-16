@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_retries_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3ktv.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],Retries property, IFaxJobStatus.Retries, IFaxJobStatus.get_Retries, IFaxJobStatus::Retries, IFaxJobStatus::get_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.retries, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_retries_cpp, fax._mfax_faxjobstatus_retries, faxcomex/IFaxJobStatus::Retries, faxcomex/IFaxJobStatus::get_Retries, get_Retries
 ms.prod: windows-hardware
 ms.technology: windows-devices

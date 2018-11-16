@@ -4,10 +4,10 @@ title: EventWriteString function
 author: windows-sdk-content
 description: Writes an event that contains a string as its data.
 old-location: etw\eventwritestring_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: ecdb0e92-fcc1-4b4f-99ea-6812b6b49381
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EventWriteString, EventWriteString function [ETW], base.eventwritestring_func, etw.eventwritestring_func, evntprov/EventWriteString
 ms.prod: windows-hardware
 ms.technology: windows-devices

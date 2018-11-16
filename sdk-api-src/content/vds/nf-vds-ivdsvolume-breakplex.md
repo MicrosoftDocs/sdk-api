@@ -7,7 +7,7 @@ old-location: base\ivdsvolume_breakplex.htm
 tech.root: VDS
 ms.assetid: c7e42aa4-3233-40e9-b537-043eecd192ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: BreakPlex, BreakPlex method [VDS], BreakPlex method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],BreakPlex method, IVdsVolume.BreakPlex, IVdsVolume::BreakPlex, base.ivdsvolume_breakplex, vds/IVdsVolume::BreakPlex
 ms.prod: windows-hardware
 ms.technology: windows-devices

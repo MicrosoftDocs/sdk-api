@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetNumber function
 author: windows-sdk-content
 description: Gets a previously added custom number option.
 old-location: wmi_v2\mi_destinationoptions_getnumber.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: ac48c290-631f-427e-a544-ee0258029c42
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_DestinationOptions_GetNumber, MI_DestinationOptions_GetNumber function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetNumber, wmi_v2.mi_destinationoptions_getnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: Wow64SuspendThread function
 author: windows-sdk-content
 description: Suspends the specified WOW64 thread.
 old-location: base\wow64suspendthread.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: d976675a-5400-41ac-a11d-c39a1b2dd50d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Wow64SuspendThread, Wow64SuspendThread function, base.wow64suspendthread, winbase/Wow64SuspendThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

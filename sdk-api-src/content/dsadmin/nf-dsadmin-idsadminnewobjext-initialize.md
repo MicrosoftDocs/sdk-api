@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobjext_initialize.htm
 tech.root: ad
 ms.assetid: 38dd4f43-6f8f-460a-9c5d-0a506d993101
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: IDsAdminNewObjExt interface [Active Directory],Initialize method, IDsAdminNewObjExt.Initialize, IDsAdminNewObjExt::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_initialize, ad.idsadminnewobjext__initialize, ad.idsadminnewobjext_initialize, dsadmin/IDsAdminNewObjExt::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

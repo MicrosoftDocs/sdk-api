@@ -4,10 +4,10 @@ title: IImageList::ImageListSetStrip
 author: windows-sdk-content
 description: The IImageList::ImageListSetStrip method enables a user to add a strip of icons to the image list using a pair of bitmaps (large and small icons), starting at a location identified by nStartLoc.
 old-location: mmc\iimagelist_imagelistsetstrip.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: b736a5ab-86a7-4c8d-82b7-bbe9f98bc402
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IImageList interface [MMC],ImageListSetStrip method, IImageList.ImageListSetStrip, IImageList::ImageListSetStrip, ImageListSetStrip, ImageListSetStrip method [MMC], ImageListSetStrip method [MMC],IImageList interface, _slate_iimagelist_imagelistsetstrip, mmc.iimagelist_imagelistsetstrip, mmc/IImageList::ImageListSetStrip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,14 @@ The <b>IImageList::ImageListSetStrip</b> method enables a user to add a strip of
 
 
 
-### -param pBMapSm
+### -param pBMapSm [in]
 
-TBD
+Win32 HBITMAP handle to the small (16x16) icon image strip. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free BMapSm.
 
 
-### -param pBMapLg
+### -param pBMapLg [in]
 
-TBD
+Win32 HBITMAP handle to the large (32x32) icon image strip. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free BMapLg.
 
 
 ### -param nStartLoc [in]
@@ -84,16 +84,6 @@ A value that specifies the index assigned to the first image in the strip. This 
 ### -param cMask [in]
 
 A value that specifies the color used to generate a mask.
-
-
-#### - BMapLg [in]
-
-Win32 HBITMAP handle to the large (32x32) icon image strip. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free BMapLg.
-
-
-#### - BMapSm [in]
-
-Win32 HBITMAP handle to the small (16x16) icon image strip. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free BMapSm.
 
 
 ## -returns

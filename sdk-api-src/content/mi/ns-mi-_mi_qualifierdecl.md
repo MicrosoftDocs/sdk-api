@@ -4,10 +4,10 @@ title: "_MI_QualifierDecl"
 author: windows-sdk-content
 description: Represents a CIM qualifier declaration.
 old-location: wmi_v2\mi_qualifierdecl.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 88d167f5-3cb0-41ed-9355-ea31ff263a03
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_FLAG_DISABLEOVERRIDE, MI_FLAG_ENABLEOVERRIDE, MI_FLAG_RESTRICTED, MI_FLAG_TOSUBCLASS, MI_FLAG_TRANSLATABLE, MI_QualifierDecl, MI_QualifierDecl structure [Windows Management Infrastructure (MI)], _MI_QualifierDecl, mi/MI_QualifierDecl, wmi._mi_qualifierdecl, wmi_v2.mi_qualifierdecl
 ms.prod: windows-hardware
 ms.technology: windows-devices

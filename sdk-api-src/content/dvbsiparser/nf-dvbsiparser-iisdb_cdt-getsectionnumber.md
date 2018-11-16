@@ -4,10 +4,10 @@ title: IISDB_CDT::GetSectionNumber
 author: windows-sdk-content
 description: Gets the section_number field value from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getsectionnumber.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 61825be5-01c4-4d5f-be4a-6752ebf8dee8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetSectionNumber, GetSectionNumber method [Microsoft TV Technologies], GetSectionNumber method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetSectionNumber method, IISDB_CDT.GetSectionNumber, IISDB_CDT::GetSectionNumber, dvbsiparser/IISDB_CDT::GetSectionNumber, mstv.iisdb_cdt_getsectionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

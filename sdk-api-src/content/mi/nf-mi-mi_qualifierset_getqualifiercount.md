@@ -4,10 +4,10 @@ title: MI_QualifierSet_GetQualifierCount function
 author: windows-sdk-content
 description: Gets the number of qualifiers in a qualifier set.
 old-location: wmi_v2\mi_qualifierset_getqualifiercount.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 0027b8fc-0528-4aa8-85bc-088429e1e045
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_QualifierSet_GetQualifierCount, MI_QualifierSet_GetQualifierCount function [Windows Management Infrastructure (MI)], mi/MI_QualifierSet_GetQualifierCount, wmi_v2.mi_qualifierset_getqualifiercount
 ms.prod: windows-hardware
 ms.technology: windows-devices

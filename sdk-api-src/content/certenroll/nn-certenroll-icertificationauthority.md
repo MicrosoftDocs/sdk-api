@@ -7,7 +7,7 @@ old-location: security\icertificationauthority.htm
 tech.root: SecCertEnroll
 ms.assetid: ffd64396-a258-4cf5-aca1-a61102ecf313
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICertificationAuthority, ICertificationAuthority interface [Security], ICertificationAuthority interface [Security],described, certenroll/ICertificationAuthority, security.icertificationauthority
 ms.prod: windows-hardware
 ms.technology: windows-devices

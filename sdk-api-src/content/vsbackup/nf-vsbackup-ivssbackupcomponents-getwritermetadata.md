@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_getwritermetadata.htm
 tech.root: VSS
 ms.assetid: a577d06a-4c9d-4ebe-b4d4-685f96ec9c83
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetWriterMetadata, GetWriterMetadata method [VSS], GetWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterMetadata method, IVssBackupComponents.GetWriterMetadata, IVssBackupComponents::GetWriterMetadata, _win32_ivssbackupcomponents_getwritermetadata, base.ivssbackupcomponents_getwritermetadata, vsbackup/IVssBackupComponents::GetWriterMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,20 +75,15 @@ Index of the writer whose metadata is to be retrieved. The value of this paramet
 <a href="https://msdn.microsoft.com/cf8c4782-2850-4847-a7a1-95bd2bd547a1">IVssBackupComponents::GetWriterMetadataCount</a>.
 
 
-### -param pidInstance
+### -param pidInstance [out]
 
-TBD
+Pointer to the instance identifier of the writer that collected the metadata.
 
 
 ### -param ppMetadata [out]
 
 Doubly indirect pointer to the instance of the 
 <a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> object that contains the returned metadata.
-
-
-#### - pidWriterInstance [out]
-
-Pointer to the instance identifier of the writer that collected the metadata.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wmp\iwmpskinmanager_setvisualstyle.htm
 tech.root: WMP
 ms.assetid: 16d0020f-7650-4300-bd34-6f79ecca5175
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMPSkinManager interface [Windows Media Player],SetVisualStyle method, IWMPSkinManager.SetVisualStyle, IWMPSkinManager::SetVisualStyle, IWMPSkinManagerSetVisualStyle, SetVisualStyle, SetVisualStyle method [Windows Media Player], SetVisualStyle method [Windows Media Player],IWMPSkinManager interface, wmp.iwmpskinmanager_setvisualstyle, wmp/IWMPSkinManager::SetVisualStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>SetVisualStyle</b> method specifies the path to a theme file in Windows X
 
 
 
-### -param bstrPath
-
-TBD
-
-
-
-
-#### - bstrStyle [in]
+### -param bstrPath [in]
 
 <b>BSTR</b> containing the path to the theme file.
 

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11linker.htm
 tech.root: direct3d11
 ms.assetid: 08967A5F-AAAE-4352-A8A9-C7B1ED16EF25
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11Linker, ID3D11Linker interface [Direct3D 11], ID3D11Linker interface [Direct3D 11],described, d3d11shader/ID3D11Linker, direct3d11.id3d11linker
 ms.prod: windows-hardware
 ms.technology: windows-devices

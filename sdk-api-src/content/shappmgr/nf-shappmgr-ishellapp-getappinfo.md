@@ -7,7 +7,7 @@ old-location: shell\IShellApp_GetAppInfo.htm
 tech.root: shell
 ms.assetid: 8842c12e-2b59-49d6-8140-5a402509a0dd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetAppInfo, GetAppInfo method [Windows Shell], GetAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetAppInfo method, IShellApp.GetAppInfo, IShellApp::GetAppInfo, inet_IShellApp_GetAppInfo, shappmgr/IShellApp::GetAppInfo, shell.IShellApp_GetAppInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ Gets general information about an application.
 
 
 
-### -param pai
-
-TBD
-
-
-
-
-#### - pInfo [out]
+### -param pai [out]
 
 Type: <b><a href="https://msdn.microsoft.com/3560b088-d899-4fb2-a47c-101f8f5e3bf7">APPINFODATA</a>*</b>
 

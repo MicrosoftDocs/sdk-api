@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_addloggingurl.htm
 tech.root: wmformat
 ms.assetid: 471b17c8-20e4-44f3-88ee-48a35cd8930c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: AddLoggingUrl, AddLoggingUrl method [windows Media Format], AddLoggingUrl method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],AddLoggingUrl method, IWMReaderNetworkConfig.AddLoggingUrl, IWMReaderNetworkConfig::AddLoggingUrl, IWMReaderNetworkConfigAddLoggingUrl, wmformat.iwmreadernetworkconfig_addloggingurl, wmsdkidl/IWMReaderNetworkConfig::AddLoggingUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

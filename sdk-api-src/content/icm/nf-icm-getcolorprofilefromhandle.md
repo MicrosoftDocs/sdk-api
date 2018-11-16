@@ -7,7 +7,7 @@ old-location: wcs\getcolorprofilefromhandle.htm
 tech.root: WCS
 ms.assetid: ff51c6d5-4db2-4b64-a4e3-34a9e502f456
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetColorProfileFromHandle, GetColorProfileFromHandle function [Windows Color System], _color_GetColorProfileFromHandle, icm/GetColorProfileFromHandle, wcs.getcolorprofilefromhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,22 +71,10 @@ Handle to an open color profile. The function determines whether the HPROFILE co
 
 ### -param pProfile
 
-TBD
-
-
-### -param pcbProfile
-
-TBD
-
-
-
-
-#### - pBuffer
-
 Pointer to buffer to receive raw ICC or DMP profile data. Can be <b>NULL</b>. If it is, the size required for the buffer will be stored in the memory location pointed to by <i>pcbSize</i>. The buffer can be allocated to the appropriate size, and this function called again with <i>pBuffer</i> containing the address of the buffer.
 
 
-#### - pcbSize
+### -param pcbProfile
 
 Pointer to a <b>DWORD</b> that holds the size of buffer pointed at by <i>pBuffer</i>. On return it is filled with size of buffer that was actually used if the function succeeds. If this function is called with <i>pBuffer</i> set to <b>NULL</b>, this parameter will contain the size of the buffer required.
 

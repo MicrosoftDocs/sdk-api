@@ -7,7 +7,7 @@ old-location: shell\IEnumResources.htm
 tech.root: shell
 ms.assetid: 28c645cf-8c69-49d7-a95f-ced6467ad682
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumResources, IEnumResources interface [Windows Shell], IEnumResources interface [Windows Shell],described, _shell_IEnumResources, shell.IEnumResources, shobjidl_core/IEnumResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

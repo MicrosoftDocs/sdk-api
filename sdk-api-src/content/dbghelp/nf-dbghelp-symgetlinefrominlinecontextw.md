@@ -4,10 +4,10 @@ title: SymGetLineFromInlineContextW function
 author: windows-sdk-content
 description: Locates the source line for the specified inline context.
 old-location: base\symgetlinefrominlinecontext.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 0c362bd9-7496-436b-9e01-2054dc3dfc57
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymGetLineFromInlineContext, SymGetLineFromInlineContext function, SymGetLineFromInlineContextW, base.symgetlinefrominlinecontext, dbghelp/SymGetLineFromInlineContext, dbghelp/SymGetLineFromInlineContextW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,11 @@ A handle to the process that was originally passed to the
       <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
 
 
-### -param dwAddr
+#### - dwAddr [in]
 
-TBD
+The address for which a line should be located. It is not necessary for the address to be on a line 
+      boundary. If the address appears after the beginning of a line and before the end of the line, the line is 
+      found.
 
 
 ### -param InlineContext [in]
@@ -92,24 +94,10 @@ The base address of the module.
 The displacement in bytes from the beginning of the line, or zero.
 
 
-### -param Line
-
-TBD
-
-
-
-
-#### - Line64 [out]
+#### - Line [out]
 
 A pointer to an <a href="https://msdn.microsoft.com/62124983-8381-4eb4-94f6-220b844aca45">IMAGEHLP_LINE64</a> 
       structure.
-
-
-#### - qwAddr [in]
-
-The address for which a line should be located. It is not necessary for the address to be on a line 
-      boundary. If the address appears after the beginning of a line and before the end of the line, the line is 
-      found.
 
 
 ## -returns

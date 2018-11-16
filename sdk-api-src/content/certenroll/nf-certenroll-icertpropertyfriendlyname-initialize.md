@@ -7,7 +7,7 @@ old-location: security\icertpropertyfriendlyname_initialize_method.htm
 tech.root: SecCertEnroll
 ms.assetid: fb9a8108-f3d1-4a5c-bf3f-00002c085012
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICertPropertyFriendlyName interface [Security],Initialize method, ICertPropertyFriendlyName.Initialize, ICertPropertyFriendlyName::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyFriendlyName interface, certenroll/ICertPropertyFriendlyName::Initialize, security.icertpropertyfriendlyname_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

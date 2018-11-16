@@ -7,7 +7,7 @@ old-location: intl\isvalidlocalename.htm
 tech.root: Intl
 ms.assetid: cd1b5a4e-7a9c-47a1-9ece-284fce3d5be4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: IsValidLocaleName, IsValidLocaleName function [Internationalization for Windows Applications], _win32_IsValidLocaleName, intl.isvalidlocalename, winnls/IsValidLocaleName
 ms.prod: windows-hardware
 ms.technology: windows-devices

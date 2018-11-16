@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagecompositor_compositeimage.htm
 tech.root: DirectShow
 ms.assetid: 5af73543-d391-404a-9797-8fbb3f24879c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: CompositeImage, CompositeImage method [DirectShow], CompositeImage method [DirectShow],IVMRImageCompositor interface, IVMRImageCompositor interface [DirectShow],CompositeImage method, IVMRImageCompositor.CompositeImage, IVMRImageCompositor::CompositeImage, IVMRImageCompositorCompositeImage, dshow.ivmrimagecompositor_compositeimage, strmif/IVMRImageCompositor::CompositeImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,9 +95,9 @@ Specifies the start time.
 Specifies the end time.
 
 
-### -param dwClrBkGnd
+### -param dwClrBkGnd [in]
 
-TBD
+Specifies the background color.
 
 
 ### -param pVideoStreamInfo [in]
@@ -108,11 +108,6 @@ Pointer to an array of video stream info objects.
 ### -param cStreams [in]
 
 Specifies the number of streams to be mixed, which is equal to the size of the pVideoStreamInfo array.
-
-
-#### - clrBkgnd [in]
-
-Specifies the background color.
 
 
 ## -returns

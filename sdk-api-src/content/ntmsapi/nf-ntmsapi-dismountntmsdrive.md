@@ -7,7 +7,7 @@ old-location: fs\dismountntmsdrive.htm
 tech.root: Rsm
 ms.assetid: dbec501c-a7bc-4679-afe1-df833dcb932d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DismountNtmsDrive, DismountNtmsDrive function [Files], _zaw_dismountntmsdrive, base.dismountntmsdrive, fs.dismountntmsdrive, ntmsapi/DismountNtmsDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices

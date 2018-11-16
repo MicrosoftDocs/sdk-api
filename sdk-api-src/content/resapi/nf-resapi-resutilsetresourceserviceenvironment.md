@@ -4,10 +4,10 @@ title: ResUtilSetResourceServiceEnvironment function
 author: windows-sdk-content
 description: Adjusts the environment data for a service so that the service uses a cluster network name to identify its location. This function must be called from a resource DLL. The PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT type defines a pointer to this function.
 old-location: mscs\resutilsetresourceserviceenvironment.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 607695f5-c542-40b8-922f-b76de6859ca7
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT, PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT function [Failover Cluster], ResUtilSetResourceServiceEnvironment, ResUtilSetResourceServiceEnvironment function [Failover Cluster], _wolf_resutilsetresourceserviceenvironment, mscs.resutilsetresourceserviceenvironment, resapi/PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT, resapi/ResUtilSetResourceServiceEnvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices

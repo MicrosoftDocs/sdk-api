@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_send_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9uqs.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxPort interface [Fax Service],Send property, IFaxPort.Send, IFaxPort.get_Send, IFaxPort::Send, IFaxPort::get_Send, IFaxPort::put_Send, Send property [Fax Service], Send property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send, fax._mfax_ifaxport_mfax_ifaxport_get_send_cpp, faxcom/IFaxPort::Send, faxcom/IFaxPort::get_Send, faxcom/IFaxPort::put_Send, get_Send
 ms.prod: windows-hardware
 ms.technology: windows-devices

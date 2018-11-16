@@ -4,10 +4,10 @@ title: PSYM_ENUMSOURCEFILES_CALLBACK
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumSourceFiles function.
 old-location: base\symenumsourcefilesproc.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: b1d1e967-514d-43da-b470-23228fa03dd9
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PSYM_ENUMSOURCEFILES_CALLBACK, PSYM_ENUMSOURCEFILES_CALLBACKW, SymEnumSourceFilesProc, SymEnumSourceFilesProc callback, SymEnumSourceFilesProc callback function, base.symenumsourcefilesproc, dbghelp/SymEnumSourceFilesProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

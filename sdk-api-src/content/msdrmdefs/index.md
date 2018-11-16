@@ -2,7 +2,7 @@
 UID: NA:msdrmdefs
 ms.assetid: 1265dd49-2078-393e-b0a2-386a7ca10d38
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

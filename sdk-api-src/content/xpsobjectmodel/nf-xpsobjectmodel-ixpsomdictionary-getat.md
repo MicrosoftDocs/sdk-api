@@ -7,7 +7,7 @@ old-location: xps\ixpsomdictionary_getat.htm
 tech.root: printdocs
 ms.assetid: 818797dd-7255-453c-85b3-cf0c44fe5d0d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetAt method, IXpsOMDictionary.GetAt, IXpsOMDictionary::GetAt, xps.ixpsomdictionary_getat, xpsobjectmodel/IXpsOMDictionary::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

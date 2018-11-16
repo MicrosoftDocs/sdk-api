@@ -7,7 +7,7 @@ old-location: dxmath\xmvector2intersectline.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2IntersectLine(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMVector2IntersectLine, XMVector2IntersectLine, XMVector2IntersectLine method [DirectX Math Support APIs], dxmath.xmvector2intersectline
 ms.prod: windows-hardware
 ms.technology: windows-devices

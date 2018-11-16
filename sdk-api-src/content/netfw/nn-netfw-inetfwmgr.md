@@ -7,7 +7,7 @@ old-location: ics\inetfwmgr.htm
 tech.root: ICS
 ms.assetid: 7534ea10-7553-4ec2-af68-0b0393ffc003
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], INetFwMgr interface [ICS/ICF],described, ics.inetfwmgr, netfw/INetFwMgr
 ms.prod: windows-hardware
 ms.technology: windows-devices

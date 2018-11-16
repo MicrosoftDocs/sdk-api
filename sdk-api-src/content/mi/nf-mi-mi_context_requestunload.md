@@ -4,10 +4,10 @@ title: MI_Context_RequestUnload function
 author: windows-sdk-content
 description: Requests to unload the module or the provider.
 old-location: wmi_v2\mi_context_requestunload.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 1eb20bff-326d-4d2f-9b71-a14ca8975597
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Context_RequestUnload, MI_Context_RequestUnload function [Windows Management Infrastructure (MI)], mi/MI_Context_RequestUnload, wmi.mi_requestunload, wmi_v2.mi_context_requestunload
 ms.prod: windows-hardware
 ms.technology: windows-devices

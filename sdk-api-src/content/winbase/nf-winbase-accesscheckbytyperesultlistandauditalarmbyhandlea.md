@@ -4,10 +4,10 @@ title: AccessCheckByTypeResultListAndAuditAlarmByHandleA function
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client that the calling thread is impersonating.
 old-location: security\accesscheckbytyperesultlistandauditalarmbyhandle.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7d3ddce4-40a2-483d-8cff-48d89313b383
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarmByHandle, AccessCheckByTypeResultListAndAuditAlarmByHandle function [Security], AccessCheckByTypeResultListAndAuditAlarmByHandleA, AccessCheckByTypeResultListAndAuditAlarmByHandleW, _win32_accesscheckbytyperesultlistandauditalarmbyhandle, security.accesscheckbytyperesultlistandauditalarmbyhandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleA, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -158,9 +158,9 @@ A pointer to the
 A flag that determines whether the calling application will create a new object when access is granted. A value of <b>TRUE</b> indicates the application will create a new object. A value of <b>FALSE</b> indicates the application will open an existing object.
 
 
-### -param GrantedAccess
+### -param GrantedAccess [out]
 
-TBD
+A pointer to an array of access masks. The function sets each access mask to indicate the access rights granted to the corresponding element in the object type list. If the function fails, it does not set the access masks.
 
 
 ### -param AccessStatusList [out]
@@ -172,11 +172,6 @@ A pointer to an array of status codes for the corresponding elements in the obje
 
 A pointer to a flag set by the audit-generation routine when the function returns. Pass this flag to the 
 <a href="https://msdn.microsoft.com/274f3a62-1833-402b-b362-f526b2bee14b">ObjectCloseAuditAlarm</a> function when the object handle is closed.
-
-
-#### - GrantedAccessList [out]
-
-A pointer to an array of access masks. The function sets each access mask to indicate the access rights granted to the corresponding element in the object type list. If the function fails, it does not set the access masks.
 
 
 ## -returns

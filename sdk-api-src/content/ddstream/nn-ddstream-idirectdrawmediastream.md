@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediastream.htm
 tech.root: DirectShow
 ms.assetid: 858af0c3-9e22-45d8-ab08-307eb39a8977
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IDirectDrawMediaStream, IDirectDrawMediaStream interface [DirectShow], IDirectDrawMediaStream interface [DirectShow],described, IDirectDrawMediaStreamInterface, ddstream/IDirectDrawMediaStream, dshow.idirectdrawmediastream
 ms.prod: windows-hardware
 ms.technology: windows-devices

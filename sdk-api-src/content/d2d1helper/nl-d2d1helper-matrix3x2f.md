@@ -4,10 +4,10 @@ title: Matrix3x2F
 author: windows-sdk-content
 description: The Matrix3x2F class represents a 3-by-2 matrix and provides convenience methods for creating matrices.
 old-location: direct2d\matrix3x2f.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 54b9e75c-6316-44d3-b725-2039f39eeda5
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: Matrix3x2F, Matrix3x2F class [Direct2D], Matrix3x2F class [Direct2D],described, d2d1/Matrix3x2F, direct2d.matrix3x2f
 ms.prod: windows-hardware
 ms.technology: windows-devices

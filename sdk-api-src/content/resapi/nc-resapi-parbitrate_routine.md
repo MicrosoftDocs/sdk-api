@@ -4,10 +4,10 @@ title: PARBITRATE_ROUTINE
 author: windows-sdk-content
 description: Allows a node to attempt to regain ownership of a quorum resource.
 old-location: mscs\arbitrate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: dc16b785-bbb1-4917-a826-e49445a86c26
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: Arbitrate, Arbitrate callback, Arbitrate callback function [Failover Cluster], PARBITRATE_ROUTINE, PARBITRATE_ROUTINE callback function [Failover Cluster], _wolf_arbitrate, mscs.arbitrate, resapi/Arbitrate, resapi/PARBITRATE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,11 +75,36 @@ Address of a <a href="https://msdn.microsoft.com/353eaf47-f93e-4243-8bed-7b6f075
 
 
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The arbitration was successful and the quorum resource remains defended.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">Error code</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The arbitration was not successful.
 
-Returns DWORD that ...
-
-
+</td>
+</tr>
+</table>
+ 
 
 
 

@@ -7,7 +7,7 @@ old-location: netmgmt\netgetdcname.htm
 tech.root: NetMgmt
 ms.assetid: 3e32aacc-088e-455a-bc1b-92274e98d2e5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NetGetDCName, NetGetDCName function [Network Management], _win32_netgetdcname, lmaccess/NetGetDCName, netmgmt.netgetdcname
 ms.prod: windows-hardware
 ms.technology: windows-devices

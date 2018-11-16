@@ -7,7 +7,7 @@ old-location: shell\IExplorerPaneVisibility.htm
 tech.root: shell
 ms.assetid: b940adc2-dfef-49c5-b86c-d0da83db0aad
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IExplorerPaneVisibility, IExplorerPaneVisibility interface [Windows Shell], IExplorerPaneVisibility interface [Windows Shell],described, _shell_IExplorerPaneVisibility, shell.IExplorerPaneVisibility, shobjidl_core/IExplorerPaneVisibility
 ms.prod: windows-hardware
 ms.technology: windows-devices

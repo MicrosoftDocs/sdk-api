@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_sampler_desc.htm
 tech.root: direct3d11
 ms.assetid: 97dd6cac-6657-4a1e-b631-4e5d36994b16
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_SAMPLER_DESC, D3D11_SAMPLER_DESC structure [Direct3D 11], bb0f20c3-8e57-c2fb-f34c-640d23b254ab, d3d11/D3D11_SAMPLER_DESC, direct3d11.d3d11_sampler_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: policy\registergpnotification.htm
 tech.root: Policy
 ms.assetid: 0a758da3-73a8-4d9b-8663-e6cab1a1bd3f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: RegisterGPNotification, RegisterGPNotification function [Group Policy], _win32_registergpnotification, policy.registergpnotification, userenv/RegisterGPNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

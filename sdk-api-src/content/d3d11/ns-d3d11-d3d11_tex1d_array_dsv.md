@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tex1d_array_dsv.htm
 tech.root: direct3d11
 ms.assetid: 9e4233cc-680a-486e-b91a-732d055937d1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 79a5c13b-e6bb-ddae-ebd4-aa756cc5a746, D3D11_TEX1D_ARRAY_DSV, D3D11_TEX1D_ARRAY_DSV structure [Direct3D 11], d3d11/D3D11_TEX1D_ARRAY_DSV, direct3d11.d3d11_tex1d_array_dsv
 ms.prod: windows-hardware
 ms.technology: windows-devices

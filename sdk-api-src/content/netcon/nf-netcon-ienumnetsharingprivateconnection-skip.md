@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingprivateconnection_skip.htm
 tech.root: ICS
 ms.assetid: 2157ab88-02ed-4c04-be07-7bebe3cd85b8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Skip method, IEnumNetSharingPrivateConnection.Skip, IEnumNetSharingPrivateConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPrivateConnection interface, _ics_ienumnetsharingprivateconnection_skip, ics.ienumnetsharingprivateconnection_skip, netcon/IEnumNetSharingPrivateConnection::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

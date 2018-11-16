@@ -7,7 +7,7 @@ old-location: ncd\iwsdhttpmessageparameters_setinboundhttpheaders.htm
 tech.root: WsdApi
 ms.assetid: fd680016-1e6f-4d15-b1ca-cd2b6b210a71
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetInboundHttpHeaders method, IWSDHttpMessageParameters.SetInboundHttpHeaders, IWSDHttpMessageParameters::SetInboundHttpHeaders, SetInboundHttpHeaders, SetInboundHttpHeaders method, SetInboundHttpHeaders method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setinboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetInboundHttpHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

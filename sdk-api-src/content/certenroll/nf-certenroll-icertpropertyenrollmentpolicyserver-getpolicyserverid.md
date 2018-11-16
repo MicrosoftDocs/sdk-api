@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollmentpolicyserver_getpolicyserverid.htm
 tech.root: SecCertEnroll
 ms.assetid: e0cd9f41-d697-4c27-9aff-a37de62d1bad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetPolicyServerId, GetPolicyServerId method [Security], GetPolicyServerId method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPolicyServerId method, ICertPropertyEnrollmentPolicyServer.GetPolicyServerId, ICertPropertyEnrollmentPolicyServer::GetPolicyServerId, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerId, security.icertpropertyenrollmentpolicyserver_getpolicyserverid
 ms.prod: windows-hardware
 ms.technology: windows-devices

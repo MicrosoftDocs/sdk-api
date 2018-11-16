@@ -4,10 +4,10 @@ title: "_OCSP_BASIC_RESPONSE_ENTRY"
 author: windows-sdk-content
 description: Contains the current certificate status for a single certificate.
 old-location: security\ocsp_basic_response_entry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c22f25fd-bbee-45de-9ca0-064b159abb7c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*POCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_GOOD_CERT_STATUS, OCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_RESPONSE_ENTRY structure [Security], OCSP_BASIC_REVOKED_CERT_STATUS, OCSP_BASIC_UNKNOWN_CERT_STATUS, POCSP_BASIC_RESPONSE_ENTRY, POCSP_BASIC_RESPONSE_ENTRY structure pointer [Security], _OCSP_BASIC_RESPONSE_ENTRY, security.ocsp_basic_response_entry, wincrypt/OCSP_BASIC_RESPONSE_ENTRY, wincrypt/POCSP_BASIC_RESPONSE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

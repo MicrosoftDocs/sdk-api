@@ -2,7 +2,7 @@
 UID: NA:apiquery2
 ms.assetid: 2c1cf2bf-a7a5-3d90-a712-935f2e90a02c
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

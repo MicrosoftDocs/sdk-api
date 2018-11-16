@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmsetting_adminemail.htm
 tech.root: Fsrm
 ms.assetid: 5985f697-f982-481c-896e-e6c3834f645d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AdminEmail property [File Server Resource Manager], AdminEmail property [File Server Resource Manager],FsrmSetting class, AdminEmail property [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],AdminEmail property, IFsrmSetting interface [File Server Resource Manager],AdminEmail property, IFsrmSetting.AdminEmail, IFsrmSetting.put_AdminEmail, IFsrmSetting::AdminEmail, IFsrmSetting::get_AdminEmail, IFsrmSetting::put_AdminEmail, fs.ifsrmsetting_adminemail, fsrm.ifsrmsetting_adminemail, fsrm/IFsrmSetting::AdminEmail, fsrm/IFsrmSetting::get_AdminEmail, fsrm/IFsrmSetting::put_AdminEmail, put_AdminEmail
 ms.prod: windows-hardware
 ms.technology: windows-devices

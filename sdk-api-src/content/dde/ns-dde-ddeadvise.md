@@ -7,7 +7,7 @@ old-location: dataxchg\ddeadvise.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddeadvise.htm
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CF_BITMAP, CF_DIB, CF_DIF, CF_ENHMETAFILE, CF_METAFILEPICT, CF_OEMTEXT, CF_PALETTE, CF_PENDATA, CF_RIFF, CF_SYLK, CF_TEXT, CF_TIFF, CF_UNICODETEXT, CF_WAVE, DDEADVISE, DDEADVISE structure [Data Exchange], _win32_DDEADVISE_str, _win32_ddeadvise_str_cpp, dataxchg.ddeadvise, dde/DDEADVISE, winui._win32_ddeadvise_str
 ms.prod: windows-hardware
 ms.technology: windows-devices

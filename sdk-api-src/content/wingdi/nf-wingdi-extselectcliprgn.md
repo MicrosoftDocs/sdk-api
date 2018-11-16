@@ -7,7 +7,7 @@ old-location: gdi\extselectcliprgn.htm
 tech.root: gdi
 ms.assetid: d222defe-2ef9-4622-b2e1-462a91cb1b0a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ExtSelectClipRgn, ExtSelectClipRgn function [Windows GDI], RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, _win32_ExtSelectClipRgn, gdi.extselectcliprgn, wingdi/ExtSelectClipRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

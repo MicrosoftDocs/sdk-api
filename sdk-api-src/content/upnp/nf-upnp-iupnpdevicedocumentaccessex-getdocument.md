@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevicedocumentex_getdocument.htm
 tech.root: UPnP
 ms.assetid: 12778bd4-9e62-42a4-b9b3-29ee9c6d2d40
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDocument, GetDocument method [UPnP APIs], GetDocument method [UPnP APIs],IUPnPDeviceDocumentAccessEx interface, IUPnPDeviceDocumentAccessEx interface [UPnP APIs],GetDocument method, IUPnPDeviceDocumentAccessEx.GetDocument, IUPnPDeviceDocumentAccessEx::GetDocument, upnp.iupnpdevicedocumentex_getdocument, upnp/IUPnPDeviceDocumentAccessEx::GetDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>GetDocument</b> method retrieves the XML device description document for 
 
 
 
-### -param pbstrDocument
-
-TBD
-
-
-
-
-#### - [out, retval]
+### -param pbstrDocument [out, retval]
 
 Receives the XML device description document for the device.
 

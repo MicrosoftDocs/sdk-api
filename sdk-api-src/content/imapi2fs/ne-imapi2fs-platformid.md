@@ -7,7 +7,7 @@ old-location: imapi\platformid.htm
 tech.root: imapi
 ms.assetid: 296f9da1-99be-4d20-8961-f99cf220404a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: PlatformEFI, PlatformId, PlatformId enumeration [IMAPI], PlatformMac, PlatformPowerPC, PlatformX86, imapi.platformid, imapi2fs/PlatformEFI, imapi2fs/PlatformId, imapi2fs/PlatformMac, imapi2fs/PlatformPowerPC, imapi2fs/PlatformX86
 ms.prod: windows-hardware
 ms.technology: windows-devices

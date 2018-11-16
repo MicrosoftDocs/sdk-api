@@ -2,7 +2,7 @@
 UID: NA:windows.media.streaming
 ms.assetid: 9b4f8128-bd7f-360f-973e-176b548774c2
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

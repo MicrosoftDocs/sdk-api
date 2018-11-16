@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceimagesourcenative_registerforupdatesneeded.ht
 tech.root: WinRT
 ms.assetid: D12AE5FD-ED3D-49E5-8E41-B1598C64A108
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IVirtualSurfaceImageSourceNative interface [Windows Runtime],RegisterForUpdatesNeeded method, IVirtualSurfaceImageSourceNative.RegisterForUpdatesNeeded, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded, IVirtualSurfaceImageSourceNative::xaml, RegisterForUpdatesNeeded, RegisterForUpdatesNeeded method [Windows Runtime], RegisterForUpdatesNeeded method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, windows/IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded, winrt.ivirtualsurfaceimagesourcenative_registerforupdatesneeded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Registers for the callback that will perform the drawing when an update to the s
 
 
 
-### -param callback
-
-TBD
-
-
-
-
-#### - pCallback [in]
+### -param callback [in]
 
 Pointer to an implementation of <a href="https://msdn.microsoft.com/76B5E0B6-7DE4-41A4-B33B-2C6A32D47DB1">IVirtualSurfaceUpdatesCallbackNative</a>.
 

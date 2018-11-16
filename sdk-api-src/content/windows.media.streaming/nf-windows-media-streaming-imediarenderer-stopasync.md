@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_stopasync.htm
 tech.root: mediastreaming
 ms.assetid: B6B0F3F2-E95E-4A58-9CBD-CF4CB24FDAD0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],StopAsync method, IMediaRenderer.StopAsync, IMediaRenderer.streaming, IMediaRenderer::StopAsync, IMediaRenderer::streaming, StopAsync, StopAsync method [Media Streaming API], StopAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_stopasync, windows/IMediaRenderer::StopAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

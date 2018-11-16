@@ -4,10 +4,10 @@ title: CLUS_WORKER
 author: windows-sdk-content
 description: Contains information about a worker thread.
 old-location: mscs\clus_worker.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 559b147f-8e8a-4bc7-94ea-e2042f288b6d
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCLUS_WORKER, CLUS_WORKER, CLUS_WORKER structure [Failover Cluster], PCLUS_WORKER, PCLUS_WORKER structure pointer [Failover Cluster], _wolf_clus_worker, mscs.clus_worker, resapi/CLUS_WORKER, resapi/PCLUS_WORKER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

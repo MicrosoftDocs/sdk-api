@@ -7,7 +7,7 @@ old-location: upnp\iupnpasyncresult_asyncoperationcomplete.htm
 tech.root: UPnP
 ms.assetid: C71C0A78-C3D1-4725-99E2-542786B03C8F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method [UPnP APIs], AsyncOperationComplete method [UPnP APIs],IUPnPAsyncResult interface, IUPnPAsyncResult interface [UPnP APIs],AsyncOperationComplete method, IUPnPAsyncResult.AsyncOperationComplete, IUPnPAsyncResult::AsyncOperationComplete, upnp.iupnpasyncresult_asyncoperationcomplete, upnp/IUPnPAsyncResult::AsyncOperationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,13 +67,6 @@ The <b>AsyncOperationComplete</b> callback method provides notification of the c
 
 
 ### -param ullRequestID
-
-TBD
-
-
-
-
-#### - ullRequestId
 
 The handle identifier corresponding to the completed asynchronous I/O operation.
 

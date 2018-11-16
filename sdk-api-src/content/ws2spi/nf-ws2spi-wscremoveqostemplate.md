@@ -4,10 +4,10 @@ title: WSCRemoveQOSTemplate function
 author: windows-sdk-content
 description: Removes the specified QoS template from the system configuration database.
 old-location: winsock\wscremoveqostemplate.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: e3cb8428-98d8-4bc3-926c-baa7cbf5d679
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: WSCRemoveQOSTemplate, WSCRemoveQOSTemplate function [Winsock], winsock.wscremoveqostemplate, ws2spi/WSCRemoveQOSTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

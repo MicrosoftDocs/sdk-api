@@ -7,7 +7,7 @@ old-location: cos\iholder_freeresource.htm
 tech.root: cossdk
 ms.assetid: 1d110bf6-7204-4fbb-abb7-ced7cf885e5b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FreeResource, FreeResource method [COM+], FreeResource method [COM+],IHolder interface, IHolder interface [COM+],FreeResource method, IHolder.FreeResource, IHolder::FreeResource, _dtc_IHolder_FreeResource, comsvcs/IHolder::FreeResource, cos.iholder_freeresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Returns a resource to the inventory.
 
 
 
-### -param __MIDL__IHolder0002
-
-TBD
-
-
-
-
-#### - ResId [in]
+### -param __MIDL__IHolder0002 [in]
 
 The handle of the resource to be freed.
 

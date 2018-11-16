@@ -4,10 +4,10 @@ title: SetClusterResourceDependencyExpression function
 author: windows-sdk-content
 description: Specifies the dependency expression to be associated with the resource referred to by hResource. Any existing dependency relationships for the resource will be overwritten.
 old-location: mscs\setclusterresourcedependencyexpression.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 40f1bff3-1456-4af4-a8fd-8f7998fe60eb
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, PCLUSAPI_SET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION function [Failover Cluster], SetClusterResourceDependencyExpression, SetClusterResourceDependencyExpression function [Failover Cluster], clusapi/PCLUSAPI_SET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, clusapi/SetClusterResourceDependencyExpression, mscs.setclusterresourcedependencyexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices

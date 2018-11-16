@@ -4,10 +4,10 @@ title: ITuningSpace::CreateTuneRequest
 author: windows-sdk-content
 description: The CreateTuneRequest method creates an empty (uninitialized) tune request.
 old-location: mstv\ituningspace_createtunerequest.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 513d4d3e-47df-4a12-80ce-9fc1400af176
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateTuneRequest, CreateTuneRequest method [Microsoft TV Technologies], CreateTuneRequest method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],CreateTuneRequest method, ITuningSpace.CreateTuneRequest, ITuningSpace::CreateTuneRequest, ITuningSpaceCreateTuneRequest, mstv.ituningspace_createtunerequest, tuner/ITuningSpace::CreateTuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>CreateTuneRequest</b> method creates an empty (uninitialized) tune reques
 
 
 
-### -param TuneRequest
-
-TBD
-
-
-
-
-#### - ppTuneRequest [out]
+### -param TuneRequest [out]
 
 Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface of the new tune request object. The caller must release the interface.
 

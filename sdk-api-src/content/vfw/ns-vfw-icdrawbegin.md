@@ -7,7 +7,7 @@ old-location: multimedia\icdrawbegin_struct.htm
 tech.root: Multimedia
 ms.assetid: 1ec2309c-7ea8-423e-aee3-5e0c650f0b3d
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ICDRAWBEGIN, ICDRAWBEGIN structure [Windows Multimedia], ICDRAW_ANIMATE, ICDRAW_BUFFER, ICDRAW_CONTINUE, ICDRAW_FULLSCREEN, ICDRAW_HDC, ICDRAW_MEMORYDC, ICDRAW_QUERY, ICDRAW_RENDER, ICDRAW_UPDATING, multimedia.icdrawbegin_COLLISION9, multimedia.icdrawbegin_struct, vfw/ICDRAWBEGIN
 ms.prod: windows-hardware
 ms.technology: windows-devices

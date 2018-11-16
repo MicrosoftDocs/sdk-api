@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_getangularvelocity.htm
 tech.root: wintouch
 ms.assetid: 3253837f-c5ea-47f7-ba0a-86e0ed4e228e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetAngularVelocity, GetAngularVelocity method [Windows Touch], GetAngularVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetAngularVelocity method, IManipulationProcessor.GetAngularVelocity, IManipulationProcessor::GetAngularVelocity, manipulations/IManipulationProcessor::GetAngularVelocity, wintouch.imanipulationprocessor_getangularvelocity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>GetAngularVelocity</b> method calculates the rotational velocity that the
 
 
 
-### -param angularVelocity
-
-TBD
-
-
-
-
-#### - pAngularVelocity [out]
+### -param angularVelocity [out]
 
 The calculated rotational velocity.
 

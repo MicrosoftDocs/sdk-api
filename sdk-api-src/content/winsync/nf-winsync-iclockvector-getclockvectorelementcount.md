@@ -7,7 +7,7 @@ old-location: winsync\iclockvector_getclockvectorelementcount.htm
 tech.root: winsync
 ms.assetid: 15ce120e-dabc-4827-b317-82784466c1f1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetClockVectorElementCount, GetClockVectorElementCount method [Windows Sync], GetClockVectorElementCount method [Windows Sync],IClockVector interface, IClockVector interface [Windows Sync],GetClockVectorElementCount method, IClockVector.GetClockVectorElementCount, IClockVector::GetClockVectorElementCount, winsync.iclockvector_getclockvectorelementcount, winsync/IClockVector::GetClockVectorElementCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

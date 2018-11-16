@@ -4,10 +4,10 @@ title: RtlDeleteFunctionTable function
 author: windows-sdk-content
 description: Removes a dynamic function table from the dynamic function table list.
 old-location: base\rtldeletefunctiontable.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 42bc3d83-8053-40e9-b153-f68733d0cb2b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: RtlDeleteFunctionTable, RtlDeleteFunctionTable function, base.rtldeletefunctiontable, winnt/RtlDeleteFunctionTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

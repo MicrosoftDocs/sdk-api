@@ -7,7 +7,7 @@ old-location: tsf\itflmlattice_querytype.htm
 tech.root: TSF
 ms.assetid: 199032f7-b97f-4475-9ce3-9af952e13f12
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfLMLattice interface [Text Services Framework],QueryType method, ITfLMLattice.QueryType, ITfLMLattice::QueryType, QueryType, QueryType method [Text Services Framework], QueryType method [Text Services Framework],ITfLMLattice interface, _tsf_itflmlattice_querytype_ref, ctffunc/ITfLMLattice::QueryType, tsf.itflmlattice_querytype
 ms.prod: windows-hardware
 ms.technology: windows-devices

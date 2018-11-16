@@ -4,10 +4,10 @@ title: ISBE2StreamMap::MapStream
 author: windows-sdk-content
 description: Maps a stream to an output pin for a Stream Buffer Source filter.
 old-location: mstv\isbe2streammap_mapstream.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: efe3b21d-9664-4367-9bfe-4c02589370c4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISBE2StreamMap interface [Microsoft TV Technologies],MapStream method, ISBE2StreamMap.MapStream, ISBE2StreamMap::MapStream, MapStream, MapStream method [Microsoft TV Technologies], MapStream method [Microsoft TV Technologies],ISBE2StreamMap interface, mstv.isbe2streammap_mapstream, sbe/ISBE2StreamMap::MapStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

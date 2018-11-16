@@ -7,7 +7,7 @@ old-location: ncd\iwsdhttpaddress_setsecure.htm
 tech.root: WsdApi
 ms.assetid: f2b66d0d-51b2-437e-8ceb-a4c95f2f9d6d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IWSDHttpAddress interface,SetSecure method, IWSDHttpAddress.SetSecure, IWSDHttpAddress::SetSecure, SetSecure, SetSecure method, SetSecure method,IWSDHttpAddress interface, ncd.iwsdhttpaddress_setsecure, wsdbase/IWSDHttpAddress::SetSecure
 ms.prod: windows-hardware
 ms.technology: windows-devices

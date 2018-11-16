@@ -7,7 +7,7 @@ old-location: ics\inetsharingmanager_get_enumpublicconnections.htm
 tech.root: ICS
 ms.assetid: 7db0eb73-8e0f-4267-9a88-20952f3721e2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumPublicConnections method, INetSharingManager.get_EnumPublicConnections, INetSharingManager::get_EnumPublicConnections, _ics_inetsharingmanager_get_enumpublicconnections, get_EnumPublicConnections, get_EnumPublicConnections method [ICS/ICF], get_EnumPublicConnections method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumpublicconnections, netcon/INetSharingManager::get_EnumPublicConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,7 @@ The <b>EnumPublicConnections</b> method retrieves an enumeration interface for p
 This parameter must be ICSSC_DEFAULT.
 
 
-### -param ppColl
-
-TBD
-
-
-
-
-#### - ppEnum [out]
+### -param ppColl [out]
 
 Pointer to a pointer that, on successful return, points to an 
 <a href="https://msdn.microsoft.com/92027ba2-b803-4c9f-ae77-a89074fef718">INetSharingPublicConnectionCollection</a> interface.

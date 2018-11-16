@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplatewritable_template.htm
 tech.root: SecCertEnroll
 ms.assetid: 35eef4e5-fcd9-4017-9d15-d8d418e063e7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Template property, IX509CertificateTemplateWritable.Template, IX509CertificateTemplateWritable.get_Template, IX509CertificateTemplateWritable::Template, IX509CertificateTemplateWritable::get_Template, Template property [Security], Template property [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Template, certenroll/IX509CertificateTemplateWritable::get_Template, get_Template, security.ix509certificatetemplatewritable_template
 ms.prod: windows-hardware
 ms.technology: windows-devices

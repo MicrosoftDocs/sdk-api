@@ -4,10 +4,10 @@ title: IsWindowsServer function
 author: windows-sdk-content
 description: Indicates if the current OS is a Windows Server release.
 old-location: base\iswindowsserver.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 7CC1DD25-762B-489F-AC20-1B57764923A2
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: IsWindowsServer, IsWindowsServer function, base.iswindowsserver, versionhelpers/IsWindowsServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

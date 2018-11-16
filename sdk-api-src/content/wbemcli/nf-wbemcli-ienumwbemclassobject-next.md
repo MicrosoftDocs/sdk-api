@@ -7,7 +7,7 @@ old-location: wmi\ienumwbemclassobject_next.htm
 tech.root: WmiSdk
 ms.assetid: 8bde633b-b04a-4a21-82ce-f5aab1d32d95
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Next method, IEnumWbemClassObject.Next, IEnumWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_next, wbemcli/IEnumWbemClassObject::Next, wmi.ienumwbemclassobject_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,9 +69,12 @@ Use the <b>IEnumWbemClassObject::Next</b> method to
 
 
 
-### -param lTimeout
+### -param lTimeout [in]
 
-TBD
+Specifies the maximum amount of time in milliseconds that the call blocks before returning. If you use the 
+      constant <b>WBEM_INFINITE</b> (0xFFFFFFFF), the call blocks until objects are available. If 
+      you use the value 0 (<b>WBEM_NO_WAIT</b>), the call returns immediately, whether any objects 
+      are available or not.
 
 
 ### -param uCount [in]
@@ -79,9 +82,13 @@ TBD
 Number of requested objects.
 
 
-### -param apObjects
+### -param apObjects [out]
 
-TBD
+Pointer to enough storage to hold the number of 
+      <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> interface pointers specified by 
+      <i>uCount</i>. This storage must be supplied by the caller. This parameter cannot be 
+      <b>NULL</b>. The caller must call <b>Release</b> on each of the received 
+      interface pointers when they are no longer needed.
 
 
 ### -param puReturned [out]
@@ -99,23 +106,6 @@ Pointer to a <b>ULONG</b> that receives the number of objects returned. This num
        logic that examines the <i>puReturned</i> value to ensure that you have reached the end of 
        the enumeration.</div>
 <div> </div>
-
-#### - lTimeOut [in]
-
-Specifies the maximum amount of time in milliseconds that the call blocks before returning. If you use the 
-      constant <b>WBEM_INFINITE</b> (0xFFFFFFFF), the call blocks until objects are available. If 
-      you use the value 0 (<b>WBEM_NO_WAIT</b>), the call returns immediately, whether any objects 
-      are available or not.
-
-
-#### - ppObjects [out]
-
-Pointer to enough storage to hold the number of 
-      <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> interface pointers specified by 
-      <i>uCount</i>. This storage must be supplied by the caller. This parameter cannot be 
-      <b>NULL</b>. The caller must call <b>Release</b> on each of the received 
-      interface pointers when they are no longer needed.
-
 
 ## -returns
 

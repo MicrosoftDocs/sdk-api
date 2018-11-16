@@ -7,7 +7,7 @@ old-location: mbn\imbnpinmanager.htm
 tech.root: mbn
 ms.assetid: b5cfabc7-81f8-4ea0-b6f4-5de011320f0b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMbnPinManager, IMbnPinManager interface [Microsoft Broadband Networks], IMbnPinManager interface [Microsoft Broadband Networks],described, mbn.imbnpinmanager, mbnapi/IMbnPinManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

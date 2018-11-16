@@ -7,7 +7,7 @@ old-location: cos\iappdomainhelper_docallback.htm
 tech.root: cossdk
 ms.assetid: a82c2539-56cd-45ee-b673-a9440818bbc7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DoCallback, DoCallback method [COM+], DoCallback method [COM+],IAppDomainHelper interface, IAppDomainHelper interface [COM+],DoCallback method, IAppDomainHelper.DoCallback, IAppDomainHelper::DoCallback, _cos_IAppDomainHelper_DoCallback, comsvcs/IAppDomainHelper::DoCallback, cos.iappdomainhelper_docallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

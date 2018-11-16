@@ -7,7 +7,7 @@ old-location: base\ivdsremovable_querymedia.htm
 tech.root: VDS
 ms.assetid: 6a56be84-ddf3-4c82-9465-4cb683e993f6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsRemovable interface [VDS],QueryMedia method, IVdsRemovable.QueryMedia, IVdsRemovable::QueryMedia, QueryMedia, QueryMedia method [VDS], QueryMedia method [VDS],IVdsRemovable interface, base.ivdsremovable_querymedia, vds/IVdsRemovable::QueryMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

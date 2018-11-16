@@ -7,7 +7,7 @@ old-location: base\ivdsdrive_setstatus.htm
 tech.root: VDS
 ms.assetid: d74f045f-7b6f-4ede-827d-f7f7486495e8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsDrive interface [VDS],SetStatus method, IVdsDrive.SetStatus, IVdsDrive::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsDrive interface, base.ivdsdrive_setstatus, vds/IVdsDrive::SetStatus, vdshwprv/IVdsDrive::SetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

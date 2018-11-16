@@ -4,10 +4,10 @@ title: IDVB_NIT
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 70b638ae-0152-4a44-aeb1-f3ac382c19ce
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDVB_NIT, IDVB_NIT interface [Microsoft TV Technologies], IDVB_NIT interface [Microsoft TV Technologies],described, IDVB_NITInterface, dvbsiparser/IDVB_NIT, mstv.idvb_nit
 ms.prod: windows-hardware
 ms.technology: windows-devices

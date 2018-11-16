@@ -7,7 +7,7 @@ old-location: upnp\iupnpeventsource_advise.htm
 tech.root: UPnP
 ms.assetid: ec68f4ff-7549-4d48-b347-0320bc55329c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Advise, Advise method [UPnP APIs], Advise method [UPnP APIs],IUPnPEventSource interface, IUPnPEventSource interface [UPnP APIs],Advise method, IUPnPEventSource.Advise, IUPnPEventSource::Advise, _upnp_iupnpeventsource_advise, upnp.iupnpeventsource_advise, upnphost/IUPnPEventSource::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,7 @@ The
 
 
 
-### -param pesSubscriber
-
-TBD
-
-
-
-
-#### - punkSubscriber [in]
+### -param pesSubscriber [in]
 
 Pointer to the device host's 
 <a href="https://msdn.microsoft.com/431423c9-2873-422d-a28c-c4ef23109114">IUPnPEventSink</a> interface.

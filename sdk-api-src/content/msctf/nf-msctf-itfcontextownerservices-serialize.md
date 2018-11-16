@@ -7,7 +7,7 @@ old-location: tsf\itfcontextownerservices_serialize.htm
 tech.root: TSF
 ms.assetid: e67b6fa7-610d-426f-a290-36c0da4068f4
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfContextOwnerServices interface [Text Services Framework],Serialize method, ITfContextOwnerServices.Serialize, ITfContextOwnerServices::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_serialize_ref, msctf/ITfContextOwnerServices::Serialize, tsf.itfcontextownerservices_serialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

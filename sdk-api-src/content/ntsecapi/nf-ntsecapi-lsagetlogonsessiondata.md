@@ -4,10 +4,10 @@ title: LsaGetLogonSessionData function
 author: windows-sdk-content
 description: Retrieves information about a specified logon session.
 old-location: security\lsagetlogonsessiondata.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b1478a7a-f508-4b98-8c7b-adeb2f07bb86
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: LsaGetLogonSessionData, LsaGetLogonSessionData function [Security], _lsa_lsagetlogonsessiondata, ntsecapi/LsaGetLogonSessionData, security.lsagetlogonsessiondata
 ms.prod: windows-hardware
 ms.technology: windows-devices

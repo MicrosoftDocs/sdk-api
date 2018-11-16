@@ -7,7 +7,7 @@ old-location: policy\igrouppolicyobject.htm
 tech.root: Policy
 ms.assetid: b3cd31a1-c238-4eb2-8164-9c4891e6227b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], IGroupPolicyObject interface [Group Policy],described, _win32_igrouppolicyobject, gpedit/IGroupPolicyObject, policy.igrouppolicyobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

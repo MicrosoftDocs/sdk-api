@@ -4,10 +4,10 @@ title: ICertSrvSetup::IsPropertyEditable
 author: windows-sdk-content
 description: Indicates to the caller whether a specified property can be edited.
 old-location: security\icertsrvsetup_ispropertyeditable.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2facae59-aa96-4ac7-97e1-ff094022681a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ICertSrvSetup interface [Security],IsPropertyEditable method, ICertSrvSetup.IsPropertyEditable, ICertSrvSetup::IsPropertyEditable, IsPropertyEditable, IsPropertyEditable method [Security], IsPropertyEditable method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::IsPropertyEditable, security.icertsrvsetup_ispropertyeditable
 ms.prod: windows-hardware
 ms.technology: windows-devices

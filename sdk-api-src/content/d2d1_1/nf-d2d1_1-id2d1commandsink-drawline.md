@@ -4,10 +4,10 @@ title: ID2D1CommandSink::DrawLine
 author: windows-sdk-content
 description: Draws a line drawn between two points.
 old-location: direct2d\id2d1commandsink_drawline.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3c47b5af-d258-42f8-b329-eb28d9485d3a
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: DrawLine, DrawLine method [Direct2D], DrawLine method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawLine method, ID2D1CommandSink.DrawLine, ID2D1CommandSink::DrawLine, d2d1_1/ID2D1CommandSink::DrawLine, direct2d.id2d1commandsink_drawline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,17 +68,23 @@ Draws a line drawn between two points.
 
 ### -param point0
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+
+The start point of the line.
 
 
 ### -param point1
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+
+The end point of the line.
 
 
-### -param brush
+### -param brush [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
+
+The brush used to fill the line.
 
 
 ### -param strokeWidth
@@ -93,27 +99,6 @@ The width of the stroke to fill the line.
 Type: <b><a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a>*</b>
 
 The style of the stroke. If not specified, the stroke is solid.
-
-
-#### - Brush [in]
-
-Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
-
-The brush used to fill the line.
-
-
-#### - Point0
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
-
-The start point of the line.
-
-
-#### - Point1
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
-
-The end point of the line.
 
 
 ## -returns

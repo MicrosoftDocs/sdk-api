@@ -4,10 +4,10 @@ title: ID2D1SvgPaint::GetId
 author: windows-sdk-content
 description: Gets the element id which acts as the paint server. This id is used if the paint type is D2D1_SVG_PAINT_TYPE_URI.
 old-location: direct2d\id2d1svgpaint_getid.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 50701C5C-03F8-4DCD-A29A-2DF57846ED78
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetId, GetId method [Direct2D], GetId method [Direct2D],ID2D1SvgPaint interface, ID2D1SvgPaint interface [Direct2D],GetId method, ID2D1SvgPaint.GetId, ID2D1SvgPaint::GetId, d2d1svg/ID2D1SvgPaint::GetId, direct2d.id2d1svgpaint_getid
 ms.prod: windows-hardware
 ms.technology: windows-devices

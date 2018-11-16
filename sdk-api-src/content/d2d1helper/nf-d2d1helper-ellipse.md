@@ -4,10 +4,10 @@ title: Ellipse function
 author: windows-sdk-content
 description: Creates a D2D1_ELLIPSE structure.
 old-location: direct2d\ellipse.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 49d1b737-acf3-4dd7-81ce-c78ac0558a87
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: Ellipse, Ellipse function [Direct2D], d2d1helper/Ellipse, direct2d.ellipse
 ms.prod: windows-hardware
 ms.technology: windows-devices

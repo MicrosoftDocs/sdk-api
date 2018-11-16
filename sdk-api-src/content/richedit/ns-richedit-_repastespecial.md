@@ -4,10 +4,10 @@ title: "_repastespecial"
 author: windows-sdk-content
 description: Contains information identifying whether the display aspect of a pasted object should be based on the content of the object or the icon that represent the object.
 old-location: controls\REPASTESPECIAL.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\repastespecial.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_ICON, REPASTESPECIAL, REPASTESPECIAL structure [Windows Controls], _repastespecial, _win32_REPASTESPECIAL_str, _win32_REPASTESPECIAL_str_cpp, controls.REPASTESPECIAL, controls._win32_REPASTESPECIAL_str, richedit/REPASTESPECIAL
 ms.prod: windows-hardware
 ms.technology: windows-devices

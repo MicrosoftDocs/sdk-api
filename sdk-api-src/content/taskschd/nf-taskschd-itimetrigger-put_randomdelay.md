@@ -7,7 +7,7 @@ old-location: taskschd\itimetrigger_randomdelay.htm
 tech.root: TaskSchd
 ms.assetid: a5e0e59e-4035-45e6-82d6-a87bd855b1d0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITimeTrigger interface [Task Scheduler],RandomDelay property, ITimeTrigger.RandomDelay, ITimeTrigger.put_RandomDelay, ITimeTrigger::RandomDelay, ITimeTrigger::get_RandomDelay, ITimeTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],ITimeTrigger interface, put_RandomDelay, taskschd.itimetrigger_randomdelay, taskschd/ITimeTrigger::RandomDelay, taskschd/ITimeTrigger::get_RandomDelay, taskschd/ITimeTrigger::put_RandomDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices

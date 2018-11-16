@@ -4,10 +4,10 @@ title: Matrix3x2F::Skew
 author: windows-sdk-content
 description: Creates a skew transformation that has the specified x-axis and y-axis values and center point.
 old-location: direct2d\matrix3x2f_skew.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7d53aaff-3a6f-4949-9835-a30027d247dd
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1.Matrix3x2F.Skew, D2D1::Matrix3x2F::Skew, Matrix3x2F interface [Direct2D],Skew method, Matrix3x2F.Skew, Matrix3x2F::Skew, Skew, Skew method [Direct2D], Skew method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Skew, direct2d.matrix3x2f_skew
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,13 +81,6 @@ The y-axis skew angle, which is measured in degrees clockwise from the x-axis.
 
 
 ### -param center
-
-TBD
-
-
-
-
-#### - centerPoint
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
 

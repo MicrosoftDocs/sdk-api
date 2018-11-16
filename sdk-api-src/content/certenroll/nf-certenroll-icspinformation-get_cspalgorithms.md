@@ -7,7 +7,7 @@ old-location: security\icspinformation_cspalgorithms_property.htm
 tech.root: SecCertEnroll
 ms.assetid: e74f1aa3-883b-40e4-8052-6651eaa4b63f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CspAlgorithms property [Security], CspAlgorithms property [Security],ICspInformation interface, ICspInformation interface [Security],CspAlgorithms property, ICspInformation.CspAlgorithms, ICspInformation.get_CspAlgorithms, ICspInformation::CspAlgorithms, ICspInformation::get_CspAlgorithms, certenroll/ICspInformation::CspAlgorithms, certenroll/ICspInformation::get_CspAlgorithms, get_CspAlgorithms, security.icspinformation_cspalgorithms_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

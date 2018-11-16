@@ -7,7 +7,7 @@ old-location: mf\mt_arbitrary_header.htm
 tech.root: medfound
 ms.assetid: efe2ceb7-32f5-4a43-b4d9-807fe66d6edb
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: MT_ARBITRARY_HEADER, MT_ARBITRARY_HEADER structure [Media Foundation], _MT_ARBITRARY_HEADER, mf.mt_arbitrary_header, mfapi/MT_ARBITRARY_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices

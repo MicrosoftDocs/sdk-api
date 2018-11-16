@@ -4,10 +4,10 @@ title: IComponents
 author: windows-sdk-content
 description: The IComponents interface represents a collection of components.
 old-location: mstv\icomponents.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 670b47ba-bcbd-4281-95e3-a5d784f0610b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IComponents, IComponents interface [Microsoft TV Technologies], IComponents interface [Microsoft TV Technologies],described, IComponentsInterface, mstv.icomponents, tuner/IComponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wcs\translatebitmapbits.htm
 tech.root: WCS
 ms.assetid: c37f821c-fb03-4b98-9ee0-c0ad7fff4685
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: TranslateBitmapBits, TranslateBitmapBits function [Windows Color System], _color_TranslateBitmapBits, icm/TranslateBitmapBits, wcs.translatebitmapbits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,17 +113,12 @@ Specifies the number of bytes from the beginning of one scan line to the beginni
 
 ### -param pfnCallBack
 
-TBD
+Pointer to a callback function called periodically by <b>TranslateBitmapBits</b> to report progress and allow the calling process to cancel the translation. (See <a href="https://msdn.microsoft.com/4e0bfa4c-f0eb-4776-98d6-90d9adf71bee">ICMProgressProcCallback</a> )
 
 
 ### -param ulCallbackData
 
 Data passed back to the callback function, for example, to identify the translation that is reporting progress.
-
-
-#### - pfnCallback
-
-Pointer to a callback function called periodically by <b>TranslateBitmapBits</b> to report progress and allow the calling process to cancel the translation. (See <a href="https://msdn.microsoft.com/4e0bfa4c-f0eb-4776-98d6-90d9adf71bee">ICMProgressProcCallback</a> )
 
 
 ## -returns

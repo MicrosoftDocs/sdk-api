@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerrorinfo_getlocalinfo.htm
 tech.root: OfflineFiles
 ms.assetid: 53e03524-9cb6-4b91-8b2a-bf428a16140e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetLocalInfo, GetLocalInfo method [Offline Files], GetLocalInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetLocalInfo method, IOfflineFilesSyncErrorInfo.GetLocalInfo, IOfflineFilesSyncErrorInfo::GetLocalInfo, cscobj/IOfflineFilesSyncErrorInfo::GetLocalInfo, of.iofflinefilessyncerrorinfo_getlocalinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

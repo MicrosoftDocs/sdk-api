@@ -7,7 +7,7 @@ old-location: wcs\deletecolortransform.htm
 tech.root: WCS
 ms.assetid: 2efd98d8-851f-4a6c-b91b-2430895a7a53
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: DeleteColorTransform, DeleteColorTransform function [Windows Color System], _color_DeleteColorTransform, icm/DeleteColorTransform, wcs.deletecolortransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,13 +65,6 @@ The <b>DeleteColorTransform</b> function deletes a given color transform.
 
 
 ### -param hxform
-
-TBD
-
-
-
-
-#### - hColorTransform
 
 Identifies the color transform to delete.
 

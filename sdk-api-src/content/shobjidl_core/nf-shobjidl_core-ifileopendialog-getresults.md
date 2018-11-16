@@ -7,7 +7,7 @@ old-location: shell\IFileOpenDialog_GetResults.htm
 tech.root: shell
 ms.assetid: 5c710dae-4988-4f19-beb5-2ff9cd11c596
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetResults, GetResults method [Windows Shell], GetResults method [Windows Shell],IFileOpenDialog interface, IFileOpenDialog interface [Windows Shell],GetResults method, IFileOpenDialog.GetResults, IFileOpenDialog::GetResults, shell.IFileOpenDialog_GetResults, shell_IFileOpenDialog_GetResults, shobjidl_core/IFileOpenDialog::GetResults
 ms.prod: windows-hardware
 ms.technology: windows-devices

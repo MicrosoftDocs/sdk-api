@@ -7,7 +7,7 @@ old-location: winrm\wsman_filter.htm
 tech.root: WinRM
 ms.assetid: d99c11a8-e91f-428f-98b1-d3116d027691
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: WSMAN_FILTER, WSMAN_FILTER structure [Windows Remote Management], _WSMAN_FILTER, winrm.wsman_filter, wsman/WSMAN_FILTER
 ms.prod: windows-hardware
 ms.technology: windows-devices

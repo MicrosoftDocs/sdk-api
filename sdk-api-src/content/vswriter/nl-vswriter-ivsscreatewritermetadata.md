@@ -7,7 +7,7 @@ old-location: base\ivsscreatewritermetadata.htm
 tech.root: VSS
 ms.assetid: 427ed302-c3b7-483a-aa48-da6fec1160a9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssCreateWriterMetadata, IVssCreateWriterMetadata interface [VSS], IVssCreateWriterMetadata interface [VSS],described, _win32_ivsscreatewritermetadata, base.ivsscreatewritermetadata, vswriter/IVssCreateWriterMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

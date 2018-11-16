@@ -7,7 +7,7 @@ old-location: fs\beginntmsdevicechangedetection.htm
 tech.root: Rsm
 ms.assetid: d325a10a-5bf9-4431-8a6a-a50c4cf46728
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: BeginNtmsDeviceChangeDetection, BeginNtmsDeviceChangeDetection function [Files], _zaw_beginntmsdevicechangedetection, base.beginntmsdevicechangedetection, fs.beginntmsdevicechangedetection, ntmsapi/BeginNtmsDeviceChangeDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices

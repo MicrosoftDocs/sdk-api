@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_message.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_message.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 3d6907d3-259d-0e6a-db64-2a00690f975d, D3D10_MESSAGE, D3D10_MESSAGE structure [Direct3D 10], d3d10sdklayers/D3D10_MESSAGE, direct3d10.d3d10_message
 ms.prod: windows-hardware
 ms.technology: windows-devices

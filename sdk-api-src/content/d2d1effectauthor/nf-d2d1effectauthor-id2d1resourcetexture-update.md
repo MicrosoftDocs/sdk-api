@@ -4,10 +4,10 @@ title: ID2D1ResourceTexture::Update
 author: windows-sdk-content
 description: Updates the specific resource texture inside the specific range or box using the supplied data.
 old-location: direct2d\id2d1resourcetexture_update.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B2E36886-DAD5-47EA-9252-541283064D98
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1ResourceTexture interface [Direct2D],Update method, ID2D1ResourceTexture.Update, ID2D1ResourceTexture::Update, Update, Update method [Direct2D], Update method [Direct2D],ID2D1ResourceTexture interface, d2d1effectauthor/ID2D1ResourceTexture::Update, direct2d.id2d1resourcetexture_update
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,9 +74,11 @@ Type: <b>const UINT32*</b>
 The "left" extent of the updates if specified; if <b>NULL</b>, the entire texture is updated.
 
 
-### -param maximimumExtents
+### -param maximimumExtents [in, optional]
 
-TBD
+Type: <b>const UINT32*</b>
+
+The "right" extent of the updates if specified; if <b>NULL</b>, the entire texture is updated.
 
 
 ### -param strides [in]
@@ -105,13 +107,6 @@ The data to be placed into the resource texture.
 Type: <b>UINT32</b>
 
 The size of the data buffer to be used to update the resource texture.
-
-
-#### - maximumExtents [in, optional]
-
-Type: <b>const UINT32*</b>
-
-The "right" extent of the updates if specified; if <b>NULL</b>, the entire texture is updated.
 
 
 ## -returns

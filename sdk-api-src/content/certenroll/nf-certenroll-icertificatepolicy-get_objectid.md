@@ -7,7 +7,7 @@ old-location: security\icertificatepolicy_objectid_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 42d1689d-c086-4d67-8e16-997ecd515ae2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICertificatePolicy interface [Security],ObjectId property, ICertificatePolicy.ObjectId, ICertificatePolicy.get_ObjectId, ICertificatePolicy::ObjectId, ICertificatePolicy::get_ObjectId, ObjectId property [Security], ObjectId property [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::ObjectId, certenroll/ICertificatePolicy::get_ObjectId, get_ObjectId, security.icertificatepolicy_objectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

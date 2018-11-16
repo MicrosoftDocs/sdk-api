@@ -7,7 +7,7 @@ old-location: xps\ixpsompartresources_getimageresources.htm
 tech.root: printdocs
 ms.assetid: d30281b7-0b2c-4240-813b-a53c8acb819c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetImageResources, GetImageResources method [XPS Documents and Packaging], GetImageResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetImageResources method, IXpsOMPartResources.GetImageResources, IXpsOMPartResources::GetImageResources, xps.ixpsompartresources_getimageresources, xpsobjectmodel/IXpsOMPartResources::GetImageResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

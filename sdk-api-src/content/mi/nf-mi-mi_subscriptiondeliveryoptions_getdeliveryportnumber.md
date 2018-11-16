@@ -4,10 +4,10 @@ title: MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber function
 author: windows-sdk-content
 description: Gets the previously set delivery port number.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdeliveryportnumber.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 8d3d86c1-6b95-4435-8821-7a0d58a4af5c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber, MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber, wmi_v2.mi_subscriptiondeliveryoptions_getdeliveryportnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

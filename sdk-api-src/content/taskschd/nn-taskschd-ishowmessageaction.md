@@ -7,7 +7,7 @@ old-location: taskschd\ishowmessageaction.htm
 tech.root: TaskSchd
 ms.assetid: 329232de-6068-4757-b567-3ce4d2c5ba4a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IShowMessageAction, IShowMessageAction interface [Task Scheduler], IShowMessageAction interface [Task Scheduler],described, taskschd.ishowmessageaction, taskschd/IShowMessageAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

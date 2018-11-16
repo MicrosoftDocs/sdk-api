@@ -7,7 +7,7 @@ old-location: mf\imfsensortransformfactory_createtransform.htm
 tech.root: medfound
 ms.assetid: 90F986B1-7E1A-43AC-A633-34DD9D53D634
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CreateTransform, CreateTransform method [Media Foundation], CreateTransform method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],CreateTransform method, IMFSensorTransformFactory.CreateTransform, IMFSensorTransformFactory::CreateTransform, mf.imfsensortransformfactory_createtransform, mfidl/IMFSensorTransformFactory::CreateTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,14 +78,10 @@ The identifier of the transform to be created.
 
 The identifier of the transform to be created.
 
+
+### -param ppDeviceMFT [in, optional]
+
 The identifier of the transform to be created.
-
-
-### -param ppDeviceMFT
-
-TBD
-
-
 
 
 ## -returns

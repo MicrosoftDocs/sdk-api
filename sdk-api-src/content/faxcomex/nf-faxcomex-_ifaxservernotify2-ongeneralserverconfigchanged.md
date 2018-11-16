@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_ongeneralserverconfigchanged.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxservernotify2\ongeneralserverconfigchanged.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnGeneralServerConfigChanged method, IFaxServerNotify2.OnGeneralServerConfigChanged, IFaxServerNotify2::OnGeneralServerConfigChanged, OnGeneralServerConfigChanged, OnGeneralServerConfigChanged method [Fax Service], OnGeneralServerConfigChanged method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnGeneralServerConfigChanged, _IFaxServerNotify2::OnGeneralServerConfigChanged, _mfax_ifaxservernotify2_ongeneralserverconfigchanged, fax._mfax_ifaxservernotify2_ongeneralserverconfigchanged, faxcomex/IFaxServerNotify2::OnGeneralServerConfigChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,13 +68,6 @@ Called by the fax service when the <a href="https://msdn.microsoft.com/4f492e5d-
 
 
 ### -param pFaxServer
-
-TBD
-
-
-
-
-#### - pFaxServer2
 
 Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
 

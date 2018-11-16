@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex.htm
 tech.root: imapi
 ms.assetid: 37e65b57-ec53-405c-a7bd-34c2df15d5d7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], IDiscRecorder2Ex interface [IMAPI],described, imapi.idiscrecorder2ex, imapi2/IDiscRecorder2Ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

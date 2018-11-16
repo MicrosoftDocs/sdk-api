@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionsurface_begindraw.htm
 tech.root: directcomp
 ms.assetid: 0D7E90A1-90E4-44BE-A4DA-8DA300C81A35
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: BeginDraw, BeginDraw method [DirectComposition], BeginDraw method [DirectComposition],IDCompositionSurface interface, IDCompositionSurface interface [DirectComposition],BeginDraw method, IDCompositionSurface.BeginDraw, IDCompositionSurface::BeginDraw, dcomp/IDCompositionSurface::BeginDraw, directcomp.idcompositionsurface_begindraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,19 +82,7 @@ Type: <b>REFIID</b>
 The identifier of the interface to retrieve.
 
 
-### -param updateObject
-
-TBD
-
-
-### -param updateOffset [out]
-
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
-
-The offset into the surface where the application should draw updated content. This offset will reference the upper left corner of the update rectangle.
-
-
-#### - upateObject [out]
+### -param updateObject [out]
 
 Type: <b>void**</b>
 
@@ -102,6 +90,13 @@ Receives an interface pointer of the type specified in the <i>iid</i> parameter.
 
 <div class="alert"><b>Note</b>  In Windows 8, this parameter was <i>surface</i>.</div>
 <div> </div>
+
+### -param updateOffset [out]
+
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
+
+The offset into the surface where the application should draw updated content. This offset will reference the upper left corner of the update rectangle.
+
 
 ## -returns
 

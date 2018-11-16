@@ -7,7 +7,7 @@ old-location: dwm\dwmgetunmettabrequirements.htm
 tech.root: dwm
 ms.assetid: 8E67E1BE-D6FC-4A8A-8E71-45B6F337E3BD
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DwmGetUnmetTabRequirements, DwmGetUnmetTabRequirements function [Desktop Window Manager], dwm.dwmgetunmettabrequirements, dwmapi/DwmGetUnmetTabRequirements
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ req.redist:
 The handle of the window to check.
 
 
-### -param arg2
-
-TBD
-
-
-
-
-#### - value [out]
+### -param arg2 [out]
 
 On success, returns a pointer to a   <a href="https://msdn.microsoft.com/8366ABE4-263D-448D-9FC9-3F4DAF9B700D">DWM_TAB_WINDOW_REQUIREMENTS</a> value describing the requirements for placing a tab.
 

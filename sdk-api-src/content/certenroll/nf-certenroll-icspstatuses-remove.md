@@ -7,7 +7,7 @@ old-location: security\icspstatuses_remove_method.htm
 tech.root: SecCertEnroll
 ms.assetid: de8a2598-6108-41af-b049-3b981d880e80
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICspStatuses interface [Security],Remove method, ICspStatuses.Remove, ICspStatuses::Remove, Remove, Remove method [Security], Remove method [Security],ICspStatuses interface, certenroll/ICspStatuses::Remove, security.icspstatuses_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_CLUS_CSV_VOLUME_INFO"
 author: windows-sdk-content
 description: Represents information about a cluster shared volume (CSV).
 old-location: mscs\clus_csv_volume_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: C672B42B-0DB9-4E70-8157-15C3189102EF
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO structure [Failover Cluster], PCLUS_CSV_VOLUME_INFO, PCLUS_CSV_VOLUME_INFO structure pointer [Failover Cluster], _CLUS_CSV_VOLUME_INFO, clusapi/CLUS_CSV_VOLUME_INFO, clusapi/PCLUS_CSV_VOLUME_INFO, mscs.clus_csv_volume_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

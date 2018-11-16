@@ -4,10 +4,10 @@ title: RestoreClusterDatabase function
 author: windows-sdk-content
 description: Restores the cluster database and restarts the Cluster service on the node from which the function is called. This node is called the restoring node.
 old-location: mscs\restoreclusterdatabase.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a0524363-c5dc-449a-aaf6-9bcd9522c9eb
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: RestoreClusterDatabase, RestoreClusterDatabase function [Failover Cluster], _wolf_restoreclusterdatabase, clusapi/RestoreClusterDatabase, mscs.restoreclusterdatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,6 +117,42 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 If the operation fails, the function returns a 
        <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following are possible error 
        codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_CLUSTER_NODE_UP</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation failed because other cluster nodes are currently active. If you call 
+         <a href="https://msdn.microsoft.com/a0524363-c5dc-449a-aaf6-9bcd9522c9eb">RestoreClusterDatabase</a> again with 
+         <i>bForce</i> set to <b>TRUE</b>, the cluster will attempt to shut down 
+         the Cluster service on the other active nodes.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_QUORUM_DISK_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation failed because the quorum disk described in the backup does not match the current quorum 
+         disk. If you call <a href="https://msdn.microsoft.com/a0524363-c5dc-449a-aaf6-9bcd9522c9eb">RestoreClusterDatabase</a> 
+         again with <i>bForce</i> set to <b>TRUE</b>, the cluster will attempt 
+         to change the signature and drive letter of the current quorum disk to the values stored in the backup.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

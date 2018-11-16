@@ -4,10 +4,10 @@ title: IBDA_AutoDemodulateEx::get_SupportedDeviceNodeTypes
 author: windows-sdk-content
 description: The get_SupportedDeviceNodeTypes method retrieves a list of the device node types that the demodulator supports.
 old-location: mstv\ibda_autodemodulateex_get_supporteddevicenodetypes.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 94d105f5-a609-4c10-b63e-61e39ee66fd3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],get_SupportedDeviceNodeTypes method, IBDA_AutoDemodulateEx.get_SupportedDeviceNodeTypes, IBDA_AutoDemodulateEx::get_SupportedDeviceNodeTypes, IBDA_AutoDemodulateExget_SupportedDeviceNodeTypes, bdaiface/IBDA_AutoDemodulateEx::get_SupportedDeviceNodeTypes, get_SupportedDeviceNodeTypes, get_SupportedDeviceNodeTypes method [Microsoft TV Technologies], get_SupportedDeviceNodeTypes method [Microsoft TV Technologies],IBDA_AutoDemodulateEx interface, mstv.ibda_autodemodulateex_get_supporteddevicenodetypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

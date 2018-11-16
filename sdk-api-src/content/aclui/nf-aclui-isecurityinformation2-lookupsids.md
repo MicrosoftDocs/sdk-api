@@ -4,10 +4,10 @@ title: ISecurityInformation2::LookupSids
 author: windows-sdk-content
 description: The LookupSids method returns the common names corresponding to each of the elements in the specified list of SIDs.
 old-location: security\isecurityinformation2_lookupsids.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9a4056c6-6a21-4051-b4a6-c77351fce983
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ISecurityInformation2 interface [Security],LookupSids method, ISecurityInformation2.LookupSids, ISecurityInformation2::LookupSids, LookupSids, LookupSids method [Security], LookupSids method [Security],ISecurityInformation2 interface, _win32_isecurityinformation2_lookupsids, aclui/ISecurityInformation2::LookupSids, security.isecurityinformation2_lookupsids
 ms.prod: windows-hardware
 ms.technology: windows-devices

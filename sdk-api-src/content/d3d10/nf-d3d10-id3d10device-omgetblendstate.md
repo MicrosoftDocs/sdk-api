@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_omgetblendstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omgetblendstate.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],OMGetBlendState method, ID3D10Device.OMGetBlendState, ID3D10Device::OMGetBlendState, OMGetBlendState, OMGetBlendState method [Direct3D 10], OMGetBlendState method [Direct3D 10],ID3D10Device interface, b8350c99-7325-98c2-8067-e749ec016907, d3d10/ID3D10Device::OMGetBlendState, direct3d10.id3d10device_omgetblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,9 +74,11 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).asp
 Address of a pointer to a blend-state interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>).
 
 
-### -param BlendFactor
+### -param BlendFactor [out]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">FLOAT</a></b>
+
+Array of blend factors, one for each RGBA component.
 
 
 ### -param pSampleMask [out]
@@ -84,13 +86,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173595(v=VS.85).aspx">sample mask</a>.
-
-
-#### - BlendFactor[4] [out]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">FLOAT</a></b>
-
-Array of blend factors, one for each RGBA component.
 
 
 ## -returns

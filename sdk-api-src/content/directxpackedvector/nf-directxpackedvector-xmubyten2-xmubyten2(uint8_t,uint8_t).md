@@ -7,7 +7,7 @@ old-location: dxmath\xmubyten2_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTEN2.#ctor(uint8_t,uint8_t)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: XMUBYTEN2 constructor [DirectX Math Support APIs], XMUBYTEN2 constructor [DirectX Math Support APIs],XMUBYTEN2 structure, XMUBYTEN2 structure [DirectX Math Support APIs],XMUBYTEN2 constructor, XMUBYTEN2.XMUBYTEN2(uint8_t,uint8_t), dxmath.xmubyten2_ctor_3
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_interlockedbittestandreset64 function"
 author: windows-sdk-content
 description: Tests the specified bit of the specified LONG64 value and sets it to 0. The operation is atomic.
 old-location: base\interlockedbittestandreset64.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: a0f05333-d391-4596-b4f1-3146b46a6108
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: InterlockedBitTestAndReset64, InterlockedBitTestAndReset64 function, _interlockedbittestandreset64, base.interlockedbittestandreset64, winnt/InterlockedBitTestAndReset64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ Tests the specified bit of the specified <b>LONG64</b> value and sets it to 0. T
 A pointer to a variable.
 
 
-### -param Offset
-
-TBD
-
-
-
-
-#### - Bit [in]
+### -param Offset [in]
 
 The bit position to be tested.
 

@@ -7,7 +7,7 @@ old-location: shell\ULongPtrAdd.htm
 tech.root: shell
 ms.assetid: 83f89ca7-0625-4705-9645-b2b739a9d664
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ULongPtrAdd, ULongPtrAdd function [Windows Shell], _shell_ULongPtrAdd, intsafe/ULongPtrAdd, shell.ULongPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

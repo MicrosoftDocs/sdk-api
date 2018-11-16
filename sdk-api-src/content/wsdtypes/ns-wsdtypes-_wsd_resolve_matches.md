@@ -7,7 +7,7 @@ old-location: ncd\wsd_resolve_matches.htm
 tech.root: WsdApi
 ms.assetid: a6094069-af17-4921-b2c3-4ec89cbbb6f6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: WSD_RESOLVE_MATCHES, WSD_RESOLVE_MATCHES structure, _WSD_RESOLVE_MATCHES, ncd.wsd_resolve_matches, wsdtypes/WSD_RESOLVE_MATCHES
 ms.prod: windows-hardware
 ms.technology: windows-devices

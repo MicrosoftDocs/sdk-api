@@ -4,10 +4,10 @@ title: IMSVidAudioRendererEvent2::AVDDSurroundMode
 author: windows-sdk-content
 description: Indicates a change in the AVDDSurroundMode codec property.
 old-location: mstv\imsvidaudiorendererevent2_avddsurroundmode.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 30a4d8d7-ee77-43bb-b1fc-5be13a9b6872
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AVDDSurroundMode, AVDDSurroundMode method [Microsoft TV Technologies], AVDDSurroundMode method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDDSurroundMode method, IMSVidAudioRendererEvent2.AVDDSurroundMode, IMSVidAudioRendererEvent2::AVDDSurroundMode, mstv.imsvidaudiorendererevent2_avddsurroundmode, segment/IMSVidAudioRendererEvent2::AVDDSurroundMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

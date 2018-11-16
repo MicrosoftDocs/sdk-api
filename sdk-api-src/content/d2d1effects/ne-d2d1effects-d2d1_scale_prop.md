@@ -4,10 +4,10 @@ title: D2D1_SCALE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Scale effect.
 old-location: direct2d\d2d1_scale_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0FBAC940-3E73-4672-AFD7-F29459849592
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_SCALE_PROP, D2D1_SCALE_PROP enumeration [Direct2D], D2D1_SCALE_PROP_BORDER_MODE, D2D1_SCALE_PROP_CENTER_POINT, D2D1_SCALE_PROP_INTERPOLATION_MODE, D2D1_SCALE_PROP_SCALE, D2D1_SCALE_PROP_SHARPNESS, d2d1effects/D2D1_SCALE_PROP, d2d1effects/D2D1_SCALE_PROP_BORDER_MODE, d2d1effects/D2D1_SCALE_PROP_CENTER_POINT, d2d1effects/D2D1_SCALE_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_SCALE_PROP_SCALE, d2d1effects/D2D1_SCALE_PROP_SHARPNESS, direct2d.d2d1_scale_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices

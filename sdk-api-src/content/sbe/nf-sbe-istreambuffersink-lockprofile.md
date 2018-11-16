@@ -4,10 +4,10 @@ title: IStreamBufferSink::LockProfile
 author: windows-sdk-content
 description: The LockProfile method locks the Stream Buffer Sink filter's profile, thereby fixing the number of streams and their media types. This method can also specify the name and location of the stub file that points to the backing files.
 old-location: mstv\istreambuffersink_lockprofile.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 9e694cc2-090e-43b1-88c7-77175a930bf1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],LockProfile method, IStreamBufferSink.LockProfile, IStreamBufferSink::LockProfile, IStreamBufferSinkLockProfile, LockProfile, LockProfile method [Microsoft TV Technologies], LockProfile method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_lockprofile, sbe/IStreamBufferSink::LockProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>LockProfile</b> method locks the Stream Buffer Sink filter's profile, the
 
 
 
-### -param pszStreamBufferFilename
-
-TBD
-
-
-
-
-#### - pszFileName [in]
+### -param pszStreamBufferFilename [in]
 
 Pointer to a null-terminated wide-character string that specifies the full path name of the stub file. If the specified file already exists, the method fails. If <i>pszFilename</i> is <b>NULL</b>, the stub file is created in the current directory with a default file name.
 

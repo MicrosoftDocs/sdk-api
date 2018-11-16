@@ -7,7 +7,7 @@ old-location: gpmc\igpmresult.htm
 tech.root: GPMC
 ms.assetid: 0228ed1a-3a8f-486a-9dd8-806ca35c649e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GPMResult, IGPMResult, IGPMResult interface [GPMC], IGPMResult interface [GPMC],described, _win32_igpmresult, gpmc.igpmresult, gpmgmt/IGPMResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

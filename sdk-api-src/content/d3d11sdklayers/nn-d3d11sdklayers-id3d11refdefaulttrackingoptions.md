@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11refdefaulttrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: B6DD9810-275E-466B-8FE8-64EED0933B45
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11RefDefaultTrackingOptions, ID3D11RefDefaultTrackingOptions interface [Direct3D 11], ID3D11RefDefaultTrackingOptions interface [Direct3D 11],described, d3d11sdklayers/ID3D11RefDefaultTrackingOptions, direct3d11.id3d11refdefaulttrackingoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

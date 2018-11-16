@@ -4,10 +4,10 @@ title: MI_Filter_Evaluate function
 author: windows-sdk-content
 description: The provider calls this function to evaluate an instance against a given filter.
 old-location: wmi_v2\mi_filter_evaluate.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: b826f02d-3764-4f61-996f-42bf01ea44e2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Filter_Evaluate, MI_Filter_Evaluate function [Windows Management Infrastructure (MI)], mi/MI_Filter_Evaluate, wmi_v2.mi_filter_evaluate
 ms.prod: windows-hardware
 ms.technology: windows-devices

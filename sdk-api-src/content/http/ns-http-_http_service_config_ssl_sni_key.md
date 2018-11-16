@@ -7,7 +7,7 @@ old-location: http\http_service_config_ssl_sni_key.htm
 tech.root: Http
 ms.assetid: 0EABB454-B4B9-4912-8E81-7930164B12F2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_SNI_KEY, HTTP_SERVICE_CONFIG_SSL_SNI_KEY, HTTP_SERVICE_CONFIG_SSL_SNI_KEY structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_SNI_KEY, PHTTP_SERVICE_CONFIG_SSL_SNI_KEY structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_SNI_KEY, http.http_service_config_ssl_sni_key, http/HTTP_SERVICE_CONFIG_SSL_SNI_KEY, http/PHTTP_SERVICE_CONFIG_SSL_SNI_KEY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

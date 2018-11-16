@@ -7,7 +7,7 @@ old-location: shell\GetMenuContextHelpId.htm
 tech.root: shell
 ms.assetid: 2b8d3e94-6860-4a75-8373-38afb641eb3b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetMenuContextHelpId, GetMenuContextHelpId function [Windows Shell], _win32_GetMenuContextHelpId, shell.GetMenuContextHelpId, winuser/GetMenuContextHelpId
 ms.prod: windows-hardware
 ms.technology: windows-devices

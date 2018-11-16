@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_owner.htm
 tech.root: DirectShow
 ms.assetid: 9bb21c2a-25c6-43fa-a1b0-9f09944f1326
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Owner method, IVideoWindow.get_Owner, IVideoWindow::get_Owner, IVideoWindowget_Owner, control/IVideoWindow::get_Owner, dshow.ivideowindow_get_owner, get_Owner, get_Owner method [DirectShow], get_Owner method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ The <code>get_Owner</code> method retrieves the video window's parent window, if
 
 
 
-### -param Owner
-
-TBD
-
-
-
-
-#### - pOwner [out]
+### -param Owner [out]
 
 Receives a handle to the window, as an <a href="https://msdn.microsoft.com/en-us/library/Dd390937(v=VS.85).aspx">OAHWND</a> type. If the video window has no parent, this parameter receives the value <b>NULL</b>.
           

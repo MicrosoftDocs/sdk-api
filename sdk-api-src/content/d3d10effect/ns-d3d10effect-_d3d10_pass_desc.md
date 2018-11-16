@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_pass_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_pass_desc.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 5373c44b-9837-094e-9520-1b3a2078a9d6, D3D10_PASS_DESC, D3D10_PASS_DESC structure [Direct3D 10], _D3D10_PASS_DESC, d3d10effect/D3D10_PASS_DESC, direct3d10.d3d10_pass_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

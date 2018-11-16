@@ -7,7 +7,7 @@ old-location: base\ivdsdiskpartitionmf.htm
 tech.root: VDS
 ms.assetid: 84d0918d-479f-4026-b120-11cc21a43233
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsDiskPartitionMF, IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,described, base.ivdsdiskpartitionmf, vds/IVdsDiskPartitionMF
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrm\wsmanrunshellcommandex.htm
 tech.root: WinRM
 ms.assetid: 3FEAB627-C38F-4709-BA17-0AFF76015A97
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: WSManRunShellCommandEx, WSManRunShellCommandEx function [Windows Remote Management], winrm.wsmanrunshellcommandex, wsman/WSManRunShellCommandEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

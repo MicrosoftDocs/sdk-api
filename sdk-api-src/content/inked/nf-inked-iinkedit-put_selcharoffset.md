@@ -7,7 +7,7 @@ old-location: tablet\inkedit_selcharoffset.htm
 tech.root: tablet
 ms.assetid: 535224ff-0b91-4814-8100-b6a52afee370
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 0, IInkEdit interface [Tablet PC],SelCharOffset property, IInkEdit.SelCharOffset, IInkEdit.put_SelCharOffset, IInkEdit::SelCharOffset, IInkEdit::get_SelCharOffset, IInkEdit::put_SelCharOffset, InkEdit.get_SelCharOffset, InkEdit.put_SelCharOffset, NULL, Negative integer, Positive integer, SelCharOffset property [Tablet PC], SelCharOffset property [Tablet PC],IInkEdit interface, get_SelCharOffset, inked/IInkEdit::SelCharOffset, inked/IInkEdit::get_SelCharOffset, inked/IInkEdit::put_SelCharOffset, put_SelCharOffset, tablet.inkedit_selcharoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

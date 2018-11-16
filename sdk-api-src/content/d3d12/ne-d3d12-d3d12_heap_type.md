@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_heap_type.htm
 tech.root: direct3d12
 ms.assetid: 5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D3D12_HEAP_TYPE, D3D12_HEAP_TYPE enumeration, D3D12_HEAP_TYPE_CUSTOM, D3D12_HEAP_TYPE_DEFAULT, D3D12_HEAP_TYPE_READBACK, D3D12_HEAP_TYPE_UPLOAD, d3d12/D3D12_HEAP_TYPE, d3d12/D3D12_HEAP_TYPE_CUSTOM, d3d12/D3D12_HEAP_TYPE_DEFAULT, d3d12/D3D12_HEAP_TYPE_READBACK, d3d12/D3D12_HEAP_TYPE_UPLOAD, direct3d12.d3d12_heap_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

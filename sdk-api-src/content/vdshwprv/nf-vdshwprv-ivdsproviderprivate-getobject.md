@@ -7,7 +7,7 @@ old-location: base\ivdsproviderprivate_getobject.htm
 tech.root: VDS
 ms.assetid: 3f346255-c5c6-4ca3-9718-0347c3f8294a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetObject, GetObject method [VDS], GetObject method [VDS],IVdsProviderPrivate interface, IVdsProviderPrivate interface [VDS],GetObject method, IVdsProviderPrivate.GetObject, IVdsProviderPrivate::GetObject, base.ivdsproviderprivate_getobject, vdshwprv/IVdsProviderPrivate::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

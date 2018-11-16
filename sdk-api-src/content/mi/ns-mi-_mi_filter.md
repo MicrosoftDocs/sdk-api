@@ -4,10 +4,10 @@ title: "_MI_Filter"
 author: windows-sdk-content
 description: Contains a reference to the function table MI_FilterFT.
 old-location: wmi_v2\mi_filter.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 0849cb55-ba2f-4855-ac33-fa96d8ecd94f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Filter, MI_Filter structure [Windows Management Infrastructure (MI)], _MI_Filter, mi/MI_Filter, wmi._mi_filter, wmi_v2.mi_filter
 ms.prod: windows-hardware
 ms.technology: windows-devices

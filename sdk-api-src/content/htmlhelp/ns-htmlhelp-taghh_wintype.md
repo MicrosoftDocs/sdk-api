@@ -7,7 +7,7 @@ old-location: htmlhelp\hh_wintype_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhwintype.htm
 ms.author: windowssdkdev
-ms.date: 10/22/2018
+ms.date: 11/15/2018
 ms.keywords: "*PHH_WINTYPE, HH_WINTYPE, HH_WINTYPE structure [HTML Help Workshop], htmlhelp.hh_wintype_structure, htmlhelp/HH_WINTYPE, tagHH_WINTYPE, vsconStrhhwintype"
 ms.prod: windows-hardware
 ms.technology: windows-devices

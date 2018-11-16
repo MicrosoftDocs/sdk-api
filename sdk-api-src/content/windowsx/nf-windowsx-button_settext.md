@@ -4,10 +4,10 @@ title: Button_SetText macro
 author: windows-sdk-content
 description: Sets the text of a button.
 old-location: controls\Button_SetText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_settext.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Button_SetText, Button_SetText macro [Windows Controls], _win32_Button_SetText, _win32_Button_SetText_cpp, controls.Button_SetText, controls._win32_Button_SetText, windowsx/Button_SetText
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_BrightnessContrast_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrastclass\brightnesscontrastconstructors\brightnesscontrast.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: BrightnessContrast, BrightnessContrast class [GDI+],BrightnessContrast constructor, BrightnessContrast constructor [GDI+], BrightnessContrast constructor [GDI+],BrightnessContrast class, BrightnessContrast.BrightnessContrast, BrightnessContrast::BrightnessContrast, _gdiplus_CLASS_BrightnessContrast_BrightnessContrast_, gdiplus._gdiplus_CLASS_BrightnessContrast_BrightnessContrast_
 ms.prod: windows-hardware
 ms.technology: windows-devices

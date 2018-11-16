@@ -4,10 +4,10 @@ title: "_RAS_USER_1"
 author: windows-sdk-content
 description: The RAS_USER_1 structure contains information for a particular Remote Access Service user. The RAS_USER_1 structure is similar to the RAS_USER_0 structure, except that RAS_USER_1 supports an additional member, bfPrivilege2.
 old-location: rras\ras_user_1.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 4699346e-0ed0-4091-a8d5-8a12cd6bfbcf
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: "*PRAS_USER_1, PRAS_USER_1, PRAS_USER_1 structure pointer [RAS], RASPRIV2_DialinPolicy, RASPRIV_AdminSetCallback, RASPRIV_CallerSetCallback, RASPRIV_DialinPrivilege, RASPRIV_NoCallback, RAS_USER_1, RAS_USER_1 structure [RAS], _RAS_USER_1, _mpr_ras_user_1, mprapi/PRAS_USER_1, mprapi/RAS_USER_1, rras.ras_user_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

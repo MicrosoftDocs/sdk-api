@@ -4,10 +4,10 @@ title: IATSCChannelTuneRequest::get_MinorChannel
 author: windows-sdk-content
 description: The get_MinorChannel method gets the current minor channel.
 old-location: mstv\iatscchanneltunerequest_get_minorchannel.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2b8aa006-faba-472b-836b-0ff1ae134232
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IATSCChannelTuneRequest interface [Microsoft TV Technologies],get_MinorChannel method, IATSCChannelTuneRequest.get_MinorChannel, IATSCChannelTuneRequest::get_MinorChannel, IATSCChannelTuneRequestget_MinorChannel, get_MinorChannel, get_MinorChannel method [Microsoft TV Technologies], get_MinorChannel method [Microsoft TV Technologies],IATSCChannelTuneRequest interface, mstv.iatscchanneltunerequest_get_minorchannel, tuner/IATSCChannelTuneRequest::get_MinorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_MinorChannel</b> method gets the current minor channel.
 
 
 
-### -param MinorChannel
-
-TBD
-
-
-
-
-#### - pMinorChannel [out]
+### -param MinorChannel [out]
 
 Receives the current minor channel. If the value received is -1, the tuner should tune to the first valid minor channel it finds.
 

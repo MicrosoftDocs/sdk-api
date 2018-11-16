@@ -7,7 +7,7 @@ old-location: base\ivdsvolume_shrink.htm
 tech.root: VDS
 ms.assetid: 63ac6ef9-0e84-40ed-a302-4f32316a41cc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsVolume interface [VDS],Shrink method, IVdsVolume.Shrink, IVdsVolume::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsVolume interface, base.ivdsvolume_shrink, vds/IVdsVolume::Shrink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,9 @@ Reduces the size of the volume
 
 
 
-### -param ullNumberOfBytesToRemove
+### -param ullNumberOfBytesToRemove [in]
 
-TBD
+The size of the reduction in bytes.
 
 
 ### -param ppAsync [out]
@@ -84,11 +84,6 @@ The address of an <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c3
       or query the status of the operation. If 
       <a href="https://msdn.microsoft.com/1bb30247-efb8-488f-b142-8912c351f5f2">IVdsAsync::Wait</a> is called and a success HRESULT value is returned, the interfaces returned in 
       the <a href="https://msdn.microsoft.com/21771c6a-eca9-47f3-b6fc-383bca1e11bf">VDS_ASYNC_OUTPUT</a> structure must be released by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method on each interface pointer. However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://msdn.microsoft.com/en-us/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/en-us/library/ms693474(v=VS.85).aspx">FAILED</a> macros defined in Winerror.h.
-
-
-#### - uNumberOfBytesToRemove [in]
-
-The size of the reduction in bytes.
 
 
 ## -returns

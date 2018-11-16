@@ -4,10 +4,10 @@ title: "_CTL_VERIFY_USAGE_STATUS"
 author: windows-sdk-content
 description: Contains information about a Certificate Trust List (CTL) returned by CertVerifyCTLUsage.
 old-location: security\ctl_verify_usage_status.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2b7ef953-9422-4dcf-b293-a78a06bb080e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USAGE_STATUS structure [Security], PCTL_VERIFY_USAGE_STATUS, PCTL_VERIFY_USAGE_STATUS structure pointer [Security], _CTL_VERIFY_USAGE_STATUS, _crypto2_ctl_verify_usage_status, security.ctl_verify_usage_status, wincrypt/CTL_VERIFY_USAGE_STATUS, wincrypt/PCTL_VERIFY_USAGE_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

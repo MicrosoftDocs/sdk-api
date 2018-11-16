@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_adddatasource.htm
 tech.root: medfound
 ms.assetid: 76922DFA-E109-475D-BE09-47501AC7F50E
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AddDataSource, AddDataSource method [Media Foundation], AddDataSource method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],AddDataSource method, IMFTimedText.AddDataSource, IMFTimedText::AddDataSource, mf.imftimedtext_adddatasource, mfmediaengine/IMFTimedText::AddDataSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,19 +66,25 @@ Adds a timed-text data source.
 
 
 
-### -param byteStream
+### -param byteStream [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a>*</b>
 
-
-### -param label
-
-TBD
+A pointer to the <a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a> interface for the data source to add.
 
 
-### -param language
+### -param label [in, optional]
 
-TBD
+Type: <b>LPCWSTR</b>
+
+Null-terminated wide-character string that contains the label of the data source.
+
+
+### -param language [in, optional]
+
+Type: <b>LPCWSTR</b>
+
+Null-terminated wide-character string that contains the language of the data source.
 
 
 ### -param kind [in]
@@ -88,9 +94,11 @@ Type: <b><a href="https://msdn.microsoft.com/FB064449-56D5-48D4-849F-717767F352F
 A <a href="https://msdn.microsoft.com/FB064449-56D5-48D4-849F-717767F352F5">MF_TIMED_TEXT_TRACK_KIND</a>-typed value that specifies the kind of timed-text track.
 
 
-### -param isDefault
+### -param isDefault [in]
 
-TBD
+Type: <b>BOOL</b>
+
+Specifies whether to add the default data source. Specify <b>TRUE</b> to add the default data source or <b>FALSE</b> otherwise.
 
 
 ### -param trackId [out]
@@ -98,34 +106,6 @@ TBD
 Type: <b>DWORD*</b>
 
 Receives a pointer to the unique identifier for the added track.
-
-
-#### - fDefault [in]
-
-Type: <b>BOOL</b>
-
-Specifies whether to add the default data source. Specify <b>TRUE</b> to add the default data source or <b>FALSE</b> otherwise.
-
-
-#### - pByteStream [in]
-
-Type: <b><a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a>*</b>
-
-A pointer to the <a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a> interface for the data source to add.
-
-
-#### - pLabel [in, optional]
-
-Type: <b>LPCWSTR</b>
-
-Null-terminated wide-character string that contains the label of the data source.
-
-
-#### - pLanguage [in, optional]
-
-Type: <b>LPCWSTR</b>
-
-Null-terminated wide-character string that contains the language of the data source.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_setrestoreoptions.htm
 tech.root: VSS
 ms.assetid: 4a872594-dcd8-463d-9f6b-6bc40c17df38
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRestoreOptions method, IVssBackupComponents.SetRestoreOptions, IVssBackupComponents::SetRestoreOptions, SetRestoreOptions, SetRestoreOptions method [VSS], SetRestoreOptions method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrestoreoptions, base.ivssbackupcomponents_setrestoreoptions, vsbackup/IVssBackupComponents::SetRestoreOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,9 +73,10 @@ The <b>SetRestoreOptions</b> method
 Writer identifier.
 
 
-### -param ct
+### -param ct [in]
 
-TBD
+Type of the component. See <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> 
+      for the possible values.
 
 
 ### -param wszLogicalPath [in]
@@ -107,12 +108,6 @@ The string cannot be <b>NULL</b> and should contain the same component name as w
 Null-terminated wide character string containing the private string of restore parameters. For more 
       information see <a href="https://msdn.microsoft.com/364550a1-070a-4f7e-bd62-84672959dc21">Setting VSS Restore 
       Options</a>.
-
-
-#### - componentType [in]
-
-Type of the component. See <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> 
-      for the possible values.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: upnp\iupnpservicecallback_statevariablechanged.htm
 tech.root: UPnP
 ms.assetid: 68dac38e-535b-491e-a9a5-0f6bccb7fcc1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IUPnPServiceCallback interface [UPnP APIs],StateVariableChanged method, IUPnPServiceCallback.StateVariableChanged, IUPnPServiceCallback::StateVariableChanged, StateVariableChanged, StateVariableChanged method [UPnP APIs], StateVariableChanged method [UPnP APIs],IUPnPServiceCallback interface, _upnp_iupnpservicecallback_statevariablechanged, upnp.iupnpservicecallback_statevariablechanged, upnp/IUPnPServiceCallback::StateVariableChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,14 +78,7 @@ Reference to an
 Reference to a string that specifies the name of the state variable that has changed.
 
 
-### -param vaValue
-
-TBD
-
-
-
-
-#### - varValue [in]
+### -param vaValue [in]
 
 Specifies the new value. The type of the data returned depends on the data type of the state variable for which the notification is sent.
 

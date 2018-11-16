@@ -7,7 +7,7 @@ old-location: ics\net_fw_policy_type.htm
 tech.root: ICS
 ms.assetid: 10b052d6-55d1-4583-9fd4-ebb02548d1db
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NET_FW_POLICY_EFFECTIVE, NET_FW_POLICY_GROUP, NET_FW_POLICY_LOCAL, NET_FW_POLICY_TYPE, NET_FW_POLICY_TYPE enumeration [ICS/ICF], NET_FW_POLICY_TYPE_, NET_FW_POLICY_TYPE_MAX, icftypes/NET_FW_POLICY_EFFECTIVE, icftypes/NET_FW_POLICY_GROUP, icftypes/NET_FW_POLICY_LOCAL, icftypes/NET_FW_POLICY_TYPE, icftypes/NET_FW_POLICY_TYPE_MAX, ics.net_fw_policy_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

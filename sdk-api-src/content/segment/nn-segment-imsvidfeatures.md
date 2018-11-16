@@ -4,10 +4,10 @@ title: IMSVidFeatures
 author: windows-sdk-content
 description: The IMSVidFeatures interface represents a collection of Video Control features.
 old-location: mstv\imsvidfeatures.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 19790fab-0530-4a17-8a3c-a50576fea9ca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidFeatures, IMSVidFeatures interface [Microsoft TV Technologies], IMSVidFeatures interface [Microsoft TV Technologies],described, IMSVidFeaturesInterface, mstv.imsvidfeatures, segment/IMSVidFeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices

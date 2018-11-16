@@ -4,10 +4,10 @@ title: InitOnceComplete function
 author: windows-sdk-content
 description: Completes one-time initialization started with the InitOnceBeginInitialize function.
 old-location: base\initoncecomplete.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: aad1d1f6-5415-443a-94d2-f4a4d9b68750
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: INIT_ONCE_ASYNC, INIT_ONCE_INIT_FAILED, InitOnceComplete, InitOnceComplete function, base.initoncecomplete, synchapi/InitOnceComplete, winbase/InitOnceComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

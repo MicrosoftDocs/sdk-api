@@ -4,10 +4,10 @@ title: IXDSCodec::get_XDSToRatObjOK
 author: windows-sdk-content
 description: The get_XDSToRatObjOK method queries whether the XDSToRat object was created successfully.
 old-location: mstv\ixdscodec_get_xdstoratobjok.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 846f3f68-8745-416d-9f0e-1e6ef83054b2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IXDSCodec interface [Microsoft TV Technologies],get_XDSToRatObjOK method, IXDSCodec.get_XDSToRatObjOK, IXDSCodec::get_XDSToRatObjOK, IXDSCodecXDSToRatObjOK, encdec/IXDSCodec::get_XDSToRatObjOK, get_XDSToRatObjOK, get_XDSToRatObjOK method [Microsoft TV Technologies], get_XDSToRatObjOK method [Microsoft TV Technologies],IXDSCodec interface, mstv.ixdscodec_get_xdstoratobjok
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ISBE2Crossbar::EnumStreams
 author: windows-sdk-content
 description: Gets an enumeration object for all streams that are discovered in a WTV file. The filter crossbar, which exposes the ISBE2Crossbar interface, manages the mappings between the streams in the WTV file and the filter output pins.
 old-location: mstv\isbe2crossbar_enumstreams.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 891dc676-8930-41bc-a0ae-4a080c6d4cd6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: EnumStreams, EnumStreams method [Microsoft TV Technologies], EnumStreams method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],EnumStreams method, ISBE2Crossbar.EnumStreams, ISBE2Crossbar::EnumStreams, mstv.isbe2crossbar_enumstreams, sbe/ISBE2Crossbar::EnumStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

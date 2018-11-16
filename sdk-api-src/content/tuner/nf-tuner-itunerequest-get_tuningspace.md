@@ -4,10 +4,10 @@ title: ITuneRequest::get_TuningSpace
 author: windows-sdk-content
 description: The get_TuningSpace method retrieves the tuning space that was used to create this tune request.
 old-location: mstv\itunerequest_get_tuningspace.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 6952df72-30f3-4c33-a0bf-d2ad8022042c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITuneRequest interface [Microsoft TV Technologies],get_TuningSpace method, ITuneRequest.get_TuningSpace, ITuneRequest::get_TuningSpace, ITuneRequestget_TuningSpace, get_TuningSpace, get_TuningSpace method [Microsoft TV Technologies], get_TuningSpace method [Microsoft TV Technologies],ITuneRequest interface, mstv.itunerequest_get_tuningspace, tuner/ITuneRequest::get_TuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_TuningSpace</b> method retrieves the tuning space that was used to cr
 
 
 
-### -param TuningSpace
-
-TBD
-
-
-
-
-#### - ppTuningSpace [out]
+### -param TuningSpace [out]
 
 Receives a pointer to the <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> interface. The caller must release the interface.
 

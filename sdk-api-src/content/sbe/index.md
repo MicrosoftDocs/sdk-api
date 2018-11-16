@@ -2,7 +2,7 @@
 UID: NA:sbe
 ms.assetid: 397e5057-fe32-3693-a12a-9d2f44573dd7
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

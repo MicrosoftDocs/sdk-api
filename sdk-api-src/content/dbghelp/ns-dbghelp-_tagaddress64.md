@@ -4,10 +4,10 @@ title: "_tagADDRESS64"
 author: windows-sdk-content
 description: Represents an address. It is used in the STACKFRAME64 structure.
 old-location: base\address64_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f49249e5-ef02-4e1f-9c08-1c7fe25ee71c
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPADDRESS64, ADDRESS, ADDRESS structure, ADDRESS64, ADDRESS64 structure, AddrMode1616, AddrMode1632, AddrModeFlat, AddrModeReal, LPADDRESS64, LPADDRESS64 structure pointer, _tagADDRESS64, _win32_address64_str, base.address64_str, dbghelp/ADDRESS64, dbghelp/LPADDRESS64"
 ms.prod: windows-hardware
 ms.technology: windows-devices

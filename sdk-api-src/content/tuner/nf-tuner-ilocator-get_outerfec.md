@@ -4,10 +4,10 @@ title: ILocator::get_OuterFEC
 author: windows-sdk-content
 description: The get_OuterFEC method gets the type of outer FEC that is used.
 old-location: mstv\ilocator_get_outerfec.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d32937e1-0b8c-485e-8bd0-df15ab2ed373
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDigitalLocatorget_OuterFEC, ILocator interface [Microsoft TV Technologies],get_OuterFEC method, ILocator.get_OuterFEC, ILocator::get_OuterFEC, get_OuterFEC, get_OuterFEC method [Microsoft TV Technologies], get_OuterFEC method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_outerfec, tuner/ILocator::get_OuterFEC
 ms.prod: windows-hardware
 ms.technology: windows-devices

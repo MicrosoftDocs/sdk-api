@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributeinfo_getdescription.htm
 tech.root: TSF
 ms.assetid: e65aedac-284d-4e2a-b574-fc469f66e06e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetDescription, GetDescription method [Text Services Framework], GetDescription method [Text Services Framework],ITfDisplayAttributeInfo interface, ITfDisplayAttributeInfo interface [Text Services Framework],GetDescription method, ITfDisplayAttributeInfo.GetDescription, ITfDisplayAttributeInfo::GetDescription, _tsf_itfdisplayattributeinfo_getdescription_ref, msctf/ITfDisplayAttributeInfo::GetDescription, tsf.itfdisplayattributeinfo_getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IBroadcastEvent::Fire
 author: windows-sdk-content
 description: The Fire method fires a broadcast event.
 old-location: mstv\ibroadcastevent_fire.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 974b42d7-bf68-426b-a146-4e520cac3274
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Fire, Fire method [Microsoft TV Technologies], Fire method [Microsoft TV Technologies],IBroadcastEvent interface, IBroadcastEvent interface [Microsoft TV Technologies],Fire method, IBroadcastEvent.Fire, IBroadcastEvent::Fire, IBroadcastEventFire, mstv.ibroadcastevent_fire, tuner/IBroadcastEvent::Fire
 ms.prod: windows-hardware
 ms.technology: windows-devices

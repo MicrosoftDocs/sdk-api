@@ -4,10 +4,10 @@ title: ITuner::Validate
 author: windows-sdk-content
 description: The Validate method returns a value indicating that the tune request can be carried out.
 old-location: mstv\ituner_validate.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 10b238b1-1c71-4104-8c2d-f8446f0a3466
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],Validate method, ITuner.Validate, ITuner::Validate, ITunerValidate, Validate, Validate method [Microsoft TV Technologies], Validate method [Microsoft TV Technologies],ITuner interface, mstv.ituner_validate, tuner/ITuner::Validate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>Validate</b> method returns a value indicating that the tune request can 
 
 
 
-### -param TuneRequest
-
-TBD
-
-
-
-
-#### - pTuneRequest [in]
+### -param TuneRequest [in]
 
 Pointer to the tune request object.
 

@@ -7,7 +7,7 @@ old-location: lwef\iactivedesktop_adddesktopitemwithui_method.htm
 tech.root: lwef
 ms.assetid: ac582bd7-9fd1-4134-a866-69319ef3d96e
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/15/2018
 ms.keywords: AddDesktopItemWithUI, AddDesktopItemWithUI method [Legacy Windows Environment Features], AddDesktopItemWithUI method [Legacy Windows Environment Features],IActiveDesktop interface, DTI_ADDUI_DEFAULT, DTI_ADDUI_DISPSUBWIZARD, DTI_ADDUI_POSITIONITEM, IActiveDesktop interface [Legacy Windows Environment Features],AddDesktopItemWithUI method, IActiveDesktop.AddDesktopItemWithUI, IActiveDesktop::AddDesktopItemWithUI, _win32_IActiveDesktop_AddDesktopItemWithUI_Method, lwef.iactivedesktop_adddesktopitemwithui_method, shell.iactivedesktop_adddesktopitemwithui_method, shlobj_core/IActiveDesktop::AddDesktopItemWithUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,13 +81,6 @@ Address of the <a href="https://msdn.microsoft.com/2692a2d6-1d33-410f-987c-8388c
 
 
 ### -param dwReserved
-
-TBD
-
-
-
-
-#### - dwFlags
 
 Type: <b>DWORD</b>
 

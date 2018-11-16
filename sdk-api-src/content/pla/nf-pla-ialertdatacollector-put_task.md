@@ -7,7 +7,7 @@ old-location: pla\ialertdatacollector_task.htm
 tech.root: PLA
 ms.assetid: a86f8524-3564-4a65-9574-1709f82280d8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IAlertDataCollector interface [PLA],Task property, IAlertDataCollector.Task, IAlertDataCollector.put_Task, IAlertDataCollector::Task, IAlertDataCollector::get_Task, IAlertDataCollector::put_Task, Task property [PLA], Task property [PLA],IAlertDataCollector interface, base.ialertdatacollector_task, pla.ialertdatacollector_task, pla/IAlertDataCollector::Task, pla/IAlertDataCollector::get_Task, pla/IAlertDataCollector::put_Task, put_Task
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrm\iwsmanconnectionoptionsex_certificatethumbprint.htm
 tech.root: WinRM
 ms.assetid: 049cf5b9-3914-495f-b54b-116dd271e4a1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: CertificateThumbprint property [Windows Remote Management], CertificateThumbprint property [Windows Remote Management],IWSManConnectionOptionsEx interface, IWSManConnectionOptionsEx interface [Windows Remote Management],CertificateThumbprint property, IWSManConnectionOptionsEx.CertificateThumbprint, IWSManConnectionOptionsEx.put_CertificateThumbprint, IWSManConnectionOptionsEx::CertificateThumbprint, IWSManConnectionOptionsEx::get_CertificateThumbprint, IWSManConnectionOptionsEx::put_CertificateThumbprint, put_CertificateThumbprint, winrm.iwsmanconnectionoptionsex_certificatethumbprint, wsmandisp/IWSManConnectionOptionsEx::CertificateThumbprint, wsmandisp/IWSManConnectionOptionsEx::get_CertificateThumbprint, wsmandisp/IWSManConnectionOptionsEx::put_CertificateThumbprint
 ms.prod: windows-hardware
 ms.technology: windows-devices

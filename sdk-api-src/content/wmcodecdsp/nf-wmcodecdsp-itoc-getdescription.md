@@ -7,7 +7,7 @@ old-location: mf\itoc_getdescription.htm
 tech.root: medfound
 ms.assetid: 660d4da9-ddbc-466c-ab1a-7e60ecf61473
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescription method, IToc.GetDescription, IToc::GetDescription, codecapi.itoc_getdescription, mf.itoc_getdescription, wmcodecdsp/IToc::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

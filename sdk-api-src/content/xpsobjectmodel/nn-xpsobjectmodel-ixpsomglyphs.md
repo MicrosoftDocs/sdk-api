@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs.htm
 tech.root: printdocs
 ms.assetid: 6d2cda65-c719-46f2-97c9-8aee7b5f84b9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], IXpsOMGlyphs interface [XPS Documents and Packaging],described, xps.ixpsomglyphs, xpsobjectmodel/IXpsOMGlyphs
 ms.prod: windows-hardware
 ms.technology: windows-devices

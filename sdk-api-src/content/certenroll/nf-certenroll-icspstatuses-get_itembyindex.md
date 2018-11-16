@@ -7,7 +7,7 @@ old-location: security\icspstatuses_itembyindex_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 41ccbe27-165d-42d1-95b4-0b96565818aa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICspStatuses interface [Security],ItemByIndex property, ICspStatuses.ItemByIndex, ICspStatuses.get_ItemByIndex, ICspStatuses::ItemByIndex, ICspStatuses::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByIndex, certenroll/ICspStatuses::get_ItemByIndex, get_ItemByIndex, security.icspstatuses_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

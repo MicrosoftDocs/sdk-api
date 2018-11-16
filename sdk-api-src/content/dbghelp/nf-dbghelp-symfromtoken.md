@@ -4,10 +4,10 @@ title: SymFromToken function
 author: windows-sdk-content
 description: Retrieves symbol information for the specified managed code token.
 old-location: base\symfromtoken.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: ecef5213-9301-4ca0-852c-1e6be0d7b2a5
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymFromToken, SymFromToken function, SymFromTokenW, base.symfromtoken, dbghelp/SymFromToken, dbghelp/SymFromTokenW
 ms.prod: windows-hardware
 ms.technology: windows-devices

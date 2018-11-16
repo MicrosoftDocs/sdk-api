@@ -4,10 +4,10 @@ title: KeyCredentialManagerInfo
 author: windows-sdk-content
 description: Data structure returned from KeyCredentialManagerGetInformation.
 old-location: security\keycredentialmanagerinfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: BF573834-FA5A-4ADE-9E19-389B1A15A1F8
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: KeyCredentialManagerInfo, KeyCredentialManagerInfo structure [Security], PKeyCredentialManagerInfo, PKeyCredentialManagerInfo structure pointer [Security], keycredmgr/KeyCredentialManagerInfo, keycredmgr/PKeyCredentialManagerInfo, security.keycredentialmanagerinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

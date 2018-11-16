@@ -7,7 +7,7 @@ old-location: security\ix509extensionalternativenames_initializeencode_method.ht
 tech.root: SecCertEnroll
 ms.assetid: e520b2b4-c181-4fb1-98e8-f159bd0d31b4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509ExtensionAlternativeNames interface [Security],InitializeEncode method, IX509ExtensionAlternativeNames.InitializeEncode, IX509ExtensionAlternativeNames::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionAlternativeNames interface, certenroll/IX509ExtensionAlternativeNames::InitializeEncode, security.ix509extensionalternativenames_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

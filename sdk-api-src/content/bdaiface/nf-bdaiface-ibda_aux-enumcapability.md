@@ -4,10 +4,10 @@ title: IBDA_AUX::EnumCapability
 author: windows-sdk-content
 description: Gets the capabilities of an auxiliary connector, specified by index.
 old-location: mstv\ibda_aux_enumcapability.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 5f04c080-81c9-4aa9-ba54-5e16a538f10a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: EnumCapability, EnumCapability method [Microsoft TV Technologies], EnumCapability method [Microsoft TV Technologies],IBDA_AUX interface, IBDA_AUX interface [Microsoft TV Technologies],EnumCapability method, IBDA_AUX.EnumCapability, IBDA_AUX::EnumCapability, PBDA_AUX_CONNECTOR_TYPE_Composite, PBDA_AUX_CONNECTOR_TYPE_SVideo, bdaiface/IBDA_AUX::EnumCapability, mstv.ibda_aux_enumcapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

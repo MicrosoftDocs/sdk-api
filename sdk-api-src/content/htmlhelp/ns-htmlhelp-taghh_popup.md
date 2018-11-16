@@ -7,7 +7,7 @@ old-location: htmlhelp\hh_popup_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhpopup.htm
 ms.author: windowssdkdev
-ms.date: 10/22/2018
+ms.date: 11/15/2018
 ms.keywords: HH_POPUP, HH_POPUP structure [HTML Help Workshop], htmlhelp.hh_popup_structure, htmlhelp/HH_POPUP, tagHH_POPUP, vsconStrhhpopup
 ms.prod: windows-hardware
 ms.technology: windows-devices

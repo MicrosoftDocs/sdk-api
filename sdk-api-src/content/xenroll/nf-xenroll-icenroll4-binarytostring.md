@@ -4,10 +4,10 @@ title: ICEnroll4::binaryToString
 author: windows-sdk-content
 description: Converts a binary data BLOB to a string. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_binarytostring.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 43358d84-ccdd-49a8-be1d-bb5e8ddd1397
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CEnroll object [Security],binaryToString method, ICEnroll4 interface [Security],binaryToString method, ICEnroll4.binaryToString, ICEnroll4::binaryToString, _xen_icenroll4_binarytostring, binaryToString, binaryToString method [Security], binaryToString method [Security],CEnroll object, binaryToString method [Security],ICEnroll4 interface, security.icenroll4_binarytostring, xenroll/ICEnroll4::binaryToString
 ms.prod: windows-hardware
 ms.technology: windows-devices

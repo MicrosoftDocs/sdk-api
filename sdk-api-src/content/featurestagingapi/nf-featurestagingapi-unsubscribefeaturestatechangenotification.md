@@ -4,10 +4,10 @@ title: UnsubscribeFeatureStateChangeNotification function
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\unsubscribefeaturestatechangenotification.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 489FFAE2-E2A0-4DE2-B66A-7165E28CD90A
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: UnsubscribeFeatureStateChangeNotification, UnsubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/UnsubscribeFeatureStateChangeNotification, winprog.unsubscribefeaturestatechangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

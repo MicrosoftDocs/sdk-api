@@ -7,7 +7,7 @@ old-location: base\ivdssubsystem_reenumerate.htm
 tech.root: VDS
 ms.assetid: 9d6118bb-7b13-4ae1-9faf-9c17ada20511
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsSubSystem interface [VDS],Reenumerate method, IVdsSubSystem.Reenumerate, IVdsSubSystem::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsSubSystem interface, base.ivdssubsystem_reenumerate, vds/IVdsSubSystem::Reenumerate, vdshwprv/IVdsSubSystem::Reenumerate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnextkeyframetime.htm
 tech.root: Multimedia
 ms.assetid: 5eb338aa-6ccb-4adc-a46c-9f796c36a121
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AVIStreamNextKeyFrameTime, AVIStreamNextKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamNextKeyFrameTime, multimedia.avistreamnextkeyframetime, vfw/AVIStreamNextKeyFrameTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

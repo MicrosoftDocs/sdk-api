@@ -7,7 +7,7 @@ old-location: security\icertificationauthorities_clear.htm
 tech.root: SecCertEnroll
 ms.assetid: 191f5abd-515d-4a84-8031-466c9de977cb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Clear method, ICertificationAuthorities.Clear, ICertificationAuthorities::Clear, certenroll/ICertificationAuthorities::Clear, security.icertificationauthorities_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

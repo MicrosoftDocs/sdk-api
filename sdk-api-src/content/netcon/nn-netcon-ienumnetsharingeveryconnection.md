@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingeveryconnection.htm
 tech.root: ICS
 ms.assetid: d3be8047-e0d5-44b7-97d9-536bc4aa11c5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], IEnumNetSharingEveryConnection interface [ICS/ICF],described, _ics_ienumnetsharingeveryconnection, ics.ienumnetsharingeveryconnection, netcon/IEnumNetSharingEveryConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

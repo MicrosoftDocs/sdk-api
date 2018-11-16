@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_getcurrentmode.htm
 tech.root: DirectShow
 ms.assetid: 036914da-4223-4601-9e4a-4c7840b7dd22
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetCurrentMode, GetCurrentMode method [DirectShow], GetCurrentMode method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetCurrentMode method, IFullScreenVideoEx.GetCurrentMode, IFullScreenVideoEx::GetCurrentMode, IFullScreenVideoGetCurrentMode, amvideo/IFullScreenVideoEx::GetCurrentMode, dshow.ifullscreenvideoex_getcurrentmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

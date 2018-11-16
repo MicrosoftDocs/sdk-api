@@ -7,7 +7,7 @@ old-location: taskschd\iregistrationinfo.htm
 tech.root: TaskSchd
 ms.assetid: e04f0c47-ab89-49e4-aac6-028d2555ecf1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], IRegistrationInfo interface [Task Scheduler],described, registration information [Task Scheduler],interface, taskschd.iregistrationinfo, taskschd/IRegistrationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

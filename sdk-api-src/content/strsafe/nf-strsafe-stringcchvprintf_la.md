@@ -7,7 +7,7 @@ old-location: menurc\stringcchvprintf_l.htm
 tech.root: menurc
 ms.assetid: 90c83405-f2c8-480b-883c-c3ce258016cd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: StringCchVPrintf_l, StringCchVPrintf_l function [Menus and Other Resources], StringCchVPrintf_lA, StringCchVPrintf_lW, menurc.stringcchvprintf_l, strsafe/StringCchVPrintf_l, strsafe/StringCchVPrintf_lA, strsafe/StringCchVPrintf_lW
 ms.prod: windows-hardware
 ms.technology: windows-devices

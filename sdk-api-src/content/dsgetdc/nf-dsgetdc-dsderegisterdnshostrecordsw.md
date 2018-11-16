@@ -7,7 +7,7 @@ old-location: ad\dsderegisterdnshostrecords.htm
 tech.root: ad
 ms.assetid: 18ab6455-dab2-42d9-b68e-a8f0ad2d8091
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: DsDeregisterDnsHostRecords, DsDeregisterDnsHostRecords function [Active Directory], DsDeregisterDnsHostRecordsA, DsDeregisterDnsHostRecordsW, _glines_dsderegisterdnshostrecords, ad.dsderegisterdnshostrecords, dsgetdc/DsDeregisterDnsHostRecords, dsgetdc/DsDeregisterDnsHostRecordsA, dsgetdc/DsDeregisterDnsHostRecordsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

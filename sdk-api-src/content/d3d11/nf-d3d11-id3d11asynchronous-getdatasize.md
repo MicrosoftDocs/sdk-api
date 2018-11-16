@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11asynchronous_getdatasize.htm
 tech.root: direct3d11
 ms.assetid: 8766ca9f-b15e-4608-9fcd-c1b4fcda5e8d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 1cc97b74-47fa-53cd-d244-d41371551964, GetDataSize, GetDataSize method [Direct3D 11], GetDataSize method [Direct3D 11],ID3D11Asynchronous interface, ID3D11Asynchronous interface [Direct3D 11],GetDataSize method, ID3D11Asynchronous.GetDataSize, ID3D11Asynchronous::GetDataSize, d3d11/ID3D11Asynchronous::GetDataSize, direct3d11.id3d11asynchronous_getdatasize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\mmioclose.htm
 tech.root: Multimedia
 ms.assetid: 90cc83b5-cd2c-41f1-8bb1-b51bcc894f80
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_mmioClose, mmioClose, mmioClose function [Windows Multimedia], mmsystem/mmioClose, multimedia.mmioclose"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,13 +76,6 @@ File handle of the file to close.
 
 
 ### -param fuClose
-
-TBD
-
-
-
-
-#### - wFlags
 
 Flags for the close operation. The following value is defined.
 

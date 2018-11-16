@@ -4,10 +4,10 @@ title: IMsmError::get_ModuleTable
 author: windows-sdk-content
 description: The get_ModuleTable method retrieves the ModuleTable property of the Error object. This method returns the name of the table in the module that caused the error.
 old-location: setup\imsmerror_get_moduletable.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: c24145dc-0907-4916-bbec-f9e0ec7584db
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: IMsmError interface,get_ModuleTable method, IMsmError.get_ModuleTable, IMsmError::get_ModuleTable, _msi_get_moduletable_function, get_ModuleTable, get_ModuleTable method, get_ModuleTable method,IMsmError interface, mergemod/IMsmError::get_ModuleTable, setup.imsmerror_get_moduletable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The
 
 
 
-### -param ErrorTable
-
-TBD
-
-
-
-
-#### - Table [out]
+### -param ErrorTable [out]
 
 A pointer to a location in memory that is filled in with a <b>BSTR</b> value.
 

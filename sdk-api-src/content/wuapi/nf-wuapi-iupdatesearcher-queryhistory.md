@@ -7,7 +7,7 @@ old-location: wua\iupdatesearcher_queryhistory.htm
 tech.root: Wua_Sdk
 ms.assetid: 4d3027a2-ba97-4dfc-9a15-c106aaf6c2b9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],QueryHistory method, IUpdateSearcher.QueryHistory, IUpdateSearcher::QueryHistory, QueryHistory, QueryHistory method [Windows Update Agent], QueryHistory method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearcher_queryhistory, wuapi/IUpdateSearcher::QueryHistory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,19 +71,14 @@ Synchronously queries the computer for the history of the update events.
 The index of the first event to retrieve.
 
 
-### -param count
+### -param count [in]
 
-TBD
+The number of events to retrieve.
 
 
 ### -param retval [out]
 
 A pointer to an <a href="https://msdn.microsoft.com/c3bc764b-c9cc-4567-963e-2e481bdda611">IUpdateHistoryEntryCollection</a> interface that contains matching event records on the computer in descending chronological order.
-
-
-#### - Count [in]
-
-The number of events to retrieve.
 
 
 ## -returns

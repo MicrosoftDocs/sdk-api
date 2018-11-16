@@ -4,10 +4,10 @@ title: IBDA_SignalStatistics
 author: windows-sdk-content
 description: The IBDA_SignalStatistics interface is implemented on a BDA device filter and provides methods by which the filter can describe the condition of a signal that is being received.
 old-location: mstv\ibda_signalstatistics.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ee8b25d5-d39b-42ac-9f6a-0825e396241c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_SignalStatistics, IBDA_SignalStatistics interface [Microsoft TV Technologies], IBDA_SignalStatistics interface [Microsoft TV Technologies],described, IBDA_SignalStatisticsInterface, bdaiface/IBDA_SignalStatistics, mstv.ibda_signalstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

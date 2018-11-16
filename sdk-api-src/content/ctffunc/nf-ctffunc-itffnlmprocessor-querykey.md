@@ -7,7 +7,7 @@ old-location: tsf\itffnlmprocessor_querykey.htm
 tech.root: TSF
 ms.assetid: 9d28c2c2-ed0e-4987-ace9-25ed9d7a40a0
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],QueryKey method, ITfFnLMProcessor.QueryKey, ITfFnLMProcessor::QueryKey, QueryKey, QueryKey method [Text Services Framework], QueryKey method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_querykey_ref, ctffunc/ITfFnLMProcessor::QueryKey, tsf.itffnlmprocessor_querykey
 ms.prod: windows-hardware
 ms.technology: windows-devices

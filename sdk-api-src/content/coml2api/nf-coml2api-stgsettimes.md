@@ -7,7 +7,7 @@ old-location: stg\stgsettimes.htm
 tech.root: Stg
 ms.assetid: 5ade3e7a-a22a-458f-b463-1680893edc15
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: StgSetTimes, StgSetTimes function [Structured Storage], _stg_stgsettimes, coml2api/StgSetTimes, stg.stgsettimes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Union_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionunionmethods\union_21rectamprect.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Region class [GDI+],Union method, Region.Union, Region.Union(IN const Rect &), Region.Union(const Rect&), Region::Union, Region::Union(IN const Rect &), Union, Union method [GDI+], Union method [GDI+],Region class, _gdiplus_CLASS_Region_Union_Rect_rect_, gdiplus._gdiplus_CLASS_Region_Union_Rect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

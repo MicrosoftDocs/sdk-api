@@ -7,7 +7,7 @@ old-location: search\iphrasesink_putphrase.htm
 tech.root: search
 ms.assetid: 5E1762A8-8CC9-4EAE-BC79-91672994C1E3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IPhraseSink interface [search],PutPhrase method, IPhraseSink.PutPhrase, IPhraseSink::PutPhrase, PutPhrase, PutPhrase method [search], PutPhrase method [search],IPhraseSink interface, indexsrv/IPhraseSink::PutPhrase, search.iphrasesink_putphrase
 ms.prod: windows-hardware
 ms.technology: windows-devices

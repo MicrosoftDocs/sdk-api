@@ -4,10 +4,10 @@ title: ITPluggableTerminalEventSinkRegistration
 author: windows-sdk-content
 description: The ITPluggableTerminalEventSinkRegistration interface registers and unregisters a client application for pluggable terminal events. The ITPluggableTerminalEventSinkRegistration interface is created by calling QueryInterface on ITTerminal.
 old-location: tapi3\itpluggableterminaleventsinkregistration.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4c8924bd-468e-458c-b16a-ac378fb4b69a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITPluggableTerminalEventSinkRegistration, ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2], ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],described, _tapi3_itpluggableterminaleventsinkregistration, msp/ITPluggableTerminalEventSinkRegistration, tapi3.itpluggableterminaleventsinkregistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

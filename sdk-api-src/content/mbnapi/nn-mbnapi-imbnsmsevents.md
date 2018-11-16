@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsevents.htm
 tech.root: mbn
 ms.assetid: 06dfb631-fe5a-45d9-89f9-1f13990500ee
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMbnSmsEvents, IMbnSmsEvents interface [Microsoft Broadband Networks], IMbnSmsEvents interface [Microsoft Broadband Networks],described, mbn.imbnsmsevents, mbnapi/IMbnSmsEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

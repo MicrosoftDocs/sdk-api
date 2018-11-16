@@ -4,10 +4,10 @@ title: MprAdminAcceptNewLink function
 author: windows-sdk-content
 description: Remote Access Service (RAS) calls the MprAdminAcceptNewLink function each time a link is created for a particular connection.
 old-location: rras\mpradminacceptnewlink.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: a4cbca7d-a8b0-4396-9201-648bcca6a8c8
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MprAdminAcceptNewLink, MprAdminAcceptNewLink callback, MprAdminAcceptNewLink callback function [RAS], _mpr_mpradminacceptnewlink, mprapi/MprAdminAcceptNewLink, rras.mpradminacceptnewlink
 ms.prod: windows-hardware
 ms.technology: windows-devices

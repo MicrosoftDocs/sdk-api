@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactProperties_SetBinary.htm
 tech.root: wincontacts
 ms.assetid: 432c2417-e762-47ff-b2ce-a244120f0545
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetBinary method, IContactProperties.SetBinary, IContactProperties::SetBinary, SetBinary, SetBinary method [Windows Contacts], SetBinary method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetBinary, icontact/IContactProperties::SetBinary, wincontacts._wincontacts_IContactProperties_SetBinary
 ms.prod: windows-hardware
 ms.technology: windows-devices

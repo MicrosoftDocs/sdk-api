@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_output_view_desc.htm
 tech.root: medfound
 ms.assetid: 8E0D44C1-220C-4E70-8A60-591AEBC16A2B
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_OUTPUT_VIEW_DESC, D3D11_VIDEO_PROCESSOR_OUTPUT_VIEW_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_VIEW_DESC, mf.d3d11_video_processor_output_view_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

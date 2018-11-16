@@ -4,10 +4,10 @@ title: LPNSPCLEANUP
 author: windows-sdk-content
 description: Terminates the use of a particular Windows Sockets namespace service provider.
 old-location: winsock\nspcleanup_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: bef888a2-7cfd-4096-bd03-e1864af42365
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: LPNSPCLEANUP, NSPCleanup, NSPCleanup function [Winsock], _win32_nspcleanup_2, winsock.nspcleanup_2, ws2spi/NSPCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SymGetLineFromAddr64 function
 author: windows-sdk-content
 description: Locates the source line for the specified address.
 old-location: base\symgetlinefromaddr64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: a1dad8e0-cd85-41f7-b0e3-e359be94c0ac
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymGetLineFromAddr, SymGetLineFromAddr function, SymGetLineFromAddr64, SymGetLineFromAddr64 function, SymGetLineFromAddrW64, _win32_symgetlinefromaddr64, base.symgetlinefromaddr64, dbghelp/SymGetLineFromAddr, dbghelp/SymGetLineFromAddr64, dbghelp/SymGetLineFromAddrW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,11 +74,9 @@ A handle to the process that was originally passed to the
       <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
 
 
-#### - qwAddr [in]
+### -param qwAddr
 
-The address for which a line should be located. It is not necessary for the address to be on a line 
-      boundary. If the address appears after the beginning of a line and before the end of the line, the line is 
-      found.
+TBD
 
 
 ### -param pdwDisplacement [out]
@@ -86,10 +84,24 @@ The address for which a line should be located. It is not necessary for the addr
 The displacement in bytes from the beginning of the line, or zero.
 
 
-#### - Line64 [out]
+### -param Line64
+
+TBD
+
+
+
+
+#### - Line [out]
 
 A pointer to an <a href="https://msdn.microsoft.com/62124983-8381-4eb4-94f6-220b844aca45">IMAGEHLP_LINE64</a> 
       structure.
+
+
+#### - dwAddr [in]
+
+The address for which a line should be located. It is not necessary for the address to be on a line 
+      boundary. If the address appears after the beginning of a line and before the end of the line, the line is 
+      found.
 
 
 ## -returns

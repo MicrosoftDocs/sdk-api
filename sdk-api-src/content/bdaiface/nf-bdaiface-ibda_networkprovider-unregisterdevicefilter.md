@@ -4,10 +4,10 @@ title: IBDA_NetworkProvider::UnRegisterDeviceFilter
 author: windows-sdk-content
 description: The UnRegisterDeviceFilter method is called by BDA device filters when they are removed from the filter graph.
 old-location: mstv\ibda_networkprovider_unregisterdevicefilter.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 7d54830f-93cc-44c0-9bb7-43c439f4aa8e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],UnRegisterDeviceFilter method, IBDA_NetworkProvider.UnRegisterDeviceFilter, IBDA_NetworkProvider::UnRegisterDeviceFilter, IBDA_NetworkProviderUnRegisterDeviceFilter, UnRegisterDeviceFilter, UnRegisterDeviceFilter method [Microsoft TV Technologies], UnRegisterDeviceFilter method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::UnRegisterDeviceFilter, mstv.ibda_networkprovider_unregisterdevicefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>UnRegisterDeviceFilter</b> method is called by BDA device filters when th
 
 
 
-### -param pvRegistrationContext
-
-TBD
-
-
-
-
-#### - ulRegistrationContext [in]
+### -param pvRegistrationContext [in]
 
 The registration context that the filter received in the call to <b>RegisterDeviceFilter</b>.
 

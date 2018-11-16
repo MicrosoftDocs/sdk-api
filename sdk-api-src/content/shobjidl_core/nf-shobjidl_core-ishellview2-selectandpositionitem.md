@@ -7,7 +7,7 @@ old-location: shell\IShellView2_SelectAndPositionItem.htm
 tech.root: shell
 ms.assetid: d78f152b-2dcb-410d-821a-56601a3c57f2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IShellView2 interface [Windows Shell],SelectAndPositionItem method, IShellView2.SelectAndPositionItem, IShellView2::SelectAndPositionItem, SelectAndPositionItem, SelectAndPositionItem method [Windows Shell], SelectAndPositionItem method [Windows Shell],IShellView2 interface, _win32_IShellView2_SelectAndPositionItem, shell.IShellView2_SelectAndPositionItem, shobjidl_core/IShellView2::SelectAndPositionItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,13 +81,6 @@ One of the <a href="https://msdn.microsoft.com/3b0a7ec3-f365-48ec-86b0-ffd4c345d
 
 
 ### -param ppt
-
-TBD
-
-
-
-
-#### - point
 
 Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
 

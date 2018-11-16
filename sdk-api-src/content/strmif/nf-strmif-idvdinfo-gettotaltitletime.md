@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_gettotaltitletime.htm
 tech.root: DirectShow
 ms.assetid: 90f3a053-edc8-4e42-ae00-31d66d9e3115
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetTotalTitleTime, GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTotalTitleTime method, IDvdInfo.GetTotalTitleTime, IDvdInfo::GetTotalTitleTime, IDvdInfoGetTotalTitleTime, dshow.idvdinfo_gettotaltitletime, strmif/IDvdInfo::GetTotalTitleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,14 +71,7 @@ Retrieves the total playback time for the current title.
 
 
 
-### -param pulTotalTime
-
-TBD
-
-
-
-
-#### - pTotalTime [out]
+### -param pulTotalTime [out]
 
 Pointer to the total time in <a href="https://msdn.microsoft.com/7ad0b11e-5bb7-426f-9a2c-fbc34b2f45b4">DVD_TIMECODE</a> format, which includes hours, minutes, seconds, and frames.
 

@@ -7,7 +7,7 @@ old-location: fsrm\fsrmgetfilepropertyoptions.htm
 tech.root: Fsrm
 ms.assetid: d909e244-344f-4da9-987c-de406c2dc359
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FsrmGetFilePropertyOptions, FsrmGetFilePropertyOptions enumeration [File Server Resource Manager], FsrmGetFilePropertyOptions_FailOnPersistErrors, FsrmGetFilePropertyOptions_NoRuleEvaluation, FsrmGetFilePropertyOptions_None, FsrmGetFilePropertyOptions_Persistent, FsrmGetFilePropertyOptions_SkipOrphaned, _FsrmGetFilePropertyOptions, fs.fsrmgetfilepropertyoptions, fsrm.fsrmgetfilepropertyoptions, fsrm/FsrmGetFilePropertyOptions, fsrm/FsrmGetFilePropertyOptions_FailOnPersistErrors, fsrm/FsrmGetFilePropertyOptions_NoRuleEvaluation, fsrm/FsrmGetFilePropertyOptions_None, fsrm/FsrmGetFilePropertyOptions_Persistent, fsrm/FsrmGetFilePropertyOptions_SkipOrphaned
 ms.prod: windows-hardware
 ms.technology: windows-devices

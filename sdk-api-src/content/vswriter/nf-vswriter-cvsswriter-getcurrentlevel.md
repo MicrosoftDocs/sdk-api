@@ -7,7 +7,7 @@ old-location: base\cvsswriter_getcurrentlevel.htm
 tech.root: VSS
 ms.assetid: 09540f57-832a-49ca-9b64-e7660b331192
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CVssWriter interface [VSS],GetCurrentLevel method, CVssWriter.GetCurrentLevel, CVssWriter::GetCurrentLevel, GetCurrentLevel, GetCurrentLevel method [VSS], GetCurrentLevel method [VSS],CVssWriter interface, _win32_cvsswriter_getcurrentlevel, base.cvsswriter_getcurrentlevel, vswriter/CVssWriter::GetCurrentLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

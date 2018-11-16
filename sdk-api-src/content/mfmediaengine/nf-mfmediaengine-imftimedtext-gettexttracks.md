@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_gettexttracks.htm
 tech.root: medfound
 ms.assetid: 75F2874A-67E0-4167-9B5D-A8B90C3509E0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetTextTracks, GetTextTracks method [Media Foundation], GetTextTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetTextTracks method, IMFTimedText.GetTextTracks, IMFTimedText::GetTextTracks, mf.imftimedtext_gettexttracks, mfmediaengine/IMFTimedText::GetTextTracks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Gets the list of all the timed-text tracks in the timed-text component.
 
 
 
-### -param textTracks
-
-TBD
-
-
-
-
-#### - ppTextTracks [out]
+### -param textTracks [out]
 
 Type: <b><a href="https://msdn.microsoft.com/EA94A81E-3B1D-4723-B00F-B216991E19E5">IMFTimedTextTrackList</a>**</b>
 

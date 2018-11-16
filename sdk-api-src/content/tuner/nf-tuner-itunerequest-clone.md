@@ -4,10 +4,10 @@ title: ITuneRequest::Clone
 author: windows-sdk-content
 description: The Clone method returns a new copy of this tune request.
 old-location: mstv\itunerequest_clone.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 14298e56-805d-48f3-9f78-79d4eaf2239f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],ITuneRequest interface, ITuneRequest interface [Microsoft TV Technologies],Clone method, ITuneRequest.Clone, ITuneRequest::Clone, ITuneRequestClone, mstv.itunerequest_clone, tuner/ITuneRequest::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>Clone</b> method returns a new copy of this tune request.
 
 
 
-### -param NewTuneRequest
-
-TBD
-
-
-
-
-#### - ppNewTuneRequest [out]
+### -param NewTuneRequest [out]
 
 Address of an <b>ITuneRequest</b> interface pointer that will be set to the new object.
 

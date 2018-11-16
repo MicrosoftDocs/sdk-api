@@ -4,10 +4,10 @@ title: CryptSetOIDFunctionValue function
 author: windows-sdk-content
 description: The CryptSetOIDFunctionValue function sets a value for the specified encoding type, function name, OID, and value name.
 old-location: security\cryptsetoidfunctionvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3e167c5d-0000-4359-a7b0-9b3e4e64c50c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CryptSetOIDFunctionValue, CryptSetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptsetoidfunctionvalue, security.cryptsetoidfunctionvalue, wincrypt/CryptSetOIDFunctionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

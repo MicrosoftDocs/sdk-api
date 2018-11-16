@@ -4,10 +4,10 @@ title: IWEExtendContextMenu::AddContextMenuItems
 author: windows-sdk-content
 description: Allows you to create context menu items for a cluster object and add the items to a Failover Cluster Administrator context menu.
 old-location: mscs\iweextendcontextmenu_addcontextmenuitems.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 48de3627-a919-437b-b19b-374327234df9
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AddContextMenuItems, AddContextMenuItems method [Failover Cluster], AddContextMenuItems method [Failover Cluster],IWEExtendContextMenu interface, IWEExtendContextMenu interface [Failover Cluster],AddContextMenuItems method, IWEExtendContextMenu.AddContextMenuItems, IWEExtendContextMenu::AddContextMenuItems, _wolf_iweextendcontextmenu_addcontextmenuitems, cluadmex/IWEExtendContextMenu::AddContextMenuItems, mscs.iweextendcontextmenu_addcontextmenuitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,6 +121,50 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa370501(v=VS.85
 
 Return one of the following values or any <b>HRESULT</b> that describes the results of 
        the operation.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+At least one of the parameters is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+<dt>0x80004001</dt>
+</dl>
+</td>
+<td width="60%">
+The extension does not support adding context menu items.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

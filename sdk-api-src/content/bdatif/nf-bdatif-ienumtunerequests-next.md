@@ -4,10 +4,10 @@ title: IEnumTuneRequests::Next
 author: windows-sdk-content
 description: The Next method retrieves the specified number of items in the collection.
 old-location: mstv\ienumtunerequests_next.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: fb846bdb-f0ce-44f7-8d15-608c21e095c1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Next method, IEnumTuneRequests.Next, IEnumTuneRequests::Next, IEnumTuneRequestsNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Next, mstv.ienumtunerequests_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,19 +74,14 @@ The <b>Next</b> method retrieves the specified number of items in the collection
 Specifies the number of items to retrieve.
 
 
-### -param ppprop
+### -param ppprop [out]
 
-TBD
+Array of size <i>celt</i> that is filled with <a href="https://msdn.microsoft.com/en-us/library/Dd694997(v=VS.85).aspx">ITuneRequest</a> interface pointers.
 
 
 ### -param pcelt [out]
 
 Receives the number of items retrieved.
-
-
-#### - ppProp [out]
-
-Array of size <i>celt</i> that is filled with <a href="https://msdn.microsoft.com/en-us/library/Dd694997(v=VS.85).aspx">ITuneRequest</a> interface pointers.
 
 
 ## -returns

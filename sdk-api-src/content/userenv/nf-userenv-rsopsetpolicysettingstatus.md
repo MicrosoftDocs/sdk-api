@@ -7,7 +7,7 @@ old-location: policy\rsopsetpolicysettingstatus.htm
 tech.root: Policy
 ms.assetid: 7ea2f217-4dd2-4c0f-af1b-d4bcb8707519
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: RSoPSetPolicySettingStatus, RSoPSetPolicySettingStatus function [Group Policy], RsopSetPolicySettingStatus, _win32_rsopsetpolicysettingstatus, policy.rsopsetpolicysettingstatus, userenv/RSoPSetPolicySettingStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

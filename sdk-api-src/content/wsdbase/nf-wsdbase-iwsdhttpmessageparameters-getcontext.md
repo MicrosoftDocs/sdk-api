@@ -7,7 +7,7 @@ old-location: ncd\iwsdhttpmessageparameters_getcontext.htm
 tech.root: WsdApi
 ms.assetid: af93f97f-a3de-4b5c-92c5-2d4ab91e7985
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetContext, GetContext method, GetContext method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetContext method, IWSDHttpMessageParameters.GetContext, IWSDHttpMessageParameters::GetContext, ncd.iwsdhttpmessageparameters_getcontext, wsdbase/IWSDHttpMessageParameters::GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

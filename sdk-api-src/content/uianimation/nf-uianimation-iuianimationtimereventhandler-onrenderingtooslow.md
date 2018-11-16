@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimereventhandler_onrenderingtooslow.htm
 tech.root: UIAnimation
 ms.assetid: 79986646-2d82-41a3-bff7-b2f0492c7a1b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnRenderingTooSlow method, IUIAnimationTimerEventHandler.OnRenderingTooSlow, IUIAnimationTimerEventHandler::OnRenderingTooSlow, OnRenderingTooSlow, OnRenderingTooSlow method [Windows Animation], OnRenderingTooSlow method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onrenderingtooslow, uianimation/IUIAnimationTimerEventHandler::OnRenderingTooSlow
 ms.prod: windows-hardware
 ms.technology: windows-devices

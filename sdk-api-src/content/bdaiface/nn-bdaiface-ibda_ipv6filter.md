@@ -4,10 +4,10 @@ title: IBDA_IPV6Filter
 author: windows-sdk-content
 description: This interface is not supported.
 old-location: mstv\ibda_ipv6filter.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: b506d382-c56d-4c5b-ad57-e186173ea9a8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_IPV6Filter, IBDA_IPV6Filter interface [Microsoft TV Technologies], IBDA_IPV6Filter interface [Microsoft TV Technologies],described, IBDA_IPV6FilterInterface, bdaiface/IBDA_IPV6Filter, mstv.ibda_ipv6filter
 ms.prod: windows-hardware
 ms.technology: windows-devices

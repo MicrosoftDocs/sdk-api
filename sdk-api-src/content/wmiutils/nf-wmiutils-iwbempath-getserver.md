@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_getserver.htm
 tech.root: WmiSdk
 ms.assetid: 831d34d8-d586-41cc-a878-7a2b837b84de
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetServer, GetServer method [Windows Management Instrumentation], GetServer method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetServer method, IWbemPath.GetServer, IWbemPath::GetServer, _hmm_iwbempath_getserver, wmi.iwbempath_getserver, wmiutils/IWbemPath::GetServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ The
 Upon input, this is the size in characters of the buffer pointed to by <i>pszName</i>. Upon return, this is the number of characters in the server name, including the <b>NULL</b> terminator.
 
 
-### -param pName
-
-TBD
-
-
-
-
-#### - pszName [in, out]
+### -param pName [in, out]
 
 Server name.
 

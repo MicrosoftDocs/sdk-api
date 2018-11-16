@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_createresourcelocator.htm
 tech.root: WinRM
 ms.assetid: b670865d-96d6-4b06-a9a5-ed74574a0108
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: CreateResourceLocator, CreateResourceLocator method [Windows Remote Management], CreateResourceLocator method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],CreateResourceLocator method, IWSManEx.CreateResourceLocator, IWSManEx::CreateResourceLocator, winrm.iwsmanex_createresourcelocator, wsmandisp/IWSManEx::CreateResourceLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,19 +66,14 @@ Creates a <a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41
 
 
 
-### -param strResourceLocator
+### -param strResourceLocator [in]
 
-TBD
+The resource URI for the resource. For more information about URI strings, see <a href="https://msdn.microsoft.com/478a6e5d-0675-462e-b2fd-fd2b5379e298">Resource URIs</a>.
 
 
 ### -param newResourceLocator [out]
 
 A pointer to a new instance of <a href="https://msdn.microsoft.com/7b3dcb53-d02c-4ba6-973d-1493ba442387">IWSManResourceLocator</a>.
-
-
-#### - uri [in]
-
-The resource URI for the resource. For more information about URI strings, see <a href="https://msdn.microsoft.com/478a6e5d-0675-462e-b2fd-fd2b5379e298">Resource URIs</a>.
 
 
 ## -returns

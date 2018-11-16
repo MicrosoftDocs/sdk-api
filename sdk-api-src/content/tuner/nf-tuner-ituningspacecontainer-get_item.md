@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::get_Item
 author: windows-sdk-content
 description: The get_Item method retrieves a tuning space with the specified ID.
 old-location: mstv\ituningspacecontainer_get_item.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 02e17867-dc72-481a-8693-68e9b0288bba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Item method, ITuningSpaceContainer.get_Item, ITuningSpaceContainer::get_Item, ITuningSpaceContainerget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_item, tuner/ITuningSpaceContainer::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,14 +74,7 @@ The <b>get_Item</b> method retrieves a tuning space with the specified ID.
 <b>VARIANT</b> that specifies the ID of the tuning space.
 
 
-### -param TuningSpace
-
-TBD
-
-
-
-
-#### - ppTuningSpace [out]
+### -param TuningSpace [out]
 
 Address of an <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> interface pointer that will be set to the returned interface.
 

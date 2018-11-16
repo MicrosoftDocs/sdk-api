@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voice_interface_getfilterparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetFilterParameters(XAUDIO2_FILTER_PARAMETERS@)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetFilterParameters, GetFilterParameters method [XAudio2 Audio Mixing APIs], GetFilterParameters method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetFilterParameters method, IXAudio2Voice.GetFilterParameters, IXAudio2Voice::GetFilterParameters, xaudio2.ixaudio2voice_interface_getfilterparameters, xaudio2/IXAudio2Voice::GetFilterParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

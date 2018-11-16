@@ -7,7 +7,7 @@ old-location: base\ivdsdrive2.htm
 tech.root: VDS
 ms.assetid: 6d8115e3-2a47-4bc3-9a69-24e26f555f41
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsDrive2, IVdsDrive2 interface, IVdsDrive2 interface,described, base.ivdsdrive2, vds/IVdsDrive2, vdshwprv/IVdsDrive2
 ms.prod: windows-hardware
 ms.technology: windows-devices

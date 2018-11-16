@@ -7,7 +7,7 @@ old-location: fs\getnotificationresourcemanager.htm
 tech.root: Ktm
 ms.assetid: d606f960-e843-4478-8ba7-5201f85c44ce
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetNotificationResourceManager, GetNotificationResourceManager function [Files], fs.getnotificationresourcemanager, ktmw32/GetNotificationResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

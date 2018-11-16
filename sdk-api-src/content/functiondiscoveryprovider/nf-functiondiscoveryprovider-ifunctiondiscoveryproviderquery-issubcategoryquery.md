@@ -4,10 +4,10 @@ title: IFunctionDiscoveryProviderQuery::IsSubcategoryQuery
 author: windows-sdk-content
 description: Determines whether a query is for function instances in a specific subcategory.
 old-location: ncd\ifunctiondiscoveryproviderquery_issubcategoryquery.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: fa262e62-2e34-4881-915d-995d66fa6841
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IFunctionDiscoveryProviderQuery interface,IsSubcategoryQuery method, IFunctionDiscoveryProviderQuery.IsSubcategoryQuery, IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, IsSubcategoryQuery, IsSubcategoryQuery method, IsSubcategoryQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, ncd.ifunctiondiscoveryproviderquery_issubcategoryquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,19 +68,14 @@ Determines whether a query is for function instances in a specific subcategory.
 
 
 
-### -param pisSubcategoryQuery
+### -param pisSubcategoryQuery [out]
 
-TBD
+If this parameter is <b>TRUE</b>, there is a subcategory constraint in the query constraints collection.
 
 
 ### -param ppszConstraintValue [out]
 
 The value of the subcategory constraint.
-
-
-#### - pisInstanceQuery [out]
-
-If this parameter is <b>TRUE</b>, there is a subcategory constraint in the query constraints collection.
 
 
 ## -returns

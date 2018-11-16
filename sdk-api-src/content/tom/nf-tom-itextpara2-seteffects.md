@@ -4,10 +4,10 @@ title: ITextPara2::SetEffects
 author: windows-sdk-content
 description: Sets the paragraph format effects.
 old-location: controls\itextpara2_seteffects.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: e7184de4-b416-4f28-8f10-c89ffcccf1a1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetEffects method, ITextPara2.SetEffects, ITextPara2::SetEffects, SetEffects, SetEffects method [Windows Controls], SetEffects method [Windows Controls],ITextPara2 interface, controls.itextpara2_seteffects, tom/ITextPara2::SetEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

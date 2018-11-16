@@ -7,7 +7,7 @@ old-location: winmsg\deferwindowpos.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\deferwindowpos.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: DeferWindowPos, DeferWindowPos function [Windows and Messages], HWND_BOTTOM, HWND_NOTOPMOST, HWND_TOP, HWND_TOPMOST, SWP_DRAWFRAME, SWP_FRAMECHANGED, SWP_HIDEWINDOW, SWP_NOACTIVATE, SWP_NOCOPYBITS, SWP_NOMOVE, SWP_NOOWNERZORDER, SWP_NOREDRAW, SWP_NOREPOSITION, SWP_NOSENDCHANGING, SWP_NOSIZE, SWP_NOZORDER, SWP_SHOWWINDOW, _win32_DeferWindowPos, _win32_deferwindowpos_cpp, winmsg.deferwindowpos, winui._win32_deferwindowpos, winuser/DeferWindowPos
 ms.prod: windows-hardware
 ms.technology: windows-devices

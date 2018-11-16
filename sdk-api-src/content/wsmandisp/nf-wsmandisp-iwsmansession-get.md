@@ -7,7 +7,7 @@ old-location: winrm\iwsmansession_get.htm
 tech.root: WinRM
 ms.assetid: f6393cfb-0787-4d30-8d02-be0996885f22
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: Get, Get method [Windows Remote Management], Get method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Get method, IWSManSession.Get, IWSManSession::Get, winrm.iwsmansession_get, wsmandisp/IWSManSession::Get
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitems_getitemcount.htm
 tech.root: CoreAudio
 ms.assetid: 168FDDA7-FB87-47B3-A7BC-88398663A7DD
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetItemCount, GetItemCount method [Core Audio], GetItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetItemCount method, ISpatialAudioMetadataItems.GetItemCount, ISpatialAudioMetadataItems::GetItemCount, coreaudio.ispatialaudiometadataitems_getitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The current number of items stored by the <a href="https://msdn.microsoft.com/54
 
 
 
-### -param itemCount
-
-TBD
-
-
-
-
-#### - frameCount [out]
+### -param itemCount [out]
 
 The current number of stored items.
 

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_discard_region.htm
 tech.root: direct3d12
 ms.assetid: 8F0916CB-3389-40BC-8028-BA8CF9BC566B
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D3D12_DISCARD_REGION, D3D12_DISCARD_REGION structure, d3d12/D3D12_DISCARD_REGION, direct3d12.d3d12_discard_region
 ms.prod: windows-hardware
 ms.technology: windows-devices

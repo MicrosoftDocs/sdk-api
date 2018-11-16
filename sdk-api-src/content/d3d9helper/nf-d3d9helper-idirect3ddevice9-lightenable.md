@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__lightenable.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__lightenable.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: 93cddc72-1451-3e41-6d33-7b1036dfc225, IDirect3DDevice9 interface [Direct3D 9],LightEnable method, IDirect3DDevice9.LightEnable, IDirect3DDevice9::LightEnable, LightEnable, LightEnable method [Direct3D 9], LightEnable method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::LightEnable, direct3d9.idirect3ddevice9__lightenable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,26 +67,14 @@ Enables or disables a set of lighting parameters within a device.
 
 
 
-### -param Index
-
-TBD
-
-
-### -param Enable
-
-TBD
-
-
-
-
-#### - LightIndex [in]
+### -param Index [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 Zero-based index of the set of lighting parameters that are the target of this method. 
 
 
-#### - bEnable [in]
+### -param Enable [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 

@@ -4,10 +4,10 @@ title: IEnumBstr
 author: windows-sdk-content
 description: The IEnumBstr interface provides COM-standard methods to enumerate BSTR strings.
 old-location: tapi3\ienumbstr.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0e87ec06-7f3a-410c-9d54-7a67991e089c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumBstr, IEnumBstr interface [TAPI 2.2], IEnumBstr interface [TAPI 2.2],described, _tapi3_ienumbstr, tapi3.ienumbstr, tapi3if/IEnumBstr
 ms.prod: windows-hardware
 ms.technology: windows-devices

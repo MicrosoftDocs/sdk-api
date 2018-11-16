@@ -4,10 +4,10 @@ title: IMSVidCtl::put_FeaturesActive
 author: windows-sdk-content
 description: The put_FeaturesActive method specifies a collection of features to activate.
 old-location: mstv\imsvidctl_put_featuresactive.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 293506fa-3208-468e-982a-3c1f8ce0269b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_FeaturesActive method, IMSVidCtl.put_FeaturesActive, IMSVidCtl::put_FeaturesActive, IMSVidCtlput_FeaturesActive, mstv.imsvidctl_put_featuresactive, msvidctl/IMSVidCtl::put_FeaturesActive, put_FeaturesActive, put_FeaturesActive method [Microsoft TV Technologies], put_FeaturesActive method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

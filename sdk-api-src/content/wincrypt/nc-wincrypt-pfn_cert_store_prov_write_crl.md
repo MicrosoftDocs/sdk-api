@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_WRITE_CRL
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertAddEncodedCRLToStore, CertAddCRLContextToStore and CertAddSerializedElementToStore before adding to the store.
 old-location: security\certstoreprovwritecrlcallback.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ba259770-4462-4d1e-bd60-8572612fe032
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CertStoreProvWriteCRLCallback, PFN_CERT_STORE_PROV_WRITE_CRL, PFN_CERT_STORE_PROV_WRITE_CRL callback, PFN_CERT_STORE_PROV_WRITE_CRL callback function [Security], _crypto2_certstoreprovwritecrlcallback, security.certstoreprovwritecrlcallback, wincrypt/PFN_CERT_STORE_PROV_WRITE_CRL
 ms.prod: windows-hardware
 ms.technology: windows-devices

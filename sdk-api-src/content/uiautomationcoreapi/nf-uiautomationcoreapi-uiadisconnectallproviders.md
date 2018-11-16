@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaDisconnectAllProviders.htm
 tech.root: WinAuto
 ms.assetid: 1E46DC9A-8E72-49B2-B867-C075962EF00A
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: UiaDisconnectAllProviders, UiaDisconnectAllProviders function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectAllProviders, winauto.uiauto_UiaDisconnectAllProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

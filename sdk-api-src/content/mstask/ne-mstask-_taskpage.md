@@ -7,7 +7,7 @@ old-location: taskschd\taskpage.htm
 tech.root: TaskSchd
 ms.assetid: 6c822d4c-9d42-48a2-b378-06670acc39cf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: TASKPAGE, TASKPAGE enumeration [Task Scheduler], TASKPAGE_SCHEDULE, TASKPAGE_SETTINGS, TASKPAGE_TASK, _TASKPAGE, _msb_taskpage, mstask/TASKPAGE, mstask/TASKPAGE_SCHEDULE, mstask/TASKPAGE_SETTINGS, mstask/TASKPAGE_TASK, task page [Task Scheduler],enumerations,TASKPAGE, taskschd.taskpage
 ms.prod: windows-hardware
 ms.technology: windows-devices

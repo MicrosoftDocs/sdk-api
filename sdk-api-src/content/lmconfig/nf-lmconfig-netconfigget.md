@@ -7,7 +7,7 @@ old-location: netmgmt\netconfigget.htm
 tech.root: NetMgmt
 ms.assetid: f0992922-9d08-47c1-a089-5927fd370c22
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NetConfigGet, NetConfigGet function [Network Management], _win32_netconfigget, lmconfig/NetConfigGet, netmgmt.netconfigget
 ms.prod: windows-hardware
 ms.technology: windows-devices

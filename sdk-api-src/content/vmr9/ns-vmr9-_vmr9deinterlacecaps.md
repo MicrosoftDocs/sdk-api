@@ -7,7 +7,7 @@ old-location: dshow\vmr9deinterlacecaps.htm
 tech.root: DirectShow
 ms.assetid: ae71c9d6-2540-4679-927c-e1d759df7009
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: VMR9DeinterlaceCaps, VMR9DeinterlaceCaps structure [DirectShow], VMR9DeinterlaceCapsStructure, _VMR9DeinterlaceCaps, dshow.vmr9deinterlacecaps, vmr9/VMR9DeinterlaceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

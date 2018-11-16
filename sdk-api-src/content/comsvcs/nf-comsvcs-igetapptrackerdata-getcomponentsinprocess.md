@@ -7,7 +7,7 @@ old-location: cos\igetapptrackerdata_getcomponentsinprocess.htm
 tech.root: cossdk
 ms.assetid: 3a7c2aad-c688-4cd3-a58c-b9c32f9bc035
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetComponentsInProcess, GetComponentsInProcess method [COM+], GetComponentsInProcess method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetComponentsInProcess method, IGetAppTrackerData.GetComponentsInProcess, IGetAppTrackerData::GetComponentsInProcess, comsvcs/IGetAppTrackerData::GetComponentsInProcess, cos.igetapptrackerdata_getcomponentsinprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices

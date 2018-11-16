@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_backgroundrecognize.htm
 tech.root: tablet
 ms.assetid: d3fc8117-4acd-474a-aec0-cb421230ef94
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: BackgroundRecognize, BackgroundRecognize method [Tablet PC], BackgroundRecognize method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],BackgroundRecognize method, IInkRecognizerContext.BackgroundRecognize, IInkRecognizerContext::BackgroundRecognize, d3fc8117-4acd-474a-aec0-cb421230ef94, msinkaut/IInkRecognizerContext::BackgroundRecognize, tablet.inkrecognizercontext_backgroundrecognize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ Causes the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b
 
 
 
-### -param CustomData
-
-TBD
-
-
-
-
-#### - customData [in, optional]
+### -param CustomData [in, optional]
 
 Specifies any application-defined data that is available to the application in the <a href="https://msdn.microsoft.com/0cc319af-cd0b-4089-928b-cae6c86f6f61">Recognition</a> event. This parameter may be a VARIANT of type VT_EMPTY or VT_NULL if no data needs to be passed. The default value is <b>NULL</b>.
 

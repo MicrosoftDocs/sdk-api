@@ -4,10 +4,10 @@ title: MoveClusterGroup function
 author: windows-sdk-content
 description: Moves a group and all of its resources from one node to another.
 old-location: mscs\moveclustergroup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 32408600-5118-47fb-890b-9c31faef2299
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: MoveClusterGroup, MoveClusterGroup function [Failover Cluster], PCLUSAPI_MOVE_CLUSTER_GROUP, PCLUSAPI_MOVE_CLUSTER_GROUP function [Failover Cluster], _wolf_moveclustergroup, clusapi/MoveClusterGroup, clusapi/PCLUSAPI_MOVE_CLUSTER_GROUP, mscs.moveclustergroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,6 +82,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is one of the possible error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_IO_PENDING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The reassignment of ownership of the group is in progress.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

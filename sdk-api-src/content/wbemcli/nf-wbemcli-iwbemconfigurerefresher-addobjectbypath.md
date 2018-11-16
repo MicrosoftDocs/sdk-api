@@ -7,7 +7,7 @@ old-location: wmi\iwbemconfigurerefresher_addobjectbypath.htm
 tech.root: WmiSdk
 ms.assetid: 85721e0c-863b-45af-91ca-8ee14af37181
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: AddObjectByPath, AddObjectByPath method [Windows Management Instrumentation], AddObjectByPath method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddObjectByPath method, IWbemConfigureRefresher.AddObjectByPath, IWbemConfigureRefresher::AddObjectByPath, _hmm_iwbemconfigurerefresher_addobjectbypath, wbemcli/IWbemConfigureRefresher::AddObjectByPath, wmi.iwbemconfigurerefresher_addobjectbypath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,9 +84,11 @@ Constant, null-terminated string of 16-bit Unicode characters that contains the 
 Bitmask of flags that modify the behavior of this method. If this parameter is set to <b>WBEM_FLAG_USE_AMENDED_QUALIFIERS</b>, the returned instance contain localized qualifiers if available.
 
 
-### -param pContext
+### -param pContext [in]
 
-TBD
+Typically <b>NULL</b>; otherwise, a pointer to an 
+<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object that is required by one or more dynamic class providers. The values in the context object must be specified in the specific provider documentation. For more information about this parameter, see 
+<a href="https://msdn.microsoft.com/5bfd9d9b-ffe5-4def-a97d-85c4c01223f0">Making Calls to WMI</a>.
 
 
 ### -param ppRefreshable [out]
@@ -98,13 +100,6 @@ Pointer to hold the reference to a
 ### -param plId [out]
 
 Pointer to an integer returned by the provider that uniquely identifies the refreshable object.
-
-
-#### - pCtx [in]
-
-Typically <b>NULL</b>; otherwise, a pointer to an 
-<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object that is required by one or more dynamic class providers. The values in the context object must be specified in the specific provider documentation. For more information about this parameter, see 
-<a href="https://msdn.microsoft.com/5bfd9d9b-ffe5-4def-a97d-85c4c01223f0">Making Calls to WMI</a>.
 
 
 ## -returns

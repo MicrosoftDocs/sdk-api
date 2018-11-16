@@ -4,10 +4,10 @@ title: CertSrvRestorePrepareW function
 author: windows-sdk-content
 description: Prepares a Certificate Services instance for restore operations.
 old-location: security\certsrvrestoreprepare.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e607b61c-9636-40e6-abba-74152f37b49e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CSRESTORE_TYPE_FULL, CertSrvRestorePrepare, CertSrvRestorePrepare function [Security], CertSrvRestorePrepareW, _certsrv_certsrvrestoreprepare, certbcli/CertSrvRestorePrepare, certbcli/CertSrvRestorePrepareW, security.certsrvrestoreprepare
 ms.prod: windows-hardware
 ms.technology: windows-devices

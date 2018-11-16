@@ -7,7 +7,7 @@ old-location: rdc\similarityfileid.htm
 tech.root: Rdc
 ms.assetid: 07fcb382-726c-4615-83e9-f69eec778311
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: SimilarityFileId, SimilarityFileId structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0015, fs.similarityfileid, msrdc/SimilarityFileId, rdc.similarityfileid
 ms.prod: windows-hardware
 ms.technology: windows-devices

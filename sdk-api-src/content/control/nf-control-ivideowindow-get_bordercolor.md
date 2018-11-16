@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_bordercolor.htm
 tech.root: DirectShow
 ms.assetid: 2f2df219-6b82-41fa-b0a9-251cc54fe019
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_BorderColor method, IVideoWindow.get_BorderColor, IVideoWindow::get_BorderColor, IVideoWindowget_BorderColor, control/IVideoWindow::get_BorderColor, dshow.ivideowindow_get_bordercolor, get_BorderColor, get_BorderColor method [DirectShow], get_BorderColor method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ The <code>get_BorderColor</code> method retrieves the color that appears around 
 
 
 
-### -param Color
-
-TBD
-
-
-
-
-#### - pColor [out]
+### -param Color [out]
 
 Receives a <b>COLORREF</b> value.
           

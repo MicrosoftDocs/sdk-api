@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpaddress_getttl.htm
 tech.root: WsdApi
 ms.assetid: 8bc2a973-a776-45c6-b6bf-cf268badab30
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetTTL, GetTTL method, GetTTL method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetTTL method, IWSDUdpAddress.GetTTL, IWSDUdpAddress::GetTTL, ncd.iwsdudpaddress_getttl, wsdbase/IWSDUdpAddress::GetTTL
 ms.prod: windows-hardware
 ms.technology: windows-devices

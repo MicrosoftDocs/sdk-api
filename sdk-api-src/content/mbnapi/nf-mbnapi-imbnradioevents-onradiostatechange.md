@@ -7,7 +7,7 @@ old-location: mbn\imbnradioevents_onradiostatechange.htm
 tech.root: mbn
 ms.assetid: ae7bf0d0-333b-429d-9dd1-9580745aad35
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMbnRadioEvents interface [Microsoft Broadband Networks],OnRadioStateChange method, IMbnRadioEvents.OnRadioStateChange, IMbnRadioEvents::OnRadioStateChange, OnRadioStateChange, OnRadioStateChange method [Microsoft Broadband Networks], OnRadioStateChange method [Microsoft Broadband Networks],IMbnRadioEvents interface, mbn.imbnradioevents_onradiostatechange, mbnapi/IMbnRadioEvents::OnRadioStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

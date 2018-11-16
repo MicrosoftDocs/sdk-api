@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelist.htm
 tech.root: TSF
 ms.assetid: e41ba461-6337-4feb-ba16-3942920ebb9f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfCandidateList, ITfCandidateList interface [Text Services Framework], ITfCandidateList interface [Text Services Framework],described, _tsf_itfcandidatelist_ref, ctffunc/ITfCandidateList, tsf.itfcandidatelist
 ms.prod: windows-hardware
 ms.technology: windows-devices

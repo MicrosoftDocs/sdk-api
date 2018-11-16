@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols.htm
 tech.root: WMP
 ms.assetid: 422ac0d8-8e94-4484-802f-cdf4ae482fa8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], IWMPControls interface [Windows Media Player],described, IWMPControlsInterface, wmp.iwmpcontrols, wmp/IWMPControls
 ms.prod: windows-hardware
 ms.technology: windows-devices

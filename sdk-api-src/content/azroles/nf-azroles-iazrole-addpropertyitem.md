@@ -4,10 +4,10 @@ title: IAzRole::AddPropertyItem
 author: windows-sdk-content
 description: Adds the specified entity to the specified list.
 old-location: security\iazrole_addpropertyitem.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3d9cb227-a3e8-4cd3-806a-5b7a38661b71
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzRole object, AddPropertyItem method [Security],IAzRole interface, AzRole object [Security],AddPropertyItem method, IAzRole interface [Security],AddPropertyItem method, IAzRole.AddPropertyItem, IAzRole::AddPropertyItem, azroles/IAzRole::AddPropertyItem, security.iazrole_addpropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

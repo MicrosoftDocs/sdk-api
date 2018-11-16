@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofileactivationsink_onactivated.htm
 tech.root: TSF
 ms.assetid: d171cf73-b409-4501-a956-06867c20f214
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfInputProcessorProfileActivationSink interface [Text Services Framework],OnActivated method, ITfInputProcessorProfileActivationSink.OnActivated, ITfInputProcessorProfileActivationSink::OnActivated, OnActivated, OnActivated method [Text Services Framework], OnActivated method [Text Services Framework],ITfInputProcessorProfileActivationSink interface, TF_IPSINK_FLAG_ACTIVE, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileActivationSink::OnActivated, tsf.itfinputprocessorprofileactivationsink_onactivated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,9 +104,9 @@ This is a keyboard layout.
 [in] Specifies the language id of the profile.
 
 
-### -param clsid
+### -param clsid [in]
 
-TBD
+[in] Specifies the CLSID of the text service. If <i>dwProfileType</i> is TF_PROFILETYPE_KEYBOARDLAYOUT, this is CLSID_NULL.
 
 
 ### -param catid [in]
@@ -145,11 +145,6 @@ This is on if this profile is activated.
 </tr>
 </table>
  
-
-
-#### - rclsid [in]
-
-[in] Specifies the CLSID of the text service. If <i>dwProfileType</i> is TF_PROFILETYPE_KEYBOARDLAYOUT, this is CLSID_NULL.
 
 
 ## -returns

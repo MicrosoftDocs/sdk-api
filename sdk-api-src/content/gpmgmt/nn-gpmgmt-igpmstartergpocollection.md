@@ -7,7 +7,7 @@ old-location: gpmc\igpmstartergpocollection.htm
 tech.root: GPMC
 ms.assetid: b650b1c6-0597-468a-afdc-a21d61f1a8a0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GPMStarterGPOCollection, IGPMStarterGPOCollection, IGPMStarterGPOCollection interface [GPMC], IGPMStarterGPOCollection interface [GPMC],described, gpmc.igpmstartergpocollection, gpmgmt/IGPMStarterGPOCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

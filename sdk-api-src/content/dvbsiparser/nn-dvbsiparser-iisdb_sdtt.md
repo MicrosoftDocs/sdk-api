@@ -4,10 +4,10 @@ title: IISDB_SDTT
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT). An SDTT contains download information such as service ID, schedule, and receiver types for revision.
 old-location: mstv\iisdb_sdtt.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: f6ed35bc-4470-4000-8f0d-19d454453720
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], IISDB_SDTT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_SDTT, mstv.iisdb_sdtt
 ms.prod: windows-hardware
 ms.technology: windows-devices

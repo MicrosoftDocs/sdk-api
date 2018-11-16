@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassInfo
 author: windows-sdk-content
 description: The ITPluggableTerminalClassInfo interface exposes methods that allow the application to retrieve information concerning a pluggable terminal.
 old-location: tapi3\itpluggableterminalclassinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0f7190c4-c696-4749-82f2-20fdbc8651f4
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITPluggableTerminalClassInfo, ITPluggableTerminalClassInfo interface [TAPI 2.2], ITPluggableTerminalClassInfo interface [TAPI 2.2],described, _tapi3_itpluggableterminalclassinfo, tapi3.itpluggableterminalclassinfo, tapi3if/ITPluggableTerminalClassInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

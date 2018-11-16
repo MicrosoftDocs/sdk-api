@@ -4,10 +4,10 @@ title: RevertToSelf function
 author: windows-sdk-content
 description: Terminates the impersonation of a client application.
 old-location: security\reverttoself.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e3de77b9-dd27-4f20-b63d-ad2c57ac4283
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: RevertToSelf, RevertToSelf function [Security], _win32_reverttoself, security.reverttoself, securitybaseapi/RevertToSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices

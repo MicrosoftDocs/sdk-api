@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionenumerator_getcount.htm
 tech.root: CoreAudio
 ms.assetid: a1fbfbf5-a79b-40bc-97c7-a76a181bbfec
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IAudioSessionEnumerator interface, IAudioSessionEnumerator interface [Core Audio],GetCount method, IAudioSessionEnumerator.GetCount, IAudioSessionEnumerator::GetCount, audiopolicy/IAudioSessionEnumerator::GetCount, coreaudio.iaudiosessionenumerator_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

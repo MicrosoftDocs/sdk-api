@@ -7,7 +7,7 @@ old-location: tsf\ienumtffunctionproviders_clone.htm
 tech.root: TSF
 ms.assetid: fa4b8682-4f99-425d-8ae7-a510e109fe64
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfFunctionProviders interface, IEnumTfFunctionProviders interface [Text Services Framework],Clone method, IEnumTfFunctionProviders.Clone, IEnumTfFunctionProviders::Clone, _tsf_ienumtffunctionproviders_clone_ref, msctf/IEnumTfFunctionProviders::Clone, tsf.ienumtffunctionproviders_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

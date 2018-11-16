@@ -4,10 +4,10 @@ title: IMPEG2ComponentType
 author: windows-sdk-content
 description: The IMPEG2ComponentType interface is implemented on MPEG2ComponentType objects. It enables applications to set and retrieve information about MPEG2 stream types.
 old-location: mstv\impeg2componenttype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 10bf35e0-d5bf-41ed-b514-7c1bfaf774a0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMPEG2ComponentType, IMPEG2ComponentType interface [Microsoft TV Technologies], IMPEG2ComponentType interface [Microsoft TV Technologies],described, IMPEG2ComponentTypeInterface, mstv.impeg2componenttype, tuner/IMPEG2ComponentType
 ms.prod: windows-hardware
 ms.technology: windows-devices

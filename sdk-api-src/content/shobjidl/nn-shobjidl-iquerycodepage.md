@@ -7,7 +7,7 @@ old-location: shell\IQueryCodePage.htm
 tech.root: shell
 ms.assetid: 362a0b69-ca57-4d56-8c14-8f32aa41926c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IQueryCodePage, IQueryCodePage interface [Windows Shell], IQueryCodePage interface [Windows Shell],described, _shell_IQueryCodePage, shell.IQueryCodePage, shobjidl/IQueryCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices

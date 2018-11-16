@@ -4,10 +4,10 @@ title: IBDA_PinControl::RegistrationContext
 author: windows-sdk-content
 description: The RegistrationContext method retrieves the registration context of a particular pin.
 old-location: mstv\ibda_pincontrol_registrationcontext.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 6e54bb4e-9c65-4f57-ba4a-c5b35ccaae1f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_PinControl interface [Microsoft TV Technologies],RegistrationContext method, IBDA_PinControl.RegistrationContext, IBDA_PinControl::RegistrationContext, IBDA_PinControlRegistrationContext, RegistrationContext, RegistrationContext method [Microsoft TV Technologies], RegistrationContext method [Microsoft TV Technologies],IBDA_PinControl interface, bdaiface/IBDA_PinControl::RegistrationContext, mstv.ibda_pincontrol_registrationcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

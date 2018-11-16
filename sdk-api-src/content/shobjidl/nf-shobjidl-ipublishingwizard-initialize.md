@@ -7,7 +7,7 @@ old-location: shell\IPublishingWizard_Initialize.htm
 tech.root: shell
 ms.assetid: 8312bb2e-cc06-4440-a72c-cf153a5d61b6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: AddNetPlace, IPublishingWizard interface [Windows Shell],Initialize method, IPublishingWizard.Initialize, IPublishingWizard::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPublishingWizard interface, InternetPhotoPrinting, SHPWHF_ANYLOCATION, SHPWHF_NOFILESELECTOR, SHPWHF_NONETPLACECREATE, SHPWHF_NORECOMPRESS, SHPWHF_USEMRU, SHPWHF_VALIDATEVIAWEBFOLDERS, _shell_IPublishingWizard_Initialize, shell.IPublishingWizard_Initialize, shobjidl/IPublishingWizard::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,14 +118,7 @@ Not supported.
 For use with the Add Network Place Wizard. In Windows XP, if this flag is set and an attempt to open the network location using WebDAV fails, the Add Network Place Wizard attempts to create a web folder for the location, using support for WEC. In Windows Vista and Windows Server 2003, this flag has no effect and network locations without support for WebDAV may not be opened as web folders.
 
 
-### -param pszServiceScope
-
-TBD
-
-
-
-
-#### - pszServiceProvider [in]
+### -param pszServiceScope [in]
 
 Type: <b>LPCWSTR</b>
 

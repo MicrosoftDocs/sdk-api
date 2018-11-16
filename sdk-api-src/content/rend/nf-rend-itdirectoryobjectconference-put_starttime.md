@@ -4,10 +4,10 @@ title: ITDirectoryObjectConference::put_StartTime
 author: windows-sdk-content
 description: The put_StartTime method sets the start time of the conference.
 old-location: tapi3\itdirectoryobjectconference_put_starttime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 87ccf59c-3fe6-4247-b7f9-d1fb8bcf4b69
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_StartTime method, ITDirectoryObjectConference.put_StartTime, ITDirectoryObjectConference::put_StartTime, _tapi3_itdirectoryobjectconference_put_starttime, put_StartTime, put_StartTime method [TAPI 2.2], put_StartTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_StartTime, tapi3.itdirectoryobjectconference_put_starttime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfprovider_getobjects.htm
 tech.root: WmiSdk
 ms.assetid: ba56b029-95d4-4c79-8385-0a5adb9f7dcc
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetObjects, GetObjects method [Windows Management Instrumentation], GetObjects method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],GetObjects method, IWbemHiPerfProvider.GetObjects, IWbemHiPerfProvider::GetObjects, _hmm_iwbemhiperfprovider_getobjects, wbemprov/IWbemHiPerfProvider::GetObjects, wmi.iwbemhiperfprovider_getobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,13 +95,6 @@ Reserved. This parameter must be 0.
 
 
 ### -param pContext
-
-TBD
-
-
-
-
-#### - pCtx
 
 Typically <b>NULL</b>; otherwise, a pointer to an 
 <a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object that is required by one or more dynamic class providers. The values in the context object must be specified in specific provider documentation. For more information about this parameter, see 

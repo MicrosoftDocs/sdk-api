@@ -4,10 +4,10 @@ title: IMSVidAnalogTuner::get_AudioFrequency
 author: windows-sdk-content
 description: The get_AudioFrequency method retrieves the tuner's audio frequency.
 old-location: mstv\imsvidanalogtuner_get_audiofrequency.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d0513ea0-305b-40ac-95ad-ed47a0417046
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_AudioFrequency method, IMSVidAnalogTuner.get_AudioFrequency, IMSVidAnalogTuner::get_AudioFrequency, IMSVidAnalogTunerget_AudioFrequency, get_AudioFrequency, get_AudioFrequency method [Microsoft TV Technologies], get_AudioFrequency method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_audiofrequency, segment/IMSVidAnalogTuner::get_AudioFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_AudioFrequency</b> method retrieves the tuner's audio frequency.
 
 
 
-### -param lcc
-
-TBD
-
-
-
-
-#### - plcc [out]
+### -param lcc [out]
 
 Pointer to a variable that receives the audio frequency, in hertz (Hz).
 

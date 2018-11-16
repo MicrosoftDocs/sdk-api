@@ -7,7 +7,7 @@ old-location: display\ddgetpolarityininfo.htm
 tech.root: display
 ms.assetid: ee01c693-a27d-412b-ab1a-5312e41f2365
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PDDGETPOLARITYININFO, DDGETPOLARITYININFO, DDGETPOLARITYININFO structure [Display Devices], PDDGETPOLARITYININFO, PDDGETPOLARITYININFO structure pointer [Display Devices], Video_Structs_693e8e87-9032-4fef-b930-1d346ca447d4.xml, _DDGETPOLARITYININFO, display.ddgetpolarityininfo, dxmini/DDGETPOLARITYININFO, dxmini/PDDGETPOLARITYININFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

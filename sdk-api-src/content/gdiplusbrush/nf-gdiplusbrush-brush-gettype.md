@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Brush_GetType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brushclass\brushmethods\gettype.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Brush class [GDI+],GetType method, Brush.GetType, Brush::GetType, GetType, GetType method [GDI+], GetType method [GDI+],Brush class, _gdiplus_CLASS_Brush_GetType_, gdiplus._gdiplus_CLASS_Brush_GetType_
 ms.prod: windows-hardware
 ms.technology: windows-devices

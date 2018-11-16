@@ -4,10 +4,10 @@ title: NPCloseEnum function
 author: windows-sdk-content
 description: Closes an enumeration.
 old-location: security\npcloseenum.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: fc6d5fe1-0953-4912-bdbd-b1372597f61d
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: NPCloseEnum, NPCloseEnum function [Security], _mnp_npcloseenum, npapi/NPCloseEnum, security.npcloseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

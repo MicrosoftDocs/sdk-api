@@ -7,7 +7,7 @@ old-location: multimedia\auxgetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: c0920425-fb42-4112-b0c1-f4b607b9e794
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_auxGetDevCaps, auxGetDevCaps, auxGetDevCaps function [Windows Multimedia], auxGetDevCapsA, auxGetDevCapsW, mmeapi/auxGetDevCaps, mmeapi/auxGetDevCapsA, mmeapi/auxGetDevCapsW, multimedia.auxgetdevcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,24 +92,12 @@ Identifier of the auxiliary output device to be queried. Specify a valid device 
 
 ### -param pac
 
-TBD
+Pointer to an <a href="https://msdn.microsoft.com/5b94a468-88b2-40a4-b28d-49f262e62749">AUXCAPS</a> structure to be filled with information about the capabilities of the device.
 
 
 ### -param cbac
 
-TBD
-
-
-
-
-#### - cbCaps
-
 Size, in bytes, of the <a href="https://msdn.microsoft.com/5b94a468-88b2-40a4-b28d-49f262e62749">AUXCAPS</a> structure.
-
-
-#### - lpCaps
-
-Pointer to an <a href="https://msdn.microsoft.com/5b94a468-88b2-40a4-b28d-49f262e62749">AUXCAPS</a> structure to be filled with information about the capabilities of the device.
 
 
 ## -returns

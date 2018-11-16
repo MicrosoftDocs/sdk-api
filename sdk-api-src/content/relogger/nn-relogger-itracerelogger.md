@@ -4,10 +4,10 @@ title: ITraceRelogger
 author: windows-sdk-content
 description: Provides access to the relogging functionality, allowing you to manipulate and relog events from an ETW trace stream.
 old-location: etw\itracerelogger.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 08073b9a-5ae0-4e88-a502-647567418005
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ITraceRelogger, ITraceRelogger interface [ETW], ITraceRelogger interface [ETW],described, etw.itracerelogger, relogger/ITraceRelogger
 ms.prod: windows-hardware
 ms.technology: windows-devices

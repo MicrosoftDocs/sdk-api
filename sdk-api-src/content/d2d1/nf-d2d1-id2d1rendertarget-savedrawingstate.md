@@ -4,10 +4,10 @@ title: ID2D1RenderTarget::SaveDrawingState
 author: windows-sdk-content
 description: Saves the current drawing state to the specified ID2D1DrawingStateBlock.
 old-location: direct2d\ID2D1RenderTarget_SaveDrawingState.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8658cdbf-979c-41e2-b180-eb21ad6b63c7
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],SaveDrawingState method, ID2D1RenderTarget.SaveDrawingState, ID2D1RenderTarget::SaveDrawingState, SaveDrawingState, SaveDrawingState method [Direct2D], SaveDrawingState method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::SaveDrawingState, direct2d.ID2D1RenderTarget_SaveDrawingState
 ms.prod: windows-hardware
 ms.technology: windows-devices

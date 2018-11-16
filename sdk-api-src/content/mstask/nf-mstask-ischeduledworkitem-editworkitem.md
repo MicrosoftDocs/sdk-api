@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_editworkitem.htm
 tech.root: TaskSchd
 ms.assetid: 3b0b335a-4386-4726-8758-ef5944cb5dfe
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: EditWorkItem, EditWorkItem method [Task Scheduler], EditWorkItem method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],EditWorkItem method, IScheduledWorkItem.EditWorkItem, IScheduledWorkItem::EditWorkItem, _msb_ischeduledworkitem_editworkitem, mstask/IScheduledWorkItem::EditWorkItem, taskschd.ischeduledworkitem_editworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

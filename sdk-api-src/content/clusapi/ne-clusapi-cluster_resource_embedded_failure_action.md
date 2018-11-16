@@ -4,10 +4,10 @@ title: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
 author: windows-sdk-content
 description: Specifies the various actions that can be performed when a resource has an embedded failure.
 old-location: mscs\cluster_resource_embedded_failure_action.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 72251E97-0DBC-4EEA-BACF-3F7677483F29
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION enumeration [Failover Cluster], ClusterResourceEmbeddedFailureActionLogOnly, ClusterResourceEmbeddedFailureActionNone, ClusterResourceEmbeddedFailureActionRecover, clusapi/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, clusapi/ClusterResourceEmbeddedFailureActionLogOnly, clusapi/ClusterResourceEmbeddedFailureActionNone, clusapi/ClusterResourceEmbeddedFailureActionRecover, msclus/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, msclus/ClusterResourceEmbeddedFailureActionLogOnly, msclus/ClusterResourceEmbeddedFailureActionNone, msclus/ClusterResourceEmbeddedFailureActionRecover, mscs.cluster_resource_embedded_failure_action
 ms.prod: windows-hardware
 ms.technology: windows-devices

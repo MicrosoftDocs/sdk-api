@@ -4,10 +4,10 @@ title: IIsdbSeriesDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 07c4debc-1817-46ac-9f67-9b8637a04662
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], IIsdbSeriesDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSeriesDescriptor, mstv.iisdbseriesdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncprogress_syncitemresult.htm
 tech.root: OfflineFiles
 ms.assetid: 2a93d52e-6b91-4d91-9372-5f0718621841
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IOfflineFilesSyncProgress interface [Offline Files],SyncItemResult method, IOfflineFilesSyncProgress.SyncItemResult, IOfflineFilesSyncProgress::SyncItemResult, SyncItemResult, SyncItemResult method [Offline Files], SyncItemResult method [Offline Files],IOfflineFilesSyncProgress interface, cscobj/IOfflineFilesSyncProgress::SyncItemResult, of.iofflinefilessyncprogress_syncitemresult
 ms.prod: windows-hardware
 ms.technology: windows-devices

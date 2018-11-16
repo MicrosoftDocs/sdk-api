@@ -4,10 +4,10 @@ title: NdrProxyFreeBuffer function
 author: windows-sdk-content
 description: The NdrProxyFreeBuffer function frees an RPC buffer.
 old-location: rpc\ndrproxyfreebuffer.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 6abc3f93-6eef-4363-aa1a-1ecfffb9d934
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: NdrProxyFreeBuffer, NdrProxyFreeBuffer function [RPC], rpc.ndrproxyfreebuffer, rpcproxy/NdrProxyFreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

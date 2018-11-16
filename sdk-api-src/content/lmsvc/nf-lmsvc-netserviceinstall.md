@@ -7,7 +7,7 @@ old-location: netmgmt\netserviceinstall.htm
 tech.root: NetMgmt
 ms.assetid: 4eb0cc77-3862-4b1c-8146-2798cdc6ab66
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NetServiceInstall, NetServiceInstall function [Network Management], _win32_netserviceinstall, lmsvc/NetServiceInstall, netmgmt.netserviceinstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

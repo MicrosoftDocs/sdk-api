@@ -7,7 +7,7 @@ old-location: multimedia\waveinmessage.htm
 tech.root: Multimedia
 ms.assetid: fdf8cf10-807b-47a1-a31c-ca56d5ac9a42
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_waveInMessage, mmeapi/waveInMessage, multimedia.waveinmessage, waveInMessage, waveInMessage function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The <b>waveInMessage</b> function sends messages to the waveform-audio input dev
 
 ### -param hwi
 
-TBD
+Identifier of the waveform device that receives the message. You must cast the device ID to the <b>HWAVEIN</b> handle type. If you supply a handle instead of a device ID, the function fails and returns the MMSYSERR_NOSUPPORT error code.
 
 
 ### -param uMsg
@@ -81,27 +81,10 @@ Message to send.
 
 ### -param dw1
 
-TBD
-
-
-### -param dw2
-
-TBD
-
-
-
-
-#### - deviceID
-
-Identifier of the waveform device that receives the message. You must cast the device ID to the <b>HWAVEIN</b> handle type. If you supply a handle instead of a device ID, the function fails and returns the MMSYSERR_NOSUPPORT error code.
-
-
-#### - dwParam1
-
 Message parameter.
 
 
-#### - dwParam2
+### -param dw2
 
 Message parameter.
 

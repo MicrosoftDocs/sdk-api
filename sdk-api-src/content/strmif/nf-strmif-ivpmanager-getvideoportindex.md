@@ -7,7 +7,7 @@ old-location: dshow\ivpmanager_getvideoportindex.htm
 tech.root: DirectShow
 ms.assetid: 1e30c2d7-b986-47f5-94c8-53937d1e1501
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetVideoPortIndex, GetVideoPortIndex method [DirectShow], GetVideoPortIndex method [DirectShow],IVPManager interface, IVPManager interface [DirectShow],GetVideoPortIndex method, IVPManager.GetVideoPortIndex, IVPManager::GetVideoPortIndex, IVPManagerGetVideoPortIndex, dshow.ivpmanager_getvideoportindex, strmif/IVPManager::GetVideoPortIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

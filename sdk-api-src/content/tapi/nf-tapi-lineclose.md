@@ -4,10 +4,10 @@ title: lineClose function
 author: windows-sdk-content
 description: The lineClose function closes the specified open line device.
 old-location: tapi2\lineclose.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ec47a351-c693-4e71-bf23-c31110ca90a1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "_tapi2_lineclose, lineClose, lineClose function [TAPI 2.2], tapi/lineClose, tapi2.lineclose"
 ms.prod: windows-hardware
 ms.technology: windows-devices

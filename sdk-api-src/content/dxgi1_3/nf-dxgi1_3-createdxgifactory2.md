@@ -7,7 +7,7 @@ old-location: direct3ddxgi\createdxgifactory2.htm
 tech.root: direct3ddxgi
 ms.assetid: D3CF43B0-8F17-486E-8750-CF0B9052BE74
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CreateDXGIFactory2, CreateDXGIFactory2 function [DXGI], direct3ddxgi.createdxgifactory2, dxgi1_3/CreateDXGIFactory2
 ms.prod: windows-hardware
 ms.technology: windows-devices

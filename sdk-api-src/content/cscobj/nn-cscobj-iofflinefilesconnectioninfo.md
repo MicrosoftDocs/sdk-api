@@ -7,7 +7,7 @@ old-location: of\iofflinefilesconnectioninfo.htm
 tech.root: OfflineFiles
 ms.assetid: 923c5657-67e7-498a-a46b-97d44368cf3b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IOfflineFilesConnectionInfo, IOfflineFilesConnectionInfo interface [Offline Files], IOfflineFilesConnectionInfo interface [Offline Files],described, cscobj/IOfflineFilesConnectionInfo, of.iofflinefilesconnectioninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

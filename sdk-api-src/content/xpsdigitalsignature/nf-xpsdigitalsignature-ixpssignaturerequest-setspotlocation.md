@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest_setspotlocation.htm
 tech.root: printdocs
 ms.assetid: 44ee13dd-ceea-4cd3-8c9e-4300c0c304ab
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetSpotLocation method, IXpsSignatureRequest.SetSpotLocation, IXpsSignatureRequest::SetSpotLocation, SetSpotLocation, SetSpotLocation method [XPS Documents and Packaging], SetSpotLocation method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setspotlocation, xpsdigitalsignature/IXpsSignatureRequest::SetSpotLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

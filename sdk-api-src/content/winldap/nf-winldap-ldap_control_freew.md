@@ -4,10 +4,10 @@ title: ldap_control_freeW function
 author: windows-sdk-content
 description: The ldap_control_free function frees an LDAPControl structure.
 old-location: ldap\ldap_control_free.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 10729355-8f80-477b-acc8-705db72cebdb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "_ldap_ldap_control_free, ldap.ldap__control__free, ldap.ldap_control_free, ldap_control_free, ldap_control_free function [LDAP], ldap_control_freeA, ldap_control_freeW, winldap/ldap_control_free, winldap/ldap_control_freeA, winldap/ldap_control_freeW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ The <b>ldap_control_free</b> function frees an
 
 
 
-### -param Control
-
-TBD
-
-
-
-
-#### - Controls [in]
+#### - Control [in]
 
 The <a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a> structure to free.
 

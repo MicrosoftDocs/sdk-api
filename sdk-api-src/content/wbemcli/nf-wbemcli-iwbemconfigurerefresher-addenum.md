@@ -7,7 +7,7 @@ old-location: wmi\iwbemconfigurerefresher_addenum.htm
 tech.root: WmiSdk
 ms.assetid: 5b013267-78bc-4372-b55a-58e330acf927
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: AddEnum, AddEnum method [Windows Management Instrumentation], AddEnum method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddEnum method, IWbemConfigureRefresher.AddEnum, IWbemConfigureRefresher::AddEnum, _hmm_iwbemconfigurerefresher_addenum, wbemcli/IWbemConfigureRefresher::AddEnum, wmi.iwbemconfigurerefresher_addenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,9 +84,11 @@ Constant, null-terminated string of 16-bit Unicode characters containing the nam
 Bitmask of flags that modify the behavior of this method. If this parameter is set to WBEM_FLAG_USE_AMENDED_QUALIFIERS, the returned instances contain localized qualifiers if they are available.
 
 
-### -param pContext
+### -param pContext [in]
 
-TBD
+Typically <b>NULL</b>; otherwise, this is a pointer to an 
+<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object that is required by one or more dynamic class providers. The values in the context object must be specified in the specific provider documentation. For more information about this parameter, see 
+<a href="https://msdn.microsoft.com/5bfd9d9b-ffe5-4def-a97d-85c4c01223f0">Making Calls to WMI</a>.
 
 
 ### -param ppEnum [out]
@@ -98,13 +100,6 @@ Pointer that holds the reference to a
 ### -param plId [out]
 
 Pointer to an integer returned by the provider that uniquely identifies the refreshable enumeration.
-
-
-#### - pCtx [in]
-
-Typically <b>NULL</b>; otherwise, this is a pointer to an 
-<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object that is required by one or more dynamic class providers. The values in the context object must be specified in the specific provider documentation. For more information about this parameter, see 
-<a href="https://msdn.microsoft.com/5bfd9d9b-ffe5-4def-a97d-85c4c01223f0">Making Calls to WMI</a>.
 
 
 ## -returns

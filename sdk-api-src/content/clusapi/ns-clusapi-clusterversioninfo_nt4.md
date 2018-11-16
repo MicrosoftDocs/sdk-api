@@ -4,10 +4,10 @@ title: CLUSTERVERSIONINFO_NT4
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusterversioninfo_nt4.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1420C1B9-3361-4D7C-B968-34967C0818F4
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCLUSTERVERSIONINFO_NT4, CLUSTERVERSIONINFO_NT4, CLUSTERVERSIONINFO_NT4 structure [Failover Cluster], PCLUSTERVERSIONINFO_NT4, PCLUSTERVERSIONINFO_NT4 structure pointer [Failover Cluster], clusapi/CLUSTERVERSIONINFO_NT4, clusapi/PCLUSTERVERSIONINFO_NT4, mscs.clusterversioninfo_nt4"
 ms.prod: windows-hardware
 ms.technology: windows-devices

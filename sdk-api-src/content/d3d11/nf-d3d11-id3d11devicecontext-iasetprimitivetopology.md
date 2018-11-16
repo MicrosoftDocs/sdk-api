@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_iasetprimitivetopology.htm
 tech.root: direct3d11
 ms.assetid: a9896b34-b273-4be2-bea4-0fcecdf5bcad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 71a948e7-b358-d717-cbee-71a3647b9ce1, IASetPrimitiveTopology, IASetPrimitiveTopology method [Direct3D 11], IASetPrimitiveTopology method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetPrimitiveTopology method, ID3D11DeviceContext.IASetPrimitiveTopology, ID3D11DeviceContext::IASetPrimitiveTopology, d3d11/ID3D11DeviceContext::IASetPrimitiveTopology, direct3d11.id3d11devicecontext_iasetprimitivetopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

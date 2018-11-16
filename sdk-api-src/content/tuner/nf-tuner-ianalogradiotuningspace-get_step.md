@@ -4,10 +4,10 @@ title: IAnalogRadioTuningSpace::get_Step
 author: windows-sdk-content
 description: The get_Step method retrieves the step value to the next frequency.
 old-location: mstv\ianalogradiotuningspace_get_step.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 8fed3a33-c37c-486d-8bd6-4b80252867e1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_Step method, IAnalogRadioTuningSpace.get_Step, IAnalogRadioTuningSpace::get_Step, IAnalogRadioTuningSpaceget_Step, get_Step, get_Step method [Microsoft TV Technologies], get_Step method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_step, tuner/IAnalogRadioTuningSpace::get_Step
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_Step</b> method retrieves the step value to the next frequency.
 
 
 
-### -param StepVal
-
-TBD
-
-
-
-
-#### - pStepVal [out]
+### -param StepVal [out]
 
 Pointer to a variable receives the step value to the next frequency, in kilohertz (kHz).
 

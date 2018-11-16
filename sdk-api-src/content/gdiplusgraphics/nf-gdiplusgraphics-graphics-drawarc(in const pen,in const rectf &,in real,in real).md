@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawArc_Pen_pen_RectF_rect_REAL_st
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawarcmethods\drawarc_20penpen_rectfamprect_realstartangle_rea.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: DrawArc, DrawArc method [GDI+], DrawArc method [GDI+],Graphics class, Graphics class [GDI+],DrawArc method, Graphics.DrawArc, Graphics.DrawArc(IN const Pen,IN const RectF &,IN REAL,IN REAL), Graphics.DrawArc(const Pen*,const RectF&,REAL,REAL), Graphics::DrawArc, Graphics::DrawArc(IN const Pen,IN const RectF &,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawArc_Pen_pen_RectF_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_Graphics_DrawArc_Pen_pen_RectF_rect_REAL_startAngle_REAL_sweepAngle_
 ms.prod: windows-hardware
 ms.technology: windows-devices

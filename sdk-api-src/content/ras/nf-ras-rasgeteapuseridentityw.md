@@ -4,10 +4,10 @@ title: RasGetEapUserIdentityW function
 author: windows-sdk-content
 description: The RasGetEapUserIdentity function retrieves identity information for the current user. Use this information to call RasDial with a phone-book entry that requires Extensible Authentication Protocol (EAP).
 old-location: rras\rasgeteapuseridentity.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b1b44672-86f3-4d8b-b816-31167a84b05a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: RASEAPF_Logon, RASEAPF_NonInteractive, RASEAPF_Preview, RasGetEapUserIdentity, RasGetEapUserIdentity function [RAS], RasGetEapUserIdentityA, RasGetEapUserIdentityW, _ras_rasgeteapuseridentity, ras/RasGetEapUserIdentity, ras/RasGetEapUserIdentityA, ras/RasGetEapUserIdentityW, rras.rasgeteapuseridentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

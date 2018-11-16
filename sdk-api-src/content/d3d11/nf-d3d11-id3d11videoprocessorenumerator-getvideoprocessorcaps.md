@@ -7,7 +7,7 @@ old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorcaps.htm
 tech.root: medfound
 ms.assetid: BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorCaps method, ID3D11VideoProcessorEnumerator.GetVideoProcessorCaps, ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps, mf.id3d11videoprocessorenumerator_getvideoprocessorcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

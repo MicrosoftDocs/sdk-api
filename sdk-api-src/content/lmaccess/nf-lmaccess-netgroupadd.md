@@ -7,7 +7,7 @@ old-location: netmgmt\netgroupadd.htm
 tech.root: NetMgmt
 ms.assetid: fbf90758-79fd-4959-b6d0-ad3872e77242
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 0, 1, 2, 3, NetGroupAdd, NetGroupAdd function [Network Management], _win32_netgroupadd, lmaccess/NetGroupAdd, netmgmt.netgroupadd
 ms.prod: windows-hardware
 ms.technology: windows-devices

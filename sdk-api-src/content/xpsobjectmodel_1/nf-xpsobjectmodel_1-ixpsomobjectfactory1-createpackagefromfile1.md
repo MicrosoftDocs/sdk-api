@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory1_createpackagefromfile1.htm
 tech.root: printdocs
 ms.assetid: c5641576-9280-48a5-9fb6-ef3d2811386a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: CreatePackageFromFile1, CreatePackageFromFile1 method [XPS Documents and Packaging], CreatePackageFromFile1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageFromFile1 method, IXpsOMObjectFactory1.CreatePackageFromFile1, IXpsOMObjectFactory1::CreatePackageFromFile1, xps.ixpsomobjectfactory1_createpackagefromfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageFromFile1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,13 +82,6 @@ FALSE: The software will not attempt to optimize the object tree.
 
 
 ### -param package
-
-TBD
-
-
-
-
-#### - Package
 
 [out, retval]   A pointer to the new IXpsOMPackage1 interface that contains the XPS document object tree that was read from filename.
 

@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getcurrentbutton.htm
 tech.root: DirectShow
 ms.assetid: 13df79ea-81c9-4060-8e11-ad7a24a7b5fa
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetCurrentButton, GetCurrentButton method [DirectShow], GetCurrentButton method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentButton method, IDvdInfo.GetCurrentButton, IDvdInfo::GetCurrentButton, IDvdInfoGetCurrentButton, dshow.idvdinfo_getcurrentbutton, strmif/IDvdInfo::GetCurrentButton
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,24 +71,12 @@ Retrieves the number of available buttons and the currently selected button numb
 
 
 
-### -param pulButtonsAvailable
-
-TBD
-
-
-### -param pulCurrentButton
-
-TBD
-
-
-
-
-#### - pnButtonsAvailable [out]
+### -param pulButtonsAvailable [out]
 
 Pointer to the number of buttons available.
 
 
-#### - pnCurrentButton [out]
+### -param pulCurrentButton [out]
 
 Pointer to the number of the current button.
 

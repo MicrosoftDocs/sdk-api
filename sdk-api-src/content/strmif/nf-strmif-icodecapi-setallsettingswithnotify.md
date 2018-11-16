@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setallsettingswithnotify.htm
 tech.root: DirectShow
 ms.assetid: 30f840d1-4c73-4a76-ba0b-c04f2901ad76
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettingsWithNotify method, ICodecAPI.SetAllSettingsWithNotify, ICodecAPI::SetAllSettingsWithNotify, ICodecAPISetAllSettingsWithNotify, SetAllSettingsWithNotify, SetAllSettingsWithNotify method [DirectShow], SetAllSettingsWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettingswithnotify, strmif/ICodecAPI::SetAllSettingsWithNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,9 +70,9 @@ The <b>SetAllSettingsWithNotify</b> method reads codec properties from a stream,
 
 
 
-### -param __MIDL__ICodecAPI0002
+### -param __MIDL__ICodecAPI0002 [in]
 
-TBD
+Pointer to the <b>IStream</b> interface of the stream.
 
 
 ### -param ChangedParam [out]
@@ -85,11 +85,6 @@ Receives a pointer to an array of GUIDs. The array contains the GUIDs of any pro
 
 Receives the number of elements in the <i>ChangedParam</i> array.
           
-
-
-#### - pStream [in]
-
-Pointer to the <b>IStream</b> interface of the stream.
 
 
 ## -returns

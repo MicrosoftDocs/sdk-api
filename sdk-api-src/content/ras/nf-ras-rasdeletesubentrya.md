@@ -4,10 +4,10 @@ title: RasDeleteSubEntryA function
 author: windows-sdk-content
 description: The RasDeleteSubEntry function deletes the specified subentry from the specified phone-book entry.
 old-location: rras\rasdeletesubentry.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: c423d0cc-7275-4703-abee-4eada625d956
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: RasDeleteSubEntry, RasDeleteSubEntry function [RAS], RasDeleteSubEntryA, RasDeleteSubEntryW, _ras_rasdeletesubentry, ras/RasDeleteSubEntry, ras/RasDeleteSubEntryA, ras/RasDeleteSubEntryW, rras.rasdeletesubentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,14 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 Pointer to a <b>null</b>-terminated string that contains the name of an existing entry from which a subentry is to be deleted.
 
 
-### -param dwSubentryId [in]
+### -param dwSubentryId
+
+TBD
+
+
+
+
+#### - dwSubEntryId [in]
 
 Specifies the one-based index of the subentry.
 

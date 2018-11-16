@@ -4,10 +4,10 @@ title: ITTAPICallCenter
 author: windows-sdk-content
 description: The ITTAPICallCenter interface provides an entry point into call center controls.
 old-location: tapi3\ittapicallcenter.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 871cb217-a44f-421e-9cb4-7d8771335d08
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITTAPICallCenter, ITTAPICallCenter interface [TAPI 2.2], ITTAPICallCenter interface [TAPI 2.2],described, _tapi3_ittapicallcenter, tapi3.ittapicallcenter, tapi3cc/ITTAPICallCenter
 ms.prod: windows-hardware
 ms.technology: windows-devices

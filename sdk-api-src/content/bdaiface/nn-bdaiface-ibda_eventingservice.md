@@ -4,10 +4,10 @@ title: IBDA_EventingService
 author: windows-sdk-content
 description: Provides access to a device's Eventing Service.
 old-location: mstv\ibda_eventingservice.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 45ef0b45-92d0-47c1-9334-d0df74a43d28
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_EventingService, IBDA_EventingService interface [Microsoft TV Technologies], IBDA_EventingService interface [Microsoft TV Technologies],described, bdaiface/IBDA_EventingService, mstv.ibda_eventingservice
 ms.prod: windows-hardware
 ms.technology: windows-devices

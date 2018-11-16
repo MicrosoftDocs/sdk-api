@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_addfunctionname.htm
 tech.root: tablet
 ms.assetid: eb1c9172-b520-4f6e-ae15-52634aa30007
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: AddFunctionName, AddFunctionName method [Tablet PC], AddFunctionName method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],AddFunctionName method, IMathInputControl.AddFunctionName, IMathInputControl::AddFunctionName, micaut/IMathInputControl::AddFunctionName, tablet.imathinputcontrol_addfunctionname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Adds a new function-name definition to the list of custom math functions that th
 
 
 
-### -param FunctionName
-
-TBD
-
-
-
-
-#### - FunctonName [in]
+### -param FunctionName [in]
 
 The name of the function to be added.
 

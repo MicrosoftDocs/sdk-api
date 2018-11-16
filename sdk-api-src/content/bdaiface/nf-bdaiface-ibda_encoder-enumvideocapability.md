@@ -4,10 +4,10 @@ title: IBDA_Encoder::EnumVideoCapability
 author: windows-sdk-content
 description: Gets one of the video formats supported by the device.
 old-location: mstv\ibda_encoder_enumvideocapability.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 81a780d3-1b1c-4c9a-9b4b-cb82f83fb7d6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: EnumVideoCapability, EnumVideoCapability method [Microsoft TV Technologies], EnumVideoCapability method [Microsoft TV Technologies],IBDA_Encoder interface, IBDA_Encoder interface [Microsoft TV Technologies],EnumVideoCapability method, IBDA_Encoder.EnumVideoCapability, IBDA_Encoder::EnumVideoCapability, PBDA_Encoder_Video_AVC, PBDA_Encoder_Video_H264, PBDA_Encoder_Video_MPEG2PartII, PBDA_Encoder_Video_MPEG4Part10, bdaiface/IBDA_Encoder::EnumVideoCapability, mstv.ibda_encoder_enumvideocapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

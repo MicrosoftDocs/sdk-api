@@ -4,10 +4,10 @@ title: PWLX_CHANGE_PASSWORD_NOTIFY
 author: windows-sdk-content
 description: Called by GINA to indicate it has changed a password.
 old-location: security\wlxchangepasswordnotify.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 53765f8f-50cb-40dd-888e-0e1ddbe76f7e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: PWLX_CHANGE_PASSWORD_NOTIFY, PWLX_CHANGE_PASSWORD_NOTIFY callback, WlxChangePasswordNotify, WlxChangePasswordNotify callback function [Security], _gina_wlxchangepasswordnotify, security.wlxchangepasswordnotify, winwlx/WlxChangePasswordNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

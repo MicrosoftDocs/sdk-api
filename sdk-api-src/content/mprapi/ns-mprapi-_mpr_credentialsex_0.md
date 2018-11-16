@@ -4,10 +4,10 @@ title: "_MPR_CREDENTIALSEX_0"
 author: windows-sdk-content
 description: The MPR_CREDENTIALSEX_0 structure contains extended credentials information such as the information used by Extensible Authentication Protocols (EAPs).
 old-location: rras\mpr_credentialsex_0.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: a1524c6e-3a94-4fc1-be28-bcaca8bcc62e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: "*PMPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0 structure [RAS], PMPR_CREDENTIALSEX_0, PMPR_CREDENTIALSEX_0 structure pointer [RAS], _MPR_CREDENTIALSEX_0, _mpr_mpr_credentialsex_0, mprapi/MPR_CREDENTIALSEX_0, mprapi/PMPR_CREDENTIALSEX_0, rras.mpr_credentialsex_0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

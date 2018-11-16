@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_getexpansionvelocity.htm
 tech.root: wintouch
 ms.assetid: 5dbaeaa3-4abf-485e-9f84-8450dce14fc9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetExpansionVelocity, GetExpansionVelocity method [Windows Touch], GetExpansionVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetExpansionVelocity method, IManipulationProcessor.GetExpansionVelocity, IManipulationProcessor::GetExpansionVelocity, manipulations/IManipulationProcessor::GetExpansionVelocity, wintouch.imanipulationprocessor_getexpansionvelocity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>GetExpansionVelocity</b> method calculates the rate that the target objec
 
 
 
-### -param expansionVelocity
-
-TBD
-
-
-
-
-#### - pExpansionVelocity [out]
+### -param expansionVelocity [out]
 
 The rate of expansion.
 

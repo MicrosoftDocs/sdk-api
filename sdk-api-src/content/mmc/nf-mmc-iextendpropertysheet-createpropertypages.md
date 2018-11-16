@@ -4,10 +4,10 @@ title: IExtendPropertySheet::CreatePropertyPages
 author: windows-sdk-content
 description: Adds pages to a property sheet.
 old-location: mmc\iextendpropertysheet_createpropertypages.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 8B99EC8D-AFE1-4944-AF61-BFE93C0AF7DE
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: CreatePropertyPages, CreatePropertyPages method [MMC], CreatePropertyPages method [MMC],IExtendPropertySheet interface, IExtendPropertySheet interface [MMC],CreatePropertyPages method, IExtendPropertySheet.CreatePropertyPages, IExtendPropertySheet::CreatePropertyPages, mmc.iextendpropertysheet_createpropertypages, mmc/IExtendPropertySheet::CreatePropertyPages
 ms.prod: windows-hardware
 ms.technology: windows-devices

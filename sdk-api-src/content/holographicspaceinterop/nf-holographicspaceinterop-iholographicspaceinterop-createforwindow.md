@@ -7,7 +7,7 @@ old-location: mixedreality\iholographicspaceinterop_createforwindow.htm
 tech.root: MixedReality
 ms.assetid: 8B7A226E-FB47-4BA2-B13E-B37250C75920
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,CreateForWindow method, IHolographicSpaceInterop.CreateForWindow, IHolographicSpaceInterop::CreateForWindow, MixedReality.iholographicspaceinterop_createforwindow, holographicspaceinterop/IHolographicSpaceInterop::CreateForWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,14 +82,7 @@ The RUID for the resource interface.
 The REFIID, or GUID, of the interface to the resource can be obtained by using the __uuidof() macro. For example, __uuidof(IRadialController) will get the GUID of the interface to a buffer resource.
 
 
-### -param holographicSpace
-
-TBD
-
-
-
-
-#### - **holographicSpace [out]
+### -param holographicSpace [out]
 
 Address of a pointer to a <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace">HolographicSpace</a> object.
 

@@ -4,10 +4,10 @@ title: GetAddrInfoExA function
 author: windows-sdk-content
 description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
 old-location: winsock\getaddrinfoex.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetAddrInfoEx, GetAddrInfoEx function [Winsock], GetAddrInfoExA, GetAddrInfoExW, NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NETBT, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, NS_WINS, winsock.getaddrinfoex, ws2tcpip/GetAddrInfoEx, ws2tcpip/GetAddrInfoExA, ws2tcpip/GetAddrInfoExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -292,14 +292,7 @@ On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICOD
 On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported. 
 
 
-### -param lpNameHandle
-
-TBD
-
-
-
-
-#### - lpHandle [out, optional]
+### -param lpNameHandle [out, optional]
 
 An optional pointer used only for asynchronous operations.  
 

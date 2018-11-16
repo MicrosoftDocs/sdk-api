@@ -7,7 +7,7 @@ old-location: of\iofflinefilesfilesysinfo_gettimes.htm
 tech.root: OfflineFiles
 ms.assetid: 120b3f7c-6a92-4a03-8676-1ad4e4dc96b3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetTimes, GetTimes method [Offline Files], GetTimes method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetTimes method, IOfflineFilesFileSysInfo.GetTimes, IOfflineFilesFileSysInfo::GetTimes, cscobj/IOfflineFilesFileSysInfo::GetTimes, of.iofflinefilesfilesysinfo_gettimes
 ms.prod: windows-hardware
 ms.technology: windows-devices

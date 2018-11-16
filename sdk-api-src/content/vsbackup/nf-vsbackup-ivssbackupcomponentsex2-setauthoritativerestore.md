@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex2_setauthoritativerestore.htm
 tech.root: VSS
 ms.assetid: 3725a282-2df8-4a0a-a1bf-a73c2b259cbf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetAuthoritativeRestore method, IVssBackupComponentsEx2.SetAuthoritativeRestore, IVssBackupComponentsEx2::SetAuthoritativeRestore, SetAuthoritativeRestore, SetAuthoritativeRestore method, SetAuthoritativeRestore method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setauthoritativerestore, vsbackup/IVssBackupComponentsEx2::SetAuthoritativeRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices

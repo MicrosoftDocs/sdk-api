@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSink::put_SinkName
 author: windows-sdk-content
 description: The put_SinkName method sets the name of the stub file that points to the backing files.
 old-location: mstv\imsvidstreambuffersink_put_sinkname.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 5269ab81-0963-4a86-9592-d670cca6016f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],put_SinkName method, IMSVidStreamBufferSink.put_SinkName, IMSVidStreamBufferSink::put_SinkName, IMSVidStreamBufferSinkput_SinkName, mstv.imsvidstreambuffersink_put_sinkname, put_SinkName, put_SinkName method [Microsoft TV Technologies], put_SinkName method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, segment/IMSVidStreamBufferSink::put_SinkName
 ms.prod: windows-hardware
 ms.technology: windows-devices

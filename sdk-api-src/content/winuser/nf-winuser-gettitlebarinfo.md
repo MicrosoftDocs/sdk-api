@@ -7,7 +7,7 @@ old-location: winmsg\gettitlebarinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\gettitlebarinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetTitleBarInfo, GetTitleBarInfo function [Windows and Messages], _win32_GetTitleBarInfo, _win32_gettitlebarinfo_cpp, winmsg.gettitlebarinfo, winui._win32_gettitlebarinfo, winuser/GetTitleBarInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

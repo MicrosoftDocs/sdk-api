@@ -4,10 +4,10 @@ title: ID2D1SpriteBatch::AddSprites
 author: windows-sdk-content
 description: Adds the given sprites to the end of this sprite batch.
 old-location: direct2d\id2d1spritebatch_addsprites.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 49EA1F42-76C3-4505-B46A-422A336A13F6
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AddSprites, AddSprites method [Direct2D], AddSprites method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],AddSprites method, ID2D1SpriteBatch.AddSprites, ID2D1SpriteBatch::AddSprites, d2d1_3/ID2D1SpriteBatch::AddSprites, direct2d.id2d1spritebatch_addsprites
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,22 +125,13 @@ Specifies the distance, in bytes, between each rectangle in the destinationRecta
 
 ### -param sourceRectanglesStride
 
-TBD
+Type: <b>UINT32</b>
+
+Specifies the distance, in bytes, between each rectangle in the sourceRectangles array (if that array is given). 
+          If you provide a stride of 0, then the same source rectangle will be used for each added sprite.
 
 
 ### -param colorsStride
-
-TBD
-
-
-### -param transformsStride
-
-TBD
-
-
-
-
-#### - colorStride
 
 Type: <b>UINT32</b>
 
@@ -148,15 +139,7 @@ Specifies the distance, in bytes, between each color in the colors array (if tha
           If you provide a stride of 0, then the same color will be used for each added sprite.
 
 
-#### - sourceRectangleStride
-
-Type: <b>UINT32</b>
-
-Specifies the distance, in bytes, between each rectangle in the sourceRectangles array (if that array is given). 
-          If you provide a stride of 0, then the same source rectangle will be used for each added sprite.
-
-
-#### - transformStride
+### -param transformsStride
 
 Type: <b>UINT32</b>
 

@@ -7,7 +7,7 @@ old-location: mf\imfnetcrossoriginsupport_getsourceorigin.htm
 tech.root: medfound
 ms.assetid: 84379D86-DB03-4631-9A35-EFE9811B0D33
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetSourceOrigin, GetSourceOrigin method [Media Foundation], GetSourceOrigin method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetSourceOrigin method, IMFNetCrossOriginSupport.GetSourceOrigin, IMFNetCrossOriginSupport::GetSourceOrigin, mf.imfnetcrossoriginsupport_getsourceorigin, mfidl/IMFNetCrossOriginSupport::GetSourceOrigin
 ms.prod: windows-hardware
 ms.technology: windows-devices

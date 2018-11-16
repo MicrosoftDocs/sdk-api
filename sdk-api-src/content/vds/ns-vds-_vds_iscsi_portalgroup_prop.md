@@ -7,7 +7,7 @@ old-location: base\vds_iscsi_portalgroup_prop.htm
 tech.root: VDS
 ms.assetid: 82f891a2-432b-4503-8b5a-a79bea800525
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PVDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP structure [VDS], _VDS_ISCSI_PORTALGROUP_PROP, base.vds_iscsi_portalgroup_prop, vds/VDS_ISCSI_PORTALGROUP_PROP, vdshwprv/VDS_ISCSI_PORTALGROUP_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

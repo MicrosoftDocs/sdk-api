@@ -4,10 +4,10 @@ title: IConsoleVerb::SetVerbState
 author: windows-sdk-content
 description: The SetVerbState method enables a snap-in to set a given verb's button state.
 old-location: mmc\iconsoleverb_setverbstate.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 55cf5f73-a113-430e-be16-d7a88abe15b6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IConsoleVerb interface [MMC],SetVerbState method, IConsoleVerb.SetVerbState, IConsoleVerb::SetVerbState, SetVerbState, SetVerbState method [MMC], SetVerbState method [MMC],IConsoleVerb interface, _slate_iconsoleverb_setverbstate, mmc.iconsoleverb_setverbstate, mmc/IConsoleVerb::SetVerbState
 ms.prod: windows-hardware
 ms.technology: windows-devices

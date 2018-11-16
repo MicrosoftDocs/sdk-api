@@ -7,7 +7,7 @@ old-location: display\dxbobnextfield.htm
 tech.root: display
 ms.assetid: 5daafc0c-2a6d-45e2-8403-d54cb383b3b7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DxBobNextField, DxBobNextField callback function [Display Devices], PDX_BOBNEXTFIELD, PDX_BOBNEXTFIELD callback, VideoMiniPort_DxApiFunctions_d95db457-005d-4eee-a110-19159f64008b.xml, display.dxbobnextfield, dxmini/DxBobNextField
 ms.prod: windows-hardware
 ms.technology: windows-devices

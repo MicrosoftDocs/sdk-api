@@ -7,7 +7,7 @@ old-location: search\icolumnmapper_enumpropinfo.htm
 tech.root: search
 ms.assetid: E24E7258-1A5D-4FA0-8F17-6E2B00582AF3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: EnumPropInfo, EnumPropInfo method [search], EnumPropInfo method [search],IColumnMapper interface, IColumnMapper interface [search],EnumPropInfo method, IColumnMapper.EnumPropInfo, IColumnMapper::EnumPropInfo, indexsrv/IColumnMapper::EnumPropInfo, search.icolumnmapper_enumpropinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,9 +76,9 @@ i-th entry to retrieve. Note that the entries are 0-based.
 The return property name.
 
 
-### -param ppPropId
+### -param ppPropId [out]
 
-TBD
+The Id of the property.
 
 
 ### -param pPropType [out]
@@ -89,11 +89,6 @@ The return type of the property.
 ### -param puiWidth [out]
 
 The return property width.
-
-
-#### - ppPropid [out]
-
-The Id of the property.
 
 
 ## -returns

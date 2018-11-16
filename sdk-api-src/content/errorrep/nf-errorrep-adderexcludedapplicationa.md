@@ -7,7 +7,7 @@ old-location: wer\adderexcludedapplication.htm
 tech.root: wer
 ms.assetid: 9055437b-2ee2-4f0a-bcef-2b04ac5368b3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AddERExcludedApplication, AddERExcludedApplication function [Windows Error Reporting], AddERExcludedApplicationA, AddERExcludedApplicationW, _win32_adderexcludedapplication, base.adderexcludedapplication, errorrep/AddERExcludedApplication, errorrep/AddERExcludedApplicationA, errorrep/AddERExcludedApplicationW, wer.adderexcludedapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,7 @@ Excludes the specified application from error reporting.
 
 
 
-### -param szApplication
-
-TBD
-
-
-
-
-#### - wszApplication [in]
+### -param szApplication [in]
 
 The name of the executable file for the application, including the file name extension. The name cannot contain path information.
 

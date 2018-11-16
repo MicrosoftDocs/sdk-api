@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation6.htm
 tech.root: WinAuto
 ms.assetid: FA42D0D0-E6D6-41C6-BCF1-6F9C02D2BE1D
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IUIAutomation6, IUIAutomation6 interface [Windows Accessibility], IUIAutomation6 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation6, winauto.uiauto_IUIAutomation6
 ms.prod: windows-hardware
 ms.technology: windows-devices

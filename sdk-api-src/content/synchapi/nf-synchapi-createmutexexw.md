@@ -4,10 +4,10 @@ title: CreateMutexExW function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed mutex object and returns a handle to the object.
 old-location: base\createmutexex.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: c22ec98a-29c0-444e-afa4-fa2ad131a086
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CREATE_MUTEX_INITIAL_OWNER, CreateMutexEx, CreateMutexEx function, CreateMutexExA, CreateMutexExW, base.createmutexex, synchapi/CreateMutexEx, synchapi/CreateMutexExA, synchapi/CreateMutexExW, winbase/CreateMutexEx, winbase/CreateMutexExA, winbase/CreateMutexExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

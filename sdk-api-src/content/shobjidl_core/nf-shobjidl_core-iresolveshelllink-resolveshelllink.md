@@ -7,7 +7,7 @@ old-location: shell\IResolveShellLink_ResolveShellLink.htm
 tech.root: shell
 ms.assetid: 2cf849f6-e7b4-4280-98d7-4dcc20039624
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IResolveShellLink interface [Windows Shell],ResolveShellLink method, IResolveShellLink.ResolveShellLink, IResolveShellLink::ResolveShellLink, ResolveShellLink, ResolveShellLink method [Windows Shell], ResolveShellLink method [Windows Shell],IResolveShellLink interface, SLR_INVOKE_MSI, SLR_NOLINKINFO, SLR_NOSEARCH, SLR_NOTRACK, SLR_NOUPDATE, SLR_NO_UI, SLR_UPDATE, _win32_IResolveShellLink_ResolveShellLink, shell.IResolveShellLink_ResolveShellLink, shobjidl_core/IResolveShellLink::ResolveShellLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Requests that a folder object resolve a Shell link.
 
 
 
-### -param punkLink
+### -param punkLink [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+
+Pointer to the object's <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> interface. This interface can then be queried to determine the contents of the link.
 
 
 ### -param hwnd [in]
@@ -125,13 +127,6 @@ Do not use distributed link tracking.
 #### SLR_UPDATE
 
 If the link object has changed, update its path and list of identifiers. If <b>SLR_UPDATE</b> is set, you do not need to call <a href="https://msdn.microsoft.com/4f3df841-d7fe-472e-a13c-124fdf425a35">IPersistFile::IsDirty</a> to determine whether the link object has changed.
-
-
-#### - punk [in]
-
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
-
-Pointer to the object's <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> interface. This interface can then be queried to determine the contents of the link.
 
 
 ## -returns

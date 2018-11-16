@@ -7,7 +7,7 @@ old-location: direct3d11\d3d_parameter_flags.htm
 tech.root: direct3d11
 ms.assetid: 36D757E7-2960-43E3-8C5E-8B11F0109ACD
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: D3D_PARAMETER_FLAGS, D3D_PARAMETER_FLAGS enumeration [Direct3D 11], D3D_PF_FORCE_DWORD, D3D_PF_IN, D3D_PF_NONE, D3D_PF_OUT, _D3D_PARAMETER_FLAGS, d3dcommon/D3D_PARAMETER_FLAGS, d3dcommon/D3D_PF_FORCE_DWORD, d3dcommon/D3D_PF_IN, d3dcommon/D3D_PF_NONE, d3dcommon/D3D_PF_OUT, direct3d11.d3d_parameter_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

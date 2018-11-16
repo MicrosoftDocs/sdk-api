@@ -7,7 +7,7 @@ old-location: lwef\iactivedesktop_setdesktopitemoptions.htm
 tech.root: lwef
 ms.assetid: 5f2c1f41-d678-4eb8-b246-46133eec465f
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/15/2018
 ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],SetDesktopItemOptions method, IActiveDesktop.SetDesktopItemOptions, IActiveDesktop::SetDesktopItemOptions, SetDesktopItemOptions, SetDesktopItemOptions method [Legacy Windows Environment Features], SetDesktopItemOptions method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_SetDesktopItemOptions, lwef.iactivedesktop_setdesktopitemoptions, shell.iactivedesktop_setdesktopitemoptions, shlobj_core/IActiveDesktop::SetDesktopItemOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Sets the item's options.
 
 
 
-### -param pco
+### -param pco [in]
 
-TBD
+Type: <b>LPCCOMPONENTSOPT</b>
+
+The address of the <a href="https://msdn.microsoft.com/c56a2061-903a-4777-a3fc-bb1fae1f8c43">COMPONENTSOPT</a> structure that contains the options to set. 
 
 
 ### -param dwReserved
@@ -76,13 +78,6 @@ TBD
 Type: <b>DWORD</b>
 
 Reserved. Must be set to zero. 
-
-
-#### - pcomp [in]
-
-Type: <b>LPCCOMPONENTSOPT</b>
-
-The address of the <a href="https://msdn.microsoft.com/c56a2061-903a-4777-a3fc-bb1fae1f8c43">COMPONENTSOPT</a> structure that contains the options to set. 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wmformat\iwmdeviceregistration_registerdevice.htm
 tech.root: wmformat
 ms.assetid: cdce6941-dac9-4de5-8230-904c26e82642
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMDeviceRegistration interface [windows Media Format],RegisterDevice method, IWMDeviceRegistration.RegisterDevice, IWMDeviceRegistration::RegisterDevice, IWMDeviceRegistrationRegisterDevice, RegisterDevice, RegisterDevice method [windows Media Format], RegisterDevice method [windows Media Format],IWMDeviceRegistration interface, wmformat.iwmdeviceregistration_registerdevice, wmsdkidl/IWMDeviceRegistration::RegisterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

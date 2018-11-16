@@ -7,7 +7,7 @@ old-location: wcs\getlogcolorspace.htm
 tech.root: WCS
 ms.assetid: 01862a48-8c2f-4b29-b928-2800c02218a2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetLogColorSpace, GetLogColorSpace function [Windows Color System], GetLogColorSpaceA, GetLogColorSpaceW, _color_GetLogColorSpace, wcs.getlogcolorspace, wingdi/GetLogColorSpace, wingdi/GetLogColorSpaceA, wingdi/GetLogColorSpaceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

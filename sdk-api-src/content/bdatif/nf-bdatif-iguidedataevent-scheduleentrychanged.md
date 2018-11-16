@@ -4,10 +4,10 @@ title: IGuideDataEvent::ScheduleEntryChanged
 author: windows-sdk-content
 description: The ScheduleEntryChanged method is called by the TIF when information about one or more schedule entries has changed.
 old-location: mstv\iguidedataevent_scheduleentrychanged.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 04c278a0-8a92-4801-9463-696beb22819e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ScheduleEntryChanged method, IGuideDataEvent.ScheduleEntryChanged, IGuideDataEvent::ScheduleEntryChanged, IGuideDataEventScheduleEntryChanged, ScheduleEntryChanged, ScheduleEntryChanged method [Microsoft TV Technologies], ScheduleEntryChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ScheduleEntryChanged, mstv.iguidedataevent_scheduleentrychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

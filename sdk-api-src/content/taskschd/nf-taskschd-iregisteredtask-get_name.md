@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_name.htm
 tech.root: TaskSchd
 ms.assetid: 17aff717-10dd-43ac-9d14-6c07831d4c18
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Name property, IRegisteredTask.Name, IRegisteredTask.get_Name, IRegisteredTask::Name, IRegisteredTask::get_Name, Name property [Task Scheduler], Name property [Task Scheduler],IRegisteredTask interface, get_Name, taskschd.iregisteredtask_name, taskschd/IRegisteredTask::Name, taskschd/IRegisteredTask::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

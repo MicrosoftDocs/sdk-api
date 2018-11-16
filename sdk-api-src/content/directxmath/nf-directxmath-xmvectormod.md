@@ -7,7 +7,7 @@ old-location: dxmath\xmvectormod.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorMod(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMVectorMod, XMVectorMod, XMVectorMod method [DirectX Math Support APIs], dxmath.xmvectormod
 ms.prod: windows-hardware
 ms.technology: windows-devices

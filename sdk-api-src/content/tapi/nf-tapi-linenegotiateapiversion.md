@@ -4,10 +4,10 @@ title: lineNegotiateAPIVersion function
 author: windows-sdk-content
 description: The lineNegotiateAPIVersion function allows an application to negotiate an API version to use.
 old-location: tapi2\linenegotiateapiversion.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 71eb55de-281b-42a9-8d9b-7ded62cb006a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "_tapi2_linenegotiateapiversion, lineNegotiateAPIVersion, lineNegotiateAPIVersion function [TAPI 2.2], tapi/lineNegotiateAPIVersion, tapi2.linenegotiateapiversion"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: AddClusterNode function
 author: windows-sdk-content
 description: Adds a node to an existing cluster.
 old-location: mscs\addclusternode.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e1d3611e-10d1-4858-923a-01633d2ed78b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AddClusterNode, AddClusterNode function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_NODE, PCLUSAPI_ADD_CLUSTER_NODE function [Failover Cluster], clusapi/AddClusterNode, clusapi/PCLUSAPI_ADD_CLUSTER_NODE, mscs.addclusternode
 ms.prod: windows-hardware
 ms.technology: windows-devices

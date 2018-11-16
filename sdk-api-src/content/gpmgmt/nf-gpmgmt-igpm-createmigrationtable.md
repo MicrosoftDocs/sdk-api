@@ -7,7 +7,7 @@ old-location: gpmc\igpm_createmigrationtable.htm
 tech.root: GPMC
 ms.assetid: ae9ea50f-d652-4d7a-aac5-5b9ef27b99e0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateMigrationTable, CreateMigrationTable method [GPMC], CreateMigrationTable method [GPMC],GPM class, CreateMigrationTable method [GPMC],IGPM interface, GPM class [GPMC],CreateMigrationTable method, IGPM interface [GPMC],CreateMigrationTable method, IGPM.CreateMigrationTable, IGPM::CreateMigrationTable, gpmc.igpm_createmigrationtable, gpmgmt/IGPM::CreateMigrationTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ Creates an empty migration table.
 
 
 
-### -param ppMigrationTable
-
-TBD
-
-
-
-
-#### - ppTable [out]
+### -param ppMigrationTable [out]
 
 Receives the created migration table that contains no entries. See <a href="https://msdn.microsoft.com/c80c76b0-8589-4ecb-b9bf-6b8377fa98dd">IGPMMigrationTable</a>.
 

@@ -7,7 +7,7 @@ old-location: taskschd\irepetitionpattern.htm
 tech.root: TaskSchd
 ms.assetid: 7eea143b-d2f8-44d2-a3ec-8328a0bc69ef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IRepetitionPattern, IRepetitionPattern interface [Task Scheduler], IRepetitionPattern interface [Task Scheduler],described, repetition pattern [Task Scheduler],interface, taskschd.irepetitionpattern, taskschd/IRepetitionPattern, triggers [Task Scheduler],repetition pattern interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

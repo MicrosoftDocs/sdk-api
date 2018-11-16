@@ -4,10 +4,10 @@ title: ICertEncodeAltName::GetNameCount
 author: windows-sdk-content
 description: Returns the number of names in the alternate name array.
 old-location: security\icertencodealtname_getnamecount.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3f5e5c5d-e21b-452b-837c-5b44daa884b8
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CCertEncodeAltName object [Security],GetNameCount method, GetNameCount, GetNameCount method [Security], GetNameCount method [Security],CCertEncodeAltName object, GetNameCount method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameCount method, ICertEncodeAltName.GetNameCount, ICertEncodeAltName::GetNameCount, _certsrv_icertencodealtname_getnamecount, certenc/ICertEncodeAltName::GetNameCount, security.icertencodealtname_getnamecount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\itaskfolder_deletefolder.htm
 tech.root: TaskSchd
 ms.assetid: 7758afc5-73d8-456c-98a9-89e4b7ad42b9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DeleteFolder, DeleteFolder method [Task Scheduler], DeleteFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],DeleteFolder method, ITaskFolder.DeleteFolder, ITaskFolder::DeleteFolder, taskschd.itaskfolder_deletefolder, taskschd/ITaskFolder::DeleteFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,20 +66,15 @@ Deletes a subfolder from the parent folder.
 
 
 
-### -param subFolderName
+### -param subFolderName [in]
 
-TBD
+The name of the subfolder to be removed. The root task folder is specified with a backslash (\). This parameter can be a relative path to the folder you want to delete. An example of a task folder path, under the root task folder,
+ is \MyTaskFolder. The '.' character  cannot be used to specify the current task folder  and the '..' characters cannot be used to specify the parent task folder in the path.
 
 
 ### -param flags [in]
 
 Not supported.
-
-
-#### - folderName [in]
-
-The name of the subfolder to be removed. The root task folder is specified with a backslash (\). This parameter can be a relative path to the folder you want to delete. An example of a task folder path, under the root task folder,
- is \MyTaskFolder. The '.' character  cannot be used to specify the current task folder  and the '..' characters cannot be used to specify the parent task folder in the path.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IGenericDescriptor
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\igenericdescriptor.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IGenericDescriptor, IGenericDescriptor interface [Microsoft TV Technologies], IGenericDescriptor interface [Microsoft TV Technologies],described, IGenericDescriptorInterface, mpeg2psiparser/IGenericDescriptor, mstv.igenericdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

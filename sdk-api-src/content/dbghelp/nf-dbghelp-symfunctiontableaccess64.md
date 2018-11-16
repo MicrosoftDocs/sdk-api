@@ -4,10 +4,10 @@ title: SymFunctionTableAccess64 function
 author: windows-sdk-content
 description: Retrieves the function table entry for the specified address.
 old-location: base\symfunctiontableaccess64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f79e6af9-9931-4bd7-ae12-29d890267a89
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymFunctionTableAccess, SymFunctionTableAccess function, SymFunctionTableAccess64, SymFunctionTableAccess64 function, _win32_symfunctiontableaccess64, base.symfunctiontableaccess64, dbghelp/SymFunctionTableAccess, dbghelp/SymFunctionTableAccess64
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservicecallback2_onelementstatechanged
 tech.root: xaml_diagnostics
 ms.assetid: A832FDC6-1485-432C-9A87-A3C94D0AF8CA
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVisualTreeServiceCallback2 interface,OnElementStateChanged method, IVisualTreeServiceCallback2.OnElementStateChanged, IVisualTreeServiceCallback2::OnElementStateChanged, OnElementStateChanged, OnElementStateChanged method, OnElementStateChanged method,IVisualTreeServiceCallback2 interface, xaml_diagnostics.ivisualtreeservicecallback2_onelementstatechanged, xamlom/IVisualTreeServiceCallback2::OnElementStateChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\recyclesurrogate.htm
 tech.root: cossdk
 ms.assetid: d75f5894-f711-48f8-a6f5-be7ac594dc42
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CRR_ACTIVATION_LIMIT, CRR_CALL_LIMIT, CRR_LIFETIME_LIMIT, CRR_MEMORY_LIMIT, CRR_NO_REASON_SUPPLIED, CRR_RECYCLED_FROM_UI, RecycleSurrogate, RecycleSurrogate function [COM+], _cos_recyclesurrogate, comsvcs/RecycleSurrogate, cos.recyclesurrogate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\Shell_GetCachedImageIndex.htm
 tech.root: shell
 ms.assetid: f0d4dd1f-a41c-4dd0-9713-e3aec48ff101
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Shell_GetCachedImageIndex, Shell_GetCachedImageIndex function [Windows Shell], Shell_GetCachedImageIndexA, Shell_GetCachedImageIndexW, _win32_Shell_GetCachedImageIndex, shell.Shell_GetCachedImageIndex, shlobj_core/Shell_GetCachedImageIndex, shlobj_core/Shell_GetCachedImageIndexA, shlobj_core/Shell_GetCachedImageIndexW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,11 +70,9 @@ Retrieves the cache index of a cached icon.
 
 
 
-#### - pszIconPath [in]
+### -param pszIconPath
 
-Type: <b>PCWSTR</b>
-
-A pointer to a buffer that contains the path to the image file.
+TBD
 
 
 ### -param iIconIndex
@@ -89,6 +87,13 @@ The index of the image within the file named at <i>pwszIconPath</i>.
 Type: <b>UINT</b>
 
 Not used.
+
+
+#### - pwszIconPath [in]
+
+Type: <b>PCWSTR</b>
+
+A pointer to a buffer that contains the path to the image file.
 
 
 ## -returns

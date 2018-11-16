@@ -7,7 +7,7 @@ old-location: winauto\serialkeys.htm
 tech.root: WinAuto
 ms.assetid: 934446ab-b6bc-49f9-ab26-34eb3dc88f05
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPSERIALKEYSA, LPSERIALKEYS, LPSERIALKEYS structure pointer [Windows Accessibility], SERIALKEYS, SERIALKEYS structure [Windows Accessibility], SERIALKEYSA, SERKF_AVAILABLE, SERKF_INDICATOR, SERKF_SERIALKEYSON, _win32_SERIALKEYS_str, msaa.serialkeys, tagSERIALKEYSA, tagSERIALKEYSW, winauto.serialkeys, winuser/LPSERIALKEYS, winuser/SERIALKEYS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

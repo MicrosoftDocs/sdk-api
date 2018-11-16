@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getwbemint64_lpcwstr__longlong__.htm
 tech.root: WmiSdk
 ms.assetid: b585e740-eade-4f81-908c-98dd88540cb1
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetWBEMINT64 method, CInstance.GetWBEMINT64, CInstance.GetWBEMINT64(LPCWSTR,ULONGLONG &), CInstance::GetWBEMINT64, CInstance::GetWBEMINT64(LPCWSTR,LONGLONG&), CInstance::GetWBEMINT64(LPCWSTR,ULONGLONG &), GetWBEMINT64, GetWBEMINT64 method [Windows Management Instrumentation], GetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64_lpcwstr__longlong__
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,14 @@ The <b>GetWBEMINT64</b> method retrieves a 64-bit integer property.
 Name of the 64-bit integer property retrieved.
 
 
-### -param i64Value [ref]
+### -param i64Value
+
+TBD
+
+
+
+
+#### - wbemint64 [ref]
 
 Buffer to receive the 64-bit integer value.
 

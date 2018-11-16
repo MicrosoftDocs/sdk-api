@@ -7,7 +7,7 @@ old-location: base\ivdscontrollerport_getcontroller.htm
 tech.root: VDS
 ms.assetid: 12532ac2-96bd-4ebf-9d09-c240e7357e20
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetController, GetController method [VDS], GetController method [VDS],IVdsControllerPort interface, IVdsControllerPort interface [VDS],GetController method, IVdsControllerPort.GetController, IVdsControllerPort::GetController, base.ivdscontrollerport_getcontroller, vds/IVdsControllerPort::GetController, vdshwprv/IVdsControllerPort::GetController
 ms.prod: windows-hardware
 ms.technology: windows-devices

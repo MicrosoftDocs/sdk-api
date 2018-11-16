@@ -7,7 +7,7 @@ old-location: taskschd\ilogontrigger_delay.htm
 tech.root: TaskSchd
 ms.assetid: 643b25fb-b328-48d7-9eb6-aa3e6fabdd70
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],ILogonTrigger interface, ILogonTrigger interface [Task Scheduler],Delay property, ILogonTrigger.Delay, ILogonTrigger.get_Delay, ILogonTrigger::Delay, ILogonTrigger::get_Delay, ILogonTrigger::put_Delay, get_Delay, taskschd.ilogontrigger_delay, taskschd/ILogonTrigger::Delay, taskschd/ILogonTrigger::get_Delay, taskschd/ILogonTrigger::put_Delay
 ms.prod: windows-hardware
 ms.technology: windows-devices

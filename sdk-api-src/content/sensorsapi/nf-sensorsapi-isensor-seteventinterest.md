@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_seteventinterest.htm
 tech.root: SensorsAPI
 ms.assetid: d3c2d8b9-6511-41ff-9734-92f47825bbcd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISensor interface,SetEventInterest method, ISensor.SetEventInterest, ISensor::SetEventInterest, SetEventInterest, SetEventInterest method, SetEventInterest method,ISensor interface, sensorsapi/ISensor::SetEventInterest, winsensors_com_ref.isensor_seteventinterest
 ms.prod: windows-hardware
 ms.technology: windows-devices

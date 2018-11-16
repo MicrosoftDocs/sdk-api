@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingportmapping.htm
 tech.root: ICS
 ms.assetid: 68334bd2-353f-457d-a2c7-1271816f10f5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumNetSharingPortMapping, IEnumNetSharingPortMapping interface [ICS/ICF], IEnumNetSharingPortMapping interface [ICS/ICF],described, _ics_ienumnetsharingportmapping, ics.ienumnetsharingportmapping, netcon/IEnumNetSharingPortMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

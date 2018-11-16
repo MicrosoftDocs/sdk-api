@@ -7,7 +7,7 @@ old-location: shell\IQueryCancelAutoPlay.htm
 tech.root: shell
 ms.assetid: 7dd470cd-163b-43e1-80d9-cdaa8b615858
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IQueryCancelAutoPlay, IQueryCancelAutoPlay interface [Windows Shell], IQueryCancelAutoPlay interface [Windows Shell],described, _shell_IQueryCancelAutoPlay, shell.IQueryCancelAutoPlay, shobjidl/IQueryCancelAutoPlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

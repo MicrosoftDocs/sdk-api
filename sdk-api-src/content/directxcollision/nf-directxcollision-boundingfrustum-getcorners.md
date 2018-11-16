@@ -7,7 +7,7 @@ old-location: dxmath\boundingfrustum_getcorners.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.GetCorners(XMFLOAT3)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],GetCorners method, BoundingFrustum.GetCorners, GetCorners method [DirectX Math Support APIs], GetCorners method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_getcorners
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFrequencyMap
 author: windows-sdk-content
 description: The IFrequencyMap interface sets the frequency table used by the BDA Network Provider filter.A frequency table is a list of broadcast or cable frequencies for a given country/region.
 old-location: mstv\ifrequencymap.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 0f7f1b2c-a191-45f5-a645-367e898b6ee2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IFrequencyMap, IFrequencyMap interface [Microsoft TV Technologies], IFrequencyMap interface [Microsoft TV Technologies],described, IFrequencyMapInterface, bdaiface/IFrequencyMap, mstv.ifrequencymap
 ms.prod: windows-hardware
 ms.technology: windows-devices

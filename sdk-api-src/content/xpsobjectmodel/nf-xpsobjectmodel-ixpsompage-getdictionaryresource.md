@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_getdictionaryresource.htm
 tech.root: printdocs
 ms.assetid: 12313d19-e6f1-4ec3-9702-2a403087763a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetDictionaryResource, GetDictionaryResource method [XPS Documents and Packaging], GetDictionaryResource method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionaryResource method, IXpsOMPage.GetDictionaryResource, IXpsOMPage::GetDictionaryResource, xps.ixpsompage_getdictionaryresource, xpsobjectmodel/IXpsOMPage::GetDictionaryResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ISceSvcAttachmentData::GetData
 author: windows-sdk-content
 description: The GetData method retrieves configuration information from the Security Configuration snap-in.
 old-location: security\iscesvcattachmentdata_getdata.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: f0b51592-58d9-45f2-a0a5-7cdbde0bc0a1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetData, GetData method [Security], GetData method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],GetData method, ISceSvcAttachmentData.GetData, ISceSvcAttachmentData::GetData, SCE_SERVICE_ANALYSIS_INFO, SCE_SERVICE_CONFIGURATION_INFO, _config_iscesvcattachmentdata_getdata, scesvc/ISceSvcAttachmentData::GetData, security.iscesvcattachmentdata_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,13 @@ The <b>GetData</b> method retrieves configuration information from the Security 
 
 
 
-### -param scesvcHandle
+### -param scesvcHandle [in]
 
-TBD
+Type: <b>SCESVC_HANDLE</b>
+
+A 
+<a href="https://msdn.microsoft.com/478d7d4b-7983-4247-b8be-2e2cd3327533">SCESVC_HANDLE</a> returned during a previous call to 
+<a href="https://msdn.microsoft.com/2c5d087d-774b-4cfb-a458-9a5b1c6106c7">ISceSvcAttachmentData::Initialize</a>.
 
 
 ### -param sceType [in]
@@ -119,15 +123,6 @@ Pointer to a buffer which receives the data.
 Type: <b>PSCE_ENUMERATION_CONTEXT</b>
 
 An opaque handle used to navigate through the security database.
-
-
-#### - sceHandle [in]
-
-Type: <b>SCESVC_HANDLE</b>
-
-A 
-<a href="https://msdn.microsoft.com/478d7d4b-7983-4247-b8be-2e2cd3327533">SCESVC_HANDLE</a> returned during a previous call to 
-<a href="https://msdn.microsoft.com/2c5d087d-774b-4cfb-a458-9a5b1c6106c7">ISceSvcAttachmentData::Initialize</a>.
 
 
 ## -returns

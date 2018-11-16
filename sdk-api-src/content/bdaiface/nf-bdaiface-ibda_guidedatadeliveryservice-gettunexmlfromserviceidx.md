@@ -4,10 +4,10 @@ title: IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx
 author: windows-sdk-content
 description: Converts a service identifier into an XML tune request.
 old-location: mstv\ibda_guidedatadeliveryservice_gettunexmlfromserviceidx.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 5f429473-6a48-4298-b8f4-61809604ffbd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetTuneXmlFromServiceIdx, GetTuneXmlFromServiceIdx method [Microsoft TV Technologies], GetTuneXmlFromServiceIdx method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetTuneXmlFromServiceIdx method, IBDA_GuideDataDeliveryService.GetTuneXmlFromServiceIdx, IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx, bdaiface/IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx, mstv.ibda_guidedatadeliveryservice_gettunexmlfromserviceidx
 ms.prod: windows-hardware
 ms.technology: windows-devices

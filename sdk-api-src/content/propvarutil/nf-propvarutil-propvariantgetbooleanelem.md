@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetBooleanElem.htm
 tech.root: properties
 ms.assetid: 830dca70-1777-418d-b3ac-78028411700e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: PropVariantGetBooleanElem, PropVariantGetBooleanElem function [Windows Properties], _shell_PropVariantGetBooleanElem, properties.PropVariantGetBooleanElem, propvarutil/PropVariantGetBooleanElem, shell.PropVariantGetBooleanElem
 ms.prod: windows-hardware
 ms.technology: windows-devices

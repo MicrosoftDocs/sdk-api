@@ -4,10 +4,10 @@ title: "_CLUSTER_SHARED_VOLUME_BACKUP_STATE"
 author: windows-sdk-content
 description: Describes the CSV backup state.
 old-location: mscs\cluster_shared_volume_backup_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f83a7dfe-ad48-41e2-983e-75dfd921c137
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCLUSTER_SHARED_VOLUME_BACKUP_STATE, CLUSTER_SHARED_VOLUME_BACKUP_STATE, CLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration [Failover Cluster], PCLUSTER_SHARED_VOLUME_BACKUP_STATE, PCLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration pointer [Failover Cluster], VolumeBackupInProgress, VolumeBackupNone, _CLUSTER_SHARED_VOLUME_BACKUP_STATE, clusapi/CLUSTER_SHARED_VOLUME_BACKUP_STATE, clusapi/PCLUSTER_SHARED_VOLUME_BACKUP_STATE, clusapi/VolumeBackupInProgress, clusapi/VolumeBackupNone, mscs.cluster_shared_volume_backup_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__createadditionalswapchain.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createadditionalswapchain.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: CreateAdditionalSwapChain, CreateAdditionalSwapChain method [Direct3D 9], CreateAdditionalSwapChain method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateAdditionalSwapChain method, IDirect3DDevice9.CreateAdditionalSwapChain, IDirect3DDevice9::CreateAdditionalSwapChain, d3d9helper/IDirect3DDevice9::CreateAdditionalSwapChain, dfcccfc0-344b-6e23-2c24-36b11bf7c90b, direct3d9.idirect3ddevice9__createadditionalswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,14 +80,7 @@ Calling this method changes the value of members of the D3DPRESENT_PARAMETERS st
 <li>If the application is in windowed mode, and if either the BackBufferWidth or the BackBufferHeight == 0, they will be set to the client area width and height of the hwnd.</li>
 </ul>
 
-### -param pSwapChain
-
-TBD
-
-
-
-
-#### - ppSwapChain [out, retval]
+### -param pSwapChain [out, retval]
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205899(v=VS.85).aspx">IDirect3DSwapChain9</a>**</b>
 

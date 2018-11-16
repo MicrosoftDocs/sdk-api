@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0006"
 author: windows-sdk-content
 description: The SECTION structure represents a short header from an MPEG-2 table section.
 old-location: mstv\section.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 6ee07b84-ae97-413f-a3b4-0078ad740194
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PSECTION, PSECTION, PSECTION structure pointer [Microsoft TV Technologies], SECTION, SECTION structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0006, mpeg2structs/PSECTION, mpeg2structs/SECTION, mstv.section"
 ms.prod: windows-hardware
 ms.technology: windows-devices

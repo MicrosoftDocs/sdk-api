@@ -4,10 +4,10 @@ title: "_MI_InstanceFT"
 author: windows-sdk-content
 description: A support structure used in the MI_Instance structure. Use the functions with the name prefix MI_Instance_ to manipulate these structures.
 old-location: wmi_v2\mi_instanceft.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: a8cd93b7-c9e0-415e-811a-33826e38417f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_InstanceFT, MI_InstanceFT structure [Windows Management Infrastructure (MI)], _MI_InstanceFT, mi/MI_InstanceFT, wmi_v2.mi_instanceft
 ms.prod: windows-hardware
 ms.technology: windows-devices

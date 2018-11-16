@@ -4,10 +4,10 @@ title: IPBDASiParser
 author: windows-sdk-content
 description: Implements methods that retrieve program and system information protocol (PSIP) and service information (SI) tables from a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdasiparser.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: a1cc25ec-b519-4c24-ba85-f2c240749fbd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IPBDASiParser, IPBDASiParser interface [DirectShow], IPBDASiParser interface [DirectShow],described, dvbsiparser/IPBDASiParser, mstv.ipbdasiparser
 ms.prod: windows-hardware
 ms.technology: windows-devices

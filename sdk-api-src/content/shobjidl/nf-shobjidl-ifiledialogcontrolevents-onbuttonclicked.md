@@ -7,7 +7,7 @@ old-location: shell\IFileDialogControlEvents_OnButtonClicked.htm
 tech.root: shell
 ms.assetid: 46dc28a4-717f-42b6-bff7-56f4902f075c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnButtonClicked method, IFileDialogControlEvents.OnButtonClicked, IFileDialogControlEvents::OnButtonClicked, OnButtonClicked, OnButtonClicked method [Windows Shell], OnButtonClicked method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnButtonClicked, shell_IFileDialogControlEvents_OnButtonClicked, shobjidl/IFileDialogControlEvents::OnButtonClicked
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframedecode_getframeheader.htm
 tech.root: wic
 ms.assetid: CE29251F-C2E2-422B-B6BD-034D6B479009
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetFrameHeader, GetFrameHeader method [Windows Imaging Component], GetFrameHeader method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetFrameHeader method, IWICJpegFrameDecode.GetFrameHeader, IWICJpegFrameDecode::GetFrameHeader, wic.iwicjpegframedecode_getframeheader, wincodec/IWICJpegFrameDecode::GetFrameHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

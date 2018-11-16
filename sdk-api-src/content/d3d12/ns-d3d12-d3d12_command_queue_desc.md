@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_command_queue_desc.htm
 tech.root: direct3d12
 ms.assetid: 8C43C45B-0A7B-4336-B546-1E6F13D153F3
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D3D12_COMMAND_QUEUE_DESC, D3D12_COMMAND_QUEUE_DESC structure, d3d12/D3D12_COMMAND_QUEUE_DESC, direct3d12.d3d12_command_queue_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

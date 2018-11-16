@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcmc2_initializefromtemplate.htm
 tech.root: SecCertEnroll
 ms.assetid: 576e3349-1da7-4f1e-9410-a72c30e22063
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestCmc2 interface [Security],InitializeFromTemplate method, IX509CertificateRequestCmc2.InitializeFromTemplate, IX509CertificateRequestCmc2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::InitializeFromTemplate, security.ix509certificaterequestcmc2_initializefromtemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,22 +66,7 @@ The <b>InitializeFromTemplate</b> method initializes the certificate request by 
 
 
 
-### -param context
-
-TBD
-
-
-### -param pPolicyServer [in]
-
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> object that represents the certificate enrollment policy (CEP) server that contains the template specified by the <i>pTemplate</i> parameter.
-
-
-### -param pTemplate [in]
-
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> object that represents the template to use during initialization.
-
-
-#### - Context [in]
+### -param context [in]
 
 A value of the <a href="https://msdn.microsoft.com/en-us/library/Aa379399(v=VS.85).aspx">X509CertificateEnrollmentContext</a> enumeration type that specifies whether the requested certificate is intended for an end user, a computer, or administrator acting on behalf of the computer. This can be one of the following values. 
 
@@ -125,6 +110,16 @@ The certificate is being requested by an administrator acting on the behalf of a
 </tr>
 </table>
  
+
+
+### -param pPolicyServer [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> object that represents the certificate enrollment policy (CEP) server that contains the template specified by the <i>pTemplate</i> parameter.
+
+
+### -param pTemplate [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> object that represents the template to use during initialization.
 
 
 ## -returns

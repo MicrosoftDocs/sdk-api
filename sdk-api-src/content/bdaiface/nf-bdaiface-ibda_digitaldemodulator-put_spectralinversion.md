@@ -4,10 +4,10 @@ title: IBDA_DigitalDemodulator::put_SpectralInversion
 author: windows-sdk-content
 description: The put_SpectralInversion method specifies the spectral inversion value for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_spectralinversion.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 6aabb829-5198-407f-a8f7-f99f87229560
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_SpectralInversion method, IBDA_DigitalDemodulator.put_SpectralInversion, IBDA_DigitalDemodulator::put_SpectralInversion, IBDA_DigitalDemodulatorput_SpectralInversion, bdaiface/IBDA_DigitalDemodulator::put_SpectralInversion, mstv.ibda_digitaldemodulator_put_spectralinversion, put_SpectralInversion, put_SpectralInversion method [Microsoft TV Technologies], put_SpectralInversion method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

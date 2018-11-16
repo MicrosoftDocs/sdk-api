@@ -4,10 +4,10 @@ title: ReadProcessMemory function
 author: windows-sdk-content
 description: Reads data from an area of memory in a specified process. The entire area to be read must be accessible or the operation fails.
 old-location: base\readprocessmemory.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 8774e145-ee7f-44de-85db-0445b905f986
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ReadProcessMemory, ReadProcessMemory function, _win32_readprocessmemory, base.readprocessmemory, memoryapi/ReadProcessMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

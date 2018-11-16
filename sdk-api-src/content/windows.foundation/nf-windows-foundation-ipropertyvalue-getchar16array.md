@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getchar16array.htm
 tech.root: WinRT
 ms.assetid: b0649a8b-8060-4e0f-956e-879fe4185b11
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetChar16Array, GetChar16Array method [Windows Runtime], GetChar16Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetChar16Array method, IPropertyValue.GetChar16Array, IPropertyValue.IPropertyValue, IPropertyValue::GetChar16Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetChar16Array, winrt.ipropertyvalue_getchar16array
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Gets the the array of Unicode characters that is stored in the current <a href="
 
 
 
-### -param __valueSize
+### -param __valueSize [out]
 
-TBD
+Type: <b>UINT32*</b>
+
+The number of Unicode characters in the array.
 
 
 ### -param value [out]
@@ -78,13 +80,6 @@ Type: <b>WCHAR**</b>
 The array of Unicode characters.
 
 The returned pointer must be freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
-
-
-#### - length [out]
-
-Type: <b>UINT32*</b>
-
-The number of Unicode characters in the array.
 
 
 ## -returns

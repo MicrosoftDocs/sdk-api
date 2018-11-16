@@ -4,10 +4,10 @@ title: LsaDeregisterLogonProcess function
 author: windows-sdk-content
 description: Deletes the caller's logon application context and closes the connection to the LSA server.
 old-location: security\lsaderegisterlogonprocess.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 8a956469-9538-4d71-8158-af22aa26f840
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: LsaDeregisterLogonProcess, LsaDeregisterLogonProcess function [Security], _lsa_lsaderegisterlogonprocess, ntsecapi/LsaDeregisterLogonProcess, security.lsaderegisterlogonprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\iwsddevicehost_registerporttype_method.htm
 tech.root: WsdApi
 ms.assetid: d514babb-c502-4d9a-b6c8-f371465cb9e8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IWSDDeviceHost interface,RegisterPortType method, IWSDDeviceHost.RegisterPortType, IWSDDeviceHost::RegisterPortType, RegisterPortType, RegisterPortType method, RegisterPortType method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerporttype_method, wsdhost/IWSDDeviceHost::RegisterPortType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getconstantbufferbyname.htm
 tech.root: direct3d11
 ms.assetid: 6b0e16c9-f45a-42d0-bd96-32dfa859b35d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetConstantBufferByName, GetConstantBufferByName method [Direct3D 11], GetConstantBufferByName method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetConstantBufferByName method, ID3D11ShaderReflection.GetConstantBufferByName, ID3D11ShaderReflection::GetConstantBufferByName, d3d11shader/ID3D11ShaderReflection::GetConstantBufferByName, d50e9f46-8347-fa35-807d-0bbcf91adf69, direct3d11.id3d11shaderreflection_getconstantbufferbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

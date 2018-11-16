@@ -4,10 +4,10 @@ title: IAzApplication3
 author: windows-sdk-content
 description: Provides methods to manage IAzRoleAssignment, IAzRoleDefinition, and IAzScope2 objects.
 old-location: security\iazapplication3.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9d0b2c3b-b8b6-4fae-9308-9dd29da0724f
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: IAzApplication3, IAzApplication3 interface [Security], IAzApplication3 interface [Security],described, azroles/IAzApplication3, security.iazapplication3
 ms.prod: windows-hardware
 ms.technology: windows-devices

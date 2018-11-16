@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_PWMFRect16.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\pwmfrect16.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: PWMFRect16, PWMFRect16 structure [GDI+], _gdiplus_STRUC_PWMFRect16, gdiplus._gdiplus_STRUC_PWMFRect16, gdiplusmetaheader/PWMFRect16
 ms.prod: windows-hardware
 ms.technology: windows-devices

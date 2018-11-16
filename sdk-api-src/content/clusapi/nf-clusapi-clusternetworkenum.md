@@ -4,10 +4,10 @@ title: ClusterNetworkEnum function
 author: windows-sdk-content
 description: Enumerates cluster objects on a network, returning the name of one object with each call.
 old-location: mscs\clusternetworkenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 41cfb436-7494-4065-b287-075c4c771278
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUSTER_NETWORK_ENUM_NETINTERFACES, ClusterNetworkEnum, ClusterNetworkEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NETWORK_ENUM, PCLUSAPI_CLUSTER_NETWORK_ENUM function [Failover Cluster], _wolf_clusternetworkenum, clusapi/ClusterNetworkEnum, clusapi/PCLUSAPI_CLUSTER_NETWORK_ENUM, mscs.clusternetworkenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,6 +109,54 @@ A pointer to the size of the <i>lpszName</i> buffer as a count of characters. On
 
 
 The function returns one of the following values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234 (0xEA)</dt>
+</dl>
+</td>
+<td width="60%">
+More data is available. This value is returned if the buffer pointed to by 
+         <i>lpszName</i> is not big enough to hold the result. The 
+         <i>lpcchName</i> parameter returns the number of characters in the result, excluding the 
+         terminating <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+<dt>259 (0x103)</dt>
+</dl>
+</td>
+<td width="60%">
+No more data is available. This value is returned if there are no more objects of the requested type to be 
+         returned.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

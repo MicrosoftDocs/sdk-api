@@ -4,10 +4,10 @@ title: IAzApplication2::InitializeClientContext2
 author: windows-sdk-content
 description: Retrieves an IAzClientContext2 object pointer.
 old-location: security\iazapplication2_initializeclientcontext2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8790ebb0-97eb-47a0-b975-87e0524dcc1b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: IAzApplication2 interface [Security],InitializeClientContext2 method, IAzApplication2.InitializeClientContext2, IAzApplication2::InitializeClientContext2, InitializeClientContext2, InitializeClientContext2 method [Security], InitializeClientContext2 method [Security],IAzApplication2 interface, azroles/IAzApplication2::InitializeClientContext2, security.iazapplication2_initializeclientcontext2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,14 +76,7 @@ A string that identifies the client context in the audit trail for client connec
 Reserved for future use.
 
 
-### -param ppClientContext
-
-TBD
-
-
-
-
-#### - ppClientContext2 [out]
+### -param ppClientContext [out]
 
 A pointer to a pointer to the returned <a href="https://msdn.microsoft.com/8e922370-18e3-481c-93f2-9a56d7898ba7">IAzClientContext2</a> object.
 

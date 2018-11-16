@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice4_reclaimresources1.htm
 tech.root: direct3ddxgi
 ms.assetid: 83D09C41-CB96-4ADA-AE38-7D9542CCCFE0
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: IDXGIDevice4 interface [DXGI],ReclaimResources1 method, IDXGIDevice4.ReclaimResources1, IDXGIDevice4::ReclaimResources1, ReclaimResources1, ReclaimResources1 method [DXGI], ReclaimResources1 method [DXGI],IDXGIDevice4 interface, direct3ddxgi.idxgidevice4_reclaimresources1, dxgi1_5/IDXGIDevice4::ReclaimResources1
 ms.prod: windows-hardware
 ms.technology: windows-devices

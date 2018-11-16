@@ -4,10 +4,10 @@ title: SymQueryInlineTrace function
 author: windows-sdk-content
 description: Queries an inline trace.
 old-location: base\symqueryinlinetrace.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: e65cf979-f482-4019-ab67-5e908d23bcfa
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymQueryInlineTrace, SymQueryInlineTrace function, base.symqueryinlinetrace, dbghelp/SymQueryInlineTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

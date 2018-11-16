@@ -7,7 +7,7 @@ old-location: dshow\iamstats_getvaluebyname.htm
 tech.root: DirectShow
 ms.assetid: c380deb0-bd49-4191-8218-d05aef39cb15
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetValueByName, GetValueByName method [DirectShow], GetValueByName method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetValueByName method, IAMStats.GetValueByName, IAMStats::GetValueByName, IAMStatsGetValueByName, control/IAMStats::GetValueByName, dshow.iamstats_getvaluebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

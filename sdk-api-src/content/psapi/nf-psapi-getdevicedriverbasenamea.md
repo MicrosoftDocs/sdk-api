@@ -7,7 +7,7 @@ old-location: psapi\getdevicedriverbasename.htm
 tech.root: psapi
 ms.assetid: a19a927d-4669-4d4c-951e-43f294a8fb40
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDeviceDriverBaseName, GetDeviceDriverBaseName function [PSAPI], GetDeviceDriverBaseNameA, GetDeviceDriverBaseNameW, K32GetDeviceDriverBaseName, K32GetDeviceDriverBaseNameA, K32GetDeviceDriverBaseNameW, _win32_getdevicedriverbasename, base.getdevicedriverbasename, psapi.getdevicedriverbasename, psapi/GetDeviceDriverBaseName, psapi/GetDeviceDriverBaseNameA, psapi/GetDeviceDriverBaseNameW, psapi/K32GetDeviceDriverBaseName, psapi/K32GetDeviceDriverBaseNameA, psapi/K32GetDeviceDriverBaseNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,14 +81,19 @@ The load address of the device driver. This value can be retrieved using the
       function.
 
 
-### -param lpFilename [out]
+### -param lpFilename
 
-A pointer to the buffer that receives the base name of the device driver.
+TBD
 
 
 ### -param nSize [in]
 
 The size of the <i>lpBaseName</i> buffer, in characters. If the buffer is not large enough to store the base name plus the terminating null character, the string is truncated.
+
+
+#### - lpBaseName [out]
+
+A pointer to the buffer that receives the base name of the device driver.
 
 
 ## -returns

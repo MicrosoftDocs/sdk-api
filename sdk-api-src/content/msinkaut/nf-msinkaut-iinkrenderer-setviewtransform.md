@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_setviewtransform.htm
 tech.root: tablet
 ms.assetid: b1850d41-4523-4a2b-a7ae-6b85d1ae9a97
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: IInkRenderer interface [Tablet PC],SetViewTransform method, IInkRenderer.SetViewTransform, IInkRenderer::SetViewTransform, SetViewTransform, SetViewTransform method [Tablet PC], SetViewTransform method [Tablet PC],IInkRenderer interface, b1850d41-4523-4a2b-a7ae-6b85d1ae9a97, msinkaut/IInkRenderer::SetViewTransform, tablet.inkrenderer_setviewtransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ Sets the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f74
 
 
 
-### -param ViewTransform
-
-TBD
-
-
-
-
-#### - viewTransform [in]
+### -param ViewTransform [in]
 
 The <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object that represents the geometric transformation - rotation, scaling, shear, and reflection - values to use to transform the stroke coordinates within the ink space.
 

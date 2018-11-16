@@ -4,10 +4,10 @@ title: "_EAP_INTERACTIVE_UI_DATA_TYPE"
 author: windows-sdk-content
 description: Specifies the set of types of interactive UI context data supplied to certain supplicant API calls.
 old-location: eaphost\eap_interactive_ui_data_type.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 0b3cd58c-9396-4c79-842b-76bf03aa7d7a
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: EAP_INTERACTIVE_UI_DATA_TYPE, EAP_INTERACTIVE_UI_DATA_TYPE enumeration [EAPHost], EapCredExpiryReq, EapCredExpiryResp, EapCredLogonReq, EapCredLogonResp, EapCredReq, EapCredResp, _EAP_INTERACTIVE_UI_DATA_TYPE, eaphost.eap_interactive_ui_data_type, eaptypes/EAP_INTERACTIVE_UI_DATA_TYPE, eaptypes/EapCredExpiryReq, eaptypes/EapCredExpiryResp, eaptypes/EapCredLogonReq, eaptypes/EapCredLogonResp, eaptypes/EapCredReq, eaptypes/EapCredResp
 ms.prod: windows-hardware
 ms.technology: windows-devices

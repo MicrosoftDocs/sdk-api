@@ -7,7 +7,7 @@ old-location: wininet\createurlcachecontainer.htm
 tech.root: WinInet
 ms.assetid: 19b518cc-2f02-49c3-bedc-f5d633cc635d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateUrlCacheContainer, CreateUrlCacheContainer function [WinINet], CreateUrlCacheContainerA, CreateUrlCacheContainerW, wininet.createurlcachecontainer, winineti/CreateUrlCacheContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,14 +64,14 @@ Creates a cache container in the specified cache path to hold cache entries base
 
 
 
-### -param Name
+### -param Name [in]
 
-TBD
+The name to give to the cache.
 
 
-### -param lpCachePrefix
+### -param lpCachePrefix [in]
 
-TBD
+The cache prefix to base the cache on.
 
 
 ### -param lpszCachePath [in, optional]
@@ -79,9 +79,9 @@ TBD
 The cache prefix to create the cache in.
 
 
-### -param KBCacheLimit
+### -param KBCacheLimit [in]
 
-TBD
+The size limit of the cache in whole kilobytes, or 0 for the default size.
 
 
 ### -param dwContainerType [in]
@@ -96,37 +96,10 @@ This parameter is reserved and must be 0.
 
 ### -param pvBuffer
 
-TBD
-
-
-### -param cbBuffer
-
-TBD
-
-
-
-
-#### - dwKBCacheLimit [in]
-
-The size limit of the cache in whole kilobytes, or 0 for the default size.
-
-
-#### - lpdwReserved [in, out]
-
 This parameter is reserved and must be <b>NULL</b>.
 
 
-#### - lpszCachePrefix [in]
-
-The cache prefix to base the cache on.
-
-
-#### - lpszName [in]
-
-The name to give to the cache.
-
-
-#### - lpvReserved
+### -param cbBuffer [in, out]
 
 This parameter is reserved and must be <b>NULL</b>.
 

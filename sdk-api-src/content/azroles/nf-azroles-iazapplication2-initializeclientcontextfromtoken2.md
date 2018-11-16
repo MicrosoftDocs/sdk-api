@@ -4,10 +4,10 @@ title: IAzApplication2::InitializeClientContextFromToken2
 author: windows-sdk-content
 description: Retrieves an IAzClientContext2 object pointer from the specified client token.
 old-location: security\iazapplication2_initializeclientcontextfromtoken2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f77b5eb1-c121-4392-a317-7021059268ed
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: IAzApplication2 interface [Security],InitializeClientContextFromToken2 method, IAzApplication2.InitializeClientContextFromToken2, IAzApplication2::InitializeClientContextFromToken2, InitializeClientContextFromToken2, InitializeClientContextFromToken2 method [Security], InitializeClientContextFromToken2 method [Security],IAzApplication2 interface, azroles/IAzApplication2::InitializeClientContextFromToken2, security.iazapplication2_initializeclientcontextfromtoken2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,14 +81,7 @@ High byte of a handle to a token that specifies the client. If the values of bot
 Reserved for future use.
 
 
-### -param ppClientContext
-
-TBD
-
-
-
-
-#### - ppClientContext2 [out]
+### -param ppClientContext [out]
 
 A pointer to a pointer to the returned <a href="https://msdn.microsoft.com/8e922370-18e3-481c-93f2-9a56d7898ba7">IAzClientContext2</a> object.
 

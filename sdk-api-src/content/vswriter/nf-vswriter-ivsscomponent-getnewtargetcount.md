@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getnewtargetcount.htm
 tech.root: VSS
 ms.assetid: b41afed9-2689-469e-b3c4-83cf18c5f8a9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetNewTargetCount, GetNewTargetCount method [VSS], GetNewTargetCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetNewTargetCount method, IVssComponent.GetNewTargetCount, IVssComponent::GetNewTargetCount, _win32_ivsscomponent_getnewtargetcount, base.ivsscomponent_getnewtargetcount, vswriter/IVssComponent::GetNewTargetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

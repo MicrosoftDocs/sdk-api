@@ -4,10 +4,10 @@ title: IDVBSTuningSpace::get_SpectralInversion
 author: windows-sdk-content
 description: The get_SpectralInversion method retrieves an integer indicating the spectral inversion.
 old-location: mstv\idvbstuningspace_get_spectralinversion.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 68374808-2999-4196-9b2b-b6c97308b041
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_SpectralInversion method, IDVBSTuningSpace.get_SpectralInversion, IDVBSTuningSpace::get_SpectralInversion, IDVBSTuningSpaceget_SpectralInversion, get_SpectralInversion, get_SpectralInversion method [Microsoft TV Technologies], get_SpectralInversion method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_spectralinversion, tuner/IDVBSTuningSpace::get_SpectralInversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_SpectralInversion</b> method retrieves an integer indicating the spec
 
 
 
-### -param SpectralInversionVal
-
-TBD
-
-
-
-
-#### - pSpectralInversion [out]
+### -param SpectralInversionVal [out]
 
 Receives the spectral inversion.
 

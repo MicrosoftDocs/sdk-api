@@ -7,7 +7,7 @@ old-location: dshow\ideferredcommand_gethresult.htm
 tech.root: DirectShow
 ms.assetid: ce047464-d283-4ff4-a5eb-9e394d4ac3fd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetHResult, GetHResult method [DirectShow], GetHResult method [DirectShow],IDeferredCommand interface, IDeferredCommand interface [DirectShow],GetHResult method, IDeferredCommand.GetHResult, IDeferredCommand::GetHResult, IDeferredCommandGetHResult, control/IDeferredCommand::GetHResult, dshow.ideferredcommand_gethresult
 ms.prod: windows-hardware
 ms.technology: windows-devices

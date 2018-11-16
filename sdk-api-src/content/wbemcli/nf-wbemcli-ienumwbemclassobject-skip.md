@@ -7,7 +7,7 @@ old-location: wmi\ienumwbemclassobject_skip.htm
 tech.root: WmiSdk
 ms.assetid: 9579086c-cd45-4b3c-bd43-de0b89745b02
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Skip method, IEnumWbemClassObject.Skip, IEnumWbemClassObject::Skip, Skip, Skip method [Windows Management Instrumentation], Skip method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_skip, wbemcli/IEnumWbemClassObject::Skip, wmi.ienumwbemclassobject_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,28 +69,16 @@ You can use the
 
 
 
-### -param lTimeout
-
-TBD
-
-
-### -param nCount
-
-TBD
-
-
-
-
-#### - UCount [in]
-
-Number of objects to skip. If this parameter is greater than the number of objects left to enumerate, then this call skips to the end of the enumeration and <b>WBEM_S_FALSE</b> is returned.
-
-
-#### - lTimeOut [in]
+### -param lTimeout [in]
 
 Maximum amount of time in milliseconds that the call to 
 <b>Skip</b> blocks before returning. If you use the constant <b>WBEM_INFINITE</b> (0xFFFFFFFF), the call blocks until the operation succeeds. If 
 <b>Skip</b> cannot complete the operation before the <i>lTimeout</i> value expires, the call returns <b>WBEM_S_TIMEDOUT</b>.
+
+
+### -param nCount [in]
+
+Number of objects to skip. If this parameter is greater than the number of objects left to enumerate, then this call skips to the end of the enumeration and <b>WBEM_S_FALSE</b> is returned.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IMSVidDevice::IsEqualDevice
 author: windows-sdk-content
 description: The IsEqualDevice method queries whether this device and another device represent the same underlying hardware.
 old-location: mstv\imsviddevice_isequaldevice.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: b0f59466-7a2a-453e-999c-c7ebf126d18b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],IsEqualDevice method, IMSVidDevice.IsEqualDevice, IMSVidDevice::IsEqualDevice, IMSVidDeviceIsEqualDevice, IsEqualDevice, IsEqualDevice method [Microsoft TV Technologies], IsEqualDevice method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_isequaldevice, segment/IMSVidDevice::IsEqualDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,24 +66,12 @@ The <b>IsEqualDevice</b> method queries whether this device and another device r
 
 
 
-### -param Device
-
-TBD
-
-
-### -param IsEqual
-
-TBD
-
-
-
-
-#### - pDevice [in]
+### -param Device [in]
 
 Pointer to the other device's <a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice</a> interface.
 
 
-#### - pIsEqual [out]
+### -param IsEqual [out]
 
 Pointer to a variable that receives one of the following values.
 

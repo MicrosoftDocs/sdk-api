@@ -2,7 +2,7 @@
 UID: TP:mapi
 ms.assetid: df90a58f-c6be-32ff-8ffe-8c92b362ec85
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

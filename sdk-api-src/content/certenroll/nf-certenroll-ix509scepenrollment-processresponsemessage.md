@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_processresponsemessage.htm
 tech.root: SecCertEnroll
 ms.assetid: 4254fdf3-473f-4f22-a08f-13481fd9f779
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],ProcessResponseMessage method, IX509SCEPEnrollment.ProcessResponseMessage, IX509SCEPEnrollment::ProcessResponseMessage, ProcessResponseMessage, ProcessResponseMessage method [Security], ProcessResponseMessage method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::ProcessResponseMessage, security.ix509scepenrollment_processresponsemessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

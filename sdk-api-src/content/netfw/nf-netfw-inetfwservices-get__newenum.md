@@ -7,7 +7,7 @@ old-location: ics\inetfwservices_newenum.htm
 tech.root: ICS
 ms.assetid: 2da6560f-2eca-4391-88c1-a86948d19d58
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetFwServices interface [ICS/ICF],_NewEnum property, INetFwServices._NewEnum, INetFwServices.get__NewEnum, INetFwServices::_NewEnum, INetFwServices::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwServices interface, get__NewEnum, ics.inetfwservices_newenum, netfw/INetFwServices::_NewEnum, netfw/INetFwServices::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

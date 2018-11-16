@@ -7,7 +7,7 @@ old-location: dxmath\xmcolor_operator_uint32_t.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.operator uint32_t
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DirectX::PackedVector.XMCOLOR.operator uint32_t, DirectX::PackedVector::XMCOLOR::operator uint32_t, XMCOLOR structure [DirectX Math Support APIs],operator uint32_t method, XMCOLOR.operator uint32_t, dxmath.xmcolor_operator_uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMCOLOR structure
 ms.prod: windows-hardware
 ms.technology: windows-devices

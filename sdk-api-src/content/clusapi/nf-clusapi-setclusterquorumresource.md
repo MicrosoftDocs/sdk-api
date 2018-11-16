@@ -4,10 +4,10 @@ title: SetClusterQuorumResource function
 author: windows-sdk-content
 description: Establishes a resource as the quorum resource for a cluster.
 old-location: mscs\setclusterquorumresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1a00c09e-4470-4c02-807d-c559fd992066
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUS_HYBRID_QUORUM, CLUS_LEGACY_QUORUM, CLUS_NODE_MAJORITY_QUORUM, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE function [Failover Cluster], SetClusterQuorumResource, SetClusterQuorumResource function [Failover Cluster], _wolf_setclusterquorumresource, clusapi/PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, clusapi/SetClusterQuorumResource, mscs.setclusterquorumresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,6 +122,26 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 If the operation fails, the function returns a 
        <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is a possible error 
        code.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_NOT_ONLINE</b></dt>
+<dt>5004 (0x138C)</dt>
+</dl>
+</td>
+<td width="60%">
+The quorum resource is not online.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

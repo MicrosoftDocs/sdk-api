@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_READ_CERT
 author: windows-sdk-content
 description: An application-defined callback function that reads the provider's copy of the certificate context.
 old-location: security\certstoreprovreadcertcallback.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9073f41e-19cd-46af-9e05-3f55607802c3
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CertStoreProvReadCertCallback, PFN_CERT_STORE_PROV_READ_CERT, PFN_CERT_STORE_PROV_READ_CERT callback, PFN_CERT_STORE_PROV_READ_CERT callback function [Security], _crypto2_certstoreprovreadcertcallback, security.certstoreprovreadcertcallback, wincrypt/PFN_CERT_STORE_PROV_READ_CERT
 ms.prod: windows-hardware
 ms.technology: windows-devices

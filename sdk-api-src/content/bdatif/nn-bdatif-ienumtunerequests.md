@@ -4,10 +4,10 @@ title: IEnumTuneRequests
 author: windows-sdk-content
 description: The IEnumTuneRequests interface provides access to a collection of tune requests returned from a call to IGuideData::GetServices. This collection of tune requests represents all the services available in the tuning space.
 old-location: mstv\ienumtunerequests.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 5ad872be-4408-4069-80db-ae73b2127b91
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumTuneRequests, IEnumTuneRequests interface [Microsoft TV Technologies], IEnumTuneRequests interface [Microsoft TV Technologies],described, IEnumTuneRequestsInterface, bdatif/IEnumTuneRequests, mstv.ienumtunerequests
 ms.prod: windows-hardware
 ms.technology: windows-devices

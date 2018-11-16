@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationValuePattern.htm
 tech.root: WinAuto
 ms.assetid: 07277405-1172-42e5-af51-8e2c1ea06894
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IUIAutomationValuePattern, IUIAutomationValuePattern interface [Windows Accessibility], IUIAutomationValuePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationValuePattern, uiauto_IUIAutomationValuePattern, uiautomationclient/IUIAutomationValuePattern, winauto.uiauto_IUIAutomationValuePattern
 ms.prod: windows-hardware
 ms.technology: windows-devices

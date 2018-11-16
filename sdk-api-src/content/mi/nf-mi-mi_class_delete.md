@@ -4,10 +4,10 @@ title: MI_Class_Delete function
 author: windows-sdk-content
 description: Deletes an MI_Class object.
 old-location: wmi_v2\mi_class_delete.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: a2794f8f-a69a-49f3-8d7e-512c80ea782b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Class_Delete, MI_Class_Delete function [Windows Management Infrastructure (MI)], mi/MI_Class_Delete, wmi_v2.mi_class_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

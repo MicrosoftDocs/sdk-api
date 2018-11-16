@@ -7,7 +7,7 @@ old-location: wcs\getcolorprofileelement.htm
 tech.root: WCS
 ms.assetid: 37bcfafc-7316-4c72-80df-c3424d639181
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetColorProfileElement, GetColorProfileElement function [Windows Color System], _color_GetColorProfileElement, icm/GetColorProfileElement, wcs.getcolorprofileelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,27 +81,17 @@ Specifies the offset from the first byte of the tagged element data at which to 
 
 ### -param pcbElement
 
-TBD
+Pointer to a variable specifying the number of bytes to copy. On return, the variable contains the number of bytes actually copied.
 
 
 ### -param pElement
 
-TBD
+Pointer to a buffer into which the tagged element data is to be copied. The buffer must contain at least as many bytes as are specified by the variable pointed to by <i>pcbSize</i>. If the <i>pBuffer</i> pointer is set to <b>NULL</b>, the size of the entire tagged element data in bytes is returned in the memory location pointed to by <i>pcbSize,</i> and <i>dwOffset</i> is ignored. In this case, the function will return <b>FALSE</b>.
 
 
 ### -param pbReference
 
 Points to a Boolean value that is set to <b>TRUE</b> if more than one tag in the color profile refers to the same data as the specified tag refers to, or <b>FALSE</b> if not.
-
-
-#### - pBuffer
-
-Pointer to a buffer into which the tagged element data is to be copied. The buffer must contain at least as many bytes as are specified by the variable pointed to by <i>pcbSize</i>. If the <i>pBuffer</i> pointer is set to <b>NULL</b>, the size of the entire tagged element data in bytes is returned in the memory location pointed to by <i>pcbSize,</i> and <i>dwOffset</i> is ignored. In this case, the function will return <b>FALSE</b>.
-
-
-#### - pcbSize
-
-Pointer to a variable specifying the number of bytes to copy. On return, the variable contains the number of bytes actually copied.
 
 
 ## -returns

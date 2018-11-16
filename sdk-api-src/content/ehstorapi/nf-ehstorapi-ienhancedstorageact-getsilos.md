@@ -7,7 +7,7 @@ old-location: enstor\ienhancedstorageact_getsilos.htm
 tech.root: enstor
 ms.assetid: 823da812-b3f5-4c61-bb33-cd970695879f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetSilos, GetSilos method [Enhanced Storage], GetSilos method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetSilos method, IEnhancedStorageACT.GetSilos, IEnhancedStorageACT::GetSilos, ehstorapi/IEnhancedStorageACT::GetSilos, enstor.ienhancedstorageact_getsilos
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,19 +66,14 @@ Returns an enumeration of all  silos associated with the Addressable Command Tar
 
 
 
-### -param pppIEnhancedStorageSilos
+### -param pppIEnhancedStorageSilos [out]
 
-TBD
+Returns an array of one or more <a href="https://msdn.microsoft.com/041e66d2-f772-407d-85f7-71f226c7ec4b">IEnhancedStorageSilo</a> interface pointers associated with  the ACT.
 
 
 ### -param pcEnhancedStorageSilos [out]
 
 Count of <a href="https://msdn.microsoft.com/041e66d2-f772-407d-85f7-71f226c7ec4b">IEnhancedStorageSilo</a> pointers returned. This value indicates the dimension of the  array represented by <i>pppIEnhancedStorageSilos</i>.
-
-
-#### - ppIEnhancedStorageSilos [out]
-
-Returns an array of one or more <a href="https://msdn.microsoft.com/041e66d2-f772-407d-85f7-71f226c7ec4b">IEnhancedStorageSilo</a> interface pointers associated with  the ACT.
 
 
 ## -returns

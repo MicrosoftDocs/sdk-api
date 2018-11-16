@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_setuserenabled.htm
 tech.root: GPMC
 ms.assetid: 25a86f15-a5b0-4412-931b-444f4a684dc6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GPMGPO class [GPMC],SetUserEnabled method, IGPMGPO interface [GPMC],SetUserEnabled method, IGPMGPO.SetUserEnabled, IGPMGPO::SetUserEnabled, SetUserEnabled, SetUserEnabled method [GPMC], SetUserEnabled method [GPMC],GPMGPO class, SetUserEnabled method [GPMC],IGPMGPO interface, _win32_igpmgpo_setuserenabled, gpmc.igpmgpo_setuserenabled, gpmgmt/IGPMGPO::SetUserEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ Enables or disables the user settings in the GPO.
 
 
 
-### -param vbEnabled
-
-TBD
-
-
-
-
-#### - bEnabled [in]
+### -param vbEnabled [in]
 
 Specifies whether to enable the user settings in the GPO.
 

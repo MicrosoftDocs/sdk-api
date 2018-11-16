@@ -4,10 +4,10 @@ title: SymGetSourceFileW function
 author: windows-sdk-content
 description: Retrieves the specified source file from the source server.
 old-location: base\symgetsourcefile.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 1d2115fb-2725-4fae-abb7-ff1b8a802c69
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymGetSourceFile, SymGetSourceFile function, SymGetSourceFileW, base.symgetsourcefile, dbghelp/SymGetSourceFile, dbghelp/SymGetSourceFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

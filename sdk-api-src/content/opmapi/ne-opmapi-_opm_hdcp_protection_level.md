@@ -7,7 +7,7 @@ old-location: mf\opm_hdcp_protection_level.htm
 tech.root: medfound
 ms.assetid: 698050e4-9726-49fa-85ed-9ae057e8c308
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: OPM_HDCP_FORCE_ULONG, OPM_HDCP_OFF, OPM_HDCP_ON, OPM_HDCP_PROTECTION_LEVEL, OPM_HDCP_PROTECTION_LEVEL enumeration [Media Foundation], _OPM_HDCP_PROTECTION_LEVEL, mf.opm_hdcp_protection_level, opmapi/OPM_HDCP_FORCE_ULONG, opmapi/OPM_HDCP_OFF, opmapi/OPM_HDCP_ON, opmapi/OPM_HDCP_PROTECTION_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices

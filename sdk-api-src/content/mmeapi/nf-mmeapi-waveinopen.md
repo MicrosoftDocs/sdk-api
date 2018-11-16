@@ -7,7 +7,7 @@ old-location: multimedia\waveinopen.htm
 tech.root: Multimedia
 ms.assetid: 41b5b581-d35c-48ad-adcf-659126c4af50
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_waveInOpen, mmeapi/waveInOpen, multimedia.waveinopen, waveInOpen, waveInOpen function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,8 @@ Pointer to a fixed callback function, an event handle, a handle to a window, or 
 
 ### -param dwInstance
 
-TBD
+User-instance data passed to the callback mechanism. This parameter is not used with the window callback mechanism.
+          
 
 
 ### -param fdwOpen
@@ -165,12 +166,6 @@ This flag applies only when <i>uDeviceID</i> equals <b>WAVE_MAPPER</b>.
 </tr>
 </table>
  
-
-
-#### - dwCallbackInstance
-
-User-instance data passed to the callback mechanism. This parameter is not used with the window callback mechanism.
-          
 
 
 ## -returns

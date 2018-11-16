@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_pushstoragefilter.htm
 tech.root: direct3d11
 ms.assetid: de3f22b0-0642-4aa8-8bb0-008c1e44d3cb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 8aa4344e-4688-6e7c-8033-8b589f37ce3d, ID3D11InfoQueue interface [Direct3D 11],PushStorageFilter method, ID3D11InfoQueue.PushStorageFilter, ID3D11InfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method [Direct3D 11], PushStorageFilter method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::PushStorageFilter, direct3d11.id3d11infoqueue_pushstoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

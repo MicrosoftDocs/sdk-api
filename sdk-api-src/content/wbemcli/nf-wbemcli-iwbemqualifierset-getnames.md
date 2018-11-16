@@ -7,7 +7,7 @@ old-location: wmi\iwbemqualifierset_getnames.htm
 tech.root: WmiSdk
 ms.assetid: b1e7f6b2-a204-4e00-87eb-686bf8696082
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: 0 (Zero), GetNames, GetNames method [Windows Management Instrumentation], GetNames method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],GetNames method, IWbemQualifierSet.GetNames, IWbemQualifierSet::GetNames, WBEM_FLAG_LOCAL_ONLY, WBEM_FLAG_PROPAGATED_ONLY, _hmm_iwbemqualifierset_getnames, wbemcli/IWbemQualifierSet::GetNames, wmi.iwbemqualifierset_getnames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,14 +96,7 @@ Return only the names of qualifiers specific to the current property or object. 
 Return only the names of qualifiers propagated from another object. For example, if the current qualifier set refers to a property, return only the qualifiers propagated to this property from the class definition, and not those from the property itself. If the current qualifier set refers to an instance, return only those qualifiers propagated from the class definition. If the current qualifier set refers to a class, return only those qualifier names inherited from the parent classes.
 
 
-### -param pNames
-
-TBD
-
-
-
-
-#### - pstrNames [out]
+### -param pNames [out]
 
 A new <b>SAFEARRAY</b> is created that contains the requested names.
 

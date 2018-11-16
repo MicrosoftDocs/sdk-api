@@ -4,10 +4,10 @@ title: RASDIALFUNC
 author: windows-sdk-content
 description: The RasDialFunc callback function is called by the RasDial function when a change of state occurs during a RAS connection process.
 old-location: rras\rasdialfunc.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 668ebede-73ec-4ee9-9b81-7167e827db60
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: RasDialFunc, RasDialFunc callback, RasDialFunc callback function [RAS], _ras_rasdialfunc, ras/RasDialFunc, rras.rasdialfunc
 ms.prod: windows-hardware
 ms.technology: windows-devices

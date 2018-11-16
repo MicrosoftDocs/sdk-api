@@ -4,10 +4,10 @@ title: IImageList2::GetStatistics
 author: windows-sdk-content
 description: Gets an image list statistics structure.
 old-location: controls\IImageList2_GetStatistics.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getstatistics.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetStatistics, GetStatistics method [Windows Controls], GetStatistics method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],GetStatistics method, IImageList2.GetStatistics, IImageList2::GetStatistics, _shell_IImageList2_GetStatistics, _shell_IImageList2_GetStatistics_cpp, commoncontrols/IImageList2::GetStatistics, controls.IImageList2_GetStatistics, controls._shell_IImageList2_GetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

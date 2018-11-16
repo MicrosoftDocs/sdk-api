@@ -4,10 +4,10 @@ title: ID2D1HwndRenderTarget::GetHwnd
 author: windows-sdk-content
 description: Returns the HWND associated with this render target.
 old-location: direct2d\ID2D1HwndRenderTarget_GetHwnd.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ba43ed30-fd29-4163-a2ea-15ba42e819db
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetHwnd, GetHwnd method [Direct2D], GetHwnd method [Direct2D],ID2D1HwndRenderTarget interface, ID2D1HwndRenderTarget interface [Direct2D],GetHwnd method, ID2D1HwndRenderTarget.GetHwnd, ID2D1HwndRenderTarget::GetHwnd, d2d1/ID2D1HwndRenderTarget::GetHwnd, direct2d.ID2D1HwndRenderTarget_GetHwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

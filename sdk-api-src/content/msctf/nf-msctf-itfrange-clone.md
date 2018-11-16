@@ -7,7 +7,7 @@ old-location: tsf\itfrange_clone.htm
 tech.root: TSF
 ms.assetid: 2b85012f-b090-4c91-b29c-b2470ff63ab6
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],Clone method, ITfRange.Clone, ITfRange::Clone, _tsf_itfrange_clone_ref, msctf/ITfRange::Clone, tsf.itfrange_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

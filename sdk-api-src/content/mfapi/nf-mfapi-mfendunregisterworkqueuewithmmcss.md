@@ -7,7 +7,7 @@ old-location: mf\mfendunregisterworkqueuewithmmcss.htm
 tech.root: medfound
 ms.assetid: eca38d5d-9ca3-442e-80ca-96d8927178a1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: MFEndUnregisterWorkQueueWithMMCSS, MFEndUnregisterWorkQueueWithMMCSS function [Media Foundation], eca38d5d-9ca3-442e-80ca-96d8927178a1, mf.mfendunregisterworkqueuewithmmcss, mfapi/MFEndUnregisterWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wcs\wcssetdefaultcolorprofile.htm
 tech.root: WCS
 ms.assetid: 6f9e8df8-e696-4fd0-8631-5e3d23719def
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: WcsSetDefaultColorProfile, WcsSetDefaultColorProfile function [Windows Color System], _color_WcsSetDefaultColorProfile, icm/WcsSetDefaultColorProfile, wcs.wcssetdefaultcolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,9 +64,9 @@ Sets the default color profile name for the specified profile type in the specif
 
 
 
-### -param scope
+### -param scope [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
 
 
 ### -param pDeviceName [in, optional]
@@ -92,11 +92,6 @@ The ID of the color space that the color profile represents. This is a custom ID
 ### -param pProfileName [in]
 
 A pointer to a buffer that holds the name of the color profile. See Remarks.
-
-
-#### - profileManagementScope [in]
-
-A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
 
 
 ## -returns

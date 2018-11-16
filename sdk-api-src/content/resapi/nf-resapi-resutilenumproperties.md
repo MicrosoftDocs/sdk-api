@@ -4,10 +4,10 @@ title: ResUtilEnumProperties function
 author: windows-sdk-content
 description: Enumerates the property names of a cluster object. The PRESUTIL_ENUM_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilenumproperties.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1b3a6326-c0da-470a-9cd5-19daa9d48ccd
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PRESUTIL_ENUM_PROPERTIES, PRESUTIL_ENUM_PROPERTIES function [Failover Cluster], ResUtilEnumProperties, ResUtilEnumProperties function [Failover Cluster], _wolf_resutilenumproperties, mscs.resutilenumproperties, resapi/PRESUTIL_ENUM_PROPERTIES, resapi/ResUtilEnumProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,6 +97,47 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_BAD_ARGUMENTS</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the input parameters were invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+There was an error allocating memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The size of the output buffer is too small to hold the resulting data. The <i>pcbRequired</i> parameter points to the correct size.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

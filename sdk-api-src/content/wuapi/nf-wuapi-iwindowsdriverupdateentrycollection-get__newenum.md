@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdateentrycollection__newenum.htm
 tech.root: Wua_Sdk
 ms.assetid: ef1179a6-5d93-4a4f-8cda-a1876f01be5d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],_NewEnum property, IWindowsDriverUpdateEntryCollection._NewEnum, IWindowsDriverUpdateEntryCollection.get__NewEnum, IWindowsDriverUpdateEntryCollection::_NewEnum, IWindowsDriverUpdateEntryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, get__NewEnum, wua.iwindowsdriverupdateentrycollection__newenum, wuapi/IWindowsDriverUpdateEntryCollection::_NewEnum, wuapi/IWindowsDriverUpdateEntryCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

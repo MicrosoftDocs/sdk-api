@@ -7,7 +7,7 @@ old-location: multimedia\midioutopen.htm
 tech.root: Multimedia
 ms.assetid: 929cd4d1-6912-4456-a6c7-24a819799e46
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_midiOutOpen, midiOutOpen, midiOutOpen function [Windows Multimedia], mmeapi/midiOutOpen, multimedia.midioutopen"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,8 @@ The <b>midiOutOpen</b> function opens a MIDI output device for playback.
 
 ### -param phmo
 
-TBD
+Pointer to an <b>HMIDIOUT</b> handle. This location is filled with a handle identifying the opened MIDI output device. The handle is used to identify the device in calls to other MIDI output functions.
+          
 
 
 ### -param uDeviceID
@@ -88,23 +89,11 @@ Pointer to a callback function, an event handle, a thread identifier, or a handl
 
 ### -param dwInstance
 
-TBD
-
-
-### -param fdwOpen
-
-TBD
-
-
-
-
-#### - dwCallbackInstance
-
 User instance data passed to the callback. This parameter is not used with window callbacks or threads.
           
 
 
-#### - dwFlags
+### -param fdwOpen
 
 Callback flag for opening the device. It can be the following values.
 
@@ -137,12 +126,6 @@ Callback flag for opening the device. It can be the following values.
 </tr>
 </table>
  
-
-
-#### - lphmo
-
-Pointer to an <b>HMIDIOUT</b> handle. This location is filled with a handle identifying the opened MIDI output device. The handle is used to identify the device in calls to other MIDI output functions.
-          
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: dshow\ikstopologyinfo_get_nodetype.htm
 tech.root: DirectShow
 ms.assetid: 6606d563-6a35-4595-8bb2-6cf74f7af4e7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NodeType method, IKsTopologyInfo.get_NodeType, IKsTopologyInfo::get_NodeType, IKsTopologyInfoget_NodeType, dshow.ikstopologyinfo_get_nodetype, get_NodeType, get_NodeType method [DirectShow], get_NodeType method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NodeType
 ms.prod: windows-hardware
 ms.technology: windows-devices

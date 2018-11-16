@@ -7,7 +7,7 @@ old-location: shell\SHResolveLibrary.htm
 tech.root: shell
 ms.assetid: a8730c09-f872-4bf8-9482-9dd5af31b509
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: SHResolveLibrary, SHResolveLibrary function [Windows Shell], _shell_SHResolveLibrary, shell.SHResolveLibrary, shobjidl_core/SHResolveLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

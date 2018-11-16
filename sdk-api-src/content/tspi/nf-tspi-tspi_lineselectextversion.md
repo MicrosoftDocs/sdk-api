@@ -4,10 +4,10 @@ title: TSPI_lineSelectExtVersion function
 author: windows-sdk-content
 description: The TSPI_lineSelectExtVersion function selects the indicated extension version for the indicated line device. Subsequent requests operate according to that extension version.
 old-location: tspi\tspi_lineselectextversion.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8c083afc-2e15-4260-ba67-84125c777cbf
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: TSPI_lineSelectExtVersion, TSPI_lineSelectExtVersion function [TAPI 2.2], _tspi_tspi_lineselectextversion, tspi.tspi_lineselectextversion, tspi/TSPI_lineSelectExtVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xps\iprintdocumentpackagestatusevent.htm
 tech.root: printdocs
 ms.assetid: A2178E6A-04AD-4024-A083-5C76A5F60743
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IPrintDocumentPackageStatusEvent, IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging], IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageStatusEvent, xps.iprintdocumentpackagestatusevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

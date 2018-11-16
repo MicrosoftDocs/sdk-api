@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::SetTarget
 author: windows-sdk-content
 description: The bitmap or command list to which the Direct2D device context will now render.
 old-location: direct2d\id2d1devicecontext_settarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 66914048-7bef-4551-bb14-5ab67c727dc5
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],SetTarget method, ID2D1DeviceContext.SetTarget, ID2D1DeviceContext::SetTarget, SetTarget, SetTarget method [Direct2D], SetTarget method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::SetTarget, direct2d.id2d1devicecontext_settarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The bitmap or command list to which the <a href="https://msdn.microsoft.com/03b3
 
 
 
-### -param image
-
-TBD
-
-
-
-
-#### - target [in, optional]
+### -param image [in, optional]
 
 Type: <b><a href="https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d">ID2D1Image</a>*</b>
 

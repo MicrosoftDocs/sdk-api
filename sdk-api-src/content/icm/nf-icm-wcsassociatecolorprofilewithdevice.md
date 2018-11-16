@@ -7,7 +7,7 @@ old-location: wcs\wcsassociatecolorprofilewithdevice.htm
 tech.root: WCS
 ms.assetid: 4a4c9175-6af4-4bc3-9a44-1f1614e7240d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: WcsAssociateColorProfileWithDevice, WcsAssociateColorProfileWithDevice function [Windows Color System], WcsAssociateColorProfileWithDeviceA, WcsAssociateColorProfileWithDeviceW, _color_WcsAssociateColorProfileWithDevice, icm/WcsAssociateColorProfileWithDevice, icm/WcsAssociateColorProfileWithDeviceA, icm/WcsAssociateColorProfileWithDeviceW, wcs.wcsassociatecolorprofilewithdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,9 @@ Associates a specified WCS color profile with a specified device.
 
 
 
-### -param scope
+### -param scope [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation, which could be system-wide or for the current user.
 
 
 ### -param pProfileName [in]
@@ -79,11 +79,6 @@ A pointer to the file name of the profile to associate.
 ### -param pDeviceName [in]
 
 A pointer to the name of the device with which the profile is to be associated.
-
-
-#### - profileManagementScope [in]
-
-A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation, which could be system-wide or for the current user.
 
 
 ## -returns

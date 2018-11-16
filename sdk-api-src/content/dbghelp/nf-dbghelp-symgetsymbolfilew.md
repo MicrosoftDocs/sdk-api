@@ -4,10 +4,10 @@ title: SymGetSymbolFileW function
 author: windows-sdk-content
 description: Locates a symbol file in the specified symbol path.
 old-location: base\symgetsymbolfile.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 8e78e0ef-e68c-4270-8c63-9513f3069ed0
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymGetSymbolFile, SymGetSymbolFile function, SymGetSymbolFileW, base.symgetsymbolfile, dbghelp/SymGetSymbolFile, dbghelp/SymGetSymbolFileW, sfDbg, sfImage, sfMpd, sfPdb
 ms.prod: windows-hardware
 ms.technology: windows-devices

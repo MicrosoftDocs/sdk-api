@@ -7,7 +7,7 @@ old-location: base\ivdssubsystem2_getproperties2.htm
 tech.root: VDS
 ms.assetid: 1f2164a9-643d-4762-8a2e-31d5c277502e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,GetProperties2 method, IVdsSubSystem2.GetProperties2, IVdsSubSystem2::GetProperties2, base.ivdssubsystem2_getproperties2, vds/IVdsSubSystem2::GetProperties2, vdshwprv/IVdsSubSystem2::GetProperties2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ Returns the properties of a subsystem. This method is identical to the <a href="
 
 
 
-### -param pSubSystemProp2
-
-TBD
-
-
-
-
-#### - pSubSystemProp [out]
+### -param pSubSystemProp2 [out]
 
 The address of the <a href="https://msdn.microsoft.com/8eb743b5-26e6-42e5-b94b-0849b1280cdb">VDS_SUB_SYSTEM_PROP2</a> 
       structure allocated and passed in by the caller. VDS allocates memory for the 

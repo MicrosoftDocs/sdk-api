@@ -7,7 +7,7 @@ old-location: security\isignercertificates_remove_method.htm
 tech.root: SecCertEnroll
 ms.assetid: 3f0a3d9b-590f-4fa2-904c-26593bf977c8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISignerCertificates interface [Security],Remove method, ISignerCertificates.Remove, ISignerCertificates::Remove, Remove, Remove method [Security], Remove method [Security],ISignerCertificates interface, certenroll/ISignerCertificates::Remove, security.isignercertificates_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

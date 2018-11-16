@@ -7,7 +7,7 @@ old-location: cos\imessagemover_movemessages.htm
 tech.root: cossdk
 ms.assetid: ebe06730-710b-42ce-b905-be87971b19c3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMessageMover interface [COM+],MoveMessages method, IMessageMover.MoveMessages, IMessageMover::MoveMessages, MoveMessages, MoveMessages method [COM+], MoveMessages method [COM+],IMessageMover interface, _cos_IMessageMover_MoveMessages, comsvcs/IMessageMover::MoveMessages, cos.imessagemover_movemessages
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_enumerationflagnonxmltext.htm
 tech.root: WinRM
 ms.assetid: f94dc9cc-a4c5-44b8-9ace-63b80b1087d2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: EnumerationFlagNonXmlText, EnumerationFlagNonXmlText method [Windows Remote Management], EnumerationFlagNonXmlText method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagNonXmlText method, IWSManEx.EnumerationFlagNonXmlText, IWSManEx::EnumerationFlagNonXmlText, winrm.iwsmanex_enumerationflagnonxmltext, wsmandisp/IWSManEx::EnumerationFlagNonXmlText
 ms.prod: windows-hardware
 ms.technology: windows-devices

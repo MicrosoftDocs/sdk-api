@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_getexposurecompensation.htm
 tech.root: wic
 ms.assetid: cdd71702-4696-4533-bd6f-ba9324b6b05b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetExposureCompensation, GetExposureCompensation method [Windows Imaging Component], GetExposureCompensation method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetExposureCompensation method, IWICDevelopRaw.GetExposureCompensation, IWICDevelopRaw::GetExposureCompensation, _wic_codec_iwicdevelopraw_getexposurecompensation, wic._wic_codec_iwicdevelopraw_getexposurecompensation, wincodec/IWICDevelopRaw::GetExposureCompensation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: CredUIReadSSOCredW function
 author: windows-sdk-content
 description: The CredUIReadSSOCredW function retrieves the user name for a single logon credential.
 old-location: security\creduireadssocredw.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 875be45d-ad33-4a51-80ad-8217ca0446dc
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CredUIReadSSOCredW, CredUIReadSSOCredW function [Security], security.creduireadssocredw, wincred/CredUIReadSSOCredW
 ms.prod: windows-hardware
 ms.technology: windows-devices

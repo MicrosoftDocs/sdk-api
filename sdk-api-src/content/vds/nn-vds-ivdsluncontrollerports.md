@@ -7,7 +7,7 @@ old-location: base\ivdsluncontrollerports.htm
 tech.root: VDS
 ms.assetid: 81e48874-8bc2-4b82-bcf8-ce87f99ca3ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsLunControllerPorts, IVdsLunControllerPorts interface [VDS], IVdsLunControllerPorts interface [VDS],described, base.ivdsluncontrollerports, vds/IVdsLunControllerPorts, vdshwprv/IVdsLunControllerPorts
 ms.prod: windows-hardware
 ms.technology: windows-devices

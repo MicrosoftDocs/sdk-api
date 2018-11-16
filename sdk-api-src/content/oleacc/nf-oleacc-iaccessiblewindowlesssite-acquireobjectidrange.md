@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange.htm
 tech.root: WinAuto
 ms.assetid: EB8BAD4D-0C8F-4926-A1B4-383D03C3B0C4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: AcquireObjectIdRange, AcquireObjectIdRange method [Windows Accessibility], AcquireObjectIdRange method [Windows Accessibility],IAccessibleWindowlessSite interface, IAccessibleWindowlessSite interface [Windows Accessibility],AcquireObjectIdRange method, IAccessibleWindowlessSite.AcquireObjectIdRange, IAccessibleWindowlessSite::AcquireObjectIdRange, oleacc/IAccessibleWindowlessSite::AcquireObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,19 +71,14 @@ Acquires a range of object IDs from the control host and marks them as reserved 
 The size of the object ID range that is being requested.
 
 
-### -param pRangeOwner
+### -param pRangeOwner [in, optional]
 
-TBD
+The windowless control that is requesting the range.
 
 
 ### -param pRangeBase [out]
 
 The first object ID in the acquired range.
-
-
-#### - pControl [in, optional]
-
-The windowless control that is requesting the range.
 
 
 ## -returns

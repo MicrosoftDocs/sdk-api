@@ -4,10 +4,10 @@ title: ICEnroll4::createPFX
 author: windows-sdk-content
 description: Saves the accepted certificate chain and private key in a Personal Information Exchange (PFX) format string. The PFX format is also known as PKCS #12. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_createpfx.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 37b69fc6-db16-4491-b596-4ef76e5414b3
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CEnroll object [Security],createPFX method, ICEnroll4 interface [Security],createPFX method, ICEnroll4.createPFX, ICEnroll4::createPFX, _xen_icenroll4_createpfx, createPFX, createPFX method [Security], createPFX method [Security],CEnroll object, createPFX method [Security],ICEnroll4 interface, security.icenroll4_createpfx, xenroll/ICEnroll4::createPFX
 ms.prod: windows-hardware
 ms.technology: windows-devices

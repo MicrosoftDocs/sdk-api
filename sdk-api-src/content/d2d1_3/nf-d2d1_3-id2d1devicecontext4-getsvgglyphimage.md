@@ -4,10 +4,10 @@ title: ID2D1DeviceContext4::GetSvgGlyphImage
 author: windows-sdk-content
 description: Retrieves an image of the SVG glyph from the color glyph cache.
 old-location: direct2d\id2d1devicecontext4_getsvgglyphimage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 096ED0A3-6222-4DC4-9463-E90D36F2442A
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetSvgGlyphImage, GetSvgGlyphImage method [Direct2D], GetSvgGlyphImage method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],GetSvgGlyphImage method, ID2D1DeviceContext4.GetSvgGlyphImage, ID2D1DeviceContext4::GetSvgGlyphImage, d2d1_3/ID2D1DeviceContext4::GetSvgGlyphImage, direct2d.id2d1devicecontext4_getsvgglyphimage
 ms.prod: windows-hardware
 ms.technology: windows-devices

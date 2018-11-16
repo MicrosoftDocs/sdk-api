@@ -7,7 +7,7 @@ old-location: ics\inetfwprofile.htm
 tech.root: ICS
 ms.assetid: 694bbff5-003d-4dde-9a85-f81ca29e6208
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetFwProfile, INetFwProfile interface [ICS/ICF], INetFwProfile interface [ICS/ICF],described, ics.inetfwprofile, netfw/INetFwProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

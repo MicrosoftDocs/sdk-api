@@ -4,10 +4,10 @@ title: GetClusterQuorumResource function
 author: windows-sdk-content
 description: Returns the name of a cluster's quorum resource.
 old-location: mscs\getclusterquorumresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0f841070-9dc0-49e0-9112-8d46185470b5
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetClusterQuorumResource, GetClusterQuorumResource function [Failover Cluster], PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE function [Failover Cluster], _wolf_getclusterquorumresource, clusapi/GetClusterQuorumResource, clusapi/PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, mscs.getclusterquorumresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,6 +102,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is one of the possible values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>lpszResourceName</i> or the <i>lpszDeviceName</i> buffer is not big enough to hold the result. The <i>lpcchResourceName</i> and <i>lpcchDeviceName</i> parameters return the number of characters in the result, excluding the terminating <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

@@ -4,10 +4,10 @@ title: ResUtilGetSzProperty function
 author: windows-sdk-content
 description: Retrieves a string property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetszproperty.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0f485910-e691-48fa-a96b-79573ce60616
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PRESUTIL_GET_SZ_PROPERTY, PRESUTIL_GET_SZ_PROPERTY function [Failover Cluster], ResUtilGetSzProperty, ResUtilGetSzProperty function [Failover Cluster], _wolf_resutilgetszproperty, mscs.resutilgetszproperty, resapi/PRESUTIL_GET_SZ_PROPERTY, resapi/ResUtilGetSzProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,6 +103,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 If the operation fails, the function returns a 
        <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error 
        code.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The data is formatted incorrectly.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

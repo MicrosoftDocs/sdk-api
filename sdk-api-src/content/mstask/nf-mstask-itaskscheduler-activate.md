@@ -7,7 +7,7 @@ old-location: taskschd\itaskscheduler_activate.htm
 tech.root: TaskSchd
 ms.assetid: 27391e34-8632-4ab5-9d6e-d2fde7942f80
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Activate, Activate method [Task Scheduler], Activate method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Activate method, ITaskScheduler.Activate, ITaskScheduler::Activate, _msb_itaskscheduler_activate, mstask/ITaskScheduler::Activate, taskschd.itaskscheduler_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,14 +80,7 @@ An identifier that identifies the interface being requested. The only interface 
 <a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a>, has the identifier IID_ITask.
 
 
-### -param ppUnk
-
-TBD
-
-
-
-
-#### - ppunk [out]
+### -param ppUnk [out]
 
 A pointer to an interface pointer that receives the address of the requested interface.
 

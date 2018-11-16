@@ -4,10 +4,10 @@ title: PENABLECALLBACK
 author: windows-sdk-content
 description: Providers implement this function to receive enable or disable notification requests. The PENABLECALLBACK type defines a pointer to this callback function. EnableCallback is a placeholder for the application-defined function name.
 old-location: etw\enablecallback.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: f339323e-9da9-495f-aac5-f44969a018eb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EVENT_CONTROL_CODE_CAPTURE_STATE, EVENT_CONTROL_CODE_DISABLE_PROVIDER, EVENT_CONTROL_CODE_ENABLE_PROVIDER, PENABLECALLBACK, PENABLECALLBACK callback, PENABLECALLBACK callback function [ETW], base.eanblecallback, etw.eanblecallback, etw.enablecallback, evntprov/PENABLECALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: AuditSetSecurity function
 author: windows-sdk-content
 description: Sets a security descriptor that delegates access to audit policy.
 old-location: security\auditsetsecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2f4d6198-775a-40e4-9158-a69e71bfe050
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/AuditSetSecurity, security.auditsetsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

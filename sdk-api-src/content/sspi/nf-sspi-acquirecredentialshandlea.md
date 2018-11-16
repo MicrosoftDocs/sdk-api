@@ -4,10 +4,10 @@ title: AcquireCredentialsHandleA function
 author: windows-sdk-content
 description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
 old-location: security\acquirecredentialshandle__credssp_.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AcquireCredentialsHandle, AcquireCredentialsHandle (CredSSP), AcquireCredentialsHandle function [Security], AcquireCredentialsHandleA, AcquireCredentialsHandleW, SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, security.acquirecredentialshandle__credssp_, sspi/AcquireCredentialsHandle, sspi/AcquireCredentialsHandleA, sspi/AcquireCredentialsHandleW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,19 @@ The <b>AcquireCredentialsHandle (CredSSP)</b> function acquires a handle to pree
 
 
 
-### -param pszPrincipal
+### -param pszPrincipal [in, optional]
 
-TBD
+A pointer to a null-terminated string that specifies the name of the principal whose credentials the handle will reference.
 
+<div class="alert"><b>Note</b>  If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> it is executing.</div>
+<div> </div>
 
-### -param pszPackage
+### -param pszPackage [in]
 
-TBD
+A pointer to a null-terminated string that specifies the name of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> with which these credentials will be used. This is a security package name returned in the <b>Name</b> member of a 
+<a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure returned by the 
+<a href="https://msdn.microsoft.com/900790a6-111d-43f5-9316-e85aab03a3bc">EnumerateSecurityPackages</a> function. After a context is established, 
+<a href="https://msdn.microsoft.com/4956c4ab-b71e-4960-b750-f3a79b87baac">QueryContextAttributes (CredSSP)</a> can be called with <i>ulAttribute</i> set to <b>SECPKG_ATTR_PACKAGE_INFO</b> to return information on the security package in use.
 
 
 ### -param fCredentialUse [in]
@@ -143,21 +148,6 @@ A pointer to the <a href="https://msdn.microsoft.com/94b622d0-7c04-4513-841f-0df
 
 A pointer to a <a href="https://msdn.microsoft.com/0a609b32-dbd7-4905-8990-65ebabcd0668">TimeStamp</a> structure that receives the time at which the returned credentials expire. The structure value received depends on the security package, which must specify the value in local time.
 
-
-#### - pPackage [in]
-
-A pointer to a null-terminated string that specifies the name of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> with which these credentials will be used. This is a security package name returned in the <b>Name</b> member of a 
-<a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure returned by the 
-<a href="https://msdn.microsoft.com/900790a6-111d-43f5-9316-e85aab03a3bc">EnumerateSecurityPackages</a> function. After a context is established, 
-<a href="https://msdn.microsoft.com/4956c4ab-b71e-4960-b750-f3a79b87baac">QueryContextAttributes (CredSSP)</a> can be called with <i>ulAttribute</i> set to <b>SECPKG_ATTR_PACKAGE_INFO</b> to return information on the security package in use.
-
-
-#### - pPrincipal [in, optional]
-
-A pointer to a null-terminated string that specifies the name of the principal whose credentials the handle will reference.
-
-<div class="alert"><b>Note</b>  If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> it is executing.</div>
-<div> </div>
 
 ## -returns
 

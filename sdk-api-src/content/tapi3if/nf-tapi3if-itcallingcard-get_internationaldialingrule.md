@@ -4,10 +4,10 @@ title: ITCallingCard::get_InternationalDialingRule
 author: windows-sdk-content
 description: The get_InternationalDialingRule method gets the international dialing rules for this calling card.
 old-location: tapi3\itcallingcard_get_internationaldialingrule.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b452edbd-2c37-4f40-873b-24b4b60836bb
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_InternationalDialingRule method, ITCallingCard.get_InternationalDialingRule, ITCallingCard::get_InternationalDialingRule, _tapi3_itcallingcard_get_internationaldialingrule, get_InternationalDialingRule, get_InternationalDialingRule method [TAPI 2.2], get_InternationalDialingRule method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_internationaldialingrule, tapi3if/ITCallingCard::get_InternationalDialingRule
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Inflate_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectinflatemethods\inflate.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Inflate, Inflate method [GDI+], Inflate method [GDI+],Rect class, Rect class [GDI+],Inflate method, Rect.Inflate, Rect.Inflate(IN INT,IN INT), Rect.Inflate(INT,INT), Rect::Inflate, Rect::Inflate(IN INT,IN INT), _gdiplus_CLASS_Rect_Inflate_dx_dy_, gdiplus._gdiplus_CLASS_Rect_Inflate_dx_dy_
 ms.prod: windows-hardware
 ms.technology: windows-devices

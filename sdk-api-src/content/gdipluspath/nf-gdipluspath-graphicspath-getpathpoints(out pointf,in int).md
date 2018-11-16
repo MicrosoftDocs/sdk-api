@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathPoints_PointF_points_IN
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathgetpathpointsmethods\getpathpoints_100pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetPathPoints, GetPathPoints method [GDI+], GetPathPoints method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPathPoints method, GraphicsPath.GetPathPoints, GraphicsPath.GetPathPoints(OUT PointF,IN INT), GraphicsPath.GetPathPoints(PointF*,INT), GraphicsPath::GetPathPoints, GraphicsPath::GetPathPoints(OUT PointF,IN INT), _gdiplus_CLASS_GraphicsPath_GetPathPoints_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathPoints_PointF_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

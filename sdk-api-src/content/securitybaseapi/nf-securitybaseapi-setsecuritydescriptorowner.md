@@ -4,10 +4,10 @@ title: SetSecurityDescriptorOwner function
 author: windows-sdk-content
 description: Sets the owner information of an absolute-format security descriptor. It replaces any owner information already present in the security descriptor.
 old-location: security\setsecuritydescriptorowner.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cb3ba617-322a-4b8c-a9d5-32910315fb56
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SetSecurityDescriptorOwner, SetSecurityDescriptorOwner function [Security], _win32_setsecuritydescriptorowner, security.setsecuritydescriptorowner, securitybaseapi/SetSecurityDescriptorOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices

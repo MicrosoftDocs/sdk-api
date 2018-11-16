@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual2_setopacitymode.htm
 tech.root: directcomp
 ms.assetid: 8802266E-9D31-409E-ACE8-62A3E9E93EA3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDCompositionVisual2 interface [DirectComposition],SetOpacityMode method, IDCompositionVisual2.SetOpacityMode, IDCompositionVisual2::SetOpacityMode, SetOpacityMode, SetOpacityMode method [DirectComposition], SetOpacityMode method [DirectComposition],IDCompositionVisual2 interface, dcomp/IDCompositionVisual2::SetOpacityMode, directcomp.idcompositionvisual2_setopacitymode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Sets the opacity mode for this visual.
 
 
 
-### -param mode
-
-TBD
-
-
-
-
-#### - opacityMode [in]
+### -param mode [in]
 
 	The opacity mode to use when composing the visual to the screen.
 

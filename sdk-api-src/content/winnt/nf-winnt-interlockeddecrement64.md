@@ -4,10 +4,10 @@ title: InterlockedDecrement64 function
 author: windows-sdk-content
 description: Decrements (decreases by one) the value of the specified 64-bit variable as an atomic operation.
 old-location: base\interlockeddecrement64.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 073b42ba-90dd-48a1-9661-9b1686c09561
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: InterlockedDecrement64, InterlockedDecrement64 function, base.interlockeddecrement64, winnt/InterlockedDecrement64
 ms.prod: windows-hardware
 ms.technology: windows-devices

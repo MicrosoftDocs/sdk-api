@@ -4,10 +4,10 @@ title: CloseClusterNetInterface function
 author: windows-sdk-content
 description: Closes a network interface handle.
 old-location: mscs\closeclusternetinterface.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e5978e81-790a-4ca7-92b7-d19af31f222e
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CloseClusterNetInterface, CloseClusterNetInterface function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE, PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE function [Failover Cluster], _wolf_closeclusternetinterface, clusapi/CloseClusterNetInterface, clusapi/PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE, mscs.closeclusternetinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,35 @@ Handle of the network interface to close.
 
 
 
-This function returns BOOL.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful; call the function  <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> for more information.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

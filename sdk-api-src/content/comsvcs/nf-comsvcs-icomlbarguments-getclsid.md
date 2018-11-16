@@ -7,7 +7,7 @@ old-location: cos\icomlbarguments_getclsid.htm
 tech.root: cossdk
 ms.assetid: 0475bd9e-dcde-47e4-b9e4-bcaa6d0ad919
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetCLSID, GetCLSID method [COM+], GetCLSID method [COM+],ICOMLBArguments interface, ICOMLBArguments interface [COM+],GetCLSID method, ICOMLBArguments.GetCLSID, ICOMLBArguments::GetCLSID, _cos_ICOMLBArguments_GetCLSID, comsvcs/ICOMLBArguments::GetCLSID, cos.icomlbarguments_getclsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

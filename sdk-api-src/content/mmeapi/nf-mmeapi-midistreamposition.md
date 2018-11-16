@@ -7,7 +7,7 @@ old-location: multimedia\midistreamposition.htm
 tech.root: Multimedia
 ms.assetid: 77d859bb-1f1b-4a95-939e-88bdf31b1959
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_midiStreamPosition, midiStreamPosition, midiStreamPosition function [Windows Multimedia], mmeapi/midiStreamPosition, multimedia.midistreamposition"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,17 +76,12 @@ Handle to a MIDI stream. This handle must have been returned by a call to the <a
 
 ### -param lpmmt
 
-TBD
+Pointer to an <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
 
 
 ### -param cbmmt
 
 Size, in bytes, of the <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
-
-
-#### - pmmt
-
-Pointer to an <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IMSVidStreamBufferRecordingControl::put_StartTime
 author: windows-sdk-content
 description: The put_StartTime method sets the start time for the recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_put_starttime.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 923fecbb-00f4-445f-a5cb-ef898580396e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],put_StartTime method, IMSVidStreamBufferRecordingControl.put_StartTime, IMSVidStreamBufferRecordingControl::put_StartTime, IMSVidStreamBufferRecordingControlput_StartTime, mstv.imsvidstreambufferrecordingcontrol_put_starttime, put_StartTime, put_StartTime method [Microsoft TV Technologies], put_StartTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, segment/IMSVidStreamBufferRecordingControl::put_StartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>put_StartTime</b> method sets the start time for the recording.
 
 
 
-### -param rtStart
-
-TBD
-
-
-
-
-#### - Start [in]
+### -param rtStart [in]
 
 Specifies the start time, in hundredths of seconds.
 

@@ -7,7 +7,7 @@ old-location: dshow\iamtvtuner_put_inputtype.htm
 tech.root: DirectShow
 ms.assetid: d23df6b1-eddc-4c8c-a3c9-400f915e35c4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IAMTVTuner interface [DirectShow],put_InputType method, IAMTVTuner.put_InputType, IAMTVTuner::put_InputType, IAMTVTunerput_InputType, dshow.iamtvtuner_put_inputtype, put_InputType, put_InputType method [DirectShow], put_InputType method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::put_InputType
 ms.prod: windows-hardware
 ms.technology: windows-devices

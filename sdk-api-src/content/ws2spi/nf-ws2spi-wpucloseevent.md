@@ -4,10 +4,10 @@ title: WPUCloseEvent function
 author: windows-sdk-content
 description: The WPUCloseEvent function closes an open event object handle.
 old-location: winsock\wpucloseevent_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: d8c6133b-e5a7-4936-a796-0930bb95fd0c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: WPUCloseEvent, WPUCloseEvent function [Winsock], _win32_wpucloseevent_2, winsock.wpucloseevent_2, ws2spi/WPUCloseEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

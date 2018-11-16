@@ -4,10 +4,10 @@ title: ID2D1RenderTarget::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2
 author: windows-sdk-content
 description: Draws the specified text using the format information provided by an IDWriteTextFormat object.
 old-location: direct2d\ID2D1RenderTarget_DrawText_ptr_WCHAR_ptr_IDWriteTextFormat_ref_D2D_RECT_F_ptr_ID2D1Brush_D2D1_DRAW_TEXT_OPTIONS_DWRITE_TEXT_MEASURING_METHOD.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 226de985-0d7a-4891-83a0-b1f022ff8bd3
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: DrawText, DrawText method [Direct2D], DrawText method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawText method, ID2D1RenderTarget.DrawText, ID2D1RenderTarget.DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F &,ID2D1Brush,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE), ID2D1RenderTarget::DrawText, ID2D1RenderTarget::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F &,ID2D1Brush,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE), d2d1/ID2D1RenderTarget::DrawText, direct2d.ID2D1RenderTarget_DrawText_ptr_WCHAR_ptr_IDWriteTextFormat_ref_D2D_RECT_F_ptr_ID2D1Brush_D2D1_DRAW_TEXT_OPTIONS_DWRITE_TEXT_MEASURING_METHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,9 +94,11 @@ Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c
 The size and position of the area in which the text is drawn.
 
 
-### -param defaultFillBrush
+### -param defaultFillBrush [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
+
+The brush used to paint the text.
 
 
 ### -param options
@@ -111,13 +113,6 @@ A value that indicates whether the text should be snapped to pixel boundaries an
 Type: <b><a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE</a></b>
 
 A value that indicates how glyph metrics are used to measure text when it is formatted.  The default value is <a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE_NATURAL</a>. 
-
-
-#### - defaultForegroundBrush [in]
-
-Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
-
-The brush used to paint the text.
 
 
 ## -returns

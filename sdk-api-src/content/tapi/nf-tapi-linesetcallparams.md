@@ -4,10 +4,10 @@ title: lineSetCallParams function
 author: windows-sdk-content
 description: The lineSetCallParams function allows an application to change bearer mode and/or the rate parameters of an existing call.
 old-location: tapi2\linesetcallparams.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c8088116-2bfc-420f-a83a-d00c7947b6e7
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "_tapi2_linesetcallparams, lineSetCallParams, lineSetCallParams function [TAPI 2.2], tapi/lineSetCallParams, tapi2.linesetcallparams"
 ms.prod: windows-hardware
 ms.technology: windows-devices

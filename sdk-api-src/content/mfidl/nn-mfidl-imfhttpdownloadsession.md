@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadsession.htm
 tech.root: medfound
 ms.assetid: 048B2922-3B77-4F2D-9437-0FA54F94C67E
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IMFHttpDownloadSession, IMFHttpDownloadSession interface [Media Foundation], IMFHttpDownloadSession interface [Media Foundation],described, mf.imfhttpdownloadsession, mfidl/IMFHttpDownloadSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

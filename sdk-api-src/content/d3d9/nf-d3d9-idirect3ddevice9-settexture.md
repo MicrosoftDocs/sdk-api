@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__settexture.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__settexture.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: 30fa2907-7b07-b99a-b9b6-50d38166ea7d, IDirect3DDevice9 interface [Direct3D 9],SetTexture method, IDirect3DDevice9.SetTexture, IDirect3DDevice9::SetTexture, SetTexture, SetTexture method [Direct3D 9], SetTexture method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetTexture, direct3d9.idirect3ddevice9__settexture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,20 +67,7 @@ Assigns a texture to a stage for a device.
 
 
 
-### -param Stage
-
-TBD
-
-
-### -param pTexture [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>*</b>
-
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a> interface, representing the texture being set. 
-
-
-
-#### - Sampler [in]
+### -param Stage [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
@@ -98,6 +85,14 @@ There are two other special cases for stage/sampler numbers.
 <li>A special number called D3DDMAPSAMPLER is used for <a href="https://msdn.microsoft.com/en-us/library/Bb219748(v=VS.85).aspx">Displacement Mapping (Direct3D 9)</a>.</li>
 <li>A programmable vertex shader uses a special number defined by a <a href="https://msdn.microsoft.com/en-us/library/Bb172631(v=VS.85).aspx">D3DVERTEXTEXTURESAMPLER</a> when accessing <a href="https://msdn.microsoft.com/en-us/library/Bb206339(v=VS.85).aspx">Vertex Textures in vs_3_0 (DirectX HLSL)</a>.</li>
 </ul>
+
+### -param pTexture [in]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>*</b>
+
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a> interface, representing the texture being set. 
+
+
 
 ## -returns
 

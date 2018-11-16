@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_connectedsubmit_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5cfo_cpp.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: ConnectedSubmit, ConnectedSubmit method [Fax Service], ConnectedSubmit method [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],ConnectedSubmit method, IFaxDocument.ConnectedSubmit, IFaxDocument::ConnectedSubmit, _mfax_faxdocument.connectedsubmit_cpp, fax._mfax_faxdocument_connectedsubmit_cpp, faxcomex/IFaxDocument::ConnectedSubmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,7 @@ Type: <b>IFaxServer*</b>
 An <a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a> interface that specifies a connected fax server.
 
 
-### -param pvFaxOutgoingJobIDs
-
-TBD
-
-
-
-
-#### - pvFaxOutgoingJobIds [out, retval]
+### -param pvFaxOutgoingJobIDs [out, retval]
 
 Type: <b>VARIANT*</b>
 

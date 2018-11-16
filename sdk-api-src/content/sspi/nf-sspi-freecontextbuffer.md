@@ -4,10 +4,10 @@ title: FreeContextBuffer function
 author: windows-sdk-content
 description: Enables callers of security package functions to free memory buffers allocated by the security package.
 old-location: security\freecontextbuffer.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3c3d27bb-4f9a-4979-b679-1e10fa1ff221
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: FreeContextBuffer, FreeContextBuffer function [Security], _ssp_freecontextbuffer, security.freecontextbuffer, sspi/FreeContextBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

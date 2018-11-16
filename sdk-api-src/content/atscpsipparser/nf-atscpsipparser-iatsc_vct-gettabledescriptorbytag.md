@@ -4,10 +4,10 @@ title: IATSC_VCT::GetTableDescriptorByTag
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_gettabledescriptorbytag.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2ae29f5c-430a-45a0-870e-41b209572775
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IATSC_VCT.GetTableDescriptorByTag, IATSC_VCT::GetTableDescriptorByTag, IATSC_VCTGetTableDescriptorByTag, atscpsipparser/IATSC_VCT::GetTableDescriptorByTag, mstv.iatsc_vct_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

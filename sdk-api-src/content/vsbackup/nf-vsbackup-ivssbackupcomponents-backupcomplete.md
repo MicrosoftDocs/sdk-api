@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_backupcomplete.htm
 tech.root: VSS
 ms.assetid: ee49d4b1-f3f4-4c85-a3a2-f4452d066f21
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: BackupComplete, BackupComplete method [VSS], BackupComplete method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],BackupComplete method, IVssBackupComponents.BackupComplete, IVssBackupComponents::BackupComplete, _win32_ivssbackupcomponents_backupcomplete, base.ivssbackupcomponents_backupcomplete, vsbackup/IVssBackupComponents::BackupComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

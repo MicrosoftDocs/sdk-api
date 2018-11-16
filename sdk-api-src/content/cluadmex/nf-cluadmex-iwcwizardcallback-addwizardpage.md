@@ -4,10 +4,10 @@ title: IWCWizardCallback::AddWizardPage
 author: windows-sdk-content
 description: Adds a property page to a Failover Cluster Administrator Wizard.
 old-location: mscs\iwcwizardcallback_addwizardpage.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e5ce7798-c1e6-47b6-a1bf-1262b3511b22
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AddWizardPage, AddWizardPage method [Failover Cluster], AddWizardPage method [Failover Cluster],IWCWizardCallback interface, IWCWizardCallback interface [Failover Cluster],AddWizardPage method, IWCWizardCallback.AddWizardPage, IWCWizardCallback::AddWizardPage, _wolf_iwcwizardcallback_addwizardpage, cluadmex/IWCWizardCallback::AddWizardPage, mscs.iwcwizardcallback_addwizardpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,6 +80,38 @@ Handle to the property page to be added.
 
 If <b>AddWizardPage</b> is not successful, 
        it can return other <b>HRESULT</b> values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+The <i>hpage</i> parameter represents an unknown page.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

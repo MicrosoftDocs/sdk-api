@@ -7,7 +7,7 @@ old-location: multimedia\avistreamgetframe.htm
 tech.root: Multimedia
 ms.assetid: 9677efee-4c40-4acd-8911-eedcbee67d6b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AVIStreamGetFrame, AVIStreamGetFrame function [Windows Multimedia], _win32_AVIStreamGetFrame, multimedia.avistreamgetframe, vfw/AVIStreamGetFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,17 +70,12 @@ The <b>AVIStreamGetFrame</b> function returns the address of a decompressed vide
 
 ### -param pg
 
-TBD
+Pointer to the <a href="https://msdn.microsoft.com/d72349bc-5e7c-4c60-b8e0-0524d02c0583">IGetFrame</a> interface.
 
 
 ### -param lPos
 
 Position, in samples, within the stream of the desired frame.
-
-
-#### - pgf
-
-Pointer to the <a href="https://msdn.microsoft.com/d72349bc-5e7c-4c60-b8e0-0524d02c0583">IGetFrame</a> interface.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: "_MI_PropertyDecl"
 author: windows-sdk-content
 description: Represents a class property (element) in a class's declaration.
 old-location: wmi_v2\mi_propertydecl.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: bc5e5c1e-3483-4762-8063-047308dc3652
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_FLAG_KEY, MI_FLAG_PROPERTY, MI_PropertyDecl, MI_PropertyDecl structure [Windows Management Infrastructure (MI)], _MI_PropertyDecl, mi/MI_PropertyDecl, wmi._mi_propertydecl, wmi_v2.mi_propertydecl
 ms.prod: windows-hardware
 ms.technology: windows-devices

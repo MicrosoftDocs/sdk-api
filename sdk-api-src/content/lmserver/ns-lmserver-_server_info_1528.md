@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_1528_str.htm
 tech.root: NetMgmt
 ms.assetid: 59f7f52b-2bf4-49b0-8e45-472ba290acee
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPSERVER_INFO_1528, *PSERVER_INFO_1528, LPSERVER_INFO_1528, LPSERVER_INFO_1528 structure pointer [Network Management], PSERVER_INFO_1528, PSERVER_INFO_1528 structure pointer [Network Management], SERVER_INFO_1528, SERVER_INFO_1528 structure [Network Management], _SERVER_INFO_1528, _win32_server_info_1528_str, lmserver/LPSERVER_INFO_1528, lmserver/PSERVER_INFO_1528, lmserver/SERVER_INFO_1528, netmgmt.server_info_1528_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

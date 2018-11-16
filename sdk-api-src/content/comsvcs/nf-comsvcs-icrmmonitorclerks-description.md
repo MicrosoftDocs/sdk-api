@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorclerks_description.htm
 tech.root: cossdk
 ms.assetid: 3603d898-1601-419b-b3f8-3ad49f2070a0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Description, Description method [COM+], Description method [COM+],ICrmMonitorClerks interface, ICrmMonitorClerks interface [COM+],Description method, ICrmMonitorClerks.Description, ICrmMonitorClerks::Description, _dtc_ICrmMonitorClerks_Description, comsvcs/ICrmMonitorClerks::Description, cos.icrmmonitorclerks_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

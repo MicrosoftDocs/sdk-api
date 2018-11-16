@@ -7,7 +7,7 @@ old-location: wcs\setstandardcolorspaceprofile.htm
 tech.root: WCS
 ms.assetid: fb1d95f0-7f6c-4ad9-a382-459833f177f5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: SetStandardColorSpaceProfile, SetStandardColorSpaceProfile function [Windows Color System], SetStandardColorSpaceProfileA, SetStandardColorSpaceProfileW, _color_SetStandardColorSpaceProfile, icm/SetStandardColorSpaceProfile, icm/SetStandardColorSpaceProfileA, icm/SetStandardColorSpaceProfileW, wcs.setstandardcolorspaceprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,14 +76,7 @@ Reserved. Must be <b>NULL</b>. This parameter is intended to point to the name o
 Specifies the ID value of the standard color space that the given profile represents. This is a custom ID value used to uniquely identify the color space profile within your application.
 
 
-### -param pProfileName
-
-TBD
-
-
-
-
-#### - pProfilename
+#### - pProfileName
 
 Points to a fully qualified path to the profile file.
 

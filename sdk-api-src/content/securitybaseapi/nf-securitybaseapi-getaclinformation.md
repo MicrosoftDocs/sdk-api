@@ -4,10 +4,10 @@ title: GetAclInformation function
 author: windows-sdk-content
 description: Retrieves information about an access control list (ACL).
 old-location: security\getaclinformation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 23ef6abd-03e9-439e-ba05-629c8d61cd66
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetAclInformation, GetAclInformation function [Security], _win32_getaclinformation, security.getaclinformation, securitybaseapi/GetAclInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MsiInstallProductA function
 author: windows-sdk-content
 description: Installs or uninstalls a product.
 old-location: setup\msiinstallproduct.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: ec8d6710-ecfe-432c-ba1d-2e3532a25988
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiInstallProduct, MsiInstallProduct function, MsiInstallProductA, MsiInstallProductW, _msi_msiinstallproduct, msi/MsiInstallProduct, msi/MsiInstallProductA, msi/MsiInstallProductW, setup.msiinstallproduct
 ms.prod: windows-hardware
 ms.technology: windows-devices

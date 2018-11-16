@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_getfulltopology.htm
 tech.root: medfound
 ms.assetid: 6899dbe2-a684-487f-ab56-8631b3d5a033
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: 6899dbe2-a684-487f-ab56-8631b3d5a033, GetFullTopology, GetFullTopology method [Media Foundation], GetFullTopology method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetFullTopology method, IMFMediaSession.GetFullTopology, IMFMediaSession::GetFullTopology, mf.imfmediasession_getfulltopology, mfidl/IMFMediaSession::GetFullTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,14 +81,7 @@ The identifier of the topology. This parameter is ignored if the <i>dwGetFullTop
           
 
 
-### -param ppFullTopology
-
-TBD
-
-
-
-
-#### - ppFullTopo [out]
+### -param ppFullTopology [out]
 
 Receives a pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface of the topology. The caller must release the interface.
           

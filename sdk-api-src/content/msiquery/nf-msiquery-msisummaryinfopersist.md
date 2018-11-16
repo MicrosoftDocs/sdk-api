@@ -4,10 +4,10 @@ title: MsiSummaryInfoPersist function
 author: windows-sdk-content
 description: The MsiSummaryInfoPersist function writes changed summary information back to the summary information stream.
 old-location: setup\msisummaryinfopersist.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 76fd8339-2c57-4695-83c7-dcd3cd642f55
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiSummaryInfoPersist, MsiSummaryInfoPersist function, _msi_msisummaryinfopersist, msiquery/MsiSummaryInfoPersist, setup.msisummaryinfopersist
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_setfillbrushlocal.htm
 tech.root: printdocs
 ms.assetid: ddec7d68-16a5-4c34-87c1-6a5de97aaa0c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetFillBrushLocal method, IXpsOMPath.SetFillBrushLocal, IXpsOMPath::SetFillBrushLocal, SetFillBrushLocal, SetFillBrushLocal method [XPS Documents and Packaging], SetFillBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setfillbrushlocal, xpsobjectmodel/IXpsOMPath::SetFillBrushLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices

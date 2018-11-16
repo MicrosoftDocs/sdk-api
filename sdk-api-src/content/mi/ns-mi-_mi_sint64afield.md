@@ -4,10 +4,10 @@ title: "_MI_Sint64AField"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_sint64afield.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 5004d3e3-43bf-4a83-b2db-f916e8fed816
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint64AField, MI_Sint64AField structure [Windows Management Infrastructure (MI)], _MI_Sint64AField, mi/MI_Sint64AField, wmi._mi_sint64afield, wmi_v2.mi_sint64afield
 ms.prod: windows-hardware
 ms.technology: windows-devices

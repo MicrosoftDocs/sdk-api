@@ -7,7 +7,7 @@ old-location: security\ix509extensiontemplatename.htm
 tech.root: SecCertEnroll
 ms.assetid: 9a2d0219-6fe3-4a75-8d28-281c0b863a35
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509ExtensionTemplateName, IX509ExtensionTemplateName interface [Security], IX509ExtensionTemplateName interface [Security],described, certenroll/IX509ExtensionTemplateName, security.ix509extensiontemplatename
 ms.prod: windows-hardware
 ms.technology: windows-devices

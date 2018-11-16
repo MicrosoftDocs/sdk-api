@@ -4,10 +4,10 @@ title: GetClusterFromGroupSet function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\getclusterfromgroupset.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9d0669e3-8f4a-45f3-a2cc-c118bddcd791
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetClusterFromGroupSet, GetClusterFromGroupSet function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET, PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET function [Failover Cluster], clusapi/GetClusterFromGroupSet, clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET, mscs.getclusterfromgroupset
 ms.prod: windows-hardware
 ms.technology: windows-devices

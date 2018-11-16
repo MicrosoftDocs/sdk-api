@@ -4,10 +4,10 @@ title: "_CTL_INFO"
 author: windows-sdk-content
 description: Contains the information stored in a Certificate Trust List (CTL).
 old-location: security\ctl_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 83b015b5-a650-4a81-a9f0-c3e8a9805c81
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCTL_INFO, CTL_INFO, CTL_INFO structure [Security], CTL_V1, PCTL_INFO, PCTL_INFO structure pointer [Security], _CTL_INFO, _crypto2_ctl_info, security.ctl_info, wincrypt/CTL_INFO, wincrypt/PCTL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

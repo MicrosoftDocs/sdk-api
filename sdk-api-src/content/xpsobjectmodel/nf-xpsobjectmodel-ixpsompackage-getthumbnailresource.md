@@ -7,7 +7,7 @@ old-location: xps\ixpsompackage_getthumbnailresource.htm
 tech.root: printdocs
 ms.assetid: 44a692a4-de5d-4fa9-89e2-ad969042797a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetThumbnailResource, GetThumbnailResource method [XPS Documents and Packaging], GetThumbnailResource method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetThumbnailResource method, IXpsOMPackage.GetThumbnailResource, IXpsOMPackage::GetThumbnailResource, xps.ixpsompackage_getthumbnailresource, xpsobjectmodel/IXpsOMPackage::GetThumbnailResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

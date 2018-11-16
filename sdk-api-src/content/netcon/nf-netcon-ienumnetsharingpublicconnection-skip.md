@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingpublicconnection_skip.htm
 tech.root: ICS
 ms.assetid: 25466a29-368b-4970-9995-5272cbca3c0a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumNetSharingPublicConnection interface [ICS/ICF],Skip method, IEnumNetSharingPublicConnection.Skip, IEnumNetSharingPublicConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPublicConnection interface, _ics_ienumnetsharingpublicconnection_skip, ics.ienumnetsharingpublicconnection_skip, netcon/IEnumNetSharingPublicConnection::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

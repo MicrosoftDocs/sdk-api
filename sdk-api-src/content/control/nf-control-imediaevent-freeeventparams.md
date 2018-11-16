@@ -7,7 +7,7 @@ old-location: dshow\imediaevent_freeeventparams.htm
 tech.root: DirectShow
 ms.assetid: d98f37a4-3482-4cf7-bede-c7e7be70652a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: FreeEventParams, FreeEventParams method [DirectShow], FreeEventParams method [DirectShow],IMediaEvent interface, FreeEventParams method [DirectShow],IMediaEventEx interface, IMediaEvent interface [DirectShow],FreeEventParams method, IMediaEvent.FreeEventParams, IMediaEvent::FreeEventParams, IMediaEventEx interface [DirectShow],FreeEventParams method, IMediaEventEx::FreeEventParams, IMediaEventFreeEventParams, control/IMediaEvent::FreeEventParams, control/IMediaEventEx::FreeEventParams, dshow.imediaevent_freeeventparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,9 +71,9 @@ The <code>FreeEventParams</code> method frees resources associated with the para
 
 
 
-### -param lEvCode
+### -param lEvCode [in]
 
-TBD
+Event code.
 
 
 ### -param lParam1 [in]
@@ -84,11 +84,6 @@ First event parameter.
 ### -param lParam2 [in]
 
 Second event parameter.
-
-
-#### - lEventCode [in]
-
-Event code.
 
 
 ## -returns

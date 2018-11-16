@@ -7,7 +7,7 @@ old-location: gpmc\igpmwmifilter.htm
 tech.root: GPMC
 ms.assetid: 801428f1-9ce5-4348-acab-23cc9ea8cac3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GPMWMIFilter, IGPMWMIFilter, IGPMWMIFilter interface [GPMC], IGPMWMIFilter interface [GPMC],described, _win32_igpmwmifilter, gpmc.igpmwmifilter, gpmgmt/IGPMWMIFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

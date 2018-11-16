@@ -4,10 +4,10 @@ title: SetSecurityDescriptorDacl function
 author: windows-sdk-content
 description: Sets information in a discretionary access control list (DACL). If a DACL is already present in the security descriptor, the DACL is replaced.
 old-location: security\setsecuritydescriptordacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a873b803-391e-47e1-af7e-6dad7195968c
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SetSecurityDescriptorDacl, SetSecurityDescriptorDacl function [Security], _win32_setsecuritydescriptordacl, security.setsecuritydescriptordacl, securitybaseapi/SetSecurityDescriptorDacl
 ms.prod: windows-hardware
 ms.technology: windows-devices

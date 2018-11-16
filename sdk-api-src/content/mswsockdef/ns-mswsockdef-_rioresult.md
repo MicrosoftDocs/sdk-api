@@ -4,10 +4,10 @@ title: "_RIORESULT"
 author: windows-sdk-content
 description: Contains data used to indicate request completion results used with the Winsock registered I/O extensions.
 old-location: winsock\rioresult.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: D56D67C4-B455-4F59-8996-CF158DDA3AC2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PRIORESULT, PRIORESULT, PRIORESULT structure pointer [Winsock], RIORESULT, RIORESULT structure [Winsock], _RIORESULT, mswsockdef/PRIORESULT, mswsockdef/RIORESULT, winsock.rioresult"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createtexture2d.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createtexture2d.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 38b3a1e8-7790-fb65-bd38-77d5f709bdbd, CreateTexture2D, CreateTexture2D method [Direct3D 10], CreateTexture2D method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateTexture2D method, ID3D10Device.CreateTexture2D, ID3D10Device::CreateTexture2D, d3d10/ID3D10Device::CreateTexture2D, direct3d10.id3d10device_createtexture2d
 ms.prod: windows-hardware
 ms.technology: windows-devices

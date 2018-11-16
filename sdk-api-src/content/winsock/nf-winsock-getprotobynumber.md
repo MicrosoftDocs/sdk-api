@@ -4,10 +4,10 @@ title: getprotobynumber function
 author: windows-sdk-content
 description: The getprotobynumber function retrieves protocol information corresponding to a protocol number.
 old-location: winsock\getprotobynumber_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: f1f55ab7-01ca-4ed7-b8f9-e7ddbaa95855
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_getprotobynumber_2, getprotobynumber, getprotobynumber function [Winsock], winsock.getprotobynumber_2, winsock/getprotobynumber"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,14 @@ The
 
 
 
-### -param proto [in]
+### -param proto
+
+TBD
+
+
+
+
+#### - number [in]
 
 Protocol number, in host byte order.
 

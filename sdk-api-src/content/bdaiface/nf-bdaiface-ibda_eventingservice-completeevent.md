@@ -4,10 +4,10 @@ title: IBDA_EventingService::CompleteEvent
 author: windows-sdk-content
 description: Notifies the media transform device (MTD) when the media sink device (MSD) completes an event.
 old-location: mstv\ibda_eventingservice_completeevent.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 399530a7-5a02-485e-aa5e-6b3ddb7f3d54
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CompleteEvent, CompleteEvent method [Microsoft TV Technologies], CompleteEvent method [Microsoft TV Technologies],IBDA_EventingService interface, IBDA_EventingService interface [Microsoft TV Technologies],CompleteEvent method, IBDA_EventingService.CompleteEvent, IBDA_EventingService::CompleteEvent, bdaiface/IBDA_EventingService::CompleteEvent, mstv.ibda_eventingservice_completeevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ISharingConfigurationManager_DeleteShare.htm
 tech.root: shell
 ms.assetid: 8b78d321-0da6-4b7e-8408-34784d309a1b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DeleteShare, DeleteShare method [Windows Shell], DeleteShare method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],DeleteShare method, ISharingConfigurationManager.DeleteShare, ISharingConfigurationManager::DeleteShare, _shell_ISharingConfigurationManager_DeleteShare, shell.ISharingConfigurationManager_DeleteShare, shobjidl_core/ISharingConfigurationManager::DeleteShare
 ms.prod: windows-hardware
 ms.technology: windows-devices

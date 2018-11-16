@@ -4,10 +4,10 @@ title: IAnalogTVTuningSpace::get_MinChannel
 author: windows-sdk-content
 description: The get_MinChannel method gets the lowest channel number for this tuning space.
 old-location: mstv\ianalogtvtuningspace_get_minchannel.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 94c3136f-6d9e-4396-9bbf-828669d57724
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_MinChannel method, IAnalogTVTuningSpace.get_MinChannel, IAnalogTVTuningSpace::get_MinChannel, IAnalogTVTuningSpaceget_MinChannel, get_MinChannel, get_MinChannel method [Microsoft TV Technologies], get_MinChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_minchannel, tuner/IAnalogTVTuningSpace::get_MinChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_MinChannel</b> method gets the lowest channel number for this tuning 
 
 
 
-### -param MinChannelVal
-
-TBD
-
-
-
-
-#### - pMinChannelVal [out]
+### -param MinChannelVal [out]
 
 Receives the lowest channel.
 

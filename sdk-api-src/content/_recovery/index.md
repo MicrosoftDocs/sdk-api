@@ -2,7 +2,7 @@
 UID: TP:recovery
 ms.assetid: 62e538d1-edb1-3529-b421-8e044a033509
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TraceEventInstance function
 author: windows-sdk-content
 description: The TraceEventInstance function sends an event to an event tracing session. The event uses an instance identifier to associate the event with a transaction. This function may also be used to trace hierarchical relationships between related events.
 old-location: etw\traceeventinstance.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: e8361bdc-21dd-47a0-bdbf-56f4d6195689
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: TraceEventInstance, TraceEventInstance function [ETW], _evt_traceeventinstance, base.traceeventinstance, etw.traceeventinstance, evntrace/TraceEventInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,9 +67,9 @@ The
 
 
 
-### -param TraceHandle
+### -param TraceHandle [in]
 
-TBD
+Handle to the event tracing session that records the event instance. The provider obtains the handle when it calls the <a href="https://msdn.microsoft.com/050d3a01-0087-40f1-af35-b9ceeaf47813">GetTraceLoggerHandle</a> function in its <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> implementation.
 
 
 ### -param EventTrace [in]
@@ -94,30 +94,13 @@ Depending on the complexity of the information your provider provides, you shoul
 To trace hierarchical relationships between related events, also set the <b>ParentRegHandle</b> member.
 
 
-### -param InstInfo
-
-TBD
-
-
-### -param ParentInstInfo
-
-TBD
-
-
-
-
-#### - SessionHandle [in]
-
-Handle to the event tracing session that records the event instance. The provider obtains the handle when it calls the <a href="https://msdn.microsoft.com/050d3a01-0087-40f1-af35-b9ceeaf47813">GetTraceLoggerHandle</a> function in its <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> implementation.
-
-
-#### - pInstInfo [in]
+### -param InstInfo [in]
 
 Pointer to an 
 <a href="https://msdn.microsoft.com/83a3802c-b992-43a2-a98a-bdee2ecfef24">EVENT_INSTANCE_INFO</a> structure, which contains the registration handle for this event trace class and the instance identifier. Use the  <a href="https://msdn.microsoft.com/ab890392-f1e4-4b4e-a46c-8c7c2bfd3897">CreateTraceInstanceId</a> function to initialize the structure.
 
 
-#### - pParentInstInfo [in]
+### -param ParentInstInfo [in]
 
 Pointer to an 
 <a href="https://msdn.microsoft.com/83a3802c-b992-43a2-a98a-bdee2ecfef24">EVENT_INSTANCE_INFO</a> structure, which contains the registration handle for the parent event trace class and its instance identifier. Use the  <a href="https://msdn.microsoft.com/ab890392-f1e4-4b4e-a46c-8c7c2bfd3897">CreateTraceInstanceId</a> function to initialize the structure. Set to <b>NULL</b> if you are not tracing a hierarchical relationship.

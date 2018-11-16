@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingext
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6qav.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxInboundRoutingExtension interface, IFaxInboundRoutingExtension interface [Fax Service],Debug property, IFaxInboundRoutingExtension.Debug, IFaxInboundRoutingExtension.get_Debug, IFaxInboundRoutingExtension::Debug, IFaxInboundRoutingExtension::get_Debug, _mfax_faxinboundroutingextension.debug, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_debug_cpp, fax._mfax_faxinboundroutingextension_debug, faxcomex/IFaxInboundRoutingExtension::Debug, faxcomex/IFaxInboundRoutingExtension::get_Debug, get_Debug
 ms.prod: windows-hardware
 ms.technology: windows-devices

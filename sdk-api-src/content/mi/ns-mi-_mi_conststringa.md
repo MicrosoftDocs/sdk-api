@@ -4,10 +4,10 @@ title: "_MI_ConstStringA"
 author: windows-sdk-content
 description: Represents an array of MI_Char types.
 old-location: wmi_v2\mi_conststringa.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 38790be7-1a7d-4ec0-9e7d-b1248fb8952b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ConstStringA, MI_ConstStringA structure [Windows Management Infrastructure (MI)], _MI_ConstStringA, mi/MI_ConstStringA, wmi._mi_conststringa, wmi_v2.mi_conststringa
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdslun2_applyhints2.htm
 tech.root: VDS
 ms.assetid: 0032dce3-876c-4a02-8e06-203b3f83ca08
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ApplyHints2, ApplyHints2 method, ApplyHints2 method,IVdsLun2 interface, IVdsLun2 interface,ApplyHints2 method, IVdsLun2.ApplyHints2, IVdsLun2::ApplyHints2, base.ivdslun2_applyhints2, vds/IVdsLun2::ApplyHints2, vdshwprv/IVdsLun2::ApplyHints2
 ms.prod: windows-hardware
 ms.technology: windows-devices

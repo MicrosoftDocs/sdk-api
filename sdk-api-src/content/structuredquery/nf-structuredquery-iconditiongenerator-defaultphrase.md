@@ -7,7 +7,7 @@ old-location: search\_search_IConditionGenerator_DefaultPhrase.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\defaultphrase.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],IConditionGenerator interface, IConditionGenerator interface [search],DefaultPhrase method, IConditionGenerator.DefaultPhrase, IConditionGenerator::DefaultPhrase, _search_IConditionGenerator_DefaultPhrase, search._search_IConditionGenerator_DefaultPhrase, structuredquery/IConditionGenerator::DefaultPhrase
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,9 +73,11 @@ Type: <b>LPCWSTR</b>
 The semantic type of the value in <i>ppropvar</i>.
 
 
-### -param ppropvar
+### -param ppropvar [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT const</a>*</b>
+
+The value to be processed.
 
 
 ### -param fUseEnglish [in]
@@ -90,13 +92,6 @@ Type: <b>BOOL</b>
 Type: <b>LPWSTR*</b>
 
 Receives a pointer to the phrase representing the value. If no phrase can be produced, this parameter is set to <b>NULL</b> and the method returns S_FALSE.
-
-
-#### - pPropVar [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT const</a>*</b>
-
-The value to be processed.
 
 
 ## -returns

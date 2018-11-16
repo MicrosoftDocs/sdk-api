@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_gettotaltitletime.htm
 tech.root: DirectShow
 ms.assetid: 90768da1-592a-49ec-99b0-56f463c322e8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetTotalTitleTime, GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTotalTitleTime method, IDvdInfo2.GetTotalTitleTime, IDvdInfo2::GetTotalTitleTime, IDvdInfo2GetTotalTitleTime, dshow.idvdinfo2_gettotaltitletime, strmif/IDvdInfo2::GetTotalTitleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,14 +76,7 @@ Pointer to a <a href="https://msdn.microsoft.com/8f2990f6-a8f5-4b16-ae30-d51ea55
           
 
 
-### -param ulTimeCodeFlags
-
-TBD
-
-
-
-
-#### - pulTimeCodeFlags [out]
+### -param ulTimeCodeFlags [out]
 
 Receives a <a href="https://msdn.microsoft.com/2dc5ce97-12a4-43a0-b897-14fea32d8efc">DVD_TIMECODE_FLAGS</a> value indicating the frame rate at which the disc was authored to play. Specify <b>NULL</b> if you don't want to receive the timecode information.
           

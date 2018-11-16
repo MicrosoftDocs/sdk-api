@@ -7,7 +7,7 @@ old-location: wua\isearchresult.htm
 tech.root: Wua_Sdk
 ms.assetid: f38c5b0f-8010-4db1-802c-5005c332188b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: ISearchResult, ISearchResult interface [Windows Update Agent], ISearchResult interface [Windows Update Agent],described, wua.isearchresult, wuapi/ISearchResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

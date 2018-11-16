@@ -4,10 +4,10 @@ title: CertVerifyCRLRevocation function
 author: windows-sdk-content
 description: Check a certificate revocation list (CRL) to determine whether a subject's certificate has or has not been revoked.
 old-location: security\certverifycrlrevocation.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a46ac5b5-bc44-4857-a7fb-4f35d438e3f7
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CertVerifyCRLRevocation, CertVerifyCRLRevocation function [Security], _crypto2_certverifycrlrevocation, security.certverifycrlrevocation, wincrypt/CertVerifyCRLRevocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

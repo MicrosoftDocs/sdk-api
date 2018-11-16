@@ -7,7 +7,7 @@ old-location: wcs\wcsenumcolorprofilessize.htm
 tech.root: WCS
 ms.assetid: 1fc76f8a-dad5-4447-bffc-2df58b4201de
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: WcsEnumColorProfilesSize, WcsEnumColorProfilesSize function [Windows Color System], _color_WcsEnumColorProfilesSize, icm/WcsEnumColorProfilesSize, wcs.wcsenumcolorprofilessize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,9 +64,9 @@ Returns the size, in bytes, of the buffer that is required by the <a href="https
 
 
 
-### -param scope
+### -param scope [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of the profile management operation that is performed by this function.
 
 
 ### -param pEnumRecord [in]
@@ -77,11 +77,6 @@ A pointer to a structure that specifies the enumeration criteria.
 ### -param pdwSize [out]
 
 A pointer to a variable that receives the size of the buffer that is required to receive all enumerated profile names. This value is used by the <i>dwSize</i> parameter of the <a href="https://msdn.microsoft.com/45d670ae-a2f1-4281-bcd8-0663ee3e7fe4">WcsEnumColorProfiles</a> function.
-
-
-#### - profileManagementScope [in]
-
-A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of the profile management operation that is performed by this function.
 
 
 ## -returns

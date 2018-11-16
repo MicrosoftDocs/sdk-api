@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaCacheRequestStruct.htm
 tech.root: WinAuto
 ms.assetid: 426355e4-50ce-4189-824d-c2256903224c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: UiaCacheRequest, UiaCacheRequest structure [Windows Accessibility], uiauto.uiauto_UiaCacheRequestStruct, uiauto_UiaCacheRequestStruct, uiautomationcoreapi/UiaCacheRequest, winauto.uiauto_UiaCacheRequestStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices

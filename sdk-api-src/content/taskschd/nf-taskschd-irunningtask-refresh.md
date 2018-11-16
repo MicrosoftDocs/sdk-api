@@ -7,7 +7,7 @@ old-location: taskschd\irunningtask_refresh.htm
 tech.root: TaskSchd
 ms.assetid: f46d82ff-2f1b-477b-b043-665659ad8982
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IRunningTask interface [Task Scheduler],Refresh method, IRunningTask.Refresh, IRunningTask::Refresh, Refresh, Refresh method [Task Scheduler], Refresh method [Task Scheduler],IRunningTask interface, taskschd.irunningtask_refresh, taskschd/IRunningTask::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

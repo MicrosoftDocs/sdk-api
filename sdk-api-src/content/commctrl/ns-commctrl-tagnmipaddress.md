@@ -4,10 +4,10 @@ title: tagNMIPADDRESS
 author: windows-sdk-content
 description: Contains information for the IPN_FIELDCHANGED notification code.
 old-location: controls\NMIPADDRESS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\structures\nmipaddress.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPNMIPADDRESS, LPNMIPADDRESS, LPNMIPADDRESS structure pointer [Windows Controls], NMIPADDRESS, NMIPADDRESS structure [Windows Controls], _win32_NMIPADDRESS, _win32_NMIPADDRESS_cpp, commctrl/LPNMIPADDRESS, commctrl/NMIPADDRESS, controls.NMIPADDRESS, controls._win32_NMIPADDRESS, tagNMIPADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

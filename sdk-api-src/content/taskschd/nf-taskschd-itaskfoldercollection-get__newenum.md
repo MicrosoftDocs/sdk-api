@@ -7,7 +7,7 @@ old-location: taskschd\itaskfoldercollection__newenum.htm
 tech.root: TaskSchd
 ms.assetid: 6b412a88-7096-44b4-8d80-356a3488c957
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITaskFolderCollection interface [Task Scheduler],_NewEnum property, ITaskFolderCollection._NewEnum, ITaskFolderCollection.get__NewEnum, ITaskFolderCollection::_NewEnum, ITaskFolderCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITaskFolderCollection interface, get__NewEnum, taskschd.itaskfoldercollection__newenum, taskschd/ITaskFolderCollection::_NewEnum, taskschd/ITaskFolderCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mbn\imbnsms_smsread.htm
 tech.root: mbn
 ms.assetid: d15eab89-c2bb-45af-8a6b-077517973fb1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsRead method, IMbnSms.SmsRead, IMbnSms::SmsRead, SmsRead, SmsRead method [Microsoft Broadband Networks], SmsRead method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smsread, mbnapi/IMbnSms::SmsRead
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMPEG2ComponentType::get_StreamType
 author: windows-sdk-content
 description: The get_StreamType method retrieves the stream type.
 old-location: mstv\impeg2componenttype_get_streamtype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: c3aa2a63-aa02-41c3-bbdf-f155346eea0a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMPEG2ComponentType interface [Microsoft TV Technologies],get_StreamType method, IMPEG2ComponentType.get_StreamType, IMPEG2ComponentType::get_StreamType, IMPEG2ComponentTypeget_StreamType, get_StreamType, get_StreamType method [Microsoft TV Technologies], get_StreamType method [Microsoft TV Technologies],IMPEG2ComponentType interface, mstv.impeg2componenttype_get_streamtype, tuner/IMPEG2ComponentType::get_StreamType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_StreamType</b> method retrieves the stream type.
 
 
 
-### -param MP2StreamType
-
-TBD
-
-
-
-
-#### - pMP2StreamType [out]
+### -param MP2StreamType [out]
 
 Pointer to a variable of type <a href="https://msdn.microsoft.com/10df5a9e-965c-4118-8ece-2d8ee353cd10">MPEG2StreamType</a> that receives the stream type value.
 

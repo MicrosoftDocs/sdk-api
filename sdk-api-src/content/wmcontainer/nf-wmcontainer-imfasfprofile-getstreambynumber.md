@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_getstreambynumber.htm
 tech.root: medfound
 ms.assetid: 1e3fadf0-1549-4d51-b263-727b15c55023
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: 1e3fadf0-1549-4d51-b263-727b15c55023, GetStreamByNumber, GetStreamByNumber method [Media Foundation], GetStreamByNumber method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamByNumber method, IMFASFProfile.GetStreamByNumber, IMFASFProfile::GetStreamByNumber, mf.imfasfprofile_getstreambynumber, wmcontainer/IMFASFProfile::GetStreamByNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

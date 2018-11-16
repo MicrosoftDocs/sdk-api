@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_texture1d_desc.htm
 tech.root: direct3d11
 ms.assetid: 8523d7b1-856e-4ec8-9286-4f1f2730a428
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_TEXTURE1D_DESC, D3D11_TEXTURE1D_DESC structure [Direct3D 11], c0f2647b-c461-618f-f6ef-5ea6483060e8, d3d11/D3D11_TEXTURE1D_DESC, direct3d11.d3d11_texture1d_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ICertEncodeCRLDistInfo::GetName
 author: windows-sdk-content
 description: Returns the name at a specified index of a certificate revocation list (CRL) distribution information point.
 old-location: security\icertencodecrldistinfo_getname.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a564af61-fb5e-46b7-a818-333b4d5e2f25
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CCertEncodeCRLDistInfo object, GetName method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetName method, ICertEncodeCRLDistInfo.GetName, ICertEncodeCRLDistInfo::GetName, _certsrv_icertencodecrldistinfo_getname, certenc/ICertEncodeCRLDistInfo::GetName, security.icertencodecrldistinfo_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,14 +77,7 @@ Specifies the index of the distribution point for which to get a name. The first
 Specifies the index of the name entry to get. The first value is at index zero.
 
 
-### -param pstrName
-
-TBD
-
-
-
-
-#### - pbstrName [out]
+### -param pstrName [out]
 
 A pointer to a <b>BSTR</b> that represents the name value. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
 

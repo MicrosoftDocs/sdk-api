@@ -4,10 +4,10 @@ title: SetClusterServiceAccountPassword function
 author: windows-sdk-content
 description: Changes the password for the Cluster service user account on all available cluster nodes.
 old-location: mscs\setclusterserviceaccountpassword.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 4afadb62-2bea-46ef-b0d6-e327ac96d16f
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUSTER_SET_PASSWORD_IGNORE_DOWN_NODES, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD function [Failover Cluster], SetClusterServiceAccountPassword, SetClusterServiceAccountPassword function [Failover Cluster], _wolf_setclusterserviceaccountpassword, clusapi/PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, clusapi/SetClusterServiceAccountPassword, mscs.setclusterserviceaccountpassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,6 +130,41 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 If the operation fails, the function returns a 
       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error 
       codes.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_ALL_NODES_NOT_AVAILABLE</b></dt>
+<dt>5037 (0x13AD)</dt>
+</dl>
+</td>
+<td width="60%">
+Some nodes in the cluster are unavailable (that is, not in the 
+         <b>ClusterNodeStateUp</b> or <b>ClusterNodeStatePaused</b> states) 
+         and the <b>CLUSTER_SET_PASSWORD_IGNORE_DOWN_NODES</b> flag is not set.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234 (0xEA)</dt>
+</dl>
+</td>
+<td width="60%">
+The output buffer pointed to by <i>lpReturnStatusBuffer</i> was not large enough to hold 
+         the resulting data.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

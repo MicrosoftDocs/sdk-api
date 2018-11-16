@@ -7,7 +7,7 @@ old-location: rdc\isimilarity_findsimilarfileid.htm
 tech.root: Rdc
 ms.assetid: 70a205fc-d90a-43fc-88f4-2f3a573c5a82
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FindSimilarFileId, FindSimilarFileId method [Remote Differential Compression], FindSimilarFileId method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],FindSimilarFileId method, ISimilarity.FindSimilarFileId, ISimilarity::FindSimilarFileId, fs.isimilarity_findsimilarfileid, msrdc/ISimilarity::FindSimilarFileId, rdc.isimilarity_findsimilarfileid
 ms.prod: windows-hardware
 ms.technology: windows-devices

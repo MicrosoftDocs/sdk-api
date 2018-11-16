@@ -4,10 +4,10 @@ title: SymGetSymFromAddr function
 author: windows-sdk-content
 description: Locates the symbol for the specified address.
 old-location: base\symgetsymfromaddr64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: c4882a3b-7773-4ab0-ad83-bdde512b5fb4
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymGetSymFromAddr, SymGetSymFromAddr function, SymGetSymFromAddr64, SymGetSymFromAddr64 function, _win32_symgetsymfromaddr64, base.symgetsymfromaddr64, dbghelp/SymGetSymFromAddr, dbghelp/SymGetSymFromAddr64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,9 @@ A handle to the process that was originally passed to the
 <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
 
 
-### -param dwAddr
+### -param dwAddr [in]
 
-TBD
+The address for which a symbol is to be located. The address does not have to be on a symbol boundary. If the address comes after the beginning of a symbol and before the end of the symbol (the beginning of the symbol plus the symbol size), the symbol is found.
 
 
 ### -param pdwDisplacement [out, optional]
@@ -86,11 +86,6 @@ The displacement from the beginning of the symbol, or zero.
 
 A pointer to an 
 <a href="https://msdn.microsoft.com/7b39281a-c34b-47ae-a3ff-5f0a7a66a588">IMAGEHLP_SYMBOL64</a> structure.
-
-
-#### - qwAddr [in]
-
-The address for which a symbol is to be located. The address does not have to be on a symbol boundary. If the address comes after the beginning of a symbol and before the end of the symbol (the beginning of the symbol plus the symbol size), the symbol is found.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: ImageList_ReadEx function
 author: windows-sdk-content
 description: Reads an image list from a stream, and returns an IImageList interface to the image list.
 old-location: controls\ImageList_ReadEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_readex.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ILP_DOWNLEVEL, ILP_NORMAL, ImageList_ReadEx, ImageList_ReadEx function [Windows Controls], _win32_ImageList_ReadEx, _win32_ImageList_ReadEx_cpp, commctrl/ImageList_ReadEx, controls.ImageList_ReadEx, controls._win32_ImageList_ReadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

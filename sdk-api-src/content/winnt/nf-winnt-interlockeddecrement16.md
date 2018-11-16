@@ -4,10 +4,10 @@ title: InterlockedDecrement16 function
 author: windows-sdk-content
 description: Decrements (decreases by one) the value of the specified 16-bit variable as an atomic operation.
 old-location: base\interlockeddecrement16.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 64fbfe37-fce5-4d96-aecb-3850d1edd34e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: InterlockedDecrement16, InterlockedDecrement16 function, base.interlockeddecrement16, winnt/InterlockedDecrement16
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: RpcNsEntryExpandNameA function
 author: windows-sdk-content
 description: The RpcNsEntryExpandName function expands a name-service entry name. This function is supported by Active Directory.
 old-location: rpc\rpcnsentryexpandname.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: a93052c2-3fb1-448a-b4bf-70b9676de69a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: RpcNsEntryExpandName, RpcNsEntryExpandName function [RPC], RpcNsEntryExpandNameA, RpcNsEntryExpandNameW, _rpc_rpcnsentryexpandname, rpc.rpcnsentryexpandname, rpcnsi/RpcNsEntryExpandName, rpcnsi/RpcNsEntryExpandNameA, rpcnsi/RpcNsEntryExpandNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

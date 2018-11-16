@@ -4,10 +4,10 @@ title: IEnumGuideDataProperties::Clone
 author: windows-sdk-content
 description: Not implemented for this release.
 old-location: mstv\ienumguidedataproperties_clone.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4956b37c-a39f-4f5d-bc2d-9746a98660ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumGuideDataProperties interface, IEnumGuideDataProperties interface [Microsoft TV Technologies],Clone method, IEnumGuideDataProperties.Clone, IEnumGuideDataProperties::Clone, IEnumGuideDataPropertiesClone, bdatif/IEnumGuideDataProperties::Clone, mstv.ienumguidedataproperties_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfcontextview_getscreenext.htm
 tech.root: TSF
 ms.assetid: 86dde611-4c46-418c-aa89-728081a28943
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetScreenExt method, ITfContextView.GetScreenExt, ITfContextView::GetScreenExt, _tsf_itfcontextview_getscreenext_ref, msctf/ITfContextView::GetScreenExt, tsf.itfcontextview_getscreenext
 ms.prod: windows-hardware
 ms.technology: windows-devices

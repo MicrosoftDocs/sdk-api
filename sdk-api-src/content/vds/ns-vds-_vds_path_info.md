@@ -7,7 +7,7 @@ old-location: base\vds_path_info.htm
 tech.root: VDS
 ms.assetid: 14444252-11ca-4614-81d1-9a15e76d0186
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: VDS_PATH_INFO, VDS_PATH_INFO structure, _VDS_PATH_INFO, base.vds_path_info, vds/VDS_PATH_INFO, vdshwprv/VDS_PATH_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

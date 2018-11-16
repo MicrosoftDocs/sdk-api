@@ -4,10 +4,10 @@ title: IBDA_IPV6Filter::GetMulticastListSize
 author: windows-sdk-content
 description: The GetMulticastListSize method retrieves the size in bytes of the list of multicast addresses.
 old-location: mstv\ibda_ipv6filter_getmulticastlistsize.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: b607774a-3c0e-49b1-881a-fd8ae2c70fb1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_IPV6Filter interface, IBDA_IPV6Filter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_IPV6Filter.GetMulticastListSize, IBDA_IPV6Filter::GetMulticastListSize, IBDA_IPV6FilterGetMulticastListSize, bdaiface/IBDA_IPV6Filter::GetMulticastListSize, mstv.ibda_ipv6filter_getmulticastlistsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

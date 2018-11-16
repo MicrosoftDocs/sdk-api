@@ -4,10 +4,10 @@ title: GetFirmwareType function
 author: windows-sdk-content
 description: Retrieves the firmware type of the local computer.
 old-location: base\getfirmwaretype.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: db1f6889-067a-4a5d-bbfa-5836287d08ca
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetFirmwareType, GetFirmwareType function, base.getfirmwaretype, winbase/GetFirmwareType
 ms.prod: windows-hardware
 ms.technology: windows-devices

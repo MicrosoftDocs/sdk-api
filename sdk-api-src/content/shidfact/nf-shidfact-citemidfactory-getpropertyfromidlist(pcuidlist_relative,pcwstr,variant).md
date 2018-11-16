@@ -7,7 +7,7 @@ old-location: shell\citemidfactory_getpropertyfromidlist_key.htm
 tech.root: shell
 ms.assetid: 2BC0557F-57B2-4389-ABC6-9186A4FCF814
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyFromIDList method, CItemIDFactory.GetPropertyFromIDList, CItemIDFactory.GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,VARIANT), CItemIDFactory::GetPropertyFromIDList, CItemIDFactory::GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,VARIANT), GetPropertyFromIDList, GetPropertyFromIDList method [Windows Shell], GetPropertyFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertyfromidlist_key, shidfact/CItemIDFactory::GetPropertyFromIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,19 +72,21 @@ Gets a property from the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-
 A PIDL identifying the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>.
 
 
-### -param pszName
+### -param pszName [in]
+
+The key for the selected property.
+
+
+### -param pvar
 
 TBD
 
 
-#### - pvar [out]
+
+
+#### - pv [out]
 
 When this method returns, contains a pointer to the property. If <i>rkey</i> is not found, <i>pvar</i> will be <b>VT_EMPTY</b>.
-
-
-#### - rkey [in]
-
-The key for the selected property.
 
 
 ## -returns

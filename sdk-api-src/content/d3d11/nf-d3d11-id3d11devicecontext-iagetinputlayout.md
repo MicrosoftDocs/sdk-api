@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_iagetinputlayout.htm
 tech.root: direct3d11
 ms.assetid: b3d07e01-405e-4973-956f-85a08b720aaa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 833fde64-5672-81f0-24a0-876e6fb4fc29, IAGetInputLayout, IAGetInputLayout method [Direct3D 11], IAGetInputLayout method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IAGetInputLayout method, ID3D11DeviceContext.IAGetInputLayout, ID3D11DeviceContext::IAGetInputLayout, d3d11/ID3D11DeviceContext::IAGetInputLayout, direct3d11.id3d11devicecontext_iagetinputlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

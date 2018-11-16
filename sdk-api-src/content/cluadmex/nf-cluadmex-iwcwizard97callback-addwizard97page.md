@@ -4,10 +4,10 @@ title: IWCWizard97Callback::AddWizard97Page
 author: windows-sdk-content
 description: Adds a Wizard97 property page to a Wizard97 wizard, such as the Failover Cluster Application Wizard.
 old-location: mscs\iwcwizard97callback_addwizard97page.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c5de70da-2a08-4142-8f21-53a98e28fd42
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AddWizard97Page, AddWizard97Page method [Failover Cluster], AddWizard97Page method [Failover Cluster],IWCWizard97Callback interface, IWCWizard97Callback interface [Failover Cluster],AddWizard97Page method, IWCWizard97Callback.AddWizard97Page, IWCWizard97Callback::AddWizard97Page, _wolf_iwcwizard97callback_addwizard97page, cluadmex/IWCWizard97Callback::AddWizard97Page, mscs.iwcwizard97callback_addwizard97page
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,6 +80,38 @@ Handle to the property page to be added.
 
 If <b>AddWizard97Page</b> is not 
        successful, it can return other <b>HRESULT</b> values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+The <i>hpage</i> parameter represents an unknown page.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

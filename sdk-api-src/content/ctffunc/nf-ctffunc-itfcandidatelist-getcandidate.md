@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelist_getcandidate.htm
 tech.root: TSF
 ms.assetid: 4cb2127c-cce5-4815-b40b-e6e15058eab5
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetCandidate, GetCandidate method [Text Services Framework], GetCandidate method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],GetCandidate method, ITfCandidateList.GetCandidate, ITfCandidateList::GetCandidate, _tsf_itfcandidatelist_getcandidate_ref, ctffunc/ITfCandidateList::GetCandidate, tsf.itfcandidatelist_getcandidate
 ms.prod: windows-hardware
 ms.technology: windows-devices

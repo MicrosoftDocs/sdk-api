@@ -4,10 +4,10 @@ title: IsValidAcl function
 author: windows-sdk-content
 description: Validates an access control list (ACL).
 old-location: security\isvalidacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3ae9f147-4e90-44df-a1af-cf6ebad92aea
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: IsValidAcl, IsValidAcl function [Security], _win32_isvalidacl, security.isvalidacl, securitybaseapi/IsValidAcl
 ms.prod: windows-hardware
 ms.technology: windows-devices

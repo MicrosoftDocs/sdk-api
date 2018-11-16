@@ -4,10 +4,10 @@ title: IBDA_TIF_REGISTRATION::RegisterTIFEx
 author: windows-sdk-content
 description: The RegisterTIFEx method registers a Transport Information Filter (TIF) with the Network Provider.
 old-location: mstv\ibda_tif_registration_registertifex.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 1cfc653f-b552-4f38-9ca1-457ab4de3598
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies],RegisterTIFEx method, IBDA_TIF_REGISTRATION.RegisterTIFEx, IBDA_TIF_REGISTRATION::RegisterTIFEx, IBDA_TIF_REGISTRATIONRegisterTIFEx, RegisterTIFEx, RegisterTIFEx method [Microsoft TV Technologies], RegisterTIFEx method [Microsoft TV Technologies],IBDA_TIF_REGISTRATION interface, bdatif/IBDA_TIF_REGISTRATION::RegisterTIFEx, mstv.ibda_tif_registration_registertifex
 ms.prod: windows-hardware
 ms.technology: windows-devices

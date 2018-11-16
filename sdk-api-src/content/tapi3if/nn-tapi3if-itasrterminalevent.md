@@ -4,10 +4,10 @@ title: ITASRTerminalEvent
 author: windows-sdk-content
 description: The ITASRTerminalEvent interface contains methods that retrieve the description of Automatic Speech Recognition terminal events that have occurred.
 old-location: tapi3\itasrterminalevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6bf8b1b7-698f-443f-9ddf-0d50551cebab
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITASRTerminalEvent, ITASRTerminalEvent interface [TAPI 2.2], ITASRTerminalEvent interface [TAPI 2.2],described, _tapi3_itasrterminalevent, tapi3.itasrterminalevent, tapi3if/ITASRTerminalEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

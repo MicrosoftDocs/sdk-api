@@ -4,10 +4,10 @@ title: ISBE2Crossbar::SetOutputProfile
 author: windows-sdk-content
 description: Replaces the default or current input profile with the profile specified in this method.
 old-location: mstv\isbe2crossbar_setoutputprofile.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 34067ca5-ead0-44ac-b274-dc9e3f2fb2fd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISBE2Crossbar interface [Microsoft TV Technologies],SetOutputProfile method, ISBE2Crossbar.SetOutputProfile, ISBE2Crossbar::SetOutputProfile, SetOutputProfile, SetOutputProfile method [Microsoft TV Technologies], SetOutputProfile method [Microsoft TV Technologies],ISBE2Crossbar interface, mstv.isbe2crossbar_setoutputprofile, sbe/ISBE2Crossbar::SetOutputProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

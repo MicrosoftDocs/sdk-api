@@ -7,7 +7,7 @@ old-location: intl\immenumregisterword.htm
 tech.root: Intl
 ms.assetid: ebeed3f9-1164-49d8-a7af-61244976643b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: ImmEnumRegisterWord, ImmEnumRegisterWord function [Internationalization for Windows Applications], ImmEnumRegisterWordA, ImmEnumRegisterWordW, _win32_ImmEnumRegisterWord, imm/ImmEnumRegisterWord, imm/ImmEnumRegisterWordA, imm/ImmEnumRegisterWordW, intl.immenumregisterword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,9 +71,9 @@ Enumerates the register strings having the specified reading string, style, and 
 Input locale identifier.
 
 
-#### - REGISTERWORDENUMPROCW [in]
+### -param REGISTERWORDENUMPROCW
 
-Pointer to the callback function. For more information, see <a href="https://msdn.microsoft.com/06038c87-3553-47de-ba9f-b9c65ea9920b">EnumRegisterWordProc</a>.
+TBD
 
 
 ### -param lpszReading [in, optional]
@@ -94,6 +94,11 @@ Pointer to the register string to enumerate. The application sets this parameter
 ### -param LPVOID [in]
 
 Pointer to application-supplied data. The function passes this data to the callback function.
+
+
+#### - REGISTERWORDENUMPROCA [in]
+
+Pointer to the callback function. For more information, see <a href="https://msdn.microsoft.com/06038c87-3553-47de-ba9f-b9c65ea9920b">EnumRegisterWordProc</a>.
 
 
 ## -returns

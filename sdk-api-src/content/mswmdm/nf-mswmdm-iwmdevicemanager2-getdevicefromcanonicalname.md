@@ -7,7 +7,7 @@ old-location: wmdm\iwmdevicemanager2__getdevicefromcanonicalname.htm
 tech.root: WMDM
 ms.assetid: cfa0fe8d-668a-443b-be50-cf1f83362a14
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDeviceFromCanonicalName, GetDeviceFromCanonicalName method [windows Media Device Manager], GetDeviceFromCanonicalName method [windows Media Device Manager],IWMDeviceManager2 interface, IWMDeviceManager2 interface [windows Media Device Manager],GetDeviceFromCanonicalName method, IWMDeviceManager2.GetDeviceFromCanonicalName, IWMDeviceManager2::GetDeviceFromCanonicalName, IWMDeviceManager2GetDevicesFromCanonicalName, mswmdm/IWMDeviceManager2::GetDeviceFromCanonicalName, wmdm.iwmdevicemanager2__getdevicefromcanonicalname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,13 +73,6 @@ A wide-character, <b>null</b>-terminated string specifying the canonical name of
 
 
 ### -param ppDevice
-
-TBD
-
-
-
-
-#### - ppDeviceArray
 
 Pointer to a pointer to the <a href="https://msdn.microsoft.com/44212da9-a38a-4ed5-86af-cf60b40bb54d">IWMDMDevice</a> interface of the device object with the specified canonical name. The caller must release this interface when done with it.
 

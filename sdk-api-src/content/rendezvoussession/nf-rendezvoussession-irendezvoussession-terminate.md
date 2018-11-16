@@ -7,7 +7,7 @@ old-location: remoteassist\remoteassist_IRendezvousSession_Terminate.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\terminate.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],Terminate method, IRendezvousSession.Terminate, IRendezvousSession::Terminate, Terminate, Terminate method [Remote Assistance], Terminate method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_Terminate, remoteassist_IRendezvousSession_Terminate, rendezvoussession/IRendezvousSession::Terminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,19 +66,14 @@ Terminates the remote <a href="https://msdn.microsoft.com/306efb96-5193-410d-b2f
 
 
 
-### -param hr
+### -param hr [in]
 
-TBD
+The <b>HRESULT</b> from the application termination. 
 
 
 ### -param bstrAppData [in]
 
 Application data. 
-
-
-#### - HRESULT [in]
-
-The <b>HRESULT</b> from the application termination. 
 
 
 ## -returns

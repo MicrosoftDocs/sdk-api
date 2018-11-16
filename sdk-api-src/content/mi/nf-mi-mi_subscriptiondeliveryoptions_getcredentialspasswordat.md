@@ -4,10 +4,10 @@ title: MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt function
 author: windows-sdk-content
 description: Gets a previously added credential password based on a specified index.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getcredentialspasswordat.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 338fba5a-160e-4744-84c5-28aa1f115f53
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt, MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt, wmi_v2.mi_subscriptiondeliveryoptions_getcredentialspasswordat
 ms.prod: windows-hardware
 ms.technology: windows-devices

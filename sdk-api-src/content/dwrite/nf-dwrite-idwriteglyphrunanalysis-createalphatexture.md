@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteGlyphRunAnalysis_CreateAlphaTexture.htm
 tech.root: DirectWrite
 ms.assetid: a3a28efa-b235-4608-8410-15cc0ebfe38e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CreateAlphaTexture, CreateAlphaTexture method [Direct Write], CreateAlphaTexture method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],CreateAlphaTexture method, IDWriteGlyphRunAnalysis.CreateAlphaTexture, IDWriteGlyphRunAnalysis::CreateAlphaTexture, directwrite.IDWriteGlyphRunAnalysis_CreateAlphaTexture, dwrite/IDWriteGlyphRunAnalysis::CreateAlphaTexture
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: upnp\iupnpeventsource_unadvise.htm
 tech.root: UPnP
 ms.assetid: 6ae9c53f-eb82-4396-ba85-c95e252911c8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IUPnPEventSource interface [UPnP APIs],Unadvise method, IUPnPEventSource.Unadvise, IUPnPEventSource::Unadvise, Unadvise, Unadvise method [UPnP APIs], Unadvise method [UPnP APIs],IUPnPEventSource interface, _upnp_iupnpeventsource_unadvise, upnp.iupnpeventsource_unadvise, upnphost/IUPnPEventSource::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ After this method is invoked, the hosted service releases the reference to the e
 
 
 
-### -param pesSubscriber
-
-TBD
-
-
-
-
-#### - punkSubscriber [in]
+### -param pesSubscriber [in]
 
 Pointer to the device host's 
 <a href="https://msdn.microsoft.com/431423c9-2873-422d-a28c-c4ef23109114">IUPnPEventSink</a> interface. This must be the same pointer that was passed when 

@@ -7,7 +7,7 @@ old-location: tsf\itffnreconversion.htm
 tech.root: TSF
 ms.assetid: deb5c007-58d5-4bae-92eb-a05675f5dfac
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfFnReconversion, ITfFnReconversion interface [Text Services Framework], ITfFnReconversion interface [Text Services Framework],described, _tsf_itffnreconversion_ref, ctffunc/ITfFnReconversion, tsf.itffnreconversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

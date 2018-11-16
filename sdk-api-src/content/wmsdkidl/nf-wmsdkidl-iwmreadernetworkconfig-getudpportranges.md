@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getudpportranges.htm
 tech.root: wmformat
 ms.assetid: a1792fd0-e9c3-4e28-9928-a615e1c9aec8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetUDPPortRanges, GetUDPPortRanges method [windows Media Format], GetUDPPortRanges method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetUDPPortRanges method, IWMReaderNetworkConfig.GetUDPPortRanges, IWMReaderNetworkConfig::GetUDPPortRanges, IWMReaderNetworkConfigGetUDPPortRanges, wmformat.iwmreadernetworkconfig_getudpportranges, wmsdkidl/IWMReaderNetworkConfig::GetUDPPortRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

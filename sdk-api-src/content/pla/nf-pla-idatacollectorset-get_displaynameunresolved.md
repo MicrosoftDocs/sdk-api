@@ -7,7 +7,7 @@ old-location: pla\idatacollectorset_displaynameunresolved.htm
 tech.root: PLA
 ms.assetid: 47941406-e05d-4a64-9a84-8aa7162e5b48
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DisplayNameUnresolved property [PLA], DisplayNameUnresolved property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DisplayNameUnresolved property, IDataCollectorSet.DisplayNameUnresolved, IDataCollectorSet.get_DisplayNameUnresolved, IDataCollectorSet::DisplayNameUnresolved, IDataCollectorSet::get_DisplayNameUnresolved, get_DisplayNameUnresolved, pla.idatacollectorset_displaynameunresolved, pla/IDataCollectorSet::DisplayNameUnresolved, pla/IDataCollectorSet::get_DisplayNameUnresolved
 ms.prod: windows-hardware
 ms.technology: windows-devices

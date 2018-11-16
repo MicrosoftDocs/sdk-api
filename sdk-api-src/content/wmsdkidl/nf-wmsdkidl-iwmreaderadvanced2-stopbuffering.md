@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_stopbuffering.htm
 tech.root: wmformat
 ms.assetid: 3c380a68-d86c-421a-8102-019848893c35
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],StopBuffering method, IWMReaderAdvanced2.StopBuffering, IWMReaderAdvanced2::StopBuffering, IWMReaderAdvanced2StopBuffering, StopBuffering, StopBuffering method [windows Media Format], StopBuffering method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_stopbuffering, wmsdkidl/IWMReaderAdvanced2::StopBuffering
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\setntmsobjectattribute.htm
 tech.root: Rsm
 ms.assetid: ce572b2a-f4c3-4cf3-8bb3-074ba3d1ec30
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: SetNtmsObjectAttribute, SetNtmsObjectAttribute function [Files], SetNtmsObjectAttributeA, SetNtmsObjectAttributeW, _zaw_setntmsobjectattribute, base.setntmsobjectattribute, fs.setntmsobjectattribute, ntmsapi/SetNtmsObjectAttribute, ntmsapi/SetNtmsObjectAttributeA, ntmsapi/SetNtmsObjectAttributeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,14 +96,7 @@ Name of the extended attribute to be created.
 User-defined data.
 
 
-### -param dwAttributeSize
-
-TBD
-
-
-
-
-#### - AttributeSize [in]
+### -param dwAttributeSize [in]
 
 Size of the <i>lpAttributeData</i> buffer, in bytes.
 

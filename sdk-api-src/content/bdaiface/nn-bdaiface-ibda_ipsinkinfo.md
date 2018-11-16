@@ -4,10 +4,10 @@ title: IBDA_IPSinkInfo
 author: windows-sdk-content
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.
 old-location: mstv\ibda_ipsinkinfo.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: fbbe12ea-964a-4a83-ac0a-ac8808bd9a63
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_IPSinkInfo, IBDA_IPSinkInfo interface [Microsoft TV Technologies], IBDA_IPSinkInfo interface [Microsoft TV Technologies],described, IBDA_IPSinkInfoInterface, bdaiface/IBDA_IPSinkInfo, mstv.ibda_ipsinkinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

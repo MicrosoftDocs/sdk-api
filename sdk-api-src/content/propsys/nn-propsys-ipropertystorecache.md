@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreCache.htm
 tech.root: properties
 ms.assetid: ac4f7e3b-6702-4239-b248-0645d961fbf8
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IPropertyStoreCache, IPropertyStoreCache interface [Windows Properties], IPropertyStoreCache interface [Windows Properties],described, properties.IPropertyStoreCache, propsys/IPropertyStoreCache, shell.IPropertyStoreCache, shell_IPropertyStoreCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

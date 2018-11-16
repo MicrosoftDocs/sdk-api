@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytraitsmapping_getpagesize.htm
 tech.root: Rdc
 ms.assetid: 8189d346-9e8e-40c0-8080-75c36326c917
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetPageSize, GetPageSize method [Remote Differential Compression], GetPageSize method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],GetPageSize method, ISimilarityTraitsMapping.GetPageSize, ISimilarityTraitsMapping::GetPageSize, fs.isimilaritytraitsmapping_getpagesize, msrdc/ISimilarityTraitsMapping::GetPageSize, rdc.isimilaritytraitsmapping_getpagesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

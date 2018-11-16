@@ -7,7 +7,7 @@ old-location: shell\SHRegSetUSValue.htm
 tech.root: shell
 ms.assetid: 96559f8c-8527-4924-928e-f27049069407
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSET_HKCU, SHREGSET_HKLM, SHRegSetUSValue, SHRegSetUSValue function [Windows Shell], SHRegSetUSValueA, SHRegSetUSValueW, _win32_SHRegSetUSValue, shell.SHRegSetUSValue, shlwapi/SHRegSetUSValue, shlwapi/SHRegSetUSValueA, shlwapi/SHRegSetUSValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,18 +70,14 @@ Sets a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HK
 
 
 
-#### - pwzSubKey [in]
+### -param pwzSubKey
 
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string with the name of the subkey.
+TBD
 
 
-#### - pwzValue [in]
+### -param pwzValue
 
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string that specifies the name of the value.
+TBD
 
 
 ### -param dwType [in]
@@ -165,6 +161,20 @@ Write to <b>HKEY_CURRENT_USER</b> if empty.
 ##### - dwFlags.SHREGSET_HKLM
 
 Write to <b>HKEY_LOCAL_MACHINE</b> if empty.
+
+
+#### - pszSubKey [in]
+
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string with the name of the subkey.
+
+
+#### - pszValue [in]
+
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string that specifies the name of the value.
 
 
 ## -returns

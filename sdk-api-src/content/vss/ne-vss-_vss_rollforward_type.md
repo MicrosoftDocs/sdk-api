@@ -7,7 +7,7 @@ old-location: base\vss_rollforward_type.htm
 tech.root: VSS
 ms.assetid: 3a1f3123-659f-48e1-864d-d5abee64f819
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PVSS_ROLLFORWARD_TYPE, PVSS_ROLLFORWARD_TYPE, PVSS_ROLLFORWARD_TYPE enumeration pointer, VSS_RF_ALL, VSS_RF_NONE, VSS_RF_PARTIAL, VSS_RF_UNDEFINED, VSS_ROLLFORWARD_TYPE, VSS_ROLLFORWARD_TYPE enumeration, _VSS_ROLLFORWARD_TYPE, base.vss_rollforward_type, vss/PVSS_ROLLFORWARD_TYPE, vss/VSS_RF_ALL, vss/VSS_RF_NONE, vss/VSS_RF_PARTIAL, vss/VSS_RF_UNDEFINED, vss/VSS_ROLLFORWARD_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

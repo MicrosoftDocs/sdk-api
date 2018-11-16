@@ -7,7 +7,7 @@ old-location: display\dxgetcurrentautoflip.htm
 tech.root: display
 ms.assetid: 25010ffb-893f-401f-8883-f5a08e7014bf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DxGetCurrentAutoflip, DxGetCurrentAutoflip callback function [Display Devices], PDX_GETCURRENTAUTOFLIP, PDX_GETCURRENTAUTOFLIP callback, VideoMiniPort_DxApiFunctions_1e8f1780-efe2-4f65-955b-887dc9a11358.xml, display.dxgetcurrentautoflip, dxmini/DxGetCurrentAutoflip
 ms.prod: windows-hardware
 ms.technology: windows-devices

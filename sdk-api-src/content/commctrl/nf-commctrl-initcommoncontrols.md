@@ -4,10 +4,10 @@ title: InitCommonControls function
 author: windows-sdk-content
 description: Registers and initializes certain common control window classes. This function is obsolete. New applications should use the InitCommonControlsEx function.
 old-location: controls\InitCommonControls.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrols.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: InitCommonControls, InitCommonControls function [Windows Controls], _win32_InitCommonControls, _win32_InitCommonControls_cpp, commctrl/InitCommonControls, controls.InitCommonControls, controls._win32_InitCommonControls
 ms.prod: windows-hardware
 ms.technology: windows-devices

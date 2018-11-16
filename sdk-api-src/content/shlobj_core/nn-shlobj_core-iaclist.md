@@ -7,7 +7,7 @@ old-location: shell\IACList.htm
 tech.root: shell
 ms.assetid: 66513683-38ca-4b19-88d5-d14bf7ae73eb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IACList, IACList interface [Windows Shell], IACList interface [Windows Shell],described, _win32_IACList, shell.IACList, shlobj_core/IACList
 ms.prod: windows-hardware
 ms.technology: windows-devices

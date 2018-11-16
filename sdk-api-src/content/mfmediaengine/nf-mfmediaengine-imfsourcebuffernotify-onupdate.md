@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffernotify_onupdate.htm
 tech.root: medfound
 ms.assetid: 3c41f50f-7f0b-4676-9522-3866aedab047
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdate method, IMFSourceBufferNotify.OnUpdate, IMFSourceBufferNotify::OnUpdate, OnUpdate, OnUpdate method [Media Foundation], OnUpdate method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdate, mfmediaengine/IMFSourceBufferNotify::OnUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

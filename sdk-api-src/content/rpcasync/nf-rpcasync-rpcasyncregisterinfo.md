@@ -4,10 +4,10 @@ title: RpcAsyncRegisterInfo function
 author: windows-sdk-content
 description: The RpcAsyncRegisterInfo function is obsolete.
 old-location: rpc\rpcasyncregisterinfo.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 57bb4579-caae-4ec5-8666-c5e2e98ae632
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: RpcAsyncRegisterInfo, RpcAsyncRegisterInfo function [RPC], _rpc_rpcasyncregisterinfo, rpc.rpcasyncregisterinfo, rpcasync/RpcAsyncRegisterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

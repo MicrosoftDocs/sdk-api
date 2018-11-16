@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::FindID
 author: windows-sdk-content
 description: The FindID method retrieves the ID of a specified tuning space within the collection.
 old-location: mstv\ituningspacecontainer_findid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 99ac47b4-4adc-4e12-b465-4db8ae20ff6d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FindID, FindID method [Microsoft TV Technologies], FindID method [Microsoft TV Technologies],ITuningSpaceContainer interface, ITuningSpaceContainer interface [Microsoft TV Technologies],FindID method, ITuningSpaceContainer.FindID, ITuningSpaceContainer::FindID, ITuningSpaceContainerFindID, mstv.ituningspacecontainer_findid, tuner/ITuningSpaceContainer::FindID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,26 +69,14 @@ The <b>FindID</b> method retrieves the ID of a specified tuning space within the
 
 
 
-### -param TuningSpace
-
-TBD
-
-
-### -param ID
-
-TBD
-
-
-
-
-#### - pID [out]
-
-Pointer to a variable that receives the ID of the tuning space. The returned value is specific to this collection object (which represents the local system).
-
-
-#### - pTuningSpace [in]
+### -param TuningSpace [in]
 
 Pointer to the <b>ITuningSpace</b> interface of the tuning space.
+
+
+### -param ID [out]
+
+Pointer to a variable that receives the ID of the tuning space. The returned value is specific to this collection object (which represents the local system).
 
 
 ## -returns

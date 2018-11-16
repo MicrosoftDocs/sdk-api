@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_content_desc.htm
 tech.root: medfound
 ms.assetid: A1649897-B368-4D03-9A08-630C8C59E44A
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CONTENT_DESC, D3D11_VIDEO_PROCESSOR_CONTENT_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC, mf.d3d11_video_processor_content_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

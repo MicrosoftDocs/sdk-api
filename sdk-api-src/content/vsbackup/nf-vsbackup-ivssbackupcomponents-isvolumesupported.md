@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_isvolumesupported.htm
 tech.root: VSS
 ms.assetid: 42e069cb-3d9a-4592-bbb8-0113f14ed28c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssBackupComponents interface [VSS],IsVolumeSupported method, IVssBackupComponents.IsVolumeSupported, IVssBackupComponents::IsVolumeSupported, IsVolumeSupported, IsVolumeSupported method [VSS], IsVolumeSupported method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_isvolumesupported, base.ivssbackupcomponents_isvolumesupported, vsbackup/IVssBackupComponents::IsVolumeSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

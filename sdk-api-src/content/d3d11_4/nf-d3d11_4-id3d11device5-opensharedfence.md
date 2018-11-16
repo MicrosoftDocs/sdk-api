@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device5_opensharedfence.htm
 tech.root: direct3d11
 ms.assetid: 3EB1BA51-61CB-4389-84A9-77DAC9815AC7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11Device5 interface [Direct3D 11],OpenSharedFence method, ID3D11Device5.OpenSharedFence, ID3D11Device5::OpenSharedFence, OpenSharedFence, OpenSharedFence method [Direct3D 11], OpenSharedFence method [Direct3D 11],ID3D11Device5 interface, d3d11_4/ID3D11Device5::OpenSharedFence, direct3d11.id3d11device5_opensharedfence
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,10 @@ The handle that was returned by a call to <a href="https://msdn.microsoft.com/07
 
 ### -param ReturnedInterface
 
-TBD
+Type: <b>REFIID</b>
+
+The globally unique identifier (<b>GUID</b>) for the <a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a> interface. The <b>REFIID</b>, or <b>GUID</b>, of the interface can be obtained by using the __uuidof() macro. For example, __uuidof(ID3D11Fence) will get the <b>GUID</b> of the interface to the fence.
+          
 
 
 ### -param ppFence [out, optional]
@@ -87,14 +90,6 @@ TBD
 Type: <b>void**</b>
 
 A pointer to a memory block that receives a pointer to the <a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a> interface.
-          
-
-
-#### - Returned Interface
-
-Type: <b>REFIID</b>
-
-The globally unique identifier (<b>GUID</b>) for the <a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a> interface. The <b>REFIID</b>, or <b>GUID</b>, of the interface can be obtained by using the __uuidof() macro. For example, __uuidof(ID3D11Fence) will get the <b>GUID</b> of the interface to the fence.
           
 
 

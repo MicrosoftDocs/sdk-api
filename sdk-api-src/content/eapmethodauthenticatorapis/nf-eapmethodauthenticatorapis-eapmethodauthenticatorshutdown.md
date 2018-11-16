@@ -4,10 +4,10 @@ title: EapMethodAuthenticatorShutdown function
 author: windows-sdk-content
 description: Shuts down the EAP authenticator method and prepares to unload it from the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorshutdown.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 7b6f883f-f3ea-48d0-b61c-9056316cd232
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: EapMethodAuthenticatorShutdown, EapMethodAuthenticatorShutdown function [EAPHost], eaphost.eapmethodauthenticatorshutdown, eapmethodauthenticatorapis/EapMethodAuthenticatorShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

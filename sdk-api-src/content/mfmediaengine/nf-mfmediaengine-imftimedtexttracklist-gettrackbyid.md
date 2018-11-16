@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttracklist_gettrackbyid.htm
 tech.root: medfound
 ms.assetid: 5653ED8A-36B1-488C-9D76-50D64BA78BA8
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetTrackById, GetTrackById method [Media Foundation], GetTrackById method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetTrackById method, IMFTimedTextTrackList.GetTrackById, IMFTimedTextTrackList::GetTrackById, mf.imftimedtexttracklist_gettrackbyid, mfmediaengine/IMFTimedTextTrackList::GetTrackById
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,19 +66,7 @@ Gets a text track in the list from the identifier of the track.
 
 
 
-### -param trackId
-
-TBD
-
-
-### -param track
-
-TBD
-
-
-
-
-#### - dwTrackId [in]
+### -param trackId [in]
 
 Type: <b>DWORD</b>
 
@@ -87,7 +75,7 @@ The identifier of the track in the list to retrieve.
 
 
 
-#### - ppTrack [out]
+### -param track [out]
 
 Type: <b><a href="https://msdn.microsoft.com/55232D19-F3D0-42C7-8B24-C2A7768B2C7E">IMFTimedTextTrack</a>**</b>
 

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisualdebug_disableredrawregions.htm
 tech.root: directcomp
 ms.assetid: 5F1712D4-B3F4-475E-9AB0-868B1DCB8F42
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: DisableRedrawRegions, DisableRedrawRegions method [DirectComposition], DisableRedrawRegions method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],DisableRedrawRegions method, IDCompositionVisualDebug.DisableRedrawRegions, IDCompositionVisualDebug::DisableRedrawRegions, dcomp/IDCompositionVisualDebug::DisableRedrawRegions, directcomp.idcompositionvisualdebug_disableredrawregions
 ms.prod: windows-hardware
 ms.technology: windows-devices

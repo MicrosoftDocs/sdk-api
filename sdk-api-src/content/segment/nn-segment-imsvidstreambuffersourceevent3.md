@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSourceEvent3
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersourceevent3.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4ff2e05f-1c26-48f2-8c46-beebb8b0b1b3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidStreamBufferSourceEvent3, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSourceEvent3Interface, mstv.imsvidstreambuffersourceevent3, segment/IMSVidStreamBufferSourceEvent3
 ms.prod: windows-hardware
 ms.technology: windows-devices

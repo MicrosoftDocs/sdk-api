@@ -4,10 +4,10 @@ title: IMSVidClosedCaptioning::get_Enable
 author: windows-sdk-content
 description: The get_Enable method queries whether closed captioning is enabled.
 old-location: mstv\imsvidclosedcaptioning_get_enable.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2bb46aa7-fd94-4afa-9bba-769472e014ff
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidClosedCaptioning interface [Microsoft TV Technologies],get_Enable method, IMSVidClosedCaptioning.get_Enable, IMSVidClosedCaptioning::get_Enable, IMSVidClosedCaptioningget_Enable, get_Enable, get_Enable method [Microsoft TV Technologies], get_Enable method [Microsoft TV Technologies],IMSVidClosedCaptioning interface, mstv.imsvidclosedcaptioning_get_enable, segment/IMSVidClosedCaptioning::get_Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_Enable</b> method queries whether closed captioning is enabled.
 
 
 
-### -param On
-
-TBD
-
-
-
-
-#### - pOn [out]
+### -param On [out]
 
 Pointer to a variable that receives one of the following values.
 

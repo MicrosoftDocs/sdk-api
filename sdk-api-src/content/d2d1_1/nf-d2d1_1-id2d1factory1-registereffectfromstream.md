@@ -4,10 +4,10 @@ title: ID2D1Factory1::RegisterEffectFromStream
 author: windows-sdk-content
 description: Registers an effect within the factory instance with the property XML specified as a stream.
 old-location: direct2d\id2d1factory1_registereffectfromstream.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E22F04F3-A67E-4F93-B936-5AE5CDFF75EF
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1Factory1 interface [Direct2D],RegisterEffectFromStream method, ID2D1Factory1.RegisterEffectFromStream, ID2D1Factory1::RegisterEffectFromStream, RegisterEffectFromStream, RegisterEffectFromStream method [Direct2D], RegisterEffectFromStream method [Direct2D],ID2D1Factory1 interface, d2d1_1/ID2D1Factory1::RegisterEffectFromStream, direct2d.id2d1factory1_registereffectfromstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,9 +80,15 @@ Type: <b>IStream</b>
 A list of the effect properties, types, and metadata.
 
 
-### -param bindings
+### -param bindings [in, optional]
 
-TBD
+Type: <b>const <a href="https://msdn.microsoft.com/0eb6d428-cb65-4738-9cf3-64038b728004">D2D1_PROPERTY_BINDING</a>*</b>
+
+An array of properties and methods.
+
+This binds a property by name to a particular method implemented by the effect author to handle the property. 
+              The name must be found in the corresponding <i>propertyXml</i>.
+            
 
 
 ### -param bindingsCount
@@ -97,17 +103,6 @@ The number of bindings in the binding array.
 Type: <b><a href="https://msdn.microsoft.com/e4f99762-4328-4b9c-ab0d-14b78a1581b5">PD2D1_EFFECT_FACTORY</a></b>
 
 The static factory that is used to create the corresponding effect.
-
-
-#### - Bindings [in, optional]
-
-Type: <b>const <a href="https://msdn.microsoft.com/0eb6d428-cb65-4738-9cf3-64038b728004">D2D1_PROPERTY_BINDING</a>*</b>
-
-An array of properties and methods.
-
-This binds a property by name to a particular method implemented by the effect author to handle the property. 
-              The name must be found in the corresponding <i>propertyXml</i>.
-            
 
 
 ## -returns

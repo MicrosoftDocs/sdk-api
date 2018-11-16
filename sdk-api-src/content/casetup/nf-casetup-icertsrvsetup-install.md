@@ -4,10 +4,10 @@ title: ICertSrvSetup::Install
 author: windows-sdk-content
 description: Installs a role as configured in the CCertSrvSetup object.
 old-location: security\icertsrvsetup_install.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e07b1cdd-ccb6-4398-862b-521ac1d39f66
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ICertSrvSetup interface [Security],Install method, ICertSrvSetup.Install, ICertSrvSetup::Install, Install, Install method [Security], Install method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::Install, security.icertsrvsetup_install
 ms.prod: windows-hardware
 ms.technology: windows-devices

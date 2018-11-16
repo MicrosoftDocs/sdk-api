@@ -4,10 +4,10 @@ title: ID2D1Transform
 author: windows-sdk-content
 description: Represents the base interface for all of the transforms implemented by the transform author.
 old-location: direct2d\id2d1transform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8A0CD795-A6D8-4817-9676-58C11DDAAEBD
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1Transform, ID2D1Transform interface [Direct2D], ID2D1Transform interface [Direct2D],described, d2d1effectauthor/ID2D1Transform, direct2d.id2d1transform
 ms.prod: windows-hardware
 ms.technology: windows-devices

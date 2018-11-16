@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getalternatelocationmapping.htm
 tech.root: VSS
 ms.assetid: 8c6537eb-67ba-4d6a-ac86-44da176ef5c5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetAlternateLocationMapping, GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAlternateLocationMapping method, IVssComponent.GetAlternateLocationMapping, IVssComponent::GetAlternateLocationMapping, _win32_ivsscomponent_getalternatelocationmapping, base.ivsscomponent_getalternatelocationmapping, vswriter/IVssComponent::GetAlternateLocationMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,14 +75,7 @@ Index of a particular mapping. The value of this parameter is an integer from 0
 <a href="https://msdn.microsoft.com/218dc021-0a9e-4ba7-95b7-e1f31e57e71c">IVssComponent::GetAlternateLocationMappingCount</a>.
 
 
-### -param ppFiledesc
-
-TBD
-
-
-
-
-#### - ppMapping [out]
+### -param ppFiledesc [out]
 
 Doubly indirect pointer to a 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object containing the mapping information.

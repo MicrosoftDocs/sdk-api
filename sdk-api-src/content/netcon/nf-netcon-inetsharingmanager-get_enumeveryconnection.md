@@ -7,7 +7,7 @@ old-location: ics\inetsharingmanager_get_enumeveryconnection.htm
 tech.root: ICS
 ms.assetid: f200ffbf-3ce1-4c1b-b4c6-28a8784b5cb8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumEveryConnection method, INetSharingManager.get_EnumEveryConnection, INetSharingManager::get_EnumEveryConnection, _ics_inetsharingmanager_get_enumeveryconnection, get_EnumEveryConnection, get_EnumEveryConnection method [ICS/ICF], get_EnumEveryConnection method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumeveryconnection, netcon/INetSharingManager::get_EnumEveryConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The
 
 
 
-### -param ppColl
-
-TBD
-
-
-
-
-#### - ppEnum [out]
+### -param ppColl [out]
 
 Pointer to a pointer that, on successful return, points to an 
 <a href="https://msdn.microsoft.com/a53c15f0-c7f3-49ea-a85d-663ad4b12f6e">INetSharingEveryConnectionCollection</a> interface.

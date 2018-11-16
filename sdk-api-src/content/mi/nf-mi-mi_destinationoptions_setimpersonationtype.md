@@ -4,10 +4,10 @@ title: MI_DestinationOptions_SetImpersonationType function
 author: windows-sdk-content
 description: Sets the impersonation type.
 old-location: wmi_v2\mi_destinationoptions_setimpersonationtype.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: f52370cb-b26c-4f0f-9869-1207c906e4e8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_DestinationOptions_SetImpersonationType, MI_DestinationOptions_SetImpersonationType function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetImpersonationType, wmi_v2.mi_destinationoptions_setimpersonationtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

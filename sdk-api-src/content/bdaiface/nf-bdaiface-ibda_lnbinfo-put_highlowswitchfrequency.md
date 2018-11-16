@@ -4,10 +4,10 @@ title: IBDA_LNBInfo::put_HighLowSwitchFrequency
 author: windows-sdk-content
 description: The put_HighLowSwitchFrequency method specifies the frequency of the high-low switch.
 old-location: mstv\ibda_lnbinfo_put_highlowswitchfrequency.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 3edde05f-1cdb-4648-a34b-ba95e4fcff12
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],put_HighLowSwitchFrequency method, IBDA_LNBInfo.put_HighLowSwitchFrequency, IBDA_LNBInfo::put_HighLowSwitchFrequency, IBDA_LNBInfoput_HighLowSwitchFrequency, bdaiface/IBDA_LNBInfo::put_HighLowSwitchFrequency, mstv.ibda_lnbinfo_put_highlowswitchfrequency, put_HighLowSwitchFrequency, put_HighLowSwitchFrequency method [Microsoft TV Technologies], put_HighLowSwitchFrequency method [Microsoft TV Technologies],IBDA_LNBInfo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

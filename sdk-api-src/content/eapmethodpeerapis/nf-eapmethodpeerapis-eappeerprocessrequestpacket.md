@@ -4,10 +4,10 @@ title: EapPeerProcessRequestPacket function
 author: windows-sdk-content
 description: Processes a packet received by EAPHost from a supplicant.
 old-location: eaphost\eappeerprocessrequestpacket.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 7054b6e5-68df-4d76-9941-99ee00178926
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: EapPeerProcessRequestPacket, EapPeerProcessRequestPacket function [EAPHost], eaphost.eappeerprocessrequestpacket, eapmethodpeerapis/EapPeerProcessRequestPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

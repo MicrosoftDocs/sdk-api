@@ -7,7 +7,7 @@ old-location: upnp\iupnpservice_querystatevariable.htm
 tech.root: UPnP
 ms.assetid: d92785a2-e04c-4968-b515-019205180915
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IUPnPService interface [UPnP APIs],QueryStateVariable method, IUPnPService.QueryStateVariable, IUPnPService::QueryStateVariable, QueryStateVariable, QueryStateVariable method [UPnP APIs], QueryStateVariable method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_querystatevariable, upnp.iupnpservice_querystatevariable, upnp/IUPnPService::QueryStateVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ The
 Specifies the state variable for which to return a value.
 
 
-### -param pValue
-
-TBD
-
-
-
-
-#### - pvarValue [out]
+### -param pValue [out]
 
 Receives a reference to the value of the variable specified by <i>bstrVariableName</i>. The type of the data returned depends on the state variable for which the query was invoked. 
 

@@ -7,7 +7,7 @@ old-location: psapi\process_memory_counters_ex.htm
 tech.root: psapi
 ms.assetid: cf06445d-b71a-4320-afc8-4bd88ebfb284
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PPROCESS_MEMORY_COUNTERS_EX, PPROCESS_MEMORY_COUNTERS_EX, PPROCESS_MEMORY_COUNTERS_EX structure pointer [PSAPI], PROCESS_MEMORY_COUNTERS_EX, PROCESS_MEMORY_COUNTERS_EX structure [PSAPI], _PROCESS_MEMORY_COUNTERS_EX, _win32_process_memory_counters_ex, base.process_memory_counters_ex, psapi.process_memory_counters_ex, psapi/PPROCESS_MEMORY_COUNTERS_EX, psapi/PROCESS_MEMORY_COUNTERS_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

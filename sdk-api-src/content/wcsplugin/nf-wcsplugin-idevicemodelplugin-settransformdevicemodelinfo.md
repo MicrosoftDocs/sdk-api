@@ -7,7 +7,7 @@ old-location: wcs\IDeviceModelPlugIn_SetTransformDeviceModelInfo.htm
 tech.root: WCS
 ms.assetid: 01d0815d-1a6b-48f3-9a81-65df0e185e8f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: IDeviceModelPlugIn interface [Windows Color System],SetTransformDeviceModelInfo method, IDeviceModelPlugIn.SetTransformDeviceModelInfo, IDeviceModelPlugIn::SetTransformDeviceModelInfo, SetTransformDeviceModelInfo, SetTransformDeviceModelInfo method [Windows Color System], SetTransformDeviceModelInfo method [Windows Color System],IDeviceModelPlugIn interface, _color_IDeviceModelPlugIn::SetTransformDeviceModelInfo, wcs.IDeviceModelPlugIn_SetTransformDeviceModelInfo, wcsplugin/IDeviceModelPlugIn::SetTransformDeviceModelInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,19 +66,14 @@ Provides the plug-in with parameters to determine where in the transform sequenc
 
 
 
-### -param iModelPosition
+### -param iModelPosition [in]
 
-TBD
+The one-based model position of the other device model in the workflow of <i>uiNumModels</i>, as provided in the <a href="https://msdn.microsoft.com/ae47dcc5-f771-4586-9086-b4ab1600c1bc">Initialize</a> function.
 
 
 ### -param pIDeviceModelOther [in]
 
 A pointer to a <b>IDeviceModelPlugIn</b> interface that contains the other device model in the transform sequence.
-
-
-#### - uiOtherModelPosition [in]
-
-The one-based model position of the other device model in the workflow of <i>uiNumModels</i>, as provided in the <a href="https://msdn.microsoft.com/ae47dcc5-f771-4586-9086-b4ab1600c1bc">Initialize</a> function.
 
 
 ## -returns

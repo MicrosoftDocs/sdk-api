@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxyeventing_beginrenewmultipleoperations.htm
 tech.root: WsdApi
 ms.assetid: ac93a29a-789f-4aa0-b804-b4d0a5b89ee2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: BeginRenewMultipleOperations, BeginRenewMultipleOperations method, BeginRenewMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginRenewMultipleOperations method, IWSDServiceProxyEventing.BeginRenewMultipleOperations, IWSDServiceProxyEventing::BeginRenewMultipleOperations, ncd.iwsdserviceproxyeventing_beginrenewmultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginRenewMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

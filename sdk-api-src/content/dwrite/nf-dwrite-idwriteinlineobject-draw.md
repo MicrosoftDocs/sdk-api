@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteInlineObject_Draw.htm
 tech.root: DirectWrite
 ms.assetid: cbaa3341-e43a-4d3f-89c7-dda758a63e7d
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Draw, Draw method [Direct Write], Draw method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],Draw method, IDWriteInlineObject.Draw, IDWriteInlineObject::Draw, directwrite.IDWriteInlineObject_Draw, dwrite/IDWriteInlineObject::Draw
 ms.prod: windows-hardware
 ms.technology: windows-devices

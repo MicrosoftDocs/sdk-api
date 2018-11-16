@@ -4,10 +4,10 @@ title: MI_Context_NewParameters function
 author: windows-sdk-content
 description: Creates a new instance of a method given a method declaration.
 old-location: wmi_v2\mi_context_newparameters.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 8fb80e6f-627c-4897-9776-7454c0258809
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Context_NewParameters, MI_Context_NewParameters function [Windows Management Infrastructure (MI)], mi/MI_Context_NewParameters, wmi.mi_newparameters, wmi_v2.mi_context_newparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

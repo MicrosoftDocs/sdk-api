@@ -4,10 +4,10 @@ title: IToolbar::SetButtonState
 author: windows-sdk-content
 description: Enables a snap-in to set an attribute of a button.
 old-location: mmc\itoolbar_setbuttonstate.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: aa43fc1b-cc6d-474d-9b92-556924fb98de
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, HIDDEN, INDETERMINATE, IToolbar interface [MMC],SetButtonState method, IToolbar.SetButtonState, IToolbar::SetButtonState, SetButtonState, SetButtonState method [MMC], SetButtonState method [MMC],IToolbar interface, _slate_itoolbar_setbuttonstate, mmc.itoolbar_setbuttonstate, mmc/IToolbar::SetButtonState
 ms.prod: windows-hardware
 ms.technology: windows-devices

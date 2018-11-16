@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectbase.htm
 tech.root: CoreAudio
 ms.assetid: 54721875-D93A-4C7E-A07E-C286E1A409D3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: ISpatialAudioObjectBase, ISpatialAudioObjectBase interface [Core Audio], ISpatialAudioObjectBase interface [Core Audio],described, coreaudio.ispatialaudioobjectbase, spatialaudioclient/ISpatialAudioObjectBase
 ms.prod: windows-hardware
 ms.technology: windows-devices

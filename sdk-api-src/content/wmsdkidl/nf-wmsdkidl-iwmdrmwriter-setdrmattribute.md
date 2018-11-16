@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmwriter_setdrmattribute.htm
 tech.root: wmformat
 ms.assetid: f54bba2a-872e-4ed1-b2c6-3e6b85a48df6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMDRMWriter interface [windows Media Format],SetDRMAttribute method, IWMDRMWriter.SetDRMAttribute, IWMDRMWriter::SetDRMAttribute, IWMDRMWriterSetDRMAttribute, SetDRMAttribute, SetDRMAttribute method [windows Media Format], SetDRMAttribute method [windows Media Format],IWMDRMWriter interface, wmformat.iwmdrmwriter_setdrmattribute, wmsdkidl/IWMDRMWriter::SetDRMAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

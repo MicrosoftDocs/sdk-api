@@ -4,10 +4,10 @@ title: PRESOURCE_CONTROL_ROUTINE
 author: windows-sdk-content
 description: Performs an operation that applies to a resource.
 old-location: mscs\resourcecontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a9c64471-41fa-4101-9a02-ad57add8124c
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PRESOURCE_CONTROL_ROUTINE, PRESOURCE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceControl, ResourceControl callback, ResourceControl callback function [Failover Cluster], _wolf_resourcecontrol, mscs.resourcecontrol, resapi/PRESOURCE_CONTROL_ROUTINE, resapi/ResourceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,11 +104,78 @@ Actual size, in bytes, of the data resulting from the operation.
 
 
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation associated with <i>ControlCode</i> was completed successfully.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_FUNCTION</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">resource DLL</a> requested that the 
+         <a href="https://msdn.microsoft.com/caebb47f-c2c5-463e-a957-d9eefc7fc33d">Resource Monitor</a> perform default processing (if any) 
+         for <i>ControlCode</i> in addition to processing supplied by the DLL (if any).
 
-Returns DWORD that ...
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234 (0xEA)</dt>
+</dl>
+</td>
+<td width="60%">
+The allocated size of <i>OutBuffer</i> was too small to hold the requested data. 
+         <i>BytesReturned</i> indicates the required size. Always include the terminating 
+         <b>NULL</b> when calculating the byte sizes of strings.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_PROPERTIES_STORED</b></dt>
+<dt>5024 (0x13A0)</dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that new property values for a resource have been set in the cluster database, but the properties 
+         have not yet taken effect. The new property values will be applied after the resource is taken offline and 
+         brought online.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">Error code</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was unsuccessful.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

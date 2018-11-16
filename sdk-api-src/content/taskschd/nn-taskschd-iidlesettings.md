@@ -7,7 +7,7 @@ old-location: taskschd\iidlesettings.htm
 tech.root: TaskSchd
 ms.assetid: a6bd9278-b9ac-4eb3-957a-5191cee12a6f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IIdleSettings, IIdleSettings interface [Task Scheduler], IIdleSettings interface [Task Scheduler],described, taskschd.iidlesettings, taskschd/IIdleSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

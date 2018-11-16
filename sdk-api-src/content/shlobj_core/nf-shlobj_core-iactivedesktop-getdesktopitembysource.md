@@ -7,7 +7,7 @@ old-location: lwef\iactivedesktop_getdesktopitembysource.htm
 tech.root: lwef
 ms.assetid: 9449238a-c1af-493c-9c23-503317fe6656
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/15/2018
 ms.keywords: GetDesktopItemBySource, GetDesktopItemBySource method [Legacy Windows Environment Features], GetDesktopItemBySource method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetDesktopItemBySource method, IActiveDesktop.GetDesktopItemBySource, IActiveDesktop::GetDesktopItemBySource, _win32_IActiveDesktop_GetDesktopItemBySource, lwef.iactivedesktop_getdesktopitembysource, shell.iactivedesktop_getdesktopitembysource, shlobj_core/IActiveDesktop::GetDesktopItemBySource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Gets a desktop item using its source URL.
 
 
 
-### -param pwszSource
+### -param pwszSource [in]
 
-TBD
+Type: <b>PCWSTR</b>
+
+A pointer to a string that contains the source URL of the desktop item.
 
 
 ### -param pcomp [in, out]
@@ -83,13 +85,6 @@ A pointer to the <a href="https://msdn.microsoft.com/2692a2d6-1d33-410f-987c-838
 Type: <b>DWORD</b>
 
 Reserved. Must be set to zero. 
-
-
-#### - pszSource [in]
-
-Type: <b>PCWSTR</b>
-
-A pointer to a string that contains the source URL of the desktop item.
 
 
 ## -returns

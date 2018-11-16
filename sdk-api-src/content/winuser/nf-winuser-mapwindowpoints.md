@@ -7,7 +7,7 @@ old-location: gdi\mapwindowpoints.htm
 tech.root: gdi
 ms.assetid: 01c3b794-c1ca-467f-a4da-c6622453ee97
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: MapWindowPoints, MapWindowPoints function [Windows GDI], _win32_MapWindowPoints, gdi.mapwindowpoints, winuser/MapWindowPoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

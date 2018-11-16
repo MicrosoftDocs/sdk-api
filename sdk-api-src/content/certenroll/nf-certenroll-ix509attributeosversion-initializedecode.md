@@ -7,7 +7,7 @@ old-location: security\ix509attributeosversioner_initializedecode_method.htm
 tech.root: SecCertEnroll
 ms.assetid: 2f13002f-bdaa-4c82-859a-da932615dd81
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509AttributeOSVersion interface [Security],InitializeDecode method, IX509AttributeOSVersion.InitializeDecode, IX509AttributeOSVersion::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeOSVersion interface, certenroll/IX509AttributeOSVersion::InitializeDecode, security.ix509attributeosversioner_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

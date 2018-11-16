@@ -7,7 +7,7 @@ old-location: tablet\inkpersistencecompressionmode.htm
 tech.root: tablet
 ms.assetid: dac49948-3977-4952-a6c0-f54c4a0a2e36
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: IPCM_Default, IPCM_MaximumCompression, IPCM_NoCompression, InkPersistenceCompressionMode, InkPersistenceCompressionMode enumeration [Tablet PC], dac49948-3977-4952-a6c0-f54c4a0a2e36, msinkaut/IPCM_Default, msinkaut/IPCM_MaximumCompression, msinkaut/IPCM_NoCompression, msinkaut/InkPersistenceCompressionMode, tablet.inkpersistencecompressionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

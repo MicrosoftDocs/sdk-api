@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress3.htm
 tech.root: WMDM
 ms.assetid: fc3a7031-ac1b-45cf-889b-2d40d50b347d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IWMDMProgress3, IWMDMProgress3 interface [windows Media Device Manager], IWMDMProgress3 interface [windows Media Device Manager],described, IWMDMProgress3Interface, mswmdm/IWMDMProgress3, wmdm.iwmdmprogress3
 ms.prod: windows-hardware
 ms.technology: windows-devices

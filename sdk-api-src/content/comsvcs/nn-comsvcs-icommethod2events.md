@@ -7,7 +7,7 @@ old-location: cos\icommethod2events.htm
 tech.root: cossdk
 ms.assetid: e0642cb2-d5f2-4e4b-ad35-7818983ed467
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IComMethod2Events, IComMethod2Events interface [COM+], IComMethod2Events interface [COM+],described, _dtc_IComMethod2Events, comsvcs/IComMethod2Events, cos.icommethod2events
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: getsockopt function
 author: windows-sdk-content
 description: The getsockopt function retrieves a socket option.
 old-location: winsock\getsockopt_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 25bc511d-7a9f-41c1-8983-1af1e3f8bf2d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_getsockopt_2, getsockopt, getsockopt function [Winsock], winsock.getsockopt_2, winsock/getsockopt"
 ms.prod: windows-hardware
 ms.technology: windows-devices

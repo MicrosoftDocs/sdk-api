@@ -7,7 +7,7 @@ old-location: security\icspalgorithm_valid_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 8f8e9f23-f857-49d3-9519-061ccce27514
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICspAlgorithm interface [Security],Valid property, ICspAlgorithm.Valid, ICspAlgorithm.get_Valid, ICspAlgorithm::Valid, ICspAlgorithm::get_Valid, Valid property [Security], Valid property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::Valid, certenroll/ICspAlgorithm::get_Valid, get_Valid, security.icspalgorithm_valid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\iurlaccessor4_shouldindexproperty.htm
 tech.root: search
 ms.assetid: 44F10BD2-0CE5-4462-A50B-CBD63EE3B802
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IUrlAccessor4 interface [search],ShouldIndexProperty method, IUrlAccessor4.ShouldIndexProperty, IUrlAccessor4::ShouldIndexProperty, ShouldIndexProperty, ShouldIndexProperty method [search], ShouldIndexProperty method [search],IUrlAccessor4 interface, search.iurlaccessor4_shouldindexproperty, searchapi/IUrlAccessor4::ShouldIndexProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

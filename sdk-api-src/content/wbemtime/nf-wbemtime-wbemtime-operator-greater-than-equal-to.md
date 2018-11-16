@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_comparison_operators_greaterthanorequal.htm
 tech.root: WmiSdk
 ms.assetid: e483efa0-e0d9-4ebf-bac5-831960de0146
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator>= method, WBEMTime.operator-greater-than-equal-to, WBEMTime.operator>=, WBEMTime::operator-greater-than-equal-to, WBEMTime::operator>=, operator>=, operator>= method [Windows Management Instrumentation], operator>= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator>=, wmi.wbemtime_comparison_operators_greaterthanorequal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,7 @@ The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WB
 
 
 
-### -param a
-
-TBD
-
-
-
-
-#### - uTarget [ref]
+### -param a [ref]
 
 Reference to the <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> object whose time is compared to this one.
 

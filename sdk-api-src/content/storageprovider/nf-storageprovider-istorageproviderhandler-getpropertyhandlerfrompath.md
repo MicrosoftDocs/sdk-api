@@ -7,7 +7,7 @@ old-location: shell\istorageproviderhandler_getpropertyhandlerfrompath.htm
 tech.root: shell
 ms.assetid: E02B43AC-73A8-4FD0-BC54-47922CA5EEDB
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetPropertyHandlerFromPath, GetPropertyHandlerFromPath method [Windows Shell], GetPropertyHandlerFromPath method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromPath method, IStorageProviderHandler.GetPropertyHandlerFromPath, IStorageProviderHandler::GetPropertyHandlerFromPath, shell.istorageproviderhandler_getpropertyhandlerfrompath, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,14 +71,7 @@ Gets an instance of <a href="https://msdn.microsoft.com/8CB56726-DABA-44A4-ADAE-
 The path for the relevant file.
 
 
-### -param propertyHandler
-
-TBD
-
-
-
-
-#### - **propertyHandler [out]
+### -param propertyHandler [out]
 
 An <a href="https://msdn.microsoft.com/8CB56726-DABA-44A4-ADAE-DAD8ECB047E6">IStorageProviderPropertyHandler</a> instance associated with the file specified by <i>path</i>.
 

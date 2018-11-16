@@ -7,7 +7,7 @@ old-location: security\ix509policyserverlistmanager_clear.htm
 tech.root: SecCertEnroll
 ms.assetid: c9be8128-ed19-4087-9057-3d1a0d215a96
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Clear method, IX509PolicyServerListManager.Clear, IX509PolicyServerListManager::Clear, certenroll/IX509PolicyServerListManager::Clear, security.ix509policyserverlistmanager_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

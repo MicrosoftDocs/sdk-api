@@ -7,7 +7,7 @@ old-location: dxmath\xmstorefloat3a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat3A(XMFLOAT3A@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMStoreFloat3A, XMStoreFloat3A, XMStoreFloat3A method [DirectX Math Support APIs], dxmath.xmstorefloat3a
 ms.prod: windows-hardware
 ms.technology: windows-devices

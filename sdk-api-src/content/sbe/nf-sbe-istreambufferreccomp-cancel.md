@@ -4,10 +4,10 @@ title: IStreamBufferRecComp::Cancel
 author: windows-sdk-content
 description: The Cancel method cancels an append operation, if one is in progress. Otherwise, it has no effect.
 old-location: mstv\istreambufferreccomp_cancel.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d7355f5d-034c-404f-b6c7-02c04c87285d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Cancel, Cancel method [Microsoft TV Technologies], Cancel method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],Cancel method, IStreamBufferRecComp.Cancel, IStreamBufferRecComp::Cancel, IStreamBufferRecCompCancel, mstv.istreambufferreccomp_cancel, sbe/IStreamBufferRecComp::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

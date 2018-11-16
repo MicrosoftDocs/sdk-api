@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_cou
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddcurvemethods\addcurve_58pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AddCurve, AddCurve method [GDI+], AddCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddCurve method, GraphicsPath.AddCurve, GraphicsPath.AddCurve(IN const PointF,IN INT), GraphicsPath.AddCurve(const PointF*,INT), GraphicsPath::AddCurve, GraphicsPath::AddCurve(IN const PointF,IN INT), _gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddCurve_PointF_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

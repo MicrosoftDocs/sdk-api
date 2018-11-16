@@ -4,10 +4,10 @@ title: MMCPropertyChangeNotify function
 author: windows-sdk-content
 description: Enables a snap-in property sheet to notify its IComponent or IComponentData interface that an item's properties have changed.
 old-location: mmc\mmcpropertychangenotify.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: f563a6dd-22e7-4839-bd44-1702ab3e17a3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: MMCPropertyChangeNotify, MMCPropertyChangeNotify callback, MMCPropertyChangeNotify callback function [MMC], _slate_mmcpropertychangenotify, mmc.mmcpropertychangenotify, mmc/MMCPropertyChangeNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

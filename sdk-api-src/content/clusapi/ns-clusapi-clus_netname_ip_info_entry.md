@@ -4,10 +4,10 @@ title: CLUS_NETNAME_IP_INFO_ENTRY
 author: windows-sdk-content
 description: Represents IP information for a NetName resource.
 old-location: mscs\clus_netname_ip_info_entry.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9631BDB9-6B7C-4BFF-9654-20C77F851A22
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY structure [Failover Cluster], PCLUS_NETNAME_IP_INFO_ENTRY, PCLUS_NETNAME_IP_INFO_ENTRY structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_IP_INFO_ENTRY, clusapi/PCLUS_NETNAME_IP_INFO_ENTRY, mscs.clus_netname_ip_info_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices

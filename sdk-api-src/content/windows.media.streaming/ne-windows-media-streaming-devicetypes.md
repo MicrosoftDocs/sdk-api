@@ -7,7 +7,7 @@ old-location: mediastreaming\devicetypes.htm
 tech.root: mediastreaming
 ms.assetid: ec6bbc1f-653a-414c-b458-1a5e1b101781
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DeviceTypes, DeviceTypes enumeration [Media Streaming API], DigitalMediaPlayer, DigitalMediaRenderer, DigitalMediaServer, Unknown, mediastreaming.devicetypes, windows/DeviceTypes, windows/DigitalMediaPlayer, windows/DigitalMediaRenderer, windows/DigitalMediaServer, windows/Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

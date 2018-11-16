@@ -4,10 +4,10 @@ title: IESIsdbCasResponseEvent::GetResponseData
 author: windows-sdk-content
 description: Gets the response data returned in an IsdbCasResponse event.
 old-location: mstv\iesisdbcasresponseevent_getresponsedata.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ee0618a6-6162-4178-be44-978558add914
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetResponseData, GetResponseData method [DirectShow], GetResponseData method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetResponseData method, IESIsdbCasResponseEvent.GetResponseData, IESIsdbCasResponseEvent::GetResponseData, mstv.iesisdbcasresponseevent_getresponsedata, tuner/IESIsdbCasResponseEvent::GetResponseData
 ms.prod: windows-hardware
 ms.technology: windows-devices

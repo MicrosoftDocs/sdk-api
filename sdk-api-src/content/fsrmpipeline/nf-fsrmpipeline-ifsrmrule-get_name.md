@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmrule_name.htm
 tech.root: Fsrm
 ms.assetid: 1c4f99ca-5b53-42c3-a370-d9c350be6590
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],Name property, IFsrmRule.Name, IFsrmRule.get_Name, IFsrmRule::Name, IFsrmRule::get_Name, IFsrmRule::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_name, fsrm.ifsrmrule_name, fsrmpipeline/IFsrmRule::Name, fsrmpipeline/IFsrmRule::get_Name, fsrmpipeline/IFsrmRule::put_Name, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

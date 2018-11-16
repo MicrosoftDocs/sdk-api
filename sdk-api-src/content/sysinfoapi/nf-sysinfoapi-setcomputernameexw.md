@@ -4,10 +4,10 @@ title: SetComputerNameExW function
 author: windows-sdk-content
 description: Sets a new NetBIOS or DNS name for the local computer.
 old-location: base\setcomputernameex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 12163456-770c-4f9e-9261-a6ea5f2cd93a
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, SetComputerNameEx, SetComputerNameEx function, SetComputerNameExA, SetComputerNameExW, _win32_setcomputernameex, base.setcomputernameex, sysinfoapi/SetComputerNameEx, sysinfoapi/SetComputerNameExA, sysinfoapi/SetComputerNameExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: StopTrace macro
 author: windows-sdk-content
 description: The StopTrace function stops the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\stoptrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 604274a1-c4ed-4746-b69a-e18969f969db
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: StopTrace, StopTrace function [ETW], StopTraceA, StopTraceW, _evt_stoptrace, base.stoptrace, etw.stoptrace, evntrace/StopTrace, evntrace/StopTraceA, evntrace/StopTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,26 +79,26 @@ The
 
 
 
-### -param a
+### -param a [in]
 
-TBD
-
-
-### -param b
-
-TBD
-
-
-### -param c
-
-TBD
+Handle to the event tracing session that you want to stop, or <b>NULL</b>. You must 
+      specify <i>SessionHandle</i> if <i>SessionName</i> is 
+      <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not 
+      <b>NULL</b>. The handle is returned by the 
+      <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function.
 
 
+### -param b [in]
+
+Pointer to a null-terminated string that specifies the name of the event tracing session that you want to 
+      stop, or <b>NULL</b>. You must specify <i>SessionName</i> if 
+      <i>SessionHandle</i> is <b>NULL</b>.
+
+To specify the NT Kernel Logger session, set <i>SessionName</i> to 
+      <b>KERNEL_LOGGER_NAME</b>.
 
 
-
-
-#### - Properties [out]
+### -param c [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> 
       structure that receives the final properties and statistics for the session.
@@ -111,25 +111,6 @@ If you are using a newly
       if not known. 
 
 <b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>StopTrace</b> for  system wide private loggers. You will need to pass in the new <a href="https://msdn.microsoft.com/2EEDB53B-75BC-48AC-A70D-9AEAED526C40">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="https://msdn.microsoft.com/fb6a3899-194e-4cb7-b9e5-a7ff85fb7891">Configuring and Starting a Private Logger Session</a> for more details.
-
-
-#### - SessionHandle [in]
-
-Handle to the event tracing session that you want to stop, or <b>NULL</b>. You must 
-      specify <i>SessionHandle</i> if <i>SessionName</i> is 
-      <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not 
-      <b>NULL</b>. The handle is returned by the 
-      <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function.
-
-
-#### - SessionName [in]
-
-Pointer to a null-terminated string that specifies the name of the event tracing session that you want to 
-      stop, or <b>NULL</b>. You must specify <i>SessionName</i> if 
-      <i>SessionHandle</i> is <b>NULL</b>.
-
-To specify the NT Kernel Logger session, set <i>SessionName</i> to 
-      <b>KERNEL_LOGGER_NAME</b>.
 
 
 ## -remarks

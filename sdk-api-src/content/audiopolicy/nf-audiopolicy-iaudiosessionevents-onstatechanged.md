@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionevents_onstatechanged.htm
 tech.root: CoreAudio
 ms.assetid: 4ec3e676-cf08-4041-b5bf-5cb429569e03
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnStateChanged method, IAudioSessionEvents.OnStateChanged, IAudioSessionEvents::OnStateChanged, IAudioSessionEventsOnStateChanged, OnStateChanged, OnStateChanged method [Core Audio], OnStateChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnStateChanged, coreaudio.iaudiosessionevents_onstatechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

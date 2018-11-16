@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_time_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_24fm.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: "*PFAX_TIME, FAX_TIME, FAX_TIME structure [Fax Service], FAX_TIMEA, FAX_TIMEW, PFAX_TIME, PFAX_TIME structure pointer [Fax Service], _FAX_TIME, _mfax_fax_time_str, fax._mfax_fax_time_str, winfax/FAX_TIME, winfax/FAX_TIMEA, winfax/FAX_TIMEW, winfax/PFAX_TIME"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DequeueUmsCompletionListItems function
 author: windows-sdk-content
 description: Retrieves user-mode scheduling (UMS) worker threads from the specified UMS completion list.
 old-location: base\dequeueumscompletionlistitems.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 91499eb9-9fc5-4135-95f6-1bced78f1e07
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DequeueUmsCompletionListItems, DequeueUmsCompletionListItems function, base.dequeueumscompletionlistitems, winbase/DequeueUmsCompletionListItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

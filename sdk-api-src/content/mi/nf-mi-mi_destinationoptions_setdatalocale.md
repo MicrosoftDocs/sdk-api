@@ -4,10 +4,10 @@ title: MI_DestinationOptions_SetDataLocale function
 author: windows-sdk-content
 description: Sets the default data locale to use for operations.
 old-location: wmi_v2\mi_destinationoptions_setdatalocale.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 0b5c0ae7-d11c-4014-b61e-4528b9320844
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_DestinationOptions_SetDataLocale, MI_DestinationOptions_SetDataLocale function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetDataLocale, wmi_v2.mi_destinationoptions_setdatalocale
 ms.prod: windows-hardware
 ms.technology: windows-devices

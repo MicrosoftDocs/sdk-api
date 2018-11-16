@@ -7,7 +7,7 @@ old-location: security\ix509attributeosversion.htm
 tech.root: SecCertEnroll
 ms.assetid: 2ae84d47-2bda-4954-9165-902634d09da9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509AttributeOSVersion, IX509AttributeOSVersion interface [Security], IX509AttributeOSVersion interface [Security],described, certenroll/IX509AttributeOSVersion, security.ix509attributeosversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

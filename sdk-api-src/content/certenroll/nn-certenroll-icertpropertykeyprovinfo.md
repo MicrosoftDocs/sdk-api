@@ -7,7 +7,7 @@ old-location: security\icertpropertykeyprovinfo.htm
 tech.root: SecCertEnroll
 ms.assetid: 1c35c2f0-8e79-4031-bae2-2be081f3c8dd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICertPropertyKeyProvInfo, ICertPropertyKeyProvInfo interface [Security], ICertPropertyKeyProvInfo interface [Security],described, certenroll/ICertPropertyKeyProvInfo, security.icertpropertykeyprovinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

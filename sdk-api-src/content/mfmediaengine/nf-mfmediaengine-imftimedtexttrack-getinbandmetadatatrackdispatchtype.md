@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_getinbandmetadatatrackdispatchtype.htm
 tech.root: medfound
 ms.assetid: AEA4D160-6DBC-4829-95F3-F016F9709042
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetInBandMetadataTrackDispatchType, GetInBandMetadataTrackDispatchType method [Media Foundation], GetInBandMetadataTrackDispatchType method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetInBandMetadataTrackDispatchType method, IMFTimedTextTrack.GetInBandMetadataTrackDispatchType, IMFTimedTextTrack::GetInBandMetadataTrackDispatchType, mf.imftimedtexttrack_getinbandmetadatatrackdispatchtype, mfmediaengine/IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Gets the in-band metadata of the track.
 
 
 
-### -param dispatchType
-
-TBD
-
-
-
-
-#### - ppDispatchType [out]
+### -param dispatchType [out]
 
 Type: <b>LPCWSTR*</b>
 

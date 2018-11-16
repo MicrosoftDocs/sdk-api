@@ -7,7 +7,7 @@ old-location: base\ivdssubsystem_getdrive.htm
 tech.root: VDS
 ms.assetid: 855e9991-606c-4fcc-ba1d-ebdb928d4c3e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDrive, GetDrive method [VDS], GetDrive method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetDrive method, IVdsSubSystem.GetDrive, IVdsSubSystem::GetDrive, base.ivdssubsystem_getdrive, vds/IVdsSubSystem::GetDrive, vdshwprv/IVdsSubSystem::GetDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices

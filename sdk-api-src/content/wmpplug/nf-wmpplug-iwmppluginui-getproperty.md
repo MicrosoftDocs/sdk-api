@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_getproperty.htm
 tech.root: WMP
 ms.assetid: f01d0700-2399-4e33-8a0c-59bb1f0f2495
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetProperty, GetProperty method [Windows Media Player], GetProperty method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],GetProperty method, IWMPPluginUI.GetProperty, IWMPPluginUI::GetProperty, IWMPPluginUIGetProperty, wmp.iwmppluginui_getproperty, wmpplug/IWMPPluginUI::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,17 +69,7 @@ The <b>GetProperty</b> method is called by Windows Media Player to retrieve name
 
 
 
-### -param pwszName
-
-TBD
-
-
-### -param pvarProperty [out]
-
-Pointer to a <b>VARIANT</b> to contain the value of the property.
-
-
-#### - pswzName [in]
+### -param pwszName [in]
 
 Pointer to a <b>WCHAR</b><b>NULL</b>-terminated string constant containing the name of the property. Contains one of the following values:
 
@@ -136,6 +126,11 @@ Pointer to a <b>WCHAR</b><b>NULL</b>-terminated string constant containing the n
 </tr>
 </table>
  
+
+
+### -param pvarProperty [out]
+
+Pointer to a <b>VARIANT</b> to contain the value of the property.
 
 
 ## -returns

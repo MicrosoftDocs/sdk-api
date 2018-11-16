@@ -7,7 +7,7 @@ old-location: coreaudio\ipart_getcontrolinterface.htm
 tech.root: CoreAudio
 ms.assetid: 802f3c19-5a71-41b0-922a-f216fd60495c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetControlInterface, GetControlInterface method [Core Audio], GetControlInterface method [Core Audio],IPart interface, IPart interface [Core Audio],GetControlInterface method, IPart.GetControlInterface, IPart::GetControlInterface, IPartGetControlInterface, coreaudio.ipart_getcontrolinterface, devicetopology/IPart::GetControlInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,14 +74,7 @@ The <b>GetControlInterface</b> method gets a reference to the specified control 
 The control interface number. If a part supports <i>n</i> control interfaces, the control interfaces are numbered from 0 to <i>n</i>– 1.
 
 
-### -param ppInterfaceDesc
-
-TBD
-
-
-
-
-#### - ppFunction [out]
+### -param ppInterfaceDesc [out]
 
 Pointer to a pointer variable into which the method writes the address of the <a href="https://msdn.microsoft.com/fdd91f65-e45c-4f14-a55c-a44be1661950">IControlInterface</a> interface of the specified audio function. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetControlInterface</b> call fails,  <i>*ppFunction</i> is <b>NULL</b>.
 

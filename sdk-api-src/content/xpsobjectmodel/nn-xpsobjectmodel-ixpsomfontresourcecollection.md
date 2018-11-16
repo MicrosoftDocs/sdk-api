@@ -7,7 +7,7 @@ old-location: xps\ixpsomfontresourcecollection.htm
 tech.root: printdocs
 ms.assetid: 71153c4c-631b-4f7a-9dd5-8537dcaca150
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IXpsOMFontResourceCollection, IXpsOMFontResourceCollection interface [XPS Documents and Packaging], IXpsOMFontResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomfontresourcecollection, xpsobjectmodel/IXpsOMFontResourceCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

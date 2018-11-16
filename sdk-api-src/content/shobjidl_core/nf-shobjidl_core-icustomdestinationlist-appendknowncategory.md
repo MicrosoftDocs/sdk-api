@@ -7,7 +7,7 @@ old-location: shell\ICustomDestinationList_AppendKnownCategory.htm
 tech.root: shell
 ms.assetid: ce73fff3-8d1a-4912-98ce-7149460ffa49
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: AppendKnownCategory, AppendKnownCategory method [Windows Shell], AppendKnownCategory method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AppendKnownCategory method, ICustomDestinationList.AppendKnownCategory, ICustomDestinationList::AppendKnownCategory, KDC_FREQUENT, KDC_RECENT, _shell_ICustomDestinationList_AppendKnownCategory, shell.ICustomDestinationList_AppendKnownCategory, shobjidl_core/ICustomDestinationList::AppendKnownCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

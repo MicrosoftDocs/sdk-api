@@ -4,10 +4,10 @@ title: ClusterRegReadBatchAddCommand function
 author: windows-sdk-content
 description: Adds a read command to a batch that executes on a cluster registry key.
 old-location: mscs\clusterregreadbatchaddcommand.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2B665231-7325-43C4-92A4-4EDF28126BA1
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusterRegReadBatchAddCommand, ClusterRegReadBatchAddCommand function [Failover Cluster], clusapi/ClusterRegReadBatchAddCommand, mscs.clusterregreadbatchaddcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,6 +88,50 @@ The name of the registry value to be read. If this name is <b>NULL</b>, the cont
 
 The function returns one of the following 
        <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_OUTOFMEMORY</b></dt>
+<dt>14</dt>
+</dl>
+</td>
+<td width="60%">
+Not enough storage is available to complete this operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+<i>hRegReadBatch</i> is <b>NULL</b> or not valid.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

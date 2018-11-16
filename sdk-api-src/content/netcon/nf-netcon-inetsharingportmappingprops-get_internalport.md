@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingprops_get_internalport.htm
 tech.root: ICS
 ms.assetid: 53f19eee-98da-4b90-99cd-b0bed4ec6d6f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_InternalPort method, INetSharingPortMappingProps.get_InternalPort, INetSharingPortMappingProps::get_InternalPort, _ics_inetsharingportmappingprops_get_port, get_InternalPort, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_internalport, ics.inetsharingportmappingprops_get_port, netcon/INetSharingPortMappingProps::get_InternalPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

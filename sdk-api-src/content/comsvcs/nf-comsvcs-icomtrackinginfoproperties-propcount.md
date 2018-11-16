@@ -7,7 +7,7 @@ old-location: cos\icomtrackinginfoproperties_propcount.htm
 tech.root: cossdk
 ms.assetid: f8036da8-3bd4-4500-a707-a43ac9dd5a52
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IComTrackingInfoProperties interface [COM+],PropCount method, IComTrackingInfoProperties.PropCount, IComTrackingInfoProperties::PropCount, PropCount, PropCount method [COM+], PropCount method [COM+],IComTrackingInfoProperties interface, _dtc_IComTrackingInfoProperties_PropCount, comsvcs/IComTrackingInfoProperties::PropCount, cos.icomtrackinginfoproperties_propcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

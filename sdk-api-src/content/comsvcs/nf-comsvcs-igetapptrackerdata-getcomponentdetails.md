@@ -7,7 +7,7 @@ old-location: cos\igetapptrackerdata_getcomponentdetails.htm
 tech.root: cossdk
 ms.assetid: 89924a6d-e5cf-4262-9707-d2e4a91dd6ce
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetComponentDetails, GetComponentDetails method [COM+], GetComponentDetails method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetComponentDetails method, IGetAppTrackerData.GetComponentDetails, IGetAppTrackerData::GetComponentDetails, comsvcs/IGetAppTrackerData::GetComponentDetails, cos.igetapptrackerdata_getcomponentdetails
 ms.prod: windows-hardware
 ms.technology: windows-devices

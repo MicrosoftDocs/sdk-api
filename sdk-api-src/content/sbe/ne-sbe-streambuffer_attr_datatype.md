@@ -4,10 +4,10 @@ title: STREAMBUFFER_ATTR_DATATYPE
 author: windows-sdk-content
 description: This topic applies only to Windows XP Service Pack 1 or later.
 old-location: mstv\streambuffer_attr_datatype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: be478769-d9ac-4e42-b5f6-94b5656e2596
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: STREAMBUFFER_ATTR_DATATYPE, STREAMBUFFER_ATTR_DATATYPE , STREAMBUFFER_ATTR_DATATYPE enumeration [Microsoft TV Technologies], STREAMBUFFER_ATTR_DATATYPEEnumeration, STREAMBUFFER_TYPE_BINARY, STREAMBUFFER_TYPE_BOOL, STREAMBUFFER_TYPE_DWORD, STREAMBUFFER_TYPE_GUID, STREAMBUFFER_TYPE_QWORD, STREAMBUFFER_TYPE_STRING, STREAMBUFFER_TYPE_WORD, mstv.streambuffer_attr_datatype, sbe/STREAMBUFFER_ATTR_DATATYPE, sbe/STREAMBUFFER_TYPE_BINARY, sbe/STREAMBUFFER_TYPE_BOOL, sbe/STREAMBUFFER_TYPE_DWORD, sbe/STREAMBUFFER_TYPE_GUID, sbe/STREAMBUFFER_TYPE_QWORD, sbe/STREAMBUFFER_TYPE_STRING, sbe/STREAMBUFFER_TYPE_WORD
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wininet\internetcheckconnection.htm
 tech.root: WinInet
 ms.assetid: 4666e4ee-057e-452d-ac2c-d03321a0073f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: InternetCheckConnection, InternetCheckConnection function [WinINet], InternetCheckConnectionA, InternetCheckConnectionW, _inet_internetcheckconnection_function, wininet.internetcheckconnection, wininet/InternetCheckConnection, wininet/InternetCheckConnectionA, wininet/InternetCheckConnectionW
 ms.prod: windows-hardware
 ms.technology: windows-devices

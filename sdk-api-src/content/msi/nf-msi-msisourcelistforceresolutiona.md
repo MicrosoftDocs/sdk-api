@@ -4,10 +4,10 @@ title: MsiSourceListForceResolutionA function
 author: windows-sdk-content
 description: The MsiSourceListForceResolution function forces the installer to search the source list for a valid product source the next time a source is required.
 old-location: setup\msisourcelistforceresolution.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: b58747bf-65db-4563-b09a-0b05d2cf62ea
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiSourceListForceResolution, MsiSourceListForceResolution function, MsiSourceListForceResolutionA, MsiSourceListForceResolutionW, _msi_msisourcelistforceresolution, msi/MsiSourceListForceResolution, msi/MsiSourceListForceResolutionA, msi/MsiSourceListForceResolutionW, setup.msisourcelistforceresolution
 ms.prod: windows-hardware
 ms.technology: windows-devices

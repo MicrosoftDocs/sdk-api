@@ -4,10 +4,10 @@ title: getsockname function
 author: windows-sdk-content
 description: The getsockname function retrieves the local name for a socket.
 old-location: winsock\getsockname_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: be20a731-cdfc-48ae-90b2-43f2cf9ecf6d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_getsockname_2, getsockname, getsockname function [Winsock], winsock.getsockname_2, winsock/getsockname"
 ms.prod: windows-hardware
 ms.technology: windows-devices

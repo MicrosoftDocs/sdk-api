@@ -4,10 +4,10 @@ title: IMSVidPlayback::get_PositionMode
 author: windows-sdk-content
 description: The get_PositionMode method indicates how position values are interpreted by this interface.
 old-location: mstv\imsvidplayback_get_positionmode.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 8a27508c-485c-4371-a997-05fdfb77d17b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_PositionMode method, IMSVidPlayback.get_PositionMode, IMSVidPlayback::get_PositionMode, IMSVidPlaybackget_PositionMode, get_PositionMode, get_PositionMode method [Microsoft TV Technologies], get_PositionMode method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_positionmode, segment/IMSVidPlayback::get_PositionMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MI_Class_GetServerName function
 author: windows-sdk-content
 description: Gets the name of the server from the specified class.
 old-location: wmi_v2\mi_class_getservername.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: bb7312a0-f851-44a4-8467-31bbe1a9ac41
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Class_GetServerName, MI_Class_GetServerName function [Windows Management Infrastructure (MI)], mi/MI_Class_GetServerName, wmi_v2.mi_class_getservername
 ms.prod: windows-hardware
 ms.technology: windows-devices

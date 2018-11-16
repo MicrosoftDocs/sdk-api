@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_export.htm
 tech.root: SecCertEnroll
 ms.assetid: b821329b-2ec6-4f47-ba5f-2e1cd7ffb06f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Export, Export method [Security], Export method [Security],IX509EnrollmentPolicyServer interface, ExportOIDs, ExportTemplates, IX509EnrollmentPolicyServer interface [Security],Export method, IX509EnrollmentPolicyServer.Export, IX509EnrollmentPolicyServer::Export, certenroll/IX509EnrollmentPolicyServer::Export, security.ix509enrollmentpolicyserver_export
 ms.prod: windows-hardware
 ms.technology: windows-devices

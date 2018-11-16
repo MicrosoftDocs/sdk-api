@@ -4,10 +4,10 @@ title: Matrix3x2F::Scale(FLOAT,FLOAT,D2D1_POINT_2F)
 author: windows-sdk-content
 description: Creates a scale transformation that has the specified scale factors and center point.
 old-location: direct2d\matrix3x2f_scale_float_float_d2d1_point_2f_.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 401b8710-c486-44b0-b79c-d7238279fdef
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1.Matrix3x2F.Scale, D2D1::Matrix3x2F::Scale, Matrix3x2F interface [Direct2D],Scale method, Matrix3x2F.Scale, Matrix3x2F.Scale(FLOAT,FLOAT,D2D1_POINT_2F), Matrix3x2F::Scale, Matrix3x2F::Scale(FLOAT,FLOAT,D2D1_POINT_2F), Scale, Scale method [Direct2D], Scale method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Scale, direct2d.matrix3x2f_scale_float_float_d2d1_point_2f_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,13 +81,6 @@ The y-axis scale factor of the scale transformation.
 
 
 ### -param center
-
-TBD
-
-
-
-
-#### - centerPoint
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
 

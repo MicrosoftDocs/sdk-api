@@ -7,7 +7,7 @@ old-location: gdi\paintrgn.htm
 tech.root: gdi
 ms.assetid: 7656fb67-d865-459e-b379-4f2e44c76fd0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: PaintRgn, PaintRgn function [Windows GDI], _win32_PaintRgn, gdi.paintrgn, wingdi/PaintRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

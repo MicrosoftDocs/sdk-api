@@ -4,10 +4,10 @@ title: IXDSCodec
 author: windows-sdk-content
 description: The IXDSCodec interface is exposed by the XDS Codec filter. Most applications will not have to use this interface.
 old-location: mstv\ixdscodec.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: c34a3418-2ae5-45a6-9e3b-2bd7cf33d44b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], IXDSCodec interface [Microsoft TV Technologies],described, IXDSCodecInterface, encdec/IXDSCodec, mstv.ixdscodec
 ms.prod: windows-hardware
 ms.technology: windows-devices

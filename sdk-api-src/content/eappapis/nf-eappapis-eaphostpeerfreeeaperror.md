@@ -4,10 +4,10 @@ title: EapHostPeerFreeEapError function
 author: windows-sdk-content
 description: Frees EAP_ERROR structures returned by EAPHost run-time APIs.
 old-location: eaphost\eaphostpeerfreeeaperror.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 36f9b5dd-821d-4cc5-a1dd-587098635d17
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: EapHostPeerFreeEapError, EapHostPeerFreeEapError function [EAPHost], eaphost.eaphostpeerfreeeaperror, eappapis/EapHostPeerFreeEapError
 ms.prod: windows-hardware
 ms.technology: windows-devices

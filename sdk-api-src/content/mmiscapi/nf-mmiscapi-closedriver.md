@@ -7,7 +7,7 @@ old-location: multimedia\closedriver.htm
 tech.root: Multimedia
 ms.assetid: 47d5c666-614d-4836-8e7d-0fe6b53d399f
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CloseDriver, CloseDriver function [Windows Multimedia], _win32_CloseDriver, mmsystem/CloseDriver, multimedia.closedriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,9 @@ Closes an installable driver.
 
 
 
-### -param hDriver
+### -param hDriver [in]
 
-TBD
+Handle of an installable driver instance. The handle must have been previously created by using the <a href="https://msdn.microsoft.com/882146f7-cd42-45fd-8a5f-7078b64c7ea8">OpenDriver</a> function.
 
 
 ### -param lParam1 [in]
@@ -81,11 +81,6 @@ TBD
 ### -param lParam2 [in]
 
 32-bit driver-specific data.
-
-
-#### - hdrvr [in]
-
-Handle of an installable driver instance. The handle must have been previously created by using the <a href="https://msdn.microsoft.com/882146f7-cd42-45fd-8a5f-7078b64c7ea8">OpenDriver</a> function.
 
 
 ## -returns

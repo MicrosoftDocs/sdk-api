@@ -4,10 +4,10 @@ title: IIdentityProvider
 author: windows-sdk-content
 description: Represents an identity provider.
 old-location: security\iidentityprovider.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 0f23e369-1501-4e72-94d1-dadb9dac5be6
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IIdentityProvider, IIdentityProvider interface [Security], IIdentityProvider interface [Security],described, identityprovider/IIdentityProvider, security.iidentityprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

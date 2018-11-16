@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_gettext.htm
 tech.root: TSF
 ms.assetid: e1443c44-4787-448e-b5ff-a05d1396807d
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetText method, ITextStoreACP2.GetText, ITextStoreACP2::GetText, textstor/ITextStoreACP2::GetText, tsf.itextstoreacp2_gettext
 ms.prod: windows-hardware
 ms.technology: windows-devices

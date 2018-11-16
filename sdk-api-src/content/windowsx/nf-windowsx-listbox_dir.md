@@ -4,10 +4,10 @@ title: ListBox_Dir macro
 author: windows-sdk-content
 description: Adds names to the list displayed by a list box.
 old-location: controls\ListBox_Dir.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_dir.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ListBox_Dir, ListBox_Dir macro [Windows Controls], _win32_ListBox_Dir, _win32_ListBox_Dir_cpp, controls.ListBox_Dir, controls._win32_ListBox_Dir, windowsx/ListBox_Dir
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMSVidAudioRenderer
 author: windows-sdk-content
 description: The IMSVidAudioRenderer interface represents an audio renderer device. It enables applications to control the volume and balance. To retrieve the audio renderer device that is currently active, call the IMSVidCtl::get_AudioRendererActive method.
 old-location: mstv\imsvidaudiorenderer.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: f822b5a6-c88e-48c9-91f4-611a3f147fe0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidAudioRenderer, IMSVidAudioRenderer interface [Microsoft TV Technologies], IMSVidAudioRenderer interface [Microsoft TV Technologies],described, IMSVidAudioRendererInterface, mstv.imsvidaudiorenderer, segment/IMSVidAudioRenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices

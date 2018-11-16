@@ -4,10 +4,10 @@ title: WSAAsyncGetHostByAddr macro
 author: windows-sdk-content
 description: The WSAAsyncGetHostByAddr function asynchronously retrieves host information that corresponds to an address.Note  The WSAAsyncGetHostByAddr function is not designed to provide parallel resolution of several addresses.
 old-location: winsock\wsaasyncgethostbyaddr_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 814cbb2e-8dd2-44b0-b8be-cfc5491bdc49
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: WSAAsyncGetHostByAddr, WSAAsyncGetHostByAddr function [Winsock], _win32_wsaasyncgethostbyaddr_2, winsock.wsaasyncgethostbyaddr_2, wsipv6ok/WSAAsyncGetHostByAddr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,32 +70,51 @@ The
 
 
 
-#### - a [in]
+### -param a
 
-Handle of the window that will receive a message when the asynchronous request completes.
-
-
-#### - b [in]
-
-Message to be received when the asynchronous request completes.
+TBD
 
 
-#### - c [in]
+### -param b
+
+TBD
+
+
+### -param c
+
+TBD
+
+
+### -param d
+
+TBD
+
+
+### -param e
+
+TBD
+
+
+### -param f
+
+TBD
+
+
+### -param g
+
+TBD
+
+
+
+
+
+
+#### - addr [in]
 
 Pointer to the network address for the host. Host addresses are stored in network byte order.
 
 
-#### - d [in]
-
-Length of the address, in bytes.
-
-
-#### - e [in]
-
-Type of the address.
-
-
-#### - f [out]
+#### - buf [out]
 
 Pointer to the data area to receive the 
 <a href="https://msdn.microsoft.com/f194b9d5-dfaf-4a02-95c6-6d06015aad1d">hostent</a> data. The data area must be larger than the size of a 
@@ -104,9 +123,29 @@ Pointer to the data area to receive the
 <b>hostent</b> structure. A buffer of MAXGETHOSTSTRUCT bytes is recommended.
 
 
-#### - g [in]
+#### - buflen [in]
 
 Size of data area for the <i>buf</i> parameter, in bytes.
+
+
+#### - hWnd [in]
+
+Handle of the window that will receive a message when the asynchronous request completes.
+
+
+#### - len [in]
+
+Length of the address, in bytes.
+
+
+#### - type [in]
+
+Type of the address.
+
+
+#### - wMsg [in]
+
+Message to be received when the asynchronous request completes.
 
 
 ## -remarks

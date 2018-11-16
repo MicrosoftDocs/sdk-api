@@ -7,7 +7,7 @@ old-location: cos\iobjectconstructstring.htm
 tech.root: cossdk
 ms.assetid: ebfa8384-1efd-4775-b66f-b8048af33abc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IObjectConstructString, IObjectConstructString interface [COM+], IObjectConstructString interface [COM+],described, _cos_IObjectConstructString, comsvcs/IObjectConstructString, cos.iobjectconstructstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

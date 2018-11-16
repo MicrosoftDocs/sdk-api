@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_frameworklogoffdll.htm
 tech.root: WmiSdk
 ms.assetid: 5157d823-d3a1-46d2-8ae8-07e904001a14
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: "?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],FrameworkLogoffDLL method, CWbemProviderGlue.FrameworkLogoffDLL, CWbemProviderGlue.FrameworkLogoffDLL(LPCWSTR,PLONG), CWbemProviderGlue::FrameworkLogoffDLL, CWbemProviderGlue::FrameworkLogoffDLL(LPCWSTR,PLONG), FrameworkLogoffDLL, FrameworkLogoffDLL method [Windows Management Instrumentation], FrameworkLogoffDLL method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_frameworklogoffdll, wbemglue/CWbemProviderGlue::FrameworkLogoffDLL, wmi.cwbemproviderglue_frameworklogoffdll"
 ms.prod: windows-hardware
 ms.technology: windows-devices

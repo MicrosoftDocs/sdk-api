@@ -7,7 +7,7 @@ old-location: netmgmt\netusermodalsset.htm
 tech.root: NetMgmt
 ms.assetid: 9884e076-ee6a-4aca-abe6-a79754667759
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 0, 1, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 2, 3, NetUserModalsSet, NetUserModalsSet function [Network Management], _win32_netusermodalsset, lmaccess/NetUserModalsSet, netmgmt.netusermodalsset
 ms.prod: windows-hardware
 ms.technology: windows-devices

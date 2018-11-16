@@ -7,7 +7,7 @@ old-location: gdi\emreof.htm
 tech.root: gdi
 ms.assetid: 99a3f97e-cb43-49b3-9972-23f9911b2cd0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PEMREOF, EMREOF, EMREOF structure [Windows GDI], PEMREOF, PEMREOF structure pointer [Windows GDI], _win32_EMREOF_str, gdi.emreof, tagEMREOF, wingdi/EMREOF, wingdi/PEMREOF"
 ms.prod: windows-hardware
 ms.technology: windows-devices

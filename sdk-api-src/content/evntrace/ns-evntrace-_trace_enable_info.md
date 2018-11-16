@@ -4,10 +4,10 @@ title: "_TRACE_ENABLE_INFO"
 author: windows-sdk-content
 description: Defines the session and the information that the session used to enable the provider.
 old-location: etw\trace_enable_info.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 999dd102-5937-4b1e-b841-623dddaa0df9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PTRACE_ENABLE_INFO, PTRACE_ENABLE_INFO, PTRACE_ENABLE_INFO structure pointer [ETW], TRACE_ENABLE_INFO, TRACE_ENABLE_INFO structure [ETW], _TRACE_ENABLE_INFO, etw.trace_enable_info, evntrace/PTRACE_ENABLE_INFO, evntrace/TRACE_ENABLE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

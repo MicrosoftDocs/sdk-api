@@ -4,10 +4,10 @@ title: LoadIconWithScaleDown function
 author: windows-sdk-content
 description: Loads an icon. If the icon is not a standard size, this function scales down a larger image instead of scaling up a smaller image.
 old-location: controls\LoadIconWithScaleDown.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\loadiconwithscaledown.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IDI_APPLICATION, IDI_ASTERISK, IDI_ERROR, IDI_EXCLAMATION, IDI_HAND, IDI_INFORMATION, IDI_QUESTION, IDI_SHIELD, IDI_WARNING, IDI_WINLOGO, LoadIconWithScaleDown, LoadIconWithScaleDown function [Windows Controls], _shell_LoadIconWithScaleDown, _shell_LoadIconWithScaleDown_cpp, commctrl/LoadIconWithScaleDown, controls.LoadIconWithScaleDown, controls._shell_LoadIconWithScaleDown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: EndBufferedPaint function
 author: windows-sdk-content
 description: Completes a buffered paint operation and frees the associated buffered paint handle.
 old-location: controls\EndBufferedPaint.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedpaint.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EndBufferedPaint, EndBufferedPaint function [Windows Controls], _shell_EndBufferedPaint, _shell_EndBufferedPaint_cpp, controls.EndBufferedPaint, controls._shell_EndBufferedPaint, uxtheme/EndBufferedPaint
 ms.prod: windows-hardware
 ms.technology: windows-devices

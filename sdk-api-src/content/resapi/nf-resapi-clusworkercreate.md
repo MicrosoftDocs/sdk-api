@@ -4,10 +4,10 @@ title: ClusWorkerCreate function
 author: windows-sdk-content
 description: Creates a worker thread. The PCLUSAPI_CLUS_WORKER_CREATE type defines a pointer to this function.
 old-location: mscs\clusworkercreate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a7e8f8ad-c9de-4c6b-8926-b9a46d85924d
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusWorkerCreate, ClusWorkerCreate function [Failover Cluster], PCLUSAPI_CLUS_WORKER_CREATE, PCLUSAPI_CLUS_WORKER_CREATE function [Failover Cluster], _wolf_clusworkercreate, mscs.clusworkercreate, resapi/ClusWorkerCreate, resapi/PCLUSAPI_CLUS_WORKER_CREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

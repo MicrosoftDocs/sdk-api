@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactManager_GetContactCollection.htm
 tech.root: wincontacts
 ms.assetid: 6b9d7ba5-e2cd-452f-8479-fdaad183b1ac
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetContactCollection, GetContactCollection method [Windows Contacts], GetContactCollection method [Windows Contacts],IContactManager interface, IContactManager interface [Windows Contacts],GetContactCollection method, IContactManager.GetContactCollection, IContactManager::GetContactCollection, _wincontacts_IContactManager_GetContactCollection, icontact/IContactManager::GetContactCollection, wincontacts._wincontacts_IContactManager_GetContactCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

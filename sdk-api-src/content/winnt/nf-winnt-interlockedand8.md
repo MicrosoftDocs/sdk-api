@@ -4,10 +4,10 @@ title: InterlockedAnd8 function
 author: windows-sdk-content
 description: Performs an atomic AND operation on the specified char values.
 old-location: base\interlockedand8.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 1b900308-f1dd-465b-b67d-ec2655819425
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: InterlockedAnd8, InterlockedAnd8 function, base.interlockedand8, winnt/InterlockedAnd8
 ms.prod: windows-hardware
 ms.technology: windows-devices

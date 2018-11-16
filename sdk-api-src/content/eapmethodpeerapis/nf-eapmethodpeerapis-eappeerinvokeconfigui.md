@@ -4,10 +4,10 @@ title: EapPeerInvokeConfigUI function
 author: windows-sdk-content
 description: Raises the EAP method's specific connection configuration user interface dialog on the client.
 old-location: eaphost\eappeerinvokeconfigui.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: ac15a065-d0a3-403f-ae5f-175f77e2507f
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: EapPeerInvokeConfigUI, EapPeerInvokeConfigUI function [EAPHost], eaphost.eappeerinvokeconfigui, eapmethodpeerapis/EapPeerInvokeConfigUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

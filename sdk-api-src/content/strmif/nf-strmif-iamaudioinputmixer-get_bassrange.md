@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_get_bassrange.htm
 tech.root: DirectShow
 ms.assetid: e0a77f8c-8608-4e16-bc7a-3c90dde2aad8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_BassRange method, IAMAudioInputMixer.get_BassRange, IAMAudioInputMixer::get_BassRange, IAMAudioInputMixerget_BassRange, dshow.iamaudioinputmixer_get_bassrange, get_BassRange, get_BassRange method [DirectShow], get_BassRange method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_BassRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

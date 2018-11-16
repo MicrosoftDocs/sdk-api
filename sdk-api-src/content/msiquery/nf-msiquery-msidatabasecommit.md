@@ -4,10 +4,10 @@ title: MsiDatabaseCommit function
 author: windows-sdk-content
 description: The MsiDatabaseCommit function commits changes to a database.
 old-location: setup\msidatabasecommit.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: bc42b90b-51db-4e13-af2f-4942923badf6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiDatabaseCommit, MsiDatabaseCommit function, _msi_msidatabasecommit, msiquery/MsiDatabaseCommit, setup.msidatabasecommit
 ms.prod: windows-hardware
 ms.technology: windows-devices

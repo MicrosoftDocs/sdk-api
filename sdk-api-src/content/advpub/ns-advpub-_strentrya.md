@@ -4,10 +4,10 @@ title: "_StrEntryA"
 author: windows-sdk-content
 description: Represents a registry string replacement.
 old-location: winprog\_strentrya.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: BE4239CA-68D5-4E5A-BA53-087001ACD7BB
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPSTRENTRYA, LPSTRENTRYA, LPSTRENTRYA structure pointer [Windows API], STRENTRY, STRENTRYA, STRENTRYA structure [Windows API], _StrEntryA, _StrEntryA structure [Windows API], advpub/LPSTRENTRYA, advpub/_StrEntryA, winprog._strentrya"
 ms.prod: windows-hardware
 ms.technology: windows-devices

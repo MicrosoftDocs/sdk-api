@@ -7,7 +7,7 @@ old-location: wmi\iwbempathkeylist_getkey2.htm
 tech.root: WmiSdk
 ms.assetid: 009a1778-d2e3-4202-a640-60a55d5f3f8d
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetKey2, GetKey2 method [Windows Management Instrumentation], GetKey2 method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetKey2 method, IWbemPathKeyList.GetKey2, IWbemPathKeyList::GetKey2, _hmm_iwbempathkeylist_getkey2, wmi.iwbempathkeylist_getkey2, wmiutils/IWbemPathKeyList::GetKey2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,19 +87,14 @@ Caller sets this parameter to the number of characters that the name buffer can 
 Buffer into which the name is copied. Because not all keys have a name, this parameter value is <b>NULL</b> for an implicit key.
 
 
-### -param pKeyValue
+### -param pKeyValue [out]
 
-TBD
+Pointer to a variant that contains the key value.
 
 
 ### -param puApparentCimType [out]
 
 Pointer to a long integer that is set to the CIM type.
-
-
-#### - pKeyVal [out]
-
-Pointer to a variant that contains the key value.
 
 
 ## -returns

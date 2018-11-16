@@ -4,10 +4,10 @@ title: PONLINE_V2_ROUTINE
 author: windows-sdk-content
 description: Marks a resource as available for use.
 old-location: mscs\onlinev2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0462CDFD-6499-4FF8-8B5C-4DC15AC30169
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUS_RESDLL_ONLINE_IGNORE_NETWORK_CONNECTIVITY, CLUS_RESDLL_ONLINE_IGNORE_RESOURCE_STATUS, CLUS_RESDLL_ONLINE_RECOVER_MONITOR_STATE, CLUS_RESDLL_ONLINE_RESTORE_ONLINE_STATE, CLUS_RESDLL_ONLINE_RETURN_TO_SOURCE_NODE_ON_ERROR, OnlineV2, OnlineV2 callback, OnlineV2 callback function [Failover Cluster], PONLINE_V2_ROUTINE, PONLINE_V2_ROUTINE callback function [Failover Cluster], mscs.onlinev2, resapi/OnlineV2, resapi/PONLINE_V2_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,6 +129,52 @@ Reserved.
 ## -returns
 
 
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful, and the resource is online.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_NOT_AVAILABLE</b></dt>
+<dt>5006 (0x138E)</dt>
+</dl>
+</td>
+<td width="60%">
+The resource was arbitrated with some other systems, and one of the other systems won the arbitration. Only 
+         <a href="q_gly.htm">quorum-capable resources</a> return this 
+         value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_IO_PENDING</b></dt>
+<dt>997 (0x3E5)</dt>
+</dl>
+</td>
+<td width="60%">
+The request is pending, and a thread has been activated to process the online request.
+
+</td>
+</tr>
+</table>
+ 
 
 If the operation was not successful for other reasons, 
        a 

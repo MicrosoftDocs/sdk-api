@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr2.htm
 tech.root: TSF
 ms.assetid: B80A0DBA-349A-450D-BD9D-14BD36308590
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], ITfThreadMgr2 interface [Text Services Framework],described, msctf/ITfThreadMgr2, tsf.itfthreadmgr2
 ms.prod: windows-hardware
 ms.technology: windows-devices

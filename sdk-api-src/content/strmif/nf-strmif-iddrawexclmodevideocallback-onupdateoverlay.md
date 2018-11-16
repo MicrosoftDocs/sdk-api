@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideocallback_onupdateoverlay.htm
 tech.root: DirectShow
 ms.assetid: ede823ba-8340-4339-8e8a-e1d4f9ad1273
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateOverlay method, IDDrawExclModeVideoCallback.OnUpdateOverlay, IDDrawExclModeVideoCallback::OnUpdateOverlay, IDDrawExclModeVideoCallbackOnUpdateOverlay, OnUpdateOverlay, OnUpdateOverlay method [DirectShow], OnUpdateOverlay method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdateoverlay, strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,9 +70,9 @@ The <code>OnUpdateOverlay</code> method informs the application when the overlay
 
 
 
-### -param bBefore
+### -param bBefore [in]
 
-TBD
+Boolean value specifying whether the call is being made before or after the overlay-related change. <b>TRUE</b> specifies before, <b>FALSE</b> specifies after.
 
 
 ### -param dwFlags [in]
@@ -85,14 +85,14 @@ Value from the <a href="https://msdn.microsoft.com/bc16714b-acee-4b5d-aa1d-6b539
 Boolean value specifying whether the old window is visible. <b>TRUE</b> means the old window is visible.
 
 
-### -param prcOldSrc
+### -param prcOldSrc [in]
 
-TBD
+Pointer to the rectangle representing the old source position of the DirectDraw surface.
 
 
-### -param prcOldDest
+### -param prcOldDest [in]
 
-TBD
+Pointer to the rectangle representing the old destination position of the rectangle in the overlay surface.
 
 
 ### -param bNewVisible [in]
@@ -100,41 +100,14 @@ TBD
 Boolean specifying whether the new window is visible. <b>TRUE</b> means the new window is visible.
 
 
-### -param prcNewSrc
-
-TBD
-
-
-### -param prcNewDest
-
-TBD
-
-
-
-
-#### - bBeforeChange [in]
-
-Boolean value specifying whether the call is being made before or after the overlay-related change. <b>TRUE</b> specifies before, <b>FALSE</b> specifies after.
-
-
-#### - prcDestNew [in]
-
-Pointer to the rectangle representing the new destination position of the rectangle in the overlay surface.
-
-
-#### - prcDestOld [in]
-
-Pointer to the rectangle representing the old destination position of the rectangle in the overlay surface.
-
-
-#### - prcSrcNew [in]
+### -param prcNewSrc [in]
 
 Pointer to the rectangle representing the new source position of the DirectDraw surface.
 
 
-#### - prcSrcOld [in]
+### -param prcNewDest [in]
 
-Pointer to the rectangle representing the old source position of the DirectDraw surface.
+Pointer to the rectangle representing the new destination position of the rectangle in the overlay surface.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: stg\readfmtusertypestg.htm
 tech.root: Stg
 ms.assetid: 6f26550d-c094-4150-b8ef-2da1d052c1ff
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ReadFmtUserTypeStg, ReadFmtUserTypeStg function [Structured Storage], _stg_readfmtusertypestg, ole2/ReadFmtUserTypeStg, stg.readfmtusertypestg
 ms.prod: windows-hardware
 ms.technology: windows-devices

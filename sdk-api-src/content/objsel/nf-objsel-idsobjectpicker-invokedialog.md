@@ -7,7 +7,7 @@ old-location: ad\idsobjectpicker_invokedialog.htm
 tech.root: ad
 ms.assetid: 76192a35-10e1-46e3-8724-7637d47d8eca
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: IDsObjectPicker interface [Active Directory],InvokeDialog method, IDsObjectPicker.InvokeDialog, IDsObjectPicker::InvokeDialog, InvokeDialog, InvokeDialog method [Active Directory], InvokeDialog method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_invokedialog, ad.idsobjectpicker__invokedialog, ad.idsobjectpicker_invokedialog, objsel/IDsObjectPicker::InvokeDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

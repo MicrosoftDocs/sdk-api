@@ -7,7 +7,7 @@ old-location: setup\sfcisfileprotected.htm
 tech.root: Wfp
 ms.assetid: 6882f7ef-0265-4db5-afa5-54df35b9dba1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: SfcIsFileProtected, SfcIsFileProtected function [Setup API], _win32_sfcisfileprotected, setup.sfcisfileprotected, sfc/SfcIsFileProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices

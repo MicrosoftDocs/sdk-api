@@ -4,10 +4,10 @@ title: IEnumTuningSpaces::Reset
 author: windows-sdk-content
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: mstv\ienumtuningspaces_reset.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: c9ac5d70-11f8-4bb4-a873-94eb72ea2f42
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Reset method, IEnumTuningSpaces.Reset, IEnumTuningSpaces::Reset, IEnumTuningSpacesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_reset, tuner/IEnumTuningSpaces::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

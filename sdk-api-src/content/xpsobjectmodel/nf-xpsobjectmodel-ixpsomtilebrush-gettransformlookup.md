@@ -7,7 +7,7 @@ old-location: xps\ixpsomtilebrush_gettransformlookup.htm
 tech.root: printdocs
 ms.assetid: bebed09b-7af7-4da1-aaa3-e8e2a45f2717
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMTileBrush.GetTransformLookup, IXpsOMTileBrush::GetTransformLookup, xps.ixpsomtilebrush_gettransformlookup, xpsobjectmodel/IXpsOMTileBrush::GetTransformLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices

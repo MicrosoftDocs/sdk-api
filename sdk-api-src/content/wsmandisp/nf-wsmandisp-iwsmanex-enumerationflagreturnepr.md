@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_enumerationflagreturnepr.htm
 tech.root: WinRM
 ms.assetid: c8297f17-962d-4f52-909e-e26427af9ab2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: EnumerationFlagReturnEPR, EnumerationFlagReturnEPR method [Windows Remote Management], EnumerationFlagReturnEPR method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagReturnEPR method, IWSManEx.EnumerationFlagReturnEPR, IWSManEx::EnumerationFlagReturnEPR, winrm.iwsmanex_enumerationflagreturnepr, wsmandisp/IWSManEx::EnumerationFlagReturnEPR
 ms.prod: windows-hardware
 ms.technology: windows-devices

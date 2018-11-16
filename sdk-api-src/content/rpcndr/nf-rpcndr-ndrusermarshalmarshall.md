@@ -4,10 +4,10 @@ title: NdrUserMarshalMarshall function
 author: windows-sdk-content
 description: The NdrUserMarshalMarshall function marshals the supplied data buffer.
 old-location: rpc\ndrusermarshalmarshall.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 9c89f342-2356-4a58-81bf-f9e53535468e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: NdrUserMarshalMarshall, NdrUserMarshalMarshall function [RPC], rpc.ndrusermarshalmarshall, rpcndr/NdrUserMarshalMarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

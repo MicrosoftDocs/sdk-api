@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_retries_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_43ar.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],Retries property, IFaxIncomingJob.Retries, IFaxIncomingJob.get_Retries, IFaxIncomingJob::Retries, IFaxIncomingJob::get_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxIncomingJob interface, _mfax_faxincomingjob.retries, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_retries_cpp, fax._mfax_faxincomingjob_retries, faxcomex/IFaxIncomingJob::Retries, faxcomex/IFaxIncomingJob::get_Retries, get_Retries
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\itaskfolder_getfolder.htm
 tech.root: TaskSchd
 ms.assetid: 62a0b946-ba06-46cf-bf38-e6774bdaae0a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetFolder, GetFolder method [Task Scheduler], GetFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetFolder method, ITaskFolder.GetFolder, ITaskFolder::GetFolder, taskschd.itaskfolder_getfolder, taskschd/ITaskFolder::GetFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

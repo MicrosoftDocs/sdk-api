@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_input_color_space_data.htm
 tech.root: medfound
 ms.assetid: 54b53e4d-990b-4496-aae6-039f443337ae
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, mf.dxvahd_stream_state_input_color_space_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

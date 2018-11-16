@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::get_MixerBitmapOpacity
 author: windows-sdk-content
 description: The get_MixerBitmapOpacity method retrieves the opacity of the static bitmap image.
 old-location: mstv\imsvidvideorenderer_get_mixerbitmapopacity.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 830eff1a-e70e-440c-81be-69058d14f314
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MixerBitmapOpacity method, IMSVidVideoRenderer.get_MixerBitmapOpacity, IMSVidVideoRenderer::get_MixerBitmapOpacity, IMSVidVideoRendererget_MixerBitmapOpacity, get_MixerBitmapOpacity, get_MixerBitmapOpacity method [Microsoft TV Technologies], get_MixerBitmapOpacity method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_mixerbitmapopacity, segment/IMSVidVideoRenderer::get_MixerBitmapOpacity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_MixerBitmapOpacity</b> method retrieves the opacity of the static bit
 
 
 
-### -param opacity
-
-TBD
-
-
-
-
-#### - pOpacity [out]
+### -param opacity [out]
 
 Receives the opacity, expressed as an integer from 0 (transparent) to 100 (opaque).
 

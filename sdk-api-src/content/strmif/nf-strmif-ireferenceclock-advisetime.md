@@ -7,7 +7,7 @@ old-location: dshow\ireferenceclock_advisetime.htm
 tech.root: DirectShow
 ms.assetid: 22f0c987-a3ae-4d6e-9184-a0a4282340aa
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: AdviseTime, AdviseTime method [DirectShow], AdviseTime method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],AdviseTime method, IReferenceClock.AdviseTime, IReferenceClock::AdviseTime, IReferenceClockAdviseTime, dshow.ireferenceclock_advisetime, strmif/IReferenceClock::AdviseTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,14 @@ The <code>AdviseTime</code> method creates a one-shot advise request.
 
 
 
-### -param baseTime
+### -param baseTime [in]
 
-TBD
+Base reference time, in 100-nanosecond units. See Remarks.
 
 
-### -param streamTime
+### -param streamTime [in]
 
-TBD
+Stream offset time, in 100-nanosecond units. See Remarks.
 
 
 ### -param hEvent [in]
@@ -88,16 +88,6 @@ Handle to an event, created by the caller.
 ### -param pdwAdviseCookie [out]
 
 Pointer to a variable that receives an identifier for the advise request.
-
-
-#### - rtBaseTime [in]
-
-Base reference time, in 100-nanosecond units. See Remarks.
-
-
-#### - rtStreamTime [in]
-
-Stream offset time, in 100-nanosecond units. See Remarks.
 
 
 ## -returns

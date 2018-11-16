@@ -7,7 +7,7 @@ old-location: shell\IShellFolderBand.htm
 tech.root: shell
 ms.assetid: 88ae35ea-6ff9-431c-848b-84fc61d3c690
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IShellFolderBand, IShellFolderBand interface [Windows Shell], IShellFolderBand interface [Windows Shell],described, _win32_IShellFolderBand, shell.IShellFolderBand, shlobj/IShellFolderBand
 ms.prod: windows-hardware
 ms.technology: windows-devices

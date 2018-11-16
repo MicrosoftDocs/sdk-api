@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::Capture
 author: windows-sdk-content
 description: The Capture method captures the video frame that is currently being rendered by the Video Mixing Renderer (VMR).
 old-location: mstv\imsvidvideorenderer_capture.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 05287e53-a988-43cc-ac41-5024a217621a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Capture, Capture method [Microsoft TV Technologies], Capture method [Microsoft TV Technologies],IMSVidVideoRenderer interface, IMSVidVideoRenderer interface [Microsoft TV Technologies],Capture method, IMSVidVideoRenderer.Capture, IMSVidVideoRenderer::Capture, IMSVidVideoRendererCapture, mstv.imsvidvideorenderer_capture, segment/IMSVidVideoRenderer::Capture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>Capture</b> method captures the video frame that is currently being rende
 
 
 
-### -param currentImage
-
-TBD
-
-
-
-
-#### - ppcurrentImage [out]
+### -param currentImage [out]
 
 Receives an <b>IPictureDisp</b> interface pointer.
 

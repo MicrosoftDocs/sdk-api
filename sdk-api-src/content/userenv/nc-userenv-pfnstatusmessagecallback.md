@@ -7,7 +7,7 @@ old-location: policy\statusmessagecallback.htm
 tech.root: Policy
 ms.assetid: 9eec6204-49b5-49fd-8db4-5c1777eb7c85
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: PFNSTATUSMESSAGECALLBACK, PFNSTATUSMESSAGECALLBACK callback, PFNSTATUSMESSAGECALLBACK callback function [Group Policy], StatusMessageCallback, _win32_statusmessagecallback, policy.statusmessagecallback, userenv/PFNSTATUSMESSAGECALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetPacketIntegrity function
 author: windows-sdk-content
 description: Gets the packet integrity setting.
 old-location: wmi_v2\mi_destinationoptions_getpacketintegrity.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 7f30822b-38c4-4d5e-b176-59aa403fa3fa
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_DestinationOptions_GetPacketIntegrity, MI_DestinationOptions_GetPacketIntegrity function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetPacketIntegrity, wmi_v2.mi_destinationoptions_getpacketintegrity
 ms.prod: windows-hardware
 ms.technology: windows-devices

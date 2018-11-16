@@ -4,10 +4,10 @@ title: ISceSvcAttachmentData::Initialize
 author: windows-sdk-content
 description: The Initialize method informs the Security Configuration snap-in that the snap-in extension is loaded, and it establishes a context for communications.
 old-location: security\iscesvcattachmentdata_initialize.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 2c5d087d-774b-4cfb-a458-9a5b1c6106c7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ISceSvcAttachmentData interface [Security],Initialize method, ISceSvcAttachmentData.Initialize, ISceSvcAttachmentData::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISceSvcAttachmentData interface, _config_iscesvcattachmentdata_initialize, scesvc/ISceSvcAttachmentData::Initialize, security.iscesvcattachmentdata_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,14 @@ The <b>Initialize</b> method informs the Security Configuration snap-in that the
 
 
 
-### -param lpServiceName
+### -param lpServiceName [in]
 
-TBD
+String that specifies the name of the security service to retrieve information about.
 
 
-### -param lpTemplateName
+### -param lpTemplateName [in]
 
-TBD
+String that specifies the name of the template.
 
 
 ### -param lpSceSvcPersistInfo [in]
@@ -82,24 +82,7 @@ Pointer to the
 <a href="https://msdn.microsoft.com/3cd4bde2-55f6-4ab1-b175-7689b0cc529b">ISceSvcAttachmentPersistInfo</a> interface of the attachment snap-in extension.
 
 
-### -param pscesvcHandle
-
-TBD
-
-
-
-
-#### - ServiceName [in]
-
-String that specifies the name of the security service to retrieve information about.
-
-
-#### - TemplateName [in]
-
-String that specifies the name of the template.
-
-
-#### - sceHandle [out]
+### -param pscesvcHandle [out]
 
 Pointer that receives an 
 <a href="https://msdn.microsoft.com/478d7d4b-7983-4247-b8be-2e2cd3327533">SCESVC_HANDLE</a> that represents the communication context between the Security Configuration snap-in and the snap-in extension. This handle is passed in as a parameter to the other <a href="https://msdn.microsoft.com/385acdb9-5642-47c1-b2ac-be388edaac12">ISceSvcAttachmentData</a> methods. When the attachment snap-in extension no longer needs this handle, free it by calling 

@@ -7,7 +7,7 @@ old-location: gpmc\igpmstartergpo.htm
 tech.root: GPMC
 ms.assetid: 5ce7a7b4-e1c0-4e76-98c2-41462ec4ea17
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IGPMStarterGPO, IGPMStarterGPO interface [GPMC], IGPMStarterGPO interface [GPMC],described, gpmc.igpmstartergpo, gpmgmt/IGPMStarterGPO
 ms.prod: windows-hardware
 ms.technology: windows-devices

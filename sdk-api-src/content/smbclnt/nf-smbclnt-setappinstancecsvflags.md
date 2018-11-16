@@ -4,10 +4,10 @@ title: SetAppInstanceCsvFlags function
 author: windows-sdk-content
 description: Sets the flags that affect connections from the application instance.
 old-location: mscs\setappinstancecsvflags.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 37FDAB0A-1593-47D6-B4CE-A667EBA01680
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SET_APP_INSTANCE_CSV_FLAGS, SET_APP_INSTANCE_CSV_FLAGS function [Failover Cluster], SetAppInstanceCsvFlags, SetAppInstanceCsvFlags function [Failover Cluster], mscs.setappinstancecsvflags, smbclnt/SET_APP_INSTANCE_CSV_FLAGS, smbclnt/SetAppInstanceCsvFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,6 +86,49 @@ New values of the flags.
 
 
 Returns "0" if the operation is successful; otherwise, one of the following error codes is returned:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The CCF filter failed to allocate the                  cache objects for the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_ACCESS_DENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The current process that's trying to tag the process specified by 
+        <i>ProcessHandle</i> doesn't have <b>PROCESS_TERMINATE</b> 
+        access to that process.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The CCF mini-filter was                  not found.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

@@ -4,10 +4,10 @@ title: ShutdownTextServices function
 author: windows-sdk-content
 description: Disconnects a host from a text services instance.
 old-location: controls\shutdowntextservices.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 3367D22B-1F9E-4D70-8907-0F218A23AE7E
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ShutdownTextServices, ShutdownTextServices function [Windows Controls], controls.shutdowntextservices, textserv/ShutdownTextServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMsmGetFiles
 author: windows-sdk-content
 description: The IMsmGetFiles interface enables the client to retrieve the files needed in a particular language of the module.
 old-location: setup\imsmgetfiles_interface.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: d6912c92-b3e0-4b3d-a618-17e252cd14ae
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: IMsmGetFiles, IMsmGetFiles interface, IMsmGetFiles interface,described, mergemod/IMsmGetFiles, setup.imsmgetfiles_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

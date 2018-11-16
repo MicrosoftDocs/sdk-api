@@ -7,7 +7,7 @@ old-location: coreaudio\immdeviceenumerator_getdefaultaudioendpoint.htm
 tech.root: CoreAudio
 ms.assetid: 96776d2a-27b7-490a-b3a8-04782ec34f91
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetDefaultAudioEndpoint, GetDefaultAudioEndpoint method [Core Audio], GetDefaultAudioEndpoint method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],GetDefaultAudioEndpoint method, IMMDeviceEnumerator.GetDefaultAudioEndpoint, IMMDeviceEnumerator::GetDefaultAudioEndpoint, IMMDeviceEnumeratorGetDefaultAudioEndpoint, coreaudio.immdeviceenumerator_getdefaultaudioendpoint, mmdeviceapi/IMMDeviceEnumerator::GetDefaultAudioEndpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,14 +93,7 @@ eCommunications
 For more information, see Remarks.
 
 
-### -param ppEndpoint
-
-TBD
-
-
-
-
-#### - ppDevice [out]
+### -param ppEndpoint [out]
 
 Pointer to a pointer variable into which the method writes the address of the <a href="https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580">IMMDevice</a> interface of the endpoint object for the default audio endpoint device. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetDefaultAudioEndpoint</b> call fails,  <i>*ppDevice</i> is <b>NULL</b>.
 

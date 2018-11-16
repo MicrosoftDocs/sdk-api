@@ -4,10 +4,10 @@ title: MI_Session_AssociatorInstances function
 author: windows-sdk-content
 description: Finds instances that are associated with the specific key instance.
 old-location: wmi_v2\mi_session_associatorinstances.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 4e517289-a30e-4ba3-8cbf-dfc4f9744b1a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Session_AssociatorInstances, MI_Session_AssociatorInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_AssociatorInstances, wmi_v2.mi_session_associatorinstances
 ms.prod: windows-hardware
 ms.technology: windows-devices

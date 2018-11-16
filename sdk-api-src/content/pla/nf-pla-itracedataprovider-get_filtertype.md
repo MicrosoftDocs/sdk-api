@@ -7,7 +7,7 @@ old-location: pla\itracedataprovider_filtertype.htm
 tech.root: PLA
 ms.assetid: adc9f89f-fffe-4df0-a9fd-72ae80fdf9b5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FilterType property [PLA], FilterType property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterType property, ITraceDataProvider.FilterType, ITraceDataProvider.get_FilterType, ITraceDataProvider::FilterType, ITraceDataProvider::get_FilterType, ITraceDataProvider::put_FilterType, base.itracedataprovider_filtertype, get_FilterType, pla.itracedataprovider_filtertype, pla/ITraceDataProvider::FilterType, pla/ITraceDataProvider::get_FilterType, pla/ITraceDataProvider::put_FilterType
 ms.prod: windows-hardware
 ms.technology: windows-devices

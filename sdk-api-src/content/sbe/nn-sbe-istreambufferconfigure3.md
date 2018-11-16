@@ -4,10 +4,10 @@ title: IStreamBufferConfigure3
 author: windows-sdk-content
 description: The IStreamBufferConfigure3 interface is exposed by the StreamBufferConfig object.
 old-location: mstv\istreambufferconfigure3.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 73f3cd43-11d1-4eff-861d-087bfda7d135
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IStreamBufferConfigure3, IStreamBufferConfigure3 interface [Microsoft TV Technologies], IStreamBufferConfigure3 interface [Microsoft TV Technologies],described, IStreamBufferConfigure3Interface, mstv.istreambufferconfigure3, sbe/IStreamBufferConfigure3
 ms.prod: windows-hardware
 ms.technology: windows-devices

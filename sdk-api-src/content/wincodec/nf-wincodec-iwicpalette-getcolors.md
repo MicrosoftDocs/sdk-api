@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_getcolors.htm
 tech.root: wic
 ms.assetid: efec97fd-251c-4e52-b92e-4e624cdb9881
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetColors, GetColors method [Windows Imaging Component], GetColors method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],GetColors method, IWICPalette.GetColors, IWICPalette::GetColors, _wic_codec_iwicpalette_getcolors, wic._wic_codec_iwicpalette_getcolors, wincodec/IWICPalette::GetColors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Fills out the supplied color array with the colors from the internal color table
 
 
 
-### -param cCount
+### -param cCount [in]
 
-TBD
+Type: <b>UINT</b>
+
+The size of the <i>pColors</i> array.
 
 
 ### -param pColors [out]
@@ -83,13 +85,6 @@ Pointer that receives the colors of the palette.
 Type: <b>UINT*</b>
 
 The actual size needed to obtain the palette colors.
-
-
-#### - colorCount [in]
-
-Type: <b>UINT</b>
-
-The size of the <i>pColors</i> array.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetPalette.htm
 tech.root: shell
 ms.assetid: 039a24d0-8cda-48bf-a10b-baf6d76c808d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetPalette, GetPalette method [Windows Shell], GetPalette method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetPalette method, IBrowserService.GetPalette, IBrowserService::GetPalette, shdeprecated/IBrowserService::GetPalette, shell.IBrowserService_GetPalette, zone_IBrowserService_GetPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

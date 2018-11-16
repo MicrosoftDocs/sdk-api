@@ -7,7 +7,7 @@ old-location: imapi\iprogressitems_get_enumprogressitems.htm
 tech.root: imapi
 ms.assetid: 746b05b7-ddba-458c-bc9b-4913da5fa8b5
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IProgressItems interface [IMAPI],get_EnumProgressItems method, IProgressItems.get_EnumProgressItems, IProgressItems::get_EnumProgressItems, get_EnumProgressItems, get_EnumProgressItems method [IMAPI], get_EnumProgressItems method [IMAPI],IProgressItems interface, imapi.iprogressitems_get_enumprogressitems, imapi2fs/IProgressItems::get_EnumProgressItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

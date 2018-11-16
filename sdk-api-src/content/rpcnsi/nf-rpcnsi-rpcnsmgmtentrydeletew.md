@@ -4,10 +4,10 @@ title: RpcNsMgmtEntryDeleteW function
 author: windows-sdk-content
 description: The RpcNsMgmtEntryDelete function deletes a name service&#8211;database entry.
 old-location: rpc\rpcnsmgmtentrydelete.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 65d04a7c-e42c-4956-a953-b9aec95254e0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: RpcNsMgmtEntryDelete, RpcNsMgmtEntryDelete function [RPC], RpcNsMgmtEntryDeleteA, RpcNsMgmtEntryDeleteW, _rpc_rpcnsmgmtentrydelete, rpc.rpcnsmgmtentrydelete, rpcnsi/RpcNsMgmtEntryDelete, rpcnsi/RpcNsMgmtEntryDeleteA, rpcnsi/RpcNsMgmtEntryDeleteW
 ms.prod: windows-hardware
 ms.technology: windows-devices

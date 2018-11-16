@@ -7,7 +7,7 @@ old-location: mbn\imbnpinmanagerevents.htm
 tech.root: mbn
 ms.assetid: 2942bd4d-5bdb-45eb-a008-352bf44eec80
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMbnPinManagerEvents, IMbnPinManagerEvents interface [Microsoft Broadband Networks], IMbnPinManagerEvents interface [Microsoft Broadband Networks],described, mbn.imbnpinmanagerevents, mbnapi/IMbnPinManagerEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

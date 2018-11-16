@@ -4,10 +4,10 @@ title: PRESOURCE_TYPE_CONTROL_ROUTINE
 author: windows-sdk-content
 description: Performs an operation that applies to a resource type.
 old-location: mscs\resourcetypecontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: dc4a6e6e-f968-4502-88d0-dc692341528d
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PRESOURCE_TYPE_CONTROL_ROUTINE, PRESOURCE_TYPE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceTypeControl, ResourceTypeControl callback, ResourceTypeControl callback function [Failover Cluster], _wolf_resourcetypecontrol, mscs.resourcetypecontrol, resapi/PRESOURCE_TYPE_CONTROL_ROUTINE, resapi/ResourceTypeControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,6 +110,27 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 If the operation fails, the function returns a 
        <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error 
        code.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_FUNCTION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The resource DLL requested that the 
+         <a href="https://msdn.microsoft.com/caebb47f-c2c5-463e-a957-d9eefc7fc33d">Resource Monitor</a> perform default processing (if any) 
+         for <i>ControlCode</i> in addition to processing supplied by the DLL (if any).
+
+</td>
+</tr>
+</table>
+ 
 
 
 

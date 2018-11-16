@@ -7,7 +7,7 @@ old-location: dshow\ivmraspectratiocontrol_setaspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: e73362ea-b153-4d25-b30e-c69274b49bf9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IVMRAspectRatioControl interface [DirectShow],SetAspectRatioMode method, IVMRAspectRatioControl.SetAspectRatioMode, IVMRAspectRatioControl::SetAspectRatioMode, IVMRAspectRatioControlSetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRAspectRatioControl interface, dshow.ivmraspectratiocontrol_setaspectratiomode, strmif/IVMRAspectRatioControl::SetAspectRatioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ The <code>SetAspectRatioMode</code> method specifies whether the VMR will preser
 
 
 
-### -param dwARMode
-
-TBD
-
-
-
-
-#### - AspectRatioMode [in]
+### -param dwARMode [in]
 
 Specifies a member of the <a href="https://msdn.microsoft.com/dd1d1d99-008b-4234-a38a-314ba02bb116">VMR_ASPECT_RATIO_MODE</a> enumeration type.
 
