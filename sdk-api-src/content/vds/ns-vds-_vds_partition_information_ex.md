@@ -7,7 +7,7 @@ old-location: base\vds_partition_information_ex.htm
 tech.root: VDS
 ms.assetid: 99ded61d-fcbc-4e1c-8b3a-69c14d4c20bb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: PVDS_PARTITION_INFORMATION_EX, PVDS_PARTITION_INFORMATION_EX structure pointer, VDS_PARTITION_INFORMATION_EX, VDS_PARTITION_INFORMATION_EX structure, _VDS_PARTITION_INFORMATION_EX, base.vds_partition_information_ex, vds/PVDS_PARTITION_INFORMATION_EX, vds/VDS_PARTITION_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices

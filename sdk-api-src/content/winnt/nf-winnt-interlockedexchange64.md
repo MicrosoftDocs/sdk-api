@@ -4,10 +4,10 @@ title: InterlockedExchange64 function
 author: windows-sdk-content
 description: Sets a 64-bit variable to the specified value as an atomic operation.
 old-location: base\interlockedexchange64.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 80d34f5d-3491-4653-959b-6b9efebf764b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: InterlockedExchange64, InterlockedExchange64 function, base.interlockedexchange64, winnt/InterlockedExchange64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,7 @@ The function returns the initial value of the <i>Target</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/1s26w950(v=VS.85).aspx">_InterlockedExchange64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="be2f232a-6301-462a-a92b-fcdeb8b0f209">_InterlockedExchange64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

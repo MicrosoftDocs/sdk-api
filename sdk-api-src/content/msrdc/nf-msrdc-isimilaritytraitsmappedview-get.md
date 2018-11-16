@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytraitsmappedview_get.htm
 tech.root: Rdc
 ms.assetid: 57542583-528e-49cb-9ece-f49ecfc6b1cd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Get, Get method [Remote Differential Compression], Get method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],Get method, ISimilarityTraitsMappedView.Get, ISimilarityTraitsMappedView::Get, fs.isimilaritytraitsmappedview_get, msrdc/ISimilarityTraitsMappedView::Get, rdc.isimilaritytraitsmappedview_get
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,9 @@ Returns information about the mapped view of a similarity traits table file.
 
 
 
-### -param index
+### -param index [in]
 
-TBD
+Beginning file offset, in bytes, of the underlying file data to be mapped in the mapped view.
 
 
 ### -param dirty [in]
@@ -84,11 +84,6 @@ Minimum number of bytes of data to be mapped in the mapped view.
 ### -param viewInfo [out]
 
 Pointer to a location that receives a <a href="https://msdn.microsoft.com/f7bd0ebd-6abd-4d2c-af7d-21a90a633276">SimilarityMappedViewInfo</a> structure containing information about the mapped view.
-
-
-#### - fileOffset [in]
-
-Beginning file offset, in bytes, of the underlying file data to be mapped in the mapped view.
 
 
 ## -returns

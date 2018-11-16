@@ -7,7 +7,7 @@ old-location: taskschd\itaskhandler_pause.htm
 tech.root: TaskSchd
 ms.assetid: 851e3f20-a996-4a4b-bf10-7ba5c79c3d82
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Pause method, ITaskHandler.Pause, ITaskHandler::Pause, Pause, Pause method [Task Scheduler], Pause method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_pause, taskschd/ITaskHandler::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices

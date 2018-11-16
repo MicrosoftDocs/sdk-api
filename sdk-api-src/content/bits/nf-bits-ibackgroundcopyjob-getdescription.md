@@ -76,7 +76,7 @@ TBD
 #### - ppDescription [out]
 
 Null-terminated string that contains a short description of the job. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppDescription</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>ppDescription</i> when done.
 
 
 ## -returns
@@ -123,7 +123,7 @@ The parameter, <i>ppDescription</i>, cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363040(v=VS.85).aspx">IBackgroundCopyJob::SetDescription</a>
+<a href="https://msdn.microsoft.com/9148ec9b-7a03-4bb3-9644-e52f6cd13073">IBackgroundCopyJob::SetDescription</a>
  
 
  

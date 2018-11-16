@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatornotify_setddrawdevice.htm
 tech.root: DirectShow
 ms.assetid: 3e6bd77e-8b2d-4cd8-9bd3-40a3fe9373f3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetDDrawDevice method, IVMRSurfaceAllocatorNotify.SetDDrawDevice, IVMRSurfaceAllocatorNotify::SetDDrawDevice, IVMRSurfaceAllocatorNotifySetDDrawDevice, SetDDrawDevice, SetDDrawDevice method [DirectShow], SetDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setddrawdevice, strmif/IVMRSurfaceAllocatorNotify::SetDDrawDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,19 +70,14 @@ The <code>SetDDrawDevice</code> method sets the initial DirectDraw device and mo
 
 
 
-### -param lpDDrawDevice
+### -param lpDDrawDevice [in]
 
-TBD
+Specifies the DirectDraw device.
 
 
 ### -param hMonitor [in]
 
 Handle to the monitor associated with the DirectDraw device.
-
-
-#### - lpDirectDrawDevice [in]
-
-Specifies the DirectDraw device.
 
 
 ## -returns

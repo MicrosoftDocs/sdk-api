@@ -7,7 +7,7 @@ old-location: winmsg\alttabinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\alttabinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPALTTABINFO, *PALTTABINFO, ALTTABINFO, ALTTABINFO structure [Windows and Messages], LPALTTABINFO, LPALTTABINFO structure pointer [Windows and Messages], PALTTABINFO, PALTTABINFO structure pointer [Windows and Messages], _win32_ALTTABINFO_str, _win32_alttabinfo_str_cpp, tagALTTABINFO, winmsg.alttabinfo, winui._win32_alttabinfo_str, winuser/ALTTABINFO, winuser/LPALTTABINFO, winuser/PALTTABINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,7 +130,7 @@ The top-left corner of the first icon.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633501(v=VS.85).aspx">GetAltTabInfo</a>
+<a href="https://msdn.microsoft.com/ff708599-50ad-4c5c-bc6c-532f1e9e730c">GetAltTabInfo</a>
 
 
 
@@ -138,7 +138,7 @@ The top-left corner of the first icon.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: audio\midiopendesc.htm
 tech.root: audio
 ms.assetid: 7aacfd83-0188-4858-91e4-a6ce12a7e46d
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/14/2018
 ms.keywords: "*LPMIDIOPENDESC, MIDIOPENDESC, MIDIOPENDESC structure [Audio Devices], aud-prop_47abc723-0254-493a-9bc0-ac9faa73a2e8.xml, audio.midiopendesc, midiopendesc_tag, mmddk/MIDIOPENDESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

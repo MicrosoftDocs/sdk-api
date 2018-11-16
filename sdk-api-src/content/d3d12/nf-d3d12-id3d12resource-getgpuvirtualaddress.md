@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_getgpuvirtualaddress.htm
 tech.root: direct3d12
 ms.assetid: 1B1A345D-D6BD-4DF1-8F10-A209135283AD
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetGPUVirtualAddress, GetGPUVirtualAddress method, GetGPUVirtualAddress method,ID3D12Resource interface, ID3D12Resource interface,GetGPUVirtualAddress method, ID3D12Resource.GetGPUVirtualAddress, ID3D12Resource::GetGPUVirtualAddress, d3d12/ID3D12Resource::GetGPUVirtualAddress, direct3d12.id3d12resource_getgpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,16 +97,20 @@ For more information on the use of GPU virtual addresses, refer to <a href="http
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D1211on12</a> sample uses <b>ID3D12Resource::GetGPUVirtualAddress</b> as follows:
         
 
-
-```cpp
-// Initialize the vertex buffer view.
-m_vertexBufferView.BufferLocation = m_vertexBuffer->GetGPUVirtualAddress();
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Initialize the vertex buffer view.
+m_vertexBufferView.BufferLocation = m_vertexBuffer-&gt;GetGPUVirtualAddress();
 m_vertexBufferView.StrideInBytes = sizeof(Vertex);
 m_vertexBufferView.SizeInBytes = vertexBufferSize;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

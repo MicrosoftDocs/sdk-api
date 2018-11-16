@@ -4,10 +4,10 @@ title: OpenClusterResource function
 author: windows-sdk-content
 description: Opens a resource and returns a handle to it.
 old-location: mscs\openclusterresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c699cb00-b999-45b8-b9db-570150e1a65e
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: OpenClusterResource, OpenClusterResource function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_RESOURCE, PCLUSAPI_OPEN_CLUSTER_RESOURCE function [Failover Cluster], _wolf_openclusterresource, clusapi/OpenClusterResource, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE, mscs.openclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> and returns a handle to 
+Opens a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> and returns a handle to 
     it. The <b>PCLUSAPI_OPEN_CLUSTER_RESOURCE</b> type defines a pointer to this function.
 
 
@@ -70,7 +70,7 @@ Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to a <a href="c_gly.htm">cluster</a>.
 
 
 ### -param lpszResourceName [in]
@@ -90,6 +90,26 @@ If the operation was successful,
        <b>OpenClusterResource</b> returns a handle to the 
        opened resource.
 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NULL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For information about the error, call the function 
+        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
+
 
 
 
@@ -102,7 +122,7 @@ If the operation was successful,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Failover Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
 
 
 

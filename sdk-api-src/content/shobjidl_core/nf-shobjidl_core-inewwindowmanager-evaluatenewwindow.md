@@ -7,7 +7,7 @@ old-location: shell\INewWindowManager_EvaluateNewWindow.htm
 tech.root: shell
 ms.assetid: 0721298f-99c2-463b-8ffa-7527844dcab4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EvaluateNewWindow, EvaluateNewWindow method [Windows Shell], EvaluateNewWindow method [Windows Shell],INewWindowManager interface, INewWindowManager interface [Windows Shell],EvaluateNewWindow method, INewWindowManager.EvaluateNewWindow, INewWindowManager::EvaluateNewWindow, _shell_INewWindowManager_EvaluateNewWindow, shell.INewWindowManager_EvaluateNewWindow, shobjidl_core/INewWindowManager::EvaluateNewWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -157,7 +157,7 @@ Block display of the window.
 </dl>
 </td>
 <td width="60%">
-When you implement <a href="https://msdn.microsoft.com/63fbdd29-fe5e-4216-afb3-041320a8c496">INewWindowManager</a> for a hosted <a href="https://msdn.microsoft.com/library/Aa752040(v=VS.85).aspx">WebBrowser</a> control, this value instructs the WebBrowser control to use the default implementation.
+When you implement <a href="https://msdn.microsoft.com/63fbdd29-fe5e-4216-afb3-041320a8c496">INewWindowManager</a> for a hosted <a href="_inet_MLang_1">WebBrowser</a> control, this value instructs the WebBrowser control to use the default implementation.
 
 </td>
 </tr>

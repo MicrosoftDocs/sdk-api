@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextlayout3_invalidatelayout.htm
 tech.root: DirectWrite
 ms.assetid: 65b42ee1-5b67-1f6d-0e4b-ee60b192e7b7
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IDWriteTextLayout3 interface [Direct Write],InvalidateLayout method, IDWriteTextLayout3.InvalidateLayout, IDWriteTextLayout3::InvalidateLayout, InvalidateLayout, InvalidateLayout method [Direct Write], InvalidateLayout method [Direct Write],IDWriteTextLayout3 interface, directwrite.idwritetextlayout3_invalidatelayout, dwrite_3/IDWriteTextLayout3::InvalidateLayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::GetEffectInvalidRectangles
 author: windows-sdk-content
 description: Gets the invalid rectangles that have accumulated since the last time the effect was drawn and EndDraw was then called on the device context.
 old-location: direct2d\id2d1devicecontext_geteffectinvalidrectangles.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D5CEFDB0-BD54-4CB9-801C-528CDA49C19C
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetEffectInvalidRectangles, GetEffectInvalidRectangles method [Direct2D], GetEffectInvalidRectangles method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetEffectInvalidRectangles method, ID2D1DeviceContext.GetEffectInvalidRectangles, ID2D1DeviceContext::GetEffectInvalidRectangles, d2d1_1/ID2D1DeviceContext::GetEffectInvalidRectangles, direct2d.id2d1devicecontext_geteffectinvalidrectangles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,9 +73,11 @@ Type: <b><a href="https://msdn.microsoft.com/e90d1830-c356-48f1-ac7b-1d94c8c2656
 The effect to get the invalid rectangles from.
 
 
-### -param rectangles
+### -param rectangles [out]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+
+An array of <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a> structures.  You must allocate this to the correct size.  You can get the count of the invalid rectangles using the <a href="https://msdn.microsoft.com/C0B70DA1-C9BF-47AC-BF3E-2A741DACD2E8">GetEffectInvalidRectangleCount</a> method.
 
 
 ### -param rectanglesCount [in]
@@ -83,13 +85,6 @@ TBD
 Type: <b>UINT32</b>
 
 The number of rectangles to get.
-
-
-#### - [out]
-
-Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
-
-An array of <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a> structures.  You must allocate this to the correct size.  You can get the count of the invalid rectangles using the <a href="https://msdn.microsoft.com/C0B70DA1-C9BF-47AC-BF3E-2A741DACD2E8">GetEffectInvalidRectangleCount</a> method.
 
 
 ## -returns

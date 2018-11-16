@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice_createhwndtarget.htm
 tech.root: directcomp
 ms.assetid: eba2388a-9c94-43f0-bf7f-e814895a2792
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateTargetForHwnd, CreateTargetForHwnd method [DirectComposition], CreateTargetForHwnd method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTargetForHwnd method, IDCompositionDevice.CreateTargetForHwnd, IDCompositionDevice::CreateTargetForHwnd, dcomp/IDCompositionDevice::CreateTargetForHwnd, directcomp.idcompositiondevice_createhwndtarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,10 +123,14 @@ At most, only two composition targets can be created for each window in the syst
 
 The following example creates and initializes a device object, and then binds the device object to a composition target window.
 
-
-```cpp
-#include <dcomp.h>
-#include <d3d11.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;dcomp.h&gt;
+#include &lt;d3d11.h&gt;
 
 HRESULT InitializeDirectCompositionDevice(HWND hwndTarget, 
         ID3D11Device **ppD3D11Device, IDCompositionDevice **ppDevice,
@@ -155,34 +159,34 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
         0,
         D3D11_SDK_VERSION,
         ppD3D11Device,
-        &featureLevelSupported,
+        &amp;featureLevelSupported,
         NULL);
 
     if (SUCCEEDED(hr))
     {
         // Create the DXGI device used to create bitmap surfaces.
-        hr = (*ppD3D11Device)->QueryInterface(&pDXGIDevice);
+        hr = (*ppD3D11Device)-&gt;QueryInterface(&amp;pDXGIDevice);
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, __uuidof(IDCompositionDevice), 
-                reinterpret_cast<void **>(ppDevice));
+                reinterpret_cast&lt;void **&gt;(ppDevice));
     }
 
     if (SUCCEEDED(hr))
     {
         // Bind the DirectComposition device to the target window.
-        hr = (*ppDevice)->CreateTargetForHwnd(hwndTarget, TRUE, ppCompTarget);   
+        hr = (*ppDevice)-&gt;CreateTargetForHwnd(hwndTarget, TRUE, ppCompTarget);   
     }
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_put_workingdirectory.htm
 tech.root: imapi
 ms.assetid: bfe37cfe-654d-4923-b667-e44be7ce4715
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_WorkingDirectory method, IFileSystemImage.put_WorkingDirectory, IFileSystemImage::put_WorkingDirectory, imapi.ifilesystemimage_put_workingdirectory, imapi2fs/IFileSystemImage::put_WorkingDirectory, put_WorkingDirectory, put_WorkingDirectory method [IMAPI], put_WorkingDirectory method [IMAPI],IFileSystemImage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\waveoutmessage.htm
 tech.root: Multimedia
 ms.assetid: b4f06107-781f-4b95-8138-ca0e11a21cf4
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_waveOutMessage, mmeapi/waveOutMessage, multimedia.waveoutmessage, waveOutMessage, waveOutMessage function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The <b>waveOutMessage</b> function sends messages to the waveform-audio output d
 
 ### -param hwo
 
-TBD
+Identifier of the waveform device that receives the message. You must cast the device ID to the <b>HWAVEOUT</b> handle type. If you supply a handle instead of a device ID, the function fails and returns the MMSYSERR_NOSUPPORT error code.
 
 
 ### -param uMsg
@@ -81,27 +81,10 @@ Message to send.
 
 ### -param dw1
 
-TBD
-
-
-### -param dw2
-
-TBD
-
-
-
-
-#### - deviceID
-
-Identifier of the waveform device that receives the message. You must cast the device ID to the <b>HWAVEOUT</b> handle type. If you supply a handle instead of a device ID, the function fails and returns the MMSYSERR_NOSUPPORT error code.
-
-
-#### - dwParam1
-
 Message parameter.
 
 
-#### - dwParam2
+### -param dw2
 
 Message parameter.
 

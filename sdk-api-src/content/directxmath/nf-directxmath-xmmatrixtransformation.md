@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixtransformation.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTransformation(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMMatrixTransformation, XMMatrixTransformation, XMMatrixTransformation method [DirectX Math Support APIs], dxmath.xmmatrixtransformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITuner::get_SignalStrength
 author: windows-sdk-content
 description: The get_SignalStrength method retrieves the Network Provider-specific signal strength metric.
 old-location: mstv\ituner_get_signalstrength.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 3040f56b-2c60-43c8-81b8-5c3538db08db
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_SignalStrength method, ITuner.get_SignalStrength, ITuner::get_SignalStrength, ITunerget_SignalStrength, get_SignalStrength, get_SignalStrength method [Microsoft TV Technologies], get_SignalStrength method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_signalstrength, tuner/ITuner::get_SignalStrength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_SignalStrength</b> method retrieves the Network Provider-specific sig
 
 
 
-### -param Strength
-
-TBD
-
-
-
-
-#### - pStrength [out]
+### -param Strength [out]
 
 Receives the signal strength.
 

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_hssetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: 8e3007ac-de5e-45ee-bb58-644dc857c279
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 77c659f3-f151-78f6-bab6-8322bc1851c9, HSSetConstantBuffers, HSSetConstantBuffers method [Direct3D 11], HSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSSetConstantBuffers method, ID3D11DeviceContext.HSSetConstantBuffers, ID3D11DeviceContext::HSSetConstantBuffers, d3d11/ID3D11DeviceContext::HSSetConstantBuffers, direct3d11.id3d11devicecontext_hssetconstantbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

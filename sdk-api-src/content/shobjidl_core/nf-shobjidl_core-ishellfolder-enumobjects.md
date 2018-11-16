@@ -7,7 +7,7 @@ old-location: shell\IShellFolder_EnumObjects.htm
 tech.root: shell
 ms.assetid: 248bec8b-0bf4-47d5-adb3-31a685a2c359
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EnumObjects, EnumObjects method [Windows Shell], EnumObjects method [Windows Shell],IShellFolder interface, EnumObjects method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],EnumObjects method, IShellFolder.EnumObjects, IShellFolder2 interface [Windows Shell],EnumObjects method, IShellFolder2::EnumObjects, IShellFolder::EnumObjects, _win32_IShellFolder_EnumObjects, shell.IShellFolder_EnumObjects, shobjidl_core/IShellFolder2::EnumObjects, shobjidl_core/IShellFolder::EnumObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,9 +67,11 @@ Enables a client to determine the contents of a folder by creating an item ident
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+Type: <b>HWND</b>
+
+If user input is required to perform the enumeration, this window handle should be used by the enumeration object as the parent window to take user input. An example would be a dialog box to ask for a password or prompt the user to insert a CD or floppy disk. If <i>hwndOwner</i> is set to <b>NULL</b>, the enumerator should not post any messages, and if user input is required, it should silently fail.
 
 
 ### -param grfFlags [in]
@@ -84,13 +86,6 @@ Flags indicating which items to include in the enumeration. For a list of possib
 Type: <b><a href="https://msdn.microsoft.com/b6f139d3-c54c-4350-9d8b-cd534909a488">IEnumIDList</a>**</b>
 
 The address that receives a pointer to the <a href="https://msdn.microsoft.com/b6f139d3-c54c-4350-9d8b-cd534909a488">IEnumIDList</a> interface of the enumeration object created by this method. If an error occurs or no suitable subobjects are found, <i>ppenumIDList</i> is set to <b>NULL</b>.
-
-
-#### - hwndOwner [in]
-
-Type: <b>HWND</b>
-
-If user input is required to perform the enumeration, this window handle should be used by the enumeration object as the parent window to take user input. An example would be a dialog box to ask for a password or prompt the user to insert a CD or floppy disk. If <i>hwndOwner</i> is set to <b>NULL</b>, the enumerator should not post any messages, and if user input is required, it should silently fail.
 
 
 ## -returns

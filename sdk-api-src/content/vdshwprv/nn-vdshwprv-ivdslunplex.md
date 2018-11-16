@@ -7,7 +7,7 @@ old-location: base\ivdslunplex.htm
 tech.root: VDS
 ms.assetid: de795ae2-784c-43d7-a34c-546af31d2747
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsLunPlex, IVdsLunPlex interface [VDS], IVdsLunPlex interface [VDS],described, base.ivdslunplex, vds/IVdsLunPlex, vdshwprv/IVdsLunPlex
 ms.prod: windows-hardware
 ms.technology: windows-devices

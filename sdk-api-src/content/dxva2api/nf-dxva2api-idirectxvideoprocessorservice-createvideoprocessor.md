@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_createvideoprocessor.htm
 tech.root: medfound
 ms.assetid: 18178a10-f902-4d25-992e-a27145204321
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: 18178a10-f902-4d25-992e-a27145204321, CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],CreateVideoProcessor method, IDirectXVideoProcessorService.CreateVideoProcessor, IDirectXVideoProcessorService::CreateVideoProcessor, dxva2api/IDirectXVideoProcessorService::CreateVideoProcessor, mf.idirectxvideoprocessorservice_createvideoprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,9 +67,10 @@ Creates a video processor device.
 
 
 
-### -param VideoProcDeviceGuid
+### -param VideoProcDeviceGuid [in]
 
-TBD
+A GUID that specifies the video processor to create.
+          To get the list of video processor GUIDs, call <a href="https://msdn.microsoft.com/26b52407-7c75-4731-aff3-41376aa9ac3a">IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids</a>.
 
 
 ### -param pVideoDesc [in]
@@ -93,12 +94,6 @@ The maximum number of substreams that will be used with this device.
 
 Receives a pointer to the video processor's <a href="https://msdn.microsoft.com/a9bc3162-4f37-4f0b-8a8e-8ebeb8f0d8d5">IDirectXVideoProcessor</a> interface. The caller must release the interface.
           
-
-
-#### - VideoProcGuid [in]
-
-A GUID that specifies the video processor to create.
-          To get the list of video processor GUIDs, call <a href="https://msdn.microsoft.com/26b52407-7c75-4731-aff3-41376aa9ac3a">IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids</a>.
 
 
 ## -returns

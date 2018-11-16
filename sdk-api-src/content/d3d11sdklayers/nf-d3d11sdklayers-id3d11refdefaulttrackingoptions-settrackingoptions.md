@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11refdefaulttrackingoptions_settrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11RefDefaultTrackingOptions interface [Direct3D 11],SetTrackingOptions method, ID3D11RefDefaultTrackingOptions.SetTrackingOptions, ID3D11RefDefaultTrackingOptions::SetTrackingOptions, SetTrackingOptions, SetTrackingOptions method [Direct3D 11], SetTrackingOptions method [Direct3D 11],ID3D11RefDefaultTrackingOptions interface, d3d11sdklayers/ID3D11RefDefaultTrackingOptions::SetTrackingOptions, direct3d11.id3d11refdefaulttrackingoptions_settrackingoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,20 +70,20 @@ Sets graphics processing unit (GPU) debug reference default tracking options for
 
 ### -param ResourceTypeFlags
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh404503(v=VS.85).aspx">D3D11_SHADER_TRACKING_RESOURCE_TYPE</a>-typed value that specifies the type of resource to track.
+A <a href="https://msdn.microsoft.com/148303AC-E373-4D41-BDF5-0E17B2A3D366">D3D11_SHADER_TRACKING_RESOURCE_TYPE</a>-typed value that specifies the type of resource to track.
           
 
 
 ### -param Options
 
-A combination of <a href="https://msdn.microsoft.com/en-us/library/Hh404501(v=VS.85).aspx">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
+A combination of <a href="https://msdn.microsoft.com/20C152CD-B155-4B46-8F41-EDDEC60494DF">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
 
 
 ## -returns
 
 
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 return codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 return codes</a>.
           
 
 
@@ -104,7 +104,7 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446832(v=VS.85).aspx">ID3D11RefDefaultTrackingOptions</a>
+<a href="https://msdn.microsoft.com/B6DD9810-275E-466B-8FE8-64EED0933B45">ID3D11RefDefaultTrackingOptions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmwriter_generatekeyseed.htm
 tech.root: wmformat
 ms.assetid: c3664dec-5ba4-4842-80f1-6652d526295d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GenerateKeySeed, GenerateKeySeed method [windows Media Format], GenerateKeySeed method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateKeySeed method, IWMDRMWriter.GenerateKeySeed, IWMDRMWriter::GenerateKeySeed, IWMDRMWriterGenerateKeySeed, wmformat.iwmdrmwriter_generatekeyseed, wmsdkidl/IWMDRMWriter::GenerateKeySeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ req.redist:
 ]
 
 
-The <b>GenerateKeySeed</b> method generates a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DRM</a> key seed.
+The <b>GenerateKeySeed</b> method generates a <a href="wmformat_glossary.htm">DRM</a> key seed.
 
 
 

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_customaction.htm
 tech.root: Fsrm
 ms.assetid: 25014b2d-4f08-45bb-a4c4-d8ab72dc53b1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CustomAction property [File Server Resource Manager], CustomAction property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],CustomAction property, IFsrmFileManagementJob.CustomAction, IFsrmFileManagementJob.get_CustomAction, IFsrmFileManagementJob::CustomAction, IFsrmFileManagementJob::get_CustomAction, fs.ifsrmfilemanagementjob_customaction, fsrm.ifsrmfilemanagementjob_customaction, fsrmreports/IFsrmFileManagementJob::CustomAction, fsrmreports/IFsrmFileManagementJob::get_CustomAction, get_CustomAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

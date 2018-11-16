@@ -4,10 +4,10 @@ title: IAzPrincipalLocator
 author: windows-sdk-content
 description: Locates and chooses ADAM principals in Authorization Manager.
 old-location: security\iazprincipallocator.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7ae3f0a3-9eeb-44d9-954a-a6526bb4eb3f
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: IAzPrincipalLocator, IAzPrincipalLocator interface [Security], IAzPrincipalLocator interface [Security],described, azroles/ IAzPrincipalLocator, security.iazprincipallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

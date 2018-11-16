@@ -4,10 +4,10 @@ title: "_PROVIDER_FIELD_INFO"
 author: windows-sdk-content
 description: Defines the field information.
 old-location: etw\provider_field_info_struct.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: a7c88c25-3acc-42aa-bf2b-bc7651e84f8c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PPROVIDER_FIELD_INFO, PROVIDER_FIELD_INFO, PROVIDER_FIELD_INFO structure [ETW], _PROVIDER_FIELD_INFO, etw.provider_field_info_struct, tdh.provider_field_info_struct, tdh/PROVIDER_FIELD_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

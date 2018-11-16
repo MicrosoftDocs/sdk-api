@@ -7,7 +7,7 @@ old-location: wcs\cmtranslatergbsext.htm
 tech.root: WCS
 ms.assetid: 521d39b3-0060-469c-808a-8d443d8f9d89
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CMTranslateRGBsExt, CMTranslateRGBsExt function [Windows Color System], _color_CMTranslateRGBsExt, icm/CMTranslateRGBsExt, wcs.cmtranslatergbsext
 ms.prod: windows-hardware
 ms.technology: windows-devices

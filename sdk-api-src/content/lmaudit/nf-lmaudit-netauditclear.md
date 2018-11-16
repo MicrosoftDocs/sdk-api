@@ -7,7 +7,7 @@ old-location: netmgmt\netauditclear.htm
 tech.root: NetMgmt
 ms.assetid: e767ba9a-3df8-49db-80b3-9f0875cdeaaa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NetAuditClear, NetAuditClear function [Network Management], _win32_netauditclear, lmaudit/NetAuditClear, netmgmt.netauditclear
 ms.prod: windows-hardware
 ms.technology: windows-devices

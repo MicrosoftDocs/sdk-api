@@ -4,10 +4,10 @@ title: IBDA_DigitalDemodulator2::get_RollOff
 author: windows-sdk-content
 description: Gets the demodulator's roll-off factor.
 old-location: mstv\ibda_digitaldemodulator2_get_rolloff.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4b1cd08a-50fd-48e9-9e97-8460e6c990c1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_RollOff method, IBDA_DigitalDemodulator2.get_RollOff, IBDA_DigitalDemodulator2::get_RollOff, bdaiface/IBDA_DigitalDemodulator2::get_RollOff, get_RollOff, get_RollOff method [Microsoft TV Technologies], get_RollOff method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_rolloff
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693285(v=VS.85).aspx">IBDA_DigitalDemodulator2</a>
+<a href="https://msdn.microsoft.com/337fba05-80d5-4638-9936-2e02767a5b1b">IBDA_DigitalDemodulator2</a>
  
 
  

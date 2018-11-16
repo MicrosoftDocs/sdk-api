@@ -7,7 +7,7 @@ old-location: tsf\itfstatussink_onstatuschange.htm
 tech.root: TSF
 ms.assetid: 6eabf08f-006b-43b4-aea7-1d803b3d09b2
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfStatusSink interface [Text Services Framework],OnStatusChange method, ITfStatusSink.OnStatusChange, ITfStatusSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITfStatusSink interface, _tsf_itfstatussink_onstatuschange_ref, msctf/ITfStatusSink::OnStatusChange, tsf.itfstatussink_onstatuschange
 ms.prod: windows-hardware
 ms.technology: windows-devices

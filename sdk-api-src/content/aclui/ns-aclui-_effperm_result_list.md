@@ -4,10 +4,10 @@ title: "_EFFPERM_RESULT_LIST"
 author: windows-sdk-content
 description: Lists the effective permissions.
 old-location: security\effperm_result_list.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: D83C5632-F67A-42BA-A146-989EBB3B2763
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PEFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST structure [Security], PEFFPERM_RESULT_LIST, PEFFPERM_RESULT_LIST structure pointer [Security], _EFFPERM_RESULT_LIST, aclui/EFFPERM_RESULT_LIST, aclui/PEFFPERM_RESULT_LIST, security.effperm_result_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices

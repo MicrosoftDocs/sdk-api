@@ -7,7 +7,7 @@ old-location: base\ivsshardwaresnapshotprovider.htm
 tech.root: VSS
 ms.assetid: 97fbb6bf-110e-4393-bf25-1ec378b91bdc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], IVssHardwareSnapshotProvider interface [VSS],described, base.ivsshardwaresnapshotprovider, vsprov/IVssHardwareSnapshotProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

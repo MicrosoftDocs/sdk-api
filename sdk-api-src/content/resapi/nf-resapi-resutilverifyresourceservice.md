@@ -4,10 +4,10 @@ title: ResUtilVerifyResourceService function
 author: windows-sdk-content
 description: Verifies that a named service is starting or currently running. The PRESUTIL_VERIFY_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilverifyresourceservice.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 452f4e83-74a6-4830-b244-599e9dc5c854
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PRESUTIL_VERIFY_RESOURCE_SERVICE, PRESUTIL_VERIFY_RESOURCE_SERVICE function [Failover Cluster], ResUtilVerifyResourceService, ResUtilVerifyResourceService function [Failover Cluster], _wolf_resutilverifyresourceservice, mscs.resutilverifyresourceservice, resapi/PRESUTIL_VERIFY_RESOURCE_SERVICE, resapi/ResUtilVerifyResourceService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Verifies that a named <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">service</a> is starting or currently running. The <b>PRESUTIL_VERIFY_RESOURCE_SERVICE</b> type defines a pointer to this function.
+Verifies that a named <a href="s_gly.htm">service</a> is starting or currently running. The <b>PRESUTIL_VERIFY_RESOURCE_SERVICE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -77,6 +77,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error code.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SERVICE_NOT_ACTIVE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The service is not operational.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

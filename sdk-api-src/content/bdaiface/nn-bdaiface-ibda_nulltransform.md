@@ -4,10 +4,10 @@ title: IBDA_NullTransform
 author: windows-sdk-content
 description: The IBDA_NullTransform interface is implemented on all BDA device filters.
 old-location: mstv\ibda_nulltransform.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: f13350cb-5064-405d-aeb6-25f684d0bdbb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_NullTransform, IBDA_NullTransform interface [Microsoft TV Technologies], IBDA_NullTransform interface [Microsoft TV Technologies],described, IBDA_NullTransformInterface, bdaiface/IBDA_NullTransform, mstv.ibda_nulltransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ The <b>IBDA_NullTransform</b> interface is implemented on all BDA device filters
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NullTransform</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_NullTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NullTransform</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_NullTransform</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>IBDA_NullTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693419(v=VS.85).aspx">Start</a>
+<a href="https://msdn.microsoft.com/c3f86317-66b6-449e-9db8-4ec09fac8adc">Start</a>
 </td>
 <td align="left" width="63%">
 Restarts the transforms on data flowing through the control node.
@@ -82,7 +82,7 @@ Restarts the transforms on data flowing through the control node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693420(v=VS.85).aspx">Stop</a>
+<a href="https://msdn.microsoft.com/1881d54f-2e26-4cb5-8456-da24f569875b">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the transforms on data flowing through the control node.
@@ -106,7 +106,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
  
 
  

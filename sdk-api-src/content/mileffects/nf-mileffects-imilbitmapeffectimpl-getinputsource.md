@@ -58,7 +58,7 @@ req.redist: Microsoft .Net 3.0
 ## -description
 
 
-Retrieves the input <a href="https://msdn.microsoft.com/en-us/library/Ee690171(v=VS.85).aspx">IWICBitmapSource Interface</a>.
+Retrieves the input <a href="_wic_codec_iwicbitmapsource">IWICBitmapSource Interface</a>.
 
 
 ## -parameters

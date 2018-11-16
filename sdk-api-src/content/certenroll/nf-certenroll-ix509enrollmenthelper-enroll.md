@@ -7,7 +7,7 @@ old-location: security\ix509enrollmenthelper_enroll.htm
 tech.root: SecCertEnroll
 ms.assetid: 4f178df7-714f-49e6-9bf5-647acc23b0ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Enroll, Enroll method [Security], Enroll method [Security],IX509EnrollmentHelper interface, EnrollPrompt, IX509EnrollmentHelper interface [Security],Enroll method, IX509EnrollmentHelper.Enroll, IX509EnrollmentHelper::Enroll, certenroll/IX509EnrollmentHelper::Enroll, security.ix509enrollmenthelper_enroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,17 +73,17 @@ A <b>BSTR</b> that contains the certificate enrollment policy server URL.
 
 ### -param strTemplateName [in]
 
-A  <b>BSTR</b> variable that contains the Common Name (CN) of the template as it appears in Active Directory or the dotted decimal <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a>.
+A  <b>BSTR</b> variable that contains the Common Name (CN) of the template as it appears in Active Directory or the dotted decimal <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a>.
 
 
 ### -param Encoding [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa374936(v=VS.85).aspx">EncodingType</a> enumeration value that specifies the type of encoding applied to a byte array for display purposes.
+An <a href="https://msdn.microsoft.com/b42628ae-deed-497b-a20f-d175843b79c2">EncodingType</a> enumeration value that specifies the type of encoding applied to a byte array for display purposes.
 
 
 ### -param enrollFlags [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ee351754(v=VS.85).aspx">WebEnrollmentFlags</a> enumeration value that specifies web enrollment behavior. This can be the following value.
+A <a href="https://msdn.microsoft.com/3b5940c4-f262-498e-82ab-c56af13afd06">WebEnrollmentFlags</a> enumeration value that specifies web enrollment behavior. This can be the following value.
 
 <table>
 <tr>
@@ -115,7 +115,7 @@ A <b>BSTR</b> that contains the issued certificate.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -154,7 +154,7 @@ The <i>strEnrollmentPolicyServerURI</i> and <i>strTemplateName</i> parameters ex
 
 
 
-The <b>Enroll</b> method retrieves the appropriate template, calls <a href="https://msdn.microsoft.com/en-us/library/Ee351682(v=VS.85).aspx">InitializeFromTemplate</a>, and then calls <a href="https://msdn.microsoft.com/en-us/library/Aa377871(v=VS.85).aspx">Enroll</a> on the <a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a> object.
+The <b>Enroll</b> method retrieves the appropriate template, calls <a href="https://msdn.microsoft.com/aa260ff7-d55b-4fda-88e2-2f1d68cc41e1">InitializeFromTemplate</a>, and then calls <a href="https://msdn.microsoft.com/63abecac-39f4-497a-8851-7a2260abc3dd">Enroll</a> on the <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a> object.
 
 This method does not installed the issued certificate.
 
@@ -166,7 +166,7 @@ This method does not installed the issued certificate.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351687(v=VS.85).aspx">IX509EnrollmentHelper</a>
+<a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a>
  
 
  

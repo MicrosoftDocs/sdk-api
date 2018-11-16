@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSource2::put_RateEx
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersource2_put_rateex.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: b213ad08-8a72-4b4a-bffa-b68783693340
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],put_RateEx method, IMSVidStreamBufferSource2.put_RateEx, IMSVidStreamBufferSource2::put_RateEx, IMSVidStreamBufferSource2put_RateEx, mstv.imsvidstreambuffersource2_put_rateex, put_RateEx, put_RateEx method [Microsoft TV Technologies], put_RateEx method [Microsoft TV Technologies],IMSVidStreamBufferSource2 interface, segment/IMSVidStreamBufferSource2::put_RateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,19 +72,14 @@ The <b>put_RateEx</b> method sets the playback rate, and sets the frame rate for
 
 
 
-### -param dwRate
+### -param dwRate [in]
 
-TBD
+Playback rate. The valid range is (<i>dRate</i> &gt;= 0.1 || <i>dRate</i> &lt;= –0.1).
 
 
 ### -param dwFramesPerSecond [in]
 
 Frames per second for fast-forward play. For more information, see <a href="https://msdn.microsoft.com/37b80d0d-561d-4ef3-b0ad-70fb43530026">IStreamBufferMediaSeeking2::SetRateEx</a>.
-
-
-#### - dRate [in]
-
-Playback rate. The valid range is (<i>dRate</i> &gt;= 0.1 || <i>dRate</i> &lt;= –0.1).
 
 
 ## -returns

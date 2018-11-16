@@ -7,7 +7,7 @@ old-location: wcn\iwcndevice_unadvise.htm
 tech.root: wcn
 ms.assetid: d76ebc9e-8adc-4640-a377-f69cef43afca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],Unadvise method, IWCNDevice.Unadvise, IWCNDevice::Unadvise, Unadvise, Unadvise method [Windows Connect Now], Unadvise method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_unadvise, wcndevice/IWCNDevice::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

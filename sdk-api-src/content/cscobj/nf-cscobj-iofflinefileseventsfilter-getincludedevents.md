@@ -7,7 +7,7 @@ old-location: of\iofflinefileseventsfilter_getincludedevents.htm
 tech.root: OfflineFiles
 ms.assetid: ecb10da3-7566-43f7-8349-f94e59e12907
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetIncludedEvents, GetIncludedEvents method [Offline Files], GetIncludedEvents method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetIncludedEvents method, IOfflineFilesEventsFilter.GetIncludedEvents, IOfflineFilesEventsFilter::GetIncludedEvents, cscobj/IOfflineFilesEventsFilter::GetIncludedEvents, of.iofflinefileseventsfilter_getincludedevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Retrieves an array of <a href="https://msdn.microsoft.com/en-us/library/Bb530645(v=VS.85).aspx">OFFLINEFILES_EVENTS</a> enumeration values describing which events should be received by the event sink. If a particular event is specified both in <b>IOfflineFilesEventsFilter::GetIncludedEvents</b> and <a href="https://msdn.microsoft.com/en-us/library/Bb530533(v=VS.85).aspx">IOfflineFilesEventsFilter::GetExcludedEvents</a>, the event is excluded from this event sink.
+Retrieves an array of <a href="https://msdn.microsoft.com/4ab65756-5985-4240-805d-2221db3d1459">OFFLINEFILES_EVENTS</a> enumeration values describing which events should be received by the event sink. If a particular event is specified both in <b>IOfflineFilesEventsFilter::GetIncludedEvents</b> and <a href="https://msdn.microsoft.com/40e388b2-b051-4b0a-b96e-7a73b521758e">IOfflineFilesEventsFilter::GetExcludedEvents</a>, the event is excluded from this event sink.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Specifies the maximum number of elements that can be stored in the array referen
 
 ### -param prgEvents [out]
 
-Contains the address of an array of <a href="https://msdn.microsoft.com/en-us/library/Bb530645(v=VS.85).aspx">OFFLINEFILES_EVENTS</a> enumeration values.  Place the <b>OFFLINEFILES_EVENT_XXXXXX</b> identifier in an array entry to specify that the corresponding event is desired by this event sink.
+Contains the address of an array of <a href="https://msdn.microsoft.com/4ab65756-5985-4240-805d-2221db3d1459">OFFLINEFILES_EVENTS</a> enumeration values.  Place the <b>OFFLINEFILES_EVENT_XXXXXX</b> identifier in an array entry to specify that the corresponding event is desired by this event sink.
 
 
 ### -param pcEvents [out]
@@ -96,15 +96,15 @@ Return <b>S_OK</b> if implemented, <b>E_NOTIMPL</b> if not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530532(v=VS.85).aspx">IOfflineFilesEventsFilter</a>
+<a href="https://msdn.microsoft.com/8c2c793e-c91c-4ca7-a03c-e349de00de6c">IOfflineFilesEventsFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530533(v=VS.85).aspx">IOfflineFilesEventsFilter::GetExcludedEvents</a>
+<a href="https://msdn.microsoft.com/40e388b2-b051-4b0a-b96e-7a73b521758e">IOfflineFilesEventsFilter::GetExcludedEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530645(v=VS.85).aspx">OFFLINEFILES_EVENTS</a>
+<a href="https://msdn.microsoft.com/4ab65756-5985-4240-805d-2221db3d1459">OFFLINEFILES_EVENTS</a>
  
 
  

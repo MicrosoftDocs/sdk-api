@@ -4,10 +4,10 @@ title: IMPEG2_TIF_CONTROL::UnregisterTIF
 author: windows-sdk-content
 description: The UnregisterTIF method unregisters the TIF with the Network Provider.
 old-location: mstv\impeg2_tif_control_unregistertif.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: e4fd151e-ec24-41b9-85df-fba05fc174d1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],UnregisterTIF method, IMPEG2_TIF_CONTROL.UnregisterTIF, IMPEG2_TIF_CONTROL::UnregisterTIF, IMPEG2_TIF_CONTROLUnregisterTIF, UnregisterTIF, UnregisterTIF method [Microsoft TV Technologies], UnregisterTIF method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, bdatif/IMPEG2_TIF_CONTROL::UnregisterTIF, mstv.impeg2_tif_control_unregistertif
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The <b>UnregisterTIF</b> method unregisters the TIF with the Network Provider.
 
 ### -param pvRegistrationContext [in]
 
-Identifier returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd694418(v=VS.85).aspx">IMPEG2_TIF_CONTROL::RegisterTIF</a> method.
+Identifier returned by the <a href="https://msdn.microsoft.com/d17b1f6b-24f4-40f4-9a58-aa582c0958f8">IMPEG2_TIF_CONTROL::RegisterTIF</a> method.
 
 
 ## -returns
@@ -127,11 +127,11 @@ Call this method after the TIF's intput pin has been disconnected from the Demux
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694413(v=VS.85).aspx">IMPEG2_TIF_CONTROL Interface</a>
+<a href="https://msdn.microsoft.com/9583365d-b318-49e2-a32f-f6cc9d3f289d">IMPEG2_TIF_CONTROL Interface</a>
  
 
  

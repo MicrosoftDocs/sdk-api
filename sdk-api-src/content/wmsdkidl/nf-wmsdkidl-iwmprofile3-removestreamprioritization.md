@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile3_removestreamprioritization.htm
 tech.root: wmformat
 ms.assetid: 1522cb9f-ce3f-4183-8779-3ee112efb40b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],RemoveStreamPrioritization method, IWMProfile3.RemoveStreamPrioritization, IWMProfile3::RemoveStreamPrioritization, IWMProfile3RemoveStreamPrioritization, RemoveStreamPrioritization, RemoveStreamPrioritization method [windows Media Format], RemoveStreamPrioritization method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_removestreamprioritization, wmsdkidl/IWMProfile3::RemoveStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices

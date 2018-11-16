@@ -7,7 +7,7 @@ old-location: wcn\iwcndevice_setvendorextension.htm
 tech.root: wcn
 ms.assetid: ed96b9bc-4f4e-48bb-9c1d-8a0ababe0b26
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],SetVendorExtension method, IWCNDevice.SetVendorExtension, IWCNDevice::SetVendorExtension, SetVendorExtension, SetVendorExtension method [Windows Connect Now], SetVendorExtension method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_setvendorextension, wcndevice/IWCNDevice::SetVendorExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

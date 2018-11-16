@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CachedBitmap_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\cachedbitmap.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CachedBitmap, CachedBitmap class [GDI+], CachedBitmap class [GDI+],described, _gdiplus_CLASS_CachedBitmap_Class, gdiplus._gdiplus_CLASS_CachedBitmap_Class, gdiplusheaders/CachedBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,6 +50,6 @@ req.redist:
 ## -description
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms536270(v=VS.85).aspx">CachedBitmap</a> object stores a bitmap in a format that is optimized for display on a particular device. To display a cached bitmap, call the 
+A <a href="https://msdn.microsoft.com/c1791cad-522a-4a66-b27f-bc989cf5f11b">CachedBitmap</a> object stores a bitmap in a format that is optimized for display on a particular device. To display a cached bitmap, call the 
 			<b>Graphics::DrawCachedBitmap</b> method.
 

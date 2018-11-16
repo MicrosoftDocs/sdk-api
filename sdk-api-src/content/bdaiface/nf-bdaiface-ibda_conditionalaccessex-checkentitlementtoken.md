@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccessEx::CheckEntitlementToken
 author: windows-sdk-content
 description: Checks the access availability of content that is identified by an entitlement token.
 old-location: mstv\ibda_conditionalaccessex_checkentitlementtoken.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ea581065-b10b-4a2a-9090-99d6fd140ea9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CheckEntitlementToken, CheckEntitlementToken method [Microsoft TV Technologies], CheckEntitlementToken method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CheckEntitlementToken method, IBDA_ConditionalAccessEx.CheckEntitlementToken, IBDA_ConditionalAccessEx::CheckEntitlementToken, bdaiface/IBDA_ConditionalAccessEx::CheckEntitlementToken, mstv.ibda_conditionalaccessex_checkentitlementtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ The language of the dialog. This string contains an ISO 639-2 language code with
 
 ### -param RequestType [in]
 
-The type of access that is being requested, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd693004(v=VS.85).aspx">BDA_CONDITIONALACCESS_REQUESTTYPE</a> enumeration.
+The type of access that is being requested, specified as a member of the <a href="https://msdn.microsoft.com/b21bca45-e219-4670-b209-9d7a63fbd65c">BDA_CONDITIONALACCESS_REQUESTTYPE</a> enumeration.
 
 
 ### -param ulcbEntitlementTokenLen [in]
@@ -114,7 +114,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693262(v=VS.85).aspx">IBDA_ConditionalAccessEx</a>
+<a href="https://msdn.microsoft.com/9db9b6b1-fc4f-48f0-940e-d79a321ef094">IBDA_ConditionalAccessEx</a>
  
 
  

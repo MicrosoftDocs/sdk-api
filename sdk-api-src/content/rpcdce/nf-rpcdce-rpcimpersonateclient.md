@@ -4,10 +4,10 @@ title: RpcImpersonateClient function
 author: windows-sdk-content
 description: A server thread that is processing client remote procedure calls can call the RpcImpersonateClient function to impersonate the active client.
 old-location: rpc\rpcimpersonateclient.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 1b91c4dc-ac49-4002-b293-a25ca2ffcb21
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: RpcImpersonateClient, RpcImpersonateClient function [RPC], _rpc_rpcimpersonateclient, rpc.rpcimpersonateclient, rpcdce/RpcImpersonateClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

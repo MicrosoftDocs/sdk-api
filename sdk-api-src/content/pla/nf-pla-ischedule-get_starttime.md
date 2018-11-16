@@ -7,7 +7,7 @@ old-location: pla\ischedule_starttime.htm
 tech.root: PLA
 ms.assetid: 296c9d7d-5629-456f-9119-f06d8b8c476f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISchedule interface [PLA],StartTime property, ISchedule.StartTime, ISchedule.get_StartTime, ISchedule::StartTime, ISchedule::get_StartTime, ISchedule::put_StartTime, StartTime property [PLA], StartTime property [PLA],ISchedule interface, base.ischedule_starttime, get_StartTime, pla.ischedule_starttime, pla/ISchedule::StartTime, pla/ISchedule::get_StartTime, pla/ISchedule::put_StartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

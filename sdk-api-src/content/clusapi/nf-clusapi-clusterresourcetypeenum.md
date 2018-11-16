@@ -4,10 +4,10 @@ title: ClusterResourceTypeEnum function
 author: windows-sdk-content
 description: Enumerates a resource type's possible owner nodes or resources.
 old-location: mscs\clusterresourcetypeenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 956300f4-a7e8-4a8b-ab7e-e8fc3a37bf21
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, ClusterResourceTypeEnum, ClusterResourceTypeEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM function [Failover Cluster], _wolf_clusterresourcetypeenum, clusapi/ClusterResourceTypeEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, mscs.clusterresourcetypeenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,8 +59,8 @@ req.redist:
 ## -description
 
 
-Enumerates a <a href="https://msdn.microsoft.com/en-us/library/Aa372279(v=VS.85).aspx">resource type's</a> possible owner 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">nodes</a> or resources, returning the name of one node or 
+Enumerates a <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type's</a> possible owner 
+    <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> or resources, returning the name of one node or 
     resource per call. The <b>PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM</b> type defines a pointer to this function.
 
 
@@ -77,7 +77,7 @@ Resource type enumeration handle returned from
 
 ### -param dwIndex [in]
 
-Index of the <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> or node object to return. This 
+Index of the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> or node object to return. This 
        parameter should be zero for the first call to 
        <b>ClusterResourceTypeEnum</b> and then 
        incremented for subsequent calls.
@@ -87,7 +87,7 @@ Index of the <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85)
 
 Type of object returned by 
        <b>ClusterResourceTypeEnum</b>. The following 
-       values of the <a href="https://msdn.microsoft.com/en-us/library/Bb309170(v=VS.85).aspx">CLUSTER_RESOURCE_TYPE_ENUM</a> 
+       values of the <a href="https://msdn.microsoft.com/f8356cb3-303c-4294-a634-d91d5141004a">CLUSTER_RESOURCE_TYPE_ENUM</a> 
        enumeration are valid.
 
 
@@ -122,6 +122,63 @@ Pointer to the size of the <i>lpszName</i> buffer as a count of characters. On i
 
 The function returns one of the following values.
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+<dt>259</dt>
+</dl>
+</td>
+<td width="60%">
+There are no more objects to be returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234</dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by <i>lpszName</i> is not big enough to hold the result. The 
+         <i>lpcchName</i> parameter returns the number of characters in the result, excluding the 
+         terminating <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System error code</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation failed.
+
+</td>
+</tr>
+</table>
+ 
+
 
 
 
@@ -131,12 +188,12 @@ The function returns one of the following values.
 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing 
-     buffers, see <a href="https://msdn.microsoft.com/en-us/library/Aa369338(v=VS.85).aspx">Data Size Conventions</a>.
+     buffers, see <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">Enumerating Objects</a>.
+See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
 
 <div class="code"></div>
 
@@ -147,7 +204,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">En
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309170(v=VS.85).aspx">CLUSTER_RESOURCE_TYPE_ENUM</a>
+<a href="https://msdn.microsoft.com/f8356cb3-303c-4294-a634-d91d5141004a">CLUSTER_RESOURCE_TYPE_ENUM</a>
 
 
 
@@ -159,7 +216,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">En
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372314(v=VS.85).aspx">Resource Type Management Functions</a>
+<a href="https://msdn.microsoft.com/5bcb0411-d9c1-47e7-b799-5b1fcf2a9274">Resource Type Management Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: cos\imessagemover_put_commitbatchsize.htm
 tech.root: cossdk
 ms.assetid: 107a934b-565e-444d-a042-2325b8f18754
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMessageMover interface [COM+],put_CommitBatchSize method, IMessageMover.put_CommitBatchSize, IMessageMover::put_CommitBatchSize, comsvcs/IMessageMover::put_CommitBatchSize, cos.imessagemover_put_commitbatchsize, put_CommitBatchSize, put_CommitBatchSize method [COM+], put_CommitBatchSize method [COM+],IMessageMover interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

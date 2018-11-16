@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device5_createfence.htm
 tech.root: direct3d11
 ms.assetid: B4AA9E0D-AAF4-4632-A98F-A3212764D5E1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateFence, CreateFence method [Direct3D 11], CreateFence method [Direct3D 11],ID3D11Device5 interface, ID3D11Device5 interface [Direct3D 11],CreateFence method, ID3D11Device5.CreateFence, ID3D11Device5::CreateFence, d3d11_4/ID3D11Device5::CreateFence, direct3d11.id3d11device5_createfence
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,12 @@ A combination of <a href="https://msdn.microsoft.com/745B72A2-628C-477E-8534-336
 
 ### -param ReturnedInterface
 
-TBD
+Type: <b>REFIID</b>
+
+The globally unique identifier (<b>GUID</b>) for the fence interface (<a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a>).
+            The <b>REFIID</b>, or <b>GUID</b>, of the interface to the fence can be obtained by using the __uuidof() macro.
+            For example, __uuidof(ID3D11Fence) will get the <b>GUID</b> of the interface to a fence.
+          
 
 
 ### -param ppFence [out]
@@ -96,16 +101,6 @@ TBD
 Type: <b>void**</b>
 
 A pointer to a memory block that receives a pointer to the <a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a> interface that is used to access the fence.
-          
-
-
-#### - riid
-
-Type: <b>REFIID</b>
-
-The globally unique identifier (<b>GUID</b>) for the fence interface (<a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a>).
-            The <b>REFIID</b>, or <b>GUID</b>, of the interface to the fence can be obtained by using the __uuidof() macro.
-            For example, __uuidof(ID3D11Fence) will get the <b>GUID</b> of the interface to a fence.
           
 
 
@@ -130,7 +125,7 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt589892(v=VS.85).aspx">UnregisterDeviceRemoved</a>
+<a href="direct3d11.id3d11device5_unregisterdeviceremoved">UnregisterDeviceRemoved</a>
  
 
  

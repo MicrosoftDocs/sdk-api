@@ -68,9 +68,9 @@ Sets the parent of the effect.
 
 ### -param pParentEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735291(v=VS.85).aspx">IMILBitmapEffectGroup</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/a8ca1b39-f1b9-40b5-bcec-bf2e3182b9aa">IMILBitmapEffectGroup</a>*</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms735291(v=VS.85).aspx">IMILBitmapEffectGroup</a> parent of the effect.
+The <a href="https://msdn.microsoft.com/a8ca1b39-f1b9-40b5-bcec-bf2e3182b9aa">IMILBitmapEffectGroup</a> parent of the effect.
 
 
 ## -returns

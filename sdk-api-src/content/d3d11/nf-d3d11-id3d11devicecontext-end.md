@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_end.htm
 tech.root: direct3d11
 ms.assetid: 9b941abc-04a3-4dd7-b72d-62cd5bd06b47
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: End, End method [Direct3D 11], End method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],End method, ID3D11DeviceContext.End, ID3D11DeviceContext::End, c700f203-34b8-01ee-d941-99cff256b5c2, d3d11/ID3D11DeviceContext::End, direct3d11.id3d11devicecontext_end
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ Returns nothing.
 
 
 
-Use <a href="https://msdn.microsoft.com/en-us/library/Ff476386(v=VS.85).aspx">ID3D11DeviceContext::Begin</a> to mark the beginning of the series of commands.
+Use <a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">ID3D11DeviceContext::Begin</a> to mark the beginning of the series of commands.
 
 
 
@@ -97,7 +97,7 @@ Use <a href="https://msdn.microsoft.com/en-us/library/Ff476386(v=VS.85).aspx">ID
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

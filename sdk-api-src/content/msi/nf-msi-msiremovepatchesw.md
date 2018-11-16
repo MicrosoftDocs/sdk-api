@@ -4,10 +4,10 @@ title: MsiRemovePatchesW function
 author: windows-sdk-content
 description: Removes one or more patches from a single product.
 old-location: setup\msiremovepatches.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: c1d73e52-fd58-4895-822e-3ebc8fe12db7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: INSTALLTYPE_SINGLE_INSTANCE, MsiRemovePatches, MsiRemovePatches function, MsiRemovePatchesA, MsiRemovePatchesW, msi/MsiRemovePatches, msi/MsiRemovePatchesA, msi/MsiRemovePatchesW, setup.msiremovepatches, setup.msiuninstallpatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

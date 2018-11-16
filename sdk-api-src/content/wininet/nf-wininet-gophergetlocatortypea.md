@@ -7,7 +7,7 @@ old-location: wininet\gophergetlocatortype.htm
 tech.root: WinInet
 ms.assetid: e6f0ef67-c411-43ff-a477-5a8635057f2c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GopherGetLocatorType, GopherGetLocatorType function [WinINet], GopherGetLocatorTypeA, GopherGetLocatorTypeW, _inet_gophergetlocatortype_function, wininet.gophergetlocatortype, wininet/GopherGetLocatorType, wininet/GopherGetLocatorTypeA, wininet/GopherGetLocatorTypeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

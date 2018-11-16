@@ -7,7 +7,7 @@ old-location: dxmath\xmcoloradjustcontrast.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorAdjustContrast(XMVECTOR,float)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMColorAdjustContrast, XMColorAdjustContrast, XMColorAdjustContrast method [DirectX Math Support APIs], dxmath.xmcoloradjustcontrast
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,19 +91,23 @@ Returns an <b>XMVECTOR</b> describing the color resulting from the contrast adju
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-XMVECTOR colorOut;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR colorOut;
 
 colorOut.x = (C.x - 0.5f) * Contrast + 0.5f;
 colorOut.y = (C.y - 0.5f) * Contrast + 0.5f;
 colorOut.z = (C.z - 0.5f) * Contrast + 0.5f;
 colorOut.w = C.w;
 
-return colorOut;
-```
-
-
+return colorOut;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

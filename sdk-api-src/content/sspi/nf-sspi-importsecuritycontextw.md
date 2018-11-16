@@ -4,10 +4,10 @@ title: ImportSecurityContextW function
 author: windows-sdk-content
 description: Imports a security context. The security context must have been exported to the process calling ImportSecurityContext by a previous call to ExportSecurityContext.
 old-location: security\importsecuritycontext.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 0f8e65d0-69cf-42ba-a903-1922d731e5ec
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ImportSecurityContext, ImportSecurityContext function [Security], ImportSecurityContextA, ImportSecurityContextW, _ssp_importsecuritycontext, security.importsecuritycontext, sspi/ImportSecurityContext, sspi/ImportSecurityContextA, sspi/ImportSecurityContextW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -174,7 +174,7 @@ An error occurred that did not map to an SSPI error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

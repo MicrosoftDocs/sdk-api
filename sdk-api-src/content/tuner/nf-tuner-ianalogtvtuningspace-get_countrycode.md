@@ -4,10 +4,10 @@ title: IAnalogTVTuningSpace::get_CountryCode
 author: windows-sdk-content
 description: The get_CountryCode method gets the country/region code of the tuning space (based on TAPI country/region codes).
 old-location: mstv\ianalogtvtuningspace_get_countrycode.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: f74f31cc-8e3a-41b8-bf27-f60b9cbcfcdb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_CountryCode method, IAnalogTVTuningSpace.get_CountryCode, IAnalogTVTuningSpace::get_CountryCode, IAnalogTVTuningSpaceget_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_countrycode, tuner/IAnalogTVTuningSpace::get_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_CountryCode</b> method gets the country/region code of the tuning spa
 
 
 
-### -param CountryCodeVal
-
-TBD
-
-
-
-
-#### - pCountryCodeVal [out]
+### -param CountryCodeVal [out]
 
 Receives the value for the country/region code.
 

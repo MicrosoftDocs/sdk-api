@@ -83,7 +83,7 @@ Provides a number of attributes set when the object is created.
 
 ### -param ppObject [out]
 
-Provides a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the created object.
+Provides a pointer to the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the created object.
 
 
 ## -returns

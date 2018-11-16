@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_operator_equal.htm
 tech.root: WmiSdk
 ms.assetid: e97bf5c7-90fd-49a7-9c3c-c719d5374f84
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator= method, WBEMTimeSpan.operator-assign(const BSTR), WBEMTimeSpan.operator=, WBEMTimeSpan::operator-assign(const BSTR), WBEMTimeSpan::operator=, _hmm_wbemtimespan_operator_equal, operator=, operator= method [Windows Management Instrumentation], operator= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator=, wmi.wbemtimespan_operator_equal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ TBD
 
 
 
-#### - bstrDMTFFormat
+#### - t
 
 <b>BSTR</b> in <a href="https://msdn.microsoft.com/13a3ca74-e3e9-44d7-9254-e288eb70ae4c">Interval Format</a>.
 

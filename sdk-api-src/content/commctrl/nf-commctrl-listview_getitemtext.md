@@ -4,10 +4,10 @@ title: ListView_GetItemText macro
 author: windows-sdk-content
 description: Gets the text of a list-view item or subitem. You can use this macro or send the LVM_GETITEMTEXT message explicitly.
 old-location: controls\ListView_GetItemText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemtext.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ListView_GetItemText, ListView_GetItemText macro [Windows Controls], _win32_ListView_GetItemText, _win32_ListView_GetItemText_cpp, commctrl/ListView_GetItemText, controls.ListView_GetItemText, controls._win32_ListView_GetItemText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the text of a list-view item or subitem. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761055(v=VS.85).aspx">LVM_GETITEMTEXT</a> message explicitly.
+Gets the text of a list-view item or subitem. You can use this macro or send the <a href="https://msdn.microsoft.com/5711ed18-a766-4e7f-9e9d-b9203231b369">LVM_GETITEMTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -131,7 +131,7 @@ A pointer to a buffer that receives the item or subitem text.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a>
+<a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a>
  
 
  

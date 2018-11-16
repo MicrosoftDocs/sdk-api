@@ -7,7 +7,7 @@ old-location: nla\inetworklistmanager_getnetworkconnection.htm
 tech.root: NLA
 ms.assetid: d57341f1-5f73-4d6d-964f-cb80cfbedf1b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetNetworkConnection, GetNetworkConnection method [Network Awareness], GetNetworkConnection method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworkConnection method, INetworkListManager.GetNetworkConnection, INetworkListManager::GetNetworkConnection, netlistmgr/INetworkListManager::GetNetworkConnection, nla.inetworklistmanager_getnetworkconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

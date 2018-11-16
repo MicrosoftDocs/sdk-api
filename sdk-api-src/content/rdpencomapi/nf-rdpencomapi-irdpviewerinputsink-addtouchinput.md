@@ -7,7 +7,7 @@ old-location: rdp\irdpviewerinputsink_addtouchinput.htm
 tech.root: Rdp
 ms.assetid: 5DD220B8-505E-43AE-9438-F1D553AABB0B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AddTouchInput, AddTouchInput method [RDP], AddTouchInput method [RDP],IRDPViewerInputSink interface, IRDPViewerInputSink interface [RDP],AddTouchInput method, IRDPViewerInputSink.AddTouchInput, IRDPViewerInputSink::AddTouchInput, rdp.irdpviewerinputsink_addtouchinput, rdpencomapi/IRDPViewerInputSink::AddTouchInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

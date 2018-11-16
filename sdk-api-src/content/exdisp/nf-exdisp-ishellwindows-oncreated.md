@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_OnCreated.htm
 tech.root: shell
 ms.assetid: ef2f75fe-dc93-403d-af1a-c08c45e2d818
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IShellWindows interface [Windows Shell],OnCreated method, IShellWindows.OnCreated, IShellWindows::OnCreated, OnCreated, OnCreated method [Windows Shell], OnCreated method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnCreated, exdisp/IShellWindows::OnCreated, shell.IShellWindows_OnCreated
 ms.prod: windows-hardware
 ms.technology: windows-devices

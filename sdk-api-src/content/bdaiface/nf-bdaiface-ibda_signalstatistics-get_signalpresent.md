@@ -4,10 +4,10 @@ title: IBDA_SignalStatistics::get_SignalPresent
 author: windows-sdk-content
 description: The get_SignalPresent method retrieves a Boolean value indicating whether a signal is present.
 old-location: mstv\ibda_signalstatistics_get_signalpresent.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 834149e1-50b7-42f6-8fee-a357ed4bc8b8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalPresent method, IBDA_SignalStatistics.get_SignalPresent, IBDA_SignalStatistics::get_SignalPresent, IBDA_SignalStatisticsget_SignalPresent, bdaiface/IBDA_SignalStatistics::get_SignalPresent, get_SignalPresent, get_SignalPresent method [Microsoft TV Technologies], get_SignalPresent method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signalpresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,15 +88,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693432(v=VS.85).aspx">IBDA_SignalStatistics Interface</a>
+<a href="https://msdn.microsoft.com/ee8b25d5-d39b-42ac-9f6a-0825e396241c">IBDA_SignalStatistics Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693440(v=VS.85).aspx">IBDA_SignalStatistics::put_SignalPresent</a>
+<a href="https://msdn.microsoft.com/9d27dd06-a180-4ee6-bb52-34a8f434ab6a">IBDA_SignalStatistics::put_SignalPresent</a>
  
 
  

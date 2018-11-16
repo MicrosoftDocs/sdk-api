@@ -4,10 +4,10 @@ title: IGetClusterUIInfo::GetClusterName
 author: windows-sdk-content
 description: Returns the name of the cluster.
 old-location: mscs\igetclusteruiinfo_getclustername.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2c892250-80b7-4bf8-9514-64833d0e3450
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetClusterName, GetClusterName method [Failover Cluster], GetClusterName method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetClusterName method, IGetClusterUIInfo.GetClusterName, IGetClusterUIInfo::GetClusterName, _wolf_igetclusteruiinfo_getclustername, cluadmex/IGetClusterUIInfo::GetClusterName, mscs.igetclusteruiinfo_getclustername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ req.redist:
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Returns the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Returns the name of the <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters
@@ -91,6 +91,52 @@ On input, pointer to the count of characters in the buffer pointed to by the
 If <b>GetClusterName</b> is not 
        successful, it can return other <b>HRESULT</b> values.
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the parameters are invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_MORE_DATA)</b></dt>
+<dt>0x800700ea</dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by <i>lpszName</i> is too small to hold the requested name. 
+         <a href="https://msdn.microsoft.com/2c892250-80b7-4bf8-9514-64833d0e3450">GetClusterName</a> returns the 
+         required number of characters in the content of <i>pcchName</i>.
+
+</td>
+</tr>
+</table>
+ 
+
 
 
 
@@ -111,7 +157,7 @@ If the <i>lpszName</i> parameter is set to <b>NULL</b> and the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370234(v=VS.85).aspx">IGetClusterUIInfo</a>
+<a href="https://msdn.microsoft.com/e41afb20-5bb8-475f-a056-53d7be8f4bf0">IGetClusterUIInfo</a>
  
 
  

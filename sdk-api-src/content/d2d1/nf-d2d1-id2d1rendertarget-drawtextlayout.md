@@ -4,10 +4,10 @@ title: ID2D1RenderTarget::DrawTextLayout
 author: windows-sdk-content
 description: Draws the formatted text described by the specified IDWriteTextLayout object.
 old-location: direct2d\ID2D1RenderTarget_DrawTextLayout.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9356071a-35ca-462a-8a77-887e63850586
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: DrawTextLayout, DrawTextLayout method [Direct2D], DrawTextLayout method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawTextLayout method, ID2D1RenderTarget.DrawTextLayout, ID2D1RenderTarget::DrawTextLayout, d2d1/ID2D1RenderTarget::DrawTextLayout, direct2d.ID2D1RenderTarget_DrawTextLayout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,9 +80,11 @@ Type: <b><a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31c
 The formatted text to draw. Any drawing effects that do not inherit from <a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a> are ignored. If there are drawing effects that inherit from <b>ID2D1Resource</b> that are not brushes, this method fails and the render target is put in an error state. 
 
 
-### -param defaultFillBrush
+### -param defaultFillBrush [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
+
+The brush used to paint any text in <i>textLayout</i> that does not already have a brush associated with it as a drawing effect (specified by the <a href="https://msdn.microsoft.com/d3269f8e-c1bc-4e84-92cb-a8899a0268ff">IDWriteTextLayout::SetDrawingEffect</a> method). 
 
 
 ### -param options
@@ -90,13 +92,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/30f5be4a-83c2-4039-8e09-00e842fc5eb2">D2D1_DRAW_TEXT_OPTIONS</a></b>
 
 A value that indicates whether the text should be snapped to pixel boundaries and whether the text should be clipped to the layout rectangle. The default value is <a href="https://msdn.microsoft.com/30f5be4a-83c2-4039-8e09-00e842fc5eb2">D2D1_DRAW_TEXT_OPTIONS_NONE</a>, which indicates that text should be snapped to pixel boundaries and it should not be clipped to the layout rectangle.
-
-
-#### - defaultForegroundBrush [in]
-
-Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
-
-The brush used to paint any text in <i>textLayout</i> that does not already have a brush associated with it as a drawing effect (specified by the <a href="https://msdn.microsoft.com/d3269f8e-c1bc-4e84-92cb-a8899a0268ff">IDWriteTextLayout::SetDrawingEffect</a> method). 
 
 
 ## -returns

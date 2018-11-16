@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccess::get_SmartCardStatus
 author: windows-sdk-content
 description: The get_SmartCardStatus method retrieves the status of the smart card.
 old-location: mstv\ibda_conditionalaccess_get_smartcardstatus.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 940247b0-c002-414f-9d01-9f4acfe90a35
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardStatus method, IBDA_ConditionalAccess.get_SmartCardStatus, IBDA_ConditionalAccess::get_SmartCardStatus, IBDA_ConditionalAccessget_SmartCardStatus, bdaiface/IBDA_ConditionalAccess::get_SmartCardStatus, get_SmartCardStatus, get_SmartCardStatus method [Microsoft TV Technologies], get_SmartCardStatus method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,13 +68,13 @@ The <b>get_SmartCardStatus</b> method retrieves the status of the smart card.
 
 ### -param pCardStatus [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/Dd695293(v=VS.85).aspx">SmartCardStatusType</a> that receives the card status type.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/c699c6a9-f554-4e2d-ac7f-9b5ff954fa6b">SmartCardStatusType</a> that receives the card status type.
           
 
 
 ### -param pCardAssociation [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/Dd695292(v=VS.85).aspx">SmartCardAssociationType</a> that receives the card association type.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/42fe27ed-d461-43bf-87c5-bd0704339ec7">SmartCardAssociationType</a> that receives the card association type.
           
 
 
@@ -115,7 +115,7 @@ All three parameters must be non-NULL or the method fails and returns <b>E_POINT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://msdn.microsoft.com/93bd3c38-2591-4d36-b296-5ad939487277">IBDA_ConditionalAccess Interface</a>
  
 
  

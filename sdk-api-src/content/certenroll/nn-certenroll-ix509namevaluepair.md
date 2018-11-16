@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepair.htm
 tech.root: SecCertEnroll
 ms.assetid: e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509NameValuePair, IX509NameValuePair interface [Security], IX509NameValuePair interface [Security],described, certenroll/IX509NameValuePair, security.ix509namevaluepair
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,20 @@ req.redist:
 ## -description
 
 
-The <b>IX509NameValuePair</b> interface represents a generic name-value pair. Although there are a few common name-value pairs created by the certificate request and enrollment process, you can use this object to specify any name and value. An <a href="https://msdn.microsoft.com/en-us/library/Aa378746(v=VS.85).aspx">IX509NameValuePairs</a> collection can be retrieved from an <a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a> object and an <a href="https://msdn.microsoft.com/en-us/library/Aa377133(v=VS.85).aspx">IX509CertificateRequestCmc</a> object. The collections are not related.
+The <b>IX509NameValuePair</b> interface represents a generic name-value pair. Although there are a few common name-value pairs created by the certificate request and enrollment process, you can use this object to specify any name and value. An <a href="https://msdn.microsoft.com/c881dc9f-4187-4ba1-9f3a-e1564e4f37c7">IX509NameValuePairs</a> collection can be retrieved from an <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a> object and an <a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a> object. The collections are not related.
 
 
 <dl>
 <dt><a id="name-value_pairs_and_the_enrollment_object_"></a><a id="NAME-VALUE_PAIRS_AND_THE_ENROLLMENT_OBJECT_"></a>name-value pairs and the enrollment object:</dt>
 <dd>
-Before an <a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a> object submits a certificate request to a certification authority (CA), the name-value collection is encoded as a concatenated  attribute string that has the format <i>Name1</i>:<i>Value1</i>\<i>Name2</i>:<i>Value2</i>\. You can retrieve the collection by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa378056(v=VS.85).aspx">NameValuePairs</a> property. You can use the <a href="https://msdn.microsoft.com/en-us/library/Aa378746(v=VS.85).aspx">IX509NameValuePairs</a> object to add name-value pairs to the collection.
+Before an <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a> object submits a certificate request to a certification authority (CA), the name-value collection is encoded as a concatenated  attribute string that has the format <i>Name1</i>:<i>Value1</i>\<i>Name2</i>:<i>Value2</i>\. You can retrieve the collection by calling the <a href="https://msdn.microsoft.com/d682fb7c-de80-4285-baa2-f86c997f0987">NameValuePairs</a> property. You can use the <a href="https://msdn.microsoft.com/c881dc9f-4187-4ba1-9f3a-e1564e4f37c7">IX509NameValuePairs</a> object to add name-value pairs to the collection.
 
 </dd>
 </dl>
 <dl>
 <dt><a id="name-value_pairs_and_the_CMC_request_object_"></a><a id="name-value_pairs_and_the_cmc_request_object_"></a><a id="NAME-VALUE_PAIRS_AND_THE_CMC_REQUEST_OBJECT_"></a>name-value pairs and the CMC request object:</dt>
 <dd>
-A CMC request object (<a href="https://msdn.microsoft.com/en-us/library/Aa377133(v=VS.85).aspx">IX509CertificateRequestCmc</a>) contains sequences of <b>TaggedAttribute</b>, <b>TaggedRequest</b>, and <b>TaggedContentInfo</b> ASN.1 structures. For more information,  see <a href="https://msdn.microsoft.com/en-us/library/Aa374889(v=VS.85).aspx">CMC Attributes</a>
+A CMC request object (<a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a>) contains sequences of <b>TaggedAttribute</b>, <b>TaggedRequest</b>, and <b>TaggedContentInfo</b> ASN.1 structures. For more information,  see <a href="https://msdn.microsoft.com/faeee338-bce4-4b35-9be9-72a6568fa259">CMC Attributes</a>
 
 
 The <b>TaggedAttribute</b> structure can contain a <b>RegInfo</b> attribute. This attribute consists of a byte array that contains the name-value pair collection. The byte array is created in the following manner:<ul>
@@ -96,10 +96,10 @@ The following example shows the ASN.1 output for a CMC certificate that contains
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509NameValuePair</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509NameValuePair</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509NameValuePair</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509NameValuePair</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -112,7 +112,7 @@ The <b>IX509NameValuePair</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378879(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/3e935718-a59a-443e-bff2-a010a41e7756">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from strings that contain the  name and associated value.
@@ -129,7 +129,7 @@ Initializes the object from strings that contain the  name and associated value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378904(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/2a124fe7-7f28-4911-b5fe-2c98b4187723">Name</a>
 
 
 </td>
@@ -141,7 +141,7 @@ Retrieves the name portion of the name-value pair.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378913(v=VS.85).aspx">Value</a>
+<a href="https://msdn.microsoft.com/769eb16b-68c7-4540-bd1d-d04585ba0dfd">Value</a>
 
 
 </td>
@@ -158,15 +158,15 @@ Retrieves the value portion of the name-value pair.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378746(v=VS.85).aspx">IX509NameValuePairs</a>
+<a href="https://msdn.microsoft.com/c881dc9f-4187-4ba1-9f3a-e1564e4f37c7">IX509NameValuePairs</a>
  
 
  

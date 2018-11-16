@@ -4,10 +4,10 @@ title: IDvbComponentDescriptor::GetLength
 author: windows-sdk-content
 description: Gets the body length of a Digital Video Broadcast (DVB) component descriptor
 old-location: mstv\idvbcomponentdescriptor_getlength.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 418d654a-a8cf-42f1-b361-bc1bf80da194
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbComponentDescriptor.GetLength, IDvbComponentDescriptor::GetLength, dvbsiparser/IDvbComponentDescriptor::GetLength, mstv.idvbcomponentdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

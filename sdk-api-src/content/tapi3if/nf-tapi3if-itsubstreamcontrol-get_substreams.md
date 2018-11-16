@@ -4,10 +4,10 @@ title: ITSubStreamControl::get_SubStreams
 author: windows-sdk-content
 description: The get_SubStreams method creates a collection of substreams currently available. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateSubStreams method.
 old-location: tapi3\itsubstreamcontrol_get_substreams.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1ea7dca0-9a0b-4966-83ba-0d1f6c5e5ccb
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITSubStreamControl interface [TAPI 2.2],get_SubStreams method, ITSubStreamControl.get_SubStreams, ITSubStreamControl::get_SubStreams, _tapi3_itsubstreamcontrol_get_substreams, get_SubStreams, get_SubStreams method [TAPI 2.2], get_SubStreams method [TAPI 2.2],ITSubStreamControl interface, tapi3.itsubstreamcontrol_get_substreams, tapi3if/ITSubStreamControl::get_SubStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -140,8 +140,8 @@ Insufficient memory exists to perform the operation.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/fc495bc3-1172-4e39-b617-055b7ac95898">ITSubStream</a> interface returned by <b>ITSubStreamControl::get_SubStreams</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/fc495bc3-1172-4e39-b617-055b7ac95898">ITSubStream</a> interface returned by <b>ITSubStreamControl::get_SubStreams</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITSubStream</b> interface to free resources associated with it.
 
 

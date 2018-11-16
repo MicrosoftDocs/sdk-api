@@ -7,7 +7,7 @@ old-location: wcs\cmgetps2colorrenderingintent.htm
 tech.root: WCS
 ms.assetid: 2cb056d1-a3d5-4492-80ed-07c34f80c8db
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CMGetPS2ColorRenderingIntent, CMGetPS2ColorRenderingIntent function [Windows Color System], _color_CMGetPS2ColorRenderingIntent, icm/CMGetPS2ColorRenderingIntent, wcs.cmgetps2colorrenderingintent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ID2D1ImageBrush::GetImage
 author: windows-sdk-content
 description: Gets the image associated with the image brush.
 old-location: direct2d\id2d1imagebrush_getimage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b5be6722-1ef5-40a5-babb-179f91412765
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetImage, GetImage method [Direct2D], GetImage method [Direct2D],ID2D1ImageBrush interface, ID2D1ImageBrush interface [Direct2D],GetImage method, ID2D1ImageBrush.GetImage, ID2D1ImageBrush::GetImage, d2d1_1/ID2D1ImageBrush::GetImage, direct2d.id2d1imagebrush_getimage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Gets the image associated with the image brush.
 
 
 
-### -param image
-
-TBD
-
-
-
-
-#### - Image [out]
+### -param image [out]
 
 Type: <b><a href="https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d">ID2D1Image</a>**</b>
 

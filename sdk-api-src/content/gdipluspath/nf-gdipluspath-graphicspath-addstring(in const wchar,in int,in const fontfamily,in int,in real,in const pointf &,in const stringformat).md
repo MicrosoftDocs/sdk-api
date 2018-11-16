@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddString_39.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddstringmethods\addstring_39wcharstring_intlength_fontfamilyfamily.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AddString, AddString method [GDI+], AddString method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddString method, GraphicsPath.AddString, GraphicsPath.AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const PointF &,IN const StringFormat), GraphicsPath.AddString(const WCHAR*,INT,const FontFamily*,INT,REAL,const PointF&,const StringFormat*), GraphicsPath::AddString, GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const PointF &,IN const StringFormat), _gdiplus_CLASS_GraphicsPath_AddString_39, gdiplus._gdiplus_CLASS_GraphicsPath_AddString_39
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,9 +143,13 @@ Note that GDI+ does not support PostScript fonts or OpenType fonts which do not 
 
 The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object <i>path</i>, adds a <b>NULL</b>-terminated string to <i>path</i>, and then draws <i>path</i>.
 
-
-```cpp
-VOID Example_AddString(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_AddString(HDC hdc)
 {
    Graphics graphics(hdc);
    FontFamily fontFamily(L"Times New Roman");
@@ -154,18 +158,18 @@ VOID Example_AddString(HDC hdc)
    path.AddString(
       L"Hello World", 
       -1,                 // NULL-terminated string
-      &fontFamily, 
+      &amp;fontFamily, 
       FontStyleRegular, 
       48, 
       PointF(50.0f, 50.0f),
       NULL);
 
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawPath(&pen, &path);
-}
-```
-
-
+   graphics.DrawPath(&amp;pen, &amp;path);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

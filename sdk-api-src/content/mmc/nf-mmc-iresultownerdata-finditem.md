@@ -4,10 +4,10 @@ title: IResultOwnerData::FindItem
 author: windows-sdk-content
 description: Finds the next item in a virtual list matching a specified string.
 old-location: mmc\iresultownerdata_finditem.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 839e6038-3f47-4192-b717-d81e4d9f202d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: FindItem, FindItem method [MMC], FindItem method [MMC],IResultOwnerData interface, IResultOwnerData interface [MMC],FindItem method, IResultOwnerData.FindItem, IResultOwnerData::FindItem, _slate_iresultownerdata_finditem, mmc.iresultownerdata_finditem, mmc/IResultOwnerData::FindItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,20 +66,15 @@ The <b>IResultOwnerData::FindItem</b> method finds the next item in a virtual li
 
 
 
-### -param pFindInfo
+### -param pFindInfo [in]
 
-TBD
+A pointer to the 
+<a href="https://msdn.microsoft.com/e52c3437-45ac-4397-ab8f-70bc4d5f44f5">RESULTFINDINFO</a> structure.
 
 
 ### -param pnFoundIndex [out]
 
 A pointer to the returned index of the item found. The value is –1 if no items are found.
-
-
-#### - pFindinfo [in]
-
-A pointer to the 
-<a href="https://msdn.microsoft.com/e52c3437-45ac-4397-ab8f-70bc4d5f44f5">RESULTFINDINFO</a> structure.
 
 
 ## -returns

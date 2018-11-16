@@ -7,7 +7,7 @@ old-location: xps\xps_glyph_mapping.htm
 tech.root: printdocs
 ms.assetid: 5cc76cba-66e4-4853-969b-a99ec7bb22f3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: XPS_GLYPH_MAPPING, XPS_GLYPH_MAPPING structure [XPS Documents and Packaging], __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0022, xps.xps_glyph_mapping, xpsobjectmodel/XPS_GLYPH_MAPPING
 ms.prod: windows-hardware
 ms.technology: windows-devices

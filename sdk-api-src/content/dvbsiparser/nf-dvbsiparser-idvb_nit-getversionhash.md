@@ -4,10 +4,10 @@ title: IDVB_NIT::GetVersionHash
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_getversionhash.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: b12a2363-a8a6-49b4-8d12-1e947d659eee
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetVersionHash method, IDVB_NIT.GetVersionHash, IDVB_NIT::GetVersionHash, IDVB_NITGetVersionHash, dvbsiparser/IDVB_NIT::GetVersionHash, mstv.idvb_nit_getversionhash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ The <b>GetVersionHash</b> method returns a hash value for this table instance. T
 
 
 
-### -param pdwVersionHash
-
-TBD
-
-
-
-
-#### - pbVal [out]
+### -param pdwVersionHash [out]
 
 Receives the hash value.
 

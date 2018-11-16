@@ -7,7 +7,7 @@ old-location: mf\mfasyncresult.htm
 tech.root: medfound
 ms.assetid: fffa32d6-5e9f-42a1-9978-04f5726528bc
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: MFASYNCRESULT, MFASYNCRESULT structure [Media Foundation], fffa32d6-5e9f-42a1-9978-04f5726528bc, mf.mfasyncresult, mfapi/MFASYNCRESULT, tagMFASYNCRESULT
 ms.prod: windows-hardware
 ms.technology: windows-devices

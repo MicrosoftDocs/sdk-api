@@ -4,10 +4,10 @@ title: DeleteAce function
 author: windows-sdk-content
 description: Deletes an access control entry (ACE) from an access control list (ACL).
 old-location: security\deleteace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 02ce45ad-3d51-4548-848e-a62bf4bf72a8
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: DeleteAce, DeleteAce function [Security], _win32_deleteace, security.deleteace, securitybaseapi/DeleteAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,7 +143,7 @@ An application can use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
  
 
  

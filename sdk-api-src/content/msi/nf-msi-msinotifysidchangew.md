@@ -4,10 +4,10 @@ title: MsiNotifySidChangeW function
 author: windows-sdk-content
 description: The MsiNotifySidChange function notifies and updates the Windows Installer internal information with changes to user SIDs.
 old-location: setup\msinotifysidchange.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: f35e503e-0bc0-4895-8e88-fc5636774e75
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiNotifySidChange, MsiNotifySidChange function, MsiNotifySidChangeA, MsiNotifySidChangeW, msi/MsiNotifySidChange, msi/MsiNotifySidChangeA, msi/MsiNotifySidChangeW, setup.msinotifysidchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,14 +71,7 @@ The <b>MsiNotifySidChange</b> function notifies and updates the Windows Installe
 Null-terminated string that specifies the string value of the previous security identifier(SID).
 
 
-### -param pNewSid
-
-TBD
-
-
-
-
-#### - szNewSid [in]
+### -param pNewSid [in]
 
 Null-terminated string that specifies the string value of the new security identifier(SID).
 

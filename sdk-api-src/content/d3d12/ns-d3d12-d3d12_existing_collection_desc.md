@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_existing_collection_desc.htm
 tech.root: direct3d12
 ms.assetid: A6E6EC48-4DCD-4D09-B110-D572B6CDE692
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D3D12_EXISTING_COLLECTION_DESC, D3D12_EXISTING_COLLECTION_DESC structure, PD3D12_EXISTING_COLLECTION_DESC, PD3D12_EXISTING_COLLECTION_DESC structure pointer, d3d12/D3D12_EXISTING_COLLECTION_DESC, d3d12/PD3D12_EXISTING_COLLECTION_DESC, direct3d12.d3d12_existing_collection_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

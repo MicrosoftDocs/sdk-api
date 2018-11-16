@@ -4,10 +4,10 @@ title: D2D1_RENDER_TARGET_TYPE
 author: windows-sdk-content
 description: Describes whether a render target uses hardware or software rendering, or if Direct2D should select the rendering mode.
 old-location: direct2d\D2D1_RENDER_TARGET_TYPE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4ae6e4cf-e1c9-476e-a7b5-31cdad9cf321
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_RENDER_TARGET_TYPE, D2D1_RENDER_TARGET_TYPE enumeration [Direct2D], D2D1_RENDER_TARGET_TYPE_DEFAULT, D2D1_RENDER_TARGET_TYPE_HARDWARE, D2D1_RENDER_TARGET_TYPE_SOFTWARE, d2d1/D2D1_RENDER_TARGET_TYPE, d2d1/D2D1_RENDER_TARGET_TYPE_DEFAULT, d2d1/D2D1_RENDER_TARGET_TYPE_HARDWARE, d2d1/D2D1_RENDER_TARGET_TYPE_SOFTWARE, direct2d.D2D1_RENDER_TARGET_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ The render target uses hardware rendering only.
 
 
 
-Not every render target supports hardware rendering. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Dd756755(v=VS.85).aspx">Render Targets Overview</a>. 
+Not every render target supports hardware rendering. For more information, see the <a href="https://msdn.microsoft.com/8a67babd-20c7-47f4-8dd3-8c0320d89ad6">Render Targets Overview</a>. 
 
 
 
@@ -92,11 +92,11 @@ Not every render target supports hardware rendering. For more information, see t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368155(v=VS.85).aspx">D2D1_RENDER_TARGET_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/360900bd-1353-4a92-865c-ad34d5e98123">D2D1_RENDER_TARGET_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756755(v=VS.85).aspx">Render Targets Overview</a>
+<a href="https://msdn.microsoft.com/8a67babd-20c7-47f4-8dd3-8c0320d89ad6">Render Targets Overview</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_setadditionalrestores.htm
 tech.root: VSS
 ms.assetid: b3a38348-ab89-40a5-bf77-612bcd99c31b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetAdditionalRestores method, IVssBackupComponents.SetAdditionalRestores, IVssBackupComponents::SetAdditionalRestores, SetAdditionalRestores, SetAdditionalRestores method [VSS], SetAdditionalRestores method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setadditionalrestores, base.ivssbackupcomponents_setadditionalrestores, vsbackup/IVssBackupComponents::SetAdditionalRestores
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,9 +73,10 @@ The
 Writer identifier.
 
 
-### -param ct
+### -param ct [in]
 
-TBD
+Type of the component. See 
+<a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for the possible values.
 
 
 ### -param wszLogicalPath [in]
@@ -104,22 +105,9 @@ The value of the string should not be <b>NULL</b>, and should contain the same c
 <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">IVssBackupComponents::AddComponent</a>.
 
 
-### -param bAdditionalRestores
-
-TBD
-
-
-
-
-#### - bAdditionalResources [in]
+### -param bAdditionalRestores [in]
 
 If the value of this parameter is <b>true</b>, additional restores of the component will follow this restore. If the value is <b>false</b>, additional restores of the component will not follow this restore.
-
-
-#### - componentType [in]
-
-Type of the component. See 
-<a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for the possible values.
 
 
 ## -returns

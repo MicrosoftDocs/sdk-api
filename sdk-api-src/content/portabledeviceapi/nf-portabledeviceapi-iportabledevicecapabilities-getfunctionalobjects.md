@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">GetFunctionalObjects</a> method retrieves all functional objects that match a specified category on the device.
+The <a href="wpdsdk.iportabledevicecapabilities">GetFunctionalObjects</a> method retrieves all functional objects that match a specified category on the device.
       
 
 
@@ -131,7 +131,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 

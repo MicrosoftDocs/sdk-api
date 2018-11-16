@@ -7,7 +7,7 @@ old-location: http\httpreceiverequestentitybody.htm
 tech.root: Http
 ms.assetid: b4ba765f-537b-4021-9ecc-d400d9b94723
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: HTTP_RECEIVE_REQUEST_ENTITY_BODY_FLAG_FILL_BUFFER, HttpReceiveRequestEntityBody, HttpReceiveRequestEntityBody function [HTTP], _http_httpreceiverequestentitybody, http.httpreceiverequestentitybody, http/HttpReceiveRequestEntityBody
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,14 +125,7 @@ Optional. A pointer to a variables that receives the size, in bytes, of the enti
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesReceived</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesReceived</i> must contain a valid memory address, and not be set to <b>NULL</b>.
 
 
-### -param Overlapped
-
-TBD
-
-
-
-
-#### - pOverlapped [in, optional]
+### -param Overlapped [in, optional]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>. 

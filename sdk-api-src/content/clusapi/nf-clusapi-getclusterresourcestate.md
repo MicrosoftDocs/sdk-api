@@ -4,10 +4,10 @@ title: GetClusterResourceState function
 author: windows-sdk-content
 description: Returns the current state of a resource.
 old-location: mscs\getclusterresourcestate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c3897c96-743e-4753-8fef-b8defe4f2b00
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetClusterResourceState, GetClusterResourceState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_RESOURCE_STATE, PCLUSAPI_GET_CLUSTER_RESOURCE_STATE function [Failover Cluster], _wolf_getclusterresourcestate, clusapi/GetClusterResourceState, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_STATE, mscs.getclusterresourcestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,7 +91,7 @@ Pointer to the size of the <i>lpszNodeName</i> buffer as a count of characters. 
 
 ### -param lpszGroupName [out, optional]
 
-Pointer to a buffer that receives the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> that 
+Pointer to a buffer that receives the name of the <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> that 
        contains the specified resource. The name is returned as a <b>NULL</b>-terminated Unicode 
        string. Pass <b>NULL</b> if the group name is not required.
 
@@ -111,8 +111,117 @@ Pointer to the size of the <i>lpszGroupName</i> buffer as a count of characters.
 
 <b>GetClusterResourceState</b> returns the 
        current state of the resource enumerated from the 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a> enumeration, which can be 
+       <a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a> enumeration, which can be 
        represented by one of the following values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceInitializing</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is performing initialization.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceOnline</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is operational and functioning normally.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceOffline</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is not operational. This value will be returned if the resource reported a state of 
+         <b>ClusterResourceOffline</b> (3) or 
+         <b>ClusterResourceCannotComeOnlineOnThisNode</b> (127).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceFailed</b></dt>
+<dt>4</dt>
+</dl>
+</td>
+<td width="60%">
+The resource has failed. This value will be returned if the resource reported a state of 
+         <b>ClusterResourceFailed</b> (4) or 
+         <b>ClusterResourceCannotComeOnlineOnAnyNode</b> (126).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourcePending</b></dt>
+<dt>128</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is in the process of coming online or going offline.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceOnlinePending</b></dt>
+<dt>129</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is in the process of coming online.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceOfflinePending</b></dt>
+<dt>130</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is in the process of going offline.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceStateUnknown</b></dt>
+<dt>-1</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the function 
+         <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 
@@ -125,12 +234,12 @@ Do not call <b>GetClusterResourceState</b> from
      any resource DLL entry point function. 
      <b>GetClusterResourceState</b> can safely be called 
      from a worker thread. For more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa369639(v=VS.85).aspx">Getting Object States</a> for an example.
+See <a href="https://msdn.microsoft.com/de1d4ad2-3531-467e-a2e6-24d22514ce6e">Getting Object States</a> for an example.
 
 <div class="code"></div>
 
@@ -141,11 +250,11 @@ See <a href="https://msdn.microsoft.com/en-us/library/Aa369639(v=VS.85).aspx">Ge
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a>
+<a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371767(v=VS.85).aspx">Offline</a>
+<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>
 
 
 
@@ -153,7 +262,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Aa369639(v=VS.85).aspx">Ge
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371770(v=VS.85).aspx">Online</a>
+<a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a>
 
 
 

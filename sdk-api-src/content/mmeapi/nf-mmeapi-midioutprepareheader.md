@@ -7,7 +7,7 @@ old-location: multimedia\midioutprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 3e457f08-a885-48f8-97c1-ba1baef97759
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_midiOutPrepareHeader, midiOutPrepareHeader, midiOutPrepareHeader function [Windows Multimedia], mmeapi/midiOutPrepareHeader, multimedia.midioutprepareheader"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,28 +77,16 @@ Handle to the MIDI output device. To get the device handle, call <a href="https:
 
 ### -param pmh
 
-TBD
-
-
-### -param cbmh
-
-TBD
-
-
-
-
-#### - cbMidiOutHdr
-
-Size, in bytes, of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure.
-          
-
-
-#### - lpMidiOutHdr
-
 Pointer to a <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure that identifies the buffer to be prepared.
           
 
 Before calling the function, set the <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure. The <b>dwFlags</b> member must be set to zero.
+
+
+### -param cbmh
+
+Size, in bytes, of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure.
+          
 
 
 ## -returns

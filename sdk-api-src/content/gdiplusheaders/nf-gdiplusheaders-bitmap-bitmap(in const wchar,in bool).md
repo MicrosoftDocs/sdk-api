@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_filename_useIcm_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_56filename_useicm.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(IN const WCHAR,IN BOOL), Bitmap.Bitmap(const WCHAR*,BOOL), Bitmap::Bitmap, Bitmap::Bitmap(IN const WCHAR,IN BOOL), _gdiplus_CLASS_Bitmap_Bitmap_filename_useIcm_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_filename_useIcm_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,14 +74,7 @@ Type: <b>const WCHAR*</b>
 Pointer to a null-terminated string that specifies the path name of the image file. The graphics file formats supported by GDI+ are BMP, GIF, JPEG, PNG, TIFF, Exif, WMF, and EMF. 
 
 
-### -param useEmbeddedColorManagement
-
-TBD
-
-
-
-
-#### - useIcm [in]
+### -param useEmbeddedColorManagement [in]
 
 Type: <b>BOOL</b>
 
@@ -93,7 +86,7 @@ Optional. Boolean value that specifies whether the new <b>Bitmap::Bitmap</b> obj
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
+<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
 
 
 

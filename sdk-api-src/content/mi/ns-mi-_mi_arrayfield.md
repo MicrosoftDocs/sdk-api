@@ -4,10 +4,10 @@ title: "_MI_ArrayField"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_arrayfield.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 55ff4b74-7184-4a7e-8048-da270eb69ee1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ArrayField, MI_ArrayField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ArrayField, mi/MI_ArrayField, wmi._mi_arrayfield, wmi_v2.mi_arrayfield
 ms.prod: windows-hardware
 ms.technology: windows-devices

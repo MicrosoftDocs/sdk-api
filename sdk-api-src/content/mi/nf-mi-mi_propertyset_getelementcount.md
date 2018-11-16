@@ -4,10 +4,10 @@ title: MI_PropertySet_GetElementCount function
 author: windows-sdk-content
 description: Gets the number of elements in the specified property set.
 old-location: wmi_v2\mi_propertyset_getelementcount.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 450f778c-6b59-4c01-9c21-7f96f28ebe26
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_PropertySet_GetElementCount, MI_PropertySet_GetElementCount function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_GetElementCount, wmi_v2.mi_propertyset_getelementcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

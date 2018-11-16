@@ -7,7 +7,7 @@ old-location: wintouch\_imanipulationevents.htm
 tech.root: wintouch
 ms.assetid: be392a13-3165-44ff-bcd6-ed0075c669c4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "_IManipulationEvents, _IManipulationEvents interface [Windows Touch], _IManipulationEvents interface [Windows Touch],described, manipulations/_IManipulationEvents, wintouch._imanipulationevents"
 ms.prod: windows-hardware
 ms.technology: windows-devices

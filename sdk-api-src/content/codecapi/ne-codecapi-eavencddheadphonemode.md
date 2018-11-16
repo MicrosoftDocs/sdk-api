@@ -7,7 +7,7 @@ old-location: dshow\eavencddheadphonemode.htm
 tech.root: DirectShow
 ms.assetid: 8739334c-bbaa-482e-9113-d4a885f98913
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: codecapi/eAVEncDDHeadphoneMode, codecapi/eAVEncDDHeadphoneMode_Encoded, codecapi/eAVEncDDHeadphoneMode_NotEncoded, codecapi/eAVEncDDHeadphoneMode_NotIndicated, dshow.eavencddheadphonemode, eAVEncDDHeadphoneMode, eAVEncDDHeadphoneMode enumeration [DirectShow], eAVEncDDHeadphoneMode_Encoded, eAVEncDDHeadphoneMode_NotEncoded, eAVEncDDHeadphoneMode_NotIndicated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,11 +81,11 @@ Headphone mode is enabled.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd387884(v=VS.85).aspx">Codec API Enumerations</a>
+<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
  
 
  

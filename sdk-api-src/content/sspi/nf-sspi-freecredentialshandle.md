@@ -4,10 +4,10 @@ title: FreeCredentialsHandle function
 author: windows-sdk-content
 description: Notifies the security system that the credentials are no longer needed.
 old-location: security\freecredentialshandle.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e089618c-8233-475a-9725-39265c6427ab
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: FreeCredentialsHandle, FreeCredentialsHandle function [Security], _ssp_freecredentialshandle, security.freecredentialshandle, sspi/FreeCredentialsHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ The handle passed to the function is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

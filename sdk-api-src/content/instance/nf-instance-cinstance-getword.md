@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getword.htm
 tech.root: WmiSdk
 ms.assetid: 511e4ce9-33e3-4c64-8016-05dd5630970f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetWORD method, CInstance.GetWORD, CInstance::GetWORD, GetWORD, GetWORD method [Windows Management Instrumentation], GetWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getword, instance/CInstance::GetWORD, wmi.cinstance_getword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,14 +78,7 @@ The <b>GetWORD</b> method retrieves a <b>WORD</b> property.
 Name of the <b>WORD</b> property retrieved.
 
 
-### -param w
-
-TBD
-
-
-
-
-#### - n [ref]
+### -param w [ref]
 
 Buffer that receives the <b>WORD</b> property.
 

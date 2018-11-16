@@ -4,10 +4,10 @@ title: SspiGetTargetHostName function
 author: windows-sdk-content
 description: Gets the host name associated with the specified target.
 old-location: security\sspigettargethostname.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 84570dfc-1890-4b82-b411-1f9eaa75537b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: SspiGetTargetHostName, SspiGetTargetHostName function [Security], security.sspigettargethostname, sspi/SspiGetTargetHostName
 ms.prod: windows-hardware
 ms.technology: windows-devices

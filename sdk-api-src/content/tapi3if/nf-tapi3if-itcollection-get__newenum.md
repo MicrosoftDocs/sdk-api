@@ -4,10 +4,10 @@ title: ITCollection::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method gets an enumerator for the collection.
 old-location: tapi3\itcollection_get__newenum.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4b84298f-f114-4171-a2ad-d14122cb4bc8
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITCollection interface [TAPI 2.2],get__NewEnum method, ITCollection.get__NewEnum, ITCollection::get__NewEnum, _tapi3_itcollection_get__newenum, get__NewEnum, get__NewEnum method [TAPI 2.2], get__NewEnum method [TAPI 2.2],ITCollection interface, tapi3.itcollection_get__newenum, tapi3if/ITCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,14 @@ The
 ### -param ppNewEnum [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on an enumerator object for the collection. 
+<a href="_com_iunknown">IUnknown</a> interface on an enumerator object for the collection. 
 
 
 
 
 Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on the returned <b>IUnknown</b> interface to obtain a pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> enumeration interface on the collection. <b>IEnumVARIANT</b> provides a number of methods that you can use to iterate through the collection.
+<a href="_com_iunknown_queryinterface">QueryInterface</a> method on the returned <b>IUnknown</b> interface to obtain a pointer to an 
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> enumeration interface on the collection. <b>IEnumVARIANT</b> provides a number of methods that you can use to iterate through the collection.
 
 For more information, see the following Remarks section.
 

@@ -4,10 +4,10 @@ title: ITAgentSession::get_TotalWrapUpTime
 author: windows-sdk-content
 description: The get_TotalWrapUpTime method gets the number of seconds spent on ACD call wrap-up (after-call work) during this agent session (by this agent).
 old-location: tapi3\itagentsession_get_totalwrapuptime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5b1cda40-36bd-481a-bc59-81b810ebed09
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_TotalWrapUpTime method, ITAgentSession.get_TotalWrapUpTime, ITAgentSession::get_TotalWrapUpTime, _tapi3_itagentsession_get_totalwrapuptime, get_TotalWrapUpTime, get_TotalWrapUpTime method [TAPI 2.2], get_TotalWrapUpTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_totalwrapuptime, tapi3cc/ITAgentSession::get_TotalWrapUpTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

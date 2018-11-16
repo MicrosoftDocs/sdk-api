@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccess::get_Entitlement
 author: windows-sdk-content
 description: The get_Entitlement method retrieves the entitlement type for a virtual channel.
 old-location: mstv\ibda_conditionalaccess_get_entitlement.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 361fe0ee-5834-4474-9cc7-92ea9077571c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_Entitlement method, IBDA_ConditionalAccess.get_Entitlement, IBDA_ConditionalAccess::get_Entitlement, IBDA_ConditionalAccessget_Entitlement, bdaiface/IBDA_ConditionalAccess::get_Entitlement, get_Entitlement, get_Entitlement method [Microsoft TV Technologies], get_Entitlement method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_entitlement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ Returns <b>E_NOTIMPL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://msdn.microsoft.com/93bd3c38-2591-4d36-b296-5ad939487277">IBDA_ConditionalAccess Interface</a>
  
 
  

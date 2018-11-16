@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_omsetblendstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omsetblendstate.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 9b71ab4c-dc5e-607f-4d02-0f408a6d4f30, ID3D10Device interface [Direct3D 10],OMSetBlendState method, ID3D10Device.OMSetBlendState, ID3D10Device::OMSetBlendState, OMSetBlendState, OMSetBlendState method [Direct3D 10], OMSetBlendState method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMSetBlendState, direct3d10.id3d10device_omsetblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Set the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">blend state</a> of the output-merger stage.
+Set the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">blend state</a> of the output-merger stage.
 
 
 ## -parameters
@@ -69,14 +69,16 @@ Set the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx
 
 ### -param pBlendState [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/fe0186f5-cd8f-478d-9009-a0f82830cd1f">ID3D10BlendState</a>*</b>
 
-Pointer to a blend-state interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>). Passing in <b>NULL</b> implies a default blend state. See remarks for further details.
+Pointer to a blend-state interface (see <a href="https://msdn.microsoft.com/fe0186f5-cd8f-478d-9009-a0f82830cd1f">ID3D10BlendState</a>). Passing in <b>NULL</b> implies a default blend state. See remarks for further details.
 
 
-### -param BlendFactor
+### -param BlendFactor [in]
 
-TBD
+Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+
+Array of blend factors, one for each RGBA component. The blend factors modulate values for the pixel shader, render target, or both. If you created  the blend-state object with <a href="d3d10_blend.htm">D3D10_BLEND_BLEND_FACTOR</a> or <a href="d3d10_blend.htm">D3D10_BLEND_INV_BLEND_FACTOR</a>, the blending stage uses the non-NULL array of blend factors. If you didn't create the blend-state object with <b>D3D10_BLEND_BLEND_FACTOR</b> or <b>D3D10_BLEND_INV_BLEND_FACTOR</b>, the blending stage does not use the non-NULL array of blend factors; the runtime stores the blend factors, and you can later call <a href="https://msdn.microsoft.com/871429b4-8f4a-43bb-ae55-3b07f8d00f68">ID3D11DeviceContext::OMGetBlendState</a> to retrieve the blend factors. If you pass <b>NULL</b>, the runtime uses or stores a blend factor equal to { 1, 1, 1, 1 }.
 
 
 ### -param SampleMask [in]
@@ -84,13 +86,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 32-bit sample coverage. The default value is 0xffffffff. See remarks.
-
-
-#### - BlendFactor[4] [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
-
-Array of blend factors, one for each RGBA component. The blend factors modulate values for the pixel shader, render target, or both. If you created  the blend-state object with <a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">D3D10_BLEND_BLEND_FACTOR</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">D3D10_BLEND_INV_BLEND_FACTOR</a>, the blending stage uses the non-NULL array of blend factors. If you didn't create the blend-state object with <b>D3D10_BLEND_BLEND_FACTOR</b> or <b>D3D10_BLEND_INV_BLEND_FACTOR</b>, the blending stage does not use the non-NULL array of blend factors; the runtime stores the blend factors, and you can later call <a href="https://msdn.microsoft.com/871429b4-8f4a-43bb-ae55-3b07f8d00f68">ID3D11DeviceContext::OMGetBlendState</a> to retrieve the blend factors. If you pass <b>NULL</b>, the runtime uses or stores a blend factor equal to { 1, 1, 1, 1 }.
 
 
 ## -returns
@@ -106,9 +101,9 @@ Returns nothing.
 
 
 
-Blend state is used by the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a> to determine how to blend together two RGB pixel values and two alpha values. The two RGB pixel values and two alpha values are the RGB pixel value and alpha value that the pixel shader outputs and the RGB pixel value and alpha value already in the output render target. The <a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">blend option</a> controls the data source that the blending stage uses to modulate values for the pixel shader, render target, or both. The <a href="https://msdn.microsoft.com/en-us/library/Bb204894(v=VS.85).aspx">blend operation</a> controls how the blending stage mathematically combines these modulated values.
+Blend state is used by the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a> to determine how to blend together two RGB pixel values and two alpha values. The two RGB pixel values and two alpha values are the RGB pixel value and alpha value that the pixel shader outputs and the RGB pixel value and alpha value already in the output render target. The <a href="https://msdn.microsoft.com/0d3a337d-3d16-4a0a-9611-b511c8fb39b4">blend option</a> controls the data source that the blending stage uses to modulate values for the pixel shader, render target, or both. The <a href="https://msdn.microsoft.com/2d23109a-4d0e-4001-a693-185a942900c0">blend operation</a> controls how the blending stage mathematically combines these modulated values.
 
-To create a blend-state interface, call <a href="https://msdn.microsoft.com/en-us/library/Bb173543(v=VS.85).aspx">ID3D10Device::CreateBlendState</a>.
+To create a blend-state interface, call <a href="https://msdn.microsoft.com/4a5b000d-769b-4e4c-9c9c-d8fced703812">ID3D10Device::CreateBlendState</a>.
 
 Passing in <b>NULL</b> for the blend-state interface indicates to the runtime to set a default blending state.  The following table indicates the default blending parameters.
 
@@ -168,7 +163,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

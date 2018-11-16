@@ -4,10 +4,10 @@ title: MsiGetFeatureCostW function
 author: windows-sdk-content
 description: The MsiGetFeatureCost function returns the disk space required by a feature and its selected children and parent features.
 old-location: setup\msigetfeaturecost.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 492968a5-d781-45de-a4b2-eb1be3f3f148
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, INSTALLSTATE_UNKNOWN, MSICOSTTREE_CHILDREN, MSICOSTTREE_PARENTS, MSICOSTTREE_SELFONLY, MsiGetFeatureCost, MsiGetFeatureCost function, MsiGetFeatureCostA, MsiGetFeatureCostW, _msi_msigetfeaturecost, msiquery/MsiGetFeatureCost, msiquery/MsiGetFeatureCostA, msiquery/MsiGetFeatureCostW, setup.msigetfeaturecost
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -253,7 +253,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
 
 
 

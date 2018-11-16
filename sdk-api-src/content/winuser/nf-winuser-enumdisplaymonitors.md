@@ -7,7 +7,7 @@ old-location: gdi\enumdisplaymonitors.htm
 tech.root: gdi
 ms.assetid: a7668c28-77c9-4373-ae1a-eab3cb98f866
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EnumDisplayMonitors, EnumDisplayMonitors function [Windows GDI], _win32_EnumDisplayMonitors, gdi.enumdisplaymonitors, winuser/EnumDisplayMonitors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,53 +163,69 @@ Setting the <i>hdc</i> parameter to <b>NULL</b> lets you use the <b>EnumDisplayM
 
 To paint in response to a WM_PAINT message, using the capabilities of each monitor, you can use code like this in a window procedure:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 case WM_PAINT:
-  hdc = BeginPaint(hwnd, &ps);
+  hdc = BeginPaint(hwnd, &amp;ps);
   EnumDisplayMonitors(hdc, NULL, MyPaintEnumProc, 0);
-  EndPaint(hwnd, &ps);
-
-```
-
-
+  EndPaint(hwnd, &amp;ps);
+</pre>
+</td>
+</tr>
+</table></span></div>
 To paint the top half of a window using the capabilities of each monitor, you can use code like this:
 
-
-```
-
-GetClientRect(hwnd, &rc);
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+GetClientRect(hwnd, &amp;rc);
 rc.bottom = (rc.bottom - rc.top) / 2;
 hdc = GetDC(hwnd);
-EnumDisplayMonitors(hdc, &rc, MyPaintEnumProc, 0);
+EnumDisplayMonitors(hdc, &amp;rc, MyPaintEnumProc, 0);
 ReleaseDC(hwnd, hdc);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 To paint the entire virtual screen optimally for each display monitor, you can use code like this:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 hdc = GetDC(NULL);
 EnumDisplayMonitors(hdc, NULL, MyPaintScreenEnumProc, 0);
 ReleaseDC(NULL, hdc);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 To retrieve information about all of the display monitors, use code like this:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 EnumDisplayMonitors(NULL, NULL, MyInfoEnumProc, 0);  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 

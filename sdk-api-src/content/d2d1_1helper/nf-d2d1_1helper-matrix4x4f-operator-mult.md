@@ -4,10 +4,10 @@ title: Matrix4x4F::operator-mult
 author: windows-sdk-content
 description: Multiplies this matrix with the specified matrix and returns the result.
 old-location: direct2d\matrix4x4f_operator_.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2ED3EF0A-84B9-4BE9-825B-EA55DE2BAF47
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: Matrix4x4F interface [Direct2D],operator* method, Matrix4x4F.operator*, Matrix4x4F.operator-mult, Matrix4x4F::operator*, Matrix4x4F::operator-mult, d2d1_1helper/Matrix4x4F::operator*, direct2d.matrix4x4f_operator_, operator*, operator* method [Direct2D], operator* method [Direct2D],Matrix4x4F interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

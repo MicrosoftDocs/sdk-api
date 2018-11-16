@@ -7,7 +7,7 @@ old-location: wmi\provider_execmethod.htm
 tech.root: WmiSdk
 ms.assetid: 590f59ad-ea93-42f0-8b0d-c05a49272b1b
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],ExecMethod method, Provider.ExecMethod, Provider.ExecMethod(const CInstance &,const BSTR,CInstance,CInstance,long), Provider::ExecMethod, Provider::ExecMethod(const CInstance &,const BSTR,CInstance,CInstance,long), _hmm_provider_execmethod, provider/Provider::ExecMethod, wmi.provider_execmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,9 +73,9 @@ The <b>ExecMethod</b> method is called by WMI to invoke a method on a class or i
 
 
 
-### -param cInstance
+### -param cInstance [ref]
 
-TBD
+Key properties of the instance in question if the client called an instance method. If the client called a static method, <i>Instance</i> contains a class object.
 
 
 ### -param bstrMethodName
@@ -102,11 +102,6 @@ The following flag is handled by (and filtered out) by WMI:
 <ul>
 <li><b>WBEM_FLAG_RETURN_IMMEDIATELY</b></li>
 </ul>
-
-#### - Instance [ref]
-
-Key properties of the instance in question if the client called an instance method. If the client called a static method, <i>Instance</i> contains a class object.
-
 
 ## -returns
 

@@ -7,7 +7,7 @@ old-location: base\ivdssubsystemnaming_setfriendlyname.htm
 tech.root: VDS
 ms.assetid: 8356eb25-af8c-4643-9ac4-e4ce001b617c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsSubSystemNaming interface,SetFriendlyName method, IVdsSubSystemNaming.SetFriendlyName, IVdsSubSystemNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method, SetFriendlyName method,IVdsSubSystemNaming interface, base.ivdssubsystemnaming_setfriendlyname, vds/IVdsSubSystemNaming::SetFriendlyName, vdshwprv/IVdsSubSystemNaming::SetFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,13 +71,6 @@ Sets the friendly name of a subsystem.
 
 ### -param pwszFriendlyName
 
-TBD
-
-
-
-
-#### - pwszName
-
 A pointer to a null-terminated string specifying the name to assign to the subsystem.
 
 
@@ -85,7 +78,7 @@ A pointer to a null-terminated string specifying the name to assign to the subsy
 
 
 
-This method can return standard <b>HRESULT</b> values, such as <b>E_INVALIDARG</b> or <b>E_OUTOFMEMORY</b>, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard <b>HRESULT</b> values, such as <b>E_INVALIDARG</b> or <b>E_OUTOFMEMORY</b>, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>

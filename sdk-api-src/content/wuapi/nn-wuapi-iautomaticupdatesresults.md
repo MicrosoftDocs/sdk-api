@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdatesresults.htm
 tech.root: Wua_Sdk
 ms.assetid: fe9a5ea3-9d59-450b-8c5e-3444ec13dc97
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IAutomaticUpdatesResults, IAutomaticUpdatesResults interface [Windows Update Agent], IAutomaticUpdatesResults interface [Windows Update Agent],described, wua.iautomaticupdatesresults, wuapi/IAutomaticUpdatesResults
 ms.prod: windows-hardware
 ms.technology: windows-devices

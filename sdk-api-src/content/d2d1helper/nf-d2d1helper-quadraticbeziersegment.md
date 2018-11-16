@@ -4,10 +4,10 @@ title: QuadraticBezierSegment function
 author: windows-sdk-content
 description: Creates a D2D1_QUADRATIC_BEZIER_SEGMENT structure.
 old-location: direct2d\quadraticbeziersegment.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9b72e367-85dd-4a1f-a67e-34fc4b078ebe
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: QuadraticBezierSegment, QuadraticBezierSegment function [Direct2D], d2d1helper/QuadraticBezierSegment, direct2d.quadraticbeziersegment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368147(v=VS.85).aspx">D2D1_QUADRATIC_BEZIER_SEGMENT</a> structure.
+Creates a <a href="https://msdn.microsoft.com/5060cb17-b6f4-4796-b91d-602fd81591c2">D2D1_QUADRATIC_BEZIER_SEGMENT</a> structure.
 
 
 ## -parameters
@@ -66,14 +66,14 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368147(v=VS.85).as
 
 ### -param point1 [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The control point of the quadratic Bezier segment.
 
 
 ### -param point2 [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The end point of the quadratic Bezier segment.
 
@@ -82,7 +82,7 @@ The end point of the quadratic Bezier segment.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368147(v=VS.85).aspx">D2D1_QUADRATIC_BEZIER_SEGMENT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/5060cb17-b6f4-4796-b91d-602fd81591c2">D2D1_QUADRATIC_BEZIER_SEGMENT</a></b>
 
 The new quadratic Bezier curve segment.
 

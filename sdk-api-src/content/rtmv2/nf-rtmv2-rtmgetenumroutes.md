@@ -4,10 +4,10 @@ title: RtmGetEnumRoutes function
 author: windows-sdk-content
 description: The RtmGetEnumRoutes function retrieves the next set of routes in the specified enumeration.
 old-location: rras\rtmgetenumroutes.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: fb3977ef-9edd-4653-b65c-b6d0fb66a785
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: RtmGetEnumRoutes, RtmGetEnumRoutes function [RAS], _rtmv2ref_rtmgetenumroutes, rras.rtmgetenumroutes, rtmv2/RtmGetEnumRoutes
 ms.prod: windows-hardware
 ms.technology: windows-devices

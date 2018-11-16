@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxclose.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5h2d.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: FaxCloseA, FaxCloseW, PFAXCLOSE, PFAXCLOSE callback, PFAXCLOSE callback function [Fax Service], _mfax_faxclose, fax._mfax_faxclose, winfax/FaxCloseA, winfax/FaxCloseW, winfax/PFAXCLOSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,8 +56,8 @@ The <b>FaxClose</b> function closes the following types of fax handles:
 
 
 <ul>
-<li>A fax server handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function</li>
-<li>A fax port handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms690875(v=VS.85).aspx">FaxOpenPort</a> function</li>
+<li>A fax server handle returned by a call to the <a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a> function</li>
+<li>A fax port handle returned by a call to the <a href="https://msdn.microsoft.com/9010d651-3259-40b2-91bf-de0a841207c1">FaxOpenPort</a> function</li>
 </ul>
 
 
@@ -71,7 +71,7 @@ The <b>FaxClose</b> function closes the following types of fax handles:
 
 Type: <b>HANDLE</b>
 
-Specifies the fax handle to close. This value can be a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function, or a fax port handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms690875(v=VS.85).aspx">FaxOpenPort</a> function.
+Specifies the fax handle to close. This value can be a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a> function, or a fax port handle returned by a call to the <a href="https://msdn.microsoft.com/9010d651-3259-40b2-91bf-de0a841207c1">FaxOpenPort</a> function.
 
 
 ## -returns
@@ -96,7 +96,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-Access is denied. <a href="https://msdn.microsoft.com/en-us/library/ms692302(v=VS.85).aspx">FAX_PORT_QUERY</a> access is required.
+Access is denied. <a href="https://msdn.microsoft.com/7d6ff208-33e4-42b2-ae21-76ec8ff58809">FAX_PORT_QUERY</a> access is required.
 
 </td>
 </tr>
@@ -123,11 +123,11 @@ The <i>FaxHandle</i> parameter is invalid.
 
 A fax client application must call the <b>FaxClose</b> function as the last function before it terminates. The <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function cannot close the handle to a fax server or a fax port.
 
-When the <b>FaxClose</b> function closes a handle allocated by the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function, the function disconnects the calling application from the specified fax server.
+When the <b>FaxClose</b> function closes a handle allocated by the <a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a> function, the function disconnects the calling application from the specified fax server.
 
 A fax client application continues to receive fax events from the fax service after the application successfully calls the <b>FaxClose</b> function to close a fax server handle. This permits the fax service to shut down and conserve system resources when the service has been idle for an extended period. If you keep the handle to the fax server open, the fax service does not shut down.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms692290(v=VS.85).aspx">Enabling an Application to Receive Notifications of Fax Events</a>, <a href="https://msdn.microsoft.com/en-us/library/ms690910(v=VS.85).aspx">Connecting to a Fax Server</a> and <a href="https://msdn.microsoft.com/en-us/library/ms690866(v=VS.85).aspx">Disconnecting from a Fax Server</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms691325(v=VS.85).aspx">FaxInitializeEventQueue</a>.
+For more information, see <a href="https://msdn.microsoft.com/f226b757-af51-4161-95d5-1c73bf1ccbef">Enabling an Application to Receive Notifications of Fax Events</a>, <a href="https://msdn.microsoft.com/da213475-2cfb-4524-80af-51c1ee0bf658">Connecting to a Fax Server</a> and <a href="https://msdn.microsoft.com/02d276b7-bcbc-4bbe-8051-d9b35f12dc93">Disconnecting from a Fax Server</a>, and <a href="https://msdn.microsoft.com/921007cf-a836-4e90-a544-b320eea2bd54">FaxInitializeEventQueue</a>.
 
 
 
@@ -137,19 +137,19 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms69
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
+<a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690875(v=VS.85).aspx">FaxOpenPort</a>
+<a href="https://msdn.microsoft.com/9010d651-3259-40b2-91bf-de0a841207c1">FaxOpenPort</a>
  
 
  

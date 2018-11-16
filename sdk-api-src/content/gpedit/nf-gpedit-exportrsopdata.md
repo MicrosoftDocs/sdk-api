@@ -7,7 +7,7 @@ old-location: policy\exportrsopdata.htm
 tech.root: Policy
 ms.assetid: a3f20a35-8d9c-403b-ba76-24c8b3640c6d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ExportRSoPData, ExportRSoPData function [Group Policy], _win32_exportrsopdata, gpedit/ExportRSoPData, policy.exportrsopdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

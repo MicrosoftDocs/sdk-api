@@ -4,10 +4,10 @@ title: MsiSummaryInfoGetPropertyA function
 author: windows-sdk-content
 description: The MsiSummaryInfoGetProperty function gets a single property from the summary information stream.
 old-location: setup\msisummaryinfogetproperty.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 7df4bd31-85a7-4b61-beaf-5c1f2117e6f5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiSummaryInfoGetProperty, MsiSummaryInfoGetProperty function, MsiSummaryInfoGetPropertyA, MsiSummaryInfoGetPropertyW, _msi_msisummaryinfogetproperty, msiquery/MsiSummaryInfoGetProperty, msiquery/MsiSummaryInfoGetPropertyA, msiquery/MsiSummaryInfoGetPropertyW, setup.msisummaryinfogetproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,7 +142,7 @@ The property information returned by the <b>MsiSummaryInfoGetProperty</b> functi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
+<a href="database_functions.htm">Summary Information Property Functions</a>
 
 
 

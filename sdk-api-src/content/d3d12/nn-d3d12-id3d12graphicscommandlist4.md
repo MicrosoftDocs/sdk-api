@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist4.htm
 tech.root: direct3d12
 ms.assetid: 2385E66F-CD42-4826-B508-3EF6144179BD
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D12GraphicsCommandList4, ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,described, d3d12/ID3D12GraphicsCommandList4, direct3d12.id3d12graphicscommandlist4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,6 +70,15 @@ The <b>ID3D12GraphicsCommandList4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="direct3d12.id3d12graphicscommandlist4_beginrenderpass">BeginRenderPass</a>
+</td>
+<td align="left" width="63%">
+Marks the beginning of a render pass by binding a set of output resources for the duration of the render pass. These bindings are to one or more render target views (RTVs), and/or to a depth stencil view (DSV).
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/B714530C-40E6-4C67-8908-373BB26E6635">BuildRaytracingAccelerationStructure</a>
 </td>
 <td align="left" width="63%">
@@ -101,6 +110,15 @@ Launch the threads of a ray generation shader.
 </td>
 <td align="left" width="63%">
 Emits post-build properties for a set of acceleration structures.  This enables applications to know the output resource requirements for performing acceleration structure operations via <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure</a>.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="direct3d12.id3d12graphicscommandlist4_endrenderpass">EndRenderPass</a>
+</td>
+<td align="left" width="63%">
+Marks the ending of a render pass.
 
 </td>
 </tr>

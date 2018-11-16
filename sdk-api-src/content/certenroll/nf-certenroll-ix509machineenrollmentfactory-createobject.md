@@ -7,7 +7,7 @@ old-location: security\ix509machineenrollmentfactory_createobject.htm
 tech.root: SecCertEnroll
 ms.assetid: f9a45219-1c88-4946-ad57-81b95c609066
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateObject, CreateObject method [Security], CreateObject method [Security],IX509MachineEnrollmentFactory interface, IX509MachineEnrollmentFactory interface [Security],CreateObject method, IX509MachineEnrollmentFactory.CreateObject, IX509MachineEnrollmentFactory::CreateObject, certenroll/IX509MachineEnrollmentFactory::CreateObject, security.ix509machineenrollmentfactory_createobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>CreateObject</b> method creates an <a href="https://msdn.microsoft.com/en-us/library/Ee351687(v=VS.85).aspx">IX509EnrollmentHelper</a> object on a webpage. This method is web enabled.
+The <b>CreateObject</b> method creates an <a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a> object on a webpage. This method is web enabled.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ A <b>BSTR</b> variable that contains the ProgID value. This must be "X509Enrollm
 
 ### -param ppIHelper [out, retval]
 
-Address of a pointer to a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351687(v=VS.85).aspx">IX509EnrollmentHelper</a> interface.
+Address of a pointer to a variable that receives a pointer to an <a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a> interface.
 
 
 ## -returns
@@ -82,7 +82,7 @@ Address of a pointer to a variable that receives a pointer to an <a href="https:
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -143,7 +143,7 @@ The <i>strProgID</i> parameter exceed 64,000 characters or contains embedded nul
 
 
 
-This method calls <a href="https://msdn.microsoft.com/en-us/library/Ee351691(v=VS.85).aspx">Initialize</a> on the <a href="https://msdn.microsoft.com/en-us/library/Ee351687(v=VS.85).aspx">IX509EnrollmentHelper</a> interface by using the <b>ContextAdministratorForceMachine</b> context value, thereby specifying that all certificates to be enrolled by the <a href="https://msdn.microsoft.com/en-us/library/Ee351681(v=VS.85).aspx">IX509Enrollment2</a> object will be requested by an administrator acting on behalf of a computer. To enroll a user certificate, call <a href="https://msdn.microsoft.com/en-us/library/Aa965817(v=VS.85).aspx">CreateObject</a> on the <a href="https://msdn.microsoft.com/en-us/library/Aa377863(v=VS.85).aspx">IX509EnrollmentWebClassFactory</a> interface.
+This method calls <a href="https://msdn.microsoft.com/83cb603b-9396-4983-8707-12d1c5b8b234">Initialize</a> on the <a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a> interface by using the <b>ContextAdministratorForceMachine</b> context value, thereby specifying that all certificates to be enrolled by the <a href="https://msdn.microsoft.com/8e262b4b-de6a-417e-9ade-0b451bd4c09a">IX509Enrollment2</a> object will be requested by an administrator acting on behalf of a computer. To enroll a user certificate, call <a href="https://msdn.microsoft.com/e865e499-1bfe-45c3-aeb3-3936f9173fd5">CreateObject</a> on the <a href="https://msdn.microsoft.com/f779c197-8467-481a-abf5-d3fd3ac90ba7">IX509EnrollmentWebClassFactory</a> interface.
 
 
 
@@ -153,7 +153,7 @@ This method calls <a href="https://msdn.microsoft.com/en-us/library/Ee351691(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351724(v=VS.85).aspx">IX509MachineEnrollmentFactory</a>
+<a href="https://msdn.microsoft.com/2f97fdd7-13ca-4427-8ec5-24302d245fdb">IX509MachineEnrollmentFactory</a>
  
 
  

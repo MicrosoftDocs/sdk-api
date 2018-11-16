@@ -7,7 +7,7 @@ old-location: netmgmt\netunjoindomain.htm
 tech.root: NetMgmt
 ms.assetid: cc755c22-1fd6-4787-999e-a43258287a05
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NetUnjoinDomain, NetUnjoinDomain function [Network Management], _win32_netunjoindomain, lmjoin/NetUnjoinDomain, netmgmt.netunjoindomain
 ms.prod: windows-hardware
 ms.technology: windows-devices

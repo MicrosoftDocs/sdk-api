@@ -7,7 +7,7 @@ old-location: wmi\trefpointercollection_getnext.htm
 tech.root: WmiSdk
 ms.assetid: c0dfb2c7-71f6-4870-8018-145e890d4928
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetNext, GetNext method [Windows Management Instrumentation], GetNext method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetNext method, TRefPointerCollection.GetNext, TRefPointerCollection::GetNext, _hmm_trefpointercollection_getnext, refptrco/TRefPointerCollection::GetNext, wmi.trefpointercollection_getnext
 ms.prod: windows-hardware
 ms.technology: windows-devices

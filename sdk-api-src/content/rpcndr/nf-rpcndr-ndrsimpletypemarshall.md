@@ -4,10 +4,10 @@ title: NdrSimpleTypeMarshall function
 author: windows-sdk-content
 description: The NdrSimpleTypeMarshall function marshalls a simple type.
 old-location: rpc\ndrsimpletypemarshall.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: af2bea36-d576-4144-8e21-3f89772465ed
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: NdrSimpleTypeMarshall, NdrSimpleTypeMarshall function [RPC], rpc.ndrsimpletypemarshall, rpcndr/NdrSimpleTypeMarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

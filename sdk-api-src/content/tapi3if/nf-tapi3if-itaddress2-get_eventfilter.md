@@ -4,10 +4,10 @@ title: ITAddress2::get_EventFilter
 author: windows-sdk-content
 description: The get_EventFilter method retrieves the current filter settings for the current address and a given TAPI_EVENT value.
 old-location: tapi3\itaddress2_get_eventfilter.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cb0fbfc1-56bf-4455-8d6a-71c78b6a6534
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],get_EventFilter method, ITAddress2.get_EventFilter, ITAddress2::get_EventFilter, _tapi3_itaddress2_get_eventfilter, get_EventFilter, get_EventFilter method [TAPI 2.2], get_EventFilter method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_get_eventfilter, tapi3if/ITAddress2::get_EventFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

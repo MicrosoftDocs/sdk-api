@@ -7,7 +7,7 @@ old-location: shell\ITravelLog.htm
 tech.root: shell
 ms.assetid: 820869aa-ca93-4bb5-831a-3afb52da5389
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ITravelLog, ITravelLog interface [Windows Shell], ITravelLog interface [Windows Shell],described, shdeprecated/ITravelLog, shell.ITravelLog, zone_ITravelLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -166,7 +166,7 @@ Deprecated. Saves the browser state of the current entry in preparation for a pe
 <a href="https://msdn.microsoft.com/2fda446d-8652-455b-9233-aa02f2a85e7f">UpdateExternal</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Updates an entry that originated out of the current procedure through <a href="https://msdn.microsoft.com/library/Aa767938(v=VS.85).aspx">IHlinkFrame</a>.
+Deprecated. Updates an entry that originated out of the current procedure through <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>.
 
 </td>
 </tr>

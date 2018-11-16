@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_silent_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 4f61a513-620c-48c4-b9dd-032b13a9f654
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509PrivateKey interface [Security],Silent property, IX509PrivateKey.Silent, IX509PrivateKey.get_Silent, IX509PrivateKey::Silent, IX509PrivateKey::get_Silent, IX509PrivateKey::put_Silent, Silent property [Security], Silent property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Silent, certenroll/IX509PrivateKey::get_Silent, certenroll/IX509PrivateKey::put_Silent, get_Silent, security.ix509privatekey_silent_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ If the user interface is not allowed but is required to access the private key, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

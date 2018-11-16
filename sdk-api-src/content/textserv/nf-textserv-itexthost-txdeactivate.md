@@ -4,10 +4,10 @@ title: ITextHost::TxDeactivate
 author: windows-sdk-content
 description: Notifies the text host that the control is now inactive.
 old-location: controls\ITextHost_TxDeactivate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txdeactivate.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ITextHost interface [Windows Controls],TxDeactivate method, ITextHost.TxDeactivate, ITextHost::TxDeactivate, TxDeactivate, TxDeactivate method [Windows Controls], TxDeactivate method [Windows Controls],ITextHost interface, _win32_ITextHost_TxDeactivate, _win32_ITextHost_TxDeactivate_cpp, controls.ITextHost_TxDeactivate, controls._win32_ITextHost_TxDeactivate, textserv/ITextHost::TxDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Notifies the text host that the control is now inactive.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
-New state of the control. Typically it is the value returned by <a href="https://msdn.microsoft.com/en-us/library/Bb787636(v=VS.85).aspx">ITextHost::TxActivate</a>. 
+New state of the control. Typically it is the value returned by <a href="https://msdn.microsoft.com/3ad31706-e5aa-49ea-8416-ce522fbdfbac">ITextHost::TxActivate</a>. 
 
 
 ## -returns
@@ -109,7 +109,7 @@ Unspecified error.
 
 
 
-No matter how many times this method is called, only one call to <a href="https://msdn.microsoft.com/en-us/library/Bb787636(v=VS.85).aspx">ITextHost::TxActivate</a> is necessary to activate the control.
+No matter how many times this method is called, only one call to <a href="https://msdn.microsoft.com/3ad31706-e5aa-49ea-8416-ce522fbdfbac">ITextHost::TxActivate</a> is necessary to activate the control.
 
 
 
@@ -123,7 +123,7 @@ No matter how many times this method is called, only one call to <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
@@ -131,11 +131,11 @@ No matter how many times this method is called, only one call to <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787636(v=VS.85).aspx">TxActivate</a>
+<a href="https://msdn.microsoft.com/3ad31706-e5aa-49ea-8416-ce522fbdfbac">TxActivate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

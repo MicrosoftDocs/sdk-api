@@ -175,7 +175,7 @@ This <b>FilterVolumeFindFirst </b>function is used to begin scanning the volumes
 
 <b>FilterVolumeFindFirst</b> opens a search handle and returns information about the first volume found in the list of volumes known to the filter manager. After the search handle has been established, use the <a href="https://msdn.microsoft.com/c18085e9-9781-420e-8070-c71982a2bb46">FilterVolumeFindNext</a> function to search for other volumes in the filter manager's list. When the search handle is no longer required, close it by calling <a href="https://msdn.microsoft.com/18b707a0-2d34-46a9-a77c-b356aba44d72">FilterVolumeFindClose</a>.
 
-Note that when using <b>FilterVolumeFindFirst</b> and <a href="https://msdn.microsoft.com/c18085e9-9781-420e-8070-c71982a2bb46">FilterVolumeFindNext</a> to enumerate the list of volumes known to the filter manager, it is possible for two or more volumes in the list to have the same name.  For more information, see <a href="https://msdn.microsoft.com/library/Ff557237(v=VS.85).aspx">Understanding Volume Enumerations with Duplicate Volume Names</a>.
+Note that when using <b>FilterVolumeFindFirst</b> and <a href="https://msdn.microsoft.com/c18085e9-9781-420e-8070-c71982a2bb46">FilterVolumeFindNext</a> to enumerate the list of volumes known to the filter manager, it is possible for two or more volumes in the list to have the same name.  For more information, see <a href="ifsk.understanding_volume_enumerations_with_duplicate_volume_names">Understanding Volume Enumerations with Duplicate Volume Names</a>.
 
 
 

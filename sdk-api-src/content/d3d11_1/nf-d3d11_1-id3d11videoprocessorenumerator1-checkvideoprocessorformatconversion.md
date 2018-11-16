@@ -7,7 +7,7 @@ old-location: mf\id3d11videoprocessorenumerator1_checkvideoprocessorformatconver
 tech.root: medfound
 ms.assetid: 97DDE2C9-ABF2-47FB-B77C-BD1BC7AC5F2F
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CheckVideoProcessorFormatConversion, CheckVideoProcessorFormatConversion method [Media Foundation], CheckVideoProcessorFormatConversion method [Media Foundation],ID3D11VideoProcessorEnumerator1 interface, ID3D11VideoProcessorEnumerator1 interface [Media Foundation],CheckVideoProcessorFormatConversion method, ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion, ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion, d3d11_1/ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion, mf.id3d11videoprocessorenumerator1_checkvideoprocessorformatconversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ Pointer to a boolean that is set by the driver to indicate if the specified comb
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following error codes.
 
@@ -129,7 +129,7 @@ This method returns one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894146(v=VS.85).aspx">ID3D11VideoProcessorEnumerator1</a>
+<a href="https://msdn.microsoft.com/BBC4C5BC-2DA0-48BD-B182-FBF62A2491A7">ID3D11VideoProcessorEnumerator1</a>
  
 
  

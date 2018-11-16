@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Union_RectF_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionunionmethods\union_27rectfamprect.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Region class [GDI+],Union method, Region.Union, Region.Union(IN const RectF &), Region.Union(const RectF&), Region::Union, Region::Union(IN const RectF &), Union, Union method [GDI+], Union method [GDI+],Region class, _gdiplus_CLASS_Region_Union_RectF_rect_, gdiplus._gdiplus_CLASS_Region_Union_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
 
 
 

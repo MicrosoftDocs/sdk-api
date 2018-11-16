@@ -7,7 +7,7 @@ old-location: mf\imfasfmutualexclusion.htm
 tech.root: medfound
 ms.assetid: 9c2278ec-77d1-445e-94bc-44e5d48f14ae
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: 9c2278ec-77d1-445e-94bc-44e5d48f14ae, IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], IMFASFMutualExclusion interface [Media Foundation],described, mf.imfasfmutualexclusion, wmcontainer/IMFASFMutualExclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices

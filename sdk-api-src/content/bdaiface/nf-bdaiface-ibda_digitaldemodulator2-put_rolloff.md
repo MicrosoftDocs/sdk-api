@@ -4,10 +4,10 @@ title: IBDA_DigitalDemodulator2::put_RollOff
 author: windows-sdk-content
 description: Sets the demodulator's roll-off factor.
 old-location: mstv\ibda_digitaldemodulator2_put_rolloff.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ade8c334-b7b3-464e-a3ab-f8816a44a9dd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_RollOff method, IBDA_DigitalDemodulator2.put_RollOff, IBDA_DigitalDemodulator2::put_RollOff, bdaiface/IBDA_DigitalDemodulator2::put_RollOff, mstv.ibda_digitaldemodulator2_put_rolloff, put_RollOff, put_RollOff method [Microsoft TV Technologies], put_RollOff method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693285(v=VS.85).aspx">IBDA_DigitalDemodulator2</a>
+<a href="https://msdn.microsoft.com/337fba05-80d5-4638-9936-2e02767a5b1b">IBDA_DigitalDemodulator2</a>
  
 
  

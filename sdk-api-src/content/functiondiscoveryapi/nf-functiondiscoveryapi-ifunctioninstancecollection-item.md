@@ -4,10 +4,10 @@ title: IFunctionInstanceCollection::Item
 author: windows-sdk-content
 description: Gets the specified function instance, by index.
 old-location: ncd\ifunctioninstancecollection_item_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: b79b7cb2-c02a-4474-bd48-8907ebb118fa
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IFunctionInstanceCollection interface,Item method, IFunctionInstanceCollection.Item, IFunctionInstanceCollection::Item, Item, Item method, Item method,IFunctionInstanceCollection interface, functiondiscoveryapi/IFunctionInstanceCollection::Item, ncd.ifunctioninstancecollection_item_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,7 @@ Gets the specified function instance, by index.
 The zero-based index of the function instance to be retrieved.
 
 
-### -param ppIFunctionInstance
-
-TBD
-
-
-
-
-#### - ppFunctionInstance [out]
+### -param ppIFunctionInstance [out]
 
 A pointer to an <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface pointer that receives the function instance.
 

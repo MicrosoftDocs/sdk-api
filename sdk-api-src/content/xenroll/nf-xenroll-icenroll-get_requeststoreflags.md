@@ -4,10 +4,10 @@ title: ICEnroll::get_RequestStoreFlags
 author: windows-sdk-content
 description: Sets or retrieves the registry location used for the request store.
 old-location: security\icenroll4_requeststoreflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 399870f0-69e1-4a21-a7fa-c3de9ee66876
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CEnroll object [Security],RequestStoreFlags property, ICEnroll interface [Security],RequestStoreFlags property, ICEnroll.RequestStoreFlags, ICEnroll.get_RequestStoreFlags, ICEnroll2 interface [Security],RequestStoreFlags property, ICEnroll2.RequestStoreFlags, ICEnroll2::get_RequestStoreFlags, ICEnroll2::put_RequestStoreFlags, ICEnroll3 interface [Security],RequestStoreFlags property, ICEnroll3.RequestStoreFlags, ICEnroll3::get_RequestStoreFlags, ICEnroll3::put_RequestStoreFlags, ICEnroll4 interface [Security],RequestStoreFlags property, ICEnroll4.RequestStoreFlags, ICEnroll4::RequestStoreFlags, ICEnroll4::get_RequestStoreFlags, ICEnroll4::put_RequestStoreFlags, ICEnroll::get_RequestStoreFlags, ICEnroll::put_RequestStoreFlags, RequestStoreFlags property [Security], RequestStoreFlags property [Security],CEnroll object, RequestStoreFlags property [Security],ICEnroll interface, RequestStoreFlags property [Security],ICEnroll2 interface, RequestStoreFlags property [Security],ICEnroll3 interface, RequestStoreFlags property [Security],ICEnroll4 interface, get_RequestStoreFlags, security.icenroll4_requeststoreflags, xenroll/ICEnroll2::RequestStoreFlags, xenroll/ICEnroll2::get_RequestStoreFlags, xenroll/ICEnroll2::put_RequestStoreFlags, xenroll/ICEnroll3::RequestStoreFlags, xenroll/ICEnroll3::get_RequestStoreFlags, xenroll/ICEnroll3::put_RequestStoreFlags, xenroll/ICEnroll4::RequestStoreFlags, xenroll/ICEnroll4::get_RequestStoreFlags, xenroll/ICEnroll4::put_RequestStoreFlags, xenroll/ICEnroll::RequestStoreFlags, xenroll/ICEnroll::get_RequestStoreFlags, xenroll/ICEnroll::put_RequestStoreFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,29 +113,33 @@ The <b>RequestStoreFlags</b> property should be set before using the following m
 
 #### Examples
 
-
-```cpp
-DWORD    dwFlags;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD    dwFlags;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // retrieve the flag value
-hr = pEnroll->get_RequestStoreFlags( &dwFlags );
+hr = pEnroll-&gt;get_RequestStoreFlags( &amp;dwFlags );
 if ( FAILED ( hr ) )
     printf("Failed retrieving RequestStoreFlags - %x\n", hr );
 else
     printf("RequestStoreFlags is %x\n", dwFlags );
 
 // set the flag
-hr = pEnroll->put_RequestStoreFlags
+hr = pEnroll-&gt;put_RequestStoreFlags
    ( CERT_SYSTEM_STORE_LOCAL_MACHINE );
 if ( FAILED ( hr ) )
     printf("Failed updating RequestStoreFlags - %x\n", hr );
 else
-    printf("Updated RequestStoreFlags\n");
-```
-
-
+    printf("Updated RequestStoreFlags\n");</pre>
+</td>
+</tr>
+</table></span></div>
 
 

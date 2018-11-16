@@ -66,7 +66,7 @@ The <b>SetupDiOpenDeviceInterfaceRegKey</b> function opens the registry subkey t
 
 ### -param DeviceInfoSet [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device interface for which to open a registry subkey.
+A pointer to a <a href="devinst.device_information_sets">device information set</a> that contains the device interface for which to open a registry subkey.
 
 
 ### -param DeviceInterfaceData [in]

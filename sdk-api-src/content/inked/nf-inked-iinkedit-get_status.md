@@ -7,7 +7,7 @@ old-location: tablet\inkedit_status.htm
 tech.root: tablet
 ms.assetid: 47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d, Collecting, IInkEdit interface [Tablet PC],Status property, IInkEdit.Status, IInkEdit.get_Status, IInkEdit::Status, IInkEdit::get_Status, Idle, InkEdit.get_Status, Recognizing, Status property [Tablet PC], Status property [Tablet PC],IInkEdit interface, get_Status, inked/IInkEdit::Status, inked/IInkEdit::get_Status, put_Status, tablet.inkedit_status
 ms.prod: windows-hardware
 ms.technology: windows-devices

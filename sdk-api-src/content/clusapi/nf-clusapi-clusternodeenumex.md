@@ -4,10 +4,10 @@ title: ClusterNodeEnumEx function
 author: windows-sdk-content
 description: Retrieves the specified cluster node from a CLUSTER_ENUM_ITEM enumeration.
 old-location: mscs\clusternodeenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1F3DFD5C-978B-4943-B4D8-81A7F9D7A3AF
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusterNodeEnumEx, ClusterNodeEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_ENUM_EX, PCLUSAPI_CLUSTER_NODE_ENUM_EX function [Failover Cluster], clusapi/ClusterNodeEnumEx, clusapi/PCLUSAPI_CLUSTER_NODE_ENUM_EX, mscs.clusternodeenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Retrieves the specified cluster node from a <a href="https://msdn.microsoft.com/en-us/library/Dn622910(v=VS.85).aspx">CLUSTER_ENUM_ITEM</a> enumeration.
+Retrieves the specified cluster node from a <a href="https://msdn.microsoft.com/2E7FB4DA-88AD-4739-ACE0-D43670F914D4">CLUSTER_ENUM_ITEM</a> enumeration.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Retrieves the specified cluster node from a <a href="https://msdn.microsoft.com/
 
 ### -param hNodeEnum [in]
 
-A handle to the <a href="https://msdn.microsoft.com/en-us/library/Dn622910(v=VS.85).aspx">CLUSTER_ENUM_ITEM</a> enumeration that contains the cluster node to retrieve.
+A handle to the <a href="https://msdn.microsoft.com/2E7FB4DA-88AD-4739-ACE0-D43670F914D4">CLUSTER_ENUM_ITEM</a> enumeration that contains the cluster node to retrieve.
 
 
 ### -param dwIndex [in]
@@ -90,7 +90,46 @@ On output, either the required size in bytes of the buffer if the buffer is too 
 
 
 
-This function returns DWORD.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>dwIndex</i> is larger than the number of items in the enumeration.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer is too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer was filled successfully.
+
+</td>
+</tr>
+</table>
+ 
 
 
 
@@ -100,11 +139,11 @@ This function returns DWORD.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn622910(v=VS.85).aspx">CLUSTER_ENUM_ITEM</a>
+<a href="https://msdn.microsoft.com/2E7FB4DA-88AD-4739-ACE0-D43670F914D4">CLUSTER_ENUM_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
  
 
  

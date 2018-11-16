@@ -7,7 +7,7 @@ old-location: gdi\removefontresource.htm
 tech.root: gdi
 ms.assetid: ccc0ac8b-e373-47a9-a362-64fd79a33d0c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: RemoveFontResource, RemoveFontResource function [Windows GDI], RemoveFontResourceA, RemoveFontResourceW, _win32_RemoveFontResource, gdi.removefontresource, wingdi/RemoveFontResource, wingdi/RemoveFontResourceA, wingdi/RemoveFontResourceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ If the function fails, the return value is zero.
 
 
 
-We recommend that if an app adds or removes fonts from the system font table that it notify other windows of the change by sending a <a href="https://msdn.microsoft.com/4774308e-2f18-4a35-a769-56871f3c29a2">WM_FONTCHANGE</a> message to all top-level windows in the system. The app sends this message by calling the <a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a> function with the <i>hwnd</i> parameter set to HWND_BROADCAST.
+We recommend that if an app adds or removes fonts from the system font table that it notify other windows of the change by sending a <a href="https://msdn.microsoft.com/4774308e-2f18-4a35-a769-56871f3c29a2">WM_FONTCHANGE</a> message to all top-level windows in the system. The app sends this message by calling the <a href="_win32_sendmessage_cpp">SendMessage</a> function with the <i>hwnd</i> parameter set to HWND_BROADCAST.
 
 If there are outstanding references to a font, the associated resource remains loaded until no device context is using it. Furthermore, if the font is listed in the font registry (<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts</b>) and is installed to any location other than the %windir%\fonts\ folder, it may be loaded into other active sessions (including session 0).
 
@@ -136,7 +136,7 @@ while( i-- )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>
+<a href="_win32_sendmessage_cpp">SendMessage</a>
  
 
  

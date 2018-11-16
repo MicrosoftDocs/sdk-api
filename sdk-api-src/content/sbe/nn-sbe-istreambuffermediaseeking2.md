@@ -4,10 +4,10 @@ title: IStreamBufferMediaSeeking2
 author: windows-sdk-content
 description: The IStreamBufferMediaSeeking2 interface is exposed by the Stream Buffer Source filter. It provides a method to control the frame rate during fast-forward play (&#0034;trick mode&#0034;).
 old-location: mstv\istreambuffermediaseeking2.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 3029868e-0b27-4ce9-90b2-22d8e1961a1f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IStreamBufferMediaSeeking2, IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies], IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies],described, IStreamBufferMediaSeeking2Interface, mstv.istreambuffermediaseeking2, sbe/IStreamBufferMediaSeeking2
 ms.prod: windows-hardware
 ms.technology: windows-devices

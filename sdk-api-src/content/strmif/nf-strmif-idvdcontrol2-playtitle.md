@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playtitle.htm
 tech.root: DirectShow
 ms.assetid: 5cdea69e-7d32-470e-846b-1b2be5ca87b1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayTitle method, IDvdControl2.PlayTitle, IDvdControl2::PlayTitle, IDvdControl2PlayTitle, PlayTitle, PlayTitle method [DirectShow], PlayTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playtitle, strmif/IDvdControl2::PlayTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ The <code>PlayTitle</code> method starts playback from the beginning of the spec
 
 ### -param ulTitle
 
-TBD
+Value that specifies the title number; this value must be from 1 through 99.
 
 
 ### -param dwFlags [in]
@@ -83,11 +83,6 @@ Bitwise OR of one or more flags from the <a href="https://msdn.microsoft.com/05e
 ### -param ppCmd [out]
 
 Receives a pointer to an <a href="https://msdn.microsoft.com/85f9b208-ddc2-4d9c-a30b-b666c81a49d2">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/37e8f940-617d-43f6-92bd-aadccafe0059">Synchronizing DVD Commands</a>.
-
-
-#### - uiTitle
-
-Value that specifies the title number; this value must be from 1 through 99.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wua\automaticupdatespermissiontype.htm
 tech.root: Wua_Sdk
 ms.assetid: 0bacce1d-438d-4d33-91f8-235ffe26abb2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: AutomaticUpdatesPermissionType, AutomaticUpdatesPermissionType enumeration [Windows Update Agent], auptDisableAutomaticUpdates, auptSetFeaturedUpdatesEnabled, auptSetIncludeRecommendedUpdates, auptSetNonAdministratorsElevated, auptSetNotificationLevel, tagAutomaticUpdatesPermissionType, wua.automaticupdatespermissiontype, wuapi/AutomaticUpdatesPermissionType, wuapi/auptDisableAutomaticUpdates, wuapi/auptSetFeaturedUpdatesEnabled, wuapi/auptSetIncludeRecommendedUpdates, wuapi/auptSetNonAdministratorsElevated, wuapi/auptSetNotificationLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The ability to set the <a href="https://msdn.microsoft.com/da4fdb8a-8df8-468f-af
 
 ### -field auptDisableAutomaticUpdates
 
-The ability to set the <a href="https://msdn.microsoft.com/da4fdb8a-8df8-468f-afde-292bbcf6696b">IAutomaticUpdatesSettings::NotificationLevel</a> property to <a href="https://msdn.microsoft.com/en-us/library/Aa385806(v=VS.85).aspx">aunlDisabled</a>.
+The ability to set the <a href="https://msdn.microsoft.com/da4fdb8a-8df8-468f-afde-292bbcf6696b">IAutomaticUpdatesSettings::NotificationLevel</a> property to <a href="automaticupdatesnotificationlevel.htm">aunlDisabled</a>.
 
 
 ### -field auptSetIncludeRecommendedUpdates

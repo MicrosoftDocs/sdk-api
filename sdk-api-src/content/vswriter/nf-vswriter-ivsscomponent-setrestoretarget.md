@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_setrestoretarget.htm
 tech.root: VSS
 ms.assetid: 6e8b9322-6611-4a47-aa7a-876be01d33b8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssComponent interface [VSS],SetRestoreTarget method, IVssComponent.SetRestoreTarget, IVssComponent::SetRestoreTarget, SetRestoreTarget, SetRestoreTarget method [VSS], SetRestoreTarget method [VSS],IVssComponent interface, _win32_ivsscomponent_setrestoretarget, base.ivsscomponent_setrestoretarget, vswriter/IVssComponent::SetRestoreTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

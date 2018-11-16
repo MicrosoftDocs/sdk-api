@@ -7,7 +7,7 @@ old-location: ad\dsclientmakespnfortargetserver.htm
 tech.root: ad
 ms.assetid: d205e7cc-4879-41a4-baa7-75e7dd177cd0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: DsClientMakeSpnForTargetServer, DsClientMakeSpnForTargetServer function [Active Directory], DsClientMakeSpnForTargetServerA, DsClientMakeSpnForTargetServerW, _glines_dsclientmakespnfortargetserver, ad.dsclientmakespnfortargetserver, ntdsapi/DsClientMakeSpnForTargetServer, ntdsapi/DsClientMakeSpnForTargetServerA, ntdsapi/DsClientMakeSpnForTargetServerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

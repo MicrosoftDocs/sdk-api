@@ -4,10 +4,10 @@ title: CreateClusterCNOless function
 author: windows-sdk-content
 description: Creates a cluster without cluster name and IP Address resources.
 old-location: mscs\createclustercnoless.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: AED4CDC5-BE90-4F34-A8E2-DFD0617BC65B
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CreateClusterCNOless, CreateClusterCNOless function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_CNOLESS, PCLUSAPI_CREATE_CLUSTER_CNOLESS function [Failover Cluster], clusapi/CreateClusterCNOless, clusapi/PCLUSAPI_CREATE_CLUSTER_CNOLESS, mscs.createclustercnoless
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Creates a cluster without <a href="https://msdn.microsoft.com/en-us/library/Aa371733(v=VS.85).aspx">cluster name</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa370484(v=VS.85).aspx">IP Address</a>  resources. The allows you to create clusters that are domain joined but not managed by Active Directory, and clusters that are not members of a domain. <b>PCLUSAPI_CREATE_CLUSTER_CNOLESS</b> defines a pointer to this function.
+Creates a cluster without <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">cluster name</a> and <a href="https://msdn.microsoft.com/3ed966f1-0177-4376-a36d-4a2fda327470">IP Address</a>  resources. The allows you to create clusters that are domain joined but not managed by Active Directory, and clusters that are not members of a domain. <b>PCLUSAPI_CREATE_CLUSTER_CNOLESS</b> defines a pointer to this function.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Creates a cluster without <a href="https://msdn.microsoft.com/en-us/library/Aa37
 
 ### -param pConfig [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb309213(v=VS.85).aspx">CREATE_CLUSTER_CONFIG</a> structure that contains the cluster configuration.
+A pointer to the <a href="https://msdn.microsoft.com/5fc90422-47e4-44da-a49f-66d4b7712f53">CREATE_CLUSTER_CONFIG</a> structure that contains the cluster configuration.
 
 
 ### -param pfnProgressCallback [in, optional]
@@ -84,9 +84,29 @@ Callback function arguments for the <i>pfnProgressCallback</i> parameter.
 
 
 A handle to the new cluster or <b>NULL</b>. A non <b>NULL</b> 
-      value does not indicate success (even if all nodes are added to the cluster, the <a href="https://msdn.microsoft.com/en-us/library/Aa370484(v=VS.85).aspx">IP Address</a> or 
+      value does not indicate success (even if all nodes are added to the cluster, the <a href="https://msdn.microsoft.com/3ed966f1-0177-4376-a36d-4a2fda327470">IP Address</a> or 
       <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">Network Name</a> resource creation can fail). After a failure, you should check the parameters 
       passed through the   <i>pfnProgressCallback</i> parameter.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>NULL</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+Less than a majority of nodes were successfully created. For more information about the error, call the 
+        function <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

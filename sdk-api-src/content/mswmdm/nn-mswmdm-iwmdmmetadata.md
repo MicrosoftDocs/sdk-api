@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmmetadata.htm
 tech.root: WMDM
 ms.assetid: ea57a851-0b9f-444c-9819-a278f2ece2b0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IWMDMMetaData, IWMDMMetaData interface [windows Media Device Manager], IWMDMMetaData interface [windows Media Device Manager],described, IWMDMMetaDataInterface, mswmdm/IWMDMMetaData, wmdm.iwmdmmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

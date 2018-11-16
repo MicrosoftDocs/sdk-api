@@ -7,7 +7,7 @@ old-location: stg\stgisstorageilockbytes.htm
 tech.root: Stg
 ms.assetid: ce0e29fd-1b21-4064-8e37-1a5d5df8bb61
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: StgIsStorageILockBytes, StgIsStorageILockBytes function [Structured Storage], _stg_stgisstorageilockbytes, coml2api/StgIsStorageILockBytes, stg.stgisstorageilockbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ The <b>StgIsStorageILockBytes</b> function indicates whether the specified byte 
 ### -param plkbyt
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379238(v=VS.85).aspx">ILockBytes</a> pointer to the byte array to be examined.
+<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> pointer to the byte array to be examined.
 
 
 ## -returns
@@ -77,9 +77,9 @@ The <b>StgIsStorageILockBytes</b> function indicates whether the specified byte 
 
 
 This function can also return any file system errors, or system errors wrapped in an <b>HRESULT</b>, or 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379238(v=VS.85).aspx">ILockBytes</a> interface error return values. See 
-<a href="https://msdn.microsoft.com/en-us/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>
+<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface error return values. See 
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>
 
 
 
@@ -90,9 +90,9 @@ This function can also return any file system errors, or system errors wrapped i
 
 
 At the beginning of the byte array underlying a storage object is a signature distinguishing a storage object (supporting the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a> interface) from other file formats. The 
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface) from other file formats. The 
 <b>StgIsStorageILockBytes</b> function is useful to applications whose documents use a byte array (a byte array object supports the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379238(v=VS.85).aspx">ILockBytes</a> interface) that might or might not use storage objects.
+<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface) that might or might not use storage objects.
 
 
 
@@ -102,11 +102,11 @@ At the beginning of the byte array underlying a storage object is a signature di
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379238(v=VS.85).aspx">ILockBytes</a>
+<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380334(v=VS.85).aspx">StgIsStorageFile</a>
+<a href="https://msdn.microsoft.com/6a0d2da5-4d5c-4da7-9ea6-3b52cd6673fc">StgIsStorageFile</a>
  
 
  

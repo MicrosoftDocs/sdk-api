@@ -4,10 +4,10 @@ title: CLUS_RESSUBCLASS_NETWORK
 author: windows-sdk-content
 description: Identifies a resource subclass that manages an IP address provider.
 old-location: mscs\clus_ressubclass_network.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1dea2545-f0d4-4730-87af-19de135c1640
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUS_RESSUBCLASS_NETWORK, CLUS_RESSUBCLASS_NETWORK enumeration [Failover Cluster], CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, clusapi/CLUS_RESSUBCLASS_NETWORK, clusapi/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, msclus/CLUS_RESSUBCLASS_NETWORK, msclus/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, mscs.clus_ressubclass_network
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,10 +62,10 @@ Identifies a resource subclass that manages an IP address provider.
 ### -field CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL
 
 Identifies a resource subclass that manages an IP address provider. The 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa369016(v=VS.85).aspx">ClusterResourceControl</a> function with the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa367467(v=VS.85).aspx">CLUSCTL_RESOURCE_GET_CLASS_INFO</a> 
+      <a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">ClusterResourceControl</a> function with the 
+      <a href="https://msdn.microsoft.com/4c4f8809-d6eb-43e1-a09e-cfe3770a1fd4">CLUSCTL_RESOURCE_GET_CLASS_INFO</a> 
       control code can retrieve a 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa369187(v=VS.85).aspx">CLUS_RESOURCE_CLASS_INFO</a> structure that contains 
+      <a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> structure that contains 
       this information.
 
 
@@ -74,15 +74,15 @@ Identifies a resource subclass that manages an IP address provider. The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367467(v=VS.85).aspx">CLUSCTL_RESOURCE_GET_CLASS_INFO</a>
+<a href="https://msdn.microsoft.com/4c4f8809-d6eb-43e1-a09e-cfe3770a1fd4">CLUSCTL_RESOURCE_GET_CLASS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369187(v=VS.85).aspx">CLUS_RESOURCE_CLASS_INFO</a>
+<a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369016(v=VS.85).aspx">ClusterResourceControl</a>
+<a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">ClusterResourceControl</a>
  
 
  

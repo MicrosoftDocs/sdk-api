@@ -7,7 +7,7 @@ old-location: wua\iinstallationcompletedcallback.htm
 tech.root: Wua_Sdk
 ms.assetid: 930d33e1-e407-4306-acc6-1d64c385a41d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IInstallationCompletedCallback, IInstallationCompletedCallback interface [Windows Update Agent], IInstallationCompletedCallback interface [Windows Update Agent],described, wua.iinstallationcompletedcallback, wuapi/IInstallationCompletedCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

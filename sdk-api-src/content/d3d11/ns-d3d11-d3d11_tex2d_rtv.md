@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tex2d_rtv.htm
 tech.root: direct3d11
 ms.assetid: e0f24576-0767-461d-8dc3-b8822ea89fef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_TEX2D_RTV, D3D11_TEX2D_RTV structure [Direct3D 11], d3d11/D3D11_TEX2D_RTV, d4057f1c-8c04-5392-49a5-6f49138e1c38, direct3d11.d3d11_tex2d_rtv
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Specifies the subresource from a 2D texture to use in a render-target view.
 
 ### -field MipSlice
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The index of the mipmap level to use mip slice.
 
@@ -69,7 +69,7 @@ The index of the mipmap level to use mip slice.
 
 
 
-This structure is one member of a render-target-view description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476201(v=VS.85).aspx">D3D11_RENDER_TARGET_VIEW_DESC</a>).
+This structure is one member of a render-target-view description (see <a href="https://msdn.microsoft.com/b154ac98-49ed-4d00-8cb6-5e57680e125c">D3D11_RENDER_TARGET_VIEW_DESC</a>).
 
 
 
@@ -79,7 +79,7 @@ This structure is one member of a render-target-view description (see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
  
 
  

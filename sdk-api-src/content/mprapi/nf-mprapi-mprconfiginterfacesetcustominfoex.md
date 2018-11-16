@@ -4,10 +4,10 @@ title: MprConfigInterfaceSetCustomInfoEx function
 author: windows-sdk-content
 description: Sets the custom IKEv2 policy configuration for the specified interface.
 old-location: rras\mprconfiginterfacesetcustominfoex.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: fff18156-ba94-45b7-86c2-a604823a9b08
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MprConfigInterfaceSetCustomInfoEx, MprConfigInterfaceSetCustomInfoEx function [RAS], mprapi/MprConfigInterfaceSetCustomInfoEx, rras.mprconfiginterfacesetcustominfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices

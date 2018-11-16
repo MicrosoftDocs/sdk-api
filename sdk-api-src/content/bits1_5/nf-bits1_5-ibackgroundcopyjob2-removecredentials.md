@@ -59,7 +59,7 @@ req.redist: BITS 1.5 on  Windows XP
 
 
 Removes credentials from use. The credentials must match an existing target and scheme pair that you specified using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362987(v=VS.85).aspx">IBackgroundCopyJob2::SetCredentials</a> method. There is no method to retrieve the credentials you have set.
+<a href="https://msdn.microsoft.com/adaffc21-7df1-48ca-8e05-bdb09663a49b">IBackgroundCopyJob2::SetCredentials</a> method. There is no method to retrieve the credentials you have set.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Identifies whether to use the credentials for proxy or server authentication.
 ### -param Scheme [in]
 
 Identifies the authentication scheme to use (basic or one of several challenge-response schemes). For details, see the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362789(v=VS.85).aspx">BG_AUTH_SCHEME</a> enumeration.
+<a href="https://msdn.microsoft.com/e5a97cee-0012-4e30-850a-9adc258a36d3">BG_AUTH_SCHEME</a> enumeration.
 
 
 ## -returns
@@ -122,15 +122,15 @@ No credentials have been set using the given <i>Target</i> and <i>Scheme</i> pai
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362789(v=VS.85).aspx">BG_AUTH_SCHEME</a>
+<a href="https://msdn.microsoft.com/e5a97cee-0012-4e30-850a-9adc258a36d3">BG_AUTH_SCHEME</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362791(v=VS.85).aspx">BG_AUTH_TARGET</a>
+<a href="https://msdn.microsoft.com/efe7aa0a-48fc-4192-b81b-40d3a9b0fb22">BG_AUTH_TARGET</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362987(v=VS.85).aspx">IBackgroundCopyJob2::SetCredentials</a>
+<a href="https://msdn.microsoft.com/adaffc21-7df1-48ca-8e05-bdb09663a49b">IBackgroundCopyJob2::SetCredentials</a>
  
 
  

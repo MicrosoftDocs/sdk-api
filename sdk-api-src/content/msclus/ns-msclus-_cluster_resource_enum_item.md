@@ -4,10 +4,10 @@ title: "_CLUSTER_RESOURCE_ENUM_ITEM"
 author: windows-sdk-content
 description: Represents the properties of a cluster resource. This structure is used to enumerate cluster resources in the ClusterResourceEnumEx function.
 old-location: mscs\cluster_resource_enum_item.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: B8369B29-F72A-4642-93CB-23F04E680663
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCLUSTER_RESOURCE_ENUM_ITEM, CLUSTER_RESOURCE_ENUM_ITEM, CLUSTER_RESOURCE_ENUM_ITEM structure [Failover Cluster], PCLUSTER_RESOURCE_ENUM_ITEM, PCLUSTER_RESOURCE_ENUM_ITEM structure pointer [Failover Cluster], _CLUSTER_RESOURCE_ENUM_ITEM, _CLUSTER_RESOURCE_ENUM_ITEM structure [Failover Cluster], clusapi/CLUSTER_RESOURCE_ENUM_ITEM, clusapi/PCLUSTER_RESOURCE_ENUM_ITEM, clusapi/_CLUSTER_RESOURCE_ENUM_ITEM, msclus/CLUSTER_RESOURCE_ENUM_ITEM, msclus/PCLUSTER_RESOURCE_ENUM_ITEM, msclus/_CLUSTER_RESOURCE_ENUM_ITEM, mscs.cluster_resource_enum_item"
 ms.prod: windows-hardware
 ms.technology: windows-devices

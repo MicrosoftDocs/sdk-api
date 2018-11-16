@@ -4,10 +4,10 @@ title: CryptHashCertificate2 function
 author: windows-sdk-content
 description: Hashes a block of data by using a CNG hash provider.
 old-location: security\crypthashcertificate2.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9f315374-0002-499a-81ea-efcb3c19e68f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CryptHashCertificate2, CryptHashCertificate2 function [Security], security.crypthashcertificate2, wincrypt/CryptHashCertificate2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,7 +133,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

@@ -4,10 +4,10 @@ title: OpenClusterResourceEx function
 author: windows-sdk-content
 description: Opens a resource and returns a handle to it.
 old-location: mscs\openclusterresourceex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: bd5a411f-3cf4-4dc5-89fc-0edc59f7b15a
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: OpenClusterResourceEx, OpenClusterResourceEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX function [Failover Cluster], clusapi/OpenClusterResourceEx, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, mscs.openclusterresourceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> and returns a handle to 
+Opens a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> and returns a handle to 
     it.
 
 
@@ -67,7 +67,7 @@ Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to a <a href="c_gly.htm">cluster</a>.
 
 
 ### -param lpszResourceName [in, optional]
@@ -104,6 +104,30 @@ If the operation was successful,
       <b>OpenClusterResourceEx</b> returns a handle to the 
       opened resource.
 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NULL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the 
+        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. If the target server does not 
+        support the <a href="https://msdn.microsoft.com/bd5a411f-3cf4-4dc5-89fc-0edc59f7b15a">OpenClusterResourceEx</a> function 
+        (for example if the target server is running Windows Server 2008 or earlier) then the 
+        <b>GetLastError</b> function will return 
+        <b>RPC_S_PROCNUM_OUT_OF_RANGE</b> (1745).
+
+</td>
+</tr>
+</table>
+ 
+
 
 
 
@@ -116,7 +140,7 @@ If the operation was successful,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Failover Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
 
 
 

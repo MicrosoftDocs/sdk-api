@@ -105,12 +105,12 @@ Time when the system was monitored. This member is in Coordinated Universal Time
 
 ### -field PerfTime
 
-Performance-counter value, in counts, for the system being monitored. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a>.
+Performance-counter value, in counts, for the system being monitored. For more information, see <a href="_win32_queryperformancecounter_cpp">QueryPerformanceCounter</a>.
 
 
 ### -field PerfFreq
 
-Performance-counter frequency, in counts per second, for the system being monitored. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a>.
+Performance-counter frequency, in counts per second, for the system being monitored. For more information, see <a href="_win32_queryperformancefrequency_cpp">QueryPerformanceFrequency</a>.
 
 
 ### -field PerfTime100nSec

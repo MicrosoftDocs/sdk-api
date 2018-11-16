@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_execmethod.htm
 tech.root: WmiSdk
 ms.assetid: 9acba1aa-bcca-416a-863c-704d2e72df07
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecMethod method, IWbemServices.ExecMethod, IWbemServices::ExecMethod, _hmm_iwbemservices_execmethod, wbemcli/IWbemServices::ExecMethod, wmi.iwbemservices_execmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,7 +118,7 @@ May be <b>NULL</b> if no in-parameters are required to execute the method. Other
 
 ### -param ppOutParams [out]
 
-If not <b>NULL</b>, receives a pointer to the outbound parameters and return values for the method execution. The contents of this object are method-specific, and are part of the specification for the provider in question. The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the returned object when it is no longer required.
+If not <b>NULL</b>, receives a pointer to the outbound parameters and return values for the method execution. The contents of this object are method-specific, and are part of the specification for the provider in question. The caller must call <a href="_com_iunknown_release">Release</a> on the returned object when it is no longer required.
 
 
 ### -param ppCallResult [out]

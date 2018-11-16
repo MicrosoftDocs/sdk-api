@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessorcontrol.htm
 tech.root: medfound
 ms.assetid: 6803B69E-CF84-45D5-804C-BD961BD5E13D
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IMFVideoProcessorControl, IMFVideoProcessorControl interface [Media Foundation], IMFVideoProcessorControl interface [Media Foundation],described, mf.imfvideoprocessorcontrol, mfidl/IMFVideoProcessorControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

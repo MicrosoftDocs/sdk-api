@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::CreateColorContext
 author: windows-sdk-content
 description: Creates a color context.
 old-location: direct2d\id2d1devicecontext_createcolorcontext.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4e03dfe6-b114-46da-820e-341c554b178b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CreateColorContext, CreateColorContext method [Direct2D], CreateColorContext method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateColorContext method, ID2D1DeviceContext.CreateColorContext, ID2D1DeviceContext::CreateColorContext, d2d1_1/ID2D1DeviceContext::CreateColorContext, direct2d.id2d1devicecontext_createcolorcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,9 +73,11 @@ Type: <b><a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271f
 The space  of color context to create.
 
 
-### -param profile
+### -param profile [in, optional]
 
-TBD
+Type: <b>const BYTE*</b>
+
+A buffer containing the ICC profile bytes used to initialize the color context when <i>space</i> is <a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE_CUSTOM</a>.  For other types, the parameter is ignored and should be set to <b>NULL</b>.
 
 
 ### -param profileSize
@@ -90,13 +92,6 @@ The size in bytes of <i>Profile</i>.
 Type: <b><a href="https://msdn.microsoft.com/acdda11e-eb3f-4258-b24e-daa3b7a23fd6">ID2D1ColorContext</a>**</b>
 
 When this method returns, contains the address of a pointer to a new color context object.
-
-
-#### - Profile [in, optional]
-
-Type: <b>const BYTE*</b>
-
-A buffer containing the ICC profile bytes used to initialize the color context when <i>space</i> is <a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE_CUSTOM</a>.  For other types, the parameter is ignored and should be set to <b>NULL</b>.
 
 
 ## -returns

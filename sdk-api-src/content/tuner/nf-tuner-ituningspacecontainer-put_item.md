@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::put_Item
 author: windows-sdk-content
 description: The put_Item method saves changes to an existing tuning space in the collection.
 old-location: mstv\ituningspacecontainer_put_item.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 44e82ec9-ffd0-4bc9-88da-b6c135cbd98f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],put_Item method, ITuningSpaceContainer.put_Item, ITuningSpaceContainer::put_Item, ITuningSpaceContainerput_Item, mstv.ituningspacecontainer_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, tuner/ITuningSpaceContainer::put_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,14 +74,7 @@ The <b>put_Item</b> method saves changes to an existing tuning space in the coll
 <b>VARIANT</b> that specifies the index of the tuning space.
 
 
-### -param TuningSpace
-
-TBD
-
-
-
-
-#### - pTuningSpace [in]
+### -param TuningSpace [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> interface of the tuning space.
 

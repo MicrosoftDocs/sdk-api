@@ -4,10 +4,10 @@ title: NdrConformantStringMarshall function
 author: windows-sdk-content
 description: The NdrConformantStringMarshall function marshals the conformant string into a network buffer to be sent to the server.
 old-location: rpc\ndrconformantstringmarshall.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: d2e323fb-2bb2-4c6c-8f26-fc7e19c7fea7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: NdrConformantStringMarshall, NdrConformantStringMarshall function [RPC], rpc.ndrconformantstringmarshall, rpcndr/NdrConformantStringMarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

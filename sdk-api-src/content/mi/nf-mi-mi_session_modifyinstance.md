@@ -4,10 +4,10 @@ title: MI_Session_ModifyInstance function
 author: windows-sdk-content
 description: Updates an existing instance in the server represented by the session.
 old-location: wmi_v2\mi_session_modifyinstance.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 4a01ac01-5d47-47ff-a331-6009a5c57204
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Session_ModifyInstance, MI_Session_ModifyInstance function [Windows Management Infrastructure (MI)], mi/MI_Session_ModifyInstance, wmi_v2.mi_session_modifyinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ Session handle returned from
 ### -param flags
 
 Runtime type information (RTTI) 
-      <a href="https://msdn.microsoft.com/en-us/library/JJ653875(v=VS.85).aspx">flags</a>. May be 
+      <a href="mi_flags.htm">flags</a>. May be 
       set to 0.
 
 

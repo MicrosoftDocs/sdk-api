@@ -4,10 +4,10 @@ title: IESEvent
 author: windows-sdk-content
 description: Implements a generic event interface that can deliver and encapsulate events that are raised by devices that work with the Protected Broadcast Driver Interface (PBDA).
 old-location: mstv\iesevent.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 3c375480-c6df-4bb0-b417-5765b0bed9bf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IESEvent, IESEvent interface [Microsoft TV Technologies], IESEvent interface [Microsoft TV Technologies],described, mstv.iesevent, tuner/IESEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

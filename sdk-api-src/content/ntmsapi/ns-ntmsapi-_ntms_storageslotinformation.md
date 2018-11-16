@@ -7,7 +7,7 @@ old-location: fs\ntms_storageslotinformation.htm
 tech.root: Rsm
 ms.assetid: 95b9d2e9-ddf3-459f-b9de-cefc15adb419
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NTMS_SLOTSTATE_EMPTY, NTMS_SLOTSTATE_FULL, NTMS_SLOTSTATE_NEEDSINVENTORY, NTMS_SLOTSTATE_NOTPRESENT, NTMS_SLOTSTATE_UNKNOWN, NTMS_STORAGEINFORMATION, NTMS_STORAGEINFORMATION structure [Files], NTMS_STORAGESLOTINFORMATION, NTMS_STORAGESLOTINFORMATION structure [Files], _NTMS_STORAGESLOTINFORMATION, _zaw_ntms_storageslotinformation, base.ntms_storageslotinformation, fs.ntms_storageslotinformation, ntmsapi/NTMS_STORAGESLOTINFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

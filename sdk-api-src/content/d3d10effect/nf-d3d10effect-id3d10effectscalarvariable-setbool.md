@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectscalarvariable_setbool.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setbool.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D10EffectScalarVariable interface [Direct3D 10],SetBool method, ID3D10EffectScalarVariable.SetBool, ID3D10EffectScalarVariable::SetBool, SetBool, SetBool method [Direct3D 10], SetBool method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetBool, df7ba15f-fa96-1b62-92df-96ce9e9146b9, direct3d10.id3d10effectscalarvariable_setbool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,9 +77,9 @@ A pointer to the variable.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -89,7 +89,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173680(v=VS.85).aspx">ID3D10EffectScalarVariable Interface</a>
+<a href="https://msdn.microsoft.com/1129c4ff-2ea7-4556-8601-4339da7e67d3">ID3D10EffectScalarVariable Interface</a>
  
 
  

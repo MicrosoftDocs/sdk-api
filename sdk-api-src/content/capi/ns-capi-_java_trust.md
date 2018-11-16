@@ -4,10 +4,10 @@ title: "_JAVA_TRUST"
 author: windows-sdk-content
 description: Contains trust information.
 old-location: winprog\java_trust.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: ceb8cfc4-3b29-47d1-a651-d3cee898c1eb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: "*PJAVA_TRUST, JAVA_TRUST, JAVA_TRUST structure [Windows API], PJAVA_TRUST, PJAVA_TRUST structure pointer [Windows API], _JAVA_TRUST, capi/JAVA_TRUST, capi/PJAVA_TRUST, winprog.java_trust"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,7 +123,7 @@ The authenticode policy return code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb432249(v=VS.85).aspx">DownloadJavaEX</a>
+<a href="https://msdn.microsoft.com/b86a8f39-73a1-4e17-ac83-9ed095de4922">DownloadJavaEX</a>
 
 
 

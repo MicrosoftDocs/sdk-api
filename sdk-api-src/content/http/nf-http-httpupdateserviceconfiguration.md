@@ -7,7 +7,7 @@ old-location: http\httpupdateserviceconfiguration.htm
 tech.root: Http
 ms.assetid: B2102444-1183-4133-A83F-A58587FB6B89
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpUpdateServiceConfiguration, HttpUpdateServiceConfiguration function [HTTP], http.httpupdateserviceconfiguration, http/HttpUpdateServiceConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

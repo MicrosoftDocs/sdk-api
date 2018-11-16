@@ -7,7 +7,7 @@ old-location: xaudio2\x3daudio_emitter.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_EMITTER
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPX3DAUDIO_EMITTER, LPX3DAUDIO_EMITTER, LPX3DAUDIO_EMITTER structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_EMITTER, X3DAUDIO_EMITTER structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_EMITTER, x3daudio/X3DAUDIO_EMITTER, xaudio2.x3daudio_emitter"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -199,7 +199,7 @@ When Inner Radius and Inner Radius Angle are not used, emitters are audible in t
 Inner Radius and Inner Radius Angle have no effect on emitters positioned outside of the cones they describe. Inside of the cone, they will gradually cause the sound to bleed into the opposite speakers, until the sound will be equally heard in all speakers when the emitter is at the same position as (or directly above or below) the listener.
 
 
-<img alt="Inner radius and inner radius angle" src="./images/x3daudio_emitter_structure.png"/>
+<img alt="Inner radius and inner radius angle" src="images/x3daudio_emitter_structure.png"/>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 

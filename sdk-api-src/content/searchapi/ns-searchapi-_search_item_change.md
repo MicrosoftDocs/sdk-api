@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_ITEM_CHANGE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_change.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: SEARCH_ITEM_CHANGE, SEARCH_ITEM_CHANGE structure [search], _SEARCH_ITEM_CHANGE, _search_SEARCH_ITEM_CHANGE, search._search_SEARCH_ITEM_CHANGE, searchapi/SEARCH_ITEM_CHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,17 +60,17 @@ Specifies the changes to an indexed item.
 
 ### -field Change
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965702(v=VS.85).aspx">SEARCH_KIND_OF_CHANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b47b18b4-df67-433f-8c10-1a0b444d0f3a">SEARCH_KIND_OF_CHANGE</a></b>
 
 Flag that specifies the kind of change as a value from the 
-                <a href="https://msdn.microsoft.com/en-us/library/Aa965702(v=VS.85).aspx">SEARCH_KIND_OF_CHANGE</a> enumerated type.
+                <a href="https://msdn.microsoft.com/b47b18b4-df67-433f-8c10-1a0b444d0f3a">SEARCH_KIND_OF_CHANGE</a> enumerated type.
 
 
 ### -field Priority
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965703(v=VS.85).aspx">SEARCH_NOTIFICATION_PRIORITY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b4539914-392f-40b4-8d6b-9069f1fce187">SEARCH_NOTIFICATION_PRIORITY</a></b>
 
-Flag that specifies the priority of processing this change as a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965703(v=VS.85).aspx">SEARCH_NOTIFICATION_PRIORITY</a> enumerated type.
+Flag that specifies the priority of processing this change as a value from the <a href="https://msdn.microsoft.com/b4539914-392f-40b4-8d6b-9069f1fce187">SEARCH_NOTIFICATION_PRIORITY</a> enumerated type.
 
 
 ### -field pUserData

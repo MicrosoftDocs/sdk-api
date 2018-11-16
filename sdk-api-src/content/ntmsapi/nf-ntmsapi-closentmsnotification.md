@@ -7,7 +7,7 @@ old-location: fs\closentmsnotification.htm
 tech.root: Rsm
 ms.assetid: 30aa06af-70d4-45c0-b624-575dcf867efb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CloseNtmsNotification, CloseNtmsNotification function [Files], _zaw_closentmsnotification, base.closentmsnotification, fs.closentmsnotification, ntmsapi/CloseNtmsNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,7 +161,7 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Database Notification Functions</a>
+<a href="removable_storage_manager_functions.htm">Database Notification Functions</a>
 
 
 

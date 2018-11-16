@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig_getbufferwindow.htm
 tech.root: wmformat
 ms.assetid: 7a78cd61-e7ae-42e2-9d64-f3344fefc59d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetBufferWindow, GetBufferWindow method [windows Media Format], GetBufferWindow method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetBufferWindow method, IWMStreamConfig.GetBufferWindow, IWMStreamConfig::GetBufferWindow, IWMStreamConfigGetBufferWindow, wmformat.iwmstreamconfig_getbufferwindow, wmsdkidl/IWMStreamConfig::GetBufferWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

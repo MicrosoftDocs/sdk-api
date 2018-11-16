@@ -4,10 +4,10 @@ title: ITuningSpace::get_FriendlyName
 author: windows-sdk-content
 description: The get_FriendlyName method retrieves the localized, user-friendly name of the tuning space.
 old-location: mstv\ituningspace_get_friendlyname.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d1427aae-49e9-45ce-abd9-902a895e6e44
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_FriendlyName method, ITuningSpace.get_FriendlyName, ITuningSpace::get_FriendlyName, ITuningSpaceget_FriendlyName, get_FriendlyName, get_FriendlyName method [Microsoft TV Technologies], get_FriendlyName method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_friendlyname, tuner/ITuningSpace::get_FriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_FriendlyName</b> method retrieves the localized, user-friendly name o
 
 
 
-### -param Name
-
-TBD
-
-
-
-
-#### - pName [out]
+### -param Name [out]
 
 Pointer to a variable receives the user-friendly name.
 

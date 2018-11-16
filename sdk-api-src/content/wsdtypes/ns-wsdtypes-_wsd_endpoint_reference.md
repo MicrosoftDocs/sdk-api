@@ -7,7 +7,7 @@ old-location: ncd\wsd_endpoint_reference_struct.htm
 tech.root: WsdApi
 ms.assetid: 97d6870e-3633-4bea-9a50-984e6b0ba3a1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: WSD_ENDPOINT_REFERENCE, WSD_ENDPOINT_REFERENCE structure, _WSD_ENDPOINT_REFERENCE, ncd.wsd_endpoint_reference_struct, wsdtypes/WSD_ENDPOINT_REFERENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices

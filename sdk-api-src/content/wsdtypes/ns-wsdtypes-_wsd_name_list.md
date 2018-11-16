@@ -7,7 +7,7 @@ old-location: ncd\wsd_name_list_struct.htm
 tech.root: WsdApi
 ms.assetid: f573365d-100f-4df9-b1af-a484680436eb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: WSD_NAME_LIST, WSD_NAME_LIST structure, _WSD_NAME_LIST, ncd.wsd_name_list_struct, wsdtypes/WSD_NAME_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

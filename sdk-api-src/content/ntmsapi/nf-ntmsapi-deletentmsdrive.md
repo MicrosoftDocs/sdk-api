@@ -7,7 +7,7 @@ old-location: fs\deletentmsdrive.htm
 tech.root: Rsm
 ms.assetid: 301900a1-9ccb-45ed-aba7-c398cda7d4a8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DeleteNtmsDrive, DeleteNtmsDrive function [Files], _zaw_deletentmsdrive, base.deletentmsdrive, fs.deletentmsdrive, ntmsapi/DeleteNtmsDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -197,7 +197,7 @@ You can use this function to remove drives that are no longer connected to the R
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

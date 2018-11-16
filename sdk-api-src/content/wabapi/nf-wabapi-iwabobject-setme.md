@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject_SetMe.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\setme.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IWABObject interface [Windows Address Book],SetMe method, IWABObject.SetMe, IWABObject::SetMe, MAPI_DIALOG, SetMe, SetMe method [Windows Address Book], SetMe method [Windows Address Book],IWABObject interface, _wab_IWABObject_SetMe, wab._wab_IWABObject_SetMe, wabapi/IWABObject::SetMe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,13 +99,6 @@ Value of type <a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a> that
 
 
 ### -param hwnd
-
-TBD
-
-
-
-
-#### - ulParam
 
 Type: <b>ULONG</b>
 

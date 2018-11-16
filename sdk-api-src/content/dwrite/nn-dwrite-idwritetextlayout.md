@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout.htm
 tech.root: DirectWrite
 ms.assetid: 0d687337-8623-4014-967c-f533072e31cc
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IDWriteTextLayout, IDWriteTextLayout interface [Direct Write], IDWriteTextLayout interface [Direct Write],described, directwrite.IDWriteTextLayout, dwrite/IDWriteTextLayout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -459,48 +459,56 @@ Sets underlining for text within a specified text range.
 
 To get a reference to the <b>IDWriteTextLayout</b> interface, the application must call the <a href="https://msdn.microsoft.com/f76f85df-112f-4bc3-b922-a0d7940d2954">IDWriteFactory::CreateTextLayout</a> method, as shown in the following code.  
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Create a text layout using the text format.
 if (SUCCEEDED(hr))
 {
     RECT rect;
-    GetClientRect(hwnd_, &rect); 
+    GetClientRect(hwnd_, &amp;rect); 
     float width  = rect.right  / dpiScaleX_;
     float height = rect.bottom / dpiScaleY_;
 
-    hr = pDWriteFactory_->CreateTextLayout(
+    hr = pDWriteFactory_-&gt;CreateTextLayout(
         wszText_,      // The string to be laid out and formatted.
         cTextLength_,  // The length of the string.
         pTextFormat_,  // The text format to apply to the string (contains font information, etc).
         width,         // The width of the layout box.
         height,        // The height of the layout box.
-        &pTextLayout_  // The IDWriteTextLayout interface pointer.
+        &amp;pTextLayout_  // The IDWriteTextLayout interface pointer.
         );
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>IDWriteTextLayout</b> interface allows the application to change the format for ranges of the text it represents, specified by a <a href="https://msdn.microsoft.com/2e37e060-69b9-4ca2-9d95-8e9a39f6cf83">DWRITE_TEXT_RANGE</a> structure.   The following example shows how to set the font weight for a text range.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Set the font weight to bold for the first 5 letters.
 DWRITE_TEXT_RANGE textRange = {0, 4};
 
 if (SUCCEEDED(hr))
 {
-    hr = pTextLayout_->SetFontWeight(DWRITE_FONT_WEIGHT_BOLD, textRange);
+    hr = pTextLayout_-&gt;SetFontWeight(DWRITE_FONT_WEIGHT_BOLD, textRange);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>IDWriteTextLayout</b> also provides methods for adding strikethrough,  underline, and inline objects to the text.
 
 To draw the block of text represented by an <b>IDWriteTextLayout</b> object, <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> provides the <a href="https://msdn.microsoft.com/9356071a-35ca-462a-8a77-887e63850586">ID2D1RenderTarget::DrawTextLayout</a> method. To draw using a custom renderer implement an <a href="https://msdn.microsoft.com/a2ac70c8-e33b-46f1-b53b-1ab07555f109">IDWriteTextRenderer</a> interface and  call the  <a href="https://msdn.microsoft.com/8d92a7c3-4804-47f6-bfca-5322be119cbb">IDWriteTextLayout::Draw</a> method
@@ -511,21 +519,25 @@ To draw a formatted string represented by an <b>IDWriteTextLayout</b> object, <a
 <h3><a id="Other_Rendering_Options"></a><a id="other_rendering_options"></a><a id="OTHER_RENDERING_OPTIONS"></a>Other Rendering Options</h3>
 To render using a custom renderer, use the <a href="https://msdn.microsoft.com/8d92a7c3-4804-47f6-bfca-5322be119cbb">IDWriteTextLayout::Draw</a> method, which takes a callback interface derived from <a href="https://msdn.microsoft.com/a2ac70c8-e33b-46f1-b53b-1ab07555f109">IDWriteTextRenderer</a> as an argument, as shown in the following code.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Draw the text layout using DirectWrite and the CustomTextRenderer class.
-hr = pTextLayout_->Draw(
+hr = pTextLayout_-&gt;Draw(
         NULL,
         pTextRenderer_,  // Custom text renderer.
         origin.x,
         origin.y
         );
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 <a href="https://msdn.microsoft.com/a2ac70c8-e33b-46f1-b53b-1ab07555f109">IDWriteTextRenderer</a> declares methods for drawing a glyph run, underline, strikethrough and inline objects.  It is up to the application to implement these methods.  Creating a custom text renderer allows the application to apply additional effects when rendering text, such as a custom fill or outline.
 

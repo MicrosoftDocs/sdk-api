@@ -4,10 +4,10 @@ title: "_EXIT_THREAD_DEBUG_INFO"
 author: windows-sdk-content
 description: Contains the exit code for a terminating thread.
 old-location: base\exit_thread_debug_info_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 8c135992-2adc-4c7a-bd64-130d4d8ef16c
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPEXIT_THREAD_DEBUG_INFO, EXIT_THREAD_DEBUG_INFO, EXIT_THREAD_DEBUG_INFO structure, LPEXIT_THREAD_DEBUG_INFO, LPEXIT_THREAD_DEBUG_INFO structure pointer, _EXIT_THREAD_DEBUG_INFO, _win32_exit_thread_debug_info_str, base.exit_thread_debug_info_str, minwinbase/EXIT_THREAD_DEBUG_INFO, minwinbase/LPEXIT_THREAD_DEBUG_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

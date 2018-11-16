@@ -94,9 +94,9 @@ This function can return the standard return values E_OUTOFMEMORY and S_OK.
 
 
 
-<b>StringFromCLSID</b> calls the <a href="https://msdn.microsoft.com/en-us/library/ms683893(v=VS.85).aspx">StringFromGUID2</a> function to convert a globally unique identifier (GUID) into a string of printable characters.
+<b>StringFromCLSID</b> calls the <a href="https://msdn.microsoft.com/5f437658-b749-416b-805a-2afdac682660">StringFromGUID2</a> function to convert a globally unique identifier (GUID) into a string of printable characters.
 
-The caller is responsible for freeing the memory allocated for the string by calling the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function. 
+The caller is responsible for freeing the memory allocated for the string by calling the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function. 
 
 
 
@@ -107,11 +107,11 @@ The caller is responsible for freeing the memory allocated for the string by cal
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680589(v=VS.85).aspx">CLSIDFromString</a>
+<a href="https://msdn.microsoft.com/36cc9037-480f-491f-a9bb-5aa1e707781e">CLSIDFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683893(v=VS.85).aspx">StringFromGUID2</a>
+<a href="https://msdn.microsoft.com/5f437658-b749-416b-805a-2afdac682660">StringFromGUID2</a>
  
 
  

@@ -4,10 +4,10 @@ title: IPAT::ConvertNextToCurrent
 author: windows-sdk-content
 description: The ConvertNextToCurrent method converts a next table to a current table.
 old-location: mstv\ipat_convertnexttocurrent.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 89a493b9-93d3-435f-a4dc-24f8f8e2d1bf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IPAT.ConvertNextToCurrent, IPAT::ConvertNextToCurrent, IPATConvertNextToCurrent, mpeg2psiparser/IPAT::ConvertNextToCurrent, mstv.ipat_convertnexttocurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

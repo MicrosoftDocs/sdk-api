@@ -4,10 +4,10 @@ title: SetFileSecurityA function
 author: windows-sdk-content
 description: Sets the security of a file or directory object.
 old-location: security\setfilesecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 27766c97-7ac5-40fc-b798-7cd07e496c0d
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SetFileSecurity, SetFileSecurity function [Security], SetFileSecurityA, SetFileSecurityW, _win32_setfilesecurity, security.setfilesecurity, winbase/SetFileSecurity, winbase/SetFileSecurityA, winbase/SetFileSecurityW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,7 +133,7 @@ The <b>SetFileSecurity</b> function is successful only if the following conditio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

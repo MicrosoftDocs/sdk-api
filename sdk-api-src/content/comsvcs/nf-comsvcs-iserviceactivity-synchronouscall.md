@@ -7,7 +7,7 @@ old-location: cos\iserviceactivity_synchronouscall.htm
 tech.root: cossdk
 ms.assetid: d25e6942-7b1b-4b74-b711-2d0f513d0b38
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IServiceActivity interface [COM+],SynchronousCall method, IServiceActivity.SynchronousCall, IServiceActivity::SynchronousCall, SynchronousCall, SynchronousCall method [COM+], SynchronousCall method [COM+],IServiceActivity interface, _cos_IServiceActivity_SynchronousCall, comsvcs/IServiceActivity::SynchronousCall, cos.iserviceactivity_synchronouscall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,14 @@ Performs the user-defined work synchronously.
 
 ### -param pIServiceCall [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms684294(v=VS.85).aspx">IServiceCall</a> interface that is used to implement the batch work.
+A pointer to the <a href="https://msdn.microsoft.com/97532e29-3d1a-4a7c-8103-dd7ae2866a70">IServiceCall</a> interface that is used to implement the batch work.
 
 
 ## -returns
 
 
 
-This method always returns the <b>HRESULT</b> value returned by the <a href="https://msdn.microsoft.com/en-us/library/ms678912(v=VS.85).aspx">OnCall</a> method of the <a href="https://msdn.microsoft.com/en-us/library/ms684294(v=VS.85).aspx">IServiceCall</a> interface.
+This method always returns the <b>HRESULT</b> value returned by the <a href="https://msdn.microsoft.com/0a2bb7ed-018f-4cb1-a1b2-27f6949dae39">OnCall</a> method of the <a href="https://msdn.microsoft.com/97532e29-3d1a-4a7c-8103-dd7ae2866a70">IServiceCall</a> interface.
 
 
 
@@ -85,7 +85,7 @@ This method always returns the <b>HRESULT</b> value returned by the <a href="htt
 
 
 
-The batch work that is run via this method runs in the context and thread apartment of the activity created by the call to <a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a>.
+The batch work that is run via this method runs in the context and thread apartment of the activity created by the call to <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>.
 
 
 
@@ -96,7 +96,7 @@ The batch work that is run via this method runs in the context and thread apartm
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678822(v=VS.85).aspx">IServiceActivity</a>
+<a href="https://msdn.microsoft.com/005bf0ec-f5a7-41a3-85b3-07f79f26af27">IServiceActivity</a>
  
 
  

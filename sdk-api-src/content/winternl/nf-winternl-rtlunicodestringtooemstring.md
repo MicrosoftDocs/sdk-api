@@ -4,10 +4,10 @@ title: RtlUnicodeStringToOemString function
 author: windows-sdk-content
 description: Converts the specified Unicode source string into an OEM string. The translation is done with respect to the OEM code page (OCP).
 old-location: winprog\rtlunicodestringtooemstring.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodestringtooemstring.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: FALSE, RtlUnicodeStringToOemString, RtlUnicodeStringToOemString function [Windows API], TRUE, winprog.rtlunicodestringtooemstring, winternl/RtlUnicodeStringToOemString, winui.rtlunicodestringtooemstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Converts the specified Unicode source string into an OEM string. The translation
 
 ### -param DestinationString [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms648424(v=VS.85).aspx">OEM_STRING</a> structure that is contains the OEM equivalent to the Unicode source string. The <b>MaximumLength</b> field is set if <i>AllocateDestinationString</i> is <b>TRUE</b>.
+A pointer to an <a href="https://msdn.microsoft.com/4f69b710-2ab2-4439-938b-20509b697dc2">OEM_STRING</a> structure that is contains the OEM equivalent to the Unicode source string. The <b>MaximumLength</b> field is set if <i>AllocateDestinationString</i> is <b>TRUE</b>.
 
 
 ### -param SourceString [in]
@@ -85,7 +85,7 @@ Controls allocation of the buffer space for the destination
 
 #### TRUE
 
-Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://msdn.microsoft.com/en-us/library/ms648418(v=VS.85).aspx">RtlFreeUnicodeString</a>.
+Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://msdn.microsoft.com/320e3fb1-c3a8-4bc4-bb12-1986493998f4">RtlFreeUnicodeString</a>.
 
 
 

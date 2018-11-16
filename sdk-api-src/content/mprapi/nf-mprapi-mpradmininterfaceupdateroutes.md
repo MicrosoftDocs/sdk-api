@@ -4,10 +4,10 @@ title: MprAdminInterfaceUpdateRoutes function
 author: windows-sdk-content
 description: The MprAdminInterfaceUpdateRoutes function requests a specified router manager to update its routing information for a specified interface.
 old-location: rras\mpradmininterfaceupdateroutes.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b06ce009-c52f-4d3b-a452-785c75638c89
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MprAdminInterfaceUpdateRoutes, MprAdminInterfaceUpdateRoutes function [RAS], _mpr_mpradmininterfaceupdateroutes, mprapi/MprAdminInterfaceUpdateRoutes, rras.mpradmininterfaceupdateroutes
 ms.prod: windows-hardware
 ms.technology: windows-devices

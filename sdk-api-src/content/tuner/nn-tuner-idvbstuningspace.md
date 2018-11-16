@@ -4,10 +4,10 @@ title: IDVBSTuningSpace
 author: windows-sdk-content
 description: The IDVBSTuningSpace interface is implemented on the DVBTuningSpace object and provides methods for working with tuning spaces with a DVBS network type.
 old-location: mstv\idvbstuningspace.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 46c143d7-b9ec-4808-a4d2-337e6e0252dd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDVBSTuningSpace, IDVBSTuningSpace interface [Microsoft TV Technologies], IDVBSTuningSpace interface [Microsoft TV Technologies],described, IDVBSTuningSpaceInterface, mstv.idvbstuningspace, tuner/IDVBSTuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

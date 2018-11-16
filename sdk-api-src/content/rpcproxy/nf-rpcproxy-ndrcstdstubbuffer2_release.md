@@ -4,10 +4,10 @@ title: NdrCStdStubBuffer2_Release function
 author: windows-sdk-content
 description: The NdrCStdStubBuffer2_Release function implements the IRpcStubBuffer::Release method.
 old-location: rpc\ndrcstdstubbuffer2_release.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 7709da21-26a4-4ba7-a81f-fbe993fc0c08
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: NdrCStdStubBuffer2_Release, NdrCStdStubBuffer2_Release function [RPC], rpc.ndrcstdstubbuffer2_release, rpcproxy/NdrCStdStubBuffer2_Release
 ms.prod: windows-hardware
 ms.technology: windows-devices

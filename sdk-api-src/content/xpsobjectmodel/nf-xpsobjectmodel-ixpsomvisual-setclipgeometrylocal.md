@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_setclipgeometrylocal.htm
 tech.root: printdocs
 ms.assetid: 8b703866-9dc0-4327-9988-908f17bd4b21
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetClipGeometryLocal method, IXpsOMVisual.SetClipGeometryLocal, IXpsOMVisual::SetClipGeometryLocal, SetClipGeometryLocal, SetClipGeometryLocal method [XPS Documents and Packaging], SetClipGeometryLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setclipgeometrylocal, xpsobjectmodel/IXpsOMVisual::SetClipGeometryLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices

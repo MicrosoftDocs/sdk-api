@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getscrollmode.htm
 tech.root: medfound
 ms.assetid: 85CD2A7A-23ED-4D5C-AAEC-D5DF9F059897
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetScrollMode, GetScrollMode method [Media Foundation], GetScrollMode method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetScrollMode method, IMFTimedTextRegion.GetScrollMode, IMFTimedTextRegion::GetScrollMode, mf.imftimedtextregion_getscrollmode, mfmediaengine/IMFTimedTextRegion::GetScrollMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Gets the scroll mode of the region.
 
 
 
-### -param scrollMode
-
-TBD
-
-
-
-
-#### - pScrollMode [out]
+### -param scrollMode [out]
 
 Type: <b><a href="https://msdn.microsoft.com/7FE9B5BB-7313-4E9F-A34E-FDFBC6F07686">MF_TIMED_TEXT_SCROLL_MODE</a>*</b>
 

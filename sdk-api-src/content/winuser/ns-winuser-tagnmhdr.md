@@ -4,10 +4,10 @@ title: tagNMHDR
 author: windows-sdk-content
 description: Contains information about a notification message.
 old-location: controls\NMHDR.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmhdr.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPNMHDR, NMHDR, NMHDR structure [Windows Controls], _win32_NMHDR_str, _win32_NMHDR_str_cpp, controls.NMHDR, controls._win32_NMHDR_str, richedit/NMHDR, tagNMHDR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,5 +76,5 @@ An identifier of the control sending the message.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A notification code. This member can be one of the common notification codes (see Notifications under <a href="https://msdn.microsoft.com/en-us/library/Bb775497(v=VS.85).aspx">General Control Reference</a>), or it can be a control-specific notification code. 
+A notification code. This member can be one of the common notification codes (see Notifications under <a href="https://msdn.microsoft.com/c8e72ae9-7c71-465d-9a6b-07e7923d4a13">General Control Reference</a>), or it can be a control-specific notification code. 
 

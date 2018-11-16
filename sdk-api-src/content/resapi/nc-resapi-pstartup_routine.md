@@ -4,10 +4,10 @@ title: PSTARTUP_ROUTINE
 author: windows-sdk-content
 description: Loads a resource DLL, returning a structure containing a function table and a version number.
 old-location: mscs\startup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b07a2c32-2ff5-4917-9bcb-e1cfe445b3b3
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PSTARTUP_ROUTINE, PSTARTUP_ROUTINE callback function [Failover Cluster], Startup, Startup callback, Startup callback function [Failover Cluster], _wolf_startup, mscs.startup, resapi/PSTARTUP_ROUTINE, resapi/Startup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,6 +100,40 @@ Pointer to a <a href="https://msdn.microsoft.com/fa27076f-393c-415a-9301-91cfe77
 ## -returns
 
 
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The request was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_REVISION_MISMATCH</b></dt>
+<dt>1306 (0x51A)</dt>
+</dl>
+</td>
+<td width="60%">
+The resource DLL does not support a version that falls in the range identified by the 
+         <i>MinVersionSupported</i> and <i>MaxVersionSupported</i> 
+         parameters.
+
+</td>
+</tr>
+</table>
+ 
 
 If the operation was not successful, <i>Startup</i> should 
        return one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.

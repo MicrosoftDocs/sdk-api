@@ -7,7 +7,7 @@ old-location: mbn\imbninterface_getinterfacecapability.htm
 tech.root: mbn
 ms.assetid: cfe8f638-ad17-4118-9c79-b7ebc81c726a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetInterfaceCapability, GetInterfaceCapability method [Microsoft Broadband Networks], GetInterfaceCapability method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetInterfaceCapability method, IMbnInterface.GetInterfaceCapability, IMbnInterface::GetInterfaceCapability, mbn.imbninterface_getinterfacecapability, mbnapi/IMbnInterface::GetInterfaceCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

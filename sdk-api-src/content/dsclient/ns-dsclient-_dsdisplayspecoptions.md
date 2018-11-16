@@ -7,7 +7,7 @@ old-location: ad\dsdisplayspecoptions.htm
 tech.root: ad
 ms.assetid: 01b7a571-fdbd-41e9-96c9-843cc733a32c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: "*LPDSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, DSDISPLAYSPECOPTIONS, DSDISPLAYSPECOPTIONS structure [Active Directory], DSDSOF_DONTSIGNSEAL, DSDSOF_DSAVAILABLE, DSDSOF_HASUSERANDSERVERINFO, DSDSOF_SIMPLEAUTHENTICATE, LPDSDISPLAYSPECOPTIONS, LPDSDISPLAYSPECOPTIONS structure pointer [Active Directory], PDSDISPLAYSPECOPTIONS, PDSDISPLAYSPECOPTIONS structure pointer [Active Directory], _DSDISPLAYSPECOPTIONS, _glines_dsdisplayspecoptions, ad.dsdisplayspecoptions, dsclient/DSDISPLAYSPECOPTIONS, dsclient/LPDSDISPLAYSPECOPTIONS, dsclient/PDSDISPLAYSPECOPTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,13 +100,13 @@ Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b>
 
 #### "admin"
 
-The extension was obtained from the <a href="https://msdn.microsoft.com/library/ms675216(v=VS.85).aspx">adminPropertyPages</a> attribute.
+The extension was obtained from the <a href="ad.win2k_a_adminpropertypages">adminPropertyPages</a> attribute.
 
 
 
 #### "shell"
 
-The extension was obtained from the <a href="https://msdn.microsoft.com/library/ms679813(v=VS.85).aspx">shellPropertyPages</a> attribute.
+The extension was obtained from the <a href="ad.win2k_a_shellpropertypages">shellPropertyPages</a> attribute.
 
 The following example shows how to use this member.
 

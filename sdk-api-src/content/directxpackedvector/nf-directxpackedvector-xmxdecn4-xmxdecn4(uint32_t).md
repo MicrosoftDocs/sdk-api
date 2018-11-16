@@ -7,7 +7,7 @@ old-location: dxmath\xmxdecn4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDECN4.#ctor(uint32_t)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: XMXDECN4 constructor [DirectX Math Support APIs], XMXDECN4 constructor [DirectX Math Support APIs],XMXDECN4 structure, XMXDECN4 structure [DirectX Math Support APIs],XMXDECN4 constructor, XMXDECN4.XMXDECN4(uint32_t), dxmath.xmxdecn4_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices

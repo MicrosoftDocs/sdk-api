@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_StringFormat_formatFlags_langu
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors\stringformat_22formatflags_language.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: StringFormat, StringFormat class [GDI+],StringFormat constructor, StringFormat constructor [GDI+], StringFormat constructor [GDI+],StringFormat class, StringFormat.StringFormat, StringFormat.StringFormat(IN INT,IN LANGID), StringFormat.StringFormat(INT,LANGID), StringFormat::StringFormat, StringFormat::StringFormat(IN INT,IN LANGID), _gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_, gdiplus._gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object based on string format flags and a language.
+Creates a <a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object based on string format flags and a language.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).as
 
 Type: <b>INT</b>
 
-Optional. Value that specifies the format flags that control most of the characteristics of the <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object. The flags are set by applying a bitwise 
+Optional. Value that specifies the format flags that control most of the characteristics of the <a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object. The flags are set by applying a bitwise 
 					<b>OR</b> to elements of the <a href="https://msdn.microsoft.com/9bbddab0-46b1-49db-86c1-cf9086692958">StringFormatFlags</a> enumeration. The default value is 0 (no flags set). 
 
 
@@ -104,7 +104,7 @@ For a list of the available languages and sublanguages, see Winnt.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
 
 
 

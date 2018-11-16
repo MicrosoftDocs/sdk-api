@@ -7,7 +7,7 @@ old-location: wab\_wab_ENTRYLIST.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\entrylist.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPENTRYLIST, ENTRYLIST, ENTRYLIST structure [Windows Address Book], LPENTRYLIST, LPENTRYLIST structure pointer [Windows Address Book], SBinaryArray, _SBinaryArray, _wab_ENTRYLIST, wab._wab_ENTRYLIST, wabdefs/ENTRYLIST, wabdefs/LPENTRYLIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.product: Internet Explorer 4.0
 ## -description
 
 
-Do not use. An array of entry identifiers representing MAPI objects. Uses the same implementation as <a href="https://msdn.microsoft.com/library/ms527367(v=EXCHG.10).aspx">SBinaryArray</a>.
+Do not use. An array of entry identifiers representing MAPI objects. Uses the same implementation as <a href="31fc6e1b-c2c1-4e74-a760-957a60005d1e">SBinaryArray</a>.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ Variable of type <b>ULONG</b> that specifies the number of entry identifiers.
 
 ### -field lpbin
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms528837(v=EXCHG.10).aspx">SBinary</a>*</b>
+Type: <b><a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a>*</b>
 
-Array of variables of type <a href="https://msdn.microsoft.com/library/ms528837(v=EXCHG.10).aspx">SBinary</a> that specify the entry identifiers.
+Array of variables of type <a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a> that specify the entry identifiers.
 

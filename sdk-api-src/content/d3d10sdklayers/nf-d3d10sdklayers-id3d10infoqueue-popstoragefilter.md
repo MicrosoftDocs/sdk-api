@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_popstoragefilter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_popstoragefilter.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D10InfoQueue interface [Direct3D 10],PopStorageFilter method, ID3D10InfoQueue.PopStorageFilter, ID3D10InfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method [Direct3D 10], PopStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, b9699061-4597-ddd4-4063-52d0dcbfb78b, d3d10sdklayers/ID3D10InfoQueue::PopStorageFilter, direct3d10.id3d10infoqueue_popstoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

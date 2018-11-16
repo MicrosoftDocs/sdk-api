@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setblueyintercept.htm
 tech.root: directcomp
 ms.assetid: 1687DE56-E737-47F6-BBA4-43AAED572AA7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueYIntercept method, IDCompositionLinearTransferEffect.SetBlueYIntercept, IDCompositionLinearTransferEffect.SetBlueYIntercept(float), IDCompositionLinearTransferEffect::SetBlueYIntercept, IDCompositionLinearTransferEffect::SetBlueYIntercept(float), SetBlueYIntercept, SetBlueYIntercept method [DirectComposition], SetBlueYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueYIntercept, directcomp.idcompositionlineartransfereffect_setblueyintercept
 ms.prod: windows-hardware
 ms.technology: windows-devices

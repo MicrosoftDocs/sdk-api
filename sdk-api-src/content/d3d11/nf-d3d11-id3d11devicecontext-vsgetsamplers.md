@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_vsgetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 0b8cbdfe-58e1-46f0-86c1-22da8178d296
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],VSGetSamplers method, ID3D11DeviceContext.VSGetSamplers, ID3D11DeviceContext::VSGetSamplers, VSGetSamplers, VSGetSamplers method [Direct3D 11], VSGetSamplers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::VSGetSamplers, da7916b1-64dc-68da-7790-065a4977bd36, direct3d11.id3d11devicecontext_vsgetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,23 +69,23 @@ Get an array of sampler states from the vertex shader pipeline stage.
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index into a zero-based array to begin getting samplers from (ranges from 0 to D3D11_COMMONSHADER_SAMPLER_SLOT_COUNT - 1).
 
 
 ### -param NumSamplers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of samplers to get from a device context. Each pipeline stage has a total of 16 sampler slots available (ranges from 0 to D3D11_COMMONSHADER_SAMPLER_SLOT_COUNT - StartSlot).
 
 
 ### -param ppSamplers [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476588(v=VS.85).aspx">ID3D11SamplerState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/8dc2facc-4f51-4064-aab4-028a06b9d7e6">ID3D11SamplerState</a>**</b>
 
-Arry of sampler-state interface pointers (see <a href="https://msdn.microsoft.com/en-us/library/Ff476588(v=VS.85).aspx">ID3D11SamplerState</a>) to be returned by the device.
+Arry of sampler-state interface pointers (see <a href="https://msdn.microsoft.com/8dc2facc-4f51-4064-aab4-028a06b9d7e6">ID3D11SamplerState</a>) to be returned by the device.
 
 
 ## -returns
@@ -111,7 +111,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

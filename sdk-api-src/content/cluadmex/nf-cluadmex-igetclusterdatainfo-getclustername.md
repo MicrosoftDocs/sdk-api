@@ -4,10 +4,10 @@ title: IGetClusterDataInfo::GetClusterName
 author: windows-sdk-content
 description: Returns the name of the cluster.
 old-location: mscs\igetclusterdatainfo_getclustername.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 711a193f-de29-4e90-adf1-6dc6e95c0c61
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetClusterName, GetClusterName method [Failover Cluster], GetClusterName method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetClusterName method, IGetClusterDataInfo.GetClusterName, IGetClusterDataInfo::GetClusterName, _wolf_igetclusterdatainfo_getclustername, cluadmex/IGetClusterDataInfo::GetClusterName, mscs.igetclusterdatainfo_getclustername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,6 +91,52 @@ On input, pointer to the size of the buffer, in characters, pointed to by the
 If <b>GetClusterName</b> is not 
        successful, it can return other <b>HRESULT</b> values.
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the parameters are invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_MORE_DATA)</b></dt>
+<dt>0x800700ea</dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by <i>lpszName</i> is too small to hold the requested name. 
+         <a href="https://msdn.microsoft.com/711a193f-de29-4e90-adf1-6dc6e95c0c61">GetClusterName</a> returns the 
+         required number of characters in the content of <i>pcchName</i>.
+
+</td>
+</tr>
+</table>
+ 
+
 
 
 
@@ -111,7 +157,7 @@ If the <i>lpszName</i> parameter is set to <b>NULL</b> and the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370211(v=VS.85).aspx">IGetClusterDataInfo</a>
+<a href="https://msdn.microsoft.com/a2800ac8-a865-4e66-8147-90e95b54cb0c">IGetClusterDataInfo</a>
  
 
  

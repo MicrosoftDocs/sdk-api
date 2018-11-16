@@ -7,7 +7,7 @@ old-location: ad\ds_repl_kcc_dsa_failurew_blob.htm
 tech.root: ad
 ms.assetid: b0df588a-2ef1-4870-b304-c6f9e07322b0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: DS_REPL_KCC_DSA_FAILUREW_BLOB, DS_REPL_KCC_DSA_FAILUREW_BLOB structure [Active Directory], _DS_REPL_KCC_DSA_FAILUREW_BLOB, ad.ds_repl_kcc_dsa_failurew_blob, msDS-ReplConnectionFailures, msDS-ReplLinkFailures, ntdsapi/DS_REPL_KCC_DSA_FAILUREW_BLOB
 ms.prod: windows-hardware
 ms.technology: windows-devices

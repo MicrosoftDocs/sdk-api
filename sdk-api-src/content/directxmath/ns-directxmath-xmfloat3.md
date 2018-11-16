@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: XMFLOAT3, XMFLOAT3 structure [DirectX Math Support APIs], directxmath/XMFLOAT3, dxmath.xmfloat3
 ms.prod: windows-hardware
 ms.technology: windows-devices

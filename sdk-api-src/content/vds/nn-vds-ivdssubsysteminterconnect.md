@@ -7,7 +7,7 @@ old-location: base\ivdssubsysteminterconnect.htm
 tech.root: VDS
 ms.assetid: d690827a-4608-4d02-a3bb-5cdb5073b0ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsSubSystemInterconnect, IVdsSubSystemInterconnect interface, IVdsSubSystemInterconnect interface,described, base.ivdssubsysteminterconnect, vds/IVdsSubSystemInterconnect, vdshwprv/IVdsSubSystemInterconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

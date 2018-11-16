@@ -4,10 +4,10 @@ title: FCIFlushFolder function
 author: windows-sdk-content
 description: The FCIFlushFolder function forces the current folder under construction to be completed immediately.
 old-location: winprog\fciflushfolder.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: dc9c226e-e309-48c3-9edb-3f0a040c0c18
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: FCIFlushFolder, FCIFlushFolder function [Windows API], fci/FCIFlushFolder, winprog.fciflushfolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

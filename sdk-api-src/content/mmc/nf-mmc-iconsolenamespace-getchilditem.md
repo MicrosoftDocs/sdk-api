@@ -4,10 +4,10 @@ title: IConsoleNameSpace::GetChildItem
 author: windows-sdk-content
 description: The IConsoleNameSpace2::GetChildItem method enables the snap-in to get the handle to a child item in the scope pane.
 old-location: mmc\iconsolenamespace2_getchilditem.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: a320f42e-1dca-4dd9-a919-c4451a48d105
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetChildItem, GetChildItem method [MMC], GetChildItem method [MMC],IConsoleNameSpace interface, GetChildItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetChildItem method, IConsoleNameSpace.GetChildItem, IConsoleNameSpace2 interface [MMC],GetChildItem method, IConsoleNameSpace2::GetChildItem, IConsoleNameSpace::GetChildItem, _slate_iconsolenamespace2_getchilditem, mmc.iconsolenamespace2_getchilditem, mmc/IConsoleNameSpace2::GetChildItem, mmc/IConsoleNameSpace::GetChildItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,14 +77,7 @@ A handle to a parent item in the scope pane.
 A pointer to the handle that identifies the child item in the scope pane that has been returned.
 
 
-### -param pCookie
-
-TBD
-
-
-
-
-#### - plCookie [out]
+### -param pCookie [out]
 
 A pointer to the cookie associated with the child item that has been returned.
 

@@ -7,7 +7,7 @@ old-location: intl\getthreaduilanguage.htm
 tech.root: Intl
 ms.assetid: c10cbf84-8aaf-46c7-8b2f-e719e30f2556
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetThreadUILanguage, GetThreadUILanguage function [Internationalization for Windows Applications], _win32_GetThreadUILanguage, intl.getthreaduilanguage, winnls/GetThreadUILanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

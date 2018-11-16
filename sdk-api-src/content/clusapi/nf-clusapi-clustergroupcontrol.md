@@ -4,10 +4,10 @@ title: ClusterGroupControl function
 author: windows-sdk-content
 description: Initiates an operation that affects a group. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clustergroupcontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 72896685-a1db-43d7-a5e3-ba380c0624f2
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusterGroupControl, ClusterGroupControl function [Failover Cluster], _wolf_clustergroupcontrol, clusapi/ClusterGroupControl, mscs.clustergroupcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,8 +60,8 @@ req.redist:
 
 
 Initiates an 
-    operation that affects a <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a>. The operation performed depends on 
-    the <a href="https://msdn.microsoft.com/en-us/library/Aa369307(v=VS.85).aspx">control code</a> passed to the 
+    operation that affects a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>. The operation performed depends on 
+    the <a href="https://msdn.microsoft.com/47618915-0985-4415-b7d4-5959fb27eb9f">control code</a> passed to the 
     <i>dwControlCode</i> parameter.
 
 
@@ -78,72 +78,72 @@ Handle to the group to be affected.
 ### -param hHostNode [in, optional]
 
 If non-<b>NULL</b>, handle to the node to perform the operation represented by the control 
-       code. If <b>NULL</b>, the <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> that owns the 
+       code. If <b>NULL</b>, the <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> that owns the 
        group performs the operation. Specifying <i>hHostNode</i> is optional.
 
 
 ### -param dwControlCode [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa369684(v=VS.85).aspx">group control code</a> specifying the operation to 
+A <a href="https://msdn.microsoft.com/41f93d49-c021-4fcb-9d38-f801702b9e51">group control code</a> specifying the operation to 
        be performed. For the syntax associated with a control code, refer to  
-       <a href="https://msdn.microsoft.com/en-us/library/Aa369308(v=VS.85).aspx">Control Code Architecture</a> and the following 
+       <a href="https://msdn.microsoft.com/d107f743-8ce8-4c0c-b7a2-24a70ffbc0f3">Control Code Architecture</a> and the following 
        topics:
 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367236(v=VS.85).aspx">CLUSCTL_GROUP_ENUM_COMMON_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/5d5f2956-8289-48df-903b-47163ae5c1ae">CLUSCTL_GROUP_ENUM_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367237(v=VS.85).aspx">CLUSCTL_GROUP_ENUM_PRIVATE_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/78a77a38-d301-452b-a11a-cf42eaf46532">CLUSCTL_GROUP_ENUM_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367238(v=VS.85).aspx">CLUSCTL_GROUP_GET_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/e01103a4-b527-4b8b-9933-7dbe0e6f2ddd">CLUSCTL_GROUP_GET_CHARACTERISTICS</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367239(v=VS.85).aspx">CLUSCTL_GROUP_GET_COMMON_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/f00cd260-48aa-4e55-a2d6-079f82840da5">CLUSCTL_GROUP_GET_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367240(v=VS.85).aspx">CLUSCTL_GROUP_GET_COMMON_PROPERTY_FMTS</a>
+<a href="https://msdn.microsoft.com/a95fb950-c2e9-4fd0-8382-f49f802c07d6">CLUSCTL_GROUP_GET_COMMON_PROPERTY_FMTS</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367242(v=VS.85).aspx">CLUSCTL_GROUP_GET_FLAGS</a>
+<a href="https://msdn.microsoft.com/0daffb5e-f63c-48ef-8fe3-f17aa6181386">CLUSCTL_GROUP_GET_FLAGS</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367244(v=VS.85).aspx">CLUSCTL_GROUP_GET_ID</a>
+<a href="https://msdn.microsoft.com/f755dc21-2fee-4a48-8f23-02b0a8543c59">CLUSCTL_GROUP_GET_ID</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367245(v=VS.85).aspx">CLUSCTL_GROUP_GET_NAME</a>
+<a href="https://msdn.microsoft.com/af2a4c7b-e720-45a8-a12a-827b819fb9cc">CLUSCTL_GROUP_GET_NAME</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367246(v=VS.85).aspx">CLUSCTL_GROUP_GET_PRIVATE_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/aa82f5ca-3f04-47ec-b037-769eddce94d7">CLUSCTL_GROUP_GET_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367247(v=VS.85).aspx">CLUSCTL_GROUP_GET_PRIVATE_PROPERTY_FMTS</a>
+<a href="https://msdn.microsoft.com/39c7ba30-5985-423c-b2a8-081c6693471e">CLUSCTL_GROUP_GET_PRIVATE_PROPERTY_FMTS</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367248(v=VS.85).aspx">CLUSCTL_GROUP_GET_RO_COMMON_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/2ada0f26-36c3-4b16-a135-0ccd53fd9bdb">CLUSCTL_GROUP_GET_RO_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367249(v=VS.85).aspx">CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/b01bd00d-f3c4-4087-befc-3c1f1f75a8ab">CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367250(v=VS.85).aspx">CLUSCTL_GROUP_QUERY_DELETE</a>
+<a href="https://msdn.microsoft.com/7daddba1-2849-46c1-8ae2-2fd426702afd">CLUSCTL_GROUP_QUERY_DELETE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367251(v=VS.85).aspx">CLUSCTL_GROUP_SET_COMMON_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/854acb91-28df-431d-a6ed-ade4d319d41f">CLUSCTL_GROUP_SET_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367252(v=VS.85).aspx">CLUSCTL_GROUP_SET_PRIVATE_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/a0043a00-5f5a-4088-935f-c4b0cc90ea9d">CLUSCTL_GROUP_SET_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367253(v=VS.85).aspx">CLUSCTL_GROUP_UNKNOWN</a>
+<a href="https://msdn.microsoft.com/ab34ed81-bd84-4940-8571-91402487b983">CLUSCTL_GROUP_UNKNOWN</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367254(v=VS.85).aspx">CLUSCTL_GROUP_VALIDATE_COMMON_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/60fd243c-517c-48f9-9a66-dd4c8bf67703">CLUSCTL_GROUP_VALIDATE_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa367255(v=VS.85).aspx">CLUSCTL_GROUP_VALIDATE_PRIVATE_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/f311df2e-6a43-40e3-98ee-e6a1316734a1">CLUSCTL_GROUP_VALIDATE_PRIVATE_PROPERTIES</a>
 </li>
 </ul>
 
@@ -183,6 +183,57 @@ Returns the actual size (in bytes) of the data resulting from the operation. If 
 
 The function returns one of the following values.
 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful. If the operation required an output buffer, 
+         <i>lpBytesReturned</i> (if not <b>NULL</b> on input) points to the 
+         actual size of the data returned in the buffer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The output buffer pointed to by <i>lpOutBuffer</i> was not large enough to hold the data 
+         resulting from the operation. The <i>lpBytesReturned</i> parameter (if not 
+         <b>NULL</b> on input) points to the size required for the output buffer. Only operations 
+         requiring an output buffer return <b>ERROR_MORE_DATA</b>. If the 
+         <i>lpOutBuffer</i> parameter is <b>NULL</b> and the 
+         <i>nOutBufferSize</i> parameter is zero, then <b>ERROR_SUCCESS</b> may 
+         be returned, not <b>ERROR_MORE_DATA</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System error code</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. If the operation required an output buffer, the value specified by 
+         <i>lpBytesReturned</i> (if not <b>NULL</b> on input) is 
+         unreliable.
+
+</td>
+</tr>
+</table>
+ 
+
 
 
 
@@ -196,13 +247,13 @@ If <b>ClusterGroupControl</b> returns
 
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
      can have additional destructive effects. For information on how LPC and RPC handles are created, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370974(v=VS.85).aspx">LPC and RPC Handles</a> and 
+     <a href="https://msdn.microsoft.com/0fdb2024-9b04-4a38-baf9-3cdabba9bf8c">LPC and RPC Handles</a> and 
      <a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a>.
 
 <b>ClusterGroupControl</b> is one of the 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369310(v=VS.85).aspx">control code functions</a>. For more information on 
+     <a href="https://msdn.microsoft.com/89ae667e-6ad9-453e-b370-b3d6a67172a2">control code functions</a>. For more information on 
      control codes and control code functions, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa372956(v=VS.85).aspx">Using Control Codes</a>.
+     <a href="https://msdn.microsoft.com/20f87f60-6237-459a-93bc-f599391e65b0">Using Control Codes</a>.
 
 
 #### Examples

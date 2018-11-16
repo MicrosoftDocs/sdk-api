@@ -7,7 +7,7 @@ old-location: wcs\getcolorprofileelementtag.htm
 tech.root: WCS
 ms.assetid: 6f3172ac-19e0-43c7-a0a7-587ae31ec2fa
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetColorProfileElementTag, GetColorProfileElementTag function [Windows Color System], _color_GetColorProfileElementTag, icm/GetColorProfileElementTag, wcs.getcolorprofileelementtag
 ms.prod: windows-hardware
 ms.technology: windows-devices

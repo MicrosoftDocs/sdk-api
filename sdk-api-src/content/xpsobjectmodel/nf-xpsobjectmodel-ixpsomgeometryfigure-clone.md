@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigure_clone.htm
 tech.root: printdocs
 ms.assetid: 97876b95-7b68-4c91-ab15-0708bad3876f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],Clone method, IXpsOMGeometryFigure.Clone, IXpsOMGeometryFigure::Clone, xps.ixpsomgeometryfigure_clone, xpsobjectmodel/IXpsOMGeometryFigure::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

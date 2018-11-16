@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerrorinfo_getitemchangeflags.htm
 tech.root: OfflineFiles
 ms.assetid: 1014e42f-83af-493e-b264-a46055f646a5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetItemChangeFlags, GetItemChangeFlags method [Offline Files], GetItemChangeFlags method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetItemChangeFlags method, IOfflineFilesSyncErrorInfo.GetItemChangeFlags, IOfflineFilesSyncErrorInfo::GetItemChangeFlags, OFFLINEFILES_SYNC_ITEM_CHANGE_ATTRIBUTES, OFFLINEFILES_SYNC_ITEM_CHANGE_CHANGETIME, OFFLINEFILES_SYNC_ITEM_CHANGE_FILESIZE, OFFLINEFILES_SYNC_ITEM_CHANGE_NONE, OFFLINEFILES_SYNC_ITEM_CHANGE_WRITETIME, cscobj/IOfflineFilesSyncErrorInfo::GetItemChangeFlags, of.iofflinefilessyncerrorinfo_getitemchangeflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,7 +116,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530625(v=VS.85).aspx">IOfflineFilesSyncErrorInfo</a>
+<a href="https://msdn.microsoft.com/df1dd351-eb18-46e6-b778-852f551adfd1">IOfflineFilesSyncErrorInfo</a>
  
 
  

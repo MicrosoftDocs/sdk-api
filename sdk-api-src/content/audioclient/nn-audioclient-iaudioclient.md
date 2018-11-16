@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient.htm
 tech.root: CoreAudio
 ms.assetid: 5088a3f1-5001-4ed9-a495-9e91df613ab0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IAudioClient, IAudioClient interface [Core Audio], IAudioClient interface [Core Audio],described, audioclient/IAudioClient, coreaudio.iaudioclient
 ms.prod: windows-hardware
 ms.technology: windows-devices

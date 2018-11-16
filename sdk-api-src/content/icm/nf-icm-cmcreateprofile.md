@@ -7,7 +7,7 @@ old-location: wcs\cmcreateprofile.htm
 tech.root: WCS
 ms.assetid: 0677e2d0-b8e8-4136-b895-9f120fa51d2c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CMCreateProfile, CMCreateProfile function [Windows Color System], _color_CMCreateProfile, icm/CMCreateProfile, wcs.cmcreateprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

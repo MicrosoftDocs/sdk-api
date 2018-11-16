@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onnewcall.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onnewcall.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnNewCall method, IFaxServerNotify2.OnNewCall, IFaxServerNotify2::OnNewCall, OnNewCall, OnNewCall method [Fax Service], OnNewCall method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnNewCall, _IFaxServerNotify2::OnNewCall, _mfax_ifaxservernotify2_onnewcall, fax._mfax_ifaxservernotify2_onnewcall, faxcomex/IFaxServerNotify2::OnNewCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,9 @@ The fax service calls the <b>IFaxServerNotify2::OnNewCall</b> method when there 
 
 ### -param pFaxServer
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
+
+A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ### -param lCallId
@@ -91,13 +93,6 @@ Long value that specifies the device ID of the device receiving the new incoming
 Type: <b>long</b>
 
 Null-terminated string that identifies the calling device for the new incoming fax call.
-
-
-#### - pFaxServer2
-
-Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
-
-A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ## -returns

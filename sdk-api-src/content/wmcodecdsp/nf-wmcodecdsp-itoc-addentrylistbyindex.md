@@ -7,7 +7,7 @@ old-location: mf\itoc_addentrylistbyindex.htm
 tech.root: medfound
 ms.assetid: 273e1c38-7f1a-4f04-b1a8-ba27b5babf94
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AddEntryListByIndex, AddEntryListByIndex method [Media Foundation], AddEntryListByIndex method [Media Foundation],IToc interface, IToc interface [Media Foundation],AddEntryListByIndex method, IToc.AddEntryListByIndex, IToc::AddEntryListByIndex, codecapi.itoc_addentrylistbyindex, mf.itoc_addentrylistbyindex, wmcodecdsp/IToc::AddEntryListByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

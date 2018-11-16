@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpolinkscollection_get_count.htm
 tech.root: GPMC
 ms.assetid: 09307f35-d90f-4ef8-9eee-2ef33b765c19
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMGPOLinksCollection class, Count property [GPMC],IGPMGPOLinksCollection interface, GPMGPOLinksCollection class [GPMC],Count property, IGPMGPOLinksCollection interface [GPMC],Count property, IGPMGPOLinksCollection.Count, IGPMGPOLinksCollection.get_Count, IGPMGPOLinksCollection::Count, IGPMGPOLinksCollection::get_Count, _win32_igpmgpolinkscollection_get_count, get_Count, gpmc.igpmgpolinkscollection_get_count, gpmgmt/IGPMGPOLinksCollection::Count, gpmgmt/IGPMGPOLinksCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

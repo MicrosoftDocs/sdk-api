@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_populatebykey.htm
 tech.root: cossdk
 ms.assetid: 57329c32-2852-47ff-bf8c-dbb63f69841f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICatalogCollection interface [COM+],PopulateByKey method, ICatalogCollection.PopulateByKey, ICatalogCollection::PopulateByKey, PopulateByKey, PopulateByKey method [COM+], PopulateByKey method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_PopulateByKey, comadmin/ICatalogCollection::PopulateByKey, cos.icatalogcollection_populatebykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ Populates a selected list of items in the collection from the COM+ catalog, base
 
 ### -param psaKeys [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms679201(v=VS.85).aspx">Key</a> property value of the objects for which data is to be read.
+The <a href="https://msdn.microsoft.com/1937cd5a-742f-4248-a4c2-0b39a03eed20">Key</a> property value of the objects for which data is to be read.
 
 
 ## -returns
@@ -114,7 +114,7 @@ Errors occurred while accessing one or more objects.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/ms685204(v=VS.85).aspx">SaveChanges</a> method prior to calling <b>PopulateByKey</b> if you want to save pending changes. Unsaved changes made to the collection are lost when you call <b>PopulateByKey</b>.
+Call the <a href="https://msdn.microsoft.com/ae984eee-4a8d-48e5-839c-fa115fd4aeea">SaveChanges</a> method prior to calling <b>PopulateByKey</b> if you want to save pending changes. Unsaved changes made to the collection are lost when you call <b>PopulateByKey</b>.
 
 
 
@@ -124,7 +124,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/ms685204(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

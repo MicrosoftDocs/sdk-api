@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdate_deviceproblemnumber.htm
 tech.root: Wua_Sdk
 ms.assetid: eef5a246-ee27-424d-81eb-39f59668d6e5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: DeviceProblemNumber property [Windows Update Agent], DeviceProblemNumber property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DeviceProblemNumber property, IWindowsDriverUpdate.DeviceProblemNumber, IWindowsDriverUpdate.get_DeviceProblemNumber, IWindowsDriverUpdate::DeviceProblemNumber, IWindowsDriverUpdate::get_DeviceProblemNumber, get_DeviceProblemNumber, wua.iwindowsdriverupdate_deviceproblemnumber, wuapi/IWindowsDriverUpdate::DeviceProblemNumber, wuapi/IWindowsDriverUpdate::get_DeviceProblemNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

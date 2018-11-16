@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_getobjecttext.htm
 tech.root: WmiSdk
 ms.assetid: 7e874e9a-7417-4b3f-95c5-398fe92bfdf8
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetObjectText, GetObjectText method [Windows Management Instrumentation], GetObjectText method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetObjectText method, IWbemClassObject.GetObjectText, IWbemClassObject::GetObjectText, _hmm_iwbemclassobject_getobjecttext, wbemcli/IWbemClassObject::GetObjectText, wmi.iwbemclassobject_getobjecttext
 ms.prod: windows-hardware
 ms.technology: windows-devices

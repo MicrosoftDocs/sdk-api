@@ -7,7 +7,7 @@ old-location: tsf\itfeditrecord.htm
 tech.root: TSF
 ms.assetid: 2106cd97-9e1f-4d7c-a7a4-55676cf8923b
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfEditRecord, ITfEditRecord interface [Text Services Framework], ITfEditRecord interface [Text Services Framework],described, _tsf_itfeditrecord_ref, msctf/ITfEditRecord, tsf.itfeditrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,7 +99,7 @@ Obtains an enumerator that contains a collection of range objects that cover the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

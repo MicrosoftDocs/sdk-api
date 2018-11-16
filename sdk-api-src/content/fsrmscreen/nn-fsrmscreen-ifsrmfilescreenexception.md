@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreenexception.htm
 tech.root: Fsrm
 ms.assetid: 188e76dd-6df6-412f-8d51-fc727075de80
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IFsrmFileScreenException, IFsrmFileScreenException interface [File Server Resource Manager], IFsrmFileScreenException interface [File Server Resource Manager],described, fs.ifsrmfilescreenexception, fsrm.ifsrmfilescreenexception, fsrmscreen/IFsrmFileScreenException
 ms.prod: windows-hardware
 ms.technology: windows-devices

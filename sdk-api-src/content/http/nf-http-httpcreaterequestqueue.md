@@ -7,7 +7,7 @@ old-location: http\httpcreaterequestqueue.htm
 tech.root: Http
 ms.assetid: a0f4112e-db81-4eda-afeb-d00117f7240c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER, HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING, HttpCreateRequestQueue, HttpCreateRequestQueue function [HTTP], http.httpcreaterequestqueue, http/HttpCreateRequestQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,18 @@ An HTTPAPI_VERSION structure indicating the request queue version. For  version 
 The version must be 2.0; <b>HttpCreateRequestQueue</b> does not support  version 1.0 request queues.
 
 
-### -param Name
+### -param Name [in, optional]
 
-TBD
+The name of the request queue. The length, in bytes, cannot exceed MAX_PATH.
+
+  The optional name parameter allows other processes to access the request queue by name.
 
 
-### -param SecurityAttributes
+### -param SecurityAttributes [in, optional]
 
-TBD
+A pointer to the <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the  access permissions for the request queue.
+
+This parameter must be <b>NULL</b> when opening an existing request queue.
 
 
 ### -param Flags [in, optional]
@@ -116,21 +120,7 @@ The handle to the request queue created using this flag cannot be used to perfor
  
 
 
-### -param RequestQueueHandle [in, optional]
-
-A pointer to the <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the  access permissions for the request queue.
-
-This parameter must be <b>NULL</b> when opening an existing request queue.
-
-
-#### - pName [in, optional]
-
-The name of the request queue. The length, in bytes, cannot exceed MAX_PATH.
-
-  The optional name parameter allows other processes to access the request queue by name.
-
-
-#### - pReqQueueHandle [out]
+### -param RequestQueueHandle [out]
 
 A pointer to a variable that receives a handle to the request queue.  This parameter must contain a valid pointer; it cannot be <b>NULL</b>.
 

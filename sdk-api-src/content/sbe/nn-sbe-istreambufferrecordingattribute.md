@@ -4,10 +4,10 @@ title: IStreamBufferRecordingAttribute
 author: windows-sdk-content
 description: The IStreamBufferRecordingAttribute interface sets and retrieves attributes on a stream buffer recording.
 old-location: mstv\istreambufferrecordingattribute.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 7c46413f-3e51-4d72-b7f7-a8239c61b161
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IStreamBufferRecordingAttribute, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies], IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],described, IStreamBufferRecordingAttributeInterface, mstv.istreambufferrecordingattribute, sbe/IStreamBufferRecordingAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

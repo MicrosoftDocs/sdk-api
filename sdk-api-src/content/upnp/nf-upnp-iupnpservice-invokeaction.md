@@ -7,7 +7,7 @@ old-location: upnp\iupnpservice_invokeaction.htm
 tech.root: UPnP
 ms.assetid: fe8b4761-63cb-46a9-a7d0-5603cc1a5a58
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IUPnPService interface [UPnP APIs],InvokeAction method, IUPnPService.InvokeAction, IUPnPService::InvokeAction, InvokeAction, InvokeAction method [UPnP APIs], InvokeAction method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_invokeaction, upnp.iupnpservice_invokeaction, upnp/IUPnPService::InvokeAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,45 +72,7 @@ The
 Specifies the method to invoke.
 
 
-### -param vInActionArgs
-
-TBD
-
-
-### -param pvOutActionArgs
-
-TBD
-
-
-### -param pvRetVal
-
-TBD
-
-
-
-
-#### - pvarOutActionArgs [in, out]
-
-On input, contains a reference to an empty array. On output, receives a reference to the array of output arguments. If the action has no output arguments, this parameter contains an empty array. 
-						
-
-The contents of this parameter are service-specific.
-
-Free this parameter with <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>.
-						
-
-
-#### - pvarRetVal [in, out]
-
-On input, contains a reference to an empty array. On output, receives a reference to a <b>VARIANT</b> that contains the return value of this action.
-
-If the device returns an error after the action is invoked on it and this parameter is not set to <b>NULL</b>, this parameter will contain specific text describing the error upon return. For more information on the errors returned by devices, please refer to the <a href="https://msdn.microsoft.com/4b18a5d4-f6e8-4670-93dd-ecd012940000">Device Error Codes</a> documentation.
-
-Free this parameter with <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>.
-						
-
-
-#### - varInActionArgs [in]
+### -param vInActionArgs [in]
 
 Specifies an array of input arguments to the method. If the action has no input arguments, this parameter must contain an empty array. 
 
@@ -118,6 +80,27 @@ Specifies an array of input arguments to the method. If the action has no input 
 
 
 The contents of this array are service-specific.
+
+
+### -param pvOutActionArgs [in, out]
+
+On input, contains a reference to an empty array. On output, receives a reference to the array of output arguments. If the action has no output arguments, this parameter contains an empty array. 
+						
+
+The contents of this parameter are service-specific.
+
+Free this parameter with <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.
+						
+
+
+### -param pvRetVal [in, out]
+
+On input, contains a reference to an empty array. On output, receives a reference to a <b>VARIANT</b> that contains the return value of this action.
+
+If the device returns an error after the action is invoked on it and this parameter is not set to <b>NULL</b>, this parameter will contain specific text describing the error upon return. For more information on the errors returned by devices, please refer to the <a href="https://msdn.microsoft.com/4b18a5d4-f6e8-4670-93dd-ecd012940000">Device Error Codes</a> documentation.
+
+Free this parameter with <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.
+						
 
 
 ## -returns

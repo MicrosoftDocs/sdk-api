@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_checkvideodecoderformat.htm
 tech.root: medfound
 ms.assetid: E834DF38-2847-4864-9CFE-A25CAE51C78F
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CheckVideoDecoderFormat, CheckVideoDecoderFormat method [Media Foundation], CheckVideoDecoderFormat method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CheckVideoDecoderFormat method, ID3D11VideoDevice.CheckVideoDecoderFormat, ID3D11VideoDevice::CheckVideoDecoderFormat, d3d11/ID3D11VideoDevice::CheckVideoDecoderFormat, mf.id3d11videodevice_checkvideodecoderformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ A pointer to a GUID that identifies the profile. To get the list of supported pr
 
 ### -param Format [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> value that specifies the output format. Typical values include <b>DXGI_FORMAT_NV12</b> and <b>DXGI_FORMAT_420_OPAQUE</b>.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> value that specifies the output format. Typical values include <b>DXGI_FORMAT_NV12</b> and <b>DXGI_FORMAT_420_OPAQUE</b>.
 
 
 ### -param pSupported [out]

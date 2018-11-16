@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Inflate_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfinflatemethods\inflate_74dx_dy.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Inflate, Inflate method [GDI+], Inflate method [GDI+],RectF class, RectF class [GDI+],Inflate method, RectF.Inflate, RectF.Inflate(IN REAL,IN REAL), RectF.Inflate(REAL,REAL), RectF::Inflate, RectF::Inflate(IN REAL,IN REAL), _gdiplus_CLASS_RectF_Inflate_dx_dy_, gdiplus._gdiplus_CLASS_RectF_Inflate_dx_dy_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,24 +110,28 @@ The x-coordinate of the left edge is decreased by
 The following example creates a 
 						<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> object, draws the rectangle, inflates the rectangle, and then redraws the rectangle.
 
-
-```cpp
-VOID Example_InflateDxDy(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_InflateDxDy(HDC hdc)
 {
    Graphics graphics(hdc);
    Pen pen(Color(255, 0, 0, 0));
 
    // Create and draw a rectangle.
    RectF rect(100, 100, 80, 40);
-   graphics.DrawRectangle(&pen, rect);
+   graphics.DrawRectangle(&amp;pen, rect);
 
    // Inflate the rectangle, and then redraw the rectangle.
    rect.Inflate(20, 10);
-   graphics.DrawRectangle(&pen, rect);
-}
-```
-
-
+   graphics.DrawRectangle(&amp;pen, rect);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

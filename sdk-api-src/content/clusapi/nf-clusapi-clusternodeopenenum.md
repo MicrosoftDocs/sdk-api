@@ -4,10 +4,10 @@ title: ClusterNodeOpenEnum function
 author: windows-sdk-content
 description: Opens an enumerator for iterating through the network interfaces or groups installed on a node.
 old-location: mscs\clusternodeopenenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f187f4d7-24c8-477d-91fc-0ef738b66f22
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUSTER_NODE_ENUM_ALL, CLUSTER_NODE_ENUM_GROUPS, CLUSTER_NODE_ENUM_NETINTERFACES, ClusterNodeOpenEnum, ClusterNodeOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_OPEN_ENUM, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM function [Failover Cluster], _wolf_clusternodeopenenum, clusapi/ClusterNodeOpenEnum, clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM, mscs.clusternodeopenenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,8 +57,8 @@ req.redist:
 
 
 Opens an 
-    enumerator for iterating through the <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interfaces</a>  
-    or <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">groups</a> installed on a <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a>. The <b>PCLUSAPI_CLUSTER_NODE_OPEN_ENUM</b> type defines a pointer to this function.
+    enumerator for iterating through the <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a>  
+    or <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a> installed on a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>. The <b>PCLUSAPI_CLUSTER_NODE_OPEN_ENUM</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Handle to a node.
 ### -param dwType [in]
 
 Bitmask describing the type of objects to be enumerated. The following values of the 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb309156(v=VS.85).aspx">CLUSTER_NODE_ENUM</a> enumeration are valid.
+       <a href="https://msdn.microsoft.com/e8660f86-f4e5-4aa3-851a-94f0a230e12d">CLUSTER_NODE_ENUM</a> enumeration are valid.
 
 
 
@@ -125,7 +125,7 @@ The <b>ClusterNodeOpenEnum</b> function returns a
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">Enumerating Objects</a>.
+See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
 
 <div class="code"></div>
 
@@ -136,7 +136,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">En
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309156(v=VS.85).aspx">CLUSTER_NODE_ENUM</a>
+<a href="https://msdn.microsoft.com/e8660f86-f4e5-4aa3-851a-94f0a230e12d">CLUSTER_NODE_ENUM</a>
 
 
 
@@ -148,7 +148,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">En
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
 
 
 

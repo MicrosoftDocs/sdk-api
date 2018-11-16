@@ -4,10 +4,10 @@ title: IMSVidPlayback::put_EnableResetOnStop
 author: windows-sdk-content
 description: The put_EnableResetOnStop method indicates how playback will resume if the graph is rebuilt.
 old-location: mstv\imsvidplayback_put_enableresetonstop.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: f2b4285c-3cf8-40dc-87eb-57419ef7343e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_EnableResetOnStop method, IMSVidPlayback.put_EnableResetOnStop, IMSVidPlayback::put_EnableResetOnStop, IMSVidPlaybackput_EnableResetOnStop, mstv.imsvidplayback_put_enableresetonstop, put_EnableResetOnStop, put_EnableResetOnStop method [Microsoft TV Technologies], put_EnableResetOnStop method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_EnableResetOnStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

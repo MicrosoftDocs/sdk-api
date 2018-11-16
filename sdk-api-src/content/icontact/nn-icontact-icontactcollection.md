@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactCollection.htm
 tech.root: wincontacts
 ms.assetid: 4d7f26b0-a2c0-4c7b-8f1d-f918cb1e0897
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IContactCollection, IContactCollection interface [Windows Contacts], IContactCollection interface [Windows Contacts],described, _wincontacts_IContactCollection, icontact/IContactCollection, wincontacts._wincontacts_IContactCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

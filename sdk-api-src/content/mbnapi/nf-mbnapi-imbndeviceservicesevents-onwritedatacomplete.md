@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents_onwritedatacomplete.htm
 tech.root: mbn
 ms.assetid: 2C885E15-C689-4ADF-BFB0-24D03932FAC7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnWriteDataComplete method, IMbnDeviceServicesEvents.OnWriteDataComplete, IMbnDeviceServicesEvents::OnWriteDataComplete, OnWriteDataComplete, OnWriteDataComplete method [Microsoft Broadband Networks], OnWriteDataComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onwritedatacomplete, mbnapi/IMbnDeviceServicesEvents::OnWriteDataComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ Notification method indicating that a device service session <b>Write</b> reques
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> session object on which the <b>Write</b> was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> session object on which the <b>Write</b> was requested.
 
 
 ### -param status [in]

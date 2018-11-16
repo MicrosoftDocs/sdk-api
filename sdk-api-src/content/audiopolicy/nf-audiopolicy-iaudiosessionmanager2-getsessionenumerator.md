@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionmanager2_getsessionenumerator.htm
 tech.root: CoreAudio
 ms.assetid: 68166fc1-af27-4251-8e18-be23d205b567
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetSessionEnumerator, GetSessionEnumerator method [Core Audio], GetSessionEnumerator method [Core Audio],IAudioSessionManager2 interface, IAudioSessionManager2 interface [Core Audio],GetSessionEnumerator method, IAudioSessionManager2.GetSessionEnumerator, IAudioSessionManager2::GetSessionEnumerator, audiopolicy/IAudioSessionManager2::GetSessionEnumerator, coreaudio.iaudiosessionmanager2_getsessionenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>GetSessionEnumerator</b> method gets a pointer to the audio session enume
 
 
 
-### -param SessionEnum
-
-TBD
-
-
-
-
-#### - SessionList [out]
+### -param SessionEnum [out]
 
 Receives a pointer to the <a href="https://msdn.microsoft.com/a7976d13-3391-4747-b83a-cfb9407b34f2">IAudioSessionEnumerator</a> interface of the session enumerator object that the client can use to enumerate audio sessions on the audio device. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. 
 

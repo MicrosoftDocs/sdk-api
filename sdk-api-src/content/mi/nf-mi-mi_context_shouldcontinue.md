@@ -4,10 +4,10 @@ title: MI_Context_ShouldContinue function
 author: windows-sdk-content
 description: Queries the client to determine if an operation should continue.
 old-location: wmi_v2\mi_context_shouldcontinue.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 5548b75d-2d71-4ef1-828c-ae8fb5e9c165
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Context_ShouldContinue, MI_Context_ShouldContinue function [Windows Management Infrastructure (MI)], mi/MI_Context_ShouldContinue, wmi.mi_shouldcontinue, wmi_v2.mi_context_shouldcontinue
 ms.prod: windows-hardware
 ms.technology: windows-devices

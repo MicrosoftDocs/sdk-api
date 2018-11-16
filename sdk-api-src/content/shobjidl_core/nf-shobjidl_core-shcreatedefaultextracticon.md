@@ -7,7 +7,7 @@ old-location: shell\SHCreateDefaultExtractIcon.htm
 tech.root: shell
 ms.assetid: 483dc9ae-4820-47f1-888e-ad7a6bdf3d29
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: SHCreateDefaultExtractIcon, SHCreateDefaultExtractIcon function [Windows Shell], _shell_SHCreateDefaultExtractIcon, shell.SHCreateDefaultExtractIcon, shobjidl_core/SHCreateDefaultExtractIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

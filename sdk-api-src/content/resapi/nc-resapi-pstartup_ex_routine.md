@@ -4,10 +4,10 @@ title: PSTARTUP_EX_ROUTINE
 author: windows-sdk-content
 description: Loads a resource DLL, returning a structure that contains a function table and a version number.
 old-location: mscs\startupex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7C669EDC-B7A1-4623-91A9-5D8C5949B50A
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PSTARTUP_EX_ROUTINE, PSTARTUP_EX_ROUTINE callback function [Failover Cluster], StartupEx, StartupEx callback, StartupEx callback function [Failover Cluster], mscs.startupex, resapi/PSTARTUP_EX_ROUTINE, resapi/StartupEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,11 +89,39 @@ TBD
 
 
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The request was successful.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_REVISION_MISMATCH</b></dt>
+<dt>1306 (0x51A)</dt>
+</dl>
+</td>
+<td width="60%">
+The resource DLL does not support a version that falls in the range identified by the 
+         <i>MinVersionSupported</i> and <i>MaxVersionSupported</i> 
+         parameters.
 
-Returns DWORD that ...
-
-
+</td>
+</tr>
+</table>
+ 
 
 
 

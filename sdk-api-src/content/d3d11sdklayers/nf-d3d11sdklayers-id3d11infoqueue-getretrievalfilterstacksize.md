@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_getretrievalfilterstacksize.htm
 tech.root: direct3d11
 ms.assetid: c6a50310-5c0e-450d-8ee0-48cd9531b22d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 9f3ac790-1077-265b-3ff1-a7b8249fe6ae, GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method [Direct3D 11], GetRetrievalFilterStackSize method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetRetrievalFilterStackSize method, ID3D11InfoQueue.GetRetrievalFilterStackSize, ID3D11InfoQueue::GetRetrievalFilterStackSize, d3d11sdklayers/ID3D11InfoQueue::GetRetrievalFilterStackSize, direct3d11.id3d11infoqueue_getretrievalfilterstacksize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ Get the size of the retrieval-filter stack in bytes.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Size of the retrieval-filter stack in bytes.
 
@@ -85,7 +85,7 @@ Size of the retrieval-filter stack in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476538(v=VS.85).aspx">ID3D11InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">ID3D11InfoQueue Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gpmc\igpmsearchcriteria_add.htm
 tech.root: GPMC
 ms.assetid: 8d3f62df-6de1-4871-903f-05ac234db17f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],IGPMSearchCriteria interface, IGPMSearchCriteria interface [GPMC],Add method, IGPMSearchCriteria.Add, IGPMSearchCriteria::Add, _win32_igpmsearchcriteria_add, gpmc.igpmsearchcriteria_add, gpmgmt/IGPMSearchCriteria::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

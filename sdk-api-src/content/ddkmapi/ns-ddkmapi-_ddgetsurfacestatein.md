@@ -7,7 +7,7 @@ old-location: display\ddgetsurfacestatein.htm
 tech.root: display
 ms.assetid: 689b5563-5f8d-4050-af6d-f1c5683f07a3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPDDGETSURFACESTATEIN, DDGETSURFACESTATEIN, DDGETSURFACESTATEIN structure [Display Devices], LPDDGETSURFACESTATEIN, LPDDGETSURFACESTATEIN structure pointer [Display Devices], _DDGETSURFACESTATEIN, ddkmapi/DDGETSURFACESTATEIN, ddkmapi/LPDDGETSURFACESTATEIN, ddstrcts_af2430eb-e7b8-4b9a-aa51-e1765608eb0b.xml, display.ddgetsurfacestatein"
 ms.prod: windows-hardware
 ms.technology: windows-devices

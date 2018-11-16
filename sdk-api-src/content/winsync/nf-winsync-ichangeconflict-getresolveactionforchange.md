@@ -7,7 +7,7 @@ old-location: winsync\ichangeconflict_getresolveactionforchange.htm
 tech.root: winsync
 ms.assetid: b89124fe-200e-4061-974e-2d686de7a932
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetResolveActionForChange, GetResolveActionForChange method [Windows Sync], GetResolveActionForChange method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetResolveActionForChange method, IChangeConflict.GetResolveActionForChange, IChangeConflict::GetResolveActionForChange, winsync.ichangeconflict_getresolveactionforchange, winsync/IChangeConflict::GetResolveActionForChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

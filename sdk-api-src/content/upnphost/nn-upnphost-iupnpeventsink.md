@@ -7,7 +7,7 @@ old-location: upnp\iupnpeventsink.htm
 tech.root: UPnP
 ms.assetid: 431423c9-2873-422d-a28c-c4ef23109114
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IUPnPEventSink, IUPnPEventSink interface [UPnP APIs], IUPnPEventSink interface [UPnP APIs],described, _upnp_iupnpeventsink, upnp.iupnpeventsink, upnphost/IUPnPEventSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ The <b>IUPnPEventSink</b> interface has these methods.
 <a href="https://msdn.microsoft.com/bb87345e-6a61-48fd-94dc-9a90f756a586">OnStateChanged</a>
 </td>
 <td align="left" width="63%">
-Method that sends the list of <a href="https://msdn.microsoft.com/en-us/library/ms221242(v=VS.85).aspx">dispids</a> for state variables that have changed and their changed values to the device host. The device host then queries the device for the changed values and sends the event to all subscribed control points.
+Method that sends the list of <a href="56037091-5761-40ad-8b25-72f85d41466f">dispids</a> for state variables that have changed and their changed values to the device host. The device host then queries the device for the changed values and sends the event to all subscribed control points.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10asynchronous_begin.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous_begin.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 6afd45da-6dfb-8e93-0007-ccacda13bbb7, Begin, Begin method [Direct3D 10], Begin method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],Begin method, ID3D10Asynchronous.Begin, ID3D10Asynchronous::Begin, d3d10/ID3D10Asynchronous::Begin, direct3d10.id3d10asynchronous_begin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,8 +82,8 @@ Returns nothing.
 
 
 
-Calling Begin starts the asynchronous collection of GPU data. Calling <a href="https://msdn.microsoft.com/en-us/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a> causes data collection to stop.  
-  See <a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a> for additional information.
+Calling Begin starts the asynchronous collection of GPU data. Calling <a href="https://msdn.microsoft.com/147a93b4-7151-4800-8aa5-286058f49ee8">ID3D10Asynchronous::End</a> causes data collection to stop.  
+  See <a href="https://msdn.microsoft.com/71ed9ae8-d1a1-442c-ac0f-6b4ede613bfb">ID3D10Asynchronous Interface</a> for additional information.
 
 
 
@@ -93,7 +93,7 @@ Calling Begin starts the asynchronous collection of GPU data. Calling <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a>
+<a href="https://msdn.microsoft.com/71ed9ae8-d1a1-442c-ac0f-6b4ede613bfb">ID3D10Asynchronous Interface</a>
  
 
  

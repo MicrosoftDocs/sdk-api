@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getlineheight.htm
 tech.root: medfound
 ms.assetid: 41514FCA-5C2A-48E5-A9F8-72B5B9160CD6
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetLineHeight, GetLineHeight method [Media Foundation], GetLineHeight method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetLineHeight method, IMFTimedTextRegion.GetLineHeight, IMFTimedTextRegion::GetLineHeight, mf.imftimedtextregion_getlineheight, mfmediaengine/IMFTimedTextRegion::GetLineHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,7 @@ Type: <b>double*</b>
 A pointer to a variable that receives the height of each line of text in the region.
 
 
-### -param unitType
-
-TBD
-
-
-
-
-#### - pUnitType [out]
+### -param unitType [out]
 
 Type: <b><a href="https://msdn.microsoft.com/5F811CEC-9E60-4441-BD22-1C4F4D0B72F8">MF_TIMED_TEXT_UNIT_TYPE</a>*</b>
 

@@ -4,10 +4,10 @@ title: ISectionList
 author: windows-sdk-content
 description: The ISectionList interface represents a list of MPEG-2 table sections.
 old-location: mstv\isectionlist.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: eb6d31b4-ee4a-468f-9e58-115159095858
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISectionList, ISectionList interface [Microsoft TV Technologies], ISectionList interface [Microsoft TV Technologies],described, ISectionListInterface, mpeg2data/ISectionList, mstv.isectionlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

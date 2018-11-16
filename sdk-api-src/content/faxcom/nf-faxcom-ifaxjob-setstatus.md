@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_setstatus_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3d83.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxJob interface [Fax Service],SetStatus method, IFaxJob.SetStatus, IFaxJob::SetStatus, JC_DELETE, JC_PAUSE, JC_RESTART, JC_RESUME, SetStatus, SetStatus method [Fax Service], SetStatus method [Fax Service],IFaxJob interface, _mfax_ifaxjob_setstatus, fax._mfax_ifaxjob_mfax_ifaxjob_setstatus_cpp, fax._mfax_ifaxjob_setstatus, faxcom/IFaxJob::SetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

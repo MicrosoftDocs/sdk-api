@@ -7,7 +7,7 @@ old-location: ncd\wsd_this_model_metadata_struct.htm
 tech.root: WsdApi
 ms.assetid: 614daaeb-76ac-4dec-93fe-f413164d5330
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: WSD_THIS_MODEL_METADATA, WSD_THIS_MODEL_METADATA structure, _WSD_THIS_MODEL_METADATA, ncd.wsd_this_model_metadata_struct, wsdtypes/WSD_THIS_MODEL_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: of\offlinefiles_item_type.htm
 tech.root: OfflineFiles
 ms.assetid: cf8bb079-d691-4b37-b408-d1af1746ed37
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: OFFLINEFILES_ITEM_TYPE, OFFLINEFILES_ITEM_TYPE enumeration [Offline Files], OFFLINEFILES_ITEM_TYPE_DIRECTORY, OFFLINEFILES_ITEM_TYPE_FILE, OFFLINEFILES_ITEM_TYPE_SERVER, OFFLINEFILES_ITEM_TYPE_SHARE, cscobj/OFFLINEFILES_ITEM_TYPE, cscobj/OFFLINEFILES_ITEM_TYPE_DIRECTORY, cscobj/OFFLINEFILES_ITEM_TYPE_FILE, cscobj/OFFLINEFILES_ITEM_TYPE_SERVER, cscobj/OFFLINEFILES_ITEM_TYPE_SHARE, of.offlinefiles_item_type, tagOFFLINEFILES_ITEM_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,15 +87,15 @@ The item is a server.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530565(v=VS.85).aspx">IOfflineFilesFileItem</a>
+<a href="https://msdn.microsoft.com/53b9af4b-7526-4b54-bae2-61c97aa67ebf">IOfflineFilesFileItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>
+<a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530580(v=VS.85).aspx">IOfflineFilesItem::GetItemType</a>
+<a href="https://msdn.microsoft.com/87fbf63a-d103-4c80-b6a7-60784c7350bc">IOfflineFilesItem::GetItemType</a>
 
 
 

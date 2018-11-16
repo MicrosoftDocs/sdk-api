@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_advisesink.htm
 tech.root: TSF
 ms.assetid: aadf54e4-25ba-4280-a184-e1d2a2594c3c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],AdviseSink method, ITextStoreACP.AdviseSink, ITextStoreACP::AdviseSink, _tsf_itextstoreacp_advisesink_ref, textstor/ITextStoreACP::AdviseSink, tsf.itextstoreacp_advisesink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,9 +161,13 @@ CMyTextEditor
 
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask)
 {
         HRESULT         hr;
@@ -180,7 +184,7 @@ STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask
         // pointer is the same as a pointer to an existing sink. 
         // If the sink exists, update the existing sink with the  
         // dwMask parameters passed to this method.      
-        hr = QueryInterface(IID_IUnknown, (LPVOID*)&punkID);
+        hr = QueryInterface(IID_IUnknown, (LPVOID*)&amp;punkID);
 
         if(FAILED(hr))
         {
@@ -205,22 +209,22 @@ STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask
 
         if(IsEqualIID(riid, IID_ITextStoreACPSink))
         {
-                punk->QueryInterface(IID_ITextStoreACPSink,
-                         (LPVOID*)&m_AdviseSink.pTextStoreACPSink);
+                punk-&gt;QueryInterface(IID_ITextStoreACPSink,
+                         (LPVOID*)&amp;m_AdviseSink.pTextStoreACPSink);
                 m_AdviseSink.punkID = punkID;
                 m_AdviseSink.dwMask = dwMask;
-                punkID->AddRef();
-                punkID->Release();
+                punkID-&gt;AddRef();
+                punkID-&gt;Release();
 
                 hr = S_OK;
         }
         return hr;
         
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_getproxyport.htm
 tech.root: WMP
 ms.assetid: 0d636e61-a5c1-495a-8d1d-ce2937dd3f18
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyPort method, IWMPNetwork.getProxyPort, IWMPNetwork::getProxyPort, IWMPNetworkgetProxyPort, getProxyPort, getProxyPort method [Windows Media Player], getProxyPort method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyport, wmp/IWMPNetwork::getProxyPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,14 +74,7 @@ The <b>getProxyPort</b> method retrieves the proxy port being used.
 <b>BSTR</b> containing the protocol name. For a list of supported protocols, see <a href="https://msdn.microsoft.com/2672372c-0b42-437e-8b96-83b6e5200fd3">Supported Protocols and File Types</a>.
 
 
-### -param lProxyPort
-
-TBD
-
-
-
-
-#### - plProxyPort [out]
+### -param lProxyPort [out]
 
 <b>long</b> containing the proxy port being used. The value retrieved is meaningful only when <b>IWMPNetwork::getProxySettings</b> retrieves a value of 2 (use manual settings).
 

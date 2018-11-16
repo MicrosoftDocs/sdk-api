@@ -7,7 +7,7 @@ old-location: ncd\iwsdasyncresult_getevent_method.htm
 tech.root: WsdApi
 ms.assetid: de201c8b-9052-42f9-b95d-3b65cf0c86a3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetEvent, GetEvent method, GetEvent method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetEvent method, IWSDAsyncResult.GetEvent, IWSDAsyncResult::GetEvent, ncd.iwsdasyncresult_getevent_method, wsdclient/IWSDAsyncResult::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

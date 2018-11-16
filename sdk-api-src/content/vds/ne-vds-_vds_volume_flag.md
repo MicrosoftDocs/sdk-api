@@ -7,7 +7,7 @@ old-location: base\vds_volume_flag.htm
 tech.root: VDS
 ms.assetid: 3a59cc61-1efe-4027-9aca-a785a5cfaef5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: VDS_VF_ACTIVE, VDS_VF_BOOT_VOLUME, VDS_VF_CAN_EXTEND, VDS_VF_CAN_SHRINK, VDS_VF_CRASHDUMP, VDS_VF_DIRTY, VDS_VF_FAT32_NOT_SUPPORTED, VDS_VF_FAT_NOT_SUPPORTED, VDS_VF_FORMATTING, VDS_VF_FVE_ENABLED, VDS_VF_HIBERNATION, VDS_VF_HIDDEN, VDS_VF_INSTALLABLE, VDS_VF_LBN_REMAP_ENABLED, VDS_VF_NOT_FORMATTABLE, VDS_VF_NO_DEFAULT_DRIVE_LETTER, VDS_VF_NTFS_NOT_SUPPORTED, VDS_VF_PAGEFILE, VDS_VF_PERMANENTLY_DISMOUNTED, VDS_VF_PERMANENT_DISMOUNT_SUPPORTED, VDS_VF_READONLY, VDS_VF_SHADOW_COPY, VDS_VF_SYSTEM_VOLUME, VDS_VOLUME_FLAG, VDS_VOLUME_FLAG enumeration [VDS], _VDS_VOLUME_FLAG, base.vds_volume_flag, vds/VDS_VF_ACTIVE, vds/VDS_VF_BOOT_VOLUME, vds/VDS_VF_CAN_EXTEND, vds/VDS_VF_CAN_SHRINK, vds/VDS_VF_CRASHDUMP, vds/VDS_VF_DIRTY, vds/VDS_VF_FAT32_NOT_SUPPORTED, vds/VDS_VF_FAT_NOT_SUPPORTED, vds/VDS_VF_FORMATTING, vds/VDS_VF_FVE_ENABLED, vds/VDS_VF_HIBERNATION, vds/VDS_VF_HIDDEN, vds/VDS_VF_INSTALLABLE, vds/VDS_VF_LBN_REMAP_ENABLED, vds/VDS_VF_NOT_FORMATTABLE, vds/VDS_VF_NO_DEFAULT_DRIVE_LETTER, vds/VDS_VF_NTFS_NOT_SUPPORTED, vds/VDS_VF_PAGEFILE, vds/VDS_VF_PERMANENTLY_DISMOUNTED, vds/VDS_VF_PERMANENT_DISMOUNT_SUPPORTED, vds/VDS_VF_READONLY, vds/VDS_VF_SHADOW_COPY, vds/VDS_VF_SYSTEM_VOLUME, vds/VDS_VOLUME_FLAG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,12 +79,12 @@ The volume is active. That is, the <i>bootIndicator</i> value of the
 
 ### -field VDS_VF_READONLY
 
-The volume has a drive letter and a Mount Manager–assigned volume GUID name, and is enumerated by the <b>FindFirstVolume</b> and <a href="https://msdn.microsoft.com/en-us/library/Aa364431(v=VS.85).aspx">FindNextVolume</a> functions. However, the volume is read-only. This flag does not apply to CD-ROM or DVD devices.
+The volume has a drive letter and a Mount Manager–assigned volume GUID name, and is enumerated by the <b>FindFirstVolume</b> and <a href="base.findnextvolume">FindNextVolume</a> functions. However, the volume is read-only. This flag does not apply to CD-ROM or DVD devices.
 
 
 ### -field VDS_VF_HIDDEN
 
-The volume does not have a drive letter and a Mount Manager–assigned volume GUID name. The volume is not enumerated by the <b>FindFirstVolume</b> and <a href="https://msdn.microsoft.com/en-us/library/Aa364431(v=VS.85).aspx">FindNextVolume</a> functions. The volume can be opened by using its device name, and the opened volume can be read from or written to. An example of a volume device name is \\?\GLOBALROOT\Device\HarddiskVolumeX. This flag does not apply to CD-ROM or DVD devices.
+The volume does not have a drive letter and a Mount Manager–assigned volume GUID name. The volume is not enumerated by the <b>FindFirstVolume</b> and <a href="base.findnextvolume">FindNextVolume</a> functions. The volume can be opened by using its device name, and the opened volume can be read from or written to. An example of a volume device name is \\?\GLOBALROOT\Device\HarddiskVolumeX. This flag does not apply to CD-ROM or DVD devices.
 
 
 ### -field VDS_VF_CAN_EXTEND

@@ -7,7 +7,7 @@ old-location: security\isignercertificates_itembyindex_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 44f9ff7d-5ed2-4575-a9c2-50096fffcf07
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISignerCertificates interface [Security],ItemByIndex property, ISignerCertificates.ItemByIndex, ISignerCertificates.get_ItemByIndex, ISignerCertificates::ItemByIndex, ISignerCertificates::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ISignerCertificates interface, certenroll/ISignerCertificates::ItemByIndex, certenroll/ISignerCertificates::get_ItemByIndex, get_ItemByIndex, security.isignercertificates_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a> object from the collection by index number.
+The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> object from the collection by index number.
 
 This property is read-only.
 
@@ -72,11 +72,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a>
+<a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376821(v=VS.85).aspx">ISignerCertificates</a>
+<a href="https://msdn.microsoft.com/420d6550-514a-4fea-987b-6deecbc9b717">ISignerCertificates</a>
  
 
  

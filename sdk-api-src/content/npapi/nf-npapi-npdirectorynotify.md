@@ -4,10 +4,10 @@ title: NPDirectoryNotify function
 author: windows-sdk-content
 description: Notifies the network provider of certain directory operations.
 old-location: security\npdirectorynotify.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e76642b1-4af1-46f4-92c0-f10ff57dd808
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: NPDirectoryNotify, NPDirectoryNotify function [Security], WNDN_MKDIR, WNDN_MVDIR, WNDN_RMDIR, _mnp_npdirectorynotify, npapi/NPDirectoryNotify, security.npdirectorynotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

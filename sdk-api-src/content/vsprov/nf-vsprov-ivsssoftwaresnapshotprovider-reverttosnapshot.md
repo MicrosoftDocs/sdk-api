@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider_reverttosnapshot.htm
 tech.root: VSS
 ms.assetid: 55c55bbc-b40e-4659-bee6-2448e6b6a4df
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,RevertToSnapshot method, IVssSoftwareSnapshotProvider.RevertToSnapshot, IVssSoftwareSnapshotProvider::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method, RevertToSnapshot method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_reverttosnapshot, vsprov/IVssSoftwareSnapshotProvider::RevertToSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices

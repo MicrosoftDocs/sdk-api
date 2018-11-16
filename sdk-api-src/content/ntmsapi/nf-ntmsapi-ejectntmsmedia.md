@@ -7,7 +7,7 @@ old-location: fs\ejectntmsmedia.htm
 tech.root: Rsm
 ms.assetid: ecb7374c-d1fa-4e7c-87ad-045122cb466e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: EjectNtmsMedia, EjectNtmsMedia function [Files], NTMS_EJECT_QUEUE, NTMS_EJECT_START, NTMS_EJECT_STOP, _zaw_ejectntmsmedia, base.ejectntmsmedia, fs.ejectntmsmedia, ntmsapi/EjectNtmsMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -311,7 +311,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

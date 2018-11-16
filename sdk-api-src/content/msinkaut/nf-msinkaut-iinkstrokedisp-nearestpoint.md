@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_nearestpoint.htm
 tech.root: tablet
 ms.assetid: 87c01f9d-b48a-459c-99f8-9634e1693fa0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 87c01f9d-b48a-459c-99f8-9634e1693fa0, IInkStrokeDisp interface [Tablet PC],NearestPoint method, IInkStrokeDisp.NearestPoint, IInkStrokeDisp::NearestPoint, NearestPoint, NearestPoint method [Tablet PC], NearestPoint method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::NearestPoint, tablet.iinkstrokedisp_nearestpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

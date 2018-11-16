@@ -7,7 +7,7 @@ old-location: stg\stgcreatedocfile.htm
 tech.root: Stg
 ms.assetid: 3292484b-8eff-438d-b989-b58ae323872b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: StgCreateDocfile, StgCreateDocfile function [Structured Storage], _stg_stgcreatedocfile, coml2api/StgCreateDocfile, stg.stgcreatedocfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,10 +63,10 @@ req.redist:
 ## -description
 
 
-The <b>StgCreateDocfile</b> function creates a new compound file storage object using the COM-provided <a href="https://msdn.microsoft.com/en-us/library/Aa380017(v=VS.85).aspx">compound file implementation</a> for the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a> interface.
+The <b>StgCreateDocfile</b> function creates a new compound file storage object using the COM-provided <a href="https://msdn.microsoft.com/2a2253f6-d3d3-403e-a9ba-53a541c7a31e">compound file implementation</a> for the 
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface.
 <div class="alert"><b>Note</b>  Applications should use the new function, 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380328(v=VS.85).aspx">StgCreateStorageEx</a>, instead of 
+<a href="https://msdn.microsoft.com/6442977d-e980-419e-abe9-9d15dbb045c1">StgCreateStorageEx</a>, instead of 
 <b>StgCreateDocfile</b>, to take advantage of enhanced  Structured Storage features. This function, 
 <b>StgCreateDocfile</b>, still exists for compatibility with Windows 2000.</div><div> </div>
 
@@ -82,7 +82,7 @@ A pointer to a null-terminated Unicode string name for the compound file being c
 
 ### -param grfMode [in]
 
-Specifies the access mode to use when opening the new storage object. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa380337(v=VS.85).aspx">STGM Constants</a>. If the caller specifies transacted mode together with STGM_CREATE or STGM_CONVERT, the overwrite or conversion takes place when the commit operation is called for the root storage. If <a href="https://msdn.microsoft.com/en-us/library/Aa380016(v=VS.85).aspx">IStorage::Commit</a> is not called for the root storage object, previous contents of the file will be restored. STGM_CREATE and STGM_CONVERT cannot be combined with the STGM_NOSNAPSHOT flag, because a snapshot copy is required when a file is overwritten or converted in the transacted mode.
+Specifies the access mode to use when opening the new storage object. For more information, see <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM Constants</a>. If the caller specifies transacted mode together with STGM_CREATE or STGM_CONVERT, the overwrite or conversion takes place when the commit operation is called for the root storage. If <a href="https://msdn.microsoft.com/72831f2c-1e07-429b-af4c-2aaced3f3888">IStorage::Commit</a> is not called for the root storage object, previous contents of the file will be restored. STGM_CREATE and STGM_CONVERT cannot be combined with the STGM_NOSNAPSHOT flag, because a snapshot copy is required when a file is overwritten or converted in the transacted mode.
 
 
 ### -param reserved [in]
@@ -93,7 +93,7 @@ Reserved for future use; must be zero.
 ### -param ppstgOpen [out]
 
 A pointer to the location of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a> pointer to the new storage object.
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> pointer to the new storage object.
 
 
 ## -returns
@@ -101,8 +101,8 @@ A pointer to the location of the
 
 
 <b>StgCreateDocfile</b> can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>.
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
 
 
 
@@ -113,15 +113,15 @@ A pointer to the location of the
 
 The 
 <b>StgCreateDocfile</b> function creates a new storage object using the COM-provided, compound-file implementation for the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a> interface. The name of the open compound file can be retrieved by calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380033(v=VS.85).aspx">IStorage::Stat</a> method.
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface. The name of the open compound file can be retrieved by calling the 
+<a href="https://msdn.microsoft.com/87478fa8-1b5f-44ed-bffc-e139c7f44a12">IStorage::Stat</a> method.
 
-<b>StgCreateDocfile</b> creates the file if it does not exist. If it does exist, the use of the STGM_CREATE, STGM_CONVERT, and STGM_FAILIFTHERE flags in the <i>grfMode</i> parameter indicate how to proceed. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa380337(v=VS.85).aspx">STGM Constants</a>.
+<b>StgCreateDocfile</b> creates the file if it does not exist. If it does exist, the use of the STGM_CREATE, STGM_CONVERT, and STGM_FAILIFTHERE flags in the <i>grfMode</i> parameter indicate how to proceed. For more information, see <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM Constants</a>.
 
 If the compound file is opened in transacted mode (the <i>grfMode</i> parameter specifies STGM_TRANSACTED) and a file with this name already exists, the existing file is not altered until all outstanding changes are committed. If the calling process lacks write access to the existing file (because of access control in the file system), the <i>grfMode</i> parameter can only specify STGM_READ and not STGM_WRITE or STGM_READWRITE. The resulting new open compound file can still be written to, but a subsequent commit operation will fail (in transacted mode, write permissions are enforced at commit time).
 
 Specifying STGM_SIMPLE provides a much faster implementation of a compound file object in a limited, but frequently used case. This can be used by applications that require a compound-file implementation with multiple streams and no storages. The simple mode does not support all of the methods on 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa380337(v=VS.85).aspx">STGM Constants</a>.
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>. For more information, see <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM Constants</a>.
 
 If the <i>grfMode</i> parameter specifies STGM_TRANSACTED and no file yet exists with the name specified by the <i>pwcsName</i> parameter, the file is created immediately. In an access-controlled file system, the caller must have write permissions in the file system directory in which the compound file is created. If STGM_TRANSACTED is not specified, and STGM_CREATE is specified, an existing file with the same name is destroyed before the new file is created.
 
@@ -135,15 +135,15 @@ If the <i>grfMode</i> parameter specifies STGM_TRANSACTED and no file yet exists
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380337(v=VS.85).aspx">STGM Constants</a>
+<a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380324(v=VS.85).aspx">StgCreateDocFileOnILockBytes</a>
+<a href="https://msdn.microsoft.com/8af5098d-db04-4273-8f5f-6d1a1d9541de">StgCreateDocFileOnILockBytes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380328(v=VS.85).aspx">StgCreateStorageEx</a>
+<a href="https://msdn.microsoft.com/6442977d-e980-419e-abe9-9d15dbb045c1">StgCreateStorageEx</a>
  
 
  

@@ -4,10 +4,10 @@ title: IISDB_SDT
 author: windows-sdk-content
 description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) service description table (SDT). An SDT lists the names and other parameters of the services in an MPEG-2 transport stream.
 old-location: mstv\iisdb_sdt.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: a9824eb9-ec12-4a09-ba42-243fe19c0670
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IISDB_SDT, IISDB_SDT interface [Microsoft TV Technologies], IISDB_SDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_SDT, mstv.iisdb_sdt
 ms.prod: windows-hardware
 ms.technology: windows-devices

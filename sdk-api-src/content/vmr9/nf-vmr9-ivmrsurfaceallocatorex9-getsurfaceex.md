@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatorex9_getsurfaceex.htm
 tech.root: DirectShow
 ms.assetid: 828f1ea6-4093-4a33-bc41-0f6fff752bcf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetSurfaceEx, GetSurfaceEx method [DirectShow], GetSurfaceEx method [DirectShow],IVMRSurfaceAllocatorEx9 interface, IVMRSurfaceAllocatorEx9 interface [DirectShow],GetSurfaceEx method, IVMRSurfaceAllocatorEx9.GetSurfaceEx, IVMRSurfaceAllocatorEx9::GetSurfaceEx, IVMRSurfaceAllocatorEx9GetSurfaceEx, dshow.ivmrsurfaceallocatorex9_getsurfaceex, vmr9/IVMRSurfaceAllocatorEx9::GetSurfaceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,14 +87,7 @@ Surface flags.
 Receives a pointer to the <b>IDirect3DSurface9</b> interface. The caller must release the interface.
 
 
-### -param lprcDst
-
-TBD
-
-
-
-
-#### - prcDst [out]
+### -param lprcDst [out]
 
 Location within the surface where the VMR-9 should write the composited image.
 

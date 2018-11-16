@@ -4,10 +4,10 @@ title: ldap_close_extended_op function
 author: windows-sdk-content
 description: The ldap_close_extended_op function ends a request that was made by calling ldap_extended_operation.
 old-location: ldap\ldap_close_extended_op.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 829ffb8f-150b-438a-bcbd-42f2e9c01479
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "_ldap_ldap_close_extended_op, ldap.ldap__close__extended__op, ldap.ldap_close_extended_op, ldap_close_extended_op, ldap_close_extended_op function [LDAP], winldap/ldap_close_extended_op"
 ms.prod: windows-hardware
 ms.technology: windows-devices

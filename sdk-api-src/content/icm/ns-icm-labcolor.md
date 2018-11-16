@@ -7,7 +7,7 @@ old-location: wcs\l_a_bcolor.htm
 tech.root: WCS
 ms.assetid: 83e9012b-198f-4373-a31f-ac980501e45c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: LabCOLOR, LabCOLOR structure [Windows Color System], icm/LabCOLOR, wcs.l_a_bcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices

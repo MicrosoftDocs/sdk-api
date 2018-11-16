@@ -7,7 +7,7 @@ old-location: taskschd\itaskservice_targetserver.htm
 tech.root: TaskSchd
 ms.assetid: 2b8c55d7-72e2-4b75-8850-3f042ba83c60
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITaskService interface [Task Scheduler],TargetServer property, ITaskService.TargetServer, ITaskService.get_TargetServer, ITaskService::TargetServer, ITaskService::get_TargetServer, TargetServer property [Task Scheduler], TargetServer property [Task Scheduler],ITaskService interface, get_TargetServer, taskschd.itaskservice_targetserver, taskschd/ITaskService::TargetServer, taskschd/ITaskService::get_TargetServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

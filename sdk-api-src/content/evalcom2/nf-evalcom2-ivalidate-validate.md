@@ -4,10 +4,10 @@ title: IValidate::Validate
 author: windows-sdk-content
 description: The Validate method performs validation of the installation package or merge module using the specified internal consistency evaluator file.
 old-location: setup\ivalidate_validate.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: f7a50031-52ac-4ea2-847c-6212706a9cbd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: IValidate interface,Validate method, IValidate.Validate, IValidate::Validate, Validate, Validate method, Validate method,IValidate interface, evalcom2/IValidate::Validate, setup.ivalidate_validate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>Validate</b> method performs validation of the installation package or me
 
 
 
-### -param wzICEs
-
-TBD
-
-
-
-
-#### - szICEs [in, optional]
+### -param wzICEs [in, optional]
 
 Optional parameter that specifies which  <a href="https://msdn.microsoft.com/0789103d-ae34-46be-a9fb-093e066d6d4b">Internal Consistency Evaluators (ICE)</a> should run.  You can specify the ICEs in a delimited list or in a custom table. 
 

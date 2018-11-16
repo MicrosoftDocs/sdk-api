@@ -7,7 +7,7 @@ old-location: tsf\itfcontextowner.htm
 tech.root: TSF
 ms.assetid: 630646df-dd47-4dbf-9787-f9d697ad8d7a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfContextOwner, ITfContextOwner interface [Text Services Framework], ITfContextOwner interface [Text Services Framework],described, _tsf_itfcontextowner_ref, msctf/ITfContextOwner, tsf.itfcontextowner
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,7 +135,7 @@ Returns the handle to a window that corresponds to the current document.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

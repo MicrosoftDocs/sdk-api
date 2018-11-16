@@ -4,10 +4,10 @@ title: linecardentry_tag
 author: windows-sdk-content
 description: The LINECARDENTRY structure describes a calling card. The LINETRANSLATECAPS structure can contain an array of LINECARDENTRY structures.
 old-location: tapi2\linecardentry_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8b2a4eaf-6c59-4d3b-839f-52915bff6116
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPLINECARDENTRY, LINECARDENTRY, LINECARDENTRY structure [TAPI 2.2], LPLINECARDENTRY, LPLINECARDENTRY structure pointer [TAPI 2.2], _tapi2_linecardentry_str, linecardentry_tag, tapi/LINECARDENTRY, tapi/LPLINECARDENTRY, tapi2.linecardentry_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

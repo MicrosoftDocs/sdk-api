@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol_setzorder.htm
 tech.root: DirectShow
 ms.assetid: f1ef562e-049c-4edf-a83c-76675e2113c6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetZOrder method, IVMRMixerControl.SetZOrder, IVMRMixerControl::SetZOrder, IVMRMixerControlSetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setzorder, strmif/IVMRMixerControl::SetZOrder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,14 +75,7 @@ The <code>SetZOrder</code> method sets this video stream's position in the Z-ord
 Specifies the input stream.
 
 
-### -param dwZ
-
-TBD
-
-
-
-
-#### - dwZOrder [in]
+### -param dwZ [in]
 
 Double word containing the stream's position within the Z-order.
 

@@ -4,10 +4,10 @@ title: ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &)
 author: windows-sdk-content
 description: Updates the last segment in this ink object with new control points.
 old-location: direct2d\id2d1ink_setsegmentatend_2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C9DB6A07-4FDD-4B39-8D30-DF6453D1E61C
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1Ink interface [Direct2D],SetSegmentAtEnd method, ID2D1Ink.SetSegmentAtEnd, ID2D1Ink.SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &), ID2D1Ink::SetSegmentAtEnd, ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &), SetSegmentAtEnd, SetSegmentAtEnd method [Direct2D], SetSegmentAtEnd method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::SetSegmentAtEnd, direct2d.id2d1ink_setsegmentatend_2
 ms.prod: windows-hardware
 ms.technology: windows-devices

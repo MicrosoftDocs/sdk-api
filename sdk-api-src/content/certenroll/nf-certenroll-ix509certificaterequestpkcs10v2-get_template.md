@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10v2_template.htm
 tech.root: SecCertEnroll
 ms.assetid: 903288b5-c4fd-4302-8140-be84532217c1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509CertificateRequestPkcs10V2 interface [Security],Template property, IX509CertificateRequestPkcs10V2.Template, IX509CertificateRequestPkcs10V2.get_Template, IX509CertificateRequestPkcs10V2::Template, IX509CertificateRequestPkcs10V2::get_Template, Template property [Security], Template property [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::Template, certenroll/IX509CertificateRequestPkcs10V2::get_Template, get_Template, security.ix509certificaterequestpkcs10v2_template
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351624(v=VS.85).aspx">IX509CertificateRequestPkcs10V2</a>
+<a href="https://msdn.microsoft.com/38177793-c15b-4651-8260-c90a151da83e">IX509CertificateRequestPkcs10V2</a>
  
 
  

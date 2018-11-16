@@ -7,7 +7,7 @@ old-location: wcs\cmisprofilevalid.htm
 tech.root: WCS
 ms.assetid: 3b4ce918-fa51-48a1-9026-c8e76e7015a5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CMIsProfileValid, CMIsProfileValid function [Windows Color System], _color_CMIsProfileValid, icm/CMIsProfileValid, wcs.cmisprofilevalid
 ms.prod: windows-hardware
 ms.technology: windows-devices

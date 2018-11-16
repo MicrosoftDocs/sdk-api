@@ -4,10 +4,10 @@ title: "_MI_ParameterSet"
 author: windows-sdk-content
 description: Holds the method parameters of a class definition.
 old-location: wmi_v2\mi_parameterset.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 14b5773c-4741-453b-824a-226aab9b8a10
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ParameterSet, MI_ParameterSet structure [Windows Management Infrastructure (MI)], _MI_ParameterSet, mi/MI_ParameterSet, wmi_v2.mi_parameterset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_next.htm
 tech.root: WmiSdk
 ms.assetid: 6d0e8aa3-ae64-4934-9000-2c526ceb7fb6
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Next method, IWbemClassObject.Next, IWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemClassObject interface, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, _hmm_iwbemclassobject_next, wbemcli/IWbemClassObject::Next, wmi.iwbemclassobject_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,18 +88,21 @@ The order of the properties returned during the enumeration is not defined.
 Reserved. This parameter must be 0.
 
 
-### -param strName
+### -param strName [out]
 
-TBD
+Receives a new <b>BSTR</b> that contains the property name. To prevent memory leaks 
+      in the client process, the caller must call 
+      <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when the name is no 
+      longer required. You can set this parameter to <b>NULL</b> if the name is not required.
 
 
 ### -param pVal [out]
 
 This <b>VARIANT</b> is filled with the value of the property. The method calls 
-       <a href="https://msdn.microsoft.com/en-us/library/ms221402(v=VS.85).aspx">VariantInit</a> on this 
+       <a href="96aeb671-5528-4d3c-8e70-313716550b42">VariantInit</a> on this 
        <b>VARIANT</b>, so the caller should ensure that the <b>VARIANT</b> 
        is not active prior to the call. The caller must use 
-       <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> when the value is no 
+       <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> when the value is no 
        longer required.
 
 You can set this parameter to <b>NULL</b> if the value is not required. If an error code 
@@ -107,9 +110,13 @@ You can set this parameter to <b>NULL</b> if the value is not required. If an er
        unmodified.
 
 
-### -param pType
+### -param pType [out, optional]
 
-TBD
+This parameter can be <b>NULL</b>. If it is not <b>NULL</b>, it must 
+      point to a <b>CIMTYPE</b> variable (a <b>LONG</b>) into which the 
+      type of the property is placed. It is possible that the value of this property can be a 
+      <b>VT_NULL</b> <b>VARIANT</b>, in which case it 
+      is necessary to determine the actual type of the property.
 
 
 ### -param plFlavor [out, optional]
@@ -148,23 +155,6 @@ The property is modified at the instance level (that is, either a value was supp
         added/modified).
 
 For instances:
-
-
-#### - pstrName [out]
-
-Receives a new <b>BSTR</b> that contains the property name. To prevent memory leaks 
-      in the client process, the caller must call 
-      <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the name is no 
-      longer required. You can set this parameter to <b>NULL</b> if the name is not required.
-
-
-#### - pvtType [out, optional]
-
-This parameter can be <b>NULL</b>. If it is not <b>NULL</b>, it must 
-      point to a <b>CIMTYPE</b> variable (a <b>LONG</b>) into which the 
-      type of the property is placed. It is possible that the value of this property can be a 
-      <b>VT_NULL</b> <b>VARIANT</b>, in which case it 
-      is necessary to determine the actual type of the property.
 
 
 ## -returns

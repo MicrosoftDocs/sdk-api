@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_getbackgroundcolor.htm
 tech.root: direct3ddxgi
 ms.assetid: AF10BAF1-5C49-45E7-B776-3EB606C02E10
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [DXGI], GetBackgroundColor method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetBackgroundColor method, IDXGISwapChain1.GetBackgroundColor, IDXGISwapChain1::GetBackgroundColor, direct3ddxgi.idxgiswapchain1_getbackgroundcolor, dxgi1_2/IDXGISwapChain1::GetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,8 +80,8 @@ A pointer to a <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F1577
         <ul>
 <li>S_OK if it successfully retrieves the background color.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if the <i>pColor</i> parameter is invalid, for example, <i>pColor</i> is NULL.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a> if the <i>pColor</i> parameter is invalid, for example, <i>pColor</i> is NULL.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevicefinder_findbytype.htm
 tech.root: UPnP
 ms.assetid: 5fc28829-8802-457b-a1cf-c74834b6651c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FindByType, FindByType method [UPnP APIs], FindByType method [UPnP APIs],IUPnPDeviceFinder interface, IUPnPDeviceFinder interface [UPnP APIs],FindByType method, IUPnPDeviceFinder.FindByType, IUPnPDeviceFinder::FindByType, _upnp_iupnpdevicefinder_findbytype, upnp.iupnpdevicefinder_findbytype, upnp/IUPnPDeviceFinder::FindByType
 ms.prod: windows-hardware
 ms.technology: windows-devices

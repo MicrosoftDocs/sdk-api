@@ -4,10 +4,10 @@ title: ID2D1Properties
 author: windows-sdk-content
 description: Represents a set of run-time bindable and discoverable properties that allow a data-driven application to modify the state of a Direct2D effect.
 old-location: direct2d\id2d1properties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c38bfcc0-c696-41cc-9531-7c8f15c0b512
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1Properties, ID2D1Properties interface [Direct2D], ID2D1Properties interface [Direct2D],described, d2d1_1/ID2D1Properties, direct2d.id2d1properties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -183,27 +183,31 @@ The interface supports access through either indices or property names. In addit
 
 The interface is intentionally designed to avoid dependencies on a run-time basis. All allocation is done by the caller of the API and <b>VARIANT</b> types are not used. The property interface generally is designed not to return failures where the application could trivially change their calling sequence in order to avoid the condition. For example, since the number of properties supported by the instance is returned by the <a href="https://msdn.microsoft.com/abf54fef-8b46-41f9-a87e-c9c58e8ee49e">GetPropertyCount</a> method, other methods that take a property index do not return a failure, unless they also use the plug-in effect's property system.
 
-The interface is primarily based upon an index-based access model, and it supports nested sub-properties within properties. Unlike a directory structure, the property itself has a value and a type and might optionally support sub-properties (directories are not files). These are normally metadata that describe the property, but, this is also used to specify arrays of objects. In order to simplify accessing sub-properties and to allow name-based access, two helper methods – <a href="https://msdn.microsoft.com/3faedf5e-9329-4502-a1c9-162fd7b00319">SetValueByName</a> and <a href="https://msdn.microsoft.com/2dc60fad-9ce2-4951-85ea-647a828420a1">GetValueByName</a> – are defined. These use a "dotted" notation in order to allow sub-properties to be directly specified, for example:
+The interface is primarily based upon an index-based access model, and it supports nested sub-properties within properties. Unlike a directory structure, the property itself has a value and a type and might optionally support sub-properties (directories are not files). These are normally metadata that describe the property, but, this is also used to specify arrays of objects. In order to simplify accessing sub-properties and to allow name-based access, two helper methods – <a href="https://msdn.microsoft.com/3faedf5e-9329-4502-a1c9-162fd7b00319">SetValueByName</a> and <a href="https://msdn.microsoft.com/2dc60fad-9ce2-4951-85ea-647a828420a1">GetValueByName</a> – are defined. These use a "dotted" notation in order to allow sub-properties to be directly specified, for example:<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>alphaMode = pEffect-&gt;GetValueByName&lt;UINT32&gt;(L"Inputs.0.AlphaMode");</pre>
+</td>
+</tr>
+</table></span></div>
 
 
-```cpp
-alphaMode = pEffect->GetValueByName<UINT32>(L"Inputs.0.AlphaMode");
-```
-
-
-
-
-Or:
-
-
-```cpp
-pEffect->SetValueByName<UINT32>(
+Or:<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>pEffect-&gt;SetValueByName&lt;UINT32&gt;(
 		    L"Inputs.0.AlphaMode", 
 		    DXGI_ALPHA_MODE_PREMULTIPLIED);
-		
-```
-
-
+		</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <h3><a id="Standard_Effect_Properties"></a><a id="standard_effect_properties"></a><a id="STANDARD_EFFECT_PROPERTIES"></a>Standard Effect Properties</h3>
@@ -329,15 +333,19 @@ Each value in this array is a name/index pair. The indices can be set to the par
 <h3><a id="Array-Type_Sub-Properties"></a><a id="array-type_sub-properties"></a><a id="ARRAY-TYPE_SUB-PROPERTIES"></a>Array-Type Sub-Properties</h3>
 See <a href="https://msdn.microsoft.com/42e80588-9e80-4f30-9a3c-77b64f88ff7a">ID2D1Properties::GetType</a> and <a href="https://msdn.microsoft.com/6535d71a-c76c-462c-9972-4db7e4ef383d">D2D1_PROPERTY_TYPE</a> for more information. If the property type is <b>D2D1_PROPERTY_TYPE_ARRAY</b>, the value of the property will be considered to be a <b>UINT</b> that has the count of array elements. The next sub-property will directly map the index to the requested property value. For example:
 
-
-```cpp
-Inputs: UINT32 – 2
-		Inputs.0 : <Type> – First input
-		Inputs.1 : <Type> – Second input
-		
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Inputs: UINT32 – 2
+		Inputs.0 : &lt;Type&gt; – First input
+		Inputs.1 : &lt;Type&gt; – Second input
+		</pre>
+</td>
+</tr>
+</table></span></div>
 The above example makes use of the following sub-properties, which will appear on <b>ARRAY</b>-type properties. Note that the numbered properties are not system properties, and are in the normal (0x0 – 0x80000000) range.
 
 <table>
@@ -369,16 +377,20 @@ The type of each sub-element will be whatever the type of the array is. In the e
 <h3><a id="Enum-Type_Sub-Poperties"></a><a id="enum-type_sub-poperties"></a><a id="ENUM-TYPE_SUB-POPERTIES"></a>Enum-Type Sub-Poperties</h3>
 If the property has type <b>D2D1_PROPERTY_TYPE_ENUM</b> then the property will have the value of the corresponding enumeration. There will be a sub-array of fields that will conform to the general rules for array sub-properties and consist of the name/value pairs. For example:
 
-
-```cpp
-PixelFormat: ENUM – The pixel format value
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PixelFormat: ENUM – The pixel format value
 		PixelFormat.Fields: UINT32 – The number of fields
 		PixelFormat.Fields.0:String – The name of the first enum
 		PixelFormat.Fields.0.Index: UINT32 – The value of the enumeration.
-		
-```
-
-
+		</pre>
+</td>
+</tr>
+</table></span></div>
 The above example makes use of the following sub-properties. Please see the <a href="https://msdn.microsoft.com/311a1b6f-ef0e-4453-a5fe-d06ebb0bb222">D2D1_SUBPROPERTY</a> and <a href="https://msdn.microsoft.com/6535d71a-c76c-462c-9972-4db7e4ef383d">D2D1_PROPERTY_TYPE</a> enumerations for more information.
 
 <table>

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_Normalize.htm
 tech.root: WinAuto
 ms.assetid: 62616711-a841-4273-8e38-0d2344659d03
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IUIAutomationTreeWalker interface [Windows Accessibility],NormalizeElement method, IUIAutomationTreeWalker.NormalizeElement, IUIAutomationTreeWalker::NormalizeElement, NormalizeElement, NormalizeElement method [Windows Accessibility], NormalizeElement method [Windows Accessibility],IUIAutomationTreeWalker interface, uiauto.uiauto_IUIAutomationTreeWalker_Normalize, uiauto_IUIAutomationTreeWalker_Normalize, uiautomationclient/IUIAutomationTreeWalker::NormalizeElement, winauto.uiauto_IUIAutomationTreeWalker_Normalize
 ms.prod: windows-hardware
 ms.technology: windows-devices

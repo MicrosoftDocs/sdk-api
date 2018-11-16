@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrix_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.#ctor(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: XMMATRIX constructor [DirectX Math Support APIs], XMMATRIX constructor [DirectX Math Support APIs],XMMATRIX structure, XMMATRIX structure [DirectX Math Support APIs],XMMATRIX constructor, XMMATRIX.XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float), dxmath.xmmatrix_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -173,9 +173,13 @@ Value used to initialize the <b>_44</b> member of the <code>XMMATRIX</code>struc
 The following pseudocode example demonstrates the operation of this constructor:
 	
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
    XMMATRIX mat;
    mat._11 = m00;
    mat._12 = m01;
@@ -193,10 +197,10 @@ The following pseudocode example demonstrates the operation of this constructor:
    mat._42 = m31;
    mat._43 = m32;
    mat._44 = m33;
-      
-```
-
-
+      </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

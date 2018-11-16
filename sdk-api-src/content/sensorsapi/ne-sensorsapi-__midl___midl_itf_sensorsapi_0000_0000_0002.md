@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\sensorconnectiontype.htm
 tech.root: SensorsAPI
 ms.assetid: 3d5cb6ff-0228-44fa-8216-dbffcb2ec834
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: SENSOR_CONNECTION_TYPE_PC_ATTACHED, SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SENSOR_CONNECTION_TYPE_PC_INTEGRATED, SensorConnectionType, SensorConnectionType enumeration, __MIDL___MIDL_itf_sensorsapi_0000_0000_0002, sensorsapi/ SENSOR_CONNECTION_TYPE_PC_EXTERNAL, sensorsapi/SENSOR_CONNECTION_TYPE_PC_ATTACHED, sensorsapi/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsapi/SensorConnectionType, winsensors_com_ref.sensorconnectiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices

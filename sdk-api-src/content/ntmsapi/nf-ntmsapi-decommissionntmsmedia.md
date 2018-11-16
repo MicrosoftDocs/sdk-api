@@ -7,7 +7,7 @@ old-location: fs\decommissionntmsmedia.htm
 tech.root: Rsm
 ms.assetid: 2bb1a54b-6308-4ccd-9fc6-1b11f4432a3f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DecommissionNtmsMedia, DecommissionNtmsMedia function [Files], _zaw_decommissionntmsmedia, base.decommissionntmsmedia, fs.decommissionntmsmedia, ntmsapi/DecommissionNtmsMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -227,7 +227,7 @@ Only media that is in the Available state can be decommissioned. For more inform
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

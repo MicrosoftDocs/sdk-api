@@ -7,7 +7,7 @@ old-location: taskschd\itaskservice.htm
 tech.root: TaskSchd
 ms.assetid: 2459aaae-4c3a-458a-ad2c-bfff3a0322d3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITaskService, ITaskService interface [Task Scheduler], ITaskService interface [Task Scheduler],described, taskschd.itaskservice, taskschd/ITaskService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -207,7 +207,7 @@ Gets the name of the computer that is running the Task Scheduler service that th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

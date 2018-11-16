@@ -7,7 +7,7 @@ old-location: pla\ivaluemap_clear.htm
 tech.root: PLA
 ms.assetid: 41c80954-efc2-47ff-87e2-f33d7123cb40
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IValueMap interface, IValueMap interface [PLA],Clear method, IValueMap.Clear, IValueMap::Clear, base.ivaluemap_clear, pla.ivaluemap_clear, pla/IValueMap::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

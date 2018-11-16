@@ -4,10 +4,10 @@ title: "_POLICY_DOMAIN_INFORMATION_CLASS"
 author: windows-sdk-content
 description: Defines the type of policy domain information.
 old-location: security\policy_domain_information_class.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b208c479-a262-4120-824f-677ead1ef61a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*PPOLICY_DOMAIN_INFORMATION_CLASS, POLICY_DOMAIN_INFORMATION_CLASS, POLICY_DOMAIN_INFORMATION_CLASS enumeration [Security], PPOLICY_DOMAIN_INFORMATION_CLASS, PPOLICY_DOMAIN_INFORMATION_CLASS enumeration pointer [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, _POLICY_DOMAIN_INFORMATION_CLASS, ntsecapi/POLICY_DOMAIN_INFORMATION_CLASS, ntsecapi/PPOLICY_DOMAIN_INFORMATION_CLASS, ntsecapi/PolicyDomainEfsInformation, ntsecapi/PolicyDomainKerberosTicketInformation, security.policy_domain_information_class"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -70,7 +70,7 @@ The <b>Content</b> method retrieves an interface that you can use to access obje
 
 ### -param ppContent [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent</a> interface that is used to access the content on a device. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent</a> interface that is used to access the content on a device. The caller must release this interface when it is done with it.
           
 
 

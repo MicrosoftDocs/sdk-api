@@ -7,7 +7,7 @@ old-location: wcs\gamutboundarydescription.htm
 tech.root: WCS
 ms.assetid: b7551967-ff2f-48ed-9346-a75e19fe2c31
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GamutBoundaryDescription, GamutBoundaryDescription structure [Windows Color System], _GamutBoundaryDescription, _color_GamutBoundaryDescription_str, wcs.gamutboundarydescription, wcsplugin/GamutBoundaryDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

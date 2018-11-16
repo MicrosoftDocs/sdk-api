@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Clone.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_format_info\clone.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWIA_FORMAT_INFO interface, IEnumWIA_FORMAT_INFO interface [WIA],Clone method, IEnumWIA_FORMAT_INFO.Clone, IEnumWIA_FORMAT_INFO::Clone, _wia_IEnumWIA_FORMAT_INFO_Clone, wia._wia_IEnumWIA_FORMAT_INFO_Clone, wia_xp/IEnumWIA_FORMAT_INFO::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>IEnumWIA_FORMAT_INFO::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/en-us/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface and returns an interface pointer to the new interface.
+The <b>IEnumWIA_FORMAT_INFO::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/9f3e94bc-fa90-4e3d-97c5-17e57055de0e">IEnumWIA_FORMAT_INFO</a> interface and returns an interface pointer to the new interface.
 
 
 ## -parameters
@@ -69,9 +69,9 @@ The <b>IEnumWIA_FORMAT_INFO::Clone</b> method creates an additional instance of 
 
 ### -param ppIEnum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/9f3e94bc-fa90-4e3d-97c5-17e57055de0e">IEnumWIA_FORMAT_INFO</a>**</b>
 
-Pointer to a new <a href="https://msdn.microsoft.com/en-us/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface. 
+Pointer to a new <a href="https://msdn.microsoft.com/9f3e94bc-fa90-4e3d-97c5-17e57055de0e">IEnumWIA_FORMAT_INFO</a> interface. 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: shell\IWizardExtension_GetLastPage.htm
 tech.root: shell
 ms.assetid: b4fc1089-d0fb-406d-bf05-b43b3f2cc87e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetLastPage, GetLastPage method [Windows Shell], GetLastPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetLastPage method, IWizardExtension.GetLastPage, IWizardExtension::GetLastPage, _shell_IWizardExtension_GetLastPage, shell.IWizardExtension_GetLastPage, shobjidl/IWizardExtension::GetLastPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,18 +66,11 @@ Gets a handle to the final page of the wizard extension pages.
 
 
 
-### -param phpage
-
-TBD
-
-
-
-
-#### - phPage [out]
+### -param phpage [out]
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> handle representing the wizard extension's final page.
+A pointer to a <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> handle representing the wizard extension's final page.
         
 
 

@@ -7,7 +7,7 @@ old-location: winrt\iweakreferencesource.htm
 tech.root: WinRT
 ms.assetid: f4b85374-192b-4024-80c2-a46bfebb16c1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IWeakReferenceSource, IWeakReferenceSource interface [Windows Runtime], IWeakReferenceSource interface [Windows Runtime],described, weakreference/IWeakReferenceSource, winrt.iweakreferencesource
 ms.prod: windows-hardware
 ms.technology: windows-devices

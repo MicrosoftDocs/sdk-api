@@ -4,10 +4,10 @@ title: RtlQueryDepthSList function
 author: windows-sdk-content
 description: Retrieves the number of entries in the specified singly linked list.
 old-location: base\rtlquerydepthslist.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 5a73b181-e1ea-459a-b3b0-6cf16980930c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: RtlQueryDepthSList, RtlQueryDepthSList function, base.rtlquerydepthslist, winnt/RtlQueryDepthSList
 ms.prod: windows-hardware
 ms.technology: windows-devices

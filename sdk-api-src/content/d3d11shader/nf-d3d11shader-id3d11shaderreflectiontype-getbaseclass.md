@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectiontype_getbaseclass.htm
 tech.root: direct3d11
 ms.assetid: edca3d7a-2d7e-4593-ae74-7819c8b46ac2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetBaseClass, GetBaseClass method [Direct3D 11], GetBaseClass method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetBaseClass method, ID3D11ShaderReflectionType.GetBaseClass, ID3D11ShaderReflectionType::GetBaseClass, c4667670-6e30-71f1-a36b-acb187487fdc, d3d11shader/ID3D11ShaderReflectionType::GetBaseClass, direct3d11.id3d11shaderreflectiontype_getbaseclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>  interface containing the variable base class type.
+Gets an <a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>  interface containing the variable base class type.
 
 
 ## -parameters
@@ -72,9 +72,9 @@ Gets an <a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType</a>*</b>
 
-Returns A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>.
+Returns A pointer to a <a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>.
 
 
 
@@ -93,7 +93,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>
+<a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>
  
 
  

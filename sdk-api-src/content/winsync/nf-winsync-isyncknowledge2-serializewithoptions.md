@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge2_serializewithoptions.htm
 tech.root: winsync
 ms.assetid: b8b9084f-f4aa-42b8-8c45-ed075db8ffe4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],SerializeWithOptions method, ISyncKnowledge2.SerializeWithOptions, ISyncKnowledge2::SerializeWithOptions, SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_serializewithoptions, winsync/ISyncKnowledge2::SerializeWithOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,19 +76,14 @@ The serialized knowledge is compatible with this version.
 Options that specify additional information about how to serialize the object. Must be zero or a combination of the values specified by the <b>SYNC_SERIALIZE</b> flags (see Remarks). When zero is specified, the replica key map is not included as part of the serialized knowledge data.
 
 
-### -param pbBuffer
+### -param pbBuffer [in, out]
 
-TBD
+The serialized knowledge object data is serialized to this buffer.
 
 
 ### -param pdwSerializedSize [in, out]
 
 Specifies the number of bytes in <i>pBuffer</i>. Returns either the number of bytes that are required to serialize the knowledge data when <i>pBuffer</i> is too small, or the number of bytes written.
-
-
-#### - pBuffer [in, out]
-
-The serialized knowledge object data is serialized to this buffer.
 
 
 ## -returns

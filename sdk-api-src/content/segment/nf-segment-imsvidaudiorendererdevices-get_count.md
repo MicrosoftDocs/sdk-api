@@ -4,10 +4,10 @@ title: IMSVidAudioRendererDevices::get_Count
 author: windows-sdk-content
 description: The get_Count method retrieves the number of items in the collection.
 old-location: mstv\imsvidaudiorendererdevices_get_count.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 46a3b579-a027-4c80-9f7a-f81dd9af4d0d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],get_Count method, IMSVidAudioRendererDevices.get_Count, IMSVidAudioRendererDevices::get_Count, IMSVidAudioRendererDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_get_count, segment/IMSVidAudioRendererDevices::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_Count</b> method retrieves the number of items in the collection.
 
 
 
-### -param lCount
-
-TBD
-
-
-
-
-#### - plCount [out]
+### -param lCount [out]
 
 Pointer to a variable that receives the number of items.
 

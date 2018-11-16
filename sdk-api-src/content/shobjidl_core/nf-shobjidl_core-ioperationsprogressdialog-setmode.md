@@ -7,7 +7,7 @@ old-location: shell\IOperationsProgressDialog_SetMode.htm
 tech.root: shell
 ms.assetid: ec731281-c0af-4cf6-aa63-d80a80a18c15
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],SetMode method, IOperationsProgressDialog.SetMode, IOperationsProgressDialog::SetMode, PDM_DEFAULT, PDM_ERRORSBLOCKING, PDM_INDETERMINATE, PDM_PREFLIGHT, PDM_RUN, PDM_UNDOING, SetMode, SetMode method [Windows Shell], SetMode method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_SetMode, shell.IOperationsProgressDialog_SetMode, shobjidl_core/IOperationsProgressDialog::SetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

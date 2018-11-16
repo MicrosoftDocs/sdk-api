@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiovolumeducknotification_onvolumeducknotification.ht
 tech.root: CoreAudio
 ms.assetid: 1bc28f44-1595-4d45-872f-2473bffd33aa
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeDuckNotification method, IAudioVolumeDuckNotification.OnVolumeDuckNotification, IAudioVolumeDuckNotification::OnVolumeDuckNotification, OnVolumeDuckNotification, OnVolumeDuckNotification method [Core Audio], OnVolumeDuckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeDuckNotification, coreaudio.iaudiovolumeducknotification_onvolumeducknotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,14 +71,7 @@ The <b>OnVolumeDuckNotification</b> method sends a notification about a pending 
 A string containing the session instance identifier of the communications session that raises the  the auto-ducking event. To get the session instance identifier, call <a href="https://msdn.microsoft.com/02350812-7f05-400e-87f7-1d912a23050d">IAudioSessionControl2::GetSessionInstanceIdentifier</a>.
 
 
-### -param countCommunicationSessions
-
-TBD
-
-
-
-
-#### - countCommunicationsSessions [in]
+### -param countCommunicationSessions [in]
 
 The number of active 
     communications sessions. If there are n sessions, the sessions are numbered from 0 to –1.

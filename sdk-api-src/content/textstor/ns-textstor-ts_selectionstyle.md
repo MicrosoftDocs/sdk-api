@@ -7,7 +7,7 @@ old-location: tsf\ts_selectionstyle.htm
 tech.root: TSF
 ms.assetid: 20d0efc2-604f-4ec6-820d-0f87a6d011b0
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: TS_SELECTIONSTYLE, TS_SELECTIONSTYLE structure [Text Services Framework], _tsf_ts_selectionstyle_ref, textstor/TS_SELECTIONSTYLE, tsf.ts_selectionstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

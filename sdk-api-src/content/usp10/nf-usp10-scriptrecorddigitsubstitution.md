@@ -7,7 +7,7 @@ old-location: intl\scriptrecorddigitsubstitution.htm
 tech.root: Intl
 ms.assetid: 2c8c33d5-5cd6-4734-bf44-af7d4b578672
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: ScriptRecordDigitSubstitution, ScriptRecordDigitSubstitution function [Internationalization for Windows Applications], _win32_ScriptRecordDigitSubstitution, intl.scriptrecorddigitsubstitution, usp10/ScriptRecordDigitSubstitution
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,7 +131,7 @@ ScriptApplyDigitSubstitution(&amp;sds, &amp;sc, &amp;ss);
 </td>
 </tr>
 </table></span></div>
-For performance reasons, your application should not call <b>ScriptRecordDigitSubstitution</b> frequently. The function requires considerable overhead to call it every time <a href="https://msdn.microsoft.com/1491d9c5-e86b-45cc-bb47-85c8619eab69">ScriptItemize</a> or <a href="https://msdn.microsoft.com/6d0e7070-159e-436b-85b5-cabb3da83f5e">ScriptStringAnalyse</a> is called. Instead, the application can save the <a href="https://msdn.microsoft.com/e96bf8b4-7456-4e16-a623-48320104dd66">SCRIPT_DIGITSUBSTITUTE</a> structure and update it only when a <a href="https://msdn.microsoft.com/en-us/library/ms725497(v=VS.85).aspx">WM_SETTINGCHANGE</a> message is received. Alternatively, the application can update the structure when a <a href="https://msdn.microsoft.com/aad72ed5-1123-4a8b-9fc4-b54a713b635e">RegNotifyChangeKeyValue</a> call in a dedicated thread indicates a change in the registry under HKCU\Control Panel\International.
+For performance reasons, your application should not call <b>ScriptRecordDigitSubstitution</b> frequently. The function requires considerable overhead to call it every time <a href="https://msdn.microsoft.com/1491d9c5-e86b-45cc-bb47-85c8619eab69">ScriptItemize</a> or <a href="https://msdn.microsoft.com/6d0e7070-159e-436b-85b5-cabb3da83f5e">ScriptStringAnalyse</a> is called. Instead, the application can save the <a href="https://msdn.microsoft.com/e96bf8b4-7456-4e16-a623-48320104dd66">SCRIPT_DIGITSUBSTITUTE</a> structure and update it only when a <a href="_win32_wm_settingchange_cpp">WM_SETTINGCHANGE</a> message is received. Alternatively, the application can update the structure when a <a href="https://msdn.microsoft.com/aad72ed5-1123-4a8b-9fc4-b54a713b635e">RegNotifyChangeKeyValue</a> call in a dedicated thread indicates a change in the registry under HKCU\Control Panel\International.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>

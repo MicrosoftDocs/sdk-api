@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice4_reclaimresources1.htm
 tech.root: direct3ddxgi
 ms.assetid: 83D09C41-CB96-4ADA-AE38-7D9542CCCFE0
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: IDXGIDevice4 interface [DXGI],ReclaimResources1 method, IDXGIDevice4.ReclaimResources1, IDXGIDevice4::ReclaimResources1, ReclaimResources1, ReclaimResources1 method [DXGI], ReclaimResources1 method [DXGI],IDXGIDevice4 interface, direct3ddxgi.idxgidevice4_reclaimresources1, dxgi1_5/IDXGIDevice4::ReclaimResources1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ The number of resources in the <i>ppResources</i> argument and <i>pResults</i> a
 
 Type: <b>IDXGIResource*</b>
 
-An array of pointers to <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> interfaces for the resources to reclaim.
+An array of pointers to <a href="https://msdn.microsoft.com/de1f11a5-194b-438e-975b-3945179d0ed7">IDXGIResource</a> interfaces for the resources to reclaim.
 
 
 ### -param pResults [out]
@@ -91,7 +91,7 @@ A pointer to an array that receives <a href="https://msdn.microsoft.com/AF7082A5
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, including E_INVALIDARG if the resources are invalid.
 

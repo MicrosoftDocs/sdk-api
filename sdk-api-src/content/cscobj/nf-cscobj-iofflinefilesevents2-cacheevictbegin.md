@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents2_cacheevictbegin.htm
 tech.root: OfflineFiles
 ms.assetid: be1c5e7f-d3fe-4cf7-99ef-6c055b07aba6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CacheEvictBegin, CacheEvictBegin method [Offline Files], CacheEvictBegin method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],CacheEvictBegin method, IOfflineFilesEvents2.CacheEvictBegin, IOfflineFilesEvents2::CacheEvictBegin, cscobj/IOfflineFilesEvents2::CacheEvictBegin, of.iofflinefilesevents2_cacheevictbegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530521(v=VS.85).aspx">IOfflineFilesEvents2</a>
+<a href="https://msdn.microsoft.com/746f7220-8c87-4218-bd97-ec9b862e549c">IOfflineFilesEvents2</a>
  
 
  

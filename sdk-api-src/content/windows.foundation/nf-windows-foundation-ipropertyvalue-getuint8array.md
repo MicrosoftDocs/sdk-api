@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getuint8array.htm
 tech.root: WinRT
 ms.assetid: f17fe310-40b7-46a5-ae87-c07649c2f288
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetUInt8Array, GetUInt8Array method [Windows Runtime], GetUInt8Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt8Array method, IPropertyValue.GetUInt8Array, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt8Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt8Array, winrt.ipropertyvalue_getuint8array
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Gets the array of unsigned 8-bit integer values that is stored in the current <a
 
 
 
-### -param __valueSize
+### -param __valueSize [out]
 
-TBD
+Type: <b>UINT32*</b>
+
+The number of values in the array.
 
 
 ### -param value [out]
@@ -78,13 +80,6 @@ Type: <b>BYTE**</b>
 The array of unsigned 8-bit integer values.
 
 The returned pointer must be freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
-
-
-#### - length [out]
-
-Type: <b>UINT32*</b>
-
-The number of values in the array.
 
 
 ## -returns

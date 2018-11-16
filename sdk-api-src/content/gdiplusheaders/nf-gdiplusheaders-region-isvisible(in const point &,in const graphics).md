@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_Point_point_Graphics_g_.ht
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods\isvisible_84pointamppoint_graphicsg.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region class, Region class [GDI+],IsVisible method, Region.IsVisible, Region.IsVisible(IN const Point &,IN const Graphics), Region.IsVisible(const Point&,const Graphics*), Region::IsVisible, Region::IsVisible(IN const Point &,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_Point_point_Graphics_g_, gdiplus._gdiplus_CLASS_Region_IsVisible_Point_point_Graphics_g_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,9 +106,13 @@ If the point is inside this region, this method returns <b>TRUE</b>; otherwise, 
 
 The following example creates a region from a path and then tests to determine whether a point is in the region.
 
-
-```cpp
-VOID Example_IsVisiblePoint(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_IsVisiblePoint(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -126,24 +130,24 @@ VOID Example_IsVisiblePoint(HDC hdc)
    path.AddClosedCurve(points, 6);
 
    // Create a region from a path.
-   Region pathRegion(&path);
-   graphics.FillRegion(&solidBrush, &pathRegion);
+   Region pathRegion(&amp;path);
+   graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
 
    // Check to see whether a point is in the region.
    Point testPoint(125, 30);
 
-   if(pathRegion.IsVisible(testPoint, &graphics))
+   if(pathRegion.IsVisible(testPoint, &amp;graphics))
    {
       // The test point is in the region.
    }
 
    // Fill a small circle centered at the test point.
    SolidBrush brush(Color(255, 0, 0, 0));
-   graphics.FillEllipse(&brush, testPoint.X - 4, testPoint.Y - 4, 8, 8);
-}
-```
-
-
+   graphics.FillEllipse(&amp;brush, testPoint.X - 4, testPoint.Y - 4, 8, 8);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -160,7 +164,7 @@ VOID Example_IsVisiblePoint(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
 
 
 

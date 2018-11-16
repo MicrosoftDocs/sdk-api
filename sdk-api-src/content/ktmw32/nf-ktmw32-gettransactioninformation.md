@@ -7,7 +7,7 @@ old-location: fs\gettransactioninformation_func.htm
 tech.root: Ktm
 ms.assetid: 5ce3c96a-629e-49d0-8ec4-f9bf76af99ac
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetTransactionInformation, GetTransactionInformation function [Files], fs.gettransactioninformation_func, ktmw32/GetTransactionInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

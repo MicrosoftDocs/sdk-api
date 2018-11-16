@@ -7,7 +7,7 @@ old-location: ics\networkisolationsetappcontainerconfig.htm
 tech.root: ICS
 ms.assetid: 88f97650-1896-43f9-acfa-f8411ded5cb8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NetworkIsolationSetAppContainerConfig, NetworkIsolationSetAppContainerConfig function [ICS/ICF], ics.networkisolationsetappcontainerconfig, networkisolation/NetworkIsolationSetAppContainerConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

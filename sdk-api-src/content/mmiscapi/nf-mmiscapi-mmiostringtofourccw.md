@@ -7,7 +7,7 @@ old-location: multimedia\mmiostringtofourcc.htm
 tech.root: Multimedia
 ms.assetid: e2d4f7f0-7827-4af0-baa8-02607369247a
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_mmioStringToFOURCC, mmioStringToFOURCC, mmioStringToFOURCC function [Windows Multimedia], mmioStringToFOURCCA, mmioStringToFOURCCW, mmsystem/mmioStringToFOURCC, mmsystem/mmioStringToFOURCCA, mmsystem/mmioStringToFOURCCW, multimedia.mmiostringtofourcc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,13 +78,6 @@ Pointer to a null-terminated string to convert to a four-character code.
 
 
 ### -param uFlags
-
-TBD
-
-
-
-
-#### - wFlags
 
 Flags for the conversion. The following value is defined:
 

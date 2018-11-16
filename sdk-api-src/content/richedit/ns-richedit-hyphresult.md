@@ -4,10 +4,10 @@ title: hyphresult
 author: windows-sdk-content
 description: Contains information about the result of hyphenation in a Microsoft Rich Edit control.
 old-location: controls\HYPHRESULT.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\hyphresult.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: HYPHRESULT, HYPHRESULT structure [Windows Controls], _win32_HYPHRESULT_str, _win32_HYPHRESULT_str_cpp, controls.HYPHRESULT, controls._win32_HYPHRESULT_str, hyphresult, richedit/HYPHRESULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Contains information about the result of hyphenation in a Microsoft Rich Edit co
 
 ### -field khyph
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774363(v=VS.85).aspx">KHYPH</a></b>
+Type: <b><a href="https://msdn.microsoft.com/900cae36-d2e3-4a30-97ca-1cc832fd2687">KHYPH</a></b>
 
 The type of hyphenation. 
 
@@ -84,7 +84,7 @@ The character used when hyphenation requires a replacement or an addition or a c
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787930(v=VS.85).aspx">HYPHENATEINFO</a> structure.
+This structure is used with the <a href="https://msdn.microsoft.com/2463189e-98cf-4545-a435-474df74e1a22">HYPHENATEINFO</a> structure.
 
 
 
@@ -94,11 +94,11 @@ This structure is used with the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787930(v=VS.85).aspx">HYPHENATEINFO</a>
+<a href="https://msdn.microsoft.com/2463189e-98cf-4545-a435-474df74e1a22">HYPHENATEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774363(v=VS.85).aspx">KHYPH</a>
+<a href="https://msdn.microsoft.com/900cae36-d2e3-4a30-97ca-1cc832fd2687">KHYPH</a>
 
 
 

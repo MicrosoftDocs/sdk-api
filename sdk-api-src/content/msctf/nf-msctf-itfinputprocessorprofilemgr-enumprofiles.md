@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofilemgr_enumprofiles.htm
 tech.root: TSF
 ms.assetid: d4728d12-9073-41b8-94bc-eaf7c1df19b6
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: EnumProfiles, EnumProfiles method [Text Services Framework], EnumProfiles method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],EnumProfiles method, ITfInputProcessorProfileMgr.EnumProfiles, ITfInputProcessorProfileMgr::EnumProfiles, msctf/ITfInputProcessorProfileMgr::EnumProfiles, tsf.itfinputprocessorprofilemgr_enumprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

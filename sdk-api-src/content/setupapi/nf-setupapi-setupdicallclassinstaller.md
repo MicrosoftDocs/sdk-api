@@ -76,7 +76,7 @@ The device installation request (DIF request) to pass to the co-installers and c
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for the local computer. This set contains a device installation element which represents the device for which to perform the specified installation function. 
+A handle to a <a href="devinst.device_information_sets">device information set</a> for the local computer. This set contains a device installation element which represents the device for which to perform the specified installation function. 
 
 
 ### -param DeviceInfoData [in, optional]
@@ -99,7 +99,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 <b>SetupDiCallClassInstaller</b> calls the class installer and any co-installers that are registered for a device or a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a>. This function loads the installers if they are not yet loaded. The function also calls the default handler for the DIF request, if there is a default handler and if the installers return a status indicating that the default handler should be called.
 
-<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">Device installation applications</a> call this function with a variety of <a href="https://msdn.microsoft.com/f4aadd46-9651-45c3-bec5-65126a7fc9e7">device installation function codes</a> (DIF codes). The function ensures that all the appropriate installers and default handlers are called, in the correct order, for a given DIF request. For more information, see <a href="https://msdn.microsoft.com/library/Ff546094(v=VS.85).aspx">Handling DIF Codes</a>.
+<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">Device installation applications</a> call this function with a variety of <a href="https://msdn.microsoft.com/f4aadd46-9651-45c3-bec5-65126a7fc9e7">device installation function codes</a> (DIF codes). The function ensures that all the appropriate installers and default handlers are called, in the correct order, for a given DIF request. For more information, see <a href="devinst.handling_dif_codes">Handling DIF Codes</a>.
 
 After <b>SetupDiCallClassInstaller</b> returns <b>TRUE</b>, the device installation application must call <a href="https://msdn.microsoft.com/e5e8c203-cf71-4cb4-a7a8-5af3a2483eea">SetupDiGetDeviceInstallParams</a> to obtain an <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> structure. If the structure's <b>DI_NEEDREBOOT</b> or <b>DI_NEEDRESTART</b> flag is set, the caller must prompt the user to restart the system. For example, the caller can do this by calling <a href="https://msdn.microsoft.com/14b34fd9-ae96-4552-b99d-488bae5c7644">SetupPromptReboot</a>. 
 
@@ -125,7 +125,7 @@ After <b>SetupDiCallClassInstaller</b> returns, the device installation applicat
 
 The device information set specified by <i>DeviceInfoSet</i> must only contain elements for devices on the local computer.
 
-For information about the design and operation of co-installers, see <a href="https://msdn.microsoft.com/library/Ff554011(v=VS.85).aspx">Writing a Co-installer</a>. 
+For information about the design and operation of co-installers, see <a href="devinst.writing_a_co_installer">Writing a Co-installer</a>. 
 
 
 

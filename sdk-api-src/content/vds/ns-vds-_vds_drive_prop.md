@@ -7,7 +7,7 @@ old-location: base\vds_drive_prop.htm
 tech.root: VDS
 ms.assetid: c17f13f6-ccea-4370-84d1-b422efb63e73
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PVDS_DRIVE_PROP, VDS_DRIVE_PROP, VDS_DRIVE_PROP structure [VDS], VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_PENDING_FAILURE, VDS_H_REPLACED, VDS_H_UNKNOWN, _VDS_DRIVE_PROP, base.vds_drive_prop, vds/_VDS_DRIVE_PROP, vdshwprv/_VDS_DRIVE_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ID2D1SimplifiedGeometrySink::BeginFigure
 author: windows-sdk-content
 description: Starts a new figure at the specified point.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_BeginFigure.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 87a932d4-1f90-4bdb-b131-0664566b0318
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: BeginFigure, BeginFigure method [Direct2D], BeginFigure method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],BeginFigure method, ID2D1SimplifiedGeometrySink.BeginFigure, ID2D1SimplifiedGeometrySink::BeginFigure, d2d1/ID2D1SimplifiedGeometrySink::BeginFigure, direct2d.ID2D1SimplifiedGeometrySink_BeginFigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,60 +100,69 @@ If this method is called while a figure is currently in progress, the interface 
 
 The following example creates an <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>, retrieves a sink, and uses it to define an hourglass shape. 
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1GeometrySink *pSink = NULL;
 
-```cpp
-ID2D1GeometrySink *pSink = NULL;
-
-
-```
-
-```cpp
-// Create a path geometry.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create a path geometry.
 if (SUCCEEDED(hr))
 {
-    hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
+    hr = m_pD2DFactory-&gt;CreatePathGeometry(&amp;m_pPathGeometry);
 
     if (SUCCEEDED(hr))
     {
         // Write to the path geometry using the geometry sink.
-        hr = m_pPathGeometry->Open(&pSink);
+        hr = m_pPathGeometry-&gt;Open(&amp;pSink);
 
         if (SUCCEEDED(hr))
         {
-            pSink->BeginFigure(
+            pSink-&gt;BeginFigure(
                 D2D1::Point2F(0, 0),
                 D2D1_FIGURE_BEGIN_FILLED
                 );
 
-            pSink->AddLine(D2D1::Point2F(200, 0));
+            pSink-&gt;AddLine(D2D1::Point2F(200, 0));
 
-            pSink->AddBezier(
+            pSink-&gt;AddBezier(
                 D2D1::BezierSegment(
                     D2D1::Point2F(150, 50),
                     D2D1::Point2F(150, 150),
                     D2D1::Point2F(200, 200))
                 );
 
-            pSink->AddLine(D2D1::Point2F(0, 200));
+            pSink-&gt;AddLine(D2D1::Point2F(0, 200));
 
-            pSink->AddBezier(
+            pSink-&gt;AddBezier(
                 D2D1::BezierSegment(
                     D2D1::Point2F(50, 150),
                     D2D1::Point2F(50, 50),
                     D2D1::Point2F(0, 0))
                 );
 
-            pSink->EndFigure(D2D1_FIGURE_END_CLOSED);
+            pSink-&gt;EndFigure(D2D1_FIGURE_END_CLOSED);
 
-            hr = pSink->Close();
+            hr = pSink-&gt;Close();
         }
-        SafeRelease(&pSink);
+        SafeRelease(&amp;pSink);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

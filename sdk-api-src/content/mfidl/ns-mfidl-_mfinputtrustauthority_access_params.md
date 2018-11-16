@@ -7,7 +7,7 @@ old-location: mf\mfinputtrustauthority_access_params.htm
 tech.root: medfound
 ms.assetid: 5ff3ec3a-a7b1-4378-8e8b-d59a6f5bb28d
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: 5ff3ec3a-a7b1-4378-8e8b-d59a6f5bb28d, MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS, MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS structure [Media Foundation], _MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS, mf.mfinputtrustauthority_access_params, mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices

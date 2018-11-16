@@ -4,10 +4,10 @@ title: CopyContext function
 author: windows-sdk-content
 description: Copies a source context structure (including any XState) onto an initialized destination context structure.
 old-location: base\copycontext.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 805CD02A-53BC-487C-83F8-FE804368C770
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CopyContext, CopyContext function, base.copycontext, winbase/CopyContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

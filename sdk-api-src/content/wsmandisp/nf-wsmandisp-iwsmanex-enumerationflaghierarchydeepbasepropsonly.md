@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_enumerationflaghierarchydeepbasepropsonly.htm
 tech.root: WinRM
 ms.assetid: 72528ef3-3e38-4f1f-a686-45c3caa1d9d3
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: EnumerationFlagHierarchyDeepBasePropsOnly, EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management], EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyDeepBasePropsOnly method, IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly, IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly, winrm.iwsmanex_enumerationflaghierarchydeepbasepropsonly, wsmandisp/IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices

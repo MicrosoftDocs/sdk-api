@@ -7,7 +7,7 @@ old-location: pla\idatacollectorset_get_useraccount.htm
 tech.root: PLA
 ms.assetid: 32fe1dcf-9682-40fd-b301-45385fa33cbe
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],UserAccount property, IDataCollectorSet.UserAccount, IDataCollectorSet.get_UserAccount, IDataCollectorSet::UserAccount, IDataCollectorSet::get_UserAccount, UserAccount property [PLA], UserAccount property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_useraccount, get_UserAccount, pla.idatacollectorset_get_useraccount, pla/IDataCollectorSet::UserAccount, pla/IDataCollectorSet::get_UserAccount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ID2D1BitmapBrush::SetExtendModeX
 author: windows-sdk-content
 description: Specifies how the brush horizontally tiles those areas that extend past its bitmap.
 old-location: direct2d\ID2D1BitmapBrush_SetExtendModeX.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: bb20c9ea-a2b1-4fa5-a0e3-b788fe493993
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetExtendModeX method, ID2D1BitmapBrush.SetExtendModeX, ID2D1BitmapBrush::SetExtendModeX, SetExtendModeX, SetExtendModeX method [Direct2D], SetExtendModeX method [Direct2D],ID2D1BitmapBrush interface, d2d1/ID2D1BitmapBrush::SetExtendModeX, direct2d.ID2D1BitmapBrush_SetExtendModeX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ Sometimes, the  bitmap for a bitmap brush doesn't completely fill the area being
 
 The following illustration shows the results from  every  possible combination of the extend modes for an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>: <a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE_CLAMP</a> (CLAMP), <b>D2D1_EXTEND_MODE_WRAP</b> (WRAP), and <b>D2D1_EXTEND_MIRROR</b> (MIRROR).
 
-<img alt="Illustration of a bitmap and the resulting images from various extend modes" src="./images/bitmapwrap_clamp_mirror.png"/>
+<img alt="Illustration of a bitmap and the resulting images from various extend modes" src="images/bitmapwrap_clamp_mirror.png"/>
 
 
 #### Examples
@@ -99,18 +99,22 @@ The following example shows how to set the bitmap brush's x- and y-extend modes 
 
 It produces the following output.
 
-<img alt="Illustration an original image and the resulting image from setting both x- and y- extend modes to mirror" src="./images/brushes_ovw_bitmapmirrormirror.png"/>
+<img alt="Illustration an original image and the resulting image from setting both x- and y- extend modes to mirror" src="images/brushes_ovw_bitmapmirrormirror.png"/>
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>m_pBitmapBrush-&gt;SetExtendModeX(D2D1_EXTEND_MODE_MIRROR);
+m_pBitmapBrush-&gt;SetExtendModeY(D2D1_EXTEND_MODE_MIRROR);
 
-```cpp
-m_pBitmapBrush->SetExtendModeX(D2D1_EXTEND_MODE_MIRROR);
-m_pBitmapBrush->SetExtendModeY(D2D1_EXTEND_MODE_MIRROR);
-
-m_pRenderTarget->FillRectangle(exampleRectangle, m_pBitmapBrush);
-
-```
-
-
+m_pRenderTarget-&gt;FillRectangle(exampleRectangle, m_pBitmapBrush);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

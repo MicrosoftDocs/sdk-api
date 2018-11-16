@@ -7,7 +7,7 @@ old-location: dshow\igraphversion.htm
 tech.root: DirectShow
 ms.assetid: abca59f2-2134-4938-9933-bacaed771d0d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IGraphVersion, IGraphVersion interface [DirectShow], IGraphVersion interface [DirectShow],described, IGraphVersionInterface, dshow.igraphversion, strmif/IGraphVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

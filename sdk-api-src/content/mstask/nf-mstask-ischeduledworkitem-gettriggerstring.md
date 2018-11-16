@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_gettriggerstring.htm
 tech.root: TaskSchd
 ms.assetid: 5e342807-4796-449b-b490-815ce57f4d8f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetTriggerString, GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTriggerString method, IScheduledWorkItem.GetTriggerString, IScheduledWorkItem::GetTriggerString, _msb_ischeduledworkitem_gettriggerstring, mstask/IScheduledWorkItem::GetTriggerString, taskschd.ischeduledworkitem_gettriggerstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
- Retrieves a string that describes the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a> trigger.
+ Retrieves a string that describes the <a href="w.htm">work item</a> trigger.
 
 
 ## -parameters

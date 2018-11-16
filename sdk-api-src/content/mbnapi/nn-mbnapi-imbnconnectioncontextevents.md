@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectioncontextevents.htm
 tech.root: mbn
 ms.assetid: 1f73260b-04db-410a-ade0-a835805b2b0a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMbnConnectionContextEvents, IMbnConnectionContextEvents interface [Microsoft Broadband Networks], IMbnConnectionContextEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontextevents, mbnapi/IMbnConnectionContextEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: KeyCredentialManagerGetOperationErrorStates function
 author: windows-sdk-content
 description: Prerequisite API to call to determine if the operation will be successful prior.
 old-location: security\keycredentialmanagergetoperationerrorstates.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 0E34340F-D886-4E69-9AF3-D9142E350173
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: KeyCredentialManagerGetOperationErrorStates, KeyCredentialManagerGetOperationErrorStates function [Security], keycredmgr/KeyCredentialManagerGetOperationErrorStates, security.keycredentialmanagergetoperationerrorstates
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_gatherwriterstatus.htm
 tech.root: VSS
 ms.assetid: ca87cdc3-e233-4efc-81c0-918e5a698af5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GatherWriterStatus, GatherWriterStatus method [VSS], GatherWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterStatus method, IVssBackupComponents.GatherWriterStatus, IVssBackupComponents::GatherWriterStatus, _win32_ivssbackupcomponents_gatherwriterstatus, base.ivssbackupcomponents_gatherwriterstatus, vsbackup/IVssBackupComponents::GatherWriterStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,7 @@ The
 
 
 
-### -param pAsync
-
-TBD
-
-
-
-
-#### - ppAsync [out]
+### -param pAsync [out]
 
 Doubly indirect pointer to an 
 <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> object containing the writer status data.

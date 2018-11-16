@@ -4,10 +4,10 @@ title: PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS
 author: windows-sdk-content
 description: The PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS type defines a pointer to this function.
 old-location: mscs\changerestypeprocessfordumps.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 6E5CA26D-F58A-41A4-9ED0-35FA363B7025
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ChangeResTypeProcessForDumps, ChangeResTypeProcessForDumps callback, ChangeResTypeProcessForDumps callback function [Failover Cluster], PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS, PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS callback function [Failover Cluster], mscs.changerestypeprocessfordumps, resapi/ChangeResTypeProcessForDumps, resapi/PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS
 ms.prod: windows-hardware
 ms.technology: windows-devices

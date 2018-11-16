@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10texture1d_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture1d_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Texture1D interface, ID3D10Texture1D interface [Direct3D 10],GetDesc method, ID3D10Texture1D.GetDesc, ID3D10Texture1D::GetDesc, d3d10/ID3D10Texture1D::GetDesc, direct3d10.id3d10texture1d_getdesc, e161a409-5177-1fd7-fcce-004736f62d94
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,9 +69,9 @@ Get the properties of the texture resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172479(v=VS.85).aspx">D3D10_TEXTURE1D_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f4230e66-5b38-4c69-8406-974fb7708c16">D3D10_TEXTURE1D_DESC</a>*</b>
 
-Pointer to a resource description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172479(v=VS.85).aspx">D3D10_TEXTURE1D_DESC</a>).
+Pointer to a resource description (see <a href="https://msdn.microsoft.com/f4230e66-5b38-4c69-8406-974fb7708c16">D3D10_TEXTURE1D_DESC</a>).
 
 
 ## -returns
@@ -88,7 +88,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173863(v=VS.85).aspx">ID3D10Texture1D Interface</a>
+<a href="https://msdn.microsoft.com/d73cdd85-d6e2-4724-a069-6a4edb5b354e">ID3D10Texture1D Interface</a>
  
 
  

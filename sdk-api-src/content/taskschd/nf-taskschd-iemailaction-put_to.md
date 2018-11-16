@@ -7,7 +7,7 @@ old-location: taskschd\iemailaction_to.htm
 tech.root: TaskSchd
 ms.assetid: 5144875a-6854-4907-89cd-6438f6adcc49
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEmailAction interface [Task Scheduler],To property, IEmailAction.To, IEmailAction.put_To, IEmailAction::To, IEmailAction::get_To, IEmailAction::put_To, To property [Task Scheduler], To property [Task Scheduler],IEmailAction interface, put_To, taskschd.iemailaction_to, taskschd/IEmailAction::To, taskschd/IEmailAction::get_To, taskschd/IEmailAction::put_To
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://msdn.microsoft.com/library/Hh849925(v=WPS.620).aspx">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="796227F5-C9FF-402D-8A04-CDE9E0C180EE">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the email address or addresses that you want to send the email to.
 

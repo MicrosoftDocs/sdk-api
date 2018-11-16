@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_debug_file_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_file_info.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: D3D10_SHADER_DEBUG_FILE_INFO, D3D10_SHADER_DEBUG_FILE_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_FILE_INFO, ac4c1ede-a189-df0e-6b8f-755a37f8de3d, d3d10_1shader/D3D10_SHADER_DEBUG_FILE_INFO, direct3d10.d3d10_shader_debug_file_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ Length of the file.
 
 
 
-The <b>D3D10_SHADER_DEBUG_FILE_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb172420(v=VS.85).aspx">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_FILE_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/b1b4201a-5bfb-4fce-ba51-64f7da9531bc">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 
@@ -100,7 +100,7 @@ The <b>D3D10_SHADER_DEBUG_FILE_INFO</b> structure is used with the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
  
 
  

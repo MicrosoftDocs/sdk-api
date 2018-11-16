@@ -7,7 +7,7 @@ old-location: ncd\wsdcreatedeviceproxy.htm
 tech.root: WsdApi
 ms.assetid: d432ae9a-cf34-4149-978c-637443a3824f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: WSDCreateDeviceProxy, WSDCreateDeviceProxy function, ncd.wsdcreatedeviceproxy, wsdclient/WSDCreateDeviceProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

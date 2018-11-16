@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11rendertargetview1_getdesc1.htm
 tech.root: direct3d11
 ms.assetid: 5AC36368-64DC-46C3-ACF4-36E5133019D8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDesc1, GetDesc1 method [Direct3D 11], GetDesc1 method [Direct3D 11],ID3D11RenderTargetView1 interface, ID3D11RenderTargetView1 interface [Direct3D 11],GetDesc1 method, ID3D11RenderTargetView1.GetDesc1, ID3D11RenderTargetView1::GetDesc1, d3d11_3/ID3D11RenderTargetView1::GetDesc1, direct3d11.id3d11rendertargetview1_getdesc1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,9 +69,9 @@ Gets the properties of a render-target view.
 
 ### -param pDesc1 [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn899158(v=VS.85).aspx">D3D11_RENDER_TARGET_VIEW_DESC1</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/D87F06B4-7574-4BBD-A481-653CA35B8FB2">D3D11_RENDER_TARGET_VIEW_DESC1</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899158(v=VS.85).aspx">D3D11_RENDER_TARGET_VIEW_DESC1</a> structure that receives the description of the render-target view.
+A pointer to a <a href="https://msdn.microsoft.com/D87F06B4-7574-4BBD-A481-653CA35B8FB2">D3D11_RENDER_TARGET_VIEW_DESC1</a> structure that receives the description of the render-target view.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899240(v=VS.85).aspx">ID3D11RenderTargetView1</a>
+<a href="https://msdn.microsoft.com/6063229D-A85A-46E8-9034-D1C2C26A5274">ID3D11RenderTargetView1</a>
  
 
  

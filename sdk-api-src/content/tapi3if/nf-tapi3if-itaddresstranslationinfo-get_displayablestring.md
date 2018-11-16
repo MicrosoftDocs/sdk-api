@@ -4,10 +4,10 @@ title: ITAddressTranslationInfo::get_DisplayableString
 author: windows-sdk-content
 description: The get_DisplayableString method gets a string that contains a displayable version of the dialable number.
 old-location: tapi3\itaddresstranslationinfo_get_displayablestring.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c88474ee-5a7e-4966-8dc2-5f839069b2d2
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_DisplayableString method, ITAddressTranslationInfo.get_DisplayableString, ITAddressTranslationInfo::get_DisplayableString, _tapi3_itaddresstranslationinfo_get_displayablestring, get_DisplayableString, get_DisplayableString method [TAPI 2.2], get_DisplayableString method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_displayablestring, tapi3if/ITAddressTranslationInfo::get_DisplayableString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,7 +127,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppDisplayableString</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppDisplayableString</i> parameter.
 			
 
 Corresponds to the <b>dwDisplayableStringSize</b> and <b>dwDisplayableStringOffset</b> members of TAPI 2's 

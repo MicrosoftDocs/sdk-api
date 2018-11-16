@@ -4,10 +4,10 @@ title: IMPEG2_TIF_CONTROL::DeletePIDs
 author: windows-sdk-content
 description: The DeletePIDs method informs the Network Provider that the TIF no longer requires the specified PID.
 old-location: mstv\impeg2_tif_control_deletepids.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d5188e30-6980-482f-a690-494855d6aeea
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DeletePIDs, DeletePIDs method [Microsoft TV Technologies], DeletePIDs method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],DeletePIDs method, IMPEG2_TIF_CONTROL.DeletePIDs, IMPEG2_TIF_CONTROL::DeletePIDs, IMPEG2_TIF_CONTROLDeletePIDs, bdatif/IMPEG2_TIF_CONTROL::DeletePIDs, mstv.impeg2_tif_control_deletepids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,11 +121,11 @@ This method is called if a set of tables in the transport stream goes away, in o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694413(v=VS.85).aspx">IMPEG2_TIF_CONTROL Interface</a>
+<a href="https://msdn.microsoft.com/9583365d-b318-49e2-a32f-f6cc9d3f289d">IMPEG2_TIF_CONTROL Interface</a>
  
 
  

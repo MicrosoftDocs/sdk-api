@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_notifications.htm
 tech.root: Fsrm
 ms.assetid: f0aee951-12f3-40d0-bbf4-c72af117952f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Notifications property, IFsrmFileManagementJob.Notifications, IFsrmFileManagementJob.get_Notifications, IFsrmFileManagementJob::Notifications, IFsrmFileManagementJob::get_Notifications, Notifications property [File Server Resource Manager], Notifications property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_notifications, fsrm.ifsrmfilemanagementjob_notifications, fsrmreports/IFsrmFileManagementJob::Notifications, fsrmreports/IFsrmFileManagementJob::get_Notifications, get_Notifications
 ms.prod: windows-hardware
 ms.technology: windows-devices

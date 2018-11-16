@@ -4,10 +4,10 @@ title: MsiSetPropertyW function
 author: windows-sdk-content
 description: The MsiSetProperty function sets the value for an installation property.
 old-location: setup\msisetproperty.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: f6376a19-579a-4e25-8ab6-bb66c623dd25
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiSetProperty, MsiSetProperty function, MsiSetPropertyA, MsiSetPropertyW, _msi_msisetproperty, msiquery/MsiSetProperty, msiquery/MsiSetPropertyA, msiquery/MsiSetPropertyW, setup.msisetproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ If the property is not defined, it is created by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\istorageproviderhandler_getpropertyhandlerfromfileid.htm
 tech.root: shell
 ms.assetid: 6EBC5567-E64E-47FC-A5A9-C482714401D8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetPropertyHandlerFromFileId, GetPropertyHandlerFromFileId method [Windows Shell], GetPropertyHandlerFromFileId method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromFileId method, IStorageProviderHandler.GetPropertyHandlerFromFileId, IStorageProviderHandler::GetPropertyHandlerFromFileId, shell.istorageproviderhandler_getpropertyhandlerfromfileid, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromFileId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,14 +71,7 @@ Gets an instance of <a href="https://msdn.microsoft.com/8CB56726-DABA-44A4-ADAE-
 The identifier for the relevant file.
 
 
-### -param propertyHandler
-
-TBD
-
-
-
-
-#### - **propertyHandler [out]
+### -param propertyHandler [out]
 
 An <a href="https://msdn.microsoft.com/8CB56726-DABA-44A4-ADAE-DAD8ECB047E6">IStorageProviderPropertyHandler</a> instance associated with the file specified by <i>fileId</i>.
 

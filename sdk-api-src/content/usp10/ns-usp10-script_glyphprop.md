@@ -7,7 +7,7 @@ old-location: intl\script_glyphprop.htm
 tech.root: Intl
 ms.assetid: 5d68c8b6-77dd-48f7-b05a-0c02c9271097
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: SCRIPT_GLYPHPROP, SCRIPT_GLYPHPROP structure [Internationalization for Windows Applications], _win32_SCRIPT_GLYPHPROP, intl.script_glyphprop, script_glyphprop, usp10/SCRIPT_GLYPHPROP
 ms.prod: windows-hardware
 ms.technology: windows-devices

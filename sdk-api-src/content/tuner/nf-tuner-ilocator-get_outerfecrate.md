@@ -4,10 +4,10 @@ title: ILocator::get_OuterFECRate
 author: windows-sdk-content
 description: The get_OuterFECRate method gets the outer FEC rate.
 old-location: mstv\ilocator_get_outerfecrate.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 550103a8-dcf9-4a52-817a-61a589de4299
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDigitalLocatorget_OuterFECRate, ILocator interface [Microsoft TV Technologies],get_OuterFECRate method, ILocator.get_OuterFECRate, ILocator::get_OuterFECRate, get_OuterFECRate, get_OuterFECRate method [Microsoft TV Technologies], get_OuterFECRate method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_outerfecrate, tuner/ILocator::get_OuterFECRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,15 +92,15 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693581(v=VS.85).aspx">get_InnerFECRate</a>
+<a href="mstv.idigitallocator_get_innerfecrate">get_InnerFECRate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693582(v=VS.85).aspx">get_OuterFEC</a>
+<a href="mstv.idigitallocator_get_outerfec">get_OuterFEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693588(v=VS.85).aspx">put_OuterFECRate</a>
+<a href="mstv.idigitallocator_put_outerfecrate">put_OuterFECRate</a>
  
 
  

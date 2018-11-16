@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrregister_unregistersyncmgrhandler.htm
 tech.root: shell
 ms.assetid: cd823d73-a07a-4c75-a29c-6c48ad2c23dc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ISyncMgrRegister interface [Windows Shell],UnregisterSyncMgrHandler method, ISyncMgrRegister.UnregisterSyncMgrHandler, ISyncMgrRegister::UnregisterSyncMgrHandler, UnregisterSyncMgrHandler, UnregisterSyncMgrHandler method [Windows Shell], UnregisterSyncMgrHandler method [Windows Shell],ISyncMgrRegister interface, mobsync/ISyncMgrRegister::UnregisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_unregistersyncmgrhandler, syncmgr.isyncmgrregister_unregistersyncmgrhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,21 +66,16 @@ Removes a handler's class identifier (CLSID) from the registration. A handler sh
 
 
 
-### -param clsidHandler
+### -param clsidHandler [in]
 
-TBD
+Type: <b>REFCLSID</b>
+
+The CLSID of the handler that should be unregistered.
 
 
 ### -param dwReserved [in]
 
 Type: <b>DWORD</b>
-
-
-#### - rclsidHandler [in]
-
-Type: <b>REFCLSID</b>
-
-The CLSID of the handler that should be unregistered.
 
 
 ## -returns

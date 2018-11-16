@@ -7,7 +7,7 @@ old-location: wininet\freeurlcachespace.htm
 tech.root: WinInet
 ms.assetid: 5853CA64-551F-484E-A992-25B9EA6C74C2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FreeUrlCacheSpace, FreeUrlCacheSpace function [WinINet], FreeUrlCacheSpaceA, FreeUrlCacheSpaceW, wininet.freeurlcachespace, winineti/FreeUrlCacheSpace, winineti/FreeUrlCacheSpaceA, winineti/FreeUrlCacheSpaceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

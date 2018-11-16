@@ -7,7 +7,7 @@ old-location: wininet\internetgetconnectedstateex.htm
 tech.root: WinInet
 ms.assetid: 0b27b86d-6e55-4022-84ce-d4116d71f124
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INTERNET_CONNECTION_CONFIGURED, INTERNET_CONNECTION_LAN, INTERNET_CONNECTION_MODEM, INTERNET_CONNECTION_MODEM_BUSY, INTERNET_CONNECTION_OFFLINE, INTERNET_CONNECTION_PROXY, InternetGetConnectedStateEx, InternetGetConnectedStateEx function [WinINet], InternetGetConnectedStateExA, InternetGetConnectedStateExW, _inet_internetgetconnectedstateex_function, wininet.internetgetconnectedstateex, winineti/InternetGetConnectedStateEx, winineti/InternetGetConnectedStateExA, winineti/InternetGetConnectedStateExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,20 +150,15 @@ Local system uses a proxy server to connect to the Internet.
 Pointer to a string value that receives the connection name.
 
 
-### -param dwNameLen
+#### - dwNameLen [in]
 
-TBD
+Size of the 
+<i>lpszConnectionName</i> string, in <b>TCHARs</b>.
 
 
 ### -param dwReserved [in]
 
 This parameter is reserved and must be <b>NULL</b>.
-
-
-#### - cchNameLen [in]
-
-Size of the 
-<i>lpszConnectionName</i> string, in <b>TCHARs</b>.
 
 
 ## -returns

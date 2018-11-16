@@ -4,10 +4,10 @@ title: ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES 
 author: windows-sdk-content
 description: Creates an ID2D1HwndRenderTarget, a render target that renders to a window.
 old-location: direct2d\ID2D1Factory_CreateHwndRenderTarget_ref_D2D1_RENDER_TARGET_PROPERTIES_ref_D2D1_HWND_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1HwndRenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c1f5f5dd-3ae8-4483-bd7d-f25a69489bab
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CreateHwndRenderTarget, CreateHwndRenderTarget method [Direct2D], CreateHwndRenderTarget method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateHwndRenderTarget method, ID2D1Factory.CreateHwndRenderTarget, ID2D1Factory.CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &,const D2D1_HWND_RENDER_TARGET_PROPERTIES &,ID2D1HwndRenderTarget), ID2D1Factory::CreateHwndRenderTarget, ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &,const D2D1_HWND_RENDER_TARGET_PROPERTIES &,ID2D1HwndRenderTarget), d2d1/ID2D1Factory::CreateHwndRenderTarget, direct2d.ID2D1Factory_CreateHwndRenderTarget_ref_D2D1_RENDER_TARGET_PROPERTIES_ref_D2D1_HWND_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1HwndRenderTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,10 +109,14 @@ When you create a render target and hardware acceleration is available, you allo
 
 The following example creates an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>.
 
-
-```cpp
-RECT rc;
-GetClientRect(m_hwnd, &rc);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>RECT rc;
+GetClientRect(m_hwnd, &amp;rc);
 
 D2D1_SIZE_U size = D2D1::SizeU(
     rc.right - rc.left,
@@ -120,15 +124,15 @@ D2D1_SIZE_U size = D2D1::SizeU(
     );
 
 // Create a Direct2D render target.
-hr = m_pD2DFactory->CreateHwndRenderTarget(
+hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
     D2D1::RenderTargetProperties(),
     D2D1::HwndRenderTargetProperties(m_hwnd, size),
-    &m_pRenderTarget
+    &amp;m_pRenderTarget
     );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

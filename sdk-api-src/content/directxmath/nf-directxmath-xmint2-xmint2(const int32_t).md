@@ -7,7 +7,7 @@ old-location: dxmath\xmint2_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT2.#ctor(const int32_t)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: XMINT2 constructor [DirectX Math Support APIs], XMINT2 constructor [DirectX Math Support APIs],XMINT2 structure, XMINT2 structure [DirectX Math Support APIs],XMINT2 constructor, XMINT2.XMINT2(const int32_t), XMINT2.XMINT2(const int32_t*), dxmath.xmint2_ctor_3
 ms.prod: windows-hardware
 ms.technology: windows-devices

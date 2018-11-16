@@ -7,7 +7,7 @@ old-location: wcn\iwcndevice_connect.htm
 tech.root: wcn
 ms.assetid: d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Connect, Connect method [Windows Connect Now], Connect method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],Connect method, IWCNDevice.Connect, IWCNDevice::Connect, wcn.iwcndevice_connect, wcndevice/IWCNDevice::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

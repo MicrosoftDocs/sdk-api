@@ -7,7 +7,7 @@ old-location: netmgmt\netmessagenamegetinfo.htm
 tech.root: NetMgmt
 ms.assetid: 72129865-2aee-41d5-8a89-53bb815a7f63
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 0, 1, NetMessageNameGetInfo, NetMessageNameGetInfo function [Network Management], _win32_netmessagenamegetinfo, lmmsg/NetMessageNameGetInfo, netmgmt.netmessagenamegetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

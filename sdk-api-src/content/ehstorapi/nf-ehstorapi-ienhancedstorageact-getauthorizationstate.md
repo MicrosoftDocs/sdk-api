@@ -7,7 +7,7 @@ old-location: enstor\ienhancedstorageact_getauthorizationstate.htm
 tech.root: enstor
 ms.assetid: 79615cae-cdd1-43bc-9954-108084ea692b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetAuthorizationState, GetAuthorizationState method [Enhanced Storage], GetAuthorizationState method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetAuthorizationState method, IEnhancedStorageACT.GetAuthorizationState, IEnhancedStorageACT::GetAuthorizationState, ehstorapi/IEnhancedStorageACT::GetAuthorizationState, enstor.ienhancedstorageact_getauthorizationstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

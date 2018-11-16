@@ -7,7 +7,7 @@ old-location: intl\text.htm
 tech.root: Intl
 ms.assetid: 427d365f-2277-460c-8120-3ccb6c6cea4f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: TEXT, TEXT macro [Internationalization for Windows Applications], _win32_TEXT_Macro, intl.text, winnt/TEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices

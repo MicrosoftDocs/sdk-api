@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPolygon_PointF_points_INT_c
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddpolygonmethods\addpolygon_35pointfpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AddPolygon, AddPolygon method [GDI+], AddPolygon method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddPolygon method, GraphicsPath.AddPolygon, GraphicsPath.AddPolygon(IN const PointF,IN INT), GraphicsPath.AddPolygon(const PointF*,INT), GraphicsPath::AddPolygon, GraphicsPath::AddPolygon(IN const PointF,IN INT), _gdiplus_CLASS_GraphicsPath_AddPolygon_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPolygon_PointF_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,9 +108,13 @@ The <b>GraphicsPath::AddPolygon</b> method is similar to the <b>AddLines</b> met
 
 The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object <i>path</i>, adds a polygon to <i>path</i>, and then draws <i>path</i>.
 
-
-```cpp
-VOID Example_AddPolygon(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_AddPolygon(HDC hdc)
 {
    Graphics graphics(hdc); 
 
@@ -123,11 +127,11 @@ VOID Example_AddPolygon(HDC hdc)
 
    // Draw the path.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawPath(&pen, &path);
-}
-```
-
-
+   graphics.DrawPath(&amp;pen, &amp;path);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

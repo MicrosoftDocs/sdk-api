@@ -4,10 +4,10 @@ title: SCardEstablishContext function
 author: windows-sdk-content
 description: Establishes the resource manager context (the scope) within which database operations are performed.
 old-location: security\scardestablishcontext.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 1cf9b005-b76c-4fc9-b4bd-a1ad8552535f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: SCARD_SCOPE_SYSTEM, SCARD_SCOPE_USER, SCardEstablishContext, SCardEstablishContext function [Security], _smart_scardestablishcontext, security.scardestablishcontext, winscard/SCardEstablishContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,7 +120,7 @@ A handle to the established <a href="https://msdn.microsoft.com/ce589e18-02ac-42
 
 If the function succeeds, the function returns SCARD_S_SUCCESS. 
 
-If the function fails, it returns an error code. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>. 
+If the function fails, it returns an error code. For more information, see <a href="authentication_return_values.htm">Smart Card Return Values</a>. 
 
 
 

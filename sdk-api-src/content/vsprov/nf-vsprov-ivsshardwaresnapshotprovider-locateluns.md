@@ -7,7 +7,7 @@ old-location: base\ivsshardwaresnapshotprovider_locateluns.htm
 tech.root: VSS
 ms.assetid: 9a996875-a495-43c1-987e-67c31d0651c7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssHardwareSnapshotProvider interface [VSS],LocateLuns method, IVssHardwareSnapshotProvider.LocateLuns, IVssHardwareSnapshotProvider::LocateLuns, LocateLuns, LocateLuns method [VSS], LocateLuns method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_locateluns, vsprov/IVssHardwareSnapshotProvider::LocateLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices

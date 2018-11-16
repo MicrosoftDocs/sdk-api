@@ -4,10 +4,10 @@ title: IBDA_FDC::RequestTables
 author: windows-sdk-content
 description: Requests MPEG-2 table sections, filtered by table identifier (TID).
 old-location: mstv\ibda_fdc_requesttables.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ff8483d3-6c4c-4786-a99b-bf3575a18fdb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RequestTables method, IBDA_FDC.RequestTables, IBDA_FDC::RequestTables, RequestTables, RequestTables method [Microsoft TV Technologies], RequestTables method [Microsoft TV Technologies],IBDA_FDC interface, bdaiface/IBDA_FDC::RequestTables, mstv.ibda_fdc_requesttables
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693347(v=VS.85).aspx">IBDA_FDC</a>
+<a href="https://msdn.microsoft.com/8b7a07fd-99e9-4f8e-9211-109689f2f892">IBDA_FDC</a>
  
 
  

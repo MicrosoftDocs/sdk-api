@@ -7,7 +7,7 @@ old-location: pla\idatamanager_enabled.htm
 tech.root: PLA
 ms.assetid: 3048a4b6-3e18-4585-bf5e-d91a4c0adcfc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Enabled property [PLA], Enabled property [PLA],IDataManager interface, IDataManager interface [PLA],Enabled property, IDataManager.Enabled, IDataManager.put_Enabled, IDataManager::Enabled, IDataManager::get_Enabled, IDataManager::put_Enabled, base.idatamanager_enabled, pla.idatamanager_enabled, pla/IDataManager::Enabled, pla/IDataManager::get_Enabled, pla/IDataManager::put_Enabled, put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

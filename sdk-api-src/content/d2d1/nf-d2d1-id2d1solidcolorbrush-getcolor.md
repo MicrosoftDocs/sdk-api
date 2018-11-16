@@ -4,10 +4,10 @@ title: ID2D1SolidColorBrush::GetColor
 author: windows-sdk-content
 description: Retrieves the color of the solid color brush.
 old-location: direct2d\ID2D1SolidColorBrush_GetColor.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 25eac791-9402-4202-8e00-936d355d8d2b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetColor, GetColor method [Direct2D], GetColor method [Direct2D],ID2D1SolidColorBrush interface, ID2D1SolidColorBrush interface [Direct2D],GetColor method, ID2D1SolidColorBrush.GetColor, ID2D1SolidColorBrush::GetColor, d2d1/ID2D1SolidColorBrush::GetColor, direct2d.ID2D1SolidColorBrush_GetColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

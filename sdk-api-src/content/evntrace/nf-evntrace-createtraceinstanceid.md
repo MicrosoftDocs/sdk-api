@@ -4,10 +4,10 @@ title: CreateTraceInstanceId function
 author: windows-sdk-content
 description: The CreateTraceInstanceId function creates a unique transaction identifier and maps it to a class GUID registration handle. You then use the transaction identifier when calling the TraceEventInstance function.
 old-location: etw\createtraceinstanceid.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: ab890392-f1e4-4b4e-a46c-8c7c2bfd3897
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: CreateTraceInstanceId, CreateTraceInstanceId function [ETW], _evt_createtraceinstanceid, base.createtraceinstanceid, etw.createtraceinstanceid, evntrace/CreateTraceInstanceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,7 @@ Handle to a registered event trace class. The
 					
 
 
-### -param InstInfo
-
-TBD
-
-
-
-
-#### - pInstInfo [out]
+### -param InstInfo [out]
 
 Pointer to an 
 <a href="https://msdn.microsoft.com/83a3802c-b992-43a2-a98a-bdee2ecfef24">EVENT_INSTANCE_INFO</a> structure. The <b>InstanceId</b> member of this structure contains the transaction identifier.

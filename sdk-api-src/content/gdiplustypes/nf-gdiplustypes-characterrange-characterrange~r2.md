@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CharacterRange_CharacterRange_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\characterrangeconstructors\characterrange_54.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+],CharacterRange constructor, CharacterRange constructor [GDI+], CharacterRange constructor [GDI+],CharacterRange class, CharacterRange.CharacterRange, CharacterRange.CharacterRange(), CharacterRange.CharacterRange~r2, CharacterRange::CharacterRange, CharacterRange::CharacterRange~r2, _gdiplus_CLASS_CharacterRange_CharacterRange_, gdiplus._gdiplus_CLASS_CharacterRange_CharacterRange_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,19 +74,19 @@ Creates a <b>CharacterRange::CharacterRange</b> object with the data members set
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534426(v=VS.85).aspx">CharacterRange</a>
+<a href="https://msdn.microsoft.com/7bb98500-d1cf-422d-b1ff-a7ca4c84560e">CharacterRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534720(v=VS.85).aspx">GetMeasurableCharacterRangeCount</a>
+<a href="https://msdn.microsoft.com/374b89d4-4f6f-4875-a34f-8a6e9ee379ab">GetMeasurableCharacterRangeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535796(v=VS.85).aspx">MeasureCharacterRanges</a>
+<a href="https://msdn.microsoft.com/2176e638-5d83-46ae-ab4f-a3031d46bde2">MeasureCharacterRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534729(v=VS.85).aspx">SetMeasurableCharacterRanges</a>
+<a href="https://msdn.microsoft.com/5c49c64f-f705-4b33-974b-34ffb1e43ff5">SetMeasurableCharacterRanges</a>
  
 
  

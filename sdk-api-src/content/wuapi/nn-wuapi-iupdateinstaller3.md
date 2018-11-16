@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller3.htm
 tech.root: Wua_Sdk
 ms.assetid: 5A237B5C-A07B-470F-B2F6-ABC936DCE1A5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IUpdateInstaller3, IUpdateInstaller3 interface [Windows Update Agent], IUpdateInstaller3 interface [Windows Update Agent],described, wua.iupdateinstaller3, wuapi/IUpdateInstaller3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ The <b>IUpdateInstaller3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt829693(v=VS.85).aspx">get_AttemptCloseAppsIfNecessary</a>
+<a href="wua.iupdateinstaller3_get_attemptcloseappsifnecessary">get_AttemptCloseAppsIfNecessary</a>
 </td>
 <td align="left" width="63%">
 Gets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.
@@ -82,7 +82,7 @@ Gets a value indicating whether the update installer will attempt to close appli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt829694(v=VS.85).aspx">put_AttemptCloseAppsIfNecessary</a>
+<a href="wua.iupdateinstaller3_put_attemptcloseappsifnecessary">put_AttemptCloseAppsIfNecessary</a>
 </td>
 <td align="left" width="63%">
 Sets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.

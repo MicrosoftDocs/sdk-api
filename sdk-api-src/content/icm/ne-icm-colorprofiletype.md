@@ -7,7 +7,7 @@ old-location: wcs\colorprofiletype.htm
 tech.root: WCS
 ms.assetid: aaf6fd19-0693-4a76-812f-ff958eb5c944
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCOLORPROFILETYPE, COLORPROFILETYPE, COLORPROFILETYPE enumeration [Windows Color System], CPT_CAMP, CPT_DMP, CPT_GMMP, CPT_ICC, LPCOLORPROFILETYPE, LPCOLORPROFILETYPE enumeration pointer [Windows Color System], PCOLORPROFILETYPE, PCOLORPROFILETYPE enumeration pointer [Windows Color System], icm/COLORPROFILETYPE, icm/CPT_CAMP, icm/CPT_DMP, icm/CPT_GMMP, icm/CPT_ICC, icm/LPCOLORPROFILETYPE, icm/PCOLORPROFILETYPE, wcs.colorprofiletype"
 ms.prod: windows-hardware
 ms.technology: windows-devices

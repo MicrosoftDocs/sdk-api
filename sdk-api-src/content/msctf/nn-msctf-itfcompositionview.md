@@ -7,7 +7,7 @@ old-location: tsf\itfcompositionview.htm
 tech.root: TSF
 ms.assetid: 1c8aac3e-384e-402e-aae8-11e240083603
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfCompositionView, ITfCompositionView interface [Text Services Framework], ITfCompositionView interface [Text Services Framework],described, _tsf_itfcompositionview_ref, msctf/ITfCompositionView, tsf.itfcompositionview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,7 +99,7 @@ Obtains a range object that contains the text covered by the composition.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

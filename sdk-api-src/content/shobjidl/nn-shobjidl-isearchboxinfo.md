@@ -7,7 +7,7 @@ old-location: shell\ISearchBoxInfo.htm
 tech.root: shell
 ms.assetid: 7b2082e9-b075-488a-a6c1-f9dc99409474
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ISearchBoxInfo, ISearchBoxInfo interface [Windows Shell], ISearchBoxInfo interface [Windows Shell],described, _shell_ISearchBoxInfo, shell.ISearchBoxInfo, shobjidl/ISearchBoxInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ The <b>ISearchBoxInfo</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9a1159df-78ef-493b-8286-eefb0ac004ef">GetCondition</a>
 </td>
 <td align="left" width="63%">
-Retrieves the contents of the search box as an <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> object.
+Retrieves the contents of the search box as an <a href="_search_ICondition">ICondition</a> object.
 
 </td>
 </tr>
@@ -97,10 +97,10 @@ The search box is shown here in an Windows Explorer window frame.
 
 
 
-<img alt="Screen shot of upper-right corner of explorer frame showing search box" src="./images/searchbox.jpg"/>
+<img alt="Screen shot of upper-right corner of explorer frame showing search box" src="images/searchbox.jpg"/>
 The frame that contains the search box might also be hosted in another window or in the common file dialog box.
 
-To access the search dialog, use <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> using SID_SSearchBoxInfo on a site pointer within the Windows Explorer window.
+To access the search dialog, use <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> using SID_SSearchBoxInfo on a site pointer within the Windows Explorer window.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 An implementation of this interface is provided with Windows. Third parties do not need to implement their own version.

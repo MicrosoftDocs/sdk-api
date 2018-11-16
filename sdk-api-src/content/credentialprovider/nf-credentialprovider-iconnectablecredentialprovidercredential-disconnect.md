@@ -7,7 +7,7 @@ old-location: shell\IConnectableCredentialProviderCredential_Disconnect.htm
 tech.root: shell
 ms.assetid: 749147ce-9c05-4303-9ed2-62af047e6608
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Disconnect, Disconnect method [Windows Shell], Disconnect method [Windows Shell],IConnectableCredentialProviderCredential interface, IConnectableCredentialProviderCredential interface [Windows Shell],Disconnect method, IConnectableCredentialProviderCredential.Disconnect, IConnectableCredentialProviderCredential::Disconnect, _shell_IConnectableCredentialProviderCredential_Disconnect, credentialprovider/IConnectableCredentialProviderCredential::Disconnect, shell.IConnectableCredentialProviderCredential_Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Disconnects an <a href="https://msdn.microsoft.com/en-us/library/Bb776110(v=VS.85).aspx">IConnectableCredentialProviderCredential</a> object.
+Disconnects an <a href="https://msdn.microsoft.com/fe5f3145-b428-42c9-ab1d-1c0e63c4454b">IConnectableCredentialProviderCredential</a> object.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-After a successful call to <a href="https://msdn.microsoft.com/en-us/library/Bb776100(v=VS.85).aspx">Connect</a>, the Logon UI displays a <b>Disconnect</b> button to the user. If the user clicks <b>Disconnect</b>, the Logon UI calls <b>Disconnect</b> on every credential provider that implements <a href="https://msdn.microsoft.com/en-us/library/Bb776110(v=VS.85).aspx">IConnectableCredentialProviderCredential</a>.
+After a successful call to <a href="https://msdn.microsoft.com/0fe91d1a-811a-4956-bb2f-47712ae2a155">Connect</a>, the Logon UI displays a <b>Disconnect</b> button to the user. If the user clicks <b>Disconnect</b>, the Logon UI calls <b>Disconnect</b> on every credential provider that implements <a href="https://msdn.microsoft.com/fe5f3145-b428-42c9-ab1d-1c0e63c4454b">IConnectableCredentialProviderCredential</a>.
 
 
 

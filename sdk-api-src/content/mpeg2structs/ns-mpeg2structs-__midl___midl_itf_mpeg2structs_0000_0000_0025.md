@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0025"
 author: windows-sdk-content
 description: The MPEG_DATE structure specifies a date.
 old-location: mstv\mpeg_date.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 82c58d97-376f-40d0-9511-32361ece8ebb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: MPEG_DATE, MPEG_DATE structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0025, mpeg2structs/MPEG_DATE, mstv.mpeg_date
 ms.prod: windows-hardware
 ms.technology: windows-devices

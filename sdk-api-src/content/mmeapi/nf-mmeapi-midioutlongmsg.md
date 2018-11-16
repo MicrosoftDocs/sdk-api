@@ -7,7 +7,7 @@ old-location: multimedia\midioutlongmsg.htm
 tech.root: Multimedia
 ms.assetid: 7fda802b-eed5-4a27-8bc0-1f43f4722d33
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_midiOutLongMsg, midiOutLongMsg, midiOutLongMsg function [Windows Multimedia], mmeapi/midiOutLongMsg, multimedia.midioutlongmsg"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,24 +76,12 @@ Handle to the MIDI output device. This parameter can also be the handle of a MID
 
 ### -param pmh
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure that identifies the MIDI buffer.
 
 
 ### -param cbmh
 
-TBD
-
-
-
-
-#### - cbMidiOutHdr
-
 Size, in bytes, of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure.
-
-
-#### - lpMidiOutHdr
-
-Pointer to a <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure that identifies the MIDI buffer.
 
 
 ## -returns

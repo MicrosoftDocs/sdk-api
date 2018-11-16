@@ -95,7 +95,7 @@ When extending the active directory schema to add <b>ADS_DN_WITH_BINARY</b>, you
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684429(v=VS.85).aspx">Object(DN-Binary)</a>
+<a href="ad.win2k_s_object_dn_binary">Object(DN-Binary)</a>
  
 
  

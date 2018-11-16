@@ -7,7 +7,7 @@ old-location: properties\SHPropStgReadMultiple.htm
 tech.root: properties
 ms.assetid: 5350a1b1-a099-4b09-af89-f652e40b1d20
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: SHPropStgReadMultiple, SHPropStgReadMultiple function [Windows Properties], _win32_SHPropStgReadMultiple, properties.SHPropStgReadMultiple, shell.SHPropStgReadMultiple, shlobj_core/SHPropStgReadMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: pla\idatacollector_setxml.htm
 tech.root: PLA
 ms.assetid: 12ed8697-caec-45d5-9ecf-658b3e4ca8ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDataCollector interface [PLA],SetXml method, IDataCollector.SetXml, IDataCollector::SetXml, SetXml, SetXml method [PLA], SetXml method [PLA],IDataCollector interface, base.idatacollector_setxml, pla.idatacollector_setxml, pla/IDataCollector::SetXml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,14 +71,7 @@ Sets the property values of those properties included in the XML.
 XML that contains the collector properties to set. For details on specifying the XML string, see the Remarks section of <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a>.
 
 
-### -param Validation
-
-TBD
-
-
-
-
-#### - ppValidation [out]
+### -param Validation [out]
 
 An <a href="https://msdn.microsoft.com/a7134395-91c6-4ea1-8b76-63830048289f">IValueMap</a> interface that you use to retrieve the validation error of each property whose value is not valid. The <a href="https://msdn.microsoft.com/990b48d8-357f-4157-a3d2-1ea1c80e1887">IValueMap::Count</a> property is zero if there were no errors.
 

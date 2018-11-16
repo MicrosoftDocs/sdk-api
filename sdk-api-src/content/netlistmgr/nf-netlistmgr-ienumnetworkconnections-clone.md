@@ -7,7 +7,7 @@ old-location: nla\ienumnetworkconnections_clone.htm
 tech.root: NLA
 ms.assetid: eb59b8ae-b53c-4035-96c4-72cf87edb2eb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Clone, Clone method [Network Awareness], Clone method [Network Awareness],IEnumNetworkConnections interface, IEnumNetworkConnections interface [Network Awareness],Clone method, IEnumNetworkConnections.Clone, IEnumNetworkConnections::Clone, netlistmgr/IEnumNetworkConnections::Clone, nla.ienumnetworkconnections_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

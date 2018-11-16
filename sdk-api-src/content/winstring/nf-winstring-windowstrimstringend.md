@@ -7,7 +7,7 @@ old-location: winrt\windowstrimstringend.htm
 tech.root: WinRT
 ms.assetid: C6DC080D-04EA-43DF-AD6F-58419D4EB1B2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: WindowsTrimStringEnd, WindowsTrimStringEnd function [Windows Runtime], winrt.windowstrimstringend, winstring/WindowsTrimStringEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

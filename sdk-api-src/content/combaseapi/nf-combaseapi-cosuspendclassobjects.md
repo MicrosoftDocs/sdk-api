@@ -83,7 +83,7 @@ This function returns S_OK to indicate that the activation of class objects was 
 
 
 
-<b>CoSuspendClassObjects</b> prevents any new activation requests from the SCM on all class objects registered within the process. Even though a process may call this function, the process still must call the <a href="https://msdn.microsoft.com/en-us/library/ms688650(v=VS.85).aspx">CoRevokeClassObject</a> function for each CLSID it has registered, in the apartment it registered in. Applications typically do not need to call this function, which is generally only called internally by OLE when used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms691324(v=VS.85).aspx">CoReleaseServerProcess</a> function.
+<b>CoSuspendClassObjects</b> prevents any new activation requests from the SCM on all class objects registered within the process. Even though a process may call this function, the process still must call the <a href="https://msdn.microsoft.com/90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec">CoRevokeClassObject</a> function for each CLSID it has registered, in the apartment it registered in. Applications typically do not need to call this function, which is generally only called internally by OLE when used in conjunction with the <a href="https://msdn.microsoft.com/b28d41e2-4144-413d-9963-14f2d4dc8876">CoReleaseServerProcess</a> function.
 
 
 
@@ -94,15 +94,15 @@ This function returns S_OK to indicate that the activation of class objects was 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691324(v=VS.85).aspx">CoReleaseServerProcess</a>
+<a href="https://msdn.microsoft.com/b28d41e2-4144-413d-9963-14f2d4dc8876">CoReleaseServerProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688650(v=VS.85).aspx">CoRevokeClassObject</a>
+<a href="https://msdn.microsoft.com/90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec">CoRevokeClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679709(v=VS.85).aspx">Out-of-Process Server Implementation Helpers</a>
+<a href="https://msdn.microsoft.com/18641a84-56f8-4d27-9ddb-fa64011ac8ba">Out-of-Process Server Implementation Helpers</a>
  
 
  

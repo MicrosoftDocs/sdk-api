@@ -7,7 +7,7 @@ old-location: gdi\ptqueryschemaversionsupport.htm
 tech.root: printdocs
 ms.assetid: a3b5a92f-3a5b-4438-b788-91c9ac5a191f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: PTQuerySchemaVersionSupport, PTQuerySchemaVersionSupport function [Windows GDI], _win32_PTQuerySchemaVersionSupport, gdi.ptqueryschemaversionsupport, prntvpt/PTQuerySchemaVersionSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ A pointer to the highest version.
 
 If the operation succeeds, the return value is S_OK, otherwise the <b>HRESULT</b> contains an error code.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 
 

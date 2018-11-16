@@ -7,7 +7,7 @@ old-location: intl\scriptitemize.htm
 tech.root: Intl
 ms.assetid: 1491d9c5-e86b-45cc-bb47-85c8619eab69
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: ScriptItemize, ScriptItemize function [Internationalization for Windows Applications], _win32_ScriptItemize, intl.scriptitemize, usp10/ScriptItemize
 ms.prod: windows-hardware
 ms.technology: windows-devices

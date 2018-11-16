@@ -7,7 +7,7 @@ old-location: base\ivssadmin_unregisterprovider.htm
 tech.root: VSS
 ms.assetid: d31ed47f-6850-4f4b-aea2-5171722db7db
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssAdmin interface [VSS],UnregisterProvider method, IVssAdmin.UnregisterProvider, IVssAdmin::UnregisterProvider, UnregisterProvider, UnregisterProvider method [VSS], UnregisterProvider method [VSS],IVssAdmin interface, base.ivssadmin_unregisterprovider, vsadmin/IVssAdmin::UnregisterProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

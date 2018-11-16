@@ -4,10 +4,10 @@ title: IResultDataCompare
 author: windows-sdk-content
 description: Allows primary snap-ins to compare result items that are displayed in a sorted order in the result pane.
 old-location: mmc\iresultdatacompare.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 7a68713c-2de5-4944-a617-0b2d46c23eea
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IResultDataCompare, IResultDataCompare interface [MMC], IResultDataCompare interface [MMC],described, _slate_iresultdatacompare, mmc.iresultdatacompare, mmc/IResultDataCompare
 ms.prod: windows-hardware
 ms.technology: windows-devices

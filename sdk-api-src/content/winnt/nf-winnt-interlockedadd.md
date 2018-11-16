@@ -4,10 +4,10 @@ title: InterlockedAdd function
 author: windows-sdk-content
 description: Performs an atomic addition operation on the specified LONG values.
 old-location: base\interlockedadd.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: c3ff4c2f-ac84-4046-ac4e-600569b874be
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: InterlockedAdd, InterlockedAdd function, base.interlockedadd, winnt/InterlockedAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ The function returns the result of the operation.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/51s265a6(v=VS.85).aspx">_InterlockedAdd</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="3d319603-ea9c-4fdd-ae61-e52430ccc3b1">_InterlockedAdd</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

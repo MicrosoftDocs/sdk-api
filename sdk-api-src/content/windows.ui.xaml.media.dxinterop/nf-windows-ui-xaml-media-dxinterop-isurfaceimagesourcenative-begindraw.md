@@ -7,7 +7,7 @@ old-location: winrt\isurfaceimagesourcenative_begindraw.htm
 tech.root: WinRT
 ms.assetid: 9F08AF78-AD8B-4AFC-ABFF-7006873FA506
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: BeginDraw, BeginDraw method [Windows Runtime], BeginDraw method [Windows Runtime],ISurfaceImageSourceNative interface, ISurfaceImageSourceNative interface [Windows Runtime],BeginDraw method, ISurfaceImageSourceNative.BeginDraw, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::BeginDraw, ISurfaceImageSourceNative::xaml, windows/ISurfaceImageSourceNative::BeginDraw, winrt.isurfaceimagesourcenative_begindraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,19 +71,14 @@ Opens the supplied DXGI surface for drawing.
 The region of the surface that will be drawn into.
 
 
-### -param surface
+### -param surface [out]
 
-TBD
+Receives a pointer to the surface for drawing. 
 
 
 ### -param offset [out]
 
 Receives the point (x,y) offset of the surface that will be drawn into.
-
-
-#### - pSurface [out]
-
-Receives a pointer to the surface for drawing. 
 
 
 ## -returns
@@ -113,7 +108,7 @@ If the app window that contains the <a href="https://msdn.microsoft.com/fb58f405
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>
+<a href="https://msdn.microsoft.com/9210b966-9e9a-4cd1-ba70-6f1a9fda9d80">IDXGISurface</a>
 
 
 

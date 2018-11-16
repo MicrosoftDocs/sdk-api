@@ -7,7 +7,7 @@ old-location: multimedia\mmiosetinfo.htm
 tech.root: Multimedia
 ms.assetid: 3b46ebd6-15e0-4b16-b967-0271946390db
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_mmioSetInfo, mmioSetInfo, mmioSetInfo function [Windows Multimedia], mmsystem/mmioSetInfo, multimedia.mmiosetinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

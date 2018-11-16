@@ -7,7 +7,7 @@ old-location: wcs\gamutshell.htm
 tech.root: WCS
 ms.assetid: 1cec9fa3-4395-4047-a866-47c3bae9d875
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GamutShell, GamutShell structure [Windows Color System], _GamutShell, _color_GamutShell_str, wcs.gamutshell, wcsplugin/GamutShell
 ms.prod: windows-hardware
 ms.technology: windows-devices

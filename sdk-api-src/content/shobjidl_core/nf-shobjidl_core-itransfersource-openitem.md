@@ -7,7 +7,7 @@ old-location: shell\ITransferSource_OpenItem.htm
 tech.root: shell
 ms.assetid: 8f051923-2798-43e9-8e8d-95eec5f618aa
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ITransferSource interface [Windows Shell],OpenItem method, ITransferSource.OpenItem, ITransferSource::OpenItem, OpenItem, OpenItem method [Windows Shell], OpenItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_OpenItem, shell.ITransferSource_OpenItem, shobjidl_core/ITransferSource::OpenItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,9 +73,11 @@ Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc56
 A pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> to be opened.
 
 
-### -param flags
+### -param flags [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a></b>
+
+The flags that control the file operation. One or more of the <a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ### -param riid [out]
@@ -90,13 +92,6 @@ A reference to the IID (the interface ID or GUID) of the interface to return in 
 Type: <b>void**</b>
 
 When this method returns, contains the address of a pointer to the interface specified by <i>riid</i>.
-
-
-#### - dwFlags [in]
-
-Type: <b><a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a></b>
-
-The flags that control the file operation. One or more of the <a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ## -returns

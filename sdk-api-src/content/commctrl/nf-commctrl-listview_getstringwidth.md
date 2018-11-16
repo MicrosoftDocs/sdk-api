@@ -4,10 +4,10 @@ title: ListView_GetStringWidth macro
 author: windows-sdk-content
 description: Determines the width of a specified string using the specified list-view control's current font. You can use this macro or send the LVM_GETSTRINGWIDTH message explicitly.
 old-location: controls\ListView_GetStringWidth.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getstringwidth.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ListView_GetStringWidth, ListView_GetStringWidth macro [Windows Controls], _win32_ListView_GetStringWidth, _win32_ListView_GetStringWidth_cpp, commctrl/ListView_GetStringWidth, controls.ListView_GetStringWidth, controls._win32_ListView_GetStringWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Determines the width of a specified string using the specified list-view control's current font. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761073(v=VS.85).aspx">LVM_GETSTRINGWIDTH</a> message explicitly. 
+Determines the width of a specified string using the specified list-view control's current font. You can use this macro or send the <a href="https://msdn.microsoft.com/ffe97640-d4b6-45ae-be5d-71fed69c2026">LVM_GETSTRINGWIDTH</a> message explicitly. 
 
 
 ## -parameters
@@ -84,7 +84,7 @@ A pointer to a null-terminated string.
 
 
 
-The <b>ListView_GetStringWidth</b> macro returns the exact width, in pixels, of the specified string. If you use the returned string width as the column width in a call to the <a href="https://msdn.microsoft.com/en-us/library/Bb775074(v=VS.85).aspx">ListView_SetColumnWidth</a> macro, the string will be truncated. To retrieve the column width that can contain the string without truncating it, you must add padding to the returned string width. 
+The <b>ListView_GetStringWidth</b> macro returns the exact width, in pixels, of the specified string. If you use the returned string width as the column width in a call to the <a href="https://msdn.microsoft.com/0eb0c038-8f94-49d7-a783-23adef02b4c2">ListView_SetColumnWidth</a> macro, the string will be truncated. To retrieve the column width that can contain the string without truncating it, you must add padding to the returned string width. 
 
 
 

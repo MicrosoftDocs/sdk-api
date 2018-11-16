@@ -7,7 +7,7 @@ old-location: multimedia\defdriverproc.htm
 tech.root: Multimedia
 ms.assetid: 8401925b-d286-41bd-b57e-838b2f5b250d
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: DefDriverProc, DefDriverProc function [Windows Multimedia], DrvDefDriverProc, _win32_DefDriverProc, mmsystem/DefDriverProc, multimedia.defdriverproc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ Provides default processing for any messages not processed by an installable dri
 
 ### -param dwDriverIdentifier
 
-TBD
+Identifier of the installable driver.
 
 
 ### -param hdrvr
@@ -82,7 +82,7 @@ Handle of the installable driver instance.
 
 ### -param uMsg
 
-TBD
+Driver message value.
 
 
 ### -param lParam1
@@ -93,16 +93,6 @@ TBD
 ### -param lParam2
 
 32-bit message-dependent information.
-
-
-#### - dwDriverId
-
-Identifier of the installable driver.
-
-
-#### - msg
-
-Driver message value.
 
 
 ## -returns

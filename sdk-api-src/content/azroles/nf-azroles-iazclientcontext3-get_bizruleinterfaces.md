@@ -4,10 +4,10 @@ title: IAzClientContext3::get_BizRuleInterfaces
 author: windows-sdk-content
 description: Gets the collection of IDispatch interfaces that can be called by the business rule (BizRule) script associated with this client context.
 old-location: security\iazclientcontext3_bizruleinterfaces_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6cb1e53e-2e15-4f5f-9a8e-e9f988370cba
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: BizRuleInterfaces property [Security], BizRuleInterfaces property [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],BizRuleInterfaces property, IAzClientContext3.BizRuleInterfaces, IAzClientContext3.get_BizRuleInterfaces, IAzClientContext3::BizRuleInterfaces, IAzClientContext3::get_BizRuleInterfaces, azroles/IAzClientContext3::BizRuleInterfaces, azroles/IAzClientContext3::get_BizRuleInterfaces, get_BizRuleInterfaces, security.iazclientcontext3_bizruleinterfaces_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>IAzClientContext3::BizRuleInterfaces</b> method gets the collection of <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interfaces that can be called by the business rule (BizRule) script associated with this client context.
+The <b>IAzClientContext3::BizRuleInterfaces</b> method gets the collection of <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interfaces that can be called by the business rule (BizRule) script associated with this client context.
 
 This property is read-only.
 

@@ -7,7 +7,7 @@ old-location: dxmath\xmvector2inbounds.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2InBounds(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMVector2InBounds, XMVector2InBounds, XMVector2InBounds method [DirectX Math Support APIs], dxmath.xmvector2inbounds
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,14 +89,18 @@ Returns true if both the x and y-components of <i>V</i> are within the set bound
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-
-return (V.x <= Bounds.x && V.x >= -Bounds.x) &&
-       (V.y <= Bounds.y && V.y >= -Bounds.y);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+return (V.x &lt;= Bounds.x &amp;&amp; V.x &gt;= -Bounds.x) &amp;&amp;
+       (V.y &lt;= Bounds.y &amp;&amp; V.y &gt;= -Bounds.y);</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

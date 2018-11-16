@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_gettimeseekresult.htm
 tech.root: medfound
 ms.assetid: C7647460-8BAA-4480-A296-D83DFFBC5800
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTimeSeekResult method, IMFHttpDownloadRequest.GetTimeSeekResult, IMFHttpDownloadRequest::GetTimeSeekResult, mf.imfhttpdownloadrequest_gettimeseekresult, mfidl/IMFHttpDownloadRequest::GetTimeSeekResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,19 +73,15 @@ Invoked by Microsoft Media Foundation to retrieve the values of the TimeSeekRang
 
 The starting time offset, specified in units of one-hundred nanoseconds.
 
-The time duration of data contained in the response, specified in units of one-hundred nanoseconds. Set this parameter to 0 if the server did not specify a duration (i.e., specified “*” as the duration.)
-
 
 ### -param pqwStopTime [out]
 
 The end time offset, specified in units of one-hundred nanoseconds
 
 
-### -param pqwDuration
+### -param pqwDuration [out]
 
-TBD
-
-
+The time duration of data contained in the response, specified in units of one-hundred nanoseconds. Set this parameter to 0 if the server did not specify a duration (i.e., specified “*” as the duration.)
 
 
 ## -returns

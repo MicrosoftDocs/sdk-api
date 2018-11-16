@@ -7,7 +7,7 @@ old-location: enstor\ienhancedstoragesilo_sendcommand.htm
 tech.root: enstor
 ms.assetid: 8b52815e-e100-4c25-b7d3-8469d1dad745
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnhancedStorageSilo interface [Enhanced Storage],SendCommand method, IEnhancedStorageSilo.SendCommand, IEnhancedStorageSilo::SendCommand, SendCommand, SendCommand method [Enhanced Storage], SendCommand method [Enhanced Storage],IEnhancedStorageSilo interface, ehstorapi/IEnhancedStorageSilo::SendCommand, enstor.ienhancedstoragesilo_sendcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,9 @@ Sends a raw silo command to the silo object. This method is utilized to communic
 
 
 
-### -param Command
+### -param Command [in]
 
-TBD
+The silo command to be issued. 8 bits of this value are placed in the byte at position 3 of the CDB sent to the device; i.e. the second byte of the <b>SecurityProtocolSpecific</b> field.
 
 
 ### -param pbCommandBuffer [in]
@@ -89,11 +89,6 @@ The response payload that is returned to the host from the device in the receive
 ### -param pcbResponseBuffer [out]
 
 On method entry, contains the size of <i>pbResponseBuffer</i> in bytes. On method exit, it contains the count of bytes contained in the returned <i>pbResponse</i> buffer.
-
-
-#### - ulCommand [in]
-
-The silo command to be issued. 8 bits of this value are placed in the byte at position 3 of the CDB sent to the device; i.e. the second byte of the <b>SecurityProtocolSpecific</b> field.
 
 
 ## -returns

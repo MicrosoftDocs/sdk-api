@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandlerVisuals.htm
 tech.root: shell
 ms.assetid: 3e07af46-4271-472d-be80-70eccc26729c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IPreviewHandlerVisuals, IPreviewHandlerVisuals interface [Windows Shell], IPreviewHandlerVisuals interface [Windows Shell],described, _shell_IPreviewHandlerVisuals, shell.IPreviewHandlerVisuals, shobjidl_core/IPreviewHandlerVisuals
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrm\iwsmansession_get.htm
 tech.root: WinRM
 ms.assetid: f6393cfb-0787-4d30-8d02-be0996885f22
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: Get, Get method [Windows Remote Management], Get method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Get method, IWSManSession.Get, IWSManSession::Get, winrm.iwsmansession_get, wsmandisp/IWSManSession::Get
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves the resource specified by the  <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">URI</a> and returns an XML representation of the current instance of the resource.
+Retrieves the resource specified by the  <a href="windows_remote_management_glossary.htm">URI</a> and returns an XML representation of the current instance of the resource.
 
 
 ## -parameters
@@ -73,10 +73,10 @@ The identifier of the resource to be retrieved.
 This parameter can contain one of the following:
 
 <ul>
-<li>URI with or without  <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">selectors</a>. When calling the <a href="https://msdn.microsoft.com/873242fd-9da3-42f4-a18e-258fedba77ec">Get</a> method to obtain a WMI resource, use the key property or properties of the object.</li>
+<li>URI with or without  <a href="windows_remote_management_glossary.htm">selectors</a>. When calling the <a href="https://msdn.microsoft.com/873242fd-9da3-42f4-a18e-258fedba77ec">Get</a> method to obtain a WMI resource, use the key property or properties of the object.</li>
 <li>
-<a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41e9">ResourceLocator</a> object which may contain selectors,  <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">fragments</a>, or <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">options</a>.</li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84316">Management Specifications Index Page</a>.</li>
+<a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41e9">ResourceLocator</a> object which may contain selectors,  <a href="windows_remote_management_glossary.htm">fragments</a>, or <a href="windows_remote_management_glossary.htm">options</a>.</li>
+<li><a href="windows_remote_management_glossary.htm">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84316">Management Specifications Index Page</a>.</li>
 </ul>
 
 ### -param flags [in]

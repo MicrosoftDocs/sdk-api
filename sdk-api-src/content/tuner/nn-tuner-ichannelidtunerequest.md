@@ -4,10 +4,10 @@ title: IChannelIDTuneRequest
 author: windows-sdk-content
 description: Implements methods that support channel requests using a string identifier.
 old-location: mstv\ichannelidtunerequest.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4ff0e945-b0a3-4b9f-9511-5891b69c72df
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IChannelIDTuneRequest, IChannelIDTuneRequest interface [Microsoft TV Technologies], IChannelIDTuneRequest interface [Microsoft TV Technologies],described, mstv.ichannelidtunerequest, tuner/IChannelIDTuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

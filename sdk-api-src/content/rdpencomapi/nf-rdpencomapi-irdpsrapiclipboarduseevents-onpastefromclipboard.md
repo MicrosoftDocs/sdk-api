@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiclipboarduseevents_onpastefromclipboard.htm
 tech.root: Rdp
 ms.assetid: aa5fccb9-ca7b-4779-a454-f16be8bca72c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IRDPSRAPIClipboardUseEvents interface [RDP],OnPasteFromClipboard method, IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard, IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard, OnPasteFromClipboard, OnPasteFromClipboard method [RDP], OnPasteFromClipboard method [RDP],IRDPSRAPIClipboardUseEvents interface, rdp.irdpsrapiclipboarduseevents_onpastefromclipboard, rdpencomapi/IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ This callback is issued when an attempt to copy data from the sharer computer is
 
 ### -param clipboardFormat [in]
 
-A clipboard format identifier. For more information about clipboard formats, see <a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Clipboard Formats</a>. For a list of clipboard format identifiers, see <a href="https://msdn.microsoft.com/f0af4e61-7ef1-4263-b2c5-e4114515124f">Standard Clipboard Formats</a>.
+A clipboard format identifier. For more information about clipboard formats, see <a href="https://msdn.microsoft.com/fe42baec-6b00-4816-b379-7f335da8a197">Clipboard Formats</a>. For a list of clipboard format identifiers, see <a href="https://msdn.microsoft.com/f0af4e61-7ef1-4263-b2c5-e4114515124f">Standard Clipboard Formats</a>.
 
 
 ### -param pAttendee [in]

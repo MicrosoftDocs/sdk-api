@@ -4,10 +4,10 @@ title: IRequiredExtensions
 author: windows-sdk-content
 description: The IRequiredExtensions interface is introduced in MMC 1.1.
 old-location: mmc\irequiredextensions.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 55832db9-30d9-4a5f-bfef-a014b1050f22
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IRequiredExtensions, IRequiredExtensions interface [MMC], IRequiredExtensions interface [MMC],described, _slate_irequiredextensions, mmc.irequiredextensions, mmc/IRequiredExtensions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\immdeviceenumerator_unregisterendpointnotificationcallba
 tech.root: CoreAudio
 ms.assetid: dc1e85af-f399-469d-806a-a2d80b700b75
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IMMDeviceEnumerator interface [Core Audio],UnregisterEndpointNotificationCallback method, IMMDeviceEnumerator.UnregisterEndpointNotificationCallback, IMMDeviceEnumerator::UnregisterEndpointNotificationCallback, IMMDeviceEnumeratorUnregisterEndpointNotificationC, UnregisterEndpointNotificationCallback, UnregisterEndpointNotificationCallback method [Core Audio], UnregisterEndpointNotificationCallback method [Core Audio],IMMDeviceEnumerator interface, coreaudio.immdeviceenumerator_unregisterendpointnotificationcallback, mmdeviceapi/IMMDeviceEnumerator::UnregisterEndpointNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>UnregisterEndpointNotificationCallback</b> method deletes the registratio
 
 
 
-### -param pClient
-
-TBD
-
-
-
-
-#### - pNotify [in]
+### -param pClient [in]
 
 Pointer to the client's <a href="https://msdn.microsoft.com/76d3cd52-30bd-48b0-8adc-c23991a60d1b">IMMNotificationClient</a> interface. The client passed this same interface pointer to the device enumerator in a previous call to the <a href="https://msdn.microsoft.com/2c524f64-0b35-4433-9768-582dcb580a74">IMMDeviceEnumerator::RegisterEndpointNotificationCallback</a> method. For more information, see Remarks.
 

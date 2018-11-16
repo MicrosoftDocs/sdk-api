@@ -7,7 +7,7 @@ old-location: imapi\idiscmasterprogressevents_notifypreparingburn.htm
 tech.root: imapi
 ms.assetid: 28aced4e-6e7e-40fe-a00a-c0e470815cac
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyPreparingBurn method, IDiscMasterProgressEvents.NotifyPreparingBurn, IDiscMasterProgressEvents::NotifyPreparingBurn, NotifyPreparingBurn, NotifyPreparingBurn method [IMAPI], NotifyPreparingBurn method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifypreparingburn, base.idiscmasterprogressevents_notifypreparingburn, imapi.idiscmasterprogressevents_notifypreparingburn, imapi/IDiscMasterProgressEvents::NotifyPreparingBurn
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PFNRASSETCOMMSETTINGS
 author: windows-sdk-content
 description: Call RasSetCommSettings from a custom-scripting DLL to change the settings on the port for the connection.
 old-location: rras\rassetcommsettings.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 1df305b8-39b0-4426-b20a-62aa79240f67
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: PFNRASSETCOMMSETTINGS, PFNRASSETCOMMSETTINGS callback, RasSetCommSettings, RasSetCommSettings callback function [RAS], _ras_rassetcommsettings, ras/RasSetCommSettings, rras.rassetcommsettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

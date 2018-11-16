@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchadvanced_getupperbounditemid.htm
 tech.root: winsync
 ms.assetid: 4aa472b1-7dfb-4159-8f50-cc8e5de34dd3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetUpperBoundItemId, GetUpperBoundItemId method [Windows Sync], GetUpperBoundItemId method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetUpperBoundItemId method, ISyncChangeBatchAdvanced.GetUpperBoundItemId, ISyncChangeBatchAdvanced::GetUpperBoundItemId, winsync.isyncchangebatchadvanced_getupperbounditemid, winsync/ISyncChangeBatchAdvanced::GetUpperBoundItemId
 ms.prod: windows-hardware
 ms.technology: windows-devices

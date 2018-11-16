@@ -7,7 +7,7 @@ old-location: dns\dns_mx_data.htm
 tech.root: DNS
 ms.assetid: 72a0b42e-a7af-42d2-b672-cf06d0b5d1ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PDNS_MX_DATA, *PDNS_MX_DATAW, DNS_MX_DATA, DNS_MX_DATA structure [DNS], DNS_MX_DATAW, PDNS_MX_DATA, PDNS_MX_DATA structure pointer [DNS], _dns_dns_mx_data, dns.dns_mx_data, windns/DNS_MX_DATA, windns/PDNS_MX_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

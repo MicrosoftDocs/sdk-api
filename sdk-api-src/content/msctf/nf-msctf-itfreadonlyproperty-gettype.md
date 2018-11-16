@@ -7,7 +7,7 @@ old-location: tsf\itfreadonlyproperty_gettype.htm
 tech.root: TSF
 ms.assetid: a0c47d13-c290-4efe-ad73-6dcb654dc18f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GUID_TFCAT_PROPSTYLE_CUSTOM, GUID_TFCAT_PROPSTYLE_STATIC, GUID_TFCAT_PROPSTYLE_STATICCOMPACT, GetType, GetType method [Text Services Framework], GetType method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],GetType method, ITfReadOnlyProperty.GetType, ITfReadOnlyProperty::GetType, _tsf_itfreadonlyproperty_gettype_ref, msctf/ITfReadOnlyProperty::GetType, tsf.itfreadonlyproperty_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices

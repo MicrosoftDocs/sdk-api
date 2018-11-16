@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Offset_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectoffsetmethods\offset_55point.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Offset, Offset method [GDI+], Offset method [GDI+],Rect class, Rect class [GDI+],Offset method, Rect.Offset, Rect.Offset(IN const Point &), Rect.Offset(const Point&), Rect::Offset, Rect::Offset(IN const Point &), _gdiplus_CLASS_Rect_Offset_point_, gdiplus._gdiplus_CLASS_Rect_Offset_point_
 ms.prod: windows-hardware
 ms.technology: windows-devices

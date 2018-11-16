@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getint64array.htm
 tech.root: WinRT
 ms.assetid: 8bc05817-e9d4-427a-883d-495faf5d0ab0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetInt64Array, GetInt64Array method [Windows Runtime], GetInt64Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInt64Array method, IPropertyValue.GetInt64Array, IPropertyValue.IPropertyValue, IPropertyValue::GetInt64Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInt64Array, winrt.ipropertyvalue_getint64array
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Gets the array of signed 64-bit integer values that is stored in the current <a 
 
 
 
-### -param __valueSize
+### -param __valueSize [out]
 
-TBD
+Type: <b>UINT32*</b>
+
+The number of values in the array.
 
 
 ### -param value [out]
@@ -78,13 +80,6 @@ Type: <b>INT64**</b>
 The array of signed 64-bit integer values.
 
 The returned pointer must be freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
-
-
-#### - length [out]
-
-Type: <b>UINT32*</b>
-
-The number of values in the array.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: search\_search_ITEM_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\item_info.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: ITEM_INFO, ITEM_INFO structure [search], _ITEM_INFO, _search_ITEM_INFO, search._search_ITEM_INFO, searchapi/ITEM_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Contains information passed to the <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object about the current item; for example, the application name and catalog name.
+Contains information passed to the <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object about the current item; for example, the application name and catalog name.
 
 
 ## -struct-fields

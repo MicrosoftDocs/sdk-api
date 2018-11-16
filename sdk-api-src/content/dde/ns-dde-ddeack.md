@@ -7,7 +7,7 @@ old-location: dataxchg\ddeack.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddeack.htm
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: DDEACK, DDEACK structure [Data Exchange], _win32_DDEACK_str, _win32_ddeack_str_cpp, dataxchg.ddeack, dde/DDEACK, winui._win32_ddeack_str
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains status flags that a DDE application passes to its partner as part of the <a href="https://msdn.microsoft.com/en-us/library/ms648782(v=VS.85).aspx">WM_DDE_ACK</a> message. The flags provide details about the application's response to the messages <a href="https://msdn.microsoft.com/en-us/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a>, <a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a>, <a href="https://msdn.microsoft.com/en-us/library/ms648995(v=VS.85).aspx">WM_DDE_EXECUTE</a>, <a href="https://msdn.microsoft.com/en-us/library/ms648993(v=VS.85).aspx">WM_DDE_ADVISE</a>, <a href="https://msdn.microsoft.com/en-us/library/ms649002(v=VS.85).aspx">WM_DDE_UNADVISE</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms648998(v=VS.85).aspx">WM_DDE_REQUEST</a>. 
+Contains status flags that a DDE application passes to its partner as part of the <a href="https://msdn.microsoft.com/aca47dbf-e1f2-4725-8364-0aa7fcd98bd9">WM_DDE_ACK</a> message. The flags provide details about the application's response to the messages <a href="https://msdn.microsoft.com/ed6a65d3-b2a3-45f2-9600-291ce2ec8c0a">WM_DDE_DATA</a>, <a href="https://msdn.microsoft.com/848142b7-a7ef-4206-9bb3-b511388cfaaa">WM_DDE_POKE</a>, <a href="https://msdn.microsoft.com/23c18a57-83ee-4fd3-a5bc-71645bda34eb">WM_DDE_EXECUTE</a>, <a href="https://msdn.microsoft.com/b00db740-36a7-4487-abbf-d74b12f5212a">WM_DDE_ADVISE</a>, <a href="https://msdn.microsoft.com/9a5f9a86-e6fa-450e-b8bf-f20042c7e6d1">WM_DDE_UNADVISE</a>, and <a href="https://msdn.microsoft.com/922452d2-455c-43e1-a8a8-e3c52b0fab51">WM_DDE_REQUEST</a>. 
 
 
 ## -struct-fields
@@ -98,7 +98,7 @@ Indicates whether the application accepted the message from its partner. A nonze
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://msdn.microsoft.com/0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb">About Dynamic Data Exchange</a>
 
 
 
@@ -110,31 +110,31 @@ Indicates whether the application accepted the message from its partner. A nonze
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648782(v=VS.85).aspx">WM_DDE_ACK</a>
+<a href="https://msdn.microsoft.com/aca47dbf-e1f2-4725-8364-0aa7fcd98bd9">WM_DDE_ACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648993(v=VS.85).aspx">WM_DDE_ADVISE</a>
+<a href="https://msdn.microsoft.com/b00db740-36a7-4487-abbf-d74b12f5212a">WM_DDE_ADVISE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a>
+<a href="https://msdn.microsoft.com/ed6a65d3-b2a3-45f2-9600-291ce2ec8c0a">WM_DDE_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648995(v=VS.85).aspx">WM_DDE_EXECUTE</a>
+<a href="https://msdn.microsoft.com/23c18a57-83ee-4fd3-a5bc-71645bda34eb">WM_DDE_EXECUTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a>
+<a href="https://msdn.microsoft.com/848142b7-a7ef-4206-9bb3-b511388cfaaa">WM_DDE_POKE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648998(v=VS.85).aspx">WM_DDE_REQUEST</a>
+<a href="https://msdn.microsoft.com/922452d2-455c-43e1-a8a8-e3c52b0fab51">WM_DDE_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649002(v=VS.85).aspx">WM_DDE_UNADVISE</a>
+<a href="https://msdn.microsoft.com/9a5f9a86-e6fa-450e-b8bf-f20042c7e6d1">WM_DDE_UNADVISE</a>
  
 
  

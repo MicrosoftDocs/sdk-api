@@ -4,10 +4,10 @@ title: GetClusterFromResource function
 author: windows-sdk-content
 description: Returns a handle to the cluster associated with a resource.
 old-location: mscs\getclusterfromresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d0ba93cb-94aa-4c68-b87e-518ee1e5c35c
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetClusterFromResource, GetClusterFromResource function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_RESOURCE, PCLUSAPI_GET_CLUSTER_FROM_RESOURCE function [Failover Cluster], _wolf_getclusterfromresource, clusapi/GetClusterFromResource, clusapi/PCLUSAPI_GET_CLUSTER_FROM_RESOURCE, mscs.getclusterfromresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Returns a handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with a  <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a>. The <b>PCLUSAPI_GET_CLUSTER_FROM_RESOURCE</b> type defines a pointer to this function.
+Returns a handle to the <a href="c_gly.htm">cluster</a> associated with a  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The <b>PCLUSAPI_GET_CLUSTER_FROM_RESOURCE</b> type defines a pointer to this function.
 
 
 ## -parameters

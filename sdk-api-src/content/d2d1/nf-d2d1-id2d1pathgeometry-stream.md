@@ -4,10 +4,10 @@ title: ID2D1PathGeometry::Stream
 author: windows-sdk-content
 description: Copies the contents of the path geometry to the specified ID2D1GeometrySink.
 old-location: direct2d\ID2D1PathGeometry_Stream.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e128b4e7-8fde-44f1-a7a3-928aace0fe7f
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1PathGeometry interface [Direct2D],Stream method, ID2D1PathGeometry.Stream, ID2D1PathGeometry::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1PathGeometry interface, d2d1/ID2D1PathGeometry::Stream, direct2d.ID2D1PathGeometry_Stream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteBSTR.htm
 tech.root: properties
 ms.assetid: 9C2DBD1F-6760-4812-A33E-9A71C5A421A9
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: PSPropertyBag_WriteBSTR, PSPropertyBag_WriteBSTR function [Windows Properties], properties.PSPropertyBag_WriteBSTR, propsys/PSPropertyBag_WriteBSTR, shell.PSPropertyBag_WriteBSTR, shell_PSPropertyBag_WriteBSTR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,9 @@ Sets the <b>BSTR</b> value of a property in a property bag.
 
 ### -param propBag [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
+Type: <b><a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -80,7 +80,7 @@ A null-terminated property name string.
 
 ### -param value [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 The <b>BSTR</b> value to which the named property should be set.
 
@@ -110,7 +110,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee845051(v=VS.85).aspx">PSPropertyBag_ReadBSTR</a>
+<a href="shell.PSPropertyBag_ReadBSTR">PSPropertyBag_ReadBSTR</a>
  
 
  

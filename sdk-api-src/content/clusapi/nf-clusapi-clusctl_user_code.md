@@ -4,10 +4,10 @@ title: CLUSCTL_USER_CODE macro
 author: windows-sdk-content
 description: Generates a correctly formatted user-defined control code. For more information on the bit layout of control codes, see Control Code Architecture.
 old-location: mscs\clusctl_user_code.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b21a565a-df43-486c-a474-2dc6d2f45197
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: 0, 1, 2, CLUSCTL_USER_CODE, CLUSCTL_USER_CODE macro [Failover Cluster], _wolf_clusctl_user_code, clusapi/CLUSCTL_USER_CODE, mscs.clusctl_user_code
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.redist:
 
 Generates a correctly 
     formatted user-defined control code. For more information on the bit layout of control codes, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369308(v=VS.85).aspx">Control Code Architecture</a>.
+    <a href="https://msdn.microsoft.com/d107f743-8ce8-4c0c-b7a2-24a70ffbc0f3">Control Code Architecture</a>.
 
 
 ## -parameters
@@ -97,7 +97,7 @@ Use of the control code requires write access.
 
 An 8-bit value that specifies the object code (bits 24–31) of the resulting control 
       code. For more information on the bit layout of control codes, see 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa369308(v=VS.85).aspx">Control Code Architecture</a>. The 
+      <a href="https://msdn.microsoft.com/d107f743-8ce8-4c0c-b7a2-24a70ffbc0f3">Control Code Architecture</a>. The 
       object code can be set to any value greater than <b>CLUS_OBJECT_USER</b> (128).
 
 
@@ -115,7 +115,7 @@ If no access code is specified, the control code will default to
 #### Examples
 
 See the example under 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369324(v=VS.85).aspx">Creating Control Codes</a>.
+     <a href="https://msdn.microsoft.com/dc1191d0-9364-40a3-abca-c59aa9f5b3aa">Creating Control Codes</a>.
 
 <div class="code"></div>
 
@@ -126,15 +126,15 @@ See the example under
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367233(v=VS.85).aspx">CLUSCTL_GET_ACCESS_MODE</a>
+<a href="https://msdn.microsoft.com/75544022-6c6b-4a04-83cc-427307eaf3ea">CLUSCTL_GET_ACCESS_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367234(v=VS.85).aspx">CLUSCTL_GET_CONTROL_FUNCTION</a>
+<a href="https://msdn.microsoft.com/0f1abfdd-e6b2-42a8-8c77-54590e3b3a89">CLUSCTL_GET_CONTROL_FUNCTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367235(v=VS.85).aspx">CLUSCTL_GET_CONTROL_OBJECT</a>
+<a href="https://msdn.microsoft.com/b49c030e-fe7a-45cd-bbbf-0056763d827c">CLUSCTL_GET_CONTROL_OBJECT</a>
  
 
  

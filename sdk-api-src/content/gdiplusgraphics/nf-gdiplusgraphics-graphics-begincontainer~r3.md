@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_BeginContainer_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsbegincontainermethods\begincontainer.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: BeginContainer, BeginContainer method [GDI+], BeginContainer method [GDI+],Graphics class, Graphics class [GDI+],BeginContainer method, Graphics.BeginContainer, Graphics.BeginContainer(), Graphics.BeginContainer~r3, Graphics::BeginContainer, Graphics::BeginContainer~r3, _gdiplus_CLASS_Graphics_BeginContainer_, gdiplus._gdiplus_CLASS_Graphics_BeginContainer_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,9 +111,13 @@ For more information about graphics containers, see <a href="https://msdn.micros
 The following example sets a clipping region for a 
 						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and begins a graphics container. It then sets an additional clipping region for the container and draws rectangles that demonstrate the effective clipping region inside the container.
 
-
-```cpp
-VOID Example_BeginContainer(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_BeginContainer(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -128,23 +132,23 @@ VOID Example_BeginContainer(HDC hdc)
 
    // Fill a red rectangle in the container.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillRectangle(&redBrush, 0, 0, 400, 400);
+   graphics.FillRectangle(&amp;redBrush, 0, 0, 400, 400);
 
    // End the container, and fill the same rectangle with blue. 
    graphics.EndContainer(container);
    SolidBrush blueBrush(Color(128, 0, 0, 255));
-   graphics.FillRectangle(&blueBrush, 0, 0, 400, 400);
+   graphics.FillRectangle(&amp;blueBrush, 0, 0, 400, 400);
 
    // Set the clipping region to infinite, and draw the outlines 
    // of the two previous clipping regions.
    graphics.ResetClip();
    Pen blackPen(Color(255, 0, 0, 0), 2.0f);
-   graphics.DrawRectangle(&blackPen, 10, 10, 150, 150);
-   graphics.DrawRectangle(&blackPen, 100, 50, 100, 75);
-}
-```
-
-
+   graphics.DrawRectangle(&amp;blackPen, 10, 10, 150, 150);
+   graphics.DrawRectangle(&amp;blackPen, 100, 50, 100, 75);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

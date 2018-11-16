@@ -7,7 +7,7 @@ old-location: pla\ivaluemap_remove.htm
 tech.root: PLA
 ms.assetid: dc674243-ec0f-496f-bffb-faf4262a42c7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IValueMap interface [PLA],Remove method, IValueMap.Remove, IValueMap::Remove, Remove, Remove method [PLA], Remove method [PLA],IValueMap interface, base.ivaluemap_remove, pla.ivaluemap_remove, pla/IValueMap::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Removes an item from the collection.
 
 
 
-### -param value
-
-TBD
-
-
-
-
-#### - vValue [in]
+### -param value [in]
 
 The zero-based index of the item to remove from the collection. The variant type can be VT_I4, VT_UI4, or VT_DISPATCH.
 

@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingportmapping_reset.htm
 tech.root: ICS
 ms.assetid: 1d5045b9-a551-4ae5-bd8e-c80e88def237
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Reset method, IEnumNetSharingPortMapping.Reset, IEnumNetSharingPortMapping::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_reset, ics.ienumnetsharingportmapping_reset, netcon/IEnumNetSharingPortMapping::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

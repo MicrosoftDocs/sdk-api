@@ -7,7 +7,7 @@ old-location: wmformat\iwmreader_getoutputformatcount.htm
 tech.root: wmformat
 ms.assetid: 282c5fb6-6b8a-4a13-8a20-4926c6f68800
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetOutputFormatCount, GetOutputFormatCount method [windows Media Format], GetOutputFormatCount method [windows Media Format],IWMReader interface, IWMReader interface [windows Media Format],GetOutputFormatCount method, IWMReader.GetOutputFormatCount, IWMReader::GetOutputFormatCount, IWMReaderGetOutputFormatCount, wmformat.iwmreader_getoutputformatcount, wmsdkidl/IWMReader::GetOutputFormatCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-The number of formats that can be delivered on output is determined by the decoding codec. The Windows Media codecs can deliver media samples for a stream in a number of formats. For example, the Windows Media Video 9 codec can deliver samples as bitmapped images or as <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">YUV</a> images with varying properties to suit your needs.
+The number of formats that can be delivered on output is determined by the decoding codec. The Windows Media codecs can deliver media samples for a stream in a number of formats. For example, the Windows Media Video 9 codec can deliver samples as bitmapped images or as <a href="wmformat_glossary.htm">YUV</a> images with varying properties to suit your needs.
 
 Every compressed media type has a default output format determined by the codec. You can obtain the properties of the default output format by calling <a href="https://msdn.microsoft.com/8958abd0-cc2b-4d02-a831-c998d468fb06">IWMReader::GetOutputProps</a>.
 

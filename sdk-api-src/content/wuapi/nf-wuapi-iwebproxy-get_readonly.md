@@ -7,7 +7,7 @@ old-location: wua\iwebproxy_readonly.htm
 tech.root: Wua_Sdk
 ms.assetid: daa1a276-e03c-448c-8572-3bec9151bcb7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],ReadOnly property, IWebProxy.ReadOnly, IWebProxy.get_ReadOnly, IWebProxy::ReadOnly, IWebProxy::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IWebProxy interface, get_ReadOnly, wua.iwebproxy_readonly, wuapi/IWebProxy::ReadOnly, wuapi/IWebProxy::get_ReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices

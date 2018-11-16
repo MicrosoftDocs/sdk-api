@@ -4,10 +4,10 @@ title: ClusterEnumEx function
 author: windows-sdk-content
 description: Enumerates the objects in a cluster, and then gets the name and properties of the cluster object.
 old-location: mscs\clusterenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: F50FB801-8ACA-40BD-9E89-7E3AF2CA2DA5
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusterEnumEx, ClusterEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_ENUM_EX, PCLUSAPI_CLUSTER_ENUM_EX function [Failover Cluster], clusapi/ClusterEnumEx, clusapi/PCLUSAPI_CLUSTER_ENUM_EX, mscs.clusterenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,46 @@ On output, either the required size in bytes of the buffer if the buffer is too 
 
 
 
-This function returns DWORD.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>dwIndex</i>  parameter is larger than the number of items in the enumeration.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer is too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer was filled successfully.
+
+</td>
+</tr>
+</table>
+ 
 
 
 
@@ -100,11 +139,11 @@ This function returns DWORD.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn622910(v=VS.85).aspx">CLUSTER_ENUM_ITEM</a>
+<a href="https://msdn.microsoft.com/2E7FB4DA-88AD-4739-ACE0-D43670F914D4">CLUSTER_ENUM_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Function</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_processoutput.htm
 tech.root: stream
 ms.assetid: A99242D6-5225-493C-A5A8-CFDBB49D01A0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessOutput method, IMFDeviceTransform.ProcessOutput, IMFDeviceTransform::ProcessOutput, ProcessOutput, ProcessOutput method [Streaming Media Devices], ProcessOutput method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessOutput, stream.imfdevicetransform_processoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,19 +76,14 @@ Bitwise OR of zero or more flags from the <a href="https://msdn.microsoft.com/84
 Number of elements in the <i>pOutputSamples</i> array. The value must be at least 1.
 
 
-### -param pOutputSample
+### -param pOutputSample [in]
 
-TBD
+Pointer to an array of <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
 
 
 ### -param pdwStatus [in]
 
 Receives a bitwise OR of zero or more flags from the <a href="https://msdn.microsoft.com/80804b33-1dac-41f8-8446-8f929bf9b931">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
-
-
-#### - pOutputSamples [in]
-
-Pointer to an array of <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
 
 
 ## -returns

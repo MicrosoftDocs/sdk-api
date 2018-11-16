@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflectiontype_getmembertypebyindex.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectiontype_getmembertypebyindex.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 8810e0fb-89a1-3ea2-1b4c-0d0b52758cc8, GetMemberTypeByIndex, GetMemberTypeByIndex method [Direct3D 10], GetMemberTypeByIndex method [Direct3D 10],ID3D10ShaderReflectionType interface, ID3D10ShaderReflectionType interface [Direct3D 10],GetMemberTypeByIndex method, ID3D10ShaderReflectionType.GetMemberTypeByIndex, ID3D10ShaderReflectionType::GetMemberTypeByIndex, d3d10shader/ID3D10ShaderReflectionType::GetMemberTypeByIndex, direct3d10.id3d10shaderreflectiontype_getmembertypebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,9 +77,9 @@ Zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3a2d087d-0a66-459b-aace-f750fe3c96ba">ID3D10ShaderReflectionType</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/3a2d087d-0a66-459b-aace-f750fe3c96ba">ID3D10ShaderReflectionType Interface</a>.
 
 
 
@@ -89,7 +89,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType Interface</a>
+<a href="https://msdn.microsoft.com/3a2d087d-0a66-459b-aace-f750fe3c96ba">ID3D10ShaderReflectionType Interface</a>
  
 
  

@@ -4,10 +4,10 @@ title: RtmGetEnumDests function
 author: windows-sdk-content
 description: The RtmGetEnumDests function retrieves the next set of destinations in the specified enumeration.
 old-location: rras\rtmgetenumdests.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f793b54e-9591-4b9f-b109-8487013c7af5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: RtmGetEnumDests, RtmGetEnumDests function [RAS], _rtmv2ref_rtmgetenumdests, rras.rtmgetenumdests, rtmv2/RtmGetEnumDests
 ms.prod: windows-hardware
 ms.technology: windows-devices

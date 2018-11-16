@@ -7,7 +7,7 @@ old-location: gdi\arc.htm
 tech.root: gdi
 ms.assetid: c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Arc, Arc function [Windows GDI], _win32_Arc, gdi.arc, wingdi/Arc
 ms.prod: windows-hardware
 ms.technology: windows-devices

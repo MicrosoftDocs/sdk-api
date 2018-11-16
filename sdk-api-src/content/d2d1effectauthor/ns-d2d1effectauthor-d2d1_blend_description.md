@@ -4,10 +4,10 @@ title: D2D1_BLEND_DESCRIPTION
 author: windows-sdk-content
 description: Defines a blend description to be used in a particular blend transform.
 old-location: direct2d\d2d1_blend_description.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5f4c7248-9303-4451-92f1-4b230efd627a
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_BLEND_DESCRIPTION, D2D1_BLEND_DESCRIPTION structure [Direct2D], d2d1effectauthor/D2D1_BLEND_DESCRIPTION, direct2d.d2d1_blend_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ Parameters to the blend operations. The blend must use <b>D2D1_BLEND_BLEND_FACTO
 
 
 
-This description closely matches the <a href="https://msdn.microsoft.com/en-us/library/Ff476087(v=VS.85).aspx">D3D11_BLEND_DESC</a> struct with some omissions and the addition of the blend factor in the description.
+This description closely matches the <a href="https://msdn.microsoft.com/388f862c-58b0-48a8-a865-ba7568484ef5">D3D11_BLEND_DESC</a> struct with some omissions and the addition of the blend factor in the description.
 
 
 
@@ -108,11 +108,11 @@ This description closely matches the <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404276(v=VS.85).aspx">D2D1_BLEND</a>
+<a href="https://msdn.microsoft.com/9bc91efd-f695-4bc6-a63e-a3862cca91dd">D2D1_BLEND</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404278(v=VS.85).aspx">D2D1_BLEND_OPERATION</a>
+<a href="https://msdn.microsoft.com/54977cf3-cca3-4a1e-a039-1ee4a8d44686">D2D1_BLEND_OPERATION</a>
  
 
  

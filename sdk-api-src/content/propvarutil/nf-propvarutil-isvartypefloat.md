@@ -7,7 +7,7 @@ old-location: properties\IsVarTypeFloat.htm
 tech.root: properties
 ms.assetid: ff233e26-c02b-47ca-958b-a5282b280ecd
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IsVarTypeFloat, IsVarTypeFloat function [Windows Properties], _shell_IsVarTypeFloat, properties.IsVarTypeFloat, propvarutil/IsVarTypeFloat, shell.IsVarTypeFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Returns whether a <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a> is a float.
+Returns whether a <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a> is a float.
 
 
 ## -parameters
@@ -66,9 +66,9 @@ Returns whether a <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=V
 
 ### -param vt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a></b>
+Type: <b><a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a></b>
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a> being queried.
+Specifies the <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a> being queried.
 
 
 ## -returns
@@ -77,7 +77,7 @@ Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a> is a float.
+Returns <b>TRUE</b> if <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a> is a float.
 
 
 

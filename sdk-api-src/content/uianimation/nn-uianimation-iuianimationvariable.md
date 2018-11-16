@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable.htm
 tech.root: UIAnimation
 ms.assetid: 1632e62d-6e82-4841-8823-f6b60efc4298
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], IUIAnimationVariable interface [Windows Animation],described, uianimation.iuianimationvariable, uianimation/IUIAnimationVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices

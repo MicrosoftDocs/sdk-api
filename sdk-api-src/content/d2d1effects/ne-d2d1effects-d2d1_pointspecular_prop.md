@@ -4,10 +4,10 @@ title: D2D1_POINTSPECULAR_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Point-specular lighting effect.
 old-location: direct2d\d2d1_pointspecular_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5026F106-F5AA-4D03-BEFE-F1E8E880EF44
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_POINTSPECULAR_PROP, D2D1_POINTSPECULAR_PROP enumeration [Direct2D], D2D1_POINTSPECULAR_PROP_COLOR, D2D1_POINTSPECULAR_PROP_KERNEL_UNIT_LENGTH, D2D1_POINTSPECULAR_PROP_LIGHT_POSITION, D2D1_POINTSPECULAR_PROP_SCALE_MODE, D2D1_POINTSPECULAR_PROP_SPECULAR_CONSTANT, D2D1_POINTSPECULAR_PROP_SPECULAR_EXPONENT, D2D1_POINTSPECULAR_PROP_SURFACE_SCALE, d2d1effects/D2D1_POINTSPECULAR_PROP, d2d1effects/D2D1_POINTSPECULAR_PROP_COLOR, d2d1effects/D2D1_POINTSPECULAR_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_POINTSPECULAR_PROP_LIGHT_POSITION, d2d1effects/D2D1_POINTSPECULAR_PROP_SCALE_MODE, d2d1effects/D2D1_POINTSPECULAR_PROP_SPECULAR_CONSTANT, d2d1effects/D2D1_POINTSPECULAR_PROP_SPECULAR_EXPONENT, d2d1effects/D2D1_POINTSPECULAR_PROP_SURFACE_SCALE, direct2d.d2d1_pointspecular_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706368(v=VS.85).aspx">Point-specular lighting effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/89E22FD0-BB7F-465F-A79C-056CA9F14F5D">Point-specular lighting effect</a>.
         
 
 
@@ -126,7 +126,7 @@ The default value is {1.0f, 1.0f}.
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934258(v=VS.85).aspx">D2D1_POINTSPECULAR_SCALE_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/8583C25C-DB30-42FC-B158-2479110647FD">D2D1_POINTSPECULAR_SCALE_MODE</a>.
 
 The default value is D2D1_POINTSPECULAR_SCALE_MODE_LINEAR.
 

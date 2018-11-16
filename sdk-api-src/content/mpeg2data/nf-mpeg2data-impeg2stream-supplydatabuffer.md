@@ -4,10 +4,10 @@ title: IMpeg2Stream::SupplyDataBuffer
 author: windows-sdk-content
 description: The SupplyDataBuffer method provides a buffer for the Mpeg2Stream object to write data.
 old-location: mstv\impeg2stream_supplydatabuffer.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 68950eba-6c23-49f7-9651-d4db9e554de3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMpeg2Stream interface [Microsoft TV Technologies],SupplyDataBuffer method, IMpeg2Stream.SupplyDataBuffer, IMpeg2Stream::SupplyDataBuffer, IMpeg2StreamSupplyDataBuffer, SupplyDataBuffer, SupplyDataBuffer method [Microsoft TV Technologies], SupplyDataBuffer method [Microsoft TV Technologies],IMpeg2Stream interface, mpeg2data/IMpeg2Stream::SupplyDataBuffer, mstv.impeg2stream_supplydatabuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: D2D1_VERTEX_USAGE
 author: windows-sdk-content
 description: Indicates whether the vertex buffer changes infrequently or frequently.
 old-location: direct2d\d2d1_vertex_usage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ff122e0d-5f0e-4a61-bead-53bea6f1648f
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_VERTEX_USAGE, D2D1_VERTEX_USAGE enumeration [Direct2D], D2D1_VERTEX_USAGE_DYNAMIC, D2D1_VERTEX_USAGE_STATIC, d2d1effectauthor/D2D1_VERTEX_USAGE, d2d1effectauthor/D2D1_VERTEX_USAGE_DYNAMIC, d2d1effectauthor/D2D1_VERTEX_USAGE_STATIC, direct2d.d2d1_vertex_usage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ If a dynamic vertex buffer is created, Direct2D will not necessarily map the buf
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404277(v=VS.85).aspx">D2D1_BLEND_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/5f4c7248-9303-4451-92f1-4b230efd627a">D2D1_BLEND_DESCRIPTION</a>
 
 
 

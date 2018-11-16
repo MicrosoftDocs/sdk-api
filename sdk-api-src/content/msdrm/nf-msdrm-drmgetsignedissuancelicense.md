@@ -99,7 +99,7 @@ Specifies an online issuance license signing request from an Active Directory Ri
 
 #### DRM_SIGN_OFFLINE
 
-Specifies an offline issuance license signing request. When signing offline, the issuance license is signed by using the <a href="https://msdn.microsoft.com/en-us/library/Aa362374(v=VS.85).aspx">client licensor certificate</a> (CLC) obtained during a previous call to <a href="https://msdn.microsoft.com/0d4ce794-8384-4f1c-bc8c-1e67fbb5f987">DRMAcquireLicense</a>. To get this certificate from the store, use <a href="https://msdn.microsoft.com/7a7797f2-d219-4a17-ac3d-96134cd14a55">DRMEnumerateLicense</a>. Each CLC is tied to the server that issued it; be sure that you are using the correct client licensor certificate for the issuance license you are publishing.
+Specifies an offline issuance license signing request. When signing offline, the issuance license is signed by using the <a href="c_gly.htm">client licensor certificate</a> (CLC) obtained during a previous call to <a href="https://msdn.microsoft.com/0d4ce794-8384-4f1c-bc8c-1e67fbb5f987">DRMAcquireLicense</a>. To get this certificate from the store, use <a href="https://msdn.microsoft.com/7a7797f2-d219-4a17-ac3d-96134cd14a55">DRMEnumerateLicense</a>. Each CLC is tied to the server that issued it; be sure that you are using the correct client licensor certificate for the issuance license you are publishing.
 
 This flag cannot be combined with the <b>DRM_SIGN_ONLINE</b> or <b>DRM_SERVER_ISSUANCELICENSE</b> flags.
 

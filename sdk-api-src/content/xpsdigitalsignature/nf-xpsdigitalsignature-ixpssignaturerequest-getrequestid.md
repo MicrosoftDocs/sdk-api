@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest_getrequestid.htm
 tech.root: printdocs
 ms.assetid: abca5fdf-258b-4ce8-8b29-eae9a6d17cd7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetRequestId, GetRequestId method [XPS Documents and Packaging], GetRequestId method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestId method, IXpsSignatureRequest.GetRequestId, IXpsSignatureRequest::GetRequestId, xps.ixpssignaturerequest_getrequestid, xpsdigitalsignature/IXpsSignatureRequest::GetRequestId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,7 +125,7 @@ The method succeeded.
 
 
 
-This method allocates the memory used by the string that is returned in <i>requestId</i>.  If <i>requestId</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>requestId</i>.  If <i>requestId</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
  The <i>requestId</i> parameter receives the value of the <b>SpotID</b> attribute  of the <b>SignatureDefinition</b> element. The <b>SpotID</b> attribute  is required and should follow the xs:ID (XML ID) format; however, 
     existing SignatureDefinitions parts are not checked for adherence to the recommended format. Some XPS documents that were produced by Windows Presentation Foundation (WPF) applications may have an ID that starts with a digit.

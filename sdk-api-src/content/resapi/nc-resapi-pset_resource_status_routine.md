@@ -4,10 +4,10 @@ title: PSET_RESOURCE_STATUS_ROUTINE
 author: windows-sdk-content
 description: Called to update the status of a resource.
 old-location: mscs\setresourcestatus.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8ddb4578-f8c4-462e-af04-8c537d585e8b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PSET_RESOURCE_STATUS_ROUTINE, PSET_RESOURCE_STATUS_ROUTINE callback function [Failover Cluster], SetResourceStatus, SetResourceStatus callback, SetResourceStatus callback function [Failover Cluster], _wolf_setresourcestatus, mscs.setresourcestatus, resapi/PSET_RESOURCE_STATUS_ROUTINE, resapi/SetResourceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,6 +79,43 @@ Pointer to a <a href="https://msdn.microsoft.com/a5acd51f-714f-481b-85e2-ac82b76
 <i>SetResourceStatus</i> returns one of 
        the following values enumerated from the 
        <a href="https://msdn.microsoft.com/d1b9fd8f-7d49-4396-8f0c-6db8fad5749e">RESOURCE_EXIT_STATE</a> enumeration.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ResourceExitStateContinue</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The resource has not been terminated. Worker threads may continue 
+         <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> and 
+         <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> operations for the resource.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ResourceExitStateTerminate</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The resource has been terminated. Callers should end 
+         <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> or 
+         <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> operations and immediately terminate all worker 
+         threads assigned to the resource.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

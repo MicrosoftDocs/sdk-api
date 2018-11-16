@@ -4,10 +4,10 @@ title: ldap_value_free_len function
 author: windows-sdk-content
 description: The ldap_value_free_len frees berval structures that were returned by ldap_get_values_len.
 old-location: ldap\ldap_value_free_len.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: bae95e09-bb3b-4fb3-887f-3cff0a0e6c22
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "_ldap_ldap_value_free_len, ldap.ldap__value__free__len, ldap.ldap_value_free_len, ldap_value_free_len, ldap_value_free_len function [LDAP], winldap/ldap_value_free_len"
 ms.prod: windows-hardware
 ms.technology: windows-devices

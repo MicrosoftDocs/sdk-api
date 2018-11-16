@@ -4,10 +4,10 @@ title: GetClusterNotifyV2 function
 author: windows-sdk-content
 description: Retrieves information about the next notification event for a notification port.
 old-location: mscs\getclusternotifyv2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0AF127E1-D517-4F4B-B797-40822B3B236F
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetClusterNotifyV2, GetClusterNotifyV2 function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NOTIFY_V2, PCLUSAPI_GET_CLUSTER_NOTIFY_V2 function [Failover Cluster], clusapi/GetClusterNotifyV2, clusapi/PCLUSAPI_GET_CLUSTER_NOTIFY_V2, mscs.getclusternotifyv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ A pointer to the notification key for the notification port.
 
 ### -param pFilterAndType [in, out, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn622942(v=VS.85).aspx">NOTIFY_FILTER_AND_TYPE</a> 
+A  pointer to a <a href="https://msdn.microsoft.com/E173F5D8-955B-44FF-980E-CEF536A87AF5">NOTIFY_FILTER_AND_TYPE</a> 
       structure that describes the next notification event for the notification port.
 
 
@@ -161,7 +161,54 @@ A time-out value that specifies how long the caller is willing to wait for the n
 if the operation succeeds,  this function returns  <b>ERROR_SUCCESS</b>.
 
 If the operation fails, this function returns one of the following 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+The handle that is represented in the <i>hChange</i> parameter is invalid or has been 
+         closed by another thread.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WAIT_TIMEOUT</b></dt>
+<dt>258 (0x102)</dt>
+</dl>
+</td>
+<td width="60%">
+The call timed out before the notification could be successfully returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234 (0xEA)</dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by the  <i>lpszName</i>  parameter is not big enough to hold the 
+         result. The <i>lpcchName</i> parameter returns the number of characters in the result, 
+         excluding the terminating null character.
+
+</td>
+</tr>
+</table>
+ 
 
 
 
@@ -171,7 +218,7 @@ If the operation fails, this function returns one of the following
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Function</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
  
 
  

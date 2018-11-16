@@ -4,10 +4,10 @@ title: SCardGetReaderIconA function
 author: windows-sdk-content
 description: Gets an icon of the smart card reader for a given reader's name.
 old-location: security\scardgetreadericon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: A83B5AF3-BF2C-42AE-9D34-3B651D7AF047
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: SCardGetReaderIcon, SCardGetReaderIcon function [Security], SCardGetReaderIconA, SCardGetReaderIconW, security.scardgetreadericon, winscard/SCardGetReaderIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,7 +114,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

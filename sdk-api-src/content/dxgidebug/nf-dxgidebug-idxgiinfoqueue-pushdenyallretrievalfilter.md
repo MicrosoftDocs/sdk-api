@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_pushdenyallretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 104C5BAD-D1FF-47EC-A1FA-C4B32EA4DFB6
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushDenyAllRetrievalFilter method, IDXGIInfoQueue.PushDenyAllRetrievalFilter, IDXGIInfoQueue::PushDenyAllRetrievalFilter, PushDenyAllRetrievalFilter, PushDenyAllRetrievalFilter method [DXGI], PushDenyAllRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushdenyallretrievalfilter, dxgidebug/IDXGIInfoQueue::PushDenyAllRetrievalFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ Pushes a deny-all retrieval filter onto the retrieval-filter stack.
 
 
 
-Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 

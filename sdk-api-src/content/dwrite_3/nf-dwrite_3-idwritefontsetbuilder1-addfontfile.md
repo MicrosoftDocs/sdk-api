@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontsetbuilder1_addfontfile.htm
 tech.root: DirectWrite
 ms.assetid: 3858EF37-F545-4C2E-BC3D-E4732B49911C
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AddFontFile, AddFontFile method [Direct Write], AddFontFile method [Direct Write],IDWriteFontSetBuilder1 interface, IDWriteFontSetBuilder1 interface [Direct Write],AddFontFile method, IDWriteFontSetBuilder1.AddFontFile, IDWriteFontSetBuilder1::AddFontFile, directwrite.idwritefontsetbuilder1_addfontfile, dwrite_3/IDWriteFontSetBuilder1::AddFontFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

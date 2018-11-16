@@ -4,10 +4,10 @@ title: IDTFilter3
 author: windows-sdk-content
 description: The IDTFilter3 interface extends the IDTFilter2 interface and is exposed by the Decrypter/Detagger filter.
 old-location: mstv\idtfilter3.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 88e42006-c387-41b5-a013-e968da0d918b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDTFilter3, IDTFilter3 interface [Microsoft TV Technologies], IDTFilter3 interface [Microsoft TV Technologies],described, IDTFilter3Interface, encdec/IDTFilter3, mstv.idtfilter3
 ms.prod: windows-hardware
 ms.technology: windows-devices

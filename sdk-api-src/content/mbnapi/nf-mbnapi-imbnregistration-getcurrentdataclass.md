@@ -7,7 +7,7 @@ old-location: mbn\imbnregistration_getcurrentdataclass.htm
 tech.root: mbn
 ms.assetid: 365458a4-74df-4283-94db-3d855acadffe
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetCurrentDataClass, GetCurrentDataClass method [Microsoft Broadband Networks], GetCurrentDataClass method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetCurrentDataClass method, IMbnRegistration.GetCurrentDataClass, IMbnRegistration::GetCurrentDataClass, mbn.imbnregistration_getcurrentdataclass, mbnapi/IMbnRegistration::GetCurrentDataClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_setselectedforrestore.htm
 tech.root: VSS
 ms.assetid: 8f8051d3-b1b6-418b-8a53-0ddc82a20bb3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetSelectedForRestore method, IVssBackupComponents.SetSelectedForRestore, IVssBackupComponents::SetSelectedForRestore, SetSelectedForRestore, SetSelectedForRestore method [VSS], SetSelectedForRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setselectedforrestore, base.ivssbackupcomponents_setselectedforrestore, vsbackup/IVssBackupComponents::SetSelectedForRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,9 +73,10 @@ The <b>SetSelectedForRestore</b>
 Writer identifier.
 
 
-### -param ct
+### -param ct [in]
 
-TBD
+Type of the component. See <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> 
+      for the possible values.
 
 
 ### -param wszLogicalPath [in]
@@ -105,12 +106,6 @@ The string cannot be <b>NULL</b> and should contain the same component name as w
 
 If the value of this parameter is <b>true</b>, the selected component has been selected for restoration. If the 
      value is <b>false</b>, the selected component has not been selected for restoration.
-
-
-#### - componentType [in]
-
-Type of the component. See <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> 
-      for the possible values.
 
 
 ## -returns

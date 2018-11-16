@@ -7,7 +7,7 @@ old-location: stg\istorage_copyto.htm
 tech.root: Stg
 ms.assetid: 8b25b32b-f739-406a-96e8-dba687c7f055
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CopyTo, CopyTo method [Structured Storage], CopyTo method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CopyTo method, IStorage.CopyTo, IStorage::CopyTo, _stg_istorage_copyto, objidl/IStorage::CopyTo, stg.istorage_copyto
 ms.prod: windows-hardware
 ms.technology: windows-devices

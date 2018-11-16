@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11functionparameterreflection.htm
 tech.root: direct3d11
 ms.assetid: EFF60EF7-C060-4148-916C-D971B65561F5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11FunctionParameterReflection, ID3D11FunctionParameterReflection interface [Direct3D 11], ID3D11FunctionParameterReflection interface [Direct3D 11],described, d3d11shader/ID3D11FunctionParameterReflection, direct3d11.id3d11functionparameterreflection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ A function-parameter-reflection interface accesses function-parameter info. <div
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11FunctionParameterReflection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D11FunctionParameterReflection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11FunctionParameterReflection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11FunctionParameterReflection</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>ID3D11FunctionParameterReflection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280545(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/54755DEE-B865-4C9C-A38F-52749037DBBF">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Fills the parameter descriptor structure for the function's parameter.
@@ -87,7 +87,7 @@ Fills the parameter descriptor structure for the function's parameter.
 
 
 
-To get a function-parameter-reflection interface, call <a href="https://msdn.microsoft.com/en-us/library/Dn280550(v=VS.85).aspx">ID3D11FunctionReflection::GetFunctionParameter</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+To get a function-parameter-reflection interface, call <a href="https://msdn.microsoft.com/DA2A3226-7204-4722-BCA0-74B38793A319">ID3D11FunctionReflection::GetFunctionParameter</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
 
 <div class="alert"><b>Note</b>  <b>ID3D11FunctionParameterReflection</b> requires the D3dcompiler_47.dll or a later version of the DLL. </div>
 <div> </div>
@@ -99,7 +99,7 @@ To get a function-parameter-reflection interface, call <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476161(v=VS.85).aspx">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dshow\iammediastream_initialize.htm
 tech.root: DirectShow
 ms.assetid: b695100b-75a4-4107-828c-e0067290d972
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IAMMediaStream interface [DirectShow],Initialize method, IAMMediaStream.Initialize, IAMMediaStream::Initialize, IAMMediaStreamInitialize, Initialize, Initialize method [DirectShow], Initialize method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::Initialize, dshow.iammediastream_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,20 +106,15 @@ Value that modifies the media stream's behavior; it is a combination of one or m
  
 
 
-### -param PurposeId
+### -param PurposeId [in]
 
-TBD
+Purpose ID for the new media stream.
 
 
 ### -param StreamType [in]
 
 
 <a href="https://msdn.microsoft.com/07ab5ded-28b8-4cac-b4da-76f07ad351ef">STREAM_TYPE</a> enumeration value that specifies the new media stream's media type.
-
-
-#### - PurposeID [in]
-
-Purpose ID for the new media stream.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__SendChildren.htm
 tech.root: shell
 ms.assetid: 159516ce-1731-478a-8d84-85d0001f9c63
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_SendChildren method, IBrowserService2._SendChildren, IBrowserService2::_SendChildren, _SendChildren, _SendChildren method [Windows Shell], _SendChildren method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_SendChildren, shell.IBrowserService2__SendChildren, zone_IBrowserService2__SendChildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function directly instead of relying on the base class.
+Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function directly instead of relying on the base class.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ A handle to the browser window whose window procedure receives the message.
 
 Type: <b>BOOL</b>
 
-The <b>BOOL</b> that indicates whether to allow the derived class to broadcast the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function. <b>TRUE</b> to allow broadcasting; <b>FALSE</b> otherwise.
+The <b>BOOL</b> that indicates whether to allow the derived class to broadcast the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function. <b>TRUE</b> to allow broadcasting; <b>FALSE</b> otherwise.
         
 
 

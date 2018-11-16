@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_texture_layout.htm
 tech.root: direct3d11
 ms.assetid: E7786550-99FC-4F8E-B93F-C2877C052EC2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_TEXTURE_LAYOUT, D3D11_TEXTURE_LAYOUT enumeration [Direct3D 11], D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE, D3D11_TEXTURE_LAYOUT_ROW_MAJOR, D3D11_TEXTURE_LAYOUT_UNDEFINED, d3d11_3/D3D11_TEXTURE_LAYOUT, d3d11_3/D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE, d3d11_3/D3D11_TEXTURE_LAYOUT_ROW_MAJOR, d3d11_3/D3D11_TEXTURE_LAYOUT_UNDEFINED, direct3d11.d3d11_texture_layout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,11 +77,11 @@ A default texture uses the standardized swizzle pattern.
 
 
 
-This enumeration controls the swizzle pattern of default textures and enable map support on default textures.  Callers must query <a href="https://msdn.microsoft.com/en-us/library/Dn879499(v=VS.85).aspx">D3D11_FEATURE_DATA_D3D11_OPTIONS2</a> to ensure that each option is supported.
+This enumeration controls the swizzle pattern of default textures and enable map support on default textures.  Callers must query <a href="https://msdn.microsoft.com/D0CD9245-D8BC-48E5-A69B-0DB9B87E56A4">D3D11_FEATURE_DATA_D3D11_OPTIONS2</a> to ensure that each option is supported.
 
 The standard swizzle formats applies within each page-sized chunk, and pages are laid out in linear order with respect to one another.  A 16-bit interleave pattern defines the conversion from pre-swizzled intra-page location to the post-swizzled location.  
 
-<img alt="Standard swizzle patterns" src="./images/d3d11_standardswizzle.png"/>
+<img alt="Standard swizzle patterns" src="images/d3d11_standardswizzle.png"/>
 To demonstrate, consider the 32bpp swizzle format above.  This is represented by the following interleave masks, where bits on the left are most-significant.
 
 <pre class="syntax" xml:space="preserve"><code>UINT xBytesMask = 1010 1010 1000 1111
@@ -101,7 +101,7 @@ To compute the swizzled address, the following code could be used (where the _pd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476170(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: ics\inetsharingeveryconnectioncollection_get__newenum.htm
 tech.root: ICS
 ms.assetid: 56d2877b-8e94-4e9a-8d84-5a0263ef825d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetSharingEveryConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingEveryConnectionCollection.get__NewEnum, INetSharingEveryConnectionCollection::get__NewEnum, _ics_inetsharingeveryconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingEveryConnectionCollection interface, ics.inetsharingeveryconnectioncollection_get__newenum, netcon/INetSharingEveryConnectionCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The
 
 ### -param pVal [out]
 
-Pointer to an interface pointer that, on successful return, receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the collection.
+Pointer to an interface pointer that, on successful return, receives a pointer to an <a href="_com_iunknown">IUnknown</a> interface for the collection.
 
 
 ## -returns

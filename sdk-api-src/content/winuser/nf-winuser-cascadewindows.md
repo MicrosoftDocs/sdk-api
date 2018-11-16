@@ -7,7 +7,7 @@ old-location: winmsg\cascadewindows.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\cascadewindows.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: CascadeWindows, CascadeWindows function [Windows and Messages], MDITILE_SKIPDISABLED, MDITILE_ZORDER, _win32_CascadeWindows, _win32_cascadewindows_cpp, winmsg.cascadewindows, winui._win32_cascadewindows, winuser/CascadeWindows
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -148,7 +148,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-By default, <b>CascadeWindows</b> arranges the windows in the order provided by the <i>lpKids</i> array, but preserves the <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Z-Order</a>. If you specify the <b>MDITILE_ZORDER</b> flag, <b>CascadeWindows</b> arranges the windows in Z order. 
+By default, <b>CascadeWindows</b> arranges the windows in the order provided by the <i>lpKids</i> array, but preserves the <a href="window_features.htm">Z-Order</a>. If you specify the <b>MDITILE_ZORDER</b> flag, <b>CascadeWindows</b> arranges the windows in Z order. 
 
 Calling <b>CascadeWindows</b> causes all maximized windows to be restored to their previous size. 
 
@@ -160,7 +160,7 @@ Calling <b>CascadeWindows</b> causes all maximized windows to be restored to the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows Overview</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows Overview</a>
  
 
  

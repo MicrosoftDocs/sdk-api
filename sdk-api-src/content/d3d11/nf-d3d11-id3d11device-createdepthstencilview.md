@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createdepthstencilview.htm
 tech.root: direct3d11
 ms.assetid: b3e899eb-3df6-421f-bdc8-98d7c7acbe62
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateDepthStencilView, CreateDepthStencilView method [Direct3D 11], CreateDepthStencilView method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateDepthStencilView method, ID3D11Device.CreateDepthStencilView, ID3D11Device::CreateDepthStencilView, d3d11/ID3D11Device::CreateDepthStencilView, direct3d11.id3d11device_createdepthstencilview, e1e786e8-1374-b092-ac91-06c2482f6166
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ Address of a pointer to an <a href="https://msdn.microsoft.com/10be1fd1-8700-4c0
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
@@ -103,7 +103,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/c08
 
 
 
-A depth-stencil view can be bound to the output-merger stage by calling <a href="https://msdn.microsoft.com/en-us/library/Ff476464(v=VS.85).aspx">ID3D11DeviceContext::OMSetRenderTargets</a>.
+A depth-stencil view can be bound to the output-merger stage by calling <a href="https://msdn.microsoft.com/65514812-7433-4c13-a6cb-53980dacdf65">ID3D11DeviceContext::OMSetRenderTargets</a>.
 
 
 
@@ -113,7 +113,7 @@ A depth-stencil view can be bound to the output-merger stage by calling <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
  
 
  

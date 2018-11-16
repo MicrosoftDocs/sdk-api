@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentry_date.htm
 tech.root: Wua_Sdk
 ms.assetid: 9ae4d1ae-5d6f-42a9-88ef-c1a0cdef5e5d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: Date property [Windows Update Agent], Date property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],Date property, IUpdateHistoryEntry.Date, IUpdateHistoryEntry.get_Date, IUpdateHistoryEntry::Date, IUpdateHistoryEntry::get_Date, get_Date, wua.iupdatehistoryentry_date, wuapi/IUpdateHistoryEntry::Date, wuapi/IUpdateHistoryEntry::get_Date
 ms.prod: windows-hardware
 ms.technology: windows-devices

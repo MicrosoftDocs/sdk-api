@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItem_DeviceCommand.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\devicecommand.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DeviceCommand, DeviceCommand method [WIA], DeviceCommand method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeviceCommand method, IWiaItem.DeviceCommand, IWiaItem::DeviceCommand, _wia_IWiaItem_DeviceCommand, wia._wia_IWiaItem_DeviceCommand, wia_xp/IWiaItem::DeviceCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,12 +77,12 @@ Currently unused. Should be set to zero.
 
 Type: <b>const GUID*</b>
 
-Specifies a unique identifier that specifies the command to send to the WIA hardware device. For a list of valid device commands, see <a href="https://msdn.microsoft.com/en-us/library/ms630185(v=VS.85).aspx">WIA Device Commands</a>.
+Specifies a unique identifier that specifies the command to send to the WIA hardware device. For a list of valid device commands, see <a href="https://msdn.microsoft.com/f86a0944-2f2a-467e-a9e8-4cdecfc50175">WIA Device Commands</a>.
 
 
 ### -param pIWiaItem [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a>**</b>
 
 On output, this pointer points to the item created by the command, if any.
 
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Applications use this method to send WIA commands to hardware devices. 
 
-When the application sends the WIA_CMD_TAKE_PICTURE command to the device, <b>IWiaItem::DeviceCommand</b>, the WIA run-time system creates the <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> object to represent the image. The <b>IWiaItem::DeviceCommand</b> method stores the address of the interface in the <i>pIWiaItem</i>  parameter. 
+When the application sends the WIA_CMD_TAKE_PICTURE command to the device, <b>IWiaItem::DeviceCommand</b>, the WIA run-time system creates the <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> object to represent the image. The <b>IWiaItem::DeviceCommand</b> method stores the address of the interface in the <i>pIWiaItem</i>  parameter. 
 
 Applications must call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the interface pointers they receive through the <i>pIWiaItem</i> parameter.
 

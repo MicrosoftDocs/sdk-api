@@ -4,10 +4,10 @@ title: ITextStoryRanges
 author: windows-sdk-content
 description: The purpose of the ITextStoryRanges interface is to enumerate the stories in an ITextDocument.
 old-location: controls\ITextStoryRanges.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextstoryranges.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ITextStoryRanges, ITextStoryRanges interface [Windows Controls], ITextStoryRanges interface [Windows Controls],described, _win32_ITextStoryRanges, _win32_ITextStoryRanges_cpp, controls.ITextStoryRanges, controls._win32_ITextStoryRanges, tom/ITextStoryRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,12 @@ req.redist:
 ## -description
 
 
-The purpose of the <b>ITextStoryRanges</b> interface is to enumerate the stories in an <a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>.
+The purpose of the <b>ITextStoryRanges</b> interface is to enumerate the stories in an <a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStoryRanges</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITextStoryRanges</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStoryRanges</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITextStoryRanges</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITextStoryRanges</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787839(v=VS.85).aspx">_NewEnum</a>
+<a href="https://msdn.microsoft.com/90440058-f3e0-49f8-bdaf-ff7b664d538c">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an 
@@ -80,7 +80,7 @@ Retrieves an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773939(v=VS.85).aspx">GetCount</a>
+<a href="https://msdn.microsoft.com/ef7f5b30-c3d1-4b8f-ad2d-925e09cab462">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of stories in the specified stories collection.
@@ -89,10 +89,10 @@ Retrieves the number of stories in the specified stories collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774050(v=VS.85).aspx">Item</a>
+<a href="https://msdn.microsoft.com/c5822b0c-16d5-4339-85bf-90ecb606b7ef">Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> object for the 
+Retrieves an <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> object for the 
 			<i>Index</i>th story in this story collection. 
 
 </td>
@@ -105,7 +105,7 @@ Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85)
 
 
  
-You get a pointer to an <b>ITextStoryRanges</b> collection by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb774029(v=VS.85).aspx">GetStoryRanges</a> method. Each story obtained from this collection is represented by an <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> object that covers the whole story. Text Object Model (TOM) engines that only have a single story do not need to implement an <b>ITextStoryRanges</b> interface. Your code should only get a stories collection if <a href="https://msdn.microsoft.com/en-us/library/Bb774027(v=VS.85).aspx">GetStoryCount</a> returns a story count greater than one.
+You get a pointer to an <b>ITextStoryRanges</b> collection by calling the <a href="https://msdn.microsoft.com/e542bd10-228a-4d9a-bd62-c721e56c6369">GetStoryRanges</a> method. Each story obtained from this collection is represented by an <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> object that covers the whole story. Text Object Model (TOM) engines that only have a single story do not need to implement an <b>ITextStoryRanges</b> interface. Your code should only get a stories collection if <a href="https://msdn.microsoft.com/6a9d865c-8710-4e67-bf1a-10d09f81488c">GetStoryCount</a> returns a story count greater than one.
 
 
 
@@ -119,15 +119,15 @@ You get a pointer to an <b>ITextStoryRanges</b> collection by calling the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787726(v=VS.85).aspx">Using The Text Object Model</a>
+<a href="https://msdn.microsoft.com/5d9ab4fa-e9a0-4031-bbaa-311aff912eba">Using The Text Object Model</a>
  
 
  

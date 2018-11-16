@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteLocalizedStrings.htm
 tech.root: DirectWrite
 ms.assetid: 37bfc613-4128-45aa-b6b2-6163d44378e4
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IDWriteLocalizedStrings, IDWriteLocalizedStrings interface [Direct Write], IDWriteLocalizedStrings interface [Direct Write],described, directwrite.IDWriteLocalizedStrings, dwrite/IDWriteLocalizedStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,14 +133,18 @@ The set of strings represented by an <b>IDWriteLocalizedStrings</b> are indexed 
 
 A common use for the <b>IDWriteLocalizedStrings</b> interface is to hold a list of localized font family names created by using the <a href="https://msdn.microsoft.com/89b36a28-c8c7-42aa-89a6-7d8f5ddae3fa">IDWriteFontFamily::GetFamilyNames</a> method.  The following example shows how to get the family name for the "en-us" locale.
 
-
-```cpp
-IDWriteLocalizedStrings* pFamilyNames = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IDWriteLocalizedStrings* pFamilyNames = NULL;
 
 // Get a list of localized strings for the family name.
 if (SUCCEEDED(hr))
 {
-    hr = pFontFamily->GetFamilyNames(&pFamilyNames);
+    hr = pFontFamily-&gt;GetFamilyNames(&amp;pFamilyNames);
 }
 
 UINT32 index = 0;
@@ -156,11 +160,11 @@ if (SUCCEEDED(hr))
     // If the default locale is returned, find that locale name, otherwise use "en-us".
     if (defaultLocaleSuccess)
     {
-        hr = pFamilyNames->FindLocaleName(localeName, &index, &exists);
+        hr = pFamilyNames-&gt;FindLocaleName(localeName, &amp;index, &amp;exists);
     }
-    if (SUCCEEDED(hr) && !exists) // if the above find did not find a match, retry with US English
+    if (SUCCEEDED(hr) &amp;&amp; !exists) // if the above find did not find a match, retry with US English
     {
-        hr = pFamilyNames->FindLocaleName(L"en-us", &index, &exists);
+        hr = pFamilyNames-&gt;FindLocaleName(L"en-us", &amp;index, &amp;exists);
     }
 }
 
@@ -173,7 +177,7 @@ UINT32 length = 0;
 // Get the string length.
 if (SUCCEEDED(hr))
 {
-    hr = pFamilyNames->GetStringLength(index, &length);
+    hr = pFamilyNames-&gt;GetStringLength(index, &amp;length);
 }
 
 // Allocate a string big enough to hold the name.
@@ -186,11 +190,11 @@ if (name == NULL)
 // Get the family name.
 if (SUCCEEDED(hr))
 {
-    hr = pFamilyNames->GetString(index, name, length+1);
+    hr = pFamilyNames-&gt;GetString(index, name, length+1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

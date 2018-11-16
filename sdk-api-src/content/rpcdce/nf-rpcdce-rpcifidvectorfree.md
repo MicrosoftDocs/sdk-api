@@ -4,10 +4,10 @@ title: RpcIfIdVectorFree function
 author: windows-sdk-content
 description: The RpcIfIdVectorFree function frees the vector and the interface-identification structures contained in the vector.
 old-location: rpc\rpcifidvectorfree.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 1af518a7-02db-438a-ba3f-723bd8422188
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: RpcIfIdVectorFree, RpcIfIdVectorFree function [RPC], _rpc_rpcifidvectorfree, rpc.rpcifidvectorfree, rpcdce/RpcIfIdVectorFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

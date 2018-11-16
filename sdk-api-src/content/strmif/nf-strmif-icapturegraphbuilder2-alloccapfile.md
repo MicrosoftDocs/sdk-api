@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder2_alloccapfile.htm
 tech.root: DirectShow
 ms.assetid: e61459bd-cccb-4857-b336-82d23135fa16
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: AllocCapFile, AllocCapFile method [DirectShow], AllocCapFile method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],AllocCapFile method, ICaptureGraphBuilder2.AllocCapFile, ICaptureGraphBuilder2::AllocCapFile, ICaptureGraphBuilder2AllocCapFile, dshow.icapturegraphbuilder2_alloccapfile, strmif/ICaptureGraphBuilder2::AllocCapFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,19 +70,14 @@ The <code>AllocCapFile</code> method preallocates a capture file to a specified 
 
 
 
-### -param lpstr
+### -param lpstr [in]
 
-TBD
+Pointer to a wide-character string that contains the name of the file to create or resize.
 
 
 ### -param dwlSize [in]
 
 Size of the file to allocate, in bytes.
-
-
-#### - lpwstr [in]
-
-Pointer to a wide-character string that contains the name of the file to create or resize.
 
 
 ## -returns

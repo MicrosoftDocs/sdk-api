@@ -7,7 +7,7 @@ old-location: security\icspinformation.htm
 tech.root: SecCertEnroll
 ms.assetid: e337ae2c-6f86-4025-8d31-47bc5d8a4ca8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICspInformation, ICspInformation interface [Security], ICspInformation interface [Security],described, certenroll/ICspInformation, security.icspinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,15 +50,15 @@ req.redist:
 ## -description
 
 
-The <b>ICspInformation</b> interface provides access to general information about a cryptographic  provider. The information is initialized by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa376745(v=VS.85).aspx">InitializeFromName</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa376746(v=VS.85).aspx">InitializeFromType</a> method. The information is retrieved by using the following methods and properties. For information about CSPs, see <a href="https://msdn.microsoft.com/en-us/library/Aa381481(v=VS.85).aspx">CSPs and the Cryptography Process</a>.
+The <b>ICspInformation</b> interface provides access to general information about a cryptographic  provider. The information is initialized by calling the <a href="https://msdn.microsoft.com/b405503f-2af5-4a2f-abdb-e2eb108c4b1b">InitializeFromName</a> or <a href="https://msdn.microsoft.com/24466981-2ea2-41f5-b2db-85b5629fba7d">InitializeFromType</a> method. The information is retrieved by using the following methods and properties. For information about CSPs, see <a href="https://msdn.microsoft.com/7977e59b-7ce1-4bb4-aae4-d67b7d646493">CSPs and the Cryptography Process</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspInformation</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICspInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspInformation</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICspInformation</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,16 +71,16 @@ The <b>ICspInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa376624(v=VS.85).aspx">GetCspStatusFromOperations</a>
+<a href="https://msdn.microsoft.com/6b551e72-2f0a-4ae8-ba06-dff1508a7d83">GetCspStatusFromOperations</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> object for the first supported algorithm that is consistent with the specified signature, encryption, hashing, or cipher  operation.
+Creates an <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> object for the first supported algorithm that is consistent with the specified signature, encryption, hashing, or cipher  operation.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa376741(v=VS.85).aspx">GetDefaultSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/b4594400-29f2-47e2-8b4f-87ee82ea5e82">GetDefaultSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default private key security descriptor.
@@ -89,7 +89,7 @@ Retrieves the default private key security descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa376745(v=VS.85).aspx">InitializeFromName</a>
+<a href="https://msdn.microsoft.com/b405503f-2af5-4a2f-abdb-e2eb108c4b1b">InitializeFromName</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a string that contains a provider name.
@@ -100,7 +100,7 @@ Initializes the object from a string that contains a provider name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa376746(v=VS.85).aspx">InitializeFromType</a>
+<a href="https://msdn.microsoft.com/24466981-2ea2-41f5-b2db-85b5629fba7d">InitializeFromType</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from the default cryptographic provider.
@@ -117,12 +117,12 @@ Initializes the object from the default cryptographic provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376605(v=VS.85).aspx">CspAlgorithms</a>
+<a href="https://msdn.microsoft.com/e74f1aa3-883b-40e4-8052-6651eaa4b63f">CspAlgorithms</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a> interfaces that contain information about the algorithms supported by the provider.
+Retrieves a collection of <a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a> interfaces that contain information about the algorithms supported by the provider.
 
 [WebEnabled]
 
@@ -131,7 +131,7 @@ Retrieves a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa37
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376743(v=VS.85).aspx">HasHardwareRandomNumberGenerator</a>
+<a href="https://msdn.microsoft.com/49d79310-90d2-4874-beaf-284abefd950f">HasHardwareRandomNumberGenerator</a>
 
 
 </td>
@@ -143,7 +143,7 @@ Retrieves a Boolean value that specifies whether the provider supports a hardwar
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376747(v=VS.85).aspx">IsHardwareDevice</a>
+<a href="https://msdn.microsoft.com/d69ade8c-3b74-4391-9048-6511f3d7e9fa">IsHardwareDevice</a>
 
 
 </td>
@@ -155,7 +155,7 @@ Retrieves a Boolean value that determines whether the provider is implemented in
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376748(v=VS.85).aspx">IsRemovable</a>
+<a href="https://msdn.microsoft.com/ee67670b-80a9-4637-a5ed-84d3430853ea">IsRemovable</a>
 
 
 </td>
@@ -167,7 +167,7 @@ Retrieves a Boolean value that specifies whether the token that contains the key
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb394685(v=VS.85).aspx">IsSmartCard</a>
+<a href="https://msdn.microsoft.com/cfb88e17-39bb-4b4f-9eb3-3691376f8285">IsSmartCard</a>
 
 
 </td>
@@ -179,7 +179,7 @@ Retrieves a Boolean value that specifies whether the provider is a smart card pr
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376750(v=VS.85).aspx">IsSoftwareDevice</a>
+<a href="https://msdn.microsoft.com/50f78dcc-4d32-40c9-8153-f0b6ac72c03b">IsSoftwareDevice</a>
 
 
 </td>
@@ -191,7 +191,7 @@ Retrieves a Boolean value that specifies whether the provider is implemented in 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376751(v=VS.85).aspx">KeySpec</a>
+<a href="https://msdn.microsoft.com/f66f2f5c-7f50-4be6-973e-844d6cb76f61">KeySpec</a>
 
 
 </td>
@@ -205,7 +205,7 @@ Retrieves a value that specifies the intended use of the algorithms supported by
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376752(v=VS.85).aspx">LegacyCsp</a>
+<a href="https://msdn.microsoft.com/f798401c-bc78-438d-8847-82a57589ce38">LegacyCsp</a>
 
 
 </td>
@@ -219,7 +219,7 @@ Retrieves a Boolean value that specifies whether the provider is a Cryptography 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376753(v=VS.85).aspx">MaxKeyContainerNameLength</a>
+<a href="https://msdn.microsoft.com/2508786f-0892-4ece-bbef-bd8ed9c81eee">MaxKeyContainerNameLength</a>
 
 
 </td>
@@ -231,7 +231,7 @@ Retrieves the maximum supported length for the name of the private key container
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376755(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/86f6993d-c96e-4753-9670-fdcc30e8c019">Name</a>
 
 
 </td>
@@ -245,7 +245,7 @@ Retrieves the name of the provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376757(v=VS.85).aspx">Type</a>
+<a href="https://msdn.microsoft.com/a52caea6-fbd5-4c06-8a25-e65f7b4a72f7">Type</a>
 
 
 </td>
@@ -259,7 +259,7 @@ Retrieves the type of the provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376758(v=VS.85).aspx">Valid</a>
+<a href="https://msdn.microsoft.com/507896b0-598c-4a2d-854e-d4d266fdfaf7">Valid</a>
 
 
 </td>
@@ -271,7 +271,7 @@ Retrieves a Boolean value that specifies whether the provider is installed on th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376759(v=VS.85).aspx">Version</a>
+<a href="https://msdn.microsoft.com/9b5010e3-d4c2-4194-ad8a-f8f4e0a41446">Version</a>
 
 
 </td>
@@ -288,15 +288,15 @@ Retrieves the version number of the provider.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375968(v=VS.85).aspx">ICspInformations</a>
+<a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

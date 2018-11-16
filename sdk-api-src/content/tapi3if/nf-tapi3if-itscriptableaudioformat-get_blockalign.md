@@ -4,10 +4,10 @@ title: ITScriptableAudioFormat::get_BlockAlign
 author: windows-sdk-content
 description: The get_BlockAlign method returns the value for the nBlockAlign member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_blockalign.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1f96d37e-af8b-4f0e-9bc0-467e3684fadb
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_BlockAlign method, ITScriptableAudioFormat.get_BlockAlign, ITScriptableAudioFormat::get_BlockAlign, _tapi3_itscriptableaudioformat_get_blockalign, get_BlockAlign, get_BlockAlign method [TAPI 2.2], get_BlockAlign method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_blockalign, tapi3if/ITScriptableAudioFormat::get_BlockAlign
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.redist:
 
 The 
 <b>get_BlockAlign</b> method returns the value for the <b>nBlockAlign</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The
 ### -param pVal [out]
 
 Pointer to the value of the <b>nBlockAlign</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -returns

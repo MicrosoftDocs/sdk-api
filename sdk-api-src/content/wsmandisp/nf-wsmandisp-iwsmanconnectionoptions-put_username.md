@@ -7,7 +7,7 @@ old-location: winrm\iwsmanconnectionoptions_username.htm
 tech.root: WinRM
 ms.assetid: 7b20fcac-0481-4619-aa57-f72318a9a68d
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: IWSManConnectionOptions interface [Windows Remote Management],UserName property, IWSManConnectionOptions.UserName, IWSManConnectionOptions.put_UserName, IWSManConnectionOptions::UserName, IWSManConnectionOptions::get_UserName, IWSManConnectionOptions::put_UserName, UserName property [Windows Remote Management], UserName property [Windows Remote Management],IWSManConnectionOptions interface, put_UserName, winrm.iwsmanconnectionoptions_username, wsmandisp/IWSManConnectionOptions::UserName, wsmandisp/IWSManConnectionOptions::get_UserName, wsmandisp/IWSManConnectionOptions::put_UserName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ This property is read/write.
 
 
 
-You can supply <a href="https://msdn.microsoft.com/e8f70143-f002-4b39-97a3-006b9713262d">UserName</a> and <a href="https://msdn.microsoft.com/61ba54b6-7da0-423e-b5b2-c4dd8aacd042">Password</a> for a domain account when using <a href="windows_remote_management_glossary.htm">Negotiate</a> or <i>Kerberos</i> authentication, or for a local account with <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">Basic</a> authentication.  To connect to a local account, the <a href="https://msdn.microsoft.com/299d9a95-bd30-414c-996d-6633e8b7ce52">WSMan.CreateSession</a> flags must contain the combination of the <b>WSManFlagUseBasic</b>flag and  the <b>WsmanFlagCredUserNamePassword</b> flag. To connect to a domain account, the <b>WSMan.CreateSession</b> flags must contain the combination of the <b>WSManFlagUseNegotiate</b>flag and  the <b>WsmanFlagCredUserNamePassword</b> flag, or the combination of the <b>WSManFlagUseKerberos</b>flag and  the <b>WsmanFlagCredUserNamePassword</b> flag. For a domain account, <b>UserName</b> must be specified in the form "computer\username", where the "computer" part of the string can be either the name or the IP address. For more information, see <a href="https://msdn.microsoft.com/97a13b07-ae7a-4d2f-8841-77a22c91b204">Authentication for Remote Connections</a>.
+You can supply <a href="https://msdn.microsoft.com/e8f70143-f002-4b39-97a3-006b9713262d">UserName</a> and <a href="https://msdn.microsoft.com/61ba54b6-7da0-423e-b5b2-c4dd8aacd042">Password</a> for a domain account when using <a href="windows_remote_management_glossary.htm">Negotiate</a> or <i>Kerberos</i> authentication, or for a local account with <a href="windows_remote_management_glossary.htm">Basic</a> authentication.  To connect to a local account, the <a href="https://msdn.microsoft.com/299d9a95-bd30-414c-996d-6633e8b7ce52">WSMan.CreateSession</a> flags must contain the combination of the <b>WSManFlagUseBasic</b>flag and  the <b>WsmanFlagCredUserNamePassword</b> flag. To connect to a domain account, the <b>WSMan.CreateSession</b> flags must contain the combination of the <b>WSManFlagUseNegotiate</b>flag and  the <b>WsmanFlagCredUserNamePassword</b> flag, or the combination of the <b>WSManFlagUseKerberos</b>flag and  the <b>WsmanFlagCredUserNamePassword</b> flag. For a domain account, <b>UserName</b> must be specified in the form "computer\username", where the "computer" part of the string can be either the name or the IP address. For more information, see <a href="https://msdn.microsoft.com/97a13b07-ae7a-4d2f-8841-77a22c91b204">Authentication for Remote Connections</a>.
 
 
 

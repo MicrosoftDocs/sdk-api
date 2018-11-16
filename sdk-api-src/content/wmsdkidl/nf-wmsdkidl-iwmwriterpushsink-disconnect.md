@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpushsink_disconnect.htm
 tech.root: wmformat
 ms.assetid: 37e8badb-139a-45bf-84bc-bb071d128847
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: Disconnect, Disconnect method [windows Media Format], Disconnect method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],Disconnect method, IWMWriterPushSink.Disconnect, IWMWriterPushSink::Disconnect, IWMWriterPushSinkDisconnect, wmformat.iwmwriterpushsink_disconnect, wmsdkidl/IWMWriterPushSink::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

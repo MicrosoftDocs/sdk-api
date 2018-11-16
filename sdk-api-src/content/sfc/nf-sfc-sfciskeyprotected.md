@@ -7,7 +7,7 @@ old-location: setup\sfciskeyprotected.htm
 tech.root: Wfp
 ms.assetid: 6e26a539-a22a-487a-b720-fa3660c1b485
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, SfcIsKeyProtected, SfcIsKeyProtected function [Setup API], setup.sfciskeyprotected, sfc/SfcIsKeyProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,9 +77,11 @@ A handle to the root registry key. This must be a handle to one of the following
 <p class="indent">HKEY_USERS
 
 
-### -param SubKeyName
+### -param SubKeyName [in, optional]
 
-TBD
+A <b>null</b>-terminated string value containing the name of the subkey. This key must a subkey of the key identified by the <i>hKey</i> parameter. For more information about key names, see <a href="https://msdn.microsoft.com/4ed60563-73d8-4134-8cb2-8388734fb18d">Structure of the Registry</a>. 
+If this parameter is <b>NULL</b>, the function only checks whether the root registry key is protected. 
+
 
 
 ### -param KeySam [in]
@@ -126,13 +128,6 @@ Use the 32-bit registry key from either a 32-bit or 64-bit application.
 </tr>
 </table>
  
-
-
-#### - lpSubKey [in, optional]
-
-A <b>null</b>-terminated string value containing the name of the subkey. This key must a subkey of the key identified by the <i>hKey</i> parameter. For more information about key names, see <a href="https://msdn.microsoft.com/4ed60563-73d8-4134-8cb2-8388734fb18d">Structure of the Registry</a>. 
-If this parameter is <b>NULL</b>, the function only checks whether the root registry key is protected. 
-
 
 
 ## -returns

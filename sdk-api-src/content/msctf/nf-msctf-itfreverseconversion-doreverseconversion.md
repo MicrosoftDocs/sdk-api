@@ -7,7 +7,7 @@ old-location: tsf\itfreverseconversion__doreverseconversion.htm
 tech.root: TSF
 ms.assetid: a2312cd4-316a-42a6-85a5-e5ef819faa79
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: DoReverseConversion, DoReverseConversion method [Text Services Framework], DoReverseConversion method [Text Services Framework],ITfReverseConversion interface, ITfReverseConversion interface [Text Services Framework],DoReverseConversion method, ITfReverseConversion.DoReverseConversion, ITfReverseConversion::DoReverseConversion, msctf/ITfReverseConversion::DoReverseConversion, tsf.itfreverseconversion__doreverseconversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

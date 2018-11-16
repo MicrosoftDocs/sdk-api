@@ -7,7 +7,7 @@ old-location: intl\ifedictionary_displayproperty.htm
 tech.root: Intl
 ms.assetid: 5598D1DD-0254-4142-B91F-6BE36DD94228
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: DisplayProperty, DisplayProperty method [Internationalization for Windows Applications], DisplayProperty method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],DisplayProperty method, IFEDictionary.DisplayProperty, IFEDictionary::DisplayProperty, intl.ifedictionary_displayproperty, msime/IFEDictionary::DisplayProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

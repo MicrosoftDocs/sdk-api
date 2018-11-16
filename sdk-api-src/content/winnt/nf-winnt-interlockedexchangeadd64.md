@@ -4,10 +4,10 @@ title: InterlockedExchangeAdd64 function
 author: windows-sdk-content
 description: Performs an atomic addition of two 64-bit values.
 old-location: base\interlockedexchangeadd64.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: f8cab5f8-8054-4c02-9a6d-80fd9d98cf74
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: InterlockedExchangeAdd64, InterlockedExchangeAdd64 function, base.interlockedexchangeadd64, winnt/InterlockedExchangeAdd64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ The variables for this function must be aligned on a 64-bit boundary; otherwise,
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/191ca0sk(v=VS.85).aspx">_InterlockedExchangeAdd64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="25809e1f-9c60-4492-9f7c-0fb59c8d13d2">_InterlockedExchangeAdd64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

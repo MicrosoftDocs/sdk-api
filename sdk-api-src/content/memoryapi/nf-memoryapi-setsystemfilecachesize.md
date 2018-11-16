@@ -4,10 +4,10 @@ title: SetSystemFileCacheSize function
 author: windows-sdk-content
 description: Limits the size of the working set for the file system cache.
 old-location: base\setsystemfilecachesize.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: bb0a65d6-d04a-4805-80d5-61fc53eb2726
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: FILE_CACHE_MAX_HARD_DISABLE, FILE_CACHE_MAX_HARD_ENABLE, FILE_CACHE_MIN_HARD_DISABLE, FILE_CACHE_MIN_HARD_ENABLE, SetSystemFileCacheSize, SetSystemFileCacheSize function, base.setsystemfilecachesize, winbase/SetSystemFileCacheSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -175,9 +175,13 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 The <b>FILE_CACHE_*</b> constants will be defined in the Windows header files starting with the Windows SDK for Windows Server 2008. If you are using header files from an earlier version of the SDK, add the following definitions to your code.
 
-
-```cpp
-#ifndef FILE_CACHE_FLAGS_DEFINED
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef FILE_CACHE_FLAGS_DEFINED
 
 #define FILE_CACHE_MAX_HARD_ENABLE      0x00000001
 #define FILE_CACHE_MAX_HARD_DISABLE     0x00000002
@@ -185,10 +189,10 @@ The <b>FILE_CACHE_*</b> constants will be defined in the Windows header files st
 #define FILE_CACHE_MIN_HARD_DISABLE     0x00000008
 
 #endif // FILE_CACHE_FLAGS_DEFINED
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

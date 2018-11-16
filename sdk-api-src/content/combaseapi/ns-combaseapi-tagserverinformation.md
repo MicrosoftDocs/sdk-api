@@ -7,7 +7,7 @@ old-location: winrt\serverinformation.htm
 tech.root: WinRT
 ms.assetid: 568246B8-48F7-4A83-B7DE-24F36B2C3F49
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PServerInformation, PServerInformation, PServerInformation structure pointer [Windows Runtime], ServerInformation, ServerInformation structure [Windows Runtime], combaseapi/PServerInformation, combaseapi/ServerInformation, tagServerInformation, winrt.serverinformation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ The thread ID of the server object if it's in the STA, 0 if it's in the MTA, and
 
 
 
-The <b>ServerInformation</b> structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Hh846255(v=VS.85).aspx">CoDecodeProxy</a> function to enable native debuggers to locate the implementation of a COM interface in a server process, given a Windows Runtime interface on a proxy to the Windows Runtime object.
+The <b>ServerInformation</b> structure is used by the <a href="https://msdn.microsoft.com/C61C68B1-78CA-4052-9E24-629AB4083B86">CoDecodeProxy</a> function to enable native debuggers to locate the implementation of a COM interface in a server process, given a Windows Runtime interface on a proxy to the Windows Runtime object.
 
 
 
@@ -88,7 +88,7 @@ The <b>ServerInformation</b> structure is used by the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh846255(v=VS.85).aspx">CoDecodeProxy</a>
+<a href="https://msdn.microsoft.com/C61C68B1-78CA-4052-9E24-629AB4083B86">CoDecodeProxy</a>
  
 
  

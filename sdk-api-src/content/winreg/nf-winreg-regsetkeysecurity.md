@@ -4,10 +4,10 @@ title: RegSetKeySecurity function
 author: windows-sdk-content
 description: Sets the security of an open registry key.
 old-location: security\regsetkeysecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 08bf8fc1-6a08-490e-b589-730211774257
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: RegSetKeySecurity, RegSetKeySecurity function [Security], _win32_regsetkeysecurity, security.regsetkeysecurity, winreg/RegSetKeySecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,7 +124,7 @@ If <i>hKey</i> is one of the predefined keys, use  the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

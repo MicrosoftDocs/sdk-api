@@ -4,10 +4,10 @@ title: ClusterRegOpenKey function
 author: windows-sdk-content
 description: Opens an existing cluster database key.
 old-location: mscs\clusterregopenkey.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f2cf204e-d02d-40b9-86d7-0262b8cc4db1
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusterRegOpenKey, ClusterRegOpenKey function [Failover Cluster], _wolf_clusterregopenkey, clusapi/ClusterRegOpenKey, mscs.clusterregopenkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Opens an existing  <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> key.
+Opens an existing  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> key.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ Pointer to a null-terminated Unicode string specifying the name of the subkey to
 <li>Must not begin with the backslash character ( \ ).</li>
 <li>Must not be <b>NULL</b>.</li>
 </ul>
-The <i>lpszSubKey</i> parameter can point to an empty string, causing  <a href="https://msdn.microsoft.com/en-us/library/Aa368990(v=VS.85).aspx">ClusterRegCreateKey</a> to return a handle to the database key represented by <i>hKey</i>.
+The <i>lpszSubKey</i> parameter can point to an empty string, causing  <a href="https://msdn.microsoft.com/a5e924bd-9336-45c8-b2c9-48291f8db774">ClusterRegCreateKey</a> to return a handle to the database key represented by <i>hKey</i>.
 
 
 ### -param samDesired [in]
@@ -100,7 +100,7 @@ Pointer to a handle to the opened or created key.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 
@@ -109,7 +109,7 @@ the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms68138
 
 
 
-Callers should call  <a href="https://msdn.microsoft.com/en-us/library/Aa368989(v=VS.85).aspx">ClusterRegCloseKey</a> to close the key handle opened by  <b>ClusterRegOpenKey</b> when they are done with it.
+Callers should call  <a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a> to close the key handle opened by  <b>ClusterRegOpenKey</b> when they are done with it.
 
 
 
@@ -119,11 +119,11 @@ Callers should call  <a href="https://msdn.microsoft.com/en-us/library/Aa368989(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368989(v=VS.85).aspx">ClusterRegCloseKey</a>
+<a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368990(v=VS.85).aspx">ClusterRegCreateKey</a>
+<a href="https://msdn.microsoft.com/a5e924bd-9336-45c8-b2c9-48291f8db774">ClusterRegCreateKey</a>
  
 
  

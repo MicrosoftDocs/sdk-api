@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfileconditionproperty_propertyname.htm
 tech.root: Fsrm
 ms.assetid: 3b4a22da-769e-4425-a37d-5dfe0209ace9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],PropertyName property, IFsrmFileConditionProperty.PropertyName, IFsrmFileConditionProperty.put_PropertyName, IFsrmFileConditionProperty::PropertyName, IFsrmFileConditionProperty::get_PropertyName, IFsrmFileConditionProperty::put_PropertyName, PropertyName property [File Server Resource Manager], PropertyName property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_propertyname, fsrm.ifsrmfileconditionproperty_propertyname, fsrmreports/IFsrmFileConditionProperty::PropertyName, fsrmreports/IFsrmFileConditionProperty::get_PropertyName, fsrmreports/IFsrmFileConditionProperty::put_PropertyName, put_PropertyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

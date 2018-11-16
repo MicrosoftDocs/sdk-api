@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_MetafileType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\metafiletype.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: MetafileType, MetafileType enumeration [GDI+], MetafileTypeEmf, MetafileTypeEmfPlusDual, MetafileTypeEmfPlusOnly, MetafileTypeInvalid, MetafileTypeWmf, MetafileTypeWmfPlaceable, _gdiplus_ENUM_MetafileType, gdiplus._gdiplus_ENUM_MetafileType, gdiplusenums/MetafileType, gdiplusenums/MetafileTypeEmf, gdiplusenums/MetafileTypeEmfPlusDual, gdiplusenums/MetafileTypeEmfPlusOnly, gdiplusenums/MetafileTypeInvalid, gdiplusenums/MetafileTypeWmf, gdiplusenums/MetafileTypeWmfPlaceable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>MetafileType</b> enumeration specifies types of metafiles. The 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535112(v=VS.85).aspx">MetafileHeader::GetType</a> method returns an element of this enumeration.
+			<a href="https://msdn.microsoft.com/42acdd2c-b87d-455a-83c0-0630bd552c45">MetafileHeader::GetType</a> method returns an element of this enumeration.
 
 
 ## -enum-fields
@@ -95,7 +95,7 @@ Specifies an EMF+ Dual file. Such a file contains GDI+ records along with altern
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535112(v=VS.85).aspx">MetafileHeader::GetType</a>
+<a href="https://msdn.microsoft.com/42acdd2c-b87d-455a-83c0-0630bd552c45">MetafileHeader::GetType</a>
  
 
  

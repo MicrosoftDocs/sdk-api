@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor2_IsDocument.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\isdocument.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IUrlAccessor2 interface [search],IsDocument method, IUrlAccessor2.IsDocument, IUrlAccessor2::IsDocument, IUrlAccessor4 interface [search],IsDocument method, IUrlAccessor4::IsDocument, IsDocument, IsDocument method [search], IsDocument method [search],IUrlAccessor2 interface, IsDocument method [search],IUrlAccessor4 interface, _search_IUrlAccessor2_IsDocument, search._search_IUrlAccessor2_IsDocument, searchapi/IUrlAccessor2::IsDocument, searchapi/IUrlAccessor4::IsDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\anglearc.htm
 tech.root: gdi
 ms.assetid: 65c38da1-ab7d-4e80-83e3-ba1db66f8fd9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: AngleArc, AngleArc function [Windows GDI], _win32_AngleArc, gdi.anglearc, wingdi/AngleArc
 ms.prod: windows-hardware
 ms.technology: windows-devices

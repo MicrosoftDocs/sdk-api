@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccess::TuneByChannel
 author: windows-sdk-content
 description: The TuneByChannel method tunes to a virtual channel.
 old-location: mstv\ibda_conditionalaccess_tunebychannel.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 1241d61d-e16a-4f80-b187-759db316f25b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],TuneByChannel method, IBDA_ConditionalAccess.TuneByChannel, IBDA_ConditionalAccess::TuneByChannel, IBDA_ConditionalAccessTuneByChannel, TuneByChannel, TuneByChannel method [Microsoft TV Technologies], TuneByChannel method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::TuneByChannel, mstv.ibda_conditionalaccess_tunebychannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://msdn.microsoft.com/93bd3c38-2591-4d36-b296-5ad939487277">IBDA_ConditionalAccess Interface</a>
  
 
  

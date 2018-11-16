@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getrectarray.htm
 tech.root: WinRT
 ms.assetid: 7e1f39f6-0ccb-4841-ae5e-36adaf72a4ee
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetRectArray, GetRectArray method [Windows Runtime], GetRectArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetRectArray method, IPropertyValue.GetRectArray, IPropertyValue.IPropertyValue, IPropertyValue::GetRectArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetRectArray, winrt.ipropertyvalue_getrectarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Gets the array of <a href="https://msdn.microsoft.com/420daab1-71e7-4610-b454-a4
 
 
 
-### -param __valueSize
+### -param __valueSize [out]
 
-TBD
+Type: <b>UINT32*</b>
+
+The number of values in the array.
 
 
 ### -param value [out]
@@ -78,13 +80,6 @@ Type: <b><a href="https://msdn.microsoft.com/420daab1-71e7-4610-b454-a49a64061f9
 The array of <a href="https://msdn.microsoft.com/420daab1-71e7-4610-b454-a49a64061f97">Rect</a> values.
 
 The returned pointer must be freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
-
-
-#### - length [out]
-
-Type: <b>UINT32*</b>
-
-The number of values in the array.
 
 
 ## -returns

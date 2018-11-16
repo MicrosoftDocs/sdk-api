@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISynchronizedInputProvider_StartListening.htm
 tech.root: WinAuto
 ms.assetid: ad9e6ca3-b38c-41f8-9c61-ce51786672eb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ISynchronizedInputProvider interface [Windows Accessibility],StartListening method, ISynchronizedInputProvider.StartListening, ISynchronizedInputProvider::StartListening, StartListening, StartListening method [Windows Accessibility], StartListening method [Windows Accessibility],ISynchronizedInputProvider interface, uiauto.uiauto_ISynchronizedInputProvider_StartListening, uiauto_ISynchronizedInputProvider_StartListening, uiautomationcore/ISynchronizedInputProvider::StartListening, winauto.uiauto_ISynchronizedInputProvider_StartListening
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When it finds matching input, the provider checks if the target UI Automation element matches the current element. If they match, the provider raises the <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputReachedTargetEventId</a> event; otherwise, it raises the <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputReachedOtherElementEventId</a>  or <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputDiscardedEventId</a> event. The UI Automation provider must discard the input if it is for an element other than this one.
+When it finds matching input, the provider checks if the target UI Automation element matches the current element. If they match, the provider raises the <a href="uiauto_event_ids.htm">UIA_InputReachedTargetEventId</a> event; otherwise, it raises the <a href="uiauto_event_ids.htm">UIA_InputReachedOtherElementEventId</a>  or <a href="uiauto_event_ids.htm">UIA_InputDiscardedEventId</a> event. The UI Automation provider must discard the input if it is for an element other than this one.
 
 This is a one-shot method; after receiving input, the provider stops listening and continues normally.
 

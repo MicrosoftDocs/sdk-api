@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice_getendpointreference.htm
 tech.root: WsdApi
 ms.assetid: 656ff77d-765e-4c30-8e5d-560d121dc368
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetEndpointReference, GetEndpointReference method, GetEndpointReference method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetEndpointReference method, IWSDiscoveredService.GetEndpointReference, IWSDiscoveredService::GetEndpointReference, ncd.iwsdiscoveredservice_getendpointreference, wsddisco/IWSDiscoveredService::GetEndpointReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Retrieves a WS-Addressing address referencing an endpoint of the remote device.
 
 
 
-### -param ppEndpointReference
-
-TBD
-
-
-
-
-#### - ppEndPointReference [out]
+### -param ppEndpointReference [out]
 
 A WS-Addressing address referencing an endpoint of the remote device. For details, see <a href="https://msdn.microsoft.com/97d6870e-3633-4bea-9a50-984e6b0ba3a1">WSD_ENDPOINT_REFERENCE</a>. Do not deallocate the output structure.
 

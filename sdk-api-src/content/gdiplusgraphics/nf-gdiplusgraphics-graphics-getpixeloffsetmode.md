@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPixelOffsetMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpixeloffsetmode.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetPixelOffsetMode, GetPixelOffsetMode method [GDI+], GetPixelOffsetMode method [GDI+],Graphics class, Graphics class [GDI+],GetPixelOffsetMode method, Graphics.GetPixelOffsetMode, Graphics::GetPixelOffsetMode, _gdiplus_CLASS_Graphics_GetPixelOffsetMode_, gdiplus._gdiplus_CLASS_Graphics_GetPixelOffsetMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetPixelOffsetMode</b> method gets the pixel offset mode currently set for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. 
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. 
 
 
 ## -parameters
@@ -74,11 +74,11 @@ The <b>Graphics::GetPixelOffsetMode</b> method gets the pixel offset mode curren
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534169(v=VS.85).aspx">PixelOffsetMode</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/0e17e35a-de55-4dda-9708-01002b41301d">PixelOffsetMode</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534169(v=VS.85).aspx">PixelOffsetMode</a> enumeration that indicates the pixel offset mode currently set for this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+This method returns an element of the <a href="https://msdn.microsoft.com/0e17e35a-de55-4dda-9708-01002b41301d">PixelOffsetMode</a> enumeration that indicates the pixel offset mode currently set for this 
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 
@@ -88,11 +88,11 @@ This method returns an element of the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534169(v=VS.85).aspx">PixelOffsetMode</a>
+<a href="https://msdn.microsoft.com/0e17e35a-de55-4dda-9708-01002b41301d">PixelOffsetMode</a>
  
 
  

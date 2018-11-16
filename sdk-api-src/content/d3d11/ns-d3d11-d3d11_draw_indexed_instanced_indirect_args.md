@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_draw_indexed_instanced_indirect_args.htm
 tech.root: direct3d11
 ms.assetid: 26530AAB-2E41-4165-AE19-5B8F95AE5A20
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS, D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS structure [Direct3D 11], d3d11/D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS, direct3d11.d3d11_draw_indexed_instanced_indirect_args
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,7 +94,7 @@ A value added to each index before reading per-instance data from a vertex buffe
 
 
 The members of this structure serve the same purpose as the parameters of
-          <a href="https://msdn.microsoft.com/en-us/library/Ff476410(v=VS.85).aspx">ID3D11DeviceContext::DrawIndexedInstanced</a>.
+          <a href="https://msdn.microsoft.com/c7a4821a-324c-47e4-b89f-603d2afcfb51">ID3D11DeviceContext::DrawIndexedInstanced</a>.
         
 
 
@@ -105,7 +105,7 @@ The members of this structure serve the same purpose as the parameters of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
  
 
  

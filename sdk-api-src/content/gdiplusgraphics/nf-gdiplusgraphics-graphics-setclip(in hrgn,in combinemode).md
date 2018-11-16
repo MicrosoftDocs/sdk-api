@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_SetClip_hRgn_combineMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicssetclipmethods\setclip_93hrgn_combinemode.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Graphics class [GDI+],SetClip method, Graphics.SetClip, Graphics.SetClip(HRGN,CombineMode), Graphics.SetClip(IN HRGN,IN CombineMode), Graphics::SetClip, Graphics::SetClip(IN HRGN,IN CombineMode), SetClip, SetClip method [GDI+], SetClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetClip_hRgn_combineMode_, gdiplus._gdiplus_CLASS_Graphics_SetClip_hRgn_combineMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::SetClip</b> method updates the clipping region of this  <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object to a region that is the combination of itself and a Windows Graphics Device Interface (GDI) region.
+The <b>Graphics::SetClip</b> method updates the clipping region of this  <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a region that is the combination of itself and a Windows Graphics Device Interface (GDI) region.
 
 
 ## -parameters
@@ -71,14 +71,14 @@ The <b>Graphics::SetClip</b> method updates the clipping region of this  <a href
 
 Type: <b>HRGN</b>
 
-Handle to a GDI region to be combined with the clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. This is provided for legacy code. New applications should pass a <a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> object as the first parameter. 
+Handle to a GDI region to be combined with the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. This is provided for legacy code. New applications should pass a <a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> object as the first parameter. 
 
 
 ### -param combineMode [in]
 
 Type: <b><a href="https://msdn.microsoft.com/8cdb8aab-7918-421a-bc64-e8c91d1b866e">CombineMode</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/8cdb8aab-7918-421a-bc64-e8c91d1b866e">CombineMode</a> enumeration that specifies how the GDI region is combined with the clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The default value is CombineModeReplace. 
+Optional. Element of the <a href="https://msdn.microsoft.com/8cdb8aab-7918-421a-bc64-e8c91d1b866e">CombineMode</a> enumeration that specifies how the GDI region is combined with the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. The default value is CombineModeReplace. 
 
 
 ## -returns
@@ -109,25 +109,29 @@ This method assumes that the GDI region specified by
 
 The following example uses a GDI region to update the clipping region.
 
-
-```cpp
-VOID Example_SetClip2(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_SetClip2(HDC hdc)
 {
    Graphics graphics(hdc);
 
    // Create a Region object, and get its handle.
    Region region(Rect(0, 0, 100, 100));
-   HRGN hRegion = region.GetHRGN(&graphics);
+   HRGN hRegion = region.GetHRGN(&amp;graphics);
 
    // Set the clipping region with hRegion.
    graphics.SetClip(hRegion);
 
    // Fill a rectangle to demonstrate the clipping region.
-   graphics.FillRectangle(&SolidBrush(Color(255, 0, 0, 0)), 0, 0, 500, 500);
-}
-```
-
-
+   graphics.FillRectangle(&amp;SolidBrush(Color(255, 0, 0, 0)), 0, 0, 500, 500);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -152,7 +156,7 @@ VOID Example_SetClip2(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

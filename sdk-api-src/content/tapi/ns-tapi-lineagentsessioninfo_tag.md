@@ -4,10 +4,10 @@ title: lineagentsessioninfo_tag
 author: windows-sdk-content
 description: The LINEAGENTSESSIONINFO structure contains information about the ACD agent session. The lineGetAgentSessionInfo function returns the LINEAGENTSESSIONINFO structure.
 old-location: tapi2\lineagentsessioninfo_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 567e21b4-c79c-4a54-b9f4-6c8c949bf4ee
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPLINEAGENTSESSIONINFO, LINEAGENTSESSIONINFO, LINEAGENTSESSIONINFO structure [TAPI 2.2], LPLINEAGENTSESSIONINFO, LPLINEAGENTSESSIONINFO structure pointer [TAPI 2.2], _tapi2_lineagentsessioninfo_str, lineagentsessioninfo_tag, tapi/LINEAGENTSESSIONINFO, tapi/LPLINEAGENTSESSIONINFO, tapi2.lineagentsessioninfo_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

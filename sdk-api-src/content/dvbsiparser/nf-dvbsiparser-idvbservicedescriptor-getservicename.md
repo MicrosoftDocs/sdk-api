@@ -4,10 +4,10 @@ title: IDvbServiceDescriptor::GetServiceName
 author: windows-sdk-content
 description: Gets the service_name field from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor_getservicename.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d3c59ebc-fc32-49ba-86b3-5737c3af2225
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetServiceName, GetServiceName method [Microsoft TV Technologies], GetServiceName method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceName method, IDvbServiceDescriptor.GetServiceName, IDvbServiceDescriptor::GetServiceName, dvbsiparser/IDvbServiceDescriptor::GetServiceName, mstv.idvbservicedescriptor_getservicename
 ms.prod: windows-hardware
 ms.technology: windows-devices

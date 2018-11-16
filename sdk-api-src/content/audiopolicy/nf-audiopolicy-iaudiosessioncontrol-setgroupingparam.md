@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol_setgroupingparam.htm
 tech.root: CoreAudio
 ms.assetid: 990bebd9-c37d-4f72-b349-a43a074d8992
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],SetGroupingParam method, IAudioSessionControl.SetGroupingParam, IAudioSessionControl::SetGroupingParam, IAudioSessionControlSetGroupingParam, SetGroupingParam, SetGroupingParam method [Core Audio], SetGroupingParam method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetGroupingParam, coreaudio.iaudiosessioncontrol_setgroupingparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,19 +69,14 @@ The <b>SetGroupingParam</b> method assigns a session to a grouping of sessions.
 
 
 
-### -param Override
+### -param Override [in]
 
-TBD
+The new grouping parameter. This parameter must be a valid, non-<b>NULL</b> pointer to a grouping-parameter GUID. For more information, see Remarks.
 
 
 ### -param EventContext [in]
 
 Pointer to the event-context GUID. If a call to this method generates a grouping-change event, the session manager sends notifications to all clients that have registered <a href="https://msdn.microsoft.com/fd287ef7-8a37-4342-b4c2-79b84a56c30e">IAudioSessionEvents</a> interfaces with the session manager. The session manager includes the <i>EventContext</i> pointer value with each notification. Upon receiving a notification, a client can determine whether it or another client is the source of the event by inspecting the <i>EventContext</i> value. This scheme depends on the client selecting a value for this parameter that is unique among all clients in the session. If the caller supplies a <b>NULL</b> pointer for this parameter, the client's notification method receives a <b>NULL</b> context pointer.
-
-
-#### - Grouping [in]
-
-The new grouping parameter. This parameter must be a valid, non-<b>NULL</b> pointer to a grouping-parameter GUID. For more information, see Remarks.
 
 
 ## -returns

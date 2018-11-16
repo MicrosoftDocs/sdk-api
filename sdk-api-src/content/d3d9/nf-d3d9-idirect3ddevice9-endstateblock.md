@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__endstateblock.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__endstateblock.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: 1893d4cf-9e96-8cbc-4c69-17f309bf0986, EndStateBlock, EndStateBlock method [Direct3D 9], EndStateBlock method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],EndStateBlock method, IDirect3DDevice9.EndStateBlock, IDirect3DDevice9::EndStateBlock, d3d9helper/IDirect3DDevice9::EndStateBlock, direct3d9.idirect3ddevice9__endstateblock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,16 +69,16 @@ Signals Direct3D to stop recording a device-state block and retrieve a pointer t
 
 ### -param ppSB [in, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205887(v=VS.85).aspx">IDirect3DStateBlock9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/bb0dfea8-14ba-4d9d-acb7-9748258e0f35">IDirect3DStateBlock9</a>**</b>
 
-Pointer to a state block interface. See <a href="https://msdn.microsoft.com/en-us/library/Bb205887(v=VS.85).aspx">IDirect3DStateBlock9</a>.
+Pointer to a state block interface. See <a href="https://msdn.microsoft.com/bb0dfea8-14ba-4d9d-acb7-9748258e0f35">IDirect3DStateBlock9</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be
      D3DERR_INVALIDCALL.
@@ -91,15 +91,15 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174351(v=VS.85).aspx">IDirect3DDevice9::BeginStateBlock</a>
+<a href="https://msdn.microsoft.com/ee197fbc-d13b-42c2-a293-72306a0d05ce">IDirect3DDevice9::BeginStateBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174362(v=VS.85).aspx">IDirect3DDevice9::CreateStateBlock</a>
+<a href="https://msdn.microsoft.com/36951221-ab14-45bc-bfb3-4294e3d20fb0">IDirect3DDevice9::CreateStateBlock</a>
  
 
  

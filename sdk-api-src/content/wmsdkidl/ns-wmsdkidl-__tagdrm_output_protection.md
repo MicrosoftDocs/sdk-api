@@ -7,7 +7,7 @@ old-location: wmformat\drm_video_output_protection.htm
 tech.root: wmformat
 ms.assetid: 73c7b2ab-3680-462a-ab7f-d3270ea0127b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: DRM_OUTPUT_PROTECTION, DRM_VIDEO_OUTPUT_PROTECTION, DRM_VIDEO_OUTPUT_PROTECTION structure [windows Media Format], __tagDRM_OUTPUT_PROTECTION, structure [windows Media Format], wmformat.drm_video_output_protection, wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

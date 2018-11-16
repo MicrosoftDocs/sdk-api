@@ -7,7 +7,7 @@ old-location: winmsg\getclientrect.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getclientrect.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetClientRect, GetClientRect function [Windows and Messages], _win32_GetClientRect, _win32_getclientrect_cpp, winmsg.getclientrect, winui._win32_getclientrect, winuser/GetClientRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,7 +111,7 @@ In conformance with conventions for the <a href="https://msdn.microsoft.com/9439
 
 #### Examples
 
-For example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Creating, Enumerating, and Sizing Child Windows</a>.
+For example, see <a href="using_windows.htm">Creating, Enumerating, and Sizing Child Windows</a>.
 
 <div class="code"></div>
 
@@ -126,7 +126,7 @@ For example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633519(v=VS.85).aspx">GetWindowRect</a>
+<a href="https://msdn.microsoft.com/9c8fe83e-0c9a-483a-a692-4d229d1bd559">GetWindowRect</a>
 
 
 
@@ -142,7 +142,7 @@ For example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

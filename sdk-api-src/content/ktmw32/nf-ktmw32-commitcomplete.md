@@ -7,7 +7,7 @@ old-location: fs\commitcomplete.htm
 tech.root: Ktm
 ms.assetid: de3e3a26-3e56-4732-8e7c-945b45593aed
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CommitComplete, CommitComplete function [Files], fs.commitcomplete, ktmw32/CommitComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

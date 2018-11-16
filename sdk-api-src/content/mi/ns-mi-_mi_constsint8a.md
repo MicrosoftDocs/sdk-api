@@ -4,10 +4,10 @@ title: "_MI_ConstSint8A"
 author: windows-sdk-content
 description: Represents an array of MI_Sint8 types.
 old-location: wmi_v2\mi_constsint8a.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 83408a61-cd64-4042-ba6b-238c0b869ccb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ConstSint8A, MI_ConstSint8A structure [Windows Management Infrastructure (MI)], _MI_ConstSint8A, mi/MI_ConstSint8A, wmi._mi_constsint8a, wmi_v2.mi_constsint8a
 ms.prod: windows-hardware
 ms.technology: windows-devices

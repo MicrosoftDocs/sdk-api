@@ -7,7 +7,7 @@ old-location: fs\recovertransactionmanager.htm
 tech.root: Ktm
 ms.assetid: 6f217ebb-3423-41d3-acff-eb21838c9751
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: RecoverTransactionManager, RecoverTransactionManager function [Files], fs.recovertransactionmanager, ktmw32/RecoverTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

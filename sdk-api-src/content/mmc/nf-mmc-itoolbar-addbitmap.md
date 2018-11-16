@@ -4,10 +4,10 @@ title: IToolbar::AddBitmap
 author: windows-sdk-content
 description: Enables a snap-in to add an image to the toolbar.
 old-location: mmc\itoolbar_addbitmap.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: f2ef31a7-61ce-4ac6-814a-c3a46964c4f1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: AddBitmap, AddBitmap method [MMC], AddBitmap method [MMC],IToolbar interface, IToolbar interface [MMC],AddBitmap method, IToolbar.AddBitmap, IToolbar::AddBitmap, _slate_itoolbar_addbitmap, mmc.itoolbar_addbitmap, mmc/IToolbar::AddBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

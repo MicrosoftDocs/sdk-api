@@ -7,7 +7,7 @@ old-location: dxmath\xmunibble4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUNIBBLE4.#ctor(uint16_t)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4(uint16_t), dxmath.xmunibble4_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbemdecoupledregistrar_register.htm
 tech.root: WmiSdk
 ms.assetid: 0592310c-dc1b-45df-bf60-613a58dd69ad
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IWbemDecoupledRegistrar interface [Windows Management Instrumentation],Register method, IWbemDecoupledRegistrar.Register, IWbemDecoupledRegistrar::Register, Register, Register method [Windows Management Instrumentation], Register method [Windows Management Instrumentation],IWbemDecoupledRegistrar interface, Register method [Windows Management Instrumentation],WbemDecoupledRegistrar object, WbemDecoupledRegistrar object [Windows Management Instrumentation],Register method, _hmm_iwbemdecoupledregistrar_register, wbemprov/IWbemDecoupledRegistrar::Register, wmi.iwbemdecoupledregistrar_register
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,76 +68,39 @@ The
 
 
 
-### -param a_Flags
-
-TBD
-
-
-### -param a_Context
-
-TBD
-
-
-### -param a_User
-
-TBD
-
-
-### -param a_Locale
-
-TBD
-
-
-### -param a_Scope
-
-TBD
-
-
-### -param a_Registration
-
-TBD
-
-
-### -param pIUnknown
-
-TBD
-
-
-
-
-#### - lFlags [in]
+### -param a_Flags [in]
 
 Reserved for future use.
 
 
-#### - pContext [in]
+### -param a_Context [in]
 
 Reserved for future use.
 
 
-#### - pUnknown [in]
+### -param a_User [in]
 
-Pointer to an object for particular registration. This interface will be queried to determine the interface support that the object is capable of servicing.
+String identifying the user for this registration.
 
 
-#### - strLocal [in]
+### -param a_Locale [in]
 
 String identifying the locale for this registration.
 
 
-#### - strRegistration [in]
-
-Name of the provider being registered.
-
-
-#### - strScope [in]
+### -param a_Scope [in]
 
 Object path representing the binding to a WMI provider registration object in a specified namespace. The scope object path can be <b>NULL</b>, indicating that the provider will support all namespaces.
 
 
-#### - strUser [in]
+### -param a_Registration [in]
 
-String identifying the user for this registration.
+Name of the provider being registered.
+
+
+### -param pIUnknown [in]
+
+Pointer to an object for particular registration. This interface will be queried to determine the interface support that the object is capable of servicing.
 
 
 ## -returns

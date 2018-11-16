@@ -4,10 +4,10 @@ title: linereqmakecall_tag
 author: windows-sdk-content
 description: The LINEREQMAKECALL structure describes a request initiated by a call to the lineGetRequest function.
 old-location: tapi2\linereqmakecall_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: de4e51af-ea1c-41aa-b5a9-9fa628e18d9d
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPLINEREQMAKECALL, LINEREQMAKECALL, LINEREQMAKECALL structure [TAPI 2.2], LPLINEREQMAKECALL, LPLINEREQMAKECALL structure pointer [TAPI 2.2], _tapi2_linereqmakecall_str, linereqmakecall_tag, tapi/LINEREQMAKECALL, tapi/LPLINEREQMAKECALL, tapi2.linereqmakecall_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

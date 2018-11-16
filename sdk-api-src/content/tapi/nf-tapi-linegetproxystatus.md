@@ -4,10 +4,10 @@ title: lineGetProxyStatus function
 author: windows-sdk-content
 description: The lineGetProxyStatus function returns a list of proxy request types that are currently being serviced for the specified device.
 old-location: tapi2\linegetproxystatus.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0684f52f-13dd-4734-9242-acd03f7a25ae
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "_tapi2_linegetproxystatus, lineGetProxyStatus, lineGetProxyStatus function [TAPI 2.2], tapi/lineGetProxyStatus, tapi2.linegetproxystatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,13 +81,6 @@ Version number of TAPI to be used.
 
 
 ### -param lpLineProxyReqestList
-
-TBD
-
-
-
-
-#### - lpLineProxyRequestList
 
 Pointer to a variably sized structure of type 
 <a href="https://msdn.microsoft.com/dc417954-56b4-4436-9582-7b656121fd6f">LINEPROXYREQUESTLIST</a>. Upon successful completion of the request, this structure is filled with a list of the currently supported proxy requests. Prior to calling 

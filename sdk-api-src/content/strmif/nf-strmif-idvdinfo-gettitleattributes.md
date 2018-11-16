@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_gettitleattributes.htm
 tech.root: DirectShow
 ms.assetid: 012e3860-dfa2-45e8-ab37-2a3a4b2f7f9d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetTitleAttributes, GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleAttributes method, IDvdInfo.GetTitleAttributes, IDvdInfo::GetTitleAttributes, IDvdInfoGetTitleAttributes, dshow.idvdinfo_gettitleattributes, strmif/IDvdInfo::GetTitleAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,19 +71,14 @@ Retrieves attributes of all video, audio, and subpicture streams for the specifi
 
 
 
-### -param ulTitle
+### -param ulTitle [in]
 
-TBD
+Requested title number. Specify 0xFFFFFFFF for the current title.
 
 
 ### -param pATR [out]
 
 Pointer to the retrieved attributes structure.
-
-
-#### - nTitle [in]
-
-Requested title number. Specify 0xFFFFFFFF for the current title.
 
 
 ## -returns

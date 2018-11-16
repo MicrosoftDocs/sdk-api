@@ -4,10 +4,10 @@ title: pfnIsFileSupported
 author: windows-sdk-content
 description: Queries the subject interface packages (SIPs) listed in the registry to determine which SIP handles the file type.
 old-location: security\pfnisfilesupported.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cf12d057-328a-4975-b7e5-842c4ea2e760
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: mssip/pfnIsFileSupported, pfnIsFileSupported, pfnIsFileSupported callback, pfnIsFileSupported callback function [Security], security.pfnisfilesupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

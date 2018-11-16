@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxincomingjobs_get__newenum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1zfx.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxIncomingJobs interface [Fax Service],get__NewEnum method, IFaxIncomingJobs.get__NewEnum, IFaxIncomingJobs::get__NewEnum, _mfax_ifaxincomingjobs_get__newenum, fax._mfax_ifaxincomingjobs_get__newenum, faxcomex/IFaxIncomingJobs::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxIncomingJobs interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a> collection.
+The <b>get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8">FaxIncomingJobs</a> collection.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ The <b>get__NewEnum</b> method returns a reference to an enumerator object that 
 
 ### -param ppUnk [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>**</b>
+Type: <b><a href="_com_IUnknown">IUnknown</a>**</b>
 
-Receives an indirect pointer to the enumerator object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the collection.
+Receives an indirect pointer to the enumerator object's <a href="_com_IUnknown">IUnknown</a> interface for the collection.
 
 
 ## -returns
@@ -98,11 +98,11 @@ In Microsoft Visual Basic, you do not need to use the <b>__NewEnum</b> property 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a>
+<a href="https://msdn.microsoft.com/05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8">FaxIncomingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684964(v=VS.85).aspx">IFaxIncomingJobs</a>
+<a href="https://msdn.microsoft.com/970a6047-4c85-404d-ad7e-39703f09f856">IFaxIncomingJobs</a>
  
 
  

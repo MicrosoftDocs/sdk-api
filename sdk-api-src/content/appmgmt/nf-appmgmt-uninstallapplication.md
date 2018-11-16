@@ -7,7 +7,7 @@ old-location: policy\uninstallapplication.htm
 tech.root: Policy
 ms.assetid: d45494e2-d86e-4d94-a158-4024eacf46a2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: UninstallApplication, UninstallApplication function [Group Policy], appmgmt/UninstallApplication, policy.uninstallapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,7 @@ req.redist:
 
 
 The
-    <b>UninstallApplication</b> function uninstalls a group policy  application that handles setup and installation using <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> .msi files. The <b>UninstallApplication</b> function should only be called in the context of the user for whom the user group policy application has previously attempted an uninstall by calling the <a href="https://msdn.microsoft.com/06f341ac-badd-47a0-af86-4fb76bf528d6">MsiConfigureProduct</a> function. The <a href="https://msdn.microsoft.com/5b2e1d82-a421-42af-9e1b-391ae9d4813e">InstallApplication</a> function can install group policy applications.
+    <b>UninstallApplication</b> function uninstalls a group policy  application that handles setup and installation using <a href="setup.windows_installer_start_page">Windows Installer</a> .msi files. The <b>UninstallApplication</b> function should only be called in the context of the user for whom the user group policy application has previously attempted an uninstall by calling the <a href="https://msdn.microsoft.com/06f341ac-badd-47a0-af86-4fb76bf528d6">MsiConfigureProduct</a> function. The <a href="https://msdn.microsoft.com/5b2e1d82-a421-42af-9e1b-391ae9d4813e">InstallApplication</a> function can install group policy applications.
 <div class="alert"><b>Note</b>  Failure to call <b>UninstallApplication</b> as part of the protocol for uninstalling a group policy-based application can cause the <a href="https://msdn.microsoft.com/c3367738-21c9-4159-bc33-2529a60f0e39">Resultant Set of Policy (RSoP)</a> to indicate inaccurate information.</div><div> </div>
 
 ## -parameters
@@ -67,7 +67,7 @@ The
 
 ### -param ProductCode [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> product code of the product being uninstalled. The <a href="https://msdn.microsoft.com/6fbad59b-27b7-4ac1-bad5-8a608c7b270f">product code</a> of the application should be provided in the form of  a <a href="https://msdn.microsoft.com/9e5e2a49-ecf5-43e8-ba6d-42ceaf0beba8">Windows Installer GUID</a> as a string with braces.
+The <a href="setup.windows_installer_start_page">Windows Installer</a> product code of the product being uninstalled. The <a href="https://msdn.microsoft.com/6fbad59b-27b7-4ac1-bad5-8a608c7b270f">product code</a> of the application should be provided in the form of  a <a href="https://msdn.microsoft.com/9e5e2a49-ecf5-43e8-ba6d-42ceaf0beba8">Windows Installer GUID</a> as a string with braces.
 
 
 ### -param dwStatus [in]
@@ -89,9 +89,9 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, t
 
 
 
-Remove a group policy application that uses .msi files by calling  the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> function <a href="https://msdn.microsoft.com/06f341ac-badd-47a0-af86-4fb76bf528d6">MsiConfigureProduct</a> to uninstall the application. Then call <b>UninstallApplication</b>  to  inform the system that the application is no longer managed on the client by Group Policy.  <b>UninstallApplication</b> should be called even if the uninstall fails because this enables the system to keep the <a href="https://msdn.microsoft.com/c3367738-21c9-4159-bc33-2529a60f0e39">Resultant Set of Policy (RSoP)</a> accurate.
+Remove a group policy application that uses .msi files by calling  the <a href="setup.windows_installer_start_page">Windows Installer</a> function <a href="https://msdn.microsoft.com/06f341ac-badd-47a0-af86-4fb76bf528d6">MsiConfigureProduct</a> to uninstall the application. Then call <b>UninstallApplication</b>  to  inform the system that the application is no longer managed on the client by Group Policy.  <b>UninstallApplication</b> should be called even if the uninstall fails because this enables the system to keep the <a href="https://msdn.microsoft.com/c3367738-21c9-4159-bc33-2529a60f0e39">Resultant Set of Policy (RSoP)</a> accurate.
 
-Remove applications installed using software installation settings (.zap files) by calling  the uninstall function or command  specific for the installation application. For information about using installation applications other than  the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> see article 231747, "<a href="Http://go.microsoft.com/fwlink/p/?linkid=83984">How to Publish non-MSI Programs with .zap Files</a>," in the Microsoft Knowledge Base.
+Remove applications installed using software installation settings (.zap files) by calling  the uninstall function or command  specific for the installation application. For information about using installation applications other than  the <a href="setup.windows_installer_start_page">Windows Installer</a> see article 231747, "<a href="Http://go.microsoft.com/fwlink/p/?linkid=83984">How to Publish non-MSI Programs with .zap Files</a>," in the Microsoft Knowledge Base.
 
 
 

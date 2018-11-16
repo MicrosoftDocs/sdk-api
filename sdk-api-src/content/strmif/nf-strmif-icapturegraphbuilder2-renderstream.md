@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder2_renderstream.htm
 tech.root: DirectShow
 ms.assetid: 2fb5f13c-2bf5-463b-a209-77129a159bd6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],RenderStream method, ICaptureGraphBuilder2.RenderStream, ICaptureGraphBuilder2::RenderStream, ICaptureGraphBuilder2RenderStream, RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_renderstream, strmif/ICaptureGraphBuilder2::RenderStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,24 +90,12 @@ Pointer to a major-type GUID that specifies the media type of the output pin; or
 Specifies a pointer to the starting filter for the connection, or to an output pin.
 
 
-### -param pfCompressor
-
-TBD
-
-
-### -param pfRenderer
-
-TBD
-
-
-
-
-#### - pIntermediate [in]
+### -param pfCompressor [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> interface of an intermediate filter, such as a compression filter. Can be <b>NULL</b>.
 
 
-#### - pSink [in]
+### -param pfRenderer [in]
 
 Pointer to the <b>IBaseFilter</b> interface of a sink filter, such as a renderer or mux filter. If the value is <b>NULL</b>, the method uses a default renderer (see Remarks).
 

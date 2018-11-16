@@ -7,7 +7,7 @@ old-location: xps\ixpsomremotedictionaryresource_getdictionary.htm
 tech.root: printdocs
 ms.assetid: 8363aa97-b7ca-458e-84d9-d9316070a3d0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource interface, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],GetDictionary method, IXpsOMRemoteDictionaryResource.GetDictionary, IXpsOMRemoteDictionaryResource::GetDictionary, xps.ixpsomremotedictionaryresource_getdictionary, xpsobjectmodel/IXpsOMRemoteDictionaryResource::GetDictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices

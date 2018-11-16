@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_gettime_t.htm
 tech.root: WmiSdk
 ms.assetid: 62e0faff-4e5a-4bc4-a9a7-a4edbaea9541
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: "?Gettime_t@WBEMTime@@QBEHPAJ@Z, Gettime_t, Gettime_t method [Windows Management Instrumentation], Gettime_t method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],Gettime_t method, WBEMTime.Gettime_t, WBEMTime::Gettime_t, _hmm_wbemtime_gettime_t, wbemtime/WBEMTime::Gettime_t, wmi.wbemtime_gettime_t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,13 +75,6 @@ The <b>Gettime_t</b> method gets the time as an ANSI C run-time <b>time_t</b> va
 
 
 ### -param ptime_t
-
-TBD
-
-
-
-
-#### - ptm
 
 ANSI C run-time <b>time_t</b> variable, which represents the number of seconds since midnight Jan 1, 1970. In DMTF format, this is 19700101000000.000000-000.
 

@@ -7,7 +7,7 @@ old-location: winrt\iunbufferedfilehandleprovider_closeunbufferedfilehandle.htm
 tech.root: WinRT
 ms.assetid: 8D6CD3A2-0CCD-49F4-86B3-99823A6E4EA8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: CloseUnbufferedFileHandle, CloseUnbufferedFileHandle method [Windows Runtime], CloseUnbufferedFileHandle method [Windows Runtime],IUnbufferedFileHandleProvider interface, IUnbufferedFileHandleProvider interface [Windows Runtime],CloseUnbufferedFileHandle method, IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle, IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, windowsstoragecom/IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, winrt.iunbufferedfilehandleprovider_closeunbufferedfilehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

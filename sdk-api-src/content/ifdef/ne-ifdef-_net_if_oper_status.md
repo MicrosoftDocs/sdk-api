@@ -51,7 +51,7 @@ req.redist:
 
 
 The NET_IF_OPER_STATUS enumeration type defines the current 
-  <a href="https://msdn.microsoft.com/library/Ff566527(v=VS.85).aspx">NDIS network interface</a> operational
+  <a href="netvista.ndis_network_interfaces2">NDIS network interface</a> operational
   status.
 
 

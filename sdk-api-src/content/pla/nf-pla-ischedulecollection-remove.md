@@ -7,7 +7,7 @@ old-location: pla\ischedulecollection_remove.htm
 tech.root: PLA
 ms.assetid: bb419f7e-b5fd-47ea-88e5-f86788423edf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IScheduleCollection interface [PLA],Remove method, IScheduleCollection.Remove, IScheduleCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IScheduleCollection interface, base.ischedulecollection_remove, pla.ischedulecollection_remove, pla/IScheduleCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

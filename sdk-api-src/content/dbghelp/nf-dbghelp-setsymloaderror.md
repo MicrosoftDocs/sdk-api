@@ -4,10 +4,10 @@ title: SetSymLoadError function
 author: windows-sdk-content
 description: Sets a symbol load error.
 old-location: base\setsymloaderror.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: E3225AEB-AFF9-432F-B4FA-D9125210258A
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SetSymLoadError, SetSymLoadError function, base.setsymloaderror, dbghelp/SetSymLoadError
 ms.prod: windows-hardware
 ms.technology: windows-devices

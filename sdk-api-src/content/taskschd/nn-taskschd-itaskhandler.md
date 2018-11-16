@@ -7,7 +7,7 @@ old-location: taskschd\itaskhandler.htm
 tech.root: TaskSchd
 ms.assetid: ea3100d7-a80b-4487-9786-24124f2d72f1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITaskHandler, ITaskHandler interface [Task Scheduler], ITaskHandler interface [Task Scheduler],described, taskschd.itaskhandler, taskschd/ITaskHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,7 +116,7 @@ Required. Called to stop the COM handler.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

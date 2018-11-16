@@ -4,10 +4,10 @@ title: DPA_EnumCallback function
 author: windows-sdk-content
 description: Iterates through the Dynamic Pointer Array (DPA) and calls pfnCB on each item.
 old-location: controls\DPA_EnumCallback.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_enumcallback.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DPA_EnumCallback, DPA_EnumCallback function [Windows Controls], _win32_DPA_EnumCallback, _win32_DPA_EnumCallback_cpp, controls.DPA_EnumCallback, controls._win32_DPA_EnumCallback, dpa_dsa/DPA_EnumCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ No return value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775713(v=VS.85).aspx">PFNDAENUMCALLBACKCONST</a>
+<a href="https://msdn.microsoft.com/2fe1546f-d517-4d63-a3a6-1d3ea0238b3d">PFNDAENUMCALLBACKCONST</a>
  
 
  

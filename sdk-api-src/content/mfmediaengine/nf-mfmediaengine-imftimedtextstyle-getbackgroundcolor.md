@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getbackgroundcolor.htm
 tech.root: medfound
 ms.assetid: 2641F157-31CE-4659-AF6B-B57774AEF4E5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetBackgroundColor method, IMFTimedTextStyle.GetBackgroundColor, IMFTimedTextStyle::GetBackgroundColor, mf.imftimedtextstyle_getbackgroundcolor, mfmediaengine/IMFTimedTextStyle::GetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Gets the background color of the timed-text style.
 
 
 
-### -param bgColor
-
-TBD
-
-
-
-
-#### - pBgColor [out]
+### -param bgColor [out]
 
 Type: <b><a href="https://msdn.microsoft.com/ce7ac174-9f00-42a4-9b48-ed86b406d83e">MFARGB</a>*</b>
 

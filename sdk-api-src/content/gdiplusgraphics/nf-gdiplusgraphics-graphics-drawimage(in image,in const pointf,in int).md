@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destP
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_44imageimage_pointfdestpoints_intcount.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN const PointF,IN INT), Graphics.DrawImage(Image*,const PointF*,INT), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN const PointF,IN INT), _gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,9 +120,13 @@ The value of the
 
 The following example draws an image.
 
-
-```cpp
-VOID Example_DrawImage3(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawImage3(HDC hdc)
 
 {
    Graphics graphics(hdc);
@@ -139,14 +143,14 @@ VOID Example_DrawImage3(HDC hdc)
    PointF* pdestPoints = destPoints;
 
    // Draw the image.
-   graphics.DrawImage(&image, pdestPoints, 3);
-}
-```
-
-
+   graphics.DrawImage(&amp;image, pdestPoints, 3);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing a previously-rectangular image that has been sheared to a parallelogram" src="./images/drawimage1.png"/>
+<img alt="Illustration showing a previously-rectangular image that has been sheared to a parallelogram" src="images/drawimage1.png"/>
 
 <div class="code"></div>
 
@@ -161,7 +165,7 @@ The following illustration shows the output of the preceding code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

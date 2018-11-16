@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_performance_data.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_PERFORMANCE_DATA
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: XAUDIO2_PERFORMANCE_DATA, XAUDIO2_PERFORMANCE_DATA structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_performance_data, xaudio2/XAUDIO2_PERFORMANCE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Contains performance information.
 
 ### -field AudioCyclesSinceLastQuery
 
-CPU cycles spent on audio processing since the last call to the <a href="https://msdn.microsoft.com/en-us/library/Ee418626(v=VS.85).aspx">IXAudio2::StartEngine</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee418615(v=VS.85).aspx">IXAudio2::GetPerformanceData</a> function.
+CPU cycles spent on audio processing since the last call to the <a href="https://msdn.microsoft.com/5F74850E-EEF0-4AE1-AD48-9B65238EB886">IXAudio2::StartEngine</a> or <a href="https://msdn.microsoft.com/E8E49DA8-5C62-4D8A-83D0-1AD1367AF2C1">IXAudio2::GetPerformanceData</a> function.
 
 
 ### -field TotalCyclesSinceLastQuery
@@ -205,7 +205,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418615(v=VS.85).aspx">IXAudio2::GetPerformanceData</a>
+<a href="https://msdn.microsoft.com/E8E49DA8-5C62-4D8A-83D0-1AD1367AF2C1">IXAudio2::GetPerformanceData</a>
 
 
 

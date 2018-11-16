@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_alpha_data.htm
 tech.root: medfound
 ms.assetid: 51135d6e-4f97-44d9-b1d5-f7d2095ee6f1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: DXVAHD_STREAM_STATE_ALPHA_DATA, DXVAHD_STREAM_STATE_ALPHA_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_ALPHA_DATA, dxvahd/DXVAHD_STREAM_STATE_ALPHA_DATA, mf.dxvahd_stream_state_alpha_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

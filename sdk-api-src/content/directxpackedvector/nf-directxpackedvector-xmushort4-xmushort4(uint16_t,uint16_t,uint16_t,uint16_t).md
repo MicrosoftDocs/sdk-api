@@ -7,7 +7,7 @@ old-location: dxmath\xmushort4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORT4.#ctor(uint16_t,uint16_t,uint16_t,uint16_t)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: XMUSHORT4 constructor [DirectX Math Support APIs], XMUSHORT4 constructor [DirectX Math Support APIs],XMUSHORT4 structure, XMUSHORT4 structure [DirectX Math Support APIs],XMUSHORT4 constructor, XMUSHORT4.XMUSHORT4(uint16_t,uint16_t,uint16_t,uint16_t), dxmath.xmushort4_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices

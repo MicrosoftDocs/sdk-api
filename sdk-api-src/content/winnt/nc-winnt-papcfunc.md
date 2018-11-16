@@ -4,10 +4,10 @@ title: PAPCFUNC
 author: windows-sdk-content
 description: An application-defined completion routine. Specify this address when calling the QueueUserAPC function.
 old-location: base\apcproc.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 8d52ad73-0172-4d1d-b625-39629e7f5823
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: APCProc, APCProc callback, APCProc callback function, PAPCFUNC, _win32_apcproc, base.apcproc, winnt/APCProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\iinkcollector.htm
 tech.root: tablet
 ms.assetid: 4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: IInkCollector, IInkCollector interface [Tablet PC], IInkCollector interface [Tablet PC],described, msinkaut/IInkCollector, tablet.iinkcollector
 ms.prod: windows-hardware
 ms.technology: windows-devices

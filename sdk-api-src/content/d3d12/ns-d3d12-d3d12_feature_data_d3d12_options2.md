@@ -2,12 +2,12 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS2
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS2
 author: windows-sdk-content
-description: Details the adapter's support for certain optional features of Direct3D 12.
+description: Indicates the level of support that the adapter provides for depth-bounds tests and programmable sample positions.
 old-location: direct3d12\d3d12_feature_data_d3d12_options2.htm
 tech.root: direct3d12
 ms.assetid: E45DA471-E0A9-47BF-8AE5-4B8BA4B38337
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS2, D3D12_FEATURE_DATA_D3D12_OPTIONS2 structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS2, direct3d12.d3d12_feature_data_d3d12_options2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Details the adapter's support for certain optional features of Direct3D 12.
+Indicates the level of support that the adapter provides for depth-bounds tests and programmable sample positions.
 
 
 ## -struct-fields
@@ -76,9 +76,9 @@ On return, contains a value that indicates the level of support offered for prog
 
 
 
-Use this structure with <a href="https://msdn.microsoft.com/en-us/library/Dn788653(v=VS.85).aspx">CheckFeatureSupport</a> to determine the level of support offered for the optional Depth-bounds test and programmable sample positions features.
+Use this structure with <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a> to determine the level of support offered for the optional Depth-bounds test and programmable sample positions features.
 
-See the enumeration constant D3D12_FEATURE_D3D12_OPTIONS2 in the <a href="https://msdn.microsoft.com/en-us/library/Dn770363(v=VS.85).aspx">D3D12_FEATURE</a> enumeration.
+See the enumeration constant D3D12_FEATURE_D3D12_OPTIONS2 in the <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a> enumeration.
 
 
 
@@ -88,7 +88,11 @@ See the enumeration constant D3D12_FEATURE_D3D12_OPTIONS2 in the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>
  
 
  

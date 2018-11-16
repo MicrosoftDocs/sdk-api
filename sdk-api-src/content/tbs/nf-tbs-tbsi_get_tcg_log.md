@@ -206,9 +206,13 @@ The <b>Tbsi_Get_TCG_Log</b> function returns the TCG Event Log for the system, a
 
 <b>Windows 10:  </b><p class="note">The function may return a log that uses a format that is compatible with different hashing algorithms, depending on hardware capabilities and firmware settings. This log formats each event except the first as a TCG_PCR_EVENT2 structure:
 
-
-```
-typedef struct {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct {
   TCG_PCRINDEX PCRIndex;
   TCG_EVENTTYPE EventType;
   TPML_DIGEST_VALUES Digests;
@@ -225,10 +229,10 @@ typedef struct {
   UINT16 HashAlg;
   UINT8 Digest[size_varies_with_algorithm];
 } TPMT_HA;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <p class="note">The log formats the first event as a <b>TCG_PCR_EVENT</b> structure, which is described later in this Remarks section. The following table describes the values of the members of this structure for this first event.
 
 <table>
@@ -261,9 +265,13 @@ typedef struct {
 
 <p class="note">The following shows the syntax of the <b>TCG_EfiSpecIdEventStruct</b> structure that the <b>Event</b> member of the <b>TCG_PCR_EVENT</b> structure uses for the first log event.
 
-
-```
-typedef struct {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct {
   BYTE[16] Signature;
   UINT32 PlatformClass;
   UINT8 SpecVersionMinor;
@@ -280,10 +288,10 @@ typedef struct {
   UINT16 HashAlg;
   UINT16 DigestSize;
 } TCG_EfiSpecIdEventAlgorithmSize;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <p class="note">The <b>Signature</b> member of the <b>TCG_EfiSpecIdEventStruct</b> structure is set to a null-terminated ASCII string of "Spec ID Event03" when the log uses the format that is compatible with different hashing algorithms. The <b>DigestSizes</b> array in this first event contains the digest sizes for the different hashing algorithms that the log uses. When a parser inspects an event of type <b>TCG_PCR_EVENT2</b>, the parser can parse the <b>TPML_DIGEST_VALUES</b> member without information about all of the hashing algorithms present. The digest sizes in the first event allow the parser to skip the correct number of bytes for the  digests that are present.
 
 <p class="note">If the <b>Signature</b> member is not set to a null-terminated ASCII string of "Spec ID Event03", then the events in the log are of type <b>TCG_PCR_EVENT</b>, and the <b>TCG_EfiSpecIdEventStruct</b> structure does not contain the <b>NumberOfAlgorithms</b> and <b>DigestSizes</b> members.
@@ -299,20 +307,22 @@ typedef struct {
 
 <b>Windows Vista with SP1 and Windows Server 2008:  </b>The function returns the log directly from the ACPI table and returns the entire ACPI allocated buffer, including the unused buffer after any events.
 
-The Windows-defined events in the TCG event log are a tuple of {Type, Length, Value}. You can parse the log using the following TCG_PCR_EVENT structure from the <a href="http://www.trustedcomputinggroup.org/developers/pc_client/specifications/">TCG PC Client spec</a>. You can create a correlation between lists of log events using the information in the <a href="http://research.microsoft.com/en-us/downloads/74c45746-24ad-4cb7-ba4b-0c6df2f92d5d/">TPM PCP Toolkit</a> and the <a href="http://www.trustedcomputinggroup.org/resources/tpm_main_specification">TPM Main Specification</a>. 
-
-
-```
-typedef struct {
+The Windows-defined events in the TCG event log are a tuple of {Type, Length, Value}. You can parse the log using the following TCG_PCR_EVENT structure from the <a href="http://www.trustedcomputinggroup.org/developers/pc_client/specifications/">TCG PC Client spec</a>. You can create a correlation between lists of log events using the information in the <a href="http://research.microsoft.com/en-us/downloads/74c45746-24ad-4cb7-ba4b-0c6df2f92d5d/">TPM PCP Toolkit</a> and the <a href="http://www.trustedcomputinggroup.org/resources/tpm_main_specification">TPM Main Specification</a>. <div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct {
   TCG_PCRINDEX PCRIndex;
   TCG_EVENTTYPE EventType;
   TCG_DIGEST Digest;
   UINT32 EventSize;
   UINT8 Event[EventSize];
-} TCG_PCR_EVENT;
-```
-
-
+} TCG_PCR_EVENT;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The memory size required for the <i>pOutputBuf</i> parameter should either be the constant in <b>TBS_IN_OUT_BUF_SIZE_MAX</b>, defined in the Tbs.h header file, or it should be obtained by calling the <b>Tbsi_Get_TCG_Log</b> function with a zero length buffer to get the required buffer size.
@@ -325,10 +335,14 @@ The memory size required for the <i>pOutputBuf</i> parameter should either be th
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <tbs.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tbs.h&gt;
 #pragma comment(lib, "Tbs.lib")
 
 void main()
@@ -337,17 +351,17 @@ void main()
     TBS_HCONTEXT hContext;
     TBS_CONTEXT_PARAMS contextParams;
     contextParams.version = TBS_CONTEXT_VERSION_ONE;
-    result = Tbsi_Context_Create(&contextParams, &hContext);
+    result = Tbsi_Context_Create(&amp;contextParams, &amp;hContext);
     if (result == TBS_SUCCESS) 
     {
         UINT32 iLogSize = TBS_IN_OUT_BUF_SIZE_MAX;
         BYTE* pLogBuffer = new BYTE[iLogSize];
-        result = Tbsi_Get_TCG_Log(hContext, pLogBuffer, &iLogSize);
+        result = Tbsi_Get_TCG_Log(hContext, pLogBuffer, &amp;iLogSize);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

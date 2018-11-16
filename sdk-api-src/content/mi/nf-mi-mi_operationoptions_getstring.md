@@ -4,10 +4,10 @@ title: MI_OperationOptions_GetString function
 author: windows-sdk-content
 description: Gets a custom string option.
 old-location: wmi_v2\mi_operationoptions_getstring.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 1d1b9650-10c3-4e06-a841-6706ecc5f32c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_OperationOptions_GetString, MI_OperationOptions_GetString function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetString, wmi_v2.mi_operationoptions_getstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

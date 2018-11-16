@@ -4,10 +4,10 @@ title: TreeView_ShowInfoTip macro
 author: windows-sdk-content
 description: Shows the infotip for a specified item in a tree-view control. Use this macro or send the TVM_SHOWINFOTIP message explicitly.
 old-location: controls\TreeView_ShowInfoTip.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_showinfotip.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: TreeView_ShowInfoTip, TreeView_ShowInfoTip macro [Windows Controls], _shell_TreeView_ShowInfoTip, _shell_TreeView_ShowInfoTip_cpp, commctrl/TreeView_ShowInfoTip, controls.TreeView_ShowInfoTip, controls._shell_TreeView_ShowInfoTip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Shows the infotip for a specified item in a tree-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773779(v=VS.85).aspx">TVM_SHOWINFOTIP</a> message explicitly.
+Shows the infotip for a specified item in a tree-view control. Use this macro or send the <a href="https://msdn.microsoft.com/ed5a1bda-5754-4bb3-aa22-8faaf1af1268">TVM_SHOWINFOTIP</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ Handle to the item.
 
 
 
-Most applications do not use this macro. Infotips are shown automatically. For more information, see Using Tree-view Infotips in the <a href="https://msdn.microsoft.com/en-us/library/Bb760017(v=VS.85).aspx">About Tree-View Controls</a> overview.
+Most applications do not use this macro. Infotips are shown automatically. For more information, see Using Tree-view Infotips in the <a href="https://msdn.microsoft.com/10cc7949-dd77-412d-bad1-db8d8a049582">About Tree-View Controls</a> overview.
         	
 
 

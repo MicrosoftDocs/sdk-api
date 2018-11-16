@@ -7,7 +7,7 @@ old-location: shell\IShellMenu_GetMenu.htm
 tech.root: shell
 ms.assetid: b366d9c9-5dd3-43ee-99a1-417b9d907855
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetMenu, GetMenu method [Windows Shell], GetMenu method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetMenu method, IShellMenu.GetMenu, IShellMenu::GetMenu, _shell_IShellMenu_GetMenu, shell.IShellMenu_GetMenu, shobjidl_core/IShellMenu::GetMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

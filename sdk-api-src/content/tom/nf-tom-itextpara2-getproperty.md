@@ -4,10 +4,10 @@ title: ITextPara2::GetProperty
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextpara2_getproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 628ec2d7-2553-4a76-a5e6-c3a5bef3f8d6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetProperty method, ITextPara2.GetProperty, ITextPara2::GetProperty, controls.itextpara2_getproperty, tom/ITextPara2::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,12 +95,12 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomParaPropMathAlign</a> property sets the math alignment for math paragraphs in a text paragraph. It can have one of the following values.<dl>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignDefault</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignCenterGroup</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignCenter</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignLeft</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignRight</a></dd>
+The <a href="tomconstants.htm">tomParaPropMathAlign</a> property sets the math alignment for math paragraphs in a text paragraph. It can have one of the following values.<dl>
+<dd><a href="tomconstants.htm">tomMathParaAlignDefault</a></dd>
+<dd><a href="tomconstants.htm">tomMathParaAlignCenterGroup</a></dd>
+<dd><a href="tomconstants.htm">tomMathParaAlignCenter</a></dd>
+<dd><a href="tomconstants.htm">tomMathParaAlignLeft</a></dd>
+<dd><a href="tomconstants.htm">tomMathParaAlignRight</a></dd>
 </dl>
 
 

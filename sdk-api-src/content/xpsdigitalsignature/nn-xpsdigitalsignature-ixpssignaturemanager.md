@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturemanager.htm
 tech.root: printdocs
 ms.assetid: 31283ebe-91f4-42be-9a9b-6fcd641dc356
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], IXpsSignatureManager interface [XPS Documents and Packaging],described, xps.ixpssignaturemanager, xpsdigitalsignature/IXpsSignatureManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -178,7 +178,7 @@ Signs the contents of an  XPS package as specified by the signing options and re
 
 
 
-To initialize the signature manager for use with an XPS document, instantiate an <b>IXpsSignatureManager</b> interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> as shown in the following example.
+To initialize the signature manager for use with an XPS document, instantiate an <b>IXpsSignatureManager</b> interface by calling <a href="7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> as shown in the following example.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -216,7 +216,7 @@ if (SUCCEEDED(hr)) {
 </td>
 </tr>
 </table></span></div>
-The interface instantiated by <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> can be used by only one XPS document, which must be loaded by calling <a href="https://msdn.microsoft.com/ecb33eee-4622-4a2e-bc24-7a77d16ef4a4">LoadPackageFile</a> or <a href="https://msdn.microsoft.com/755bbd41-0941-4956-a99d-45b39f9b030f">LoadPackageStream</a> before
+The interface instantiated by <a href="7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> can be used by only one XPS document, which must be loaded by calling <a href="https://msdn.microsoft.com/ecb33eee-4622-4a2e-bc24-7a77d16ef4a4">LoadPackageFile</a> or <a href="https://msdn.microsoft.com/755bbd41-0941-4956-a99d-45b39f9b030f">LoadPackageStream</a> before
 calling any other method.
 
 After the <b>IXpsSignatureManager</b> interface has been instantiated and an XPS document has been loaded, the signature manager is ready for use.
@@ -229,7 +229,7 @@ After the <b>IXpsSignatureManager</b> interface has been instantiated and an XPS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>
 
 
 

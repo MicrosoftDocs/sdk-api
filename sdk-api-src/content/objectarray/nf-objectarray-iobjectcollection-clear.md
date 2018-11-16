@@ -7,7 +7,7 @@ old-location: shell\IObjectCollection_Clear.htm
 tech.root: shell
 ms.assetid: b32ce885-aafe-4c81-8e7a-74f67fa15180
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Clear, Clear method [Windows Shell], Clear method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],Clear method, IObjectCollection.Clear, IObjectCollection::Clear, _shell_IObjectCollection_Clear, objectarray/IObjectCollection::Clear, shell.IObjectCollection_Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

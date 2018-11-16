@@ -4,10 +4,10 @@ title: D2D1_COLORMATRIX_PROP
 author: windows-sdk-content
 description: Identifiers for the properties of the Color matrix effect.
 old-location: direct2d\d2d1_colormatrix_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7A171DAF-08E4-46FF-9FAF-54A83E805555
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_COLORMATRIX_PROP, D2D1_COLORMATRIX_PROP enumeration [Direct2D], D2D1_COLORMATRIX_PROP_ALPHA_MODE, D2D1_COLORMATRIX_PROP_CLAMP_OUTPUT, D2D1_COLORMATRIX_PROP_COLOR_MATRIX, d2d1effects/D2D1_COLORMATRIX_PROP, d2d1effects/D2D1_COLORMATRIX_PROP_ALPHA_MODE, d2d1effects/D2D1_COLORMATRIX_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_COLORMATRIX_PROP_COLOR_MATRIX, direct2d.d2d1_colormatrix_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for the properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706319(v=VS.85).aspx">Color matrix effect</a>.
+Identifiers for the properties of the <a href="https://msdn.microsoft.com/093EEEF1-8C38-414E-8261-58A6C3DD930D">Color matrix effect</a>.
 
 
 ## -enum-fields
@@ -63,7 +63,7 @@ Identifiers for the properties of the <a href="https://msdn.microsoft.com/en-us/
 A 5x4 matrix of float values. The elements in the matrix are not bounded and are unitless.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn958413(v=VS.85).aspx">D2D1_MATRIX_5X4_F</a>.
+The type is <a href="https://msdn.microsoft.com/c6f57691-1530-e57a-c1b4-b68b4d8967e3">D2D1_MATRIX_5X4_F</a>.
 
 The default value is the identity matrix, Matrix5x4F(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0).
 
@@ -73,7 +73,7 @@ The default value is the identity matrix, Matrix5x4F(1, 0, 0, 0, 0, 1, 0, 0, 0, 
 The alpha mode of the output. 
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934229(v=VS.85).aspx">D2D1_COLORMATRIX_ALPHA_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/7D7CB142-5758-4745-A4CD-41B3E2465562">D2D1_COLORMATRIX_ALPHA_MODE</a>.
 
 The default value is D2D1_COLORMATRIX_ALPHA_MODE_PREMULTIPLIED.
 

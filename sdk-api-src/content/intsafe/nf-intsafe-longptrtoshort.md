@@ -7,7 +7,7 @@ old-location: shell\LongPtrToShort.htm
 tech.root: shell
 ms.assetid: db3236c4-0eac-4484-b36c-fcfa3e148b42
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: LongPtrToShort, LongPtrToShort function [Windows Shell], intsafe/LongPtrToShort, shell.LongPtrToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

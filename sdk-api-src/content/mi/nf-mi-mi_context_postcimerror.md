@@ -4,10 +4,10 @@ title: MI_Context_PostCimError function
 author: windows-sdk-content
 description: Posts a return code and an error message (in the form of a CIM_Error object) to the server in response to a request.
 old-location: wmi_v2\mi_context_postcimerror.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 96ef9e97-467b-4b71-a7f9-4f640102e744
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Context_PostCimError, MI_Context_PostCimError function [Windows Management Infrastructure (MI)], mi/MI_Context_PostCimError, wmi.mi_postcimerror, wmi_v2.mi_context_postcimerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

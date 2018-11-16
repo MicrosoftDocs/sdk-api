@@ -4,10 +4,10 @@ title: IBDA_DigitalDemodulator2::get_GuardInterval
 author: windows-sdk-content
 description: Gets the demodulator's guard interval.
 old-location: mstv\ibda_digitaldemodulator2_get_guardinterval.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: e122fac7-bad8-4fbf-bf7d-ffbfad75a5d8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_GuardInterval method, IBDA_DigitalDemodulator2.get_GuardInterval, IBDA_DigitalDemodulator2::get_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::get_GuardInterval, get_GuardInterval, get_GuardInterval method [Microsoft TV Technologies], get_GuardInterval method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_guardinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ Gets the demodulator's guard interval.
 
 ### -param pGuardInterval [in, out]
 
-Receives the guard interval, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd693090(v=VS.85).aspx">GuardInterval</a> enumeration.
+Receives the guard interval, specified as a member of the <a href="https://msdn.microsoft.com/a3ff1c61-f80d-40f2-a22f-069f0690fb1b">GuardInterval</a> enumeration.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693285(v=VS.85).aspx">IBDA_DigitalDemodulator2</a>
+<a href="https://msdn.microsoft.com/337fba05-80d5-4638-9936-2e02767a5b1b">IBDA_DigitalDemodulator2</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\icspinformation_ishardwaredevice_property.htm
 tech.root: SecCertEnroll
 ms.assetid: d69ade8c-3b74-4391-9048-6511f3d7e9fa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICspInformation interface [Security],IsHardwareDevice property, ICspInformation.IsHardwareDevice, ICspInformation.get_IsHardwareDevice, ICspInformation::IsHardwareDevice, ICspInformation::get_IsHardwareDevice, IsHardwareDevice property [Security], IsHardwareDevice property [Security],ICspInformation interface, certenroll/ICspInformation::IsHardwareDevice, certenroll/ICspInformation::get_IsHardwareDevice, get_IsHardwareDevice, security.icspinformation_ishardwaredevice_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,13 +71,13 @@ This property is read-only.
 
 
 
-This property only specifies whether a provider is implemented in hardware. Because a provider can be implemented in both hardware and software, you cannot assume that a value of true for this property  indicates that there is no software component. You must also examine the <a href="https://msdn.microsoft.com/en-us/library/Aa376750(v=VS.85).aspx">IsSoftwareDevice</a> property. The following providers return true for the <b>IsHardwareDevice</b> property:<ul>
+This property only specifies whether a provider is implemented in hardware. Because a provider can be implemented in both hardware and software, you cannot assume that a value of true for this property  indicates that there is no software component. You must also examine the <a href="https://msdn.microsoft.com/50f78dcc-4d32-40c9-8153-f0b6ac72c03b">IsSoftwareDevice</a> property. The following providers return true for the <b>IsHardwareDevice</b> property:<ul>
 <li>Microsoft Smart Card Key Storage Provider</li>
 <li>Microsoft Base Smart Card Crypto Provider</li>
 </ul>
 
 
-Both of these providers also return true for the <a href="https://msdn.microsoft.com/en-us/library/Aa376750(v=VS.85).aspx">IsSoftwareDevice</a> property. The Certificate Enrollment service assumes that a provider is a smart card provider if both the <b>IsHardwareDevice</b> and <b>IsSoftwareDevice</b> properties are set, or if the <a href="https://msdn.microsoft.com/en-us/library/Aa376748(v=VS.85).aspx">IsRemovable</a> property is set.
+Both of these providers also return true for the <a href="https://msdn.microsoft.com/50f78dcc-4d32-40c9-8153-f0b6ac72c03b">IsSoftwareDevice</a> property. The Certificate Enrollment service assumes that a provider is a smart card provider if both the <b>IsHardwareDevice</b> and <b>IsSoftwareDevice</b> properties are set, or if the <a href="https://msdn.microsoft.com/ee67670b-80a9-4637-a5ed-84d3430853ea">IsRemovable</a> property is set.
 
 
 
@@ -87,7 +87,7 @@ Both of these providers also return true for the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
  
 
  

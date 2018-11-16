@@ -7,7 +7,7 @@ old-location: multimedia\mmiocreatechunk.htm
 tech.root: Multimedia
 ms.assetid: 45b03f8c-1b79-4004-b5e1-e739138375c2
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_mmioCreateChunk, mmioCreateChunk, mmioCreateChunk function [Windows Multimedia], mmsystem/mmioCreateChunk, multimedia.mmiocreatechunk"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,22 +77,10 @@ File handle of an open RIFF file.
 
 ### -param pmmcki
 
-TBD
-
-
-### -param fuCreate
-
-TBD
-
-
-
-
-#### - lpck
-
 Pointer to a buffer that receives a <a href="https://msdn.microsoft.com/5ea2569f-a15b-47f4-8d86-0bc005019984">MMCKINFO</a> structure containing information about the chunk to be created.
 
 
-#### - wFlags
+### -param fuCreate
 
 Flags identifying what type of chunk to create. The following values are defined.
 

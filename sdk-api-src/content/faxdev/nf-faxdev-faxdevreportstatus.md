@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevreportstatus.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_65gz.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: FaxDevReportStatus, FaxDevReportStatus function [Fax Service], _mfax_faxdevreportstatus, fax._mfax_faxdevreportstatus, faxdev/FaxDevReportStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,14 @@ The fax service calls the <b>FaxDevReportStatus</b> function to query a fax serv
 
 Type: <b>HANDLE</b>
 
-Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a> function that is associated with the fax job.
+Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/40f647ba-05ed-453a-8eea-729b2f59ac05">FaxDevStartJob</a> function that is associated with the fax job.
 
 
 ### -param FaxStatus [out]
 
 Type: <b>PFAX_DEV_STATUS</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure that receives status and identification information. This parameter can also be a <b>NULL</b> pointer. For more information, see the following Remarks section.
+Pointer to a <a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">FAX_DEV_STATUS</a> structure that receives status and identification information. This parameter can also be a <b>NULL</b> pointer. For more information, see the following Remarks section.
 
 
 ### -param FaxStatusSize [in]
@@ -89,7 +89,7 @@ Specifies the size, in bytes, of the buffer pointed to by the <i>FaxStatus</i> p
 
 Type: <b>LPDWORD</b>
 
-Pointer to a variable that receives the calculated size, in bytes, of the buffer required to hold a <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure. For more information, see the following Remarks section.
+Pointer to a variable that receives the calculated size, in bytes, of the buffer required to hold a <a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">FAX_DEV_STATUS</a> structure. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -114,10 +114,10 @@ If the function fails, the return value is zero. To get extended error informati
 To obtain status information for the operation, the <b>FaxDevReportStatus</b> function is called asynchronously on an execution thread that is independent of the fax operation. It is usually necessary to synchronize access by multiple threads. For more information, see <a href="https://msdn.microsoft.com/74af0502-dae1-438c-8e4b-7663093b3fe3">Synchronizing Execution of Multiple Threads</a>. 
             
 
-If the <i>FaxStatusSize</i> parameter is equal to zero, and <i>FaxStatus</i> is a <b>NULL</b> pointer, the FSP must calculate the size, in bytes, of the buffer required to hold a <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure. The FSP must return this value in the <i>FaxStatusSizeRequired</i> parameter. The fax service will then allocate the required memory. It will also return both the memory size in the <i>FaxStatusSize</i> parameter, and a pointer to that memory in the <i>FaxStatus</i> parameter. 
+If the <i>FaxStatusSize</i> parameter is equal to zero, and <i>FaxStatus</i> is a <b>NULL</b> pointer, the FSP must calculate the size, in bytes, of the buffer required to hold a <a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">FAX_DEV_STATUS</a> structure. The FSP must return this value in the <i>FaxStatusSizeRequired</i> parameter. The fax service will then allocate the required memory. It will also return both the memory size in the <i>FaxStatusSize</i> parameter, and a pointer to that memory in the <i>FaxStatus</i> parameter. 
             
 
-The FSP must set all of the members of the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure with status information for the active fax operation. The fax service allocates the memory for the strings pointed to by the <b>CSI</b>, <b>CallerId</b>, and <b>RoutingInfo</b> members. The size of the memory the service allocates is equal to <b>sizeof(FAX_DEV_STATUS) + FAXDEVREPORTSTATUS_SIZE</b>. The FSP must place the strings in the block of memory that immediately follows the <b>FAX_DEV_STATUS</b> structure. The <b>CSI</b>, <b>CallerId</b>, and <b>RoutingInfo</b> members must point to the location of the strings in the memory block.
+The FSP must set all of the members of the <a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">FAX_DEV_STATUS</a> structure with status information for the active fax operation. The fax service allocates the memory for the strings pointed to by the <b>CSI</b>, <b>CallerId</b>, and <b>RoutingInfo</b> members. The size of the memory the service allocates is equal to <b>sizeof(FAX_DEV_STATUS) + FAXDEVREPORTSTATUS_SIZE</b>. The FSP must place the strings in the block of memory that immediately follows the <b>FAX_DEV_STATUS</b> structure. The <b>CSI</b>, <b>CallerId</b>, and <b>RoutingInfo</b> members must point to the location of the strings in the memory block.
             
 
 
@@ -128,19 +128,19 @@ The FSP must set all of the members of the <a href="https://msdn.microsoft.com/e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a>
+<a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">FAX_DEV_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/402583fd-aef8-4197-a41e-870825c58351">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
+<a href="https://msdn.microsoft.com/40f647ba-05ed-453a-8eea-729b2f59ac05">FaxDevStartJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://msdn.microsoft.com/a8788e8a-e97c-4082-8e89-b6f4a7568d3a">Using the Fax Service Provider API</a>
  
 
  

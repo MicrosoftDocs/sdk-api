@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectiontype_getmembertypename.htm
 tech.root: direct3d11
 ms.assetid: 81f26565-f85a-4740-af3f-92b760d8b72f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetMemberTypeName, GetMemberTypeName method [Direct3D 11], GetMemberTypeName method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetMemberTypeName method, ID3D11ShaderReflectionType.GetMemberTypeName, ID3D11ShaderReflectionType::GetMemberTypeName, d3d11shader/ID3D11ShaderReflectionType::GetMemberTypeName, direct3d11.id3d11shaderreflectiontype_getmembertypename, f251ed0c-ec44-be56-47ea-1524e2323451
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ Get a shader-reflection-variable type.
 
 ### -param Index [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Zero-based index.
 
@@ -77,7 +77,7 @@ Zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
 The variable type.
 
@@ -98,7 +98,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>
+<a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>
  
 
  

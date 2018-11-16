@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountset_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\faxinta_n_ifaxaccountset.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxAccountSet, IFaxAccountSet interface [Fax Service], IFaxAccountSet interface [Fax Service],described, _mfax_faxaccountset_cpp, fax._mfax_faxaccountset_cpp, faxcomex/IFaxAccountSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,13 +50,13 @@ req.redist:
 ## -description
 
 
-Provides methods for <a href="https://msdn.microsoft.com/en-us/library/Aa358860(v=VS.85).aspx">fax account</a> management, including adding, removing, and retrieving fax accounts. 
+Provides methods for <a href="https://msdn.microsoft.com/ede1c31f-e53a-4ddc-ba25-6fcadadd513a">fax account</a> management, including adding, removing, and retrieving fax accounts. 
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountSet</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccountSet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountSet</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxAccountSet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,34 +71,34 @@ The <b>IFaxAccountSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359013(v=VS.85).aspx">AddAccount</a>
+<a href="https://msdn.microsoft.com/0d9093b3-4c30-409d-b2f0-dbb87f5b009b">AddAccount</a>
 </td>
 <td align="left" width="63%">
-Adds a fax account to the fax server and returns the new <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
+Adds a fax account to the fax server and returns the new <a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359015(v=VS.85).aspx">GetAccount</a>
+<a href="https://msdn.microsoft.com/ccb844f1-fb6b-45dd-a1e6-cd4a0643a3fb">GetAccount</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object by using the account name.
+Returns an <a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a> object by using the account name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359016(v=VS.85).aspx">GetAccounts</a>
+<a href="https://msdn.microsoft.com/c55ddf0c-9aef-4999-ba20-8da34afad311">GetAccounts</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/en-us/library/Aa359019(v=VS.85).aspx">IFaxAccounts</a> object that represents all the fax accounts on the fax server.
+Returns an <a href="https://msdn.microsoft.com/73210bf5-cae8-4fea-802a-a37f59a1dd2f">IFaxAccounts</a> object that represents all the fax accounts on the fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359017(v=VS.85).aspx">RemoveAccount</a>
+<a href="https://msdn.microsoft.com/c61e8fe5-d4f0-4e47-91af-05799208f8fd">RemoveAccount</a>
 </td>
 <td align="left" width="63%">
 Removes a fax account from the fax server.
@@ -112,7 +112,7 @@ Removes a fax account from the fax server.
 
 
 
-A default implementation of <b>IFaxAccountSet</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/Aa358935(v=VS.85).aspx">FaxAccountSet</a> object. The interface and the object are supported only on Windows Vista or later.
+A default implementation of <b>IFaxAccountSet</b> is provided as the <a href="https://msdn.microsoft.com/ae298925-c428-420e-a0a2-ce3f72c5cff4">FaxAccountSet</a> object. The interface and the object are supported only on Windows Vista or later.
 
 
 

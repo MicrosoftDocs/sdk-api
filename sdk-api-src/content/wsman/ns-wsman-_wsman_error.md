@@ -7,7 +7,7 @@ old-location: winrm\wsman_error_struct.htm
 tech.root: WinRM
 ms.assetid: 6705b560-9c72-4cb9-a290-f7c65cd470b2
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: WSMAN_ERROR, WSMAN_ERROR structure [Windows Remote Management], _WSMAN_ERROR, winrm.wsman_error_struct, wsman/WSMAN_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices

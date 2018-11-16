@@ -4,10 +4,10 @@ title: CreateSecurityPage function
 author: windows-sdk-content
 description: Creates a basic security property page that enables the user to view and edit the access rights allowed or denied by the access control entries (ACEs) in an object's discretionary access control list (DACL).
 old-location: security\createsecuritypage.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 52cb20fd-7f3a-4984-a898-f4b9e9738e1a
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CreateSecurityPage, CreateSecurityPage function [Security], _win32_createsecuritypage, aclui/CreateSecurityPage, security.createsecuritypage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,8 +58,8 @@ req.redist:
 
 The <b>CreateSecurityPage</b> function creates a 
 <a href="https://msdn.microsoft.com/6623fe7e-e91d-49c7-9ad0-7791c178d12b">basic security property page</a> that enables the user to view and edit the access rights allowed or denied by the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) in an object's <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL). Use the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function or the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774573(v=VS.85).aspx">PSM_ADDPAGE</a> message to add this page to a property sheet.
+<a href="_win32_propertysheet_cpp">PropertySheet</a> function or the 
+<a href="_win32_psm_addpage_cpp">PSM_ADDPAGE</a> message to add this page to a property sheet.
 		
 
 
@@ -110,7 +110,7 @@ The basic security property page can include an <b>Advanced</b> button for displ
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="authorization_functions.htm">Access Control Editor Functions</a>
 
 
 
@@ -126,11 +126,11 @@ The basic security property page can include an <b>Advanced</b> button for displ
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774573(v=VS.85).aspx">PSM_ADDPAGE</a>
+<a href="_win32_psm_addpage_cpp">PSM_ADDPAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a>
+<a href="_win32_propertysheet_cpp">PropertySheet</a>
 
 
 

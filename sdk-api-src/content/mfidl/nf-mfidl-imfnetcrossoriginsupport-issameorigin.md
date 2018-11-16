@@ -7,7 +7,7 @@ old-location: mf\imfnetcrossoriginsupport_issameorigin.htm
 tech.root: medfound
 ms.assetid: E19294E1-92F5-4387-8C9E-FC0F9F9E46E3
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IMFNetCrossOriginSupport interface [Media Foundation],IsSameOrigin method, IMFNetCrossOriginSupport.IsSameOrigin, IMFNetCrossOriginSupport::IsSameOrigin, IsSameOrigin, IsSameOrigin method [Media Foundation], IsSameOrigin method [Media Foundation],IMFNetCrossOriginSupport interface, mf.imfnetcrossoriginsupport_issameorigin, mfidl/IMFNetCrossOriginSupport::IsSameOrigin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,12 +67,12 @@ Returns true when the specified URL has the same origin as the HTML5 media eleme
 
 
 
-### -param wszURL [in] [in]
+### -param wszURL [in]
 
 TBD
 
 
-### -param pfIsSameOrigin [out] [out]
+### -param pfIsSameOrigin [out]
 
 TBD
 
@@ -91,7 +91,7 @@ Returns S_OK upon successful completion.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846740(v=VS.85).aspx">IMFNetCrossOriginSupport</a>
+<a href="mf.imfnetcrossoriginsupport">IMFNetCrossOriginSupport</a>
  
 
  

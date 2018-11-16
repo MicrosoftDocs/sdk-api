@@ -4,10 +4,10 @@ title: IComponents::put_Item
 author: windows-sdk-content
 description: The put_Item method inserts a component into the collection, replacing the item that is identified by the specified index.
 old-location: mstv\icomponents_put_item.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: c1e18e97-e8d3-441c-b7ea-6743e478033b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],put_Item method, IComponents.put_Item, IComponents::put_Item, IComponentsput_Item, mstv.icomponents_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],IComponents interface, tuner/IComponents::put_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,14 +74,7 @@ The <b>put_Item</b> method inserts a component into the collection, replacing th
 Specifies the index to assign to the component. This parameter is a value of type <b>VARIANT</b>.
 
 
-### -param ppComponent
-
-TBD
-
-
-
-
-#### - pComponent [in]
+### -param ppComponent [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/516b30ba-4f55-49b7-8085-d436bf4a94e1">IComponent</a> interface of the component object. The method creates a clone of the component and inserts the clone into the collection.
 

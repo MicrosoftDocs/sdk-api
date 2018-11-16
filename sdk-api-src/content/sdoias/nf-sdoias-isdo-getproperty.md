@@ -75,7 +75,7 @@ Specifies the ID of an existing property.
 ### -param pValue [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> that contains the value of the property.
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> that contains the value of the property.
 
 
 ## -returns
@@ -106,7 +106,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>
  
 
  

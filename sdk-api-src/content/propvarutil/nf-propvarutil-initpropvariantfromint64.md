@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromInt64.htm
 tech.root: properties
 ms.assetid: 2a2a5348-4d3d-475c-8039-097b4dacf7cb
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: InitPropVariantFromInt64, InitPropVariantFromInt64 function [Windows Properties], properties.InitPropVariantFromInt64, propvarutil/InitPropVariantFromInt64, shell.InitPropVariantFromInt64, shell_InitPropVariantFromInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,7 +100,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762301(v=VS.85).aspx">InitPropVariantFromInt64</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt64">InitPropVariantFromInt64</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762331(v=VS.85).aspx">InitVariantFromInt64</a>
+<a href="shell.InitVariantFromInt64">InitVariantFromInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776554(v=VS.85).aspx">PropVariantToInt64</a>
+<a href="shell.PropVariantToInt64">PropVariantToInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776558(v=VS.85).aspx">PropVariantToInt64WithDefault</a>
+<a href="shell.PropVariantToInt64WithDefault">PropVariantToInt64WithDefault</a>
  
 
  

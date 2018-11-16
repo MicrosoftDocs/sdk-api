@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_asrendertargetview.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asrendertargetview.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 4e1e798b-0790-d8d7-5dc5-8b7d7e7de483, AsRenderTargetView, AsRenderTargetView method [Direct3D 10], AsRenderTargetView method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsRenderTargetView method, ID3D10EffectVariable.AsRenderTargetView, ID3D10EffectVariable::AsRenderTargetView, d3d10effect/ID3D10EffectVariable::AsRenderTargetView, direct3d10.id3d10effectvariable_asrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,9 @@ Get a render-target-view variable.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173672(v=VS.85).aspx">ID3D10EffectRenderTargetViewVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/71f158ed-9e0f-464c-b30f-4f8958d3f1a1">ID3D10EffectRenderTargetViewVariable</a>*</b>
 
-A pointer to a render-target-view variable. See <a href="https://msdn.microsoft.com/en-us/library/Bb173672(v=VS.85).aspx">ID3D10EffectRenderTargetViewVariable Interface</a>.
+A pointer to a render-target-view variable. See <a href="https://msdn.microsoft.com/71f158ed-9e0f-464c-b30f-4f8958d3f1a1">ID3D10EffectRenderTargetViewVariable Interface</a>.
 
 
 
@@ -85,7 +85,7 @@ A pointer to a render-target-view variable. See <a href="https://msdn.microsoft.
 
 This method returns a version of the effect variable that has been specialized to a render-target-view variable. Similar to a cast, this specialization will return an invalid object if the effect variable does not contain render-target-view data.
 
-Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">IsValid</a>.
+Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/b27f1669-94a1-4971-bd8f-e5a56f43560f">IsValid</a>.
 
 
 
@@ -95,7 +95,7 @@ Applications can test the returned object for validity by calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

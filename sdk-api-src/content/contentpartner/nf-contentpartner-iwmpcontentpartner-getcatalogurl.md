@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_getcatalogurl.htm
 tech.root: WMP
 ms.assetid: 291440d5-b6d3-4586-98d2-3f7c56da29aa
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetCatalogURL, GetCatalogURL method [Windows Media Player], GetCatalogURL method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetCatalogURL method, IWMPContentPartner.GetCatalogURL, IWMPContentPartner::GetCatalogURL, IWMPContentPartnerGetCatalogURL, contentpartner/IWMPContentPartner::GetCatalogURL, wmp.iwmpcontentpartner_getcatalogurl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,15 +143,15 @@ We recommend that the catalog URL specify the version as part of the path. For e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd562583(v=VS.85).aspx">Catalog Compiler for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/49c03d3b-3381-4663-83c8-5bc8fa70f7c3">Catalog Compiler for Type 1 Online Stores</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563899(v=VS.85).aspx">Music Catalog</a>
+<a href="https://msdn.microsoft.com/d7ebf37f-00ae-4978-a63d-9d13741724f5">Music Catalog</a>
  
 
  

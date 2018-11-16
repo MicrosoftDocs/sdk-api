@@ -7,7 +7,7 @@ old-location: htmlhelp\iitproplist_set2.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsetpointertobuffer.htm
 ms.author: windowssdkdev
-ms.date: 10/22/2018
+ms.date: 11/15/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],Set method, IITPropList.Set, IITPropList.Set(PROPID,LPVOID,DWORD,DWORD), IITPropList::Set, IITPropList::Set(PROPID,LPVOID,DWORD,DWORD), PROP_ADD, PROP_DELETE, PROP_UPDATE, Set, Set method [HTML Help Workshop], Set method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_set2, infotech/IITPropList::Set, refIITPropListSetPointerToBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -230,7 +230,7 @@ Use this method to set properties stored in a buffer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://msdn.microsoft.com/09200749-bd1d-4266-895e-29e21525bac2">IITPropList</a>
  
 
  

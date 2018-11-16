@@ -7,7 +7,7 @@ old-location: winmsg\getsystemmetrics.htm
 tech.root: winmsg
 ms.assetid: d063857b-6036-4e68-80af-9c70d12ae29e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetSystemMetrics, GetSystemMetrics function [Windows and Messages], SM_ARRANGE, SM_CLEANBOOT, SM_CMONITORS, SM_CMOUSEBUTTONS, SM_CONVERTIBLESLATEMODE, SM_CXBORDER, SM_CXCURSOR, SM_CXDLGFRAME, SM_CXDOUBLECLK, SM_CXDRAG, SM_CXEDGE, SM_CXFIXEDFRAME, SM_CXFOCUSBORDER, SM_CXFRAME, SM_CXFULLSCREEN, SM_CXHSCROLL, SM_CXHTHUMB, SM_CXICON, SM_CXICONSPACING, SM_CXMAXIMIZED, SM_CXMAXTRACK, SM_CXMENUCHECK, SM_CXMENUSIZE, SM_CXMIN, SM_CXMINIMIZED, SM_CXMINSPACING, SM_CXMINTRACK, SM_CXPADDEDBORDER, SM_CXSCREEN, SM_CXSIZE, SM_CXSIZEFRAME, SM_CXSMICON, SM_CXSMSIZE, SM_CXVIRTUALSCREEN, SM_CXVSCROLL, SM_CYBORDER, SM_CYCAPTION, SM_CYCURSOR, SM_CYDLGFRAME, SM_CYDOUBLECLK, SM_CYDRAG, SM_CYEDGE, SM_CYFIXEDFRAME, SM_CYFOCUSBORDER, SM_CYFRAME, SM_CYFULLSCREEN, SM_CYHSCROLL, SM_CYICON, SM_CYICONSPACING, SM_CYKANJIWINDOW, SM_CYMAXIMIZED, SM_CYMAXTRACK, SM_CYMENU, SM_CYMENUCHECK, SM_CYMENUSIZE, SM_CYMIN, SM_CYMINIMIZED, SM_CYMINSPACING, SM_CYMINTRACK, SM_CYSCREEN, SM_CYSIZE, SM_CYSIZEFRAME, SM_CYSMCAPTION, SM_CYSMICON, SM_CYSMSIZE, SM_CYVIRTUALSCREEN, SM_CYVSCROLL, SM_CYVTHUMB, SM_DBCSENABLED, SM_DEBUG, SM_DIGITIZER, SM_IMMENABLED, SM_MAXIMUMTOUCHES, SM_MEDIACENTER, SM_MENUDROPALIGNMENT, SM_MIDEASTENABLED, SM_MOUSEHORIZONTALWHEELPRESENT, SM_MOUSEPRESENT, SM_MOUSEWHEELPRESENT, SM_NETWORK, SM_PENWINDOWS, SM_REMOTECONTROL, SM_REMOTESESSION, SM_SAMEDISPLAYFORMAT, SM_SECURE, SM_SERVERR2, SM_SHOWSOUNDS, SM_SHUTTINGDOWN, SM_SLOWMACHINE, SM_STARTER, SM_SWAPBUTTON, SM_SYSTEMDOCKED, SM_TABLETPC, SM_XVIRTUALSCREEN, SM_YVIRTUALSCREEN, _win32_getsystemmetrics, base.getsystemmetrics, getsystemmetrics_cpp, winmsg.getsystemmetrics, winui.getsystemmetrics, winuser/GetSystemMetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -309,7 +309,7 @@ The width of the thumb box in a horizontal scroll bar, in pixels.
 </td>
 <td width="60%">
 The default width of an icon, in pixels. The 
-       <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> function can load only icons with the  dimensions that SM_CXICON and SM_CYICON specifies.
+       <a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a> function can load only icons with the  dimensions that SM_CXICON and SM_CYICON specifies.
 
 </td>
 </tr>
@@ -345,7 +345,7 @@ The default width, in pixels, of a maximized top-level window on the primary dis
 The default maximum width of a window that has a caption and sizing borders, in pixels. This metric
        refers to the entire desktop. The user cannot drag the window frame to a size larger than these dimensions. A
        window can override this value by processing the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a> message.
+       <a href="_win32_wm_getminmaxinfo_cpp">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>
@@ -415,7 +415,7 @@ The width of a grid cell for a minimized window, in pixels. Each minimized windo
 <td width="60%">
 The minimum tracking width of a window, in pixels. The user cannot drag the window frame to a size
        smaller than these dimensions. A window can override this value by processing the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a> message.
+       <a href="_win32_wm_getminmaxinfo_cpp">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>
@@ -681,7 +681,7 @@ The height of a horizontal scroll bar, in
 </td>
 <td width="60%">
 The default height of an icon, in pixels. The 
-       <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> function can load only icons with the
+       <a href="_win32_loadicon_cpp">LoadIcon</a> function can load only icons with the
        dimensions SM_CXICON and SM_CYICON.
 
 </td>
@@ -730,7 +730,7 @@ The default height, in pixels, of a maximized top-level window on the primary di
 The default maximum height of a window that has a caption and sizing borders, in pixels. This metric
        refers to the entire desktop. The user cannot drag the window frame to a size larger than these dimensions. A
        window can override this value by processing the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a> message.
+       <a href="_win32_wm_getminmaxinfo_cpp">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>
@@ -811,7 +811,7 @@ The height of a grid cell for a minimized window, in pixels. Each minimized wind
 <td width="60%">
 The minimum tracking height of a window, in pixels. The user cannot drag the window frame to a size
        smaller than these dimensions. A window can override this value by processing the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a> message.
+       <a href="_win32_wm_getminmaxinfo_cpp">WM_GETMINMAXINFO</a> message.
 
 </td>
 </tr>

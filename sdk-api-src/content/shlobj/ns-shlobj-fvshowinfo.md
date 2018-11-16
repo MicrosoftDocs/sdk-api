@@ -7,7 +7,7 @@ old-location: shell\FVSHOWINFO.htm
 tech.root: shell
 ms.assetid: 8f399964-1ce4-4a9c-8cea-650a698783d3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPFVSHOWINFO, FVSHOWINFO, FVSHOWINFO structure [Windows Shell], FVSIF_CANVIEWIT, FVSIF_NEWFAILED, FVSIF_NEWFILE, FVSIF_PINNED, FVSIF_RECT, LPFVSHOWINFO, LPFVSHOWINFO structure pointer [Windows Shell], _win32_FVSHOWINFO, shell.FVSHOWINFO, shlobj/FVSHOWINFO, shlobj/LPFVSHOWINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ A window handle to the owner of the window where the file will be displayed.
 
 Type: <b>int</b>
 
-The show command for the window. This parameter is one of the <b>SW_</b> values detailed in <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>.
+The show command for the window. This parameter is one of the <b>SW_</b> values detailed in <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>.
 
 
 ### -field dwFlags

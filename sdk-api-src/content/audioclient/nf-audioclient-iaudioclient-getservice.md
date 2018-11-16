@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_getservice.htm
 tech.root: CoreAudio
 ms.assetid: 233d4471-037f-4df9-bef6-57f2544dedb5
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetService, GetService method [Core Audio], GetService method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetService method, IAudioClient.GetService, IAudioClient::GetService, IAudioClientGetService, audioclient/IAudioClient::GetService, coreaudio.iaudioclient_getservice
 ms.prod: windows-hardware
 ms.technology: windows-devices

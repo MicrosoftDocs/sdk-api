@@ -4,10 +4,10 @@ title: GetClusterKey function
 author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a cluster.
 old-location: mscs\getclusterkey.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ddec12fc-6d4d-411d-ab24-6fb60175ba7b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetClusterKey, GetClusterKey function [Failover Cluster], _wolf_getclusterkey, clusapi/GetClusterKey, mscs.getclusterkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,8 +59,8 @@ req.redist:
 
 
 Opens the root of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> subtree for a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> subtree for a 
+    <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Handle to a cluster.
 
 Access mask that describes the security access needed for the new key. For more information and possible 
       values, see 
-      <a href="https://msdn.microsoft.com/en-us/library/ms724878(v=VS.85).aspx">Registry Key Security and Access Rights</a>.
+      <a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.
 
 
 ## -returns
@@ -99,7 +99,7 @@ If the operation fails, the function returns <b>NULL</b>. For more information a
 The <b>GetClusterKey</b> function returns a handle to a 
     cluster database key representing the cluster database subtree root for the cluster identified by 
     <i>hCluster</i>. Callers should call 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa368989(v=VS.85).aspx">ClusterRegCloseKey</a> to close the key handle 
+    <a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a> to close the key handle 
     retrieved by <b>GetClusterKey</b> when they are done with it.
 
 
@@ -110,7 +110,7 @@ The <b>GetClusterKey</b> function returns a handle to a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368989(v=VS.85).aspx">ClusterRegCloseKey</a>
+<a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a>
 
 
 

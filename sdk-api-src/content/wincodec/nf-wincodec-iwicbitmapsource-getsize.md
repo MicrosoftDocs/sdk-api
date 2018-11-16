@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapsource_getsize.htm
 tech.root: wic
 ms.assetid: 2fba35fd-288c-4095-83b8-d2320dc5916c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetSize, GetSize method [Windows Imaging Component], GetSize method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],GetSize method, IWICBitmapSource.GetSize, IWICBitmapSource::GetSize, _wic_codec_iwicbitmapsource_getsize, wic._wic_codec_iwicbitmapsource_getsize, wincodec/IWICBitmapSource::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

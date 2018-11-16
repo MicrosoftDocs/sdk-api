@@ -4,10 +4,10 @@ title: RpcSmDestroyClientContext function
 author: windows-sdk-content
 description: The RpcSmDestroyClientContext function reclaims the client memory resources for a context handle and makes the context handle NULL.
 old-location: rpc\rpcsmdestroyclientcontext.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: ae886740-09e9-46a1-aa62-5dbcf6abab36
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: RpcSmDestroyClientContext, RpcSmDestroyClientContext function [RPC], _rpc_rpcsmdestroyclientcontext, rpc.rpcsmdestroyclientcontext, rpcndr/RpcSmDestroyClientContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\createic.htm
 tech.root: gdi
 ms.assetid: dcb08ce7-9ded-497c-936c-48d3026a0004
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: CreateIC, CreateIC function [Windows GDI], CreateICA, CreateICW, _win32_CreateIC, gdi.createic, wingdi/CreateIC, wingdi/CreateICA, wingdi/CreateICW
 ms.prod: windows-hardware
 ms.technology: windows-devices

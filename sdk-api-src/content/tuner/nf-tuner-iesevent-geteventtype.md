@@ -4,10 +4,10 @@ title: IESEvent::GetEventType
 author: windows-sdk-content
 description: Gets the GUID that identifies an event that is derived from the IESEvent interface. The GUID is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_geteventtype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 8418116a-2393-4a1b-8c5b-2356d373e426
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetEventType, GetEventType method [Microsoft TV Technologies], GetEventType method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetEventType method, IESEvent.GetEventType, IESEvent::GetEventType, mstv.iesevent_geteventtype, tuner/IESEvent::GetEventType
 ms.prod: windows-hardware
 ms.technology: windows-devices

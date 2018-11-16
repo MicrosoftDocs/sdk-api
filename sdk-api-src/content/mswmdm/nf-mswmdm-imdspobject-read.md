@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_read.htm
 tech.root: WMDM
 ms.assetid: 1acf4112-0cb8-47e4-b8dc-3e820c0ef72f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Read method, IMDSPObject.Read, IMDSPObject::Read, IMDSPObjectRead, Read, Read method [windows Media Device Manager], Read method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Read, wmdm.imdspobject_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,14 +80,7 @@ Pointer to a buffer to receive the data read from the object. This parameter is 
 Pointer to a <b>DWORD</b> specifying the number of bytes of data to read. Upon return, this parameter contains the actual amount of data read. This parameter must be included in the input message authentication code.
 
 
-### -param abMac
-
-TBD
-
-
-
-
-#### - abMac[WMDM_MAC_LENGTH] [in, out]
+### -param abMac [in, out]
 
 Array of eight bytes containing the message authentication code for the parameter data of this method. (WMDM_MAC_LENGTH is defined as 8.)
 

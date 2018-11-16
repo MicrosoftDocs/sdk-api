@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDataCallback_BandedDataCallback.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatacallback\bandeddatacallback.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: BandedDataCallback, BandedDataCallback method [WIA], BandedDataCallback method [WIA],IWiaDataCallback interface, IT_MSG_DATA, IT_MSG_DATA_HEADER, IT_MSG_DEVICE_STATUS, IT_MSG_FILE_PREVIEW_DATA, IT_MSG_FILE_PREVIEW_DATA_HEADER, IT_MSG_NEW_PAGE, IT_MSG_STATUS, IT_MSG_TERMINATION, IT_STATUS_PROCESSING_DATA, IT_STATUS_TRANSFER_FROM_DEVICE, IT_STATUS_TRANSFER_TO_CLIENT, IWiaDataCallback interface [WIA],BandedDataCallback method, IWiaDataCallback.BandedDataCallback, IWiaDataCallback::BandedDataCallback, _wia_IWiaDataCallback_BandedDataCallback, wia._wia_IWiaDataCallback_BandedDataCallback, wia_xp/IWiaDataCallback::BandedDataCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Provides data transfer status notifications. Windows Image Acquisition (WIA) data transfer methods of the <a href="https://msdn.microsoft.com/en-us/library/ms630155(v=VS.85).aspx">IWiaDataTransfer</a> interface periodically call this method. 
+Provides data transfer status notifications. Windows Image Acquisition (WIA) data transfer methods of the <a href="https://msdn.microsoft.com/565e48b7-30c5-4c8b-ae4a-071c2e90b2f9">IWiaDataTransfer</a> interface periodically call this method. 
 
 
 ## -parameters
@@ -204,7 +204,7 @@ If the method succeeds, the method returns S_OK. To cancel the data transfer, it
 
 
 
-Your application must provide the <b>IWiaDataCallback::BandedDataCallback</b> method. This method is periodically invoked by the data transfer methods of the <a href="https://msdn.microsoft.com/en-us/library/ms630155(v=VS.85).aspx">IWiaDataTransfer</a> interface. It provides status messages to the application during the data transfer. By returning S_FALSE, your program can also use this method to prematurely terminate the data transfer.
+Your application must provide the <b>IWiaDataCallback::BandedDataCallback</b> method. This method is periodically invoked by the data transfer methods of the <a href="https://msdn.microsoft.com/565e48b7-30c5-4c8b-ae4a-071c2e90b2f9">IWiaDataTransfer</a> interface. It provides status messages to the application during the data transfer. By returning S_FALSE, your program can also use this method to prematurely terminate the data transfer.
 
 When this method is invoked, the <i>lMessage</i> parameter will contain the reason for the call. Not all parameters will contain data on all calls. For example, when <b>IWiaDataCallback::BandedDataCallback</b> is invoked with a message of IT_MSG_TERMINATION, it should not attempt to use the values in the <i>pbBuffer</i>, <i>lOffset</i>, and <i>lLength</i> parameters.
 
@@ -212,18 +212,18 @@ If the value of <i>lMessage</i> is IT_MSG_DATA, the buffer pointed to by <i>pbBu
 
 During calls where <i>lMessage</i> is set to IT_MSG_DATA or IT_MSG_STATUS, the <i>lStatus</i> parameter contains a valid value. Its contents should not be used when <i>lMessage</i> contains other values.
 
-If <i>lMessage</i> is IT_MSG_DATA_HEADER, the <i>pbBuffer</i> parameter points to a <a href="https://msdn.microsoft.com/en-us/library/ms629869(v=VS.85).aspx">WIA_DATA_CALLBACK_HEADER</a> structure.
+If <i>lMessage</i> is IT_MSG_DATA_HEADER, the <i>pbBuffer</i> parameter points to a <a href="https://msdn.microsoft.com/0ae87b58-7236-48c1-adb0-cad133c909c0">WIA_DATA_CALLBACK_HEADER</a> structure.
 
-When an error has occurred during an image data transfer, the driver sets <i>lMessage</i> to IT_MSG_DEVICE_STATUS. The proxy callback object calls <a href="https://msdn.microsoft.com/en-us/library/ms630127(v=VS.85).aspx">ReportStatus</a>, which handles the error and displays messages to the user. 
+When an error has occurred during an image data transfer, the driver sets <i>lMessage</i> to IT_MSG_DEVICE_STATUS. The proxy callback object calls <a href="https://msdn.microsoft.com/23e85c63-80b9-4510-854d-289c8d23be2d">ReportStatus</a>, which handles the error and displays messages to the user. 
 
 
 #### Examples
 
 The following example shows one possible way to implement the <b>IWiaDataCallback::BandedDataCallback</b> method. 
 
-The example application code defines the <b>CDataCallback</b> object that it derives from the <a href="https://msdn.microsoft.com/en-us/library/ms630157(v=VS.85).aspx">IWiaDataCallback</a> interface. The application must instantiate a <b>CDataCallback</b> object. It then calls <b>CDataCallback::QueryInterface</b> to obtain an <b>IWiaDataCallback</b> interface pointer. When the application is ready to receive data, it invokes the <a href="https://msdn.microsoft.com/en-us/library/ms630151(v=VS.85).aspx">idtGetBandedData</a> method and passes the method a pointer to the <b>IWiaDataCallback</b> interface. 
+The example application code defines the <b>CDataCallback</b> object that it derives from the <a href="https://msdn.microsoft.com/c2414d68-604f-4ae7-8808-7931240b1d26">IWiaDataCallback</a> interface. The application must instantiate a <b>CDataCallback</b> object. It then calls <b>CDataCallback::QueryInterface</b> to obtain an <b>IWiaDataCallback</b> interface pointer. When the application is ready to receive data, it invokes the <a href="https://msdn.microsoft.com/3cbef4c0-cf28-4fdd-b347-84428ffd671b">idtGetBandedData</a> method and passes the method a pointer to the <b>IWiaDataCallback</b> interface. 
 
-Periodically, the <a href="https://msdn.microsoft.com/en-us/library/ms630151(v=VS.85).aspx">idtGetBandedData</a> method uses the <a href="https://msdn.microsoft.com/en-us/library/ms630157(v=VS.85).aspx">IWiaDataCallback</a> interface pointer to invoke the  <b>CDataCallback::BandedDataCallback</b> method of the application. The first invocations send status messages. These are followed by a call that transfers a data header to the callback method. After the application receives the data header, <b>idtGetBandedData</b> invokes <b>CDataCallback::BandedDataCallback</b> to transfer data to the application. When the data transfer is complete, it calls the callback method a final time to transmit a termination message.
+Periodically, the <a href="https://msdn.microsoft.com/3cbef4c0-cf28-4fdd-b347-84428ffd671b">idtGetBandedData</a> method uses the <a href="https://msdn.microsoft.com/c2414d68-604f-4ae7-8808-7931240b1d26">IWiaDataCallback</a> interface pointer to invoke the  <b>CDataCallback::BandedDataCallback</b> method of the application. The first invocations send status messages. These are followed by a call that transfers a data header to the callback method. After the application receives the data header, <b>idtGetBandedData</b> invokes <b>CDataCallback::BandedDataCallback</b> to transfer data to the application. When the data transfer is complete, it calls the callback method a final time to transmit a termination message.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

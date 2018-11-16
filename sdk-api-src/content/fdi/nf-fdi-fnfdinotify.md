@@ -4,10 +4,10 @@ title: FNFDINOTIFY macro
 author: windows-sdk-content
 description: The FNFDINOTIFY macro provides the declaration for the application-defined callback notification function to update the application on the status of the decoder.
 old-location: winprog\fnfdinotify.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 7655ddb2-7cd4-4012-913c-9909fcea639a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: FNFDINOTIFY, FNFDINOTIFY macro [Windows API], fdi/FNFDINOTIFY, fdintCABINET_INFO, fdintCLOSE_FILE_INFO, fdintCOPY_FILE, fdintENUMERATE, fdintNEXT_CABINET, fdintPARTIAL_FILE, winprog.fnfdinotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

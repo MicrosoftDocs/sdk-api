@@ -4,10 +4,10 @@ title: LookupAccountSidLocalW function
 author: windows-sdk-content
 description: Retrieves the name of the account for the specified SID on the local machine.
 old-location: security\lookupaccountsidlocal.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,14 +78,12 @@ A pointer to the
 A pointer to a buffer that receives a <b>null</b>-terminated string that contains the account name that corresponds to the <i>lpSid</i> parameter.
 
 
-### -param cchName
+### -param cchName [in, out]
 
-TBD
+On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpName</i> buffer. If the function fails because the buffer is too small or if <i>cchName</i> is zero, <i>cchName</i> receives the required buffer size, including the terminating <b>null</b> character.
 
 
 ### -param ReferencedDomainName [out, optional]
-
-On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpName</i> buffer. If the function fails because the buffer is too small or if <i>cchName</i> is zero, <i>cchName</i> receives the required buffer size, including the terminating <b>null</b> character.
 
 A pointer to a buffer that receives a <b>null</b>-terminated string that contains the name of the domain where the account name was found.
 
@@ -138,7 +136,7 @@ This function is similar to <a href="https://msdn.microsoft.com/b8a44ffc-86e1-4f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

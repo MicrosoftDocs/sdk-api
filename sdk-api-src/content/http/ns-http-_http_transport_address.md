@@ -7,7 +7,7 @@ old-location: http\http_transport_address.htm
 tech.root: Http
 ms.assetid: 2dac2817-c911-4ca1-afb1-32147a16ad4c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PHTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_ADDRESS structure [HTTP], PHTTP_TRANSPORT_ADDRESS, PHTTP_TRANSPORT_ADDRESS structure pointer [HTTP], _HTTP_TRANSPORT_ADDRESS, _http_http_transport_address, http.http_transport_address, http/HTTP_TRANSPORT_ADDRESS, http/PHTTP_TRANSPORT_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

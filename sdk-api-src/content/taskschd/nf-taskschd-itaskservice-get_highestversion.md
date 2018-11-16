@@ -7,7 +7,7 @@ old-location: taskschd\itaskservice_highestversion.htm
 tech.root: TaskSchd
 ms.assetid: 27b08a17-fdd9-4c28-b498-e10e80ae49f0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: HighestVersion property [Task Scheduler], HighestVersion property [Task Scheduler],ITaskService interface, HighestVersion property [Task Scheduler],TBD object, ITaskService interface [Task Scheduler],HighestVersion property, ITaskService.HighestVersion, ITaskService.get_HighestVersion, ITaskService::HighestVersion, ITaskService::get_HighestVersion, TBD object [Task Scheduler],HighestVersion property, get_HighestVersion, taskschd.itaskservice_highestversion, taskschd/ITaskService::HighestVersion, taskschd/ITaskService::get_HighestVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

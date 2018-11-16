@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_setpreviousbackupstamp.htm
 tech.root: VSS
 ms.assetid: cc1c75bf-b281-4741-9273-f7264532860f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetPreviousBackupStamp method, IVssBackupComponents.SetPreviousBackupStamp, IVssBackupComponents::SetPreviousBackupStamp, SetPreviousBackupStamp, SetPreviousBackupStamp method [VSS], SetPreviousBackupStamp method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setpreviousbackupstamp, base.ivssbackupcomponents_setpreviousbackupstamp, vsbackup/IVssBackupComponents::SetPreviousBackupStamp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,9 +75,10 @@ The method can be called only during a backup operation.
 Writer identifier.
 
 
-### -param ct
+### -param ct [in]
 
-TBD
+Type of the component. See 
+<a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for the possible values.
 
 
 ### -param wszLogicalPath [in]
@@ -107,12 +108,6 @@ The string cannot be <b>NULL</b> and should contain the same component name as w
 ### -param wszPreviousBackupStamp [in]
 
 The backup stamp to be set.
-
-
-#### - componentType [in]
-
-Type of the component. See 
-<a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for the possible values.
 
 
 ## -returns

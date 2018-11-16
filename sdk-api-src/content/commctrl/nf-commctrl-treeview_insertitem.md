@@ -4,10 +4,10 @@ title: TreeView_InsertItem macro
 author: windows-sdk-content
 description: Inserts a new item in a tree-view control. You can use this macro or send the TVM_INSERTITEM message explicitly.
 old-location: controls\TreeView_InsertItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_insertitem.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: TreeView_InsertItem, TreeView_InsertItem macro [Windows Controls], _win32_TreeView_InsertItem, _win32_TreeView_InsertItem_cpp, commctrl/TreeView_InsertItem, controls.TreeView_InsertItem, controls._win32_TreeView_InsertItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Inserts a new item in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773733(v=VS.85).aspx">TVM_INSERTITEM</a> message explicitly. 
+Inserts a new item in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/c5e5f88f-6ec8-4b95-89ea-97f6f1fd735e">TVM_INSERTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Inserts a new item in a tree-view control. You can use this macro or send the <a
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -77,7 +77,7 @@ Handle to the tree-view control.
 
 Type: <b>LPTVINSERTSTRUCT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773452(v=VS.85).aspx">TVINSERTSTRUCT</a> structure that specifies the attributes of the tree-view item. 
+Pointer to a <a href="https://msdn.microsoft.com/ff0f4494-f41f-4e21-96e5-8e9aa9ef88bf">TVINSERTSTRUCT</a> structure that specifies the attributes of the tree-view item. 
 
 
 ## -see-also
@@ -85,7 +85,7 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773452(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773515(v=VS.85).aspx">TVN_ENDLABELEDIT</a>
+<a href="https://msdn.microsoft.com/82eb9fcd-de10-4efb-8501-78c5af5e089e">TVN_ENDLABELEDIT</a>
  
 
  

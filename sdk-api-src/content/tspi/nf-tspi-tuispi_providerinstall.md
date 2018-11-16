@@ -4,10 +4,10 @@ title: TUISPI_providerInstall function
 author: windows-sdk-content
 description: Implementation of the TUISPI_providerInstall function is the service provider's opportunity to install any additional &#0034;pieces&#0034; of the provider into the right directories and set up registry entries the provider needs.
 old-location: tspi\tuispi_providerinstall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4b133336-7cd1-4af4-bc8d-4defce97559d
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: TUISPI_providerInstall, TUISPI_providerInstall function [TAPI 2.2], _tspi_tuispi_providerinstall, tspi.tuispi_providerinstall, tspi/TUISPI_providerInstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

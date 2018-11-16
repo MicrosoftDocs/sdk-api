@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2sourcevoice_interface_stop.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Stop(UINT32,UINT32)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Stop method, IXAudio2SourceVoice.Stop, IXAudio2SourceVoice::Stop, Stop, Stop method [XAudio2 Audio Mixing APIs], Stop method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_stop, xaudio2/IXAudio2SourceVoice::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ Returns S_OK if successful, an error code otherwise. See <a href="https://msdn.m
 
 
 
-All source buffers that are queued on the voice and the current cursor position are preserved. This allows the voice to continue from where it left off, when it is restarted. The <a href="https://msdn.microsoft.com/en-us/library/Ee418466(v=VS.85).aspx">IXAudio2SourceVoice::FlushSourceBuffers</a> method can be used to flush queued source buffers.
+All source buffers that are queued on the voice and the current cursor position are preserved. This allows the voice to continue from where it left off, when it is restarted. The <a href="https://msdn.microsoft.com/623DADA3-2E61-4997-8DFC-EFEC2716FCDE">IXAudio2SourceVoice::FlushSourceBuffers</a> method can be used to flush queued source buffers.
 
 
 
@@ -138,7 +138,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>
+<a href="https://msdn.microsoft.com/116DD0E0-8F0B-4934-A48D-FDBE0D0DF049">IXAudio2SourceVoice</a>
 
 
 

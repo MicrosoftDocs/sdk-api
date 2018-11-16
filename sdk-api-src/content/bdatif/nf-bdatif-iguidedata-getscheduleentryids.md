@@ -4,10 +4,10 @@ title: IGuideData::GetScheduleEntryIDs
 author: windows-sdk-content
 description: The GetScheduleEntryIDs method returns a list of unique identifiers for all of the schedule entries contained in all transport streams.
 old-location: mstv\iguidedata_getscheduleentryids.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d44abd0d-bcfc-418f-b541-c085032fb933
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetScheduleEntryIDs, GetScheduleEntryIDs method [Microsoft TV Technologies], GetScheduleEntryIDs method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetScheduleEntryIDs method, IGuideData.GetScheduleEntryIDs, IGuideData::GetScheduleEntryIDs, IGuideDataGetScheduleEntryIDs, bdatif/IGuideData::GetScheduleEntryIDs, mstv.iguidedata_getscheduleentryids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>GetScheduleEntryIDs</b> method returns a list of unique identifiers for a
 
 
 
-### -param pEnumScheduleEntries
-
-TBD
-
-
-
-
-#### - ppEnumScheduleEntries [out]
+### -param pEnumScheduleEntries [out]
 
 Receives a pointer to the <b>IEnumVARIANT</b> interface. Use this interface to enumerate the collection. The caller must release the interface.
 
@@ -113,9 +106,9 @@ The method succeeded.
 
 
 
-The method fails if the TIF has not received the schedule information from the PSI tables in the transport stream. The client should implement the <a href="https://msdn.microsoft.com/en-us/library/Dd694099(v=VS.85).aspx">IGuideDataEvent</a> interface and wait for the <a href="https://msdn.microsoft.com/en-us/library/Dd694104(v=VS.85).aspx">IGuideDataEvent::ScheduleEntryChanged</a> event to be fired.
+The method fails if the TIF has not received the schedule information from the PSI tables in the transport stream. The client should implement the <a href="https://msdn.microsoft.com/9da565f2-fbcb-4d71-ae40-7d9821f46630">IGuideDataEvent</a> interface and wait for the <a href="https://msdn.microsoft.com/04c278a0-8a92-4801-9463-696beb22819e">IGuideDataEvent::ScheduleEntryChanged</a> event to be fired.
 
-Each <b>VARIANT</b> type in the collection contains a <b>BSTR</b> that uniquely identifies one schedule entry within the multiplex. To get more information about the schedule entry, pass the <b>VARIANT</b> to the <a href="https://msdn.microsoft.com/en-us/library/Dd694115(v=VS.85).aspx">IGuideData::GetScheduleEntryProperties</a> method.
+Each <b>VARIANT</b> type in the collection contains a <b>BSTR</b> that uniquely identifies one schedule entry within the multiplex. To get more information about the schedule entry, pass the <b>VARIANT</b> to the <a href="https://msdn.microsoft.com/7fe01a0b-8101-40a2-97ee-e0f5c9d8d1a0">IGuideData::GetScheduleEntryProperties</a> method.
 
 The returned <b>IEnumVARIANT</b> interface is not thread safe. Clients should not call methods on the interface from more than one thread.
 
@@ -127,11 +120,11 @@ The returned <b>IEnumVARIANT</b> interface is not thread safe. Clients should no
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694098(v=VS.85).aspx">IGuideData Interface</a>
+<a href="https://msdn.microsoft.com/3bd27fce-90be-480b-b157-a17beccda068">IGuideData Interface</a>
  
 
  

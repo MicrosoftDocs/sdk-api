@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: 28be25f8-38cf-f9e4-3aac-15cad98cac63, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], IDirect3DDevice9 interface [Direct3D 9],described, d3d9helper/IDirect3DDevice9, direct3d9.idirect3ddevice9
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The <b>IDirect3DDevice9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174350(v=VS.85).aspx">BeginScene</a>
+<a href="https://msdn.microsoft.com/7fc1375d-b2de-4762-9963-8428938e499f">BeginScene</a>
 </td>
 <td align="left" width="63%">
 Begins a scene. 
@@ -80,7 +80,7 @@ Begins a scene.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174351(v=VS.85).aspx">BeginStateBlock</a>
+<a href="https://msdn.microsoft.com/ee197fbc-d13b-42c2-a293-72306a0d05ce">BeginStateBlock</a>
 </td>
 <td align="left" width="63%">
 Signals Direct3D to begin recording a device-state block.
@@ -89,16 +89,16 @@ Signals Direct3D to begin recording a device-state block.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174352(v=VS.85).aspx">Clear</a>
+<a href="https://msdn.microsoft.com/3163f313-a382-4a05-92a6-1f27d8bcb98a">Clear</a>
 </td>
 <td align="left" width="63%">
-Clears one or more surfaces such as a render target, <a href="https://msdn.microsoft.com/en-us/library/Bb147221(v=VS.85).aspx">multiple render targets</a>, a stencil buffer, and a depth buffer.
+Clears one or more surfaces such as a render target, <a href="https://msdn.microsoft.com/ae48c5ce-b7f5-4189-8b04-880836be3fe0">multiple render targets</a>, a stencil buffer, and a depth buffer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174353(v=VS.85).aspx">ColorFill</a>
+<a href="https://msdn.microsoft.com/de8c1f15-cb82-4c20-86e0-78b730dae55d">ColorFill</a>
 </td>
 <td align="left" width="63%">
 Allows an application to fill a rectangular area of a D3DPOOL_DEFAULT surface with a specified color.
@@ -107,7 +107,7 @@ Allows an application to fill a rectangular area of a D3DPOOL_DEFAULT surface wi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174354(v=VS.85).aspx">CreateAdditionalSwapChain</a>
+<a href="https://msdn.microsoft.com/d41b36f6-8481-47f8-bd38-8f51bc9ff9b8">CreateAdditionalSwapChain</a>
 </td>
 <td align="left" width="63%">
 Creates an additional swap chain for rendering multiple views.
@@ -116,7 +116,7 @@ Creates an additional swap chain for rendering multiple views.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174355(v=VS.85).aspx">CreateCubeTexture</a>
+<a href="https://msdn.microsoft.com/d8ae94bb-5b16-4d08-aeb9-cb15029725c9">CreateCubeTexture</a>
 </td>
 <td align="left" width="63%">
 Creates a cube texture resource.
@@ -125,7 +125,7 @@ Creates a cube texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174356(v=VS.85).aspx">CreateDepthStencilSurface</a>
+<a href="https://msdn.microsoft.com/c94eed81-0706-44d6-a8be-83e2a5d46c39">CreateDepthStencilSurface</a>
 </td>
 <td align="left" width="63%">
 Creates a depth-stencil resource.
@@ -134,7 +134,7 @@ Creates a depth-stencil resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174357(v=VS.85).aspx">CreateIndexBuffer</a>
+<a href="https://msdn.microsoft.com/8bfc9f23-ea7a-411b-82b9-5f19cb2f81e0">CreateIndexBuffer</a>
 </td>
 <td align="left" width="63%">
 Creates an index buffer.
@@ -143,7 +143,7 @@ Creates an index buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174358(v=VS.85).aspx">CreateOffscreenPlainSurface</a>
+<a href="https://msdn.microsoft.com/9502aa34-afde-4547-a5da-224f29719c07">CreateOffscreenPlainSurface</a>
 </td>
 <td align="left" width="63%">
 Create an off-screen surface.
@@ -152,7 +152,7 @@ Create an off-screen surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174359(v=VS.85).aspx">CreatePixelShader</a>
+<a href="https://msdn.microsoft.com/241fd2a9-6ce0-486c-b4e6-48d22e6debbd">CreatePixelShader</a>
 </td>
 <td align="left" width="63%">
 Creates a pixel shader.
@@ -161,7 +161,7 @@ Creates a pixel shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174360(v=VS.85).aspx">CreateQuery</a>
+<a href="https://msdn.microsoft.com/0733a30e-b142-46cd-a8b5-3f70ced77521">CreateQuery</a>
 </td>
 <td align="left" width="63%">
 Creates a status query.
@@ -170,7 +170,7 @@ Creates a status query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174361(v=VS.85).aspx">CreateRenderTarget</a>
+<a href="https://msdn.microsoft.com/3c0c8651-0c54-4eeb-bd37-c2aa26b1211d">CreateRenderTarget</a>
 </td>
 <td align="left" width="63%">
 Creates a render-target surface.
@@ -179,7 +179,7 @@ Creates a render-target surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174362(v=VS.85).aspx">CreateStateBlock</a>
+<a href="https://msdn.microsoft.com/36951221-ab14-45bc-bfb3-4294e3d20fb0">CreateStateBlock</a>
 </td>
 <td align="left" width="63%">
 Creates a new state block that contains the values for all device states, vertex-related states, or pixel-related states.
@@ -188,7 +188,7 @@ Creates a new state block that contains the values for all device states, vertex
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174363(v=VS.85).aspx">CreateTexture</a>
+<a href="https://msdn.microsoft.com/61b27c7f-cfec-4cb1-bdb9-a973c37a7df4">CreateTexture</a>
 </td>
 <td align="left" width="63%">
 Creates a texture resource.
@@ -197,7 +197,7 @@ Creates a texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174364(v=VS.85).aspx">CreateVertexBuffer</a>
+<a href="https://msdn.microsoft.com/7b914bbd-d4bb-4d59-9820-f494a4cf0757">CreateVertexBuffer</a>
 </td>
 <td align="left" width="63%">
 Creates a vertex buffer.
@@ -206,7 +206,7 @@ Creates a vertex buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174365(v=VS.85).aspx">CreateVertexDeclaration</a>
+<a href="https://msdn.microsoft.com/34979faa-0656-4f0c-b21d-3a3212819391">CreateVertexDeclaration</a>
 </td>
 <td align="left" width="63%">
 Create a vertex shader declaration from the device and the vertex elements.
@@ -215,7 +215,7 @@ Create a vertex shader declaration from the device and the vertex elements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174366(v=VS.85).aspx">CreateVertexShader</a>
+<a href="https://msdn.microsoft.com/2eb4521d-ec5d-4b51-aa84-7b80d6a90e0a">CreateVertexShader</a>
 </td>
 <td align="left" width="63%">
 Creates a vertex shader.
@@ -224,7 +224,7 @@ Creates a vertex shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174367(v=VS.85).aspx">CreateVolumeTexture</a>
+<a href="https://msdn.microsoft.com/a0dada01-aca1-46ef-8321-62022219843f">CreateVolumeTexture</a>
 </td>
 <td align="left" width="63%">
 Creates a volume texture resource.
@@ -233,7 +233,7 @@ Creates a volume texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174368(v=VS.85).aspx">DeletePatch</a>
+<a href="https://msdn.microsoft.com/2febb03e-63ed-4c16-b6ba-1927f749c1ca">DeletePatch</a>
 </td>
 <td align="left" width="63%">
 Frees a cached high-order patch.
@@ -242,7 +242,7 @@ Frees a cached high-order patch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174369(v=VS.85).aspx">DrawIndexedPrimitive</a>
+<a href="https://msdn.microsoft.com/535a261a-ca4f-432b-9126-f46c44dc8430">DrawIndexedPrimitive</a>
 </td>
 <td align="left" width="63%">
 Based on indexing, renders the specified geometric primitive into an array of vertices.
@@ -251,7 +251,7 @@ Based on indexing, renders the specified geometric primitive into an array of ve
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174370(v=VS.85).aspx">DrawIndexedPrimitiveUP</a>
+<a href="https://msdn.microsoft.com/61b13680-293b-4c7e-9cf0-d91e764498fb">DrawIndexedPrimitiveUP</a>
 </td>
 <td align="left" width="63%">
 Renders the specified geometric primitive with data specified by a user memory pointer.
@@ -260,7 +260,7 @@ Renders the specified geometric primitive with data specified by a user memory p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174371(v=VS.85).aspx">DrawPrimitive</a>
+<a href="https://msdn.microsoft.com/b83110ba-85af-4f02-b651-9e64c37269f5">DrawPrimitive</a>
 </td>
 <td align="left" width="63%">
 Renders a sequence of nonindexed, geometric primitives of the specified type from the current set of data input streams.
@@ -269,7 +269,7 @@ Renders a sequence of nonindexed, geometric primitives of the specified type fro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174372(v=VS.85).aspx">DrawPrimitiveUP</a>
+<a href="https://msdn.microsoft.com/1be42c40-49af-458e-a5f5-1f56d2aa4f86">DrawPrimitiveUP</a>
 </td>
 <td align="left" width="63%">
 Renders data specified by a user memory pointer as a sequence of geometric primitives of the specified type.
@@ -278,7 +278,7 @@ Renders data specified by a user memory pointer as a sequence of geometric primi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174373(v=VS.85).aspx">DrawRectPatch</a>
+<a href="https://msdn.microsoft.com/478b4a3d-3366-47ec-8a66-92aa2aa06477">DrawRectPatch</a>
 </td>
 <td align="left" width="63%">
 Draws a rectangular patch using the currently set streams.
@@ -287,7 +287,7 @@ Draws a rectangular patch using the currently set streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174374(v=VS.85).aspx">DrawTriPatch</a>
+<a href="https://msdn.microsoft.com/9076fbe6-0f14-4b28-8f34-145e4eac6f22">DrawTriPatch</a>
 </td>
 <td align="left" width="63%">
 Draws a triangular patch using the currently set streams.
@@ -296,16 +296,16 @@ Draws a triangular patch using the currently set streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174375(v=VS.85).aspx">EndScene</a>
+<a href="https://msdn.microsoft.com/9ff1e40e-9e19-4168-ae29-6f7d204ab236">EndScene</a>
 </td>
 <td align="left" width="63%">
-Ends a scene that was begun by calling <a href="https://msdn.microsoft.com/en-us/library/Bb174350(v=VS.85).aspx">IDirect3DDevice9::BeginScene</a>.
+Ends a scene that was begun by calling <a href="https://msdn.microsoft.com/7fc1375d-b2de-4762-9963-8428938e499f">IDirect3DDevice9::BeginScene</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174376(v=VS.85).aspx">EndStateBlock</a>
+<a href="https://msdn.microsoft.com/170fab09-671f-4faf-99e4-849ba4a53688">EndStateBlock</a>
 </td>
 <td align="left" width="63%">
 Signals Direct3D to stop recording a device-state block and retrieve a pointer to the state block interface.
@@ -314,7 +314,7 @@ Signals Direct3D to stop recording a device-state block and retrieve a pointer t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174377(v=VS.85).aspx">EvictManagedResources</a>
+<a href="https://msdn.microsoft.com/7e3ba8a1-1b41-4ecb-a580-eeeddcb94c74">EvictManagedResources</a>
 </td>
 <td align="left" width="63%">
 Evicts all managed resources, including both Direct3D and driver-managed resources.
@@ -323,7 +323,7 @@ Evicts all managed resources, including both Direct3D and driver-managed resourc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174378(v=VS.85).aspx">GetAvailableTextureMem</a>
+<a href="https://msdn.microsoft.com/d36d35e4-f972-4af3-9a2e-604a28c2b38c">GetAvailableTextureMem</a>
 </td>
 <td align="left" width="63%">
 Returns an estimate of the amount of available texture memory.
@@ -332,7 +332,7 @@ Returns an estimate of the amount of available texture memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174379(v=VS.85).aspx">GetBackBuffer</a>
+<a href="https://msdn.microsoft.com/fac7f4eb-ce6f-4f9d-810c-f3a0ad155cc2">GetBackBuffer</a>
 </td>
 <td align="left" width="63%">
 Retrieves a back buffer from the device's swap chain.
@@ -341,7 +341,7 @@ Retrieves a back buffer from the device's swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174380(v=VS.85).aspx">GetClipPlane</a>
+<a href="https://msdn.microsoft.com/0e8ec541-606d-4f90-a396-40eb72e9422d">GetClipPlane</a>
 </td>
 <td align="left" width="63%">
 Retrieves the coefficients of a user-defined clipping plane for the device.
@@ -350,7 +350,7 @@ Retrieves the coefficients of a user-defined clipping plane for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174381(v=VS.85).aspx">GetClipStatus</a>
+<a href="https://msdn.microsoft.com/b8a68504-bc0f-4d36-a3f4-729fa9ab5004">GetClipStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the clip status.
@@ -359,7 +359,7 @@ Retrieves the clip status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174382(v=VS.85).aspx">GetCreationParameters</a>
+<a href="https://msdn.microsoft.com/18889d40-a64f-41da-92dd-7b197749e685">GetCreationParameters</a>
 </td>
 <td align="left" width="63%">
 Retrieves the creation parameters of the device.
@@ -368,7 +368,7 @@ Retrieves the creation parameters of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174383(v=VS.85).aspx">GetCurrentTexturePalette</a>
+<a href="https://msdn.microsoft.com/e72ec7a1-9904-4a07-a662-24c6532cfdc8">GetCurrentTexturePalette</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current texture palette.
@@ -377,7 +377,7 @@ Retrieves the current texture palette.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174384(v=VS.85).aspx">GetDepthStencilSurface</a>
+<a href="https://msdn.microsoft.com/314ba7bd-12e0-476c-ab64-f94edc9f3f88">GetDepthStencilSurface</a>
 </td>
 <td align="left" width="63%">
 Gets the depth-stencil surface owned by the Direct3DDevice object.
@@ -386,7 +386,7 @@ Gets the depth-stencil surface owned by the Direct3DDevice object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174385(v=VS.85).aspx">GetDeviceCaps</a>
+<a href="https://msdn.microsoft.com/184e93b7-8869-4a7a-a898-14fb4174cf0b">GetDeviceCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the rendering device.
@@ -395,7 +395,7 @@ Retrieves the capabilities of the rendering device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174386(v=VS.85).aspx">GetDirect3D</a>
+<a href="https://msdn.microsoft.com/42666561-fb2b-47b4-b2c4-49926ea67964">GetDirect3D</a>
 </td>
 <td align="left" width="63%">
 Returns an interface to the instance of the Direct3D object that created the device.
@@ -404,7 +404,7 @@ Returns an interface to the instance of the Direct3D object that created the dev
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174387(v=VS.85).aspx">GetDisplayMode</a>
+<a href="https://msdn.microsoft.com/6a96215a-366d-4820-9d9c-440673f1ef75">GetDisplayMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display mode's spatial resolution, color resolution, and refresh frequency.
@@ -413,7 +413,7 @@ Retrieves the display mode's spatial resolution, color resolution, and refresh f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174388(v=VS.85).aspx">GetFrontBufferData</a>
+<a href="https://msdn.microsoft.com/7a5e34b4-baec-4305-b0ca-d09b0925a2ef">GetFrontBufferData</a>
 </td>
 <td align="left" width="63%">
 Generates a copy of the device's front buffer and places that copy in a system memory buffer provided by the application. 
@@ -422,7 +422,7 @@ Generates a copy of the device's front buffer and places that copy in a system m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174389(v=VS.85).aspx">GetFVF</a>
+<a href="https://msdn.microsoft.com/7295c1c3-1b09-4775-8ed6-8e84d545b6d0">GetFVF</a>
 </td>
 <td align="left" width="63%">
 Gets the fixed vertex function declaration.
@@ -431,7 +431,7 @@ Gets the fixed vertex function declaration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174390(v=VS.85).aspx">GetGammaRamp</a>
+<a href="https://msdn.microsoft.com/798ed6ed-ae8b-412d-b70b-024d198eb16f">GetGammaRamp</a>
 </td>
 <td align="left" width="63%">
 Retrieves the gamma correction ramp for the swap chain.
@@ -440,7 +440,7 @@ Retrieves the gamma correction ramp for the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174391(v=VS.85).aspx">GetIndices</a>
+<a href="https://msdn.microsoft.com/a52c3298-d94e-4d81-b7f6-bda3d4d54f52">GetIndices</a>
 </td>
 <td align="left" width="63%">
 Retrieves index data.
@@ -449,7 +449,7 @@ Retrieves index data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174392(v=VS.85).aspx">GetLight</a>
+<a href="https://msdn.microsoft.com/1e52be8e-7e24-400d-89c5-93dd316534bc">GetLight</a>
 </td>
 <td align="left" width="63%">
 Retrieves a set of lighting properties that this device uses.
@@ -458,7 +458,7 @@ Retrieves a set of lighting properties that this device uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174393(v=VS.85).aspx">GetLightEnable</a>
+<a href="https://msdn.microsoft.com/7dacc010-fef7-4fcb-8e3e-08b683476eef">GetLightEnable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the activity status - enabled or disabled - for a set of lighting parameters within a device.
@@ -467,7 +467,7 @@ Retrieves the activity status - enabled or disabled - for a set of lighting para
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174394(v=VS.85).aspx">GetMaterial</a>
+<a href="https://msdn.microsoft.com/834855f6-85ff-4c68-b1e7-8418042b71aa">GetMaterial</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current material properties for the device.
@@ -476,7 +476,7 @@ Retrieves the current material properties for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174395(v=VS.85).aspx">GetNPatchMode</a>
+<a href="https://msdn.microsoft.com/89b9beec-ce26-4a37-b0d2-eb59f86831c0">GetNPatchMode</a>
 </td>
 <td align="left" width="63%">
 Gets the N-patch mode segments.
@@ -485,7 +485,7 @@ Gets the N-patch mode segments.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174396(v=VS.85).aspx">GetNumberOfSwapChains</a>
+<a href="https://msdn.microsoft.com/0e6adf96-821a-4471-b332-2be691b994cd">GetNumberOfSwapChains</a>
 </td>
 <td align="left" width="63%">
 Gets the number of implicit swap chains.
@@ -494,7 +494,7 @@ Gets the number of implicit swap chains.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174397(v=VS.85).aspx">GetPaletteEntries</a>
+<a href="https://msdn.microsoft.com/f89396a5-57bf-4e3c-b5e8-044f58201156">GetPaletteEntries</a>
 </td>
 <td align="left" width="63%">
 Retrieves palette entries.
@@ -503,7 +503,7 @@ Retrieves palette entries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174398(v=VS.85).aspx">GetPixelShader</a>
+<a href="https://msdn.microsoft.com/64d62518-8fc8-4021-b98f-2176435d84cc">GetPixelShader</a>
 </td>
 <td align="left" width="63%">
 Retrieves the currently set pixel shader.
@@ -512,7 +512,7 @@ Retrieves the currently set pixel shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174399(v=VS.85).aspx">GetPixelShaderConstantB</a>
+<a href="https://msdn.microsoft.com/fe32886b-f50c-47a6-b854-a96f53fd92b4">GetPixelShaderConstantB</a>
 </td>
 <td align="left" width="63%">
 Gets a Boolean shader constant.
@@ -521,7 +521,7 @@ Gets a Boolean shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174400(v=VS.85).aspx">GetPixelShaderConstantF</a>
+<a href="https://msdn.microsoft.com/5f8271a5-782b-4e9a-93a6-8c7d98e0f1f7">GetPixelShaderConstantF</a>
 </td>
 <td align="left" width="63%">
 Gets a floating-point shader constant.
@@ -530,7 +530,7 @@ Gets a floating-point shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174401(v=VS.85).aspx">GetPixelShaderConstantI</a>
+<a href="https://msdn.microsoft.com/6bad21d7-2058-4801-be26-21aa7823c518">GetPixelShaderConstantI</a>
 </td>
 <td align="left" width="63%">
 Gets an integer shader constant.
@@ -539,7 +539,7 @@ Gets an integer shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174402(v=VS.85).aspx">GetRasterStatus</a>
+<a href="https://msdn.microsoft.com/27af5b34-665a-4e96-b918-5dcfedd088ee">GetRasterStatus</a>
 </td>
 <td align="left" width="63%">
 Returns information describing the raster of the monitor on which the swap chain is presented.
@@ -548,7 +548,7 @@ Returns information describing the raster of the monitor on which the swap chain
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174403(v=VS.85).aspx">GetRenderState</a>
+<a href="https://msdn.microsoft.com/0ec6a1fd-d310-4316-a9e6-60378320ea12">GetRenderState</a>
 </td>
 <td align="left" width="63%">
 Retrieves a render-state value for a device.
@@ -557,7 +557,7 @@ Retrieves a render-state value for a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174404(v=VS.85).aspx">GetRenderTarget</a>
+<a href="https://msdn.microsoft.com/8e6109f4-8e86-413c-a347-dade4e578c89">GetRenderTarget</a>
 </td>
 <td align="left" width="63%">
 Retrieves a render-target surface.
@@ -566,7 +566,7 @@ Retrieves a render-target surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174405(v=VS.85).aspx">GetRenderTargetData</a>
+<a href="https://msdn.microsoft.com/9fc6121c-3da8-49d8-9bd6-c8654ce90100">GetRenderTargetData</a>
 </td>
 <td align="left" width="63%">
 Copies the render-target data from device memory to system memory.
@@ -575,7 +575,7 @@ Copies the render-target data from device memory to system memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174406(v=VS.85).aspx">GetSamplerState</a>
+<a href="https://msdn.microsoft.com/497305c9-7cbf-4aee-9a83-dddfdd9014ae">GetSamplerState</a>
 </td>
 <td align="left" width="63%">
 Gets the sampler state value.
@@ -584,7 +584,7 @@ Gets the sampler state value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174407(v=VS.85).aspx">GetScissorRect</a>
+<a href="https://msdn.microsoft.com/fd7bbe5a-4542-45d2-922e-b7b5147bf284">GetScissorRect</a>
 </td>
 <td align="left" width="63%">
 Gets the scissor rectangle.
@@ -593,7 +593,7 @@ Gets the scissor rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174408(v=VS.85).aspx">GetSoftwareVertexProcessing</a>
+<a href="https://msdn.microsoft.com/eb2392f7-044e-4a6c-bbbb-3ab26c3c0d9c">GetSoftwareVertexProcessing</a>
 </td>
 <td align="left" width="63%">
 Gets the vertex processing (hardware or software) mode.
@@ -602,7 +602,7 @@ Gets the vertex processing (hardware or software) mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174409(v=VS.85).aspx">GetStreamSource</a>
+<a href="https://msdn.microsoft.com/d64dbbc5-48db-42c5-8b2f-dc0a3068fe16">GetStreamSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves a vertex buffer bound to the specified data stream.
@@ -611,7 +611,7 @@ Retrieves a vertex buffer bound to the specified data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174410(v=VS.85).aspx">GetStreamSourceFreq</a>
+<a href="https://msdn.microsoft.com/7be2e5bd-c105-451e-b195-43b296b3a9bd">GetStreamSourceFreq</a>
 </td>
 <td align="left" width="63%">
 Gets the stream source frequency divider value.
@@ -620,7 +620,7 @@ Gets the stream source frequency divider value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174411(v=VS.85).aspx">GetSwapChain</a>
+<a href="https://msdn.microsoft.com/343522f2-33e8-46a5-a17f-b6c36b8fe82b">GetSwapChain</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a swap chain.
@@ -629,7 +629,7 @@ Gets a pointer to a swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174412(v=VS.85).aspx">GetTexture</a>
+<a href="https://msdn.microsoft.com/f472de6f-6c46-4424-95e5-62164afaf026">GetTexture</a>
 </td>
 <td align="left" width="63%">
 Retrieves a texture assigned to a stage for a device.
@@ -638,7 +638,7 @@ Retrieves a texture assigned to a stage for a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174413(v=VS.85).aspx">GetTextureStageState</a>
+<a href="https://msdn.microsoft.com/8ecc2019-16f9-4c32-9ecb-33c2b85108dc">GetTextureStageState</a>
 </td>
 <td align="left" width="63%">
 Retrieves a state value for an assigned texture.
@@ -647,7 +647,7 @@ Retrieves a state value for an assigned texture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174414(v=VS.85).aspx">GetTransform</a>
+<a href="https://msdn.microsoft.com/0e91cdfc-27d7-481f-b0e0-f89f0049ffce">GetTransform</a>
 </td>
 <td align="left" width="63%">
 Retrieves a matrix describing a transformation state.
@@ -656,7 +656,7 @@ Retrieves a matrix describing a transformation state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174415(v=VS.85).aspx">GetVertexDeclaration</a>
+<a href="https://msdn.microsoft.com/842f8b2f-cdfd-4d88-a114-7b129f09fd61">GetVertexDeclaration</a>
 </td>
 <td align="left" width="63%">
 Gets a vertex shader declaration.
@@ -665,7 +665,7 @@ Gets a vertex shader declaration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174416(v=VS.85).aspx">GetVertexShader</a>
+<a href="https://msdn.microsoft.com/9c33415b-960a-4f55-a497-b30d0525cf3f">GetVertexShader</a>
 </td>
 <td align="left" width="63%">
 Retrieves the currently set vertex shader.
@@ -674,7 +674,7 @@ Retrieves the currently set vertex shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174417(v=VS.85).aspx">GetVertexShaderConstantB</a>
+<a href="https://msdn.microsoft.com/66e0ff74-0891-41ce-9129-33636a774ee5">GetVertexShaderConstantB</a>
 </td>
 <td align="left" width="63%">
 Gets a Boolean vertex shader constant.
@@ -683,7 +683,7 @@ Gets a Boolean vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174418(v=VS.85).aspx">GetVertexShaderConstantF</a>
+<a href="https://msdn.microsoft.com/1c5ef658-91bf-492a-86a6-2c0637e43e00">GetVertexShaderConstantF</a>
 </td>
 <td align="left" width="63%">
 Gets a floating-point vertex shader constant.
@@ -692,7 +692,7 @@ Gets a floating-point vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174419(v=VS.85).aspx">GetVertexShaderConstantI</a>
+<a href="https://msdn.microsoft.com/e4cf79af-9f87-484d-8e01-e0c7122e101d">GetVertexShaderConstantI</a>
 </td>
 <td align="left" width="63%">
 Gets an integer vertex shader constant.
@@ -701,7 +701,7 @@ Gets an integer vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174420(v=VS.85).aspx">GetViewport</a>
+<a href="https://msdn.microsoft.com/026da206-b2e7-421c-92f8-344fef7ad245">GetViewport</a>
 </td>
 <td align="left" width="63%">
 Retrieves the viewport parameters currently set for the device.
@@ -710,7 +710,7 @@ Retrieves the viewport parameters currently set for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174421(v=VS.85).aspx">LightEnable</a>
+<a href="https://msdn.microsoft.com/3a23a10b-ded5-4dfc-ac17-ebe199f9a788">LightEnable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables a set of lighting parameters within a device.
@@ -719,7 +719,7 @@ Enables or disables a set of lighting parameters within a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174422(v=VS.85).aspx">MultiplyTransform</a>
+<a href="https://msdn.microsoft.com/a7c6b4ad-4915-402b-940a-354b44fda6a5">MultiplyTransform</a>
 </td>
 <td align="left" width="63%">
 Multiplies a device's world, view, or projection matrices by a specified matrix. 
@@ -728,7 +728,7 @@ Multiplies a device's world, view, or projection matrices by a specified matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174423(v=VS.85).aspx">Present</a>
+<a href="https://msdn.microsoft.com/47e67956-7ab4-4e05-bf05-685bdc094cf2">Present</a>
 </td>
 <td align="left" width="63%">
 Presents the contents of the next buffer in the sequence of back buffers owned by the device.
@@ -737,7 +737,7 @@ Presents the contents of the next buffer in the sequence of back buffers owned b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174424(v=VS.85).aspx">ProcessVertices</a>
+<a href="https://msdn.microsoft.com/0a34ecb6-6437-46dc-aa79-bf4d24395a86">ProcessVertices</a>
 </td>
 <td align="left" width="63%">
 Applies the vertex processing defined by the vertex shader to the set of input data streams, generating a single stream of interleaved vertex data to the destination vertex buffer. 
@@ -746,7 +746,7 @@ Applies the vertex processing defined by the vertex shader to the set of input d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174425(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/6d672f22-9843-4ff7-ae79-4903f56cd1e9">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the type, size, and format of the swap chain.
@@ -755,7 +755,7 @@ Resets the type, size, and format of the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174426(v=VS.85).aspx">SetClipPlane</a>
+<a href="https://msdn.microsoft.com/e5a7f085-6a69-4da8-9c3a-a7c546c10514">SetClipPlane</a>
 </td>
 <td align="left" width="63%">
 Sets the coefficients of a user-defined clipping plane for the device.
@@ -764,7 +764,7 @@ Sets the coefficients of a user-defined clipping plane for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174427(v=VS.85).aspx">SetClipStatus</a>
+<a href="https://msdn.microsoft.com/c035c2a3-79e3-4e33-a3d5-7674ba3cda88">SetClipStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the clip status.
@@ -773,7 +773,7 @@ Sets the clip status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174428(v=VS.85).aspx">SetCurrentTexturePalette</a>
+<a href="https://msdn.microsoft.com/5d97ccf4-20cd-4773-905a-e12b279e4f0b">SetCurrentTexturePalette</a>
 </td>
 <td align="left" width="63%">
 Sets the current texture palette.
@@ -782,7 +782,7 @@ Sets the current texture palette.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174429(v=VS.85).aspx">SetCursorPosition</a>
+<a href="https://msdn.microsoft.com/3b6410e5-fdeb-4390-b0c6-227f0c6666c6">SetCursorPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the cursor position and update options.
@@ -791,7 +791,7 @@ Sets the cursor position and update options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174430(v=VS.85).aspx">SetCursorProperties</a>
+<a href="https://msdn.microsoft.com/45e4935a-cdbd-4412-8ca5-fc4e1ceb6434">SetCursorProperties</a>
 </td>
 <td align="left" width="63%">
 Sets properties for the cursor.
@@ -800,7 +800,7 @@ Sets properties for the cursor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174431(v=VS.85).aspx">SetDepthStencilSurface</a>
+<a href="https://msdn.microsoft.com/e0ffb4fc-6428-44b1-9f9d-88a5fa88d712">SetDepthStencilSurface</a>
 </td>
 <td align="left" width="63%">
 Sets the depth stencil surface.
@@ -809,7 +809,7 @@ Sets the depth stencil surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174432(v=VS.85).aspx">SetDialogBoxMode</a>
+<a href="https://msdn.microsoft.com/4cca59f4-07ae-42d2-9dc8-3ec90ad75f3b">SetDialogBoxMode</a>
 </td>
 <td align="left" width="63%">
 This method allows the use of GDI dialog boxes in full-screen mode applications.
@@ -818,7 +818,7 @@ This method allows the use of GDI dialog boxes in full-screen mode applications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174433(v=VS.85).aspx">SetFVF</a>
+<a href="https://msdn.microsoft.com/30c7db1d-5814-49d5-a92a-de597b31cb63">SetFVF</a>
 </td>
 <td align="left" width="63%">
 Sets the current vertex stream declaration.
@@ -827,7 +827,7 @@ Sets the current vertex stream declaration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174434(v=VS.85).aspx">SetGammaRamp</a>
+<a href="https://msdn.microsoft.com/ad44b71a-f391-49bb-963d-705f6dd9325c">SetGammaRamp</a>
 </td>
 <td align="left" width="63%">
 Sets the gamma correction ramp for the implicit swap chain. This method will affect the entire screen (not just the active window if you are running in windowed mode).
@@ -836,7 +836,7 @@ Sets the gamma correction ramp for the implicit swap chain. This method will aff
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174435(v=VS.85).aspx">SetIndices</a>
+<a href="https://msdn.microsoft.com/b27403da-9079-4f97-8520-c2617b53e059">SetIndices</a>
 </td>
 <td align="left" width="63%">
 Sets index data.
@@ -845,7 +845,7 @@ Sets index data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174436(v=VS.85).aspx">SetLight</a>
+<a href="https://msdn.microsoft.com/e1f07ba6-8a9f-4bac-8dad-16160559fa4c">SetLight</a>
 </td>
 <td align="left" width="63%">
 Assigns a set of lighting properties for this device.
@@ -854,7 +854,7 @@ Assigns a set of lighting properties for this device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174437(v=VS.85).aspx">SetMaterial</a>
+<a href="https://msdn.microsoft.com/52cdcd0c-1cc9-4849-91e2-822414f7f186">SetMaterial</a>
 </td>
 <td align="left" width="63%">
 Sets the material properties for the device.
@@ -863,7 +863,7 @@ Sets the material properties for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174438(v=VS.85).aspx">SetNPatchMode</a>
+<a href="https://msdn.microsoft.com/ab5a1cfd-0c37-471c-af27-4ae078b8f7cd">SetNPatchMode</a>
 </td>
 <td align="left" width="63%">
 Enable or disable N-patches.
@@ -872,7 +872,7 @@ Enable or disable N-patches.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174439(v=VS.85).aspx">SetPaletteEntries</a>
+<a href="https://msdn.microsoft.com/7b205c4a-b01c-4856-91de-d45645f38404">SetPaletteEntries</a>
 </td>
 <td align="left" width="63%">
 Sets palette entries.
@@ -881,7 +881,7 @@ Sets palette entries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174450(v=VS.85).aspx">SetPixelShader</a>
+<a href="https://msdn.microsoft.com/bcc00274-7294-4c41-ac23-74b674bdfb77">SetPixelShader</a>
 </td>
 <td align="left" width="63%">
 Sets the current pixel shader to a previously created pixel shader.
@@ -890,7 +890,7 @@ Sets the current pixel shader to a previously created pixel shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174451(v=VS.85).aspx">SetPixelShaderConstantB</a>
+<a href="https://msdn.microsoft.com/69e44683-a551-4503-8246-c22423092734">SetPixelShaderConstantB</a>
 </td>
 <td align="left" width="63%">
 Sets a Boolean shader constant.
@@ -899,7 +899,7 @@ Sets a Boolean shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174452(v=VS.85).aspx">SetPixelShaderConstantF</a>
+<a href="https://msdn.microsoft.com/17f68eb6-254c-4457-98ea-4a76ee1823ac">SetPixelShaderConstantF</a>
 </td>
 <td align="left" width="63%">
 Sets a floating-point shader constant.
@@ -908,7 +908,7 @@ Sets a floating-point shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174453(v=VS.85).aspx">SetPixelShaderConstantI</a>
+<a href="https://msdn.microsoft.com/da71a62b-016d-4c3c-8fa7-23c5e349c5fe">SetPixelShaderConstantI</a>
 </td>
 <td align="left" width="63%">
 Sets an integer shader constant.
@@ -917,7 +917,7 @@ Sets an integer shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174454(v=VS.85).aspx">SetRenderState</a>
+<a href="https://msdn.microsoft.com/65738aae-aa90-48c5-8c9c-1927d1c92c54">SetRenderState</a>
 </td>
 <td align="left" width="63%">
 Sets a single device render-state parameter.
@@ -926,7 +926,7 @@ Sets a single device render-state parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174455(v=VS.85).aspx">SetRenderTarget</a>
+<a href="https://msdn.microsoft.com/e194af98-492a-4650-acca-68ebe0cd759c">SetRenderTarget</a>
 </td>
 <td align="left" width="63%">
 Sets a new color buffer for the device.
@@ -935,7 +935,7 @@ Sets a new color buffer for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174456(v=VS.85).aspx">SetSamplerState</a>
+<a href="https://msdn.microsoft.com/2aee31b4-dab0-4a73-ae8a-1bee1876ed8c">SetSamplerState</a>
 </td>
 <td align="left" width="63%">
 Sets the sampler state value.
@@ -944,7 +944,7 @@ Sets the sampler state value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174457(v=VS.85).aspx">SetScissorRect</a>
+<a href="https://msdn.microsoft.com/2ea215b7-eda1-4538-a5b8-6bbbb692494c">SetScissorRect</a>
 </td>
 <td align="left" width="63%">
 Sets the scissor rectangle.
@@ -953,7 +953,7 @@ Sets the scissor rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174458(v=VS.85).aspx">SetSoftwareVertexProcessing</a>
+<a href="https://msdn.microsoft.com/05e67ec5-98f8-47c4-b5b7-aabb974db88a">SetSoftwareVertexProcessing</a>
 </td>
 <td align="left" width="63%">
 Use this method to switch between software and hardware vertex processing.
@@ -962,16 +962,16 @@ Use this method to switch between software and hardware vertex processing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174459(v=VS.85).aspx">SetStreamSource</a>
+<a href="https://msdn.microsoft.com/15f4cbf8-7f14-4905-b32e-ed253bc0a3de">SetStreamSource</a>
 </td>
 <td align="left" width="63%">
-Binds a vertex buffer to a device data stream. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb147360(v=VS.85).aspx">Setting the Stream Source (Direct3D 9)</a>.
+Binds a vertex buffer to a device data stream. For more information, see <a href="https://msdn.microsoft.com/ef317537-3095-435d-b0f2-83cb3b385da2">Setting the Stream Source (Direct3D 9)</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174460(v=VS.85).aspx">SetStreamSourceFreq</a>
+<a href="https://msdn.microsoft.com/12fdf57b-25c6-4896-b0a2-931b1a546c35">SetStreamSourceFreq</a>
 </td>
 <td align="left" width="63%">
 Sets the stream source frequency divider value. This may be used to draw several instances of geometry.
@@ -980,7 +980,7 @@ Sets the stream source frequency divider value. This may be used to draw several
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174461(v=VS.85).aspx">SetTexture</a>
+<a href="https://msdn.microsoft.com/ec62aeee-037f-4c33-b242-e0483872016c">SetTexture</a>
 </td>
 <td align="left" width="63%">
 Assigns a texture to a stage for a device.
@@ -989,7 +989,7 @@ Assigns a texture to a stage for a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174462(v=VS.85).aspx">SetTextureStageState</a>
+<a href="https://msdn.microsoft.com/303f7a80-edaf-4106-a4ce-8fb7a7d30a5a">SetTextureStageState</a>
 </td>
 <td align="left" width="63%">
 Sets the state value for the currently assigned texture.
@@ -998,7 +998,7 @@ Sets the state value for the currently assigned texture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174463(v=VS.85).aspx">SetTransform</a>
+<a href="https://msdn.microsoft.com/1dc94280-131f-47e8-8dd7-cea43dc6e6da">SetTransform</a>
 </td>
 <td align="left" width="63%">
 Sets a single device transformation-related state.
@@ -1007,16 +1007,16 @@ Sets a single device transformation-related state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174464(v=VS.85).aspx">SetVertexDeclaration</a>
+<a href="https://msdn.microsoft.com/8ca4d714-b2df-432e-9140-447cef7eaec1">SetVertexDeclaration</a>
 </td>
 <td align="left" width="63%">
-Sets a <a href="https://msdn.microsoft.com/en-us/library/Bb206335(v=VS.85).aspx">Vertex Declaration (Direct3D 9)</a>.
+Sets a <a href="https://msdn.microsoft.com/09dae498-3b33-4c33-bc7e-47f2bf784e4c">Vertex Declaration (Direct3D 9)</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174465(v=VS.85).aspx">SetVertexShader</a>
+<a href="https://msdn.microsoft.com/e4913fd8-5cb3-4799-8c91-d39f213d4b47">SetVertexShader</a>
 </td>
 <td align="left" width="63%">
 Sets the vertex shader.
@@ -1025,7 +1025,7 @@ Sets the vertex shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174466(v=VS.85).aspx">SetVertexShaderConstantB</a>
+<a href="https://msdn.microsoft.com/3a781645-e622-415c-88ce-8c768ac602d5">SetVertexShaderConstantB</a>
 </td>
 <td align="left" width="63%">
 Sets a Boolean vertex shader constant.
@@ -1034,7 +1034,7 @@ Sets a Boolean vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174467(v=VS.85).aspx">SetVertexShaderConstantF</a>
+<a href="https://msdn.microsoft.com/2d3f206f-2951-4a32-91cc-2b579cc630d0">SetVertexShaderConstantF</a>
 </td>
 <td align="left" width="63%">
 Sets a floating-point vertex shader constant.
@@ -1043,7 +1043,7 @@ Sets a floating-point vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174468(v=VS.85).aspx">SetVertexShaderConstantI</a>
+<a href="https://msdn.microsoft.com/d244d8c0-065b-4d88-9c0a-1610e518e887">SetVertexShaderConstantI</a>
 </td>
 <td align="left" width="63%">
 Sets an integer vertex shader constant.
@@ -1052,7 +1052,7 @@ Sets an integer vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174469(v=VS.85).aspx">SetViewport</a>
+<a href="https://msdn.microsoft.com/57fd3a83-4bb4-4f6c-9233-d65208d4bb39">SetViewport</a>
 </td>
 <td align="left" width="63%">
 Sets the viewport parameters for the device.
@@ -1061,7 +1061,7 @@ Sets the viewport parameters for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174470(v=VS.85).aspx">ShowCursor</a>
+<a href="https://msdn.microsoft.com/76d848f1-a426-489f-9207-ef708adea1be">ShowCursor</a>
 </td>
 <td align="left" width="63%">
 Displays or hides the cursor.
@@ -1070,7 +1070,7 @@ Displays or hides the cursor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174471(v=VS.85).aspx">StretchRect</a>
+<a href="https://msdn.microsoft.com/1ad6d48f-8420-461a-96b5-e730ac06c393">StretchRect</a>
 </td>
 <td align="left" width="63%">
 Copy the contents of the source rectangle to the destination rectangle. The source rectangle can be stretched and filtered by the copy. This function is often used to change the aspect ratio of a video stream.
@@ -1079,7 +1079,7 @@ Copy the contents of the source rectangle to the destination rectangle. The sour
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174472(v=VS.85).aspx">TestCooperativeLevel</a>
+<a href="https://msdn.microsoft.com/da2ac8dd-0df8-4661-995f-9c3e6ccb62d2">TestCooperativeLevel</a>
 </td>
 <td align="left" width="63%">
 Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
@@ -1088,7 +1088,7 @@ Reports the current cooperative-level status of the Direct3D device for a window
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205857(v=VS.85).aspx">UpdateSurface</a>
+<a href="https://msdn.microsoft.com/303a4224-9c5d-4fc6-a7c5-168f18166e3c">UpdateSurface</a>
 </td>
 <td align="left" width="63%">
 Copies rectangular subsets of pixels from one surface to another. 
@@ -1097,7 +1097,7 @@ Copies rectangular subsets of pixels from one surface to another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205858(v=VS.85).aspx">UpdateTexture</a>
+<a href="https://msdn.microsoft.com/79be31d9-0dd2-416c-b58c-9b3b7777c65c">UpdateTexture</a>
 </td>
 <td align="left" width="63%">
 Updates the dirty portions of a texture.
@@ -1106,7 +1106,7 @@ Updates the dirty portions of a texture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205859(v=VS.85).aspx">ValidateDevice</a>
+<a href="https://msdn.microsoft.com/2ae81f51-fa31-4d8a-88a0-f271a76e082b">ValidateDevice</a>
 </td>
 <td align="left" width="63%">
 Reports the device's ability to render the current texture-blending operations and arguments in a single pass.
@@ -1120,7 +1120,7 @@ Reports the device's ability to render the current texture-blending operations a
 
 
 
-The <b>IDirect3DDevice9</b> interface is obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174313(v=VS.85).aspx">IDirect3D9::CreateDevice</a> method.
+The <b>IDirect3DDevice9</b> interface is obtained by calling the <a href="https://msdn.microsoft.com/22ad1d16-c1cc-4591-8311-daf6cf9924bb">IDirect3D9::CreateDevice</a> method.
 
 This interface, like all COM interfaces, inherits the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface methods.
 
@@ -1150,7 +1150,7 @@ typedef struct IDirect3DDevice9 *LPDIRECT3DDEVICE9, *PDIRECT3DDEVICE9;
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174313(v=VS.85).aspx">IDirect3D9::CreateDevice</a>
+<a href="https://msdn.microsoft.com/22ad1d16-c1cc-4591-8311-daf6cf9924bb">IDirect3D9::CreateDevice</a>
  
 
  

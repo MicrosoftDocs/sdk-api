@@ -4,10 +4,10 @@ title: SIP_INDIRECT_DATA_
 author: windows-sdk-content
 description: Contains the digest of the hashed subject information.
 old-location: security\sip_indirect_data.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d34b599b-fe49-47c4-bb52-73ee14d73253
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*PSIP_INDIRECT_DATA, PSIP_INDIRECT_DATA, PSIP_INDIRECT_DATA structure pointer [Security], SIP_INDIRECT_DATA, SIP_INDIRECT_DATA structure [Security], SIP_INDIRECT_DATA_, mssip/PSIP_INDIRECT_DATA, mssip/SIP_INDIRECT_DATA, security.sip_indirect_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices

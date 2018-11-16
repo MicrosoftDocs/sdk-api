@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ExpandCollapseStateEnum.htm
 tech.root: WinAuto
 ms.assetid: 9625a50d-b9fb-4f85-8245-c77cc53445c3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ExpandCollapseState, ExpandCollapseState enumeration [Windows Accessibility], ExpandCollapseState_Collapsed, ExpandCollapseState_Expanded, ExpandCollapseState_LeafNode, ExpandCollapseState_PartiallyExpanded, uiauto.uiauto_ExpandCollapseStateEnum, uiauto_ExpandCollapseStateEnum, uiautomationcore/ExpandCollapseState, uiautomationcore/ExpandCollapseState_Collapsed, uiautomationcore/ExpandCollapseState_Expanded, uiautomationcore/ExpandCollapseState_LeafNode, uiautomationcore/ExpandCollapseState_PartiallyExpanded, winauto.uiauto_ExpandCollapseStateEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyBag_WritePropertyNPB.htm
 tech.root: shell
 ms.assetid: f91764ee-85eb-47ec-b983-49ec410b8c2c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: INamedPropertyBag interface [Windows Shell],WritePropertyNPB method, INamedPropertyBag.WritePropertyNPB, INamedPropertyBag::WritePropertyNPB, WritePropertyNPB, WritePropertyNPB method [Windows Shell], WritePropertyNPB method [Windows Shell],INamedPropertyBag interface, _shell_INamedPropertyBag_WritePropertyNPB, shell.INamedPropertyBag_WritePropertyNPB, shlobj_core/INamedPropertyBag::WritePropertyNPB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Saves a property to the named property bag.
 
 
 
-### -param pszBagname
+### -param pszBagname [in]
 
-TBD
+Type: <b>PCWSTR</b>
+
+A pointer to a string that contains the name of the property bag.
 
 
 ### -param pszPropName [in]
@@ -83,13 +85,6 @@ A pointer to a string that contains the name of the property to write.
 Type: <b><a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
 
 A pointer to a <b>VARIANT</b> that holds the new property value.
-
-
-#### - pszBagName [in]
-
-Type: <b>PCWSTR</b>
-
-A pointer to a string that contains the name of the property bag.
 
 
 ## -returns

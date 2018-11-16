@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage_sendopaquecommands.htm
 tech.root: WMDM
 ms.assetid: c8a43a21-6ea4-4402-b0fc-2ce7868c83d7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMDSPStorage interface [windows Media Device Manager],SendOpaqueCommand method, IMDSPStorage.SendOpaqueCommand, IMDSPStorage::SendOpaqueCommand, IMDSPStorageSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IMDSPStorage interface, mswmdm/IMDSPStorage::SendOpaqueCommand, wmdm.imdspstorage_sendopaquecommands
 ms.prod: windows-hardware
 ms.technology: windows-devices

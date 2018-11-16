@@ -7,7 +7,7 @@ old-location: winmsg\showownedpopups.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\showownedpopups.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: ShowOwnedPopups, ShowOwnedPopups function [Windows and Messages], _win32_ShowOwnedPopups, _win32_showownedpopups_cpp, winmsg.showownedpopups, winui._win32_showownedpopups, winuser/ShowOwnedPopups
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<b>ShowOwnedPopups</b> shows only windows hidden by a previous call to <b>ShowOwnedPopups</b>. For example, if a pop-up window is hidden by using the <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> function, subsequently calling <b>ShowOwnedPopups</b> with the <i>fShow</i> parameter set to <b>TRUE</b> does not cause the window to be shown. 
+<b>ShowOwnedPopups</b> shows only windows hidden by a previous call to <b>ShowOwnedPopups</b>. For example, if a pop-up window is hidden by using the <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> function, subsequently calling <b>ShowOwnedPopups</b> with the <i>fShow</i> parameter set to <b>TRUE</b> does not cause the window to be shown. 
 
 
 
@@ -112,7 +112,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633530(v=VS.85).aspx">IsWindowVisible</a>
+<a href="https://msdn.microsoft.com/6d64e6c4-80b3-48c1-bd1b-00eb3bbbcf4d">IsWindowVisible</a>
 
 
 
@@ -120,11 +120,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

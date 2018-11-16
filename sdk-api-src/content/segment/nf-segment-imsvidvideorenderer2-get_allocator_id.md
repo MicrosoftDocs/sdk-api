@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer2::get_Allocator_ID
 author: windows-sdk-content
 description: The get_Allocator_ID method retrieves an identifier for the VMR filter's allocator-presenter.
 old-location: mstv\imsvidvideorenderer2_get_allocator_id.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4d512525-ed18-43af-9773-ed56c49c3641
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_Allocator_ID method, IMSVidVideoRenderer2.get_Allocator_ID, IMSVidVideoRenderer2::get_Allocator_ID, IMSVidVideoRenderer2get_Allocator_ID, get_Allocator_ID, get_Allocator_ID method [Microsoft TV Technologies], get_Allocator_ID method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_allocator_id, segment/IMSVidVideoRenderer2::get_Allocator_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_Allocator_ID</b> method retrieves an identifier for the VMR filter's 
 
 
 
-### -param ID
-
-TBD
-
-
-
-
-#### - pID [out]
+### -param ID [out]
 
 Receives the identifier. If the returned value is -1, the <a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">MSVidVideoRenderer</a> object will assign a default identifier when it builds the filter graph.
 

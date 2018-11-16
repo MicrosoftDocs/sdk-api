@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Exclude_region_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionexcludemethods\exclude_82region.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Exclude, Exclude method [GDI+], Exclude method [GDI+],Region class, Region class [GDI+],Exclude method, Region.Exclude, Region.Exclude(IN const Region), Region.Exclude(const Region*), Region::Exclude, Region::Exclude(IN const Region), _gdiplus_CLASS_Region_Exclude_region_, gdiplus._gdiplus_CLASS_Region_Exclude_region_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,10 +69,10 @@ The <b>Region::Exclude</b> method updates this region to the portion of itself t
 
 ### -param region [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object to use to update this 
+					<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object to use to update this 
 					<b>Region</b>object. 
 
 

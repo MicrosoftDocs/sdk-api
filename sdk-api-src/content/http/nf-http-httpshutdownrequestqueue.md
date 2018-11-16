@@ -7,7 +7,7 @@ old-location: http\httpshutdownrequestqueue.htm
 tech.root: Http
 ms.assetid: f6640565-a5a1-4a71-938c-1adf54beb40a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: HttpShutdownRequestQueue, HttpShutdownRequestQueue function [HTTP], http.httpshutdownrequestqueue, http/HttpShutdownRequestQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

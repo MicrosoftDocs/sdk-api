@@ -7,7 +7,7 @@ old-location: mediastreaming\iactivebasicdevicestatics.htm
 tech.root: mediastreaming
 ms.assetid: B4D8BAEF-AD30-4FEC-9527-583E88C8B4C7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IActiveBasicDeviceStatics, IActiveBasicDeviceStatics interface [Media Streaming API], IActiveBasicDeviceStatics interface [Media Streaming API],described, mediastreaming.iactivebasicdevicestatics, windows/IActiveBasicDeviceStatics
 ms.prod: windows-hardware
 ms.technology: windows-devices

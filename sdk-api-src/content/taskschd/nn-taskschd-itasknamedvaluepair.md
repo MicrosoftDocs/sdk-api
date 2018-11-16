@@ -7,7 +7,7 @@ old-location: taskschd\itasknamedvaluepair.htm
 tech.root: TaskSchd
 ms.assetid: b9d186a3-017d-409e-9d67-e74dc69a486a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITaskNamedValuePair, ITaskNamedValuePair interface [Task Scheduler], ITaskNamedValuePair interface [Task Scheduler],described, taskschd.itasknamedvaluepair, taskschd/ITaskNamedValuePair
 ms.prod: windows-hardware
 ms.technology: windows-devices

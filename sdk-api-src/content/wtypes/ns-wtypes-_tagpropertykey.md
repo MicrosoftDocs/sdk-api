@@ -7,7 +7,7 @@ old-location: properties\PROPERTYKEY.htm
 tech.root: properties
 ms.assetid: 3f5f31af-f040-443b-9045-9761055381ea
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: PROPERTYKEY, PROPERTYKEY structure [Windows Properties], _shell_PROPERTYKEY, _shell_PROPERTYKEY_cpp, _tagpropertykey, properties.PROPERTYKEY, shell.PROPERTYKEY, wtypes/PROPERTYKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ A property identifier (PID). This parameter is not used as in <a href="https://m
 
 
 
-As of Windows Vista, the <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a> structure is simply an alias for <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>, as shown in this declaration from Shobjidl.h.
+As of Windows Vista, the <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a> structure is simply an alias for <a href="shell.PROPERTYKEY">PROPERTYKEY</a>, as shown in this declaration from Shobjidl.h.
 
                 
 
@@ -93,7 +93,7 @@ As of Windows Vista, the <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5
 </tr>
 </table></span></div>
 
-<a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a> can be considered a legacy structure with <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> being the new, preferred form. <b>PROPERTYKEY</b> has a broader purpose than <b>SHCOLUMNID</b>, and the new name is more descriptive of its uses.
+<a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a> can be considered a legacy structure with <a href="shell.PROPERTYKEY">PROPERTYKEY</a> being the new, preferred form. <b>PROPERTYKEY</b> has a broader purpose than <b>SHCOLUMNID</b>, and the new name is more descriptive of its uses.
 
 
 

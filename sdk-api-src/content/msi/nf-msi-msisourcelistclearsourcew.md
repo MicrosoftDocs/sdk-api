@@ -4,10 +4,10 @@ title: MsiSourceListClearSourceW function
 author: windows-sdk-content
 description: Removes an existing source for a product or patch in a specified context.
 old-location: setup\msisourcelistclearsource.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 7d37cdd2-ecdd-4d27-b5b1-87bcffc5bf79
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListClearSource, MsiSourceListClearSource function, MsiSourceListClearSourceA, MsiSourceListClearSourceW, NULL, User SID, msi/MsiSourceListClearSource, msi/MsiSourceListClearSourceA, msi/MsiSourceListClearSourceW, setup.msisourcelistclearsource
 ms.prod: windows-hardware
 ms.technology: windows-devices

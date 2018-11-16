@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_NOTIFICATION_PRIORITY.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_notification_priority.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: SEARCH_HIGH_PRIORITY, SEARCH_NORMAL_PRIORITY, SEARCH_NOTIFICATION_PRIORITY, SEARCH_NOTIFICATION_PRIORITY enumeration [search], _SEARCH_NOTIFICATION_PRIORITY, _search_SEARCH_NOTIFICATION_PRIORITY, search._search_SEARCH_NOTIFICATION_PRIORITY, searchapi/SEARCH_HIGH_PRIORITY, searchapi/SEARCH_NORMAL_PRIORITY, searchapi/SEARCH_NOTIFICATION_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ The changed item is placed ahead of other queued items in the indexer's queue, t
 
 
 
-Set the <b>priority</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa965371(v=VS.85).aspx">SEARCH_ITEM_CHANGE</a> structure to one of these flags.
+Set the <b>priority</b> member of the <a href="https://msdn.microsoft.com/83ed1c76-7210-4d0b-a6e2-461bc331e168">SEARCH_ITEM_CHANGE</a> structure to one of these flags.
 
 As the indexer crawls, it builds a list of items that need to be indexed. These flags indicate the placement of changed items in the indexer's queue. Higher priority items are placed at the front of the queue.
 

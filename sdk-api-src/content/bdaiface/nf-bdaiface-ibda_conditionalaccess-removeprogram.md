@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccess::RemoveProgram
 author: windows-sdk-content
 description: Currently not implemented.
 old-location: mstv\ibda_conditionalaccess_removeprogram.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: bc0d14e8-f4bc-49fe-b63c-0521f5bb3dbb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],RemoveProgram method, IBDA_ConditionalAccess.RemoveProgram, IBDA_ConditionalAccess::RemoveProgram, IBDA_ConditionalAccessRemoveProgram, RemoveProgram, RemoveProgram method [Microsoft TV Technologies], RemoveProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::RemoveProgram, mstv.ibda_conditionalaccess_removeprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,15 +87,15 @@ Returns <b>E_NOTIMPL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693268(v=VS.85).aspx">AddProgram</a>
+<a href="https://msdn.microsoft.com/7e0e2905-fb7c-4532-be3e-198ca620f894">AddProgram</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://msdn.microsoft.com/93bd3c38-2591-4d36-b296-5ad939487277">IBDA_ConditionalAccess Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693276(v=VS.85).aspx">SetProgram</a>
+<a href="https://msdn.microsoft.com/d38fc9bc-70e8-419e-b7be-33d1f53a723e">SetProgram</a>
  
 
  

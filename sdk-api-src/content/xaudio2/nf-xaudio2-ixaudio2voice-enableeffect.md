@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voice_interface_enableeffect.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.EnableEffect(UINT32,UINT32)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: EnableEffect, EnableEffect method [XAudio2 Audio Mixing APIs], EnableEffect method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],EnableEffect method, IXAudio2Voice.EnableEffect, IXAudio2Voice::EnableEffect, xaudio2.ixaudio2voice_interface_enableeffect, xaudio2/IXAudio2Voice::EnableEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

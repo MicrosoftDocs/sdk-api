@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11asynchronous.htm
 tech.root: direct3d11
 ms.assetid: 37ff9dc0-5ec2-4cd5-b252-44e2dac45355
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11Asynchronous, ID3D11Asynchronous interface [Direct3D 11], ID3D11Asynchronous interface [Direct3D 11],described, ba273b1e-153b-fd26-ff4e-e9755f4ea1f2, d3d11/ID3D11Asynchronous, direct3d11.id3d11asynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices

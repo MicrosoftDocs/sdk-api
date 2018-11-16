@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_packed_mip_desc.htm
 tech.root: direct3d11
 ms.assetid: 1c200c44-6cd6-4e77-8187-54cd6cd79c84
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_PACKED_MIP_DESC, D3D11_PACKED_MIP_DESC structure [Direct3D 11], d3d11_2/D3D11_PACKED_MIP_DESC, direct3d11.d3d11_packed_mip_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,7 +117,7 @@ which of those are packed.</div>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: fs\accessntmslibrarydoor.htm
 tech.root: Rsm
 ms.assetid: c7bc4582-4405-4e42-a8bf-e2e8c68bbd7e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AccessNtmsLibraryDoor, AccessNtmsLibraryDoor function [Files], NTMS_INVENTORY_DEFAULT, NTMS_INVENTORY_FAST, NTMS_INVENTORY_NONE, NTMS_INVENTORY_OMID, _zaw_accessntmslibrarydoor, base.accessntmslibrarydoor, fs.accessntmslibrarydoor, ntmsapi/AccessNtmsLibraryDoor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -283,7 +283,7 @@ Some libraries provide no means for RSM to programmatically lock and unlock thei
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

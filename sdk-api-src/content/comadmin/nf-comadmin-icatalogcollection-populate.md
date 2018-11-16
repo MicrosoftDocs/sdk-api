@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_populate.htm
 tech.root: cossdk
 ms.assetid: 817f203c-ddc6-47bd-a946-2393067eca44
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICatalogCollection interface [COM+],Populate method, ICatalogCollection.Populate, ICatalogCollection::Populate, Populate, Populate method [COM+], Populate method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_Populate, comadmin/ICatalogCollection::Populate, cos.icatalogcollection_populate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,7 +111,7 @@ Errors occurred while accessing one or more objects.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/ms685204(v=VS.85).aspx">SaveChanges</a> method prior to calling the <b>Populate</b> method if you want to save pending changes. Unsaved changes made to the collection are lost when you call the <b>Populate</b> method.
+Call the <a href="https://msdn.microsoft.com/ae984eee-4a8d-48e5-839c-fa115fd4aeea">SaveChanges</a> method prior to calling the <b>Populate</b> method if you want to save pending changes. Unsaved changes made to the collection are lost when you call the <b>Populate</b> method.
 
 
 
@@ -121,7 +121,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/ms685204(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

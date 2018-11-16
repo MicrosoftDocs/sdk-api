@@ -4,10 +4,10 @@ title: ID2D1GradientStopCollection
 author: windows-sdk-content
 description: Represents an collection of D2D1_GRADIENT_STOP objects for linear and radial gradient brushes.
 old-location: direct2d\ID2D1GradientStopCollection.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 982abf9c-4778-4871-a494-5843f0c0addc
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1GradientStopCollection, ID2D1GradientStopCollection interface [Direct2D], ID2D1GradientStopCollection interface [Direct2D],described, d2d1/ID2D1GradientStopCollection, direct2d.ID2D1GradientStopCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,9 +121,13 @@ A gradient stop collection is a device-dependent resource: your application shou
 
 The following example creates an array of gradient stops, then uses them to create an <b>ID2D1GradientStopCollection</b>.
 
-
-```cpp
-// Create an array of gradient stops to put in the gradient stop
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create an array of gradient stops to put in the gradient stop
 // collection that will be used in the gradient brush.
 ID2D1GradientStopCollection *pGradientStops = NULL;
 
@@ -134,38 +138,42 @@ gradientStops[1].color = D2D1::ColorF(D2D1::ColorF::ForestGreen, 1);
 gradientStops[1].position = 1.0f;
 // Create the ID2D1GradientStopCollection from a previously
 // declared array of D2D1_GRADIENT_STOP structs.
-hr = m_pRenderTarget->CreateGradientStopCollection(
+hr = m_pRenderTarget-&gt;CreateGradientStopCollection(
     gradientStops,
     2,
     D2D1_GAMMA_2_2,
     D2D1_EXTEND_MODE_CLAMP,
-    &pGradientStops
+    &amp;pGradientStops
     );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next code example uses the <b>ID2D1GradientStopCollection</b> to create an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a>.
 
-
-```cpp
-// The line that determines the direction of the gradient starts at
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The line that determines the direction of the gradient starts at
 // the upper-left corner of the square and ends at the lower-right corner.
 
 if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget->CreateLinearGradientBrush(
+    hr = m_pRenderTarget-&gt;CreateLinearGradientBrush(
         D2D1::LinearGradientBrushProperties(
             D2D1::Point2F(0, 0),
             D2D1::Point2F(150, 150)),
         pGradientStops,
-        &m_pLinearGradientBrush
+        &amp;m_pLinearGradientBrush
         );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

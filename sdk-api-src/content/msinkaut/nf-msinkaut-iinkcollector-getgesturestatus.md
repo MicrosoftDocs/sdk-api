@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_getgesturestatus.htm
 tech.root: tablet
 ms.assetid: 31973709-1702-4ec1-8228-b0d1bdb64bc8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 31973709-1702-4ec1-8228-b0d1bdb64bc8, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],GetGestureStatus method, IInkCollector.GetGestureStatus, IInkCollector::GetGestureStatus, msinkaut/IInkCollector::GetGestureStatus, tablet.inkcollector_getgesturestatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,19 +70,14 @@ Indicates whether the <a href="https://msdn.microsoft.com/189f430e-9d00-4e29-bb8
 
 
 
-### -param Gesture
+### -param Gesture [in]
 
-TBD
+Sets the gesture that you want the status of.
 
 
 ### -param Listening [out, retval]
 
 <b>VARIANT_TRUE</b> if the InkCollector control has interest in a particular application gesture; otherwise, <b>VARIANT_VALSE</b>.
-
-
-#### - gesture [in]
-
-Sets the gesture that you want the status of.
 
 
 ## -returns

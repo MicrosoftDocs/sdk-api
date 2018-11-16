@@ -4,10 +4,10 @@ title: ITextFont2::SetAutospaceAlpha
 author: windows-sdk-content
 description: Sets the East Asian &#0034;autospace alpha&#0034; state.
 old-location: controls\itextfont2_setautospacealpha.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 8a01677d-74c6-437b-8ee9-350c891c6c3f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceAlpha method, ITextFont2.SetAutospaceAlpha, ITextFont2::SetAutospaceAlpha, SetAutospaceAlpha, SetAutospaceAlpha method [Windows Controls], SetAutospaceAlpha method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospacealpha, tom/ITextFont2::SetAutospaceAlpha
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Sets the East Asian "autospace alpha" state.
 
 Type: <b>long</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

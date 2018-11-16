@@ -7,7 +7,7 @@ old-location: tablet\panelinputarea.htm
 tech.root: tablet
 ms.assetid: fc262f07-aa73-49c8-a26a-1f0a47f8269a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: InputArea2, InputArea2 enumeration [Tablet PC], PanelInputArea, PanelInputArea enumeration [Tablet PC], PanelInputArea_Auto, PanelInputArea_CharacterPad, PanelInputArea_Keyboard, PanelInputArea_WritingPad, __MIDL___MIDL_itf_peninputpanel_0000_0000_0003, fc262f07-aa73-49c8-a26a-1f0a47f8269a, peninputpanel/PanelInputArea, peninputpanel/PanelInputArea_Auto, peninputpanel/PanelInputArea_CharacterPad, peninputpanel/PanelInputArea_Keyboard, peninputpanel/PanelInputArea_WritingPad, tablet.panelinputarea
 ms.prod: windows-hardware
 ms.technology: windows-devices

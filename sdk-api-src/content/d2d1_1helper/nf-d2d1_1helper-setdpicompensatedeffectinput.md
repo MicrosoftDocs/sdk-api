@@ -4,10 +4,10 @@ title: SetDpiCompensatedEffectInput function
 author: windows-sdk-content
 description: Sets a bitmap as an effect input, while inserting a DPI compensation effect to preserve visual appearance as the device context's DPI changes.
 old-location: direct2d\setdpicompensatedeffectinput.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B9E2C5F7-2E05-441D-A902-6473E0235659
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SetDpiCompensatedEffectInput, SetDpiCompensatedEffectInput function [Direct2D], d2d1_1helper/SetDpiCompensatedEffectInput, direct2d.setdpicompensatedeffectinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,14 +95,14 @@ The input bitmap.
 
 ### -param interpolationMode
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/7a32f551-afad-4eb2-953f-a9acc71d7776">D2D1_INTERPOLATION_MODE</a></b>
 
 The interpolation mode for the DPI compensation effect.
 
 
 ### -param borderMode
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn934220(v=VS.85).aspx">D2D1_BORDER_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a></b>
 
 The border mode for the DPI compensation effect.
 

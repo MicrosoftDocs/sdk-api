@@ -4,10 +4,10 @@ title: "_CRYPT_XML_TRANSFORM_INFO"
 author: windows-sdk-content
 description: Contains information that is used when applying the data transform.
 old-location: security\crypt_xml_transform_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4821dc8f-11d4-4083-bb17-9d9637d99af5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCRYPT_XML_TRANSFORM_INFO, CRYPT_XML_TRANSFORM_INFO, CRYPT_XML_TRANSFORM_INFO structure [Security], CRYPT_XML_TRANSFORM_ON_NODESET, CRYPT_XML_TRANSFORM_ON_STREAM, CRYPT_XML_TRANSFORM_URI_QUERY_STRING, PCRYPT_XML_TRANSFORM_INFO, PCRYPT_XML_TRANSFORM_INFO structure pointer [Security], _CRYPT_XML_TRANSFORM_INFO, cryptxml/CRYPT_XML_TRANSFORM_INFO, cryptxml/PCRYPT_XML_TRANSFORM_INFO, security.crypt_xml_transform_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,7 +131,7 @@ in the QueryString after the ampersand (&amp;). Use this flag to evaluate only t
 
 ### -field pfnCreateTransform
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433874(v=VS.85).aspx">PFN_CRYPT_XML_CREATE_TRANSFORM</a> callback function used to create the transform.
+A pointer to a <a href="https://msdn.microsoft.com/d9228015-d5e7-4c72-9561-be4ee5fa4264">PFN_CRYPT_XML_CREATE_TRANSFORM</a> callback function used to create the transform.
 
 
 ## -remarks
@@ -152,7 +152,7 @@ For XML canonicalization transforms, the buffer size specified by the <b>cbBuffe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd979768(v=VS.85).aspx">Digital Signature Cryptographic Algorithms</a>
+<a href="https://msdn.microsoft.com/012bad01-228a-4bb0-b883-0c2c7abd9271">Digital Signature Cryptographic Algorithms</a>
  
 
  

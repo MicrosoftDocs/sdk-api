@@ -7,7 +7,7 @@ old-location: multimedia\drivercallback.htm
 tech.root: Multimedia
 ms.assetid: 89afeb47-0a98-4db1-8664-6a0fe66d3413
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: DCB_FUNCTION, DCB_NOSWITCH, DCB_TASK, DCB_WINDOW, DriverCallback, DriverCallback function [Windows Multimedia], _win32_DriverCallback, digitalv/DriverCallback, multimedia.drivercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ Calls a callback function, sends a message to a window, or unblocks a thread. Th
 
 ### -param dwCallback
 
-TBD
+Address of the callback function, a window handle, or a task handle, depending on the flag specified in the <i>dwFlags</i> parameter.
 
 
 ### -param dwFlags
@@ -130,12 +130,12 @@ The <i>dwCallback</i> parameter is the handle of an application or task. The sys
 
 ### -param hDevice
 
-TBD
+Handle of the installable driver instance.
 
 
 ### -param dwMsg
 
-TBD
+Message value.
 
 
 ### -param dwUser
@@ -151,21 +151,6 @@ TBD
 ### -param dwParam2
 
 32-bit message-dependent parameter.
-
-
-#### - dwCallBack
-
-Address of the callback function, a window handle, or a task handle, depending on the flag specified in the <i>dwFlags</i> parameter.
-
-
-#### - hdrvr
-
-Handle of the installable driver instance.
-
-
-#### - msg
-
-Message value.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: dxmath\xmvector4length.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4Length(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMVector4Length, XMVector4Length, XMVector4Length method [DirectX Math Support APIs], dxmath.xmvector4length
 ms.prod: windows-hardware
 ms.technology: windows-devices

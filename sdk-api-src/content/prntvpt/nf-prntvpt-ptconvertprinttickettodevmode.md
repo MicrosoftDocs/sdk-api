@@ -7,7 +7,7 @@ old-location: gdi\ptconvertprinttickettodevmode.htm
 tech.root: printdocs
 ms.assetid: 5eec91b9-d554-4440-bc9e-6a26af34994b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: PTConvertPrintTicketToDevMode, PTConvertPrintTicketToDevMode function [Windows GDI], _win32_PTConvertPrintTicketToDevMode, gdi.ptconvertprinttickettodevmode, prntvpt/PTConvertPrintTicketToDevMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_IN
 
 If <i>pPrintTicket</i> is invalid, the <b>HRESULT</b> is E_PRINTTICKET_FORMAT.
 
-Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 
 
@@ -131,7 +131,7 @@ The buffer in the returned <i>ppDevmode</i> should be released with <a href="htt
 
 Values of <i>pPrintTicket</i> that are outside of the <i>scope</i> are ignored. For example, if the scope is only a single page, then job-wide settings and document-wide settings are ignored. Job scope includes document scope and page scope. Document scope includes page scope.
 
-If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 
 

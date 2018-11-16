@@ -7,7 +7,7 @@ old-location: mf\iplaytosourceclassfactory_createinstance.htm
 tech.root: medfound
 ms.assetid: 3F7F8441-B0A2-407E-B127-C7DC66CA34DE
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IPlayToSourceClassFactory interface, IPlayToSourceClassFactory interface [Media Foundation],CreateInstance method, IPlayToSourceClassFactory.CreateInstance, IPlayToSourceClassFactory::CreateInstance, mf.iplaytocontrollerclassfactory_createinstance, mf.iplaytosourceclassfactory_createinstance, mfsharingengine/IPlayToSourceClassFactory::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,14 +76,7 @@ A bitwise <b>OR</b> of flags from the <a href="https://msdn.microsoft.com/15B632
 A pointer to the <a href="https://msdn.microsoft.com/53355EEA-559B-4803-89F6-D454E15F9254">IPlayToControl</a> interface.
 
 
-### -param ppSource
-
-TBD
-
-
-
-
-#### - ppController [out]
+### -param ppSource [out]
 
 Receives a pointer to the <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> interface. The caller must release the interface.
 

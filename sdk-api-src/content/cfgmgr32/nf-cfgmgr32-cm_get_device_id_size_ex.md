@@ -58,7 +58,7 @@ req.redist:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/3ae682d0-d9fa-4a29-8258-c6f72f1940b7">CM_Get_Device_ID_Size</a> instead.]
 
-The <b>CM_Get_Device_ID_Size_Ex</b> function retrieves the buffer size required to hold a <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> for a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance</a> on a local or a remote machine.
+The <b>CM_Get_Device_ID_Size_Ex</b> function retrieves the buffer size required to hold a <a href="devinst.device_instance_ids">device instance ID</a> for a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance</a> on a local or a remote machine.
 
 
 ## -parameters

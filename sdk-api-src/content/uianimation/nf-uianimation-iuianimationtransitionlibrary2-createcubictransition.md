@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createcubictransition.h
 tech.root: UIAnimation
 ms.assetid: 63ADBD53-2552-4D68-AABD-E3B1F83831EB
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateCubicTransition, CreateCubicTransition method [Windows Animation], CreateCubicTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateCubicTransition method, IUIAnimationTransitionLibrary2.CreateCubicTransition, IUIAnimationTransitionLibrary2::CreateCubicTransition, uianimation.iuianimationtransitionlibrary2_createcubictransition, uianimation/IUIAnimationTransitionLibrary2::CreateCubicTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices

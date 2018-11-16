@@ -4,10 +4,10 @@ title: lineCompleteTransfer function
 author: windows-sdk-content
 description: The lineCompleteTransfer function completes the transfer of the specified call to the party connected in the consultation call.
 old-location: tapi2\linecompletetransfer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ebedf664-4c45-49c3-9d86-c3d782077a00
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "_tapi2_linecompletetransfer, lineCompleteTransfer, lineCompleteTransfer function [TAPI 2.2], tapi/lineCompleteTransfer, tapi2.linecompletetransfer"
 ms.prod: windows-hardware
 ms.technology: windows-devices

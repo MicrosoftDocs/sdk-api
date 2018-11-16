@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_SetMultiOption.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setmultioption.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IQueryParser interface [search],SetMultiOption method, IQueryParser.SetMultiOption, IQueryParser::SetMultiOption, SetMultiOption, SetMultiOption method [search], SetMultiOption method [search],IQueryParser interface, _search_IQueryParser_SetMultiOption, search._search_IQueryParser_SetMultiOption, structuredquery/IQueryParser::SetMultiOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ Sets a complex option, such as a specified condition generator, to use when pars
 
 ### -param option [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965706(v=VS.85).aspx">STRUCTURED_QUERY_MULTIOPTION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c2f2a664-255f-4eec-89be-fc7562f4a788">STRUCTURED_QUERY_MULTIOPTION</a></b>
 
 The complex option to be set.
         
@@ -78,15 +78,15 @@ The complex option to be set.
 
 Type: <b>LPCWSTR</b>
 
-A Unicode string that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa965706(v=VS.85).aspx">STRUCTURED_QUERY_MULTIOPTION</a>.
+A Unicode string that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/c2f2a664-255f-4eec-89be-fc7562f4a788">STRUCTURED_QUERY_MULTIOPTION</a>.
         
 
 
 ### -param pOptionValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa965706(v=VS.85).aspx">STRUCTURED_QUERY_MULTIOPTION</a>.
+Pointer to a <a href="_stg_propvariant">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/c2f2a664-255f-4eec-89be-fc7562f4a788">STRUCTURED_QUERY_MULTIOPTION</a>.
         
 
 

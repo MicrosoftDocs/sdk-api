@@ -4,10 +4,10 @@ title: ResUtilSetPropertyTable function
 author: windows-sdk-content
 description: Sets properties in the cluster database based on a property list from a property table..
 old-location: mscs\resutilsetpropertytable.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 79d8acfa-fc5d-4810-9775-d5f065d93d6f
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE, PRESUTIL_SET_PROPERTY_TABLE function [Failover Cluster], ResUtilSetPropertyTable, ResUtilSetPropertyTable function [Failover Cluster], _wolf_resutilsetpropertytable, mscs.resutilsetpropertytable, resapi/PRESUTIL_SET_PROPERTY_TABLE, resapi/ResUtilSetPropertyTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,6 +116,62 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 If the operation fails, the function returns a 
        <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error 
        codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_BAD_ARGUMENTS</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the input parameters were invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INSUFFICIENT_BUFFER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The size of the input buffer specified in <i>cbInPropertyListSize</i> is too 
+        small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The input buffer pointed to by <i>pInPropertyList</i> is 
+        <b>NULL</b>, a property name is not valid, or a property value is too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The syntax, format, or type of a property in the property table pointed to by 
+        <i>pPropertyTable</i> is incorrect, or a property is 
+        <a href="https://msdn.microsoft.com/7df0981b-7253-40c1-9a5d-44cfc4cdf13b">read-only</a> and cannot be set.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_devicenam
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qw5.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],IFaxOutgoingMessage interface, IFaxOutgoingMessage interface [Fax Service],DeviceName property, IFaxOutgoingMessage.DeviceName, IFaxOutgoingMessage.get_DeviceName, IFaxOutgoingMessage::DeviceName, IFaxOutgoingMessage::get_DeviceName, _mfax_faxoutgoingmessage.devicename, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_devicename_cpp, fax._mfax_faxoutgoingmessage_devicename, faxcomex/IFaxOutgoingMessage::DeviceName, faxcomex/IFaxOutgoingMessage::get_DeviceName, get_DeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices

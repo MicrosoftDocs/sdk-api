@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_refresh_c
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_827c.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxIncomingArchive interface [Fax Service],Refresh method, IFaxIncomingArchive.Refresh, IFaxIncomingArchive::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxIncomingArchive interface, _mfax_faxincomingarchive.refresh, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_refresh_cpp, fax._mfax_faxincomingarchive_refresh, faxcomex/IFaxIncomingArchive::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

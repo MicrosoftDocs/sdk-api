@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangle_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddrectanglemethods\addrectangle.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AddRectangle, AddRectangle method [GDI+], AddRectangle method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddRectangle method, GraphicsPath.AddRectangle, GraphicsPath.AddRectangle(IN const Rect &), GraphicsPath.AddRectangle(const Rect&), GraphicsPath::AddRectangle, GraphicsPath::AddRectangle(IN const Rect &), _gdiplus_CLASS_GraphicsPath_AddRectangle_Rect_rect_, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangle_Rect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,7 +113,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 

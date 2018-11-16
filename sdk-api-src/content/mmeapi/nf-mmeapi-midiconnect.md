@@ -7,7 +7,7 @@ old-location: multimedia\midiconnect.htm
 tech.root: Multimedia
 ms.assetid: 24ee806a-f8a2-470e-8737-e4e5216f2705
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_midiConnect, midiConnect, midiConnect function [Windows Multimedia], mmeapi/midiConnect, multimedia.midiconnect"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The <b>midiConnect</b> function connects a MIDI input device to a MIDI thru or o
 
 ### -param hmi
 
-TBD
+Handle to a MIDI input device or a MIDI thru device. (For thru devices, this handle must have been returned by a call to the <a href="https://msdn.microsoft.com/929cd4d1-6912-4456-a6c7-24a819799e46">midiOutOpen</a> function.)
 
 
 ### -param hmo
@@ -82,11 +82,6 @@ Handle to the MIDI output or thru device.
 ### -param pReserved
 
 Reserved; must be <b>NULL</b>.
-
-
-#### - hMidi
-
-Handle to a MIDI input device or a MIDI thru device. (For thru devices, this handle must have been returned by a call to the <a href="https://msdn.microsoft.com/929cd4d1-6912-4456-a6c7-24a819799e46">midiOutOpen</a> function.)
 
 
 ## -returns

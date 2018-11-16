@@ -4,10 +4,10 @@ title: IRicheditWindowlessAccessibility
 author: windows-sdk-content
 description: Enables the host container of a windowless rich edit control to obtain the Microsoft UI Automation provider for the parent of the control.
 old-location: controls\iricheditwindowlessaccessibility.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: E58E9577-4004-4627-A0D6-CF8166C0C43F
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IRicheditWindowlessAccessibility, IRicheditWindowlessAccessibility interface [Windows Controls], IRicheditWindowlessAccessibility interface [Windows Controls],described, controls.iricheditwindowlessaccessibility, textserv/IRicheditWindowlessAccessibility
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ Obtains a UI Automation provider object for the parent of a windowless rich edit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh768428(v=VS.85).aspx">IRichEditUiaInformation</a>
+<a href="https://msdn.microsoft.com/89C4DF55-F889-4ED6-8812-E2244A9F7BB8">IRichEditUiaInformation</a>
 
 
 

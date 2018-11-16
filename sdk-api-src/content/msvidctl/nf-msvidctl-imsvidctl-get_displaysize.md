@@ -4,10 +4,10 @@ title: IMSVidCtl::get_DisplaySize
 author: windows-sdk-content
 description: The get_DisplaySize method retrieves the display size.
 old-location: mstv\imsvidctl_get_displaysize.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: f3d5ed73-4781-46fb-8df4-a7dc339b755c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_DisplaySize method, IMSVidCtl.get_DisplaySize, IMSVidCtl::get_DisplaySize, IMSVidCtlget_DisplaySize, get_DisplaySize, get_DisplaySize method [Microsoft TV Technologies], get_DisplaySize method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_displaysize, msvidctl/IMSVidCtl::get_DisplaySize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_DisplaySize</b> method retrieves the display size.
 
 
 
-### -param CurrentValue
-
-TBD
-
-
-
-
-#### - pCurrentValue [out]
+### -param CurrentValue [out]
 
 Receives a member of the <a href="https://msdn.microsoft.com/2e939cbc-fc75-41d7-9fcb-32da5173f9bc">DisplaySizeList</a> enumeration.
 

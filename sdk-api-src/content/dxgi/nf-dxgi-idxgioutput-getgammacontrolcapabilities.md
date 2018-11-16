@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_getgammacontrolcapabilities.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getgammacontrolcapabilities.htm
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: 7a21bfd4-6142-892e-82c8-bfe1be182780, GetGammaControlCapabilities, GetGammaControlCapabilities method [DXGI], GetGammaControlCapabilities method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetGammaControlCapabilities method, IDXGIOutput.GetGammaControlCapabilities, IDXGIOutput::GetGammaControlCapabilities, direct3ddxgi.idxgioutput_getgammacontrolcapabilities, dxgi/IDXGIOutput::GetGammaControlCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,18 +69,18 @@ Gets a description of the gamma-control capabilities.
 
 ### -param pGammaCaps [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173062(v=VS.85).aspx">DXGI_GAMMA_CONTROL_CAPABILITIES</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/617855d8-bc68-47d5-aa92-0aa8a9556333">DXGI_GAMMA_CONTROL_CAPABILITIES</a>*</b>
 
-A pointer to a  description of the gamma-control capabilities (see <a href="https://msdn.microsoft.com/en-us/library/Bb173062(v=VS.85).aspx">DXGI_GAMMA_CONTROL_CAPABILITIES</a>).
+A pointer to a  description of the gamma-control capabilities (see <a href="https://msdn.microsoft.com/617855d8-bc68-47d5-aa92-0aa8a9556333">DXGI_GAMMA_CONTROL_CAPABILITIES</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> values.
+Returns one of the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> values.
 
 
 
@@ -104,7 +104,7 @@ For info about using gamma correction, see <a href="https://msdn.microsoft.com/9
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a>
+<a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a>
  
 
  

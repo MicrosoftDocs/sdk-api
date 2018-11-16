@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_beginread.htm
 tech.root: WMDM
 ms.assetid: e72caaac-8992-4f11-8020-0455b3d730ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: BeginRead, BeginRead method [windows Media Device Manager], BeginRead method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],BeginRead method, IWMDMOperation.BeginRead, IWMDMOperation::BeginRead, IWMDMOperationBeginRead, mswmdm/IWMDMOperation::BeginRead, wmdm.iwmdmoperation_beginread
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfmenu_addmenuitem.htm
 tech.root: TSF
 ms.assetid: c00048d1-d7c1-4ea3-a132-5f5aa570148f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: AddMenuItem, AddMenuItem method [Text Services Framework], AddMenuItem method [Text Services Framework],ITfMenu interface, ITfMenu interface [Text Services Framework],AddMenuItem method, ITfMenu.AddMenuItem, ITfMenu::AddMenuItem, _tsf_itfmenu_addmenuitem_ref, ctfutb/ITfMenu::AddMenuItem, tsf.itfmenu_addmenuitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ Contains the menu item identifier.
 
 ### -param dwFlags [in]
 
-Contains zero or a combination of one or more of the <a href="https://msdn.microsoft.com/en-us/library/ms629080(v=VS.85).aspx">TF_LBMENUF_*</a> values that specify the type and state of the menu item.
+Contains zero or a combination of one or more of the <a href="https://msdn.microsoft.com/f8f3f397-b84e-4635-b454-31369c679ce2">TF_LBMENUF_*</a> values that specify the type and state of the menu item.
 
 
 ### -param hbmp [in]
@@ -101,9 +101,9 @@ Specifies the length, in <b>WCHAR</b>, of the menu item text in <i>pch</i>.
 
 ### -param ppMenu
 
-[in, out] Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628780(v=VS.85).aspx">ITfMenu</a> interface pointer that receives the submenu object. This parameter is not used and must be <b>NULL</b> if <i>dwFlags</i> does not contain <b>TF_LBMENUF_SUBMENU</b>.
+[in, out] Pointer to an <a href="https://msdn.microsoft.com/303115e1-8d52-4a0a-b05e-b5c92b8b3e2a">ITfMenu</a> interface pointer that receives the submenu object. This parameter is not used and must be <b>NULL</b> if <i>dwFlags</i> does not contain <b>TF_LBMENUF_SUBMENU</b>.
 
-If the submenu item is successfully created, this parameter receives an <a href="https://msdn.microsoft.com/en-us/library/ms628780(v=VS.85).aspx">ITfMenu</a> object that the caller uses to add items to the submenu.
+If the submenu item is successfully created, this parameter receives an <a href="https://msdn.microsoft.com/303115e1-8d52-4a0a-b05e-b5c92b8b3e2a">ITfMenu</a> object that the caller uses to add items to the submenu.
 
 If <i>dwFlags</i> contains <b>TF_LBMENUF_SUBMENU</b>, this value must be initialized to <b>NULL</b> prior to calling this method because, in most cases, this is a marshalled call. Not initializing this variable results in the marshaller attempting to access random memory.
 
@@ -163,7 +163,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628780(v=VS.85).aspx">ITfMenu</a>
+<a href="https://msdn.microsoft.com/303115e1-8d52-4a0a-b05e-b5c92b8b3e2a">ITfMenu</a>
 
 
 

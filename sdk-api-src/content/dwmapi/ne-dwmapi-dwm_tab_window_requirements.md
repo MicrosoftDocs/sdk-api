@@ -7,7 +7,7 @@ old-location: dwm\dwm_tab_window_requirements.htm
 tech.root: dwm
 ms.assetid: 8366ABE4-263D-448D-9FC9-3F4DAF9B700D
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DWMTWR_IMPLEMENTED_BY_SYSTEM, DWMTWR_NONE, DWMTWR_TABBING_ENABLED, DWMTWR_USER_POLICY, DWMTWR_WINDOW_DWM_ATTRIBUTES, DWMTWR_WINDOW_MARGINS, DWMTWR_WINDOW_REGION, DWMTWR_WINDOW_RELATIONSHIP, DWMTWR_WINDOW_STYLES, DWM_TAB_WINDOW_REQUIREMENTS, DWM_TAB_WINDOW_REQUIREMENTS enumeration [Desktop Window Manager], dwm.dwm_tab_window_requirements, dwmapi/ DWMTWR_WINDOW_STYLES, dwmapi/DWMTWR_IMPLEMENTED_BY_SYSTEM, dwmapi/DWMTWR_NONE, dwmapi/DWMTWR_TABBING_ENABLED, dwmapi/DWMTWR_USER_POLICY, dwmapi/DWMTWR_WINDOW_DWM_ATTRIBUTES, dwmapi/DWMTWR_WINDOW_MARGINS, dwmapi/DWMTWR_WINDOW_REGION, dwmapi/DWMTWR_WINDOW_RELATIONSHIP, dwmapi/DWM_TAB_WINDOW_REQUIREMENTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,7 +99,7 @@ The window has a region (set using <a href="https://msdn.microsoft.com/06209d0c-
 
 The window is ineligible due to its Dwm configuration.
 
-To resolve this issue, the window must not extended its client area into the title bar using <a href="https://msdn.microsoft.com/en-us/library/Aa969512(v=VS.85).aspx">DwmExtendFrameIntoClientArea</a>. In addition, the window must not have <b>DWMWA_NCRENDERING_POLICY</b> set to <b>DWMNCRP_ENABLED</b>. 
+To resolve this issue, the window must not extended its client area into the title bar using <a href="https://msdn.microsoft.com/4ea409df-3980-4903-b481-6ff718dc01bc">DwmExtendFrameIntoClientArea</a>. In addition, the window must not have <b>DWMWA_NCRENDERING_POLICY</b> set to <b>DWMNCRP_ENABLED</b>. 
 
 
 ### -field DWMTWR_WINDOW_MARGINS

@@ -4,10 +4,10 @@ title: IMPEG2Component::get_ProgramNumber
 author: windows-sdk-content
 description: The get_ProgramNumber method returns the program number for this substream.
 old-location: mstv\impeg2component_get_programnumber.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: a501c65d-26cf-44f4-b134-2a1080095eaa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],get_ProgramNumber method, IMPEG2Component.get_ProgramNumber, IMPEG2Component::get_ProgramNumber, IMPEG2Componentget_ProgramNumber, get_ProgramNumber, get_ProgramNumber method [Microsoft TV Technologies], get_ProgramNumber method [Microsoft TV Technologies],IMPEG2Component interface, mstv.impeg2component_get_programnumber, tuner/IMPEG2Component::get_ProgramNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_ProgramNumber</b> method returns the program number for this substrea
 
 
 
-### -param ProgramNumber
-
-TBD
-
-
-
-
-#### - pProgramNumber [out]
+### -param ProgramNumber [out]
 
 Pointer to a variable that receives the program number.
 

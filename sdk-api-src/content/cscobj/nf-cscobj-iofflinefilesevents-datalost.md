@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_datalost.htm
 tech.root: OfflineFiles
 ms.assetid: da0414dd-2acb-48d9-ac84-66bb1f7ccbef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DataLost, DataLost method [Offline Files], DataLost method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],DataLost method, IOfflineFilesEvents.DataLost, IOfflineFilesEvents::DataLost, cscobj/IOfflineFilesEvents::DataLost, of.iofflinefilesevents_datalost
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ The return value is ignored.
 
 
 
-This event cannot be filtered out by using the <a href="https://msdn.microsoft.com/en-us/library/Bb530532(v=VS.85).aspx">IOfflineFilesEventsFilter</a> interface.
+This event cannot be filtered out by using the <a href="https://msdn.microsoft.com/8c2c793e-c91c-4ca7-a03c-e349de00de6c">IOfflineFilesEventsFilter</a> interface.
 
 
 
@@ -92,7 +92,7 @@ This event cannot be filtered out by using the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

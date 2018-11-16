@@ -88,7 +88,7 @@ If set, this flag prevents the <a href="https://msdn.microsoft.com/86688b5d-575d
 
 This driver's INF file is signed by an Authenticode signature. This flag is read-only to installers.
 
-For more information, see <a href="https://msdn.microsoft.com/library/Ff553637(v=VS.85).aspx">Using SetupAPI to Verify Driver Authenticode Signatures</a>.
+For more information, see <a href="devinst.using_setupapi_to_verify_driver_authenticode_signatures">Using SetupAPI to Verify Driver Authenticode Signatures</a>.
 
 
 
@@ -165,11 +165,11 @@ If you call <a href="http://go.microsoft.com/fwlink/p/?linkid=98735">SetupCopyOE
 This flag is read-only to installers, and is set if any of the following conditions are true:
 
 <ul>
-<li>The driver has a <a href="https://msdn.microsoft.com/library/Ff553976(v=VS.85).aspx">WHQL release signature</a>.</li>
+<li>The driver has a <a href="devinst.whql_release_signature">WHQL release signature</a>.</li>
 <li>The driver is an inbox driver.</li>
 <li>The driver has an Authenticode signature.</li>
 </ul>
-For more information, see <a href="https://msdn.microsoft.com/library/Ff544865(v=VS.85).aspx">Driver Signing</a>.
+For more information, see <a href="devinst.driver_signing">Driver Signing</a>.
 
 
 
@@ -252,7 +252,7 @@ If the device-specific software is not installed on the computer, the PnP manage
 
 </li>
 </ol>
-<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> has set the <b>RequestAdditionalSoftware </b>flag in the <a href="https://msdn.microsoft.com/library/Ff546342(v=VS.85).aspx">INF ControlFlags Section</a>.</div>
+<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> has set the <b>RequestAdditionalSoftware </b>flag in the <a href="devinst.inf_controlflags_section">INF ControlFlags Section</a>.</div>
 <div> </div>
 
 

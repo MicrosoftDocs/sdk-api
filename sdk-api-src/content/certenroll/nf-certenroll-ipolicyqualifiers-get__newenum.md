@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifiers__newenum_property.htm
 tech.root: SecCertEnroll
 ms.assetid: deba8da7-8df7-4f7e-8e6a-0094b071ff72
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IPolicyQualifiers interface [Security],_NewEnum property, IPolicyQualifiers._NewEnum, IPolicyQualifiers.get__NewEnum, IPolicyQualifiers::_NewEnum, IPolicyQualifiers::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::_NewEnum, certenroll/IPolicyQualifiers::get__NewEnum, get__NewEnum, security.ipolicyqualifiers__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,11 +72,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376803(v=VS.85).aspx">IPolicyQualifier</a>
+<a href="https://msdn.microsoft.com/3804e372-17bb-458d-8da5-85d760fe5e60">IPolicyQualifier</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376804(v=VS.85).aspx">IPolicyQualifiers</a>
+<a href="https://msdn.microsoft.com/da8b6289-379e-4dff-b15a-b0967f245c3d">IPolicyQualifiers</a>
  
 
  

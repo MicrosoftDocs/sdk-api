@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_sourceheight.htm
 tech.root: DirectShow
 ms.assetid: 3f4e779a-cfa9-496d-a021-d24ae3daa5b3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceHeight method, IBasicVideo.get_SourceHeight, IBasicVideo::get_SourceHeight, IBasicVideoget_SourceHeight, control/IBasicVideo::get_SourceHeight, dshow.ibasicvideo_get_sourceheight, get_SourceHeight, get_SourceHeight method [DirectShow], get_SourceHeight method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,11 +89,11 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\IShellItemArray_BindToHandler.htm
 tech.root: shell
 ms.assetid: 7632d876-c00b-4dfc-862b-9a68f01bd8da
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: BHID_AssociationArray, BHID_DataObject, BHID_SFUIObject, BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],BindToHandler method, IShellItemArray.BindToHandler, IShellItemArray::BindToHandler, _shell_IShellItemArray_BindToHandler, shell.IShellItemArray_BindToHandler, shobjidl_core/IShellItemArray::BindToHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,26 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b4
 A pointer to an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> interface on a bind context object.
 
 
-### -param bhid
-
-TBD
-
-
-### -param riid [in]
-
-Type: <b>REFIID</b>
-
-The IID of the object type to retrieve.
-
-
-### -param ppvOut [out]
-
-Type: <b>void**</b>
-
-When this methods returns, contains the object specified in <i>riid</i> that is returned by the handler specified by <i>rbhid</i>.
-
-
-#### - rbhid [in]
+### -param bhid [in]
 
 Type: <b>REFGUID</b>
 
@@ -116,6 +97,20 @@ Restricts usage to <a href="https://msdn.microsoft.com/ec863dbf-8ec9-4952-8912-5
 
 <b>Introduced in Windows Vista</b>: Gets an <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> object for use with an item or an array of items. This only retrieves the association array object for the first item in the <a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>
 
+
+
+### -param riid [in]
+
+Type: <b>REFIID</b>
+
+The IID of the object type to retrieve.
+
+
+### -param ppvOut [out]
+
+Type: <b>void**</b>
+
+When this methods returns, contains the object specified in <i>riid</i> that is returned by the handler specified by <i>rbhid</i>.
 
 
 ## -returns

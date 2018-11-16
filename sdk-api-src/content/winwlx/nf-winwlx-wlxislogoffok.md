@@ -4,10 +4,10 @@ title: WlxIsLogoffOk function
 author: windows-sdk-content
 description: Winlogon calls this function when the user initiates a logoff operation.
 old-location: security\wlxislogoffok.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: fe718ae7-d19e-430c-8d84-41682dca30a1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: WlxIsLogoffOk, WlxIsLogoffOk function [Security], _gina_wlxislogoffok, security.wlxislogoffok, winwlx/WlxIsLogoffOk
 ms.prod: windows-hardware
 ms.technology: windows-devices

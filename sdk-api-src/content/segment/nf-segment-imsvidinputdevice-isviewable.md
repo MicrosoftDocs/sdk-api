@@ -4,10 +4,10 @@ title: IMSVidInputDevice::IsViewable
 author: windows-sdk-content
 description: The IsViewable method determines whether this device can view the specified tune request.
 old-location: mstv\imsvidinputdevice_isviewable.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4f62bcc4-8c58-4663-9b1f-a5ed7d000a79
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidInputDevice interface [Microsoft TV Technologies],IsViewable method, IMSVidInputDevice.IsViewable, IMSVidInputDevice::IsViewable, IMSVidInputDeviceIsViewable, IsViewable, IsViewable method [Microsoft TV Technologies], IsViewable method [Microsoft TV Technologies],IMSVidInputDevice interface, mstv.imsvidinputdevice_isviewable, segment/IMSVidInputDevice::IsViewable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,9 @@ Currently this method is not implemented by any of the supported input devices.
 
 
 
-### -param v
+### -param v [in]
 
-TBD
+Specifies the tune request as a <b>VARIANT</b> type.
 
 
 ### -param pfViewable [out]
@@ -94,11 +94,6 @@ Pointer to variable that receives one of the following values.
 </tr>
 </table>
  
-
-
-#### - pv [in]
-
-Specifies the tune request as a <b>VARIANT</b> type.
 
 
 ## -returns

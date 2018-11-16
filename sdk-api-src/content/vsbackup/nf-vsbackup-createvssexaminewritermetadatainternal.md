@@ -7,7 +7,7 @@ old-location: base\createvssexaminewritermetadata.htm
 tech.root: VSS
 ms.assetid: cb322541-d8c0-4a2e-9ce5-453d19ac3fd1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateVssExamineWriterMetadata, CreateVssExamineWriterMetadata function [VSS], CreateVssExamineWriterMetadataInternal, _win32_createvssexaminewritermetadata, base.createvssexaminewritermetadata, vsbackup/CreateVssExamineWriterMetadata, vsbackup/CreateVssExamineWriterMetadataInternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -184,7 +184,7 @@ To load a writer metadata document into an existing <a href="https://msdn.micros
 
 Users should not attempt to modify the contents of the Writer Metadata Document.
 
-The calling application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the 
+The calling application is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the 
     resources held by 
     the <a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> object when the object 
     is no longer needed.

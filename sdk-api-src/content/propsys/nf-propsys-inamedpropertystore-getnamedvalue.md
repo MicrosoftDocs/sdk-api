@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyStore_GetNamedValue.htm
 tech.root: shell
 ms.assetid: d62fcacd-7af5-4618-9b76-bebb001bb827
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetNamedValue, GetNamedValue method [Windows Shell], GetNamedValue method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNamedValue method, INamedPropertyStore.GetNamedValue, INamedPropertyStore::GetNamedValue, _shell_INamedPropertyStore_GetNamedValue, propsys/INamedPropertyStore::GetNamedValue, shell.INamedPropertyStore_GetNamedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,7 @@ Type: <b>LPCWSTR</b>
 A pointer to the property name, as a Unicode string, of the property in the named property store.
 
 
-### -param ppropvar
-
-TBD
-
-
-
-
-#### - pv [out]
+### -param ppropvar [out]
 
 Type: <b><a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
 

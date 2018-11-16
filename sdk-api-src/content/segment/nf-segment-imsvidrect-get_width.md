@@ -4,10 +4,10 @@ title: IMSVidRect::get_Width
 author: windows-sdk-content
 description: The get_Width method retrieves the width of the rectangle.
 old-location: mstv\imsvidrect_get_width.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 7b1d07b8-41e4-44f8-8c28-377c7a9e463d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Width method, IMSVidRect.get_Width, IMSVidRect::get_Width, IMSVidRectget_Width, get_Width, get_Width method [Microsoft TV Technologies], get_Width method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_width, segment/IMSVidRect::get_Width
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_Width</b> method retrieves the width of the rectangle.
 
 
 
-### -param WidthVal
-
-TBD
-
-
-
-
-#### - pWidthVal [out]
+### -param WidthVal [out]
 
 Pointer to a variable that receives the width, in pixels.
 

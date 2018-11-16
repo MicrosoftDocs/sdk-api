@@ -7,7 +7,7 @@ old-location: multimedia\joyinfoex.htm
 tech.root: Multimedia
 ms.assetid: 2c07b56b-a9d5-450f-96ca-0fdaf60c52a3
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPJOYINFOEX, *NPJOYINFOEX, *PJOYINFOEX, JOYINFOEX, JOYINFOEX structure [Windows Multimedia], _win32_JOYINFOEX_str, joyinfoex_tag, joystickapi/JOYINFOEX, multimedia.joyinfoex"
 ms.prod: windows-hardware
 ms.technology: windows-devices

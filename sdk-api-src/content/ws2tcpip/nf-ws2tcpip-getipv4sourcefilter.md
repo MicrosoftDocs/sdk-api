@@ -4,10 +4,10 @@ title: getipv4sourcefilter function
 author: windows-sdk-content
 description: Retrieves the multicast filter state for an IPv4 socket.
 old-location: winsock\getipv4sourcefilter.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 17D35D24-C419-4787-AB93-E6B1B6B13807
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: getipv4sourcefilter, getipv4sourcefilter function [Winsock], winsock.getipv4sourcefilter, ws2tcpip/getipv4sourcefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,7 +122,7 @@ On success,  <b>getipv4sourcefilter</b> returns NO_ERROR (0). Any nonzero return
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -133,7 +133,7 @@ Insufficient buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">

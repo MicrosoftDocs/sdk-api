@@ -4,10 +4,10 @@ title: IDvbTeletextDescriptor::GetLength
 author: windows-sdk-content
 description: Gets the body length of a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getlength.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: e785d05a-d4f1-40d8-b93e-ea944373f4c3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbTeletextDescriptor.GetLength, IDvbTeletextDescriptor::GetLength, dvbsiparser/IDvbTeletextDescriptor::GetLength, mstv.idvbteletextdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

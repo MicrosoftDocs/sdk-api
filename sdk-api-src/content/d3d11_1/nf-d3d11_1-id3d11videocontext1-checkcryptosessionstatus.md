@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext1_checkcryptosessionstatus.htm
 tech.root: medfound
 ms.assetid: 07126C45-2771-432C-9644-FD4099B8D26D
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CheckCryptoSessionStatus, CheckCryptoSessionStatus method [Media Foundation], CheckCryptoSessionStatus method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],CheckCryptoSessionStatus method, ID3D11VideoContext1.CheckCryptoSessionStatus, ID3D11VideoContext1::CheckCryptoSessionStatus, d3d11_1/ID3D11VideoContext1::CheckCryptoSessionStatus, mf.id3d11videocontext1_checkcryptosessionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,12 +70,12 @@ Checks the status of a crypto session.
 
 Type: <b>ID3D11CryptoSession*</b>
 
-Specifies a <a href="https://msdn.microsoft.com/en-us/library/Hh447691(v=VS.85).aspx">ID3D11CryptoSession</a> for which status is checked.
+Specifies a <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> for which status is checked.
 
 
 ### -param pStatus [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn894114(v=VS.85).aspx">D3D11_CRYPTO_SESSION_STATUS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/C98DEC40-21D0-483A-A982-E6E19BBDE241">D3D11_CRYPTO_SESSION_STATUS</a>*</b>
 
 A D3D11_CRYPTO_SESSION_STATUS that is populated with the crypto session status upon completion.
 
@@ -84,7 +84,7 @@ A D3D11_CRYPTO_SESSION_STATUS that is populated with the crypto session status u
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following error codes.
 
@@ -112,7 +112,7 @@ This method returns one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894126(v=VS.85).aspx">ID3D11VideoContext1</a>
+<a href="https://msdn.microsoft.com/64D12F68-C2AA-4C1D-9608-5F97CF7AD430">ID3D11VideoContext1</a>
  
 
  

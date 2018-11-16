@@ -7,7 +7,7 @@ old-location: wcs\ciexyz.htm
 tech.root: WCS
 ms.assetid: 3735c143-8eb3-4b91-a81e-5bc6bda1dfaa
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPCIEXYZ, CIEXYZ, CIEXYZ FAR* LPCIEXYZ, CIEXYZ FAR* LPCIEXYZ structure [Windows Color System], CIEXYZ structure [Windows Color System], _color_CIEXYZ_str, tagCIEXYZ, wcs.ciexyz, wingdi/CIEXYZ, wingdi/CIEXYZ FAR* LPCIEXYZ"
 ms.prod: windows-hardware
 ms.technology: windows-devices

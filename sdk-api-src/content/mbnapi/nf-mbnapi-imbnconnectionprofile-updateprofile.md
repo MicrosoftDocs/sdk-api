@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionprofile_updateprofile.htm
 tech.root: mbn
 ms.assetid: 3243ffec-1897-4f26-853d-81a7198a892d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMbnConnectionProfile interface [Microsoft Broadband Networks],UpdateProfile method, IMbnConnectionProfile.UpdateProfile, IMbnConnectionProfile::UpdateProfile, UpdateProfile, UpdateProfile method [Microsoft Broadband Networks], UpdateProfile method [Microsoft Broadband Networks],IMbnConnectionProfile interface, mbn.imbnconnectionprofile_updateprofile, mbnapi/IMbnConnectionProfile::UpdateProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

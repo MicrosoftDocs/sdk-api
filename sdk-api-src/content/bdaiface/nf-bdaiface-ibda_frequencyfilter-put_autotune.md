@@ -4,10 +4,10 @@ title: IBDA_FrequencyFilter::put_Autotune
 author: windows-sdk-content
 description: The put_Autotune method specifies whether to activate the device's autotune capabilities.
 old-location: mstv\ibda_frequencyfilter_put_autotune.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: e2ca03b8-fd22-4b8f-90a9-42a235b0a675
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Autotune method, IBDA_FrequencyFilter.put_Autotune, IBDA_FrequencyFilter::put_Autotune, IBDA_FrequencyFilterput_Autotune, bdaiface/IBDA_FrequencyFilter::put_Autotune, mstv.ibda_frequencyfilter_put_autotune, put_Autotune, put_Autotune method [Microsoft TV Technologies], put_Autotune method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,15 +88,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693355(v=VS.85).aspx">IBDA_FrequencyFilter Interface</a>
+<a href="https://msdn.microsoft.com/ef5dbf4a-ecbb-4f2c-a34d-ce3864133adc">IBDA_FrequencyFilter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693356(v=VS.85).aspx">IBDA_FrequencyFilter::get_Autotune</a>
+<a href="https://msdn.microsoft.com/146c4499-a8e9-4794-ab6c-b8e0e73ebad1">IBDA_FrequencyFilter::get_Autotune</a>
  
 
  

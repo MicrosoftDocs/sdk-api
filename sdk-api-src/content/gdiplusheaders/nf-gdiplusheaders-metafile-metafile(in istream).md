@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_stream_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_81stream.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN IStream), Metafile.Metafile(IStream*), Metafile::Metafile, Metafile::Metafile(IN IStream), _gdiplus_CLASS_Metafile_Metafile_stream_, gdiplus._gdiplus_CLASS_Metafile_Metafile_stream_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <b>Metafile::Metafile</b> object from an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface for playback.
+Creates a <b>Metafile::Metafile</b> object from an <a href="_stg_istream">IStream</a> interface for playback.
 
 
 ## -parameters
@@ -69,9 +69,9 @@ Creates a <b>Metafile::Metafile</b> object from an <a href="https://msdn.microso
 
 ### -param stream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a>*</b>
+Type: <b><a href="_stg_istream">IStream</a>*</b>
 
-Pointer to a COM <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface that points to a data stream in a file. 
+Pointer to a COM <a href="_stg_istream">IStream</a> interface that points to a data stream in a file. 
 
 
 ## -see-also
@@ -83,7 +83,7 @@ Pointer to a COM <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
 
 
 

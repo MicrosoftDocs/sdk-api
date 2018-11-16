@@ -7,7 +7,7 @@ old-location: base\ivsswmfiledesc_getfilespec.htm
 tech.root: VSS
 ms.assetid: 9661d22b-5c82-412d-966d-83605c568e22
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetFilespec, GetFilespec method [VSS], GetFilespec method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetFilespec method, IVssWMFiledesc.GetFilespec, IVssWMFiledesc::GetFilespec, _win32_ivsswmfiledesc_getfilespec, base.ivsswmfiledesc_getfilespec, vswriter/IVssWMFiledesc::GetFilespec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -162,7 +162,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the <i>pbstrFilespec</i> parameter.
+The caller must call <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory held by the <i>pbstrFilespec</i> parameter.
 
 
 

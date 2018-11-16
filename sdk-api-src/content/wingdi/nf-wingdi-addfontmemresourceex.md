@@ -7,7 +7,7 @@ old-location: gdi\addfontmemresourceex.htm
 tech.root: gdi
 ms.assetid: ad5153ba-fa9d-4a07-9be3-a07b524c1539
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: AddFontMemResourceEx, AddFontMemResourceEx function [Windows GDI], _win32_AddFontMemResourceEx, gdi.addfontmemresourceex, wingdi/AddFontMemResourceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,7 +133,7 @@ When the function succeeds, the caller of this function can free the memory poin
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>
+<a href="_win32_sendmessage_cpp">SendMessage</a>
  
 
  

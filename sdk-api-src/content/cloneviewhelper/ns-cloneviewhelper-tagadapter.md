@@ -7,7 +7,7 @@ old-location: display\adapter.htm
 tech.root: display
 ms.assetid: c62c6aed-2593-4b5d-884f-99d20e269eb1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Adapter, Adapter structure [Display Devices], TMM_Ref_6570c45d-9024-46c4-bcd4-848eb2d18955.xml, cloneviewhelper/Adapter, display.adapter, tagAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ The number of video present sources in the array that the <b>sources</b> member 
 
 ### -field sources
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Ff569715(v=VS.85).aspx">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies. 
+An array of <a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies. 
 
 
 ## -see-also
@@ -82,7 +82,7 @@ An array of <a href="https://msdn.microsoft.com/en-us/library/Ff569715(v=VS.85).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff569715(v=VS.85).aspx">Sources</a>
+<a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetAggregationType.htm
 tech.root: properties
 ms.assetid: d8507f19-1778-42b1-bd40-12fec45cd03e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetAggregationType, GetAggregationType method [Windows Properties], GetAggregationType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetAggregationType method, IPropertyDescription.GetAggregationType, IPropertyDescription::GetAggregationType, properties.IPropertyDescription_GetAggregationType, propsys/IPropertyDescription::GetAggregationType, shell.IPropertyDescription_GetAggregationType, shell_IPropertyDescription_GetAggregationType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,9 @@ Gets a value that describes how the property values are displayed when multiple 
 
 ### -param paggtype [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762522(v=VS.85).aspx">PROPDESC_AGGREGATION_TYPE</a>*</b>
+Type: <b><a href="shell.PROPDESC_AGGREGATION_TYPE">PROPDESC_AGGREGATION_TYPE</a>*</b>
 
-When this method returns, contains a pointer to a value that indicates the aggregation type. See <a href="https://msdn.microsoft.com/en-us/library/Bb762522(v=VS.85).aspx">PROPDESC_AGGREGATION_TYPE</a>.
+When this method returns, contains a pointer to a value that indicates the aggregation type. See <a href="shell.PROPDESC_AGGREGATION_TYPE">PROPDESC_AGGREGATION_TYPE</a>.
 
 
 ## -returns
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The information retrieved by this method comes from the <i>aggregationType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773889(v=VS.85).aspx">typeInfo</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>aggregationType</i> attribute of the <a href="shell.propdesc_schema_typeInfo">typeInfo</a> element in the property's .propdesc file.
 
 
 
@@ -98,7 +98,7 @@ The information retrieved by this method comes from the <i>aggregationType</i> a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

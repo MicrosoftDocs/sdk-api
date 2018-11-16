@@ -4,10 +4,10 @@ title: IWEInvokeCommand
 author: windows-sdk-content
 description: Failover Cluster Administrator calls your implementation of the IWEInvokeCommand interface when users select context menu items that you created with the IWEExtendContextMenu interface.
 old-location: mscs\iweinvokecommand.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 53997e65-5011-4c3b-9586-ede9ed693ab5
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: IWEInvokeCommand, IWEInvokeCommand interface [Failover Cluster], IWEInvokeCommand interface [Failover Cluster],described, _wolf_iweinvokecommand, cluadmex/IWEInvokeCommand, mscs.iweinvokecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,14 +56,14 @@ req.redist:
 Failover Cluster Administrator calls your implementation of the 
     <b>IWEInvokeCommand</b> interface when users select context 
     menu items that you created with the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa370711(v=VS.85).aspx">IWEExtendContextMenu</a> interface.
+    <a href="https://msdn.microsoft.com/a41adde0-fc4f-4997-bb56-5fa43ba62fdb">IWEExtendContextMenu</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEInvokeCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IWEInvokeCommand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEInvokeCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWEInvokeCommand</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -76,7 +76,7 @@ The <b>IWEInvokeCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa370746(v=VS.85).aspx">InvokeCommand</a>
+<a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">InvokeCommand</a>
 </td>
 <td align="left" width="63%">
 Allows you to implement procedures that execute when users select your context menu items.
@@ -91,11 +91,11 @@ Allows you to implement procedures that execute when users select your context m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369071(v=VS.85).aspx">Failover Cluster Administrator Extension Interfaces</a>
+<a href="https://msdn.microsoft.com/a2306e94-47c6-441f-b06d-70e3f633f78e">Failover Cluster Administrator Extension Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370711(v=VS.85).aspx">IWEExtendContextMenu</a>
+<a href="https://msdn.microsoft.com/a41adde0-fc4f-4997-bb56-5fa43ba62fdb">IWEExtendContextMenu</a>
  
 
  

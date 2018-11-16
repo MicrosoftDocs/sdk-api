@@ -7,7 +7,7 @@ old-location: imapi\ifsiitem_filesystemname.htm
 tech.root: imapi
 ms.assetid: a10d9ee1-c05f-4e76-a921-af562dc68121
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: FileSystemName, FileSystemName method [IMAPI], FileSystemName method [IMAPI],IFsiItem interface, IFsiItem interface [IMAPI],FileSystemName method, IFsiItem.FileSystemName, IFsiItem::FileSystemName, imapi.ifsiitem_filesystemname, imapi2fs/IFsiItem::FileSystemName
 ms.prod: windows-hardware
 ms.technology: windows-devices

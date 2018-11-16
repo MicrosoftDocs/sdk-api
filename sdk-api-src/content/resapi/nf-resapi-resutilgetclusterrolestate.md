@@ -4,10 +4,10 @@ title: ResUtilGetClusterRoleState function
 author: windows-sdk-content
 description: Determines whether or not a specific role has been assigned to a cluster.
 old-location: mscs\resutilgetclusterrolestate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 582992ca-9381-4673-8fe8-835b50047f51
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusterRoleDHCP, ClusterRoleDTC, ClusterRoleFileServer, ClusterRoleGenericApplication, ClusterRoleGenericScript, ClusterRoleGenericService, ClusterRoleISCSINameServer, ClusterRoleMSMQ, ClusterRoleNFS, ClusterRolePrintServer, ClusterRoleStandAloneNamespaceServer, ClusterRoleVolumeShadowCopyServiceTask, ClusterRoleWINS, ResUtilGetClusterRoleState, ResUtilGetClusterRoleState function [Failover Cluster], mscs.resutilgetclusterrolestate, resapi/ResUtilGetClusterRoleState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -157,6 +157,50 @@ This enumerator represents the WINS Service cluster role.
 
 
 The possible return values for this function are enumerators from the  <a href="https://msdn.microsoft.com/21424e31-4eba-4ff9-95c1-0908827936df">CLUSTER_ROLE_STATE</a> enumeration.  The following values are valid.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterRoleUnknown</b></dt>
+<dt>-1</dt>
+</dl>
+</td>
+<td width="60%">
+It is unknown whether or not the role is clustered.  If this value is returned then an error has occurred.  For more information call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterRoleClustered</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The role is clustered.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterRoleUnclustered</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The role is not clustered.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

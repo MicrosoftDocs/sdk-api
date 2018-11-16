@@ -7,7 +7,7 @@ old-location: dxmath\boundingorientedbox_createfromboundingbox.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.CreateFromBoundingBox(BoundingOrientedBox@,BoundingBox)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],CreateFromBoundingBox method, BoundingOrientedBox.CreateFromBoundingBox, CreateFromBoundingBox method [DirectX Math Support APIs], CreateFromBoundingBox method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_createfromboundingbox
 ms.prod: windows-hardware
 ms.technology: windows-devices

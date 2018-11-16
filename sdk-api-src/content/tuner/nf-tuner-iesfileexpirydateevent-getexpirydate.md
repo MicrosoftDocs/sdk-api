@@ -4,10 +4,10 @@ title: IESFileExpiryDateEvent::GetExpiryDate
 author: windows-sdk-content
 description: Gets the date from a FileExpiryDate event that indicates when a license for protected content expires.
 old-location: mstv\iesfileexpirydateevent_getexpirydate.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 1d89c613-002b-4c90-832f-32bc268752a4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetExpiryDate, GetExpiryDate method [Microsoft TV Technologies], GetExpiryDate method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetExpiryDate method, IESFileExpiryDateEvent.GetExpiryDate, IESFileExpiryDateEvent::GetExpiryDate, mstv.iesfileexpirydateevent_getexpirydate, tuner/IESFileExpiryDateEvent::GetExpiryDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

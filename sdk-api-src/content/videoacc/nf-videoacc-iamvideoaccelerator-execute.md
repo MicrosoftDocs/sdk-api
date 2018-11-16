@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_execute.htm
 tech.root: DirectShow
 ms.assetid: 12794739-9120-4dc1-b95d-6d390d25726b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Execute, Execute method [DirectShow], Execute method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],Execute method, IAMVideoAccelerator.Execute, IAMVideoAccelerator::Execute, IAMVideoAcceleratorExecute, dshow.iamvideoaccelerator_execute, videoacc/IAMVideoAccelerator::Execute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,9 +85,9 @@ Pointer to input data for the decoding operation. The meaning of this data depen
 Size of the input data, in bytes.
 
 
-### -param lpPrivateOutputDat
+### -param lpPrivateOutputDat [in]
 
-TBD
+Pointer to a buffer where the video accelerator will write output data.
 
 
 ### -param cbPrivateOutputData [in]
@@ -106,11 +106,6 @@ Number of elements in the <i>pamvaBufferInfo</i> array.
 
 Pointer to an array of <a href="https://msdn.microsoft.com/8b018c40-44ae-4033-97b3-efa4b4c1bfb2">AMVABUFFERINFO</a> structures.
           
-
-
-#### - lpPrivateOutputData [in]
-
-Pointer to a buffer where the video accelerator will write output data.
 
 
 ## -returns

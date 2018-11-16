@@ -4,10 +4,10 @@ title: MI_OperationOptions_SetUseMachineID function
 author: windows-sdk-content
 description: Enables or disables the sending of machine identification information in the operation request.
 old-location: wmi_v2\mi_operationoptions_setusemachineid.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 115fd37f-72e8-4a24-9362-5165b68ce257
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_OperationOptions_SetUseMachineID, MI_OperationOptions_SetUseMachineID function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetUseMachineID, wmi_v2.mi_operationoptions_setusemachineid
 ms.prod: windows-hardware
 ms.technology: windows-devices

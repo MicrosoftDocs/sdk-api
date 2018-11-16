@@ -4,10 +4,10 @@ title: ID2D1SvgPointCollection::UpdatePoints
 author: windows-sdk-content
 description: Updates the points array. Existing points not updated by this method are preserved. The array is resized larger if necessary to accomodate the new points.
 old-location: direct2d\id2d1svgpointcollection_updatepoints.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D1DE682E-FFB1-4090-BE2A-FED41C1E7170
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1SvgPointCollection interface [Direct2D],UpdatePoints method, ID2D1SvgPointCollection.UpdatePoints, ID2D1SvgPointCollection::UpdatePoints, UpdatePoints, UpdatePoints method [Direct2D], UpdatePoints method [Direct2D],ID2D1SvgPointCollection interface, d2d1svg/ID2D1SvgPointCollection::UpdatePoints, direct2d.id2d1svgpointcollection_updatepoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

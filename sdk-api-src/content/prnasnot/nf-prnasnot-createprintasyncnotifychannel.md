@@ -7,7 +7,7 @@ old-location: gdi\createprintasyncnotifychannel.htm
 tech.root: printdocs
 ms.assetid: 52cc586a-a565-46c6-b1b7-8613ad111ed3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel function [Windows GDI], _win32_CreatePrintAsyncNotifyChannel, gdi.createprintasyncnotifychannel, prnasnot/CreatePrintAsyncNotifyChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -164,7 +164,7 @@ if (FAILED(hr)) {
 </td>
 </tr>
 </table></span></div>
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
 

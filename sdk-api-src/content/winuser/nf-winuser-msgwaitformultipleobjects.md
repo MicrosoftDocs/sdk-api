@@ -4,10 +4,10 @@ title: MsgWaitForMultipleObjects function
 author: windows-sdk-content
 description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses. The objects can include input event objects.
 old-location: base\msgwaitformultipleobjects.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 0629f1b3-6805-43a7-9aeb-4f80939ec62c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: MsgWaitForMultipleObjects, MsgWaitForMultipleObjects function, QS_ALLEVENTS, QS_ALLINPUT, QS_ALLPOSTMESSAGE, QS_HOTKEY, QS_INPUT, QS_KEY, QS_MOUSE, QS_MOUSEBUTTON, QS_MOUSEMOVE, QS_PAINT, QS_POSTMESSAGE, QS_RAWINPUT, QS_SENDMESSAGE, QS_TIMER, _win32_msgwaitformultipleobjects, base.msgwaitformultipleobjects, winuser/MsgWaitForMultipleObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,7 +119,7 @@ The input types for which an input event object handle will be added to the arra
 </dl>
 </td>
 <td width="60%">
-An input, <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a>, <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646279(v=VS.85).aspx">WM_HOTKEY</a>, or posted message is in the queue.
+An input, <a href="_win32_WM_TIMER_cpp">WM_TIMER</a>, <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a>, <a href="_win32_WM_HOTKEY_cpp">WM_HOTKEY</a>, or posted message is in the queue.
 
 This value is a combination of <b>QS_INPUT</b>, <b>QS_POSTMESSAGE</b>, <b>QS_TIMER</b>, <b>QS_PAINT</b>, and <b>QS_HOTKEY</b>.
 
@@ -147,7 +147,7 @@ This value is a combination of <b>QS_INPUT</b>, <b>QS_POSTMESSAGE</b>, <b>QS_TIM
 <td width="60%">
 A posted message is in the queue.
 
-This value is cleared when you call <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> without filtering messages.
+This value is cleared when you call <a href="_win32_getmessage_cpp">GetMessage</a> or <a href="_win32_peekmessage_cpp">PeekMessage</a> without filtering messages.
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ This value is cleared when you call <a href="https://msdn.microsoft.com/en-us/li
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/ms646279(v=VS.85).aspx">WM_HOTKEY</a> message is in the queue.
+A <a href="_win32_WM_HOTKEY_cpp">WM_HOTKEY</a> message is in the queue.
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ This value is a combination of <b>QS_MOUSE</b>, <b>QS_KEY</b>, and
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_KEYUP</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646287(v=VS.85).aspx">WM_SYSKEYUP</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms646286(v=VS.85).aspx">WM_SYSKEYDOWN</a> message is in the queue.
+A <a href="_win32_WM_KEYUP_cpp">WM_KEYUP</a>, <a href="_win32_WM_KEYDOWN_cpp">WM_KEYDOWN</a>, <a href="_win32_WM_SYSKEYUP_cpp">WM_SYSKEYUP</a>, or <a href="_win32_WM_SYSKEYDOWN_cpp">WM_SYSKEYDOWN</a> message is in the queue.
 
 </td>
 </tr>
@@ -194,7 +194,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_K
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message or mouse-button message (<b>WM_LBUTTONUP</b>, <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a>, and so on).
+A <a href="_win32_WM_MOUSEMOVE_cpp">WM_MOUSEMOVE</a> message or mouse-button message (<b>WM_LBUTTONUP</b>, <a href="_win32_WM_RBUTTONDOWN_cpp">WM_RBUTTONDOWN</a>, and so on).
 
 This value is a combination of <b>QS_MOUSEMOVE</b> and <b>QS_MOUSEBUTTON</b>.
 
@@ -207,7 +207,7 @@ This value is a combination of <b>QS_MOUSEMOVE</b> and <b>QS_MOUSEBUTTON</b>.
 </dl>
 </td>
 <td width="60%">
-A mouse-button message (<b>WM_LBUTTONUP</b>, <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a>, and so on).
+A mouse-button message (<b>WM_LBUTTONUP</b>, <a href="_win32_WM_RBUTTONDOWN_cpp">WM_RBUTTONDOWN</a>, and so on).
 
 </td>
 </tr>
@@ -218,7 +218,7 @@ A mouse-button message (<b>WM_LBUTTONUP</b>, <a href="https://msdn.microsoft.com
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message is in the queue.
+A <a href="_win32_WM_MOUSEMOVE_cpp">WM_MOUSEMOVE</a> message is in the queue.
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ A <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_P
 <td width="60%">
 A posted message is in the queue.
 
-This value is cleared when you call <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>, whether or not you are filtering messages.
+This value is cleared when you call <a href="_win32_getmessage_cpp">GetMessage</a> or <a href="_win32_peekmessage_cpp">PeekMessage</a>, whether or not you are filtering messages.
 
 </td>
 </tr>
@@ -254,7 +254,7 @@ This value is cleared when you call <a href="https://msdn.microsoft.com/en-us/li
 </td>
 <td width="60%">
  A raw input message is in the queue. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>.
+<a href="_win32_raw_input_cpp">Raw Input</a>.
 
 </td>
 </tr>
@@ -276,7 +276,7 @@ A message sent by another thread or application is in the queue.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message is in the queue.
+A <a href="_win32_WM_TIMER_cpp">WM_TIMER</a> message is in the queue.
 
 </td>
 </tr>
@@ -315,16 +315,16 @@ If <i>bWaitAll</i> is <b>TRUE</b>, the return value indicates that the state of 
 </td>
 <td width="60%">
 New input of the type specified in the <i>dwWakeMask</i> parameter is available in the thread's input queue. Functions such as 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>, and 
-<a href="https://msdn.microsoft.com/en-us/library/ms644956(v=VS.85).aspx">WaitMessage</a> mark messages in the queue as old messages. Therefore, after you call one of these functions, a subsequent call to 
+<a href="_win32_peekmessage_cpp">PeekMessage</a>, 
+<a href="_win32_getmessage_cpp">GetMessage</a>, and 
+<a href="_win32_waitmessage_cpp">WaitMessage</a> mark messages in the queue as old messages. Therefore, after you call one of these functions, a subsequent call to 
 <a href="https://msdn.microsoft.com/0629f1b3-6805-43a7-9aeb-4f80939ec62c">MsgWaitForMultipleObjects</a> will not return until new input of the specified type arrives. 
 
 
 
 
 This value is also returned upon the occurrence of a system event that requires the thread's action, such as foreground activation. Therefore, 
-<a href="https://msdn.microsoft.com/0629f1b3-6805-43a7-9aeb-4f80939ec62c">MsgWaitForMultipleObjects</a> can return even though no appropriate input is available and even if <i>dwWakeMask</i> is set to 0. If this occurs, call <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> to process the system event before trying the call to 
+<a href="https://msdn.microsoft.com/0629f1b3-6805-43a7-9aeb-4f80939ec62c">MsgWaitForMultipleObjects</a> can return even though no appropriate input is available and even if <i>dwWakeMask</i> is set to 0. If this occurs, call <a href="_win32_getmessage_cpp">GetMessage</a> or <a href="_win32_peekmessage_cpp">PeekMessage</a> to process the system event before trying the call to 
 <b>MsgWaitForMultipleObjects</b> again.
 
 </td>
@@ -389,10 +389,10 @@ When <i>bWaitAll</i> is <b>TRUE</b>, the function's wait is completed only when 
 When <i>bWaitAll</i> is <b>FALSE</b>, this function checks the handles in the array in order starting with index 0, until one of the objects is signaled. If multiple objects become signaled, the function returns the index of the first handle in the array whose object was signaled.
 
 <b>MsgWaitForMultipleObjects</b> does not return if there is unread input of the specified type in the message queue after the thread has called a function to check the queue. This is because functions such as 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205614(v=VS.85).aspx">GetQueueStatus</a>, and 
-<a href="https://msdn.microsoft.com/en-us/library/ms644956(v=VS.85).aspx">WaitMessage</a> check the queue and then change the state information for the queue so that the input is no longer considered new. A subsequent call to 
+<a href="_win32_peekmessage_cpp">PeekMessage</a>, 
+<a href="_win32_getmessage_cpp">GetMessage</a>, 
+<a href="_win32_getqueuestatus_cpp">GetQueueStatus</a>, and 
+<a href="_win32_waitmessage_cpp">WaitMessage</a> check the queue and then change the state information for the queue so that the input is no longer considered new. A subsequent call to 
 <b>MsgWaitForMultipleObjects</b> will not return until new input of the specified type arrives. The existing unread input (received prior to the last time the thread checked the queue) is ignored.
 
 The function modifies the state of some types of synchronization objects. Modification occurs only for the object or objects whose signaled state caused the function to return. For example, the count of a semaphore object is decreased by one. For more information, see the documentation for the individual synchronization objects.
@@ -411,7 +411,7 @@ The
 <li>Thread</li>
 <li>Waitable timer</li>
 </ul>
-The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they are cleared. <b>QS_POSTMESSAGE</b> is cleared when you call <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>, whether or not you are filtering messages. <b>QS_ALLPOSTMESSAGE</b> is cleared when you call <b>GetMessage</b> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> without filtering messages (<i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are 0). This can be useful when you call <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> multiple times to get messages in different ranges.
+The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they are cleared. <b>QS_POSTMESSAGE</b> is cleared when you call <a href="_win32_getmessage_cpp">GetMessage</a> or <a href="_win32_peekmessage_cpp">PeekMessage</a>, whether or not you are filtering messages. <b>QS_ALLPOSTMESSAGE</b> is cleared when you call <b>GetMessage</b> or <a href="_win32_peekmessage_cpp">PeekMessage</a> without filtering messages (<i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are 0). This can be useful when you call <a href="_win32_peekmessage_cpp">PeekMessage</a> multiple times to get messages in different ranges.
 
 
 

@@ -4,10 +4,10 @@ title: IScanningTunerEx::TerminateCurrentScan
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_terminatecurrentscan.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 5ab18d8a-1e79-45c2-a8b6-9c27ecb68de2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],TerminateCurrentScan method, IScanningTunerEx.TerminateCurrentScan, IScanningTunerEx::TerminateCurrentScan, IScanningTunerExTerminateCurrentScan, TerminateCurrentScan, TerminateCurrentScan method [Microsoft TV Technologies], TerminateCurrentScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_terminatecurrentscan, tuner/IScanningTunerEx::TerminateCurrentScan
 ms.prod: windows-hardware
 ms.technology: windows-devices

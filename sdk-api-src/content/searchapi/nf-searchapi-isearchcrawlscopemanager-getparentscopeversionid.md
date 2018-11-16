@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_GetParentScopeVersionId.ht
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\getparentscopeversionid.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetParentScopeVersionId, GetParentScopeVersionId method [search], GetParentScopeVersionId method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],GetParentScopeVersionId method, ISearchCrawlScopeManager.GetParentScopeVersionId, ISearchCrawlScopeManager::GetParentScopeVersionId, _search_ISearchCrawlScopeManager_GetParentScopeVersionId, search._search_ISearchCrawlScopeManager_GetParentScopeVersionId, searchapi/ISearchCrawlScopeManager::GetParentScopeVersionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Gets the version ID of the parent inclusion URL.
 
 
 
-### -param pszURL
+### -param pszURL [in]
 
-TBD
+Type: <b>LPCWSTR</b>
+
+A string containing the current URL.
 
 
 ### -param plScopeId [out, retval]
@@ -76,13 +78,6 @@ TBD
 Type: <b>LONG*</b>
 
 On return, contains a pointer to the version ID of the parent inclusion  URL for <b>pszUrl</b>.
-
-
-#### - pszUrl [in]
-
-Type: <b>LPCWSTR</b>
-
-A string containing the current URL.
 
 
 ## -returns

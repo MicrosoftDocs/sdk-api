@@ -4,10 +4,10 @@ title: ITextFont::GetBold
 author: windows-sdk-content
 description: Gets whether the characters are bold.
 old-location: controls\ITextFont_GetBold.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getbold.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetBold, GetBold method [Windows Controls], GetBold method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetBold method, ITextFont.GetBold, ITextFont::GetBold, _win32_ITextFont_GetBold, _win32_ITextFont_GetBold_cpp, controls.ITextFont_GetBold, controls._win32_ITextFont_GetBold, tom/ITextFont::GetBold
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Gets whether the characters are bold.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -138,7 +138,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb787833(v=VS.85).aspx">ITextFont::SetWeight</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774040(v=VS.85).aspx">ITextFont::GetWeight</a> methods to set or retrieve the font weight more precisely than the <a href="https://msdn.microsoft.com/en-us/library/Bb774131(v=VS.85).aspx">ITextFont::SetBold</a>and <b>ITextFont::GetBold</b> methods.
+You can use the <a href="https://msdn.microsoft.com/12ca699b-8e9c-4071-aac9-783480541526">ITextFont::SetWeight</a> and <a href="https://msdn.microsoft.com/6bbbcd2d-3d40-4c87-a786-13acbf2be502">ITextFont::GetWeight</a> methods to set or retrieve the font weight more precisely than the <a href="https://msdn.microsoft.com/3e2bcd5a-badd-4ba4-8d8b-d054ec4ac539">ITextFont::SetBold</a>and <b>ITextFont::GetBold</b> methods.
 
 
 
@@ -152,11 +152,11 @@ You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb787833(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774040(v=VS.85).aspx">GetWeight</a>
+<a href="https://msdn.microsoft.com/6bbbcd2d-3d40-4c87-a786-13acbf2be502">GetWeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -164,15 +164,15 @@ You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb787833(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774131(v=VS.85).aspx">SetBold</a>
+<a href="https://msdn.microsoft.com/3e2bcd5a-badd-4ba4-8d8b-d054ec4ac539">SetBold</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787833(v=VS.85).aspx">SetWeight</a>
+<a href="https://msdn.microsoft.com/12ca699b-8e9c-4071-aac9-783480541526">SetWeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

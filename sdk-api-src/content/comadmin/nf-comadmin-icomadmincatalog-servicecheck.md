@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_servicecheck.htm
 tech.root: cossdk
 ms.assetid: d7d41691-30ab-450c-b93b-b7b02f408eb1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: COMAdminServiceContinuePending, COMAdminServicePausePending, COMAdminServicePaused, COMAdminServiceRunning, COMAdminServiceStartPending, COMAdminServiceStopPending, COMAdminServiceStopped, COMAdminServiceUnknownState, ICOMAdminCatalog interface [COM+],ServiceCheck method, ICOMAdminCatalog.ServiceCheck, ICOMAdminCatalog::ServiceCheck, ServiceCheck, ServiceCheck method [COM+], ServiceCheck method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ServiceCheck, comadmin/ICOMAdminCatalog::ServiceCheck, cos.icomadmincatalog_servicecheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -187,7 +187,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
  
 
  

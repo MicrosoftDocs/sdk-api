@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getcustomattributebyname.htm
 tech.root: WinRT
 ms.assetid: e2771a90-4ac3-4c5a-869a-e18d1a4c6b3e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetCustomAttributeByName, GetCustomAttributeByName method [Windows Runtime], GetCustomAttributeByName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetCustomAttributeByName method, IMetaDataImport.GetCustomAttributeByName, IMetaDataImport::GetCustomAttributeByName, rometadataapi/IMetaDataImport::GetCustomAttributeByName, winrt.imetadataimport_getcustomattributebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,19 +76,14 @@ A metadata token representing the object that owns the custom attribute.
 The name of the custom attribute.
 
 
-### -param ppData
+### -param ppData [out]
 
-TBD
+A pointer to an array of data that is the value of the custom attribute.
 
 
 ### -param pcbData [out]
 
 The size in bytes of the data returned in <i>const</i>.
-
-
-#### - const [out]
-
-A pointer to an array of data that is the value of the custom attribute.
 
 
 ## -returns

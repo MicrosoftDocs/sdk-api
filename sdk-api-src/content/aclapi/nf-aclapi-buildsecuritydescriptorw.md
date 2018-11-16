@@ -4,10 +4,10 @@ title: BuildSecurityDescriptorW function
 author: windows-sdk-content
 description: Allocates and initializes a new security descriptor.
 old-location: security\buildsecuritydescriptor.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: becc1218-5bc3-4ab2-86f8-3ebd10e16966
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: BuildSecurityDescriptor, BuildSecurityDescriptor function [Security], BuildSecurityDescriptorA, BuildSecurityDescriptorW, _win32_buildsecuritydescriptor, aclapi/BuildSecurityDescriptor, aclapi/BuildSecurityDescriptorA, aclapi/BuildSecurityDescriptorW, security.buildsecuritydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -176,7 +176,7 @@ The <b>BuildSecurityDescriptor</b> function is intended for trusted servers that
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

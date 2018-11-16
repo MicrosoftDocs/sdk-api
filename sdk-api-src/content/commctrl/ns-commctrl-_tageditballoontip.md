@@ -4,10 +4,10 @@ title: "_tagEDITBALLOONTIP"
 author: windows-sdk-content
 description: Contains information about a balloon tip associated with a button control.
 old-location: controls\EDITBALLOONTIP.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolstructures\editballoontip.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PEDITBALLOONTIP, EDITBALLOONTIP, EDITBALLOONTIP structure [Windows Controls], PEDITBALLOONTIP, PEDITBALLOONTIP structure pointer [Windows Controls], TTI_ERROR, TTI_ERROR_LARGE, TTI_INFO, TTI_INFO_LARGE, TTI_NONE, TTI_WARNING, TTI_WARNING_LARGE, _tagEDITBALLOONTIP, _win32_EDITBALLOONTIP_str, _win32_EDITBALLOONTIP_str_cpp, commctrl/EDITBALLOONTIP, commctrl/PEDITBALLOONTIP, controls.EDITBALLOONTIP, controls._win32_EDITBALLOONTIP_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,28 +60,28 @@ Contains information about a balloon tip associated with a button control.
 
 ### -field cbStruct
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 A <b>DWORD</b> that contains the size, in bytes, of the structure. 
 
 
 ### -field pszTitle
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
 
 A pointer to a Unicode string that contains the title of the balloon tip. 
 
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
 
 A pointer to a Unicode string that contains the balloon tip text. 
 
 
 ### -field ttiIcon
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
 A value of type <b>INT</b> that specifies the type of icon to associate with the balloon tip. This member can be one of the following values. 
 
@@ -173,15 +173,15 @@ Use the large error icon. This is assumed to be an HICON value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761668(v=VS.85).aspx">EM_SHOWBALLOONTIP</a>
+<a href="https://msdn.microsoft.com/1e6915b7-4b61-43b2-be13-b89c72378a1a">EM_SHOWBALLOONTIP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
+<a href="https://msdn.microsoft.com/2a71b92c-f57a-4c27-80b7-e1d9092f3701">Edit Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761707(v=VS.85).aspx">Edit_ShowBalloonTip</a>
+<a href="https://msdn.microsoft.com/18ee941e-6919-4451-a192-c7342c72617d">Edit_ShowBalloonTip</a>
 
 
 

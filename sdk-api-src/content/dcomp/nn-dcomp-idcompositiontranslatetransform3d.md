@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiontranslatetransform3d.htm
 tech.root: directcomp
 ms.assetid: C265E5FC-F7A1-4E87-8311-C4D0613DD7BC
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDCompositionTranslateTransform3D, IDCompositionTranslateTransform3D interface [DirectComposition], IDCompositionTranslateTransform3D interface [DirectComposition],described, dcomp/IDCompositionTranslateTransform3D, directcomp.idcompositiontranslatetransform3d
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,7 +102,7 @@ The <b>IDCompositionTranslateTransform3D</b> interface has these methods.
 A 3D translation transform represents the following 4-by-4 matrix:
       
 
-<img alt="Four-by-four translation matrix" src="./images/3D_translate_transform_4x4matrix.png"/>
+<img alt="Four-by-four translation matrix" src="images/3D_translate_transform_4x4matrix.png"/>
 
 The effect is to offset the blending position of the visual's subtree by <i>x</i>, <i>y</i>, and <i>z</i>.
 

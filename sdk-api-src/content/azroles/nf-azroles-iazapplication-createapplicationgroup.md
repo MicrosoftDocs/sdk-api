@@ -4,10 +4,10 @@ title: IAzApplication::CreateApplicationGroup
 author: windows-sdk-content
 description: Creates an IAzApplicationGroup object with the specified name.
 old-location: security\iazapplication_createapplicationgroup.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 86f1694e-09a4-4a53-ae63-cfdb5d2e44ed
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AzApplication object [Security],CreateApplicationGroup method, CreateApplicationGroup, CreateApplicationGroup method [Security], CreateApplicationGroup method [Security],AzApplication object, CreateApplicationGroup method [Security],IAzApplication interface, IAzApplication interface [Security],CreateApplicationGroup method, IAzApplication.CreateApplicationGroup, IAzApplication::CreateApplicationGroup, azroles/IAzApplication::CreateApplicationGroup, security.iazapplication_createapplicationgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

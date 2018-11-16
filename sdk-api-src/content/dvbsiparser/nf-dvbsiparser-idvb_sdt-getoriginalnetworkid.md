@@ -4,10 +4,10 @@ title: IDVB_SDT::GetOriginalNetworkId
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_getoriginalnetworkid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4feebc95-cdcf-443c-bbc1-969575cb795f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IDVB_SDT.GetOriginalNetworkId, IDVB_SDT::GetOriginalNetworkId, IDVB_SDTGetOriginalNetworkId, dvbsiparser/IDVB_SDT::GetOriginalNetworkId, mstv.idvb_sdt_getoriginalnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices

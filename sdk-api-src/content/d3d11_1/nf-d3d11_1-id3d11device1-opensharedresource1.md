@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device1_opensharedresource1.htm
 tech.root: direct3d11
 ms.assetid: 4751B49E-01DB-467B-879C-743C8B43DDA5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11Device1 interface [Direct3D 11],OpenSharedResource1 method, ID3D11Device1.OpenSharedResource1, ID3D11Device1::OpenSharedResource1, OpenSharedResource1, OpenSharedResource1 method [Direct3D 11], OpenSharedResource1 method [Direct3D 11],ID3D11Device1 interface, d3d11_1/ID3D11Device1::OpenSharedResource1, direct3d11.id3d11device1_opensharedresource1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Gives a device access to a shared resource that is referenced by a handle and that was created on a different device. You must have previously created the resource as shared and specified that it uses NT handles (that is, you set the <a href="https://msdn.microsoft.com/en-us/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag).
+Gives a device access to a shared resource that is referenced by a handle and that was created on a different device. You must have previously created the resource as shared and specified that it uses NT handles (that is, you set the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag).
 
 
 ## -parameters
@@ -86,9 +86,9 @@ A pointer to a variable that receives a pointer to the interface for the shared 
 
 
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 return codes</a>. This method also returns E_ACCESSDENIED if the permissions to access the resource aren't valid.
+This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 return codes</a>. This method also returns E_ACCESSDENIED if the permissions to access the resource aren't valid.
 
-<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="http://support.microsoft.com/kb/2670838">Platform Update for Windows 7</a> installed, <b>OpenSharedResource1</b> fails with E_NOTIMPL because NTHANDLES are used. For more info about the Platform Update for Windows 7, see <a href="https://msdn.microsoft.com/en-us/library/JJ863687(v=VS.85).aspx">Platform Update for Windows 7</a>. 
+<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="http://support.microsoft.com/kb/2670838">Platform Update for Windows 7</a> installed, <b>OpenSharedResource1</b> fails with E_NOTIMPL because NTHANDLES are used. For more info about the Platform Update for Windows 7, see <a href="https://msdn.microsoft.com/C6DC0D38-E17C-4924-AF7C-6AE74C6C50D1">Platform Update for Windows 7</a>. 
 
 
 
@@ -97,15 +97,15 @@ This method returns one of the <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-The behavior of <b>OpenSharedResource1</b> is similar to the behavior of the <a href="https://msdn.microsoft.com/en-us/library/Ff476531(v=VS.85).aspx">ID3D11Device::OpenSharedResource</a> method; each call to <b>OpenSharedResource1</b> to access a resource creates a new resource object.  In other words, if you call <b>OpenSharedResource1</b> twice and pass the same resource handle to <i>hResource</i>, you receive two resource  objects with different <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointers.
+The behavior of <b>OpenSharedResource1</b> is similar to the behavior of the <a href="https://msdn.microsoft.com/bc054547-e098-457e-8c8a-a41496234a63">ID3D11Device::OpenSharedResource</a> method; each call to <b>OpenSharedResource1</b> to access a resource creates a new resource object.  In other words, if you call <b>OpenSharedResource1</b> twice and pass the same resource handle to <i>hResource</i>, you receive two resource  objects with different <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointers.
 
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>To share a resource between two devices</b>
 
 <ol>
-<li>Create the resource as shared and specify that it uses NT handles, by setting the <a href="https://msdn.microsoft.com/en-us/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag.</li>
-<li>Obtain the REFIID, or GUID, of the interface to the resource by using the __uuidof() macro. For example, __uuidof(<a href="https://msdn.microsoft.com/en-us/library/Ff476635(v=VS.85).aspx">ID3D11Texture2D</a>) retrieves the GUID of the interface to a 2D texture.</li>
-<li>Query the resource for the <a href="https://msdn.microsoft.com/en-us/library/Hh404625(v=VS.85).aspx">IDXGIResource1</a> interface.</li>
-<li>Call the <a href="https://msdn.microsoft.com/en-us/library/Hh404626(v=VS.85).aspx">IDXGIResource1::CreateSharedHandle</a> method to obtain the unique handle to the resource.</li>
+<li>Create the resource as shared and specify that it uses NT handles, by setting the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag.</li>
+<li>Obtain the REFIID, or GUID, of the interface to the resource by using the __uuidof() macro. For example, __uuidof(<a href="https://msdn.microsoft.com/49cd6e21-6cb1-45ea-b83a-3c93f0560915">ID3D11Texture2D</a>) retrieves the GUID of the interface to a 2D texture.</li>
+<li>Query the resource for the <a href="https://msdn.microsoft.com/0ABA9B8D-BEA4-4455-A312-7CFEDEBBF19A">IDXGIResource1</a> interface.</li>
+<li>Call the <a href="https://msdn.microsoft.com/7A53616A-E7AB-4EB7-9B8F-ED43A70B691C">IDXGIResource1::CreateSharedHandle</a> method to obtain the unique handle to the resource.</li>
 </ol>
 
 #### Examples
@@ -127,7 +127,7 @@ pDevice-&gt;OpenSharedResource1(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404575(v=VS.85).aspx">ID3D11Device1</a>
+<a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a>
  
 
  

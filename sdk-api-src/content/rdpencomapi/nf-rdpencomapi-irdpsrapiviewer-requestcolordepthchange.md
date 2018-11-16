@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiviewer_requestcolordepthchange.htm
 tech.root: Rdp
 ms.assetid: 3dd57235-89bb-4199-a95a-d8f522cda6a2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],RequestColorDepthChange method, IRDPSRAPIViewer.RequestColorDepthChange, IRDPSRAPIViewer::RequestColorDepthChange, RequestColorDepthChange, RequestColorDepthChange method [RDP], RequestColorDepthChange method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_requestcolordepthchange, rdpencomapi/IRDPSRAPIViewer::RequestColorDepthChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

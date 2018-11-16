@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2.htm
 tech.root: wmformat
 ms.assetid: 5d741e49-9fdf-4f8d-9ea1-faaecf879be4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], IWMReaderAdvanced2 interface [windows Media Format],described, IWMReaderAdvanced2Interface, wmformat.iwmreaderadvanced2, wmsdkidl/IWMReaderAdvanced2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -193,7 +193,7 @@ Specifies the current play mode.
 <a href="https://msdn.microsoft.com/444adb2f-4289-4950-8841-07353479ef43">StartAtMarker</a>
 </td>
 <td align="left" width="63%">
-Starts the reader from a specified <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a>.
+Starts the reader from a specified <a href="wmformat_glossary.htm">marker</a>.
 
 </td>
 </tr>

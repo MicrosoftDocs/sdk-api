@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_exportpartition.htm
 tech.root: cossdk
 ms.assetid: cc793025-e8d9-4dcb-a55d-81dec38d05b9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportPartition, ExportPartition method [COM+], ExportPartition method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],ExportPartition method, ICOMAdminCatalog2.ExportPartition, ICOMAdminCatalog2::ExportPartition, _cos_icomadmincatalog2_ExportPartition, comadmin/ICOMAdminCatalog2::ExportPartition, cos.icomadmincatalog2_exportpartition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.redist:
 
 Exports a partition to a file.
 
-An exported partition can be imported using the <a href="https://msdn.microsoft.com/en-us/library/ms687112(v=VS.85).aspx">InstallPartition</a> method.
+An exported partition can be imported using the <a href="https://msdn.microsoft.com/e1f54a6a-9b90-4e9e-b94c-46f6c9b683a3">InstallPartition</a> method.
 
 
 ## -parameters
@@ -192,7 +192,7 @@ The specified partition does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

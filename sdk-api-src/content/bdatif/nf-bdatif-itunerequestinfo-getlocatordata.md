@@ -4,10 +4,10 @@ title: ITuneRequestInfo::GetLocatorData
 author: windows-sdk-content
 description: The GetLocatorData method fills in channel or program locator information for the specified tune request.
 old-location: mstv\itunerequestinfo_getlocatordata.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: c325d61d-c99b-4033-bd16-36b74fc38d07
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetLocatorData, GetLocatorData method [Microsoft TV Technologies], GetLocatorData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetLocatorData method, ITuneRequestInfo.GetLocatorData, ITuneRequestInfo::GetLocatorData, ITuneRequestInfoGetLocatorData, bdatif/ITuneRequestInfo::GetLocatorData, mstv.itunerequestinfo_getlocatordata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,16 +69,9 @@ The <b>GetLocatorData</b> method fills in channel or program locator information
 
 
 
-### -param Request
+### -param Request [in]
 
-TBD
-
-
-
-
-#### - pRequest [in]
-
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694997(v=VS.85).aspx">ITuneRequest</a> interface on the tune request.
+Pointer to the <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface on the tune request.
 
 
 ## -returns
@@ -145,11 +138,11 @@ After the TIF fills in the locator information, the Network Provider uses that i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694998(v=VS.85).aspx">ITuneRequestInfo Interface</a>
+<a href="https://msdn.microsoft.com/e5cb1a15-29c4-4e0f-aed2-eafe12ea007a">ITuneRequestInfo Interface</a>
  
 
  

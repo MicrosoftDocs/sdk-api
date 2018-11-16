@@ -7,7 +7,7 @@ old-location: mf\mf_timed_text_font_style.htm
 tech.root: medfound
 ms.assetid: 29D8CCBD-B69A-46B5-8320-06C0E2EA81AE
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: MF_TIMED_TEXT_FONT_STYLE, MF_TIMED_TEXT_FONT_STYLE enumeration [Media Foundation], MF_TIMED_TEXT_FONT_STYLE_ITALIC, MF_TIMED_TEXT_FONT_STYLE_NORMAL, MF_TIMED_TEXT_FONT_STYLE_OBLIQUE, mf.mf_timed_text_font_style, mfmediaengine/MF_TIMED_TEXT_FONT_STYLE, mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_ITALIC, mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_NORMAL, mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_OBLIQUE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\coenterservicedomain.htm
 tech.root: cossdk
 ms.assetid: 84640b3b-1f43-4bec-abf6-c295cfb3da8b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CoEnterServiceDomain, CoEnterServiceDomain function [COM+], _cos_CoEnterServiceDomain, comsvcs/CoEnterServiceDomain, cos.coenterservicedomain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -145,17 +145,17 @@ The caller does not have access permissions for the COM+ partition.
 
 
 
-Code that is enclosed between calls to <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/en-us/library/ms686062(v=VS.85).aspx">CoLeaveServiceDomain</a> runs in its own context and behaves as though it were a method that is called on an object created within the context. <b>CoEnterServiceDomain</b> cannot switch to a different apartment model, so the enclosed code runs in the caller's apartment and on the caller's thread. It is an error to try to change the apartment model through the <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> object when calling <b>CoEnterServiceDomain</b>.
+Code that is enclosed between calls to <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a> runs in its own context and behaves as though it were a method that is called on an object created within the context. <b>CoEnterServiceDomain</b> cannot switch to a different apartment model, so the enclosed code runs in the caller's apartment and on the caller's thread. It is an error to try to change the apartment model through the <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> object when calling <b>CoEnterServiceDomain</b>.
 
 <b>CoEnterServiceDomain</b> first creates a context that is configured as specified by the <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> object that is passed as the <i>pConfigObject</i> parameter. Policies on both the client and server sides are then triggered as if a method call had occurred. The new context is then pushed onto a context stack and becomes the current context.
 
-Because of their efficient design and because no thread marshaling is involved, using <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/en-us/library/ms686062(v=VS.85).aspx">CoLeaveServiceDomain</a> involves significantly reduced overhead as compared to an equivalent method call.
+Because of their efficient design and because no thread marshaling is involved, using <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a> involves significantly reduced overhead as compared to an equivalent method call.
 
-<b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/en-us/library/ms686062(v=VS.85).aspx">CoLeaveServiceDomain</a> are particularly useful in applications, which can use these functions to access COM+ services without needing to create a component to do so.
+<b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a> are particularly useful in applications, which can use these functions to access COM+ services without needing to create a component to do so.
 
 
 
-The <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/en-us/library/ms686062(v=VS.85).aspx">CoLeaveServiceDomain</a> pairs can be nested.
+The <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a> pairs can be nested.
 
 
 
@@ -165,7 +165,7 @@ The <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/en-us/li
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681748(v=VS.85).aspx">COM+ Services Without Components</a>
+<a href="https://msdn.microsoft.com/5ef67411-334b-476e-b9b7-3677b24ab7df">COM+ Services Without Components</a>
 
 
 
@@ -173,11 +173,11 @@ The <b>CoEnterServiceDomain</b> and <a href="https://msdn.microsoft.com/en-us/li
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a>
+<a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686062(v=VS.85).aspx">CoLeaveServiceDomain</a>
+<a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a>
  
 
  

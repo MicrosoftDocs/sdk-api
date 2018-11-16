@@ -4,10 +4,10 @@ title: SetThemeAppProperties function
 author: windows-sdk-content
 description: Sets the flags that determine how visual styles are implemented in the calling application.
 old-location: controls\SetThemeAppProperties.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setthemeappproperties.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: SetThemeAppProperties, SetThemeAppProperties function [Windows Controls], controls.SetThemeAppProperties, controls.inet_SetThemeAppProperties, inet_SetThemeAppProperties, inet_SetThemeAppProperties_cpp, uxtheme/SetThemeAppProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,7 +125,7 @@ This function does not return a value.
 
 
 
-After you set the flags, send a <a href="https://msdn.microsoft.com/en-us/library/ms632650(v=VS.85).aspx">WM_THEMECHANGED</a> message to your application's main window for the changes to take effect. 
+After you set the flags, send a <a href="https://msdn.microsoft.com/1a4051ac-cc6e-4520-ab66-d0a41a8a4c73">WM_THEMECHANGED</a> message to your application's main window for the changes to take effect. 
 
 
 
@@ -154,7 +154,7 @@ SetThemeAppProperties(dwFlags);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773369(v=VS.85).aspx">GetThemeAppProperties</a>
+<a href="https://msdn.microsoft.com/33d93013-fba8-4282-b2d8-50bae2468fb6">GetThemeAppProperties</a>
  
 
  

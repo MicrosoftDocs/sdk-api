@@ -7,7 +7,7 @@ old-location: cos\securityproperty_getdirectcallername.htm
 tech.root: cossdk
 ms.assetid: 451e073f-8dba-459a-92f3-4e9f1128a2c6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDirectCallerName, GetDirectCallerName method [COM+], GetDirectCallerName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetDirectCallerName method, SecurityProperty.GetDirectCallerName, SecurityProperty::GetDirectCallerName, _cos_SecurityProperty_GetDirectCallerName, comsvcs/SecurityProperty::GetDirectCallerName, cos.securityproperty_getdirectcallername
 ms.prod: windows-hardware
 ms.technology: windows-devices

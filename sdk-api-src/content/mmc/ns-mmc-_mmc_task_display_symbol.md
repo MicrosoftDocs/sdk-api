@@ -4,10 +4,10 @@ title: "_MMC_TASK_DISPLAY_SYMBOL"
 author: windows-sdk-content
 description: The MMC_TASK_DISPLAY_SYMBOL structure is introduced in MMC 1.1.
 old-location: mmc\mmc_task_display_symbol.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: a46f1b86-883e-4eca-a3f8-d18c6a4d64e5
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: MMC_TASK_DISPLAY_SYMBOL, MMC_TASK_DISPLAY_SYMBOL structure [MMC], _MMC_TASK_DISPLAY_SYMBOL, _slate_mmc_task_display_symbol, mmc.mmc_task_display_symbol, mmc/MMC_TASK_DISPLAY_SYMBOL
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfasynccallbacklogging.htm
 tech.root: medfound
 ms.assetid: 8b4de920-8e82-4e50-b801-82842da8a6ae
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IMFAsyncCallbackLogging, IMFAsyncCallbackLogging interface [Media Foundation], IMFAsyncCallbackLogging interface [Media Foundation],described, mf.imfasynccallbacklogging, mfobjects/IMFAsyncCallbackLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxfolders_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1gfn_cpp.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxFolders, IFaxFolders interface [Fax Service], IFaxFolders interface [Fax Service],described, _mfax_faxfolders_cpp, fax._mfax_faxfolders_cpp, faxcomex/IFaxFolders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,7 @@ The <b>IFaxFolders</b> interface defines a configuration object used by a fax cl
 
 
 
-A default implementation of <b>IFaxFolders</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684837(v=VS.85).aspx">FaxFolders</a> object.
+A default implementation of <b>IFaxFolders</b> is provided as the <a href="https://msdn.microsoft.com/283c75e3-e596-403c-b4ea-b62bf0c744f3">FaxFolders</a> object.
 
 
 

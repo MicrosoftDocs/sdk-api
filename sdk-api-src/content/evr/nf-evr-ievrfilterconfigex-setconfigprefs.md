@@ -7,7 +7,7 @@ old-location: mf\ievrfilterconfigex_setconfigprefs.htm
 tech.root: medfound
 ms.assetid: 6a565c7a-a8d7-433b-b454-262661c2c084
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IEVRFilterConfigEx interface [Media Foundation],SetConfigPrefs method, IEVRFilterConfigEx.SetConfigPrefs, IEVRFilterConfigEx::SetConfigPrefs, SetConfigPrefs, SetConfigPrefs method [Media Foundation], SetConfigPrefs method [Media Foundation],IEVRFilterConfigEx interface, evr/IEVRFilterConfigEx::SetConfigPrefs, mf.ievrfilterconfigex_setconfigprefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

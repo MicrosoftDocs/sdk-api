@@ -50,7 +50,7 @@ req.redist: Microsoft .Net 3.0
 ## -description
 
 
-Exposes methods that define a <a href="https://msdn.microsoft.com/en-us/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>.
+Exposes methods that define a <a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>.
 
 
 ## -inheritance
@@ -70,7 +70,7 @@ The <b>IMILBitmapEffectRenderContextImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735236(v=VS.85).aspx">GetOutputBounds</a>
+<a href="https://msdn.microsoft.com/64030a15-477e-4f4e-8539-b36dc9af4970">GetOutputBounds</a>
 </td>
 <td align="left" width="63%">
 Gets the output bounds of the render context.
@@ -79,7 +79,7 @@ Gets the output bounds of the render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735237(v=VS.85).aspx">GetTransform</a>
+<a href="https://msdn.microsoft.com/2efce00a-93b8-477d-baae-1adb53cd369a">GetTransform</a>
 </td>
 <td align="left" width="63%">
 Gets the matrix transform of the render context.
@@ -88,7 +88,7 @@ Gets the matrix transform of the render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735238(v=VS.85).aspx">GetUseSoftwareRenderer</a>
+<a href="https://msdn.microsoft.com/7f344cf1-27db-4ef5-b1b5-c44bf6678e59">GetUseSoftwareRenderer</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether to use software rendering.
@@ -97,7 +97,7 @@ Gets a value that indicates whether to use software rendering.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735240(v=VS.85).aspx">UpdateOutputBounds</a>
+<a href="https://msdn.microsoft.com/57bb3729-95a5-4b77-9f89-f95fb7504586">UpdateOutputBounds</a>
 </td>
 <td align="left" width="63%">
 Updates the output bounds with the given region.
@@ -106,7 +106,7 @@ Updates the output bounds with the given region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735241(v=VS.85).aspx">UpdateTransform</a>
+<a href="https://msdn.microsoft.com/592ea626-157e-4c9a-951b-b06dcd1c9f77">UpdateTransform</a>
 </td>
 <td align="left" width="63%">
 Updates the output transform with the new matrix.

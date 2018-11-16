@@ -7,7 +7,7 @@ old-location: ncd\wsdxml_text_struct.htm
 tech.root: WsdApi
 ms.assetid: 44b24ddb-b669-43d0-b8db-0a24f7d020d6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: WSDXML_TEXT, WSDXML_TEXT structure, _WSDXML_TEXT, ncd.wsdxml_text_struct, wsdxmldom/WSDXML_TEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices

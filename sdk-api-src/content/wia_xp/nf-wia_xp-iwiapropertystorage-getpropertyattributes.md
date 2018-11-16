@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaPropertyStorage_GetPropertyAttributes.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertyattributes.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetPropertyAttributes, GetPropertyAttributes method [WIA], GetPropertyAttributes method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyAttributes method, IWiaPropertyStorage.GetPropertyAttributes, IWiaPropertyStorage::GetPropertyAttributes, _wia_IWiaPropertyStorage_GetPropertyAttributes, wia._wia_IWiaPropertyStorage_GetPropertyAttributes, wia_xp/IWiaPropertyStorage::GetPropertyAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,21 +77,21 @@ Specifies the number of property attributes to query.
 
 Type: <b><a href="https://msdn.microsoft.com/5bb3b9c6-ab82-498c-94f9-13a9ffa7452b">PROPSPEC</a>[]</b>
 
-Specifies an array of <a href="https://msdn.microsoft.com/en-us/library/ms630186(v=VS.85).aspx">Device Information Property Constants</a>. Each constant in the array selects a property to query.
+Specifies an array of <a href="https://msdn.microsoft.com/ff6771ac-491e-4765-8cfe-11c7efc1c971">Device Information Property Constants</a>. Each constant in the array selects a property to query.
 
 
 ### -param rgflags [out]
 
 Type: <b>ULONG[]</b>
 
-An array that receives a <a href="https://msdn.microsoft.com/en-us/library/ms630184(v=VS.85).aspx">property attribute descriptor</a> for each property specified in the <i>rgpspec</i> array. Each element in the array is one or more descriptor values combined with a bitwise <b>OR</b> operation.
+An array that receives a <a href="https://msdn.microsoft.com/00e04790-e319-41b3-b88f-8064912b91b1">property attribute descriptor</a> for each property specified in the <i>rgpspec</i> array. Each element in the array is one or more descriptor values combined with a bitwise <b>OR</b> operation.
 
 
 ### -param rgpropvar [out]
 
 Type: <b><a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>[]</b>
 
-An array that receives a <a href="https://msdn.microsoft.com/en-us/library/ms630184(v=VS.85).aspx">property attribute descriptor</a> for each property specified in the <i>pPROPSPEC</i> array. For more information, see <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+An array that receives a <a href="https://msdn.microsoft.com/00e04790-e319-41b3-b88f-8064912b91b1">property attribute descriptor</a> for each property specified in the <i>pPROPSPEC</i> array. For more information, see <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 
 ## -returns
@@ -149,7 +149,7 @@ This method returns one of the following values or a standard COM error code:
 
 
 
-This method retrieves both property access rights and valid property values. Access rights report whether the property is readable, writeable, or both. Valid property values are specified as a range of values, a list of values, or a group of flag values. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms630184(v=VS.85).aspx">Property Attributes</a>.
+This method retrieves both property access rights and valid property values. Access rights report whether the property is readable, writeable, or both. Valid property values are specified as a range of values, a list of values, or a group of flag values. For more information, see <a href="https://msdn.microsoft.com/00e04790-e319-41b3-b88f-8064912b91b1">Property Attributes</a>.
 
 If the property access rights flag has the <b>WIA_PROP_NONE</b> bit set, no legal value information is available for this property. Read only properties and properties with a binary data type are examples of properties that would have the <b>WIA_PROP_NONE</b> bit set.
 
@@ -251,7 +251,7 @@ where <i>n</i> is the index number of the property that is inspected, and <i>fla
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629938(v=VS.85).aspx">IWiaPropertyStorage</a>
+<a href="https://msdn.microsoft.com/b80d22d4-8e36-484a-9dd1-f228e2236eaf">IWiaPropertyStorage</a>
  
 
  

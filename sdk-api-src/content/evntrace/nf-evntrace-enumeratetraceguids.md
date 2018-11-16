@@ -4,10 +4,10 @@ title: EnumerateTraceGuids function
 author: windows-sdk-content
 description: The EnumerateTraceGuids function retrieves information about registered event trace providers that are running on the computer.
 old-location: etw\enumeratetraceguids.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 9a9e2f53-9916-4a9c-a08e-c8affd5fc4c9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EnumerateTraceGuids, EnumerateTraceGuids function [ETW], _evt_enumeratetraceguids, base.enumeratetraceguids, etw.enumeratetraceguids, evntrace/EnumerateTraceGuids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,12 +149,16 @@ The list will not include kernel providers.
 
 The following example shows you how to call this function.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <wmistr.h>
-#include <evntrace.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;wmistr.h&gt;
+#include &lt;evntrace.h&gt;
 
 #define MAX_SESSION_NAME_LEN 1024
 #define MAX_LOGFILE_PATH_LEN 1024
@@ -188,7 +192,7 @@ void wmain(void)
     // for this snapshot. Then allocate memory for the block of structures
     // and the array of pointers.
 
-    status = EnumerateTraceGuids(pProviders, ProviderCount, &RegisteredProviderCount);
+    status = EnumerateTraceGuids(pProviders, ProviderCount, &amp;RegisteredProviderCount);
 
     if (ERROR_MORE_DATA == status)
     {
@@ -217,33 +221,33 @@ void wmain(void)
         pProviders = pTemp;
         pTemp = NULL;
 
-        for (USHORT i = 0; i < RegisteredProviderCount; i++)
+        for (USHORT i = 0; i &lt; RegisteredProviderCount; i++)
         {
-            pProviders[i] = &pProviderProperties[i];
+            pProviders[i] = &amp;pProviderProperties[i];
         }
 
-        status = EnumerateTraceGuids(pProviders, ProviderCount, &RegisteredProviderCount);
+        status = EnumerateTraceGuids(pProviders, ProviderCount, &amp;RegisteredProviderCount);
 
         if (ERROR_SUCCESS == status || ERROR_MORE_DATA == status)
         {
-            for (USHORT i=0; i < RegisteredProviderCount; i++)
+            for (USHORT i=0; i &lt; RegisteredProviderCount; i++)
             {
-                StringFromGUID2(pProviders[i]->Guid, ProviderGuid, sizeof(ProviderGuid)),
+                StringFromGUID2(pProviders[i]-&gt;Guid, ProviderGuid, sizeof(ProviderGuid)),
 
                 wprintf(L"Provider: %s\nEnabled: %s\n",
                     ProviderGuid,
-                    (pProviders[i]->IsEnable) ? L"TRUE" : L"FALSE");
+                    (pProviders[i]-&gt;IsEnable) ? L"TRUE" : L"FALSE");
 
-                if (pProviders[i]->IsEnable)
+                if (pProviders[i]-&gt;IsEnable)
                 {
                     EnabledProviderCount++;
 
                     wprintf(L"Session ID: %ld\nPrivate Session: %s\n"
                         L"Enable level: %ld\nEnable flags: %ld\n",
-                        pProviders[i]->LoggerId,
-                        (IsPrivateSession(pProviders[i]->LoggerId)) ? L"TRUE" : L"FALSE",
-                        pProviders[i]->EnableLevel,
-                        pProviders[i]->EnableFlags);
+                        pProviders[i]-&gt;LoggerId,
+                        (IsPrivateSession(pProviders[i]-&gt;LoggerId)) ? L"TRUE" : L"FALSE",
+                        pProviders[i]-&gt;EnableLevel,
+                        pProviders[i]-&gt;EnableFlags);
                 }
       
                 wprintf(L"\n");
@@ -295,9 +299,9 @@ BOOL IsPrivateSession(DWORD SessionId)
     {
         ZeroMemory(pProperties, BufferSize);
 
-        pProperties->Wnode.BufferSize = BufferSize;
-        pProperties->LoggerNameOffset = sizeof(EVENT_TRACE_PROPERTIES);
-        pProperties->LogFileNameOffset = sizeof(EVENT_TRACE_PROPERTIES) + (MAX_SESSION_NAME_LEN*sizeof(WCHAR));
+        pProperties-&gt;Wnode.BufferSize = BufferSize;
+        pProperties-&gt;LoggerNameOffset = sizeof(EVENT_TRACE_PROPERTIES);
+        pProperties-&gt;LogFileNameOffset = sizeof(EVENT_TRACE_PROPERTIES) + (MAX_SESSION_NAME_LEN*sizeof(WCHAR));
     }
     else
     {
@@ -309,7 +313,7 @@ BOOL IsPrivateSession(DWORD SessionId)
 
     if (ERROR_SUCCESS == status)
     {
-        if ((EVENT_TRACE_PRIVATE_LOGGER_MODE & pProperties->LogFileMode)== EVENT_TRACE_PRIVATE_LOGGER_MODE)
+        if ((EVENT_TRACE_PRIVATE_LOGGER_MODE &amp; pProperties-&gt;LogFileMode)== EVENT_TRACE_PRIVATE_LOGGER_MODE)
         {
             IsPrivate = TRUE;
         }
@@ -333,10 +337,10 @@ cleanup:
 
     return IsPrivate;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

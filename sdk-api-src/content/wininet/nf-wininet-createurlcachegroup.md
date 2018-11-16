@@ -7,7 +7,7 @@ old-location: wininet\createurlcachegroup.htm
 tech.root: WinInet
 ms.assetid: bea0bc3b-75fb-4147-a4bd-f4290dfbf290
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateUrlCacheGroup, CreateUrlCacheGroup function [WinINet], _inet_createurlcachegroup_function, wininet.createurlcachegroup, wininet/CreateUrlCacheGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Generates cache group identifications.
 ### -param dwFlags [in]
 
 Controls the creation of the cache group. This parameter can be set to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383923(v=VS.85).aspx">CACHEGROUP_FLAG_GIDONLY</a>, which causes 
+<a href="cache_group_constants.htm">CACHEGROUP_FLAG_GIDONLY</a>, which causes 
 <b>CreateUrlCacheGroup</b> to generate a unique GROUPID, but does not create a physical group.
 
 

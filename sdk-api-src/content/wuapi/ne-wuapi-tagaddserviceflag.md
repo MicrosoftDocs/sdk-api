@@ -7,7 +7,7 @@ old-location: wua\addserviceflag.htm
 tech.root: Wua_Sdk
 ms.assetid: 1372a062-9f62-4b4d-8476-b6c7059a801a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: AddServiceFlag, AddServiceFlag enumeration [Windows Update Agent], asfAllowOnlineRegistration, asfAllowPendingRegistration, asfRegisterServiceWithAU, tagAddServiceFlag, wua.addserviceflag, wuapi/AddServiceFlag, wuapi/asfAllowOnlineRegistration, wuapi/asfAllowPendingRegistration, wuapi/asfRegisterServiceWithAU
 ms.prod: windows-hardware
 ms.technology: windows-devices

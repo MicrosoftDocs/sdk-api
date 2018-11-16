@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetRectangle_Rect_rect_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\lineargradientbrushgetrectanglemethods\getrectangle.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetRectangle, GetRectangle method [GDI+], GetRectangle method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetRectangle method, LinearGradientBrush.GetRectangle, LinearGradientBrush.GetRectangle(OUT Rect), LinearGradientBrush.GetRectangle(Rect*), LinearGradientBrush::GetRectangle, LinearGradientBrush::GetRectangle(OUT Rect), _gdiplus_CLASS_LinearGradientBrush_GetRectangle_Rect_rect_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetRectangle_Rect_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,9 +103,13 @@ The rectangle defines the boundaries of the gradient in the following ways: The 
 
 The following example creates a linear gradient brush. Then the code gets the brush's rectangle and draws it.
 
-
-```cpp
-VOID Example_GetRect(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetRect(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -118,15 +122,15 @@ VOID Example_GetRect(HDC hdc)
 
    // Obtain information about the linear gradient brush.
    Rect rect;
-   linGrBrush.GetRectangle(&rect);
+   linGrBrush.GetRectangle(&amp;rect);
 
    // Draw the retrieved rectangle.
    Pen myPen(Color(255, 0, 0, 0));
-   myGraphics.DrawRectangle(&myPen, rect);
-}
-```
-
-
+   myGraphics.DrawRectangle(&amp;myPen, rect);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -143,7 +147,7 @@ VOID Example_GetRect(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 

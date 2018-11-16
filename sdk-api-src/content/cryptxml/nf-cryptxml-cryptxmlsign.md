@@ -4,10 +4,10 @@ title: CryptXmlSign function
 author: windows-sdk-content
 description: Creates a cryptographic signature of a SignedInfo element.
 old-location: security\cryptxmlsign.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 38bd365e-bc63-498c-a650-471429f09d37
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_SIGN_ADD_KEYVALUE, CryptXmlSign, CryptXmlSign function [Security], cryptxml/CryptXmlSign, security.cryptxmlsign
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,12 +66,12 @@ The <b>CryptXmlSign</b> function creates a cryptographic signature of  a <b>Sign
 
 ### -param hSignature [in]
 
-The handle to a <a href="https://msdn.microsoft.com/en-us/library/Dd433864(v=VS.85).aspx">CRYPT_XML_SIGNATURE</a> structure. 
+The handle to a <a href="https://msdn.microsoft.com/d9930946-aec0-42a4-949f-af8b2e9c6e6c">CRYPT_XML_SIGNATURE</a> structure. 
 
 
 ### -param hKey [in, optional]
 
-The handle of a <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> used to sign the <b>SignedInfo</b> element.
+The handle of a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> used to sign the <b>SignedInfo</b> element.
     This parameter must be <b>NULL</b> for HMAC-based signature algorithms.
 
 
@@ -91,7 +91,7 @@ A <b>DWORD</b> value that specifies the key type. This parameter can be one of t
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx">key pair</a> is a key exchange pair.
+The <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key pair</a> is a key exchange pair.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ Is set to  <b>NULL</b>
 
 </td>
 <td>
-Points to a <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).aspx">CRYPT_XML_BLOB</a> structure
+Points to a <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ Points to a <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).
 
 </td>
 <td>
-Points to a <a href="https://msdn.microsoft.com/en-us/library/Dd433851(v=VS.85).aspx">CRYPT_XML_KEYINFO_PARAM</a> structure
+Points to a <a href="https://msdn.microsoft.com/cbde3f67-d948-452a-9958-52563dc7a8b5">CRYPT_XML_KEYINFO_PARAM</a> structure
 
 </td>
 </tr>
@@ -212,12 +212,12 @@ A pointer to a structure, the type of which is determined by the value of the <i
 
 ### -param pSignatureMethod [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433842(v=VS.85).aspx">CRYPT_XML_ALGORITHM</a>     structure that specifies the signature method.
+A pointer to a <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a>     structure that specifies the signature method.
 
 
 ### -param pCanonicalization [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433842(v=VS.85).aspx">CRYPT_XML_ALGORITHM</a>     structure that specifies the canonicalization method.
+A pointer to a <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a>     structure that specifies the canonicalization method.
 
 
 ## -returns

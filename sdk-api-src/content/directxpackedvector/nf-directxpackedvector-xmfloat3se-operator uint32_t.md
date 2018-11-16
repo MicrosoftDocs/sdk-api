@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat3se_operator_uint32_t.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3SE.operator uint32_t
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DirectX::PackedVector.XMFLOAT3SE.operator uint32_t, DirectX::PackedVector::XMFLOAT3SE::operator uint32_t, XMFLOAT3SE structure [DirectX Math Support APIs],operator uint32_t method, XMFLOAT3SE.operator uint32_t, dxmath.xmfloat3se_operator_uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMFLOAT3SE structure
 ms.prod: windows-hardware
 ms.technology: windows-devices

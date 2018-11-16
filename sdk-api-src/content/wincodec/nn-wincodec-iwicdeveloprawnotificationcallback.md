@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdeveloprawnotificationcallback.htm
 tech.root: wic
 ms.assetid: ccd162e4-84be-4ed5-a583-c9bd195f503b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWICDevelopRawNotificationCallback, IWICDevelopRawNotificationCallback interface [Windows Imaging Component], IWICDevelopRawNotificationCallback interface [Windows Imaging Component],described, _wic_codec_iwicdeveloprawnotificationcallback, wic._wic_codec_iwicdeveloprawnotificationcallback, wincodec/IWICDevelopRawNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

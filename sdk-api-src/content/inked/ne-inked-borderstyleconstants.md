@@ -7,7 +7,7 @@ old-location: tablet\borderstyleconstants.htm
 tech.root: tablet
 ms.assetid: 0bb4ff9b-3024-4563-a654-5bc9ed8e0520
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 0bb4ff9b-3024-4563-a654-5bc9ed8e0520, BorderStyleConstants, BorderStyleConstants enumeration [Tablet PC], inked/BorderStyleConstants, inked/rtfFixedSingle, inked/rtfNoBorder, rtfFixedSingle, rtfNoBorder, tablet.borderstyleconstants
 ms.prod: windows-hardware
 ms.technology: windows-devices

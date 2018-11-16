@@ -4,10 +4,10 @@ title: CreateCluster function
 author: windows-sdk-content
 description: Creates and starts a cluster.
 old-location: mscs\createcluster.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 672a1573-63e5-4321-a049-25bdafc1b5e0
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CreateCluster, CreateCluster function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER, PCLUSAPI_CREATE_CLUSTER function [Failover Cluster], clusapi/CreateCluster, clusapi/PCLUSAPI_CREATE_CLUSTER, mscs.createcluster
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ req.redist:
 
 
 Creates and starts a cluster. The cluster consists of the set of nodes specified, with the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371733(v=VS.85).aspx">Network Name</a>, 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa370484(v=VS.85).aspx">IP Address</a>, and 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371819(v=VS.85).aspx">quorum resources</a> if specified. The <b>PCLUSAPI_CREATE_CLUSTER</b> type defines a pointer to this function.
+    <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">Network Name</a>, 
+    <a href="https://msdn.microsoft.com/3ed966f1-0177-4376-a36d-4a2fda327470">IP Address</a>, and 
+    <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resources</a> if specified. The <b>PCLUSAPI_CREATE_CLUSTER</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -72,14 +72,14 @@ Creates and starts a cluster. The cluster consists of the set of nodes specified
 
 ### -param pConfig [in]
 
-Address of a <a href="https://msdn.microsoft.com/en-us/library/Bb309213(v=VS.85).aspx">CREATE_CLUSTER_CONFIG</a> 
+Address of a <a href="https://msdn.microsoft.com/5fc90422-47e4-44da-a49f-66d4b7712f53">CREATE_CLUSTER_CONFIG</a> 
       structure containing configuration information about the cluster to be created.
 
 
 ### -param pfnProgressCallback [in, optional]
 
 Address of callback function that matches the 
-      <a href="https://msdn.microsoft.com/en-us/library/Bb394687(v=VS.85).aspx">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
+      <a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
       function pointer that will be called periodically to provide progress on the cluster creation.
 
 
@@ -94,10 +94,30 @@ Argument for the callback function.
 
 Handle to the newly created cluster or <b>NULL</b>. A non <b>NULL</b> 
       value does not indicate complete success (all nodes will have been added, but not all 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa370484(v=VS.85).aspx">IP Address</a> or 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa371733(v=VS.85).aspx">Network Name</a> resources may have been created. The parameters 
+      <a href="https://msdn.microsoft.com/3ed966f1-0177-4376-a36d-4a2fda327470">IP Address</a> or 
+      <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">Network Name</a> resources may have been created. The parameters 
       passed to the function pointed to by the <i>pfnProgressCallback</i> parameter should be 
       checked.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>NULL</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+Less than a majority of nodes were successfully created. For more information about the error, call the 
+        function <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 
@@ -121,7 +141,7 @@ The <b>CreateCluster</b> function successfully completes
     seconds.
 
 Before calling the <b>CreateCluster</b> function, 
-    the <a href="https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx">CoInitializeEx</a> function must be called specifying 
+    the <a href="_com_coinitializeex">CoInitializeEx</a> function must be called specifying 
     both <b>COINIT_MULTITHREADED</b> and <b>COINIT_DISABLE_OLE1DDE</b> for 
     the <i>dwCoInit</i> parameter, as shown in the following code.
 
@@ -138,7 +158,7 @@ Before calling the <b>CreateCluster</b> function,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309213(v=VS.85).aspx">CREATE_CLUSTER_CONFIG</a>
+<a href="https://msdn.microsoft.com/5fc90422-47e4-44da-a49f-66d4b7712f53">CREATE_CLUSTER_CONFIG</a>
 
 
 
@@ -150,7 +170,7 @@ Before calling the <b>CreateCluster</b> function,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb394687(v=VS.85).aspx">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
+<a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
  
 
  

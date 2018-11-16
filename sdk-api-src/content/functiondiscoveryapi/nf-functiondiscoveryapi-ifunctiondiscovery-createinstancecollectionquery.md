@@ -4,10 +4,10 @@ title: IFunctionDiscovery::CreateInstanceCollectionQuery
 author: windows-sdk-content
 description: Creates a query for a collection of specific function instances.
 old-location: ncd\ifunctiondiscovery_createinstancecollectionquery_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 46f74e55-8060-4f02-85e3-dbd2fc8fce78
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: CreateInstanceCollectionQuery, CreateInstanceCollectionQuery method, CreateInstanceCollectionQuery method,IFunctionDiscovery interface, IFunctionDiscovery interface,CreateInstanceCollectionQuery method, IFunctionDiscovery.CreateInstanceCollectionQuery, IFunctionDiscovery::CreateInstanceCollectionQuery, functiondiscoveryapi/IFunctionDiscovery::CreateInstanceCollectionQuery, ncd.ifunctiondiscovery_createinstancecollectionquery_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

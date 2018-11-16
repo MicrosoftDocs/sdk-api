@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanager_saveprofile.htm
 tech.root: wmformat
 ms.assetid: 806def9b-1842-4443-9a63-fba380545018
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],SaveProfile method, IWMProfileManager.SaveProfile, IWMProfileManager::SaveProfile, IWMProfileManagerSaveProfile, SaveProfile, SaveProfile method [windows Media Format], SaveProfile method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_saveprofile, wmsdkidl/IWMProfileManager::SaveProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,9 @@ The <b>SaveProfile</b> method saves a profile into an XML-formatted string.
 
 
 
-### -param pIWMProfile
+### -param pIWMProfile [in]
 
-TBD
+Pointer to the <a href="https://msdn.microsoft.com/00f28d6b-d27d-4268-960e-c8ea25e5359e">IWMProfile</a> interface of the object containing the profile data to be saved.
 
 
 ### -param pwszProfile [in]
@@ -85,11 +85,6 @@ Pointer to a wide-character <b>null</b>-terminated string containing the profile
 ### -param pdwLength [in, out]
 
 On input, specifies the length of the <i>pwszProfile</i> string. On output, if the method succeeds, specifies a pointer to a <b>DWORD</b> containing the number of characters, including the terminating <b>null</b> character, required to hold the profile.
-
-
-#### - pProfile [in]
-
-Pointer to the <a href="https://msdn.microsoft.com/00f28d6b-d27d-4268-960e-c8ea25e5359e">IWMProfile</a> interface of the object containing the profile data to be saved.
 
 
 ## -returns

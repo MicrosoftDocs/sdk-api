@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromfilehandle.htm
 tech.root: wic
 ms.assetid: 94cf408c-bcea-419a-bf87-fac1e15e0a12
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: CreateDecoderFromFileHandle, CreateDecoderFromFileHandle method [Windows Imaging Component], CreateDecoderFromFileHandle method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoderFromFileHandle method, IWICImagingFactory.CreateDecoderFromFileHandle, IWICImagingFactory::CreateDecoderFromFileHandle, _wic_codec_iwicimagingfactory_createdecoderfromfilehandle, wic._wic_codec_iwicimagingfactory_createdecoderfromfilehandle, wincodec/IWICImagingFactory::CreateDecoderFromFileHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

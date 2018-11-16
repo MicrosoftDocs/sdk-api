@@ -4,10 +4,10 @@ title: "_CRYPT_XML_ISSUER_SERIAL"
 author: windows-sdk-content
 description: Contains an X.509 issued distinguished name&#8211;serial number pair.
 old-location: security\crypt_xml_issuer_serial.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8d74e119-c7ea-4c7c-9d2a-e81f7ae40310
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CRYPT_XML_ISSUER_SERIAL, CRYPT_XML_ISSUER_SERIAL structure [Security], _CRYPT_XML_ISSUER_SERIAL, cryptxml/CRYPT_XML_ISSUER_SERIAL, security.crypt_xml_issuer_serial
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CRYPT_XML_ISSUER_SERIAL</b> structure contains an <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.509</a> issued distinguished name–serial number pair.
+The <b>CRYPT_XML_ISSUER_SERIAL</b> structure contains an <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> issued distinguished name–serial number pair.
 
 
 ## -struct-fields

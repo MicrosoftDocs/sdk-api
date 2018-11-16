@@ -7,7 +7,7 @@ old-location: xaudio2\xapo_lockforprocess_buffer_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_LOCKFORPROCESS_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS, XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS structure [XAudio2 Audio Mixing APIs], XAPO_LOCKFORPROCESS_PARAMETERS, XAPO_LOCKFORPROCESS_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapo/XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS, xaudio2.xapo_lockforprocess_buffer_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ A WAVFORMATEX describing the format for the stream buffer.
 
 ### -field MaxFrameCount
 
-Maximum number of frames in the stream buffer that <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">IXAPO::Process</a> would ever be required to handle, irrespective of dynamic parameter settings.
+Maximum number of frames in the stream buffer that <a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">IXAPO::Process</a> would ever be required to handle, irrespective of dynamic parameter settings.
 
 
 ## -remarks

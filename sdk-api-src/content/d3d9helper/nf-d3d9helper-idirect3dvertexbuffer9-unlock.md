@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexbuffer9__unlock.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9__unlock.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: 5a3902da-98ea-e009-1f97-f26c26aa9113, IDirect3DVertexBuffer9 interface [Direct3D 9],Unlock method, IDirect3DVertexBuffer9.Unlock, IDirect3DVertexBuffer9::Unlock, Unlock, Unlock method [Direct3D 9], Unlock method [Direct3D 9],IDirect3DVertexBuffer9 interface, d3d9helper/IDirect3DVertexBuffer9::Unlock, direct3d9.idirect3dvertexbuffer9__unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ Unlocks vertex data.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -85,15 +85,15 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>
+<a href="https://msdn.microsoft.com/6efb68b4-c276-4ae2-8a53-316e41c3a77b">IDirect3DVertexBuffer9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205917(v=VS.85).aspx">IDirect3DVertexBuffer9::Lock</a>
+<a href="https://msdn.microsoft.com/d967ea07-a59f-401a-a63a-a1a764f91485">IDirect3DVertexBuffer9::Lock</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb206332(v=VS.85).aspx">Vertex Buffers (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/f9274562-413c-4f0d-bdb4-dc8fa83b6063">Vertex Buffers (Direct3D 9)</a>
  
 
  

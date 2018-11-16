@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSinkEvent
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersinkevent.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: e828d3e0-5a2a-499a-a718-11aa76a01b1b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidStreamBufferSinkEvent, IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],described, IMSVidStreamBufferSinkEventInterface, mstv.imsvidstreambuffersinkevent, segment/IMSVidStreamBufferSinkEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotatemplate.htm
 tech.root: Fsrm
 ms.assetid: de8ac383-f309-4320-bc77-c859ba27e1ca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IFsrmQuotaTemplate, IFsrmQuotaTemplate interface [File Server Resource Manager], IFsrmQuotaTemplate interface [File Server Resource Manager],described, fs.ifsrmquotatemplate, fsrm.ifsrmquotatemplate, fsrm/IFsrmQuotaTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

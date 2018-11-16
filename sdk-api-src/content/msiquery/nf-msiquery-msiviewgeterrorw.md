@@ -4,10 +4,10 @@ title: MsiViewGetErrorW function
 author: windows-sdk-content
 description: The MsiViewGetError function returns the error that occurred in the MsiViewModify function.
 old-location: setup\msiviewgeterror.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: a59ab850-204b-40b7-bf24-d6a2d7ae82f4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiViewGetError, MsiViewGetError function, MsiViewGetErrorA, MsiViewGetErrorW, _msi_msiviewgeterror, msiquery/MsiViewGetError, msiquery/MsiViewGetErrorA, msiquery/MsiViewGetErrorW, setup.msiviewgeterror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -492,7 +492,7 @@ Once MSIDBERROR_NOERROR is returned, no more validation errors remain. The MSIDB
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
+<a href="database_functions.htm">General Database Access Functions</a>
 
 
 

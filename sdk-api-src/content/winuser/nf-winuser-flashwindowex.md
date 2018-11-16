@@ -4,10 +4,10 @@ title: FlashWindowEx function
 author: windows-sdk-content
 description: Flashes the specified window. It does not change the active state of the window.
 old-location: base\flashwindowex.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 474ec2d9-3ee9-4622-843e-d6ae36fedd7f
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: FlashWindowEx, FlashWindowEx function, _win32_flashwindowex, base.flashwindowex, winuser/FlashWindowEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

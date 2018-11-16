@@ -7,7 +7,7 @@ old-location: base\ivsscreatewritermetadata_addcomponent.htm
 tech.root: VSS
 ms.assetid: fdbcbcea-d49e-49bc-9bb8-2210a9de02a4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddComponent method, IVssCreateWriterMetadata.AddComponent, IVssCreateWriterMetadata::AddComponent, _win32_ivsscreatewritermetadata_addcomponent, base.ivsscreatewritermetadata_addcomponent, vswriter/IVssCreateWriterMetadata::AddComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,12 @@ The <b>AddComponent</b> method adds a
 
 
 
-### -param ct
+### -param ct [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> enumeration value specifying 
+      the type of the component.
+
+<b>Windows Server 2003 and Windows XP:  </b>Before Windows Server 2003 with SP1, this parameter is reserved for system use, and the caller should not override the default value.
 
 
 ### -param wszLogicalPath [in]
@@ -134,7 +137,7 @@ A Boolean that indicates whether the component can be optionally backed up (whic
 ### -param bSelectableForRestore [in]
 
 A Boolean that determines whether a component can be individually restored when it has not been 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa384655(v=VS.85).aspx">explicitly included</a> in 
+      <a href="vssgloss_e.htm">explicitly included</a> in 
       the backup document. If the component was explicitly added to the backup document, it can always be 
       individually selected for restore; in this case, this flag has no meaning. 
       
@@ -156,14 +159,6 @@ A bit mask (or bitwise OR) of members of the
       
 
 The default value for this argument is zero.
-
-
-#### - componentType [in]
-
-A <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> enumeration value specifying 
-      the type of the component.
-
-<b>Windows Server 2003 and Windows XP:  </b>Before Windows Server 2003 with SP1, this parameter is reserved for system use, and the caller should not override the default value.
 
 
 ## -returns

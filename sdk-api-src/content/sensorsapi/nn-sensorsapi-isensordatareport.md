@@ -7,7 +7,7 @@ old-location: winsensors\isensordatareport.htm
 tech.root: SensorsAPI
 ms.assetid: c677b956-e3ab-477c-b97b-aceec4e2d235
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ISensorDataReport, ISensorDataReport interface [WinSensors], ISensorDataReport interface [WinSensors],described, sensorsapi/ISensorDataReport, winsensors.isensordatareport
 ms.prod: windows-hardware
 ms.technology: windows-devices

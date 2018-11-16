@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getpostrestorefailuremsg.htm
 tech.root: VSS
 ms.assetid: f7d236e9-bd83-4685-b249-4e5b8ada535a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetPostRestoreFailureMsg, GetPostRestoreFailureMsg method [VSS], GetPostRestoreFailureMsg method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPostRestoreFailureMsg method, IVssComponent.GetPostRestoreFailureMsg, IVssComponent::GetPostRestoreFailureMsg, _win32_ivsscomponent_getpostrestorefailuremsg, base.ivsscomponent_getpostrestorefailuremsg, vswriter/IVssComponent::GetPostRestoreFailureMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,7 +155,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller should free the memory held by the <i>pbstrPostRestoreFailureMsg</i> parameter by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrPostRestoreFailureMsg</i> parameter by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 If 
 <a href="https://msdn.microsoft.com/1059a586-69e2-4a02-8f52-b8da3f04f51c">SetPostRestoreFailureMsg</a> was not used to set a 

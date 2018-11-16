@@ -4,10 +4,10 @@ title: ICertExit
 author: windows-sdk-content
 description: Provides communications between the Certificate Services server and an exit module.
 old-location: security\icertexit.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 731c4f3c-20b4-4f3d-8241-a94cdf656fe5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ICertExit, ICertExit interface [Security], ICertExit interface [Security],described, _certsrv_icertexit, certexit/ICertExit, security.icertexit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,9 +51,9 @@ req.redist:
 
 
 The <b>ICertExit</b> interface  provides communications between  the Certificate Services server and an exit module.
-<div class="alert"><b>Note</b>  The exit module can communicate with the Certificate Services server by using the <a href="https://msdn.microsoft.com/en-us/library/Aa385055(v=VS.85).aspx">ICertServerExit</a> interface.</div><div> </div>The Certificate Services server calls the <b>ICertExit</b> methods to perform the following tasks:<ul>
+<div class="alert"><b>Note</b>  The exit module can communicate with the Certificate Services server by using the <a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a> interface.</div><div> </div>The Certificate Services server calls the <b>ICertExit</b> methods to perform the following tasks:<ul>
 <li>Initialize the Certificate Services server.</li>
-<li>Notify the exit module of an event such as certificate issuance, <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) issuance, or server shutdown, has occurred.</li>
+<li>Notify the exit module of an event such as certificate issuance, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) issuance, or server shutdown, has occurred.</li>
 <li>Retrieve a description of the exit module.</li>
 </ul>
 
@@ -65,9 +65,9 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertExit</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertExit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertExit</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertExit</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -80,27 +80,27 @@ The <b>ICertExit</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385023(v=VS.85).aspx">GetDescription</a>
+<a href="https://msdn.microsoft.com/362d67c7-54ab-482e-9b2b-05ba1b6e2a70">GetDescription</a>
 </td>
 <td align="left" width="63%">
-Returns a description of the exit module and its function.</p> (Inherited from <b>ICertExit</b><a href="https://msdn.microsoft.com/en-us/library/Aa385022(v=VS.85).aspx">ICertExit2</a>
-<a href="https://msdn.microsoft.com/en-us/library/Aa385022(v=VS.85).aspx">CCertExit2</a>)</td>
+Returns a description of the exit module and its function.</p> (Inherited from <b>ICertExit</b><a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">ICertExit2</a>
+<a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">CCertExit2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385025(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/61d27de8-f940-4f18-ba44-7e91378f035c">Initialize</a>
 </td>
 <td align="left" width="63%">
-Called by the server engine when it initializes itself.</p> (Inherited from <b>ICertExit</b><a href="https://msdn.microsoft.com/en-us/library/Aa385022(v=VS.85).aspx">ICertExit2</a>
-<a href="https://msdn.microsoft.com/en-us/library/Aa385022(v=VS.85).aspx">CCertExit2</a>)</td>
+Called by the server engine when it initializes itself.</p> (Inherited from <b>ICertExit</b><a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">ICertExit2</a>
+<a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">CCertExit2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385026(v=VS.85).aspx">Notify</a>
+<a href="https://msdn.microsoft.com/ebe4ef0c-5778-4a62-b112-9b16b250814f">Notify</a>
 </td>
 <td align="left" width="63%">
-Called by the server engine to notify an exit module that an event has occurred.</p> (Inherited from <b>ICertExit</b><a href="https://msdn.microsoft.com/en-us/library/Aa385022(v=VS.85).aspx">ICertExit2</a>
-<a href="https://msdn.microsoft.com/en-us/library/Aa385022(v=VS.85).aspx">CCertExit2</a>)</td>
+Called by the server engine to notify an exit module that an event has occurred.</p> (Inherited from <b>ICertExit</b><a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">ICertExit2</a>
+<a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">CCertExit2</a>)</td>
 </tr>
 </table> 
 
@@ -110,7 +110,7 @@ Called by the server engine to notify an exit module that an event has occurred.
 
 
 Implementers of <b>ICertExit</b> should also implement 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385029(v=VS.85).aspx">ICertManageModule</a>. Additionally, the ProgID for a class implementing <b>ICertExit</b> must conform to a naming convention. Specifically, the ProgID must be of the form:
+<a href="https://msdn.microsoft.com/82b7b770-c098-40da-8a4e-8eb0e0b8a645">ICertManageModule</a>. Additionally, the ProgID for a class implementing <b>ICertExit</b> must conform to a naming convention. Specifically, the ProgID must be of the form:
 
 <b>"</b><i>MyApp</i><b>.Exit"</b>
 
@@ -169,11 +169,11 @@ Where <i>MyApp</i> is a specifier that identifies the application; further, the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385055(v=VS.85).aspx">ICertServerExit</a>
+<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

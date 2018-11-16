@@ -4,10 +4,10 @@ title: AddSecurityPackageA function
 author: windows-sdk-content
 description: Adds a security support provider to the list of providers supported by Microsoft Negotiate.
 old-location: security\addsecuritypackage.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 35b993d2-87a0-46d0-991f-88358b0cc5e6
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AddSecurityPackage, AddSecurityPackage function [Security], AddSecurityPackageA, AddSecurityPackageW, security.addsecuritypackage, sspi/AddSecurityPackage, sspi/AddSecurityPackageA, sspi/AddSecurityPackageW
 ms.prod: windows-hardware
 ms.technology: windows-devices

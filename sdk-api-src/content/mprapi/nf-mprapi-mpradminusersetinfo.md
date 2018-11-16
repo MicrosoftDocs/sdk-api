@@ -4,10 +4,10 @@ title: MprAdminUserSetInfo function
 author: windows-sdk-content
 description: The MprAdminUserSetInfo function sets RAS information for the specified user.
 old-location: rras\mpradminusersetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 7f4d5213-56b4-43d2-93c8-ee5ca50b2a19
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MprAdminUserSetInfo, MprAdminUserSetInfo function [RAS], _mpr_mpradminusersetinfo, mprapi/MprAdminUserSetInfo, rras.mpradminusersetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -173,8 +173,8 @@ The user specified by <i>lpwsUserName</i> does not exist on the server specified
 This function is available on Windows NT 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as 
 <a href="https://msdn.microsoft.com/5b049dfd-ecc8-47e4-82cc-71a875752714">RasAdminUserSetInfo</a> rather than 
 <b>MprAdminUserSetInfo</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx">LoadLibrary</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx">GetProcAddress</a> to access this function.
+<a href="_win32_loadlibrary">LoadLibrary</a> and 
+<a href="_win32_getprocaddress">GetProcAddress</a> to access this function.
 
 
 

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement7_FindFirstWithOptionsBuildCach
 tech.root: WinAuto
 ms.assetid: 03683C11-7AB0-4933-A7C1-4A75A12079E1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: FindFirstWithOptionsBuildCache, FindFirstWithOptionsBuildCache method [Windows Accessibility], FindFirstWithOptionsBuildCache method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindFirstWithOptionsBuildCache method, IUIAutomationElement7.FindFirstWithOptionsBuildCache, IUIAutomationElement7::FindFirstWithOptionsBuildCache, uiautomationclient/IUIAutomationElement7::FindFirstWithOptionsBuildCache, winauto.uiauto_IUIAutomationElement7_FindFirstWithOptionsBuildCache, winauto.uiauto_iuiautomationelement_findfirstwithoptionsbuildcache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,14 +91,7 @@ Enumeration value specifying the tree navigation order.
 A pointer to the element with which to begin the search.
 
 
-### -param found
-
-TBD
-
-
-
-
-#### - foundElement [out, retval]
+### -param found [out, retval]
 
 Receives a pointer to the element. <b>NULL</b> is returned if no matching element is found.
 

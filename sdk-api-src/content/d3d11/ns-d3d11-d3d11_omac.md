@@ -7,7 +7,7 @@ old-location: mf\d3d11_omac.htm
 tech.root: medfound
 ms.assetid: 68AEC018-1DFE-4811-A511-176E82C2E9E2
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_OMAC, D3D11_OMAC structure [Media Foundation], d3d11/D3D11_OMAC, mf.d3d11_omac
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ A byte array that contains the cryptographic MAC value of the message.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

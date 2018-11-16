@@ -7,7 +7,7 @@ old-location: dshow\iammultimediastream_addmediastream.htm
 tech.root: DirectShow
 ms.assetid: 3ccfb776-6a4e-48da-857d-6693cf916c40
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: AddMediaStream, AddMediaStream method [DirectShow], AddMediaStream method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],AddMediaStream method, IAMMultiMediaStream.AddMediaStream, IAMMultiMediaStream::AddMediaStream, IAMMultiMediaStreamAddMediaStream, amstream/IAMMultiMediaStream::AddMediaStream, dshow.iammultimediastream_addmediastream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,9 +76,9 @@ The <code>AddMediaStream</code> method adds a new media stream to the filter gra
 Pointer to the <b>IUnknown</b> interface of an object that is used to create the new media stream. This parameter can be <b>NULL</b>. See Remarks for more information.
 
 
-### -param PurposeId
+### -param PurposeId [in]
 
-TBD
+Pointer an <a href="https://msdn.microsoft.com/83a84eb7-a72c-4ca7-b152-8cc81a5bfdaf">MSPID</a> the specifies the type of media stream to create. This parameter can be <b>NULL</b>.
 
 
 ### -param dwFlags [in]
@@ -115,11 +115,6 @@ Bitwise combination of zero or more of the following flags.
 ### -param ppNewStream [out]
 
 Address of a variable that receives an <a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a> interface pointer.
-
-
-#### - pPurposeID [in]
-
-Pointer an <a href="https://msdn.microsoft.com/83a84eb7-a72c-4ca7-b152-8cc81a5bfdaf">MSPID</a> the specifies the type of media stream to create. This parameter can be <b>NULL</b>.
 
 
 ## -returns

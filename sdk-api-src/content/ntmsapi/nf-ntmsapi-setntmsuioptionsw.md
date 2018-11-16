@@ -7,7 +7,7 @@ old-location: fs\setntmsuioptions.htm
 tech.root: Rsm
 ms.assetid: 1e76fddc-20b4-4645-9519-2033487dbbc5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NTMS_UIDEST_ADD, NTMS_UIDEST_DELETE, NTMS_UIDEST_DELETEALL, NTMS_UITYPE_ERR, NTMS_UITYPE_INFO, NTMS_UITYPE_REQ, SetNtmsUIOptions, SetNtmsUIOptions function [Files], SetNtmsUIOptionsA, SetNtmsUIOptionsW, _zaw_setntmsuioptions, base.setntmsuioptions, fs.setntmsuioptions, ntmsapi/SetNtmsUIOptions, ntmsapi/SetNtmsUIOptionsA, ntmsapi/SetNtmsUIOptionsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -327,7 +327,7 @@ Note that there is no checking of destination strings. A call to with a destinat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

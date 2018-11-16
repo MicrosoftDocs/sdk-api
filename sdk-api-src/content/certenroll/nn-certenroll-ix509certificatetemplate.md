@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplate.htm
 tech.root: SecCertEnroll
 ms.assetid: 56122d92-7e38-4eaa-b2f5-713adc81e68e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509CertificateTemplate, IX509CertificateTemplate interface [Security], IX509CertificateTemplate interface [Security],described, certenroll/IX509CertificateTemplate, security.ix509certificatetemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,5 +50,5 @@ req.redist:
 ## -description
 
 
-The <b>IX509CertificateTemplate</b> interface represents a certificate request template. It can be used to initialize an <a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a> interface.
+The <b>IX509CertificateTemplate</b> interface represents a certificate request template. It can be used to initialize an <a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a> interface.
 

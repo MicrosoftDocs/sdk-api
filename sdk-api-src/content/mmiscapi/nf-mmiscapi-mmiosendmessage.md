@@ -7,7 +7,7 @@ old-location: multimedia\mmiosendmessage.htm
 tech.root: Multimedia
 ms.assetid: 6ff058bf-0681-4ab8-abea-ee820359f4b3
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_mmioSendMessage, mmioSendMessage, mmioSendMessage function [Windows Multimedia], mmsystem/mmioSendMessage, multimedia.mmiosendmessage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ File handle for a file opened by using the <a href="https://msdn.microsoft.com/7
 
 ### -param uMsg
 
-TBD
+Message to send to the I/O procedure.
 
 
 ### -param lParam1
@@ -88,11 +88,6 @@ Parameter for the message.
 ### -param lParam2
 
 Parameter for the message.
-
-
-#### - wMsg
-
-Message to send to the I/O procedure.
 
 
 ## -returns

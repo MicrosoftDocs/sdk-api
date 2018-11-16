@@ -7,7 +7,7 @@ old-location: display\engquerypalette.htm
 tech.root: display
 ms.assetid: be4d0547-b71a-49b4-9d2c-12fab67c9412
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EngQueryPalette, EngQueryPalette function [Display Devices], display.engquerypalette, gdifncs_e11ff13c-9834-4911-9a02-a7d98f4cdfdc.xml, winddi/EngQueryPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

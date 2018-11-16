@@ -7,7 +7,7 @@ old-location: shell\istorageproviderhandler_getpropertyhandlerfromuri.htm
 tech.root: shell
 ms.assetid: C02A9690-1E98-4960-B5E7-E75BDAAF9A62
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetPropertyHandlerFromUri, GetPropertyHandlerFromUri method [Windows Shell], GetPropertyHandlerFromUri method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromUri method, IStorageProviderHandler.GetPropertyHandlerFromUri, IStorageProviderHandler::GetPropertyHandlerFromUri, shell.istorageproviderhandler_getpropertyhandlerfromuri, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromUri
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,14 +71,7 @@ Gets an instance of <a href="https://msdn.microsoft.com/8CB56726-DABA-44A4-ADAE-
 The URI for the relevant file.
 
 
-### -param propertyHandler
-
-TBD
-
-
-
-
-#### - **propertyHandler [out]
+### -param propertyHandler [out]
 
 An <a href="https://msdn.microsoft.com/8CB56726-DABA-44A4-ADAE-DAD8ECB047E6">IStorageProviderPropertyHandler</a> instance associated with the file specified by <i>uri</i>.
 

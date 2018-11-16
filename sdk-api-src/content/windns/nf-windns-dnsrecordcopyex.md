@@ -7,7 +7,7 @@ old-location: dns\dnsrecordcopyex.htm
 tech.root: DNS
 ms.assetid: b5a74799-75fc-4489-9efa-c15b2def2ae7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DnsRecordCopyEx, DnsRecordCopyEx function [DNS], _dns_dnsrecordcopyex, dns.dnsrecordcopyex, windns/DnsRecordCopyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

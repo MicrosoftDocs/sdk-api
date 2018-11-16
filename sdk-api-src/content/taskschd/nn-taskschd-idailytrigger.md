@@ -7,7 +7,7 @@ old-location: taskschd\idailytrigger.htm
 tech.root: TaskSchd
 ms.assetid: 9980ddb1-9873-46d2-8dea-bfc3fd78bba8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDailyTrigger, IDailyTrigger interface [Task Scheduler], IDailyTrigger interface [Task Scheduler],described, daily trigger [Task Scheduler],interface, taskschd.idailytrigger, taskschd/IDailyTrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

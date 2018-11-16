@@ -7,7 +7,7 @@ old-location: gdi\ptopenprovider.htm
 tech.root: printdocs
 ms.assetid: 6821b1b0-74b0-4caf-b8e6-a9df4d7693d7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: PTOpenProvider, PTOpenProvider function [Windows GDI], _win32_PTOpenProvider, gdi.ptopenprovider, prntvpt/PTOpenProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ A pointer to a handle for the provider.
 
 If the operation succeeds, the return value is S_OK, otherwise the <b>HRESULT</b> contains an error code.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: wcs\getps2colorrenderingintent.htm
 tech.root: WCS
 ms.assetid: 15fdaccc-1a24-4f8f-afed-0f9d141f116f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetPS2ColorRenderingIntent, GetPS2ColorRenderingIntent function [Windows Color System], _color_GetPS2ColorRenderingIntent, icm/GetPS2ColorRenderingIntent, wcs.getps2colorrenderingintent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,13 +84,6 @@ Points to a buffer in which the color rendering intent is to be placed. If the <
 
 
 ### -param pcbPS2ColorRenderingIntent
-
-TBD
-
-
-
-
-#### - pcbSize
 
 Points to a variable containing the buffer size in bytes. On return, this variable contains the number of bytes actually copied.
 

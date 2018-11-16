@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteBitmapRenderTarget_DrawGlyphRun.htm
 tech.root: DirectWrite
 ms.assetid: d766d2d1-6be7-468a-a10e-c7cab421b9a7
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct Write], DrawGlyphRun method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],DrawGlyphRun method, IDWriteBitmapRenderTarget.DrawGlyphRun, IDWriteBitmapRenderTarget::DrawGlyphRun, directwrite.IDWriteBitmapRenderTarget_DrawGlyphRun, dwrite/IDWriteBitmapRenderTarget::DrawGlyphRun
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,9 +133,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 You can use the <b>IDWriteBitmapRenderTarget::DrawGlyphRun</b> to render to a bitmap from a custom text renderer that you implement.  The custom text renderer should call this method from within the <a href="https://msdn.microsoft.com/95a0044c-dffd-4c6a-a6eb-2f87b02ef89a">IDWriteTextRenderer::DrawGlyphRun</a> callback method as shown in the following code.
 
-
-```cpp
-STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
     __maybenull void* clientDrawingContext,
     FLOAT baselineOriginX,
     FLOAT baselineOriginY,
@@ -150,23 +154,23 @@ STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
     // Pass on the drawing call to the render target to do the real work.
     RECT dirtyRect = {0};
 
-    hr = pRenderTarget_->DrawGlyphRun(
+    hr = pRenderTarget_-&gt;DrawGlyphRun(
         baselineOriginX,
         baselineOriginY,
         measuringMode,
         glyphRun,
         pRenderingParams_,
         RGB(0,200,255),
-        &dirtyRect
+        &amp;dirtyRect
         );
     
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>baselineOriginX</i>, <i>baslineOriginY</i>, <i>measuringMethod</i>, and <i>glyphRun</i> parameters are provided (as arguments) when the callback method is invoked.  The <i>renderingParams</i>, <i>textColor</i> and <i>blackBoxRect</i> are not.
 
 Default rendering params can be retrieved by using the <a href="https://msdn.microsoft.com/ddb6839a-9033-423a-a3f0-9352ec03e440">IDWriteFactory::CreateMonitorRenderingParams</a> method.

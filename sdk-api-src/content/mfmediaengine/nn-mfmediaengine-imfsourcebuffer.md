@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffer.htm
 tech.root: medfound
 ms.assetid: f241e232-9013-46d0-be97-2d6b5246cff3
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], IMFSourceBuffer interface [Media Foundation],described, mf.imfsourcebuffer, mfmediaengine/IMFSourceBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

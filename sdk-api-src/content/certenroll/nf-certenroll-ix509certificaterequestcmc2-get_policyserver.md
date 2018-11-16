@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcmc2_policyserver.htm
 tech.root: SecCertEnroll
 ms.assetid: 3a0aa790-c337-4033-a8fa-52f2b06ac005
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509CertificateRequestCmc2 interface [Security],PolicyServer property, IX509CertificateRequestCmc2.PolicyServer, IX509CertificateRequestCmc2.get_PolicyServer, IX509CertificateRequestCmc2::PolicyServer, IX509CertificateRequestCmc2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::PolicyServer, certenroll/IX509CertificateRequestCmc2::get_PolicyServer, get_PolicyServer, security.ix509certificaterequestcmc2_policyserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351617(v=VS.85).aspx">IX509CertificateRequestCmc2</a>
+<a href="https://msdn.microsoft.com/27edf846-472e-4a22-bd3c-88044a1fbd99">IX509CertificateRequestCmc2</a>
  
 
  

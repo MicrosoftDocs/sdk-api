@@ -4,10 +4,10 @@ title: ICEnroll::get_ProviderName
 author: windows-sdk-content
 description: The ProviderName property of ICEnroll4 sets or retrieves the name of the cryptographic service provider (CSP) to use.
 old-location: security\icenroll4_providername.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 092d5ed1-8d03-45d8-bc7a-3e27035f4b2f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CEnroll object [Security],ProviderName property, ICEnroll interface [Security],ProviderName property, ICEnroll.ProviderName, ICEnroll.get_ProviderName, ICEnroll2 interface [Security],ProviderName property, ICEnroll2.ProviderName, ICEnroll2::get_ProviderName, ICEnroll2::put_ProviderName, ICEnroll3 interface [Security],ProviderName property, ICEnroll3.ProviderName, ICEnroll3::get_ProviderName, ICEnroll3::put_ProviderName, ICEnroll4 interface [Security],ProviderName property, ICEnroll4.ProviderName, ICEnroll4::ProviderName, ICEnroll4::get_ProviderName, ICEnroll4::put_ProviderName, ICEnroll::get_ProviderName, ICEnroll::put_ProviderName, ProviderName property [Security], ProviderName property [Security],CEnroll object, ProviderName property [Security],ICEnroll interface, ProviderName property [Security],ICEnroll2 interface, ProviderName property [Security],ICEnroll3 interface, ProviderName property [Security],ICEnroll4 interface, get_ProviderName, security.icenroll4_providername, xenroll/ICEnroll2::ProviderName, xenroll/ICEnroll2::get_ProviderName, xenroll/ICEnroll2::put_ProviderName, xenroll/ICEnroll3::ProviderName, xenroll/ICEnroll3::get_ProviderName, xenroll/ICEnroll3::put_ProviderName, xenroll/ICEnroll4::ProviderName, xenroll/ICEnroll4::get_ProviderName, xenroll/ICEnroll4::put_ProviderName, xenroll/ICEnroll::ProviderName, xenroll/ICEnroll::get_ProviderName, xenroll/ICEnroll::put_ProviderName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,16 +105,20 @@ The <b>ProviderName</b> property affects the behavior of the following methods:
 
 #### Examples
 
-
-```cpp
-BSTR     bstrProvName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrProvName = NULL;
 BSTR     bstrMyProvName = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the ProviderName
-hr = pEnroll->get_ProviderName( &bstrProvName );
+hr = pEnroll-&gt;get_ProviderName( &amp;bstrProvName );
 if (FAILED( hr ))
     printf("Failed get_ProviderName - %x\n", hr );
 else
@@ -126,16 +130,16 @@ if ( NULL != bstrProvName )
 // set the ProviderName value
 bstrMyProvName = SysAllocString(TEXT("Microsoft Base DSS")
                                 TEXT(" Cryptographic Provider"));
-hr = pEnroll->put_ProviderName( bstrMyProvName );
+hr = pEnroll-&gt;put_ProviderName( bstrMyProvName );
 if (FAILED( hr ))
     printf("Failed put_ProviderName - %x\n", hr );
 else
     printf( "ProviderName set to %ws\n", bstrMyProvName );
 // free BSTR when done
 if ( NULL != bstrMyProvName )
-    SysFreeString( bstrMyProvName );
-```
-
-
+    SysFreeString( bstrMyProvName );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

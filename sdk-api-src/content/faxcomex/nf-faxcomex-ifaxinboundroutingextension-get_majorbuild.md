@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingext
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0eas.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],MajorBuild property, IFaxInboundRoutingExtension.MajorBuild, IFaxInboundRoutingExtension.get_MajorBuild, IFaxInboundRoutingExtension::MajorBuild, IFaxInboundRoutingExtension::get_MajorBuild, MajorBuild property [Fax Service], MajorBuild property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.majorbuild, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_majorbuild_cpp, fax._mfax_faxinboundroutingextension_majorbuild, faxcomex/IFaxInboundRoutingExtension::MajorBuild, faxcomex/IFaxInboundRoutingExtension::get_MajorBuild, get_MajorBuild
 ms.prod: windows-hardware
 ms.technology: windows-devices

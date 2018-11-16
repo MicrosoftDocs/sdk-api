@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectf.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: RectF, RectF class [GDI+], RectF class [GDI+],described, _gdiplus_CLASS_RectF_Class, gdiplus._gdiplus_CLASS_RectF_Class, gdiplustypes/RectF
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ A <b>RectF</b> object stores the upper-left corner, width, and height of a recta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534958(v=VS.85).aspx">RectF::RectF()</a>
+<a href="https://msdn.microsoft.com/2a0687cb-d21f-4279-94e5-ec2bf3630936">RectF::RectF()</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>RectF</b> object and initializes the 
@@ -75,12 +75,12 @@ Creates a <b>RectF</b> object and initializes the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534957(v=VS.85).aspx">RectF::RectF(PointF&,SizeF&)</a>
+<a href="https://msdn.microsoft.com/ba570d9e-d80b-4248-8e0b-3dea32945ace">RectF::RectF(PointF&,SizeF&)</a>
 </td>
 <td align="left" width="63%">
-Creates a <b>RectF</b> object by using a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object to initialize the 
+Creates a <b>RectF</b> object by using a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object to initialize the 
 			<b>X</b> and 
-			<b>Y</b> data members and uses a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object to initialize the 
+			<b>Y</b> data members and uses a <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a> object to initialize the 
 			<b>Width</b> and 
 			<b>Height</b> data members of this rectangle.
 
@@ -88,7 +88,7 @@ Creates a <b>RectF</b> object by using a <a href="https://msdn.microsoft.com/en-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534959(v=VS.85).aspx">RectF::RectF(REAL,REAL,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/72c43bb0-9ab5-47d0-af4f-f7c0882b6834">RectF::RectF(REAL,REAL,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>RectF</b> object by using four integers to initialize the 
@@ -108,10 +108,10 @@ Creates a <b>RectF</b> object by using four integers to initialize the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534932(v=VS.85).aspx">RectF::Clone</a>
+<a href="https://msdn.microsoft.com/6080802b-c484-465e-9fad-14ac7bebe5f3">RectF::Clone</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534932(v=VS.85).aspx">RectF::Clone</a> method creates a new 
+The <a href="https://msdn.microsoft.com/6080802b-c484-465e-9fad-14ac7bebe5f3">RectF::Clone</a> method creates a new 
 			<b>RectF</b> object and initializes it with the contents of this 
 			<b>RectF</b> object.
 
@@ -119,109 +119,109 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534932(v=VS.85).aspx">Re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534955(v=VS.85).aspx">RectF::Contains(PointF&)</a>
+<a href="https://msdn.microsoft.com/adeb5a20-1ef0-4811-a16a-3e9d06c05cf7">RectF::Contains(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534955(v=VS.85).aspx">RectF::Contains</a> method determines whether a point is inside this rectangle.
+The <a href="https://msdn.microsoft.com/adeb5a20-1ef0-4811-a16a-3e9d06c05cf7">RectF::Contains</a> method determines whether a point is inside this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534956(v=VS.85).aspx">RectF::Contains(REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/6aa28593-4692-44e9-984c-fd25b519dd14">RectF::Contains(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534956(v=VS.85).aspx">RectF::Contains</a> method determines whether the point (<i>x</i>, <i>y</i>) is inside this rectangle.
+The <a href="https://msdn.microsoft.com/6aa28593-4692-44e9-984c-fd25b519dd14">RectF::Contains</a> method determines whether the point (<i>x</i>, <i>y</i>) is inside this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534954(v=VS.85).aspx">RectF::Contains(RectF&)</a>
+<a href="https://msdn.microsoft.com/f27723a8-173b-4eb9-b003-d74e9cb16154">RectF::Contains(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534954(v=VS.85).aspx">RectF::Contains</a> method determines whether another rectangle is inside this rectangle.
+The <a href="https://msdn.microsoft.com/f27723a8-173b-4eb9-b003-d74e9cb16154">RectF::Contains</a> method determines whether another rectangle is inside this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534933(v=VS.85).aspx">RectF::Equals</a>
+<a href="https://msdn.microsoft.com/c7381200-c2d4-45c2-a388-68b9efd510f7">RectF::Equals</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534933(v=VS.85).aspx">RectF::Equals</a> method determines whether two rectangles are the same. 
+The <a href="https://msdn.microsoft.com/c7381200-c2d4-45c2-a388-68b9efd510f7">RectF::Equals</a> method determines whether two rectangles are the same. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534934(v=VS.85).aspx">RectF::GetBottom</a>
+<a href="https://msdn.microsoft.com/c511582e-53d2-4857-a1dd-8cacbc46cbf3">RectF::GetBottom</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534934(v=VS.85).aspx">RectF::GetBottom</a> method gets the y-coordinate of the bottom edge of the rectangle.
+The <a href="https://msdn.microsoft.com/c511582e-53d2-4857-a1dd-8cacbc46cbf3">RectF::GetBottom</a> method gets the y-coordinate of the bottom edge of the rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534935(v=VS.85).aspx">RectF::GetBounds</a>
+<a href="https://msdn.microsoft.com/7287b87d-7022-49db-a216-b20f54c18809">RectF::GetBounds</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534935(v=VS.85).aspx">RectF::GetBounds</a> method makes a copy of this rectangle.
+The <a href="https://msdn.microsoft.com/7287b87d-7022-49db-a216-b20f54c18809">RectF::GetBounds</a> method makes a copy of this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534936(v=VS.85).aspx">RectF::GetLeft</a>
+<a href="https://msdn.microsoft.com/0c6c814c-9663-4c7f-8230-a97409813c2a">RectF::GetLeft</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534936(v=VS.85).aspx">RectF::GetLeft</a> method gets the x-coordinate of the left edge of the rectangle.
+The <a href="https://msdn.microsoft.com/0c6c814c-9663-4c7f-8230-a97409813c2a">RectF::GetLeft</a> method gets the x-coordinate of the left edge of the rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534937(v=VS.85).aspx">RectF::GetLocation</a>
+<a href="https://msdn.microsoft.com/4b7a6b31-b481-4c63-8ad9-a2f7c19dcf23">RectF::GetLocation</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534937(v=VS.85).aspx">RectF::GetLocation</a> method gets the coordinates of the upper-left corner of this rectangle.
+The <a href="https://msdn.microsoft.com/4b7a6b31-b481-4c63-8ad9-a2f7c19dcf23">RectF::GetLocation</a> method gets the coordinates of the upper-left corner of this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534938(v=VS.85).aspx">RectF::GetRight</a>
+<a href="https://msdn.microsoft.com/410d35bc-3348-42fb-8fba-dbcdfac8b9a1">RectF::GetRight</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534938(v=VS.85).aspx">RectF::GetRight</a> method gets the x-coordinate of the right edge of the rectangle.
+The <a href="https://msdn.microsoft.com/410d35bc-3348-42fb-8fba-dbcdfac8b9a1">RectF::GetRight</a> method gets the x-coordinate of the right edge of the rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534939(v=VS.85).aspx">RectF::GetSize</a>
+<a href="https://msdn.microsoft.com/35c271c7-742c-451e-9978-7fe7368a717a">RectF::GetSize</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534939(v=VS.85).aspx">RectF::GetSize</a> method gets the width and height of this rectangle.
+The <a href="https://msdn.microsoft.com/35c271c7-742c-451e-9978-7fe7368a717a">RectF::GetSize</a> method gets the width and height of this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534940(v=VS.85).aspx">RectF::GetTop</a>
+<a href="https://msdn.microsoft.com/9cfcb80b-6195-4eab-b319-cfb57cd294fc">RectF::GetTop</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534940(v=VS.85).aspx">RectF::GetTop</a> method gets the y-coordinate of the top edge of the rectangle.
+The <a href="https://msdn.microsoft.com/9cfcb80b-6195-4eab-b319-cfb57cd294fc">RectF::GetTop</a> method gets the y-coordinate of the top edge of the rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">RectF::Inflate(PointF&)</a>
+<a href="https://msdn.microsoft.com/bb5015a9-e0a5-4a17-9526-6e5c7968d275">RectF::Inflate(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">RectF::Inflate</a> method expands the rectangle by the value of 
+The <a href="https://msdn.microsoft.com/bb5015a9-e0a5-4a17-9526-6e5c7968d275">RectF::Inflate</a> method expands the rectangle by the value of 
 			<i>point</i>.<b>X</b> on the left and right edges, and by the value of 
 			<i>point</i>.<b>Y</b> on the top and bottom edges.
 
@@ -229,10 +229,10 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">Re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">RectF::Inflate(REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/b865a13e-b95d-4a07-9003-9821c878fb7b">RectF::Inflate(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">RectF::Inflate</a> method expands the rectangle by 
+The <a href="https://msdn.microsoft.com/b865a13e-b95d-4a07-9003-9821c878fb7b">RectF::Inflate</a> method expands the rectangle by 
 			<i>dx</i> on the left and right edges, and by 
 			<i>dy</i> on the top and bottom edges.
 
@@ -240,47 +240,47 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">Re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534950(v=VS.85).aspx">RectF::Intersect(RectF&)</a>
+<a href="https://msdn.microsoft.com/6472A5EF-768E-4114-8BB0-CF641DD5337D">RectF::Intersect(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534950(v=VS.85).aspx">RectF::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
+The <a href="https://msdn.microsoft.com/6472A5EF-768E-4114-8BB0-CF641DD5337D">RectF::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534951(v=VS.85).aspx">RectF::Intersect(RectF&,RectF&,RectF&)</a>
+<a href="https://msdn.microsoft.com/94375436-B522-454F-A66E-1D3B99CDCCF7">RectF::Intersect(RectF&,RectF&,RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534951(v=VS.85).aspx">RectF::Intersect</a> method determines the intersection of two rectangles and stores the result in a 
+The <a href="https://msdn.microsoft.com/94375436-B522-454F-A66E-1D3B99CDCCF7">RectF::Intersect</a> method determines the intersection of two rectangles and stores the result in a 
 			<b>RectF</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534941(v=VS.85).aspx">RectF::IntersectsWith</a>
+<a href="https://msdn.microsoft.com/66b28920-fee3-49ee-b919-a9792197499c">RectF::IntersectsWith</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534941(v=VS.85).aspx">RectF::IntersectsWith</a> method determines whether this rectangle intersects another rectangle.
+The <a href="https://msdn.microsoft.com/66b28920-fee3-49ee-b919-a9792197499c">RectF::IntersectsWith</a> method determines whether this rectangle intersects another rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534942(v=VS.85).aspx">RectF::IsEmptyArea</a>
+<a href="https://msdn.microsoft.com/77a6f4b9-1e4c-4258-9489-5a26b6e7e566">RectF::IsEmptyArea</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534942(v=VS.85).aspx">RectF::IsEmptyArea</a> method determines whether this rectangle is empty.
+The <a href="https://msdn.microsoft.com/77a6f4b9-1e4c-4258-9489-5a26b6e7e566">RectF::IsEmptyArea</a> method determines whether this rectangle is empty.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534948(v=VS.85).aspx">RectF::Offset(PointF&)</a>
+<a href="https://msdn.microsoft.com/DEDAC79D-94D3-4A7F-9FD0-E892CF027697">RectF::Offset(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534948(v=VS.85).aspx">RectF::Offset</a> method moves this rectangle horizontally a distance of 
+The <a href="https://msdn.microsoft.com/DEDAC79D-94D3-4A7F-9FD0-E892CF027697">RectF::Offset</a> method moves this rectangle horizontally a distance of 
 			<i>point</i>.<b>X</b> and vertically a distance of 
 			<i>point</i>.<b>Y</b>.
 
@@ -288,10 +288,10 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534948(v=VS.85).aspx">Re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534949(v=VS.85).aspx">RectF::Offset(REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/F4FB5146-7D9E-4DF1-BE00-FDD90D3C82AE">RectF::Offset(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534949(v=VS.85).aspx">RectF::Offset</a> method moves the rectangle by 
+The <a href="https://msdn.microsoft.com/F4FB5146-7D9E-4DF1-BE00-FDD90D3C82AE">RectF::Offset</a> method moves the rectangle by 
 			<i>dx</i> horizontally and by 
 			<i>dx</i> vertically.
 
@@ -299,10 +299,10 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534949(v=VS.85).aspx">Re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534947(v=VS.85).aspx">RectF::Union</a>
+<a href="https://msdn.microsoft.com/82dbe9ea-62ea-4838-961e-f947b84a7a28">RectF::Union</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534947(v=VS.85).aspx">RectF::Union</a> method determines the union of two rectangles and stores the result in a 
+The <a href="https://msdn.microsoft.com/82dbe9ea-62ea-4838-961e-f947b84a7a28">RectF::Union</a> method determines the union of two rectangles and stores the result in a 
 			<b>RectF</b> object. 
 
 </td>

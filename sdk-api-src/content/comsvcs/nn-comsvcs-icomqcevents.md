@@ -7,7 +7,7 @@ old-location: cos\icomqcevents.htm
 tech.root: cossdk
 ms.assetid: d7c8220d-a302-4f95-b0b6-8d47f9f27da7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IComQCEvents, IComQCEvents interface [COM+], IComQCEvents interface [COM+],described, _dtc_IComQCEvents, comsvcs/IComQCEvents, cos.icomqcevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,14 +50,14 @@ req.redist:
 ## -description
 
 
-Notifies the subscriber if a queued message is created, de-queued, or moved to a retry or dead letter queue. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber if a queued message is created, de-queued, or moved to a retry or dead letter queue. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComQCEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IComQCEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComQCEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IComQCEvents</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IComQCEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681304(v=VS.85).aspx">OnQCMoveToDeadQueue</a>
+<a href="https://msdn.microsoft.com/54117583-4e8d-4ae9-8262-781f5f81636d">OnQCMoveToDeadQueue</a>
 </td>
 <td align="left" width="63%">
 Generated when a message is moved to the dead letter queue and cannot be delivered.
@@ -79,7 +79,7 @@ Generated when a message is moved to the dead letter queue and cannot be deliver
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686879(v=VS.85).aspx">OnQCMoveToReTryQueue</a>
+<a href="https://msdn.microsoft.com/d8f2af02-852d-4e36-9e0c-4919e2fba4a1">OnQCMoveToReTryQueue</a>
 </td>
 <td align="left" width="63%">
 Generated when a message is moved to a queued components retry queue.
@@ -88,7 +88,7 @@ Generated when a message is moved to a queued components retry queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683268(v=VS.85).aspx">OnQCPlayback</a>
+<a href="https://msdn.microsoft.com/7cd9daf8-cc4d-4d48-b547-95b370f5a927">OnQCPlayback</a>
 </td>
 <td align="left" width="63%">
 Generated when a messages contents are replayed.
@@ -97,7 +97,7 @@ Generated when a messages contents are replayed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683396(v=VS.85).aspx">OnQCQueueOpen</a>
+<a href="https://msdn.microsoft.com/7dcd1726-650a-4bb5-ae12-48c6989e1692">OnQCQueueOpen</a>
 </td>
 <td align="left" width="63%">
 Generated when a queued components queue is opened.
@@ -106,7 +106,7 @@ Generated when a queued components queue is opened.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686776(v=VS.85).aspx">OnQCReceive</a>
+<a href="https://msdn.microsoft.com/d4404fad-c656-4cbf-90d1-a09a7162a38f">OnQCReceive</a>
 </td>
 <td align="left" width="63%">
 Generated when a message is successfully de-queued even though the queued components service might find something wrong with the contents.
@@ -115,7 +115,7 @@ Generated when a message is successfully de-queued even though the queued compon
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679256(v=VS.85).aspx">OnQCReceiveFail</a>
+<a href="https://msdn.microsoft.com/21d685ce-b65f-4d13-b653-e6c6d1afa704">OnQCReceiveFail</a>
 </td>
 <td align="left" width="63%">
 Generated when the receive message fails.
@@ -124,7 +124,7 @@ Generated when the receive message fails.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms682210(v=VS.85).aspx">OnQCRecord</a>
+<a href="https://msdn.microsoft.com/6a7ff5ac-df0f-4aea-b6f1-813c7e22e6c2">OnQCRecord</a>
 </td>
 <td align="left" width="63%">
 Generated when the queued components recorder creates the queued message.
@@ -139,15 +139,15 @@ Generated when the queued components recorder creates the queued message.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a>
+<a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678896(v=VS.85).aspx">COM+ Instrumentation</a>
+<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683468(v=VS.85).aspx">COM+ Queued Components</a>
+<a href="https://msdn.microsoft.com/810305ad-c7fb-4627-8ca7-de37c5bef2f5">COM+ Queued Components</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dshow\iqualprop_get_jitter.htm
 tech.root: DirectShow
 ms.assetid: e1f6e93f-58d6-41b4-b16f-e9f02bfec0fe
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IQualProp interface [DirectShow],get_Jitter method, IQualProp.get_Jitter, IQualProp::get_Jitter, IQualPropget_Jitter, amvideo/IQualProp::get_Jitter, dshow.iqualprop_get_jitter, get_Jitter, get_Jitter method [DirectShow], get_Jitter method [DirectShow],IQualProp interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,13 +68,6 @@ The <b>get_Jitter</b> method gets the jitter (variation in time) between success
 
 
 ### -param iJitter
-
-TBD
-
-
-
-
-#### - piJitter
 
 Receives the standard deviation of the interframe time, in milliseconds.
 

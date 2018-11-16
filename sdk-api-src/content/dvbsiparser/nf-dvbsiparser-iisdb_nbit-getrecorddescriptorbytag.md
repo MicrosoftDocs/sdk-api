@@ -4,10 +4,10 @@ title: IISDB_NBIT::GetRecordDescriptorByTag
 author: windows-sdk-content
 description: Gets a descriptor from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT) by using the standard tag for the descriptor.
 old-location: mstv\iisdb_nbit_getrecorddescriptorbytag.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: baec7c6a-67a7-4081-96ee-3cb35a72ff4e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IISDB_NBIT.GetRecordDescriptorByTag, IISDB_NBIT::GetRecordDescriptorByTag, dvbsiparser/IISDB_NBIT::GetRecordDescriptorByTag, mstv.iisdb_nbit_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

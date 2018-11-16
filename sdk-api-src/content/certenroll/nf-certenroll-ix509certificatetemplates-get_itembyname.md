@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplates_itembyname.htm
 tech.root: SecCertEnroll
 ms.assetid: ceaf2274-01e6-422b-8762-a0527e9b9d57
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509CertificateTemplates interface [Security],ItemByName property, IX509CertificateTemplates.ItemByName, IX509CertificateTemplates.get_ItemByName, IX509CertificateTemplates::ItemByName, IX509CertificateTemplates::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByName, certenroll/IX509CertificateTemplates::get_ItemByName, get_ItemByName, security.ix509certificatetemplates_itembyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>ItemByName</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> object from the collection by name. This property is web enabled.
+The <b>ItemByName</b> property retrieves an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object from the collection by name. This property is web enabled.
 
 This property is read-only.
 
@@ -72,11 +72,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a>
+<a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351665(v=VS.85).aspx">IX509CertificateTemplates</a>
+<a href="https://msdn.microsoft.com/82d14b93-e07b-4ff3-88b9-b1873972b4ad">IX509CertificateTemplates</a>
  
 
  

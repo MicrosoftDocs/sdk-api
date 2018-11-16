@@ -7,7 +7,7 @@ old-location: dshow\imediaparams_addenvelope.htm
 tech.root: DirectShow
 ms.assetid: acf7c96c-ce0c-40d0-b4a1-dd571fa2a514
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: AddEnvelope, AddEnvelope method [DirectShow], AddEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],AddEnvelope method, IMediaParams.AddEnvelope, IMediaParams::AddEnvelope, IMediaParamsAddEnvelope, dshow.imediaparams_addenvelope, medparam/IMediaParams::AddEnvelope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,24 +75,12 @@ The <code>AddEnvelope</code> method adds an envelope to a parameter.
 Zero-based index of the parameter, or DWORD_ALLPARAMS to add the envelope to every parameter.
 
 
-### -param cSegments
-
-TBD
-
-
-### -param pEnvelopeSegments
-
-TBD
-
-
-
-
-#### - cPoints [in]
+### -param cSegments [in]
 
 Number of segments in the envelope.
 
 
-#### - pEnvelope [in]
+### -param pEnvelopeSegments [in]
 
 Pointer to an array of <a href="https://msdn.microsoft.com/b7386b63-c563-42dd-851c-780bf1043f65">MP_ENVELOPE_SEGMENT</a> structures that define the envelope segments. The size of the array is given in the <i>cPoints</i> parameter.
 
@@ -171,9 +159,13 @@ To enumerate the parameters supported by this object, along with their index val
 
 The following code sets two envelope segments, both using a linear function.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define MSEC 10000  // One millisecond
 
 // Define an array with two segments. Note the segments appear in 
@@ -201,11 +193,11 @@ MP_ENVELOPE_SEGMENT Segments[] =
 DWORD cSegments = sizeof(Segments) / sizeof(Segments[0]);
 DWORD dwParam = 0;  // Which parameter to set.
 
-hr = pMediaParams->AddEnvelope(dwParam, cSegments, Segments);
-
-```
-
-
+hr = pMediaParams-&gt;AddEnvelope(dwParam, cSegments, Segments);
+</pre>
+</td>
+</tr>
+</table></span></div>
 This example assumes that the caller has previous used the <b>IMediaParamInfo</b> interface to query whether the DMO supports the MP_CURVE_LINEAR curve for that parameter.
 
 <div class="code"></div>

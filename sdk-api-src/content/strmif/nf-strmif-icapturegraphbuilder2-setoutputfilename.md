@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder2_setoutputfilename.htm
 tech.root: DirectShow
 ms.assetid: b81a79c1-a6f2-4c80-ae86-095fb9f78673
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder2.SetOutputFileName, ICaptureGraphBuilder2::SetOutputFileName, ICaptureGraphBuilder2SetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_setoutputfilename, strmif/ICaptureGraphBuilder2::SetOutputFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,9 +93,9 @@ Pointer to a <b>GUID</b> that represents either the media subtype of the output 
  
 
 
-### -param lpstrFile
+### -param lpstrFile [in]
 
-TBD
+Pointer to a wide-character string that contains the output file name.
 
 
 ### -param ppf [out]
@@ -103,19 +103,7 @@ TBD
 Address of a pointer that receives the multiplexer's <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> interface.
 
 
-### -param ppSink
-
-TBD
-
-
-
-
-#### - lpwstrFile [in]
-
-Pointer to a wide-character string that contains the output file name.
-
-
-#### - pSink [out]
+### -param ppSink [out]
 
 Address of a pointer that receives the file writer's <a href="https://msdn.microsoft.com/aa1d3f8e-9790-4442-ba7e-896981bf1b96">IFileSinkFilter</a> interface. Can be <b>NULL</b>.
 

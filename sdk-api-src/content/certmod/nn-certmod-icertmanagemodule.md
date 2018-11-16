@@ -4,10 +4,10 @@ title: ICertManageModule
 author: windows-sdk-content
 description: Provided to retrieve information about a Certificate Services Policy or Exit module.
 old-location: security\icertmanagemodule.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 82b7b770-c098-40da-8a4e-8eb0e0b8a645
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ICertManageModule, ICertManageModule interface [Security], ICertManageModule interface [Security],described, _certsrv_icertmanagemodule, certmod/ICertManageModule, security.icertmanagemodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,15 +52,15 @@ req.redist:
 
 
 The <b>ICertManageModule</b> interface is provided to retrieve information about a Certificate Services 
-<a href="https://msdn.microsoft.com/en-us/library/Aa387348(v=VS.85).aspx">Policy</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/Aa382386(v=VS.85).aspx">Exit</a> module.
+<a href="https://msdn.microsoft.com/23d920ea-af62-42ce-ad48-c7a03ab55fc9">Policy</a> or 
+<a href="https://msdn.microsoft.com/5e7ee1f4-7e07-4a08-8e72-89b449804bc2">Exit</a> module.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertManageModule</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertManageModule</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertManageModule</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertManageModule</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>ICertManageModule</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385030(v=VS.85).aspx">Configure</a>
+<a href="https://msdn.microsoft.com/dc54cda9-1818-40af-9005-f31ad3c110c4">Configure</a>
 </td>
 <td align="left" width="63%">
 Invokes module configuration user interface.
@@ -82,7 +82,7 @@ Invokes module configuration user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385031(v=VS.85).aspx">GetProperty</a>
+<a href="https://msdn.microsoft.com/f01bfcec-7031-4283-a847-0d59929e4ee5">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a property in the module.
@@ -91,7 +91,7 @@ Retrieves the value of a property in the module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385032(v=VS.85).aspx">SetProperty</a>
+<a href="https://msdn.microsoft.com/582ace4a-da88-41b7-86dd-d6a74fc9e97a">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Assigns a value to a property in the module.
@@ -105,7 +105,7 @@ Assigns a value to a property in the module.
 
 
 
-The <b>ICertManageModule</b> interface provides a method to invoke the module user interface for setting and viewing configuration settings. Writers of Policy and Exit modules should implement the <b>ICertManageModule</b> interface (in addition to the <a href="https://msdn.microsoft.com/en-us/library/Aa385033(v=VS.85).aspx">ICertPolicy</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa385021(v=VS.85).aspx">ICertExit</a> interfaces, respectively). An enterprise <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) should always use the Microsoft-provided enterprise policy and exit modules; additional exit modules are permitted for enterprise CAs.
+The <b>ICertManageModule</b> interface provides a method to invoke the module user interface for setting and viewing configuration settings. Writers of Policy and Exit modules should implement the <b>ICertManageModule</b> interface (in addition to the <a href="https://msdn.microsoft.com/14031490-be8e-47f9-8c66-ae27f7d3599c">ICertPolicy</a> and <a href="https://msdn.microsoft.com/731c4f3c-20b4-4f3d-8241-a94cdf656fe5">ICertExit</a> interfaces, respectively). An enterprise <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) should always use the Microsoft-provided enterprise policy and exit modules; additional exit modules are permitted for enterprise CAs.
 
 The following is an example of what could be used in the DECLARE_REGISTRY macro of a class (CMyCertManagePolicyModule) which implements <b>ICertManageModule</b>.
 

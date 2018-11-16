@@ -4,10 +4,10 @@ title: ControlTraceW function
 author: windows-sdk-content
 description: The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.
 old-location: etw\controltrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: c39f669c-ff40-40ed-ba47-798474ec2de4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ControlTrace, ControlTrace function [ETW], ControlTraceA, ControlTraceW, EVENT_TRACE_CONTROL_FLUSH, EVENT_TRACE_CONTROL_QUERY, EVENT_TRACE_CONTROL_STOP, EVENT_TRACE_CONTROL_UPDATE, _evt_controltrace, base.controltrace, etw.controltrace, evntrace/ControlTrace, evntrace/ControlTraceA, evntrace/ControlTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,23 @@ The <b>ControlTrace</b> function flushes, queries, updates, or
 
 
 
-### -param TraceHandle
+### -param TraceHandle [in]
 
-TBD
+Handle to an event tracing session, or <b>NULL</b>. You must specify 
+      <i>SessionHandle</i> if <i>SessionName</i> is 
+      <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not 
+      <b>NULL</b>. The handle is returned by the 
+      <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function.
 
 
-### -param InstanceName
+### -param InstanceName [in]
 
-TBD
+Name of an event tracing session, or <b>NULL</b>. You must specify 
+      <i>SessionName</i> if <i>SessionHandle</i> is 
+      <b>NULL</b>. 
+
+To specify the NT Kernel Logger session, set <i>SessionName</i> to 
+      <b>KERNEL_LOGGER_NAME</b>.
 
 
 ### -param Properties [in, out]
@@ -210,25 +219,6 @@ Updates the session properties.
  
 
 Note that it is not safe to flush buffers or stop a trace session from DllMain.
-
-
-#### - SessionHandle [in]
-
-Handle to an event tracing session, or <b>NULL</b>. You must specify 
-      <i>SessionHandle</i> if <i>SessionName</i> is 
-      <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not 
-      <b>NULL</b>. The handle is returned by the 
-      <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function.
-
-
-#### - SessionName [in]
-
-Name of an event tracing session, or <b>NULL</b>. You must specify 
-      <i>SessionName</i> if <i>SessionHandle</i> is 
-      <b>NULL</b>. 
-
-To specify the NT Kernel Logger session, set <i>SessionName</i> to 
-      <b>KERNEL_LOGGER_NAME</b>.
 
 
 ## -returns

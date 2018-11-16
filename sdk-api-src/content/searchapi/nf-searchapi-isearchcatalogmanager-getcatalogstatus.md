@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_GetCatalogStatus.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getcatalogstatus.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetCatalogStatus, GetCatalogStatus method [search], GetCatalogStatus method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetCatalogStatus method, ISearchCatalogManager.GetCatalogStatus, ISearchCatalogManager::GetCatalogStatus, _search_ISearchCatalogManager_GetCatalogStatus, search._search_ISearchCatalogManager_GetCatalogStatus, searchapi/ISearchCatalogManager::GetCatalogStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,16 +68,16 @@ Gets the status of the catalog.
 
 ### -param pStatus [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965689(v=VS.85).aspx">CatalogStatus</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/33e57e0a-d59b-46b9-8f3b-edb7405020ad">CatalogStatus</a>*</b>
 
-Receives a pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965689(v=VS.85).aspx">CatalogStatus</a> enumeration. If <i>pStatus</i> is <i>CATALOG_STATUS_PAUSED</i>, further information can be obtained from the <i>pPausedReason</i> parameter.
+Receives a pointer to a value from the <a href="https://msdn.microsoft.com/33e57e0a-d59b-46b9-8f3b-edb7405020ad">CatalogStatus</a> enumeration. If <i>pStatus</i> is <i>CATALOG_STATUS_PAUSED</i>, further information can be obtained from the <i>pPausedReason</i> parameter.
 
 
 ### -param pPausedReason [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965688(v=VS.85).aspx">CatalogPausedReason</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/d3f31eab-b587-41f8-9d47-779773e53058">CatalogPausedReason</a>*</b>
 
-Receives a pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965688(v=VS.85).aspx">CatalogPausedReason</a> enumeration describing why the catalog is paused. If the catalog status is not <i>CATALOG_STATUS_PAUSED</i>, this parameter receives the value <i>CATALOG_PAUSED_REASON_NONE</i>.
+Receives a pointer to a value from the <a href="https://msdn.microsoft.com/d3f31eab-b587-41f8-9d47-779773e53058">CatalogPausedReason</a> enumeration describing why the catalog is paused. If the catalog status is not <i>CATALOG_STATUS_PAUSED</i>, this parameter receives the value <i>CATALOG_PAUSED_REASON_NONE</i>.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: ITQOSEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the ITCallInfo interface for the call on which the QOS event occurred.
 old-location: tapi3\itqosevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e91772da-948a-4d0a-999e-cdd51951fca2
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITQOSEvent interface [TAPI 2.2],get_Call method, ITQOSEvent.get_Call, ITQOSEvent::get_Call, _tapi3_itqosevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITQOSEvent interface, tapi3.itqosevent_get_call, tapi3if/ITQOSEvent::get_Call
 ms.prod: windows-hardware
 ms.technology: windows-devices

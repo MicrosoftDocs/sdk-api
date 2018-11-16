@@ -7,7 +7,7 @@ old-location: shell\IHomeGroup_IsMember.htm
 tech.root: shell
 ms.assetid: 9ce98b11-46fd-4168-828d-a5ba8f71b7c9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IHomeGroup interface [Windows Shell],IsMember method, IHomeGroup.IsMember, IHomeGroup::IsMember, IsMember, IsMember method [Windows Shell], IsMember method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_IsMember, shell.IHomeGroup_IsMember, shobjidl_core/IHomeGroup::IsMember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,7 +131,7 @@ hr = spHomeGroup-&gt;IsMember(&amp;fIsHGMember);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/ezzw7k98(v=VS.100).aspx">CComPtr</a>
+<a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a>
 
 
 

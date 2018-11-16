@@ -7,7 +7,7 @@ old-location: base\ivdslun_setmask.htm
 tech.root: VDS
 ms.assetid: b7e841cc-95b4-452f-ac14-d7063fe6a694
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsLun interface [VDS],SetMask method, IVdsLun.SetMask, IVdsLun::SetMask, SetMask, SetMask method [VDS], SetMask method [VDS],IVdsLun interface, base.ivdslun_setmask, vds/IVdsLun::SetMask, vdshwprv/IVdsLun::SetMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,7 @@ This method can return standard <b>HRESULT</b> values, such as
       <b>E_INVALIDARG</b> or <b>E_OUTOFMEMORY</b>, and 
       <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It 
       can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> using 
-      the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate 
+      the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate 
       from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is 
       being used. Possible return values include the following.
 
@@ -207,7 +207,7 @@ Before calling the <b>SetMask</b> method to mask a LUN,
          <a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a> structure for each volume. The 
          <b>id</b> member of this structure contains the volume <b>GUID</b>. 
          The <b>pwszName</b> member contains the volume name to be passed to 
-         <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> to obtain a volume handle.</li>
+         <a href="base.createfile">CreateFile</a> to obtain a volume handle.</li>
 <li>Use the volume GUIDs that were obtained by calling 
          <a href="https://msdn.microsoft.com/2e7de42f-da7a-41a7-b38e-849ab8d72ab2">IVdsDisk::QueryExtents</a> to determine which of 
          the volume names you will need from the list of enumerated volumes.</li>

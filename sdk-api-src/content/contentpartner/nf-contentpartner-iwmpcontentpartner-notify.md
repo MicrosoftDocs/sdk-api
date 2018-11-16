@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_notify.htm
 tech.root: WMP
 ms.assetid: 9464ce82-cd84-4a35-83d2-e46198c0c1e7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],Notify method, IWMPContentPartner.Notify, IWMPContentPartner::Notify, IWMPContentPartnerNotify, Notify, Notify method [Windows Media Player], Notify method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::Notify, wmp.iwmpcontentpartner_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ The <b>Notify</b> method provides the content partner plug-in with event notific
 
 ### -param type [in]
 
-The notification type, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd564879(v=VS.85).aspx">WMPPartnerNotification</a> enumeration.
+The notification type, specified as a member of the <a href="https://msdn.microsoft.com/a9292277-5283-41b8-86a6-f7059aa38a69">WMPPartnerNotification</a> enumeration.
 
 
 ### -param pContext [in]
@@ -123,11 +123,11 @@ The data type for <i>pContext</i> is <b>VT_EMPTY</b> for all notifications excep
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564879(v=VS.85).aspx">WMPPartnerNotification</a>
+<a href="https://msdn.microsoft.com/a9292277-5283-41b8-86a6-f7059aa38a69">WMPPartnerNotification</a>
  
 
  

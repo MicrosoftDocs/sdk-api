@@ -7,7 +7,7 @@ old-location: wmi\iwbemconfigurerefresher.htm
 tech.root: WmiSdk
 ms.assetid: 9dd56891-5f2f-4b0e-9f70-fd75cb9bbd43
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IWbemConfigureRefresher, IWbemConfigureRefresher interface [Windows Management Instrumentation], IWbemConfigureRefresher interface [Windows Management Instrumentation],described, _hmm_iwbemconfigurerefresher, wbemcli/IWbemConfigureRefresher, wmi.iwbemconfigurerefresher
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,7 @@ The
 Users and providers should never implement this interface. The implementation provided by WMI is the only one that is supported.
 
 By providing a native implementation of this interface, WMI allows client code to easily configure refreshers. You can access the 
-<b>IWbemConfigureRefresher</b> interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> on <b>IID_IWbemConfigureRefresher</b> on the object returned by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> on <b>CLSID_WbemRefresher</b>.
+<b>IWbemConfigureRefresher</b> interface by calling <a href="_com_iunknown_queryinterface">QueryInterface</a> on <b>IID_IWbemConfigureRefresher</b> on the object returned by calling <a href="_com_cocreateinstance">CoCreateInstance</a> on <b>CLSID_WbemRefresher</b>.
 
 
 ## -inheritance

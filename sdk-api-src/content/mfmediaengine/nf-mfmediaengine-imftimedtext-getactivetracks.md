@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_getactivetracks.htm
 tech.root: medfound
 ms.assetid: DF9EEFD2-E699-4251-9769-D1F940938D45
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetActiveTracks, GetActiveTracks method [Media Foundation], GetActiveTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetActiveTracks method, IMFTimedText.GetActiveTracks, IMFTimedText::GetActiveTracks, mf.imftimedtext_getactivetracks, mfmediaengine/IMFTimedText::GetActiveTracks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Gets the list of active timed-text tracks in the timed-text component.
 
 
 
-### -param activeTracks
-
-TBD
-
-
-
-
-#### - ppActiveTracks [out]
+### -param activeTracks [out]
 
 Type: <b><a href="https://msdn.microsoft.com/EA94A81E-3B1D-4723-B00F-B216991E19E5">IMFTimedTextTrackList</a>**</b>
 

@@ -7,7 +7,7 @@ old-location: security\icspstatus_displayname.htm
 tech.root: SecCertEnroll
 ms.assetid: 7c778f78-1e94-4e84-a51a-3c0171f19db6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DisplayName property [Security], DisplayName property [Security],ICspStatus interface, ICspStatus interface [Security],DisplayName property, ICspStatus.DisplayName, ICspStatus.get_DisplayName, ICspStatus::DisplayName, ICspStatus::get_DisplayName, certenroll/ICspStatus::DisplayName, certenroll/ICspStatus::get_DisplayName, get_DisplayName, security.icspstatus_displayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-The format of the string returned by this property depends on whether the provider is a CryptoAPI <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service provider</a> (CSP) or a Cryptography API: Next Generation (CNG) provider.<ul>
+The format of the string returned by this property depends on whether the provider is a CryptoAPI <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) or a Cryptography API: Next Generation (CNG) provider.<ul>
 <li>The format of the string for a CSP is <i>ProviderName(KeyType)</i> where <i>KeyType</i> is either "Signature" or "Encryption".</li>
 <li>The format of the string for a CNG provider is <i>AlgorithmName,ProviderName</i> where <i>AlgorithmName</i> can be "Unknown Algorithm".</li>
 </ul>
@@ -85,11 +85,11 @@ The format of the string returned by this property depends on whether the provid
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a>
+<a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a>
+<a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a>
  
 
  

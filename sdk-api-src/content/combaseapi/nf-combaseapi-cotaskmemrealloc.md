@@ -92,9 +92,9 @@ If the function succeeds, it returns the reallocated memory block. Otherwise, it
 
 
 
-This function changes the size of a previously allocated memory block in the same way that <a href="https://msdn.microsoft.com/en-us/library/ms680614(v=VS.85).aspx">IMalloc::Realloc</a> does. It is not necessary to call the <a href="https://msdn.microsoft.com/en-us/library/ms693395(v=VS.85).aspx">CoGetMalloc</a> function to get a pointer to the OLE allocator before calling <b>CoTaskMemRealloc</b>.
+This function changes the size of a previously allocated memory block in the same way that <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a> does. It is not necessary to call the <a href="https://msdn.microsoft.com/d1d09fbe-ca5c-4480-b807-3afcc043ccb9">CoGetMalloc</a> function to get a pointer to the OLE allocator before calling <b>CoTaskMemRealloc</b>.
 
-The <i>pv</i> parameter points to the beginning of the memory block. If <i>pv</i> is <b>NULL</b>, <b>CoTaskMemRealloc</b> allocates a new memory block in the same way as the <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> function. If <i>pv</i> is not <b>NULL</b>, it should be a pointer returned by a prior call to <b>CoTaskMemAlloc</b>.
+The <i>pv</i> parameter points to the beginning of the memory block. If <i>pv</i> is <b>NULL</b>, <b>CoTaskMemRealloc</b> allocates a new memory block in the same way as the <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> function. If <i>pv</i> is not <b>NULL</b>, it should be a pointer returned by a prior call to <b>CoTaskMemAlloc</b>.
 
 The <i>cb</i> parameter specifies the size of the new block. The contents of the block are unchanged up to the shorter of the new and old sizes, although the new block can be in a different location. Because the new block can be in a different memory location, the pointer returned by <b>CoTaskMemRealloc</b> is not guaranteed to be the pointer passed through the <i>pv</i> argument. If <i>pv</i> is not <b>NULL</b> and <i>cb</i> is 0, then the memory pointed to by <i>pv</i> is freed.
 
@@ -110,15 +110,15 @@ The storage space pointed to by the return value is guaranteed to be suitably al
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>
+<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>
+<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680614(v=VS.85).aspx">IMalloc::Realloc</a>
+<a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a>
  
 
  

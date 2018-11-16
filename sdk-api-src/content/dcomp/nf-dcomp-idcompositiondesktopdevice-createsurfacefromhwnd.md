@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondesktopdevice_createsurfacefromhwnd.htm
 tech.root: directcomp
 ms.assetid: 89A4F321-26BE-4175-A052-FE5734DDB524
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateSurfaceFromHwnd, CreateSurfaceFromHwnd method [DirectComposition], CreateSurfaceFromHwnd method [DirectComposition],IDCompositionDesktopDevice interface, IDCompositionDesktopDevice interface [DirectComposition],CreateSurfaceFromHwnd method, IDCompositionDesktopDevice.CreateSurfaceFromHwnd, IDCompositionDesktopDevice::CreateSurfaceFromHwnd, dcomp/IDCompositionDesktopDevice::CreateSurfaceFromHwnd, directcomp.idcompositiondesktopdevice_createsurfacefromhwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,20 +66,15 @@ Creates a wrapper object that represents the rasterization of a layered window, 
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+The handle of the layered window for which to create a wrapper. A layered window is created by specifying WS_EX_LAYERED when creating the window with the <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> function or by setting WS_EX_LAYERED via <a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a> after the window has been created.
 
 
 ### -param surface [out]
 
 The new composition surface object. This parameter must not be NULL.
 
-
-
-#### - handle [in]
-
-The handle of the layered window for which to create a wrapper. A layered window is created by specifying WS_EX_LAYERED when creating the window with the <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> function or by setting WS_EX_LAYERED via <a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a> after the window has been created.
 
 
 ## -returns

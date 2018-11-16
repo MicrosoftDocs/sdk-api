@@ -4,10 +4,10 @@ title: IIsdbCAServiceDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) service descriptor.
 old-location: mstv\iisdbcaservicedescriptor.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 6d56e39d-3c7a-4c55-8d07-00e25eba18bd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAServiceDescriptor, mstv.iisdbcaservicedescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

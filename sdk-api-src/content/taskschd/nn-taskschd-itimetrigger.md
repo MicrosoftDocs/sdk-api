@@ -7,7 +7,7 @@ old-location: taskschd\itimetrigger.htm
 tech.root: TaskSchd
 ms.assetid: 4ebd5470-0801-42ff-a0c2-4d1e7f7ee365
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITimeTrigger, ITimeTrigger interface [Task Scheduler], ITimeTrigger interface [Task Scheduler],described, taskschd.itimetrigger, taskschd/ITimeTrigger, time trigger [Task Scheduler],interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

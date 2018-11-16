@@ -4,10 +4,10 @@ title: D2D1_COMBINE_MODE
 author: windows-sdk-content
 description: Specifies the different methods by which two geometries can be combined.
 old-location: direct2d\D2D1_COMBINE_MODE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7526379a-5f57-4a9f-b85d-415f131528e2
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_COMBINE_MODE, D2D1_COMBINE_MODE enumeration [Direct2D], D2D1_COMBINE_MODE_EXCLUDE, D2D1_COMBINE_MODE_INTERSECT, D2D1_COMBINE_MODE_UNION, D2D1_COMBINE_MODE_XOR, d2d1/D2D1_COMBINE_MODE, d2d1/D2D1_COMBINE_MODE_EXCLUDE, d2d1/D2D1_COMBINE_MODE_INTERSECT, d2d1/D2D1_COMBINE_MODE_UNION, d2d1/D2D1_COMBINE_MODE_XOR, direct2d.D2D1_COMBINE_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ The second region is excluded from the first. Given two geometries, <i>A</i> and
 The following illustration shows the different geometry combine modes.
 
 
-<img alt="Illustration of two geometries and the resulting shapes after various geometry combine modes" src="./images/geometry_combine_modes.png"/>
+<img alt="Illustration of two geometries and the resulting shapes after various geometry combine modes" src="images/geometry_combine_modes.png"/>
 
 #### Examples
 

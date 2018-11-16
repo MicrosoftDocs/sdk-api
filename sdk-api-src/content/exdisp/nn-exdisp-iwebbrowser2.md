@@ -4,10 +4,10 @@ title: IWebBrowser2
 author: windows-sdk-content
 description: Exposes methods that are implemented by the WebBrowser control (Microsoft ActiveX control) or implemented by an instance of the InternetExplorer application (OLE Automation).
 old-location: winprog\iwebbrowser2.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: AFED694C-8D7B-4539-9A1A-B2DA546F3A07
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: IWebBrowser2, IWebBrowser2 interface [Windows API], IWebBrowser2 interface [Windows API],described, exdisp/IWebBrowser2, winprog.iwebbrowser2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: OfflineClusterResource function
 author: windows-sdk-content
 description: Takes a resource offline.
 old-location: mscs\offlineclusterresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 694dbf3d-3355-44d9-8af0-ea2baae832fd
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: OfflineClusterResource, OfflineClusterResource function [Failover Cluster], PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, PCLUSAPI_OFFLINE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_offlineclusterresource, clusapi/OfflineClusterResource, clusapi/PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, mscs.offlineclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,7 @@ req.redist:
 ## -description
 
 
-Takes a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> offline. The <b>PCLUSAPI_OFFLINE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
+Takes a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> offline. The <b>PCLUSAPI_OFFLINE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -77,7 +77,40 @@ Handle to the resource to be taken offline.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns one of the following 
-      <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_IO_PENDING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The resource or one of the resources it depends on has returned <b>ERROR_IO_PENDING</b> from its 
+        <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> entry point function.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_FAILED</b></dt>
+</dl>
+</td>
+<td width="60%">
+This system error code is not returned.
+
+<b>Windows Server 2008 Datacenter and Windows Server 2008 Enterprise:  </b>The function attempted to take offline a failed resource, so the failed resource has not been transitioned to an offline state.
+
+</td>
+</tr>
+</table>
+ 
 
 
 
@@ -88,7 +121,7 @@ If the operation fails, the function returns one of the following
 
 When calling <b>OfflineClusterResource</b> to offline a failed resource, it returns <b>ERROR_SUCCESS</b> instead of <b>ERROR_RESOURCE_FAILED</b>, and the resource will transition to the offline state.
 
-Do not call  <b>OfflineClusterResource</b> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <b>OfflineClusterResource</b> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -98,11 +131,11 @@ Do not call  <b>OfflineClusterResource</b> from a resource DLL. For more informa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371767(v=VS.85).aspx">Offline</a>
+<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371770(v=VS.85).aspx">Online</a>
+<a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a>
 
 
 

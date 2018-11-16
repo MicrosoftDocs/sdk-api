@@ -7,7 +7,7 @@ old-location: ad\adspropsethwndwithtitle.htm
 tech.root: ad
 ms.assetid: d0d26f32-1c15-4641-bdeb-0f464a510669
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: ADsPropSetHwndWithTitle, ADsPropSetHwndWithTitle function [Active Directory], ad.adspropsethwndwithtitle, adsprop/ADsPropSetHwndWithTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ Returns zero if the notification object does not exist or nonzero otherwise.
 
 
 
-An Active Directory Domain Services property sheet extension normally calls this function while processing the <a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message.
+An Active Directory Domain Services property sheet extension normally calls this function while processing the <a href="_win32_wm_initdialog_cpp">WM_INITDIALOG</a> message.
 
 If the property sheet extension uses the <a href="https://msdn.microsoft.com/c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83">ADsPropShowErrorDialog</a> function, the extension should use <b>ADsPropSetHwndWithTitle</b> rather than <a href="https://msdn.microsoft.com/9fc6b86b-e075-4969-842c-3ebddd43db8f">ADsPropSetHwnd</a>.
 
@@ -116,7 +116,7 @@ If the property sheet extension uses the <a href="https://msdn.microsoft.com/c7e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a>
+<a href="_win32_wm_initdialog_cpp">WM_INITDIALOG</a>
  
 
  

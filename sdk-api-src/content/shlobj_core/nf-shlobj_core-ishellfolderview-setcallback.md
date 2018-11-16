@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_SetCallback.htm
 tech.root: shell
 ms.assetid: 3438f4ba-e7f1-46b1-b85d-0e880615bb12
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetCallback method, IShellFolderView.SetCallback, IShellFolderView::SetCallback, SetCallback, SetCallback method [Windows Shell], SetCallback method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetCallback, shell.IShellFolderView_SetCallback, shlobj_core/IShellFolderView::SetCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

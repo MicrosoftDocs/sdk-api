@@ -4,10 +4,10 @@ title: "_CERT_KEY_USAGE_RESTRICTION_INFO"
 author: windows-sdk-content
 description: The CERT_KEY_USAGE_RESTRICTION_INFO structure contains restrictions imposed on the usage of a certificate's public key. This includes purposes for use of the key and policies under which the key can be used.
 old-location: security\cert_key_usage_restriction_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f949c8e5-055d-4919-abcc-441880ccce56
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCERT_KEY_USAGE_RESTRICTION_INFO, CERT_KEY_USAGE_RESTRICTION_INFO, CERT_KEY_USAGE_RESTRICTION_INFO structure [Security], PCERT_KEY_USAGE_RESTRICTION_INFO, PCERT_KEY_USAGE_RESTRICTION_INFO structure pointer [Security], _CERT_KEY_USAGE_RESTRICTION_INFO, _crypto2_cert_key_usage_restriction_info, security.cert_key_usage_restriction_info, wincrypt/CERT_KEY_USAGE_RESTRICTION_INFO, wincrypt/PCERT_KEY_USAGE_RESTRICTION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

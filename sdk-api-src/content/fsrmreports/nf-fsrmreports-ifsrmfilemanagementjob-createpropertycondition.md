@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_createpropertycondition.htm
 tech.root: Fsrm
 ms.assetid: 1b264e9c-4ba0-4de2-acdc-94338519c5af
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreatePropertyCondition, CreatePropertyCondition method [File Server Resource Manager], CreatePropertyCondition method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],CreatePropertyCondition method, IFsrmFileManagementJob.CreatePropertyCondition, IFsrmFileManagementJob::CreatePropertyCondition, fs.ifsrmfilemanagementjob_createpropertycondition, fsrm.ifsrmfilemanagementjob_createpropertycondition, fsrmreports/IFsrmFileManagementJob::CreatePropertyCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,14 +78,7 @@ The name of the property definition that the condition applies to. To enumerate 
       method.
 
 
-### -param propertyCondition
-
-TBD
-
-
-
-
-#### - pPropertyCondition [out]
+### -param propertyCondition [out]
 
 An <a href="https://msdn.microsoft.com/5c50b86b-f166-459e-92ce-63faa374c407">IFsrmPropertyCondition</a> interface that you 
       use to define the newly created property condition.

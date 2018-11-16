@@ -7,7 +7,7 @@ old-location: multimedia\midistreamclose.htm
 tech.root: Multimedia
 ms.assetid: 53096399-3e79-4534-8b67-ccb70c32ccf0
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_midiStreamClose, midiStreamClose, midiStreamClose function [Windows Multimedia], mmeapi/midiStreamClose, multimedia.midistreamclose"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,13 +70,6 @@ The <b>midiStreamClose</b> function closes an open MIDI stream.
 
 
 ### -param hms
-
-TBD
-
-
-
-
-#### - hStream
 
 Handle to a MIDI stream, as retrieved by using the <a href="https://msdn.microsoft.com/355cf034-e1d7-4530-b117-4c505ad0aac6">midiStreamOpen</a> function.
 

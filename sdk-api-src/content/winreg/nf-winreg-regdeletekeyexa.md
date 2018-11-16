@@ -4,10 +4,10 @@ title: RegDeleteKeyExA function
 author: windows-sdk-content
 description: Deletes a subkey and its values from the specified platform-specific view of the registry.
 old-location: base\regdeletekeyex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 41fde6a5-647c-4293-92b8-74be54fa4136
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, RegDeleteKeyEx, RegDeleteKeyEx function, RegDeleteKeyExA, RegDeleteKeyExW, base.regdeletekeyex, winreg/RegDeleteKeyEx, winreg/RegDeleteKeyExA, winreg/RegDeleteKeyExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -164,7 +164,7 @@ A deleted key is not removed until the last handle to it is closed.
 On WOW64, 32-bit applications view a registry tree that is separate from the registry tree that 64-bit applications view. This function enables an application to delete an entry in the alternate registry view.
 
 The subkey to be deleted must not have subkeys. To delete a key and all its subkeys, you need to enumerate the subkeys and delete them individually. To delete keys recursively, use the 
-<a href="https://msdn.microsoft.com/984813a9-e191-498f-8288-b8a4c567112b">RegDeleteTree</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb773486(v=VS.85).aspx">SHDeleteKey</a> function.
+<a href="https://msdn.microsoft.com/984813a9-e191-498f-8288-b8a4c567112b">RegDeleteTree</a> or <a href="_win32_shdeletekey_cpp">SHDeleteKey</a> function.
 
 If the function succeeds, <b>RegDeleteKeyEx</b> removes the specified key from the registry. The entire key, including all of its values, is removed.
 

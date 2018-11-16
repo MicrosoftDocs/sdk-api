@@ -7,7 +7,7 @@ old-location: cos\iservicepool.htm
 tech.root: cossdk
 ms.assetid: fb86ffa5-b4cd-48bc-a99e-245e75ddb9c2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IServicePool, IServicePool interface [COM+], IServicePool interface [COM+],described, _cos_IServicePool, comsvcs/IServicePool, cos.iservicepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,9 +55,9 @@ Used to manage a COM+ object pool.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServicePool</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IServicePool</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServicePool</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IServicePool</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IServicePool</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687813(v=VS.85).aspx">GetObject</a>
+<a href="https://msdn.microsoft.com/f1b9487a-156c-4c2c-ab18-edfd66d96315">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object from the object pool.
@@ -79,7 +79,7 @@ Retrieves an object from the object pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684255(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/93e88990-1737-4db4-aa37-0fe19a7ca0f3">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object pool.
@@ -89,7 +89,7 @@ Initializes an object pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686540(v=VS.85).aspx">Shutdown</a>
+<a href="https://msdn.microsoft.com/d06f4227-e85a-4779-b240-5a2e71d9756b">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down an object pool.
@@ -105,7 +105,7 @@ Shuts down an object pool.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678840(v=VS.85).aspx">IServicePoolConfig</a>
+<a href="https://msdn.microsoft.com/026abfcf-56b5-4821-a9d4-37beeb3a052b">IServicePoolConfig</a>
  
 
  

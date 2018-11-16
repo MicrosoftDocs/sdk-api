@@ -4,10 +4,10 @@ title: DisplaySizeList
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\displaysizelist.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2e939cbc-fc75-41d7-9fcb-32da5173f9bc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DisplaySizeList, DisplaySizeList enumeration [Microsoft TV Technologies], MSVidCtlDisplaySizeListEnumeration, dslDefaultSize, dslDoubleSourceSize, dslFullScreen, dslHalfScreen, dslHalfSourceSize, dslQuarterScreen, dslSixteenthScreen, dslSourceSize, enumeration [Microsoft TV Technologies], mstv.displaysizelist, msvidctl/DisplaySizeList, msvidctl/dslDefaultSize, msvidctl/dslDoubleSourceSize, msvidctl/dslFullScreen, msvidctl/dslHalfScreen, msvidctl/dslHalfSourceSize, msvidctl/dslQuarterScreen, msvidctl/dslSixteenthScreen, msvidctl/dslSourceSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

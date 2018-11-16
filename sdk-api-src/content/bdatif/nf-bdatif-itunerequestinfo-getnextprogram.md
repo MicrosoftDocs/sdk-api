@@ -4,10 +4,10 @@ title: ITuneRequestInfo::GetNextProgram
 author: windows-sdk-content
 description: The GetNextProgram method creates a new tune request with channel or program locator information for the next service.
 old-location: mstv\itunerequestinfo_getnextprogram.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ed1c5a30-19fb-46a8-b521-017da56d85c8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetNextProgram, GetNextProgram method [Microsoft TV Technologies], GetNextProgram method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetNextProgram method, ITuneRequestInfo.GetNextProgram, ITuneRequestInfo::GetNextProgram, ITuneRequestInfoGetNextProgram, bdatif/ITuneRequestInfo::GetNextProgram, mstv.itunerequestinfo_getnextprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,24 +69,12 @@ The <b>GetNextProgram</b> method creates a new tune request with channel or prog
 
 
 
-### -param CurrentRequest
+### -param CurrentRequest [in]
 
-TBD
-
-
-### -param TuneRequest
-
-TBD
+Specifies the <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface of the current request.
 
 
-
-
-#### - pCurrentRequest [in]
-
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Dd694997(v=VS.85).aspx">ITuneRequest</a> interface of the current request.
-
-
-#### - ppTuneRequest [out]
+### -param TuneRequest [out]
 
 Pointer to a variable that will receive a tune request for the next service on the transport stream.
 
@@ -144,11 +132,11 @@ This method might be used by a custom Guide Store Loader to enumerate the availa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694998(v=VS.85).aspx">ITuneRequestInfo Interface</a>
+<a href="https://msdn.microsoft.com/e5cb1a15-29c4-4e0f-aed2-eafe12ea007a">ITuneRequestInfo Interface</a>
  
 
  

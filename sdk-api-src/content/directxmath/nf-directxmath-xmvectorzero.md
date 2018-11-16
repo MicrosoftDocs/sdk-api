@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorzero.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorZero
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMVectorZero, XMVectorZero, XMVectorZero method [DirectX Math Support APIs], dxmath.xmvectorzero
 ms.prod: windows-hardware
 ms.technology: windows-devices

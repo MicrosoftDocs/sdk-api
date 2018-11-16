@@ -7,7 +7,7 @@ old-location: htmlhelp\iitresultset_add2.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetaddbuffer.htm
 ms.author: windowssdkdev
-ms.date: 10/22/2018
+ms.date: 11/15/2018
 ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(PROPID,LPVOID,DWORD,PRIORITY), IITResultSet::Add, IITResultSet::Add(PROPID,LPVOID,DWORD,PRIORITY), htmlhelp.iitresultset_add2, infotech/IITResultSet::Add, refIITResultSetAddBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,7 +151,7 @@ This method is used to add a column for pointer properties.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670054(v=VS.85).aspx">IITResultSet</a>
+<a href="https://msdn.microsoft.com/e77b1489-a883-4f98-acb0-b998cbe3d46e">IITResultSet</a>
  
 
  

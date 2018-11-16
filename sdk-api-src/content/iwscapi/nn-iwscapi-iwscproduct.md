@@ -4,10 +4,10 @@ title: IWscProduct
 author: windows-sdk-content
 description: Provides methods for getting product information for an individual provider to interact with Windows Security Center.
 old-location: winprog\iwscproduct.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: C637E67A-CED7-4235-AAF3-22730E9C7E91
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: IWscProduct, IWscProduct interface [Windows API], IWscProduct interface [Windows API],described, iwscapi/IWscProduct, winprog.iwscproduct
 ms.prod: windows-hardware
 ms.technology: windows-devices

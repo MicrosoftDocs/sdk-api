@@ -7,7 +7,7 @@ old-location: http\http_unknown_header.htm
 tech.root: Http
 ms.assetid: 158f2979-58d3-4120-a74a-311b6fc53136
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PHTTP_UNKNOWN_HEADER, HTTP_UNKNOWN_HEADER, HTTP_UNKNOWN_HEADER structure [HTTP], PHTTP_UNKNOWN_HEADER, PHTTP_UNKNOWN_HEADER structure pointer [HTTP], _HTTP_UNKNOWN_HEADER, _http_http_unknown_header, http.http_unknown_header, http/HTTP_UNKNOWN_HEADER, http/PHTTP_UNKNOWN_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

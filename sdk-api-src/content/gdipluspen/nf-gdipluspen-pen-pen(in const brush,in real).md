@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_Pen_brush_width_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors\pen_34brush_width.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Pen, Pen class [GDI+],Pen constructor, Pen constructor [GDI+], Pen constructor [GDI+],Pen class, Pen.Pen, Pen.Pen(IN const Brush,IN REAL), Pen.Pen(const Brush*,REAL), Pen::Pen, Pen::Pen(IN const Brush,IN REAL), _gdiplus_CLASS_Pen_Pen_brush_width_, gdiplus._gdiplus_CLASS_Pen_Pen_brush_width_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object that uses the attributes of a brush and a real number to set the width of this <b>Pen</b> object.
+Creates a <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object that uses the attributes of a brush and a real number to set the width of this <b>Pen</b> object.
 
 
 ## -parameters
@@ -95,15 +95,19 @@ If you pass the address of a pen to one of the draw methods of a
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object and then creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object based on the <b>Brush</b> object.
+The following example creates a <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object and then creates a <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object based on the <b>Brush</b> object.
 
-
-```cpp
-SolidBrush sBrush(Color(255,255,0,0));
-Pen pen(&sBrush, 4.0f);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SolidBrush sBrush(Color(255,255,0,0));
+Pen pen(&amp;sBrush, 4.0f);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

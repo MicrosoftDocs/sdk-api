@@ -7,7 +7,7 @@ old-location: netmgmt\neterrorlogclear.htm
 tech.root: NetMgmt
 ms.assetid: 03e5f6ad-a497-443f-981b-866c675961a1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: NetErrorLogClear, NetErrorLogClear function [Network Management], _win32_neterrorlogclear, lmerrlog/NetErrorLogClear, netmgmt.neterrorlogclear
 ms.prod: windows-hardware
 ms.technology: windows-devices

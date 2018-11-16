@@ -4,10 +4,10 @@ title: ClusterGroupEnumEx function
 author: windows-sdk-content
 description: Retrieves an item in the enumeration.
 old-location: mscs\clustergroupenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 139FE5AB-9465-46F8-B360-F27F19D82A88
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusterGroupEnumEx, ClusterGroupEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM_EX, mscs.clustergroupenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,46 @@ On output, either the required size in bytes of the buffer if the buffer is too 
 
 
 
-This function returns DWORD.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>dwIndex</i> is larger than the number of items in the enumeration.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer is too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer was filled successfully.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

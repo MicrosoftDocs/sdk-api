@@ -4,10 +4,10 @@ title: IBDA_DRM::GetDRMPairingStatus
 author: windows-sdk-content
 description: The GetDRMPairingStatus method queries the status of the DRM handshake.
 old-location: mstv\ibda_drm_getdrmpairingstatus.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: dff38609-9e90-491c-b8c4-33fd07471895
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDRMPairingStatus, GetDRMPairingStatus method [Microsoft TV Technologies], GetDRMPairingStatus method [Microsoft TV Technologies],IBDA_DRM interface, IBDA_DRM interface [Microsoft TV Technologies],GetDRMPairingStatus method, IBDA_DRM.GetDRMPairingStatus, IBDA_DRM::GetDRMPairingStatus, IBDA_DRMGetDRMPairingStatus, bdaiface/IBDA_DRM::GetDRMPairingStatus, mstv.ibda_drm_getdrmpairingstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,17 +68,10 @@ The <b>GetDRMPairingStatus</b> method queries the status of the DRM handshake.
 
 ### -param pdwStatus [out]
 
-Receives a value from the <a href="https://msdn.microsoft.com/en-us/library/Dd693006(v=VS.85).aspx">BDA_DrmPairingError</a> enumeration.
+Receives a value from the <a href="https://msdn.microsoft.com/d1b100e5-497e-4cb1-9cb8-38424c9eecf8">BDA_DrmPairingError</a> enumeration.
 
 
-### -param phError
-
-TBD
-
-
-
-
-#### - phErrort [out]
+### -param phError [out]
 
 Receives an <b>HRESULT</b> value indicating the success or failure of the DRM handshake.
 
@@ -127,7 +120,7 @@ The device does not support this functionality, or the handshake is still in pro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693315(v=VS.85).aspx">IBDA_DRM Interface</a>
+<a href="https://msdn.microsoft.com/d0bde207-d550-4e98-85c7-b0d47b0cd637">IBDA_DRM Interface</a>
  
 
  

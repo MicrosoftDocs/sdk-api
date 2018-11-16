@@ -4,10 +4,10 @@ title: MsiVerifyDiskSpace function
 author: windows-sdk-content
 description: The MsiVerifyDiskSpace function checks to see if sufficient disk space is present for the current installation.
 old-location: setup\msiverifydiskspace.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 5b1ded22-37a4-4026-872a-20ac3a69fe86
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiVerifyDiskSpace, MsiVerifyDiskSpace function, _msi_msiverifydiskspace, msiquery/MsiVerifyDiskSpace, setup.msiverifydiskspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,7 +94,7 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
  
 
  

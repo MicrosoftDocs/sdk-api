@@ -4,10 +4,10 @@ title: ITuneRequestInfo::GetPreviousLocator
 author: windows-sdk-content
 description: The GetPreviousLocator method creates a new tune request with locator information for the previous transport stream.
 old-location: mstv\itunerequestinfo_getpreviouslocator.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 72512da5-28d4-40b8-93df-039014f432c0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetPreviousLocator, GetPreviousLocator method [Microsoft TV Technologies], GetPreviousLocator method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetPreviousLocator method, ITuneRequestInfo.GetPreviousLocator, ITuneRequestInfo::GetPreviousLocator, ITuneRequestInfoGetPreviousLocator, bdatif/ITuneRequestInfo::GetPreviousLocator, mstv.itunerequestinfo_getpreviouslocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,24 +69,12 @@ The <b>GetPreviousLocator</b> method creates a new tune request with locator inf
 
 
 
-### -param CurrentRequest
-
-TBD
-
-
-### -param TuneRequest
-
-TBD
-
-
-
-
-#### - pCurrentRequest [in]
+### -param CurrentRequest [in]
 
 Specifies current request.
 
 
-#### - ppTuneRequest [out]
+### -param TuneRequest [out]
 
 Pointer to a variable that receives the tune request for the previous transport stream in the network.
 
@@ -144,11 +132,11 @@ Currently this method is not implemented for DVB-C or DVB-S networks, and the me
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694998(v=VS.85).aspx">ITuneRequestInfo Interface</a>
+<a href="https://msdn.microsoft.com/e5cb1a15-29c4-4e0f-aed2-eafe12ea007a">ITuneRequestInfo Interface</a>
  
 
  

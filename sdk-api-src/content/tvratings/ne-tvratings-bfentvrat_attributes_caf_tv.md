@@ -4,10 +4,10 @@ title: BfEnTvRat_Attributes_CAF_TV
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\bfentvrat_attributes_caf_tv.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: f6d10852-f28e-492e-9687-d09cd132d06e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: BfEnTvRat_Attributes_CAF_TV, BfEnTvRat_Attributes_CAF_TV enumeration [Microsoft TV Technologies], CAF_IsBlocked, CAF_ValidAttrSubmask, mstv.bfentvrat_attributes_caf_tv, tvratings/BfEnTvRat_Attributes_CAF_TV, tvratings/CAF_IsBlocked, tvratings/CAF_ValidAttrSubmask
 ms.prod: windows-hardware
 ms.technology: windows-devices

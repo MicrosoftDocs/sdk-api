@@ -4,10 +4,10 @@ title: CertFreeCertificateChainList function
 author: windows-sdk-content
 description: Frees the array of pointers to chain contexts.
 old-location: security\certfreecertificatechainlist.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a53b02ca-bc3f-43fd-8c90-2f646d550182
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CertFreeCertificateChainList, CertFreeCertificateChainList function [Security], security.certfreecertificatechainlist, wincrypt/CertFreeCertificateChainList
 ms.prod: windows-hardware
 ms.technology: windows-devices

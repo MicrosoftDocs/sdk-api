@@ -4,10 +4,10 @@ title: MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval function
 author: windows-sdk-content
 description: Sets the delivery retry interval for subscriptions that are for push delivery.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setdeliveryretryinterval.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 2abd46ad-c4a7-4e73-8b7d-2d9fecd10799
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval, MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval, wmi_v2.mi_subscriptiondeliveryoptions_setdeliveryretryinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

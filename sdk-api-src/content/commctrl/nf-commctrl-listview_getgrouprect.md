@@ -4,10 +4,10 @@ title: ListView_GetGroupRect macro
 author: windows-sdk-content
 description: Gets the rectangle for a specified group. Use this macro or send the LVM_GETGROUPRECT message explicitly.
 old-location: controls\ListView_GetGroupRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgrouprect.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: LVGGR_GROUP, LVGGR_HEADER, LVGGR_LABEL, LVGGR_SUBSETLINK, ListView_GetGroupRect, ListView_GetGroupRect macro [Windows Controls], _shell_ListView_GetGroupRect, _shell_ListView_GetGroupRect_cpp, commctrl/ListView_GetGroupRect, controls.ListView_GetGroupRect, controls._shell_ListView_GetGroupRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the rectangle for a specified group. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774935(v=VS.85).aspx">LVM_GETGROUPRECT</a> message explicitly.
+Gets the rectangle for a specified group. Use this macro or send the <a href="https://msdn.microsoft.com/9441a6c5-11d8-4f52-80dd-1b60befd9b9d">LVM_GETGROUPRECT</a> message explicitly.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Gets the rectangle for a specified group. Use this macro or send the <a href="ht
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -77,12 +77,12 @@ A handle to the list-view control.
 
 Type: <b>int</b>
 
-Specifies the group by <b>iGroupId</b> (see <a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a> structure).
+Specifies the group by <b>iGroupId</b> (see <a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a> structure).
 
 
 ### -param type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LONG</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
 Specifies the type of rectangle to retrieve. This parameter must be one of the following values. 
 
@@ -127,7 +127,7 @@ Specifies the type of rectangle to retrieve. This parameter must be one of the f
 </dl>
 </td>
 <td width="60%">
- Coordinates of the subset link only (markup subset). A list-view control can limit the number of visible items displayed in each group.  A link is presented to the user to allow the user to expand the group.  This flag will return the bounding rectangle of the subset link if the group is a subset (group state of LVGS_SUBSETED, see structure <a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a>, member <b>state</b>). This flag is provided so that accessibility applications can locate the link.
+ Coordinates of the subset link only (markup subset). A list-view control can limit the number of visible items displayed in each group.  A link is presented to the user to allow the user to expand the group.  This flag will return the bounding rectangle of the subset link if the group is a subset (group state of LVGS_SUBSETED, see structure <a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a>, member <b>state</b>). This flag is provided so that accessibility applications can locate the link.
 
 </td>
 </tr>

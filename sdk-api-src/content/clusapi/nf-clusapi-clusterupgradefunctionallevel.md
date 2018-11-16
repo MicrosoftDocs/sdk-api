@@ -4,10 +4,10 @@ title: ClusterUpgradeFunctionalLevel function
 author: windows-sdk-content
 description: Initiates a rolling upgrade of the operating system on a cluster. PCLUSAPI_CLUSTER_UPGRADE defines a pointer to this function.
 old-location: mscs\clusterupgradefunctionallevel.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: EA013501-A4E2-48D8-9062-D20141485CC5
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusterUpgradeFunctionalLevel, ClusterUpgradeFunctionalLevel function [Failover Cluster], PCLUSAPI_CLUSTER_UPGRADE, PCLUSAPI_CLUSTER_UPGRADE function [Failover Cluster], clusapi/ClusterUpgradeFunctionalLevel, clusapi/PCLUSAPI_CLUSTER_UPGRADE, mscs.clusterupgradefunctionallevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ A handle to the cluster to upgrade.
 
 ### -param pfnProgressCallback [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn806599(v=VS.85).aspx">ClusterUpgradeProgressCallback</a> callback function that retrieves the status of the rolling upgrade.
+A pointer to the <a href="https://msdn.microsoft.com/EE803D8C-3EFD-414F-8E38-65A1DFA8079B">ClusterUpgradeProgressCallback</a> callback function that retrieves the status of the rolling upgrade.
 
 
 ### -param pvCallbackArg [in, optional]
@@ -98,11 +98,11 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>. If the ope
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn806593(v=VS.85).aspx">ClusterFunctionalLevel</a>
+<a href="https://msdn.microsoft.com/55E9FF3F-B4B7-4A94-A515-D608A37DF84E">ClusterFunctionalLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Functions</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Functions</a>
  
 
  

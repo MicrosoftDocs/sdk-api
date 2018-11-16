@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetViewFlags.htm
 tech.root: properties
 ms.assetid: 73b60861-3d73-4bff-ae46-a7683d708c83
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetViewFlags, GetViewFlags method [Windows Properties], GetViewFlags method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetViewFlags method, IPropertyDescription.GetViewFlags, IPropertyDescription::GetViewFlags, properties.IPropertyDescription_GetViewFlags, propsys/IPropertyDescription::GetViewFlags, shell.IPropertyDescription_GetViewFlags, shell_IPropertyDescription_GetViewFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,9 @@ Gets the current set of flags governing the property's view.
 
 ### -param ppdvFlags [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762528(v=VS.85).aspx">PROPDESC_VIEW_FLAGS</a>*</b>
+Type: <b><a href="shell.PROPDESC_VIEW_FLAGS">PROPDESC_VIEW_FLAGS</a>*</b>
 
-When this method returns, contains a pointer to a value that includes one or more of the following flags. See <a href="https://msdn.microsoft.com/en-us/library/Bb762528(v=VS.85).aspx">PROPDESC_VIEW_FLAGS</a> for valid values.
+When this method returns, contains a pointer to a value that includes one or more of the following flags. See <a href="shell.PROPDESC_VIEW_FLAGS">PROPDESC_VIEW_FLAGS</a> for valid values.
 
 
 ## -returns
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_gethwnd.htm
 tech.root: direct3ddxgi
 ms.assetid: C1690710-FA63-4841-B3E2-68200E0B7B23
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetHwnd, GetHwnd method [DXGI], GetHwnd method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetHwnd method, IDXGISwapChain1.GetHwnd, IDXGISwapChain1::GetHwnd, direct3ddxgi.idxgiswapchain1_gethwnd, dxgi1_2/IDXGISwapChain1::GetHwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,9 +76,9 @@ A pointer to a variable that receives the <a href="https://msdn.microsoft.com/45
 
 
 
-Returns S_OK if successful; an error code otherwise.  For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise.  For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
-If <i>pHwnd</i> receives <b>NULL</b> (that is, the swap chain is not <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a>-based), <b>GetHwnd</b> returns <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>.
+If <i>pHwnd</i> receives <b>NULL</b> (that is, the swap chain is not <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a>-based), <b>GetHwnd</b> returns <a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a>.
 
 
 

@@ -4,10 +4,10 @@ title: CLUSPROP_FTSET_INFO
 author: windows-sdk-content
 description: Contains information about an FT (fault tolerant) set. It is used as an entry in a value list and consists of a CLUSPROP_VALUE and a CLUS_FTSET_INFO structure.
 old-location: mscs\clusprop_ftset_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0BD016A6-B635-4514-886A-8CD136D3F715
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCLUSPROP_FTSET_INFO, CLUSPROP_FTSET_INFO, CLUSPROP_FTSET_INFO structure [Failover Cluster], PCLUSPROP_FTSET_INFO, PCLUSPROP_FTSET_INFO structure pointer [Failover Cluster], clusapi/CLUSPROP_FTSET_INFO, clusapi/PCLUSPROP_FTSET_INFO, mscs.clusprop_ftset_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 Contains information about an FT (fault tolerant) set. It is used as an entry in a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa373112(v=VS.85).aspx">value list</a> and consists of a <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> and a  <a href="https://msdn.microsoft.com/en-us/library/Dn622927(v=VS.85).aspx">CLUS_FTSET_INFO</a> structure.
+    <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value list</a> and consists of a <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> and a  <a href="https://msdn.microsoft.com/75F2589D-8F4F-4B65-AE05-DA48A1EED03F">CLUS_FTSET_INFO</a> structure.
 
 
 ## -struct-fields
@@ -61,13 +61,13 @@ Contains information about an FT (fault tolerant) set. It is used as an entry in
 
 ### -field CLUSPROP_VALUE
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> structure that describes the format, 
+A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure that describes the format, 
      type, and length of the resource class value.
 
 
 ### -field CLUS_FTSET_INFO
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn622927(v=VS.85).aspx">CLUS_FTSET_INFO</a> value that describes the 
+A <a href="https://msdn.microsoft.com/75F2589D-8F4F-4B65-AE05-DA48A1EED03F">CLUS_FTSET_INFO</a> value that describes the 
      FT set.
 
 
@@ -76,7 +76,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Dn622927(v=VS.85).aspx">CLUS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
  
 
  

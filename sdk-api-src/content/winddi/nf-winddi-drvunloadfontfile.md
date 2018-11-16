@@ -7,7 +7,7 @@ old-location: display\drvunloadfontfile.htm
 tech.root: display
 ms.assetid: 2b4b946a-30d0-434f-ab04-73bedd6a01aa
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DrvUnloadFontFile, DrvUnloadFontFile function [Display Devices], ddifncs_db8c3f72-5fde-4dd3-84e1-5bea9b7e530d.xml, display.drvunloadfontfile, winddi/DrvUnloadFontFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

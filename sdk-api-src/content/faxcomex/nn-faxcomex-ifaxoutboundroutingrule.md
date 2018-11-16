@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrule_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9mn9_cpp.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxOutboundRoutingRule, IFaxOutboundRoutingRule interface [Fax Service], IFaxOutboundRoutingRule interface [Fax Service],described, _mfax_faxoutboundroutingrule_cpp, fax._mfax_faxoutboundroutingrule_cpp, faxcomex/IFaxOutboundRoutingRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ The <b>IFaxOutboundRoutingRule</b> interface describes a configuration object th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutboundRoutingRule</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxOutboundRoutingRule</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutboundRoutingRule</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxOutboundRoutingRule</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,19 +72,19 @@ The <b>IFaxOutboundRoutingRule</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms689556(v=VS.85).aspx">Refresh</a>
+<a href="https://msdn.microsoft.com/b104dfb9-6feb-48c3-b3ef-f91b78f647c4">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms689556(v=VS.85).aspx">IFaxOutboundRoutingRule::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object information from the fax server.
+The <a href="https://msdn.microsoft.com/b104dfb9-6feb-48c3-b3ef-f91b78f647c4">IFaxOutboundRoutingRule::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a> object information from the fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687544(v=VS.85).aspx">Save</a>
+<a href="https://msdn.microsoft.com/5fd084a6-3b74-4e6a-8656-de934e75e923">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687544(v=VS.85).aspx">IFaxOutboundRoutingRule::Save</a> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object data.
+The <a href="https://msdn.microsoft.com/5fd084a6-3b74-4e6a-8656-de934e75e923">IFaxOutboundRoutingRule::Save</a> method saves the <a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a> object data.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687544(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687997(v=VS.85).aspx">AreaCode</a>
+<a href="https://msdn.microsoft.com/7863cd01-956e-4ec8-952b-9b13e88e859c">AreaCode</a>
 
 
 </td>
@@ -108,14 +108,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687997(v=VS.85).aspx">IFaxOutboundRoutingRule::get_AreaCode</a> property specifies the area code to which the outbound routing rule applies.
+The <a href="https://msdn.microsoft.com/7863cd01-956e-4ec8-952b-9b13e88e859c">IFaxOutboundRoutingRule::get_AreaCode</a> property specifies the area code to which the outbound routing rule applies.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689203(v=VS.85).aspx">CountryCode</a>
+<a href="https://msdn.microsoft.com/67cc223a-c772-443b-b371-63f29acf8a67">CountryCode</a>
 
 
 </td>
@@ -124,14 +124,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms689203(v=VS.85).aspx">IFaxOutboundRoutingRule::get_CountryCode</a> property specifies the country/region code to which the outbound routing rule applies.
+The <a href="https://msdn.microsoft.com/67cc223a-c772-443b-b371-63f29acf8a67">IFaxOutboundRoutingRule::get_CountryCode</a> property specifies the country/region code to which the outbound routing rule applies.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689552(v=VS.85).aspx">DeviceId</a>
+<a href="https://msdn.microsoft.com/b655a85a-e817-49d4-8647-8f5c4e101c7b">DeviceId</a>
 
 
 </td>
@@ -140,14 +140,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms689552(v=VS.85).aspx">IFaxOutboundRoutingRule::get_DeviceId</a> property specifies the device ID if the outbound routing rule points to a single fax device.
+The <a href="https://msdn.microsoft.com/b655a85a-e817-49d4-8647-8f5c4e101c7b">IFaxOutboundRoutingRule::get_DeviceId</a> property specifies the device ID if the outbound routing rule points to a single fax device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688543(v=VS.85).aspx">GroupName</a>
+<a href="https://msdn.microsoft.com/06c3ed15-4b1f-4e50-bccf-ab02c0b2dbaa">GroupName</a>
 
 
 </td>
@@ -156,14 +156,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms688543(v=VS.85).aspx">IFaxOutboundRoutingRule::get_GroupName</a> property specifies the group name if the outbound routing rule points to a group of fax devices.
+The <a href="https://msdn.microsoft.com/06c3ed15-4b1f-4e50-bccf-ab02c0b2dbaa">IFaxOutboundRoutingRule::get_GroupName</a> property specifies the group name if the outbound routing rule points to a group of fax devices.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689593(v=VS.85).aspx">Status</a>
+<a href="https://msdn.microsoft.com/5a880005-92a2-4809-b64c-b5af63382203">Status</a>
 
 
 </td>
@@ -172,14 +172,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms689593(v=VS.85).aspx">IFaxOutboundRoutingRule::get_Status</a> property indicates the current status of the outbound routing rule; for example, whether the rule is valid and whether it can apply to fax jobs.
+The <a href="https://msdn.microsoft.com/5a880005-92a2-4809-b64c-b5af63382203">IFaxOutboundRoutingRule::get_Status</a> property indicates the current status of the outbound routing rule; for example, whether the rule is valid and whether it can apply to fax jobs.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688614(v=VS.85).aspx">UseDevice</a>
+<a href="https://msdn.microsoft.com/64b1778a-a53f-468b-8ec0-93db23036730">UseDevice</a>
 
 
 </td>
@@ -188,7 +188,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms688614(v=VS.85).aspx">IFaxOutboundRoutingRule::get_UseDevice</a> property is a Boolean value that indicates whether the outbound routing rule points to a single fax device.
+The <a href="https://msdn.microsoft.com/64b1778a-a53f-468b-8ec0-93db23036730">IFaxOutboundRoutingRule::get_UseDevice</a> property is a Boolean value that indicates whether the outbound routing rule points to a single fax device.
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688614(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxOutboundRoutingRule</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object.
+A default implementation of <b>IFaxOutboundRoutingRule</b> is provided as the <a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a> object.
 
 
 

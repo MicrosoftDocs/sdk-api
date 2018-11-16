@@ -4,10 +4,10 @@ title: FCIAddFile function
 author: windows-sdk-content
 description: The FCIAddFile adds a file to the cabinet under construction.
 old-location: winprog\fciaddfile.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: f99e8718-853b-4d35-98ae-61a8333dbaba
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: FCIAddFile, FCIAddFile function [Windows API], fci/FCIAddFile, tcompTYPE_MSZIP, tcompTYPE_NONE, winprog.fciaddfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

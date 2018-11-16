@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Creates a Command object.
 
@@ -78,17 +78,17 @@ A pointer to an optional outer <a href="https://msdn.microsoft.com/33f1d79a-33fc
 
 ### -param riid
 
-The interface identifier (IID) of the interface returned in <i>ppCommand</i>. This parameter must be IID_IUnknown unless <i>pUnkOuter</i> is <b>NULL</b>. Pass IID_ICommand to get an <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface if aggregation isn't needed and <i>pUnkOuter</i> is <b>NULL</b>.
+The interface identifier (IID) of the interface returned in <i>ppCommand</i>. This parameter must be IID_IUnknown unless <i>pUnkOuter</i> is <b>NULL</b>. Pass IID_ICommand to get an <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface if aggregation isn't needed and <i>pUnkOuter</i> is <b>NULL</b>.
 
 
 ### -param pwcsCatalog
 
-The name of the catalog to be used to execute queries. This is the value for the DBPROP_CI_CATALOG_NAME property of the <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface.
+The name of the catalog to be used to execute queries. This is the value for the DBPROP_CI_CATALOG_NAME property of the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface.
 
 
 ### -param pwcsMachine
 
-The name of the computer on which the query is to be executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface. Use L"." for the local computer.
+The name of the computer on which the query is to be executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface. Use L"." for the local computer.
 
 
 ## -returns
@@ -145,22 +145,22 @@ The function received an invalid parameter.
 
 
 
-The <b>CICreateCommand</b> function simplifies the task of connecting to the Indexing Service content and property indexes as an OLE DB provider data source object (DSO) and creating a session object. Queries made with the resulting <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface default to the scope "\" and search everywhere under that hierarchy (a "deep" search). To specify a scope, use <a href="https://msdn.microsoft.com/en-us/library/ms691127(v=VS.85).aspx">CIMakeICommand</a>.
+The <b>CICreateCommand</b> function simplifies the task of connecting to the Indexing Service content and property indexes as an OLE DB provider data source object (DSO) and creating a session object. Queries made with the resulting <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface default to the scope "\" and search everywhere under that hierarchy (a "deep" search). To specify a scope, use <a href="https://msdn.microsoft.com/e5586d00-996f-4a0f-a283-03d18a516115">CIMakeICommand</a>.
 
-If interface aggregation isn't required, pass IID_ICommand for riid and <b>NULL</b> for <i>pUnkOuter</i>. Otherwise, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> on the returned object to get an <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface.
+If interface aggregation isn't required, pass IID_ICommand for riid and <b>NULL</b> for <i>pUnkOuter</i>. Otherwise, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> on the returned object to get an <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface.
 
 The <b>CICreateCommand</b> function does not return an error if the catalog or computer do not exist or are not available. The connection to the catalog and computer are established when the <b>ICommand::Execute</b> method is called, and connection errors are returned at that time.
 
 
 
-Additional catalog, computer, and scope parameters can be specified after an <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface is created using the <a href="https://msdn.microsoft.com/library/ms723044(v=VS.85).aspx">ICommandProperties</a> interface.
+Additional catalog, computer, and scope parameters can be specified after an <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface is created using the <a href="cfda4b13-b99f-4b66-ad2b-bd9584c8b3ef">ICommandProperties</a> interface.
 
-A pointer to a null-terminated string that specifies the name of the machine on which the query is executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface. Use L"." for the local computer.
+A pointer to a null-terminated string that specifies the name of the machine on which the query is executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface. Use L"." for the local computer.
 
 
 #### Examples
 
-This example creates an <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface for the system catalog on the local machine.
+This example creates an <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface for the system catalog on the local machine.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -189,15 +189,15 @@ if ( SUCCEEDED( hr ) )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691127(v=VS.85).aspx">CIMakeICommand</a>
+<a href="https://msdn.microsoft.com/e5586d00-996f-4a0f-a283-03d18a516115">CIMakeICommand</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a>
+<a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms723044(v=VS.85).aspx">ICommandProperties</a>
+<a href="cfda4b13-b99f-4b66-ad2b-bd9584c8b3ef">ICommandProperties</a>
  
 
  

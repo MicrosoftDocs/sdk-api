@@ -4,10 +4,10 @@ title: MsiRecordSetStreamA function
 author: windows-sdk-content
 description: The MsiRecordSetStream function sets a record stream field from a file. Stream data cannot be inserted into temporary fields.
 old-location: setup\msirecordsetstream.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: ca62f6a6-2f39-4b4c-876f-4c74ecd28ee2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiRecordSetStream, MsiRecordSetStream function, MsiRecordSetStreamA, MsiRecordSetStreamW, _msi_msirecordsetstream, msiquery/MsiRecordSetStream, msiquery/MsiRecordSetStreamA, msiquery/MsiRecordSetStreamW, setup.msirecordsetstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,7 +114,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

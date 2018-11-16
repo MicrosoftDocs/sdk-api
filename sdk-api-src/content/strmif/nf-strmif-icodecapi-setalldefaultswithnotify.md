@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setalldefaultswithnotify.htm
 tech.root: DirectShow
 ms.assetid: 5f35845f-db62-466a-86cd-5788cdaa9809
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllDefaultsWithNotify method, ICodecAPI.SetAllDefaultsWithNotify, ICodecAPI::SetAllDefaultsWithNotify, ICodecAPISetAllDefaultsWithNotify, SetAllDefaultsWithNotify, SetAllDefaultsWithNotify method [DirectShow], SetAllDefaultsWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setalldefaultswithnotify, strmif/ICodecAPI::SetAllDefaultsWithNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritem_show.htm
 tech.root: TSF
 ms.assetid: 3f5be2f4-e9de-4b03-9c37-651b1e572cf0
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfLangBarItem interface [Text Services Framework],Show method, ITfLangBarItem.Show, ITfLangBarItem::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfLangBarItem interface, _tsf_itflangbaritem_show_ref, ctfutb/ITfLangBarItem::Show, tsf.itflangbaritem_show
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,7 +113,7 @@ The language bar item does not support this method.
 
 
 
-The language bar item implementation should update its visible status by modifying the value returned from <a href="https://msdn.microsoft.com/en-us/library/ms628743(v=VS.85).aspx">ITfLangBarItem::GetStatus</a> to include or exclude the TF_LBI_STATUS_HIDDEN status flag. The implementation then prompts language bar to obtain the new status value by calling <a href="https://msdn.microsoft.com/en-us/library/ms628738(v=VS.85).aspx">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_STATUS.
+The language bar item implementation should update its visible status by modifying the value returned from <a href="https://msdn.microsoft.com/2f850553-ec79-4e2f-a4d5-c40dbaca0f01">ITfLangBarItem::GetStatus</a> to include or exclude the TF_LBI_STATUS_HIDDEN status flag. The implementation then prompts language bar to obtain the new status value by calling <a href="https://msdn.microsoft.com/f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_STATUS.
 
 This method is only useful when the item has the TF_LBI_STYLE_HIDDENSTATUSCONTROL style. Without this style, only the language bar can show or hide the item.
 
@@ -125,7 +125,7 @@ This method is only useful when the item has the TF_LBI_STYLE_HIDDENSTATUSCONTRO
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628701(v=VS.85).aspx">ITfLangBarItem</a>
+<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumTypeList.htm
 tech.root: properties
 ms.assetid: 5df237a8-6468-43ee-870c-11b39e5e9dd9
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IPropertyEnumTypeList, IPropertyEnumTypeList interface [Windows Properties], IPropertyEnumTypeList interface [Windows Properties],described, properties.IPropertyEnumTypeList, propsys/IPropertyEnumTypeList, shell.IPropertyEnumTypeList, shell_IPropertyEnumTypeList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ The <b>IPropertyEnumTypeList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761476(v=VS.85).aspx">FindMatchingIndex</a>
+<a href="shell.IPropertyEnumTypeList_FindMatchingIndex">FindMatchingIndex</a>
 </td>
 <td align="left" width="63%">
 Compares the specified property value against the enumerated values in a list and returns the matching index.
@@ -79,16 +79,16 @@ Compares the specified property value against the enumerated values in a list an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd372028(v=VS.85).aspx">GetAt</a>
+<a href="shell.IPropertyEnumTypeList_GetAt">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a> object at the specified index in the list.
+Gets the <a href="shell.IPropertyEnumType">IPropertyEnumType</a> object at the specified index in the list.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761479(v=VS.85).aspx">GetConditionAt</a>
+<a href="shell.IPropertyEnumTypeList_GetConditionAt">GetConditionAt</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -97,7 +97,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535454(v=VS.85).aspx">GetCount</a>
+<a href="shell.IPropertyEnumTypeList_GetCount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of elements in the list.

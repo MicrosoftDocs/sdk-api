@@ -7,7 +7,7 @@ old-location: base\vds_storage_identifier.htm
 tech.root: VDS
 ms.assetid: 8cc8b6d9-e189-44af-9f2b-2222b2eb0749
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: VDS_STORAGE_IDENTIFIER, VDS_STORAGE_IDENTIFIER structure [VDS], _VDS_STORAGE_IDENTIFIER, base.vds_storage_identifier, vdslun/_VDS_STORAGE_IDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices

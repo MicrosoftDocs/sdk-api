@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadertypenegotiation.htm
 tech.root: wmformat
 ms.assetid: 289ca857-5421-47f8-927e-6ca4204a31f9
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMReaderTypeNegotiation, IWMReaderTypeNegotiation interface [windows Media Format], IWMReaderTypeNegotiation interface [windows Media Format],described, IWMReaderTypeNegotiationInterface, wmformat.iwmreadertypenegotiation, wmsdkidl/IWMReaderTypeNegotiation
 ms.prod: windows-hardware
 ms.technology: windows-devices

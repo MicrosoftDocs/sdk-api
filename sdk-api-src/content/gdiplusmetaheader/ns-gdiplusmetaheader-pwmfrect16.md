@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_PWMFRect16.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\pwmfrect16.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: PWMFRect16, PWMFRect16 structure [GDI+], _gdiplus_STRUC_PWMFRect16, gdiplus._gdiplus_STRUC_PWMFRect16, gdiplusmetaheader/PWMFRect16
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ Bottom coordinate of the rectangle that bounds the metafile.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534075(v=VS.85).aspx">WmfPlaceableFileHeader</a>
+<a href="https://msdn.microsoft.com/d8315d7d-b613-4175-b7cd-7a36cb411a12">WmfPlaceableFileHeader</a>
  
 
  

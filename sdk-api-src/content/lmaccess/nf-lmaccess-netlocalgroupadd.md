@@ -7,7 +7,7 @@ old-location: netmgmt\netlocalgroupadd.htm
 tech.root: NetMgmt
 ms.assetid: 5028c1bc-8fed-4f02-8e69-d0d122b08d9f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 0, 1, NetLocalGroupAdd, NetLocalGroupAdd function [Network Management], _win32_netlocalgroupadd, lmaccess/NetLocalGroupAdd, netmgmt.netlocalgroupadd
 ms.prod: windows-hardware
 ms.technology: windows-devices

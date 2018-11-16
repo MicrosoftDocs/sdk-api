@@ -4,10 +4,10 @@ title: ListBox_SelItemRange macro
 author: windows-sdk-content
 description: Selects or deselects one or more consecutive items in a multiple-selection list box. You can use this macro or send the LB_SELITEMRANGE message explicitly.
 old-location: controls\ListBox_SelItemRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_selitemrange.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ListBox_SelItemRange, ListBox_SelItemRange macro [Windows Controls], _win32_ListBox_SelItemRange, _win32_ListBox_SelItemRange_cpp, controls.ListBox_SelItemRange, controls._win32_ListBox_SelItemRange, windowsx/ListBox_SelItemRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Selects or deselects one or more consecutive items in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761329(v=VS.85).aspx">LB_SELITEMRANGE</a> message explicitly.
+Selects or deselects one or more consecutive items in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/817d62df-98a3-40b3-8d62-86bf07ad797f">LB_SELITEMRANGE</a> message explicitly.
 
 
 ## -parameters

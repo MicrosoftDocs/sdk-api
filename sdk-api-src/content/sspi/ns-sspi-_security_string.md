@@ -4,10 +4,10 @@ title: "_SECURITY_STRING"
 author: windows-sdk-content
 description: Used as the string interface for kernel operations and is a clone of the UNICODE_STRING structure.
 old-location: security\security_string.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4E03761C-8199-4D9F-B9DA-8941F0CC6700
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*PSECURITY_STRING, PSECURITY_STRING, PSECURITY_STRING structure pointer [Security], SECURITY_STRING, SECURITY_STRING structure [Security], _SECURITY_STRING, security.security_string, sspi/PSECURITY_STRING, sspi/SECURITY_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices

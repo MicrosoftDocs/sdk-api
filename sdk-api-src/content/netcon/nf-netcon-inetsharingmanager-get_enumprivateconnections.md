@@ -7,7 +7,7 @@ old-location: ics\inetsharingmanager_get_enumprivateconnections.htm
 tech.root: ICS
 ms.assetid: cb770e91-0d85-4f67-b7a1-8cc6e89620eb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumPrivateConnections method, INetSharingManager.get_EnumPrivateConnections, INetSharingManager::get_EnumPrivateConnections, _ics_inetsharingmanager_get_enumprivateconnections, get_EnumPrivateConnections, get_EnumPrivateConnections method [ICS/ICF], get_EnumPrivateConnections method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumprivateconnections, netcon/INetSharingManager::get_EnumPrivateConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,14 +74,7 @@ The
 This parameter must be ICSSC_DEFAULT.
 
 
-### -param ppColl
-
-TBD
-
-
-
-
-#### - ppEnum [out]
+### -param ppColl [out]
 
 Pointer to a pointer that, on successful return, points to an 
 <a href="https://msdn.microsoft.com/6e850e7b-841a-4f14-bab2-4a5a67dcb360">INetSharingPrivateConnectionCollection</a> interface.

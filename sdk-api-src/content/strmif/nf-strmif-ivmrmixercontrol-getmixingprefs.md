@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol_getmixingprefs.htm
 tech.root: DirectShow
 ms.assetid: ee410a7e-e021-408a-bf40-cb58dc8eca1c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetMixingPrefs, GetMixingPrefs method [DirectShow], GetMixingPrefs method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetMixingPrefs method, IVMRMixerControl.GetMixingPrefs, IVMRMixerControl::GetMixingPrefs, IVMRMixerControlGetMixingPrefs, dshow.ivmrmixercontrol_getmixingprefs, strmif/IVMRMixerControl::GetMixingPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ Retrieves the mixing preferences for the stream.
 
 
 
-### -param pdwMixerPrefs
-
-TBD
-
-
-
-
-#### - dwMixerPrefs [in]
+### -param pdwMixerPrefs [in]
 
 Address of a variable that receives a bitwise OR combination of <a href="https://msdn.microsoft.com/0852590c-6bca-4261-99c0-fff8a012f18e">VMRMixerPrefs</a> flags.
 

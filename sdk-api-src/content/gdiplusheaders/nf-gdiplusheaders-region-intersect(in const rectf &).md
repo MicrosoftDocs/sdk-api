@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Intersect_RectF_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionintersectmethods\intersect_38rectfamprect.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Intersect, Intersect method [GDI+], Intersect method [GDI+],Region class, Region class [GDI+],Intersect method, Region.Intersect, Region.Intersect(IN const RectF &), Region.Intersect(const RectF&), Region::Intersect, Region::Intersect(IN const RectF &), _gdiplus_CLASS_Region_Intersect_RectF_rect_, gdiplus._gdiplus_CLASS_Region_Intersect_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ The <b>Region::Intersect</b> method updates this region to the portion of itself
 Type: <b>const <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a></b>
 
 Reference to a rectangle to use to update this 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>object. 
+					<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>object. 
 
 
 ## -returns
@@ -100,7 +100,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
 
 
 

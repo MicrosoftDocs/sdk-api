@@ -4,10 +4,10 @@ title: "_WSAServiceClassInfoA"
 author: windows-sdk-content
 description: The WSASERVICECLASSINFO structure contains information about a specified service class. For each service class in Windows Sockets 2, there is a single WSASERVICECLASSINFO structure.
 old-location: winsock\wsaserviceclassinfo_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 02422c24-34a6-4e34-a795-66b0b687ac44
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPWSASERVICECLASSINFOA, *PWSASERVICECLASSINFOA, PWSASERVICECLASSINFOW, PWSASERVICECLASSINFOW structure pointer [Winsock], WSASERVICECLASSINFO, WSASERVICECLASSINFO structure [Winsock], WSASERVICECLASSINFOA, WSASERVICECLASSINFOW, _WSAServiceClassInfoA, _win32_wsaserviceclassinfo_2, winsock.wsaserviceclassinfo_2, winsock2/PWSASERVICECLASSINFOW, winsock2/WSASERVICECLASSINFO, winsock2/WSASERVICECLASSINFOA, winsock2/WSASERVICECLASSINFOW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

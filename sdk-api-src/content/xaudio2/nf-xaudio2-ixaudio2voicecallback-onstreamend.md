@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voicecallback_interface_onstreamend.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnStreamEnd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnStreamEnd method, IXAudio2VoiceCallback.OnStreamEnd, IXAudio2VoiceCallback::OnStreamEnd, OnStreamEnd, OnStreamEnd method [XAudio2 Audio Mixing APIs], OnStreamEnd method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onstreamend, xaudio2/IXAudio2VoiceCallback::OnStreamEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ This method does not return a value.
 
 
 
-<b>OnStreamEnd</b> is triggered when XAudio2 processes an <a href="https://msdn.microsoft.com/en-us/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> with the XAUDIO2_END_OF_STREAM flag set. See the <a href="https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx">IXAudio2SourceVoice::SubmitSourceBuffer</a> method for more information.
+<b>OnStreamEnd</b> is triggered when XAudio2 processes an <a href="https://msdn.microsoft.com/b6c2a08b-6abb-4e6a-8acb-6f8983aef95f">XAUDIO2_BUFFER</a> with the XAUDIO2_END_OF_STREAM flag set. See the <a href="https://msdn.microsoft.com/D4A1FB27-12F6-41A0-9ACF-3F13EBB27165">IXAudio2SourceVoice::SubmitSourceBuffer</a> method for more information.
 
 
 
@@ -89,7 +89,7 @@ The <b>OnStreamEnd</b> callback indicates that XAudio2 has finished consuming th
 
 
 
-The <b>OnStreamEnd</b> callback only indicates that an <a href="https://msdn.microsoft.com/en-us/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> with the XAUDIO2_END_OF_STREAM flag set has been processed. The callback is strictly informational and does not change the state of the source voice that triggered it. A voice stays in the start state until <a href="https://msdn.microsoft.com/en-us/library/Ee418472(v=VS.85).aspx">IXAudio2SourceVoice::Stop</a>    is called and will continue to play submitted source buffers and to trigger additional callbacks.
+The <b>OnStreamEnd</b> callback only indicates that an <a href="https://msdn.microsoft.com/b6c2a08b-6abb-4e6a-8acb-6f8983aef95f">XAUDIO2_BUFFER</a> with the XAUDIO2_END_OF_STREAM flag set has been processed. The callback is strictly informational and does not change the state of the source voice that triggered it. A voice stays in the start state until <a href="https://msdn.microsoft.com/A46CF7D1-5BBD-45F2-9C2A-90FE51A6FA75">IXAudio2SourceVoice::Stop</a>    is called and will continue to play submitted source buffers and to trigger additional callbacks.
 
 
 
@@ -97,7 +97,7 @@ The <b>OnStreamEnd</b> callback only indicates that an <a href="https://msdn.mic
 
 
 
-For information about <a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a> interface methods, see the <a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598">XAudio2 Callbacks</a> topic.
+For information about <a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a> interface methods, see the <a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598">XAudio2 Callbacks</a> topic.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -114,7 +114,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>
+<a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>
 
 
 

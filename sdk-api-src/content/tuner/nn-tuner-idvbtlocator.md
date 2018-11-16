@@ -4,10 +4,10 @@ title: IDVBTLocator
 author: windows-sdk-content
 description: The IDVBTLocator interface is implemented on the DVBTLocator object.
 old-location: mstv\idvbtlocator.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: f5a95a68-fee0-404c-b9c6-6b808977f8d2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], IDVBTLocator interface [Microsoft TV Technologies],described, IDVBTLocatorInterface, mstv.idvbtlocator, tuner/IDVBTLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

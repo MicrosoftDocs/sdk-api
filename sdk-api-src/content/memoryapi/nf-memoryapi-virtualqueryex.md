@@ -4,10 +4,10 @@ title: VirtualQueryEx function
 author: windows-sdk-content
 description: Retrieves information about a range of pages within the virtual address space of a specified process.
 old-location: base\virtualqueryex.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 19e1d875-f661-47cd-bba7-4327a2bbfacc
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: VirtualQueryEx, VirtualQueryEx function, _win32_virtualqueryex, base.virtualqueryex, winbase/VirtualQueryEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

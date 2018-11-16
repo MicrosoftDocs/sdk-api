@@ -7,7 +7,7 @@ old-location: gpmc\igpmmigrationtable_updatedestination.htm
 tech.root: GPMC
 ms.assetid: c47ad9d7-cf04-4ab4-9c44-78a5e54fc04e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GPMigrationTable class [GPMC],UpdateDestination method, IGPMMigrationTable interface [GPMC],UpdateDestination method, IGPMMigrationTable.UpdateDestination, IGPMMigrationTable::UpdateDestination, UpdateDestination, UpdateDestination method [GPMC], UpdateDestination method [GPMC],GPMigrationTable class, UpdateDestination method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_updatedestination, gpmgmt/IGPMMigrationTable::UpdateDestination
 ms.prod: windows-hardware
 ms.technology: windows-devices

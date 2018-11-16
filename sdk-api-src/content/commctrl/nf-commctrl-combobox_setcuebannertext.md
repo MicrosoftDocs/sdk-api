@@ -4,10 +4,10 @@ title: ComboBox_SetCueBannerText macro
 author: windows-sdk-content
 description: Sets the cue banner text that is displayed for the edit control of a combo box.
 old-location: controls\ComboBox_SetCueBannerText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setcuebannertext.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ComboBox_SetCueBannerText, ComboBox_SetCueBannerText macro [Windows Controls], _shell_ComboBox_SetCueBannerText, _shell_ComboBox_SetCueBannerText_cpp, commctrl/ComboBox_SetCueBannerText, controls.ComboBox_SetCueBannerText, controls._shell_ComboBox_SetCueBannerText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,14 @@ Sets the cue banner text that is displayed for the edit control of a combo box.
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the combo box.
 
 
 ### -param lpcwText
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
 
 A pointer to a null-terminated Unicode string buffer that contains the text.
 
@@ -94,7 +94,7 @@ The cue banner is text that is displayed in the edit control of a combo box when
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775793(v=VS.85).aspx">Combo Box Features</a>
+<a href="https://msdn.microsoft.com/7102beff-7f67-4e4e-a32b-9ccae1522ebd">Combo Box Features</a>
  
 
  

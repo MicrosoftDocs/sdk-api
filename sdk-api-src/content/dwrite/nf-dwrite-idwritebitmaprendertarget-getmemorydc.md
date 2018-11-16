@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteBitmapRenderTarget_GetMemoryDC.htm
 tech.root: DirectWrite
 ms.assetid: 9ca9a002-2a78-4c7c-926c-52414dd801bb
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetMemoryDC, GetMemoryDC method [Direct Write], GetMemoryDC method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetMemoryDC method, IDWriteBitmapRenderTarget.GetMemoryDC, IDWriteBitmapRenderTarget::GetMemoryDC, directwrite.IDWriteBitmapRenderTarget_GetMemoryDC, dwrite/IDWriteBitmapRenderTarget::GetMemoryDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,13 +90,17 @@ Returns a device context handle to the memory device context.
 
 Note that this method takes no parameters and returns an HDC variable, not an HRESULT.
 
-
-```cpp
-memoryHdc = g_pBitmapRenderTarget->GetMemoryDC();
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>memoryHdc = g_pBitmapRenderTarget-&gt;GetMemoryDC();
+</pre>
+</td>
+</tr>
+</table></span></div>
 The HDC returned here is still owned by the bitmap render targer object and should not be released or deleted by the client.
 
 

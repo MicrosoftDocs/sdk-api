@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_getdesc.htm
 tech.root: direct3d12
 ms.assetid: B8D84D69-6B13-4E86-8EF6-A841354B1E5C
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12Resource interface, ID3D12Resource interface,GetDesc method, ID3D12Resource.GetDesc, ID3D12Resource::GetDesc, d3d12/ID3D12Resource::GetDesc, direct3d12.id3d12resource_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

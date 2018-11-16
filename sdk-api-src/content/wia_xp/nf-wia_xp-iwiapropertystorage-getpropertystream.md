@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaPropertyStorage_GetPropertyStream.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertystream.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetPropertyStream, GetPropertyStream method [WIA], GetPropertyStream method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyStream method, IWiaPropertyStorage.GetPropertyStream, IWiaPropertyStorage::GetPropertyStream, _wia_IWiaPropertyStorage_GetPropertyStream, wia._wia_IWiaPropertyStorage_GetPropertyStream, wia_xp/IWiaPropertyStorage::GetPropertyStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ The <b>IWiaPropertyStorage::GetPropertyStream</b> method retrieves the property 
 
 
 
-### -param pCompatibilityId
+### -param pCompatibilityId [out]
 
-TBD
+Type: <b>GUID*</b>
+
+Receives a unique identifier for a set of property values.
 
 
 ### -param ppIStream [out]
@@ -76,13 +78,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>**</b>
 
 Pointer to a stream that receives the item properties. For more information, see <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
-
-
-#### - pCompatibilityID [out]
-
-Type: <b>GUID*</b>
-
-Receives a unique identifier for a set of property values.
 
 
 ## -returns
@@ -100,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Applications use this method to get a snapshot of the current properties of an item. These are subsequently restored by calling <a href="https://msdn.microsoft.com/en-us/library/ms629940(v=VS.85).aspx">IWiaPropertyStorage::SetPropertyStream</a>.
+Applications use this method to get a snapshot of the current properties of an item. These are subsequently restored by calling <a href="https://msdn.microsoft.com/44f25d8c-7f83-4c36-b582-abb6678ed78e">IWiaPropertyStorage::SetPropertyStream</a>.
 
 Applications can use the <i>pCompatibilityID</i> parameter to check if a device supports a specific set of property values before attempting to write these values to the device.
 
@@ -118,7 +113,7 @@ When it is finished using the item's property stream, the application must relea
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629938(v=VS.85).aspx">IWiaPropertyStorage</a>
+<a href="https://msdn.microsoft.com/b80d22d4-8e36-484a-9dd1-f228e2236eaf">IWiaPropertyStorage</a>
  
 
  

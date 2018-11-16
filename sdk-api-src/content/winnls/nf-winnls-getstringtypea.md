@@ -7,7 +7,7 @@ old-location: intl\getstringtypea.htm
 tech.root: Intl
 ms.assetid: 8fe771ae-80f6-473d-b2d8-8331c58ffb5a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetStringTypeA, GetStringTypeA function [Internationalization for Windows Applications], _win32_GetStringTypeA, _win32_GetStringTypeA_cpp, intl.getstringtypea, winnls/GetStringTypeA, winui._win32_GetStringTypeA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ req.redist:
 ## -description
 
 
-Deprecated. Retrieves character type information for the characters in the specified source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, for example, letter, digit, or neither.      <div class="alert"><b>Caution</b>  Using the <b>GetStringTypeA</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="https://msdn.microsoft.com/en-us/library/Hh969198(v=VS.85).aspx">Security Considerations: Windows User Interface</a>.</div>
+Deprecated. Retrieves character type information for the characters in the specified source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, for example, letter, digit, or neither.      <div class="alert"><b>Caution</b>  Using the <b>GetStringTypeA</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="sec_winui">Security Considerations: Windows User Interface</a>.</div>
 <div> </div>
 
 
@@ -136,7 +136,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 
 
 
-For an overview of the use of the string functions, see <a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>.
+For an overview of the use of the string functions, see <a href="_win32_strings_cpp">Strings</a>.
 
 This function converts the source string to Unicode and calls the 
 corresponding <a href="https://msdn.microsoft.com/092541ea-e568-4aa3-b99e-ce0bac9c120b">GetStringTypeW</a> function. Thus the words in the output buffer correspond not to the original ANSI string but to its Unicode equivalent. The conversion from ANSI to Unicode can result in a change in string length, for example, a pair of ANSI characters can map to a single 

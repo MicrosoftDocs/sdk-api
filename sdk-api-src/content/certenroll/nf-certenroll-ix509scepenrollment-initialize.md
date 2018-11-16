@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_initialize.htm
 tech.root: SecCertEnroll
 ms.assetid: dcb887ab-c8b7-42e7-8b49-93755d24ba70
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Initialize method, IX509SCEPEnrollment.Initialize, IX509SCEPEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Initialize, security.ix509scepenrollment_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,7 +116,7 @@ This method fails if any of the expected certificates is missing, or if the thum
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a>
+<a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a>
  
 
  

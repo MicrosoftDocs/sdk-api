@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangles_RectF_rects_INT_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddrectanglesmethods\addrectangles_41rectfrects_intcount.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AddRectangles, AddRectangles method [GDI+], AddRectangles method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddRectangles method, GraphicsPath.AddRectangles, GraphicsPath.AddRectangles(IN const RectF,IN INT), GraphicsPath.AddRectangles(const RectF*,INT), GraphicsPath::AddRectangles, GraphicsPath::AddRectangles(IN const RectF,IN INT), _gdiplus_CLASS_GraphicsPath_AddRectangles_RectF_rects_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangles_RectF_rects_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

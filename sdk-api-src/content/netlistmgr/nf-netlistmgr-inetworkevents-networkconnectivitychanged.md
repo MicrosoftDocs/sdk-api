@@ -7,7 +7,7 @@ old-location: nla\inetworkevents_networkconnectivitychanged.htm
 tech.root: NLA
 ms.assetid: adaf3abe-9a8c-45af-bcc7-bcc516ed75ff
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkConnectivityChanged method, INetworkEvents.NetworkConnectivityChanged, INetworkEvents::NetworkConnectivityChanged, NetworkConnectivityChanged, NetworkConnectivityChanged method [Network Awareness], NetworkConnectivityChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkConnectivityChanged, nla.inetworkevents_networkconnectivitychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,14 +71,7 @@ The <b>NetworkConnectivityChanged</b> method is called when network connectivity
  A <b>GUID</b> that specifies the new network that was added.
 
 
-### -param newConnectivity
-
-TBD
-
-
-
-
-#### - NewConnectivity [in]
+### -param newConnectivity [in]
 
 
 <a href="https://msdn.microsoft.com/72d1f049-3c8d-4332-9bf1-9f49b47cd315">NLM_CONNECTIVITY</a> enumeration value that contains the new connectivity of this network.

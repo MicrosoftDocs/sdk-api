@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertydefinition_name.htm
 tech.root: Fsrm
 ms.assetid: b6c72b75-ef12-4f66-91dc-460d2de8072d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],Name property, IFsrmPropertyDefinition.Name, IFsrmPropertyDefinition.put_Name, IFsrmPropertyDefinition::Name, IFsrmPropertyDefinition::get_Name, IFsrmPropertyDefinition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_name, fsrm.ifsrmpropertydefinition_name, fsrmpipeline/IFsrmPropertyDefinition::Name, fsrmpipeline/IFsrmPropertyDefinition::get_Name, fsrmpipeline/IFsrmPropertyDefinition::put_Name, put_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

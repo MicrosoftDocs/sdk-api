@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_raise_flag.htm
 tech.root: direct3d11
 ms.assetid: cdb88a12-153d-4f92-89c8-d3dab1b6bed5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 629223d9-c558-e5d3-12db-bfbc10b77ade, D3D11_RAISE_FLAG, D3D11_RAISE_FLAG enumeration [Direct3D 11], D3D11_RAISE_FLAG_DRIVER_INTERNAL_ERROR, d3d11/D3D11_RAISE_FLAG, d3d11/D3D11_RAISE_FLAG_DRIVER_INTERNAL_ERROR, direct3d11.d3d11_raise_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Raise an internal driver error to a non-continuable exception.
 
 
 
-These flags are used by <a href="https://msdn.microsoft.com/en-us/library/Ff476527(v=VS.85).aspx">ID3D11Device::GetExceptionMode</a> and <a href="https://msdn.microsoft.com/en-us/library/Ff476532(v=VS.85).aspx">ID3D11Device::SetExceptionMode</a>. Use 0 to indicate no flags; multiple flags can be logically OR'ed together.
+These flags are used by <a href="https://msdn.microsoft.com/c5deddde-4355-4a34-b40a-50006029d590">ID3D11Device::GetExceptionMode</a> and <a href="https://msdn.microsoft.com/a442a5dc-7931-4464-a6e7-76441e61da5b">ID3D11Device::SetExceptionMode</a>. Use 0 to indicate no flags; multiple flags can be logically OR'ed together.
 
 
 
@@ -77,7 +77,7 @@ These flags are used by <a href="https://msdn.microsoft.com/en-us/library/Ff4765
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476152(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
  
 
  

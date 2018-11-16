@@ -7,7 +7,7 @@ old-location: security\icertpropertyrenewal_renewal_property.htm
 tech.root: SecCertEnroll
 ms.assetid: f2ea8198-01ec-4485-9f7e-9b9fa8ddba6f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICertPropertyRenewal interface [Security],Renewal property, ICertPropertyRenewal.Renewal, ICertPropertyRenewal.get_Renewal, ICertPropertyRenewal::Renewal, ICertPropertyRenewal::get_Renewal, Renewal property [Security], Renewal property [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Renewal, certenroll/ICertPropertyRenewal::get_Renewal, get_Renewal, security.icertpropertyrenewal_renewal_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375755(v=VS.85).aspx">Initialize</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa375753(v=VS.85).aspx">InitializeFromCertificateHash</a> method to specify a value for the <b>Renewal</b> property.
+Call the <a href="https://msdn.microsoft.com/dc1e124e-400a-4f1e-8e87-095b6a3341d4">Initialize</a> method or the <a href="https://msdn.microsoft.com/87e0eabf-7a4a-4ff2-a9ce-6482f119cafd">InitializeFromCertificateHash</a> method to specify a value for the <b>Renewal</b> property.
 
 
 
@@ -81,7 +81,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375755(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375749(v=VS.85).aspx">ICertPropertyRenewal</a>
+<a href="https://msdn.microsoft.com/c87a391a-aec9-4b42-8084-c593ecbb0bc6">ICertPropertyRenewal</a>
  
 
  

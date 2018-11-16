@@ -4,10 +4,10 @@ title: inet_addr function
 author: windows-sdk-content
 description: The inet_addr function converts a string containing an IPv4 dotted-decimal address into a proper address for the IN_ADDR structure.
 old-location: winsock\inet_addr_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 7d6df658-9d83-45c7-97e7-b2a016a73847
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winsock.inet_addr_2, wsipv6ok/inet_addr"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The
 
 
 
-### -param cp
-
-TBD
-
-
-
-
-#### - a [in]
+### -param cp [in]
 
 A <b>NULL</b>-terminated character string representing a number expressed in the Internet standard ".'' (dotted) notation.
 

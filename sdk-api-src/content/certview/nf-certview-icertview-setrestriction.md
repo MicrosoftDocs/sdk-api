@@ -4,10 +4,10 @@ title: ICertView::SetRestriction
 author: windows-sdk-content
 description: Sets the sorting and qualifying restrictions on a column.
 old-location: security\icertview2_setrestriction.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a2dc8675-1d75-4c15-a9f7-971274ab044c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CCertView object [Security],SetRestriction method, CVR_SEEK_EQ, CVR_SEEK_GE, CVR_SEEK_GT, CVR_SEEK_LE, CVR_SEEK_LT, CVR_SORT_ASCEND, CVR_SORT_DESCEND, CVR_SORT_NONE, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView interface [Security],SetRestriction method, ICertView.SetRestriction, ICertView2 interface [Security],SetRestriction method, ICertView2::SetRestriction, ICertView::SetRestriction, SetRestriction, SetRestriction method [Security], SetRestriction method [Security],CCertView object, SetRestriction method [Security],ICertView interface, SetRestriction method [Security],ICertView2 interface, certview/ICertView2::SetRestriction, certview/ICertView::SetRestriction, security.icertview2_setrestriction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -234,7 +234,7 @@ Specifies the data query qualifier applied to this column. This parameter, along
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -244,11 +244,11 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385414(v=VS.85).aspx">ICertView</a> object maintains an array of restrictions, allowing each column to contain any number of restrictions. After the column restrictions are established, a call to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385435(v=VS.85).aspx">ICertView::OpenView</a> method will retrieve the data, with each column's restrictions used as part of the database query.
+<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a> object maintains an array of restrictions, allowing each column to contain any number of restrictions. After the column restrictions are established, a call to the 
+<a href="https://msdn.microsoft.com/d68a5463-f711-4737-b0ad-889f7e4855d5">ICertView::OpenView</a> method will retrieve the data, with each column's restrictions used as part of the database query.
 
 Before the <b>SetRestriction</b> method is called, it is necessary to establish a connection with the Certificate Service server by calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">ICertView::OpenConnection</a> method.
+<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">ICertView::OpenConnection</a> method.
 
 
 #### Examples
@@ -316,27 +316,27 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385414(v=VS.85).aspx">ICertView</a>
+<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">ICertView2</a>
+<a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">ICertView::OpenConnection</a>
+<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">ICertView::OpenConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385435(v=VS.85).aspx">ICertView::OpenView</a>
+<a href="https://msdn.microsoft.com/d68a5463-f711-4737-b0ad-889f7e4855d5">ICertView::OpenView</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385442(v=VS.85).aspx">ICertView::SetResultColumn</a>
+<a href="https://msdn.microsoft.com/c13bdc3a-e623-49df-bba0-34c4c178dc3b">ICertView::SetResultColumn</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386193(v=VS.85).aspx">IEnumCertViewColumn::IsIndexed</a>
+<a href="https://msdn.microsoft.com/7373c0c3-3a1d-4a32-90e6-0f0575a0b61b">IEnumCertViewColumn::IsIndexed</a>
  
 
  

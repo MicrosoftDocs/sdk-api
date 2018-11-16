@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_Append.htm
 tech.root: properties
 ms.assetid: 45039163-dffc-4168-9c31-786dcfdab760
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: Append, Append method [Windows Properties], Append method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],Append method, IPropertyChangeArray.Append, IPropertyChangeArray::Append, _shell_IPropertyChangeArray_Append, properties.IPropertyChangeArray_Append, propsys/IPropertyChangeArray::Append, shell.IPropertyChangeArray_Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ Inserts a change operation at the end of an array.
 
 ### -param ppropChange [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775244(v=VS.85).aspx">IPropertyChange</a>*</b>
+Type: <b><a href="shell.IPropertyChange">IPropertyChange</a>*</b>
 
 A pointer to the interface that contains the change.
 

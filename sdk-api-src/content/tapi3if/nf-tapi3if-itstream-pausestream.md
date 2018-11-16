@@ -4,10 +4,10 @@ title: ITStream::PauseStream
 author: windows-sdk-content
 description: The PauseStream method pauses the stream.
 old-location: tapi3\itstream_pausestream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d7d70dd9-dcac-4b25-9954-10b4d6b436de
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITStream interface [TAPI 2.2],PauseStream method, ITStream.PauseStream, ITStream::PauseStream, PauseStream, PauseStream method [TAPI 2.2], PauseStream method [TAPI 2.2],ITStream interface, _tapi3_itstream_pausestream, tapi3.itstream_pausestream, tapi3if/ITStream::PauseStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

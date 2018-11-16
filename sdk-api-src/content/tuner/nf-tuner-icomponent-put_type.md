@@ -4,10 +4,10 @@ title: IComponent::put_Type
 author: windows-sdk-content
 description: The put_Type method sets an IComponentType object describing the general characteristics of the component.
 old-location: mstv\icomponent_put_type.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 07d8cc28-d34e-4332-8648-d69a471ca8ac
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],put_Type method, IComponent.put_Type, IComponent::put_Type, IComponentput_Type, mstv.icomponent_put_type, put_Type, put_Type method [Microsoft TV Technologies], put_Type method [Microsoft TV Technologies],IComponent interface, tuner/IComponent::put_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>put_Type</b> method sets an <a href="https://msdn.microsoft.com/e83bbbbe-
 
 
 
-### -param CT
-
-TBD
-
-
-
-
-#### - pCT [in]
+### -param CT [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a> object that specifies the new values for the component.
 

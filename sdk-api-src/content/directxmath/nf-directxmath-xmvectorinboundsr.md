@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorinboundsr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorInBoundsR(uint32_t@,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMVectorInBoundsR, XMVectorInBoundsR, XMVectorInBoundsR method [DirectX Math Support APIs], dxmath.xmvectorinboundsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,19 +94,23 @@ Returns a vector containing the results of each component test.
 
 The following pseudocode demonstrates the comparison operation of the function:
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Control;
 
-```
-XMVECTOR Control;
+Control.x = (V.x &lt;= Bounds.x &amp;&amp; V.x &gt;= -Bounds.x) ? 0xFFFFFFFF : 0;
+Control.y = (V.y &lt;= Bounds.y &amp;&amp; V.y &gt;= -Bounds.y) ? 0xFFFFFFFF : 0;
+Control.z = (V.z &lt;= Bounds.z &amp;&amp; V.z &gt;= -Bounds.z) ? 0xFFFFFFFF : 0;
+Control.w = (V.w &lt;= Bounds.w &amp;&amp; V.w &gt;= -Bounds.w) ? 0xFFFFFFFF : 0;
 
-Control.x = (V.x <= Bounds.x && V.x >= -Bounds.x) ? 0xFFFFFFFF : 0;
-Control.y = (V.y <= Bounds.y && V.y >= -Bounds.y) ? 0xFFFFFFFF : 0;
-Control.z = (V.z <= Bounds.z && V.z >= -Bounds.z) ? 0xFFFFFFFF : 0;
-Control.w = (V.w <= Bounds.w && V.w >= -Bounds.w) ? 0xFFFFFFFF : 0;
-
-return Control;
-```
-
-
+return Control;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

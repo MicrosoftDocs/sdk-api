@@ -4,10 +4,10 @@ title: IMSVidAnalogTuner::put_Channel
 author: windows-sdk-content
 description: The put_Channel method specifies the tuner's channel.
 old-location: mstv\imsvidanalogtuner_put_channel.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 1afd718d-bca9-478c-b56e-413de0f15656
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_Channel method, IMSVidAnalogTuner.put_Channel, IMSVidAnalogTuner::put_Channel, IMSVidAnalogTunerput_Channel, mstv.imsvidanalogtuner_put_channel, put_Channel, put_Channel method [Microsoft TV Technologies], put_Channel method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_Channel
 ms.prod: windows-hardware
 ms.technology: windows-devices

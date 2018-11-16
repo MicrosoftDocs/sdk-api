@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist1.htm
 tech.root: direct3d12
 ms.assetid: 2DF22383-768C-4D23-9ED8-F0CFD6BA6EE7
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D12DebugCommandList1, ID3D12DebugCommandList1 interface, ID3D12DebugCommandList1 interface,described, d3d12sdklayers/ID3D12DebugCommandList1, direct3d12.id3d12debugcommandlist1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,9 +55,9 @@ This interface enables modification of additional command list debug layer setti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DebugCommandList1</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D12DebugCommandList1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DebugCommandList1</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12DebugCommandList1</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ID3D12DebugCommandList1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt762987(v=VS.85).aspx">AssertResourceState</a>
+<a href="https://msdn.microsoft.com/DB036A55-D677-4288-B165-5441BA457492">AssertResourceState</a>
 </td>
 <td align="left" width="63%">
 Validates that the given state matches the state of the subresource, assuming the state of the given subresource is known during recording of a command list (e.g. the resource was transitioned earlier in the same command list recording).  If the state is not yet known this method sets the known state for further validation later in the same command list recording.
@@ -79,7 +79,7 @@ Validates that the given state matches the state of the subresource, assuming th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt762988(v=VS.85).aspx">GetDebugParameter</a>
+<a href="https://msdn.microsoft.com/936E9748-1D1A-46A9-B4FE-36C0C6627296">GetDebugParameter</a>
 </td>
 <td align="left" width="63%">
 Gets optional Command List Debug Layer settings.
@@ -88,7 +88,7 @@ Gets optional Command List Debug Layer settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt762989(v=VS.85).aspx">SetDebugParameter</a>
+<a href="https://msdn.microsoft.com/8D93895A-BED7-4A86-893B-ACB5FA1B160F">SetDebugParameter</a>
 </td>
 <td align="left" width="63%">
 Modifies optional Debug Layer settings of a command list.
@@ -112,15 +112,15 @@ This interface is currently in Preview mode.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950150(v=VS.85).aspx">Debug Layer Interfaces</a>
+<a href="https://msdn.microsoft.com/9BD5910A-8FF2-4540-BB8E-8EA5C10528CE">Debug Layer Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt490477(v=VS.85).aspx">Using D3D12 Debug Layer GPU-Based Validation</a>
+<a href="https://msdn.microsoft.com/01D1F94F-4DD4-4781-86EF-6C639E8B1069">Using D3D12 Debug Layer GPU-Based Validation</a>
  
 
  

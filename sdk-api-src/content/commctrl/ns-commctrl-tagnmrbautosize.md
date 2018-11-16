@@ -4,10 +4,10 @@ title: tagNMRBAUTOSIZE
 author: windows-sdk-content
 description: Contains information used in handling the RBN_AUTOSIZE notification codes.
 old-location: controls\NMRBAUTOSIZE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrbautosize.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPNMRBAUTOSIZE, LPNMRBAUTOSIZE, LPNMRBAUTOSIZE structure pointer [Windows Controls], NMRBAUTOSIZE, NMRBAUTOSIZE structure [Windows Controls], _win32_NMRBAUTOSIZE, _win32_NMRBAUTOSIZE_cpp, commctrl/LPNMRBAUTOSIZE, commctrl/NMRBAUTOSIZE, controls.NMRBAUTOSIZE, controls._win32_NMRBAUTOSIZE, tagNMRBAUTOSIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information used in handling the <a href="https://msdn.microsoft.com/en-us/library/Bb774405(v=VS.85).aspx">RBN_AUTOSIZE</a> notification codes. 
+Contains information used in handling the <a href="https://msdn.microsoft.com/d174fe99-13cc-404c-9dc5-d5a93e9807a2">RBN_AUTOSIZE</a> notification codes. 
 
 
 ## -struct-fields
@@ -60,15 +60,15 @@ Contains information used in handling the <a href="https://msdn.microsoft.com/en
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field fChanged
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Member that indicates if the size or layout of the rebar control has changed (nonzero if a change occurred or zero otherwise). 
 

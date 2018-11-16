@@ -4,10 +4,10 @@ title: GetFileTime function
 author: windows-sdk-content
 description: Retrieves the date and time that a file or directory was created, last accessed, and last modified.
 old-location: base\getfiletime.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 7f88e1c8-4328-40c2-857d-745e4a1d350d
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetFileTime, GetFileTime function, _win32_getfiletime, base.getfiletime, fileapi/GetFileTime, winbase/GetFileTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,8 +99,8 @@ A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec91
 
 A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure to 
       receive the date and time the file or directory was last written to, truncated, or overwritten (for example, 
-      with <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> or 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa365531(v=VS.85).aspx">SetEndOfFile</a>). This date and time is not updated when 
+      with <a href="base.writefile">WriteFile</a> or 
+      <a href="base.setendoffile">SetEndOfFile</a>). This date and time is not updated when 
       file attributes or security descriptors are changed. This parameter can be <b>NULL</b> if the 
       application does not require this information.
 

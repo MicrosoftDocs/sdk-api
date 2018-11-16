@@ -7,7 +7,7 @@ old-location: gdi\abc.htm
 tech.root: gdi
 ms.assetid: 00000000-0000-0000-0000-000000000001
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPABC, *NPABC, *PABC, ABC, ABC structure [Windows GDI], PABC, PABC structure pointer [Windows GDI], _ABC, _win32_ABC_str, gdi.abc, wingdi/ABC, wingdi/PABC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\wmptemplatesize.htm
 tech.root: WMP
 ms.assetid: c63185a7-b2a4-4c3d-b455-220e1954a31a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: WMPTemplateSize, WMPTemplateSize enumeration [Windows Media Player], contentpartner/WMPTemplateSize, contentpartner/wmptsLarge, contentpartner/wmptsMedium, contentpartner/wmptsSmall, enumeration [Windows Media Player], wmp.wmptemplatesize, wmptsLarge, wmptsMedium, wmptsSmall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,11 +83,11 @@ Large template. Windows Media Player allocates as much room as possible while al
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd562861(v=VS.85).aspx">Enumerations for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/7359585f-6e8f-498f-a5a2-230265bae147">Enumerations for Type 1 Online Stores</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563168(v=VS.85).aspx">IWMPContentPartner::GetTemplate</a>
+<a href="https://msdn.microsoft.com/4bfe7d84-9f65-4bd4-867a-65c96291397d">IWMPContentPartner::GetTemplate</a>
  
 
  

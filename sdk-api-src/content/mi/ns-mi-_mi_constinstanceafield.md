@@ -4,10 +4,10 @@ title: "_MI_ConstInstanceAField"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constinstanceafield.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 529de1de-9a17-4794-8a27-8b58eabad008
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ConstInstanceAField, MI_ConstInstanceAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstInstanceAField, mi/MI_ConstInstanceAField, wmi._mi_constinstanceafield, wmi_v2.mi_constinstanceafield
 ms.prod: windows-hardware
 ms.technology: windows-devices

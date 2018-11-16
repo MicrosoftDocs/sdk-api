@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects_getcurrentpreset.htm
 tech.root: WMP
 ms.assetid: 09ad671b-612d-4e00-8fa9-d9d76954a010
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: EffectsGetCurrentPreset, GetCurrentPreset, GetCurrentPreset method [Windows Media Player], GetCurrentPreset method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetCurrentPreset method, IWMPEffects.GetCurrentPreset, IWMPEffects::GetCurrentPreset, effects/IWMPEffects::GetCurrentPreset, wmp.iwmpeffects_getcurrentpreset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>GetCurrentPreset</b> method gets the current preset, by number, from the 
 
 
 
-### -param pnPreset
-
-TBD
-
-
-
-
-#### - currentpreset [in]
+### -param pnPreset [in]
 
 <b>Long</b> value specifying the current preset, by number.
 

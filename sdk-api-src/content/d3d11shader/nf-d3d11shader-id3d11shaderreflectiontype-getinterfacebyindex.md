@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectiontype_getinterfacebyindex.htm
 tech.root: direct3d11
 ms.assetid: 034e3705-bdaa-4206-971f-6f4e25a96a03
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetInterfaceByIndex, GetInterfaceByIndex method [Direct3D 11], GetInterfaceByIndex method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetInterfaceByIndex method, ID3D11ShaderReflectionType.GetInterfaceByIndex, ID3D11ShaderReflectionType::GetInterfaceByIndex, bfde5d98-8587-784d-da46-efaf3ec2514c, d3d11shader/ID3D11ShaderReflectionType::GetInterfaceByIndex, direct3d11.id3d11shaderreflectiontype_getinterfacebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ Get an interface by index.
 
 ### -param uIndex [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Zero-based index.
 
@@ -77,9 +77,9 @@ Zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>.
 
 
 
@@ -98,7 +98,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>
+<a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>
  
 
  

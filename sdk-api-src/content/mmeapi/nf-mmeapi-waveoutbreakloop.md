@@ -7,7 +7,7 @@ old-location: multimedia\waveoutbreakloop.htm
 tech.root: Multimedia
 ms.assetid: e2cbbd22-09be-4757-a659-94cc6e4a0a5b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_waveOutBreakLoop, mmeapi/waveOutBreakLoop, multimedia.waveoutbreakloop, waveOutBreakLoop, waveOutBreakLoop function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices

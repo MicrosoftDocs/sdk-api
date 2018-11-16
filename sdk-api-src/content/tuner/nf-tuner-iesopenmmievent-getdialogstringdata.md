@@ -4,10 +4,10 @@ title: IESOpenMmiEvent::GetDialogStringData
 author: windows-sdk-content
 description: Gets the data associated with an OpenMMI event, in Unicode string format. This data can be the contents of the dialog that is opened or the Uniform Resource Locator (URL) that contains the dialog.
 old-location: mstv\iesopenmmievent_getdialogstringdata.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 5652ff59-e0ce-4acd-b62a-807d7a307e5b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDialogStringData, GetDialogStringData method [Microsoft TV Technologies], GetDialogStringData method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogStringData method, IESOpenMmiEvent.GetDialogStringData, IESOpenMmiEvent::GetDialogStringData, mstv.iesopenmmievent_getdialogstringdata, tuner/IESOpenMmiEvent::GetDialogStringData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MI_Instance_GetClassName function
 author: windows-sdk-content
 description: Gets the class name of the specified instance.
 old-location: wmi_v2\mi_instance_getclassname.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: d2129902-3a2d-479d-b83a-3582094b2fce
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Instance_GetClassName, MI_Instance_GetClassName function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetClassName, wmi_v2.mi_instance_getclassname
 ms.prod: windows-hardware
 ms.technology: windows-devices

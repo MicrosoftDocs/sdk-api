@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual_settransformparent.htm
 tech.root: directcomp
 ms.assetid: 06C02E3D-27FF-4E11-87C2-7D8281A69601
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetTransformParent method, IDCompositionVisual.SetTransformParent, IDCompositionVisual::SetTransformParent, SetTransformParent, SetTransformParent method [DirectComposition], SetTransformParent method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetTransformParent, directcomp.idcompositionvisual_settransformparent
 ms.prod: windows-hardware
 ms.technology: windows-devices

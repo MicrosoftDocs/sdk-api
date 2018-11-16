@@ -4,10 +4,10 @@ title: D2D1_VERTEX_RANGE
 author: windows-sdk-content
 description: Defines a range of vertices that are used when rendering less than the full contents of a vertex buffer.
 old-location: direct2d\d2d1_vertex_range.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: a5c93541-86dd-48d3-b731-50e9f66f401d
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1_VERTEX_RANGE, D2D1_VERTEX_RANGE structure [Direct2D], d2d1effectauthor/D2D1_VERTEX_RANGE, direct2d.d2d1_vertex_range
 ms.prod: windows-hardware
 ms.technology: windows-devices

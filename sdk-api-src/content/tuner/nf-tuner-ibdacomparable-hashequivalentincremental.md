@@ -4,10 +4,10 @@ title: IBDAComparable::HashEquivalentIncremental
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_hashequivalentincremental.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 8e5fcaf0-f160-4cff-9e9d-44766e0545c9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: HashEquivalentIncremental, HashEquivalentIncremental method [Microsoft TV Technologies], HashEquivalentIncremental method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashEquivalentIncremental method, IBDAComparable.HashEquivalentIncremental, IBDAComparable::HashEquivalentIncremental, IBDAComparableHashEquivalentIncremental, mstv.ibdacomparable_hashequivalentincremental, tuner/IBDAComparable::HashEquivalentIncremental
 ms.prod: windows-hardware
 ms.technology: windows-devices

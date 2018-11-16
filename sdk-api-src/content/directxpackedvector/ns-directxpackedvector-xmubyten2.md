@@ -7,7 +7,7 @@ old-location: dxmath\xmubyten2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUBYTEN2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: XMUBYTEN2, XMUBYTEN2 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTEN2, dxmath.xmubyten2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,10 +53,10 @@ req.redist:
 A 2D vector for storing unsigned, normalized values as signed 8-bits (1 byte) integers.
 
 For a list of additional functionality such as constructors and operators that are available using <code>XMUBYTEN2</code> when you
-  are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Hh449530(v=VS.85).aspx">XMUBYTEN2 Extensions</a>.
+  are programming in C++, see <a href="https://msdn.microsoft.com/138f5158-eb63-4af8-ac9e-d20f3092c111">XMUBYTEN2 Extensions</a>.
 <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type Equivalences</a> for information about
-  equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and
-  <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.</div><div> </div>
+  equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and
+  <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.</div><div> </div>
 
 ## -struct-fields
 
@@ -89,11 +89,11 @@ Those <code>XMUBYTEN2</code> constructors using floating point arguments require
    appropriate members of <code>XMUBYTEN2</code>.
 
 <code>XMUBYTEN2</code> can be used to load instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> from normalized values, by using
-   <a href="https://msdn.microsoft.com/en-us/library/Hh404679(v=VS.85).aspx">XMLoadUByteN2</a>, which divides each component 255.0f, rounds the result, and then assigns the
+   <a href="https://msdn.microsoft.com/47cf2f1c-50dd-4303-a65a-463198a2853b">XMLoadUByteN2</a>, which divides each component 255.0f, rounds the result, and then assigns the
    components to an <code>XMVECTOR</code> instance.
 
 <code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMUBYTEN2</code> using
-   <a href="https://msdn.microsoft.com/en-us/library/Hh404705(v=VS.85).aspx">XMStoreUByteN2</a>, which multiplies each component by 255.0f, rounding the result, before assigning
+   <a href="https://msdn.microsoft.com/c496dcc6-4fad-4522-bd8c-7562ccba6886">XMStoreUByteN2</a>, which multiplies each component by 255.0f, rounding the result, before assigning
    the values to the appropriate <code>XMUBYTEN2</code> members.
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -113,7 +113,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449530(v=VS.85).aspx">XMUBYTEN2 Extensions</a>
+<a href="https://msdn.microsoft.com/138f5158-eb63-4af8-ac9e-d20f3092c111">XMUBYTEN2 Extensions</a>
  
 
  

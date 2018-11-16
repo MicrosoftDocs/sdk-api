@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_AddItemToSession.htm
 tech.root: shell
 ms.assetid: 1de3d6c0-cdf8-48fa-b7ff-2dc75f6757fc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: AddItemToSession, AddItemToSession method [Windows Shell], AddItemToSession method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],AddItemToSession method, ISyncMgrSyncCallback.AddItemToSession, ISyncMgrSyncCallback::AddItemToSession, _shell_ISyncMgrSyncCallback_AddItemToSession, shell.ISyncMgrSyncCallback_AddItemToSession, syncmgr/ISyncMgrSyncCallback::AddItemToSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

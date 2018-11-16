@@ -7,7 +7,7 @@ old-location: policy\creategpolink.htm
 tech.root: Policy
 ms.assetid: 25d1035d-4ece-4f57-88f2-139f39dbdb86
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateGPOLink, CreateGPOLink function [Group Policy], _win32_creategpolink, gpedit/CreateGPOLink, policy.creategpolink
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatareader.htm
 tech.root: wic
 ms.assetid: 0495ecf1-128a-4576-8420-0e79f1454015
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWICMetadataReader, IWICMetadataReader interface [Windows Imaging Component], IWICMetadataReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadatareader, wic._wic_codec_iwicmetadatareader, wincodecsdk/IWICMetadataReader
 ms.prod: windows-hardware
 ms.technology: windows-devices

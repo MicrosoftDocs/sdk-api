@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_copyresource.htm
 tech.root: direct3d12
 ms.assetid: EFC305CF-FBA9-4192-999B-6C6BFCDFF51F
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CopyResource, CopyResource method, CopyResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyResource method, ID3D12GraphicsCommandList.CopyResource, ID3D12GraphicsCommandList::CopyResource, d3d12/ID3D12GraphicsCommandList::CopyResource, direct3d12.id3d12graphicscommandlist_copyresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ Copies the entire contents of the source resource to the destination resource.
 
 Type: <b>ID3D12Resource*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>interface that represents the destination resource.
+A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>interface that represents the destination resource.
           
 
 
@@ -79,7 +79,7 @@ A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS
 
 Type: <b>ID3D12Resource*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>interface that represents the source resource.
+A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>interface that represents the source resource.
           
 
 
@@ -100,13 +100,13 @@ This method does not return a value.
 <b>CopyResource</b> operations are performed on the GPU and do not incur a significant CPU workload linearly dependent on the size of the data to copy.
         
 
-<b>CopyResource</b> may be used to initialize resources which alias the same heap memory. See <a href="https://msdn.microsoft.com/en-us/library/Dn899180(v=VS.85).aspx">CreatePlacedResource</a> for more details.
+<b>CopyResource</b> may be used to initialize resources which alias the same heap memory. See <a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a> for more details.
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
-The debug layer will issue an error if the source subresource is not in the  <a href="https://msdn.microsoft.com/en-us/library/Dn986744(v=VS.85).aspx">D3D12_RESOURCE_STATE_COPY_SOURCE</a> state.
+The debug layer will issue an error if the source subresource is not in the  <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_COPY_SOURCE</a> state.
           
 
-The debug layer will issue an error if the destination subresource is not in the  <a href="https://msdn.microsoft.com/en-us/library/Dn986744(v=VS.85).aspx">D3D12_RESOURCE_STATE_COPY_DEST </a>state.
+The debug layer will issue an error if the destination subresource is not in the  <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_COPY_DEST </a>state.
           
 
 This method has a few restrictions designed for improving performance. For instance, the source and destination resources:
@@ -115,26 +115,26 @@ This method has a few restrictions designed for improving performance. For insta
 <li>Must be different resources.</li>
 <li>Must be the same type.</li>
 <li>Must have identical dimensions (including width, height, depth, and size as appropriate).</li>
-<li>Must have compatible <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI formats</a>, which means the formats must be identical or at least from the same type group. For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopyResource</b> can copy between a few format types. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.
+<li>Must have compatible <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI formats</a>, which means the formats must be identical or at least from the same type group. For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopyResource</b> can copy between a few format types. For more info, see <a href="https://msdn.microsoft.com/add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5">Format Conversion using Direct3D 10.1</a>.
           </li>
 <li>Can't be currently mapped.</li>
 </ul>
-<b>CopyResource</b> only supports copy; it doesn't support any stretch, color key, or blend. <b>CopyResource</b> can reinterpret the resource data between a few format types. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.
+<b>CopyResource</b> only supports copy; it doesn't support any stretch, color key, or blend. <b>CopyResource</b> can reinterpret the resource data between a few format types. For more info, see <a href="https://msdn.microsoft.com/add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5">Format Conversion using Direct3D 10.1</a>.
         
 
-You can't use an <a href="https://msdn.microsoft.com/en-us/library/Ff476259(v=VS.85).aspx">Immutable</a> resource as a destination. You can use a   <a href="https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx">depth-stencil</a> resource as either a source or a destination provided that the feature level is D3D_FEATURE_LEVEL_10_1 or greater. For feature levels 9_x, resources created with the D3D12_RESOURCE_MISC_ALLOW_DEPTH_STENCIL flag can only be used as a source for <b>CopyResource</b>. Resources created with multi-sampling capability (see <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a>) can be used as source and destination only if both source and destination have identical multi-sampled count and quality. If source and destination differ in multi-sampled count and quality or if one is multi-sampled and the other is not multi-sampled, the call to <b>CopyResource</b> fails. Use <a href="https://msdn.microsoft.com/en-us/library/Dn903897(v=VS.85).aspx">ResolveSubresource</a> to resolve a multi-sampled resource to a resource that is not multi-sampled.
+You can't use an <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">Immutable</a> resource as a destination. You can use a   <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">depth-stencil</a> resource as either a source or a destination provided that the feature level is D3D_FEATURE_LEVEL_10_1 or greater. For feature levels 9_x, resources created with the D3D12_RESOURCE_MISC_ALLOW_DEPTH_STENCIL flag can only be used as a source for <b>CopyResource</b>. Resources created with multi-sampling capability (see <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a>) can be used as source and destination only if both source and destination have identical multi-sampled count and quality. If source and destination differ in multi-sampled count and quality or if one is multi-sampled and the other is not multi-sampled, the call to <b>CopyResource</b> fails. Use <a href="https://msdn.microsoft.com/F1D4BAD1-B08E-47D0-9D2B-41873D6B4456">ResolveSubresource</a> to resolve a multi-sampled resource to a resource that is not multi-sampled.
         
 
-The method is an asynchronous call, which may be added to the command-buffer queue. This attempts to remove pipeline stalls that may occur when copying data. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb205132(v=VS.85).aspx">performance considerations</a>.
+The method is an asynchronous call, which may be added to the command-buffer queue. This attempts to remove pipeline stalls that may occur when copying data. For more info, see <a href="https://msdn.microsoft.com/34fd4d15-ee64-4acf-967d-a4afb6f26329">performance considerations</a>.
         
 
-Consider using <a href="https://msdn.microsoft.com/en-us/library/Dn903862(v=VS.85).aspx">CopyTextureRegion</a> or <a href="https://msdn.microsoft.com/en-us/library/Dn903856(v=VS.85).aspx">CopyBufferRegion</a> if you only need to copy a portion of the data in a resource.
+Consider using <a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">CopyTextureRegion</a> or <a href="https://msdn.microsoft.com/46F89B85-EDAA-4095-B6C6-4CC47F972F09">CopyBufferRegion</a> if you only need to copy a portion of the data in a resource.
         
 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12HeterogeneousMultiadapter</a> sample uses <b>CopyResource</b> in the following way: 
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HeterogeneousMultiadapter</a> sample uses <b>CopyResource</b> in the following way: 
 
 <pre class="syntax" xml:space="preserve"><code>	// Command list to copy the render target to the shared heap on the primary adapter. 
  	{ 
@@ -191,7 +191,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
  
 
  

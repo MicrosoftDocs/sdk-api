@@ -4,10 +4,10 @@ title: IMsmError::get_Path
 author: windows-sdk-content
 description: The get_Path method retrieves the Path property of the Error object.
 old-location: setup\imsmerror_get_path.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: a431f0c6-6551-4983-8638-0a76cada822d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: IMsmError interface,get_Path method, IMsmError.get_Path, IMsmError::get_Path, _msi_get_path_function, get_Path, get_Path method, get_Path method,IMsmError interface, mergemod/IMsmError::get_Path, setup.imsmerror_get_path
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The
 
 
 
-### -param ErrorPath
-
-TBD
-
-
-
-
-#### - Path [out]
+### -param ErrorPath [out]
 
 A pointer to a location in memory that is filled in with a <b>BSTR</b> value.
 

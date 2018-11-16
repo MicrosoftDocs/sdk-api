@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyVer
 tech.root: wincontacts
 ms.assetid: ff10129e-45cb-41a4-8800-22b33a238b65
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetPropertyVersion, GetPropertyVersion method [Windows Contacts], GetPropertyVersion method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyVersion method, IContactPropertyCollection.GetPropertyVersion, IContactPropertyCollection::GetPropertyVersion, _wincontacts_IContactPropertyCollection_GetPropertyVersion, icontact/IContactPropertyCollection::GetPropertyVersion, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: RtwqPutWaitingWorkItem function
 author: windows-sdk-content
 description: Queues a work item that waits for an event to be signaled.
 old-location: base\rtwqputwaitingworkitem.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 7cc7dd44-0949-49f7-8a8f-cc309650b763
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: RtwqPutWaitingWorkItem, RtwqPutWaitingWorkItem function, base.rtwqputwaitingworkitem, rtworkq/RtwqPutWaitingWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

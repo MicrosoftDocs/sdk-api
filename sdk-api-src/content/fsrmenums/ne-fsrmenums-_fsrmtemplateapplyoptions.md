@@ -7,7 +7,7 @@ old-location: fsrm\fsrmtemplateapplyoptions.htm
 tech.root: Fsrm
 ms.assetid: 44a8e280-4005-476c-a43d-184c18825129
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FsrmTemplateApplyOptions, FsrmTemplateApplyOptions enumeration [File Server Resource Manager], FsrmTemplateApplyOptions_ApplyToDerivedAll, FsrmTemplateApplyOptions_ApplyToDerivedMatching, _FsrmTemplateApplyOptions, fs.fsrmtemplateapplyoptions, fsrm.fsrmtemplateapplyoptions, fsrmenums/FsrmTemplateApplyOptions, fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedAll, fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedMatching
 ms.prod: windows-hardware
 ms.technology: windows-devices

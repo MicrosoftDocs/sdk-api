@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager_createrule.htm
 tech.root: Fsrm
 ms.assetid: ca9a97b7-eadd-4f57-8f3a-afa439222f21
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateRule, CreateRule method [File Server Resource Manager], CreateRule method [File Server Resource Manager],FsrmClassificationManager class, CreateRule method [File Server Resource Manager],IFsrmClassificationManager interface, CreateRule method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CreateRule method, IFsrmClassificationManager interface [File Server Resource Manager],CreateRule method, IFsrmClassificationManager.CreateRule, IFsrmClassificationManager2 interface [File Server Resource Manager],CreateRule method, IFsrmClassificationManager2::CreateRule, IFsrmClassificationManager::CreateRule, fs.ifsrmclassificationmanager_createrule, fsrm.ifsrmclassificationmanager_createrule, fsrmpipeline/IFsrmClassificationManager2::CreateRule, fsrmpipeline/IFsrmClassificationManager::CreateRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,14 +78,7 @@ The type of rule to create, set this parameter to <b>FsrmRuleType_Classification
       For more information, see <a href="https://msdn.microsoft.com/9fd9daf2-5e3e-4d9c-8f19-92e31756a1c7">FsrmRuleType</a>.
 
 
-### -param Rule
-
-TBD
-
-
-
-
-#### - rule [out]
+### -param Rule [out]
 
 An <a href="https://msdn.microsoft.com/e1de871f-a2c9-4787-a3e8-8c3428e9249e">IFsrmRule</a> interface to the new rule. Query the 
        <b>IFsrmRule</b> interface to get the interface to get the 

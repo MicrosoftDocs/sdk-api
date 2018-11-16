@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext1_dsgetconstantbuffers1.htm
 tech.root: direct3d11
 ms.assetid: 7C6E2BFF-E351-417C-B351-F9B8EDB95F57
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DSGetConstantBuffers1, DSGetConstantBuffers1 method [Direct3D 11], DSGetConstantBuffers1 method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],DSGetConstantBuffers1 method, ID3D11DeviceContext1.DSGetConstantBuffers1, ID3D11DeviceContext1::DSGetConstantBuffers1, d3d11_1/ID3D11DeviceContext1::DSGetConstantBuffers1, direct3d11.id3d11devicecontext1_dsgetconstantbuffers1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,7 +115,7 @@ If no buffer is bound at a slot, <i>pFirstConstant</i> and <i>pNumConstants</i> 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>
+<a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>
  
 
  

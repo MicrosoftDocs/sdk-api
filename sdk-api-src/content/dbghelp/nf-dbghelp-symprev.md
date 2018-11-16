@@ -4,10 +4,10 @@ title: SymPrev function
 author: windows-sdk-content
 description: Retrieves symbol information for the previous symbol.
 old-location: base\symprev.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 45503f0c-cb66-4ddf-986d-02de7fc480f2
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymPrev, SymPrev function, SymPrevW, base.symprev, dbghelp/SymPrev, dbghelp/SymPrevW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ A handle to a process. This handle must have been previously passed to the
 <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
 
 
-### -param si
-
-TBD
-
-
-
-
-#### - siw [in, out]
+### -param si [in, out]
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/785a9702-8b77-4ce1-99df-143ce78490ab">SYMBOL_INFO</a> structure that provides information about the current symbol. Upon return, the structure contains information about the previous symbol.

@@ -4,10 +4,10 @@ title: EnclaveUnsealData function
 author: windows-sdk-content
 description: Decrypts an encrypted binary large object (blob).
 old-location: base\enclaveunsealdata.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: DDBDBEDE-E7EA-43B0-B2C7-B85D75EF3EB0
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ENCLAVE_UNSEAL_FLAG_STALE_KEY, EnclaveUnsealData, EnclaveUnsealData function, base.enclaveunsealdata, winenclaveapi/EnclaveUnsealData
 ms.prod: windows-hardware
 ms.technology: windows-devices

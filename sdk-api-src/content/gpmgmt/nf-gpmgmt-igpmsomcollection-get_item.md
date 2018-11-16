@@ -7,7 +7,7 @@ old-location: gpmc\igpmsomcollection_get_item.htm
 tech.root: GPMC
 ms.assetid: c1dae546-bee3-425c-a436-0931ac837f15
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GPMSOMCollection class [GPMC],Item property, IGPMSOMCollection interface [GPMC],Item property, IGPMSOMCollection.Item, IGPMSOMCollection.get_Item, IGPMSOMCollection::Item, IGPMSOMCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMSOMCollection class, Item property [GPMC],IGPMSOMCollection interface, _win32_igpmsomcollection_get_item, get_Item, gpmc.igpmsomcollection_get_item, gpmgmt/IGPMSOMCollection::Item, gpmgmt/IGPMSOMCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

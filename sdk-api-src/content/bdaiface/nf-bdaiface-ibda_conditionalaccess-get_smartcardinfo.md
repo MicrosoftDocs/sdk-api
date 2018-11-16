@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccess::get_SmartCardInfo
 author: windows-sdk-content
 description: The get_SmartCardInfo method retrieves information about the smart card.
 old-location: mstv\ibda_conditionalaccess_get_smartcardinfo.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 0c9143e7-1e59-4f64-84b8-2bbac18cf787
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardInfo method, IBDA_ConditionalAccess.get_SmartCardInfo, IBDA_ConditionalAccess::get_SmartCardInfo, IBDA_ConditionalAccessget_SmartCardInfo, bdaiface/IBDA_ConditionalAccess::get_SmartCardInfo, get_SmartCardInfo, get_SmartCardInfo method [Microsoft TV Technologies], get_SmartCardInfo method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,7 +101,7 @@ Receives a string indicating the language. When the string is no longer required
 
 ### -param pEALocationCode [out]
 
-Pointer to a buffer that receives the emergency alert location code information. The buffer size must be at least <code>sizeof(EALocationCodeType)</code>. The method writes a structure of type <a href="https://msdn.microsoft.com/en-us/library/Dd693071(v=VS.85).aspx">EALocationCodeType</a> to the buffer. The structure specifies the location code scheme (for example, SCTE 18), state, county, and county subdivision for the emergency alert.
+Pointer to a buffer that receives the emergency alert location code information. The buffer size must be at least <code>sizeof(EALocationCodeType)</code>. The method writes a structure of type <a href="https://msdn.microsoft.com/dd705e3a-4125-46db-b33d-d97476096484">EALocationCodeType</a> to the buffer. The structure specifies the location code scheme (for example, SCTE 18), state, county, and county subdivision for the emergency alert.
 
 
 ## -returns
@@ -118,7 +118,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://msdn.microsoft.com/93bd3c38-2591-4d36-b296-5ad939487277">IBDA_ConditionalAccess Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_dxil_library_desc.htm
 tech.root: direct3d12
 ms.assetid: C21E91D4-C307-40D8-A82E-DDB542C1D346
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D3D12_DXIL_LIBRARY_DESC, D3D12_DXIL_LIBRARY_DESC structure, PD3D12_DXIL_LIBRARY_DESC, PD3D12_DXIL_LIBRARY_DESC structure pointer, d3d12/D3D12_DXIL_LIBRARY_DESC, d3d12/PD3D12_DXIL_LIBRARY_DESC, direct3d12.d3d12_dxil_library_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

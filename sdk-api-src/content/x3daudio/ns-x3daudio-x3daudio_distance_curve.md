@@ -7,7 +7,7 @@ old-location: xaudio2\x3daudio_distance_curve.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_DISTANCE_CURVE
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPX3DAUDIO_DISTANCE_CURVE, LPX3DAUDIO_DISTANCE_CURVE, LPX3DAUDIO_DISTANCE_CURVE structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_DISTANCE_CURVE, X3DAUDIO_DISTANCE_CURVE structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_DISTANCE_CURVE, x3daudio/X3DAUDIO_DISTANCE_CURVE, xaudio2.x3daudio_distance_curve"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Defines an explicit piecewise curve made up of linear segments, directly definin
 ### -field pPoints
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419056(v=VS.85).aspx">X3DAUDIO_DISTANCE_CURVE_POINT</a> array. The array must have no duplicates and be sorted in ascending order with respect to distance.
+<a href="https://msdn.microsoft.com/29f8d152-b254-4b42-a985-d8412ea35037">X3DAUDIO_DISTANCE_CURVE_POINT</a> array. The array must have no duplicates and be sorted in ascending order with respect to distance.
 
 
 ### -field PointCount

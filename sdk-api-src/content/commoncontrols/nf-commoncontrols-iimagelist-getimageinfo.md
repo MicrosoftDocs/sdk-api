@@ -4,10 +4,10 @@ title: IImageList::GetImageInfo
 author: windows-sdk-content
 description: Gets information about an image.
 old-location: controls\IImageList_GetImageInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimageinfo.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetImageInfo, GetImageInfo method [Windows Controls], GetImageInfo method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetImageInfo method, IImageList.GetImageInfo, IImageList::GetImageInfo, comctl_IImageList_GetImageInfo, comctl_IImageList_GetImageInfo_cpp, commoncontrols/IImageList::GetImageInfo, controls.IImageList_GetImageInfo, controls.comctl_IImageList_GetImageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,9 +77,9 @@ A value of type <b>int</b> that contains the index of the image.
 
 ### -param pImageInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761393(v=VS.85).aspx">IMAGEINFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/1f02cff9-1381-4396-a5fa-64960e5d9a99">IMAGEINFO</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761393(v=VS.85).aspx">IMAGEINFO</a> structure that receives information about the image. The information in this structure can directly manipulate the bitmaps of the image.
+A pointer to an <a href="https://msdn.microsoft.com/1f02cff9-1381-4396-a5fa-64960e5d9a99">IMAGEINFO</a> structure that receives information about the image. The information in this structure can directly manipulate the bitmaps of the image.
         
 
 
@@ -98,7 +98,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use <b>IImageList::GetImageInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
+To use <b>IImageList::GetImageInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.
       
 
 

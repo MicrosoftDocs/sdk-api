@@ -7,7 +7,7 @@ old-location: wmi\cobjectpathparser_cobjectpathparser.htm
 tech.root: WmiSdk
 ms.assetid: 8aeb162a-8e93-4a2f-9609-693a26027a44
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: "??0CObjectPathParser@@QAE@W4ObjectParserFlags@@@Z, ??0CObjectPathParser@@QEAA@W4ObjectParserFlags@@@Z, CObjectPathParser, CObjectPathParser interface [Windows Management Instrumentation],CObjectPathParser method, CObjectPathParser method [Windows Management Instrumentation], CObjectPathParser method [Windows Management Instrumentation],CObjectPathParser interface, CObjectPathParser.CObjectPathParser, CObjectPathParser::CObjectPathParser, objpath/CObjectPathParser::CObjectPathParser, wmi.cobjectpathparser_cobjectpathparser"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,14 +75,7 @@ Constructs and initializes an instance of a <a href="https://msdn.microsoft.com/
 
 
 
-### -param eFlags
-
-TBD
-
-
-
-
-#### - ObjectParserFlags [in]
+### -param eFlags [in]
 
 One of the flags from the <a href="https://msdn.microsoft.com/25e575fc-c8d3-461c-a792-0780ea56612d">ObjectParserFlags</a> enumeration.
 

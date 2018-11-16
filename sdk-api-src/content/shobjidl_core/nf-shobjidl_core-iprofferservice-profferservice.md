@@ -7,7 +7,7 @@ old-location: shell\IProfferService_ProfferService.htm
 tech.root: shell
 ms.assetid: ebd6003d-ac8f-4e5e-9d90-c7e5688bedaa
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IProfferService interface [Windows Shell],ProfferService method, IProfferService.ProfferService, IProfferService::ProfferService, ProfferService, ProfferService method [Windows Shell], ProfferService method [Windows Shell],IProfferService interface, inet_IProfferService_ProfferService, shell.IProfferService_ProfferService, shobjidl_core/IProfferService::ProfferService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,16 +66,18 @@ Makes a service available to other objects on the same host.
 
 
 
-### -param guidService
+### -param guidService [in]
 
-TBD
+Type: <b>REFGUID</b>
+
+A value of type <b>GUID</b> that specifies the service being offered.
 
 
 ### -param psp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>*</b>
+Type: <b><a href="_inet_IServiceProvider_Interface">IServiceProvider</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a> interface.
+A pointer to an <a href="_inet_IServiceProvider_Interface">IServiceProvider</a> interface.
 
 
 ### -param pdwCookie [out]
@@ -83,13 +85,6 @@ A pointer to an <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).as
 Type: <b>DWORD*</b>
 
 A pointer to a <b>DWORD</b> that receives an implementation-defined value used for identification purposes. The calling application must keep track of this value for possible use in <a href="https://msdn.microsoft.com/90868bbb-6fcd-4de1-a853-524542b74701">IProfferService::RevokeService</a>.
-
-
-#### - rguidService [in]
-
-Type: <b>REFGUID</b>
-
-A value of type <b>GUID</b> that specifies the service being offered.
 
 
 ## -returns
@@ -116,7 +111,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>
+<a href="_inet_IServiceProvider_Interface">IServiceProvider</a>
  
 
  

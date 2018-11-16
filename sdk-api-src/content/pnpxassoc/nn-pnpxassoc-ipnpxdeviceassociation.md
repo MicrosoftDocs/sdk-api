@@ -4,10 +4,10 @@ title: IPNPXDeviceAssociation
 author: windows-sdk-content
 description: Defines methods to manage the association database entries for PnP-X devices. These methods send notifications when the corresponding PnP devnode changes.
 old-location: ncd\ipnpxdeviceassociation.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 52669dec-2fd7-4f3e-b322-e93d9da5984d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IPNPXDeviceAssociation, IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,described, ncd.ipnpxdeviceassociation, pnpxassoc/IPNPXDeviceAssociation
 ms.prod: windows-hardware
 ms.technology: windows-devices

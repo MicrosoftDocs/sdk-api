@@ -4,10 +4,10 @@ title: PBEGIN_RESTYPECALL_ROUTINE
 author: windows-sdk-content
 description: Starts a call to a resource control code. The PBEGIN_RESTYPECALL_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcetypecontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9D5D5ADB-9707-4690-9B91-CC99F68DE2A8
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: BeginResourceTypeControl, BeginResourceTypeControl callback, BeginResourceTypeControl callback function [Failover Cluster], PBEGIN_RESTYPECALL_ROUTINE, PBEGIN_RESTYPECALL_ROUTINE callback function [Failover Cluster], mscs.beginresourcetypecontrol, resapi/BeginResourceTypeControl, resapi/PBEGIN_RESTYPECALL_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,6 +119,47 @@ This parameter was removed in Windows Server 2016.
 
 
 The function returns one of the following values, or a system error code:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The resource ID was not found.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_FUNCTION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The requested control code is not supported.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

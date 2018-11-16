@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Creates a full command tree using the Query Language Dialect that you specify.
 
@@ -68,12 +68,12 @@ Creates a full command tree using the Query Language Dialect that you specify.
 
 ### -param pwszRestriction
 
-A pointer to a null-terminated string that specifies an Indexing Service query. The syntax for queries is described in <a href="https://msdn.microsoft.com/en-us/library/ms690580(v=VS.85).aspx">Query Languages for Indexing Service</a>.
+A pointer to a null-terminated string that specifies an Indexing Service query. The syntax for queries is described in <a href="https://msdn.microsoft.com/cccc0ddf-0100-4742-833a-ca24c8052872">Query Languages for Indexing Service</a>.
 
 
 ### -param ulDialect
 
-A value from <a href="https://msdn.microsoft.com/en-us/library/ms690838(v=VS.85).aspx">ISQLANG_*</a> constants that specifies a specific version of the Indexing Service query language to be used.
+A value from <a href="https://msdn.microsoft.com/d6e08b9a-2e1c-46b3-a0a3-fdcab356e9b1">ISQLANG_*</a> constants that specifies a specific version of the Indexing Service query language to be used.
 
 
 ### -param pwszColumns
@@ -101,7 +101,7 @@ Column names separated by a plus sign (+) are grouped in individual categories, 
 
 ### -param ppTree
 
-A pointer to the address of the location to receive the <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure for the command tree.
+A pointer to the address of the location to receive the <a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a> structure for the command tree.
 
 
 ### -param cProperties
@@ -111,7 +111,7 @@ The number of properties in the <i>pProperties</i> array, or zero if <i>pPropert
 
 ### -param pProperties
 
-A pointer to an array of properties that can be referred to by a friendly name in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, <i>pwszGroupings</i>, and <i>pwszRestriction</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://msdn.microsoft.com/en-us/library/ms690848(v=VS.85).aspx">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
+A pointer to an array of properties that can be referred to by a friendly name in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, <i>pwszGroupings</i>, and <i>pwszRestriction</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://msdn.microsoft.com/36476b0d-7c8e-45db-b7eb-5ae710495e46">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
 
 
 ### -param LocaleID
@@ -195,7 +195,7 @@ An unknown error has occurred.
 
 
 
-The query tree allocated by the <b>CITextToFullTreeEx</b> function must be freed either with the <a href="https://msdn.microsoft.com/en-us/library/ms689884(v=VS.85).aspx">ICommandTree::FreeCommandTree</a> method or passed to the <a href="https://msdn.microsoft.com/en-us/library/ms690251(v=VS.85).aspx">ICommandTree::SetCommandTree</a> method with the <i>fCopy</i> parameter set to <b>FALSE</b>.
+The query tree allocated by the <b>CITextToFullTreeEx</b> function must be freed either with the <a href="https://msdn.microsoft.com/8d1de2d0-6851-46a1-98fb-5b188ee57a9b">ICommandTree::FreeCommandTree</a> method or passed to the <a href="https://msdn.microsoft.com/13161978-498d-4a55-ba28-b15c66cf966f">ICommandTree::SetCommandTree</a> method with the <i>fCopy</i> parameter set to <b>FALSE</b>.
 
 
 
@@ -213,15 +213,15 @@ Be sure  to include the following #define directive before your #include &lt;ole
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690848(v=VS.85).aspx">CIPROPERTYDEF</a>
+<a href="https://msdn.microsoft.com/36476b0d-7c8e-45db-b7eb-5ae710495e46">CIPROPERTYDEF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a>
+<a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689746(v=VS.85).aspx">ICommandTree</a>
+<a href="https://msdn.microsoft.com/876a5c22-45bd-4b06-b323-532cd9230377">ICommandTree</a>
  
 
  

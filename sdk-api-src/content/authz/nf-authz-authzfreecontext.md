@@ -4,10 +4,10 @@ title: AuthzFreeContext function
 author: windows-sdk-content
 description: Frees all structures and memory associated with the client context. The list of handles for a client is freed in this call.
 old-location: security\authzfreecontext.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cad9fff0-9aa6-4cb2-a34f-94cf72f66bca
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AuthzFreeContext, AuthzFreeContext function [Security], _win32_authzfreecontext, authz/AuthzFreeContext, security.authzfreecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
  
 
  

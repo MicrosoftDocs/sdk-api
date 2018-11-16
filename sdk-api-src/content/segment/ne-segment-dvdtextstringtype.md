@@ -4,10 +4,10 @@ title: DVDTextStringType
 author: windows-sdk-content
 description: The DVDTextStringType enumeration type indicates the type of information contained in a DVD text string.
 old-location: mstv\dvdtextstringtype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4ed4d0a5-31f1-418a-a0c9-c6f4997ef63b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DVDTextStringType, DVDTextStringType enumeration [Microsoft TV Technologies], dvdChannel_Audio, dvdGeneral_Comments, dvdGeneral_Name, dvdOther_Cut, dvdOther_Scene, dvdOther_Take, dvdStream_Angle, dvdStream_Audio, dvdStream_Subpicture, dvdStruct_Cell, dvdStruct_ParentalID, dvdStruct_PartOfTitle, dvdStruct_Title, dvdStruct_Volume, dvdTitle_Album, dvdTitle_Movie, dvdTitle_Orig_Album, dvdTitle_Orig_Movie, dvdTitle_Orig_Other, dvdTitle_Orig_Series, dvdTitle_Orig_Song, dvdTitle_Orig_Video, dvdTitle_Other, dvdTitle_Series, dvdTitle_Song, dvdTitle_Sub_Album, dvdTitle_Sub_Movie, dvdTitle_Sub_Other, dvdTitle_Sub_Series, dvdTitle_Sub_Song, dvdTitle_Sub_Video, dvdTitle_Video, mstv.dvdtextstringtype, segment/DVDTextStringType, segment/dvdChannel_Audio, segment/dvdGeneral_Comments, segment/dvdGeneral_Name, segment/dvdOther_Cut, segment/dvdOther_Scene, segment/dvdOther_Take, segment/dvdStream_Angle, segment/dvdStream_Audio, segment/dvdStream_Subpicture, segment/dvdStruct_Cell, segment/dvdStruct_ParentalID, segment/dvdStruct_PartOfTitle, segment/dvdStruct_Title, segment/dvdStruct_Volume, segment/dvdTitle_Album, segment/dvdTitle_Movie, segment/dvdTitle_Orig_Album, segment/dvdTitle_Orig_Movie, segment/dvdTitle_Orig_Other, segment/dvdTitle_Orig_Series, segment/dvdTitle_Orig_Song, segment/dvdTitle_Orig_Video, segment/dvdTitle_Other, segment/dvdTitle_Series, segment/dvdTitle_Song, segment/dvdTitle_Sub_Album, segment/dvdTitle_Sub_Movie, segment/dvdTitle_Sub_Other, segment/dvdTitle_Sub_Series, segment/dvdTitle_Sub_Song, segment/dvdTitle_Sub_Video, segment/dvdTitle_Video
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -225,7 +225,7 @@ Identifies a content string pertaining to a particular take in a movie or video.
 
 
 
-A <a href="https://msdn.microsoft.com/e8308432-a9a1-40d5-abec-aa6f86af9e5b">DVD_TextStringType</a> value is returned in the <a href="https://msdn.microsoft.com/en-us/library/Dd693066(v=VS.85).aspx">DVDTextStringType</a> method to identify how the disc authors have categorized the specified text string. 
+A <a href="https://msdn.microsoft.com/e8308432-a9a1-40d5-abec-aa6f86af9e5b">DVD_TextStringType</a> value is returned in the <a href="mstv.msvidwebdvd_dvdtextstringtype_property">DVDTextStringType</a> method to identify how the disc authors have categorized the specified text string. 
 
 Not every DVD text string identifier is included in this enumeration, so an authored DVD might include other values.
 
@@ -239,7 +239,7 @@ One important text string type not defined in this enumeration is 0xF0, the exte
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693066(v=VS.85).aspx">DVDTextStringType</a>
+<a href="mstv.msvidwebdvd_dvdtextstringtype_property">DVDTextStringType</a>
 
 
 
@@ -247,7 +247,7 @@ One important text string type not defined in this enumeration is 0xF0, the exte
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390995(v=VS.85).aspx">Working with DVD Text Strings</a>
+<a href="dshow.working_with_dvd_text_strings_COLLISION525">Working with DVD Text Strings</a>
  
 
  

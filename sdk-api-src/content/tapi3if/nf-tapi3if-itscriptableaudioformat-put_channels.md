@@ -4,10 +4,10 @@ title: ITScriptableAudioFormat::put_Channels
 author: windows-sdk-content
 description: The put_Channels method sets the nChannels member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_channels.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 301fd17f-393b-46dd-9d76-1a1e34547629
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_Channels method, ITScriptableAudioFormat.put_Channels, ITScriptableAudioFormat::put_Channels, _tapi3_itscriptableaudioformat_put_channels, put_Channels, put_Channels method [TAPI 2.2], put_Channels method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_channels, tapi3if/ITScriptableAudioFormat::put_Channels
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.redist:
 
 The 
 <b>put_Channels</b> method sets the <b>nChannels</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The
 ### -param nNewVal [in]
 
 New value for the <b>nChannels</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -returns

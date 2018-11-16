@@ -87,7 +87,7 @@ The minimum size is  512 KB for normal logs and 1024 KB for multiplexed logs. Th
 This parameter is required if the containers are being added to a newly created log.  If a container is already created, this parameter can  be <b>NULL</b>, or some value that is at least as large as the size of the first container. 
 
 
-Log container sizes are multiples of the log region size  (512 KB).  When you add a container to a new file, the <a href="https://msdn.microsoft.com/en-us/library/Bb540318(v=VS.85).aspx">AddLogContainer</a> function rounds the size of the container up to the next 512 KB boundary, and returns that size in the value pointed to by <i>pcbContainer</i>.  
+Log container sizes are multiples of the log region size  (512 KB).  When you add a container to a new file, the <a href="https://msdn.microsoft.com/5e886b96-9431-43f6-b888-e0f47c432371">AddLogContainer</a> function rounds the size of the container up to the next 512 KB boundary, and returns that size in the value pointed to by <i>pcbContainer</i>.  
 
 Similarly,  if the log already has at least one container and the value of <i>*pcbContainer</i> is at least as large as the current container size, the function creates all containers with the current internal size and returns that size in <i>*pcbContainer</i>.
 
@@ -127,7 +127,7 @@ The following list identifies the possible error codes:
 		have been created.  Your application must recover from this error, for example, by determining which containers were added.
 
 Because <b>AddLogContainerSet</b> adds more than one container, it is  more
-          efficient than making repeated calls to <a href="https://msdn.microsoft.com/en-us/library/Bb540318(v=VS.85).aspx">AddLogContainer</a>, which only adds one container.
+          efficient than making repeated calls to <a href="https://msdn.microsoft.com/5e886b96-9431-43f6-b888-e0f47c432371">AddLogContainer</a>, which only adds one container.
 
 Containers are created and opened in a noncompressed mode, and are initialized with 0 (zeros) when they are created.
 
@@ -139,15 +139,15 @@ Containers are created and opened in a noncompressed mode, and are initialized w
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540318(v=VS.85).aspx">AddLogContainer</a>
+<a href="https://msdn.microsoft.com/5e886b96-9431-43f6-b888-e0f47c432371">AddLogContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540361(v=VS.85).aspx">Common Log File System Functions</a>
+<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx">OVERLAPPED</a>
+<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
  
 
  

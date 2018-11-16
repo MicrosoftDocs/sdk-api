@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_path.htm
 tech.root: TaskSchd
 ms.assetid: cf097dae-d92b-48c8-bc96-8169b94b0763
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Path property, IRegisteredTask.Path, IRegisteredTask.get_Path, IRegisteredTask::Path, IRegisteredTask::get_Path, Path property [Task Scheduler], Path property [Task Scheduler],IRegisteredTask interface, get_Path, taskschd.iregisteredtask_path, taskschd/IRegisteredTask::Path, taskschd/IRegisteredTask::get_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices

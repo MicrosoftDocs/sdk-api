@@ -4,10 +4,10 @@ title: IStreamBufferInitialize
 author: windows-sdk-content
 description: The IStreamBufferInitialize interface is used to configure the stream buffer filters. The Stream Buffer Source filter, Stream Buffer Sink filter, and StreamBufferConfig object all expose this interface.
 old-location: mstv\istreambufferinitialize.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 357b2979-78de-4a99-bf52-4117af7dfaad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IStreamBufferInitialize, IStreamBufferInitialize interface [Microsoft TV Technologies], IStreamBufferInitialize interface [Microsoft TV Technologies],described, IStreamBufferInitializeInterface, mstv.istreambufferinitialize, sbe/IStreamBufferInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

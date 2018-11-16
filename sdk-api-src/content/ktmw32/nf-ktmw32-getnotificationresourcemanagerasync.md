@@ -7,7 +7,7 @@ old-location: fs\getnotificationresourcemanagerasync.htm
 tech.root: Ktm
 ms.assetid: c83e104b-6cd7-4399-8232-7c2e7b408f1a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetNotificationResourceManagerAsync, GetNotificationResourceManagerAsync function [Files], fs.getnotificationresourcemanagerasync, ktmw32/GetNotificationResourceManagerAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

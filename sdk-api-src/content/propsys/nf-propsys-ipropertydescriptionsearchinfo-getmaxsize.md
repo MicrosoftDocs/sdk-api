@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionSearchInfo_GetMaxSize.htm
 tech.root: properties
 ms.assetid: a1d5812a-0166-4d63-93a7-c6dc2a6e247d
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetMaxSize, GetMaxSize method [Windows Properties], GetMaxSize method [Windows Properties],IPropertyDescriptionSearchInfo interface, IPropertyDescriptionSearchInfo interface [Windows Properties],GetMaxSize method, IPropertyDescriptionSearchInfo.GetMaxSize, IPropertyDescriptionSearchInfo::GetMaxSize, _shell_IPropertyDescriptionSearchInfo_GetMaxSize, properties.IPropertyDescriptionSearchInfo_GetMaxSize, propsys/IPropertyDescriptionSearchInfo::GetMaxSize, shell.IPropertyDescriptionSearchInfo_GetMaxSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the maximum size value from the property schema's <a href="https://msdn.microsoft.com/en-us/library/Bb773885(v=VS.85).aspx">searchInfo</a> element.
+Gets the maximum size value from the property schema's <a href="shell.propdesc_schema_searchInfo">searchInfo</a> element.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Gets the maximum size value from the property schema's <a href="https://msdn.mic
 
 Type: <b>UINT*</b>
 
-Pointer to a value that, when this method returns successfully, receives the value of the maxSize attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773885(v=VS.85).aspx">searchInfo</a> element. The default is:
+Pointer to a value that, when this method returns successfully, receives the value of the maxSize attribute of the <a href="shell.propdesc_schema_searchInfo">searchInfo</a> element. The default is:
 
                     
 

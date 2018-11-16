@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_opensharedresource.htm
 tech.root: direct3d11
 ms.assetid: bc054547-e098-457e-8c8a-a41496234a63
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11Device interface [Direct3D 11],OpenSharedResource method, ID3D11Device.OpenSharedResource, ID3D11Device::OpenSharedResource, OpenSharedResource, OpenSharedResource method [Direct3D 11], OpenSharedResource method [Direct3D 11],ID3D11Device interface, c200398f-7a1d-967e-b12d-6d180c9526f9, d3d11/ID3D11Device::OpenSharedResource, direct3d11.id3d11device_opensharedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ Address of a pointer to the resource we are gaining access to.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
@@ -114,7 +114,7 @@ To share a resource between two Direct3D 11 devices the resource must have been 
 The REFIID, or GUID, of the interface to the resource can be obtained by using the __uuidof() macro. 
       For example, __uuidof(ID3D11Buffer) will get the GUID of the interface to a buffer resource.
 
-When sharing a resource between two Direct3D 10/11 devices the unique handle of the resource can be obtained by querying the resource for the <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> interface and then calling <a href="https://msdn.microsoft.com/en-us/library/Bb174562(v=VS.85).aspx">GetSharedHandle</a>.
+When sharing a resource between two Direct3D 10/11 devices the unique handle of the resource can be obtained by querying the resource for the <a href="https://msdn.microsoft.com/de1f11a5-194b-438e-975b-3945179d0ed7">IDXGIResource</a> interface and then calling <a href="https://msdn.microsoft.com/7fa92667-2e37-498b-994b-7c576754b86b">GetSharedHandle</a>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -134,7 +134,7 @@ pOtherResource-&gt;GetSharedHandle(&amp;sharedHandle);
 The only resources that can be shared are 2D non-mipmapped textures.
 
 To share a resource between a Direct3D 9 device and a Direct3D 11 device the texture must have been created using 
-      the <i>pSharedHandle</i> argument of <a href="https://msdn.microsoft.com/en-us/library/Bb174363(v=VS.85).aspx">CreateTexture</a>.  
+      the <i>pSharedHandle</i> argument of <a href="https://msdn.microsoft.com/61b27c7f-cfec-4cb1-bdb9-a973c37a7df4">CreateTexture</a>.  
       The shared Direct3D 9 handle is then passed to OpenSharedResource in the <i>hResource</i> argument.
 
 The following code illustrates the method calls involved.

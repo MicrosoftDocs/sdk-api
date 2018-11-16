@@ -7,7 +7,7 @@ old-location: fs\releasentmscleanerslot.htm
 tech.root: Rsm
 ms.assetid: c3530534-c502-4168-8039-b5ce4f0a5816
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ReleaseNtmsCleanerSlot, ReleaseNtmsCleanerSlot function [Files], _zaw_releasentmscleanerslot, base.releasentmscleanerslot, fs.releasentmscleanerslot, ntmsapi/ReleaseNtmsCleanerSlot
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -203,7 +203,7 @@ For the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Cleaner Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Cleaner Management Functions</a>
 
 
 

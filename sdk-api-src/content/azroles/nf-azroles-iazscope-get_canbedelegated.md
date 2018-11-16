@@ -4,10 +4,10 @@ title: IAzScope::get_CanBeDelegated
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the scope can be delegated.
 old-location: security\iazscope_canbedelegated.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e68bd5b2-060b-478b-9375-b23761888e6a
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AzScope object [Security],CanBeDelegated property, CanBeDelegated property [Security], CanBeDelegated property [Security],AzScope object, CanBeDelegated property [Security],IAzScope interface, IAzScope interface [Security],CanBeDelegated property, IAzScope.CanBeDelegated, IAzScope.get_CanBeDelegated, IAzScope::CanBeDelegated, IAzScope::get_CanBeDelegated, azroles/IAzScope::CanBeDelegated, azroles/IAzScope::get_CanBeDelegated, get_CanBeDelegated, security.iazscope_canbedelegated
 ms.prod: windows-hardware
 ms.technology: windows-devices

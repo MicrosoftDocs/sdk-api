@@ -7,7 +7,7 @@ old-location: nla\inetworkevents_networkdeleted.htm
 tech.root: NLA
 ms.assetid: ae54cc29-6da8-405d-92f9-654239150dd0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkDeleted method, INetworkEvents.NetworkDeleted, INetworkEvents::NetworkDeleted, NetworkDeleted, NetworkDeleted method [Network Awareness], NetworkDeleted method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkDeleted, nla.inetworkevents_networkdeleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>NetworkDeleted</b> method is called when a network is deleted.
 
 
 
-### -param networkId
-
-TBD
-
-
-
-
-#### - gdNetworkId [in]
+### -param networkId [in]
 
 GUID that contains the network ID of the network that was deleted.
 

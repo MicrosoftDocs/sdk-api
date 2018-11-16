@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcd_get_supportedsectortypes.htm
 tech.root: imapi
 ms.assetid: d217e585-3ff4-4f02-8a13-7cfca767f201
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_SupportedSectorTypes method, IDiscFormat2RawCD.get_SupportedSectorTypes, IDiscFormat2RawCD::get_SupportedSectorTypes, get_SupportedSectorTypes, get_SupportedSectorTypes method [IMAPI], get_SupportedSectorTypes method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_supportedsectortypes, imapi2/IDiscFormat2RawCD::get_SupportedSectorTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

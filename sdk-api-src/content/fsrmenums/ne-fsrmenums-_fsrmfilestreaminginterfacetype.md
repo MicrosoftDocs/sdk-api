@@ -7,7 +7,7 @@ old-location: fsrm\fsrmfilestreaminginterfacetype.htm
 tech.root: Fsrm
 ms.assetid: 182dde15-f8d6-42ab-a9d2-85f0a0a4d670
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FsrmFileStreamingInterfaceType, FsrmFileStreamingInterfaceType enumeration [File Server Resource Manager], FsrmFileStreamingInterfaceType_ILockBytes, FsrmFileStreamingInterfaceType_IStream, FsrmFileStreamingInterfaceType_Unknown, _FsrmFileStreamingInterfaceType, fs.fsrmfilestreaminginterfacetype, fsrm.fsrmfilestreaminginterfacetype, fsrmenums/FsrmFileStreamingInterfaceType, fsrmenums/FsrmFileStreamingInterfaceType_ILockBytes, fsrmenums/FsrmFileStreamingInterfaceType_IStream, fsrmenums/FsrmFileStreamingInterfaceType_Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

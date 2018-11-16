@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getfilerestorestatus.htm
 tech.root: VSS
 ms.assetid: b79c4443-c850-4edf-bdd2-917e22e67d77
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetFileRestoreStatus, GetFileRestoreStatus method [VSS], GetFileRestoreStatus method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetFileRestoreStatus method, IVssComponent.GetFileRestoreStatus, IVssComponent::GetFileRestoreStatus, _win32_ivsscomponent_getfilerestorestatus, base.ivsscomponent_getfilerestorestatus, vswriter/IVssComponent::GetFileRestoreStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

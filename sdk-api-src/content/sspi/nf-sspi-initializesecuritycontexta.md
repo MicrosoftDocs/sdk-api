@@ -4,10 +4,10 @@ title: InitializeSecurityContextA function
 author: windows-sdk-content
 description: Initiates the client side, outbound security context from a credential handle.
 old-location: security\initializesecuritycontext__general_.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 21d965d4-3c03-4e29-a70d-4538c5c366b0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Digest, ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONFIDENTIALITY, ISC_REQ_CONNECTION, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_HTTP, ISC_REQ_INTEGRITY, ISC_REQ_MANUAL_CRED_VALIDATION, ISC_REQ_MUTUAL_AUTH, ISC_REQ_NO_INTEGRITY, ISC_REQ_REPLAY_DETECT, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_SESSION_KEY, ISC_REQ_USE_SUPPLIED_CREDS, InitializeSecurityContext, InitializeSecurityContext (General), InitializeSecurityContext function [Security], InitializeSecurityContextA, InitializeSecurityContextW, Kerberos or Negotiate, NTLM, Schannel/SSL, _ssp_initializesecuritycontext, security.initializesecuritycontext, security.initializesecuritycontext__general_, sspi/InitializeSecurityContext, sspi/InitializeSecurityContextA, sspi/InitializeSecurityContextW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,68 +128,9 @@ This parameter is optional with the Microsoft Digest SSP and can be set to <b>NU
 When using the Schannel SSP, on the first call to <b>InitializeSecurityContext (General)</b>, specify <b>NULL</b>. On future calls, specify the token received in the <i>phNewContext</i> parameter after the first call to this function.
 
 
-### -param pszTargetName [in, optional]
+### -param pszTargetName
 
-A pointer to a null-terminated string that indicates the target of the context. The string contents are <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security-package</a> specific, as described in the following table. This list is not exhaustive. Additional system SSPs and third party SSPs can be added to a system.
-
-<table>
-<tr>
-<th>SSP in use</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="Digest"></a><a id="digest"></a><a id="DIGEST"></a><dl>
-<dt><b>Digest</b></dt>
-<dt></dt>
-</dl>
-</td>
-<td width="60%">
-Null-terminated string that uniquely identifies the URI of the requested resource. The string must be composed of characters that are allowed in a URI and must be representable by  the US ASCII code set.  Percent encoding can be used to represent characters outside the US ASCII code set.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="Kerberos_or_Negotiate"></a><a id="kerberos_or_negotiate"></a><a id="KERBEROS_OR_NEGOTIATE"></a><dl>
-<dt><b>Kerberos or Negotiate</b></dt>
-<dt></dt>
-</dl>
-</td>
-<td width="60%">
-<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Service principal name</a> (SPN) or the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> of the destination server.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NTLM"></a><a id="ntlm"></a><dl>
-<dt><b>NTLM</b></dt>
-<dt></dt>
-</dl>
-</td>
-<td width="60%">
-<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Service principal name</a> (SPN) or the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> of the destination server.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="Schannel_SSL"></a><a id="schannel_ssl"></a><a id="SCHANNEL_SSL"></a><dl>
-<dt><b>Schannel/SSL</b></dt>
-<dt></dt>
-</dl>
-</td>
-<td width="60%">
-Null-terminated string that uniquely identifies the target server. Schannel uses this value to verify the server certificate. Schannel also uses this value to locate the session in the session cache when reestablishing a connection. The cached session is used only if all of the following conditions are met:<ul>
-<li>The target name is the same.</li>
-<li>The cache entry has not expired.</li>
-<li>The application process that calls the function is the same.</li>
-<li>The logon session is the same.</li>
-<li>The credential handle is the same.</li>
-</ul>
-
-
-</td>
-</tr>
-</table>
- 
+TBD
 
 
 ### -param fContextReq [in]
@@ -429,6 +370,70 @@ Do not check for security-related attributes until the final function call retur
 A pointer to a <a href="https://msdn.microsoft.com/0a609b32-dbd7-4905-8990-65ebabcd0668">TimeStamp</a> structure that receives the expiration time of the context. It is recommended that the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> always return this value in local time. This parameter is optional and <b>NULL</b> should be passed for short-lived clients.
 
 There is no expiration time for Microsoft Digest SSP security contexts or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a>.
+
+
+#### - pTargetName [in, optional]
+
+A pointer to a null-terminated string that indicates the target of the context. The string contents are <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security-package</a> specific, as described in the following table. This list is not exhaustive. Additional system SSPs and third party SSPs can be added to a system.
+
+<table>
+<tr>
+<th>SSP in use</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="Digest"></a><a id="digest"></a><a id="DIGEST"></a><dl>
+<dt><b>Digest</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+Null-terminated string that uniquely identifies the URI of the requested resource. The string must be composed of characters that are allowed in a URI and must be representable by  the US ASCII code set.  Percent encoding can be used to represent characters outside the US ASCII code set.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="Kerberos_or_Negotiate"></a><a id="kerberos_or_negotiate"></a><a id="KERBEROS_OR_NEGOTIATE"></a><dl>
+<dt><b>Kerberos or Negotiate</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Service principal name</a> (SPN) or the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> of the destination server.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NTLM"></a><a id="ntlm"></a><dl>
+<dt><b>NTLM</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Service principal name</a> (SPN) or the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> of the destination server.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="Schannel_SSL"></a><a id="schannel_ssl"></a><a id="SCHANNEL_SSL"></a><dl>
+<dt><b>Schannel/SSL</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+Null-terminated string that uniquely identifies the target server. Schannel uses this value to verify the server certificate. Schannel also uses this value to locate the session in the session cache when reestablishing a connection. The cached session is used only if all of the following conditions are met:<ul>
+<li>The target name is the same.</li>
+<li>The cache entry has not expired.</li>
+<li>The application process that calls the function is the same.</li>
+<li>The logon session is the same.</li>
+<li>The credential handle is the same.</li>
+</ul>
+
+
+</td>
+</tr>
+</table>
+ 
 
 
 ## -returns
@@ -722,7 +727,7 @@ When using the Schannel SSP, after a client application receives an authenticati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

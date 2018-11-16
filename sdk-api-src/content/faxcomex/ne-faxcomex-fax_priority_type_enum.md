@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_priority_type_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5oz1.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: FAX_PRIORITY_TYPE_ENUM, FAX_PRIORITY_TYPE_ENUM enumeration [Fax Service], _mfax_fax_priority_type_enum, fax._mfax_fax_priority_type_enum, faxcomex/FAX_PRIORITY_TYPE_ENUM, faxcomex/fptHIGH, faxcomex/fptLOW, faxcomex/fptNORMAL, fptHIGH, fptLOW, fptNORMAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,15 +78,15 @@ The fax will be sent with a high priority.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687026(v=VS.85).aspx">IFaxDocument::get_Priority</a>
+<a href="https://msdn.microsoft.com/4f7ebcad-ff7d-4c11-b4c4-c7325415231e">IFaxDocument::get_Priority</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689543(v=VS.85).aspx">IFaxOutgoingJob::get_Priority</a>
+<a href="https://msdn.microsoft.com/0cf5d46f-0c26-4fa5-808e-13bdf1901964">IFaxOutgoingJob::get_Priority</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690170(v=VS.85).aspx">IFaxOutgoingMessage::get_Priority</a>
+<a href="https://msdn.microsoft.com/bd727334-0e7a-4f2b-a4bb-2308c9ecfc9a">IFaxOutgoingMessage::get_Priority</a>
  
 
  

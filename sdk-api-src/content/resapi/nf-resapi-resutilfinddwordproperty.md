@@ -4,10 +4,10 @@ title: ResUtilFindDwordProperty function
 author: windows-sdk-content
 description: Locates an unsigned long property value in a property list. The PRESUTIL_FIND_DWORD_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfinddwordproperty.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 884e922f-5cc6-4e46-b2f6-2436e7fc634e
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PRESUTIL_FIND_DWORD_PROPERTY, PRESUTIL_FIND_DWORD_PROPERTY function [Failover Cluster], ResUtilFindDwordProperty, ResUtilFindDwordProperty function [Failover Cluster], _wolf_resutilfinddwordproperty, mscs.resutilfinddwordproperty, resapi/PRESUTIL_FIND_DWORD_PROPERTY, resapi/ResUtilFindDwordProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,6 +94,36 @@ If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The data is in an incorrect format.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_FILE_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property could not be located in the property list.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

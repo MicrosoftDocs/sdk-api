@@ -7,7 +7,7 @@ old-location: wua\iupdate4.htm
 tech.root: Wua_Sdk
 ms.assetid: 44904dd6-28d2-46b4-a237-0da68535cc84
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IUpdate4, IUpdate4 interface [Windows Update Agent], IUpdate4 interface [Windows Update Agent],described, wua.iupdate4, wuapi/IUpdate4
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::get_CustomCompositorClass
 author: windows-sdk-content
 description: The get_CustomCompositorClass method retrieves the class identifier (CLSID) of the Video Mixing Renderer's current image compositor, as a BSTR.
 old-location: mstv\imsvidvideorenderer_get_customcompositorclass.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d6ff1968-e891-432d-9271-f6d6a6a8a756
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_CustomCompositorClass method, IMSVidVideoRenderer.get_CustomCompositorClass, IMSVidVideoRenderer::get_CustomCompositorClass, IMSVidVideoRendererget_CustomCompositorClass, get_CustomCompositorClass, get_CustomCompositorClass method [Microsoft TV Technologies], get_CustomCompositorClass method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_customcompositorclass, segment/IMSVidVideoRenderer::get_CustomCompositorClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_CustomCompositorClass</b> method retrieves the class identifier (CLSI
 
 
 
-### -param CompositorCLSID
-
-TBD
-
-
-
-
-#### - pCompositorCLSID [out]
+### -param CompositorCLSID [out]
 
 Receives a string representation of the CLSID.
 

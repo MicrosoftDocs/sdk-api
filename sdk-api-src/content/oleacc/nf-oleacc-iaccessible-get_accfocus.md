@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accfocus.htm
 tech.root: WinAuto
 ms.assetid: 42114c5d-8f28-458a-8d22-ac1531cd50d2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accFocus method, IAccessible.get_accFocus, IAccessible::get_accFocus, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_get_accFocus, get_accFocus, get_accFocus method [Windows Accessibility], get_accFocus method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accfocus, oleacc/IAccessible::get_accFocus, winauto.iaccessible_iaccessible__get_accfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>IAccessible::get_accFocus</b> method retrieves the object that has the ke
 
 
 
-### -param pvarChild
-
-TBD
-
-
-
-
-#### - pvarID [out, retval]
+### -param pvarChild [out, retval]
 
 Type: <b>VARIANT*</b>
 

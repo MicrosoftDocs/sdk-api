@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_sampler_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_sampler_desc.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 3a645765-f6d2-d3f9-5cfb-b48ca43f620b, D3D10_SAMPLER_DESC, D3D10_SAMPLER_DESC structure [Direct3D 10], d3d10/D3D10_SAMPLER_DESC, direct3d10.d3d10_sampler_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,28 +60,28 @@ Describes a sampler state.
 
 ### -field Filter
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205060(v=VS.85).aspx">D3D10_FILTER</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b727c1b0-98dc-4b2e-a96f-de199d5f7fd5">D3D10_FILTER</a></b>
 
-Filtering method to use when sampling a texture (see <a href="https://msdn.microsoft.com/en-us/library/Bb205060(v=VS.85).aspx">D3D10_FILTER</a>).
+Filtering method to use when sampling a texture (see <a href="https://msdn.microsoft.com/b727c1b0-98dc-4b2e-a96f-de199d5f7fd5">D3D10_FILTER</a>).
 
 
 ### -field AddressU
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172483(v=VS.85).aspx">D3D10_TEXTURE_ADDRESS_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2f664aeb-1d6c-4705-aa2f-bd6b32cc410b">D3D10_TEXTURE_ADDRESS_MODE</a></b>
 
-Method to use for resolving a u texture coordinate that is outside the 0 to 1 range (see <a href="https://msdn.microsoft.com/en-us/library/Bb172483(v=VS.85).aspx">D3D10_TEXTURE_ADDRESS_MODE</a>).
+Method to use for resolving a u texture coordinate that is outside the 0 to 1 range (see <a href="https://msdn.microsoft.com/2f664aeb-1d6c-4705-aa2f-bd6b32cc410b">D3D10_TEXTURE_ADDRESS_MODE</a>).
 
 
 ### -field AddressV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172483(v=VS.85).aspx">D3D10_TEXTURE_ADDRESS_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2f664aeb-1d6c-4705-aa2f-bd6b32cc410b">D3D10_TEXTURE_ADDRESS_MODE</a></b>
 
 Method to use for resolving a v texture coordinate that is outside the 0 to 1 range.
 
 
 ### -field AddressW
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172483(v=VS.85).aspx">D3D10_TEXTURE_ADDRESS_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2f664aeb-1d6c-4705-aa2f-bd6b32cc410b">D3D10_TEXTURE_ADDRESS_MODE</a></b>
 
 Method to use for resolving a w texture coordinate that is outside the 0 to 1 range.
 
@@ -102,9 +102,9 @@ Clamping value used if D3D10_FILTER_ANISOTROPIC or D3D10_FILTER_COMPARISON_ANISO
 
 ### -field ComparisonFunc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204902(v=VS.85).aspx">D3D10_COMPARISON_FUNC</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e0d0d421-ebd0-441c-949b-97506703e3fa">D3D10_COMPARISON_FUNC</a></b>
 
-A function that compares sampled data against existing sampled data. The function options are listed in <a href="https://msdn.microsoft.com/en-us/library/Bb204902(v=VS.85).aspx">D3D10_COMPARISON_FUNC</a>.
+A function that compares sampled data against existing sampled data. The function options are listed in <a href="https://msdn.microsoft.com/e0d0d421-ebd0-441c-949b-97506703e3fa">D3D10_COMPARISON_FUNC</a>.
 
 
 ### -field BorderColor
@@ -194,7 +194,7 @@ These are the default values for sampler state.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
  
 
  

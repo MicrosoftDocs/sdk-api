@@ -7,7 +7,7 @@ old-location: gdi\setmiterlimit.htm
 tech.root: gdi
 ms.assetid: 4bed113b-9e3f-441f-96d7-71630bf9298e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: SetMiterLimit, SetMiterLimit function [Windows GDI], _win32_SetMiterLimit, gdi.setmiterlimit, wingdi/SetMiterLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

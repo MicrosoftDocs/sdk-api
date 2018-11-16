@@ -4,10 +4,10 @@ title: IMMCVersionInfo
 author: windows-sdk-content
 description: The IMMCVersionInfo interface provides version information about the installed MMC application.
 old-location: mmc\immcversioninfo.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 13cc0cef-3548-4f9f-b150-4f13be23d0ca
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IMMCVersionInfo, IMMCVersionInfo interface [MMC], IMMCVersionInfo interface [MMC],described, MMCVersionInfo, _slate_immcversioninfo, mmc.immcversioninfo, mmc/IMMCVersionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

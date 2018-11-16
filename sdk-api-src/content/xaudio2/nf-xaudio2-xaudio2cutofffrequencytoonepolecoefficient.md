@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2cutofffrequencytoonepolecoefficient.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CutoffFrequencyToOnePoleCoefficient(float,UINT32)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: XAudio2CutoffFrequencyToOnePoleCoefficient, XAudio2CutoffFrequencyToOnePoleCoefficient function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2cutofffrequencytoonepolecoefficient, xaudio2/XAudio2CutoffFrequencyToOnePoleCoefficient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,9 +56,9 @@ req.redist:
 ## -description
 
 
-Inline function that converts from filter cutoff frequencies expressed in hertz to the filter coefficients used with the <b>Frequency</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+Inline function that converts from filter cutoff frequencies expressed in hertz to the filter coefficients used with the <b>Frequency</b> member of the <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
-This function applies to LowPassOnePoleFilter and HighPassOnePole filter types only, use <a href="https://msdn.microsoft.com/en-us/library/Ee419215(v=VS.85).aspx">XAudio2CutoffFrequencyToRadians</a> for state-variable filter types.
+This function applies to LowPassOnePoleFilter and HighPassOnePole filter types only, use <a href="https://msdn.microsoft.com/b46e89a9-56bc-4464-b5ab-8e618e372086">XAudio2CutoffFrequencyToRadians</a> for state-variable filter types.
 
 
 
@@ -75,14 +75,14 @@ The cutoff frequency in hertz. Frequencies greater than <i>SampleRate</i> are cl
 
 ### -param SampleRate
 
-The sample rate of the audio data affected by the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+The sample rate of the audio data affected by the <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 
 ## -returns
 
 
 
-Returns a filter coefficient for use in the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+Returns a filter coefficient for use in the <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 
 

@@ -7,7 +7,7 @@ old-location: http\httpaddurl.htm
 tech.root: Http
 ms.assetid: 76b228a0-6792-4184-bf0e-8638f3ab6b98
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: HttpAddUrl, HttpAddUrl function [HTTP], _http_httpaddurl, http.httpaddurl, http/HttpAddUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

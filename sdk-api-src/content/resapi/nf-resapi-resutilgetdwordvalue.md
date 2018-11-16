@@ -4,10 +4,10 @@ title: ResUtilGetDwordValue function
 author: windows-sdk-content
 description: Returns a numeric value from the cluster database.
 old-location: mscs\resutilgetdwordvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2db6126e-a3a7-415b-a436-c3d0748fbc65
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: PRESUTIL_GET_DWORD_VALUE, PRESUTIL_GET_DWORD_VALUE function [Failover Cluster], ResUtilGetDwordValue, ResUtilGetDwordValue function [Failover Cluster], _wolf_resutilgetdwordvalue, mscs.resutilgetdwordvalue, resapi/PRESUTIL_GET_DWORD_VALUE, resapi/ResUtilGetDwordValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,6 +92,25 @@ If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error code.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The value pointed to by <i>ValueName</i> is not a numeric value.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

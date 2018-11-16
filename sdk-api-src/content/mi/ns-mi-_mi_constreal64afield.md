@@ -4,10 +4,10 @@ title: "_MI_ConstReal64AField"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constreal64afield.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 7e70a27c-4c25-4511-8bda-90ab06bcebb5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ConstReal64AField, MI_ConstReal64AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstReal64AField, mi/MI_ConstReal64AField, wmi._mi_constreal64afield, wmi_v2.mi_constreal64afield
 ms.prod: windows-hardware
 ms.technology: windows-devices

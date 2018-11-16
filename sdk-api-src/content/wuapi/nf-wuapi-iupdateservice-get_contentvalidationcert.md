@@ -7,7 +7,7 @@ old-location: wua\iupdateservice_contentvalidationcert.htm
 tech.root: Wua_Sdk
 ms.assetid: c511a7d4-ac3c-4b54-9048-2397f359838b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: ContentValidationCert property [Windows Update Agent], ContentValidationCert property [Windows Update Agent],IUpdateService interface, IUpdateService interface [Windows Update Agent],ContentValidationCert property, IUpdateService.ContentValidationCert, IUpdateService.get_ContentValidationCert, IUpdateService::ContentValidationCert, IUpdateService::get_ContentValidationCert, get_ContentValidationCert, wua.iupdateservice_contentvalidationcert, wuapi/IUpdateService::ContentValidationCert, wuapi/IUpdateService::get_ContentValidationCert
 ms.prod: windows-hardware
 ms.technology: windows-devices

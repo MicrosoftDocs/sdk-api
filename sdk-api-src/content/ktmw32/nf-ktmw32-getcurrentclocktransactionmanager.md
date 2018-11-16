@@ -7,7 +7,7 @@ old-location: fs\getcurrentclocktransactionmanager_func.htm
 tech.root: Ktm
 ms.assetid: 21d7c0fa-3a49-43b3-9325-d3dfdabbcb98
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetCurrentClockTransactionManager, GetCurrentClockTransactionManager function [Files], fs.getcurrentclocktransactionmanager_func, ktmw32/GetCurrentClockTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

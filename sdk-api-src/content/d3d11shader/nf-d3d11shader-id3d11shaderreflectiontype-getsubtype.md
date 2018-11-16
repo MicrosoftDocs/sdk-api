@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectiontype_getsubtype.htm
 tech.root: direct3d11
 ms.assetid: fbeae0a6-65d4-4650-a3f9-113fc0fdc6e9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 3c36b294-f376-6406-e507-0e0357b753df, GetSubType, GetSubType method [Direct3D 11], GetSubType method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetSubType method, ID3D11ShaderReflectionType.GetSubType, ID3D11ShaderReflectionType::GetSubType, d3d11shader/ID3D11ShaderReflectionType::GetSubType, direct3d11.id3d11shaderreflectiontype_getsubtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,9 @@ Gets the base class of a class.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType</a>*</b>
 
-Returns a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a> containing the base class type.  Returns <b>NULL</b> if the class does not have a base class.
+Returns a pointer to a <a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a> containing the base class type.  Returns <b>NULL</b> if the class does not have a base class.
 
 
 
@@ -93,7 +93,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>
+<a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>
  
 
  

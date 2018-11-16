@@ -7,7 +7,7 @@ old-location: security\websecuritylevel_enum.htm
 tech.root: SecCertEnroll
 ms.assetid: fa87ec81-59d9-495c-9b2e-5394678cd020
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: LevelSafe, LevelUnsafe, WebSecurityLevel, WebSecurityLevel enumeration [Security], certenroll/LevelSafe, certenroll/LevelUnsafe, certenroll/WebSecurityLevel, security.websecuritylevel_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,11 +73,11 @@ The method is safe for scripting.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374846(v=VS.85).aspx">CertEnroll Enumerations</a>
+<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
  
 
  

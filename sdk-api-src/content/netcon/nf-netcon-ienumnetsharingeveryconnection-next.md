@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingeveryconnection_next.htm
 tech.root: ICS
 ms.assetid: 05c1ec04-81bc-4d38-aab5-843ea54dda1d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Next method, IEnumNetSharingEveryConnection.Next, IEnumNetSharingEveryConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_next, ics.ienumnetsharingeveryconnection_next, netcon/IEnumNetSharingEveryConnection::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ Specifies the number of privately-shared connections to retrieve.
 ### -param rgVar [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> variable for the connection. This variant contains a pointer to an 
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> variable for the connection. This variant contains a pointer to an 
 <a href="https://msdn.microsoft.com/7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f">INetConnection</a> interface.
 
 

@@ -57,7 +57,7 @@ req.redist:
 ## -description
 
 
-The <b>BatteryClassQueryWmiDataBlock</b> routine is used by battery miniclass drivers inside their <a href="https://msdn.microsoft.com/en-us/library/Ff544096(v=VS.85).aspx">DpWmiQueryDataBlock</a> routines to allow the battery class driver to process the WMI data block query requests it handles on behalf of the driver.
+The <b>BatteryClassQueryWmiDataBlock</b> routine is used by battery miniclass drivers inside their <a href="https://msdn.microsoft.com/c8996367-9ac5-4725-93ff-f13a334fbc5a">DpWmiQueryDataBlock</a> routines to allow the battery class driver to process the WMI data block query requests it handles on behalf of the driver.
 
 
 ## -parameters
@@ -67,37 +67,37 @@ The <b>BatteryClassQueryWmiDataBlock</b> routine is used by battery miniclass dr
 
 ### -param ClassData [in]
 
-Pointer to a battery class handle that was previously received from <a href="https://msdn.microsoft.com/en-us/library/Ff536266(v=VS.85).aspx">BatteryClassInitializeDevice</a>.
+Pointer to a battery class handle that was previously received from <a href="https://msdn.microsoft.com/0af685a5-f5c2-4448-b8b2-f5cd9ed77047">BatteryClassInitializeDevice</a>.
 
 
 ### -param DeviceObject [in, out]
 
-Pointer to the driver's device object.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://msdn.microsoft.com/en-us/library/Ff544096(v=VS.85).aspx">DpWmiQueryDataBlock</a> routine.
+Pointer to the driver's device object.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://msdn.microsoft.com/c8996367-9ac5-4725-93ff-f13a334fbc5a">DpWmiQueryDataBlock</a> routine.
 
 
 ### -param Irp [in, out]
 
-Pointer to the WMI query data block request.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://msdn.microsoft.com/en-us/library/Ff544096(v=VS.85).aspx">DpWmiQueryDataBlock</a> routine.
+Pointer to the WMI query data block request.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://msdn.microsoft.com/c8996367-9ac5-4725-93ff-f13a334fbc5a">DpWmiQueryDataBlock</a> routine.
 
 
 ### -param GuidIndex [in]
 
-Specifies the WMI class by its index.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://msdn.microsoft.com/en-us/library/Ff544096(v=VS.85).aspx">DpWmiQueryDataBlock</a> routine.
+Specifies the WMI class by its index.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://msdn.microsoft.com/c8996367-9ac5-4725-93ff-f13a334fbc5a">DpWmiQueryDataBlock</a> routine.
 
 
 ### -param InstanceLengthArray [out]
 
-Pointer to an array of ULONG values that indicate the length of each instance to be returned.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://msdn.microsoft.com/en-us/library/Ff544096(v=VS.85).aspx">DpWmiQueryDataBlock</a> routine.
+Pointer to an array of ULONG values that indicate the length of each instance to be returned.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://msdn.microsoft.com/c8996367-9ac5-4725-93ff-f13a334fbc5a">DpWmiQueryDataBlock</a> routine.
 
 
 ### -param OutBufferSize [in]
 
-Specifies the maximum number of bytes available to receive data in the buffer specified by the <i>Buffer</i> parameter.  The battery miniclass driver should pass the value of the <i>BufferAvail</i> parameter it receives as input to its <a href="https://msdn.microsoft.com/en-us/library/Ff544096(v=VS.85).aspx">DpWmiQueryDataBlock</a> routine.
+Specifies the maximum number of bytes available to receive data in the buffer specified by the <i>Buffer</i> parameter.  The battery miniclass driver should pass the value of the <i>BufferAvail</i> parameter it receives as input to its <a href="https://msdn.microsoft.com/c8996367-9ac5-4725-93ff-f13a334fbc5a">DpWmiQueryDataBlock</a> routine.
 
 
 ### -param Buffer [out, optional]
 
-Pointer to the buffer to receive the instance data.  If the buffer is too small to hold the data, <b>BatteryClassQueryWmiDataBlock</b> returns a status value of STATUS_BUFFER_TOO_SMALL.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://msdn.microsoft.com/en-us/library/Ff544096(v=VS.85).aspx">DpWmiQueryDataBlock</a> routine.
+Pointer to the buffer to receive the instance data.  If the buffer is too small to hold the data, <b>BatteryClassQueryWmiDataBlock</b> returns a status value of STATUS_BUFFER_TOO_SMALL.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://msdn.microsoft.com/c8996367-9ac5-4725-93ff-f13a334fbc5a">DpWmiQueryDataBlock</a> routine.
 
 
 ## -returns
@@ -154,7 +154,7 @@ The battery class driver does not handle this WMI class.
 
 
 
-By design, a battery miniclass driver should call <b>BatteryClassQueryWmiDataBlock</b> inside its <a href="https://msdn.microsoft.com/en-us/library/Ff544096(v=VS.85).aspx">DpWmiQueryDataBlock</a> routine before processing the request.  The miniclass driver should pass the parameters it receives as input to its <b>DpWmiQueryDataBlock</b> routine.  If the battery class driver returns any status other than STATUS_WMI_GUID_NOT_FOUND, the routine has handled the request on behalf of the miniclass driver.  In that case, the class driver has already called <a href="https://msdn.microsoft.com/en-us/library/Ff565798(v=VS.85).aspx">WmiCompleteRequest</a>, and miniclass driver must not call it again. 
+By design, a battery miniclass driver should call <b>BatteryClassQueryWmiDataBlock</b> inside its <a href="https://msdn.microsoft.com/c8996367-9ac5-4725-93ff-f13a334fbc5a">DpWmiQueryDataBlock</a> routine before processing the request.  The miniclass driver should pass the parameters it receives as input to its <b>DpWmiQueryDataBlock</b> routine.  If the battery class driver returns any status other than STATUS_WMI_GUID_NOT_FOUND, the routine has handled the request on behalf of the miniclass driver.  In that case, the class driver has already called <a href="https://msdn.microsoft.com/c6377dcc-a83b-4766-b882-25d228a26efe">WmiCompleteRequest</a>, and miniclass driver must not call it again. 
 
 
 
@@ -164,15 +164,15 @@ By design, a battery miniclass driver should call <b>BatteryClassQueryWmiDataBlo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536270(v=VS.85).aspx">BatteryClassSystemControl</a>
+<a href="https://msdn.microsoft.com/d462c51d-e175-4fc8-88b9-515ba648fab4">BatteryClassSystemControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff544096(v=VS.85).aspx">DpWmiQueryDataBlock</a>
+<a href="https://msdn.microsoft.com/c8996367-9ac5-4725-93ff-f13a334fbc5a">DpWmiQueryDataBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff565798(v=VS.85).aspx">WmiCompleteRequest</a>
+<a href="https://msdn.microsoft.com/c6377dcc-a83b-4766-b882-25d228a26efe">WmiCompleteRequest</a>
  
 
  

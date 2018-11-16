@@ -7,7 +7,7 @@ old-location: winmsg\sendasyncproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendasyncproc.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: SendAsyncProc, SendAsyncProc callback, SendAsyncProc callback function [Windows and Messages], _win32_SendAsyncProc, _win32_sendasyncproc_cpp, winmsg.sendasyncproc, winui._win32_sendasyncproc, winuser/SendAsyncProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-An application-defined callback function used with the <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> function. The system passes the message to the callback function after passing the message to the destination window procedure. The <b>SENDASYNCPROC</b> type defines a pointer to this callback function. <i>SendAsyncProc</i> is a placeholder for the application-defined function name.
+An application-defined callback function used with the <a href="https://msdn.microsoft.com/6246e7ae-da06-4b86-b0d5-1743522b1bda">SendMessageCallback</a> function. The system passes the message to the callback function after passing the message to the destination window procedure. The <b>SENDASYNCPROC</b> type defines a pointer to this callback function. <i>SendAsyncProc</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ An application-defined callback function used with the <a href="https://msdn.mic
 
 Type: <b>ULONG_PTR</b>
 
-An application-defined value sent from the <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> function.
+An application-defined value sent from the <a href="https://msdn.microsoft.com/6246e7ae-da06-4b86-b0d5-1743522b1bda">SendMessageCallback</a> function.
 
 
 #### - hwnd [in]
@@ -89,7 +89,7 @@ Type: <b>HWND</b>
 
 A handle to the window whose window procedure received the message. 
 
-If the <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> function was called with its <i>hwnd</i> parameter set to <b>HWND_BROADCAST</b>, the system calls the <i>SendAsyncProc</i> function once for each top-level window.
+If the <a href="https://msdn.microsoft.com/6246e7ae-da06-4b86-b0d5-1743522b1bda">SendMessageCallback</a> function was called with its <i>hwnd</i> parameter set to <b>HWND_BROADCAST</b>, the system calls the <i>SendAsyncProc</i> function once for each top-level window.
 
 
 #### - lResult [in]
@@ -119,9 +119,9 @@ This callback function does not return a value.
 
 
 
-You install a <i>SendAsyncProc</i> application-defined callback function by passing a <b>SENDASYNCPROC</b> pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> function. 
+You install a <i>SendAsyncProc</i> application-defined callback function by passing a <b>SENDASYNCPROC</b> pointer to the <a href="https://msdn.microsoft.com/6246e7ae-da06-4b86-b0d5-1743522b1bda">SendMessageCallback</a> function. 
 
-The callback function is only called when the thread that called <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> calls <a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>, <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms644956(v=VS.85).aspx">WaitMessage</a>.
+The callback function is only called when the thread that called <a href="https://msdn.microsoft.com/6246e7ae-da06-4b86-b0d5-1743522b1bda">SendMessageCallback</a> calls <a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>, <a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a>, or <a href="https://msdn.microsoft.com/154fc22f-ef7a-42df-9f5d-26f0d2a2773c">WaitMessage</a>.
 
 
 
@@ -135,15 +135,15 @@ The callback function is only called when the thread that called <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a>
 
 
 
@@ -151,11 +151,11 @@ The callback function is only called when the thread that called <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a>
+<a href="https://msdn.microsoft.com/6246e7ae-da06-4b86-b0d5-1743522b1bda">SendMessageCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644956(v=VS.85).aspx">WaitMessage</a>
+<a href="https://msdn.microsoft.com/154fc22f-ef7a-42df-9f5d-26f0d2a2773c">WaitMessage</a>
  
 
  

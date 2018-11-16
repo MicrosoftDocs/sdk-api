@@ -4,10 +4,10 @@ title: IBDA_Encoder::SetParameters
 author: windows-sdk-content
 description: Sets the parameters for the Encoder Service.
 old-location: mstv\ibda_encoder_setparameters.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 0ee90121-b52b-47dc-b954-e7ba0b14f75c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_Encoder interface [Microsoft TV Technologies],SetParameters method, IBDA_Encoder.SetParameters, IBDA_Encoder::SetParameters, PBDA_Encoder_BitrateMode_Average, PBDA_Encoder_BitrateMode_Constant, PBDA_Encoder_BitrateMode_Variable, SetParameters, SetParameters method [Microsoft TV Technologies], SetParameters method [Microsoft TV Technologies],IBDA_Encoder interface, bdaiface/IBDA_Encoder::SetParameters, mstv.ibda_encoder_setparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,7 +156,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693323(v=VS.85).aspx">IBDA_Encoder</a>
+<a href="https://msdn.microsoft.com/43ed9d91-c769-4fb3-bcd9-e5239ec5d9c7">IBDA_Encoder</a>
  
 
  

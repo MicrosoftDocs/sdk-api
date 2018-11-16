@@ -7,7 +7,7 @@ old-location: multimedia\midistreamproperty.htm
 tech.root: Multimedia
 ms.assetid: fb0f8bf4-5802-444e-9b2e-d9a7c80e3a20
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_midiStreamProperty, midiStreamProperty, midiStreamProperty function [Windows Multimedia], mmeapi/midiStreamProperty, multimedia.midistreamproperty"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The <b>midiStreamProperty</b> function sets or retrieves properties of a MIDI da
 
 ### -param hms
 
-TBD
+Handle to the MIDI device that the property is associated with.
 
 
 ### -param lppropdata
@@ -108,11 +108,6 @@ Flags that specify the action to perform and identify the appropriate property o
 </tr>
 </table>
  
-
-
-#### - hm
-
-Handle to the MIDI device that the property is associated with.
 
 
 ## -returns

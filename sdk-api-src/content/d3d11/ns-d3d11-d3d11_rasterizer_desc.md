@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_rasterizer_desc.htm
 tech.root: direct3d11
 ms.assetid: 53252fef-f557-46d1-b6a7-ccc8a059752a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 2dbc005c-d339-7868-c653-8b43d3f9e828, D3D11_RASTERIZER_DESC, D3D11_RASTERIZER_DESC structure [Direct3D 11], d3d11/D3D11_RASTERIZER_DESC, direct3d11.d3d11_rasterizer_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,21 +83,21 @@ Determines if a triangle is front- or back-facing. If this parameter is <b>TRUE<
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
-Depth value added to a given pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
+Depth value added to a given pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/ee904316-dc6d-48a4-bdb7-0f7dcdb9d9d6">Depth Bias</a>.
 
 
 ### -field DepthBiasClamp
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
 
-Maximum depth bias of a pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
+Maximum depth bias of a pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/ee904316-dc6d-48a4-bdb7-0f7dcdb9d9d6">Depth Bias</a>.
 
 
 ### -field SlopeScaledDepthBias
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
 
-Scalar on a given pixel's slope. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
+Scalar on a given pixel's slope. For info about depth bias, see <a href="https://msdn.microsoft.com/ee904316-dc6d-48a4-bdb7-0f7dcdb9d9d6">Depth Bias</a>.
 
 
 ### -field DepthClipEnable
@@ -196,7 +196,7 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 </table>
  
 
-<div class="alert"><b>Note</b>  For <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature levels</a> 9.1, 9.2, 9.3, and 10.0, if you set <b>MultisampleEnable</b> to <b>FALSE</b>, the runtime renders all points, lines, and triangles without anti-aliasing even for render targets with a sample count greater than 1. For feature levels 10.1 and higher, the setting of <b>MultisampleEnable</b> has no effect on points and triangles with regard to MSAA and impacts only the selection of the line-rendering algorithm as shown in this table:</div>
+<div class="alert"><b>Note</b>  For <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature levels</a> 9.1, 9.2, 9.3, and 10.0, if you set <b>MultisampleEnable</b> to <b>FALSE</b>, the runtime renders all points, lines, and triangles without anti-aliasing even for render targets with a sample count greater than 1. For feature levels 10.1 and higher, the setting of <b>MultisampleEnable</b> has no effect on points and triangles with regard to MSAA and impacts only the selection of the line-rendering algorithm as shown in this table:</div>
 <div> </div>
 
 <table>
@@ -230,7 +230,7 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 
 
 
-The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> members apply only to multisample antialiasing (MSAA) render targets (that is, render targets with sample counts greater than 1). Because of the differences in <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature-level</a> behavior and as long as you aren’t performing any line drawing or don’t mind that lines render as quadrilaterals, we recommend that you always set <b>MultisampleEnable</b> to <b>TRUE</b> whenever you render on MSAA render targets.
+The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> members apply only to multisample antialiasing (MSAA) render targets (that is, render targets with sample counts greater than 1). Because of the differences in <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature-level</a> behavior and as long as you aren’t performing any line drawing or don’t mind that lines render as quadrilaterals, we recommend that you always set <b>MultisampleEnable</b> to <b>TRUE</b> whenever you render on MSAA render targets.
 
 
 

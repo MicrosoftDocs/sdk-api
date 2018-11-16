@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_GetHeight_graphics_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\fontgetheightmethods\getheight_62graphics.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Font class [GDI+],GetHeight method, Font.GetHeight, Font.GetHeight(IN const Graphics), Font.GetHeight(const Graphics*), Font::GetHeight, Font::GetHeight(IN const Graphics), GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],Font class, _gdiplus_CLASS_Font_GetHeight_graphics_, gdiplus._gdiplus_CLASS_Font_GetHeight_graphics_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,9 +107,13 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object, retrieves the height of the 
 						<b>Font</b> object, and uses the height to position two lines of text, with the second line directly below the first.
 
-
-```cpp
-VOID Example_GetHeight(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetHeight(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -119,20 +123,20 @@ VOID Example_GetHeight(HDC hdc)
    // Draw text with myFont.
    SolidBrush solidbrush_1(Color(255, 0, 0, 0));
    WCHAR string[] = L"The first line of text";
-   graphics.DrawString(string, 22, &myFont, PointF(0, 0), &solidbrush_1);
+   graphics.DrawString(string, 22, &amp;myFont, PointF(0, 0), &amp;solidbrush_1);
 
    // Get the height of myFont.
-   REAL height = myFont.GetHeight(&graphics);
+   REAL height = myFont.GetHeight(&amp;graphics);
 
    // Draw text immediately below the first line of text.
    SolidBrush solidbrush_2(Color(255, 255, 0, 0));
    WCHAR string[] = L"The second line of text";
-   graphics.DrawString(string2, 23, &myFont, PointF(0, height),
-                       &solidbrush_2);
-}
-```
-
-
+   graphics.DrawString(string2, 23, &amp;myFont, PointF(0, height),
+                       &amp;solidbrush_2);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

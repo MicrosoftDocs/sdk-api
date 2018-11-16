@@ -4,10 +4,10 @@ title: IMSVidDevice::get_Category
 author: windows-sdk-content
 description: The get_Category method retrieves the category of the device as a BSTR.
 old-location: mstv\imsviddevice_get_category.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 369080c6-b707-494e-a663-e78e7d8d3eaf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Category method, IMSVidDevice.get_Category, IMSVidDevice::get_Category, IMSVidDeviceget_Category, get_Category, get_Category method [Microsoft TV Technologies], get_Category method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_category, segment/IMSVidDevice::get_Category
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_Category</b> method retrieves the category of the device as a <b>BSTR
 
 
 
-### -param Guid
-
-TBD
-
-
-
-
-#### - pGuid [out]
+### -param Guid [out]
 
 <b>BSTR</b> that receives the device category.
 

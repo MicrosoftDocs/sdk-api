@@ -7,7 +7,7 @@ old-location: display\engfindimageprocaddress.htm
 tech.root: display
 ms.assetid: a81c0814-3210-40dd-969f-20593353e54c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EngFindImageProcAddress, EngFindImageProcAddress function [Display Devices], display.engfindimageprocaddress, gdifncs_7680e4bd-d5d2-4365-84a0-131ea7a38b22.xml, winddi/EngFindImageProcAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

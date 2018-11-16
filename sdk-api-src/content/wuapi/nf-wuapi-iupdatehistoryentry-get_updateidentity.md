@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentry_updateidentity.htm
 tech.root: Wua_Sdk
 ms.assetid: 428206f9-4812-4a9a-8b8f-8a22db401c19
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UpdateIdentity property, IUpdateHistoryEntry.UpdateIdentity, IUpdateHistoryEntry.get_UpdateIdentity, IUpdateHistoryEntry::UpdateIdentity, IUpdateHistoryEntry::get_UpdateIdentity, UpdateIdentity property [Windows Update Agent], UpdateIdentity property [Windows Update Agent],IUpdateHistoryEntry interface, get_UpdateIdentity, wua.iupdatehistoryentry_updateidentity, wuapi/IUpdateHistoryEntry::UpdateIdentity, wuapi/IUpdateHistoryEntry::get_UpdateIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

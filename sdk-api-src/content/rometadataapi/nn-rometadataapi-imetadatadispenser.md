@@ -7,7 +7,7 @@ old-location: winrt\imetadatadispenser.htm
 tech.root: WinRT
 ms.assetid: 3454193d-9068-4032-ae9e-b3087509b0b8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IMetaDataDispenser, IMetaDataDispenser interface [Windows Runtime], IMetaDataDispenser interface [Windows Runtime],described, rometadataapi/IMetaDataDispenser, winrt.imetadatadispenser
 ms.prod: windows-hardware
 ms.technology: windows-devices

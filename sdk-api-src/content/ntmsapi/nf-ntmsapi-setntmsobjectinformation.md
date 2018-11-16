@@ -7,7 +7,7 @@ old-location: fs\setntmsobjectinformation.htm
 tech.root: Rsm
 ms.assetid: 1cdb9c72-1b34-4800-a07d-b648baec8582
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: SetNtmsObjectInformation, SetNtmsObjectInformation function [Files], SetNtmsObjectInformationA, SetNtmsObjectInformationW, _zaw_setntmsobjectinformation, base.setntmsobjectinformation, fs.setntmsobjectinformation, ntmsapi/SetNtmsObjectInformation, ntmsapi/SetNtmsObjectInformationA, ntmsapi/SetNtmsObjectInformationW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -364,7 +364,7 @@ The following is the list of objects that have members that can be updated.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
  
 
  

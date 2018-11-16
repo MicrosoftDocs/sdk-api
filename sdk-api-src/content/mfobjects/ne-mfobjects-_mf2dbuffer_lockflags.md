@@ -7,7 +7,7 @@ old-location: mf\mf2dbuffer_lockflags.htm
 tech.root: medfound
 ms.assetid: 298E3FBE-1902-4AA1-9CC8-5B8D65A48ECF
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: MF2DBuffer_LockFlags, MF2DBuffer_LockFlags enumeration [Media Foundation], MF2DBuffer_LockFlags_ForceDWORD, MF2DBuffer_LockFlags_LockTypeMask, MF2DBuffer_LockFlags_Read, MF2DBuffer_LockFlags_ReadWrite, MF2DBuffer_LockFlags_Write, _MF2DBuffer_LockFlags, mf.mf2dbuffer_lockflags, mfobjects/MF2DBuffer_LockFlags, mfobjects/MF2DBuffer_LockFlags_ForceDWORD, mfobjects/MF2DBuffer_LockFlags_LockTypeMask, mfobjects/MF2DBuffer_LockFlags_Read, mfobjects/MF2DBuffer_LockFlags_ReadWrite, mfobjects/MF2DBuffer_LockFlags_Write
 ms.prod: windows-hardware
 ms.technology: windows-devices

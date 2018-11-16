@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderstreamclock_gettime.htm
 tech.root: wmformat
 ms.assetid: d44b8701-8065-40a5-abc3-1c7513c618ea
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetTime, GetTime method [windows Media Format], GetTime method [windows Media Format],IWMReaderStreamClock interface, IWMReaderStreamClock interface [windows Media Format],GetTime method, IWMReaderStreamClock.GetTime, IWMReaderStreamClock::GetTime, IWMReaderStreamClockGetTime, wmformat.iwmreaderstreamclock_gettime, wmsdkidl/IWMReaderStreamClock::GetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

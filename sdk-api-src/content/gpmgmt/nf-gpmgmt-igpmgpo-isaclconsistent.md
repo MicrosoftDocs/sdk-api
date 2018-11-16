@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_isaclconsistent.htm
 tech.root: GPMC
 ms.assetid: 4a4f2d87-bfaa-453a-9dbe-de19ba1d1953
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GPMGPO class [GPMC],IsACLConsistent method, IGPMGPO interface [GPMC],IsACLConsistent method, IGPMGPO.IsACLConsistent, IGPMGPO::IsACLConsistent, IsACLConsistent, IsACLConsistent method [GPMC], IsACLConsistent method [GPMC],GPMGPO class, IsACLConsistent method [GPMC],IGPMGPO interface, _win32_igpmgpo_isaclconsistent, gpmc.igpmgpo_isaclconsistent, gpmgmt/IGPMGPO::IsACLConsistent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Checks for the consistency of ACLs between the Directory Service and the system 
 ### -param pvbConsistent [out]
 
 Value that indicates whether the 
-<a href="https://msdn.microsoft.com/library/Aa374872(v=VS.85).aspx">access control lists (ACLs)</a> on the different parts of the GPO are consistent. If <b>VARIANT_TRUE</b>, they are consistent.
+<a href="security.access_control_lists_acls_">access control lists (ACLs)</a> on the different parts of the GPO are consistent. If <b>VARIANT_TRUE</b>, they are consistent.
 
 
 ## -returns

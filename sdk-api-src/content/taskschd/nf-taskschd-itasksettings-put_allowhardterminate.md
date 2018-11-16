@@ -7,7 +7,7 @@ old-location: taskschd\itasksettings_allowhardterminate.htm
 tech.root: TaskSchd
 ms.assetid: fd8105cf-5ef1-4ae4-8bb7-05469758b6b4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AllowHardTerminate property [Task Scheduler], AllowHardTerminate property [Task Scheduler],ITaskSettings interface, AllowHardTerminate property [Task Scheduler],TaskSettings class, ITaskSettings interface [Task Scheduler],AllowHardTerminate property, ITaskSettings.AllowHardTerminate, ITaskSettings.put_AllowHardTerminate, ITaskSettings::AllowHardTerminate, ITaskSettings::get_AllowHardTerminate, ITaskSettings::put_AllowHardTerminate, TaskSettings class [Task Scheduler],AllowHardTerminate property, put_AllowHardTerminate, taskschd.itasksettings_allowhardterminate, taskschd/ITaskSettings::AllowHardTerminate, taskschd/ITaskSettings::get_AllowHardTerminate, taskschd/ITaskSettings::put_AllowHardTerminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ req.redist:
 ## -description
 
 
-Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using  <a href="https://msdn.microsoft.com/0e1a8195-4fd3-43d4-ae9e-1a1e05c2119a">TerminateProcess</a>. The service will try to close the running task by sending the <a href="https://msdn.microsoft.com/en-us/library/ms632617(v=VS.85).aspx">WM_CLOSE</a> notification, and if the  task does not respond, the task will be terminated only if this property is set to true.
+Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using  <a href="https://msdn.microsoft.com/0e1a8195-4fd3-43d4-ae9e-1a1e05c2119a">TerminateProcess</a>. The service will try to close the running task by sending the <a href="_win32_WM_CLOSE_cpp">WM_CLOSE</a> notification, and if the  task does not respond, the task will be terminated only if this property is set to true.
 
 This property is read/write.
 

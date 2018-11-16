@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_put_currentplaylist.htm
 tech.root: WMP
 ms.assetid: 943641ca-9733-4066-bc69-834e792d93dc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_currentPlaylist method, IWMPCore.put_currentPlaylist, IWMPCore::put_currentPlaylist, IWMPCoreput_currentPlaylist, put_currentPlaylist, put_currentPlaylist method [Windows Media Player], put_currentPlaylist method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_currentplaylist, wmp/IWMPCore::put_currentPlaylist
 ms.prod: windows-hardware
 ms.technology: windows-devices

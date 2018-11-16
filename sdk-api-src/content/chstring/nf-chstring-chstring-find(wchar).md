@@ -7,7 +7,7 @@ old-location: wmi\chstring_find_wchar_.htm
 tech.root: WmiSdk
 ms.assetid: f25db53e-f1a2-4b22-98de-b53ccf3952a1
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: "?Find@CHString@@QBEHG@Z, ?Find@CHString@@QEBAHG@Z, CHString interface [Windows Management Instrumentation],Find method, CHString.Find, CHString.Find(WCHAR), CHString::Find, CHString::Find(WCHAR), Find, Find method [Windows Management Instrumentation], Find method [Windows Management Instrumentation],CHString interface, chstring/CHString::Find, wmi.chstring_find_wchar_"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,14 +100,18 @@ The <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Fi
 
 The following code example shows the use of <b>CHString::Find</b>.
 
-
-```cpp
-CHString s( L"abcdef" );
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString s( L"abcdef" );
 assert( s.Find( 'c' ) == 2 );
-assert( s.Find( L"de" ) == 3 );
-```
-
-
+assert( s.Find( L"de" ) == 3 );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

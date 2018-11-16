@@ -7,7 +7,7 @@ old-location: security\ix509extensions_count_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 3afee7ca-c58c-4152-b696-19d31410de5a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Count property [Security], Count property [Security],IX509Extensions interface, IX509Extensions interface [Security],Count property, IX509Extensions.Count, IX509Extensions.get_Count, IX509Extensions::Count, IX509Extensions::get_Count, certenroll/IX509Extensions::Count, certenroll/IX509Extensions::get_Count, get_Count, security.ix509extensions_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> objects in the collection. This property is web enabled.
+The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> objects in the collection. This property is web enabled.
 
 This property is read-only.
 
@@ -72,11 +72,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a>
+<a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a>
+<a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a>
  
 
  

@@ -4,10 +4,10 @@ title: RpcNsMgmtHandleSetExpAge function
 author: windows-sdk-content
 description: The RpcNsMgmtHandleSetExpAge function sets the expiration age of a name-service handle for local copies of name-service data.
 old-location: rpc\rpcnsmgmthandlesetexpage.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: d6607ffb-21a9-41ec-863f-f1514b115d4d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: RpcNsMgmtHandleSetExpAge, RpcNsMgmtHandleSetExpAge function [RPC], _rpc_rpcnsmgmthandlesetexpage, rpc.rpcnsmgmthandlesetexpage, rpcnsi/RpcNsMgmtHandleSetExpAge
 ms.prod: windows-hardware
 ms.technology: windows-devices

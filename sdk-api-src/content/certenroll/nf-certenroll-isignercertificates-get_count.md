@@ -7,7 +7,7 @@ old-location: security\isignercertificates_count_property.htm
 tech.root: SecCertEnroll
 ms.assetid: 4cd4c71a-2fb3-4a47-bd86-e69a08890a09
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Count property [Security], Count property [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Count property, ISignerCertificates.Count, ISignerCertificates.get_Count, ISignerCertificates::Count, ISignerCertificates::get_Count, certenroll/ISignerCertificates::Count, certenroll/ISignerCertificates::get_Count, get_Count, security.isignercertificates_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a> objects in the collection.
+The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> objects in the collection.
 
 This property is read-only.
 
@@ -72,11 +72,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a>
+<a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376821(v=VS.85).aspx">ISignerCertificates</a>
+<a href="https://msdn.microsoft.com/420d6550-514a-4fea-987b-6deecbc9b717">ISignerCertificates</a>
  
 
  

@@ -4,10 +4,10 @@ title: PFXExportCertStoreEx function
 author: windows-sdk-content
 description: Exports the certificates and, if available, their associated private keys from the referenced certificate store.
 old-location: security\pfxexportcertstoreex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e8bd54b1-946f-4c65-8a86-96f0dbec07ff
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: EXPORT_PRIVATE_KEYS, PFXExportCertStoreEx, PFXExportCertStoreEx function [Security], PKCS12_INCLUDE_EXTENDED_PROPERTIES, PKCS12_PROTECT_TO_DOMAIN_SIDS, REPORT_NOT_ABLE_TO_EXPORT_PRIVATE_KEY, REPORT_NO_PRIVATE_KEY, _crypto2_pfxexportcertstoreex, security.pfxexportcertstoreex, wincrypt/PFXExportCertStoreEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

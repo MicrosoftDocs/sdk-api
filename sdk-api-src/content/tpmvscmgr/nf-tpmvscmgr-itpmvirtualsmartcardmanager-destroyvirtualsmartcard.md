@@ -4,10 +4,10 @@ title: ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
 author: windows-sdk-content
 description: Destroys the TPM virtual smart card that has the given instance ID.
 old-location: security\itpmvirtualsmartcardmanager_destroyvirtualsmartcard.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: C8624CBF-FC39-4269-9405-8E7B5EE88F8D
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: DestroyVirtualSmartCard, DestroyVirtualSmartCard method [Security], DestroyVirtualSmartCard method [Security],ITpmVirtualSmartCardManager interface, ITpmVirtualSmartCardManager interface [Security],DestroyVirtualSmartCard method, ITpmVirtualSmartCardManager.DestroyVirtualSmartCard, ITpmVirtualSmartCardManager::DestroyVirtualSmartCard, security.itpmvirtualsmartcardmanager_destroyvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,9 +67,9 @@ Destroys the TPM virtual smart card that has the given instance ID.
 
 
 
-### -param pszInstanceId
+### -param pszInstanceId [in]
 
-TBD
+Instance identifier of the TPM virtual smart card that is returned from a successful <a href="https://msdn.microsoft.com/C80C4DE2-0C43-40A5-81E6-7036A0B8DEB7">CreateVirtualSmartCard</a> method call. 
 
 
 ### -param pStatusCallback [in, optional]
@@ -80,11 +80,6 @@ Pointer to a <a href="https://msdn.microsoft.com/6CB62E42-16FD-453F-9566-B4DFCDA
 ### -param pfNeedReboot [out]
 
 Pointer to a Boolean value to receive whether the requested operation needs to reboot the client computer.
-
-
-#### - pszInstanceID [in]
-
-Instance identifier of the TPM virtual smart card that is returned from a successful <a href="https://msdn.microsoft.com/C80C4DE2-0C43-40A5-81E6-7036A0B8DEB7">CreateVirtualSmartCard</a> method call. 
 
 
 ## -returns

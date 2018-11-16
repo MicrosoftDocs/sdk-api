@@ -7,7 +7,7 @@ old-location: mixedreality\iholographicspaceinterop.htm
 tech.root: MixedReality
 ms.assetid: 119299C1-ECD9-46BA-B499-66890225E4E0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IHolographicSpaceInterop, IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,described, MixedReality.iholographicspaceinterop, holographicspaceinterop/IHolographicSpaceInterop
 ms.prod: windows-hardware
 ms.technology: windows-devices

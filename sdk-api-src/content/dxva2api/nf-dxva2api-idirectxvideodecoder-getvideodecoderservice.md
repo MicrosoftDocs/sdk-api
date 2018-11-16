@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoder_getvideodecoderservice.htm
 tech.root: medfound
 ms.assetid: 092c49cd-6bfc-4ed0-9378-5751ad19296c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: 092c49cd-6bfc-4ed0-9378-5751ad19296c, GetVideoDecoderService, GetVideoDecoderService method [Media Foundation], GetVideoDecoderService method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetVideoDecoderService method, IDirectXVideoDecoder.GetVideoDecoderService, IDirectXVideoDecoder::GetVideoDecoderService, dxva2api/IDirectXVideoDecoder::GetVideoDecoderService, mf.idirectxvideodecoder_getvideodecoderservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ Retrieves the DirectX Video Acceleration (DXVA) decoder service that created thi
 
 
 
-### -param ppService
-
-TBD
-
-
-
-
-#### - ppAccelServices [out]
+### -param ppService [out]
 
 Receives a pointer to <a href="https://msdn.microsoft.com/eeb62178-b54d-45d3-a584-75865f0662fa">IDirectXVideoDecoderService</a> interface. The caller must release the interface.
 

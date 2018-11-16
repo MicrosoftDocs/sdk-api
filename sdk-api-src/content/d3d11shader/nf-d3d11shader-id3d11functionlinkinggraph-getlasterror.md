@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11functionlinkinggraph_getlasterror.htm
 tech.root: direct3d11
 ms.assetid: 5BD10944-5C49-4DA2-A2B7-73DA21A49A12
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetLastError, GetLastError method [Direct3D 11], GetLastError method [Direct3D 11],ID3D11FunctionLinkingGraph interface, ID3D11FunctionLinkingGraph interface [Direct3D 11],GetLastError method, ID3D11FunctionLinkingGraph.GetLastError, ID3D11FunctionLinkingGraph::GetLastError, d3d11shader/ID3D11FunctionLinkingGraph::GetLastError, direct3d11.id3d11functionlinkinggraph_getlasterror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,9 +78,9 @@ An pointer to a variable that receives a pointer to the <a href="https://msdn.mi
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           
 
 
@@ -91,7 +91,7 @@ Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280535(v=VS.85).aspx">ID3D11FunctionLinkingGraph</a>
+<a href="https://msdn.microsoft.com/B1952085-CCD2-40F6-9A23-83B4F18FC30A">ID3D11FunctionLinkingGraph</a>
  
 
  

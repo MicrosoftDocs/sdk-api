@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_getinputstatus.htm
 tech.root: DirectShow
 ms.assetid: 4581307f-cea2-4e88-81a1-972e1998c7a8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetInputStatus, GetInputStatus method [DirectShow], GetInputStatus method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputStatus method, IMediaObject.GetInputStatus, IMediaObject::GetInputStatus, IMediaObjectGetInputStatus, dshow.imediaobject_getinputstatus, mediaobj/IMediaObject::GetInputStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

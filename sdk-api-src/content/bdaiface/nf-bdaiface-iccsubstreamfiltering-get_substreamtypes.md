@@ -4,10 +4,10 @@ title: ICCSubStreamFiltering::get_SubstreamTypes
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iccsubstreamfiltering_get_substreamtypes.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: da622981-d2a6-4e91-9e59-b084932b5ff2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICCSubStreamFiltering interface [Microsoft TV Technologies],get_SubstreamTypes method, ICCSubStreamFiltering.get_SubstreamTypes, ICCSubStreamFiltering::get_SubstreamTypes, ICCSubStreamFilteringget_SubstreamTypes, bdaiface/ICCSubStreamFiltering::get_SubstreamTypes, get_SubstreamTypes, get_SubstreamTypes method [Microsoft TV Technologies], get_SubstreamTypes method [Microsoft TV Technologies],ICCSubStreamFiltering interface, mstv.iccsubstreamfiltering_get_substreamtypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ The <b>get_SubstreamTypes</b> method retrieves the list of closed captioning ser
 
 ### -param pTypes [out]
 
-Receives a bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="https://msdn.microsoft.com/en-us/library/Dd695076(v=VS.85).aspx">KS_CC_SUBSTREAM Constants</a>.
+Receives a bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="https://msdn.microsoft.com/1a55a9b1-6784-4a29-93aa-95aadaf6fb7e">KS_CC_SUBSTREAM Constants</a>.
 
 
 ## -returns
@@ -110,7 +110,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693501(v=VS.85).aspx">ICCSubStreamFiltering Interface</a>
+<a href="https://msdn.microsoft.com/2de6796d-beb3-4611-a559-449fe21193a6">ICCSubStreamFiltering Interface</a>
  
 
  

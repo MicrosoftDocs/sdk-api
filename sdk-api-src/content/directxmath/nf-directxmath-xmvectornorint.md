@@ -7,7 +7,7 @@ old-location: dxmath\xmvectornorint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.bit-wise.XMVectorNorInt(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMVectorNorInt, XMVectorNorInt, XMVectorNorInt method [DirectX Math Support APIs], dxmath.xmvectornorint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,19 +89,23 @@ Returns a vector, each of whose components are the logical NOR of the correspond
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-XMVECTOR Result;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
 Result.x = ~(V1.x | V2.x);
 Result.y = ~(V1.y | V2.y);
 Result.z = ~(V1.z | V2.z);
 Result.w = ~(V1.w | V2.w);
 
-return Result;
-```
-
-
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

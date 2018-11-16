@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_recipient_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7bhw_cpp.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Recipient property, IFaxOutgoingJob.Recipient, IFaxOutgoingJob.get_Recipient, IFaxOutgoingJob::Recipient, IFaxOutgoingJob::get_Recipient, Recipient property [Fax Service], Recipient property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.recipient_cpp, fax._mfax_faxoutgoingjob_recipient_cpp, faxcomex/IFaxOutgoingJob::Recipient, faxcomex/IFaxOutgoingJob::get_Recipient, get_Recipient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>
 
 
 
@@ -80,7 +80,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693393(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/5fab26c3-99f6-4740-9899-3dccbd26a3ba">Visual Basic Example</a>
  
 
  

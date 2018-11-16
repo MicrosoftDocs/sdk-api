@@ -4,10 +4,10 @@ title: CryptXmlGetTransforms function
 author: windows-sdk-content
 description: Returns information about the default transform chain engine.
 old-location: security\cryptxmlgettransforms.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 676f5216-70bd-455d-9e08-230b2599e166
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CryptXmlGetTransforms, CryptXmlGetTransforms function [Security], cryptxml/CryptXmlGetTransforms, security.cryptxmlgettransforms
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ The <b>CryptXmlGetTransforms</b> function returns information about the default 
 
 ### -param ppConfig [out]
 
-A pointer to a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433867(v=VS.85).aspx">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure to receive the returned transform information.
+A pointer to a pointer to a <a href="https://msdn.microsoft.com/ad18ee99-685d-4a79-bd91-492df20edb8c">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure to receive the returned transform information.
 
 
 ## -returns

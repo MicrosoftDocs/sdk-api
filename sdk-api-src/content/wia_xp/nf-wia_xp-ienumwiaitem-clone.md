@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWiaItem_Clone.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwiaitem\clone.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWiaItem interface, IEnumWiaItem interface [WIA],Clone method, IEnumWiaItem.Clone, IEnumWiaItem::Clone, _wia_IEnumWiaItem_Clone, wia._wia_IEnumWiaItem_Clone, wia_xp/IEnumWiaItem::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-The <b>IEnumWiaItem::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/en-us/library/ms630176(v=VS.85).aspx">IEnumWiaItem</a> interface and sends back a pointer to it.
+The <b>IEnumWiaItem::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/25eab463-a531-4cb7-b8b7-6b1c8d060ee8">IEnumWiaItem</a> interface and sends back a pointer to it.
 
 
 ## -parameters
@@ -69,9 +69,9 @@ The <b>IEnumWiaItem::Clone</b> method creates an additional instance of the <a h
 
 ### -param ppIEnum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630176(v=VS.85).aspx">IEnumWiaItem</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/25eab463-a531-4cb7-b8b7-6b1c8d060ee8">IEnumWiaItem</a>**</b>
 
-Pointer  to the <a href="https://msdn.microsoft.com/en-us/library/ms630176(v=VS.85).aspx">IEnumWiaItem</a> interface. Receives the address of the <b>IEnumWiaItem</b> interface instance that <b>IEnumWiaItem::Clone</b> creates.
+Pointer  to the <a href="https://msdn.microsoft.com/25eab463-a531-4cb7-b8b7-6b1c8d060ee8">IEnumWiaItem</a> interface. Receives the address of the <b>IEnumWiaItem</b> interface instance that <b>IEnumWiaItem::Clone</b> creates.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: OfflineClusterResourceEx function
 author: windows-sdk-content
 description: Extends the OfflineClusterResource method.
 old-location: mscs\offlineclusterresourceex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8AE70F5F-349B-40D1-830B-A135D4364B83
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CLUSAPI_RESOURCE_OFFLINE_FORCE_WITH_TERMINATION, CLUSAPI_RESOURCE_OFFLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_RESOURCE_OFFLINE_REASON_BEING_DELETED, CLUSAPI_RESOURCE_OFFLINE_REASON_BEING_RESTARTED, CLUSAPI_RESOURCE_OFFLINE_REASON_MOVING, CLUSAPI_RESOURCE_OFFLINE_REASON_NONE, CLUSAPI_RESOURCE_OFFLINE_REASON_PREEMPTED, CLUSAPI_RESOURCE_OFFLINE_REASON_SHUTTING_DOWN, CLUSAPI_RESOURCE_OFFLINE_REASON_UNKNOWN, CLUSAPI_RESOURCE_OFFLINE_REASON_USER_REQUESTED, OfflineClusterResourceEx, OfflineClusterResourceEx function [Failover Cluster], clusapi/OfflineClusterResourceEx, mscs.offlineclusterresourceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -199,7 +199,7 @@ The size of <i>lpInBuffer</i>, in bytes.
     <b>CLUSAPI_RESOURCE_OFFLINE_IGNORE_RESOURCE_LOCKED_STATUS</b> flag is not set and the resource 
     has indicated that it is “locked” in its current state.
 
-Similar to <a href="https://msdn.microsoft.com/en-us/library/Hh418101(v=VS.85).aspx">MoveClusterGroupEx</a>, if 
+Similar to <a href="https://msdn.microsoft.com/CE56BA9D-3527-43D3-8656-EA0BBDF48B98">MoveClusterGroupEx</a>, if 
     <b>OfflineClusterResourceEx</b> returns 
     <b>ERROR_IO_PENDING</b>, then the cluster service will attempt to bring the resource to the 
     offline state.

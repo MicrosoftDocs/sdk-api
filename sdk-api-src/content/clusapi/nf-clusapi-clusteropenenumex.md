@@ -4,10 +4,10 @@ title: ClusterOpenEnumEx function
 author: windows-sdk-content
 description: Opens a handle to a cluster in order to iterate through its objects.
 old-location: mscs\clusteropenenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: DA35A67E-6F20-47CC-A96A-591702A79EF5
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusterOpenEnumEx, ClusterOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_OPEN_ENUM_EX, mscs.clusteropenenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The handle to the cluster.
 ### -param dwType [in]
 
 A bitmask that describes the type of objects to be enumerated. This must be one or more of the 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb309146(v=VS.85).aspx">CLUSTER_ENUM</a> enumeration values.
+       <a href="https://msdn.microsoft.com/e3d5a207-d30e-4935-be95-0957e68d4fe6">CLUSTER_ENUM</a> enumeration values.
 
 
 ### -param pOptions [in, optional] [in, optional]
@@ -96,11 +96,11 @@ If the operation fails, the function returns <b>NULL</b>. For more information a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309146(v=VS.85).aspx">CLUSTER_ENUM</a>
+<a href="https://msdn.microsoft.com/e3d5a207-d30e-4935-be95-0957e68d4fe6">CLUSTER_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Function</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
  
 
  

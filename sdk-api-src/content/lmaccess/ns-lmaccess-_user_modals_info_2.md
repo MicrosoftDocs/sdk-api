@@ -7,7 +7,7 @@ old-location: netmgmt\user_modals_info_2_str.htm
 tech.root: NetMgmt
 ms.assetid: 9a4b3fc1-03b5-4ba7-948f-e455c34fa234
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPUSER_MODALS_INFO_2, *PUSER_MODALS_INFO_2, LPUSER_MODALS_INFO_2, LPUSER_MODALS_INFO_2 structure pointer [Network Management], PUSER_MODALS_INFO_2, PUSER_MODALS_INFO_2 structure pointer [Network Management], USER_MODALS_INFO_2, USER_MODALS_INFO_2 structure [Network Management], _USER_MODALS_INFO_2, _win32_user_modals_info_2_str, lmaccess/LPUSER_MODALS_INFO_2, lmaccess/PUSER_MODALS_INFO_2, lmaccess/USER_MODALS_INFO_2, netmgmt.user_modals_info_2_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

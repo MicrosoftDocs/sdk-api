@@ -4,10 +4,10 @@ title: IMSVidGenericSink
 author: windows-sdk-content
 description: The IMSVidGenericSink interface represents a generic output device that supports streaming output. It is implemented by the MSVidGenericSink object.
 old-location: mstv\imsvidgenericsink.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 15181a89-aa64-4ecf-aaf5-4aac36753ddf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidGenericSink, IMSVidGenericSink interface [Microsoft TV Technologies], IMSVidGenericSink interface [Microsoft TV Technologies],described, IMSVidGenericSinkInterface, mstv.imsvidgenericsink, segment/IMSVidGenericSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivsswmcomponent_getdatabaselogfile.htm
 tech.root: VSS
 ms.assetid: 8aaab68a-27e3-4e76-8116-530001b504a3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDatabaseLogFile, GetDatabaseLogFile method [VSS], GetDatabaseLogFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDatabaseLogFile method, IVssWMComponent.GetDatabaseLogFile, IVssWMComponent::GetDatabaseLogFile, _win32_ivsswmcomponent_getdatabaselogfile, base.ivsswmcomponent_getdatabaselogfile, vsbackup/IVssWMComponent::GetDatabaseLogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,22 +68,17 @@ The
 
 
 
-### -param iDbLogFile
+### -param iDbLogFile [in]
 
-TBD
+Offset between 0 and <i>n</i>-1, where <i>n</i> is the number of database log files as specified by the <b>cLogFiles</b> member of the 
+<a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a> object returned by 
+<a href="https://msdn.microsoft.com/ac01bfea-e60f-4f50-a865-5bb7e372fbf2">IVssWMComponent::GetComponentInfo</a>.
 
 
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to an 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object containing the returned file descriptor information.
-
-
-#### - iFile [in]
-
-Offset between 0 and <i>n</i>-1, where <i>n</i> is the number of database log files as specified by the <b>cLogFiles</b> member of the 
-<a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a> object returned by 
-<a href="https://msdn.microsoft.com/ac01bfea-e60f-4f50-a865-5bb7e372fbf2">IVssWMComponent::GetComponentInfo</a>.
 
 
 ## -returns
@@ -178,7 +173,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release system resources held by the returned 
+The caller is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release system resources held by the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 

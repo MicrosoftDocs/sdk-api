@@ -4,10 +4,10 @@ title: "_ACCESS_ALLOWED_CALLBACK_OBJECT_ACE"
 author: windows-sdk-content
 description: Defines an access control entry (ACE) that controls allowed access to an object, property set, or property.
 old-location: security\access_allowed_callback_object_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 83b00ef3-f7b2-455e-8f3f-01b1da6024b7
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PACCESS_ALLOWED_CALLBACK_OBJECT_ACE, 0, ACCESS_ALLOWED_CALLBACK_OBJECT_ACE, ACCESS_ALLOWED_CALLBACK_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_ALLOWED_CALLBACK_OBJECT_ACE, PACCESS_ALLOWED_CALLBACK_OBJECT_ACE structure pointer [Security], _ACCESS_ALLOWED_CALLBACK_OBJECT_ACE, security.access_allowed_callback_object_ace, winnt/ACCESS_ALLOWED_CALLBACK_OBJECT_ACE, winnt/PACCESS_ALLOWED_CALLBACK_OBJECT_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

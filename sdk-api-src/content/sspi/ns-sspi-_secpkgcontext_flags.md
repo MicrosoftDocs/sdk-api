@@ -4,10 +4,10 @@ title: "_SecPkgContext_Flags"
 author: windows-sdk-content
 description: The SecPkgContext_Flags structure contains information about the flags in the current security context. This structure is returned by QueryContextAttributes (General).
 old-location: security\secpkgcontext_flags.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 0be0e945-4048-4748-a9fd-15d08fb7ff3e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*PSecPkgContext_Flags, PSecPkgContext_Flags, PSecPkgContext_Flags structure pointer [Security], SecPkgContext_Flags, SecPkgContext_Flags structure [Security], _SecPkgContext_Flags, security.secpkgcontext_flags, sspi/PSecPkgContext_Flags, sspi/SecPkgContext_Flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices

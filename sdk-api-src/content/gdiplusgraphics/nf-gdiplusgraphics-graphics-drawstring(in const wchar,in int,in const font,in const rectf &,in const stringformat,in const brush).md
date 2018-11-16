@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawString_string_length_font_layo
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawstringmethods\drawstring.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: DrawString, DrawString method [GDI+], DrawString method [GDI+],Graphics class, Graphics class [GDI+],DrawString method, Graphics.DrawString, Graphics.DrawString(IN const WCHAR,IN INT,IN const Font,IN const RectF &,IN const StringFormat,IN const Brush), Graphics.DrawString(const WCHAR*,INT,const Font*,const RectF&,const StringFormat*,const Brush*), Graphics::DrawString, Graphics::DrawString(IN const WCHAR,IN INT,IN const Font,IN const RectF &,IN const StringFormat,IN const Brush), _gdiplus_CLASS_Graphics_DrawString_string_length_font_layoutRect_stringFormat_brush_, gdiplus._gdiplus_CLASS_Graphics_DrawString_string_length_font_layoutRect_stringFormat_brush_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,9 +146,13 @@ The operating system requires elevated privileges to assure that all installed f
 
 The following example uses the specified formatting to draw a string in a layout rectangle.
 
-
-```cpp
-VOID Example_DrawString(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawString(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -166,17 +170,17 @@ VOID Example_DrawString(HDC hdc)
    graphics.DrawString(
    string,
    11,
-   &myFont,
+   &amp;myFont,
    layoutRect,
-   &format,
-   &blackBrush);
+   &amp;format,
+   &amp;blackBrush);
 
    // Draw layoutRect.
-   graphics.DrawRectangle(&Pen(Color::Black, 3), layoutRect);
-}
-```
-
-
+   graphics.DrawRectangle(&amp;Pen(Color::Black, 3), layoutRect);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

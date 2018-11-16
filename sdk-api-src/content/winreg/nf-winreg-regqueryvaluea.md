@@ -4,10 +4,10 @@ title: RegQueryValueA function
 author: windows-sdk-content
 description: Retrieves the data associated with the default or unnamed value of a specified registry key. The data must be a null-terminated string.
 old-location: base\regqueryvalue.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 18f27717-3bd9-45ac-a1ea-61abc1753a52
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: RegQueryValue, RegQueryValue function, RegQueryValueA, RegQueryValueW, _win32_regqueryvalue, base.regqueryvalue, winreg/RegQueryValue, winreg/RegQueryValueA, winreg/RegQueryValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

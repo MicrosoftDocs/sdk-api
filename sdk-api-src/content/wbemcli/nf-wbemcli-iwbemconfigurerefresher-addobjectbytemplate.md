@@ -7,7 +7,7 @@ old-location: wmi\iwbemconfigurerefresher_addobjectbytemplate.htm
 tech.root: WmiSdk
 ms.assetid: c3f25484-7c6c-4625-9d26-1c01d15b10c4
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: AddObjectByTemplate, AddObjectByTemplate method [Windows Management Instrumentation], AddObjectByTemplate method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddObjectByTemplate method, IWbemConfigureRefresher.AddObjectByTemplate, IWbemConfigureRefresher::AddObjectByTemplate, _hmm_iwbemconfigurerefresher_addobjectbytemplate, wbemcli/IWbemConfigureRefresher::AddObjectByTemplate, wmi.iwbemconfigurerefresher_addobjectbytemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ With the
 ### -param pNamespace
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="_com_iunknown_addref">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
 
 
 ### -param pTemplate [in]
@@ -87,32 +87,20 @@ Pointer to a
 Bitmask of flags that modify the behavior of this method. If this parameter is set to <b>WBEM_FLAG_USE_AMENDED_QUALIFIERS</b>, the returned instance will contain localized qualifiers if available.
 
 
-### -param pContext
-
-TBD
-
-
-### -param ppRefreshable [out]
-
-Pointer to hold the reference to a 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object, which will contain the refreshable instance object. The client must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the returned object when it is no longer required.
-
-
-### -param plId
-
-TBD
-
-
-
-
-#### - pCtx [in]
+### -param pContext [in]
 
 Typically <b>NULL</b>; otherwise, a pointer to an 
 <a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object that is required by one or more dynamic class providers. The values in the context object must be specified in the specific provider documentation. For more information about this parameter, see 
 <a href="https://msdn.microsoft.com/5bfd9d9b-ffe5-4def-a97d-85c4c01223f0">Making Calls to WMI</a>.
 
 
-#### - plid [out]
+### -param ppRefreshable [out]
+
+Pointer to hold the reference to a 
+<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object, which will contain the refreshable instance object. The client must call <a href="_com_iunknown_release">Release</a> on the returned object when it is no longer required.
+
+
+### -param plId [out]
 
 Pointer to an integer returned by the provider that uniquely identifies this refreshable object.
 
@@ -133,7 +121,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 The supplied instance must specify a valid object, which is provided by the High-Performance Provider. The returned object must not be modified by the client while a refresh operation is in process. The returned identifier can be used by the 
 <a href="https://msdn.microsoft.com/f6e68b95-e9d1-473e-add4-823b6db51709">Remove</a> function to remove the object.
 
-It is not necessary for the user to explicitly remove added objects. The client must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the returned object when it is no longer required.
+It is not necessary for the user to explicitly remove added objects. The client must call <a href="_com_iunknown_release">Release</a> on the returned object when it is no longer required.
 
 
 

@@ -7,7 +7,7 @@ old-location: taskschd\task_instances_policy.htm
 tech.root: TaskSchd
 ms.assetid: 38d92951-546e-47e6-bc03-5ef4f317a814
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: TASK_INSTANCES_IGNORE_NEW, TASK_INSTANCES_PARALLEL, TASK_INSTANCES_POLICY, TASK_INSTANCES_POLICY enumeration [Task Scheduler], TASK_INSTANCES_QUEUE, TASK_INSTANCES_STOP_EXISTING, _TASK_INSTANCES_POLICY, taskschd.task_instances_policy, taskschd/TASK_INSTANCES_IGNORE_NEW, taskschd/TASK_INSTANCES_PARALLEL, taskschd/TASK_INSTANCES_POLICY, taskschd/TASK_INSTANCES_QUEUE, taskschd/TASK_INSTANCES_STOP_EXISTING
 ms.prod: windows-hardware
 ms.technology: windows-devices

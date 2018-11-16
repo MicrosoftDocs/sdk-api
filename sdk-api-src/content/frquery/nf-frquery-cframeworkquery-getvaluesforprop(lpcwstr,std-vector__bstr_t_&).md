@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery_getvaluesforprop_lpcwstr_std__vector__bstr_t__
 tech.root: WmiSdk
 ms.assetid: 5c49cc52-bd51-41d8-92c6-74021b1cb652
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetValuesForProp method, CFrameworkQuery.GetValuesForProp, CFrameworkQuery.GetValuesForProp(LPCWSTR,std, CFrameworkQuery::GetValuesForProp, CFrameworkQuery::GetValuesForProp(LPCWSTR,std, CFrameworkQuery::GetValuesForProp(LPCWSTR,std::vector<_bstr_t>&), GetValuesForProp, GetValuesForProp method [Windows Management Instrumentation], GetValuesForProp method [Windows Management Instrumentation],CFrameworkQuery interface, frquery/CFrameworkQuery::GetValuesForProp, wmi.cframeworkquery_getvaluesforprop_lpcwstr_std__vector__bstr_t__
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,13 +83,6 @@ Name of the target property.
 
 
 ### -param vectorNames
-
-TBD
-
-
-
-
-#### - aszNames
 
 Array of values for the property specified by <i>wszPropName</i>.
 
@@ -179,12 +172,16 @@ The <a href="https://msdn.microsoft.com/b5ed4b48-f622-4a55-897d-d800ada0270f">Ge
 
 The following query, followed by a call to <a href="https://msdn.microsoft.com/b5ed4b48-f622-4a55-897d-d800ada0270f">GetValuesForProp</a>("PropInt", values), returns <b>WBEM_E_INVALID_QUERY</b> while <b>GetValuesForProp</b>("PropStr", values) returns <b>S_OK</b>.
 
-
-```cpp
-SELECT * FROM Test WHERE PropInt = 32 AND PropStr = "a"
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SELECT * FROM Test WHERE PropInt = 32 AND PropStr = "a"</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

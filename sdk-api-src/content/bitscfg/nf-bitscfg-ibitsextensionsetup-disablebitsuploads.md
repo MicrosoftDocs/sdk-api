@@ -60,7 +60,7 @@ req.redist: BITS 1.5 on Windows XP
 
 Use the 
 <b>DisableBITSUploads</b> method to disable BITS upload on the virtual directory to which the ADSI object points. This method sets the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362818(v=VS.85).aspx">BITSUploadEnabled</a> IIS extension property.
+<a href="https://msdn.microsoft.com/08a40cc1-ec6d-4b65-971a-15c7b06df148">BITSUploadEnabled</a> IIS extension property.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ This method returns <b>S_OK</b> for success. Otherwise, the method failed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363079(v=VS.85).aspx">IBITSExtensionSetup::EnableBITSUploads</a>
+<a href="https://msdn.microsoft.com/5b68dea2-f9a7-4a99-93d3-62c4f24b769f">IBITSExtensionSetup::EnableBITSUploads</a>
  
 
  

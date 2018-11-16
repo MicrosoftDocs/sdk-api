@@ -7,7 +7,7 @@ old-location: shell\IApplicationAssociationRegistrationUI_LaunchAdvancedAssociat
 tech.root: shell
 ms.assetid: db2fc087-2f22-40df-8ec9-f673c0fe81ff
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IApplicationAssociationRegistrationUI interface [Windows Shell],LaunchAdvancedAssociationUI method, IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI, IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI method [Windows Shell], LaunchAdvancedAssociationUI method [Windows Shell],IApplicationAssociationRegistrationUI interface, _shell_IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shell.IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shobjidl/IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Launches an advanced association dialog box through which the user can customize
 
 
 
-### -param pszAppRegistryName
-
-TBD
-
-
-
-
-#### - pszAppRegName [in]
+### -param pszAppRegistryName [in]
 
 Type: <b>LPCWSTR</b>
 

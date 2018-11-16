@@ -7,7 +7,7 @@ old-location: coreaudio\audiosessionstate.htm
 tech.root: CoreAudio
 ms.assetid: a972fed6-425f-46c8-b0cc-6538460bb104
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: AudioSessionState, AudioSessionState , AudioSessionState enumeration [Core Audio], AudioSessionStateActive, AudioSessionStateExpired, AudioSessionStateInactive, _AudioSessionState, audiosessiontypes/AudioSessionState, audiosessiontypes/AudioSessionStateActive, audiosessiontypes/AudioSessionStateExpired, audiosessiontypes/AudioSessionStateInactive, coreaudio.audiosessionstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

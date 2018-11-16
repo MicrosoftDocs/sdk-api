@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccess::get_SmartCardApplications
 author: windows-sdk-content
 description: The get_SmartCardApplications method retrieves a list of the smart card applications.
 old-location: mstv\ibda_conditionalaccess_get_smartcardapplications.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 5667ca9c-c46d-43d6-a7da-1f0ff340e869
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardApplications method, IBDA_ConditionalAccess.get_SmartCardApplications, IBDA_ConditionalAccess::get_SmartCardApplications, IBDA_ConditionalAccessget_SmartCardApplications, bdaiface/IBDA_ConditionalAccess::get_SmartCardApplications, get_SmartCardApplications, get_SmartCardApplications method [Microsoft TV Technologies], get_SmartCardApplications method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardapplications
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ The maximum number of smart card applications that the <i>rgApplications</i> buf
 
 ### -param rgApplications [in, out]
 
-Pointer to a buffer that receives an array of smart card applications. Each array element is a <a href="https://msdn.microsoft.com/en-us/library/Dd695291(v=VS.85).aspx">SmartCardApplication</a> structure.
+Pointer to a buffer that receives an array of smart card applications. Each array element is a <a href="https://msdn.microsoft.com/14d9cfbd-46c4-4be2-8631-f0916820c129">SmartCardApplication</a> structure.
           
 
 
@@ -107,7 +107,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://msdn.microsoft.com/93bd3c38-2591-4d36-b296-5ad939487277">IBDA_ConditionalAccess Interface</a>
  
 
  

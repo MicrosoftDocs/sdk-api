@@ -4,10 +4,10 @@ title: ldapvlvinfo
 author: windows-sdk-content
 description: Used to set up the search parameters for a virtual list view (VLV) request control (LDAP_CONTROL_VLVREQUEST).
 old-location: ldap\ldapvlvinfo.htm
-tech.root: ldap
+tech.root: LDAP
 ms.assetid: 2018ecb1-9b32-4afa-ad20-5cdae396376d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PLDAPVLVInfo, LDAPVLVInfo, LDAPVLVInfo structure [LDAP], _ldap_ldapvlvinfo, ldap.ldapvlvinfo, ldapvlvinfo, winldap/LDAPVLVInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

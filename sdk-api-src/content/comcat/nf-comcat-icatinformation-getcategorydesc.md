@@ -78,7 +78,7 @@ The locale.
 
 ### -param pszDesc [out]
 
-A pointer to the string pointer for the description. This string must be released by the caller using the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
+A pointer to the string pointer for the description. This string must be released by the caller using the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function.
 
 
 ## -returns
@@ -125,7 +125,7 @@ There is no description string for <i>rcatid</i> with the specified locale.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542655(v=VS.85).aspx">ICatInformation</a>
+<a href="https://msdn.microsoft.com/1fd68126-b512-4131-8e93-cea7c1c3e9c0">ICatInformation</a>
  
 
  

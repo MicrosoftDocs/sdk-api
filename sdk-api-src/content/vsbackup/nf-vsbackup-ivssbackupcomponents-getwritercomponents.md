@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_getwritercomponents.htm
 tech.root: VSS
 ms.assetid: b99e7e41-1c88-462c-b6d8-734f7a6e24d4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetWriterComponents, GetWriterComponents method [VSS], GetWriterComponents method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponents method, IVssBackupComponents.GetWriterComponents, IVssBackupComponents::GetWriterComponents, _win32_ivssbackupcomponents_getwritercomponents, base.ivssbackupcomponents_getwritercomponents, vsbackup/IVssBackupComponents::GetWriterComponents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,14 +74,7 @@ The index of the writer being queried. It is a number between 0 and <i>n</i>-1, 
 <a href="https://msdn.microsoft.com/39ab6179-2828-46dc-bfcd-0dd62c34ce95">IVssBackupComponents::GetWriterComponentsCount</a>.
 
 
-### -param ppWriter
-
-TBD
-
-
-
-
-#### - pWriterComponents [out]
+### -param ppWriter [out]
 
 Doubly indirect pointer to an 
 <a href="https://msdn.microsoft.com/29772c1f-1cc4-4ee7-8e1d-f1a6cbebf470">IVssWriterComponentsExt</a> interface object that will receive the returned component information.
@@ -178,7 +171,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller of this method must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> when it finishes accessing the component information.
+The caller of this method must call <a href="_com_iunknown_release">IUnknown::Release</a> when it finishes accessing the component information.
 
 <b>GetWriterComponents</b> retrieves component information for a component stored in the Backup Components Document by earlier calls to 
 <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">IVssBackupComponents::AddComponent</a>.

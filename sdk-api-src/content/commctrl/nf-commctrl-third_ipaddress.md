@@ -4,10 +4,10 @@ title: THIRD_IPADDRESS macro
 author: windows-sdk-content
 description: Extracts the field 2 value from a packed IP address retrieved with the IPM_GETADDRESS message.
 old-location: controls\THIRD_IPADDRESS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\third_ipaddress.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: THIRD_IPADDRESS, THIRD_IPADDRESS macro [Windows Controls], _win32_THIRD_IPADDRESS, _win32_THIRD_IPADDRESS_cpp, commctrl/THIRD_IPADDRESS, controls.THIRD_IPADDRESS, controls._win32_THIRD_IPADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Extracts the field 2 value from a packed IP address retrieved with the <a href="https://msdn.microsoft.com/en-us/library/Bb761378(v=VS.85).aspx">IPM_GETADDRESS</a> message. 
+Extracts the field 2 value from a packed IP address retrieved with the <a href="https://msdn.microsoft.com/4fe68d45-7d7f-46da-a110-65f899b3c393">IPM_GETADDRESS</a> message. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Extracts the field 2 value from a packed IP address retrieved with the <a href="
 
 ### -param x
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
 The packed IP address value. 
 

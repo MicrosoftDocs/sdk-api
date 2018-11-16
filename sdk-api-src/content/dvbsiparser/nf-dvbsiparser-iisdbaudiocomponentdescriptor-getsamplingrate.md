@@ -4,10 +4,10 @@ title: IIsdbAudioComponentDescriptor::GetSamplingRate
 author: windows-sdk-content
 description: Gets the value of the sampling_rate field from a an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This three-bit field contains a code that indicates the sampling frequency.
 old-location: mstv\iisdbaudiocomponentdescriptor_getsamplingrate.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ccb31b56-10a1-47ee-9d1b-116d860bef11
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetSamplingRate, GetSamplingRate method [Microsoft TV Technologies], GetSamplingRate method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetSamplingRate method, IIsdbAudioComponentDescriptor.GetSamplingRate, IIsdbAudioComponentDescriptor::GetSamplingRate, dvbsiparser/IIsdbAudioComponentDescriptor::GetSamplingRate, mstv.iisdbaudiocomponentdescriptor_getsamplingrate
 ms.prod: windows-hardware
 ms.technology: windows-devices

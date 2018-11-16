@@ -4,10 +4,10 @@ title: SetInformationJobObject function
 author: windows-sdk-content
 description: Sets limits for a job object.
 old-location: base\setinformationjobobject.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 46f7c579-e8d3-4434-a6ce-56573cd84387
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: JobObjectAssociateCompletionPortInformation, JobObjectBasicLimitInformation, JobObjectBasicUIRestrictions, JobObjectCpuRateControlInformation, JobObjectEndOfJobTimeInformation, JobObjectExtendedLimitInformation, JobObjectGroupInformation, JobObjectGroupInformationEx, JobObjectLimitViolationInformation2, JobObjectNetRateControlInformation, JobObjectNotificationLimitInformation, JobObjectNotificationLimitInformation2, JobObjectSecurityLimitInformation, SetInformationJobObject, SetInformationJobObject function, _win32_setinformationjobobject, base.setinformationjobobject, jobapi2/SetInformationJobObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,24 +76,7 @@ A handle to the job whose limits are being set. The
       <a href="https://msdn.microsoft.com/8d212292-f087-41e4-884e-cec4423dac49">Job Object Security and Access Rights</a>.
 
 
-### -param JobObjectInformationClass
-
-TBD
-
-
-### -param lpJobObjectInformation
-
-TBD
-
-
-### -param cbJobObjectInformationLength
-
-TBD
-
-
-
-
-#### - JobObjectInfoClass [in]
+### -param JobObjectInformationClass [in]
 
 The information class for the limits to be set. This parameter can be one of the following values.
 
@@ -306,14 +289,14 @@ This flag is not supported. Applications must set security limitations individua
  
 
 
-#### - cbJobObjectInfoLength [in]
-
-The size of the job information being set, in bytes.
-
-
-#### - lpJobObjectInfo [in]
+### -param lpJobObjectInformation [in]
 
 The limits or job state to be set for the job. The format of this data depends on the value of <i>JobObjectInfoClass</i>.
+
+
+### -param cbJobObjectInformationLength [in]
+
+The size of the job information being set, in bytes.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: ITDirectoryObject::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the name of the directory object.
 old-location: tapi3\itdirectoryobject_get_name.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b24c1e69-5ba1-4597-86fb-2233707a1acf
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_Name method, ITDirectoryObject.get_Name, ITDirectoryObject::get_Name, _tapi3_itdirectoryobject_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_Name, tapi3.itdirectoryobject_get_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,7 +130,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
 			
 
 

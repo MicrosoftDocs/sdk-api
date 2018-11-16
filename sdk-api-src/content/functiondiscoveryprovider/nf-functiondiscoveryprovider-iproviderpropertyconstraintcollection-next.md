@@ -4,10 +4,10 @@ title: IProviderPropertyConstraintCollection::Next
 author: windows-sdk-content
 description: Gets the name and value of the next property constraint in the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_next.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: ddf9f2b9-92f6-4a1f-86d8-0d9e8c0c4855
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Next method, IProviderPropertyConstraintCollection.Next, IProviderPropertyConstraintCollection::Next, Next, Next method, Next method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Next, ncd.iproviderpropertyconstraintcollection_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,9 @@ Gets the name and value of the next property constraint in the collection.
 
 
 
-### -param pKey
+### -param pKey [in]
 
-TBD
+The property key.
 
 
 ### -param pPropVar [out]
@@ -81,11 +81,6 @@ A <b>PROPVARIANT</b> used for the property constraint data.
 ### -param pdwPropertyConstraint [out]
 
 The type of constraint to apply.
-
-
-#### - Key [in]
-
-The property key.
 
 
 ## -returns

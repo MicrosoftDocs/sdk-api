@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextlayout1_getpairkerning.htm
 tech.root: DirectWrite
 ms.assetid: 24E89191-E543-4AF4-A8F5-10CB4B0AF6B0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetPairKerning, GetPairKerning method [Direct Write], GetPairKerning method [Direct Write],IDWriteTextLayout1 interface, IDWriteTextLayout1 interface [Direct Write],GetPairKerning method, IDWriteTextLayout1.GetPairKerning, IDWriteTextLayout1::GetPairKerning, directwrite.idwritetextlayout1_getpairkerning, dwrite_1/IDWriteTextLayout1::GetPairKerning
 ms.prod: windows-hardware
 ms.technology: windows-devices

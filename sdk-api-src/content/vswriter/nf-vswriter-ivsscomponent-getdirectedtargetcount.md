@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getdirectedtargetcount.htm
 tech.root: VSS
 ms.assetid: 3c8cf80e-66b9-4c6f-a63d-90626937582b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetDirectedTargetCount, GetDirectedTargetCount method [VSS], GetDirectedTargetCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDirectedTargetCount method, IVssComponent.GetDirectedTargetCount, IVssComponent::GetDirectedTargetCount, _win32_ivsscomponent_getdirectedtargetcount, base.ivsscomponent_getdirectedtargetcount, vswriter/IVssComponent::GetDirectedTargetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

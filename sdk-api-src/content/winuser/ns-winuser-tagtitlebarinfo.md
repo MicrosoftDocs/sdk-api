@@ -7,7 +7,7 @@ old-location: winmsg\titlebarinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\titlebarinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPTITLEBARINFO, *PTITLEBARINFO, LPTITLEBARINFO, LPTITLEBARINFO structure pointer [Windows and Messages], PTITLEBARINFO, PTITLEBARINFO structure pointer [Windows and Messages], STATE_SYSTEM_FOCUSABLE, STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, TITLEBARINFO, TITLEBARINFO structure [Windows and Messages], _win32_TITLEBARINFO_str, _win32_titlebarinfo_str_cpp, tagTITLEBARINFO, winmsg.titlebarinfo, winui._win32_titlebarinfo_str, winuser/LPTITLEBARINFO, winuser/PTITLEBARINFO, winuser/TITLEBARINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -187,7 +187,7 @@ The element is in the pressed state.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633513(v=VS.85).aspx">GetTitleBarInfo</a>
+<a href="https://msdn.microsoft.com/ddba40bf-cbe7-4b57-8e4b-98776a92c87a">GetTitleBarInfo</a>
 
 
 
@@ -195,7 +195,7 @@ The element is in the pressed state.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

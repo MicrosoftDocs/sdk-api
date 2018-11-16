@@ -7,7 +7,7 @@ old-location: winrt\iclosable.htm
 tech.root: WinRT
 ms.assetid: 856C7D91-15AB-4101-BC5F-232004AD6DF4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IClosable, IClosable interface [Windows Runtime], IClosable interface [Windows Runtime],described, windows/IClosable, winrt.iclosable
 ms.prod: windows-hardware
 ms.technology: windows-devices

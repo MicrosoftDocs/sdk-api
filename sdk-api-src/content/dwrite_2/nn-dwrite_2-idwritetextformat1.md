@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextformat1.htm
 tech.root: DirectWrite
 ms.assetid: 15295A17-E542-4071-AE38-02014A1235D5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: IDWriteTextFormat1, IDWriteTextFormat1 interface [Direct Write], IDWriteTextFormat1 interface [Direct Write],described, directwrite.idwritetextformat1, dwrite_2/IDWriteTextFormat1
 ms.prod: windows-hardware
 ms.technology: windows-devices

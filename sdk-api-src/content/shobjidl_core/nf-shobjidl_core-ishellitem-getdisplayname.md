@@ -7,7 +7,7 @@ old-location: shell\IShellItem_GetDisplayName.htm
 tech.root: shell
 ms.assetid: 9b159be9-3797-4c8b-90f8-9d3b3a3afb71
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Shell], GetDisplayName method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],GetDisplayName method, IShellItem.GetDisplayName, IShellItem::GetDisplayName, _win32_IShellItem_GetDisplayName, shell.IShellItem_GetDisplayName, shobjidl_core/IShellItem::GetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

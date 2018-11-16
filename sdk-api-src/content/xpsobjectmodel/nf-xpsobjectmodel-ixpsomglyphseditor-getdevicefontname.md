@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphseditor_getdevicefontname.htm
 tech.root: printdocs
 ms.assetid: 79d1c913-0ed9-47bc-a06c-566a0ec19760
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetDeviceFontName, GetDeviceFontName method [XPS Documents and Packaging], GetDeviceFontName method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetDeviceFontName method, IXpsOMGlyphsEditor.GetDeviceFontName, IXpsOMGlyphsEditor::GetDeviceFontName, xps.ixpsomglyphseditor_getdevicefontname, xpsobjectmodel/IXpsOMGlyphsEditor::GetDeviceFontName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,7 +118,7 @@ The  device font name is created as an escaped  name when the object is serializ
 
 The device font name uniquely identifies a specific device font and is typically defined by a hardware or font vendor.
 
-This method allocates the memory used by the string that is returned in <i>deviceFontName</i>.  If <i>deviceFontName</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>deviceFontName</i>.  If <i>deviceFontName</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

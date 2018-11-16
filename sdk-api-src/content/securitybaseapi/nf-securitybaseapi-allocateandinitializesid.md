@@ -4,10 +4,10 @@ title: AllocateAndInitializeSid function
 author: windows-sdk-content
 description: Allocates and initializes a security identifier (SID) with up to eight subauthorities.
 old-location: security\allocateandinitializesid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fcdff2f8-7f43-4c0f-b548-4914b1991937
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AllocateAndInitializeSid, AllocateAndInitializeSid function [Security], _win32_allocateandinitializesid, security.allocateandinitializesid, securitybaseapi/AllocateAndInitializeSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -172,7 +172,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

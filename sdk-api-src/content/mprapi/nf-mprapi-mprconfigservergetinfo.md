@@ -4,10 +4,10 @@ title: MprConfigServerGetInfo function
 author: windows-sdk-content
 description: The MprConfigServerGetInfo function retrieves server-level configuration information for the specified router.
 old-location: rras\mprconfigservergetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 6d3cd97a-96ef-4ecd-b2fd-2743ba79aa5b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MprConfigServerGetInfo, MprConfigServerGetInfo function [RAS], _mpr_mprconfigservergetinfo, mprapi/MprConfigServerGetInfo, rras.mprconfigservergetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -160,7 +160,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

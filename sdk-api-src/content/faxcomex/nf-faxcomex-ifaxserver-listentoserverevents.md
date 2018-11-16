@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_listentoserverevents_cpp.ht
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8kmr.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxServer interface [Fax Service],ListenToServerEvents method, IFaxServer.ListenToServerEvents, IFaxServer::ListenToServerEvents, ListenToServerEvents, ListenToServerEvents method [Fax Service], ListenToServerEvents method [Fax Service],IFaxServer interface, _mfax_faxserver.listentoserverevents, fax._mfax_faxserver_cpp_mfax_faxserver_listentoserverevents_cpp, fax._mfax_faxserver_listentoserverevents, faxcomex/IFaxServer::ListenToServerEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,15 +92,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 In Microsoft Visual Basic, if you want the fax server to receive notifications, you have to create the <a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a> object using the following syntax:
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 Dim WithEvents objFaxServer As New FAXCOMEXLib.FaxServer
 Set objFaxServer = CreateObject("FaxServer") 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 In Microsoft Visual C++, the <a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a> interface on the <b>FaxServer</b> object receives notifications of the events.
 
 

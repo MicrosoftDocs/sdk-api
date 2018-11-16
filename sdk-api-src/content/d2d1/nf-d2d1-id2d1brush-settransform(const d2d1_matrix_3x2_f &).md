@@ -4,10 +4,10 @@ title: ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F &)
 author: windows-sdk-content
 description: Sets the transformation applied to the brush.
 old-location: direct2d\ID2D1Brush_SetTransform_ref_D2D_MATRIX_3X2_F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8feb644a-26ea-4718-abd4-6990ffd97a50
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1Brush interface [Direct2D],SetTransform method, ID2D1Brush.SetTransform, ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F &), ID2D1Brush::SetTransform, ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F &), ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F&), SetTransform, SetTransform method [Direct2D], SetTransform method [Direct2D],ID2D1Brush interface, d2d1/ID2D1Brush::SetTransform, direct2d.ID2D1Brush_SetTransform_ref_D2D_MATRIX_3X2_F
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,16 +96,20 @@ The following illustrations show the effect of using an <a href="https://msdn.mi
 
 The illustration on the right shows the result of transforming the <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> so that its content is shifted 50 pixels to the right and 50 pixels down. The bitmap now fills the rectangle.
 
-<img alt="Illustration of two squares, one painted with a bitmap without a transformed brush and one painted with a transformed brush" src="./images/brushes_ovw_transform.png"/>
+<img alt="Illustration of two squares, one painted with a bitmap without a transformed brush and one painted with a transformed brush" src="images/brushes_ovw_transform.png"/>
 
 
 #### Examples
 
 The following code examples show how to create the transformation shown in the right diagram in the preceding illustration. First apply a translation to the <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>, moving the brush 50 pixels right along the x-axis and 50 pixels down along the y-axis. Then use the <b>ID2D1BitmapBrush</b> to fill  the rectangle that has the upper-left corner at (100, 100) and the lower-right corner at (200, 200).   
 
-
-```cpp
-// Create the bitmap to be used by the bitmap brush.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create the bitmap to be used by the bitmap brush.
 if (SUCCEEDED(hr))
 {
     hr = LoadResourceBitmap(
@@ -113,52 +117,65 @@ if (SUCCEEDED(hr))
         m_pWICFactory,
         L"FERN",
         L"Image",
-        &m_pBitmap
+        &amp;m_pBitmap
         );
    
 }
-
-```
-
-
-
-```cpp
-if (SUCCEEDED(hr))
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget->CreateBitmapBrush(
+    hr = m_pRenderTarget-&gt;CreateBitmapBrush(
         m_pBitmap,
-        &m_pBitmapBrush
+        &amp;m_pBitmapBrush
         );
 }
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
 
-```
-
-
-
-```cpp
-D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
-
-
-```
-
-```cpp
- // Demonstrate the effect of transforming a bitmap brush.
- m_pBitmapBrush->SetTransform(
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> // Demonstrate the effect of transforming a bitmap brush.
+ m_pBitmapBrush-&gt;SetTransform(
      D2D1::Matrix3x2F::Translation(D2D1::SizeF(50,50))
      );
 
  // To see the content of the rcTransformedBrushRect, comment
  // out this statement.
- m_pRenderTarget->FillRectangle(
-     &rcTransformedBrushRect, 
+ m_pRenderTarget-&gt;FillRectangle(
+     &amp;rcTransformedBrushRect, 
      m_pBitmapBrush
      );
 
- m_pRenderTarget->DrawRectangle(rcTransformedBrushRect, m_pBlackBrush, 1, NULL);
-
-```
-
-
+ m_pRenderTarget-&gt;DrawRectangle(rcTransformedBrushRect, m_pBlackBrush, 1, NULL);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

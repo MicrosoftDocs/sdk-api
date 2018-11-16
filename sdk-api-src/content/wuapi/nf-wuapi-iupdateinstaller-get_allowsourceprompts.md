@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller_allowsourceprompts.htm
 tech.root: Wua_Sdk
 ms.assetid: 6975fdc7-48db-4e34-986b-5504687fc53f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: AllowSourcePrompts property [Windows Update Agent], AllowSourcePrompts property [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],AllowSourcePrompts property, IUpdateInstaller.AllowSourcePrompts, IUpdateInstaller.get_AllowSourcePrompts, IUpdateInstaller::AllowSourcePrompts, IUpdateInstaller::get_AllowSourcePrompts, IUpdateInstaller::put_AllowSourcePrompts, get_AllowSourcePrompts, wua.iupdateinstaller_allowsourceprompts, wuapi/IUpdateInstaller::AllowSourcePrompts, wuapi/IUpdateInstaller::get_AllowSourcePrompts, wuapi/IUpdateInstaller::put_AllowSourcePrompts
 ms.prod: windows-hardware
 ms.technology: windows-devices

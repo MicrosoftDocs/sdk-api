@@ -4,10 +4,10 @@ title: LsaRemoveAccountRights function
 author: windows-sdk-content
 description: Removes one or more privileges from an account.
 old-location: security\lsaremoveaccountrights.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: ad250a01-7a24-4fae-975c-aa3e65731c82
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: LsaRemoveAccountRights, LsaRemoveAccountRights function [Security], _lsa_lsaremoveaccountrights, ntsecapi/LsaRemoveAccountRights, security.lsaremoveaccountrights
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,7 +102,7 @@ Specifies the number of elements in the <i>UserRights</i> array.
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

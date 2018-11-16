@@ -7,7 +7,7 @@ old-location: imapi\dfilesystemimageevents_update.htm
 tech.root: imapi
 ms.assetid: 7d639391-77ee-4889-a11b-1bbd1b88b38e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: DFileSystemImageEvents interface [IMAPI],Update method, DFileSystemImageEvents.Update, DFileSystemImageEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DFileSystemImageEvents interface, imapi.dfilesystemimageevents_update, imapi2fs/DFileSystemImageEvents::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Implement this method to receive progress notification of the current write oper
 
 
 
-### -param object
+### -param object [in]
 
-TBD
+An <a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a> interface of the file system image that is being written. 
+
+This parameter is a <b>CFileSystemImage</b> object in a script.
 
 
 ### -param currentFile [in]
@@ -84,13 +86,6 @@ Number of sectors copied.
 ### -param totalSectors [out]
 
 Total number of sectors in the file.
-
-
-#### - fileSystemImage [in]
-
-An <a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a> interface of the file system image that is being written. 
-
-This parameter is a <b>CFileSystemImage</b> object in a script.
 
 
 ## -returns

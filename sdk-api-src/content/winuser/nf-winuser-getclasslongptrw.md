@@ -7,7 +7,7 @@ old-location: winmsg\getclasslongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclasslongptr.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GCLP_HBRBACKGROUND, GCLP_HCURSOR, GCLP_HICON, GCLP_HICONSM, GCLP_HMODULE, GCLP_MENUNAME, GCLP_WNDPROC, GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_STYLE, GCW_ATOM, GetClassLongPtr, GetClassLongPtr function [Windows and Messages], GetClassLongPtrA, GetClassLongPtrW, _win32_GetClassLongPtr, _win32_getclasslongptr_cpp, winmsg.getclasslongptr, winui._win32_getclasslongptr, winuser/GetClassLongPtr, winuser/GetClassLongPtrA, winuser/GetClassLongPtrW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,8 +59,8 @@ req.redist:
 ## -description
 
 
-Retrieves the specified value from the <a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a> structure associated with the specified window.
-<div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetClassLongPtr</b>. When compiling for 32-bit Windows, <b>GetClassLongPtr</b> is defined as a call to the <a href="https://msdn.microsoft.com/en-us/library/ms633580(v=VS.85).aspx">GetClassLong</a> function.</div><div> </div>
+Retrieves the specified value from the <a href="https://msdn.microsoft.com/f7e60154-b52c-4dee-b6dd-b6a4882ad4a9">WNDCLASSEX</a> structure associated with the specified window.
+<div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetClassLongPtr</b>. When compiling for 32-bit Windows, <b>GetClassLongPtr</b> is defined as a call to the <a href="https://msdn.microsoft.com/8d8e0b2e-635f-4612-8279-a07679c9a144">GetClassLong</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -78,7 +78,7 @@ A handle to the window and, indirectly, the class to which the window belongs.
 
 Type: <b>int</b>
 
-The value to be retrieved. To retrieve a value from the extra class memory, specify the positive, zero-based byte offset of the value to be retrieved. Valid values are in the range zero through the number of bytes of extra class memory, minus eight; for example, if you specified 24 or more bytes of extra class memory, a value of 16 would be an index to the third integer. To retrieve any other value from the <a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a> structure, specify one of the following values. 
+The value to be retrieved. To retrieve a value from the extra class memory, specify the positive, zero-based byte offset of the value to be retrieved. Valid values are in the range zero through the number of bytes of extra class memory, minus eight; for example, if you specified 24 or more bytes of extra class memory, a value of 16 would be an index to the third integer. To retrieve any other value from the <a href="https://msdn.microsoft.com/f7e60154-b52c-4dee-b6dd-b6a4882ad4a9">WNDCLASSEX</a> structure, specify one of the following values. 
 
 <table>
 <tr>
@@ -93,7 +93,7 @@ The value to be retrieved. To retrieve a value from the extra class memory, spec
 </td>
 <td width="60%">
 Retrieves an 
-						<b>ATOM</b> value that uniquely identifies the window class. This is the same atom that the <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function returns.
+						<b>ATOM</b> value that uniquely identifies the window class. This is the same atom that the <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> function returns.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Retrieves the size, in bytes, of the extra memory associated with the class.
 </dl>
 </td>
 <td width="60%">
-Retrieves the size, in bytes, of the extra window memory associated with each window in the class. For information on how to access this memory, see <a href="https://msdn.microsoft.com/en-us/library/ms633585(v=VS.85).aspx">GetWindowLongPtr</a>.
+Retrieves the size, in bytes, of the extra window memory associated with each window in the class. For information on how to access this memory, see <a href="https://msdn.microsoft.com/a48b63f7-b5b4-49fb-b201-78c3b27ac60a">GetWindowLongPtr</a>.
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ Retrieves the window-class style bits.
 </dl>
 </td>
 <td width="60%">
-Retrieves the address of the window procedure, or a handle representing the address of the window procedure. You must use the <a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a> function to call the window procedure. 
+Retrieves the address of the window procedure, or a handle representing the address of the window procedure. You must use the <a href="https://msdn.microsoft.com/667449cd-1eea-43de-8268-3da73022d7ac">CallWindowProc</a> function to call the window procedure. 
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 Reserve extra class memory by specifying a nonzero value in the 
-				<b>cbClsExtra</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a> structure used with the <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. 
+				<b>cbClsExtra</b> member of the <a href="https://msdn.microsoft.com/f7e60154-b52c-4dee-b6dd-b6a4882ad4a9">WNDCLASSEX</a> structure used with the <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> function. 
 
 
 
@@ -244,7 +244,7 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633585(v=VS.85).aspx">GetWindowLongPtr</a>
+<a href="https://msdn.microsoft.com/a48b63f7-b5b4-49fb-b201-78c3b27ac60a">GetWindowLongPtr</a>
 
 
 
@@ -252,19 +252,19 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633589(v=VS.85).aspx">SetClassLongPtr</a>
+<a href="https://msdn.microsoft.com/6c9ad727-c81c-4f22-aae6-82d4f0a7dd40">SetClassLongPtr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a>
+<a href="https://msdn.microsoft.com/f7e60154-b52c-4dee-b6dd-b6a4882ad4a9">WNDCLASSEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632596(v=VS.85).aspx">Window Classes</a>
+<a href="https://msdn.microsoft.com/6ef633db-af76-42d6-b211-96846578eaac">Window Classes</a>
  
 
  

@@ -4,10 +4,10 @@ title: ClusterRegCloseReadBatchReply function
 author: windows-sdk-content
 description: Closes a read batch result handle and frees the memory associated with it.
 old-location: mscs\clusterregclosereadbatchreply.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: C8CC4292-A7CC-4613-B5A8-B504E804E00E
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusterRegCloseReadBatchReply, ClusterRegCloseReadBatchReply function [Failover Cluster], clusapi/ClusterRegCloseReadBatchReply, mscs.clusterregclosereadbatchreply
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,6 +78,38 @@ A handle to a read batch result that was created by calling the <a href="https:/
 
 The function returns one of the following 
        <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+<i>hRegReadBatchReply</i> is <b>NULL</b> or not valid.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

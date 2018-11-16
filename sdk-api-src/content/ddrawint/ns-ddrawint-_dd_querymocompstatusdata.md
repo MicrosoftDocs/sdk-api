@@ -7,7 +7,7 @@ old-location: display\dd_querymocompstatusdata.htm
 tech.root: display
 ms.assetid: 53e2c8c7-dc6b-4c0b-9555-9aac07bd9186
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PDD_QUERYMOCOMPSTATUSDATA, DD_QUERYMOCOMPSTATUSDATA, DD_QUERYMOCOMPSTATUSDATA structure [Display Devices], _DD_QUERYMOCOMPSTATUSDATA, ddrawint/DD_QUERYMOCOMPSTATUSDATA, ddstrcts_d8a10a3c-886c-4cef-b4a0-2db5f4c45927.xml, display.dd_querymocompstatusdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

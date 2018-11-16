@@ -7,7 +7,7 @@ old-location: winmsg\guithreadinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\guithreadinfo.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPGUITHREADINFO, *PGUITHREADINFO, GUITHREADINFO, GUITHREADINFO structure [Windows and Messages], GUI_CARETBLINKING, GUI_INMENUMODE, GUI_INMOVESIZE, GUI_POPUPMENUMODE, GUI_SYSTEMMENUMODE, PGUITHREADINFO, PGUITHREADINFO structure pointer [Windows and Messages], _win32_GUITHREADINFO_str, _win32_guithreadinfo_str_cpp, tagGUITHREADINFO, winmsg.guithreadinfo, winui._win32_guithreadinfo_str, winuser/GUITHREADINFO, winuser/PGUITHREADINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -188,7 +188,7 @@ The caret's bounding rectangle, in client coordinates, relative to the window sp
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a> function to retrieve information about the active window or a specified GUI thread. 
+This structure is used with the <a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a> function to retrieve information about the active window or a specified GUI thread. 
 
 
 
@@ -202,7 +202,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a>
+<a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a>
 
 
 
@@ -210,7 +210,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

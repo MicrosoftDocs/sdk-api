@@ -4,10 +4,10 @@ title: ICameraUIControlEventCallback::OnStartupComplete
 author: windows-sdk-content
 description: Occurs when startup for the camera UI control has completed.
 old-location: winprog\icamerauicontroleventcallback_onstartupcomplete.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: beb50d34-ff68-43e6-8deb-b1ba2c02d70d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnStartupComplete method, ICameraUIControlEventCallback.OnStartupComplete, ICameraUIControlEventCallback::OnStartupComplete, OnStartupComplete, OnStartupComplete method [Windows API], OnStartupComplete method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnStartupComplete, winprog.icamerauicontroleventcallback_onstartupcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802718(v=VS.85).aspx">ICameraUIControlEventCallback</a>
+<a href="https://msdn.microsoft.com/f870557e-0e01-4f5c-81be-c709e397e5fd">ICameraUIControlEventCallback</a>
  
 
  

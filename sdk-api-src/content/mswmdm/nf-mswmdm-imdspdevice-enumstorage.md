@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_enumstorage.htm
 tech.root: WMDM
 ms.assetid: bbf19979-8e09-476e-9401-443ab5e84866
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: EnumStorage, EnumStorage method [windows Media Device Manager], EnumStorage method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],EnumStorage method, IMDSPDevice.EnumStorage, IMDSPDevice::EnumStorage, IMDSPDeviceEnumStorage, mswmdm/IMDSPDevice::EnumStorage, wmdm.imdspdevice_enumstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

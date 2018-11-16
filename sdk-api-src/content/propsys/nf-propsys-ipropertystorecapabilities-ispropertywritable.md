@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreCapabilities_IsPropertyWritable.htm
 tech.root: properties
 ms.assetid: ffd13c93-3011-4955-ad1e-2731afd83956
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IPropertyStoreCapabilities interface [Windows Properties],IsPropertyWritable method, IPropertyStoreCapabilities.IsPropertyWritable, IPropertyStoreCapabilities::IsPropertyWritable, IsPropertyWritable, IsPropertyWritable method [Windows Properties], IsPropertyWritable method [Windows Properties],IPropertyStoreCapabilities interface, _shell_IPropertyStoreCapabilities_IsPropertyWritable, properties.IPropertyStoreCapabilities_IsPropertyWritable, propsys/IPropertyStoreCapabilities::IsPropertyWritable, shell.IPropertyStoreCapabilities_IsPropertyWritable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Queries whether the property handler allows a specific property to be edited in 
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure that represents the property being queried.
+A reference to <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure that represents the property being queried.
 
 
 ## -returns
@@ -118,7 +118,7 @@ The property cannot be edited.
 
 
 
-The Shell disables the editing of controls by the user as appropriate through this method. A handler that does not support <a href="https://msdn.microsoft.com/en-us/library/Bb761452(v=VS.85).aspx">IPropertyStoreCapabilities</a> is assumed to support writing of any property.
+The Shell disables the editing of controls by the user as appropriate through this method. A handler that does not support <a href="shell.IPropertyStoreCapabilities">IPropertyStoreCapabilities</a> is assumed to support writing of any property.
 
 
 

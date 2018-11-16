@@ -7,7 +7,7 @@ old-location: winsync\isyncchangeunit_getchangeunitversion.htm
 tech.root: winsync
 ms.assetid: b40ec132-0459-4ddf-9156-bce2a1dfbc4d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetChangeUnitVersion, GetChangeUnitVersion method [Windows Sync], GetChangeUnitVersion method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetChangeUnitVersion method, ISyncChangeUnit.GetChangeUnitVersion, ISyncChangeUnit::GetChangeUnitVersion, winsync.isyncchangeunit_getchangeunitversion, winsync/ISyncChangeUnit::GetChangeUnitVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

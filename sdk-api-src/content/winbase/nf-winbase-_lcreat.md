@@ -4,10 +4,10 @@ title: "_lcreat function"
 author: windows-sdk-content
 description: Creates or opens the specified file.
 old-location: winprog\_lcreat.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 89e19823-c720-4bfc-95d5-18942573dd94
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: "_lcreat, _lcreat function [Windows API], winbase/_lcreat, winprog._lcreat"
 ms.prod: windows-hardware
 ms.technology: windows-devices

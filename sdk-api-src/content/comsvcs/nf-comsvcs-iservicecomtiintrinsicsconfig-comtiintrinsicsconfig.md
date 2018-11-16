@@ -7,7 +7,7 @@ old-location: cos\iservicecomtiintrinsicsconfig_comtiintrinsicsconfig.htm
 tech.root: cossdk
 ms.assetid: 2e534123-6300-4da3-a220-ba0b41a7c9a2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ComTIIntrinsicsConfig, ComTIIntrinsicsConfig method [COM+], ComTIIntrinsicsConfig method [COM+],IServiceComTIIntrinsicsConfig interface, IServiceComTIIntrinsicsConfig interface [COM+],ComTIIntrinsicsConfig method, IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, _cos_IServiceComTIIntrinsicsConfig_ComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig_comtiintrinsicsconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ Configures the COMTI intrinsics for the enclosed work.
 
 ### -param comtiIntrinsicsConfig [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/ms678928(v=VS.85).aspx">CSC_COMTIIntrinsicsConfig</a> enumeration.
+A value from the <a href="https://msdn.microsoft.com/0d700648-b5fe-46f6-9d27-e2601fe88d71">CSC_COMTIIntrinsicsConfig</a> enumeration.
 
 
 ## -returns
@@ -85,7 +85,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686929(v=VS.85).aspx">IServiceComTIIntrinsicsConfig</a>
+<a href="https://msdn.microsoft.com/dafa74f9-21fb-4495-911a-60183d36d83c">IServiceComTIIntrinsicsConfig</a>
  
 
  

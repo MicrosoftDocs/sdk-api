@@ -4,10 +4,10 @@ title: IBDA_AUX
 author: windows-sdk-content
 description: Gets the capabilities of a device's auxiliary input connectors. This interface provides access to a device's Aux Service.
 old-location: mstv\ibda_aux.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 8397a04f-5d40-4fa3-ac02-79c764abd174
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_AUX, IBDA_AUX interface [Microsoft TV Technologies], IBDA_AUX interface [Microsoft TV Technologies],described, bdaiface/IBDA_AUX, mstv.ibda_aux
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,9 +56,9 @@ Gets the capabilities of a device's auxiliary input connectors.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_AUX</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_AUX</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_AUX</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_AUX</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IBDA_AUX</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693259(v=VS.85).aspx">EnumCapability</a>
+<a href="https://msdn.microsoft.com/5f04c080-81c9-4aa9-ba54-5e16a538f10a">EnumCapability</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of an auxiliary connector, specified by index.
@@ -80,7 +80,7 @@ Gets the capabilities of an auxiliary connector, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693260(v=VS.85).aspx">QueryCapabilities</a>
+<a href="https://msdn.microsoft.com/7bb80ae2-050e-4fe6-9dd4-9cc6b2bcdd3c">QueryCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets the number of auxiliary connectors on the device.

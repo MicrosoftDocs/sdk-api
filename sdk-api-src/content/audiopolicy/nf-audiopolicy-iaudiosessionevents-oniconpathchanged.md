@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionevents_oniconpathchanged.htm
 tech.root: CoreAudio
 ms.assetid: 32669e52-28bf-4739-9f39-6e0175ca779c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnIconPathChanged method, IAudioSessionEvents.OnIconPathChanged, IAudioSessionEvents::OnIconPathChanged, IAudioSessionEventsOnIconPathChanged, OnIconPathChanged, OnIconPathChanged method [Core Audio], OnIconPathChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnIconPathChanged, coreaudio.iaudiosessionevents_oniconpathchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

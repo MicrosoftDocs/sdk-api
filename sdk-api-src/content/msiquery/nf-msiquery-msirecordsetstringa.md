@@ -4,10 +4,10 @@ title: MsiRecordSetStringA function
 author: windows-sdk-content
 description: The MsiRecordSetString function copies a string into the designated field.
 old-location: setup\msirecordsetstring.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 225454be-b653-4679-ae77-2280bd3c8d69
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiRecordSetString, MsiRecordSetString function, MsiRecordSetStringA, MsiRecordSetStringW, _msi_msirecordsetstring, msiquery/MsiRecordSetString, msiquery/MsiRecordSetStringA, msiquery/MsiRecordSetStringW, setup.msirecordsetstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ To set a record string field to null, set szValue to either a null string or an 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

@@ -74,7 +74,7 @@ Number of bytes transferred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362985(v=VS.85).aspx">IBackgroundCopyJob2::GetReplyProgress</a>
+<a href="https://msdn.microsoft.com/76509b1a-fdfb-4236-8554-f63282bfc1b6">IBackgroundCopyJob2::GetReplyProgress</a>
  
 
  

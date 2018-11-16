@@ -7,7 +7,7 @@ old-location: cos\applicationprocessrecycleinfo.htm
 tech.root: cossdk
 ms.assetid: 9e00c6a3-b82e-48a2-bec5-c5fbd6960072
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ApplicationProcessRecycleInfo, ApplicationProcessRecycleInfo structure [COM+], _ApplicationProcessRecycleInfo, comsvcs/ApplicationProcessRecycleInfo, cos.applicationprocessrecycleinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

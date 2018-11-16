@@ -4,10 +4,10 @@ title: FNFCIFILEPLACED macro
 author: windows-sdk-content
 description: The FNFCIFILEPLACED macro provides the declaration for the application-defined callback function to notify when a file is placed in the cabinet.
 old-location: winprog\fnfcifileplaced.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: f8a1bcfc-8a13-49cf-a3e7-caec6c6421b0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: FNFCIFILEPLACED, FNFCIFILEPLACED macro [Windows API], fci/FNFCIFILEPLACED, winprog.fnfcifileplaced
 ms.prod: windows-hardware
 ms.technology: windows-devices

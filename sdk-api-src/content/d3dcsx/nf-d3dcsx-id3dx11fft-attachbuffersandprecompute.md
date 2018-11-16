@@ -7,7 +7,7 @@ old-location: direct3d11\id3dx11fft_attachbuffersandprecompute.htm
 tech.root: direct3d11
 ms.assetid: 50c714fc-91fb-4a7d-a430-40ff221a1a14
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AttachBuffersAndPrecompute, AttachBuffersAndPrecompute method [Direct3D 11], AttachBuffersAndPrecompute method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],AttachBuffersAndPrecompute method, ID3DX11FFT.AttachBuffersAndPrecompute, ID3DX11FFT::AttachBuffersAndPrecompute, d035d5bc-194b-3f37-2b54-5d5f4ae0fbc8, d3dcsx/ID3DX11FFT::AttachBuffersAndPrecompute, direct3d11.id3dx11fft_attachbuffersandprecompute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,14 +88,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Number of buffers in <i>ppPrecomputeBuffers</i>.
 
 
-### -param ppPrecomputeBufferSizes
-
-TBD
-
-
-
-
-#### - ppPrecomputeBuffers [in]
+### -param ppPrecomputeBufferSizes [in]
 
 Type: <b><a href="https://msdn.microsoft.com/9def4a7d-f145-4073-8d7d-bf3c7ac7a060">ID3D11UnorderedAccessView</a>*</b>
 
@@ -106,7 +99,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/9def4a7d-f145-4073-
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the return codes described in the topic <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

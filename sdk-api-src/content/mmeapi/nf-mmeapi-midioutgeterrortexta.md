@@ -7,7 +7,7 @@ old-location: multimedia\midioutgeterrortext.htm
 tech.root: Multimedia
 ms.assetid: e0e9a22f-da8b-4c87-bbdb-dedc22336503
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_midiOutGetErrorText, midiOutGetErrorText, midiOutGetErrorText function [Windows Multimedia], midiOutGetErrorTextA, midiOutGetErrorTextW, mmeapi/midiOutGetErrorText, mmeapi/midiOutGetErrorTextA, mmeapi/midiOutGetErrorTextW, multimedia.midioutgeterrortext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,17 +78,12 @@ Error code.
 
 ### -param pszText
 
-TBD
+Pointer to a buffer to be filled with the textual error description.
 
 
 ### -param cchText
 
 Length, in characters, of the buffer pointed to by <i>lpText</i>.
-
-
-#### - lpText
-
-Pointer to a buffer to be filled with the textual error description.
 
 
 ## -returns

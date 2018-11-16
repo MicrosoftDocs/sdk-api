@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxextinitializeconfig.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_15lz.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: FaxExtInitializeConfig, FaxExtInitializeConfig function [Fax Service], _mfax_faxextinitializeconfig, fax._mfax_faxextinitializeconfig, faxext/FaxExtInitializeConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,35 +68,35 @@ The fax service calls the <b>FaxExtInitializeConfig</b> function to initialize t
 
 Type: <b>PFAX_EXT_GET_DATA</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684528(v=VS.85).aspx">FaxExtGetData</a> fax service callback function.
+Pointer to a <a href="https://msdn.microsoft.com/164c3919-49ad-4d29-a44d-27985c877268">FaxExtGetData</a> fax service callback function.
 
 
 ### -param arg2 [in]
 
 Type: <b>PFAX_EXT_SET_DATA</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684530(v=VS.85).aspx">FaxExtSetData</a> fax service callback function.
+Pointer to a <a href="https://msdn.microsoft.com/e744ea8f-2b68-4a0a-b9ee-d83f10f078b2">FaxExtSetData</a> fax service callback function.
 
 
 ### -param arg3 [in]
 
 Type: <b>PFAX_EXT_REGISTER_FOR_EVENTS</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684532(v=VS.85).aspx">FaxExtRegisterForEvents</a> fax service callback function.
+Pointer to a <a href="https://msdn.microsoft.com/a298f232-0670-4b0e-8962-4c111993dd36">FaxExtRegisterForEvents</a> fax service callback function.
 
 
 ### -param arg4 [in]
 
 Type: <b>PFAX_EXT_UNREGISTER_FOR_EVENTS</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684531(v=VS.85).aspx">FaxExtUnregisterForEvents</a> fax service callback function.
+Pointer to a <a href="https://msdn.microsoft.com/7cab1f4c-7e2f-4510-af8a-f0aee81a044e">FaxExtUnregisterForEvents</a> fax service callback function.
 
 
 ### -param arg5 [in]
 
 Type: <b>PFAX_EXT_FREE_BUFFER</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684529(v=VS.85).aspx">FaxExtFreeBuffer</a> fax service callback function.
+Pointer to a <a href="https://msdn.microsoft.com/58a30203-b734-45fa-b502-6d97711f73e0">FaxExtFreeBuffer</a> fax service callback function.
 
 
 ## -returns
@@ -133,23 +133,23 @@ The <b>FaxExtInitializeConfig</b> function exposes pointers to the callback func
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684529(v=VS.85).aspx">FaxExtFreeBuffer</a>
+<a href="https://msdn.microsoft.com/58a30203-b734-45fa-b502-6d97711f73e0">FaxExtFreeBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684528(v=VS.85).aspx">FaxExtGetData</a>
+<a href="https://msdn.microsoft.com/164c3919-49ad-4d29-a44d-27985c877268">FaxExtGetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684532(v=VS.85).aspx">FaxExtRegisterForEvents</a>
+<a href="https://msdn.microsoft.com/a298f232-0670-4b0e-8962-4c111993dd36">FaxExtRegisterForEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684530(v=VS.85).aspx">FaxExtSetData</a>
+<a href="https://msdn.microsoft.com/e744ea8f-2b68-4a0a-b9ee-d83f10f078b2">FaxExtSetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684531(v=VS.85).aspx">FaxExtUnregisterForEvents</a>
+<a href="https://msdn.microsoft.com/7cab1f4c-7e2f-4510-af8a-f0aee81a044e">FaxExtUnregisterForEvents</a>
  
 
  

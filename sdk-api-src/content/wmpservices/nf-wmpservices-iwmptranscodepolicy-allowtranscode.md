@@ -7,7 +7,7 @@ old-location: wmp\iwmptranscodepolicy_allowtranscode.htm
 tech.root: WMP
 ms.assetid: 6b43e247-cbb5-4ef1-8906-5ce7e1e58484
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMPTranscodePolicy interface [Windows Media Player],allowTranscode method, IWMPTranscodePolicy.allowTranscode, IWMPTranscodePolicy::allowTranscode, IWMPTranscodePolicyallowTranscode, allowTranscode, allowTranscode method [Windows Media Player], allowTranscode method [Windows Media Player],IWMPTranscodePolicy interface, wmp.iwmptranscodepolicy_allowtranscode, wmpservices/IWMPTranscodePolicy::allowTranscode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>allowTranscode</b> method retrieves a value specifying whether Windows Me
 
 
 
-### -param pvbAllow
-
-TBD
-
-
-
-
-#### - pvarfAllow [out]
+### -param pvbAllow [out]
 
 Pointer to a <b>VARIANT_BOOL</b> that contains a value indicating whether transcoding is permitted.
 

@@ -4,10 +4,10 @@ title: SetTimeZoneInformation function
 author: windows-sdk-content
 description: Sets the current time zone settings. These settings control translations from Coordinated Universal Time (UTC) to local time.
 old-location: base\settimezoneinformation.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: afb13501-3a87-433a-a05e-139103060109
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SetTimeZoneInformation, SetTimeZoneInformation function, _win32_settimezoneinformation, base.settimezoneinformation, timezoneapi/SetTimeZoneInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,15 +116,19 @@ The bias is the difference, in minutes, between UTC and local time.
 
 The following example displays the current time zone, then adjusts the time zone one zone west. The old and new  time zone names are displayed. You can also verify the changes using Date and Time in Control Panel. The new name is displayed on the <b>Date&amp;Time</b> tab as the <b>Current Time Zone</b>. The new time zone is displayed in the drop-down list on the <b>Time Zone</b> tab. To undo these changes, simply choose your old time zone from the drop-down list.
 
-
-```cpp
-#define UNICODE 1
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define UNICODE 1
 #define _UNICODE 1
 
-#include <windows.h>
-#include <stdio.h>
-#include <string.h>
-#include <strsafe.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+#include &lt;strsafe.h&gt;
 
 int main()
 {
@@ -136,15 +140,15 @@ int main()
    HANDLE hToken;
    TOKEN_PRIVILEGES tkp;
 
-   OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES|TOKEN_QUERY, &hToken);
-   LookupPrivilegeValue(NULL, SE_TIME_ZONE_NAME, &tkp.Privileges[0].Luid);
+   OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES|TOKEN_QUERY, &amp;hToken);
+   LookupPrivilegeValue(NULL, SE_TIME_ZONE_NAME, &amp;tkp.Privileges[0].Luid);
    tkp.PrivilegeCount = 1;
    tkp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
-   AdjustTokenPrivileges(hToken, FALSE, &tkp, 0, (PTOKEN_PRIVILEGES)NULL, 0);
+   AdjustTokenPrivileges(hToken, FALSE, &amp;tkp, 0, (PTOKEN_PRIVILEGES)NULL, 0);
 
    // Retrieve the current time zone information
 
-   dwRet = GetTimeZoneInformation(&tziOld);
+   dwRet = GetTimeZoneInformation(&amp;tziOld);
 
    if(dwRet == TIME_ZONE_ID_STANDARD || dwRet == TIME_ZONE_ID_UNKNOWN)    
       wprintf(L"%s\n", tziOld.StandardName);
@@ -158,7 +162,7 @@ int main()
 
    // Adjust the time zone information
 
-   ZeroMemory(&tziNew, sizeof(tziNew));
+   ZeroMemory(&amp;tziNew, sizeof(tziNew));
    tziNew.Bias = tziOld.Bias + 60;
    StringCchCopy(tziNew.StandardName, 32, L"Test Standard Zone");
    tziNew.StandardDate.wMonth = 10;
@@ -173,7 +177,7 @@ int main()
    tziNew.DaylightDate.wHour = 2;
    tziNew.DaylightBias = -60;
 
-   if( !SetTimeZoneInformation( &tziNew ) ) 
+   if( !SetTimeZoneInformation( &amp;tziNew ) ) 
    {
       printf("STZI failed (%d)\n", GetLastError());
       return 0;
@@ -181,7 +185,7 @@ int main()
 
    // Retrieve and display the newly set time zone information
 
-   dwRet = GetTimeZoneInformation(&tziTest);
+   dwRet = GetTimeZoneInformation(&amp;tziTest);
 
    if(dwRet == TIME_ZONE_ID_STANDARD || dwRet == TIME_ZONE_ID_UNKNOWN)    
       wprintf(L"%s\n", tziTest.StandardName);
@@ -192,14 +196,14 @@ int main()
    // Disable the privilege
 
    tkp.Privileges[0].Attributes = 0; 
-   AdjustTokenPrivileges(hToken, FALSE, &tkp, 0, (PTOKEN_PRIVILEGES) NULL, 0); 
+   AdjustTokenPrivileges(hToken, FALSE, &amp;tkp, 0, (PTOKEN_PRIVILEGES) NULL, 0); 
 
    return 1;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

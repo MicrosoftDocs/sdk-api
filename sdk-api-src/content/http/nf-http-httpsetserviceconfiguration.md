@@ -7,7 +7,7 @@ old-location: http\httpsetserviceconfiguration.htm
 tech.root: Http
 ms.assetid: b0a6d442-2ff4-4e00-8301-696fb0864d8c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, HttpSetServiceConfiguration, HttpSetServiceConfiguration function [HTTP], _http_httpsetserviceconfiguration, http.httpsetserviceconfiguration, http/HttpSetServiceConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

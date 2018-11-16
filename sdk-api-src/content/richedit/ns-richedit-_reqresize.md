@@ -4,10 +4,10 @@ title: "_reqresize"
 author: windows-sdk-content
 description: Contains the requested size of a rich edit control. A rich edit control sends this structure to its parent window as part of an EN_REQUESTRESIZE notification code.
 old-location: controls\REQRESIZE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\reqresize.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: REQRESIZE, REQRESIZE structure [Windows Controls], _reqresize, _win32_REQRESIZE_str, _win32_REQRESIZE_str_cpp, controls.REQRESIZE, controls._win32_REQRESIZE_str, richedit/REQRESIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains the requested size of a rich edit control. A rich edit control sends this structure to its parent window as part of an <a href="https://msdn.microsoft.com/en-us/library/Bb787983(v=VS.85).aspx">EN_REQUESTRESIZE</a> notification code.
+Contains the requested size of a rich edit control. A rich edit control sends this structure to its parent window as part of an <a href="https://msdn.microsoft.com/708c23b1-7b81-46f1-9595-46230693855d">EN_REQUESTRESIZE</a> notification code.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Contains the requested size of a rich edit control. A rich edit control sends th
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 Notification header. 
 
@@ -77,7 +77,7 @@ Requested new size.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787983(v=VS.85).aspx">EN_REQUESTRESIZE</a>
+<a href="https://msdn.microsoft.com/708c23b1-7b81-46f1-9595-46230693855d">EN_REQUESTRESIZE</a>
  
 
  

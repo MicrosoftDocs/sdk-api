@@ -7,7 +7,7 @@ old-location: ncd\wsdcreatedevicehost.htm
 tech.root: WsdApi
 ms.assetid: dbe7ccd0-494d-4f6c-90f6-e729839d7008
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: WSDCreateDeviceHost, WSDCreateDeviceHost function, ncd.wsdcreatedevicehost, wsdhost/WSDCreateDeviceHost
 ms.prod: windows-hardware
 ms.technology: windows-devices

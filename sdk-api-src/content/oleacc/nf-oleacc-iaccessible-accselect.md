@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__accselect.htm
 tech.root: WinAuto
 ms.assetid: ae55831c-0dfa-4901-b241-27e2cdf1035f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accSelect method, IAccessible.accSelect, IAccessible::accSelect, _msaa_IAccessible_accSelect, accSelect, accSelect method [Windows Accessibility], accSelect method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accselect, oleacc/IAccessible::accSelect, winauto.iaccessible_iaccessible__accselect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,7 @@ Type: <b>long</b>
 Specifies which selection or focus operations are to be performed. This parameter must have a combination of the <a href="https://msdn.microsoft.com/52755540-dcf4-4e0b-bb5c-88b05f134d79">SELFLAG Constants</a>.
 
 
-### -param varChild
-
-TBD
-
-
-
-
-#### - varID [in]
+### -param varChild [in]
 
 Type: <b>VARIANT</b>
 
@@ -120,7 +113,7 @@ The specified object is not selected.
 </dl>
 </td>
 <td width="60%">
-An argument is not valid. This return value means that the specified SELFLAG combination is not valid, or that the SELFLAG value does not make sense for the specified object. For example, the following flags are not allowed on a single-selection list box: <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_EXTENDSELECTION</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_ADDSELECTION</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_REMOVESELECTION</a>.
+An argument is not valid. This return value means that the specified SELFLAG combination is not valid, or that the SELFLAG value does not make sense for the specified object. For example, the following flags are not allowed on a single-selection list box: <a href="selflag.htm">SELFLAG_EXTENDSELECTION</a>, <a href="selflag.htm">SELFLAG_ADDSELECTION</a>, and <a href="selflag.htm">SELFLAG_REMOVESELECTION</a>.
 
 </td>
 </tr>

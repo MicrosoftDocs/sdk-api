@@ -4,10 +4,10 @@ title: SetPrivateObjectSecurityEx function
 author: windows-sdk-content
 description: Modifies the security descriptor of a private object maintained by the resource manager calling this function.
 old-location: security\setprivateobjectsecurityex.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: eb3a751f-741e-448f-b812-5f16a4040b5e
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SEF_AVOID_OWNER_CHECK, SEF_AVOID_OWNER_RESTRICTION, SEF_AVOID_PRIVILEGE_CHECK, SEF_DACL_AUTO_INHERIT, SEF_DEFAULT_GROUP_FROM_PARENT, SEF_DEFAULT_OWNER_FROM_PARENT, SEF_MACL_NO_EXECUTE_UP, SEF_MACL_NO_READ_UP, SEF_MACL_NO_WRITE_UP, SEF_SACL_AUTO_INHERIT, SetPrivateObjectSecurityEx, SetPrivateObjectSecurityEx function [Security], _win32_setprivateobjectsecurityex, security.setprivateobjectsecurityex, securitybaseapi/SetPrivateObjectSecurityEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -342,7 +342,7 @@ A resource manager that is setting the Owner on a subtree of objects can avoid t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

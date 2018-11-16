@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_backup.htm
 tech.root: GPMC
 ms.assetid: 5ba8d2f7-4989-4882-9ceb-4f77b8745442
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Backup, Backup method [GPMC], Backup method [GPMC],GPMGPO object, Backup method [GPMC],IGPMGPO interface, GPMGPO object [GPMC],Backup method, IGPMGPO interface [GPMC],Backup method, IGPMGPO.Backup, IGPMGPO::Backup, _win32_igpmgpo_backup, gpmc.igpmgpo_backup, gpmgmt/IGPMGPO::Backup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\cvsswriter_initialize.htm
 tech.root: VSS
 ms.assetid: a427ebbd-b7c4-46ba-ba16-dd601b1f956e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CVssWriter interface [VSS],Initialize method, CVssWriter.Initialize, CVssWriter::Initialize, Initialize, Initialize method [VSS], Initialize method [VSS],CVssWriter interface, _win32_cvsswriter_initialize, base.cvsswriter_initialize, vswriter/CVssWriter::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,29 +76,36 @@ Initializes a
 The globally unique identifier (GUID) of the writer class.
 
 
-### -param wszWriterName
+### -param wszWriterName [in]
 
-TBD
-
-
-### -param ut
-
-TBD
+A <b>null</b>-terminated wide character string that contains the name of the writer. This string is not localized.
 
 
-### -param st
+### -param ut [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/31997417-d993-4f28-b108-ce1dd8239650">VSS_USAGE_TYPE</a> enumeration value that indicates how the data managed by the writer is used on the host system.
 
 
-### -param nLevel
+### -param st [in]
 
-TBD
+A
+      <a href="https://msdn.microsoft.com/cb89c3cc-5a8e-419e-839c-f72a1886eadf">VSS_SOURCE_TYPE</a> enumeration value that indicates the type of data managed by the writer.
+
+
+### -param nLevel [in]
+
+A
+      <a href="https://msdn.microsoft.com/fc7fbaee-d223-4557-987d-2c09f3877ec2">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="vssgloss_f.htm">Freeze</a> event notification. 
+
+
+
+
+The default value for this parameter is VSS_APP_FRONT_END.
 
 
 ### -param dwTimeoutFreeze [in]
 
-The maximum permitted time, in milliseconds, between a writer's receipt of a <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">Freeze</a> event notification and the receipt of a matching <a href="https://msdn.microsoft.com/en-us/library/Aa384668(v=VS.85).aspx">Thaw</a> event notification from VSS. After the time-out expires, the writer's 
+The maximum permitted time, in milliseconds, between a writer's receipt of a <a href="vssgloss_f.htm">Freeze</a> event notification and the receipt of a matching <a href="vssgloss_t.htm">Thaw</a> event notification from VSS. After the time-out expires, the writer's 
 <a href="https://msdn.microsoft.com/56ba5f08-4803-4137-9edd-ce05bc19773b">CVssWriter::OnAbort</a> method is called automatically. 
 
 
@@ -137,33 +144,6 @@ A <b>null</b>-terminated wide character string that contains the writer instance
 The default value for this parameter is <b>NULL</b>. If the writer has multiple instances and requires restore events, this parameter is required and cannot be <b>NULL</b>. For details, see the following Remarks section.
 
 <b>Windows Server 2003 and Windows XP:  </b>Before Windows Server 2003 with SP1, this parameter is reserved for system use, and the caller should not override the default value.
-
-
-#### - AppLevel [in]
-
-A
-      <a href="https://msdn.microsoft.com/fc7fbaee-d223-4557-987d-2c09f3877ec2">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">Freeze</a> event notification. 
-
-
-
-
-The default value for this parameter is VSS_APP_FRONT_END.
-
-
-#### - SourceType [in]
-
-A
-      <a href="https://msdn.microsoft.com/cb89c3cc-5a8e-419e-839c-f72a1886eadf">VSS_SOURCE_TYPE</a> enumeration value that indicates the type of data managed by the writer.
-
-
-#### - UsageType [in]
-
-A <a href="https://msdn.microsoft.com/31997417-d993-4f28-b108-ce1dd8239650">VSS_USAGE_TYPE</a> enumeration value that indicates how the data managed by the writer is used on the host system.
-
-
-#### - WriterName [in]
-
-A <b>null</b>-terminated wide character string that contains the name of the writer. This string is not localized.
 
 
 ## -returns

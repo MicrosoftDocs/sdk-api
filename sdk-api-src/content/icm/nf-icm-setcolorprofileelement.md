@@ -7,7 +7,7 @@ old-location: wcs\setcolorprofileelement.htm
 tech.root: WCS
 ms.assetid: 9991cdf7-4ab4-49da-b1ea-70dbeff77f4c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: SetColorProfileElement, SetColorProfileElement function [Windows Color System], _color_SetColorProfileElement, icm/SetColorProfileElement, wcs.setcolorprofileelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,24 +81,12 @@ Specifies the offset from the first byte of the tagged element data at which to 
 
 ### -param pcbElement
 
-TBD
+Pointer to a variable containing the number of bytes of data to write. On return, it contains the number of bytes actually written.
 
 
 ### -param pElement
 
-TBD
-
-
-
-
-#### - pBuffer
-
 Pointer to a buffer containing the data to write to the tagged element in the color profile.
-
-
-#### - pcbSize
-
-Pointer to a variable containing the number of bytes of data to write. On return, it contains the number of bytes actually written.
 
 
 ## -returns

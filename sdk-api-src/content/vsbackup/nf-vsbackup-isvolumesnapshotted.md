@@ -7,7 +7,7 @@ old-location: base\isvolumesnapshotted.htm
 tech.root: VSS
 ms.assetid: 308eddea-50e2-44c8-858f-315b8960a421
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IsVolumeSnapshotted, IsVolumeSnapshotted function [VSS], IsVolumeSnapshottedInternal, _win32_isvolumesnapshotted, base.isvolumesnapshotted, vsbackup/IsVolumeSnapshotted, vsbackup/IsVolumeSnapshottedInternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -208,7 +208,7 @@ Unexpected provider error. The error code is logged in the event log file. For a
 
 
 
-Before calling this function, the caller must have initialized COM by calling the <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a> function.
+Before calling this function, the caller must have initialized COM by calling the <a href="_com_coinitialize">CoInitialize</a> function.
 
 If no volume control or file I/O operations are disabled for the selected volume, then the shadow copy 
     capability of the selected volume returned by <i>plSnapshotCapability</i> will be zero.

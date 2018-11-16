@@ -7,7 +7,7 @@ old-location: pla\idatacollectorcollection_addrange.htm
 tech.root: PLA
 ms.assetid: e7482bc4-18a4-4267-9ceb-1552dd71391c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],AddRange method, IDataCollectorCollection.AddRange, IDataCollectorCollection::AddRange, base.idatacollectorcollection_addrange, pla.idatacollectorcollection_addrange, pla/IDataCollectorCollection::AddRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Adds one or more data collectors to the collection.
 
 
 
-### -param collectors
-
-TBD
-
-
-
-
-#### - pCollectors [in]
+### -param collectors [in]
 
 An <a href="https://msdn.microsoft.com/6b47fb9d-6ca4-4e6b-b117-027ef1e963ac">IDataCollectorCollection</a> interface to a collection of one or more data collectors to add to this collection.
 

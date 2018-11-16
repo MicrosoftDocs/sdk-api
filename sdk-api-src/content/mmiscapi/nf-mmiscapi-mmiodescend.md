@@ -7,7 +7,7 @@ old-location: multimedia\mmiodescend.htm
 tech.root: Multimedia
 ms.assetid: 7ec730fc-3286-4b83-88ac-d59bda85a6ae
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_mmioDescend, mmioDescend, mmioDescend function [Windows Multimedia], mmsystem/mmioDescend, multimedia.mmiodescend"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,32 +77,15 @@ File handle of an open RIFF file.
 
 ### -param pmmcki
 
-TBD
+Pointer to a buffer that receives an <a href="https://msdn.microsoft.com/5ea2569f-a15b-47f4-8d86-0bc005019984">MMCKINFO</a> structure.
 
 
 ### -param pmmckiParent
 
-TBD
-
-
-### -param fuDescend
-
-TBD
-
-
-
-
-#### - lpck
-
-Pointer to a buffer that receives an <a href="https://msdn.microsoft.com/5ea2569f-a15b-47f4-8d86-0bc005019984">MMCKINFO</a> structure.
-
-
-#### - lpckParent
-
 Pointer to an optional application-defined <a href="https://msdn.microsoft.com/5ea2569f-a15b-47f4-8d86-0bc005019984">MMCKINFO</a> structure identifying the parent of the chunk being searched for. If this parameter is not <b>NULL</b>, <b>mmioDescend</b> assumes the <b>MMCKINFO</b> structure it refers to was filled when <b>mmioDescend</b> was called to descend into the parent chunk, and <b>mmioDescend</b> searches for a chunk within the parent chunk. Set this parameter to <b>NULL</b> if no parent chunk is being specified.
 
 
-#### - wFlags
+### -param fuDescend
 
 Search flags. If no flags are specified, <b>mmioDescend</b> descends into the chunk beginning at the current file position. The following values are defined.
 

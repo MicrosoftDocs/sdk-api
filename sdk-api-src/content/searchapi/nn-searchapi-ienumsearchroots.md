@@ -7,7 +7,7 @@ old-location: search\_search_IEnumSearchRoots.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\ienumsearchroots.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumSearchRoots, IEnumSearchRoots interface [search], IEnumSearchRoots interface [search],described, _search_IEnumSearchRoots, search._search_IEnumSearchRoots, searchapi/IEnumSearchRoots
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ The <b>IEnumSearchRoots</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266503(v=VS.85).aspx">Clone</a>
+<a href="https://msdn.microsoft.com/8b978b1c-04eb-4df9-b522-c18ff5a216b4">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the <b>IEnumSearchRoots</b> object with the same contents and state as the current one.
@@ -79,27 +79,27 @@ Creates a copy of the <b>IEnumSearchRoots</b> object with the same contents and 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266505(v=VS.85).aspx">Next</a>
+<a href="https://msdn.microsoft.com/58838414-0609-4da8-9467-1ebfb5e42d8c">Next</a>
 </td>
 <td align="left" width="63%">
-Retrieves the specified number of <a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> elements.
+Retrieves the specified number of <a href="https://msdn.microsoft.com/1df814f4-2403-4a78-bb7d-0e1d98da7265">ISearchRoot</a> elements.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266506(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/7066e86e-4cdc-4285-b0b2-529e63237c08">Reset</a>
 </td>
 <td align="left" width="63%">
-Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/en-us/library/Bb266505(v=VS.85).aspx">IEnumSearchRoots::Next</a> retrieves from the beginning.
+Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/58838414-0609-4da8-9467-1ebfb5e42d8c">IEnumSearchRoots::Next</a> retrieves from the beginning.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266507(v=VS.85).aspx">Skip</a>
+<a href="https://msdn.microsoft.com/d5ba2d2a-6ef3-4942-bdf1-2abf611e0fa2">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of elements.
@@ -125,7 +125,7 @@ Skips the specified number of elements.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266541(v=VS.85).aspx">Using the Crawl Scope Manager</a>
+<a href="https://msdn.microsoft.com/7d65d00a-7294-4718-b593-89394b2e416f">Using the Crawl Scope Manager</a>
  
 
  

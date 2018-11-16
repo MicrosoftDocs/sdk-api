@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_save_cpp.
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_8jfp.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxIncomingArchive interface [Fax Service],Save method, IFaxIncomingArchive.Save, IFaxIncomingArchive::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxIncomingArchive interface, _mfax_faxincomingarchive.save, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_save_cpp, fax._mfax_faxincomingarchive_save, faxcomex/IFaxIncomingArchive::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDVB_SDT::GetVersionHash
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_getversionhash.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 56a52beb-d529-4119-a71f-c1f5d671e55b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetVersionHash method, IDVB_SDT.GetVersionHash, IDVB_SDT::GetVersionHash, IDVB_SDTGetVersionHash, dvbsiparser/IDVB_SDT::GetVersionHash, mstv.idvb_sdt_getversionhash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ The <b>GetVersionHash</b> method returns a hash value for this table instance. T
 
 
 
-### -param pdwVersionHash
-
-TBD
-
-
-
-
-#### - pbVal [out]
+### -param pdwVersionHash [out]
 
 Receives the hash value.
 

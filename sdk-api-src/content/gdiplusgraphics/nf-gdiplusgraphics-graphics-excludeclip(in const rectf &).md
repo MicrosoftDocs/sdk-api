@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_ExcludeClip_RectF_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsexcludeclipmethods\excludeclip_53rectfamprect.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ExcludeClip, ExcludeClip method [GDI+], ExcludeClip method [GDI+],Graphics class, Graphics class [GDI+],ExcludeClip method, Graphics.ExcludeClip, Graphics.ExcludeClip(IN const RectF &), Graphics.ExcludeClip(const RectF&), Graphics::ExcludeClip, Graphics::ExcludeClip(IN const RectF &), _gdiplus_CLASS_Graphics_ExcludeClip_RectF_rect_, gdiplus._gdiplus_CLASS_Graphics_ExcludeClip_RectF_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -72,17 +72,17 @@ Handle to the service.
 
 ### -param Characteristic [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/Hh450840(v=VS.85).aspx">BTH_LE_GATT_CHARACTERISTIC</a> structure containing the parent characteristic.
+Pointer to <a href="https://msdn.microsoft.com/BE96F588-28C5-46C8-AFC9-852D940051F2">BTH_LE_GATT_CHARACTERISTIC</a> structure containing the parent characteristic.
 
 
 ### -param CharacteristicValue [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/Hh450842(v=VS.85).aspx">BTH_LE_GATT_CHARACTERISTIC_VALUE</a> structure containing the characteristic value.
+Pointer to <a href="https://msdn.microsoft.com/AF36BC9A-5EB7-4495-870A-40BF5E0A57A3">BTH_LE_GATT_CHARACTERISTIC_VALUE</a> structure containing the characteristic value.
 
 
 ### -param ReliableWriteContext [in, optional]
 
-BTH_LE_GATT_RELIABLE_WRITE_CONTEXT structure containint the context describing the reliable write operation returned from a previous call to <a href="https://msdn.microsoft.com/en-us/library/Hh450792(v=VS.85).aspx">BluetoothGATTBeginReliableWrite</a>.
+BTH_LE_GATT_RELIABLE_WRITE_CONTEXT structure containint the context describing the reliable write operation returned from a previous call to <a href="https://msdn.microsoft.com/D053FD0C-3088-4C56-A4EA-F41079FAAF20">BluetoothGATTBeginReliableWrite</a>.
 
 
 ### -param Flags [in]
@@ -445,11 +445,11 @@ An error that lies in the reserved range has been received.
 
 
 
-Calling <b>BluetoothGATTSetCharacteristicValue</b> after <a href="https://msdn.microsoft.com/en-us/library/Hh450792(v=VS.85).aspx">BluetoothGATTBeginReliableWrite</a>, notifies the remote Bluetooth device to store this request into a prepare queue on the device.
+Calling <b>BluetoothGATTSetCharacteristicValue</b> after <a href="https://msdn.microsoft.com/D053FD0C-3088-4C56-A4EA-F41079FAAF20">BluetoothGATTBeginReliableWrite</a>, notifies the remote Bluetooth device to store this request into a prepare queue on the device.
 
 If signing is required, then the operation must not require a response, and must not occur over a secure channel.
 
-The parent characteristic is returned from a previous call to <a href="https://msdn.microsoft.com/en-us/library/Hh450795(v=VS.85).aspx">BluetoothGATTGetCharacteristics</a>, and must not be altered.  Behavior is undefined
+The parent characteristic is returned from a previous call to <a href="https://msdn.microsoft.com/974270EE-6319-45E3-BAB8-3A57665591EA">BluetoothGATTGetCharacteristics</a>, and must not be altered.  Behavior is undefined
     if the caller does this.
 
 <b>Example</b>
@@ -486,11 +486,11 @@ hr = BluetoothGATTSetCharacteristicValue(hDevice,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450840(v=VS.85).aspx">BTH_LE_GATT_CHARACTERISTIC</a>
+<a href="https://msdn.microsoft.com/BE96F588-28C5-46C8-AFC9-852D940051F2">BTH_LE_GATT_CHARACTERISTIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450842(v=VS.85).aspx">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
+<a href="https://msdn.microsoft.com/AF36BC9A-5EB7-4495-870A-40BF5E0A57A3">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
  
 
  

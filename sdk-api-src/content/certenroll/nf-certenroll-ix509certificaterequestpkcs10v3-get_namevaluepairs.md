@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10v3_namevaluepairs.htm
 tech.root: SecCertEnroll
 ms.assetid: 1049cd15-d141-4fa5-b60f-9a2fa0bb1524
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509CertificateRequestPkcs10V3 interface [Security],NameValuePairs property, IX509CertificateRequestPkcs10V3.NameValuePairs, IX509CertificateRequestPkcs10V3.get_NameValuePairs, IX509CertificateRequestPkcs10V3::NameValuePairs, IX509CertificateRequestPkcs10V3::get_NameValuePairs, NameValuePairs property [Security], NameValuePairs property [Security],IX509CertificateRequestPkcs10V3 interface, certenroll/IX509CertificateRequestPkcs10V3::NameValuePairs, certenroll/IX509CertificateRequestPkcs10V3::get_NameValuePairs, get_NameValuePairs, security.ix509certificaterequestpkcs10v3_namevaluepairs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379345(v=VS.85).aspx">IX509CertificateRequestPkcs10V3</a>
+<a href="https://msdn.microsoft.com/e833d1dc-da0f-4f5e-9027-ebf7413ef8c3">IX509CertificateRequestPkcs10V3</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_getcasfortemplate.htm
 tech.root: SecCertEnroll
 ms.assetid: 7330aea0-36b3-49fa-8970-2476f2ae9d34
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetCAsForTemplate, GetCAsForTemplate method [Security], GetCAsForTemplate method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCAsForTemplate method, IX509EnrollmentPolicyServer.GetCAsForTemplate, IX509EnrollmentPolicyServer::GetCAsForTemplate, certenroll/IX509EnrollmentPolicyServer::GetCAsForTemplate, security.ix509enrollmentpolicyserver_getcasfortemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,12 +68,12 @@ The <b>GetCAsForTemplate</b> method retrieves a collection of certificate enroll
 
 ### -param pTemplate [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> interface that represents the template.
+Pointer to an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> interface that represents the template.
 
 
 ### -param ppCAs [out, retval]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee338611(v=VS.85).aspx">ICertificationAuthorities</a> interface that represents the server collection.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/8dad280a-1fe7-4a4b-9392-eee3aa9bcde9">ICertificationAuthorities</a> interface that represents the server collection.
 
 
 ## -returns
@@ -82,7 +82,7 @@ Address of a variable that receives a pointer to an <a href="https://msdn.micros
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -96,7 +96,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> object has not been initialized.
+The <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> object has not been initialized.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

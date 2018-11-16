@@ -7,7 +7,7 @@ old-location: vstor\addvirtualdiskparent.htm
 tech.root: VStor
 ms.assetid: 1af2a21b-246e-42d0-a493-4c513e716dab
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AddVirtualDiskParent, AddVirtualDiskParent function [Virtual Storage], virtdisk/AddVirtualDiskParent, vstor.addvirtualdiskparent
 ms.prod: windows-hardware
 ms.technology: windows-devices

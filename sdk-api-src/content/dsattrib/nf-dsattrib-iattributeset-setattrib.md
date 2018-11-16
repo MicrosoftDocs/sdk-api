@@ -4,10 +4,10 @@ title: IAttributeSet::SetAttrib
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iattributeset_setattrib.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 5f2dc759-5545-4b4a-a2fc-fca65c0856cd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IAttributeSet interface [Microsoft TV Technologies],SetAttrib method, IAttributeSet.SetAttrib, IAttributeSet::SetAttrib, IAttributeSetSetAttrib, SetAttrib, SetAttrib method [Microsoft TV Technologies], SetAttrib method [Microsoft TV Technologies],IAttributeSet interface, dsattrib/IAttributeSet::SetAttrib, mstv.iattributeset_setattrib
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: NdrProxyInitialize function
 author: windows-sdk-content
 description: The NdrProxyInitialize function initializes the proxy for an object method.
 old-location: rpc\ndrproxyinitialize.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 54037337-9166-4023-8470-65ad247ceee5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: NdrProxyInitialize, NdrProxyInitialize function [RPC], rpc.ndrproxyinitialize, rpcproxy/NdrProxyInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

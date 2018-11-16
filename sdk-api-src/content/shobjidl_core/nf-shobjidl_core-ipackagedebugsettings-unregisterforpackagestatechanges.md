@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_UnregisterForPackageStateChanges.htm
 tech.root: shell
 ms.assetid: CFCDA0AD-83D5-43DD-A7DD-C121563BF3DB
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],UnregisterForPackageStateChanges method, IPackageDebugSettings.UnregisterForPackageStateChanges, IPackageDebugSettings::UnregisterForPackageStateChanges, UnregisterForPackageStateChanges, UnregisterForPackageStateChanges method [Windows Shell], UnregisterForPackageStateChanges method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_UnregisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::UnregisterForPackageStateChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Stops receiving package state-change notifications associated with a previous ca
 
 
 
-### -param dwCookie
-
-TBD
-
-
-
-
-#### - pdwCookie [in]
+### -param dwCookie [in]
 
 The notification to cancel. This identifier is returned by a previous call to the  <a href="https://msdn.microsoft.com/D0E26154-DADB-499D-A434-8211196E2F5F">RegisterForPackageStateChanges</a> method.
 

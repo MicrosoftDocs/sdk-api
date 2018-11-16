@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_getallocateforstream.htm
 tech.root: wmformat
 ms.assetid: 816f13b1-9856-482d-b5b1-4aaf5c61c230
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetAllocateForStream, GetAllocateForStream method [windows Media Format], GetAllocateForStream method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetAllocateForStream method, IWMReaderAdvanced.GetAllocateForStream, IWMReaderAdvanced::GetAllocateForStream, IWMReaderAdvancedGetAllocateForStream, wmformat.iwmreaderadvanced_getallocateforstream, wmsdkidl/IWMReaderAdvanced::GetAllocateForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,19 +72,14 @@ The <b>GetAllocateForStream</b> method ascertains whether the reader is configur
 
 
 
-### -param dwSreamNum
+### -param dwSreamNum [in]
 
-TBD
+<b>WORD</b> containing the stream number.
 
 
 ### -param pfAllocate [out]
 
 Pointer to a Boolean value that is set to True if the reader uses <b>IWMReaderCallbackAdvanced</b> to allocate samples.
-
-
-#### - wStreamNum [in]
-
-<b>WORD</b> containing the stream number.
 
 
 ## -returns

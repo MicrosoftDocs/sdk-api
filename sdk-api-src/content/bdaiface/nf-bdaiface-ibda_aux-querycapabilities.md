@@ -4,10 +4,10 @@ title: IBDA_AUX::QueryCapabilities
 author: windows-sdk-content
 description: Gets the number of auxiliary connectors on the device.
 old-location: mstv\ibda_aux_querycapabilities.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 7bb80ae2-050e-4fe6-9dd4-9cc6b2bcdd3c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_AUX interface [Microsoft TV Technologies],QueryCapabilities method, IBDA_AUX.QueryCapabilities, IBDA_AUX::QueryCapabilities, QueryCapabilities, QueryCapabilities method [Microsoft TV Technologies], QueryCapabilities method [Microsoft TV Technologies],IBDA_AUX interface, bdaiface/IBDA_AUX::QueryCapabilities, mstv.ibda_aux_querycapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693258(v=VS.85).aspx">IBDA_AUX</a>
+<a href="https://msdn.microsoft.com/8397a04f-5d40-4fa3-ac02-79c764abd174">IBDA_AUX</a>
  
 
  

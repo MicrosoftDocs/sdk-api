@@ -7,7 +7,7 @@ old-location: winsensors\ilocationpermissions.htm
 tech.root: SensorsAPI
 ms.assetid: f4b46f4a-60be-4428-a4b5-6100ae3f1e1b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ILocationPermissions, ILocationPermissions interface [WinSensors], ILocationPermissions interface [WinSensors],described, sensorsapi/ILocationPermissions, winsensors.ilocationpermissions
 ms.prod: windows-hardware
 ms.technology: windows-devices

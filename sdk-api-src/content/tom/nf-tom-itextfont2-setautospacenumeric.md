@@ -4,10 +4,10 @@ title: ITextFont2::SetAutospaceNumeric
 author: windows-sdk-content
 description: Sets the East Asian &#0034;autospace numeric&#0034; state.
 old-location: controls\itextfont2_setautospacenumeric.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 7fd911c2-a765-4bbc-a14c-15665d5a4a16
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceNumeric method, ITextFont2.SetAutospaceNumeric, ITextFont2::SetAutospaceNumeric, SetAutospaceNumeric, SetAutospaceNumeric method [Windows Controls], SetAutospaceNumeric method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospacenumeric, tom/ITextFont2::SetAutospaceNumeric
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Sets the East Asian "autospace numeric" state.
 
 Type: <b>long</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

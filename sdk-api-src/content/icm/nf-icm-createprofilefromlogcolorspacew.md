@@ -7,7 +7,7 @@ old-location: wcs\createprofilefromlogcolorspace.htm
 tech.root: WCS
 ms.assetid: ac2fddd4-ac93-49a8-883a-cf888b542812
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CreateProfileFromLogColorSpace, CreateProfileFromLogColorSpace function [Windows Color System], CreateProfileFromLogColorSpaceA, CreateProfileFromLogColorSpaceW, _color_CreateProfileFromLogColorSpace, icm/CreateProfileFromLogColorSpace, icm/CreateProfileFromLogColorSpaceA, icm/CreateProfileFromLogColorSpaceW, wcs.createprofilefromlogcolorspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,13 +72,6 @@ A pointer to a logical color space structure. See <a href="https://msdn.microsof
 
 
 ### -param pProfile
-
-TBD
-
-
-
-
-#### - pBuffer
 
 A pointer to a pointer to a buffer where the device profile will be created. This function allocates the buffer and fills it with profile information if it is successful. If not, the pointer is set to <b>NULL</b>. The caller is responsible for freeing this buffer when it is no longer needed.
 

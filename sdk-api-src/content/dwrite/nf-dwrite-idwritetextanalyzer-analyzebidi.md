@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextAnalyzer_AnalyzeBidi.htm
 tech.root: DirectWrite
 ms.assetid: 413d49d2-bacd-4e98-bfac-c0aea2650a7c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AnalyzeBidi, AnalyzeBidi method [Direct Write], AnalyzeBidi method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeBidi method, IDWriteTextAnalyzer.AnalyzeBidi, IDWriteTextAnalyzer::AnalyzeBidi, directwrite.IDWriteTextAnalyzer_AnalyzeBidi, dwrite/IDWriteTextAnalyzer::AnalyzeBidi
 ms.prod: windows-hardware
 ms.technology: windows-devices

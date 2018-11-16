@@ -4,10 +4,10 @@ title: ID2D1Properties::SetValue(U,const BYTE,UINT32,)
 author: windows-sdk-content
 description: Sets the corresponding property by index. This is a template overload.
 old-location: direct2d\id2d1properties_setvalue3.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F0351C64-03CC-42D5-9622-F92C1054632C
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1Properties interface [Direct2D],SetValue method, ID2D1Properties.SetValue, ID2D1Properties.SetValue(U,const BYTE,UINT32,), ID2D1Properties::SetValue, ID2D1Properties::SetValue(U,const BYTE*,UINT32), ID2D1Properties::SetValue(U,const BYTE,UINT32,), SetValue, SetValue method [Direct2D], SetValue method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValue, direct2d.id2d1properties_setvalue3
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\hstring_usermarshal.htm
 tech.root: WinRT
 ms.assetid: 986942D6-A1CD-4BED-9AD3-82FB4892E28E
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: HSTRING_UserMarshal, HSTRING_UserMarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserMarshal, winrt.hstring_usermarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,17 +66,34 @@ Marshals an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756
 
 
 
-### -param arg1 [in]
+### -param arg1
 
-The data used by RPC.
+TBD
 
 
-### -param arg2 [in, out]
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+
+
+#### - pBuffer [in, out]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
 
-### -param arg3 [in]
+#### - pFlags [in]
+
+The data used by RPC.
+
+
+#### - ppidl [in]
 
 The string.
 

@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt64.htm
 tech.root: properties
 ms.assetid: 1278f775-8439-4d05-acc9-b5207a3ccba7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: VariantToUInt64, VariantToUInt64 function [Windows Properties], _shell_VariantToUInt64, properties.VariantToUInt64, propvarutil/VariantToUInt64, shell.VariantToUInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices

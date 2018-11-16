@@ -4,10 +4,10 @@ title: "_MINIDUMP_MISC_INFO"
 author: windows-sdk-content
 description: Contains a variety of information.
 old-location: base\minidump_misc_info_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: c80bb631-b26b-40d4-ae35-1cf38ce45d51
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "*PMINIDUMP_MISC_INFO, MINIDUMP_MISC1_PROCESS_ID, MINIDUMP_MISC1_PROCESS_TIMES, MINIDUMP_MISC_INFO, MINIDUMP_MISC_INFO structure, PMINIDUMP_MISC_INFO, PMINIDUMP_MISC_INFO structure pointer, _MINIDUMP_MISC_INFO, _win32_minidump_misc_info_str, base.minidump_misc_info_str, minidumpapiset/MINIDUMP_MISC_INFO, minidumpapiset/PMINIDUMP_MISC_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

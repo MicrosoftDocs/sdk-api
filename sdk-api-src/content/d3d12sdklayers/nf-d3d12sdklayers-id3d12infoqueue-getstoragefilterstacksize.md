@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getstoragefilterstacksize.htm
 tech.root: direct3d12
 ms.assetid: A2E1B587-8FB2-44E8-9F6D-1BDB3C1EDE77
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetStorageFilterStackSize, GetStorageFilterStackSize method, GetStorageFilterStackSize method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetStorageFilterStackSize method, ID3D12InfoQueue.GetStorageFilterStackSize, ID3D12InfoQueue::GetStorageFilterStackSize, d3d12sdklayers/ID3D12InfoQueue::GetStorageFilterStackSize, direct3d12.id3d12infoqueue_getstoragefilterstacksize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ Size of the storage-filter stack in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

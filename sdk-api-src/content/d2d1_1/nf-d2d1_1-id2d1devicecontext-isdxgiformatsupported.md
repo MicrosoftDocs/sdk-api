@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::IsDxgiFormatSupported
 author: windows-sdk-content
 description: Indicates whether the format is supported by the device context.
 old-location: direct2d\id2d1devicecontext_isdxgiformatsupported.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: AA70292A-7B1C-4916-91CA-80263839BC3F
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],IsDxgiFormatSupported method, ID2D1DeviceContext.IsDxgiFormatSupported, ID2D1DeviceContext::IsDxgiFormatSupported, IsDxgiFormatSupported, IsDxgiFormatSupported method [Direct2D], IsDxgiFormatSupported method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::IsDxgiFormatSupported, direct2d.id2d1devicecontext_isdxgiformatsupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,13 +67,6 @@ req.redist:
 
 
 ### -param format
-
-TBD
-
-
-
-
-#### - DXGI_FORMAT
 
 Type: <b>format</b>
 

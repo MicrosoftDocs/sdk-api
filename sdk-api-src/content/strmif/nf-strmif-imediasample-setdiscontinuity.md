@@ -7,7 +7,7 @@ old-location: dshow\imediasample_setdiscontinuity.htm
 tech.root: DirectShow
 ms.assetid: 57041c71-4c7e-463a-92f5-c77a76aa545a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IMediaSample interface [DirectShow],SetDiscontinuity method, IMediaSample.SetDiscontinuity, IMediaSample::SetDiscontinuity, IMediaSampleSetDiscontinuity, SetDiscontinuity, SetDiscontinuity method [DirectShow], SetDiscontinuity method [DirectShow],IMediaSample interface, dshow.imediasample_setdiscontinuity, strmif/IMediaSample::SetDiscontinuity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ The <code>SetDiscontinuity</code> method specifies whether this sample represent
 
 
 
-### -param bDiscontinuity
-
-TBD
-
-
-
-
-#### - bIsDiscontinuity [in]
+### -param bDiscontinuity [in]
 
 Boolean value that specifies whether this sample is a discontinuity. If <b>TRUE</b>, the media sample is discontinuous with the previous sample.
 

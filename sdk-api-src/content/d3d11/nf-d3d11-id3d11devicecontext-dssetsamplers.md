@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_dssetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 15cc8f81-2d57-4148-821c-0136c0ce3f82
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 5141e937-00ce-e7e4-cf38-b06ad4222cd4, DSSetSamplers, DSSetSamplers method [Direct3D 11], DSSetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSSetSamplers method, ID3D11DeviceContext.DSSetSamplers, ID3D11DeviceContext::DSSetSamplers, d3d11/ID3D11DeviceContext::DSSetSamplers, direct3d11.id3d11devicecontext_dssetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,23 +69,23 @@ Set an array of sampler states to the domain-shader stage.
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index into the device's zero-based array to begin setting samplers to (ranges from 0 to D3D11_COMMONSHADER_SAMPLER_SLOT_COUNT - 1).
 
 
 ### -param NumSamplers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of samplers in the array. Each pipeline stage has a total of 16 sampler slots available (ranges from 0 to D3D11_COMMONSHADER_SAMPLER_SLOT_COUNT - StartSlot).
 
 
 ### -param ppSamplers [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476588(v=VS.85).aspx">ID3D11SamplerState</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/8dc2facc-4f51-4064-aab4-028a06b9d7e6">ID3D11SamplerState</a>*</b>
 
-Pointer to an array of sampler-state interfaces (see <a href="https://msdn.microsoft.com/en-us/library/Ff476588(v=VS.85).aspx">ID3D11SamplerState</a>). See Remarks.
+Pointer to an array of sampler-state interfaces (see <a href="https://msdn.microsoft.com/8dc2facc-4f51-4064-aab4-028a06b9d7e6">ID3D11SamplerState</a>). See Remarks.
 
 
 ## -returns
@@ -140,7 +140,7 @@ The method will hold a reference to the interfaces passed in.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: intl\getlocaleinfoex.htm
 tech.root: Intl
 ms.assetid: 20294ff2-b783-41a2-92a8-41cd974a2ccb
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetLocaleInfoEx, GetLocaleInfoEx function [Internationalization for Windows Applications], _win32_GetLocaleInfoEx, intl.getlocaleinfoex, winnls/GetLocaleInfoEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,15 +144,19 @@ There are two exceptions to this rule. First, the application can retrieve numer
 <div> </div>
 The following examples deal correctly with the buffer size for non-text values:
 
-
-```cpp
-int   ret;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>int   ret;
 CALID calid;
 DWORD value;
 
 ret = GetLocaleInfoEx(LOCALE_NAME_USER_DEFAULT,
                       LOCALE_ICALENDARTYPE | LOCALE_RETURN_NUMBER,
-                      (LPWSTR)&value,
+                      (LPWSTR)&amp;value,
                       sizeof(value) / sizeof(WCHAR) );
 calid = value;
 
@@ -160,12 +164,12 @@ LOCALESIGNATURE LocSig;
 
 ret = GetLocaleInfoEx(LOCALE_NAME_USER_DEFAULT,
                       LOCALE_FONTSIGNATURE,
-                      (LPWSTR)&LocSig,
+                      (LPWSTR)&amp;LocSig,
                       sizeof(LocSig) / sizeof(WCHAR) );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 This function can retrieve data from <a href="https://msdn.microsoft.com/110efeab-c02f-4244-8950-a975cfc91e8a">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://msdn.microsoft.com/f62402d6-31de-4ff7-9538-7925a007a089">Using Persistent Locale Data</a>.
 
 <b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://msdn.microsoft.com/e9e566c3-e84a-44d3-980f-fe8bbd5e052a">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://msdn.microsoft.com/99264b22-3fb5-47e2-b0b9-42a6768e67c1">ResolveLocaleName</a>.

@@ -4,10 +4,10 @@ title: SetSystemTimeAdjustment function
 author: windows-sdk-content
 description: Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information.
 old-location: base\setsystemtimeadjustment.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 93c72511-057c-4b26-a4ae-1d225a80c572
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SetSystemTimeAdjustment, SetSystemTimeAdjustment function, _win32_setsystemtimeadjustment, base.setsystemtimeadjustment, sysinfoapi/SetSystemTimeAdjustment
 ms.prod: windows-hardware
 ms.technology: windows-devices

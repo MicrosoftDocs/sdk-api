@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt32Vector.htm
 tech.root: properties
 ms.assetid: 771fa1d7-c648-49d4-a6a2-5aa23f8c20b7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: PropVariantToInt32Vector, PropVariantToInt32Vector function [Windows Properties], _shell_PropVariantToInt32Vector, properties.PropVariantToInt32Vector, propvarutil/PropVariantToInt32Vector, shell.PropVariantToInt32Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,7 +155,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776551(v=VS.85).aspx">PropVariantToInt32Vector</a> to access an Int32 vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToInt32Vector">PropVariantToInt32Vector</a> to access an Int32 vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -190,23 +190,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762300(v=VS.85).aspx">InitPropVariantFromInt32Vector</a>
+<a href="shell.InitPropVariantFromInt32Vector">InitPropVariantFromInt32Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776525(v=VS.85).aspx">PropVariantGetInt32Elem</a>
+<a href="shell.PropVariantGetInt32Elem">PropVariantGetInt32Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776550(v=VS.85).aspx">PropVariantToInt32</a>
+<a href="shell.PropVariantToInt32">PropVariantToInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776552(v=VS.85).aspx">PropVariantToInt32VectorAlloc</a>
+<a href="shell.PropVariantToInt32VectorAlloc">PropVariantToInt32VectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776609(v=VS.85).aspx">VariantToInt32Array</a>
+<a href="shell.VariantToInt32Array">VariantToInt32Array</a>
  
 
  

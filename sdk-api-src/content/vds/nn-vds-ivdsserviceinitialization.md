@@ -7,7 +7,7 @@ old-location: base\ivdsserviceinitialization.htm
 tech.root: VDS
 ms.assetid: f5a24acb-2b5e-44ec-a3fa-252a84777ecd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVdsServiceInitialization, IVdsServiceInitialization interface, IVdsServiceInitialization interface,described, base.ivdsserviceinitialization, vds/IVdsServiceInitialization
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\transformpoints.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Graphics class [GDI+],TransformPoints method, Graphics.TransformPoints, Graphics.TransformPoints(IN CoordinateSpace,IN CoordinateSpace,IN OUT PointF,IN INT), Graphics::TransformPoints, Graphics::TransformPoints(IN CoordinateSpace,IN CoordinateSpace,IN OUT PointF,IN INT), TransformPoints, TransformPoints method [GDI+], TransformPoints method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_, gdiplus._gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,9 +122,13 @@ The world transformation converts points from the world coordinate space to the 
 
 The following example creates a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and sets its world transformation to a translation 40 units right and 30 units down. Then the code creates an array of points and passes the address of that array to the <b>Graphics::TransformPoints</b> method of the same <b>Graphics</b> object. The points in the array are transformed by the world transformation of the <b>Graphics</b> object. The code calls the <a href="https://msdn.microsoft.com/edaaedfd-6b45-45e6-b23c-df4304420177">Graphics::DrawLine</a> method twice: once to connect the two points before the transformation and once to connect the two points after the transformation.
 
-
-```cpp
-VOID Example_TransformPoints(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_TransformPoints(HDC hdc)
 {
    Graphics graphics(hdc);
    Pen pen(Color(255, 0, 0, 255));
@@ -134,7 +138,7 @@ VOID Example_TransformPoints(HDC hdc)
 
    // Draw a line that connects the two points.
    // No transformation has been performed yet.
-   graphics.DrawLine(&pen, points[0], points[1]);
+   graphics.DrawLine(&amp;pen, points[0], points[1]);
 
    // Set the world transformation of the Graphics object.
    graphics.TranslateTransform(40.0f, 30.0f);
@@ -153,11 +157,11 @@ VOID Example_TransformPoints(HDC hdc)
 
    // Draw a line that connects the transformed points.
    graphics.ResetTransform();
-   graphics.DrawLine(&pen, points[0], points[1]);
-}
-```
-
-
+   graphics.DrawLine(&amp;pen, points[0], points[1]);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

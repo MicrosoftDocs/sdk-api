@@ -4,10 +4,10 @@ title: "_MMC_RESTORE_VIEW"
 author: windows-sdk-content
 description: The MMC_RESTORE_VIEW structure is introduced in MMC 1.1.
 old-location: mmc\mmc_restore_view.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 349357e5-5d60-491f-b267-b18a52b4c927
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: MMC_RESTORE_VIEW, MMC_RESTORE_VIEW structure [MMC], _MMC_RESTORE_VIEW, _slate_mmc_restore_view, mmc.mmc_restore_view, mmc/MMC_RESTORE_VIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices

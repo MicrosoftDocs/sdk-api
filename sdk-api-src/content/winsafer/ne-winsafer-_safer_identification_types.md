@@ -4,10 +4,10 @@ title: "_SAFER_IDENTIFICATION_TYPES"
 author: windows-sdk-content
 description: Defines the possible types of identification rule structures that can be identified by the SAFER_IDENTIFICATION_HEADER structure.
 old-location: security\safer_identification_types.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: ced40d58-e9f1-47cc-9e05-fdaa253bb16b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: SAFER_IDENTIFICATION_TYPES, SAFER_IDENTIFICATION_TYPES enumeration [Security], SaferIdentityDefault, SaferIdentityTypeCertificate, SaferIdentityTypeImageHash, SaferIdentityTypeImageName, SaferIdentityTypeUrlZone, _SAFER_IDENTIFICATION_TYPES, security.safer_identification_types, winsafer/SAFER_IDENTIFICATION_TYPES, winsafer/SaferIdentityDefault, winsafer/SaferIdentityTypeCertificate, winsafer/SaferIdentityTypeImageHash, winsafer/SaferIdentityTypeImageName, winsafer/SaferIdentityTypeUrlZone
 ms.prod: windows-hardware
 ms.technology: windows-devices

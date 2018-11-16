@@ -7,7 +7,7 @@ old-location: winrm\wsman_authentication_credentials.htm
 tech.root: WinRM
 ms.assetid: e9090d88-c76e-4a85-946e-ff46403e6725
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: WSMAN_AUTHENTICATION_CREDENTIALS, WSMAN_AUTHENTICATION_CREDENTIALS structure [Windows Remote Management], _WSMAN_AUTHENTICATION_CREDENTIALS, winrm.wsman_authentication_credentials, wsman/WSMAN_AUTHENTICATION_CREDENTIALS
 ms.prod: windows-hardware
 ms.technology: windows-devices

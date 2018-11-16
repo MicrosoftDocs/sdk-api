@@ -7,7 +7,7 @@ old-location: base\ivsscreateexpresswritermetadata_setbackupschema.htm
 tech.root: VSS
 ms.assetid: b270424d-61e1-4984-a487-4dcb4e113985
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SetBackupSchema method, IVssCreateExpressWriterMetadata.SetBackupSchema, IVssCreateExpressWriterMetadata::SetBackupSchema, SetBackupSchema, SetBackupSchema method, SetBackupSchema method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_setbackupschema, vswriter/IVssCreateExpressWriterMetadata::SetBackupSchema
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ Used by an express writer to indicate in its Writer Metadata Document the types 
 
 
 
-### -param dwSchemaMask
-
-TBD
-
-
-
-
-#### - dsSchemaMask [in]
+### -param dwSchemaMask [in]
 
 A bitmask of 
 <a href="https://msdn.microsoft.com/3541c8bd-2712-458b-9153-1fffe6bf5688">VSS_BACKUP_SCHEMA</a> enumeration values that specify the types of backup operations this writer supports.

@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_subscriptionname.htm
 tech.root: cossdk
 ms.assetid: 0a5532c1-8e06-4fbd-88aa-04d7a69672c3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEventSubscription interface [COM+],SubscriptionName property, IEventSubscription.SubscriptionName, IEventSubscription.put_SubscriptionName, IEventSubscription::SubscriptionName, IEventSubscription::get_SubscriptionName, IEventSubscription::put_SubscriptionName, SubscriptionName property [COM+], SubscriptionName property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriptionname, eventsys/IEventSubscription::SubscriptionName, eventsys/IEventSubscription::get_SubscriptionName, eventsys/IEventSubscription::put_SubscriptionName, put_SubscriptionName
 ms.prod: windows-hardware
 ms.technology: windows-devices

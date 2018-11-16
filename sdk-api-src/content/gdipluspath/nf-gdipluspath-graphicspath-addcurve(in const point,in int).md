@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddCurve_Point_points_INT_coun
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddcurvemethods\addcurve.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: AddCurve, AddCurve method [GDI+], AddCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddCurve method, GraphicsPath.AddCurve, GraphicsPath.AddCurve(IN const Point,IN INT), GraphicsPath.AddCurve(const Point*,INT), GraphicsPath::AddCurve, GraphicsPath::AddCurve(IN const Point,IN INT), _gdiplus_CLASS_GraphicsPath_AddCurve_Point_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddCurve_Point_points_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,7 +100,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 You should keep a copy of the <i>points</i> array if those points will be needed later. The 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object does not store the points passed to the 
+				<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object does not store the points passed to the 
 				<b>AddClosedCurve</b> method; instead, it converts the cardinal spline to a sequence of Bézier splines and stores the points that define those Bézier splines. You cannot retrieve the original array of points from the <b>GraphicsPath</b> object.
 
 
@@ -108,11 +108,15 @@ You should keep a copy of the <i>points</i> array if those points will be needed
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object <i>path</i>, adds a cardinal spline to <i>path</i>, and then draws <i>path</i>.
+The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object <i>path</i>, adds a cardinal spline to <i>path</i>, and then draws <i>path</i>.
 
-
-```cpp
-VOID AddCurveExample(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID AddCurveExample(HDC hdc)
 {
    Graphics graphics(hdc);
    Point pts[] = {Point(50,50),
@@ -123,11 +127,11 @@ VOID AddCurveExample(HDC hdc)
    path.AddCurve(pts, 4);
    // Draw the path.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawPath(&pen, &path);   
-}
-```
-
-
+   graphics.DrawPath(&amp;pen, &amp;path);   
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -172,7 +176,7 @@ VOID AddCurveExample(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 

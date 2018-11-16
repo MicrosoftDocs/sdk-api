@@ -7,7 +7,7 @@ old-location: search\_search_IEnumSearchScopeRules.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\ienumsearchscoperules.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumSearchScopeRules, IEnumSearchScopeRules interface [search], IEnumSearchScopeRules interface [search],described, _search_IEnumSearchScopeRules, search._search_IEnumSearchScopeRules, searchapi/IEnumSearchScopeRules
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ The <b>IEnumSearchScopeRules</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266498(v=VS.85).aspx">Clone</a>
+<a href="https://msdn.microsoft.com/17c99d21-438f-40ff-ac6f-50f3ca6c91ee">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of this <b>IEnumSearchScopeRules</b> object with the same contents and state as the current one.
@@ -79,25 +79,25 @@ Creates a copy of this <b>IEnumSearchScopeRules</b> object with the same content
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266500(v=VS.85).aspx">Next</a>
+<a href="https://msdn.microsoft.com/ef4472f1-348d-4545-8c8f-852a587e8096">Next</a>
 </td>
 <td align="left" width="63%">
-Retrieves the specified number of <a href="https://msdn.microsoft.com/en-us/library/Bb266457(v=VS.85).aspx">ISearchScopeRule</a> elements.
+Retrieves the specified number of <a href="https://msdn.microsoft.com/ace8d4f8-ffe0-45ff-8ba4-691efad23013">ISearchScopeRule</a> elements.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266501(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/afa73ad9-a697-4ad8-bb2f-0501d6046325">Reset</a>
 </td>
 <td align="left" width="63%">
-Moves the internal counter to the beginning of the list so that a subsequent call to <a href="https://msdn.microsoft.com/en-us/library/Bb266500(v=VS.85).aspx">IEnumSearchScopeRules::Next</a> retrieves from the beginning.
+Moves the internal counter to the beginning of the list so that a subsequent call to <a href="https://msdn.microsoft.com/ef4472f1-348d-4545-8c8f-852a587e8096">IEnumSearchScopeRules::Next</a> retrieves from the beginning.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266502(v=VS.85).aspx">Skip</a>
+<a href="https://msdn.microsoft.com/53889c73-3680-4222-9f2b-e41759a694ea">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of elements.
@@ -123,7 +123,7 @@ Skips the specified number of elements.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266541(v=VS.85).aspx">Using the Crawl Scope Manager</a>
+<a href="https://msdn.microsoft.com/7d65d00a-7294-4718-b593-89394b2e416f">Using the Crawl Scope Manager</a>
  
 
  

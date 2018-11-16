@@ -7,7 +7,7 @@ old-location: shell\IActionProgress_UpdateText.htm
 tech.root: shell
 ms.assetid: dfb8a996-89df-4975-ac13-d871598a2787
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IActionProgress interface [Windows Shell],UpdateText method, IActionProgress.UpdateText, IActionProgress::UpdateText, UpdateText, UpdateText method [Windows Shell], UpdateText method [Windows Shell],IActionProgress interface, shell.IActionProgress_UpdateText, shell_IActionProgress_UpdateText, shobjidl_core/IActionProgress::UpdateText
 ms.prod: windows-hardware
 ms.technology: windows-devices

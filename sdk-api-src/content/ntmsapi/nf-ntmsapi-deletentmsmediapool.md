@@ -7,7 +7,7 @@ old-location: fs\deletentmsmediapool.htm
 tech.root: Rsm
 ms.assetid: 79885083-beb6-4c66-8271-23082994a258
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: DeleteNtmsMediaPool, DeleteNtmsMediaPool function [Files], _zaw_deletentmsmediapool, base.deletentmsmediapool, fs.deletentmsmediapool, ntmsapi/DeleteNtmsMediaPool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -207,7 +207,7 @@ Free, unrecognized, and import media pools are managed by RSM and cannot be dele
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
 
 
 

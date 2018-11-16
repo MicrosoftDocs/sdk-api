@@ -7,7 +7,7 @@ old-location: wcs\IDeviceModelPlugIn_GetPrimarySamples.htm
 tech.root: WCS
 ms.assetid: 46253246-e07c-4f55-92fa-91941abaefcd
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetPrimarySamples, GetPrimarySamples method [Windows Color System], GetPrimarySamples method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetPrimarySamples method, IDeviceModelPlugIn.GetPrimarySamples, IDeviceModelPlugIn::GetPrimarySamples, _color_IDeviceModelPlugIn::GetPrimarySamples, wcs.IDeviceModelPlugIn_GetPrimarySamples, wcsplugin/IDeviceModelPlugIn::GetPrimarySamples
 ms.prod: windows-hardware
 ms.technology: windows-devices

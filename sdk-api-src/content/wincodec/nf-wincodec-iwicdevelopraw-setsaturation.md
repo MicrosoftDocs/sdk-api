@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_setsaturation.htm
 tech.root: wic
 ms.assetid: 93e9eb1c-8428-4c4d-913a-d6162430e509
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetSaturation method, IWICDevelopRaw.SetSaturation, IWICDevelopRaw::SetSaturation, SetSaturation, SetSaturation method [Windows Imaging Component], SetSaturation method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setsaturation, wic._wic_codec_iwicdevelopraw_setsaturation, wincodec/IWICDevelopRaw::SetSaturation
 ms.prod: windows-hardware
 ms.technology: windows-devices

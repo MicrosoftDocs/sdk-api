@@ -7,7 +7,7 @@ old-location: htmlhelp\iitwordwheel_lookup1.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheellookupbuffer.htm
 ms.author: windowssdkdev
-ms.date: 10/22/2018
+ms.date: 11/15/2018
 ms.keywords: IITWordWheel interface [HTML Help Workshop],Lookup method, IITWordWheel.Lookup, IITWordWheel.Lookup(LONG,IITResultSet,LONG), IITWordWheel::Lookup, IITWordWheel::Lookup(LONG,IITResultSet,LONG), IITWordWheel::Lookup(LONG,LPVOID,DWORD), Lookup, Lookup method [HTML Help Workshop], Lookup method [HTML Help Workshop],IITWordWheel interface, htmlhelp.iitwordwheel_lookup1, infotech/IITWordWheel::Lookup, refIITWordWheelLookupBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,11 +68,9 @@ Looks up an entry and returns contents in a buffer.
 
 
 
-### -param lEntry [in]
+### -param lEntry
 
-Entry to look up.
-
-
+TBD
 
 
 ### -param lpITResult
@@ -87,16 +85,23 @@ TBD
 
 
 
-#### - cbKeyBuf [in]
-
-Buffer size in number of bytes.
-
-
-
-
-#### - lpvKeyBuf [out]
+#### - fExactMatch [out]
 
 Buffer to return entry.
+
+
+
+
+#### - lpcvPrefix [in]
+
+Entry to look up.
+
+
+
+
+#### - plEntry [in]
+
+Buffer size in number of bytes.
 
 
 
@@ -149,7 +154,7 @@ Entry number is out of range.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670057(v=VS.85).aspx">IITWordWheel</a>
+<a href="https://msdn.microsoft.com/9734c73e-9325-4a6d-bbf3-3f87f96a662e">IITWordWheel</a>
  
 
  

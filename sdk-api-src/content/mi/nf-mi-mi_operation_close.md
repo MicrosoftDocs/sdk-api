@@ -4,10 +4,10 @@ title: MI_Operation_Close function
 author: windows-sdk-content
 description: Closes an operation handle.
 old-location: wmi_v2\mi_operation_close.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 3e698e34-d537-4ea4-9345-cc4f493ff823
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Operation_Close, MI_Operation_Close function [Windows Management Infrastructure (MI)], mi/MI_Operation_Close, wmi_v2.mi_operation_close
 ms.prod: windows-hardware
 ms.technology: windows-devices

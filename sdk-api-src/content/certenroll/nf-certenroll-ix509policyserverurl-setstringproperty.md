@@ -7,7 +7,7 @@ old-location: security\ix509policyserverurl_setstringproperty.htm
 tech.root: SecCertEnroll
 ms.assetid: b02ca192-274a-4d15-8c16-4975134c92b4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509PolicyServerUrl interface [Security],SetStringProperty method, IX509PolicyServerUrl.SetStringProperty, IX509PolicyServerUrl::SetStringProperty, PsFriendlyName, PsPolicyID, SetStringProperty, SetStringProperty method [Security], SetStringProperty method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::SetStringProperty, security.ix509policyserverurl_setstringproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ The <b>SetStringProperty</b> method specifies the certificate enrollment policy 
 
 ### -param propertyId [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ee351753(v=VS.85).aspx">PolicyServerUrlPropertyID</a> value that specifies the string to set. This can be one of the following values.
+A <a href="https://msdn.microsoft.com/7b2f898d-9730-4f86-a7b2-dd625889c00a">PolicyServerUrlPropertyID</a> value that specifies the string to set. This can be one of the following values.
 
 <table>
 <tr>
@@ -110,7 +110,7 @@ A <b>BSTR</b> variable that receives the property value.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -150,7 +150,7 @@ Memory could not be allocated for the property value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351734(v=VS.85).aspx">IX509PolicyServerUrl</a>
+<a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a>
  
 
  

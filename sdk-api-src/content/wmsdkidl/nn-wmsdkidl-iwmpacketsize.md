@@ -7,7 +7,7 @@ old-location: wmformat\iwmpacketsize.htm
 tech.root: wmformat
 ms.assetid: 002442fe-46de-49d9-8aff-ad7c9aabc8d1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMPacketSize, IWMPacketSize interface [windows Media Format], IWMPacketSize interface [windows Media Format],described, IWMPacketSizeInterface, wmformat.iwmpacketsize, wmsdkidl/IWMPacketSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>IWMPacketSize</b> interface controls the maximum size of <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packets</a> in an ASF file. Its methods are used to control the size of <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">UDP</a> datagrams when the content, live or on-demand, is streamed across a network.
+The <b>IWMPacketSize</b> interface controls the maximum size of <a href="wmformat_glossary.htm">packets</a> in an ASF file. Its methods are used to control the size of <a href="wmformat_glossary.htm">UDP</a> datagrams when the content, live or on-demand, is streamed across a network.
 
 An <b>IWMPacketSize</b> interface can be obtained for either a profile object, a reader object, or a synchronous reader object. You can obtain a pointer to <b>IWMPacketSize</b> by calling the <b>QueryInterface</b> method of any of the other interfaces in one of the supported objects.
 

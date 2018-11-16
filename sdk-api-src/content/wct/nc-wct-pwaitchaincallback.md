@@ -1,0 +1,189 @@
+---
+UID: NC:wct.PWAITCHAINCALLBACK
+title: PWAITCHAINCALLBACK
+author: windows-sdk-content
+description: An application-defined callback function that receives a wait chain. Specify this address when calling the OpenThreadWaitChainSession function.
+old-location: base\waitchaincallback.htm
+tech.root: Debug
+ms.assetid: 07d987b4-3ee4-4957-a6e8-542c427b94dd
+ms.author: windowssdkdev
+ms.date: 11/15/2018
+ms.keywords: ERROR_ACCESS_DENIED, ERROR_CANCELLED, ERROR_MORE_DATA, ERROR_OBJECT_NOT_FOUND, ERROR_SUCCESS, ERROR_TOO_MANY_THREADS, PWAITCHAINCALLBACK, PWAITCHAINCALLBACK callback, PWAITCHAINCALLBACK callback function, base.waitchaincallback, wct/PWAITCHAINCALLBACK
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: wct.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wct.h
+api_name:
+ - PWAITCHAINCALLBACK
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# PWAITCHAINCALLBACK callback function
+
+
+## -description
+
+
+An application-defined callback function that receives a wait chain. Specify this address when calling the 
+<a href="https://msdn.microsoft.com/405d9f3d-c11b-4e20-acc8-9c4f7989685d">OpenThreadWaitChainSession</a> function.
+
+The <b>PWAITCHAINCALLBACK</b> type defines a pointer to this callback function. 
+<i>WaitChainCallback</i> is a placeholder for the application-defined function name.
+
+
+## -parameters
+
+
+
+
+### -param WctHandle
+
+A handle to the WCT session created by the <a href="https://msdn.microsoft.com/405d9f3d-c11b-4e20-acc8-9c4f7989685d">OpenThreadWaitChainSession</a> function.
+
+
+### -param Context
+
+A optional pointer to an application-defined context structure specified by the <a href="https://msdn.microsoft.com/5b418fa6-1d07-465e-85ea-b7127264eebf">GetThreadWaitChain</a> function.
+
+
+### -param CallbackStatus
+
+The callback status. This parameter can be one of the following values, or one of the other <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ERROR_ACCESS_DENIED"></a><a id="error_access_denied"></a><dl>
+<dt><b>ERROR_ACCESS_DENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The caller did not have sufficient privilege to open a target thread.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ERROR_CANCELLED"></a><a id="error_cancelled"></a><dl>
+<dt><b>ERROR_CANCELLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The asynchronous session was canceled by a call to the <a href="https://msdn.microsoft.com/dc288418-01e4-4737-9c63-e6e6b73b5d13">CloseThreadWaitChainSession</a> function.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ERROR_MORE_DATA"></a><a id="error_more_data"></a><dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>NodeInfoArray</i> buffer is not large enough to contain all the nodes in the wait chain. The <i>NodeCount</i> parameter contains the number of nodes in the chain. The wait chain returned is still valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ERROR_OBJECT_NOT_FOUND"></a><a id="error_object_not_found"></a><dl>
+<dt><b>ERROR_OBJECT_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified thread could not be located.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ERROR_SUCCESS"></a><a id="error_success"></a><dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ERROR_TOO_MANY_THREADS"></a><a id="error_too_many_threads"></a><dl>
+<dt><b>ERROR_TOO_MANY_THREADS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The number of nodes exceeds WCT_MAX_NODE_COUNT. The wait chain returned is still valid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param NodeCount
+
+The number of nodes retrieved, up to WCT_MAX_NODE_COUNT. If the array cannot contain all the nodes of the wait chain, the function fails, <i>CallbackStatus</i> is ERROR_MORE_DATA, and this parameter receives the number of array elements required to contain all the nodes.
+
+
+### -param NodeInfoArray
+
+An array of <a href="https://msdn.microsoft.com/7a333924-79a3-4522-aa5a-4fc60690667d">WAITCHAIN_NODE_INFO</a> structures that receives the wait chain.
+
+
+### -param IsCycle
+
+If the function detects a deadlock, this variable is set to <b>TRUE</b>; otherwise, it is set to <b>FALSE</b>.
+
+
+## -returns
+
+
+
+This callback function does not return a value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5b418fa6-1d07-465e-85ea-b7127264eebf">GetThreadWaitChain</a>
+
+
+
+<a href="https://msdn.microsoft.com/405d9f3d-c11b-4e20-acc8-9c4f7989685d">OpenThreadWaitChainSession</a>
+
+
+
+<a href="https://msdn.microsoft.com/7a333924-79a3-4522-aa5a-4fc60690667d">WAITCHAIN_NODE_INFO</a>
+ 
+
+ 
+

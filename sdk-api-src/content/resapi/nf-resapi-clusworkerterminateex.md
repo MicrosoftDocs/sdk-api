@@ -4,10 +4,10 @@ title: ClusWorkerTerminateEx function
 author: windows-sdk-content
 description: Waits for a worker thread to terminate up to the specified timeout.
 old-location: mscs\clusworkerterminateex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e2dda7c0-01d4-49e5-bc57-3fa07495d536
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ClusWorkerTerminateEx, ClusWorkerTerminateEx function [Failover Cluster], mscs.clusworkerterminateex, resapi/ClusWorkerTerminateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

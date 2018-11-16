@@ -7,7 +7,7 @@ old-location: shell\IAppPublisher_EnumApps.htm
 tech.root: shell
 ms.assetid: b24c3007-662a-4c42-9ca7-367180152deb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EnumApps, EnumApps method [Windows Shell], EnumApps method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],EnumApps method, IAppPublisher.EnumApps, IAppPublisher::EnumApps, inet_IAppPublisher_EnumApps, shappmgr/IAppPublisher::EnumApps, shell.IAppPublisher_EnumApps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,26 +66,14 @@ Creates an enumerator for enumerating all applications published by an applicati
 
 
 
-### -param pAppCategoryId
-
-TBD
-
-
-### -param ppepa
-
-TBD
-
-
-
-
-#### - pAppCategoryID [in]
+### -param pAppCategoryId [in]
 
 Type: <b>GUID*</b>
 
 A pointer to a GUID that specifies the application category to be enumerated. This must be one of the categories provided through <a href="https://msdn.microsoft.com/139a5094-8bb3-4b5d-938d-ba4af5d52d94">IAppPublisher::GetCategories</a>. If <i>pAppCategoryID</i> identifies a category not provided through <b>IAppPublisher::GetCategories</b>, creation of the enumerator succeeds with the enumerator returning zero items. If this parameter value is <b>NULL</b>, the enumerator returns applications published for all categories.
 
 
-#### - ppenum [out]
+### -param ppepa [out]
 
 Type: <b><a href="https://msdn.microsoft.com/89a06b1d-1b72-46ca-91cd-bb63ea0cbff7">IEnumPublishedApps</a>**</b>
 

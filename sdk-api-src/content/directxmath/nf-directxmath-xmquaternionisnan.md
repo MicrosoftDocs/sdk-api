@@ -7,7 +7,7 @@ old-location: dxmath\xmquaternionisnan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionIsNaN(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMQuaternionIsNaN, XMQuaternionIsNaN, XMQuaternionIsNaN method [DirectX Math Support APIs], dxmath.xmquaternionisnan
 ms.prod: windows-hardware
 ms.technology: windows-devices

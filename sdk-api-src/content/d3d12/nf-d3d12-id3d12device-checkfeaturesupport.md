@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_checkfeaturesupport.htm
 tech.root: direct3d12
 ms.assetid: 2E986E37-30C7-45FE-BC8B-A6DD5670938F
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSupport method,ID3D12Device interface, ID3D12Device interface,CheckFeatureSupport method, ID3D12Device.CheckFeatureSupport, ID3D12Device::CheckFeatureSupport, d3d12/ID3D12Device::CheckFeatureSupport, direct3d12.id3d12device_checkfeaturesupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,38 +70,30 @@ Gets information about the features that are supported by the current graphics d
 
 Type: <b><a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a></b>
 
-A <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>-typed value that describes the feature to query for support.
-            
+A constant from the <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a> enumeration describing the feature(s) that you want to query for support.
 
 
 ### -param pFeatureSupportData [in, out]
 
 Type: <b>void*</b>
 
-The passed structure is filled with data that describes the feature support.
-              To see the structure types, see the Remarks section in <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE enumeration</a>.
-            
-
-When calling CheckFeatureSupport, the <b>HighestShaderModel</b> field of the structure passed in <i>pFeatureSupportData</i> should be initialized to the highest shader model that the application understands. After the function returns successfully, the <b>HighestShaderModel</b> field will contain the highest shader model that's supported by the device and is no higher than the shader model passed in.
-	    
+A pointer to a data structure that corresponds to the value of the <i>Feature</i> parameter. To determine the corresponding data structure for each constant, see <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
 
 
 ### -param FeatureSupportDataSize
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The size of the structure passed to the <i>pFeatureSupportData</i> parameter.
-            
+The size of the structure pointed to by the <i>pFeatureSupportData</i> parameter.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns <b>S_OK</b> if successful; otherwise, returns <b>E_INVALIDARG</b> if an unsupported data type is passed to the <i>pFeatureSupportData</i> parameter or a size mismatch is detected for the <i>FeatureSupportDataSize</i> parameter.
-            
+Returns <b>S_OK</b> if successful. Returns <b>E_INVALIDARG</b> if an unsupported data type is passed to the <i>pFeatureSupportData</i> parameter or if a size mismatch is detected for the <i>FeatureSupportDataSize</i> parameter.
 
 
 
@@ -110,9 +102,9 @@ Returns <b>S_OK</b> if successful; otherwise, returns <b>E_INVALIDARG</b> if an 
 
 
 
-Refer to <a href="https://msdn.microsoft.com/ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8">Capability Querying</a>.
+As a usage example, to check for ray tracing support, specify the <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_D3D12_OPTIONS5</a> constant for the <i>Feature</i> parameter, and pass a pointer to  a <a href="https://msdn.microsoft.com/7B786C22-56C1-44A0-BE67-DE04EB367FD2">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a> structure in the <i>pFeatureSupportData</i> parameter. When the function completes successfully, access the <i>RaytracingTier</i> field (which specifies the supported ray tracing tier) of the now-populated <b>D3D12_FEATURE_DATA_D3D12_OPTIONS5</b> structure.
 
-Starting with Windows 10, version 1809 you can check for raytracing support by specifying the  <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_D3D12_OPTIONS5</a> constant for the <i>Feature</i> parameter and providing a <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options5">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a> structure, which has a member that specifies the supported raytracing tier to query, for the <i>pFeatureSupportData</i> parameter.
+For more info, see <a href="https://msdn.microsoft.com/ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8">Capability Querying</a>.
 
 <h3><a id="Hardware_support_for_DXGI_Formats"></a><a id="hardware_support_for_dxgi_formats"></a><a id="HARDWARE_SUPPORT_FOR_DXGI_FORMATS"></a>Hardware support for DXGI Formats</h3>
 To view tables of DXGI formats and hardware features, refer to:
@@ -131,7 +123,7 @@ To view tables of DXGI formats and hardware features, refer to:
 <a href="https://msdn.microsoft.com/735CDA40-557F-4D47-87B7-97A8E120B9D2">DXGI Format  Support for Direct3D Feature Level 11.0 Hardware</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Ff471324(v=VS.85).aspx">Hardware Support for Direct3D 10Level9 Formats</a>
+<a href="direct3ddxgi.d3d11_graphics_programming_guide_dxgi_hw_formats_10level9">Hardware Support for Direct3D 10Level9 Formats</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/011ad888-1c1d-4cbd-ab70-12fb8adc000f">Hardware Support for Direct3D 10.1 Formats</a>

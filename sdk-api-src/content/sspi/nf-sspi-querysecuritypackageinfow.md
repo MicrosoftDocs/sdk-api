@@ -4,10 +4,10 @@ title: QuerySecurityPackageInfoW function
 author: windows-sdk-content
 description: Retrieves information about a specified security package. This information includes the bounds on sizes of authentication information, credentials, and contexts.
 old-location: security\querysecuritypackageinfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 130ef0fe-bb13-4a65-b476-cd25ed234da1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: QuerySecurityPackageInfo, QuerySecurityPackageInfo function [Security], QuerySecurityPackageInfoA, QuerySecurityPackageInfoW, _ssp_querysecuritypackageinfo, security.querysecuritypackageinfo, sspi/QuerySecurityPackageInfo, sspi/QuerySecurityPackageInfoA, sspi/QuerySecurityPackageInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,15 +66,20 @@ Retrieves information about a specified <a href="https://msdn.microsoft.com/3e9d
 
 
 
-#### - pPackageName [in]
+### -param pPackageName
 
-Pointer to a null-terminated string that specifies the name of the security package.
+TBD
 
 
 ### -param ppPackageInfo [out]
 
 Pointer to a variable that receives a pointer to a 
 <a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure containing information about the specified security package.
+
+
+#### - pszPackageName [in]
+
+Pointer to a null-terminated string that specifies the name of the security package.
 
 
 ## -returns
@@ -107,7 +112,7 @@ The caller must call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

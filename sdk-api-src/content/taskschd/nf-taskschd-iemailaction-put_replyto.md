@@ -7,7 +7,7 @@ old-location: taskschd\iemailaction_replyto.htm
 tech.root: TaskSchd
 ms.assetid: 315ec0f3-3a1b-4b83-a934-af1f5d30910a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEmailAction interface [Task Scheduler],ReplyTo property, IEmailAction.ReplyTo, IEmailAction.put_ReplyTo, IEmailAction::ReplyTo, IEmailAction::get_ReplyTo, IEmailAction::put_ReplyTo, ReplyTo property [Task Scheduler], ReplyTo property [Task Scheduler],IEmailAction interface, put_ReplyTo, taskschd.iemailaction_replyto, taskschd/IEmailAction::ReplyTo, taskschd/IEmailAction::get_ReplyTo, taskschd/IEmailAction::put_ReplyTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://msdn.microsoft.com/library/Hh849925(v=WPS.620).aspx">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="796227F5-C9FF-402D-8A04-CDE9E0C180EE">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the email address that you want to reply to.
 

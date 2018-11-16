@@ -7,7 +7,7 @@ old-location: tsf\ianchor_shift.htm
 tech.root: TSF
 ms.assetid: e57a78e6-42e6-4a2b-b4e1-20bb64add872
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IAnchor interface [Text Services Framework],Shift method, IAnchor.Shift, IAnchor::Shift, Shift, Shift method [Text Services Framework], Shift method [Text Services Framework],IAnchor interface, TS_SHIFT_COUNT_ONLY, textstor/IAnchor::Shift, tsf.ianchor_shift
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IBDA_FDC::RemoveTid
 author: windows-sdk-content
 description: Removes one or more table identifiers (TIDs) from the MPEG flow.
 old-location: mstv\ibda_fdc_removetid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: fac8f486-e24e-4996-a90f-f8947d43d209
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RemoveTid method, IBDA_FDC.RemoveTid, IBDA_FDC::RemoveTid, RemoveTid, RemoveTid method [Microsoft TV Technologies], RemoveTid method [Microsoft TV Technologies],IBDA_FDC interface, bdaiface/IBDA_FDC::RemoveTid, mstv.ibda_fdc_removetid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693347(v=VS.85).aspx">IBDA_FDC</a>
+<a href="https://msdn.microsoft.com/8b7a07fd-99e9-4f8e-9211-109689f2f892">IBDA_FDC</a>
  
 
  

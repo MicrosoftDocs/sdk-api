@@ -7,7 +7,7 @@ old-location: taskschd\itaskhandlerstatus.htm
 tech.root: TaskSchd
 ms.assetid: 8b846be3-f05f-4d90-9865-da245c2bfdbf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITaskHandlerStatus, ITaskHandlerStatus interface [Task Scheduler], ITaskHandlerStatus interface [Task Scheduler],described, taskschd.itaskhandlerstatus, taskschd/ITaskHandlerStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ For information on the required interfaces that must be implemented by the handl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

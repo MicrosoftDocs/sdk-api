@@ -4,10 +4,10 @@ title: "_SECPKG_CREDENTIAL"
 author: windows-sdk-content
 description: Specifies the credentials.
 old-location: security\secpkg_credential.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 67BB382B-E6DB-4E93-90EE-6441751220B9
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*PSECPKG_CREDENTIAL, PSECPKG_CREDENTIAL, PSECPKG_CREDENTIAL structure pointer [Security], SECPKG_CREDENTIAL, SECPKG_CREDENTIAL structure [Security], _SECPKG_CREDENTIAL, ntsecpkg/PSECPKG_CREDENTIAL, ntsecpkg/SECPKG_CREDENTIAL, security.secpkg_credential"
 ms.prod: windows-hardware
 ms.technology: windows-devices

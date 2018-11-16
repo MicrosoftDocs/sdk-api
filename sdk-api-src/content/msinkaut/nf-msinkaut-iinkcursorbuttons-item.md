@@ -7,7 +7,7 @@ old-location: tablet\iinkcursorbuttons_item.htm
 tech.root: tablet
 ms.assetid: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf, IInkCursorButtons interface [Tablet PC],Item method, IInkCursorButtons.Item, IInkCursorButtons::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursorButtons interface, msinkaut/IInkCursorButtons::Item, tablet.iinkcursorbuttons_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,21 +70,16 @@ Retrieves the <a href="https://msdn.microsoft.com/06b91ab0-b2fb-4a09-8a2b-615da8
 
 
 
-### -param Identifier
+### -param Identifier [in]
 
-TBD
+The zero-based index or BSTR identifier of the <a href="https://msdn.microsoft.com/06b91ab0-b2fb-4a09-8a2b-615da87ec4a2">IInkCursorButton</a> object to get.
+
+For more information about the VARIANT and BSTR data types, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 
 
 ### -param Button [out, retval]
 
 Upon return, contains the <a href="https://msdn.microsoft.com/06b91ab0-b2fb-4a09-8a2b-615da87ec4a2">IInkCursorButton</a> object at the specified index within the <a href="https://msdn.microsoft.com/3f695ab4-8174-402f-b7d6-810f149f5153">IInkCursorButtons</a> collection.
-
-
-#### - identifier [in]
-
-The zero-based index or BSTR identifier of the <a href="https://msdn.microsoft.com/06b91ab0-b2fb-4a09-8a2b-615da87ec4a2">IInkCursorButton</a> object to get.
-
-For more information about the VARIANT and BSTR data types, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 
 
 ## -returns

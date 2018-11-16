@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ixamldiagnostics_getinitializationdata.htm
 tech.root: xaml_diagnostics
 ms.assetid: D38409DC-7FB9-428D-B491-E2B5213224CF
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetInitializationData, GetInitializationData method, GetInitializationData method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetInitializationData method, IXamlDiagnostics.GetInitializationData, IXamlDiagnostics::GetInitializationData, xaml_diagnostics.ixamldiagnostics_getinitializationdata, xamlom/IXamlDiagnostics::GetInitializationData
 ms.prod: windows-hardware
 ms.technology: windows-devices

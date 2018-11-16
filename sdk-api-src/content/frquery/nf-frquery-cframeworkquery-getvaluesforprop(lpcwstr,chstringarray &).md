@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery_getvaluesforprop_lpcwstr_chstringarray__.htm
 tech.root: WmiSdk
 ms.assetid: 94e9d581-d4f6-499a-88bd-eeef1ce5133f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: "?GetValuesForProp@CFrameworkQuery@@QAEJPBGAAVCHStringArray@@@Z, ?GetValuesForProp@CFrameworkQuery@@QEAAJPEBGAEAVCHStringArray@@@Z, CFrameworkQuery interface [Windows Management Instrumentation],GetValuesForProp method, CFrameworkQuery.GetValuesForProp, CFrameworkQuery.GetValuesForProp(LPCWSTR,CHStringArray &), CFrameworkQuery::GetValuesForProp, CFrameworkQuery::GetValuesForProp(CHStringArray&,LPCWSTR), CFrameworkQuery::GetValuesForProp(LPCWSTR,CHStringArray &), GetValuesForProp, GetValuesForProp method [Windows Management Instrumentation], GetValuesForProp method [Windows Management Instrumentation],CFrameworkQuery interface, frquery/CFrameworkQuery::GetValuesForProp, wmi.cframeworkquery_getvaluesforprop_lpcwstr_chstringarray__"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,19 +81,12 @@ If the constraints on "Name" are not sufficiently limiting, an empty <i>sa</i> a
 
 ### -param wszPropName
 
-Name of the target property.
+Array of values for the property specified by <i>wszPropName</i>.
 
 
 ### -param achNames
 
-TBD
-
-
-
-
-#### - aszNames
-
-Array of values for the property specified by <i>wszPropName</i>.
+Name of the target property.
 
 
 ## -returns
@@ -190,12 +183,16 @@ For example, the following list lists the values that are returned by <a href="h
 
 The <a href="https://msdn.microsoft.com/b5ed4b48-f622-4a55-897d-d800ada0270f">GetValuesForProp</a> method only supports string types. For example, the following query, followed by a call to <b>GetValuesForProp</b>("PropInt", values), returns <b>WBEM_E_INVALID_QUERY</b> while <b>GetValuesForProp</b>("PropStr", values) returns <b>S_OK</b>.
 
-
-```cpp
-SELECT * FROM Test WHERE PropInt = 32 AND PropStr = "a"
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SELECT * FROM Test WHERE PropInt = 32 AND PropStr = "a"</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

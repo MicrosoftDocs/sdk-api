@@ -4,10 +4,10 @@ title: Matrix4x4F::RotationArbitraryAxis
 author: windows-sdk-content
 description: Determines the 3-D Rotation matrix for an arbitrary axis.
 old-location: direct2d\matrix4x4f_rotationarbitraryaxis.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 396C3F62-0662-4518-AD1E-8B53B96D1CDD
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: Matrix4x4F interface [Direct2D],RotationArbitraryAxis method, Matrix4x4F.RotationArbitraryAxis, Matrix4x4F::RotationArbitraryAxis, RotationArbitraryAxis, RotationArbitraryAxis method [Direct2D], RotationArbitraryAxis method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::RotationArbitraryAxis, direct2d.matrix4x4f_rotationarbitraryaxis
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ The amount of rotation.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
 
 The result matrix
 
@@ -110,7 +110,7 @@ The result matrix
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>
+<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
  
 
  

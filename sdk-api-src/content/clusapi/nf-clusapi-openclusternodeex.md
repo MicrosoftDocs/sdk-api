@@ -4,10 +4,10 @@ title: OpenClusterNodeEx function
 author: windows-sdk-content
 description: Opens a node and returns a handle to it.
 old-location: mscs\openclusternodeex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2db24a30-0e4e-4647-8975-c9f584c3a9da
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: OpenClusterNodeEx, OpenClusterNodeEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NODE_EX, PCLUSAPI_OPEN_CLUSTER_NODE_EX function [Failover Cluster], clusapi/OpenClusterNodeEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NODE_EX, mscs.openclusternodeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ req.redist:
 ## -description
 
 
-Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> and returns a handle to it.
+Opens a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> and returns a handle to it.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> returned from the 
+Handle to a <a href="c_gly.htm">cluster</a> returned from the 
       <a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a> or 
       <a href="https://msdn.microsoft.com/688702b7-7525-48d6-9e44-d7c4969565f8">OpenClusterEx</a> functions.
 
@@ -103,6 +103,30 @@ Optional parameter that contains the address of a <b>DWORD</b> that will receive
 If the operation was successful, 
       <b>OpenClusterNodeEx</b> returns a node handle.
 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NULL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the 
+        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. If the target server does not 
+        support the <a href="https://msdn.microsoft.com/2db24a30-0e4e-4647-8975-c9f584c3a9da">OpenClusterNodeEx</a> function (for 
+        example if the target server is running Windows Server 2008 or earlier) then the 
+        <b>GetLastError</b> function will return 
+        <b>RPC_S_PROCNUM_OUT_OF_RANGE</b> (1745).
+
+</td>
+</tr>
+</table>
+ 
+
 
 
 
@@ -115,7 +139,7 @@ If the operation was successful,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
 
 
 

@@ -4,10 +4,10 @@ title: IMSVidDevice::get__Category
 author: windows-sdk-content
 description: The get__Category method retrieves the category of the device as a GUID.
 old-location: mstv\imsviddevice_get__category.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2c5023ee-f38b-48c7-907d-363ca70bf94f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get__Category method, IMSVidDevice.get__Category, IMSVidDevice::get__Category, IMSVidDeviceget__Category, get__Category, get__Category method [Microsoft TV Technologies], get__Category method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get__category, segment/IMSVidDevice::get__Category
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get__Category</b> method retrieves the category of the device as a <b>GUI
 
 
 
-### -param Guid
-
-TBD
-
-
-
-
-#### - pGuid [out]
+### -param Guid [out]
 
 Pointer to a variable of type <b>GUID</b> that receives the device category.
 

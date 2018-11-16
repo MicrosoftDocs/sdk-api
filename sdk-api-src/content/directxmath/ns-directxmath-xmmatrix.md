@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrix.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMMATRIX
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: XMMATRIX, XMMATRIX structure [DirectX Math Support APIs], directxmath/XMMATRIX, dxmath.xmmatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -165,14 +165,18 @@ In the DirectXMath.h header file, the system uses an alias to the <code>XMMATRIX
 
 Effectively:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef const XMMATRIX CXMMATRIX;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For projects that need detailed information about how different platform's calling conventions are handled, see
    <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">Library Internals</a>.
 
@@ -180,17 +184,21 @@ For projects that need detailed information about how different platform's calli
 
 Data in an <code>XMMATRIX</code> has the following layout.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 _11 _12 _13 _14
 _21 _22 _23 _24
 _31 _32 _33 _34
 _41 _42 _43 _44
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 DirectXMath defines <b>XMMATRIX</b> as a fully opaque type. To access individual elements of <b>XMMATRIX</b>, use equivalent types such as <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> for a given row or <a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a> for the whole matrix.
 
 <div class="alert"><b>Note</b>  XNAMath 2.x defines <code>XMMATRIX</code> as a union with <b>_11</b> to <b>_44</b> members and an <b>m</b> array member. When you use these members of the union, poor performance results. DirectXMath.h still defines these <code>XMMATRIX</code> union members for when you build an app with <a href="https://msdn.microsoft.com/c1746b7b-7e7e-2453-77eb-17f859a38fe2">_XM_NO_INTRINSICS_</a>. XNAMath version 2.05 provides an opt-in XM_STRICT_XMMATRIX to enforce the DirectXMath behavior.</div>

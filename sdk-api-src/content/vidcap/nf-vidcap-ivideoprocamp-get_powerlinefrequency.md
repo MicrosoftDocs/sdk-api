@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_powerlinefrequency.htm
 tech.root: DirectShow
 ms.assetid: 8c7bfc4a-895f-45a6-9619-868d1e7bc674
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_PowerlineFrequency method, IVideoProcAmp.get_PowerlineFrequency, IVideoProcAmp::get_PowerlineFrequency, IVideoProcAmpget_PowerlineFrequency, dshow.ivideoprocamp_get_powerlinefrequency, get_PowerlineFrequency, get_PowerlineFrequency method [DirectShow], get_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_PowerlineFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

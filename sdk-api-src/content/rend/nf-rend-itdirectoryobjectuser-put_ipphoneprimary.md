@@ -4,10 +4,10 @@ title: ITDirectoryObjectUser::put_IPPhonePrimary
 author: windows-sdk-content
 description: The put_IPPhonePrimary method sets the name of a machine as the primary IP phone for a user.
 old-location: tapi3\itdirectoryobjectuser_put_ipphoneprimary.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ba53ea12-7f05-4f68-8a59-915a5906b7be
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],put_IPPhonePrimary method, ITDirectoryObjectUser.put_IPPhonePrimary, ITDirectoryObjectUser::put_IPPhonePrimary, _tapi3_itdirectoryobjectuser_put_ipphoneprimary, put_IPPhonePrimary, put_IPPhonePrimary method [TAPI 2.2], put_IPPhonePrimary method [TAPI 2.2],ITDirectoryObjectUser interface, rend/ITDirectoryObjectUser::put_IPPhonePrimary, tapi3.itdirectoryobjectuser_put_ipphoneprimary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,8 +123,8 @@ This method can be used only on a new object that is subsequently added to the d
 To modify an existing user's IP Phone, the user must be deleted and re-added.
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.
 

@@ -4,10 +4,10 @@ title: IDVBSLocator::get_OrbitalPosition
 author: windows-sdk-content
 description: The get_OrbitalPosition method retrieves the setting for the satellite's orbital position.
 old-location: mstv\idvbslocator_get_orbitalposition.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 3069cf27-32db-4d3f-9e61-9eddc266b540
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_OrbitalPosition method, IDVBSLocator.get_OrbitalPosition, IDVBSLocator::get_OrbitalPosition, IDVBSLocatorget_OrbitalPosition, get_OrbitalPosition, get_OrbitalPosition method [Microsoft TV Technologies], get_OrbitalPosition method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_orbitalposition, tuner/IDVBSLocator::get_OrbitalPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_OrbitalPosition</b> method retrieves the setting for the satellite's 
 
 
 
-### -param longitude
-
-TBD
-
-
-
-
-#### - plongitude [out]
+### -param longitude [out]
 
 Receives the longitude setting in tenths of a degree.
 

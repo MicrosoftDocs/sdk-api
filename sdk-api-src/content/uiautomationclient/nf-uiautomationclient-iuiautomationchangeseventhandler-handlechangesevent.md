@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationChangesEventHandler_HandleChangesEvent
 tech.root: WinAuto
 ms.assetid: 5BCE09F7-9811-49F5-B2C4-8DABC44CA406
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: HandleChangesEvent, HandleChangesEvent method [Windows Accessibility], HandleChangesEvent method [Windows Accessibility],IUIAutomationChangesEventHandler interface, IUIAutomationChangesEventHandler interface [Windows Accessibility],HandleChangesEvent method, IUIAutomationChangesEventHandler.HandleChangesEvent, IUIAutomationChangesEventHandler::HandleChangesEvent, uiautomationclient/IUIAutomationChangesEventHandler::HandleChangesEvent, winauto.uiauto_IUIAutomationChangesEventHandler_HandleChangesEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

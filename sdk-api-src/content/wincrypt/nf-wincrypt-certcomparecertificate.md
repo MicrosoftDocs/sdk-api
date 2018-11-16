@@ -4,10 +4,10 @@ title: CertCompareCertificate function
 author: windows-sdk-content
 description: Determines whether two certificates are identical by comparing the issuer name and serial number of the certificates.
 old-location: security\certcomparecertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b485fa81-b927-4f0c-bde1-075f36c76d9a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CertCompareCertificate, CertCompareCertificate function [Security], _crypto2_certcomparecertificate, security.certcomparecertificate, wincrypt/CertCompareCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

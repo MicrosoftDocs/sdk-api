@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadata_getrestoremethod.htm
 tech.root: VSS
 ms.assetid: c93f841f-057c-4aee-b8f2-263395e84c7b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetRestoreMethod, GetRestoreMethod method [VSS], GetRestoreMethod method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetRestoreMethod method, IVssExamineWriterMetadata.GetRestoreMethod, IVssExamineWriterMetadata::GetRestoreMethod, _win32_ivssexaminewritermetadata_getrestoremethod, base.ivssexaminewritermetadata_getrestoremethod, vsbackup/IVssExamineWriterMetadata::GetRestoreMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,9 +84,10 @@ If the value of <i>pMethod</i> is VSS_RME_STOP_RESTORE_START or VSS_RME_RESTORE_
 Pointer to the URL of an HTML or XML document describing to the user how the restore is to be performed. The value may be <b>NULL</b>.
 
 
-### -param pwriterRestore
+### -param pwriterRestore [out]
 
-TBD
+Pointer to a 
+<a href="https://msdn.microsoft.com/a3e45d52-4d9a-4bdf-a8e5-622939be6f2c">VSS_WRITERRESTORE_ENUM</a> value specifying whether the writer will be involved in restoring its data.
 
 
 ### -param pbRebootRequired [out]
@@ -94,22 +95,9 @@ TBD
 Pointer to a Boolean value indicating whether a reboot will be required after the restore operation is complete. The value receives <b>true</b>  if a reboot will be required, or  <b>false</b> otherwise.
 
 
-### -param pcMappings
-
-TBD
-
-
-
-
-#### - piMappings [out]
+### -param pcMappings [out]
 
 Pointer to the number of alternate mappings associated with the writer.
-
-
-#### - pwreWriterRestore [out]
-
-Pointer to a 
-<a href="https://msdn.microsoft.com/a3e45d52-4d9a-4bdf-a8e5-622939be6f2c">VSS_WRITERRESTORE_ENUM</a> value specifying whether the writer will be involved in restoring its data.
 
 
 ## -returns
@@ -203,7 +191,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller must free the memory used by the <i>pbstrUserProcedure</i> and <i>pbstrService</i> parameters by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the memory used by the <i>pbstrUserProcedure</i> and <i>pbstrService</i> parameters by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 A file should always be restored to its alternate location mapping if either of the following is true:
 

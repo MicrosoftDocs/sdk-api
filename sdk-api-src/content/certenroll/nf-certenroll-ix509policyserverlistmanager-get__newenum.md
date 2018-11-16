@@ -7,7 +7,7 @@ old-location: security\ix509policyserverlistmanager__newenum.htm
 tech.root: SecCertEnroll
 ms.assetid: d937e468-4945-4cc3-ac20-043eb69e6ce2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IX509PolicyServerListManager interface [Security],_NewEnum property, IX509PolicyServerListManager._NewEnum, IX509PolicyServerListManager.get__NewEnum, IX509PolicyServerListManager::_NewEnum, IX509PolicyServerListManager::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::_NewEnum, certenroll/IX509PolicyServerListManager::get__NewEnum, get__NewEnum, security.ix509policyserverlistmanager__newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351726(v=VS.85).aspx">IX509PolicyServerListManager</a>
+<a href="https://msdn.microsoft.com/a9fe4f4b-a35d-40e6-b99a-a89f58e79250">IX509PolicyServerListManager</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmstoragemoduledefinition.htm
 tech.root: Fsrm
 ms.assetid: 68ecb5e6-61b0-488f-b6bb-181f253de70e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IFsrmStorageModuleDefinition, IFsrmStorageModuleDefinition interface [File Server Resource Manager], IFsrmStorageModuleDefinition interface [File Server Resource Manager],described, fs.ifsrmstoragemoduledefinition, fsrm.ifsrmstoragemoduledefinition, fsrm/IFsrmStorageModuleDefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices

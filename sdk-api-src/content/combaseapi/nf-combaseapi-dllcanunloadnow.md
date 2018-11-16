@@ -86,14 +86,14 @@ A call to <b>DllCanUnloadNow</b> determines whether the DLL from which it is exp
 
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-You should not have to call <b>DllCanUnloadNow</b> directly. OLE calls it only through a call to the <a href="https://msdn.microsoft.com/en-us/library/ms679712(v=VS.85).aspx">CoFreeUnusedLibraries</a> function. When it returns S_OK, <b>CoFreeUnusedLibraries</b> frees the DLL.
+You should not have to call <b>DllCanUnloadNow</b> directly. OLE calls it only through a call to the <a href="https://msdn.microsoft.com/188e9a3b-39cc-454e-af65-4ac797e275d4">CoFreeUnusedLibraries</a> function. When it returns S_OK, <b>CoFreeUnusedLibraries</b> frees the DLL.
 
 
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-You must implement <b>DllCanUnloadNow</b> in, and export it from, DLLs that are to be dynamically loaded through a call to the <a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a> function. (You also need to implement and export the <a href="https://msdn.microsoft.com/en-us/library/ms680760(v=VS.85).aspx">DllGetClassObject</a> function in the same DLL).
+You must implement <b>DllCanUnloadNow</b> in, and export it from, DLLs that are to be dynamically loaded through a call to the <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a> function. (You also need to implement and export the <a href="https://msdn.microsoft.com/42c08149-c251-47f7-a81f-383975d7081c">DllGetClassObject</a> function in the same DLL).
 
-If a DLL loaded through a call to <a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a> fails to export <b>DllCanUnloadNow</b>, the DLL will not be unloaded until the application calls the <a href="https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx">CoUninitialize</a> function to release the OLE libraries.
+If a DLL loaded through a call to <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a> fails to export <b>DllCanUnloadNow</b>, the DLL will not be unloaded until the application calls the <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> function to release the OLE libraries.
 
 <b>DllCanUnloadNow</b> should return S_FALSE if there are any existing references to objects that the DLL manages.
 
@@ -105,7 +105,7 @@ If a DLL loaded through a call to <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680760(v=VS.85).aspx">DllGetClassObject</a>
+<a href="https://msdn.microsoft.com/42c08149-c251-47f7-a81f-383975d7081c">DllGetClassObject</a>
  
 
  

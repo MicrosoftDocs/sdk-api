@@ -7,7 +7,7 @@ old-location: dxmath\xmu555.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMU555
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: XMU555, XMU555 structure [DirectX Math Support APIs], directxpackedvector/XMU555, dxmath.xmu555
 ms.prod: windows-hardware
 ms.technology: windows-devices

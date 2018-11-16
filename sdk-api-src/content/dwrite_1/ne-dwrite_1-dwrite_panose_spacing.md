@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_panose_spacing.htm
 tech.root: DirectWrite
 ms.assetid: BA841315-2B57-4B35-A6E4-2343EBE67AC8
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: DWRITE_PANOSE_SPACING, DWRITE_PANOSE_SPACING enumeration [Direct Write], DWRITE_PANOSE_SPACING_, DWRITE_PANOSE_SPACING_ANY, DWRITE_PANOSE_SPACING_NO_FIT, DWRITE_PANOSE_SPACING_PROPORTIONAL_SPACED, directwrite.dwrite_panose_spacing, dwrite_1/DWRITE_PANOSE_SPACING, dwrite_1/DWRITE_PANOSE_SPACING_, dwrite_1/DWRITE_PANOSE_SPACING_ANY, dwrite_1/DWRITE_PANOSE_SPACING_NO_FIT, dwrite_1/DWRITE_PANOSE_SPACING_PROPORTIONAL_SPACED
 ms.prod: windows-hardware
 ms.technology: windows-devices

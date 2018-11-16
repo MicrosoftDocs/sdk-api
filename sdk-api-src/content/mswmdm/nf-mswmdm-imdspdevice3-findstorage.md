@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice3_findstorage.htm
 tech.root: WMDM
 ms.assetid: d80812fc-750a-41f3-ba00-695e168259c0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FindStorage, FindStorage method [windows Media Device Manager], FindStorage method [windows Media Device Manager],IMDSPDevice3 interface, IMDSPDevice3 interface [windows Media Device Manager],FindStorage method, IMDSPDevice3.FindStorage, IMDSPDevice3::FindStorage, IMDSPDevice3FindStorage, mswmdm/IMDSPDevice3::FindStorage, wmdm.imdspdevice3_findstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

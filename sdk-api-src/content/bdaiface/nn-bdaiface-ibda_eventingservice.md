@@ -4,10 +4,10 @@ title: IBDA_EventingService
 author: windows-sdk-content
 description: Provides access to a device's Eventing Service.
 old-location: mstv\ibda_eventingservice.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 45ef0b45-92d0-47c1-9334-d0df74a43d28
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_EventingService, IBDA_EventingService interface [Microsoft TV Technologies], IBDA_EventingService interface [Microsoft TV Technologies],described, bdaiface/IBDA_EventingService, mstv.ibda_eventingservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,9 +55,9 @@ Provides access to a device's Eventing Service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_EventingService</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_EventingService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_EventingService</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_EventingService</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IBDA_EventingService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693346(v=VS.85).aspx">CompleteEvent</a>
+<a href="https://msdn.microsoft.com/399530a7-5a02-485e-aa5e-6b3ddb7f3d54">CompleteEvent</a>
 </td>
 <td align="left" width="63%">
 Notifies the media transform device (MTD) in a graph when a media sink device (MSD) completes an event.

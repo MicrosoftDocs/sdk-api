@@ -7,7 +7,7 @@ old-location: http\httpreceivehttprequest.htm
 tech.root: Http
 ms.assetid: ad9e80f7-04c4-4108-a7ab-40eb57d00e3b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 0 (zero), HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY, HTTP_RECEIVE_REQUEST_FLAG_FLUSH_BODY, HttpReceiveHttpRequest, HttpReceiveHttpRequest function [HTTP], _http_httpreceivehttprequest, http.httpreceivehttprequest, http/HttpReceiveHttpRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,14 +149,7 @@ Optional. A pointer to a variable that receives the size, in bytes, of the entit
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesReceived</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesReceived</i> must contain a valid memory address, and not be set to <b>NULL</b>.
 
 
-### -param Overlapped
-
-TBD
-
-
-
-
-#### - pOverlapped [in, optional]
+### -param Overlapped [in, optional]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>. 

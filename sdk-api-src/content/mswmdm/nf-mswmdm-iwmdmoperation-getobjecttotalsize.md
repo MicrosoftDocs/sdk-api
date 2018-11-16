@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_getobjecttotalsize.htm
 tech.root: WMDM
 ms.assetid: 50ab01f9-0f38-485e-b7d9-98bc95948427
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetObjectTotalSize, GetObjectTotalSize method [windows Media Device Manager], GetObjectTotalSize method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectTotalSize method, IWMDMOperation.GetObjectTotalSize, IWMDMOperation::GetObjectTotalSize, IWMDMOperationGetObjectTotalSize, mswmdm/IWMDMOperation::GetObjectTotalSize, wmdm.iwmdmoperation_getobjecttotalsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMSVidCtl::get_ColorKey
 author: windows-sdk-content
 description: The get_ColorKey method retrieves the color key that the video renderer is using.
 old-location: mstv\imsvidctl_get_colorkey.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2f197faf-a91e-4984-8858-ceab6506b273
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_ColorKey method, IMSVidCtl.get_ColorKey, IMSVidCtl::get_ColorKey, IMSVidCtlget_ColorKey, get_ColorKey, get_ColorKey method [Microsoft TV Technologies], get_ColorKey method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_colorkey, msvidctl/IMSVidCtl::get_ColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_ColorKey</b> method retrieves the color key that the video renderer i
 
 
 
-### -param CurrentValue
-
-TBD
-
-
-
-
-#### - pCurrentValue [out]
+### -param CurrentValue [out]
 
 Receives an <b>OLE_COLOR</b> value.
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Offset_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfoffsetmethods\offset_44dx_dy.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Offset, Offset method [GDI+], Offset method [GDI+],RectF class, RectF class [GDI+],Offset method, RectF.Offset, RectF.Offset(IN REAL,IN REAL), RectF.Offset(REAL,REAL), RectF::Offset, RectF::Offset(IN REAL,IN REAL), _gdiplus_CLASS_RectF_Offset_dx_dy_, gdiplus._gdiplus_CLASS_RectF_Offset_dx_dy_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wua\iupdatesearcher_includepotentiallysupersededupdates.htm
 tech.root: Wua_Sdk
 ms.assetid: e01be972-e5d1-4b37-9ac4-cf9966ed0a4d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],IncludePotentiallySupersededUpdates property, IUpdateSearcher.IncludePotentiallySupersededUpdates, IUpdateSearcher.get_IncludePotentiallySupersededUpdates, IUpdateSearcher::IncludePotentiallySupersededUpdates, IUpdateSearcher::get_IncludePotentiallySupersededUpdates, IUpdateSearcher::put_IncludePotentiallySupersededUpdates, IncludePotentiallySupersededUpdates property [Windows Update Agent], IncludePotentiallySupersededUpdates property [Windows Update Agent],IUpdateSearcher interface, get_IncludePotentiallySupersededUpdates, wua.iupdatesearcher_includepotentiallysupersededupdates, wua.iupdatesearcherincludepotentiallysupercededupdates, wuapi/IUpdateSearcher::IncludePotentiallySupersededUpdates, wuapi/IUpdateSearcher::get_IncludePotentiallySupersededUpdates, wuapi/IUpdateSearcher::put_IncludePotentiallySupersededUpdates
 ms.prod: windows-hardware
 ms.technology: windows-devices

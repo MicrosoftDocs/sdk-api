@@ -4,10 +4,10 @@ title: ID2D1EffectContext
 author: windows-sdk-content
 description: Provides factory methods and other state management for effect and transform authors.
 old-location: direct2d\id2d1contextinternal.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: ID2D1EffectContext, ID2D1EffectContext interface [Direct2D], ID2D1EffectContext interface [Direct2D],described, d2d1effectauthor/ID2D1EffectContext, direct2d.id2d1contextinternal
 ms.prod: windows-hardware
 ms.technology: windows-devices

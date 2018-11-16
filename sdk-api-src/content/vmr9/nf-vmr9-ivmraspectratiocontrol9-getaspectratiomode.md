@@ -7,7 +7,7 @@ old-location: dshow\ivmraspectratiocontrol9_getaspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: e53e9015-5186-4807-a5ee-af8598a89a2b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, IVMRAspectRatioControl9 interface [DirectShow],GetAspectRatioMode method, IVMRAspectRatioControl9.GetAspectRatioMode, IVMRAspectRatioControl9::GetAspectRatioMode, IVMRAspectRatioControl9GetAspectRatioMode, dshow.ivmraspectratiocontrol9_getaspectratiomode, vmr9/IVMRAspectRatioControl9::GetAspectRatioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ The <code>GetAspectRatioMode</code> method queries whether the VMR preserves the
 
 
 
-### -param lpdwARMode
-
-TBD
-
-
-
-
-#### - lpAspectRatioMode [out]
+### -param lpdwARMode [out]
 
 Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/dd1d1d99-008b-4234-a38a-314ba02bb116">VMR_ASPECT_RATIO_MODE</a> enumeration.
 

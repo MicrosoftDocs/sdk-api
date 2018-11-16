@@ -7,7 +7,7 @@ old-location: dns\dns_minfo_data.htm
 tech.root: DNS
 ms.assetid: cd392b48-734f-462b-b893-855f07c30575
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PDNS_MINFO_DATA, *PDNS_MINFO_DATAW, DNS_MINFO_DATA, DNS_MINFO_DATA structure [DNS], DNS_MINFO_DATAW, PDNS_MINFO_DATA, PDNS_MINFO_DATA structure pointer [DNS], _dns_dns_minfo_data, dns.dns_minfo_data, windns/DNS_MINFO_DATA, windns/PDNS_MINFO_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The
 
 ### -field pNameMailbox
 
-A pointer to a string that represents the <a href="https://msdn.microsoft.com/en-us/library/ms682135(v=VS.85).aspx">fully qualified domain name</a> (FQDN) of the mailbox responsible for the mailing list or mailbox specified in the record's owner name.
+A pointer to a string that represents the <a href="f_gly.htm">fully qualified domain name</a> (FQDN) of the mailbox responsible for the mailing list or mailbox specified in the record's owner name.
 
 
 ### -field pNameErrorsMailbox

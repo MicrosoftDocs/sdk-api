@@ -7,7 +7,7 @@ old-location: shell\IShellItemArray_GetAttributes.htm
 tech.root: shell
 ms.assetid: 0498ce03-9949-48bb-a1eb-b569f4171884
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetAttributes, GetAttributes method [Windows Shell], GetAttributes method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetAttributes method, IShellItemArray.GetAttributes, IShellItemArray::GetAttributes, SIATTRIBFLAGS_ALLITEMS, SIATTRIBFLAGS_AND, SIATTRIBFLAGS_APPCOMPAT, SIATTRIBFLAGS_MASK, SIATTRIBFLAGS_OR, _shell_IShellItemArray_GetAttributes, shell.IShellItemArray_GetAttributes, shobjidl_core/IShellItemArray::GetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,26 +66,7 @@ Gets the attributes of the set of items contained in an <a href="https://msdn.mi
 
 
 
-### -param AttribFlags
-
-TBD
-
-
-### -param sfgaoMask [in]
-
-Type: <b>SFGAOF</b>
-
-A mask that specifies what particular attributes are being requested. A bitwise OR of one or more of the <a href="https://msdn.microsoft.com/4cb85995-cdc8-4474-8c4d-c783ac91c759">SFGAO</a> values.
-
-
-### -param psfgaoAttribs [out]
-
-Type: <b>SFGAOF*</b>
-
-A bitmap that, when this method returns successfully, contains the values of the requested attributes.
-
-
-#### - dwAttribFlags [in]
+### -param AttribFlags [in]
 
 Type: <b>SIATTRIBFLAGS</b>
 
@@ -120,6 +101,20 @@ If the array contains a single item, this method provides the same results as <a
 #### SIATTRIBFLAGS_ALLITEMS (0x00004000)
 
 0x00004000. <b>Windows 7 and later</b>. Examine all items in the array to compute the attributes. Note that this can result in poor performance over large arrays and therefore it should be used only when needed. Cases in which you pass this flag should be extremely rare. See Remarks for more details.
+
+
+### -param sfgaoMask [in]
+
+Type: <b>SFGAOF</b>
+
+A mask that specifies what particular attributes are being requested. A bitwise OR of one or more of the <a href="https://msdn.microsoft.com/4cb85995-cdc8-4474-8c4d-c783ac91c759">SFGAO</a> values.
+
+
+### -param psfgaoAttribs [out]
+
+Type: <b>SFGAOF*</b>
+
+A bitmap that, when this method returns successfully, contains the values of the requested attributes.
 
 
 ## -returns

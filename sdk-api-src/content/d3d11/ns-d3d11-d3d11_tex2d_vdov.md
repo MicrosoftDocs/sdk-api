@@ -7,7 +7,7 @@ old-location: mf\d3d11_tex2d_vdov.htm
 tech.root: medfound
 ms.assetid: A25BB0AA-8CC9-4DA0-B4BE-8C107E9203F0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_TEX2D_VDOV, D3D11_TEX2D_VDOV structure [Media Foundation], d3d11/D3D11_TEX2D_VDOV, mf.d3d11_tex2d_vdov
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,11 +68,11 @@ The zero-based index of the texture.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447787(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoDecoderOutputView</a>
+<a href="https://msdn.microsoft.com/8A3D72CF-B641-4219-8C88-FCE5231CF2F6">ID3D11VideoDevice::CreateVideoDecoderOutputView</a>
  
 
  

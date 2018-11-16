@@ -4,10 +4,10 @@ title: MesEncodeIncrementalHandleCreate function
 author: windows-sdk-content
 description: The MesEncodeIncrementalHandleCreate function creates an encoding and then initializes it for the incremental style of serialization.
 old-location: rpc\mesencodeincrementalhandlecreate.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 54bbe560-08a9-4e41-9121-37aab0c209a9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: MesEncodeIncrementalHandleCreate, MesEncodeIncrementalHandleCreate function [RPC], _rpc_mesencodeincrementalhandlecreate, midles/MesEncodeIncrementalHandleCreate, rpc.mesencodeincrementalhandlecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

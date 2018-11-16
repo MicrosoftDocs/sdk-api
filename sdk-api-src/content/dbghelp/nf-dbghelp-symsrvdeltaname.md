@@ -4,10 +4,10 @@ title: SymSrvDeltaName function
 author: windows-sdk-content
 description: Generates the name for a file that describes the relationship between two different versions of the same symbol or image file. Using this feature prevents applications from having to regenerate such information every time they analyze two files.
 old-location: base\symsrvdeltaname.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 35be6aff-efc7-4ed9-bfe7-3d0f798acbd9
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: SymSrvDeltaName, SymSrvDeltaName function, SymSrvDeltaNameW, base.symsrvdeltaname, dbghelp/SymSrvDeltaName, dbghelp/SymSrvDeltaNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

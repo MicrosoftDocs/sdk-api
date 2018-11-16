@@ -4,10 +4,10 @@ title: PLOOKS_ALIVE_ROUTINE
 author: windows-sdk-content
 description: Determines whether a resource appears to be available for use.
 old-location: mscs\looksalive.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: cfc57325-847d-4f59-bee8-6a02b0a2ef32
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: LooksAlive, LooksAlive callback, LooksAlive callback function [Failover Cluster], PLOOKS_ALIVE_ROUTINE, PLOOKS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_looksalive, mscs.looksalive, resapi/LooksAlive, resapi/PLOOKS_ALIVE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,11 +69,37 @@ Resource identifier for the resource to poll.
 
 
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUE</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is probably online and available for use.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FALSE</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The resource may not be functioning properly.
 
-Returns BOOL that ...
-
-
+</td>
+</tr>
+</table>
+ 
 
 
 
@@ -89,7 +115,7 @@ For effective implementation strategies of the
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_getmemberbyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getmemberbyname.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetMemberByName, GetMemberByName method [Direct3D 10], GetMemberByName method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetMemberByName method, ID3D10EffectVariable.GetMemberByName, ID3D10EffectVariable::GetMemberByName, bca41608-f225-d8f7-81c8-fb65153d754a, d3d10effect/ID3D10EffectVariable::GetMemberByName, direct3d10.id3d10effectvariable_getmemberbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,9 +77,9 @@ Member name.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>.
+A pointer to an <a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>.
 
 
 
@@ -98,7 +98,7 @@ If the effect variable is an structure, use this method to look up a member by n
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

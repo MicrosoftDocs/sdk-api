@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11fence_getcompletedvalue.htm
 tech.root: direct3d11
 ms.assetid: 57D5BDEE-1E14-4187-9F32-CF3609F4BBBB
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetCompletedValue, GetCompletedValue method [Direct3D 11], GetCompletedValue method [Direct3D 11],ID3D11Fence interface, ID3D11Fence interface [Direct3D 11],GetCompletedValue method, ID3D11Fence.GetCompletedValue, ID3D11Fence::GetCompletedValue, d3d11_3/ID3D11Fence::GetCompletedValue, direct3d11.id3d11fence_getcompletedvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.redist:
 
 Gets the current value of the fence.
 
-This member function is equivalent to the Direct3D 12 <a href="https://msdn.microsoft.com/en-us/library/Dn899189(v=VS.85).aspx">ID3D12Fence::GetCompletedValue</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
+This member function is equivalent to the Direct3D 12 <a href="https://msdn.microsoft.com/2F2DDFC5-8D31-4BCE-B378-610C95D7805F">ID3D12Fence::GetCompletedValue</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ This member function is equivalent to the Direct3D 12 <a href="https://msdn.micr
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT64</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
 
 Returns the current value of the fence.
 
@@ -86,11 +86,11 @@ Returns the current value of the fence.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt492484(v=VS.85).aspx">ID3D11Fence</a>
+<a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899217(v=VS.85).aspx">Synchronization and Multi-Engine (Direct3D 12)</a>
+<a href="https://msdn.microsoft.com/93903F50-A6CA-41C2-863D-68D645586B4C">Synchronization and Multi-Engine (Direct3D 12)</a>
  
 
  

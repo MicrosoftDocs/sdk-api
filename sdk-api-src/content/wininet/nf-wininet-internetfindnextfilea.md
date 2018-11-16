@@ -7,7 +7,7 @@ old-location: wininet\internetfindnextfile.htm
 tech.root: WinInet
 ms.assetid: 7c53e399-b8a5-4cc0-9ef6-88d9a525d87f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: InternetFindNextFile, InternetFindNextFile function [WinINet], InternetFindNextFileA, InternetFindNextFileW, _inet_internetfindnextfile_function, wininet.internetfindnextfile, wininet/InternetFindNextFile, wininet/InternetFindNextFileA, wininet/InternetFindNextFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -72,7 +72,7 @@ Translates the specified virtual-key code and keyboard state to the correspondin
 
 Type: <b>UINT</b>
 
-The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
+The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/fa8926ad-41b2-4164-9ba3-ae501fd0eef2">Virtual-Key Codes</a>.
 
 
 ### -param uScanCode [in]
@@ -109,7 +109,7 @@ This parameter must be 1 if a menu is active, zero otherwise.
 
 Type: <b>HKL</b>
 
-Input locale identifier to use to translate the code. This parameter can be any input locale identifier previously returned by the <a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function.
+Input locale identifier to use to translate the code. This parameter can be any input locale identifier previously returned by the <a href="https://msdn.microsoft.com/6e35847e-d641-4ff2-80b6-a5b5293ebbdc">LoadKeyboardLayout</a> function.
 
 
 ## -returns
@@ -191,15 +191,15 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAsciiEx</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/6e35847e-d641-4ff2-80b6-a5b5293ebbdc">LoadKeyboardLayout</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646307(v=VS.85).aspx">MapVirtualKeyEx</a>
+<a href="https://msdn.microsoft.com/86e09c0d-0067-4b41-b7cf-cf3c3f2e02f7">MapVirtualKeyEx</a>
 
 
 
@@ -207,11 +207,11 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAsciiEx</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a>
+<a href="https://msdn.microsoft.com/6ddcf54b-9476-44cc-9471-ae070a6cc1b0">ToUnicodeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
+<a href="https://msdn.microsoft.com/ad94ff40-131a-4632-97f6-0e80e28a215f">VkKeyScan</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: xps\ixpsdocumentpackagetarget.htm
 tech.root: printdocs
 ms.assetid: B8B43CE5-2222-428B-8E78-C7049D027EE1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IXpsDocumentPackageTarget, IXpsDocumentPackageTarget interface [XPS Documents and Packaging], IXpsDocumentPackageTarget interface [XPS Documents and Packaging],described, xps.ixpsdocumentpackagetarget, xpsobjectmodel_1/IXpsDocumentPackageTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

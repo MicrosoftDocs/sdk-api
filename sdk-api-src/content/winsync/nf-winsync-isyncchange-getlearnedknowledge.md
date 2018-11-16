@@ -7,7 +7,7 @@ old-location: winsync\isyncchange_getlearnedknowledge.htm
 tech.root: winsync
 ms.assetid: 7a9ba0b8-160e-4ab3-8686-d3d12e4f4ecc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetLearnedKnowledge, GetLearnedKnowledge method [Windows Sync], GetLearnedKnowledge method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetLearnedKnowledge method, ISyncChange.GetLearnedKnowledge, ISyncChange::GetLearnedKnowledge, winsync.isyncchange_getlearnedknowledge, winsync/ISyncChange::GetLearnedKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Gets the knowledge that a replica will learn when this change is applied to its 
 
 
 
-### -param ppLearnedKnowledge
-
-TBD
-
-
-
-
-#### - ppMadeWithKnowledge [out]
+### -param ppLearnedKnowledge [out]
 
 Returns the knowledge that a replica will learn when this change is applied to its item store. This knowledge is valid only when the current knowledge of the replica contains the prerequisite knowledge of the change batch that contains this change. This knowledge is only meaningful when the <b>ISyncChange</b> object represents a change from the source provider.
 

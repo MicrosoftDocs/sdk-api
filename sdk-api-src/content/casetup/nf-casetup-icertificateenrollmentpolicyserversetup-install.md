@@ -4,10 +4,10 @@ title: ICertificateEnrollmentPolicyServerSetup::Install
 author: windows-sdk-content
 description: Installs the Certificate Enrollment Policy (CEP) Web Service configured by the ICertificateEnrollmentPolicyServerSetup object.
 old-location: security\icertificateenrollmentpolicyserversetup_install.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 66572F97-CE34-4C6B-9083-269A1AE2876D
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],Install method, ICertificateEnrollmentPolicyServerSetup.Install, ICertificateEnrollmentPolicyServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::Install, security.icertificateenrollmentpolicyserversetup_install
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-The <b>Install</b> method installs the Certificate Enrollment Policy (CEP) Web Service configured by the <a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a> object.
+The <b>Install</b> method installs the Certificate Enrollment Policy (CEP) Web Service configured by the <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a> object.
 
 
 ## -parameters
@@ -106,9 +106,9 @@ The CEP application already exists. For more information, see Remarks.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a> object has not been initialized.
+The <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a> object has not been initialized.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808371(v=VS.85).aspx">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
+The <a href="https://msdn.microsoft.com/CA9103BD-96CA-4FF3-B78D-A1F1345E58D3">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
 
 </td>
 </tr>
@@ -135,13 +135,13 @@ Validates the CEP configuration by verifying that an application with the same n
 <li>usernamepassword</li>
 <li>certificate</li>
 </ul>
-<div class="alert"><b>Note</b>  If an application with the same name exists, the <a href="https://msdn.microsoft.com/en-us/library/Ff808371(v=VS.85).aspx">ErrorString</a> property is set to "Setup could not add this role service because it already exists in the default website. Please remove the existing role service or select a different certification authority (CA) or authentication type."</div>
+<div class="alert"><b>Note</b>  If an application with the same name exists, the <a href="https://msdn.microsoft.com/CA9103BD-96CA-4FF3-B78D-A1F1345E58D3">ErrorString</a> property is set to "Setup could not add this role service because it already exists in the default website. Please remove the existing role service or select a different certification authority (CA) or authentication type."</div>
 <div> </div>
 
 
 </li>
 <li>
-Creates the %windir%\systemdata\cep\ADPolicyProvider_cep_<i>AuthenticationType</i> application directory. <div class="alert"><b>Note</b>  This method does not return an error if the name specified already exists as a directory, but if the specified name exists as a file or if some other error occurred, the method returns a failure <b>HRESULT</b> and sets the <a href="https://msdn.microsoft.com/en-us/library/Ff808371(v=VS.85).aspx">ErrorString</a> property to "Failed to create the directory %1."</div>
+Creates the %windir%\systemdata\cep\ADPolicyProvider_cep_<i>AuthenticationType</i> application directory. <div class="alert"><b>Note</b>  This method does not return an error if the name specified already exists as a directory, but if the specified name exists as a file or if some other error occurred, the method returns a failure <b>HRESULT</b> and sets the <a href="https://msdn.microsoft.com/CA9103BD-96CA-4FF3-B78D-A1F1345E58D3">ErrorString</a> property to "Failed to create the directory %1."</div>
 <div> </div>
 
 
@@ -163,11 +163,11 @@ Creates the application in the default website.
 
 </li>
 <li>
-Creates a secure (https) binding to port 443 and sets the certificate hash if one has been specified during configuration by calling the <a href="https://msdn.microsoft.com/en-us/library/Ff808375(v=VS.85).aspx">SetProperty</a> method.
+Creates a secure (https) binding to port 443 and sets the certificate hash if one has been specified during configuration by calling the <a href="https://msdn.microsoft.com/81E20BFF-B4EC-4FA5-A881-5BDCE3FC3057">SetProperty</a> method.
 
 </li>
 <li>
-Sets IIS authentication to anonymous if you called <a href="https://msdn.microsoft.com/en-us/library/Ff808375(v=VS.85).aspx">SetProperty</a> and specified  X509AuthCertificate or X509AuthUsername in the <i>pPropertyValue</i> argument. Sets authentication to Windows if you called <b>SetProperty</b> and specified  X509AuthKerberos.
+Sets IIS authentication to anonymous if you called <a href="https://msdn.microsoft.com/81E20BFF-B4EC-4FA5-A881-5BDCE3FC3057">SetProperty</a> and specified  X509AuthCertificate or X509AuthUsername in the <i>pPropertyValue</i> argument. Sets authentication to Windows if you called <b>SetProperty</b> and specified  X509AuthKerberos.
 
 </li>
 <li>
@@ -181,7 +181,7 @@ Adds read and write access to the event tracing directory.
 <li>
 Updates the security descriptor of the Deleted Objects container in Active Directory to permit access by the computer and/or the application pool. This enables the CEP service to notify the certification authority when a relevant Active Directory object is deleted. If Active Directory is installed on a domain controller, both the computer and application pool are allowed to access the Deleted Objects container. If Active Directory is not installed on a domain controller, only the computer is allowed access.
 
-<div class="alert"><b>Note</b>  If access to the Deleted Objects container fails, the method returns a failure <b>HRESULT</b> and sets the <a href="https://msdn.microsoft.com/en-us/library/Ff808371(v=VS.85).aspx">ErrorString</a> property to "Setup cannot give the Certificate Enrollment Policy Web Service account List permission on the ""Deleted Objects"" container. The web service will not be able to detect deletion of Active Directory objects such as certificate templates. To complete Setup, a member of the Domain Admins group must manually give the Certificate Enrollment Policy Web Service account List permission on the ""Deleted Objects"" container in Active Directory Domain Services (AD DS)."</div>
+<div class="alert"><b>Note</b>  If access to the Deleted Objects container fails, the method returns a failure <b>HRESULT</b> and sets the <a href="https://msdn.microsoft.com/CA9103BD-96CA-4FF3-B78D-A1F1345E58D3">ErrorString</a> property to "Setup cannot give the Certificate Enrollment Policy Web Service account List permission on the ""Deleted Objects"" container. The web service will not be able to detect deletion of Active Directory objects such as certificate templates. To complete Setup, a member of the Domain Admins group must manually give the Certificate Enrollment Policy Web Service account List permission on the ""Deleted Objects"" container in Active Directory Domain Services (AD DS)."</div>
 <div> </div>
 </li>
 </ul>
@@ -193,11 +193,11 @@ Updates the security descriptor of the Deleted Objects container in Active Direc
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a>
+<a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808375(v=VS.85).aspx">SetProperty</a>
+<a href="https://msdn.microsoft.com/81E20BFF-B4EC-4FA5-A881-5BDCE3FC3057">SetProperty</a>
  
 
  

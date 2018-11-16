@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_shader_version_type.htm
 tech.root: direct3d11
 ms.assetid: c99a108d-1d5c-4ba6-a417-375ad247a16d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 7f45df8f-0b5b-32e5-034b-617be140be7c, D3D11_SHADER_VERSION_TYPE, D3D11_SHADER_VERSION_TYPE enumeration [Direct3D 11], D3D11_SHVER_COMPUTE_SHADER, D3D11_SHVER_DOMAIN_SHADER, D3D11_SHVER_GEOMETRY_SHADER, D3D11_SHVER_HULL_SHADER, D3D11_SHVER_PIXEL_SHADER, D3D11_SHVER_RESERVED0, D3D11_SHVER_VERTEX_SHADER, d3d11shader/D3D11_SHADER_VERSION_TYPE, d3d11shader/D3D11_SHVER_COMPUTE_SHADER, d3d11shader/D3D11_SHVER_DOMAIN_SHADER, d3d11shader/D3D11_SHVER_GEOMETRY_SHADER, d3d11shader/D3D11_SHVER_HULL_SHADER, d3d11shader/D3D11_SHVER_PIXEL_SHADER, d3d11shader/D3D11_SHVER_RESERVED0, d3d11shader/D3D11_SHVER_VERTEX_SHADER, direct3d11.d3d11_shader_version_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ Indicates the end of the enumeration constants.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476175(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/068ce652-8596-4492-992c-658d1fcf8a2c">Shader Enumerations</a>
  
 
  

@@ -4,10 +4,10 @@ title: ProduceDotStuffedContext function
 author: windows-sdk-content
 description: Retrieves the FIO_CONTEXT structure with the requested state.
 old-location: winprog\_producedotstuffedcontext.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 6fbac935-339d-4744-9359-7b3b85bfb7c6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: ProduceDotStuffedContext, ProduceDotStuffedContext function [Windows API], filehc/ProduceDotStuffedContext, winprog._producedotstuffedcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

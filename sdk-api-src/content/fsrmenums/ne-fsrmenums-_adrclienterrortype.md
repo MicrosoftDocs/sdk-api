@@ -7,7 +7,7 @@ old-location: fsrm\adrclienterrortype.htm
 tech.root: Fsrm
 ms.assetid: 83e2c39b-ab3b-46c9-bb11-3f03f8193a7c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AdrClientErrorType, AdrClientErrorType enumeration [File Server Resource Manager], AdrClientErrorType_AccessDenied, AdrClientErrorType_Unknown, _AdrClientErrorType, fs.adrclienterrortype, fsrm.adrclienterrortype, fsrmenums/AdrClientErrorType, fsrmenums/AdrClientErrorType_AccessDenied, fsrmenums/AdrClientErrorType_Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_getcontentpartnerinfo.htm
 tech.root: WMP
 ms.assetid: ca63b65c-9a60-4c5d-a9f2-69d1168c53a5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetContentPartnerInfo, GetContentPartnerInfo method [Windows Media Player], GetContentPartnerInfo method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetContentPartnerInfo method, IWMPContentPartner.GetContentPartnerInfo, IWMPContentPartner::GetContentPartnerInfo, IWMPContentPartnerGetContentPartnerInfo, contentpartner/IWMPContentPartner::GetContentPartnerInfo, wmp.iwmpcontentpartner_getcontentpartnerinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -159,7 +159,7 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that indicates the user nam
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

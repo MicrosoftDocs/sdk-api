@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getbackgroundcolor.htm
 tech.root: medfound
 ms.assetid: E92FFB7E-C364-43C8-82CF-C3B4116C4187
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetBackgroundColor method, IMFTimedTextRegion.GetBackgroundColor, IMFTimedTextRegion::GetBackgroundColor, mf.imftimedtextregion_getbackgroundcolor, mfmediaengine/IMFTimedTextRegion::GetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Gets the background color of the region.
 
 
 
-### -param bgColor
-
-TBD
-
-
-
-
-#### - pBgColor [out]
+### -param bgColor [out]
 
 Type: <b><a href="https://msdn.microsoft.com/ce7ac174-9f00-42a4-9b48-ed86b406d83e">MFARGB</a>*</b>
 

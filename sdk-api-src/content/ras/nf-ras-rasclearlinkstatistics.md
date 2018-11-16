@@ -4,10 +4,10 @@ title: RasClearLinkStatistics function
 author: windows-sdk-content
 description: The RasClearLinkStatistics functions clears any accumulated statistics for the specified link in a RAS multilink connection.
 old-location: rras\rasclearlinkstatistics.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: cac356a9-092c-4db2-b0a4-aaacfc514e29
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: RasClearLinkStatistics, RasClearLinkStatistics function [RAS], _ras_rasclearlinkstatistics, ras/RasClearLinkStatistics, rras.rasclearlinkstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,7 +142,7 @@ The function could not allocate sufficient memory to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>

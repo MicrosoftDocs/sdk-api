@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamprioritization_addstream.htm
 tech.root: medfound
 ms.assetid: 440d2838-0314-45f7-b73b-653fe5535c88
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: 440d2838-0314-45f7-b73b-653fe5535c88, AddStream, AddStream method [Media Foundation], AddStream method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],AddStream method, IMFASFStreamPrioritization.AddStream, IMFASFStreamPrioritization::AddStream, mf.imfasfstreamprioritization_addstream, wmcontainer/IMFASFStreamPrioritization::AddStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

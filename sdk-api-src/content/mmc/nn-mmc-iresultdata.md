@@ -4,10 +4,10 @@ title: IResultData
 author: windows-sdk-content
 description: The IResultData interface enables a user to add, remove, find, and modify items associated with the result view pane. It also enables the manipulation of the view style of the result view pane.
 old-location: mmc\iresultdata.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 58f8bcdb-b062-4048-92fc-eb652ce62c5b
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IResultData, IResultData interface [MMC], IResultData interface [MMC],described, _slate_iresultdata, mmc.iresultdata, mmc/IResultData
 ms.prod: windows-hardware
 ms.technology: windows-devices

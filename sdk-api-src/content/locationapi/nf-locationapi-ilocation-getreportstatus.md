@@ -154,9 +154,13 @@ The following example shows an application that waits for a location report of t
 The following example code demonstrates how an application may call a function named <b>WaitForLocationReport</b> that registers for events and waits for the first location report. <b>WaitForLocationReport</b> waits for an event that is set by a callback object. The function <b>WaitForLocationReport</b> and the callback object is defined in the examples that follow this one.
 
 <div class="code"></div>
-
-```cpp
-// main.cpp
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// main.cpp
 // An application that demonstrates how to wait for a location report.
 // This sample waits for latitude/longitude reports but can be modified
 // to wait for civic address reports by replacing IID_ILatLongReport 
@@ -175,17 +179,17 @@ int wmain()
     if (SUCCEEDED(hr))
     {
         int args;
-        PWSTR *pszArgList = ::CommandLineToArgvW(::GetCommandLineW(), &args);
+        PWSTR *pszArgList = ::CommandLineToArgvW(::GetCommandLineW(), &amp;args);
 
         DWORD const dwTimeToWait = 
-            (2 == args) ? static_cast<DWORD>(_wtoi(pszArgList[1])) : DEFAULT_WAIT_FOR_LOCATION_REPORT;
+            (2 == args) ? static_cast&lt;DWORD&gt;(_wtoi(pszArgList[1])) : DEFAULT_WAIT_FOR_LOCATION_REPORT;
 
         ::LocalFree(pszArgList);
 
         wprintf_s(L"Wait time set to %lu\n", dwTimeToWait);
 
         ILocation *pLocation; // This is the main Location interface.
-        hr = CoCreateInstance(CLSID_Location, NULL, CLSCTX_INPROC, IID_PPV_ARGS(&pLocation));
+        hr = CoCreateInstance(CLSID_Location, NULL, CLSCTX_INPROC, IID_PPV_ARGS(&amp;pLocation));
         if (SUCCEEDED(hr))
         {
             // Array of report types to listen for.
@@ -196,24 +200,24 @@ int wmain()
             // Request permissions for this user account to receive location data for all the
             // types defined in REPORT_TYPES (which is currently just one report)
             // TRUE means an synchronous request.
-            if (FAILED(pLocation->RequestPermissions(NULL, REPORT_TYPES, ARRAYSIZE(REPORT_TYPES), TRUE))) 
+            if (FAILED(pLocation-&gt;RequestPermissions(NULL, REPORT_TYPES, ARRAYSIZE(REPORT_TYPES), TRUE))) 
             {
                 wprintf_s(L"Warning: Unable to request permissions.\n");
             }
 
             ILocationReport *pLocationReport; // This is our location report object
             // Replace IID_ILatLongReport with IID_ICivicAddressReport for civic address reports
-            hr = ::WaitForLocationReport(pLocation, IID_ILatLongReport, dwTimeToWait, &pLocationReport);
+            hr = ::WaitForLocationReport(pLocation, IID_ILatLongReport, dwTimeToWait, &amp;pLocationReport);
             if (SUCCEEDED(hr))
             {
                 wprintf_s(L"Succesfully received data via GetReport().\n");
-                pLocationReport->Release();
+                pLocationReport-&gt;Release();
             }
             else if (RPC_S_CALLPENDING == hr)
             {
                 wprintf_s(L"No LatLong data received.  Wait time of %lu elapsed.\n", dwTimeToWait);
             }
-            pLocation->Release();
+            pLocation-&gt;Release();
         }
 
         ::CoUninitialize();
@@ -221,22 +225,26 @@ int wmain()
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following example code is separated into WaitForLocationReport.h and WaitForLocationReport.cpp. WaitForLocationReport.h contains the header for the <b>WaitForLocationReport</b> function. WaitForLocationReport.cpp contains the definition of the <b>WaitForLocationReport</b> function and the definition of the callback object that it uses. The callback object provides implementations of the <a href="https://msdn.microsoft.com/14353c8e-15f5-493b-9b49-139924f2397e">OnLocationChanged</a> and <a href="https://msdn.microsoft.com/d13d8b72-3188-479f-a70c-52b1a9435b80">OnStatusChanged</a> callback methods. Within these methods, it sets an event that signals when a report is available.
 
-
-```cpp
-// WaitForLocationReport.h
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// WaitForLocationReport.h
 // Header for the declaration of the WaitForLocationReport function.
 
 #pragma once
 
-#include <windows.h>
-#include <LocationApi.h>
-#include <wchar.h>
+#include &lt;windows.h&gt;
+#include &lt;LocationApi.h&gt;
+#include &lt;wchar.h&gt;
 
 HRESULT WaitForLocationReport(
     ILocation* pLocation,              // Location object.
@@ -244,17 +252,22 @@ HRESULT WaitForLocationReport(
     DWORD dwTimeToWait,                // Milliseconds to wait.
     ILocationReport** ppLocationReport // Receives the location report.
 );
-
-```
-
-```cpp
-// WaitForLocationReport.cpp
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// WaitForLocationReport.cpp
 // Contains definitions of the WaitForLocationReport function and
 // the callback object that it uses.
 
 #include "WaitForLocationReport.h"
-#include <shlwapi.h>
-#include <new>
+#include &lt;shlwapi.h&gt;
+#include &lt;new&gt;
 
 // Implementation of the callback interface that receives location reports.
 class CLocationCallback : public ILocationEvents
@@ -281,7 +294,7 @@ public:
         if ((riid == IID_IUnknown) || 
             (riid == IID_ILocationEvents))
         {
-            *ppv = static_cast<ILocationEvents*>(this);
+            *ppv = static_cast&lt;ILocationEvents*&gt;(this);
         }
         else
         {
@@ -294,12 +307,12 @@ public:
 
     IFACEMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&_cRef);
+        return InterlockedIncrement(&amp;_cRef);
     }
 
     IFACEMETHODIMP_(ULONG) Release()
     {
-        long cRef = InterlockedDecrement(&_cRef);
+        long cRef = InterlockedDecrement(&amp;_cRef);
         if (!cRef)
         {
             delete this;
@@ -360,22 +373,22 @@ HRESULT WaitForLocationReport(
     HRESULT hr = pLocationCallback ? S_OK : E_OUTOFMEMORY;
     if (SUCCEEDED(hr))
     {
-        HANDLE hEvent = pLocationCallback->GetEventHandle();
+        HANDLE hEvent = pLocationCallback-&gt;GetEventHandle();
         hr = hEvent ? S_OK : E_FAIL;
         if (SUCCEEDED(hr))
         {
             // Tell the Location API that we want to register for a report. 
-            hr = pLocation->RegisterForReport(pLocationCallback, reportType, 0);
+            hr = pLocation-&gt;RegisterForReport(pLocationCallback, reportType, 0);
             if (SUCCEEDED(hr))
             {
                 DWORD dwIndex;
-                HRESULT hrWait = CoWaitForMultipleHandles(0, dwTimeToWait, 1, &hEvent, &dwIndex);
+                HRESULT hrWait = CoWaitForMultipleHandles(0, dwTimeToWait, 1, &amp;hEvent, &amp;dwIndex);
                 if ((S_OK == hrWait) || (RPC_S_CALLPENDING == hrWait))
                 {
                     // Even if there is a timeout indicated by RPC_S_CALLPENDING
                     // attempt to query the report to return the last known report.
-                    hr = pLocation->GetReport(reportType, ppLocationReport);
-                    if (FAILED(hr) && (RPC_S_CALLPENDING == hrWait))
+                    hr = pLocation-&gt;GetReport(reportType, ppLocationReport);
+                    if (FAILED(hr) &amp;&amp; (RPC_S_CALLPENDING == hrWait))
                     {
                         // Override hr error if the request timed out and
                         // no data is available from the last known report.  
@@ -383,17 +396,17 @@ HRESULT WaitForLocationReport(
                     }
                 }
                 // Unregister from reports from the Location API.
-                pLocation->UnregisterForReport(reportType);
+                pLocation-&gt;UnregisterForReport(reportType);
             }
         }
-        pLocationCallback->Release();
+        pLocationCallback-&gt;Release();
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

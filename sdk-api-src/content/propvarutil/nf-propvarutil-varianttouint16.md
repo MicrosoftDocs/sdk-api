@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt16.htm
 tech.root: properties
 ms.assetid: aa88be72-9ea5-4668-a0c5-1ca5320bda00
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: VariantToUInt16, VariantToUInt16 function [Windows Properties], _shell_VariantToUInt16, properties.VariantToUInt16, propvarutil/VariantToUInt16, shell.VariantToUInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices

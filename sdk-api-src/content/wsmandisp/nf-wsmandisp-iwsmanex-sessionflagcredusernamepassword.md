@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_sessionflagcredusernamepassword.htm
 tech.root: WinRM
 ms.assetid: e9af95ac-4543-4d8b-ac6e-15e89b73713e
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagCredUsernamePassword method, IWSManEx.SessionFlagCredUsernamePassword, IWSManEx::SessionFlagCredUsernamePassword, SessionFlagCredUsernamePassword, SessionFlagCredUsernamePassword method [Windows Remote Management], SessionFlagCredUsernamePassword method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagcredusernamepassword, wsmandisp/IWSManEx::SessionFlagCredUsernamePassword
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmwriter2.htm
 tech.root: wmformat
 ms.assetid: 8511b464-1f47-4184-9cb7-9aca0cb6660f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMDRMWriter2, IWMDRMWriter2 interface [windows Media Format], IWMDRMWriter2 interface [windows Media Format],described, IWMDRMWriter2Interface, wmformat.iwmdrmwriter2, wmsdkidl/IWMDRMWriter2
 ms.prod: windows-hardware
 ms.technology: windows-devices

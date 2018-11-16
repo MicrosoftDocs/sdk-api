@@ -4,10 +4,10 @@ title: BfEnTvRat_Attributes_MPAA
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\bfentvrat_attributes_mpaa.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 520046a3-2542-409e-9d8f-91a91cad54f3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: BfEnTvRat_Attributes_MPAA, BfEnTvRat_Attributes_MPAA enumeration [Microsoft TV Technologies], MPAA_IsBlocked, MPAA_ValidAttrSubmask, mstv.bfentvrat_attributes_mpaa, tvratings/BfEnTvRat_Attributes_MPAA, tvratings/MPAA_IsBlocked, tvratings/MPAA_ValidAttrSubmask
 ms.prod: windows-hardware
 ms.technology: windows-devices

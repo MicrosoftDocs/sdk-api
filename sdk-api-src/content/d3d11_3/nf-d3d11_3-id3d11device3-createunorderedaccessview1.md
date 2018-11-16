@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createunorderedaccessview1.htm
 tech.root: direct3d11
 ms.assetid: AB64DDED-4C2D-4952-BAA5-3139F973C962
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateUnorderedAccessView1, CreateUnorderedAccessView1 method [Direct3D 11], CreateUnorderedAccessView1 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateUnorderedAccessView1 method, ID3D11Device3.CreateUnorderedAccessView1, ID3D11Device3::CreateUnorderedAccessView1, d3d11_3/ID3D11Device3::CreateUnorderedAccessView1, direct3d11.id3d11device3_createunorderedaccessview1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.redist:
 ## -description
 
 
-Creates a view for accessing an <a href="https://msdn.microsoft.com/en-us/library/Ff476335(v=VS.85).aspx">unordered access</a> resource.
+Creates a view for accessing an <a href="https://msdn.microsoft.com/597cc12f-dd0e-4603-b670-3f584f25e192">unordered access</a> resource.
         
 
 
@@ -70,25 +70,25 @@ Creates a view for accessing an <a href="https://msdn.microsoft.com/en-us/librar
 
 ### -param pResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a> that represents a resources that will serve as an input to a shader.
+Pointer to an <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a> that represents a resources that will serve as an input to a shader.
           
 
 
 ### -param pDesc1 [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn899203(v=VS.85).aspx">D3D11_UNORDERED_ACCESS_VIEW_DESC1</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/833B4B8A-5702-4C17-AFD2-DFDF69354DDD">D3D11_UNORDERED_ACCESS_VIEW_DESC1</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899203(v=VS.85).aspx">D3D11_UNORDERED_ACCESS_VIEW_DESC1</a> structure that represents an unordered-access view description. Set this parameter to <b>NULL</b> to create a view that accesses the entire resource (using the format the resource was created with).
+Pointer to a <a href="https://msdn.microsoft.com/833B4B8A-5702-4C17-AFD2-DFDF69354DDD">D3D11_UNORDERED_ACCESS_VIEW_DESC1</a> structure that represents an unordered-access view description. Set this parameter to <b>NULL</b> to create a view that accesses the entire resource (using the format the resource was created with).
           
 
 
 ### -param ppUAView1 [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn899248(v=VS.85).aspx">ID3D11UnorderedAccessView1</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/0D4F7634-0AB1-41C2-8D4F-8C42C1D973D2">ID3D11UnorderedAccessView1</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899248(v=VS.85).aspx">ID3D11UnorderedAccessView1</a> interface for the created unordered-access view. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return <b>S_FALSE</b> if the other input parameters pass validation).
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/0D4F7634-0AB1-41C2-8D4F-8C42C1D973D2">ID3D11UnorderedAccessView1</a> interface for the created unordered-access view. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return <b>S_FALSE</b> if the other input parameters pass validation).
           
 
 
@@ -96,9 +96,9 @@ A pointer to a memory block that receives a pointer to a <a href="https://msdn.m
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns E_OUTOFMEMORY if there is insufficient memory to create the unordered-access view.  See <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a> for other possible return values.
+This method returns E_OUTOFMEMORY if there is insufficient memory to create the unordered-access view.  See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
             
 
 
@@ -109,7 +109,7 @@ This method returns E_OUTOFMEMORY if there is insufficient memory to create the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899218(v=VS.85).aspx">ID3D11Device3</a>
+<a href="https://msdn.microsoft.com/0AA10851-0077-4075-BD41-72FCD7BC0556">ID3D11Device3</a>
  
 
  

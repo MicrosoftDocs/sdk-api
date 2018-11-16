@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_complete.htm
 tech.root: wintouch
 ms.assetid: ff41789c-afc5-419b-9767-e99572b9b41e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Complete, Complete method [Windows Touch], Complete method [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],Complete method, IInertiaProcessor.Complete, IInertiaProcessor::Complete, manipulations/IInertiaProcessor::Complete, wintouch.iinertiaprocessor_complete
 ms.prod: windows-hardware
 ms.technology: windows-devices

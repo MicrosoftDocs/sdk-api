@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol_read.htm
 tech.root: WMDM
 ms.assetid: 4b102666-b54b-4b60-b2e9-68def384268e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Read method, IWMDMStorageControl.Read, IWMDMStorageControl::Read, IWMDMStorageControlRead, Read, Read method [windows Media Device Manager], Read method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Read, wmdm.iwmdmstoragecontrol_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,9 +107,9 @@ Processing mode used for the <b>Read</b> operation. The following table lists th
  
 
 
-### -param pwszFile
+### -param pwszFile [in]
 
-TBD
+Pointer to a fully qualified file name on the computer to which the content from the portable device is copied. The file name should include an extension; the extension from the current storage on the device will not be used. If WMDM_CONTENT_OPERATIONINTERFACE is specified in <i>fuMode</i>, this parameter is ignored.
 
 
 ### -param pProgress [in]
@@ -120,11 +120,6 @@ Optional pointer to a <a href="https://msdn.microsoft.com/9af022a6-19b4-41b7-b95
 ### -param pOperation [in]
 
 Optional pointer to an <a href="https://msdn.microsoft.com/7277a8fe-3006-4456-b2e7-6041d3324f35">IWMDMOperation</a> interface, an optional set of methods used to enhance the transfer of content from a media device. This parameter must be <b>NULL</b> if WMDM_CONTENT_FILE or WMDM_CONTENT_FOLDER is specified in <i>fuMode</i>.
-
-
-#### - pwszFilename [in]
-
-Pointer to a fully qualified file name on the computer to which the content from the portable device is copied. The file name should include an extension; the extension from the current storage on the device will not be used. If WMDM_CONTENT_OPERATIONINTERFACE is specified in <i>fuMode</i>, this parameter is ignored.
 
 
 ## -returns

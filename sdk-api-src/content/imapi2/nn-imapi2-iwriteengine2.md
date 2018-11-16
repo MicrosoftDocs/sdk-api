@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2.htm
 tech.root: imapi
 ms.assetid: 89e7526f-2b9b-4f37-b537-5046a0ac283d
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IWriteEngine2, IWriteEngine2 interface [IMAPI], IWriteEngine2 interface [IMAPI],described, imapi.iwriteengine2, imapi2/IWriteEngine2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ To create an instance of this interface, call the <b>CoCreateInstance</b> functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWriteEngine2</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWriteEngine2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWriteEngine2</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWriteEngine2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

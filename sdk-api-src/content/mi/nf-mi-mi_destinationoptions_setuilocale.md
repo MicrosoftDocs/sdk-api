@@ -4,10 +4,10 @@ title: MI_DestinationOptions_SetUILocale function
 author: windows-sdk-content
 description: Sets the default UI locale for operations.
 old-location: wmi_v2\mi_destinationoptions_setuilocale.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: a536544c-003b-402e-9d63-d3e30b49cc39
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_DestinationOptions_SetUILocale, MI_DestinationOptions_SetUILocale function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetUILocale, wmi_v2.mi_destinationoptions_setuilocale
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IAzAuthorizationStore3::GetSchemaVersion
 author: windows-sdk-content
 description: Gets the version number of this authorization store.
 old-location: security\iazauthorizationstore3_getschemaversion_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 263d8f04-8ed9-4801-86cf-51ede83436c7
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetSchemaVersion, GetSchemaVersion method [Security], GetSchemaVersion method [Security],IAzAuthorizationStore3 interface, IAzAuthorizationStore3 interface [Security],GetSchemaVersion method, IAzAuthorizationStore3.GetSchemaVersion, IAzAuthorizationStore3::GetSchemaVersion, azroles/IAzAuthorizationStore3::GetSchemaVersion, security.iazauthorizationstore3_getschemaversion_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ The minor version of the authorization store. Valid values are 1 and 2. A versio
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 

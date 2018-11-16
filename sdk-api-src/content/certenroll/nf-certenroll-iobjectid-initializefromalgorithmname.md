@@ -7,7 +7,7 @@ old-location: security\iobjectid_initializefromalgorithmname_method.htm
 tech.root: SecCertEnroll
 ms.assetid: ba8c1f11-9380-43a9-b444-b0fff114a176
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IObjectId interface [Security],InitializeFromAlgorithmName method, IObjectId.InitializeFromAlgorithmName, IObjectId::InitializeFromAlgorithmName, InitializeFromAlgorithmName, InitializeFromAlgorithmName method [Security], InitializeFromAlgorithmName method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromAlgorithmName, security.iobjectid_initializefromalgorithmname_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ The <b>InitializeFromAlgorithmName</b> method initializes the object from an alg
 
 ### -param GroupId [in]
 
-An  <a href="https://msdn.microsoft.com/en-us/library/Aa379070(v=VS.85).aspx">ObjectIdGroupId</a> enumeration value that specifies the OID group to search. This can be any of the following algorithm groups:<ul>
+An  <a href="https://msdn.microsoft.com/66a70cad-ce72-461b-8d71-605a62dd35b4">ObjectIdGroupId</a> enumeration value that specifies the OID group to search. This can be any of the following algorithm groups:<ul>
 <li><b>XCN_CRYPT_HASH_ALG_OID_GROUP_ID</b></li>
 <li><b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b></li>
 <li><b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b></li>
@@ -85,7 +85,7 @@ An  <a href="https://msdn.microsoft.com/en-us/library/Aa379070(v=VS.85).aspx">Ob
 
 ### -param KeyFlags [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa379071(v=VS.85).aspx">ObjectIdPublicKeyFlags</a> enumeration value that specifies whether to search for a signing or an encryption algorithm. This can be one of the following values:<ul>
+An <a href="https://msdn.microsoft.com/f41a871a-0247-4c49-b6a0-66d31c54a0e3">ObjectIdPublicKeyFlags</a> enumeration value that specifies whether to search for a signing or an encryption algorithm. This can be one of the following values:<ul>
 <li><b>XCN_CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG</b></li>
 <li><b>XCN_CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG</b></li>
 </ul>You can use either value to disambiguate among algorithms such as RSA that can be used to both encrypt and sign messages. You must also specify <b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b> in the <i>GroupId</i> parameter.
@@ -93,7 +93,7 @@ An <a href="https://msdn.microsoft.com/en-us/library/Aa379071(v=VS.85).aspx">Obj
 
 ### -param AlgFlags [in]
 
-An  <a href="https://msdn.microsoft.com/en-us/library/Aa374813(v=VS.85).aspx">AlgorithmFlags</a> enumeration value. This can be one of the following values:
+An  <a href="https://msdn.microsoft.com/0f067687-ae92-4500-af19-80f537620bb9">AlgorithmFlags</a> enumeration value. This can be one of the following values:
 
 <ul>
 <li><b>AlgorithmFlagsNone</b></li>
@@ -104,7 +104,7 @@ If you specify <b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b> for the <i>GroupId</i> 
 
 ### -param strAlgorithmName [in]
 
-A <b>BSTR</b> variable that contains the name. You can specify a name, or an OID in dotted decimal format.  The method verifies that the format is consistent with the ASN.1 X.208 standard. For more information about CNG algorithm names, see <a href="https://msdn.microsoft.com/en-us/library/Aa375534(v=VS.85).aspx">CNG Algorithm Identifiers</a>.
+A <b>BSTR</b> variable that contains the name. You can specify a name, or an OID in dotted decimal format.  The method verifies that the format is consistent with the ASN.1 X.208 standard. For more information about CNG algorithm names, see <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a>.
 
 
 ## -returns
@@ -113,7 +113,7 @@ A <b>BSTR</b> variable that contains the name. You can specify a name, or an OID
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -166,7 +166,7 @@ The object is already initialized.
 
 
 
-You can use the upper 16 bits of the <i>GroupId</i> parameter to specify the key size for algorithms that accept a variable bit length. For example, to initialize an <a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-<b>OR</b> combination on the shifted bit length and the <i>GroupId</i> value.
+You can use the upper 16 bits of the <i>GroupId</i> parameter to specify the key size for algorithms that accept a variable bit length. For example, to initialize an <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-<b>OR</b> combination on the shifted bit length and the <i>GroupId</i> value.
 
 
 
@@ -176,7 +176,7 @@ You can use the upper 16 bits of the <i>GroupId</i> parameter to specify the key
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a>
+<a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a>
  
 
  

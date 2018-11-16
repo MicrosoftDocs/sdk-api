@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject_Import.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\import.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IWABObject interface [Windows Address Book],Import method, IWABObject.Import, IWABObject::Import, Import, Import method [Windows Address Book], Import method [Windows Address Book],IWABObject interface, _wab_IWABObject_Import, wab._wab_IWABObject_Import, wabapi/IWABObject::Import
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,13 +68,6 @@ Imports a .wab file into the user's Address Book.
 
 
 ### -param lpWIP
-
-TBD
-
-
-
-
-#### - lpImportParam
 
 Type: <b>LPSTR</b>
 

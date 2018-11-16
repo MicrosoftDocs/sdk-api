@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_downloadtrackcomplete.htm
 tech.root: WMP
 ms.assetid: 9614e266-259c-411f-93cf-9be87c930b16
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: DownloadTrackComplete, DownloadTrackComplete method [Windows Media Player], DownloadTrackComplete method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],DownloadTrackComplete method, IWMPContentPartner.DownloadTrackComplete, IWMPContentPartner::DownloadTrackComplete, IWMPContentPartnerDownloadTrackComplete, contentpartner/IWMPContentPartner::DownloadTrackComplete, wmp.iwmpcontentpartner_downloadtrackcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ Content ID of the track in question.
 
 ### -param downloadTrackParam [in]
 
-Parameter that the plug-in previously passed to <a href="https://msdn.microsoft.com/en-us/library/Dd563146(v=VS.85).aspx">IWMPContentPartnerCallback::DownloadTrack</a>. This parameter is meaningful only to the online store; it is not interpreted by Windows Media Player.
+Parameter that the plug-in previously passed to <a href="https://msdn.microsoft.com/fe8772fa-2eb4-4dfe-b677-e667b6021690">IWMPContentPartnerCallback::DownloadTrack</a>. This parameter is meaningful only to the online store; it is not interpreted by Windows Media Player.
 
 
 ## -returns
@@ -118,7 +118,7 @@ The method succeeded.
 
 
 
-To learn how the Player and the plug-in work together to download a set of tracks, see <a href="https://msdn.microsoft.com/en-us/library/Dd562756(v=VS.85).aspx">Downloading Media Content</a>.
+To learn how the Player and the plug-in work together to download a set of tracks, see <a href="https://msdn.microsoft.com/0a057e13-6e0c-4a8f-9cab-051183e6b222">Downloading Media Content</a>.
 
 
 
@@ -128,11 +128,11 @@ To learn how the Player and the plug-in work together to download a set of track
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563160(v=VS.85).aspx">IWMPContentPartner::Download</a>
+<a href="https://msdn.microsoft.com/0fa3ed40-e155-4e42-b031-d6cb8f8b4ac4">IWMPContentPartner::Download</a>
  
 
  

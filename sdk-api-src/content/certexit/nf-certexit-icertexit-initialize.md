@@ -4,10 +4,10 @@ title: ICertExit::Initialize
 author: windows-sdk-content
 description: Called by the server engine when it initializes itself.
 old-location: security\icertexit2_initialize.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 61d27de8-f940-4f18-ba44-7e91378f035c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CCertExit object [Security],Initialize method, EXITEVENT_CERTDENIED, EXITEVENT_CERTISSUED, EXITEVENT_CERTPENDING, EXITEVENT_CERTRETRIEVEPENDING, EXITEVENT_CERTREVOKED, EXITEVENT_CRLISSUED, EXITEVENT_SHUTDOWN, ICertExit interface [Security],Initialize method, ICertExit.Initialize, ICertExit2 interface [Security],Initialize method, ICertExit2::Initialize, ICertExit::Initialize, Initialize, Initialize method [Security], Initialize method [Security],CCertExit object, Initialize method [Security],ICertExit interface, Initialize method [Security],ICertExit2 interface, _certsrv_icertexit_initialize, certexit/ICertExit2::Initialize, certexit/ICertExit::Initialize, security.icertexit2_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ The <b>Initialize</b> method is called by the server engine when it initializes 
 ### -param strConfig [in]
 
 Represents the name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">ICertConfig2</a>.
+<a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">ICertConfig2</a>.
 
 
 ### -param pEventMask [out, retval]
@@ -122,7 +122,7 @@ Certificate pending.
 </td>
 <td width="60%">
 Successful call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385053(v=VS.85).aspx">RetrievePending</a>.
+<a href="https://msdn.microsoft.com/07a9ac57-f90e-4c5c-b563-8aebbcf8f42e">RetrievePending</a>.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ Certificate revoked.
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate revocation list</a> issued.
+<a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate revocation list</a> issued.
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ Certificate Services shutdown.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and *<i>pEventMask</i> is set to a combination of the flags in the table below (or EXITEVENT_INVALID if the exit module does not want to be notified of any events).
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 If the exit module does not want to be notified of any events, then the flag EXITEVENT_INVALID should be set.
 
 <h3>VB</h3>
  The return value is a mask that contains flags that indicate the events for which the exit module requests notification. After the call, all events of those types will be signaled by the server engine to the exit module through a call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385026(v=VS.85).aspx">Notify</a>. Any or all of the following flags may be set.
+<a href="https://msdn.microsoft.com/ebe4ef0c-5778-4a62-b112-9b16b250814f">Notify</a>. Any or all of the following flags may be set.
 
 <table>
 <tr>
@@ -225,7 +225,7 @@ Certificate pending.
 </td>
 <td width="60%">
 Successful call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385053(v=VS.85).aspx">RetrievePending</a>.
+<a href="https://msdn.microsoft.com/07a9ac57-f90e-4c5c-b563-8aebbcf8f42e">RetrievePending</a>.
 
 </td>
 </tr>
@@ -249,7 +249,7 @@ Certificate revoked.
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate revocation list</a> issued.
+<a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate revocation list</a> issued.
 
 </td>
 </tr>
@@ -347,15 +347,15 @@ STDMETHODIMP CCertExit::Initialize(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385021(v=VS.85).aspx">ICertExit</a>
+<a href="https://msdn.microsoft.com/731c4f3c-20b4-4f3d-8241-a94cdf656fe5">ICertExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385022(v=VS.85).aspx">ICertExit2</a>
+<a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">ICertExit2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385026(v=VS.85).aspx">Notify</a>
+<a href="https://msdn.microsoft.com/ebe4ef0c-5778-4a62-b112-9b16b250814f">Notify</a>
  
 
  

@@ -4,10 +4,10 @@ title: ITuner::get_PreferredComponentTypes
 author: windows-sdk-content
 description: The get_PreferredComponentTypes method gets the collection of ComponentType objects used for default component selection.
 old-location: mstv\ituner_get_preferredcomponenttypes.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 1ed2d1b5-8ba3-4230-8cc3-f8207635a78a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_PreferredComponentTypes method, ITuner.get_PreferredComponentTypes, ITuner::get_PreferredComponentTypes, ITunerget_PreferredComponentTypes, get_PreferredComponentTypes, get_PreferredComponentTypes method [Microsoft TV Technologies], get_PreferredComponentTypes method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_preferredcomponenttypes, tuner/ITuner::get_PreferredComponentTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>get_PreferredComponentTypes</b> method gets the collection of ComponentTy
 
 
 
-### -param ComponentTypes
-
-TBD
-
-
-
-
-#### - ppComponentTypes [out]
+### -param ComponentTypes [out]
 
 Address of an <a href="https://msdn.microsoft.com/47c3837b-1348-4359-ad3d-3d82c5fe3781">IComponentTypes</a> interface pointer that receives the collection of ComponentType objects.
 

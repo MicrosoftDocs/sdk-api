@@ -7,7 +7,7 @@ old-location: dxmath\xmplaneequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneEqual(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMPlaneEqual, XMPlaneEqual, XMPlaneEqual method [DirectX Math Support APIs], dxmath.xmplaneequal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,16 @@ Determines if two planes are equal.
 
 ### -param P1 [in]
 
-<b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation 
-
-
-```
-return (P1.x == P2.x && P1.y == P2.y && P1.z == P2.z && P1.w == P2.w);
-```
-
-.
+<b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation <div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>return (P1.x == P2.x &amp;&amp; P1.y == P2.y &amp;&amp; P1.z == P2.z &amp;&amp; P1.w == P2.w);</pre>
+</td>
+</tr>
+</table></span></div>.
 
 
 ### -param P2 [in]

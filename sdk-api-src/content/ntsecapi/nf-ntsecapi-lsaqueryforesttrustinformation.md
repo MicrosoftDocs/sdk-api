@@ -4,10 +4,10 @@ title: LsaQueryForestTrustInformation function
 author: windows-sdk-content
 description: Retrieves forest trust information for the specified Local Security Authority&#160;TrustedDomain object.
 old-location: security\lsaqueryforesttrustinformation.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 38857f1f-e2c7-4ce5-a928-335bc3bd2176
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: LsaQueryForestTrustInformation, LsaQueryForestTrustInformation function [Security], ntsecapi/LsaQueryForestTrustInformation, security.lsaqueryforesttrustinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

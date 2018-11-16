@@ -4,10 +4,10 @@ title: ListView_GetGroupState macro
 author: windows-sdk-content
 description: Gets the state for a specified group. Use this macro or send the LVM_GETGROUPSTATE message explicitly.
 old-location: controls\ListView_GetGroupState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupstate.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ListView_GetGroupState, ListView_GetGroupState macro [Windows Controls], _shell_ListView_GetGroupState, _shell_ListView_GetGroupState_cpp, commctrl/ListView_GetGroupState, controls.ListView_GetGroupState, controls._shell_ListView_GetGroupState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Gets the state for a specified group. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774936(v=VS.85).aspx">LVM_GETGROUPSTATE</a> message explicitly.
+Gets the state for a specified group. Use this macro or send the <a href="https://msdn.microsoft.com/f087d17f-9066-44fb-b21b-ac7ceb56eb45">LVM_GETGROUPSTATE</a> message explicitly.
 
 
 ## -parameters
@@ -68,21 +68,21 @@ Gets the state for a specified group. Use this macro or send the <a href="https:
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control.
 
 
 ### -param dwGroupId [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Specifies the group by <b>iGroupId</b> (see  <a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a> structure).
+Specifies the group by <b>iGroupId</b> (see  <a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a> structure).
 
 
 ### -param dwMask [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Specifies the state values to retrieve. This is a combination of the flags listed for the <b>state</b> member of <a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a>.
+Specifies the state values to retrieve. This is a combination of the flags listed for the <b>state</b> member of <a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a>.
 

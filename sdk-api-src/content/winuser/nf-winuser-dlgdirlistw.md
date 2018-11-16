@@ -4,10 +4,10 @@ title: DlgDirListW function
 author: windows-sdk-content
 description: Replaces the contents of a list box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list can optionally include mapped drives.
 old-location: controls\DlgDirList.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirlist.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: DDL_ARCHIVE, DDL_DIRECTORY, DDL_DRIVES, DDL_EXCLUSIVE, DDL_HIDDEN, DDL_POSTMSGS, DDL_READONLY, DDL_READWRITE, DDL_SYSTEM, DlgDirList, DlgDirList function [Windows Controls], DlgDirListA, DlgDirListW, _win32_DlgDirList, _win32_DlgDirList_cpp, controls.DlgDirList, controls._win32_DlgDirList, winuser/DlgDirList, winuser/DlgDirListA, winuser/DlgDirListW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -202,7 +202,7 @@ Includes system files.
 </dl>
 </td>
 <td width="60%">
-If set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function to send messages to the list box. If not set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function.
+If set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/5357de37-1e44-4e4a-bdae-b5a386032dd4">PostMessage</a> function to send messages to the list box. If not set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function.
 
 </td>
 </tr>
@@ -229,12 +229,12 @@ If the function fails, the return value is zero. For example, if the string spec
 
 
 If 
-				<i>lpPathSpec</i> specifies a directory, <a href="https://msdn.microsoft.com/en-us/library/Bb775935(v=VS.85).aspx">DlgDirListComboBox</a> changes the current directory to the specified directory before filling the list box. The text of the static control identified by the 
+				<i>lpPathSpec</i> specifies a directory, <a href="https://msdn.microsoft.com/65b27196-8e85-483d-9965-e7cbc1b09b5e">DlgDirListComboBox</a> changes the current directory to the specified directory before filling the list box. The text of the static control identified by the 
 				<i>nIDStaticPath</i> parameter is set to the name of the new current directory. 
 
 <b>DlgDirList</b> sends the 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb761325(v=VS.85).aspx">LB_RESETCONTENT</a> and 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb775185(v=VS.85).aspx">LB_DIR</a> messages to the list box. 
+				<a href="https://msdn.microsoft.com/3865e45e-62da-457a-801c-2f9a61687022">LB_RESETCONTENT</a> and 
+				<a href="https://msdn.microsoft.com/5ec134e9-fe42-4cc0-bdea-fa5e66c218f6">LB_DIR</a> messages to the list box. 
 
 If 
 				<i>uFileType</i> includes the DDL_DIRECTORY flag and 
@@ -245,7 +245,7 @@ The directory listing displays long filenames, if any.
 
 #### Examples
 
-For examples, see the following topics: <a href="https://msdn.microsoft.com/en-us/library/Bb775148(v=VS.85).aspx">Creating a Directory Listing in a Single-selection List Box</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775148(v=VS.85).aspx">Creating a Multiple-selection List Box</a>. 
+For examples, see the following topics: <a href="Using_List_Boxes.htm">Creating a Directory Listing in a Single-selection List Box</a> and <a href="Using_List_Boxes.htm">Creating a Multiple-selection List Box</a>. 
 
 <div class="code"></div>
 
@@ -256,15 +256,15 @@ For examples, see the following topics: <a href="https://msdn.microsoft.com/en-u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775935(v=VS.85).aspx">DlgDirListComboBox</a>
+<a href="https://msdn.microsoft.com/65b27196-8e85-483d-9965-e7cbc1b09b5e">DlgDirListComboBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775937(v=VS.85).aspx">DlgDirSelectComboBoxEx</a>
+<a href="https://msdn.microsoft.com/c7b1e071-1e36-4903-8fb1-dab2ee7af519">DlgDirSelectComboBoxEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761368(v=VS.85).aspx">DlgDirSelectEx</a>
+<a href="https://msdn.microsoft.com/12d96fb1-fa68-49ed-9f73-b008ca61b709">DlgDirSelectEx</a>
 
 
 

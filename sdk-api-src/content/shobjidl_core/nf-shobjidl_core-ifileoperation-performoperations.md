@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_PerformOperations.htm
 tech.root: shell
 ms.assetid: eceb5f0a-ad9a-4b7a-9656-c10e0420a96a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IFileOperation interface [Windows Shell],PerformOperations method, IFileOperation.PerformOperations, IFileOperation::PerformOperations, PerformOperations, PerformOperations method [Windows Shell], PerformOperations method [Windows Shell],IFileOperation interface, _shell_IFileOperation_PerformOperations, shell.IFileOperation_PerformOperations, shobjidl_core/IFileOperation::PerformOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

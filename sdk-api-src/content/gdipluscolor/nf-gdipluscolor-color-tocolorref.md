@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_ToCOLORREF_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\tocolorref.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Color class [GDI+],ToCOLORREF method, Color.ToCOLORREF, Color::ToCOLORREF, ToCOLORREF, ToCOLORREF method [GDI+], ToCOLORREF method [GDI+],Color class, _gdiplus_CLASS_Color_ToCOLORREF_, gdiplus._gdiplus_CLASS_Color_ToCOLORREF_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Color::ToCOLORREF</b> method converts this <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object's <b>ARGB</b> value to a Windows Graphics Device Interface (GDI)<b>COLORREF</b> value.
+The <b>Color::ToCOLORREF</b> method converts this <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object's <b>ARGB</b> value to a Windows Graphics Device Interface (GDI)<b>COLORREF</b> value.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ When the <b>ARGB</b> value is converted to a <b>COLORREF</b> value, the alpha co
 
 
 
-The following example creates two <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> objects and converts the <b>ARGB</b> value of the first <b>Color</b> object into a GDI<b>COLORREF</b> value. The code then passes that <b>COLORREF</b> value to the <a href="https://msdn.microsoft.com/en-us/library/ms536255(v=VS.85).aspx">Color::SetFromCOLORREF</a> method of the second <b>Color</b> object. Finally, the code uses the second <b>Color</b> object to fill a rectangle.
+The following example creates two <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> objects and converts the <b>ARGB</b> value of the first <b>Color</b> object into a GDI<b>COLORREF</b> value. The code then passes that <b>COLORREF</b> value to the <a href="https://msdn.microsoft.com/5fb15f81-8bed-4895-bec8-b687028cc5a2">Color::SetFromCOLORREF</a> method of the second <b>Color</b> object. Finally, the code uses the second <b>Color</b> object to fill a rectangle.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,11 +129,11 @@ The following example creates two <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536255(v=VS.85).aspx">Color::SetFromCOLORREF</a>
+<a href="https://msdn.microsoft.com/5fb15f81-8bed-4895-bec8-b687028cc5a2">Color::SetFromCOLORREF</a>
  
 
  

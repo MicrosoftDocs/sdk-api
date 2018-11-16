@@ -4,10 +4,10 @@ title: IWCContextMenuCallback::AddExtensionMenuItem
 author: windows-sdk-content
 description: Adds a menu item to a Failover Cluster Administrator context menu.
 old-location: mscs\iwccontextmenucallback_addextensionmenuitem.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0eedc564-c82d-4309-b11c-c87d2e73c2c9
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AddExtensionMenuItem, AddExtensionMenuItem method [Failover Cluster], AddExtensionMenuItem method [Failover Cluster],IWCContextMenuCallback interface, IWCContextMenuCallback interface [Failover Cluster],AddExtensionMenuItem method, IWCContextMenuCallback.AddExtensionMenuItem, IWCContextMenuCallback::AddExtensionMenuItem, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _wolf_iwccontextmenucallback_addextensionmenuitem, cluadmex/IWCContextMenuCallback::AddExtensionMenuItem, mscs.iwccontextmenucallback_addextensionmenuitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ req.redist:
     section. Support for this method was removed in Windows Server 2008.]
 
 Adds a menu item to a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> context menu.
+    <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> context menu.
 
 
 ## -parameters
@@ -170,6 +170,51 @@ Specifies that the menu item is a character string. The <i>lpszName</i> paramete
 If <b>AddExtensionMenuItem</b> 
        is not successful, it can return other <b>HRESULT</b> values.
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+The <i>uFlags</i> parameter was set to either <b>MF_OWNERDRAW</b> 
+         or <b>MF_POPUP</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+<dt>0x8007000e</dt>
+</dl>
+</td>
+<td width="60%">
+There was an error allocating the menu item.
+
+</td>
+</tr>
+</table>
+ 
+
 
 
 
@@ -180,17 +225,17 @@ If <b>AddExtensionMenuItem</b>
 The <b>AddExtensionMenuItem</b> 
      method adds items at the top of the context menu and follows them by a separator. The command identified by 
      <i>nCommandID</i> is passed in the <i>nCommandID</i> parameter to the 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370746(v=VS.85).aspx">IWEInvokeCommand::InvokeCommand</a> method 
+     <a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">IWEInvokeCommand::InvokeCommand</a> method 
      when the user selects this menu item.
 
 Note that the <b>MF_OWNERDRAW</b> and <b>MF_POPUP</b> flags are not 
      supported specifically for the <i>uFlags</i> parameter.
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> extensions call 
+<a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> extensions call 
      <b>AddExtensionMenuItem</b> from 
      their 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370713(v=VS.85).aspx">IWEExtendContextMenu::AddContextMenuItems</a> 
+     <a href="https://msdn.microsoft.com/48de3627-a919-437b-b19b-374327234df9">IWEExtendContextMenu::AddContextMenuItems</a> 
      method.
 
 
@@ -201,15 +246,15 @@ Note that the <b>MF_OWNERDRAW</b> and <b>MF_POPUP</b> flags are not
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370501(v=VS.85).aspx">IWCContextMenuCallback</a>
+<a href="https://msdn.microsoft.com/50dbb062-100a-40af-8e52-7bd4574334f4">IWCContextMenuCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370713(v=VS.85).aspx">IWEExtendContextMenu::AddContextMenuItems</a>
+<a href="https://msdn.microsoft.com/48de3627-a919-437b-b19b-374327234df9">IWEExtendContextMenu::AddContextMenuItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370746(v=VS.85).aspx">IWEInvokeCommand::InvokeCommand</a>
+<a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">IWEInvokeCommand::InvokeCommand</a>
  
 
  

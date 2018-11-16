@@ -7,7 +7,7 @@ old-location: multimedia\midiinopen.htm
 tech.root: Multimedia
 ms.assetid: 230deaef-9473-426f-a0eb-14e259600e68
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_midiInOpen, midiInOpen, midiInOpen function [Windows Multimedia], mmeapi/midiInOpen, multimedia.midiinopen"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,8 @@ The <b>midiInOpen</b> function opens a specified MIDI input device.
 
 ### -param phmi
 
-TBD
+Pointer to an <b>HMIDIIN</b> handle. This location is filled with a handle identifying the opened MIDI input device. The handle is used to identify the device in calls to other MIDI input functions.
+          
 
 
 ### -param uDeviceID
@@ -88,23 +89,11 @@ Pointer to a callback function, a thread identifier, or a handle of a window cal
 
 ### -param dwInstance
 
-TBD
-
-
-### -param fdwOpen
-
-TBD
-
-
-
-
-#### - dwCallbackInstance
-
 User instance data passed to the callback function. This parameter is not used with window callback functions or threads.
           
 
 
-#### - dwFlags
+### -param fdwOpen
 
 Callback flag for opening the device and, optionally, a status flag that helps regulate rapid data transfers. It can be the following values.
 
@@ -139,12 +128,6 @@ Callback flag for opening the device and, optionally, a status flag that helps r
  
 
 Most applications that use a callback mechanism will specify CALLBACK_FUNCTION for this parameter.
-
-
-#### - lphMidiIn
-
-Pointer to an <b>HMIDIIN</b> handle. This location is filled with a handle identifying the opened MIDI input device. The handle is used to identify the device in calls to other MIDI input functions.
-          
 
 
 ## -returns

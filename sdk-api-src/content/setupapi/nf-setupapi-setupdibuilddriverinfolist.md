@@ -68,7 +68,7 @@ The <b>SetupDiBuildDriverInfoList</b> function builds a list of drivers that is 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> to contain the driver list, either globally for all device information elements or specifically for a single device information element. The device information set must not contain remote device information elements.
+A handle to the <a href="devinst.device_information_sets">device information set</a> to contain the driver list, either globally for all device information elements or specifically for a single device information element. The device information set must not contain remote device information elements.
 
 
 ### -param DeviceInfoData [in, out]

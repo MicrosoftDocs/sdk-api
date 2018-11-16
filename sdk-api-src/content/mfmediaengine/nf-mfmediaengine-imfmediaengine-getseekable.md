@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getseekable.htm
 tech.root: medfound
 ms.assetid: FB238892-B172-4E31-B4E5-68C96E135345
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: GetSeekable, GetSeekable method [Media Foundation], GetSeekable method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetSeekable method, IMFMediaEngine.GetSeekable, IMFMediaEngine::GetSeekable, mf.imfmediaengine_getseekable, mfmediaengine/IMFMediaEngine::GetSeekable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Gets the time ranges to which the Media Engine can currently seek.
 
 
 
-### -param ppSeekable
-
-TBD
-
-
-
-
-#### - ppPlayed [out]
+### -param ppSeekable [out]
 
 Receives a pointer to the <a href="https://msdn.microsoft.com/E39646E6-66F4-4413-A84B-43039689AEE7">IMFMediaTimeRange</a> interface. The caller must release the interface.
 

@@ -4,10 +4,10 @@ title: AuditFree function
 author: windows-sdk-content
 description: Frees the memory allocated by audit functions for the specified buffer.
 old-location: security\auditfree_func.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 697baf9b-91c4-4a88-a190-e9f6812e08af
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: AuditFree, AuditFree function [Security], ntsecapi/AuditFree, security.auditfree_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

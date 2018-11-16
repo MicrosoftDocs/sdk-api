@@ -7,7 +7,7 @@ old-location: menurc\stringcchprintf_l.htm
 tech.root: menurc
 ms.assetid: 9484d792-3f4e-42cd-96e3-7ce0b16859cc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: StringCchPrintf_l, StringCchPrintf_l function [Menus and Other Resources], StringCchPrintf_lA, StringCchPrintf_lW, menurc.stringcchprintf_l, strsafe/StringCchPrintf_l, strsafe/StringCchPrintf_lA, strsafe/StringCchPrintf_lW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.redist:
 
 Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCchPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/en-us/library/ms647541(v=VS.85).aspx">StringCchPrintf</a> but includes a parameter for locale information.
+<b>StringCchPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/9eaafe87-04da-4273-babb-b16d26bfdf70">StringCchPrintf</a> but includes a parameter for locale information.
 
 
 ## -parameters

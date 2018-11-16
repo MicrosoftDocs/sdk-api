@@ -7,7 +7,7 @@ old-location: rdc\rdcneed.htm
 tech.root: Rdc
 ms.assetid: 086e82f1-b033-48e2-b648-895c04751cc9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: RdcNeed, RdcNeed structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0004, fs.rdcneed, msrdc/RdcNeed, rdc.rdcneed
 ms.prod: windows-hardware
 ms.technology: windows-devices

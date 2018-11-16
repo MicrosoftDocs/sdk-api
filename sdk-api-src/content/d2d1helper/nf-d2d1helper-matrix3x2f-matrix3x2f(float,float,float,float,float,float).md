@@ -4,10 +4,10 @@ title: Matrix3x2F::Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
 author: windows-sdk-content
 description: Instantiates a new instance of the Matrix3x2F class that contains the specified values.
 old-location: direct2d\matrix3x2f_matrix3x2f_float__float__float__float__float__float_.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f4701597-9473-4333-9e6d-60000ccea40e
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1.Matrix3x2F.Matrix3x2F, D2D1::Matrix3x2F::Matrix3x2F, Matrix3x2F, Matrix3x2F constructor [Direct2D], Matrix3x2F constructor [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],Matrix3x2F constructor, Matrix3x2F.Matrix3x2F, Matrix3x2F.Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), Matrix3x2F::Matrix3x2F, Matrix3x2F::Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), d2d1helper/Matrix3x2F::Matrix3x2F, direct2d.matrix3x2f_matrix3x2f_float__float__float__float__float__float_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,38 +68,6 @@ Instantiates a new instance of the <a href="https://msdn.microsoft.com/54b9e75c-
 
 ### -param m11
 
-TBD
-
-
-### -param m12
-
-TBD
-
-
-### -param m21
-
-TBD
-
-
-### -param m22
-
-TBD
-
-
-### -param m31
-
-TBD
-
-
-### -param m32
-
-TBD
-
-
-
-
-#### - _11
-
 Type: <b>FLOAT</b>
 
 The value in the first row and first column of the matrix.
@@ -107,7 +75,7 @@ The value in the first row and first column of the matrix.
 
 
 
-#### - _12
+### -param m12
 
 Type: <b>FLOAT</b>
 
@@ -116,21 +84,21 @@ The value in the first row and second column of the matrix.
 
 
 
-#### - _21
+### -param m21
 
 Type: <b>FLOAT</b>
 
 The value in the second row and first column of the matrix.
 
 
-#### - _22
+### -param m22
 
 Type: <b>FLOAT</b>
 
 The value in the second row and second column of the matrix.
 
 
-#### - _31
+### -param m31
 
 Type: <b>FLOAT</b>
 
@@ -139,7 +107,7 @@ The value in the third row and first column of the matrix.
 
 
 
-#### - _32
+### -param m32
 
 Type: <b>FLOAT</b>
 

@@ -7,7 +7,7 @@ old-location: dxmath\xmcolorrgbtohsv.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorRGBToHSV(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMColorRGBToHSV, XMColorRGBToHSV, XMColorRGBToHSV method [DirectX Math Support APIs], dxmath.xmcolorrgbtohsv
 ms.prod: windows-hardware
 ms.technology: windows-devices

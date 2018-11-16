@@ -4,10 +4,10 @@ title: ID2D1Effect::GetInput
 author: windows-sdk-content
 description: Gets the given input image by index.
 old-location: direct2d\id2d1effect_getinput.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: fca22cc2-2299-4f74-8dc9-d931b899d4fb
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: GetInput, GetInput method [Direct2D], GetInput method [Direct2D],ID2D1Effect interface, ID2D1Effect interface [Direct2D],GetInput method, ID2D1Effect.GetInput, ID2D1Effect::GetInput, d2d1_1/ID2D1Effect::GetInput, direct2d.id2d1effect_getinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,24 +68,12 @@ Gets the given input image by index.
 
 ### -param index
 
-TBD
-
-
-### -param input
-
-TBD
-
-
-
-
-#### - Index
-
 Type: <b>UINT32</b>
 
 The index of the image to retrieve.
 
 
-#### - Input [out, optional]
+### -param input [out, optional]
 
 Type: <b><a href="https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d">ID2D1Image</a>**</b>
 

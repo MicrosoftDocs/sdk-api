@@ -7,7 +7,7 @@ old-location: security\ix509policyserverurl_updateregistry.htm
 tech.root: SecCertEnroll
 ms.assetid: dfb43979-a630-497d-96eb-f2bd701b5e09
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],UpdateRegistry method, IX509PolicyServerUrl.UpdateRegistry, IX509PolicyServerUrl::UpdateRegistry, UpdateRegistry, UpdateRegistry method [Security], UpdateRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::UpdateRegistry, security.ix509policyserverurl_updateregistry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ The <b>UpdateRegistry</b> method registers a certificate enrollment policy (CEP)
 
 ### -param context [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa379399(v=VS.85).aspx">X509CertificateEnrollmentContext</a> enumeration value that specifies the nature of the end entity for which the policy server is being registered. This can be one of the following values.
+An <a href="https://msdn.microsoft.com/2db0e129-a566-47ba-ab57-53c7db09e8e3">X509CertificateEnrollmentContext</a> enumeration value that specifies the nature of the end entity for which the policy server is being registered. This can be one of the following values.
 
 <table>
 <tr>
@@ -115,7 +115,7 @@ An administrator acting on the behalf of a computer.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -154,7 +154,7 @@ You do not have sufficient access rights to register the CEP.
 
 
 
-The <b>UpdateRegistry</b> method is called by the <a href="https://msdn.microsoft.com/en-us/library/Ee351689(v=VS.85).aspx">AddPolicyServer</a> method.
+The <b>UpdateRegistry</b> method is called by the <a href="https://msdn.microsoft.com/6b341b5a-88f2-4221-812d-b2997829aa4c">AddPolicyServer</a> method.
 
 
 
@@ -164,7 +164,7 @@ The <b>UpdateRegistry</b> method is called by the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351734(v=VS.85).aspx">IX509PolicyServerUrl</a>
+<a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a>
  
 
  

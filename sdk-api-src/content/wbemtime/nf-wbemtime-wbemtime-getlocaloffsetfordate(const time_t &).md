@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_getlocaloffsetfordate_const_filetime__.htm
 tech.root: WmiSdk
 ms.assetid: fd40907d-c4df-4eb0-8516-45def3d5d01f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetLocalOffsetForDate, GetLocalOffsetForDate method [Windows Management Instrumentation], GetLocalOffsetForDate method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetLocalOffsetForDate method, WBEMTime.GetLocalOffsetForDate, WBEMTime.GetLocalOffsetForDate(const time_t &), WBEMTime::GetLocalOffsetForDate, WBEMTime::GetLocalOffsetForDate(const FILETIME*), WBEMTime::GetLocalOffsetForDate(const time_t &), wbemtime/WBEMTime::GetLocalOffsetForDate, wmi.wbemtime_getlocaloffsetfordate_const_filetime__
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ TBD
 
 
 
-#### - pft
+#### - tmin
 
 Pointer to a MFC <b>FILETIME</b> structure that represents the number of 100-nanosecond intervals since January 1, 1601 as a 64-bit value.
 

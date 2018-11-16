@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionsaturationeffect.htm
 tech.root: directcomp
 ms.assetid: ADA7C54C-E237-4455-8808-962A631B37E0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDCompositionSaturationEffect, IDCompositionSaturationEffect interface [DirectComposition], IDCompositionSaturationEffect interface [DirectComposition],described, dcomp/IDCompositionSaturationEffect, directcomp.idcompositionsaturationeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

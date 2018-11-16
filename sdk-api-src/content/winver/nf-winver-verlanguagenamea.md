@@ -7,7 +7,7 @@ old-location: menurc\verlanguagename.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verlanguagename.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: VerLanguageName, VerLanguageName function [Menus and Other Resources], VerLanguageNameA, VerLanguageNameW, _win32_VerLanguageName, _win32_verlanguagename_cpp, menurc.verlanguagename, winui._win32_verlanguagename, winver/VerLanguageName, winver/VerLanguageNameA, winver/VerLanguageNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,7 +116,7 @@ If an error occurs, the return value is zero. Unknown language identifiers do no
 
  This function works on 16-, 32-, and 64-bit file images.
 
-Typically, an installation program uses this function to translate a language identifier returned by the <a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a> function. The text string may be used in a dialog box that asks the user how to proceed in the event of a language conflict. 
+Typically, an installation program uses this function to translate a language identifier returned by the <a href="https://msdn.microsoft.com/4fc3e2f0-0d9b-4974-b091-98908691bb14">VerQueryValue</a> function. The text string may be used in a dialog box that asks the user how to proceed in the event of a language conflict. 
 
 
 
@@ -126,7 +126,7 @@ Typically, an installation program uses this function to translate a language id
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information Overview</a>
+<a href="https://msdn.microsoft.com/60de7900-56b9-4481-bef9-b4079eedf926">Version Information Overview</a>
  
 
  

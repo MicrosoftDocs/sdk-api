@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_startrouter.htm
 tech.root: cossdk
 ms.assetid: 2d2c0ee0-2758-4d69-878a-78ce216a9201
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],StartRouter method, ICOMAdminCatalog.StartRouter, ICOMAdminCatalog::StartRouter, StartRouter, StartRouter method [COM+], StartRouter method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StartRouter, comadmin/ICOMAdminCatalog::StartRouter, cos.icomadmincatalog_startrouter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,7 +132,7 @@ When called on a computer acting as the component load balancing (CLB) server, t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
  
 
  

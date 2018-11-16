@@ -7,7 +7,7 @@ old-location: shell\IAssocHandlerInvoker_SupportsSelection.htm
 tech.root: shell
 ms.assetid: a4000557-2a89-494c-8b0e-c67a2e2c4445
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IAssocHandlerInvoker interface [Windows Shell],SupportsSelection method, IAssocHandlerInvoker.SupportsSelection, IAssocHandlerInvoker::SupportsSelection, SupportsSelection, SupportsSelection method [Windows Shell], SupportsSelection method [Windows Shell],IAssocHandlerInvoker interface, _shell_IAssocHandlerInvoker_SupportsSelection, shell.IAssocHandlerInvoker_SupportsSelection, shobjidl_core/IAssocHandlerInvoker::SupportsSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

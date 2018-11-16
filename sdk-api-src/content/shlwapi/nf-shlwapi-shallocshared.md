@@ -7,7 +7,7 @@ old-location: shell\SHAllocShared.htm
 tech.root: shell
 ms.assetid: 0388b6a0-24d9-48eb-bef2-3a1658d8bb3c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: SHAllocShared, SHAllocShared function [Windows Shell], _win32_SHAllocShared, shell.SHAllocShared, shlwapi/SHAllocShared
 ms.prod: windows-hardware
 ms.technology: windows-devices

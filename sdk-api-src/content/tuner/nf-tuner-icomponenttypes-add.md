@@ -4,10 +4,10 @@ title: IComponentTypes::Add
 author: windows-sdk-content
 description: The Add method adds a new ComponentType object to the collection.
 old-location: mstv\icomponenttypes_add.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 157f8d81-dbbf-44a7-9786-0758d3c89634
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IComponentTypes interface, IComponentTypes interface [Microsoft TV Technologies],Add method, IComponentTypes.Add, IComponentTypes::Add, IComponentTypesAdd, mstv.icomponenttypes_add, tuner/IComponentTypes::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,24 +69,12 @@ The <b>Add</b> method adds a new <a href="https://msdn.microsoft.com/d5d8af25-4d
 
 
 
-### -param ComponentType
-
-TBD
-
-
-### -param NewIndex
-
-TBD
-
-
-
-
-#### - pComponentType [in]
+### -param ComponentType [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a> object that will be added to the collection.
 
 
-#### - pNewIndex [out]
+### -param NewIndex [out]
 
 The index number of the component type after it has been added to the collection.
 

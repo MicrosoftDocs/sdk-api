@@ -4,10 +4,10 @@ title: IBDA_SignalProperties::GetTuningSpace
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties_gettuningspace.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 03738363-5923-4e26-a0ea-e345b927140c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetTuningSpace, GetTuningSpace method [Microsoft TV Technologies], GetTuningSpace method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetTuningSpace method, IBDA_SignalProperties.GetTuningSpace, IBDA_SignalProperties::GetTuningSpace, IBDA_SignalPropertiesGetTuningSpace, bdaiface/IBDA_SignalProperties::GetTuningSpace, mstv.ibda_signalproperties_gettuningspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,11 +91,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693425(v=VS.85).aspx">IBDA_SignalProperties Interface</a>
+<a href="https://msdn.microsoft.com/fe88b628-7959-4d2f-981f-7de9126146f6">IBDA_SignalProperties Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693431(v=VS.85).aspx">PutTuningSpace</a>
+<a href="https://msdn.microsoft.com/f3ecddfc-a95b-47ba-8a2b-5073de4aad5e">PutTuningSpace</a>
  
 
  

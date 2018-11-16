@@ -7,7 +7,7 @@ old-location: dxmath\xmvector2cross.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Cross(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: Use DirectX..XMVector2Cross, XMVector2Cross, XMVector2Cross method [DirectX Math Support APIs], dxmath.xmvector2cross
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,19 +89,23 @@ Returns a vector. The 2D cross product is replicated into each component.
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-XMVECTOR Result;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
 Result.x = V1.x * V2.y - v1.y * V2.x;
 Result.y = V1.x * V2.y - v1.y * V2.x;
 Result.z = V1.x * V2.y - v1.y * V2.x;
 Result.w = V1.x * V2.y - v1.y * V2.x;
 
-return Result;
-```
-
-
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 Note that a 'cross-product' in 2D is not well-defined. 
     This function computes a geometric cross-product often used in 2D graphics. 
     <a href="https://msdn.microsoft.com/8833c28c-3df3-4ffe-bc02-382e86e83bff">XMVector2Orthogonal</a> is another possible interpretation of a 'cross-product' in 2D.

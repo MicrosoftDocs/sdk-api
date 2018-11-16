@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tile_copy_flags.htm
 tech.root: direct3d11
 ms.assetid: 1ACBABF2-A0C5-419B-9723-BD0FEEEDF478
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_TILE_COPY_FLAG, D3D11_TILE_COPY_FLAG enumeration [Direct3D 11], D3D11_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, D3D11_TILE_COPY_NO_OVERWRITE, D3D11_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, d3d11_2/D3D11_TILE_COPY_FLAG, d3d11_2/D3D11_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, d3d11_2/D3D11_TILE_COPY_NO_OVERWRITE, d3d11_2/D3D11_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, direct3d11.d3d11_tile_copy_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Indicates that the GPU isn't currently referencing any of the
 
 ### -field D3D11_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE
 
-Indicates that the <a href="https://msdn.microsoft.com/en-us/library/Dn280501(v=VS.85).aspx">ID3D11DeviceContext2::CopyTiles</a> operation involves copying a linear buffer to a swizzled tiled resource. This means to copy tile data from the 
+Indicates that the <a href="https://msdn.microsoft.com/C336B0C7-DB99-466C-B689-5D6634EE0B36">ID3D11DeviceContext2::CopyTiles</a> operation involves copying a linear buffer to a swizzled tiled resource. This means to copy tile data from the 
 specified buffer location, reading tiles sequentially,
 to the specified tile region (in x,y,z order if the region is a box), swizzling to optimal hardware memory layout as needed.
 In this <b>ID3D11DeviceContext2::CopyTiles</b> call, you specify the source data with the  <i>pBuffer</i> parameter and the destination with the <i>pTiledResource</i> parameter.
@@ -76,7 +76,7 @@ In this <b>ID3D11DeviceContext2::CopyTiles</b> call, you specify the source data
 
 ### -field D3D11_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER
 
-Indicates that the <a href="https://msdn.microsoft.com/en-us/library/Dn280501(v=VS.85).aspx">ID3D11DeviceContext2::CopyTiles</a> operation involves copying a swizzled tiled resource to a linear buffer. This means to copy tile data from the tile region, reading tiles sequentially (in x,y,z order if the region is a box),
+Indicates that the <a href="https://msdn.microsoft.com/C336B0C7-DB99-466C-B689-5D6634EE0B36">ID3D11DeviceContext2::CopyTiles</a> operation involves copying a swizzled tiled resource to a linear buffer. This means to copy tile data from the tile region, reading tiles sequentially (in x,y,z order if the region is a box),
 to the specified buffer location, deswizzling to linear memory layout as needed.
 In this <b>ID3D11DeviceContext2::CopyTiles</b> call, you specify the source data with the <i>pTiledResource</i> parameter and the destination with the  <i>pBuffer</i> parameter.
 
@@ -87,7 +87,7 @@ In this <b>ID3D11DeviceContext2::CopyTiles</b> call, you specify the source data
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476170(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
  
 
  

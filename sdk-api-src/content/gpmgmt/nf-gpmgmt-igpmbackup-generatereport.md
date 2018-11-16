@@ -7,7 +7,7 @@ old-location: gpmc\igpmbackup_generatereport.htm
 tech.root: GPMC
 ms.assetid: d5daa512-547f-4b2d-85b3-0f6e9244acb2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GPMBackup object [GPMC],GenerateReport method, GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],GPMBackup object, GenerateReport method [GPMC],IGPMBackup interface, IGPMBackup interface [GPMC],GenerateReport method, IGPMBackup.GenerateReport, IGPMBackup::GenerateReport, gpmc.igpmbackup_generatereport, gpmgmt/IGPMBackup::GenerateReport
 ms.prod: windows-hardware
 ms.technology: windows-devices

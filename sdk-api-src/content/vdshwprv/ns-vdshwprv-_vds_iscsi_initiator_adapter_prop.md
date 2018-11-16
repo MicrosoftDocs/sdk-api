@@ -7,7 +7,7 @@ old-location: base\vds_iscsi_initiator_adapter_prop.htm
 tech.root: VDS
 ms.assetid: cfcc7c7a-d135-4404-8f67-64e43a425669
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: VDS_ISCSI_INITIATOR_ADAPTER_PROP, VDS_ISCSI_INITIATOR_ADAPTER_PROP structure [VDS], _VDS_ISCSI_INITIATOR_ADAPTER_PROP, base.vds_iscsi_initiator_adapter_prop, vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP, vdshwprv/VDS_ISCSI_INITIATOR_ADAPTER_PROP
 ms.prod: windows-hardware
 ms.technology: windows-devices

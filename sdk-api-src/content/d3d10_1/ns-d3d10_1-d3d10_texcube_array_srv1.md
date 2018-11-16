@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_texcube_array_srv1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texcube_array_srv1.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 7e56cb00-6357-582e-88ab-2d9d2918ebce, D3D10_TEXCUBE_ARRAY_SRV1, D3D10_TEXCUBE_ARRAY_SRV1 structure [Direct3D 10], d3d10_1/D3D10_TEXCUBE_ARRAY_SRV1, direct3d10.d3d10_texcube_array_srv1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">cube textures</a> to use in a shader-resource view.
+Specifies the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource(s)</a> from an array of <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">cube textures</a> to use in a shader-resource view.
 
 
 ## -struct-fields
@@ -90,7 +90,7 @@ Number of cube textures in the array.
 
 
 
-This structure is one member of a shader-resource-view description (see <a href="https://msdn.microsoft.com/en-us/library/Bb694534(v=VS.85).aspx">D3D10_SHADER_RESOURCE_VIEW_DESC1</a>).
+This structure is one member of a shader-resource-view description (see <a href="https://msdn.microsoft.com/788a696d-5e39-4f7b-a7dd-860671a6d2b8">D3D10_SHADER_RESOURCE_VIEW_DESC1</a>).
 
 This structure requires Windows Vista Service Pack 1.
 
@@ -102,7 +102,7 @@ This structure requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/d8fe2ebe-349a-456e-9a5a-16f2d3419800">Resource Structures</a>
  
 
  

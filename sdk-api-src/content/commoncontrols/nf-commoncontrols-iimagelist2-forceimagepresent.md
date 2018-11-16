@@ -4,10 +4,10 @@ title: IImageList2::ForceImagePresent
 author: windows-sdk-content
 description: Forces an image present, as specified.
 old-location: controls\IImageList2_ForceImagePresent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\forceimagepresent.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: ForceImagePresent, ForceImagePresent method [Windows Controls], ForceImagePresent method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],ForceImagePresent method, IImageList2.ForceImagePresent, IImageList2::ForceImagePresent, ILFIP_ALWAYS, ILFIP_FROMSTANDBY, _shell_IImageList2_ForceImagePresent, _shell_IImageList2_ForceImagePresent_cpp, commoncontrols/IImageList2::ForceImagePresent, controls.IImageList2_ForceImagePresent, controls._shell_IImageList2_ForceImagePresent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netmgmt\net_validate_password_hash.htm
 tech.root: NetMgmt
 ms.assetid: 884e5b8c-1288-454e-862d-323d79123356
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PNET_VALIDATE_PASSWORD_HASH, NET_VALIDATE_PASSWORD_HASH, NET_VALIDATE_PASSWORD_HASH structure [Network Management], PNET_VALIDATE_PASSWORD_HASH, PNET_VALIDATE_PASSWORD_HASH structure pointer [Network Management], _NET_VALIDATE_PASSWORD_HASH, lmaccess/NET_VALIDATE_PASSWORD_HASH, lmaccess/PNET_VALIDATE_PASSWORD_HASH, netmgmt.net_validate_password_hash"
 ms.prod: windows-hardware
 ms.technology: windows-devices

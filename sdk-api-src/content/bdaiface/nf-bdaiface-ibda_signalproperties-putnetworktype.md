@@ -4,10 +4,10 @@ title: IBDA_SignalProperties::PutNetworkType
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties_putnetworktype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: e92fa253-7e00-457f-805e-ed13bca84254
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_SignalProperties interface [Microsoft TV Technologies],PutNetworkType method, IBDA_SignalProperties.PutNetworkType, IBDA_SignalProperties::PutNetworkType, IBDA_SignalPropertiesPutNetworkType, PutNetworkType, PutNetworkType method [Microsoft TV Technologies], PutNetworkType method [Microsoft TV Technologies],IBDA_SignalProperties interface, bdaiface/IBDA_SignalProperties::PutNetworkType, mstv.ibda_signalproperties_putnetworktype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,11 +91,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693426(v=VS.85).aspx">GetNetworkType</a>
+<a href="https://msdn.microsoft.com/6c799cad-2371-4845-a783-e7227fb81c4c">GetNetworkType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693425(v=VS.85).aspx">IBDA_SignalProperties Interface</a>
+<a href="https://msdn.microsoft.com/fe88b628-7959-4d2f-981f-7de9126146f6">IBDA_SignalProperties Interface</a>
  
 
  

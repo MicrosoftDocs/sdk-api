@@ -7,7 +7,7 @@ old-location: nla\inetworkcostmanager_getcost.htm
 tech.root: NLA
 ms.assetid: F0690CD5-0BC9-4042-9A38-17B48761034F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetCost, GetCost method [Network Awareness], GetCost method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetCost method, INetworkCostManager.GetCost, INetworkCostManager::GetCost, netlistmgr/INetworkCostManager::GetCost, nla.inetworkcostmanager_getcost
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,14 +71,7 @@ The  <b>GetCost</b> method retrieves the current cost of either a machine-wide i
 A DWORD value that indicates the cost of the connection. The lowest 16 bits represent the cost level, and the highest 16 bits represent the flags. Possible values are defined by the <a href="https://msdn.microsoft.com/93541814-A1C3-4C24-BB99-CEE4895F34F8">NLM_CONNECTION_COST</a> enumeration.
 
 
-### -param pDestIPAddr
-
-TBD
-
-
-
-
-#### - destIPAddr [in]
+### -param pDestIPAddr [in]
 
 An <a href="https://msdn.microsoft.com/BEAF672C-F9B3-4544-878B-BBCF96F502C6">NLM_SOCKADDR</a> structure containing the destination IPv4/IPv6 address. If  NULL, this method will instead return the cost associated with the preferred connection used for machine Internet connectivity.
 

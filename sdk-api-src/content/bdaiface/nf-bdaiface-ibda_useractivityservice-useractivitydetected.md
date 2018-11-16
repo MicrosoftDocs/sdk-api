@@ -4,10 +4,10 @@ title: IBDA_UserActivityService::UserActivityDetected
 author: windows-sdk-content
 description: Indicates that a Media Sink Device (MSD) in a Protected Broadcast Driver Architecture (PBDA) media graph has detected user activity and is informing a Media Transfer Device (MTD) of this activity.
 old-location: mstv\ibda_useractivityservice_useractivitydetected.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 24c5f6af-602d-4e96-9712-5444ffdd4fe6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_UserActivityService interface [Microsoft TV Technologies],UserActivityDetected method, IBDA_UserActivityService.UserActivityDetected, IBDA_UserActivityService::UserActivityDetected, UserActivityDetected, UserActivityDetected method [Microsoft TV Technologies], UserActivityDetected method [Microsoft TV Technologies],IBDA_UserActivityService interface, bdaiface/IBDA_UserActivityService::UserActivityDetected, mstv.ibda_useractivityservice_useractivitydetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Indicates that a Media Sink Device (MSD) in a Protected Broadcast Driver Architecture (PBDA) media graph has detected user activity and is informing a Media Transfer Device (MTD) of this activity. The MSD calls this method only if the current activity interval has elapsed since the the MSD most recently called this method. The <a href="https://msdn.microsoft.com/en-us/library/Dd797935(v=VS.85).aspx">GetUserActivityInterval</a> method sets or obtains the value of the current activity interval. 
+Indicates that a Media Sink Device (MSD) in a Protected Broadcast Driver Architecture (PBDA) media graph has detected user activity and is informing a Media Transfer Device (MTD) of this activity. The MSD calls this method only if the current activity interval has elapsed since the the MSD most recently called this method. The <a href="https://msdn.microsoft.com/2ea3504a-a479-4d26-8a6b-0e5bdddf6a21">GetUserActivityInterval</a> method sets or obtains the value of the current activity interval. 
 
 
 ## -parameters
@@ -112,11 +112,11 @@ User activity service failed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797935(v=VS.85).aspx">GetUserActivityInterval</a>
+<a href="https://msdn.microsoft.com/2ea3504a-a479-4d26-8a6b-0e5bdddf6a21">GetUserActivityInterval</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797933(v=VS.85).aspx">IBDA_UserActivityService</a>
+<a href="https://msdn.microsoft.com/d2c8f14e-11d7-4385-a6c8-31b086ec1286">IBDA_UserActivityService</a>
  
 
  

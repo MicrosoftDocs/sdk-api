@@ -4,10 +4,10 @@ title: MI_ParameterSet_GetParameter function
 author: windows-sdk-content
 description: Gets a method's parameter information based on a parameter name.
 old-location: wmi_v2\mi_parameterset_getparameter.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: ff895beb-8354-488d-9c97-2d0448da954a
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ParameterSet_GetParameter, MI_ParameterSet_GetParameter function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetParameter, wmi_v2.mi_parameterset_getparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices

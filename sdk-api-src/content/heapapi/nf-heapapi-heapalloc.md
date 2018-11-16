@@ -4,10 +4,10 @@ title: HeapAlloc function
 author: windows-sdk-content
 description: Allocates a block of memory from a heap. The allocated memory is not movable.
 old-location: base\heapalloc.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 9a176312-0312-4cc1-baf5-949b346d983e
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_ZERO_MEMORY, HeapAlloc, HeapAlloc function, _win32_heapalloc, base.heapalloc, heapapi/HeapAlloc, winbase/HeapAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

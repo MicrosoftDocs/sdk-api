@@ -4,10 +4,10 @@ title: IComponent::GetResultViewType
 author: windows-sdk-content
 description: The IComponent::GetResultViewType method determines what the result pane view should be.
 old-location: mmc\icomponent_getresultviewtype.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: d2575f79-d646-41b5-84a5-768402cfb826
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: GetResultViewType, GetResultViewType method [MMC], GetResultViewType method [MMC],IComponent interface, IComponent interface [MMC],GetResultViewType method, IComponent.GetResultViewType, IComponent::GetResultViewType, MMC_VIEW_OPTIONS_CREATENEW, MMC_VIEW_OPTIONS_EXCLUDE_SCOPE_ITEMS_FROM_LIST, MMC_VIEW_OPTIONS_FILTERED, MMC_VIEW_OPTIONS_LEXICAL_SORT, MMC_VIEW_OPTIONS_MULTISELECT, MMC_VIEW_OPTIONS_NOLISTVIEWS, MMC_VIEW_OPTIONS_NONE, MMC_VIEW_OPTIONS_OWNERDATALIST, MMC_VIEW_OPTIONS_USEFONTLINKING, _slate_icomponent_getresultviewtype, mmc.icomponent_getresultviewtype, mmc/IComponent::GetResultViewType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ A value that specifies the snapin-provided unique identifier for the scope item.
 
 A pointer to the address of a string that specifies the view to display for the specified 
       <i>cookie</i>. The callee (snap-in) allocates the view type string using the COM API function 
-      <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
+      <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
       <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a>.
 
 The string that is returned depends on the view type:
@@ -265,7 +265,7 @@ This method can return one of these values.
 
 
 The callee (snap-in) allocates the view type string using COM API function 
-    <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
+    <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
     <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a>.
 
 MMC calls <b>GetResultViewType</b> when a 
@@ -299,7 +299,7 @@ A <a href="https://msdn.microsoft.com/3b48fb0b-d2c7-41e6-a5bf-277e6f92488b">cook
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
  
 
  

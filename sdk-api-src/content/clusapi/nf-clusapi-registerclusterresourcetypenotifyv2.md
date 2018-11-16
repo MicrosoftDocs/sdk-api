@@ -4,10 +4,10 @@ title: RegisterClusterResourceTypeNotifyV2 function
 author: windows-sdk-content
 description: Adds a notification type to a cluster notification port.
 old-location: mscs\registerclusterresourcetypenotifyv2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2E7DE3C3-F64B-4D5E-ADE9-B7CE60CB0E78
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: RegisterClusterResourceTypeNotifyV2, RegisterClusterResourceTypeNotifyV2 function [Failover Cluster], clusapi/RegisterClusterResourceTypeNotifyV2, mscs.registerclusterresourcetypenotifyv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ A handle to the cluster object.
 
 ### -param Flags [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh706753(v=VS.85).aspx">CLUSTER_CHANGE_RESOURCE_TYPE_V2</a> enumeration value that specifies the notification type to add.
+A <a href="https://msdn.microsoft.com/2A49AA32-F1E2-4810-B093-F6EC050DA841">CLUSTER_CHANGE_RESOURCE_TYPE_V2</a> enumeration value that specifies the notification type to add.
 
 
 ### -param resTypeName [in]
@@ -103,7 +103,7 @@ The notification key that is returned from the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372314(v=VS.85).aspx">Resource Type Management Functions</a>
+<a href="https://msdn.microsoft.com/5bcb0411-d9c1-47e7-b799-5b1fcf2a9274">Resource Type Management Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: xaudio2\fxecho_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXECHO_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FXECHO_PARAMETERS, FXECHO_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXECHO_PARAMETERS, xaudio2.fxecho_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ Amount of output to feed back into input.
 
 ### -field Delay
 
-Delay to all channels in milliseconds. This value must be between <b>FXECHO_MIN_DELAY</b> and <a href="https://msdn.microsoft.com/en-us/library/Hh405045(v=VS.85).aspx">FXECHO_INITDATA</a>.<b>MaxDelay</b>.
+Delay to all channels in milliseconds. This value must be between <b>FXECHO_MIN_DELAY</b> and <a href="https://msdn.microsoft.com/3bbb0a77-7d42-4823-a5f4-bda7af5eaa2c">FXECHO_INITDATA</a>.<b>MaxDelay</b>.
 
 
 ## -remarks

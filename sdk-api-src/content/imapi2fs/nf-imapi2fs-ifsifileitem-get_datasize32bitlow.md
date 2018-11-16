@@ -7,7 +7,7 @@ old-location: imapi\ifsifileitem_get_datasize32bitlow.htm
 tech.root: imapi
 ms.assetid: beeec2bc-5f0e-4a53-afed-50c0b6069f54
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IFsiFileItem interface [IMAPI],get_DataSize32BitLow method, IFsiFileItem.get_DataSize32BitLow, IFsiFileItem::get_DataSize32BitLow, get_DataSize32BitLow, get_DataSize32BitLow method [IMAPI], get_DataSize32BitLow method [IMAPI],IFsiFileItem interface, imapi.ifsifileitem_get_datasize32bitlow, imapi2fs/IFsiFileItem::get_DataSize32BitLow
 ms.prod: windows-hardware
 ms.technology: windows-devices

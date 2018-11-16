@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_shader_resource_view_desc.htm
 tech.root: direct3d11
 ms.assetid: 7ce09172-8a01-4718-b0ef-0ae118a9be16
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 13e27562-b43d-82ba-4ced-1227c27884e5, D3D11_SHADER_RESOURCE_VIEW_DESC, D3D11_SHADER_RESOURCE_VIEW_DESC structure [Direct3D 11], d3d11/D3D11_SHADER_RESOURCE_VIEW_DESC, direct3d11.d3d11_shader_resource_view_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Describes a shader-resource view.
 
 ### -field Format
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> specifying the viewing format. See remarks.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> specifying the viewing format. See remarks.
 
 
 ### -field ViewDimension
@@ -137,16 +137,16 @@ View the resource as a 3D-cube texture using information from a shader-resource 
 
 ### -field TextureCubeArray
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476250(v=VS.85).aspx">D3D11_TEXCUBE_ARRAY_SRV</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e8b496a7-89d9-4168-908a-1731ce045851">D3D11_TEXCUBE_ARRAY_SRV</a></b>
 
-View the resource as a 3D-cube-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/en-us/library/Ff476250(v=VS.85).aspx">D3D11_TEXCUBE_ARRAY_SRV</a>).
+View the resource as a 3D-cube-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/e8b496a7-89d9-4168-908a-1731ce045851">D3D11_TEXCUBE_ARRAY_SRV</a>).
 
 
 ### -field BufferEx
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476090(v=VS.85).aspx">D3D11_BUFFEREX_SRV</a></b>
+Type: <b><a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a></b>
 
-View the resource as a raw buffer using information from a shader-resource view (see <a href="https://msdn.microsoft.com/en-us/library/Ff476090(v=VS.85).aspx">D3D11_BUFFEREX_SRV</a>). For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
+View the resource as a raw buffer using information from a shader-resource view (see <a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a>). For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
 
 
 ## -remarks
@@ -157,7 +157,7 @@ A view is a format-specific way to look at the data in a resource. The view dete
 
 When viewing a resource, the resource-view description must specify a typed format, that is compatible with the resource format. So that means that you cannot create a resource-view description using any format with _TYPELESS in the name. You can however view a typeless resource by specifying a typed format for the view. For example, a DXGI_FORMAT_R32G32B32_TYPELESS resource can be viewed with one of these typed formats: DXGI_FORMAT_R32G32B32_FLOAT, DXGI_FORMAT_R32G32B32_UINT, and DXGI_FORMAT_R32G32B32_SINT, since these typed formats are compatible with the typeless resource.
 
-Create a shader-resource-view description by calling <a href="https://msdn.microsoft.com/en-us/library/Ff476519(v=VS.85).aspx">ID3D11Device::CreateShaderResourceView</a>. To view a shader-resource-view description, call <a href="https://msdn.microsoft.com/en-us/library/Ff476629(v=VS.85).aspx">ID3D11ShaderResourceView::GetDesc</a>.
+Create a shader-resource-view description by calling <a href="https://msdn.microsoft.com/a8e3cda3-76f9-48c3-9e0c-e530f95fe8b8">ID3D11Device::CreateShaderResourceView</a>. To view a shader-resource-view description, call <a href="https://msdn.microsoft.com/223bcf9c-a873-498c-af58-d93fe0a7f52c">ID3D11ShaderResourceView::GetDesc</a>.
 
 
 
@@ -167,7 +167,7 @@ Create a shader-resource-view description by calling <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
  
 
  

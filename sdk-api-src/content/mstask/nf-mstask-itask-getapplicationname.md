@@ -7,7 +7,7 @@ old-location: taskschd\itask_getapplicationname.htm
 tech.root: TaskSchd
 ms.assetid: 79a8c324-1191-412b-be2b-eb5935337925
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetApplicationName, GetApplicationName method [Task Scheduler], GetApplicationName method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetApplicationName method, ITask.GetApplicationName, ITask::GetApplicationName, _msb_itask_getapplicationname, mstask/ITask::GetApplicationName, taskschd.itask_getapplicationname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method retrieves the name of the application that the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a> is associated with.
+This method retrieves the name of the application that the <a href="t.htm">task</a> is associated with.
 
 
 ## -parameters

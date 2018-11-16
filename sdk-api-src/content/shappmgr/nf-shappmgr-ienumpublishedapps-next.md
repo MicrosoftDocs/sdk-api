@@ -7,7 +7,7 @@ old-location: shell\IEnumPublishedApps_Next.htm
 tech.root: shell
 ms.assetid: 78d18529-2eeb-4510-8703-457ffe998bc5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumPublishedApps interface [Windows Shell],Next method, IEnumPublishedApps.Next, IEnumPublishedApps::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumPublishedApps interface, inet_IEnumPublishedApps_Next, shappmgr/IEnumPublishedApps::Next, shell.IEnumPublishedApps_Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ Gets the next <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c609
 
 
 
-### -param pia
-
-TBD
-
-
-
-
-#### - ppApp [out]
+### -param pia [out]
 
 Type: <b><a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a>**</b>
 

@@ -7,7 +7,7 @@ old-location: gpmc\igpmdomain_creategpo.htm
 tech.root: GPMC
 ms.assetid: 00e83637-820b-488e-abf4-4210ac3b98b6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateGPO, CreateGPO method [GPMC], CreateGPO method [GPMC],GPMDomain object, CreateGPO method [GPMC],IGPMDomain interface, GPMDomain object [GPMC],CreateGPO method, IGPMDomain interface [GPMC],CreateGPO method, IGPMDomain.CreateGPO, IGPMDomain::CreateGPO, _win32_igpmdomain_creategpo, gpmc.igpmdomain_creategpo, gpmgmt/IGPMDomain::CreateGPO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,7 @@ Creates and retrieves a
 
 
 
-### -param ppNewGPO
-
-TBD
-
-
-
-
-#### - ppnewGPO [out]
+### -param ppNewGPO [out]
 
 Address of a pointer to the 
 <a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a> interface.

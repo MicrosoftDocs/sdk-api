@@ -7,7 +7,7 @@ old-location: wcs\cmcreatetransformext.htm
 tech.root: WCS
 ms.assetid: 95b5bc2e-c790-43e0-8457-99bbbde5ecd2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CMCreateTransformExt, CMCreateTransformExt function [Windows Color System], _color_CMCreateTransformExt, icm/CMCreateTransformExt, wcs.cmcreatetransformext
 ms.prod: windows-hardware
 ms.technology: windows-devices

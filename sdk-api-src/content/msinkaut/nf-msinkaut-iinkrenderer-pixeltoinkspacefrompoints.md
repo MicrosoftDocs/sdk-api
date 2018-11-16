@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_pixeltoinkspacefrompoints.htm
 tech.root: tablet
 ms.assetid: 1427ab50-1b04-43a8-a987-838f2d6893cc
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 1427ab50-1b04-43a8-a987-838f2d6893cc, IInkRenderer, IInkRenderer interface [Tablet PC],PixelToInkSpaceFromPoints method, IInkRenderer.PixelToInkSpaceFromPoints, IInkRenderer::PixelToInkSpaceFromPoints, PixelToInkSpaceFromPoints, PixelToInkSpaceFromPoints method [Tablet PC], PixelToInkSpaceFromPoints method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::PixelToInkSpaceFromPoints, tablet.inkrenderer_pixeltoinkspacefrompoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,9 +70,9 @@ Converts an array of locations in pixel space coordinates to an array of locatio
 
 
 
-### -param hDC
+### -param hDC [in]
 
-TBD
+The handle of the device context for the containing control or form.
 
 
 ### -param Points [in, out]
@@ -80,11 +80,6 @@ TBD
 The Variant array of points, as alternating Long x and y values of the form x0, y0, x1, y1, x2, y2, and so on, to convert from a pixel location to ink space coordinates.
 
 For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
-
-
-#### - hdcDisplay [in]
-
-The handle of the device context for the containing control or form.
 
 
 ## -returns

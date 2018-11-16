@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideo_setcallbackinterface.htm
 tech.root: DirectShow
 ms.assetid: f8f885fe-d1a2-4635-9f30-d57ac0eb905e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IDDrawExclModeVideo interface [DirectShow],SetCallbackInterface method, IDDrawExclModeVideo.SetCallbackInterface, IDDrawExclModeVideo::SetCallbackInterface, IDDrawExclModeVideoSetCallbackInterface, SetCallbackInterface, SetCallbackInterface method [DirectShow], SetCallbackInterface method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setcallbackinterface, strmif/IDDrawExclModeVideo::SetCallbackInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,14 +75,7 @@ The <code>SetCallbackInterface</code> method retrieves a pointer to the callback
 Pointer to the object that implements the <a href="https://msdn.microsoft.com/7f22d4cd-93e0-4d7d-b8f3-932488d2c672">IDDrawExclModeVideoCallback</a> interface. If <i>pCallback</i> is <b>NULL</b>, the callback interface is set to <b>NULL</b> and no more callbacks are made. If there was a previous callback interface, it is released and no more callbacks are made to it. If <i>pCallback</i> is not <b>NULL</b> and this method returns S_OK, then the reference count of the object <i>pCallback</i> points to is incremented.
 
 
-### -param dwFlags
-
-TBD
-
-
-
-
-#### - dwFlag [in]
+### -param dwFlags [in]
 
 Must be zero.
 

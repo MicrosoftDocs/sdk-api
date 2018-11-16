@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onoutboundroutinggroupsconfigchange.ht
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutboundroutinggroupsconfigchange.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 11/15/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutboundRoutingGroupsConfigChange method, IFaxServerNotify2.OnOutboundRoutingGroupsConfigChange, IFaxServerNotify2::OnOutboundRoutingGroupsConfigChange, OnOutboundRoutingGroupsConfigChange, OnOutboundRoutingGroupsConfigChange method [Fax Service], OnOutboundRoutingGroupsConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutboundRoutingGroupsConfigChange, _IFaxServerNotify2::OnOutboundRoutingGroupsConfigChange, _mfax_ifaxservernotify2_onoutboundroutinggroupsconfigchange, fax._mfax_ifaxservernotify2_onoutboundroutinggroupsconfigchange, faxcomex/IFaxServerNotify2::OnOutboundRoutingGroupsConfigChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,13 +68,6 @@ The fax service calls the <b>IFaxServerNotify2::OnOutboundRoutingGroupsConfigCha
 
 
 ### -param pFaxServer
-
-TBD
-
-
-
-
-#### - pFaxServer2
 
 Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
 

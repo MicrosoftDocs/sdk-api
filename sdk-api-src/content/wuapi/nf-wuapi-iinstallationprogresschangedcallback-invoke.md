@@ -7,7 +7,7 @@ old-location: wua\iinstallationprogresschangedcallback_invoke.htm
 tech.root: Wua_Sdk
 ms.assetid: 1ef4ab68-8bf3-4141-aba2-826bb606eab5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IInstallationProgressChangedCallback interface [Windows Update Agent],Invoke method, IInstallationProgressChangedCallback.Invoke, IInstallationProgressChangedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IInstallationProgressChangedCallback interface, wua.iinstallationprogresschangedcallback_invoke, wuapi/IInstallationProgressChangedCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,19 +66,14 @@ Handles the notification of the change in the progress of an asynchronous instal
 
 
 
-### -param installationJob
+### -param installationJob [in]
 
-TBD
+An <a href="https://msdn.microsoft.com/1a83a44e-cd3b-43b0-8741-a73fe9954063">IInstallationJob</a> interface that contains the installation information.
 
 
 ### -param callbackArgs [in]
 
 An <a href="https://msdn.microsoft.com/9175bcaf-8015-466d-ae0c-7ba685bdf192">IInstallationProgressChangedCallbackArgs</a> interface that contains the installation progress data.
-
-
-#### - downloadJob [in]
-
-An <a href="https://msdn.microsoft.com/1a83a44e-cd3b-43b0-8741-a73fe9954063">IInstallationJob</a> interface that contains the installation information.
 
 
 ## -returns

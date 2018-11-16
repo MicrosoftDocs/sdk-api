@@ -7,7 +7,7 @@ old-location: lwef\iactivedesktop_getpattern.htm
 tech.root: lwef
 ms.assetid: e4211868-9f06-412c-b0b5-ba6ce395708e
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 11/15/2018
 ms.keywords: GetPattern, GetPattern method [Legacy Windows Environment Features], GetPattern method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetPattern method, IActiveDesktop.GetPattern, IActiveDesktop::GetPattern, _win32_IActiveDesktop_GetPattern, lwef.iactivedesktop_getpattern, shell.iactivedesktop_getpattern, shlobj_core/IActiveDesktop::GetPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices

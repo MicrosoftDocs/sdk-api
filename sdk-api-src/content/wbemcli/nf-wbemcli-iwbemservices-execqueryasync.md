@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_execqueryasync.htm
 tech.root: WmiSdk
 ms.assetid: d8b55500-d84c-431b-93c6-99d1f1b845c3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ExecQueryAsync, ExecQueryAsync method [Windows Management Instrumentation], ExecQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecQueryAsync method, IWbemServices.ExecQueryAsync, IWbemServices::ExecQueryAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_ENSURE_LOCATABLE, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_execqueryasync, wbemcli/IWbemServices::ExecQueryAsync, wmi.iwbemservices_execqueryasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -154,7 +154,7 @@ Pointer to the caller's implementation of
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management Instrumentation (WMI) calls 
 <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> with the objects any number of times, followed by a single call to <a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> to indicate the final status.
 
-WMI only calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> to the pointer when <b>WBEM_S_NO_ERROR</b> returns. When an error code returns, the reference count is the same as on entry. For a detailed explanation of asynchronous calling methods, see 
+WMI only calls <a href="_com_iunknown_addref">AddRef</a> to the pointer when <b>WBEM_S_NO_ERROR</b> returns. When an error code returns, the reference count is the same as on entry. For a detailed explanation of asynchronous calling methods, see 
 <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 
 
@@ -261,7 +261,7 @@ For more information, see <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f
 </td>
 </tr>
 </table></span></div>
-In the previous example, the instance provider acquires a thread from WMI to perform the necessary synching operations. You can call the sink <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
+In the previous example, the instance provider acquires a thread from WMI to perform the necessary synching operations. You can call the sink <a href="_com_iunknown_addref">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
 
 <div class="alert"><b>Note</b>  When providers implement 
 <b>ExecQueryAsync</b>, they are expected by default to return the correct result set based on the query. If a provider cannot return the correct result set easily, it may return a superset of the results and request that WMI do post-filtering before delivering the objects to the client to ensure that the result set is correct. To do this, the provider calls 

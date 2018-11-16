@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionevents_ondisplaynamechanged.htm
 tech.root: CoreAudio
 ms.assetid: 65d21f0c-b6f1-4506-975c-6d0308b3fc2f
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnDisplayNameChanged method, IAudioSessionEvents.OnDisplayNameChanged, IAudioSessionEvents::OnDisplayNameChanged, IAudioSessionEventsOnDisplayNameChanged, OnDisplayNameChanged, OnDisplayNameChanged method [Core Audio], OnDisplayNameChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnDisplayNameChanged, coreaudio.iaudiosessionevents_ondisplaynamechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

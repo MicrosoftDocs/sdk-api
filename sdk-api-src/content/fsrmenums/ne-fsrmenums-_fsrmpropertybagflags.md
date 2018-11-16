@@ -7,7 +7,7 @@ old-location: fsrm\fsrmpropertybagflags.htm
 tech.root: Fsrm
 ms.assetid: 5b434ab6-4c15-4960-b5d1-c90da806e9d8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: FsrmPropertyBagFlags, FsrmPropertyBagFlags enumeration [File Server Resource Manager], FsrmPropertyBagFlags_FailedClassifyingProperties, FsrmPropertyBagFlags_FailedLoadingProperties, FsrmPropertyBagFlags_FailedSavingProperties, FsrmPropertyBagFlags_UpdatedByClassifier, _FsrmPropertyBagFlags, fs.fsrmpropertybagflags, fsrm.fsrmpropertybagflags, fsrmenums/FsrmPropertyBagFlags, fsrmenums/FsrmPropertyBagFlags_FailedClassifyingProperties, fsrmenums/FsrmPropertyBagFlags_FailedLoadingProperties, fsrmenums/FsrmPropertyBagFlags_FailedSavingProperties, fsrmenums/FsrmPropertyBagFlags_UpdatedByClassifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

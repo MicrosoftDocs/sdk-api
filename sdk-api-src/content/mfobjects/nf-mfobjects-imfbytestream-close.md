@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_close.htm
 tech.root: medfound
 ms.assetid: d5f704ab-fa3f-4a53-9b97-eb48a75e481b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],Close method, IMFByteStream.Close, IMFByteStream::Close, d5f704ab-fa3f-4a53-9b97-eb48a75e481b, mf.imfbytestream_close, mfobjects/IMFByteStream::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

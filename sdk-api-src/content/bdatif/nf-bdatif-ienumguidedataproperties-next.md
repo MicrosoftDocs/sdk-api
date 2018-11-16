@@ -4,10 +4,10 @@ title: IEnumGuideDataProperties::Next
 author: windows-sdk-content
 description: The Next method retrieves the specified number of items in the enumeration sequence.
 old-location: mstv\ienumguidedataproperties_next.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 5d13ce97-5729-48e5-a742-0689b2aae1f3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Next method, IEnumGuideDataProperties.Next, IEnumGuideDataProperties::Next, IEnumGuideDataPropertiesNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Next, mstv.ienumguidedataproperties_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,19 +74,14 @@ The <b>Next</b> method retrieves the specified number of items in the enumeratio
 Specifies the number of items to retrieve.
 
 
-### -param ppprop
+### -param ppprop [out]
 
-TBD
+Address of an array of size <i>celt</i>, allocated by the caller. The array is filled with <a href="https://msdn.microsoft.com/1c614f2a-69e0-4100-b83e-740478654c17">IGuideDataProperty</a> interface pointers.
 
 
 ### -param pcelt [out]
 
 Receives the number of items received.
-
-
-#### - ppProp [out]
-
-Address of an array of size <i>celt</i>, allocated by the caller. The array is filled with <a href="https://msdn.microsoft.com/en-us/library/Dd694107(v=VS.85).aspx">IGuideDataProperty</a> interface pointers.
 
 
 ## -returns
@@ -144,11 +139,11 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693993(v=VS.85).aspx">IEnumGuideDataProperties Interface</a>
+<a href="https://msdn.microsoft.com/ae4db426-7e90-4cb6-b53a-2cb7074308fc">IEnumGuideDataProperties Interface</a>
  
 
  

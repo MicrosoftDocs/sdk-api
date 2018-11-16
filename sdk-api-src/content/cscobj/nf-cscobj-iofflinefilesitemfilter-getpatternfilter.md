@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitemfilter_getpatternfilter.htm
 tech.root: OfflineFiles
 ms.assetid: 570cf25c-d4a4-42d6-8f33-bb660a7e99ab
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetPatternFilter, GetPatternFilter method [Offline Files], GetPatternFilter method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetPatternFilter method, IOfflineFilesItemFilter.GetPatternFilter, IOfflineFilesItemFilter::GetPatternFilter, cscobj/IOfflineFilesItemFilter::GetPatternFilter, of.iofflinefilesitemfilter_getpatternfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,7 +111,7 @@ While this method can be implemented in any filter type (inclusion, exclusion) o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530576(v=VS.85).aspx">IOfflineFilesItemFilter</a>
+<a href="https://msdn.microsoft.com/e77b4f90-7a08-47f8-b297-8c1360167e1f">IOfflineFilesItemFilter</a>
  
 
  

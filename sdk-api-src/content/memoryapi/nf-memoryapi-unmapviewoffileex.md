@@ -4,10 +4,10 @@ title: UnmapViewOfFileEx function
 author: windows-sdk-content
 description: This is an extended version of UnmapViewOfFile that takes an additional flags parameter.
 old-location: base\unmapviewoffileex.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 1C86075D-17B8-481E-BDF0-6E5A8F55C188
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: MEM_PRESERVE_PLACEHOLDER, MEM_UNMAP_WITH_TRANSIENT_BOOST, UnmapViewOfFileEx, UnmapViewOfFileEx function, base.unmapviewoffileex, winbase/UnmapViewOfFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,11 @@ This is an extended version of <a href="https://msdn.microsoft.com/2e9c3174-af48
 
 
 
-### -param BaseAddress
+### -param BaseAddress [in]
 
-TBD
+A pointer to the base address of the mapped view of a file that is to be unmapped. This value must be identical to the value returned by a previous call to the 
+<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a> or 
+<a href="https://msdn.microsoft.com/2ac8a7d6-5c52-41de-acb9-d7f975fd2a94">MapViewOfFileEx</a> function.
 
 
 ### -param UnmapFlags [in]
@@ -111,13 +113,6 @@ Unmaps a mapped view back to a placeholder (after you've replaced a placeholder 
 </tr>
 </table>
  
-
-
-#### - lpBaseAddress [in]
-
-A pointer to the base address of the mapped view of a file that is to be unmapped. This value must be identical to the value returned by a previous call to the 
-<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a> or 
-<a href="https://msdn.microsoft.com/2ac8a7d6-5c52-41de-acb9-d7f975fd2a94">MapViewOfFileEx</a> function.
 
 
 ## -returns

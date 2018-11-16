@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_rsgetviewports.htm
 tech.root: direct3d11
 ms.assetid: 9932182f-8e62-41fe-9004-7fb0b591630f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: 19831c51-f6c4-f65f-6ada-c90fa97f0a32, ID3D11DeviceContext interface [Direct3D 11],RSGetViewports method, ID3D11DeviceContext.RSGetViewports, ID3D11DeviceContext::RSGetViewports, RSGetViewports, RSGetViewports method [Direct3D 11], RSGetViewports method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::RSGetViewports, direct3d11.id3d11devicecontext_rsgetviewports
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,17 +75,17 @@ A pointer to a variable that, on input, specifies the number of viewports (range
             in the <i>pViewports</i> array; on output, the variable contains the actual number of viewports that are bound to the rasterizer stage.
             If <i>pViewports</i> is <b>NULL</b>, <b>RSGetViewports</b> fills the variable with the number of viewports currently bound.
 
-<div class="alert"><b>Note</b>  In some versions of the Windows SDK, a <a href="https://msdn.microsoft.com/en-us/library/Ff476881(v=VS.85).aspx">debug device</a> will raise an exception if the input value in the variable to which <i>pNumViewports</i> points is greater than <b>D3D11_VIEWPORT_AND_SCISSORRECT_OBJECT_COUNT_PER_PIPELINE</b> even if <i>pViewports</i> is <b>NULL</b>.  The regular runtime ignores the value in the variable to which <i>pNumViewports</i> points when <i>pViewports</i> is <b>NULL</b>.  This behavior of a debug device might be corrected in a future release of the Windows SDK.
+<div class="alert"><b>Note</b>  In some versions of the Windows SDK, a <a href="overviews_direct3d_11_devices_layers.htm">debug device</a> will raise an exception if the input value in the variable to which <i>pNumViewports</i> points is greater than <b>D3D11_VIEWPORT_AND_SCISSORRECT_OBJECT_COUNT_PER_PIPELINE</b> even if <i>pViewports</i> is <b>NULL</b>.  The regular runtime ignores the value in the variable to which <i>pNumViewports</i> points when <i>pViewports</i> is <b>NULL</b>.  This behavior of a debug device might be corrected in a future release of the Windows SDK.
             </div>
 <div> </div>
 
 ### -param pViewports [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476260(v=VS.85).aspx">D3D11_VIEWPORT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7ef29e40-4b42-4794-83b6-44581c0d529f">D3D11_VIEWPORT</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Ff476260(v=VS.85).aspx">D3D11_VIEWPORT</a> structures for the viewports that are bound to the rasterizer stage. If the number of viewports (in the variable to which <i>pNumViewports</i> points) is
+An array of <a href="https://msdn.microsoft.com/7ef29e40-4b42-4794-83b6-44581c0d529f">D3D11_VIEWPORT</a> structures for the viewports that are bound to the rasterizer stage. If the number of viewports (in the variable to which <i>pNumViewports</i> points) is
             greater than the actual number of viewports currently bound, unused elements of the array contain 0.
-            For info about how the viewport size depends on the device <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a>, which has changed between Direct3D 11
+            For info about how the viewport size depends on the device <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a>, which has changed between Direct3D 11
             and Direct3D 10, see <b>D3D11_VIEWPORT</b>.
           
 
@@ -115,7 +115,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

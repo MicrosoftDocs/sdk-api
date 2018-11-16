@@ -7,7 +7,7 @@ old-location: wmp\iwmpfoldermonitorservices_get_addedfilescount.htm
 tech.root: WMP
 ms.assetid: 56dcbb46-8de9-4fbe-b82c-927d42e39b2b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_addedFilesCount method, IWMPFolderMonitorServices.get_addedFilesCount, IWMPFolderMonitorServices::get_addedFilesCount, IWMPFolderMonitorServicesget_addedFilesCount, get_addedFilesCount, get_addedFilesCount method [Windows Media Player], get_addedFilesCount method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_addedfilescount, wmp/IWMPFolderMonitorServices::get_addedFilesCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

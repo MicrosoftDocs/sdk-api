@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink2_getfilesize.htm
 tech.root: wmformat
 ms.assetid: 3a5f0c18-f73a-461e-b3cf-48742e74fed3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: GetFileSize, GetFileSize method [windows Media Format], GetFileSize method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],GetFileSize method, IWMWriterFileSink2.GetFileSize, IWMWriterFileSink2::GetFileSize, IWMWriterFileSink2GetFileSize, wmformat.iwmwriterfilesink2_getfilesize, wmsdkidl/IWMWriterFileSink2::GetFileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

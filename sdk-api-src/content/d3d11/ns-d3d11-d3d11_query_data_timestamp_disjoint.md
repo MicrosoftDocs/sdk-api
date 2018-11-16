@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_query_data_timestamp_disjoint.htm
 tech.root: direct3d11
 ms.assetid: d706626a-cf11-4087-b66a-350161050aad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: D3D11_QUERY_DATA_TIMESTAMP_DISJOINT, D3D11_QUERY_DATA_TIMESTAMP_DISJOINT structure [Direct3D 11], d3d11/D3D11_QUERY_DATA_TIMESTAMP_DISJOINT, direct3d11.d3d11_query_data_timestamp_disjoint, f6339efd-3b83-c410-71de-6ecde51119d9
 ms.prod: windows-hardware
 ms.technology: windows-devices

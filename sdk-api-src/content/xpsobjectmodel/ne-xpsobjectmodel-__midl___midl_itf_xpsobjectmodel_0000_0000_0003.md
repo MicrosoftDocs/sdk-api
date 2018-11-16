@@ -7,7 +7,7 @@ old-location: xps\xps_spread_method.htm
 tech.root: printdocs
 ms.assetid: 9c9cadaf-6f38-4a56-942e-78617017a905
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: XPS_SPREAD_METHOD, XPS_SPREAD_METHOD enumeration [XPS Documents and Packaging], XPS_SPREAD_METHOD_PAD, XPS_SPREAD_METHOD_REFLECT, XPS_SPREAD_METHOD_REPEAT, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0003, xps.xps_spread_method, xpsobjectmodel/XPS_SPREAD_METHOD, xpsobjectmodel/XPS_SPREAD_METHOD_PAD, xpsobjectmodel/XPS_SPREAD_METHOD_REFLECT, xpsobjectmodel/XPS_SPREAD_METHOD_REPEAT
 ms.prod: windows-hardware
 ms.technology: windows-devices

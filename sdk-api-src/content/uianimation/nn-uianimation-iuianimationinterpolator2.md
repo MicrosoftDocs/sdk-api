@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator2.htm
 tech.root: UIAnimation
 ms.assetid: EC0D1933-37C3-41E2-AB13-DA4AAF4B8F04
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IUIAnimationInterpolator2, IUIAnimationInterpolator2 interface [Windows Animation], IUIAnimationInterpolator2 interface [Windows Animation],described, uianimation.iuianimationinterpolator2, uianimation/IUIAnimationInterpolator2
 ms.prod: windows-hardware
 ms.technology: windows-devices

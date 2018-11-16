@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice_getextendeddiscoxml.htm
 tech.root: WsdApi
 ms.assetid: 6ca12b1b-4adf-4c54-90b5-ab5286af9252
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetExtendedDiscoXML, GetExtendedDiscoXML method, GetExtendedDiscoXML method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetExtendedDiscoXML method, IWSDiscoveredService.GetExtendedDiscoXML, IWSDiscoveredService::GetExtendedDiscoXML, ncd.iwsdiscoveredservice_getextendeddiscoxml, wsddisco/IWSDiscoveredService::GetExtendedDiscoXML
 ms.prod: windows-hardware
 ms.technology: windows-devices

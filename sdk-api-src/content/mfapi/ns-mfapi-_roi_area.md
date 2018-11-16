@@ -7,7 +7,7 @@ old-location: mf\roi_area.htm
 tech.root: medfound
 ms.assetid: E808CAC4-97FE-4D03-B9FF-200D1DE12D47
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*PROI_AREA, PROI_AREA, PROI_AREA structure pointer [Media Foundation], ROI_AREA, ROI_AREA structure [Media Foundation], _ROI_AREA, mf.roi_area, mfapi/PROI_AREA, mfapi/ROI_AREA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

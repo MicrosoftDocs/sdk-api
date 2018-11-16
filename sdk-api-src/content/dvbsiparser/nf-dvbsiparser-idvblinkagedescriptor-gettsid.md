@@ -4,10 +4,10 @@ title: IDvbLinkageDescriptor::GetTSId
 author: windows-sdk-content
 description: Gets the identifier of the transport stream containing the information service from a DVB linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_gettsid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 263f3ff1-33a6-4c40-bcdf-049c4dbaf2ef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetTSId, GetTSId method [Microsoft TV Technologies], GetTSId method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetTSId method, IDvbLinkageDescriptor.GetTSId, IDvbLinkageDescriptor::GetTSId, dvbsiparser/IDvbLinkageDescriptor::GetTSId, mstv.idvblinkagedescriptor_gettsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

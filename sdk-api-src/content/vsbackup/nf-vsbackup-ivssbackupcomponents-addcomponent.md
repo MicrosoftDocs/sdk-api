@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_addcomponent.htm
 tech.root: VSS
 ms.assetid: 50cb0b16-9ed3-4496-962a-9c845c10986c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddComponent method, IVssBackupComponents.AddComponent, IVssBackupComponents::AddComponent, _win32_ivssbackupcomponents_addcomponent, base.ivssbackupcomponents_addcomponent, vsbackup/IVssBackupComponents::AddComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,9 +82,10 @@ Identifies a specific instance of a writer.
 Writer class identifier.
 
 
-### -param ct
+### -param ct [in]
 
-TBD
+Identifies the type of the component. Refer to the documentation for 
+      <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for permitted input values.
 
 
 ### -param wszLogicalPath [in]
@@ -106,12 +107,6 @@ There are no restrictions on the characters that can appear in a non-<b>NULL</b>
 The value of this parameter cannot be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
-
-
-#### - componentType [in]
-
-Identifies the type of the component. Refer to the documentation for 
-      <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for permitted input values.
 
 
 ## -returns

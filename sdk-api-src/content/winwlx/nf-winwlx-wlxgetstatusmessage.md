@@ -4,10 +4,10 @@ title: WlxGetStatusMessage function
 author: windows-sdk-content
 description: Winlogon calls this function to get the status message being displayed by the GINA DLL.
 old-location: security\wlxgetstatusmessage.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 16208bbe-e697-4e75-8a28-a6d311ecb46c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: WlxGetStatusMessage, WlxGetStatusMessage function [Security], _gina_wlxgetstatusmessage, security.wlxgetstatusmessage, winwlx/WlxGetStatusMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

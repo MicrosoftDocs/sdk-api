@@ -7,7 +7,7 @@ old-location: wmformat\iwmlanguagelist.htm
 tech.root: wmformat
 ms.assetid: 63ef282c-d1ab-4ce9-a56b-209407c7839b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMLanguageList, IWMLanguageList interface [windows Media Format], IWMLanguageList interface [windows Media Format],described, IWMLanguageListInterface, wmformat.iwmlanguagelist, wmsdkidl/IWMLanguageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

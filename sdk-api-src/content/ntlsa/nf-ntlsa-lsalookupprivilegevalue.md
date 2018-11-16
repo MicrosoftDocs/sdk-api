@@ -4,10 +4,10 @@ title: LsaLookupPrivilegeValue function
 author: windows-sdk-content
 description: Retrieves the locally unique identifier (LUID) used by the Local Security Authority (LSA) to represent the specified privilege name.
 old-location: security\lsalookupprivilegevalue.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 4926fff9-6e1a-475c-95ab-78c9b67aaa87
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: LsaLookupPrivilegeValue, LsaLookupPrivilegeValue function [Security], ntlsa/LsaLookupPrivilegeValue, security.lsalookupprivilegevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

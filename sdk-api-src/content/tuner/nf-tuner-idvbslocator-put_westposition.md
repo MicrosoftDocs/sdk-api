@@ -4,10 +4,10 @@ title: IDVBSLocator::put_WestPosition
 author: windows-sdk-content
 description: The put_WestPosition method sets the longitudinal position as west longitude or east longitude.
 old-location: mstv\idvbslocator_put_westposition.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 567aa90e-6179-477a-813d-13e99b16bbc2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_WestPosition method, IDVBSLocator.put_WestPosition, IDVBSLocator::put_WestPosition, IDVBSLocatorput_WestPosition, mstv.idvbslocator_put_westposition, put_WestPosition, put_WestPosition method [Microsoft TV Technologies], put_WestPosition method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_WestPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

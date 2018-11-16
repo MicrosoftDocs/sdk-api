@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_mapped_texture2d.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_mapped_texture2d.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: D3D10_MAPPED_TEXTURE2D, D3D10_MAPPED_TEXTURE2D structure [Direct3D 10], a2002d27-1e59-abab-3507-86a1666a3405, d3d10/D3D10_MAPPED_TEXTURE2D, direct3d10.d3d10_mapped_texture2d
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Provides access to <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> data in a 2D texture.
+Provides access to <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a> data in a 2D texture.
 
 
 ## -struct-fields
@@ -67,28 +67,28 @@ Pointer to the data.
 
 ### -field RowPitch
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The pitch, or width, or physical size (in bytes), of one row of an uncompressed texture. A block-compressed texture is encoded in 4x4 blocks (see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">virtual size vs physical size</a>) ; therefore, <b>RowPitch</b> is the number of bytes in a block of 4x4 texels.
+The pitch, or width, or physical size (in bytes), of one row of an uncompressed texture. A block-compressed texture is encoded in 4x4 blocks (see <a href="https://msdn.microsoft.com/add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5">virtual size vs physical size</a>) ; therefore, <b>RowPitch</b> is the number of bytes in a block of 4x4 texels.
 
 
 ## -remarks
 
 
 
-This structure is used in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb173869(v=VS.85).aspx">Map</a>.
+This structure is used in a call to <a href="https://msdn.microsoft.com/40d0d246-bed9-48a2-9c00-68a5c58f49a5">Map</a>.
 
 To illustrate the row pitch, assume an uncompressed 2D texture with mipmap levels, as shown in the following illustration.
 
-<img alt="Illustration of an uncompressed 2D texture with mipmap levels" src="./images/d3d10_resource_texture2d.png"/>
+<img alt="Illustration of an uncompressed 2D texture with mipmap levels" src="images/d3d10_resource_texture2d.png"/>
 
 Visualize the top-level texture drawn in a single plane like the following illustration.
 
-<img alt="Illustration of a single plane" src="./images/d3d10_2d_texture_conceptual.png"/>
+<img alt="Illustration of a single plane" src="images/d3d10_2d_texture_conceptual.png"/>
 
 However, the actual layout of each element in memory looks more like the following illustration.
 
-<img alt="Illustration of the row pitch in memory" src="./images/d3d10_2d_texture_memory.png"/>
+<img alt="Illustration of the row pitch in memory" src="images/d3d10_2d_texture_memory.png"/>
 
 For this example, the row pitch encompasses 5 elements (one row), whose size would be five times the number of bytes per element.
 
@@ -141,7 +141,7 @@ if( SUCCEEDED( pTexture-&gt;Map( D3D10CalcSubresource(2, 0, 3), D3D10_MAP_WRITE_
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/d8fe2ebe-349a-456e-9a5a-16f2d3419800">Resource Structures</a>
  
 
  

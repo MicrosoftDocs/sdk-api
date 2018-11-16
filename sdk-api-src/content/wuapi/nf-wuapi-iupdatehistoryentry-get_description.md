@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentry_description.htm
 tech.root: Wua_Sdk
 ms.assetid: 355d4623-a84e-4994-ad41-cb4237feeaab
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],Description property, IUpdateHistoryEntry.Description, IUpdateHistoryEntry.get_Description, IUpdateHistoryEntry::Description, IUpdateHistoryEntry::get_Description, get_Description, wua.iupdatehistoryentry_description, wuapi/IUpdateHistoryEntry::Description, wuapi/IUpdateHistoryEntry::get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices

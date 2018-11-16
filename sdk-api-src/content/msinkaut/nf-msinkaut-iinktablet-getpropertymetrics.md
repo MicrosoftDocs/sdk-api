@@ -7,7 +7,7 @@ old-location: tablet\iinktablet_getpropertymetrics.htm
 tech.root: tablet
 ms.assetid: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb, GetPropertyMetrics, GetPropertyMetrics method [Tablet PC], GetPropertyMetrics method [Tablet PC],IInkTablet interface, IInkTablet interface [Tablet PC],GetPropertyMetrics method, IInkTablet.GetPropertyMetrics, IInkTablet::GetPropertyMetrics, msinkaut/IInkTablet::GetPropertyMetrics, tablet.iinktablet_getpropertymetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,9 +70,11 @@ Retrieves the metrics data for a specified property.
 
 
 
-### -param propertyName
+### -param propertyName [in]
 
-TBD
+The property for which you want to determine metrics.
+
+For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 
 
 ### -param Minimum [out]
@@ -93,13 +95,6 @@ The physical units of the property, such as inches or degrees. For a list of pro
 ### -param Resolution [out]
 
 Specifies the resolution or increment value for the <b>units</b> member. For example, a tablet that reports 400 dots per inch (dpi) has a  resolution value of 400.
-
-
-#### - Property [in]
-
-The property for which you want to determine metrics.
-
-For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 
 
 ## -returns

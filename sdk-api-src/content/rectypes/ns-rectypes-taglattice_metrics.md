@@ -7,7 +7,7 @@ old-location: tablet\lattice_metrics.htm
 tech.root: tablet
 ms.assetid: 4fdeaaf9-9026-4bf1-8e78-d03a98d44b32
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.keywords: 4fdeaaf9-9026-4bf1-8e78-d03a98d44b32, LATTICE_METRICS, LATTICE_METRICS structure [Tablet PC], rectypes/LATTICE_METRICS, tablet.lattice_metrics, tagLATTICE_METRICS
 ms.prod: windows-hardware
 ms.technology: windows-devices

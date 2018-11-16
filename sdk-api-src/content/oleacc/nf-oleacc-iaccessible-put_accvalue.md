@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__put_accvalue.htm
 tech.root: WinAuto
 ms.assetid: 0b1e44f4-8d03-47a4-a8c5-5296059e0459
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IAccessible interface [Windows Accessibility],put_accValue method, IAccessible.put_accValue, IAccessible::put_accValue, _msaa_IAccessible_put_accValue, msaa.iaccessible_iaccessible__put_accvalue, oleacc/IAccessible::put_accValue, put_accValue, put_accValue method [Windows Accessibility], put_accValue method [Windows Accessibility],IAccessible interface, winauto.iaccessible_iaccessible__put_accvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,30 +66,18 @@ The <b>IAccessible::put_accValue</b> method sets the value of the specified obje
 
 
 
-### -param varChild
-
-TBD
-
-
-### -param szValue
-
-TBD
-
-
-
-
-#### - pszValue [in]
-
-Type: <b>BSTR</b>
-
-A localized string that contains the object's value.
-
-
-#### - varID [in]
+### -param varChild [in]
 
 Type: <b>VARIANT</b>
 
 Specifies whether the value information being set belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to set information on the object) or a child ID (to set information about the object's child element). For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT structure</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
+
+
+### -param szValue [in]
+
+Type: <b>BSTR</b>
+
+A localized string that contains the object's value.
 
 
 ## -returns

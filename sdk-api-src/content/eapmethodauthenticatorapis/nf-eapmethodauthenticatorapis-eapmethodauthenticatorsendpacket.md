@@ -4,10 +4,10 @@ title: EapMethodAuthenticatorSendPacket function
 author: windows-sdk-content
 description: Obtains an authentication packet from the EAP authenticator method to send to the supplicant.
 old-location: eaphost\eapmethodauthenticatorsendpacket.htm
-tech.root: eaphost
+tech.root: EAPHost
 ms.assetid: 5227ff56-8ac3-4fd7-b6c0-c2d3ef6b906e
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: EapMethodAuthenticatorSendPacket, EapMethodAuthenticatorSendPacket function [EAPHost], eaphost.eapmethodauthenticatorsendpacket, eapmethodauthenticatorapis/EapMethodAuthenticatorSendPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

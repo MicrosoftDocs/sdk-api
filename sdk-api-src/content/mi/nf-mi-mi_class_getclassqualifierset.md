@@ -4,10 +4,10 @@ title: MI_Class_GetClassQualifierSet function
 author: windows-sdk-content
 description: Gets the qualifier set that is associated with the specified class object.
 old-location: wmi_v2\mi_class_getclassqualifierset.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 900ae879-a728-43a9-8dcb-de20a50f8dce
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Class_GetClassQualifierSet, MI_Class_GetClassQualifierSet function [Windows Management Infrastructure (MI)], mi/MI_Class_GetClassQualifierSet, wmi_v2.mi_class_getclassqualifierset
 ms.prod: windows-hardware
 ms.technology: windows-devices

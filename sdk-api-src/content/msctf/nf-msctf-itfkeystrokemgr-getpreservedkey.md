@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_getpreservedkey.htm
 tech.root: TSF
 ms.assetid: d87b3b1c-0e51-4e89-b837-79ed2fe78bbb
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetPreservedKey, GetPreservedKey method [Text Services Framework], GetPreservedKey method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],GetPreservedKey method, ITfKeystrokeMgr.GetPreservedKey, ITfKeystrokeMgr::GetPreservedKey, _tsf_itfkeystrokemgr_getpreservedkey_ref, msctf/ITfKeystrokeMgr::GetPreservedKey, tsf.itfkeystrokemgr_getpreservedkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

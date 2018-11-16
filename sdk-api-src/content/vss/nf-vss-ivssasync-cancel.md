@@ -7,7 +7,7 @@ old-location: base\ivssasync_cancel.htm
 tech.root: VSS
 ms.assetid: 8ab44737-114b-4edc-a097-d0fa297f6276
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Cancel, Cancel method [VSS], Cancel method [VSS],IVssAsync interface, IVssAsync interface [VSS],Cancel method, IVssAsync.Cancel, IVssAsync::Cancel, _win32_ivssasync_cancel, base.ivssasync_cancel, vss/IVssAsync::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

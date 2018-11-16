@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterects.htm
 tech.root: WinRT
 ms.assetid: C23F3F82-FB3B-4893-8C14-FC7D3C61D295
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetUpdateRects, GetUpdateRects method [Windows Runtime], GetUpdateRects method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, IVirtualSurfaceImageSourceNative interface [Windows Runtime],GetUpdateRects method, IVirtualSurfaceImageSourceNative.GetUpdateRects, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::GetUpdateRects, IVirtualSurfaceImageSourceNative::xaml, windows/IVirtualSurfaceImageSourceNative::GetUpdateRects, winrt.ivirtualsurfaceimagesourcenative_getupdaterects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,17 +66,12 @@ Gets the set of regions that must be updated on the shared surface.
 
 
 
-### -param updates
-
-TBD
-
-
-### -param count [in]
+### -param updates [in]
 
 The number of regions that must be updated. You obtain this by calling <a href="https://msdn.microsoft.com/AE717587-0156-4DEC-B7B2-FF8937117D5A">GetUpdateRectCount</a>.
 
 
-#### - pUpdates [out]
+### -param count [out]
 
 Receives a list of regions that must be updated.
 

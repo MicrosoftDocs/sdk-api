@@ -4,10 +4,10 @@ title: "_OCSP_REQUEST_ENTRY"
 author: windows-sdk-content
 description: Contains information about a single certificate in an online certificate status protocol (OCSP) request.
 old-location: security\ocsp_request_entry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 61d5cbc9-22de-4768-b610-138bcd3c9cce
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: "*POCSP_REQUEST_ENTRY, OCSP_REQUEST_ENTRY, OCSP_REQUEST_ENTRY structure [Security], POCSP_REQUEST_ENTRY, POCSP_REQUEST_ENTRY structure pointer [Security], _OCSP_REQUEST_ENTRY, security.ocsp_request_entry, wincrypt/OCSP_REQUEST_ENTRY, wincrypt/POCSP_REQUEST_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

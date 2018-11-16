@@ -7,7 +7,7 @@ old-location: winsync\iclockvectorelement.htm
 tech.root: winsync
 ms.assetid: cae24ef0-5b31-48c2-99bd-9e0954ec3b37
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IClockVectorElement, IClockVectorElement interface [Windows Sync], IClockVectorElement interface [Windows Sync],described, winsync.iclockvectorelement, winsync/IClockVectorElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

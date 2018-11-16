@@ -7,7 +7,7 @@ old-location: coreaudio\immnotificationclient_ondefaultdevicechanged.htm
 tech.root: CoreAudio
 ms.assetid: 3d484e5d-bdc6-41f1-bd94-ab0c9e109222
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDefaultDeviceChanged method, IMMNotificationClient.OnDefaultDeviceChanged, IMMNotificationClient::OnDefaultDeviceChanged, IMMNotificationClientOnDefaultDeviceChanged, OnDefaultDeviceChanged, OnDefaultDeviceChanged method [Core Audio], OnDefaultDeviceChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondefaultdevicechanged, mmdeviceapi/IMMNotificationClient::OnDefaultDeviceChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,14 +91,7 @@ eMultimedia
 eCommunications
 
 
-### -param pwstrDefaultDeviceId
-
-TBD
-
-
-
-
-#### - pwstrDefaultDevice [in]
+### -param pwstrDefaultDeviceId [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/3c955e2d-daaa-4b77-8ca5-890383bb2d39">endpoint ID string</a> that identifies the audio endpoint device. This parameter points to a null-terminated, wide-character string containing the endpoint ID. The string remains valid for the duration of the call. If the user has removed or disabled the default device for a particular role, and no other device is available to assume that role, then <i>pwstrDefaultDevice</i> is <b>NULL</b>.
 

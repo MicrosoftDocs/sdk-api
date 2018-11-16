@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmmutablecollection_clone.htm
 tech.root: Fsrm
 ms.assetid: 8d673a7c-c8c3-409c-881f-58b87bf0809f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Clone, Clone method [File Server Resource Manager], Clone method [File Server Resource Manager],IFsrmMutableCollection interface, IFsrmMutableCollection interface [File Server Resource Manager],Clone method, IFsrmMutableCollection.Clone, IFsrmMutableCollection::Clone, fs.ifsrmmutablecollection_clone, fsrm.ifsrmmutablecollection_clone, fsrm/IFsrmMutableCollection::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

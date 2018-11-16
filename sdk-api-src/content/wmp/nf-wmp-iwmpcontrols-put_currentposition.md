@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_put_currentposition.htm
 tech.root: WMP
 ms.assetid: 7deedeed-8ce9-4fd7-9825-817204a9cb3e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentPosition method, IWMPControls.put_currentPosition, IWMPControls::put_currentPosition, IWMPControlsput_currentPosition, put_currentPosition, put_currentPosition method [Windows Media Player], put_currentPosition method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentposition, wmp/IWMPControls::put_currentPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

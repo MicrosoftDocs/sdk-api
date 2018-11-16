@@ -4,10 +4,10 @@ title: "_MI_Qualifier"
 author: windows-sdk-content
 description: Represents a CIM qualifier.
 old-location: wmi_v2\mi_qualifier.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 4BEBE8AB-90D3-4BBA-A544-7722309160A1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Qualifier, MI_Qualifier structure [Windows Management Infrastructure (MI)], _MI_Qualifier, mi/MI_Qualifier, wmi_v2.mi_qualifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

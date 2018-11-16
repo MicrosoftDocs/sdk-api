@@ -7,7 +7,7 @@ old-location: wininet\internetconfirmzonecrossing.htm
 tech.root: WinInet
 ms.assetid: e14f58df-5457-4a17-919c-6a25691c2ee1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: InternetConfirmZoneCrossing, InternetConfirmZoneCrossing function [WinINet], InternetConfirmZoneCrossingA, InternetConfirmZoneCrossingW, _inet_internetconfirmzonecrossing_function, wininet.internetconfirmzonecrossing, wininet/InternetConfirmZoneCrossing, wininet/InternetConfirmZoneCrossingA, wininet/InternetConfirmZoneCrossingW
 ms.prod: windows-hardware
 ms.technology: windows-devices

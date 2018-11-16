@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::Add
 author: windows-sdk-content
 description: The Add method adds a new persistent tuning space to the system.
 old-location: mstv\ituningspacecontainer_add.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 9c7faab5-48d4-47fa-be8a-7dafce8504a6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],ITuningSpaceContainer interface, ITuningSpaceContainer interface [Microsoft TV Technologies],Add method, ITuningSpaceContainer.Add, ITuningSpaceContainer::Add, ITuningSpaceContainerAdd, mstv.ituningspacecontainer_add, tuner/ITuningSpaceContainer::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,26 +69,14 @@ The <b>Add</b> method adds a new persistent tuning space to the system.
 
 
 
-### -param TuningSpace
-
-TBD
-
-
-### -param NewIndex
-
-TBD
-
-
-
-
-#### - pNewIndex [out]
-
-Pointer to a variable of type <b>VARIANT</b> that receives the ID of the new tuning space within the current collection.
-
-
-#### - pTuningSpace [in]
+### -param TuningSpace [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> interface of the new tuning space
+
+
+### -param NewIndex [out]
+
+Pointer to a variable of type <b>VARIANT</b> that receives the ID of the new tuning space within the current collection.
 
 
 ## -returns

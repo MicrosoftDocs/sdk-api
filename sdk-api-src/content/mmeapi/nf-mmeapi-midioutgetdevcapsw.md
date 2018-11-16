@@ -7,7 +7,7 @@ old-location: multimedia\midioutgetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: 8777a903-fd47-4f3f-b534-1e72a5951846
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: "_win32_midiOutGetDevCaps, midiOutGetDevCaps, midiOutGetDevCaps function [Windows Multimedia], midiOutGetDevCapsA, midiOutGetDevCapsW, mmeapi/midiOutGetDevCaps, mmeapi/midiOutGetDevCapsA, mmeapi/midiOutGetDevCapsW, multimedia.midioutgetdevcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,24 +80,12 @@ This parameter can also be a properly cast device handle.
 
 ### -param pmoc
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/395d5fc2-cf34-48f0-a0b0-185247309e2c">MIDIOUTCAPS</a> structure. This structure is filled with information about the capabilities of the device.
 
 
 ### -param cbmoc
 
-TBD
-
-
-
-
-#### - cbMidiOutCaps
-
 Size, in bytes, of the <a href="https://msdn.microsoft.com/395d5fc2-cf34-48f0-a0b0-185247309e2c">MIDIOUTCAPS</a> structure. Only <i>cbMidiOutCaps</i> bytes (or less) of information is copied to the location pointed to by <i>lpMidiOutCaps</i>. If <i>cbMidiOutCaps</i> is zero, nothing is copied, and the function returns MMSYSERR_NOERROR.
-
-
-#### - lpMidiOutCaps
-
-Pointer to a <a href="https://msdn.microsoft.com/395d5fc2-cf34-48f0-a0b0-185247309e2c">MIDIOUTCAPS</a> structure. This structure is filled with information about the capabilities of the device.
 
 
 ## -returns

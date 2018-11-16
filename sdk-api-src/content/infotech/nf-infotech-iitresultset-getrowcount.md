@@ -7,7 +7,7 @@ old-location: htmlhelp\iitresultset_getrowcount.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetgetrowcount.htm
 ms.author: windowssdkdev
-ms.date: 10/22/2018
+ms.date: 11/15/2018
 ms.keywords: GetRowCount, GetRowCount method [HTML Help Workshop], GetRowCount method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],GetRowCount method, IITResultSet.GetRowCount, IITResultSet::GetRowCount, htmlhelp.iitresultset_getrowcount, infotech/IITResultSet::GetRowCount, refIITResultSetGetRowCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,7 +110,7 @@ The number of rows was successfully retrieved.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670054(v=VS.85).aspx">IITResultSet</a>
+<a href="https://msdn.microsoft.com/e77b1489-a883-4f98-acb0-b998cbe3d46e">IITResultSet</a>
  
 
  

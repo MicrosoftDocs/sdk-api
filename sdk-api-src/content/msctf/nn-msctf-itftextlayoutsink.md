@@ -7,7 +7,7 @@ old-location: tsf\itftextlayoutsink.htm
 tech.root: TSF
 ms.assetid: 370e30a8-6eed-448a-87c7-7fd01e9973c6
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: ITfTextLayoutSink, ITfTextLayoutSink interface [Text Services Framework], ITfTextLayoutSink interface [Text Services Framework],described, _tsf_itftextlayoutsink_ref, msctf/ITfTextLayoutSink, tsf.itftextlayoutsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ TSF does not currently support multiple views; some features of this interface a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

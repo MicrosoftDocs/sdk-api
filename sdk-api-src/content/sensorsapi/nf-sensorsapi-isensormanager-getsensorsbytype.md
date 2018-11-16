@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensormanager_getsensorsbytype.htm
 tech.root: SensorsAPI
 ms.assetid: f383d7e3-bcd0-457d-a410-9ac225f1d147
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetSensorsByType, GetSensorsByType method, GetSensorsByType method,ISensorManager interface, ISensorManager interface,GetSensorsByType method, ISensorManager.GetSensorsByType, ISensorManager::GetSensorsByType, sensorsapi/ISensorManager::GetSensorsByType, winsensors_com_ref.isensormanager_getsensorsbytype
 ms.prod: windows-hardware
 ms.technology: windows-devices

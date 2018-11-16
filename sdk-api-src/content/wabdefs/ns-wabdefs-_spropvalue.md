@@ -7,7 +7,7 @@ old-location: wab\_wab_SPropValue.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropvalue.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPSPropValue, SPropValue, SPropValue structure [Windows Address Book], _SPropValue, _wab_SPropValue, wab._wab_SPropValue, wabdefs/SPropValue"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -159,7 +159,7 @@ PT_STRING8
 
 #### bin
 
-<b>Type: <b><a href="https://msdn.microsoft.com/library/ms528837(v=EXCHG.10).aspx">SBinary</a></b>
+<b>Type: <b><a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a></b>
 </b>
 PT_BINARY
 
@@ -247,7 +247,7 @@ PT_MV_SYSTIME
 
 #### MVbin
 
-<b>Type: <b><a href="https://msdn.microsoft.com/library/ms527367(v=EXCHG.10).aspx">SBinaryArray</a></b>
+<b>Type: <b><a href="31fc6e1b-c2c1-4e74-a760-957a60005d1e">SBinaryArray</a></b>
 </b>
 PT_MV_BINARY
 

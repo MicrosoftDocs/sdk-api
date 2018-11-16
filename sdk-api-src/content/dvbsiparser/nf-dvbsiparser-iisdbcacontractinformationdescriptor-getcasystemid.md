@@ -4,10 +4,10 @@ title: IIsdbCAContractInformationDescriptor::GetCASystemId
 author: windows-sdk-content
 description: Gets the value of the CA_system_id field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field identifies the conditional access system associated with the contract information.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcasystemid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: cb9f55c1-7967-43e4-9cb3-1d7cdf20c70a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetCASystemId, GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCASystemId method, IIsdbCAContractInformationDescriptor.GetCASystemId, IIsdbCAContractInformationDescriptor::GetCASystemId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCASystemId, mstv.iisdbcacontractinformationdescriptor_getcasystemid
 ms.prod: windows-hardware
 ms.technology: windows-devices

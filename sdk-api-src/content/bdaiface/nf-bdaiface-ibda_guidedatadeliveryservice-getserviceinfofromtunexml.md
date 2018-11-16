@@ -4,10 +4,10 @@ title: IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml
 author: windows-sdk-content
 description: Gets service information from an XML tune request.
 old-location: mstv\ibda_guidedatadeliveryservice_getserviceinfofromtunexml.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 8084e4dd-a5d5-48a0-a052-24310a79df78
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: GetServiceInfoFromTuneXml, GetServiceInfoFromTuneXml method [Microsoft TV Technologies], GetServiceInfoFromTuneXml method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServiceInfoFromTuneXml method, IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml, IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, bdaiface/IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, mstv.ibda_guidedatadeliveryservice_getserviceinfofromtunexml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ Gets service information from an XML tune request.
 
 ### -param bstrTuneXml [in]
 
-The XML tune request. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd693373(v=VS.85).aspx">IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx</a> or the section on tuning schemas in Part 1 of the Protected Broadcast Driver Architecture (PBDA) specification, which can be downloaded from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
+The XML tune request. For more information, see <a href="https://msdn.microsoft.com/5f429473-6a48-4298-b8f4-61809604ffbd">IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx</a> or the section on tuning schemas in Part 1 of the Protected Broadcast Driver Architecture (PBDA) specification, which can be downloaded from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
 
 
 ### -param pbstrServiceDescription [out]
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693368(v=VS.85).aspx">IBDA_GuideDataDeliveryService</a>
+<a href="https://msdn.microsoft.com/5329f725-e77e-49c2-87f5-f7204d022adc">IBDA_GuideDataDeliveryService</a>
  
 
  

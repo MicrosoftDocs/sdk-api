@@ -143,7 +143,7 @@ If you call  this function for a file handle whose previous I/O  operation was s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

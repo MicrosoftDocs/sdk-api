@@ -7,7 +7,7 @@ old-location: wcs\getps2colorspacearray.htm
 tech.root: WCS
 ms.assetid: d7e0de11-d5fe-4d3f-bdd0-2c6f7c61a0a9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetPS2ColorSpaceArray, GetPS2ColorSpaceArray function [Windows Color System], _color_GetPS2ColorSpaceArray, icm/GetPS2ColorSpaceArray, wcs.getps2colorspacearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,27 +85,17 @@ Specifies the type of color space array. See <a href="https://msdn.microsoft.com
 
 ### -param pPS2ColorSpaceArray
 
-TBD
+Pointer to a buffer in which the color space array is to be placed. If the <i>pBuffer</i> pointer is set to <b>NULL</b>, the function returns the required size of the buffer in the memory location pointed to by <i>pcbSize</i>.
 
 
 ### -param pcbPS2ColorSpaceArray
 
-TBD
+Pointer to a variable containing the size of the buffer in bytes. On return, it contains the number of bytes copied into the buffer.
 
 
 ### -param pbBinary
 
 Pointer to a Boolean variable. If set to <b>TRUE</b>, the data copied could be binary. If set to <b>FALSE</b>, data should be encoded as ASCII85. On return, the memory location pointed to by <i>pbBinary</i> indicates whether the data returned actually is binary (<b>TRUE</b>) or ASCII85 (<b>FALSE</b>).
-
-
-#### - pBuffer
-
-Pointer to a buffer in which the color space array is to be placed. If the <i>pBuffer</i> pointer is set to <b>NULL</b>, the function returns the required size of the buffer in the memory location pointed to by <i>pcbSize</i>.
-
-
-#### - pcbSize
-
-Pointer to a variable containing the size of the buffer in bytes. On return, it contains the number of bytes copied into the buffer.
 
 
 ## -returns

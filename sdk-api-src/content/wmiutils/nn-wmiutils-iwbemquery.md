@@ -7,7 +7,7 @@ old-location: wmi\iwbemquery.htm
 tech.root: WmiSdk
 ms.assetid: 4a0c0c1d-3d84-491f-8379-d164821fa71b
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: IWbemQuery, IWbemQuery interface [Windows Management Instrumentation], IWbemQuery interface [Windows Management Instrumentation],described, WbemQuery, _hmm_iwbemquery, wmi.iwbemquery, wmiutils/IWbemQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ req.redist:
 
 
 The 
-<b>IWbemQuery</b> interface provides an entry point through which a <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI Query Language</a> (WQL) query can be parsed. For more information about WQL, see <a href="https://msdn.microsoft.com/72a7ec04-9af3-41ae-9189-6e1d46803fa9">WQL (SQL for WMI</a>).
+<b>IWbemQuery</b> interface provides an entry point through which a <a href="gloss_w.htm">WMI Query Language</a> (WQL) query can be parsed. For more information about WQL, see <a href="https://msdn.microsoft.com/72a7ec04-9af3-41ae-9189-6e1d46803fa9">WQL (SQL for WMI</a>).
 
 The following table lists the methods for 
 <b>IWbemQuery</b>.

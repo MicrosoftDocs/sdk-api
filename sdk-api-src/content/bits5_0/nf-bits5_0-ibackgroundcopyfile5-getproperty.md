@@ -91,11 +91,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt147017(v=VS.85).aspx">IBackgroundCopyFile5</a>
+<a href="https://msdn.microsoft.com/548b507a-4874-4ccf-829e-13e1ca6cc958">IBackgroundCopyFile5</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt147020(v=VS.85).aspx">IBackgroundCopyFile5.SetProperty</a>
+<a href="https://msdn.microsoft.com/7a5809ef-e84f-4566-a5fa-fd63b1dfd15c">IBackgroundCopyFile5.SetProperty</a>
  
 
  

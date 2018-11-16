@@ -4,10 +4,10 @@ title: D2D1MakeRotateMatrix function
 author: windows-sdk-content
 description: Creates a rotation transformation that rotates by the specified angle about the specified point.
 old-location: direct2d\d2d1makerotatematrix.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5e066328-5b0f-4e7a-9bf4-df55521fcc2b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.keywords: D2D1MakeRotateMatrix, D2D1MakeRotateMatrix function [Direct2D], d2d1/D2D1MakeRotateMatrix, direct2d.d2d1makerotatematrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,14 +73,14 @@ The clockwise rotation angle, in degrees.
 
 ### -param center [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The point about which to rotate.
 
 
 ### -param matrix [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
 
 When this method returns, contains the new rotation transformation. You must allocate storage for this parameter.  
 

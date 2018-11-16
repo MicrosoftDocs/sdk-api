@@ -7,7 +7,7 @@ old-location: shell\IShellLink_GetShowCmd.htm
 tech.root: shell
 ms.assetid: cbd89c28-86e1-4a2c-b3ea-d934f263b59f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetShowCmd, GetShowCmd method [Windows Shell], GetShowCmd method [Windows Shell],IShellLink interface, GetShowCmd method [Windows Shell],IShellLinkA interface, GetShowCmd method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetShowCmd method, IShellLink::GetShowCmd, IShellLinkA interface [Windows Shell],GetShowCmd method, IShellLinkA.GetShowCmd, IShellLinkA::GetShowCmd, IShellLinkW interface [Windows Shell],GetShowCmd method, IShellLinkW::GetShowCmd, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWNORMAL, _win32_IShellLink_GetShowCmd, shell.IShellLink_GetShowCmd, shobjidl_core/IShellLink::GetShowCmd, shobjidl_core/IShellLinkA::GetShowCmd, shobjidl_core/IShellLinkW::GetShowCmd
 ms.prod: windows-hardware
 ms.technology: windows-devices

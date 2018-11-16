@@ -7,7 +7,7 @@ old-location: winrm\wsmanclosesession.htm
 tech.root: WinRM
 ms.assetid: b7d1ef66-0371-4d30-8053-813b229b2a62
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 11/15/2018
 ms.keywords: WSManCloseSession, WSManCloseSession function [Windows Remote Management], winrm.wsmanclosesession, wsman/WSManCloseSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

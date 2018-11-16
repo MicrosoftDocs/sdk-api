@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanager2_setsystemprofileversion.htm
 tech.root: wmformat
 ms.assetid: cd957f3b-401c-4ab1-9c54-7b4ac895caac
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IWMProfileManager2 interface [windows Media Format],SetSystemProfileVersion method, IWMProfileManager2.SetSystemProfileVersion, IWMProfileManager2::SetSystemProfileVersion, IWMProfileManager2SetSystemProfileVersion, SetSystemProfileVersion, SetSystemProfileVersion method [windows Media Format], SetSystemProfileVersion method [windows Media Format],IWMProfileManager2 interface, wmformat.iwmprofilemanager2_setsystemprofileversion, wmsdkidl/IWMProfileManager2::SetSystemProfileVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

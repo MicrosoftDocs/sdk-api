@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreampalette.htm
 tech.root: medfound
 ms.assetid: 009568EA-7230-42C0-B35F-AB0A1AF8EC2A
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamPalette method, ID3D11VideoContext.VideoProcessorGetStreamPalette, ID3D11VideoContext::VideoProcessorGetStreamPalette, VideoProcessorGetStreamPalette, VideoProcessorGetStreamPalette method [Media Foundation], VideoProcessorGetStreamPalette method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamPalette, mf.id3d11videocontext_videoprocessorgetstreampalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

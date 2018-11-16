@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getnamespaceconnection.htm
 tech.root: WmiSdk
 ms.assetid: abbc7099-400d-47a0-9673-3d102effa897
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: "?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z, ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetNameSpaceConnection method, CWbemProviderGlue.GetNamespaceConnection, CWbemProviderGlue.GetNamespaceConnection(LPCWSTR), CWbemProviderGlue::GetNameSpaceConnection, CWbemProviderGlue::GetNamespaceConnection, CWbemProviderGlue::GetNamespaceConnection(LPCWSTR), GetNameSpaceConnection method [Windows Management Instrumentation], GetNameSpaceConnection method [Windows Management Instrumentation],CWbemProviderGlue interface, GetNamespaceConnection, _hmm_cwbemproviderglue_getnamespaceconnection, wbemglue/CWbemProviderGlue::GetNameSpaceConnection, wmi.cwbemproviderglue_getnamespaceconnection"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,13 +76,6 @@ The <b>GetNameSpaceConnection</b> method is used to retrieve a namespace connect
 
 
 ### -param NameSpace
-
-TBD
-
-
-
-
-#### - namespace
 
 Name of the namespace for which the pointer is returned.
 

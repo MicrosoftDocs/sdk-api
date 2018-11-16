@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager.htm
 tech.root: Fsrm
 ms.assetid: cc504f6c-00d7-4f9d-9688-1c29b5066ce6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], IFsrmClassificationManager interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager, fsrm.ifsrmclassificationmanager, fsrmpipeline/IFsrmClassificationManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,14 @@ Manages file classification. Use this interface to define properties to use in c
     reporting.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmClassificationManager</b> as the class identifier and 
     <code>__uuidof(IFsrmClassificationManager)</code> as the interface identifier.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmClassificationManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmClassificationManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmClassificationManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmClassificationManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -382,7 +382,7 @@ The Office Storage Modules store the classification properties in the Office fil
 
 You can use the classification and storage plugins or you can implement your own classification and storage 
      plugins. Note that the built-in Content Classifier plugin uses the 
-     <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> interface to search the content of the file.
+     <a href="https://msdn.microsoft.com/5fb7219a-608c-43f8-a8e3-48bbf0218c6e">IFilter</a> interface to search the content of the file.
 
 When you run classification, FSRM evaluates a files for any rule that is applicable to that file (and committed 
      to FSRM) and enabled. If reporting is enabled, FSRM also generates the classification reports.

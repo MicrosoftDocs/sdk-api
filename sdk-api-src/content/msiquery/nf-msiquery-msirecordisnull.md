@@ -4,10 +4,10 @@ title: MsiRecordIsNull function
 author: windows-sdk-content
 description: Reports a null record field.
 old-location: setup\msirecordisnull.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: e37a458c-8868-4f8c-96fd-a713d2a9c5ad
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: MsiRecordIsNull, MsiRecordIsNull function, _msi_msirecordisnull, msiquery/MsiRecordIsNull, setup.msirecordisnull
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,7 +99,7 @@ The <i>iField</i> parameter is based on 1 (one).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

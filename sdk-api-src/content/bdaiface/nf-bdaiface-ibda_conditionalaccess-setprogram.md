@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccess::SetProgram
 author: windows-sdk-content
 description: The SetProgram method sets the program number.
 old-location: mstv\ibda_conditionalaccess_setprogram.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d38fc9bc-70e8-419e-b7be-33d1f53a723e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],SetProgram method, IBDA_ConditionalAccess.SetProgram, IBDA_ConditionalAccess::SetProgram, IBDA_ConditionalAccessSetProgram, SetProgram, SetProgram method [Microsoft TV Technologies], SetProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::SetProgram, mstv.ibda_conditionalaccess_setprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,15 +85,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693268(v=VS.85).aspx">AddProgram</a>
+<a href="https://msdn.microsoft.com/7e0e2905-fb7c-4532-be3e-198ca620f894">AddProgram</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://msdn.microsoft.com/93bd3c38-2591-4d36-b296-5ad939487277">IBDA_ConditionalAccess Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693275(v=VS.85).aspx">RemoveProgram</a>
+<a href="https://msdn.microsoft.com/bc0d14e8-f4bc-49fe-b63c-0521f5bb3dbb">RemoveProgram</a>
  
 
  

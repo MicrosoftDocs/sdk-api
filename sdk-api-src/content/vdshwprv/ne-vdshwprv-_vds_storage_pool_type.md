@@ -7,7 +7,7 @@ old-location: base\vds_storage_pool_type.htm
 tech.root: VDS
 ms.assetid: 813d3452-46ad-4f7a-ab53-e3f6577b00ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: VDS_SPT_CONCRETE, VDS_SPT_PRIMORDIAL, VDS_SPT_UNKNOWN, VDS_STORAGE_POOL_TYPE, VDS_STORAGE_POOL_TYPE enumeration, _VDS_STORAGE_POOL_TYPE, base.vds_storage_pool_type, vds/VDS_SPT_CONCRETE, vds/VDS_SPT_PRIMORDIAL, vds/VDS_SPT_UNKNOWN, vds/VDS_STORAGE_POOL_TYPE, vdshwprv/VDS_SPT_CONCRETE, vdshwprv/VDS_SPT_PRIMORDIAL, vdshwprv/VDS_SPT_UNKNOWN, vdshwprv/VDS_STORAGE_POOL_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.redist:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
 
-Defines the set of <a href="https://msdn.microsoft.com/a6104742-3ef9-4570-9728-3e6580953117">storage pool</a> types. These values are used in the <a href="https://msdn.microsoft.com/en-us/library/Dd405631(v=VS.85).aspx">type</a> member of the <b>VDS_STORAGE_POOL_PROP</b> structure.
+Defines the set of <a href="https://msdn.microsoft.com/a6104742-3ef9-4570-9728-3e6580953117">storage pool</a> types. These values are used in the <a href="vds_storage_pool_prop.htm">type</a> member of the <b>VDS_STORAGE_POOL_PROP</b> structure.
 
 
 ## -enum-fields

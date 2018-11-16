@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createpackage.htm
 tech.root: printdocs
 ms.assetid: c9319997-6c8f-4e2c-9401-ad269e3db8c8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: CreatePackage, CreatePackage method [XPS Documents and Packaging], CreatePackage method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackage method, IXpsOMObjectFactory.CreatePackage, IXpsOMObjectFactory::CreatePackage, xps.ixpsomobjectfactory_createpackage, xpsobjectmodel/IXpsOMObjectFactory::CreatePackage
 ms.prod: windows-hardware
 ms.technology: windows-devices

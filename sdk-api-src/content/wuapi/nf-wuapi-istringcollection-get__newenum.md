@@ -7,7 +7,7 @@ old-location: wua\istringcollection__newenum.htm
 tech.root: Wua_Sdk
 ms.assetid: b131b276-4254-4a08-8121-3a86e28d08cb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],_NewEnum property, IStringCollection._NewEnum, IStringCollection.get__NewEnum, IStringCollection::_NewEnum, IStringCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IStringCollection interface, get__NewEnum, wua.istringcollection__newenum, wuapi/IStringCollection::_NewEnum, wuapi/IStringCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

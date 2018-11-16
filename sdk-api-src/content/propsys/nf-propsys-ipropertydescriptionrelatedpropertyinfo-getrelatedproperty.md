@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionRelatedPropertyInfo_GetRelatedPrope
 tech.root: properties
 ms.assetid: 735880dc-4cf2-4f4a-b9fc-f4dddd19415d
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: GetRelatedProperty, GetRelatedProperty method [Windows Properties], GetRelatedProperty method [Windows Properties],IPropertyDescriptionRelatedPropertyInfo interface, IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties],GetRelatedProperty method, IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty, IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, _shell_IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, properties.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, propsys/IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, shell.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ req.redist:
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> object that represents the related property.
+Retrieves an <a href="shell.IPropertyDescription">IPropertyDescription</a> object that represents the related property.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ A reference to the IID of the interface to retrieve through the <i>ppv</i> param
 
 Type: <b>void**</b>
 
-Receives the interface pointer requested in the parameter. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>.
+Receives the interface pointer requested in the parameter. This is typically <a href="shell.IPropertyDescription">IPropertyDescription</a>.
 
 
 ## -returns
@@ -112,7 +112,7 @@ We recommend that you use the <a href="https://msdn.microsoft.com/268B59FA-44EB-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd378276(v=VS.85).aspx">IPropertyDescriptionRelatedPropertyInfo</a>
+<a href="shell.IPropertyDescriptionRelatedPropertyInfo">IPropertyDescriptionRelatedPropertyInfo</a>
 
 
 

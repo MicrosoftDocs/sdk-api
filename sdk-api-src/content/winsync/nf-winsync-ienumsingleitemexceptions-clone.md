@@ -7,7 +7,7 @@ old-location: winsync\ienumsingleitemexceptions_clone.htm
 tech.root: winsync
 ms.assetid: 89a02939-e761-450e-9479-29e19a872da6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSingleItemExceptions interface, IEnumSingleItemExceptions interface [Windows Sync],Clone method, IEnumSingleItemExceptions.Clone, IEnumSingleItemExceptions::Clone, winsync.ienumsingleitemexceptions_clone, winsync/IEnumSingleItemExceptions::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DocumentMode
 author: windows-sdk-content
 description: The DocumentMode enumeration is used by the Document.Mode property and specifies how the document is opened. This enumeration applies to the MMC 2.0 Automation Object Model.
 old-location: mmc\documentmode.htm
-tech.root: mmc
+tech.root: MMC
 ms.assetid: 62a215e1-a993-4994-a1b1-86a8c320758d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/15/2018
 ms.keywords: "*PDOCUMENTMODE, DOCUMENTMODE, DocumentMode, DocumentMode enumeration [MMC], DocumentMode_Author, DocumentMode_User, DocumentMode_User_MDI, DocumentMode_User_SDI, PDOCUMENTMODE, PDOCUMENTMODE enumeration pointer [MMC], PPDOCUMENTMODE, PPDOCUMENTMODE enumeration pointer [MMC], _DocumentMode, _DocumentMode enumeration [MMC], _slate_documentmode, mmc.documentmode, mmcobj/DocumentMode, mmcobj/DocumentMode_Author, mmcobj/DocumentMode_User, mmcobj/DocumentMode_User_MDI, mmcobj/DocumentMode_User_SDI, mmcobj/PDOCUMENTMODE, mmcobj/PPDOCUMENTMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
