@@ -149,7 +149,7 @@ The following example draws an image.
 </table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing a previously-rectangular image that is now sheared to a parallelogram" src="images/drawimage1.png"/>
+<img alt="Illustration showing a previously-rectangular image that is now sheared to a parallelogram" src="./images/drawimage1.png"/>
 
 <div class="code"></div>
 

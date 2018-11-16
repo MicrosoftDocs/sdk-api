@@ -90,7 +90,7 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 The new 3D matrix transform has the identity matrix as its value. The identity matrix is the 4-by-4 matrix with ones on the main diagonal and zeros elsewhere, as shown in the following illustration. 
 
-<img alt="Four-by-four identity matrix" src="images/identity_4x4matrix.png"/>
+<img alt="Four-by-four identity matrix" src="./images/identity_4x4matrix.png"/>
 
 When an identity transform is applied to an object, it does not change the position, shape, or size of the object. It is similar to the way that multiplying a number by one does not change the number. Any transform other than the identity transform will modify the position, shape, and/or size of objects.
 

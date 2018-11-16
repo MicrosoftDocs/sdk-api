@@ -121,7 +121,7 @@ The textAlignment argument is invalid.
 
 The text can be aligned to the leading or trailing edge of the layout box, or it can be centered.  The following illustration shows text with the alignment set to <a href="https://msdn.microsoft.com/76b347f8-185b-4da6-9647-4d066334ac12">DWRITE_TEXT_ALIGNMENT_LEADING</a>, <b>DWRITE_TEXT_ALIGNMENT_CENTER</b>, and <b>DWRITE_TEXT_ALIGNMENT_TRAILING</b>, respectively.  
 
-<img alt="Illustration of text paragraphs with leading, centered, and trailing alignment" src="images/TextAlignment.png"/>
+<img alt="Illustration of text paragraphs with leading, centered, and trailing alignment" src="./images/TextAlignment.png"/>
 
 <div class="alert"><b>Note</b>  The alignment is dependent on reading direction, the above is for left-to-right reading direction.  For right-to-left reading direction it would be the opposite.</div>
 <div> </div>

@@ -144,7 +144,7 @@ The following example draws the source image, the rectangle that bounds the resi
 </table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing two versions of the same image; the second is slightly narrower than the first, much shorter, and outlined in red" src="images/drawimage6.png"/>
+<img alt="Illustration showing two versions of the same image; the second is slightly narrower than the first, much shorter, and outlined in red" src="./images/drawimage6.png"/>
 
 <div class="code"></div>
 

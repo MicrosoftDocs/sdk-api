@@ -106,7 +106,7 @@ Do not call <b>ChangeClusterResourceGroup</b>
     in the following diagram, changing resource B to group 2 will move the entire dependency tree (resources A, X, and 
     Y) .
 
-<img alt="" border="0" src="images/resmove.png"/>
+<img alt="" border="0" src="./images/resmove.png"/>
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
     can have additional destructive effects. For information on how LPC and RPC handles are created, see 
     <a href="https://msdn.microsoft.com/709effda-5ff1-439e-805a-9169ca63c182">Using Object Handles</a> and 

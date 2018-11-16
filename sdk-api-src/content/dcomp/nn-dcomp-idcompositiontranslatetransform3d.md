@@ -102,7 +102,7 @@ The <b>IDCompositionTranslateTransform3D</b> interface has these methods.
 A 3D translation transform represents the following 4-by-4 matrix:
       
 
-<img alt="Four-by-four translation matrix" src="images/3D_translate_transform_4x4matrix.png"/>
+<img alt="Four-by-four translation matrix" src="./images/3D_translate_transform_4x4matrix.png"/>
 
 The effect is to offset the blending position of the visual's subtree by <i>x</i>, <i>y</i>, and <i>z</i>.
 

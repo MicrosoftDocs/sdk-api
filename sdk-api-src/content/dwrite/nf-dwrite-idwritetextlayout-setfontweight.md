@@ -99,7 +99,7 @@ The font weight can be set to one of the predefined font weight values provided 
 
 The following illustration shows an example of Normal and UltraBold weights for the Palatino Linotype typeface.
 
-<img alt='Illustration of the letter "W" in Normal and UltraBold weights' src="images/FontWeight_for_Palatino.png"/>
+<img alt='Illustration of the letter "W" in Normal and UltraBold weights' src="./images/FontWeight_for_Palatino.png"/>
 
 #### Examples
 
