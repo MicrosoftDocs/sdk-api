@@ -2,7 +2,7 @@
 UID: NA:networkisolation
 ms.assetid: 55e73823-3246-3e0a-a178-a0f2a351565c
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

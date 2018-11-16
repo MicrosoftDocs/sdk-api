@@ -2,7 +2,7 @@
 UID: NA:fsrmscreen
 ms.assetid: 960299c2-00ff-3190-8e77-dd3aeca5fbf1
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

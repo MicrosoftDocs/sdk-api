@@ -2,7 +2,7 @@
 UID: NA:d3dcommon
 ms.assetid: 74c800d7-df10-3e74-b39e-d36d7acd05ef
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

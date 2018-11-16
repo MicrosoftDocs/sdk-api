@@ -2,7 +2,7 @@
 UID: TP:sysmon
 ms.assetid: e50315b4-2438-36a1-bfa1-0741ed7a8d77
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
