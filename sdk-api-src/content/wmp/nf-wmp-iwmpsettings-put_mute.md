@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_put_mute.htm
 tech.root: WMP
 ms.assetid: 644f9a4d-54e4-4e8a-8c02-29feb57c9256
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_mute method, IWMPSettings.put_mute, IWMPSettings::put_mute, IWMPSettingsput_mute, put_mute, put_mute method [Windows Media Player], put_mute method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_mute, wmp/IWMPSettings::put_mute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmp.h
-: 
-- IWMPSettings.put_mute
-: 
 ---
 
 # IWMPSettings::put_mute

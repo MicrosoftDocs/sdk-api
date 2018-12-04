@@ -7,7 +7,7 @@ old-location: cos\icominstance2events.htm
 tech.root: cossdk
 ms.assetid: 2fb2904d-7069-4303-bb3c-2caef9499c1e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IComInstance2Events, IComInstance2Events interface [COM+], IComInstance2Events interface [COM+],described, _dtc_icominstance2events, comsvcs/IComInstance2Events, cos.icominstance2events
 ms.prod: windows-hardware
 ms.technology: windows-devices

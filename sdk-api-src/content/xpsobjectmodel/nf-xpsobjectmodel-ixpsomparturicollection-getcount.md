@@ -7,7 +7,7 @@ old-location: xps\ixpsomparturicollection_getcount.htm
 tech.root: printdocs
 ms.assetid: fa716168-4584-4622-bfdf-7b022ff202c6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, IXpsOMPartUriCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMPartUriCollection.GetCount, IXpsOMPartUriCollection::GetCount, xps.ixpsomparturicollection_getcount, xpsobjectmodel/IXpsOMPartUriCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMPartUriCollection.GetCount
-: 
 ---
 
 # IXpsOMPartUriCollection::GetCount

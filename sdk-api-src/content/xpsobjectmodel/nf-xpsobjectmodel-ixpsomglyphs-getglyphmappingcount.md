@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getglyphmappingcount.htm
 tech.root: printdocs
 ms.assetid: 6c580aaf-72ed-4eff-b26e-8438d64f29e2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetGlyphMappingCount, GetGlyphMappingCount method [XPS Documents and Packaging], GetGlyphMappingCount method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphMappingCount method, IXpsOMGlyphs.GetGlyphMappingCount, IXpsOMGlyphs::GetGlyphMappingCount, xps.ixpsomglyphs_getglyphmappingcount, xpsobjectmodel/IXpsOMGlyphs::GetGlyphMappingCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMGlyphs.GetGlyphMappingCount
-: 
 ---
 
 # IXpsOMGlyphs::GetGlyphMappingCount

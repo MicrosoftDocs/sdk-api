@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IATSCComponentType.get_Flags
-: 
 ---
 
 # IATSCComponentType::get_Flags

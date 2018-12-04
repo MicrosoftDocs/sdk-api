@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarBstrFromI4
-: 
 ---
 
 # VarBstrFromI4 function

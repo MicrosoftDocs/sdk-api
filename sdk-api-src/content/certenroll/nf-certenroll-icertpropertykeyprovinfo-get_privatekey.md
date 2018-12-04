@@ -4,10 +4,10 @@ title: ICertPropertyKeyProvInfo::get_PrivateKey
 author: windows-sdk-content
 description: Retrieves the private key associated with the certificate.
 old-location: security\icertpropertykeyprovinfo_privatekey_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 24cc6dea-fb29-4533-8f6c-3f273c5b94c3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICertPropertyKeyProvInfo interface [Security],PrivateKey property, ICertPropertyKeyProvInfo.PrivateKey, ICertPropertyKeyProvInfo.get_PrivateKey, ICertPropertyKeyProvInfo::PrivateKey, ICertPropertyKeyProvInfo::get_PrivateKey, PrivateKey property [Security], PrivateKey property [Security],ICertPropertyKeyProvInfo interface, certenroll/ICertPropertyKeyProvInfo::PrivateKey, certenroll/ICertPropertyKeyProvInfo::get_PrivateKey, get_PrivateKey, security.icertpropertykeyprovinfo_privatekey_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICertPropertyKeyProvInfo.get_PrivateKey
-: 
 ---
 
 # ICertPropertyKeyProvInfo::get_PrivateKey
@@ -71,7 +63,7 @@ This property is read-only.
 
 
 
- Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375731(v=VS.85).aspx">Initialize</a> method to create a description.
+ Call the <a href="https://msdn.microsoft.com/bc317b7b-c4d8-480b-9de7-3324e30898b8">Initialize</a> method to create a description.
 
 
 
@@ -81,11 +73,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375725(v=VS.85).aspx">ICertPropertyKeyProvInfo</a>
+<a href="https://msdn.microsoft.com/1c35c2f0-8e79-4031-bae2-2be081f3c8dd">ICertPropertyKeyProvInfo</a>
  
 
  

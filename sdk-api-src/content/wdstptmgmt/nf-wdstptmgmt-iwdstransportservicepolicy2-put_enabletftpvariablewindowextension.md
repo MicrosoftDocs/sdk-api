@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportServicePolicy2.put_EnableTftpVariableWindowExtension
-: 
 ---
 
 # IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension

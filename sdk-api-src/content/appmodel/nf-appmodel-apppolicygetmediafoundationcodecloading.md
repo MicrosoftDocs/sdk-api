@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetmediafoundationcodecloading.htm
 tech.root: appxpkg
 ms.assetid: 59231147-0505-4353-AADE-D81701ECBAD5
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: AppPolicyGetMediaFoundationCodecLoading, AppPolicyGetMediaFoundationCodecLoading function [App packaging and management], appmodel/AppPolicyGetMediaFoundationCodecLoading, appxpkg.apppolicygetmediafoundationcodecloading
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AppPolicyGetMediaFoundationCodecLoading
-: 
 ---
 
 # AppPolicyGetMediaFoundationCodecLoading function

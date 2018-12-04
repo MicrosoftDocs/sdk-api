@@ -7,7 +7,7 @@ old-location: com\oleuichangesource.htm
 tech.root: com
 ms.assetid: 53ff17aa-3135-462e-885d-3bfbb74ed1c5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: OleUIChangeSource, OleUIChangeSource function [COM], OleUIChangeSourceA, OleUIChangeSourceW, _ole_OleUIChangeSource, com.oleuichangesource, oledlg/OleUIChangeSource, oledlg/OleUIChangeSourceA, oledlg/OleUIChangeSourceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OleUIChangeSourceA
-: 
 ---
 
 # OleUIChangeSourceA function

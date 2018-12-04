@@ -7,7 +7,7 @@ old-location: shell\IntPtrSub.htm
 tech.root: shell
 ms.assetid: ad30f236-7412-401f-b6a9-76b74118092d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IntPtrSub, IntPtrSub function [Windows Shell], intsafe/IntPtrSub, shell.IntPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IntPtrSub
-: 
 ---
 
 # IntPtrSub function

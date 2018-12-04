@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sensevts.h
-: 
-- ISensLogon2.Logon
-: 
 ---
 
 # ISensLogon2::Logon

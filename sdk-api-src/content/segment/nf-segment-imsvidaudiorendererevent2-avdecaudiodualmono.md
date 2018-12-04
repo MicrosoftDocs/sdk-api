@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidAudioRendererEvent2.AVDecAudioDualMono
-: 
 ---
 
 # IMSVidAudioRendererEvent2::AVDecAudioDualMono

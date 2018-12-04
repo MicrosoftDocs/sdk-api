@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiGetSelectedDriverA
-: 
 ---
 
 # SetupDiGetSelectedDriverA function
@@ -67,7 +61,7 @@ The <b>SetupDiGetSelectedDriver</b> function retrieves the selected driver for a
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for which to retrieve a selected driver.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to retrieve a selected driver.
 
 
 ### -param DeviceInfoData [in, optional]

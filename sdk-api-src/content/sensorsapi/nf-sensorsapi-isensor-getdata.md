@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_getdata.htm
 tech.root: SensorsAPI
 ms.assetid: 89145856-96c7-48c2-988c-b410ab20aed4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetData, GetData method, GetData method,ISensor interface, ISensor interface,GetData method, ISensor.GetData, ISensor::GetData, sensorsapi/ISensor::GetData, winsensors_com_ref.isensor_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sensorsapi.h
-: 
-- ISensor.GetData
-: 
 ---
 
 # ISensor::GetData

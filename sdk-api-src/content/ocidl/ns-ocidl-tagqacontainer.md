@@ -7,7 +7,7 @@ old-location: com\qacontainer.htm
 tech.root: com
 ms.assetid: 8f3975eb-7cd2-449f-92cc-2b8773d9f37e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: QACONTAINER, QACONTAINER structure [COM], _ctrl_QACONTAINER, com.qacontainer, ocidl/QACONTAINER, tagQACONTAINER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,7 +125,7 @@ Specifies Palette, an ambient property supplied by the container with a DISPID =
 
 ### -field pBindHost
 
-A pointer to an <a href="https://msdn.microsoft.com/library/ms775076(v=VS.85).aspx">IBindHost</a> interface in the container.
+A pointer to an <a href="_inet_IBindHost_Interface_cpp">IBindHost</a> interface in the container.
 
 
 ### -field pOleControlSite
@@ -135,7 +135,7 @@ A pointer to the <a href="https://msdn.microsoft.com/8b022f2c-d4b4-44ca-8e69-46e
 
 ### -field pServiceProvider
 
-A pointer to the <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a> interface in the container.
+A pointer to the <a href="_inet_IServiceProvider_Interface_cpp">IServiceProvider</a> interface in the container.
 
 
 ## -remarks

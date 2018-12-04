@@ -7,7 +7,7 @@ old-location: shell\ILIsEmpty.htm
 tech.root: shell
 ms.assetid: bb727aad-9c4e-44dc-9c0c-4cbcbf3f9a78
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ILIsEmpty, ILIsEmpty function [Windows Shell], _shell_ILIsEmpty, shell.ILIsEmpty, shlobj_core/ILIsEmpty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ILIsEmpty
-: 
 ---
 
 # ILIsEmpty function

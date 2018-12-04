@@ -4,10 +4,10 @@ title: ResUtilSetQwordValue function
 author: windows-sdk-content
 description: TBD. The PRESUTIL_SET_QWORD_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetqwordvalue.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: c4bb777f-07dd-4eff-a39c-6de48e12b61e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PRESUTIL_SET_QWORD_VALUE, PRESUTIL_SET_QWORD_VALUE function [Failover Cluster], ResUtilSetQwordValue, ResUtilSetQwordValue function [Failover Cluster], mscs.resutilsetqwordvalue, resapi/PRESUTIL_SET_QWORD_VALUE, resapi/ResUtilSetQwordValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResUtilSetQwordValue
-: 
 ---
 
 # ResUtilSetQwordValue function

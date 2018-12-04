@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession::GetDesktopSharedRect
 author: windows-sdk-content
 description: Retrieves the current desktop region being shared.
 old-location: rdp\irdpsrapisharingsession_getdesktopsharedrect.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 2b224fa2-928d-4222-80a6-91f654b97ae1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetDesktopSharedRect, GetDesktopSharedRect method [RDP], GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession interface, GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession.GetDesktopSharedRect, IRDPSRAPISharingSession2 interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession2::GetDesktopSharedRect, IRDPSRAPISharingSession::GetDesktopSharedRect, rdp.irdpsrapisharingsession_getdesktopsharedrect, rdpencomapi/IRDPSRAPISharingSession2::GetDesktopSharedRect, rdpencomapi/IRDPSRAPISharingSession::GetDesktopSharedRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPISharingSession.GetDesktopSharedRect
-: 
 ---
 
 # IRDPSRAPISharingSession::GetDesktopSharedRect

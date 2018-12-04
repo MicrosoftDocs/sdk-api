@@ -4,10 +4,10 @@ title: Edit_Enable macro
 author: windows-sdk-content
 description: Enables or disables an edit control.
 old-location: controls\Edit_Enable.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_enable.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Edit_Enable, Edit_Enable macro [Windows Controls], _win32_Edit_Enable, _win32_Edit_Enable_cpp, controls.Edit_Enable, controls._win32_Edit_Enable, windowsx/Edit_Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- windowsx.h
-: 
-- Edit_Enable
-: 
 ---
 
 # Edit_Enable macro

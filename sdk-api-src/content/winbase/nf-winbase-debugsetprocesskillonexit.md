@@ -4,10 +4,10 @@ title: DebugSetProcessKillOnExit function
 author: windows-sdk-content
 description: Sets the action to be performed when the calling thread exits.
 old-location: base\debugsetprocesskillonexit.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 7ef44527-bde4-41f0-a470-d3f404c77ea9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DebugSetProcessKillOnExit, DebugSetProcessKillOnExit function, _win32_debugsetprocesskillonexit, base.debugsetprocesskillonexit, winbase/DebugSetProcessKillOnExit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DebugSetProcessKillOnExit
-: 
 ---
 
 # DebugSetProcessKillOnExit function

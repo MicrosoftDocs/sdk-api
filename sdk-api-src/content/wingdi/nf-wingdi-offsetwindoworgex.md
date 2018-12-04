@@ -7,7 +7,7 @@ old-location: gdi\offsetwindoworgex.htm
 tech.root: gdi
 ms.assetid: 085f40ac-d91f-4853-8ad1-1fc5da08b981
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: OffsetWindowOrgEx, OffsetWindowOrgEx function [Windows GDI], _win32_OffsetWindowOrgEx, gdi.offsetwindoworgex, wingdi/OffsetWindowOrgEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OffsetWindowOrgEx
-: 
 ---
 
 # OffsetWindowOrgEx function

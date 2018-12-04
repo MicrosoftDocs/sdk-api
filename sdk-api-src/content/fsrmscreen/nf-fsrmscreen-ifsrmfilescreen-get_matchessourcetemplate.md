@@ -4,10 +4,10 @@ title: IFsrmFileScreen::get_MatchesSourceTemplate
 author: windows-sdk-content
 description: Retrieves a value that determines whether the property values of this file screen object match those values of the template from which the object was derived.
 old-location: fsrm\ifsrmfilescreen_matchessourcetemplate.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 9ea79d7e-2f81-46c4-8afe-ebe4e2f3c49f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],MatchesSourceTemplate property, IFsrmFileScreen.MatchesSourceTemplate, IFsrmFileScreen.get_MatchesSourceTemplate, IFsrmFileScreen::MatchesSourceTemplate, IFsrmFileScreen::get_MatchesSourceTemplate, MatchesSourceTemplate property [File Server Resource Manager], MatchesSourceTemplate property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_matchessourcetemplate, fsrm.ifsrmfilescreen_matchessourcetemplate, fsrmscreen/IFsrmFileScreen::MatchesSourceTemplate, fsrmscreen/IFsrmFileScreen::get_MatchesSourceTemplate, get_MatchesSourceTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmscreen.h
-: 
-- IFsrmFileScreen.get_MatchesSourceTemplate
-: 
 ---
 
 # IFsrmFileScreen::get_MatchesSourceTemplate

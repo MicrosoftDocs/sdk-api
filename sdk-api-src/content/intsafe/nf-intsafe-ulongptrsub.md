@@ -7,7 +7,7 @@ old-location: shell\ULongPtrSub.htm
 tech.root: shell
 ms.assetid: 29cc4dec-e02d-4ce4-a615-9b62bd08befb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ULongPtrSub, ULongPtrSub function [Windows Shell], _shell_ULongPtrSub, intsafe/ULongPtrSub, shell.ULongPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ULongPtrSub
-: 
 ---
 
 # ULongPtrSub function

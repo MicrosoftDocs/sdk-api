@@ -7,7 +7,7 @@ old-location: wmformat\iwmpropertyvault.htm
 tech.root: wmformat
 ms.assetid: 0e51a9be-afd4-430b-8339-f45e8f9a7d20
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMPropertyVault, IWMPropertyVault interface [windows Media Format], IWMPropertyVault interface [windows Media Format],described, IWMPropertyVaultInterface, wmformat.iwmpropertyvault, wmsdkidl/IWMPropertyVault
 ms.prod: windows-hardware
 ms.technology: windows-devices

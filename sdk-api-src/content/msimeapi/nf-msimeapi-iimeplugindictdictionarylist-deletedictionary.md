@@ -7,7 +7,7 @@ old-location: intl\iimeplugindictdictionarylist_deletedictionary.htm
 tech.root: Intl
 ms.assetid: 38A17092-E545-4018-9D16-2C0406234D62
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: DeleteDictionary, DeleteDictionary method [Internationalization for Windows Applications], DeleteDictionary method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],DeleteDictionary method, IImePlugInDictDictionaryList.DeleteDictionary, IImePlugInDictDictionaryList::DeleteDictionary, intl.iimeplugindictdictionarylist_deletedictionary, msimeapi/IImePlugInDictDictionaryList::DeleteDictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msimeapi.h
-: 
-- IImePlugInDictDictionaryList.DeleteDictionary
-: 
 ---
 
 # IImePlugInDictDictionaryList::DeleteDictionary

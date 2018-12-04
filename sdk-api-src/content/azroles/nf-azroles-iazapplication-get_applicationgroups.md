@@ -4,10 +4,10 @@ title: IAzApplication::get_ApplicationGroups
 author: windows-sdk-content
 description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
 old-location: security\iazapplication_applicationgroups.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 163d07cc-ce45-4e41-b9f2-79c7d360b899
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ApplicationGroups property [Security], ApplicationGroups property [Security],AzApplication object, ApplicationGroups property [Security],IAzApplication interface, AzApplication object [Security],ApplicationGroups property, IAzApplication interface [Security],ApplicationGroups property, IAzApplication.ApplicationGroups, IAzApplication.get_ApplicationGroups, IAzApplication::ApplicationGroups, IAzApplication::get_ApplicationGroups, azroles/IAzApplication::ApplicationGroups, azroles/IAzApplication::get_ApplicationGroups, get_ApplicationGroups, security.iazapplication_applicationgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzApplication.get_ApplicationGroups
-: 
 ---
 
 # IAzApplication::get_ApplicationGroups

@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetTapeParameters
-: 
 ---
 
 # SetTapeParameters function
@@ -68,7 +62,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device for which to set configuration information. This handle is created by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
 
 ### -param dwOperation [in]

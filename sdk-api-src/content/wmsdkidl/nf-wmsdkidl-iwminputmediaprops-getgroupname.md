@@ -7,7 +7,7 @@ old-location: wmformat\iwminputmediaprops_getgroupname.htm
 tech.root: wmformat
 ms.assetid: 795cd065-62f1-4346-b2ff-f77ec4306d64
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetGroupName, GetGroupName method [windows Media Format], GetGroupName method [windows Media Format],IWMInputMediaProps interface, IWMInputMediaProps interface [windows Media Format],GetGroupName method, IWMInputMediaProps.GetGroupName, IWMInputMediaProps::GetGroupName, IWMInputMediaPropsGetGroupName, wmformat.iwminputmediaprops_getgroupname, wmsdkidl/IWMInputMediaProps::GetGroupName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmsdkidl.h
-: 
-- IWMInputMediaProps.GetGroupName
-: 
 ---
 
 # IWMInputMediaProps::GetGroupName

@@ -4,10 +4,10 @@ title: "_KERB_INTERACTIVE_UNLOCK_LOGON"
 author: windows-sdk-content
 description: Contains information used to unlock a workstation that has been locked during an interactive logon session.
 old-location: security\kerb_interactive_unlock_logon.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 211d89e9-36a6-4177-8eea-d01eca320718
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PKERB_INTERACTIVE_UNLOCK_LOGON, KERB_INTERACTIVE_UNLOCK_LOGON, KERB_INTERACTIVE_UNLOCK_LOGON structure [Security], PKERB_INTERACTIVE_UNLOCK_LOGON, PKERB_INTERACTIVE_UNLOCK_LOGON structure pointer [Security], _KERB_INTERACTIVE_UNLOCK_LOGON, ntsecapi/KERB_INTERACTIVE_UNLOCK_LOGON, ntsecapi/PKERB_INTERACTIVE_UNLOCK_LOGON, security.kerb_interactive_unlock_logon"
 ms.prod: windows-hardware
 ms.technology: windows-devices

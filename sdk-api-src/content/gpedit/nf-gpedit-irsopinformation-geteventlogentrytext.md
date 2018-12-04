@@ -4,10 +4,10 @@ title: IRSOPInformation::GetEventLogEntryText
 author: windows-sdk-content
 description: The GetEventLogEntryText method returns the text for a specific entry in the event log.
 old-location: policy\irsopinformation_geteventlogentrytext.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: ee408c0a-437e-4caa-90b7-9717d43e1452
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetEventLogEntryText, GetEventLogEntryText method [Group Policy], GetEventLogEntryText method [Group Policy],IRSOPInformation interface, IRSOPInformation interface [Group Policy],GetEventLogEntryText method, IRSOPInformation.GetEventLogEntryText, IRSOPInformation::GetEventLogEntryText, _win32_irsopinformation_geteventlogentrytext, gpedit/IRSOPInformation::GetEventLogEntryText, policy.irsopinformation_geteventlogentrytext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpedit.h
-: 
-- IRSOPInformation.GetEventLogEntryText
-: 
 ---
 
 # IRSOPInformation::GetEventLogEntryText

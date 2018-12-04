@@ -4,10 +4,10 @@ title: "_MINIDUMP_MEMORY_DESCRIPTOR64"
 author: windows-sdk-content
 description: Describes a range of memory.
 old-location: base\minidump_memory_descriptor_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 34c6de99-8ba5-4199-a382-3e3f7d02571f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*PMINIDUMP_MEMORY_DESCRIPTOR64, MINIDUMP_MEMORY_DESCRIPTOR, MINIDUMP_MEMORY_DESCRIPTOR structure, MINIDUMP_MEMORY_DESCRIPTOR64, PMINIDUMP_MEMORY_DESCRIPTOR, PMINIDUMP_MEMORY_DESCRIPTOR structure pointer, _MINIDUMP_MEMORY_DESCRIPTOR, _MINIDUMP_MEMORY_DESCRIPTOR64, _win32_minidump_memory_descriptor_str, base.minidump_memory_descriptor_str, minidumpapiset/MINIDUMP_MEMORY_DESCRIPTOR, minidumpapiset/PMINIDUMP_MEMORY_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

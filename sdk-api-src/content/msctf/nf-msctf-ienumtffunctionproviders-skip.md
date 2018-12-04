@@ -7,7 +7,7 @@ old-location: tsf\ienumtffunctionproviders_skip.htm
 tech.root: TSF
 ms.assetid: fb529c7c-c4fa-4dc7-a648-847ecefacf60
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumTfFunctionProviders interface [Text Services Framework],Skip method, IEnumTfFunctionProviders.Skip, IEnumTfFunctionProviders::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfFunctionProviders interface, _tsf_ienumtffunctionproviders_skip_ref, msctf/IEnumTfFunctionProviders::Skip, tsf.ienumtffunctionproviders_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- IEnumTfFunctionProviders.Skip
-: 
 ---
 
 # IEnumTfFunctionProviders::Skip

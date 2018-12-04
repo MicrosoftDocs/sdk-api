@@ -7,7 +7,7 @@ old-location: dshow\dmoenum.htm
 tech.root: DirectShow
 ms.assetid: 2cb69d28-15be-44fb-a180-98b560848c08
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DMOEnum, DMOEnum function [DirectShow], dmoreg/DMOEnum, dshow.dmoenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DMOEnum
-: 
 ---
 
 # DMOEnum function

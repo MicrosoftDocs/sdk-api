@@ -7,7 +7,7 @@ old-location: display\engassociatesurface.htm
 tech.root: display
 ms.assetid: 8cb6d4bf-67bd-4bfb-9605-eeb954fc590c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EngAssociateSurface, EngAssociateSurface function [Display Devices], display.engassociatesurface, gdifncs_6be89779-b79a-4620-b740-d702945464c5.xml, winddi/EngAssociateSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngAssociateSurface
-: 
 ---
 
 # EngAssociateSurface function

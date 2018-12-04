@@ -7,7 +7,7 @@ old-location: com\imoniker_bindtostorage.htm
 tech.root: com
 ms.assetid: 94c8219f-8131-45dd-b350-878ffd6161ea
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: BindToStorage, BindToStorage method [COM], BindToStorage method [COM],IMoniker interface, IMoniker interface [COM],BindToStorage method, IMoniker.BindToStorage, IMoniker::BindToStorage, _com_imoniker_bindtostorage, com.imoniker_bindtostorage, objidl/IMoniker::BindToStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- IMoniker.BindToStorage
-: 
 ---
 
 # IMoniker::BindToStorage
@@ -251,15 +243,15 @@ Because the URL moniker supports asynchronous binding, the actual return value o
 
 <ul>
 <li>
-The URL moniker pulls further information for the bind operation from the bind context. For example, the moniker can obtain pointers to the <a href="https://msdn.microsoft.com/library/ms775060(v=VS.85).aspx">IBindStatusCallback</a> and <a href="https://msdn.microsoft.com/4d180fdd-2d58-4d26-9242-6552dda0d3e6">IEnumFORMATETC</a> interfaces that are registered in the bind context. Further information can include additional bind options specified on the bind context through <a href="https://msdn.microsoft.com/9dcce48e-567e-42b4-8df2-2bc861cb5fcb">IBindCtx::SetBindOptions</a>, such as the <i>dwTickCountDeadline</i> parameter or the <i>grfFlags</i> value of BIND_MAYBOTHERUSER. The moniker then queries the client by calling <a href="https://msdn.microsoft.com/library/ms775058(v=VS.85).aspx">IBindStatusCallback::GetBindInfo</a> and initiates the bind operation with the transport and passes the resulting IBinding to the client by calling <a href="https://msdn.microsoft.com/library/ms775065(v=VS.85).aspx">IBindStatusCallback::OnStartBinding</a>.
+The URL moniker pulls further information for the bind operation from the bind context. For example, the moniker can obtain pointers to the <a href="_inet_IBindStatusCallback_Interface">IBindStatusCallback</a> and <a href="https://msdn.microsoft.com/4d180fdd-2d58-4d26-9242-6552dda0d3e6">IEnumFORMATETC</a> interfaces that are registered in the bind context. Further information can include additional bind options specified on the bind context through <a href="https://msdn.microsoft.com/9dcce48e-567e-42b4-8df2-2bc861cb5fcb">IBindCtx::SetBindOptions</a>, such as the <i>dwTickCountDeadline</i> parameter or the <i>grfFlags</i> value of BIND_MAYBOTHERUSER. The moniker then queries the client by calling <a href="_inet_IBindStatusCallback_GetBindInfo_Method">IBindStatusCallback::GetBindInfo</a> and initiates the bind operation with the transport and passes the resulting IBinding to the client by calling <a href="_inet_IBindStatusCallback_OnStartBinding_Method">IBindStatusCallback::OnStartBinding</a>.
 
 </li>
 <li>
-If the caller requested an asynchronous <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> or <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> by specifying the BINDF_ASYNCSTORAGE flag in the <a href="https://msdn.microsoft.com/library/ms774966(v=VS.85).aspx">BINDINFO</a> structure retrieved from the <a href="https://msdn.microsoft.com/library/ms775058(v=VS.85).aspx">IBindStatusCallback::GetBindInfo</a>, method the URL moniker returns the object as soon as possible. Calls to these <b>IStorage</b> or <b>IStream</b> objects that reference data not yet available return E_PENDING.
+If the caller requested an asynchronous <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> or <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> by specifying the BINDF_ASYNCSTORAGE flag in the <a href="_inet_BINDINFO_Structure">BINDINFO</a> structure retrieved from the <a href="_inet_IBindStatusCallback_GetBindInfo_Method">IBindStatusCallback::GetBindInfo</a>, method the URL moniker returns the object as soon as possible. Calls to these <b>IStorage</b> or <b>IStream</b> objects that reference data not yet available return E_PENDING.
 
 </li>
 <li>
-If the caller does not specify asynchronous <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> or <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> as described above, the URL moniker will still return an object through the <a href="https://msdn.microsoft.com/library/ms775061(v=VS.85).aspx">IBindStatusCallback::OnDataAvailable</a> method as soon as possible. However, calls to these objects that reference data not yet available will block until the data becomes available. For some applications, this will require the least modification of their existing I/O code yet may still result in improved performance depending on their access patterns.
+If the caller does not specify asynchronous <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> or <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> as described above, the URL moniker will still return an object through the <a href="_inet_IBindStatusCallback_OnDataAvailable_Method">IBindStatusCallback::OnDataAvailable</a> method as soon as possible. However, calls to these objects that reference data not yet available will block until the data becomes available. For some applications, this will require the least modification of their existing I/O code yet may still result in improved performance depending on their access patterns.
 
 </li>
 </ul>

@@ -4,10 +4,10 @@ title: IFhTarget
 author: windows-sdk-content
 description: The IFhTarget interface allows client applications to read numeric and string properties of a File History backup target.
 old-location: winprog\ifhtarget.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 5A73A81A-72A3-4794-86E5-9CA8FCA200C0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IFhTarget, IFhTarget interface [Windows API], IFhTarget interface [Windows API],described, fhcfg/IFhTarget, winprog.ifhtarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

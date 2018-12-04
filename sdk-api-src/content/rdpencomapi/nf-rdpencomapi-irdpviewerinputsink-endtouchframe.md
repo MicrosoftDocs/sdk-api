@@ -4,10 +4,10 @@ title: IRDPViewerInputSink::EndTouchFrame
 author: windows-sdk-content
 description: Stops to accept a series of touch inputs.
 old-location: rdp\irdpviewerinputsink_endtouchframe.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 31E84AEB-7A89-4EF1-9744-3102AAEA2C1E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EndTouchFrame, EndTouchFrame method [RDP], EndTouchFrame method [RDP],IRDPViewerInputSink interface, IRDPViewerInputSink interface [RDP],EndTouchFrame method, IRDPViewerInputSink.EndTouchFrame, IRDPViewerInputSink::EndTouchFrame, rdp.irdpviewerinputsink_endtouchframe, rdpencomapi/IRDPViewerInputSink::EndTouchFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPViewerInputSink.EndTouchFrame
-: 
 ---
 
 # IRDPViewerInputSink::EndTouchFrame

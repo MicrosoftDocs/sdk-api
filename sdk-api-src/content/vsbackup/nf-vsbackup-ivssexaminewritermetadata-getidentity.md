@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::GetIdentity
 author: windows-sdk-content
 description: The GetIdentity method obtains basic information about a specific writer instance.
 old-location: base\ivssexaminewritermetadata_getidentity.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 55240ef2-f480-4917-98f9-e88a2e23edea
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetIdentity, GetIdentity method [VSS], GetIdentity method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetIdentity method, IVssExamineWriterMetadata.GetIdentity, IVssExamineWriterMetadata::GetIdentity, _win32_ivssexaminewritermetadata_getidentity, base.ivssexaminewritermetadata_getidentity, vsbackup/IVssExamineWriterMetadata::GetIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsbackup.h
-: 
-- IVssExamineWriterMetadata.GetIdentity
-: 
 ---
 
 # IVssExamineWriterMetadata::GetIdentity
@@ -175,7 +167,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller must free the memory held by the <i>pbstrWriterName</i> parameter by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the memory held by the <i>pbstrWriterName</i> parameter by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 An 
 <a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> interface might be from stored writer state information (created by a call to 

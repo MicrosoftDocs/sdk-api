@@ -4,10 +4,10 @@ title: "_EVENT_MAP_ENTRY"
 author: windows-sdk-content
 description: Defines a single value map entry.
 old-location: etw\event_map_entry_struct.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: e5b12f7a-4a00-41a0-90df-7d1317d63a4a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PEVENT_MAP_ENTRY, EVENT_MAP_ENTRY, EVENT_MAP_ENTRY structure [ETW], EVENT_MAP_ENTRY,*PEVENT_MAP_ENTRY, EVENT_MAP_ENTRY,*PEVENT_MAP_ENTRY structure [ETW], _EVENT_MAP_ENTRY, etw.event_map_entry_struct, tdh.event_map_entry_struct, tdh/EVENT_MAP_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

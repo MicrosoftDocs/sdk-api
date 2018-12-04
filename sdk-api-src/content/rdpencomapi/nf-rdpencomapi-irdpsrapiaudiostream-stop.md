@@ -4,10 +4,10 @@ title: IRDPSRAPIAudioStream::Stop
 author: windows-sdk-content
 description: Stops the audio stream.
 old-location: rdp\irdpsrapiaudiostream_stop.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: D2F6264D-3855-4AF8-B295-59D51B90FD94
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRDPSRAPIAudioStream interface [RDP],Stop method, IRDPSRAPIAudioStream.Stop, IRDPSRAPIAudioStream::Stop, Stop, Stop method [RDP], Stop method [RDP],IRDPSRAPIAudioStream interface, rdp.irdpsrapiaudiostream_stop, rdpencomapi/IRDPSRAPIAudioStream::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIAudioStream.Stop
-: 
 ---
 
 # IRDPSRAPIAudioStream::Stop

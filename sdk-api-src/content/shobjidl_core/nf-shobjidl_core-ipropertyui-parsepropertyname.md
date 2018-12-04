@@ -7,7 +7,7 @@ old-location: properties\IPropertyUI_ParsePropertyName.htm
 tech.root: properties
 ms.assetid: CCD8C646-B259-4445-AEA0-AD7364FE8DEF
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IPropertyUI interface [Windows Properties],ParsePropertyName method, IPropertyUI.ParsePropertyName, IPropertyUI::ParsePropertyName, ParsePropertyName, ParsePropertyName method [Windows Properties], ParsePropertyName method [Windows Properties],IPropertyUI interface, _shell_IPropertyUI_ParsePropertyName, properties.IPropertyUI_ParsePropertyName, shell.IPropertyUI_ParsePropertyName, shobjidl_core/IPropertyUI::ParsePropertyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IPropertyUI.ParsePropertyName
-: 
 ---
 
 # IPropertyUI::ParsePropertyName
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Reads the characters of the specified property name and identifies the FMTID and PROPID of the property.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Reads the characters of the specified property name and identifies the FMTID and PROPID of the property.
 
 
 ## -parameters

@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportServer.DisconnectClient
-: 
 ---
 
 # IWdsTransportServer::DisconnectClient

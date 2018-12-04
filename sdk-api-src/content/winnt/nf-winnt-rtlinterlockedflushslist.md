@@ -4,10 +4,10 @@ title: RtlInterlockedFlushSList function
 author: windows-sdk-content
 description: Removes all items from a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlinterlockedflushslist.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: bc5f28d8-c976-4614-9136-99887c617023
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: RtlInterlockedFlushSList, RtlInterlockedFlushSList function, base.rtlinterlockedflushslist, winnt/RtlInterlockedFlushSList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtlInterlockedFlushSList
-: 
 ---
 
 # RtlInterlockedFlushSList function

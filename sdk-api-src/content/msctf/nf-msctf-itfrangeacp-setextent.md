@@ -7,7 +7,7 @@ old-location: tsf\itfrangeacp_setextent.htm
 tech.root: TSF
 ms.assetid: 7b409ba8-dce6-4b42-8cfe-f159de1cad2c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfRangeACP interface [Text Services Framework],SetExtent method, ITfRangeACP.SetExtent, ITfRangeACP::SetExtent, SetExtent, SetExtent method [Text Services Framework], SetExtent method [Text Services Framework],ITfRangeACP interface, _tsf_itfrangeacp_setextent_ref, msctf/ITfRangeACP::SetExtent, tsf.itfrangeacp_setextent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfRangeACP.SetExtent
-: 
 ---
 
 # ITfRangeACP::SetExtent

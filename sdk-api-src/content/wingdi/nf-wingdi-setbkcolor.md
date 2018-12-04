@@ -7,7 +7,7 @@ old-location: gdi\setbkcolor.htm
 tech.root: gdi
 ms.assetid: 9163370b-19c5-4c23-9197-793e4b8d50c4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SetBkColor, SetBkColor function [Windows GDI], _win32_SetBkColor, gdi.setbkcolor, wingdi/SetBkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetBkColor
-: 
 ---
 
 # SetBkColor function
@@ -101,7 +95,7 @@ If the background mode is OPAQUE, the background color is used to fill gaps betw
 
 #### Examples
 
-For an example, see "Example of Owner-Drawn Menu Items" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Example of Owner-Drawn Menu Items" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

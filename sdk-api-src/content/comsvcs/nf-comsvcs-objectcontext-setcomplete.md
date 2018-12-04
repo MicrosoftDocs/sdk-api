@@ -7,7 +7,7 @@ old-location: cos\objectcontext_setcomplete.htm
 tech.root: cossdk
 ms.assetid: 3bf3bbc2-9b4f-4dba-89ef-62c58640710b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ObjectContext interface [COM+],SetComplete method, ObjectContext.SetComplete, ObjectContext::SetComplete, SetComplete, SetComplete method [COM+], SetComplete method [COM+],ObjectContext interface, _cos_ObjectContext_SetComplete, comsvcs/ObjectContext::SetComplete, cos.objectcontext_setcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- ObjectContext.SetComplete
-: 
 ---
 
 # ObjectContext::SetComplete

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionsurfacefactory_createsurface.htm
 tech.root: directcomp
 ms.assetid: C65CD072-C00E-409B-B508-C12CE4ACE73F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurface method [DirectComposition],IDCompositionSurfaceFactory interface, IDCompositionSurfaceFactory interface [DirectComposition],CreateSurface method, IDCompositionSurfaceFactory.CreateSurface, IDCompositionSurfaceFactory::CreateSurface, dcomp/IDCompositionSurfaceFactory::CreateSurface, directcomp.idcompositionsurfacefactory_createsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionSurfaceFactory.CreateSurface
-: 
 ---
 
 # IDCompositionSurfaceFactory::CreateSurface

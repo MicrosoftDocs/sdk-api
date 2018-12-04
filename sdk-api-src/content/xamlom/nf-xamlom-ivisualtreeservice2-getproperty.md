@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice2_getproperty.htm
 tech.root: xaml_diagnostics
 ms.assetid: 6FC5A7CF-A5EF-48B1-8DCD-4885BAFA0055
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetProperty, GetProperty method, GetProperty method,IVisualTreeService2 interface, IVisualTreeService2 interface,GetProperty method, IVisualTreeService2.GetProperty, IVisualTreeService2::GetProperty, xaml_diagnostics.ivisualtreeservice2_getproperty, xamlom/IVisualTreeService2::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xamlom.h
-: 
-- IVisualTreeService2.GetProperty
-: 
 ---
 
 # IVisualTreeService2::GetProperty

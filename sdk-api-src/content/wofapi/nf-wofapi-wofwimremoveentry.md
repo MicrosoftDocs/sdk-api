@@ -7,7 +7,7 @@ old-location: fs\wofwimremoveentry.htm
 tech.root: fileio
 ms.assetid: B376EDF7-8C46-4C8B-900E-0DC79699EC1E
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: WofWimRemoveEntry, WofWimRemoveEntry function [Files], fs.wofwimremoveentry, wofapi/WofWimRemoveEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WofWimRemoveEntry
-: 
 ---
 
 # WofWimRemoveEntry function

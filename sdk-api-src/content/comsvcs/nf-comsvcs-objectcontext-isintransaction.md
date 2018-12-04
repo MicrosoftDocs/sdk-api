@@ -7,7 +7,7 @@ old-location: cos\objectcontext_isintransaction.htm
 tech.root: cossdk
 ms.assetid: 843fa973-2c54-4026-8dd9-4ca949b3a894
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],ObjectContext interface, ObjectContext interface [COM+],IsInTransaction method, ObjectContext.IsInTransaction, ObjectContext::IsInTransaction, _cos_ObjectContext_IsInTransaction, comsvcs/ObjectContext::IsInTransaction, cos.objectcontext_isintransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- ObjectContext.IsInTransaction
-: 
 ---
 
 # ObjectContext::IsInTransaction

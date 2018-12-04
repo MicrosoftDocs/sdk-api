@@ -7,7 +7,7 @@ old-location: com\ieventpublisher_ownersid.htm
 tech.root: com
 ms.assetid: 7555992f-ba50-4d3e-afa8-6304fec8b5c5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IEventPublisher interface [COM],OwnerSID property, IEventPublisher.OwnerSID, IEventPublisher.get_OwnerSID, IEventPublisher::OwnerSID, IEventPublisher::get_OwnerSID, IEventPublisher::put_OwnerSID, OwnerSID property [COM], OwnerSID property [COM],IEventPublisher interface, _com_ieventpublisher_ownersid, com.ieventpublisher_ownersid, eventsys/IEventPublisher::OwnerSID, eventsys/IEventPublisher::get_OwnerSID, eventsys/IEventPublisher::put_OwnerSID, get_OwnerSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- eventsys.h
-: 
-- IEventPublisher.get_OwnerSID
-: 
 ---
 
 # IEventPublisher::get_OwnerSID

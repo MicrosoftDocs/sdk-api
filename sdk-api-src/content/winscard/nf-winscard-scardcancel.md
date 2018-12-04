@@ -4,10 +4,10 @@ title: SCardCancel function
 author: windows-sdk-content
 description: Terminates all outstanding actions within a specific resource manager context.
 old-location: security\scardcancel.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: abf3b4ff-4775-40e9-b68d-97dcf6a892ba
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SCardCancel, SCardCancel function [Security], _smart_scardcancel, security.scardcancel, winscard/SCardCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SCardCancel
-: 
 ---
 
 # SCardCancel function
@@ -104,7 +98,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

@@ -4,10 +4,10 @@ title: NdrComplexStructUnmarshall function
 author: windows-sdk-content
 description: The NdrComplexStructUnmarshall function unmarshals the complex structure from the network buffer to memory.
 old-location: winprog\ndrcomplexstructunmarshall.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: a29d685e-df89-4ffd-95e1-d265a8e7b7a2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: NdrComplexStructUnmarshall, NdrComplexStructUnmarshall function [Windows API], rpcndr/NdrComplexStructUnmarshall, winprog.ndrcomplexstructunmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NdrComplexStructUnmarshall
-: 
 ---
 
 # NdrComplexStructUnmarshall function

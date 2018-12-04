@@ -7,7 +7,7 @@ old-location: mbn\imbnsignal_getsignalstrength.htm
 tech.root: mbn
 ms.assetid: 9a580232-4cd2-42f4-a6c7-f777d78241b6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetSignalStrength, GetSignalStrength method [Microsoft Broadband Networks], GetSignalStrength method [Microsoft Broadband Networks],IMbnSignal interface, IMbnSignal interface [Microsoft Broadband Networks],GetSignalStrength method, IMbnSignal.GetSignalStrength, IMbnSignal::GetSignalStrength, mbn.imbnsignal_getsignalstrength, mbnapi/IMbnSignal::GetSignalStrength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnSignal.GetSignalStrength
-: 
 ---
 
 # IMbnSignal::GetSignalStrength

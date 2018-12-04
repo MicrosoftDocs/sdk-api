@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetUserObjectInformationA
-: 
 ---
 
 # SetUserObjectInformationA function
@@ -101,13 +95,13 @@ Sets the object's handle flags. The <i>pvInfo</i> parameter must point to a
 </dl>
 </td>
 <td width="60%">
-Sets the exception handling behavior when calling <a href="https://msdn.microsoft.com/en-us/library/ms644907(v=VS.85).aspx">TimerProc</a>.
+Sets the exception handling behavior when calling <a href="https://msdn.microsoft.com/5c36a8b5-90c7-466d-b832-e28539e6d64e">TimerProc</a>.
  <i>hObj</i> must be the process handle returned by the <a href="https://msdn.microsoft.com/0471790c-3bb9-4180-8676-941e655b1812">GetCurrentProcess</a> function.
  
 
-The <i>pvInfo</i> parameter must point to a BOOL.  If TRUE, Windows will enclose its calls to <a href="https://msdn.microsoft.com/en-us/library/ms644907(v=VS.85).aspx">TimerProc</a> with an exception handler that consumes and discards all exceptions. This has been the default behavior since Windows 2000, although that may change in future versions of Windows.  
+The <i>pvInfo</i> parameter must point to a BOOL.  If TRUE, Windows will enclose its calls to <a href="https://msdn.microsoft.com/5c36a8b5-90c7-466d-b832-e28539e6d64e">TimerProc</a> with an exception handler that consumes and discards all exceptions. This has been the default behavior since Windows 2000, although that may change in future versions of Windows.  
 
-If <i>pvInfo</i>  points to FALSE, Windows will not enclose its calls to <a href="https://msdn.microsoft.com/en-us/library/ms644907(v=VS.85).aspx">TimerProc</a> with an exception handler. A setting of FALSE is recommended.  Otherwise, the application could behave unpredictably, and could be more vulnerable to security exploits.
+If <i>pvInfo</i>  points to FALSE, Windows will not enclose its calls to <a href="https://msdn.microsoft.com/5c36a8b5-90c7-466d-b832-e28539e6d64e">TimerProc</a> with an exception handler. A setting of FALSE is recommended.  Otherwise, the application could behave unpredictably, and could be more vulnerable to security exploits.
 
 </td>
 </tr>

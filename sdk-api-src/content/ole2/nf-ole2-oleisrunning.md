@@ -7,7 +7,7 @@ old-location: com\oleisrunning.htm
 tech.root: com
 ms.assetid: 9392666f-c269-4667-aeac-67c68bcc5f06
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: OleIsRunning, OleIsRunning function [COM], _ole_OleIsRunning, com.oleisrunning, ole2/OleIsRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OleIsRunning
-: 
 ---
 
 # OleIsRunning function

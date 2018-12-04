@@ -4,10 +4,10 @@ title: IFsrmPropertyBag::get_SizeAllocated
 author: windows-sdk-content
 description: The allocation size of the file.
 old-location: fsrm\ifsrmpropertybag_sizeallocated.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: d1ec946b-2769-4e0d-b01c-08ef6032df16
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],SizeAllocated property, IFsrmPropertyBag.SizeAllocated, IFsrmPropertyBag.get_SizeAllocated, IFsrmPropertyBag::SizeAllocated, IFsrmPropertyBag::get_SizeAllocated, SizeAllocated property [File Server Resource Manager], SizeAllocated property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_sizeallocated, fsrm.ifsrmpropertybag_sizeallocated, fsrmpipeline/IFsrmPropertyBag::SizeAllocated, fsrmpipeline/IFsrmPropertyBag::get_SizeAllocated, get_SizeAllocated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmpipeline.h
-: 
-- IFsrmPropertyBag.get_SizeAllocated
-: 
 ---
 
 # IFsrmPropertyBag::get_SizeAllocated

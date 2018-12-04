@@ -4,10 +4,10 @@ title: EapHostPeerGetResponseAttributes function
 author: windows-sdk-content
 description: Obtains an array of EAP authentication attributes from EAPHost.
 old-location: eaphost\eaphostpeergetresponseattributes.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 84df4877-9ac9-4ab5-a357-276880051ff0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EapHostPeerGetResponseAttributes, EapHostPeerGetResponseAttributes function [EAPHost], eaphost.eaphostpeergetresponseattributes, eappapis/EapHostPeerGetResponseAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapHostPeerGetResponseAttributes
-: 
 ---
 
 # EapHostPeerGetResponseAttributes function

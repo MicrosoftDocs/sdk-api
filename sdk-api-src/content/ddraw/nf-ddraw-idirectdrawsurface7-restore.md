@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ddraw.h
-: 
-- IDirectDrawSurface7.Restore
-: 
 ---
 
 # IDirectDrawSurface7::Restore

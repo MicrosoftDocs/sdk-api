@@ -7,7 +7,7 @@ old-location: ad\dsgetdcnext.htm
 tech.root: ad
 ms.assetid: 2906772f-4391-411b-b0a9-5a20ebb6c0ee
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: DsGetDcNext, DsGetDcNext function [Active Directory], DsGetDcNextA, DsGetDcNextW, ad.dsgetdcnext, dsgetdc/DsGetDcNext, dsgetdc/DsGetDcNextA, dsgetdc/DsGetDcNextW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DsGetDcNextA
-: 
 ---
 
 # DsGetDcNextA function

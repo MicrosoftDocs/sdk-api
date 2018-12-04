@@ -4,10 +4,10 @@ title: IImageList::Add
 author: windows-sdk-content
 description: Adds an image or images to an image list.
 old-location: controls\IImageList_Add.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\add.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Add, Add method [Windows Controls], Add method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Add method, IImageList.Add, IImageList::Add, comctl_IImageList_Add, comctl_IImageList_Add_cpp, commoncontrols/IImageList::Add, controls.IImageList_Add, controls.comctl_IImageList_Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- commoncontrols.h
-: 
-- IImageList.Add
-: 
 ---
 
 # IImageList::Add
@@ -104,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <b>IImageList::Add</b> copies the bitmap to an internal data structure. You must use the <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> function to delete <i>hbmImage</i> and <i>hbmMask</i> after the method returns.
 
-To use <b>IImageList::Add</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
+To use <b>IImageList::Add</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.
 
 
 

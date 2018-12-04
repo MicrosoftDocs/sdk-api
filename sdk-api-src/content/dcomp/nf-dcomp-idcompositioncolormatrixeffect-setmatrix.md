@@ -7,7 +7,7 @@ old-location: directcomp\idcompositioncolormatrixeffect_setmatrix.htm
 tech.root: directcomp
 ms.assetid: 1EE0C9B6-6309-40A3-AE80-A47C45BBA536
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetMatrix method, IDCompositionColorMatrixEffect.SetMatrix, IDCompositionColorMatrixEffect::SetMatrix, SetMatrix, SetMatrix method [DirectComposition], SetMatrix method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetMatrix, directcomp.idcompositioncolormatrixeffect_setmatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionColorMatrixEffect.SetMatrix
-: 
 ---
 
 # IDCompositionColorMatrixEffect::SetMatrix
@@ -73,7 +65,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/c6f57691-1530-e57a-c1b4-b68b4
 The matrix used by the effect to multiply the RGBA values of the image. The matrix is column major and is applied as shown in the following equation:
           
 
-<img alt="Matrix equation" src="./images/color_matrix_formula.png"/>
+<img alt="Matrix equation" src="images/color_matrix_formula.png"/>
 
 ## -returns
 

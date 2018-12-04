@@ -7,7 +7,7 @@ old-location: shell\ISearchFolderItemFactory_SetVisibleColumns.htm
 tech.root: shell
 ms.assetid: be18218e-a117-4256-936e-3a5eb36c3654
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetVisibleColumns method, ISearchFolderItemFactory.SetVisibleColumns, ISearchFolderItemFactory::SetVisibleColumns, SetVisibleColumns, SetVisibleColumns method [Windows Shell], SetVisibleColumns method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetVisibleColumns, shell.ISearchFolderItemFactory_SetVisibleColumns, shobjidl_core/ISearchFolderItemFactory::SetVisibleColumns
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- ISearchFolderItemFactory.SetVisibleColumns
-: 
 ---
 
 # ISearchFolderItemFactory::SetVisibleColumns

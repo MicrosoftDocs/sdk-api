@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetCurrentPage.htm
 tech.root: shell
 ms.assetid: 75489f7f-1ec5-471c-bc45-c8f480b0fa99
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [Windows Shell], GetCurrentPage method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetCurrentPage method, IShellImageData.GetCurrentPage, IShellImageData::GetCurrentPage, _shell_IShellImageData_GetCurrentPage, shell.IShellImageData_GetCurrentPage, shimgdata/IShellImageData::GetCurrentPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shimgdata.h
-: 
-- IShellImageData.GetCurrentPage
-: 
 ---
 
 # IShellImageData::GetCurrentPage

@@ -7,7 +7,7 @@ old-location: winauto\setwineventhook.htm
 tech.root: WinAuto
 ms.assetid: 090bda1b-0635-4aa3-ae33-3987b36e30b8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SetWinEventHook, SetWinEventHook function [Windows Accessibility], WINEVENT_INCONTEXT, WINEVENT_OUTOFCONTEXT, WINEVENT_SKIPOWNPROCESS, WINEVENT_SKIPOWNTHREAD, _msaa_SetWinEventHook, msaa.setwineventhook, winauto.setwineventhook, winuser/SetWinEventHook
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
-- apiref
-: 
-- 
-: 
-- SetWinEventHook
-: 
 ---
 
 # SetWinEventHook function

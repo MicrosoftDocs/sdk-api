@@ -4,10 +4,10 @@ title: IEffectivePermission::GetEffectivePermission
 author: windows-sdk-content
 description: Returns the effective permission for an object type.
 old-location: security\ieffectivepermission_geteffectivepermission.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: fef2dfe0-3c56-4502-9e8d-900aea84318b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetEffectivePermission, GetEffectivePermission method [Security], GetEffectivePermission method [Security],IEffectivePermission interface, IEffectivePermission interface [Security],GetEffectivePermission method, IEffectivePermission.GetEffectivePermission, IEffectivePermission::GetEffectivePermission, aclui/IEffectivePermission::GetEffectivePermission, security.ieffectivepermission_geteffectivepermission
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- aclui.h
-: 
-- IEffectivePermission.GetEffectivePermission
-: 
 ---
 
 # IEffectivePermission::GetEffectivePermission
@@ -90,18 +82,22 @@ A pointer to a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e8
 
 A pointer to a pointer to an <a href="https://msdn.microsoft.com/c729ff1a-65f3-4f6f-84dd-5700aead75ce">OBJECT_TYPE_LIST</a> structure that represents the array of object types in the object tree for the object. If an object does not support property access, use the following technique to specify the value for the <b>OBJECT_TYPE_LIST</b>.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 OBJECT_TYPE_LIST g_DefaultOTL[] = {
- {0, 0, (LPGUID)&GUID_NULL},
+ {0, 0, (LPGUID)&amp;GUID_NULL},
 };
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param pcObjectTypeListLength [out]
 

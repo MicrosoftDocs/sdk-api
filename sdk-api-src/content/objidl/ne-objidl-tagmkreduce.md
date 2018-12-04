@@ -7,7 +7,7 @@ old-location: com\mkrreduce.htm
 tech.root: com
 ms.assetid: ab918d0f-18f2-4ab0-805f-aa228c0d6a82
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: MKRREDUCE, MKRREDUCE enumeration [COM], MKRREDUCE_ALL, MKRREDUCE_ONE, MKRREDUCE_THROUGHUSER, MKRREDUCE_TOUSER, _com_MKRREDUCE, com.mkrreduce, objidl/MKRREDUCE, objidl/MKRREDUCE_ALL, objidl/MKRREDUCE_ONE, objidl/MKRREDUCE_THROUGHUSER, objidl/MKRREDUCE_TOUSER, tagMKREDUCE
 ms.prod: windows-hardware
 ms.technology: windows-devices

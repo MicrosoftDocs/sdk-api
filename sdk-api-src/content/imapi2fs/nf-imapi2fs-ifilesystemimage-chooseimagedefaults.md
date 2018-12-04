@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_chooseimagedefaults.htm
 tech.root: imapi
 ms.assetid: 9211b8af-9331-4d0d-a6f5-f52f8db42e8c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ChooseImageDefaults, ChooseImageDefaults method [IMAPI], ChooseImageDefaults method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],ChooseImageDefaults method, IFileSystemImage.ChooseImageDefaults, IFileSystemImage::ChooseImageDefaults, imapi.ifilesystemimage_chooseimagedefaults, imapi2fs/IFileSystemImage::ChooseImageDefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2fs.h
-: 
-- IFileSystemImage.ChooseImageDefaults
-: 
 ---
 
 # IFileSystemImage::ChooseImageDefaults

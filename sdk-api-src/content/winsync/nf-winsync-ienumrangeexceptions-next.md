@@ -7,7 +7,7 @@ old-location: winsync\ienumrangeexceptions_next.htm
 tech.root: winsync
 ms.assetid: 0ca472d7-4e97-4998-b883-05329dfdb27a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Next method, IEnumRangeExceptions.Next, IEnumRangeExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_next, winsync/IEnumRangeExceptions::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- IEnumRangeExceptions.Next
-: 
 ---
 
 # IEnumRangeExceptions::Next

@@ -7,7 +7,7 @@ old-location: winsync\irecoverableerror_getchangewithrecoverableerror.htm
 tech.root: winsync
 ms.assetid: c7ddc479-1428-43d9-9a26-4166cf4eec3d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetChangeWithRecoverableError, GetChangeWithRecoverableError method [Windows Sync], GetChangeWithRecoverableError method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetChangeWithRecoverableError method, IRecoverableError.GetChangeWithRecoverableError, IRecoverableError::GetChangeWithRecoverableError, winsync.irecoverableerror_getchangewithrecoverableerror, winsync/IRecoverableError::GetChangeWithRecoverableError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- IRecoverableError.GetChangeWithRecoverableError
-: 
 ---
 
 # IRecoverableError::GetChangeWithRecoverableError

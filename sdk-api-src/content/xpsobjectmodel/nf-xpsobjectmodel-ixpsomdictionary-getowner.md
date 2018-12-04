@@ -7,7 +7,7 @@ old-location: xps\ixpsomdictionary_getowner.htm
 tech.root: printdocs
 ms.assetid: 3570ad03-2b68-4294-b236-86bd372876a2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetOwner method, IXpsOMDictionary.GetOwner, IXpsOMDictionary::GetOwner, xps.ixpsomdictionary_getowner, xpsobjectmodel/IXpsOMDictionary::GetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMDictionary.GetOwner
-: 
 ---
 
 # IXpsOMDictionary::GetOwner

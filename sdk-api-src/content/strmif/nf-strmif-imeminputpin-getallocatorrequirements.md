@@ -7,7 +7,7 @@ old-location: dshow\imeminputpin_getallocatorrequirements.htm
 tech.root: DirectShow
 ms.assetid: 61e6ea4f-70cd-43d8-bbb7-76e041ee0eeb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetAllocatorRequirements, GetAllocatorRequirements method [DirectShow], GetAllocatorRequirements method [DirectShow],IMemInputPin interface, IMemInputPin interface [DirectShow],GetAllocatorRequirements method, IMemInputPin.GetAllocatorRequirements, IMemInputPin::GetAllocatorRequirements, IMemInputPinGetAllocatorRequirements, dshow.imeminputpin_getallocatorrequirements, strmif/IMemInputPin::GetAllocatorRequirements
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- strmif.h
-: 
-- IMemInputPin.GetAllocatorRequirements
-: 
 ---
 
 # IMemInputPin::GetAllocatorRequirements

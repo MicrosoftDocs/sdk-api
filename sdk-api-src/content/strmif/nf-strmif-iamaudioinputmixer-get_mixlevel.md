@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_get_mixlevel.htm
 tech.root: DirectShow
 ms.assetid: bdf8f90b-72a4-4faf-9d08-2634582245f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_MixLevel method, IAMAudioInputMixer.get_MixLevel, IAMAudioInputMixer::get_MixLevel, IAMAudioInputMixerget_MixLevel, dshow.iamaudioinputmixer_get_mixlevel, get_MixLevel, get_MixLevel method [DirectShow], get_MixLevel method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_MixLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- strmif.h
-: 
-- IAMAudioInputMixer.get_MixLevel
-: 
 ---
 
 # IAMAudioInputMixer::get_MixLevel

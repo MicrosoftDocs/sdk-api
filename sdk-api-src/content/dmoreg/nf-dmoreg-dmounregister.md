@@ -7,7 +7,7 @@ old-location: dshow\dmounregister.htm
 tech.root: DirectShow
 ms.assetid: 7f65789d-7654-4da2-a572-e07c1e81b4ae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DMOUnregister, DMOUnregister function [DirectShow], dmoreg/DMOUnregister, dshow.dmounregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DMOUnregister
-: 
 ---
 
 # DMOUnregister function

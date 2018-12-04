@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VkKeyScanExA
-: 
 ---
 
 # VkKeyScanExA function
@@ -83,7 +77,7 @@ The character to be translated into a virtual-key code.
 
 Type: <b>HKL</b>
 
-Input locale identifier used to translate the character. This parameter can be any input locale identifier previously returned by the <a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function.
+Input locale identifier used to translate the character. This parameter can be any input locale identifier previously returned by the <a href="https://msdn.microsoft.com/6e35847e-d641-4ff2-80b6-a5b5293ebbdc">LoadKeyboardLayout</a> function.
 
 
 ## -returns
@@ -185,8 +179,8 @@ For keyboard layouts that use the right-hand ALT key as a shift key (for example
 Translations for the numeric keypad (VK_NUMPAD0 through VK_DIVIDE) are ignored. This function is intended to translate characters into keystrokes from the main keyboard section only. For example, the character "7" is translated into VK_7, not VK_NUMPAD7.
 
 <b>VkKeyScanEx</b> is used by applications that send characters by using the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_KEYUP</a> and 
-    <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a> messages.
+    <a href="https://msdn.microsoft.com/67d9d82d-fab0-4aec-a337-7a9cb2b0b586">WM_KEYUP</a> and 
+    <a href="https://msdn.microsoft.com/0e37149f-445c-4b20-ad68-fdf39428ac91">WM_KEYDOWN</a> messages.
 
 
 
@@ -200,27 +194,27 @@ Translations for the numeric keypad (VK_NUMPAD0 through VK_DIVIDE) are ignored. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>
+<a href="https://msdn.microsoft.com/edc449e4-f37d-4f2c-8add-45b905bd3326">GetAsyncKeyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646300(v=VS.85).aspx">GetKeyNameText</a>
+<a href="https://msdn.microsoft.com/66fffda1-e0cc-4f6b-9456-870820d10601">GetKeyNameText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a>
+<a href="https://msdn.microsoft.com/41c7bcc7-0a14-420c-b338-7ca13c95b7b8">GetKeyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>
+<a href="https://msdn.microsoft.com/d6b31d2c-43b3-4502-a7ed-af564895f27e">GetKeyboardState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/6e35847e-d641-4ff2-80b6-a5b5293ebbdc">LoadKeyboardLayout</a>
 
 
 
@@ -228,11 +222,11 @@ Translations for the numeric keypad (VK_NUMPAD0 through VK_DIVIDE) are ignored. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>
+<a href="https://msdn.microsoft.com/9c34dd1f-b423-4dcd-b29e-8bf64be57472">SetKeyboardState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646318(v=VS.85).aspx">ToAsciiEx</a>
+<a href="https://msdn.microsoft.com/6fe5fec1-51e2-4115-9c45-10074d47ec34">ToAsciiEx</a>
  
 
  

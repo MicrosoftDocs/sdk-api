@@ -4,10 +4,10 @@ title: ITextRange::GetChar
 author: windows-sdk-content
 description: Gets the character at the start position of the range.
 old-location: controls\ITextRange_GetChar.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getchar.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetChar, GetChar method [Windows Controls], GetChar method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetChar method, ITextRange.GetChar, ITextRange::GetChar, _win32_ITextRange_GetChar, _win32_ITextRange_GetChar_cpp, controls.ITextRange_GetChar, controls._win32_ITextRange_GetChar, tom/ITextRange::GetChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRange.GetChar
-: 
 ---
 
 # ITextRange::GetChar
@@ -94,7 +86,7 @@ The following Microsoft Visual Basic example sets <i>ch</i> equal to the charact
 
 <code>ch = r.Char</code>
 
-Similarly, <a href="https://msdn.microsoft.com/en-us/library/Bb774133(v=VS.85).aspx">ITextRange::SetChar</a> overwrites the character at the start of the range with the specified character. The characters retrieved and set by these methods are <b>LONG</b> variables, which hide the way that they are stored in the backing store (as bytes, words, variable-length, and so forth), and they do not require using a <b>BSTR</b>.
+Similarly, <a href="https://msdn.microsoft.com/b9b68294-906a-4a0e-a770-ac54f7f74961">ITextRange::SetChar</a> overwrites the character at the start of the range with the specified character. The characters retrieved and set by these methods are <b>LONG</b> variables, which hide the way that they are stored in the backing store (as bytes, words, variable-length, and so forth), and they do not require using a <b>BSTR</b>.
 
 The Char property, which can do most things that a characters collection can, has two big advantages: 
 
@@ -116,7 +108,7 @@ Accordingly, the Text Object Model (TOM) does not support a characters collectio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -124,11 +116,11 @@ Accordingly, the Text Object Model (TOM) does not support a characters collectio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774133(v=VS.85).aspx">SetChar</a>
+<a href="https://msdn.microsoft.com/b9b68294-906a-4a0e-a770-ac54f7f74961">SetChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

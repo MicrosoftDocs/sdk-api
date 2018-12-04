@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetPriority
 author: windows-sdk-content
 description: Retrieves the priority level for the job. The priority level determines when the job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_getpriority.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 8602ed59-a372-4cb3-bbda-cf1c7afc3669
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetPriority, GetPriority method [BITS], GetPriority method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetPriority method, IBackgroundCopyJob.GetPriority, IBackgroundCopyJob::GetPriority, _drz_ibackgroundcopyjob_getpriority, bits.ibackgroundcopyjob_getpriority, bits/IBackgroundCopyJob::GetPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.GetPriority
-: 
 ---
 
 # IBackgroundCopyJob::GetPriority
@@ -66,14 +58,7 @@ Retrieves the priority level for the job. The priority level determines when the
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - pPriority [out]
+### -param pVal [out]
 
 Priority of the job relative to other jobs in the transfer queue.
 
@@ -122,11 +107,11 @@ The <i>pPriority</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362805(v=VS.85).aspx">BG_JOB_PRIORITY</a>
+<a href="https://msdn.microsoft.com/bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e">BG_JOB_PRIORITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363046(v=VS.85).aspx">IBackgroundCopyJob::SetPriority</a>
+<a href="https://msdn.microsoft.com/8b59128d-7e63-45dc-af0f-54ea844dac98">IBackgroundCopyJob::SetPriority</a>
  
 
  

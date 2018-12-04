@@ -7,7 +7,7 @@ old-location: gdi\getobject.htm
 tech.root: gdi
 ms.assetid: 555ab876-d990-426d-915c-f98df82a10aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetObject, GetObject function [Windows GDI], GetObjectA, GetObjectW, HBITMAP, HBITMAP returned from a call to CreateDIBSection, HBRUSH, HFONT, HPALETTE, HPEN, HPEN returned from a call to ExtCreatePen, _win32_GetObject, gdi.getobject, wingdi/GetObject, wingdi/GetObjectA, wingdi/GetObjectW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetObject
-: 
 ---
 
 # GetObject function

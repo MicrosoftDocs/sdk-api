@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannelevents_onclose.htm
 tech.root: termserv
 ms.assetid: fd195c0e-68bf-4361-9795-0e436c1abc90
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnClose method, IWRdsGraphicsChannelEvents.OnClose, IWRdsGraphicsChannelEvents::OnClose, OnClose, OnClose method [Remote Desktop Services], OnClose method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_onclose, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wrdsgraphicschannels.h
-: 
-- IWRdsGraphicsChannelEvents.OnClose
-: 
 ---
 
 # IWRdsGraphicsChannelEvents::OnClose

@@ -4,10 +4,10 @@ title: NdrDllUnregisterProxy function
 author: windows-sdk-content
 description: The NdrDllUnregisterProxy function removes a registry entry for the interfaces contained in the proxy DLL.
 old-location: rpc\ndrdllunregisterproxy.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 9a286298-b4a1-4386-99b1-bb6044ade87e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NdrDllUnregisterProxy, NdrDllUnregisterProxy function [RPC], rpc.ndrdllunregisterproxy, rpcproxy/NdrDllUnregisterProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NdrDllUnregisterProxy
-: 
 ---
 
 # NdrDllUnregisterProxy function

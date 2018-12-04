@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_AddPlace.htm
 tech.root: shell
 ms.assetid: 2196e73f-4e0f-4213-b0a2-13a047486f40
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AddPlace, AddPlace method [Windows Shell], AddPlace method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],AddPlace method, IFileDialog.AddPlace, IFileDialog::AddPlace, shell.IFileDialog_AddPlace, shell_IFileDialog_AddPlace, shobjidl_core/IFileDialog::AddPlace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IFileDialog.AddPlace
-: 
 ---
 
 # IFileDialog::AddPlace

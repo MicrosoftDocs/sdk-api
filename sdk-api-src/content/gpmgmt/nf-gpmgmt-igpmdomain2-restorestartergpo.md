@@ -4,10 +4,10 @@ title: IGPMDomain2::RestoreStarterGPO
 author: windows-sdk-content
 description: Restores the Starter Group Policy object (GPO) from a GPMStarterGPOBackup object.
 old-location: gpmc\igpmdomain2_restorestartergpo.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: e91a3540-7f1b-4843-9b5e-4dcd837dc0f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IGPMDomain2 interface [GPMC],RestoreStarterGPO method, IGPMDomain2.RestoreStarterGPO, IGPMDomain2::RestoreStarterGPO, RestoreStarterGPO, RestoreStarterGPO method [GPMC], RestoreStarterGPO method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_restorestartergpo, gpmgmt/IGPMDomain2::RestoreStarterGPO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMDomain2.RestoreStarterGPO
-: 
 ---
 
 # IGPMDomain2::RestoreStarterGPO

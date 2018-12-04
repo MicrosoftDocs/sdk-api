@@ -4,10 +4,10 @@ title: IVdsIscsiPortalLocal::SetIpsecSecurityLocal
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportallocal_setipsecsecuritylocal.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 3da426d0-9fa7-4dec-a0bb-416ec14b69a0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVdsIscsiPortalLocal interface [VDS],SetIpsecSecurityLocal method, IVdsIscsiPortalLocal.SetIpsecSecurityLocal, IVdsIscsiPortalLocal::SetIpsecSecurityLocal, SetIpsecSecurityLocal, SetIpsecSecurityLocal method [VDS], SetIpsecSecurityLocal method [VDS],IVdsIscsiPortalLocal interface, base.ivdsiscsiportallocal_setipsecsecuritylocal, vds/IVdsIscsiPortalLocal::SetIpsecSecurityLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsIscsiPortalLocal.SetIpsecSecurityLocal
-: 
 ---
 
 # IVdsIscsiPortalLocal::SetIpsecSecurityLocal

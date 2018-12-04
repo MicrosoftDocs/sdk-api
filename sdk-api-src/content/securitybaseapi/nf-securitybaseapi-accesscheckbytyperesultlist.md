@@ -4,10 +4,10 @@ title: AccessCheckByTypeResultList function
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.
 old-location: security\accesscheckbytyperesultlist.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: ce713421-d4ff-48ed-b751-5e5c5397d820
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AccessCheckByTypeResultList, AccessCheckByTypeResultList function [Security], _win32_accesscheckbytyperesultlist, security.accesscheckbytyperesultlist, securitybaseapi/AccessCheckByTypeResultList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AccessCheckByTypeResultList
-: 
 ---
 
 # AccessCheckByTypeResultList function
@@ -210,7 +204,7 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

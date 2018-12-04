@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile2_getprofileid.htm
 tech.root: wmformat
 ms.assetid: 82e3e086-4b19-4eb9-91ad-d30392f97a28
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetProfileID, GetProfileID method [windows Media Format], GetProfileID method [windows Media Format],IWMProfile2 interface, GetProfileID method [windows Media Format],IWMProfile3 interface, IWMProfile2 interface [windows Media Format],GetProfileID method, IWMProfile2.GetProfileID, IWMProfile2::GetProfileID, IWMProfile2GetProfileID, IWMProfile3 interface [windows Media Format],GetProfileID method, IWMProfile3::GetProfileID, wmformat.iwmprofile2_getprofileid, wmsdkidl/IWMProfile2::GetProfileID, wmsdkidl/IWMProfile3::GetProfileID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,14 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmsdkidl.h
-: 
-- IWMProfile2.GetProfileID
-: 
 ---
 
 # IWMProfile2::GetProfileID

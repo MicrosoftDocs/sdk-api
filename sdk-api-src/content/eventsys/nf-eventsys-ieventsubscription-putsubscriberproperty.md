@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_putsubscriberproperty.htm
 tech.root: cossdk
 ms.assetid: 817ee07c-32ea-41a4-a871-370c06bfc8a8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEventSubscription interface [COM+],PutSubscriberProperty method, IEventSubscription.PutSubscriberProperty, IEventSubscription::PutSubscriberProperty, PutSubscriberProperty, PutSubscriberProperty method [COM+], PutSubscriberProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_PutSubscriberProperty, cos.ieventsubscription_putsubscriberproperty, eventsys/IEventSubscription::PutSubscriberProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- eventsys.h
-: 
-- IEventSubscription.PutSubscriberProperty
-: 
 ---
 
 # IEventSubscription::PutSubscriberProperty

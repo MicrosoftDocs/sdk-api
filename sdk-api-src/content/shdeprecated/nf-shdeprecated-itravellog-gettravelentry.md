@@ -7,7 +7,7 @@ old-location: shell\ITravelLog_GetTravelEntry.htm
 tech.root: shell
 ms.assetid: 8db8aa9a-91c2-49fb-bbef-c7e19de09efe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetTravelEntry, GetTravelEntry method [Windows Shell], GetTravelEntry method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],GetTravelEntry method, ITravelLog.GetTravelEntry, ITravelLog::GetTravelEntry, shdeprecated/ITravelLog::GetTravelEntry, shell.ITravelLog_GetTravelEntry, zone_ITravelLog_GetTravelEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- ITravelLog.GetTravelEntry
-: 
 req.product: Internet Explorer 4.0
 ---
 

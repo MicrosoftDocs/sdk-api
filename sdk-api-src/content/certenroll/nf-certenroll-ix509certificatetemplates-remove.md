@@ -4,10 +4,10 @@ title: IX509CertificateTemplates::Remove
 author: windows-sdk-content
 description: Removes an IX509CertificateTemplate object from the collection by index number.
 old-location: security\ix509certificatetemplates_remove.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: e30aaeab-4130-40ab-9b50-32a119fdb794
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IX509CertificateTemplates interface [Security],Remove method, IX509CertificateTemplates.Remove, IX509CertificateTemplates::Remove, Remove, Remove method [Security], Remove method [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::Remove, security.ix509certificatetemplates_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509CertificateTemplates.Remove
-: 
 ---
 
 # IX509CertificateTemplates::Remove
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>Remove</b> method removes an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> object from the collection by index number.
+The <b>Remove</b> method removes an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object from the collection by index number.
 
 
 ## -parameters
@@ -77,7 +69,7 @@ A <b>LONG</b> variable that contains the index of the object to remove.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -87,7 +79,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351665(v=VS.85).aspx">IX509CertificateTemplates</a>
+<a href="https://msdn.microsoft.com/82d14b93-e07b-4ff3-88b9-b1873972b4ad">IX509CertificateTemplates</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: winsync\isynccallback_onchange.htm
 tech.root: winsync
 ms.assetid: 16bcc448-8acc-4349-a5d1-0c0764afe2ec
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnChange method, ISyncCallback.OnChange, ISyncCallback::OnChange, OnChange, OnChange method [Windows Sync], OnChange method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onchange, winsync/ISyncCallback::OnChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- ISyncCallback.OnChange
-: 
 ---
 
 # ISyncCallback::OnChange

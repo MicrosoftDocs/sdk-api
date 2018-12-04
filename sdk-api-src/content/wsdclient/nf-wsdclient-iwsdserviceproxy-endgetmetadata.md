@@ -4,10 +4,10 @@ title: IWSDServiceProxy::EndGetMetadata
 author: windows-sdk-content
 description: Completes the asynchronous metadata exchange request and retrieves the service metadata from the response.
 old-location: ncd\iwsdserviceproxy_endgetmetadata.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 6024770a-e4cb-4db1-9767-51b559fd8244
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EndGetMetadata, EndGetMetadata method, EndGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,EndGetMetadata method, IWSDServiceProxy.EndGetMetadata, IWSDServiceProxy::EndGetMetadata, ncd.iwsdserviceproxy_endgetmetadata, wsdclient/IWSDServiceProxy::EndGetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdclient.h
-: 
-- IWSDServiceProxy.EndGetMetadata
-: 
 ---
 
 # IWSDServiceProxy::EndGetMetadata

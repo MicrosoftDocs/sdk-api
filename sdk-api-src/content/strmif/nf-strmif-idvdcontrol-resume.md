@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_resume.htm
 tech.root: DirectShow
 ms.assetid: 336908bb-369e-449d-a94a-dd22fa72f20a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDvdControl interface [DirectShow],Resume method, IDvdControl.Resume, IDvdControl::Resume, IDvdControlResume, Resume, Resume method [DirectShow], Resume method [DirectShow],IDvdControl interface, dshow.idvdcontrol_resume, strmif/IDvdControl::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- strmif.h
-: 
-- IDvdControl.Resume
-: 
 ---
 
 # IDvdControl::Resume

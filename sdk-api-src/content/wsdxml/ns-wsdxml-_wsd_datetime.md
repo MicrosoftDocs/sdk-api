@@ -4,10 +4,10 @@ title: "_WSD_DATETIME"
 author: windows-sdk-content
 description: Represents a timestamp.
 old-location: ncd\wsd_datetime_struct.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: ec42d69c-133a-4e76-bbbe-0e6978f4723a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WSD_DATETIME, WSD_DATETIME structure, _WSD_DATETIME, ncd.wsd_datetime_struct, wsdxml/WSD_DATETIME
 ms.prod: windows-hardware
 ms.technology: windows-devices

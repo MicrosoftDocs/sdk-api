@@ -4,10 +4,10 @@ title: MsiInstallMissingComponentA function
 author: windows-sdk-content
 description: The MsiInstallMissingComponent function installs files that are unexpectedly missing.
 old-location: setup\msiinstallmissingcomponent.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 81b44b77-e972-409c-b933-8fcae8887266
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiInstallMissingComponent, MsiInstallMissingComponent function, MsiInstallMissingComponentA, MsiInstallMissingComponentW, _msi_msiinstallmissingcomponent, msi/MsiInstallMissingComponent, msi/MsiInstallMissingComponentA, msi/MsiInstallMissingComponentW, setup.msiinstallmissingcomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiInstallMissingComponentA
-: 
 ---
 
 # MsiInstallMissingComponentA function

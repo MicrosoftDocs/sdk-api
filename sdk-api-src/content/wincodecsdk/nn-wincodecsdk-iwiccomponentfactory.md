@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentfactory.htm
 tech.root: wic
 ms.assetid: 7aac7268-8f80-4169-9208-1002ca9703e5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWICComponentFactory, IWICComponentFactory interface [Windows Imaging Component], IWICComponentFactory interface [Windows Imaging Component],described, _wic_codec_iwiccomponentfactory, wic._wic_codec_iwiccomponentfactory, wincodecsdk/IWICComponentFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

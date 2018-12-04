@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarUI4FromBool
-: 
 ---
 
 # VarUI4FromBool function

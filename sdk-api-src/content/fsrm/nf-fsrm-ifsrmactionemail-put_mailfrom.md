@@ -4,10 +4,10 @@ title: IFsrmActionEmail::put_MailFrom
 author: windows-sdk-content
 description: Retrieves or sets the email address to use as the sender of the email when the action generates an email message.
 old-location: fsrm\ifsrmactionemail_mailfrom.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 67fb5ae6-7728-4c95-92d6-f36859346cc7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailFrom property, IFsrmActionEmail.MailFrom, IFsrmActionEmail.put_MailFrom, IFsrmActionEmail2 interface [File Server Resource Manager],MailFrom property, IFsrmActionEmail2.MailFrom, IFsrmActionEmail2::MailFrom, IFsrmActionEmail2::get_MailFrom, IFsrmActionEmail2::put_MailFrom, IFsrmActionEmail::get_MailFrom, IFsrmActionEmail::put_MailFrom, MailFrom property [File Server Resource Manager], MailFrom property [File Server Resource Manager],IFsrmActionEmail interface, MailFrom property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailfrom, fsrm.ifsrmactionemail_mailfrom, fsrm/IFsrmActionEmail2::MailFrom, fsrm/IFsrmActionEmail2::get_MailFrom, fsrm/IFsrmActionEmail2::put_MailFrom, fsrm/IFsrmActionEmail::MailFrom, fsrm/IFsrmActionEmail::get_MailFrom, fsrm/IFsrmActionEmail::put_MailFrom, put_MailFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,14 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrm.h
-: 
-- IFsrmActionEmail.put_MailFrom
-: 
 ---
 
 # IFsrmActionEmail::put_MailFrom

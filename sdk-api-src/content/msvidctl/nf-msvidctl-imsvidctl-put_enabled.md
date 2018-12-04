@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msvidctl.h
-: 
-- IMSVidCtl.put_Enabled
-: 
 ---
 
 # IMSVidCtl::put_Enabled

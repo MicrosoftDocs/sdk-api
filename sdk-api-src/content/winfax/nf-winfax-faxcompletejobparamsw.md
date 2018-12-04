@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FaxCompleteJobParamsW
-: 
 ---
 
 # FaxCompleteJobParamsW function
@@ -59,7 +53,7 @@ req.redist:
 ## -description
 
 
-The FaxCompleteJobParams function creates both a <a href="https://msdn.microsoft.com/en-us/library/ms691508(v=VS.85).aspx">FAX_COVERPAGE_INFO</a> structure and a <a href="https://msdn.microsoft.com/en-us/library/ms691278(v=VS.85).aspx">FAX_JOB_PARAM</a> structure for a fax client application. This utility function supplies multiple members of these structures with values for the size of the structure, the sender's name, and optional billing code information.
+The FaxCompleteJobParams function creates both a <a href="https://msdn.microsoft.com/488a4c89-7efc-4aa5-aa8d-b6cc2ccd2535">FAX_COVERPAGE_INFO</a> structure and a <a href="https://msdn.microsoft.com/d589a255-abe2-49d5-b593-3a60cdaf61eb">FAX_JOB_PARAM</a> structure for a fax client application. This utility function supplies multiple members of these structures with values for the size of the structure, the sender's name, and optional billing code information.
 
 
 ## -parameters
@@ -71,14 +65,14 @@ The FaxCompleteJobParams function creates both a <a href="https://msdn.microsoft
 
 Type: <b>PFAX_JOB_PARAM*</b>
 
-Pointer to the address of a buffer to contain a <a href="https://msdn.microsoft.com/en-us/library/ms691278(v=VS.85).aspx">FAX_JOB_PARAM</a> structure. On output, this structure contains members with values that are available from the fax server.
+Pointer to the address of a buffer to contain a <a href="https://msdn.microsoft.com/d589a255-abe2-49d5-b593-3a60cdaf61eb">FAX_JOB_PARAM</a> structure. On output, this structure contains members with values that are available from the fax server.
 
 
 ### -param CoverpageInfo [in, out]
 
 Type: <b>PFAX_COVERPAGE_INFO*</b>
 
-Pointer to the address of a buffer to contain a <a href="https://msdn.microsoft.com/en-us/library/ms691508(v=VS.85).aspx">FAX_COVERPAGE_INFO</a> structure. On output, this structure contains members with values that are available from the fax server.
+Pointer to the address of a buffer to contain a <a href="https://msdn.microsoft.com/488a4c89-7efc-4aa5-aa8d-b6cc2ccd2535">FAX_COVERPAGE_INFO</a> structure. On output, this structure contains members with values that are available from the fax server.
 
 
 ## -returns
@@ -98,9 +92,9 @@ If the function fails, the return value is zero.
 
 
 
-The fax client application should call the <b>FaxCompleteJobParams</b> function before calling the <a href="https://msdn.microsoft.com/en-us/library/ms692343(v=VS.85).aspx">FaxSendDocument</a> function. This enables the fax server to provide any values that are available for the members of the <a href="https://msdn.microsoft.com/en-us/library/ms691278(v=VS.85).aspx">FAX_JOB_PARAM</a> and the <a href="https://msdn.microsoft.com/en-us/library/ms691508(v=VS.85).aspx">FAX_COVERPAGE_INFO</a> structures. The application should not query the user's registry for this information because the location of the information can change. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691959(v=VS.85).aspx">Transmitting Faxes</a>.
+The fax client application should call the <b>FaxCompleteJobParams</b> function before calling the <a href="https://msdn.microsoft.com/bbf8def4-4af0-4315-94f9-860f9db1eefa">FaxSendDocument</a> function. This enables the fax server to provide any values that are available for the members of the <a href="https://msdn.microsoft.com/d589a255-abe2-49d5-b593-3a60cdaf61eb">FAX_JOB_PARAM</a> and the <a href="https://msdn.microsoft.com/488a4c89-7efc-4aa5-aa8d-b6cc2ccd2535">FAX_COVERPAGE_INFO</a> structures. The application should not query the user's registry for this information because the location of the information can change. For more information, see <a href="https://msdn.microsoft.com/bee4d50b-d6e3-432b-9db6-c7df837079f4">Transmitting Faxes</a>.
 
-The application must call the <a href="https://msdn.microsoft.com/en-us/library/ms692846(v=VS.85).aspx">FaxFreeBuffer</a> function once to deallocate the buffer pointed to by the <i>JobParams</i> parameter, and again to deallocate the buffer pointed to by the <i>CoverpageInfo</i> parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+The application must call the <a href="https://msdn.microsoft.com/9a7eedc8-e00f-40e8-a9f4-8e919012ed47">FaxFreeBuffer</a> function once to deallocate the buffer pointed to by the <i>JobParams</i> parameter, and again to deallocate the buffer pointed to by the <i>CoverpageInfo</i> parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
 
 
 
@@ -110,27 +104,27 @@ The application must call the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691508(v=VS.85).aspx">FAX_COVERPAGE_INFO</a>
+<a href="https://msdn.microsoft.com/488a4c89-7efc-4aa5-aa8d-b6cc2ccd2535">FAX_COVERPAGE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691278(v=VS.85).aspx">FAX_JOB_PARAM</a>
+<a href="https://msdn.microsoft.com/d589a255-abe2-49d5-b593-3a60cdaf61eb">FAX_JOB_PARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692846(v=VS.85).aspx">FaxFreeBuffer</a>
+<a href="https://msdn.microsoft.com/9a7eedc8-e00f-40e8-a9f4-8e919012ed47">FaxFreeBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692343(v=VS.85).aspx">FaxSendDocument</a>
+<a href="https://msdn.microsoft.com/bbf8def4-4af0-4315-94f9-860f9db1eefa">FaxSendDocument</a>
  
 
  

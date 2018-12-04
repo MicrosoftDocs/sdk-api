@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientsettings_applysettings.htm
 tech.root: termserv
 ms.assetid: 24f17f50-6cb0-422a-88c6-77bae48af392
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: ApplySettings, ApplySettings method [Remote Desktop Services], ApplySettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],ApplySettings method, IRemoteDesktopClientSettings.ApplySettings, IRemoteDesktopClientSettings::ApplySettings, rdpappcontainerclient/IRemoteDesktopClientSettings::ApplySettings, termserv.iremotedesktopclientsettings_applysettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpappcontainerclient.h
-: 
-- IRemoteDesktopClientSettings.ApplySettings
-: 
 ---
 
 # IRemoteDesktopClientSettings::ApplySettings
@@ -69,14 +61,7 @@ Stores the specified contents in the RDP file.
 
 
 
-### -param rdpFileContents
-
-TBD
-
-
-
-
-#### - RdpFileContents [in]
+### -param rdpFileContents [in]
 
 Specifies the entire contents of the RDP file.
 

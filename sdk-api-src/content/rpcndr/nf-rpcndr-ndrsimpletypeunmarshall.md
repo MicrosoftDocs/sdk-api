@@ -4,10 +4,10 @@ title: NdrSimpleTypeUnmarshall function
 author: windows-sdk-content
 description: The NdrSimpleTypeUnmarshall function unmarshalls a simple type.
 old-location: rpc\ndrsimpletypeunmarshall.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: f1ed9bdc-3ff6-4947-b77f-cb95fe8c3e85
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NdrSimpleTypeUnmarshall, NdrSimpleTypeUnmarshall function [RPC], rpc.ndrsimpletypeunmarshall, rpcndr/NdrSimpleTypeUnmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NdrSimpleTypeUnmarshall
-: 
 ---
 
 # NdrSimpleTypeUnmarshall function

@@ -4,10 +4,10 @@ title: ITextRow::GetKeepTogether
 author: windows-sdk-content
 description: Gets whether this row is allowed to be broken across pages.
 old-location: controls\itextrow_getkeeptogether.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 3f40c910-2636-4412-ae05-7a630c1f4806
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetKeepTogether, GetKeepTogether method [Windows Controls], GetKeepTogether method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetKeepTogether method, ITextRow.GetKeepTogether, ITextRow::GetKeepTogether, controls.itextrow_getkeeptogether, tom/ITextRow::GetKeepTogether
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRow.GetKeepTogether
-: 
 ---
 
 # ITextRow::GetKeepTogether
@@ -70,7 +62,7 @@ Gets whether this row is allowed to be broken across pages.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates whether this row can be broken across pages.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates whether this row can be broken across pages.
 
 
 ## -returns

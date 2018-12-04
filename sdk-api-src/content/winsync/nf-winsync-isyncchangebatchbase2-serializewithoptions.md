@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchbase2_serializewithoptions.htm
 tech.root: winsync
 ms.assetid: 6e686e6f-08b1-4a58-ac0f-30c48f70dd60
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISyncChangeBatchBase2 interface [Windows Sync],SerializeWithOptions method, ISyncChangeBatchBase2.SerializeWithOptions, ISyncChangeBatchBase2::SerializeWithOptions, SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync],ISyncChangeBatchBase2 interface, winsync.isyncchangebatchbase2_serializewithoptions, winsync/ISyncChangeBatchBase2::SerializeWithOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- ISyncChangeBatchBase2.SerializeWithOptions
-: 
 ---
 
 # ISyncChangeBatchBase2::SerializeWithOptions

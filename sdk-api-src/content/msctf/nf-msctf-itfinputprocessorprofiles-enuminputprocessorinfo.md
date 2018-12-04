@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofiles_enuminputprocessorinfo.htm
 tech.root: TSF
 ms.assetid: 55b85ff3-35da-4126-861a-2aa4e2e8422f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EnumInputProcessorInfo, EnumInputProcessorInfo method [Text Services Framework], EnumInputProcessorInfo method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],EnumInputProcessorInfo method, ITfInputProcessorProfiles.EnumInputProcessorInfo, ITfInputProcessorProfiles::EnumInputProcessorInfo, _tsf_itfinputprocessorprofiles_enuminputprocessorinfo_ref, msctf/ITfInputProcessorProfiles::EnumInputProcessorInfo, tsf.itfinputprocessorprofiles_enuminputprocessorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfInputProcessorProfiles.EnumInputProcessorInfo
-: 
 ---
 
 # ITfInputProcessorProfiles::EnumInputProcessorInfo

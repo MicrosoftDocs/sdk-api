@@ -4,10 +4,10 @@ title: WSManRunShellCommand function
 author: windows-sdk-content
 description: Starts the execution of a command within an existing shell and does not wait for the completion of the command.
 old-location: winrm\wsmanrunshellcommand.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 8f5c89f8-418c-4a4d-9a52-0fc01ec636b2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WSManRunShellCommand, WSManRunShellCommand function [Windows Remote Management], winrm.wsmanrunshellcommand, wsman/WSManRunShellCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
-- apiref
-: 
-- 
-: 
-- WSManRunShellCommand
-: 
 ---
 
 # WSManRunShellCommand function

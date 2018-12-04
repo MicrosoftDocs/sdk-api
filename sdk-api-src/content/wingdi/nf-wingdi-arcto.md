@@ -7,7 +7,7 @@ old-location: gdi\arcto.htm
 tech.root: gdi
 ms.assetid: 5e358a14-9f39-4267-9a44-c8bf05b5dfbb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ArcTo, ArcTo function [Windows GDI], _win32_ArcTo, gdi.arcto, wingdi/ArcTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ArcTo
-: 
 ---
 
 # ArcTo function

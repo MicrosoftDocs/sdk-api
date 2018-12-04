@@ -4,10 +4,10 @@ title: ImageList_Replace function
 author: windows-sdk-content
 description: Replaces an image in an image list with a new image.
 old-location: controls\ImageList_Replace.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_replace.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ImageList_Replace, ImageList_Replace function [Windows Controls], _win32_ImageList_Replace, _win32_ImageList_Replace_cpp, commctrl/ImageList_Replace, controls.ImageList_Replace, controls._win32_ImageList_Replace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ImageList_Replace
-: 
 ---
 
 # ImageList_Replace function
@@ -80,14 +74,14 @@ An index of the image to replace.
 
 ### -param hbmImage
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HBITMAP</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBITMAP</a></b>
 
 A handle to the bitmap that contains the image. 
 
 
 ### -param hbmMask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HBITMAP</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBITMAP</a></b>
 
 A handle to the bitmap that contains the mask. If no mask is used with the image list, this parameter is ignored. 
 
@@ -96,7 +90,7 @@ A handle to the bitmap that contains the mask. If no mask is used with the image
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. 
 
@@ -107,7 +101,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-The <b>ImageList_Replace</b> function copies the bitmap to an internal data structure. Be sure to use the <a href="https://msdn.microsoft.com/en-us/library/Dd183539(v=VS.85).aspx">DeleteObject</a> function to delete <i>hbmImage</i> and <i>hbmMask</i> after the function returns. 
+The <b>ImageList_Replace</b> function copies the bitmap to an internal data structure. Be sure to use the <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> function to delete <i>hbmImage</i> and <i>hbmMask</i> after the function returns. 
 
 
 

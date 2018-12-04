@@ -4,10 +4,10 @@ title: ICspAlgorithm::get_LongName
 author: windows-sdk-content
 description: Retrieves the full name of the algorithm.
 old-location: security\icspalgorithm_longname_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: aaa5175f-c110-4e76-9145-1c667ea169a1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICspAlgorithm interface [Security],LongName property, ICspAlgorithm.LongName, ICspAlgorithm.get_LongName, ICspAlgorithm::LongName, ICspAlgorithm::get_LongName, LongName property [Security], LongName property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::LongName, certenroll/ICspAlgorithm::get_LongName, get_LongName, security.icspalgorithm_longname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICspAlgorithm.get_LongName
-: 
 ---
 
 # ICspAlgorithm::get_LongName
@@ -71,9 +63,9 @@ This property is read-only.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa375963(v=VS.85).aspx">Name</a> property retrieves a short algorithm name. Call the <b>LongName</b> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
+The <a href="https://msdn.microsoft.com/af7fa894-58e2-4607-9b6e-c32d4f412ddf">Name</a> property retrieves a short algorithm name. Call the <b>LongName</b> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
 
-<div class="alert"><b>Note</b>  Cryptography API: Next Generation (CNG) key storage providers (KSPs) do not support the long name concept. The <b>LongName</b> property and <a href="https://msdn.microsoft.com/en-us/library/Aa375963(v=VS.85).aspx">Name</a> property return an abbreviated name.</div>
+<div class="alert"><b>Note</b>  Cryptography API: Next Generation (CNG) key storage providers (KSPs) do not support the long name concept. The <b>LongName</b> property and <a href="https://msdn.microsoft.com/af7fa894-58e2-4607-9b6e-c32d4f412ddf">Name</a> property return an abbreviated name.</div>
 <div> </div>
 <table>
 <tr>
@@ -133,7 +125,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Aa375963(v=VS.85).aspx">Na
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a>
  
 
  

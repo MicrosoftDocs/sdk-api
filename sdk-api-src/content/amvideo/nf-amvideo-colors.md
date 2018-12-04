@@ -7,7 +7,7 @@ old-location: dshow\colors.htm
 tech.root: DirectShow
 ms.assetid: 32541ee4-53ef-4f0a-b823-bb475a93a195
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: COLORS, COLORS function [DirectShow], amvideo/COLORS, dshow.colors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- amvideo.h
-: 
-- COLORS
-: 
 ---
 
 # COLORS macro

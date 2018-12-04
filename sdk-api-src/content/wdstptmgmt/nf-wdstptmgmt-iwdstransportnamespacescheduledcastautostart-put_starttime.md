@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportNamespaceScheduledCastAutoStart.put_StartTime
-: 
 ---
 
 # IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime

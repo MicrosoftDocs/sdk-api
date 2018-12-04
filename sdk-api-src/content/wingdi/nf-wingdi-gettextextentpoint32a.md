@@ -7,7 +7,7 @@ old-location: gdi\gettextextentpoint32.htm
 tech.root: gdi
 ms.assetid: 530280ee-dfd8-4905-9b72-6c19efcff133
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetTextExtentPoint32, GetTextExtentPoint32 function [Windows GDI], GetTextExtentPoint32A, GetTextExtentPoint32W, _win32_GetTextExtentPoint32, gdi.gettextextentpoint32, wingdi/GetTextExtentPoint32, wingdi/GetTextExtentPoint32A, wingdi/GetTextExtentPoint32W
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetTextExtentPoint32A
-: 
 ---
 
 # GetTextExtentPoint32A function

@@ -4,10 +4,10 @@ title: IGPMAsyncProgress::Status
 author: windows-sdk-content
 description: The server calls this method to notify the client about the status of a Group Policy Management Console (GPMC) operation.
 old-location: gpmc\igpmasyncprogress_status.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: db5d59a2-ab46-42f1-9637-6b342795c9f0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IGPMAsyncProgress interface [GPMC],Status method, IGPMAsyncProgress.Status, IGPMAsyncProgress::Status, Status, Status method [GPMC], Status method [GPMC],IGPMAsyncProgress interface, _win32_igpmasyncprogress_status, gpmc.igpmasyncprogress_status, gpmgmt/IGPMAsyncProgress::Status
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMAsyncProgress.Status
-: 
 ---
 
 # IGPMAsyncProgress::Status

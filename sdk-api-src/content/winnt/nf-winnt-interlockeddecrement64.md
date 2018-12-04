@@ -4,10 +4,10 @@ title: InterlockedDecrement64 function
 author: windows-sdk-content
 description: Decrements (decreases by one) the value of the specified 64-bit variable as an atomic operation.
 old-location: base\interlockeddecrement64.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 073b42ba-90dd-48a1-9661-9b1686c09561
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: InterlockedDecrement64, InterlockedDecrement64 function, base.interlockeddecrement64, winnt/InterlockedDecrement64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InterlockedDecrement64
-: 
 ---
 
 # InterlockedDecrement64 function
@@ -88,7 +82,7 @@ The variable pointed to by the <i>Addend</i> parameter must be aligned on a 64-b
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/f24ya7ct(v=VS.85).aspx">_InterlockedDecrement64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="5268fce3-86b5-4b2b-b96c-2e531a3fb9b5">_InterlockedDecrement64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

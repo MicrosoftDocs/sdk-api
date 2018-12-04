@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getfillbrushlocal.htm
 tech.root: printdocs
 ms.assetid: d497eac9-8096-4a0e-bb43-315f734fd36e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetFillBrushLocal, GetFillBrushLocal method [XPS Documents and Packaging], GetFillBrushLocal method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrushLocal method, IXpsOMGlyphs.GetFillBrushLocal, IXpsOMGlyphs::GetFillBrushLocal, xps.ixpsomglyphs_getfillbrushlocal, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMGlyphs.GetFillBrushLocal
-: 
 ---
 
 # IXpsOMGlyphs::GetFillBrushLocal

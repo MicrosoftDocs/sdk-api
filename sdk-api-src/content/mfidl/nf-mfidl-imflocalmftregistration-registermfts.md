@@ -7,7 +7,7 @@ old-location: mf\imflocalmftregistration_registermfts.htm
 tech.root: medfound
 ms.assetid: 3f77b5b9-94af-42b1-83ca-cb3310083632
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IMFLocalMFTRegistration interface [Media Foundation],RegisterMFTs method, IMFLocalMFTRegistration.RegisterMFTs, IMFLocalMFTRegistration::RegisterMFTs, RegisterMFTs, RegisterMFTs method [Media Foundation], RegisterMFTs method [Media Foundation],IMFLocalMFTRegistration interface, mf.imflocalmftregistration_registermfts, mfidl/IMFLocalMFTRegistration::RegisterMFTs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfidl.h
-: 
-- IMFLocalMFTRegistration.RegisterMFTs
-: 
 ---
 
 # IMFLocalMFTRegistration::RegisterMFTs

@@ -4,10 +4,10 @@ title: IVssAsync::Wait
 author: windows-sdk-content
 description: The Wait method waits until an incomplete asynchronous operation finishes.
 old-location: base\ivssasync_wait.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 27be3bb2-de37-47d1-a2da-7b253ace1199
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssAsync interface [VSS],Wait method, IVssAsync.Wait, IVssAsync::Wait, Wait, Wait method [VSS], Wait method [VSS],IVssAsync interface, _win32_ivssasync_wait, base.ivssasync_wait, vss/IVssAsync::Wait
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vss.h
-: 
-- IVssAsync.Wait
-: 
 ---
 
 # IVssAsync::Wait

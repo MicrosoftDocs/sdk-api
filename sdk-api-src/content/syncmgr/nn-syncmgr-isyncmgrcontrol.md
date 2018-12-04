@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl.htm
 tech.root: shell
 ms.assetid: 197c4e6f-ffc4-4f19-a5bd-6859eef953c2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ISyncMgrControl, ISyncMgrControl interface [Windows Shell], ISyncMgrControl interface [Windows Shell],described, _shell_ISyncMgrControl, shell.ISyncMgrControl, syncmgr/ISyncMgrControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFsrmActionCommand::get_Account
 author: windows-sdk-content
 description: Retrieves or sets the system account that is used to run the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_account.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 24f0bf5c-064c-4f1e-b69f-23374ea78324
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Account property [File Server Resource Manager], Account property [File Server Resource Manager],IFsrmActionCommand interface, IFsrmActionCommand interface [File Server Resource Manager],Account property, IFsrmActionCommand.Account, IFsrmActionCommand.get_Account, IFsrmActionCommand::Account, IFsrmActionCommand::get_Account, IFsrmActionCommand::put_Account, fs.ifsrmactioncommand_account, fsrm.ifsrmactioncommand_account, fsrm/IFsrmActionCommand::Account, fsrm/IFsrmActionCommand::get_Account, fsrm/IFsrmActionCommand::put_Account, get_Account
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrm.h
-: 
-- IFsrmActionCommand.get_Account
-: 
 ---
 
 # IFsrmActionCommand::get_Account

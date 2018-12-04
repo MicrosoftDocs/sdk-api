@@ -4,10 +4,10 @@ title: FNCLOSE macro
 author: windows-sdk-content
 description: The FNCLOSE macro provides the declaration for the application-defined callback function to close a file in an FDI context.
 old-location: winprog\fnclose.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 89db9c2a-42ab-410d-a427-60d282385c2b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: FNCLOSE, FNCLOSE macro [Windows API], fdi/FNCLOSE, winprog.fnclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- fdi.h
-: 
-- FNCLOSE
-: 
 ---
 
 # FNCLOSE macro

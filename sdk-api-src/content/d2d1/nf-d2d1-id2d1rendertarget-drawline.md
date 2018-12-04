@@ -4,10 +4,10 @@ title: ID2D1RenderTarget::DrawLine
 author: windows-sdk-content
 description: Draws a line between the specified points using the specified stroke style.
 old-location: direct2d\ID2D1RenderTarget_DrawLine.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 7eb70308-4142-4d32-a070-9e937579b896
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DrawLine, DrawLine method [Direct2D], DrawLine method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawLine method, ID2D1RenderTarget.DrawLine, ID2D1RenderTarget::DrawLine, d2d1/ID2D1RenderTarget::DrawLine, direct2d.ID2D1RenderTarget_DrawLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1RenderTarget.DrawLine
-: 
 ---
 
 # ID2D1RenderTarget::DrawLine
@@ -121,35 +113,39 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 The following example uses the <b>DrawLine</b> method to create a grid that spans the width and height of the render target. The width and height information is provided by the <i>rtSize</i> variable.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>        // Draw a grid background.
+        int width = static_cast&lt;int&gt;(rtSize.width);
+        int height = static_cast&lt;int&gt;(rtSize.height);
 
-```cpp
-        // Draw a grid background.
-        int width = static_cast<int>(rtSize.width);
-        int height = static_cast<int>(rtSize.height);
-
-        for (int x = 0; x < width; x += 10)
+        for (int x = 0; x &lt; width; x += 10)
         {
-            m_pRenderTarget->DrawLine(
-                D2D1::Point2F(static_cast<FLOAT>(x), 0.0f),
-                D2D1::Point2F(static_cast<FLOAT>(x), rtSize.height),
+            m_pRenderTarget-&gt;DrawLine(
+                D2D1::Point2F(static_cast&lt;FLOAT&gt;(x), 0.0f),
+                D2D1::Point2F(static_cast&lt;FLOAT&gt;(x), rtSize.height),
                 m_pLightSlateGrayBrush,
                 0.5f
                 );
         }
 
-        for (int y = 0; y < height; y += 10)
+        for (int y = 0; y &lt; height; y += 10)
         {
-            m_pRenderTarget->DrawLine(
-                D2D1::Point2F(0.0f, static_cast<FLOAT>(y)),
-                D2D1::Point2F(rtSize.width, static_cast<FLOAT>(y)),
+            m_pRenderTarget-&gt;DrawLine(
+                D2D1::Point2F(0.0f, static_cast&lt;FLOAT&gt;(y)),
+                D2D1::Point2F(rtSize.width, static_cast&lt;FLOAT&gt;(y)),
                 m_pLightSlateGrayBrush,
                 0.5f
                 );
         }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

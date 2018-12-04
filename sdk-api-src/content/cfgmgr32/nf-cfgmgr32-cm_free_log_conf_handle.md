@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Free_Log_Conf_Handle
-: 
 ---
 
 # CM_Free_Log_Conf_Handle function

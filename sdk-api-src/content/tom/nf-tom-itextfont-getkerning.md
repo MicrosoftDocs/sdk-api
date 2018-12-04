@@ -4,10 +4,10 @@ title: ITextFont::GetKerning
 author: windows-sdk-content
 description: Gets the minimum font size at which kerning occurs.
 old-location: controls\ITextFont_GetKerning.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkerning.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetKerning, GetKerning method [Windows Controls], GetKerning method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetKerning method, ITextFont.GetKerning, ITextFont::GetKerning, _win32_ITextFont_GetKerning, _win32_ITextFont_GetKerning_cpp, controls.ITextFont_GetKerning, controls._win32_ITextFont_GetKerning, tom/ITextFont::GetKerning
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextFont.GetKerning
-: 
 ---
 
 # ITextFont::GetKerning
@@ -133,7 +125,7 @@ If the value pointed to by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -141,11 +133,11 @@ If the value pointed to by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774165(v=VS.85).aspx">SetKerning</a>
+<a href="https://msdn.microsoft.com/debac049-f6d8-4094-acf6-aaf8f9867671">SetKerning</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

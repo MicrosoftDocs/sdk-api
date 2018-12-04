@@ -4,10 +4,10 @@ title: IRtwqPlatformEvents
 author: windows-sdk-content
 description: Provides events related platform work queue.
 old-location: base\irtwqplatformevents.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 9184D930-9305-4CA0-8E89-0CBAA5E4D53F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IRtwqPlatformEvents, IRtwqPlatformEvents interface, IRtwqPlatformEvents interface,described, base.irtwqplatformevents, rtworkq/IRtwqPlatformEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

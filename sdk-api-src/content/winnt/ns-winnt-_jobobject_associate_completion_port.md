@@ -4,10 +4,10 @@ title: "_JOBOBJECT_ASSOCIATE_COMPLETION_PORT"
 author: windows-sdk-content
 description: Contains information used to associate a completion port with a job.
 old-location: base\jobobject_associate_completion_port_str.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 18120d81-5480-4e0d-8422-0366a6811319
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT structure, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT structure pointer, _JOBOBJECT_ASSOCIATE_COMPLETION_PORT, _win32_jobobject_associate_completion_port_str, base.jobobject_associate_completion_port_str, winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT, winnt/PJOBOBJECT_ASSOCIATE_COMPLETION_PORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,12 +61,12 @@ Contains information used to associate a completion port with a job. You can ass
 ### -field CompletionKey
 
 The value to use in the <i>dwCompletionKey</i> parameter of 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365458(v=VS.85).aspx">PostQueuedCompletionStatus</a> when messages are sent on behalf of the job.
+<a href="base.postqueuedcompletionstatus">PostQueuedCompletionStatus</a> when messages are sent on behalf of the job.
 
 
 ### -field CompletionPort
 
-The completion port to use in the <i>CompletionPort</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Aa365458(v=VS.85).aspx">PostQueuedCompletionStatus</a> function when messages are sent on behalf of the job.
+The completion port to use in the <i>CompletionPort</i> parameter of the <a href="base.postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function when messages are sent on behalf of the job.
 
 <b>Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows 10 and Windows Server 2016:  </b>Specify <b>NULL</b> to remove the association between the current completion port and the job.
 
@@ -76,12 +76,12 @@ The completion port to use in the <i>CompletionPort</i> parameter of the <a href
 
 
 The system sends messages to the I/O completion port associated with a job when certain events occur. If the job is nested, the message is sent to every I/O completion port associated with any job in the parent job chain of the job that triggered the message. All messages are sent directly from the job as if the job had called the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365458(v=VS.85).aspx">PostQueuedCompletionStatus</a> function. 
+<a href="base.postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function. 
 
 Note that, except for limits set with the <b>JobObjectNotificationLimitInformation</b> information class, messages are intended only as notifications and their delivery to the completion port is not guaranteed. The failure of a message to arrive at the completion port does not necessarily mean that the event did not occur. Notifications for limits set with <b>JobObjectNotificationLimitInformation</b> are guaranteed to arrive at the completion port. 
 
 A thread must monitor the completion port using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function to pick up the messages. The thread receives information in the <b>GetQueuedCompletionStatus</b> parameters shown in the following table.
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function to pick up the messages. The thread receives information in the <b>GetQueuedCompletionStatus</b> parameters shown in the following table.
 
 <table>
 <tr>
@@ -242,7 +242,7 @@ You must be cautious when using the JOB_OBJECT_MSG_NEW_PROCESS and JOB_OBJECT_MS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365458(v=VS.85).aspx">PostQueuedCompletionStatus</a>
+<a href="base.postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
 
 
 

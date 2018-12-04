@@ -7,7 +7,7 @@ old-location: winsync\ienumfeedclockvector_reset.htm
 tech.root: winsync
 ms.assetid: dbd25148-b734-49a2-b8ad-9ded9d1a0bf2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Reset method, IEnumFeedClockVector.Reset, IEnumFeedClockVector::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_reset, winsync/IEnumFeedClockVector::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- IEnumFeedClockVector.Reset
-: 
 ---
 
 # IEnumFeedClockVector::Reset

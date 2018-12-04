@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecureexchange2.htm
 tech.root: WMDM
 ms.assetid: 815fd9b9-2186-40e2-8d72-e6bf91fd45c9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISCPSecureExchange2, ISCPSecureExchange2 interface [windows Media Device Manager], ISCPSecureExchange2 interface [windows Media Device Manager],described, ISCPSecureExchange2Interface, mswmdm/ISCPSecureExchange2, wmdm.iscpsecureexchange2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_FsrmReportLimit"
 author: windows-sdk-content
 description: Defines the limit used to limit the files included in a report.
 old-location: fsrm\fsrmreportlimit.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 225c583c-679c-43b4-85f4-3f2294fa7bc3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FsrmReportLimit, FsrmReportLimit enumeration [File Server Resource Manager], FsrmReportLimit_MaxDuplicateGroups, FsrmReportLimit_MaxFileGroups, FsrmReportLimit_MaxFileScreenEvents, FsrmReportLimit_MaxFiles, FsrmReportLimit_MaxFilesPerDuplGroup, FsrmReportLimit_MaxFilesPerFileGroup, FsrmReportLimit_MaxFilesPerOwner, FsrmReportLimit_MaxFilesPerPropertyValue, FsrmReportLimit_MaxFolders, FsrmReportLimit_MaxOwners, FsrmReportLimit_MaxPropertyValues, FsrmReportLimit_MaxQuotas, _FsrmReportLimit, fs.fsrmreportlimit, fsrm.fsrmreportlimit, fsrmenums/FsrmReportLimit, fsrmenums/FsrmReportLimit_MaxDuplicateGroups, fsrmenums/FsrmReportLimit_MaxFileGroups, fsrmenums/FsrmReportLimit_MaxFileScreenEvents, fsrmenums/FsrmReportLimit_MaxFiles, fsrmenums/FsrmReportLimit_MaxFilesPerDuplGroup, fsrmenums/FsrmReportLimit_MaxFilesPerFileGroup, fsrmenums/FsrmReportLimit_MaxFilesPerOwner, fsrmenums/FsrmReportLimit_MaxFilesPerPropertyValue, fsrmenums/FsrmReportLimit_MaxFolders, fsrmenums/FsrmReportLimit_MaxOwners, fsrmenums/FsrmReportLimit_MaxPropertyValues, fsrmenums/FsrmReportLimit_MaxQuotas
 ms.prod: windows-hardware
 ms.technology: windows-devices

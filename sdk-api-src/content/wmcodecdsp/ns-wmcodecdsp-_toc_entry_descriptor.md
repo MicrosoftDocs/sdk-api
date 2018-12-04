@@ -7,7 +7,7 @@ old-location: mf\toc_entry_descriptor.htm
 tech.root: medfound
 ms.assetid: 05e9bf59-5dd8-410f-8e42-25bfb555dd40
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: TOC_ENTRY_DESCRIPTOR, TOC_ENTRY_DESCRIPTOR structure [Media Foundation], _TOC_ENTRY_DESCRIPTOR, codecapi.toc_entry_descriptor, mf.toc_entry_descriptor, wmcodecdsp/TOC_ENTRY_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IVdsDiskOnline
 author: windows-sdk-content
 description: Provides methods to bring a disk online and take it offline.Windows Vista:  This interface is not supported until Windows Vista with Service Pack 1 (SP1). Use IVdsDisk2 instead.
 old-location: base\ivdsdiskonline.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: f30ceaa0-ff4b-49fb-b140-b6725810cd06
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVdsDiskOnline, IVdsDiskOnline interface, IVdsDiskOnline interface,described, base.ivdsdiskonline, vds/IVdsDiskOnline
 ms.prod: windows-hardware
 ms.technology: windows-devices

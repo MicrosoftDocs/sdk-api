@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder_getbasepnpid.htm
 tech.root: imapi
 ms.assetid: 02ca36dd-bd76-41b8-90ce-6c026152cdbe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetBasePnPID, GetBasePnPID method [IMAPI], GetBasePnPID method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetBasePnPID method, IDiscRecorder.GetBasePnPID, IDiscRecorder::GetBasePnPID, _win32_idiscrecorder_getbasepnpid, base.idiscrecorder_getbasepnpid, imapi.idiscrecorder_getbasepnpid, imapi/IDiscRecorder::GetBasePnPID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi.h
-: 
-- IDiscRecorder.GetBasePnPID
-: 
 ---
 
 # IDiscRecorder::GetBasePnPID

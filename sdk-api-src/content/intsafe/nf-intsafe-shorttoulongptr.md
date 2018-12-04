@@ -7,7 +7,7 @@ old-location: shell\ShortToULongPtr.htm
 tech.root: shell
 ms.assetid: 92600b01-55da-4f71-bbfd-96df43c1b6a5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ShortToULongPtr, ShortToULongPtr function [Windows Shell], intsafe/ShortToULongPtr, shell.ShortToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ShortToULongPtr
-: 
 ---
 
 # ShortToULongPtr function

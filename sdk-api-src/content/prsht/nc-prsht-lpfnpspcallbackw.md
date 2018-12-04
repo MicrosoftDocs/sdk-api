@@ -4,10 +4,10 @@ title: LPFNPSPCALLBACKW
 author: windows-sdk-content
 description: Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page.
 old-location: controls\PropSheetPageProc.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetpageproc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: LPFNPSPCALLBACK, LPFNPSPCALLBACK callback, LPFNPSPCALLBACK callback function [Windows Controls], LPFNPSPCALLBACKA, LPFNPSPCALLBACKW, PSPCB_ADDREF, PSPCB_CREATE, PSPCB_RELEASE, _win32_PropSheetPageProc, _win32_PropSheetPageProc_cpp, controls.PropSheetPageProc, controls._win32_PropSheetPageProc, prsht/LPFNPSPCALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

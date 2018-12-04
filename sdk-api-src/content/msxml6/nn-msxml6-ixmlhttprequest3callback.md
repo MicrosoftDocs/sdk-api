@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest3callback.htm
 tech.root: ixhr2
 ms.assetid: f745669a-a594-457d-ae6b-952a55576bae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IXMLHTTPRequest3Callback, IXMLHTTPRequest3Callback interface [XMLHttpRequest2], IXMLHTTPRequest3Callback interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest3callback, msxml6/IXMLHTTPRequest3Callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itffnconfigure.htm
 tech.root: TSF
 ms.assetid: af23e668-9c00-4e53-89b6-c8be85ae961b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfFnConfigure, ITfFnConfigure interface [Text Services Framework], ITfFnConfigure interface [Text Services Framework],described, _tsf_itffnconfigure_ref, ctffunc/ITfFnConfigure, tsf.itffnconfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,14 +52,14 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 The <b>ITfFnConfigure</b> interface is implemented by a text service to enable the Text Services control panel application to allow the text service to display a configuration dialog box.
 
-The Text Services control panel application obtains an instance of this interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the class identifier passed to <a href="https://msdn.microsoft.com/en-us/library/ms628573(v=VS.85).aspx">ITfInputProcessorProfiles::Register</a> and IID_ITfFnConfigure.
+The Text Services control panel application obtains an instance of this interface by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with the class identifier passed to <a href="https://msdn.microsoft.com/264bc32e-60a2-4dff-a212-5682d30a769e">ITfInputProcessorProfiles::Register</a> and IID_ITfFnConfigure.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnConfigure</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfFnConfigure</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnConfigure</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfFnConfigure</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>ITfFnConfigure</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538930(v=VS.85).aspx">Show</a>
+<a href="https://msdn.microsoft.com/34670748-460b-4ece-b742-83b0cf87d901">Show</a>
 </td>
 <td align="left" width="63%">
 Called when the user opens the Text Services control panel application, selects the text service from the list and presses the Properties pushbutton.
@@ -87,7 +87,7 @@ Called when the user opens the Text Services control panel application, selects 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 
@@ -101,7 +101,7 @@ Called when the user opens the Text Services control panel application, selects 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

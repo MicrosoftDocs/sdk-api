@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidRect.get_HWnd
-: 
 ---
 
 # IMSVidRect::get_HWnd

@@ -4,10 +4,10 @@ title: IAzScope::get_Writable
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the scope can be modified by the user context that initialized it.
 old-location: security\iazscope_writable.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 8e382af1-192f-4530-82a0-434f66eac060
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AzScope object [Security],Writable property, IAzScope interface [Security],Writable property, IAzScope.Writable, IAzScope.get_Writable, IAzScope::Writable, IAzScope::get_Writable, Writable property [Security], Writable property [Security],AzScope object, Writable property [Security],IAzScope interface, azroles/IAzScope::Writable, azroles/IAzScope::get_Writable, get_Writable, security.iazscope_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzScope.get_Writable
-: 
 ---
 
 # IAzScope::get_Writable

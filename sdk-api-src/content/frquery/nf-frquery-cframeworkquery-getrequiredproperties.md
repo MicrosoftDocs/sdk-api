@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- frquery.h
-: 
-- CFrameworkQuery.GetRequiredProperties
-: 
 ---
 
 # CFrameworkQuery::GetRequiredProperties

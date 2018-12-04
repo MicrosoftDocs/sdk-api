@@ -4,10 +4,10 @@ title: "_HTTP_SERVICE_CONFIG_SSL_CCS_QUERY"
 author: windows-sdk-content
 description: Specifies a Secure Sockets Layer (SSL) configuration to query for an SSL Centralized Certificate Store (CCS) record on the port when you call the HttpQueryServiceConfiguration function.
 old-location: http\http_service_config_ssl_ccs_query.htm
-tech.root: Http
+tech.root: http
 ms.assetid: E7578D74-E8BE-472D-A01B-51BBA511F561
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, http.http_service_config_ssl_ccs_query, http/HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, http/PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

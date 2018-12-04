@@ -7,7 +7,7 @@ old-location: com\ifont_get_underline.htm
 tech.root: com
 ms.assetid: 714a2678-6e3d-4b8d-8632-20eb41618fff
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IFont interface [COM],get_Underline method, IFont.get_Underline, IFont::get_Underline, _ctrl_ifont_get_underline, com.ifont_get_underline, get_Underline, get_Underline method [COM], get_Underline method [COM],IFont interface, ocidl/IFont::get_Underline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ocidl.h
-: 
-- IFont.get_Underline
-: 
 ---
 
 # IFont::get_Underline

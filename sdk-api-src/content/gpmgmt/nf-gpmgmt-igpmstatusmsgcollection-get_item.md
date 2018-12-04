@@ -4,10 +4,10 @@ title: IGPMStatusMsgCollection::get_Item
 author: windows-sdk-content
 description: Given an index, returns a message from the collection.
 old-location: gpmc\igpmstatusmsgcollection_get_item.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 5cef3e5c-7255-4d38-89cc-4726dfaccd1a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GPMStatusMsgCollection class [GPMC],Item property, IGPMStatusMsgCollection interface [GPMC],Item property, IGPMStatusMsgCollection.Item, IGPMStatusMsgCollection.get_Item, IGPMStatusMsgCollection::Item, IGPMStatusMsgCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMStatusMsgCollection class, Item property [GPMC],IGPMStatusMsgCollection interface, _win32_igpmstatusmsgcollection_get_item, get_Item, gpmc.igpmstatusmsgcollection_get_item, gpmgmt/IGPMStatusMsgCollection::Item, gpmgmt/IGPMStatusMsgCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMStatusMsgCollection.get_Item
-: 
 ---
 
 # IGPMStatusMsgCollection::get_Item

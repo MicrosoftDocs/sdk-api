@@ -7,7 +7,7 @@ old-location: search\icolumnmappercreator_getcolumnmapper.htm
 tech.root: search
 ms.assetid: DFFB27B0-EB82-41A4-A7EE-82495023DD2D
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetColumnMapper, GetColumnMapper method [search], GetColumnMapper method [search],IColumnMapperCreator interface, IColumnMapperCreator interface [search],GetColumnMapper method, IColumnMapperCreator.GetColumnMapper, IColumnMapperCreator::GetColumnMapper, indexsrv/IColumnMapperCreator::GetColumnMapper, search.icolumnmappercreator_getcolumnmapper
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack
-- apiref
-: 
-- COM
-: 
-- indexsrv.h
-: 
-- IColumnMapperCreator.GetColumnMapper
-: 
 ---
 
 # IColumnMapperCreator::GetColumnMapper

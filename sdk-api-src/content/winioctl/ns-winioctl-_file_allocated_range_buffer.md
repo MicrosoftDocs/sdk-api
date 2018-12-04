@@ -7,7 +7,7 @@ old-location: fs\file_allocated_range_buffer_str.htm
 tech.root: fileio
 ms.assetid: e9c7d757-df29-4419-baba-56beb41623bf
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PFILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER structure [Files], PFILE_ALLOCATED_RANGE_BUFFER, PFILE_ALLOCATED_RANGE_BUFFER structure pointer [Files], _FILE_ALLOCATED_RANGE_BUFFER, _win32_file_allocated_range_buffer_str, base.file_allocated_range_buffer_str, fs.file_allocated_range_buffer_str, winioctl/FILE_ALLOCATED_RANGE_BUFFER, winioctl/PFILE_ALLOCATED_RANGE_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

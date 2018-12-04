@@ -7,7 +7,7 @@ old-location: shell\ISearchFolderItemFactory_SetScope.htm
 tech.root: shell
 ms.assetid: 0dd87a75-f172-4294-81cb-95207b04b3c5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetScope method, ISearchFolderItemFactory.SetScope, ISearchFolderItemFactory::SetScope, SetScope, SetScope method [Windows Shell], SetScope method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetScope, shell.ISearchFolderItemFactory_SetScope, shobjidl_core/ISearchFolderItemFactory::SetScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- ISearchFolderItemFactory.SetScope
-: 
 ---
 
 # ISearchFolderItemFactory::SetScope

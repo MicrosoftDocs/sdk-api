@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DeleteIpForwardEntry2
-: 
 ---
 
 # DeleteIpForwardEntry2 function

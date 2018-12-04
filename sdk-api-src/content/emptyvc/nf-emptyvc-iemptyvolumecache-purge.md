@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- emptyvc.h
-: 
-- IEmptyVolumeCache.Purge
-: 
 ---
 
 # IEmptyVolumeCache::Purge

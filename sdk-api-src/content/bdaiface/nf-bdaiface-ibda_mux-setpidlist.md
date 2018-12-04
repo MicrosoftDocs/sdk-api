@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdaiface.h
-: 
-- IBDA_MUX.SetPidList
-: 
 ---
 
 # IBDA_MUX::SetPidList
@@ -73,7 +65,7 @@ The number of elements in the <i>pbPidListBuffer</i> array.
 
 ### -param pbPidListBuffer [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd693013(v=VS.85).aspx">BDA_MUX_PIDLISTITEM</a> structures.
+Pointer to an array of <a href="https://msdn.microsoft.com/50355317-7133-445c-9990-ab536801e555">BDA_MUX_PIDLISTITEM</a> structures.
 
 
 ## -returns
@@ -90,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693403(v=VS.85).aspx">IBDA_MUX</a>
+<a href="https://msdn.microsoft.com/5dde7b14-d5a4-4db5-b91f-d6bfd4be269d">IBDA_MUX</a>
  
 
  

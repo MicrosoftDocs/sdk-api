@@ -7,7 +7,7 @@ old-location: display\engtextout.htm
 tech.root: display
 ms.assetid: 7891692e-a4e1-401a-99e0-ed8135dc6f1d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EngTextOut, EngTextOut function [Display Devices], display.engtextout, gdifncs_e383ce94-952d-48e3-a814-afd38822aad2.xml, winddi/EngTextOut
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngTextOut
-: 
 ---
 
 # EngTextOut function

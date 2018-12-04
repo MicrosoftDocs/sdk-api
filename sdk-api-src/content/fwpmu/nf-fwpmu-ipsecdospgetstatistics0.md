@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecDospGetStatistics0
-: 
 ---
 
 # IPsecDospGetStatistics0 function

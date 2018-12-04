@@ -7,7 +7,7 @@ old-location: properties\PSRegisterPropertySchema.htm
 tech.root: properties
 ms.assetid: ea9c4361-fada-4b07-b450-dd0c6409745a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PSRegisterPropertySchema, PSRegisterPropertySchema function [Windows Properties], properties.PSRegisterPropertySchema, propsys/PSRegisterPropertySchema, shell.PSRegisterPropertySchema, shell_PSRegisterPropertySchema
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PSRegisterPropertySchema
-: 
 ---
 
 # PSRegisterPropertySchema function
@@ -127,7 +121,7 @@ One or more property descriptions in the schema failed to register. The specific
 
 
 
-This function is a wrapper API for the schema subsystem's implementation of <a href="https://msdn.microsoft.com/library/Bb761441(v=VS.85).aspx">IPropertySystem::RegisterPropertySchema</a>. Call this function only when the file is first installed on the computer. Typically, a setup application calls this function after it installs the .propdesc file, which should be stored in the install directory of the application under Program Files. Multiple calls can be made to <b>IPropertySystem::RegisterPropertySchema</b> in order to register multiple schema files.
+This function is a wrapper API for the schema subsystem's implementation of <a href="shell.IPropertySystem_RegisterPropertySchema">IPropertySystem::RegisterPropertySchema</a>. Call this function only when the file is first installed on the computer. Typically, a setup application calls this function after it installs the .propdesc file, which should be stored in the install directory of the application under Program Files. Multiple calls can be made to <b>IPropertySystem::RegisterPropertySchema</b> in order to register multiple schema files.
 
 When registering property schema files, remember that they can be read by processes running as different users. Therefore, it is important to place a schema file in a location that grants read access to all users on the machine. Similarly, use the absolute path to the file in this function's <i>pszPath</i> parameter.
 

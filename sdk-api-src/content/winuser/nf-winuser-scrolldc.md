@@ -4,10 +4,10 @@ title: ScrollDC function
 author: windows-sdk-content
 description: The ScrollDC function scrolls a rectangle of bits horizontally and vertically.
 old-location: controls\ScrollDC.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrolldc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ScrollDC, ScrollDC function [Windows Controls], _win32_ScrollDC, _win32_ScrollDC_cpp, controls.ScrollDC, controls._win32_ScrollDC, winuser/ScrollDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ScrollDC
-: 
 ---
 
 # ScrollDC function
@@ -144,7 +138,7 @@ If the
 				<i>lprcUpdate</i> parameters are <b>NULL</b>, the system does not compute the update region. If 
 				<i>hrgnUpdate</i> is not <b>NULL</b>, the system proceeds as though it contains a valid handle to the region uncovered by the scrolling process (defined by <b>ScrollDC</b>). 
 
-When you must scroll the entire client area of a window, use the <a href="https://msdn.microsoft.com/en-us/library/Bb787593(v=VS.85).aspx">ScrollWindowEx</a> function. 
+When you must scroll the entire client area of a window, use the <a href="https://msdn.microsoft.com/5e6429a0-ea71-4628-9e6e-7ed5096b6f1f">ScrollWindowEx</a> function. 
 
 
 
@@ -170,7 +164,7 @@ When you must scroll the entire client area of a window, use the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787593(v=VS.85).aspx">ScrollWindowEx</a>
+<a href="https://msdn.microsoft.com/5e6429a0-ea71-4628-9e6e-7ed5096b6f1f">ScrollWindowEx</a>
  
 
  

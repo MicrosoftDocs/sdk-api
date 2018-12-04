@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice2_getspecifypropertypages.htm
 tech.root: WMDM
 ms.assetid: bc46af60-5d74-4ac6-b680-c47b55c444e0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetSpecifyPropertyPages, GetSpecifyPropertyPages method [windows Media Device Manager], GetSpecifyPropertyPages method [windows Media Device Manager],IWMDMDevice2 interface, IWMDMDevice2 interface [windows Media Device Manager],GetSpecifyPropertyPages method, IWMDMDevice2.GetSpecifyPropertyPages, IWMDMDevice2::GetSpecifyPropertyPages, IWMDMDevice2GetSpecifyPropertyPages, mswmdm/IWMDMDevice2::GetSpecifyPropertyPages, wmdm.iwmdmdevice2_getspecifypropertypages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mswmdm.h
-: 
-- IWMDMDevice2.GetSpecifyPropertyPages
-: 
 ---
 
 # IWMDMDevice2::GetSpecifyPropertyPages

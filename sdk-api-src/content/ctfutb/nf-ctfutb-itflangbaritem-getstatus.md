@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritem_getstatus.htm
 tech.root: TSF
 ms.assetid: 2f850553-ec79-4e2f-a4d5-c40dbaca0f01
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetStatus method, ITfLangBarItem.GetStatus, ITfLangBarItem::GetStatus, _tsf_itflangbaritem_getstatus_ref, ctfutb/ITfLangBarItem::GetStatus, tsf.itflangbaritem_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctfutb.h
-: 
-- ITfLangBarItem.GetStatus
-: 
 ---
 
 # ITfLangBarItem::GetStatus
@@ -67,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pdwStatus [out]
 
-Pointer to a <b>DWORD</b> that receives zero or a combination of one or more of the <a href="https://msdn.microsoft.com/en-us/library/ms629077(v=VS.85).aspx">TF_LBI_STATUS_*</a> values that indicate the current status of the item.
+Pointer to a <b>DWORD</b> that receives zero or a combination of one or more of the <a href="https://msdn.microsoft.com/5f2c0e61-f7e5-4dcc-86a3-7bd1c994b8bc">TF_LBI_STATUS_*</a> values that indicate the current status of the item.
 
 
 ## -returns
@@ -114,7 +106,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628701(v=VS.85).aspx">ITfLangBarItem</a>
+<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual_get_Script.htm
 tech.root: shell
 ms.assetid: 9d683cda-0fe0-4984-b556-a6dd1223ca4c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Script method, IShellFolderViewDual.get_Script, IShellFolderViewDual::get_Script, _shell_IShellFolderViewDual_get_Script, get_Script, get_Script method [Windows Shell], get_Script method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Script, shldisp/IShellFolderViewDual::get_Script
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shldisp.h
-: 
-- IShellFolderViewDual.get_Script
-: 
 ---
 
 # IShellFolderViewDual::get_Script
@@ -68,7 +60,7 @@ Gets the scripting object for the view.
 
 ### -param ppDisp [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
 The scripting object for the view. This represents the scripting automation model.
 

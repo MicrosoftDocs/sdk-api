@@ -7,7 +7,7 @@ old-location: shell\PERSIST_FOLDER_TARGET_INFO_str.htm
 tech.root: shell
 ms.assetid: 74441551-c315-4203-a4f5-cd4e6c57b58b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: CSIDL_FLAG_CREATE, CSIDL_FLAG_PFTI_TRACKTARGET, PERSIST_FOLDER_TARGET_INFO, PERSIST_FOLDER_TARGET_INFO structure [Windows Shell], _PERSIST_FOLDER_TARGET_INFO, _win32_PERSIST_FOLDER_TARGET_INFO_str, shell.PERSIST_FOLDER_TARGET_INFO_str, shobjidl_core/PERSIST_FOLDER_TARGET_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

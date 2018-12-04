@@ -7,7 +7,7 @@ old-location: coreaudio\iconnector.htm
 tech.root: CoreAudio
 ms.assetid: 6eb5b439-3ac7-4c0b-84e2-b246c1b946a5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IConnector, IConnector interface [Core Audio], IConnector interface [Core Audio],described, coreaudio.iconnector, devicetopology/IConnector
 ms.prod: windows-hardware
 ms.technology: windows-devices

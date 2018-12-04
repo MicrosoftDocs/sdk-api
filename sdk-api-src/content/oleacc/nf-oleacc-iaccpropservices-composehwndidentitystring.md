@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__composehwndidentitystri
 tech.root: WinAuto
 ms.assetid: e6712e47-7f00-4932-9a12-40ecafdbf584
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ComposeHwndIdentityString, ComposeHwndIdentityString method [Windows Accessibility], ComposeHwndIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ComposeHwndIdentityString method, IAccPropServices.ComposeHwndIdentityString, IAccPropServices::ComposeHwndIdentityString, _msaa_IAccPropServices_ComposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__composehwndidentitystring, oleacc/IAccPropServices::ComposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__composehwndidentitystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
-- apiref
-: 
-- COM
-: 
-- oleacc.h
-: 
-- IAccPropServices.ComposeHwndIdentityString
-: 
 ---
 
 # IAccPropServices::ComposeHwndIdentityString

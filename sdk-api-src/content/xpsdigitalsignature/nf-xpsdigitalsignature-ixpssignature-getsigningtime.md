@@ -7,7 +7,7 @@ old-location: xps\ixpssignature_getsigningtime.htm
 tech.root: printdocs
 ms.assetid: 47edfe80-2111-4e87-bb11-056cf939bdd9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetSigningTime, GetSigningTime method [XPS Documents and Packaging], GetSigningTime method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSigningTime method, IXpsSignature.GetSigningTime, IXpsSignature::GetSigningTime, xps.ixpssignature_getsigningtime, xpsdigitalsignature/IXpsSignature::GetSigningTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsdigitalsignature.h
-: 
-- IXpsSignature.GetSigningTime
-: 
 ---
 
 # IXpsSignature::GetSigningTime
@@ -118,7 +110,7 @@ The date-time string returned in <i>sigDateTimeString</i> is in a  W3C date-time
 
 To get the specific format of the date-time string that is returned in <i>sigDateTimeString</i>, call <a href="https://msdn.microsoft.com/a75df35c-dd12-4217-a6f8-91401be46225">GetSigningTimeFormat</a>.
 
-This method allocates the memory used by the string that is returned in <i>sigDateTimeString</i>.  If <i>sigDateTimeString</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>sigDateTimeString</i>.  If <i>sigDateTimeString</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

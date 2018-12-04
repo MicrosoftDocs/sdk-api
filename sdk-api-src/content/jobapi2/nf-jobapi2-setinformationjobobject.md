@@ -4,10 +4,10 @@ title: SetInformationJobObject function
 author: windows-sdk-content
 description: Sets limits for a job object.
 old-location: base\setinformationjobobject.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 46f7c579-e8d3-4434-a6ce-56573cd84387
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: JobObjectAssociateCompletionPortInformation, JobObjectBasicLimitInformation, JobObjectBasicUIRestrictions, JobObjectCpuRateControlInformation, JobObjectEndOfJobTimeInformation, JobObjectExtendedLimitInformation, JobObjectGroupInformation, JobObjectGroupInformationEx, JobObjectLimitViolationInformation2, JobObjectNetRateControlInformation, JobObjectNotificationLimitInformation, JobObjectNotificationLimitInformation2, JobObjectSecurityLimitInformation, SetInformationJobObject, SetInformationJobObject function, _win32_setinformationjobobject, base.setinformationjobobject, jobapi2/SetInformationJobObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetInformationJobObject
-: 
 ---
 
 # SetInformationJobObject function

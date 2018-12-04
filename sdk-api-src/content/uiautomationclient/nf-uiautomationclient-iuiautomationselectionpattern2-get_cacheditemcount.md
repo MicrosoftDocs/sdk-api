@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedItemCount.htm
 tech.root: WinAuto
 ms.assetid: B00450CF-58CD-4FB7-AE0A-AB89350D9B02
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CachedItemCount property [Windows Accessibility], CachedItemCount property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedItemCount property, IUIAutomationSelectionPattern2.CachedItemCount, IUIAutomationSelectionPattern2.get_CachedItemCount, IUIAutomationSelectionPattern2::CachedItemCount, IUIAutomationSelectionPattern2::get_CachedItemCount, IUIAutomationSelectionPattern2::put_CachedItemCount, get_CachedItemCount, uiautomationclient/IUIAutomationSelectionPattern2::CachedItemCount, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedItemCount, uiautomationclient/IUIAutomationSelectionPattern2::put_CachedItemCount, winauto.uiauto_IUIAutomationSelectionPattern2_CachedItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationSelectionPattern2.get_CachedItemCount
-: 
 ---
 
 # IUIAutomationSelectionPattern2::get_CachedItemCount

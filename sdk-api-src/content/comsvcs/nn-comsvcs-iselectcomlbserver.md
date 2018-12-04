@@ -7,7 +7,7 @@ old-location: cos\iselectcomlbserver.htm
 tech.root: cossdk
 ms.assetid: ce2edece-6375-4101-b288-c250fb21cfb7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISelectCOMLBServer, ISelectCOMLBServer interface [COM+], ISelectCOMLBServer interface [COM+],described, _cos_ISelectCOMLBServer, comsvcs/ISelectCOMLBServer, cos.iselectcomlbserver
 ms.prod: windows-hardware
 ms.technology: windows-devices

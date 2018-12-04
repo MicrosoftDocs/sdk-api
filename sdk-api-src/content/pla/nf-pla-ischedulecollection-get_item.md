@@ -4,10 +4,10 @@ title: IScheduleCollection::get_Item
 author: windows-sdk-content
 description: Retrieves the requested schedule from the collection.
 old-location: pla\ischedulecollection_item.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: ba889b2e-f822-41ca-a908-ade83ae7cf10
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IScheduleCollection interface [PLA],Item property, IScheduleCollection.Item, IScheduleCollection.get_Item, IScheduleCollection::Item, IScheduleCollection::get_Item, Item property [PLA], Item property [PLA],IScheduleCollection interface, base.ischedulecollection_item, get_Item, pla.ischedulecollection_item, pla/IScheduleCollection::Item, pla/IScheduleCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IScheduleCollection.get_Item
-: 
 ---
 
 # IScheduleCollection::get_Item

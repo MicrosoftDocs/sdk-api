@@ -4,10 +4,10 @@ title: QUERYCLIENTCERT
 author: windows-sdk-content
 description: Enables the server to request a certificate from the client when establishing a Secure Sockets Layer (SSL) connection.
 old-location: ldap\queryclientcert.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: c2788fb9-14db-41d2-9555-ae264f825121
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: QUERYCLIENTCERT, QUERYCLIENTCERT callback, QUERYCLIENTCERT callback function [LDAP], _ldap_queryclientcert, ldap.queryclientcert, winldap/QUERYCLIENTCERT
 ms.prod: windows-hardware
 ms.technology: windows-devices

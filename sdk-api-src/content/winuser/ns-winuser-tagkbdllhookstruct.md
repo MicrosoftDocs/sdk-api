@@ -7,7 +7,7 @@ old-location: winmsg\kbdllhookstruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\kbdllhookstruct.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPKBDLLHOOKSTRUCT, *PKBDLLHOOKSTRUCT, KBDLLHOOKSTRUCT, KBDLLHOOKSTRUCT structure [Windows and Messages], LLKHF_ALTDOWN, LLKHF_EXTENDED, LLKHF_INJECTED, LLKHF_LOWER_IL_INJECTED, LLKHF_UP, LPKBDLLHOOKSTRUCT, LPKBDLLHOOKSTRUCT structure pointer [Windows and Messages], PKBDLLHOOKSTRUCT, PKBDLLHOOKSTRUCT structure pointer [Windows and Messages], _win32_KBDLLHOOKSTRUCT_str, _win32_kbdllhookstruct_str_cpp, tagKBDLLHOOKSTRUCT, winmsg.kbdllhookstruct, winui._win32_kbdllhookstruct_str, winuser/KBDLLHOOKSTRUCT, winuser/LPKBDLLHOOKSTRUCT, winuser/PKBDLLHOOKSTRUCT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Contains information about a low-level keyboard input event.
 
 Type: <b>DWORD</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">virtual-key code</a>. The code must be a value in the range 1 to 254. 
+A <a href="https://msdn.microsoft.com/fa8926ad-41b2-4164-9ba3-ae501fd0eef2">virtual-key code</a>. The code must be a value in the range 1 to 254. 
 
 
 ### -field scanCode
@@ -184,7 +184,7 @@ The following table describes the layout of this value.
 
 Type: <b>DWORD</b>
 
-The time stamp for this message, equivalent to what <a href="https://msdn.microsoft.com/en-us/library/ms644939(v=VS.85).aspx">GetMessageTime</a> would return for this message.
+The time stamp for this message, equivalent to what <a href="https://msdn.microsoft.com/e65edd3d-e64e-41a6-bf38-d79663b673e9">GetMessageTime</a> would return for this message.
 
 
 ### -field dwExtraInfo
@@ -203,11 +203,11 @@ Additional information associated with the message.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://msdn.microsoft.com/987095d7-059f-4eae-925d-6723ab6d524c">Hooks</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644985(v=VS.85).aspx">LowLevelKeyboardProc</a>
+<a href="https://msdn.microsoft.com/9d66accd-04cd-4839-b826-1c85dfb3b24e">LowLevelKeyboardProc</a>
 
 
 
@@ -215,7 +215,7 @@ Additional information associated with the message.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a>
  
 
  

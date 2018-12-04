@@ -4,10 +4,10 @@ title: ITextFont::SetStyle
 author: windows-sdk-content
 description: Sets the character style handle of the characters in a range.
 old-location: controls\ITextFont_SetStyle.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetstyle.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ITextFont interface [Windows Controls],SetStyle method, ITextFont.SetStyle, ITextFont::SetStyle, SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls],ITextFont interface, _win32_ITextFont_SetStyle, _win32_ITextFont_SetStyle_cpp, controls.ITextFont_SetStyle, controls._win32_ITextFont_SetStyle, tom/ITextFont::SetStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextFont.SetStyle
-: 
 ---
 
 # ITextFont::SetStyle
@@ -154,11 +146,11 @@ The Text Object Model (TOM) version 1.0 does not specify the meanings of the sty
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787861(v=VS.85).aspx">GetStyle</a>
+<a href="https://msdn.microsoft.com/8ebe767e-1f64-4d12-bf11-85b6253d86ce">GetStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -166,7 +158,7 @@ The Text Object Model (TOM) version 1.0 does not specify the meanings of the sty
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

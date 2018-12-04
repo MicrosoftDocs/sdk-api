@@ -7,7 +7,7 @@ old-location: mf\mfserializepresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: f39a0dc8-438e-4723-94e4-a194a0a460e3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFSerializePresentationDescriptor, MFSerializePresentationDescriptor function [Media Foundation], f39a0dc8-438e-4723-94e4-a194a0a460e3, mf.mfserializepresentationdescriptor, mfidl/MFSerializePresentationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFSerializePresentationDescriptor
-: 
 ---
 
 # MFSerializePresentationDescriptor function

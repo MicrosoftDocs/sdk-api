@@ -7,7 +7,7 @@ old-location: mf\iadvancedmediacaptureInitializationsettings_setdirectxdeviceman
 tech.root: medfound
 ms.assetid: 556923c5-711e-4ace-8657-298be55dd7b0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IAdvancedMediaCaptureInitializationSettings interface [Media Foundation],SetDirectxDeviceManager method, IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager, IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager, SetDirectxDeviceManager, SetDirectxDeviceManager method [Media Foundation], SetDirectxDeviceManager method [Media Foundation],IAdvancedMediaCaptureInitializationSettings interface, mf.iadvancedmediacaptureInitializationsettings_setdirectxdevicemanager, mfmediacapture/IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfmediacapture.h
-: 
-- IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager
-: 
 ---
 
 # IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager

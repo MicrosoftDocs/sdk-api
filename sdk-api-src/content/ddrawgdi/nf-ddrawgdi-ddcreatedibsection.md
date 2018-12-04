@@ -4,10 +4,10 @@ title: DdCreateDIBSection function
 author: windows-sdk-content
 description: Creates a DIBSECTION structure that shares its color table with the device. GdiEntry9 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddcreatedibsection.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatedibsection.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DdCreateDIBSection, DdCreateDIBSection function [Windows API], GdiEntry9, _dxgkernel_ddcreatedibsection, ddrawgdi/DdCreateDIBSection, ddrawgdi/GdiEntry9, winprog._dxgkernel_ddcreatedibsection, winui._dxgkernel_ddcreatedibsection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DdCreateDIBSection
-: 
 ---
 
 # DdCreateDIBSection function
@@ -140,7 +134,7 @@ Applications are advised to use <a href="https://msdn.microsoft.com/be686d56-c24
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
  
 
  

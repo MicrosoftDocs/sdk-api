@@ -4,10 +4,10 @@ title: GetThemeSysSize function
 author: windows-sdk-content
 description: Retrieves the value of a system size metric from theme data.
 old-location: controls\GetThemeSysSize.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyssize.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetThemeSysSize, GetThemeSysSize function [Windows Controls], SM_CXBORDER, SM_CXHSCROLL, SM_CXMENUSIZE, SM_CXPADDEDBORDER, SM_CXSIZE, SM_CXSMSIZE, SM_CXVSCROLL, SM_CYMENUSIZE, SM_CYSIZE, SM_CYSMSIZE, controls.GetThemeSysSize, controls.inet_GetThemeSysSize, inet_GetThemeSysSize, inet_GetThemeSysSize_cpp, uxtheme/GetThemeSysSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetThemeSysSize
-: 
 ---
 
 # GetThemeSysSize function

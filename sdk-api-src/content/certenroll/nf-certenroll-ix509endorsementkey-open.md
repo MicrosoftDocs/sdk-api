@@ -4,10 +4,10 @@ title: IX509EndorsementKey::Open
 author: windows-sdk-content
 description: Opens the endorsement key. The endorsement key must be open before you can retrieve an information from the endorsement key, add or remove certificates, or export the endorsement key.
 old-location: security\ix509endorsementkey_open.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 06855fc0-0d87-4fe7-9525-55eb60bffcd1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IX509EndorsementKey interface [Security],Open method, IX509EndorsementKey.Open, IX509EndorsementKey::Open, Open, Open method [Security], Open method [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Open, security.ix509endorsementkey_open
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509EndorsementKey.Open
-: 
 ---
 
 # IX509EndorsementKey::Open
@@ -82,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379356(v=VS.85).aspx">IX509EndorsementKey</a>
+<a href="https://msdn.microsoft.com/24f063a7-02e3-47cf-89ca-ebc63bf3e2dc">IX509EndorsementKey</a>
  
 
  

@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Get_Parent
-: 
 ---
 
 # CM_Get_Parent function

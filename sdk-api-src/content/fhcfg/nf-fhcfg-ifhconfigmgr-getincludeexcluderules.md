@@ -4,10 +4,10 @@ title: IFhConfigMgr::GetIncludeExcludeRules
 author: windows-sdk-content
 description: Retrieves the inclusion and exclusion rules that are currently stored in an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_getincludeexcluderules.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: DE137C08-923D-4ADC-8EBC-2F277F72CAE4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: FhConfigMgr class [Windows API],GetIncludeExcludeRules method, GetIncludeExcludeRules, GetIncludeExcludeRules method [Windows API], GetIncludeExcludeRules method [Windows API],FhConfigMgr class, GetIncludeExcludeRules method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetIncludeExcludeRules method, IFhConfigMgr.GetIncludeExcludeRules, IFhConfigMgr::GetIncludeExcludeRules, fhcfg/IFhConfigMgr::GetIncludeExcludeRules, winprog.ifhconfigmgr_getincludeexcluderules
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fhcfg.h
-: 
-- IFhConfigMgr.GetIncludeExcludeRules
-: 
 ---
 
 # IFhConfigMgr::GetIncludeExcludeRules

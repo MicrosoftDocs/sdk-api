@@ -7,7 +7,7 @@ old-location: ad\dsreplicaverifyobjects.htm
 tech.root: ad
 ms.assetid: d0e139dc-6aaf-47e1-a76f-4e84f17aa7c6
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: DS_EXIST_ADVISORY_MODE, DsReplicaVerifyObjects, DsReplicaVerifyObjects function [Active Directory], DsReplicaVerifyObjectsA, DsReplicaVerifyObjectsW, ad.dsreplicaverifyobjects, ntdsapi/DsReplicaVerifyObjects, ntdsapi/DsReplicaVerifyObjectsA, ntdsapi/DsReplicaVerifyObjectsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DsReplicaVerifyObjectsA
-: 
 ---
 
 # DsReplicaVerifyObjectsA function

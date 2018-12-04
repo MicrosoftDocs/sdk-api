@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MultiplyExtract128
-: 
 ---
 
 # MultiplyExtract128 function

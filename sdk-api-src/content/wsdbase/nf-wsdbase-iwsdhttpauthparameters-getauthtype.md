@@ -4,10 +4,10 @@ title: IWSDHttpAuthParameters::GetAuthType
 author: windows-sdk-content
 description: GetAuthType method retrieves the HTTP authentication scheme used during the authentication of the client.
 old-location: ncd\iwsdhttpauthparameters_getauthtype.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: F5D218DD-474B-4562-8877-D159394AF365
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetAuthType, GetAuthType method, GetAuthType method,IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,GetAuthType method, IWSDHttpAuthParameters.GetAuthType, IWSDHttpAuthParameters::GetAuthType, WSD_SECURITY_HTTP_AUTH_SCHEME_NEGOTIATE, WSD_SECURITY_HTTP_AUTH_SCHEME_NTLM, ncd.iwsdhttpauthparameters_getauthtype, wsdbase/IWSDHttpAuthParameters::GetAuthType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdbase.h
-: 
-- IWSDHttpAuthParameters.GetAuthType
-: 
 ---
 
 # IWSDHttpAuthParameters::GetAuthType

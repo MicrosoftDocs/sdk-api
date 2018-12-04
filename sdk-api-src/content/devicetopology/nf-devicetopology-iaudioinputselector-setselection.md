@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioinputselector_setselection.htm
 tech.root: CoreAudio
 ms.assetid: b6291447-d3a9-4bc7-808c-9427e1642752
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAudioInputSelector interface [Core Audio],SetSelection method, IAudioInputSelector.SetSelection, IAudioInputSelector::SetSelection, IAudioInputSelectorSetSelection, SetSelection, SetSelection method [Core Audio], SetSelection method [Core Audio],IAudioInputSelector interface, coreaudio.iaudioinputselector_setselection, devicetopology/IAudioInputSelector::SetSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- devicetopology.h
-: 
-- IAudioInputSelector.SetSelection
-: 
 ---
 
 # IAudioInputSelector::SetSelection

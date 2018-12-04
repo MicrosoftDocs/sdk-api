@@ -7,7 +7,7 @@ old-location: multimedia\pcmwaveformat.htm
 tech.root: Multimedia
 ms.assetid: c09dc3f0-e1bc-4643-9b27-bcf1dcc5710c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPPCMWAVEFORMAT, *NPPCMWAVEFORMAT, *PPCMWAVEFORMAT, PCMWAVEFORMAT, PCMWAVEFORMAT structure [Windows Multimedia], _win32_PCMWAVEFORMAT_str, mmeapi/PCMWAVEFORMAT, multimedia.pcmwaveformat, pcmwaveformat_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices

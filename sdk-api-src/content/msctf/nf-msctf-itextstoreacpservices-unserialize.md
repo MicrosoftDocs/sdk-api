@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpservices_unserialize.htm
 tech.root: TSF
 ms.assetid: 4eb2f2b9-51fb-4970-a195-c05e1d19ff99
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITextStoreACPServices interface [Text Services Framework],Unserialize method, ITextStoreACPServices.Unserialize, ITextStoreACPServices::Unserialize, Unserialize, Unserialize method [Text Services Framework], Unserialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_unserialize_ref, msctf/ITextStoreACPServices::Unserialize, tsf.itextstoreacpservices_unserialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITextStoreACPServices.Unserialize
-: 
 ---
 
 # ITextStoreACPServices::Unserialize

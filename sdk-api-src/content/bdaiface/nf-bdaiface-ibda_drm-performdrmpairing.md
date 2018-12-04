@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdaiface.h
-: 
-- IBDA_DRM.PerformDRMPairing
-: 
 ---
 
 # IBDA_DRM::PerformDRMPairing
@@ -84,7 +76,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-If you call this method asynchronously (<i>fSync</i> equal to <b>FALSE</b>), you can poll the status of the operation by calling <a href="https://msdn.microsoft.com/en-us/library/Dd693319(v=VS.85).aspx">IBDA_DRM::GetDRMPairingStatus</a>. While the operation is in progress, <b>GetDRMPairingStatus</b> returns S_FALSE.
+If you call this method asynchronously (<i>fSync</i> equal to <b>FALSE</b>), you can poll the status of the operation by calling <a href="https://msdn.microsoft.com/dff38609-9e90-491c-b8c4-33fd07471895">IBDA_DRM::GetDRMPairingStatus</a>. While the operation is in progress, <b>GetDRMPairingStatus</b> returns S_FALSE.
 
 
 
@@ -94,7 +86,7 @@ If you call this method asynchronously (<i>fSync</i> equal to <b>FALSE</b>), you
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693315(v=VS.85).aspx">IBDA_DRM Interface</a>
+<a href="https://msdn.microsoft.com/d0bde207-d550-4e98-85c7-b0d47b0cd637">IBDA_DRM Interface</a>
  
 
  

@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
-- apiref
-: 
-- COM
-: 
-- mileffects.h
-: 
-- IMILBitmapEffects.Item
-: 
 ---
 
 # IMILBitmapEffects::Item
@@ -75,7 +67,7 @@ The index of the effect.
 
 ### -param ppEffect [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a>**</b>
 
 A pointer that receives a pointer to the bitmap effect.
 

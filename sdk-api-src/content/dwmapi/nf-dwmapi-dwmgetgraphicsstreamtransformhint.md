@@ -7,7 +7,7 @@ old-location: dwm\dwmgetgraphicsstreamtransformhint.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetgraphicsstreamtransformhint.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DwmGetGraphicsStreamTransformHint, DwmGetGraphicsStreamTransformHint function [Desktop Window Manager], _udwm_dwmgetgraphicsstreamtransformhint, _udwm_dwmgetgraphicsstreamtransformhint_cpp, dwm.dwmgetgraphicsstreamtransformhint, dwmapi/DwmGetGraphicsStreamTransformHint, winui._udwm_dwmgetgraphicsstreamtransformhint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DwmGetGraphicsStreamTransformHint
-: 
 ---
 
 # DwmGetGraphicsStreamTransformHint function

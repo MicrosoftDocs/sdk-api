@@ -4,10 +4,10 @@ title: IVdsIscsiInitiatorPortal::GetIpsecSecurity
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiinitiatorportal_getipsecsecurity.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 755ff0fb-c61f-4427-b7dc-a91dd203fb64
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetIpsecSecurity, GetIpsecSecurity method [VDS], GetIpsecSecurity method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetIpsecSecurity method, IVdsIscsiInitiatorPortal.GetIpsecSecurity, IVdsIscsiInitiatorPortal::GetIpsecSecurity, base.ivdsiscsiinitiatorportal_getipsecsecurity, vds/IVdsIscsiInitiatorPortal::GetIpsecSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsIscsiInitiatorPortal.GetIpsecSecurity
-: 
 ---
 
 # IVdsIscsiInitiatorPortal::GetIpsecSecurity

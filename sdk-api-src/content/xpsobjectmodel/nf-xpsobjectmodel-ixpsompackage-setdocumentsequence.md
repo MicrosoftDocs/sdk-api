@@ -7,7 +7,7 @@ old-location: xps\ixpsompackage_setdocumentsequence.htm
 tech.root: printdocs
 ms.assetid: cc159b7e-7cce-4f3b-ad0d-ce7b625b61d3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetDocumentSequence method, IXpsOMPackage.SetDocumentSequence, IXpsOMPackage::SetDocumentSequence, SetDocumentSequence, SetDocumentSequence method [XPS Documents and Packaging], SetDocumentSequence method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setdocumentsequence, xpsobjectmodel/IXpsOMPackage::SetDocumentSequence
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMPackage.SetDocumentSequence
-: 
 ---
 
 # IXpsOMPackage::SetDocumentSequence

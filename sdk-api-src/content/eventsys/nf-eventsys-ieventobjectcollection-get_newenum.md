@@ -7,7 +7,7 @@ old-location: cos\ieventobjectcollection_newenum.htm
 tech.root: cossdk
 ms.assetid: 5e4e0749-bf23-4174-af80-0b708dbaf432
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEventObjectCollection interface [COM+],NewEnum property, IEventObjectCollection.NewEnum, IEventObjectCollection.get_NewEnum, IEventObjectCollection::NewEnum, IEventObjectCollection::get_NewEnum, NewEnum property [COM+], NewEnum property [COM+],IEventObjectCollection interface, cos.ieventobjectcollection_newenum, eventsys/IEventObjectCollection::NewEnum, eventsys/IEventObjectCollection::get_NewEnum, get_NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- eventsys.h
-: 
-- IEventObjectCollection.get_NewEnum
-: 
 ---
 
 # IEventObjectCollection::get_NewEnum

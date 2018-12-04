@@ -4,10 +4,10 @@ title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic
 author: windows-sdk-content
 description: Returns the value of the proxy authentication flag WSManFlagProxyAuthenticationUseBasic for use in the authenticationMechanism parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusebasic.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 4bfce6f5-9980-4158-be1d-0f3ec081a9b2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseBasic method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseBasic, IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic, ProxyAuthenticationUseBasic, ProxyAuthenticationUseBasic method [Windows Remote Management], ProxyAuthenticationUseBasic method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusebasic, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManConnectionOptionsEx2.ProxyAuthenticationUseBasic
-: 
 ---
 
 # IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic

@@ -4,10 +4,10 @@ title: "_CTL_MODIFY_REQUEST"
 author: windows-sdk-content
 description: Contains a request to modify a certificate trust list (CTL). This structure is used in the CertModifyCertificatesToTrust function.
 old-location: security\ctl_modify_request.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: b8b5fd3e-a0db-4edd-84c7-48bae9adc3f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST structure [Security], CTL_MODIFY_REQUEST_ADD_NOT_TRUSTED, CTL_MODIFY_REQUEST_ADD_TRUSTED, CTL_MODIFY_REQUEST_REMOVE, PCTL_MODIFY_REQUEST, PCTL_MODIFY_REQUEST structure pointer [Security], _CTL_MODIFY_REQUEST, cryptdlg/CTL_MODIFY_REQUEST, cryptdlg/PCTL_MODIFY_REQUEST, security.ctl_modify_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CTL_MODIFY_REQUEST</b> structure contains a request to modify a certificate trust list (CTL).  This structure is used in the <a href="https://msdn.microsoft.com/en-us/library/Aa376554(v=VS.85).aspx">CertModifyCertificatesToTrust</a> function.
+The <b>CTL_MODIFY_REQUEST</b> structure contains a request to modify a certificate trust list (CTL).  This structure is used in the <a href="https://msdn.microsoft.com/a23d968e-113f-470e-a629-18c22882c77f">CertModifyCertificatesToTrust</a> function.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ The <b>CTL_MODIFY_REQUEST</b> structure contains a request to modify a certifica
 
 ### -field pccert
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> structure that contains the certificate to change the trust on.
+A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains the certificate to change the trust on.
 
 
 ### -field dwOperation
@@ -117,7 +117,7 @@ The error code generated for this operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376554(v=VS.85).aspx">CertModifyCertificatesToTrust</a>
+<a href="https://msdn.microsoft.com/a23d968e-113f-470e-a629-18c22882c77f">CertModifyCertificatesToTrust</a>
  
 
  

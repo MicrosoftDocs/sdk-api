@@ -4,10 +4,10 @@ title: "_MPR_IF_CUSTOMINFOEX0"
 author: windows-sdk-content
 description: Gets or sets tunnel specific custom configuration for a demand dial interfaces.
 old-location: rras\mpr_if_custominfoex0.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 53c4b7ae-db73-4d97-a99f-a98354c48a92
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PMPR_IF_CUSTOMINFOEX0, MPRAPI_IF_CUSTOM_CONFIG_FOR_IKEV2, MPR_IF_CUSTOMINFOEX0, MPR_IF_CUSTOMINFOEX0 structure [RAS], PMPR_IF_CUSTOMINFOEX0, PMPR_IF_CUSTOMINFOEX0 structure pointer [RAS], _MPR_IF_CUSTOMINFOEX0, mprapi/MPR_IF_CUSTOMINFOEX0, mprapi/PMPR_IF_CUSTOMINFOEX0, rras.mpr_if_custominfoex0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

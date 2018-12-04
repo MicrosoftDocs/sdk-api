@@ -4,10 +4,10 @@ title: IBackgroundCopyJob3
 author: windows-sdk-content
 description: Use the IBackgroundCopyJob3 interface to download ranges of a file and change the prefix of a remote file name.
 old-location: bits\ibackgroundcopyjob3.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 46e115bb-2634-4b79-b307-45720d8cb2be
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IBackgroundCopyJob3, IBackgroundCopyJob3 interface [BITS], IBackgroundCopyJob3 interface [BITS],described, bits.ibackgroundcopyjob3, bits2_0/IBackgroundCopyJob3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,22 +55,22 @@ Use the
 
 The 
 <b>IBackgroundCopyJob3</b> interface inherits from the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362981(v=VS.85).aspx">IBackgroundCopyJob2</a> interface. 
+<a href="https://msdn.microsoft.com/9fd422ba-a68c-40e3-8b21-3077b271e58e">IBackgroundCopyJob2</a> interface. 
 
 To get an 
 <b>IBackgroundCopyJob3</b> interface pointer, call the <b>IBackgroundCopyJob::QueryInterface</b> method using <code>__uuidof(IBackgroundCopyJob3)</code> for the interface identifier. 
 
 Use the 
 <b>IBackgroundCopyJob3</b> interface pointer to call  the 
-methods of the <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a>,  
-<a href="https://msdn.microsoft.com/en-us/library/Aa362981(v=VS.85).aspx">IBackgroundCopyJob2</a>, and <b>IBackgroundCopyJob3</b> interfaces.
+methods of the <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a>,  
+<a href="https://msdn.microsoft.com/9fd422ba-a68c-40e3-8b21-3077b271e58e">IBackgroundCopyJob2</a>, and <b>IBackgroundCopyJob3</b> interfaces.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa362981(v=VS.85).aspx">IBackgroundCopyJob2</a>. <b>IBackgroundCopyJob3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob3</b> interface inherits from <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> and <a href="https://msdn.microsoft.com/9fd422ba-a68c-40e3-8b21-3077b271e58e">IBackgroundCopyJob2</a>. <b>IBackgroundCopyJob3</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -83,7 +83,7 @@ The <b>IBackgroundCopyJob3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362991(v=VS.85).aspx">AddFileWithRanges</a>
+<a href="https://msdn.microsoft.com/b3601f23-1a69-47db-8943-7515652cf015">AddFileWithRanges</a>
 </td>
 <td align="left" width="63%">
 Add a file to a download job and specify the ranges of the file you want to download.
@@ -92,7 +92,7 @@ Add a file to a download job and specify the ranges of the file you want to down
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362992(v=VS.85).aspx">GetFileACLFlags</a>
+<a href="https://msdn.microsoft.com/569df1e5-d45a-4f18-82ad-1e4957f47d94">GetFileACLFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the flags that identify the owner and ACL information to maintain when downloading a file using SMB.
@@ -101,7 +101,7 @@ Retrieves the flags that identify the owner and ACL information to maintain when
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362993(v=VS.85).aspx">ReplaceRemotePrefix</a>
+<a href="https://msdn.microsoft.com/5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf">ReplaceRemotePrefix</a>
 </td>
 <td align="left" width="63%">
 Use to replace the beginning text of all  remote names in the job with the given string. 
@@ -110,7 +110,7 @@ Use to replace the beginning text of all  remote names in the job with the given
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa362994(v=VS.85).aspx">SetFileACLFlags</a>
+<a href="https://msdn.microsoft.com/de218e3d-8c42-4cf3-94b9-94dbc5edbb47">SetFileACLFlags</a>
 </td>
 <td align="left" width="63%">
 Specifies the owner and ACL information to maintain when downloading a file using SMB.
@@ -125,11 +125,11 @@ Specifies the owner and ACL information to maintain when downloading a file usin
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a>
+<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362981(v=VS.85).aspx">IBackgroundCopyJob2</a>
+<a href="https://msdn.microsoft.com/9fd422ba-a68c-40e3-8b21-3077b271e58e">IBackgroundCopyJob2</a>
  
 
  

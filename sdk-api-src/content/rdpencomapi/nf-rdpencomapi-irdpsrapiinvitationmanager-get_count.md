@@ -4,10 +4,10 @@ title: IRDPSRAPIInvitationManager::get_Count
 author: windows-sdk-content
 description: The number of invitations in the collection.
 old-location: rdp\irdpsrapiinvitationmanager_count.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 5b421537-ce9f-42d3-83b8-f051631c78de
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Count property [RDP], Count property [RDP],IRDPSRAPIInvitationManager interface, Count property [RDP],RDPSRAPIInvitationManager object, IRDPSRAPIInvitationManager interface [RDP],Count property, IRDPSRAPIInvitationManager.Count, IRDPSRAPIInvitationManager.get_Count, IRDPSRAPIInvitationManager::Count, IRDPSRAPIInvitationManager::get_Count, RDPSRAPIInvitationManager object [RDP],Count property, get_Count, rdp.irdpsrapiinvitationmanager_count, rdpencomapi/IRDPSRAPIInvitationManager::Count, rdpencomapi/IRDPSRAPIInvitationManager::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIInvitationManager.get_Count
-: 
 ---
 
 # IRDPSRAPIInvitationManager::get_Count

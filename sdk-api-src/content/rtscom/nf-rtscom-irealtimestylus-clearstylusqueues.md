@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_clearstylusqueues.htm
 tech.root: tablet
 ms.assetid: 28270403-9d6d-4e57-9ec5-0d697f4df185
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 28270403-9d6d-4e57-9ec5-0d697f4df185, ClearStylusQueues, ClearStylusQueues method [Tablet PC], ClearStylusQueues method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],ClearStylusQueues method, IRealTimeStylus.ClearStylusQueues, IRealTimeStylus::ClearStylusQueues, rtscom/IRealTimeStylus::ClearStylusQueues, tablet.irealtimestylus_clearstylusqueues
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rtscom.h
-: 
-- IRealTimeStylus.ClearStylusQueues
-: 
 ---
 
 # IRealTimeStylus::ClearStylusQueues

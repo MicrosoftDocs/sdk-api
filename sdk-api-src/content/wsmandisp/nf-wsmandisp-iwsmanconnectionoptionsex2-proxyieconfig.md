@@ -4,10 +4,10 @@ title: IWSManConnectionOptionsEx2::ProxyIEConfig
 author: windows-sdk-content
 description: Returns the value of the proxy access type flag WSManProxyIEConfig for use in the accessType parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyieconfig.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 4aa2bf90-c0e8-400a-a8c7-35656cb3c021
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyIEConfig method, IWSManConnectionOptionsEx2.ProxyIEConfig, IWSManConnectionOptionsEx2::ProxyIEConfig, ProxyIEConfig, ProxyIEConfig method [Windows Remote Management], ProxyIEConfig method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyieconfig, wsmandisp/IWSManConnectionOptionsEx2::ProxyIEConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManConnectionOptionsEx2.ProxyIEConfig
-: 
 ---
 
 # IWSManConnectionOptionsEx2::ProxyIEConfig

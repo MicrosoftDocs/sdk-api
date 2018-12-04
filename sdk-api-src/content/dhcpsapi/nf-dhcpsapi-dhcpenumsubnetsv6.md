@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpEnumSubnetsV6
-: 
 ---
 
 # DhcpEnumSubnetsV6 function

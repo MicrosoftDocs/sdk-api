@@ -4,10 +4,10 @@ title: ReleaseSRWLockExclusive function
 author: windows-sdk-content
 description: Releases a slim reader/writer (SRW) lock that was acquired in exclusive mode.
 old-location: base\releasesrwlockexclusive.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 77f9b8ee-f922-4bd1-b715-ccb1ca891dcc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ReleaseSRWLockExclusive, ReleaseSRWLockExclusive function, base.releasesrwlockexclusive, synchapi/ReleaseSRWLockExclusive, winbase/ReleaseSRWLockExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ReleaseSRWLockExclusive
-: 
 ---
 
 # ReleaseSRWLockExclusive function

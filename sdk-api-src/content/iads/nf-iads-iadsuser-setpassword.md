@@ -4,10 +4,10 @@ title: IADsUser::SetPassword
 author: windows-sdk-content
 description: Sets the user password to a specified value.
 old-location: adsi\iadsuser_setpassword.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: cad38632-9f0a-4707-9086-b1248d6f31a6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsUser interface [ADSI],SetPassword method, IADsUser.SetPassword, IADsUser::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsUser interface, _ds_iadsuser_setpassword, adsi.iadsuser__setpassword, adsi.iadsuser_setpassword, iads/IADsUser::SetPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsUser.SetPassword
-: 
 ---
 
 # IADsUser::SetPassword

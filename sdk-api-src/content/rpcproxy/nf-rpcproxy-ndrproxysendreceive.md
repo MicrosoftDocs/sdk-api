@@ -4,10 +4,10 @@ title: NdrProxySendReceive function
 author: windows-sdk-content
 description: The NdrProxySendReceive function sends a message to the server then waits for a reply.
 old-location: rpc\ndrproxysendreceive.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: a80c3271-bed3-4757-97e1-2bf212eaeafd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NdrProxySendReceive, NdrProxySendReceive function [RPC], rpc.ndrproxysendreceive, rpcproxy/NdrProxySendReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NdrProxySendReceive
-: 
 ---
 
 # NdrProxySendReceive function

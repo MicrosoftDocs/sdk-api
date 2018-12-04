@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvirtualsurface_trim.htm
 tech.root: directcomp
 ms.assetid: 5A4F516F-B031-47E6-9A3D-068CF2C3D53A
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDCompositionVirtualSurface interface [DirectComposition],Trim method, IDCompositionVirtualSurface.Trim, IDCompositionVirtualSurface::Trim, Trim, Trim method [DirectComposition], Trim method [DirectComposition],IDCompositionVirtualSurface interface, dcomp/IDCompositionVirtualSurface::Trim, directcomp.idcompositionvirtualsurface_trim
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionVirtualSurface.Trim
-: 
 ---
 
 # IDCompositionVirtualSurface::Trim

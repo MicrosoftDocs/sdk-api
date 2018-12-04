@@ -7,7 +7,7 @@ old-location: mbn\imbninterfaceevents_oninterfacecapabilityavailable.htm
 tech.root: mbn
 ms.assetid: eeeffe13-307b-45f3-aa24-c33c621aa18e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnInterfaceCapabilityAvailable method, IMbnInterfaceEvents.OnInterfaceCapabilityAvailable, IMbnInterfaceEvents::OnInterfaceCapabilityAvailable, OnInterfaceCapabilityAvailable, OnInterfaceCapabilityAvailable method [Microsoft Broadband Networks], OnInterfaceCapabilityAvailable method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_oninterfacecapabilityavailable, mbnapi/IMbnInterfaceEvents::OnInterfaceCapabilityAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnInterfaceEvents.OnInterfaceCapabilityAvailable
-: 
 ---
 
 # IMbnInterfaceEvents::OnInterfaceCapabilityAvailable

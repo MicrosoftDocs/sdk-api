@@ -7,7 +7,7 @@ old-location: imapi\ifsidirectoryitem_addtree.htm
 tech.root: imapi
 ms.assetid: 4f36538c-fba7-4a0c-a2e9-443b7dc2fdab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddTree, AddTree method [IMAPI], AddTree method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],AddTree method, IFsiDirectoryItem.AddTree, IFsiDirectoryItem::AddTree, imapi.ifsidirectoryitem_addtree, imapi2fs/IFsiDirectoryItem::AddTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2fs.h
-: 
-- IFsiDirectoryItem.AddTree
-: 
 ---
 
 # IFsiDirectoryItem::AddTree

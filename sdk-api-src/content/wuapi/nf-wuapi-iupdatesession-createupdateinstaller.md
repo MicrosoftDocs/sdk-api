@@ -4,10 +4,10 @@ title: IUpdateSession::CreateUpdateInstaller
 author: windows-sdk-content
 description: Returns an IUpdateInstaller interface for this session.
 old-location: wua\iupdatesession_createupdateinstaller.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: e5b5f760-0d25-4506-95d3-63ff4a0b9188
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateUpdateInstaller, CreateUpdateInstaller method [Windows Update Agent], CreateUpdateInstaller method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateInstaller method, IUpdateSession.CreateUpdateInstaller, IUpdateSession::CreateUpdateInstaller, wua.iupdatesession_createupdateinstaller, wuapi/IUpdateSession::CreateUpdateInstaller
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateSession.CreateUpdateInstaller
-: 
 ---
 
 # IUpdateSession::CreateUpdateInstaller

@@ -7,7 +7,7 @@ old-location: display\engfntcachelookup.htm
 tech.root: display
 ms.assetid: daf93826-fdcb-4c9d-ade6-ad4f0ef40ff5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EngFntCacheLookUp, EngFntCacheLookUp function [Display Devices], display.engfntcachelookup, gdifncs_2fee1e8e-2cb5-4088-b0aa-f697689fe56f.xml, winddi/EngFntCacheLookUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngFntCacheLookUp
-: 
 ---
 
 # EngFntCacheLookUp function

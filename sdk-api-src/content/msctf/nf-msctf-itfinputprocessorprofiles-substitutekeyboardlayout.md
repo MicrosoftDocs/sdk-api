@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofiles_substitutekeyboardlayout.htm
 tech.root: TSF
 ms.assetid: e069f515-d5f6-4acd-a3ff-0c3c60c785ac
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],SubstituteKeyboardLayout method, ITfInputProcessorProfiles.SubstituteKeyboardLayout, ITfInputProcessorProfiles::SubstituteKeyboardLayout, SubstituteKeyboardLayout, SubstituteKeyboardLayout method [Text Services Framework], SubstituteKeyboardLayout method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_substitutekeyboardlayout_ref, msctf/ITfInputProcessorProfiles::SubstituteKeyboardLayout, tsf.itfinputprocessorprofiles_substitutekeyboardlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfInputProcessorProfiles.SubstituteKeyboardLayout
-: 
 ---
 
 # ITfInputProcessorProfiles::SubstituteKeyboardLayout
@@ -82,7 +74,7 @@ Contains a GUID value that identifies the profile in question.
 
 ### -param hKL [in]
 
-Contains an <b>HKL</b> value that specifies the input locale identifier for the substitute keyboard. Obtain this value by calling <a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>.
+Contains an <b>HKL</b> value that specifies the input locale identifier for the substitute keyboard. Obtain this value by calling <a href="_win32_loadkeyboardlayout">LoadKeyboardLayout</a>.
 
 
 ## -returns
@@ -133,7 +125,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="_win32_loadkeyboardlayout">LoadKeyboardLayout</a>
  
 
  

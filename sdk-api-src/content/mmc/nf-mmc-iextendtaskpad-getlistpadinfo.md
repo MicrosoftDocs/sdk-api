@@ -4,10 +4,10 @@ title: IExtendTaskPad::GetListPadInfo
 author: windows-sdk-content
 description: The IExtendTaskPad::GetListPadInfo method is used for list-view taskpads only.
 old-location: mmc\iextendtaskpad_getlistpadinfo.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 73e9d281-9bf9-4a50-b3e8-226ed3593f7a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetListPadInfo, GetListPadInfo method [MMC], GetListPadInfo method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],GetListPadInfo method, IExtendTaskPad.GetListPadInfo, IExtendTaskPad::GetListPadInfo, _slate_iextendtaskpad_getlistpadinfo, mmc.iextendtaskpad_getlistpadinfo, mmc/IExtendTaskPad::GetListPadInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IExtendTaskPad.GetListPadInfo
-: 
 ---
 
 # IExtendTaskPad::GetListPadInfo

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_SetCurrentView.htm
 tech.root: WinAuto
 ms.assetid: 43da5f4a-e6ce-4cc3-8981-85189d5e5158
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUIAutomationMultipleViewPattern interface [Windows Accessibility],SetCurrentView method, IUIAutomationMultipleViewPattern.SetCurrentView, IUIAutomationMultipleViewPattern::SetCurrentView, SetCurrentView, SetCurrentView method [Windows Accessibility], SetCurrentView method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, uiauto.uiauto_IUIAutomationMultipleViewPattern_SetCurrentView, uiauto_IUIAutomationMultipleViewPattern_SetCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::SetCurrentView, winauto.uiauto_IUIAutomationMultipleViewPattern_SetCurrentView
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationMultipleViewPattern.SetCurrentView
-: 
 ---
 
 # IUIAutomationMultipleViewPattern::SetCurrentView

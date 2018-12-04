@@ -7,7 +7,7 @@ old-location: display\enghangnotification.htm
 tech.root: display
 ms.assetid: 9013bf34-64bd-4621-af40-f979065c8cbd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EngHangNotification, EngHangNotification function [Display Devices], display.enghangnotification, gdifncs_ca454eea-7e11-4af6-a717-818f52f9fc59.xml, winddi/EngHangNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngHangNotification
-: 
 ---
 
 # EngHangNotification function

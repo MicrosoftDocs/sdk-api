@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_InitializeDownloadManager.htm
 tech.root: shell
 ms.assetid: b217d5cd-c9db-4d35-96de-25e1ec22670a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeDownloadManager method, IBrowserService2.InitializeDownloadManager, IBrowserService2::InitializeDownloadManager, InitializeDownloadManager, InitializeDownloadManager method [Windows Shell], InitializeDownloadManager method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeDownloadManager, shell.IBrowserService2_InitializeDownloadManager, zone_IBrowserService2_InitializeDownloadManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- IBrowserService2.InitializeDownloadManager
-: 
 req.product: Internet Explorer 5.0
 ---
 

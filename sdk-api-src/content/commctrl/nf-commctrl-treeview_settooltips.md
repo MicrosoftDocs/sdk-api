@@ -4,10 +4,10 @@ title: TreeView_SetToolTips macro
 author: windows-sdk-content
 description: Sets a tree-view control's child tooltip control. You can use this macro or send the TVM_SETTOOLTIPS message explicitly.
 old-location: controls\TreeView_SetToolTips.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_settooltips.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: TreeView_SetToolTips, TreeView_SetToolTips macro [Windows Controls], _win32_TreeView_SetToolTips, _win32_TreeView_SetToolTips_cpp, commctrl/TreeView_SetToolTips, controls.TreeView_SetToolTips, controls._win32_TreeView_SetToolTips
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- TreeView_SetToolTips
-: 
 ---
 
 # TreeView_SetToolTips macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets a tree-view control's child tooltip control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773772(v=VS.85).aspx">TVM_SETTOOLTIPS</a> message explicitly. 
+Sets a tree-view control's child tooltip control. You can use this macro or send the <a href="https://msdn.microsoft.com/beb9a739-868e-46a8-95d9-9dc032c79dd4">TVM_SETTOOLTIPS</a> message explicitly. 
 
 
 ## -parameters
@@ -84,7 +76,7 @@ Handle to a tooltip control.
 
 
 
-When created, tree-view controls automatically create a child tooltip control. To prevent a tree-view control from using tooltips, create the control with the <a href="https://msdn.microsoft.com/en-us/library/Bb760013(v=VS.85).aspx">TVS_NOTOOLTIPS</a> style. 
+When created, tree-view controls automatically create a child tooltip control. To prevent a tree-view control from using tooltips, create the control with the <a href="Tree_View_Control_Window_Styles.htm">TVS_NOTOOLTIPS</a> style. 
 
 
 
@@ -94,7 +86,7 @@ When created, tree-view controls automatically create a child tooltip control. T
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773894(v=VS.85).aspx">TreeView_GetToolTips</a>
+<a href="https://msdn.microsoft.com/25d82a01-c376-4d08-9ee6-eef892bcf4a9">TreeView_GetToolTips</a>
  
 
  

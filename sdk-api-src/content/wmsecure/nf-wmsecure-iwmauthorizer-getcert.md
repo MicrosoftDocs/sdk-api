@@ -7,7 +7,7 @@ old-location: wmformat\iwmauthorizer_getcert.htm
 tech.root: wmformat
 ms.assetid: e165356c-b14b-47dc-b046-a74499251cab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetCert, GetCert method [windows Media Format], GetCert method [windows Media Format],IWMAuthorizer interface, IWMAuthorizer interface [windows Media Format],GetCert method, IWMAuthorizer.GetCert, IWMAuthorizer::GetCert, wmformat.iwmauthorizer_getcert, wmsecure/IWMAuthorizer::GetCert
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmsecure.h
-: 
-- IWMAuthorizer.GetCert
-: 
 ---
 
 # IWMAuthorizer::GetCert

@@ -7,7 +7,7 @@ old-location: tablet\iinkdivisionunits_item.htm
 tech.root: tablet
 ms.assetid: 332a9365-526e-43df-841f-20eed07762e7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 332a9365-526e-43df-841f-20eed07762e7, IInkDivisionUnits interface [Tablet PC],Item method, IInkDivisionUnits.Item, IInkDivisionUnits::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkDivisionUnits interface, msinkaut15/IInkDivisionUnits::Item, tablet.iinkdivisionunits_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut15.h
-: 
-- IInkDivisionUnits.Item
-: 
 ---
 
 # IInkDivisionUnits::Item

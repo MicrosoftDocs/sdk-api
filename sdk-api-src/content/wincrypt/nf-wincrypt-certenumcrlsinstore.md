@@ -4,10 +4,10 @@ title: CertEnumCRLsInStore function
 author: windows-sdk-content
 description: The CertEnumCRLsInStore function retrieves the first or next certificate revocation list (CRL) context in a certificate store. Used in a loop, this function can retrieve in sequence all CRL contexts in a certificate store.
 old-location: security\certenumcrlsinstore.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: fc25ca04-8520-4053-9591-afc81c88670c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertEnumCRLsInStore, CertEnumCRLsInStore function [Security], _crypto2_certenumcrlsinstore, security.certenumcrlsinstore, wincrypt/CertEnumCRLsInStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertEnumCRLsInStore
-: 
 ---
 
 # CertEnumCRLsInStore function
@@ -157,7 +151,7 @@ A duplicate of the CRL <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
 
 
 

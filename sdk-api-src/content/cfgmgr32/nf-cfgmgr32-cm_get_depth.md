@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Get_Depth
-: 
 ---
 
 # CM_Get_Depth function

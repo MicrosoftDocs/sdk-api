@@ -4,10 +4,10 @@ title: IFsrmRule::put_RuleFlags
 author: windows-sdk-content
 description: The flags that define the state of the rule.
 old-location: fsrm\ifsrmrule_ruleflags.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: c656115a-a0d4-4860-9756-98df84c1672f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],RuleFlags property, IFsrmRule.RuleFlags, IFsrmRule.put_RuleFlags, IFsrmRule::RuleFlags, IFsrmRule::get_RuleFlags, IFsrmRule::put_RuleFlags, RuleFlags property [File Server Resource Manager], RuleFlags property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_ruleflags, fsrm.ifsrmrule_ruleflags, fsrmpipeline/IFsrmRule::RuleFlags, fsrmpipeline/IFsrmRule::get_RuleFlags, fsrmpipeline/IFsrmRule::put_RuleFlags, put_RuleFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmpipeline.h
-: 
-- IFsrmRule.put_RuleFlags
-: 
 ---
 
 # IFsrmRule::put_RuleFlags

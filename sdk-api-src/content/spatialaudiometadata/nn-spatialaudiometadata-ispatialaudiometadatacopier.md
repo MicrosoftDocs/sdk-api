@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatacopier.htm
 tech.root: CoreAudio
 ms.assetid: 74708744-78BF-4135-BB0A-50A7CA41ECDD
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISpatialAudioMetadataCopier, ISpatialAudioMetadataCopier interface [Core Audio], ISpatialAudioMetadataCopier interface [Core Audio],described, coreaudio.ispatialaudiometadatacopier, spatialaudiometadata/ISpatialAudioMetadataCopier
 ms.prod: windows-hardware
 ms.technology: windows-devices

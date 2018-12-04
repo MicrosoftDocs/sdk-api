@@ -7,7 +7,7 @@ old-location: ad\ds_repl_obj_meta_data.htm
 tech.root: ad
 ms.assetid: 7851ffbc-5d05-4ea7-b3b4-1b8b77299be5
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: DS_REPL_OBJ_META_DATA, DS_REPL_OBJ_META_DATA structure [Active Directory], _DS_REPL_OBJ_META_DATA, _glines_ds_repl_obj_meta_data, ad.ds__repl__obj__meta__data, ad.ds_repl_obj_meta_data, ntdsapi/DS_REPL_OBJ_META_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

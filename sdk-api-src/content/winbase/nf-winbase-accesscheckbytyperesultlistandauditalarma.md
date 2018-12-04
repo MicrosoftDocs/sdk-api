@@ -4,10 +4,10 @@ title: AccessCheckByTypeResultListAndAuditAlarmA function
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
 old-location: security\accesscheckbytyperesultlistandauditalarm.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 4b53a15a-5a6b-40c7-acf8-26b1f4bca4ae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarm, AccessCheckByTypeResultListAndAuditAlarm function [Security], AccessCheckByTypeResultListAndAuditAlarmA, AccessCheckByTypeResultListAndAuditAlarmW, _win32_accesscheckbytyperesultlistandauditalarm, security.accesscheckbytyperesultlistandauditalarm, winbase/AccessCheckByTypeResultListAndAuditAlarm, winbase/AccessCheckByTypeResultListAndAuditAlarmA, winbase/AccessCheckByTypeResultListAndAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,12 +51,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AccessCheckByTypeResultListAndAuditAlarmA
-: 
 ---
 
 # AccessCheckByTypeResultListAndAuditAlarmA function

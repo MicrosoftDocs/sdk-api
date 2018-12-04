@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual_get_ViewOptions.htm
 tech.root: shell
 ms.assetid: 1ef3a163-bc38-40b2-aa3e-dcd36f87964f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_ViewOptions method, IShellFolderViewDual.get_ViewOptions, IShellFolderViewDual::get_ViewOptions, _shell_IShellFolderViewDual_get_ViewOptions, get_ViewOptions, get_ViewOptions method [Windows Shell], get_ViewOptions method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_ViewOptions, shldisp/IShellFolderViewDual::get_ViewOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shldisp.h
-: 
-- IShellFolderViewDual.get_ViewOptions
-: 
 ---
 
 # IShellFolderViewDual::get_ViewOptions

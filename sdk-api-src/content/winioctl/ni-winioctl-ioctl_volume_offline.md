@@ -7,7 +7,7 @@ old-location: fs\ioctl_volume_offline.htm
 tech.root: fileio
 ms.assetid: 7c9b97eb-c167-41cd-b235-7a9d7830915e
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: IOCTL_VOLUME_OFFLINE, IOCTL_VOLUME_OFFLINE control, IOCTL_VOLUME_OFFLINE control code [Files], fs.ioctl_volume_offline, winioctl/IOCTL_VOLUME_OFFLINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

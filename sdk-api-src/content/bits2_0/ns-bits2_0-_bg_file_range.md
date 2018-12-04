@@ -4,10 +4,10 @@ title: "_BG_FILE_RANGE"
 author: windows-sdk-content
 description: The BG_FILE_RANGE structure identifies a range of bytes to download from a file.
 old-location: bits\bg_file_range.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 4ed20321-fb89-410b-906e-9f2c4366645a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: BG_FILE_RANGE, BG_FILE_RANGE structure [BITS], _BG_FILE_RANGE, bits.bg_file_range, bits2_0/BG_FILE_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,11 +82,11 @@ The range must exist in the file or BITS generates an <b>BG_E_INVALID_RANGE</b> 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362946(v=VS.85).aspx">IBackgroundCopyFile2::GetFileRanges</a>
+<a href="https://msdn.microsoft.com/2e0ea08e-5f97-45c9-9280-ce6c4dce7a17">IBackgroundCopyFile2::GetFileRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362991(v=VS.85).aspx">IBackgroundCopyJob3::AddFileWithRanges</a>
+<a href="https://msdn.microsoft.com/b3601f23-1a69-47db-8943-7515652cf015">IBackgroundCopyJob3::AddFileWithRanges</a>
  
 
  

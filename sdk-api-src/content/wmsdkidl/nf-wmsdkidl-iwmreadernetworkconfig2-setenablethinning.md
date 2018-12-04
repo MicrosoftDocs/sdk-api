@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig2_setenablethinning.htm
 tech.root: wmformat
 ms.assetid: 98d4eb7e-e712-4ca0-a532-1160254748b8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableThinning method, IWMReaderNetworkConfig2.SetEnableThinning, IWMReaderNetworkConfig2::SetEnableThinning, IWMReaderNetworkConfig2SetEnableThinning, SetEnableThinning, SetEnableThinning method [windows Media Format], SetEnableThinning method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setenablethinning, wmsdkidl/IWMReaderNetworkConfig2::SetEnableThinning
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmsdkidl.h
-: 
-- IWMReaderNetworkConfig2.SetEnableThinning
-: 
 ---
 
 # IWMReaderNetworkConfig2::SetEnableThinning

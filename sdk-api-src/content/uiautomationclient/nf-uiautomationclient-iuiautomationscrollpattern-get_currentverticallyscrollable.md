@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentVerticallyScrolla
 tech.root: WinAuto
 ms.assetid: decadcaa-da60-4c87-ab9c-92fc4e233fa1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CurrentVerticallyScrollable property [Windows Accessibility], CurrentVerticallyScrollable property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentVerticallyScrollable property, IUIAutomationScrollPattern.CurrentVerticallyScrollable, IUIAutomationScrollPattern.get_CurrentVerticallyScrollable, IUIAutomationScrollPattern::CurrentVerticallyScrollable, IUIAutomationScrollPattern::get_CurrentVerticallyScrollable, get_CurrentVerticallyScrollable, uiauto.uiauto_IUIAutomationScrollPattern_CurrentVerticallyScrollable, uiauto_IUIAutomationScrollPattern_CurrentVerticallyScrollable, uiautomationclient/IUIAutomationScrollPattern::CurrentVerticallyScrollable, uiautomationclient/IUIAutomationScrollPattern::get_CurrentVerticallyScrollable, winauto.uiauto_IUIAutomationScrollPattern_CurrentVerticallyScrollable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationScrollPattern.get_CurrentVerticallyScrollable
-: 
 ---
 
 # IUIAutomationScrollPattern::get_CurrentVerticallyScrollable

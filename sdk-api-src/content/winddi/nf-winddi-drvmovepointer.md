@@ -7,7 +7,7 @@ old-location: display\drvmovepointer.htm
 tech.root: display
 ms.assetid: eb117f39-0823-4eb7-8628-fa4399a13ec6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: DrvMovePointer, DrvMovePointer function [Display Devices], ddifncs_4fda6dd1-abd6-45fa-ba92-d20352fe35c5.xml, display.drvmovepointer, winddi/DrvMovePointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DrvMovePointer
-: 
 ---
 
 # DrvMovePointer function

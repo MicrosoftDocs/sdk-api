@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IDVBTuningSpace2.put_NetworkID
-: 
 ---
 
 # IDVBTuningSpace2::put_NetworkID

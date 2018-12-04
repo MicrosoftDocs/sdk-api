@@ -4,10 +4,10 @@ title: WSManPluginFreeRequestDetails function
 author: windows-sdk-content
 description: Releases memory that is allocated for the WSMAN_PLUGIN_REQUEST structure, which is passed into operation plug-in entry points.
 old-location: winrm\wsmanpluginfreerequestdetails.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 43716391-536c-49ae-9266-a8ae72621a0b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WSManPluginFreeRequestDetails, WSManPluginFreeRequestDetails function [Windows Remote Management], winrm.wsmanpluginfreerequestdetails, wsman/WSManPluginFreeRequestDetails
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
-- apiref
-: 
-- 
-: 
-- WSManPluginFreeRequestDetails
-: 
 ---
 
 # WSManPluginFreeRequestDetails function

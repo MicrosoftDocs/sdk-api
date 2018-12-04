@@ -7,7 +7,7 @@ old-location: fs\file_name_info.htm
 tech.root: fileio
 ms.assetid: 7ab98f41-b99e-4731-b803-921064a961c4
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PFILE_NAME_INFO, FILE_NAME_INFO, FILE_NAME_INFO structure [Files], PFILE_NAME_INFO, PFILE_NAME_INFO structure pointer [Files], _FILE_NAME_INFO, fileextd/FILE_NAME_INFO, fileextd/PFILE_NAME_INFO, fs.file_name_info, winbase/FILE_NAME_INFO, winbase/PFILE_NAME_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFunctionInstanceCollectionQuery::AddQueryConstraint
 author: windows-sdk-content
 description: Adds a query constraint to the query.
 old-location: ncd\ifunctioninstancecollectionquery_addqueryconstraint.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: 334d7c04-1446-49da-ac45-9a7d4fd82a9d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddQueryConstraint, AddQueryConstraint method, AddQueryConstraint method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,AddQueryConstraint method, IFunctionInstanceCollectionQuery.AddQueryConstraint, IFunctionInstanceCollectionQuery::AddQueryConstraint, functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddQueryConstraint, ncd.ifunctioninstancecollectionquery_addqueryconstraint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryapi.h
-: 
-- IFunctionInstanceCollectionQuery.AddQueryConstraint
-: 
 ---
 
 # IFunctionInstanceCollectionQuery::AddQueryConstraint

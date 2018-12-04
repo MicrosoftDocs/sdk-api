@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxJobStatus.get_ScheduledTime
-: 
 ---
 
 # IFaxJobStatus::get_ScheduledTime

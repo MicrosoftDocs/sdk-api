@@ -1,14 +1,14 @@
 ---
 UID: NE:wininet.__unnamed_enum_0
-title: InternetCookieState
+title: INTERNET_SCHEME
 author: windows-sdk-content
-description: The InternetCookieState enumeration defines the state of the cookie.
-old-location: wininet\internetcookiestate.htm
-tech.root: WinInet
-ms.assetid: 3f43f492-3133-4cbd-9ab9-3c9600ef5263
+description: Defines the flags used with the nScheme member of the URL_COMPONENTS structure.
+old-location: wininet\internet_scheme_enumerated_type.htm
+tech.root: wininet
+ms.assetid: 640d0b62-a44f-4115-be27-9976da4bc73a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: COOKIE_STATE_ACCEPT, COOKIE_STATE_DOWNGRADE, COOKIE_STATE_LEASH, COOKIE_STATE_MAX, COOKIE_STATE_PROMPT, COOKIE_STATE_REJECT, COOKIE_STATE_UNKNOWN, InternetCookieState, InternetCookieState enumeration [WinINet], wininet.internetcookiestate, wininet/COOKIE_STATE_ACCEPT, wininet/COOKIE_STATE_DOWNGRADE, wininet/COOKIE_STATE_LEASH, wininet/COOKIE_STATE_MAX, wininet/COOKIE_STATE_PROMPT, wininet/COOKIE_STATE_REJECT, wininet/COOKIE_STATE_UNKNOWN, wininet/InternetCookieState
+ms.date: 11/16/2018
+ms.keywords: "*LPINTERNET_SCHEME, INTERNET_SCHEME, INTERNET_SCHEME enumeration [WinINet], INTERNET_SCHEME_DEFAULT, INTERNET_SCHEME_FILE, INTERNET_SCHEME_FIRST, INTERNET_SCHEME_FTP, INTERNET_SCHEME_GOPHER, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, INTERNET_SCHEME_JAVASCRIPT, INTERNET_SCHEME_LAST, INTERNET_SCHEME_MAILTO, INTERNET_SCHEME_NEWS, INTERNET_SCHEME_PARTIAL, INTERNET_SCHEME_RES, INTERNET_SCHEME_SOCKS, INTERNET_SCHEME_UNKNOWN, INTERNET_SCHEME_VBSCRIPT, LPINTERNET_SCHEME, LPINTERNET_SCHEME enumeration pointer [WinINet], _inet_internet_scheme_enumerated_type, wininet.internet_scheme_enumerated_type, wininet/ LPINTERNET_SCHEME, wininet/INTERNET_SCHEME, wininet/INTERNET_SCHEME_DEFAULT, wininet/INTERNET_SCHEME_FILE, wininet/INTERNET_SCHEME_FIRST, wininet/INTERNET_SCHEME_FTP, wininet/INTERNET_SCHEME_GOPHER, wininet/INTERNET_SCHEME_HTTP, wininet/INTERNET_SCHEME_HTTPS, wininet/INTERNET_SCHEME_JAVASCRIPT, wininet/INTERNET_SCHEME_LAST, wininet/INTERNET_SCHEME_MAILTO, wininet/INTERNET_SCHEME_NEWS, wininet/INTERNET_SCHEME_PARTIAL, wininet/INTERNET_SCHEME_RES, wininet/INTERNET_SCHEME_SOCKS, wininet/INTERNET_SCHEME_UNKNOWN, wininet/INTERNET_SCHEME_VBSCRIPT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -37,20 +37,22 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - InternetCookieState
+ - INTERNET_SCHEME
 product: Windows
 targetos: Windows
-req.typenames: InternetCookieState
+req.typenames: INTERNET_SCHEME, *LPINTERNET_SCHEME
 req.redist: 
 ---
 
-# InternetCookieState enumeration
+# INTERNET_SCHEME enumeration
 
 
 ## -description
 
 
-The <b>InternetCookieState</b> enumeration defines the state of the cookie.
+Defines the flags used with the 
+<b>nScheme</b> member of the 
+<a href="https://msdn.microsoft.com/faebdd29-f746-486b-b779-cceeecac9163">URL_COMPONENTS</a> structure.
 
 
 ## -enum-fields
@@ -58,39 +60,86 @@ The <b>InternetCookieState</b> enumeration defines the state of the cookie.
 
 
 
-### -field COOKIE_STATE_UNKNOWN
+### -field INTERNET_SCHEME_PARTIAL
 
-Reserved.
-
-
-### -field COOKIE_STATE_ACCEPT
-
-The cookies are accepted.
+Partial URL. 
 
 
-### -field COOKIE_STATE_PROMPT
+### -field INTERNET_SCHEME_UNKNOWN
 
-The user is prompted to accept or deny the cookie.
-
-
-### -field COOKIE_STATE_LEASH
-
-Cookies are accepted only in the first-party context.
+Unknown URL scheme. 
 
 
-### -field COOKIE_STATE_DOWNGRADE
+### -field INTERNET_SCHEME_DEFAULT
 
-Cookies are accepted and become session cookies.
-
-
-### -field COOKIE_STATE_REJECT
-
-The cookies are rejected.
+Default URL scheme. 
 
 
-### -field COOKIE_STATE_MAX
+### -field INTERNET_SCHEME_FTP
 
-Same as <b>COOKIE_STATE_REJECT</b>.
+FTP URL scheme (ftp:). 
+
+
+### -field INTERNET_SCHEME_GOPHER
+
+Gopher URL scheme (gopher:). 
+
+<div class="alert"><b>Note</b>  Windows XP and Windows Server 2003 R2 and earlier only.</div>
+<div> </div>
+
+### -field INTERNET_SCHEME_HTTP
+
+HTTP URL scheme (http:). 
+
+
+### -field INTERNET_SCHEME_HTTPS
+
+HTTPS URL scheme (https:). 
+
+
+### -field INTERNET_SCHEME_FILE
+
+File URL scheme (file:). 
+
+
+### -field INTERNET_SCHEME_NEWS
+
+News URL scheme (news:). 
+
+
+### -field INTERNET_SCHEME_MAILTO
+
+Mail URL scheme (mailto:). 
+
+
+### -field INTERNET_SCHEME_SOCKS
+
+Socks URL scheme (socks:). 
+
+
+### -field INTERNET_SCHEME_JAVASCRIPT
+
+JScript URL scheme (javascript:). 
+
+
+### -field INTERNET_SCHEME_VBSCRIPT
+
+VBScript URL scheme (vbscript:). 
+
+
+### -field INTERNET_SCHEME_RES
+
+Resource URL scheme (res:).
+
+
+### -field INTERNET_SCHEME_FIRST
+
+Lowest known scheme value. 
+
+
+### -field INTERNET_SCHEME_LAST
+
+Highest known scheme value. 
 
 
 ## -remarks
@@ -107,15 +156,7 @@ Same as <b>COOKIE_STATE_REJECT</b>.
 
 
 
-<a href="https://msdn.microsoft.com/de1db7e6-21f4-4bbb-b4fc-277bbd01f32c">InternetEnumPerSiteCookieDecision</a>
-
-
-
-<a href="https://msdn.microsoft.com/04fa4c33-077c-4b16-8170-c3770783c98a">InternetGetPerSiteCookieDecision</a>
-
-
-
-<a href="https://msdn.microsoft.com/c25699b9-f79a-443b-b9a4-461c379fa8e4">InternetSetPerSiteCookieDecision</a>
+<a href="https://msdn.microsoft.com/faebdd29-f746-486b-b779-cceeecac9163">URL_COMPONENTS</a>
  
 
  

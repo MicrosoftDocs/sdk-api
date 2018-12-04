@@ -4,10 +4,10 @@ title: NtRenameKey function
 author: windows-sdk-content
 description: Changes the name of the specified registry key.
 old-location: winprog\ntrenamekey.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: fecd46f6-bcef-4cb4-8d53-3fb7ebe4cc53
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: NtRenameKey, NtRenameKey function [Windows API], base.ntrenamekey, winprog.ntrenamekey, winternl/NtRenameKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NtRenameKey
-: 
 ---
 
 # NtRenameKey function

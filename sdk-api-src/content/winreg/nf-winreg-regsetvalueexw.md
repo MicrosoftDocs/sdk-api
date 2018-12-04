@@ -4,10 +4,10 @@ title: RegSetValueExW function
 author: windows-sdk-content
 description: Sets the data and type of a specified value under a registry key.
 old-location: base\regsetvalueex.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 29b0e27c-4999-4e92-bd8b-bba74920bccc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: RegSetValueEx, RegSetValueEx function, RegSetValueExA, RegSetValueExW, _win32_regsetvalueex, base.regsetvalueex, winreg/RegSetValueEx, winreg/RegSetValueExA, winreg/RegSetValueExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,12 +51,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegSetValueExW
-: 
 ---
 
 # RegSetValueExW function

@@ -7,7 +7,7 @@ old-location: shell\SHLockShared.htm
 tech.root: shell
 ms.assetid: 5b948044-6cec-4649-a266-21959154f999
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SHLockShared, SHLockShared function [Windows Shell], _win32_SHLockShared, shell.SHLockShared, shlwapi/SHLockShared
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHLockShared
-: 
 ---
 
 # SHLockShared function

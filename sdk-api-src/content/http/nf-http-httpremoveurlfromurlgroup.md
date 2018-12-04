@@ -4,10 +4,10 @@ title: HttpRemoveUrlFromUrlGroup function
 author: windows-sdk-content
 description: Removes the specified URL from the group identified by the URL Group ID.
 old-location: http\httpremoveurlfromurlgroup.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 9c5c1fec-f3b4-414f-a841-e360f5f4e4db
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: HTTP_URL_FLAG_REMOVE_ALL, HttpRemoveUrlFromUrlGroup, HttpRemoveUrlFromUrlGroup function [HTTP], http.httpremoveurlfromurlgroup, http/HttpRemoveUrlFromUrlGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HttpRemoveUrlFromUrlGroup
-: 
 ---
 
 # HttpRemoveUrlFromUrlGroup function

@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msvidctl.h
-: 
-- IMSVidCtl.get_VideoRendererActive
-: 
 ---
 
 # IMSVidCtl::get_VideoRendererActive

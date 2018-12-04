@@ -4,10 +4,10 @@ title: IMsmMerge
 author: windows-sdk-content
 description: The IMsmMerge interface and the IMsmMerge2 interface provide interfaces to the Merge object.
 old-location: setup\imsmmerge_interface.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 6cb4b620-88ce-4348-ab72-6d2ed60c6298
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMsmMerge, IMsmMerge interface, IMsmMerge interface,described, _msi_imsmmerge_interface, mergemod/IMsmMerge, setup.imsmmerge_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

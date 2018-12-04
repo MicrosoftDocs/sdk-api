@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcenotification_notifytargetchange.htm
 tech.root: termserv
 ms.assetid: d075c7ae-fe86-4547-a980-2b82ea3498c6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],NotifyTargetChange method, ITsSbResourceNotification.NotifyTargetChange, ITsSbResourceNotification::NotifyTargetChange, NotifyTargetChange, NotifyTargetChange method [Remote Desktop Services], NotifyTargetChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyTargetChange, termserv.itssbresourcenotification_notifytargetchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbtsv.h
-: 
-- ITsSbResourceNotification.NotifyTargetChange
-: 
 ---
 
 # ITsSbResourceNotification::NotifyTargetChange

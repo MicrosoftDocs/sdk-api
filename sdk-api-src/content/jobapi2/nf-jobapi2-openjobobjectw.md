@@ -7,13 +7,13 @@ old-location: base\openjobobject.htm
 tech.root: procthread
 ms.assetid: cb6ebc6f-5c61-408d-a781-ba029c83ddeb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: OpenJobObject, OpenJobObject function, OpenJobObjectA, OpenJobObjectW, _win32_openjobobject, base.openjobobject, jobapi2/OpenJobObject, jobapi2/OpenJobObjectA, jobapi2/OpenJobObjectW
+ms.date: 11/23/2018
+ms.keywords: OpenJobObject, OpenJobObject function, OpenJobObjectA, OpenJobObjectW, _win32_openjobobject, base.openjobobject, winbase/OpenJobObject, winbase/OpenJobObjectA, winbase/OpenJobObjectW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: jobapi2.h
-req.include-header: Windows.h
+req.include-header: Windows.h, Jobapi2.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OpenJobObjectW
-: 
 ---
 
 # OpenJobObjectW function

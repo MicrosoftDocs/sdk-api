@@ -7,7 +7,7 @@ old-location: properties\IsPropVariantVector.htm
 tech.root: properties
 ms.assetid: c094c636-e51d-4a61-8d92-90abe2f0446e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IsPropVariantVector, IsPropVariantVector function [Windows Properties], properties.IsPropVariantVector, propvarutil/IsPropVariantVector, shell.IsPropVariantVector, shell_IsPropVariantVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- IsPropVariantVector
-: 
 ---
 
 # IsPropVariantVector function

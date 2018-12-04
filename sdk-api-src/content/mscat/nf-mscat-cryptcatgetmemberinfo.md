@@ -4,10 +4,10 @@ title: CryptCATGetMemberInfo function
 author: windows-sdk-content
 description: Retrieves member information from the catalog's PKCS #7.
 old-location: security\cryptcatgetmemberinfo.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: ff265232-f57e-4ab0-ba07-05e6d6745ae3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptCATGetMemberInfo, CryptCATGetMemberInfo function [Security], mscat/CryptCATGetMemberInfo, security.cryptcatgetmemberinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptCATGetMemberInfo
-: 
 ---
 
 # CryptCATGetMemberInfo function

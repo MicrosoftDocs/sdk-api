@@ -4,10 +4,10 @@ title: IUPnPServiceAsync::EndInvokeAction
 author: windows-sdk-content
 description: EndInvokeAction method retrieves the results of a previous BeginInvokeAction operation and retrieves the resultant output arguments.
 old-location: upnp\iupnpserviceasync_endinvokeaction.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 1B10F8E9-D3C9-432B-B773-77B4BB82224C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EndInvokeAction, EndInvokeAction method [UPnP APIs], EndInvokeAction method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndInvokeAction method, IUPnPServiceAsync.EndInvokeAction, IUPnPServiceAsync::EndInvokeAction, upnp.iupnpserviceasync_endinvokeaction, upnp/IUPnPServiceAsync::EndInvokeAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPServiceAsync.EndInvokeAction
-: 
 ---
 
 # IUPnPServiceAsync::EndInvokeAction

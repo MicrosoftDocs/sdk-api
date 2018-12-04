@@ -4,10 +4,10 @@ title: IOfflineFilesEvents2::ItemReconnectBegin
 author: windows-sdk-content
 description: Reports that the Offline Files service is beginning to attempt to reconnect all offline scopes.
 old-location: of\iofflinefilesevents2_itemreconnectbegin.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 7b0d112d-17be-481a-8793-2b57506ec7b2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],ItemReconnectBegin method, IOfflineFilesEvents2.ItemReconnectBegin, IOfflineFilesEvents2::ItemReconnectBegin, ItemReconnectBegin, ItemReconnectBegin method [Offline Files], ItemReconnectBegin method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::ItemReconnectBegin, of.iofflinefilesevents2_itemreconnectbegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesEvents2.ItemReconnectBegin
-: 
 ---
 
 # IOfflineFilesEvents2::ItemReconnectBegin
@@ -83,7 +75,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530521(v=VS.85).aspx">IOfflineFilesEvents2</a>
+<a href="https://msdn.microsoft.com/746f7220-8c87-4218-bd97-ec9b862e549c">IOfflineFilesEvents2</a>
  
 
  

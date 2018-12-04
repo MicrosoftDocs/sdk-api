@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_multisessioninterfaces.htm
 tech.root: imapi
 ms.assetid: 7bb2d100-629f-4b63-a699-ddce85213e72
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_MultisessionInterfaces method, IDiscFormat2Data.get_MultisessionInterfaces, IDiscFormat2Data::get_MultisessionInterfaces, get_MultisessionInterfaces, get_MultisessionInterfaces method [IMAPI], get_MultisessionInterfaces method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_multisessioninterfaces, imapi2/IDiscFormat2Data::get_MultisessionInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscFormat2Data.get_MultisessionInterfaces
-: 
 ---
 
 # IDiscFormat2Data::get_MultisessionInterfaces

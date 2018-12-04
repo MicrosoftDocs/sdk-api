@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature.htm
 tech.root: direct3d12
 ms.assetid: 165ECFE0-1B18-4A26-8B9C-3CE53776A349
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D3D12_FEATURE, D3D12_FEATURE enumeration, D3D12_FEATURE_ARCHITECTURE, D3D12_FEATURE_ARCHITECTURE1, D3D12_FEATURE_COMMAND_QUEUE_PRIORITY, D3D12_FEATURE_D3D12_OPTIONS, D3D12_FEATURE_D3D12_OPTIONS1, D3D12_FEATURE_D3D12_OPTIONS2, D3D12_FEATURE_D3D12_OPTIONS3, D3D12_FEATURE_D3D12_OPTIONS5, D3D12_FEATURE_EXISTING_HEAPS, D3D12_FEATURE_FEATURE_LEVELS, D3D12_FEATURE_FORMAT_INFO, D3D12_FEATURE_FORMAT_SUPPORT, D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, D3D12_FEATURE_MULTISAMPLE_QUALITY_LEVELS, D3D12_FEATURE_ROOT_SIGNATURE, D3D12_FEATURE_SHADER_CACHE, D3D12_FEATURE_SHADER_MODEL, d3d12/D3D12_FEATURE, d3d12/D3D12_FEATURE_ARCHITECTURE, d3d12/D3D12_FEATURE_ARCHITECTURE1, d3d12/D3D12_FEATURE_COMMAND_QUEUE_PRIORITY, d3d12/D3D12_FEATURE_D3D12_OPTIONS, d3d12/D3D12_FEATURE_D3D12_OPTIONS1, d3d12/D3D12_FEATURE_D3D12_OPTIONS2, d3d12/D3D12_FEATURE_D3D12_OPTIONS3, d3d12/D3D12_FEATURE_D3D12_OPTIONS5, d3d12/D3D12_FEATURE_EXISTING_HEAPS, d3d12/D3D12_FEATURE_FEATURE_LEVELS, d3d12/D3D12_FEATURE_FORMAT_INFO, d3d12/D3D12_FEATURE_FORMAT_SUPPORT, d3d12/D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, d3d12/D3D12_FEATURE_MULTISAMPLE_QUALITY_LEVELS, d3d12/D3D12_FEATURE_ROOT_SIGNATURE, d3d12/D3D12_FEATURE_SHADER_CACHE, d3d12/D3D12_FEATURE_SHADER_MODEL, direct3d12.d3d12_feature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies a Direct3D 12 feature or feature set to query about. When you want to query for the level to which an adapter supports a feature, pass one of these values to <a href="https://msdn.microsoft.com/en-us/library/Dn788653(v=VS.85).aspx">ID3D12Device::CheckFeatureSupport</a>.
+Specifies a Direct3D 12 feature or feature set to query about. When you want to query for the level to which an adapter supports a feature, pass one of these values to <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a>.
 
 
 ## -enum-fields
@@ -142,7 +142,7 @@ Indicates a query for the level of support for timestamp queries, format-casting
 
 ### -field D3D12_FEATURE_EXISTING_HEAPS
 
-Indicates a query for whether or not the adapter supports creating heaps from existing system memory. The corresponding data structure for this value is <a href="https://msdn.microsoft.com/en-us/library/Mt844808(v=VS.85).aspx">D3D12_FEATURE_DATA_EXISTING_HEAPS</a>.
+Indicates a query for whether or not the adapter supports creating heaps from existing system memory. The corresponding data structure for this value is <a href="https://msdn.microsoft.com/7F0D0FAD-BF29-43AD-95FA-85B9719C4782">D3D12_FEATURE_DATA_EXISTING_HEAPS</a>.
           
 
 
@@ -164,7 +164,7 @@ Starting with Windows 10, version 1809 (10.0; Build 17763), indicates a query fo
 
 
 
-Use a constant from  this enumeration in a call to <a href="https://msdn.microsoft.com/en-us/library/Dn788653(v=VS.85).aspx">ID3D12Device::CheckFeatureSupport</a> to query a driver about support for various Direct3D 12 features.
+Use a constant from  this enumeration in a call to <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> to query a driver about support for various Direct3D 12 features.
         Each value in this enumeration has a corresponding data structure that you must pass (by pointer reference) in the <i>pFeatureSupportData</i> parameter
         of <b>ID3D12Device::CheckFeatureSupport</b>.
 
@@ -176,11 +176,11 @@ Use a constant from  this enumeration in a call to <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788653(v=VS.85).aspx">ID3D12Device::CheckFeatureSupport</a>
+<a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a>
  
 
  

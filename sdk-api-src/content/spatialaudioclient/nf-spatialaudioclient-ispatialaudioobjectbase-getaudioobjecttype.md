@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobject_getaudioobjecttype.htm
 tech.root: CoreAudio
 ms.assetid: C4FB5E8B-C80A-4B4B-9162-95B463543061
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetAudioObjectType, GetAudioObjectType method [Core Audio], GetAudioObjectType method [Core Audio],ISpatialAudioObjectBase interface, ISpatialAudioObjectBase interface [Core Audio],GetAudioObjectType method, ISpatialAudioObjectBase.GetAudioObjectType, ISpatialAudioObjectBase::GetAudioObjectType, coreaudio.ispatialaudioobject_getaudioobjecttype, spatialaudioclient/ISpatialAudioObjectBase::GetAudioObjectType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- spatialaudioclient.h
-: 
-- ISpatialAudioObjectBase.GetAudioObjectType
-: 
 ---
 
 # ISpatialAudioObjectBase::GetAudioObjectType

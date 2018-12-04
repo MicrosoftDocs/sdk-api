@@ -4,10 +4,10 @@ title: IADsLargeInteger
 author: windows-sdk-content
 description: Used to manipulate 64-bit integers of the LargeInteger type.
 old-location: adsi\iadslargeinteger.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: d49e3339-8488-44c1-9d60-706492e65abc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsLargeInteger, IADsLargeInteger interface [ADSI], IADsLargeInteger interface [ADSI],described, _ds_iadslargeinteger, adsi.iadslargeinteger, iads/IADsLargeInteger
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -247,7 +247,7 @@ The following example shows how to convert an <b>IADsLargeInteger</b> to a 64-bi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

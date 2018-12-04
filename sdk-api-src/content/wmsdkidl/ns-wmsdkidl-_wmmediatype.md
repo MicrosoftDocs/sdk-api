@@ -7,7 +7,7 @@ old-location: wmformat\wm_media_type.htm
 tech.root: wmformat
 ms.assetid: 37a9ac59-e152-47e1-96ee-b816cd645936
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WM_MEDIA_TYPE, WM_MEDIA_TYPE structure [windows Media Format], _WMMediaType, wmformat.wm_media_type, wmsdkidl/WM_MEDIA_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

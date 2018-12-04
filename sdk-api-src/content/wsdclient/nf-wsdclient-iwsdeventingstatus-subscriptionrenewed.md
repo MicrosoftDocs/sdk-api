@@ -4,10 +4,10 @@ title: IWSDEventingStatus::SubscriptionRenewed
 author: windows-sdk-content
 description: Called when the subscription for the specified event action was successfully renewed.
 old-location: ncd\iwsdeventingstatus_subscriptionrenewed.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 5f5c0b43-9c91-4d82-be98-1fd4fe7f9794
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWSDEventingStatus interface,SubscriptionRenewed method, IWSDEventingStatus.SubscriptionRenewed, IWSDEventingStatus::SubscriptionRenewed, SubscriptionRenewed, SubscriptionRenewed method, SubscriptionRenewed method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionrenewed, wsdclient/IWSDEventingStatus::SubscriptionRenewed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdclient.h
-: 
-- IWSDEventingStatus.SubscriptionRenewed
-: 
 ---
 
 # IWSDEventingStatus::SubscriptionRenewed

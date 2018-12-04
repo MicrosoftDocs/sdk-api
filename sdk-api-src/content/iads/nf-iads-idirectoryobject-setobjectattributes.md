@@ -4,10 +4,10 @@ title: IDirectoryObject::SetObjectAttributes
 author: windows-sdk-content
 description: The IDirectoryObject::SetObjectAttributes method modifies data in one or more specified object attributes defined in the ADS_ATTR_INFO structure.
 old-location: adsi\idirectoryobject_setobjectattributes.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 999e6766-52cf-4087-bb17-72de487975c2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IDirectoryObject interface [ADSI],SetObjectAttributes method, IDirectoryObject.SetObjectAttributes, IDirectoryObject::SetObjectAttributes, SetObjectAttributes, SetObjectAttributes method [ADSI], SetObjectAttributes method [ADSI],IDirectoryObject interface, _ds_idirectoryobject_setobjectattributes, adsi.idirectoryobject__setobjectattributes, adsi.idirectoryobject_setobjectattributes, iads/IDirectoryObject::SetObjectAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IDirectoryObject.SetObjectAttributes
-: 
 ---
 
 # IDirectoryObject::SetObjectAttributes
@@ -71,19 +63,14 @@ The <b>IDirectoryObject::SetObjectAttributes</b> method modifies data in one or 
 Provides an array of attributes to be modified. Each attribute contains the name of the attribute, the operation to perform, and the attribute value, if applicable. For more information, see the  <a href="https://msdn.microsoft.com/a2b97a52-4b8b-4491-8798-72a161903422">ADS_ATTR_INFO</a> structure.
 
 
-### -param dwNumAttributes
+### -param dwNumAttributes [in]
 
-TBD
+Provides the number of attributes to be modified. This value should correspond to the size of the <i>pAttributeEntries</i> array.
 
 
 ### -param pdwNumAttributesModified [out]
 
 Provides a pointer to a <b>DWORD</b> variable that contains the number of attributes modified by the <b>SetObjectAttributes</b> method.
-
-
-#### - dwNumberAttributes [in]
-
-Provides the number of attributes to be modified. This value should correspond to the size of the <i>pAttributeEntries</i> array.
 
 
 ## -returns

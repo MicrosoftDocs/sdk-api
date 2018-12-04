@@ -7,7 +7,7 @@ old-location: cos\ichecksxsconfig_issamesxsconfig.htm
 tech.root: cossdk
 ms.assetid: 24ea3b88-2364-49e9-88cf-90a6094b9e4c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICheckSxsConfig interface [COM+],IsSameSxsConfig method, ICheckSxsConfig.IsSameSxsConfig, ICheckSxsConfig::IsSameSxsConfig, IsSameSxsConfig, IsSameSxsConfig method [COM+], IsSameSxsConfig method [COM+],ICheckSxsConfig interface, _cos_ICheckSxsConfig_IsSameSxsConfig, comsvcs/ICheckSxsConfig::IsSameSxsConfig, cos.ichecksxsconfig_issamesxsconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- ICheckSxsConfig.IsSameSxsConfig
-: 
 ---
 
 # ICheckSxsConfig::IsSameSxsConfig

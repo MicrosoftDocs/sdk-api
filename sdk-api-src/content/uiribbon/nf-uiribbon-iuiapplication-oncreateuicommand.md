@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiapplication_oncreateuicommand.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\oncreateuicommand.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/20/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnCreateUICommand method, IUIApplication.OnCreateUICommand, IUIApplication::OnCreateUICommand, OnCreateUICommand, OnCreateUICommand method [Windows Ribbon], OnCreateUICommand method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnCreateUICommand, uiribbon/IUIApplication::OnCreateUICommand, windowsribbon.windowsribbon_iuiapplication_oncreateuicommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiribbon.h
-: 
-- IUIApplication.OnCreateUICommand
-: 
 req.product: Windows UI
 ---
 
@@ -59,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>.
+Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a>.
 		
 
 
@@ -78,18 +70,18 @@ The ID for the Command, which is specified in the markup resource file.
 
 ### -param typeID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371556(v=VS.85).aspx">UI_COMMANDTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/afc2cf3e-c04d-45e1-93b3-23e5966b980c">UI_COMMANDTYPE</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371556(v=VS.85).aspx">Command type</a> that is associated with a specific control.
+The <a href="https://msdn.microsoft.com/afc2cf3e-c04d-45e1-93b3-23e5966b980c">Command type</a> that is associated with a specific control.
 				
 
 
 ### -param commandHandler [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a>**</b>
 
 When this method returns, contains the address of a pointer to an 
-					<a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a> object. This object is a host application 
+					<a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a> object. This object is a host application 
 					Command handler that is bound to one or more Commands.
 				
 
@@ -123,9 +115,13 @@ For each Command specified in the Ribbon markup, the Ribbon framework requires a
 
 The following example demonstrates a basic implementation of the <b>IUIApplication::OnCreateUICommand</b> method.
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 //  FUNCTION: OnCreateUICommand(UINT, UI_COMMANDTYPE, IUICommandHandler)
 //
 //  PURPOSE: Called by the Ribbon framework for each command specified in markup to allow
@@ -154,21 +150,21 @@ STDMETHODIMP CApplication::OnCreateUICommand(
         case UI_COMMANDTYPE_DECIMAL:
             {
                 _cwprintf(L"IUIApplication::OnCreateUICommand called for Spinner.\r\n");
-                hr = _spSpinnerSite->QueryInterface(IID_PPV_ARGS(ppCommandHandler));
+                hr = _spSpinnerSite-&gt;QueryInterface(IID_PPV_ARGS(ppCommandHandler));
                 break;
             }
         default:
             {
                 _cwprintf(L"IUIApplication::OnCreateUICommand called with CmdID=%u, typeID=%u.\r\n", nCmdID, typeID);
-                hr = _spCommandHandler->QueryInterface(IID_PPV_ARGS(ppCommandHandler));
+                hr = _spCommandHandler-&gt;QueryInterface(IID_PPV_ARGS(ppCommandHandler));
             }
     }    
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 
@@ -178,11 +174,11 @@ STDMETHODIMP CApplication::OnCreateUICommand(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371528(v=VS.85).aspx">IUIApplication</a>
+<a href="https://msdn.microsoft.com/0df1d890-cc78-4375-a17e-6fe7c0249107">IUIApplication</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

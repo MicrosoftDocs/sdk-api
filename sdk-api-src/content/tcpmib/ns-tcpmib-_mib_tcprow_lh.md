@@ -269,7 +269,7 @@ The maximum size of an IP port number is 16 bits, so only the lower 16 bits shou
 
 The <a href="https://msdn.microsoft.com/e90c5aa0-3126-489b-af44-bf86cb45a6d1">GetTcpTable</a>function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a> structure. 
 
-An array of <b>MIB_TCPROW</b> structures are contained in the <b>MIB_TCPTABLE</b> structure. The <b>MIB_TCPROW</b> structure is also used by the <a href="https://msdn.microsoft.com/en-us/library/Aa366378(v=VS.85).aspx">SetTcpEntry</a> function.
+An array of <b>MIB_TCPROW</b> structures are contained in the <b>MIB_TCPTABLE</b> structure. The <b>MIB_TCPROW</b> structure is also used by the <a href="_iphlp_settcpentry">SetTcpEntry</a> function.
 
   The <b>dwState</b> member indicates the state of the TCP entry in a TCP state diagram. A TCP connection progresses through a series of states during its
   lifetime.  The states are:  LISTEN, SYN-SENT, SYN-RECEIVED,
@@ -518,7 +518,7 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366378(v=VS.85).aspx">SetTcpEntry</a>
+<a href="_iphlp_settcpentry">SetTcpEntry</a>
 
 
 

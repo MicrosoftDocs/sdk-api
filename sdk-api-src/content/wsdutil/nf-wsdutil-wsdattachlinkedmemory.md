@@ -4,10 +4,10 @@ title: WSDAttachLinkedMemory function
 author: windows-sdk-content
 description: Attaches a child memory block to a parent memory block.
 old-location: ncd\wsdattachlinkedmemory_func.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 4f7bc268-6fcf-42f2-8457-e5094bee6e68
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WSDAttachLinkedMemory, WSDAttachLinkedMemory function, ncd.wsdattachlinkedmemory_func, wsdutil/WSDAttachLinkedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSDAttachLinkedMemory
-: 
 ---
 
 # WSDAttachLinkedMemory function

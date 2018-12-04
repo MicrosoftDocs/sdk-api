@@ -4,10 +4,10 @@ title: IUpdateServiceManager
 author: windows-sdk-content
 description: Adds or removes the registration of the update service with Windows Update Agent or Automatic Updates.
 old-location: wua\iupdateservicemanager.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 99b451b8-9831-475c-a4b0-7809f78d91b8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], IUpdateServiceManager interface [Windows Update Agent],described, wua.iupdateservicemanager, wuapi/IUpdateServiceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ Adds or removes the registration of the update service with Windows Update Agent
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateServiceManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IUpdateServiceManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateServiceManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IUpdateServiceManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

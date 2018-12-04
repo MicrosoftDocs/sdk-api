@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accrole.htm
 tech.root: WinAuto
 ms.assetid: 38800c5e-12a5-4825-a4c4-825a159c67f1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accRole method, IAccessible.get_accRole, IAccessible::get_accRole, _msaa_IAccessible_get_accRole, get_accRole, get_accRole method [Windows Accessibility], get_accRole method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accrole, oleacc/IAccessible::get_accRole, winauto.iaccessible_iaccessible__get_accrole
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
-- apiref
-: 
-- COM
-: 
-- oleacc.h
-: 
-- IAccessible.get_accRole
-: 
 ---
 
 # IAccessible::get_accRole

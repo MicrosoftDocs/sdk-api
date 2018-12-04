@@ -4,10 +4,10 @@ title: IUpdateInstaller4
 author: windows-sdk-content
 description: Provides methods to finalize updates that were previously staged or installed.
 old-location: wua\iupdateinstaller4.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 75A90895-BAD0-41F7-BFB1-16B8BF145441
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUpdateInstaller4, IUpdateInstaller4 interface [Windows Update Agent], IUpdateInstaller4 interface [Windows Update Agent],described, wua.iupdateinstaller4, wuapi/IUpdateInstaller4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,7 @@ Provides methods to finalize updates that were previously staged or installed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateInstaller4</b> interface inherits from <a href="https://msdn.microsoft.com/library/Mt829692(v=VS.85).aspx">IUpdateInstaller3</a>. <b>IUpdateInstaller4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateInstaller4</b> interface inherits from <a href="wua.iupdateinstaller3">IUpdateInstaller3</a>. <b>IUpdateInstaller4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -87,7 +87,7 @@ Finalizes updates that were previously staged or installed.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt829692(v=VS.85).aspx">IUpdateInstaller3</a>
+<a href="wua.iupdateinstaller3">IUpdateInstaller3</a>
  
 
  

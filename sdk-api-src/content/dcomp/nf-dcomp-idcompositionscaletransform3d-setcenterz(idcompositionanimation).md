@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionscaletransform3d_setcenterz_idcompositiona
 tech.root: directcomp
 ms.assetid: 7A64DE5A-90DF-4B20-B851-D7FD730CAB48
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterZ method, IDCompositionScaleTransform3D.SetCenterZ, IDCompositionScaleTransform3D.SetCenterZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterZ, IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation*), SetCenterZ, SetCenterZ method [DirectComposition], SetCenterZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterZ, directcomp.idcompositionscaletransform3d_setcenterz_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionScaleTransform3D.SetCenterZ
-: 
 ---
 
 # IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation)

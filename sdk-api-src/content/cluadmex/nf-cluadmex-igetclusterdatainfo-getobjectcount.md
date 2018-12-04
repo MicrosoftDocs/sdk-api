@@ -4,10 +4,10 @@ title: IGetClusterDataInfo::GetObjectCount
 author: windows-sdk-content
 description: Returns a count of the number of selected cluster objects.
 old-location: mscs\igetclusterdatainfo_getobjectcount.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 20ef63e2-bcec-48bc-86e8-ab746fb72cc5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Failover Cluster], GetObjectCount method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetObjectCount method, IGetClusterDataInfo.GetObjectCount, IGetClusterDataInfo::GetObjectCount, _wolf_igetclusterdatainfo_getobjectcount, cluadmex/IGetClusterDataInfo::GetObjectCount, mscs.igetclusterdatainfo_getobjectcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cluadmex.h
-: 
-- IGetClusterDataInfo.GetObjectCount
-: 
 ---
 
 # IGetClusterDataInfo::GetObjectCount
@@ -62,7 +54,7 @@ req.redist:
     section. Support for this method was removed in Windows Server 2008.]
 
 Returns a count of the number of selected 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">cluster objects</a>.
+    <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a>.
 
 
 ## -parameters
@@ -85,7 +77,7 @@ A count of the number of selected objects.
 
 
 
-Because <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> supports 
+Because <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> supports 
      only one selected object, the 
      <b>GetObjectCount</b> method always returns 
      1.
@@ -98,7 +90,7 @@ Because <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370211(v=VS.85).aspx">IGetClusterDataInfo</a>
+<a href="https://msdn.microsoft.com/a2800ac8-a865-4e66-8147-90e95b54cb0c">IGetClusterDataInfo</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: com\ifont_put_charset.htm
 tech.root: com
 ms.assetid: da48fefa-28d2-41aa-a324-dc259504c9ed
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IFont interface [COM],put_Charset method, IFont.put_Charset, IFont::put_Charset, _ctrl_ifont_put_charset, com.ifont_put_charset, ocidl/IFont::put_Charset, put_Charset, put_Charset method [COM], put_Charset method [COM],IFont interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ocidl.h
-: 
-- IFont.put_Charset
-: 
 ---
 
 # IFont::put_Charset

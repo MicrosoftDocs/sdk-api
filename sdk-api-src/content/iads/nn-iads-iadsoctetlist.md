@@ -4,10 +4,10 @@ title: IADsOctetList
 author: windows-sdk-content
 description: The IADsOctetList interface provides methods for an ADSI client to access the Octet List attribute.
 old-location: adsi\iadsoctetlist.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 66ec49d6-43c5-4fc8-a90d-5847fd2ffe50
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsOctetList, IADsOctetList interface [ADSI], IADsOctetList interface [ADSI],described, _ds_iadsoctetlist, adsi.iadsoctetlist, iads/IADsOctetList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

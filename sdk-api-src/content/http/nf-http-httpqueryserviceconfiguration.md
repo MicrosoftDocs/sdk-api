@@ -4,10 +4,10 @@ title: HttpQueryServiceConfiguration function
 author: windows-sdk-content
 description: Retrieves one or more HTTP Server API configuration records.
 old-location: http\httpqueryserviceconfiguration.htm
-tech.root: Http
+tech.root: http
 ms.assetid: bbd2c3c4-d2d0-4590-9b5c-6916b91600cd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: HttpQueryServiceConfiguration, HttpQueryServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, _http_httpqueryserviceconfiguration, http.httpqueryserviceconfiguration, http/HttpQueryServiceConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HttpQueryServiceConfiguration
-: 
 ---
 
 # HttpQueryServiceConfiguration function

@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject_Find.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\find.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/28/2018
 ms.keywords: Find, Find method [Windows Address Book], Find method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],Find method, IWABObject.Find, IWABObject::Find, _wab_IWABObject_Find, wab._wab_IWABObject_Find, wabapi/IWABObject::Find
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wabapi.h
-: 
-- IWABObject.Find
-: 
 req.product: Internet Explorer 5
 ---
 

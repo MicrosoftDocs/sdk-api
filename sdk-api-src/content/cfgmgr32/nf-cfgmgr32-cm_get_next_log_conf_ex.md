@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Get_Next_Log_Conf_Ex
-: 
 ---
 
 # CM_Get_Next_Log_Conf_Ex function

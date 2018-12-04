@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain_getcolorspace.htm
 tech.root: direct3ddxgi
 ms.assetid: 3C63C75C-6395-46E8-9070-A62220FCA3B8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetColorSpace, GetColorSpace method [DXGI], GetColorSpace method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetColorSpace method, IDXGIDecodeSwapChain.GetColorSpace, IDXGIDecodeSwapChain::GetColorSpace, direct3ddxgi.idxgidecodeswapchain_getcolorspace, dxgi1_3/IDXGIDecodeSwapChain::GetColorSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxgi1_3.h
-: 
-- IDXGIDecodeSwapChain.GetColorSpace
-: 
 ---
 
 # IDXGIDecodeSwapChain::GetColorSpace

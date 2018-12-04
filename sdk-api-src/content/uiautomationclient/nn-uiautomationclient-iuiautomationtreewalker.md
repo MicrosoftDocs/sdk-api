@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker.htm
 tech.root: WinAuto
 ms.assetid: adb4afed-63b9-42b4-8a8d-673d4813bb52
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], IUIAutomationTreeWalker interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTreeWalker, uiauto_IUIAutomationTreeWalker, uiautomationclient/IUIAutomationTreeWalker, winauto.uiauto_IUIAutomationTreeWalker
 ms.prod: windows-hardware
 ms.technology: windows-devices

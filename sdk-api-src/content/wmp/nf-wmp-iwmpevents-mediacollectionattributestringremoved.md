@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringremoved.h
 tech.root: WMP
 ms.assetid: 4e7a3d71-4ec1-4c33-9101-d9d90ee8b1f9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionAttributeStringRemoved method, IWMPEvents.MediaCollectionAttributeStringRemoved, IWMPEvents::MediaCollectionAttributeStringRemoved, IWMPEventsMediaCollectionAttributeStringRemoved, MediaCollectionAttributeStringRemoved, MediaCollectionAttributeStringRemoved method [Windows Media Player], MediaCollectionAttributeStringRemoved method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionattributestringremoved, wmp/IWMPEvents::MediaCollectionAttributeStringRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmp.h
-: 
-- IWMPEvents.MediaCollectionAttributeStringRemoved
-: 
 ---
 
 # IWMPEvents::MediaCollectionAttributeStringRemoved

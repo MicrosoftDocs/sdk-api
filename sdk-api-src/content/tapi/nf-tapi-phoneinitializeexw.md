@@ -4,10 +4,10 @@ title: phoneInitializeExW function
 author: windows-sdk-content
 description: The phoneInitializeEx function initializes the application's use of TAPI for subsequent use of the phone abstraction.
 old-location: tapi2\phoneinitializeex.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 362e37df-4b14-4651-8d23-b70613e354c8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_tapi2_phoneinitializeex, phoneInitializeEx, phoneInitializeEx function [TAPI 2.2], phoneInitializeExA, phoneInitializeExW, tapi/phoneInitializeEx, tapi/phoneInitializeExA, tapi/phoneInitializeExW, tapi2.phoneinitializeex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- phoneInitializeExW
-: 
 ---
 
 # phoneInitializeExW function
@@ -128,7 +122,7 @@ Applications must select one of three mechanisms by which TAPI notifies the appl
 <li>The <b>Hidden Window</b> mechanism is selected by specifying PHONEINITIALIZEEXOPTION_USEHIDDENWINDOW in the <b>dwOptions</b> member in the 
 <a href="https://msdn.microsoft.com/465653e4-b88a-42a0-99b0-ce26eeaf99fd">PHONEINITIALIZEEXPARAMS</a> structure. In this mechanism (which is the only mechanism available to TAPI version 1.<i>x</i> applications), TAPI creates a window in the context of the application during the 
 <b>phoneInitializeEx</b> function, and subclasses the window so that all messages posted to it are handled by a WNDPROC in TAPI itself. When TAPI has a message to deliver to the application, TAPI posts a message to the hidden window. When the message is received (which can happen only when the application calls the Windows 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> function), Windows switches the process context to that of the application and invokes the WNDPROC in TAPI. TAPI then delivers the message to the application by calling the 
+<a href="_win32_getmessage_cpp">GetMessage</a> function), Windows switches the process context to that of the application and invokes the WNDPROC in TAPI. TAPI then delivers the message to the application by calling the 
 <a href="https://msdn.microsoft.com/169ac08a-7584-4d43-abb3-eb83eeb48406">phoneCallbackFunc</a>, a pointer to which the application provided as a parameter in its call to 
 <b>phoneInitializeEx</b> (or 
 <a href="https://msdn.microsoft.com/e06153c1-707e-45a9-8d26-747d53e16cf2">phoneInitialize</a>, for TAPI version 1.3 and 1.4 applications). This mechanism requires the application to have a message queue (which is not desirable for service processes) and to service that queue regularly to avoid delaying processing of telephony events. The hidden window is destroyed by TAPI during the 

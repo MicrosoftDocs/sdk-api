@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecKeyManagerSetSecurityInfoByKey0
-: 
 ---
 
 # IPsecKeyManagerSetSecurityInfoByKey0 function

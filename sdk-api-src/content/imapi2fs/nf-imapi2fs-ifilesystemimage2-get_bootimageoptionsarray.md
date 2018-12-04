@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage2_get_bootimageoptionsarray.htm
 tech.root: imapi
 ms.assetid: 31e4c8e8-7a00-41e7-b3cf-78dbc10fc3d2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFileSystemImage2 interface [IMAPI],get_BootImageOptionsArray method, IFileSystemImage2.get_BootImageOptionsArray, IFileSystemImage2::get_BootImageOptionsArray, get_BootImageOptionsArray, get_BootImageOptionsArray method [IMAPI], get_BootImageOptionsArray method [IMAPI],IFileSystemImage2 interface, imapi.ifilesystemimage2_get_bootimageoptionsarray, imapi2fs/IFileSystemImage2::get_BootImageOptionsArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2fs.h
-: 
-- IFileSystemImage2.get_BootImageOptionsArray
-: 
 ---
 
 # IFileSystemImage2::get_BootImageOptionsArray

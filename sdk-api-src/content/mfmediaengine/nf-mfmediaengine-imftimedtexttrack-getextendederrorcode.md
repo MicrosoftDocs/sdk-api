@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_getextendederrorcode.htm
 tech.root: medfound
 ms.assetid: 61119103-B6F6-414B-AA7E-55DC889A5C28
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetExtendedErrorCode, GetExtendedErrorCode method [Media Foundation], GetExtendedErrorCode method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetExtendedErrorCode method, IMFTimedTextTrack.GetExtendedErrorCode, IMFTimedTextTrack::GetExtendedErrorCode, mf.imftimedtexttrack_getextendederrorcode, mfmediaengine/IMFTimedTextTrack::GetExtendedErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfmediaengine.h
-: 
-- IMFTimedTextTrack.GetExtendedErrorCode
-: 
 ---
 
 # IMFTimedTextTrack::GetExtendedErrorCode
@@ -72,7 +64,7 @@ Gets the extended error code for the latest error associated with the track.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 The extended error code for the latest error associated with the track.
 
@@ -83,7 +75,7 @@ The extended error code for the latest error associated with the track.
 
 
 
-If the most recent error was associated with a track, this value will be the same <a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a> as returned by the <a href="https://msdn.microsoft.com/3658EE26-497D-4D33-BE68-572BCE1B28B1">IMFTimedTextNotify::Error</a> method.
+If the most recent error was associated with a track, this value will be the same <a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a> as returned by the <a href="https://msdn.microsoft.com/3658EE26-497D-4D33-BE68-572BCE1B28B1">IMFTimedTextNotify::Error</a> method.
 
 
 

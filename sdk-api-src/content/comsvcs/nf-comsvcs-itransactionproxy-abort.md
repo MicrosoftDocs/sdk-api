@@ -7,7 +7,7 @@ old-location: cos\itransactionproxy_abort.htm
 tech.root: cossdk
 ms.assetid: 15ad94ac-311f-486d-988b-9071396f6e34
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],Abort method, ITransactionProxy.Abort, ITransactionProxy::Abort, comsvcs/ITransactionProxy::Abort, cos.itransactionproxy_abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- ITransactionProxy.Abort
-: 
 ---
 
 # ITransactionProxy::Abort
@@ -91,7 +83,7 @@ Calling <b>ITransactionProxy::Abort</b> ends the transaction on return of the me
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681620(v=VS.85).aspx">ITransactionProxy</a>
+<a href="https://msdn.microsoft.com/58d40456-fd4f-4690-a679-3fa58b2f3cda">ITransactionProxy</a>
  
 
  

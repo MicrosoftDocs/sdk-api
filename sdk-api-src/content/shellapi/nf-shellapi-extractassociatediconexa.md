@@ -7,7 +7,7 @@ old-location: shell\ExtractAssociatedIconEx.htm
 tech.root: shell
 ms.assetid: f32260b0-917b-4406-aeee-34f71a7c7309
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ExtractAssociatedIconEx, ExtractAssociatedIconEx function [Windows Shell], ExtractAssociatedIconExA, ExtractAssociatedIconExW, _win32_ExtractAssociatedIconEx, shell.ExtractAssociatedIconEx, shellapi/ExtractAssociatedIconEx, shellapi/ExtractAssociatedIconExA, shellapi/ExtractAssociatedIconExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ExtractAssociatedIconExA
-: 
 ---
 
 # ExtractAssociatedIconExA function
@@ -123,7 +117,7 @@ Returns the icon's handle if successful, otherwise <b>NULL</b>.
 
 
 
-The icon handle returned by this function must be released by calling <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when it is no longer needed.
+The icon handle returned by this function must be released by calling <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> when it is no longer needed.
 
 
 

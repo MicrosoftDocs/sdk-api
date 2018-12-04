@@ -4,10 +4,10 @@ title: SymEnumerateModules64 function
 author: windows-sdk-content
 description: Enumerates all modules that have been loaded for the process by the SymLoadModule64 or SymLoadModuleEx function.
 old-location: base\symenumeratemodules64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: d2372521-eff7-4ac4-a0f3-1267ef50db6e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SymEnumerateModules, SymEnumerateModules function, SymEnumerateModules64, SymEnumerateModules64 function, SymEnumerateModulesW64, _win32_symenumeratemodules64, base.symenumeratemodules64, dbghelp/SymEnumerateModules, dbghelp/SymEnumerateModules64, dbghelp/SymEnumerateModulesW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
-- apiref
-: 
-- 
-: 
-- SymEnumerateModules64
-: 
 ---
 
 # SymEnumerateModules64 function
@@ -109,9 +103,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR. <b>SymEnumerateModulesW64</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BOOL
 IMAGEAPI
 SymEnumerateModulesW64(
@@ -122,16 +120,20 @@ SymEnumerateModulesW64(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
 #define SymEnumerateModules64  SymEnumerateModulesW64
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 This function supersedes the <b>SymEnumerateModules</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymEnumerateModules</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymEnumerateModules SymEnumerateModules64
 #else
 BOOL
@@ -141,10 +143,10 @@ SymEnumerateModules(
     __in PSYM_ENUMMODULES_CALLBACK EnumModulesCallback,
     __in_opt PVOID UserContext
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Examples
 

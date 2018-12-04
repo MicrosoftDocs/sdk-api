@@ -4,10 +4,10 @@ title: IDirectorySearch::SetSearchPreference
 author: windows-sdk-content
 description: Specifies a search preference for obtaining data in a subsequent search.
 old-location: adsi\idirectorysearch_setsearchpreference.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 1c5b3f72-6165-41ad-99d4-d68bc12ac10b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IDirectorySearch interface [ADSI],SetSearchPreference method, IDirectorySearch.SetSearchPreference, IDirectorySearch::SetSearchPreference, SetSearchPreference, SetSearchPreference method [ADSI], SetSearchPreference method [ADSI],IDirectorySearch interface, _ds_idirectorysearch_setsearchpreference, adsi.idirectorysearch__setsearchpreference, adsi.idirectorysearch_setsearchpreference, iads/IDirectorySearch::SetSearchPreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IDirectorySearch.SetSearchPreference
-: 
 ---
 
 # IDirectorySearch::SetSearchPreference

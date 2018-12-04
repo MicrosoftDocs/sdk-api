@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MagUninitialize
-: 
 ---
 
 # MagUninitialize function
@@ -82,7 +76,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692393(v=VS.85).aspx">MagInitialize</a>
+<a href="https://msdn.microsoft.com/5e29436b-0cb2-4aa7-bddf-aafa5b4c6f41">MagInitialize</a>
  
 
  

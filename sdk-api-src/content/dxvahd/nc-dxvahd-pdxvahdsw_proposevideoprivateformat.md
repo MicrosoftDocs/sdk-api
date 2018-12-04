@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_proposevideoprivateformat.htm
 tech.root: medfound
 ms.assetid: b543f05f-40fc-4bdf-ae53-9a451d3bdf2a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: PDXVAHDSW_ProposeVideoPrivateFormat, PDXVAHDSW_ProposeVideoPrivateFormat callback, PDXVAHDSW_ProposeVideoPrivateFormat callback function [Media Foundation], dxvahd/PDXVAHDSW_ProposeVideoPrivateFormat, mf.pdxvahdsw_proposevideoprivateformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,9 +96,13 @@ If the function succeeds, the <a href="https://msdn.microsoft.com/c467a077-104c-
 
 The following code shows how a plug-in device proposes <b>D3DFMT_A8R8G8B8</b> as an alternative surface format for AYUV. 
 
-
-```
-HRESULT CALLBACK ProposeVideoPrivateFormat(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CALLBACK ProposeVideoPrivateFormat(
     HANDLE hDevice,
     D3DFORMAT* pFormat 
     )
@@ -113,10 +117,10 @@ HRESULT CALLBACK ProposeVideoPrivateFormat(
             return E_FAIL;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

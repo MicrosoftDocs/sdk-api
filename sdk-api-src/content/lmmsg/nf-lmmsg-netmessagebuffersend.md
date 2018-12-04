@@ -4,10 +4,10 @@ title: NetMessageBufferSend function
 author: windows-sdk-content
 description: The NetMessageBufferSend function sends a buffer of information to a registered message alias.
 old-location: netmgmt\netmessagebuffersend.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: d1b9bebd-52e9-4b5f-97fb-e2a98aaff6b7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetMessageBufferSend, NetMessageBufferSend function [Network Management], _win32_netmessagebuffersend, lmmsg/NetMessageBufferSend, netmgmt.netmessagebuffersend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetMessageBufferSend
-: 
 ---
 
 # NetMessageBufferSend function

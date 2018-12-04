@@ -7,7 +7,7 @@ old-location: dataxchg\addatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\addatom.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddAtom, AddAtom function [Data Exchange], AddAtomA, AddAtomW, _win32_AddAtom, _win32_addatom_cpp, dataxchg.addatom, winbase/AddAtom, winbase/AddAtomA, winbase/AddAtomW, winui._win32_addatom
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AddAtomA
-: 
 ---
 
 # AddAtomA function

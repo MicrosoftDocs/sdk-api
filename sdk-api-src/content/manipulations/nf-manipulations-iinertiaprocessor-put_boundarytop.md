@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_topboundary.htm
 tech.root: wintouch
 ms.assetid: 5864cf0e-c632-414c-a8b1-e8367474e904
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: BoundaryTop property [Windows Touch], BoundaryTop property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryTop property, IInertiaProcessor.BoundaryTop, IInertiaProcessor.put_BoundaryTop, IInertiaProcessor::BoundaryTop, IInertiaProcessor::get_BoundaryTop, IInertiaProcessor::put_BoundaryTop, manipulations/IInertiaProcessor::BoundaryTop, manipulations/IInertiaProcessor::get_BoundaryTop, manipulations/IInertiaProcessor::put_BoundaryTop, put_BoundaryTop, wintouch.iinertiaprocessor_topboundary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- manipulations.h
-: 
-- IInertiaProcessor.put_BoundaryTop
-: 
 ---
 
 # IInertiaProcessor::put_BoundaryTop

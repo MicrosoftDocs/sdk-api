@@ -7,7 +7,7 @@ old-location: com\ifont_put_weight.htm
 tech.root: com
 ms.assetid: 716c77f3-6224-40d7-abea-46ed5eedb08a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IFont interface [COM],put_Weight method, IFont.put_Weight, IFont::put_Weight, _ctrl_ifont_put_weight, com.ifont_put_weight, ocidl/IFont::put_Weight, put_Weight, put_Weight method [COM], put_Weight method [COM],IFont interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ocidl.h
-: 
-- IFont.put_Weight
-: 
 ---
 
 # IFont::put_Weight

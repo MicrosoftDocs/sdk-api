@@ -7,7 +7,7 @@ old-location: directwrite\idwritefactory2_translatecolorglyphrun.htm
 tech.root: DirectWrite
 ms.assetid: 1D31F807-C3F2-466F-9723-E6F12B13BFA1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteFactory2 interface [Direct Write],TranslateColorGlyphRun method, IDWriteFactory2.TranslateColorGlyphRun, IDWriteFactory2::TranslateColorGlyphRun, TranslateColorGlyphRun, TranslateColorGlyphRun method [Direct Write], TranslateColorGlyphRun method [Direct Write],IDWriteFactory2 interface, directwrite.idwritefactory2_translatecolorglyphrun, dwrite_2/IDWriteFactory2::TranslateColorGlyphRun
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_2.h
-: 
-- IDWriteFactory2.TranslateColorGlyphRun
-: 
 ---
 
 # IDWriteFactory2::TranslateColorGlyphRun

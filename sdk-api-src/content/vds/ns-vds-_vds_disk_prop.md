@@ -4,10 +4,10 @@ title: "_VDS_DISK_PROP"
 author: windows-sdk-content
 description: Defines the properties of a disk object.
 old-location: base\vds_disk_prop.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: c7c09f95-9489-46fd-8b03-cabdee4521cf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PVDS_DISK_PROP, PVDS_DISK_PROP, PVDS_DISK_PROP structure pointer [VDS], VDS_DISK_PROP, VDS_DISK_PROP structure [VDS], VDS_H_FAILED, VDS_H_FAILING, VDS_H_HEALTHY, VDS_H_UNKNOWN, _VDS_DISK_PROP, base.vds_disk_prop, vds/PVDS_DISK_PROP, vds/_VDS_DISK_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -183,7 +183,7 @@ This member is optional and can be <b>NULL</b> if no value is available. If it i
 
 ### -field pwszName
 
-The name used to open a handle to an object created using the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> 
+The name used to open a handle to an object created using the <a href="base.createfile">CreateFile</a> 
       function. For example:
       
 

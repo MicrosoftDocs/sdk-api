@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createpackagefromfile.htm
 tech.root: printdocs
 ms.assetid: 2498792b-a33c-47cd-8d88-8e89b99c432d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreatePackageFromFile, CreatePackageFromFile method [XPS Documents and Packaging], CreatePackageFromFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageFromFile method, IXpsOMObjectFactory.CreatePackageFromFile, IXpsOMObjectFactory::CreatePackageFromFile, TRUE, xps.ixpsomobjectfactory_createpackagefromfile, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMObjectFactory.CreatePackageFromFile
-: 
 ---
 
 # IXpsOMObjectFactory::CreatePackageFromFile

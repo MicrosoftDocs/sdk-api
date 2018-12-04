@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_getcaps.htm
 tech.root: DirectShow
 ms.assetid: d63437e3-4e8a-49de-b555-db29d235569d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetCaps, GetCaps method [DirectShow], GetCaps method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetCaps method, IDirectDrawVideo.GetCaps, IDirectDrawVideo::GetCaps, IDirectDrawVideoGetCaps, amvideo/IDirectDrawVideo::GetCaps, dshow.idirectdrawvideo_getcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- amvideo.h
-: 
-- IDirectDrawVideo.GetCaps
-: 
 ---
 
 # IDirectDrawVideo::GetCaps

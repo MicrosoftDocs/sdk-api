@@ -7,7 +7,7 @@ old-location: shell\IShellMenuCallback.htm
 tech.root: shell
 ms.assetid: 96bfdc52-bd4a-4345-8dd1-7e716a3d9811
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IShellMenuCallback, IShellMenuCallback interface [Windows Shell], IShellMenuCallback interface [Windows Shell],described, _win32_IShellMenuCallback, shell.IShellMenuCallback, shobjidl_core/IShellMenuCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

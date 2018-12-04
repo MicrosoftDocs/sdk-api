@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecureauthenticate2_getscpsession.htm
 tech.root: WMDM
 ms.assetid: 7e09d8ea-65aa-427b-a876-00b089659b1b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetSCPSession, GetSCPSession method [windows Media Device Manager], GetSCPSession method [windows Media Device Manager],ISCPSecureAuthenticate2 interface, ISCPSecureAuthenticate2 interface [windows Media Device Manager],GetSCPSession method, ISCPSecureAuthenticate2.GetSCPSession, ISCPSecureAuthenticate2::GetSCPSession, ISCPSecureAuthenticate2GetSCPSession, mswmdm/ISCPSecureAuthenticate2::GetSCPSession, wmdm.iscpsecureauthenticate2_getscpsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mswmdm.h
-: 
-- ISCPSecureAuthenticate2.GetSCPSession
-: 
 ---
 
 # ISCPSecureAuthenticate2::GetSCPSession

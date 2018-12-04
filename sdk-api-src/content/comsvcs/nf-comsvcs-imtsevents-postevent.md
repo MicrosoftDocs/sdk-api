@@ -7,7 +7,7 @@ old-location: cos\imtsevents_postevent.htm
 tech.root: cossdk
 ms.assetid: 4dcbe3d9-f81b-4014-a3b4-16706e691cb0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMtsEvents interface [COM+],PostEvent method, IMtsEvents.PostEvent, IMtsEvents::PostEvent, PostEvent, PostEvent method [COM+], PostEvent method [COM+],IMtsEvents interface, _dtc_IMtsEvents_PostEvent, comsvcs/IMtsEvents::PostEvent, cos.imtsevents_postevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- IMtsEvents.PostEvent
-: 
 ---
 
 # IMtsEvents::PostEvent

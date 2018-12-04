@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BluetoothRegisterForAuthenticationEx
-: 
 ---
 
 # BluetoothRegisterForAuthenticationEx function
@@ -68,18 +62,18 @@ The <b>BluetoothRegisterForAuthenticationEx</b> function registers an applicatio
 
 ### -param pbtdiIn [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa362924(v=VS.85).aspx">BLUETOOTH_DEVICE_INFO</a> structure that specifies the bluetooth address to be utilized for comparison.
+A pointer to a <a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a> structure that specifies the bluetooth address to be utilized for comparison.
 
 
 ### -param phRegHandleOut [out]
 
-A pointer to a <b>HBLUETOOTH_AUTHENTICATION_REGISTRATION</b> handle associated with the registered application. Call <a href="https://msdn.microsoft.com/en-us/library/Aa362895(v=VS.85).aspx">BluetoothUnregisterAuthentication</a> to close
+A pointer to a <b>HBLUETOOTH_AUTHENTICATION_REGISTRATION</b> handle associated with the registered application. Call <a href="https://msdn.microsoft.com/bfb1a18c-e5b1-4053-8652-5a76b196bebe">BluetoothUnregisterAuthentication</a> to close
 the handle.
 
 
 ### -param pfnCallbackIn [in, optional]
 
-The function that will be called when the authentication event          occurs. This function should match the prototype of <a href="https://msdn.microsoft.com/en-us/library/Cc766822(v=VS.85).aspx">PFN_AUTHENTICATION_CALLBACK_EX</a>.
+The function that will be called when the authentication event          occurs. This function should match the prototype of <a href="https://msdn.microsoft.com/835a624f-c08d-402c-940b-4443e1b38d58">PFN_AUTHENTICATION_CALLBACK_EX</a>.
 
 
 ### -param pvParam [in, optional]
@@ -130,7 +124,7 @@ The registration handle that was provided is invalid.
 
 
 
-The caller must provide a valid callback address and must unregister the callback once notification is no longer required.  The deregistration of an authenticated device can be accomplished by calling <a href="https://msdn.microsoft.com/en-us/library/Aa362895(v=VS.85).aspx">BluetoothUnregisterAuthentication</a>.
+The caller must provide a valid callback address and must unregister the callback once notification is no longer required.  The deregistration of an authenticated device can be accomplished by calling <a href="https://msdn.microsoft.com/bfb1a18c-e5b1-4053-8652-5a76b196bebe">BluetoothUnregisterAuthentication</a>.
 
 In scenarios where an application registers for authentication more than once, only the first callback function registered via this function will be called in the application while authentication is in progress.
 
@@ -142,11 +136,11 @@ In scenarios where an application registers for authentication more than once, o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362883(v=VS.85).aspx">BluetoothRegisterForAuthentication</a>
+<a href="https://msdn.microsoft.com/f85dd076-9062-413f-863f-9d3baba322ad">BluetoothRegisterForAuthentication</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362895(v=VS.85).aspx">BluetoothUnregisterAuthentication</a>
+<a href="https://msdn.microsoft.com/bfb1a18c-e5b1-4053-8652-5a76b196bebe">BluetoothUnregisterAuthentication</a>
  
 
  

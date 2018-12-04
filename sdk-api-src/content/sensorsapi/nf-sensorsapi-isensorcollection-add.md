@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensorcollection_add.htm
 tech.root: SensorsAPI
 ms.assetid: 7f563d5d-2943-4cbd-bfb5-c347ec270e85
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Add, Add method, Add method,ISensorCollection interface, ISensorCollection interface,Add method, ISensorCollection.Add, ISensorCollection::Add, sensorsapi/ISensorCollection::Add, winsensors_com_ref.isensorcollection_add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sensorsapi.h
-: 
-- ISensorCollection.Add
-: 
 ---
 
 # ISensorCollection::Add

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationAndCondition_ChildCount.htm
 tech.root: WinAuto
 ms.assetid: 9e87bc65-5b41-4256-92c7-21b92032b83f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ChildCount property [Windows Accessibility], ChildCount property [Windows Accessibility],IUIAutomationAndCondition interface, IUIAutomationAndCondition interface [Windows Accessibility],ChildCount property, IUIAutomationAndCondition.ChildCount, IUIAutomationAndCondition.get_ChildCount, IUIAutomationAndCondition::ChildCount, IUIAutomationAndCondition::get_ChildCount, get_ChildCount, uiauto.uiauto_IUIAutomationAndCondition_ChildCount, uiauto_IUIAutomationAndCondition_ChildCount, uiautomationclient/IUIAutomationAndCondition::ChildCount, uiautomationclient/IUIAutomationAndCondition::get_ChildCount, winauto.uiauto_IUIAutomationAndCondition_ChildCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationAndCondition.get_ChildCount
-: 
 ---
 
 # IUIAutomationAndCondition::get_ChildCount

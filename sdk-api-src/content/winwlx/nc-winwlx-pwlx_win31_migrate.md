@@ -4,10 +4,10 @@ title: PWLX_WIN31_MIGRATE
 author: windows-sdk-content
 description: Called by a replacement GINA DLL if Terminal Services is enabled. GINA calls this function to complete the setup of the Terminal Services client.
 old-location: security\wlxwin31migrate.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: bb36254c-0696-4f3f-89d7-332837ec3a75
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PWLX_WIN31_MIGRATE, PWLX_WIN31_MIGRATE callback, WlxWin31Migrate, WlxWin31Migrate callback function [Security], _gina_wlxwin31migrate, security.wlxwin31migrate, winwlx/WlxWin31Migrate
 ms.prod: windows-hardware
 ms.technology: windows-devices

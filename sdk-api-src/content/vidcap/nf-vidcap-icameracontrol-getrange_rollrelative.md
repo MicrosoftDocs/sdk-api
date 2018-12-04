@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_rollrelative.htm
 tech.root: DirectShow
 ms.assetid: c0208111-8648-4511-99f6-20489a026c91
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_RollRelative method, ICameraControl.getRange_RollRelative, ICameraControl::getRange_RollRelative, ICameraControlgetRange_RollRelative, dshow.icameracontrol_getrange_rollrelative, getRange_RollRelative, getRange_RollRelative method [DirectShow], getRange_RollRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_RollRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vidcap.h
-: 
-- ICameraControl.getRange_RollRelative
-: 
 ---
 
 # ICameraControl::getRange_RollRelative

@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_removestreamconfiguration.htm
 tech.root: medfound
 ms.assetid: 8808DC0A-7675-4913-B4F1-B2FCCB3AFBBF
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IMFMuxStreamMediaTypeManager interface [Media Foundation],RemoveStreamConfiguration method, IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration, IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration, RemoveStreamConfiguration, RemoveStreamConfiguration method [Media Foundation], RemoveStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, mf.imfmuxstreammediatypemanager_removestreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfobjects.h
-: 
-- IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration
-: 
 ---
 
 # IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration

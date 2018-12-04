@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerservices2.htm
 tech.root: WMP
 ms.assetid: abbce425-9185-4235-8d8e-28be591be8e5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMPPlayerServices2, IWMPPlayerServices2 interface [Windows Media Player], IWMPPlayerServices2 interface [Windows Media Player],described, IWMPPlayerServices2Interface, wmp.iwmpplayerservices2, wmp/IWMPPlayerServices2
 ms.prod: windows-hardware
 ms.technology: windows-devices

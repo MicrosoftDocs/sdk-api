@@ -7,7 +7,7 @@ old-location: termserv\itspubplugin2.htm
 tech.root: termserv
 ms.assetid: 1ef27b3a-b897-4757-803d-d3a18959895c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: ItsPubPlugin2, ItsPubPlugin2 interface [Remote Desktop Services], ItsPubPlugin2 interface [Remote Desktop Services],described, termserv.itspubplugin2, tspubplugin2com/ItsPubPlugin2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\SHRegGetBoolValueFromHKCUHKLM.htm
 tech.root: shell
 ms.assetid: 05239aef-a6cf-426f-919e-08b70baee3f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SHRegGetBoolValueFromHKCUHKLM, SHRegGetBoolValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetBoolValueFromHKCUHKLM, shell.SHRegGetBoolValueFromHKCUHKLM, shlwapi/SHRegGetBoolValueFromHKCUHKLM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHRegGetBoolValueFromHKCUHKLM
-: 
 ---
 
 # SHRegGetBoolValueFromHKCUHKLM function

@@ -52,12 +52,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetKeyboardLayoutNameA
-: 
 ---
 
 # GetKeyboardLayoutNameA function
@@ -78,7 +72,7 @@ Retrieves the name of the active input locale identifier (formerly called the ke
 
 Type: <b>LPTSTR</b>
 
-The buffer (of at least <b>KL_NAMELENGTH</b> characters in length) that receives the name of the input locale identifier, including the terminating null character. This will be a copy of the string provided to the <a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function, unless layout substitution took place.
+The buffer (of at least <b>KL_NAMELENGTH</b> characters in length) that receives the name of the input locale identifier, including the terminating null character. This will be a copy of the string provided to the <a href="https://msdn.microsoft.com/6e35847e-d641-4ff2-80b6-a5b5293ebbdc">LoadKeyboardLayout</a> function, unless layout substitution took place.
 
 
 ## -returns
@@ -110,7 +104,7 @@ The input locale identifier is a broader concept than a keyboard layout, since i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646289(v=VS.85).aspx">ActivateKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/bfc045fb-8696-45f5-b65f-06a08c000765">ActivateKeyboardLayout</a>
 
 
 
@@ -118,11 +112,11 @@ The input locale identifier is a broader concept than a keyboard layout, since i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/6e35847e-d641-4ff2-80b6-a5b5293ebbdc">LoadKeyboardLayout</a>
 
 
 
@@ -130,7 +124,7 @@ The input locale identifier is a broader concept than a keyboard layout, since i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646324(v=VS.85).aspx">UnloadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/0fc880a8-ed1e-4110-b309-761c511863f3">UnloadKeyboardLayout</a>
  
 
  

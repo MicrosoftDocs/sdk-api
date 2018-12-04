@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemInfo_GetTypeLabel.htm
 tech.root: shell
 ms.assetid: f93e929f-c25b-4511-9478-57686f9e205b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetTypeLabel, GetTypeLabel method [Windows Shell], GetTypeLabel method [Windows Shell],ISyncMgrSyncItemInfo interface, ISyncMgrSyncItemInfo interface [Windows Shell],GetTypeLabel method, ISyncMgrSyncItemInfo.GetTypeLabel, ISyncMgrSyncItemInfo::GetTypeLabel, _shell_ISyncMgrSyncItemInfo_GetTypeLabel, shell.ISyncMgrSyncItemInfo_GetTypeLabel, syncmgr/ISyncMgrSyncItemInfo::GetTypeLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- syncmgr.h
-: 
-- ISyncMgrSyncItemInfo.GetTypeLabel
-: 
 ---
 
 # ISyncMgrSyncItemInfo::GetTypeLabel

@@ -4,10 +4,10 @@ title: "_EapCertificateCredential"
 author: windows-sdk-content
 description: Contains information about the certificate that the EAP method uses for authentication.
 old-location: eaphost\eapcertificatecredential.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 575967F4-E5CC-433D-919D-258B5849A5B1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EapCertificateCredential, EapCertificateCredential structure [EAPHost], _EapCertificateCredential, eaphost.eapcertificatecredential, eaptypes/EapCertificateCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

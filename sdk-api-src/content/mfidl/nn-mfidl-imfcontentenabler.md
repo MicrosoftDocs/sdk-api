@@ -7,7 +7,7 @@ old-location: mf\imfcontentenabler.htm
 tech.root: medfound
 ms.assetid: 45d02bd0-1104-47ec-8559-8cc51590fc62
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 45d02bd0-1104-47ec-8559-8cc51590fc62, IMFContentEnabler, IMFContentEnabler interface [Media Foundation], IMFContentEnabler interface [Media Foundation],described, mf.imfcontentenabler, mfidl/IMFContentEnabler
 ms.prod: windows-hardware
 ms.technology: windows-devices

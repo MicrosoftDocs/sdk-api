@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_onattrschange.htm
 tech.root: TSF
 ms.assetid: aa7226dd-1d4a-44ed-94b7-b93813bca2f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnAttrsChange method, ITextStoreAnchorSink.OnAttrsChange, ITextStoreAnchorSink::OnAttrsChange, OnAttrsChange, OnAttrsChange method [Text Services Framework], OnAttrsChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onattrschange_ref, textstor/ITextStoreAnchorSink::OnAttrsChange, tsf.itextstoreanchorsink_onattrschange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- textstor.h
-: 
-- ITextStoreAnchorSink.OnAttrsChange
-: 
 ---
 
 # ITextStoreAnchorSink::OnAttrsChange

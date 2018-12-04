@@ -4,10 +4,10 @@ title: CryptXmlGetDocContext function
 author: windows-sdk-content
 description: Returns the document context specified by the supplied handle.
 old-location: security\cryptxmlgetdoccontext.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 0532c790-381c-4a91-8211-725b0fa73830
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptXmlGetDocContext, CryptXmlGetDocContext function [Security], cryptxml/CryptXmlGetDocContext, security.cryptxmlgetdoccontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptXmlGetDocContext
-: 
 ---
 
 # CryptXmlGetDocContext function
@@ -71,7 +65,7 @@ The handle of the document context to retrieve.
 
 ### -param ppStruct [out]
 
-A pointer to a pointer to a  <a href="https://msdn.microsoft.com/en-us/library/Dd433849(v=VS.85).aspx">CRYPT_XML_DOC_CTXT</a> structure that contains the returned document context.
+A pointer to a pointer to a  <a href="https://msdn.microsoft.com/b57cccb1-b26f-4710-b888-f864cc9ae3be">CRYPT_XML_DOC_CTXT</a> structure that contains the returned document context.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: dshow\ipersistmediapropertybag_save.htm
 tech.root: DirectShow
 ms.assetid: 12c66650-31c1-40b8-9f3d-bc5553dbfa94
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Save method, IPersistMediaPropertyBag.Save, IPersistMediaPropertyBag::Save, IPersistMediaPropertyBagSave, Save, Save method [DirectShow], Save method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_save, strmif/IPersistMediaPropertyBag::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- strmif.h
-: 
-- IPersistMediaPropertyBag.Save
-: 
 ---
 
 # IPersistMediaPropertyBag::Save

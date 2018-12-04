@@ -4,10 +4,10 @@ title: IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
 author: windows-sdk-content
 description: Clears the protection fault state for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 07257d34-23b1-47bf-b613-f65f5d2a977e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ClearVolumeProtectFault, ClearVolumeProtectFault method, ClearVolumeProtectFault method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,ClearVolumeProtectFault method, IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault, IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault, base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsmgmt.h
-: 
-- IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
-: 
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault

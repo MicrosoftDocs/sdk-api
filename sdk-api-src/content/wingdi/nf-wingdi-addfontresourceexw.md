@@ -7,7 +7,7 @@ old-location: gdi\addfontresourceex.htm
 tech.root: gdi
 ms.assetid: eaf8ebf0-1b06-4a09-a842-83540245a117
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResourceEx, AddFontResourceEx function [Windows GDI], AddFontResourceExA, AddFontResourceExW, FR_NOT_ENUM, FR_PRIVATE, _win32_AddFontResourceEx, gdi.addfontresourceex, wingdi/AddFontResourceEx, wingdi/AddFontResourceExA, wingdi/AddFontResourceExW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AddFontResourceExW
-: 
 ---
 
 # AddFontResourceExW function
@@ -255,7 +249,7 @@ A font listed in the registry and installed to a location other than the %windir
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>
+<a href="_win32_sendmessage_cpp">SendMessage</a>
  
 
  

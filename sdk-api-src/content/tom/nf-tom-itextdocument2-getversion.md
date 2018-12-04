@@ -4,10 +4,10 @@ title: ITextDocument2::GetVersion
 author: windows-sdk-content
 description: Gets the version number of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getversion.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 4cc4502b-4e7c-4561-b7d4-a248bf248a8a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetVersion, GetVersion method [Windows Controls], GetVersion method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetVersion method, ITextDocument2.GetVersion, ITextDocument2::GetVersion, controls.itextdocument2_getversion, tom/ITextDocument2::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextDocument2.GetVersion
-: 
 ---
 
 # ITextDocument2::GetVersion

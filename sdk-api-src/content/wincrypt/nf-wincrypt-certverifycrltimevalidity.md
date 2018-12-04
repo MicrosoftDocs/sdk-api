@@ -4,10 +4,10 @@ title: CertVerifyCRLTimeValidity function
 author: windows-sdk-content
 description: The CertVerifyCRLTimeValidity function verifies the time validity of a CRL.
 old-location: security\certverifycrltimevalidity.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: ff321fe8-df45-4a1d-b626-055fb0696438
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertVerifyCRLTimeValidity, CertVerifyCRLTimeValidity function [Security], _crypto2_certverifycrltimevalidity, security.certverifycrltimevalidity, wincrypt/CertVerifyCRLTimeValidity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertVerifyCRLTimeValidity
-: 
 ---
 
 # CertVerifyCRLTimeValidity function
@@ -101,7 +95,7 @@ Returns a minus one (–1) if the comparison time is before the <b>ThisUpdate</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

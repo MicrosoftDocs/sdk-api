@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationValuePattern_CurrentValue.htm
 tech.root: WinAuto
 ms.assetid: df7d4e74-34d1-435c-86cd-a8fee52f6a94
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CurrentValue property [Windows Accessibility], CurrentValue property [Windows Accessibility],IUIAutomationValuePattern interface, IUIAutomationValuePattern interface [Windows Accessibility],CurrentValue property, IUIAutomationValuePattern.CurrentValue, IUIAutomationValuePattern.get_CurrentValue, IUIAutomationValuePattern::CurrentValue, IUIAutomationValuePattern::get_CurrentValue, get_CurrentValue, uiauto.uiauto_IUIAutomationValuePattern_CurrentValue, uiauto_IUIAutomationValuePattern_CurrentValue, uiautomationclient/IUIAutomationValuePattern::CurrentValue, uiautomationclient/IUIAutomationValuePattern::get_CurrentValue, winauto.uiauto_IUIAutomationValuePattern_CurrentValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationValuePattern.get_CurrentValue
-: 
 ---
 
 # IUIAutomationValuePattern::get_CurrentValue

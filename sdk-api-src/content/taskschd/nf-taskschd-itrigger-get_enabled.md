@@ -4,10 +4,10 @@ title: ITrigger::get_Enabled
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates whether the trigger is enabled.
 old-location: taskschd\itrigger_enabled.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 20300470-e434-4296-b3e2-98c65b16e9f2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],ITrigger interface, ITrigger interface [Task Scheduler],Enabled property, ITrigger.Enabled, ITrigger.get_Enabled, ITrigger::Enabled, ITrigger::get_Enabled, ITrigger::put_Enabled, get_Enabled, taskschd.itrigger_enabled, taskschd/ITrigger::Enabled, taskschd/ITrigger::get_Enabled, taskschd/ITrigger::put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITrigger.get_Enabled
-: 
 ---
 
 # ITrigger::get_Enabled

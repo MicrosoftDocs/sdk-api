@@ -4,10 +4,10 @@ title: TreeView_EndEditLabelNow macro
 author: windows-sdk-content
 description: Ends the editing of a tree-view item's label. You can use this macro or send the TVM_ENDEDITLABELNOW message explicitly.
 old-location: controls\TreeView_EndEditLabelNow.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_endeditlabelnow.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: TreeView_EndEditLabelNow, TreeView_EndEditLabelNow macro [Windows Controls], _win32_TreeView_EndEditLabelNow, _win32_TreeView_EndEditLabelNow_cpp, commctrl/TreeView_EndEditLabelNow, controls.TreeView_EndEditLabelNow, controls._win32_TreeView_EndEditLabelNow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- TreeView_EndEditLabelNow
-: 
 ---
 
 # TreeView_EndEditLabelNow macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Ends the editing of a tree-view item's label. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773564(v=VS.85).aspx">TVM_ENDEDITLABELNOW</a> message explicitly. 
+Ends the editing of a tree-view item's label. You can use this macro or send the <a href="https://msdn.microsoft.com/68de2020-9311-4958-859a-de55f5e41fcf">TVM_ENDEDITLABELNOW</a> message explicitly. 
 
 
 ## -parameters
@@ -68,14 +60,14 @@ Ends the editing of a tree-view item's label. You can use this macro or send the
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 
 
 ### -param fCancel
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Variable that indicates whether the editing is canceled without being saved to the label. If this parameter is <b>TRUE</b>, the system cancels editing without saving the changes. Otherwise, the system saves the changes to the label. 
 
@@ -84,7 +76,7 @@ Variable that indicates whether the editing is canceled without being saved to t
 
 
 
-This macro causes the <a href="https://msdn.microsoft.com/en-us/library/Bb773515(v=VS.85).aspx">TVN_ENDLABELEDIT</a> notification code to be sent to the parent window of the tree-view control. 
+This macro causes the <a href="https://msdn.microsoft.com/82eb9fcd-de10-4efb-8501-78c5af5e089e">TVN_ENDLABELEDIT</a> notification code to be sent to the parent window of the tree-view control. 
 
 
 

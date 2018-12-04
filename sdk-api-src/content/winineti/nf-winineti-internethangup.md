@@ -4,10 +4,10 @@ title: InternetHangUp function
 author: windows-sdk-content
 description: Instructs the modem to disconnect from the Internet.
 old-location: wininet\internethangup.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 5d74532e-14cd-45c1-b16b-b302bed89c12
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: InternetHangUp, InternetHangUp function [WinINet], _inet_internethangup_function, wininet.internethangup, winineti/InternetHangUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetHangUp
-: 
 ---
 
 # InternetHangUp function

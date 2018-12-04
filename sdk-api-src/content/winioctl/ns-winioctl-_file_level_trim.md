@@ -7,7 +7,7 @@ old-location: fs\file_level_trim.htm
 tech.root: fileio
 ms.assetid: db3ac916-83e7-4aa1-b5aa-dab139a0a21a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PFILE_LEVEL_TRIM, FILE_LEVEL_TRIM, FILE_LEVEL_TRIM structure [Files], PFILE_LEVEL_TRIM, PFILE_LEVEL_TRIM structure pointer [Files], _FILE_LEVEL_TRIM, fs.file_level_trim, winioctl/FILE_LEVEL_TRIM, winioctl/PFILE_LEVEL_TRIM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

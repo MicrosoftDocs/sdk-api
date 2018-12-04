@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemtime.h
-: 
-- WBEMTime.Gettime_t
-: 
 ---
 
 # WBEMTime::Gettime_t

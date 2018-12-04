@@ -7,7 +7,7 @@ old-location: menurc\getfileversioninfoex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfoex.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FILE_VER_GET_LOCALISED, FILE_VER_GET_NEUTRAL, FILE_VER_GET_PREFETCHED, GetFileVersionInfoEx, GetFileVersionInfoEx function [Menus and Other Resources], GetFileVersionInfoExA, GetFileVersionInfoExW, _win32_GetFileVersionInfoEx, _win32_getfileversioninfoex_cpp, menurc.getfileversioninfoex, winui._win32_getfileversioninfoex, winver/GetFileVersionInfoEx, winver/GetFileVersionInfoExA, winver/GetFileVersionInfoExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,12 +51,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetFileVersionInfoExA
-: 
 ---
 
 # GetFileVersionInfoExA function
@@ -77,7 +71,7 @@ Retrieves version information for the specified file.
 
 Type: <b>DWORD</b>
 
-Controls the MUI DLLs (if any) from which the version resource is extracted. The value of this flag must match the flags passed to the corresponding <a href="https://msdn.microsoft.com/en-us/library/Aa969435(v=VS.85).aspx">GetFileVersionInfoSizeEx</a> call, which was used to determine the buffer size that is passed in the <i>dwLen</i> parameter. Zero or more of the following flags.
+Controls the MUI DLLs (if any) from which the version resource is extracted. The value of this flag must match the flags passed to the corresponding <a href="https://msdn.microsoft.com/e0e841b9-0014-4c7e-a4c7-0478960f962b">GetFileVersionInfoSizeEx</a> call, which was used to determine the buffer size that is passed in the <i>dwLen</i> parameter. Zero or more of the following flags.
 
 <table>
 <tr>
@@ -143,7 +137,7 @@ The size, in bytes, of the buffer pointed to by the <i>lpData</i> parameter.
 
                     
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa969435(v=VS.85).aspx">GetFileVersionInfoSizeEx</a> function first to determine the size, in bytes, of a file's version information. The <i>dwLen</i> parameter should be equal to or greater than that value.
+Call the <a href="https://msdn.microsoft.com/e0e841b9-0014-4c7e-a4c7-0478960f962b">GetFileVersionInfoSizeEx</a> function first to determine the size, in bytes, of a file's version information. The <i>dwLen</i> parameter should be equal to or greater than that value.
 
 If the buffer pointed to by <i>lpData</i> is not large enough, the function truncates the file's version information to the size of the buffer.
 
@@ -154,7 +148,7 @@ Type: <b>LPVOID</b>
 
 When this function returns, contains a pointer to a buffer that contains the file-version information.
 
-You can use this value in a subsequent call to the <a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a> function to retrieve data from the buffer.
+You can use this value in a subsequent call to the <a href="https://msdn.microsoft.com/4fc3e2f0-0d9b-4974-b091-98908691bb14">VerQueryValue</a> function to retrieve data from the buffer.
           
 
 
@@ -175,7 +169,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa969435(v=VS.85).aspx">GetFileVersionInfoSizeEx</a> function before calling the <b>GetFileVersionInfoEx</b> function. To retrieve information from the file-version information buffer, use the <a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a> function.
+Call the <a href="https://msdn.microsoft.com/e0e841b9-0014-4c7e-a4c7-0478960f962b">GetFileVersionInfoSizeEx</a> function before calling the <b>GetFileVersionInfoEx</b> function. To retrieve information from the file-version information buffer, use the <a href="https://msdn.microsoft.com/4fc3e2f0-0d9b-4974-b091-98908691bb14">VerQueryValue</a> function.
       
 
 
@@ -190,11 +184,11 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa969435(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647003(v=VS.85).aspx">GetFileVersionInfo</a>
+<a href="https://msdn.microsoft.com/44679c26-f1ac-409c-8a25-abc5bfd888ac">GetFileVersionInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969435(v=VS.85).aspx">GetFileVersionInfoSizeEx</a>
+<a href="https://msdn.microsoft.com/e0e841b9-0014-4c7e-a4c7-0478960f962b">GetFileVersionInfoSizeEx</a>
 
 
 
@@ -202,15 +196,15 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa969435(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a>
+<a href="https://msdn.microsoft.com/7864510f-1894-4f17-bf7b-fd5bc1ba4aae">VS_VERSIONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a>
+<a href="https://msdn.microsoft.com/4fc3e2f0-0d9b-4974-b091-98908691bb14">VerQueryValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information</a>
+<a href="https://msdn.microsoft.com/60de7900-56b9-4481-bef9-b4079eedf926">Version Information</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: fs\idiskquotauser_getaccountstatus.htm
 tech.root: fileio
 ms.assetid: d4027660-beb1-45eb-9dd3-f4c12df28051
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: DISKQUOTA_USER_ABLE, DISKQUOTA_USER_ACCOUNT_DELETED, DISKQUOTA_USER_ACCOUNT_INVALID, DISKQUOTA_USER_ACCOUNT_RESOLVED, DISKQUOTA_USER_ACCOUNT_UNKNOWN, DISKQUOTA_USER_ACCOUNT_UNRESOLVED, GetAccountStatus, GetAccountStatus method [Files], GetAccountStatus method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetAccountStatus method, IDiskQuotaUser.GetAccountStatus, IDiskQuotaUser::GetAccountStatus, _win32_idiskquotauser_getaccountstatus, base.idiskquotauser_getaccountstatus, dskquota/IDiskQuotaUser::GetAccountStatus, fs.idiskquotauser_getaccountstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dskquota.h
-: 
-- IDiskQuotaUser.GetAccountStatus
-: 
 ---
 
 # IDiskQuotaUser::GetAccountStatus

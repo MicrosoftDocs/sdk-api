@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxIncomingArchive.put_HighQuotaWaterMark
-: 
 ---
 
 # IFaxIncomingArchive::put_HighQuotaWaterMark

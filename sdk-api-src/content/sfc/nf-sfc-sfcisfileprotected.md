@@ -4,10 +4,10 @@ title: SfcIsFileProtected function
 author: windows-sdk-content
 description: Determines whether the specified file is protected.
 old-location: setup\sfcisfileprotected.htm
-tech.root: Wfp
+tech.root: wfp
 ms.assetid: 6882f7ef-0265-4db5-afa5-54df35b9dba1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SfcIsFileProtected, SfcIsFileProtected function [Setup API], _win32_sfcisfileprotected, setup.sfcisfileprotected, sfc/SfcIsFileProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SfcIsFileProtected
-: 
 ---
 
 # SfcIsFileProtected function

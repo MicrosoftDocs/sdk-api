@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject_VCardDisplay.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\vcarddisplay.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/28/2018
 ms.keywords: IWABObject interface [Windows Address Book],VCardDisplay method, IWABObject.VCardDisplay, IWABObject::VCardDisplay, VCardDisplay, VCardDisplay method [Windows Address Book], VCardDisplay method [Windows Address Book],IWABObject interface, _wab_IWABObject_VCardDisplay, wab._wab_IWABObject_VCardDisplay, wabapi/IWABObject::VCardDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wabapi.h
-: 
-- IWABObject.VCardDisplay
-: 
 req.product: Internet Explorer 4.0
 ---
 

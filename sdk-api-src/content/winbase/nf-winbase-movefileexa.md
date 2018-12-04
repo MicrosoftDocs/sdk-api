@@ -7,7 +7,7 @@ old-location: fs\movefileex.htm
 tech.root: fileio
 ms.assetid: 5fb4f897-66ed-49d7-913a-fb6e7cecdfa3
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_FAIL_IF_NOT_TRACKABLE, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileEx, MoveFileEx function [Files], MoveFileExA, MoveFileExW, _win32_movefileex, base.movefileex, fs.movefileex, rename file [Files], winbase/MoveFileEx, winbase/MoveFileExA, winbase/MoveFileExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,12 +57,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MoveFileExA
-: 
 ---
 
 # MoveFileExA function
@@ -291,14 +285,18 @@ The system uses these registry entries to complete the operations at restart in 
      <i>szDstFile</i> and rename <i>szSrcFile</i> to be 
      <i>szDstFile</i> at restart:
 
-
-```cpp
-MoveFileEx(szDstFile, NULL, MOVEFILE_DELAY_UNTIL_REBOOT);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>MoveFileEx(szDstFile, NULL, MOVEFILE_DELAY_UNTIL_REBOOT);
 MoveFileEx(szSrcFile, szDstFile, MOVEFILE_DELAY_UNTIL_REBOOT);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Because the actual move and deletion operations specified with the 
      <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> flag take place after the calling application has ceased 
      running, the return value cannot reflect success or failure in moving or deleting the file. Rather, it reflects 

@@ -4,10 +4,10 @@ title: FreeGPOListA function
 author: windows-sdk-content
 description: The FreeGPOList function frees the specified list of GPOs.
 old-location: policy\freegpolist.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: 96bd2b5b-c088-4eea-bbc2-31d83c13aa99
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FreeGPOList, FreeGPOList function [Group Policy], FreeGPOListA, FreeGPOListW, _win32_freegpolist, policy.freegpolist, userenv/FreeGPOList, userenv/FreeGPOListA, userenv/FreeGPOListW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FreeGPOListA
-: 
 ---
 
 # FreeGPOListA function

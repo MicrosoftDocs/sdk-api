@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbe.h
-: 
-- ISBE2EnumStream.Reset
-: 
 ---
 
 # ISBE2EnumStream::Reset

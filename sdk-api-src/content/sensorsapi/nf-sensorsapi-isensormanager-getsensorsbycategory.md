@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensormanager_getsensorsbycategory.htm
 tech.root: SensorsAPI
 ms.assetid: 370e93ac-0854-4fe8-88d9-d23b80689c41
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetSensorsByCategory, GetSensorsByCategory method, GetSensorsByCategory method,ISensorManager interface, ISensorManager interface,GetSensorsByCategory method, ISensorManager.GetSensorsByCategory, ISensorManager::GetSensorsByCategory, sensorsapi/ISensorManager::GetSensorsByCategory, winsensors_com_ref.isensormanager_getsensorsbycategory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sensorsapi.h
-: 
-- ISensorManager.GetSensorsByCategory
-: 
 ---
 
 # ISensorManager::GetSensorsByCategory

@@ -4,10 +4,10 @@ title: IMcastLeaseInfo::get_LeaseStopTime
 author: windows-sdk-content
 description: The get_LeaseStopTime method obtains the stop time of the lease.
 old-location: tapi3\imcastleaseinfo_get_leasestoptime.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: b2b99329-b176-4e5d-afb1-754c418e843a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_LeaseStopTime method, IMcastLeaseInfo.get_LeaseStopTime, IMcastLeaseInfo::get_LeaseStopTime, _tapi3_imcastleaseinfo_get_leasestoptime, get_LeaseStopTime, get_LeaseStopTime method [TAPI 2.2], get_LeaseStopTime method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_LeaseStopTime, tapi3.imcastleaseinfo_get_leasestoptime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mdhcp.h
-: 
-- IMcastLeaseInfo.get_LeaseStopTime
-: 
 ---
 
 # IMcastLeaseInfo::get_LeaseStopTime

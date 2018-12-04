@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemmgr_getitemnum.htm
 tech.root: TSF
 ms.assetid: 0caf54b1-f862-4fc2-b593-c0e9f60d71cc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetItemNum, GetItemNum method [Text Services Framework], GetItemNum method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItemNum method, ITfLangBarItemMgr.GetItemNum, ITfLangBarItemMgr::GetItemNum, _tsf_itflangbaritemmgr_getitemnum_ref, ctfutb/ITfLangBarItemMgr::GetItemNum, tsf.itflangbaritemmgr_getitemnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctfutb.h
-: 
-- ITfLangBarItemMgr.GetItemNum
-: 
 ---
 
 # ITfLangBarItemMgr::GetItemNum

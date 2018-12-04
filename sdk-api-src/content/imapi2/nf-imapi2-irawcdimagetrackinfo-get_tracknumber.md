@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagetrackinfo_get_tracknumber.htm
 tech.root: imapi
 ms.assetid: ccc84237-3819-45b4-980a-a73669f605fb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_TrackNumber method, IRawCDImageTrackInfo.get_TrackNumber, IRawCDImageTrackInfo::get_TrackNumber, get_TrackNumber, get_TrackNumber method [IMAPI], get_TrackNumber method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_tracknumber, imapi2/IRawCDImageTrackInfo::get_TrackNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IRawCDImageTrackInfo.get_TrackNumber
-: 
 ---
 
 # IRawCDImageTrackInfo::get_TrackNumber

@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsevents_onsmsconfigurationchange.htm
 tech.root: mbn
 ms.assetid: d6990732-60ef-43e5-b35c-9a3f0324d580
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsConfigurationChange method, IMbnSmsEvents.OnSmsConfigurationChange, IMbnSmsEvents::OnSmsConfigurationChange, OnSmsConfigurationChange, OnSmsConfigurationChange method [Microsoft Broadband Networks], OnSmsConfigurationChange method [Microsoft Broadband Networks],IMbnSmsEvents interface, mbn.imbnsmsevents_onsmsconfigurationchange, mbnapi/IMbnSmsEvents::OnSmsConfigurationChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnSmsEvents.OnSmsConfigurationChange
-: 
 ---
 
 # IMbnSmsEvents::OnSmsConfigurationChange

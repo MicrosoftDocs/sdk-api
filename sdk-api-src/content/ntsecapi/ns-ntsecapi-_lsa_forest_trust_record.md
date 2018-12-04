@@ -4,10 +4,10 @@ title: "_LSA_FOREST_TRUST_RECORD"
 author: windows-sdk-content
 description: Represents a Local Security Authority forest trust record.
 old-location: security\lsa_forest_trust_record.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 19b4ee56-664f-4f37-bfc9-129032ebeb22
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PLSA_FOREST_TRUST_RECORD, ForestTrustDomainInfo, ForestTrustRecordTypeLast, ForestTrustTopLevelName, ForestTrustTopLevelNameEx, LSA_FOREST_TRUST_RECORD, LSA_FOREST_TRUST_RECORD structure [Security], PLSA_FOREST_TRUST_RECORD, PLSA_FOREST_TRUST_RECORD structure pointer [Security], _LSA_FOREST_TRUST_RECORD, ntsecapi/LSA_FOREST_TRUST_RECORD, ntsecapi/PLSA_FOREST_TRUST_RECORD, security.lsa_forest_trust_record"
 ms.prod: windows-hardware
 ms.technology: windows-devices

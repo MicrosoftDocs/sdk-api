@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_ControlViewCondition.htm
 tech.root: WinAuto
 ms.assetid: 1dbe6ce9-6fa4-42c6-bece-e9ae20ef9837
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ControlViewCondition property [Windows Accessibility], ControlViewCondition property [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ControlViewCondition property, IUIAutomation.ControlViewCondition, IUIAutomation.get_ControlViewCondition, IUIAutomation::ControlViewCondition, IUIAutomation::get_ControlViewCondition, get_ControlViewCondition, uiauto.uiauto_IUIAutomation_ControlViewCondition, uiauto_IUIAutomation_ControlViewCondition, uiautomationclient/IUIAutomation::ControlViewCondition, uiautomationclient/IUIAutomation::get_ControlViewCondition, winauto.uiauto_IUIAutomation_ControlViewCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomation.get_ControlViewCondition
-: 
 ---
 
 # IUIAutomation::get_ControlViewCondition

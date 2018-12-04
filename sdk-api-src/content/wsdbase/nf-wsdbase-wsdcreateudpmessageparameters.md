@@ -4,10 +4,10 @@ title: WSDCreateUdpMessageParameters function
 author: windows-sdk-content
 description: Retrieves a pointer to the IWSDUdpMessageParameters interface.
 old-location: ncd\wsdcreateudpmessageparameters.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: a183a5f8-edd9-4881-84d4-b23701c40f36
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WSDCreateUdpMessageParameters, WSDCreateUdpMessageParameters function, ncd.wsdcreateudpmessageparameters, wsdbase/WSDCreateUdpMessageParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSDCreateUdpMessageParameters
-: 
 ---
 
 # WSDCreateUdpMessageParameters function

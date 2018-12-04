@@ -7,7 +7,7 @@ old-location: mf\imfprotectedenvironmentaccess.htm
 tech.root: medfound
 ms.assetid: 2cd93bc9-4a42-4e16-80aa-4ecf5900f5e4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IMFProtectedEnvironmentAccess, IMFProtectedEnvironmentAccess interface [Media Foundation], IMFProtectedEnvironmentAccess interface [Media Foundation],described, mf.imfprotectedenvironmentaccess, mfidl/IMFProtectedEnvironmentAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BCryptEnumAlgorithms
-: 
 ---
 
 # BCryptEnumAlgorithms function
@@ -150,7 +144,7 @@ A pointer to a <b>ULONG</b> variable to receive the number of elements in the <i
 
 ### -param ppAlgList [out]
 
-The address of a <a href="https://msdn.microsoft.com/en-us/library/Aa375516(v=VS.85).aspx">BCRYPT_ALGORITHM_IDENTIFIER</a> structure pointer to receive the array of registered algorithm identifiers. This pointer must be passed to the <a href="https://msdn.microsoft.com/en-us/library/Aa375445(v=VS.85).aspx">BCryptFreeBuffer</a> function when it is no longer needed.
+The address of a <a href="https://msdn.microsoft.com/a49a21c9-5668-4709-b52a-f6cacd944845">BCRYPT_ALGORITHM_IDENTIFIER</a> structure pointer to receive the array of registered algorithm identifiers. This pointer must be passed to the <a href="https://msdn.microsoft.com/0ee83ca1-2fe6-4ff2-823e-888b3e66f310">BCryptFreeBuffer</a> function when it is no longer needed.
 
 
 ### -param dwFlags [in]
@@ -217,7 +211,7 @@ A memory allocation failure occurred.
 
 
 
-<b>BCryptEnumAlgorithms</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/en-us/library/ms721588(v=VS.85).aspx">IRQL</a>.
+<b>BCryptEnumAlgorithms</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a>.
 
 
 

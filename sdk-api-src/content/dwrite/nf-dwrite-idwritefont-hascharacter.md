@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFont_HasCharacter.htm
 tech.root: DirectWrite
 ms.assetid: 5392119a-dfc3-4947-9a0f-fa66ee6359d6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: HasCharacter, HasCharacter method [Direct Write], HasCharacter method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],HasCharacter method, IDWriteFont.HasCharacter, IDWriteFont::HasCharacter, directwrite.IDWriteFont_HasCharacter, dwrite/IDWriteFont::HasCharacter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteFont.HasCharacter
-: 
 ---
 
 # IDWriteFont::HasCharacter

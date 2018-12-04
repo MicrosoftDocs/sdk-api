@@ -4,10 +4,10 @@ title: ListBox_GetSelCount macro
 author: windows-sdk-content
 description: Gets the count of selected items in a multiple-selection list box. You can use this macro or send the LB_GETSELCOUNT message explicitly.
 old-location: controls\ListBox_GetSelCount.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getselcount.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ListBox_GetSelCount, ListBox_GetSelCount macro [Windows Controls], _win32_ListBox_GetSelCount, _win32_ListBox_GetSelCount_cpp, controls.ListBox_GetSelCount, controls._win32_ListBox_GetSelCount, windowsx/ListBox_GetSelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- windowsx.h
-: 
-- ListBox_GetSelCount
-: 
 ---
 
 # ListBox_GetSelCount macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the count of selected items in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761309(v=VS.85).aspx">LB_GETSELCOUNT</a> message explicitly.
+Gets the count of selected items in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/1597f6d0-e8f2-4e10-8a0e-ef76192e6238">LB_GETSELCOUNT</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +69,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761309(v=VS.85).aspx">LB_GETSELCOUNT</a>.
+For more information, see <a href="https://msdn.microsoft.com/1597f6d0-e8f2-4e10-8a0e-ef76192e6238">LB_GETSELCOUNT</a>.
 	
 
 

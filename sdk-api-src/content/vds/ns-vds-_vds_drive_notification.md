@@ -4,10 +4,10 @@ title: "_VDS_DRIVE_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of drive events.
 old-location: base\vds_drive_notification.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 933376b3-d5eb-407b-941c-4e2b61774c1a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VDS_DRIVE_NOTIFICATION, VDS_DRIVE_NOTIFICATION structure [VDS], VDS_NF_DRIVE_ARRIVE, VDS_NF_DRIVE_DEPART, VDS_NF_DRIVE_MODIFY, VDS_NF_DRIVE_REMOVED, _VDS_DRIVE_NOTIFICATION, base.vds_drive_notification, vds/_VDS_DRIVE_NOTIFICATION, vdshwprv/_VDS_DRIVE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

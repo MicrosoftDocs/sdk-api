@@ -4,10 +4,10 @@ title: IEnroll::put_RootStoreNameWStr
 author: windows-sdk-content
 description: The RootStoreNameWStr property of IEnroll4 sets or retrieves the name of the root store where all intrinsically trusted, self-signed root certificates are kept.
 old-location: security\ienroll4_rootstorenamewstr.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: d1b60ba4-974e-43d4-a8f9-8ca619d6b878
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnroll interface [Security],RootStoreNameWStr property, IEnroll.RootStoreNameWStr, IEnroll.put_RootStoreNameWStr, IEnroll::RootStoreNameWStr, IEnroll::get_RootStoreNameWStr, IEnroll::put_RootStoreNameWStr, RootStoreNameWStr property [Security], RootStoreNameWStr property [Security],IEnroll interface, put_RootStoreNameWStr, security.ienroll4_rootstorenamewstr, xenroll/IEnroll::RootStoreNameWStr, xenroll/IEnroll::get_RootStoreNameWStr, xenroll/IEnroll::put_RootStoreNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- IEnroll.put_RootStoreNameWStr
-: 
 ---
 
 # IEnroll::put_RootStoreNameWStr

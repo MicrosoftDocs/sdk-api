@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IComponentTypes.put_Item
-: 
 ---
 
 # IComponentTypes::put_Item

@@ -7,7 +7,7 @@ old-location: vhd\apply_snapshot_vhdset_version.htm
 tech.root: VStor
 ms.assetid: 3146B123-5118-495E-A640-11026DAD84C4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: APPLY_SNAPSHOT_VHDSET_VERSION, APPLY_SNAPSHOT_VHDSET_VERSION enumeration [VHD], APPLY_SNAPSHOT_VHDSET_VERSION_1, APPLY_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, _APPLY_SNAPSHOT_VHDSET_VERSION, vdssys/APPLY_SNAPSHOT_VHDSET_VERSION, vdssys/APPLY_SNAPSHOT_VHDSET_VERSION_1, vdssys/APPLY_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, vhd.apply_snapshot_vhdset_version, virtdisk/APPLY_SNAPSHOT_VHDSET_VERSION, virtdisk/APPLY_SNAPSHOT_VHDSET_VERSION_1, virtdisk/APPLY_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices

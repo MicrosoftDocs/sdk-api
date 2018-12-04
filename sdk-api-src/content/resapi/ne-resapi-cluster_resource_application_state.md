@@ -4,10 +4,10 @@ title: CLUSTER_RESOURCE_APPLICATION_STATE
 author: windows-sdk-content
 description: Enumerates resource application states.
 old-location: mscs\cluster_resource_application_state.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: A67B8251-214B-44DD-8166-C0F74335CE1F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CLUSTER_RESOURCE_APPLICATION_STATE, CLUSTER_RESOURCE_APPLICATION_STATE enumeration [Failover Cluster], ClusterResourceApplicationOSHeartBeat, ClusterResourceApplicationReady, ClusterResourceApplicationStateUnknown, mscs.cluster_resource_application_state, resapi/CLUSTER_RESOURCE_APPLICATION_STATE, resapi/ClusterResourceApplicationOSHeartBeat, resapi/ClusterResourceApplicationReady, resapi/ClusterResourceApplicationStateUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

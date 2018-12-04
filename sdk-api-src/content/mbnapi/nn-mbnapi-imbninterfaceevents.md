@@ -7,7 +7,7 @@ old-location: mbn\imbninterfaceevents.htm
 tech.root: mbn
 ms.assetid: 3c641f14-9f53-4d69-9faa-2491189083df
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMbnInterfaceEvents, IMbnInterfaceEvents interface [Microsoft Broadband Networks], IMbnInterfaceEvents interface [Microsoft Broadband Networks],described, mbn.imbninterfaceevents, mbnapi/IMbnInterfaceEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

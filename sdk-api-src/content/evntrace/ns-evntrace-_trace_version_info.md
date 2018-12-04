@@ -4,10 +4,10 @@ title: "_TRACE_VERSION_INFO"
 author: windows-sdk-content
 description: Determines the version information of the TraceLogging session.
 old-location: etw\trace_version_info.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: E2B291DB-928F-4170-8684-4B26A7E067BD
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PTRACE_VERSION_INFO, PTRACE_VERSION_INFO, PTRACE_VERSION_INFO structure pointer [ETW], TRACE_VERSION_INFO, TRACE_VERSION_INFO structure [ETW], _TRACE_VERSION_INFO, etw.trace_version_info, evntrace/PTRACE_VERSION_INFO, evntrace/TRACE_VERSION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

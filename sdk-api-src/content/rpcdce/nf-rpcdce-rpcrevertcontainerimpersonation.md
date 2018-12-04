@@ -4,10 +4,10 @@ title: RpcRevertContainerImpersonation function
 author: windows-sdk-content
 description: RpcRevertContainerImpersonation may be altered or unavailable.
 old-location: rpc\rpcrevertcontainerimpersonation.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 331D32B5-1583-4A2C-9A1A-0D546DDE846D
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RpcRevertContainerImpersonation, RpcRevertContainerImpersonation function [RPC], rpc.rpcrevertcontainerimpersonation, rpcdce/RpcRevertContainerImpersonation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcRevertContainerImpersonation
-: 
 ---
 
 # RpcRevertContainerImpersonation function

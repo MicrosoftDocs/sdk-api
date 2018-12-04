@@ -4,10 +4,10 @@ title: "_SYSTEM_ALARM_CALLBACK_OBJECT_ACE"
 author: windows-sdk-content
 description: The SYSTEM_ALARM_CALLBACK_OBJECT_ACE structure is reserved for future use.
 old-location: security\system_alarm_callback_object_ace.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 3fdd0b75-666a-4064-95ed-9e708f34bed6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*PSYSTEM_ALARM_CALLBACK_OBJECT_ACE, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP and/or ADS_RIGHT_DS_WRITE_PROP, ADS_RIGHT_DS_SELF, SYSTEM_ALARM_CALLBACK_OBJECT_ACE, SYSTEM_ALARM_CALLBACK_OBJECT_ACE structure [Security], _SYSTEM_ALARM_CALLBACK_OBJECT_ACE, security.system_alarm_callback_object_ace, winnt/SYSTEM_ALARM_CALLBACK_OBJECT_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

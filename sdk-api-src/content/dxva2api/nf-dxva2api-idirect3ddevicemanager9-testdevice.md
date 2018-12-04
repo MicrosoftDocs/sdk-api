@@ -7,7 +7,7 @@ old-location: mf\idirect3ddevicemanager9_testdevice.htm
 tech.root: medfound
 ms.assetid: e97acc5d-1b6a-43ae-a057-9c650d7126ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IDirect3DDeviceManager9 interface [Media Foundation],TestDevice method, IDirect3DDeviceManager9.TestDevice, IDirect3DDeviceManager9::TestDevice, TestDevice, TestDevice method [Media Foundation], TestDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::TestDevice, e97acc5d-1b6a-43ae-a057-9c650d7126ab, mf.idirect3ddevicemanager9_testdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxva2api.h
-: 
-- IDirect3DDeviceManager9.TestDevice
-: 
 ---
 
 # IDirect3DDeviceManager9::TestDevice

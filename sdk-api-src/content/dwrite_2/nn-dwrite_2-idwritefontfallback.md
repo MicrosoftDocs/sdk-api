@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontfallback.htm
 tech.root: DirectWrite
 ms.assetid: CBC4100A-756B-429E-8368-D5D018A2B0AC
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteFontFallback, IDWriteFontFallback interface [Direct Write], IDWriteFontFallback interface [Direct Write],described, directwrite.idwritefontfallback, dwrite_2/IDWriteFontFallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

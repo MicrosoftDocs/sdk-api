@@ -4,10 +4,10 @@ title: CertSrvRestoreEnd function
 author: windows-sdk-content
 description: Ends a Certificate Services restore session.
 old-location: security\certsrvrestoreend.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 59316edc-a677-47ff-a139-565d7b5507fb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertSrvRestoreEnd, CertSrvRestoreEnd function [Security], _certsrv_certsrvrestoreend, certbcli/CertSrvRestoreEnd, security.certsrvrestoreend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertSrvRestoreEnd
-: 
 ---
 
 # CertSrvRestoreEnd function
@@ -82,7 +76,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 
-When a restore session is complete, terminate the session by calling <b>CertSrvRestoreEnd</b>. For every successful call to <a href="https://msdn.microsoft.com/en-us/library/Aa377007(v=VS.85).aspx">CertSrvRestorePrepare</a>, there should be a call to <b>CertSrvRestoreEnd</b>.
+When a restore session is complete, terminate the session by calling <b>CertSrvRestoreEnd</b>. For every successful call to <a href="https://msdn.microsoft.com/e607b61c-9636-40e6-abba-74152f37b49e">CertSrvRestorePrepare</a>, there should be a call to <b>CertSrvRestoreEnd</b>.
 
 When a restore is complete, it is important that you make a new full backup of the Certificate Services database. This is necessary to truncate the restored log files and to establish a base backup set for future restores. Backups performed after a restore cannot be mixed with backups (full or incremental) taken before the restore; that is, after a certificate services database is restored and has progressed to a subsequent state, you cannot use the pre-restoration backups to restore the database to that subsequent state.
 
@@ -131,11 +125,11 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377007(v=VS.85).aspx">CertSrvRestorePrepare</a>
+<a href="https://msdn.microsoft.com/e607b61c-9636-40e6-abba-74152f37b49e">CertSrvRestorePrepare</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

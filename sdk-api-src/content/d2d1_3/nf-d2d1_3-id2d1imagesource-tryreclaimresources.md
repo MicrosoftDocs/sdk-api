@@ -4,10 +4,10 @@ title: ID2D1ImageSource::TryReclaimResources
 author: windows-sdk-content
 description: Restores access to resources that were previously offered by calling OfferResources.
 old-location: direct2d\id2d1imagesource_tryreclaimresources.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 9639353D-EA3B-4ABD-A4DE-405B18218801
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID2D1ImageSource interface [Direct2D],TryReclaimResources method, ID2D1ImageSource.TryReclaimResources, ID2D1ImageSource::TryReclaimResources, TryReclaimResources, TryReclaimResources method [Direct2D], TryReclaimResources method [Direct2D],ID2D1ImageSource interface, d2d1_3/ID2D1ImageSource::TryReclaimResources, direct2d.id2d1imagesource_tryreclaimresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_3.h
-: 
-- ID2D1ImageSource.TryReclaimResources
-: 
 ---
 
 # ID2D1ImageSource::TryReclaimResources

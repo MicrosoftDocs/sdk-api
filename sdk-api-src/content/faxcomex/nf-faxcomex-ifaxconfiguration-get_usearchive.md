@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxConfiguration.get_UseArchive
-: 
 ---
 
 # IFaxConfiguration::get_UseArchive

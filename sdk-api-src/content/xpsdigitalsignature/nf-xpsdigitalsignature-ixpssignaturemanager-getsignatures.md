@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturemanager_getsignatures.htm
 tech.root: printdocs
 ms.assetid: 3a6a9a10-bc1d-45b8-a1b9-c7b725d9c13b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetSignatures, GetSignatures method [XPS Documents and Packaging], GetSignatures method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatures method, IXpsSignatureManager.GetSignatures, IXpsSignatureManager::GetSignatures, xps.ixpssignaturemanager_getsignatures, xpsdigitalsignature/IXpsSignatureManager::GetSignatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsdigitalsignature.h
-: 
-- IXpsSignatureManager.GetSignatures
-: 
 ---
 
 # IXpsSignatureManager::GetSignatures

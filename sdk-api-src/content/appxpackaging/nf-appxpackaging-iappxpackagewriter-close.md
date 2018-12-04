@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagewriter_close.htm
 tech.root: appxpkg
 ms.assetid: 294625B2-1141-44EE-A769-365C3B37EBD9
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxPackageWriter interface, IAppxPackageWriter interface [App packaging and management],Close method, IAppxPackageWriter.Close, IAppxPackageWriter::Close, appxpackaging/IAppxPackageWriter::Close, appxpkg.iappxpackagewriter_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- appxpackaging.h
-: 
-- IAppxPackageWriter.Close
-: 
 ---
 
 # IAppxPackageWriter::Close

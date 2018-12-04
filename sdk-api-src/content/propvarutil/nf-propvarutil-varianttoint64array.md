@@ -7,7 +7,7 @@ old-location: properties\VariantToInt64Array.htm
 tech.root: properties
 ms.assetid: 936e87e8-8102-4da2-b388-147fab6ec16f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VariantToInt64Array, VariantToInt64Array function [Windows Properties], _shell_VariantToInt64Array, properties.VariantToInt64Array, propvarutil/VariantToInt64Array, shell.VariantToInt64Array
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToInt64Array
-: 
 ---
 
 # VariantToInt64Array function

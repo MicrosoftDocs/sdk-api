@@ -4,10 +4,10 @@ title: TSPI_phoneGetVolume function
 author: windows-sdk-content
 description: The TSPI_phoneGetVolume function returns the volume setting of the specified phone's hookswitch device.
 old-location: tspi\tspi_phonegetvolume.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 4ea36cce-da68-47a3-ad79-4fc304a49451
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: TSPI_phoneGetVolume, TSPI_phoneGetVolume function [TAPI 2.2], _tspi_tspi_phonegetvolume, tspi.tspi_phonegetvolume, tspi/TSPI_phoneGetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TSPI_phoneGetVolume
-: 
 ---
 
 # TSPI_phoneGetVolume function

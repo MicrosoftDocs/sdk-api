@@ -7,7 +7,7 @@ old-location: properties\VariantGetDoubleElem.htm
 tech.root: properties
 ms.assetid: cc6cb3a0-ba39-4088-8d72-082f6a4e39d3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VariantGetDoubleElem, VariantGetDoubleElem function [Windows Properties], _shell_VariantGetDoubleElem, properties.VariantGetDoubleElem, propvarutil/VariantGetDoubleElem, shell.VariantGetDoubleElem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantGetDoubleElem
-: 
 ---
 
 # VariantGetDoubleElem function

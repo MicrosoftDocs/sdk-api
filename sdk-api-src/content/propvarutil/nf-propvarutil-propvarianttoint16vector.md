@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt16Vector.htm
 tech.root: properties
 ms.assetid: 33240552-7caa-4114-aad6-7341551b1fbe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PropVariantToInt16Vector, PropVariantToInt16Vector function [Windows Properties], _shell_PropVariantToInt16Vector, properties.PropVariantToInt16Vector, propvarutil/PropVariantToInt16Vector, shell.PropVariantToInt16Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantToInt16Vector
-: 
 ---
 
 # PropVariantToInt16Vector function
@@ -188,23 +182,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>
+<a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776524(v=VS.85).aspx">PropVariantGetInt16Elem</a>
+<a href="shell.PropVariantGetInt16Elem">PropVariantGetInt16Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776546(v=VS.85).aspx">PropVariantToInt16</a>
+<a href="shell.PropVariantToInt16">PropVariantToInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776548(v=VS.85).aspx">PropVariantToInt16VectorAlloc</a>
+<a href="shell.PropVariantToInt16VectorAlloc">PropVariantToInt16VectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776605(v=VS.85).aspx">VariantToInt16Array</a>
+<a href="shell.VariantToInt16Array">VariantToInt16Array</a>
  
 
  

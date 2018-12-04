@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Tbsi_Revoke_Attestation
-: 
 ---
 
 # Tbsi_Revoke_Attestation function

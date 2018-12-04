@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Open_Device_Interface_Key_ExA
-: 
 ---
 
 # CM_Open_Device_Interface_Key_ExA function

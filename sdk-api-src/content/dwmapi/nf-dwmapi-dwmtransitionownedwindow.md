@@ -7,7 +7,7 @@ old-location: dwm\dwmtransitionownedwindow.htm
 tech.root: dwm
 ms.assetid: 12108F8D-7D9A-4459-9FC0-1856FD097CAA
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DwmTransitionOwnedWindow, DwmTransitionOwnedWindow function [Desktop Window Manager], dwm.dwmtransitionownedwindow, dwmapi/DwmTransitionOwnedWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DwmTransitionOwnedWindow
-: 
 ---
 
 # DwmTransitionOwnedWindow function

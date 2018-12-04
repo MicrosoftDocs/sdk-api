@@ -4,10 +4,10 @@ title: IADsADSystemInfo::GetDCSiteName
 author: windows-sdk-content
 description: Retrieves the name of the Active Directory site that contains the local computer.
 old-location: adsi\iadsadsysteminfo_getdcsitename.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 2b9bb5f2-8312-4413-bbf2-4765fd33a2c6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetDCSiteName, GetDCSiteName method [ADSI], GetDCSiteName method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetDCSiteName method, IADsADSystemInfo.GetDCSiteName, IADsADSystemInfo::GetDCSiteName, _ds_iadsadsysteminfo_getdcsitename, adsi.iadsadsysteminfo__getdcsitename, adsi.iadsadsysteminfo_getdcsitename, iads/IADsADSystemInfo::GetDCSiteName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsADSystemInfo.GetDCSiteName
-: 
 ---
 
 # IADsADSystemInfo::GetDCSiteName
@@ -66,21 +58,14 @@ The <b>IADsADSystemInfo::GetDCSiteName</b> method retrieves the name of the Acti
 
 
 
-### -param szServer [in]
-
-DNS name of the service server.
-
-
-### -param pszSiteName
-
-TBD
-
-
-
-
-#### - pbstrSiteName [out]
+### -param szServer [out]
 
 Name of the Active Directory site.
+
+
+### -param pszSiteName [in]
+
+DNS name of the service server.
 
 
 ## -returns
@@ -96,7 +81,7 @@ This method supports the standard <b>HRESULT</b> return values. For more informa
 
 
 
-An Active Directory site is one or more well-connected TCP/IP subnets holding Active Directory domain controllers. For more information, see  <a href="https://msdn.microsoft.com/library/Aa772157(v=VS.85).aspx">Active Directory Core Concepts</a>.
+An Active Directory site is one or more well-connected TCP/IP subnets holding Active Directory domain controllers. For more information, see  <a href="ad.active_directory_core_concepts">Active Directory Core Concepts</a>.
 
 
 #### Examples

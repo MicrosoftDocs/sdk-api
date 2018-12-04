@@ -7,7 +7,7 @@ old-location: termserv\itsgpolicyengine_isquarantineenabled.htm
 tech.root: termserv
 ms.assetid: e63b99ba-068f-4842-b00a-9bfc5f8dac73
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: ITSGPolicyEngine interface [Remote Desktop Services],IsQuarantineEnabled method, ITSGPolicyEngine.IsQuarantineEnabled, ITSGPolicyEngine::IsQuarantineEnabled, IsQuarantineEnabled, IsQuarantineEnabled method [Remote Desktop Services], IsQuarantineEnabled method [Remote Desktop Services],ITSGPolicyEngine interface, termserv.itsgpolicyengine_isquarantineenabled, tsgpolicyengine/ITSGPolicyEngine::IsQuarantineEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tsgpolicyengine.h
-: 
-- ITSGPolicyEngine.IsQuarantineEnabled
-: 
 ---
 
 # ITSGPolicyEngine::IsQuarantineEnabled

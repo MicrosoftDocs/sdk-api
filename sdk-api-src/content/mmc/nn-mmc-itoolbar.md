@@ -4,10 +4,10 @@ title: IToolbar
 author: windows-sdk-content
 description: The IToolbar interface is used to create new toolbars, to add items to them, to extend the toolbars, and to display the resultant new toolbars. Each toolbar is created on its own band within the control bar.
 old-location: mmc\itoolbar.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: cf9c9fe9-f58f-47f0-9051-86a514df0c6d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IToolbar, IToolbar interface [MMC], IToolbar interface [MMC],described, _slate_itoolbar, mmc.itoolbar, mmc/IToolbar
 ms.prod: windows-hardware
 ms.technology: windows-devices

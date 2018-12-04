@@ -4,10 +4,10 @@ title: ITextStory::GetActive
 author: windows-sdk-content
 description: Sets the active state of a story.
 old-location: controls\itextstory_getactive.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 7bae9458-ee68-486a-a37f-2cc899400882
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetActive, GetActive method [Windows Controls], GetActive method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetActive method, ITextStory.GetActive, ITextStory::GetActive, controls.itextstory_getactive, tom/ITextStory::GetActive, tomDisplayActive, tomDisplayUIActive, tomInactive, tomUIActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextStory.GetActive
-: 
 ---
 
 # ITextStory::GetActive

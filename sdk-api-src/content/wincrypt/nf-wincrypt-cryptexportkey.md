@@ -4,10 +4,10 @@ title: CryptExportKey function
 author: windows-sdk-content
 description: Exports a cryptographic key or a key pair from a cryptographic service provider (CSP) in a secure manner.
 old-location: security\cryptexportkey.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 8a7c7b46-3bea-4043-b568-6d91d6335737
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CRYPT_BLOB_VER3, CRYPT_DESTROYKEY, CRYPT_OAEP, CRYPT_SSL2_FALLBACK, CRYPT_Y_ONLY, CryptExportKey, CryptExportKey function [Security], OPAQUEKEYBLOB, PLAINTEXTKEYBLOB, PRIVATEKEYBLOB, PUBLICKEYBLOB, SIMPLEBLOB, SYMMETRICWRAPKEYBLOB, _crypto2_cryptexportkey, security.cryptexportkey, wincrypt/CryptExportKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptExportKey
-: 
 ---
 
 # CryptExportKey function
@@ -517,7 +511,7 @@ BOOL GetExportedKey(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
  
 
  

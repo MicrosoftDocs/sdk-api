@@ -56,14 +56,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemcli.h
-: 
-- IWbemServices.ExecMethod
-: 
 ---
 
 # IWbemServices::ExecMethod
@@ -118,7 +110,7 @@ May be <b>NULL</b> if no in-parameters are required to execute the method. Other
 
 ### -param ppOutParams [out]
 
-If not <b>NULL</b>, receives a pointer to the outbound parameters and return values for the method execution. The contents of this object are method-specific, and are part of the specification for the provider in question. The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the returned object when it is no longer required.
+If not <b>NULL</b>, receives a pointer to the outbound parameters and return values for the method execution. The contents of this object are method-specific, and are part of the specification for the provider in question. The caller must call <a href="_com_iunknown_release">Release</a> on the returned object when it is no longer required.
 
 
 ### -param ppCallResult [out]

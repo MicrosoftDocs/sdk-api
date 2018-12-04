@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx2::FastRecovery
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssbackupcomponentsex2_fastrecovery.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: e64cb785-9688-4aba-8017-65a8494ddb33
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FastRecovery, FastRecovery method, FastRecovery method,IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,FastRecovery method, IVssBackupComponentsEx2.FastRecovery, IVssBackupComponentsEx2::FastRecovery, base.ivssbackupcomponentsex2_fastrecovery, vsbackup/IVssBackupComponentsEx2::FastRecovery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsbackup.h
-: 
-- IVssBackupComponentsEx2.FastRecovery
-: 
 ---
 
 # IVssBackupComponentsEx2::FastRecovery

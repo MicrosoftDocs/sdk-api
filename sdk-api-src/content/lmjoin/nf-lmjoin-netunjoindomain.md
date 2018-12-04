@@ -4,10 +4,10 @@ title: NetUnjoinDomain function
 author: windows-sdk-content
 description: The NetUnjoinDomain function unjoins a computer from a workgroup or a domain.
 old-location: netmgmt\netunjoindomain.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: cc755c22-1fd6-4787-999e-a43258287a05
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetUnjoinDomain, NetUnjoinDomain function [Network Management], _win32_netunjoindomain, lmjoin/NetUnjoinDomain, netmgmt.netunjoindomain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetUnjoinDomain
-: 
 ---
 
 # NetUnjoinDomain function

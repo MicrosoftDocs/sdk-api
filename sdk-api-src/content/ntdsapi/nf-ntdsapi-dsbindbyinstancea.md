@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DsBindByInstanceA
-: 
 req.product: ADAM
 ---
 
@@ -134,7 +128,7 @@ Causes the bind to use the delegate impersonation level. This enables operations
 
 If this flag is not specified, the bind will use the impersonate impersonation level. For more 
          information about impersonation levels, see 
-         <a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>.
+         <a href="_com_impersonation_levels">Impersonation Levels</a>.
 
 Most operations do not require the delegate impersonation level; this flag should only be 
          specified if it is required. Binding to a rogue server with the  delegate impersonation level enables the 

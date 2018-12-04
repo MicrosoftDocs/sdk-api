@@ -7,7 +7,7 @@ old-location: properties\PROPDESC_RELATIVEDESCRIPTION_TYPE.htm
 tech.root: properties
 ms.assetid: cc9d59db-88d6-4726-ac1e-15b483afd637
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PDRDT_COUNT, PDRDT_DATE, PDRDT_DURATION, PDRDT_GENERAL, PDRDT_LENGTH, PDRDT_PRIORITY, PDRDT_RATE, PDRDT_RATING, PDRDT_REVISION, PDRDT_SIZE, PDRDT_SPEED, PROPDESC_RELATIVEDESCRIPTION_TYPE, PROPDESC_RELATIVEDESCRIPTION_TYPE enumeration [Windows Properties], properties.PROPDESC_RELATIVEDESCRIPTION_TYPE, propsys/PDRDT_COUNT, propsys/PDRDT_DATE, propsys/PDRDT_DURATION, propsys/PDRDT_GENERAL, propsys/PDRDT_LENGTH, propsys/PDRDT_PRIORITY, propsys/PDRDT_RATE, propsys/PDRDT_RATING, propsys/PDRDT_REVISION, propsys/PDRDT_SIZE, propsys/PDRDT_SPEED, propsys/PROPDESC_RELATIVEDESCRIPTION_TYPE, shell.PROPDESC_RELATIVEDESCRIPTION_TYPE, shell_PROPDESC_RELATIVEDESCRIPTION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Describes the relative description type for a property description, as determined by the <i>relativeDescriptionType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773865(v=VS.85).aspx">displayInfo</a> element.
+Describes the relative description type for a property description, as determined by the <i>relativeDescriptionType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element.
 
 
 ## -enum-fields

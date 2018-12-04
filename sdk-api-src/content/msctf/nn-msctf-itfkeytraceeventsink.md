@@ -7,7 +7,7 @@ old-location: tsf\itfkeytraceeventsink.htm
 tech.root: TSF
 ms.assetid: 29785bae-59b8-4bbb-b899-44f6fc3e83bd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfKeyTraceEventSink, ITfKeyTraceEventSink interface [Text Services Framework], ITfKeyTraceEventSink interface [Text Services Framework],described, _tsf_itfkeytraceeventsink_ref, msctf/ITfKeyTraceEventSink, tsf.itfkeytraceeventsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -158,7 +158,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

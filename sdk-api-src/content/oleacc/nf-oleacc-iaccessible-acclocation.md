@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__acclocation.htm
 tech.root: WinAuto
 ms.assetid: 1eb6f075-a8bf-4c03-96ee-460728317955
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accLocation method, IAccessible.accLocation, IAccessible::accLocation, _msaa_IAccessible_accLocation, accLocation, accLocation method [Windows Accessibility], accLocation method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acclocation, oleacc/IAccessible::accLocation, winauto.iaccessible_iaccessible__acclocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
-- apiref
-: 
-- COM
-: 
-- oleacc.h
-: 
-- IAccessible.accLocation
-: 
 ---
 
 # IAccessible::accLocation

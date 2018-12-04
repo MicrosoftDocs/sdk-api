@@ -7,7 +7,7 @@ old-location: com\imoniker.htm
 tech.root: com
 ms.assetid: 17f4c1df-7a9c-42ef-a888-70cd8d85f070
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IMoniker, IMoniker interface [COM], IMoniker interface [COM],described, _com_imoniker, com.imoniker, objidl/IMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -305,11 +305,11 @@ Instances of pointer monikers refuse to be serialized; that is, <a href="https:/
 Pointer monikers are rarely needed. Use pointer monikers only if you need monikers to identify objects that have no persistent representation. Pointer monikers allow such objects to participate in a moniker-binding operation.
 
 <h3><a id="URL_Moniker_Implementation"></a><a id="url_moniker_implementation"></a><a id="URL_MONIKER_IMPLEMENTATION"></a>URL Moniker Implementation</h3>
-The URL moniker implementation of <b>IMoniker</b> is found on a URL moniker object, which also supports <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> and the <a href="https://msdn.microsoft.com/library/ms775081(v=VS.85).aspx">IAsyncMoniker</a> interface. The <b>IMoniker</b> interface inherits its definition from <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a> as well as <b>IUnknown</b>, and <b>IPersistStream</b> inherits from <a href="https://msdn.microsoft.com/932eb0e2-35a6-482e-9138-00cff30508a9">IPersist</a>. Therefore, the <b>IMoniker</b> implementation includes support for <b>IPersistStream</b> and <b>IPersist</b>.
+The URL moniker implementation of <b>IMoniker</b> is found on a URL moniker object, which also supports <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> and the <a href="_inet_IAsyncMoniker_Interface_cpp">IAsyncMoniker</a> interface. The <b>IMoniker</b> interface inherits its definition from <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a> as well as <b>IUnknown</b>, and <b>IPersistStream</b> inherits from <a href="https://msdn.microsoft.com/932eb0e2-35a6-482e-9138-00cff30508a9">IPersist</a>. Therefore, the <b>IMoniker</b> implementation includes support for <b>IPersistStream</b> and <b>IPersist</b>.
 
 
 
-The <a href="https://msdn.microsoft.com/library/ms775081(v=VS.85).aspx">IAsyncMoniker</a> interface is simply <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>. (There are no additional methods.) It is is used to allow clients to determine whether a moniker supports asynchronous binding.
+The <a href="_inet_IAsyncMoniker_Interface_cpp">IAsyncMoniker</a> interface is simply <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>. (There are no additional methods.) It is is used to allow clients to determine whether a moniker supports asynchronous binding.
 
 To get a pointer to the <b>IMoniker</b> interface on this object, call the <b>CreateURLMonikerEx</b> function.
 
@@ -355,7 +355,7 @@ The most common example of moniker providers are COM applications that support l
 
 
 
-<a href="https://msdn.microsoft.com/library/ms775103(v=VS.85).aspx">CreateURLMonikerEx</a>
+<a href="inet_CreateURLMonikerEx_cpp">CreateURLMonikerEx</a>
 
 
 

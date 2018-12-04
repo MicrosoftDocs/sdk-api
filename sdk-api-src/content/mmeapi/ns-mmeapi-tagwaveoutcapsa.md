@@ -7,7 +7,7 @@ old-location: multimedia\waveoutcaps.htm
 tech.root: Multimedia
 ms.assetid: 756f47fa-c0d1-4729-a0f6-096a1212d0a2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPWAVEOUTCAPSA, *NPWAVEOUTCAPSA, *PWAVEOUTCAPSA, WAVEOUTCAPS, WAVEOUTCAPS structure [Windows Multimedia], WAVEOUTCAPSA, _win32_WAVEOUTCAPS_str, mmeapi/WAVEOUTCAPS, multimedia.waveoutcaps, tagWAVEOUTCAPSA, tagWAVEOUTCAPSW, waveoutcaps_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices

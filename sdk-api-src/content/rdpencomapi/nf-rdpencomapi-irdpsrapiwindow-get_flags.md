@@ -4,10 +4,10 @@ title: IRDPSRAPIWindow::get_Flags
 author: windows-sdk-content
 description: Returns the flags on the current window.
 old-location: rdp\irdpsrapiwindow_flags.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 64215325-fb94-4708-9391-5ef86c2c0076
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIWindow interface, Flags property [RDP],RDPSRAPIWindow object, IRDPSRAPIWindow interface [RDP],Flags property, IRDPSRAPIWindow.Flags, IRDPSRAPIWindow.get_Flags, IRDPSRAPIWindow::Flags, IRDPSRAPIWindow::get_Flags, RDPSRAPIWindow object [RDP],Flags property, get_Flags, rdp.irdpsrapiwindow_flags, rdpencomapi/IRDPSRAPIWindow::Flags, rdpencomapi/IRDPSRAPIWindow::get_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIWindow.get_Flags
-: 
 ---
 
 # IRDPSRAPIWindow::get_Flags

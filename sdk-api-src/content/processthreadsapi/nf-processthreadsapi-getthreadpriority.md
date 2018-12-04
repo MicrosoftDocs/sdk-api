@@ -4,10 +4,10 @@ title: GetThreadPriority function
 author: windows-sdk-content
 description: Retrieves the priority value for the specified thread. This value, together with the priority class of the thread's process, determines the thread's base-priority level.
 old-location: base\getthreadpriority.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 9e5ce4e8-bdd1-48c3-aa1d-b24b2b7bfb00
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetThreadPriority, GetThreadPriority function, _win32_getthreadpriority, base.getthreadpriority, processthreadsapi/GetThreadPriority, winbase/GetThreadPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetThreadPriority
-: 
 ---
 
 # GetThreadPriority function

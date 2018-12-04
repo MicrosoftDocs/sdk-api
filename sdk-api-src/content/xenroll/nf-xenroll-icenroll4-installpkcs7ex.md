@@ -4,10 +4,10 @@ title: ICEnroll4::InstallPKCS7Ex
 author: windows-sdk-content
 description: Processes a certificate or chain of certificates, placing them into the appropriate certificate stores.InstallPKCS7 except that it returns the number of certificates actually installed in local stores.
 old-location: security\icenroll4_installpkcs7ex.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 886fd5f0-d91f-439f-b259-dfb0206d3078
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CEnroll object [Security],InstallPKCS7Ex method, ICEnroll4 interface [Security],InstallPKCS7Ex method, ICEnroll4.InstallPKCS7Ex, ICEnroll4::InstallPKCS7Ex, InstallPKCS7Ex, InstallPKCS7Ex method [Security], InstallPKCS7Ex method [Security],CEnroll object, InstallPKCS7Ex method [Security],ICEnroll4 interface, _xen_icenroll4_installpkcs7ex, security.icenroll4_installpkcs7ex, xenroll/ICEnroll4::InstallPKCS7Ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- ICEnroll4.InstallPKCS7Ex
-: 
 ---
 
 # ICEnroll4::InstallPKCS7Ex

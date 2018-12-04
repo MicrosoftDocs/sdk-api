@@ -4,10 +4,10 @@ title: D2D1_BORDER_EDGE_MODE
 author: windows-sdk-content
 description: The edge mode for the Border effect.
 old-location: direct2d\d2d1_border_edge_mode.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: CAB73FFA-2F81-467F-8A4D-D523793BF659
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D2D1_BORDER_EDGE_MODE, D2D1_BORDER_EDGE_MODE enumeration [Direct2D], D2D1_BORDER_EDGE_MODE_CLAMP, D2D1_BORDER_EDGE_MODE_MIRROR, D2D1_BORDER_EDGE_MODE_WRAP, d2d1effects/D2D1_BORDER_EDGE_MODE, d2d1effects/D2D1_BORDER_EDGE_MODE_CLAMP, d2d1effects/D2D1_BORDER_EDGE_MODE_MIRROR, d2d1effects/D2D1_BORDER_EDGE_MODE_WRAP, direct2d.d2d1_border_edge_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The edge mode for the <a href="https://msdn.microsoft.com/en-us/library/Hh706314(v=VS.85).aspx">Border effect</a>. 
+The edge mode for the <a href="https://msdn.microsoft.com/D3D569F5-9496-4633-93E2-26665FFC3B37">Border effect</a>. 
 
 
 ## -enum-fields

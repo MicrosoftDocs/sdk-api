@@ -7,7 +7,7 @@ old-location: vhd\setvirtualdiskinformation.htm
 tech.root: VStor
 ms.assetid: bd4bee14-6812-4a28-8c44-2b8e8d42e697
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SetVirtualDiskInformation, SetVirtualDiskInformation function [VHD], vdssys/SetVirtualDiskInformation, vhd.setvirtualdiskinformation, virtdisk/SetVirtualDiskInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetVirtualDiskInformation
-: 
 ---
 
 # SetVirtualDiskInformation function

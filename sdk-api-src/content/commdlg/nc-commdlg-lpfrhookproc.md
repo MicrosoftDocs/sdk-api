@@ -7,7 +7,7 @@ old-location: dlgbox\frhookproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\frhookproc.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/23/2018
 ms.keywords: FRHookProc, LPFRHOOKPROC, LPFRHOOKPROC callback, LPFRHOOKPROC callback function [Dialog Boxes], _win32_FRHookProc, _win32_frhookproc_cpp, commdlg/LPFRHOOKPROC, dlgbox.frhookproc, winui._win32_frhookproc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_SecPkgContext_ClientSpecifiedTarget"
 author: windows-sdk-content
 description: Specifies the service principal name (SPN) of the initial target when calling the QueryContextAttributes (Digest) function.
 old-location: security\secpkgcontext_clientspecifiedtarget.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 67536f69-a1fc-4f26-84dc-872635bafa3b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PSecPkgContext_ClientSpecifiedTarget, PSecPkgContext_ClientSpecifiedTarget, PSecPkgContext_ClientSpecifiedTarget structure pointer [Security], SecPkgContext_ClientSpecifiedTarget, SecPkgContext_ClientSpecifiedTarget structure [Security], _SecPkgContext_ClientSpecifiedTarget, security.secpkgcontext_clientspecifiedtarget, sspi/PSecPkgContext_ClientSpecifiedTarget, sspi/SecPkgContext_ClientSpecifiedTarget"
 ms.prod: windows-hardware
 ms.technology: windows-devices

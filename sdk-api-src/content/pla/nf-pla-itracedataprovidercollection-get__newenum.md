@@ -4,10 +4,10 @@ title: ITraceDataProviderCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\itracedataprovidercollection__newenum.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: cd80839a-0cf0-4553-819e-7a8be830b9fa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITraceDataProviderCollection interface [PLA],_NewEnum property, ITraceDataProviderCollection._NewEnum, ITraceDataProviderCollection.get__NewEnum, ITraceDataProviderCollection::_NewEnum, ITraceDataProviderCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],ITraceDataProviderCollection interface, get__NewEnum, pla.itracedataprovidercollection__newenum, pla/ITraceDataProviderCollection::_NewEnum, pla/ITraceDataProviderCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- ITraceDataProviderCollection.get__NewEnum
-: 
 ---
 
 # ITraceDataProviderCollection::get__NewEnum

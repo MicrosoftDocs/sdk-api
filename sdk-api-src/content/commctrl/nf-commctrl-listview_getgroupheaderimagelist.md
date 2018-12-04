@@ -4,10 +4,10 @@ title: ListView_GetGroupHeaderImageList macro
 author: windows-sdk-content
 description: Gets the group header image list that has been set for an existing list-view control.
 old-location: controls\ListView_GetGroupHeaderImageList.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupheaderimagelist.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ListView_GetGroupHeaderImageList, ListView_GetGroupHeaderImageList macro [Windows Controls], _shell_ListView_GetGroupHeaderImageList, _shell_ListView_GetGroupHeaderImageList_cpp, commctrl/ListView_GetGroupHeaderImageList, controls.ListView_GetGroupHeaderImageList, controls._shell_ListView_GetGroupHeaderImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- ListView_GetGroupHeaderImageList
-: 
 ---
 
 # ListView_GetGroupHeaderImageList macro
@@ -68,7 +60,7 @@ Gets the group header image list that has been set for an existing list-view con
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -77,7 +69,7 @@ A handle to the list-view control.
 
 
 
-To specify an image list another way, such as, by large icons, small icons, or state images, send the <a href="https://msdn.microsoft.com/en-us/library/Bb774943(v=VS.85).aspx">LVM_GETIMAGELIST</a> message explicitly.
+To specify an image list another way, such as, by large icons, small icons, or state images, send the <a href="https://msdn.microsoft.com/dd48d8b5-6dbd-48ab-95c3-0fcf1e8c24f0">LVM_GETIMAGELIST</a> message explicitly.
 
 
 

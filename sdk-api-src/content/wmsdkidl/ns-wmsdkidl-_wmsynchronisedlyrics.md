@@ -7,7 +7,7 @@ old-location: wmformat\wm_synchronised_lyrics.htm
 tech.root: wmformat
 ms.assetid: a8f47fcc-faf7-4a25-817a-f9199db38fbc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WM_SYNCHRONISED_LYRICS, WM_SYNCHRONISED_LYRICS structure [windows Media Format], _WMSynchronisedLyrics, wmformat.wm_synchronised_lyrics, wmsdkidl/WM_SYNCHRONISED_LYRICS
 ms.prod: windows-hardware
 ms.technology: windows-devices

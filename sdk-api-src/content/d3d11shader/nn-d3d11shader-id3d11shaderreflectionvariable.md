@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectionvariable.htm
 tech.root: direct3d11
 ms.assetid: 4422a51f-b190-4df0-a1bb-a8ee2cc66da2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ID3D11ShaderReflectionVariable, ID3D11ShaderReflectionVariable interface [Direct3D 11], ID3D11ShaderReflectionVariable interface [Direct3D 11],described, d3d11shader/ID3D11ShaderReflectionVariable, direct3d11.id3d11shaderreflectionvariable, f2ebf92b-2932-5cc0-239f-7e9b48dec05f
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,9 +55,9 @@ This shader-reflection interface provides access to a variable.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflectionVariable</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D11ShaderReflectionVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflectionVariable</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11ShaderReflectionVariable</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ID3D11ShaderReflectionVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn933280(v=VS.85).aspx">GetBuffer</a>
+<a href="https://msdn.microsoft.com/E3E15010-6096-4AA5-B014-AD3054223300">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 This method returns the buffer of the current <b>ID3D11ShaderReflectionVariable</b>.
@@ -79,7 +79,7 @@ This method returns the buffer of the current <b>ID3D11ShaderReflectionVariable<
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ff476608(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/a384e172-763f-4f4c-b6fb-f657fa31e5ee">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a shader-variable description.
@@ -88,7 +88,7 @@ Get a shader-variable description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ff476609(v=VS.85).aspx">GetInterfaceSlot</a>
+<a href="https://msdn.microsoft.com/f3b62396-0747-4396-ba86-9d50bfa8b529">GetInterfaceSlot</a>
 </td>
 <td align="left" width="63%">
 Gets the corresponding interface slot for a variable that represents an interface pointer.
@@ -97,7 +97,7 @@ Gets the corresponding interface slot for a variable that represents an interfac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ff476610(v=VS.85).aspx">GetType</a>
+<a href="https://msdn.microsoft.com/cfabd55c-0707-4221-b99e-64ef226c917e">GetType</a>
 </td>
 <td align="left" width="63%">
 Get a shader-variable type.
@@ -111,7 +111,7 @@ Get a shader-variable type.
 
 
 
-To get a shader-reflection-variable interface, call a method like <a href="https://msdn.microsoft.com/en-us/library/Ff476626(v=VS.85).aspx">ID3D11ShaderReflection::GetVariableByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+To get a shader-reflection-variable interface, call a method like <a href="https://msdn.microsoft.com/8c21756f-40f0-4459-852b-445053aa03e8">ID3D11ShaderReflection::GetVariableByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
           
 
 
@@ -122,7 +122,7 @@ To get a shader-reflection-variable interface, call a method like <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476161(v=VS.85).aspx">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
  
 
  

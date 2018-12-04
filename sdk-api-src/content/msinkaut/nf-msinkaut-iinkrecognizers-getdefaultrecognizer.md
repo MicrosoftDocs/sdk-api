@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizers_getdefaultrecognizer.htm
 tech.root: tablet
 ms.assetid: 499a257d-72de-4121-a98f-c827a3fef611
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 499a257d-72de-4121-a98f-c827a3fef611, GetDefaultRecognizer, GetDefaultRecognizer method [Tablet PC], GetDefaultRecognizer method [Tablet PC],IInkRecognizers interface, IInkRecognizers interface [Tablet PC],GetDefaultRecognizer method, IInkRecognizers.GetDefaultRecognizer, IInkRecognizers::GetDefaultRecognizer, msinkaut/IInkRecognizers::GetDefaultRecognizer, tablet.inkrecognizers_getdefaultrecognizer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkRecognizers.GetDefaultRecognizer
-: 
 ---
 
 # IInkRecognizers::GetDefaultRecognizer

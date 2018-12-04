@@ -4,10 +4,10 @@ title: IWeeklyTrigger
 author: windows-sdk-content
 description: Represents a trigger that starts a task based on a weekly schedule.
 old-location: taskschd\iweeklytrigger.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: c10b050a-8319-4e21-85aa-0bceb76abaaf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWeeklyTrigger, IWeeklyTrigger interface [Task Scheduler], IWeeklyTrigger interface [Task Scheduler],described, taskschd.iweeklytrigger, taskschd/IWeeklyTrigger, weekly trigger [Task Scheduler],interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,7 +85,7 @@ When reading or writing your own XML for a task, a weekly trigger is specified u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

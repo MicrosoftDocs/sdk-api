@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpDeleteClientInfoV6
-: 
 ---
 
 # DhcpDeleteClientInfoV6 function

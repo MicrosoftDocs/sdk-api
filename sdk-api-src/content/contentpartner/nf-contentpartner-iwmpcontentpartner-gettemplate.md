@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_gettemplate.htm
 tech.root: WMP
 ms.assetid: 4bfe7d84-9f65-4bd4-867a-65c96291397d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetTemplate, GetTemplate method [Windows Media Player], GetTemplate method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetTemplate method, IWMPContentPartner.GetTemplate, IWMPContentPartner::GetTemplate, IWMPContentPartnerGetTemplate, contentpartner/IWMPContentPartner::GetTemplate, wmp.iwmpcontentpartner_gettemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- contentpartner.h
-: 
-- IWMPContentPartner.GetTemplate
-: 
 ---
 
 # IWMPContentPartner::GetTemplate
@@ -73,12 +65,12 @@ The <b>GetTemplate</b> method retrieves the URL of the discovery page to be disp
 
 ### -param task [in]
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd564892(v=VS.85).aspx">WMPTaskType</a> enumeration that specifies the active task pane.
+A member of the <a href="https://msdn.microsoft.com/7abc17b1-5ce7-4741-9a6a-d5a444046418">WMPTaskType</a> enumeration that specifies the active task pane.
 
 
 ### -param location [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd563765(v=VS.85).aspx">library location constant</a> that specifies the type of library view the user is currently seeing. For example, the constant g_szCPListID specifies that the user is viewing a pane that shows a particular playlist.
+A <a href="https://msdn.microsoft.com/88ff9b91-6b21-4f7d-ae13-e8456a3e0f75">library location constant</a> that specifies the type of library view the user is currently seeing. For example, the constant g_szCPListID specifies that the user is viewing a pane that shows a particular playlist.
 
 
 ### -param pContext [in]
@@ -113,7 +105,7 @@ Pointer to a <b>BSTR</b> that receives the URL of the discovery page to display.
 
 ### -param pTemplateSize [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd564893(v=VS.85).aspx">WMPTemplateSize</a> enumeration that indicates the size of the template in which the Player will display the discovery page.
+Receives a member of the <a href="https://msdn.microsoft.com/c63185a7-b2a4-4c3d-b455-220e1954a31a">WMPTemplateSize</a> enumeration that indicates the size of the template in which the Player will display the discovery page.
 
 
 ## -returns
@@ -150,9 +142,9 @@ The method succeeded.
 
 Windows Media Player calls this method when the view changes in the <b>Library</b>, <b>Sync</b>, or <b>Burn</b> pane. The Player also calls this method when one of those three panes becomes active. The pane or view can change as a result of user navigation or as the result of a call from the discovery page.
 
-When the discovery page calls <a href="https://msdn.microsoft.com/en-us/library/Dd562955(v=VS.85).aspx">External.changeView</a>, it sets the <i>ViewParams</i> parameter to whatever context it wants to associate with the new view. Windows Media Player passes that context along to the plug-in in the <i>bstrViewParams</i> parameter of <b>GetTemplate</b>.
+When the discovery page calls <a href="https://msdn.microsoft.com/bd9d7d4b-ee4c-4d7c-92ef-dd0b8ab46d9d">External.changeView</a>, it sets the <i>ViewParams</i> parameter to whatever context it wants to associate with the new view. Windows Media Player passes that context along to the plug-in in the <i>bstrViewParams</i> parameter of <b>GetTemplate</b>.
 
-When the discovery page calls <a href="https://msdn.microsoft.com/en-us/library/Dd562956(v=VS.85).aspx">External.changeViewOnlineList</a>, it sets the <i>Params</i> parameter to whatever context it wants to associate with the new view. Windows Media Player passes that context along to the plug-in in the <i>bstrViewParams</i> parameter of <b>GetTemplate</b>.
+When the discovery page calls <a href="https://msdn.microsoft.com/d7a45ced-431f-4d35-8c9c-c6eeba6fcbf3">External.changeViewOnlineList</a>, it sets the <i>Params</i> parameter to whatever context it wants to associate with the new view. Windows Media Player passes that context along to the plug-in in the <i>bstrViewParams</i> parameter of <b>GetTemplate</b>.
 
 If the view changes as a result of user navigation, Windows Media Player sets the <i>bstrParams</i> parameter to <b>NULL</b> when it calls <b>GetTemplate</b>.
 
@@ -166,7 +158,7 @@ Windows Media Player calls <b>GetTemplate</b> to retrieve the URL of the discove
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

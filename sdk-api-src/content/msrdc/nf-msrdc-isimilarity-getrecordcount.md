@@ -4,10 +4,10 @@ title: ISimilarity::GetRecordCount
 author: windows-sdk-content
 description: Retrieves the number of records that are stored in the similarity file ID table in a similarity file.
 old-location: rdc\isimilarity_getrecordcount.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 19dda0ed-0f11-4e17-823b-667a48cf6dc1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetRecordCount, GetRecordCount method [Remote Differential Compression], GetRecordCount method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],GetRecordCount method, ISimilarity.GetRecordCount, ISimilarity::GetRecordCount, fs.isimilarity_getrecordcount, msrdc/ISimilarity::GetRecordCount, rdc.isimilarity_getrecordcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- ISimilarity.GetRecordCount
-: 
 ---
 
 # ISimilarity::GetRecordCount

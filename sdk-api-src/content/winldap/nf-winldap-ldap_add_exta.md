@@ -4,10 +4,10 @@ title: ldap_add_extA function
 author: windows-sdk-content
 description: The ldap_add_ext function initiates an asynchronous add operation to a tree. The parent of the entry added must exist, or the parent must be empty (equal to the distinguished name of the root) for an add operation to succeed.
 old-location: ldap\ldap_add_ext.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 13ad97e7-6d3c-43a6-b806-ec775abe303c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ldap_add_ext, ldap.ldap__add__ext, ldap.ldap_add_ext, ldap_add_ext, ldap_add_ext function [LDAP], ldap_add_extA, ldap_add_extW, winldap/ldap_add_ext, winldap/ldap_add_extA, winldap/ldap_add_extW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_add_extA
-: 
 ---
 
 # ldap_add_extA function
@@ -103,7 +97,7 @@ The message ID for the request.
 
 If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
 
-If the function fails, an error code is returned. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa366112(v=VS.85).aspx">Error Handling</a>.
+If the function fails, an error code is returned. For more information, see <a href="functions.htm">Error Handling</a>.
 
 
 
@@ -140,7 +134,7 @@ Multithreaded: Calls to <b>ldap_add_ext</b> are thread-safe.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366112(v=VS.85).aspx">Error Handling</a>
+<a href="functions.htm">Error Handling</a>
 
 
 

@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_pla_0001_0043_0003"
 author: windows-sdk-content
 description: Defines how to decorate the file name or subdirectory name.
 old-location: pla\autopathformat.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: eee5e4fc-7754-44ad-b22d-5296223e2e9c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AutoPathFormat, AutoPathFormat enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0003, base.autopathformat, pla.autopathformat, pla/AutoPathFormat, pla/plaComputer, pla/plaMonthDayHour, pla/plaMonthDayHourMinute, pla/plaNone, pla/plaPattern, pla/plaSerialNumber, pla/plaYearDayOfYear, pla/plaYearMonth, pla/plaYearMonthDay, pla/plaYearMonthDayHour, plaComputer, plaMonthDayHour, plaMonthDayHourMinute, plaNone, plaPattern, plaSerialNumber, plaYearDayOfYear, plaYearMonth, plaYearMonthDay, plaYearMonthDayHour
 ms.prod: windows-hardware
 ms.technology: windows-devices

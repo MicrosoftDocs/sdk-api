@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineeme_get_keys.htm
 tech.root: medfound
 ms.assetid: e6556a02-445d-4436-80de-e4156d6a3d63
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IMFMediaEngineEME interface [Media Foundation],get_Keys method, IMFMediaEngineEME.get_Keys, IMFMediaEngineEME::get_Keys, get_Keys, get_Keys method [Media Foundation], get_Keys method [Media Foundation],IMFMediaEngineEME interface, mf.imfmediaengineeme_get_keys, mfmediaengine/IMFMediaEngineEME::get_Keys
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfmediaengine.h
-: 
-- IMFMediaEngineEME.get_Keys
-: 
 ---
 
 # IMFMediaEngineEME::get_Keys

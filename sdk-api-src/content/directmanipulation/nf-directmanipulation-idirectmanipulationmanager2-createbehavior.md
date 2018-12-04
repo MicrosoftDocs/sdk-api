@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- directmanipulation.h
-: 
-- IDirectManipulationManager2.CreateBehavior
-: 
 ---
 
 # IDirectManipulationManager2::CreateBehavior

@@ -4,10 +4,10 @@ title: tagPROPVARIANT
 author: windows-sdk-content
 description: Used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set.
 old-location: stg\propvariant.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: e86cc279-826d-4767-8d96-fc8280060ea1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

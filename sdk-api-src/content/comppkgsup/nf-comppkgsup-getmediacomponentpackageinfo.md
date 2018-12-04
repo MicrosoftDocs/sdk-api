@@ -4,10 +4,10 @@ title: GetMediaComponentPackageInfo function
 author: windows-sdk-content
 description: Returns a list of properties for all media codecs installed on the system that meet the specified requirements.
 old-location: winprog\getmediacomponentpackageinfo.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: EDBC9F34-62C3-4256-9AEC-9A743608B5B7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetMediaComponentPackageInfo, GetMediaComponentPackageInfo function [Windows API], comppkgsup/GetMediaComponentPackageInfo, winprog.getmediacomponentpackageinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetMediaComponentPackageInfo
-: 
 ---
 
 # GetMediaComponentPackageInfo function

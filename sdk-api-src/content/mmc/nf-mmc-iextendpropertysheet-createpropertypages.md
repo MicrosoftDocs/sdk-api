@@ -4,10 +4,10 @@ title: IExtendPropertySheet::CreatePropertyPages
 author: windows-sdk-content
 description: Adds pages to a property sheet.
 old-location: mmc\iextendpropertysheet_createpropertypages.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 8B99EC8D-AFE1-4944-AF61-BFE93C0AF7DE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreatePropertyPages, CreatePropertyPages method [MMC], CreatePropertyPages method [MMC],IExtendPropertySheet interface, IExtendPropertySheet interface [MMC],CreatePropertyPages method, IExtendPropertySheet.CreatePropertyPages, IExtendPropertySheet::CreatePropertyPages, mmc.iextendpropertysheet_createpropertypages, mmc/IExtendPropertySheet::CreatePropertyPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IExtendPropertySheet.CreatePropertyPages
-: 
 ---
 
 # IExtendPropertySheet::CreatePropertyPages
@@ -87,7 +79,7 @@ For snap-ins that use the
 ### -param lpIDataObject [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the object that contains context information about the scope or result item.
+<a href="_ole_idataobject">IDataObject</a> interface on the object that contains context information about the scope or result item.
 
 
 ## -returns
@@ -126,7 +118,7 @@ MMCFreeNotifyHandle should be called, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300854(v=VS.85).aspx">IExtendPropertySheet</a>
+<a href="https://msdn.microsoft.com/c3c75e69-e16c-425b-bd8c-3c6f2e5ce2db">IExtendPropertySheet</a>
 
 
 

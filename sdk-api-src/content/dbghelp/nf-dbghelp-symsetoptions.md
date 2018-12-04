@@ -4,10 +4,10 @@ title: SymSetOptions function
 author: windows-sdk-content
 description: Sets the options mask.
 old-location: base\symsetoptions.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 15d72415-829f-4ba3-af80-1f3762cbebda
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SYMOPT_ALLOW_ABSOLUTE_SYMBOLS, SYMOPT_ALLOW_ZERO_ADDRESS, SYMOPT_AUTO_PUBLICS, SYMOPT_CASE_INSENSITIVE, SYMOPT_DEBUG, SYMOPT_DEFERRED_LOADS, SYMOPT_DISABLE_SYMSRV_AUTODETECT, SYMOPT_EXACT_SYMBOLS, SYMOPT_FAIL_CRITICAL_ERRORS, SYMOPT_FAVOR_COMPRESSED, SYMOPT_FLAT_DIRECTORY, SYMOPT_IGNORE_CVREC, SYMOPT_IGNORE_IMAGEDIR, SYMOPT_IGNORE_NT_SYMPATH, SYMOPT_INCLUDE_32BIT_MODULES, SYMOPT_LOAD_ANYTHING, SYMOPT_LOAD_LINES, SYMOPT_NO_CPP, SYMOPT_NO_IMAGE_SEARCH, SYMOPT_NO_PROMPTS, SYMOPT_NO_PUBLICS, SYMOPT_NO_UNQUALIFIED_LOADS, SYMOPT_OVERWRITE, SYMOPT_PUBLICS_ONLY, SYMOPT_SECURE, SYMOPT_UNDNAME, SymSetOptions, SymSetOptions function, _win32_symsetoptions, base.symsetoptions, dbghelp/SymSetOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
-- apiref
-: 
-- 
-: 
-- SymSetOptions
-: 
 ---
 
 # SymSetOptions function

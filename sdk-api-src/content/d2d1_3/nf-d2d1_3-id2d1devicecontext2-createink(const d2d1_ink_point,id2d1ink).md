@@ -4,10 +4,10 @@ title: ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT,ID2D1Ink)
 author: windows-sdk-content
 description: Creates a new ID2D1Ink object that starts at the given point.
 old-location: direct2d\id2d1devicecontext2_createink2.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: c98ecb40-1039-a9fa-9596-0d42719a1cc7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: CreateInk, CreateInk method [Direct2D], CreateInk method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateInk method, ID2D1DeviceContext2.CreateInk, ID2D1DeviceContext2.CreateInk(const D2D1_INK_POINT,ID2D1Ink), ID2D1DeviceContext2::CreateInk, ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT,ID2D1Ink), d2d1_3/ID2D1DeviceContext2::CreateInk, direct2d.id2d1devicecontext2_createink2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_3.h
-: 
-- ID2D1DeviceContext2.CreateInk
-: 
 ---
 
 # ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT,ID2D1Ink)

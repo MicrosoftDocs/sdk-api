@@ -4,10 +4,10 @@ title: TSPI_lineReleaseUserUserInfo function
 author: windows-sdk-content
 description: The TSPI_lineReleaseUserUserInfo function informs the service provider that the user-user information contained in the LINECALLINFO structure has been processed, and that subsequently received user-user information can now be written into that structure.
 old-location: tspi\tspi_linereleaseuseruserinfo.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 3c760254-a8c0-406a-aa15-3a5a42aba2e7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: TSPI_lineReleaseUserUserInfo, TSPI_lineReleaseUserUserInfo function [TAPI 2.2], _tspi_tspi_linereleaseuseruserinfo, tspi.tspi_linereleaseuseruserinfo, tspi/TSPI_lineReleaseUserUserInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TSPI_lineReleaseUserUserInfo
-: 
 ---
 
 # TSPI_lineReleaseUserUserInfo function

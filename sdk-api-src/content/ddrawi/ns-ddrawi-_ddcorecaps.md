@@ -7,7 +7,7 @@ old-location: display\ddcorecaps.htm
 tech.root: display
 ms.assetid: 529d60b5-658d-4d55-a599-fa35386c01a7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPDDCORECAPS, DDCORECAPS, DDCORECAPS structure [Display Devices], _DDCORECAPS, ddrawi/DDCORECAPS, ddstrcts_c5f9b49c-9c33-453b-af30-1f2ed36d5851.xml, display.ddcorecaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

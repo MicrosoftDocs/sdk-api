@@ -4,10 +4,10 @@ title: ID2D1StrokeStyle::GetDashes
 author: windows-sdk-content
 description: Copies the dash pattern to the specified array.
 old-location: direct2d\ID2D1StrokeStyle_GetDashes.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: b5add3b9-e052-4727-b14f-543fa452ad6d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetDashes, GetDashes method [Direct2D], GetDashes method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashes method, ID2D1StrokeStyle.GetDashes, ID2D1StrokeStyle::GetDashes, d2d1/ID2D1StrokeStyle::GetDashes, direct2d.ID2D1StrokeStyle_GetDashes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1StrokeStyle.GetDashes
-: 
 ---
 
 # ID2D1StrokeStyle::GetDashes

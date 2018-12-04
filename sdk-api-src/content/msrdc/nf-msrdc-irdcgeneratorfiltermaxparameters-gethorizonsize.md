@@ -4,10 +4,10 @@ title: IRdcGeneratorFilterMaxParameters::GetHorizonSize
 author: windows-sdk-content
 description: Returns the horizon size&#8212;the length over which the FilterMax generator looks for local maxima.
 old-location: rdc\irdcgeneratorfiltermaxparameters_gethorizonsize.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 6509330a-9592-4e10-91fb-43e4b63dceb9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetHorizonSize, GetHorizonSize method [Remote Differential Compression], GetHorizonSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],GetHorizonSize method, IRdcGeneratorFilterMaxParameters.GetHorizonSize, IRdcGeneratorFilterMaxParameters::GetHorizonSize, fs.irdcgeneratorfiltermaxparameters_gethorizonsize, msrdc/IRdcGeneratorFilterMaxParameters::GetHorizonSize, rdc.irdcgeneratorfiltermaxparameters_gethorizonsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- IRdcGeneratorFilterMaxParameters.GetHorizonSize
-: 
 ---
 
 # IRdcGeneratorFilterMaxParameters::GetHorizonSize

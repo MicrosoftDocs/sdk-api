@@ -4,10 +4,10 @@ title: IIdleSettings::put_WaitTimeout
 author: windows-sdk-content
 description: Gets or sets a value that indicates the amount of time that the Task Scheduler will wait for an idle condition to occur.
 old-location: taskschd\iidlesettings_waittimeout.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: fff7f954-4e57-42bf-ad86-5ddede94279c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],WaitTimeout property, IIdleSettings.WaitTimeout, IIdleSettings.put_WaitTimeout, IIdleSettings::WaitTimeout, IIdleSettings::get_WaitTimeout, IIdleSettings::put_WaitTimeout, WaitTimeout property [Task Scheduler], WaitTimeout property [Task Scheduler],IIdleSettings interface, put_WaitTimeout, taskschd.iidlesettings_waittimeout, taskschd/IIdleSettings::WaitTimeout, taskschd/IIdleSettings::get_WaitTimeout, taskschd/IIdleSettings::put_WaitTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IIdleSettings.put_WaitTimeout
-: 
 ---
 
 # IIdleSettings::put_WaitTimeout

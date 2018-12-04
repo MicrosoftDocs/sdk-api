@@ -7,7 +7,7 @@ old-location: gdi\emrellipse__emrrectangle.htm
 tech.root: gdi
 ms.assetid: 1400f9d7-4ccd-4348-98f0-fccc78e06212
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PEMRELLIPSE, *PEMRRECTANGLE, EMRELLIPSE, EMRELLIPSE structure [Windows GDI], EMRELLIPSE,EMRRECTANGLE, EMRELLIPSE,EMRRECTANGLE structure [Windows GDI], EMRRECTANGLE, EMRRECTANGLE structure [Windows GDI], PEMRELLIPSE, PEMRELLIPSE structure pointer [Windows GDI], PEMRRECTANGLE, PEMRRECTANGLE structure pointer [Windows GDI], _win32_EMRELLIPSE_str, gdi.emrellipse__emrrectangle, tagEMRELLIPSE, wingdi/EMRELLIPSE,EMRRECTANGLE, wingdi/EMRRECTANGLE, wingdi/PEMRELLIPSE, wingdi/PEMRRECTANGLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

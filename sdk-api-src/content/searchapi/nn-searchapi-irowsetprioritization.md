@@ -7,7 +7,7 @@ old-location: search\_search_IRowsetPrioritization.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\irowsetprioritization.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRowsetPrioritization, IRowsetPrioritization interface [search], IRowsetPrioritization interface [search],described, _search_IRowsetPrioritization, search._search_IRowsetPrioritization, searchapi/IRowsetPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The <b>IRowsetPrioritization</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd318299(v=VS.85).aspx">GetScopePriority</a>
+<a href="https://msdn.microsoft.com/89d1f23d-5f22-40c5-bf0b-3a529897cc96">GetScopePriority</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current indexer prioritization level for the scope specified by this query.
@@ -82,7 +82,7 @@ Retrieves the current indexer prioritization level for the scope specified by th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd318746(v=VS.85).aspx">GetScopeStatistics</a>
+<a href="https://msdn.microsoft.com/82d64fe6-6264-4262-a778-bf30a62dcecb">GetScopeStatistics</a>
 </td>
 <td align="left" width="63%">
 Gets information describing the scope specified by this query.
@@ -92,7 +92,7 @@ Gets information describing the scope specified by this query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd318748(v=VS.85).aspx">SetScopePriority</a>
+<a href="https://msdn.microsoft.com/a7a11343-c8ba-4cbd-bc7a-a0de65b99003">SetScopePriority</a>
 </td>
 <td align="left" width="63%">
 Sets the current indexer prioritization level for the scope specified by this query.
@@ -107,13 +107,13 @@ Sets the current indexer prioritization level for the scope specified by this qu
 
 
 
-This interface is acquired with <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface Method</a> on an indexer rowset. <b>DBPROP_ENABLEROWSETEVENTS</b> must be set to <b>TRUE</b> with the OLE DB <a href="https://msdn.microsoft.com/library/ms711497(v=VS.85).aspx">ICommandProperties::SetProperties</a> method prior to executing the query in order to use rowset prioritization.
+This interface is acquired with <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface Method</a> on an indexer rowset. <b>DBPROP_ENABLEROWSETEVENTS</b> must be set to <b>TRUE</b> with the OLE DB <a href="1e2f5e85-459e-4588-a6fa-4209d5a667c4">ICommandProperties::SetProperties</a> method prior to executing the query in order to use rowset prioritization.
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd318748(v=VS.85).aspx">IRowsetPrioritization::SetScopePriority</a> sets the prioritization for the scopes belonging to the query, and the interval the scope statistics event is raised when there are outstanding documents to be indexed within the query scopes. This event is raised if the priority level is set to default.
+<a href="https://msdn.microsoft.com/a7a11343-c8ba-4cbd-bc7a-a0de65b99003">IRowsetPrioritization::SetScopePriority</a> sets the prioritization for the scopes belonging to the query, and the interval the scope statistics event is raised when there are outstanding documents to be indexed within the query scopes. This event is raised if the priority level is set to default.
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd318746(v=VS.85).aspx">IRowsetPrioritization::GetScopeStatistics</a> can be used to get the number of indexed items in the scope, the number of outstanding documents to be added in the scope, and the number of documents that need to be re-indexed within this scope.
+<a href="https://msdn.microsoft.com/82d64fe6-6264-4262-a778-bf30a62dcecb">IRowsetPrioritization::GetScopeStatistics</a> can be used to get the number of indexed items in the scope, the number of outstanding documents to be added in the scope, and the number of documents that need to be re-indexed within this scope.
 
 The SearchEvents code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to prioritize indexing events.
         
@@ -130,7 +130,7 @@ The SearchEvents code sample, available on <a href="http://go.microsoft.com/fwli
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd318749(v=VS.85).aspx">IRowsetEvents</a>
+<a href="https://msdn.microsoft.com/df16492c-e8f9-4d01-a8ad-cd76ea6bbc73">IRowsetEvents</a>
 
 
 
@@ -138,23 +138,23 @@ The SearchEvents code sample, available on <a href="http://go.microsoft.com/fwli
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb288457(v=VS.85).aspx">Notifications Process (Windows Search)</a>
+<a href="https://msdn.microsoft.com/378e346b-2067-484f-85e9-76673a35550b">Notifications Process (Windows Search)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc142933(v=VS.85).aspx">PRIORITIZE_FLAGS</a>
+<a href="https://msdn.microsoft.com/554d405e-c117-4597-9612-20cd6088ebef">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797839(v=VS.85).aspx">PRIORITY_LEVEL</a>
+<a href="https://msdn.microsoft.com/d172ae7f-a495-4ea4-9d7d-ca8065f8d3cb">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368861(v=VS.85).aspx">ROWSETEVENT_ITEMSTATE</a>
+<a href="https://msdn.microsoft.com/2df331c6-9048-4720-b582-0025461134c1">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368862(v=VS.85).aspx">ROWSETEVENT_TYPE</a>
+<a href="https://msdn.microsoft.com/c9fb74f6-8aed-4450-9bc4-d9f5c3e835a4">ROWSETEVENT_TYPE</a>
 
 
 
@@ -162,7 +162,7 @@ The SearchEvents code sample, available on <a href="http://go.microsoft.com/fwli
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc465173(v=VS.85).aspx">Rowset Properties</a>
+<a href="https://msdn.microsoft.com/71aa0ad6-ef34-47ee-945f-04bda20bf8a4">Rowset Properties</a>
  
 
  

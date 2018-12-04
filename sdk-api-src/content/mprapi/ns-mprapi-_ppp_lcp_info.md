@@ -4,10 +4,10 @@ title: "_PPP_LCP_INFO"
 author: windows-sdk-content
 description: The PPP_LCP_INFO structure contains information that describes the results of an PPP Link Control Protocol (LCP) negotiation.
 old-location: rras\ppp_lcp_info.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: b6158047-6337-483f-9a90-74d578831772
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PPP_LCP_CHAP, PPP_LCP_CHAP_MD5, PPP_LCP_CHAP_MS, PPP_LCP_CHAP_MSV2, PPP_LCP_EAP, PPP_LCP_INFO, PPP_LCP_INFO structure [RAS], PPP_LCP_MULTILINK_FRAMING, PPP_LCP_PAP, PPP_LCP_SPAP, RASLCPO_3_DES, RASLCPO_ACFC, RASLCPO_DES_56, RASLCPO_PFC, RASLCPO_SSHF, _PPP_LCP_INFO, _mpr_ppp_lcp_info, mprapi/PPP_LCP_INFO, rras.ppp_lcp_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

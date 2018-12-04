@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList_ActivateTab.htm
 tech.root: shell
 ms.assetid: 1dc95768-62a5-4784-9f4f-96bebdd38c2b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ActivateTab, ActivateTab method [Windows Shell], ActivateTab method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],ActivateTab method, ITaskbarList.ActivateTab, ITaskbarList::ActivateTab, _win32_ITaskbarList_ActivateTab, shell.ITaskbarList_ActivateTab, shobjidl_core/ITaskbarList::ActivateTab
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- ITaskbarList.ActivateTab
-: 
 ---
 
 # ITaskbarList::ActivateTab

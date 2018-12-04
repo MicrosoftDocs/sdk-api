@@ -4,10 +4,10 @@ title: IResultData::UpdateItem
 author: windows-sdk-content
 description: Causes a specified item in the result pane to be redrawn.
 old-location: mmc\iresultdata_updateitem.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 6d335375-42b2-4f0a-a828-7ee636452db0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IResultData interface [MMC],UpdateItem method, IResultData.UpdateItem, IResultData2 interface [MMC],UpdateItem method, IResultData2::UpdateItem, IResultData::UpdateItem, UpdateItem, UpdateItem method [MMC], UpdateItem method [MMC],IResultData interface, UpdateItem method [MMC],IResultData2 interface, _slate_iresultdata_updateitem, mmc.iresultdata_updateitem, mmc/IResultData2::UpdateItem, mmc/IResultData::UpdateItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IResultData.UpdateItem
-: 
 ---
 
 # IResultData::UpdateItem

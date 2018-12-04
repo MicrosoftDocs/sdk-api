@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__sethwndpropstr.htm
 tech.root: WinAuto
 ms.assetid: 68f09a23-56b2-4fae-98a2-616b17fb4e1f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetHwndPropStr method, IAccPropServices.SetHwndPropStr, IAccPropServices::SetHwndPropStr, SetHwndPropStr, SetHwndPropStr method [Windows Accessibility], SetHwndPropStr method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetHwndPropStr, msaa.iaccpropservices_iaccpropservices__sethwndpropstr, oleacc/IAccPropServices::SetHwndPropStr, winauto.iaccpropservices_iaccpropservices__sethwndpropstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
-- apiref
-: 
-- COM
-: 
-- oleacc.h
-: 
-- IAccPropServices.SetHwndPropStr
-: 
 ---
 
 # IAccPropServices::SetHwndPropStr

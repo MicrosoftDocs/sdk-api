@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmProviderContextGetSecurityInfoByKey0
-: 
 ---
 
 # FwpmProviderContextGetSecurityInfoByKey0 function

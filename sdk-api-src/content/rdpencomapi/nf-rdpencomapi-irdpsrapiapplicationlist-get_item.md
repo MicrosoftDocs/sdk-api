@@ -4,10 +4,10 @@ title: IRDPSRAPIApplicationList::get_Item
 author: windows-sdk-content
 description: An item in the application collection.
 old-location: rdp\irdpsrapiapplicationlist_item.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 00111dee-038e-4612-babb-a09ee8dc5209
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRDPSRAPIApplicationList interface [RDP],Item property, IRDPSRAPIApplicationList.Item, IRDPSRAPIApplicationList.get_Item, IRDPSRAPIApplicationList::Item, IRDPSRAPIApplicationList::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIApplicationList interface, Item property [RDP],RDPSRAPIApplicationList object, RDPSRAPIApplicationList object [RDP],Item property, get_Item, rdp.irdpsrapiapplicationlist_item, rdpencomapi/IRDPSRAPIApplicationList::Item, rdpencomapi/IRDPSRAPIApplicationList::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIApplicationList.get_Item
-: 
 ---
 
 # IRDPSRAPIApplicationList::get_Item

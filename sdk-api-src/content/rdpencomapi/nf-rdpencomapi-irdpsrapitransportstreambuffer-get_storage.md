@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStreamBuffer::get_Storage
 author: windows-sdk-content
 description: The address of the internal storage buffer for the stream.
 old-location: rdp\irdpsrapitransportstreambuffer_storage.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: bf9a0480-cecf-4235-af9a-f92878c70db9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],Storage property, IRDPSRAPITransportStreamBuffer.Storage, IRDPSRAPITransportStreamBuffer.get_Storage, IRDPSRAPITransportStreamBuffer::Storage, IRDPSRAPITransportStreamBuffer::get_Storage, Storage property [RDP], Storage property [RDP],IRDPSRAPITransportStreamBuffer interface, get_Storage, rdp.irdpsrapitransportstreambuffer_storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::Storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Storage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,14 +41,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPITransportStreamBuffer.get_Storage
-: 
 ---
 
 # IRDPSRAPITransportStreamBuffer::get_Storage

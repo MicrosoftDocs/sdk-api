@@ -4,10 +4,10 @@ title: CryptXmlDllFinalizeDigest
 author: windows-sdk-content
 description: Retrieves the digest value.
 old-location: security\cryptxmldllfinalizedigest.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 749226fa-6de8-4c1c-9ec0-9801a2029a6e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptXmlDllFinalizeDigest, CryptXmlDllFinalizeDigest callback, CryptXmlDllFinalizeDigest callback function [Security], cryptxml/CryptXmlDllFinalizeDigest, security.cryptxmldllfinalizedigest
 ms.prod: windows-hardware
 ms.technology: windows-devices

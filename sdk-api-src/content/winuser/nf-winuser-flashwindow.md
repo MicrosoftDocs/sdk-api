@@ -4,10 +4,10 @@ title: FlashWindow function
 author: windows-sdk-content
 description: Flashes the specified window one time. It does not change the active state of the window.
 old-location: base\flashwindow.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: c4af997d-5cb8-4d5d-ae8d-1e0cc724fe02
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: FlashWindow, FlashWindow function, _win32_flashwindow, base.flashwindow, winuser/FlashWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FlashWindow
-: 
 ---
 
 # FlashWindow function

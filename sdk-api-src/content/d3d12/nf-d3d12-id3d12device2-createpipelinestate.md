@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device2_createpipelinestate.htm
 tech.root: direct3d12
 ms.assetid: 90557451-CB7A-4F05-8BDB-B611FE034CBB
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: CreatePipelineState, CreatePipelineState method, CreatePipelineState method,ID3D12Device2 interface, ID3D12Device2 interface,CreatePipelineState method, ID3D12Device2.CreatePipelineState, ID3D12Device2::CreatePipelineState, d3d12/ID3D12Device2::CreatePipelineState, direct3d12.id3d12device2_createpipelinestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d12.h
-: 
-- ID3D12Device2.CreatePipelineState
-: 
 ---
 
 # ID3D12Device2::CreatePipelineState
@@ -97,7 +89,7 @@ The pipeline state object is an immutable state object. It contains no methods.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the pipeline state object. See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
 

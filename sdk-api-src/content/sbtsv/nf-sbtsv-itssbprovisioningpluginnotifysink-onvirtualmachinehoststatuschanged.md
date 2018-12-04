@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioningpluginnotifysink_onvirtualmachinehoststa
 tech.root: termserv
 ms.assetid: d86e9092-42ca-4e62-8613-cdcf2f8b627d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnVirtualMachineHostStatusChanged method, ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged, ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, OnVirtualMachineHostStatusChanged, OnVirtualMachineHostStatusChanged method [Remote Desktop Services], OnVirtualMachineHostStatusChanged method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, termserv.itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbtsv.h
-: 
-- ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged
-: 
 ---
 
 # ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged

@@ -4,10 +4,10 @@ title: OleConvertOLESTREAMToIStorageEx function
 author: windows-sdk-content
 description: The OleConvertOLESTREAMToIStorageEx function converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object including presentation data. This is one of several compatibility functions.
 old-location: stg\oleconvertolestreamtoistorageex.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 2e77fa0e-1d98-4c59-8d3c-65bd7235ec8f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: OleConvertOLESTREAMToIStorageEx, OleConvertOLESTREAMToIStorageEx function [Structured Storage], _stg_oleconvertolestreamtoistorageex, ole2/OleConvertOLESTREAMToIStorageEx, stg.oleconvertolestreamtoistorageex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OleConvertOLESTREAMToIStorageEx
-: 
 ---
 
 # OleConvertOLESTREAMToIStorageEx function
@@ -98,7 +92,7 @@ Pointer to where the size in bytes of the converted data is returned.
 ### -param pmedium [out]
 
 Pointer to where the 
-<a href="https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx">STGMEDIUM</a> structure for the converted serialized data is returned.
+<a href="_ole_stgmedium">STGMEDIUM</a> structure for the converted serialized data is returned.
 
 
 ## -returns
@@ -122,7 +116,7 @@ This function differs from the
 Since this function can specify which presentation data to convert, it can be used by applications that do not use OLE's default caching resources but do use the conversion resources.
 
 The <b>tymed</b> member of 
-<a href="https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx">STGMEDIUM</a> can only be TYMED_NULL or TYMED_ISTREAM. If it is TYMED_NULL, the data will be returned in a global handle through the <b>hGlobal</b> member of <b>STGMEDIUM</b>, otherwise data will be written into the <b>pstm</b> member of this structure.
+<a href="_ole_stgmedium">STGMEDIUM</a> can only be TYMED_NULL or TYMED_ISTREAM. If it is TYMED_NULL, the data will be returned in a global handle through the <b>hGlobal</b> member of <b>STGMEDIUM</b>, otherwise data will be written into the <b>pstm</b> member of this structure.
 
 
 
@@ -132,7 +126,7 @@ The <b>tymed</b> member of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680738(v=VS.85).aspx">CoIsOle1Class</a>
+<a href="_com_coisole1class">CoIsOle1Class</a>
 
 
 
@@ -148,11 +142,11 @@ The <b>tymed</b> member of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx">STGMEDIUM</a>
+<a href="_ole_stgmedium">STGMEDIUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691227(v=VS.85).aspx">TYMED</a>
+<a href="_ole_tymed">TYMED</a>
  
 
  

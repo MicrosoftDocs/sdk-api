@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicconvertbitmapsource.htm
 tech.root: wic
 ms.assetid: ea735296-1bfd-4175-b8c9-cb5a61ab4203
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WICConvertBitmapSource, WICConvertBitmapSource function [Windows Imaging Component], _wic_codec_wicconvertbitmapsource, wic._wic_codec_wicconvertbitmapsource, wincodec/WICConvertBitmapSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WICConvertBitmapSource
-: 
 ---
 
 # WICConvertBitmapSource function
@@ -67,7 +61,7 @@ Obtains a <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff425
 
 ### -param dstFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee719797(v=VS.85).aspx">REFWICPixelFormatGUID</a></b>
+Type: <b><a href="_wic_codec_native_pixel_formats.htm">REFWICPixelFormatGUID</a></b>
 
 The pixel format to convert to.
 

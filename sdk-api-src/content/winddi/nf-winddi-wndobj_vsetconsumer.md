@@ -7,7 +7,7 @@ old-location: display\wndobj_vsetconsumer.htm
 tech.root: display
 ms.assetid: c7b550b8-1a3f-4d69-93d1-241044cb4bbd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WNDOBJ_vSetConsumer, WNDOBJ_vSetConsumer function [Display Devices], display.wndobj_vsetconsumer, gdifncs_759188da-41cc-45c8-845f-80d23e60e88b.xml, winddi/WNDOBJ_vSetConsumer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WNDOBJ_vSetConsumer
-: 
 ---
 
 # WNDOBJ_vSetConsumer function

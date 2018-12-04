@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice_sendopaquecommand.htm
 tech.root: WMDM
 ms.assetid: 4554318b-497f-488f-a52f-a392b8fee992
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMDMDevice interface [windows Media Device Manager],SendOpaqueCommand method, IWMDMDevice.SendOpaqueCommand, IWMDMDevice::SendOpaqueCommand, IWMDMDeviceSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IWMDMDevice interface, mswmdm/IWMDMDevice::SendOpaqueCommand, wmdm.iwmdmdevice_sendopaquecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mswmdm.h
-: 
-- IWMDMDevice.SendOpaqueCommand
-: 
 ---
 
 # IWMDMDevice::SendOpaqueCommand

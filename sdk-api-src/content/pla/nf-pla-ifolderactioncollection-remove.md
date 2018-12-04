@@ -4,10 +4,10 @@ title: IFolderActionCollection::Remove
 author: windows-sdk-content
 description: Removes a folder action from the collection based on the specified index.
 old-location: pla\ifolderactioncollection_remove.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: b0894d3f-13d1-4f71-9171-592640d70969
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFolderActionCollection interface [PLA],Remove method, IFolderActionCollection.Remove, IFolderActionCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IFolderActionCollection interface, base.ifolderactioncollection_remove, pla.ifolderactioncollection_remove, pla/IFolderActionCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IFolderActionCollection.Remove
-: 
 ---
 
 # IFolderActionCollection::Remove

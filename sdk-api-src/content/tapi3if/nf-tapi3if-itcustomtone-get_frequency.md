@@ -4,10 +4,10 @@ title: ITCustomTone::get_Frequency
 author: windows-sdk-content
 description: The get_Frequency method retrieves the frequency of the tone component to generate.
 old-location: tapi3\itcustomtone_get_frequency.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 2521d754-234a-4ef0-a3b2-23cea999ad45
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],get_Frequency method, ITCustomTone.get_Frequency, ITCustomTone::get_Frequency, _tapi3_itcustomtone_get_frequency, get_Frequency, get_Frequency method [TAPI 2.2], get_Frequency method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_frequency, tapi3if/ITCustomTone::get_Frequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITCustomTone.get_Frequency
-: 
 ---
 
 # ITCustomTone::get_Frequency

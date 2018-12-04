@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt32Array.htm
 tech.root: properties
 ms.assetid: 506a02f8-6390-44a0-9f14-bfc8fb7ad180
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VariantToUInt32Array, VariantToUInt32Array function [Windows Properties], _shell_VariantToUInt32Array, properties.VariantToUInt32Array, propvarutil/VariantToUInt32Array, shell.VariantToUInt32Array
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToUInt32Array
-: 
 ---
 
 # VariantToUInt32Array function

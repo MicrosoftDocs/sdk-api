@@ -7,7 +7,7 @@ old-location: wic\iwicddsdecoder_getparameters.htm
 tech.root: wic
 ms.assetid: D4EE39D6-54DC-450D-A430-2996D349BEC6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetParameters, GetParameters method [Windows Imaging Component], GetParameters method [Windows Imaging Component],IWICDdsDecoder interface, IWICDdsDecoder interface [Windows Imaging Component],GetParameters method, IWICDdsDecoder.GetParameters, IWICDdsDecoder::GetParameters, wic.iwicddsdecoder_getparameters, wincodec/IWICDdsDecoder::GetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodec.h
-: 
-- IWICDdsDecoder.GetParameters
-: 
 ---
 
 # IWICDdsDecoder::GetParameters

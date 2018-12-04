@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservice_setcommand.htm
 tech.root: mbn
 ms.assetid: DA45B319-4E6A-4999-85A7-7F5A4F9BED7B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],SetCommand method, IMbnDeviceService.SetCommand, IMbnDeviceService::SetCommand, SetCommand, SetCommand method [Microsoft Broadband Networks], SetCommand method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_setcommand, mbnapi/IMbnDeviceService::SetCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnDeviceService.SetCommand
-: 
 ---
 
 # IMbnDeviceService::SetCommand

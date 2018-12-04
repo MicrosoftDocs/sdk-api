@@ -4,10 +4,10 @@ title: "_UNLOAD_DLL_DEBUG_INFO"
 author: windows-sdk-content
 description: Contains information about a dynamic-link library (DLL) that has just been unloaded.
 old-location: base\unload_dll_debug_info_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: a4ece775-a49e-406b-8eae-264f978eb597
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DEBUG_INFO structure pointer, UNLOAD_DLL_DEBUG_INFO, UNLOAD_DLL_DEBUG_INFO structure, _UNLOAD_DLL_DEBUG_INFO, _win32_unload_dll_debug_info_str, base.unload_dll_debug_info_str, minwinbase/LPUNLOAD_DLL_DEBUG_INFO, minwinbase/UNLOAD_DLL_DEBUG_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: OpenTraceA function
 author: windows-sdk-content
 description: The OpenTrace function opens a real-time trace session or log file for consuming.
 old-location: etw\opentrace.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_opentrace, base.opentrace, etw.opentrace, evntrace/OpenTrace, evntrace/OpenTraceA, evntrace/OpenTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OpenTraceA
-: 
 ---
 
 # OpenTraceA function

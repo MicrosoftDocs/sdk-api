@@ -4,10 +4,10 @@ title: IUpdateServiceCollection::get_Item
 author: windows-sdk-content
 description: Gets and sets an IUpdateService interface in a collection.
 old-location: wua\iupdateservicecollection_item.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 581f532d-a973-4b66-9e9e-d8229a3b28b4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUpdateServiceCollection interface [Windows Update Agent],Item property, IUpdateServiceCollection.Item, IUpdateServiceCollection.get_Item, IUpdateServiceCollection::Item, IUpdateServiceCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateServiceCollection interface, get_Item, wua.iupdateservicecollection_item, wuapi/IUpdateServiceCollection::Item, wuapi/IUpdateServiceCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateServiceCollection.get_Item
-: 
 ---
 
 # IUpdateServiceCollection::get_Item

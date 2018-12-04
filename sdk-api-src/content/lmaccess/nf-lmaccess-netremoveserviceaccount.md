@@ -4,10 +4,10 @@ title: NetRemoveServiceAccount function
 author: windows-sdk-content
 description: Deletes the specified service account from the Active Directory database if the account is a standalone managed service account (sMSA).
 old-location: security\netremoveserviceaccount.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: f67745b7-bdfd-44bc-83e0-2ad24b78e137
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetRemoveServiceAccount, NetRemoveServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_UNLINK_FROM_HOST_ONLY, lmaccess/NetRemoveServiceAccount, security.netremoveserviceaccount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetRemoveServiceAccount
-: 
 ---
 
 # NetRemoveServiceAccount function

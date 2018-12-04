@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidVideoRenderer.get__MixerBitmap
-: 
 ---
 
 # IMSVidVideoRenderer::get__MixerBitmap

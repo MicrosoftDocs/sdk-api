@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapfile_getname.htm
 tech.root: appxpkg
 ms.assetid: 82D100DB-CAE8-4FF7-B428-B14E8CBDE7A5
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetName method, IAppxBlockMapFile.GetName, IAppxBlockMapFile::GetName, appxpackaging/IAppxBlockMapFile::GetName, appxpkg.iappxblockmapfile_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- appxpackaging.h
-: 
-- IAppxBlockMapFile.GetName
-: 
 ---
 
 # IAppxBlockMapFile::GetName

@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_getdrawbackgroundmode.htm
 tech.root: DirectShow
 ms.assetid: c5bf3a83-5f74-4ef1-81b6-6c99e3832725
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetDrawBackgroundMode, GetDrawBackgroundMode method [DirectShow], GetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetDrawBackgroundMode method, IAMWstDecoder.GetDrawBackgroundMode, IAMWstDecoder::GetDrawBackgroundMode, IAMWstDecoderGetDrawBackgroundMode, dshow.iamwstdecoder_getdrawbackgroundmode, iwstdec/IAMWstDecoder::GetDrawBackgroundMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iwstdec.h
-: 
-- IAMWstDecoder.GetDrawBackgroundMode
-: 
 ---
 
 # IAMWstDecoder::GetDrawBackgroundMode

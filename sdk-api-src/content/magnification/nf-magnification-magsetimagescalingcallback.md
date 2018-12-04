@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MagSetImageScalingCallback
-: 
 ---
 
 # MagSetImageScalingCallback function
@@ -78,7 +72,7 @@ The handle of the magnification window.
 
 ### -param callback [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9452fe5d-d8e9-4953-b55b-7bf792cabe16">MagImageScalingCallback</a></b>
 
 The callback function, or <b>NULL</b> to remove a callback that was previously set.
 
@@ -100,11 +94,11 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 This function requires Windows Display Driver Model (WDDM)-capable video cards.
 
-This function works only when <a href="https://msdn.microsoft.com/en-us/library/Aa969540(v=VS.85).aspx">Desktop Window Manager</a> (DWM) is off.
+This function works only when <a href="https://msdn.microsoft.com/fb1e0f1e-a6db-4961-bfa5-9c2218f8c950">Desktop Window Manager</a> (DWM) is off.
 
 This callback mechanism enables custom image filtering and scaling mechanisms. Filtering might include bilinear, trilinear, bicubic, and flat. The mechanism also enables edge detection and enhancement.
 
-The only transform that can be performed within the callback is scaling. Rotations and skews that may compose the arbitrary transform passed to the <a href="https://msdn.microsoft.com/en-us/library/ms692398(v=VS.85).aspx">MagSetWindowTransform</a> function are performed after the callback function returns.
+The only transform that can be performed within the callback is scaling. Rotations and skews that may compose the arbitrary transform passed to the <a href="https://msdn.microsoft.com/2005f7de-5275-457e-a89f-794de5c66f5a">MagSetWindowTransform</a> function are performed after the callback function returns.
 
 The specified function is called by the magnification engine for all rasterized Windows Graphics Device Interface (GDI) bitmaps before they are composited.
 
@@ -114,12 +108,12 @@ After the callback function returns, the bitmap in video memory can have one of 
 
 <ul>
 <li>Unscaled. The returned bitmap is the same size as the bitmap passed by the caller. The magnification engine does the scaling 
-by the transform specified in the <a href="https://msdn.microsoft.com/en-us/library/ms692398(v=VS.85).aspx">MagSetWindowTransform</a> function.
+by the transform specified in the <a href="https://msdn.microsoft.com/2005f7de-5275-457e-a89f-794de5c66f5a">MagSetWindowTransform</a> function.
 </li>
-<li>Scaled. The returned bitmap is scaled by the transform specified in <a href="https://msdn.microsoft.com/en-us/library/ms692398(v=VS.85).aspx">MagSetWindowTransform</a>.
+<li>Scaled. The returned bitmap is scaled by the transform specified in <a href="https://msdn.microsoft.com/2005f7de-5275-457e-a89f-794de5c66f5a">MagSetWindowTransform</a>.
 </li>
 </ul>
-If no callback is registered, the magnification engine scales bitmaps by the transform specified in <a href="https://msdn.microsoft.com/en-us/library/ms692398(v=VS.85).aspx">MagSetWindowTransform</a>.
+If no callback is registered, the magnification engine scales bitmaps by the transform specified in <a href="https://msdn.microsoft.com/2005f7de-5275-457e-a89f-794de5c66f5a">MagSetWindowTransform</a>.
 
 
 Windows Presentation Foundation (WPF) bitmaps can be scaled automatically using flat, bilinear, bicubic filtering and 
@@ -134,11 +128,11 @@ consequently do not use this callback mechanism.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692388(v=VS.85).aspx">MagGetImageScalingCallback</a>
+<a href="https://msdn.microsoft.com/492a1022-503f-45ed-89e2-e2fe0d01bed6">MagGetImageScalingCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692395(v=VS.85).aspx">MagSetImageScalingCallback</a>
+<a href="https://msdn.microsoft.com/6985f35d-89bf-46b1-b063-fd93492b66d5">MagSetImageScalingCallback</a>
  
 
  

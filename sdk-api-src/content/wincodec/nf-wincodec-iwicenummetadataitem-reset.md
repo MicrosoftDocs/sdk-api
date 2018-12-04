@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicenummetadataitem_reset.htm
 tech.root: wic
 ms.assetid: d462445a-efe7-4d79-a712-b8c7dd9ac7c1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWICEnumMetadataItem interface [Windows Imaging Component],Reset method, IWICEnumMetadataItem.Reset, IWICEnumMetadataItem::Reset, Reset, Reset method [Windows Imaging Component], Reset method [Windows Imaging Component],IWICEnumMetadataItem interface, _wic_codec_iwicenummetadataitem_reset, wic._wic_codec_iwicenummetadataitem_reset, wincodec/IWICEnumMetadataItem::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodec.h
-: 
-- IWICEnumMetadataItem.Reset
-: 
 ---
 
 # IWICEnumMetadataItem::Reset

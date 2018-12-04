@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_stationevent.htm
 tech.root: WMP
 ms.assetid: 0505a1e9-489f-416a-88b8-e8b76ae94b70
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],StationEvent method, IWMPContentPartner.StationEvent, IWMPContentPartner::StationEvent, IWMPContentPartnerStationEvent, StationEvent, StationEvent method [Windows Media Player], StationEvent method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::StationEvent, wmp.iwmpcontentpartner_stationevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- contentpartner.h
-: 
-- IWMPContentPartner.StationEvent
-: 
 ---
 
 # IWMPContentPartner::StationEvent
@@ -165,11 +157,11 @@ This method is called to enable logging of certain ASX events when an ASX file c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564667(v=VS.85).aspx">Windows Media Metafiles Overview</a>
+<a href="https://msdn.microsoft.com/5b7742c0-f416-4bf4-ae03-9554b51fe620">Windows Media Metafiles Overview</a>
  
 
  

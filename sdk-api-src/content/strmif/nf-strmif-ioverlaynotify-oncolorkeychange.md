@@ -7,7 +7,7 @@ old-location: dshow\ioverlaynotify_oncolorkeychange.htm
 tech.root: DirectShow
 ms.assetid: a1e7fc88-a50a-4832-9b29-21b94184f1c7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOverlayNotify interface [DirectShow],OnColorKeyChange method, IOverlayNotify.OnColorKeyChange, IOverlayNotify::OnColorKeyChange, IOverlayNotifyOnColorKeyChange, OnColorKeyChange, OnColorKeyChange method [DirectShow], OnColorKeyChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_oncolorkeychange, strmif/IOverlayNotify::OnColorKeyChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- strmif.h
-: 
-- IOverlayNotify.OnColorKeyChange
-: 
 ---
 
 # IOverlayNotify::OnColorKeyChange

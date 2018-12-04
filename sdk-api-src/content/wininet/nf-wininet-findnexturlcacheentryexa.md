@@ -4,10 +4,10 @@ title: FindNextUrlCacheEntryExA function
 author: windows-sdk-content
 description: Finds the next cache entry in a cache enumeration started by the FindFirstUrlCacheEntryEx function.
 old-location: wininet\findnexturlcacheentryex.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 39484e35-cd25-4e48-ace0-16033d3e6954
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FindNextUrlCacheEntryEx, FindNextUrlCacheEntryEx function [WinINet], FindNextUrlCacheEntryExA, FindNextUrlCacheEntryExW, _inet_findnexturlcacheentryex_function, wininet.findnexturlcacheentryex, wininet/FindNextUrlCacheEntryEx, wininet/FindNextUrlCacheEntryExA, wininet/FindNextUrlCacheEntryExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FindNextUrlCacheEntryExA
-: 
 ---
 
 # FindNextUrlCacheEntryExA function

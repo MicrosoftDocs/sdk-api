@@ -7,7 +7,7 @@ old-location: fs\setendoflog.htm
 tech.root: Clfs
 ms.assetid: ef4f123f-3e1a-4082-93c7-f23783b1d45e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: SetEndOfLog, SetEndOfLog function [Files], clfsw32/SetEndOfLog, fs.setendoflog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetEndOfLog
-: 
 ---
 
 # SetEndOfLog function

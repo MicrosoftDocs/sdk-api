@@ -4,10 +4,10 @@ title: IWSDEndpointProxy::GetErrorInfo
 author: windows-sdk-content
 description: Retrieves information on the last error.
 old-location: ncd\iwsdendpointproxy_geterrorinfo.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 950f5634-1cc5-4981-9053-e9090374cc5e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetErrorInfo, GetErrorInfo method, GetErrorInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetErrorInfo method, IWSDEndpointProxy.GetErrorInfo, IWSDEndpointProxy::GetErrorInfo, ncd.iwsdendpointproxy_geterrorinfo, wsdclient/IWSDEndpointProxy::GetErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdclient.h
-: 
-- IWSDEndpointProxy.GetErrorInfo
-: 
 ---
 
 # IWSDEndpointProxy::GetErrorInfo

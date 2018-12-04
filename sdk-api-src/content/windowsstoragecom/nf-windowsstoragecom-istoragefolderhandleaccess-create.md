@@ -7,7 +7,7 @@ old-location: winrt\istoragefolderhandleaccess_create.htm
 tech.root: WinRT
 ms.assetid: CAA79CEC-FB04-48F0-BCF8-19613FA6D108
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Create, Create method [Windows Runtime], Create method [Windows Runtime],IStorageFolderHandleAccess interface, IStorageFolderHandleAccess interface [Windows Runtime],Create method, IStorageFolderHandleAccess.Create, IStorageFolderHandleAccess::Create, windowsstoragecom/IStorageFolderHandleAccess::Create, winrt.istoragefolderhandleaccess_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- windowsstoragecom.h
-: 
-- IStorageFolderHandleAccess.Create
-: 
 ---
 
 # IStorageFolderHandleAccess::Create

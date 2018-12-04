@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm
 author: windows-sdk-content
 description: The encryption algorithm used to encrypt the EKPUB and EKCERT values from the client.
 old-location: security\ix509certificaterequestpkcs10v3_encryptionalgorithm.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: b1fb0e94-3207-4007-94bd-4b2e97b99ff2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],EncryptionAlgorithm property, IX509CertificateRequestPkcs10V3.EncryptionAlgorithm, IX509CertificateRequestPkcs10V3.get_EncryptionAlgorithm, IX509CertificateRequestPkcs10V3::EncryptionAlgorithm, IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm, IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm, certenroll/IX509CertificateRequestPkcs10V3::EncryptionAlgorithm, certenroll/IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm, certenroll/IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm, get_EncryptionAlgorithm, security.ix509certificaterequestpkcs10v3_encryptionalgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509CertificateRequestPkcs10V3.get_EncryptionAlgorithm
-: 
 ---
 
 # IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm
@@ -73,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379345(v=VS.85).aspx">IX509CertificateRequestPkcs10V3</a>
+<a href="https://msdn.microsoft.com/e833d1dc-da0f-4f5e-9027-ebf7413ef8c3">IX509CertificateRequestPkcs10V3</a>
  
 
  

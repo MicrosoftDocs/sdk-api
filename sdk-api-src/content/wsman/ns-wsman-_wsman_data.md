@@ -4,10 +4,10 @@ title: "_WSMAN_DATA"
 author: windows-sdk-content
 description: Contains inbound and outbound data used in the Windows Remote Management (WinRM) API.
 old-location: winrm\wsman_data.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 4ff574d4-04b0-47c3-808f-867d6815bffc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WSMAN_DATA, WSMAN_DATA structure [Windows Remote Management], _WSMAN_DATA, winrm.wsman_data, wsman/WSMAN_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

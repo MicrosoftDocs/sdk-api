@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderconfigui.htm
 tech.root: winsync
 ms.assetid: 27757aa1-a42d-4f66-99a8-bf66385fbec1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISyncProviderConfigUI, ISyncProviderConfigUI interface [Windows Sync], ISyncProviderConfigUI interface [Windows Sync],described, syncregistration/ISyncProviderConfigUI, winsync.isyncproviderconfigui
 ms.prod: windows-hardware
 ms.technology: windows-devices

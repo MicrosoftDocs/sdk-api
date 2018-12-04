@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextension.htm
 tech.root: medfound
 ms.assetid: 2acabcc2-242d-4b3d-b5b4-680c7973201f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IMFMediaSourceExtension, IMFMediaSourceExtension interface [Media Foundation], IMFMediaSourceExtension interface [Media Foundation],described, mf.imfmediasourceextension, mfmediaengine/IMFMediaSourceExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

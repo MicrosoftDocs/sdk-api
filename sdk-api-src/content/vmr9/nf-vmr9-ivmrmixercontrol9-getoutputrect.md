@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol9_getoutputrect.htm
 tech.root: DirectShow
 ms.assetid: 93d976a4-1c48-4aac-8326-92b1ad9b751c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetOutputRect, GetOutputRect method [DirectShow], GetOutputRect method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetOutputRect method, IVMRMixerControl9.GetOutputRect, IVMRMixerControl9::GetOutputRect, IVMRMixerControl9GetOutputRect, dshow.ivmrmixercontrol9_getoutputrect, vmr9/IVMRMixerControl9::GetOutputRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vmr9.h
-: 
-- IVMRMixerControl9.GetOutputRect
-: 
 ---
 
 # IVMRMixerControl9::GetOutputRect

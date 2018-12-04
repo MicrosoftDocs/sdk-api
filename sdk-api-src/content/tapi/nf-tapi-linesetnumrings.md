@@ -4,10 +4,10 @@ title: lineSetNumRings function
 author: windows-sdk-content
 description: The lineSetNumRings function sets the number of rings that must occur before an incoming call is answered.
 old-location: tapi2\linesetnumrings.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: d600fd39-4e58-421c-81bf-1555f5745f5e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_tapi2_linesetnumrings, lineSetNumRings, lineSetNumRings function [TAPI 2.2], tapi/lineSetNumRings, tapi2.linesetnumrings"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- lineSetNumRings
-: 
 ---
 
 # lineSetNumRings function

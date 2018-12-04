@@ -7,7 +7,7 @@ old-location: shell\LongPtrSub.htm
 tech.root: shell
 ms.assetid: f6e35f6a-9af1-4e14-82c0-0f96ecf01c15
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: LongPtrSub, LongPtrSub function [Windows Shell], intsafe/LongPtrSub, shell.LongPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LongPtrSub
-: 
 ---
 
 # LongPtrSub function

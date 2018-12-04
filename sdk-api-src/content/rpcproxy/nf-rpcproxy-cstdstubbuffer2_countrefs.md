@@ -4,10 +4,10 @@ title: CStdStubBuffer2_CountRefs function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::CountRefs method.
 old-location: rpc\cstdstubbuffer2_countrefs.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 871484FD-D51C-4F6E-8A44-5ABDD86E7BB6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CStdStubBuffer2_CountRefs, CStdStubBuffer2_CountRefs function [RPC], rpc.cstdstubbuffer2_countrefs, rpcproxy/CStdStubBuffer2_CountRefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CStdStubBuffer2_CountRefs
-: 
 ---
 
 # CStdStubBuffer2_CountRefs function
@@ -70,7 +64,7 @@ Implements the <a href="https://msdn.microsoft.com/0a2a629a-b935-47a2-a4c6-ba9f2
 
 ### -param pthis [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ## -returns

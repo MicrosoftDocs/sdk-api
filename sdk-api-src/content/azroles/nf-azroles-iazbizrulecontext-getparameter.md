@@ -4,10 +4,10 @@ title: IAzBizRuleContext::GetParameter
 author: windows-sdk-content
 description: Gets the specified value from the varParameterValues parameter of the IAzClientContext::AccessCheck method.
 old-location: security\azbizrulecontext_getparameter.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 9c956eea-92a5-4da8-abe0-a5ab4e41ab85
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AzBizRuleContext object [Security],GetParameter method, GetParameter, GetParameter method [Security], GetParameter method [Security],AzBizRuleContext object, GetParameter method [Security],IAzBizRuleContext interface, IAzBizRuleContext interface [Security],GetParameter method, IAzBizRuleContext.GetParameter, IAzBizRuleContext::GetParameter, azroles/IAzBizRuleContext::GetParameter, security.azbizrulecontext_getparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzBizRuleContext.GetParameter
-: 
 ---
 
 # IAzBizRuleContext::GetParameter

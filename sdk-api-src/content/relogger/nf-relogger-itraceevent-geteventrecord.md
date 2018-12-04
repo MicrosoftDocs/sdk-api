@@ -4,10 +4,10 @@ title: ITraceEvent::GetEventRecord
 author: windows-sdk-content
 description: Retrieves the event record that describes an event.
 old-location: etw\ievent_geteventrecord.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 9a1c2313-431a-4243-9272-99dec1bf78dd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetEventRecord, GetEventRecord method [ETW], GetEventRecord method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],GetEventRecord method, ITraceEvent.GetEventRecord, ITraceEvent::GetEventRecord, etw.ievent_geteventrecord, relogger/ITraceEvent::GetEventRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- relogger.h
-: 
-- ITraceEvent.GetEventRecord
-: 
 ---
 
 # ITraceEvent::GetEventRecord

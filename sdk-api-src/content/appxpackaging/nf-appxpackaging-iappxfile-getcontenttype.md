@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfile_getcontenttype.htm
 tech.root: appxpkg
 ms.assetid: 86EE47E1-B2AD-4610-8C9A-679536F9C51D
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: GetContentType, GetContentType method [App packaging and management], GetContentType method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetContentType method, IAppxFile.GetContentType, IAppxFile::GetContentType, appxpackaging/IAppxFile::GetContentType, appxpkg.iappxfile_getcontenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- appxpackaging.h
-: 
-- IAppxFile.GetContentType
-: 
 ---
 
 # IAppxFile::GetContentType

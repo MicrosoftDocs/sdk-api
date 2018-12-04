@@ -4,10 +4,10 @@ title: FDIDestroy function
 author: windows-sdk-content
 description: The FDIDestroy function deletes an open FDI context.
 old-location: winprog\fdidestroy.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: fe3b8045-a476-4a21-b732-0d4799798faf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: FDIDestroy, FDIDestroy function [Windows API], fdi/FDIDestroy, winprog.fdidestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FDIDestroy
-: 
 ---
 
 # FDIDestroy function

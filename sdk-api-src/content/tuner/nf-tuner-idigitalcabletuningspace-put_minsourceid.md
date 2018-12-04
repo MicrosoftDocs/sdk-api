@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IDigitalCableTuningSpace.put_MinSourceID
-: 
 ---
 
 # IDigitalCableTuningSpace::put_MinSourceID

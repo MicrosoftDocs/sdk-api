@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_setoutputoverride.htm
 tech.root: medfound
 ms.assetid: c8affecd-107f-4701-88df-200db06ad49e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetOutputOverride method, IMFASFStreamSelector.SetOutputOverride, IMFASFStreamSelector::SetOutputOverride, SetOutputOverride, SetOutputOverride method [Media Foundation], SetOutputOverride method [Media Foundation],IMFASFStreamSelector interface, c8affecd-107f-4701-88df-200db06ad49e, mf.imfasfstreamselector_setoutputoverride, wmcontainer/IMFASFStreamSelector::SetOutputOverride
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmcontainer.h
-: 
-- IMFASFStreamSelector.SetOutputOverride
-: 
 ---
 
 # IMFASFStreamSelector::SetOutputOverride

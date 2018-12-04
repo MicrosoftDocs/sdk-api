@@ -7,7 +7,7 @@ old-location: properties\VariantToString.htm
 tech.root: properties
 ms.assetid: 4850f9b8-8f86-4428-bf3b-f3abdc6047c1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VariantToString, VariantToString function [Windows Properties], _shell_VariantToString, properties.VariantToString, propvarutil/VariantToString, shell.VariantToString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToString
-: 
 ---
 
 # VariantToString function

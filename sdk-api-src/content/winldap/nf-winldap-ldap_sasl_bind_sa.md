@@ -4,10 +4,10 @@ title: ldap_sasl_bind_sA function
 author: windows-sdk-content
 description: The ldap_sasl_bind_s function is a synchronous function that authenticates a client to the LDAP server using SASL.
 old-location: ldap\ldap_sasl_bind_s.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 8347e2f5-bc14-480f-ba96-044ef3280418
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ldap_sasl_bind_s, ldap.ldap__sasl__bind__s, ldap.ldap_sasl_bind_s, ldap_sasl_bind_s, ldap_sasl_bind_s function [LDAP], ldap_sasl_bind_sA, ldap_sasl_bind_sW, winldap/ldap_sasl_bind_s, winldap/ldap_sasl_bind_sA, winldap/ldap_sasl_bind_sW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_sasl_bind_sA
-: 
 ---
 
 # ldap_sasl_bind_sA function

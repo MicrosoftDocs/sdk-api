@@ -4,10 +4,10 @@ title: IConfigurationDataCollector::put_Files
 author: windows-sdk-content
 description: Retrieves or sets the files to collect.
 old-location: pla\iconfigurationdatacollector_files.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: ca495768-8f84-489b-8590-3ab7d031f0be
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Files property [PLA], Files property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],Files property, IConfigurationDataCollector.Files, IConfigurationDataCollector.put_Files, IConfigurationDataCollector::Files, IConfigurationDataCollector::get_Files, IConfigurationDataCollector::put_Files, base.iconfigurationdatacollector_files, pla.iconfigurationdatacollector_files, pla/IConfigurationDataCollector::Files, pla/IConfigurationDataCollector::get_Files, pla/IConfigurationDataCollector::put_Files, put_Files
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IConfigurationDataCollector.put_Files
-: 
 ---
 
 # IConfigurationDataCollector::put_Files

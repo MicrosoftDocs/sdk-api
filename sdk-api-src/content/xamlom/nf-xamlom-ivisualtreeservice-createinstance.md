@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice_createinstance.htm
 tech.root: xaml_diagnostics
 ms.assetid: 214BE795-5883-4761-9040-2C7A679F5258
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IVisualTreeService interface, IVisualTreeService interface,CreateInstance method, IVisualTreeService.CreateInstance, IVisualTreeService::CreateInstance, xaml_diagnostics.ivisualtreeservice_createinstance, xamlom/IVisualTreeService::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xamlom.h
-: 
-- IVisualTreeService.CreateInstance
-: 
 ---
 
 # IVisualTreeService::CreateInstance

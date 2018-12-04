@@ -4,10 +4,10 @@ title: "_VDS_VOLUME_PROP"
 author: windows-sdk-content
 description: Defines the properties of a volume object.
 old-location: base\vds_volume_prop.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 3628b312-f830-4a1c-beb7-ad002a94313c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PVDS_VOLUME_PROP, PVDS_VOLUME_PROP, PVDS_VOLUME_PROP structure pointer [VDS], VDS_VOLUME_PROP, VDS_VOLUME_PROP structure [VDS], _VDS_VOLUME_PROP, base.vds_volume_prop, vds/PVDS_VOLUME_PROP, vds/_VDS_VOLUME_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,7 +102,7 @@ A <a href="https://msdn.microsoft.com/56f2d969-eb1c-44c2-8a12-077a02ae40dc">VDS_
 
 ### -field pwszName
 
-The name used to open a handle for the volume with the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function. For example, \\?\GLOBALROOT\Device\HarddiskVolume1.
+The name used to open a handle for the volume with the <a href="base.createfile">CreateFile</a> function. For example, \\?\GLOBALROOT\Device\HarddiskVolume1.
 
 
 ## -remarks

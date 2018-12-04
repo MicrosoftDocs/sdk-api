@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupVerifyInfFileA
-: 
 ---
 
 # SetupVerifyInfFileA function

@@ -4,10 +4,10 @@ title: AutoProxyHelperVtbl
 author: windows-sdk-content
 description: The AutoProxyHelperVtbl structure creates a v-table of pointers to Proxy AutoConfig (PAC) helper functions.See the Navigator Proxy Auto-Config (PAC) File Format documentation for a specification of the form and use of Proxy Auto-Config helper functions.
 old-location: wininet\autoproxyhelpervtbl.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: df482b8d-38e1-4d0d-a12c-8ba0f2e6423a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AutoProxyHelperVtbl, AutoProxyHelperVtbl structure [WinINet], wininet.autoproxyhelpervtbl, wininet/AutoProxyHelperVtbl
 ms.prod: windows-hardware
 ms.technology: windows-devices

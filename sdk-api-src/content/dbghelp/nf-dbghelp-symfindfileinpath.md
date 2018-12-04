@@ -4,10 +4,10 @@ title: SymFindFileInPath function
 author: windows-sdk-content
 description: Locates a symbol file or executable image.
 old-location: base\symfindfileinpath.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: f85d8cd9-958a-490a-b155-3a9abdeda922
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SSRVOPT_DWORD, SSRVOPT_DWORDPTR, SSRVOPT_GUIDPTR, SymFindFileInPath, SymFindFileInPath function, SymFindFileInPathW, _win32_symfindfileinpath, base.symfindfileinpath, dbghelp/SymFindFileInPath, dbghelp/SymFindFileInPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
-- apiref
-: 
-- 
-: 
-- SymFindFileInPath
-: 
 ---
 
 # SymFindFileInPath function

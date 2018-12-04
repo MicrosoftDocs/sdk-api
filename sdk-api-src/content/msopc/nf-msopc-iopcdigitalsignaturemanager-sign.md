@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msopc.h
-: 
-- IOpcDigitalSignatureManager.Sign
-: 
 ---
 
 # IOpcDigitalSignatureManager::Sign
@@ -217,7 +209,7 @@ An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/0468cece
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/en-us/library/Dd430435(v=VS.85).aspx">Windows Web Services</a> API.
+An <b>HRESULT</b> error code from a <a href="wsw.web_services_for_windows_error_codes">Windows Web Services</a> API.
 
 </td>
 </tr>

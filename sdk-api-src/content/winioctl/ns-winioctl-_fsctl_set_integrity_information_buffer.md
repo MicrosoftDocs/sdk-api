@@ -7,7 +7,7 @@ old-location: fs\fsctl_set_integrity_information_buffer.htm
 tech.root: fileio
 ms.assetid: e5f6c4c5-86cb-4e95-bc24-05d2bea37bc8
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER, CHECKSUM_TYPE_CRC64, CHECKSUM_TYPE_NONE, CHECKSUM_TYPE_UNCHANGED, FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF, FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, FSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure [Files], PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER, PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure pointer [Files], _FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, fs.fsctl_set_integrity_information_buffer, winioctl/FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, winioctl/PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

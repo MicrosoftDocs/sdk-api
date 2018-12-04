@@ -4,10 +4,10 @@ title: "_WSManProxyAuthenticationFlags"
 author: windows-sdk-content
 description: Determines the proxy authentication mechanism.
 old-location: winrm\wsmanproxyauthenticationflags.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 4a86dfae-18c9-4865-8b8b-bb0ac01f558c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WSManFlagProxyAuthenticationUseBasic, WSManFlagProxyAuthenticationUseDigest, WSManFlagProxyAuthenticationUseNegotiate, WSManProxyAuthenticationFlags, WSManProxyAuthenticationFlags enumeration [Windows Remote Management], _WSManProxyAuthenticationFlags, winrm.wsmanproxyauthenticationflags, wsmandisp/WSManFlagProxyAuthenticationUseBasic, wsmandisp/WSManFlagProxyAuthenticationUseDigest, wsmandisp/WSManFlagProxyAuthenticationUseNegotiate, wsmandisp/WSManProxyAuthenticationFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

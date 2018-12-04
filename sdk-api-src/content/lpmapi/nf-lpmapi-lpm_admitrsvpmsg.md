@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LPM_AdmitRsvpMsg
-: 
 ---
 
 # LPM_AdmitRsvpMsg function

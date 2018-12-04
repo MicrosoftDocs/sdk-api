@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetCapture
-: 
 ---
 
 # GetCapture function
@@ -86,7 +80,7 @@ The return value is a handle to the capture window associated with the current t
 
 A <b>NULL</b> return value means the current thread has not captured the mouse. However, it is possible that another thread or process has captured the mouse. 
 
-To get a handle to the capture window on another thread, use the <a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a> function.
+To get a handle to the capture window on another thread, use the <a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a> function.
 
 
 
@@ -100,11 +94,11 @@ To get a handle to the capture window on another thread, use the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a>
+<a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 
@@ -112,11 +106,11 @@ To get a handle to the capture window on another thread, use the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646261(v=VS.85).aspx">ReleaseCapture</a>
+<a href="https://msdn.microsoft.com/43e1f766-35b1-451d-9921-c1d4eebc4435">ReleaseCapture</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx">SetCapture</a>
+<a href="https://msdn.microsoft.com/f97cf81d-1f4c-4677-8e39-ca23f07aa95d">SetCapture</a>
  
 
  

@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxReceiptOptions.put_SMTPPort
-: 
 ---
 
 # IFaxReceiptOptions::put_SMTPPort

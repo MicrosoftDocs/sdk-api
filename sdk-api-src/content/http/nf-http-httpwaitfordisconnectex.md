@@ -4,10 +4,10 @@ title: HttpWaitForDisconnectEx function
 author: windows-sdk-content
 description: This function is an extension to HttpWaitForDisconnect.
 old-location: http\httpwaitfordisconnectex.htm
-tech.root: Http
+tech.root: http
 ms.assetid: D4946ECF-0E0E-439E-AEE5-BF24BD73D2B6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: HttpWaitForDisconnectEx, HttpWaitForDisconnectEx function [HTTP], http.httpwaitfordisconnectex, http/HttpWaitForDisconnectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HttpWaitForDisconnectEx
-: 
 ---
 
 # HttpWaitForDisconnectEx function

@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderregistration_createsyncproviderconfiguiregist
 tech.root: winsync
 ms.assetid: a61b07b3-45ce-429e-9641-4cebc5b44c1b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateSyncProviderConfigUIRegistrationInstance, CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync], CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],CreateSyncProviderConfigUIRegistrationInstance method, ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance, ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, syncregistration/ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, winsync.isyncproviderregistration_createsyncproviderconfiguiregistrationinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- syncregistration.h
-: 
-- ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance
-: 
 ---
 
 # ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance

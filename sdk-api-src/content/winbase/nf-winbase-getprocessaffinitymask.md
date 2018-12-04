@@ -4,10 +4,10 @@ title: GetProcessAffinityMask function
 author: windows-sdk-content
 description: Retrieves the process affinity mask for the specified process and the system affinity mask for the system.
 old-location: base\getprocessaffinitymask.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: f50ca86e-fa81-4ed9-ae6c-63a4e7f2a53f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetProcessAffinityMask, GetProcessAffinityMask function, _win32_getprocessaffinitymask, base.getprocessaffinitymask, winbase/GetProcessAffinityMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetProcessAffinityMask
-: 
 ---
 
 # GetProcessAffinityMask function

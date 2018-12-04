@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncproviderinfos_clone.htm
 tech.root: winsync
 ms.assetid: de53dade-82f3-418c-a44c-58d4b7502729
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncProviderInfos interface, IEnumSyncProviderInfos interface [Windows Sync],Clone method, IEnumSyncProviderInfos.Clone, IEnumSyncProviderInfos::Clone, syncregistration/IEnumSyncProviderInfos::Clone, winsync.ienumsyncproviderinfos_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- syncregistration.h
-: 
-- IEnumSyncProviderInfos.Clone
-: 
 ---
 
 # IEnumSyncProviderInfos::Clone

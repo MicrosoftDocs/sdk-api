@@ -4,10 +4,10 @@ title: IWSDHttpAddress::SetSecure
 author: windows-sdk-content
 description: Enables or disables TLS secure sessions for this address.
 old-location: ncd\iwsdhttpaddress_setsecure.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: f2b66d0d-51b2-437e-8ceb-a4c95f2f9d6d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWSDHttpAddress interface,SetSecure method, IWSDHttpAddress.SetSecure, IWSDHttpAddress::SetSecure, SetSecure, SetSecure method, SetSecure method,IWSDHttpAddress interface, ncd.iwsdhttpaddress_setsecure, wsdbase/IWSDHttpAddress::SetSecure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdbase.h
-: 
-- IWSDHttpAddress.SetSecure
-: 
 ---
 
 # IWSDHttpAddress::SetSecure

@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Reenumerate_DevNode_Ex
-: 
 ---
 
 # CM_Reenumerate_DevNode_Ex function

@@ -4,10 +4,10 @@ title: IVssComponentEx::GetAuthoritativeRestore
 author: windows-sdk-content
 description: Determines whether a requester has marked the restore of a component as authoritative for a replicated data store.
 old-location: base\ivsscomponentex_getauthoritativerestore.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: ca85cf27-b16c-4356-abb8-eb6474db637f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetAuthoritativeRestore, GetAuthoritativeRestore method, GetAuthoritativeRestore method,IVssComponentEx interface, IVssComponentEx interface,GetAuthoritativeRestore method, IVssComponentEx.GetAuthoritativeRestore, IVssComponentEx::GetAuthoritativeRestore, base.ivsscomponentex_getauthoritativerestore, vswriter/IVssComponentEx::GetAuthoritativeRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- IVssComponentEx.GetAuthoritativeRestore
-: 
 ---
 
 # IVssComponentEx::GetAuthoritativeRestore

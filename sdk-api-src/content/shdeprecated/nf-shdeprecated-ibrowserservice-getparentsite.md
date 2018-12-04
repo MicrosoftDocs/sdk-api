@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetParentSite.htm
 tech.root: shell
 ms.assetid: 91d031ae-1451-4379-9d8e-baddefd30435
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetParentSite, GetParentSite method [Windows Shell], GetParentSite method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetParentSite method, IBrowserService.GetParentSite, IBrowserService::GetParentSite, shdeprecated/IBrowserService::GetParentSite, shell.IBrowserService_GetParentSite, zone_IBrowserService_GetParentSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- IBrowserService.GetParentSite
-: 
 req.product: Internet Explorer 4.0
 ---
 

@@ -7,7 +7,7 @@ old-location: tsf\itffnplayback_queryrange.htm
 tech.root: TSF
 ms.assetid: d6113703-5515-4f1a-8e2e-1373077dafc2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfFnPlayBack interface [Text Services Framework],QueryRange method, ITfFnPlayBack.QueryRange, ITfFnPlayBack::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnPlayBack interface, _tsf_itffnplayback_queryrange_ref, ctffunc/ITfFnPlayBack::QueryRange, tsf.itffnplayback_queryrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctffunc.h
-: 
-- ITfFnPlayBack.QueryRange
-: 
 ---
 
 # ITfFnPlayBack::QueryRange
@@ -67,12 +59,12 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628908(v=VS.85).aspx">ITfRange</a> object that covers all or part of the text that contains audio data.
+Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that covers all or part of the text that contains audio data.
 
 
 ### -param ppNewRange [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628908(v=VS.85).aspx">ITfRange</a> pointer that receives a range object that covers all of the text that contains audio data. If there is no audio data for the text covered by <i>pRange</i>, this parameters receives <b>NULL</b>. In this case, the method returns S_OK, so the caller must verify that this parameter is not <b>NULL</b> before using the pointer.
+Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> pointer that receives a range object that covers all of the text that contains audio data. If there is no audio data for the text covered by <i>pRange</i>, this parameters receives <b>NULL</b>. In this case, the method returns S_OK, so the caller must verify that this parameter is not <b>NULL</b> before using the pointer.
 
 
 ### -param pfPlayable [out]
@@ -144,7 +136,7 @@ The current implementation of this method is simple. It clones <i>pRange</i>, pl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538958(v=VS.85).aspx">ITfFnPlayBack</a>
+<a href="https://msdn.microsoft.com/e9a0d1a3-70c9-4816-8cd4-f2574392953e">ITfFnPlayBack</a>
 
 
 

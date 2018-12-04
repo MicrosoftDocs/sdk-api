@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage_getattributes.htm
 tech.root: WMDM
 ms.assetid: e43139d2-260a-4f27-a06c-aca741204663
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetAttributes, GetAttributes method [windows Media Device Manager], GetAttributes method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetAttributes method, IWMDMStorage.GetAttributes, IWMDMStorage::GetAttributes, IWMDMStorageGetAttributes, mswmdm/IWMDMStorage::GetAttributes, wmdm.iwmdmstorage_getattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mswmdm.h
-: 
-- IWMDMStorage.GetAttributes
-: 
 ---
 
 # IWMDMStorage::GetAttributes

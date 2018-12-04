@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata::AddComponentDependency
 author: windows-sdk-content
 description: The AddComponentDependency method allows a writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component in another writer must be backed up and restored with it.
 old-location: base\ivsscreatewritermetadata_addcomponentdependency.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: cc6c8ab6-3706-4c75-ba31-cc8c1dc4dd06
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddComponentDependency, AddComponentDependency method [VSS], AddComponentDependency method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddComponentDependency method, IVssCreateWriterMetadata.AddComponentDependency, IVssCreateWriterMetadata::AddComponentDependency, _win32_ivsscreatewritermetadata_addcomponentdependency, base.ivsscreatewritermetadata_addcomponentdependency, vswriter/IVssCreateWriterMetadata::AddComponentDependency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- IVssCreateWriterMetadata.AddComponentDependency
-: 
 ---
 
 # IVssCreateWriterMetadata::AddComponentDependency

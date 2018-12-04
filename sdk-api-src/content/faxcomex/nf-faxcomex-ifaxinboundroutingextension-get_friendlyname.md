@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxInboundRoutingExtension.get_FriendlyName
-: 
 ---
 
 # IFaxInboundRoutingExtension::get_FriendlyName

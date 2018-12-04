@@ -7,7 +7,7 @@ old-location: wmformat\iwmgetsecurechannel_getpeersecurechannelinterface.htm
 tech.root: wmformat
 ms.assetid: bda30638-10b5-4288-b885-b63485606a7f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetPeerSecureChannelInterface, GetPeerSecureChannelInterface method [windows Media Format], GetPeerSecureChannelInterface method [windows Media Format],IWMGetSecureChannel interface, IWMGetSecureChannel interface [windows Media Format],GetPeerSecureChannelInterface method, IWMGetSecureChannel.GetPeerSecureChannelInterface, IWMGetSecureChannel::GetPeerSecureChannelInterface, wmformat.iwmgetsecurechannel_getpeersecurechannelinterface, wmsecure/IWMGetSecureChannel::GetPeerSecureChannelInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmsecure.h
-: 
-- IWMGetSecureChannel.GetPeerSecureChannelInterface
-: 
 ---
 
 # IWMGetSecureChannel::GetPeerSecureChannelInterface

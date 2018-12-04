@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getnestedclassprops.htm
 tech.root: WinRT
 ms.assetid: 5633d226-8f02-4527-b435-b75b1e1d5064
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetNestedClassProps, GetNestedClassProps method [Windows Runtime], GetNestedClassProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNestedClassProps method, IMetaDataImport.GetNestedClassProps, IMetaDataImport::GetNestedClassProps, rometadataapi/IMetaDataImport::GetNestedClassProps, winrt.imetadataimport_getnestedclassprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rometadataapi.h
-: 
-- IMetaDataImport.GetNestedClassProps
-: 
 ---
 
 # IMetaDataImport::GetNestedClassProps

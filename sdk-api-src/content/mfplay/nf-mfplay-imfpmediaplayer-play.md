@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_play.htm
 tech.root: medfound
 ms.assetid: 24d6e8a0-d910-46f9-8172-dfcb68c4f364
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Play method, IMFPMediaPlayer.Play, IMFPMediaPlayer::Play, Play, Play method [Media Foundation], Play method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_play, mfplay/IMFPMediaPlayer::Play
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfplay.h
-: 
-- IMFPMediaPlayer.Play
-: 
 ---
 
 # IMFPMediaPlayer::Play

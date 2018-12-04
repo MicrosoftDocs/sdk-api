@@ -7,7 +7,7 @@ old-location: fs\idiskquotauser_getsid.htm
 tech.root: fileio
 ms.assetid: 1718b5eb-2385-4e0f-a6af-99a5ef73e55d
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: GetSid, GetSid method [Files], GetSid method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetSid method, IDiskQuotaUser.GetSid, IDiskQuotaUser::GetSid, _win32_idiskquotauser_getsid, base.idiskquotauser_getsid, dskquota/IDiskQuotaUser::GetSid, fs.idiskquotauser_getsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dskquota.h
-: 
-- IDiskQuotaUser.GetSid
-: 
 ---
 
 # IDiskQuotaUser::GetSid

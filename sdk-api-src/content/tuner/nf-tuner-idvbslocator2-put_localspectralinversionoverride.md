@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IDVBSLocator2.put_LocalSpectralInversionOverride
-: 
 ---
 
 # IDVBSLocator2::put_LocalSpectralInversionOverride

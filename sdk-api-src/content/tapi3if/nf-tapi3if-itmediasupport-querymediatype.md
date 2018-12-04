@@ -4,10 +4,10 @@ title: ITMediaSupport::QueryMediaType
 author: windows-sdk-content
 description: The QueryMediaType method indicates whether the service provider associated with the current address supports the media type or types indicated by lMediaType.
 old-location: tapi3\itmediasupport_querymediatype.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 684bfd94-5bef-415b-b548-49f564ce8a83
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITMediaSupport interface [TAPI 2.2],QueryMediaType method, ITMediaSupport.QueryMediaType, ITMediaSupport::QueryMediaType, QueryMediaType, QueryMediaType method [TAPI 2.2], QueryMediaType method [TAPI 2.2],ITMediaSupport interface, _tapi3_itmediasupport_querymediatype, tapi3.itmediasupport_querymediatype, tapi3if/ITMediaSupport::QueryMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITMediaSupport.QueryMediaType
-: 
 ---
 
 # ITMediaSupport::QueryMediaType

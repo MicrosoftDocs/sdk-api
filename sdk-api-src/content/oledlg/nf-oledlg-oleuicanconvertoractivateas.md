@@ -7,7 +7,7 @@ old-location: com\oleuicanconvertoractivateas.htm
 tech.root: com
 ms.assetid: 9ecd978e-eded-472b-8d45-525bae56bded
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: OleUICanConvertOrActivateAs, OleUICanConvertOrActivateAs function [COM], _ole_OleUICanConvertOrActivateAs, com.oleuicanconvertoractivateas, oledlg/OleUICanConvertOrActivateAs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OleUICanConvertOrActivateAs
-: 
 ---
 
 # OleUICanConvertOrActivateAs function

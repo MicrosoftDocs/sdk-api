@@ -4,10 +4,10 @@ title: INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled
 author: windows-sdk-content
 description: Determines whether a specified group of firewall rules are enabled or disabled.
 old-location: ics\inetfwpolicy2_isrulegroupcurrentlyenabled.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 47a18291-398d-459f-b1e8-0bb7c8134e17
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],get_IsRuleGroupCurrentlyEnabled method, INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled, INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled, get_IsRuleGroupCurrentlyEnabled, get_IsRuleGroupCurrentlyEnabled method [ICS/ICF], get_IsRuleGroupCurrentlyEnabled method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_isrulegroupcurrentlyenabled, netfw/INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled
-: 
 ---
 
 # INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled

@@ -4,10 +4,10 @@ title: X500NameFlags
 author: windows-sdk-content
 description: Specifies the display and encoding characteristics of a distinguished name or relative distinguished name (RDN).
 old-location: security\x500nameflags_enum.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 8961f21c-1aab-4bbf-a696-e5bc0f37724a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: X500NameFlags, X500NameFlags enumeration [Security], XCN_CERT_NAME_STR_COMMA_FLAG, XCN_CERT_NAME_STR_CRLF_FLAG, XCN_CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, XCN_CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG, XCN_CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG, XCN_CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG, XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG, XCN_CERT_NAME_STR_FORWARD_FLAG, XCN_CERT_NAME_STR_NONE, XCN_CERT_NAME_STR_NO_PLUS_FLAG, XCN_CERT_NAME_STR_NO_QUOTING_FLAG, XCN_CERT_NAME_STR_REVERSE_FLAG, XCN_CERT_NAME_STR_SEMICOLON_FLAG, XCN_CERT_OID_NAME_STR, XCN_CERT_SIMPLE_NAME_STR, XCN_CERT_X500_NAME_STR, XCN_CERT_XML_NAME_STR, certenroll/X500NameFlags, certenroll/XCN_CERT_NAME_STR_COMMA_FLAG, certenroll/XCN_CERT_NAME_STR_CRLF_FLAG, certenroll/XCN_CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, certenroll/XCN_CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG, certenroll/XCN_CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG, certenroll/XCN_CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG, certenroll/XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG, certenroll/XCN_CERT_NAME_STR_FORWARD_FLAG, certenroll/XCN_CERT_NAME_STR_NONE, certenroll/XCN_CERT_NAME_STR_NO_PLUS_FLAG, certenroll/XCN_CERT_NAME_STR_NO_QUOTING_FLAG, certenroll/XCN_CERT_NAME_STR_REVERSE_FLAG, certenroll/XCN_CERT_NAME_STR_SEMICOLON_FLAG, certenroll/XCN_CERT_OID_NAME_STR, certenroll/XCN_CERT_SIMPLE_NAME_STR, certenroll/XCN_CERT_X500_NAME_STR, certenroll/XCN_CERT_XML_NAME_STR, security.x500nameflags_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>X500NameFlags</b> enumeration type specifies the display and <a href="https://msdn.microsoft.com/en-us/library/ms721575(v=VS.85).aspx">encoding</a> characteristics of a distinguished name or <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">relative distinguished name</a> (RDN).  This enumeration is used to initialize an <a href="https://msdn.microsoft.com/en-us/library/Aa377051(v=VS.85).aspx">IX500DistinguishedName</a> object.
+The <b>X500NameFlags</b> enumeration type specifies the display and <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">encoding</a> characteristics of a distinguished name or <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">relative distinguished name</a> (RDN).  This enumeration is used to initialize an <a href="https://msdn.microsoft.com/49f176d9-33f6-4bc1-992c-c613279b0969">IX500DistinguishedName</a> object.
 
 
 ## -enum-fields
@@ -65,7 +65,7 @@ Display characteristics are not identified.
 
 ### -field XCN_CERT_SIMPLE_NAME_STR
 
-All <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifiers</a> (OIDs) are discarded. <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">Relative distinguished names</a> (RDNs) are separated by commas followed by a space (, ). RDN attributes are separated by a plus sign enclosed within spaces ( + ).
+All <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> (OIDs) are discarded. <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">Relative distinguished names</a> (RDNs) are separated by commas followed by a space (, ). RDN attributes are separated by a plus sign enclosed within spaces ( + ).
 
 
 ### -field XCN_CERT_OID_NAME_STR
@@ -75,7 +75,7 @@ OIDs are separated from their associated attribute value by using an equal sign 
 
 ### -field XCN_CERT_X500_NAME_STR
 
-OIDs are converted to their <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.500</a> key names. They are separated from their associated attribute value by using an equal sign (=). RDNs are separated by a comma followed by a space (, ). RDN attributes are separated by a plus sign followed by a space (+ ).
+OIDs are converted to their <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.500</a> key names. They are separated from their associated attribute value by using an equal sign (=). RDNs are separated by a comma followed by a space (, ). RDN attributes are separated by a plus sign followed by a space (+ ).
 
 If an OID does not have a corresponding X.500 name, the OID is used with a prefix of OID. The RDN is enclosed within quotation marks (" ") if it contains leading or trailing white space or one of the following characters:<ul>
 <li>Comma (,)</li>
@@ -146,7 +146,7 @@ Specifies that the separator between RDNs is a comma (,).
 
 ### -field XCN_CERT_NAME_STR_REVERSE_FLAG
 
-Specifies that the order of the RDNs that make up the distinguished name (DN) is reversed for encoding. The typical DN display order is CN=<i>name</i>,...,DC=<i>com</i>. Use this flag to change the encoding order to DC=<i>com</i>,...,CN=<i>name</i>. An <a href="https://msdn.microsoft.com/en-us/library/Aa377051(v=VS.85).aspx">IX500DistinguishedName</a> object sets this flag by default unless you specify  XCN_CERT_NAME_STR_FORWARD_FLAG.
+Specifies that the order of the RDNs that make up the distinguished name (DN) is reversed for encoding. The typical DN display order is CN=<i>name</i>,...,DC=<i>com</i>. Use this flag to change the encoding order to DC=<i>com</i>,...,CN=<i>name</i>. An <a href="https://msdn.microsoft.com/49f176d9-33f6-4bc1-992c-c613279b0969">IX500DistinguishedName</a> object sets this flag by default unless you specify  XCN_CERT_NAME_STR_FORWARD_FLAG.
 
 
 ### -field XCN_CERT_NAME_STR_FORWARD_FLAG
@@ -263,15 +263,15 @@ Prevents forcing printable Unicode strings to be encoded by using UTF-8. Use whe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374846(v=VS.85).aspx">CertEnroll Enumerations</a>
+<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377051(v=VS.85).aspx">IX500DistinguishedName</a>
+<a href="https://msdn.microsoft.com/49f176d9-33f6-4bc1-992c-c613279b0969">IX500DistinguishedName</a>
  
 
  

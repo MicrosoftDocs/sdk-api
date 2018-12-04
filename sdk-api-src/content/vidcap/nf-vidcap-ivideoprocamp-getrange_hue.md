@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_hue.htm
 tech.root: DirectShow
 ms.assetid: 5625b73c-8033-4930-af26-e7c4b4fb6516
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Hue method, IVideoProcAmp.getRange_Hue, IVideoProcAmp::getRange_Hue, IVideoProcAmpgetRange_Hue, dshow.ivideoprocamp_getrange_hue, getRange_Hue, getRange_Hue method [DirectShow], getRange_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Hue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vidcap.h
-: 
-- IVideoProcAmp.getRange_Hue
-: 
 ---
 
 # IVideoProcAmp::getRange_Hue

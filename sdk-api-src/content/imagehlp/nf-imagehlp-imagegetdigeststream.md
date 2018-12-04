@@ -4,10 +4,10 @@ title: ImageGetDigestStream function
 author: windows-sdk-content
 description: Retrieves the requested data from the specified image file.
 old-location: base\imagegetdigeststream.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: e4560609-5b10-453f-a9a6-c5483d88cd64
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: CERT_PE_IMAGE_DIGEST_ALL_IMPORT_INFO, CERT_PE_IMAGE_DIGEST_DEBUG_INFO, CERT_PE_IMAGE_DIGEST_RESOURCES, ImageGetDigestStream, ImageGetDigestStream function, _win32_imagegetdigeststream, base.imagegetdigeststream, imagehlp/ImageGetDigestStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ImageGetDigestStream
-: 
 ---
 
 # ImageGetDigestStream function

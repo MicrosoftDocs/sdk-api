@@ -4,10 +4,10 @@ title: IX509PublicKey
 author: windows-sdk-content
 description: Represents a public key in a public/private key pair.
 old-location: security\ix509publickey.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: cd6f28a3-9998-40d7-a3e8-dab0cf3991a8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IX509PublicKey, IX509PublicKey interface [Security], IX509PublicKey interface [Security],described, certenroll/IX509PublicKey, security.ix509publickey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IX509PublicKey</b> interface represents a   public key in a <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public/private key pair</a>. The public key is included in the certificate request sent to a certification authority (CA) and in the certificate received from the CA. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa387460(v=VS.85).aspx">Public/Private Key Pairs</a>.
+The <b>IX509PublicKey</b> interface represents a   public key in a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public/private key pair</a>. The public key is included in the certificate request sent to a certification authority (CA) and in the certificate received from the CA. For more information, see <a href="https://msdn.microsoft.com/f75e5e6c-0a84-47ac-97db-5063327f7931">Public/Private Key Pairs</a>.
 
 The Certificate Enrollment Control passes public and private keys in byte arrays. The following certificate example shows a 1024-bit public key created by using the RSA signing algorithm, XCN_OID_RSA_RSA (1.2.840.113549.1.1.1).
 <pre class="syntax" xml:space="preserve"><code>
@@ -91,10 +91,10 @@ Public Key: UnusedBits = 0
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PublicKey</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509PublicKey</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PublicKey</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509PublicKey</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -107,25 +107,25 @@ The <b>IX509PublicKey</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa379041(v=VS.85).aspx">ComputeKeyIdentifier</a>
+<a href="https://msdn.microsoft.com/b2e471c7-1087-46a2-8938-5d3cea44f7f7">ComputeKeyIdentifier</a>
 </td>
 <td align="left" width="63%">
-Creates an identifier from a 160-bit SHA-1 hash of the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a>.
+Creates an identifier from a 160-bit SHA-1 hash of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa379045(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/b6db46b2-95f5-4ba9-829d-97bf83fd9806">Initialize</a>
 </td>
 <td align="left" width="63%">
-Initializes the object from a public key  algorithm <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) and from byte arrays that contain a public key and the associated parameters, if any.
+Initializes the object from a public key  algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and from byte arrays that contain a public key and the associated parameters, if any.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa379044(v=VS.85).aspx">InitializeFromEncodedPublicKeyInfo</a>
+<a href="https://msdn.microsoft.com/3e92d934-1ab7-4f09-a579-0dde4ef44c7f">InitializeFromEncodedPublicKeyInfo</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a byte array that contains a public key.
@@ -143,7 +143,7 @@ Initializes the object from a byte array that contains a public key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379040(v=VS.85).aspx">Algorithm</a>
+<a href="https://msdn.microsoft.com/6c34323e-669e-434c-946f-65fe53456a11">Algorithm</a>
 
 
 </td>
@@ -159,7 +159,7 @@ Retrieves an OID for the public key algorithm.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379042(v=VS.85).aspx">EncodedKey</a>
+<a href="https://msdn.microsoft.com/3573f4b6-ecfd-4540-bc43-c88943992fe2">EncodedKey</a>
 
 
 </td>
@@ -175,7 +175,7 @@ Retrieves a byte array that contains the public key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379043(v=VS.85).aspx">EncodedParameters</a>
+<a href="https://msdn.microsoft.com/f7c7bf0a-0b66-4676-9448-f74937823f90">EncodedParameters</a>
 
 
 </td>
@@ -191,7 +191,7 @@ Retrieves a byte array that contains the parameters associated with the public k
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379046(v=VS.85).aspx">Length</a>
+<a href="https://msdn.microsoft.com/c386fb27-84c5-4570-9cdb-202baa726b96">Length</a>
 
 
 </td>
@@ -212,19 +212,19 @@ Retrieves the length of the public key.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa387460(v=VS.85).aspx">Public/Private Key Pairs</a>
+<a href="https://msdn.microsoft.com/f75e5e6c-0a84-47ac-97db-5063327f7931">Public/Private Key Pairs</a>
  
 
  

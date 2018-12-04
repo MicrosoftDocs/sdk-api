@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_savechanges.htm
 tech.root: cossdk
 ms.assetid: ae984eee-4a8d-48e5-839c-fa115fd4aeea
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICatalogCollection interface [COM+],SaveChanges method, ICatalogCollection.SaveChanges, ICatalogCollection::SaveChanges, SaveChanges, SaveChanges method [COM+], SaveChanges method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_SaveChanges, comadmin/ICatalogCollection::SaveChanges, cos.icatalogcollection_savechanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comadmin.h
-: 
-- ICatalogCollection.SaveChanges
-: 
 ---
 
 # ICatalogCollection::SaveChanges
@@ -124,7 +116,7 @@ For a given item, <b>SaveChanges</b> writes all properties to the catalog at the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

@@ -4,10 +4,10 @@ title: IADsPathname::Set
 author: windows-sdk-content
 description: Sets up the Pathname object for parsing a directory path.
 old-location: adsi\iadspathname_set.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 1672c1b0-1008-41e7-8ca4-eefb559f523d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsPathname interface [ADSI],Set method, IADsPathname.Set, IADsPathname::Set, Set, Set method [ADSI], Set method [ADSI],IADsPathname interface, _ds_iadspathname_set, adsi.iadspathname__set, adsi.iadspathname_set, iads/IADsPathname::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsPathname.Set
-: 
 ---
 
 # IADsPathname::Set

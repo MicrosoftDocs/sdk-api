@@ -7,7 +7,7 @@ old-location: shell\ULongPtrToLong.htm
 tech.root: shell
 ms.assetid: 8f3f7cac-7dd4-4fe2-9415-082a24f14ba3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DWordPtrToLong, SIZETToLong, ULongPtrToLong, ULongPtrToLong function [Windows Shell], _shell_ULongPtrToLong, intsafe/ULongPtrToLong, shell.ULongPtrToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ULongPtrToLong
-: 
 ---
 
 # ULongPtrToLong function

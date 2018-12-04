@@ -7,7 +7,7 @@ old-location: imapi\ienumprogressitems.htm
 tech.root: imapi
 ms.assetid: c4238fbe-762a-492f-9eb5-d927e64436e1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumProgressItems, IEnumProgressItems interface [IMAPI], IEnumProgressItems interface [IMAPI],described, imapi.ienumprogressitems, imapi2fs/IEnumProgressItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

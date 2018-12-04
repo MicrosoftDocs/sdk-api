@@ -7,7 +7,7 @@ old-location: tsf\ienumtfuielements_next.htm
 tech.root: TSF
 ms.assetid: ed3cdae9-5626-4967-97b8-51c94ac23963
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumTfUIElements interface [Text Services Framework],Next method, IEnumTfUIElements.Next, IEnumTfUIElements::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfUIElements interface, msctf/IEnumTfUIElements::Next, tsf.ienumtfuielements_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- IEnumTfUIElements.Next
-: 
 ---
 
 # IEnumTfUIElements::Next

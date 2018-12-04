@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidEVR.put_SuppressEffects
-: 
 ---
 
 # IMSVidEVR::put_SuppressEffects

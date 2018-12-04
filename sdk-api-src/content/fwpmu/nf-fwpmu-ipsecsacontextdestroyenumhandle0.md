@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecSaContextDestroyEnumHandle0
-: 
 ---
 
 # IPsecSaContextDestroyEnumHandle0 function

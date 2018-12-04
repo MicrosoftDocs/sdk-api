@@ -7,7 +7,7 @@ old-location: com\bind_opts3.htm
 tech.root: com
 ms.assetid: 7e668313-229a-4d04-b8a2-d5072c87a5b5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPBIND_OPTS3, BIND_OPTS3, BIND_OPTS3 structure [COM], LPBIND_OPTS3, LPBIND_OPTS3 structure pointer [COM], _com_BIND_OPTS3, com.bind_opts3, objidl/BIND_OPTS3, objidl/LPBIND_OPTS3, tagBIND_OPTS3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Contains parameters used during a moniker-binding operation.
 
 ### -field hwnd
 
-A handle to the window that becomes the owner of the elevation UI, if applicable. If <b>hwnd</b> is <b>NULL</b>, COM will call the <a href="https://msdn.microsoft.com/en-us/library/ms646292(v=VS.85).aspx">GetActiveWindow</a> function to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a <b>BIND_OPTS3</b> structure. In this case, COM will try to use the window associated with the script thread.
+A handle to the window that becomes the owner of the elevation UI, if applicable. If <b>hwnd</b> is <b>NULL</b>, COM will call the <a href="_win32_GetActiveWindow_cpp">GetActiveWindow</a> function to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a <b>BIND_OPTS3</b> structure. In this case, COM will try to use the window associated with the script thread.
 
 
 
@@ -94,9 +94,9 @@ The <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">Ge
 
 #### - dwTrackFlags
 
-A moniker can use this value during link tracking. If the original persisted data that the moniker is referencing has been moved, the moniker can attempt to reestablish the link by searching for the original data though some adequate mechanism. This member provides additional information on how the link should be resolved. See the documentation of the <i>fFlags</i> parameter in <a href="https://msdn.microsoft.com/library/Bb774952(v=VS.85).aspx">IShellLink::Resolve</a>.
+A moniker can use this value during link tracking. If the original persisted data that the moniker is referencing has been moved, the moniker can attempt to reestablish the link by searching for the original data though some adequate mechanism. This member provides additional information on how the link should be resolved. See the documentation of the <i>fFlags</i> parameter in <a href="_win32_IShellLink_Resolve">IShellLink::Resolve</a>.
 
-COM's file moniker implementation uses the shell link mechanism to reestablish links and passes these flags to <a href="https://msdn.microsoft.com/library/Bb774952(v=VS.85).aspx">IShellLink::Resolve</a>. 
+COM's file moniker implementation uses the shell link mechanism to reestablish links and passes these flags to <a href="_win32_IShellLink_Resolve">IShellLink::Resolve</a>. 
 
 
 #### - grfFlags

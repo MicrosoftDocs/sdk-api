@@ -4,10 +4,10 @@ title: TraceQueryInformation function
 author: windows-sdk-content
 description: Queries event tracing session settings for the specified information class.
 old-location: etw\tracequeryinformation.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 3CC91F7C-7F82-4B3B-AA50-FE03CFEC0278
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: TraceQueryInformation, TraceQueryInformation function [ETW], etw.tracequeryinformation, evntrace/TraceQueryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TraceQueryInformation
-: 
 ---
 
 # TraceQueryInformation function

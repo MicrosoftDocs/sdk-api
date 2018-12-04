@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext2_resizetilepool.htm
 tech.root: direct3d11
 ms.assetid: 0F464025-7BF3-47C4-BD77-B4C312E53B07
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],ResizeTilePool method, ID3D11DeviceContext2.ResizeTilePool, ID3D11DeviceContext2::ResizeTilePool, ResizeTilePool, ResizeTilePool method [Direct3D 11], ResizeTilePool method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::ResizeTilePool, direct3d11.id3d11devicecontext2_resizetilepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11_2.h
-: 
-- ID3D11DeviceContext2.ResizeTilePool
-: 
 ---
 
 # ID3D11DeviceContext2::ResizeTilePool
@@ -69,14 +61,14 @@ Resizes a tile pool.
 
 ### -param pTilePool [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a> for the tile pool to resize.
+A pointer to an <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a> for the tile pool to resize.
 
 
 ### -param NewSizeInBytes [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT64</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
 
 The new size in bytes of the tile pool. The size must be a multiple of 64 KB or 0.
 
@@ -85,7 +77,7 @@ The new size in bytes of the tile pool. The size must be a multiple of 64 KB or 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following:
 
@@ -123,7 +115,7 @@ For more info about tiled resources, see <a href="https://msdn.microsoft.com/030
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a>
+<a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a>
  
 
  

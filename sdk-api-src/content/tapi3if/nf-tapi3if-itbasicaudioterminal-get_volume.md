@@ -4,10 +4,10 @@ title: ITBasicAudioTerminal::get_Volume
 author: windows-sdk-content
 description: The get_Volume method gets the volume.
 old-location: tapi3\itbasicaudioterminal_get_volume.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 2d3a64fa-41b6-44c4-a67e-08113e771cc7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],get_Volume method, ITBasicAudioTerminal.get_Volume, ITBasicAudioTerminal::get_Volume, _tapi3_itbasicaudioterminal_get_volume, get_Volume, get_Volume method [TAPI 2.2], get_Volume method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_get_volume, tapi3if/ITBasicAudioTerminal::get_Volume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITBasicAudioTerminal.get_Volume
-: 
 ---
 
 # ITBasicAudioTerminal::get_Volume

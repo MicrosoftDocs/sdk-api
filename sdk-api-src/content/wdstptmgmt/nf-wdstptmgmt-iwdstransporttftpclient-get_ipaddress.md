@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportTftpClient.get_IpAddress
-: 
 ---
 
 # IWdsTransportTftpClient::get_IpAddress

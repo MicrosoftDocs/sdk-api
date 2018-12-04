@@ -4,10 +4,10 @@ title: NcIsValidConnectionName function
 author: windows-sdk-content
 description: The NcIsValidConnectionName function verifies if the passed in connection name is valid.
 old-location: ics\ncisvalidconnectionname.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 08fe9ba2-3314-45ff-8aea-742dd5b15560
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NcIsValidConnectionName, NcIsValidConnectionName function [ICS/ICF], ics.ncisvalidconnectionname, netcon/NcIsValidConnectionName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NcIsValidConnectionName
-: 
 ---
 
 # NcIsValidConnectionName function

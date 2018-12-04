@@ -7,7 +7,7 @@ old-location: fs\idiskquotauser_getquotainformation.htm
 tech.root: fileio
 ms.assetid: d1640803-965a-473c-bf10-bee51d47fcfa
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: GetQuotaInformation, GetQuotaInformation method [Files], GetQuotaInformation method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaInformation method, IDiskQuotaUser.GetQuotaInformation, IDiskQuotaUser::GetQuotaInformation, _win32_idiskquotauser_getquotainformation, base.idiskquotauser_getquotainformation, dskquota/IDiskQuotaUser::GetQuotaInformation, fs.idiskquotauser_getquotainformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dskquota.h
-: 
-- IDiskQuotaUser.GetQuotaInformation
-: 
 ---
 
 # IDiskQuotaUser::GetQuotaInformation

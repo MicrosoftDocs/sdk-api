@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage2.htm
 tech.root: WMDM
 ms.assetid: 39afb282-7141-4eb5-93e9-a69bef495d80
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMDSPStorage2, IMDSPStorage2 interface [windows Media Device Manager], IMDSPStorage2 interface [windows Media Device Manager],described, IMDSPStorage2Interface, mswmdm/IMDSPStorage2, wmdm.imdspstorage2
 ms.prod: windows-hardware
 ms.technology: windows-devices

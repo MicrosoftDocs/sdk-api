@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VariantTimeToDosDateTime
-: 
 ---
 
 # VariantTimeToDosDateTime function
@@ -94,7 +88,7 @@ The function returns TRUE on success and FALSE otherwise.
 
 A variant time is stored as an 8-byte real value (<b>double</b>), representing a date between January 1, 100 and December 31, 9999, inclusive. The value 2.0 represents January 1, 1900; 3.0 represents January 2, 1900, and so on. Adding 1 to the value increments the date by a day. The fractional part of the value represents the time of day. Therefore, 2.5 represents noon on January 1, 1900; 3.25 represents 6:00 A.M. on January 2, 1900, and so on. Negative numbers represent the dates prior to December 30, 1899.
 
-For a description of the MS-DOS date and time formats, see <a href="https://msdn.microsoft.com/en-us/library/ms221238(v=VS.85).aspx">DosDateTimeToVariantTime</a>.
+For a description of the MS-DOS date and time formats, see <a href="61B029CB-8B60-400A-A6BB-A3F6839DC9D2">DosDateTimeToVariantTime</a>.
 
 The <b>VariantTimeToDosDateTime</b> function will accept invalid dates and try to fix them when resolving to a VARIANT time. For example, an invalid date such as 2/29/2001 will resolve to 3/1/2001. Only days are fixed, so invalid month values result in an error being returned. Days are checked to be between 1 and 31. Negative days and days greater than 31 results in an error. A day less than 31 but greater than the maximum day in that month has the day promoted to the appropriate day of the next month. A day equal to zero resolves as the last day of the previous month. For example, an invalid dates such as 2/0/2001 will resolve to 1/31/2001.
 

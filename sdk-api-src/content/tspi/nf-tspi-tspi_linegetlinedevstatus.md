@@ -4,10 +4,10 @@ title: TSPI_lineGetLineDevStatus function
 author: windows-sdk-content
 description: The TSPI_lineGetLineDevStatus function queries the specified open line device for its current status. The information returned is global to all addresses on the line.
 old-location: tspi\tspi_linegetlinedevstatus.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 14f7944b-e967-4967-9fb2-e7aeb78bb045
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: TSPI_lineGetLineDevStatus, TSPI_lineGetLineDevStatus function [TAPI 2.2], _tspi_tspi_linegetlinedevstatus, tspi.tspi_linegetlinedevstatus, tspi/TSPI_lineGetLineDevStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TSPI_lineGetLineDevStatus
-: 
 ---
 
 # TSPI_lineGetLineDevStatus function

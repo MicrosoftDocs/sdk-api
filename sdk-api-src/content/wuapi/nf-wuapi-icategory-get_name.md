@@ -4,10 +4,10 @@ title: ICategory::get_Name
 author: windows-sdk-content
 description: Gets the localized name of the category.
 old-location: wua\icategory_name.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: d0975b3f-88b4-4f20-ae1d-e76a8bb23fa1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICategory interface [Windows Update Agent],Name property, ICategory.Name, ICategory.get_Name, ICategory::Name, ICategory::get_Name, Name property [Windows Update Agent], Name property [Windows Update Agent],ICategory interface, get_Name, wua.icategory_name, wuapi/ICategory::Name, wuapi/ICategory::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- ICategory.get_Name
-: 
 ---
 
 # ICategory::get_Name

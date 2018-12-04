@@ -4,10 +4,10 @@ title: IGPMStatusMessage::OperationCode
 author: windows-sdk-content
 description: Returns a code related to the GPMC operation.
 old-location: gpmc\igpmstatusmessage_operationcode.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: f99dc90a-fabe-40fb-8289-36501a68b11d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GPMStatusMessage class [GPMC],OperationCode method, IGPMStatusMessage interface [GPMC],OperationCode method, IGPMStatusMessage.OperationCode, IGPMStatusMessage::OperationCode, OperationCode, OperationCode method [GPMC], OperationCode method [GPMC],GPMStatusMessage class, OperationCode method [GPMC],IGPMStatusMessage interface, _win32_igpmstatusmessage_operationcode, gpmc.igpmstatusmessage_operationcode, gpmgmt/IGPMStatusMessage::OperationCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMStatusMessage.OperationCode
-: 
 ---
 
 # IGPMStatusMessage::OperationCode

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectiontype_getmembertypebyindex.htm
 tech.root: direct3d12
 ms.assetid: 59940F25-D394-4DA6-8493-B3B04C68B1CC
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetMemberTypeByIndex, GetMemberTypeByIndex method, GetMemberTypeByIndex method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeByIndex method, ID3D12ShaderReflectionType.GetMemberTypeByIndex, ID3D12ShaderReflectionType::GetMemberTypeByIndex, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByIndex, direct3d12.id3d12shaderreflectiontype_getmembertypebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d12shader.h
-: 
-- ID3D12ShaderReflectionType.GetMemberTypeByIndex
-: 
 ---
 
 # ID3D12ShaderReflectionType::GetMemberTypeByIndex

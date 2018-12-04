@@ -4,10 +4,10 @@ title: ListView_Scroll macro
 author: windows-sdk-content
 description: Scrolls the content of a list-view control. You can use this macro or send the LVM_SCROLL message explicitly.
 old-location: controls\ListView_Scroll.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_scroll.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ListView_Scroll, ListView_Scroll macro [Windows Controls], _win32_ListView_Scroll, _win32_ListView_Scroll_cpp, commctrl/ListView_Scroll, controls.ListView_Scroll, controls._win32_ListView_Scroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- ListView_Scroll
-: 
 ---
 
 # ListView_Scroll macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Scrolls the content of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761151(v=VS.85).aspx">LVM_SCROLL</a> message explicitly. 
+Scrolls the content of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/4bf6b74e-8fea-48ca-a151-8fd649fc50f8">LVM_SCROLL</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +60,7 @@ Scrolls the content of a list-view control. You can use this macro or send the <
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

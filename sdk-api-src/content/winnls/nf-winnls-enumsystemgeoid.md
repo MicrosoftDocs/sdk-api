@@ -7,7 +7,7 @@ old-location: intl\enumsystemgeoid.htm
 tech.root: Intl
 ms.assetid: b25d9eb3-baaa-4508-b7d6-e2bccc3c2b77
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EnumSystemGeoID, EnumSystemGeoID function [Internationalization for Windows Applications], _win32_EnumSystemGeoID, intl.enumsystemgeoid, winnls/EnumSystemGeoID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EnumSystemGeoID
-: 
 ---
 
 # EnumSystemGeoID function

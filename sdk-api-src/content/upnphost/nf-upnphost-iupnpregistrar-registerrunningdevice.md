@@ -4,10 +4,10 @@ title: IUPnPRegistrar::RegisterRunningDevice
 author: windows-sdk-content
 description: The RegisterRunningDevice method registers a running device with the device host.
 old-location: upnp\iupnpregistrar_registerrunningdevice.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 4b494b7e-4fcc-4de0-bdcc-96c68a5e0688
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],RegisterRunningDevice method, IUPnPRegistrar.RegisterRunningDevice, IUPnPRegistrar::RegisterRunningDevice, RegisterRunningDevice, RegisterRunningDevice method [UPnP APIs], RegisterRunningDevice method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_registerrunningdevice, upnp.iupnpregistrar_registerrunningdevice, upnphost/IUPnPRegistrar::RegisterRunningDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnphost.h
-: 
-- IUPnPRegistrar.RegisterRunningDevice
-: 
 ---
 
 # IUPnPRegistrar::RegisterRunningDevice

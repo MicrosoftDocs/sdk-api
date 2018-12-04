@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetViewName.htm
 tech.root: WinAuto
 ms.assetid: cad994dc-ee7c-41a3-a878-75a79225b5f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetViewName, GetViewName method [Windows Accessibility], GetViewName method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],GetViewName method, IUIAutomationMultipleViewPattern.GetViewName, IUIAutomationMultipleViewPattern::GetViewName, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetViewName, uiauto_IUIAutomationMultipleViewPattern_GetViewName, uiautomationclient/IUIAutomationMultipleViewPattern::GetViewName, winauto.uiauto_IUIAutomationMultipleViewPattern_GetViewName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationMultipleViewPattern.GetViewName
-: 
 ---
 
 # IUIAutomationMultipleViewPattern::GetViewName

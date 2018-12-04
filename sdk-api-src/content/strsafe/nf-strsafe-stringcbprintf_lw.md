@@ -7,7 +7,7 @@ old-location: menurc\stringcbprintf_l.htm
 tech.root: menurc
 ms.assetid: d4576e63-32b0-413d-9b8c-ae16e6e15990
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: StringCbPrintf_l, StringCbPrintf_l function [Menus and Other Resources], StringCbPrintf_lA, StringCbPrintf_lW, menurc.stringcbprintf_l, strsafe/StringCbPrintf_l, strsafe/StringCbPrintf_lA, strsafe/StringCbPrintf_lW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StringCbPrintf_lW
-: 
 ---
 
 # StringCbPrintf_lW function
@@ -60,7 +54,7 @@ req.redist:
 
 Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/en-us/library/ms647510(v=VS.85).aspx">StringCbPrintf</a> but includes a parameter for locale information.
+<b>StringCbPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/224c8840-06c6-4144-8f23-8705ac8ef887">StringCbPrintf</a> but includes a parameter for locale information.
 
 
 ## -parameters

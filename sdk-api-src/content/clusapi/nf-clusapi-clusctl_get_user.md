@@ -4,10 +4,10 @@ title: CLUSCTL_GET_USER macro
 author: windows-sdk-content
 description: Retrieves the user bit from a control code. For more information, see Control Code Architecture.
 old-location: mscs\clusctl_get_user.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: E96CD23F-D1A7-46FC-820C-D32A23E8E008
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CLUSCTL_GET_USER, CLUSCTL_GET_USER macro [Failover Cluster], clusapi/CLUSCTL_GET_USER, mscs.clusctl_get_user
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- clusapi.h
-: 
-- CLUSCTL_GET_USER
-: 
 ---
 
 # CLUSCTL_GET_USER macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the user bit from a control code. For more information, see  <a href="https://msdn.microsoft.com/en-us/library/Aa369308(v=VS.85).aspx">Control Code Architecture</a>.
+Retrieves the user bit from a control code. For more information, see  <a href="https://msdn.microsoft.com/d107f743-8ce8-4c0c-b7a2-24a70ffbc0f3">Control Code Architecture</a>.
 
 
 ## -parameters

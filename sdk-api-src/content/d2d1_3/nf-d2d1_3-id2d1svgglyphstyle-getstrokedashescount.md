@@ -4,10 +4,10 @@ title: ID2D1SvgGlyphStyle::GetStrokeDashesCount
 author: windows-sdk-content
 description: Returns the number of dashes in the dash array.
 old-location: direct2d\id2d1svgglyphstyle_getstrokedashescount.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 99CCB20B-B7E2-4D53-BB0C-A1996874F0B2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetStrokeDashesCount, GetStrokeDashesCount method [Direct2D], GetStrokeDashesCount method [Direct2D],ID2D1SvgGlyphStyle interface, ID2D1SvgGlyphStyle interface [Direct2D],GetStrokeDashesCount method, ID2D1SvgGlyphStyle.GetStrokeDashesCount, ID2D1SvgGlyphStyle::GetStrokeDashesCount, d2d1_3/ID2D1SvgGlyphStyle::GetStrokeDashesCount, direct2d.id2d1svgglyphstyle_getstrokedashescount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_3.h
-: 
-- ID2D1SvgGlyphStyle.GetStrokeDashesCount
-: 
 ---
 
 # ID2D1SvgGlyphStyle::GetStrokeDashesCount

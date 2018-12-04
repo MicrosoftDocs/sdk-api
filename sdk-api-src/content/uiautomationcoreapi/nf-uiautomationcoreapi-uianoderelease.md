@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaNodeReleaseMemManMeth.htm
 tech.root: WinAuto
 ms.assetid: dce9fd8a-b307-46b6-9e1d-ee31904e383f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: UiaNodeRelease, UiaNodeRelease function [Windows Accessibility], uiauto.uiauto_UiaNodeReleaseMemManMeth, uiauto_UiaNodeReleaseMemManMeth, uiautomationcoreapi/UiaNodeRelease, winauto.uiauto_UiaNodeReleaseMemManMeth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UiaNodeRelease
-: 
 ---
 
 # UiaNodeRelease function

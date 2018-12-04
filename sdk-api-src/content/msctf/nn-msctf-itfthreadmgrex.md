@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgrex.htm
 tech.root: TSF
 ms.assetid: c230c363-3c62-459f-9350-d96db916f29c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfThreadMgrEx, ITfThreadMgrEx interface [Text Services Framework], ITfThreadMgrEx interface [Text Services Framework],described, _tsf_itfthreadmgrex_ref, msctf/ITfThreadMgrEx, tsf.itfthreadmgrex
 ms.prod: windows-hardware
 ms.technology: windows-devices

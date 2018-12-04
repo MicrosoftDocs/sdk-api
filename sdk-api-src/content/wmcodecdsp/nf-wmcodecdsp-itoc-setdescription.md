@@ -7,7 +7,7 @@ old-location: mf\itoc_setdescription.htm
 tech.root: medfound
 ms.assetid: 718eb8bd-fdf9-434d-b859-3a38cb8fabee
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IToc interface [Media Foundation],SetDescription method, IToc.SetDescription, IToc::SetDescription, SetDescription, SetDescription method [Media Foundation], SetDescription method [Media Foundation],IToc interface, codecapi.itoc_setdescription, mf.itoc_setdescription, wmcodecdsp/IToc::SetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmcodecdsp.h
-: 
-- IToc.SetDescription
-: 
 ---
 
 # IToc::SetDescription

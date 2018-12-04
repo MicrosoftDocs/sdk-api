@@ -4,10 +4,10 @@ title: SCardListInterfacesW function
 author: windows-sdk-content
 description: Provides a list of interfaces supplied by a given card.
 old-location: security\scardlistinterfaces.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 2460c133-3ad4-4f73-9f55-56fc3bab9cdb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SCardListInterfaces, SCardListInterfaces function [Security], SCardListInterfacesA, SCardListInterfacesW, _smart_scardlistinterfaces, security.scardlistinterfaces, winscard/SCardListInterfaces, winscard/SCardListInterfacesA, winscard/SCardListInterfacesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SCardListInterfacesW
-: 
 ---
 
 # SCardListInterfacesW function
@@ -119,7 +113,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

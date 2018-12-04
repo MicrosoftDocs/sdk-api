@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteGlyphRunAnalysis_GetAlphaTextureBounds.htm
 tech.root: DirectWrite
 ms.assetid: 9058edb7-23b2-418a-abcc-3ee827a79144
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetAlphaTextureBounds, GetAlphaTextureBounds method [Direct Write], GetAlphaTextureBounds method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],GetAlphaTextureBounds method, IDWriteGlyphRunAnalysis.GetAlphaTextureBounds, IDWriteGlyphRunAnalysis::GetAlphaTextureBounds, directwrite.IDWriteGlyphRunAnalysis_GetAlphaTextureBounds, dwrite/IDWriteGlyphRunAnalysis::GetAlphaTextureBounds
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteGlyphRunAnalysis.GetAlphaTextureBounds
-: 
 ---
 
 # IDWriteGlyphRunAnalysis::GetAlphaTextureBounds

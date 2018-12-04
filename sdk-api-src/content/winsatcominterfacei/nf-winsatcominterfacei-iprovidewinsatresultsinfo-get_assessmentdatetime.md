@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsatcominterfacei.h
-: 
-- IProvideWinSATResultsInfo.get_AssessmentDateTime
-: 
 ---
 
 # IProvideWinSATResultsInfo::get_AssessmentDateTime

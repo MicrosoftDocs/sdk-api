@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidAudioRendererDevices.get_Count
-: 
 ---
 
 # IMSVidAudioRendererDevices::get_Count

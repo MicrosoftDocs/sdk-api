@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatewriter.htm
 tech.root: wmformat
 ms.assetid: 26d42213-40a1-4e2c-805b-c0803ee015b4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WMCreateWriter, WMCreateWriter function [windows Media Format], wmformat.wmcreatewriter, wmsdkidl/WMCreateWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WMCreateWriter
-: 
 ---
 
 # WMCreateWriter function

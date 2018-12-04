@@ -4,10 +4,10 @@ title: TpInitializeCallbackEnviron function
 author: windows-sdk-content
 description: Initializes a callback environment for the thread pool.
 old-location: base\tpinitializecallbackenviron.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 4602CB19-D8C0-460E-A853-8DDECE643A76
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: TpInitializeCallbackEnviron, TpInitializeCallbackEnviron function, base.tpinitializecallbackenviron, winnt/TpInitializeCallbackEnviron
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TpInitializeCallbackEnviron
-: 
 ---
 
 # TpInitializeCallbackEnviron function

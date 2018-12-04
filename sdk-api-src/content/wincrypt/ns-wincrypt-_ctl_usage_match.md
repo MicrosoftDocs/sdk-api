@@ -4,10 +4,10 @@ title: "_CTL_USAGE_MATCH"
 author: windows-sdk-content
 description: Provides parameters for finding certificate trust lists (CTL) used to build a certificate chain.
 old-location: security\ctl_usage_match.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 0b1146b7-a6fe-4cd0-aff7-b49ec6f561a0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCTL_USAGE_MATCH, CTL_USAGE_MATCH, CTL_USAGE_MATCH structure [Security], PCTL_USAGE_MATCH, PCTL_USAGE_MATCH structure pointer [Security], USAGE_MATCH_TYPE_AND, USAGE_MATCH_TYPE_OR, _CTL_USAGE_MATCH, _crypto2_ctl_usage_match, security.ctl_usage_match, wincrypt/CTL_USAGE_MATCH, wincrypt/PCTL_USAGE_MATCH"
 ms.prod: windows-hardware
 ms.technology: windows-devices

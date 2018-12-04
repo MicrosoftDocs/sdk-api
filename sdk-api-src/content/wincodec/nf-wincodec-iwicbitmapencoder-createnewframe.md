@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapencoder_createnewframe.htm
 tech.root: wic
 ms.assetid: 1c48f603-e7be-4b0c-a262-0dd01308e868
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateNewFrame, CreateNewFrame method [Windows Imaging Component], CreateNewFrame method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],CreateNewFrame method, IWICBitmapEncoder.CreateNewFrame, IWICBitmapEncoder::CreateNewFrame, _wic_codec_iwicbitmapencoder_createnewframe, wic._wic_codec_iwicbitmapencoder_createnewframe, wincodec/IWICBitmapEncoder::CreateNewFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodec.h
-: 
-- IWICBitmapEncoder.CreateNewFrame
-: 
 ---
 
 # IWICBitmapEncoder::CreateNewFrame
@@ -75,7 +67,7 @@ A pointer that receives a pointer to the new instance of an <a href="https://msd
 
 ### -param ppIEncoderOptions [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx">IPropertyBag2</a>**</b>
+Type: <b><a href="_inet_IPropertyBag2_Interface_cpp">IPropertyBag2</a>**</b>
 
 Optional. Receives the named properties to use for subsequent frame initialization. See Remarks.
 
@@ -95,9 +87,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The parameter <i>ppIEncoderOptions</i> can be used to receive an <a href="https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx">IPropertyBag2</a> that can then be used to specify encoder options. This is done by passing a pointer to a <b>NULL</b> IPropertyBag2 pointer in <i>ppIEncoderOptions</i>. The returned IPropertyBag2 is initialized with all encoder options that are available for the given format, at their default values. To specify non-default encoding behavior, set the needed encoder options on the IPropertyBag2 and pass it to <a href="https://msdn.microsoft.com/ec215e32-b4bd-469a-903d-f5b546185183">IWICBitmapFrameEncode::Initialize</a>.
+The parameter <i>ppIEncoderOptions</i> can be used to receive an <a href="_inet_IPropertyBag2_Interface_cpp">IPropertyBag2</a> that can then be used to specify encoder options. This is done by passing a pointer to a <b>NULL</b> IPropertyBag2 pointer in <i>ppIEncoderOptions</i>. The returned IPropertyBag2 is initialized with all encoder options that are available for the given format, at their default values. To specify non-default encoding behavior, set the needed encoder options on the IPropertyBag2 and pass it to <a href="https://msdn.microsoft.com/ec215e32-b4bd-469a-903d-f5b546185183">IWICBitmapFrameEncode::Initialize</a>.
 
-<div class="alert"><b>Note</b>  Do not pass in a pointer to an initialized <a href="https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx">IPropertyBag2</a>. The pointer will be overwritten, and the original IPropertyBag2 will not be freed.</div>
+<div class="alert"><b>Note</b>  Do not pass in a pointer to an initialized <a href="_inet_IPropertyBag2_Interface_cpp">IPropertyBag2</a>. The pointer will be overwritten, and the original IPropertyBag2 will not be freed.</div>
 <div> </div>
 Otherwise, you can pass <b>NULL</b> in <i>ppIEncoderOptions</i> if you do not intend to specify encoder options.
 
@@ -118,7 +110,7 @@ For formats that support encoding multiple frames (for example, TIFF, JPEG-XR), 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx">IPropertyBag2</a>
+<a href="_inet_IPropertyBag2_Interface_cpp">IPropertyBag2</a>
 
 
 

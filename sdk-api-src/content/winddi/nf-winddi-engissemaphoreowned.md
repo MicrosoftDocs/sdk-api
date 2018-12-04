@@ -7,7 +7,7 @@ old-location: display\engissemaphoreowned.htm
 tech.root: display
 ms.assetid: a04f6f46-f075-40d1-8b56-d37a80fb3571
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EngIsSemaphoreOwned, EngIsSemaphoreOwned function [Display Devices], display.engissemaphoreowned, gdifncs_9bf4c866-a563-4bc5-99d6-0189f10f0742.xml, winddi/EngIsSemaphoreOwned
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngIsSemaphoreOwned
-: 
 ---
 
 # EngIsSemaphoreOwned function

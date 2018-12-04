@@ -7,7 +7,7 @@ old-location: gdi\enumfontfamilies.htm
 tech.root: gdi
 ms.assetid: 4960afbb-eeba-4030-ac89-d1ff077bb2f3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EnumFontFamilies, EnumFontFamilies function [Windows GDI], EnumFontFamiliesA, EnumFontFamiliesW, _win32_EnumFontFamilies, gdi.enumfontfamilies, wingdi/EnumFontFamilies, wingdi/EnumFontFamiliesA, wingdi/EnumFontFamiliesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EnumFontFamiliesW
-: 
 ---
 
 # EnumFontFamiliesW function

@@ -7,7 +7,7 @@ old-location: dshow\eavenccommonstreamendhandling.htm
 tech.root: DirectShow
 ms.assetid: 406dbfe6-d5c8-44b1-9052-88df40a6a522
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: codecapi/eAVEncCommonStreamEndHandling, codecapi/eAVEncCommonStreamEndHandling_DiscardPartial, codecapi/eAVEncCommonStreamEndHandling_EnsureComplete, dshow.eavenccommonstreamendhandling, eAVEncCommonStreamEndHandling, eAVEncCommonStreamEndHandling enumeration [DirectShow], eAVEncCommonStreamEndHandlingEnumeration, eAVEncCommonStreamEndHandling_DiscardPartial, eAVEncCommonStreamEndHandling_EnsureComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IISDB_SDTT.GetRecordDownloadLevel
-: 
 ---
 
 # IISDB_SDTT::GetRecordDownloadLevel
@@ -98,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694352(v=VS.85).aspx">IISDB_SDTT::GetCountOfRecords</a>
+<a href="iisdb_sdtt::getcountofrecords">IISDB_SDTT::GetCountOfRecords</a>
  
 
  

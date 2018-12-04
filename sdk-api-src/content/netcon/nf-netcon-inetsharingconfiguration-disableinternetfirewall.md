@@ -4,10 +4,10 @@ title: INetSharingConfiguration::DisableInternetFirewall
 author: windows-sdk-content
 description: The DisableInternetFirewall method disables Internet Connection Firewall on this connection.
 old-location: ics\inetsharingconfiguration_disableinternetfirewall.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: f0157376-7533-4155-801c-3db82290655d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DisableInternetFirewall, DisableInternetFirewall method [ICS/ICF], DisableInternetFirewall method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],DisableInternetFirewall method, INetSharingConfiguration.DisableInternetFirewall, INetSharingConfiguration::DisableInternetFirewall, _ics_inetsharingconfiguration_disableinternetfirewall, ics.inetsharingconfiguration_disableinternetfirewall, netcon/INetSharingConfiguration::DisableInternetFirewall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netcon.h
-: 
-- INetSharingConfiguration.DisableInternetFirewall
-: 
 ---
 
 # INetSharingConfiguration::DisableInternetFirewall

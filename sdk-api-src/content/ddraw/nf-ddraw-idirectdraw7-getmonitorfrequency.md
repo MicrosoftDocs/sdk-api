@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ddraw.h
-: 
-- IDirectDraw7.GetMonitorFrequency
-: 
 ---
 
 # IDirectDraw7::GetMonitorFrequency

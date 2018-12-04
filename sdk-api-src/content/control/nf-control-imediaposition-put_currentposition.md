@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_put_currentposition.htm
 tech.root: DirectShow
 ms.assetid: 6af44ce9-91d3-4329-835a-a1249924d672
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_CurrentPosition method, IMediaPosition.put_CurrentPosition, IMediaPosition::put_CurrentPosition, IMediaPositionput_CurrentPosition, control/IMediaPosition::put_CurrentPosition, dshow.imediaposition_put_currentposition, put_CurrentPosition, put_CurrentPosition method [DirectShow], put_CurrentPosition method [DirectShow],IMediaPosition interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- control.h
-: 
-- IMediaPosition.put_CurrentPosition
-: 
 ---
 
 # IMediaPosition::put_CurrentPosition
@@ -144,7 +136,7 @@ The position specified by the <i>llTime</i> parameter is relative to the total d
 
 If the filter graph is running, the Filter Graph Manager pauses the graph, issues the seek command, and then runs the graph again. If the method returns while the graph is still transitioning to a running state, the return value is S_FALSE.
 
-If a filter is paused when it receives a seek command, it must flush existing data before it introduces the data from the new position. See <a href="https://msdn.microsoft.com/en-us/library/Dd390419(v=VS.85).aspx">IPin::BeginFlush</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd390424(v=VS.85).aspx">IPin::EndFlush</a>.
+If a filter is paused when it receives a seek command, it must flush existing data before it introduces the data from the new position. See <a href="https://msdn.microsoft.com/15563666-5f35-46a0-ad12-215979c9d9c1">IPin::BeginFlush</a> and <a href="https://msdn.microsoft.com/42b201b6-1fbf-4a01-aed7-23a9e66c11ea">IPin::EndFlush</a>.
 
 
 
@@ -154,11 +146,11 @@ If a filter is paused when it receives a seek command, it must flush existing da
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406977(v=VS.85).aspx">IMediaPosition Interface</a>
+<a href="https://msdn.microsoft.com/325dd9a4-80ca-43e3-9ff8-473df1b833e9">IMediaPosition Interface</a>
  
 
  

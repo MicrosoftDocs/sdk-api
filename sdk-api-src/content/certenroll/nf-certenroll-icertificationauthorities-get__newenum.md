@@ -4,10 +4,10 @@ title: ICertificationAuthorities::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icertificationauthorities__newenum.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 8e83859c-8f61-4864-8b4d-5056c604d219
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICertificationAuthorities interface [Security],_NewEnum property, ICertificationAuthorities._NewEnum, ICertificationAuthorities.get__NewEnum, ICertificationAuthorities::_NewEnum, ICertificationAuthorities::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::_NewEnum, certenroll/ICertificationAuthorities::get__NewEnum, get__NewEnum, security.icertificationauthorities__newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICertificationAuthorities.get__NewEnum
-: 
 ---
 
 # ICertificationAuthorities::get__NewEnum
@@ -72,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338611(v=VS.85).aspx">ICertificationAuthorities</a>
+<a href="https://msdn.microsoft.com/8dad280a-1fe7-4a4b-9392-eee3aa9bcde9">ICertificationAuthorities</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338621(v=VS.85).aspx">ICertificationAuthority</a>
+<a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a>
  
 
  

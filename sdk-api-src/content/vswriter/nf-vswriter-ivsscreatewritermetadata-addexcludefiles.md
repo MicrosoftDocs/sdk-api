@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata::AddExcludeFiles
 author: windows-sdk-content
 description: The AddExcludeFiles method is used to explicitly exclude a file set (a specified file or files) that might otherwise be implicitly included when a component of the current writer is backed up.
 old-location: base\ivsscreatewritermetadata_addexcludefiles.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 705bb666-9080-4b42-af58-9cc21fbf88cf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method [VSS], AddExcludeFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddExcludeFiles method, IVssCreateWriterMetadata.AddExcludeFiles, IVssCreateWriterMetadata::AddExcludeFiles, _win32_ivsscreatewritermetadata_addexcludefiles, base.ivsscreatewritermetadata_addexcludefiles, vswriter/IVssCreateWriterMetadata::AddExcludeFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- IVssCreateWriterMetadata.AddExcludeFiles
-: 
 ---
 
 # IVssCreateWriterMetadata::AddExcludeFiles
@@ -192,7 +184,7 @@ For example, it is often convenient to define a component to include all files i
 <b>AddExcludeFiles</b> to explicitly remove some files (for instance, temporary files) from a backup.
 
 For more information on excluding files, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384996(v=VS.85).aspx">Exclude File List Specification</a>.
+<a href="writer_metadata_document_contents.htm">Exclude File List Specification</a>.
 
 
 

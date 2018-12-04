@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionskewtransform.htm
 tech.root: directcomp
 ms.assetid: c1dbc11f-b8e3-487e-84f0-517ebaf65de8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDCompositionSkewTransform, IDCompositionSkewTransform interface [DirectComposition], IDCompositionSkewTransform interface [DirectComposition],described, dcomp/IDCompositionSkewTransform, directcomp.idcompositionskewtransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ The <b>IDCompositionSkewTransform</b> interface has these methods.
 
 A skew transform represents the following 3-by-3 matrix: 
 
-<img alt="Three-by-three skew matrix" src="./images/skew_transform_3x3matrix.png"/>
+<img alt="Three-by-three skew matrix" src="images/skew_transform_3x3matrix.png"/>
 
 The effect is to slant the coordinate system along the x-axis and y-axis such that a rectangle becomes a parallelogram, and to apply the corresponding translation such that the center point does not move.
 

@@ -4,10 +4,10 @@ title: CloseThreadpoolCleanupGroupMembers function
 author: windows-sdk-content
 description: Releases the members of the specified cleanup group, waits for all callback functions to complete, and optionally cancels any outstanding callback functions.
 old-location: base\closethreadpoolcleanupgroupmembers.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 9c78db13-d8dd-4eda-83d9-c9dbbfc6e822
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: CloseThreadpoolCleanupGroupMembers, CloseThreadpoolCleanupGroupMembers function, base.closethreadpoolcleanupgroupmembers, threadpoolapiset/CloseThreadpoolCleanupGroupMembers, winbase/CloseThreadpoolCleanupGroupMembers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CloseThreadpoolCleanupGroupMembers
-: 
 ---
 
 # CloseThreadpoolCleanupGroupMembers function

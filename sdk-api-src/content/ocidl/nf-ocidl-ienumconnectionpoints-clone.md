@@ -7,7 +7,7 @@ old-location: com\ienumconnectionpoints_clone.htm
 tech.root: com
 ms.assetid: 47dfd670-57f7-4fb1-bd61-65dd4a3bc6c2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumConnectionPoints interface, IEnumConnectionPoints interface [COM],Clone method, IEnumConnectionPoints.Clone, IEnumConnectionPoints::Clone, _com_ienumconnectionpoints_clone, com.ienumconnectionpoints_clone, ocidl/IEnumConnectionPoints::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ocidl.h
-: 
-- IEnumConnectionPoints.Clone
-: 
 ---
 
 # IEnumConnectionPoints::Clone

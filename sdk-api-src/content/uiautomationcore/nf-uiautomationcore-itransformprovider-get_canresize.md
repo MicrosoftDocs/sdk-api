@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider_CanResize.htm
 tech.root: WinAuto
 ms.assetid: fd7cb359-6e71-44c2-b1c0-4fd7e210244e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CanResize property [Windows Accessibility], CanResize property [Windows Accessibility],ITransformProvider interface, ITransformProvider interface [Windows Accessibility],CanResize property, ITransformProvider.CanResize, ITransformProvider.get_CanResize, ITransformProvider::CanResize, ITransformProvider::get_CanResize, get_CanResize, uiauto.uiauto_ITransformProvider_CanResize, uiauto_ITransformProvider_CanResize, uiautomationcore/ITransformProvider::CanResize, uiautomationcore/ITransformProvider::get_CanResize, winauto.uiauto_ITransformProvider_CanResize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationcore.h
-: 
-- ITransformProvider.get_CanResize
-: 
 ---
 
 # ITransformProvider::get_CanResize

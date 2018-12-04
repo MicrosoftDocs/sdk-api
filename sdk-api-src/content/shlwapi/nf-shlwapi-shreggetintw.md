@@ -7,7 +7,7 @@ old-location: shell\SHRegGetInt.htm
 tech.root: shell
 ms.assetid: 027e3470-46be-4d37-b815-e1fd550d0c60
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SHRegGetIntW, SHRegGetIntW function [Windows Shell], _shell_SHRegGetInt, shell.SHRegGetInt, shlwapi/SHRegGetIntW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHRegGetIntW
-: 
 ---
 
 # SHRegGetIntW function

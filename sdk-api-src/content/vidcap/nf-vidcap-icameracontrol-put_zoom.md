@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_zoom.htm
 tech.root: DirectShow
 ms.assetid: e6bb0206-04c4-4d93-b267-2881e58c0a14
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Zoom method, ICameraControl.put_Zoom, ICameraControl::put_Zoom, ICameraControlput_Zoom, dshow.icameracontrol_put_zoom, put_Zoom, put_Zoom method [DirectShow], put_Zoom method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Zoom
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vidcap.h
-: 
-- ICameraControl.put_Zoom
-: 
 ---
 
 # ICameraControl::put_Zoom

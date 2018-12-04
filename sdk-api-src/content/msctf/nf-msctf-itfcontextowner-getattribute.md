@@ -7,7 +7,7 @@ old-location: tsf\itfcontextowner_getattribute.htm
 tech.root: TSF
 ms.assetid: a249d529-fdb1-4f5f-84ae-f26dae917609
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetAttribute, GetAttribute method [Text Services Framework], GetAttribute method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetAttribute method, ITfContextOwner.GetAttribute, ITfContextOwner::GetAttribute, _tsf_itfcontextowner_getattribute_ref, msctf/ITfContextOwner::GetAttribute, tsf.itfcontextowner_getattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfContextOwner.GetAttribute
-: 
 ---
 
 # ITfContextOwner::GetAttribute

@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertSetCRLContextProperty before setting the CRL's property.
 old-location: security\certstoreprovsetcrlpropertycallback.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 98ad9b24-8d7d-4fbe-8fd8-089f1ddfbff0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertStoreProvSetCRLPropertyCallback, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback function [Security], _crypto2_certstoreprovsetcrlpropertycallback, security.certstoreprovsetcrlpropertycallback, wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,7 +108,7 @@ Returns <b>TRUE</b> if it is okay to set the property.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

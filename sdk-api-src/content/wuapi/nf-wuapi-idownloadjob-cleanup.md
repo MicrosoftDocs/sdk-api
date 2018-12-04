@@ -4,10 +4,10 @@ title: IDownloadJob::CleanUp
 author: windows-sdk-content
 description: Waits for an asynchronous operation to be completed and releases all callbacks.
 old-location: wua\idownloadjob_cleanup.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 0910acbc-81d7-44ae-bae1-26c82b33d29b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CleanUp, CleanUp method [Windows Update Agent], CleanUp method [Windows Update Agent],IDownloadJob interface, IDownloadJob interface [Windows Update Agent],CleanUp method, IDownloadJob.CleanUp, IDownloadJob::CleanUp, wua.idownloadjob_cleanup, wuapi/IDownloadJob::CleanUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IDownloadJob.CleanUp
-: 
 ---
 
 # IDownloadJob::CleanUp

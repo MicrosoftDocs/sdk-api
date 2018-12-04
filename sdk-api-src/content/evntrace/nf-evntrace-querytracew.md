@@ -4,10 +4,10 @@ title: QueryTraceW function
 author: windows-sdk-content
 description: The QueryTrace function retrieves the property settings and session statistics for the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\querytrace.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 8ad0f4f6-902c-490e-b26e-7499dd99fc95
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: QueryTrace, QueryTrace function [ETW], QueryTraceA, QueryTraceW, _evt_querytrace, base.querytrace, etw.querytrace, evntrace/QueryTrace, evntrace/QueryTraceA, evntrace/QueryTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- QueryTraceW
-: 
 ---
 
 # QueryTraceW function

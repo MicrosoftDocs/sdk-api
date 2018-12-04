@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sdoias.h
-: 
-- ISdoMachine.GetServiceSDO
-: 
 ---
 
 # ISdoMachine::GetServiceSDO
@@ -77,7 +69,7 @@ Specifies a value from the <a href="https://msdn.microsoft.com/1eec69f9-b82e-48e
 ### -param bstrServiceName [in]
 
 Specifies a 
-      <a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> that contains the service 
+      <a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> that contains the service 
       name. This parameter is one of the following values.
 
 
@@ -98,10 +90,10 @@ Remote Access Server
 
 ### -param ppServiceSDO [out]
 
-Pointer to a pointer that points to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface 
-      pointer. Use the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of this 
+Pointer to a pointer that points to an <a href="_com_iunknown">IUnknown</a> interface 
+      pointer. Use the <a href="_com_iunknown_queryinterface">QueryInterface</a> method of this 
       <b>IUnknown</b> interface to obtain an 
-      <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface for the 
+      <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface for the 
       <a href="https://msdn.microsoft.com/c901ac9a-524a-498d-8b72-9afb26cf2c58">ISdoServiceControl</a> object.
 
 

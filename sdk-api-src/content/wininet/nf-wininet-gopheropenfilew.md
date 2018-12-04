@@ -4,10 +4,10 @@ title: GopherOpenFileW function
 author: windows-sdk-content
 description: Begins reading a Gopher data file from a Gopher server.
 old-location: wininet\gopheropenfile.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 2731d573-f981-48ce-a306-bb7e295cefc6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GopherOpenFile, GopherOpenFile function [WinINet], GopherOpenFileA, GopherOpenFileW, _inet_gopheropenfile_function, wininet.gopheropenfile, wininet/GopherOpenFile, wininet/GopherOpenFileA, wininet/GopherOpenFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GopherOpenFileW
-: 
 ---
 
 # GopherOpenFileW function

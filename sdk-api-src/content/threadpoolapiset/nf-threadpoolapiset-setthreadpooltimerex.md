@@ -4,10 +4,10 @@ title: SetThreadpoolTimerEx function
 author: windows-sdk-content
 description: Sets the timer object&#8212;, replacing the previous timer, if any. A worker thread calls the timer object's callback after the specified timeout expires.
 old-location: base\setthreadpooltimerex.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 0B3C2552-0620-47A7-AF06-E215E7F862D4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: SetThreadpoolTimerEx, SetThreadpoolTimerEx function, base.setthreadpooltimerex, threadpoolapiset/SetThreadpoolTimerEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetThreadpoolTimerEx
-: 
 ---
 
 # SetThreadpoolTimerEx function

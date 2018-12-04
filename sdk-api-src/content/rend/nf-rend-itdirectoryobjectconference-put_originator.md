@@ -4,10 +4,10 @@ title: ITDirectoryObjectConference::put_Originator
 author: windows-sdk-content
 description: The put_Originator method sets the originator's user name.
 old-location: tapi3\itdirectoryobjectconference_put_originator.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 97e8b966-b65c-4c19-ac61-0b952657aec1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Originator method, ITDirectoryObjectConference.put_Originator, ITDirectoryObjectConference::put_Originator, _tapi3_itdirectoryobjectconference_put_originator, put_Originator, put_Originator method [TAPI 2.2], put_Originator method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Originator, tapi3.itdirectoryobjectconference_put_originator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rend.h
-: 
-- ITDirectoryObjectConference.put_Originator
-: 
 ---
 
 # ITDirectoryObjectConference::put_Originator
@@ -152,8 +144,8 @@ This method is not yet implemented.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pOriginator</i> parameter and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pOriginator</i> parameter and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 The originator's name, along with the machine name set in 
 <a href="https://msdn.microsoft.com/f4af55b1-e20b-4fe8-a15e-a1a68d22f1b9">put_MachineAddress</a>, are collectively the originator of the conference, and both are in the o= line of the SDP.

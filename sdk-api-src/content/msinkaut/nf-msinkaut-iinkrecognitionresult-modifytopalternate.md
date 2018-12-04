@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionresult_modifytopalternate.htm
 tech.root: tablet
 ms.assetid: 98edc5e9-2388-4f4e-a67f-029ee83be4cb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 98edc5e9-2388-4f4e-a67f-029ee83be4cb, IInkRecognitionResult interface [Tablet PC],ModifyTopAlternate method, IInkRecognitionResult.ModifyTopAlternate, IInkRecognitionResult::ModifyTopAlternate, ModifyTopAlternate, ModifyTopAlternate method [Tablet PC], ModifyTopAlternate method [Tablet PC],IInkRecognitionResult interface, msinkaut/IInkRecognitionResult::ModifyTopAlternate, tablet.iinkrecognitionresult_modifytopalternate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkRecognitionResult.ModifyTopAlternate
-: 
 ---
 
 # IInkRecognitionResult::ModifyTopAlternate

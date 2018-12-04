@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\sensorstate.htm
 tech.root: SensorsAPI
 ms.assetid: 4cf993ba-d767-4ef8-94a9-e819cc210360
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SENSOR_STATE_ACCESS_DENIED, SENSOR_STATE_ERROR, SENSOR_STATE_INITIALIZING, SENSOR_STATE_MAX, SENSOR_STATE_MIN, SENSOR_STATE_NOT_AVAILABLE, SENSOR_STATE_NO_DATA, SENSOR_STATE_READY, SensorState, SensorState enumeration, __MIDL___MIDL_itf_sensorsapi_0000_0000_0001, sensorsapi/SENSOR_STATE_ACCESS_DENIED, sensorsapi/SENSOR_STATE_ERROR, sensorsapi/SENSOR_STATE_INITIALIZING, sensorsapi/SENSOR_STATE_MAX, sensorsapi/SENSOR_STATE_MIN, sensorsapi/SENSOR_STATE_NOT_AVAILABLE, sensorsapi/SENSOR_STATE_NO_DATA, sensorsapi/SENSOR_STATE_READY, sensorsapi/SensorState, winsensors_com_ref.sensorstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\midiproptempo.htm
 tech.root: Multimedia
 ms.assetid: bc2941a8-e9c8-4a67-a931-01f86caa478a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPMIDIPROPTEMPO, MIDIPROPTEMPO, MIDIPROPTEMPO structure [Windows Multimedia], _win32_MIDIPROPTEMPO_str, midiproptempo_tag, mmeapi/MIDIPROPTEMPO, multimedia.midiproptempo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MS_ADDINFO_CATALOGMEMBER_
 author: windows-sdk-content
 description: Provides additional information for catalog member subject types.
 old-location: security\ms_addinfo_catalogmember.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 40a00c8a-95e4-406c-b04e-0d29beb70d67
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PMS_ADDINFO_CATALOGMEMBER, MS_ADDINFO_CATALOGMEMBER, MS_ADDINFO_CATALOGMEMBER structure [Security], MS_ADDINFO_CATALOGMEMBER_, PMS_ADDINFO_CATALOGMEMBER, PMS_ADDINFO_CATALOGMEMBER structure pointer [Security], mssip/MS_ADDINFO_CATALOGMEMBER_, mssip/PMS_ADDINFO_CATALOGMEMBER, security.ms_addinfo_catalogmember"
 ms.prod: windows-hardware
 ms.technology: windows-devices

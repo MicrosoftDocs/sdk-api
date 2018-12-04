@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0009"
 author: windows-sdk-content
 description: Defines values that describe the state of the similarity traits table, similarity file ID table, or both.
 old-location: rdc\rdccreatedtables.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: f46dd0f0-22b0-41fb-a7c2-29d1b4514f7e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RDCTABLE_Existing, RDCTABLE_InvalidOrUnknown, RDCTABLE_New, RdcCreatedTables, RdcCreatedTables enumeration [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0009, fs.rdccreatedtables, msrdc/RDCTABLE_Existing, msrdc/RDCTABLE_InvalidOrUnknown, msrdc/RDCTABLE_New, msrdc/RdcCreatedTables, rdc.rdccreatedtables
 ms.prod: windows-hardware
 ms.technology: windows-devices

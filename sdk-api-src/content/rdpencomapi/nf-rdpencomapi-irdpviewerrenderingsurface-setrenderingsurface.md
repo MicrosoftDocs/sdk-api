@@ -4,10 +4,10 @@ title: IRDPViewerRenderingSurface::SetRenderingSurface
 author: windows-sdk-content
 description: Sets the rendering surface to be used by the viewer.
 old-location: rdp\irdpviewerrenderingsurface_setrenderingsurface.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: e70541ab-fc23-4960-be38-8eb6849ab14f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRDPViewerRenderingSurface interface [RDP],SetRenderingSurface method, IRDPViewerRenderingSurface.SetRenderingSurface, IRDPViewerRenderingSurface::SetRenderingSurface, SetRenderingSurface, SetRenderingSurface method [RDP], SetRenderingSurface method [RDP],IRDPViewerRenderingSurface interface, rdp.irdpviewerrenderingsurface_setrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface::SetRenderingSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPViewerRenderingSurface.SetRenderingSurface
-: 
 ---
 
 # IRDPViewerRenderingSurface::SetRenderingSurface

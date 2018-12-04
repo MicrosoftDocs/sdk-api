@@ -7,7 +7,7 @@ old-location: shell\SHGetNewLinkInfo.htm
 tech.root: shell
 ms.assetid: ca658d5c-af7b-400c-8f4d-7d4b07bf7f2b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SHGNLI_NOLNK, SHGNLI_NOLOCNAME, SHGNLI_NOUNIQUE, SHGNLI_PIDL, SHGNLI_PREFIXNAME, SHGNLI_USEURLEXT, SHGetNewLinkInfo, SHGetNewLinkInfo function [Windows Shell], SHGetNewLinkInfoA, SHGetNewLinkInfoW, _win32_SHGetNewLinkInfo, shell.SHGetNewLinkInfo, shellapi/SHGetNewLinkInfo, shellapi/SHGetNewLinkInfoA, shellapi/SHGetNewLinkInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHGetNewLinkInfoA
-: 
 ---
 
 # SHGetNewLinkInfoA function

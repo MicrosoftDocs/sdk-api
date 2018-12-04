@@ -7,7 +7,7 @@ old-location: winrt\iprintmanagerinterop_showprintuiforwindowasync.htm
 tech.root: WinRT
 ms.assetid: 2414279e-e1ef-48c7-87a1-a09ad367aec4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IPrintManagerInterop interface [Windows Runtime],ShowPrintUIForWindowAsync method, IPrintManagerInterop.ShowPrintUIForWindowAsync, IPrintManagerInterop::ShowPrintUIForWindowAsync, ShowPrintUIForWindowAsync, ShowPrintUIForWindowAsync method [Windows Runtime], ShowPrintUIForWindowAsync method [Windows Runtime],IPrintManagerInterop interface, printmanagerinterop/IPrintManagerInterop::ShowPrintUIForWindowAsync, winrt.iprintmanagerinterop_showprintuiforwindowasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- printmanagerinterop.h
-: 
-- IPrintManagerInterop.ShowPrintUIForWindowAsync
-: 
 ---
 
 # IPrintManagerInterop::ShowPrintUIForWindowAsync

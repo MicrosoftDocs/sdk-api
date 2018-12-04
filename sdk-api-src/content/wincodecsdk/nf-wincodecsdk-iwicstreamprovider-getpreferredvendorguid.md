@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicstreamprovider_getpreferredvendorguid.htm
 tech.root: wic
 ms.assetid: fb88bc8d-4f92-4645-9d11-ee9200f11aaf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetPreferredVendorGUID, GetPreferredVendorGUID method [Windows Imaging Component], GetPreferredVendorGUID method [Windows Imaging Component],IWICStreamProvider interface, IWICStreamProvider interface [Windows Imaging Component],GetPreferredVendorGUID method, IWICStreamProvider.GetPreferredVendorGUID, IWICStreamProvider::GetPreferredVendorGUID, _wic_codec_iwicstreamprovider_getpreferredvendorguid, wic._wic_codec_iwicstreamprovider_getpreferredvendorguid, wincodecsdk/IWICStreamProvider::GetPreferredVendorGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodecsdk.h
-: 
-- IWICStreamProvider.GetPreferredVendorGUID
-: 
 ---
 
 # IWICStreamProvider::GetPreferredVendorGUID

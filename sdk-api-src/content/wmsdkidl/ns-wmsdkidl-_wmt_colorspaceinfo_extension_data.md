@@ -7,7 +7,7 @@ old-location: wmformat\wmt_colorspaceinfo_extension_data.htm
 tech.root: wmformat
 ms.assetid: 0d512d6a-95d5-4ca1-aee2-ca19319e1b83
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WMT_COLORSPACEINFO_EXTENSION_DATA, WMT_COLORSPACEINFO_EXTENSION_DATA structure [windows Media Format], _WMT_COLORSPACEINFO_EXTENSION_DATA, wmformat.wmt_colorspaceinfo_extension_data, wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

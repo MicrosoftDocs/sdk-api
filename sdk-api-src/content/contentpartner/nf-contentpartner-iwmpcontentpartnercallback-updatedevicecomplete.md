@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_updatedevicecomplete.htm
 tech.root: WMP
 ms.assetid: 0d21d9a0-1a7c-4f4e-9c9d-36a0d30ea63f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],UpdateDeviceComplete method, IWMPContentPartnerCallback.UpdateDeviceComplete, IWMPContentPartnerCallback::UpdateDeviceComplete, IWMPContentPartnerCallbackUpdateDeviceComplete, UpdateDeviceComplete, UpdateDeviceComplete method [Windows Media Player], UpdateDeviceComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::UpdateDeviceComplete, wmp.iwmpcontentpartnercallback_updatedevicecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- contentpartner.h
-: 
-- IWMPContentPartnerCallback.UpdateDeviceComplete
-: 
 ---
 
 # IWMPContentPartnerCallback::UpdateDeviceComplete
@@ -61,7 +53,7 @@ req.redist:
 
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
-The <b>UpdateDeviceComplete</b> method notifies Windows Media Player that the online store has finished processing a call to <a href="https://msdn.microsoft.com/en-us/library/Dd563177(v=VS.85).aspx">IWMPContentPartner::UpdateDevice</a>.
+The <b>UpdateDeviceComplete</b> method notifies Windows Media Player that the online store has finished processing a call to <a href="https://msdn.microsoft.com/893beb65-048f-4496-88e6-b0e0b8db0205">IWMPContentPartner::UpdateDevice</a>.
 
 
 
@@ -118,7 +110,7 @@ This method should be called in response to <b>UpdateDevice</b>, following the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563142(v=VS.85).aspx">IWMPContentPartnerCallback Interface</a>
+<a href="https://msdn.microsoft.com/3c66052b-2b82-44aa-868d-5d5a4501c457">IWMPContentPartnerCallback Interface</a>
  
 
  

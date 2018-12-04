@@ -4,10 +4,10 @@ title: TabCtrl_GetItem macro
 author: windows-sdk-content
 description: Retrieves information about a tab in a tab control. You can use this macro or send the TCM_GETITEM message explicitly.
 old-location: controls\TabCtrl_GetItem.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitem.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: TabCtrl_GetItem, TabCtrl_GetItem macro [Windows Controls], _win32_TabCtrl_GetItem, _win32_TabCtrl_GetItem_cpp, commctrl/TabCtrl_GetItem, controls.TabCtrl_GetItem, controls._win32_TabCtrl_GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- TabCtrl_GetItem
-: 
 ---
 
 # TabCtrl_GetItem macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves information about a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760589(v=VS.85).aspx">TCM_GETITEM</a> message explicitly.
+Retrieves information about a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/41774f14-c4e9-4c98-bc25-3522b2125ed5">TCM_GETITEM</a> message explicitly.
 
 
 ## -parameters
@@ -68,7 +60,7 @@ Retrieves information about a tab in a tab control. You can use this macro or se
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tab control. 
 
@@ -84,7 +76,7 @@ Index of the tab.
 
 Type: <b>LPTCITEM</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb760554(v=VS.85).aspx">TCITEM</a> structure that specifies the information to retrieve and receives information about the tab. When the message is sent, the 
+Pointer to a <a href="https://msdn.microsoft.com/e08c4528-5874-492c-97be-dfdf5f5636a9">TCITEM</a> structure that specifies the information to retrieve and receives information about the tab. When the message is sent, the 
 					<b>mask</b> member specifies which attributes to return. If the <b>mask</b> member specifies the TCIF_TEXT value, the 
 <b>pszText</b> member must contain the address of the buffer that receives the item text, and the <b>cchTextMax</b> member must specify the size of the buffer.
 
@@ -94,7 +86,7 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb760554(v=VS.85)
 
 
 If the TCIF_TEXT flag is set in the 
-				<b>mask</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb760554(v=VS.85).aspx">TCITEM</a> structure, the control may change the <b>pszText</b> member of the structure to point to the new text instead of filling the buffer with the requested text. The control may set the <b>pszText</b> member to <b>NULL</b> to indicate that no text is associated with the item.
+				<b>mask</b> member of the <a href="https://msdn.microsoft.com/e08c4528-5874-492c-97be-dfdf5f5636a9">TCITEM</a> structure, the control may change the <b>pszText</b> member of the structure to point to the new text instead of filling the buffer with the requested text. The control may set the <b>pszText</b> member to <b>NULL</b> to indicate that no text is associated with the item.
 
 
 

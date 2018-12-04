@@ -4,10 +4,10 @@ title: WakeConditionVariable function
 author: windows-sdk-content
 description: Wake a single thread waiting on the specified condition variable.
 old-location: base\wakeconditionvariable.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: e175062a-ef25-4341-8197-df7ca6b008e6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WakeConditionVariable, WakeConditionVariable function, base.wakeconditionvariable, synchapi/WakeConditionVariable, winbase/WakeConditionVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WakeConditionVariable
-: 
 ---
 
 # WakeConditionVariable function

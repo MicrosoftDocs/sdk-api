@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstream_getservice.htm
 tech.root: CoreAudio
 ms.assetid: 9262C9E1-DE15-460C-9BC2-DAD5163F447E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetService, GetService method [Core Audio], GetService method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],GetService method, ISpatialAudioObjectRenderStreamBase.GetService, ISpatialAudioObjectRenderStreamBase::GetService, coreaudio.ispatialaudioobjectrenderstream_getservice, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::GetService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- spatialaudioclient.h
-: 
-- ISpatialAudioObjectRenderStreamBase.GetService
-: 
 ---
 
 # ISpatialAudioObjectRenderStreamBase::GetService

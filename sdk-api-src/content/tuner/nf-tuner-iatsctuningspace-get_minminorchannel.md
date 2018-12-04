@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IATSCTuningSpace.get_MinMinorChannel
-: 
 ---
 
 # IATSCTuningSpace::get_MinMinorChannel

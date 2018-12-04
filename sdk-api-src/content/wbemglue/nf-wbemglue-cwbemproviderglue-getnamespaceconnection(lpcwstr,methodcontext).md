@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemglue.h
-: 
-- CWbemProviderGlue.GetNamespaceConnection
-: 
 ---
 
 # CWbemProviderGlue::GetNamespaceConnection(LPCWSTR,MethodContext)

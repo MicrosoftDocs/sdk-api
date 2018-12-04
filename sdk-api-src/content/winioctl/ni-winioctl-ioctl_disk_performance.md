@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_performance.htm
 tech.root: fileio
 ms.assetid: e182282c-17e9-442a-8742-437052cfed03
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: IOCTL_DISK_PERFORMANCE, IOCTL_DISK_PERFORMANCE control, IOCTL_DISK_PERFORMANCE control code [Files], _win32_ioctl_disk_performance, base.ioctl_disk_performance, fs.ioctl_disk_performance, winioctl/IOCTL_DISK_PERFORMANCE
 ms.prod: windows-hardware
 ms.technology: windows-devices

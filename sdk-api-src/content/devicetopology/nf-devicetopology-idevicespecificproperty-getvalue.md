@@ -7,7 +7,7 @@ old-location: coreaudio\idevicespecificproperty_getvalue.htm
 tech.root: CoreAudio
 ms.assetid: 07608b42-972c-4d5a-9e1c-5d9060f16644
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetValue, GetValue method [Core Audio], GetValue method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],GetValue method, IDeviceSpecificProperty.GetValue, IDeviceSpecificProperty::GetValue, IDeviceSpecificPropertyGetValue, coreaudio.idevicespecificproperty_getvalue, devicetopology/IDeviceSpecificProperty::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- devicetopology.h
-: 
-- IDeviceSpecificProperty.GetValue
-: 
 ---
 
 # IDeviceSpecificProperty::GetValue

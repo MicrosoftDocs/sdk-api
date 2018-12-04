@@ -7,7 +7,7 @@ old-location: gdi\dibindex.htm
 tech.root: gdi
 ms.assetid: a1c2274e-ddcb-4e11-af70-9f79210d2d5f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DIBINDEX, DIBINDEX macro [Windows GDI], _win32_DIBINDEX, gdi.dibindex, mmsystem/DIBINDEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- mmsystem.h
-: 
-- DIBINDEX
-: 
 ---
 
 # DIBINDEX macro

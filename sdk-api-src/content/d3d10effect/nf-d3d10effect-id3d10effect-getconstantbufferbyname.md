@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect_getconstantbufferbyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getconstantbufferbyname.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetConstantBufferByName, GetConstantBufferByName method [Direct3D 10], GetConstantBufferByName method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetConstantBufferByName method, ID3D10Effect.GetConstantBufferByName, ID3D10Effect::GetConstantBufferByName, d3d10effect/ID3D10Effect::GetConstantBufferByName, direct3d10.id3d10effect_getconstantbufferbyname, ee9f35f2-1d6f-f921-a7a3-825ac2b49866
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10effect.h
-: 
-- ID3D10Effect.GetConstantBufferByName
-: 
 ---
 
 # ID3D10Effect::GetConstantBufferByName
@@ -77,9 +69,9 @@ The constant-buffer name.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173634(v=VS.85).aspx">ID3D10EffectConstantBuffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ab75de06-dbcd-42bb-9879-8602df7f558f">ID3D10EffectConstantBuffer</a>*</b>
 
-A pointer to the constant buffer indicated by the Name. See <a href="https://msdn.microsoft.com/en-us/library/Bb173634(v=VS.85).aspx">ID3D10EffectConstantBuffer</a>.
+A pointer to the constant buffer indicated by the Name. See <a href="https://msdn.microsoft.com/ab75de06-dbcd-42bb-9879-8602df7f558f">ID3D10EffectConstantBuffer</a>.
 
 
 
@@ -98,7 +90,7 @@ An effect that contains a variable that will be read/written by an application r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect Interface</a>
  
 
  

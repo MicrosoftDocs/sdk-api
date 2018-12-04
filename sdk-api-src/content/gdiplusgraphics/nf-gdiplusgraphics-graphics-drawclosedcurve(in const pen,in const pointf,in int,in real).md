@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_poi
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawclosedcurvemethods\drawclosedcurve_28penpen_pointfpoints_intcount_realtensi.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DrawClosedCurve, DrawClosedCurve method [GDI+], DrawClosedCurve method [GDI+],Graphics class, Graphics class [GDI+],DrawClosedCurve method, Graphics.DrawClosedCurve, Graphics.DrawClosedCurve(IN const Pen,IN const PointF,IN INT,IN REAL), Graphics.DrawClosedCurve(const Pen*,const PointF*,INT,REAL), Graphics::DrawClosedCurve, Graphics::DrawClosedCurve(IN const Pen,IN const PointF,IN INT,IN REAL), _gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_points_INT_count_REAL_tension_, gdiplus._gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_PointF_points_INT_count_REAL_tension_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusgraphics.h
-: 
-- Graphics.DrawClosedCurve
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -126,9 +118,13 @@ Each ending point is the starting point for the next cardinal spline. In a close
 
 The following example draws a closed cardinal spline.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID Example_DrawClosedCurve4(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -153,21 +149,21 @@ VOID Example_DrawClosedCurve4(HDC hdc)
       point7};
 
    // Draw the closed curve.
-   graphics.DrawClosedCurve(&greenPen, curvePoints, 7, 1.0);
+   graphics.DrawClosedCurve(&amp;greenPen, curvePoints, 7, 1.0);
 
    // Draw the points in the curve.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&redBrush, Rect(95, 95, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(495, 95, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(495, 495, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(195, 45, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(395, 5, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(595, 195, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(695, 395, 10, 10));
-}
-```
-
-
+   graphics.FillEllipse(&amp;redBrush, Rect(95, 95, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(495, 95, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(495, 495, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(195, 45, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(395, 5, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(595, 195, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(695, 395, 10, 10));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -192,7 +188,7 @@ VOID Example_DrawClosedCurve4(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

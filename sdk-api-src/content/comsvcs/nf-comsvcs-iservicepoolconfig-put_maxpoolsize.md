@@ -7,7 +7,7 @@ old-location: cos\iservicepoolconfig_put_maxpoolsize.htm
 tech.root: cossdk
 ms.assetid: 618d4969-c29e-4944-8954-a982a90f3c15
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_MaxPoolSize method, IServicePoolConfig.put_MaxPoolSize, IServicePoolConfig::put_MaxPoolSize, comsvcs/IServicePoolConfig::put_MaxPoolSize, cos.iservicepoolconfig_put_maxpoolsize, put_MaxPoolSize, put_MaxPoolSize method [COM+], put_MaxPoolSize method [COM+],IServicePoolConfig interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- IServicePoolConfig.put_MaxPoolSize
-: 
 ---
 
 # IServicePoolConfig::put_MaxPoolSize

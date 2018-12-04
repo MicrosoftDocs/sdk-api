@@ -7,7 +7,7 @@ old-location: tsf\itfcontextview_gettextext.htm
 tech.root: TSF
 ms.assetid: a4ef9180-5568-4e5b-8c37-f750263060d2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetTextExt method, ITfContextView.GetTextExt, ITfContextView::GetTextExt, _tsf_itfcontextview_gettextext_ref, msctf/ITfContextView::GetTextExt, tsf.itfcontextview_gettextext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfContextView.GetTextExt
-: 
 ---
 
 # ITfContextView::GetTextExt

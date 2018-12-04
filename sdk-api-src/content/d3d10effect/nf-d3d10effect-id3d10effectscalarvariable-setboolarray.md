@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectscalarvariable_setboolarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setboolarray.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 596545fb-be65-5d46-6b19-d6fd77f59c4b, ID3D10EffectScalarVariable interface [Direct3D 10],SetBoolArray method, ID3D10EffectScalarVariable.SetBoolArray, ID3D10EffectScalarVariable::SetBoolArray, SetBoolArray, SetBoolArray method [Direct3D 10], SetBoolArray method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetBoolArray, direct3d10.id3d10effectscalarvariable_setboolarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10effect.h
-: 
-- ID3D10EffectScalarVariable.SetBoolArray
-: 
 ---
 
 # ID3D10EffectScalarVariable::SetBoolArray
@@ -91,9 +83,9 @@ The number of array elements to set.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -103,7 +95,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173680(v=VS.85).aspx">ID3D10EffectScalarVariable Interface</a>
+<a href="https://msdn.microsoft.com/1129c4ff-2ea7-4556-8601-4339da7e67d3">ID3D10EffectScalarVariable Interface</a>
  
 
  

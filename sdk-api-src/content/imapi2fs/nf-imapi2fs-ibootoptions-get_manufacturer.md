@@ -7,7 +7,7 @@ old-location: imapi\ibootoptions_get_manufacturer.htm
 tech.root: imapi
 ms.assetid: e9c75760-42e8-4ad0-aa5c-82bfdc1327af
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IBootOptions interface [IMAPI],get_Manufacturer method, IBootOptions.get_Manufacturer, IBootOptions::get_Manufacturer, get_Manufacturer, get_Manufacturer method [IMAPI], get_Manufacturer method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_manufacturer, imapi2fs/IBootOptions::get_Manufacturer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2fs.h
-: 
-- IBootOptions.get_Manufacturer
-: 
 ---
 
 # IBootOptions::get_Manufacturer

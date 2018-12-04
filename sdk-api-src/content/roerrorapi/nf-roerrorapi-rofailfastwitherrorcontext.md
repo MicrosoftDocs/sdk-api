@@ -7,7 +7,7 @@ old-location: winrt\rofailfastwitherrorcontext.htm
 tech.root: WinRT
 ms.assetid: 1BD47795-1B5E-42A4-B88F-7DE5160668E7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RoFailFastWithErrorContext, RoFailFastWithErrorContext function [Windows Runtime], roerrorapi/RoFailFastWithErrorContext, winrt.rofailfastwitherrorcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RoFailFastWithErrorContext
-: 
 ---
 
 # RoFailFastWithErrorContext function

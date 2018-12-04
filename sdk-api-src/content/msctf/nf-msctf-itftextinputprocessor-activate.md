@@ -7,7 +7,7 @@ old-location: tsf\itftextinputprocessor_activate.htm
 tech.root: TSF
 ms.assetid: c5fd6b5c-0a78-4b5b-aad5-0c398798cf30
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfTextInputProcessor interface, ITfTextInputProcessor interface [Text Services Framework],Activate method, ITfTextInputProcessor.Activate, ITfTextInputProcessor::Activate, _tsf_itftextinputprocessor_activate_ref, msctf/ITfTextInputProcessor::Activate, tsf.itftextinputprocessor_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfTextInputProcessor.Activate
-: 
 ---
 
 # ITfTextInputProcessor::Activate
@@ -88,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-TSF calls this method after creating an instance of a text service with a call to <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>. This enables operations necessary to start the text service.
+TSF calls this method after creating an instance of a text service with a call to <a href="_com_cocreateinstance">CoCreateInstance</a>. This enables operations necessary to start the text service.
 
 This method usually adds a reference to the thread manager for the session and advise sinks for events that involve the text service, such as change of focus, keystrokes, and window events. It also customizes the language bar for the text service.
 

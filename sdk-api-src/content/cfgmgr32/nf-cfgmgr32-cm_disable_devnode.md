@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Disable_DevNode
-: 
 ---
 
 # CM_Disable_DevNode function

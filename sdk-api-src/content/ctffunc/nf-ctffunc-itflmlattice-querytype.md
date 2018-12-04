@@ -7,7 +7,7 @@ old-location: tsf\itflmlattice_querytype.htm
 tech.root: TSF
 ms.assetid: 199032f7-b97f-4475-9ce3-9af952e13f12
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfLMLattice interface [Text Services Framework],QueryType method, ITfLMLattice.QueryType, ITfLMLattice::QueryType, QueryType, QueryType method [Text Services Framework], QueryType method [Text Services Framework],ITfLMLattice interface, _tsf_itflmlattice_querytype_ref, ctffunc/ITfLMLattice::QueryType, tsf.itflmlattice_querytype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctffunc.h
-: 
-- ITfLMLattice.QueryType
-: 
 ---
 
 # ITfLMLattice::QueryType
@@ -67,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param rguidType [in]
 
-Specifies the lattice type identifier. This can be one of the <a href="https://msdn.microsoft.com/en-us/library/ms628996(v=VS.85).aspx">Lattice Type</a> values.
+Specifies the lattice type identifier. This can be one of the <a href="https://msdn.microsoft.com/ce4bf11b-e7e7-4f06-b572-8ed6f0ed8d36">Lattice Type</a> values.
 
 
 ### -param pfSupported [out]
@@ -119,7 +111,7 @@ Either <i>pfSupported</i> is invalid or the specified lattice type is not suppor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628774(v=VS.85).aspx">ITfLMLattice</a>
+<a href="https://msdn.microsoft.com/25ad6ef2-1d42-498a-852f-163a0efbc26a">ITfLMLattice</a>
 
 
 

@@ -4,10 +4,10 @@ title: IEnroll::get_RequestStoreTypeWStr
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the RequestStoreNameWStr property. This store type is passed directly to the CertOpenStore function.
 old-location: security\ienroll4_requeststoretypewstr.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5b06552a-7b8d-4044-9c2c-994f67e9c36d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnroll interface [Security],RequestStoreTypeWStr property, IEnroll.RequestStoreTypeWStr, IEnroll.get_RequestStoreTypeWStr, IEnroll4 interface [Security],RequestStoreTypeWStr property, IEnroll4.RequestStoreTypeWStr, IEnroll4::get_RequestStoreTypeWStr, IEnroll4::put_RequestStoreTypeWStr, IEnroll::RequestStoreTypeWStr, IEnroll::get_RequestStoreTypeWStr, IEnroll::put_RequestStoreTypeWStr, RequestStoreTypeWStr property [Security], RequestStoreTypeWStr property [Security],IEnroll interface, RequestStoreTypeWStr property [Security],IEnroll4 interface, get_RequestStoreTypeWStr, put_RequestStoreTypeWStr, security.ienroll4_requeststoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll4::RequestStoreTypeWStr, xenroll/IEnroll4::get_RequestStoreTypeWStr, xenroll/IEnroll4::put_RequestStoreTypeWStr, xenroll/IEnroll::RequestStoreTypeWStr, xenroll/IEnroll::get_RequestStoreTypeWStr, xenroll/IEnroll::put_RequestStoreTypeWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,14 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- IEnroll.get_RequestStoreTypeWStr
-: 
 ---
 
 # IEnroll::get_RequestStoreTypeWStr

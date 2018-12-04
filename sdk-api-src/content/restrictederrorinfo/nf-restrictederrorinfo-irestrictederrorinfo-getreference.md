@@ -7,7 +7,7 @@ old-location: winrt\irestrictederrorinfo_getreference.htm
 tech.root: WinRT
 ms.assetid: e7f0c451-c6a4-49ec-a97a-dc834081b3c1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetReference, GetReference method [Windows Runtime], GetReference method [Windows Runtime],IRestrictedErrorInfo interface, IRestrictedErrorInfo interface [Windows Runtime],GetReference method, IRestrictedErrorInfo.GetReference, IRestrictedErrorInfo::GetReference, restrictederrorinfo/IRestrictedErrorInfo::GetReference, winrt.irestrictederrorinfo_getreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- restrictederrorinfo.h
-: 
-- IRestrictedErrorInfo.GetReference
-: 
 ---
 
 # IRestrictedErrorInfo::GetReference

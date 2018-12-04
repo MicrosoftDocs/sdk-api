@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- adhoc.h
-: 
-- IEnumDot11AdHocSecuritySettings.Skip
-: 
 ---
 
 # IEnumDot11AdHocSecuritySettings::Skip

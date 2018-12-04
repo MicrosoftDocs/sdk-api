@@ -4,10 +4,10 @@ title: RpcSsAllocate function
 author: windows-sdk-content
 description: The RpcSsAllocate function allocates memory within the RPC stub memory-management function, and returns a pointer to the allocated memory or NULL.
 old-location: rpc\rpcssallocate.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: d1c1af46-63c5-4e50-abfb-c4f251972427
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RpcSsAllocate, RpcSsAllocate function [RPC], _rpc_rpcssallocate, rpc.rpcssallocate, rpcndr/RpcSsAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcSsAllocate
-: 
 ---
 
 # RpcSsAllocate function

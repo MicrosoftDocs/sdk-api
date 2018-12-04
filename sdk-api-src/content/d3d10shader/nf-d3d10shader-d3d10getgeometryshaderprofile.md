@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10getgeometryshaderprofile.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getgeometryshaderprofile.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: D3D10GetGeometryShaderProfile, D3D10GetGeometryShaderProfile function [Direct3D 10], ba175c86-099a-e747-2120-b83c9b421a82, d3d10shader/D3D10GetGeometryShaderProfile, direct3d10.d3d10getgeometryshaderprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- D3D10GetGeometryShaderProfile
-: 
 ---
 
 # D3D10GetGeometryShaderProfile function
@@ -56,7 +50,7 @@ req.redist:
 ## -description
 
 
-Get the geometry <a href="https://msdn.microsoft.com/en-us/library/Bb509626(v=VS.85).aspx">shader profile</a> best suited to a given device.
+Get the geometry <a href="https://msdn.microsoft.com/6224f05e-20b1-42ea-96fb-63dd0edb720e">shader profile</a> best suited to a given device.
 
 
 ## -parameters
@@ -66,9 +60,9 @@ Get the geometry <a href="https://msdn.microsoft.com/en-us/library/Bb509626(v=VS
 
 ### -param pDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>*</b>
 
-Pointer to the device (see <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>).
+Pointer to the device (see <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>).
 
 
 ## -returns
@@ -87,7 +81,7 @@ The shader profile.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205157(v=VS.85).aspx">Shader Functions</a>
+<a href="https://msdn.microsoft.com/c8b33c08-7b3f-4b33-9b3c-4aa2b45b8f32">Shader Functions</a>
  
 
  

@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmProviderContextEnum2
-: 
 ---
 
 # FwpmProviderContextEnum2 function

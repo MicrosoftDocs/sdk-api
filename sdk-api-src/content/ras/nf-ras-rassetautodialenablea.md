@@ -4,10 +4,10 @@ title: RasSetAutodialEnableA function
 author: windows-sdk-content
 description: The RasSetAutodialEnable function enables or disables the AutoDial feature for a specified TAPI dialing location.
 old-location: rras\rassetautodialenable.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 0d5f7b8e-9bce-4e72-8657-f465ce4008c4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RasSetAutodialEnable, RasSetAutodialEnable function [RAS], RasSetAutodialEnableA, RasSetAutodialEnableW, _ras_rassetautodialenable, ras/RasSetAutodialEnable, ras/RasSetAutodialEnableA, ras/RasSetAutodialEnableW, rras.rassetautodialenable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RasSetAutodialEnableA
-: 
 ---
 
 # RasSetAutodialEnableA function
@@ -59,7 +53,7 @@ req.redist:
 
 
 The 
-<b>RasSetAutodialEnable</b> function enables or disables the AutoDial feature for a specified TAPI dialing location. For more information about TAPI dialing locations, see  <a href="https://msdn.microsoft.com/en-us/library/ms734273(v=VS.85).aspx">Telephony Application Programming Interfaces (TAPI)</a>  in the Platform Software Development Kit (SDK).
+<b>RasSetAutodialEnable</b> function enables or disables the AutoDial feature for a specified TAPI dialing location. For more information about TAPI dialing locations, see  <a href="_tapi3_telephony_application_programming_interfaces">Telephony Application Programming Interfaces (TAPI)</a>  in the Platform Software Development Kit (SDK).
 
 
 ## -parameters

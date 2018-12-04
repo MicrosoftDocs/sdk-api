@@ -7,7 +7,7 @@ old-location: tablet\inkrectangle_data.htm
 tech.root: tablet
 ms.assetid: fd0d265e-c5d1-463a-bb4f-4dfa23cf6251
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Data property [Tablet PC], Data property [Tablet PC],IInkRectangle interface, IInkRectangle interface [Tablet PC],Data property, IInkRectangle.Data, IInkRectangle.get_Data, IInkRectangle::Data, IInkRectangle::get_Data, IInkRectangle::put_Data, InkRectangle.get_Data, InkRectangle.put_Data, fd0d265e-c5d1-463a-bb4f-4dfa23cf6251, get_Data, msinkaut/IInkRectangle::Data, msinkaut/IInkRectangle::get_Data, msinkaut/IInkRectangle::put_Data, tablet.inkrectangle_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,14 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkRectangle.get_Data
-: 
 ---
 
 # IInkRectangle::get_Data

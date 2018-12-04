@@ -4,10 +4,10 @@ title: DPA_InsertPtr function
 author: windows-sdk-content
 description: Inserts a new item at a specified position in a dynamic pointer array (DPA). If neccessary, the DPA expands to accommodate the new item.
 old-location: controls\DPA_InsertPtr.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_insertptr.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DPA_InsertPtr, DPA_InsertPtr function [Windows Controls], _win32_DPA_InsertPtr, _win32_DPA_InsertPtr_cpp, controls.DPA_InsertPtr, controls._win32_DPA_InsertPtr, dpa_dsa/DPA_InsertPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DPA_InsertPtr
-: 
 ---
 
 # DPA_InsertPtr function

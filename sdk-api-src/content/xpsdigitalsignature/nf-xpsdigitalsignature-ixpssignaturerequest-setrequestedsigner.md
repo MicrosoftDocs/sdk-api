@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest_setrequestedsigner.htm
 tech.root: printdocs
 ms.assetid: c744fb64-2e94-484c-9045-46a8357b0007
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestedSigner method, IXpsSignatureRequest.SetRequestedSigner, IXpsSignatureRequest::SetRequestedSigner, SetRequestedSigner, SetRequestedSigner method [XPS Documents and Packaging], SetRequestedSigner method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestedsigner, xpsdigitalsignature/IXpsSignatureRequest::SetRequestedSigner
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsdigitalsignature.h
-: 
-- IXpsSignatureRequest.SetRequestedSigner
-: 
 ---
 
 # IXpsSignatureRequest::SetRequestedSigner

@@ -7,7 +7,7 @@ old-location: gdi\offsetcliprgn.htm
 tech.root: gdi
 ms.assetid: 332ab3f8-6ad3-4bbc-85a3-b0d2a4b07bc5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: OffsetClipRgn, OffsetClipRgn function [Windows GDI], _win32_OffsetClipRgn, gdi.offsetcliprgn, wingdi/OffsetClipRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OffsetClipRgn
-: 
 ---
 
 # OffsetClipRgn function

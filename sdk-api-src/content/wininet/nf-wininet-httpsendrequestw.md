@@ -4,10 +4,10 @@ title: HttpSendRequestW function
 author: windows-sdk-content
 description: Sends the specified request to the HTTP server, allowing callers to send extra data beyond what is normally passed to HttpSendRequestEx.
 old-location: wininet\httpsendrequest.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: f53d9ff7-43b1-452f-a6cb-754d0229ab9a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: HttpSendRequest, HttpSendRequest function [WinINet], HttpSendRequestA, HttpSendRequestW, _inet_httpsendrequest_function, wininet.httpsendrequest, wininet/HttpSendRequest, wininet/HttpSendRequestA, wininet/HttpSendRequestW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HttpSendRequestW
-: 
 ---
 
 # HttpSendRequestW function

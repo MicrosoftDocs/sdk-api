@@ -4,10 +4,10 @@ title: IUpdate::get_DeltaCompressedContentAvailable
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether delta-compressed content is available on a server for the update.
 old-location: wua\iupdate_deltacompressedcontentavailable.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: b713a349-45fe-492a-a966-17112edf00ec
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DeltaCompressedContentAvailable property [Windows Update Agent], DeltaCompressedContentAvailable property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeltaCompressedContentAvailable property, IUpdate.DeltaCompressedContentAvailable, IUpdate.get_DeltaCompressedContentAvailable, IUpdate::DeltaCompressedContentAvailable, IUpdate::get_DeltaCompressedContentAvailable, get_DeltaCompressedContentAvailable, wua.iupdate_deltacompressedcontentavailable, wuapi/IUpdate::DeltaCompressedContentAvailable, wuapi/IUpdate::get_DeltaCompressedContentAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdate.get_DeltaCompressedContentAvailable
-: 
 ---
 
 # IUpdate::get_DeltaCompressedContentAvailable

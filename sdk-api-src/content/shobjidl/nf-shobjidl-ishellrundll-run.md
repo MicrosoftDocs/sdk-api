@@ -7,7 +7,7 @@ old-location: shell\IShellRunDll_Run.htm
 tech.root: shell
 ms.assetid: 3506a086-2dda-4455-b03c-f3c85e4ac283
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IShellRunDll interface [Windows Shell],Run method, IShellRunDll.Run, IShellRunDll::Run, Run, Run method [Windows Shell], Run method [Windows Shell],IShellRunDll interface, _shell_IShellRunDll_Run, shell.IShellRunDll_Run, shobjidl/IShellRunDll::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl.h
-: 
-- IShellRunDll.Run
-: 
 ---
 
 # IShellRunDll::Run

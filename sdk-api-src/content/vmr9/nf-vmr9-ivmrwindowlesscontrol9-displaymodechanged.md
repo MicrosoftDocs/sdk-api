@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol9_displaymodechanged.htm
 tech.root: DirectShow
 ms.assetid: ad023fa0-3540-4009-abdc-a1c980f906ec
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DisplayModeChanged, DisplayModeChanged method [DirectShow], DisplayModeChanged method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],DisplayModeChanged method, IVMRWindowlessControl9.DisplayModeChanged, IVMRWindowlessControl9::DisplayModeChanged, IVMRWindowlessControl9DisplayModeChanged, dshow.ivmrwindowlesscontrol9_displaymodechanged, vmr9/IVMRWindowlessControl9::DisplayModeChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vmr9.h
-: 
-- IVMRWindowlessControl9.DisplayModeChanged
-: 
 ---
 
 # IVMRWindowlessControl9::DisplayModeChanged

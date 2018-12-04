@@ -7,7 +7,7 @@ old-location: wmdm\imdspenumstorage.htm
 tech.root: WMDM
 ms.assetid: fc2fed46-1f4d-4d53-a843-0f699b687a18
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMDSPEnumStorage, IMDSPEnumStorage interface [windows Media Device Manager], IMDSPEnumStorage interface [windows Media Device Manager],described, IMDSPEnumStorageInterface, mswmdm/IMDSPEnumStorage, wmdm.imdspenumstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

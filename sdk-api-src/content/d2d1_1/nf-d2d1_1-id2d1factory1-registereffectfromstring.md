@@ -4,10 +4,10 @@ title: ID2D1Factory1::RegisterEffectFromString
 author: windows-sdk-content
 description: Registers an effect within the factory instance with the property XML specified as a string.
 old-location: direct2d\id2d1factory1_registereffect.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 9988aad6-0487-4f48-a05c-1dfb944f6ce7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID2D1Factory1 interface [Direct2D],RegisterEffectFromString method, ID2D1Factory1.RegisterEffectFromString, ID2D1Factory1::RegisterEffectFromString, RegisterEffectFromString, RegisterEffectFromString method [Direct2D], RegisterEffectFromString method [Direct2D],ID2D1Factory1 interface, d2d1_1/ID2D1Factory1::RegisterEffectFromString, direct2d.id2d1factory1_registereffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_1.h
-: 
-- ID2D1Factory1.RegisterEffectFromString
-: 
 ---
 
 # ID2D1Factory1::RegisterEffectFromString

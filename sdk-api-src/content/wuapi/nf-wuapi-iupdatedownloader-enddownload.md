@@ -4,10 +4,10 @@ title: IUpdateDownloader::EndDownload
 author: windows-sdk-content
 description: Completes an asynchronous download.
 old-location: wua\iupdatedownloader_enddownload.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: b89ec12a-8a51-46e6-9911-2535abc3925b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EndDownload, EndDownload method [Windows Update Agent], EndDownload method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],EndDownload method, IUpdateDownloader.EndDownload, IUpdateDownloader::EndDownload, wua.iupdatedownloader_enddownload, wuapi/IUpdateDownloader::EndDownload
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateDownloader.EndDownload
-: 
 ---
 
 # IUpdateDownloader::EndDownload

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice3.htm
 tech.root: WMDM
 ms.assetid: 29e0ec95-c1ea-4157-b5aa-39d80fff407d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMDMDevice3, IWMDMDevice3 interface [windows Media Device Manager], IWMDMDevice3 interface [windows Media Device Manager],described, IWMDMDevice3Interface, mswmdm/IWMDMDevice3, wmdm.iwmdmdevice3
 ms.prod: windows-hardware
 ms.technology: windows-devices

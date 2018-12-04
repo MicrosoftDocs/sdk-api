@@ -7,7 +7,7 @@ old-location: winsync\iforgottenknowledge.htm
 tech.root: winsync
 ms.assetid: 93185921-8f41-4222-86d8-602d197c4b33
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IForgottenKnowledge, IForgottenKnowledge interface [Windows Sync], IForgottenKnowledge interface [Windows Sync],described, winsync.iforgottenknowledge, winsync/IForgottenKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- oaidl.h
-: 
-- ICreateTypeInfo2.SetCustData
-: 
 ---
 
 # ICreateTypeInfo2::SetCustData

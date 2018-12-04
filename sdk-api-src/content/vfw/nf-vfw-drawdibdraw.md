@@ -7,7 +7,7 @@ old-location: multimedia\drawdibdraw.htm
 tech.root: Multimedia
 ms.assetid: b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: DrawDibDraw, DrawDibDraw function [Windows Multimedia], _win32_DrawDibDraw, multimedia.drawdibdraw, vfw/DrawDibDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DrawDibDraw
-: 
 ---
 
 # DrawDibDraw function

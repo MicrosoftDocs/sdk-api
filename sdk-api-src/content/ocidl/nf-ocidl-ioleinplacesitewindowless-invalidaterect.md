@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_invalidaterect.htm
 tech.root: com
 ms.assetid: 034025f5-f9cd-4ad3-9b98-216b373cd10f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],InvalidateRect method, IOleInPlaceSiteWindowless.InvalidateRect, IOleInPlaceSiteWindowless::InvalidateRect, InvalidateRect, InvalidateRect method [COM], InvalidateRect method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_invalidaterect, com.ioleinplacesitewindowless_invalidaterect, ocidl/IOleInPlaceSiteWindowless::InvalidateRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ocidl.h
-: 
-- IOleInPlaceSiteWindowless.InvalidateRect
-: 
 ---
 
 # IOleInPlaceSiteWindowless::InvalidateRect

@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__composehmenuidentitystr
 tech.root: WinAuto
 ms.assetid: b0eb54e0-d903-46d8-a9f5-47f2c055c059
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ComposeHmenuIdentityString, ComposeHmenuIdentityString method [Windows Accessibility], ComposeHmenuIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ComposeHmenuIdentityString method, IAccPropServices.ComposeHmenuIdentityString, IAccPropServices::ComposeHmenuIdentityString, oleacc/IAccPropServices::ComposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__composehmenuidentitystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
-- apiref
-: 
-- COM
-: 
-- oleacc.h
-: 
-- IAccPropServices.ComposeHmenuIdentityString
-: 
 ---
 
 # IAccPropServices::ComposeHmenuIdentityString

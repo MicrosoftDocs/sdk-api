@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquiredeviceselectiondialog_settitle.htm
 tech.root: acquisition
 ms.assetid: e8338978-3232-41b2-87ee-11eee3e90fc6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],SetTitle method, IPhotoAcquireDeviceSelectionDialog.SetTitle, IPhotoAcquireDeviceSelectionDialog::SetTitle, IPhotoAcquireDeviceSelectionDialogSetTitle, SetTitle, SetTitle method [Picture Acquisition], SetTitle method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, photoacquire/IPhotoAcquireDeviceSelectionDialog::SetTitle, picacq.iphotoacquiredeviceselectiondialog_settitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- photoacquire.h
-: 
-- IPhotoAcquireDeviceSelectionDialog.SetTitle
-: 
 ---
 
 # IPhotoAcquireDeviceSelectionDialog::SetTitle

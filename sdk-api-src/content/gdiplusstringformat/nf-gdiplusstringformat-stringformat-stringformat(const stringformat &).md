@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_StringFormat_format_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors\stringformat_50format.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: StringFormat, StringFormat class [GDI+],StringFormat constructor, StringFormat constructor [GDI+], StringFormat constructor [GDI+],StringFormat class, StringFormat.StringFormat, StringFormat.StringFormat(const StringFormat &), StringFormat.StringFormat(const StringFormat*), StringFormat::StringFormat, StringFormat::StringFormat(const StringFormat &), _gdiplus_CLASS_StringFormat_StringFormat_format_, gdiplus._gdiplus_CLASS_StringFormat_StringFormat_format_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusstringformat.h
-: 
-- StringFormat.StringFormat
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -59,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object from another <b>StringFormat</b> object.
+Creates a <a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object from another <b>StringFormat</b> object.
 
 
 ## -parameters
@@ -69,9 +61,9 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).as
 
 ### -param source [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object to copy. 
+Pointer to a <a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object to copy. 
 
 
 ## -see-also
@@ -79,7 +71,7 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mf\mflockdxgidevicemanager.htm
 tech.root: medfound
 ms.assetid: 01A789BA-C1DE-4EF8-81C4-261F59D5843B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFLockDXGIDeviceManager, MFLockDXGIDeviceManager function [Media Foundation], mf.mflockdxgidevicemanager, mfapi/MFLockDXGIDeviceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFLockDXGIDeviceManager
-: 
 ---
 
 # MFLockDXGIDeviceManager function

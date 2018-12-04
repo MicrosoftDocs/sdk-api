@@ -4,10 +4,10 @@ title: IVssBackupComponents::GetWriterComponents
 author: windows-sdk-content
 description: The GetWriterComponents method is used to return information about those components of a given writer that have been stored in a requester's Backup Components Document.
 old-location: base\ivssbackupcomponents_getwritercomponents.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: b99e7e41-1c88-462c-b6d8-734f7a6e24d4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetWriterComponents, GetWriterComponents method [VSS], GetWriterComponents method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponents method, IVssBackupComponents.GetWriterComponents, IVssBackupComponents::GetWriterComponents, _win32_ivssbackupcomponents_getwritercomponents, base.ivssbackupcomponents_getwritercomponents, vsbackup/IVssBackupComponents::GetWriterComponents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsbackup.h
-: 
-- IVssBackupComponents.GetWriterComponents
-: 
 ---
 
 # IVssBackupComponents::GetWriterComponents
@@ -171,7 +163,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller of this method must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> when it finishes accessing the component information.
+The caller of this method must call <a href="_com_iunknown_release">IUnknown::Release</a> when it finishes accessing the component information.
 
 <b>GetWriterComponents</b> retrieves component information for a component stored in the Backup Components Document by earlier calls to 
 <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">IVssBackupComponents::AddComponent</a>.

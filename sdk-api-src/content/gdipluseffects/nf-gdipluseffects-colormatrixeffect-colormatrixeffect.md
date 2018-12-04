@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colormatrixeffectclass\colormatrixeffectconstructors\colormatrixeffect.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ColorMatrixEffect, ColorMatrixEffect class [GDI+],ColorMatrixEffect constructor, ColorMatrixEffect constructor [GDI+], ColorMatrixEffect constructor [GDI+],ColorMatrixEffect class, ColorMatrixEffect.ColorMatrixEffect, ColorMatrixEffect::ColorMatrixEffect, _gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_, gdiplus._gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdipluseffects.h
-: 
-- ColorMatrixEffect.ColorMatrixEffect
-: 
 req.product: GDI+ 1.1
 ---
 
@@ -59,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534431(v=VS.85).aspx">ColorMatrixEffect</a> object. 
+Creates a <a href="https://msdn.microsoft.com/99a4a671-e128-4a1b-8c8a-e9231bd44e96">ColorMatrixEffect</a> object. 
 
 
 ## -parameters
@@ -74,15 +66,15 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534431(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534063(v=VS.85).aspx">ColorMatrix</a>
+<a href="https://msdn.microsoft.com/2b37702b-c87f-4f41-8240-a23393019ea3">ColorMatrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534431(v=VS.85).aspx">ColorMatrixEffect</a>
+<a href="https://msdn.microsoft.com/99a4a671-e128-4a1b-8c8a-e9231bd44e96">ColorMatrixEffect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536233(v=VS.85).aspx">ColorMatrixEffect::SetParameters</a>
+<a href="https://msdn.microsoft.com/de649f16-eaf4-4af6-88d3-227aa01825e5">ColorMatrixEffect::SetParameters</a>
  
 
  

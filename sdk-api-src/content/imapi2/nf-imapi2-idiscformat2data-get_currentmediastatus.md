@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_currentmediastatus.htm
 tech.root: imapi
 ms.assetid: b8ed119f-8976-48aa-ab9a-86c1361b6e14
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_CurrentMediaStatus method, IDiscFormat2Data.get_CurrentMediaStatus, IDiscFormat2Data::get_CurrentMediaStatus, get_CurrentMediaStatus, get_CurrentMediaStatus method [IMAPI], get_CurrentMediaStatus method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_currentmediastatus, imapi2/IDiscFormat2Data::get_CurrentMediaStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscFormat2Data.get_CurrentMediaStatus
-: 
 ---
 
 # IDiscFormat2Data::get_CurrentMediaStatus

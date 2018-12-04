@@ -7,7 +7,7 @@ old-location: mf\mfcreateaggregatesource.htm
 tech.root: medfound
 ms.assetid: 7288bd4b-6a74-4528-854d-d82783630422
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFCreateAggregateSource, MFCreateAggregateSource function [Media Foundation], mf.mfcreateaggregatesource, mfidl/MFCreateAggregateSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateAggregateSource
-: 
 ---
 
 # MFCreateAggregateSource function

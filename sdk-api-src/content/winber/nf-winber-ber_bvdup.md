@@ -4,10 +4,10 @@ title: ber_bvdup function
 author: windows-sdk-content
 description: The ber_bvdup function creates a copy of the supplied berval structure.
 old-location: ldap\ber_bvdup.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 512addea-2738-4063-970a-10c5c365fc7d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ber_bvdup, ber_bvdup, ber_bvdup function [LDAP], ldap.ber__bvdup, ldap.ber_bvdup, winber/ber_bvdup"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ber_bvdup
-: 
 ---
 
 # ber_bvdup function

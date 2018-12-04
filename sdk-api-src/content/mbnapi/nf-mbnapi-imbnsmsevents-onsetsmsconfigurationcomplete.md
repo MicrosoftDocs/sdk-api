@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsevents_onsetsmsconfigurationcomplete.htm
 tech.root: mbn
 ms.assetid: d5e5b1fc-88c3-4438-a160-f9969ed6d91a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents interface [Microsoft Broadband Networks],OnSetSmsConfigurationComplete method, IMbnSmsEvents.OnSetSmsConfigurationComplete, IMbnSmsEvents::OnSetSmsConfigurationComplete, OnSetSmsConfigurationComplete, OnSetSmsConfigurationComplete method [Microsoft Broadband Networks], OnSetSmsConfigurationComplete method [Microsoft Broadband Networks],IMbnSmsEvents interface, S_OK, mbn.imbnsmsevents_onsetsmsconfigurationcomplete, mbnapi/IMbnSmsEvents::OnSetSmsConfigurationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnSmsEvents.OnSetSmsConfigurationComplete
-: 
 ---
 
 # IMbnSmsEvents::OnSetSmsConfigurationComplete

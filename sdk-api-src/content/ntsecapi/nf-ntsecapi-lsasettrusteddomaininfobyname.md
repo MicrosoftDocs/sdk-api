@@ -4,10 +4,10 @@ title: LsaSetTrustedDomainInfoByName function
 author: windows-sdk-content
 description: The LsaSetTrustedDomainInfoByName function sets values for a TrustedDomain object.
 old-location: security\lsasettrusteddomaininfobyname.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 263e1025-1010-463d-8bc7-cdf916ce9872
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: LsaSetTrustedDomainInfoByName, LsaSetTrustedDomainInfoByName function [Security], TrustedDomainAuthInformation, TrustedDomainFullInformation, TrustedDomainInformationEx, TrustedPosixInformation, _lsa_lsasettrusteddomaininfobyname, ntsecapi/LsaSetTrustedDomainInfoByName, security.lsasettrusteddomaininfobyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LsaSetTrustedDomainInfoByName
-: 
 ---
 
 # LsaSetTrustedDomainInfoByName function
@@ -142,7 +136,7 @@ Pointer to a structure that contains the information to set. The type of structu
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code. For more information, see 
-the "LSA Policy Function Return Values" section of <a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">Security Management Return Values</a>.
+the "LSA Policy Function Return Values" section of <a href="management_return_values.htm">Security Management Return Values</a>.
 
 You can use the 
 <a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.

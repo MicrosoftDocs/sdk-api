@@ -4,10 +4,10 @@ title: NetServiceInstall function
 author: windows-sdk-content
 description: The NetServiceInstall function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
 old-location: netmgmt\netserviceinstall.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 4eb0cc77-3862-4b1c-8146-2798cdc6ab66
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetServiceInstall, NetServiceInstall function [Network Management], _win32_netserviceinstall, lmsvc/NetServiceInstall, netmgmt.netserviceinstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetServiceInstall
-: 
 ---
 
 # NetServiceInstall function

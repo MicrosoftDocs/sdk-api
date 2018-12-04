@@ -7,7 +7,7 @@ old-location: shell\IProfferService_ProfferService.htm
 tech.root: shell
 ms.assetid: ebd6003d-ac8f-4e5e-9d90-c7e5688bedaa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IProfferService interface [Windows Shell],ProfferService method, IProfferService.ProfferService, IProfferService::ProfferService, ProfferService, ProfferService method [Windows Shell], ProfferService method [Windows Shell],IProfferService interface, inet_IProfferService_ProfferService, shell.IProfferService_ProfferService, shobjidl_core/IProfferService::ProfferService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IProfferService.ProfferService
-: 
 ---
 
 # IProfferService::ProfferService
@@ -75,9 +67,9 @@ A value of type <b>GUID</b> that specifies the service being offered.
 
 ### -param psp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>*</b>
+Type: <b><a href="_inet_IServiceProvider_Interface">IServiceProvider</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a> interface.
+A pointer to an <a href="_inet_IServiceProvider_Interface">IServiceProvider</a> interface.
 
 
 ### -param pdwCookie [out]
@@ -111,7 +103,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>
+<a href="_inet_IServiceProvider_Interface">IServiceProvider</a>
  
 
  

@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiGetDeviceRegistryPropertyW
-: 
 ---
 
 # SetupDiGetDeviceRegistryPropertyW function
@@ -67,7 +61,7 @@ The <b>SetupDiGetDeviceRegistryProperty</b> function retrieves a specified Plug 
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which to retrieve a Plug and Play property.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to retrieve a Plug and Play property.
 
 
 ### -param DeviceInfoData [in]
@@ -265,7 +259,7 @@ The function retrieves a DWORD value that represents the device's type. For more
 
 #### SPDRP_DRIVER
 
-The function retrieves a string that identifies the device's <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a> (sometimes called the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">driver key</a>). For more information about driver keys, see <a href="https://msdn.microsoft.com/library/Ff549815(v=VS.85).aspx">Registry Trees and Keys for Devices and Drivers</a>.
+The function retrieves a string that identifies the device's <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a> (sometimes called the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">driver key</a>). For more information about driver keys, see <a href="devinst.registry_trees_and_keys">Registry Trees and Keys for Devices and Drivers</a>.
 
 
 
@@ -578,7 +572,7 @@ The function retrieves a DWORD value that represents the device's type. For more
 
 ##### - Property.SPDRP_DRIVER
 
-The function retrieves a string that identifies the device's <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a> (sometimes called the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">driver key</a>). For more information about driver keys, see <a href="https://msdn.microsoft.com/library/Ff549815(v=VS.85).aspx">Registry Trees and Keys for Devices and Drivers</a>.
+The function retrieves a string that identifies the device's <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a> (sometimes called the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">driver key</a>). For more information about driver keys, see <a href="devinst.registry_trees_and_keys">Registry Trees and Keys for Devices and Drivers</a>.
 
 
 ##### - Property.SPDRP_ENUMERATOR_NAME

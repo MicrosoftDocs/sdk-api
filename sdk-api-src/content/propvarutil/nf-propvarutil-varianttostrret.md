@@ -7,7 +7,7 @@ old-location: properties\VariantToStrRet.htm
 tech.root: properties
 ms.assetid: dfc1f52e-58c6-48fd-8da9-1d4d5115912c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VariantToStrRet, VariantToStrRet function [Windows Properties], _shell_VariantToStrRet, properties.VariantToStrRet, propvarutil/VariantToStrRet, shell.VariantToStrRet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToStrRet
-: 
 ---
 
 # VariantToStrRet function

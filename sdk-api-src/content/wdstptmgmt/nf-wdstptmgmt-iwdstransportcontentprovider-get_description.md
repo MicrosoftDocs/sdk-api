@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportContentProvider.get_Description
-: 
 ---
 
 # IWdsTransportContentProvider::get_Description

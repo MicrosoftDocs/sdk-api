@@ -4,10 +4,10 @@ title: IGPMSOM::CreateGPOLink
 author: windows-sdk-content
 description: Links the specified GPO to the specified position in the list of GPOs that are linked to a particular SOM.
 old-location: gpmc\igpmsom_creategpolink.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 2f3d8234-617f-4ce4-846a-476c28251989
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateGPOLink, CreateGPOLink method [GPMC], CreateGPOLink method [GPMC],GPMSOM class, CreateGPOLink method [GPMC],IGPMSOM interface, GPMSOM class [GPMC],CreateGPOLink method, IGPMSOM interface [GPMC],CreateGPOLink method, IGPMSOM.CreateGPOLink, IGPMSOM::CreateGPOLink, _win32_igpmsom_creategpolink, gpmc.igpmsom_creategpolink, gpmgmt/IGPMSOM::CreateGPOLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMSOM.CreateGPOLink
-: 
 ---
 
 # IGPMSOM::CreateGPOLink

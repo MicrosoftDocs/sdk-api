@@ -7,7 +7,7 @@ old-location: com\oleuibusy.htm
 tech.root: com
 ms.assetid: 317f0dbf-7ac9-4e5a-a5ed-e6b807f07fb2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: OleUIBusy, OleUIBusy function [COM], OleUIBusyA, OleUIBusyW, _ole_OleUIBusy, com.oleuibusy, oledlg/OleUIBusy, oledlg/OleUIBusyA, oledlg/OleUIBusyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OleUIBusyW
-: 
 ---
 
 # OleUIBusyW function
@@ -388,7 +382,7 @@ A call to <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e4
 </dl>
 </td>
 <td width="60%">
-Unable to call <a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a> for the localized resources from the library.
+Unable to call <a href="_win32_LoadString_cpp">LoadString</a> for the localized resources from the library.
 
 </td>
 </tr>

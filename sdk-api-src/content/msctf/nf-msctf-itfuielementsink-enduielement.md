@@ -7,7 +7,7 @@ old-location: tsf\itfuielementsink_enduielement.htm
 tech.root: TSF
 ms.assetid: b29539fe-a240-498b-8267-be243d437005
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EndUIElement, EndUIElement method [Text Services Framework], EndUIElement method [Text Services Framework],ITfUIElementSink interface, ITfUIElementSink interface [Text Services Framework],EndUIElement method, ITfUIElementSink.EndUIElement, ITfUIElementSink::EndUIElement, msctf/ITfUIElementSink::EndUIElement, tsf.itfuielementsink_enduielement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfUIElementSink.EndUIElement
-: 
 ---
 
 # ITfUIElementSink::EndUIElement

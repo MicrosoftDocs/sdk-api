@@ -4,10 +4,10 @@ title: IX509PublicKey::get_Length
 author: windows-sdk-content
 description: Retrieves the length of the public key.
 old-location: security\ix509publickey_length_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: c386fb27-84c5-4570-9cdb-202baa726b96
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IX509PublicKey interface [Security],Length property, IX509PublicKey.Length, IX509PublicKey.get_Length, IX509PublicKey::Length, IX509PublicKey::get_Length, Length property [Security], Length property [Security],IX509PublicKey interface, certenroll/IX509PublicKey::Length, certenroll/IX509PublicKey::get_Length, get_Length, security.ix509publickey_length_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509PublicKey.get_Length
-: 
 ---
 
 # IX509PublicKey::get_Length
@@ -71,7 +63,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa379044(v=VS.85).aspx">InitializeFromEncodedPublicKeyInfo</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa379045(v=VS.85).aspx">Initialize</a> method to initialize the public key object before calling this property.
+Call the <a href="https://msdn.microsoft.com/3e92d934-1ab7-4f09-a579-0dde4ef44c7f">InitializeFromEncodedPublicKeyInfo</a> method or the <a href="https://msdn.microsoft.com/b6db46b2-95f5-4ba9-829d-97bf83fd9806">Initialize</a> method to initialize the public key object before calling this property.
 
 
 
@@ -81,7 +73,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa379044(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379039(v=VS.85).aspx">IX509PublicKey</a>
+<a href="https://msdn.microsoft.com/cd6f28a3-9998-40d7-a3e8-dab0cf3991a8">IX509PublicKey</a>
  
 
  

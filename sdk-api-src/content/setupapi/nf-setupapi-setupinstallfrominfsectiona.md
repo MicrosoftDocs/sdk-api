@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupInstallFromInfSectionA
-: 
 ---
 
 # SetupInstallFromInfSectionA function
@@ -222,7 +216,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 The file version information used during version checks is that specified in the 
           <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-          <a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled 
+          <a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled 
           in by the  version functions. If one of the files does not have version resources, or if they have 
           identical version information, the source file is considered newer.
 

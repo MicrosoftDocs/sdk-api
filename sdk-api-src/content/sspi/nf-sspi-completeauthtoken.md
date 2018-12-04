@@ -4,10 +4,10 @@ title: CompleteAuthToken function
 author: windows-sdk-content
 description: Completes an authentication token.
 old-location: security\completeauthtoken.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: a404d0a3-d1ea-4708-87d7-2d216e9a5f5f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CompleteAuthToken, CompleteAuthToken function [Security], _ssp_completeauthtoken, security.completeauthtoken, sspi/CompleteAuthToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CompleteAuthToken
-: 
 ---
 
 # CompleteAuthToken function
@@ -174,7 +168,7 @@ The client of a transport application calls the <b>CompleteAuthToken</b> functio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

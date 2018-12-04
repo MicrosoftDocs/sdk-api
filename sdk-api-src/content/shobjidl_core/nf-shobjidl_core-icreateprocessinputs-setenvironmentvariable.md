@@ -7,7 +7,7 @@ old-location: shell\icreateprocessinputs_setenvironmentvariable.htm
 tech.root: shell
 ms.assetid: 5898B21B-5D3B-4950-9DB4-5B7FD19C9187
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ICreateProcessInputs interface [Windows Shell],SetEnvironmentVariable method, ICreateProcessInputs.SetEnvironmentVariable, ICreateProcessInputs::SetEnvironmentVariable, SetEnvironmentVariable, SetEnvironmentVariable method [Windows Shell], SetEnvironmentVariable method [Windows Shell],ICreateProcessInputs interface, shell.icreateprocessinputs_setenvironmentvariable, shobjidl_core/ICreateProcessInputs::SetEnvironmentVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- ICreateProcessInputs.SetEnvironmentVariable
-: 
 ---
 
 # ICreateProcessInputs::SetEnvironmentVariable

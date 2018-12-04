@@ -4,10 +4,10 @@ title: tagOFFLINEFILES_SETTING_VALUE_TYPE
 author: windows-sdk-content
 description: Identifies the data type returned by the IOfflineFilesSetting::GetValueType method.
 old-location: of\offlinefiles_setting_value_type.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 37569197-efd3-4e4e-953a-3bbd2cb07d5a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_BSTR, OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_UI4, OFFLINEFILES_SETTING_VALUE_BSTR, OFFLINEFILES_SETTING_VALUE_BSTR_DBLNULTERM, OFFLINEFILES_SETTING_VALUE_TYPE, OFFLINEFILES_SETTING_VALUE_TYPE enumeration [Offline Files], OFFLINEFILES_SETTING_VALUE_UI4, cscobj/OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_BSTR, cscobj/OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_UI4, cscobj/OFFLINEFILES_SETTING_VALUE_BSTR, cscobj/OFFLINEFILES_SETTING_VALUE_BSTR_DBLNULTERM, cscobj/OFFLINEFILES_SETTING_VALUE_TYPE, cscobj/OFFLINEFILES_SETTING_VALUE_UI4, of.offlinefiles_setting_value_type, tagOFFLINEFILES_SETTING_VALUE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifies the data type returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb530609(v=VS.85).aspx">IOfflineFilesSetting::GetValueType</a> method.
+Identifies the data type returned by the <a href="https://msdn.microsoft.com/2b5567bf-a7c6-40b3-ac16-9da805ddb3b3">IOfflineFilesSetting::GetValueType</a> method.
 
 
 ## -enum-fields
@@ -88,7 +88,7 @@ A 2-dimensional array.  Each row is a <i>name,value</i> pair. Used to represent 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530609(v=VS.85).aspx">IOfflineFilesSetting::GetValueType</a>
+<a href="https://msdn.microsoft.com/2b5567bf-a7c6-40b3-ac16-9da805ddb3b3">IOfflineFilesSetting::GetValueType</a>
  
 
  

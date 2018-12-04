@@ -7,7 +7,7 @@ old-location: com\createdatacache.htm
 tech.root: com
 ms.assetid: 8a64675b-1337-4555-b9a6-e19f9b987ba2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: CreateDataCache, CreateDataCache function [COM], _ole_CreateDataCache, com.createdatacache, objbase/CreateDataCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateDataCache
-: 
 ---
 
 # CreateDataCache function

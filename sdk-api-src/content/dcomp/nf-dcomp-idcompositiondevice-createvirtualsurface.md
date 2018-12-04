@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice_createvirtualsurface.htm
 tech.root: directcomp
 ms.assetid: 85619C69-F5AE-4F07-AE56-7305BBECD58F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateVirtualSurface, CreateVirtualSurface method [DirectComposition], CreateVirtualSurface method [DirectComposition],IDCompositionDevice interface, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_UNSPECIFIED, IDCompositionDevice interface [DirectComposition],CreateVirtualSurface method, IDCompositionDevice.CreateVirtualSurface, IDCompositionDevice::CreateVirtualSurface, dcomp/IDCompositionDevice::CreateVirtualSurface, directcomp.idcompositiondevice_createvirtualsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionDevice.CreateVirtualSurface
-: 
 ---
 
 # IDCompositionDevice::CreateVirtualSurface
@@ -181,9 +173,13 @@ This method fails if <i>initialWidth</i> or <i>initialHeight</i> exceeds 16,777,
 
 The following example shows how to create a virtual surface and associate it with a visual.
 
-
-```cpp
-HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
                          UINT surfaceWidth, UINT surfaceHeight) 
 {
     // Validate the input parameters.
@@ -198,39 +194,39 @@ HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
     POINT offset = {0};
 
     // Create the rendering target. 
-    hr = pDCompDevice->CreateTargetForHwnd(hwndTarget, TRUE, &pTargetWindow);
+    hr = pDCompDevice-&gt;CreateTargetForHwnd(hwndTarget, TRUE, &amp;pTargetWindow);
 
     if (SUCCEEDED(hr))
     {
         // Create a visual.
-        hr = pDCompDevice->CreateVisual(&pVisual);
+        hr = pDCompDevice-&gt;CreateVisual(&amp;pVisual);
     }
 
     if (SUCCEEDED(hr))
     {
         // Add the visual to the root of the composition tree.
-        hr = pTargetWindow->SetRoot(pVisual);
+        hr = pTargetWindow-&gt;SetRoot(pVisual);
     }
 
     if (SUCCEEDED(hr))
     {
         // Create a virtual surface.
-        hr = pDCompDevice->CreateVirtualSurface(surfaceWidth, surfaceHeight, 
+        hr = pDCompDevice-&gt;CreateVirtualSurface(surfaceWidth, surfaceHeight, 
             DXGI_FORMAT_R8G8B8A8_UNORM, DXGI_ALPHA_MODE_IGNORE, 
-            &pVirtualSurface);
+            &amp;pVirtualSurface);
     }
 
     if (SUCCEEDED(hr))
     {
         // Set the virtual surface as the content of the visual.
-        hr = pVisual->SetContent(pVirtualSurface);
+        hr = pVisual-&gt;SetContent(pVirtualSurface);
     }
     
     if (SUCCEEDED(hr))
     {
         // Retrieve and interface pointer for draw on the surface.
-        hr = pVirtualSurface->BeginDraw(NULL, __uuidof(ID3D10Texture2D), 
-            (void **) &pTex2D, &offset);
+        hr = pVirtualSurface-&gt;BeginDraw(NULL, __uuidof(ID3D10Texture2D), 
+            (void **) &amp;pTex2D, &amp;offset);
     }
 
     //
@@ -240,25 +236,25 @@ HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
     if (SUCCEEDED(hr))
     {
         // Complete the updates to the surface.
-        hr = pVirtualSurface->EndDraw();
+        hr = pVirtualSurface-&gt;EndDraw();
     }
 
     // Commit the composition for rendering.
-    hr = pDCompDevice->Commit();
+    hr = pDCompDevice-&gt;Commit();
 
     // Clean up.
-    SafeRelease(&pTargetWindow);
-    SafeRelease(&pVisual);
-    SafeRelease(&pVirtualSurface);
-    SafeRelease(&pTex2D);
+    SafeRelease(&amp;pTargetWindow);
+    SafeRelease(&amp;pVisual);
+    SafeRelease(&amp;pVirtualSurface);
+    SafeRelease(&amp;pTex2D);
 
     return hr;
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

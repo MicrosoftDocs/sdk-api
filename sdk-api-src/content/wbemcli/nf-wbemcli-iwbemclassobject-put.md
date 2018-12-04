@@ -51,14 +51,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemcli.h
-: 
-- IWbemClassObject.Put
-: 
 ---
 
 # IWbemClassObject::Put
@@ -109,7 +101,7 @@ If <i>pVal</i> is to contain an embedded
 <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a>, the caller must call <b>IWbemClassObject::QueryInterface</b> for <b>IID_IUnknown</b> and place the resulting pointer in the <b>VARIANT</b> using a type of <b>VT_UNKNOWN</b>. The original embedded object is copied during the 
 <b>Put</b> operation, and so cannot be modified by the operation.
 
-The pointer is treated as read-only. The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> after this call is complete.
+The pointer is treated as read-only. The caller must call <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> after this call is complete.
 
 Use this parameter only when creating new properties in a CIM class definition and <i>pVal</i> is <b>NULL</b> or points to a <b>VARIANT</b> of type <b>VT_NULL</b>. In such a case, the <i>vtType</i> parameter specifies the CIM type of the property. In every other case, <i>vtType</i> must be 0 (zero). Also, <i>vtType</i> must be 0 (zero) when the underlying object is an instance (even if <i>pVal</i> is <b>NULL</b>), because the type of the property is fixed and cannot be changed. In other words, use <i>vtType</i> if, and only if, <i>pVal</i> is <b>NULL</b> or points to a <b>VT_NULL</b><b>VARIANT</b>, and the underlying object is a CIM class.
 
@@ -227,7 +219,7 @@ VariantClear(&amp;v);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a>
+<a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a>
 
 
 

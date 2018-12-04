@@ -7,7 +7,7 @@ old-location: imapi\dfilesystemimageimportevents.htm
 tech.root: imapi
 ms.assetid: 972ab985-17c5-4458-a7f4-59ac25c0dca4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DFileSystemImageImportEvents, DFileSystemImageImportEvents interface [IMAPI], DFileSystemImageImportEvents interface [IMAPI],described, imapi.dfilesystemimageimportevents, imapi2fs/DFileSystemImageImportEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ Use this interface to receives notifications regarding the current file system i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DFileSystemImageImportEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>DFileSystemImageImportEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DFileSystemImageImportEvents</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>DFileSystemImageImportEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

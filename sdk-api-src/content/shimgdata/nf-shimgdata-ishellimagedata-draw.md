@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_Draw.htm
 tech.root: shell
 ms.assetid: 35989c3b-15b9-4503-a883-99df730b2a80
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Draw, Draw method [Windows Shell], Draw method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],Draw method, IShellImageData.Draw, IShellImageData::Draw, _shell_IShellImageData_Draw, shell.IShellImageData_Draw, shimgdata/IShellImageData::Draw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shimgdata.h
-: 
-- IShellImageData.Draw
-: 
 ---
 
 # IShellImageData::Draw

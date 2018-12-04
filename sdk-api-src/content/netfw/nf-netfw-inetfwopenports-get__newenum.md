@@ -4,10 +4,10 @@ title: INetFwOpenPorts::get__NewEnum
 author: windows-sdk-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the ports in the collection.
 old-location: ics\inetfwopenports_newenum.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: a7de2fef-7966-4742-a821-7fce0bf3bba2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],_NewEnum property, INetFwOpenPorts._NewEnum, INetFwOpenPorts.get__NewEnum, INetFwOpenPorts::_NewEnum, INetFwOpenPorts::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwOpenPorts interface, get__NewEnum, ics.inetfwopenports_newenum, netfw/INetFwOpenPorts::_NewEnum, netfw/INetFwOpenPorts::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwOpenPorts.get__NewEnum
-: 
 ---
 
 # INetFwOpenPorts::get__NewEnum

@@ -7,7 +7,7 @@ old-location: dshow\ifilesourcefilter.htm
 tech.root: DirectShow
 ms.assetid: ad70fddb-4fc9-4010-a469-9a8ca4b47379
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFileSourceFilter, IFileSourceFilter interface [DirectShow], IFileSourceFilter interface [DirectShow],described, IFileSourceFilterInterface, dshow.ifilesourcefilter, strmif/IFileSourceFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

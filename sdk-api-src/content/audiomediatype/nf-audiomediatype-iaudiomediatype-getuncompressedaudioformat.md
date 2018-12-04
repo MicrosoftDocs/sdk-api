@@ -7,7 +7,7 @@ old-location: audio\iaudiomediatype_getuncompressedaudioformat.htm
 tech.root: audio
 ms.assetid: 9b4661cc-77b3-439b-bf28-5f9738dca6e1
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: GetUncompressedAudioFormat, GetUncompressedAudioFormat method [Audio Devices], GetUncompressedAudioFormat method [Audio Devices],IAudioMediaType interface, IAudioMediaType interface [Audio Devices],GetUncompressedAudioFormat method, IAudioMediaType.GetUncompressedAudioFormat, IAudioMediaType::GetUncompressedAudioFormat, audio.iaudiomediatype_getuncompressedaudioformat, audio_syseffects_r_2e6e3723-2bc2-4e75-b64d-9b577d7916d6.xml, audiomediatype/IAudioMediaType::GetUncompressedAudioFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- audiomediatype.h
-: 
-- IAudioMediaType.GetUncompressedAudioFormat
-: 
 ---
 
 # IAudioMediaType::GetUncompressedAudioFormat

@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncchanges_reset.htm
 tech.root: winsync
 ms.assetid: d13bee6b-ef8e-4245-89b6-d381618bdd09
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumSyncChanges interface [Windows Sync],Reset method, IEnumSyncChanges.Reset, IEnumSyncChanges::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncChanges interface, winsync.ienumsyncchanges_reset, winsync/IEnumSyncChanges::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- IEnumSyncChanges.Reset
-: 
 ---
 
 # IEnumSyncChanges::Reset

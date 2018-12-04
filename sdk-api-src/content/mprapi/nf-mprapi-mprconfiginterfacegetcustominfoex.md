@@ -4,10 +4,10 @@ title: MprConfigInterfaceGetCustomInfoEx function
 author: windows-sdk-content
 description: Retrieves the custom IKEv2 policy configuration for the specified interface.
 old-location: rras\mprconfiginterfacegetcustominfoex.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 97fa62f4-5e1c-4634-a3c7-974425717080
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MprConfigInterfaceGetCustomInfoEx, MprConfigInterfaceGetCustomInfoEx function [RAS], mprapi/MprConfigInterfaceGetCustomInfoEx, rras.mprconfiginterfacegetcustominfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprConfigInterfaceGetCustomInfoEx
-: 
 ---
 
 # MprConfigInterfaceGetCustomInfoEx function

@@ -4,10 +4,10 @@ title: SymRegisterCallback function
 author: windows-sdk-content
 description: Registers a callback function for use by the symbol handler.
 old-location: base\symregistercallback64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 91d123cd-f68f-4120-b98d-7e3f94b7b1ec
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SymRegisterCallback, SymRegisterCallback function, SymRegisterCallback64, SymRegisterCallback64 function, SymRegisterCallbackW64, _win32_symregistercallback64, base.symregistercallback64, dbghelp/SymRegisterCallback, dbghelp/SymRegisterCallback64, dbghelp/SymRegisterCallbackW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
-- apiref
-: 
-- 
-: 
-- SymRegisterCallback
-: 
 ---
 
 # SymRegisterCallback function

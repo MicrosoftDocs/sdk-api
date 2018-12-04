@@ -7,7 +7,7 @@ old-location: gdi\invertrgn.htm
 tech.root: gdi
 ms.assetid: 94704c44-796a-4ca7-97f3-6676d7f94078
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: InvertRgn, InvertRgn function [Windows GDI], _win32_InvertRgn, gdi.invertrgn, wingdi/InvertRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InvertRgn
-: 
 ---
 
 # InvertRgn function

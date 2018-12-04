@@ -4,10 +4,10 @@ title: NtWaitForSingleObject function
 author: windows-sdk-content
 description: Deprecated. Waits until the specified object attains a state of signaled. NtWaitForSingleObject is superseded by WaitForSingleObject.
 old-location: winprog\ntwaitforsingleobject.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntwaitforsingleobject.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "'NtWaitForSingleObject, FALSE, NtWaitForSingleObject, NtWaitForSingleObject function [Windows API], TRUE, winprog.ntwaitforsingleobject, winternl/NtWaitForSingleObject, winui.ntwaitforsingleobject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NtWaitForSingleObject
-: 
 ---
 
 # NtWaitForSingleObject function
@@ -151,7 +145,7 @@ The
 </dl>
 </td>
 <td width="60%">
-The wait was aborted to deliver a user <a href="https://msdn.microsoft.com/library/ms681951(v=VS.85).aspx">Asynchronous Procedure Call (APC)</a> to the current thread.
+The wait was aborted to deliver a user <a href="_win32_Asynchronous_Procedure_Calls">Asynchronous Procedure Call (APC)</a> to the current thread.
 
 </td>
 </tr>

@@ -4,10 +4,10 @@ title: IAzScope::CreateRole
 author: windows-sdk-content
 description: Creates an IAzRole object with the specified name.
 old-location: security\iazscope_createrole.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: a5e527f9-0aab-40d9-83fe-f19f73673266
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AzScope object [Security],CreateRole method, CreateRole, CreateRole method [Security], CreateRole method [Security],AzScope object, CreateRole method [Security],IAzScope interface, IAzScope interface [Security],CreateRole method, IAzScope.CreateRole, IAzScope::CreateRole, azroles/IAzScope::CreateRole, security.iazscope_createrole
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzScope.CreateRole
-: 
 ---
 
 # IAzScope::CreateRole

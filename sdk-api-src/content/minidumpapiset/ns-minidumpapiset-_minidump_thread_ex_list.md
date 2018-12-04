@@ -4,10 +4,10 @@ title: "_MINIDUMP_THREAD_EX_LIST"
 author: windows-sdk-content
 description: Contains a list of threads.
 old-location: base\minidump_thread_ex_list_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 653f1079-07c9-43b9-8dfe-05e99b365bdc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*PMINIDUMP_THREAD_EX_LIST, MINIDUMP_THREAD_EX_LIST, MINIDUMP_THREAD_EX_LIST structure, PMINIDUMP_THREAD_EX_LIST, PMINIDUMP_THREAD_EX_LIST structure pointer, _MINIDUMP_THREAD_EX_LIST, _win32_minidump_thread_ex_list_str, base.minidump_thread_ex_list_str, minidumpapiset/MINIDUMP_THREAD_EX_LIST, minidumpapiset/PMINIDUMP_THREAD_EX_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

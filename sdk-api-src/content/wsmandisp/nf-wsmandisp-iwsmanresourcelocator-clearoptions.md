@@ -4,10 +4,10 @@ title: IWSManResourceLocator::ClearOptions
 author: windows-sdk-content
 description: Removes any options from the ResourceLocator object.
 old-location: winrm\iwsmanresourcelocator_clearoptions.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 4c71948d-2321-41b5-b961-c4a514830b26
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ClearOptions, ClearOptions method [Windows Remote Management], ClearOptions method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],ClearOptions method, IWSManResourceLocator.ClearOptions, IWSManResourceLocator::ClearOptions, winrm.iwsmanresourcelocator_clearoptions, wsmandisp/IWSManResourceLocator::ClearOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManResourceLocator.ClearOptions
-: 
 ---
 
 # IWSManResourceLocator::ClearOptions
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Removes any <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">options</a> from the <a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41e9">ResourceLocator</a> object. You can provide a <a href="https://msdn.microsoft.com/7b3dcb53-d02c-4ba6-973d-1493ba442387">ResourceLocator</a> object instead of specifying a resource URI in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object operations such as <a href="https://msdn.microsoft.com/f6393cfb-0787-4d30-8d02-be0996885f22">Get</a>, <a href="https://msdn.microsoft.com/1224dab8-82d1-4416-8c21-e84fdda15deb">Put</a>, or <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">Enumerate</a>.
+Removes any <a href="windows_remote_management_glossary.htm">options</a> from the <a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41e9">ResourceLocator</a> object. You can provide a <a href="https://msdn.microsoft.com/7b3dcb53-d02c-4ba6-973d-1493ba442387">ResourceLocator</a> object instead of specifying a resource URI in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object operations such as <a href="https://msdn.microsoft.com/f6393cfb-0787-4d30-8d02-be0996885f22">Get</a>, <a href="https://msdn.microsoft.com/1224dab8-82d1-4416-8c21-e84fdda15deb">Put</a>, or <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">Enumerate</a>.
 
 
 ## -parameters

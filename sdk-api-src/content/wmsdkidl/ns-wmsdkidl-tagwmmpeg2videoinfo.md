@@ -7,7 +7,7 @@ old-location: wmformat\wmmpeg2videoinfo.htm
 tech.root: wmformat
 ms.assetid: e5907b04-200c-4459-971b-3680989a564f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WMMPEG2VIDEOINFO, WMMPEG2VIDEOINFO structure [windows Media Format], tagWMMPEG2VIDEOINFO, wmformat.wmmpeg2videoinfo, wmsdkidl/WMMPEG2VIDEOINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

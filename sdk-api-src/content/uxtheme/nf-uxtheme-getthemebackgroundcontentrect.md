@@ -4,10 +4,10 @@ title: GetThemeBackgroundContentRect function
 author: windows-sdk-content
 description: Retrieves the size of the content area for the background defined by the visual style.
 old-location: controls\GetThemeBackgroundContentRect.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundcontentrect.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetThemeBackgroundContentRect, GetThemeBackgroundContentRect function [Windows Controls], controls.GetThemeBackgroundContentRect, controls.inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect_cpp, uxtheme/GetThemeBackgroundContentRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetThemeBackgroundContentRect
-: 
 ---
 
 # GetThemeBackgroundContentRect function
@@ -70,7 +64,7 @@ Retrieves the size of the content area for the background defined by the visual 
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a> to create an HTHEME.
 
 
 ### -param hdc [in]
@@ -84,14 +78,14 @@ HDC to use when drawing. This parameter may be set to <b>NULL</b>.
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part that contains the content area. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the part that contains the content area. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part that contains the content area. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part that contains the content area. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param pBoundingRect [in]
@@ -128,7 +122,7 @@ A visual style can define a content area within each background image. This is t
 
 #### Examples
 
-When applying a theme to an entire client area of a window, you can call <a href="https://msdn.microsoft.com/en-us/library/ms633503(v=VS.85).aspx">GetClientRect</a> to retrieve this area in a <b>RECT</b>, which can be passed via pointer as the <i>pContentRect</i> parameter to <b>GetThemeBackgroundContentRect</b> as in the following example.
+When applying a theme to an entire client area of a window, you can call <a href="https://msdn.microsoft.com/3746920a-8333-411c-a0f2-4e44b9cce973">GetClientRect</a> to retrieve this area in a <b>RECT</b>, which can be passed via pointer as the <i>pContentRect</i> parameter to <b>GetThemeBackgroundContentRect</b> as in the following example.
 		
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -151,11 +145,11 @@ bool ctrlsAreThemed = ((resultFlags &amp; STAP_ALLOW_CONTROLS) != 0);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773380(v=VS.85).aspx">GetThemeBackgroundExtent</a>
+<a href="https://msdn.microsoft.com/3db9c648-f040-475f-bb5f-59f138b6ed2e">GetThemeBackgroundExtent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>
+<a href="https://msdn.microsoft.com/b0e22022-fea9-43d1-8ef0-7a1c518760f1">Property Identifiers</a>
 
 
 

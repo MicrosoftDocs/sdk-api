@@ -7,7 +7,7 @@ old-location: imapi\ifsidirectoryitem2_addtreewithnamedstreams.htm
 tech.root: imapi
 ms.assetid: d87d1932-85d4-4d7d-99a7-933a87b48b6a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddTreeWithNamedStreams, AddTreeWithNamedStreams method [IMAPI], AddTreeWithNamedStreams method [IMAPI],IFsiDirectoryItem2 interface, IFsiDirectoryItem2 interface [IMAPI],AddTreeWithNamedStreams method, IFsiDirectoryItem2.AddTreeWithNamedStreams, IFsiDirectoryItem2::AddTreeWithNamedStreams, imapi.ifsidirectoryitem2_addtreewithnamedstreams, imapi2fs/IFsiDirectoryItem2::AddTreeWithNamedStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2fs.h
-: 
-- IFsiDirectoryItem2.AddTreeWithNamedStreams
-: 
 ---
 
 # IFsiDirectoryItem2::AddTreeWithNamedStreams

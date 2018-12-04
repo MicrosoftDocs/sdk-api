@@ -4,10 +4,10 @@ title: EapPeerBeginSession function
 author: windows-sdk-content
 description: Starts an EAP authentication session on the peer EAPHost using the EAP method.
 old-location: eaphost\eappeerbeginsession.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 770a548c-c227-4708-bc40-08bf2681c90f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EapPeerBeginSession, EapPeerBeginSession function [EAPHost], eaphost.eappeerbeginsession, eapmethodpeerapis/EapPeerBeginSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapPeerBeginSession
-: 
 ---
 
 # EapPeerBeginSession function

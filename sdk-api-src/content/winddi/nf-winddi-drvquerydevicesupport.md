@@ -7,7 +7,7 @@ old-location: display\drvquerydevicesupport.htm
 tech.root: display
 ms.assetid: 684c5dd5-edf0-4b7d-888c-c01eb9670846
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: DrvQueryDeviceSupport, DrvQueryDeviceSupport function [Display Devices], ddifncs_21186d04-cf17-4707-88b4-bd72d5f78b23.xml, display.drvquerydevicesupport, winddi/DrvQueryDeviceSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DrvQueryDeviceSupport
-: 
 ---
 
 # DrvQueryDeviceSupport function

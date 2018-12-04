@@ -7,7 +7,7 @@ old-location: com\icallinterceptor_registersink.htm
 tech.root: com
 ms.assetid: 07de2e42-0490-4801-8951-6e71ffb8ed93
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: ICallInterceptor interface [COM],RegisterSink method, ICallInterceptor.RegisterSink, ICallInterceptor::RegisterSink, RegisterSink, RegisterSink method [COM], RegisterSink method [COM],ICallInterceptor interface, _com_icallinterceptor_registersink, callobj/ICallInterceptor::RegisterSink, com.icallinterceptor_registersink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- callobj.h
-: 
-- ICallInterceptor.RegisterSink
-: 
 ---
 
 # ICallInterceptor::RegisterSink
@@ -70,7 +62,7 @@ Only a single event sink may be registered with an interceptor at a time. Regist
 
 ### -param psink [in]
 
-A pointer to the event sink. See <a href="https://msdn.microsoft.com/en-us/library/ms680109(v=VS.85).aspx">ICallFrameEvents</a>.
+A pointer to the event sink. See <a href="https://msdn.microsoft.com/2f1e1b8d-6150-45e9-89e2-524d80df558d">ICallFrameEvents</a>.
 
 
 ## -returns
@@ -117,7 +109,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693378(v=VS.85).aspx">ICallInterceptor</a>
+<a href="https://msdn.microsoft.com/d0a72c87-598b-4ebe-bc93-65e0927a4c3d">ICallInterceptor</a>
  
 
  

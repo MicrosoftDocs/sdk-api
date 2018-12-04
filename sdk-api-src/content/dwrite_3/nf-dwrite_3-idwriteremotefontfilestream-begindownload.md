@@ -7,7 +7,7 @@ old-location: directwrite\idwriteremotefontfilestream_begindownload.htm
 tech.root: DirectWrite
 ms.assetid: A0EE8383-81A8-4974-B213-142704EFA210
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: BeginDownload, BeginDownload method [Direct Write], BeginDownload method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],BeginDownload method, IDWriteRemoteFontFileStream.BeginDownload, IDWriteRemoteFontFileStream::BeginDownload, directwrite.idwriteremotefontfilestream_begindownload, dwrite_3/IDWriteRemoteFontFileStream::BeginDownload
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_3.h
-: 
-- IDWriteRemoteFontFileStream.BeginDownload
-: 
 ---
 
 # IDWriteRemoteFontFileStream::BeginDownload

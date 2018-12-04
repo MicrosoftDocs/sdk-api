@@ -7,7 +7,7 @@ old-location: windowsribbon\iuieventingmanager_seteventlogger.htm
 tech.root: windowsribbon
 ms.assetid: C0228AB3-790A-469E-B185-06A26D02A96F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/20/2018
 ms.keywords: IUIEventingManager interface [Windows Ribbon],SetEventLogger method, IUIEventingManager.SetEventLogger, IUIEventingManager::SetEventLogger, SetEventLogger, SetEventLogger method [Windows Ribbon], SetEventLogger method [Windows Ribbon],IUIEventingManager interface, uiribbon/IUIEventingManager::SetEventLogger, windowsribbon.iuieventingmanager_seteventlogger
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiribbon.h
-: 
-- IUIEventingManager.SetEventLogger
-: 
 ---
 
 # IUIEventingManager::SetEventLogger
@@ -86,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Call <a href="https://msdn.microsoft.com/en-us/library/Dd371373(v=VS.85).aspx">IUIFramework::Initialize</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371471(v=VS.85).aspx">IUIFramework::LoadUI</a> before calling this method.
+Call <a href="https://msdn.microsoft.com/bb6525dd-7e05-40e0-bdcc-c66f31a99f46">IUIFramework::Initialize</a> and <a href="https://msdn.microsoft.com/d8860459-ad4d-4783-9fef-25d313bc15c7">IUIFramework::LoadUI</a> before calling this method.
 
 
 

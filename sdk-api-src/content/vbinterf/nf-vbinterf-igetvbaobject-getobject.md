@@ -7,7 +7,7 @@ old-location: com\igetvbaobject_getobject.htm
 tech.root: com
 ms.assetid: 0701c4e7-9a35-42fe-893c-ca898b3716ea
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IGetVBAObject interface, IGetVBAObject interface [COM],GetObject method, IGetVBAObject.GetObject, IGetVBAObject::GetObject, _com_IGetVBAObject_GetObject, com.igetvbaobject_getobject, vbinterf/IGetVBAObject::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vbinterf.h
-: 
-- IGetVBAObject.GetObject
-: 
 ---
 
 # IGetVBAObject::GetObject

@@ -4,10 +4,10 @@ title: INetFwOpenPort::put_Name
 author: windows-sdk-content
 description: Specifies the friendly name of this port.
 old-location: ics\inetfwopenport_name.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: f81abb86-095c-4459-af71-a0c10f7b1acd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Name property, INetFwOpenPort.Name, INetFwOpenPort.put_Name, INetFwOpenPort::Name, INetFwOpenPort::get_Name, INetFwOpenPort::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwOpenPort interface, ics.inetfwopenport_name, netfw/INetFwOpenPort::Name, netfw/INetFwOpenPort::get_Name, netfw/INetFwOpenPort::put_Name, put_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwOpenPort.put_Name
-: 
 ---
 
 # INetFwOpenPort::put_Name

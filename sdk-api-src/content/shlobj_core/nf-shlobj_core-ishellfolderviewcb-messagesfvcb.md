@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewCB_MessageSFVCB.htm
 tech.root: shell
 ms.assetid: 1678dd76-6ed4-4625-9170-22dcd3d7e8d2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IShellFolderViewCB interface [Windows Shell],MessageSFVCB method, IShellFolderViewCB.MessageSFVCB, IShellFolderViewCB::MessageSFVCB, MessageSFVCB, MessageSFVCB method [Windows Shell], MessageSFVCB method [Windows Shell],IShellFolderViewCB interface, _win32_IShellFolderViewCB_MessageSFVCB, shell.IShellFolderViewCB_MessageSFVCB, shlobj_core/IShellFolderViewCB::MessageSFVCB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shlobj_core.h
-: 
-- IShellFolderViewCB.MessageSFVCB
-: 
 ---
 
 # IShellFolderViewCB::MessageSFVCB

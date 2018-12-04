@@ -4,10 +4,10 @@ title: "_MSA_INFO_0"
 author: windows-sdk-content
 description: Specifies information about a managed service account.
 old-location: security\msa_info_0.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 21e04ee8-98c9-4c78-9564-e07f5edaf847
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPMSA_INFO_0, *PMSA_INFO_0, MSA_INFO_0, MSA_INFO_0 structure [Security], PMSA_INFO_0, PMSA_INFO_0 structure pointer [Security], _MSA_INFO_0, lmaccess/MSA_INFO_0, lmaccess/PMSA_INFO_0, security.msa_info_0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

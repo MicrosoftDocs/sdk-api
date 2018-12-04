@@ -4,10 +4,10 @@ title: IFsrmCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the IUnknown pointer of a new IEnumVARIANT enumeration for the items in the collection.
 old-location: fsrm\ifsrmcollection__newenum.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 0973b046-e350-44df-a02d-40b0ba272638
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],_NewEnum property, IFsrmCollection._NewEnum, IFsrmCollection.get__NewEnum, IFsrmCollection::_NewEnum, IFsrmCollection::get__NewEnum, _NewEnum property [File Server Resource Manager], _NewEnum property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection__newenum, fsrm.ifsrmcollection__newenum, fsrm/IFsrmCollection::_NewEnum, fsrm/IFsrmCollection::get__NewEnum, get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrm.h
-: 
-- IFsrmCollection.get__NewEnum
-: 
 ---
 
 # IFsrmCollection::get__NewEnum
@@ -59,7 +51,7 @@ req.redist:
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer of a new 
+Retrieves the <a href="_com_IUnknown">IUnknown</a> pointer of a new 
     <a href="https://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> enumeration for the items in 
     the collection.
 
@@ -75,7 +67,7 @@ This property is read-only.
 
 C/C++ users use this method to enumerate items in the collection. Call the 
     <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> of the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface to get the 
+    <a href="_com_IUnknown">IUnknown</a> interface to get the 
     <a href="https://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface. Use the 
     <a href="https://msdn.microsoft.com/691c1624-8d01-41e0-890e-a4782eba1f59">IEnumVARIANT::Next</a> method to enumerate 
     the items of the collection. The items are returned as <b>VARIANT</b> values.

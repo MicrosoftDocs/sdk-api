@@ -4,10 +4,10 @@ title: WaitForThreadpoolIoCallbacks function
 author: windows-sdk-content
 description: Waits for outstanding I/O completion callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.
 old-location: base\waitforthreadpooliocallbacks.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 68dc640d-8678-441d-88bd-01284d98a251
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WaitForThreadpoolIoCallbacks, WaitForThreadpoolIoCallbacks function, base.waitforthreadpooliocallbacks, threadpoolapiset/WaitForThreadpoolIoCallbacks, winbase/WaitForThreadpoolIoCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WaitForThreadpoolIoCallbacks
-: 
 ---
 
 # WaitForThreadpoolIoCallbacks function

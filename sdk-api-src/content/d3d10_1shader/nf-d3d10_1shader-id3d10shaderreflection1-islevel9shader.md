@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflection1_islevel9shader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_islevel9shader.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ID3D10ShaderReflection1 interface [Direct3D 10],IsLevel9Shader method, ID3D10ShaderReflection1.IsLevel9Shader, ID3D10ShaderReflection1::IsLevel9Shader, IsLevel9Shader, IsLevel9Shader method [Direct3D 10], IsLevel9Shader method [Direct3D 10],ID3D10ShaderReflection1 interface, d3d10_1shader/ID3D10ShaderReflection1::IsLevel9Shader, direct3d10.id3d10shaderreflection1_islevel9shader, eca068fc-c01b-15d4-2317-dbe4b6cf2b82
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10_1shader.h
-: 
-- ID3D10ShaderReflection1.IsLevel9Shader
-: 
 ---
 
 # ID3D10ShaderReflection1::IsLevel9Shader
@@ -77,9 +69,9 @@ Pointer to a BOOL variable that will be set true if the shader was compiled in D
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -98,7 +90,7 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb694550(v=VS.85).aspx">ID3D10ShaderReflection1 Interface</a>
+<a href="https://msdn.microsoft.com/344a0bf2-3ad8-4c58-b4d8-de386fdfd1c2">ID3D10ShaderReflection1 Interface</a>
  
 
  

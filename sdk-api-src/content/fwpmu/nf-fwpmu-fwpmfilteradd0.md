@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmFilterAdd0
-: 
 ---
 
 # FwpmFilterAdd0 function

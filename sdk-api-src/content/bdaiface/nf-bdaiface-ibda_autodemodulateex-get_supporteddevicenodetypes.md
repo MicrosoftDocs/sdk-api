@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdaiface.h
-: 
-- IBDA_AutoDemodulateEx.get_SupportedDeviceNodeTypes
-: 
 ---
 
 # IBDA_AutoDemodulateEx::get_SupportedDeviceNodeTypes
@@ -104,7 +96,7 @@ If <i>pguidDeviceNodeTypes</i> is <b>NULL</b>, the method returns the number of 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693253(v=VS.85).aspx">IBDA_AutoDemodulateEx Interface</a>
+<a href="https://msdn.microsoft.com/ecc642e4-7c36-400c-8a63-639f75b2bbc2">IBDA_AutoDemodulateEx Interface</a>
  
 
  

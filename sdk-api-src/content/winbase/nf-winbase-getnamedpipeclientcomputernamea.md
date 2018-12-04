@@ -54,12 +54,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetNamedPipeClientComputerNameA
-: 
 ---
 
 # GetNamedPipeClientComputerNameA function

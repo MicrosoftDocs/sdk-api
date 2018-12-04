@@ -4,10 +4,10 @@ title: IAzBizRuleInterfaces::Remove
 author: windows-sdk-content
 description: Removes the specified interface from the list of interfaces The number of interfaces in the list of interfaces that can be called by BizRule scripts.
 old-location: security\iazbizruleinterfaces_remove_method.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 398e4151-aeda-48d0-b6f5-e0ea749d0720
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IAzBizRuleInterfaces interface [Security],Remove method, IAzBizRuleInterfaces.Remove, IAzBizRuleInterfaces::Remove, Remove, Remove method [Security], Remove method [Security],IAzBizRuleInterfaces interface, azroles/IAzBizRuleInterfaces::Remove, security.iazbizruleinterfaces_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzBizRuleInterfaces.Remove
-: 
 ---
 
 # IAzBizRuleInterfaces::Remove
@@ -77,7 +69,7 @@ The name of the interface to remove.
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -87,11 +79,11 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965800(v=VS.85).aspx">AddInterface</a>
+<a href="https://msdn.microsoft.com/063492b9-9970-4605-84f5-d8b80afc719b">AddInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377614(v=VS.85).aspx">IAzBizRuleInterfaces</a>
+<a href="https://msdn.microsoft.com/96cc0e45-ddd5-4ab0-9243-5f2046e48f78">IAzBizRuleInterfaces</a>
  
 
  

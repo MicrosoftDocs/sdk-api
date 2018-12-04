@@ -4,10 +4,10 @@ title: RtmGetListEnumRoutes function
 author: windows-sdk-content
 description: The RtmGetListEnumRoutes function enumerates a set of routes in a specified route list.
 old-location: rras\rtmgetlistenumroutes.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 9ee40466-63e9-40c4-82bf-45f819d0ae58
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RtmGetListEnumRoutes, RtmGetListEnumRoutes function [RAS], _rtmv2ref_rtmgetlistenumroutes, rras.rtmgetlistenumroutes, rtmv2/RtmGetListEnumRoutes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtmGetListEnumRoutes
-: 
 ---
 
 # RtmGetListEnumRoutes function

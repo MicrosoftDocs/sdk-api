@@ -7,7 +7,7 @@ old-location: shell\IObjectWithCancelEvent_GetCancelEvent.htm
 tech.root: shell
 ms.assetid: 6aef54b0-a7aa-4ff9-b50f-f84131614853
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetCancelEvent, GetCancelEvent method [Windows Shell], GetCancelEvent method [Windows Shell],IObjectWithCancelEvent interface, IObjectWithCancelEvent interface [Windows Shell],GetCancelEvent method, IObjectWithCancelEvent.GetCancelEvent, IObjectWithCancelEvent::GetCancelEvent, _shell_IObjectWithCancelEvent_GetCancelEvent, shell.IObjectWithCancelEvent_GetCancelEvent, shobjidl_core/IObjectWithCancelEvent::GetCancelEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IObjectWithCancelEvent.GetCancelEvent
-: 
 ---
 
 # IObjectWithCancelEvent::GetCancelEvent

@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- D3DReflect
-: 
 ---
 
 # D3DReflect function
@@ -136,7 +130,7 @@ D3DReflect( pPixelShaderBuffer-&gt;GetBufferPointer(), pPixelShaderBuffer-&gt;Ge
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
  
 
  

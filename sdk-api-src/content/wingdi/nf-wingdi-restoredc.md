@@ -7,7 +7,7 @@ old-location: gdi\restoredc.htm
 tech.root: gdi
 ms.assetid: 7043edbb-b3ea-4946-a2ba-cae356b04d1d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RestoreDC, RestoreDC function [Windows GDI], _win32_RestoreDC, gdi.restoredc, wingdi/RestoreDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RestoreDC
-: 
 ---
 
 # RestoreDC function

@@ -7,7 +7,7 @@ old-location: display\clipobj_benum.htm
 tech.root: display
 ms.assetid: d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: CLIPOBJ_bEnum, CLIPOBJ_bEnum function [Display Devices], display.clipobj_benum, gdifncs_8f383214-6bb4-4099-bdf7-c019a28ef8ac.xml, winddi/CLIPOBJ_bEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CLIPOBJ_bEnum
-: 
 ---
 
 # CLIPOBJ_bEnum function

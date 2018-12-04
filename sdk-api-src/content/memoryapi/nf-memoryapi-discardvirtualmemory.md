@@ -4,10 +4,10 @@ title: DiscardVirtualMemory function
 author: windows-sdk-content
 description: Discards the memory contents of a range of memory pages, without decommitting the memory. The contents of discarded memory is undefined and must be rewritten by the application.
 old-location: base\discardvirtualmemory.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 942e80cb-5a68-24fa-5d5d-fe3741bee2dc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DiscardVirtualMemory, DiscardVirtualMemory function, base.discardvirtualmemory, winbase/DiscardVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DiscardVirtualMemory
-: 
 ---
 
 # DiscardVirtualMemory function

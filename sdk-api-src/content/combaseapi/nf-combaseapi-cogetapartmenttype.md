@@ -7,7 +7,7 @@ old-location: com\cogetapartmenttype.htm
 tech.root: com
 ms.assetid: ab0b6008-397f-4210-ba26-1a041b709722
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: CoGetApartmentType, CoGetApartmentType function [COM], com.cogetapartmenttype, combaseapi/CoGetApartmentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoGetApartmentType
-: 
 ---
 
 # CoGetApartmentType function
@@ -72,13 +66,13 @@ Returns the current apartment type and type qualifier.
 ### -param pAptType [out]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693793(v=VS.85).aspx">APTTYPE</a> enumeration value that specifies the type of the current apartment.
+<a href="https://msdn.microsoft.com/eae95b1f-3883-4334-aa7e-84e71e05fb24">APTTYPE</a> enumeration value that specifies the type of the current apartment.
 
 
 ### -param pAptQualifier [out]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542638(v=VS.85).aspx">APTTYPEQUALIFIER</a> enumeration value that specifies the type qualifier of the current apartment.
+<a href="https://msdn.microsoft.com/ac28076d-d266-4939-b6c1-d56494ffbcd8">APTTYPEQUALIFIER</a> enumeration value that specifies the type qualifier of the current apartment.
 
 
 ## -returns
@@ -122,7 +116,7 @@ An invalid parameter value was supplied to the function. Specifically, one or bo
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a> or <a href="https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx">CoInitializeEx</a> was not called on this thread prior to calling <a href="https://msdn.microsoft.com/en-us/library/Dd542641(v=VS.85).aspx">CoGetApartmentType</a>.
+<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> was not called on this thread prior to calling <a href="https://msdn.microsoft.com/ab0b6008-397f-4210-ba26-1a041b709722">CoGetApartmentType</a>.
 
 </td>
 </tr>
@@ -137,10 +131,10 @@ An invalid parameter value was supplied to the function. Specifically, one or bo
 
 
 On Windows platforms prior to Windows 7, the following actions must be taken on a thread to query the apartment type:<ul>
-<li>Call <a href="https://msdn.microsoft.com/en-us/library/ms679665(v=VS.85).aspx">CoGetContextToken</a> to obtain the current context token.</li>
-<li>Cast the context token to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>* pointer.</li>
-<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on that pointer to obtain the <a href="https://msdn.microsoft.com/en-us/library/ms694502(v=VS.85).aspx">IComThreadingInfo</a> interface.</li>
-<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms683752(v=VS.85).aspx">GetCurrentApartmentType</a> method of the <a href="https://msdn.microsoft.com/en-us/library/ms694502(v=VS.85).aspx">IComThreadingInfo</a> interface to obtain the current apartment type.</li>
+<li>Call <a href="https://msdn.microsoft.com/1218d928-ca3f-4bdc-9a00-ea4c214175a9">CoGetContextToken</a> to obtain the current context token.</li>
+<li>Cast the context token to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>* pointer.</li>
+<li>Call the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method on that pointer to obtain the <a href="https://msdn.microsoft.com/fa4c7d82-ec5d-43d6-914e-bba60ad19aa2">IComThreadingInfo</a> interface.</li>
+<li>Call the <a href="https://msdn.microsoft.com/59cb216f-818c-4189-b77b-984961889a62">GetCurrentApartmentType</a> method of the <a href="https://msdn.microsoft.com/fa4c7d82-ec5d-43d6-914e-bba60ad19aa2">IComThreadingInfo</a> interface to obtain the current apartment type.</li>
 </ul>
 
 
@@ -154,11 +148,11 @@ In multithreaded scenarios, there is a race condition which can potentially caus
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693793(v=VS.85).aspx">APTTYPE</a>
+<a href="https://msdn.microsoft.com/eae95b1f-3883-4334-aa7e-84e71e05fb24">APTTYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542638(v=VS.85).aspx">APTTYPEQUALIFIER</a>
+<a href="https://msdn.microsoft.com/ac28076d-d266-4939-b6c1-d56494ffbcd8">APTTYPEQUALIFIER</a>
  
 
  

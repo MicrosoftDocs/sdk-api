@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_addtransitionbetweenkeyframes.h
 tech.root: UIAnimation
 ms.assetid: 75db41ef-526b-40aa-a62d-a4262cc8d80e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddTransitionBetweenKeyframes, AddTransitionBetweenKeyframes method [Windows Animation], AddTransitionBetweenKeyframes method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddTransitionBetweenKeyframes method, IUIAnimationStoryboard.AddTransitionBetweenKeyframes, IUIAnimationStoryboard::AddTransitionBetweenKeyframes, uianimation.iuianimationstoryboard_addtransitionbetweenkeyframes, uianimation/IUIAnimationStoryboard::AddTransitionBetweenKeyframes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uianimation.h
-: 
-- IUIAnimationStoryboard.AddTransitionBetweenKeyframes
-: 
 ---
 
 # IUIAnimationStoryboard::AddTransitionBetweenKeyframes

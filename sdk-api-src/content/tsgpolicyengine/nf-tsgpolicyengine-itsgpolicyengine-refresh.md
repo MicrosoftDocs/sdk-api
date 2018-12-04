@@ -7,7 +7,7 @@ old-location: termserv\itsgpolicyengine_refresh.htm
 tech.root: termserv
 ms.assetid: 29432884-c844-4c38-92e6-e1bcbba32b2b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: ITSGPolicyEngine interface [Remote Desktop Services],Refresh method, ITSGPolicyEngine.Refresh, ITSGPolicyEngine::Refresh, Refresh, Refresh method [Remote Desktop Services], Refresh method [Remote Desktop Services],ITSGPolicyEngine interface, termserv.itsgpolicyengine_refresh, tsgpolicyengine/ITSGPolicyEngine::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tsgpolicyengine.h
-: 
-- ITSGPolicyEngine.Refresh
-: 
 ---
 
 # ITSGPolicyEngine::Refresh

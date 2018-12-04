@@ -7,7 +7,7 @@ old-location: mf\mfcameraextrinsic_calibratedtransform.htm
 tech.root: medfound
 ms.assetid: 2D227167-68DC-4A43-8665-9A253BD66401
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFCameraExtrinsic_CalibratedTransform, MFCameraExtrinsic_CalibratedTransform structure [Media Foundation], PMFCameraExtrinsic_CalibratedTransform, PMFCameraExtrinsic_CalibratedTransform structure pointer [Media Foundation], _MFCameraExtrinsic_CalibratedTransform, mf.mfcameraextrinsic_calibratedtransform, mfapi/MFCameraExtrinsic_CalibratedTransform, mfapi/PMFCameraExtrinsic_CalibratedTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ The transform rotation.
 
 The <b>Position</b> value should be expressed in real-world coordinates in units of meters. The coordinate system of both position and orientation should be right-handed Cartesian as shown in the following diagram. 
 
-<img alt="Right-handed Cartesian coordinate system" src="./images/MFCameraExtrinsic_Diagram.png"/>
+<img alt="Right-handed Cartesian coordinate system" src="images/MFCameraExtrinsic_Diagram.png"/>
 <div class="alert"><b>Important</b>  <p class="note">The position and orientation are expressed as transforms toward the reference frame or origin. For example, a <b>Position</b> value of {-5, 0, 0} means that the origin is 5 meters to the left of the sensor, and therefore the sensor is 5 meters to the right of the origin. A sensor that is positioned 2 meters above the origin should specify a <b>Position</b> of {0, -2, 0} because that is the translation from the sensor to the origin.
 
 <p class="note">If the sensor is aligned with the origin, the rotation is the identity quaternion and the forward vector is along the -Z axis  {0, 0, -1}. If the sensor is rotated +30 degrees around the Y axis from the origin, then the <b>Orientation</b> value should be a rotation of -30 degrees around the Y axis, because it represents the rotation from the sensor to the origin.

@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_notifysessionid.htm
 tech.root: termserv
 ms.assetid: 82bf892e-5e6f-4057-ac36-00e046080c93
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],NotifySessionId method, IWRdsProtocolConnection.NotifySessionId, IWRdsProtocolConnection::NotifySessionId, NotifySessionId, NotifySessionId method [Remote Desktop Services], NotifySessionId method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_notifysessionid, wtsprotocol/IWRdsProtocolConnection::NotifySessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wtsprotocol.h
-: 
-- IWRdsProtocolConnection.NotifySessionId
-: 
 ---
 
 # IWRdsProtocolConnection::NotifySessionId

@@ -7,7 +7,7 @@ old-location: fs\idiskquotauserbatch_remove.htm
 tech.root: fileio
 ms.assetid: 102e9a07-9958-4d47-acd3-6b81e83a5ea7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: IDiskQuotaUserBatch interface [Files],Remove method, IDiskQuotaUserBatch.Remove, IDiskQuotaUserBatch::Remove, Remove, Remove method [Files], Remove method [Files],IDiskQuotaUserBatch interface, _win32_idiskquotauserbatch_remove, base.idiskquotauserbatch_remove, dskquota/IDiskQuotaUserBatch::Remove, fs.idiskquotauserbatch_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dskquota.h
-: 
-- IDiskQuotaUserBatch.Remove
-: 
 ---
 
 # IDiskQuotaUserBatch::Remove

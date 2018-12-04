@@ -4,10 +4,10 @@ title: INetFwServiceRestriction::ServiceRestricted
 author: windows-sdk-content
 description: The ServiceRestricted method indicates whether service restriction rules are enabled to limit traffic to the resources specified by the firewall rules.
 old-location: ics\inetfwservicerestriction_servicerestricted.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 38fe5a68-44ab-4bcb-8673-ebb1e87e446f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],ServiceRestricted method, INetFwServiceRestriction.ServiceRestricted, INetFwServiceRestriction::ServiceRestricted, ServiceRestricted, ServiceRestricted method [ICS/ICF], ServiceRestricted method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_servicerestricted, netfw/INetFwServiceRestriction::ServiceRestricted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwServiceRestriction.ServiceRestricted
-: 
 ---
 
 # INetFwServiceRestriction::ServiceRestricted

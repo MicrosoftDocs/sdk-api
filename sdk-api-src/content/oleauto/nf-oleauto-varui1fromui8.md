@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarUI1FromUI8
-: 
 ---
 
 # VarUI1FromUI8 function

@@ -4,10 +4,10 @@ title: IADsGroup::IsMember
 author: windows-sdk-content
 description: Determines if a directory service object is an immediate member of the group.
 old-location: adsi\iadsgroup_ismember.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 16251638-49c6-48f0-b398-0bf8f523ba86
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsGroup interface [ADSI],IsMember method, IADsGroup.IsMember, IADsGroup::IsMember, IsMember, IsMember method [ADSI], IsMember method [ADSI],IADsGroup interface, _ds_iadsgroup_ismember, adsi.iadsgroup__ismember, adsi.iadsgroup_ismember, iads/IADsGroup::IsMember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsGroup.IsMember
-: 
 ---
 
 # IADsGroup::IsMember

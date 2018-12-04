@@ -4,10 +4,10 @@ title: CertCloseServerOcspResponse function
 author: windows-sdk-content
 description: Closes an online certificate status protocol (OCSP) server response handle.
 old-location: security\certcloseserverocspresponse.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 6247e8ca-ba12-432f-9bf8-a6c644f253e9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertCloseServerOcspResponse, CertCloseServerOcspResponse function [Security], security.certcloseserverocspresponse, wincrypt/CertCloseServerOcspResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertCloseServerOcspResponse
-: 
 ---
 
 # CertCloseServerOcspResponse function

@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Request_Eject_PC
-: 
 ---
 
 # CM_Request_Eject_PC function

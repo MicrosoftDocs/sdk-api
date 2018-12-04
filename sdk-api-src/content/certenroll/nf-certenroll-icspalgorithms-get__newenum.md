@@ -4,10 +4,10 @@ title: ICspAlgorithms::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icspalgorithms__newenum_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 23c23cbe-0d92-4a78-a505-5b2010ce2aca
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICspAlgorithms interface [Security],_NewEnum property, ICspAlgorithms._NewEnum, ICspAlgorithms.get__NewEnum, ICspAlgorithms::_NewEnum, ICspAlgorithms::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::_NewEnum, certenroll/ICspAlgorithms::get__NewEnum, get__NewEnum, security.icspalgorithms__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICspAlgorithms.get__NewEnum
-: 
 ---
 
 # ICspAlgorithms::get__NewEnum
@@ -72,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85).aspx">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">ICspAlgorithm</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375948(v=VS.85).aspx">ICspAlgorithms</a>
+<a href="https://msdn.microsoft.com/bbf8cff4-b1b2-480e-8c30-eb34166db143">ICspAlgorithms</a>
  
 
  

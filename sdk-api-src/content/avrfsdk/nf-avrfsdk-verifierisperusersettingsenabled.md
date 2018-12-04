@@ -4,10 +4,10 @@ title: VerifierIsPerUserSettingsEnabled function
 author: windows-sdk-content
 description: Determines whether Application Verifier can use per-user settings.
 old-location: winprog\verifierisperusersettingsenabled.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 29ea23ca-cb11-4b88-8863-9893e94f4e20
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: VerifierIsPerUserSettingsEnabled, VerifierIsPerUserSettingsEnabled function [Windows API], avrfsdk/VerifierIsPerUserSettingsEnabled, winprog.verifierisperusersettingsenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VerifierIsPerUserSettingsEnabled
-: 
 ---
 
 # VerifierIsPerUserSettingsEnabled function

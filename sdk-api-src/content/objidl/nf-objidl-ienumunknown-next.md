@@ -7,7 +7,7 @@ old-location: com\ienumunknown_next.htm
 tech.root: com
 ms.assetid: cef932cf-dacd-430d-8834-c41cc2d885a6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumUnknown interface [COM],Next method, IEnumUnknown.Next, IEnumUnknown::Next, Next, Next method [COM], Next method [COM],IEnumUnknown interface, _com_ienumunknown_next, com.ienumunknown_next, objidlbase/IEnumUnknown::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- IEnumUnknown.Next
-: 
 ---
 
 # IEnumUnknown::Next

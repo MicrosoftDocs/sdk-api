@@ -4,10 +4,10 @@ title: Matrix3x2F::ReinterpretBaseType(D2D1_MATRIX_3X2_F)
 author: windows-sdk-content
 description: Converts the specified D2D1_MATRIX_3X2_F matrix to a Matrix3x2F without making a copy.
 old-location: direct2d\matrix3x2f_reinterpretbasetype_d2d1_matrix_3x2_f_.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: b78e2d9a-c5a8-4c2b-9e45-c1e95ff3be06
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D2D1.Matrix3x2F.ReinterpretBaseType, D2D1::Matrix3x2F::ReinterpretBaseType, Matrix3x2F interface [Direct2D],ReinterpretBaseType method, Matrix3x2F.ReinterpretBaseType, Matrix3x2F.ReinterpretBaseType(D2D1_MATRIX_3X2_F), Matrix3x2F::ReinterpretBaseType, Matrix3x2F::ReinterpretBaseType(D2D1_MATRIX_3X2_F), Matrix3x2F::ReinterpretBaseType(D2D1_MATRIX_3X2_F*), ReinterpretBaseType, ReinterpretBaseType method [Direct2D], ReinterpretBaseType method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::ReinterpretBaseType, direct2d.matrix3x2f_reinterpretbasetype_d2d1_matrix_3x2_f_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1helper.h
-: 
-- Matrix3x2F.ReinterpretBaseType
-: 
 ---
 
 # Matrix3x2F::ReinterpretBaseType(D2D1_MATRIX_3X2_F)
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Converts the specified <a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a> matrix to a <a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a> without making a copy.
+Converts the specified <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a> matrix to a <a href="https://msdn.microsoft.com/54b9e75c-6316-44d3-b725-2039f39eeda5">Matrix3x2F</a> without making a copy.
 
 
 ## -parameters
@@ -68,7 +60,7 @@ Converts the specified <a href="https://msdn.microsoft.com/en-us/library/Dd36813
 
 ### -param pMatrix
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The matrix to convert.
 

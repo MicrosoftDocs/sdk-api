@@ -7,7 +7,7 @@ old-location: dshow\imediastreamfilter_flush.htm
 tech.root: DirectShow
 ms.assetid: 30b5d8f7-e3ab-48e4-aefe-3b3e04aba638
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],Flush method, IMediaStreamFilter.Flush, IMediaStreamFilter::Flush, IMediaStreamFilterFlush, amstream/IMediaStreamFilter::Flush, dshow.imediastreamfilter_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- amstream.h
-: 
-- IMediaStreamFilter.Flush
-: 
 ---
 
 # IMediaStreamFilter::Flush

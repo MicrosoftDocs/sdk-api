@@ -4,10 +4,10 @@ title: ITMultiTrackTerminal::RemoveTrackTerminal
 author: windows-sdk-content
 description: The RemoveTrackTerminal method removes the specified terminal from the collection of track terminals that belong to the multitrack terminal on which the method was called.
 old-location: tapi3\itmultitrackterminal_removetrackterminal.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 59f257ef-9e52-40fb-a72c-732105262016
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],RemoveTrackTerminal method, ITMultiTrackTerminal.RemoveTrackTerminal, ITMultiTrackTerminal::RemoveTrackTerminal, RemoveTrackTerminal, RemoveTrackTerminal method [TAPI 2.2], RemoveTrackTerminal method [TAPI 2.2],ITMultiTrackTerminal interface, _tapi3_itmultitrackterminal_removetrackterminal, tapi3.itmultitrackterminal_removetrackterminal, tapi3if/ITMultiTrackTerminal::RemoveTrackTerminal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITMultiTrackTerminal.RemoveTrackTerminal
-: 
 ---
 
 # ITMultiTrackTerminal::RemoveTrackTerminal

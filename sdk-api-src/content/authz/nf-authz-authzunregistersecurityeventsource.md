@@ -4,10 +4,10 @@ title: AuthzUnregisterSecurityEventSource function
 author: windows-sdk-content
 description: Unregisters a security event source with the Local Security Authority (LSA).
 old-location: security\authzunregistersecurityeventsource.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 3ca3086b-f9c9-4305-aaf3-c41b5dba30ad
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AuthzUnregisterSecurityEventSource, AuthzUnregisterSecurityEventSource function [Security], authz/AuthzUnregisterSecurityEventSource, security.authzunregistersecurityeventsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- 
-: 
-- AuthzUnregisterSecurityEventSource
-: 
 ---
 
 # AuthzUnregisterSecurityEventSource function

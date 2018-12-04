@@ -7,7 +7,7 @@ old-location: com\icontext_setproperty.htm
 tech.root: com
 ms.assetid: 8e6dc055-bc97-41e0-973c-b061e851daf5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IContext interface [COM],SetProperty method, IContext.SetProperty, IContext::SetProperty, SetProperty, SetProperty method [COM], SetProperty method [COM],IContext interface, _com_icontext_setproperty, com.icontext_setproperty, objidlbase/IContext::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidlbase.h
-: 
-- IContext.SetProperty
-: 
 ---
 
 # IContext::SetProperty

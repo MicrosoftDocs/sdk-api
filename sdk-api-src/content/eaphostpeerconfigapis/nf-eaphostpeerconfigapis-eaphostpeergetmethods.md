@@ -4,10 +4,10 @@ title: EapHostPeerGetMethods function
 author: windows-sdk-content
 description: Enumerates all EAP methods installed and available for use, including legacy EAP Methods.
 old-location: eaphost\eaphostpeergetmethods.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 5b2b351b-d6d8-406c-aa9f-ac720def3681
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EapHostPeerGetMethods, EapHostPeerGetMethods function [EAPHost], eaphost.eaphostpeergetmethods, eaphostpeerconfigapis/EapHostPeerGetMethods
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapHostPeerGetMethods
-: 
 ---
 
 # EapHostPeerGetMethods function

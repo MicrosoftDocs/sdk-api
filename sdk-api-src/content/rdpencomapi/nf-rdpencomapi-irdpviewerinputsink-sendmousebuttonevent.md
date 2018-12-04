@@ -4,10 +4,10 @@ title: IRDPViewerInputSink::SendMouseButtonEvent
 author: windows-sdk-content
 description: Sends a mouse button event message.
 old-location: rdp\irdpviewerinputsink_sendmousebuttonevent.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 2BC93D69-7DBC-4C38-9980-EEB9775A083E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseButtonEvent method, IRDPViewerInputSink.SendMouseButtonEvent, IRDPViewerInputSink::SendMouseButtonEvent, SendMouseButtonEvent, SendMouseButtonEvent method [RDP], SendMouseButtonEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendmousebuttonevent, rdpencomapi/IRDPViewerInputSink::SendMouseButtonEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPViewerInputSink.SendMouseButtonEvent
-: 
 ---
 
 # IRDPViewerInputSink::SendMouseButtonEvent

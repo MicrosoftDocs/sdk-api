@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink3_setcontrolstream.htm
 tech.root: wmformat
 ms.assetid: c103d205-a568-4206-a66e-5473e16cfa3f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetControlStream method, IWMWriterFileSink3.SetControlStream, IWMWriterFileSink3::SetControlStream, IWMWriterFileSink3SetControlStream, SetControlStream, SetControlStream method [windows Media Format], SetControlStream method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setcontrolstream, wmsdkidl/IWMWriterFileSink3::SetControlStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmsdkidl.h
-: 
-- IWMWriterFileSink3.SetControlStream
-: 
 ---
 
 # IWMWriterFileSink3::SetControlStream

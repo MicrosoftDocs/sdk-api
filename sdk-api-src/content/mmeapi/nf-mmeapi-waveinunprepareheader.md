@@ -7,7 +7,7 @@ old-location: multimedia\waveinunprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 13222b09-c58b-461d-85b7-9312a03a888a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_waveInUnprepareHeader, mmeapi/waveInUnprepareHeader, multimedia.waveinunprepareheader, waveInUnprepareHeader, waveInUnprepareHeader function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- waveInUnprepareHeader
-: 
 ---
 
 # waveInUnprepareHeader function

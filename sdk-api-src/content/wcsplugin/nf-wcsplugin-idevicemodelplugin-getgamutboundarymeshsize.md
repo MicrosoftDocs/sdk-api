@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wcsplugin.h
-: 
-- IDeviceModelPlugIn.GetGamutBoundaryMeshSize
-: 
 ---
 
 # IDeviceModelPlugIn::GetGamutBoundaryMeshSize
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Returns the required data structure sizes for the <a href="https://msdn.microsoft.com/en-us/library/Dd372127(v=VS.85).aspx">GetGamutBoundaryMesh</a> function.
+Returns the required data structure sizes for the <a href="access.IDeviceModelPlugIn::GetGamutBoundaryMesh">GetGamutBoundaryMesh</a> function.
 
 
 ## -parameters

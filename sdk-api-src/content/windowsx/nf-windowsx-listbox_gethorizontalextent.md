@@ -4,10 +4,10 @@ title: ListBox_GetHorizontalExtent macro
 author: windows-sdk-content
 description: Gets the width that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar. You can use this macro or send the LB_GETHORIZONTALEXTENT message explicitly.
 old-location: controls\ListBox_GetHorizontalExtent.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gethorizontalextent.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ListBox_GetHorizontalExtent, ListBox_GetHorizontalExtent macro [Windows Controls], _win32_ListBox_GetHorizontalExtent, _win32_ListBox_GetHorizontalExtent_cpp, controls.ListBox_GetHorizontalExtent, controls._win32_ListBox_GetHorizontalExtent, windowsx/ListBox_GetHorizontalExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- windowsx.h
-: 
-- ListBox_GetHorizontalExtent
-: 
 ---
 
 # ListBox_GetHorizontalExtent macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the width that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775200(v=VS.85).aspx">LB_GETHORIZONTALEXTENT</a> message explicitly.
+Gets the width that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar. You can use this macro or send the <a href="https://msdn.microsoft.com/52461724-c06a-436a-ac95-94c5189ba37e">LB_GETHORIZONTALEXTENT</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +69,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775200(v=VS.85).aspx">LB_GETHORIZONTALEXTENT</a>.
+For more information, see <a href="https://msdn.microsoft.com/52461724-c06a-436a-ac95-94c5189ba37e">LB_GETHORIZONTALEXTENT</a>.
 	
 
 

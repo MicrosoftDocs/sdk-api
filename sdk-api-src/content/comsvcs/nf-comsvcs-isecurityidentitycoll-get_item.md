@@ -7,7 +7,7 @@ old-location: cos\isecurityidentitycoll_get_item.htm
 tech.root: cossdk
 ms.assetid: 0cc3a905-ec06-4d8d-8e4a-0774b7e67282
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISecurityIdentityColl interface [COM+],get_Item method, ISecurityIdentityColl.get_Item, ISecurityIdentityColl::get_Item, _cos_ISecurityIdentityColl_get_Item, comsvcs/ISecurityIdentityColl::get_Item, cos.isecurityidentitycoll_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ISecurityIdentityColl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- ISecurityIdentityColl.get_Item
-: 
 ---
 
 # ISecurityIdentityColl::get_Item

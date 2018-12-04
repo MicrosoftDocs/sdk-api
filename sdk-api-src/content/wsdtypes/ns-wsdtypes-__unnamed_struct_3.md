@@ -4,10 +4,10 @@ title: REQUESTBODY_Renew
 author: windows-sdk-content
 description: Represents a WS-Eventing Renew request message.
 old-location: ncd\requestbody_renew_struct.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 2646cfb7-e372-44d2-9d4c-fa68e0d567bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: REQUESTBODY_Renew, REQUESTBODY_Renew structure, ncd.requestbody_renew_struct, wsdtypes/REQUESTBODY_Renew
 ms.prod: windows-hardware
 ms.technology: windows-devices

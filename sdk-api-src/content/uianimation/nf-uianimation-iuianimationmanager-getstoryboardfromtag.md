@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_getstoryboardfromtag.htm
 tech.root: UIAnimation
 ms.assetid: 74a9265a-3602-4707-949e-6073cbde9ac4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetStoryboardFromTag, GetStoryboardFromTag method [Windows Animation], GetStoryboardFromTag method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],GetStoryboardFromTag method, IUIAnimationManager.GetStoryboardFromTag, IUIAnimationManager::GetStoryboardFromTag, uianimation.iuianimationmanager_getstoryboardfromtag, uianimation/IUIAnimationManager::GetStoryboardFromTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uianimation.h
-: 
-- IUIAnimationManager.GetStoryboardFromTag
-: 
 ---
 
 # IUIAnimationManager::GetStoryboardFromTag

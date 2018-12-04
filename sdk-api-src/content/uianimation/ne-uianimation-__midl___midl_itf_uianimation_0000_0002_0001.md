@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_storyboard_status.htm
 tech.root: UIAnimation
 ms.assetid: 02830092-0070-44dc-8db2-239941134473
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: UI_ANIMATION_STORYBOARD_BUILDING, UI_ANIMATION_STORYBOARD_CANCELLED, UI_ANIMATION_STORYBOARD_FINISHED, UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY, UI_ANIMATION_STORYBOARD_PLAYING, UI_ANIMATION_STORYBOARD_READY, UI_ANIMATION_STORYBOARD_SCHEDULED, UI_ANIMATION_STORYBOARD_STATUS, UI_ANIMATION_STORYBOARD_STATUS enumeration [Windows Animation], UI_ANIMATION_STORYBOARD_TRUNCATED, __MIDL___MIDL_itf_UIAnimation_0000_0002_0001, uianimation.ui_animation_storyboard_status, uianimation/UI_ANIMATION_STORYBOARD_BUILDING, uianimation/UI_ANIMATION_STORYBOARD_CANCELLED, uianimation/UI_ANIMATION_STORYBOARD_FINISHED, uianimation/UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY, uianimation/UI_ANIMATION_STORYBOARD_PLAYING, uianimation/UI_ANIMATION_STORYBOARD_READY, uianimation/UI_ANIMATION_STORYBOARD_SCHEDULED, uianimation/UI_ANIMATION_STORYBOARD_STATUS, uianimation/UI_ANIMATION_STORYBOARD_TRUNCATED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,7 +114,7 @@ All status values can be passed to  <a href="https://msdn.microsoft.com/e1ccf0e3
 
 The following diagram illustrates the transitions between these states.
 
-<img alt="Diagram that shows how the animation manager schedules the storyboard and manages the animation." src="./images/StateDiagram.png"/>
+<img alt="Diagram that shows how the animation manager schedules the storyboard and manages the animation." src="images/StateDiagram.png"/>
 
 
 

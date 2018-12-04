@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Delete_DevNode_Key
-: 
 ---
 
 # CM_Delete_DevNode_Key function

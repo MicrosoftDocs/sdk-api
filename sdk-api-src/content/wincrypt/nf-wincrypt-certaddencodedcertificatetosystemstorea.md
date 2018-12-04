@@ -4,10 +4,10 @@ title: CertAddEncodedCertificateToSystemStoreA function
 author: windows-sdk-content
 description: Opens the specified system store and adds the encoded certificate to it.
 old-location: security\certaddencodedcertificatetosystemstore.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 72ff1bcc-eb94-4d97-89fa-d95ed9eb460e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertAddEncodedCertificateToSystemStore, CertAddEncodedCertificateToSystemStore function [Security], CertAddEncodedCertificateToSystemStoreA, CertAddEncodedCertificateToSystemStoreW, security.certaddencodedcertificatetosystemstore, wincrypt/CertAddEncodedCertificateToSystemStore, wincrypt/CertAddEncodedCertificateToSystemStoreA, wincrypt/CertAddEncodedCertificateToSystemStoreW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertAddEncodedCertificateToSystemStoreA
-: 
 ---
 
 # CertAddEncodedCertificateToSystemStoreA function

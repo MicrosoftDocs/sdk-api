@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createcubicvectortransi
 tech.root: UIAnimation
 ms.assetid: 27671A90-611C-457A-8D2B-657256896CF4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateCubicVectorTransition, CreateCubicVectorTransition method [Windows Animation], CreateCubicVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateCubicVectorTransition method, IUIAnimationTransitionLibrary2.CreateCubicVectorTransition, IUIAnimationTransitionLibrary2::CreateCubicVectorTransition, uianimation.iuianimationtransitionlibrary2_createcubicvectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateCubicVectorTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uianimation.h
-: 
-- IUIAnimationTransitionLibrary2.CreateCubicVectorTransition
-: 
 ---
 
 # IUIAnimationTransitionLibrary2::CreateCubicVectorTransition

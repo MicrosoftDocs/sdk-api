@@ -4,10 +4,10 @@ title: "_EXCEPTION_DEBUG_INFO"
 author: windows-sdk-content
 description: Contains exception information that can be used by a debugger.
 old-location: base\exception_debug_info_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: f5917ae3-cc45-42c4-a3fb-5d0aef2a3bdb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPEXCEPTION_DEBUG_INFO, EXCEPTION_DEBUG_INFO, EXCEPTION_DEBUG_INFO structure, LPEXCEPTION_DEBUG_INFO, LPEXCEPTION_DEBUG_INFO structure pointer, _EXCEPTION_DEBUG_INFO, _win32_exception_debug_info_str, base.exception_debug_info_str, minwinbase/EXCEPTION_DEBUG_INFO, minwinbase/LPEXCEPTION_DEBUG_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

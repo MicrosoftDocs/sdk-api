@@ -4,10 +4,10 @@ title: InternetCrackUrlA function
 author: windows-sdk-content
 description: Cracks a URL into its component parts.
 old-location: wininet\internetcrackurl.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 30677071-3eb2-4d9c-a0a3-ff11a077f98a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, InternetCrackUrl, InternetCrackUrl function [WinINet], InternetCrackUrlA, InternetCrackUrlW, _inet_internetcrackurl_function, wininet.internetcrackurl, wininet/InternetCrackUrl, wininet/InternetCrackUrlA, wininet/InternetCrackUrlW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetCrackUrlA
-: 
 ---
 
 # InternetCrackUrlA function

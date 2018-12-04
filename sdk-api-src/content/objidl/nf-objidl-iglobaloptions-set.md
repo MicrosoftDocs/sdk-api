@@ -7,7 +7,7 @@ old-location: com\iglobaloptions_set.htm
 tech.root: com
 ms.assetid: 5a59c862-64a4-45b5-8b6b-dacbfb4d170b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IGlobalOptions interface [COM],Set method, IGlobalOptions.Set, IGlobalOptions::Set, Set, Set method [COM], Set method [COM],IGlobalOptions interface, _com_iglobaloptions_set, com.iglobaloptions_set, objidlbase/IGlobalOptions::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- IGlobalOptions.Set
-: 
 ---
 
 # IGlobalOptions::Set

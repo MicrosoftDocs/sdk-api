@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_enumrunning.htm
 tech.root: com
 ms.assetid: 09ff0d05-627b-4e47-8534-25cd8735c6e5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: EnumRunning, EnumRunning method [COM], EnumRunning method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],EnumRunning method, IRunningObjectTable.EnumRunning, IRunningObjectTable::EnumRunning, _com_irunningobjecttable_enumrunning, com.irunningobjecttable_enumrunning, objidl/IRunningObjectTable::EnumRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- IRunningObjectTable.EnumRunning
-: 
 ---
 
 # IRunningObjectTable::EnumRunning

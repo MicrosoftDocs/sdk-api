@@ -4,10 +4,10 @@ title: SetThreadpoolThreadMinimum function
 author: windows-sdk-content
 description: Sets the minimum number of threads that the specified thread pool must make available to process callbacks.
 old-location: base\setthreadpoolthreadminimum.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 39ab262d-50ff-4aaa-93a8-ded2b0f72615
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: SetThreadpoolThreadMinimum, SetThreadpoolThreadMinimum function, base.setthreadpoolthreadminimum, threadpoolapiset/SetThreadpoolThreadMinimum, winbase/SetThreadpoolThreadMinimum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetThreadpoolThreadMinimum
-: 
 ---
 
 # SetThreadpoolThreadMinimum function

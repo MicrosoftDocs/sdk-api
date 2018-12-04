@@ -4,10 +4,10 @@ title: ITMSPAddress::GetEvent
 author: windows-sdk-content
 description: Retrieves event information.
 old-location: tapi3\itmspaddress_getevent.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: df5263f2-9d76-472d-b7fc-724d36f0b58f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetEvent, GetEvent method [TAPI 2.2], GetEvent method [TAPI 2.2],ITMSPAddress interface, ITMSPAddress interface [TAPI 2.2],GetEvent method, ITMSPAddress.GetEvent, ITMSPAddress::GetEvent, _tapi3_itmspaddress_getevent, msp/ITMSPAddress::GetEvent, tapi3.itmspaddress_getevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msp.h
-: 
-- ITMSPAddress.GetEvent
-: 
 ---
 
 # ITMSPAddress::GetEvent

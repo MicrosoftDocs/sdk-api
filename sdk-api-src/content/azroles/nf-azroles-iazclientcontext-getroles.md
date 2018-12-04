@@ -4,10 +4,10 @@ title: IAzClientContext::GetRoles
 author: windows-sdk-content
 description: Returns the roles for the client context.
 old-location: security\iazclientcontext_getroles.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 753506cc-ed44-4795-90e5-c76010181d8a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AzClientContext object [Security],GetRoles method, GetRoles, GetRoles method [Security], GetRoles method [Security],AzClientContext object, GetRoles method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetRoles method, IAzClientContext.GetRoles, IAzClientContext::GetRoles, azroles/IAzClientContext::GetRoles, security.iazclientcontext_getroles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzClientContext.GetRoles
-: 
 ---
 
 # IAzClientContext::GetRoles
@@ -74,7 +66,7 @@ Name of the <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582
 
 ### -param pvarRoleNames [out]
 
-A pointer to a <b>VARIANT</b> used to return a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a>. Each element of the <b>SAFEARRAY</b> is a <b>VARIANT</b> of type <b>BSTR</b> that contains the name of a role to which the client belongs at the scope specified by the <i>bstrScopeName</i> parameter.
+A pointer to a <b>VARIANT</b> used to return a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a>. Each element of the <b>SAFEARRAY</b> is a <b>VARIANT</b> of type <b>BSTR</b> that contains the name of a role to which the client belongs at the scope specified by the <i>bstrScopeName</i> parameter.
 
 
 ## -returns
@@ -90,7 +82,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 
 
-In JScript, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. 
+In JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
 
 
 

@@ -7,7 +7,7 @@ old-location: com\iclassactivator_getclassobject.htm
 tech.root: com
 ms.assetid: 1bbffe63-bd3a-40c8-aece-63121a437269
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: GetClassObject, GetClassObject method [COM], GetClassObject method [COM],IClassActivator interface, IClassActivator interface [COM],GetClassObject method, IClassActivator.GetClassObject, IClassActivator::GetClassObject, _com_iclassactivator_getclassobject, com.iclassactivator_getclassobject, objidl/IClassActivator::GetClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- IClassActivator.GetClassObject
-: 
 ---
 
 # IClassActivator::GetClassObject

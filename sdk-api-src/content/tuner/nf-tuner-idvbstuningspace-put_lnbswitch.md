@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IDVBSTuningSpace.put_LNBSwitch
-: 
 ---
 
 # IDVBSTuningSpace::put_LNBSwitch

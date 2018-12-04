@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItem.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\iwiaitem.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWiaItem, IWiaItem interface [WIA], IWiaItem interface [WIA],described, _wia_IWiaItem, wia._wia_IWiaItem, wia_xp/IWiaItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 Each Windows Image Acquisition (WIA) hardware device is represented to an application as a hierarchical tree of <b>IWiaItem</b> objects. The <b>IWiaItem</b> interface provides applications with the ability to query devices to discover their capabilities. It also provides access to data transfer interfaces and item properties. In addition, the <b>IWiaItem</b> interface provides methods to enable applications to control the device.
-<div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://msdn.microsoft.com/en-us/library/ms629989(v=VS.85).aspx">IWiaItem2</a> instead of <b>IWiaItem</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://msdn.microsoft.com/4e29ea54-1ee7-4150-b26c-f8c7f41a3f08">IWiaItem2</a> instead of <b>IWiaItem</b>.</div><div> </div>
 
 ## -inheritance
 
@@ -70,52 +70,52 @@ The <b>IWiaItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630010(v=VS.85).aspx">AnalyzeItem</a>
+<a href="https://msdn.microsoft.com/0877ca9d-555f-4ffe-9926-20af13563be6">AnalyzeItem</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630010(v=VS.85).aspx">IWiaItem::AnalyzeItem</a> method causes the WIA hardware device to acquire and try to detect what data types are present.
+The <a href="https://msdn.microsoft.com/0877ca9d-555f-4ffe-9926-20af13563be6">IWiaItem::AnalyzeItem</a> method causes the WIA hardware device to acquire and try to detect what data types are present.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630011(v=VS.85).aspx">CreateChildItem</a>
+<a href="https://msdn.microsoft.com/b01a932b-1f11-49bf-941e-ec118b0ffb5c">CreateChildItem</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630011(v=VS.85).aspx">IWiaItem::CreateChildItem</a> method is used by applications to add <b>IWiaItem</b> objects to the <b>IWiaItem</b> tree of a device.
+The <a href="https://msdn.microsoft.com/b01a932b-1f11-49bf-941e-ec118b0ffb5c">IWiaItem::CreateChildItem</a> method is used by applications to add <b>IWiaItem</b> objects to the <b>IWiaItem</b> tree of a device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630012(v=VS.85).aspx">DeleteItem</a>
+<a href="https://msdn.microsoft.com/355021f3-7a5f-4a3f-bd08-cc85514ae6a2">DeleteItem</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630012(v=VS.85).aspx">IWiaItem::DeleteItem</a> method removes the current <b>IWiaItem</b> object from the object tree of the device.
+The <a href="https://msdn.microsoft.com/355021f3-7a5f-4a3f-bd08-cc85514ae6a2">IWiaItem::DeleteItem</a> method removes the current <b>IWiaItem</b> object from the object tree of the device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630013(v=VS.85).aspx">DeviceCommand</a>
+<a href="https://msdn.microsoft.com/e9403cae-9437-4ef1-bf9b-f0ac77cbe3cb">DeviceCommand</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630013(v=VS.85).aspx">IWiaItem::DeviceCommand</a> issues a command to a WIA hardware device.
+The <a href="https://msdn.microsoft.com/e9403cae-9437-4ef1-bf9b-f0ac77cbe3cb">IWiaItem::DeviceCommand</a> issues a command to a WIA hardware device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630014(v=VS.85).aspx">DeviceDlg</a>
+<a href="https://msdn.microsoft.com/d3a337d3-4fcb-4cb7-aa0a-b9fa18a0415a">DeviceDlg</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630014(v=VS.85).aspx">IWiaItem::DeviceDlg</a> method is used by applications to display a dialog box to the user to prepare for image acquisition.
+The <a href="https://msdn.microsoft.com/d3a337d3-4fcb-4cb7-aa0a-b9fa18a0415a">IWiaItem::DeviceDlg</a> method is used by applications to display a dialog box to the user to prepare for image acquisition.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630015(v=VS.85).aspx">Diagnostic</a>
+<a href="https://msdn.microsoft.com/565e8787-cec3-4965-a810-bb4f46f1a156">Diagnostic</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -124,7 +124,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630016(v=VS.85).aspx">DumpDrvItemData</a>
+<a href="https://msdn.microsoft.com/5d0991d7-0a18-43ae-a7e8-9db27c0fbac4">DumpDrvItemData</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -133,7 +133,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630098(v=VS.85).aspx">DumpItemData</a>
+<a href="https://msdn.microsoft.com/e5d7f9a5-3117-405e-b38d-5c5030b553db">DumpItemData</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -142,7 +142,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630100(v=VS.85).aspx">DumpTreeItemData</a>
+<a href="https://msdn.microsoft.com/01242c56-86ba-4fe4-aa43-dc06457dcb0c">DumpTreeItemData</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -151,55 +151,55 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630101(v=VS.85).aspx">EnumChildItems</a>
+<a href="https://msdn.microsoft.com/cc03659a-6718-4654-b8c5-881dbec95ce0">EnumChildItems</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630101(v=VS.85).aspx">IWiaItem::EnumChildItems</a> method creates an enumerator object and passes back a pointer to its <a href="https://msdn.microsoft.com/en-us/library/ms630176(v=VS.85).aspx">IEnumWiaItem</a> interface for non-empty folders in a <b>IWiaItem</b> tree of a WIA device.
+The <a href="https://msdn.microsoft.com/cc03659a-6718-4654-b8c5-881dbec95ce0">IWiaItem::EnumChildItems</a> method creates an enumerator object and passes back a pointer to its <a href="https://msdn.microsoft.com/25eab463-a531-4cb7-b8b7-6b1c8d060ee8">IEnumWiaItem</a> interface for non-empty folders in a <b>IWiaItem</b> tree of a WIA device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630103(v=VS.85).aspx">EnumDeviceCapabilities</a>
+<a href="https://msdn.microsoft.com/3a54ce9b-d266-4ab2-8256-cd8cf76d6b2f">EnumDeviceCapabilities</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630103(v=VS.85).aspx">IWiaItem::EnumDeviceCapabilities</a> method creates an enumerator that is used to ascertain the commands and events a WIA device supports.
+The <a href="https://msdn.microsoft.com/3a54ce9b-d266-4ab2-8256-cd8cf76d6b2f">IWiaItem::EnumDeviceCapabilities</a> method creates an enumerator that is used to ascertain the commands and events a WIA device supports.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630105(v=VS.85).aspx">EnumRegisterEventInfo</a>
+<a href="https://msdn.microsoft.com/fb35f225-3831-4442-b1e7-6314f59d158a">EnumRegisterEventInfo</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630105(v=VS.85).aspx">IWiaItem::EnumRegisterEventInfo</a> method creates an enumerator used to obtain information about events for which an application is registered.
+The <a href="https://msdn.microsoft.com/fb35f225-3831-4442-b1e7-6314f59d158a">IWiaItem::EnumRegisterEventInfo</a> method creates an enumerator used to obtain information about events for which an application is registered.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630107(v=VS.85).aspx">FindItemByName</a>
+<a href="https://msdn.microsoft.com/23bbfc74-1f92-4776-a432-7a3ce25e3454">FindItemByName</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630107(v=VS.85).aspx">IWiaItem::FindItemByName</a> method searches an item's tree of sub-items using the name as the search key. Each <b>IWiaItem</b> object has a name as one of its standard properties.
+The <a href="https://msdn.microsoft.com/23bbfc74-1f92-4776-a432-7a3ce25e3454">IWiaItem::FindItemByName</a> method searches an item's tree of sub-items using the name as the search key. Each <b>IWiaItem</b> object has a name as one of its standard properties.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630108(v=VS.85).aspx">GetItemType</a>
+<a href="https://msdn.microsoft.com/2ef84150-ecd7-4f4c-9320-e65aa5e06ed5">GetItemType</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630108(v=VS.85).aspx">IWiaItem::GetItemType</a> method is called by applications to obtain the type information of an item.
+The <a href="https://msdn.microsoft.com/2ef84150-ecd7-4f4c-9320-e65aa5e06ed5">IWiaItem::GetItemType</a> method is called by applications to obtain the type information of an item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630110(v=VS.85).aspx">GetRootItem</a>
+<a href="https://msdn.microsoft.com/ddae70df-bf96-4f55-8fe6-373c6a485529">GetRootItem</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630110(v=VS.85).aspx">IWiaItem::GetRootItem</a> method retrieves the root item of a tree of item objects used to represent a WIA hardware device.
+The <a href="https://msdn.microsoft.com/ddae70df-bf96-4f55-8fe6-373c6a485529">IWiaItem::GetRootItem</a> method retrieves the root item of a tree of item objects used to represent a WIA hardware device.
 
 </td>
 </tr>
@@ -216,67 +216,67 @@ Some of the methods of the <b>IWiaItem</b> interface are valid only on the root 
 <tr>
 <td>Valid On Root Item Only</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms630013(v=VS.85).aspx">IWiaItem::DeviceCommand</a>
+<a href="https://msdn.microsoft.com/e9403cae-9437-4ef1-bf9b-f0ac77cbe3cb">IWiaItem::DeviceCommand</a>
 </td>
 </tr>
 <tr>
 <td> </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms630014(v=VS.85).aspx">IWiaItem::DeviceDlg</a>
+<a href="https://msdn.microsoft.com/d3a337d3-4fcb-4cb7-aa0a-b9fa18a0415a">IWiaItem::DeviceDlg</a>
 </td>
 </tr>
 <tr>
 <td> </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms630103(v=VS.85).aspx">IWiaItem::EnumDeviceCapabilities</a>
+<a href="https://msdn.microsoft.com/3a54ce9b-d266-4ab2-8256-cd8cf76d6b2f">IWiaItem::EnumDeviceCapabilities</a>
 </td>
 </tr>
 <tr>
 <td> </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms630105(v=VS.85).aspx">IWiaItem::EnumRegisterEventInfo</a>
+<a href="https://msdn.microsoft.com/fb35f225-3831-4442-b1e7-6314f59d158a">IWiaItem::EnumRegisterEventInfo</a>
 </td>
 </tr>
 <tr>
 <td>Valid On All Items</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms630010(v=VS.85).aspx">IWiaItem::AnalyzeItem</a>
+<a href="https://msdn.microsoft.com/0877ca9d-555f-4ffe-9926-20af13563be6">IWiaItem::AnalyzeItem</a>
 </td>
 </tr>
 <tr>
 <td> </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms630011(v=VS.85).aspx">IWiaItem::CreateChildItem</a>
+<a href="https://msdn.microsoft.com/b01a932b-1f11-49bf-941e-ec118b0ffb5c">IWiaItem::CreateChildItem</a>
 </td>
 </tr>
 <tr>
 <td> </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms630012(v=VS.85).aspx">IWiaItem::DeleteItem</a>
+<a href="https://msdn.microsoft.com/355021f3-7a5f-4a3f-bd08-cc85514ae6a2">IWiaItem::DeleteItem</a>
 </td>
 </tr>
 <tr>
 <td> </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms630101(v=VS.85).aspx">IWiaItem::EnumChildItems</a>
+<a href="https://msdn.microsoft.com/cc03659a-6718-4654-b8c5-881dbec95ce0">IWiaItem::EnumChildItems</a>
 </td>
 </tr>
 <tr>
 <td> </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms630107(v=VS.85).aspx">IWiaItem::FindItemByName</a>
+<a href="https://msdn.microsoft.com/23bbfc74-1f92-4776-a432-7a3ce25e3454">IWiaItem::FindItemByName</a>
 </td>
 </tr>
 <tr>
 <td> </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms630108(v=VS.85).aspx">IWiaItem::GetItemType</a>
+<a href="https://msdn.microsoft.com/2ef84150-ecd7-4f4c-9320-e65aa5e06ed5">IWiaItem::GetItemType</a>
 </td>
 </tr>
 <tr>
 <td> </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms630110(v=VS.85).aspx">IWiaItem::GetRootItem</a>
+<a href="https://msdn.microsoft.com/ddae70df-bf96-4f55-8fe6-373c6a485529">IWiaItem::GetRootItem</a>
 </td>
 </tr>
 </table>

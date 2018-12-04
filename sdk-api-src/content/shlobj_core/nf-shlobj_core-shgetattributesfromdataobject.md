@@ -7,7 +7,7 @@ old-location: shell\SHGetAttributesFromDataObject.htm
 tech.root: shell
 ms.assetid: bdc583ef-a5b6-4665-949c-50f79ace39dc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SHGetAttributesFromDataObject, SHGetAttributesFromDataObject function [Windows Shell], _win32_SHGetAttributesFromDataObject, shell.SHGetAttributesFromDataObject, shlobj_core/SHGetAttributesFromDataObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHGetAttributesFromDataObject
-: 
 ---
 
 # SHGetAttributesFromDataObject function

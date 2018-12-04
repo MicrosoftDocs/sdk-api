@@ -4,10 +4,10 @@ title: RpcSsDestroyClientContext function
 author: windows-sdk-content
 description: The RpcSsDestroyClientContext function destroys a context handle no longer needed by the client, without contacting the server.
 old-location: rpc\rpcssdestroyclientcontext.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 7c4fe939-eda9-45c3-84fb-491ac96e7c78
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RpcSsDestroyClientContext, RpcSsDestroyClientContext function [RPC], _rpc_rpcssdestroyclientcontext, rpc.rpcssdestroyclientcontext, rpcndr/RpcSsDestroyClientContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcSsDestroyClientContext
-: 
 ---
 
 # RpcSsDestroyClientContext function

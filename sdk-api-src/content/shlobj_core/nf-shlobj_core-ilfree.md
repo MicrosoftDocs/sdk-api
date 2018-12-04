@@ -7,7 +7,7 @@ old-location: shell\ILFree.htm
 tech.root: shell
 ms.assetid: 3457f36e-fdfd-44a4-90ca-a86f00bc9f36
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: HashTable_CoTaskMemFreeCB, ILFree, ILFree function [Windows Shell], _win32_ILFree, shell.ILFree, shlobj_core/HashTable_CoTaskMemFreeCB, shlobj_core/ILFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ILFree
-: 
 ---
 
 # ILFree function

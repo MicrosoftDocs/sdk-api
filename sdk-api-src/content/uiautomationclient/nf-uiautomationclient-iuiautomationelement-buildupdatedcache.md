@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_BuildUpdatedCache.htm
 tech.root: WinAuto
 ms.assetid: b2499b3c-433f-4e2f-937c-78da66c16203
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: BuildUpdatedCache, BuildUpdatedCache method [Windows Accessibility], BuildUpdatedCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],BuildUpdatedCache method, IUIAutomationElement.BuildUpdatedCache, IUIAutomationElement::BuildUpdatedCache, uiauto.uiauto_IUIAutomationElement_BuildUpdatedCache, uiauto_IUIAutomationElement_BuildUpdatedCache, uiautomationclient/IUIAutomationElement::BuildUpdatedCache, winauto.uiauto_IUIAutomationElement_BuildUpdatedCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationElement.BuildUpdatedCache
-: 
 ---
 
 # IUIAutomationElement::BuildUpdatedCache

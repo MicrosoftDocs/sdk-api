@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_constant_buffer_view_desc.htm
 tech.root: direct3d12
 ms.assetid: 83A4522E-AE87-42CE-9B95-CF63E92556AD
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D3D12_CONSTANT_BUFFER_VIEW_DESC, D3D12_CONSTANT_BUFFER_VIEW_DESC structure, d3d12/D3D12_CONSTANT_BUFFER_VIEW_DESC, direct3d12.d3d12_constant_buffer_view_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ The size in bytes of the constant buffer.
 
 
 
-This structure is used by <a href="https://msdn.microsoft.com/en-us/library/Dn788659(v=VS.85).aspx">CreateConstantBufferView</a>.
+This structure is used by <a href="https://msdn.microsoft.com/13251F82-4AE9-4234-A0C8-0E666F8A1856">CreateConstantBufferView</a>.
 
 
 
@@ -84,7 +84,7 @@ This structure is used by <a href="https://msdn.microsoft.com/en-us/library/Dn78
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

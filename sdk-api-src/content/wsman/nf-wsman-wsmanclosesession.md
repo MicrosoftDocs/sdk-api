@@ -4,10 +4,10 @@ title: WSManCloseSession function
 author: windows-sdk-content
 description: Closes a session object.
 old-location: winrm\wsmanclosesession.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: b7d1ef66-0371-4d30-8053-813b229b2a62
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WSManCloseSession, WSManCloseSession function [Windows Remote Management], winrm.wsmanclosesession, wsman/WSManCloseSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
-- apiref
-: 
-- 
-: 
-- WSManCloseSession
-: 
 ---
 
 # WSManCloseSession function

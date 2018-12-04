@@ -4,10 +4,10 @@ title: CryptXmlVerifySignature function
 author: windows-sdk-content
 description: Performs a cryptographic signature validation of a SignedInfo element.
 old-location: security\cryptxmlverifysignature.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 1f8776dc-d91a-4be9-90bf-7d36d587ffb2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlVerifySignature, CryptXmlVerifySignature function [Security], cryptxml/CryptXmlVerifySignature, security.cryptxmlverifysignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptXmlVerifySignature
-: 
 ---
 
 # CryptXmlVerifySignature function
@@ -72,7 +66,7 @@ The handle of a <b>Signature</b> element.
 
 ### -param hKey [in, optional]
 
-The handle of the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> to use to verify the signature value on 
+The handle of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> to use to verify the signature value on 
     the <b>SignedInfo</b> element.
     This parameter must be <b>NULL</b> for HMAC-based signature algorithms.
 

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedSmallChange.ht
 tech.root: WinAuto
 ms.assetid: 8d737eaa-eb4a-4d73-b515-876961423fd6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CachedSmallChange property [Windows Accessibility], CachedSmallChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedSmallChange property, IUIAutomationRangeValuePattern.CachedSmallChange, IUIAutomationRangeValuePattern.get_CachedSmallChange, IUIAutomationRangeValuePattern::CachedSmallChange, IUIAutomationRangeValuePattern::get_CachedSmallChange, get_CachedSmallChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedSmallChange, uiauto_IUIAutomationRangeValuePattern_CachedSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::CachedSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedSmallChange, winauto.uiauto_IUIAutomationRangeValuePattern_CachedSmallChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationRangeValuePattern.get_CachedSmallChange
-: 
 ---
 
 # IUIAutomationRangeValuePattern::get_CachedSmallChange

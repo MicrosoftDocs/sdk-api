@@ -2,12 +2,12 @@
 UID: NN:d3d12.ID3D12Device5
 title: ID3D12Device5
 author: windows-sdk-content
-description: Represents a virtual adapter. This interface extends ID3D12Device4 to support the creation of special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario.
+description: Represents a virtual adapter. This interface extends ID3D12Device4.
 old-location: direct3d12\id3d12device5.htm
 tech.root: direct3d12
 ms.assetid: 2D72898B-F512-4E0D-8FAC-A53EA6FE614A
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID3D122Device5, ID3D122Device5 interface, ID3D122Device5 interface,described, ID3D12Device5, d3d12/ID3D12Device5, direct3d12.id3d12device5
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: D3D12.lib
-req.dll: D3D12.dll
+req.lib: D3d12.lib
+req.dll: D3d12.dll
 req.irql: 
 topic_type:
  - APIRef
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - D3D12.dll
+ - D3d12.dll
 api_name:
  - ID3D122Device5
 product: Windows
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Represents a virtual adapter. This interface extends <b>ID3D12Device4</b> to  support the creation of special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario.
+Represents a virtual adapter. This interface extends <b>ID3D12Device4</b>.
 <div class="alert"><b>Note</b>  This interface, introduced in Windows 10, version 1809, is the latest version of the <a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a> interface. Applications targeting Windows 10, version 1809 and later should use this interface instead of earlier versions.</div><div> </div>
 
 ## -inheritance
@@ -111,15 +111,15 @@ Query the driver for resource requirements to build an acceleration structure.
 
 
 
+<a href="https://msdn.microsoft.com/7650C695-3F46-405A-9976-A4A50FFAD567">ID3D12Device1</a>
+
+
+
+<a href="https://msdn.microsoft.com/86C46FD2-7B1D-4F66-97F7-45F9428C5E1E">ID3D12Device2</a>
+
+
+
 <a href="https://msdn.microsoft.com/038E546C-4000-401A-8A11-7A83F391676E">ID3D12Device3</a>
-
-
-
-<a href="https://msdn.microsoft.com/7650C695-3F46-405A-9976-A4A50FFAD567">Id3d12device1</a>
-
-
-
-<a href="https://msdn.microsoft.com/86C46FD2-7B1D-4F66-97F7-45F9428C5E1E">Id3d12device2</a>
  
 
  

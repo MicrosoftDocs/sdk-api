@@ -7,7 +7,7 @@ old-location: com\ipropertynotifysink.htm
 tech.root: com
 ms.assetid: bfdf315c-6375-4c77-abd8-03f07342820f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IPropertyNotifySink, IPropertyNotifySink interface [COM], IPropertyNotifySink interface [COM],described, _ctrl_ipropertynotifysink, com.ipropertynotifysink, ocidl/IPropertyNotifySink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ Implemented by a sink object to receive notifications about property changes fro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyNotifySink</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPropertyNotifySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyNotifySink</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IPropertyNotifySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

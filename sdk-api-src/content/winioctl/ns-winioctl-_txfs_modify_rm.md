@@ -7,7 +7,7 @@ old-location: fs\txfs_modify_rm.htm
 tech.root: fileio
 ms.assetid: f50d64de-4452-47ac-b2fe-a049afbd526c
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PTXFS_MODIFY_RM, PTXFS_MODIFY_RM, PTXFS_MODIFY_RM structure pointer [Files], TXFS_LOGGING_MODE_FULL, TXFS_LOGGING_MODE_SIMPLE, TXFS_MODIFY_RM, TXFS_MODIFY_RM structure [Files], TXFS_RM_FLAG_DO_NOT_RESET_RM_AT_NEXT_START, TXFS_RM_FLAG_ENFORCE_MINIMUM_SIZE, TXFS_RM_FLAG_GROW_LOG, TXFS_RM_FLAG_LOGGING_MODE, TXFS_RM_FLAG_LOG_AUTO_SHRINK_PERCENTAGE, TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MAX, TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MIN, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_NUM_CONTAINERS, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_PERCENT, TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MAX, TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MIN, TXFS_RM_FLAG_PREFER_AVAILABILITY, TXFS_RM_FLAG_PREFER_CONSISTENCY, TXFS_RM_FLAG_PRESERVE_CHANGES, TXFS_RM_FLAG_RENAME_RM, TXFS_RM_FLAG_RESET_RM_AT_NEXT_START, TXFS_RM_FLAG_SHRINK_LOG, _TXFS_MODIFY_RM, base.txfs_set_rm_information, fs.txfs_modify_rm, fs.txfs_set_rm_information, winioctl/PTXFS_MODIFY_RM, winioctl/TXFS_MODIFY_RM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -277,8 +277,8 @@ This flag is only valid for default RMs, not secondary RMs. If this flag is set,
 </td>
 <td width="60%">
 Indicates that the RM is to prefer transaction 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">consistency</a> over system 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">availability</a>. This flag is mutually exclusive with 
+        <a href="glossary.htm">consistency</a> over system 
+        <a href="glossary.htm">availability</a>. This flag is mutually exclusive with 
         <b>TXFS_RM_FLAG_PREFER_AVAILABILITY</b> and is not supported by the default RM on the 
         system volume.
 
@@ -292,8 +292,8 @@ Indicates that the RM is to prefer transaction
 </td>
 <td width="60%">
 Indicates that the RM is to prefer system 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">availability</a> over transaction 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">consistency</a>. This flag is mutually exclusive with 
+        <a href="glossary.htm">availability</a> over transaction 
+        <a href="glossary.htm">consistency</a>. This flag is mutually exclusive with 
         <b>TXFS_RM_FLAG_PREFER_CONSISTENCY</b> and is forced by the default RM on the system 
         volume.
 

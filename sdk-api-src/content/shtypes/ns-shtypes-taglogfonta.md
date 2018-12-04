@@ -7,7 +7,7 @@ old-location: shell\LOGFONT.htm
 tech.root: shell
 ms.assetid: 759c54d9-5b8f-4b48-8380-79e7bcae5bdb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: LOGFONT, LOGFONT structure [Windows Shell], LOGFONTA, LOGFONTW, _shell_LOGFONT, _shell_LOGFONT_cpp, dimm/LOGFONT, dimm/LOGFONTA, dimm/LOGFONTW, shell.LOGFONT, tagLOGFONTA
 ms.prod: windows-hardware
 ms.technology: windows-devices

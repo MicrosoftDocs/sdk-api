@@ -4,10 +4,10 @@ title: InstantiateComponentFromPackage function
 author: windows-sdk-content
 description: Creates an instance of a class in an application package.
 old-location: winprog\instantiatecomponentfrompackage.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 831324BC-854B-4070-9DAE-55E68304D608
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: InstantiateComponentFromPackage, InstantiateComponentFromPackage function [Windows API], comppkgsup/InstantiateComponentFromPackage, winprog.instantiatecomponentfrompackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InstantiateComponentFromPackage
-: 
 ---
 
 # InstantiateComponentFromPackage function

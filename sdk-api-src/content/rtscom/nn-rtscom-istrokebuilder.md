@@ -7,7 +7,7 @@ old-location: tablet\istrokebuilder.htm
 tech.root: tablet
 ms.assetid: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8, IStrokeBuilder, IStrokeBuilder interface [Tablet PC], IStrokeBuilder interface [Tablet PC],described, rtscom/IStrokeBuilder, tablet.istrokebuilder
 ms.prod: windows-hardware
 ms.technology: windows-devices

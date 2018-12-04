@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::SetDisplayName
 author: windows-sdk-content
 description: Specifies a display name for the job. Typically, you use the display name to identify the job in a user interface.
 old-location: bits\ibackgroundcopyjob_setdisplayname.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 504b0096-891c-4bf7-a311-9d351b359210
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetDisplayName method, IBackgroundCopyJob.SetDisplayName, IBackgroundCopyJob::SetDisplayName, SetDisplayName, SetDisplayName method [BITS], SetDisplayName method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setdisplayname, bits.ibackgroundcopyjob_setdisplayname, bits/IBackgroundCopyJob::SetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.SetDisplayName
-: 
 ---
 
 # IBackgroundCopyJob::SetDisplayName
@@ -66,14 +58,7 @@ Specifies a display name for the job. Typically, you use the display name to ide
 
 
 
-### -param Val
-
-TBD
-
-
-
-
-#### - pDisplayName [in]
+### -param Val [in]
 
 Null-terminated string that identifies the job. Must not be <b>NULL</b>. The length of the string is limited to 256 characters, not including the null terminator.
 
@@ -144,7 +129,7 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 
 The display name is originally set when you create the job. For details on specifying the display name when you create the job, see the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">IBackgroundCopyManager::CreateJob</a> method.
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">IBackgroundCopyManager::CreateJob</a> method.
 
 
 
@@ -154,11 +139,11 @@ The display name is originally set when you create the job. For details on speci
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363024(v=VS.85).aspx">IBackgroundCopyJob::GetDisplayName</a>
+<a href="https://msdn.microsoft.com/934cff3e-d4b8-4b76-96e1-fd7ded1842eb">IBackgroundCopyJob::GetDisplayName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">IBackgroundCopyManager::CreateJob</a>
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">IBackgroundCopyManager::CreateJob</a>
  
 
  

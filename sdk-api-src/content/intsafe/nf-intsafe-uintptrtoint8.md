@@ -7,7 +7,7 @@ old-location: shell\UIntPtrToInt8.htm
 tech.root: shell
 ms.assetid: fd421216-e2c3-453f-8dd0-0a904a2e0c31
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: UIntPtrToInt8, UIntPtrToInt8 function [Windows Shell], intsafe/UIntPtrToInt8, shell.UIntPtrToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UIntPtrToInt8
-: 
 ---
 
 # UIntPtrToInt8 function

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariablechangehandler_onvaluechanged.htm
 tech.root: UIAnimation
 ms.assetid: 1e865f55-d703-4d91-8690-b816b5fe1a89
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUIAnimationVariableChangeHandler interface [Windows Animation],OnValueChanged method, IUIAnimationVariableChangeHandler.OnValueChanged, IUIAnimationVariableChangeHandler::OnValueChanged, OnValueChanged, OnValueChanged method [Windows Animation], OnValueChanged method [Windows Animation],IUIAnimationVariableChangeHandler interface, uianimation.iuianimationvariablechangehandler_onvaluechanged, uianimation/IUIAnimationVariableChangeHandler::OnValueChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uianimation.h
-: 
-- IUIAnimationVariableChangeHandler.OnValueChanged
-: 
 ---
 
 # IUIAnimationVariableChangeHandler::OnValueChanged

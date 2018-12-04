@@ -4,10 +4,10 @@ title: IUPnPDeviceDocumentAccess::GetDocumentURL
 author: windows-sdk-content
 description: The GetDocumentURL method returns the URL from which the device description document can be loaded.
 old-location: upnp\iupnpdevicedocumentaccess_getdocumenturl.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 7845e543-47c6-4751-8e29-2508b2adb090
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetDocumentURL, GetDocumentURL method [UPnP APIs], GetDocumentURL method [UPnP APIs],IUPnPDeviceDocumentAccess interface, IUPnPDeviceDocumentAccess interface [UPnP APIs],GetDocumentURL method, IUPnPDeviceDocumentAccess.GetDocumentURL, IUPnPDeviceDocumentAccess::GetDocumentURL, _upnp_iupnpdevicedocumentaccess_getdocumenturl, upnp.iupnpdevicedocumentaccess_getdocumenturl, upnp/IUPnPDeviceDocumentAccess::GetDocumentURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDeviceDocumentAccess.GetDocumentURL
-: 
 ---
 
 # IUPnPDeviceDocumentAccess::GetDocumentURL

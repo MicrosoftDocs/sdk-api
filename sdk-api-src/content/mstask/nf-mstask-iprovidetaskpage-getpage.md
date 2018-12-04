@@ -4,10 +4,10 @@ title: IProvideTaskPage::GetPage
 author: windows-sdk-content
 description: This method retrieves one or more property sheet pages associated with a task object.
 old-location: taskschd\iprovidetaskpage_getpage.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 2313abc1-587f-473b-8d2e-390dfa7234ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetPage, GetPage method [Task Scheduler], GetPage method [Task Scheduler],IProvideTaskPage interface, IProvideTaskPage interface [Task Scheduler],GetPage method, IProvideTaskPage.GetPage, IProvideTaskPage::GetPage, _msb_iprovidetaskpage_getpage, mstask/IProvideTaskPage::GetPage, taskschd.iprovidetaskpage_getpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IProvideTaskPage.GetPage
-: 
 ---
 
 # IProvideTaskPage::GetPage

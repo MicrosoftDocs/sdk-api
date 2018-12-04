@@ -4,10 +4,10 @@ title: IGPMStarterGPO::Backup
 author: windows-sdk-content
 description: Creates a backup of the current Starter GPO.
 old-location: gpmc\igpmstartergpo_backup.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: bf419f56-803f-44c2-ae08-7e428940f79d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Backup, Backup method [GPMC], Backup method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],Backup method, IGPMStarterGPO.Backup, IGPMStarterGPO::Backup, gpmc.igpmstartergpo_backup, gpmgmt/IGPMStarterGPO::Backup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMStarterGPO.Backup
-: 
 ---
 
 # IGPMStarterGPO::Backup

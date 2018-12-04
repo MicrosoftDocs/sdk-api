@@ -4,10 +4,10 @@ title: "_USER_INFO_1020"
 author: windows-sdk-content
 description: The USER_INFO_1020 structure contains the times during which a user can log on to the network. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1020_str.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 959ed1f4-d5ee-4d77-abd7-bb681778f0b1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPUSER_INFO_1020, *PUSER_INFO_1020, LPUSER_INFO_1020, LPUSER_INFO_1020 structure pointer [Network Management], PUSER_INFO_1020, PUSER_INFO_1020 structure pointer [Network Management], USER_INFO_1020, USER_INFO_1020 structure [Network Management], _USER_INFO_1020, _win32_user_info_1020_str, lmaccess/LPUSER_INFO_1020, lmaccess/PUSER_INFO_1020, lmaccess/USER_INFO_1020, netmgmt.user_info_1020_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

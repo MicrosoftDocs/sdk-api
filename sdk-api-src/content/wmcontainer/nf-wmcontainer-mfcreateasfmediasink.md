@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfmediasink.htm
 tech.root: medfound
 ms.assetid: d800ac91-f6cc-4f57-9080-4bbafb42d7ed
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFCreateASFMediaSink, MFCreateASFMediaSink function [Media Foundation], d800ac91-f6cc-4f57-9080-4bbafb42d7ed, mf.mfcreateasfmediasink, wmcontainer/MFCreateASFMediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateASFMediaSink
-: 
 ---
 
 # MFCreateASFMediaSink function

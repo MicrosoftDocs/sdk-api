@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertyDescriptionByName.htm
 tech.root: properties
 ms.assetid: 181ebbfb-66ed-4763-ad2d-acf3c800f9d2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PSGetPropertyDescriptionByName, PSGetPropertyDescriptionByName function [Windows Properties], properties.PSGetPropertyDescriptionByName, propsys/PSGetPropertyDescriptionByName, shell.PSGetPropertyDescriptionByName, shell_PSGetPropertyDescriptionByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PSGetPropertyDescriptionByName
-: 
 ---
 
 # PSGetPropertyDescriptionByName function
@@ -82,7 +76,7 @@ Reference to the interface ID of the requested property.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761517(v=VS.85).aspx">IPropertyDescriptionAliasInfo</a>, or  <a href="https://msdn.microsoft.com/en-us/library/Bb761505(v=VS.85).aspx">IPropertyDescriptionSearchInfo</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyDescription">IPropertyDescription</a>, <a href="shell.IPropertyDescriptionAliasInfo">IPropertyDescriptionAliasInfo</a>, or  <a href="shell.IPropertyDescriptionSearchInfo">IPropertyDescriptionSearchInfo</a>.
 
 
 
@@ -643,7 +637,7 @@ In addition to the new canonical names, callers can pass a legacy name for a pro
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776504(v=VS.85).aspx">PSGetPropertyDescriptionByName</a> to retrieve the description for the ratings property.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a> to retrieve the description for the ratings property.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -672,11 +666,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776503(v=VS.85).aspx">PSGetPropertyDescription</a>
+<a href="shell.PSGetPropertyDescription">PSGetPropertyDescription</a>
  
 
  

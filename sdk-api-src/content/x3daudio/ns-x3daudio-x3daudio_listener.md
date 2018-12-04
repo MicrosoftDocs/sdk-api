@@ -7,7 +7,7 @@ old-location: xaudio2\x3daudio_listener.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_LISTENER
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPX3DAUDIO_LISTENER, LPX3DAUDIO_LISTENER, LPX3DAUDIO_LISTENER structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_LISTENER, X3DAUDIO_LISTENER structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_LISTENER, x3daudio/X3DAUDIO_LISTENER, xaudio2.x3daudio_listener"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ Velocity vector in user-defined world units per second, used only for doppler ca
 
 ### -field pCone
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419054(v=VS.85).aspx">X3DAUDIO_CONE</a> structure for this listener. Providing a listener cone will specify that additional calculations are performed when determining the volume and filter DSP parameters for individual sound sources. A NULL <b>pCone</b> value specifies an omnidirectional sound and no cone processing is applied. <b>pCone</b> is only used for matrix, LPF (both direct and reverb paths), and reverb calculations.
+Pointer to an <a href="https://msdn.microsoft.com/3613e474-becc-4879-90c9-68d43bad239b">X3DAUDIO_CONE</a> structure for this listener. Providing a listener cone will specify that additional calculations are performed when determining the volume and filter DSP parameters for individual sound sources. A NULL <b>pCone</b> value specifies an omnidirectional sound and no cone processing is applied. <b>pCone</b> is only used for matrix, LPF (both direct and reverb paths), and reverb calculations.
 
 
 ## -remarks

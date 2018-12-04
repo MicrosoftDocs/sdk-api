@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary.htm
 tech.root: UIAnimation
 ms.assetid: 7d256937-b191-499f-9711-05a5ef3b8e18
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUIAnimationTransitionLibrary, IUIAnimationTransitionLibrary interface [Windows Animation], IUIAnimationTransitionLibrary interface [Windows Animation],described, uianimation.iuianimationtransitionlibrary, uianimation/IUIAnimationTransitionLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

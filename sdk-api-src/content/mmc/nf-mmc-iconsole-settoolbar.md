@@ -4,10 +4,10 @@ title: IConsole::SetToolbar
 author: windows-sdk-content
 description: Sets the toolbar interface to be used for this instance of IComponent. Be aware that this is used only by instances of IComponent.
 old-location: mmc\iconsole_settoolbar.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 242F3143-A6C1-49A1-A51B-735EE5D5D353
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IConsole interface [MMC],SetToolbar method, IConsole.SetToolbar, IConsole::SetToolbar, SetToolbar, SetToolbar method [MMC], SetToolbar method [MMC],IConsole interface, mmc.iconsole_settoolbar, mmc/IConsole::SetToolbar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IConsole.SetToolbar
-: 
 ---
 
 # IConsole::SetToolbar
@@ -88,7 +80,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a>
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>
 
 
 

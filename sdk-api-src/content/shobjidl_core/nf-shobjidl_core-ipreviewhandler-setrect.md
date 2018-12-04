@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandler_SetRect.htm
 tech.root: shell
 ms.assetid: 03353962-6905-4b13-bf7a-f1767767a7df
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],SetRect method, IPreviewHandler.SetRect, IPreviewHandler::SetRect, SetRect, SetRect method [Windows Shell], SetRect method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_SetRect, shell.IPreviewHandler_SetRect, shobjidl_core/IPreviewHandler::SetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IPreviewHandler.SetRect
-: 
 ---
 
 # IPreviewHandler::SetRect

@@ -7,7 +7,7 @@ old-location: wcn\iwcnconnectnotify_connectfailed.htm
 tech.root: wcn
 ms.assetid: cdf0394a-f5e6-49cf-bd18-9c3c2b689e50
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ConnectFailed, ConnectFailed method [Windows Connect Now], ConnectFailed method [Windows Connect Now],IWCNConnectNotify interface, IWCNConnectNotify interface [Windows Connect Now],ConnectFailed method, IWCNConnectNotify.ConnectFailed, IWCNConnectNotify::ConnectFailed, wcn.iwcnconnectnotify_connectfailed, wcndevice/IWCNConnectNotify::ConnectFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wcndevice.h
-: 
-- IWCNConnectNotify.ConnectFailed
-: 
 ---
 
 # IWCNConnectNotify::ConnectFailed

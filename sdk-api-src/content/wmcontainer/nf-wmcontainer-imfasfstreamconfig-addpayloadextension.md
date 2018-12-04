@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamconfig_addpayloadextension.htm
 tech.root: medfound
 ms.assetid: 55dd4125-ce44-4eed-b1a8-74819c452bd4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 55dd4125-ce44-4eed-b1a8-74819c452bd4, AddPayloadExtension, AddPayloadExtension method [Media Foundation], AddPayloadExtension method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],AddPayloadExtension method, IMFASFStreamConfig.AddPayloadExtension, IMFASFStreamConfig::AddPayloadExtension, mf.imfasfstreamconfig_addpayloadextension, wmcontainer/IMFASFStreamConfig::AddPayloadExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmcontainer.h
-: 
-- IMFASFStreamConfig.AddPayloadExtension
-: 
 ---
 
 # IMFASFStreamConfig::AddPayloadExtension

@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface3_getfacenames.htm
 tech.root: DirectWrite
 ms.assetid: 81FBE594-3429-4E61-9A83-513605879D2D
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetFaceNames, GetFaceNames method [Direct Write], GetFaceNames method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetFaceNames method, IDWriteFontFace3.GetFaceNames, IDWriteFontFace3::GetFaceNames, directwrite.idwritefontface3_getfacenames, dwrite_3/IDWriteFontFace3::GetFaceNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_3.h
-: 
-- IDWriteFontFace3.GetFaceNames
-: 
 ---
 
 # IDWriteFontFace3::GetFaceNames

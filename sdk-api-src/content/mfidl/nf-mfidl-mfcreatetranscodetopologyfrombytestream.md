@@ -7,7 +7,7 @@ old-location: mf\mfcreatetranscodetopologyfrombytestream.htm
 tech.root: medfound
 ms.assetid: FBA9E0A1-7763-4566-8245-D626C82D0355
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFCreateTranscodeTopologyFromByteStream, MFCreateTranscodeTopologyFromByteStream function [Media Foundation], mf.mfcreatetranscodetopologyfrombytestream, mfidl/MFCreateTranscodeTopologyFromByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateTranscodeTopologyFromByteStream
-: 
 ---
 
 # MFCreateTranscodeTopologyFromByteStream function

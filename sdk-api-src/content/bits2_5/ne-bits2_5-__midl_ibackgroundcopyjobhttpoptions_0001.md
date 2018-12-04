@@ -4,10 +4,10 @@ title: "__MIDL_IBackgroundCopyJobHttpOptions_0001"
 author: windows-sdk-content
 description: The BG_CERT_STORE_LOCATION enumeration defines the location of the certificate store.
 old-location: bits\bg_cert_store_location.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 596b1ba1-6652-4c97-a44d-e8271471d864
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: BG_CERT_STORE_LOCATION, BG_CERT_STORE_LOCATION enumeration [BITS], BG_CERT_STORE_LOCATION_CURRENT_SERVICE, BG_CERT_STORE_LOCATION_CURRENT_USER, BG_CERT_STORE_LOCATION_CURRENT_USER_GROUP_POLICY, BG_CERT_STORE_LOCATION_LOCAL_MACHINE, BG_CERT_STORE_LOCATION_LOCAL_MACHINE_ENTERPRISE, BG_CERT_STORE_LOCATION_LOCAL_MACHINE_GROUP_POLICY, BG_CERT_STORE_LOCATION_SERVICES, BG_CERT_STORE_LOCATION_USERS, __MIDL_IBackgroundCopyJobHttpOptions_0001, bits.bg_cert_store_location, bits2_5/BG_CERT_STORE_LOCATION, bits2_5/BG_CERT_STORE_LOCATION_CURRENT_SERVICE, bits2_5/BG_CERT_STORE_LOCATION_CURRENT_USER, bits2_5/BG_CERT_STORE_LOCATION_CURRENT_USER_GROUP_POLICY, bits2_5/BG_CERT_STORE_LOCATION_LOCAL_MACHINE, bits2_5/BG_CERT_STORE_LOCATION_LOCAL_MACHINE_ENTERPRISE, bits2_5/BG_CERT_STORE_LOCATION_LOCAL_MACHINE_GROUP_POLICY, bits2_5/BG_CERT_STORE_LOCATION_SERVICES, bits2_5/BG_CERT_STORE_LOCATION_USERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,7 +102,7 @@ Use the enterprise certificate store. The enterprise store is shared across doma
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa388136(v=VS.85).aspx">System Store Locations</a>.
+For more information, see <a href="https://msdn.microsoft.com/41fe9366-4c17-43bb-91d6-934c7aa87a2d">System Store Locations</a>.
 
 
 
@@ -112,15 +112,15 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa38
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964251(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
+<a href="https://msdn.microsoft.com/cd317bf9-1d4b-438e-beec-15ea7da90fc9">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964256(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
+<a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f974d">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964257(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>
+<a href="https://msdn.microsoft.com/8262b360-ab05-42a3-b5e7-178dc9f23fc6">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>
  
 
  

@@ -4,10 +4,10 @@ title: ITextFont2::GetCookie
 author: windows-sdk-content
 description: Gets the client cookie.
 old-location: controls\itextfont2_getcookie.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: f3e36338-8c88-4aaf-bbd0-c07a2228cb23
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetCookie, GetCookie method [Windows Controls], GetCookie method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCookie method, ITextFont2.GetCookie, ITextFont2::GetCookie, controls.itextfont2_getcookie, tom/ITextFont2::GetCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextFont2.GetCookie
-: 
 ---
 
 # ITextFont2::GetCookie

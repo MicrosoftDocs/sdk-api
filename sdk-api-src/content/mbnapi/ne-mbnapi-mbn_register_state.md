@@ -7,7 +7,7 @@ old-location: mbn\mbn_register_state.htm
 tech.root: mbn
 ms.assetid: cbe29357-b374-4764-9322-6308b98ddc3e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MBN_REGISTER_STATE, MBN_REGISTER_STATE enumeration [Microsoft Broadband Networks], MBN_REGISTER_STATE_DENIED, MBN_REGISTER_STATE_DEREGISTERED, MBN_REGISTER_STATE_HOME, MBN_REGISTER_STATE_NONE, MBN_REGISTER_STATE_PARTNER, MBN_REGISTER_STATE_ROAMING, MBN_REGISTER_STATE_SEARCHING, mbn.mbn_register_state, mbnapi/MBN_REGISTER_STATE, mbnapi/MBN_REGISTER_STATE_DENIED, mbnapi/MBN_REGISTER_STATE_DEREGISTERED, mbnapi/MBN_REGISTER_STATE_HOME, mbnapi/MBN_REGISTER_STATE_NONE, mbnapi/MBN_REGISTER_STATE_PARTNER, mbnapi/MBN_REGISTER_STATE_ROAMING, mbnapi/MBN_REGISTER_STATE_SEARCHING
 ms.prod: windows-hardware
 ms.technology: windows-devices

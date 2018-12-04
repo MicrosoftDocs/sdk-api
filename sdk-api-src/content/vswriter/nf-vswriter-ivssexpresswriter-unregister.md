@@ -4,10 +4,10 @@ title: IVssExpressWriter::Unregister
 author: windows-sdk-content
 description: Causes VSS to delete the writer's metadata from the express writer metadata store.
 old-location: base\ivssexpresswriter_unregister.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 24398ace-4e76-471b-ae04-d2005e09cb6a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssExpressWriter interface,Unregister method, IVssExpressWriter.Unregister, IVssExpressWriter::Unregister, Unregister, Unregister method, Unregister method,IVssExpressWriter interface, base.ivssexpresswriter_unregister, vswriter/IVssExpressWriter::Unregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- IVssExpressWriter.Unregister
-: 
 ---
 
 # IVssExpressWriter::Unregister

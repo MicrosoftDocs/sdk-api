@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2_getcookie.htm
 tech.root: ixhr2
 ms.assetid: A2A9C54B-92A2-41EA-A741-797BA219BCDA
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetCookie, GetCookie method [XMLHttpRequest2], GetCookie method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],GetCookie method, IXMLHTTPRequest2.GetCookie, IXMLHTTPRequest2::GetCookie, ixhr2.ixmlhttprequest2_getcookie, msxml6/IXMLHTTPRequest2::GetCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msxml6.h
-: 
-- IXMLHTTPRequest2.GetCookie
-: 
 ---
 
 # IXMLHTTPRequest2::GetCookie

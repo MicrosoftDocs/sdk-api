@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession::get_Invitations
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
 old-location: rdp\irdpsrapisharingsession_invitations.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 6e5116d9-7b65-4d93-ab1e-caac080e870e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Invitations property, IRDPSRAPISharingSession.Invitations, IRDPSRAPISharingSession.get_Invitations, IRDPSRAPISharingSession2 interface [RDP],Invitations property, IRDPSRAPISharingSession2.Invitations, IRDPSRAPISharingSession2::Invitations, IRDPSRAPISharingSession2::get_Invitations, IRDPSRAPISharingSession::get_Invitations, Invitations property [RDP], Invitations property [RDP],IRDPSRAPISharingSession interface, Invitations property [RDP],IRDPSRAPISharingSession2 interface, Invitations property [RDP],RDPSession object, RDPSession object [RDP],Invitations property, get_Invitations, rdp.irdpsrapisharingsession_invitations, rdpencomapi/IRDPSRAPISharingSession2::Invitations, rdpencomapi/IRDPSRAPISharingSession2::get_Invitations, rdpencomapi/IRDPSRAPISharingSession::Invitations, rdpencomapi/IRDPSRAPISharingSession::get_Invitations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPISharingSession.get_Invitations
-: 
 ---
 
 # IRDPSRAPISharingSession::get_Invitations

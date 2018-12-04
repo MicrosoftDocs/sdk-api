@@ -4,10 +4,10 @@ title: "_ads_vlv"
 author: windows-sdk-content
 description: Contains metadata used to conduct virtual list view (VLV) searches.
 old-location: adsi\ads_vlv.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: bd8eab9f-9b44-4cef-b828-6e7c7c3e19bb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: "*PADS_VLV, ADS_VLV, ADS_VLV structure [ADSI], _ads_vlv, _ds_ads_vlv, adsi.ads__vlv, adsi.ads_vlv, iads/ADS_VLV"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_collectionchange.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_collectionchange.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/20/2018
 ms.keywords: UI_COLLECTIONCHANGE, UI_COLLECTIONCHANGE enumeration [Windows Ribbon], UI_COLLECTIONCHANGE_INSERT, UI_COLLECTIONCHANGE_REMOVE, UI_COLLECTIONCHANGE_REPLACE, UI_COLLECTIONCHANGE_RESET, scenicintent_UI_COLLECTIONCHANGE, uiribbon/UI_COLLECTIONCHANGE, uiribbon/UI_COLLECTIONCHANGE_INSERT, uiribbon/UI_COLLECTIONCHANGE_REMOVE, uiribbon/UI_COLLECTIONCHANGE_REPLACE, uiribbon/UI_COLLECTIONCHANGE_RESET, windowsribbon.windowsribbon_ui_collectionchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,11 +83,11 @@ Delete all items from the collection.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371502(v=VS.85).aspx">IUICollectionChangedEvent::OnChanged</a>
+<a href="https://msdn.microsoft.com/5a524071-2679-44c7-85db-a40cfcb4a321">IUICollectionChangedEvent::OnChanged</a>
  
 
  

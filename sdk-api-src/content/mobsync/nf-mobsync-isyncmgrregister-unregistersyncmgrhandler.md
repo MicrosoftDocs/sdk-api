@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrregister_unregistersyncmgrhandler.htm
 tech.root: shell
 ms.assetid: cd823d73-a07a-4c75-a29c-6c48ad2c23dc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ISyncMgrRegister interface [Windows Shell],UnregisterSyncMgrHandler method, ISyncMgrRegister.UnregisterSyncMgrHandler, ISyncMgrRegister::UnregisterSyncMgrHandler, UnregisterSyncMgrHandler, UnregisterSyncMgrHandler method [Windows Shell], UnregisterSyncMgrHandler method [Windows Shell],ISyncMgrRegister interface, mobsync/ISyncMgrRegister::UnregisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_unregistersyncmgrhandler, syncmgr.isyncmgrregister_unregistersyncmgrhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mobsync.h
-: 
-- ISyncMgrRegister.UnregisterSyncMgrHandler
-: 
 ---
 
 # ISyncMgrRegister::UnregisterSyncMgrHandler

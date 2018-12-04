@@ -7,7 +7,7 @@ old-location: winmsg\getancestor.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getancestor.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GA_PARENT, GA_ROOT, GA_ROOTOWNER, GetAncestor, GetAncestor function [Windows and Messages], _win32_GetAncestor, _win32_getancestor_cpp, winmsg.getancestor, winui._win32_getancestor, winuser/GetAncestor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,12 +51,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetAncestor
-: 
 ---
 
 # GetAncestor function
@@ -98,7 +92,7 @@ The ancestor to be retrieved. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Retrieves the parent window. This does not include the owner, as it does with the <a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a> function. 
+Retrieves the parent window. This does not include the owner, as it does with the <a href="https://msdn.microsoft.com/9e1991dd-e451-4f2a-ac9f-069acb8e89c2">GetParent</a> function. 
 
 </td>
 </tr>
@@ -120,7 +114,7 @@ Retrieves the root window by walking the chain of parent windows.
 </dl>
 </td>
 <td width="60%">
-Retrieves the owned root window by walking the chain of parent and owner windows returned by <a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a>. 
+Retrieves the owned root window by walking the chain of parent and owner windows returned by <a href="https://msdn.microsoft.com/9e1991dd-e451-4f2a-ac9f-069acb8e89c2">GetParent</a>. 
 
 </td>
 </tr>
@@ -149,7 +143,7 @@ The return value is the handle to the ancestor window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a>
+<a href="https://msdn.microsoft.com/9e1991dd-e451-4f2a-ac9f-069acb8e89c2">GetParent</a>
 
 
 
@@ -157,7 +151,7 @@ The return value is the handle to the ancestor window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

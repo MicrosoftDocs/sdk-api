@@ -7,7 +7,7 @@ old-location: shell\ITrackShellMenu_Popup.htm
 tech.root: shell
 ms.assetid: a8098143-6f36-496c-81af-f06fb83c9920
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ITrackShellMenu interface [Windows Shell],Popup method, ITrackShellMenu.Popup, ITrackShellMenu::Popup, Popup, Popup method [Windows Shell], Popup method [Windows Shell],ITrackShellMenu interface, _shell_ITrackShellMenu_Popup, shdeprecated/ITrackShellMenu::Popup, shell.ITrackShellMenu_Popup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- ITrackShellMenu.Popup
-: 
 ---
 
 # ITrackShellMenu::Popup

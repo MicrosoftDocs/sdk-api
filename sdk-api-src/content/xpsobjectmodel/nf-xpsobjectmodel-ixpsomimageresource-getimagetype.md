@@ -7,7 +7,7 @@ old-location: xps\ixpsomimageresource_getimagetype.htm
 tech.root: printdocs
 ms.assetid: c38af0c0-e05c-4ba4-92d5-114350cae05f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetImageType, GetImageType method [XPS Documents and Packaging], GetImageType method [XPS Documents and Packaging],IXpsOMImageResource interface, IXpsOMImageResource interface [XPS Documents and Packaging],GetImageType method, IXpsOMImageResource.GetImageType, IXpsOMImageResource::GetImageType, xps.ixpsomimageresource_getimagetype, xpsobjectmodel/IXpsOMImageResource::GetImageType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMImageResource.GetImageType
-: 
 ---
 
 # IXpsOMImageResource::GetImageType

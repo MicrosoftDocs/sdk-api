@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidStreamBufferSink.get_SBESink
-: 
 ---
 
 # IMSVidStreamBufferSink::get_SBESink

@@ -7,7 +7,7 @@ old-location: multimedia\waveoutreset.htm
 tech.root: Multimedia
 ms.assetid: 8a057dcd-985b-4ec7-be5b-c1cc2a6d1e72
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_waveOutReset, mmeapi/waveOutReset, multimedia.waveoutreset, waveOutReset, waveOutReset function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- waveOutReset
-: 
 ---
 
 # waveOutReset function

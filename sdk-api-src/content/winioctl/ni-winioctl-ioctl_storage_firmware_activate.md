@@ -7,7 +7,7 @@ old-location: fs\ioctl_storage_firmware_activate.htm
 tech.root: fileio
 ms.assetid: 000BEB58-D91E-4859-AC31-A4C72B84A982
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_ACTIVATE, IOCTL_STORAGE_FIRMWARE_ACTIVATE control, IOCTL_STORAGE_FIRMWARE_ACTIVATE control code [Files], fs.ioctl_storage_firmware_activate, winioctl/IOCTL_STORAGE_FIRMWARE_ACTIVATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

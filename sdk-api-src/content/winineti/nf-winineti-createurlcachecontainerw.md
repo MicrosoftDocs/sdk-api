@@ -4,10 +4,10 @@ title: CreateUrlCacheContainerW function
 author: windows-sdk-content
 description: Creates a cache container in the specified cache path to hold cache entries based on the specified name, cache prefix, and container type.
 old-location: wininet\createurlcachecontainer.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 19b518cc-2f02-49c3-bedc-f5d633cc635d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateUrlCacheContainer, CreateUrlCacheContainer function [WinINet], CreateUrlCacheContainerA, CreateUrlCacheContainerW, wininet.createurlcachecontainer, winineti/CreateUrlCacheContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateUrlCacheContainerW
-: 
 ---
 
 # CreateUrlCacheContainerW function

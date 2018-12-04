@@ -4,10 +4,10 @@ title: IVssBackupComponents::ImportSnapshots
 author: windows-sdk-content
 description: Imports shadow copies transported from a different machine.
 old-location: base\ivssbackupcomponents_importsnapshots.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 7f28c841-5448-4ed7-b76e-0aa5376fd8bf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssBackupComponents interface [VSS],ImportSnapshots method, IVssBackupComponents.ImportSnapshots, IVssBackupComponents::ImportSnapshots, ImportSnapshots, ImportSnapshots method [VSS], ImportSnapshots method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_importsnapshots, base.ivssbackupcomponents_importsnapshots, vsbackup/IVssBackupComponents::ImportSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsbackup.h
-: 
-- IVssBackupComponents.ImportSnapshots
-: 
 ---
 
 # IVssBackupComponents::ImportSnapshots

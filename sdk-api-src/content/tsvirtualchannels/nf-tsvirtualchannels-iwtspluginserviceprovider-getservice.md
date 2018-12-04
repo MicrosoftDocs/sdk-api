@@ -7,7 +7,7 @@ old-location: termserv\iwtspluginserviceprovider_getservice.htm
 tech.root: termserv
 ms.assetid: dd99c312-7899-4a94-ad40-abfd1a168332
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetService, GetService method [Remote Desktop Services], GetService method [Remote Desktop Services],IWTSPluginServiceProvider interface, IWTSPluginServiceProvider interface [Remote Desktop Services],GetService method, IWTSPluginServiceProvider.GetService, IWTSPluginServiceProvider::GetService, RDCLIENT_BITMAP_RENDER_SERVICE, termserv.iwtspluginserviceprovider_getservice, tsvirtualchannels/IWTSPluginServiceProvider::GetService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tsvirtualchannels.h
-: 
-- IWTSPluginServiceProvider.GetService
-: 
 ---
 
 # IWTSPluginServiceProvider::GetService

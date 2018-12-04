@@ -4,10 +4,10 @@ title: SCardBeginTransaction function
 author: windows-sdk-content
 description: Starts a transaction.
 old-location: security\scardbegintransaction.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 91f61060-4b0b-4890-9372-25ba0aacb642
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SCardBeginTransaction, SCardBeginTransaction function [Security], _smart_scardbegintransaction, security.scardbegintransaction, winscard/SCardBeginTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SCardBeginTransaction
-: 
 ---
 
 # SCardBeginTransaction function
@@ -79,7 +73,7 @@ A reference value obtained from a previous call to
 
 If the function succeeds, it returns <b>SCARD_S_SUCCESS</b>.
 
-If the function fails, it returns an error code. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+If the function fails, it returns an error code. For more information, see <a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 If another process or thread has reset the card, SCARD_W_RESET_CARD is returned as expected.
 

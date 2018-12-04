@@ -4,10 +4,10 @@ title: IEnumPhone
 author: windows-sdk-content
 description: The IEnumPhone interface provides COM-standard enumeration methods for the ITPhone interface. The ITAddress2::EnumeratePhones and ITTAPI2::EnumeratePhones methods return a pointer to IEnumPhone.
 old-location: tapi3\ienumphone.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: fa12508d-6224-4e11-a4a3-5ce5fff7b735
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IEnumPhone, IEnumPhone interface [TAPI 2.2], IEnumPhone interface [TAPI 2.2],described, _tapi3_ienumphone, tapi3.ienumphone, tapi3if/IEnumPhone
 ms.prod: windows-hardware
 ms.technology: windows-devices

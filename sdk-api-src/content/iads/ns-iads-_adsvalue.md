@@ -4,10 +4,10 @@ title: "_adsvalue"
 author: windows-sdk-content
 description: Contains a value specified as an ADSI data type.
 old-location: adsi\adsvalue.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: b53c4a14-9965-4025-95bc-37f460ea2bc9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPADSVALUE, *PADSVALUE, ADSVALUE, ADSVALUE structure [ADSI], LPADSVALUE, LPADSVALUE structure pointer [ADSI], PADSVALUE, PADSVALUE structure pointer [ADSI], _adsvalue, _ds_adsvalue, adsi.adsvalue, iads/ADSVALUE, iads/LPADSVALUE, iads/PADSVALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

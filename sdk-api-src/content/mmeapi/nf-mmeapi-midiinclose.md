@@ -7,7 +7,7 @@ old-location: multimedia\midiinclose.htm
 tech.root: Multimedia
 ms.assetid: 95a1490c-3a0f-4380-a11f-0979e94f88ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_midiInClose, midiInClose, midiInClose function [Windows Multimedia], mmeapi/midiInClose, multimedia.midiinclose"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- midiInClose
-: 
 ---
 
 # midiInClose function

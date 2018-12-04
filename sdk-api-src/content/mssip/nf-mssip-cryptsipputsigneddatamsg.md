@@ -4,10 +4,10 @@ title: CryptSIPPutSignedDataMsg function
 author: windows-sdk-content
 description: Stores an Authenticode signature in the target file.
 old-location: security\cryptsipputsigneddatamsg.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 731f64bf-49f0-4799-b84a-9ca04292aa91
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptSIPPutSignedDataMsg, CryptSIPPutSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPPutSignedDataMsg, security.cryptsipputsigneddatamsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptSIPPutSignedDataMsg
-: 
 ---
 
 # CryptSIPPutSignedDataMsg function

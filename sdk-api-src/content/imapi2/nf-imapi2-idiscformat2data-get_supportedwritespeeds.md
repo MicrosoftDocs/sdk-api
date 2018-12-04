@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_supportedwritespeeds.htm
 tech.root: imapi
 ms.assetid: 09d8019d-b3d5-47e1-8fda-58c542d5829d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_SupportedWriteSpeeds method, IDiscFormat2Data.get_SupportedWriteSpeeds, IDiscFormat2Data::get_SupportedWriteSpeeds, get_SupportedWriteSpeeds, get_SupportedWriteSpeeds method [IMAPI], get_SupportedWriteSpeeds method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_supportedwritespeeds, imapi2/IDiscFormat2Data::get_SupportedWriteSpeeds
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscFormat2Data.get_SupportedWriteSpeeds
-: 
 ---
 
 # IDiscFormat2Data::get_SupportedWriteSpeeds

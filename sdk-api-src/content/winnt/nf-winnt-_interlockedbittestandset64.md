@@ -4,10 +4,10 @@ title: "_interlockedbittestandset64 function"
 author: windows-sdk-content
 description: Tests the specified bit of the specified LONG64 value and sets it to 1. The operation is atomic.
 old-location: base\interlockedbittestandset64.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 27f344c7-7143-42fe-b5b6-adc1d983abde
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: InterlockedBitTestAndSet64, InterlockedBitTestAndSet64 function, _interlockedbittestandset64, base.interlockedbittestandset64, winnt/InterlockedBitTestAndSet64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- _interlockedbittestandset64
-: 
 ---
 
 # _interlockedbittestandset64 function

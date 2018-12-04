@@ -4,10 +4,10 @@ title: ITraceDataProviderCollection::CreateTraceDataProvider
 author: windows-sdk-content
 description: Creates a trace data provider object.
 old-location: pla\itracedataprovidercollection_createtracedataprovider.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 234de4d8-896f-462d-8785-8b768697bf2e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateTraceDataProvider, CreateTraceDataProvider method [PLA], CreateTraceDataProvider method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],CreateTraceDataProvider method, ITraceDataProviderCollection.CreateTraceDataProvider, ITraceDataProviderCollection::CreateTraceDataProvider, pla.itracedataprovidercollection_createtracedataprovider, pla/ITraceDataProviderCollection::CreateTraceDataProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- ITraceDataProviderCollection.CreateTraceDataProvider
-: 
 ---
 
 # ITraceDataProviderCollection::CreateTraceDataProvider

@@ -4,10 +4,10 @@ title: ITAddressCapabilities::get_AddressCapability
 author: windows-sdk-content
 description: The get_AddressCapability method gets the capability value for a given ADDRESS_CAPABILITY.
 old-location: tapi3\itaddresscapabilities_get_addresscapability.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 76e61d5e-48b6-4b9c-9076-bd20a794859c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_AddressCapability method, ITAddressCapabilities.get_AddressCapability, ITAddressCapabilities::get_AddressCapability, _tapi3_itaddresscapabilities_get_addresscapability, get_AddressCapability, get_AddressCapability method [TAPI 2.2], get_AddressCapability method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_addresscapability, tapi3if/ITAddressCapabilities::get_AddressCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITAddressCapabilities.get_AddressCapability
-: 
 ---
 
 # ITAddressCapabilities::get_AddressCapability

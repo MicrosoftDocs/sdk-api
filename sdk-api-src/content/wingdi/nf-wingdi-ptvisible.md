@@ -7,7 +7,7 @@ old-location: gdi\ptvisible.htm
 tech.root: gdi
 ms.assetid: 72ccbd0f-f85b-434d-b0fc-dbe26348a74d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PtVisible, PtVisible function [Windows GDI], _win32_PtVisible, gdi.ptvisible, wingdi/PtVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PtVisible
-: 
 ---
 
 # PtVisible function

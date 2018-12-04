@@ -4,10 +4,10 @@ title: "_LSA_SECPKG_FUNCTION_TABLE"
 author: windows-sdk-content
 description: Contains pointers to the LSA functions that a security package can call. The Local Security Authority (LSA) passes this structure to a security package when it calls the package's SpInitialize function.
 old-location: security\lsa_secpkg_function_table.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 85f04072-8634-454a-9038-737d86c5597d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PLSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG_FUNCTION_TABLE, LSA_SECPKG_FUNCTION_TABLE structure [Security], PLSA_SECPKG_FUNCTION_TABLE, PLSA_SECPKG_FUNCTION_TABLE structure pointer [Security], _LSA_SECPKG_FUNCTION_TABLE, _ssp_lsa_secpkg_function_table, ntsecpkg/LSA_SECPKG_FUNCTION_TABLE, ntsecpkg/PLSA_SECPKG_FUNCTION_TABLE, security.lsa_secpkg_function_table"
 ms.prod: windows-hardware
 ms.technology: windows-devices

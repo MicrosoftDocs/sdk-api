@@ -4,10 +4,10 @@ title: ITextRow::SetHeight
 author: windows-sdk-content
 description: Sets the height of a row.
 old-location: controls\itextrow_setheight.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: c377bdef-d906-4f7b-98f0-13633906ced9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ITextRow interface [Windows Controls],SetHeight method, ITextRow.SetHeight, ITextRow::SetHeight, SetHeight, SetHeight method [Windows Controls], SetHeight method [Windows Controls],ITextRow interface, controls.itextrow_setheight, tom/ITextRow::SetHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRow.SetHeight
-: 
 ---
 
 # ITextRow::SetHeight

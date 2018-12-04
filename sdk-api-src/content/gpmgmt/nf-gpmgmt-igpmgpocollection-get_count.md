@@ -4,10 +4,10 @@ title: IGPMGPOCollection::get_Count
 author: windows-sdk-content
 description: Returns the number of GPOs in the collection.
 old-location: gpmc\igpmgpocollection_get_count.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: eda3c574-baee-44fa-b6bc-7f0dfa239ecc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMGPOCollection class, Count property [GPMC],IGPMGPOCollection interface, GPMGPOCollection class [GPMC],Count property, IGPMGPOCollection interface [GPMC],Count property, IGPMGPOCollection.Count, IGPMGPOCollection.get_Count, IGPMGPOCollection::Count, IGPMGPOCollection::get_Count, _win32_igpmgpocollection_get_count, get_Count, gpmc.igpmgpocollection_get_count, gpmgmt/IGPMGPOCollection::Count, gpmgmt/IGPMGPOCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMGPOCollection.get_Count
-: 
 ---
 
 # IGPMGPOCollection::get_Count

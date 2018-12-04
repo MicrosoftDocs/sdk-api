@@ -4,10 +4,10 @@ title: IADsUser::ChangePassword
 author: windows-sdk-content
 description: Changes the user password from the specified old value to a new value.
 old-location: adsi\iadsuser_changepassword.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 279087b1-450a-4089-a5f6-257849ae583f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: ChangePassword, ChangePassword method [ADSI], ChangePassword method [ADSI],IADsUser interface, IADsUser interface [ADSI],ChangePassword method, IADsUser.ChangePassword, IADsUser::ChangePassword, _ds_iadsuser_changepassword, adsi.iadsuser__changepassword, adsi.iadsuser_changepassword, iads/IADsUser::ChangePassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsUser.ChangePassword
-: 
 ---
 
 # IADsUser::ChangePassword

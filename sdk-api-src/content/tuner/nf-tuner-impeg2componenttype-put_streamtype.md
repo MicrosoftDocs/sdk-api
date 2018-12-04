@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IMPEG2ComponentType.put_StreamType
-: 
 ---
 
 # IMPEG2ComponentType::put_StreamType

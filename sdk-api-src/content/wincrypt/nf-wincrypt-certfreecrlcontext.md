@@ -4,10 +4,10 @@ title: CertFreeCRLContext function
 author: windows-sdk-content
 description: Frees a certificate revocation list (CRL) context by decrementing its reference count.
 old-location: security\certfreecrlcontext.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 19a590a5-bd39-4bbe-ad86-4e648baa1ba8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertFreeCRLContext, CertFreeCRLContext function [Security], _crypto2_certfreecrlcontext, security.certfreecrlcontext, wincrypt/CertFreeCRLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertFreeCRLContext
-: 
 ---
 
 # CertFreeCRLContext function
@@ -94,7 +88,7 @@ The function always returns <b>TRUE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

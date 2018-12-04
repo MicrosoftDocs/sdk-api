@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetNtmsObjectAttributeA
-: 
 ---
 
 # GetNtmsObjectAttributeA function
@@ -304,7 +298,7 @@ The following is the list of objects that require special access rights.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
 
 
 

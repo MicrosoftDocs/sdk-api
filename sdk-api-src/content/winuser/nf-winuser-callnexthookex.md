@@ -7,7 +7,7 @@ old-location: winmsg\callnexthookex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\callnexthookex.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CallNextHookEx, CallNextHookEx function [Windows and Messages], _win32_CallNextHookEx, _win32_callnexthookex_cpp, winmsg.callnexthookex, winui._win32_callnexthookex, winuser/CallNextHookEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CallNextHookEx
-: 
 ---
 
 # CallNextHookEx function
@@ -132,7 +126,7 @@ Calling <b>CallNextHookEx</b> is optional, but it is highly recommended; otherwi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://msdn.microsoft.com/987095d7-059f-4eae-925d-6723ab6d524c">Hooks</a>
 
 
 
@@ -140,11 +134,11 @@ Calling <b>CallNextHookEx</b> is optional, but it is highly recommended; otherwi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644993(v=VS.85).aspx">UnhookWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/0266fc5f-f62f-4bad-99b9-7cd16edb07de">UnhookWindowsHookEx</a>
  
 
  

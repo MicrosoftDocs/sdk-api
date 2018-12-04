@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IGridItemProvider_ColumnSpan.htm
 tech.root: WinAuto
 ms.assetid: 9964f585-0487-45e4-a201-8b584ab73299
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ColumnSpan property [Windows Accessibility], ColumnSpan property [Windows Accessibility],IGridItemProvider interface, IGridItemProvider interface [Windows Accessibility],ColumnSpan property, IGridItemProvider.ColumnSpan, IGridItemProvider.get_ColumnSpan, IGridItemProvider::ColumnSpan, IGridItemProvider::get_ColumnSpan, get_ColumnSpan, uiauto.uiauto_IGridItemProvider_ColumnSpan, uiauto_IGridItemProvider_ColumnSpan, uiautomationcore/IGridItemProvider::ColumnSpan, uiautomationcore/IGridItemProvider::get_ColumnSpan, winauto.uiauto_IGridItemProvider_ColumnSpan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationcore.h
-: 
-- IGridItemProvider.get_ColumnSpan
-: 
 ---
 
 # IGridItemProvider::get_ColumnSpan

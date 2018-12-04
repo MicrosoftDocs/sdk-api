@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_ScrollIntoView.htm
 tech.root: WinAuto
 ms.assetid: 0d1ec553-1cc2-4b1c-a393-2507a3756a6c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],ScrollIntoView method, IUIAutomationTextRange.ScrollIntoView, IUIAutomationTextRange::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_ScrollIntoView, uiauto_IUIAutomationTextRange_ScrollIntoView, uiautomationclient/IUIAutomationTextRange::ScrollIntoView, winauto.uiauto_IUIAutomationTextRange_ScrollIntoView
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationTextRange.ScrollIntoView
-: 
 ---
 
 # IUIAutomationTextRange::ScrollIntoView
@@ -90,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The method respects both hidden and visible text. If the text range is hidden, the text control will scroll only if the hidden text has an anchor in the viewport. 
 
- A Microsoft UI Automation client can check text visibility by calling <a href="https://msdn.microsoft.com/7a77774e-7be0-473e-a0c9-e1aa108549e1">IUIAutomationTextRange::GetAttributeValue</a> with the <i>attr</i> parameter set to <a href="https://msdn.microsoft.com/en-us/library/Ee671662(v=VS.85).aspx">UIA_IsHiddenAttributeId</a>.  
+ A Microsoft UI Automation client can check text visibility by calling <a href="https://msdn.microsoft.com/7a77774e-7be0-473e-a0c9-e1aa108549e1">IUIAutomationTextRange::GetAttributeValue</a> with the <i>attr</i> parameter set to <a href="uiauto_textattribute_ids.htm">UIA_IsHiddenAttributeId</a>.  
 
 
 

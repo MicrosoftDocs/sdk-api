@@ -7,7 +7,7 @@ old-location: shell\SHFormatDrive.htm
 tech.root: shell
 ms.assetid: 4aa255fa-c407-47db-9b1f-d449e0a0e94f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SHFMT_ID_DEFAULT, SHFMT_OPT_FULL, SHFMT_OPT_SYSONLY, SHFormatDrive, SHFormatDrive function [Windows Shell], shell.SHFormatDrive, shell_SHFormatDrive, shlobj_core/SHFormatDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHFormatDrive
-: 
 ---
 
 # SHFormatDrive function

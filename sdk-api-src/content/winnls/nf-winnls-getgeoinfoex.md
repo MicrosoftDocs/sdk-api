@@ -7,7 +7,7 @@ old-location: intl\getgeoinfoex.htm
 tech.root: Intl
 ms.assetid: 05BF6434-A80F-4BF5-9A43-C4D65E72F43B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetGeoInfoEx, GetGeoInfoEx function [Internationalization for Windows Applications], intl.getgeoinfoex, winnls/GetGeoInfoEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetGeoInfoEx
-: 
 ---
 
 # GetGeoInfoEx function

@@ -7,7 +7,7 @@ old-location: tsf\itfcontextkeyeventsink.htm
 tech.root: TSF
 ms.assetid: 26fc5d8a-e24e-414e-a355-c1f89251f6bd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfContextKeyEventSink, ITfContextKeyEventSink interface [Text Services Framework], ITfContextKeyEventSink interface [Text Services Framework],described, _tsf_itfcontextkeyeventsink_ref, msctf/ITfContextKeyEventSink, tsf.itfcontextkeyeventsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,7 +129,7 @@ Called to determine if a text service will handle a key up event.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

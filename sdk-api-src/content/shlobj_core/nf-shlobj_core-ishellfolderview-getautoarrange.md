@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_GetAutoArrange.htm
 tech.root: shell
 ms.assetid: ee7c0c7c-17f1-48b4-9aa0-33804c237036
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetAutoArrange, GetAutoArrange method [Windows Shell], GetAutoArrange method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetAutoArrange method, IShellFolderView.GetAutoArrange, IShellFolderView::GetAutoArrange, _shell_IShellFolderView_GetAutoArrange, shell.IShellFolderView_GetAutoArrange, shlobj_core/IShellFolderView::GetAutoArrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shlobj_core.h
-: 
-- IShellFolderView.GetAutoArrange
-: 
 ---
 
 # IShellFolderView::GetAutoArrange

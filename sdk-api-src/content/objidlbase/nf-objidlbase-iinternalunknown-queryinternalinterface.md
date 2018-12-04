@@ -7,7 +7,7 @@ old-location: com\iinternalunknown_queryinternalinterface.htm
 tech.root: com
 ms.assetid: 7fa3478a-126c-43d9-851f-effa016c33f2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IInternalUnknown interface [COM],QueryInternalInterface method, IInternalUnknown.QueryInternalInterface, IInternalUnknown::QueryInternalInterface, QueryInternalInterface, QueryInternalInterface method [COM], QueryInternalInterface method [COM],IInternalUnknown interface, _com_iinternalunknown_queryinternalinterface, com.iinternalunknown_queryinternalinterface, objidlbase/IInternalUnknown::QueryInternalInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidlbase.h
-: 
-- IInternalUnknown.QueryInternalInterface
-: 
 ---
 
 # IInternalUnknown::QueryInternalInterface

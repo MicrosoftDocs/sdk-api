@@ -7,7 +7,7 @@ old-location: properties\PropVariantToFileTimeVectorAlloc.htm
 tech.root: properties
 ms.assetid: 2d0125fe-f4af-451b-8dc7-d29a35cc927e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PropVariantToFileTimeVectorAlloc, PropVariantToFileTimeVectorAlloc function [Windows Properties], _shell_PropVariantToFileTimeVectorAlloc, properties.PropVariantToFileTimeVectorAlloc, propvarutil/PropVariantToFileTimeVectorAlloc, shell.PropVariantToFileTimeVectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantToFileTimeVectorAlloc
-: 
 ---
 
 # PropVariantToFileTimeVectorAlloc function
@@ -139,7 +133,7 @@ The output FILETIMEs will use the same time zone as the source FILETIMEs.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776544(v=VS.85).aspx">PropVariantToFileTimeVectorAlloc</a> to access a FILETIME vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToFileTimeVectorAlloc">PropVariantToFileTimeVectorAlloc</a> to access a FILETIME vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -169,15 +163,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762294(v=VS.85).aspx">InitPropVariantFromFileTimeVector</a>
+<a href="shell.InitPropVariantFromFileTimeVector">InitPropVariantFromFileTimeVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776542(v=VS.85).aspx">PropVariantToFileTime</a>
+<a href="shell.PropVariantToFileTime">PropVariantToFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776543(v=VS.85).aspx">PropVariantToFileTimeVector</a>
+<a href="shell.PropVariantToFileTimeVector">PropVariantToFileTimeVector</a>
  
 
  

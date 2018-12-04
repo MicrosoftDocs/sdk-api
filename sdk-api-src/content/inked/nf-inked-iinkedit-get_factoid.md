@@ -7,7 +7,7 @@ old-location: tablet\inkedit_factoid.htm
 tech.root: tablet
 ms.assetid: 150325e4-dd8b-4abf-baa6-f0fda05d2fd9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 150325e4-dd8b-4abf-baa6-f0fda05d2fd9, Factoid property [Tablet PC], Factoid property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Factoid property, IInkEdit.Factoid, IInkEdit.get_Factoid, IInkEdit::Factoid, IInkEdit::get_Factoid, IInkEdit::put_Factoid, InkEdit.get_Factoid, InkEdit.put_Factoid, get_Factoid, inked/IInkEdit::Factoid, inked/IInkEdit::get_Factoid, inked/IInkEdit::put_Factoid, put_Factoid, tablet.inkedit_factoid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,14 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- inked.h
-: 
-- IInkEdit.get_Factoid
-: 
 ---
 
 # IInkEdit::get_Factoid

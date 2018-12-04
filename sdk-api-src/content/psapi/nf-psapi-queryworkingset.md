@@ -7,7 +7,7 @@ old-location: psapi\queryworkingset.htm
 tech.root: psapi
 ms.assetid: b932153f-2bbd-460e-8ff7-b3e493c397bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: K32QueryWorkingSet, QueryWorkingSet, QueryWorkingSet function [PSAPI], _win32_queryworkingset, base.queryworkingset, psapi.queryworkingset, psapi/K32QueryWorkingSet, psapi/QueryWorkingSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- QueryWorkingSet
-: 
 ---
 
 # QueryWorkingSet function

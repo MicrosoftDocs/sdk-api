@@ -1,22 +1,22 @@
 ---
 UID: NE:webservices.__unnamed_enum_6
-title: "__unnamed_enum_6"
+title: WS_XML_NODE_TYPE
 author: windows-sdk-content
-description: Defines the options for performing client authentication using HTTP authentication headers.
-old-location: wsw\ws_http_header_auth_scheme.htm
+description: The type of WS_XML_NODE structure.
+old-location: wsw\ws_xml_node_type.htm
 tech.root: wsw
-ms.assetid: c96e10ee-29d1-4c66-9f4d-64e663b25fd0
+ms.assetid: eddef5db-432d-4615-9f0f-a712dffe42ab
 ms.author: windowssdkdev
 ms.date: 09/26/2018
-ms.keywords: WS_HTTP_HEADER_AUTH_SCHEME, WS_HTTP_HEADER_AUTH_SCHEME enumeration [Web Services for Windows], WS_HTTP_HEADER_AUTH_SCHEME_BASIC, WS_HTTP_HEADER_AUTH_SCHEME_DIGEST, WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE, WS_HTTP_HEADER_AUTH_SCHEME_NONE, WS_HTTP_HEADER_AUTH_SCHEME_NTLM, WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT, __unnamed_enum_6, webservices/WS_HTTP_HEADER_AUTH_SCHEME, webservices/WS_HTTP_HEADER_AUTH_SCHEME_BASIC, webservices/WS_HTTP_HEADER_AUTH_SCHEME_DIGEST, webservices/WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE, webservices/WS_HTTP_HEADER_AUTH_SCHEME_NONE, webservices/WS_HTTP_HEADER_AUTH_SCHEME_NTLM, webservices/WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT, wsw.ws_http_header_auth_scheme
+ms.keywords: WS_XML_NODE_TYPE, WS_XML_NODE_TYPE enumeration [Web Services for Windows], WS_XML_NODE_TYPE_BOF, WS_XML_NODE_TYPE_CDATA, WS_XML_NODE_TYPE_COMMENT, WS_XML_NODE_TYPE_ELEMENT, WS_XML_NODE_TYPE_END_CDATA, WS_XML_NODE_TYPE_END_ELEMENT, WS_XML_NODE_TYPE_EOF, WS_XML_NODE_TYPE_TEXT, webservices/WS_XML_NODE_TYPE, webservices/WS_XML_NODE_TYPE_BOF, webservices/WS_XML_NODE_TYPE_CDATA, webservices/WS_XML_NODE_TYPE_COMMENT, webservices/WS_XML_NODE_TYPE_ELEMENT, webservices/WS_XML_NODE_TYPE_END_CDATA, webservices/WS_XML_NODE_TYPE_END_ELEMENT, webservices/WS_XML_NODE_TYPE_EOF, webservices/WS_XML_NODE_TYPE_TEXT, wsw.ws_xml_node_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -37,22 +37,21 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - WS_HTTP_HEADER_AUTH_SCHEME
+ - WS_XML_NODE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: 
+req.typenames: WS_XML_NODE_TYPE
 req.redist: 
 ---
 
-# __unnamed_enum_6 enumeration
+# WS_XML_NODE_TYPE enumeration
 
 
 ## -description
 
 
-Defines the options for performing client authentication using HTTP
-authentication headers.
-            
+The type of <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">WS_XML_NODE</a> structure.
+      
 
 
 ## -enum-fields
@@ -60,42 +59,72 @@ authentication headers.
 
 
 
-### -field WS_HTTP_HEADER_AUTH_SCHEME_NONE
+### -field WS_XML_NODE_TYPE_ELEMENT
 
-No authentication is required. This value is only supported on the client.
-            
-
-
-### -field WS_HTTP_HEADER_AUTH_SCHEME_BASIC
-
-HTTP basic authentication as defined in <a href=" http://go.microsoft.com/fwlink/p/?linkid=139705">RFC 2617</a>.
-                
+A start element. (e.g. &lt;a:purchaseOrder xmlns:a="http://tempuri.org" id="5"&gt;)
+        
 
 
-### -field WS_HTTP_HEADER_AUTH_SCHEME_DIGEST
+### -field WS_XML_NODE_TYPE_TEXT
 
-HTTP digest authentication as defined in <a href=" http://go.microsoft.com/fwlink/p/?linkid=139705">RFC 2617</a>.
-                
-
-
-### -field WS_HTTP_HEADER_AUTH_SCHEME_NTLM
-
-Authentication done by carrying NTLM packets in HTTP authentication
-headers as defined in <a href=" http://go.microsoft.com/fwlink/p/?linkid=139705">RFC 2617</a>.
-                
+Element, attribute, or CDATA content.
+        
 
 
-### -field WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE
+### -field WS_XML_NODE_TYPE_END_ELEMENT
 
-Authentication done by carrying SPNEGO packets in HTTP authentication
-headers as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=139707">RFC
-4559</a>.
-                
+An end element. (e.g. &lt;/purchaseOrder&gt;)
+        
 
 
-### -field WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT
+### -field WS_XML_NODE_TYPE_COMMENT
 
-Authentication done by using Microsoft Passport 1.4 authentication protocol. This value is only supported on the client for legacy purposes. 
-This value is not supported on Windows Server 2008 R2and later.
-                
+A comment. (For example, &lt;!--The message follows--&gt;)
+        
+
+
+### -field WS_XML_NODE_TYPE_CDATA
+
+The start of a CDATA section (i.e. &lt;![CDATA[)
+        
+
+
+### -field WS_XML_NODE_TYPE_END_CDATA
+
+The end of a CDATA section (i.e. ]]&gt;)
+        
+
+
+### -field WS_XML_NODE_TYPE_EOF
+
+The final node of an xml stream.
+        
+
+
+### -field WS_XML_NODE_TYPE_BOF
+
+The first node of an xml stream.
+        
+
+
+## -remarks
+
+
+
+The BNF for node types within a document is:
+      
+
+<pre class="syntax" xml:space="preserve"><code>
+Xml := StartInput Whitespace Element Whitespace EndInput
+Whitespace := (Text | Comment)* // Text is whitespace only
+Element := StartElement ElementContent EndElement
+ElementContent := (Element | Text | Comment | CData)*
+StartElement := WS_XML_NODE_TYPE_ELEMENT
+EndElement := WS_XML_NODE_TYPE_END_ELEMENT
+Text := WS_XML_NODE_TYPE_TEXT
+Comment := WS_XML_NODE_TYPE_COMMENT
+CData := WS_XML_NODE_TYPE_CDATA Text* WS_XML_NODE_TYPE_END_CDATA
+StartInput := WS_XML_NODE_TYPE_BOF
+EndInput := WS_XML_NODE_TYPE_EOF</code></pre>
+
 

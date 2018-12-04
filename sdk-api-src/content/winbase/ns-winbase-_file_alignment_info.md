@@ -7,7 +7,7 @@ old-location: fs\file_alignment_info.htm
 tech.root: fileio
 ms.assetid: a6d3cba0-d59b-45c2-a763-ecdde5b36348
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PFILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO structure [Files], PFILE_ALIGNMENT_INFO, PFILE_ALIGNMENT_INFO structure pointer [Files], _FILE_ALIGNMENT_INFO, fs.file_alignment_info, winbase/FILE_ALIGNMENT_INFO, winbase/PFILE_ALIGNMENT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDataCollectorSetCollection::Add
 author: windows-sdk-content
 description: Adds a data collector set to the collection.
 old-location: pla\idatacollectorsetcollection_add.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: c551e373-77a4-4bac-848d-5aaec1e89cf1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Add method, IDataCollectorSetCollection.Add, IDataCollectorSetCollection::Add, base.idatacollectorsetcollection_add, pla.idatacollectorsetcollection_add, pla/IDataCollectorSetCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollectorSetCollection.Add
-: 
 ---
 
 # IDataCollectorSetCollection::Add

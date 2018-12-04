@@ -7,7 +7,7 @@ old-location: mixedreality\iholographicspaceinterop_createforwindow.htm
 tech.root: MixedReality
 ms.assetid: 8B7A226E-FB47-4BA2-B13E-B37250C75920
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,CreateForWindow method, IHolographicSpaceInterop.CreateForWindow, IHolographicSpaceInterop::CreateForWindow, MixedReality.iholographicspaceinterop_createforwindow, holographicspaceinterop/IHolographicSpaceInterop::CreateForWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- holographicspaceinterop.h
-: 
-- IHolographicSpaceInterop.CreateForWindow
-: 
 ---
 
 # IHolographicSpaceInterop::CreateForWindow
@@ -101,7 +93,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt844794(v=WIN.10).aspx">IHolographicSpaceInterop</a>
+<a href="https://msdn.microsoft.com/119299C1-ECD9-46BA-B499-66890225E4E0">IHolographicSpaceInterop</a>
 
 
 

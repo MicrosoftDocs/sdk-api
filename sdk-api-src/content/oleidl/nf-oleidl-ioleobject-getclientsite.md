@@ -7,7 +7,7 @@ old-location: com\ioleobject_getclientsite.htm
 tech.root: com
 ms.assetid: bf26b989-445c-48d3-b279-29e4cef0ad97
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: GetClientSite, GetClientSite method [COM], GetClientSite method [COM],IOleObject interface, IOleObject interface [COM],GetClientSite method, IOleObject.GetClientSite, IOleObject::GetClientSite, _ole_ioleobject_getclientsite, com.ioleobject_getclientsite, oleidl/IOleObject::GetClientSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- oleidl.h
-: 
-- IOleObject.GetClientSite
-: 
 ---
 
 # IOleObject::GetClientSite

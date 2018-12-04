@@ -7,7 +7,7 @@ old-location: intl\getcalendarinfo.htm
 tech.root: Intl
 ms.assetid: f32ca0d0-8fa2-41e5-9835-76cf51426c3b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetCalendarInfo, GetCalendarInfo function [Internationalization for Windows Applications], GetCalendarInfoA, GetCalendarInfoW, _win32_GetCalendarInfo, intl.getcalendarinfo, winnls/GetCalendarInfo, winnls/GetCalendarInfoA, winnls/GetCalendarInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,12 +53,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetCalendarInfoA
-: 
 ---
 
 # GetCalendarInfoA function

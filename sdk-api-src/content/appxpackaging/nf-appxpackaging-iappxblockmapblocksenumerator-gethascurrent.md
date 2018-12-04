@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapblocksenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: AC12BCDD-201C-4F22-B39E-1349EB84ED00
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBlockMapBlocksEnumerator interface, IAppxBlockMapBlocksEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBlockMapBlocksEnumerator.GetHasCurrent, IAppxBlockMapBlocksEnumerator::GetHasCurrent, appxpackaging/IAppxBlockMapBlocksEnumerator::GetHasCurrent, appxpkg.iappxblockmapblocksenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- appxpackaging.h
-: 
-- IAppxBlockMapBlocksEnumerator.GetHasCurrent
-: 
 ---
 
 # IAppxBlockMapBlocksEnumerator::GetHasCurrent

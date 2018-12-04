@@ -7,7 +7,7 @@ old-location: mf\imfaudiopolicy_seticonpath.htm
 tech.root: medfound
 ms.assetid: 098ad6ae-b1fe-4e74-b494-572770906b14
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 098ad6ae-b1fe-4e74-b494-572770906b14, IMFAudioPolicy interface [Media Foundation],SetIconPath method, IMFAudioPolicy.SetIconPath, IMFAudioPolicy::SetIconPath, SetIconPath, SetIconPath method [Media Foundation], SetIconPath method [Media Foundation],IMFAudioPolicy interface, mf.imfaudiopolicy_seticonpath, mfidl/IMFAudioPolicy::SetIconPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfidl.h
-: 
-- IMFAudioPolicy.SetIconPath
-: 
 ---
 
 # IMFAudioPolicy::SetIconPath

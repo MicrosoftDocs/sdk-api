@@ -4,10 +4,10 @@ title: IFsrmQuotaManager::EnumEffectiveQuotas
 author: windows-sdk-content
 description: Enumerates all the quotas that affect the specified path.
 old-location: fsrm\ifsrmquotamanager_enumeffectivequotas.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: abe5e73b-459a-4e2a-9917-91d3c85a15bc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EnumEffectiveQuotas, EnumEffectiveQuotas method [File Server Resource Manager], EnumEffectiveQuotas method [File Server Resource Manager],FsrmQuotaManager class, EnumEffectiveQuotas method [File Server Resource Manager],IFsrmQuotaManager interface, EnumEffectiveQuotas method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],EnumEffectiveQuotas method, IFsrmQuotaManager interface [File Server Resource Manager],EnumEffectiveQuotas method, IFsrmQuotaManager.EnumEffectiveQuotas, IFsrmQuotaManager::EnumEffectiveQuotas, IFsrmQuotaManagerEx interface [File Server Resource Manager],EnumEffectiveQuotas method, IFsrmQuotaManagerEx::EnumEffectiveQuotas, fs.ifsrmquotamanager_enumeffectivequotas, fsrm.ifsrmquotamanager_enumeffectivequotas, fsrmquota/IFsrmQuotaManager::EnumEffectiveQuotas, fsrmquota/IFsrmQuotaManagerEx::EnumEffectiveQuotas
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmquota.h
-: 
-- IFsrmQuotaManager.EnumEffectiveQuotas
-: 
 ---
 
 # IFsrmQuotaManager::EnumEffectiveQuotas

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_PointF_points_IN
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawcurvemethods\drawcurve_58penpen_pointfpoints_intcount_realtensi.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DrawCurve, DrawCurve method [GDI+], DrawCurve method [GDI+],Graphics class, Graphics class [GDI+],DrawCurve method, Graphics.DrawCurve, Graphics.DrawCurve(IN const Pen,IN const PointF,IN INT,IN REAL), Graphics.DrawCurve(const Pen*,const PointF*,INT,REAL), Graphics::DrawCurve, Graphics::DrawCurve(IN const Pen,IN const PointF,IN INT,IN REAL), _gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_PointF_points_INT_count_REAL_tension_, gdiplus._gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_PointF_points_INT_count_REAL_tension_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusgraphics.h
-: 
-- Graphics.DrawCurve
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -125,9 +117,13 @@ A segment is defined as a curve that connects two consecutive points in the card
 
 The following example draws a cardinal spline.
 
-
-```cpp
-VOID Example_DrawCurve6(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawCurve6(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -147,18 +143,18 @@ VOID Example_DrawCurve6(HDC hdc)
    PointF* pcurvePoints = curvePoints;
 
    // Draw the curve.
-   graphics.DrawCurve(&greenPen, curvePoints, 4, 1.0);
+   graphics.DrawCurve(&amp;greenPen, curvePoints, 4, 1.0);
 
    //Draw the points in the curve.
    SolidBrush redBrush(Color::Red);
-   graphics.FillEllipse(&redBrush, Rect(95, 95, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(195, 45, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(395, 5, 10, 10));
-   graphics.FillEllipse(&redBrush, Rect(495, 95, 10, 10));
-}
-```
-
-
+   graphics.FillEllipse(&amp;redBrush, Rect(95, 95, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(195, 45, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(395, 5, 10, 10));
+   graphics.FillEllipse(&amp;redBrush, Rect(495, 95, 10, 10));
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -179,7 +175,7 @@ VOID Example_DrawCurve6(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

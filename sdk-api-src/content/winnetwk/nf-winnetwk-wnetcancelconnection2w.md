@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WNetCancelConnection2W
-: 
 ---
 
 # WNetCancelConnection2W function

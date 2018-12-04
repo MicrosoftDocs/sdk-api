@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_seteventinterest.htm
 tech.root: tablet
 ms.assetid: df25efbb-5229-4211-948f-3a213154a967
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IInkCollector interface [Tablet PC],SetEventInterest method, IInkCollector.SetEventInterest, IInkCollector::SetEventInterest, SetEventInterest, SetEventInterest method [Tablet PC], SetEventInterest method [Tablet PC],IInkCollector interface, df25efbb-5229-4211-948f-3a213154a967, msinkaut/IInkCollector::SetEventInterest, tablet.inkcollector_seteventinterest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkCollector.SetEventInterest
-: 
 ---
 
 # IInkCollector::SetEventInterest

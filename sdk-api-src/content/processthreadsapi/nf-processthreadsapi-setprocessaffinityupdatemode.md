@@ -4,10 +4,10 @@ title: SetProcessAffinityUpdateMode function
 author: windows-sdk-content
 description: Sets the affinity update mode of the specified process.
 old-location: base\setprocessaffinityupdatemode.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 46e8f7d2-89b9-42cb-9171-d5ae2ec870da
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, SetProcessAffinityUpdateMode, SetProcessAffinityUpdateMode function, base.setprocessaffinityupdatemode, processthreadsapi/SetProcessAffinityUpdateMode, winbase/SetProcessAffinityUpdateMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetProcessAffinityUpdateMode
-: 
 ---
 
 # SetProcessAffinityUpdateMode function

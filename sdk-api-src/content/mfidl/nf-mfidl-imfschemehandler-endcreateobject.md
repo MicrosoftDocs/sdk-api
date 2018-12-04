@@ -7,7 +7,7 @@ old-location: mf\imfschemehandler_endcreateobject.htm
 tech.root: medfound
 ms.assetid: e3f88904-c30f-4d40-ac79-c83b0a06f1fa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],EndCreateObject method, IMFSchemeHandler.EndCreateObject, IMFSchemeHandler::EndCreateObject, e3f88904-c30f-4d40-ac79-c83b0a06f1fa, mf.imfschemehandler_endcreateobject, mfidl/IMFSchemeHandler::EndCreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfidl.h
-: 
-- IMFSchemeHandler.EndCreateObject
-: 
 ---
 
 # IMFSchemeHandler::EndCreateObject

@@ -4,10 +4,10 @@ title: IGPMConstants2
 author: windows-sdk-content
 description: The IGPMConstants2 interface supports methods that retrieve the value of multiple Group Policy Management Console (GPMC) constants.
 old-location: gpmc\igpmconstants2.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: daef093b-679b-411d-ba04-5d48b4695cf7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IGPMConstants2, IGPMConstants2 interface [GPMC], IGPMConstants2 interface [GPMC],described, gpmc.igpmconstants2, gpmgmt/IGPMConstants2
 ms.prod: windows-hardware
 ms.technology: windows-devices

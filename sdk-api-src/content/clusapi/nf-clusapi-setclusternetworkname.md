@@ -4,10 +4,10 @@ title: SetClusterNetworkName function
 author: windows-sdk-content
 description: Sets the name for a network.
 old-location: mscs\setclusternetworkname.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: c1b5dcd0-8974-495c-b85a-1d426719e9f9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_NAME, PCLUSAPI_SET_CLUSTER_NETWORK_NAME function [Failover Cluster], SetClusterNetworkName, SetClusterNetworkName function [Failover Cluster], _wolf_setclusternetworkname, clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_NAME, clusapi/SetClusterNetworkName, mscs.setclusternetworkname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetClusterNetworkName
-: 
 ---
 
 # SetClusterNetworkName function
@@ -56,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the name for a  <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a>. The <b>PCLUSAPI_SET_CLUSTER_NETWORK_NAME</b> type defines a pointer to this function.
+Sets the name for a  <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>. The <b>PCLUSAPI_SET_CLUSTER_NETWORK_NAME</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -81,7 +75,7 @@ Pointer to a null-terminated Unicode string containing the new network name.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 
@@ -90,7 +84,7 @@ the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms68138
 
 
 
-<b>SetClusterNetworkName</b> changes the  <a href="https://msdn.microsoft.com/en-us/library/Aa371515(v=VS.85).aspx">Name</a> common property of the network identified by <i>hNetwork</i>. This is the only way that  <b>Name</b>, a read-only property, can be changed.
+<b>SetClusterNetworkName</b> changes the  <a href="https://msdn.microsoft.com/f494788e-4581-4a1a-8b10-24b8715f5fce">Name</a> common property of the network identified by <i>hNetwork</i>. This is the only way that  <b>Name</b>, a read-only property, can be changed.
 
 
 
@@ -100,7 +94,7 @@ the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms68138
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371515(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/f494788e-4581-4a1a-8b10-24b8715f5fce">Name</a>
 
 
 

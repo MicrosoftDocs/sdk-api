@@ -4,10 +4,10 @@ title: "_SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS"
 author: windows-sdk-content
 description: Describes a set of retrieved disks that can be used as log disks for the specified data disk.
 old-location: mscs\sr_resource_type_query_eligible_logdisks.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: AF4EBA1C-8DAB-46F4-A092-F196F02480EB
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS structure pointer [Failover Cluster], SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS structure [Failover Cluster], _SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, clusapi/PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, mscs.sr_resource_type_query_eligible_logdisks"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,7 @@ When <b>TRUE</b>, the result set includes all the offline disks in the available
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
  
 
  

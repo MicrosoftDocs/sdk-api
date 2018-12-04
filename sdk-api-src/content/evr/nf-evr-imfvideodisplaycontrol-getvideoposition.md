@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getvideoposition.htm
 tech.root: medfound
 ms.assetid: 59c2e914-cc15-4534-976c-a760ff97f6ae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 59c2e914-cc15-4534-976c-a760ff97f6ae, GetVideoPosition, GetVideoPosition method [Media Foundation], GetVideoPosition method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetVideoPosition method, IMFVideoDisplayControl.GetVideoPosition, IMFVideoDisplayControl::GetVideoPosition, evr/IMFVideoDisplayControl::GetVideoPosition, mf.imfvideodisplaycontrol_getvideoposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- evr.h
-: 
-- IMFVideoDisplayControl.GetVideoPosition
-: 
 ---
 
 # IMFVideoDisplayControl::GetVideoPosition

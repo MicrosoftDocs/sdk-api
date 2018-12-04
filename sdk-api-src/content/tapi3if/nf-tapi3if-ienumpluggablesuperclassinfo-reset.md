@@ -4,10 +4,10 @@ title: IEnumPluggableSuperclassInfo::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumpluggablesuperclassinfo_reset.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 5630c3e1-314d-414d-8fef-8440c089b843
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IEnumPluggableSuperclassInfo interface [TAPI 2.2],Reset method, IEnumPluggableSuperclassInfo.Reset, IEnumPluggableSuperclassInfo::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, _tapi3_ienumpluggablesuperclassinfo_reset, tapi3.ienumpluggablesuperclassinfo_reset, tapi3if/IEnumPluggableSuperclassInfo::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- IEnumPluggableSuperclassInfo.Reset
-: 
 ---
 
 # IEnumPluggableSuperclassInfo::Reset

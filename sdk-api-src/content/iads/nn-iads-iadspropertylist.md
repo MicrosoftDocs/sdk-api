@@ -4,10 +4,10 @@ title: IADsPropertyList
 author: windows-sdk-content
 description: The IADsPropertyList interface is used to modify, read, and update a list of property entries in the property cache of an object.
 old-location: adsi\iadspropertylist.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsPropertyList, IADsPropertyList interface [ADSI], IADsPropertyList interface [ADSI],described, _ds_iadspropertylist, adsi.iadspropertylist, iads/IADsPropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ To obtain the property list of an ADSI object, bind to its <b>IADsPropertyList</
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPropertyList</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsPropertyList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPropertyList</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IADsPropertyList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -194,7 +194,7 @@ Gets the number of properties in the property list.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

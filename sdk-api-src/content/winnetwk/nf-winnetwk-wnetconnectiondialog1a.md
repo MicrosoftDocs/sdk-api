@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WNetConnectionDialog1A
-: 
 ---
 
 # WNetConnectionDialog1A function

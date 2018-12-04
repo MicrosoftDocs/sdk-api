@@ -7,7 +7,7 @@ old-location: shell\IShellLink_SetShowCmd.htm
 tech.root: shell
 ms.assetid: 9f40cd7d-04b5-4880-831f-5fb5cd52a2eb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IShellLink interface [Windows Shell],SetShowCmd method, IShellLink::SetShowCmd, IShellLinkA interface [Windows Shell],SetShowCmd method, IShellLinkA.SetShowCmd, IShellLinkA::SetShowCmd, IShellLinkW interface [Windows Shell],SetShowCmd method, IShellLinkW::SetShowCmd, SW_SHOWMAXIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNORMAL, SetShowCmd, SetShowCmd method [Windows Shell], SetShowCmd method [Windows Shell],IShellLink interface, SetShowCmd method [Windows Shell],IShellLinkA interface, SetShowCmd method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetShowCmd, shell.IShellLink_SetShowCmd, shobjidl_core/IShellLink::SetShowCmd, shobjidl_core/IShellLinkA::SetShowCmd, shobjidl_core/IShellLinkW::SetShowCmd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IShellLinkA.SetShowCmd
-: 
 ---
 
 # IShellLinkA::SetShowCmd

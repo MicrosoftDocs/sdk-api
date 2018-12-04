@@ -4,10 +4,10 @@ title: IControlbar::Detach
 author: windows-sdk-content
 description: The IControlbar::Detach method breaks the association between a control and the control bar. This command removes or detaches the control from the control bar on which it is displayed.
 old-location: mmc\icontrolbar_detach.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: a40fc3a4-40ff-4752-abd9-e4dd906bc27f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Detach, Detach method [MMC], Detach method [MMC],IControlbar interface, IControlbar interface [MMC],Detach method, IControlbar.Detach, IControlbar::Detach, _slate_icontrolbar_detach, mmc.icontrolbar_detach, mmc/IControlbar::Detach
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IControlbar.Detach
-: 
 ---
 
 # IControlbar::Detach
@@ -69,7 +61,7 @@ The <b>IControlbar::Detach</b> method breaks the association between a control a
 ### -param lpUnknown [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on the control object that represents the control removed.
+<a href="_com_iunknown">IUnknown</a> interface on the control object that represents the control removed.
 
 
 ## -returns

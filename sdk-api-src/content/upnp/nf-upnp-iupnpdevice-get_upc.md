@@ -4,10 +4,10 @@ title: IUPnPDevice::get_UPC
 author: windows-sdk-content
 description: The UPC property specifies a human-readable form of the product code.
 old-location: upnp\iupnpdevice_upc.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 33349885-96da-47ef-9b09-83c2c332b509
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_UPC method, IUPnPDevice.get_UPC, IUPnPDevice::get_UPC, _upnp_iupnpdevice_upc, get_UPC, get_UPC method [UPnP APIs], get_UPC method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_upc, upnp/IUPnPDevice::get_UPC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDevice.get_UPC
-: 
 ---
 
 # IUPnPDevice::get_UPC
@@ -69,7 +61,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains the product code. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required. If the device does not specify a product code, this parameter receives an empty string.
+Receives a reference to a string that contains the product code. Release this string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required. If the device does not specify a product code, this parameter receives an empty string.
 
 
 ## -returns

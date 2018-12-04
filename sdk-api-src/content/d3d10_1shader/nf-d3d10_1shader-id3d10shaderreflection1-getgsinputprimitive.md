@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflection1_getgsinputprimitive.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_getgsinputprimitive.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetGSInputPrimitive, GetGSInputPrimitive method [Direct3D 10], GetGSInputPrimitive method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetGSInputPrimitive method, ID3D10ShaderReflection1.GetGSInputPrimitive, ID3D10ShaderReflection1::GetGSInputPrimitive, d3d10_1shader/ID3D10ShaderReflection1::GetGSInputPrimitive, direct3d10.id3d10shaderreflection1_getgsinputprimitive, e6a690aa-8956-bd7e-467e-da156afe0b07
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10_1shader.h
-: 
-- ID3D10ShaderReflection1.GetGSInputPrimitive
-: 
 ---
 
 # ID3D10ShaderReflection1::GetGSInputPrimitive
@@ -68,18 +60,18 @@ Gets the geometry-shader input-primitive description.
 
 ### -param pPrim [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Cc308053(v=VS.85).aspx">D3D10_PRIMITIVE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/1d8f552f-5ca4-4333-93f5-eabc5b66fd24">D3D10_PRIMITIVE</a>*</b>
 
-A pointer to the input-primitive type (see <a href="https://msdn.microsoft.com/en-us/library/Cc308053(v=VS.85).aspx">D3D10_PRIMITIVE</a>).
+A pointer to the input-primitive type (see <a href="https://msdn.microsoft.com/1d8f552f-5ca4-4333-93f5-eabc5b66fd24">D3D10_PRIMITIVE</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -98,7 +90,7 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb694550(v=VS.85).aspx">ID3D10ShaderReflection1 Interface</a>
+<a href="https://msdn.microsoft.com/344a0bf2-3ad8-4c58-b4d8-de386fdfd1c2">ID3D10ShaderReflection1 Interface</a>
  
 
  

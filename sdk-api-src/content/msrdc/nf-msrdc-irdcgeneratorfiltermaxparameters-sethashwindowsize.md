@@ -4,10 +4,10 @@ title: IRdcGeneratorFilterMaxParameters::SetHashWindowSize
 author: windows-sdk-content
 description: Sets the hash window size&#8212;the size of the sliding window used by the FilterMax generator for computing the hash used in the local maxima calculations.
 old-location: rdc\irdcgeneratorfiltermaxparameters_sethashwindowsize.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: b18a5db1-f480-46c4-bac3-b0b2f0da6cfa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],SetHashWindowSize method, IRdcGeneratorFilterMaxParameters.SetHashWindowSize, IRdcGeneratorFilterMaxParameters::SetHashWindowSize, SetHashWindowSize, SetHashWindowSize method [Remote Differential Compression], SetHashWindowSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, fs.irdcgeneratorfiltermaxparameters_sethashwindowsize, msrdc/IRdcGeneratorFilterMaxParameters::SetHashWindowSize, rdc.irdcgeneratorfiltermaxparameters_sethashwindowsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- IRdcGeneratorFilterMaxParameters.SetHashWindowSize
-: 
 ---
 
 # IRdcGeneratorFilterMaxParameters::SetHashWindowSize

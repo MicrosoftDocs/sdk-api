@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::SetProxySettings
 author: windows-sdk-content
 description: Specifies which proxy to use to transfer files.
 old-location: bits\ibackgroundcopyjob_setproxysettings.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: fd21a17b-1049-4dd9-a08b-da84699b8006
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetProxySettings method, IBackgroundCopyJob.SetProxySettings, IBackgroundCopyJob::SetProxySettings, SetProxySettings, SetProxySettings method [BITS], SetProxySettings method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setproxysettings, bits.ibackgroundcopyjob_setproxysettings, bits/IBackgroundCopyJob::SetProxySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.SetProxySettings
-: 
 ---
 
 # IBackgroundCopyJob::SetProxySettings
@@ -69,22 +61,20 @@ Specifies which proxy to use to transfer files.
 ### -param ProxyUsage [in]
 
 Specifies whether to use the user's proxy settings, not to use a proxy, or to use application-specified proxy settings. The default is to use the user's proxy settings, <b>BG_JOB_PROXY_USAGE_PRECONFIG</b>. For a list of proxy options, see the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362807(v=VS.85).aspx">BG_JOB_PROXY_USAGE</a> enumeration.
+<a href="https://msdn.microsoft.com/e066b6c8-905f-4e18-9be7-aa3c134f9e13">BG_JOB_PROXY_USAGE</a> enumeration.
 
 
-### -param ProxyList
+### -param ProxyList [in]
 
-TBD
+Null-terminated string that contains the proxies to use to transfer files. The list is space-delimited. For details on specifying a proxy, see Remarks.
 
+ This parameter must be <b>NULL</b> if the value of <i>ProxyUsage</i> is <b>BG_JOB_PROXY_USAGE_PRECONFIG</b>, <b>BG_JOB_PROXY_USAGE_NO_PROXY</b>, or <b>BG_JOB_PROXY_USAGE_AUTODETECT</b>.
 
-### -param ProxyBypassList
-
-TBD
-
-
+The length of the proxy list is limited to 4,000 characters, not including the null terminator.
+					
 
 
-#### - pProxyBypassList [in]
+### -param ProxyBypassList [in]
 
 Null-terminated string that contains an optional list of host names, IP addresses, or both, that can bypass the proxy. The list is space-delimited. For details on specifying a bypass proxy, see Remarks.
 
@@ -92,16 +82,6 @@ This parameter must be <b>NULL</b> if the value of <i>ProxyUsage</i> is <b>BG_JO
 						
 
 The length of the proxy bypass list is limited to 4,000 characters, not including the null terminator.
-					
-
-
-#### - pProxyList [in]
-
-Null-terminated string that contains the proxies to use to transfer files. The list is space-delimited. For details on specifying a proxy, see Remarks.
-
- This parameter must be <b>NULL</b> if the value of <i>ProxyUsage</i> is <b>BG_JOB_PROXY_USAGE_PRECONFIG</b>, <b>BG_JOB_PROXY_USAGE_NO_PROXY</b>, or <b>BG_JOB_PROXY_USAGE_AUTODETECT</b>.
-
-The length of the proxy list is limited to 4,000 characters, not including the null terminator.
 					
 
 
@@ -135,7 +115,7 @@ Proxy was successfully specified.
 </td>
 <td width="60%">
 The value for <i>ProxyUsage</i> is not defined in the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362807(v=VS.85).aspx">BG_JOB_PROXY_USAGE</a> enumeration.
+<a href="https://msdn.microsoft.com/e066b6c8-905f-4e18-9be7-aa3c134f9e13">BG_JOB_PROXY_USAGE</a> enumeration.
 
 </td>
 </tr>
@@ -195,7 +175,7 @@ The <i>pProxyList</i> parameter cannot be <b>NULL</b> if <i>ProxyUsage</i> is <b
 
 The proxy information you provide is validated at run time. If the proxy information is invalid, the job enters the <b>BG_JOB_STATE_ERROR</b> state with a <b>BG_E_INVALID_PROXY_INFO</b> error code.
 
- If your service runs as LocalSystem, you should use the <b>SetProxySettings</b> method to explicitly specify a proxy or proxy bypass list for the account and set <i>ProxyUsage</i> to <b>BG_JOB_PROXY_USAGE_OVERRIDE</b>. For more information on using system accounts with BITS, see <a href="https://msdn.microsoft.com/en-us/library/Aa363152(v=VS.85).aspx">Service Accounts and BITS</a>.
+ If your service runs as LocalSystem, you should use the <b>SetProxySettings</b> method to explicitly specify a proxy or proxy bypass list for the account and set <i>ProxyUsage</i> to <b>BG_JOB_PROXY_USAGE_OVERRIDE</b>. For more information on using system accounts with BITS, see <a href="https://msdn.microsoft.com/43fb58d6-3a99-488f-ab43-dbb4a794fc2f">Service Accounts and BITS</a>.
 
 BITS does not recognize the proxy settings that are set using the Proxycfg.exe file.
 
@@ -220,11 +200,11 @@ BITS uses the Internet Explorer proxy settings of the user if an application doe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362807(v=VS.85).aspx">BG_JOB_PROXY_USAGE</a>
+<a href="https://msdn.microsoft.com/e066b6c8-905f-4e18-9be7-aa3c134f9e13">BG_JOB_PROXY_USAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363035(v=VS.85).aspx">IBackgroundCopyJob::GetProxySettings</a>
+<a href="https://msdn.microsoft.com/c2d0ec9b-eaa1-4f78-9ccc-4e91d045cd94">IBackgroundCopyJob::GetProxySettings</a>
  
 
  

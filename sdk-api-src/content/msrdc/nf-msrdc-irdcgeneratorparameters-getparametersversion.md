@@ -4,10 +4,10 @@ title: IRdcGeneratorParameters::GetParametersVersion
 author: windows-sdk-content
 description: Returns information about the version of RDC used to serialize the parameters.
 old-location: rdc\irdcgeneratorparameters_getparametersversion.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 58050740-0508-4797-b1b5-7a1e2a6dc00b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetParametersVersion, GetParametersVersion method [Remote Differential Compression], GetParametersVersion method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetParametersVersion method, IRdcGeneratorParameters.GetParametersVersion, IRdcGeneratorParameters::GetParametersVersion, fs.irdcgeneratorparameters_getparametersversion, msrdc/IRdcGeneratorParameters::GetParametersVersion, rdc.irdcgeneratorparameters_getparametersversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- IRdcGeneratorParameters.GetParametersVersion
-: 
 ---
 
 # IRdcGeneratorParameters::GetParametersVersion

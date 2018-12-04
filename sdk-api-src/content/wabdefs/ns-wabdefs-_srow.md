@@ -7,7 +7,7 @@ old-location: wab\_wab_SRow.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srow.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/28/2018
 ms.keywords: "*LPSRow, LPSRow, LPSRow structure pointer [Windows Address Book], SRow, SRow structure [Windows Address Book], _SRow, _wab_SRow, wab._wab_SRow, wabdefs/LPSRow, wabdefs/SRow"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,5 +77,5 @@ Variable of type <b>ULONG</b> that specifies the count of property values to whi
 
 Type: <b>LPSPropValue</b>
 
-Pointer to an array of variables of type <a href="https://msdn.microsoft.com/en-us/library/ms629450(v=VS.85).aspx">SPropValue</a> that describe the property values for the columns in the row.
+Pointer to an array of variables of type <a href="https://msdn.microsoft.com/cff1b41d-fc53-4987-8823-04cbd51e811b">SPropValue</a> that describe the property values for the columns in the row.
 

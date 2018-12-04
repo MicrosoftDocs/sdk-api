@@ -7,7 +7,7 @@ old-location: mbn\imbnradio_setsoftwareradiostate.htm
 tech.root: mbn
 ms.assetid: d140109d-5659-42aa-b645-996dfc5a9d4e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMbnRadio interface [Microsoft Broadband Networks],SetSoftwareRadioState method, IMbnRadio.SetSoftwareRadioState, IMbnRadio::SetSoftwareRadioState, SetSoftwareRadioState, SetSoftwareRadioState method [Microsoft Broadband Networks], SetSoftwareRadioState method [Microsoft Broadband Networks],IMbnRadio interface, mbn.imbnradio_setsoftwareradiostate, mbnapi/IMbnRadio::SetSoftwareRadioState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnRadio.SetSoftwareRadioState
-: 
 ---
 
 # IMbnRadio::SetSoftwareRadioState

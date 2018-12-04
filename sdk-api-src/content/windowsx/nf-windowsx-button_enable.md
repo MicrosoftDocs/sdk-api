@@ -4,10 +4,10 @@ title: Button_Enable macro
 author: windows-sdk-content
 description: Enables or disables a button.
 old-location: controls\Button_Enable.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_enable.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Button_Enable, Button_Enable macro [Windows Controls], _win32_Button_Enable, _win32_Button_Enable_cpp, controls.Button_Enable, controls._win32_Button_Enable, windowsx/Button_Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- windowsx.h
-: 
-- Button_Enable
-: 
 ---
 
 # Button_Enable macro

@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::SyncConflictRecRemoved
 author: windows-sdk-content
 description: Reports that a sync conflict no longer exists and that its record has been removed from the sync conflict log.
 old-location: of\iofflinefilesevents_syncconflictrecremoved.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: ccdd7b74-3e00-4a3d-9632-eac48d790f23
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecRemoved method, IOfflineFilesEvents.SyncConflictRecRemoved, IOfflineFilesEvents::SyncConflictRecRemoved, SyncConflictRecRemoved, SyncConflictRecRemoved method [Offline Files], SyncConflictRecRemoved method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecRemoved, of.iofflinefilesevents_syncconflictrecremoved
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesEvents.SyncConflictRecRemoved
-: 
 ---
 
 # IOfflineFilesEvents::SyncConflictRecRemoved
@@ -79,7 +71,7 @@ Pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161
 
 ### -param ConflictSyncState [in]
 
-Describes the state of the local and remote items in conflict.  One of the <a href="https://msdn.microsoft.com/en-us/library/Bb530655(v=VS.85).aspx">OFFLINEFILES_SYNC_STATE</a> sync state values, such as
+Describes the state of the local and remote items in conflict.  One of the <a href="https://msdn.microsoft.com/05d1e03e-2db4-4f1e-8813-98c8cf6d03b6">OFFLINEFILES_SYNC_STATE</a> sync state values, such as
 
 OFFLINEFILES_SYNC_STATE_FileChangedOnClient_ChangedOnServer
 
@@ -100,7 +92,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

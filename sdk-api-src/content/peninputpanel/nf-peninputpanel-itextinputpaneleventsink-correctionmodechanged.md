@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink_correctionmodechanged.htm
 tech.root: tablet
 ms.assetid: 70c4dca4-274f-40ae-b71a-f86a2e8fbd3d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 70c4dca4-274f-40ae-b71a-f86a2e8fbd3d, CorrectionModeChanged, CorrectionModeChanged method [Tablet PC], CorrectionModeChanged method [Tablet PC],ITextInputPanelEventSink interface, ITextInputPanelEventSink interface [Tablet PC],CorrectionModeChanged method, ITextInputPanelEventSink.CorrectionModeChanged, ITextInputPanelEventSink::CorrectionModeChanged, peninputpanel/ITextInputPanelEventSink::CorrectionModeChanged, tablet.itextinputpaneleventsink_correctionmodechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- peninputpanel.h
-: 
-- ITextInputPanelEventSink.CorrectionModeChanged
-: 
 ---
 
 # ITextInputPanelEventSink::CorrectionModeChanged

@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_setstrokelinejoin.htm
 tech.root: printdocs
 ms.assetid: cd650051-ee26-4a8a-b344-2fe84fb2c2a5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeLineJoin method, IXpsOMPath.SetStrokeLineJoin, IXpsOMPath::SetStrokeLineJoin, SetStrokeLineJoin, SetStrokeLineJoin method [XPS Documents and Packaging], SetStrokeLineJoin method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokelinejoin, xpsobjectmodel/IXpsOMPath::SetStrokeLineJoin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMPath.SetStrokeLineJoin
-: 
 ---
 
 # IXpsOMPath::SetStrokeLineJoin

@@ -7,7 +7,7 @@ old-location: com\releasestgmedium.htm
 tech.root: com
 ms.assetid: da7d7bcb-0b5b-4053-8f0e-ff311c424375
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: ReleaseStgMedium, ReleaseStgMedium function [COM], _ole_ReleaseStgMedium, com.releasestgmedium, ole2/ReleaseStgMedium
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ReleaseStgMedium
-: 
 ---
 
 # ReleaseStgMedium function

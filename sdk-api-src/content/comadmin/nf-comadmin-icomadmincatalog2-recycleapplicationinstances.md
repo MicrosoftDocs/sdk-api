@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_recycleapplicationinstances.htm
 tech.root: cossdk
 ms.assetid: 0d2d6255-54c7-4110-9ee0-7019e9c7cb83
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],RecycleApplicationInstances method, ICOMAdminCatalog2.RecycleApplicationInstances, ICOMAdminCatalog2::RecycleApplicationInstances, RecycleApplicationInstances, RecycleApplicationInstances method [COM+], RecycleApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_RecycleApplicationInstances, comadmin/ICOMAdminCatalog2::RecycleApplicationInstances, cos.icomadmincatalog2_recycleapplicationinstances
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comadmin.h
-: 
-- ICOMAdminCatalog2.RecycleApplicationInstances
-: 
 ---
 
 # ICOMAdminCatalog2::RecycleApplicationInstances
@@ -68,7 +60,7 @@ Recycles (shuts down and restarts) the specified application server processes.
 
 ### -param pVarApplicationInstanceID [in]
 
-The application instances to be recycled. Each element of the <b>Variant</b> may be a <b>String</b> containing an application instance GUID (for example, as returned by the <a href="https://msdn.microsoft.com/en-us/library/ms685077(v=VS.85).aspx">GetApplicationInstanceIDFromProcessID</a> method), a single catalog object, or a catalog collection (for example, as returned by the <a href="https://msdn.microsoft.com/en-us/library/ms685970(v=VS.85).aspx">GetCollectionByQuery2</a> method).
+The application instances to be recycled. Each element of the <b>Variant</b> may be a <b>String</b> containing an application instance GUID (for example, as returned by the <a href="https://msdn.microsoft.com/a09569af-11ec-406a-a51c-72b81b84fe41">GetApplicationInstanceIDFromProcessID</a> method), a single catalog object, or a catalog collection (for example, as returned by the <a href="https://msdn.microsoft.com/b1861e8f-bb42-42b5-9435-6fa366f8284a">GetCollectionByQuery2</a> method).
 
 
 ### -param lReasonCode [in]
@@ -120,7 +112,7 @@ A specified application instance does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

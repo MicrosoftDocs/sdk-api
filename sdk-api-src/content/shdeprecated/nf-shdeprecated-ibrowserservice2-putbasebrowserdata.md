@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_PutBaseBrowserData.htm
 tech.root: shell
 ms.assetid: 960bcc2c-9c2c-47e7-ad32-27dcdc4ad783
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],PutBaseBrowserData method, IBrowserService2.PutBaseBrowserData, IBrowserService2::PutBaseBrowserData, PutBaseBrowserData, PutBaseBrowserData method [Windows Shell], PutBaseBrowserData method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::PutBaseBrowserData, shell.IBrowserService2_PutBaseBrowserData, zone_IBrowserService2_PutBaseBrowserData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- IBrowserService2.PutBaseBrowserData
-: 
 req.product: Internet Explorer 5.0
 ---
 

@@ -4,10 +4,10 @@ title: SymGetSourceFileFromTokenW function
 author: windows-sdk-content
 description: Retrieves the source file associated with the specified token from the source server.
 old-location: base\symgetsourcefilefromtoken.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 67a282c2-99f8-4e35-9323-a81327404d1a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SymGetSourceFileFromToken, SymGetSourceFileFromToken function, SymGetSourceFileFromTokenW, base.symgetsourcefilefromtoken, dbghelp/SymGetSourceFileFromToken, dbghelp/SymGetSourceFileFromTokenW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
-- apiref
-: 
-- 
-: 
-- SymGetSourceFileFromTokenW
-: 
 ---
 
 # SymGetSourceFileFromTokenW function

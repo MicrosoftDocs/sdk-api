@@ -4,10 +4,10 @@ title: IADs::GetInfoEx
 author: windows-sdk-content
 description: The IADs::GetInfoEx method loads the values of specified properties of the ADSI object from the underlying directory store into the property cache.
 old-location: adsi\iads_getinfoex.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 306ab953-890a-4ec9-8ec2-bea73888ea20
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetInfoEx, GetInfoEx method [ADSI], GetInfoEx method [ADSI],IADs interface, IADs interface [ADSI],GetInfoEx method, IADs.GetInfoEx, IADs::GetInfoEx, _ds_iads_getinfoex, adsi.iads__getinfoex, adsi.iads_getinfoex, iads/IADs::GetInfoEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADs.GetInfoEx
-: 
 ---
 
 # IADs::GetInfoEx

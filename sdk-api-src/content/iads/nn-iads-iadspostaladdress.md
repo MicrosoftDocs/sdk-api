@@ -4,10 +4,10 @@ title: IADsPostalAddress
 author: windows-sdk-content
 description: The IADsPostalAddress interface provides methods for an ADSI client to access the Postal Address attribute.
 old-location: adsi\iadspostaladdress.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 53ff56a6-60ee-44a1-b18b-18f17efe2acd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsPostalAddress, IADsPostalAddress interface [ADSI], IADsPostalAddress interface [ADSI],described, _ds_iadspostaladdress, adsi.iadspostaladdress, iads/IADsPostalAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

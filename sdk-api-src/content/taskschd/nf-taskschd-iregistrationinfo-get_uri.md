@@ -4,10 +4,10 @@ title: IRegistrationInfo::get_URI
 author: windows-sdk-content
 description: Gets or sets the URI of the task.
 old-location: taskschd\iregistrationinfo_uri.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 347898de-7960-42b8-84ff-4734137d0683
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],URI property, IRegistrationInfo.URI, IRegistrationInfo.get_URI, IRegistrationInfo::URI, IRegistrationInfo::get_URI, IRegistrationInfo::put_URI, URI property [Task Scheduler], URI property [Task Scheduler],IRegistrationInfo interface, get_URI, taskschd.iregistrationinfo_uri, taskschd/IRegistrationInfo::URI, taskschd/IRegistrationInfo::get_URI, taskschd/IRegistrationInfo::put_URI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IRegistrationInfo.get_URI
-: 
 ---
 
 # IRegistrationInfo::get_URI

@@ -7,7 +7,7 @@ old-location: properties\VariantToStringAlloc.htm
 tech.root: properties
 ms.assetid: 9cd4433c-d8ad-43ef-bdb9-9c1b8d8bea01
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VariantToStringAlloc, VariantToStringAlloc function [Windows Properties], _shell_VariantToStringAlloc, properties.VariantToStringAlloc, propvarutil/VariantToStringAlloc, shell.VariantToStringAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToStringAlloc
-: 
 ---
 
 # VariantToStringAlloc function

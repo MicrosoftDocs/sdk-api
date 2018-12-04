@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectiontype_getnuminterfaces.htm
 tech.root: direct3d11
 ms.assetid: d4f3d671-3f3b-4273-afef-9b0ddc61f83d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 79155c21-6096-6e00-a9ec-bc54062bd29f, GetNumInterfaces, GetNumInterfaces method [Direct3D 11], GetNumInterfaces method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetNumInterfaces method, ID3D11ShaderReflectionType.GetNumInterfaces, ID3D11ShaderReflectionType::GetNumInterfaces, d3d11shader/ID3D11ShaderReflectionType::GetNumInterfaces, direct3d11.id3d11shaderreflectiontype_getnuminterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11shader.h
-: 
-- ID3D11ShaderReflectionType.GetNumInterfaces
-: 
 ---
 
 # ID3D11ShaderReflectionType::GetNumInterfaces
@@ -72,7 +64,7 @@ Gets the number of interfaces.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Returns the number of interfaces.
 
@@ -93,7 +85,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>
+<a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>
  
 
  

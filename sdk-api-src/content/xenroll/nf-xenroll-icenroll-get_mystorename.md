@@ -4,10 +4,10 @@ title: ICEnroll::get_MyStoreName
 author: windows-sdk-content
 description: Sets or retrieves the name of the store where certificates with linked private keys are kept.
 old-location: security\icenroll4_mystorename.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: aa08e88d-bd1f-4bd6-806e-56f720846623
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CEnroll object [Security],MyStoreName property, ICEnroll interface [Security],MyStoreName property, ICEnroll.MyStoreName, ICEnroll.get_MyStoreName, ICEnroll2 interface [Security],MyStoreName property, ICEnroll2.MyStoreName, ICEnroll2::get_MyStoreName, ICEnroll2::put_MyStoreName, ICEnroll3 interface [Security],MyStoreName property, ICEnroll3.MyStoreName, ICEnroll3::get_MyStoreName, ICEnroll3::put_MyStoreName, ICEnroll4 interface [Security],MyStoreName property, ICEnroll4.MyStoreName, ICEnroll4::MyStoreName, ICEnroll4::get_MyStoreName, ICEnroll4::put_MyStoreName, ICEnroll::get_MyStoreName, ICEnroll::put_MyStoreName, MyStoreName property [Security], MyStoreName property [Security],CEnroll object, MyStoreName property [Security],ICEnroll interface, MyStoreName property [Security],ICEnroll2 interface, MyStoreName property [Security],ICEnroll3 interface, MyStoreName property [Security],ICEnroll4 interface, get_MyStoreName, security.icenroll4_mystorename, xenroll/ICEnroll2::MyStoreName, xenroll/ICEnroll2::get_MyStoreName, xenroll/ICEnroll2::put_MyStoreName, xenroll/ICEnroll3::MyStoreName, xenroll/ICEnroll3::get_MyStoreName, xenroll/ICEnroll3::put_MyStoreName, xenroll/ICEnroll4::MyStoreName, xenroll/ICEnroll4::get_MyStoreName, xenroll/ICEnroll4::put_MyStoreName, xenroll/ICEnroll::MyStoreName, xenroll/ICEnroll::get_MyStoreName, xenroll/ICEnroll::put_MyStoreName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,14 +54,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- ICEnroll.get_MyStoreName
-: 
 ---
 
 # ICEnroll::get_MyStoreName
@@ -106,15 +98,19 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-
-```cpp
-BSTR     bstrStoreName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrStoreName = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the storename
-hr = pEnroll->get_MyStoreName( &bstrStoreName );
+hr = pEnroll-&gt;get_MyStoreName( &amp;bstrStoreName );
 if ( FAILED ( hr ) )
     printf("Failed getting MyStoreName - %x\n", hr );
 else
@@ -125,13 +121,13 @@ if ( NULL != bstrStoreName )
 
 // set the storename
 // bstrNewName previously set to a valid store name
-hr = pEnroll->put_MyStoreName( bstrNewName );
+hr = pEnroll-&gt;put_MyStoreName( bstrNewName );
 if ( FAILED ( hr ) )
     printf("Failed setting MyStoreName - %x\n", hr );
 else
-    printf( "MyStoreName was set to : %ws\n", bstrNewName );
-```
-
-
+    printf( "MyStoreName was set to : %ws\n", bstrNewName );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

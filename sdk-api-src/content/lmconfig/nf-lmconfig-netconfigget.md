@@ -4,10 +4,10 @@ title: NetConfigGet function
 author: windows-sdk-content
 description: The NetConfigGet function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.
 old-location: netmgmt\netconfigget.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: f0992922-9d08-47c1-a089-5927fd370c22
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetConfigGet, NetConfigGet function [Network Management], _win32_netconfigget, lmconfig/NetConfigGet, netmgmt.netconfigget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetConfigGet
-: 
 ---
 
 # NetConfigGet function

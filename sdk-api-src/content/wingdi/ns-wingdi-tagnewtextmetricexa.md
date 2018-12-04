@@ -7,7 +7,7 @@ old-location: gdi\newtextmetricex.htm
 tech.root: gdi
 ms.assetid: b85ff705-2dd4-4877-9905-d4c2a0894e24
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NEWTEXTMETRICEX, NEWTEXTMETRICEX structure [Windows GDI], NEWTEXTMETRICEXA, NEWTEXTMETRICEXW, _win32_NEWTEXTMETRICEX_str, gdi.newtextmetricex, tagNEWTEXTMETRICEXA, wingdi/NEWTEXTMETRICEX, wingdi/NEWTEXTMETRICEXA, wingdi/NEWTEXTMETRICEXW
 ms.prod: windows-hardware
 ms.technology: windows-devices

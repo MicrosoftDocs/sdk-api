@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecKeyManagerUnregisterAndDelete0
-: 
 ---
 
 # IPsecKeyManagerUnregisterAndDelete0 function

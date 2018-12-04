@@ -4,10 +4,10 @@ title: IWSDiscoveryProviderNotify::Remove
 author: windows-sdk-content
 description: Provides information on a recently departed discovery host (from a Bye message).
 old-location: ncd\iwsdiscoveryprovidernotify_remove.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 776fc1d5-9dfe-445f-9af6-36faf971bf37
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWSDiscoveryProviderNotify interface,Remove method, IWSDiscoveryProviderNotify.Remove, IWSDiscoveryProviderNotify::Remove, Remove, Remove method, Remove method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_remove, wsddisco/IWSDiscoveryProviderNotify::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsddisco.h
-: 
-- IWSDiscoveryProviderNotify.Remove
-: 
 ---
 
 # IWSDiscoveryProviderNotify::Remove

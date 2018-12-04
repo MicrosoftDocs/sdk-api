@@ -7,7 +7,7 @@ old-location: xps\ixpsompath.htm
 tech.root: printdocs
 ms.assetid: 93257a77-3fef-400e-bfe1-06e760ba4b93
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], IXpsOMPath interface [XPS Documents and Packaging],described, xps.ixpsompath, xpsobjectmodel/IXpsOMPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

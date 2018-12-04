@@ -7,7 +7,7 @@ old-location: multimedia\mixermessage.htm
 tech.root: Multimedia
 ms.assetid: 021669bb-144b-4107-955c-c4cc9cd53c00
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_mixerMessage, mixerMessage, mixerMessage function [Windows Multimedia], mmeapi/mixerMessage, multimedia.mixermessage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- mixerMessage
-: 
 ---
 
 # mixerMessage function

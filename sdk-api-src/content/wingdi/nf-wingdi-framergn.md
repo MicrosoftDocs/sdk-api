@@ -7,7 +7,7 @@ old-location: gdi\framergn.htm
 tech.root: gdi
 ms.assetid: d2c95392-7950-4963-8f10-2387daf23e93
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FrameRgn, FrameRgn function [Windows GDI], _win32_FrameRgn, gdi.framergn, wingdi/FrameRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FrameRgn
-: 
 ---
 
 # FrameRgn function

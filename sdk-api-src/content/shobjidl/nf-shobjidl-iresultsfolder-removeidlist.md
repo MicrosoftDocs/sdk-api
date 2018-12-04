@@ -7,7 +7,7 @@ old-location: shell\IResultsFolder_RemoveIDList.htm
 tech.root: shell
 ms.assetid: 188d4f7f-954c-4bba-ad4e-164085e0cc5a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveIDList method, IResultsFolder.RemoveIDList, IResultsFolder::RemoveIDList, RemoveIDList, RemoveIDList method [Windows Shell], RemoveIDList method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveIDList, shell.IResultsFolder_RemoveIDList, shobjidl/IResultsFolder::RemoveIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl.h
-: 
-- IResultsFolder.RemoveIDList
-: 
 ---
 
 # IResultsFolder::RemoveIDList

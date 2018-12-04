@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_getheapproperties.htm
 tech.root: direct3d12
 ms.assetid: 7F76986D-02F1-4E5A-B9A4-CFB021B72026
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetHeapProperties, GetHeapProperties method, GetHeapProperties method,ID3D12Resource interface, ID3D12Resource interface,GetHeapProperties method, ID3D12Resource.GetHeapProperties, ID3D12Resource::GetHeapProperties, d3d12/ID3D12Resource::GetHeapProperties, direct3d12.id3d12resource_getheapproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d12.h
-: 
-- ID3D12Resource.GetHeapProperties
-: 
 ---
 
 # ID3D12Resource::GetHeapProperties
@@ -87,9 +79,9 @@ Specifies a <a href="https://msdn.microsoft.com/C3C1B611-714C-49DB-8034-9C9B7D67
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
             If the resource was created as reserved, E_INVALIDARG is returned.
           
 
@@ -105,7 +97,7 @@ This method only works on placed and committed resources, not on reserved resour
           The pages could be mapped to none, one, or more heaps.
         
 
-For more information, refer to <a href="https://msdn.microsoft.com/en-us/library/Dn899198(v=VS.85).aspx">Memory Management in Direct3D 12</a>.
+For more information, refer to <a href="https://msdn.microsoft.com/94D47EBB-8060-49F6-A1FF-8B7B98AD5363">Memory Management in Direct3D 12</a>.
         
 
 
@@ -116,7 +108,7 @@ For more information, refer to <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>
+<a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>
  
 
  

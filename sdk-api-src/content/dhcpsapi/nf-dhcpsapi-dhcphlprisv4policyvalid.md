@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpHlprIsV4PolicyValid
-: 
 ---
 
 # DhcpHlprIsV4PolicyValid function

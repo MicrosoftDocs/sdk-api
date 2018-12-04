@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_Enable.htm
 tech.root: shell
 ms.assetid: ea3efba1-9b7c-4f93-aca5-08475a6005a8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Enable method, ISyncMgrHandler.Enable, ISyncMgrHandler::Enable, _shell_ISyncMgrHandler_Enable, shell.ISyncMgrHandler_Enable, syncmgr/ISyncMgrHandler::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- syncmgr.h
-: 
-- ISyncMgrHandler.Enable
-: 
 ---
 
 # ISyncMgrHandler::Enable

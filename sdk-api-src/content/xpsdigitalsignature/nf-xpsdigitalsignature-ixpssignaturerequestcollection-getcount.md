@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequestcollection_getcount.htm
 tech.root: printdocs
 ms.assetid: e85d776e-6e26-46fa-bcaa-d99737ec1211
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsSignatureRequestCollection interface, IXpsSignatureRequestCollection interface [XPS Documents and Packaging],GetCount method, IXpsSignatureRequestCollection.GetCount, IXpsSignatureRequestCollection::GetCount, xps.ixpssignaturerequestcollection_getcount, xpsdigitalsignature/IXpsSignatureRequestCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsdigitalsignature.h
-: 
-- IXpsSignatureRequestCollection.GetCount
-: 
 ---
 
 # IXpsSignatureRequestCollection::GetCount

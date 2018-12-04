@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEventStore_GetEvent.htm
 tech.root: shell
 ms.assetid: 6800ac62-1fd5-43a4-bd37-831449274a7b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetEvent, GetEvent method [Windows Shell], GetEvent method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEvent method, ISyncMgrEventStore.GetEvent, ISyncMgrEventStore::GetEvent, _shell_ISyncMgrEventStore_GetEvent, shell.ISyncMgrEventStore_GetEvent, syncmgr/ISyncMgrEventStore::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- syncmgr.h
-: 
-- ISyncMgrEventStore.GetEvent
-: 
 ---
 
 # ISyncMgrEventStore::GetEvent

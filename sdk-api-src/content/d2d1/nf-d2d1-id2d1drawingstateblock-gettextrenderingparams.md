@@ -4,10 +4,10 @@ title: ID2D1DrawingStateBlock::GetTextRenderingParams
 author: windows-sdk-content
 description: Retrieves the text-rendering configuration of the drawing state.
 old-location: direct2d\ID2D1DrawingStateBlock_GetTextRenderingParams.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 86822497-e256-445b-8da9-9ead229f89ee
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetTextRenderingParams, GetTextRenderingParams method [Direct2D], GetTextRenderingParams method [Direct2D],ID2D1DrawingStateBlock interface, ID2D1DrawingStateBlock interface [Direct2D],GetTextRenderingParams method, ID2D1DrawingStateBlock.GetTextRenderingParams, ID2D1DrawingStateBlock::GetTextRenderingParams, d2d1/ID2D1DrawingStateBlock::GetTextRenderingParams, direct2d.ID2D1DrawingStateBlock_GetTextRenderingParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1DrawingStateBlock.GetTextRenderingParams
-: 
 ---
 
 # ID2D1DrawingStateBlock::GetTextRenderingParams

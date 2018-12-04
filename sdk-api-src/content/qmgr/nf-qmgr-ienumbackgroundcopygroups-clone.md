@@ -4,10 +4,10 @@ title: IEnumBackgroundCopyGroups::Clone
 author: windows-sdk-content
 description: Use the Clone method to create another IEnumBackgroundCopyGroups enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopygroups_clone.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: f2743edd-9fc5-451b-b1ff-17f4591923ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopyGroups interface, IEnumBackgroundCopyGroups interface [BITS],Clone method, IEnumBackgroundCopyGroups.Clone, IEnumBackgroundCopyGroups::Clone, bits.ienumbackgroundcopygroups_clone, qmgr/IEnumBackgroundCopyGroups::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qmgr.h
-: 
-- IEnumBackgroundCopyGroups.Clone
-: 
 ---
 
 # IEnumBackgroundCopyGroups::Clone

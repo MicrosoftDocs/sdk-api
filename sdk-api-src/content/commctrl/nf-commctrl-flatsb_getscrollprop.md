@@ -4,10 +4,10 @@ title: FlatSB_GetScrollProp function
 author: windows-sdk-content
 description: Gets the properties for a flat scroll bar. This function can also be used to determine if InitializeFlatSB has been called for this window.
 old-location: controls\FlatSB_GetScrollProp.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollprop.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: FlatSB_GetScrollProp, FlatSB_GetScrollProp function [Windows Controls], WSB_PROP_CXHSCROLL, WSB_PROP_CXHTHUMB, WSB_PROP_CXVSCROLL, WSB_PROP_CYHSCROLL, WSB_PROP_CYVSCROLL, WSB_PROP_CYVTHUMB, WSB_PROP_HBKGCOLOR, WSB_PROP_HSTYLE, WSB_PROP_PALETTE, WSB_PROP_VBKGCOLOR, WSB_PROP_VSTYLE, WSB_PROP_WINSTYLE, _win32_FlatSB_GetScrollProp, _win32_FlatSB_GetScrollProp_cpp, commctrl/FlatSB_GetScrollProp, controls.FlatSB_GetScrollProp, controls._win32_FlatSB_GetScrollProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FlatSB_GetScrollProp
-: 
 ---
 
 # FlatSB_GetScrollProp function
@@ -56,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the properties for a flat scroll bar. This function can also be used to determine if <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a> has been called for this window. 
+Gets the properties for a flat scroll bar. This function can also be used to determine if <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a> has been called for this window. 
 
 
 ## -parameters
@@ -66,14 +60,14 @@ Gets the properties for a flat scroll bar. This function can also be used to det
 
 ### -param arg1
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a>. 
 
 
 ### -param propIndex
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The parameter that determines what 
 					<i>pValue</i> represents and which property is being retrieved. It can be one of the following values. 
@@ -233,7 +227,7 @@ A normal, nonflat scroll bar is displayed. No special visual effects are applied
 </dl>
 </td>
 <td width="60%">
-<i>pValue</i> is a pointer to an INT value that receives the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_HSCROLL</a> and <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_VSCROLL</a> style bits contained by the current window.
+<i>pValue</i> is a pointer to an INT value that receives the <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_HSCROLL</a> and <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_VSCROLL</a> style bits contained by the current window.
 
 </td>
 </tr>
@@ -243,7 +237,7 @@ A normal, nonflat scroll bar is displayed. No special visual effects are applied
 
 ### -param arg3
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPINT</a></b>
 
 A pointer to an <b>int</b> that receives the requested data. This parameter depends on the flag passed in 
 					<i>index</i>. 
@@ -253,10 +247,10 @@ A pointer to an <b>int</b> that receives the requested data. This parameter depe
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. If 
-						<i>index</i> is WSB_PROP_HSTYLE, the return is nonzero if <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a> has been called for this window, or zero otherwise. 
+						<i>index</i> is WSB_PROP_HSTYLE, the return is nonzero if <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a> has been called for this window, or zero otherwise. 
 
 
 

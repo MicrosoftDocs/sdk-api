@@ -4,10 +4,10 @@ title: CertAddRefServerOcspResponseContext function
 author: windows-sdk-content
 description: Increments the reference count for a CERT_SERVER_OCSP_RESPONSE_CONTEXT structure.
 old-location: security\certaddrefserverocspresponsecontext.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: b7cdce9b-25fe-4fb9-b266-61989793699b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertAddRefServerOcspResponseContext, CertAddRefServerOcspResponseContext function [Security], security.certaddrefserverocspresponsecontext, wincrypt/CertAddRefServerOcspResponseContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertAddRefServerOcspResponseContext
-: 
 ---
 
 # CertAddRefServerOcspResponseContext function

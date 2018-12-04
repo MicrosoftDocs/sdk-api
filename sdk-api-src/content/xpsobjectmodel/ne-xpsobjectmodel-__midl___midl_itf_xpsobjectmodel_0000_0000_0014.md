@@ -7,7 +7,7 @@ old-location: xps\xps_object_type.htm
 tech.root: printdocs
 ms.assetid: 2e53f22e-7521-45c9-ac88-b76fb381f556
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: XPS_OBJECT_TYPE, XPS_OBJECT_TYPE enumeration [XPS Documents and Packaging], XPS_OBJECT_TYPE_CANVAS, XPS_OBJECT_TYPE_GEOMETRY, XPS_OBJECT_TYPE_GLYPHS, XPS_OBJECT_TYPE_IMAGE_BRUSH, XPS_OBJECT_TYPE_LINEAR_GRADIENT_BRUSH, XPS_OBJECT_TYPE_MATRIX_TRANSFORM, XPS_OBJECT_TYPE_PATH, XPS_OBJECT_TYPE_RADIAL_GRADIENT_BRUSH, XPS_OBJECT_TYPE_SOLID_COLOR_BRUSH, XPS_OBJECT_TYPE_VISUAL_BRUSH, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0014, xps.xps_object_type, xpsobjectmodel/XPS_OBJECT_TYPE, xpsobjectmodel/XPS_OBJECT_TYPE_CANVAS, xpsobjectmodel/XPS_OBJECT_TYPE_GEOMETRY, xpsobjectmodel/XPS_OBJECT_TYPE_GLYPHS, xpsobjectmodel/XPS_OBJECT_TYPE_IMAGE_BRUSH, xpsobjectmodel/XPS_OBJECT_TYPE_LINEAR_GRADIENT_BRUSH, xpsobjectmodel/XPS_OBJECT_TYPE_MATRIX_TRANSFORM, xpsobjectmodel/XPS_OBJECT_TYPE_PATH, xpsobjectmodel/XPS_OBJECT_TYPE_RADIAL_GRADIENT_BRUSH, xpsobjectmodel/XPS_OBJECT_TYPE_SOLID_COLOR_BRUSH, xpsobjectmodel/XPS_OBJECT_TYPE_VISUAL_BRUSH
 ms.prod: windows-hardware
 ms.technology: windows-devices

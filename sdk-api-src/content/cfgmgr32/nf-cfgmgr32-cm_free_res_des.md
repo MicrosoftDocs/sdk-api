@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Free_Res_Des
-: 
 ---
 
 # CM_Free_Res_Des function

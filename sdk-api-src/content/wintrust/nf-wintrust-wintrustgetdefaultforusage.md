@@ -4,10 +4,10 @@ title: WintrustGetDefaultForUsage function
 author: windows-sdk-content
 description: Retrieves the default usage identifier and callback information.
 old-location: security\wintrustgetdefaultforusage.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: B2ED5489-792F-4B00-A21E-EE1B1462D1C8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DWACTION_ALLOCANDFILL, DWACTION_FREE, WintrustGetDefaultForUsage, WintrustGetDefaultForUsage function [Security], security.wintrustgetdefaultforusage, wintrust/WintrustGetDefaultForUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WintrustGetDefaultForUsage
-: 
 ---
 
 # WintrustGetDefaultForUsage function

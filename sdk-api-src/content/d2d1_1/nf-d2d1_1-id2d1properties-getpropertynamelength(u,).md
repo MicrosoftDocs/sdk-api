@@ -4,10 +4,10 @@ title: ID2D1Properties::GetPropertyNameLength(U,)
 author: windows-sdk-content
 description: Gets the number of characters for the given property name. This is a template overload. See Remarks.
 old-location: direct2d\id2d1properties_getpropertynamelength2.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 245A71F7-4034-4D65-A9EB-9A33FC8DED05
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetPropertyNameLength, GetPropertyNameLength method [Direct2D], GetPropertyNameLength method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyNameLength method, ID2D1Properties.GetPropertyNameLength, ID2D1Properties.GetPropertyNameLength(U,), ID2D1Properties::GetPropertyNameLength, ID2D1Properties::GetPropertyNameLength(U), ID2D1Properties::GetPropertyNameLength(U,), d2d1_1/ID2D1Properties::GetPropertyNameLength, direct2d.id2d1properties_getpropertynamelength2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_1.h
-: 
-- ID2D1Properties.GetPropertyNameLength
-: 
 ---
 
 # ID2D1Properties::GetPropertyNameLength(U,)

@@ -4,10 +4,10 @@ title: ITPhoneEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method returns a PHONE_EVENT value specifying the type of phone event that occurred.
 old-location: tapi3\itphoneevent_get_event.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 01ac0b3f-ba45-4bf3-a0e7-b2c3a5d44727
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_Event method, ITPhoneEvent.get_Event, ITPhoneEvent::get_Event, _tapi3_itphoneevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_event, tapi3if/ITPhoneEvent::get_Event
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITPhoneEvent.get_Event
-: 
 ---
 
 # ITPhoneEvent::get_Event

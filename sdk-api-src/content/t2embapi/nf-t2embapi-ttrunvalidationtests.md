@@ -7,7 +7,7 @@ old-location: gdi\ttrunvalidationtests.htm
 tech.root: gdi
 ms.assetid: fe60938b-c728-49a9-89b4-495b2364091a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: TTRunValidationTests, TTRunValidationTests function [Windows GDI], _win32_TTRunValidationTests, gdi.ttrunvalidationtests, t2embapi/TTRunValidationTests
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TTRunValidationTests
-: 
 ---
 
 # TTRunValidationTests function

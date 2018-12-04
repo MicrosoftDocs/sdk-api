@@ -4,10 +4,10 @@ title: INetworkListManager::ClearSimulatedProfileInfo
 author: windows-sdk-content
 description: Clears the connection profile values previously applied to the internet connection profile by SetSimulatedProfileInfo. The next internet connection query, via GetInternetConnectionProfile, will use system information.
 old-location: nla\inetworklistmanager_clearsimulatedprofileinfo.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: DD89717F-4BFD-4283-A9F4-A74BB6E8E8D6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ClearSimulatedProfileInfo, ClearSimulatedProfileInfo method [Network Awareness], ClearSimulatedProfileInfo method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],ClearSimulatedProfileInfo method, INetworkListManager.ClearSimulatedProfileInfo, INetworkListManager::ClearSimulatedProfileInfo, netlistmgr/INetworkListManager::ClearSimulatedProfileInfo, nla.inetworklistmanager_clearsimulatedprofileinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netlistmgr.h
-: 
-- INetworkListManager.ClearSimulatedProfileInfo
-: 
 ---
 
 # INetworkListManager::ClearSimulatedProfileInfo

@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrregister_registersyncmgrhandler.htm
 tech.root: shell
 ms.assetid: 8c980c57-90a1-4f97-8d0c-22a3abdefabb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ISyncMgrRegister interface [Windows Shell],RegisterSyncMgrHandler method, ISyncMgrRegister.RegisterSyncMgrHandler, ISyncMgrRegister::RegisterSyncMgrHandler, RegisterSyncMgrHandler, RegisterSyncMgrHandler method [Windows Shell], RegisterSyncMgrHandler method [Windows Shell],ISyncMgrRegister interface, mobsync/ISyncMgrRegister::RegisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_registersyncmgrhandler, syncmgr.isyncmgrregister_registersyncmgrhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mobsync.h
-: 
-- ISyncMgrRegister.RegisterSyncMgrHandler
-: 
 ---
 
 # ISyncMgrRegister::RegisterSyncMgrHandler

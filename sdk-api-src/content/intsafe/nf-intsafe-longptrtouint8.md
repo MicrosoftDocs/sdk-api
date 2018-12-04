@@ -7,7 +7,7 @@ old-location: shell\LongPtrToUInt8.htm
 tech.root: shell
 ms.assetid: 001d5029-b24e-4f00-a93c-a4123bdb3021
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: LongPtrToUInt8, LongPtrToUInt8 function [Windows Shell], intsafe/LongPtrToUInt8, shell.LongPtrToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LongPtrToUInt8
-: 
 ---
 
 # LongPtrToUInt8 function

@@ -7,7 +7,7 @@ old-location: gdi\createellipticrgnindirect.htm
 tech.root: gdi
 ms.assetid: bd30516e-1e05-4b7d-a6bf-7512cf3ef30f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateEllipticRgnIndirect, CreateEllipticRgnIndirect function [Windows GDI], _win32_CreateEllipticRgnIndirect, gdi.createellipticrgnindirect, wingdi/CreateEllipticRgnIndirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateEllipticRgnIndirect
-: 
 ---
 
 # CreateEllipticRgnIndirect function

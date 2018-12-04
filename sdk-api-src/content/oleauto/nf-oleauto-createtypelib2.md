@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateTypeLib2
-: 
 ---
 
 # CreateTypeLib2 function

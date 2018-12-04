@@ -4,10 +4,10 @@ title: NetworkIsolationEnumAppContainers function
 author: windows-sdk-content
 description: Enumerates all of the app containers that have been created in the system.
 old-location: ics\networkisolationenumappcontainers.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 9a940eb5-712a-459e-9932-0115fdfb512b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetworkIsolationEnumAppContainers, NetworkIsolationEnumAppContainers function [ICS/ICF], ics.networkisolationenumappcontainers, networkisolation/NetworkIsolationEnumAppContainers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetworkIsolationEnumAppContainers
-: 
 ---
 
 # NetworkIsolationEnumAppContainers function

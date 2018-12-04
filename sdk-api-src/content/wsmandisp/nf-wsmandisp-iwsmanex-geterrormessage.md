@@ -4,10 +4,10 @@ title: IWSManEx::GetErrorMessage
 author: windows-sdk-content
 description: Returns a formatted string containing the text of an error number.
 old-location: winrm\iwsmanex_geterrormessage.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: af5ae515-458a-4d7f-80f8-0fd51f97e7f1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetErrorMessage, GetErrorMessage method [Windows Remote Management], GetErrorMessage method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],GetErrorMessage method, IWSManEx.GetErrorMessage, IWSManEx::GetErrorMessage, winrm.iwsmanex_geterrormessage, wsmandisp/IWSManEx::GetErrorMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManEx.GetErrorMessage
-: 
 ---
 
 # IWSManEx::GetErrorMessage

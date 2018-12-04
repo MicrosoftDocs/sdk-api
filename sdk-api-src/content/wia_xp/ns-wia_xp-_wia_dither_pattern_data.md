@@ -7,7 +7,7 @@ old-location: wia\_wia_WIA_DITHER_PATTERN_DATA.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_dither_pattern_data.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA structure pointer [WIA], WIA_DITHER_PATTERN_DATA, WIA_DITHER_PATTERN_DATA structure [WIA], _WIA_DITHER_PATTERN_DATA, _wia_WIA_DITHER_PATTERN_DATA, wia._wia_WIA_DITHER_PATTERN_DATA, wia_xp/PWIA_DITHER_PATTERN_DATA, wia_xp/WIA_DITHER_PATTERN_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>WIA_DITHER_PATTERN_DATA</b> structure specifies a dither pattern for scanners. It is used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms630195(v=VS.85).aspx">scanner device property constant</a> WIA_DPS_DITHER_PATTERN_DATA.
+The <b>WIA_DITHER_PATTERN_DATA</b> structure specifies a dither pattern for scanners. It is used in conjunction with the <a href="https://msdn.microsoft.com/78caa3af-927b-4143-9e88-4b5c918d00a4">scanner device property constant</a> WIA_DPS_DITHER_PATTERN_DATA.
 
 
 ## -struct-fields

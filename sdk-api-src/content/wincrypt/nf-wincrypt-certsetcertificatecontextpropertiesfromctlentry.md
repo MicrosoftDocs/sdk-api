@@ -4,10 +4,10 @@ title: CertSetCertificateContextPropertiesFromCTLEntry function
 author: windows-sdk-content
 description: Sets the properties on the certificate context by using the attributes in the specified certificate trust list (CTL) entry.
 old-location: security\certsetcertificatecontextpropertiesfromctlentry.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: b53b046a-68d4-4dc5-ab89-1b30ebd1de60
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertSetCertificateContextPropertiesFromCTLEntry, CertSetCertificateContextPropertiesFromCTLEntry function [Security], _crypto2_certsetcertificatecontextpropertiesfromctlentry, security.certsetcertificatecontextpropertiesfromctlentry, wincrypt/CertSetCertificateContextPropertiesFromCTLEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertSetCertificateContextPropertiesFromCTLEntry
-: 
 ---
 
 # CertSetCertificateContextPropertiesFromCTLEntry function

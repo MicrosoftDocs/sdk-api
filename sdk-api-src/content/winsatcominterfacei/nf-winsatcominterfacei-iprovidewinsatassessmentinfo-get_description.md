@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsatcominterfacei.h
-: 
-- IProvideWinSATAssessmentInfo.get_Description
-: 
 ---
 
 # IProvideWinSATAssessmentInfo::get_Description

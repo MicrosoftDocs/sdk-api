@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile.htm
 tech.root: medfound
 ms.assetid: fe441c61-1be7-4fda-a2a3-bd79ecf4e54c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IMFASFProfile, IMFASFProfile interface [Media Foundation], IMFASFProfile interface [Media Foundation],described, fe441c61-1be7-4fda-a2a3-bd79ecf4e54c, mf.imfasfprofile, wmcontainer/IMFASFProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

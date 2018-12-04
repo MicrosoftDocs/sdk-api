@@ -4,10 +4,10 @@ title: IRDPSRAPIApplicationFilter::get_Applications
 author: windows-sdk-content
 description: The list of sharable applications.
 old-location: rdp\irdpsrapiapplicationfilter_applications.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 08704192-320d-44f2-a811-f8565285bd30
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Applications property [RDP], Applications property [RDP],IRDPSRAPIApplicationFilter interface, Applications property [RDP],RDPSRAPIApplicationFilter object, IRDPSRAPIApplicationFilter interface [RDP],Applications property, IRDPSRAPIApplicationFilter.Applications, IRDPSRAPIApplicationFilter.get_Applications, IRDPSRAPIApplicationFilter::Applications, IRDPSRAPIApplicationFilter::get_Applications, RDPSRAPIApplicationFilter object [RDP],Applications property, get_Applications, rdp.irdpsrapiapplicationfilter_applications, rdpencomapi/IRDPSRAPIApplicationFilter::Applications, rdpencomapi/IRDPSRAPIApplicationFilter::get_Applications
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIApplicationFilter.get_Applications
-: 
 ---
 
 # IRDPSRAPIApplicationFilter::get_Applications

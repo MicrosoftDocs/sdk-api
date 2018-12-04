@@ -7,7 +7,7 @@ old-location: mf\mfputwaitingworkitem.htm
 tech.root: medfound
 ms.assetid: BBD80C60-E42F-4B3B-96E3-E01058A27DB8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFPutWaitingWorkItem, MFPutWaitingWorkItem function [Media Foundation], mf.mfputwaitingworkitem, mfapi/MFPutWaitingWorkItem, mfplat/MFPutWaitingWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFPutWaitingWorkItem
-: 
 ---
 
 # MFPutWaitingWorkItem function

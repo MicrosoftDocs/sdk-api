@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDescrip
 tech.root: WinAuto
 ms.assetid: 707cf9d2-5c29-4eb2-aba2-5c5199e7292c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CachedDescription property [Windows Accessibility], CachedDescription property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedDescription property, IUIAutomationLegacyIAccessiblePattern.CachedDescription, IUIAutomationLegacyIAccessiblePattern.get_CachedDescription, IUIAutomationLegacyIAccessiblePattern::CachedDescription, IUIAutomationLegacyIAccessiblePattern::get_CachedDescription, get_CachedDescription, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDescription, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedDescription, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationLegacyIAccessiblePattern.get_CachedDescription
-: 
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CachedDescription

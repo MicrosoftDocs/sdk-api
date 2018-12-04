@@ -4,10 +4,10 @@ title: "_MINIDUMP_FUNCTION_TABLE_STREAM"
 author: windows-sdk-content
 description: Represents the header for the function table stream.
 old-location: base\minidump_function_table_stream_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: b2845799-acc9-4410-9059-45f7a8313e9f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*PMINIDUMP_FUNCTION_TABLE_STREAM, MINIDUMP_FUNCTION_TABLE_STREAM, MINIDUMP_FUNCTION_TABLE_STREAM structure, PMINIDUMP_FUNCTION_TABLE_STREAM, PMINIDUMP_FUNCTION_TABLE_STREAM structure pointer, _MINIDUMP_FUNCTION_TABLE_STREAM, _win32_minidump_function_table_stream_str, base.minidump_function_table_stream_str, minidumpapiset/MINIDUMP_FUNCTION_TABLE_STREAM, minidumpapiset/PMINIDUMP_FUNCTION_TABLE_STREAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

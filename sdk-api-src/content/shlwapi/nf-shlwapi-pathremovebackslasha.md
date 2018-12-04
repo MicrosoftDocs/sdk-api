@@ -7,7 +7,7 @@ old-location: shell\PathRemoveBackslash.htm
 tech.root: shell
 ms.assetid: 58d13c38-40aa-4aaa-81dc-2b68425f1fe0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: PathRemoveBackslash, PathRemoveBackslash function [Windows Shell], PathRemoveBackslashA, PathRemoveBackslashW, _win32_PathRemoveBackslash, shell.PathRemoveBackslash, shlwapi/PathRemoveBackslash, shlwapi/PathRemoveBackslashA, shlwapi/PathRemoveBackslashW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PathRemoveBackslashA
-: 
 ---
 
 # PathRemoveBackslashA function

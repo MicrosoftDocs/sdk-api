@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributeinfo_reset.htm
 tech.root: TSF
 ms.assetid: f7a95bb4-a2f1-4734-8a71-286591544984
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfDisplayAttributeInfo interface [Text Services Framework],Reset method, ITfDisplayAttributeInfo.Reset, ITfDisplayAttributeInfo::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],ITfDisplayAttributeInfo interface, _tsf_itfdisplayattributeinfo_reset_ref, msctf/ITfDisplayAttributeInfo::Reset, tsf.itfdisplayattributeinfo_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfDisplayAttributeInfo.Reset
-: 
 ---
 
 # ITfDisplayAttributeInfo::Reset

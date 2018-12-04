@@ -4,10 +4,10 @@ title: ITaskDefinition::get_RegistrationInfo
 author: windows-sdk-content
 description: Gets or sets the registration information used to describe a task, such as the description of the task, the author of the task, and the date the task is registered.
 old-location: taskschd\itaskdefinition_registrationinfo.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 74a616fe-bc56-4d81-9a79-8f7c719b87c9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],RegistrationInfo property, ITaskDefinition.RegistrationInfo, ITaskDefinition.get_RegistrationInfo, ITaskDefinition::RegistrationInfo, ITaskDefinition::get_RegistrationInfo, ITaskDefinition::put_RegistrationInfo, RegistrationInfo property [Task Scheduler], RegistrationInfo property [Task Scheduler],ITaskDefinition interface, get_RegistrationInfo, taskschd.itaskdefinition_registrationinfo, taskschd/ITaskDefinition::RegistrationInfo, taskschd/ITaskDefinition::get_RegistrationInfo, taskschd/ITaskDefinition::put_RegistrationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITaskDefinition.get_RegistrationInfo
-: 
 ---
 
 # ITaskDefinition::get_RegistrationInfo

@@ -4,10 +4,10 @@ title: IAzBizRuleInterfaces::GetInterfaceValue
 author: windows-sdk-content
 description: Gets the ID and flags of the interface that corresponds to the specified interface name.
 old-location: security\iazbizruleinterfaces_getinterfacevalue_method.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: d5d12529-6ce8-4189-949b-210d8ec84084
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetInterfaceValue, GetInterfaceValue method [Security], GetInterfaceValue method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],GetInterfaceValue method, IAzBizRuleInterfaces.GetInterfaceValue, IAzBizRuleInterfaces::GetInterfaceValue, azroles/IAzBizRuleInterfaces::GetInterfaceValue, security.iazbizruleinterfaces_getinterfacevalue_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzBizRuleInterfaces.GetInterfaceValue
-: 
 ---
 
 # IAzBizRuleInterfaces::GetInterfaceValue

@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiDestroyDriverInfoList
-: 
 ---
 
 # SetupDiDestroyDriverInfoList function
@@ -67,7 +61,7 @@ The <b>SetupDiDestroyDriverInfoList</b> function deletes a driver list.
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the driver list to delete.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains the driver list to delete.
 
 
 ### -param DeviceInfoData [in, optional]

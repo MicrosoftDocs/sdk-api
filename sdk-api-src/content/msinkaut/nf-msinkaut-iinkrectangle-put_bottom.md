@@ -7,7 +7,7 @@ old-location: tablet\inkrectangle_bottom.htm
 tech.root: tablet
 ms.assetid: 9b388cdb-66b1-4386-a1aa-578f0d56c190
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 9b388cdb-66b1-4386-a1aa-578f0d56c190, Bottom property [Tablet PC], Bottom property [Tablet PC],IInkRectangle interface, IInkRectangle interface [Tablet PC],Bottom property, IInkRectangle.Bottom, IInkRectangle.put_Bottom, IInkRectangle::Bottom, IInkRectangle::get_Bottom, IInkRectangle::put_Bottom, InkRectangle.get_Bottom, InkRectangle.put_Bottom, get_Bottom, msinkaut/IInkRectangle::Bottom, msinkaut/IInkRectangle::get_Bottom, msinkaut/IInkRectangle::put_Bottom, put_Bottom, tablet.inkrectangle_bottom
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,14 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkRectangle.put_Bottom
-: 
 ---
 
 # IInkRectangle::put_Bottom

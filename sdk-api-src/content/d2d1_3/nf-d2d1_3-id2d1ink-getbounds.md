@@ -4,10 +4,10 @@ title: ID2D1Ink::GetBounds
 author: windows-sdk-content
 description: Retrieve the bounds of the geometry, with an optional applied transform.
 old-location: direct2d\id2d1ink_getbounds.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 83BA2631-B3EA-4411-A5F7-265C95A00C9F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetBounds, GetBounds method [Direct2D], GetBounds method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],GetBounds method, ID2D1Ink.GetBounds, ID2D1Ink::GetBounds, d2d1_3/ID2D1Ink::GetBounds, direct2d.id2d1ink_getbounds
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_3.h
-: 
-- ID2D1Ink.GetBounds
-: 
 ---
 
 # ID2D1Ink::GetBounds

@@ -7,7 +7,7 @@ old-location: mf\imftranscodeprofile_getcontainerattributes.htm
 tech.root: medfound
 ms.assetid: 29bf5834-78af-4521-95b1-dfd5764e96fc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetContainerAttributes, GetContainerAttributes method [Media Foundation], GetContainerAttributes method [Media Foundation],IMFTranscodeProfile interface, IMFTranscodeProfile interface [Media Foundation],GetContainerAttributes method, IMFTranscodeProfile.GetContainerAttributes, IMFTranscodeProfile::GetContainerAttributes, mf.imftranscodeprofile_getcontainerattributes, mfidl/IMFTranscodeProfile::GetContainerAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfidl.h
-: 
-- IMFTranscodeProfile.GetContainerAttributes
-: 
 ---
 
 # IMFTranscodeProfile::GetContainerAttributes

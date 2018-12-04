@@ -4,10 +4,10 @@ title: ListBox_GetCurSel macro
 author: windows-sdk-content
 description: Gets the index of the currently selected item in a single-selection list box. You can use this macro or send the LB_GETCURSEL message explicitly.
 old-location: controls\ListBox_GetCurSel.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getcursel.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ListBox_GetCurSel, ListBox_GetCurSel macro [Windows Controls], _win32_ListBox_GetCurSel, _win32_ListBox_GetCurSel_cpp, controls.ListBox_GetCurSel, controls._win32_ListBox_GetCurSel, windowsx/ListBox_GetCurSel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- windowsx.h
-: 
-- ListBox_GetCurSel
-: 
 ---
 
 # ListBox_GetCurSel macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the index of the currently selected item in a single-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775197(v=VS.85).aspx">LB_GETCURSEL</a> message explicitly.
+Gets the index of the currently selected item in a single-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/39ab7f77-6c8e-45a4-aad4-47eba0a11a11">LB_GETCURSEL</a> message explicitly.
 
 
 
@@ -79,7 +71,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775197(v=VS.85).aspx">LB_GETCURSEL</a>.
+For more information, see <a href="https://msdn.microsoft.com/39ab7f77-6c8e-45a4-aad4-47eba0a11a11">LB_GETCURSEL</a>.
 
 
 

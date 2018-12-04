@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_Advise.htm
 tech.root: shell
 ms.assetid: 458c24b0-9288-4ed7-9a4b-7534f26dd32e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],Advise method, IFileOperation.Advise, IFileOperation::Advise, _shell_IFileOperation_Advise, shell.IFileOperation_Advise, shobjidl_core/IFileOperation::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IFileOperation.Advise
-: 
 ---
 
 # IFileOperation::Advise

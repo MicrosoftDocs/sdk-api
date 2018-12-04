@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getdata.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetData, GetData method [GDI+], GetData method [GDI+],Region class, Region class [GDI+],GetData method, Region.GetData, Region::GetData, _gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_, gdiplus._gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusheaders.h
-: 
-- Region.GetData
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -82,7 +74,7 @@ Type: <b>UINT</b>
 Integer that specifies the size, in bytes, of the 
 					<i>buffer</i> array. The size of the 
 					<i>buffer</i> array can be greater than or equal to the number of bytes required to store the region data. The exact number of bytes required can be determined by calling the 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534766(v=VS.85).aspx">Region::GetDataSize</a> method. 
+					<a href="https://msdn.microsoft.com/748cbc1c-cf0c-461f-ac14-52cf882a33b4">Region::GetDataSize</a> method. 
 
 
 ### -param sizeFilled [out]
@@ -98,14 +90,14 @@ Optional. Pointer to an
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the 
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Ok</a>, which is an element of the 
 						<b>Status</b> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -115,7 +107,7 @@ If the method fails, it returns one of the other elements of the
 
 
 The 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534766(v=VS.85).aspx">Region::GetDataSize</a> method can be used before the <b>Region::GetData</b> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data and set the 
+				<a href="https://msdn.microsoft.com/748cbc1c-cf0c-461f-ac14-52cf882a33b4">Region::GetDataSize</a> method can be used before the <b>Region::GetData</b> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data and set the 
 				<i>buffer</i> parameter to point to the buffer.
 
 

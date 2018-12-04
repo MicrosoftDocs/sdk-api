@@ -4,10 +4,10 @@ title: "_VDS_LUN_PROP"
 author: windows-sdk-content
 description: Defines the properties of a LUN object.
 old-location: base\vds_lun_prop.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PVDS_LUN_PROP, PVDS_LUN_PROP, PVDS_LUN_PROP structure pointer [VDS], VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_FAILED_REDUNDANCY_FAILING, VDS_H_FAILING, VDS_H_FAILING_REDUNDANCY, VDS_H_HEALTHY, VDS_H_REBUILDING, VDS_H_UNKNOWN, VDS_LUN_PROP, VDS_LUN_PROP structure [VDS], _VDS_LUN_PROP, base.vds_lun_prop, vds/PVDS_LUN_PROP, vds/_VDS_LUN_PROP, vdshwprv/PVDS_LUN_PROP, vdshwprv/_VDS_LUN_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

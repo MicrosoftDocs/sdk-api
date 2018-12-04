@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_ads_0000_0000_0004"
 author: windows-sdk-content
 description: The ADS_PROV_SPECIFIC structure contains provider-specific data represented as a binary large object (BLOB).
 old-location: adsi\ads_prov_specific.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 45927280-7fb5-49a6-8ecd-f0a6931bed6a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: "*PADS_PROV_SPECIFIC, ADS_PROV_SPECIFIC, ADS_PROV_SPECIFIC structure [ADSI], PADS_PROV_SPECIFIC, PADS_PROV_SPECIFIC structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0004, _ds_ads_prov_specific, adsi.ads__prov__specific, adsi.ads_prov_specific, iads/ADS_PROV_SPECIFIC, iads/PADS_PROV_SPECIFIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

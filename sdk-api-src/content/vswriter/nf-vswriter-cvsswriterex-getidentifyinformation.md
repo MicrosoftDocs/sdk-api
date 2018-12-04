@@ -4,10 +4,10 @@ title: CVssWriterEx::GetIdentifyInformation
 author: windows-sdk-content
 description: Obtains the metadata that the writer's OnIdentify or OnIdentifyEx method previously reported.
 old-location: base\cvsswriterex_getidentifyinformation.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 995f353b-d0dc-425a-861d-46b7ee6062da
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CVssWriterEx interface,GetIdentifyInformation method, CVssWriterEx.GetIdentifyInformation, CVssWriterEx::GetIdentifyInformation, GetIdentifyInformation, GetIdentifyInformation method, GetIdentifyInformation method,CVssWriterEx interface, base.cvsswriterex_getidentifyinformation, vswriter/CVssWriterEx::GetIdentifyInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- CVssWriterEx.GetIdentifyInformation
-: 
 ---
 
 # CVssWriterEx::GetIdentifyInformation

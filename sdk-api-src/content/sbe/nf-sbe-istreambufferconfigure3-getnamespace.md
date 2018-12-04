@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbe.h
-: 
-- IStreamBufferConfigure3.GetNamespace
-: 
 ---
 
 # IStreamBufferConfigure3::GetNamespace

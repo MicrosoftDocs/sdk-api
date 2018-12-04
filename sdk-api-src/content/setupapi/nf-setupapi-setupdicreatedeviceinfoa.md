@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiCreateDeviceInfoA
-: 
 ---
 
 # SetupDiCreateDeviceInfoA function
@@ -67,12 +61,12 @@ The <b>SetupDiCreateDeviceInfo</b> function creates a new device information ele
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for the local computer.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for the local computer.
 
 
 ### -param DeviceName [in]
 
-A pointer to a NULL-terminated string that supplies either a full <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> (for example, "Root\*PNP0500\0000") or a root-enumerated <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a> without the enumerator prefix and instance identifier suffix (for example, "*PNP0500"). The root-enumerated device identifier can be used only if the DICD_GENERATE_ID flag is specified in the <i>CreationFlags</i> parameter.
+A pointer to a NULL-terminated string that supplies either a full <a href="devinst.device_instance_ids">device instance ID</a> (for example, "Root\*PNP0500\0000") or a root-enumerated <a href="devinst.device_ids">device ID</a> without the enumerator prefix and instance identifier suffix (for example, "*PNP0500"). The root-enumerated device identifier can be used only if the DICD_GENERATE_ID flag is specified in the <i>CreationFlags</i> parameter.
 
 
 ### -param ClassGuid [in]
@@ -100,7 +94,7 @@ A variable of type DWORD that controls how the device information element is cre
 
 #### DICD_GENERATE_ID
 
-If this flag is specified, <i>DeviceName</i> contains only a Root-enumerated <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a> and the system uses that ID to generate a full <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> for the new device information element.
+If this flag is specified, <i>DeviceName</i> contains only a Root-enumerated <a href="devinst.device_ids">device ID</a> and the system uses that ID to generate a full <a href="devinst.device_instance_ids">device instance ID</a> for the new device information element.
 
 Call <b>SetupDiGetDeviceInstanceId</b> to retrieve the device instance ID that was generated for this device information element.
 

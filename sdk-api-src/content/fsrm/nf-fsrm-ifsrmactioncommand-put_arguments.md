@@ -4,10 +4,10 @@ title: IFsrmActionCommand::put_Arguments
 author: windows-sdk-content
 description: Retrieves or sets the arguments to pass to the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_arguments.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 2ffc8753-3a63-4619-936d-f2f4d2362508
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Arguments property [File Server Resource Manager], Arguments property [File Server Resource Manager],IFsrmActionCommand interface, IFsrmActionCommand interface [File Server Resource Manager],Arguments property, IFsrmActionCommand.Arguments, IFsrmActionCommand.put_Arguments, IFsrmActionCommand::Arguments, IFsrmActionCommand::get_Arguments, IFsrmActionCommand::put_Arguments, fs.ifsrmactioncommand_arguments, fsrm.ifsrmactioncommand_arguments, fsrm/IFsrmActionCommand::Arguments, fsrm/IFsrmActionCommand::get_Arguments, fsrm/IFsrmActionCommand::put_Arguments, put_Arguments
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrm.h
-: 
-- IFsrmActionCommand.put_Arguments
-: 
 ---
 
 # IFsrmActionCommand::put_Arguments

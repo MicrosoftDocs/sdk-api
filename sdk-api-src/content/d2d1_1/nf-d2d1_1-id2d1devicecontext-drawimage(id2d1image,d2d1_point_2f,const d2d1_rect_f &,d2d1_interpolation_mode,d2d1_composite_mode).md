@@ -4,10 +4,10 @@ title: ID2D1DeviceContext::DrawImage(ID2D1Image,D2D1_POINT_2F,const D2D1_RECT_F 
 author: windows-sdk-content
 description: Draws an image to the device context.
 old-location: direct2d\id2d1devicecontext_drawimage7.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 52EB16C9-7C90-45E7-8ED3-D2489765ADA6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DrawImage, DrawImage method [Direct2D], DrawImage method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawImage method, ID2D1DeviceContext.DrawImage, ID2D1DeviceContext.DrawImage(ID2D1Image,D2D1_POINT_2F,const D2D1_RECT_F &,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), ID2D1DeviceContext::DrawImage, ID2D1DeviceContext::DrawImage(ID2D1Image,D2D1_POINT_2F,const D2D1_RECT_F &,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), d2d1_1/ID2D1DeviceContext::DrawImage, direct2d.id2d1devicecontext_drawimage7
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_1.h
-: 
-- ID2D1DeviceContext.DrawImage
-: 
 ---
 
 # ID2D1DeviceContext::DrawImage(ID2D1Image,D2D1_POINT_2F,const D2D1_RECT_F &,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE)

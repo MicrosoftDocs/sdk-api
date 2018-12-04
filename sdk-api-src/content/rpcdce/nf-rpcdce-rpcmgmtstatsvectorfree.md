@@ -4,10 +4,10 @@ title: RpcMgmtStatsVectorFree function
 author: windows-sdk-content
 description: The RpcMgmtStatsVectorFree function frees a statistics vector.
 old-location: rpc\rpcmgmtstatsvectorfree.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 0dc98053-8599-4884-a56a-5889a4480dcb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RpcMgmtStatsVectorFree, RpcMgmtStatsVectorFree function [RPC], _rpc_rpcmgmtstatsvectorfree, rpc.rpcmgmtstatsvectorfree, rpcdce/RpcMgmtStatsVectorFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcMgmtStatsVectorFree
-: 
 ---
 
 # RpcMgmtStatsVectorFree function

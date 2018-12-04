@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextFormat_SetTrimming.htm
 tech.root: DirectWrite
 ms.assetid: 737eab93-2761-4a59-81e8-ef827be30325
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetTrimming method, IDWriteTextFormat.SetTrimming, IDWriteTextFormat::SetTrimming, SetTrimming, SetTrimming method [Direct Write], SetTrimming method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetTrimming, dwrite/IDWriteTextFormat::SetTrimming
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteTextFormat.SetTrimming
-: 
 ---
 
 # IDWriteTextFormat::SetTrimming

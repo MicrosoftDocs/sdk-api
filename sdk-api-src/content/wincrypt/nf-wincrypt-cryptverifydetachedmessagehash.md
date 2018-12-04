@@ -4,10 +4,10 @@ title: CryptVerifyDetachedMessageHash function
 author: windows-sdk-content
 description: The CryptVerifyDetachedMessageHash function verifies a detached hash.
 old-location: security\cryptverifydetachedmessagehash.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: b529b9e2-9798-4548-a44f-c330524a3e6b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptVerifyDetachedMessageHash, CryptVerifyDetachedMessageHash function [Security], _crypto2_cryptverifydetachedmessagehash, security.cryptverifydetachedmessagehash, wincrypt/CryptVerifyDetachedMessageHash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptVerifyDetachedMessageHash
-: 
 ---
 
 # CryptVerifyDetachedMessageHash function
@@ -192,7 +186,7 @@ If the buffer specified by the <i>pbComputedHash</i> parameter is not large enou
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

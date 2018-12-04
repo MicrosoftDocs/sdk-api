@@ -4,10 +4,10 @@ title: IConsole::SetHeader
 author: windows-sdk-content
 description: Sets the header interface to use for this instance of IComponent. This is used only by instances of IComponent.
 old-location: mmc\iconsole_setheader.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: B607F719-3D74-48EB-A1FD-A311B5C3F6A1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IConsole interface [MMC],SetHeader method, IConsole.SetHeader, IConsole::SetHeader, SetHeader, SetHeader method [MMC], SetHeader method [MMC],IConsole interface, mmc.iconsole_setheader, mmc/IConsole::SetHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IConsole.SetHeader
-: 
 ---
 
 # IConsole::SetHeader
@@ -102,7 +94,7 @@ The best time to release the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a>
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>
  
 
  

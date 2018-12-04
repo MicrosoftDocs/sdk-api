@@ -4,10 +4,10 @@ title: PWLX_QUERY_TS_LOGON_CREDENTIALS
 author: windows-sdk-content
 description: Called by a replacement GINA DLL to retrieve credentials information if Terminal Services is enabled. The GINA DLL can then use this information to fill in a logon box automatically and attempt to log the user in.
 old-location: security\wlxquerytslogoncredentials.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 1365b798-682e-4cdb-b8f5-9e7c65366154
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PWLX_QUERY_TS_LOGON_CREDENTIALS, PWLX_QUERY_TS_LOGON_CREDENTIALS callback, WlxQueryTsLogonCredentials, WlxQueryTsLogonCredentials callback function [Security], security.wlxquerytslogoncredentials, winwlx/WlxQueryTsLogonCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

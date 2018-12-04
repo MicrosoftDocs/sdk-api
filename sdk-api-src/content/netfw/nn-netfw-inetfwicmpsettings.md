@@ -4,10 +4,10 @@ title: INetFwIcmpSettings
 author: windows-sdk-content
 description: The INetFwIcmpSettings interface provides access to the settings controlling ICMP packets.
 old-location: ics\inetfwicmpsettings.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 4eed8f30-4265-4735-a885-83c11b5031e5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], INetFwIcmpSettings interface [ICS/ICF],described, ics.inetfwicmpsettings, netfw/INetFwIcmpSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ The <b>INetFwIcmpSettings</b> interface  provides access to the settings control
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwIcmpSettings</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwIcmpSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwIcmpSettings</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INetFwIcmpSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -420,7 +420,7 @@ effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
@@ -428,7 +428,7 @@ effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::put_AutoKeypadTones
 author: windows-sdk-content
 description: The put_AutoKeypadTones method sets the AutoKeypadTones property for this phone. When this feature is enabled, a digit tone is automatically played whenever a keypad button is pressed.
 old-location: tapi3\itautomatedphonecontrol_put_autokeypadtones.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 5a57c0ef-440a-4939-8d15-edb0c59dc1a4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoKeypadTones method, ITAutomatedPhoneControl.put_AutoKeypadTones, ITAutomatedPhoneControl::put_AutoKeypadTones, _tapi3_itautomatedphonecontrol_put_autokeypadtones, put_AutoKeypadTones, put_AutoKeypadTones method [TAPI 2.2], put_AutoKeypadTones method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autokeypadtones, tapi3if/ITAutomatedPhoneControl::put_AutoKeypadTones
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITAutomatedPhoneControl.put_AutoKeypadTones
-: 
 ---
 
 # ITAutomatedPhoneControl::put_AutoKeypadTones

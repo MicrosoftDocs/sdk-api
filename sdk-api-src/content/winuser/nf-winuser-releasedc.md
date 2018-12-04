@@ -7,7 +7,7 @@ old-location: gdi\releasedc.htm
 tech.root: gdi
 ms.assetid: c4f48f1e-4a37-4330-908e-2ac5c65e1a1d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ReleaseDC, ReleaseDC function [Windows GDI], _win32_ReleaseDC, gdi.releasedc, winuser/ReleaseDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ReleaseDC
-: 
 ---
 
 # ReleaseDC function

@@ -4,10 +4,10 @@ title: ALIGN_CLUSPROP macro
 author: windows-sdk-content
 description: Aligns structures properly within value lists.
 old-location: mscs\align_clusprop.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: af7c9d39-b76f-494d-af5d-7e0baf0ace2d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ALIGN_CLUSPROP, ALIGN_CLUSPROP macro [Failover Cluster], _wolf_align_clusprop, clusapi/ALIGN_CLUSPROP, mscs.align_clusprop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- clusapi.h
-: 
-- ALIGN_CLUSPROP
-: 
 ---
 
 # ALIGN_CLUSPROP macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Aligns structures properly within  <a href="https://msdn.microsoft.com/en-us/library/Aa373112(v=VS.85).aspx">value lists</a>.
+Aligns structures properly within  <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value lists</a>.
 
 
 ## -parameters
@@ -84,7 +76,7 @@ ClusAPI.h defines  <b>ALIGN_CLUSPROP</b> as follows:
 
 #### Examples
 
-The following example illustrates how to use  <b>ALIGN_CLUSPROP</b> to calculate the size of a value list entry. For additional examples, see  <a href="https://msdn.microsoft.com/en-us/library/Aa372958(v=VS.85).aspx">Using Lists and Tables</a>.
+The following example illustrates how to use  <b>ALIGN_CLUSPROP</b> to calculate the size of a value list entry. For additional examples, see  <a href="https://msdn.microsoft.com/f8f0297a-c050-41b9-a52f-a0265a18b87a">Using Lists and Tables</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

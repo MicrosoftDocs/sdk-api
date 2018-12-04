@@ -4,10 +4,10 @@ title: IWSManConnectionOptions::put_Password
 author: windows-sdk-content
 description: Sets the password of a local or a domain account on the remote computer.
 old-location: winrm\iwsmanconnectionoptions_password.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 864279c0-1bb5-43dc-9636-35619199beb4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IWSManConnectionOptions interface [Windows Remote Management],Password property, IWSManConnectionOptions.Password, IWSManConnectionOptions.put_Password, IWSManConnectionOptions::Password, IWSManConnectionOptions::put_Password, Password property [Windows Remote Management], Password property [Windows Remote Management],IWSManConnectionOptions interface, put_Password, winrm.iwsmanconnectionoptions_password, wsmandisp/IWSManConnectionOptions::Password, wsmandisp/IWSManConnectionOptions::put_Password
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManConnectionOptions.put_Password
-: 
 ---
 
 # IWSManConnectionOptions::put_Password

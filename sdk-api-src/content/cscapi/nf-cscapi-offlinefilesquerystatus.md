@@ -4,10 +4,10 @@ title: OfflineFilesQueryStatus function
 author: windows-sdk-content
 description: Determines whether the Offline Files feature is enabled and, if so, whether it is active.
 old-location: of\offlinefilesquerystatus.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 2b3a77cd-e874-42fb-8bfa-6d6b26866153
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: OfflineFilesQueryStatus, OfflineFilesQueryStatus function [Offline Files], cscapi/OfflineFilesQueryStatus, of.offlinefilesquerystatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OfflineFilesQueryStatus
-: 
 ---
 
 # OfflineFilesQueryStatus function
@@ -97,7 +91,7 @@ If the values returned in the <i>pbActive</i> and <i>pbEnabled</i> parameters ar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh920946(v=VS.85).aspx">OfflineFilesQueryStatusEx</a>
+<a href="https://msdn.microsoft.com/1916F3F7-3B99-40CA-B503-EA1D10991BF4">OfflineFilesQueryStatusEx</a>
  
 
  

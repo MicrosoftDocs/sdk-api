@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_loadui.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\loadui.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/20/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],LoadUI method, IUIFramework.LoadUI, IUIFramework::LoadUI, LoadUI, LoadUI method [Windows Ribbon], LoadUI method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_LoadUI, uiribbon/IUIFramework::LoadUI, windowsribbon.windowsribbon_iuiframework_loadui
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiribbon.h
-: 
-- IUIFramework.LoadUI
-: 
 req.product: Windows UI
 ---
 
@@ -102,11 +94,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<b>IUIFramework::LoadUI</b> should be called upon initialization. This method can be called multiple times during the lifecycle of an application, for example, to show or hide a Ribbon, provided that <a href="https://msdn.microsoft.com/en-us/library/Dd371368(v=VS.85).aspx">IUIFramework::Destroy</a> is called in between. 
+<b>IUIFramework::LoadUI</b> should be called upon initialization. This method can be called multiple times during the lifecycle of an application, for example, to show or hide a Ribbon, provided that <a href="https://msdn.microsoft.com/0f1b8caa-32be-4b1e-b298-094a6cd3fb46">IUIFramework::Destroy</a> is called in between. 
 			
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371531(v=VS.85).aspx">OnCreateUICommand</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371537(v=VS.85).aspx">OnViewChanged</a> 
+<a href="https://msdn.microsoft.com/13e03acd-1a1e-48f9-b413-5a24d8b784d0">OnCreateUICommand</a> and <a href="https://msdn.microsoft.com/9672131d-bc7a-4e7b-935e-cd38dff2bb5c">OnViewChanged</a> 
 				are called during the execution of <b>IUIFramework::LoadUI</b>.
 			
 
@@ -117,9 +109,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The following example demonstrates a basic framework initialization function.
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 //  FUNCTION:    InitializeFramework(HWND)
 //
 //  PURPOSE:    Initialize the Ribbon framework and bind a Ribbon to the application.
@@ -143,7 +139,7 @@ bool InitializeFramework(HWND hWnd)
         CLSID_UIRibbonFramework, 
         NULL, 
         CLSCTX_INPROC_SERVER, 
-        IID_PPV_ARGS(&g_pFramework));
+        IID_PPV_ARGS(&amp;g_pFramework));
     if (!SUCCEEDED(hr))
     {
         return false;
@@ -152,15 +148,15 @@ bool InitializeFramework(HWND hWnd)
     // Create the application object (IUIApplication) and call the 
     // framework Initialize method, passing the application object and the 
     // host HWND that the Ribbon will attach itself to.
-    CComObject<CApplication> *pApplication = NULL;
-    CComObject<CApplication>::CreateInstance(&pApplication);
-    hr = pApplication->QueryInterface(&g_pApplication);
+    CComObject&lt;CApplication&gt; *pApplication = NULL;
+    CComObject&lt;CApplication&gt;::CreateInstance(&amp;pApplication);
+    hr = pApplication-&gt;QueryInterface(&amp;g_pApplication);
     if (!SUCCEEDED(hr))
     {
         return false;
     } 
 
-    hr = g_pFramework->Initialize(hWnd, g_pApplication);
+    hr = g_pFramework-&gt;Initialize(hWnd, g_pApplication);
     if (!SUCCEEDED(hr))
     {
         return false;
@@ -170,17 +166,17 @@ bool InitializeFramework(HWND hWnd)
     // Initiate callbacks to the IUIApplication object that was 
     // provided to the framework earlier and bind command handler(s) 
     // to individual commands.
-    hr = g_pFramework->LoadUI(GetModuleHandle(NULL), L"APPLICATION_RIBBON");
+    hr = g_pFramework-&gt;LoadUI(GetModuleHandle(NULL), L"APPLICATION_RIBBON");
     if (!SUCCEEDED(hr))
     {
         return false;
     }
     return true;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 
@@ -190,23 +186,23 @@ bool InitializeFramework(HWND hWnd)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd316930(v=VS.85).aspx">Compiling Ribbon Markup</a>
+<a href="https://msdn.microsoft.com/ef9fea92-8c67-461d-9d74-2e259e407fb0">Compiling Ribbon Markup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
+<a href="https://msdn.microsoft.com/a9b8a30d-dd00-4088-a588-304fde97b84e">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371373(v=VS.85).aspx">IUIFramework::Initialize</a>
+<a href="https://msdn.microsoft.com/bb6525dd-7e05-40e0-bdcc-c66f31a99f46">IUIFramework::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371591(v=VS.85).aspx">Markup Elements</a>
+<a href="https://msdn.microsoft.com/70d7c357-8614-4883-97ae-6fce4fe7dcc4">Markup Elements</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

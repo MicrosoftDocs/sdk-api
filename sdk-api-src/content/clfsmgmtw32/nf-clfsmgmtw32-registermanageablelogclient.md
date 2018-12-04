@@ -7,7 +7,7 @@ old-location: fs\registermanageablelogclient.htm
 tech.root: Clfs
 ms.assetid: ca7969a1-e391-4e3f-96a8-5fb23c400d7e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: RegisterManageableLogClient, RegisterManageableLogClient function [Files], clfsmgmtw32/RegisterManageableLogClient, fs.registermanageablelogclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegisterManageableLogClient
-: 
 ---
 
 # RegisterManageableLogClient function

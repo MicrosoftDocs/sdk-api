@@ -4,10 +4,10 @@ title: ClusterEncrypt function
 author: windows-sdk-content
 description: Encrypts Checkpointing data for a Cryptographic Service Provider (CSP).
 old-location: mscs\clusterencrypt.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 5C15E553-D6C6-47F7-B6DE-E7CA4795CA87
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ClusterEncrypt, ClusterEncrypt function [Failover Cluster], PCLUSTER_ENCRYPT, PCLUSTER_ENCRYPT function [Failover Cluster], mscs.clusterencrypt, resapi/ClusterEncrypt, resapi/PCLUSTER_ENCRYPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusterEncrypt
-: 
 ---
 
 # ClusterEncrypt function

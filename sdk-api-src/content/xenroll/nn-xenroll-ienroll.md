@@ -4,10 +4,10 @@ title: IEnroll
 author: windows-sdk-content
 description: Represents the Certificate Enrollment Control and is used primarily to generate certificate requests.
 old-location: security\ienroll.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5be210b8-475a-4504-9cc0-5b02384e114e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnroll, IEnroll interface [Security], IEnroll interface [Security],described, security.ienroll, xenroll/IEnroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\ieventcontrol_setdefaultquery.htm
 tech.root: cossdk
 ms.assetid: ea0cc4b8-e345-44bc-969e-f35f25b641f9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEventControl interface [COM+],SetDefaultQuery method, IEventControl.SetDefaultQuery, IEventControl::SetDefaultQuery, SetDefaultQuery, SetDefaultQuery method [COM+], SetDefaultQuery method [COM+],IEventControl interface, _cos_IEventControl_SetDefaultQuery, cos.ieventcontrol_setdefaultquery, eventsys/IEventControl::SetDefaultQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- eventsys.h
-: 
-- IEventControl.SetDefaultQuery
-: 
 ---
 
 # IEventControl::SetDefaultQuery

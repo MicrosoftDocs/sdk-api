@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Point_poin
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushgetcenterpointmethods\getcenterpoint.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetCenterPoint, GetCenterPoint method [GDI+], GetCenterPoint method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetCenterPoint method, PathGradientBrush.GetCenterPoint, PathGradientBrush.GetCenterPoint(OUT Point), PathGradientBrush.GetCenterPoint(Point*), PathGradientBrush::GetCenterPoint, PathGradientBrush::GetCenterPoint(OUT Point), _gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Point_point_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Point_point_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdipluspath.h
-: 
-- PathGradientBrush.GetCenterPoint
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -96,7 +88,7 @@ If the method fails, it returns one of the other elements of the
 
 
 By default, the center point of a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> object is at the centroid of the brush's boundary path, but you can set the center point to any location, inside or outside the path, by calling the 
+				<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a> object is at the centroid of the brush's boundary path, but you can set the center point to any location, inside or outside the path, by calling the 
 				<a href="https://msdn.microsoft.com/41765887-b1de-4259-95af-a1ef8c84d01a">SetCenterPoint</a> method of the 
 				<b>PathGradientBrush</b> object.
 
@@ -106,12 +98,16 @@ By default, the center point of a
 
 
 The following example demonstrates several methods of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a> class including <b>PathGradientBrush::GetCenterPoint</b> and <a href="https://msdn.microsoft.com/33e9a8f0-7c07-475d-8332-cf2e08190b35">PathGradientBrush::SetCenterColor</a>. The code creates a 
+						<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a> class including <b>PathGradientBrush::GetCenterPoint</b> and <a href="https://msdn.microsoft.com/33e9a8f0-7c07-475d-8332-cf2e08190b35">PathGradientBrush::SetCenterColor</a>. The code creates a 
 						<b>PathGradientBrush</b> object and then sets the brush's center color and boundary color. The code calls the <b>PathGradientBrush::GetCenterPoint</b> method to determine the center point of the path gradient brush and then draws a line from the origin to that center point.
 
-
-```cpp
-VOID Example_GetCenterPoint(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetCenterPoint(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -120,7 +116,7 @@ VOID Example_GetCenterPoint(HDC hdc)
    path.AddEllipse(0, 0, 200, 100);
 
    // Use the path to construct a brush.
-   PathGradientBrush pthGrBrush(&path);
+   PathGradientBrush pthGrBrush(&amp;path);
 
    // Set the color at the center of the path to blue.
    pthGrBrush.SetCenterColor(Color(255, 0, 0, 255));
@@ -128,22 +124,22 @@ VOID Example_GetCenterPoint(HDC hdc)
    // Set the color along the entire boundary of the path to aqua.
    Color colors[] = {Color(255, 0, 255, 255)};
    INT count = 1;
-   pthGrBrush.SetSurroundColors(colors, &count);
+   pthGrBrush.SetSurroundColors(colors, &amp;count);
 
    // Fill the ellipse with the path gradient brush.
-   graphics.FillEllipse(&pthGrBrush, 0, 0, 200, 100);
+   graphics.FillEllipse(&amp;pthGrBrush, 0, 0, 200, 100);
 
    // Obtain information about the path gradient brush.
    Point  centerPoint;
-   pthGrBrush.GetCenterPoint(&centerPoint);
+   pthGrBrush.GetCenterPoint(&amp;centerPoint);
 
    // Draw a line from the origin to the center of the ellipse.
    Pen pen(Color(255, 0, 255, 0));
-   graphics.DrawLine(&pen, Point(0, 0), centerPoint);
-}
-```
-
-
+   graphics.DrawLine(&amp;pen, Point(0, 0), centerPoint);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -168,7 +164,7 @@ VOID Example_GetCenterPoint(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>
 
 
 

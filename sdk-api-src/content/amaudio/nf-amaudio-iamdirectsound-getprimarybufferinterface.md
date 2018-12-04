@@ -7,7 +7,7 @@ old-location: dshow\iamdirectsound_getprimarybufferinterface.htm
 tech.root: DirectShow
 ms.assetid: 5cac3834-5f0a-4977-802e-b3b824a01dbc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetPrimaryBufferInterface, GetPrimaryBufferInterface method [DirectShow], GetPrimaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetPrimaryBufferInterface method, IAMDirectSound.GetPrimaryBufferInterface, IAMDirectSound::GetPrimaryBufferInterface, IAMDirectSoundGetPrimaryBufferInterface, amaudio/IAMDirectSound::GetPrimaryBufferInterface, dshow.iamdirectsound_getprimarybufferinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- amaudio.h
-: 
-- IAMDirectSound.GetPrimaryBufferInterface
-: 
 ---
 
 # IAMDirectSound::GetPrimaryBufferInterface

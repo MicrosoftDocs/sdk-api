@@ -7,7 +7,7 @@ old-location: ad\dsbindtoistg.htm
 tech.root: ad
 ms.assetid: bd53124c-8578-495d-b540-d4b4c09297c3
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: DsBindToISTG, DsBindToISTG function [Active Directory], DsBindToISTGA, DsBindToISTGW, ad.dsbindtoistg, ntdsapi/DsBindToISTG, ntdsapi/DsBindToISTGA, ntdsapi/DsBindToISTGW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DsBindToISTGA
-: 
 ---
 
 # DsBindToISTGA function

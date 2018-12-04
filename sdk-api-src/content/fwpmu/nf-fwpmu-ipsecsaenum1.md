@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecSaEnum1
-: 
 ---
 
 # IPsecSaEnum1 function

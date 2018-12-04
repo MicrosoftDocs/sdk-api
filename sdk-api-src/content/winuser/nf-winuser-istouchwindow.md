@@ -7,7 +7,7 @@ old-location: wintouch\istouchwindow.htm
 tech.root: wintouch
 ms.assetid: 080b9d18-5975-4d38-ae3b-151f74120bb3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IsTouchWindow, IsTouchWindow function [Windows Touch], wintouch.istouchwindow, winuser/IsTouchWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IsTouchWindow
-: 
 ---
 
 # IsTouchWindow function

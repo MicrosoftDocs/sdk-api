@@ -4,10 +4,10 @@ title: INetFwRules::Remove
 author: windows-sdk-content
 description: The Remove method removes a rule from the collection.
 old-location: ics\inetfwrules_remove.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 70bd45c7-b5ab-43b3-afd4-2abb2a80ff0f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetFwRules interface [ICS/ICF],Remove method, INetFwRules.Remove, INetFwRules::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwRules interface, ics.inetfwrules_remove, netfw/INetFwRules::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwRules.Remove
-: 
 ---
 
 # INetFwRules::Remove

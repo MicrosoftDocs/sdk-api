@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmlss.h
-: 
-- IWindowsMediaLibrarySharingDeviceProperty.get_Name
-: 
 ---
 
 # IWindowsMediaLibrarySharingDeviceProperty::get_Name

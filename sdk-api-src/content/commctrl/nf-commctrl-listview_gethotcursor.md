@@ -4,10 +4,10 @@ title: ListView_GetHotCursor macro
 author: windows-sdk-content
 description: Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the LVM_GETHOTCURSOR message explicitly.
 old-location: controls\ListView_GetHotCursor.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotcursor.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ListView_GetHotCursor, ListView_GetHotCursor macro [Windows Controls], _win32_ListView_GetHotCursor, _win32_ListView_GetHotCursor_cpp, commctrl/ListView_GetHotCursor, controls.ListView_GetHotCursor, controls._win32_ListView_GetHotCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- ListView_GetHotCursor
-: 
 ---
 
 # ListView_GetHotCursor macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774938(v=VS.85).aspx">LVM_GETHOTCURSOR</a> message explicitly. 
+Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the <a href="https://msdn.microsoft.com/064d04b2-d74e-4a80-aec6-97a3c53fc4fb">LVM_GETHOTCURSOR</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +60,7 @@ Gets the HCURSOR used when the pointer is over an item while hot tracking is ena
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 
@@ -77,7 +69,7 @@ A handle to a list-view control.
 
 
 
-A list-view control uses hot tracking and hover selection when the <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">LVS_EX_TRACKSELECT</a> style is set. 
+A list-view control uses hot tracking and hover selection when the <a href="Extended_list_view_styles.htm">LVS_EX_TRACKSELECT</a> style is set. 
 
 
 

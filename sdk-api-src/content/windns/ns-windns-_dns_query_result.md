@@ -4,10 +4,10 @@ title: "_DNS_QUERY_RESULT"
 author: windows-sdk-content
 description: A DNS_QUERY_RESULT structure contains the DNS query results returned from a call to DnsQueryEx.
 old-location: dns\dns_query_result.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 03EB1DC2-FAB0-45C5-B438-E8FFDD218F09
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PDNS_QUERY_RESULT, DNS_QUERY_REQUEST_VERSION1, DNS_QUERY_RESULT, DNS_QUERY_RESULT structure [DNS], PDNS_QUERY_RESULT, PDNS_QUERY_RESULT structure pointer [DNS], _DNS_QUERY_RESULT, dns.dns_query_result, windns/DNS_QUERY_RESULT, windns/PDNS_QUERY_RESULT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

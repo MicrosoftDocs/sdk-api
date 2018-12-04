@@ -4,10 +4,10 @@ title: GetLocalManagedApplications function
 author: windows-sdk-content
 description: The GetLocalManagedApplications function can be run on the target computer to get a list of managed applications on that computer.
 old-location: policy\getlocalmanagedapplications.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: 4606ff09-7e23-4953-aeef-cac822995d35
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetLocalManagedApplications, GetLocalManagedApplications function [Group Policy], appmgmt/GetLocalManagedApplications, policy.getlocalmanagedapplications
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetLocalManagedApplications
-: 
 ---
 
 # GetLocalManagedApplications function
@@ -57,7 +51,7 @@ req.redist:
 
 
 The
-    <b>GetLocalManagedApplications</b> function can be run on the target computer to get  a list of managed applications on that computer. The function can also be called in the context of a user to get a list of managed applications for that user. This function only returns applications that can be installed by the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a>.
+    <b>GetLocalManagedApplications</b> function can be run on the target computer to get  a list of managed applications on that computer. The function can also be called in the context of a user to get a list of managed applications for that user. This function only returns applications that can be installed by the <a href="setup.windows_installer_start_page">Windows Installer</a>.
 
 
 ## -parameters

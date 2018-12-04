@@ -7,7 +7,7 @@ old-location: tsf\itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed.htm
 tech.root: TSF
 ms.assetid: 66dc5db3-c4d9-422e-bbc0-300409a9576a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EnableSystemKeystrokeFeed, EnableSystemKeystrokeFeed method [Text Services Framework], EnableSystemKeystrokeFeed method [Text Services Framework],ITfConfigureSystemKeystrokeFeed interface, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],EnableSystemKeystrokeFeed method, ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, _tsf_itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed
-: 
 ---
 
 # ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed

@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteRenderingParams_GetEnhancedContrast.htm
 tech.root: DirectWrite
 ms.assetid: dabce803-4989-4532-bf96-2f7eb09b29fe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetEnhancedContrast, GetEnhancedContrast method [Direct Write], GetEnhancedContrast method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetEnhancedContrast method, IDWriteRenderingParams.GetEnhancedContrast, IDWriteRenderingParams::GetEnhancedContrast, directwrite.IDWriteRenderingParams_GetEnhancedContrast, dwrite/IDWriteRenderingParams::GetEnhancedContrast
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteRenderingParams.GetEnhancedContrast
-: 
 ---
 
 # IDWriteRenderingParams::GetEnhancedContrast

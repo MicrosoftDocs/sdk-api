@@ -7,7 +7,7 @@ old-location: termserv\iwtssbplugin_wtssbx_getuserexternalsession.htm
 tech.root: termserv
 ms.assetid: 989cd7bc-932f-4a33-91c8-e66fac7195ad
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_GetUserExternalSession method, IWTSSBPlugin.WTSSBX_GetUserExternalSession, IWTSSBPlugin::WTSSBX_GetUserExternalSession, WTSSBX_GetUserExternalSession, WTSSBX_GetUserExternalSession method [Remote Desktop Services], WTSSBX_GetUserExternalSession method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_getuserexternalsession, tssbx/IWTSSBPlugin::WTSSBX_GetUserExternalSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tssbx.h
-: 
-- IWTSSBPlugin.WTSSBX_GetUserExternalSession
-: 
 ---
 
 # IWTSSBPlugin::WTSSBX_GetUserExternalSession
@@ -90,19 +82,14 @@ A pointer to a Unicode string  that contains the program that Remote Desktop Ser
 A pointer to the internal IP address of the RD Session Host server that first accepted the connection.
 
 
-### -param pSessionId
+### -param pSessionId [out]
 
-TBD
+A pointer to the session ID of the session to which the plug-in is redirecting the incoming connection.
 
 
 ### -param pMachineConnectInfo [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/805e606b-6f30-4f49-af04-b7f298c4fadf">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the computer to which the plug-in  is directing the incoming connection.
-
-
-#### - pSessionID [out]
-
-A pointer to the session ID of the session to which the plug-in is redirecting the incoming connection.
 
 
 ## -returns

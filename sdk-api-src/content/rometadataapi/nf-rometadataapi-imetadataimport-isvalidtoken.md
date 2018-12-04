@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_isvalidtoken.htm
 tech.root: WinRT
 ms.assetid: 9829a600-38fb-48ac-a486-abb56d17afdf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],IsValidToken method, IMetaDataImport.IsValidToken, IMetaDataImport::IsValidToken, IsValidToken, IsValidToken method [Windows Runtime], IsValidToken method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::IsValidToken, winrt.imetadataimport_isvalidtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rometadataapi.h
-: 
-- IMetaDataImport.IsValidToken
-: 
 ---
 
 # IMetaDataImport::IsValidToken

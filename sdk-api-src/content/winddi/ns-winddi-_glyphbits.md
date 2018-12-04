@@ -7,7 +7,7 @@ old-location: display\glyphbits.htm
 tech.root: display
 ms.assetid: d7e0b5dd-dd94-4fc2-8c90-0d656a84c46b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GLYPHBITS, GLYPHBITS structure [Display Devices], _GLYPHBITS, display.glyphbits, grstrcts_597a08d2-215a-4bef-8f5b-a90ded3165fc.xml, winddi/GLYPHBITS
 ms.prod: windows-hardware
 ms.technology: windows-devices

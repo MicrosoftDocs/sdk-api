@@ -4,10 +4,10 @@ title: MprAdminInterfaceSetInfo function
 author: windows-sdk-content
 description: The MprAdminInterfaceSetInfo function sets information for a specified interface on a specified server.
 old-location: rras\mpradmininterfacesetinfo.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 2cf31e4b-7c58-43b8-b30a-e98402a656a3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MprAdminInterfaceSetInfo, MprAdminInterfaceSetInfo function [RAS], _mpr_mpradmininterfacesetinfo, mprapi/MprAdminInterfaceSetInfo, rras.mpradmininterfacesetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprAdminInterfaceSetInfo
-: 
 ---
 
 # MprAdminInterfaceSetInfo function

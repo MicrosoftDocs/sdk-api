@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus.htm
 tech.root: tablet
 ms.assetid: bfd13012-decf-423a-bc1a-39fb9b0eb64e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRealTimeStylus, IRealTimeStylus interface [Tablet PC], IRealTimeStylus interface [Tablet PC],described, bfd13012-decf-423a-bc1a-39fb9b0eb64e, rtscom/IRealTimeStylus, tablet.irealtimestylus
 ms.prod: windows-hardware
 ms.technology: windows-devices

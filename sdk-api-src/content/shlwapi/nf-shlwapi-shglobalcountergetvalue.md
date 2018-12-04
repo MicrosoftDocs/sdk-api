@@ -7,7 +7,7 @@ old-location: shell\SHGlobalCounterGetValue.htm
 tech.root: shell
 ms.assetid: cf158770-c9af-4488-9ed0-486e9a528a65
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SHGlobalCounterGetValue, SHGlobalCounterGetValue function [Windows Shell], _shell_SHGlobalCounterGetValue, shell.SHGlobalCounterGetValue, shlwapi/SHGlobalCounterGetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHGlobalCounterGetValue
-: 
 ---
 
 # SHGlobalCounterGetValue function

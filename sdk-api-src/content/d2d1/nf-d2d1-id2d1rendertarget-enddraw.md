@@ -4,10 +4,10 @@ title: ID2D1RenderTarget::EndDraw
 author: windows-sdk-content
 description: Ends drawing operations on the render target and indicates the current error state and associated tags.
 old-location: direct2d\ID2D1RenderTarget_EndDraw.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: a8f24501-4e85-4981-bb38-2bd6333a7b49
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: EndDraw, EndDraw method [Direct2D], EndDraw method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],EndDraw method, ID2D1RenderTarget.EndDraw, ID2D1RenderTarget::EndDraw, d2d1/ID2D1RenderTarget::EndDraw, direct2d.ID2D1RenderTarget_EndDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1RenderTarget.EndDraw
-: 
 ---
 
 # ID2D1RenderTarget::EndDraw
@@ -116,9 +108,13 @@ Calling <b>BeginDraw</b> twice on a render target puts the target into an error 
 
 The following example uses an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a> to draw text to a window.
 
-
-```cpp
-//  Called whenever the application needs to display the client
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  Called whenever the application needs to display the client
 //  window. This method writes "Hello, World"
 //
 //  Note that this function will automatically discard device-specific
@@ -137,15 +133,15 @@ HRESULT DemoApp::OnRender()
         static const WCHAR sc_helloWorld[] = L"Hello, World!";
 
         // Retrieve the size of the render target.
-        D2D1_SIZE_F renderTargetSize = m_pRenderTarget->GetSize();
+        D2D1_SIZE_F renderTargetSize = m_pRenderTarget-&gt;GetSize();
 
-        m_pRenderTarget->BeginDraw();
+        m_pRenderTarget-&gt;BeginDraw();
 
-        m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
+        m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Identity());
 
-        m_pRenderTarget->Clear(D2D1::ColorF(D2D1::ColorF::White));
+        m_pRenderTarget-&gt;Clear(D2D1::ColorF(D2D1::ColorF::White));
 
-        m_pRenderTarget->DrawText(
+        m_pRenderTarget-&gt;DrawText(
             sc_helloWorld,
             ARRAYSIZE(sc_helloWorld) - 1,
             m_pTextFormat,
@@ -153,7 +149,7 @@ HRESULT DemoApp::OnRender()
             m_pBlackBrush
             );
 
-        hr = m_pRenderTarget->EndDraw();
+        hr = m_pRenderTarget-&gt;EndDraw();
 
         if (hr == D2DERR_RECREATE_TARGET)
         {
@@ -164,10 +160,10 @@ HRESULT DemoApp::OnRender()
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

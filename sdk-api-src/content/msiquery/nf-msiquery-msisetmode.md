@@ -4,10 +4,10 @@ title: MsiSetMode function
 author: windows-sdk-content
 description: The MsiSetMode function sets an internal engine Boolean state.
 old-location: setup\msisetmode.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: bf0eef83-8ef4-4107-b598-ccc50b179858
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MsiSetMode, MsiSetMode function, _msi_msisetmode, msiquery/MsiSetMode, setup.msisetmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiSetMode
-: 
 ---
 
 # MsiSetMode function
@@ -125,7 +119,7 @@ This function returns UINT.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
  
 
  

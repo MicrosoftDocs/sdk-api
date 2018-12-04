@@ -7,7 +7,7 @@ old-location: com\icallinterceptor_getregisteredsink.htm
 tech.root: com
 ms.assetid: 65f33bc3-9fcb-4ad5-908d-3ac06b9f8c6c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: GetRegisteredSink, GetRegisteredSink method [COM], GetRegisteredSink method [COM],ICallInterceptor interface, ICallInterceptor interface [COM],GetRegisteredSink method, ICallInterceptor.GetRegisteredSink, ICallInterceptor::GetRegisteredSink, _com_icallinterceptor_getregisteredsink, callobj/ICallInterceptor::GetRegisteredSink, com.icallinterceptor_getregisteredsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- callobj.h
-: 
-- ICallInterceptor.GetRegisteredSink
-: 
 ---
 
 # ICallInterceptor::GetRegisteredSink
@@ -68,7 +60,7 @@ Retrieves the registered event sink.
 
 ### -param ppsink [out]
 
-A pointer to a pointer to the event sink. See <a href="https://msdn.microsoft.com/en-us/library/ms680109(v=VS.85).aspx">ICallFrameEvents</a>.
+A pointer to a pointer to the event sink. See <a href="https://msdn.microsoft.com/2f1e1b8d-6150-45e9-89e2-524d80df558d">ICallFrameEvents</a>.
 
 
 ## -returns
@@ -126,7 +118,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693378(v=VS.85).aspx">ICallInterceptor</a>
+<a href="https://msdn.microsoft.com/d0a72c87-598b-4ebe-bc93-65e0927a4c3d">ICallInterceptor</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setscissorrect.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setscissorrect.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetScissorRect method, IDirect3DDevice9.SetScissorRect, IDirect3DDevice9::SetScissorRect, SetScissorRect, SetScissorRect method [Direct3D 9], SetScissorRect method [Direct3D 9],IDirect3DDevice9 interface, c088567d-a486-1e7d-7863-886a85f0ecbb, d3d9helper/IDirect3DDevice9::SetScissorRect, direct3d9.idirect3ddevice9__setscissorrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d9.h
-: 
-- IDirect3DDevice9.SetScissorRect
-: 
 ---
 
 # IDirect3DDevice9::SetScissorRect
@@ -78,7 +70,7 @@ Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be
      D3DERR_INVALIDCALL.
@@ -92,7 +84,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 The scissor rectangle is used as a rectangular clipping region.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Bb147318(v=VS.85).aspx">Rectangles (Direct3D 9)</a> for further information on the use of rectangles in DirectX.
+See <a href="https://msdn.microsoft.com/9e271652-1673-42ea-b1f4-31ac63c397c5">Rectangles (Direct3D 9)</a> for further information on the use of rectangles in DirectX.
 
 
 
@@ -102,7 +94,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Bb147318(v=VS.85).aspx">Re
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
  
 
  

@@ -4,10 +4,10 @@ title: RpcBindingFree function
 author: windows-sdk-content
 description: The RpcBindingFree function releases binding-handle resources.
 old-location: rpc\rpcbindingfree.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 0f85e64f-b4a6-4982-8df5-88caa0a312f6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RpcBindingFree, RpcBindingFree function [RPC], _rpc_rpcbindingfree, rpc.rpcbindingfree, rpcdce/RpcBindingFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcBindingFree
-: 
 ---
 
 # RpcBindingFree function

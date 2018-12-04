@@ -4,10 +4,10 @@ title: GetTransactionInformation function
 author: windows-sdk-content
 description: Returns the requested information about the specified transaction.
 old-location: fs\gettransactioninformation_func.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: 5ce3c96a-629e-49d0-8ec4-f9bf76af99ac
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetTransactionInformation, GetTransactionInformation function [Files], fs.gettransactioninformation_func, ktmw32/GetTransactionInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetTransactionInformation
-: 
 ---
 
 # GetTransactionInformation function

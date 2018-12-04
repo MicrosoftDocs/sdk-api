@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdatif.h
-: 
-- IEnumGuideDataProperties.Next
-: 
 ---
 
 # IEnumGuideDataProperties::Next
@@ -76,7 +68,7 @@ Specifies the number of items to retrieve.
 
 ### -param ppprop [out]
 
-Address of an array of size <i>celt</i>, allocated by the caller. The array is filled with <a href="https://msdn.microsoft.com/en-us/library/Dd694107(v=VS.85).aspx">IGuideDataProperty</a> interface pointers.
+Address of an array of size <i>celt</i>, allocated by the caller. The array is filled with <a href="https://msdn.microsoft.com/1c614f2a-69e0-4100-b83e-740478654c17">IGuideDataProperty</a> interface pointers.
 
 
 ### -param pcelt [out]
@@ -139,11 +131,11 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693993(v=VS.85).aspx">IEnumGuideDataProperties Interface</a>
+<a href="https://msdn.microsoft.com/ae4db426-7e90-4cb6-b53a-2cb7074308fc">IEnumGuideDataProperties Interface</a>
  
 
  

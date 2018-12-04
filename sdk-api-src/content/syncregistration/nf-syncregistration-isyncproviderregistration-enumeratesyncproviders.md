@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderregistration_enumeratesyncproviders.htm
 tech.root: winsync
 ms.assetid: 36a2b498-237e-418a-b5b8-5f9bcdfbe734
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EnumerateSyncProviders, EnumerateSyncProviders method [Windows Sync], EnumerateSyncProviders method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],EnumerateSyncProviders method, ISyncProviderRegistration.EnumerateSyncProviders, ISyncProviderRegistration::EnumerateSyncProviders, syncregistration/ISyncProviderRegistration::EnumerateSyncProviders, winsync.isyncproviderregistration_enumeratesyncproviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- syncregistration.h
-: 
-- ISyncProviderRegistration.EnumerateSyncProviders
-: 
 ---
 
 # ISyncProviderRegistration::EnumerateSyncProviders

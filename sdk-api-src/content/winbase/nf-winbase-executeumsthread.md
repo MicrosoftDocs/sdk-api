@@ -4,10 +4,10 @@ title: ExecuteUmsThread function
 author: windows-sdk-content
 description: Runs the specified UMS worker thread.
 old-location: base\executeumsthread.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: e4265351-e8e9-4878-bd42-93258b4cd1a0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ExecuteUmsThread, ExecuteUmsThread function, base.executeumsthread, winbase/ExecuteUmsThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ExecuteUmsThread
-: 
 ---
 
 # ExecuteUmsThread function

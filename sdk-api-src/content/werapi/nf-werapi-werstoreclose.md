@@ -7,7 +7,7 @@ old-location: wer\werstoreclose.htm
 tech.root: wer
 ms.assetid: C34FBA67-5267-471C-B1AA-87BFC5725831
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WerStoreClose, WerStoreClose function [Windows Error Reporting], wer.werstoreclose, werapi/WerStoreClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WerStoreClose
-: 
 ---
 
 # WerStoreClose function

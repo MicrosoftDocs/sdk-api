@@ -7,7 +7,7 @@ old-location: shell\IHWEventHandler2.htm
 tech.root: shell
 ms.assetid: 2885bce8-3139-4158-b178-d36bb13aff0f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IHWEventHandler2, IHWEventHandler2 interface [Windows Shell], IHWEventHandler2 interface [Windows Shell],described, _shell_IHWEventHandler2, shell.IHWEventHandler2, shobjidl/IHWEventHandler2
 ms.prod: windows-hardware
 ms.technology: windows-devices

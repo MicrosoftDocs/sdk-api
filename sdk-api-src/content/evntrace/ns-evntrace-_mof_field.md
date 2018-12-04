@@ -4,10 +4,10 @@ title: "_MOF_FIELD"
 author: windows-sdk-content
 description: You may use the MOF_FIELD structures to append event data to the EVENT_TRACE_HEADER or EVENT_INSTANCE_HEADER structures.
 old-location: etw\mof_field.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 64ff1191-2177-4d51-afcd-b58d510e9ae8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PMOF_FIELD, MOF_FIELD, MOF_FIELD structure [ETW], PMOF_FIELD, PMOF_FIELD structure pointer [ETW], _MOF_FIELD, _evt_mof_field, base.mof_field, etw.mof_field, evntrace/MOF_FIELD, evntrace/PMOF_FIELD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

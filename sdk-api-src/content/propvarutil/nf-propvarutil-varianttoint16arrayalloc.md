@@ -7,7 +7,7 @@ old-location: properties\VariantToInt16ArrayAlloc.htm
 tech.root: properties
 ms.assetid: 616c9d03-f641-49e3-af95-80ebaea3e8aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VariantToInt16ArrayAlloc, VariantToInt16ArrayAlloc function [Windows Properties], _shell_VariantToInt16ArrayAlloc, properties.VariantToInt16ArrayAlloc, propvarutil/VariantToInt16ArrayAlloc, shell.VariantToInt16ArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToInt16ArrayAlloc
-: 
 ---
 
 # VariantToInt16ArrayAlloc function

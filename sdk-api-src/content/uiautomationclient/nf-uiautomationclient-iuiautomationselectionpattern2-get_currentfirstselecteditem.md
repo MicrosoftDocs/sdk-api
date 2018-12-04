@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CurrentFirstSelected
 tech.root: WinAuto
 ms.assetid: 6372915A-B9BC-4081-9B24-EF8332743EFD
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CurrentFirstSelectedItem property [Windows Accessibility], CurrentFirstSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CurrentFirstSelectedItem property, IUIAutomationSelectionPattern2.CurrentFirstSelectedItem, IUIAutomationSelectionPattern2.get_CurrentFirstSelectedItem, IUIAutomationSelectionPattern2::CurrentFirstSelectedItem, IUIAutomationSelectionPattern2::get_CurrentFirstSelectedItem, get_CurrentFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CurrentFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentFirstSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CurrentFirstSelectedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationSelectionPattern2.get_CurrentFirstSelectedItem
-: 
 ---
 
 # IUIAutomationSelectionPattern2::get_CurrentFirstSelectedItem

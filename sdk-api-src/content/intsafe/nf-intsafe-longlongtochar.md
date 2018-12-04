@@ -7,7 +7,7 @@ old-location: shell\LongLongToChar.htm
 tech.root: shell
 ms.assetid: c76efb04-4211-467c-8eff-d0648c426784
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: LongLongToChar, LongLongToChar function [Windows Shell], intsafe/LongLongToChar, shell.LongLongToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LongLongToChar
-: 
 ---
 
 # LongLongToChar function

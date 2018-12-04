@@ -4,10 +4,10 @@ title: CLUSTER_RESOURCE_ENUM
 author: windows-sdk-content
 description: Describes the type of cluster object being enumerated by the ClusterResourceEnum or ClusterResourceOpenEnum functions.
 old-location: mscs\cluster_resource_enum.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 8b59ab43-7e03-4ddf-82cc-9945e9da6462
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CLUSTER_RESOURCE_ENUM, CLUSTER_RESOURCE_ENUM enumeration [Failover Cluster], CLUSTER_RESOURCE_ENUM_ALL, CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, _CLUSTER_RESOURCE_ENUM, _CLUSTER_RESOURCE_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_ENUM, clusapi/CLUSTER_RESOURCE_ENUM_ALL, clusapi/CLUSTER_RESOURCE_ENUM_DEPENDS, clusapi/CLUSTER_RESOURCE_ENUM_NODES, clusapi/CLUSTER_RESOURCE_ENUM_PROVIDES, clusapi/_CLUSTER_RESOURCE_ENUM, msclus/CLUSTER_RESOURCE_ENUM, msclus/CLUSTER_RESOURCE_ENUM_ALL, msclus/CLUSTER_RESOURCE_ENUM_DEPENDS, msclus/CLUSTER_RESOURCE_ENUM_NODES, msclus/CLUSTER_RESOURCE_ENUM_PROVIDES, msclus/_CLUSTER_RESOURCE_ENUM, mscs.cluster_resource_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,7 +104,7 @@ All nodes and resources identified by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

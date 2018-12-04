@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo.htm
 tech.root: wic
 ms.assetid: a16ada3c-34ae-47ce-9660-90e50d78802a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],QueryRawCapabilitiesInfo method, IWICDevelopRaw.QueryRawCapabilitiesInfo, IWICDevelopRaw::QueryRawCapabilitiesInfo, QueryRawCapabilitiesInfo, QueryRawCapabilitiesInfo method [Windows Imaging Component], QueryRawCapabilitiesInfo method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo, wic._wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo, wincodec/IWICDevelopRaw::QueryRawCapabilitiesInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodec.h
-: 
-- IWICDevelopRaw.QueryRawCapabilitiesInfo
-: 
 ---
 
 # IWICDevelopRaw::QueryRawCapabilitiesInfo

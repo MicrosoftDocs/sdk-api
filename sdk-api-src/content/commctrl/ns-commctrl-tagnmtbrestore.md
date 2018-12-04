@@ -4,10 +4,10 @@ title: tagNMTBRESTORE
 author: windows-sdk-content
 description: Allows applications to extract the information that was placed in NMTBSAVE when the toolbar state was saved. This structure is passed to applications when they receive a TBN_RESTORE notification code.
 old-location: controls\NMTBRESTORE.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbrestore.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPNMTBRESTORE, LPNMTBRESTORE, LPNMTBRESTORE structure pointer [Windows Controls], NMTBRESTORE, NMTBRESTORE structure [Windows Controls], _win32_NMTBRESTORE, _win32_NMTBRESTORE_cpp, commctrl/LPNMTBRESTORE, commctrl/NMTBRESTORE, controls.NMTBRESTORE, controls._win32_NMTBRESTORE, tagNMTBRESTORE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Allows applications to extract the information that was placed in <a href="https://msdn.microsoft.com/en-us/library/Bb760471(v=VS.85).aspx">NMTBSAVE</a> when the toolbar state was saved. This structure is passed to applications when they receive a <a href="https://msdn.microsoft.com/en-us/library/Bb787283(v=VS.85).aspx">TBN_RESTORE</a> notification code.
+Allows applications to extract the information that was placed in <a href="https://msdn.microsoft.com/6cfad7d3-6730-4f03-8804-b44ea4d9bbd7">NMTBSAVE</a> when the toolbar state was saved. This structure is passed to applications when they receive a <a href="https://msdn.microsoft.com/b1f0c801-d56b-4e93-b9ba-b572aaa38647">TBN_RESTORE</a> notification code.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ Allows applications to extract the information that was placed in <a href="https
 
 ### -field pData
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
 
 Pointer to the data stream with the stored save information. It contains Shell-defined blocks of information for each button, alternating with application-defined blocks. Applications may also place a block of global data at the start of 
 					<b>pData</b>. The format and length of the application-defined blocks are determined by the application. 
@@ -73,7 +73,7 @@ Pointer to the data stream with the stored save information. It contains Shell-d
 
 ### -field pCurrent
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
 
 Pointer to the current block of application-defined data. After extracting the data, the application must advance 
 					<b>pCurrent</b> to the end of the block, so it is pointing to the next block of Shell-defined data. 
@@ -81,7 +81,7 @@ Pointer to the current block of application-defined data. After extracting the d
 
 ### -field cbData
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Size of 
 					<b>pData</b>. 
@@ -113,16 +113,16 @@ Number of bytes needed to hold the data for each button. When the restore starts
 
 ### -field tbButton
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c7dea982-d8b3-44e1-a4d2-3cca560c2096">TBBUTTON</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structure that contains information about the button currently being restored. Applications must modify this structure as necessary before returning. 
+<a href="https://msdn.microsoft.com/c7dea982-d8b3-44e1-a4d2-3cca560c2096">TBBUTTON</a> structure that contains information about the button currently being restored. Applications must modify this structure as necessary before returning. 
 
 
 #### - nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 

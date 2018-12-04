@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_setinplacesite.htm
 tech.root: com
 ms.assetid: 88de47c2-979b-4595-8a2f-d4ed1a3a7b6c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IOleDocumentView interface [COM],SetInPlaceSite method, IOleDocumentView.SetInPlaceSite, IOleDocumentView::SetInPlaceSite, SetInPlaceSite, SetInPlaceSite method [COM], SetInPlaceSite method [COM],IOleDocumentView interface, _ole_ioledocumentview_setinplacesite, com.ioledocumentview_setinplacesite, docobj/IOleDocumentView::SetInPlaceSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- docobj.h
-: 
-- IOleDocumentView.SetInPlaceSite
-: 
 ---
 
 # IOleDocumentView::SetInPlaceSite

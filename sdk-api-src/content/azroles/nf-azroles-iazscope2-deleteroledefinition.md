@@ -4,10 +4,10 @@ title: IAzScope2::DeleteRoleDefinition
 author: windows-sdk-content
 description: Removes the specified IAzRoleDefinition object from this scope.
 old-location: security\iazscope2_deleteroledefinition.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 12eddceb-15e2-4c9a-8372-749b0eccdd79
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzScope2 interface, IAzScope2 interface [Security],DeleteRoleDefinition method, IAzScope2.DeleteRoleDefinition, IAzScope2::DeleteRoleDefinition, azroles/IAzScope2::DeleteRoleDefinition, security.iazscope2_deleteroledefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzScope2.DeleteRoleDefinition
-: 
 ---
 
 # IAzScope2::DeleteRoleDefinition
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>DeleteRoleDefinition</b> method removes the specified <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).aspx">IAzRoleDefinition</a> object from this scope.
+The <b>DeleteRoleDefinition</b> method removes the specified <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object from this scope.
 
 
 ## -parameters
@@ -68,7 +60,7 @@ The <b>DeleteRoleDefinition</b> method removes the specified <a href="https://ms
 
 ### -param bstrRoleDefinitionName [in]
 
-A string that contains the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).aspx">IAzRoleDefinition</a> object to remove.
+A string that contains the name of the <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object to remove.
 
 
 ## -returns
@@ -77,7 +69,7 @@ A string that contains the name of the <a href="https://msdn.microsoft.com/en-us
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -86,7 +78,7 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 
-If any references to an <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).aspx">IAzRoleDefinition</a> object have been deleted from the cache, that object can no longer be used. In C++, you must release references to deleted <b>IAzRoleDefinition</b> objects by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+If any references to an <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object have been deleted from the cache, that object can no longer be used. In C++, you must release references to deleted <b>IAzRoleDefinition</b> objects by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
 
 
 

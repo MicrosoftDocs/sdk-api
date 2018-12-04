@@ -7,7 +7,7 @@ old-location: search\_search_ITokenCollection.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\itokencollection.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITokenCollection, ITokenCollection interface [search], ITokenCollection interface [search],described, _search_ITokenCollection, search._search_ITokenCollection, structuredquery/ITokenCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The <b>ITokenCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231299(v=VS.85).aspx">GetToken</a>
+<a href="https://msdn.microsoft.com/29f34228-4e9c-4d43-9888-37f04505d312">GetToken</a>
 </td>
 <td align="left" width="63%">
 Retrieves the position, length, and any overriding string of an individual token.
@@ -80,7 +80,7 @@ Retrieves the position, length, and any overriding string of an individual token
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231301(v=VS.85).aspx">NumberOfTokens</a>
+<a href="https://msdn.microsoft.com/f58d43e2-5488-4d2a-907b-62799a2f0615">NumberOfTokens</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of tokens in the collection.

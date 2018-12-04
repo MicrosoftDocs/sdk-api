@@ -7,7 +7,7 @@ old-location: gdi\createroundrectrgn.htm
 tech.root: gdi
 ms.assetid: 16f387e1-b00c-4755-8b21-1ee0f25bc46b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateRoundRectRgn, CreateRoundRectRgn function [Windows GDI], _win32_CreateRoundRectRgn, gdi.createroundrectrgn, wingdi/CreateRoundRectRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateRoundRectRgn
-: 
 ---
 
 # CreateRoundRectRgn function

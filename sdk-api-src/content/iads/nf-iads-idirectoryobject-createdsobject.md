@@ -4,10 +4,10 @@ title: IDirectoryObject::CreateDSObject
 author: windows-sdk-content
 description: Creates a child of the current directory service object.
 old-location: adsi\idirectoryobject_createdsobject.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 77648d1c-b05b-4c36-a2e3-25bb5713d615
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: CreateDSObject, CreateDSObject method [ADSI], CreateDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],CreateDSObject method, IDirectoryObject.CreateDSObject, IDirectoryObject::CreateDSObject, _ds_idirectoryobject_createdsobject, adsi.idirectoryobject__createdsobject, adsi.idirectoryobject_createdsobject, iads/IDirectoryObject::CreateDSObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IDirectoryObject.CreateDSObject
-: 
 ---
 
 # IDirectoryObject::CreateDSObject
@@ -83,7 +75,7 @@ Provides a number of attributes set when the object is created.
 
 ### -param ppObject [out]
 
-Provides a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the created object.
+Provides a pointer to the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the created object.
 
 
 ## -returns

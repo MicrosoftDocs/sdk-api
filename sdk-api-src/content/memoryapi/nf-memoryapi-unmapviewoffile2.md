@@ -4,10 +4,10 @@ title: UnmapViewOfFile2 function
 author: windows-sdk-content
 description: Unmaps a previously mapped view of a file or a pagefile-backed section.
 old-location: base\unmapviewoffile2.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 300BA329-1E56-4C0F-81FC-FED42FCE9EB7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MEM_PRESERVE_PLACEHOLDER, MEM_UNMAP_WITH_TRANSIENT_BOOST, UnmapViewOfFile2, UnmapViewOfFile2 function, base.unmapviewoffile2, winbase/UnmapViewOfFile2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UnmapViewOfFile2
-: 
 ---
 
 # UnmapViewOfFile2 function

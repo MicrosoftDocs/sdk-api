@@ -4,10 +4,10 @@ title: CryptGetOIDFunctionValue function
 author: windows-sdk-content
 description: The CryptGetOIDFunctionValue function queries a value associated with an OID.
 old-location: security\cryptgetoidfunctionvalue.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 14eb7f10-f42a-4496-9699-62eeb9878ea2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptGetOIDFunctionValue, CryptGetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptgetoidfunctionvalue, security.cryptgetoidfunctionvalue, wincrypt/CryptGetOIDFunctionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptGetOIDFunctionValue
-: 
 ---
 
 # CryptGetOIDFunctionValue function
@@ -194,7 +188,7 @@ If the buffer specified by the <i>pbValueData</i> parameter is not large enough 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

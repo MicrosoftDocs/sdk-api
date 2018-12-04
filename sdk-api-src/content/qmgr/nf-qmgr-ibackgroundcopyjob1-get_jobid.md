@@ -4,10 +4,10 @@ title: IBackgroundCopyJob1::get_JobID
 author: windows-sdk-content
 description: Use the get_JobID method to retrieve the job's identifier.
 old-location: bits\ibackgroundcopyjob1_get_jobid.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 4f639576-33fd-413c-a163-764c0aa2ce81
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IBackgroundCopyJob1 interface [BITS],get_JobID method, IBackgroundCopyJob1.get_JobID, IBackgroundCopyJob1::get_JobID, bits.ibackgroundcopyjob1_get_jobid, get_JobID, get_JobID method [BITS], get_JobID method [BITS],IBackgroundCopyJob1 interface, qmgr/IBackgroundCopyJob1::get_JobID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qmgr.h
-: 
-- IBackgroundCopyJob1.get_JobID
-: 
 ---
 
 # IBackgroundCopyJob1::get_JobID
@@ -68,14 +60,7 @@ Use the <b>get_JobID</b> method to retrieve the job's identifier.
 
 
 
-### -param pguidJobID
-
-TBD
-
-
-
-
-#### - pguidJobId [out]
+### -param pguidJobID [out]
 
 GUID that uniquely identifies the job.
 

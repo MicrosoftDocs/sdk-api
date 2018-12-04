@@ -4,10 +4,10 @@ title: UnlockUrlCacheEntryStream function
 author: windows-sdk-content
 description: Closes the stream that has been retrieved using the RetrieveUrlCacheEntryStream function.
 old-location: wininet\unlockurlcacheentrystream.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 9fcc257e-732c-4545-a81b-7db20a98e497
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: UnlockUrlCacheEntryStream, UnlockUrlCacheEntryStream function [WinINet], _inet_unlockurlcacheentrystream_function, wininet.unlockurlcacheentrystream, wininet/UnlockUrlCacheEntryStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UnlockUrlCacheEntryStream
-: 
 ---
 
 # UnlockUrlCacheEntryStream function

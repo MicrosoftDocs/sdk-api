@@ -4,10 +4,10 @@ title: IWindowsDriverUpdateEntry::get_DriverClass
 author: windows-sdk-content
 description: Retrieves the class of the Windows driver update.
 old-location: wua\iwindowsdriverupdateentry_driverclass.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: cce717f6-613f-4177-9ab4-09786649c099
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DriverClass property [Windows Update Agent], DriverClass property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverClass property, IWindowsDriverUpdateEntry.DriverClass, IWindowsDriverUpdateEntry.get_DriverClass, IWindowsDriverUpdateEntry::DriverClass, IWindowsDriverUpdateEntry::get_DriverClass, get_DriverClass, wua.iwindowsdriverupdateentry_driverclass, wuapi/IWindowsDriverUpdateEntry::DriverClass, wuapi/IWindowsDriverUpdateEntry::get_DriverClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IWindowsDriverUpdateEntry.get_DriverClass
-: 
 ---
 
 # IWindowsDriverUpdateEntry::get_DriverClass

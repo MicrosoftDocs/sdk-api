@@ -7,7 +7,7 @@ old-location: shell\SHEvaluateSystemCommandTemplate.htm
 tech.root: shell
 ms.assetid: 554b941d-7d03-47ae-a23a-2c47c5ca1044
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SHEvaluateSystemCommandTemplate, SHEvaluateSystemCommandTemplate function [Windows Shell], _shell_SHEvaluateSystemCommandTemplate, shell.SHEvaluateSystemCommandTemplate, shellapi/SHEvaluateSystemCommandTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHEvaluateSystemCommandTemplate
-: 
 ---
 
 # SHEvaluateSystemCommandTemplate function

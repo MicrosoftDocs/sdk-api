@@ -4,10 +4,10 @@ title: IVdsStoragePool
 author: windows-sdk-content
 description: Provides methods to query information and enumerate related objects for a storage pool.
 old-location: base\ivdsstoragepool.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 1518ab95-1f0a-4f28-b2ae-e75bb4d19790
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVdsStoragePool, IVdsStoragePool interface, IVdsStoragePool interface,described, base.ivdsstoragepool, vds/IVdsStoragePool, vdshwprv/IVdsStoragePool
 ms.prod: windows-hardware
 ms.technology: windows-devices

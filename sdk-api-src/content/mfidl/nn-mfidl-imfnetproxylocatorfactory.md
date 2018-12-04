@@ -7,7 +7,7 @@ old-location: mf\imfnetproxylocatorfactory.htm
 tech.root: medfound
 ms.assetid: 6dd5bf50-2d07-47c7-869e-035d7e92a6bc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 6dd5bf50-2d07-47c7-869e-035d7e92a6bc, IMFNetProxyLocatorFactory, IMFNetProxyLocatorFactory interface [Media Foundation], IMFNetProxyLocatorFactory interface [Media Foundation],described, mf.imfnetproxylocatorfactory, mfidl/IMFNetProxyLocatorFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2_abort.htm
 tech.root: ixhr2
 ms.assetid: B051D464-2328-44A2-A2BC-D0CDDCA79C64
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Abort, Abort method [XMLHttpRequest2], Abort method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],Abort method, IXMLHTTPRequest2.Abort, IXMLHTTPRequest2::Abort, ixhr2.ixmlhttprequest2_abort, msxml6/IXMLHTTPRequest2::Abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msxml6.h
-: 
-- IXMLHTTPRequest2.Abort
-: 
 ---
 
 # IXMLHTTPRequest2::Abort

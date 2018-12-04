@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmSubLayerSubscribeChanges0
-: 
 ---
 
 # FwpmSubLayerSubscribeChanges0 function

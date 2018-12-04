@@ -7,7 +7,7 @@ old-location: com\failed_macro.htm
 tech.root: com
 ms.assetid: d9c4ff73-c255-4a82-b901-23bd5b41ee6c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: FAILED, FAILED macro [COM], _com_FAILED, com.failed, com.failed_macro, winerror/FAILED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winerror.h
-: 
-- FAILED
-: 
 ---
 
 # FAILED macro

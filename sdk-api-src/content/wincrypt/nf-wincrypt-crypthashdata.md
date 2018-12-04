@@ -4,10 +4,10 @@ title: CryptHashData function
 author: windows-sdk-content
 description: Adds data to a specified hash object.
 old-location: security\crypthashdata.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: ec1482a2-c2cb-4c5f-af9c-d493134413d6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CRYPT_OWF_REPL_LM_HASH, CRYPT_USERDATA, CryptHashData, CryptHashData function [Security], _crypto2_crypthashdata, security.crypthashdata, wincrypt/CryptHashData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptHashData
-: 
 ---
 
 # CryptHashData function
@@ -280,7 +274,7 @@ The CSP ran out of memory during the operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

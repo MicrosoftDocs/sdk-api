@@ -7,7 +7,7 @@ old-location: tsf\itffnsearchcandidateprovider_getsearchcandidates.htm
 tech.root: TSF
 ms.assetid: 7D7E8171-229F-4D9C-B086-D68E064A8A4C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetSearchCandidates, GetSearchCandidates method [Text Services Framework], GetSearchCandidates method [Text Services Framework],ITfFnSearchCandidateProvider interface, ITfFnSearchCandidateProvider interface [Text Services Framework],GetSearchCandidates method, ITfFnSearchCandidateProvider.GetSearchCandidates, ITfFnSearchCandidateProvider::GetSearchCandidates, ctffunc/ITfFnSearchCandidateProvider::GetSearchCandidates, tsf.itffnsearchcandidateprovider_getsearchcandidates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ctffunc.h
-: 
-- ITfFnSearchCandidateProvider.GetSearchCandidates
-: 
 ---
 
 # ITfFnSearchCandidateProvider::GetSearchCandidates
@@ -78,7 +70,7 @@ App-specified string that enables a text service to optionally provide different
 
 ### -param pplist [out]
 
-An <a href="https://msdn.microsoft.com/en-us/library/ms538492(v=VS.85).aspx">ITfCandidateList</a> that receives the requested candidate data.
+An <a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">ITfCandidateList</a> that receives the requested candidate data.
 
 
 ## -returns
@@ -125,7 +117,7 @@ No candidates could be returned for the input string, <i>pplist</i> may be <b>NU
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh920951(v=VS.85).aspx">ITfFnSearchCandidateProvider</a>
+<a href="https://msdn.microsoft.com/5DD99E0A-42A2-4EA5-B24F-5C439F5D7EEF">ITfFnSearchCandidateProvider</a>
 
 
 
@@ -133,7 +125,7 @@ No candidates could be returned for the input string, <i>pplist</i> may be <b>NU
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538496(v=VS.85).aspx">SetResult</a>
+<a href="https://msdn.microsoft.com/dcc172f9-4fc3-46f4-a1db-0e75fceafb28">SetResult</a>
  
 
  

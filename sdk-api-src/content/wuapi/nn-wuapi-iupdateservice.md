@@ -4,10 +4,10 @@ title: IUpdateService
 author: windows-sdk-content
 description: Contains information about a service that is registered with Windows Update Agent (WUA) or with Automatic Updates.
 old-location: wua\iupdateservice.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 2f237cd3-668b-4b1b-b98b-4cfc40f5889e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUpdateService, IUpdateService interface [Windows Update Agent], IUpdateService interface [Windows Update Agent],described, wua.iupdateservice, wuapi/IUpdateService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ Contains information about a service that is registered with Windows Update Agen
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

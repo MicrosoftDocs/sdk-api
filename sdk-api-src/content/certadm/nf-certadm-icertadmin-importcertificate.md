@@ -4,10 +4,10 @@ title: ICertAdmin::ImportCertificate
 author: windows-sdk-content
 description: Takes a previously issued certificate and imports it to the certification authority's (CA) database. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_importcertificate.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: b79a726e-5823-468b-869d-382e6fd73b44
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CCertAdmin object [Security],ImportCertificate method, CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, ICertAdmin interface [Security],ImportCertificate method, ICertAdmin.ImportCertificate, ICertAdmin2 interface [Security],ImportCertificate method, ICertAdmin2::ImportCertificate, ICertAdmin::ImportCertificate, ImportCertificate, ImportCertificate method [Security], ImportCertificate method [Security],CCertAdmin object, ImportCertificate method [Security],ICertAdmin interface, ImportCertificate method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ImportCertificate, certadm/ICertAdmin::ImportCertificate, security.icertadmin2_importcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certadm.h
-: 
-- ICertAdmin.ImportCertificate
-: 
 ---
 
 # ICertAdmin::ImportCertificate
@@ -60,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>ImportCertificate</b> method takes a previously issued certificate and imports it to the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority's</a> (CA) database. This method was first defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a> interface.
+The <b>ImportCertificate</b> method takes a previously issued certificate and imports it to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority's</a> (CA) database. This method was first defined in the <a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a> interface.
 
  For the requirements that the certificate must meet to be successfully imported, see  Remarks.
 
@@ -73,9 +65,9 @@ The <b>ImportCertificate</b> method takes a previously issued certificate and im
 ### -param strConfig [in]
 
 Represents a valid configuration string for the certification authority in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>ImportCertificate</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>ImportCertificate</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param strCertificate [in]
@@ -138,7 +130,7 @@ A pointer to a <b>LONG</b> value that receives the database-assigned request ID 
 <h3>C++</h3>
  If the method succeeds, and the <i>pRequestID</i> parameter is set to the value of the database-assigned request ID for the imported certificate, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the database-assigned request ID for the imported certificate.
@@ -246,19 +238,19 @@ SysFreeString(bstrCA);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">CCertAdmin</a>
+<a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">CCertAdmin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a>
+<a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a>
+<a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
  
 
  

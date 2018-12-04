@@ -4,10 +4,10 @@ title: IX509CertificateTemplateWritable::get_Property
 author: windows-sdk-content
 description: Specifies or retrieves a property value for the IX509CertificateTemplateWritable object.
 old-location: security\ix509certificatetemplatewritable_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: df665957-c276-4e46-8838-76010146e4d7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Property property, IX509CertificateTemplateWritable.Property, IX509CertificateTemplateWritable.get_Property, IX509CertificateTemplateWritable::Property, IX509CertificateTemplateWritable::get_Property, IX509CertificateTemplateWritable::put_Property, Property property [Security], Property property [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Property, certenroll/IX509CertificateTemplateWritable::get_Property, certenroll/IX509CertificateTemplateWritable::put_Property, get_Property, security.ix509certificatetemplatewritable_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509CertificateTemplateWritable.get_Property
-: 
 ---
 
 # IX509CertificateTemplateWritable::get_Property
@@ -60,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>Property</b> property specifies or retrieves a property value for the <a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a> object.
+The <b>Property</b> property specifies or retrieves a property value for the <a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a> object.
 
 This property is read/write.
 
@@ -82,7 +74,7 @@ Currently, TemplatePropSecurityDescriptor is the only property that you can set.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a>
+<a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a>
  
 
  

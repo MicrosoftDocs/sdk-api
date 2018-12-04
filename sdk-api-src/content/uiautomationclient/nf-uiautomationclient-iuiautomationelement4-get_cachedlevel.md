@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement4_CachedLevel.htm
 tech.root: WinAuto
 ms.assetid: FDFF6A11-4B96-4C6F-A488-FEC2E4C4C310
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CachedLevel property [Windows Accessibility], CachedLevel property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedLevel property, IUIAutomationElement4.CachedLevel, IUIAutomationElement4.get_CachedLevel, IUIAutomationElement4::CachedLevel, IUIAutomationElement4::get_CachedLevel, get_CachedLevel, uiautomationclient/IUIAutomationElement4::CachedLevel, uiautomationclient/IUIAutomationElement4::get_CachedLevel, winauto.uiauto_IUIAutomationElement4_CachedLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationElement4.get_CachedLevel
-: 
 ---
 
 # IUIAutomationElement4::get_CachedLevel

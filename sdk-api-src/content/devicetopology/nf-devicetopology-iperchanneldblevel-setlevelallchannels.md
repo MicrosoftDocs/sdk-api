@@ -7,7 +7,7 @@ old-location: coreaudio\iperchanneldblevel_setlevelallchannels.htm
 tech.root: CoreAudio
 ms.assetid: 92c06b38-954d-4bab-b4ea-0f30e64aa9e4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevelAllChannels method, IPerChannelDbLevel.SetLevelAllChannels, IPerChannelDbLevel::SetLevelAllChannels, IPerChannelDbLevelSetLevelAllChannels, SetLevelAllChannels, SetLevelAllChannels method [Core Audio], SetLevelAllChannels method [Core Audio],IPerChannelDbLevel interface, coreaudio.iperchanneldblevel_setlevelallchannels, devicetopology/IPerChannelDbLevel::SetLevelAllChannels
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- devicetopology.h
-: 
-- IPerChannelDbLevel.SetLevelAllChannels
-: 
 ---
 
 # IPerChannelDbLevel::SetLevelAllChannels

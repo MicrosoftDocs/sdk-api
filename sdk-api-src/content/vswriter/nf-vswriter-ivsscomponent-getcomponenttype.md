@@ -4,10 +4,10 @@ title: IVssComponent::GetComponentType
 author: windows-sdk-content
 description: The GetComponentType method returns the type of this component in terms of the VSS_COMPONENT_TYPE enumeration.
 old-location: base\ivsscomponent_getcomponenttype.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 89675df6-dcfd-4167-aa6f-5c88e619ef1c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetComponentType, GetComponentType method [VSS], GetComponentType method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetComponentType method, IVssComponent.GetComponentType, IVssComponent::GetComponentType, _win32_ivsscomponent_getcomponenttype, base.ivsscomponent_getcomponenttype, vswriter/IVssComponent::GetComponentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- IVssComponent.GetComponentType
-: 
 ---
 
 # IVssComponent::GetComponentType

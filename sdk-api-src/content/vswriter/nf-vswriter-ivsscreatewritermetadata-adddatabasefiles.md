@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata::AddDatabaseFiles
 author: windows-sdk-content
 description: The AddDatabaseFiles method indicates the file set (the specified file or files) that make up the database component to be backed up.
 old-location: base\ivsscreatewritermetadata_adddatabasefiles.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 37ef5e50-127d-4bd0-9d26-04dc7781b3ff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddDatabaseFiles, AddDatabaseFiles method [VSS], AddDatabaseFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseFiles method, IVssCreateWriterMetadata.AddDatabaseFiles, IVssCreateWriterMetadata::AddDatabaseFiles, _win32_ivsscreatewritermetadata_adddatabasefiles, base.ivsscreatewritermetadata_adddatabasefiles, vswriter/IVssCreateWriterMetadata::AddDatabaseFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- IVssCreateWriterMetadata.AddDatabaseFiles
-: 
 ---
 
 # IVssCreateWriterMetadata::AddDatabaseFiles

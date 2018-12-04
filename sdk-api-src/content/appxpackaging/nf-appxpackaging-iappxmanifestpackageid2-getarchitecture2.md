@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid2_getarchitecture2.htm
 tech.root: appxpkg
 ms.assetid: FBC34FBA-C6BB-45AD-8005-5C2B91A1369D
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: GetArchitecture2, GetArchitecture2 method [App packaging and management], GetArchitecture2 method [App packaging and management],IAppxManifestPackageId2 interface, IAppxManifestPackageId2 interface [App packaging and management],GetArchitecture2 method, IAppxManifestPackageId2.GetArchitecture2, IAppxManifestPackageId2::GetArchitecture2, appxpackaging/IAppxManifestPackageId2::GetArchitecture2, appxpkg.iappxmanifestpackageid2_getarchitecture2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- appxpackaging.h
-: 
-- IAppxManifestPackageId2.GetArchitecture2
-: 
 ---
 
 # IAppxManifestPackageId2::GetArchitecture2

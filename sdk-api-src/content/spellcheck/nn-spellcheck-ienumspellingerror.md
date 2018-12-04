@@ -7,7 +7,7 @@ old-location: intl\ienumspellingerror.htm
 tech.root: Intl
 ms.assetid: bd284569-cafe-4993-a832-0683212c8b92
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IEnumSpellingError, IEnumSpellingError interface [Internationalization for Windows Applications], IEnumSpellingError interface [Internationalization for Windows Applications],described, intl.ienumspellingerror, spellcheck/IEnumSpellingError
 ms.prod: windows-hardware
 ms.technology: windows-devices

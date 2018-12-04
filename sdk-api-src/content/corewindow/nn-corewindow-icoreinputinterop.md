@@ -7,7 +7,7 @@ old-location: winrt\icoreinputinterop.htm
 tech.root: WinRT
 ms.assetid: F7BA7EFB-D9DC-4FF2-97A4-C4818BCBD599
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICoreInputInterop, ICoreInputInterop interface [Windows Runtime], ICoreInputInterop interface [Windows Runtime],described, corewindow/ICoreInputInterop, winrt.icoreinputinterop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,10 +55,10 @@ Enables an input source on a Windows Store app's <a href="w_ui_core.coreinput">C
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoreInputInterop</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICoreInputInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoreInputInterop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICoreInputInterop</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ICoreInputInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn302116(v=VS.85).aspx">SetInputSource</a>
+<a href="https://msdn.microsoft.com/693180F5-2C19-47CD-9514-F0CEA1849A4A">SetInputSource</a>
 </td>
 <td align="left" width="63%">
 Sets the input source for an app's <a href="https://msdn.microsoft.com/917cbf9f-bd19-4e05-bcd1-cf6a86f16e65">CoreIndependentInputSource</a> or <a href="https://msdn.microsoft.com/3075a07b-c432-482e-a44b-494014ff13fc">CoreComponentInputSource</a>.
@@ -89,7 +89,7 @@ Sets the input source for an app's <a href="https://msdn.microsoft.com/917cbf9f-
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn302115(v=VS.85).aspx">MessageHandled</a>
+<a href="https://msdn.microsoft.com/94575082-014D-42E3-8191-F79912CBDB2A">MessageHandled</a>
 
 
 </td>

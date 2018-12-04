@@ -7,7 +7,7 @@ old-location: shell\InitNetworkAddressControl.htm
 tech.root: shell
 ms.assetid: 52b475e3-7335-4c34-80d7-ccd81af0e0ec
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: InitNetworkAddressControl, InitNetworkAddressControl function [Windows Shell], _shell_InitNetworkAddressControl, shell.InitNetworkAddressControl, shellapi/InitNetworkAddressControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InitNetworkAddressControl
-: 
 ---
 
 # InitNetworkAddressControl function

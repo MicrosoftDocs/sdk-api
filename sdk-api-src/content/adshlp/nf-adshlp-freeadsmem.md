@@ -4,10 +4,10 @@ title: FreeADsMem function
 author: windows-sdk-content
 description: Frees the memory allocated by AllocADsMem or ReallocADsMem.
 old-location: adsi\freeadsmem.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: e43f050a-5b96-406e-87ed-88a39ea747da
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: FreeADsMem, FreeADsMem function [ADSI], _ds_freeadsmem, adshlp/FreeADsMem, adsi.freeadsmem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FreeADsMem
-: 
 ---
 
 # FreeADsMem function

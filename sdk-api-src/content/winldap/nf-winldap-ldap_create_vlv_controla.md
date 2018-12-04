@@ -4,10 +4,10 @@ title: ldap_create_vlv_controlA function
 author: windows-sdk-content
 description: The ldap_create_vlv_control function is used to create the request control (LDAP_CONTROL_VLVREQUEST) on the server.
 old-location: ldap\ldap_create_vlv_control.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: f4305aa9-e967-45a8-8b8b-49b1e60994e8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ldap_create_vlv_control, ldap.ldap__create__vlv__control, ldap.ldap_create_vlv_control, ldap_create_vlv_control, ldap_create_vlv_control function [LDAP], ldap_create_vlv_controlA, ldap_create_vlv_controlW, winldap/ldap_create_vlv_control, winldap/ldap_create_vlv_controlA, winldap/ldap_create_vlv_controlW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_create_vlv_controlA
-: 
 ---
 
 # ldap_create_vlv_controlA function

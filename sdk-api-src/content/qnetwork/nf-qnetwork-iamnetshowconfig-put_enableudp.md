@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_put_enableudp.htm
 tech.root: DirectShow
 ms.assetid: 2573573e-97e0-4ed4-b702-8c54ef47c5f4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableUDP method, IAMNetShowConfig.put_EnableUDP, IAMNetShowConfig::put_EnableUDP, IAMNetShowConfigput_EnableUDP, dshow.iamnetshowconfig_put_enableudp, put_EnableUDP, put_EnableUDP method [DirectShow], put_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableUDP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qnetwork.h
-: 
-- IAMNetShowConfig.put_EnableUDP
-: 
 ---
 
 # IAMNetShowConfig::put_EnableUDP

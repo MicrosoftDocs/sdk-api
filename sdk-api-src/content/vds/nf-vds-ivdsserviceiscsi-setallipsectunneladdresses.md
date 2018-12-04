@@ -4,10 +4,10 @@ title: IVdsServiceIscsi::SetAllIpsecTunnelAddresses
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsserviceiscsi_setallipsectunneladdresses.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 05cf0347-a9f2-4f6f-b646-d7f71a6a6e70
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetAllIpsecTunnelAddresses method, IVdsServiceIscsi.SetAllIpsecTunnelAddresses, IVdsServiceIscsi::SetAllIpsecTunnelAddresses, SetAllIpsecTunnelAddresses, SetAllIpsecTunnelAddresses method [VDS], SetAllIpsecTunnelAddresses method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setallipsectunneladdresses, vds/IVdsServiceIscsi::SetAllIpsecTunnelAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsServiceIscsi.SetAllIpsecTunnelAddresses
-: 
 ---
 
 # IVdsServiceIscsi::SetAllIpsecTunnelAddresses

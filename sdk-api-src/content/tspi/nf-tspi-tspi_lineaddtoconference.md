@@ -4,10 +4,10 @@ title: TSPI_lineAddToConference function
 author: windows-sdk-content
 description: The TSPI_lineAddToConference function adds the call specified by hdConsultCall to the conference call specified by hdConfCall.
 old-location: tspi\tspi_lineaddtoconference.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 6e3e3e1a-3a05-4464-9ead-abd647b3a721
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: TSPI_lineAddToConference, TSPI_lineAddToConference function [TAPI 2.2], _tspi_tspi_lineaddtoconference, tspi.tspi_lineaddtoconference, tspi/TSPI_lineAddToConference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TSPI_lineAddToConference
-: 
 ---
 
 # TSPI_lineAddToConference function

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_render_pass_ending_access_resolve_parameters.htm
 tech.root: direct3d12
 ms.assetid: AF081936-CF83-4FFF-BA81-83CEE6F85BFF
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS, D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS structure, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS, direct3d12.d3d12_render_pass_ending_access_resolve_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

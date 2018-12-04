@@ -7,7 +7,7 @@ old-location: dataxchg\addclipboardformatlistener.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\addclipboardformatlistener.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddClipboardFormatListener, AddClipboardFormatListener function [Data Exchange], _win32_AddClipboardFormatListener, _win32_addclipboardformatlistener_cpp, dataxchg.addclipboardformatlistener, winui._win32_addclipboardformatlistener, winuser/AddClipboardFormatListener
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AddClipboardFormatListener
-: 
 ---
 
 # AddClipboardFormatListener function
@@ -87,7 +81,7 @@ Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise. Call <a href="https:/
 
 
 
-When a window has been added to the clipboard format listener list, it is posted a <a href="https://msdn.microsoft.com/en-us/library/ms649021(v=VS.85).aspx">WM_CLIPBOARDUPDATE</a> message whenever the contents of the clipboard have changed.
+When a window has been added to the clipboard format listener list, it is posted a <a href="https://msdn.microsoft.com/1508aa22-9cf0-40a2-8cb0-ce7c8671df2c">WM_CLIPBOARDUPDATE</a> message whenever the contents of the clipboard have changed.
 
 
 
@@ -97,15 +91,15 @@ When a window has been added to the clipboard format listener list, it is posted
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649042(v=VS.85).aspx">GetClipboardSequenceNumber</a>
+<a href="https://msdn.microsoft.com/5790fb14-473a-49fc-943b-9cc5f1170181">GetClipboardSequenceNumber</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649050(v=VS.85).aspx">RemoveClipboardFormatListener</a>
+<a href="https://msdn.microsoft.com/64b18bad-ebac-4e51-9806-aa288abfc112">RemoveClipboardFormatListener</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649021(v=VS.85).aspx">WM_CLIPBOARDUPDATE</a>
+<a href="https://msdn.microsoft.com/1508aa22-9cf0-40a2-8cb0-ce7c8671df2c">WM_CLIPBOARDUPDATE</a>
  
 
  

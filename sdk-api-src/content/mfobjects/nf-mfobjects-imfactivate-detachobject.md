@@ -7,7 +7,7 @@ old-location: mf\imfactivate_detachobject.htm
 tech.root: medfound
 ms.assetid: 15216c57-f85d-4087-ad52-d35059647828
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 15216c57-f85d-4087-ad52-d35059647828, DetachObject, DetachObject method [Media Foundation], DetachObject method [Media Foundation],IMFActivate interface, IMFActivate interface [Media Foundation],DetachObject method, IMFActivate.DetachObject, IMFActivate::DetachObject, mf.imfactivate_detachobject, mfobjects/IMFActivate::DetachObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfobjects.h
-: 
-- IMFActivate.DetachObject
-: 
 ---
 
 # IMFActivate::DetachObject

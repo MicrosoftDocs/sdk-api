@@ -4,10 +4,10 @@ title: IUPnPDevice::get_ManufacturerURL
 author: windows-sdk-content
 description: The ManufacturerURL property specifies the URL for the manufacturer's Web site.
 old-location: upnp\iupnpdevice_manufacturerurl.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 7019716a-4a64-43cd-bb44-21bdb6b022c2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ManufacturerURL method, IUPnPDevice.get_ManufacturerURL, IUPnPDevice::get_ManufacturerURL, _upnp_iupnpdevice_manufacturerurl, get_ManufacturerURL, get_ManufacturerURL method [UPnP APIs], get_ManufacturerURL method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_manufacturerurl, upnp/IUPnPDevice::get_ManufacturerURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDevice.get_ManufacturerURL
-: 
 ---
 
 # IUPnPDevice::get_ManufacturerURL
@@ -69,7 +61,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains the URL. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required. If the device does not specify this URL, this parameter is set to <b>NULL</b>.
+Receives a reference to a string that contains the URL. Release this string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required. If the device does not specify this URL, this parameter is set to <b>NULL</b>.
 
 
 ## -returns

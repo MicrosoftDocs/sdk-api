@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth8_refresh.htm
 tech.root: audio
 ms.assetid: BA04A6F5-19D9-471D-9F53-DAB555E9F1A5
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],Refresh method, IDirectMusicSynth8.Refresh, IDirectMusicSynth8::Refresh, Refresh, Refresh method [Audio Devices], Refresh method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_refresh, dmusics/IDirectMusicSynth8::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dmusics.h
-: 
-- IDirectMusicSynth8.Refresh
-: 
 ---
 
 # IDirectMusicSynth8::Refresh

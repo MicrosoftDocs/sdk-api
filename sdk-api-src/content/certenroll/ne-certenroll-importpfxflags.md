@@ -4,10 +4,10 @@ title: ImportPFXFlags
 author: windows-sdk-content
 description: Flags to use when importing a PFX certificate.
 old-location: security\importpfxflags.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: B91A32A9-680F-4012-896E-7B3DF6629B25
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ImportExportable, ImportExportableEncrypted, ImportForceOverwrite, ImportInstallCertificate, ImportInstallChain, ImportInstallChainAndRoot, ImportMachineContext, ImportNoUserProtected, ImportNone, ImportPFXFlags, ImportPFXFlags enumeration [Security], ImportSaveProperties, ImportSilent, ImportUserProtected, ImportUserProtectedHigh, certenroll/ImportExportable, certenroll/ImportExportableEncrypted, certenroll/ImportForceOverwrite, certenroll/ImportInstallCertificate, certenroll/ImportInstallChain, certenroll/ImportInstallChainAndRoot, certenroll/ImportMachineContext, certenroll/ImportNoUserProtected, certenroll/ImportNone, certenroll/ImportPFXFlags, certenroll/ImportSaveProperties, certenroll/ImportSilent, certenroll/ImportUserProtected, certenroll/ImportUserProtectedHigh, security.importpfxflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

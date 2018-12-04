@@ -7,7 +7,7 @@ old-location: ad\idsbrowsedomaintree_freedomains.htm
 tech.root: ad
 ms.assetid: d9334f4c-d5b0-445a-ad1b-8628f206b715
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: FreeDomains, FreeDomains method [Active Directory], FreeDomains method [Active Directory],IDsBrowseDomainTree interface, IDsBrowseDomainTree interface [Active Directory],FreeDomains method, IDsBrowseDomainTree.FreeDomains, IDsBrowseDomainTree::FreeDomains, _glines_idsbrowsedomaintree_freedomains, ad.idsbrowsedomaintree__freedomains, ad.idsbrowsedomaintree_freedomains, dsclient/IDsBrowseDomainTree::FreeDomains
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dsclient.h
-: 
-- IDsBrowseDomainTree.FreeDomains
-: 
 ---
 
 # IDsBrowseDomainTree::FreeDomains

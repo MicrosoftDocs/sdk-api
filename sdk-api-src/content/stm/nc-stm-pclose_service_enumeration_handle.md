@@ -4,10 +4,10 @@ title: PCLOSE_SERVICE_ENUMERATION_HANDLE
 author: windows-sdk-content
 description: The CloseServiceEnumerationHandle function terminates the enumeration and frees associated resources.
 old-location: rras\closeserviceenumerationhandle.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: c127f914-b655-4b6a-bb13-daeb5e82e343
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CloseServiceEnumerationHandle, CloseServiceEnumerationHandle callback function [RAS], PCLOSE_SERVICE_ENUMERATION_HANDLE, PCLOSE_SERVICE_ENUMERATION_HANDLE callback, _mpr_closeserviceenumerationhandle, rras.closeserviceenumerationhandle, stm/CloseServiceEnumerationHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

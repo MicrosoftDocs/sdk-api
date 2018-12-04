@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Get_Res_Des_Data_Size
-: 
 ---
 
 # CM_Get_Res_Des_Data_Size function

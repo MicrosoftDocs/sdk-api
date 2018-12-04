@@ -4,10 +4,10 @@ title: IADsPrintQueueOperations::PrintJobs
 author: windows-sdk-content
 description: The IADsPrintQueueOperations::PrintJobs method gets an IADsCollection interface pointer on the collection of the print jobs processed in this print queue.
 old-location: adsi\iadsprintqueueoperations_printjobs.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: fe92fef3-596f-416c-b613-1d93737c298e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsPrintQueueOperations interface [ADSI],PrintJobs method, IADsPrintQueueOperations.PrintJobs, IADsPrintQueueOperations::PrintJobs, PrintJobs, PrintJobs method [ADSI], PrintJobs method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_printjobs, adsi.iadsprintqueueoperations__printjobs, adsi.iadsprintqueueoperations_printjobs, iads/IADsPrintQueueOperations::PrintJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsPrintQueueOperations.PrintJobs
-: 
 ---
 
 # IADsPrintQueueOperations::PrintJobs
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IADsPrintQueueOperations::PrintJobs</b> method gets an  <a href="https://msdn.microsoft.com/4552552b-c008-439a-95bf-eaf9ffd28b5f">IADsCollection</a> interface pointer on the collection of the print jobs processed in this print queue. This collection can be enumerated using the standard Automation enumeration methods on  <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>. To delete a print job, use the  <a href="https://msdn.microsoft.com/21ce80fe-542b-4350-b66c-fa26f62ca611">IADsCollection::Remove</a> method on the retrieved interface pointer.
+The <b>IADsPrintQueueOperations::PrintJobs</b> method gets an  <a href="https://msdn.microsoft.com/4552552b-c008-439a-95bf-eaf9ffd28b5f">IADsCollection</a> interface pointer on the collection of the print jobs processed in this print queue. This collection can be enumerated using the standard Automation enumeration methods on  <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>. To delete a print job, use the  <a href="https://msdn.microsoft.com/21ce80fe-542b-4350-b66c-fa26f62ca611">IADsCollection::Remove</a> method on the retrieved interface pointer.
 
 
 ## -parameters
@@ -66,14 +58,7 @@ The <b>IADsPrintQueueOperations::PrintJobs</b> method gets an  <a href="https://
 
 
 
-### -param pObject
-
-TBD
-
-
-
-
-#### - ppPrintJobs [out]
+### -param pObject [out]
 
 Pointer to a pointer to the  <a href="https://msdn.microsoft.com/4552552b-c008-439a-95bf-eaf9ffd28b5f">IADsCollection</a> interface on the collection of objects added to this print queue. Objects in the collection implement the  <a href="https://msdn.microsoft.com/82d61e39-4dbb-41c9-85d5-6f4e7ab7f66b">IADsPrintJob</a> interface.
 
@@ -116,7 +101,7 @@ This method supports the standard return values. For more information about othe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
  
 
  

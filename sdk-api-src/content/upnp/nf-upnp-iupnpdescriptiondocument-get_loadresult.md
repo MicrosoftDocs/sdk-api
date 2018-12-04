@@ -4,10 +4,10 @@ title: IUPnPDescriptionDocument::get_LoadResult
 author: windows-sdk-content
 description: The LoadResult property specifies the success or failure code of a completed load operation.
 old-location: upnp\iupnpdescriptiondocument_loadresult.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 3faf3dfa-ed42-4dbd-9ad7-7e34a8b00be8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: E_FAIL, E_PENDING, E_UNEXPECTED, IUPnPDescriptionDocument interface [UPnP APIs],get_LoadResult method, IUPnPDescriptionDocument.get_LoadResult, IUPnPDescriptionDocument::get_LoadResult, S_OK, _upnp_iupnpdescriptiondocument_loadresult, get_LoadResult, get_LoadResult method [UPnP APIs], get_LoadResult method [UPnP APIs],IUPnPDescriptionDocument interface, upnp.iupnpdescriptiondocument_loadresult, upnp/IUPnPDescriptionDocument::get_LoadResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDescriptionDocument.get_LoadResult
-: 
 ---
 
 # IUPnPDescriptionDocument::get_LoadResult

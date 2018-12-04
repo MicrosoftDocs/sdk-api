@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_put_resultingimagetype.htm
 tech.root: imapi
 ms.assetid: 1800717a-3b8a-45b2-849b-55c37d3b1b32
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_ResultingImageType method, IRawCDImageCreator.put_ResultingImageType, IRawCDImageCreator::put_ResultingImageType, imapi.irawcdimagecreator_put_resultingimagetype, imapi2/IRawCDImageCreator::put_ResultingImageType, put_ResultingImageType, put_ResultingImageType method [IMAPI], put_ResultingImageType method [IMAPI],IRawCDImageCreator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IRawCDImageCreator.put_ResultingImageType
-: 
 ---
 
 # IRawCDImageCreator::put_ResultingImageType

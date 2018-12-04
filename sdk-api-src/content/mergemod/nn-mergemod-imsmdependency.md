@@ -4,10 +4,10 @@ title: IMsmDependency
 author: windows-sdk-content
 description: The IMsmDependency interface retrieves details for a single module dependency.
 old-location: setup\imsmdependency_interface.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 517cf174-418a-4717-a25f-1736225016a1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMsmDependency, IMsmDependency interface, IMsmDependency interface,described, mergemod/IMsmDependency, setup.imsmdependency_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

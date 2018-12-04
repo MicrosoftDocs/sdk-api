@@ -4,10 +4,10 @@ title: IEnumBitsPeers::Next
 author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbitspeers_next.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: b5bc254d-d74e-4076-a22a-93abf9023068
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Next method, IEnumBitsPeers.Next, IEnumBitsPeers::Next, Next, Next method [BITS], Next method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_next, bits3_0/IEnumBitsPeers::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits3_0.h
-: 
-- IEnumBitsPeers.Next
-: 
 ---
 
 # IEnumBitsPeers::Next
@@ -75,7 +67,7 @@ Number of elements requested.
 ### -param rgelt [out]
 
 Array of 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964270(v=VS.85).aspx">IBitsPeer</a> objects. You must release each object in <i>rgelt</i> when done.
+<a href="https://msdn.microsoft.com/617b88d4-6c3e-4c33-9bfa-6d9f6f629866">IBitsPeer</a> objects. You must release each object in <i>rgelt</i> when done.
 
 
 ### -param pceltFetched [out]
@@ -127,7 +119,7 @@ Returned less than the number of requested elements.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964308(v=VS.85).aspx">IEnumBitsPeers</a>
+<a href="https://msdn.microsoft.com/2715a58c-ba76-4223-ad9e-453d029e0eda">IEnumBitsPeers</a>
  
 
  

@@ -4,10 +4,10 @@ title: INetwork::GetNetworkId
 author: windows-sdk-content
 description: The GetNetworkId method returns the unique identifier of a network.
 old-location: nla\inetwork_getnetworkid.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: f2012295-d443-434f-8fe8-b6e38e7cac74
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetNetworkId, GetNetworkId method [Network Awareness], GetNetworkId method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetNetworkId method, INetwork.GetNetworkId, INetwork::GetNetworkId, netlistmgr/INetwork::GetNetworkId, nla.inetwork_getnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netlistmgr.h
-: 
-- INetwork.GetNetworkId
-: 
 ---
 
 # INetwork::GetNetworkId

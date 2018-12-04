@@ -7,7 +7,7 @@ old-location: vhd\compact_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 3e58101c-c8a9-432e-99c4-9e418a887b9e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCOMPACT_VIRTUAL_DISK_PARAMETERS, COMPACT_VIRTUAL_DISK_PARAMETERS, COMPACT_VIRTUAL_DISK_PARAMETERS structure [VHD], PCOMPACT_VIRTUAL_DISK_PARAMETERS, PCOMPACT_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _COMPACT_VIRTUAL_DISK_PARAMETERS, vdssys/COMPACT_VIRTUAL_DISK_PARAMETERS, vdssys/PCOMPACT_VIRTUAL_DISK_PARAMETERS, vhd.compact_virtual_disk_parameters, virtdisk/COMPACT_VIRTUAL_DISK_PARAMETERS, virtdisk/PCOMPACT_VIRTUAL_DISK_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

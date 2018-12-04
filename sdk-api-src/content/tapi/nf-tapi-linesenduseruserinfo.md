@@ -4,10 +4,10 @@ title: lineSendUserUserInfo function
 author: windows-sdk-content
 description: The lineSendUserUserInfo function sends user-user information to the remote party on the specified call.
 old-location: tapi2\linesenduseruserinfo.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 833827a0-bbb2-4df9-87a0-3b2eb1904611
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_tapi2_linesenduseruserinfo, lineSendUserUserInfo, lineSendUserUserInfo function [TAPI 2.2], tapi/lineSendUserUserInfo, tapi2.linesenduseruserinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- lineSendUserUserInfo
-: 
 ---
 
 # lineSendUserUserInfo function

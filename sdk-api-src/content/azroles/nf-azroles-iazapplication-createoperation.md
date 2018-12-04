@@ -4,10 +4,10 @@ title: IAzApplication::CreateOperation
 author: windows-sdk-content
 description: Creates an IAzOperation object with the specified name.
 old-location: security\iazapplication_createoperation.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 4faf4fc3-5847-40a1-9f85-fb10bb3048b4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AzApplication object [Security],CreateOperation method, CreateOperation, CreateOperation method [Security], CreateOperation method [Security],AzApplication object, CreateOperation method [Security],IAzApplication interface, IAzApplication interface [Security],CreateOperation method, IAzApplication.CreateOperation, IAzApplication::CreateOperation, azroles/IAzApplication::CreateOperation, security.iazapplication_createoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzApplication.CreateOperation
-: 
 ---
 
 # IAzApplication::CreateOperation

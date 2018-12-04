@@ -4,10 +4,10 @@ title: IEnumBackgroundCopyGroups::Next
 author: windows-sdk-content
 description: Use the Next method to retrieve the specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbackgroundcopygroups_next.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: cc21f663-e8f8-4348-920c-bffad46d0aa0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Next method, IEnumBackgroundCopyGroups.Next, IEnumBackgroundCopyGroups::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_next, qmgr/IEnumBackgroundCopyGroups::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qmgr.h
-: 
-- IEnumBackgroundCopyGroups.Next
-: 
 ---
 
 # IEnumBackgroundCopyGroups::Next

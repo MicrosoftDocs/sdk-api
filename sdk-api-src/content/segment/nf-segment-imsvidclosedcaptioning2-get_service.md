@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidClosedCaptioning2.get_Service
-: 
 ---
 
 # IMSVidClosedCaptioning2::get_Service

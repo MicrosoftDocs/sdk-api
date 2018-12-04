@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarBoolFromI4
-: 
 ---
 
 # VarBoolFromI4 function

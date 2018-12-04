@@ -4,10 +4,10 @@ title: IAzApplication::get_Operations
 author: windows-sdk-content
 description: Retrieves an IAzOperations object that is used to enumerate IAzOperation objects from the policy data.
 old-location: security\iazapplication_operations.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 274a130a-3a3c-46fc-9d2a-3123cdc98d4b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AzApplication object [Security],Operations property, IAzApplication interface [Security],Operations property, IAzApplication.Operations, IAzApplication.get_Operations, IAzApplication::Operations, IAzApplication::get_Operations, Operations property [Security], Operations property [Security],AzApplication object, Operations property [Security],IAzApplication interface, azroles/IAzApplication::Operations, azroles/IAzApplication::get_Operations, get_Operations, security.iazapplication_operations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzApplication.get_Operations
-: 
 ---
 
 # IAzApplication::get_Operations

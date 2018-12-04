@@ -4,10 +4,10 @@ title: IDataCollector::put_FileName
 author: windows-sdk-content
 description: Retrieves or sets the base name of the file that will contain the data collector data.
 old-location: pla\idatacollector_filename.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 9208baf8-0bc7-45c4-a912-7b59f4c1ca6a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FileName property [PLA], FileName property [PLA],IDataCollector interface, IDataCollector interface [PLA],FileName property, IDataCollector.FileName, IDataCollector.put_FileName, IDataCollector::FileName, IDataCollector::get_FileName, IDataCollector::put_FileName, base.idatacollector_filename, pla.idatacollector_filename, pla/IDataCollector::FileName, pla/IDataCollector::get_FileName, pla/IDataCollector::put_FileName, put_FileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollector.put_FileName
-: 
 ---
 
 # IDataCollector::put_FileName

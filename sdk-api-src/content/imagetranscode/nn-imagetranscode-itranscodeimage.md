@@ -7,7 +7,7 @@ old-location: shell\ITranscodeImage.htm
 tech.root: shell
 ms.assetid: 747a7d5b-df7c-498b-a541-13c6561cebfe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ITranscodeImage, ITranscodeImage interface [Windows Shell], ITranscodeImage interface [Windows Shell],described, _shell_ITranscodeImage, imagetranscode/ITranscodeImage, shell.ITranscodeImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

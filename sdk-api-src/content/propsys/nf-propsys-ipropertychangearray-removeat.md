@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_RemoveAt.htm
 tech.root: properties
 ms.assetid: 59d98675-c934-4f2d-8018-f581017d5441
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IPropertyChangeArray interface [Windows Properties],RemoveAt method, IPropertyChangeArray.RemoveAt, IPropertyChangeArray::RemoveAt, RemoveAt, RemoveAt method [Windows Properties], RemoveAt method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_RemoveAt, properties.IPropertyChangeArray_RemoveAt, propsys/IPropertyChangeArray::RemoveAt, shell.IPropertyChangeArray_RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- propsys.h
-: 
-- IPropertyChangeArray.RemoveAt
-: 
 ---
 
 # IPropertyChangeArray::RemoveAt

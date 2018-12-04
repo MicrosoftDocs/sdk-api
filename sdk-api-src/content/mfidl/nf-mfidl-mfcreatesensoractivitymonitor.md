@@ -7,7 +7,7 @@ old-location: mf\mfcreatesensoractivitymonitor.htm
 tech.root: medfound
 ms.assetid: 852395EE-AA84-4C61-A55F-E8D925FA1447
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFCreateSensorActivityMonitor, MFCreateSensorActivityMonitor function [Media Foundation], mf.mfcreatesensoractivitymonitor, mfidl/MFCreateSensorActivityMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateSensorActivityMonitor
-: 
 ---
 
 # MFCreateSensorActivityMonitor function

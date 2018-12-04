@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2_initializediscrecorder.htm
 tech.root: imapi
 ms.assetid: 19a647b3-ef39-4208-9dfc-e52242a88c6c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],InitializeDiscRecorder method, IDiscRecorder2.InitializeDiscRecorder, IDiscRecorder2::InitializeDiscRecorder, InitializeDiscRecorder, InitializeDiscRecorder method [IMAPI], InitializeDiscRecorder method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_initializediscrecorder, imapi2/IDiscRecorder2::InitializeDiscRecorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscRecorder2.InitializeDiscRecorder
-: 
 ---
 
 # IDiscRecorder2::InitializeDiscRecorder

@@ -4,10 +4,10 @@ title: CancelClusterGroupOperation function
 author: windows-sdk-content
 description: Enables a client to cancel a MoveClusterGroup or MoveClusterGroupEx operation that is pending for a group. The group is then returned to its persistent state.
 old-location: mscs\cancelclustergroupoperation.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: F7710CD6-2B02-48A5-B089-7F174B18463C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CancelClusterGroupOperation, CancelClusterGroupOperation function [Failover Cluster], clusapi/CancelClusterGroupOperation, mscs.cancelclustergroupoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CancelClusterGroupOperation
-: 
 ---
 
 # CancelClusterGroupOperation function
@@ -58,7 +52,7 @@ req.redist:
 
 Enables a client to cancel a 
     <a href="https://msdn.microsoft.com/32408600-5118-47fb-890b-9c31faef2299">MoveClusterGroup</a> or 
-    <a href="https://msdn.microsoft.com/en-us/library/Hh418101(v=VS.85).aspx">MoveClusterGroupEx</a> operation that is pending for a 
+    <a href="https://msdn.microsoft.com/CE56BA9D-3527-43D3-8656-EA0BBDF48B98">MoveClusterGroupEx</a> operation that is pending for a 
     group. The group is then returned to its persistent state.
 
 
@@ -101,7 +95,7 @@ This parameter is reserved for future use and must be set to zero.
 <b>CancelClusterGroupOperation</b> attempts to 
     cancel a pending move operation on a cluster group that was issued through a 
     <a href="https://msdn.microsoft.com/32408600-5118-47fb-890b-9c31faef2299">MoveClusterGroup</a> or 
-    <a href="https://msdn.microsoft.com/en-us/library/Hh418101(v=VS.85).aspx">MoveClusterGroupEx</a> call that returned 
+    <a href="https://msdn.microsoft.com/CE56BA9D-3527-43D3-8656-EA0BBDF48B98">MoveClusterGroupEx</a> call that returned 
     <b>ERROR_IO_PENDING</b> and is still in progress. The call attempts to cancel the pending move 
     operation and bring the group to its persistent state.
 

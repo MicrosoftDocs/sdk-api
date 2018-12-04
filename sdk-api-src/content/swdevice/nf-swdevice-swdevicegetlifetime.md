@@ -1,0 +1,107 @@
+---
+UID: NF:swdevice.SwDeviceGetLifetime
+title: SwDeviceGetLifetime function
+author: windows-sdk-content
+description: Gets the lifetime of a software device.
+old-location: swdevice\swdevicegetlifetime.htm
+tech.root: swdevice
+ms.assetid: 62DF53E6-30C5-41D1-867A-9A5D288AADC7
+ms.author: windowssdkdev
+ms.date: 09/26/2018
+ms.keywords: SWDeviceLifetimeHandle, SWDeviceLifetimeParentPresent, SwDeviceGetLifetime, SwDeviceGetLifetime function, swdevice.swdevicegetlifetime, swdevice/SwDeviceGetLifetime
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: swdevice.h
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Swdevice.lib; OneCoreUAP.lib on Windows 10
+req.dll: Cfgmgr32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cfgmgr32.dll
+ - API-MS-Win-devices-swdevice-l1-1-1.dll
+api_name:
+ - SwDeviceGetLifetime
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# SwDeviceGetLifetime function
+
+
+## -description
+
+
+Gets the lifetime of a software device. 
+
+
+## -parameters
+
+
+
+
+### -param hSwDevice [in]
+
+The <b>HSWDEVICE</b> handle to the software device to retrieve. 
+
+
+### -param pLifetime [in]
+
+A pointer to a variable that receives a <b>SW_DEVICE_LIFETIME</b>-typed value that indicates the current lifetime value for the software device. Here are possible values:
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SWDeviceLifetimeHandle"></a><a id="swdevicelifetimehandle"></a><a id="SWDEVICELIFETIMEHANDLE"></a><dl>
+<dt><b>SWDeviceLifetimeHandle</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the lifetime of the software device is determined by the lifetime of the handle that is associated with the software device.  As long as the handle is open, the software device is enumerated by PnP.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SWDeviceLifetimeParentPresent"></a><a id="swdevicelifetimeparentpresent"></a><a id="SWDEVICELIFETIMEPARENTPRESENT"></a><dl>
+<dt><b>SWDeviceLifetimeParentPresent</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that the lifetime of the software device is tied to the lifetime of its parent. 
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+S_OK is returned if <a href="https://msdn.microsoft.com/64CAAA98-9358-4F53-A0AA-EE5984DE9638">SwDeviceSetLifetime</a> successfully retrieved the lifetime. 
+
+
+

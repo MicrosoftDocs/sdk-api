@@ -7,7 +7,7 @@ old-location: shell\ICredentialProvider_GetFieldDescriptorCount.htm
 tech.root: shell
 ms.assetid: dacaa846-1838-4348-ba63-c204cbe0e2ae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetFieldDescriptorCount, GetFieldDescriptorCount method [Windows Shell], GetFieldDescriptorCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetFieldDescriptorCount method, ICredentialProvider.GetFieldDescriptorCount, ICredentialProvider::GetFieldDescriptorCount, credentialprovider/ICredentialProvider::GetFieldDescriptorCount, shell.ICredentialProvider_GetFieldDescriptorCount, shell_ICredentialProvider_GetFieldDescriptorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- credentialprovider.h
-: 
-- ICredentialProvider.GetFieldDescriptorCount
-: 
 ---
 
 # ICredentialProvider::GetFieldDescriptorCount
@@ -90,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method is required.
 
-The count provided by this method must be valid for the entire usage scenario. This means that you need to include all fields, even those that are hidden or only shown under special circumstances. This value cannot be changed during a usage scenario and can only be changed when a new <a href="https://msdn.microsoft.com/en-us/library/Bb776044(v=VS.85).aspx">SetUsageScenario</a> call is made to the provider or the <a href="https://msdn.microsoft.com/en-us/library/Bb776007(v=VS.85).aspx">ICredentialProviderEvents</a> instance forces another enumeration.
+The count provided by this method must be valid for the entire usage scenario. This means that you need to include all fields, even those that are hidden or only shown under special circumstances. This value cannot be changed during a usage scenario and can only be changed when a new <a href="https://msdn.microsoft.com/62577b41-e115-45df-9f9b-c5c282365a3e">SetUsageScenario</a> call is made to the provider or the <a href="https://msdn.microsoft.com/bf303b9d-2d6c-4de5-9bca-fc71d4f18903">ICredentialProviderEvents</a> instance forces another enumeration.
 
 
 

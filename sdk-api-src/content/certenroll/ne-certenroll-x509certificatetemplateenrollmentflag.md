@@ -4,10 +4,10 @@ title: X509CertificateTemplateEnrollmentFlag
 author: windows-sdk-content
 description: Contains values that specify server and client actions during enrollment.
 old-location: security\x509certificatetemplateenrollmentflag.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: eefb2120-637d-45ae-91be-e18a9d9cb14f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EnrollmentAddOCSPNoCheck, EnrollmentAddTemplateName, EnrollmentAllowEnrollOnBehalfOf, EnrollmentAutoEnrollment, EnrollmentAutoEnrollmentCheckUserDSCertificate, EnrollmentDomainAuthenticationNotRequired, EnrollmentIncludeBasicConstraintsForEECerts, EnrollmentIncludeSymmetricAlgorithms, EnrollmentNoRevocationInfoInCerts, EnrollmentPendAllRequests, EnrollmentPreviousApprovalValidateReenrollment, EnrollmentPublishToDS, EnrollmentPublishToKRAContainer, EnrollmentRemoveInvalidCertificateFromPersonalStore, EnrollmentReuseKeyOnFullSmartCard, EnrollmentUserInteractionRequired, X509CertificateTemplateEnrollmentFlag, X509CertificateTemplateEnrollmentFlag enumeration [Security], certenroll/EnrollmentAddOCSPNoCheck, certenroll/EnrollmentAddTemplateName, certenroll/EnrollmentAllowEnrollOnBehalfOf, certenroll/EnrollmentAutoEnrollment, certenroll/EnrollmentAutoEnrollmentCheckUserDSCertificate, certenroll/EnrollmentDomainAuthenticationNotRequired, certenroll/EnrollmentIncludeBasicConstraintsForEECerts, certenroll/EnrollmentIncludeSymmetricAlgorithms, certenroll/EnrollmentNoRevocationInfoInCerts, certenroll/EnrollmentPendAllRequests, certenroll/EnrollmentPreviousApprovalValidateReenrollment, certenroll/EnrollmentPublishToDS, certenroll/EnrollmentPublishToKRAContainer, certenroll/EnrollmentRemoveInvalidCertificateFromPersonalStore, certenroll/EnrollmentReuseKeyOnFullSmartCard, certenroll/EnrollmentUserInteractionRequired, certenroll/X509CertificateTemplateEnrollmentFlag, security.x509certificatetemplateenrollmentflag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ Instructs the client and server to include a Secure/Multipurpose Internet Mail E
 
 ### -field EnrollmentPendAllRequests
 
-Instructs the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) to place all certificate requests in a pending state.
+Instructs the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) to place all certificate requests in a pending state.
 
 
 ### -field EnrollmentPublishToKRAContainer

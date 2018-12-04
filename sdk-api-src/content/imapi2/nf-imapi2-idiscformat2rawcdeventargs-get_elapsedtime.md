@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcdeventargs_get_elapsedtime.htm
 tech.root: imapi
 ms.assetid: 87a1b606-f91b-4a14-b3b0-17d224d841fc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDiscFormat2RawCDEventArgs interface [IMAPI],get_ElapsedTime method, IDiscFormat2RawCDEventArgs.get_ElapsedTime, IDiscFormat2RawCDEventArgs::get_ElapsedTime, get_ElapsedTime, get_ElapsedTime method [IMAPI], get_ElapsedTime method [IMAPI],IDiscFormat2RawCDEventArgs interface, imapi.idiscformat2rawcdeventargs_get_elapsedtime, imapi2/IDiscFormat2RawCDEventArgs::get_ElapsedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscFormat2RawCDEventArgs.get_ElapsedTime
-: 
 ---
 
 # IDiscFormat2RawCDEventArgs::get_ElapsedTime

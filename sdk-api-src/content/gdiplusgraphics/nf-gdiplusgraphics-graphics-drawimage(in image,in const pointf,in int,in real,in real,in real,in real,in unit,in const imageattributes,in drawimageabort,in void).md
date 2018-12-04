@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destP
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_6imageimage_pointfdestpoints_intcount_re.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN const PointF,IN INT,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit,IN const ImageAttributes,IN DrawImageAbort,IN VOID), Graphics.DrawImage(Image*,const PointF*,INT,REAL,REAL,REAL,REAL,Unit,ImageAttributes*,DrawImageAbort,VOID*), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN const PointF,IN INT,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit,IN const ImageAttributes,IN DrawImageAbort,IN VOID), _gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_REAL_srcx_REAL_srcy_REAL_s, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_REAL_srcx_REAL_srcy_REAL_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusgraphics.h
-: 
-- Graphics.DrawImage
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -177,9 +169,13 @@ The value of the
 
 The following example draws the original source image and then draws a portion of the image in a specified parallelogram.
 
-
-```cpp
-VOID Example_DrawImage4(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_DrawImage4(HDC hdc)
 
 {
 
@@ -189,7 +185,7 @@ VOID Example_DrawImage4(HDC hdc)
    Image image(L"pattern.png");
 
    // Draw the original source image.
-   graphics.DrawImage(&image, 10, 10);
+   graphics.DrawImage(&amp;image, 10, 10);
 
    // Define the portion of the image to draw.
    REAL srcX = 70.0f;
@@ -210,11 +206,11 @@ VOID Example_DrawImage4(HDC hdc)
    ColorMap redToBlue;
    redToBlue.oldColor = Color(255, 255, 0, 0);
    redToBlue.newColor = Color(255, 0, 0, 255);
-   remapAttributes.SetRemapTable(1, &redToBlue);
+   remapAttributes.SetRemapTable(1, &amp;redToBlue);
 
    // Draw the cropped image.
    graphics.DrawImage(
-   &image,
+   &amp;image,
    pdestPoints,
    3,
    srcX,
@@ -222,16 +218,16 @@ VOID Example_DrawImage4(HDC hdc)
    srcWidth,
    srcHeight,
    UnitPixel,
-   &remapAttributes,
+   &amp;remapAttributes,
    NULL,
    NULL);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing a multicolored checkerboard pattern, then an enlarged, two-toned subset of that pattern, sheared to a parallelogram" src="./images/drawimage2.png"/>
+<img alt="Illustration showing a multicolored checkerboard pattern, then an enlarged, two-toned subset of that pattern, sheared to a parallelogram" src="images/drawimage2.png"/>
 
 <div class="code"></div>
 
@@ -246,7 +242,7 @@ The following illustration shows the output of the preceding code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

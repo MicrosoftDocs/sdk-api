@@ -4,10 +4,10 @@ title: ISmimeCapabilities
 author: windows-sdk-content
 description: Defines the following methods and properties to manage a collection of ISmimeCapability objects.
 old-location: security\ismimecapabilities.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: f9750b68-9d35-4594-96fc-2fbd54a87dcc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISmimeCapabilities, ISmimeCapabilities interface [Security], ISmimeCapabilities interface [Security],described, certenroll/ISmimeCapabilities, security.ismimecapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,15 +50,15 @@ req.redist:
 ## -description
 
 
-The <b>ISmimeCapabilities</b> interface defines the following methods and properties to manage a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa377045(v=VS.85).aspx">ISmimeCapability</a> objects.
+The <b>ISmimeCapabilities</b> interface defines the following methods and properties to manage a collection of <a href="https://msdn.microsoft.com/3cfbb16f-88fa-41f1-b719-cd5e8ad636cc">ISmimeCapability</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISmimeCapabilities</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISmimeCapabilities</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISmimeCapabilities</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ISmimeCapabilities</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,16 +71,16 @@ The <b>ISmimeCapabilities</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377012(v=VS.85).aspx">Add</a>
+<a href="https://msdn.microsoft.com/8ad35758-0dc1-4887-aea7-b8ead537cab2">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://msdn.microsoft.com/en-us/library/Aa377045(v=VS.85).aspx">ISmimeCapability</a> object to the collection.
+Adds an <a href="https://msdn.microsoft.com/3cfbb16f-88fa-41f1-b719-cd5e8ad636cc">ISmimeCapability</a> object to the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa376896(v=VS.85).aspx">AddAvailableSmimeCapabilities</a>
+<a href="https://msdn.microsoft.com/b3b087e7-9934-4d29-a516-db5bba824774">AddAvailableSmimeCapabilities</a>
 </td>
 <td align="left" width="63%">
 Adds objects to the collection by identifying the encryption algorithms supported by the default RSA cryptographic provider.
@@ -89,7 +89,7 @@ Adds objects to the collection by identifying the encryption algorithms supporte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377006(v=VS.85).aspx">AddFromCsp</a>
+<a href="https://msdn.microsoft.com/a4244a4e-6ec3-4c1f-a0d6-607cc942b5f5">AddFromCsp</a>
 </td>
 <td align="left" width="63%">
 Adds objects to the collection by identifying the encryption algorithms supported by a specific provider.
@@ -98,7 +98,7 @@ Adds objects to the collection by identifying the encryption algorithms supporte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377032(v=VS.85).aspx">Clear</a>
+<a href="https://msdn.microsoft.com/8df8eecd-c20f-40f0-a647-23d25ca76ae4">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all objects from the collection.
@@ -107,7 +107,7 @@ Removes all objects from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377043(v=VS.85).aspx">Remove</a>
+<a href="https://msdn.microsoft.com/516726cc-f7b9-4813-999f-036694322fe5">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an object from the collection by index value.
@@ -124,7 +124,7 @@ Removes an object from the collection by index value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377044(v=VS.85).aspx">_NewEnum</a>
+<a href="https://msdn.microsoft.com/f43b3aa4-81c5-411c-bd62-77513f9b7f68">_NewEnum</a>
 
 
 </td>
@@ -136,7 +136,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377035(v=VS.85).aspx">Count</a>
+<a href="https://msdn.microsoft.com/5e0ee42f-10aa-45d8-b6c0-16ee0149dec6">Count</a>
 
 
 </td>
@@ -165,7 +165,7 @@ Retrieves an object from the collection by index number.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

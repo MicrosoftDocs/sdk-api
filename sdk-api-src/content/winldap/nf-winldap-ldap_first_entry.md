@@ -4,10 +4,10 @@ title: ldap_first_entry function
 author: windows-sdk-content
 description: The ldap_first_entry function returns the first entry of a message.
 old-location: ldap\ldap_first_entry.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 1692d091-7963-492d-9998-5680a2a81088
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ldap_first_entry, ldap.ldap__first__entry, ldap.ldap_first_entry, ldap_first_entry, ldap_first_entry function [LDAP], winldap/ldap_first_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_first_entry
-: 
 ---
 
 # ldap_first_entry function

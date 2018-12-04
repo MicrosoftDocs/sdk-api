@@ -4,10 +4,10 @@ title: ICspAlgorithm::get_Operations
 author: windows-sdk-content
 description: Retrieves the operations that can be performed by the algorithm.
 old-location: security\icspalgorithm_operations.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 46e6bf91-a50a-4360-9bfe-e41e8bcc1112
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICspAlgorithm interface [Security],Operations property, ICspAlgorithm.Operations, ICspAlgorithm.get_Operations, ICspAlgorithm::Operations, ICspAlgorithm::get_Operations, Operations property [Security], Operations property [Security],ICspAlgorithm interface, XCN_NCRYPT_ANY_ASYMMETRIC_OPERATION, XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, XCN_NCRYPT_CIPHER_OPERATION, XCN_NCRYPT_HASH_OPERATION, XCN_NCRYPT_RNG_OPERATION, XCN_NCRYPT_SECRET_AGREEMENT_OPERATION, XCN_NCRYPT_SIGNATURE_OPERATION, certenroll/ICspAlgorithm::Operations, certenroll/ICspAlgorithm::get_Operations, get_Operations, security.icspalgorithm_operations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICspAlgorithm.get_Operations
-: 
 ---
 
 # ICspAlgorithm::get_Operations
@@ -71,7 +63,7 @@ This property is read-only.
 
 
 
-The main difference between the <a href="https://msdn.microsoft.com/en-us/library/Aa375966(v=VS.85).aspx">Type</a> property and the <b>Operations</b> property is that the latter contains a bitfield in which multiple bits can be set. Because many algorithms can be used for multiple purposes, the <b>Operations</b> property is often more useful. The <b>Type</b> value can correspond to only one of the <b>Operations</b> value bits. For example, if the <b>Operations</b> property returns XCN_NCRYPT_SIGNATURE_OPERATION | XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, the <b>Type</b> property may return XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE.
+The main difference between the <a href="https://msdn.microsoft.com/28bffe60-10f2-462e-8067-943b12285982">Type</a> property and the <b>Operations</b> property is that the latter contains a bitfield in which multiple bits can be set. Because many algorithms can be used for multiple purposes, the <b>Operations</b> property is often more useful. The <b>Type</b> value can correspond to only one of the <b>Operations</b> value bits. For example, if the <b>Operations</b> property returns XCN_NCRYPT_SIGNATURE_OPERATION | XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, the <b>Type</b> property may return XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE.
 
 
 
@@ -81,11 +73,11 @@ The main difference between the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375966(v=VS.85).aspx">Type</a>
+<a href="https://msdn.microsoft.com/28bffe60-10f2-462e-8067-943b12285982">Type</a>
  
 
  

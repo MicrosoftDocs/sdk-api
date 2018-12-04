@@ -4,10 +4,10 @@ title: GetPrivateProfileIntA function
 author: windows-sdk-content
 description: Retrieves an integer associated with a key in the specified section of an initialization file.
 old-location: base\getprivateprofileint.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: dcb48ec3-7172-4bcc-a833-23e34a73d70b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetPrivateProfileInt, GetPrivateProfileInt function, GetPrivateProfileIntA, GetPrivateProfileIntW, _win32_getprivateprofileint, base.getprivateprofileint, winbase/GetPrivateProfileInt, winbase/GetPrivateProfileIntA, winbase/GetPrivateProfileIntW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetPrivateProfileIntA
-: 
 ---
 
 # GetPrivateProfileIntA function

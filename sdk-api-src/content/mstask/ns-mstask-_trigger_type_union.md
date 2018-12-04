@@ -4,10 +4,10 @@ title: "_TRIGGER_TYPE_UNION"
 author: windows-sdk-content
 description: Defines the invocation schedule of the trigger within the Type member of a TASK_TRIGGER structure.
 old-location: taskschd\trigger_type_union.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: de50fe74-8091-4a9e-a5b9-9a8c2c684895
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: TRIGGER_TYPE_UNION, TRIGGER_TYPE_UNION union [Task Scheduler], _TRIGGER_TYPE_UNION, _msb_trigger_type_union, mstask/TRIGGER_TYPE_UNION, taskschd.trigger_type_union
 ms.prod: windows-hardware
 ms.technology: windows-devices

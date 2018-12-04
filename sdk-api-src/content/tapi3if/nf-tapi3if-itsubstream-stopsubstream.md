@@ -4,10 +4,10 @@ title: ITSubStream::StopSubStream
 author: windows-sdk-content
 description: The StopSubStream method stops the substream. For additional information, see ITStream::StopStream.
 old-location: tapi3\itsubstream_stopsubstream.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: fa5028f6-80eb-4076-a81c-c83b462fc27c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],StopSubStream method, ITSubStream.StopSubStream, ITSubStream::StopSubStream, StopSubStream, StopSubStream method [TAPI 2.2], StopSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_stopsubstream, tapi3.itsubstream_stopsubstream, tapi3if/ITSubStream::StopSubStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITSubStream.StopSubStream
-: 
 ---
 
 # ITSubStream::StopSubStream

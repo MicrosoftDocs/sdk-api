@@ -7,7 +7,7 @@ old-location: cos\icontextproperties_count.htm
 tech.root: cossdk
 ms.assetid: 96259fe8-138d-498e-8be0-1fe1cc3f0d83
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IContextProperties interface, IContextProperties interface [COM+],Count method, IContextProperties.Count, IContextProperties::Count, _cos_IContextProperties_Count, comsvcs/IContextProperties::Count, cos.icontextproperties_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- IContextProperties.Count
-: 
 ---
 
 # IContextProperties::Count

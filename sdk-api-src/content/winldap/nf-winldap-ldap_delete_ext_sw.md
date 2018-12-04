@@ -4,10 +4,10 @@ title: ldap_delete_ext_sW function
 author: windows-sdk-content
 description: The ldap_delete_ext_s function is an extended routine that performs a synchronous operation to remove a leaf entry from the directory tree.
 old-location: ldap\ldap_delete_ext_s.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: eb00a5c1-b7b8-4b68-9d91-d52235f5e1ff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ldap_delete_ext_s, ldap.ldap__delete__ext__s, ldap.ldap_delete_ext_s, ldap_delete_ext_s, ldap_delete_ext_s function [LDAP], ldap_delete_ext_sA, ldap_delete_ext_sW, winldap/ldap_delete_ext_s, winldap/ldap_delete_ext_sA, winldap/ldap_delete_ext_sW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_delete_ext_sW
-: 
 ---
 
 # ldap_delete_ext_sW function

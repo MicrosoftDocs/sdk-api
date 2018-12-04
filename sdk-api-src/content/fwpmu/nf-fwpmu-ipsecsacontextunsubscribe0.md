@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecSaContextUnsubscribe0
-: 
 ---
 
 # IPsecSaContextUnsubscribe0 function

@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelclient_macfinal.htm
 tech.root: WMDM
 ms.assetid: 64dc8e36-c135-415f-a646-04919e4d031d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],MACFinal method, CSecureChannelClient.MACFinal, CSecureChannelClient::MACFinal, CSecureChannelClientMACFinal, MACFinal, MACFinal method [windows Media Device Manager], MACFinal method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::MACFinal, wmdm.csecurechannelclient_macfinal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- scclient.h
-: 
-- CSecureChannelClient.MACFinal
-: 
 ---
 
 # CSecureChannelClient::MACFinal

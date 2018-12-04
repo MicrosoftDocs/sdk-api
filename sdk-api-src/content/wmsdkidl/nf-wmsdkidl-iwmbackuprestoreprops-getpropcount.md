@@ -7,7 +7,7 @@ old-location: wmformat\iwmbackuprestoreprops_getpropcount.htm
 tech.root: wmformat
 ms.assetid: 70b8dcf7-e48b-4c1e-be39-d0ae3c8a2b23
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetPropCount, GetPropCount method [windows Media Format], GetPropCount method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropCount method, IWMBackupRestoreProps.GetPropCount, IWMBackupRestoreProps::GetPropCount, IWMBackupRestorePropsGetPropCount, wmformat.iwmbackuprestoreprops_getpropcount, wmsdkidl/IWMBackupRestoreProps::GetPropCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmsdkidl.h
-: 
-- IWMBackupRestoreProps.GetPropCount
-: 
 ---
 
 # IWMBackupRestoreProps::GetPropCount

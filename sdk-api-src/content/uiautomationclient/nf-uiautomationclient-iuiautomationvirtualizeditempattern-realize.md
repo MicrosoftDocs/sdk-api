@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationVirtualizedItemPattern_Realize.htm
 tech.root: WinAuto
 ms.assetid: 33831b88-cce7-47f3-acd1-e6b74f5a93d2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUIAutomationVirtualizedItemPattern interface [Windows Accessibility],Realize method, IUIAutomationVirtualizedItemPattern.Realize, IUIAutomationVirtualizedItemPattern::Realize, Realize, Realize method [Windows Accessibility], Realize method [Windows Accessibility],IUIAutomationVirtualizedItemPattern interface, uiauto.uiauto_IUIAutomationVirtualizedItemPattern_Realize, uiauto_IUIAutomationVirtualizedItemPattern_Realize, uiautomationclient/IUIAutomationVirtualizedItemPattern::Realize, winauto.uiauto_IUIAutomationVirtualizedItemPattern_Realize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationVirtualizedItemPattern.Realize
-: 
 ---
 
 # IUIAutomationVirtualizedItemPattern::Realize

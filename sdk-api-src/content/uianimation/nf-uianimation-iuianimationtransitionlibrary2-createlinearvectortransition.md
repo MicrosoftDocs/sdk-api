@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createlinearvectortrans
 tech.root: UIAnimation
 ms.assetid: 71A009AB-FBF3-4624-9B78-45C42B0CEE62
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateLinearVectorTransition, CreateLinearVectorTransition method [Windows Animation], CreateLinearVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearVectorTransition method, IUIAnimationTransitionLibrary2.CreateLinearVectorTransition, IUIAnimationTransitionLibrary2::CreateLinearVectorTransition, uianimation.iuianimationtransitionlibrary2_createlinearvectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateLinearVectorTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uianimation.h
-: 
-- IUIAnimationTransitionLibrary2.CreateLinearVectorTransition
-: 
 ---
 
 # IUIAnimationTransitionLibrary2::CreateLinearVectorTransition

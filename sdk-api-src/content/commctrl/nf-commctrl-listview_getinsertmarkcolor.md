@@ -4,10 +4,10 @@ title: ListView_GetInsertMarkColor macro
 author: windows-sdk-content
 description: Gets the color of the insertion point. You can use this macro or send the LVM_GETINSERTMARKCOLOR message explicitly.
 old-location: controls\ListView_GetInsertMarkColor.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmarkcolor.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ListView_GetInsertMarkColor, ListView_GetInsertMarkColor macro [Windows Controls], _win32_ListView_GetInsertMarkColor, _win32_ListView_GetInsertMarkColor_cpp, commctrl/ListView_GetInsertMarkColor, controls.ListView_GetInsertMarkColor, controls._win32_ListView_GetInsertMarkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- ListView_GetInsertMarkColor
-: 
 ---
 
 # ListView_GetInsertMarkColor macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the color of the insertion point. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774947(v=VS.85).aspx">LVM_GETINSERTMARKCOLOR</a> message explicitly. 
+Gets the color of the insertion point. You can use this macro or send the <a href="https://msdn.microsoft.com/1e98023a-9d26-4b87-bee4-bee4939ccfca">LVM_GETINSERTMARKCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +69,7 @@ A handle to the list-view control.
 
 
 
-To use <b>ListView_GetInsertMarkColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetInsertMarkColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

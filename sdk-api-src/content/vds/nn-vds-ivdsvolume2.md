@@ -4,10 +4,10 @@ title: IVdsVolume2
 author: windows-sdk-content
 description: Provides a method for returning volume property information, including the volume GUIDs.
 old-location: base\ivdsvolume2.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 78077ce6-04f7-4d76-9057-40941feb941b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVdsVolume2, IVdsVolume2 interface, IVdsVolume2 interface,described, base.ivdsvolume2, vds/IVdsVolume2
 ms.prod: windows-hardware
 ms.technology: windows-devices

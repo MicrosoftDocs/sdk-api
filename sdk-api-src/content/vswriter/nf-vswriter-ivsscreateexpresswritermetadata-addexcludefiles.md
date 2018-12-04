@@ -4,10 +4,10 @@ title: IVssCreateExpressWriterMetadata::AddExcludeFiles
 author: windows-sdk-content
 description: Excludes a file set (a specified file or files) that might otherwise be implicitly included when a component of an express writer is backed up.
 old-location: base\ivsscreateexpresswritermetadata_addexcludefiles.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: a8d0d6bc-456a-405e-abd9-5ab4b2a59e63
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method, AddExcludeFiles method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddExcludeFiles method, IVssCreateExpressWriterMetadata.AddExcludeFiles, IVssCreateExpressWriterMetadata::AddExcludeFiles, base.ivsscreateexpresswritermetadata_addexcludefiles, vswriter/IVssCreateExpressWriterMetadata::AddExcludeFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- IVssCreateExpressWriterMetadata.AddExcludeFiles
-: 
 ---
 
 # IVssCreateExpressWriterMetadata::AddExcludeFiles
@@ -185,7 +177,7 @@ Express writers support only local resources—sets of files whose absolute path
 <b>AddExcludeFiles</b> to explicitly remove some files (for instance, temporary files) from a backup.
 
 For more information on excluding files, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384996(v=VS.85).aspx">Exclude File List Specification</a>.
+<a href="writer_metadata_document_contents.htm">Exclude File List Specification</a>.
 
 
 

@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportConfigurationManager2.get_MulticastSessionPolicy
-: 
 ---
 
 # IWdsTransportConfigurationManager2::get_MulticastSessionPolicy

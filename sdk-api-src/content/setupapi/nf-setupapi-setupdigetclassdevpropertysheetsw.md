@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiGetClassDevPropertySheetsW
-: 
 ---
 
 # SetupDiGetClassDevPropertySheetsW function
@@ -67,7 +61,7 @@ The <b>SetupDiGetClassDevPropertySheets</b> function retrieves handles to the pr
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for which to return property sheet handles. If <i>DeviceInfoData</i> does not specify a device information element in the device information set, the device information set must have an associated device setup class. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to return property sheet handles. If <i>DeviceInfoData</i> does not specify a device information element in the device information set, the device information set must have an associated device setup class. 
 
 
 ### -param DeviceInfoData [in, optional]

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectpass_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],GetDesc method, ID3D10EffectPass.GetDesc, ID3D10EffectPass::GetDesc, d144db62-661e-4008-27bf-01ee2d40f810, d3d10effect/ID3D10EffectPass::GetDesc, direct3d10.id3d10effectpass_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10effect.h
-: 
-- ID3D10EffectPass.GetDesc
-: 
 ---
 
 # ID3D10EffectPass::GetDesc
@@ -68,18 +60,18 @@ Get a pass description.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205330(v=VS.85).aspx">D3D10_PASS_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e48103f3-277f-4f24-9a76-e2b728bfbe75">D3D10_PASS_DESC</a>*</b>
 
-A pointer to a pass description (see <a href="https://msdn.microsoft.com/en-us/library/Bb205330(v=VS.85).aspx">D3D10_PASS_DESC</a>).
+A pointer to a pass description (see <a href="https://msdn.microsoft.com/e48103f3-277f-4f24-9a76-e2b728bfbe75">D3D10_PASS_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -88,7 +80,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-A pass is a block of code that sets render state and shaders (which in turn sets constant buffers, samplers and textures). An effect technique contains one or more passes. See <a href="https://msdn.microsoft.com/en-us/library/Bb205112(v=VS.85).aspx">techniques and passes</a>.
+A pass is a block of code that sets render state and shaders (which in turn sets constant buffers, samplers and textures). An effect technique contains one or more passes. See <a href="https://msdn.microsoft.com/674ed278-102c-43da-a6bf-58e084df151e">techniques and passes</a>.
 
 
 
@@ -98,11 +90,11 @@ A pass is a block of code that sets render state and shaders (which in turn sets
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173656(v=VS.85).aspx">ID3D10EffectPass</a>
+<a href="https://msdn.microsoft.com/50407b6a-a05b-41e3-90a9-b0165378b177">ID3D10EffectPass</a>
  
 
  

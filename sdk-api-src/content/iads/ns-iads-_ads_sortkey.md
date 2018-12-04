@@ -4,10 +4,10 @@ title: "_ads_sortkey"
 author: windows-sdk-content
 description: The ADS_SORTKEY structure specifies how to sort a query.
 old-location: adsi\ads_sortkey.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: e4fe499a-4f81-4b92-bf50-b4124ae6e4a3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: "*PADS_SORTKEY, ADS_SORTKEY, ADS_SORTKEY structure [ADSI], PADS_SORTKEY, PADS_SORTKEY structure pointer [ADSI], _ads_sortkey, _ds_ads_sortkey, adsi.ads__sortkey, adsi.ads_sortkey, iads/ADS_SORTKEY, iads/PADS_SORTKEY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

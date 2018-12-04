@@ -4,10 +4,10 @@ title: IConfigurationDataCollector::put_RegistryKeys
 author: windows-sdk-content
 description: Retrieves or sets a list of registry keys to collect.
 old-location: pla\iconfigurationdatacollector_registrykeys.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 990a5f92-2285-4461-8020-25028d2cab90
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],RegistryKeys property, IConfigurationDataCollector.RegistryKeys, IConfigurationDataCollector.put_RegistryKeys, IConfigurationDataCollector::RegistryKeys, IConfigurationDataCollector::get_RegistryKeys, IConfigurationDataCollector::put_RegistryKeys, RegistryKeys property [PLA], RegistryKeys property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_registrykeys, pla.iconfigurationdatacollector_registrykeys, pla/IConfigurationDataCollector::RegistryKeys, pla/IConfigurationDataCollector::get_RegistryKeys, pla/IConfigurationDataCollector::put_RegistryKeys, put_RegistryKeys
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IConfigurationDataCollector.put_RegistryKeys
-: 
 ---
 
 # IConfigurationDataCollector::put_RegistryKeys

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinelibrary_loadgraphicspipeline.htm
 tech.root: direct3d12
 ms.assetid: 1DDD1348-2039-4BF4-9ED8-7AA087D0B654
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID3D12PipelineLibrary interface,LoadGraphicsPipeline method, ID3D12PipelineLibrary.LoadGraphicsPipeline, ID3D12PipelineLibrary::LoadGraphicsPipeline, LoadGraphicsPipeline, LoadGraphicsPipeline method, LoadGraphicsPipeline method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::LoadGraphicsPipeline, direct3d12.id3d12pipelinelibrary_loadgraphicspipeline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d12.h
-: 
-- ID3D12PipelineLibrary.LoadGraphicsPipeline
-: 
 ---
 
 # ID3D12PipelineLibrary::LoadGraphicsPipeline
@@ -98,7 +90,7 @@ Specifies a pointer that will reference the returned PSO.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, which can include E_INVALIDARG if the name doesn’t exist, or if the input description doesn’t match the data in the library, and E_OUTOFMEMORY if unable to allocate the return PSO. 
 

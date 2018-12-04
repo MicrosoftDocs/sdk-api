@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationnavigationevents_downloadbegin.htm
 tech.root: debug_wwahost
 ms.assetid: 2f38f6d2-19a3-4c19-9670-7fd766b90bd3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/23/2018
 ms.keywords: DownloadBegin, DownloadBegin method [Debugging Windows Store apps], DownloadBegin method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DownloadBegin method, IWebApplicationNavigationEvents.DownloadBegin, IWebApplicationNavigationEvents::DownloadBegin, debug.iwebapplicationnavigationevents_downloadbegin, webapplication/IWebApplicationNavigationEvents::DownloadBegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- webapplication.h
-: 
-- IWebApplicationNavigationEvents.DownloadBegin
-: 
 ---
 
 # IWebApplicationNavigationEvents::DownloadBegin

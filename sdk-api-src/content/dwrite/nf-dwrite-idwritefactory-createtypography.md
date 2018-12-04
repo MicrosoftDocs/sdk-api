@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateTypography.htm
 tech.root: DirectWrite
 ms.assetid: ef6d8289-3a8a-4ec1-89a8-b1b52e311d63
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: CreateTypography, CreateTypography method [Direct Write], CreateTypography method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTypography method, IDWriteFactory.CreateTypography, IDWriteFactory::CreateTypography, directwrite.IDWriteFactory_CreateTypography, dwrite/IDWriteFactory::CreateTypography
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteFactory.CreateTypography
-: 
 ---
 
 # IDWriteFactory::CreateTypography

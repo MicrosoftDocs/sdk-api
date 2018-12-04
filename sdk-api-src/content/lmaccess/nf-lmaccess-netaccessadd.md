@@ -4,10 +4,10 @@ title: NetAccessAdd function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessadd.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 54b78f1d-53d1-4cb8-99ba-51c3d6e6de0c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 1, NetAccessAdd, NetAccessAdd function [Network Management], _win32_netaccessadd, lmaccess/NetAccessAdd, netmgmt.netaccessadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetAccessAdd
-: 
 ---
 
 # NetAccessAdd function

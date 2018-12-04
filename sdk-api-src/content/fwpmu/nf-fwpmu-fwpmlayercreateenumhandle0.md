@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmLayerCreateEnumHandle0
-: 
 ---
 
 # FwpmLayerCreateEnumHandle0 function

@@ -7,7 +7,7 @@ old-location: cos\iservicetransactionconfig.htm
 tech.root: cossdk
 ms.assetid: 7f31c590-8290-4556-9fcf-e27db01bad93
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IServiceTransactionConfig, IServiceTransactionConfig interface [COM+], IServiceTransactionConfig interface [COM+],described, _cos_IServiceTransactionConfig, comsvcs/IServiceTransactionConfig, cos.iservicetransactionconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,14 +50,14 @@ req.redist:
 ## -description
 
 
-Configures the transaction services for the work that is done when calling either <a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a> or <a href="https://msdn.microsoft.com/en-us/library/ms683559(v=VS.85).aspx">CoEnterServiceDomain</a>. 
+Configures the transaction services for the work that is done when calling either <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a> or <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceTransactionConfig</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms687570(v=VS.85).aspx">IServiceTransactionConfigBase</a>. <b>IServiceTransactionConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceTransactionConfig</b> interface inherits from <a href="https://msdn.microsoft.com/e4740bf4-51b1-474f-9637-7c5d78f0def5">IServiceTransactionConfigBase</a>. <b>IServiceTransactionConfig</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IServiceTransactionConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686096(v=VS.85).aspx">ConfigureBYOT</a>
+<a href="https://msdn.microsoft.com/be4fa727-962e-4254-8615-58f6ced15fc3">ConfigureBYOT</a>
 </td>
 <td align="left" width="63%">
 Enables you to configure the transaction that you use when you bring your own transaction.
@@ -85,11 +85,11 @@ Enables you to configure the transaction that you use when you bring your own tr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681215(v=VS.85).aspx">Bring Your Own Transaction (BYOT)</a>
+<a href="https://msdn.microsoft.com/492875cb-52a7-484f-810e-bd838373b603">Bring Your Own Transaction (BYOT)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680599(v=VS.85).aspx">COM+ Transactions</a>
+<a href="https://msdn.microsoft.com/40eccce1-a362-4adc-8060-f6923b9162c9">COM+ Transactions</a>
 
 
 
@@ -97,7 +97,7 @@ Enables you to configure the transaction that you use when you bring your own tr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687570(v=VS.85).aspx">IServiceTransactionConfigBase</a>
+<a href="https://msdn.microsoft.com/e4740bf4-51b1-474f-9637-7c5d78f0def5">IServiceTransactionConfigBase</a>
  
 
  

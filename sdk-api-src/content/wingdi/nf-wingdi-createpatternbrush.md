@@ -7,7 +7,7 @@ old-location: gdi\createpatternbrush.htm
 tech.root: gdi
 ms.assetid: a3cf347e-9803-4bb0-bdb3-98929ef859ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreatePatternBrush, CreatePatternBrush function [Windows GDI], _win32_CreatePatternBrush, gdi.createpatternbrush, wingdi/CreatePatternBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreatePatternBrush
-: 
 ---
 
 # CreatePatternBrush function

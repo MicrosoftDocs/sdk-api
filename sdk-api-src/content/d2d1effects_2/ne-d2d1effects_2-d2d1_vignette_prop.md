@@ -4,10 +4,10 @@ title: D2D1_VIGNETTE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Vignette effect.
 old-location: direct2d\d2d1_vignette_prop.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: B45EFED7-97CA-41AF-9C36-4ECDCC153183
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D2D1_VIGNETTE_PROP, D2D1_VIGNETTE_PROP enumeration [Direct2D], D2D1_VIGNETTE_PROP_COLOR, D2D1_VIGNETTE_PROP_STRENGTH, D2D1_VIGNETTE_PROP_TRANSITION_SIZE, d2d1effects_2/D2D1_VIGNETTE_PROP, d2d1effects_2/D2D1_VIGNETTE_PROP_COLOR, d2d1effects_2/D2D1_VIGNETTE_PROP_STRENGTH, d2d1effects_2/D2D1_VIGNETTE_PROP_TRANSITION_SIZE, direct2d.d2d1_vignette_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn900464(v=VS.85).aspx">Vignette effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/34da221f-44a2-1d01-d88d-d7846b9770b9">Vignette effect</a>.
 
 
 ## -enum-fields

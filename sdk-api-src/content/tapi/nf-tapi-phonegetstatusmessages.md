@@ -4,10 +4,10 @@ title: phoneGetStatusMessages function
 author: windows-sdk-content
 description: The phoneGetStatusMessages function returns which phone-state changes on the specified phone device generate a callback to the application.
 old-location: tapi2\phonegetstatusmessages.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 3ee182cf-20e2-4745-9aee-d5de8b44c1b4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_tapi2_phonegetstatusmessages, phoneGetStatusMessages, phoneGetStatusMessages function [TAPI 2.2], tapi/phoneGetStatusMessages, tapi2.phonegetstatusmessages"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- phoneGetStatusMessages
-: 
 ---
 
 # phoneGetStatusMessages function

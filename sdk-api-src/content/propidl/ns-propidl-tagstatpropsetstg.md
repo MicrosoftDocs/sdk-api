@@ -4,10 +4,10 @@ title: tagSTATPROPSETSTG
 author: windows-sdk-content
 description: The STATPROPSETSTG structure contains information about a property set.
 old-location: stg\statpropsetstg.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: STATPROPSETSTG, STATPROPSETSTG structure [Structured Storage], _stg_statpropsetstg, propidlbase/STATPROPSETSTG, stg.statpropsetstg, tagSTATPROPSETSTG
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsync\isyncfilterinfo2_getflags.htm
 tech.root: winsync
 ms.assetid: cad60957-9d16-4564-b63e-be8e188caecc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetFlags, GetFlags method [Windows Sync], GetFlags method [Windows Sync],ISyncFilterInfo2 interface, ISyncFilterInfo2 interface [Windows Sync],GetFlags method, ISyncFilterInfo2.GetFlags, ISyncFilterInfo2::GetFlags, winsync.isyncfilterinfo2_getflags, winsync/ISyncFilterInfo2::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- ISyncFilterInfo2.GetFlags
-: 
 ---
 
 # ISyncFilterInfo2::GetFlags

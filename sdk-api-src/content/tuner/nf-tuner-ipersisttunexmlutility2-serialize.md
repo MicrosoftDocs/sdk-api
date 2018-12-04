@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IPersistTuneXmlUtility2.Serialize
-: 
 ---
 
 # IPersistTuneXmlUtility2::Serialize

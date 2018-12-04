@@ -7,7 +7,7 @@ old-location: wmformat\iwmwritersink.htm
 tech.root: wmformat
 ms.assetid: 73656814-7fac-4567-abcd-dbb3243fcaa8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMWriterSink, IWMWriterSink interface [windows Media Format], IWMWriterSink interface [windows Media Format],described, IWMWriterSinkInterface, wmformat.iwmwritersink, wmsdkidl/IWMWriterSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

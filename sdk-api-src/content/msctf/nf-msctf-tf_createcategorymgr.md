@@ -7,7 +7,7 @@ old-location: tsf\tf_createcategorymgr.htm
 tech.root: TSF
 ms.assetid: d157d006-c664-4086-b75e-3b90b2fa818f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: TF_CreateCategoryMgr, TF_CreateCategoryMgr function [Text Services Framework], msctf/TF_CreateCategoryMgr, tsf.tf_createcategorymgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- 
-: 
-- TF_CreateCategoryMgr
-: 
 ---
 
 # TF_CreateCategoryMgr function

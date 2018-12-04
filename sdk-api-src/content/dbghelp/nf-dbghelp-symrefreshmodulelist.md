@@ -4,10 +4,10 @@ title: SymRefreshModuleList function
 author: windows-sdk-content
 description: Refreshes the module list for the process.
 old-location: base\symrefreshmodulelist.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: c1c934e5-4a0a-4cb5-bb12-d6743f034ccb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SymRefreshModuleList, SymRefreshModuleList function, base.symrefreshmodulelist, dbghelp/SymRefreshModuleList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.5 or later
-- apiref
-: 
-- 
-: 
-- SymRefreshModuleList
-: 
 ---
 
 # SymRefreshModuleList function

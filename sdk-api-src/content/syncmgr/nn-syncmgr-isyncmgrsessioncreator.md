@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSessionCreator.htm
 tech.root: shell
 ms.assetid: dc9662c5-42fa-45d2-aadd-93a5fb25d27c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ISyncMgrSessionCreator, ISyncMgrSessionCreator interface [Windows Shell], ISyncMgrSessionCreator interface [Windows Shell],described, _shell_ISyncMgrSessionCreator, shell.ISyncMgrSessionCreator, syncmgr/ISyncMgrSessionCreator
 ms.prod: windows-hardware
 ms.technology: windows-devices

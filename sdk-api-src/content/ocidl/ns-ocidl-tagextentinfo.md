@@ -7,7 +7,7 @@ old-location: com\dvextentinfo.htm
 tech.root: com
 ms.assetid: bd603de2-39db-43a1-a391-01dcfedc073f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: DVEXTENTINFO, DVEXTENTINFO structure [COM], _ole_DVEXTENTINFO, com.dvextentinfo, ocidl/DVEXTENTINFO, tagExtentInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

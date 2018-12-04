@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFileEnumerator.htm
 tech.root: DirectWrite
 ms.assetid: d89efffd-ccda-4d55-8419-de142b0f9652
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteFontFileEnumerator, IDWriteFontFileEnumerator interface [Direct Write], IDWriteFontFileEnumerator interface [Direct Write],described, directwrite.IDWriteFontFileEnumerator, dwrite/IDWriteFontFileEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winmsg\setwindowplacement.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowplacement.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SetWindowPlacement, SetWindowPlacement function [Windows and Messages], _win32_SetWindowPlacement, _win32_setwindowplacement_cpp, winmsg.setwindowplacement, winui._win32_setwindowplacement, winuser/SetWindowPlacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetWindowPlacement
-: 
 ---
 
 # SetWindowPlacement function
@@ -75,11 +69,11 @@ A handle to the window.
 
 ### -param lpwndpl [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx">WINDOWPLACEMENT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/897612d9-505c-442b-8389-636214d347c2">WINDOWPLACEMENT</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx">WINDOWPLACEMENT</a> structure that specifies the new show state and window positions.
+A pointer to a <a href="https://msdn.microsoft.com/897612d9-505c-442b-8389-636214d347c2">WINDOWPLACEMENT</a> structure that specifies the new show state and window positions.
 
- Before calling <b>SetWindowPlacement</b>, set the <b>length</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx">WINDOWPLACEMENT</a> structure to sizeof(<b>WINDOWPLACEMENT</b>). <b>SetWindowPlacement</b> fails if the <b>length</b> member is not set correctly.
+ Before calling <b>SetWindowPlacement</b>, set the <b>length</b> member of the <a href="https://msdn.microsoft.com/897612d9-505c-442b-8389-636214d347c2">WINDOWPLACEMENT</a> structure to sizeof(<b>WINDOWPLACEMENT</b>). <b>SetWindowPlacement</b> fails if the <b>length</b> member is not set correctly.
 
 
 ## -returns
@@ -100,9 +94,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-If the information specified in <a href="https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx">WINDOWPLACEMENT</a> would result in a window that is completely off the screen, the system will automatically adjust the coordinates so that the window is visible, taking into account changes in screen resolution and multiple monitor configuration. 
+If the information specified in <a href="https://msdn.microsoft.com/897612d9-505c-442b-8389-636214d347c2">WINDOWPLACEMENT</a> would result in a window that is completely off the screen, the system will automatically adjust the coordinates so that the window is visible, taking into account changes in screen resolution and multiple monitor configuration. 
 
-The <b>length</b> member of <a href="https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx">WINDOWPLACEMENT</a> must be set to <code>sizeof(WINDOWPLACEMENT)</code>. If this member is not set correctly, the function returns <b>FALSE</b>. For additional remarks on the proper use of window placement coordinates, see <b>WINDOWPLACEMENT</b>. 
+The <b>length</b> member of <a href="https://msdn.microsoft.com/897612d9-505c-442b-8389-636214d347c2">WINDOWPLACEMENT</a> must be set to <code>sizeof(WINDOWPLACEMENT)</code>. If this member is not set correctly, the function returns <b>FALSE</b>. For additional remarks on the proper use of window placement coordinates, see <b>WINDOWPLACEMENT</b>. 
 
 
 
@@ -116,7 +110,7 @@ The <b>length</b> member of <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633518(v=VS.85).aspx">GetWindowPlacement</a>
+<a href="https://msdn.microsoft.com/3070e113-d38f-4f2f-bf52-ff4dd8ec13c5">GetWindowPlacement</a>
 
 
 
@@ -124,11 +118,11 @@ The <b>length</b> member of <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx">WINDOWPLACEMENT</a>
+<a href="https://msdn.microsoft.com/897612d9-505c-442b-8389-636214d347c2">WINDOWPLACEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

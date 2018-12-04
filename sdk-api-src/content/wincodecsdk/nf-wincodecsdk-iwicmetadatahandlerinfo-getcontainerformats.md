@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getcontainerformats.htm
 tech.root: wic
 ms.assetid: 46d5246d-4ef5-457c-b36b-68e0f956952b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetContainerFormats, GetContainerFormats method [Windows Imaging Component], GetContainerFormats method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetContainerFormats method, IWICMetadataHandlerInfo.GetContainerFormats, IWICMetadataHandlerInfo::GetContainerFormats, _wic_codec_iwicmetadatahandlerinfo_getcontainerformats, wic._wic_codec_iwicmetadatahandlerinfo_getcontainerformats, wincodecsdk/IWICMetadataHandlerInfo::GetContainerFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodecsdk.h
-: 
-- IWICMetadataHandlerInfo.GetContainerFormats
-: 
 ---
 
 # IWICMetadataHandlerInfo::GetContainerFormats

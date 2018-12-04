@@ -4,10 +4,10 @@ title: IADsNamespaces
 author: windows-sdk-content
 description: The IADsNamespaces interface is implemented by the ADs provider and is used for managing namespace objects.
 old-location: adsi\iadsnamespaces.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: edac671e-9ab1-4211-9fd7-1a0b965196b4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsNamespaces, IADsNamespaces interface [ADSI], IADsNamespaces interface [ADSI],described, _ds_iadsnamespaces, adsi.iadsnamespaces, iads/IADsNamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ hr = ADsGetObject(L"ADs:", IID_IADsNamespaces, (void**)&amp;pNs);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

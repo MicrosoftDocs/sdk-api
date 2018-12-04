@@ -4,10 +4,10 @@ title: INetFwProduct
 author: windows-sdk-content
 description: To access the properties of a third-party firewall registration.
 old-location: ics\inetfwproduct.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: e4cadbfd-d48d-4b38-a068-fc005d6f72af
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetFwProduct, INetFwProduct interface [ICS/ICF], INetFwProduct interface [ICS/ICF],described, ics.inetfwproduct, netfw/INetFwProduct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ The <b>INetFwProduct</b> interface allows an application or service to access th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

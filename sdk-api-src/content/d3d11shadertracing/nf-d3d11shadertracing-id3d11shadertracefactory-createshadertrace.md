@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shadertracefactory_createshadertrace.htm
 tech.root: direct3d11
 ms.assetid: 8F63E8B3-0E36-49D5-AB3B-1B1C7A9B841A
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateShaderTrace, CreateShaderTrace method [Direct3D 11], CreateShaderTrace method [Direct3D 11],ID3D11ShaderTraceFactory interface, ID3D11ShaderTraceFactory interface [Direct3D 11],CreateShaderTrace method, ID3D11ShaderTraceFactory.CreateShaderTrace, ID3D11ShaderTraceFactory::CreateShaderTrace, d3d11shadertracing/ID3D11ShaderTraceFactory::CreateShaderTrace, direct3d11.id3d11shadertracefactory_createshadertrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11shadertracing.h
-: 
-- ID3D11ShaderTraceFactory.CreateShaderTrace
-: 
 ---
 
 # ID3D11ShaderTraceFactory::CreateShaderTrace
@@ -75,12 +67,12 @@ A pointer to the interface of the shader to create the shader-trace interface fo
 
 ### -param pTraceDesc [in]
 
-A pointer to a  <a href="https://msdn.microsoft.com/en-us/library/Hh404498(v=VS.85).aspx">D3D11_SHADER_TRACE_DESC</a> structure that describes the shader-trace object to create. This parameter cannot be <b>NULL</b>.
+A pointer to a  <a href="https://msdn.microsoft.com/0BF5D48F-EBC5-445B-B315-496C50411C72">D3D11_SHADER_TRACE_DESC</a> structure that describes the shader-trace object to create. This parameter cannot be <b>NULL</b>.
 
 
 ### -param ppShaderTrace [out]
 
-A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh446840(v=VS.85).aspx">ID3D11ShaderTrace</a> interface for the shader-trace object that <b>CreateShaderTrace</b> creates.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/27FF1E53-262A-4642-A4A8-7E21163C6DF9">ID3D11ShaderTrace</a> interface for the shader-trace object that <b>CreateShaderTrace</b> creates.
 
 
 ## -returns
@@ -93,7 +85,7 @@ A pointer to a variable that receives a pointer to the <a href="https://msdn.mic
 <li><b>E_FAIL</b> if the reference device, which supports tracing, is not being used.</li>
 <li><b>E_OUTOFMEMORY</b> if memory is unavailable to complete the operation.</li>
 <li><b>E_INVALIDARG</b> if any parameter is NULL or invalid.</li>
-<li>Possibly other error codes that are described in <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.</li>
+<li>Possibly other error codes that are described in <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.</li>
 </ul>
 
 
@@ -114,7 +106,7 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446842(v=VS.85).aspx">ID3D11ShaderTraceFactory</a>
+<a href="https://msdn.microsoft.com/0B90EA4B-0176-49DC-8A57-4D847552EFA3">ID3D11ShaderTraceFactory</a>
  
 
  

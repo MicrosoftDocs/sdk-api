@@ -4,10 +4,10 @@ title: SspiCompareAuthIdentities function
 author: windows-sdk-content
 description: Compares the two specified credentials.
 old-location: security\sspicompareauthidentities.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: d2c4f363-3d86-48f0-bae1-4f9240d68bab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SspiCompareAuthIdentities, SspiCompareAuthIdentities function [Security], security.sspicompareauthidentities, sspi/SspiCompareAuthIdentities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SspiCompareAuthIdentities
-: 
 ---
 
 # SspiCompareAuthIdentities function

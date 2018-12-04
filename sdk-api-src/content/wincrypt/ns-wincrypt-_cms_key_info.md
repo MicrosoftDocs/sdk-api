@@ -4,10 +4,10 @@ title: "_CMS_KEY_INFO"
 author: windows-sdk-content
 description: Not used.
 old-location: security\cms_key_info.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 4aec1184-d375-48a0-8b98-d5ff5932d297
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCMS_KEY_INFO, CMS_KEY_INFO, CMS_KEY_INFO structure [Security], PCMS_KEY_INFO, PCMS_KEY_INFO structure pointer [Security], _CMS_KEY_INFO, security.cms_key_info, wincrypt/CMS_KEY_INFO, wincrypt/PCMS_KEY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

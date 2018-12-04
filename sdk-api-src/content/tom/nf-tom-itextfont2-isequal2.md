@@ -4,10 +4,10 @@ title: ITextFont2::IsEqual2
 author: windows-sdk-content
 description: Determines whether this text font object has the same properties as the specified text font object.
 old-location: controls\itextfont2_isequal2.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: c423bbdb-a108-4f29-8dc4-3dd35849f39a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ITextFont2 interface [Windows Controls],IsEqual2 method, ITextFont2.IsEqual2, ITextFont2::IsEqual2, IsEqual2, IsEqual2 method [Windows Controls], IsEqual2 method [Windows Controls],ITextFont2 interface, controls.itextfont2_isequal2, tom/ITextFont2::IsEqual2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextFont2.IsEqual2
-: 
 ---
 
 # ITextFont2::IsEqual2
@@ -77,7 +69,7 @@ The text font object to compare against.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787873(v=VS.85).aspx">tomBool</a> value that is <b>tomTrue</b> if the font objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
+A <a href="About_Rich_Edit_Controls.htm">tomBool</a> value that is <b>tomTrue</b> if the font objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
 
 
 ## -returns
@@ -97,7 +89,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
  For two text font objects to be equal, both must belong to the same Text Object Model (TOM) object. 
 
-The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUndefined</a> value.
+The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="tomconstants.htm">tomUndefined</a> value.
 
 
 
@@ -111,7 +103,7 @@ The <b>ITextFont::IsEqual2</b> method ignores entries for which either font obje
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787863(v=VS.85).aspx">ITextFont::IsEqual</a>
+<a href="https://msdn.microsoft.com/9c567d78-a915-4b44-bf52-61e72101c08b">ITextFont::IsEqual</a>
  
 
  

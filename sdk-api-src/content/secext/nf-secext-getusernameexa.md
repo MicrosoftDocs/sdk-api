@@ -4,10 +4,10 @@ title: GetUserNameExA function
 author: windows-sdk-content
 description: Retrieves the name of the user or other security principal associated with the calling thread. You can specify the format of the returned name.
 old-location: base\getusernameex.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 7e7d618b-2e64-4b0b-aed3-f3221b0443ca
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetUserNameEx, GetUserNameEx function, GetUserNameExA, GetUserNameExW, _win32_getusernameex, base.getusernameex, secext/GetUserNameEx, secext/GetUserNameExA, secext/GetUserNameExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetUserNameExA
-: 
 ---
 
 # GetUserNameExA function

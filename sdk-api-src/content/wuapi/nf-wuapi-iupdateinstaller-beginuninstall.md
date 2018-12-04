@@ -4,10 +4,10 @@ title: IUpdateInstaller::BeginUninstall
 author: windows-sdk-content
 description: Starts an asynchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_beginuninstall.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 6ff82120-aa8f-4daf-b9f9-e0129fad0a24
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: BeginUninstall, BeginUninstall method [Windows Update Agent], BeginUninstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],BeginUninstall method, IUpdateInstaller.BeginUninstall, IUpdateInstaller::BeginUninstall, wua.iupdateinstaller_beginuninstall, wuapi/IUpdateInstaller::BeginUninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateInstaller.BeginUninstall
-: 
 ---
 
 # IUpdateInstaller::BeginUninstall

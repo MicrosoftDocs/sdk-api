@@ -4,10 +4,10 @@ title: PFN_CMSG_IMPORT_MAIL_LIST
 author: windows-sdk-content
 description: Imports a content encryption key for a key transport recipient of an enveloped message.
 old-location: security\pfn_cmsg_import_mail_list.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5d473c20-31b8-48e3-9e38-4b4c06a44402
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PFN_CMSG_IMPORT_MAIL_LIST, PFN_CMSG_IMPORT_MAIL_LIST callback, PFN_CMSG_IMPORT_MAIL_LIST callback function [Security], security.pfn_cmsg_import_mail_list, wincrypt/PFN_CMSG_IMPORT_MAIL_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

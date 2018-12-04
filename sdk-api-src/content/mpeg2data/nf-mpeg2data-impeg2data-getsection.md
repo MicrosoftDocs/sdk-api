@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mpeg2data.h
-: 
-- IMpeg2Data.GetSection
-: 
 ---
 
 # IMpeg2Data::GetSection

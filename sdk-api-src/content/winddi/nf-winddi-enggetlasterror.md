@@ -7,7 +7,7 @@ old-location: display\enggetlasterror.htm
 tech.root: display
 ms.assetid: 47138077-125e-4da9-b0de-e437a9b1733d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EngGetLastError, EngGetLastError function [Display Devices], display.enggetlasterror, gdifncs_19c92fa6-2204-40e7-adc5-22a85b9ba0d5.xml, winddi/EngGetLastError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngGetLastError
-: 
 ---
 
 # EngGetLastError function

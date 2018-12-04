@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidStreamBufferRecordingControl.get_StartTime
-: 
 ---
 
 # IMSVidStreamBufferRecordingControl::get_StartTime

@@ -4,10 +4,10 @@ title: IADsNameTranslate::GetEx
 author: windows-sdk-content
 description: Gets the object names in the specified format.
 old-location: adsi\iadsnametranslate_getex.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 01c4fc79-ed5b-4a24-9b97-25b4095a9c8f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetEx, GetEx method [ADSI], GetEx method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],GetEx method, IADsNameTranslate.GetEx, IADsNameTranslate::GetEx, _ds_iadsnametranslate_getex, adsi.iadsnametranslate__getex, adsi.iadsnametranslate_getex, iads/IADsNameTranslate::GetEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsNameTranslate.GetEx
-: 
 ---
 
 # IADsNameTranslate::GetEx
@@ -72,13 +64,6 @@ The format type used for  the output names. For more information about the vario
 
 
 ### -param pvar
-
-TBD
-
-
-
-
-#### - pVarStr
 
 A variant array of strings that hold names of the objects returned.
 

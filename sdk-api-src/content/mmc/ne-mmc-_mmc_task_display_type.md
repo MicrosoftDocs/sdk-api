@@ -4,10 +4,10 @@ title: "_MMC_TASK_DISPLAY_TYPE"
 author: windows-sdk-content
 description: The MMC_TASK_DISPLAY_TYPE enumeration is introduced in MMC 1.1.
 old-location: mmc\mmc_task_display_type.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 55d90530-5cd0-42ae-8a5d-417f7f49edac
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MMC_TASK_DISPLAY_TYPE, MMC_TASK_DISPLAY_TYPE enumeration [MMC], MMC_TASK_DISPLAY_TYPE_BITMAP, MMC_TASK_DISPLAY_TYPE_CHOCOLATE_GIF, MMC_TASK_DISPLAY_TYPE_SYMBOL, MMC_TASK_DISPLAY_TYPE_VANILLA_GIF, MMC_TASK_DISPLAY_UNINITIALIZED, _MMC_TASK_DISPLAY_TYPE, _slate_mmc_task_display_type, mmc.mmc_task_display_type, mmc/MMC_TASK_DISPLAY_TYPE, mmc/MMC_TASK_DISPLAY_TYPE_BITMAP, mmc/MMC_TASK_DISPLAY_TYPE_CHOCOLATE_GIF, mmc/MMC_TASK_DISPLAY_TYPE_SYMBOL, mmc/MMC_TASK_DISPLAY_TYPE_VANILLA_GIF, mmc/MMC_TASK_DISPLAY_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices

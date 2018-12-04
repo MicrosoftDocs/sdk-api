@@ -4,10 +4,10 @@ title: IRegisteredTaskCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of registered tasks in the collection.
 old-location: taskschd\iregisteredtaskcollection_count.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 62667998-2743-488d-bea1-957a65006ad9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IRegisteredTaskCollection interface, IRegisteredTaskCollection interface [Task Scheduler],Count property, IRegisteredTaskCollection.Count, IRegisteredTaskCollection.get_Count, IRegisteredTaskCollection::Count, IRegisteredTaskCollection::get_Count, get_Count, taskschd.iregisteredtaskcollection_count, taskschd/IRegisteredTaskCollection::Count, taskschd/IRegisteredTaskCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IRegisteredTaskCollection.get_Count
-: 
 ---
 
 # IRegisteredTaskCollection::get_Count

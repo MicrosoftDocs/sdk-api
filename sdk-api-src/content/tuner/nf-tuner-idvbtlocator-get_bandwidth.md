@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IDVBTLocator.get_Bandwidth
-: 
 ---
 
 # IDVBTLocator::get_Bandwidth

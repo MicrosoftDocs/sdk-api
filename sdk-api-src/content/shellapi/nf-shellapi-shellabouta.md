@@ -7,7 +7,7 @@ old-location: shell\ShellAbout.htm
 tech.root: shell
 ms.assetid: 0919e356-84e8-475e-8628-23097b19c50d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ShellAbout, ShellAbout function [Windows Shell], ShellAboutA, ShellAboutW, _win32_ShellAbout, shell.ShellAbout, shellapi/ShellAbout, shellapi/ShellAboutA, shellapi/ShellAboutW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ShellAboutA
-: 
 ---
 
 # ShellAboutA function

@@ -4,10 +4,10 @@ title: GetEnlistmentRecoveryInformation function
 author: windows-sdk-content
 description: Retrieves an opaque structure of recovery data from KTM.
 old-location: fs\getenlistmentrecoveryinformation_func.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: 05bfbe81-5f3d-4e32-b4fa-4532227f522e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetEnlistmentRecoveryInformation, GetEnlistmentRecoveryInformation function [Files], fs.getenlistmentrecoveryinformation_func, ktmw32/GetEnlistmentRecoveryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetEnlistmentRecoveryInformation
-: 
 ---
 
 # GetEnlistmentRecoveryInformation function

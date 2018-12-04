@@ -4,10 +4,10 @@ title: FindCloseUrlCache function
 author: windows-sdk-content
 description: Closes the specified cache enumeration handle.
 old-location: wininet\findcloseurlcache.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 54fc7bea-4cc1-4034-93c3-49ec88817648
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FindCloseUrlCache, FindCloseUrlCache function [WinINet], _inet_findcloseurlcache_function, wininet.findcloseurlcache, wininet/FindCloseUrlCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FindCloseUrlCache
-: 
 ---
 
 # FindCloseUrlCache function

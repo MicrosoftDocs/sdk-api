@@ -4,10 +4,10 @@ title: IAzApplication3::CreateRoleAssignment
 author: windows-sdk-content
 description: Creates a new IAzRoleAssignment object with the specified name.
 old-location: security\iazapplication3_createroleassignment.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 0646601d-97e6-437a-abfe-99fdb5bb1354
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: CreateRoleAssignment, CreateRoleAssignment method [Security], CreateRoleAssignment method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateRoleAssignment method, IAzApplication3.CreateRoleAssignment, IAzApplication3::CreateRoleAssignment, azroles/IAzApplication3::CreateRoleAssignment, security.iazapplication3_createroleassignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzApplication3.CreateRoleAssignment
-: 
 ---
 
 # IAzApplication3::CreateRoleAssignment
@@ -75,7 +67,7 @@ A string that contains the name of the new <a href="https://msdn.microsoft.com/3
 
 The address of a pointer to the <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object that this method creates.
 
-When you have finished using this <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object, release it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+When you have finished using this <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object, release it by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflict_Resolve.htm
 tech.root: shell
 ms.assetid: 9680b96e-9a83-45e1-a2bf-674aff6490ec
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ISyncMgrConflict interface [Windows Shell],Resolve method, ISyncMgrConflict.Resolve, ISyncMgrConflict::Resolve, Resolve, Resolve method [Windows Shell], Resolve method [Windows Shell],ISyncMgrConflict interface, _shell_ISyncMgrConflict_Resolve, shell.ISyncMgrConflict_Resolve, syncmgr/ISyncMgrConflict::Resolve
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- syncmgr.h
-: 
-- ISyncMgrConflict.Resolve
-: 
 ---
 
 # ISyncMgrConflict::Resolve

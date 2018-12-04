@@ -3,12 +3,12 @@ UID: NF:gdiplusbrush.LinearGradientBrush.LinearGradientBrush(IN const PointF &,I
 title: LinearGradientBrush::LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &)
 author: windows-sdk-content
 description: Creates a LinearGradientBrush::LinearGradientBrush object from a set of boundary points and boundary colors.
-old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_Point_point1_Point_point2_Color_color1_Color_.htm
+old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_PointF_point1_PointF_point2_Color_color1_Colo.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors\lineargradientbrush_61pointamppoint1_pointamppoint2_coloramp.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors\lineargradientbrush_22pointfamppoint1_pointfamppoint2_colora.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: LinearGradientBrush, LinearGradientBrush class [GDI+],LinearGradientBrush constructor, LinearGradientBrush constructor [GDI+], LinearGradientBrush constructor [GDI+],LinearGradientBrush class, LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &), LinearGradientBrush.LinearGradientBrush(const Point&,const Point&,const Color&,const Color&), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &), _gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_Point_point1_Point_point2_Color_color1_Color_, gdiplus._gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_Point_point1_Point_point2_Color_color1_Color_
+ms.date: 11/16/2018
+ms.keywords: LinearGradientBrush, LinearGradientBrush class [GDI+],LinearGradientBrush constructor, LinearGradientBrush constructor [GDI+], LinearGradientBrush constructor [GDI+],LinearGradientBrush class, LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &), LinearGradientBrush.LinearGradientBrush(const PointF&,const PointF&,const Color&,const Color&), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(IN const PointF &,IN const PointF &,IN const Color &,IN const Color &), _gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_PointF_point1_PointF_point2_Color_color1_Colo, gdiplus._gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_PointF_point1_PointF_point2_Color_color1_Colo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusbrush.h
-: 
-- LinearGradientBrush.LinearGradientBrush
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -69,14 +61,14 @@ Creates a <b>LinearGradientBrush::LinearGradientBrush</b> object from a set of b
 
 ### -param point1 [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a></b>
 
 Reference to a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object that specifies the starting point of the gradient. The starting boundary line passes through the starting point. 
 
 
 ### -param point2 [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a></b>
 
 Reference to a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object that specifies the ending point of the gradient. The ending boundary line passes through the ending point. 
 
@@ -108,23 +100,28 @@ The "directional line," an imaginary straight line, is defined by the starting p
 
 The following example creates a linear gradient brush from a set of boundary points and boundary colors. The code then uses the brush to paint the interior of a rectangle.
 
-
-```cpp
-VOID Example_Construct01(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_Construct02(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
    LinearGradientBrush linGrBrush(
-      Point(50, 50),
-      Point(200, 100),
+      PointF(0.8f, 1.6f),
+      PointF(3.0f, 2.4f),
       Color(255, 255, 0, 0),   // red
       Color(255, 0, 0, 255));  // blue
 
-   myGraphics.FillRectangle(&linGrBrush, 0, 0, 300, 200);
-}
-```
-
-
+   myGraphics.SetPageUnit(UnitInch);
+   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 4, 3); 
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -137,7 +134,7 @@ VOID Example_Construct01(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 

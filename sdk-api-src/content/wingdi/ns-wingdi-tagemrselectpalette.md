@@ -7,7 +7,7 @@ old-location: gdi\emrselectpalette.htm
 tech.root: gdi
 ms.assetid: f83367c0-406a-4a5f-961f-8e5afe6707fd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PEMRSELECTPALETTE, EMRSELECTPALETTE, EMRSELECTPALETTE structure [Windows GDI], PEMRSELECTPALETTE, PEMRSELECTPALETTE structure pointer [Windows GDI], _win32_EMRSELECTPALETTE_str, gdi.emrselectpalette, tagEMRSELECTPALETTE, wingdi/EMRSELECTPALETTE, wingdi/PEMRSELECTPALETTE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

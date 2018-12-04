@@ -4,10 +4,10 @@ title: IOfflineFilesShareInfo::GetShareItem
 author: windows-sdk-content
 description: Finds the cache item representing the closest ancestor share to the item.
 old-location: of\iofflinefilesshareinfo_getshareitem.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: fd4f92fb-1147-4be4-a61d-04f2f371b6c6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetShareItem, GetShareItem method [Offline Files], GetShareItem method [Offline Files],IOfflineFilesShareInfo interface, IOfflineFilesShareInfo interface [Offline Files],GetShareItem method, IOfflineFilesShareInfo.GetShareItem, IOfflineFilesShareInfo::GetShareItem, cscobj/IOfflineFilesShareInfo::GetShareItem, of.iofflinefilesshareinfo_getshareitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesShareInfo.GetShareItem
-: 
 ---
 
 # IOfflineFilesShareInfo::GetShareItem
@@ -86,7 +78,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530611(v=VS.85).aspx">IOfflineFilesShareInfo</a>
+<a href="https://msdn.microsoft.com/9647aae3-06ca-4813-8243-3d0fb794802d">IOfflineFilesShareInfo</a>
  
 
  

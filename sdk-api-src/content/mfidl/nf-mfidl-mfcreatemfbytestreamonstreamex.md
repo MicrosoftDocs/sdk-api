@@ -7,7 +7,7 @@ old-location: mf\mfcreatemfbytestreamonstreamex.htm
 tech.root: medfound
 ms.assetid: C16C2A5D-7373-4EA9-A02C-3AF97EA47D34
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFCreateMFByteStreamOnStreamEx, MFCreateMFByteStreamOnStreamEx function [Media Foundation], mf.mfcreatemfbytestreamonstreamex, mf.mfcreatemfbytestreamonwinrtstream, mfidl/MFCreateMFByteStreamOnStreamEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateMFByteStreamOnStreamEx
-: 
 ---
 
 # MFCreateMFByteStreamOnStreamEx function
@@ -56,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a Microsoft Media Foundation byte stream that wraps an <a href="https://msdn.microsoft.com/en-us/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> object.
+Creates a Microsoft Media Foundation byte stream that wraps an <a href="https://msdn.microsoft.com/a9a4bd11-8c69-4826-9ea0-6f42421c8367">IRandomAccessStream</a> object.
 
 
 ## -parameters
@@ -66,7 +60,7 @@ Creates a Microsoft Media Foundation byte stream that wraps an <a href="https://
 
 ### -param punkStream [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/a9a4bd11-8c69-4826-9ea0-6f42421c8367">IRandomAccessStream</a> interface.
 
 
 ### -param ppByteStream [out]

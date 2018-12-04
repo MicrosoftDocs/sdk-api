@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_displayframe.htm
 tech.root: DirectShow
 ms.assetid: 7913401f-881a-4364-8504-b02e85a5e343
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DisplayFrame, DisplayFrame method [DirectShow], DisplayFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],DisplayFrame method, IAMVideoAccelerator.DisplayFrame, IAMVideoAccelerator::DisplayFrame, IAMVideoAcceleratorDisplayFrame, dshow.iamvideoaccelerator_displayframe, videoacc/IAMVideoAccelerator::DisplayFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- videoacc.h
-: 
-- IAMVideoAccelerator.DisplayFrame
-: 
 ---
 
 # IAMVideoAccelerator::DisplayFrame

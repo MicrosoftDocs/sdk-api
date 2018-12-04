@@ -7,7 +7,7 @@ old-location: xps\xps_style_simulation.htm
 tech.root: printdocs
 ms.assetid: 3f77c349-ba78-44e9-866a-9f654ed0e9dd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: XPS_STYLE_SIMULATION, XPS_STYLE_SIMULATION enumeration [XPS Documents and Packaging], XPS_STYLE_SIMULATION_BOLD, XPS_STYLE_SIMULATION_BOLDITALIC, XPS_STYLE_SIMULATION_ITALIC, XPS_STYLE_SIMULATION_NONE, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0004, xps.xps_style_simulation, xpsobjectmodel/XPS_STYLE_SIMULATION, xpsobjectmodel/XPS_STYLE_SIMULATION_BOLD, xpsobjectmodel/XPS_STYLE_SIMULATION_BOLDITALIC, xpsobjectmodel/XPS_STYLE_SIMULATION_ITALIC, xpsobjectmodel/XPS_STYLE_SIMULATION_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices

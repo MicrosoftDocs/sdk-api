@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- infotech.h
-: 
-- IITWordWheel.Open
-: 
 ---
 
 # IITWordWheel::Open
@@ -70,7 +62,7 @@ Opens a word wheel.
 
 ### -param lpITDB [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms670034(v=VS.85).aspx">database object</a>.
+Pointer to <a href="https://msdn.microsoft.com/16051c95-5fad-43ea-9b85-a4754077dc3c">database object</a>.
 
 
 
@@ -151,7 +143,7 @@ Word wheel is already open.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms670034(v=VS.85).aspx">IITDatabase</a>* interface or <i>lpszMoniker</i> parameter was NULL.
+The <a href="https://msdn.microsoft.com/16051c95-5fad-43ea-9b85-a4754077dc3c">IITDatabase</a>* interface or <i>lpszMoniker</i> parameter was NULL.
 
 </td>
 </tr>
@@ -178,7 +170,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms670034(v=VS.85).aspx">II
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670057(v=VS.85).aspx">IITWordWheel</a>
+<a href="https://msdn.microsoft.com/9734c73e-9325-4a6d-bbf3-3f87f96a662e">IITWordWheel</a>
  
 
  

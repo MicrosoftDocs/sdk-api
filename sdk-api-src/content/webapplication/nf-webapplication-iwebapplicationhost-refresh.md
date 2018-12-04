@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationhost_refresh.htm
 tech.root: debug_wwahost
 ms.assetid: 66f94cc9-9407-4844-a100-8144fc6f45ce
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/23/2018
 ms.keywords: IWebApplicationHost interface [Debugging Windows Store apps],Refresh method, IWebApplicationHost.Refresh, IWebApplicationHost::Refresh, Refresh, Refresh method [Debugging Windows Store apps], Refresh method [Debugging Windows Store apps],IWebApplicationHost interface, debug.iwebapplicationhost_refresh, webapplication/IWebApplicationHost::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- webapplication.h
-: 
-- IWebApplicationHost.Refresh
-: 
 ---
 
 # IWebApplicationHost::Refresh

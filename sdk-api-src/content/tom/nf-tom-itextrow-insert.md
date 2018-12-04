@@ -4,10 +4,10 @@ title: ITextRow::Insert
 author: windows-sdk-content
 description: Inserts a row, or rows, at the location identified by the associated ITextRange2 object.
 old-location: controls\itextrow_insert.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: b46a6391-7332-4cca-8199-d801a1e4c299
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ITextRow interface [Windows Controls],Insert method, ITextRow.Insert, ITextRow::Insert, Insert, Insert method [Windows Controls], Insert method [Windows Controls],ITextRow interface, controls.itextrow_insert, tom/ITextRow::Insert
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRow.Insert
-: 
 ---
 
 # ITextRow::Insert

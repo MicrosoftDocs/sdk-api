@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BCryptDeriveKeyPBKDF2
-: 
 ---
 
 # BCryptDeriveKeyPBKDF2 function

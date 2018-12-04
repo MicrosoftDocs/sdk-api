@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::WaitForCompletion
 author: windows-sdk-content
 description: Waits for the specified period of time or until the job has finished running.
 old-location: fsrm\ifsrmfilemanagementjob_waitforcompletion.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 8d0d0046-989f-4d6a-b9da-caf6df44e1db
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],WaitForCompletion method, IFsrmFileManagementJob.WaitForCompletion, IFsrmFileManagementJob::WaitForCompletion, WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_waitforcompletion, fsrm.ifsrmfilemanagementjob_waitforcompletion, fsrmreports/IFsrmFileManagementJob::WaitForCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmFileManagementJob.WaitForCompletion
-: 
 ---
 
 # IFsrmFileManagementJob::WaitForCompletion

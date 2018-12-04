@@ -4,10 +4,10 @@ title: IDataCollectorSet::get_Security
 author: windows-sdk-content
 description: Retrieves or sets access control information that determines who can access this data collector set.
 old-location: pla\idatacollectorset_get_security.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: cd915df3-2823-4d3e-bfd0-545c24f95267
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDataCollectorSet interface [PLA],Security property, IDataCollectorSet.Security, IDataCollectorSet.get_Security, IDataCollectorSet::Security, IDataCollectorSet::get_Security, IDataCollectorSet::put_Security, Security property [PLA], Security property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_security, get_Security, pla.idatacollectorset_get_security, pla/IDataCollectorSet::Security, pla/IDataCollectorSet::get_Security, pla/IDataCollectorSet::put_Security
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollectorSet.get_Security
-: 
 ---
 
 # IDataCollectorSet::get_Security

@@ -4,10 +4,10 @@ title: NetValidateName function
 author: windows-sdk-content
 description: The NetValidateName function verifies that a name is valid for name type specified(computer name, workgroup name, domain name, or DNS computer name).
 old-location: netmgmt\netvalidatename.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 772603df-ec17-4a83-a715-2d9a14d5c2bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetSetupDnsMachine, NetSetupDomain, NetSetupMachine, NetSetupNonExistentDomain, NetSetupUnknown, NetSetupWorkgroup, NetValidateName, NetValidateName function [Network Management], _win32_netvalidatename, lmjoin/NetValidateName, netmgmt.netvalidatename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetValidateName
-: 
 ---
 
 # NetValidateName function

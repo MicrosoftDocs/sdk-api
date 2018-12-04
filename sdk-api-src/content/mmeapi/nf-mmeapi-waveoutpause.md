@@ -7,7 +7,7 @@ old-location: multimedia\waveoutpause.htm
 tech.root: Multimedia
 ms.assetid: a54eb1f4-fa80-4995-a70f-1aa480f46e86
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_waveOutPause, mmeapi/waveOutPause, multimedia.waveoutpause, waveOutPause, waveOutPause function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- waveOutPause
-: 
 ---
 
 # waveOutPause function

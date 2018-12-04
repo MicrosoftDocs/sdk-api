@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BCryptCloseAlgorithmProvider
-: 
 ---
 
 # BCryptCloseAlgorithmProvider function
@@ -67,7 +61,7 @@ The <b>BCryptCloseAlgorithmProvider</b> function closes an algorithm provider.
 
 ### -param hAlgorithm [in, out]
 
-A handle that represents the algorithm provider to close. This handle is obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa375479(v=VS.85).aspx">BCryptOpenAlgorithmProvider</a> function.
+A handle that represents the algorithm provider to close. This handle is obtained by calling the <a href="https://msdn.microsoft.com/aceba9c0-19e6-4f3c-972a-752feed4a9f8">BCryptOpenAlgorithmProvider</a> function.
 
 
 ### -param dwFlags [in]
@@ -137,7 +131,7 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375479(v=VS.85).aspx">BCryptOpenAlgorithmProvider</a>
+<a href="https://msdn.microsoft.com/aceba9c0-19e6-4f3c-972a-752feed4a9f8">BCryptOpenAlgorithmProvider</a>
  
 
  

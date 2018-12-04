@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IATSCLocator.put_PhysicalChannel
-: 
 ---
 
 # IATSCLocator::put_PhysicalChannel

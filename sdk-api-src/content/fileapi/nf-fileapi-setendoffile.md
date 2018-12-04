@@ -7,7 +7,7 @@ old-location: fs\setendoffile.htm
 tech.root: fileio
 ms.assetid: 2a579609-144a-4b77-8605-87aecf1f0957
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: SetEndOfFile, SetEndOfFile function [Files], _win32_setendoffile, base.setendoffile, fileapi/SetEndOfFile, fs.setendoffile, winbase/SetEndOfFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetEndOfFile
-: 
 ---
 
 # SetEndOfFile function

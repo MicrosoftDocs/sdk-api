@@ -4,10 +4,10 @@ title: ITaskScheduler
 author: windows-sdk-content
 description: Provides the methods for scheduling tasks.
 old-location: taskschd\itaskscheduler.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 70c276e1-a45a-4a7d-aacc-3eb647675098
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITaskScheduler, ITaskScheduler interface [Task Scheduler], ITaskScheduler interface [Task Scheduler],described, _msb_itaskscheduler, mstask/ITaskScheduler, taskschd.itaskscheduler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 Provides the methods for scheduling tasks.
 
-It is the primary interface of the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
+It is the primary interface of the <a href="t.htm">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
 
 
 ## -inheritance

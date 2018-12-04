@@ -4,10 +4,10 @@ title: ICertServerExit::GetRequestProperty
 author: windows-sdk-content
 description: Returns a named property from a request.
 old-location: security\icertserverexit_getrequestproperty.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: e9b98573-4eb0-4add-988b-dc34d6c15436
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CCertServerExit object [Security],GetRequestProperty method, CR_IN_KEYGEN, CR_IN_PKCS10, CR_IN_PKCS7, Disposition, DispositionMessage, GetRequestProperty, GetRequestProperty method [Security], GetRequestProperty method [Security],CCertServerExit object, GetRequestProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestProperty method, ICertServerExit.GetRequestProperty, ICertServerExit::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawCACertificate, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, ResolvedWhen, StatusCode, SubmittedWhen, _certsrv_icertserverexit_getrequestproperty, certif/ICertServerExit::GetRequestProperty, security.icertserverexit_getrequestproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certif.h
-: 
-- ICertServerExit.GetRequestProperty
-: 
 ---
 
 # ICertServerExit::GetRequestProperty
@@ -72,9 +64,9 @@ Note that the request is used to hold all associated states for the request and 
 ### -param strPropertyName [in]
 
 Specifies the property to retrieve. There is a stock set of certificate properties, referred to as the name properties, that are always valid and can be retrieved by calling this method. For information about these properties, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386991(v=VS.85).aspx">Name Properties</a>.
+<a href="https://msdn.microsoft.com/c32756f7-4431-410e-ab3a-c7b748a43829">Name Properties</a>.
 
-Other properties valid for <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate requests</a> include the request properties.
+Other properties valid for <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate requests</a> include the request properties.
 
 <div class="alert"><b>Note</b>  The request's <b>DistinguishedName</b> and <b>RawName</b> properties are accessible by <b>GetRequestProperty</b> only if the certificate is requested by using a PKCS #10 certificate request or another supported request format that contains encoded subject name information. Note that KeyGen requests do not contain encoded subject name information.</div>
 <div> </div>
@@ -117,7 +109,7 @@ Informational disposition message
 </dl>
 </td>
 <td width="60%">
-Certificate for the issuing <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a>
+Certificate for the issuing <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>
 
 </td>
 </tr>
@@ -323,7 +315,7 @@ A pointer to the <b>VARIANT</b> that will contain the request property type.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and *<i>pvarPropertyValue</i> is set to the <b>VARIANT</b> that contains the request property value.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the request property value.
@@ -336,7 +328,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 You must call 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385079(v=VS.85).aspx">ICertServerExit::SetContext</a> prior to using this method.
+<a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">ICertServerExit::SetContext</a> prior to using this method.
 
 
 #### Examples
@@ -385,15 +377,15 @@ if ( NULL != bstrPropName )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385055(v=VS.85).aspx">ICertServerExit</a>
+<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385079(v=VS.85).aspx">ICertServerExit::SetContext</a>
+<a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">ICertServerExit::SetContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386991(v=VS.85).aspx">Name Properties</a>
+<a href="https://msdn.microsoft.com/c32756f7-4431-410e-ab3a-c7b748a43829">Name Properties</a>
  
 
  

@@ -4,10 +4,10 @@ title: SetDynamicTimeZoneInformation function
 author: windows-sdk-content
 description: Sets the current time zone and dynamic daylight saving time settings. These settings control translations from Coordinated Universal Time (UTC) to local time.
 old-location: base\setdynamictimezoneinformation.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 98ad7b94-f649-4270-8348-0aba5b59a433
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SetDynamicTimeZoneInformation, SetDynamicTimeZoneInformation function, base.setdynamictimezoneinformation, timezoneapi/SetDynamicTimeZoneInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetDynamicTimeZoneInformation
-: 
 ---
 
 # SetDynamicTimeZoneInformation function

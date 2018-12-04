@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dsurface9__releasedc.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__releasedc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDirect3DSurface9 interface [Direct3D 9],ReleaseDC method, IDirect3DSurface9.ReleaseDC, IDirect3DSurface9::ReleaseDC, ReleaseDC, ReleaseDC method [Direct3D 9], ReleaseDC method [Direct3D 9],IDirect3DSurface9 interface, c9032355-5437-491b-97b3-727d5c94fbfa, d3d9helper/IDirect3DSurface9::ReleaseDC, direct3d9.idirect3dsurface9__releasedc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d9helper.h
-: 
-- IDirect3DSurface9.ReleaseDC
-: 
 ---
 
 # IDirect3DSurface9::ReleaseDC
@@ -78,7 +70,7 @@ Handle to a device context.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if the argument is invalid.
 
@@ -91,7 +83,7 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 An hdc is a Windows resource. It must be released after use so Windows can return it to the pool of available resources.
 
-This method will release only the device context returned by <a href="https://msdn.microsoft.com/en-us/library/Bb205894(v=VS.85).aspx">IDirect3DSurface9::GetDC</a>. Otherwise, this method will fail.
+This method will release only the device context returned by <a href="https://msdn.microsoft.com/3456470b-60c5-4ac2-bb71-714b72e2ed3b">IDirect3DSurface9::GetDC</a>. Otherwise, this method will fail.
 
 
 
@@ -101,11 +93,11 @@ This method will release only the device context returned by <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>
+<a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205894(v=VS.85).aspx">IDirect3DSurface9::GetDC</a>
+<a href="https://msdn.microsoft.com/3456470b-60c5-4ac2-bb71-714b72e2ed3b">IDirect3DSurface9::GetDC</a>
  
 
  

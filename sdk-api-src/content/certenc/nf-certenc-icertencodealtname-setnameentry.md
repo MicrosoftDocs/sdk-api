@@ -4,10 +4,10 @@ title: ICertEncodeAltName::SetNameEntry
 author: windows-sdk-content
 description: Sets a name at a specified index of the alternate name array.
 old-location: security\icertencodealtname_setnameentry.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5da07c09-9213-4604-b058-5e69df646b09
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CCertEncodeAltName object [Security],SetNameEntry method, CERT_ALT_NAME_DIRECTORY_NAME, CERT_ALT_NAME_DNS_NAME, CERT_ALT_NAME_IP_ADDRESS, CERT_ALT_NAME_OTHER_NAME, CERT_ALT_NAME_REGISTERED_ID, CERT_ALT_NAME_RFC822_NAME, CERT_ALT_NAME_URL, ICertEncodeAltName interface [Security],SetNameEntry method, ICertEncodeAltName.SetNameEntry, ICertEncodeAltName::SetNameEntry, SetNameEntry, SetNameEntry method [Security], SetNameEntry method [Security],CCertEncodeAltName object, SetNameEntry method [Security],ICertEncodeAltName interface, _certsrv_icertencodealtname_setnameentry, certenc/ICertEncodeAltName::SetNameEntry, security.icertencodealtname_setnameentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenc.h
-: 
-- ICertEncodeAltName.SetNameEntry
-: 
 ---
 
 # ICertEncodeAltName::SetNameEntry
@@ -62,7 +54,7 @@ req.redist:
 The <b>SetNameEntry</b> method sets a name at a specified index of the  alternate name array.
 
 Before using this method, you must call 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383627(v=VS.85).aspx">ICertEncodeAltName::Reset</a> so that the object knows how many elements are in the array.
+<a href="https://msdn.microsoft.com/99aa43fe-534b-4696-8bfc-7049b16be1cf">ICertEncodeAltName::Reset</a> so that the object knows how many elements are in the array.
 
 
 ## -parameters
@@ -122,7 +114,7 @@ The name is an octet string that represents an Internet Protocol address.
 </dl>
 </td>
 <td width="60%">
-The name is a registered <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID).
+The name is a registered <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
 
 </td>
 </tr>
@@ -152,7 +144,7 @@ The name is an IA5 string that contains a URL in the format <i>Service</i><b>://
 </dl>
 </td>
 <td width="60%">
-The name consists of an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) and a binary <a href="https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx">BLOB</a>.
+The name consists of an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and a binary <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>.
 
 </td>
 </tr>
@@ -172,7 +164,7 @@ Specifies the alternate name.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -182,7 +174,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383295(v=VS.85).aspx">ICertEncodeAltName</a>
+<a href="https://msdn.microsoft.com/e0ecfcb0-f2ca-4e1c-a054-c83c03d55465">ICertEncodeAltName</a>
  
 
  

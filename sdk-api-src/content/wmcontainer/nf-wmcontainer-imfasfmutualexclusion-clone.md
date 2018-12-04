@@ -7,7 +7,7 @@ old-location: mf\imfasfmutualexclusion_clone.htm
 tech.root: medfound
 ms.assetid: 32bd09d7-9d85-4692-8b2f-6afab3234fa9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 32bd09d7-9d85-4692-8b2f-6afab3234fa9, Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],Clone method, IMFASFMutualExclusion.Clone, IMFASFMutualExclusion::Clone, mf.imfasfmutualexclusion_clone, wmcontainer/IMFASFMutualExclusion::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmcontainer.h
-: 
-- IMFASFMutualExclusion.Clone
-: 
 ---
 
 # IMFASFMutualExclusion::Clone

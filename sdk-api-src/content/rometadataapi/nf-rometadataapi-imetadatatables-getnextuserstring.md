@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_getnextuserstring.htm
 tech.root: WinRT
 ms.assetid: d35a6622-df0a-4949-bc22-9bbd583337d4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetNextUserString, GetNextUserString method [Windows Runtime], GetNextUserString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNextUserString method, IMetaDataTables.GetNextUserString, IMetaDataTables::GetNextUserString, rometadataapi/IMetaDataTables::GetNextUserString, winrt.imetadatatables_getnextuserstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rometadataapi.h
-: 
-- IMetaDataTables.GetNextUserString
-: 
 ---
 
 # IMetaDataTables::GetNextUserString

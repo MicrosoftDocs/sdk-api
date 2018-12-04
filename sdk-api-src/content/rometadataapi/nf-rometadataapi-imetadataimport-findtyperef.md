@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_findtyperef.htm
 tech.root: WinRT
 ms.assetid: ec89d7c0-b607-4885-b819-3eb8022ad46d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FindTypeRef, FindTypeRef method [Windows Runtime], FindTypeRef method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],FindTypeRef method, IMetaDataImport.FindTypeRef, IMetaDataImport::FindTypeRef, rometadataapi/IMetaDataImport::FindTypeRef, winrt.imetadataimport_findtyperef
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rometadataapi.h
-: 
-- IMetaDataImport.FindTypeRef
-: 
 ---
 
 # IMetaDataImport::FindTypeRef

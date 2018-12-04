@@ -4,10 +4,10 @@ title: "_COLORMAP"
 author: windows-sdk-content
 description: Contains information used by the CreateMappedBitmap function to map the colors of the bitmap.
 old-location: controls\COLORMAP.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\colormap.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPCOLORMAP, COLORMAP, COLORMAP structure [Windows Controls], LPCOLORMAP, LPCOLORMAP structure pointer [Windows Controls], _COLORMAP, _win32_COLORMAP, _win32_COLORMAP_cpp, commctrl/COLORMAP, commctrl/LPCOLORMAP, controls.COLORMAP, controls._win32_COLORMAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information used by the <a href="https://msdn.microsoft.com/en-us/library/Bb787467(v=VS.85).aspx">CreateMappedBitmap</a> function to map the colors of the bitmap. 
+Contains information used by the <a href="https://msdn.microsoft.com/dc22a03b-e453-4d18-aa3d-af45e8e620e5">CreateMappedBitmap</a> function to map the colors of the bitmap. 
 
 
 ## -struct-fields
@@ -60,14 +60,14 @@ Contains information used by the <a href="https://msdn.microsoft.com/en-us/libra
 
 ### -field from
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
 Color to map from. 
 
 
 ### -field to
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
 Color to map to. 
 

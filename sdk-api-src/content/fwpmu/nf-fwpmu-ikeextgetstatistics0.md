@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IkeextGetStatistics0
-: 
 ---
 
 # IkeextGetStatistics0 function

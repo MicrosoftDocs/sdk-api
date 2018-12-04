@@ -4,10 +4,10 @@ title: IFsrmQuotaManager::CreateQuotaCollection
 author: windows-sdk-content
 description: Creates an empty collection to which you can add quotas.
 old-location: fsrm\ifsrmquotamanager_createquotacollection.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 88656cb9-1e72-4f82-ac09-fbb3c8a36afc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateQuotaCollection, CreateQuotaCollection method [File Server Resource Manager], CreateQuotaCollection method [File Server Resource Manager],FsrmQuotaManager class, CreateQuotaCollection method [File Server Resource Manager],IFsrmQuotaManager interface, CreateQuotaCollection method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],CreateQuotaCollection method, IFsrmQuotaManager interface [File Server Resource Manager],CreateQuotaCollection method, IFsrmQuotaManager.CreateQuotaCollection, IFsrmQuotaManager::CreateQuotaCollection, IFsrmQuotaManagerEx interface [File Server Resource Manager],CreateQuotaCollection method, IFsrmQuotaManagerEx::CreateQuotaCollection, fs.ifsrmquotamanager_createquotacollection, fsrm.ifsrmquotamanager_createquotacollection, fsrmquota/IFsrmQuotaManager::CreateQuotaCollection, fsrmquota/IFsrmQuotaManagerEx::CreateQuotaCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmquota.h
-: 
-- IFsrmQuotaManager.CreateQuotaCollection
-: 
 ---
 
 # IFsrmQuotaManager::CreateQuotaCollection

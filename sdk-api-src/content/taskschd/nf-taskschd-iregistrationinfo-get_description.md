@@ -4,10 +4,10 @@ title: IRegistrationInfo::get_Description
 author: windows-sdk-content
 description: Gets or sets the description of the task.
 old-location: taskschd\iregistrationinfo_description.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 03b0f62c-0f2b-4e0a-8518-de3b94f6a197
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Description property [Task Scheduler], Description property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Description property, IRegistrationInfo.Description, IRegistrationInfo.get_Description, IRegistrationInfo::Description, IRegistrationInfo::get_Description, IRegistrationInfo::put_Description, get_Description, taskschd.iregistrationinfo_description, taskschd/IRegistrationInfo::Description, taskschd/IRegistrationInfo::get_Description, taskschd/IRegistrationInfo::put_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IRegistrationInfo.get_Description
-: 
 ---
 
 # IRegistrationInfo::get_Description

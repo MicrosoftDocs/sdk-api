@@ -7,7 +7,7 @@ old-location: shell\IApplicationDesignModeSettings_TriggerEdgeGesture.htm
 tech.root: shell
 ms.assetid: 0B74E779-543F-411F-B6BA-44F00C4D70BE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: EGK_KEYBOARD, EGK_MOUSE, EGK_TOUCH, IApplicationDesignModeSettings interface [Windows Shell],TriggerEdgeGesture method, IApplicationDesignModeSettings.TriggerEdgeGesture, IApplicationDesignModeSettings::TriggerEdgeGesture, TriggerEdgeGesture, TriggerEdgeGesture method [Windows Shell], TriggerEdgeGesture method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_TriggerEdgeGesture, shobjidl_core/IApplicationDesignModeSettings::TriggerEdgeGesture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IApplicationDesignModeSettings.TriggerEdgeGesture
-: 
 ---
 
 # IApplicationDesignModeSettings::TriggerEdgeGesture

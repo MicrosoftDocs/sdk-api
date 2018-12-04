@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationnavigationevents_navigatecomplete.htm
 tech.root: debug_wwahost
 ms.assetid: 51a80227-69ec-4f12-8d19-d2b932fbbfc0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/23/2018
 ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateComplete method, IWebApplicationNavigationEvents.NavigateComplete, IWebApplicationNavigationEvents::NavigateComplete, NavigateComplete, NavigateComplete method [Debugging Windows Store apps], NavigateComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigatecomplete, webapplication/IWebApplicationNavigationEvents::NavigateComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- webapplication.h
-: 
-- IWebApplicationNavigationEvents.NavigateComplete
-: 
 ---
 
 # IWebApplicationNavigationEvents::NavigateComplete
@@ -68,7 +60,7 @@ Fired when the document being navigated to becomes visible and enters the naviga
 
 ### -param htmlWindow [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa741505(v=VS.85).aspx">IHTMLWindow2</a>*</b>
+Type: <b><a href="_inet_IHTMLWindow2_Interface">IHTMLWindow2</a>*</b>
 
 The window or frame in which the navigation is occurred.
 

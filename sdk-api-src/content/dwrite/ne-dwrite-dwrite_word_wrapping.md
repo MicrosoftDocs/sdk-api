@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_word_wrapping.htm
 tech.root: DirectWrite
 ms.assetid: 5b0a5e15-1bbf-433e-9c7f-d7b8fa9313c2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DWRITE_WORD_WRAPPING, DWRITE_WORD_WRAPPING enumeration [Direct Write], DWRITE_WORD_WRAPPING_CHARACTER, DWRITE_WORD_WRAPPING_EMERGENCY_BREAK, DWRITE_WORD_WRAPPING_NO_WRAP, DWRITE_WORD_WRAPPING_WHOLE_WORD, DWRITE_WORD_WRAPPING_WRAP, directwrite.dwrite_word_wrapping, dwrite/DWRITE_WORD_WRAPPING, dwrite/DWRITE_WORD_WRAPPING_CHARACTER, dwrite/DWRITE_WORD_WRAPPING_EMERGENCY_BREAK, dwrite/DWRITE_WORD_WRAPPING_NO_WRAP, dwrite/DWRITE_WORD_WRAPPING_WHOLE_WORD, dwrite/DWRITE_WORD_WRAPPING_WRAP
 ms.prod: windows-hardware
 ms.technology: windows-devices

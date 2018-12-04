@@ -4,10 +4,10 @@ title: GetTrusteeNameW function
 author: windows-sdk-content
 description: Retrieves the trustee name from the specified TRUSTEE structure.
 old-location: security\gettrusteename.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 9d3ce528-fb28-4e2e-bf7f-7d84c697fcb6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetTrusteeName, GetTrusteeName function [Security], GetTrusteeNameA, GetTrusteeNameW, _win32_gettrusteename, aclapi/GetTrusteeName, aclapi/GetTrusteeNameA, aclapi/GetTrusteeNameW, security.gettrusteename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetTrusteeNameW
-: 
 ---
 
 # GetTrusteeNameW function
@@ -101,7 +95,7 @@ The <b>GetTrusteeName</b> function does not allocate any memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

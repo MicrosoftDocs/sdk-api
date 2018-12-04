@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Enumerate_Enumerators_ExW
-: 
 ---
 
 # CM_Enumerate_Enumerators_ExW function

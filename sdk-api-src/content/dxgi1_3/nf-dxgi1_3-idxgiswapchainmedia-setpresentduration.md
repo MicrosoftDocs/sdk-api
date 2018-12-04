@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchainmedia_setpresentduration.htm
 tech.root: direct3ddxgi
 ms.assetid: F2852200-01B4-4CB7-8635-87CF827E1D27
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDXGISwapChainMedia interface [DXGI],SetPresentDuration method, IDXGISwapChainMedia.SetPresentDuration, IDXGISwapChainMedia::SetPresentDuration, SetPresentDuration, SetPresentDuration method [DXGI], SetPresentDuration method [DXGI],IDXGISwapChainMedia interface, direct3ddxgi.idxgiswapchainmedia_setpresentduration, dxgi1_3/IDXGISwapChainMedia::SetPresentDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxgi1_3.h
-: 
-- IDXGISwapChainMedia.SetPresentDuration
-: 
 ---
 
 # IDXGISwapChainMedia::SetPresentDuration

@@ -4,10 +4,10 @@ title: IPropertySheetProvider::Show
 author: windows-sdk-content
 description: If the type that has been set in IPropertySheetProvider::CreatePropertySheet is a property sheet, IPropertySheetProvider::Show displays a property sheet frame that is parented to a hidden window.
 old-location: mmc\ipropertysheetprovider_show.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 08e1e3d9-9c9e-49c8-9d55-31c9519c5b0c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IPropertySheetProvider interface [MMC],Show method, IPropertySheetProvider.Show, IPropertySheetProvider::Show, Show, Show method [MMC], Show method [MMC],IPropertySheetProvider interface, _slate_ipropertysheetprovider_show, mmc.ipropertysheetprovider_show, mmc/IPropertySheetProvider::Show
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IPropertySheetProvider.Show
-: 
 ---
 
 # IPropertySheetProvider::Show

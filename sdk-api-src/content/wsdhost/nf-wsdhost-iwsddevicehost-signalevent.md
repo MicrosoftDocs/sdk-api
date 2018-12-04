@@ -4,10 +4,10 @@ title: IWSDDeviceHost::SignalEvent
 author: windows-sdk-content
 description: Notifies all subscribed clients that an event has occurred.
 old-location: ncd\iwsddevicehost_signalevent_method.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: c4cba7f0-6f08-43d7-b255-d3dfb1b5287d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWSDDeviceHost interface,SignalEvent method, IWSDDeviceHost.SignalEvent, IWSDDeviceHost::SignalEvent, SignalEvent, SignalEvent method, SignalEvent method,IWSDDeviceHost interface, ncd.iwsddevicehost_signalevent_method, wsdhost/IWSDDeviceHost::SignalEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdhost.h
-: 
-- IWSDDeviceHost.SignalEvent
-: 
 ---
 
 # IWSDDeviceHost::SignalEvent

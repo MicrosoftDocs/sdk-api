@@ -4,10 +4,10 @@ title: Edit_GetFirstVisibleLine macro
 author: windows-sdk-content
 description: Gets the index of the uppermost visible line in a multiline edit or rich edit control. You can use this macro or send the EM_GETFIRSTVISIBLELINE message explicitly.
 old-location: controls\Edit_GetFirstVisibleLine.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getfirstvisibleline.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Edit_GetFirstVisibleLine, Edit_GetFirstVisibleLine macro [Windows Controls], _win32_Edit_GetFirstVisibleLine, _win32_Edit_GetFirstVisibleLine_cpp, controls.Edit_GetFirstVisibleLine, controls._win32_Edit_GetFirstVisibleLine, windowsx/Edit_GetFirstVisibleLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- windowsx.h
-: 
-- Edit_GetFirstVisibleLine
-: 
 ---
 
 # Edit_GetFirstVisibleLine macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the index of the uppermost visible line in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761574(v=VS.85).aspx">EM_GETFIRSTVISIBLELINE</a> message explicitly.
+Gets the index of the uppermost visible line in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/022838d2-7948-4c5a-92ca-655822c4f672">EM_GETFIRSTVISIBLELINE</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +69,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761574(v=VS.85).aspx">EM_GETFIRSTVISIBLELINE</a>.
+For more information, see <a href="https://msdn.microsoft.com/022838d2-7948-4c5a-92ca-655822c4f672">EM_GETFIRSTVISIBLELINE</a>.
 
 
 

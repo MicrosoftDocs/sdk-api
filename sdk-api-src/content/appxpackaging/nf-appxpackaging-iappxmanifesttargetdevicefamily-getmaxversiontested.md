@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifesttargetdevicefamily_getmaxversiontested.htm
 tech.root: appxpkg
 ms.assetid: 65391D03-627D-4302-BE1A-6E90E3A04458
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: GetMaxVersionTested, GetMaxVersionTested method [App packaging and management], GetMaxVersionTested method [App packaging and management],IAppxManifestTargetDeviceFamily interface, IAppxManifestTargetDeviceFamily interface [App packaging and management],GetMaxVersionTested method, IAppxManifestTargetDeviceFamily.GetMaxVersionTested, IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpackaging/IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpkg.iappxmanifesttargetdevicefamily_getmaxversiontested
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- appxpackaging.h
-: 
-- IAppxManifestTargetDeviceFamily.GetMaxVersionTested
-: 
 ---
 
 # IAppxManifestTargetDeviceFamily::GetMaxVersionTested

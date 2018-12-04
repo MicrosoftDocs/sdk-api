@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontfacereference_enqueuefilefragmentdownloadre
 tech.root: DirectWrite
 ms.assetid: 6dfc2793-7960-5c13-950d-9ba14900c3e0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: EnqueueFileFragmentDownloadRequest, EnqueueFileFragmentDownloadRequest method [Direct Write], EnqueueFileFragmentDownloadRequest method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],EnqueueFileFragmentDownloadRequest method, IDWriteFontFaceReference.EnqueueFileFragmentDownloadRequest, IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest, directwrite.idwritefontfacereference_enqueuefilefragmentdownloadrequest, dwrite_3/IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_3.h
-: 
-- IDWriteFontFaceReference.EnqueueFileFragmentDownloadRequest
-: 
 ---
 
 # IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest

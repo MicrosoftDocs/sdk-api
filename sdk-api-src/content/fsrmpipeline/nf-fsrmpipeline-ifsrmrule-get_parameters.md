@@ -4,10 +4,10 @@ title: IFsrmRule::get_Parameters
 author: windows-sdk-content
 description: The parameters that are passed to the classifier.
 old-location: fsrm\ifsrmrule_parameters.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 8a43763a-15ad-40e2-9e3a-e2c5ca7a7638
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],Parameters property, IFsrmRule.Parameters, IFsrmRule.get_Parameters, IFsrmRule::Parameters, IFsrmRule::get_Parameters, IFsrmRule::put_Parameters, Parameters property [File Server Resource Manager], Parameters property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_parameters, fsrm.ifsrmrule_parameters, fsrmpipeline/IFsrmRule::Parameters, fsrmpipeline/IFsrmRule::get_Parameters, fsrmpipeline/IFsrmRule::put_Parameters, get_Parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmpipeline.h
-: 
-- IFsrmRule.get_Parameters
-: 
 ---
 
 # IFsrmRule::get_Parameters

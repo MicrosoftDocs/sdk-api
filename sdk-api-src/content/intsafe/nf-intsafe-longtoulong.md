@@ -7,7 +7,7 @@ old-location: shell\LongToULong.htm
 tech.root: shell
 ms.assetid: d5940fec-8cf2-4bc7-8001-42b68ce97f7d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: LongToDWord, LongToULong, LongToULong function [Windows Shell], _shell_LongToULong, intsafe/LongToULong, shell.LongToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LongToULong
-: 
 ---
 
 # LongToULong function

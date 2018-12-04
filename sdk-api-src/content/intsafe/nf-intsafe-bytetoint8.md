@@ -7,7 +7,7 @@ old-location: shell\ByteToInt8.htm
 tech.root: shell
 ms.assetid: b04e7258-12a4-4766-8bdd-d6a268f3e53b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ByteToInt8, ByteToInt8 function [Windows Shell], intsafe/ByteToInt8, shell.ByteToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ByteToInt8
-: 
 ---
 
 # ByteToInt8 function

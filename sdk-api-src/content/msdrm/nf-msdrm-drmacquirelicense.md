@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DRMAcquireLicense
-: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
@@ -124,7 +118,7 @@ If <i>hSession</i> is a client session handle, this flag is ignored.
 
 ### -param wszGroupIdentityCredential [in]
 
-An optional <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificate</a> (RAC). If this is not used, this function will check the license store for a RAC that matches the license used to create <i>hSession</i>. If none is found, this function will fail.
+An optional <a href="r_gly.htm">rights account certificate</a> (RAC). If this is not used, this function will check the license store for a RAC that matches the license used to create <i>hSession</i>. If none is found, this function will fail.
 
 
 ### -param wszRequestedRights [in]

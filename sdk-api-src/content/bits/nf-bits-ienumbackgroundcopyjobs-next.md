@@ -4,10 +4,10 @@ title: IEnumBackgroundCopyJobs::Next
 author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbackgroundcopyjobs_next.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: a248e14a-ab17-4e8e-9e27-2ba31a4a999d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumBackgroundCopyJobs interface [BITS],Next method, IEnumBackgroundCopyJobs.Next, IEnumBackgroundCopyJobs::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyJobs interface, _drz_ienumbackgroundcopyjobs_next, bits.ienumbackgroundcopyjobs_next, bits/IEnumBackgroundCopyJobs::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IEnumBackgroundCopyJobs.Next
-: 
 ---
 
 # IEnumBackgroundCopyJobs::Next
@@ -74,7 +66,7 @@ Number of elements requested.
 ### -param rgelt [out]
 
 Array of 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> objects. You must release each object in <i>rgelt</i> when done.
+<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> objects. You must release each object in <i>rgelt</i> when done.
 
 
 ### -param pceltFetched [out]
@@ -126,7 +118,7 @@ Returned less than the number of requested elements.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363109(v=VS.85).aspx">IEnumBackgroundCopyJobs</a>
+<a href="https://msdn.microsoft.com/21ff88da-9fae-478f-bcba-488ed7a89608">IEnumBackgroundCopyJobs</a>
  
 
  

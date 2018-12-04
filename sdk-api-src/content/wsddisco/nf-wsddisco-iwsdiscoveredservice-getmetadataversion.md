@@ -4,10 +4,10 @@ title: IWSDiscoveredService::GetMetadataVersion
 author: windows-sdk-content
 description: Retrieves the metadata version of this message.
 old-location: ncd\iwsdiscoveredservice_getmetadataversion.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: ce0d463e-6455-48cc-b01f-6aa93fd628b6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetMetadataVersion, GetMetadataVersion method, GetMetadataVersion method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetMetadataVersion method, IWSDiscoveredService.GetMetadataVersion, IWSDiscoveredService::GetMetadataVersion, ncd.iwsdiscoveredservice_getmetadataversion, wsddisco/IWSDiscoveredService::GetMetadataVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsddisco.h
-: 
-- IWSDiscoveredService.GetMetadataVersion
-: 
 ---
 
 # IWSDiscoveredService::GetMetadataVersion

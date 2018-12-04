@@ -4,10 +4,10 @@ title: IFsrmFileManagementJobManager::GetFileManagementJob
 author: windows-sdk-content
 description: Gets the specified file management job.
 old-location: fsrm\ifsrmfilemanagementjobmanager_getfilemanagementjob.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 106c5237-94bc-4556-aa65-247697133810
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FsrmFileManagementJobManager class [File Server Resource Manager],GetFileManagementJob method, GetFileManagementJob, GetFileManagementJob method [File Server Resource Manager], GetFileManagementJob method [File Server Resource Manager],FsrmFileManagementJobManager class, GetFileManagementJob method [File Server Resource Manager],IFsrmFileManagementJobManager interface, IFsrmFileManagementJobManager interface [File Server Resource Manager],GetFileManagementJob method, IFsrmFileManagementJobManager.GetFileManagementJob, IFsrmFileManagementJobManager::GetFileManagementJob, fs.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrm.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrmreports/IFsrmFileManagementJobManager::GetFileManagementJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmFileManagementJobManager.GetFileManagementJob
-: 
 ---
 
 # IFsrmFileManagementJobManager::GetFileManagementJob

@@ -4,10 +4,10 @@ title: ITDigitsGatheredEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the call information interface for the call object on which the event occurred.
 old-location: tapi3\itdigitsgatheredevent_get_call.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 43625f93-4ab2-4aeb-83da-70310f118e34
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_Call method, ITDigitsGatheredEvent.get_Call, ITDigitsGatheredEvent::get_Call, _tapi3_itdigitsgatheredevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_call, tapi3if/ITDigitsGatheredEvent::get_Call
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITDigitsGatheredEvent.get_Call
-: 
 ---
 
 # ITDigitsGatheredEvent::get_Call

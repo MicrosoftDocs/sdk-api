@@ -4,10 +4,10 @@ title: ResUtilGetPropertySize function
 author: windows-sdk-content
 description: Returns the total number of bytes required for a specified property.
 old-location: mscs\resutilgetpropertysize.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 0f21ef2b-747c-4fb3-a13c-16bcb7bfd46e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PRESUTIL_GET_PROPERTY_SIZE, PRESUTIL_GET_PROPERTY_SIZE function [Failover Cluster], ResUtilGetPropertySize, ResUtilGetPropertySize function [Failover Cluster], _wolf_resutilgetpropertysize, mscs.resutilgetpropertysize, resapi/PRESUTIL_GET_PROPERTY_SIZE, resapi/ResUtilGetPropertySize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResUtilGetPropertySize
-: 
 ---
 
 # ResUtilGetPropertySize function

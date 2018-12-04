@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetAllowUnTrustedCA
 author: windows-sdk-content
 description: Retrieves a value that specifies whether to allow an untrusted certification authority certificate.
 old-location: security\ix509enrollmentpolicyserver_getallowuntrustedca.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 6b15a2ba-2e68-4c66-910d-20dd0f0581c2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetAllowUnTrustedCA, GetAllowUnTrustedCA method [Security], GetAllowUnTrustedCA method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetAllowUnTrustedCA method, IX509EnrollmentPolicyServer.GetAllowUnTrustedCA, IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, certenroll/IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, security.ix509enrollmentpolicyserver_getallowuntrustedca
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509EnrollmentPolicyServer.GetAllowUnTrustedCA
-: 
 ---
 
 # IX509EnrollmentPolicyServer::GetAllowUnTrustedCA
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>GetAllowUnTrustedCA</b> method retrieves a value that specifies whether to allow an untrusted certification authority certificate. This value is set by the <a href="https://msdn.microsoft.com/en-us/library/Ee351710(v=VS.85).aspx">Initialize</a> method.
+The <b>GetAllowUnTrustedCA</b> method retrieves a value that specifies whether to allow an untrusted certification authority certificate. This value is set by the <a href="https://msdn.microsoft.com/b0d848a2-1bac-4a30-ae02-26d5af719688">Initialize</a> method.
 
 
 ## -parameters
@@ -77,7 +69,7 @@ Pointer to a Boolean value that specifies whether to allow the certificate.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -106,7 +98,7 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

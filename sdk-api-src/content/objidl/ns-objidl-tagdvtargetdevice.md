@@ -7,7 +7,7 @@ old-location: com\dvtargetdevice.htm
 tech.root: com
 ms.assetid: 724ff714-c170-4d06-92cb-e042e41c0af2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: DVTARGETDEVICE, DVTARGETDEVICE structure [COM], _ole_DVTARGETDEVICE, com.dvtargetdevice, objidl/DVTARGETDEVICE, tagDVTARGETDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices

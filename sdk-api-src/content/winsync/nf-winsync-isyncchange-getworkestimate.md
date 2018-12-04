@@ -7,7 +7,7 @@ old-location: winsync\isyncchange_getworkestimate.htm
 tech.root: winsync
 ms.assetid: ba79bb88-bdeb-42be-88a9-1355fe048d10
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetWorkEstimate, GetWorkEstimate method [Windows Sync], GetWorkEstimate method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetWorkEstimate method, ISyncChange.GetWorkEstimate, ISyncChange::GetWorkEstimate, winsync.isyncchange_getworkestimate, winsync/ISyncChange::GetWorkEstimate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- ISyncChange.GetWorkEstimate
-: 
 ---
 
 # ISyncChange::GetWorkEstimate

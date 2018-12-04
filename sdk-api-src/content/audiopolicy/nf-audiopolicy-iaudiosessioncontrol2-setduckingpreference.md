@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol2_setduckingpreference.htm
 tech.root: CoreAudio
 ms.assetid: 6689d7e4-9c45-483d-9f46-14d157726b02
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAudioSessionControl2 interface [Core Audio],SetDuckingPreference method, IAudioSessionControl2.SetDuckingPreference, IAudioSessionControl2::SetDuckingPreference, SetDuckingPreference, SetDuckingPreference method [Core Audio], SetDuckingPreference method [Core Audio],IAudioSessionControl2 interface, audiopolicy/IAudioSessionControl2::SetDuckingPreference, coreaudio.iaudiosessioncontrol2_setduckingpreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- audiopolicy.h
-: 
-- IAudioSessionControl2.SetDuckingPreference
-: 
 ---
 
 # IAudioSessionControl2::SetDuckingPreference

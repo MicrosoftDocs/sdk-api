@@ -4,10 +4,10 @@ title: IRDPSRAPIViewer::RequestControl
 author: windows-sdk-content
 description: Requests the sharer to change the control level of the viewer.
 old-location: rdp\irdpsrapiviewer_requestcontrol.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: be913f3c-9a5b-46bd-be9a-1ba0b0c20211
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],RequestControl method, IRDPSRAPIViewer.RequestControl, IRDPSRAPIViewer::RequestControl, RequestControl, RequestControl method [RDP], RequestControl method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_requestcontrol, rdpencomapi/IRDPSRAPIViewer::RequestControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIViewer.RequestControl
-: 
 ---
 
 # IRDPSRAPIViewer::RequestControl

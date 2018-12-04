@@ -7,7 +7,7 @@ old-location: shell\UIntToIntPtr.htm
 tech.root: shell
 ms.assetid: 055213c7-a412-4c44-bb21-4d4914cd97c8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: UIntToIntPtr, UIntToIntPtr function [Windows Shell], UIntToPtrdiffT, _shell_UIntToIntPtr, intsafe/UIntToIntPtr, shell.UIntToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UIntToIntPtr
-: 
 ---
 
 # UIntToIntPtr function

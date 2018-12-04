@@ -7,7 +7,7 @@ old-location: wintouch\getgestureextraargs.htm
 tech.root: wintouch
 ms.assetid: f7775d88-6a5b-4283-ab40-65c2da218f81
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetGestureExtraArgs, GetGestureExtraArgs function [Windows Touch], wintouch.getgestureextraargs, winuser/GetGestureExtraArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetGestureExtraArgs
-: 
 ---
 
 # GetGestureExtraArgs function

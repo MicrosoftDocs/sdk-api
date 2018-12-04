@@ -7,7 +7,7 @@ old-location: mbn\imbnregistrationevents_onsetregistermodecomplete.htm
 tech.root: mbn
 ms.assetid: a5ca0776-bd1d-48a0-970a-39c8da69b394
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: E_FAIL, E_INVALIDARG, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_SERVICE_NOT_ACTIVATED, HRESULT_FROM_WIN32(ERROR_INVALID_STATE), HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnSetRegisterModeComplete method, IMbnRegistrationEvents.OnSetRegisterModeComplete, IMbnRegistrationEvents::OnSetRegisterModeComplete, OnSetRegisterModeComplete, OnSetRegisterModeComplete method [Microsoft Broadband Networks], OnSetRegisterModeComplete method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, S_OK, mbn.imbnregistrationevents_onsetregistermodecomplete, mbnapi/IMbnRegistrationEvents::OnSetRegisterModeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnRegistrationEvents.OnSetRegisterModeComplete
-: 
 ---
 
 # IMbnRegistrationEvents::OnSetRegisterModeComplete

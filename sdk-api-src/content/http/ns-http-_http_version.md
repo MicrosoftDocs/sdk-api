@@ -4,10 +4,10 @@ title: "_HTTP_VERSION"
 author: windows-sdk-content
 description: Defines a version of the HTTP protocol that a request requires or a response provides.
 old-location: http\http_version.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 8f97410c-27b5-4225-849e-ee55e4c5f762
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PHTTP_VERSION, HTTP_VERSION, HTTP_VERSION structure [HTTP], PHTTP_VERSION, PHTTP_VERSION structure pointer [HTTP], _HTTP_VERSION, _http_http_version, http.http_version, http/HTTP_VERSION, http/PHTTP_VERSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

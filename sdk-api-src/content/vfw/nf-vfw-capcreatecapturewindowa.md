@@ -7,7 +7,7 @@ old-location: multimedia\capcreatecapturewindow.htm
 tech.root: Multimedia
 ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCaptureWindow function [Windows Multimedia], capCreateCaptureWindowA, capCreateCaptureWindowW, multimedia.capcreatecapturewindow, vfw/capCreateCaptureWindow, vfw/capCreateCaptureWindowA, vfw/capCreateCaptureWindowW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- capCreateCaptureWindowA
-: 
 ---
 
 # capCreateCaptureWindowA function
@@ -77,7 +71,7 @@ Null-terminated string containing the name used for the capture window.
 
 ### -param dwStyle
 
-Window styles used for the capture window. Window styles are described with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function.
+Window styles used for the capture window. Window styles are described with the <a href="winui._win32_CreateWindowEx">CreateWindowEx</a> function.
           
 
 

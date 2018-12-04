@@ -4,10 +4,10 @@ title: IWSDEndpointProxy::ProcessFault
 author: windows-sdk-content
 description: Processes a SOAP fault retrieved by GetFaultInfo.
 old-location: ncd\iwsdendpointproxy_processfault.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: f63c8c7c-8581-49d4-a29d-a7b0b46a2db5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWSDEndpointProxy interface,ProcessFault method, IWSDEndpointProxy.ProcessFault, IWSDEndpointProxy::ProcessFault, ProcessFault, ProcessFault method, ProcessFault method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_processfault, wsdclient/IWSDEndpointProxy::ProcessFault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdclient.h
-: 
-- IWSDEndpointProxy.ProcessFault
-: 
 ---
 
 # IWSDEndpointProxy::ProcessFault

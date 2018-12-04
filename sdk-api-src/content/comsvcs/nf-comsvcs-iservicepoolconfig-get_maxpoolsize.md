@@ -7,7 +7,7 @@ old-location: cos\iservicepoolconfig_get_maxpoolsize.htm
 tech.root: cossdk
 ms.assetid: b9fb76d4-d153-4968-ad1c-79036b4bb8a4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IServicePoolConfig interface [COM+],get_MaxPoolSize method, IServicePoolConfig.get_MaxPoolSize, IServicePoolConfig::get_MaxPoolSize, comsvcs/IServicePoolConfig::get_MaxPoolSize, cos.iservicepoolconfig_get_maxpoolsize, get_MaxPoolSize, get_MaxPoolSize method [COM+], get_MaxPoolSize method [COM+],IServicePoolConfig interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- IServicePoolConfig.get_MaxPoolSize
-: 
 ---
 
 # IServicePoolConfig::get_MaxPoolSize

@@ -7,7 +7,7 @@ old-location: fs\unlockfile.htm
 tech.root: fileio
 ms.assetid: 6a930f83-3918-4688-ac60-d1de6857f479
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: UnlockFile, UnlockFile function [Files], _win32_unlockfile, base.unlockfile, fileapi/UnlockFile, fs.unlockfile, winbase/UnlockFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UnlockFile
-: 
 ---
 
 # UnlockFile function

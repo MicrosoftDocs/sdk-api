@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_desiredexpansion.htm
 tech.root: wintouch
 ms.assetid: 1d686bb1-a00b-43fc-804b-5a1d8bb69499
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DesiredExpansion property [Windows Touch], DesiredExpansion property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredExpansion property, IInertiaProcessor.DesiredExpansion, IInertiaProcessor.get_DesiredExpansion, IInertiaProcessor::DesiredExpansion, IInertiaProcessor::get_DesiredExpansion, IInertiaProcessor::put_DesiredExpansion, get_DesiredExpansion, manipulations/IInertiaProcessor::DesiredExpansion, manipulations/IInertiaProcessor::get_DesiredExpansion, manipulations/IInertiaProcessor::put_DesiredExpansion, wintouch.iinertiaprocessor_desiredexpansion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- manipulations.h
-: 
-- IInertiaProcessor.get_DesiredExpansion
-: 
 ---
 
 # IInertiaProcessor::get_DesiredExpansion

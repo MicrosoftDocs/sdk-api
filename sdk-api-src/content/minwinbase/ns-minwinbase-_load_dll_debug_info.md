@@ -4,10 +4,10 @@ title: "_LOAD_DLL_DEBUG_INFO"
 author: windows-sdk-content
 description: Contains information about a dynamic-link library (DLL) that has just been loaded.
 old-location: base\load_dll_debug_info_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 80edb12f-1d1f-4480-9032-5f7a17f47910
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPLOAD_DLL_DEBUG_INFO, LOAD_DLL_DEBUG_INFO, LOAD_DLL_DEBUG_INFO structure, LPLOAD_DLL_DEBUG_INFO, LPLOAD_DLL_DEBUG_INFO structure pointer, _LOAD_DLL_DEBUG_INFO, _win32_load_dll_debug_info_str, base.load_dll_debug_info_str, minwinbase/LOAD_DLL_DEBUG_INFO, minwinbase/LPLOAD_DLL_DEBUG_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

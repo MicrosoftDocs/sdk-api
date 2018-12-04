@@ -4,10 +4,10 @@ title: CoInstall function
 author: windows-sdk-content
 description: Installs the requested COM server application.
 old-location: winprog\coinstall.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 92b290a5-0923-42fc-8231-1decca26adc1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: CoInstall, CoInstall function [Windows API], objbase/CoInstall, winprog.coinstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoInstall
-: 
 ---
 
 # CoInstall function

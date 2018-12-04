@@ -4,10 +4,10 @@ title: IVdsControllerPort
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a controller port.
 old-location: base\ivdscontrollerport.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: a0ceaf1d-b839-4cf7-b64e-9100f3cf23ef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControllerPort interface [VDS],described, base.ivdscontrollerport, vds/IVdsControllerPort, vdshwprv/IVdsControllerPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

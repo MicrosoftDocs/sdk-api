@@ -7,7 +7,7 @@ old-location: shell\IAppPublisher_GetNumberOfApps.htm
 tech.root: shell
 ms.assetid: 175beedc-49fa-42a3-aee1-ed2f254bfbb4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetNumberOfApps, GetNumberOfApps method [Windows Shell], GetNumberOfApps method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetNumberOfApps method, IAppPublisher.GetNumberOfApps, IAppPublisher::GetNumberOfApps, inet_IAppPublisher_GetNumberOfApps, shappmgr/IAppPublisher::GetNumberOfApps, shell.IAppPublisher_GetNumberOfApps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shappmgr.h
-: 
-- IAppPublisher.GetNumberOfApps
-: 
 ---
 
 # IAppPublisher::GetNumberOfApps

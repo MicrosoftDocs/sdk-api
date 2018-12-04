@@ -4,10 +4,10 @@ title: "_MINIDUMP_THREAD"
 author: windows-sdk-content
 description: Contains information for a specific thread.
 old-location: base\minidump_thread_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 07d4ba98-e74d-4f50-9afa-d09d93da3d6b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*PMINIDUMP_THREAD, MINIDUMP_THREAD, MINIDUMP_THREAD structure, PMINIDUMP_THREAD, PMINIDUMP_THREAD structure pointer, _MINIDUMP_THREAD, _win32_minidump_thread_str, base.minidump_thread_str, minidumpapiset/MINIDUMP_THREAD, minidumpapiset/PMINIDUMP_THREAD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

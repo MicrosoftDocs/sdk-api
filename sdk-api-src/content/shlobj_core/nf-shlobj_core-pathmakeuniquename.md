@@ -7,7 +7,7 @@ old-location: shell\PathMakeUniqueName.htm
 tech.root: shell
 ms.assetid: 8456ae0c-e83c-43d0-a86a-1861a373d237
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: PathMakeUniqueName, PathMakeUniqueName function [Windows Shell], _win32_PathMakeUniqueName, shell.PathMakeUniqueName, shlobj_core/PathMakeUniqueName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PathMakeUniqueName
-: 
 ---
 
 # PathMakeUniqueName function

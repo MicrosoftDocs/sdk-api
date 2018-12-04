@@ -4,10 +4,10 @@ title: IWSDHttpMessageParameters::GetOutboundHttpHeaders
 author: windows-sdk-content
 description: Retrieves the current HTTP headers used for outbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_getoutboundhttpheaders.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: c366773a-1869-4181-a457-560a1a9c84cd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetOutboundHttpHeaders, GetOutboundHttpHeaders method, GetOutboundHttpHeaders method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetOutboundHttpHeaders method, IWSDHttpMessageParameters.GetOutboundHttpHeaders, IWSDHttpMessageParameters::GetOutboundHttpHeaders, ncd.iwsdhttpmessageparameters_getoutboundhttpheaders, wsdbase/IWSDHttpMessageParameters::GetOutboundHttpHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdbase.h
-: 
-- IWSDHttpMessageParameters.GetOutboundHttpHeaders
-: 
 ---
 
 # IWSDHttpMessageParameters::GetOutboundHttpHeaders

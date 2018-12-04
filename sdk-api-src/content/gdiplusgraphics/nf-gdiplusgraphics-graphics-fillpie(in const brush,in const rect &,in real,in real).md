@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPie_Brush_brush_Rect_rect_REAL
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpiemethods\fillpie.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FillPie, FillPie method [GDI+], FillPie method [GDI+],Graphics class, Graphics class [GDI+],FillPie method, Graphics.FillPie, Graphics.FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL), Graphics.FillPie(const Brush*,const Rect&,REAL,REAL), Graphics::FillPie, Graphics::FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_FillPie_Brush_brush_Rect_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_Graphics_FillPie_Brush_brush_Rect_rect_REAL_startAngle_REAL_sweepAngle_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusgraphics.h
-: 
-- Graphics.FillPie
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -125,9 +117,13 @@ A pie is a portion of the interior of an ellipse (it is bounded by an elliptical
 
 The following example defines a pie and then fills it.
 
-
-```cpp
-VOID Example_FillPie(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_FillPie(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -140,11 +136,11 @@ VOID Example_FillPie(HDC hdc)
    REAL sweepAngle = 45.0f;
 
    // Fill the pie.
-   graphics.FillPie(&blackBrush, ellipseRect, startAngle, sweepAngle);
-}
-```
-
-
+   graphics.FillPie(&amp;blackBrush, ellipseRect, startAngle, sweepAngle);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -157,7 +153,7 @@ VOID Example_FillPie(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

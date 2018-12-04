@@ -4,10 +4,10 @@ title: IAzTask::get_BizRule
 author: windows-sdk-content
 description: Sets or retrieves the text of the script that implements the business rule (BizRule).
 old-location: security\iaztask_bizrule.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: cf3d87af-5320-4fe0-b513-e242f8a1dd1b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AzTask object [Security],BizRule property, BizRule property [Security], BizRule property [Security],AzTask object, BizRule property [Security],IAzTask interface, IAzTask interface [Security],BizRule property, IAzTask.BizRule, IAzTask.get_BizRule, IAzTask::BizRule, IAzTask::get_BizRule, IAzTask::put_BizRule, azroles/IAzTask::BizRule, azroles/IAzTask::get_BizRule, azroles/IAzTask::put_BizRule, get_BizRule, security.iaztask_bizrule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzTask.get_BizRule
-: 
 ---
 
 # IAzTask::get_BizRule
@@ -75,9 +67,9 @@ This property is read/write.
 
 The maximum length of this property is 65,536 characters.
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/en-us/library/Aa378380(v=VS.85).aspx">BizRuleLanguage</a> property must be set before this property is set.</div>
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/922f4fd8-f553-439c-b9ae-51a45a88adc7">BizRuleLanguage</a> property must be set before this property is set.</div>
 <div> </div>
-An <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> object that is a child object of a delegated <a href="https://msdn.microsoft.com/en-us/library/Aa378237(v=VS.85).aspx">IAzScope</a> object cannot have an associated BizRule.
+An <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object that is a child object of a delegated <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object cannot have an associated BizRule.
 
 
 
@@ -87,15 +79,15 @@ An <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAz
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378379(v=VS.85).aspx">BizRuleImportedPath</a>
+<a href="https://msdn.microsoft.com/52422e14-4a96-455d-ad35-b8816871ee10">BizRuleImportedPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378380(v=VS.85).aspx">BizRuleLanguage</a>
+<a href="https://msdn.microsoft.com/922f4fd8-f553-439c-b9ae-51a45a88adc7">BizRuleLanguage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a>
+<a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: tsf\itfcreatepropertystore.htm
 tech.root: TSF
 ms.assetid: f21619c5-5f59-4cc4-9f84-fa5f8a178d40
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfCreatePropertyStore, ITfCreatePropertyStore interface [Text Services Framework], ITfCreatePropertyStore interface [Text Services Framework],described, _tsf_itfcreatepropertystore_ref, msctf/ITfCreatePropertyStore, tsf.itfcreatepropertystore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,7 +108,7 @@ When a property store is unserialized, the TSF manager creates an object from th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

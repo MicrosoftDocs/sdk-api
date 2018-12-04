@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaGetRootNodeFunction.htm
 tech.root: WinAuto
 ms.assetid: 14296fec-1b03-408c-ba96-9429107df592
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: UiaGetRootNode, UiaGetRootNode function [Windows Accessibility], uiauto.uiauto_UiaGetRootNodeFunction, uiauto_UiaGetRootNodeFunction, uiautomationcoreapi/UiaGetRootNode, winauto.uiauto_UiaGetRootNodeFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UiaGetRootNode
-: 
 ---
 
 # UiaGetRootNode function

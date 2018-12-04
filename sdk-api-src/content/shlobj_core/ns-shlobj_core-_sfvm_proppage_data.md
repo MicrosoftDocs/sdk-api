@@ -7,7 +7,7 @@ old-location: shell\SFVM_PROPPAGE_DATA.htm
 tech.root: shell
 ms.assetid: 9f214786-fc82-4f1b-a0ec-7bf61b1f3cf7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SFVM_PROPPAGE_DATA, SFVM_PROPPAGE_DATA structure [Windows Shell], _SFVM_PROPPAGE_DATA, _win32_SFVM_PROPPAGE_DATA, shell.SFVM_PROPPAGE_DATA, shlobj_core/SFVM_PROPPAGE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Type: <b>DWORD</b>
 
 Type: <b>LPFNADDPROPSHEETPAGE</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb760805(v=VS.85).aspx">AddPropSheetPageProc</a> callback function used to add property pages. When this function is used by Windows Explorer, it provides <b>pfn</b> through the system folder view object's <a href="https://msdn.microsoft.com/6f05ddf7-190e-41f5-b24a-d18112b34600">IShellView::AddPropertySheetPages</a> method. The callback function can then pass the information to <a href="https://msdn.microsoft.com/76a2a94b-b79f-41d1-9e42-fbfda545d12f">IShellPropSheetExt::AddPages</a>.
+A pointer to a <a href="https://msdn.microsoft.com/37673813-89dc-4624-a58b-fe5f44df46c6">AddPropSheetPageProc</a> callback function used to add property pages. When this function is used by Windows Explorer, it provides <b>pfn</b> through the system folder view object's <a href="https://msdn.microsoft.com/6f05ddf7-190e-41f5-b24a-d18112b34600">IShellView::AddPropertySheetPages</a> method. The callback function can then pass the information to <a href="https://msdn.microsoft.com/76a2a94b-b79f-41d1-9e42-fbfda545d12f">IShellPropSheetExt::AddPages</a>.
 
 
 ### -field lParam

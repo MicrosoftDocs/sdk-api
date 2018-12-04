@@ -7,7 +7,7 @@ old-location: display\ht_get8bppformatpalette.htm
 tech.root: display
 ms.assetid: 0f6d81b8-2ad2-4bcc-a5cc-5b2f396aaa75
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: HT_Get8BPPFormatPalette, HT_Get8BPPFormatPalette function [Display Devices], display.ht_get8bppformatpalette, gdifncs_78b4c867-b035-4cc3-9386-2922df0e9c12.xml, winddi/HT_Get8BPPFormatPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HT_Get8BPPFormatPalette
-: 
 ---
 
 # HT_Get8BPPFormatPalette function

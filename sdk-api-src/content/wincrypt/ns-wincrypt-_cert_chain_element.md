@@ -4,10 +4,10 @@ title: "_CERT_CHAIN_ELEMENT"
 author: windows-sdk-content
 description: The CERT_CHAIN_ELEMENT structure is a single element in a simple certificate chain.
 old-location: security\cert_chain_element.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: a1f6ba18-63ef-43ac-a17f-900fa13398aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCERT_CHAIN_ELEMENT, CERT_CHAIN_ELEMENT, CERT_CHAIN_ELEMENT structure [Security], PCERT_CHAIN_ELEMENT, PCERT_CHAIN_ELEMENT structure pointer [Security], _CERT_CHAIN_ELEMENT, _crypto2_cert_chain_element, security.cert_chain_element, wincrypt/CERT_CHAIN_ELEMENT, wincrypt/PCERT_CHAIN_ELEMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

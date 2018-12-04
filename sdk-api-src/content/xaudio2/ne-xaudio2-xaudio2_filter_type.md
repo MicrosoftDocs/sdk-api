@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_filter_type.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_FILTER_TYPE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: BandPassFilter, HighPassFilter, HighPassOnePoleFilter, LowPassFilter, LowPassOnePoleFilter, NotchFilter, XAUDIO2_FILTER_TYPE, XAUDIO2_FILTER_TYPE enumeration [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_filter_type, xaudio2/BandPassFilter, xaudio2/HighPassFilter, xaudio2/HighPassOnePoleFilter, xaudio2/LowPassFilter, xaudio2/LowPassOnePoleFilter, xaudio2/NotchFilter, xaudio2/XAUDIO2_FILTER_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,12 +80,12 @@ Attenuates frequencies inside a given range.
 
 ### -field LowPassOnePoleFilter
 
-Attenuates frequencies above the cutoff frequency. This is a one-pole filter, and <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a>.<b>OneOverQ</b> has no effect.
+Attenuates frequencies above the cutoff frequency. This is a one-pole filter, and <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a>.<b>OneOverQ</b> has no effect.
 
 
 ### -field HighPassOnePoleFilter
 
-Attenuates frequencies below the cutoff frequency. This is a one-pole filter, and <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a>.<b>OneOverQ</b> has no effect.
+Attenuates frequencies below the cutoff frequency. This is a one-pole filter, and <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a>.<b>OneOverQ</b> has no effect.
 
 
 ## -remarks
@@ -105,7 +105,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a>
 
 
 

@@ -4,10 +4,10 @@ title: ITPhone::put_ButtonFunction
 author: windows-sdk-content
 description: The put_ButtonFunction method sets the button function.
 old-location: tapi3\itphone_put_buttonfunction.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 8002ab8a-a15d-4a1f-b0c3-7a15c61cb6c4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_ButtonFunction method, ITPhone.put_ButtonFunction, ITPhone::put_ButtonFunction, _tapi3_itphone_put_buttonfunction, put_ButtonFunction, put_ButtonFunction method [TAPI 2.2], put_ButtonFunction method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_buttonfunction, tapi3if/ITPhone::put_ButtonFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITPhone.put_ButtonFunction
-: 
 ---
 
 # ITPhone::put_ButtonFunction

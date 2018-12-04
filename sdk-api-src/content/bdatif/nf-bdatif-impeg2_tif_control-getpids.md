@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdatif.h
-: 
-- IMPEG2_TIF_CONTROL.GetPIDs
-: 
 ---
 
 # IMPEG2_TIF_CONTROL::GetPIDs
@@ -121,19 +113,19 @@ A custom TIF extension might or might not have need for this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694413(v=VS.85).aspx">IMPEG2_TIF_CONTROL Interface</a>
+<a href="https://msdn.microsoft.com/9583365d-b318-49e2-a32f-f6cc9d3f289d">IMPEG2_TIF_CONTROL Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694414(v=VS.85).aspx">IMPEG2_TIF_CONTROL::AddPIDs</a>
+<a href="https://msdn.microsoft.com/27add7cc-1d77-4ac5-b63f-757f63f4c9b8">IMPEG2_TIF_CONTROL::AddPIDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694416(v=VS.85).aspx">IMPEG2_TIF_CONTROL::GetPIDCount</a>
+<a href="https://msdn.microsoft.com/2d77c3d8-b91c-43de-b4c1-bd41636eb4ad">IMPEG2_TIF_CONTROL::GetPIDCount</a>
  
 
  

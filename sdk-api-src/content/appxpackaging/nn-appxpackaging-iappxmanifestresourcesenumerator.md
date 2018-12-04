@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestresourcesenumerator.htm
 tech.root: appxpkg
 ms.assetid: D76C7512-962F-4AFE-934F-BBC215B5FE99
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: IAppxManifestResourcesEnumerator, IAppxManifestResourcesEnumerator interface [App packaging and management], IAppxManifestResourcesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestResourcesEnumerator, appxpkg.iappxmanifestresourcesenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

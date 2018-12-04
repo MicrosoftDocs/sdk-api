@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_privacymode.htm
 tech.root: DirectShow
 ms.assetid: 04116eba-926c-43fc-9a45-91be42e9af26
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICameraControl interface [DirectShow],put_PrivacyMode method, ICameraControl.put_PrivacyMode, ICameraControl::put_PrivacyMode, ICameraControlput_PrivacyMode, dshow.icameracontrol_put_privacymode, put_PrivacyMode, put_PrivacyMode method [DirectShow], put_PrivacyMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PrivacyMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vidcap.h
-: 
-- ICameraControl.put_PrivacyMode
-: 
 ---
 
 # ICameraControl::put_PrivacyMode

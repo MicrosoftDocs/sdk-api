@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxOutgoingJob2.get_ScheduleType
-: 
 ---
 
 # IFaxOutgoingJob2::get_ScheduleType

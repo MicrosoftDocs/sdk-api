@@ -4,10 +4,10 @@ title: ClusterNodeEnum function
 author: windows-sdk-content
 description: Enumerates the network interfaces or groups installed on a node, returning the name of each with each call.
 old-location: mscs\clusternodeenum.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: e184ef8e-9ec6-4d84-a3d0-850298262b81
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CLUSTER_NODE_ENUM_GROUPS, CLUSTER_NODE_ENUM_NETINTERFACES, ClusterNodeEnum, ClusterNodeEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_ENUM, PCLUSAPI_CLUSTER_NODE_ENUM function [Failover Cluster], _wolf_clusternodeenum, clusapi/ClusterNodeEnum, clusapi/PCLUSAPI_CLUSTER_NODE_ENUM, mscs.clusternodeenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusterNodeEnum
-: 
 ---
 
 # ClusterNodeEnum function
@@ -56,9 +50,9 @@ req.redist:
 ## -description
 
 
-Enumerates the <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interfaces</a> or 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">groups</a> installed on a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a>, returning the name of each with each call. The <b>PCLUSAPI_CLUSTER_NODE_ENUM</b> type defines a pointer to this function.
+Enumerates the <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a> or 
+    <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a> installed on a 
+    <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>, returning the name of each with each call. The <b>PCLUSAPI_CLUSTER_NODE_ENUM</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -82,7 +76,7 @@ Index used to identify the next entry to be enumerated. This parameter should be
 ### -param lpdwType [out]
 
 Pointer to the type of object returned. The following value of the 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb309156(v=VS.85).aspx">CLUSTER_NODE_ENUM</a> enumeration is returned with each 
+       <a href="https://msdn.microsoft.com/e8660f86-f4e5-4aa3-851a-94f0a230e12d">CLUSTER_NODE_ENUM</a> enumeration is returned with each 
        call.
 
 
@@ -179,7 +173,7 @@ To use <b>ClusterNodeEnum</b>, applications first open a
      node enumeration handle by calling 
      <a href="https://msdn.microsoft.com/f187f4d7-24c8-477d-91fc-0ef738b66f22">ClusterNodeOpenEnum</a> with the 
      <i>dwType</i> parameter set to <b>CLUSTER_NODE_ENUM_NETINTERFACES</b>. 
-     For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">Enumerating Objects</a>.
+     For more information, see <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
 
 Note that the <i>lpcchName</i> parameter refers to a count of characters and not a count of 
      bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. 
@@ -189,7 +183,7 @@ Note that the <i>lpcchName</i> parameter refers to a count of characters and not
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">Enumerating Objects</a>.
+See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
 
 <div class="code"></div>
 

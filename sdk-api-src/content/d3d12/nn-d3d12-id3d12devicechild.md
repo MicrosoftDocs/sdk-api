@@ -2,12 +2,12 @@
 UID: NN:d3d12.ID3D12DeviceChild
 title: ID3D12DeviceChild
 author: windows-sdk-content
-description: An interface from which other core interfaces inherit from, including ID3D12PipelineLibrary, ID3D12CommandList, ID3D12Pageable, and ID3D12RootSignature. It provides a method to get back to the device object it was created against.
+description: An interface from which other core interfaces inherit from, including (but not limited to) ID3D12PipelineLibrary, ID3D12CommandList, ID3D12Pageable, and ID3D12RootSignature. It provides a method to get back to the device object it was created against.
 old-location: direct3d12\id3d12devicechild.htm
 tech.root: direct3d12
 ms.assetid: AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID3D12DeviceChild, ID3D12DeviceChild interface, ID3D12DeviceChild interface,described, d3d12/ID3D12DeviceChild, direct3d12.id3d12devicechild
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-An interface from which other core interfaces inherit from, including <a href="https://msdn.microsoft.com/7A1D750D-51F1-48F6-9D74-6439A147F1EC">ID3D12PipelineLibrary</a>,  <a href="https://msdn.microsoft.com/1E0359CC-0F53-4C82-9F1A-092F6F72EE20">ID3D12CommandList</a>, <a href="https://msdn.microsoft.com/89DC88B4-9DFD-413D-8EB9-91087CC90D18">ID3D12Pageable</a>, and <a href="https://msdn.microsoft.com/BEE01381-12C2-4DD9-9121-22BB5840ECD5">ID3D12RootSignature</a>. It provides a method to get back to the device object it was created against.
+An interface from which other core interfaces inherit from, including (but not limited to) <a href="https://msdn.microsoft.com/7A1D750D-51F1-48F6-9D74-6439A147F1EC">ID3D12PipelineLibrary</a>,  <a href="https://msdn.microsoft.com/1E0359CC-0F53-4C82-9F1A-092F6F72EE20">ID3D12CommandList</a>, <a href="https://msdn.microsoft.com/89DC88B4-9DFD-413D-8EB9-91087CC90D18">ID3D12Pageable</a>, and <a href="https://msdn.microsoft.com/BEE01381-12C2-4DD9-9121-22BB5840ECD5">ID3D12RootSignature</a>. It provides a method to get back to the device object it was created against.
 
 
 ## -inheritance

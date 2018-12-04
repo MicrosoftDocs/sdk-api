@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__sethmenuprop.htm
 tech.root: WinAuto
 ms.assetid: ac835bb6-609f-4a37-8cfc-dd529d641c00
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetHmenuProp method, IAccPropServices.SetHmenuProp, IAccPropServices::SetHmenuProp, SetHmenuProp, SetHmenuProp method [Windows Accessibility], SetHmenuProp method [Windows Accessibility],IAccPropServices interface, oleacc/IAccPropServices::SetHmenuProp, winauto.iaccpropservices_iaccpropservices__sethmenuprop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
-- apiref
-: 
-- COM
-: 
-- oleacc.h
-: 
-- IAccPropServices.SetHmenuProp
-: 
 ---
 
 # IAccPropServices::SetHmenuProp

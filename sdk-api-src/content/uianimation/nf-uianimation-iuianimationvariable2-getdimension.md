@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_getdimension.htm
 tech.root: UIAnimation
 ms.assetid: 572C3851-88CD-44FE-A842-62DBD3994CB6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetDimension, GetDimension method [Windows Animation], GetDimension method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetDimension method, IUIAnimationVariable2.GetDimension, IUIAnimationVariable2::GetDimension, uianimation.iuianimationvariable2_getdimension, uianimation/IUIAnimationVariable2::GetDimension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uianimation.h
-: 
-- IUIAnimationVariable2.GetDimension
-: 
 ---
 
 # IUIAnimationVariable2::GetDimension

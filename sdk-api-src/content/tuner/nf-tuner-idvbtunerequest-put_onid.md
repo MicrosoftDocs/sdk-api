@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IDVBTuneRequest.put_ONID
-: 
 ---
 
 # IDVBTuneRequest::put_ONID

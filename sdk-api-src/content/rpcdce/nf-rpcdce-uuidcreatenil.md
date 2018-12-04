@@ -4,10 +4,10 @@ title: UuidCreateNil function
 author: windows-sdk-content
 description: The UuidCreateNil function creates a nil-valued UUID.
 old-location: rpc\uuidcreatenil.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: ee955482-e786-4478-bbaa-7c574ab1ecc5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: UuidCreateNil, UuidCreateNil function [RPC], _rpc_uuidcreatenil, rpc.uuidcreatenil, rpcdce/UuidCreateNil
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UuidCreateNil
-: 
 ---
 
 # UuidCreateNil function

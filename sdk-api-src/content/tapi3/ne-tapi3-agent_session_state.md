@@ -4,10 +4,10 @@ title: AGENT_SESSION_STATE
 author: windows-sdk-content
 description: This AGENT_SESSION_STATE enum defines the agent session indicators used by the ITAgentSession::get_State and the ITAgentSession::put_State methods.
 old-location: tapi3\agent_session_state.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 0c902924-e142-4ab9-9b20-661d7c2e3629
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: AGENT_SESSION_STATE, AGENT_SESSION_STATE enumeration [TAPI 2.2], ASST_BUSY_ON_CALL, ASST_BUSY_WRAPUP, ASST_NOT_READY, ASST_READY, ASST_SESSION_ENDED, _tapi3_agent_session_state, tapi3.agent_session_state, tapi3cc/AGENT_SESSION_STATE, tapi3cc/ASST_BUSY_ON_CALL, tapi3cc/ASST_BUSY_WRAPUP, tapi3cc/ASST_NOT_READY, tapi3cc/ASST_READY, tapi3cc/ASST_SESSION_ENDED
 ms.prod: windows-hardware
 ms.technology: windows-devices

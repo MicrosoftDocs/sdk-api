@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10switchtoref_getuseref.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10switchtoref_getuseref.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 7b8a132d-2a68-b9bc-338e-0378d33147cd, GetUseRef, GetUseRef method [Direct3D 10], GetUseRef method [Direct3D 10],ID3D10SwitchToRef interface, ID3D10SwitchToRef interface [Direct3D 10],GetUseRef method, ID3D10SwitchToRef.GetUseRef, ID3D10SwitchToRef::GetUseRef, d3d10sdklayers/ID3D10SwitchToRef::GetUseRef, direct3d10.id3d10switchtoref_getuseref
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10sdklayers.h
-: 
-- ID3D10SwitchToRef.GetUseRef
-: 
 ---
 
 # ID3D10SwitchToRef::GetUseRef
@@ -95,7 +87,7 @@ A software device implements rendering in software using the CPU with no hardwar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173860(v=VS.85).aspx">ID3D10SwitchToRef Interface</a>
+<a href="https://msdn.microsoft.com/c9865391-a75e-4bbe-907a-740ed5b3b29f">ID3D10SwitchToRef Interface</a>
  
 
  

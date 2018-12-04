@@ -7,7 +7,7 @@ old-location: intl\scriptxtocp.htm
 tech.root: Intl
 ms.assetid: 98548d60-4cbd-4808-8027-1d8058c41d6d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ScriptXtoCP, ScriptXtoCP function [Internationalization for Windows Applications], _win32_ScriptXtoCP, intl.scriptxtocp, usp10/ScriptXtoCP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
-- apiref
-: 
-- 
-: 
-- ScriptXtoCP
-: 
 ---
 
 # ScriptXtoCP function

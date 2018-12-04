@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LPSAFEARRAY_UserSize
-: 
 ---
 
 # LPSAFEARRAY_UserSize function

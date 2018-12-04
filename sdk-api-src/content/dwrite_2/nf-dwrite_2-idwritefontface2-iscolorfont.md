@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface2_iscolorfont.htm
 tech.root: DirectWrite
 ms.assetid: 77D509D4-355F-4D2F-B71B-D9DF75E19362
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteFontFace2 interface [Direct Write],IsColorFont method, IDWriteFontFace2.IsColorFont, IDWriteFontFace2::IsColorFont, IsColorFont, IsColorFont method [Direct Write], IsColorFont method [Direct Write],IDWriteFontFace2 interface, directwrite.idwritefontface2_iscolorfont, dwrite_2/IDWriteFontFace2::IsColorFont
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_2.h
-: 
-- IDWriteFontFace2.IsColorFont
-: 
 ---
 
 # IDWriteFontFace2::IsColorFont

@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_workingdirectory.htm
 tech.root: imapi
 ms.assetid: 89c4fd34-6651-4056-9939-201f404ea6ee
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_WorkingDirectory method, IFileSystemImage.get_WorkingDirectory, IFileSystemImage::get_WorkingDirectory, get_WorkingDirectory, get_WorkingDirectory method [IMAPI], get_WorkingDirectory method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_workingdirectory, imapi2fs/IFileSystemImage::get_WorkingDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2fs.h
-: 
-- IFileSystemImage.get_WorkingDirectory
-: 
 ---
 
 # IFileSystemImage::get_WorkingDirectory

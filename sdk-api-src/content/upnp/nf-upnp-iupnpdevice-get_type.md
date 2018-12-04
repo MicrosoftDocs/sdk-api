@@ -4,10 +4,10 @@ title: IUPnPDevice::get_Type
 author: windows-sdk-content
 description: The Type method specifies the device type uniform resource identifier (URI) for the device.
 old-location: upnp\iupnpdevice_type.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 3db09e94-4211-44ff-850e-2e34719909d6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_Type method, IUPnPDevice.get_Type, IUPnPDevice::get_Type, _upnp_iupnpdevice_type, get_Type, get_Type method [UPnP APIs], get_Type method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_type, upnp/IUPnPDevice::get_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDevice.get_Type
-: 
 ---
 
 # IUPnPDevice::get_Type
@@ -69,7 +61,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains the device type's URI. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
+Receives a reference to a string that contains the device type's URI. Release this string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
 
 
 ## -returns

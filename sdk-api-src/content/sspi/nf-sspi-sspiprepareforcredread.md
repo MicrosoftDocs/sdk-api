@@ -4,10 +4,10 @@ title: SspiPrepareForCredRead function
 author: windows-sdk-content
 description: Generates a target name and credential type from the specified identity structure.
 old-location: security\sspiprepareforcredread.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: f473fd7a-5c0f-4a77-829b-28a82ad0d28d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SspiPrepareForCredRead, SspiPrepareForCredRead function [Security], security.sspiprepareforcredread, sspi/SspiPrepareForCredRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SspiPrepareForCredRead
-: 
 ---
 
 # SspiPrepareForCredRead function

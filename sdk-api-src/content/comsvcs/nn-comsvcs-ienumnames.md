@@ -7,7 +7,7 @@ old-location: cos\ienumnames.htm
 tech.root: cossdk
 ms.assetid: 9f70b554-3cdd-4a4b-b180-c6de6182a46a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumNames, IEnumNames interface [COM+], IEnumNames interface [COM+],described, _cos_IEnumNames, comsvcs/IEnumNames, cos.ienumnames
 ms.prod: windows-hardware
 ms.technology: windows-devices

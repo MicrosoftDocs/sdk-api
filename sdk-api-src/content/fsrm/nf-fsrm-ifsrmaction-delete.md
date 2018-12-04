@@ -4,10 +4,10 @@ title: IFsrmAction::Delete
 author: windows-sdk-content
 description: Removes the action from the quota or file screen's list of actions.
 old-location: fsrm\ifsrmaction_delete.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 66d17a40-704d-46e6-b8bb-ae7f80e52fa5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method [File Server Resource Manager],IFsrmAction interface, IFsrmAction interface [File Server Resource Manager],Delete method, IFsrmAction.Delete, IFsrmAction::Delete, fs.ifsrmaction_delete, fsrm.ifsrmaction_delete, fsrm/IFsrmAction::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrm.h
-: 
-- IFsrmAction.Delete
-: 
 ---
 
 # IFsrmAction::Delete

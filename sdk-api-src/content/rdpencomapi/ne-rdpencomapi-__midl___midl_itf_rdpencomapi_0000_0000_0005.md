@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0005"
 author: windows-sdk-content
 description: Defines values for the type of access granted to the attendee for the channel.
 old-location: rdp\channel_access_enum.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 7d07954f-6514-4512-a934-6140de826ece
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CHANNEL_ACCESS_ENUM, CHANNEL_ACCESS_ENUM enumeration [RDP], CHANNEL_ACCESS_ENUM_NONE, CHANNEL_ACCESS_ENUM_SENDRECEIVE, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0005, rdp.channel_access_enum, rdpencomapi/CHANNEL_ACCESS_ENUM, rdpencomapi/CHANNEL_ACCESS_ENUM_NONE, rdpencomapi/CHANNEL_ACCESS_ENUM_SENDRECEIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices

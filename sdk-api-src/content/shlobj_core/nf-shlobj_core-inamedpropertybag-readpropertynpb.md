@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyBag_ReadPropertyNPB.htm
 tech.root: shell
 ms.assetid: 7080edeb-4908-4b0a-9416-9b301c54bb4c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: INamedPropertyBag interface [Windows Shell],ReadPropertyNPB method, INamedPropertyBag.ReadPropertyNPB, INamedPropertyBag::ReadPropertyNPB, ReadPropertyNPB, ReadPropertyNPB method [Windows Shell], ReadPropertyNPB method [Windows Shell],INamedPropertyBag interface, _shell_INamedPropertyBag_ReadPropertyNPB, shell.INamedPropertyBag_ReadPropertyNPB, shlobj_core/INamedPropertyBag::ReadPropertyNPB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shlobj_core.h
-: 
-- INamedPropertyBag.ReadPropertyNPB
-: 
 ---
 
 # INamedPropertyBag::ReadPropertyNPB

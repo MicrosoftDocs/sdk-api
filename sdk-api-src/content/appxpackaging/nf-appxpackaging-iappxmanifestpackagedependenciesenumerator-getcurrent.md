@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackagedependenciesenumerator_getcurrent.htm
 tech.root: appxpkg
 ms.assetid: A7DDD037-2A0B-485A-AF1E-7A999780496B
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxManifestPackageDependenciesEnumerator interface, IAppxManifestPackageDependenciesEnumerator interface [App packaging and management],GetCurrent method, IAppxManifestPackageDependenciesEnumerator.GetCurrent, IAppxManifestPackageDependenciesEnumerator::GetCurrent, appxpackaging/IAppxManifestPackageDependenciesEnumerator::GetCurrent, appxpkg.iappxmanifestpackagedependenciesenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- appxpackaging.h
-: 
-- IAppxManifestPackageDependenciesEnumerator.GetCurrent
-: 
 ---
 
 # IAppxManifestPackageDependenciesEnumerator::GetCurrent

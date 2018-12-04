@@ -4,10 +4,10 @@ title: "_BG_FILE_INFO"
 author: windows-sdk-content
 description: The BG_FILE_INFO structure provides the local and remote names of the file to transfer.
 old-location: bits\bg_file_info.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: bf5302e9-da8f-4c57-a998-fd49484e0584
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: BG_FILE_INFO, BG_FILE_INFO structure [BITS], _BG_FILE_INFO, _drz_bg_file_info, bits.bg_file_info, bits/BG_FILE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,7 +82,7 @@ The user must have permission to write to the local directory for downloads and 
 
 
 
-BITS supports the HTTP, HTTPS, and SMB protocols for <b>RemoteName</b>. For HTTP requirements, see <a href="https://msdn.microsoft.com/en-us/library/Aa362846(v=VS.85).aspx">HTTP Requirements for BITS Downloads</a>.
+BITS supports the HTTP, HTTPS, and SMB protocols for <b>RemoteName</b>. For HTTP requirements, see <a href="https://msdn.microsoft.com/35af422b-62e4-41fd-8890-579ccf016c83">HTTP Requirements for BITS Downloads</a>.
 
 <b>BITS 1.5 and earlier:  </b>The SMB protocol for <b>RemoteName</b> is not supported.
 
@@ -93,12 +93,12 @@ The following identifies whether BITS propagates a file's time stamps:
 <li>For HTTP uploads, BITS does not propagate the file's time stamps.</li>
 <li>For SMB downloads and uploads, BITS propagates the file's time stamps.</li>
 </ul>
-BITS does not support SMB paths to named pipes or devices.  To maintain the owner and ACL information for files downloaded using SMB, call the <a href="https://msdn.microsoft.com/en-us/library/Aa362994(v=VS.85).aspx">IBackgroundCopyJob3::SetFileACLFlags</a> method.
+BITS does not support SMB paths to named pipes or devices.  To maintain the owner and ACL information for files downloaded using SMB, call the <a href="https://msdn.microsoft.com/de218e3d-8c42-4cf3-94b9-94dbc5edbb47">IBackgroundCopyJob3::SetFileACLFlags</a> method.
 
 If the path and file name portion of the URL for an HTTP upload and upload-reply job contains Unicode characters not in common to the code page on both the client and server, the URL translation will fail on the server and the BITS job will be placed in the error state.
 If the server portion of the URL contains Unicode characters, you must encode the server portion using <a href="http://go.microsoft.com/fwlink/p/?linkid=166153">Internationalized Domain Names</a> (IDN).
 
-BITS does not limit the size of file you can download using HTTP. For upload limits, see the <a href="https://msdn.microsoft.com/en-us/library/Aa362818(v=VS.85).aspx">BITSMaximumUploadSize</a> 
+BITS does not limit the size of file you can download using HTTP. For upload limits, see the <a href="https://msdn.microsoft.com/08a40cc1-ec6d-4b65-971a-15c7b06df148">BITSMaximumUploadSize</a> 
 IIS extension property. 
 
 <b>IIS 5.0:  </b>Downloads are limited to 4 GB.
@@ -115,23 +115,23 @@ IIS extension property.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362948(v=VS.85).aspx">IBackgroundCopyFile2::SetRemoteName</a>
+<a href="https://msdn.microsoft.com/6dd33b7d-4317-4eb5-aae4-83d3f4416bf9">IBackgroundCopyFile2::SetRemoteName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362956(v=VS.85).aspx">IBackgroundCopyFile::GetLocalName</a>
+<a href="https://msdn.microsoft.com/d27844b7-a5c6-4f4c-a1db-80e031898634">IBackgroundCopyFile::GetLocalName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362958(v=VS.85).aspx">IBackgroundCopyFile::GetRemoteName</a>
+<a href="https://msdn.microsoft.com/b6b1b1dc-776e-4369-bd39-d159e4edfe38">IBackgroundCopyFile::GetRemoteName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362993(v=VS.85).aspx">IBackgroundCopyJob3::ReplaceRemotePrefix</a>
+<a href="https://msdn.microsoft.com/5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf">IBackgroundCopyJob3::ReplaceRemotePrefix</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363019(v=VS.85).aspx">IBackgroundCopyJob::AddFileSet</a>
+<a href="https://msdn.microsoft.com/fe2f9b47-0f0a-48ab-be0e-658307cfec5f">IBackgroundCopyJob::AddFileSet</a>
  
 
  

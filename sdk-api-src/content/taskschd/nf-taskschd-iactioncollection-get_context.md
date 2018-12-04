@@ -4,10 +4,10 @@ title: IActionCollection::get_Context
 author: windows-sdk-content
 description: Gets or sets the identifier of the principal for the task.
 old-location: taskschd\iactioncollection_context.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: e365955e-1648-4e11-b602-016dcbeb129e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Context property [Task Scheduler], Context property [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Context property, IActionCollection.Context, IActionCollection.get_Context, IActionCollection::Context, IActionCollection::get_Context, IActionCollection::put_Context, get_Context, taskschd.iactioncollection_context, taskschd/IActionCollection::Context, taskschd/IActionCollection::get_Context, taskschd/IActionCollection::put_Context
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IActionCollection.get_Context
-: 
 ---
 
 # IActionCollection::get_Context

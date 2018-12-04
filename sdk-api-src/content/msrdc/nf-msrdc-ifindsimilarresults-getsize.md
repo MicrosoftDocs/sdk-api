@@ -4,10 +4,10 @@ title: IFindSimilarResults::GetSize
 author: windows-sdk-content
 description: Retrieves the number of entries in the file list that was returned by the ISimilarity::FindSimilarFileId method.
 old-location: rdc\ifindsimilarresults_getsize.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: c59a6fb0-e81f-4b7d-b0e6-9a5c9730fa9d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetSize, GetSize method [Remote Differential Compression], GetSize method [Remote Differential Compression],IFindSimilarResults interface, IFindSimilarResults interface [Remote Differential Compression],GetSize method, IFindSimilarResults.GetSize, IFindSimilarResults::GetSize, fs.ifindsimilarresults_getsize, msrdc/IFindSimilarResults::GetSize, rdc.ifindsimilarresults_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- IFindSimilarResults.GetSize
-: 
 ---
 
 # IFindSimilarResults::GetSize

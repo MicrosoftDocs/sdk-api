@@ -4,10 +4,10 @@ title: MprConfigTransportEnum function
 author: windows-sdk-content
 description: The MprConfigTransportEnum function enumerates the transports configured on the router.
 old-location: rras\mprconfigtransportenum.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 2abe30f4-564b-499f-a6d3-13da305a783c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MprConfigTransportEnum, MprConfigTransportEnum function [RAS], _mpr_mprconfigtransportenum, mprapi/MprConfigTransportEnum, rras.mprconfigtransportenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprConfigTransportEnum
-: 
 ---
 
 # MprConfigTransportEnum function
@@ -185,7 +179,7 @@ No more entries available from the current resume position.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -200,7 +194,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- ITuner.get_PreferredComponentTypes
-: 
 ---
 
 # ITuner::get_PreferredComponentTypes

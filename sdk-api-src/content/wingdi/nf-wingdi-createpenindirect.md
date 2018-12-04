@@ -7,7 +7,7 @@ old-location: gdi\createpenindirect.htm
 tech.root: gdi
 ms.assetid: 638c0294-9a8f-44ed-a791-1be152cd92dd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreatePenIndirect, CreatePenIndirect function [Windows GDI], _win32_CreatePenIndirect, gdi.createpenindirect, wingdi/CreatePenIndirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreatePenIndirect
-: 
 ---
 
 # CreatePenIndirect function

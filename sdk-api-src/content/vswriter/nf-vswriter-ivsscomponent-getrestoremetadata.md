@@ -4,10 +4,10 @@ title: IVssComponent::GetRestoreMetadata
 author: windows-sdk-content
 description: The GetRestoreMetadata method retrieves private, writer-specific restore metadata that might have been set during a PreRestore event by CVssWriter::OnPreRestore using IVssComponent::SetRestoreMetadata.
 old-location: base\ivsscomponent_getrestoremetadata.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 1b53c523-a105-4507-89f3-1f746aa86204
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetRestoreMetadata, GetRestoreMetadata method [VSS], GetRestoreMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreMetadata method, IVssComponent.GetRestoreMetadata, IVssComponent::GetRestoreMetadata, _win32_ivsscomponent_getrestoremetadata, base.ivsscomponent_getrestoremetadata, vswriter/IVssComponent::GetRestoreMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- IVssComponent.GetRestoreMetadata
-: 
 ---
 
 # IVssComponent::GetRestoreMetadata
@@ -161,7 +153,7 @@ The XML document is not valid. Check the event log for details. For more
 This method can be called at any time depending on the logic of a given writer.
 
 The caller should free the memory held by the <i>pbstrRestoreMetadata</i> parameter by calling 
-    <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+    <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
    
 
 If no backup metadata has been set, 

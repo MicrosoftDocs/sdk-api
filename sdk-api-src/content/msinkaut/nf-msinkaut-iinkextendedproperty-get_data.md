@@ -7,7 +7,7 @@ old-location: tablet\iinkextendedproperty_data.htm
 tech.root: tablet
 ms.assetid: cde7772a-9996-4011-ae9d-d43caddfef83
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Data property [Tablet PC], Data property [Tablet PC],IInkExtendedProperty interface, IInkExtendedProperty interface [Tablet PC],Data property, IInkExtendedProperty.Data, IInkExtendedProperty.get_Data, IInkExtendedProperty.put_Data, IInkExtendedProperty::Data, IInkExtendedProperty::get_Data, IInkExtendedProperty::put_Data, cde7772a-9996-4011-ae9d-d43caddfef83, get_Data, msinkaut/IInkExtendedProperty::Data, msinkaut/IInkExtendedProperty::get_Data, msinkaut/IInkExtendedProperty::put_Data, tablet.iinkextendedproperty_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,14 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkExtendedProperty.get_Data
-: 
 ---
 
 # IInkExtendedProperty::get_Data

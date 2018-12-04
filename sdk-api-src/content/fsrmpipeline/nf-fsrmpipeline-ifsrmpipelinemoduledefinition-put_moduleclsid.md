@@ -4,10 +4,10 @@ title: IFsrmPipelineModuleDefinition::put_ModuleClsid
 author: windows-sdk-content
 description: A string representation specifying the COM class identifier for the class that implements the module defined by this module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_moduleclsid.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: a90c8836-cd7f-46d8-814c-6f798c930b4d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],ModuleClsid property, IFsrmPipelineModuleDefinition.ModuleClsid, IFsrmPipelineModuleDefinition.put_ModuleClsid, IFsrmPipelineModuleDefinition::ModuleClsid, IFsrmPipelineModuleDefinition::get_ModuleClsid, IFsrmPipelineModuleDefinition::put_ModuleClsid, ModuleClsid property [File Server Resource Manager], ModuleClsid property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_moduleclsid, fsrm.ifsrmpipelinemoduledefinition_moduleclsid, fsrmpipeline/IFsrmPipelineModuleDefinition::ModuleClsid, fsrmpipeline/IFsrmPipelineModuleDefinition::get_ModuleClsid, fsrmpipeline/IFsrmPipelineModuleDefinition::put_ModuleClsid, put_ModuleClsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmpipeline.h
-: 
-- IFsrmPipelineModuleDefinition.put_ModuleClsid
-: 
 ---
 
 # IFsrmPipelineModuleDefinition::put_ModuleClsid

@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__decomposehwndidentityst
 tech.root: WinAuto
 ms.assetid: b14932a1-7585-49e4-80eb-498cf48796ee
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DecomposeHwndIdentityString, DecomposeHwndIdentityString method [Windows Accessibility], DecomposeHwndIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHwndIdentityString method, IAccPropServices.DecomposeHwndIdentityString, IAccPropServices::DecomposeHwndIdentityString, _msaa_IAccPropServices_DecomposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__decomposehwndidentitystring, oleacc/IAccPropServices::DecomposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehwndidentitystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
-- apiref
-: 
-- COM
-: 
-- oleacc.h
-: 
-- IAccPropServices.DecomposeHwndIdentityString
-: 
 ---
 
 # IAccPropServices::DecomposeHwndIdentityString

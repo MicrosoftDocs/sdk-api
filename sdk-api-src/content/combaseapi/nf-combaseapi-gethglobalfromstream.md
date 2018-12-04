@@ -4,10 +4,10 @@ title: GetHGlobalFromStream function
 author: windows-sdk-content
 description: The GetHGlobalFromStream function retrieves the global memory handle to a stream that was created through a call to the CreateStreamOnHGlobal function.
 old-location: stg\gethglobalfromstream.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 79e39345-7a20-4b0f-bceb-f62de13d3260
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetHGlobalFromStream, GetHGlobalFromStream function [Structured Storage], _stg_gethglobalfromstream, combaseapi/GetHGlobalFromStream, stg.gethglobalfromstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetHGlobalFromStream
-: 
 ---
 
 # GetHGlobalFromStream function
@@ -62,7 +56,7 @@ req.redist:
 
 
 The <b>GetHGlobalFromStream</b> function retrieves the global memory handle to a stream that was created through a call to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378980(v=VS.85).aspx">CreateStreamOnHGlobal</a> function.
+<a href="https://msdn.microsoft.com/413c107b-a943-4c02-9c00-aea708e876d7">CreateStreamOnHGlobal</a> function.
 
 
 ## -parameters
@@ -73,8 +67,8 @@ The <b>GetHGlobalFromStream</b> function retrieves the global memory handle to a
 ### -param pstm [in]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> pointer to the stream object previously created by a call to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378980(v=VS.85).aspx">CreateStreamOnHGlobal</a> function.
+<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> pointer to the stream object previously created by a call to the 
+<a href="https://msdn.microsoft.com/413c107b-a943-4c02-9c00-aea708e876d7">CreateStreamOnHGlobal</a> function.
 
 
 ### -param phglobal [out]
@@ -95,7 +89,7 @@ This function returns HRESULT.
 
 
 
-The handle <b>GetHGlobalFromStream</b> returns may be different from the original handle due to intervening <a href="https://msdn.microsoft.com/en-us/library/Aa366590(v=VS.85).aspx">GlobalReAlloc</a> calls.
+The handle <b>GetHGlobalFromStream</b> returns may be different from the original handle due to intervening <a href="https://msdn.microsoft.com/2439b16a-f27d-4e95-bc9e-6f1e563933c9">GlobalReAlloc</a> calls.
 
 This function can be called only from within the same process from which the byte array was created.
 
@@ -107,11 +101,11 @@ This function can be called only from within the same process from which the byt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378980(v=VS.85).aspx">CreateStreamOnHGlobal</a>
+<a href="https://msdn.microsoft.com/413c107b-a943-4c02-9c00-aea708e876d7">CreateStreamOnHGlobal</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366590(v=VS.85).aspx">GlobalReAlloc</a>
+<a href="https://msdn.microsoft.com/2439b16a-f27d-4e95-bc9e-6f1e563933c9">GlobalReAlloc</a>
  
 
  

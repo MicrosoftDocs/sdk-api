@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxOutgoingJob.get_Pages
-: 
 ---
 
 # IFaxOutgoingJob::get_Pages

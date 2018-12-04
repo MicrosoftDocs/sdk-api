@@ -4,10 +4,10 @@ title: CredMarshalTargetInfo function
 author: windows-sdk-content
 description: Serializes the specified target into an array of byte values.
 old-location: security\credmarshaltargetinfo.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 1e50a135-e8b3-4aa6-a3b0-f4b1490310e5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CredMarshalTargetInfo, CredMarshalTargetInfo function [Security], ntsecpkg/CredMarshalTargetInfo, security.credmarshaltargetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CredMarshalTargetInfo
-: 
 ---
 
 # CredMarshalTargetInfo function

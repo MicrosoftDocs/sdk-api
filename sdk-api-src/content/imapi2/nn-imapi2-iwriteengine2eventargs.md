@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2eventargs.htm
 tech.root: imapi
 ms.assetid: 1922410a-5871-477f-b778-36b12ad95168
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWriteEngine2EventArgs, IWriteEngine2EventArgs interface [IMAPI], IWriteEngine2EventArgs interface [IMAPI],described, imapi.iwriteengine2eventargs, imapi2/IWriteEngine2EventArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ Use this interface to retrieve information about the current write operation. Th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWriteEngine2EventArgs</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWriteEngine2EventArgs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWriteEngine2EventArgs</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWriteEngine2EventArgs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

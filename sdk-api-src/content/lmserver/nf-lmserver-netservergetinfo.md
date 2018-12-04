@@ -4,10 +4,10 @@ title: NetServerGetInfo function
 author: windows-sdk-content
 description: The NetServerGetInfo function retrieves current configuration information for the specified server.
 old-location: netmgmt\netservergetinfo.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: ed15e1b5-3fdc-4841-85d1-89269684df0e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 100, 101, 102, NetServerGetInfo, NetServerGetInfo function [Network Management], _win32_netservergetinfo, lmserver/NetServerGetInfo, netmgmt.netservergetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetServerGetInfo
-: 
 ---
 
 # NetServerGetInfo function

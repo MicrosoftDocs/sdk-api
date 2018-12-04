@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_setdebugconfiguration.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.SetDebugConfiguration(XAUDIO2_DEBUG_CONFIGURATION)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],SetDebugConfiguration method, IXAudio2.SetDebugConfiguration, IXAudio2::SetDebugConfiguration, SetDebugConfiguration, SetDebugConfiguration method [XAudio2 Audio Mixing APIs], SetDebugConfiguration method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_setdebugconfiguration, xaudio2/IXAudio2::SetDebugConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xaudio2.h
-: 
-- IXAudio2.SetDebugConfiguration
-: 
 ---
 
 # IXAudio2::SetDebugConfiguration
@@ -68,7 +60,7 @@ Changes global debug logging options for XAudio2.
 
 ### -param pDebugConfiguration
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ee419231(v=VS.85).aspx">XAUDIO2_DEBUG_CONFIGURATION</a> structure that contains the new debug configuration.
+Pointer to a <a href="https://msdn.microsoft.com/92c98bc5-26d3-4815-9234-c3ba7b6eb3c2">XAUDIO2_DEBUG_CONFIGURATION</a> structure that contains the new debug configuration.
 
 
 ### -param X2DEFAULT
@@ -89,7 +81,7 @@ This method does not return a value.
 
 
 
-SetDebugConfiguration sets the debug configuration for the given instance of XAudio2 engine. See <a href="https://msdn.microsoft.com/en-us/library/Ee419231(v=VS.85).aspx">XAUDIO2_DEBUG_CONFIGURATION</a> Structure for supported debug options. By default, XAudio2 does not log debug output or break on errors. 
+SetDebugConfiguration sets the debug configuration for the given instance of XAudio2 engine. See <a href="https://msdn.microsoft.com/92c98bc5-26d3-4815-9234-c3ba7b6eb3c2">XAUDIO2_DEBUG_CONFIGURATION</a> Structure for supported debug options. By default, XAudio2 does not log debug output or break on errors. 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -102,7 +94,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
+<a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a>
 
 
 

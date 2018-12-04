@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PeerCollabGetEventData
-: 
 ---
 
 # PeerCollabGetEventData function
@@ -66,7 +60,7 @@ The <b>PeerCollabGetEventData</b> function obtains the data associated with a pe
 
 ### -param hPeerEvent [in]
 
-The peer collaboration network event handle obtained by a call to <a href="https://msdn.microsoft.com/en-us/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a>.
+The peer collaboration network event handle obtained by a call to <a href="p2p.peercollabregisterevent">PeerCollabRegisterEvent</a>.
 
 
 ### -param ppEventData [out]

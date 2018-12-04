@@ -4,10 +4,10 @@ title: "_MINIDUMP_FUNCTION_TABLE_DESCRIPTOR"
 author: windows-sdk-content
 description: Represents a function table stream.
 old-location: base\minidump_function_table_descriptor_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 284435dc-3443-4b26-9c13-ce9567482628
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR, MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, MINIDUMP_FUNCTION_TABLE_DESCRIPTOR structure, PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR, PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR structure pointer, _MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, _win32_minidump_function_table_descriptor_str, base.minidump_function_table_descriptor_str, minidumpapiset/MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, minidumpapiset/PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

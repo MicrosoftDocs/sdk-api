@@ -7,7 +7,7 @@ old-location: appxpkg\packagefamilynamefromid.htm
 tech.root: appxpkg
 ms.assetid: 198DAB6B-21D2-4ACB-87DF-B3F4EFBEE323
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: PackageFamilyNameFromId, PackageFamilyNameFromId function [App packaging and management], appmodel/PackageFamilyNameFromId, appxpkg.packagefamilynamefromid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PackageFamilyNameFromId
-: 
 ---
 
 # PackageFamilyNameFromId function

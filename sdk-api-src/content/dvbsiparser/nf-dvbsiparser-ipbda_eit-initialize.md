@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IPBDA_EIT.Initialize
-: 
 ---
 
 # IPBDA_EIT::Initialize

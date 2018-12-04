@@ -7,7 +7,7 @@ old-location: com\idataobject_enumformatetc.htm
 tech.root: com
 ms.assetid: 657a7394-4481-4e0c-912d-40a9348caf16
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: EnumFormatEtc, EnumFormatEtc method [COM], EnumFormatEtc method [COM],IDataObject interface, IDataObject interface [COM],EnumFormatEtc method, IDataObject.EnumFormatEtc, IDataObject::EnumFormatEtc, _ole_idataobject_enumformatetc, com.idataobject_enumformatetc, objidl/IDataObject::EnumFormatEtc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- IDataObject.EnumFormatEtc
-: 
 ---
 
 # IDataObject::EnumFormatEtc

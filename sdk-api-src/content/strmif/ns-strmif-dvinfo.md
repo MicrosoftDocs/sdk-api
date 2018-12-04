@@ -7,7 +7,7 @@ old-location: dshow\dvinfo.htm
 tech.root: DirectShow
 ms.assetid: 285a56fc-9c25-4c5a-ae6a-146c17b00e84
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PDVINFO, DVINFO, DVINFO structure [DirectShow], DVINFOStructure, PDVINFO, PDVINFO structure pointer [DirectShow], dshow.dvinfo, strmif/DVINFO, strmif/PDVINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

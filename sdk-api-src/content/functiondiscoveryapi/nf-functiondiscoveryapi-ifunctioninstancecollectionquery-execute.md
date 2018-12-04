@@ -4,10 +4,10 @@ title: IFunctionInstanceCollectionQuery::Execute
 author: windows-sdk-content
 description: Performs the query defined by IFunctionDiscovery::CreateInstanceCollectionQuery.
 old-location: ncd\ifunctioninstancecollectionquery_execute_method.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: b924d066-87d7-499b-b006-a10e219e11fd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,Execute method, IFunctionInstanceCollectionQuery.Execute, IFunctionInstanceCollectionQuery::Execute, functiondiscoveryapi/IFunctionInstanceCollectionQuery::Execute, ncd.ifunctioninstancecollectionquery_execute_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryapi.h
-: 
-- IFunctionInstanceCollectionQuery.Execute
-: 
 ---
 
 # IFunctionInstanceCollectionQuery::Execute

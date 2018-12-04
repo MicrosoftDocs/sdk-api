@@ -7,7 +7,7 @@ old-location: wmformat\insnetsourcecreator_shutdown.htm
 tech.root: wmformat
 ms.assetid: 746b2ffa-c5bc-4df0-84fd-c3f1395e0d3e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INSNetSourceCreator interface [windows Media Format],Shutdown method, INSNetSourceCreator.Shutdown, INSNetSourceCreator::Shutdown, INSNetSourceCreatorShutdown, Shutdown, Shutdown method [windows Media Format], Shutdown method [windows Media Format],INSNetSourceCreator interface, wmformat.insnetsourcecreator_shutdown, wmnetsourcecreator/INSNetSourceCreator::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmnetsourcecreator.h
-: 
-- INSNetSourceCreator.Shutdown
-: 
 ---
 
 # INSNetSourceCreator::Shutdown

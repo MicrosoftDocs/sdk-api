@@ -7,7 +7,7 @@ old-location: intl\cpinfoex.htm
 tech.root: Intl
 ms.assetid: 9639bb11-477e-45ee-b9fb-d5d099925e00
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPCPINFOEXW, CPINFOEX, CPINFOEX structure [Internationalization for Windows Applications], CPINFOEXW, LPCPINFOEX, LPCPINFOEX structure pointer [Internationalization for Windows Applications], _cpinfoexW, _win32_CPINFOEX_str, intl.cpinfoex, winnls/CPINFOEX, winnls/LPCPINFOEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

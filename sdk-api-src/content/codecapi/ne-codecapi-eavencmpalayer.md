@@ -7,7 +7,7 @@ old-location: dshow\eavencmpalayer.htm
 tech.root: DirectShow
 ms.assetid: dbe5c4ac-15c8-443b-a344-a9d529ed841f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: codecapi/eAVEncMPALayer, codecapi/eAVEncMPALayer_1, codecapi/eAVEncMPALayer_2, codecapi/eAVEncMPALayer_3, dshow.eavencmpalayer, eAVEncMPALayer, eAVEncMPALayer enumeration [DirectShow], eAVEncMPALayerEnumeration, eAVEncMPALayer_1, eAVEncMPALayer_2, eAVEncMPALayer_3
 ms.prod: windows-hardware
 ms.technology: windows-devices

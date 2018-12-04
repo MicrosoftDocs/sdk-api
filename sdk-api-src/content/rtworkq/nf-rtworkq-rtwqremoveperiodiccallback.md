@@ -4,10 +4,10 @@ title: RtwqRemovePeriodicCallback function
 author: windows-sdk-content
 description: Cancels a callback function that was set by the RtwqAddPeriodicCallback function.
 old-location: base\rtwqremoveperiodiccallback.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 308910e3-dae8-4f23-9782-adf2996a58aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: RtwqRemovePeriodicCallback, RtwqRemovePeriodicCallback function, base.rtwqremoveperiodiccallback, rtworkq/RtwqRemovePeriodicCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtwqRemovePeriodicCallback
-: 
 ---
 
 # RtwqRemovePeriodicCallback function

@@ -4,10 +4,10 @@ title: RtmReleaseNextHops function
 author: windows-sdk-content
 description: The RtmReleaseNextHops function releases the next-hop handles.
 old-location: rras\rtmreleasenexthops.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: a21de428-7e9d-4596-a7ab-06a29b9852f7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RtmReleaseNextHops, RtmReleaseNextHops function [RAS], _rtmv2ref_rtmreleasenexthops, rras.rtmreleasenexthops, rtmv2/RtmReleaseNextHops
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtmReleaseNextHops
-: 
 ---
 
 # RtmReleaseNextHops function

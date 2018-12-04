@@ -4,10 +4,10 @@ title: WakeByAddressSingle function
 author: windows-sdk-content
 description: Wakes one thread that is waiting for the value of an address to change.
 old-location: base\wakebyaddresssingle.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 4ca8f7b9-e78e-4324-9e72-84267746fe53
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WakeByAddressSingle, WakeByAddressSingle function, base.wakebyaddresssingle, synchapi/WakeByAddressSingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WakeByAddressSingle
-: 
 ---
 
 # WakeByAddressSingle function

@@ -4,10 +4,10 @@ title: MprAdminInterfaceDelete function
 author: windows-sdk-content
 description: The MprAdminInterfaceDelete function deletes an interface on a specified server.
 old-location: rras\mpradmininterfacedelete.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: a02fff1d-c0e0-4a00-b77e-33cc45850bc6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MprAdminInterfaceDelete, MprAdminInterfaceDelete function [RAS], _mpr_mpradmininterfacedelete, mprapi/MprAdminInterfaceDelete, rras.mpradmininterfacedelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprAdminInterfaceDelete
-: 
 ---
 
 # MprAdminInterfaceDelete function

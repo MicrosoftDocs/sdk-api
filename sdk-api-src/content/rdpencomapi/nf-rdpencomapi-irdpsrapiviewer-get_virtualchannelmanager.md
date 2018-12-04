@@ -4,10 +4,10 @@ title: IRDPSRAPIViewer::get_VirtualChannelManager
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIVirtualChannelManager interface.
 old-location: rdp\irdpsrapiviewer_virtualchannelmanager.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: c878c445-5f1a-4a1f-be56-4cc427a40a1a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],VirtualChannelManager property, IRDPSRAPIViewer.VirtualChannelManager, IRDPSRAPIViewer.get_VirtualChannelManager, IRDPSRAPIViewer::VirtualChannelManager, IRDPSRAPIViewer::get_VirtualChannelManager, RDPViewer object [RDP],VirtualChannelManager property, VirtualChannelManager property [RDP], VirtualChannelManager property [RDP],IRDPSRAPIViewer interface, VirtualChannelManager property [RDP],RDPViewer object, get_VirtualChannelManager, rdp.irdpsrapiviewer_virtualchannelmanager, rdpencomapi/IRDPSRAPIViewer::VirtualChannelManager, rdpencomapi/IRDPSRAPIViewer::get_VirtualChannelManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIViewer.get_VirtualChannelManager
-: 
 ---
 
 # IRDPSRAPIViewer::get_VirtualChannelManager

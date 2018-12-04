@@ -7,7 +7,7 @@ old-location: shell\IsUserAnAdmin.htm
 tech.root: shell
 ms.assetid: fe698d32-32f6-4b2b-ad0c-5d9ec815177f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IsUserAnAdmin, IsUserAnAdmin function [Windows Shell], _win32_IsUserAnAdmin, shell.IsUserAnAdmin, shlobj_core/IsUserAnAdmin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IsUserAnAdmin
-: 
 ---
 
 # IsUserAnAdmin function

@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol9_getalpha.htm
 tech.root: DirectShow
 ms.assetid: 0806f27c-4728-4492-a2ac-26067b7c0aaa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetAlpha, GetAlpha method [DirectShow], GetAlpha method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetAlpha method, IVMRMixerControl9.GetAlpha, IVMRMixerControl9::GetAlpha, IVMRMixerControl9GetAlpha, dshow.ivmrmixercontrol9_getalpha, vmr9/IVMRMixerControl9::GetAlpha
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vmr9.h
-: 
-- IVMRMixerControl9.GetAlpha
-: 
 ---
 
 # IVMRMixerControl9::GetAlpha

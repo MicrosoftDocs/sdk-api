@@ -4,10 +4,10 @@ title: tagBUTTON_SPLITINFO
 author: windows-sdk-content
 description: Contains information that defines a split button (BS_SPLITBUTTON and BS_DEFSPLITBUTTON styles). Used with the BCM_GETSPLITINFO and BCM_SETSPLITINFO messages.
 old-location: controls\BUTTON_SPLITINFO.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_splitinfo.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*PBUTTON_SPLITINFO, BCSIF_GLYPH, BCSIF_IMAGE, BCSIF_SIZE, BCSIF_STYLE, BCSS_ALIGNLEFT, BCSS_IMAGE, BCSS_NOSPLIT, BCSS_STRETCH, BUTTON_SPLITINFO, BUTTON_SPLITINFO structure [Windows Controls], PBUTTON_SPLITINFO, PBUTTON_SPLITINFO structure pointer [Windows Controls], _shell_BUTTON_SPLITINFO_str, _shell_BUTTON_SPLITINFO_str_cpp, commctrl/BUTTON_SPLITINFO, commctrl/PBUTTON_SPLITINFO, controls.BUTTON_SPLITINFO, controls._shell_BUTTON_SPLITINFO_str, tagBUTTON_SPLITINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information that defines a split button (<a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_SPLITBUTTON</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_DEFSPLITBUTTON</a> styles). Used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775969(v=VS.85).aspx">BCM_GETSPLITINFO</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775981(v=VS.85).aspx">BCM_SETSPLITINFO</a> messages.
+Contains information that defines a split button (<a href="Button_Styles.htm">BS_SPLITBUTTON</a> and <a href="Button_Styles.htm">BS_DEFSPLITBUTTON</a> styles). Used with the <a href="https://msdn.microsoft.com/d608440d-b8d8-4e32-9128-08b7566b185c">BCM_GETSPLITINFO</a> and <a href="https://msdn.microsoft.com/609b8972-9616-4850-a72c-2f87ce19f563">BCM_SETSPLITINFO</a> messages.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Contains information that defines a split button (<a href="https://msdn.microsof
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 A set of flags that specify which members of this structure contain data to be set or which members are being requested. Set this member to one or more of the following flags.
 
@@ -122,7 +122,7 @@ A handle to the image list. The provider retains ownership of the image list and
 
 ### -field uSplitStyle
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The split button style. Value must be one or more of the following flags.
 
@@ -197,7 +197,7 @@ The glyph is the image that appears on the part of the button that activates the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775943(v=VS.85).aspx">Buttons Overview</a>
+<a href="https://msdn.microsoft.com/f96da91c-e3b3-4dfa-92f3-276eb468612d">Buttons Overview</a>
  
 
  

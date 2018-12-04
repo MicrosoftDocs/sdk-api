@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- instance.h
-: 
-- CInstance.GetWBEMINT64
-: 
 ---
 
 # CInstance::GetWBEMINT64(LPCWSTR,ULONGLONG &)

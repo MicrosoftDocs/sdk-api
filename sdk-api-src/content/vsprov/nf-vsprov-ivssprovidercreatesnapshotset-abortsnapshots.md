@@ -4,10 +4,10 @@ title: IVssProviderCreateSnapshotSet::AbortSnapshots
 author: windows-sdk-content
 description: Aborts prepared shadow copies in this provider.
 old-location: base\ivssprovidercreatesnapshotset_abortsnapshots.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 393fd5aa-9934-4918-8699-25c41d0dc982
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AbortSnapshots, AbortSnapshots method [VSS], AbortSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],AbortSnapshots method, IVssProviderCreateSnapshotSet.AbortSnapshots, IVssProviderCreateSnapshotSet::AbortSnapshots, base.ivssprovidercreatesnapshotset_abortsnapshots, vsprov/IVssProviderCreateSnapshotSet::AbortSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsprov.h
-: 
-- IVssProviderCreateSnapshotSet.AbortSnapshots
-: 
 ---
 
 # IVssProviderCreateSnapshotSet::AbortSnapshots

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_clearretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: F8CCB852-4719-4A1D-A881-5A9EF37E18CF
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ClearRetrievalFilter, ClearRetrievalFilter method [DXGI], ClearRetrievalFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],ClearRetrievalFilter method, IDXGIInfoQueue.ClearRetrievalFilter, IDXGIInfoQueue::ClearRetrievalFilter, direct3ddxgi.idxgiinfoqueue_clearretrievalfilter, dxgidebug/IDXGIInfoQueue::ClearRetrievalFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxgidebug.h
-: 
-- IDXGIInfoQueue.ClearRetrievalFilter
-: 
 ---
 
 # IDXGIInfoQueue::ClearRetrievalFilter

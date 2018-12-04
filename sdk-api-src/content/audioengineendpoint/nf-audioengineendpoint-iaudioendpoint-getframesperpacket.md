@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpoint_getframesperpacket.htm
 tech.root: termserv
 ms.assetid: b9e47262-9e6f-4ddf-a74a-b7fa63983a5a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetFramesPerPacket, GetFramesPerPacket method [Remote Desktop Services], GetFramesPerPacket method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetFramesPerPacket method, IAudioEndpoint.GetFramesPerPacket, IAudioEndpoint::GetFramesPerPacket, audioengineendpoint/IAudioEndpoint::GetFramesPerPacket, termserv.iaudioendpoint_getframesperpacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- audioengineendpoint.h
-: 
-- IAudioEndpoint.GetFramesPerPacket
-: 
 ---
 
 # IAudioEndpoint::GetFramesPerPacket

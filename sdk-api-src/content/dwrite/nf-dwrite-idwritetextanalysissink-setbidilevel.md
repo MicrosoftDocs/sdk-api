@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalysissink_setbidilevel.htm
 tech.root: DirectWrite
 ms.assetid: f51bae22-b4a0-4f72-a341-4479d66cfec5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetBidiLevel method, IDWriteTextAnalysisSink.SetBidiLevel, IDWriteTextAnalysisSink::SetBidiLevel, SetBidiLevel, SetBidiLevel method [Direct Write], SetBidiLevel method [Direct Write],IDWriteTextAnalysisSink interface, directwrite.idwritetextanalysissink_setbidilevel, dwrite/IDWriteTextAnalysisSink::SetBidiLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteTextAnalysisSink.SetBidiLevel
-: 
 ---
 
 # IDWriteTextAnalysisSink::SetBidiLevel

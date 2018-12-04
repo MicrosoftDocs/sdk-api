@@ -4,10 +4,10 @@ title: "_HTTP_SERVICE_CONFIG_SSL_PARAM"
 author: windows-sdk-content
 description: Defines a record in the SSL configuration store.
 old-location: http\http_service_config_ssl_param.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 2bb3bfe0-9bac-4eb5-80b1-c883503a30b3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_PARAM, 0, 0x10000, 1, 2, 4, HTTP_SERVICE_CONFIG_SSL_FLAG_NEGOTIATE_CLIENT_CERT, HTTP_SERVICE_CONFIG_SSL_FLAG_NO_RAW_FILTER, HTTP_SERVICE_CONFIG_SSL_FLAG_USE_DS_MAPPER, HTTP_SERVICE_CONFIG_SSL_PARAM, HTTP_SERVICE_CONFIG_SSL_PARAM structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_PARAM, PHTTP_SERVICE_CONFIG_SSL_PARAM structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_PARAM, _http_http_service_config_ssl_param, http.http_service_config_ssl_param, http/HTTP_SERVICE_CONFIG_SSL_PARAM, http/PHTTP_SERVICE_CONFIG_SSL_PARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

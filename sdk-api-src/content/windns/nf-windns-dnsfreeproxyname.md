@@ -4,10 +4,10 @@ title: DnsFreeProxyName function
 author: windows-sdk-content
 description: Frees memory allocated for the proxyName member of a DNS_PROXY_INFORMATION structure obtained using the DnsGetProxyInformation function.
 old-location: dns\dnsfreeproxyname.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 4c69d548-3bb5-4609-9fc5-3a829a285956
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DnsFreeProxyName, DnsFreeProxyName function [DNS], dns.dnsfreeproxyname, windns/DnsFreeProxyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DnsFreeProxyName
-: 
 ---
 
 # DnsFreeProxyName function

@@ -4,10 +4,10 @@ title: "_KERB_CERTIFICATE_LOGON"
 author: windows-sdk-content
 description: Contains information about a smart card logon session.
 old-location: security\kerb_certificate_logon.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: e6aa0042-edb5-4e9b-b545-5159d3bfb8fc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PKERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_LOGON structure [Security], KERB_CERTIFICATE_LOGON_FLAG_CHECK_DUPLICATES, KERB_CERTIFICATE_LOGON_FLAG_USE_CERTIFICATE_INFO, KerbCertificateLogon, KerbCertificateUnlockLogon, PKERB_CERTIFICATE_LOGON, PKERB_CERTIFICATE_LOGON structure pointer [Security], _KERB_CERTIFICATE_LOGON, ntsecapi/KERB_CERTIFICATE_LOGON, ntsecapi/PKERB_CERTIFICATE_LOGON, security.kerb_certificate_logon"
 ms.prod: windows-hardware
 ms.technology: windows-devices

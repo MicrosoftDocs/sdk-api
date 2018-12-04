@@ -7,7 +7,7 @@ old-location: shell\ULongPtrToInt8.htm
 tech.root: shell
 ms.assetid: 097e43ef-0d7a-4533-9dc6-68f41df2e734
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ULongPtrToInt8, ULongPtrToInt8 function [Windows Shell], intsafe/ULongPtrToInt8, shell.ULongPtrToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ULongPtrToInt8
-: 
 ---
 
 # ULongPtrToInt8 function

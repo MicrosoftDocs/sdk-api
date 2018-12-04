@@ -4,10 +4,10 @@ title: PFSCE_LOG_INFO
 author: windows-sdk-content
 description: Logs messages to the configuration log file or analysis log file.
 old-location: security\pfsce_log_info.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 8960b0c0-abde-4ea1-bbe4-7409a848d81b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PFSCE_LOG_INFO, PFSCE_LOG_INFO callback, PFSCE_LOG_INFO callback function [Security], SCE_LOG_LEVEL_ALWAYS, SCE_LOG_LEVEL_DEBUG, SCE_LOG_LEVEL_DETAIL, SCE_LOG_LEVEL_ERROR, _config_pfsce_log_info, scesvc/PFSCE_LOG_INFO, security.pfsce_log_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxDeviceProvider.get_MajorBuild
-: 
 ---
 
 # IFaxDeviceProvider::get_MajorBuild

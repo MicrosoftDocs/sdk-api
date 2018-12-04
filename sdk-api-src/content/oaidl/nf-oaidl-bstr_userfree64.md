@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BSTR_UserFree64
-: 
 ---
 
 # BSTR_UserFree64 function

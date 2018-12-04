@@ -7,7 +7,7 @@ old-location: shell\IFolderFilterSite_SetFilter.htm
 tech.root: shell
 ms.assetid: 1bbcb238-9b3e-4f5c-9cb3-429d0ff918af
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IFolderFilterSite interface [Windows Shell],SetFilter method, IFolderFilterSite.SetFilter, IFolderFilterSite::SetFilter, SetFilter, SetFilter method [Windows Shell], SetFilter method [Windows Shell],IFolderFilterSite interface, _shell_IFolderFilterSite_SetFilter, shell.IFolderFilterSite_SetFilter, shobjidl_core/IFolderFilterSite::SetFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IFolderFilterSite.SetFilter
-: 
 ---
 
 # IFolderFilterSite::SetFilter

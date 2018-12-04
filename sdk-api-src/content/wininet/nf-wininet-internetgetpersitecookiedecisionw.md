@@ -4,10 +4,10 @@ title: InternetGetPerSiteCookieDecisionW function
 author: windows-sdk-content
 description: Retrieves a decision on cookies for a given domain.
 old-location: wininet\internetgetpersitecookiedecision.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 04fa4c33-077c-4b16-8170-c3770783c98a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: InternetGetPerSiteCookieDecision, InternetGetPerSiteCookieDecision function [WinINet], InternetGetPerSiteCookieDecisionA, InternetGetPerSiteCookieDecisionW, wininet.internetgetpersitecookiedecision, wininet/InternetGetPerSiteCookieDecision, wininet/InternetGetPerSiteCookieDecisionA, wininet/InternetGetPerSiteCookieDecisionW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetGetPerSiteCookieDecisionW
-: 
 ---
 
 # InternetGetPerSiteCookieDecisionW function

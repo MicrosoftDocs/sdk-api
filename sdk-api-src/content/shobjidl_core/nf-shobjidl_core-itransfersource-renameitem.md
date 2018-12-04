@@ -7,7 +7,7 @@ old-location: shell\ITransferSource_RenameItem.htm
 tech.root: shell
 ms.assetid: 793eba59-6d21-4c7b-8fdb-bb7658fc410e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ITransferSource interface [Windows Shell],RenameItem method, ITransferSource.RenameItem, ITransferSource::RenameItem, RenameItem, RenameItem method [Windows Shell], RenameItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RenameItem, shell.ITransferSource_RenameItem, shobjidl_core/ITransferSource::RenameItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- ITransferSource.RenameItem
-: 
 ---
 
 # ITransferSource::RenameItem

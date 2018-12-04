@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_FindAttribute.htm
 tech.root: WinAuto
 ms.assetid: 12722d22-79ca-4390-8155-61234b821256
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FindAttribute, FindAttribute method [Windows Accessibility], FindAttribute method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],FindAttribute method, IUIAutomationTextRange.FindAttribute, IUIAutomationTextRange::FindAttribute, uiauto.uiauto_IUIAutomationTextRange_FindAttribute, uiauto_IUIAutomationTextRange_FindAttribute, uiautomationclient/IUIAutomationTextRange::FindAttribute, winauto.uiauto_IUIAutomationTextRange_FindAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationTextRange.FindAttribute
-: 
 ---
 
 # IUIAutomationTextRange::FindAttribute
@@ -109,7 +101,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <b>FindAttribute</b> method retrieves matching text regardless of whether the text is hidden or visible. Use <a href="https://msdn.microsoft.com/en-us/library/Ee671662(v=VS.85).aspx">UIA_IsHiddenAttributeId</a> to check text visibility.
+The <b>FindAttribute</b> method retrieves matching text regardless of whether the text is hidden or visible. Use <a href="uiauto_textattribute_ids.htm">UIA_IsHiddenAttributeId</a> to check text visibility.
 
 
 

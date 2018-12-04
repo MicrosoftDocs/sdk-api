@@ -7,7 +7,7 @@ old-location: gdi\selectcliprgn.htm
 tech.root: gdi
 ms.assetid: 7a4f0b9c-8588-4da8-a030-ed9d8b4ee08d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SelectClipRgn, SelectClipRgn function [Windows GDI], _win32_SelectClipRgn, gdi.selectcliprgn, wingdi/SelectClipRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SelectClipRgn
-: 
 ---
 
 # SelectClipRgn function

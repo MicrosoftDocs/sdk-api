@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_FindAttributeConPat.htm
 tech.root: WinAuto
 ms.assetid: b5fac0d6-77d7-4fbf-a1b0-4ae0effbd23a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: TextRange_FindAttribute, TextRange_FindAttribute function [Windows Accessibility], uiauto.uiauto_TextRange_FindAttributeConPat, uiauto_TextRange_FindAttributeConPat, uiautomationcoreapi/TextRange_FindAttribute, winauto.uiauto_TextRange_FindAttributeConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TextRange_FindAttribute
-: 
 ---
 
 # TextRange_FindAttribute function

@@ -4,10 +4,10 @@ title: IAutomaticUpdatesResults::get_LastSearchSuccessDate
 author: windows-sdk-content
 description: Gets the last time and Coordinated Universal Time (UTC) date when AutomaticUpdates successfully searched for updates.
 old-location: wua\iautomaticupdatesresults_lastsearchsuccessdate.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 3c053888-be91-45e9-a5da-182f18e07710
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAutomaticUpdatesResults interface [Windows Update Agent],LastSearchSuccessDate property, IAutomaticUpdatesResults.LastSearchSuccessDate, IAutomaticUpdatesResults.get_LastSearchSuccessDate, IAutomaticUpdatesResults::LastSearchSuccessDate, IAutomaticUpdatesResults::get_LastSearchSuccessDate, LastSearchSuccessDate property [Windows Update Agent], LastSearchSuccessDate property [Windows Update Agent],IAutomaticUpdatesResults interface, get_LastSearchSuccessDate, wua.iautomaticupdatesresults_lastsearchsuccessdate, wuapi/IAutomaticUpdatesResults::LastSearchSuccessDate, wuapi/IAutomaticUpdatesResults::get_LastSearchSuccessDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IAutomaticUpdatesResults.get_LastSearchSuccessDate
-: 
 ---
 
 # IAutomaticUpdatesResults::get_LastSearchSuccessDate

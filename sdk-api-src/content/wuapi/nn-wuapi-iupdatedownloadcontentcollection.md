@@ -4,10 +4,10 @@ title: IUpdateDownloadContentCollection
 author: windows-sdk-content
 description: Represents a collection of download contents for an update.
 old-location: wua\iupdatedownloadcontentcollection.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: cfb5b023-e31c-4a67-a5d8-47ea453a6e4a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUpdateDownloadContentCollection, IUpdateDownloadContentCollection interface [Windows Update Agent], IUpdateDownloadContentCollection interface [Windows Update Agent],described, wua.iupdatedownloadcontentcollection, wuapi/IUpdateDownloadContentCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

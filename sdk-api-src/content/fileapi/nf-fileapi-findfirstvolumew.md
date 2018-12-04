@@ -7,7 +7,7 @@ old-location: fs\findfirstvolume.htm
 tech.root: fileio
 ms.assetid: 3eaf9903-ae20-47e7-b32c-943bf60e7bbd
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: FindFirstVolume, FindFirstVolume function [Files], FindFirstVolumeA, FindFirstVolumeW, _win32_findfirstvolume, base.findfirstvolume, fileapi/FindFirstVolume, fileapi/FindFirstVolumeA, fileapi/FindFirstVolumeW, fs.findfirstvolume, winbase/FindFirstVolume, winbase/FindFirstVolumeA, winbase/FindFirstVolumeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,12 +53,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FindFirstVolumeW
-: 
 ---
 
 # FindFirstVolumeW function

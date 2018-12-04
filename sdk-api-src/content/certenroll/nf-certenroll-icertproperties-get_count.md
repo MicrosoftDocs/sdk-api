@@ -4,10 +4,10 @@ title: ICertProperties::get_Count
 author: windows-sdk-content
 description: Retrieves the number of properties in the collection.
 old-location: security\icertproperties_count_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a01672b6-f2d1-43ad-a8bf-a052d6435572
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Count property [Security], Count property [Security],ICertProperties interface, ICertProperties interface [Security],Count property, ICertProperties.Count, ICertProperties.get_Count, ICertProperties::Count, ICertProperties::get_Count, certenroll/ICertProperties::Count, certenroll/ICertProperties::get_Count, get_Count, security.icertproperties_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICertProperties.get_Count
-: 
 ---
 
 # ICertProperties::get_Count
@@ -72,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375231(v=VS.85).aspx">ICertProperties</a>
+<a href="https://msdn.microsoft.com/b830c0af-0a38-419d-8a33-8e3626c4e8f1">ICertProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
  
 
  

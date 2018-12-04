@@ -7,7 +7,7 @@ old-location: shell\StrCSpnI.htm
 tech.root: shell
 ms.assetid: d21eb80b-5f02-4eb7-9a22-02425b7050b3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: StrCSpnI, StrCSpnI function [Windows Shell], StrCSpnIA, StrCSpnIW, _win32_StrCSpnI, shell.StrCSpnI, shlwapi/StrCSpnI, shlwapi/StrCSpnIA, shlwapi/StrCSpnIW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StrCSpnIW
-: 
 ---
 
 # StrCSpnIW function

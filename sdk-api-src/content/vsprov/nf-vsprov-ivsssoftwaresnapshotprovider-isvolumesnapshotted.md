@@ -4,10 +4,10 @@ title: IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
 author: windows-sdk-content
 description: Determines whether any shadow copies exist for the specified volume.
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesnapshotted.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 0dd8cbe4-a8f8-479c-b8f7-ccdd255e978a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,IsVolumeSnapshotted method, IVssSoftwareSnapshotProvider.IsVolumeSnapshotted, IVssSoftwareSnapshotProvider::IsVolumeSnapshotted, IsVolumeSnapshotted, IsVolumeSnapshotted method, IsVolumeSnapshotted method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_isvolumesnapshotted, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsprov.h
-: 
-- IVssSoftwareSnapshotProvider.IsVolumeSnapshotted
-: 
 ---
 
 # IVssSoftwareSnapshotProvider::IsVolumeSnapshotted

@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_visible.htm
 tech.root: DirectShow
 ms.assetid: b533398e-80f6-4f33-982b-93b8e0d705e9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Visible method, IVideoWindow.get_Visible, IVideoWindow::get_Visible, IVideoWindowget_Visible, control/IVideoWindow::get_Visible, dshow.ivideowindow_get_visible, get_Visible, get_Visible method [DirectShow], get_Visible method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- control.h
-: 
-- IVideoWindow.get_Visible
-: 
 ---
 
 # IVideoWindow::get_Visible
@@ -140,15 +132,15 @@ This method checks for the WS_VISIBLE style bit, by calling the Windows <b>IsWin
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377326(v=VS.85).aspx">IVideoWindow::put_Visible</a>
+<a href="https://msdn.microsoft.com/ae789f07-4d50-488c-b57e-2b003a8cde3e">IVideoWindow::put_Visible</a>
  
 
  

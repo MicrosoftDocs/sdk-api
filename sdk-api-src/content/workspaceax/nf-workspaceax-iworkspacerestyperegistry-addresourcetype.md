@@ -7,7 +7,7 @@ old-location: termserv\iworkspacerestyperegistry_addresourcetype.htm
 tech.root: termserv
 ms.assetid: 0f4b82a6-1eca-4890-aa0c-1e4c5821cd33
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: AddResourceType, AddResourceType method [Remote Desktop Services], AddResourceType method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, AddResourceType method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],AddResourceType method, IWorkspaceResTypeRegistry.AddResourceType, IWorkspaceResTypeRegistry::AddResourceType, Workspace object [Remote Desktop Services],AddResourceType method, termserv.iworkspacerestyperegistry_addresourcetype, workspaceax/IWorkspaceResTypeRegistry::AddResourceType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- workspaceax.h
-: 
-- IWorkspaceResTypeRegistry.AddResourceType
-: 
 ---
 
 # IWorkspaceResTypeRegistry::AddResourceType

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectshadervariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 7e1a8b15-5ab3-8e81-cf9f-cb84e1a408ae, ID3D10EffectShaderVariable, ID3D10EffectShaderVariable interface [Direct3D 10], ID3D10EffectShaderVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectShaderVariable, direct3d10.id3d10effectshadervariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ A shader-variable interface accesses a shader variable.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectShaderVariable</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>. <b>ID3D10EffectShaderVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectShaderVariable</b> interface inherits from <a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>. <b>ID3D10EffectShaderVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D10EffectShaderVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173699(v=VS.85).aspx">GetGeometryShader</a>
+<a href="https://msdn.microsoft.com/013481d0-197d-4274-aecd-0395ed1218de">GetGeometryShader</a>
 </td>
 <td align="left" width="63%">
 Get a geometry shader.
@@ -80,7 +80,7 @@ Get a geometry shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173700(v=VS.85).aspx">GetInputSignatureElementDesc</a>
+<a href="https://msdn.microsoft.com/f76326ff-4de3-4cd7-b398-9141196cfd2a">GetInputSignatureElementDesc</a>
 </td>
 <td align="left" width="63%">
 Get an input-signature description.
@@ -89,7 +89,7 @@ Get an input-signature description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173701(v=VS.85).aspx">GetOutputSignatureElementDesc</a>
+<a href="https://msdn.microsoft.com/5e3e6661-6248-4f8e-bc5d-815097764fec">GetOutputSignatureElementDesc</a>
 </td>
 <td align="left" width="63%">
 Get an output-signature description.
@@ -98,7 +98,7 @@ Get an output-signature description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173702(v=VS.85).aspx">GetPixelShader</a>
+<a href="https://msdn.microsoft.com/49f9749b-2685-41ac-92be-e01da2572126">GetPixelShader</a>
 </td>
 <td align="left" width="63%">
 Get a pixel shader.
@@ -107,7 +107,7 @@ Get a pixel shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173703(v=VS.85).aspx">GetShaderDesc</a>
+<a href="https://msdn.microsoft.com/5655273a-fc95-4ced-a76f-df622a70745c">GetShaderDesc</a>
 </td>
 <td align="left" width="63%">
 Get a shader description.
@@ -116,7 +116,7 @@ Get a shader description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173704(v=VS.85).aspx">GetVertexShader</a>
+<a href="https://msdn.microsoft.com/158af4bc-c87b-42bf-8458-a813567d129e">GetVertexShader</a>
 </td>
 <td align="left" width="63%">
 Get a vertex shader.
@@ -131,11 +131,11 @@ Get a vertex shader.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/ebe0afc7-6261-4c96-a54e-9b491e240c03">Effect Interfaces (Direct3D 10)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>
  
 
  

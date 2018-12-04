@@ -7,7 +7,7 @@ old-location: shell\SHGetLocalizedName.htm
 tech.root: shell
 ms.assetid: 2929b77f-4467-44a8-9885-96f0c3e35584
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SHGetLocalizedName, SHGetLocalizedName function [Windows Shell], _shell_SHGetLocalizedName, shell.SHGetLocalizedName, shellapi/SHGetLocalizedName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHGetLocalizedName
-: 
 ---
 
 # SHGetLocalizedName function

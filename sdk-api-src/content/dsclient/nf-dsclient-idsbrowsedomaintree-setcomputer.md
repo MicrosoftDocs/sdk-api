@@ -7,7 +7,7 @@ old-location: ad\idsbrowsedomaintree_setcomputer.htm
 tech.root: ad
 ms.assetid: 1e070673-ce8d-4f68-a066-5baf38180745
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: IDsBrowseDomainTree interface [Active Directory],SetComputer method, IDsBrowseDomainTree.SetComputer, IDsBrowseDomainTree::SetComputer, SetComputer, SetComputer method [Active Directory], SetComputer method [Active Directory],IDsBrowseDomainTree interface, _glines_idsbrowsedomaintree_setcomputer, ad.idsbrowsedomaintree__setcomputer, ad.idsbrowsedomaintree_setcomputer, dsclient/IDsBrowseDomainTree::SetComputer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dsclient.h
-: 
-- IDsBrowseDomainTree.SetComputer
-: 
 ---
 
 # IDsBrowseDomainTree::SetComputer

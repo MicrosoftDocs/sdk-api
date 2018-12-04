@@ -4,10 +4,10 @@ title: RasSetEapUserDataW function
 author: windows-sdk-content
 description: Use the RasSetEapUserData function to store user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry in the registry.
 old-location: rras\rasseteapuserdata.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 702e5c42-cc8c-43cf-a0bf-d3e450c031a4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RasSetEapUserData, RasSetEapUserData function [RAS], RasSetEapUserDataA, RasSetEapUserDataW, _ras_rasseteapuserdata, ras/RasSetEapUserData, ras/RasSetEapUserDataA, ras/RasSetEapUserDataW, rras.rasseteapuserdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RasSetEapUserDataW
-: 
 ---
 
 # RasSetEapUserDataW function
@@ -146,7 +140,7 @@ The <i>dwSizeofEapData</i> parameter is zero, or the <i>pbEapData</i> parameter 
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>

@@ -4,10 +4,10 @@ title: IADsBackLink
 author: windows-sdk-content
 description: The IADsBackLink interface provides methods for an ADSI client to access the Back Link attribute. You can call the property methods of this interface to obtain and modify the attribute.
 old-location: adsi\iadsbacklink.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 2876e8c5-8cfa-4bcc-91ba-c2f71bfbe622
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: BackLink, IADsBackLink, IADsBackLink interface [ADSI], IADsBackLink interface [ADSI],described, _ds_iadsbacklink, adsi.iadsbacklink, iads/IADsBackLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ The <b>IADsBackLink</b> interface provides methods for an ADSI client to access 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

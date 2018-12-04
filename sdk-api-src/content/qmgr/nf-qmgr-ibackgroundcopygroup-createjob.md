@@ -4,10 +4,10 @@ title: IBackgroundCopyGroup::CreateJob
 author: windows-sdk-content
 description: Use the CreateJob method to add a new job to the group. A group can contain only one job.
 old-location: bits\ibackgroundcopygroup_createjob.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 2453996e-f994-43b9-901b-680a55095268
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: CreateJob, CreateJob method [BITS], CreateJob method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],CreateJob method, IBackgroundCopyGroup.CreateJob, IBackgroundCopyGroup::CreateJob, bits.ibackgroundcopygroup_createjob, qmgr/IBackgroundCopyGroup::CreateJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qmgr.h
-: 
-- IBackgroundCopyGroup.CreateJob
-: 
 ---
 
 # IBackgroundCopyGroup::CreateJob
@@ -68,19 +60,14 @@ Use the <b>CreateJob</b> method to add a new job to the group. A group can conta
 
 
 
-### -param guidJobID
+### -param guidJobID [in]
 
-TBD
+Uniquely identifies the job in the group and queue.
 
 
 ### -param ppJob [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/ccf1b355-c1af-4b5e-b613-181c426ed777">IBackgroundCopyJob1</a> interface pointer. Use the interface to add files and check the state of the job.
-
-
-#### - guidJobId [in]
-
-Uniquely identifies the job in the group and queue.
 
 
 ## -returns

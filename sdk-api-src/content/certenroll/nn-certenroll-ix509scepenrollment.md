@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment
 author: windows-sdk-content
 description: X.509 Simple Computer Enrollment Protocol Interface
 old-location: security\ix509scepenrollment.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: fcbac911-9e37-4994-bbb6-544b19a92749
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], IX509SCEPEnrollment interface [Security],described, certenroll/IX509SCEPEnrollment, security.ix509scepenrollment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,10 +55,10 @@ X.509 Simple Computer Enrollment Protocol Interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509SCEPEnrollment</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509SCEPEnrollment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509SCEPEnrollment</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509SCEPEnrollment</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IX509SCEPEnrollment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn424976(v=VS.85).aspx">CreateRequestMessage</a>
+<a href="https://msdn.microsoft.com/b86d6dc3-aa96-45f3-9551-f24c39ea6cbf">CreateRequestMessage</a>
 </td>
 <td align="left" width="63%">
 Create a PKCS10 request message with a challenge password.
@@ -80,7 +80,7 @@ Create a PKCS10 request message with a challenge password.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn424977(v=VS.85).aspx">CreateRetrieveCertificateMessage</a>
+<a href="https://msdn.microsoft.com/238a837f-4464-49ce-b87a-03abcfc0abea">CreateRetrieveCertificateMessage</a>
 </td>
 <td align="left" width="63%">
 Retrieve a previously issued certificate.
@@ -89,7 +89,7 @@ Retrieve a previously issued certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn424978(v=VS.85).aspx">CreateRetrievePendingMessage</a>
+<a href="https://msdn.microsoft.com/86d031b0-2009-460b-8bed-fe7a0489f22b">CreateRetrievePendingMessage</a>
 </td>
 <td align="left" width="63%">
 Create a message for certificate polling (manual enrollment).
@@ -98,7 +98,7 @@ Create a message for certificate polling (manual enrollment).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn424979(v=VS.85).aspx">DeleteRequest</a>
+<a href="https://msdn.microsoft.com/d709dd46-b6ed-4471-a601-e140a139f57e">DeleteRequest</a>
 </td>
 <td align="left" width="63%">
 Delete the any certificates or keys created for the request.
@@ -107,7 +107,7 @@ Delete the any certificates or keys created for the request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn424981(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/dcb887ab-c8b7-42e7-8b49-93755d24ba70">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initialize the instance in preparation for a new request.
@@ -116,7 +116,7 @@ Initialize the instance in preparation for a new request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn424982(v=VS.85).aspx">InitializeForPending</a>
+<a href="https://msdn.microsoft.com/6b6f9e9d-5316-4928-861a-22497e1f5c00">InitializeForPending</a>
 </td>
 <td align="left" width="63%">
 Initialize the instance to prepare to generate a message to either retrieve an issued certificate, or install a response for a previous request by the issuer.
@@ -125,7 +125,7 @@ Initialize the instance to prepare to generate a message to either retrieve an i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn424985(v=VS.85).aspx">ProcessResponseMessage</a>
+<a href="https://msdn.microsoft.com/4254fdf3-473f-4f22-a08f-13481fd9f779">ProcessResponseMessage</a>
 </td>
 <td align="left" width="63%">
 Process a response message and return the disposition of the message.
@@ -143,7 +143,7 @@ Process a response message and return the disposition of the message.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424974(v=VS.85).aspx">Certificate</a>
+<a href="https://msdn.microsoft.com/9aa3eaad-d661-4e76-86b5-331bddf50700">Certificate</a>
 
 
 </td>
@@ -159,7 +159,7 @@ Gets the certificate for the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424975(v=VS.85).aspx">CertificateFriendlyName</a>
+<a href="https://msdn.microsoft.com/7d6802be-c8d7-45ea-8da2-042414ae5e55">CertificateFriendlyName</a>
 
 
 </td>
@@ -175,7 +175,7 @@ Gets or sets the friendly name for the certificate.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424980(v=VS.85).aspx">FailInfo</a>
+<a href="https://msdn.microsoft.com/4fd76b7e-8b19-46da-b352-7668917a6585">FailInfo</a>
 
 
 </td>
@@ -184,14 +184,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets information when the <a href="https://msdn.microsoft.com/en-us/library/Dn424985(v=VS.85).aspx">ProcessResponseMessage</a> method detects a failed environment.
+Gets information when the <a href="https://msdn.microsoft.com/4254fdf3-473f-4f22-a08f-13481fd9f779">ProcessResponseMessage</a> method detects a failed environment.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424984(v=VS.85).aspx">OldCertificate</a>
+<a href="https://msdn.microsoft.com/caa88227-b068-4b3d-9334-c0283153b1ce">OldCertificate</a>
 
 
 </td>
@@ -207,7 +207,7 @@ Gets or sets an old certificate that a request is intended to replace.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424987(v=VS.85).aspx">Request</a>
+<a href="https://msdn.microsoft.com/9446cd62-5a02-4701-8b13-9e46508fbfaa">Request</a>
 
 
 </td>
@@ -223,7 +223,7 @@ Gets the inner PKCS10 request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424988(v=VS.85).aspx">ServerCapabilities</a>
+<a href="https://msdn.microsoft.com/fcfed23f-7798-4b56-afcd-65975a2d39bd">ServerCapabilities</a>
 
 
 </td>
@@ -239,7 +239,7 @@ Sets the hash and encryption algorithms to use for the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424989(v=VS.85).aspx">SignerCertificate</a>
+<a href="https://msdn.microsoft.com/7d01acc5-158d-4429-a2e8-d179571f9a1c">SignerCertificate</a>
 
 
 </td>
@@ -255,7 +255,7 @@ Gets or sets the signer certificate for the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424990(v=VS.85).aspx">Silent</a>
+<a href="https://msdn.microsoft.com/6c672181-fdfa-4e9c-9e19-2af9d8bf3a03">Silent</a>
 
 
 </td>
@@ -271,7 +271,7 @@ Gets or sets whether to display UI during the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424991(v=VS.85).aspx">Status</a>
+<a href="https://msdn.microsoft.com/252d7767-fc48-4d7d-9fcd-6312b5b78611">Status</a>
 
 
 </td>
@@ -287,7 +287,7 @@ Gets the status of the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424992(v=VS.85).aspx">TransactionId</a>
+<a href="https://msdn.microsoft.com/f0688ce9-9c20-4726-ae15-69285c3b30f3">TransactionId</a>
 
 
 </td>

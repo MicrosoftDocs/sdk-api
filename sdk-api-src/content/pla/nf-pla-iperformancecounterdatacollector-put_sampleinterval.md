@@ -4,10 +4,10 @@ title: IPerformanceCounterDataCollector::put_SampleInterval
 author: windows-sdk-content
 description: Retrieves or sets the interval to wait between sampling counter data.
 old-location: pla\iperformancecounterdatacollector_sampleinterval.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 3bd3aad3-9ec6-4e61-9d98-3a71f7f1165a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],SampleInterval property, IPerformanceCounterDataCollector.SampleInterval, IPerformanceCounterDataCollector.put_SampleInterval, IPerformanceCounterDataCollector::SampleInterval, IPerformanceCounterDataCollector::get_SampleInterval, IPerformanceCounterDataCollector::put_SampleInterval, SampleInterval property [PLA], SampleInterval property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_sampleinterval, pla.iperformancecounterdatacollector_sampleinterval, pla/IPerformanceCounterDataCollector::SampleInterval, pla/IPerformanceCounterDataCollector::get_SampleInterval, pla/IPerformanceCounterDataCollector::put_SampleInterval, put_SampleInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IPerformanceCounterDataCollector.put_SampleInterval
-: 
 ---
 
 # IPerformanceCounterDataCollector::put_SampleInterval

@@ -4,10 +4,10 @@ title: FNFCIFREE macro
 author: windows-sdk-content
 description: The FNFCIFREE macro provides the declaration for the application-defined callback function to free previously allocated memory in an FCI context.
 old-location: winprog\fnfcifree.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 48f052e2-7786-430a-b3dc-afcfdffae387
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: FNFCIFREE, FNFCIFREE macro [Windows API], fci/FNFCIFREE, winprog.fnfcifree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- fci.h
-: 
-- FNFCIFREE
-: 
 ---
 
 # FNFCIFREE macro

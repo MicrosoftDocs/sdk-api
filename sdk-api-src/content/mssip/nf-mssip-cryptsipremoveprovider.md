@@ -4,10 +4,10 @@ title: CryptSIPRemoveProvider function
 author: windows-sdk-content
 description: Removes registry details of a Subject Interface Package (SIP) DLL file added by a previous call to the CryptSIPAddProvider function.
 old-location: security\cryptsipremoveprovider.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 0a269956-b2c7-414a-b002-7cec0d52bfd6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptSIPRemoveProvider, CryptSIPRemoveProvider function [Security], mssip/CryptSIPRemoveProvider, security.cryptsipremoveprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptSIPRemoveProvider
-: 
 ---
 
 # CryptSIPRemoveProvider function

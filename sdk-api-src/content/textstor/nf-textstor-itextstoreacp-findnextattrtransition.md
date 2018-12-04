@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_findnextattrtransition.htm
 tech.root: TSF
 ms.assetid: f5917958-150e-48a5-9d0d-67240a88c232
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FindNextAttrTransition, FindNextAttrTransition method [Text Services Framework], FindNextAttrTransition method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],FindNextAttrTransition method, ITextStoreACP.FindNextAttrTransition, ITextStoreACP::FindNextAttrTransition, TS_ATTR_FIND_BACKWARDS, TS_ATTR_FIND_WANT_OFFSET, _tsf_itextstoreacp_findnextattrtransition_ref, textstor/ITextStoreACP::FindNextAttrTransition, tsf.itextstoreacp_findnextattrtransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- textstor.h
-: 
-- ITextStoreACP.FindNextAttrTransition
-: 
 ---
 
 # ITextStoreACP::FindNextAttrTransition

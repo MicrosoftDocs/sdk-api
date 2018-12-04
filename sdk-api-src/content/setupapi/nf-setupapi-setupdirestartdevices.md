@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiRestartDevices
-: 
 ---
 
 # SetupDiRestartDevices function
@@ -66,7 +60,7 @@ The <b>SetupDiRestartDevices</b> function restarts a specified device or, if nec
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541190(v=VS.85).aspx">device information set</a> that contains the device information element that represents the device to restart. 
+A handle to a <a href="devinst.device_classes">device information set</a> that contains the device information element that represents the device to restart. 
 
 
 ### -param DeviceInfoData [in, out]

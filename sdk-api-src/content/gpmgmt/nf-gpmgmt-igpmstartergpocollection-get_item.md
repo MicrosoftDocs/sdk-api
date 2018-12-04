@@ -4,10 +4,10 @@ title: IGPMStarterGPOCollection::get_Item
 author: windows-sdk-content
 description: Given an index, returns a pointer to an IGPMGPO interface from the collection.
 old-location: gpmc\igpmstartergpocollection_get_item.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: e8385fe5-8a65-48be-b997-dbddd638ddbc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IGPMStarterGPOCollection interface [GPMC],Item property, IGPMStarterGPOCollection.Item, IGPMStarterGPOCollection.get_Item, IGPMStarterGPOCollection::Item, IGPMStarterGPOCollection::get_Item, Item property [GPMC], Item property [GPMC],IGPMStarterGPOCollection interface, get_Item, gpmc.igpmstartergpocollection_get_item, gpmgmt/IGPMStarterGPOCollection::Item, gpmgmt/IGPMStarterGPOCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMStarterGPOCollection.get_Item
-: 
 ---
 
 # IGPMStarterGPOCollection::get_Item

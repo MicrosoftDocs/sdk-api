@@ -4,10 +4,10 @@ title: IADsContainer::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an enumerator object for the container.
 old-location: adsi\iadscontainer_get__newenum.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: b268efb8-59cd-41ef-b96c-583ae476432e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsContainer interface [ADSI],get__NewEnum method, IADsContainer.get__NewEnum, IADsContainer::get__NewEnum, _ds_iadscontainer_get__newenum, adsi.iadscontainer__get____newenum, adsi.iadscontainer_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsContainer interface, iads/IADsContainer::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsContainer.get__NewEnum
-: 
 ---
 
 # IADsContainer::get__NewEnum
@@ -59,7 +51,7 @@ req.redist:
 
 
 The <b>IADsContainer::get__NewEnum</b> method Retrieves an enumerator object for the container. The 
-  enumerator object implements the  <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface to enumerate the children of the container object.
+  enumerator object implements the  <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface to enumerate the children of the container object.
 
 
 ## -parameters
@@ -67,16 +59,9 @@ The <b>IADsContainer::get__NewEnum</b> method Retrieves an enumerator object for
 
 
 
-### -param retval
+### -param retval [out]
 
-TBD
-
-
-
-
-#### - ppEnumerator [out]
-
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
+Pointer to an <a href="_com_iunknown">IUnknown</a> pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
 
 
 ## -returns
@@ -203,11 +188,11 @@ pEnum-&gt;Release();</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

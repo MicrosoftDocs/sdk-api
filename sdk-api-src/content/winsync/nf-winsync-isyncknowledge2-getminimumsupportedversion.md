@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge2_getminimumsupportedversion.htm
 tech.root: winsync
 ms.assetid: 06b5794e-ba46-499f-b85c-f0acb4fd79a7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetMinimumSupportedVersion, GetMinimumSupportedVersion method [Windows Sync], GetMinimumSupportedVersion method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetMinimumSupportedVersion method, ISyncKnowledge2.GetMinimumSupportedVersion, ISyncKnowledge2::GetMinimumSupportedVersion, winsync.isyncknowledge2_getminimumsupportedversion, winsync/ISyncKnowledge2::GetMinimumSupportedVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- ISyncKnowledge2.GetMinimumSupportedVersion
-: 
 ---
 
 # ISyncKnowledge2::GetMinimumSupportedVersion

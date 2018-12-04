@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DRMCreateClientSession
-: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
@@ -85,7 +79,7 @@ Specifies the version of the callback function. Currently, only version zero is 
 
 ### -param wszGroupIDProviderType [in]
 
-A pointer to a null-terminated Unicode string that specifies the authentication type of the submitted <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificate</a> (RAC). This can be one of the following values.
+A pointer to a null-terminated Unicode string that specifies the authentication type of the submitted <a href="r_gly.htm">rights account certificate</a> (RAC). This can be one of the following values.
 
 
 

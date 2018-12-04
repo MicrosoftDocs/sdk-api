@@ -7,7 +7,7 @@ old-location: mf\packratio.htm
 tech.root: medfound
 ms.assetid: 2E175E21-D5A3-43B1-8AB9-A427E0F9350E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: PackRatio, PackRatio function [Media Foundation], mf.packratio, mfapi/PackRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PackRatio
-: 
 ---
 
 # PackRatio function

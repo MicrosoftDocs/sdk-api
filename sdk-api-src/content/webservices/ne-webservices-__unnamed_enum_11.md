@@ -1,22 +1,22 @@
 ---
 UID: NE:webservices.__unnamed_enum_11
-title: "__unnamed_enum_11"
+title: WS_CHARSET
 author: windows-sdk-content
-description: A set of flags used within a WS_OPERATION_DESCRIPTION structure.
-old-location: wsw\ws_service_operation_message_option.htm
+description: Identifies the character set of a document.
+old-location: wsw\ws_charset.htm
 tech.root: wsw
-ms.assetid: 3f54e012-4893-4f70-9f38-55ae9db365e8
+ms.assetid: 47dadf5d-1bc7-4f93-936c-21c936bc3fc3
 ms.author: windowssdkdev
 ms.date: 09/26/2018
-ms.keywords: WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT, WS_SERVICE_OPERATION_MESSAGE_OPTION, WS_SERVICE_OPERATION_MESSAGE_OPTION enumeration [Web Services for Windows], __unnamed_enum_11, webservices/WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT, webservices/WS_SERVICE_OPERATION_MESSAGE_OPTION, wsw.ws_service_operation_message_option
+ms.keywords: WS_CHARSET, WS_CHARSET enumeration [Web Services for Windows], WS_CHARSET_AUTO, WS_CHARSET_UTF16BE, WS_CHARSET_UTF16LE, WS_CHARSET_UTF8, webservices/WS_CHARSET, webservices/WS_CHARSET_AUTO, webservices/WS_CHARSET_UTF16BE, webservices/WS_CHARSET_UTF16LE, webservices/WS_CHARSET_UTF8, wsw.ws_charset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: v.1.0
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -37,21 +37,20 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - WS_SERVICE_OPERATION_MESSAGE_OPTION
+ - WS_CHARSET
 product: Windows
 targetos: Windows
-req.typenames: 
+req.typenames: WS_CHARSET
 req.redist: 
 ---
 
-# __unnamed_enum_11 enumeration
+# WS_CHARSET enumeration
 
 
 ## -description
 
 
-A set of flags used within a <a href="https://msdn.microsoft.com/d05b55aa-4159-4e48-ae75-2af36c0a7101">WS_OPERATION_DESCRIPTION</a> structure.
-      
+Identifies the character set of a document.
 
 
 ## -enum-fields
@@ -59,22 +58,27 @@ A set of flags used within a <a href="https://msdn.microsoft.com/d05b55aa-4159-4
 
 
 
-### -field WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT
+### -field WS_CHARSET_AUTO
 
-This flag indicates that the message element may contain an xsi:nil attribute used to
-          indicate a value which is nil. See the documentation for an individual
-          <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> to determine whether a nil value is supported for that type,
-          and how nil is represented for that type.
+Specifies that the charset of a document should be determined automatically by inspecting
+          the BOM (Byte Order Marks) of the document and the xml declaration if present.
         
 
 
-## -remarks
+### -field WS_CHARSET_UTF8
+
+Specifies that the charset of a document is UTF-8.
+        
 
 
+### -field WS_CHARSET_UTF16LE
 
-For more information on which flag combinations are valid for which types,
-        see the documentation for each individual <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>.
-      
+Specifies that the charset of a document is UTF-16LE.
+        
 
 
+### -field WS_CHARSET_UTF16BE
+
+Specifies that the charset of a document is UTF-16BE.
+        
 

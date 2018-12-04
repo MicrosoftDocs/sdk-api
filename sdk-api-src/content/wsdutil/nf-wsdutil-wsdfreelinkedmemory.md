@@ -4,10 +4,10 @@ title: WSDFreeLinkedMemory function
 author: windows-sdk-content
 description: Frees a memory block previously allocated with WSDAllocateLinkedMemory.
 old-location: ncd\wsdfreelinkedmemory_func.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 8fe6f586-a262-4248-9650-dec0fae8cd74
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WSDFreeLinkedMemory, WSDFreeLinkedMemory function, ncd.wsdfreelinkedmemory_func, wsdutil/WSDFreeLinkedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSDFreeLinkedMemory
-: 
 ---
 
 # WSDFreeLinkedMemory function

@@ -4,10 +4,10 @@ title: IUpdateInstaller::get_ParentHwnd
 author: windows-sdk-content
 description: Gets and sets a handle to the parent window that can contain a dialog box.
 old-location: wua\iupdateinstaller_parenthwnd.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 6862ad8c-e1fa-4880-8800-88f485b7cebf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],ParentHwnd property, IUpdateInstaller.ParentHwnd, IUpdateInstaller.get_ParentHwnd, IUpdateInstaller::ParentHwnd, IUpdateInstaller::get_ParentHwnd, IUpdateInstaller::put_ParentHwnd, ParentHwnd property [Windows Update Agent], ParentHwnd property [Windows Update Agent],IUpdateInstaller interface, get_ParentHwnd, wua.iupdateinstaller_parenthwnd, wuapi/IUpdateInstaller::ParentHwnd, wuapi/IUpdateInstaller::get_ParentHwnd, wuapi/IUpdateInstaller::put_ParentHwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateInstaller.get_ParentHwnd
-: 
 ---
 
 # IUpdateInstaller::get_ParentHwnd

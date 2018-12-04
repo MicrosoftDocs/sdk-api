@@ -7,7 +7,7 @@ old-location: display\engloadimage.htm
 tech.root: display
 ms.assetid: 03b1835a-5c4e-4f38-93b1-e557a2975be7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EngLoadImage, EngLoadImage function [Display Devices], display.engloadimage, gdifncs_8fb20a2d-c7ae-4d15-af65-219b44289130.xml, winddi/EngLoadImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winddi.h
-: 
-- EngLoadImage
-: 
 ---
 
 # EngLoadImage macro

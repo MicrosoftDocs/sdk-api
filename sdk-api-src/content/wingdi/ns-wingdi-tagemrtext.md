@@ -7,7 +7,7 @@ old-location: gdi\emrtext.htm
 tech.root: gdi
 ms.assetid: a126f1ea-35ef-492d-8184-fb288a74f7f6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PEMRTEXT, EMRTEXT, EMRTEXT structure [Windows GDI], PEMRTEXT, PEMRTEXT structure pointer [Windows GDI], _win32_EMRTEXT_str, gdi.emrtext, tagEMRTEXT, wingdi/EMRTEXT, wingdi/PEMRTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

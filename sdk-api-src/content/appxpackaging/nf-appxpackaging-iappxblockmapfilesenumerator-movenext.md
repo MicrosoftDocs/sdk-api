@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapfilesenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: C50F7801-4C33-46EA-989C-259BA407C96B
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: IAppxBlockMapFilesEnumerator interface [App packaging and management],MoveNext method, IAppxBlockMapFilesEnumerator.MoveNext, IAppxBlockMapFilesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBlockMapFilesEnumerator interface, appxpackaging/IAppxBlockMapFilesEnumerator::MoveNext, appxpkg.iappxblockmapfilesenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- appxpackaging.h
-: 
-- IAppxBlockMapFilesEnumerator.MoveNext
-: 
 ---
 
 # IAppxBlockMapFilesEnumerator::MoveNext
@@ -66,14 +58,7 @@ Advances the position of the enumerator to the next file.
 
 
 
-### -param hasCurrent
-
-TBD
-
-
-
-
-#### - hasNext [out, retval]
+### -param hasCurrent [out, retval]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a>*</b>
 

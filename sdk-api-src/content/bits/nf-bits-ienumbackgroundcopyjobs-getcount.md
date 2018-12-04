@@ -4,10 +4,10 @@ title: IEnumBackgroundCopyJobs::GetCount
 author: windows-sdk-content
 description: Retrieves a count of the number of jobs in the enumeration.
 old-location: bits\ienumbackgroundcopyjobs_getcount.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 024ffd11-5084-4ff5-b1b6-9aec3e802900
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyJobs interface, IEnumBackgroundCopyJobs interface [BITS],GetCount method, IEnumBackgroundCopyJobs.GetCount, IEnumBackgroundCopyJobs::GetCount, _drz_ienumbackgroundcopyjobs_getcount, bits.ienumbackgroundcopyjobs_getcount, bits/IEnumBackgroundCopyJobs::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IEnumBackgroundCopyJobs.GetCount
-: 
 ---
 
 # IEnumBackgroundCopyJobs::GetCount
@@ -66,14 +58,7 @@ Retrieves a count of the number of jobs in the enumeration.
 
 
 
-### -param puCount
-
-TBD
-
-
-
-
-#### - pCount [out]
+### -param puCount [out]
 
 Number of jobs in the enumeration.
 
@@ -92,7 +77,7 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363109(v=VS.85).aspx">IEnumBackgroundCopyJobs</a>
+<a href="https://msdn.microsoft.com/21ff88da-9fae-478f-bcba-488ed7a89608">IEnumBackgroundCopyJobs</a>
  
 
  

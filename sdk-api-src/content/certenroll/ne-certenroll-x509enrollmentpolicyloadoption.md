@@ -4,10 +4,10 @@ title: X509EnrollmentPolicyLoadOption
 author: windows-sdk-content
 description: Is used by the LoadPolicy method on the IX509EnrollmentPolicyServer interface to specify how to retrieve policy from the policy server.
 old-location: security\x509enrollmentpolicyloadoption.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 94adcffd-b4fe-4bd9-912c-9e8d5e5fdb5b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: LoadOptionCacheOnly, LoadOptionDefault, LoadOptionRegisterForADChanges, LoadOptionReload, X509EnrollmentPolicyLoadOption, X509EnrollmentPolicyLoadOption enumeration [Security], certenroll/LoadOptionCacheOnly, certenroll/LoadOptionDefault, certenroll/LoadOptionRegisterForADChanges, certenroll/LoadOptionReload, certenroll/X509EnrollmentPolicyLoadOption, security.x509enrollmentpolicyloadoption
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>X509EnrollmentPolicyLoadOption</b> enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Ee351712(v=VS.85).aspx">LoadPolicy</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> interface to specify how to retrieve policy from the policy server.
+The <b>X509EnrollmentPolicyLoadOption</b> enumeration is used by the <a href="https://msdn.microsoft.com/5b617c6e-91bc-4a22-acd6-41083102850a">LoadPolicy</a> method on the <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> interface to specify how to retrieve policy from the policy server.
 
 
 ## -enum-fields
@@ -83,7 +83,7 @@ Registers a thread to update a sequence number if there are changes to the templ
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351712(v=VS.85).aspx">LoadPolicy</a>
+<a href="https://msdn.microsoft.com/5b617c6e-91bc-4a22-acd6-41083102850a">LoadPolicy</a>
  
 
  

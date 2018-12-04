@@ -4,10 +4,10 @@ title: IWSManSession::get_Error
 author: windows-sdk-content
 description: Gets additional error information in an XML stream for the preceding call to an IWSManSession object method.
 old-location: winrm\iwsmansession_error.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 9fa89b5d-60c3-4a0d-9d4b-62a266e884aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Error property, IWSManSession.Error, IWSManSession.get_Error, IWSManSession::Error, IWSManSession::get_Error, get_Error, winrm.iwsmansession_error, wsmandisp/IWSManSession::Error, wsmandisp/IWSManSession::get_Error
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManSession.get_Error
-: 
 ---
 
 # IWSManSession::get_Error

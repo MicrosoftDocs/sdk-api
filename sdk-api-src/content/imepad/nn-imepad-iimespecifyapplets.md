@@ -7,7 +7,7 @@ old-location: intl\iimespecifyapplets.htm
 tech.root: Intl
 ms.assetid: 788C7272-3BFF-4531-B66E-211585BF85E3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IImeSpecifyApplets, IImeSpecifyApplets interface [Internationalization for Windows Applications], IImeSpecifyApplets interface [Internationalization for Windows Applications],described, imepad/IImeSpecifyApplets, intl.iimespecifyapplets
 ms.prod: windows-hardware
 ms.technology: windows-devices

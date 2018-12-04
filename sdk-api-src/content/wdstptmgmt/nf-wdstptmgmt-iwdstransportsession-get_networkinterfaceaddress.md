@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportSession.get_NetworkInterfaceAddress
-: 
 ---
 
 # IWdsTransportSession::get_NetworkInterfaceAddress

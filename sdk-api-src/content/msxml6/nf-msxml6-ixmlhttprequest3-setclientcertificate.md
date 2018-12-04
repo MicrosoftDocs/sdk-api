@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest3_setclientcertificate.htm
 tech.root: ixhr2
 ms.assetid: fc3e2645-666c-42af-babd-1f476b6356b8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IXMLHTTPRequest3 interface [XMLHttpRequest2],SetClientCertificate method, IXMLHTTPRequest3.SetClientCertificate, IXMLHTTPRequest3::SetClientCertificate, SetClientCertificate, SetClientCertificate method [XMLHttpRequest2], SetClientCertificate method [XMLHttpRequest2],IXMLHTTPRequest3 interface, ixhr2.ixmlhttprequest3_setclientcertificate, msxml6/IXMLHTTPRequest3::SetClientCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msxml6.h
-: 
-- IXMLHTTPRequest3.SetClientCertificate
-: 
 ---
 
 # IXMLHTTPRequest3::SetClientCertificate

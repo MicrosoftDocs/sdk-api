@@ -7,7 +7,7 @@ old-location: winrt\imetadataassemblyimport_findmanifestresourcebyname.htm
 tech.root: WinRT
 ms.assetid: a72e4c1f-505d-4672-8baa-fbe2243b8ca0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FindManifestResourceByName, FindManifestResourceByName method [Windows Runtime], FindManifestResourceByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindManifestResourceByName method, IMetaDataAssemblyImport.FindManifestResourceByName, IMetaDataAssemblyImport::FindManifestResourceByName, rometadataapi/IMetaDataAssemblyImport::FindManifestResourceByName, winrt.imetadataassemblyimport_findmanifestresourcebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rometadataapi.h
-: 
-- IMetaDataAssemblyImport.FindManifestResourceByName
-: 
 ---
 
 # IMetaDataAssemblyImport::FindManifestResourceByName

@@ -7,7 +7,7 @@ old-location: audio\iaudioprocessingobjectrt_calcoutputframes.htm
 tech.root: audio
 ms.assetid: af558f8c-a38e-44d0-ad50-5e650f86cf2e
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: CalcOutputFrames, CalcOutputFrames method [Audio Devices], CalcOutputFrames method [Audio Devices],IAudioProcessingObjectRT interface, IAudioProcessingObjectRT interface [Audio Devices],CalcOutputFrames method, IAudioProcessingObjectRT.CalcOutputFrames, IAudioProcessingObjectRT::CalcOutputFrames, audio.iaudioprocessingobjectrt_calcoutputframes, audio_syseffects_r_1352a553-5788-46cb-be25-1d3d8e6ab963.xml, audioenginebaseapo/IAudioProcessingObjectRT::CalcOutputFrames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- audioenginebaseapo.h
-: 
-- IAudioProcessingObjectRT.CalcOutputFrames
-: 
 ---
 
 # IAudioProcessingObjectRT::CalcOutputFrames

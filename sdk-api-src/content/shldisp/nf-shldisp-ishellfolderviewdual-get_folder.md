@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual_get_Folder.htm
 tech.root: shell
 ms.assetid: 62af6b31-89bf-4965-a739-659f4fd932e3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Folder method, IShellFolderViewDual.get_Folder, IShellFolderViewDual::get_Folder, _shell_IShellFolderViewDual_get_Folder, get_Folder, get_Folder method [Windows Shell], get_Folder method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Folder, shldisp/IShellFolderViewDual::get_Folder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shldisp.h
-: 
-- IShellFolderViewDual.get_Folder
-: 
 ---
 
 # IShellFolderViewDual::get_Folder

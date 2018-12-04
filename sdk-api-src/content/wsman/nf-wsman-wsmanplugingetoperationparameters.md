@@ -4,10 +4,10 @@ title: WSManPluginGetOperationParameters function
 author: windows-sdk-content
 description: Gets operational information for items such as time-outs and data restrictions that are associated with the operation.
 old-location: winrm\wsmanplugingetoperationparameters.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 338e7afc-d05b-4779-ae74-e9ee97e9e0ce
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WSMAN_PLUGIN_PARAMS_GET_REQUESTED_DATA_LOCALE, WSMAN_PLUGIN_PARAMS_GET_REQUESTED_LOCALE, WSMAN_PLUGIN_PARAMS_LARGEST_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_MAX_ENVELOPE_SIZE, WSMAN_PLUGIN_PARAMS_REMAINING_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_TIMEOUT, WSManPluginGetOperationParameters, WSManPluginGetOperationParameters function [Windows Remote Management], winrm.wsmanplugingetoperationparameters, wsman/WSManPluginGetOperationParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
-- apiref
-: 
-- 
-: 
-- WSManPluginGetOperationParameters
-: 
 ---
 
 # WSManPluginGetOperationParameters function

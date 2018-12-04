@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidVideoRendererDevices.get_Item
-: 
 ---
 
 # IMSVidVideoRendererDevices::get_Item

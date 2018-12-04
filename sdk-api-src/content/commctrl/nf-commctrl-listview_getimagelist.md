@@ -4,10 +4,10 @@ title: ListView_GetImageList macro
 author: windows-sdk-content
 description: Gets the handle to an image list used for drawing list-view items. You can use this macro or send the LVM_GETIMAGELIST message explicitly.
 old-location: controls\ListView_GetImageList.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getimagelist.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: LVSIL_GROUPHEADER, LVSIL_NORMAL, LVSIL_SMALL, LVSIL_STATE, ListView_GetImageList, ListView_GetImageList macro [Windows Controls], _win32_ListView_GetImageList, _win32_ListView_GetImageList_cpp, commctrl/ListView_GetImageList, controls.ListView_GetImageList, controls._win32_ListView_GetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- ListView_GetImageList
-: 
 ---
 
 # ListView_GetImageList macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the handle to an image list used for drawing list-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774943(v=VS.85).aspx">LVM_GETIMAGELIST</a> message explicitly. 
+Gets the handle to an image list used for drawing list-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/dd48d8b5-6dbd-48ab-95c3-0fcf1e8c24f0">LVM_GETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +60,7 @@ Gets the handle to an image list used for drawing list-view items. You can use t
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

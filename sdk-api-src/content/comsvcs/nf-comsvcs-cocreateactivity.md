@@ -7,7 +7,7 @@ old-location: cos\cocreateactivity.htm
 tech.root: cossdk
 ms.assetid: 3009eb4f-e3f3-497b-ba05-5b750d8a40d0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CoCreateActivity, CoCreateActivity function [COM+], _cos_CoCreateActivity, comsvcs/CoCreateActivity, cos.cocreateactivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoCreateActivity
-: 
 ---
 
 # CoCreateActivity function

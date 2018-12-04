@@ -7,7 +7,7 @@ old-location: com\ienumoleundounits_reset.htm
 tech.root: com
 ms.assetid: 14336909-539c-41ac-a3a6-73be04fa72d1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumOleUndoUnits interface [COM],Reset method, IEnumOleUndoUnits.Reset, IEnumOleUndoUnits::Reset, Reset, Reset method [COM], Reset method [COM],IEnumOleUndoUnits interface, _ole_ienumoleundounits_reset, com.ienumoleundounits_reset, ocidl/IEnumOleUndoUnits::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ocidl.h
-: 
-- IEnumOleUndoUnits.Reset
-: 
 ---
 
 # IEnumOleUndoUnits::Reset

@@ -7,7 +7,7 @@ old-location: intl\enumcalendarinfoexex.htm
 tech.root: Intl
 ms.assetid: 2aa4d5b8-9afc-4657-92f0-d5d61791b807
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EnumCalendarInfoExEx, EnumCalendarInfoExEx function [Internationalization for Windows Applications], _win32_EnumCalendarInfoExEx, intl.enumcalendarinfoexex, winnls/EnumCalendarInfoExEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EnumCalendarInfoExEx
-: 
 ---
 
 # EnumCalendarInfoExEx function

@@ -4,10 +4,10 @@ title: ITILSConfig::put_Port
 author: windows-sdk-content
 description: The put_Port method sets the port number used to connect to the server of a specified ILS directory.
 old-location: tapi3\itilsconfig_put_port.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 9d911a9c-6538-4919-9110-0425c53f91c4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITILSConfig interface [TAPI 2.2],put_Port method, ITILSConfig.put_Port, ITILSConfig::put_Port, _tapi3_itilsconfig_put_port, put_Port, put_Port method [TAPI 2.2], put_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::put_Port, tapi3.itilsconfig_put_port
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rend.h
-: 
-- ITILSConfig.put_Port
-: 
 ---
 
 # ITILSConfig::put_Port

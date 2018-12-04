@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_PointF_point_Graphics_g_.h
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods\isvisible_11pointfamppoint_graphicsg.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region class, Region class [GDI+],IsVisible method, Region.IsVisible, Region.IsVisible(IN const PointF &,IN const Graphics), Region.IsVisible(const PointF&,const Graphics*), Region::IsVisible, Region::IsVisible(IN const PointF &,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_PointF_point_Graphics_g_, gdiplus._gdiplus_CLASS_Region_IsVisible_PointF_point_Graphics_g_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusheaders.h
-: 
-- Region.IsVisible
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -115,7 +107,7 @@ If the point is inside this region, this method returns <b>TRUE</b>; otherwise, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
 
 
 

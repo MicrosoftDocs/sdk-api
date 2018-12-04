@@ -4,10 +4,10 @@ title: IValueMap::Remove
 author: windows-sdk-content
 description: Removes an item from the collection.
 old-location: pla\ivaluemap_remove.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: dc674243-ec0f-496f-bffb-faf4262a42c7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IValueMap interface [PLA],Remove method, IValueMap.Remove, IValueMap::Remove, Remove, Remove method [PLA], Remove method [PLA],IValueMap interface, base.ivaluemap_remove, pla.ivaluemap_remove, pla/IValueMap::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IValueMap.Remove
-: 
 ---
 
 # IValueMap::Remove

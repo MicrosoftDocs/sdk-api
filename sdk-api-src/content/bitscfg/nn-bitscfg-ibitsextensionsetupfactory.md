@@ -4,10 +4,10 @@ title: IBITSExtensionSetupFactory
 author: windows-sdk-content
 description: Use the IBITSExtensionSetupFactory interface to get a pointer to the IBITSExtensionSetup interface.
 old-location: bits\ibitsextensionsetupfactory.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 0105d525-c841-4e0e-bd4a-2a1bcdb0dc4a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IBITSExtensionSetupFactory, IBITSExtensionSetupFactory interface [BITS], IBITSExtensionSetupFactory interface [BITS],described, _drz_ibitsextensionsetupfactory, bits.ibitsextensionsetupfactory, bitscfg/IBITSExtensionSetupFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,21 @@ req.redist: BITS 1.5 on  Windows XP
 
 Use the 
 <b>IBITSExtensionSetupFactory</b> interface to get a pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363075(v=VS.85).aspx">IBITSExtensionSetup</a> interface. Only use this interface if you use the 
-<b>IBITSExtensionSetup</b> interface in a setup program that also installs the BITS server. Because the IIS cache does not contain the BITS extensions added during setup, the extensions are not available using the <a href="https://msdn.microsoft.com/en-us/library/Aa772184(v=VS.85).aspx">ADsGetObject</a> ADSI function. The 
+<a href="https://msdn.microsoft.com/840608ef-9c07-43f7-9cfd-20996a18bb50">IBITSExtensionSetup</a> interface. Only use this interface if you use the 
+<b>IBITSExtensionSetup</b> interface in a setup program that also installs the BITS server. Because the IIS cache does not contain the BITS extensions added during setup, the extensions are not available using the <a href="https://msdn.microsoft.com/595b2c7f-584c-4343-a75c-327d8ed4ceb1">ADsGetObject</a> ADSI function. The 
 <b>IBITSExtensionSetupFactory</b> interface provides a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363077(v=VS.85).aspx">GetObject</a> method, which accesses the BITS extensions and performs the same binding as the <b>ADsGetObject</b> function.
+<a href="https://msdn.microsoft.com/ac0bb9d5-3f1f-4c9b-bd7d-905e0451bf70">GetObject</a> method, which accesses the BITS extensions and performs the same binding as the <b>ADsGetObject</b> function.
 
 To get a pointer to the 
 <b>IBITSExtensionSetupFactory</b> interface, call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function as shown in Example Code.
+<a href="_com_cocreateinstance">CoCreateInstance</a> function as shown in Example Code.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBITSExtensionSetupFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBITSExtensionSetupFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBITSExtensionSetupFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBITSExtensionSetupFactory</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -79,11 +79,11 @@ The <b>IBITSExtensionSetupFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa363077(v=VS.85).aspx">GetObject</a>
+<a href="https://msdn.microsoft.com/ac0bb9d5-3f1f-4c9b-bd7d-905e0451bf70">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363075(v=VS.85).aspx">IBITSExtensionSetup</a> interface.
+<a href="https://msdn.microsoft.com/840608ef-9c07-43f7-9cfd-20996a18bb50">IBITSExtensionSetup</a> interface.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ On Windows Server 2003, use the <b>Windows Components Wizard</b> to install the
 
 The following example shows how to use the 
 <b>IBITSExtensionSetupFactory</b> interface to get a pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363075(v=VS.85).aspx">IBITSExtensionSetup</a> interface.
+<a href="https://msdn.microsoft.com/840608ef-9c07-43f7-9cfd-20996a18bb50">IBITSExtensionSetup</a> interface.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -158,7 +158,7 @@ HRESULT SetBITSUploadEnabledSetting(LPWSTR pszPath, bool Enable)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363075(v=VS.85).aspx">IBITSExtensionSetup</a>
+<a href="https://msdn.microsoft.com/840608ef-9c07-43f7-9cfd-20996a18bb50">IBITSExtensionSetup</a>
  
 
  

@@ -4,10 +4,10 @@ title: DnsQueryConfig function
 author: windows-sdk-content
 description: The DnsQueryConfig function enables application programmers to query for the configuration of the local computer or a specific adapter.
 old-location: dns\dnsqueryconfig.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 83de7df8-7e89-42fe-b609-1dc173afc9df
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DnsQueryConfig, DnsQueryConfig function [DNS], _dns_dnsqueryconfig, dns.dnsqueryconfig, windns/DnsQueryConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DnsQueryConfig
-: 
 ---
 
 # DnsQueryConfig function

@@ -4,10 +4,10 @@ title: CryptCreateKeyIdentifierFromCSP function
 author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\cryptcreatekeyidentifierfromcsp.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 628e1995-8207-4daa-a445-cb21a755ffa6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptCreateKeyIdentifierFromCSP, CryptCreateKeyIdentifierFromCSP function [Security], _crypto2_cryptcreatekeyidentifierfromcsp, security.cryptcreatekeyidentifierfromcsp, wincrypt/CryptCreateKeyIdentifierFromCSP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptCreateKeyIdentifierFromCSP
-: 
 ---
 
 # CryptCreateKeyIdentifierFromCSP function
@@ -150,7 +144,7 @@ For extended error information, call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Identifier Functions</a>
+<a href="cryptography_functions.htm">Key Identifier Functions</a>
  
 
  

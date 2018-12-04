@@ -7,7 +7,7 @@ old-location: mf\imfvideodeviceid_getdeviceid.htm
 tech.root: medfound
 ms.assetid: e23ebce0-be58-413a-ab71-d94811c96029
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetDeviceID, GetDeviceID method [Media Foundation], GetDeviceID method [Media Foundation],IMFVideoDeviceID interface, IMFVideoDeviceID interface [Media Foundation],GetDeviceID method, IMFVideoDeviceID.GetDeviceID, IMFVideoDeviceID::GetDeviceID, e23ebce0-be58-413a-ab71-d94811c96029, evr/IMFVideoDeviceID::GetDeviceID, mf.imfvideodeviceid_getdeviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- evr.h
-: 
-- IMFVideoDeviceID.GetDeviceID
-: 
 ---
 
 # IMFVideoDeviceID::GetDeviceID

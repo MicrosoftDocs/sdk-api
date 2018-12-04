@@ -4,10 +4,10 @@ title: GetBufferedPaintDC function
 author: windows-sdk-content
 description: Gets the paint device context (DC). This is the same value retrieved by BeginBufferedPaint.
 old-location: controls\GetBufferedPaintDC.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintdc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetBufferedPaintDC, GetBufferedPaintDC function [Windows Controls], _shell_GetBufferedPaintDC, _shell_GetBufferedPaintDC_cpp, controls.GetBufferedPaintDC, controls._shell_GetBufferedPaintDC, uxtheme/GetBufferedPaintDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetBufferedPaintDC
-: 
 ---
 
 # GetBufferedPaintDC function
@@ -56,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the paint device context (DC). This is the same value retrieved by <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+Gets the paint device context (DC). This is the same value retrieved by <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
 
 
 ## -parameters
@@ -68,7 +62,7 @@ Gets the paint device context (DC). This is the same value retrieved by <a href=
 
 Type: <b>HPAINTBUFFER</b>
 
-Handle of the buffered paint context, obtained through <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+Handle of the buffered paint context, obtained through <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
 
 
 ## -returns
@@ -77,7 +71,7 @@ Handle of the buffered paint context, obtained through <a href="https://msdn.mic
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
 
-Handle of the requested DC. This is the same DC that is returned by <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>. Returns <b>NULL</b> upon failure.
+Handle of the requested DC. This is the same DC that is returned by <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>. Returns <b>NULL</b> upon failure.
 
 
 

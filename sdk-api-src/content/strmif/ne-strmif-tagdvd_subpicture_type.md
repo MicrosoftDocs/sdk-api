@@ -7,7 +7,7 @@ old-location: dshow\dvd_subpicture_type.htm
 tech.root: DirectShow
 ms.assetid: c4c5eb83-4773-464d-8b0c-b46b13c3b6d3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DVD_SPType_Language, DVD_SPType_NotSpecified, DVD_SPType_Other, DVD_SUBPICTURE_TYPE, DVD_SUBPICTURE_TYPE , DVD_SUBPICTURE_TYPE enumeration [DirectShow], DVD_SUBPICTURE_TYPEEnumeration, dshow.dvd_subpicture_type, strmif/DVD_SPType_Language, strmif/DVD_SPType_NotSpecified, strmif/DVD_SPType_Other, strmif/DVD_SUBPICTURE_TYPE, tagDVD_SUBPICTURE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

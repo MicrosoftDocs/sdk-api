@@ -4,10 +4,10 @@ title: ITextDocument2::GetEastAsianFlags
 author: windows-sdk-content
 description: Gets the East Asian flags.
 old-location: controls\itextdocument2_geteastasianflags.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 730c869d-cac0-40ce-b6c5-ca3be2c94419
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetEastAsianFlags, GetEastAsianFlags method [Windows Controls], GetEastAsianFlags method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetEastAsianFlags method, ITextDocument2.GetEastAsianFlags, ITextDocument2::GetEastAsianFlags, controls.itextdocument2_geteastasianflags, tom/ITextDocument2::GetEastAsianFlags, tomNoIME, tomRE10Mode, tomSelfIME, tomTextFlowMask, tomUseAtFont, tomUsePassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextDocument2.GetEastAsianFlags
-: 
 ---
 
 # ITextDocument2::GetEastAsianFlags
@@ -145,7 +137,7 @@ Use password control.
 </dl>
 </td>
 <td width="60%">
-Turn off IME operation (see <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_NOIME</a>).
+Turn off IME operation (see <a href="Rich_Edit_Control_Styles.htm">ES_NOIME</a>).
 
 </td>
 </tr>
@@ -155,7 +147,7 @@ Turn off IME operation (see <a href="https://msdn.microsoft.com/en-us/library/Bb
 </dl>
 </td>
 <td width="60%">
-The rich edit host handles IME operation (see <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>) .
+The rich edit host handles IME operation (see <a href="Rich_Edit_Control_Styles.htm">ES_SELFIME</a>) .
 
 </td>
 </tr>

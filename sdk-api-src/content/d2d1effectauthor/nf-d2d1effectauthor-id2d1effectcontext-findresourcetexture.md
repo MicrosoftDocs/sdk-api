@@ -4,10 +4,10 @@ title: ID2D1EffectContext::FindResourceTexture
 author: windows-sdk-content
 description: Finds the given resource texture if it has already been created with ID2D1EffectContext::CreateResourceTexture with the same GUID.
 old-location: direct2d\id2d1effectcontext_findresourcetexture.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 7E205798-A9E1-4213-925B-7A5DF918F60E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: FindResourceTexture, FindResourceTexture method [Direct2D], FindResourceTexture method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],FindResourceTexture method, ID2D1EffectContext.FindResourceTexture, ID2D1EffectContext::FindResourceTexture, d2d1effectauthor/ID2D1EffectContext::FindResourceTexture, direct2d.id2d1effectcontext_findresourcetexture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1effectauthor.h
-: 
-- ID2D1EffectContext.FindResourceTexture
-: 
 ---
 
 # ID2D1EffectContext::FindResourceTexture

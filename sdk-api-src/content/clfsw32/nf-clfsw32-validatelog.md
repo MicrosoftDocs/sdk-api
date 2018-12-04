@@ -7,7 +7,7 @@ old-location: fs\validatelogrestore.htm
 tech.root: Clfs
 ms.assetid: dee4224e-bc94-42aa-95b9-226f13fd51ae
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: ValidateLog, ValidateLog function [Files], clfsw32/ValidateLog, fs.validatelogrestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ValidateLog
-: 
 ---
 
 # ValidateLog function

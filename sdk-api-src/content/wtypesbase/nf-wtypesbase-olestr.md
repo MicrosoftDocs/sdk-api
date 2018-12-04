@@ -7,7 +7,7 @@ old-location: com\olestr_macro.htm
 tech.root: com
 ms.assetid: bf3341a0-5b1d-479b-998d-a61bb945e0c3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: OLESTR, OLESTR macro [COM], _com_OLESTR, com.olestr, com.olestr_macro, wtypesbase/OLESTR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- wtypesbase.h
-: 
-- OLESTR
-: 
 ---
 
 # OLESTR macro

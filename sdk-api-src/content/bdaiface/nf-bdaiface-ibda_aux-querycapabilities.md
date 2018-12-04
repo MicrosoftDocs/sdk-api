@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdaiface.h
-: 
-- IBDA_AUX.QueryCapabilities
-: 
 ---
 
 # IBDA_AUX::QueryCapabilities
@@ -85,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693258(v=VS.85).aspx">IBDA_AUX</a>
+<a href="https://msdn.microsoft.com/8397a04f-5d40-4fa3-ac02-79c764abd174">IBDA_AUX</a>
  
 
  

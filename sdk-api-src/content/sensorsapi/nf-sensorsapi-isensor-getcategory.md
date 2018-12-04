@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_getcategory.htm
 tech.root: SensorsAPI
 ms.assetid: 3a4eab1c-ec6f-4d6e-8479-1fa7f87537f7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetCategory, GetCategory method, GetCategory method,ISensor interface, ISensor interface,GetCategory method, ISensor.GetCategory, ISensor::GetCategory, sensorsapi/ISensor::GetCategory, winsensors_com_ref.isensor_getcategory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sensorsapi.h
-: 
-- ISensor.GetCategory
-: 
 ---
 
 # ISensor::GetCategory

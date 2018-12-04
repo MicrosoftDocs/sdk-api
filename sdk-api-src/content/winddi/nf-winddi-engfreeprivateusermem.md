@@ -7,7 +7,7 @@ old-location: display\engfreeprivateusermem.htm
 tech.root: display
 ms.assetid: 098bba48-849e-4a35-801c-9573bc5c33f5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EngFreePrivateUserMem, EngFreePrivateUserMem function [Display Devices], display.engfreeprivateusermem, gdifncs_debf1b76-d783-4b91-832e-c95c2c41af76.xml, winddi/EngFreePrivateUserMem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winddi.h
-: 
-- EngFreePrivateUserMem
-: 
 ---
 
 # EngFreePrivateUserMem macro

@@ -4,10 +4,10 @@ title: "__MIDL_IBackgroundCopyJob_0003"
 author: windows-sdk-content
 description: The BG_JOB_TYPE enumeration defines constant values that specify the type of transfer job, such as download.
 old-location: bits\bg_job_type.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: b341a63f-3a1d-4518-8f05-17d28af603b4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: BG_JOB_TYPE, BG_JOB_TYPE enumeration [BITS], BG_JOB_TYPE_DOWNLOAD, BG_JOB_TYPE_UPLOAD, BG_JOB_TYPE_UPLOAD_REPLY, __MIDL_IBackgroundCopyJob_0003, _drz_bg_job_type, bits.bg_job_type, bits/BG_JOB_TYPE, bits/BG_JOB_TYPE_DOWNLOAD, bits/BG_JOB_TYPE_UPLOAD, bits/BG_JOB_TYPE_UPLOAD_REPLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,11 +83,11 @@ Specifies that the job uploads a file to the server and receives a reply file fr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363038(v=VS.85).aspx">IBackgroundCopyJob::GetType</a>
+<a href="https://msdn.microsoft.com/b84c45c2-379a-40d0-91ab-0124f0ef6b00">IBackgroundCopyJob::GetType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">IBackgroundCopyManager::CreateJob</a>
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">IBackgroundCopyManager::CreateJob</a>
  
 
  

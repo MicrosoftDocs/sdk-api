@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_placemarker.htm
 tech.root: medfound
 ms.assetid: 93140993-a926-437e-bc40-9b011c4c6832
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],PlaceMarker method, IMFSinkWriter.PlaceMarker, IMFSinkWriter::PlaceMarker, PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_placemarker, mfreadwrite/IMFSinkWriter::PlaceMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfreadwrite.h
-: 
-- IMFSinkWriter.PlaceMarker
-: 
 ---
 
 # IMFSinkWriter::PlaceMarker

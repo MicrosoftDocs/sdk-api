@@ -7,7 +7,7 @@ old-location: display\notifycallback.htm
 tech.root: display
 ms.assetid: ee581d7b-c3b8-47e5-bae8-348b22ea0f95
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: LPDD_NOTIFYCALLBACK, LPDD_NOTIFYCALLBACK callback, NotifyCallback, NotifyCallback callback function [Display Devices], ddfncs_89344672-ba6d-42b3-a03e-dd832316d9c9.xml, ddkmapi/NotifyCallback, display.notifycallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecDospStateCreateEnumHandle0
-: 
 ---
 
 # IPsecDospStateCreateEnumHandle0 function

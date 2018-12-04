@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::ItemNotPinned
 author: windows-sdk-content
 description: Reports that an item in the Offline Files cache is no longer pinned.
 old-location: of\iofflinefilesevents_itemnotpinned.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: cefd7408-9e98-48a4-ad43-0bdef9da1c95
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemNotPinned method, IOfflineFilesEvents.ItemNotPinned, IOfflineFilesEvents::ItemNotPinned, ItemNotPinned, ItemNotPinned method [Offline Files], ItemNotPinned method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemNotPinned, of.iofflinefilesevents_itemnotpinned
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesEvents.ItemNotPinned
-: 
 ---
 
 # IOfflineFilesEvents::ItemNotPinned
@@ -74,7 +66,7 @@ The item's UNC path string.
 
 ### -param ItemType [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb530648(v=VS.85).aspx">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
+An <a href="https://msdn.microsoft.com/cf8bb079-d691-4b37-b408-d1af1746ed37">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
 
 
 ## -returns
@@ -91,7 +83,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

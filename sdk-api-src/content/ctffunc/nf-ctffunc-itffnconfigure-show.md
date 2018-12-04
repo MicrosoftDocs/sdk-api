@@ -7,7 +7,7 @@ old-location: tsf\itffnconfigure_show.htm
 tech.root: TSF
 ms.assetid: 34670748-460b-4ece-b742-83b0cf87d901
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfFnConfigure interface [Text Services Framework],Show method, ITfFnConfigure.Show, ITfFnConfigure::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnConfigure interface, _tsf_itffnconfigure_show_ref, ctffunc/ITfFnConfigure::Show, tsf.itffnconfigure_show
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctffunc.h
-: 
-- ITfFnConfigure.Show
-: 
 ---
 
 # ITfFnConfigure::Show
@@ -77,7 +69,7 @@ Contains a <b>LANGID</b> value that specifies the identifier of the language sel
 
 ### -param rguidProfile [in]
 
-Contains a GUID value that specifies the language profile identifier that the text service is under. This is the value specified in <a href="https://msdn.microsoft.com/en-us/library/ms628545(v=VS.85).aspx">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
+Contains a GUID value that specifies the language profile identifier that the text service is under. This is the value specified in <a href="https://msdn.microsoft.com/d132bff1-24de-4e43-859b-2425ba7de8f0">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
 
 
 ## -returns
@@ -103,7 +95,7 @@ This method should not return until the user closes the dialog box or property s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538925(v=VS.85).aspx">ITfFnConfigure</a>
+<a href="https://msdn.microsoft.com/af23e668-9c00-4e53-89b6-c8be85ae961b">ITfFnConfigure</a>
 
 
 

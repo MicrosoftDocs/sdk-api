@@ -4,10 +4,10 @@ title: IUPnPServiceAsync::BeginQueryStateVariable
 author: windows-sdk-content
 description: BeginQueryStateVariable method initiates an asynchronous request for the state variable value from a specific service.
 old-location: upnp\iupnpserviceasync_beginquerystatevariable.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 1E97589C-A06B-4012-A2A2-C88BBE9B2530
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: BeginQueryStateVariable, BeginQueryStateVariable method [UPnP APIs], BeginQueryStateVariable method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginQueryStateVariable method, IUPnPServiceAsync.BeginQueryStateVariable, IUPnPServiceAsync::BeginQueryStateVariable, upnp.iupnpserviceasync_beginquerystatevariable, upnp/IUPnPServiceAsync::BeginQueryStateVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPServiceAsync.BeginQueryStateVariable
-: 
 ---
 
 # IUPnPServiceAsync::BeginQueryStateVariable

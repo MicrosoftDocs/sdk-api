@@ -4,10 +4,10 @@ title: D2D1_MORPHOLOGY_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Morphology effect.
 old-location: direct2d\d2d1_morphology_prop.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: D5916AD4-F19A-42F0-BA24-B61BA9786013
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D2D1_MORPHOLOGY_PROP, D2D1_MORPHOLOGY_PROP enumeration [Direct2D], D2D1_MORPHOLOGY_PROP_HEIGHT, D2D1_MORPHOLOGY_PROP_MODE, D2D1_MORPHOLOGY_PROP_WIDTH, d2d1effects/D2D1_MORPHOLOGY_PROP, d2d1effects/D2D1_MORPHOLOGY_PROP_HEIGHT, d2d1effects/D2D1_MORPHOLOGY_PROP_MODE, d2d1effects/D2D1_MORPHOLOGY_PROP_WIDTH, direct2d.d2d1_morphology_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706364(v=VS.85).aspx">Morphology effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/4B3CFC51-D556-4729-B433-7307C80291F4">Morphology effect</a>.
         
 
 

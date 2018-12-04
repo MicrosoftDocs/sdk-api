@@ -4,10 +4,10 @@ title: "_SecPkgContext_CredentialNameW"
 author: windows-sdk-content
 description: Specifies the credential name for the security context.
 old-location: security\secpkgcontext_credentialname.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 55ac5db9-9c55-421d-82f5-bdbc54c5d544
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PSecPkgContext_CredentialNameW, PSecPkgContext_CredentialName, PSecPkgContext_CredentialName structure pointer [Security], SecPkgContext_CredentialName, SecPkgContext_CredentialName structure [Security], SecPkgContext_CredentialNameW, _SecPkgContext_CredentialNameA, _SecPkgContext_CredentialNameW, security.secpkgcontext_credentialname, sspi/PSecPkgContext_CredentialName, sspi/SecPkgContext_CredentialName"
 ms.prod: windows-hardware
 ms.technology: windows-devices

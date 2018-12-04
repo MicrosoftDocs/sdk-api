@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_SetFromCOLORREF_rgb_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\setfromcolorref.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Color class [GDI+],SetFromCOLORREF method, Color.SetFromCOLORREF, Color::SetFromCOLORREF, SetFromCOLORREF, SetFromCOLORREF method [GDI+], SetFromCOLORREF method [GDI+],Color class, _gdiplus_CLASS_Color_SetFromCOLORREF_rgb_, gdiplus._gdiplus_CLASS_Color_SetFromCOLORREF_rgb_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdipluscolor.h
-: 
-- Color.SetFromCOLORREF
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -59,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Color::SetFromCOLORREF</b> method uses a Windows Graphics Device Interface (GDI)<b>COLORREF</b> value to set the <b>ARGB</b> value of this <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object.
+The <b>Color::SetFromCOLORREF</b> method uses a Windows Graphics Device Interface (GDI)<b>COLORREF</b> value to set the <b>ARGB</b> value of this <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object.
 
 
 ## -parameters
@@ -71,7 +63,7 @@ The <b>Color::SetFromCOLORREF</b> method uses a Windows Graphics Device Interfac
 
 Type: <b>COLORREF</b>
 
-GDI<b>COLORREF</b> value that specifies the red, green, and blue components of this <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object's <b>ARGB</b> value. The default value of the alpha component for this <b>Color</b> object is 255. 
+GDI<b>COLORREF</b> value that specifies the red, green, and blue components of this <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object's <b>ARGB</b> value. The default value of the alpha component for this <b>Color</b> object is 255. 
 
 
 ## -returns
@@ -94,7 +86,7 @@ A 32-bit GDI<b>COLORREF</b> value contains three, 8-bit color components. The mo
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object and sets a GDI<b>COLORREF</b> value. The code then sets the <b>Color</b> object to the value of the GDI<b>COLORREF</b> value, creates a pen, and draws a line.
+The following example creates a <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object and sets a GDI<b>COLORREF</b> value. The code then sets the <b>Color</b> object to the value of the GDI<b>COLORREF</b> value, creates a pen, and draws a line.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -132,15 +124,15 @@ The following example creates a <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536254(v=VS.85).aspx">Color::MakeARGB</a>
+<a href="https://msdn.microsoft.com/41befc00-c256-4f56-90c3-8fd5aa18bb49">Color::MakeARGB</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536257(v=VS.85).aspx">Color::ToCOLORREF</a>
+<a href="https://msdn.microsoft.com/1bf9093d-5316-4280-850e-b0738cf5d0cf">Color::ToCOLORREF</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: com\ipipebyte_push.htm
 tech.root: com
 ms.assetid: 7dd672d3-22ef-4786-85e0-d5c2ebabaea2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IPipeByte interface [COM],Push method, IPipeByte.Push, IPipeByte::Push, Push, Push method [COM], Push method [COM],IPipeByte interface, _com_ipipebyte_push, com.ipipebyte_push, objidlbase/IPipeByte::Push
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidlbase.h
-: 
-- IPipeByte.Push
-: 
 ---
 
 # IPipeByte::Push

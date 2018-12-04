@@ -4,10 +4,10 @@ title: IWSDAsyncResult::GetAsyncState
 author: windows-sdk-content
 description: Gets the state of the asynchronous operation.
 old-location: ncd\iwsdasyncresult_getasyncstate_method.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 4f4115bd-748e-41cd-928f-3dd3a354d336
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetAsyncState, GetAsyncState method, GetAsyncState method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetAsyncState method, IWSDAsyncResult.GetAsyncState, IWSDAsyncResult::GetAsyncState, ncd.iwsdasyncresult_getasyncstate_method, wsdclient/IWSDAsyncResult::GetAsyncState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdclient.h
-: 
-- IWSDAsyncResult.GetAsyncState
-: 
 ---
 
 # IWSDAsyncResult::GetAsyncState

@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetDisplayName
 author: windows-sdk-content
 description: Retrieves the display name for the job. Typically, you use the display name to identify the job in a user interface.
 old-location: bits\ibackgroundcopyjob_getdisplayname.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 934cff3e-d4b8-4b76-96e1-fd7ded1842eb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetDisplayName, GetDisplayName method [BITS], GetDisplayName method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetDisplayName method, IBackgroundCopyJob.GetDisplayName, IBackgroundCopyJob::GetDisplayName, _drz_ibackgroundcopyjob_getdisplayname, bits.ibackgroundcopyjob_getdisplayname, bits/IBackgroundCopyJob::GetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.GetDisplayName
-: 
 ---
 
 # IBackgroundCopyJob::GetDisplayName
@@ -66,17 +58,10 @@ Retrieves the display name for the job. Typically, you use the display name to i
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - ppDisplayName [out]
+### -param pVal [out]
 
 Null-terminated string that contains the display name that identifies the job. More than one job can have the same display name. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppDisplayName</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>ppDisplayName</i> when done.
 
 
 ## -returns
@@ -123,7 +108,7 @@ The <i>ppDisplayName</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363041(v=VS.85).aspx">IBackgroundCopyJob::SetDisplayName</a>
+<a href="https://msdn.microsoft.com/504b0096-891c-4bf7-a311-9d351b359210">IBackgroundCopyJob::SetDisplayName</a>
  
 
  

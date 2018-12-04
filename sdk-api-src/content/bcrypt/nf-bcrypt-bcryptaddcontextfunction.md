@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BCryptAddContextFunction
-: 
 ---
 
 # BCryptAddContextFunction function
@@ -301,7 +295,7 @@ If the function added is already in the list, it will be removed and inserted at
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375492(v=VS.85).aspx">BCryptRemoveContextFunction</a>
+<a href="https://msdn.microsoft.com/b8b1df66-f66f-4efc-9c8e-fca32e0278c5">BCryptRemoveContextFunction</a>
  
 
  

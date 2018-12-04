@@ -4,10 +4,10 @@ title: ITextFont2::SetPositionSubSuper
 author: windows-sdk-content
 description: Sets the position of a subscript or superscript relative to the baseline, as a percentage of the font height.
 old-location: controls\itextfont2_setpositionsubsuper.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 3f78a91b-17a3-48ff-9ca0-1eb4f9c95be4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetPositionSubSuper method, ITextFont2.SetPositionSubSuper, ITextFont2::SetPositionSubSuper, SetPositionSubSuper, SetPositionSubSuper method [Windows Controls], SetPositionSubSuper method [Windows Controls],ITextFont2 interface, controls.itextfont2_setpositionsubsuper, tom/ITextFont2::SetPositionSubSuper
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextFont2.SetPositionSubSuper
-: 
 ---
 
 # ITextFont2::SetPositionSubSuper

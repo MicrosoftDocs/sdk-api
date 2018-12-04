@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::get_Tone
 author: windows-sdk-content
 description: The get_Tone method returns a PHONE_TONE enum value indicating the type of tone, if any, that the phone is currently playing.
 old-location: tapi3\itautomatedphonecontrol_get_tone.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 62e7ae4d-7839-4568-b8b2-7a377601ea7c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_Tone method, ITAutomatedPhoneControl.get_Tone, ITAutomatedPhoneControl::get_Tone, _tapi3_itautomatedphonecontrol_get_tone, get_Tone, get_Tone method [TAPI 2.2], get_Tone method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_tone, tapi3if/ITAutomatedPhoneControl::get_Tone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITAutomatedPhoneControl.get_Tone
-: 
 ---
 
 # ITAutomatedPhoneControl::get_Tone

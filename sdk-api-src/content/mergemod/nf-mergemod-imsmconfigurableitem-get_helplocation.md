@@ -4,10 +4,10 @@ title: IMsmConfigurableItem::get_HelpLocation
 author: windows-sdk-content
 description: The get_HelpLocation method retrieves the HelpLocation property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_helplocation.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: a66f2934-048e-4df2-a004-287faf42445d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMsmConfigurableItem interface,get_HelpLocation method, IMsmConfigurableItem.get_HelpLocation, IMsmConfigurableItem::get_HelpLocation, _msi_get_helplocation_function, get_HelpLocation, get_HelpLocation method, get_HelpLocation method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_HelpLocation, setup.imsmconfigurableitem_get_helplocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mergemod.h
-: 
-- IMsmConfigurableItem.get_HelpLocation
-: 
 ---
 
 # IMsmConfigurableItem::get_HelpLocation

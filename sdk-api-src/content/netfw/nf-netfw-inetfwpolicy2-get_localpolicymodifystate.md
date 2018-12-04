@@ -4,10 +4,10 @@ title: INetFwPolicy2::get_LocalPolicyModifyState
 author: windows-sdk-content
 description: Determines if adding or setting a rule or group of rules will take effect in the current firewall profile.
 old-location: ics\inetfwpolicy2_localpolicymodifystate.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 505c60b9-8359-49eb-aee0-cfa801d9113f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],LocalPolicyModifyState property, INetFwPolicy2.LocalPolicyModifyState, INetFwPolicy2.get_LocalPolicyModifyState, INetFwPolicy2::LocalPolicyModifyState, INetFwPolicy2::get_LocalPolicyModifyState, LocalPolicyModifyState property [ICS/ICF], LocalPolicyModifyState property [ICS/ICF],INetFwPolicy2 interface, NET_FW_MODIFY_STATE_GP_OVERRIDE, NET_FW_MODIFY_STATE_INBOUND_BLOCKED, NET_FW_MODIFY_STATE_OK, get_LocalPolicyModifyState, ics.inetfwpolicy2_localpolicymodifystate, netfw/INetFwPolicy2::LocalPolicyModifyState, netfw/INetFwPolicy2::get_LocalPolicyModifyState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwPolicy2.get_LocalPolicyModifyState
-: 
 ---
 
 # INetFwPolicy2::get_LocalPolicyModifyState

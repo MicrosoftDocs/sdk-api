@@ -7,7 +7,7 @@ old-location: mf\dxva2createvideoservice.htm
 tech.root: medfound
 ms.assetid: e62dbacb-f638-4307-ba56-88415d881fc9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: DXVA2CreateVideoService, DXVA2CreateVideoService function [Media Foundation], dxva2api/DXVA2CreateVideoService, e62dbacb-f638-4307-ba56-88415d881fc9, mf.dxva2createvideoservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DXVA2CreateVideoService
-: 
 ---
 
 # DXVA2CreateVideoService function
@@ -68,7 +62,7 @@ Creates a DirectX Video Acceleration (DXVA) services object. Call this function 
 
 ### -param pDD
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface of a Direct3D device.
+A pointer to the <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a> interface of a Direct3D device.
           
 
 

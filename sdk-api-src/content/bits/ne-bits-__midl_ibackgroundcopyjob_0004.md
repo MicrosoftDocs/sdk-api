@@ -4,10 +4,10 @@ title: "__MIDL_IBackgroundCopyJob_0004"
 author: windows-sdk-content
 description: The BG_JOB_PROXY_USAGE enumeration defines constant values that specify which proxy to use for file transfers. You can define different proxy settings for each job.
 old-location: bits\bg_job_proxy_usage.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: e066b6c8-905f-4e18-9be7-aa3c134f9e13
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: BG_JOB_PROXY_USAGE, BG_JOB_PROXY_USAGE enumeration [BITS], BG_JOB_PROXY_USAGE_AUTODETECT, BG_JOB_PROXY_USAGE_NO_PROXY, BG_JOB_PROXY_USAGE_OVERRIDE, BG_JOB_PROXY_USAGE_PRECONFIG, __MIDL_IBackgroundCopyJob_0004, _drz_bg_job_proxy_usage, bits.bg_job_proxy_usage, bits/BG_JOB_PROXY_USAGE, bits/BG_JOB_PROXY_USAGE_AUTODETECT, bits/BG_JOB_PROXY_USAGE_NO_PROXY, bits/BG_JOB_PROXY_USAGE_OVERRIDE, bits/BG_JOB_PROXY_USAGE_PRECONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,11 +86,11 @@ Automatically detect proxy settings. BITS detects proxy settings for each file i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363035(v=VS.85).aspx">IBackgroundCopyJob::GetProxySettings</a>
+<a href="https://msdn.microsoft.com/c2d0ec9b-eaa1-4f78-9ccc-4e91d045cd94">IBackgroundCopyJob::GetProxySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363047(v=VS.85).aspx">IBackgroundCopyJob::SetProxySettings</a>
+<a href="https://msdn.microsoft.com/fd21a17b-1049-4dd9-a08b-da84699b8006">IBackgroundCopyJob::SetProxySettings</a>
  
 
  

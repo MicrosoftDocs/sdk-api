@@ -4,10 +4,10 @@ title: ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)
 author: windows-sdk-content
 description: Sets the transformation applied to the brush.
 old-location: direct2d\ID2D1Brush_SetTransform_ptr_D2D_MATRIX_3X2_F.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: ef9fdd4f-6338-498e-bbed-5fc676fc53b3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID2D1Brush interface [Direct2D],SetTransform method, ID2D1Brush.SetTransform, ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F), ID2D1Brush::SetTransform, ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F), ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F*), SetTransform, SetTransform method [Direct2D], SetTransform method [Direct2D],ID2D1Brush interface, d2d1/ID2D1Brush::SetTransform, direct2d.ID2D1Brush_SetTransform_ptr_D2D_MATRIX_3X2_F
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1Brush.SetTransform
-: 
 ---
 
 # ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)

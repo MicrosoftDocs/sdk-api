@@ -7,7 +7,7 @@ old-location: multimedia\waveoutmessage.htm
 tech.root: Multimedia
 ms.assetid: b4f06107-781f-4b95-8138-ca0e11a21cf4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_waveOutMessage, mmeapi/waveOutMessage, multimedia.waveoutmessage, waveOutMessage, waveOutMessage function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- waveOutMessage
-: 
 ---
 
 # waveOutMessage function

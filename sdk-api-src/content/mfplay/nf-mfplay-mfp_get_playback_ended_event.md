@@ -7,7 +7,7 @@ old-location: mf\mfp_get_playback_ended_event.htm
 tech.root: medfound
 ms.assetid: c15a7473-41e5-4d84-aaaa-c547dd38826b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFP_GET_PLAYBACK_ENDED_EVENT, MFP_GET_PLAYBACK_ENDED_EVENT macro [Media Foundation], mf.mfp_get_playback_ended_event, mfplay/MFP_GET_PLAYBACK_ENDED_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- mfplay.h
-: 
-- MFP_GET_PLAYBACK_ENDED_EVENT
-: 
 ---
 
 # MFP_GET_PLAYBACK_ENDED_EVENT macro

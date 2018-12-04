@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid.htm
 tech.root: appxpkg
 ms.assetid: 8665AC2B-4D06-4684-99B1-E22533CA04AA
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: IAppxManifestPackageId, IAppxManifestPackageId interface [App packaging and management], IAppxManifestPackageId interface [App packaging and management],described, appxpackaging/IAppxManifestPackageId, appxpkg.iappxmanifestpackageid
 ms.prod: windows-hardware
 ms.technology: windows-devices

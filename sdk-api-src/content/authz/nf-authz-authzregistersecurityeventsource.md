@@ -4,10 +4,10 @@ title: AuthzRegisterSecurityEventSource function
 author: windows-sdk-content
 description: Registers a security event source with the Local Security Authority (LSA).
 old-location: security\authzregistersecurityeventsource.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 726e480d-1a34-4fd6-ac2d-876fa08f4eae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AuthzRegisterSecurityEventSource, AuthzRegisterSecurityEventSource function [Security], authz/AuthzRegisterSecurityEventSource, security.authzregistersecurityeventsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- 
-: 
-- AuthzRegisterSecurityEventSource
-: 
 ---
 
 # AuthzRegisterSecurityEventSource function

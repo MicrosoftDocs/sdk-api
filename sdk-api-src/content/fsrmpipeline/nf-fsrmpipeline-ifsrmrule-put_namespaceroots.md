@@ -4,10 +4,10 @@ title: IFsrmRule::put_NamespaceRoots
 author: windows-sdk-content
 description: An array of directory paths that the rule is applied to when classification is run.
 old-location: fsrm\ifsrmrule_namespaceroots.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 938ae036-fcc7-41d1-bbac-8f22b8b6333e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],NamespaceRoots property, IFsrmRule.NamespaceRoots, IFsrmRule.put_NamespaceRoots, IFsrmRule::NamespaceRoots, IFsrmRule::get_NamespaceRoots, IFsrmRule::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_namespaceroots, fsrm.ifsrmrule_namespaceroots, fsrmpipeline/IFsrmRule::NamespaceRoots, fsrmpipeline/IFsrmRule::get_NamespaceRoots, fsrmpipeline/IFsrmRule::put_NamespaceRoots, put_NamespaceRoots
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmpipeline.h
-: 
-- IFsrmRule.put_NamespaceRoots
-: 
 ---
 
 # IFsrmRule::put_NamespaceRoots

@@ -4,10 +4,10 @@ title: "_SMMCDataObjects"
 author: windows-sdk-content
 description: The SMMCDataObjects structure defines the format of the data for the CCF_MULTI_SELECT_SNAPINS clipboard format.
 old-location: mmc\smmcdataobjects.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 4bbfc32e-b70b-4c47-a7b5-6ec2692d1df4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SMMCDataObjects, SMMCDataObjects structure [MMC], _SMMCDataObjects, _slate_smmcdataobjects, mmc.smmcdataobjects, mmc/SMMCDataObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

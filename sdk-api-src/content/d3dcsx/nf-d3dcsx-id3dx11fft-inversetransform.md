@@ -7,7 +7,7 @@ old-location: direct3d11\id3dx11fft_inversetransform.htm
 tech.root: direct3d11
 ms.assetid: e4fe7a35-b039-4977-ba68-9869c5cc4383
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 9e07e88b-a097-403f-b882-754a12668d07, ID3DX11FFT interface [Direct3D 11],InverseTransform method, ID3DX11FFT.InverseTransform, ID3DX11FFT::InverseTransform, InverseTransform, InverseTransform method [Direct3D 11], InverseTransform method [Direct3D 11],ID3DX11FFT interface, d3dcsx/ID3DX11FFT::InverseTransform, direct3d11.id3dx11fft_inversetransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3dcsx.h
-: 
-- ID3DX11FFT.InverseTransform
-: 
 ---
 
 # ID3DX11FFT::InverseTransform
@@ -87,7 +79,7 @@ Pointer to a <a href="https://msdn.microsoft.com/9def4a7d-f145-4073-8d7d-bf3c7ac
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the return codes described in the topic <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemtime.h
-: 
-- WBEMTime.operator=
-: 
 ---
 
 # WBEMTime::operator-assign(const time_t &)

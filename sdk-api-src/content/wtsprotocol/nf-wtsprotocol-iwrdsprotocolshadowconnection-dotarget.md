@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolshadowconnection_dotarget.htm
 tech.root: termserv
 ms.assetid: 9fe2e3fb-f368-4b7e-b679-402db900916c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: DoTarget, DoTarget method [Remote Desktop Services], DoTarget method [Remote Desktop Services],IWRdsProtocolShadowConnection interface, IWRdsProtocolShadowConnection interface [Remote Desktop Services],DoTarget method, IWRdsProtocolShadowConnection.DoTarget, IWRdsProtocolShadowConnection::DoTarget, termserv.iwrdsprotocolshadowconnection_dotarget, wtsprotocol/IWRdsProtocolShadowConnection::DoTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wtsprotocol.h
-: 
-- IWRdsProtocolShadowConnection.DoTarget
-: 
 ---
 
 # IWRdsProtocolShadowConnection::DoTarget

@@ -7,7 +7,7 @@ old-location: dshow\iamextendedseeking_getmarkertime.htm
 tech.root: DirectShow
 ms.assetid: 719e87c5-7d38-4b02-8342-055e42405511
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetMarkerTime, GetMarkerTime method [DirectShow], GetMarkerTime method [DirectShow],IAMExtendedSeeking interface, IAMExtendedSeeking interface [DirectShow],GetMarkerTime method, IAMExtendedSeeking.GetMarkerTime, IAMExtendedSeeking::GetMarkerTime, IAMExtendedSeekingGetMarkerTime, dshow.iamextendedseeking_getmarkertime, qnetwork/IAMExtendedSeeking::GetMarkerTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qnetwork.h
-: 
-- IAMExtendedSeeking.GetMarkerTime
-: 
 ---
 
 # IAMExtendedSeeking::GetMarkerTime

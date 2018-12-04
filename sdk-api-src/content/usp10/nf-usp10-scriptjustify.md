@@ -7,7 +7,7 @@ old-location: intl\scriptjustify.htm
 tech.root: Intl
 ms.assetid: 9419eb80-cd33-4974-a1f1-d43276cb7a91
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ScriptJustify, ScriptJustify function [Internationalization for Windows Applications], _win32_ScriptJustify, intl.scriptjustify, usp10/ScriptJustify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
-- apiref
-: 
-- 
-: 
-- ScriptJustify
-: 
 ---
 
 # ScriptJustify function

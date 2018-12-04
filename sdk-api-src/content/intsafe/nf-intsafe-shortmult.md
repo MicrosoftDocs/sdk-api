@@ -7,7 +7,7 @@ old-location: shell\ShortMult.htm
 tech.root: shell
 ms.assetid: ca602be6-a066-4192-a240-96192e5dbdf8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ShortMult, ShortMult function [Windows Shell], intsafe/ShortMult, shell.ShortMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ShortMult
-: 
 ---
 
 # ShortMult function

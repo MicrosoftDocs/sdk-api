@@ -7,7 +7,7 @@ old-location: shell\Int8Add.htm
 tech.root: shell
 ms.assetid: 2b9e9c0b-ddf4-4a95-a743-004a7575bbfa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Int8Add, Int8Add function [Windows Shell], intsafe/Int8Add, shell.Int8Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Int8Add
-: 
 ---
 
 # Int8Add function

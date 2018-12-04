@@ -7,7 +7,7 @@ old-location: display\ddsetskipfield.htm
 tech.root: display
 ms.assetid: 146aa32d-5268-41b3-b98c-18223002ea65
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPDDSETSKIPFIELD, DDSETSKIPFIELD, DDSETSKIPFIELD structure [Display Devices], LPDDSETSKIPFIELD, LPDDSETSKIPFIELD structure pointer [Display Devices], _DDSETSKIPFIELD, ddkmapi/DDSETSKIPFIELD, ddkmapi/LPDDSETSKIPFIELD, ddstrcts_a0567a56-5d6e-4154-86ff-90463ed2c554.xml, display.ddsetskipfield"
 ms.prod: windows-hardware
 ms.technology: windows-devices

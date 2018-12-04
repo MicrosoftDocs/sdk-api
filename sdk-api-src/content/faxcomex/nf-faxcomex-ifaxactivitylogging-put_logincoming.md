@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxActivityLogging.put_LogIncoming
-: 
 ---
 
 # IFaxActivityLogging::put_LogIncoming

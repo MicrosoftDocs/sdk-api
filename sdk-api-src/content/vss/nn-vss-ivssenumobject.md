@@ -4,10 +4,10 @@ title: IVssEnumObject
 author: windows-sdk-content
 description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
 old-location: base\ivssenumobject.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: b8e80909-a28a-45d7-87e2-4f44bf6990f4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], IVssEnumObject interface [VSS],described, _win32_ivssenumobject, base.ivssenumobject, vss/IVssEnumObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ The <b>IVssEnumObject</b> interface contains methods
     to iterate over and perform other operations on a list of enumerated objects.
 
 The calling application is responsible for calling 
-    <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources held by the 
+    <a href="_com_iunknown_release">IUnknown::Release</a> to release the resources held by the 
     returned <b>IVssEnumObject</b> when it is no longer needed. It 
     may also need to call <b>IUnknown::Release</b> to release 
     temporary objects (such as strings) returned during enumeration.

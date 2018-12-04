@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaVideo_ImagesDirectory.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\imagesdirectory.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWiaVideo interface [WIA],ImagesDirectory property, IWiaVideo.ImagesDirectory, IWiaVideo.get_ImagesDirectory, IWiaVideo::ImagesDirectory, IWiaVideo::get_ImagesDirectory, IWiaVideo::put_ImagesDirectory, ImagesDirectory property [WIA], ImagesDirectory property [WIA],IWiaVideo interface, _wia_IWiaVideo_ImagesDirectory, get_ImagesDirectory, wia._wia_IWiaVideo_ImagesDirectory, wiavideo/IWiaVideo::ImagesDirectory, wiavideo/IWiaVideo::get_ImagesDirectory, wiavideo/IWiaVideo::put_ImagesDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wiavideo.h
-: 
-- IWiaVideo.get_ImagesDirectory
-: 
 ---
 
 # IWiaVideo::get_ImagesDirectory
@@ -60,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>IWiaVideo::ImagesDirectory</b> property specifies the full path and directory where images are stored when calling the <a href="https://msdn.microsoft.com/en-us/library/ms629905(v=VS.85).aspx">IWiaVideo::TakePicture</a> method.
+The <b>IWiaVideo::ImagesDirectory</b> property specifies the full path and directory where images are stored when calling the <a href="https://msdn.microsoft.com/edd4b242-f4df-4f5b-8655-e697e78fef47">IWiaVideo::TakePicture</a> method.
 
 This property is read/write.
 

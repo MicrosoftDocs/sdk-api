@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_setmastervolumelevel.htm
 tech.root: CoreAudio
 ms.assetid: 776d7667-f48b-44c0-9441-177b86b52da9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetMasterVolumeLevel method, IAudioEndpointVolume.SetMasterVolumeLevel, IAudioEndpointVolume::SetMasterVolumeLevel, IAudioEndpointVolumeSetMasterVolumeLevel, SetMasterVolumeLevel, SetMasterVolumeLevel method [Core Audio], SetMasterVolumeLevel method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setmastervolumelevel, endpointvolume/IAudioEndpointVolume::SetMasterVolumeLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- endpointvolume.h
-: 
-- IAudioEndpointVolume.SetMasterVolumeLevel
-: 
 ---
 
 # IAudioEndpointVolume::SetMasterVolumeLevel

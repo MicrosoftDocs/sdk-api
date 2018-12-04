@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual_setoffsetx_float.htm
 tech.root: directcomp
 ms.assetid: 5A90D9F4-E28D-49D6-9E5A-511E9479BD97
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetOffsetX method, IDCompositionVisual.SetOffsetX, IDCompositionVisual.SetOffsetX(float), IDCompositionVisual::SetOffsetX, IDCompositionVisual::SetOffsetX(float), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetOffsetX, directcomp.idcompositionvisual_setoffsetx_float
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionVisual.SetOffsetX
-: 
 ---
 
 # IDCompositionVisual::SetOffsetX(float)

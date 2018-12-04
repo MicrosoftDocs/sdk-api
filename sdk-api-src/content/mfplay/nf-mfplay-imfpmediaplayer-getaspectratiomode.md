@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getaspectratiomode.htm
 tech.root: medfound
 ms.assetid: eaeb20d2-d547-4f88-a69f-7c3f46fe95ff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [Media Foundation], GetAspectRatioMode method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetAspectRatioMode method, IMFPMediaPlayer.GetAspectRatioMode, IMFPMediaPlayer::GetAspectRatioMode, mf.imfpmediaplayer_getaspectratiomode, mfplay/IMFPMediaPlayer::GetAspectRatioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfplay.h
-: 
-- IMFPMediaPlayer.GetAspectRatioMode
-: 
 ---
 
 # IMFPMediaPlayer::GetAspectRatioMode

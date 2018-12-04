@@ -7,7 +7,7 @@ old-location: fs\freeencryptioncertificatehashlist.htm
 tech.root: fileio
 ms.assetid: 63d5811f-a135-45b0-8f23-fd8851f7bcca
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: FreeEncryptionCertificateHashList, FreeEncryptionCertificateHashList function [Files], _win32_freeencryptioncertificatehashlist, base.freeencryptioncertificatehashlist, fs.freeencryptioncertificatehashlist, winefs/FreeEncryptionCertificateHashList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FreeEncryptionCertificateHashList
-: 
 ---
 
 # FreeEncryptionCertificateHashList function

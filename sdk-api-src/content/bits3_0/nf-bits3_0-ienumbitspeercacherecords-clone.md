@@ -4,10 +4,10 @@ title: IEnumBitsPeerCacheRecords::Clone
 author: windows-sdk-content
 description: Creates another IEnumBitsPeerCacheRecords enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbitspeercacherecords_clone.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 4eb19401-119d-4ce6-92b1-aa41b6dcb97c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBitsPeerCacheRecords interface, IEnumBitsPeerCacheRecords interface [BITS],Clone method, IEnumBitsPeerCacheRecords.Clone, IEnumBitsPeerCacheRecords::Clone, bits.ienumbitspeercacherecords_clone, bits3_0/IEnumBitsPeerCacheRecords::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits3_0.h
-: 
-- IEnumBitsPeerCacheRecords.Clone
-: 
 ---
 
 # IEnumBitsPeerCacheRecords::Clone
@@ -60,7 +52,7 @@ req.redist:
 
 
 Creates another 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964302(v=VS.85).aspx">IEnumBitsPeerCacheRecords</a> enumerator that contains the same enumeration state as the current one.
+<a href="https://msdn.microsoft.com/680c1468-d780-44a3-9048-c7c3928234f9">IEnumBitsPeerCacheRecords</a> enumerator that contains the same enumeration state as the current one.
 
 Using this method, a client can record a particular point in the enumeration sequence, and then return to that point at a later time. The new enumerator supports the same interface as the original one.
 
@@ -70,14 +62,7 @@ Using this method, a client can record a particular point in the enumeration seq
 
 
 
-### -param ppenum
-
-TBD
-
-
-
-
-#### - ppEnum [out]
+### -param ppenum [out]
 
 Receives the interface pointer to the enumeration object. If the method is unsuccessful, the value of this output variable is undefined. You must release <i>ppEnum</i> when done.
 
@@ -96,7 +81,7 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964302(v=VS.85).aspx">IEnumBitsPeerCacheRecords</a>
+<a href="https://msdn.microsoft.com/680c1468-d780-44a3-9048-c7c3928234f9">IEnumBitsPeerCacheRecords</a>
  
 
  

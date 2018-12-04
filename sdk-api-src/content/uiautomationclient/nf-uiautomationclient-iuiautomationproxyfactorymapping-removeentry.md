@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry.htm
 tech.root: WinAuto
 ms.assetid: 1a09fbda-9e95-4f31-b669-e68310071aa9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUIAutomationProxyFactoryMapping interface [Windows Accessibility],RemoveEntry method, IUIAutomationProxyFactoryMapping.RemoveEntry, IUIAutomationProxyFactoryMapping::RemoveEntry, RemoveEntry, RemoveEntry method [Windows Accessibility], RemoveEntry method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, uiauto.uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry, uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry, uiautomationclient/IUIAutomationProxyFactoryMapping::RemoveEntry, winauto.uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationProxyFactoryMapping.RemoveEntry
-: 
 ---
 
 # IUIAutomationProxyFactoryMapping::RemoveEntry

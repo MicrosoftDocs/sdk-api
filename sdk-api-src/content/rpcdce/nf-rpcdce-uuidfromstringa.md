@@ -4,10 +4,10 @@ title: UuidFromStringA function
 author: windows-sdk-content
 description: The UuidFromString function converts a string to a UUID.
 old-location: rpc\uuidfromstring.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 90b3cf6b-a15b-4f91-9ba2-0e43fe3374df
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: UuidFromString, UuidFromString function [RPC], UuidFromStringA, UuidFromStringW, _rpc_uuidfromstring, rpc.uuidfromstring, rpcdce/UuidFromString, rpcdce/UuidFromStringA, rpcdce/UuidFromStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UuidFromStringA
-: 
 ---
 
 # UuidFromStringA function

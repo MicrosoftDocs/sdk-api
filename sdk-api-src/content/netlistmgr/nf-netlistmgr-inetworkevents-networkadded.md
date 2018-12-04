@@ -4,10 +4,10 @@ title: INetworkEvents::NetworkAdded
 author: windows-sdk-content
 description: The NetworkAdded method is called when a new network is added. The GUID of the new network is provided.
 old-location: nla\inetworkevents_networkadded.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 2fda364e-ad6a-447a-ba0c-25e5d52ef5c5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkAdded method, INetworkEvents.NetworkAdded, INetworkEvents::NetworkAdded, NetworkAdded, NetworkAdded method [Network Awareness], NetworkAdded method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkAdded, nla.inetworkevents_networkadded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netlistmgr.h
-: 
-- INetworkEvents.NetworkAdded
-: 
 ---
 
 # INetworkEvents::NetworkAdded

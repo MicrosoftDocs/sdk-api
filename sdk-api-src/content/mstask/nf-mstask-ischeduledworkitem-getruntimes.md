@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetRunTimes
 author: windows-sdk-content
 description: Retrieves the work item run times for a specified time period.
 old-location: taskschd\ischeduledworkitem_getruntimes.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 4fd9f5dc-b237-46a6-96c0-0e4b3accd6e5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetRunTimes, GetRunTimes method [Task Scheduler], GetRunTimes method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetRunTimes method, IScheduledWorkItem.GetRunTimes, IScheduledWorkItem::GetRunTimes, _msb_ischeduledworkitem_getruntimes, mstask/IScheduledWorkItem::GetRunTimes, taskschd.ischeduledworkitem_getruntimes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.GetRunTimes
-: 
 ---
 
 # IScheduledWorkItem::GetRunTimes
@@ -60,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a> run times for a specified time period.
+Retrieves the <a href="w.htm">work item</a> run times for a specified time period.
 
 
 ## -parameters

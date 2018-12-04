@@ -4,10 +4,10 @@ title: ITSubStream::UnselectTerminal
 author: windows-sdk-content
 description: The UnselectTerminal method unselects the terminal from the substream.
 old-location: tapi3\itsubstream_unselectterminal.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: a1b84377-bb1f-4e88-aca5-91105ff2ad6a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],UnselectTerminal method, ITSubStream.UnselectTerminal, ITSubStream::UnselectTerminal, UnselectTerminal, UnselectTerminal method [TAPI 2.2], UnselectTerminal method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_unselectterminal, tapi3.itsubstream_unselectterminal, tapi3if/ITSubStream::UnselectTerminal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITSubStream.UnselectTerminal
-: 
 ---
 
 # ITSubStream::UnselectTerminal

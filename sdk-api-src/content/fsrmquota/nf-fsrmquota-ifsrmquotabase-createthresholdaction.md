@@ -4,10 +4,10 @@ title: IFsrmQuotaBase::CreateThresholdAction
 author: windows-sdk-content
 description: Creates an action and associates it with the specified threshold.
 old-location: fsrm\ifsrmquotabase_createthresholdaction.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 27813041-ee42-4412-982e-fce594c5e648
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateThresholdAction, CreateThresholdAction method [File Server Resource Manager], CreateThresholdAction method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],CreateThresholdAction method, IFsrmQuotaBase.CreateThresholdAction, IFsrmQuotaBase::CreateThresholdAction, fs.ifsrmquotabase_createthresholdaction, fsrm.ifsrmquotabase_createthresholdaction, fsrmquota/IFsrmQuotaBase::CreateThresholdAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmquota.h
-: 
-- IFsrmQuotaBase.CreateThresholdAction
-: 
 ---
 
 # IFsrmQuotaBase::CreateThresholdAction

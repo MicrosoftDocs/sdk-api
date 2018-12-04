@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_GetHeight_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\getheight.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AdjustableArrowCap class [GDI+],GetHeight method, AdjustableArrowCap.GetHeight, AdjustableArrowCap::GetHeight, GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_GetHeight_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_GetHeight_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdipluslinecaps.h
-: 
-- AdjustableArrowCap.GetHeight
-: 
 req.product: GDI+ 1.0
 ---
 

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_filter_type.htm
 tech.root: direct3d12
 ms.assetid: 3988D194-97C7-46C7-829D-154891684D68
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D3D12_FILTER_TYPE, D3D12_FILTER_TYPE enumeration, D3D12_FILTER_TYPE_LINEAR, D3D12_FILTER_TYPE_POINT, d3d12/D3D12_FILTER_TYPE, d3d12/D3D12_FILTER_TYPE_LINEAR, d3d12/D3D12_FILTER_TYPE_POINT, direct3d12.d3d12_filter_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ Bilinear interpolation filtering is used as a texture magnification or minificat
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn770403(v=VS.85).aspx">D3D12_SAMPLER_DESC</a> structure. Also, refer to the remarks for <a href="https://msdn.microsoft.com/en-us/library/Dn770367(v=VS.85).aspx">D3D12_FILTER</a>.
+This enum is used by the <a href="https://msdn.microsoft.com/96261FE1-89D4-4135-B5C4-2D788DF4FA12">D3D12_SAMPLER_DESC</a> structure. Also, refer to the remarks for <a href="https://msdn.microsoft.com/3755A722-34E5-415E-8760-93094D033E05">D3D12_FILTER</a>.
 
 
 
@@ -86,7 +86,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn770
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
  
 
  

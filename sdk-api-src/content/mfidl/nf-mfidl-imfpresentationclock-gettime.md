@@ -7,7 +7,7 @@ old-location: mf\imfpresentationclock_gettime.htm
 tech.root: medfound
 ms.assetid: 31037b75-9fa5-48e0-a58c-a451b445147f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 31037b75-9fa5-48e0-a58c-a451b445147f, GetTime, GetTime method [Media Foundation], GetTime method [Media Foundation],IMFPresentationClock interface, IMFPresentationClock interface [Media Foundation],GetTime method, IMFPresentationClock.GetTime, IMFPresentationClock::GetTime, mf.imfpresentationclock_gettime, mfidl/IMFPresentationClock::GetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfidl.h
-: 
-- IMFPresentationClock.GetTime
-: 
 ---
 
 # IMFPresentationClock::GetTime

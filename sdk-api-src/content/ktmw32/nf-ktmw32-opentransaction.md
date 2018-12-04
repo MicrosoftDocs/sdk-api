@@ -4,10 +4,10 @@ title: OpenTransaction function
 author: windows-sdk-content
 description: Opens an existing transaction.
 old-location: fs\opentransaction.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: d95f15e4-d0fd-4665-849d-eecac8fc542b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: OpenTransaction, OpenTransaction function [Files], fs.opentransaction, ktmw32/OpenTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OpenTransaction
-: 
 ---
 
 # OpenTransaction function

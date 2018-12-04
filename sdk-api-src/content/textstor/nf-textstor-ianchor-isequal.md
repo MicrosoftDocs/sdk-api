@@ -7,7 +7,7 @@ old-location: tsf\ianchor_isequal.htm
 tech.root: TSF
 ms.assetid: a2dedce7-f64d-406a-bebc-9a4b51a1ae38
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAnchor interface [Text Services Framework],IsEqual method, IAnchor.IsEqual, IAnchor::IsEqual, IsEqual, IsEqual method [Text Services Framework], IsEqual method [Text Services Framework],IAnchor interface, textstor/IAnchor::IsEqual, tsf.ianchor_isequal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- textstor.h
-: 
-- IAnchor.IsEqual
-: 
 ---
 
 # IAnchor::IsEqual
@@ -133,7 +125,7 @@ Anchors are always positioned between characters or regions. When two anchors ar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchors</a>
+<a href="ranges.htm">Anchors</a>
 
 
 

@@ -4,10 +4,10 @@ title: ID2D1CommandSink4::SetPrimitiveBlend2
 author: windows-sdk-content
 description: Sets a new primitive blend mode. Allows access to the MAX primitive blend mode.
 old-location: direct2d\id2d1commandsink4_setprimitiveblend2.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 20934CEA-2B89-45F5-8E61-CD47C4A9B78F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID2D1CommandSink4 interface [Direct2D],SetPrimitiveBlend2 method, ID2D1CommandSink4.SetPrimitiveBlend2, ID2D1CommandSink4::SetPrimitiveBlend2, SetPrimitiveBlend2, SetPrimitiveBlend2 method [Direct2D], SetPrimitiveBlend2 method [Direct2D],ID2D1CommandSink4 interface, d2d1_3/ID2D1CommandSink4::SetPrimitiveBlend2, direct2d.id2d1commandsink4_setprimitiveblend2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_3.h
-: 
-- ID2D1CommandSink4.SetPrimitiveBlend2
-: 
 ---
 
 # ID2D1CommandSink4::SetPrimitiveBlend2

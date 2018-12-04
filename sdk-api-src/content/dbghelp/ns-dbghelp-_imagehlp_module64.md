@@ -4,10 +4,10 @@ title: "_IMAGEHLP_MODULE64"
 author: windows-sdk-content
 description: Contains module information.
 old-location: base\imagehlp_module64_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 3cc7a678-561b-4af8-8cf0-5cf6ebc0cb26
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*PIMAGEHLP_MODULE64, IMAGEHLP_MODULE, IMAGEHLP_MODULE structure, IMAGEHLP_MODULE64, IMAGEHLP_MODULE64 structure, IMAGEHLP_MODULEW64, PIMAGEHLP_MODULE64, PIMAGEHLP_MODULE64 structure pointer, SymCoff, SymCv, SymDeferred, SymDia, SymExport, SymNone, SymPdb, SymSym, SymVirtual, _IMAGEHLP_MODULE64, _win32_imagehlp_module64_str, base.imagehlp_module64_str, dbghelp/IMAGEHLP_MODULE64, dbghelp/IMAGEHLP_MODULEW64, dbghelp/PIMAGEHLP_MODULE64"
 ms.prod: windows-hardware
 ms.technology: windows-devices

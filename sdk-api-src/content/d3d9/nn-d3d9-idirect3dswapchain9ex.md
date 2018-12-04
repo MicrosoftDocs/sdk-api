@@ -7,7 +7,7 @@ old-location: direct3d9\d3d9l_idirect3dswapchain9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\d3d9l_idirect3dswapchain9.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 5cc4ce3b-e2da-a3fd-de25-b60e0d8d1030, IDirect3DSwapChain9Ex, IDirect3DSwapChain9Ex interface [Direct3D 9], IDirect3DSwapChain9Ex interface [Direct3D 9],described, d3d9/IDirect3DSwapChain9Ex, direct3d9.d3d9l_idirect3dswapchain9
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ Applications use the methods of the <b>IDirect3DSwapChain9Ex</b> interface to ma
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DSwapChain9Ex</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb205899(v=VS.85).aspx">IDirect3DSwapChain9</a>. <b>IDirect3DSwapChain9Ex</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DSwapChain9Ex</b> interface inherits from <a href="https://msdn.microsoft.com/df3fe9a0-cef9-4416-9287-4a1dd98b264d">IDirect3DSwapChain9</a>. <b>IDirect3DSwapChain9Ex</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDirect3DSwapChain9Ex</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb509715(v=VS.85).aspx">GetDisplayModeEx</a>
+<a href="https://msdn.microsoft.com/e0e37c67-941c-4153-8b69-edf2d640b96d">GetDisplayModeEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings.
@@ -80,7 +80,7 @@ Retrieves the display mode's spatial resolution, color resolution, refresh frequ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205900(v=VS.85).aspx">GetLastPresentCount</a>
+<a href="https://msdn.microsoft.com/16a101a5-d2c7-4fde-8f9a-e0acd6c668a1">GetLastPresentCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of times the swapchain has been processed.
@@ -89,7 +89,7 @@ Returns the number of times the swapchain has been processed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205901(v=VS.85).aspx">GetPresentStatistics</a>
+<a href="https://msdn.microsoft.com/16eb0ec1-801a-4394-8d19-6d6d608be323">GetPresentStatistics</a>
 </td>
 <td align="left" width="63%">
 Gets presentation statistics so an application can identify frames that do not have a Present method call.
@@ -103,13 +103,13 @@ Gets presentation statistics so an application can identify frames that do not h
 
 
 
-There is always at least one swap chain for each device, known as the implicit swap chain. However, an additional swap chain for rendering multiple views from the same device can be created by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174354(v=VS.85).aspx">CreateAdditionalSwapChain</a> method.
+There is always at least one swap chain for each device, known as the implicit swap chain. However, an additional swap chain for rendering multiple views from the same device can be created by calling the <a href="https://msdn.microsoft.com/d41b36f6-8481-47f8-bd38-8f51bc9ff9b8">CreateAdditionalSwapChain</a> method.
 
 This interface, like all COM interfaces, inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
 
-The <b>LPDIRECT3DSWAPCHAIN9</b> and <b>PDIRECT3DSWAPCHAIN9</b> types are defined as pointers to the <a href="https://msdn.microsoft.com/en-us/library/Bb205899(v=VS.85).aspx">IDirect3DSwapChain9</a> interface.
+The <b>LPDIRECT3DSWAPCHAIN9</b> and <b>PDIRECT3DSWAPCHAIN9</b> types are defined as pointers to the <a href="https://msdn.microsoft.com/df3fe9a0-cef9-4416-9287-4a1dd98b264d">IDirect3DSwapChain9</a> interface.
 
-<b>IDirect3DSwapChain9Ex</b> objects are returned as a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205899(v=VS.85).aspx">IDirect3DSwapChain9</a> object when <a href="https://msdn.microsoft.com/en-us/library/Bb174411(v=VS.85).aspx">GetSwapChain</a> is called on an instance of <a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>.
+<b>IDirect3DSwapChain9Ex</b> objects are returned as a pointer to an <a href="https://msdn.microsoft.com/df3fe9a0-cef9-4416-9287-4a1dd98b264d">IDirect3DSwapChain9</a> object when <a href="https://msdn.microsoft.com/343522f2-33e8-46a5-a17f-b6c36b8fe82b">GetSwapChain</a> is called on an instance of <a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a>.
 The <b>IDirect3DSwapChain9Ex</b> interface is obtained by calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on the instance of <b>IDirect3DSwapChain9</b> that was returned by <b>GetSwapChain</b>.
 
 
@@ -124,11 +124,11 @@ The <b>IDirect3DSwapChain9Ex</b> interface is obtained by calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb219800(v=VS.85).aspx">Feature Summary (Direct3D 9 for Windows Vista)</a>
+<a href="https://msdn.microsoft.com/3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5">Feature Summary (Direct3D 9 for Windows Vista)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205899(v=VS.85).aspx">IDirect3DSwapChain9</a>
+<a href="https://msdn.microsoft.com/df3fe9a0-cef9-4416-9287-4a1dd98b264d">IDirect3DSwapChain9</a>
  
 
  

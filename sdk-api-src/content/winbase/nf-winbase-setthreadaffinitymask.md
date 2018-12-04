@@ -4,10 +4,10 @@ title: SetThreadAffinityMask function
 author: windows-sdk-content
 description: Sets a processor affinity mask for the specified thread.
 old-location: base\setthreadaffinitymask.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 3390930d-026f-4f86-97bc-1da34bb384ba
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: SetThreadAffinityMask, SetThreadAffinityMask function, _win32_setthreadaffinitymask, base.setthreadaffinitymask, winbase/SetThreadAffinityMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetThreadAffinityMask
-: 
 ---
 
 # SetThreadAffinityMask function

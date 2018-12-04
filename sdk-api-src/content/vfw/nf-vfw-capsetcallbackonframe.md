@@ -7,7 +7,7 @@ old-location: multimedia\capsetcallbackonframe.htm
 tech.root: Multimedia
 ms.assetid: 7e9e33cb-9213-4111-a1de-700493949f2d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_capSetCallbackOnFrame, capSetCallbackOnFrame, capSetCallbackOnFrame macro [Windows Multimedia], multimedia.capsetcallbackonframe, vfw/capSetCallbackOnFrame"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- capSetCallbackOnFrame
-: 
 ---
 
 # capSetCallbackOnFrame macro

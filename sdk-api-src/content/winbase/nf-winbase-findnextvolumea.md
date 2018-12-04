@@ -7,7 +7,7 @@ old-location: fs\findnextvolume.htm
 tech.root: fileio
 ms.assetid: 6ab4467a-f84a-403e-9327-b523ceead19f
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: FindNextVolume, FindNextVolume function [Files], FindNextVolumeA, FindNextVolumeW, _win32_findnextvolume, base.findnextvolume, fileapi/FindNextVolume, fileapi/FindNextVolumeA, fileapi/FindNextVolumeW, fs.findnextvolume, winbase/FindNextVolume, winbase/FindNextVolumeA, winbase/FindNextVolumeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,12 +53,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FindNextVolumeA
-: 
 ---
 
 # FindNextVolumeA function

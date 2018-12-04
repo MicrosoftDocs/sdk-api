@@ -7,7 +7,7 @@ old-location: intl\makesortlcid.htm
 tech.root: Intl
 ms.assetid: 58327bfc-8a00-4fdc-bd5a-cef9c0b29faa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MAKESORTLCID, MAKESORTLCID macro [Internationalization for Windows Applications], _win32_MAKESORTLCID, intl.makesortlcid, winnt/MAKESORTLCID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winnt.h
-: 
-- MAKESORTLCID
-: 
 ---
 
 # MAKESORTLCID macro

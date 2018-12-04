@@ -4,10 +4,10 @@ title: "_THREAD_WRITE_FLAGS"
 author: windows-sdk-content
 description: Identifies the type of thread information that will be written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\thread_write_flags.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: b2d933c0-5e52-4078-82ea-844c2415eb45
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: THREAD_WRITE_FLAGS, THREAD_WRITE_FLAGS enumeration, ThreadWriteBackingStore, ThreadWriteContext, ThreadWriteInstructionWindow, ThreadWriteStack, ThreadWriteThread, ThreadWriteThreadData, ThreadWriteThreadInfo, _THREAD_WRITE_FLAGS, _win32_thread_write_flags, base.thread_write_flags, minidumpapiset/THREAD_WRITE_FLAGS, minidumpapiset/ThreadWriteBackingStore, minidumpapiset/ThreadWriteContext, minidumpapiset/ThreadWriteInstructionWindow, minidumpapiset/ThreadWriteStack, minidumpapiset/ThreadWriteThread, minidumpapiset/ThreadWriteThreadData, minidumpapiset/ThreadWriteThreadInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

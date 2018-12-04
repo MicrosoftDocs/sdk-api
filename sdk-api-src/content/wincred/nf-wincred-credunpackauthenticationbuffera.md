@@ -4,10 +4,10 @@ title: CredUnPackAuthenticationBufferA function
 author: windows-sdk-content
 description: Converts an authentication buffer returned by a call to the CredUIPromptForWindowsCredentials function into a string user name and password.
 old-location: security\credunpackauthenticationbuffer.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: c87f0b11-59c2-4450-ad63-398cdb15016f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CredUnPackAuthenticationBuffer, CredUnPackAuthenticationBuffer function [Security], CredUnPackAuthenticationBufferA, CredUnPackAuthenticationBufferW, security.credunpackauthenticationbuffer, wincred/CredUnPackAuthenticationBuffer, wincred/CredUnPackAuthenticationBufferA, wincred/CredUnPackAuthenticationBufferW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CredUnPackAuthenticationBufferA
-: 
 ---
 
 # CredUnPackAuthenticationBufferA function

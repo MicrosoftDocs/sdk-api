@@ -4,10 +4,10 @@ title: RtwqScheduleWorkItem function
 author: windows-sdk-content
 description: Schedules an asynchronous operation to be completed after a specified interval.
 old-location: base\rtwqscheduleworkitem.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: cfc22cfb-44fc-441b-826c-61f72cb0bd68
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: RtwqScheduleWorkItem, RtwqScheduleWorkItem function, base.rtwqscheduleworkitem, rtworkq/RtwqScheduleWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtwqScheduleWorkItem
-: 
 ---
 
 # RtwqScheduleWorkItem function

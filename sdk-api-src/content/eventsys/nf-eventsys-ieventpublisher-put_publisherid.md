@@ -7,7 +7,7 @@ old-location: com\ieventpublisher_publisherid.htm
 tech.root: com
 ms.assetid: edc66367-68af-47a7-873c-006c257e840e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IEventPublisher interface [COM],PublisherID property, IEventPublisher.PublisherID, IEventPublisher.put_PublisherID, IEventPublisher::PublisherID, IEventPublisher::put_PublisherID, PublisherID property [COM], PublisherID property [COM],IEventPublisher interface, _com_ieventpublisher_publisherid, com.ieventpublisher_publisherid, eventsys/IEventPublisher::PublisherID, eventsys/IEventPublisher::put_PublisherID, put_PublisherID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- eventsys.h
-: 
-- IEventPublisher.put_PublisherID
-: 
 ---
 
 # IEventPublisher::put_PublisherID

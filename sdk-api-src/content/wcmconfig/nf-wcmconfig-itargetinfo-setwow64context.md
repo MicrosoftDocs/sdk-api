@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wcmconfig.h
-: 
-- ITargetInfo.SetWow64Context
-: 
 ---
 
 # ITargetInfo::SetWow64Context

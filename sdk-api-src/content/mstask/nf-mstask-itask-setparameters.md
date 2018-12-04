@@ -4,10 +4,10 @@ title: ITask::SetParameters
 author: windows-sdk-content
 description: This method sets the command-line parameters for the task.
 old-location: taskschd\itask_setparameters.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 094dcd8f-35aa-4300-b58d-c846bca1c88c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITask interface [Task Scheduler],SetParameters method, ITask.SetParameters, ITask::SetParameters, SetParameters, SetParameters method [Task Scheduler], SetParameters method [Task Scheduler],ITask interface, _msb_itask_setparameters, mstask/ITask::SetParameters, taskschd.itask_setparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- ITask.SetParameters
-: 
 ---
 
 # ITask::SetParameters
@@ -60,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the command-line parameters for the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a>.
+This method sets the command-line parameters for the <a href="t.htm">task</a>.
 
 
 ## -parameters

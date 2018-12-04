@@ -7,7 +7,7 @@ old-location: wer\outofprocessexceptioneventdebuggerlaunchcallback.htm
 tech.root: wer
 ms.assetid: ecf36951-cdb5-425d-a9b1-83b7ce8aebc4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: OutOfProcessExceptionEventDebuggerLaunchCallback, OutOfProcessExceptionEventDebuggerLaunchCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH, PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH callback, wer.outofprocessexceptioneventdebuggerlaunchcallback, werapi/OutOfProcessExceptionEventDebuggerLaunchCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

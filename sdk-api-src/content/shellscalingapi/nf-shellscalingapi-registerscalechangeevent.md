@@ -7,7 +7,7 @@ old-location: shell\RegisterScaleChangeEvent.htm
 tech.root: shell
 ms.assetid: 05FAFC9B-DCB7-464A-9933-7166C7E53D40
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: RegisterScaleChangeEvent, RegisterScaleChangeEvent function [Windows Shell], shell.RegisterScaleChangeEvent, shellscalingapi/RegisterScaleChangeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegisterScaleChangeEvent
-: 
 ---
 
 # RegisterScaleChangeEvent function

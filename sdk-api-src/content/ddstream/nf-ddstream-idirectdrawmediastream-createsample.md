@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediastream_createsample.htm
 tech.root: DirectShow
 ms.assetid: 85041c71-f9fc-48fc-8fe2-fec21efb831b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],CreateSample method, IDirectDrawMediaStream.CreateSample, IDirectDrawMediaStream::CreateSample, IDirectDrawMediaStreamCreateSample, ddstream/IDirectDrawMediaStream::CreateSample, dshow.idirectdrawmediastream_createsample
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ddstream.h
-: 
-- IDirectDrawMediaStream.CreateSample
-: 
 ---
 
 # IDirectDrawMediaStream::CreateSample

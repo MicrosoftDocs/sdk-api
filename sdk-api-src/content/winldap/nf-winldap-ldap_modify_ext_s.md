@@ -4,10 +4,10 @@ title: ldap_modify_ext_s function
 author: windows-sdk-content
 description: The ldap_modify_ext_s function changes an existing entry.
 old-location: ldap\ldap_modify_ext_s.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: d71190d6-4775-4f37-b509-3395a7352272
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ldap_modify_ext_s, ldap.ldap__modify__ext__s, ldap.ldap_modify_ext_s, ldap_modify_ext_s, ldap_modify_ext_s function [LDAP], ldap_modify_ext_sA, ldap_modify_ext_sW, winldap/ldap_modify_ext_s, winldap/ldap_modify_ext_sA, winldap/ldap_modify_ext_sW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_modify_ext_s
-: 
 ---
 
 # ldap_modify_ext_s function

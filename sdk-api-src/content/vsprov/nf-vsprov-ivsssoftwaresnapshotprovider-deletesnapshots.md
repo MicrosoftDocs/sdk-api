@@ -4,10 +4,10 @@ title: IVssSoftwareSnapshotProvider::DeleteSnapshots
 author: windows-sdk-content
 description: Deletes one or more shadow copies or a shadow copy set.
 old-location: base\ivsssoftwaresnapshotprovider_deletesnapshots.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: aca6cdc1-186d-41e8-ac1b-0c6d7d9cbddd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method, DeleteSnapshots method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,DeleteSnapshots method, IVssSoftwareSnapshotProvider.DeleteSnapshots, IVssSoftwareSnapshotProvider::DeleteSnapshots, base.ivsssoftwaresnapshotprovider_deletesnapshots, vsprov/IVssSoftwareSnapshotProvider::DeleteSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsprov.h
-: 
-- IVssSoftwareSnapshotProvider.DeleteSnapshots
-: 
 ---
 
 # IVssSoftwareSnapshotProvider::DeleteSnapshots

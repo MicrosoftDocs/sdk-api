@@ -7,7 +7,7 @@ old-location: ad\idsdisplayspecifier_getdisplayspecifier.htm
 tech.root: ad
 ms.assetid: c4fc25f6-0157-406d-b523-8542183291ed
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: GetDisplaySpecifier, GetDisplaySpecifier method [Active Directory], GetDisplaySpecifier method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetDisplaySpecifier method, IDsDisplaySpecifier.GetDisplaySpecifier, IDsDisplaySpecifier::GetDisplaySpecifier, _glines_idsdisplayspecifier_getdisplayspecifier, ad.idsdisplayspecifier__getdisplayspecifier, ad.idsdisplayspecifier_getdisplayspecifier, dsclient/IDsDisplaySpecifier::GetDisplaySpecifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dsclient.h
-: 
-- IDsDisplaySpecifier.GetDisplaySpecifier
-: 
 ---
 
 # IDsDisplaySpecifier::GetDisplaySpecifier
@@ -105,33 +97,37 @@ This method uses the server and user credentials set by a previous call to
 
 The following code example demonstrates how to call this method.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 IDsDisplaySpecifier *pDS;
 
 hr = CoCreateInstance(CLSID_DsDisplaySpecifier,
                         NULL,
                         CLSCTX_INPROC_SERVER,
                         IID_IDsDisplaySpecifier,
-                        (void**)&pDS);
+                        (void**)&amp;pDS);
 if(SUCCEEDED(hr))
 {
     IADs *pads;
 
-    hr = pDS->GetDisplaySpecifier(L"user", IID_IADs, (LPVOID*)&pads);
+    hr = pDS-&gt;GetDisplaySpecifier(L"user", IID_IADs, (LPVOID*)&amp;pads);
 
     if(SUCCEEDED(hr))
     {
-        pads->Release();
+        pads-&gt;Release();
     }
 
-    pDS->Release();
+    pDS-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

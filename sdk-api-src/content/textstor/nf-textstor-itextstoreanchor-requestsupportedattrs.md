@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_requestsupportedattrs.htm
 tech.root: TSF
 ms.assetid: ab81d79d-e991-4c2d-9fb7-95393e002828
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestSupportedAttrs method, ITextStoreAnchor.RequestSupportedAttrs, ITextStoreAnchor::RequestSupportedAttrs, RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RequestSupportedAttrs, tsf.itextstoreanchor_requestsupportedattrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- textstor.h
-: 
-- ITextStoreAnchor.RequestSupportedAttrs
-: 
 ---
 
 # ITextStoreAnchor::RequestSupportedAttrs

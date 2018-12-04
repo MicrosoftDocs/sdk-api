@@ -7,7 +7,7 @@ old-location: intl\iimepadapplet_notify.htm
 tech.root: Intl
 ms.assetid: 5C370DC8-D308-4339-81F3-FEE88359A52F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Notify method, IImePadApplet.Notify, IImePadApplet::Notify, Notify, Notify method [Internationalization for Windows Applications], Notify method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Notify, intl.iimepadapplet_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imepad.h
-: 
-- IImePadApplet.Notify
-: 
 ---
 
 # IImePadApplet::Notify

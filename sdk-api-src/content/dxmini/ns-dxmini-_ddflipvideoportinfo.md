@@ -7,7 +7,7 @@ old-location: display\ddflipvideoportinfo.htm
 tech.root: display
 ms.assetid: 9cf87d19-2db6-48f8-96a6-2b6ac969c774
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*PDDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO structure [Display Devices], PDDFLIPVIDEOPORTINFO, PDDFLIPVIDEOPORTINFO structure pointer [Display Devices], Video_Structs_e5e5e93f-25a2-47a6-a99c-6ac8ca43f069.xml, _DDFLIPVIDEOPORTINFO, display.ddflipvideoportinfo, dxmini/DDFLIPVIDEOPORTINFO, dxmini/PDDFLIPVIDEOPORTINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

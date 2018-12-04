@@ -7,7 +7,7 @@ old-location: com\iunknown_addref.htm
 tech.root: com
 ms.assetid: b4316efd-73d4-4995-b898-8025a316ba63
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: AddRef, AddRef method [COM], AddRef method [COM],IUnknown interface, IUnknown interface [COM],AddRef method, IUnknown.AddRef, IUnknown::AddRef, _com_iunknown_addref, com.iunknown_addref, unknwn/IUnknown::AddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- unknwn.h
-: 
-- IUnknown.AddRef
-: 
 ---
 
 # IUnknown::AddRef

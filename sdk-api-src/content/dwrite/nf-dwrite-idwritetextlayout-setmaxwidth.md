@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_SetMaxWidth.htm
 tech.root: DirectWrite
 ms.assetid: 49889f71-4650-4f16-a130-d0437bd50b52
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetMaxWidth method, IDWriteTextLayout.SetMaxWidth, IDWriteTextLayout::SetMaxWidth, SetMaxWidth, SetMaxWidth method [Direct Write], SetMaxWidth method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetMaxWidth, dwrite/IDWriteTextLayout::SetMaxWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteTextLayout.SetMaxWidth
-: 
 ---
 
 # IDWriteTextLayout::SetMaxWidth

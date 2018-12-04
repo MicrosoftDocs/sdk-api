@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_buffer.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_BUFFER
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: XAUDIO2_BUFFER, XAUDIO2_BUFFER structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_buffer, xaudio2/XAUDIO2_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Represents an audio data buffer, used with <a href="https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx">IXAudio2SourceVoice::SubmitSourceBuffer</a>.
+Represents an audio data buffer, used with <a href="https://msdn.microsoft.com/D4A1FB27-12F6-41A0-9ACF-3F13EBB27165">IXAudio2SourceVoice::SubmitSourceBuffer</a>.
 
 
 ## -struct-fields
@@ -81,7 +81,7 @@ Flags that provide additional information about the audio buffer. May be 0, or t
 
 Size of the audio data, in bytes. Must be no larger than XAUDIO2_MAX_BUFFER_BYTES (defined in xaudio2.h) for PCM data and no larger than XMA_READBUFFER_MAX_BYTES (defined in xma2defs.h) for XMA data.
 
-<div class="alert"><b>Note</b>  XMA buffers submitted to an XAudio2 voice using <a href="https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx">IXAudio2SourceVoice::SubmitSourceBuffer</a> must contain complete XMA blocks. A complete XMA block must be equal in size to the <b>XMA2WAVEFORMATEX.BytesPerBlock</b> value, except for the last XMA block in a file, which may be shorter but will still be considered complete.</div>
+<div class="alert"><b>Note</b>  XMA buffers submitted to an XAudio2 voice using <a href="https://msdn.microsoft.com/D4A1FB27-12F6-41A0-9ACF-3F13EBB27165">IXAudio2SourceVoice::SubmitSourceBuffer</a> must contain complete XMA blocks. A complete XMA block must be equal in size to the <b>XMA2WAVEFORMATEX.BytesPerBlock</b> value, except for the last XMA block in a file, which may be shorter but will still be considered complete.</div>
 <div> </div>
 
 ### -field pAudioData
@@ -150,7 +150,7 @@ The <b>AudioBytes</b> and <b>pAudioData</b> members of <b>XAUDIO2_BUFFER</b> cor
 
 
 
-Memory allocated to hold a <b>XAUDIO2_BUFFER</b> or <a href="https://msdn.microsoft.com/en-us/library/Ee419229(v=VS.85).aspx">XAUDIO2_BUFFER_WMA</a> structure can be freed as soon as the <a href="https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx">IXAudio2SourceVoice::SubmitSourceBuffer</a> call it is passed to returns. The data the structure points to (<b>pAudioData</b> and <b>pDecodedPacketCumulativeBytes</b>, respectively) can't be freed until the buffer completes (as signaled by the <a href="https://msdn.microsoft.com/en-us/library/Ee418474(v=VS.85).aspx">IXAudio2VoiceCallback::OnBufferEnd</a> callback) or the voice is stopped or destroyed.
+Memory allocated to hold a <b>XAUDIO2_BUFFER</b> or <a href="https://msdn.microsoft.com/5bb5fc9a-37ce-47f3-8343-2cc39a6e393c">XAUDIO2_BUFFER_WMA</a> structure can be freed as soon as the <a href="https://msdn.microsoft.com/D4A1FB27-12F6-41A0-9ACF-3F13EBB27165">IXAudio2SourceVoice::SubmitSourceBuffer</a> call it is passed to returns. The data the structure points to (<b>pAudioData</b> and <b>pDecodedPacketCumulativeBytes</b>, respectively) can't be freed until the buffer completes (as signaled by the <a href="https://msdn.microsoft.com/803D1DB9-8C10-4821-BB0F-DDF85B11B9B3">IXAudio2VoiceCallback::OnBufferEnd</a> callback) or the voice is stopped or destroyed.
 
 
 
@@ -169,7 +169,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx">IXAudio2SourceVoice::SubmitSourceBuffer</a>
+<a href="https://msdn.microsoft.com/D4A1FB27-12F6-41A0-9ACF-3F13EBB27165">IXAudio2SourceVoice::SubmitSourceBuffer</a>
 
 
 

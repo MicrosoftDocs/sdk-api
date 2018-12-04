@@ -51,14 +51,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemcli.h
-: 
-- IWbemClassObject.GetObjectText
-: 
 ---
 
 # IWbemClassObject::GetObjectText

@@ -4,10 +4,10 @@ title: INetFwRemoteAdminSettings::put_IpVersion
 author: windows-sdk-content
 description: Specifies the IP version.
 old-location: ics\inetfwremoteadminsettings_ipversion.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 55303549-84d7-42d1-b722-a281acd50648
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetFwRemoteAdminSettings interface [ICS/ICF],IpVersion property, INetFwRemoteAdminSettings.IpVersion, INetFwRemoteAdminSettings.put_IpVersion, INetFwRemoteAdminSettings::IpVersion, INetFwRemoteAdminSettings::get_IpVersion, INetFwRemoteAdminSettings::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwRemoteAdminSettings interface, ics.inetfwremoteadminsettings_ipversion, netfw/INetFwRemoteAdminSettings::IpVersion, netfw/INetFwRemoteAdminSettings::get_IpVersion, netfw/INetFwRemoteAdminSettings::put_IpVersion, put_IpVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwRemoteAdminSettings.put_IpVersion
-: 
 ---
 
 # INetFwRemoteAdminSettings::put_IpVersion

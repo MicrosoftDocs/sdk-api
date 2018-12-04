@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_CONTROL
 author: windows-sdk-content
 description: The CertStoreProvControl callback function supports the CertControlStore API. All of the API's parameters are passed straight through to the callback. For details, see CertControlStore.
 old-location: security\certstoreprovcontrol.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 0725d562-d04c-4fde-97f4-a294290266ee
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertStoreProvControl, CertStoreProvControl callback function [Security], PFN_CERT_STORE_PROV_CONTROL, PFN_CERT_STORE_PROV_CONTROL callback, _crypto2_certstoreprovcontrol, security.certstoreprovcontrol, wincrypt/CertStoreProvControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

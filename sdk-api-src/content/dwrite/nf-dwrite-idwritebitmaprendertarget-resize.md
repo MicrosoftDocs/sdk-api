@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteBitmapRenderTarget_Resize.htm
 tech.root: DirectWrite
 ms.assetid: 5686be35-bbc9-4d3a-a8a4-0277da7633b3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteBitmapRenderTarget interface [Direct Write],Resize method, IDWriteBitmapRenderTarget.Resize, IDWriteBitmapRenderTarget::Resize, Resize, Resize method [Direct Write], Resize method [Direct Write],IDWriteBitmapRenderTarget interface, directwrite.IDWriteBitmapRenderTarget_Resize, dwrite/IDWriteBitmapRenderTarget::Resize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteBitmapRenderTarget.Resize
-: 
 ---
 
 # IDWriteBitmapRenderTarget::Resize

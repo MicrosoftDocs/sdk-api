@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_get_User.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_user.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISearchRoot interface [search],get_User method, ISearchRoot.get_User, ISearchRoot::get_User, _search_ISearchRoot_get_User, get_User, get_User method [search], get_User method [search],ISearchRoot interface, search._search_ISearchRoot_get_User, searchapi/ISearchRoot::get_User
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- searchapi.h
-: 
-- ISearchRoot.get_User
-: 
 ---
 
 # ISearchRoot::get_User

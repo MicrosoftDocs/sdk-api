@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpointcontrol_reset.htm
 tech.root: termserv
 ms.assetid: f21a245c-b47b-425d-8054-330e265f16f1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Reset method, IAudioEndpointControl.Reset, IAudioEndpointControl::Reset, Reset, Reset method [Remote Desktop Services], Reset method [Remote Desktop Services],IAudioEndpointControl interface, audioengineendpoint/IAudioEndpointControl::Reset, termserv.iaudioendpointcontrol_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- audioengineendpoint.h
-: 
-- IAudioEndpointControl.Reset
-: 
 ---
 
 # IAudioEndpointControl::Reset

@@ -4,10 +4,10 @@ title: DPA_DeleteAllPtrs function
 author: windows-sdk-content
 description: Removes all items from a dynamic pointer array (DPA) and shrinks the DPA accordingly.
 old-location: controls\DPA_DeleteAllPtrs.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteallptrs.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DPA_DeleteAllPtrs, DPA_DeleteAllPtrs function [Windows Controls], _win32_DPA_DeleteAllPtrs, _win32_DPA_DeleteAllPtrs_cpp, controls.DPA_DeleteAllPtrs, controls._win32_DPA_DeleteAllPtrs, dpa_dsa/DPA_DeleteAllPtrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DPA_DeleteAllPtrs
-: 
 ---
 
 # DPA_DeleteAllPtrs function

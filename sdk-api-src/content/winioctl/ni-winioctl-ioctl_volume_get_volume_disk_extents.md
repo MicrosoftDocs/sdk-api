@@ -7,7 +7,7 @@ old-location: fs\ioctl_volume_get_volume_disk_extents.htm
 tech.root: fileio
 ms.assetid: 8faff037-d815-48f8-8b59-d63f4ff4a746
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control code [Files], _win32_ioctl_volume_get_volume_disk_extents, base.ioctl_volume_get_volume_disk_extents, fs.ioctl_volume_get_volume_disk_extents, winioctl/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 ms.prod: windows-hardware
 ms.technology: windows-devices

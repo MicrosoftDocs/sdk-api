@@ -4,10 +4,10 @@ title: NdrConformantArrayBufferSize function
 author: windows-sdk-content
 description: The NdrConformantArrayBufferSize function calculates the required buffer size, in bytes, to marshal the conformant array.
 old-location: winprog\ndrcomformantarraybuffersize.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 0f230b58-6f80-40c1-b70d-5ba7fbb5a130
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: NdrComformantArrayBufferSize, NdrConformantArrayBufferSize, NdrConformantArrayBufferSize function [Windows API], rpcndr/NdrConformantArrayBufferSize, winprog.ndrcomformantarraybuffersize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NdrConformantArrayBufferSize
-: 
 ---
 
 # NdrConformantArrayBufferSize function

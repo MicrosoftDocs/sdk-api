@@ -7,7 +7,7 @@ old-location: mf\imf2dbuffer2_copy2dto.htm
 tech.root: medfound
 ms.assetid: 90B0CBA2-2474-4B34-8BB4-6C59C05CDD7E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: Copy2DTo, Copy2DTo method [Media Foundation], Copy2DTo method [Media Foundation],IMF2DBuffer2 interface, IMF2DBuffer2 interface [Media Foundation],Copy2DTo method, IMF2DBuffer2.Copy2DTo, IMF2DBuffer2::Copy2DTo, mf.imf2dbuffer2_copy2dto, mfobjects/IMF2DBuffer2::Copy2DTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfobjects.h
-: 
-- IMF2DBuffer2.Copy2DTo
-: 
 ---
 
 # IMF2DBuffer2::Copy2DTo

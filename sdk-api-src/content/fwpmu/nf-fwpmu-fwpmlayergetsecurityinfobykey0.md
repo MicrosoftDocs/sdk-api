@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmLayerGetSecurityInfoByKey0
-: 
 ---
 
 # FwpmLayerGetSecurityInfoByKey0 function

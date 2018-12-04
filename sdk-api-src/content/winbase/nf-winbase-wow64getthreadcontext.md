@@ -4,10 +4,10 @@ title: Wow64GetThreadContext function
 author: windows-sdk-content
 description: Retrieves the context of the specified WOW64 thread.
 old-location: base\wow64getthreadcontext.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 1bac28e1-3558-43c4-97e4-d8bb9514c38e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Wow64GetThreadContext, Wow64GetThreadContext function, base.wow64getthreadcontext, winbase/Wow64GetThreadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Wow64GetThreadContext
-: 
 ---
 
 # Wow64GetThreadContext function

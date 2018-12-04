@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetPerTcp6ConnectionEStats
-: 
 ---
 
 # GetPerTcp6ConnectionEStats function

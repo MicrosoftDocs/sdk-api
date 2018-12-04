@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_inline_object_metrics.htm
 tech.root: DirectWrite
 ms.assetid: a42d612c-3d16-4c27-a1d8-1cfb9de2f8b1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DWRITE_INLINE_OBJECT_METRICS, DWRITE_INLINE_OBJECT_METRICS structure [Direct Write], directwrite.dwrite_inline_object_metrics, dwrite/DWRITE_INLINE_OBJECT_METRICS
 ms.prod: windows-hardware
 ms.technology: windows-devices

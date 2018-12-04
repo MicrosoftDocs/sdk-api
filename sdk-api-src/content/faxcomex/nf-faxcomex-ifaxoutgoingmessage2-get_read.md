@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxOutgoingMessage2.get_Read
-: 
 ---
 
 # IFaxOutgoingMessage2::get_Read

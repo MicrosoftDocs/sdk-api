@@ -7,7 +7,7 @@ old-location: tablet\idynamicrenderer_cliprectangle.htm
 tech.root: tablet
 ms.assetid: 0d3c6d2e-1675-4335-a283-ea14a818469a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 0d3c6d2e-1675-4335-a283-ea14a818469a, ClipRectangle property [Tablet PC], ClipRectangle property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],ClipRectangle property, IDynamicRenderer.ClipRectangle, IDynamicRenderer.get_ClipRectangle, IDynamicRenderer.put_ClipRectangle, IDynamicRenderer::ClipRectangle, IDynamicRenderer::get_ClipRectangle, IDynamicRenderer::put_ClipRectangle, get_ClipRectangle, rtscom/IDynamicRenderer::ClipRectangle, rtscom/IDynamicRenderer::get_ClipRectangle, rtscom/IDynamicRenderer::put_ClipRectangle, tablet.idynamicrenderer_cliprectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rtscom.h
-: 
-- IDynamicRenderer.get_ClipRectangle
-: 
 ---
 
 # IDynamicRenderer::get_ClipRectangle

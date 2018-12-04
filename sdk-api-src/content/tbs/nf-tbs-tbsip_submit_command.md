@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Tbsip_Submit_Command
-: 
 ---
 
 # Tbsip_Submit_Command function

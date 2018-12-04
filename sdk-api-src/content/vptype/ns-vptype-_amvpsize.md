@@ -7,7 +7,7 @@ old-location: dshow\amvpsize.htm
 tech.root: DirectShow
 ms.assetid: e36163bc-a7ea-421e-b876-2d459ecb11e8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPAMVPSIZE, AMVPSIZE, AMVPSIZE structure [DirectShow], AMVPSIZEStructure, LPAMVPSIZE, LPAMVPSIZE structure pointer [DirectShow], _AMVPSIZE, dshow.amvpsize, vptype/AMVPSIZE, vptype/LPAMVPSIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

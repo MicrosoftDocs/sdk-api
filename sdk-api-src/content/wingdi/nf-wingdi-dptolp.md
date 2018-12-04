@@ -7,7 +7,7 @@ old-location: gdi\dptolp.htm
 tech.root: gdi
 ms.assetid: 0106867c-e8c5-4826-8cba-60c29e1d021a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DPtoLP, DPtoLP function [Windows GDI], _win32_DPtoLP, gdi.dptolp, wingdi/DPtoLP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DPtoLP
-: 
 ---
 
 # DPtoLP function

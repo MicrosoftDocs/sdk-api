@@ -4,10 +4,10 @@ title: IOfflineFilesCache::GetDiskSpaceInformation
 author: windows-sdk-content
 description: Retrieves the amount of disk space used by the Offline Files cache as well as the space limits applied to cache usage.
 old-location: of\iofflinefilescache_getdiskspaceinformation.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 94ea826a-bfc4-4010-a57f-c3a1af985d03
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetDiskSpaceInformation, GetDiskSpaceInformation method [Offline Files], GetDiskSpaceInformation method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetDiskSpaceInformation method, IOfflineFilesCache.GetDiskSpaceInformation, IOfflineFilesCache::GetDiskSpaceInformation, cscobj/IOfflineFilesCache::GetDiskSpaceInformation, of.iofflinefilescache_getdiskspaceinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesCache.GetDiskSpaceInformation
-: 
 ---
 
 # IOfflineFilesCache::GetDiskSpaceInformation
@@ -105,7 +97,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-The cache space limits may be adjusted by an administrator using <a href="https://msdn.microsoft.com/en-us/library/Bb530501(v=VS.85).aspx">IOfflineFilesCache::SetDiskSpaceLimits</a>.
+The cache space limits may be adjusted by an administrator using <a href="https://msdn.microsoft.com/cdbfd5af-000a-4724-8a44-5641b2f75896">IOfflineFilesCache::SetDiskSpaceLimits</a>.
 
 
 
@@ -115,7 +107,7 @@ The cache space limits may be adjusted by an administrator using <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
  
 
  

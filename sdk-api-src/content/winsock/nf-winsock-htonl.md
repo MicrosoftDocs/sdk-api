@@ -4,10 +4,10 @@ title: htonl function
 author: windows-sdk-content
 description: The htonl function converts a u_long from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htonl_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: e3a18c5e-7efb-43d9-9abc-9d573bbb1923
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "_win32_htonl_2, htonl, htonl function [Winsock], winsock.htonl_2, winsock/htonl"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- htonl
-: 
 ---
 
 # htonl function

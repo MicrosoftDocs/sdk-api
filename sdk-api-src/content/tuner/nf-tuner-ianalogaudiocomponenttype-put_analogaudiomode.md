@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IAnalogAudioComponentType.put_AnalogAudioMode
-: 
 ---
 
 # IAnalogAudioComponentType::put_AnalogAudioMode

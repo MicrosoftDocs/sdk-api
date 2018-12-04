@@ -7,7 +7,7 @@ old-location: winsync\isynccallback.htm
 tech.root: winsync
 ms.assetid: f6c96e02-e9db-402c-8197-580f688b068f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISyncCallback, ISyncCallback interface [Windows Sync], ISyncCallback interface [Windows Sync],described, winsync.isynccallback, winsync/ISyncCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

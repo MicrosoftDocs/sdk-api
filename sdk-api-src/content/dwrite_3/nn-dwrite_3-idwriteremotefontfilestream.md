@@ -7,7 +7,7 @@ old-location: directwrite\idwriteremotefontfilestream.htm
 tech.root: DirectWrite
 ms.assetid: 2CC73CE0-162A-4808-ACB6-A9599FD4D09F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteRemoteFontFileStream, IDWriteRemoteFontFileStream interface [Direct Write], IDWriteRemoteFontFileStream interface [Direct Write],described, directwrite.idwriteremotefontfilestream, dwrite_3/IDWriteRemoteFontFileStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

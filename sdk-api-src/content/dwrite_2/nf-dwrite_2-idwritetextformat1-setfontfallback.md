@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextformat1_setfontfallback.htm
 tech.root: DirectWrite
 ms.assetid: 56B577C0-2B18-409E-ADEC-0B93355586A0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteTextFormat1 interface [Direct Write],SetFontFallback method, IDWriteTextFormat1.SetFontFallback, IDWriteTextFormat1::SetFontFallback, SetFontFallback, SetFontFallback method [Direct Write], SetFontFallback method [Direct Write],IDWriteTextFormat1 interface, directwrite.idwritetextformat1_setfontfallback, dwrite_2/IDWriteTextFormat1::SetFontFallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_2.h
-: 
-- IDWriteTextFormat1.SetFontFallback
-: 
 ---
 
 # IDWriteTextFormat1::SetFontFallback

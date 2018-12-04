@@ -7,7 +7,7 @@ old-location: wmformat\iwminputmediaprops.htm
 tech.root: wmformat
 ms.assetid: d901ac66-d4b3-4256-bd7b-53cccb3de644
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMInputMediaProps, IWMInputMediaProps interface [windows Media Format], IWMInputMediaProps interface [windows Media Format],described, IWMInputMediaPropsInterface, wmformat.iwminputmediaprops, wmsdkidl/IWMInputMediaProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

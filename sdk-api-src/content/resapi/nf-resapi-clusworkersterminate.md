@@ -4,10 +4,10 @@ title: ClusWorkersTerminate function
 author: windows-sdk-content
 description: Waits for multiple worker threads to terminate up to the specified timeout.
 old-location: mscs\clusworkersterminate.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: af9bcdcf-ca92-438b-94f2-f0e7529952fb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ClusWorkersTerminate, ClusWorkersTerminate function [Failover Cluster], mscs.clusworkersterminate, resapi/ClusWorkersTerminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusWorkersTerminate
-: 
 ---
 
 # ClusWorkersTerminate function

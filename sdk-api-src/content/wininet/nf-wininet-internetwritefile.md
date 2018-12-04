@@ -4,10 +4,10 @@ title: InternetWriteFile function
 author: windows-sdk-content
 description: Writes data to an open Internet file.
 old-location: wininet\internetwritefile.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 3bf8d4d8-9193-4aed-acf9-8d7207b332a5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: InternetWriteFile, InternetWriteFile function [WinINet], _inet_internetwritefile_function, wininet.internetwritefile, wininet/InternetWriteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetWriteFile
-: 
 ---
 
 # InternetWriteFile function

@@ -4,10 +4,10 @@ title: IScheduledWorkItem::EditWorkItem
 author: windows-sdk-content
 description: Displays the Task, Schedule, and settings property pages for the work item, allowing a user set the properties on those pages.
 old-location: taskschd\ischeduledworkitem_editworkitem.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 3b0b335a-4386-4726-8758-ef5944cb5dfe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EditWorkItem, EditWorkItem method [Task Scheduler], EditWorkItem method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],EditWorkItem method, IScheduledWorkItem.EditWorkItem, IScheduledWorkItem::EditWorkItem, _msb_ischeduledworkitem_editworkitem, mstask/IScheduledWorkItem::EditWorkItem, taskschd.ischeduledworkitem_editworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.EditWorkItem
-: 
 ---
 
 # IScheduledWorkItem::EditWorkItem
@@ -60,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Displays the Task, Schedule, and settings property pages for the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>, allowing a user set the properties on those pages.
+Displays the Task, Schedule, and settings property pages for the <a href="w.htm">work item</a>, allowing a user set the properties on those pages.
 
 
 ## -parameters

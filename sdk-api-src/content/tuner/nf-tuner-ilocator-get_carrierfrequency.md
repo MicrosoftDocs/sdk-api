@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- ILocator.get_CarrierFrequency
-: 
 ---
 
 # ILocator::get_CarrierFrequency

@@ -4,10 +4,10 @@ title: IRequiredExtensions::GetFirstExtension
 author: windows-sdk-content
 description: Enables the snap-in to specify the first extension snap-in its list of required extension snap-ins.
 old-location: mmc\irequiredextensions_getfirstextension.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 1c84d6ab-c855-4b89-8e36-0794e3ffdb85
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetFirstExtension, GetFirstExtension method [MMC], GetFirstExtension method [MMC],IRequiredExtensions interface, IRequiredExtensions interface [MMC],GetFirstExtension method, IRequiredExtensions.GetFirstExtension, IRequiredExtensions::GetFirstExtension, _slate_irequiredextensions_getfirstextension, mmc.irequiredextensions_getfirstextension, mmc/IRequiredExtensions::GetFirstExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IRequiredExtensions.GetFirstExtension
-: 
 ---
 
 # IRequiredExtensions::GetFirstExtension

@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcom.h
-: 
-- IFaxServer.put_ServerMapiProfile
-: 
 ---
 
 # IFaxServer::put_ServerMapiProfile

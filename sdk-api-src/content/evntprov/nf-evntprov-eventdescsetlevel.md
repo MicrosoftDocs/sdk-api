@@ -4,10 +4,10 @@ title: EventDescSetLevel function
 author: windows-sdk-content
 description: Sets the Level member of the event descriptor.
 old-location: etw\eventdescsetlevel_func.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: a4fe3b0e-6ca5-401c-a669-752e2955cc52
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EventDescSetLevel, EventDescSetLevel function [ETW], base.eventdescsetlevel_func, etw.eventdescsetlevel_func, evntprov/EventDescSetLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EventDescSetLevel
-: 
 ---
 
 # EventDescSetLevel function

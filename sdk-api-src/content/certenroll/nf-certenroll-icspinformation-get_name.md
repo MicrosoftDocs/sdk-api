@@ -4,10 +4,10 @@ title: ICspInformation::get_Name
 author: windows-sdk-content
 description: Retrieves the name.
 old-location: security\icspinformation_name_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 86f6993d-c96e-4753-9670-fdcc30e8c019
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICspInformation interface [Security],Name property, ICspInformation.Name, ICspInformation.get_Name, ICspInformation::Name, ICspInformation::get_Name, Name property [Security], Name property [Security],ICspInformation interface, certenroll/ICspInformation::Name, certenroll/ICspInformation::get_Name, get_Name, security.icspinformation_name_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICspInformation.get_Name
-: 
 ---
 
 # ICspInformation::get_Name
@@ -95,7 +87,7 @@ The following list shows the names of some of the Microsoft providers installed 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
  
 
  

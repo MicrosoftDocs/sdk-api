@@ -4,10 +4,10 @@ title: IADsClass::Qualifiers
 author: windows-sdk-content
 description: Returns a collection of ADSI objects that describe additional qualifiers for this schema class.
 old-location: adsi\iadsclass_qualifiers.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: d05e4278-2dfb-4832-a97d-eb35253ae535
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsClass interface [ADSI],Qualifiers method, IADsClass.Qualifiers, IADsClass::Qualifiers, Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI],IADsClass interface, _ds_iadsclass_qualifiers, adsi.iadsclass__qualifiers, adsi.iadsclass_qualifiers, iads/IADsClass::Qualifiers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsClass.Qualifiers
-: 
 ---
 
 # IADsClass::Qualifiers

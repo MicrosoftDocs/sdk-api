@@ -7,7 +7,7 @@ old-location: properties\VariantGetInt32Elem.htm
 tech.root: properties
 ms.assetid: de67face-9284-4e0a-8ea7-d4b6e7c037fc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VariantGetInt32Elem, VariantGetInt32Elem function [Windows Properties], _shell_VariantGetInt32Elem, properties.VariantGetInt32Elem, propvarutil/VariantGetInt32Elem, shell.VariantGetInt32Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantGetInt32Elem
-: 
 ---
 
 # VariantGetInt32Elem function

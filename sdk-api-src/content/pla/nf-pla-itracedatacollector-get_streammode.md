@@ -4,10 +4,10 @@ title: ITraceDataCollector::get_StreamMode
 author: windows-sdk-content
 description: Retrieves or sets the logging mode of the trace session.
 old-location: pla\itracedatacollector_streammode.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: eeca98e2-8da1-44e5-8d43-00b52f51bcae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITraceDataCollector interface [PLA],StreamMode property, ITraceDataCollector.StreamMode, ITraceDataCollector.get_StreamMode, ITraceDataCollector::StreamMode, ITraceDataCollector::get_StreamMode, ITraceDataCollector::put_StreamMode, StreamMode property [PLA], StreamMode property [PLA],ITraceDataCollector interface, base.itracedatacollector_streammode, get_StreamMode, pla.itracedatacollector_streammode, pla/ITraceDataCollector::StreamMode, pla/ITraceDataCollector::get_StreamMode, pla/ITraceDataCollector::put_StreamMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- ITraceDataCollector.get_StreamMode
-: 
 ---
 
 # ITraceDataCollector::get_StreamMode

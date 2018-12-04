@@ -4,10 +4,10 @@ title: SCardIntroduceCardTypeA function
 author: windows-sdk-content
 description: Introduces a smart card to the smart card subsystem (for the active user) by adding it to the smart card database.
 old-location: security\scardintroducecardtype.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 1ac88466-1277-44d7-a471-b31d6bfce99e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SCardIntroduceCardType, SCardIntroduceCardType function [Security], SCardIntroduceCardTypeA, SCardIntroduceCardTypeW, _smart_scardintroducecardtype, security.scardintroducecardtype, winscard/SCardIntroduceCardType, winscard/SCardIntroduceCardTypeA, winscard/SCardIntroduceCardTypeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SCardIntroduceCardTypeA
-: 
 ---
 
 # SCardIntroduceCardTypeA function
@@ -138,7 +132,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

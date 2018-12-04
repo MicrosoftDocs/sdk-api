@@ -4,10 +4,10 @@ title: IRdcLibrary::GetRDCVersion
 author: windows-sdk-content
 description: Retrieves the version of the installed RDC runtime and the oldest version of the RDC interfaces supported by the installed runtime.
 old-location: rdc\irdclibrary_getrdcversion.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 3eef00e8-62d9-49bc-8340-fb56f5a4573d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetRDCVersion, GetRDCVersion method [Remote Differential Compression], GetRDCVersion method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],GetRDCVersion method, IRdcLibrary.GetRDCVersion, IRdcLibrary::GetRDCVersion, fs.irdclibrary_getrdcversion, msrdc/IRdcLibrary::GetRDCVersion, rdc.irdclibrary_getrdcversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- IRdcLibrary.GetRDCVersion
-: 
 ---
 
 # IRdcLibrary::GetRDCVersion

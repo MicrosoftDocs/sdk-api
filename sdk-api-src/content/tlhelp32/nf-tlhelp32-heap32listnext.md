@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Heap32ListNext
-: 
 ---
 
 # Heap32ListNext function

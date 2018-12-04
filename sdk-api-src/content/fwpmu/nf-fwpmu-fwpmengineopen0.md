@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmEngineOpen0
-: 
 ---
 
 # FwpmEngineOpen0 function

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_serialized_raytracing_acceleration_structure_head
 tech.root: direct3d12
 ms.assetid: 229AF9C0-DB24-4C11-A87D-15746B1544E7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER structure, PD3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, PD3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER structure pointer, d3d12/D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, d3d12/PD3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, direct3d12.d3d12_serialized_raytracing_acceleration_structure_header
 ms.prod: windows-hardware
 ms.technology: windows-devices

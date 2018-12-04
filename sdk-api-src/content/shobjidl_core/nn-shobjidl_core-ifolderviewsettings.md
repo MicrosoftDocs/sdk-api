@@ -7,7 +7,7 @@ old-location: shell\IFolderViewSettings.htm
 tech.root: shell
 ms.assetid: 8cb3da64-8f7a-46a6-b00c-e1da1d158b5a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IFolderViewSettings, IFolderViewSettings interface [Windows Shell], IFolderViewSettings interface [Windows Shell],described, _shell_IFolderViewSettings, shell.IFolderViewSettings, shobjidl_core/IFolderViewSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

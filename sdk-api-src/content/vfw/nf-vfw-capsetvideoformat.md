@@ -7,7 +7,7 @@ old-location: multimedia\capsetvideoformat.htm
 tech.root: Multimedia
 ms.assetid: 3c4bee26-d578-463b-8d97-6cdc78957ce0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_capSetVideoFormat, capSetVideoFormat, capSetVideoFormat macro [Windows Multimedia], multimedia.capsetvideoformat, vfw/capSetVideoFormat"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- capSetVideoFormat
-: 
 ---
 
 # capSetVideoFormat macro

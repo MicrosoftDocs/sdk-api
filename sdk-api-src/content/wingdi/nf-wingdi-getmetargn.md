@@ -7,7 +7,7 @@ old-location: gdi\getmetargn.htm
 tech.root: gdi
 ms.assetid: 9c2741cf-30e4-4100-bae9-ad99a7ae37f1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetMetaRgn, GetMetaRgn function [Windows GDI], _win32_GetMetaRgn, gdi.getmetargn, wingdi/GetMetaRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetMetaRgn
-: 
 ---
 
 # GetMetaRgn function

@@ -4,10 +4,10 @@ title: IUPnPRegistrar::RegisterDeviceProvider
 author: windows-sdk-content
 description: The RegisterDeviceProvider method registers a device provider with the device host. The device provider is not published on the network. Instead, it creates devices dynamically and registers them using RegisterRunningDevice.
 old-location: upnp\iupnpregistrar_registerdeviceprovider.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 40f91b29-b535-46e7-834f-97f1a46084f7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],RegisterDeviceProvider method, IUPnPRegistrar.RegisterDeviceProvider, IUPnPRegistrar::RegisterDeviceProvider, RegisterDeviceProvider, RegisterDeviceProvider method [UPnP APIs], RegisterDeviceProvider method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_registerdeviceprovider, upnp.iupnpregistrar_registerdeviceprovider, upnphost/IUPnPRegistrar::RegisterDeviceProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnphost.h
-: 
-- IUPnPRegistrar.RegisterDeviceProvider
-: 
 ---
 
 # IUPnPRegistrar::RegisterDeviceProvider

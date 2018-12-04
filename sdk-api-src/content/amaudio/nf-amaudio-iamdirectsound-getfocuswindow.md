@@ -7,7 +7,7 @@ old-location: dshow\iamdirectsound_getfocuswindow.htm
 tech.root: DirectShow
 ms.assetid: e103abb3-01fc-452f-a151-0f2d24859fba
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetFocusWindow, GetFocusWindow method [DirectShow], GetFocusWindow method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetFocusWindow method, IAMDirectSound.GetFocusWindow, IAMDirectSound::GetFocusWindow, IAMDirectSoundGetWindowFocus, amaudio/IAMDirectSound::GetFocusWindow, dshow.iamdirectsound_getfocuswindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- amaudio.h
-: 
-- IAMDirectSound.GetFocusWindow
-: 
 ---
 
 # IAMDirectSound::GetFocusWindow

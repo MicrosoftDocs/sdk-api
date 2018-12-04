@@ -4,10 +4,10 @@ title: MsiGetFeatureValidStatesW function
 author: windows-sdk-content
 description: The MsiGetFeatureValidStates function returns a valid installation state.
 old-location: setup\msigetfeaturevalidstates.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: c4c3f484-6854-4019-9dc0-e4c99162c339
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 16, 2, 32, 4, 8, MsiGetFeatureValidStates, MsiGetFeatureValidStates function, MsiGetFeatureValidStatesA, MsiGetFeatureValidStatesW, _msi_msigetfeaturevalidstates, msiquery/MsiGetFeatureValidStates, msiquery/MsiGetFeatureValidStatesA, msiquery/MsiGetFeatureValidStatesW, setup.msigetfeaturevalidstates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiGetFeatureValidStatesW
-: 
 ---
 
 # MsiGetFeatureValidStatesW function
@@ -194,7 +188,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireprogresscb_enditemdelete.htm
 tech.root: acquisition
 ms.assetid: 2962b170-941f-4cf1-9969-4066ee0c57d9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: EndItemDelete, EndItemDelete method [Picture Acquisition], EndItemDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndItemDelete method, IPhotoAcquireProgressCB.EndItemDelete, IPhotoAcquireProgressCB::EndItemDelete, IPhotoAcquireProgressCBEndItemDelete, photoacquire/IPhotoAcquireProgressCB::EndItemDelete, picacq.iphotoacquireprogresscb_enditemdelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- photoacquire.h
-: 
-- IPhotoAcquireProgressCB.EndItemDelete
-: 
 ---
 
 # IPhotoAcquireProgressCB::EndItemDelete

@@ -4,10 +4,10 @@ title: IGPMWMIFilterCollection::get_Count
 author: windows-sdk-content
 description: Returns the number of WMI filters in the collection.
 old-location: gpmc\igpmwmifiltercollection_get_count.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 54e5de5e-1bc8-46f3-b868-fa7064f07dc6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMWMIFilterCollection class, Count property [GPMC],IGPMWMIFilterCollection interface, GPMWMIFilterCollection class [GPMC],Count property, IGPMWMIFilterCollection interface [GPMC],Count property, IGPMWMIFilterCollection.Count, IGPMWMIFilterCollection.get_Count, IGPMWMIFilterCollection::Count, IGPMWMIFilterCollection::get_Count, _win32_igpmwmifiltercollection_get_count, get_Count, gpmc.igpmwmifiltercollection_get_count, gpmgmt/IGPMWMIFilterCollection::Count, gpmgmt/IGPMWMIFilterCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMWMIFilterCollection.get_Count
-: 
 ---
 
 # IGPMWMIFilterCollection::get_Count

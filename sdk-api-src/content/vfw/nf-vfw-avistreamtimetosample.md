@@ -7,7 +7,7 @@ old-location: multimedia\avistreamtimetosample.htm
 tech.root: Multimedia
 ms.assetid: 2be5ad91-2371-4564-a679-c593f497a785
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: AVIStreamTimeToSample, AVIStreamTimeToSample function [Windows Multimedia], _win32_AVIStreamTimeToSample, multimedia.avistreamtimetosample, vfw/AVIStreamTimeToSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AVIStreamTimeToSample
-: 
 ---
 
 # AVIStreamTimeToSample function

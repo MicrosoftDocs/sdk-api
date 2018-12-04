@@ -7,7 +7,7 @@ old-location: termserv\itspubplugin_pluginname.htm
 tech.root: termserv
 ms.assetid: c1ea46b6-fac6-4140-a278-cb04ee9af739
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: ItsPubPlugin interface [Remote Desktop Services],pluginName property, ItsPubPlugin.get_pluginName, ItsPubPlugin.pluginName, ItsPubPlugin::get_pluginName, ItsPubPlugin::pluginName, get_pluginName, pluginName property [Remote Desktop Services], pluginName property [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_pluginname, tspubplugincom/ItsPubPlugin::get_pluginName, tspubplugincom/ItsPubPlugin::pluginName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tspubplugincom.h
-: 
-- ItsPubPlugin.get_pluginName
-: 
 ---
 
 # ItsPubPlugin::get_pluginName

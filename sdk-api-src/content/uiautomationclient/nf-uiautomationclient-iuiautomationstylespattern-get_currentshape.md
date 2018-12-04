@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentShape.htm
 tech.root: WinAuto
 ms.assetid: 597609F0-D2F1-447D-80EC-426066581380
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CurrentShape property [Windows Accessibility], CurrentShape property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentShape property, IUIAutomationStylesPattern.CurrentShape, IUIAutomationStylesPattern.get_CurrentShape, IUIAutomationStylesPattern::CurrentShape, IUIAutomationStylesPattern::get_CurrentShape, get_CurrentShape, uiautomationclient/IUIAutomationStylesPattern::CurrentShape, uiautomationclient/IUIAutomationStylesPattern::get_CurrentShape, winauto.uiauto_IUIAutomationStylesPattern_CurrentShape
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationStylesPattern.get_CurrentShape
-: 
 ---
 
 # IUIAutomationStylesPattern::get_CurrentShape

@@ -7,7 +7,7 @@ old-location: tsf\itfcontextkeyeventsink_onkeyup.htm
 tech.root: TSF
 ms.assetid: ed0c6e14-d216-425c-a194-08e8ea85bb92
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfContextKeyEventSink interface [Text Services Framework],OnKeyUp method, ITfContextKeyEventSink.OnKeyUp, ITfContextKeyEventSink::OnKeyUp, OnKeyUp, OnKeyUp method [Text Services Framework], OnKeyUp method [Text Services Framework],ITfContextKeyEventSink interface, _tsf_itfcontextkeyeventsink_onkeyup_ref, msctf/ITfContextKeyEventSink::OnKeyUp, tsf.itfcontextkeyeventsink_onkeyup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfContextKeyEventSink.OnKeyUp
-: 
 ---
 
 # ITfContextKeyEventSink::OnKeyUp
@@ -67,12 +59,12 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param wParam [in]
 
-Specifies the virtual-key code of the key. For more information about this parameter, see the wPa<i></i>ram parameter in <a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_KEYUP</a>.
+Specifies the virtual-key code of the key. For more information about this parameter, see the wPa<i></i>ram parameter in <a href="_win32_wm_keyup">WM_KEYUP</a>.
 
 
 ### -param lParam [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_KEYUP</a>.
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="_win32_wm_keyup">WM_KEYUP</a>.
 
 
 ### -param pfEaten [out]
@@ -117,7 +109,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_KEYUP</a>
+<a href="_win32_wm_keyup">WM_KEYUP</a>
  
 
  

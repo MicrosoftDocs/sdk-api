@@ -4,10 +4,10 @@ title: WSAUnadvertiseProvider function
 author: windows-sdk-content
 description: Makes a specific namespace version-2 provider no longer available for clients.
 old-location: winsock\wsaunadvertiseprovider.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 5975b496-53a7-4f8a-8efc-27ef447596c2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: WSAUnadvertiseProvider, WSAUnadvertiseProvider function [Winsock], winsock.wsaunadvertiseprovider, ws2spi/WSAUnadvertiseProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSAUnadvertiseProvider
-: 
 ---
 
 # WSAUnadvertiseProvider function
@@ -85,7 +79,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">

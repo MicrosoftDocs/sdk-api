@@ -7,7 +7,7 @@ old-location: com\discardcache.htm
 tech.root: com
 ms.assetid: 879caecd-8231-449b-8329-e627c85030bf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: DISCARDCACHE, DISCARDCACHE enumeration [COM], DISCARDCACHE_NOSAVE, DISCARDCACHE_SAVEIFDIRTY, _ole_DISCARDCACHE, com.discardcache, oleidl/DISCARDCACHE, oleidl/DISCARDCACHE_NOSAVE, oleidl/DISCARDCACHE_SAVEIFDIRTY, tagDISCARDCACHE
 ms.prod: windows-hardware
 ms.technology: windows-devices

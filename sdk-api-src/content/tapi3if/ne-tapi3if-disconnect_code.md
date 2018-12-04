@@ -4,10 +4,10 @@ title: DISCONNECT_CODE
 author: windows-sdk-content
 description: The DISCONNECT_CODE enum is used by the ITBasicCallControl::Disconnect method.
 old-location: tapi3\disconnect_code.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 90e7b63f-3e19-422d-b45b-43408de9c6cc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: DC_NOANSWER, DC_NORMAL, DC_REJECTED, DISCONNECT_CODE, DISCONNECT_CODE enumeration [TAPI 2.2], _tapi3_disconnect_code, tapi3.disconnect_code, tapi3if/DC_NOANSWER, tapi3if/DC_NORMAL, tapi3if/DC_REJECTED, tapi3if/DISCONNECT_CODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

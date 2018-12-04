@@ -4,10 +4,10 @@ title: "_KERB_QUERY_TKT_CACHE_RESPONSE"
 author: windows-sdk-content
 description: Contains the results of querying the ticket cache.
 old-location: security\kerb_query_tkt_cache_response.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 2101c1de-f304-4d44-899f-f9f03cd50934
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PKERB_QUERY_TKT_CACHE_RESPONSE, KERB_QUERY_TKT_CACHE_RESPONSE, KERB_QUERY_TKT_CACHE_RESPONSE structure [Security], PKERB_QUERY_TKT_CACHE_RESPONSE, PKERB_QUERY_TKT_CACHE_RESPONSE structure pointer [Security], _KERB_QUERY_TKT_CACHE_RESPONSE, _lsa_kerb_query_tkt_cache_response, ntsecapi/KERB_QUERY_TKT_CACHE_RESPONSE, ntsecapi/PKERB_QUERY_TKT_CACHE_RESPONSE, security.kerb_query_tkt_cache_response"
 ms.prod: windows-hardware
 ms.technology: windows-devices

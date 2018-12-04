@@ -4,10 +4,10 @@ title: ISimilarityTableDumpState
 author: windows-sdk-content
 description: Provides a method for retrieving information from the similarity traits list that was returned by the ISimilarityTraitsTable::BeginDump method.
 old-location: rdc\isimilaritytabledumpstate.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: a56433b5-191f-49fe-83fb-7057e4c30bbd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISimilarityTableDumpState, ISimilarityTableDumpState interface [Remote Differential Compression], ISimilarityTableDumpState interface [Remote Differential Compression],described, fs.isimilaritytabledumpstate, msrdc/ISimilarityTableDumpState, rdc.isimilaritytabledumpstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

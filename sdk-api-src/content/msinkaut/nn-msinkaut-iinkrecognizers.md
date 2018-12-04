@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizers.htm
 tech.root: tablet
 ms.assetid: 9BCCCFB1-567A-4CE7-9122-299A5AF52B08
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IInkRecognizers, IInkRecognizers interface [Tablet PC], IInkRecognizers interface [Tablet PC],described, msinkaut/IInkRecognizers, tablet.iinkrecognizers
 ms.prod: windows-hardware
 ms.technology: windows-devices

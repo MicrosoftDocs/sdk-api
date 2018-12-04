@@ -4,10 +4,10 @@ title: ClusRemoveClusterHealthFault function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusremoveclusterhealthfault.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: ff20511b-beb0-4fa4-a8f3-cc2772cdc503
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ClusRemoveClusterHealthFault, ClusRemoveClusterHealthFault function [Failover Cluster], mscs.clusremoveclusterhealthfault, resapi/ClusRemoveClusterHealthFault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,12 +41,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusRemoveClusterHealthFault
-: 
 ---
 
 # ClusRemoveClusterHealthFault function

@@ -7,7 +7,7 @@ old-location: vhd\take_snapshot_vhdset_parameters.htm
 tech.root: VStor
 ms.assetid: 39D7287B-FA5E-4584-8E0A-69A857736D02
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PTAKE_SNAPSHOT_VHDSET_PARAMETERS, PTAKE_SNAPSHOT_VHDSET_PARAMETERS, PTAKE_SNAPSHOT_VHDSET_PARAMETERS structure pointer [VHD], TAKE_SNAPSHOT_VHDSET_PARAMETERS, TAKE_SNAPSHOT_VHDSET_PARAMETERS structure [VHD], _TAKE_SNAPSHOT_VHDSET_PARAMETERS, vdssys/PTAKE_SNAPSHOT_VHDSET_PARAMETERS, vdssys/TAKE_SNAPSHOT_VHDSET_PARAMETERS, vhd.take_snapshot_vhdset_parameters, virtdisk/PTAKE_SNAPSHOT_VHDSET_PARAMETERS, virtdisk/TAKE_SNAPSHOT_VHDSET_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

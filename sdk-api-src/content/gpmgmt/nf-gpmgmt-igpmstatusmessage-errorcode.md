@@ -4,10 +4,10 @@ title: IGPMStatusMessage::ErrorCode
 author: windows-sdk-content
 description: Returns the error that occurred during the GPMC operation.
 old-location: gpmc\igpmstatusmessage_errorcode.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 87a50523-1acb-4b58-b867-ec19b0cf960a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ErrorCode, ErrorCode method [GPMC], ErrorCode method [GPMC],GPMStatusMessage class, ErrorCode method [GPMC],IGPMStatusMessage interface, GPMStatusMessage class [GPMC],ErrorCode method, IGPMStatusMessage interface [GPMC],ErrorCode method, IGPMStatusMessage.ErrorCode, IGPMStatusMessage::ErrorCode, _win32_igpmstatusmessage_errorcode, gpmc.igpmstatusmessage_errorcode, gpmgmt/IGPMStatusMessage::ErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMStatusMessage.ErrorCode
-: 
 ---
 
 # IGPMStatusMessage::ErrorCode

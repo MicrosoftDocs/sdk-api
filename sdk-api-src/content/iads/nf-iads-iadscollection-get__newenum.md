@@ -4,10 +4,10 @@ title: IADsCollection::get__NewEnum
 author: windows-sdk-content
 description: The IADsCollection::get__NewEnum method gets a dependent enumerator object that implements IEnumVARIANT for this ADSI collection object. Be aware that there are two underscore characters in the function name (get__NewEnum).
 old-location: adsi\iadscollection_get__newenum.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: db2630d0-26be-4cf1-811e-fc1d2007dda5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsCollection interface [ADSI],get__NewEnum method, IADsCollection.get__NewEnum, IADsCollection::get__NewEnum, _ds_iadscollection_get__newenum, adsi.iadscollection__get____newenum, adsi.iadscollection_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsCollection interface, iads/IADsCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsCollection.get__NewEnum
-: 
 ---
 
 # IADsCollection::get__NewEnum
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IADsCollection::get__NewEnum</b> method gets a dependent enumerator object that implements  <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> for this ADSI collection object. Be aware that there are two underscore characters in the function name (<b>get__NewEnum</b>).
+The <b>IADsCollection::get__NewEnum</b> method gets a dependent enumerator object that implements  <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> for this ADSI collection object. Be aware that there are two underscore characters in the function name (<b>get__NewEnum</b>).
 
 
 ## -parameters
@@ -68,7 +60,7 @@ The <b>IADsCollection::get__NewEnum</b> method gets a dependent enumerator objec
 
 ### -param ppEnumerator [out]
 
-Pointer to a pointer to the  <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on the enumerator object for this collection.
+Pointer to a pointer to the  <a href="_com_iunknown">IUnknown</a> interface on the enumerator object for this collection.
 
 
 ## -returns
@@ -224,11 +216,11 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

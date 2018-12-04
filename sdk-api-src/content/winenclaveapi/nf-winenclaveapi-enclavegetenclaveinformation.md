@@ -4,10 +4,10 @@ title: EnclaveGetEnclaveInformation function
 author: windows-sdk-content
 description: Gets information about the currently executing enclave.
 old-location: base\enclavegetenclaveinformation.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 26349C3C-4B73-430C-B002-ED262DB0304F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EnclaveGetEnclaveInformation, EnclaveGetEnclaveInformation function, base.enclavegetenclaveinformation, winenclaveapi/EnclaveGetEnclaveInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EnclaveGetEnclaveInformation
-: 
 ---
 
 # EnclaveGetEnclaveInformation function

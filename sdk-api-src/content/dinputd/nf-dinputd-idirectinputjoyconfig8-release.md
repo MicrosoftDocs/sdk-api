@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dinputd.h
-: 
-- IDirectInputJoyConfig8.Release
-: 
 ---
 
 # IDirectInputJoyConfig8::Release

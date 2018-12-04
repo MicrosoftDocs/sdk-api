@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_ads_0000_0000_0016"
 author: windows-sdk-content
 description: Used with the ADSVALUE structure to contain a distinguished name attribute value that also contains string data.
 old-location: adsi\ads_dn_with_string.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 715354fe-1e62-4fbd-a5ba-0d7a56b83390
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: "*PADS_DN_WITH_STRING, ADS_DN_WITH_STRING, ADS_DN_WITH_STRING structure [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0016, _ds_ads_dn_with_string, adsi.ads__dn__with__string, adsi.ads_dn_with_string, iads/ADS_DN_WITH_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ When extending the active directory schema to add <b>ADS_DN_WITH_STRING</b>, you
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684430(v=VS.85).aspx">Object(DN-String)</a>
+<a href="ad.win2k_s_object_dn_string">Object(DN-String)</a>
  
 
  

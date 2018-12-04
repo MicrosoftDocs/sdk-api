@@ -7,7 +7,7 @@ old-location: mf\mfcreateeventqueue.htm
 tech.root: medfound
 ms.assetid: 214cea99-37cf-4571-aa00-7b3e220a6b84
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 214cea99-37cf-4571-aa00-7b3e220a6b84, MFCreateEventQueue, MFCreateEventQueue function [Media Foundation], mf.mfcreateeventqueue, mfapi/MFCreateEventQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateEventQueue
-: 
 ---
 
 # MFCreateEventQueue function

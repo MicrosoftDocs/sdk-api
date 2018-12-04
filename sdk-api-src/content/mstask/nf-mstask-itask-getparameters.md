@@ -4,10 +4,10 @@ title: ITask::GetParameters
 author: windows-sdk-content
 description: This method retrieves the task's command-line parameters.
 old-location: taskschd\itask_getparameters.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: f59118d6-b430-4fcd-9c78-e6b5a65c151a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetParameters, GetParameters method [Task Scheduler], GetParameters method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetParameters method, ITask.GetParameters, ITask::GetParameters, _msb_itask_getparameters, mstask/ITask::GetParameters, taskschd.itask_getparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- ITask.GetParameters
-: 
 ---
 
 # ITask::GetParameters
@@ -60,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task's</a> command-line parameters.
+This method retrieves the <a href="t.htm">task's</a> command-line parameters.
 
 
 ## -parameters

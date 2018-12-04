@@ -7,7 +7,7 @@ old-location: wmformat\iwmaddressaccess2.htm
 tech.root: wmformat
 ms.assetid: 609a20a7-e1a3-4889-abf3-4a6defc7739a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMAddressAccess2, IWMAddressAccess2 interface [windows Media Format], IWMAddressAccess2 interface [windows Media Format],described, IWMAddressAccess2Interface, wmformat.iwmaddressaccess2, wmsdkidl/IWMAddressAccess2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiometerinformation_getchannelspeakvalues.htm
 tech.root: CoreAudio
 ms.assetid: f5caf927-50c4-48dc-b396-016a1cf88882
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetChannelsPeakValues, GetChannelsPeakValues method [Core Audio], GetChannelsPeakValues method [Core Audio],IAudioMeterInformation interface, IAudioMeterInformation interface [Core Audio],GetChannelsPeakValues method, IAudioMeterInformation.GetChannelsPeakValues, IAudioMeterInformation::GetChannelsPeakValues, IAudioMeterInformationGetChannelsPeakValues, coreaudio.iaudiometerinformation_getchannelspeakvalues, endpointvolume/IAudioMeterInformation::GetChannelsPeakValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- endpointvolume.h
-: 
-- IAudioMeterInformation.GetChannelsPeakValues
-: 
 ---
 
 # IAudioMeterInformation::GetChannelsPeakValues

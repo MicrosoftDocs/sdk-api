@@ -4,10 +4,10 @@ title: IScheduledWorkItem::SetCreator
 author: windows-sdk-content
 description: Sets the name of the work item's creator.
 old-location: taskschd\ischeduledworkitem_setcreator.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: e15c6aba-79f7-407f-81d1-b7ec404c68f9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetCreator method, IScheduledWorkItem.SetCreator, IScheduledWorkItem::SetCreator, SetCreator, SetCreator method [Task Scheduler], SetCreator method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setcreator, mstask/IScheduledWorkItem::SetCreator, taskschd.ischeduledworkitem_setcreator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.SetCreator
-: 
 ---
 
 # IScheduledWorkItem::SetCreator
@@ -60,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item's</a> creator.
+Sets the name of the <a href="w.htm">work item's</a> creator.
 
 
 ## -parameters

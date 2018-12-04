@@ -7,7 +7,7 @@ old-location: wmformat\wm_stream_type_info.htm
 tech.root: wmformat
 ms.assetid: 9e8f2670-555a-478a-99c2-3a4de7f8cfa1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WM_STREAM_TYPE_INFO, WM_STREAM_TYPE_INFO structure [windows Media Format], _WMStreamTypeInfo, structure [windows Media Format], wmformat.wm_stream_type_info, wmsdkidl/WM_STREAM_TYPE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

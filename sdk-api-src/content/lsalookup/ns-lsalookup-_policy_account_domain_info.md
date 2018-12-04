@@ -4,10 +4,10 @@ title: "_POLICY_ACCOUNT_DOMAIN_INFO"
 author: windows-sdk-content
 description: Used to set and query the name and SID of the system's account domain.
 old-location: security\policy_account_domain_info.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 0e38ac5f-40db-405d-9394-b6bcb7c652b5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PPOLICY_ACCOUNT_DOMAIN_INFO, POLICY_ACCOUNT_DOMAIN_INFO, POLICY_ACCOUNT_DOMAIN_INFO structure [Security], PPOLICY_ACCOUNT_DOMAIN_INFO, PPOLICY_ACCOUNT_DOMAIN_INFO structure pointer [Security], _POLICY_ACCOUNT_DOMAIN_INFO, _lsa_policy_account_domain_info, lsalookup/POLICY_ACCOUNT_DOMAIN_INFO, lsalookup/PPOLICY_ACCOUNT_DOMAIN_INFO, security.policy_account_domain_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

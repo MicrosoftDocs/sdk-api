@@ -7,7 +7,7 @@ old-location: shell\IFileDialogEvents_OnShareViolation.htm
 tech.root: shell
 ms.assetid: bd9cfa69-4e55-48ca-915a-e5ecccf8bf96
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnShareViolation method, IFileDialogEvents.OnShareViolation, IFileDialogEvents::OnShareViolation, OnShareViolation, OnShareViolation method [Windows Shell], OnShareViolation method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnShareViolation, shell_IFileDialogEvents_OnShareViolation, shobjidl_core/IFileDialogEvents::OnShareViolation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IFileDialogEvents.OnShareViolation
-: 
 ---
 
 # IFileDialogEvents::OnShareViolation

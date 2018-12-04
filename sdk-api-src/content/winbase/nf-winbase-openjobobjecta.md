@@ -4,16 +4,16 @@ title: OpenJobObjectA function
 author: windows-sdk-content
 description: Opens an existing job object.
 old-location: base\openjobobject.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: cb6ebc6f-5c61-408d-a781-ba029c83ddeb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: OpenJobObject, OpenJobObject function, OpenJobObjectA, OpenJobObjectW, _win32_openjobobject, base.openjobobject, winbase/OpenJobObject, winbase/OpenJobObjectA, winbase/OpenJobObjectW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
-req.include-header: Windows.h
+req.include-header: Windows.h, Jobapi2.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OpenJobObjectA
-: 
 ---
 
 # OpenJobObjectA function

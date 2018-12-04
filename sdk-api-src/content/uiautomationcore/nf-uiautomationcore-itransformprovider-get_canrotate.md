@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider_CanRotate.htm
 tech.root: WinAuto
 ms.assetid: 9943a5d7-916d-4546-8aba-fe5abe3e4eb2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CanRotate property [Windows Accessibility], CanRotate property [Windows Accessibility],ITransformProvider interface, ITransformProvider interface [Windows Accessibility],CanRotate property, ITransformProvider.CanRotate, ITransformProvider.get_CanRotate, ITransformProvider::CanRotate, ITransformProvider::get_CanRotate, get_CanRotate, uiauto.uiauto_ITransformProvider_CanRotate, uiauto_ITransformProvider_CanRotate, uiautomationcore/ITransformProvider::CanRotate, uiautomationcore/ITransformProvider::get_CanRotate, winauto.uiauto_ITransformProvider_CanRotate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationcore.h
-: 
-- ITransformProvider.get_CanRotate
-: 
 ---
 
 # ITransformProvider::get_CanRotate

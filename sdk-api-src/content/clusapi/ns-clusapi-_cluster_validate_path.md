@@ -4,10 +4,10 @@ title: "_CLUSTER_VALIDATE_PATH"
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_validate_path.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 81c214e0-8ca8-41a7-bacc-041ab4d6d3b3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCLUSTER_VALIDATE_PATH, CLUSTER_VALIDATE_PATH, CLUSTER_VALIDATE_PATH structure [Failover Cluster], PCLUSTER_VALIDATE_PATH, PCLUSTER_VALIDATE_PATH structure pointer [Failover Cluster], _CLUSTER_VALIDATE_PATH, clusapi/CLUSTER_VALIDATE_PATH, clusapi/PCLUSTER_VALIDATE_PATH, mscs.cluster_validate_path"
 ms.prod: windows-hardware
 ms.technology: windows-devices

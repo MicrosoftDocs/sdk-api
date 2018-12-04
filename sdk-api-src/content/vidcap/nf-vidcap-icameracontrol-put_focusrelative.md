@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_focusrelative.htm
 tech.root: DirectShow
 ms.assetid: d40edc5d-8fa2-4e3a-8aab-c51da0ac8036
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICameraControl interface [DirectShow],put_FocusRelative method, ICameraControl.put_FocusRelative, ICameraControl::put_FocusRelative, ICameraControlput_FocusRelative, dshow.icameracontrol_put_focusrelative, put_FocusRelative, put_FocusRelative method [DirectShow], put_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_FocusRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vidcap.h
-: 
-- ICameraControl.put_FocusRelative
-: 
 ---
 
 # ICameraControl::put_FocusRelative

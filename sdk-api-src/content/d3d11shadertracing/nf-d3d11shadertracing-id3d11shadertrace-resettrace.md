@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shadertrace_resettrace.htm
 tech.root: direct3d11
 ms.assetid: 91612AEF-A83B-4B2A-960B-D7AA7F41ED41
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ID3D11ShaderTrace interface [Direct3D 11],ResetTrace method, ID3D11ShaderTrace.ResetTrace, ID3D11ShaderTrace::ResetTrace, ResetTrace, ResetTrace method [Direct3D 11], ResetTrace method [Direct3D 11],ID3D11ShaderTrace interface, d3d11shadertracing/ID3D11ShaderTrace::ResetTrace, direct3d11.id3d11shadertrace_resettrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11shadertracing.h
-: 
-- ID3D11ShaderTrace.ResetTrace
-: 
 ---
 
 # ID3D11ShaderTrace::ResetTrace
@@ -83,7 +75,7 @@ This method has no return value.
 
 
 
-After you call <b>ResetTrace</b>, the <a href="https://msdn.microsoft.com/en-us/library/Hh446840(v=VS.85).aspx">ID3D11ShaderTrace</a> object behaves as if it had just been created. Thereafter, shader invocations for the trace start from 0 again; calls to <a href="https://msdn.microsoft.com/en-us/library/Hh446865(v=VS.85).aspx">ID3D11ShaderTrace::TraceReady</a> return <b>S_FALSE</b> until the selected shader invocation number is reached, and <b>TraceReady</b> records a new trace.
+After you call <b>ResetTrace</b>, the <a href="https://msdn.microsoft.com/27FF1E53-262A-4642-A4A8-7E21163C6DF9">ID3D11ShaderTrace</a> object behaves as if it had just been created. Thereafter, shader invocations for the trace start from 0 again; calls to <a href="https://msdn.microsoft.com/BCC2BCC2-9E98-413D-B173-37664A82140B">ID3D11ShaderTrace::TraceReady</a> return <b>S_FALSE</b> until the selected shader invocation number is reached, and <b>TraceReady</b> records a new trace.
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
@@ -95,7 +87,7 @@ After you call <b>ResetTrace</b>, the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446840(v=VS.85).aspx">ID3D11ShaderTrace</a>
+<a href="https://msdn.microsoft.com/27FF1E53-262A-4642-A4A8-7E21163C6DF9">ID3D11ShaderTrace</a>
  
 
  

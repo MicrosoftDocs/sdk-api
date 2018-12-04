@@ -7,7 +7,7 @@ old-location: com\olerun.htm
 tech.root: com
 ms.assetid: 9035f996-b163-4855-aa9d-184b77072ead
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: OleRun, OleRun function [COM], _ole_OleRun, com.olerun, ole2/OleRun
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OleRun
-: 
 ---
 
 # OleRun function

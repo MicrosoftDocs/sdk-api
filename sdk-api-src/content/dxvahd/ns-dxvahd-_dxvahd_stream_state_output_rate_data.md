@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_output_rate_data.htm
 tech.root: medfound
 ms.assetid: 9cca24f0-5fff-4125-b1fe-d2f9278b5181
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA, DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA structure [Media Foundation], FALSE, TRUE, _DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA, dxvahd/DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA, mf.dxvahd_stream_state_output_rate_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

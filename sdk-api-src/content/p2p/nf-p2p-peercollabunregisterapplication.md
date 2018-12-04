@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PeerCollabUnregisterApplication
-: 
 ---
 
 # PeerCollabUnregisterApplication function
@@ -152,7 +146,7 @@ To unregister the application for all users, the caller of this API must be elev
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>
+<a href="p2p.peercollabregisterapplication">PeerCollabRegisterApplication</a>
  
 
  

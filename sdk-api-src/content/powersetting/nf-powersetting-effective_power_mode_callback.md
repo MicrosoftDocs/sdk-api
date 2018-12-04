@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EFFECTIVE_POWER_MODE_CALLBACK
-: 
 ---
 
 # EFFECTIVE_POWER_MODE_CALLBACK function

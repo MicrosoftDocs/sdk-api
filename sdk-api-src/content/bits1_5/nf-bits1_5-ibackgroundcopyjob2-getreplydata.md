@@ -4,10 +4,10 @@ title: IBackgroundCopyJob2::GetReplyData
 author: windows-sdk-content
 description: Retrieves an in-memory copy of the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY and its state is BG_JOB_STATE_TRANSFERRED.
 old-location: bits\ibackgroundcopyjob2_getreplydata.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: f29df35f-48c2-4837-9809-46bd04f08bfb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetReplyData, GetReplyData method [BITS], GetReplyData method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyData method, IBackgroundCopyJob2.GetReplyData, IBackgroundCopyJob2::GetReplyData, _drz_ibackgroundcopyjob2_getreplydata, bits.ibackgroundcopyjob2_getreplydata, bits1_5/IBackgroundCopyJob2::GetReplyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP
-- apiref
-: 
-- COM
-: 
-- bits1_5.h
-: 
-- IBackgroundCopyJob2.GetReplyData
-: 
 ---
 
 # IBackgroundCopyJob2::GetReplyData
@@ -69,17 +61,10 @@ Retrieves an in-memory copy of the reply data from the server application. Call 
 ### -param ppBuffer [in, out]
 
 Buffer to contain the reply data. The method sets <i>ppBuffer</i> to <b>NULL</b> if the server application did not return a reply. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppBuffer</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>ppBuffer</i> when done.
 
 
-### -param pLength
-
-TBD
-
-
-
-
-#### - pSize [out]
+### -param pLength [out]
 
 Size, in bytes, of the reply data in <i>ppBuffer</i>.
 
@@ -151,20 +136,20 @@ This method is not implemented for jobs of type <b>BG_JOB_TYPE_DOWNLOAD</b> or <
 
 The 
 <b>GetReplyData</b> method lets you read the reply data before or after you call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363021(v=VS.85).aspx">IBackgroundCopyJob::Complete</a> method. However, to read the reply data from the reply file, you must first call the 
+<a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">IBackgroundCopyJob::Complete</a> method. However, to read the reply data from the reply file, you must first call the 
 <b>Complete</b> method; the file is not available to the client until you call the 
 <b>Complete</b> method.
 
 The 
 <b>GetReplyData</b> method returns <b>BG_E_TOO_LARGE</b> if the reply data exceeds 1 MB (<i>pSize</i> contains the size of the reply data). To retrieve the reply if it exceeds 1 MB, call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362984(v=VS.85).aspx">IBackgroundCopyJob2::GetReplyFileName</a> method to retrieve the file name. Then, open the file and read the reply data directly.
+<a href="https://msdn.microsoft.com/57f9245c-c1ae-4027-8e84-4926fa4861c3">IBackgroundCopyJob2::GetReplyFileName</a> method to retrieve the file name. Then, open the file and read the reply data directly.
 
 
 #### Examples
 
 For an example that uses the 
 <b>GetReplyData</b> method, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363150(v=VS.85).aspx">Retrieving the Reply From an Upload-Reply Job</a>.
+<a href="https://msdn.microsoft.com/bab28a2c-1e2f-4b76-9dc6-57df26f7efec">Retrieving the Reply From an Upload-Reply Job</a>.
 
 <div class="code"></div>
 
@@ -175,11 +160,11 @@ For an example that uses the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362984(v=VS.85).aspx">IBackgroundCopyJob2::GetReplyFileName</a>
+<a href="https://msdn.microsoft.com/57f9245c-c1ae-4027-8e84-4926fa4861c3">IBackgroundCopyJob2::GetReplyFileName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362989(v=VS.85).aspx">IBackgroundCopyJob2::SetReplyFileName</a>
+<a href="https://msdn.microsoft.com/9f8591a3-ecc2-497a-ac12-67e5862efde4">IBackgroundCopyJob2::SetReplyFileName</a>
  
 
  

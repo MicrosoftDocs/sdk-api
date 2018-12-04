@@ -7,7 +7,7 @@ old-location: multimedia\avistreaminfo_struct.htm
 tech.root: Multimedia
 ms.assetid: dca6d9ca-a825-4bd0-a19d-0655d775fdfb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPAVISTREAMINFOW, AVISTREAMINFO, AVISTREAMINFO structure [Windows Multimedia], AVISTREAMINFOA, AVISTREAMINFOW, AVISTREAMINFO_DISABLED, AVISTREAMINFO_FORMATCHANGES, _AVISTREAMINFOW, multimedia.avistreaminfo_COLLISION869, multimedia.avistreaminfo_struct, streamtypeAUDIO, streamtypeMIDI, streamtypeTEXT, streamtypeVIDEO, vfw/AVISTREAMINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

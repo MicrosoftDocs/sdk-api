@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpGetSuperScopeInfoV4
-: 
 ---
 
 # DhcpGetSuperScopeInfoV4 function

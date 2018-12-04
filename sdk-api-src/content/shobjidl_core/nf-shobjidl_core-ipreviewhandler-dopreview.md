@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandler_DoPreview.htm
 tech.root: shell
 ms.assetid: f6bad84f-9089-4905-ad4d-9b69ff9d11d6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DoPreview, DoPreview method [Windows Shell], DoPreview method [Windows Shell],IPreviewHandler interface, IPreviewHandler interface [Windows Shell],DoPreview method, IPreviewHandler.DoPreview, IPreviewHandler::DoPreview, _shell_IPreviewHandler_DoPreview, shell.IPreviewHandler_DoPreview, shobjidl_core/IPreviewHandler::DoPreview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IPreviewHandler.DoPreview
-: 
 ---
 
 # IPreviewHandler::DoPreview

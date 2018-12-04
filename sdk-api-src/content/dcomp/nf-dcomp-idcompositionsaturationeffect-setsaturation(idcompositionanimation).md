@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionsaturationeffect_setsaturation_2.htm
 tech.root: directcomp
 ms.assetid: 0F206128-A0F2-4BE3-A22D-2BAA8853099C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDCompositionSaturationEffect interface [DirectComposition],SetSaturation method, IDCompositionSaturationEffect.SetSaturation, IDCompositionSaturationEffect.SetSaturation(IDCompositionAnimation), IDCompositionSaturationEffect::SetSaturation, IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation), SetSaturation, SetSaturation method [DirectComposition], SetSaturation method [DirectComposition],IDCompositionSaturationEffect interface, dcomp/IDCompositionSaturationEffect::SetSaturation, directcomp.idcompositionsaturationeffect_setsaturation_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionSaturationEffect.SetSaturation
-: 
 ---
 
 # IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation)
@@ -77,7 +69,7 @@ An animation that represents how the saturation of the image changes over time. 
             The effect calculates a color matrix based on the saturation value (s in the equation here) using the following equation:
             
 
-<img alt="Matrix equation" src="./images/saturation_formula.png"/>
+<img alt="Matrix equation" src="images/saturation_formula.png"/>
 
 ## -returns
 

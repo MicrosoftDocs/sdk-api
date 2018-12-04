@@ -107,18 +107,18 @@ Classes that implement this interface often also implement these interfaces:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx">IPersistFile</a>: Enables the contact 
+<a href="7d34507f-8a16-43b4-8225-010798abc546">IPersistFile</a>: Enables the contact 
             to be loaded from a file. Use this interface when loading a contact to get full support 
             in <a href="https://msdn.microsoft.com/b06f7d25-03ae-4630-9aa9-09cfbcecc416">CommitChanges</a> to change conflict detection.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx">IPersistStream</a>: Provides methods for saving and 
+<a href="97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a>: Provides methods for saving and 
 			loading objects that use a simple serial stream for their storage needs.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms682273(v=VS.85).aspx">IPersistStreamInit</a>: Enables the contact to be saved 
-			or loaded from a stream. Use <a href="https://msdn.microsoft.com/en-us/library/ms690234(v=VS.85).aspx">IPersistStreamInit::InitNew</a> to create a 
+<a href="49c413b3-3523-4602-9ec1-19f4e0fe5651">IPersistStreamInit</a>: Enables the contact to be saved 
+			or loaded from a stream. Use <a href="9e318698-0c3c-41c2-bb9e-04e8c9746c4d">IPersistStreamInit::InitNew</a> to create a 
 			new <b>IContact</b>. 
-			Note: loading a contact with <a href="https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx">IPersistStream</a> does 
-			not give you the locking and conflict detection that <a href="https://msdn.microsoft.com/en-us/library/ms687284(v=VS.85).aspx">IPersistFile::Load</a> 
+			Note: loading a contact with <a href="97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a> does 
+			not give you the locking and conflict detection that <a href="8391aa5c-fe6e-4b03-9eef-7958f75910a5">IPersistFile::Load</a> 
 			and <a href="https://msdn.microsoft.com/b06f7d25-03ae-4630-9aa9-09cfbcecc416">CommitChanges</a> do.</li>
 <li>
 <a href="https://msdn.microsoft.com/c9c0d73d-4c39-4f7c-9bc6-46d764f157bd">IContactProperties</a>: Enables manipulation of contact properties.</li>

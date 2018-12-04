@@ -4,10 +4,10 @@ title: IBackgroundCopyJob5::GetProperty
 author: windows-sdk-content
 description: A generic method for getting BITS job properties.
 old-location: bits\ibackgroundcopyjob5_getproperty.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 567C21C7-C689-4A13-9DCA-D45766CB5150
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetProperty, GetProperty method [BITS], GetProperty method [BITS],IBackgroundCopyJob5 interface, IBackgroundCopyJob5 interface [BITS],GetProperty method, IBackgroundCopyJob5.GetProperty, IBackgroundCopyJob5::GetProperty, bits.ibackgroundcopyjob5_getproperty, bits5_0/IBackgroundCopyJob5::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits5_0.h
-: 
-- IBackgroundCopyJob5.GetProperty
-: 
 ---
 
 # IBackgroundCopyJob5::GetProperty
@@ -69,17 +61,10 @@ A generic method for getting BITS job properties.
 
 ### -param PropertyId [in]
 
-The ID of the property that is being obtained specified as a <a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a> enum value.
+The ID of the property that is being obtained specified as a <a href="https://msdn.microsoft.com/4ED7419E-3435-4F12-B293-1FDC24F40D63">BITS_JOB_PROPERTY_ID</a> enum value.
 
 
-### -param PropertyValue
-
-TBD
-
-
-
-
-#### - pPropertyValue [out]
+### -param PropertyValue [out]
 
 The property value returned as a BITS_JOB_PROPERTY_VALUE union.
 
@@ -117,11 +102,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446781(v=VS.85).aspx">IBackgroundCopyJob5</a>
+<a href="https://msdn.microsoft.com/97481F9D-1F7B-473A-B288-A52E527478A0">IBackgroundCopyJob5</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404135(v=VS.85).aspx">IBackgroundCopyJob5::SetProperty</a>
+<a href="https://msdn.microsoft.com/D5DB8A96-7417-4142-BA27-783314835CED">IBackgroundCopyJob5::SetProperty</a>
  
 
  

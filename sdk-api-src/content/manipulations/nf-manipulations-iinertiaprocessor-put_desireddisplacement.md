@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_desireddisplacement.htm
 tech.root: wintouch
 ms.assetid: cbcd7ce7-7df4-48d8-acfe-dc206f5d70d1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DesiredDisplacement property [Windows Touch], DesiredDisplacement property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredDisplacement property, IInertiaProcessor.DesiredDisplacement, IInertiaProcessor.put_DesiredDisplacement, IInertiaProcessor::DesiredDisplacement, IInertiaProcessor::get_DesiredDisplacement, IInertiaProcessor::put_DesiredDisplacement, manipulations/IInertiaProcessor::DesiredDisplacement, manipulations/IInertiaProcessor::get_DesiredDisplacement, manipulations/IInertiaProcessor::put_DesiredDisplacement, put_DesiredDisplacement, wintouch.iinertiaprocessor_desireddisplacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- manipulations.h
-: 
-- IInertiaProcessor.put_DesiredDisplacement
-: 
 ---
 
 # IInertiaProcessor::put_DesiredDisplacement

@@ -4,10 +4,10 @@ title: CryptCATOpen function
 author: windows-sdk-content
 description: Opens a catalog and returns a context handle to the open catalog.
 old-location: security\cryptcatopen.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: e81f3a3d-d5b7-4266-838d-b83e331c8594
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CRYPTCAT_OPEN_ALWAYS, CRYPTCAT_OPEN_CREATENEW, CRYPTCAT_VERSION_1, CRYPTCAT_VERSION_2, CryptCATOpen, CryptCATOpen function [Security], mscat/CryptCATOpen, security.cryptcatopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptCATOpen
-: 
 ---
 
 # CryptCATOpen function

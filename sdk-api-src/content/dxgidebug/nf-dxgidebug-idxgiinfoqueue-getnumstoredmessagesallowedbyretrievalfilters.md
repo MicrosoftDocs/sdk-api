@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_getnumstoredmessagesallowedbyretrieval
 tech.root: direct3ddxgi
 ms.assetid: 1BFFEE9F-7902-41B7-9607-BD0E955FBD8B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetNumStoredMessagesAllowedByRetrievalFilters, GetNumStoredMessagesAllowedByRetrievalFilters method [DXGI], GetNumStoredMessagesAllowedByRetrievalFilters method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumStoredMessagesAllowedByRetrievalFilters method, IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters, IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters, direct3ddxgi.idxgiinfoqueue_getnumstoredmessagesallowedbyretrievalfilters, dxgidebug/IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxgidebug.h
-: 
-- IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters
-: 
 ---
 
 # IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters

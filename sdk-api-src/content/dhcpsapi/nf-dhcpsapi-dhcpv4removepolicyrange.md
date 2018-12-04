@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpV4RemovePolicyRange
-: 
 ---
 
 # DhcpV4RemovePolicyRange function

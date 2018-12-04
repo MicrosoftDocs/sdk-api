@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestoptionalpackageinfo.htm
 tech.root: appxpkg
 ms.assetid: 2B21676C-90AF-418D-8213-065EBB6C165C
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: IAppxManifestOptionalPackageInfo, IAppxManifestOptionalPackageInfo interface [App packaging and management], IAppxManifestOptionalPackageInfo interface [App packaging and management],described, appxpackaging/IAppxManifestOptionalPackageInfo, appxpkg.iappxmanifestoptionalpackageinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

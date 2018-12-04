@@ -4,10 +4,10 @@ title: IUpdate::get_LastDeploymentChangeTime
 author: windows-sdk-content
 description: Gets the last published date of the update, in Coordinated Universal Time (UTC) date and time, on the server that deploys the update.
 old-location: wua\iupdate_lastdeploymentchangetime.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 5190ed29-5737-4100-b67c-1333bde28102
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUpdate interface [Windows Update Agent],LastDeploymentChangeTime property, IUpdate.LastDeploymentChangeTime, IUpdate.get_LastDeploymentChangeTime, IUpdate::LastDeploymentChangeTime, IUpdate::get_LastDeploymentChangeTime, LastDeploymentChangeTime property [Windows Update Agent], LastDeploymentChangeTime property [Windows Update Agent],IUpdate interface, get_LastDeploymentChangeTime, wua.iupdate_lastdeploymentchangetime, wuapi/IUpdate::LastDeploymentChangeTime, wuapi/IUpdate::get_LastDeploymentChangeTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdate.get_LastDeploymentChangeTime
-: 
 ---
 
 # IUpdate::get_LastDeploymentChangeTime

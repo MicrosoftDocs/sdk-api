@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemtime.h
-: 
-- WBEMTime.Clear
-: 
 ---
 
 # WBEMTime::Clear

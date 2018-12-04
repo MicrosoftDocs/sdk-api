@@ -7,7 +7,7 @@ old-location: com\icallframe_setreturnvalue.htm
 tech.root: com
 ms.assetid: 848cccc7-19c8-4ce6-b609-bcf798ec8c76
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: ICallFrame interface [COM],SetReturnValue method, ICallFrame.SetReturnValue, ICallFrame::SetReturnValue, SetReturnValue, SetReturnValue method [COM], SetReturnValue method [COM],ICallFrame interface, _com_icallframe_setreturnvalue, callobj/ICallFrame::SetReturnValue, com.icallframe_setreturnvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- callobj.h
-: 
-- ICallFrame.SetReturnValue
-: 
 ---
 
 # ICallFrame::SetReturnValue
@@ -85,7 +77,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

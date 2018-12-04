@@ -7,7 +7,7 @@ old-location: display\dd_getvportbandwidthdata.htm
 tech.root: display
 ms.assetid: 5a24d819-1498-448a-9360-c14d382059cb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA structure [Display Devices], _DD_GETVPORTBANDWIDTHDATA, ddrawint/DD_GETVPORTBANDWIDTHDATA, ddstrcts_3f17b83b-7530-4d17-b6c8-435d9ee45848.xml, display.dd_getvportbandwidthdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

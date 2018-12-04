@@ -4,10 +4,10 @@ title: IRegisteredTask::put_Enabled
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates if the registered task is enabled.
 old-location: taskschd\iregisteredtask_enabled.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 33486621-3984-4a07-8182-c193847a9f76
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],Enabled property, IRegisteredTask.Enabled, IRegisteredTask.put_Enabled, IRegisteredTask::Enabled, IRegisteredTask::get_Enabled, IRegisteredTask::put_Enabled, put_Enabled, taskschd.iregisteredtask_enabled, taskschd/IRegisteredTask::Enabled, taskschd/IRegisteredTask::get_Enabled, taskschd/IRegisteredTask::put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IRegisteredTask.put_Enabled
-: 
 ---
 
 # IRegisteredTask::put_Enabled

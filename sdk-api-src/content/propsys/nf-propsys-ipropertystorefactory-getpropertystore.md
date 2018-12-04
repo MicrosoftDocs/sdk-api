@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreFactory_GetPropertyStore.htm
 tech.root: properties
 ms.assetid: 80cc20e1-88e2-4dee-a0fb-d75fffdfc097
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetPropertyStore, GetPropertyStore method [Windows Properties], GetPropertyStore method [Windows Properties],IPropertyStoreFactory interface, IPropertyStoreFactory interface [Windows Properties],GetPropertyStore method, IPropertyStoreFactory.GetPropertyStore, IPropertyStoreFactory::GetPropertyStore, _shell_IPropertyStoreFactory_GetPropertyStore, properties.IPropertyStoreFactory_GetPropertyStore, propsys/IPropertyStoreFactory::GetPropertyStore, shell.IPropertyStoreFactory_GetPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- propsys.h
-: 
-- IPropertyStoreFactory.GetPropertyStore
-: 
 ---
 
 # IPropertyStoreFactory::GetPropertyStore
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> object that corresponds to the supplied flags.
+Gets an <a href="shell.IPropertyStore">IPropertyStore</a> object that corresponds to the supplied flags.
 
 
 ## -parameters
@@ -68,10 +60,10 @@ Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
+<a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
 
 
 ### -param pUnkFactory [in]
@@ -92,7 +84,7 @@ A reference to IID of the object to create.
 
 Type: <b>void**</b>
 
-When this method returns, contains the address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface pointer.
+When this method returns, contains the address of an <a href="shell.IPropertyStore">IPropertyStore</a> interface pointer.
 
 
 ## -returns

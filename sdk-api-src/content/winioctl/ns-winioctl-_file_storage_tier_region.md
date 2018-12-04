@@ -7,7 +7,7 @@ old-location: fs\file_storage_tier_region.htm
 tech.root: fileio
 ms.assetid: 5178A987-397A-44E5-9485-221D72490124
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PFILE_STORAGE_TIER_REGION, FILE_STORAGE_TIER_REGION, FILE_STORAGE_TIER_REGION structure [Files], PFILE_STORAGE_TIER_REGION, PFILE_STORAGE_TIER_REGION structure pointer [Files], _FILE_STORAGE_TIER_REGION, fs.file_storage_tier_region, winioctl/FILE_STORAGE_TIER_REGION, winioctl/PFILE_STORAGE_TIER_REGION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

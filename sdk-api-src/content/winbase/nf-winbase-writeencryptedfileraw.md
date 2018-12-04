@@ -7,7 +7,7 @@ old-location: fs\writeencryptedfileraw.htm
 tech.root: fileio
 ms.assetid: f44e291e-dbc6-4a44-92ba-92a81e043764
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: WriteEncryptedFileRaw, WriteEncryptedFileRaw function [Files], base.writeencryptedfileraw, fs.writeencryptedfileraw, winbase/WriteEncryptedFileRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WriteEncryptedFileRaw
-: 
 ---
 
 # WriteEncryptedFileRaw function

@@ -4,10 +4,10 @@ title: NPLogonNotify function
 author: windows-sdk-content
 description: MPR calls this function to notify the credential manager that a logon event has occurred, allowing the credential manager to return a logon script.
 old-location: security\nplogonnotify.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 9b0e5646-ac57-4eae-bad7-a16c07b51f4b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NPLogonNotify, NPLogonNotify function [Security], SvcCtl, WinSta_0, _mnp_nplogonnotify, npapi/NPLogonNotify, security.nplogonnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NPLogonNotify
-: 
 ---
 
 # NPLogonNotify function

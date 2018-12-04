@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_texture_address_mode.htm
 tech.root: direct3d12
 ms.assetid: 7F67C8B6-1B01-49C0-9900-AFDBEDE5508F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D3D12_TEXTURE_ADDRESS_MODE, D3D12_TEXTURE_ADDRESS_MODE enumeration, D3D12_TEXTURE_ADDRESS_MODE_BORDER, D3D12_TEXTURE_ADDRESS_MODE_CLAMP, D3D12_TEXTURE_ADDRESS_MODE_MIRROR, D3D12_TEXTURE_ADDRESS_MODE_MIRROR_ONCE, D3D12_TEXTURE_ADDRESS_MODE_WRAP, d3d12/D3D12_TEXTURE_ADDRESS_MODE, d3d12/D3D12_TEXTURE_ADDRESS_MODE_BORDER, d3d12/D3D12_TEXTURE_ADDRESS_MODE_CLAMP, d3d12/D3D12_TEXTURE_ADDRESS_MODE_MIRROR, d3d12/D3D12_TEXTURE_ADDRESS_MODE_MIRROR_ONCE, d3d12/D3D12_TEXTURE_ADDRESS_MODE_WRAP, direct3d12.d3d12_texture_address_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,9 +88,9 @@ Texture coordinates outside the range [0.0, 1.0] are set to the border color spe
 ### -field D3D12_TEXTURE_ADDRESS_MODE_MIRROR_ONCE
 
 Similar to 
-            <a href="https://msdn.microsoft.com/en-us/library/Dn770441(v=VS.85).aspx">D3D12_TEXTURE_ADDRESS_MODE_MIRROR</a> 
+            <a href="d3d12_texture_address_mode.htm">D3D12_TEXTURE_ADDRESS_MODE_MIRROR</a> 
             and 
-            <a href="https://msdn.microsoft.com/en-us/library/Dn770441(v=VS.85).aspx">D3D12_TEXTURE_ADDRESS_MODE_CLAMP</a>.
+            <a href="d3d12_texture_address_mode.htm">D3D12_TEXTURE_ADDRESS_MODE_CLAMP</a>.
             Takes the absolute value of the texture coordinate (thus, mirroring around 0), and then clamps to the maximum value.
           
 

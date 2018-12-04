@@ -7,7 +7,7 @@ old-location: intl\getuilanguagefallbacklist.htm
 tech.root: Intl
 ms.assetid: 18581fa1-f498-46ff-af83-dfbca80252e2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetUILanguageFallbackList, GetUILanguageFallbackList function [Internationalization for Windows Applications], intl.getuilanguagefallbacklist, muiload/GetUILanguageFallbackList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Muiload.lib, included in the Windows SDK for Windows 7 on Windows 2000 Professional, Windows Me/98/95
-- apiref
-: 
-- 
-: 
-- GetUILanguageFallbackList
-: 
 ---
 
 # GetUILanguageFallbackList function

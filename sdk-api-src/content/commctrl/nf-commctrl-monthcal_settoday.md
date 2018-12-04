@@ -4,10 +4,10 @@ title: MonthCal_SetToday macro
 author: windows-sdk-content
 description: Sets the &#0034;today&#0034; selection for a month calendar control. You can use this macro or send the MCM_SETTODAY message explicitly.
 old-location: controls\MonthCal_SetToday.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_settoday.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: MonthCal_SetToday, MonthCal_SetToday macro [Windows Controls], _win32_MonthCal_SetToday, _win32_MonthCal_SetToday_cpp, commctrl/MonthCal_SetToday, controls.MonthCal_SetToday, controls._win32_MonthCal_SetToday
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- MonthCal_SetToday
-: 
 ---
 
 # MonthCal_SetToday macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the "today" selection for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761016(v=VS.85).aspx">MCM_SETTODAY</a> message explicitly. 
+Sets the "today" selection for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/fcd4d33d-e661-4e02-8d19-666d80e1a070">MCM_SETTODAY</a> message explicitly. 
 
 
 ## -parameters
@@ -68,7 +60,7 @@ Sets the "today" selection for a month calendar control. You can use this macro 
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 

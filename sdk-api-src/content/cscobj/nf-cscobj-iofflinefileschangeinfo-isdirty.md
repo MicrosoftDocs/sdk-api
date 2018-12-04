@@ -4,10 +4,10 @@ title: IOfflineFilesChangeInfo::IsDirty
 author: windows-sdk-content
 description: Determines whether an item in the Offline Files cache has been modified.
 old-location: of\iofflinefileschangeinfo_isdirty.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 47b3bae2-d0fb-4e15-a03f-c9d5001e8786
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsDirty method, IOfflineFilesChangeInfo.IsDirty, IOfflineFilesChangeInfo::IsDirty, IsDirty, IsDirty method [Offline Files], IsDirty method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsDirty, of.iofflinefileschangeinfo_isdirty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesChangeInfo.IsDirty
-: 
 ---
 
 # IOfflineFilesChangeInfo::IsDirty
@@ -95,7 +87,7 @@ When an item is modified offline, it is marked as "dirty." Such items must be sy
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530504(v=VS.85).aspx">IOfflineFilesChangeInfo</a>
+<a href="https://msdn.microsoft.com/0ece6120-bd5d-4e3d-b71f-7aa9a51a1568">IOfflineFilesChangeInfo</a>
  
 
  

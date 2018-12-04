@@ -7,7 +7,7 @@ old-location: gdi\registerforprintasyncnotifications.htm
 tech.root: printdocs
 ms.assetid: f5a01819-75d0-42a0-b66f-5a25a48b091c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RegisterForPrintAsyncNotifications, RegisterForPrintAsyncNotifications function [Windows GDI], _win32_RegisterForPrintAsyncNotifications, gdi.registerforprintasyncnotifications, prnasnot/RegisterForPrintAsyncNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegisterForPrintAsyncNotifications
-: 
 ---
 
 # RegisterForPrintAsyncNotifications function
@@ -180,7 +174,7 @@ The following code example shows how these macros can be used to evaluate the re
 </td>
 </tr>
 </table></span></div>
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
 
@@ -195,7 +189,7 @@ See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">Pr
 <div> </div>
 To stop notifications through a unidirectional channel, the listening application passes the <i>pRegistrationHandler</i> value returned by <b>RegisterForPrintAsyncNotifications</b> to <a href="https://msdn.microsoft.com/2b039018-71c0-4110-8c0b-702927f58df4">UnRegisterForPrintAsyncNotifications</a>. For a bidirectional channel, call <b>UnRegisterForPrintAsyncNotifications</b> to block notifications in any new channels that were created after that call. To block notifications on existing bidirectional channels, the listening application must close the channel with <a href="https://msdn.microsoft.com/d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7">IPrintAsyncNotifyChannel::CloseChannel</a>.
 
-As a result of a <b>RegisterForPrintAsyncNotifications</b> call, the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> method is called for the <i>pCallback</i> object. Calling <a href="https://msdn.microsoft.com/2b039018-71c0-4110-8c0b-702927f58df4">UnRegisterForPrintAsyncNotifications</a> will release the <i>pCallback</i> object. The reference count of <i>pCallback</i> object will be also incremented when a channel is created and decremented when the channel is closed.
+As a result of a <b>RegisterForPrintAsyncNotifications</b> call, the <a href="_com_iunknown_addref">IUnknown::AddRef</a> method is called for the <i>pCallback</i> object. Calling <a href="https://msdn.microsoft.com/2b039018-71c0-4110-8c0b-702927f58df4">UnRegisterForPrintAsyncNotifications</a> will release the <i>pCallback</i> object. The reference count of <i>pCallback</i> object will be also incremented when a channel is created and decremented when the channel is closed.
 
 The <i>pSchema</i> parameter is a GUID pointer that the spooler accepts and uses to filter the listener clients. Any client of the spooler asynchronous notification mechanism can define its own notification type. Even though the spooler is unaware of the notification type that is sent, it still filters the listener clients based on the notification type. The notification schema that <i>pSchema</i> references is the schema that is used by the notification object that exposes <a href="https://msdn.microsoft.com/fd0e1f30-c54e-418c-8081-664edebaad61">IPrintAsyncNotifyDataObject</a>. Clients of the spooler notification pipe can define their own data schema and can send any data type back and forth and the GUID referenced by <i>pSchema</i> is unique to that data schema.
 

@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster_progressadvise.htm
 tech.root: imapi
 ms.assetid: 64966230-2042-46cb-9974-adbe382723a1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDiscMaster interface [IMAPI],ProgressAdvise method, IDiscMaster.ProgressAdvise, IDiscMaster::ProgressAdvise, ProgressAdvise, ProgressAdvise method [IMAPI], ProgressAdvise method [IMAPI],IDiscMaster interface, _win32_idiscmaster_progressadvise, base.idiscmaster_progressadvise, imapi.idiscmaster_progressadvise, imapi/IDiscMaster::ProgressAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi.h
-: 
-- IDiscMaster.ProgressAdvise
-: 
 ---
 
 # IDiscMaster::ProgressAdvise

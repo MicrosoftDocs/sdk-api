@@ -4,10 +4,10 @@ title: IExtendTaskPad::TaskNotify
 author: windows-sdk-content
 description: The IExtendTaskPad::TaskNotify method enables MMC to notify the snap-in when a task is extended. If the taskpad is a list-view taskpad, MMC also calls IExtendTaskPad::TaskNotify when a list-view button is extended.
 old-location: mmc\iextendtaskpad_tasknotify.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: c20d87f9-a5a0-41b9-b343-a11e8b41ed71
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IExtendTaskPad interface [MMC],TaskNotify method, IExtendTaskPad.TaskNotify, IExtendTaskPad::TaskNotify, TaskNotify, TaskNotify method [MMC], TaskNotify method [MMC],IExtendTaskPad interface, _slate_iextendtaskpad_tasknotify, mmc.iextendtaskpad_tasknotify, mmc/IExtendTaskPad::TaskNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IExtendTaskPad.TaskNotify
-: 
 ---
 
 # IExtendTaskPad::TaskNotify

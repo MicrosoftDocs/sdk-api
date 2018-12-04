@@ -4,10 +4,10 @@ title: InterlockedAnd8 function
 author: windows-sdk-content
 description: Performs an atomic AND operation on the specified char values.
 old-location: base\interlockedand8.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 1b900308-f1dd-465b-b67d-ec2655819425
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: InterlockedAnd8, InterlockedAnd8 function, base.interlockedand8, winnt/InterlockedAnd8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InterlockedAnd8
-: 
 ---
 
 # InterlockedAnd8 function
@@ -89,7 +83,7 @@ The function returns the original value of the <i>Destination</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="https://msdn.microsoft.com/library/dsx2t7yd(v=VS.85).aspx">_InterlockedAnd8</a> compiler intrinsic directly.
+For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="ad271dc3-42cd-47d0-9f65-30d5cfeb66fc">_InterlockedAnd8</a> compiler intrinsic directly.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

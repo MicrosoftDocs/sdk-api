@@ -4,10 +4,10 @@ title: tagAutomaticUpdatesUserType
 author: windows-sdk-content
 description: Defines the type of user.
 old-location: wua\automaticupdatesusertype.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: e18c7aa0-111b-4209-bc7f-e533a26d684c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AutomaticUpdatesUserType, AutomaticUpdatesUserType enumeration [Windows Update Agent], auutCurrentUser, auutLocalAdministrator, tagAutomaticUpdatesUserType, wua.automaticupdatesusertype, wuapi/AutomaticUpdatesUserType, wuapi/auutCurrentUser, wuapi/auutLocalAdministrator
 ms.prod: windows-hardware
 ms.technology: windows-devices

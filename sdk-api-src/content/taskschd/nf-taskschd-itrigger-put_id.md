@@ -4,10 +4,10 @@ title: ITrigger::put_Id
 author: windows-sdk-content
 description: Gets or sets the identifier for the trigger.
 old-location: taskschd\itrigger_id.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 7cf26e63-2517-44a0-9a12-06c2a903c089
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITrigger interface [Task Scheduler],Id property, ITrigger.Id, ITrigger.put_Id, ITrigger::Id, ITrigger::get_Id, ITrigger::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],ITrigger interface, put_Id, taskschd.itrigger_id, taskschd/ITrigger::Id, taskschd/ITrigger::get_Id, taskschd/ITrigger::put_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITrigger.put_Id
-: 
 ---
 
 # ITrigger::put_Id

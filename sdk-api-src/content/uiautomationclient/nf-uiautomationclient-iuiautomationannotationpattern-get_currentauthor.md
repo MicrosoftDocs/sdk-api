@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentAuthor.htm
 tech.root: WinAuto
 ms.assetid: 8F1573D5-3804-4C1D-A838-1D5D837BCE25
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CurrentAuthor property [Windows Accessibility], CurrentAuthor property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAuthor property, IUIAutomationAnnotationPattern.CurrentAuthor, IUIAutomationAnnotationPattern.get_CurrentAuthor, IUIAutomationAnnotationPattern::CurrentAuthor, IUIAutomationAnnotationPattern::get_CurrentAuthor, get_CurrentAuthor, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAuthor, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAuthor, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAuthor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationAnnotationPattern.get_CurrentAuthor
-: 
 ---
 
 # IUIAutomationAnnotationPattern::get_CurrentAuthor

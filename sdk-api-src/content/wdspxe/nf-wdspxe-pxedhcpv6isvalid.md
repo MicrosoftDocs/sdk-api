@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PxeDhcpv6IsValid
-: 
 ---
 
 # PxeDhcpv6IsValid function

@@ -7,7 +7,7 @@ old-location: display\engqueryperformancefrequency.htm
 tech.root: display
 ms.assetid: d4194278-eb49-43e4-b4bf-576e65d9e5ad
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EngQueryPerformanceFrequency, EngQueryPerformanceFrequency function [Display Devices], display.engqueryperformancefrequency, gdifncs_46139586-61a2-4418-9400-ac9bbce12167.xml, winddi/EngQueryPerformanceFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngQueryPerformanceFrequency
-: 
 ---
 
 # EngQueryPerformanceFrequency function

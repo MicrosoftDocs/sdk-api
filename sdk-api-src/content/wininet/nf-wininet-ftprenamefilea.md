@@ -4,10 +4,10 @@ title: FtpRenameFileA function
 author: windows-sdk-content
 description: Renames a file stored on the FTP server.
 old-location: wininet\ftprenamefile.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 2c46d8bb-aceb-4dd2-be4f-2c418357d4ae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FtpRenameFile, FtpRenameFile function [WinINet], FtpRenameFileA, FtpRenameFileW, _inet_ftprenamefile_function, wininet.ftprenamefile, wininet/FtpRenameFile, wininet/FtpRenameFileA, wininet/FtpRenameFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FtpRenameFileA
-: 
 ---
 
 # FtpRenameFileA function

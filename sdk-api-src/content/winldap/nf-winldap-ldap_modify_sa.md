@@ -4,10 +4,10 @@ title: ldap_modify_sA function
 author: windows-sdk-content
 description: The ldap_modify_s function changes an existing entry.
 old-location: ldap\ldap_modify_s.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 26002d58-a4ac-4fd6-aa63-39210f8fc883
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ldap_modify_s, ldap.ldap__modify__s, ldap.ldap_modify_s, ldap_modify_s, ldap_modify_s function [LDAP], ldap_modify_sA, ldap_modify_sW, winldap/ldap_modify_s, winldap/ldap_modify_sA, winldap/ldap_modify_sW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_modify_sA
-: 
 ---
 
 # ldap_modify_sA function

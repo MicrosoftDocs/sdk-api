@@ -4,10 +4,10 @@ title: MsiQueryComponentStateW function
 author: windows-sdk-content
 description: The MsiQueryComponentState function returns the installed state for a component.
 old-location: setup\msiquerycomponentstate.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: d3b387d1-720e-4b54-ba80-731fcabdf676
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiQueryComponentState, MsiQueryComponentState function, MsiQueryComponentStateA, MsiQueryComponentStateW, NULL, User SID, msi/MsiQueryComponentState, msi/MsiQueryComponentStateA, msi/MsiQueryComponentStateW, setup.msiquerycomponentstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiQueryComponentStateW
-: 
 ---
 
 # MsiQueryComponentStateW function
@@ -309,7 +303,7 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
 
 
 

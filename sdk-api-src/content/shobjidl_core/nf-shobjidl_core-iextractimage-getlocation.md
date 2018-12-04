@@ -7,7 +7,7 @@ old-location: shell\IExtractImage_GetLocation.htm
 tech.root: shell
 ms.assetid: f1113429-ea89-4650-b345-db9e275232e6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetLocation, GetLocation method [Windows Shell], GetLocation method [Windows Shell],IExtractImage interface, IEIFLAG_ASPECT, IEIFLAG_ASYNC, IEIFLAG_CACHE, IEIFLAG_GLEAM, IEIFLAG_NOBORDER, IEIFLAG_NOSTAMP, IEIFLAG_OFFLINE, IEIFLAG_ORIGSIZE, IEIFLAG_QUALITY, IEIFLAG_REFRESH, IEIFLAG_SCREEN, IEIT_PRIORITY_NORMAL, IEI_PRIORITY_MAX, IEI_PRIORITY_MIN, IExtractImage interface [Windows Shell],GetLocation method, IExtractImage.GetLocation, IExtractImage::GetLocation, _win32_IExtractImage_GetLocation, shell.IExtractImage_GetLocation, shobjidl_core/IExtractImage::GetLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IExtractImage.GetLocation
-: 
 ---
 
 # IExtractImage::GetLocation

@@ -7,7 +7,7 @@ old-location: display\engallocprivateusermem.htm
 tech.root: display
 ms.assetid: 416faebe-021b-4c00-9aba-d103a26348f6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: EngAllocPrivateUserMem, EngAllocPrivateUserMem function [Display Devices], display.engallocprivateusermem, gdifncs_e31cecee-3490-46b1-ad57-4cf8c2a4f378.xml, winddi/EngAllocPrivateUserMem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winddi.h
-: 
-- EngAllocPrivateUserMem
-: 
 ---
 
 # EngAllocPrivateUserMem macro

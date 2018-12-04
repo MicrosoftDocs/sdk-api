@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtlIpv6StringToAddressW
-: 
 ---
 
 # RtlIpv6StringToAddressW function

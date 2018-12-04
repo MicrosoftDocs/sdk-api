@@ -4,10 +4,10 @@ title: CVssWriterEx2::GetSessionId
 author: windows-sdk-content
 description: Returns the writer's session identifier.
 old-location: base\cvsswriterex2_getsessionid.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: bea5ba9c-538b-453f-ae6d-12b94b8edeb6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CVssWriterEx2 interface,GetSessionId method, CVssWriterEx2.GetSessionId, CVssWriterEx2::GetSessionId, GetSessionId, GetSessionId method, GetSessionId method,CVssWriterEx2 interface, base.cvsswriterex2_getsessionid, vswriter/CVssWriterEx2::GetSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- CVssWriterEx2.GetSessionId
-: 
 ---
 
 # CVssWriterEx2::GetSessionId
@@ -90,7 +82,7 @@ The session identifier is an opaque value that uniquely identifies a backup or r
 As a best practice, writers and requesters should include the session ID in all diagnostics messages used for event logging and tracing.
 
 If a writer's event handler (such as <a href="https://msdn.microsoft.com/2aff5e87-4053-46a0-a7fb-7411e76166ba">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384993(v=VS.85).aspx">Writer Event Handling</a>.
+<a href="writers.htm">Writer Event Handling</a>.
 
 
 

@@ -4,10 +4,10 @@ title: RefreshPolicyEx function
 author: windows-sdk-content
 description: The RefreshPolicyEx function causes policy to be applied immediately on the computer. The extended function allows you to specify the type of policy refresh to apply.
 old-location: policy\refreshpolicyex.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: 905ab96b-a7f2-4bb4-a539-385f78284644
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RP_FORCE, RefreshPolicyEx, RefreshPolicyEx function [Group Policy], _win32_refreshpolicyex, policy.refreshpolicyex, userenv/RefreshPolicyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RefreshPolicyEx
-: 
 ---
 
 # RefreshPolicyEx function

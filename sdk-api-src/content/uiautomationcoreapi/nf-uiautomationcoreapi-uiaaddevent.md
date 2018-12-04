@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaAddEventClientEvent.htm
 tech.root: WinAuto
 ms.assetid: 6d53c864-2791-4693-84dd-c7c1d8262b1f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: UiaAddEvent, UiaAddEvent function [Windows Accessibility], uiauto.uiauto_UiaAddEventClientEvent, uiauto_UiaAddEventClientEvent, uiautomationcoreapi/UiaAddEvent, winauto.uiauto_UiaAddEventClientEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UiaAddEvent
-: 
 ---
 
 # UiaAddEvent function

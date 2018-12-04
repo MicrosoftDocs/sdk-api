@@ -4,10 +4,10 @@ title: RasGetProjectionInfoA function
 author: windows-sdk-content
 description: The RasGetProjectionInfo function obtains information about a remote access projection operation for a specified remote access component protocol.
 old-location: rras\rasgetprojectioninfo.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 97ae09c3-588a-4dd2-9756-ddcd5fa37f51
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RASP_Amb, RASP_PppCcp, RASP_PppIp, RASP_PppIpv6, RASP_PppIpx, RASP_PppLcp, RASP_PppNbf, RASP_Slip, RasGetProjectionInfo, RasGetProjectionInfo function [RAS], RasGetProjectionInfoA, RasGetProjectionInfoW, _ras_rasgetprojectioninfo, ras/RasGetProjectionInfo, ras/RasGetProjectionInfoA, ras/RasGetProjectionInfoW, rras.rasgetprojectioninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RasGetProjectionInfoA
-: 
 ---
 
 # RasGetProjectionInfoA function

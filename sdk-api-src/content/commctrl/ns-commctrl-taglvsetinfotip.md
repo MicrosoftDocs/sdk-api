@@ -4,10 +4,10 @@ title: tagLVSETINFOTIP
 author: windows-sdk-content
 description: Provides information about tooltip text that is to be set.
 old-location: controls\LVSETINFOTIP.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvsetinfotip.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*PLVSETINFOTIP, LVSETINFOTIP, LVSETINFOTIP structure [Windows Controls], PLVSETINFOTIP, PLVSETINFOTIP structure pointer [Windows Controls], commctrl/LVSETINFOTIP, commctrl/PLVSETINFOTIP, controls.LVSETINFOTIP, controls.inet_LVSETINFOTIP, inet_LVSETINFOTIP, inet_LVSETINFOTIP_cpp, tagLVSETINFOTIP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

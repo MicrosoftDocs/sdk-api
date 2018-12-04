@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_matrix.htm
 tech.root: DirectWrite
 ms.assetid: fe4bd8ba-fc3b-4a04-8a72-9983d52f4404
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DWRITE_MATRIX, DWRITE_MATRIX structure [Direct Write], directwrite.dwrite_matrix, dwrite/DWRITE_MATRIX
 ms.prod: windows-hardware
 ms.technology: windows-devices

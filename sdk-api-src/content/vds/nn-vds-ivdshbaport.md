@@ -4,10 +4,10 @@ title: IVdsHbaPort
 author: windows-sdk-content
 description: Provides methods to query and interact with HBA ports on the local system.
 old-location: base\ivdshbaport.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: beb6ae5c-b70a-4dbc-b16f-1b398a569f15
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVdsHbaPort, IVdsHbaPort interface [VDS], IVdsHbaPort interface [VDS],described, base.ivdshbaport, vds/IVdsHbaPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

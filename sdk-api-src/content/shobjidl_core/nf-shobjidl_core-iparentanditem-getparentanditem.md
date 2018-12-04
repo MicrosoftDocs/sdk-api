@@ -7,7 +7,7 @@ old-location: shell\IParentAndItem_GetParentAndItem.htm
 tech.root: shell
 ms.assetid: 351ad043-949c-46e1-a6cd-bcc15016f42a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetParentAndItem, GetParentAndItem method [Windows Shell], GetParentAndItem method [Windows Shell],IParentAndItem interface, IParentAndItem interface [Windows Shell],GetParentAndItem method, IParentAndItem.GetParentAndItem, IParentAndItem::GetParentAndItem, _shell_IParentAndItem_GetParentAndItem, shell.IParentAndItem_GetParentAndItem, shobjidl_core/IParentAndItem::GetParentAndItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IParentAndItem.GetParentAndItem
-: 
 ---
 
 # IParentAndItem::GetParentAndItem

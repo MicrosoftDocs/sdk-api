@@ -4,10 +4,10 @@ title: GetAcceptExSockaddrs function
 author: windows-sdk-content
 description: Parses the data obtained from a call to the AcceptEx function and passes the local and remote addresses to a sockaddr structure.Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
 old-location: winsock\getacceptexsockaddrs_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 381ba8ab-3c99-45c8-8895-4c87949f5238
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetAcceptExSockaddrs, GetAcceptExSockaddrs function [Winsock], _win32_getacceptexsockaddrs_2, winsock.getacceptexsockaddrs_2, winsock/GetAcceptExSockaddrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetAcceptExSockaddrs
-: 
 ---
 
 # GetAcceptExSockaddrs function

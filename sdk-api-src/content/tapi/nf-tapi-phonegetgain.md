@@ -4,10 +4,10 @@ title: phoneGetGain function
 author: windows-sdk-content
 description: The phoneGetGain function returns the gain setting of the microphone of the specified phone's hookswitch device.
 old-location: tapi2\phonegetgain.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: ea6ba2f0-ff79-41b8-9165-bb250077b2dc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_tapi2_phonegetgain, phoneGetGain, phoneGetGain function [TAPI 2.2], tapi/phoneGetGain, tapi2.phonegetgain"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- phoneGetGain
-: 
 ---
 
 # phoneGetGain function

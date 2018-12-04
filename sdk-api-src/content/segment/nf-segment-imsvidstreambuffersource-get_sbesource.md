@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidStreamBufferSource.get_SBESource
-: 
 ---
 
 # IMSVidStreamBufferSource::get_SBESource

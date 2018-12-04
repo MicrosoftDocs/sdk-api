@@ -4,10 +4,10 @@ title: CreateTransaction function
 author: windows-sdk-content
 description: Creates a new transaction object.
 old-location: fs\createtransaction.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: 578bda35-bd35-4f6d-8366-a4bfb4dbfe42
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateTransaction, CreateTransaction function [Files], TRANSACTION_DO_NOT_PROMOTE, fs.createtransaction, ktmw32/CreateTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateTransaction
-: 
 ---
 
 # CreateTransaction function

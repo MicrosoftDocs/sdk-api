@@ -7,7 +7,7 @@ old-location: gdi\modifyworldtransform.htm
 tech.root: gdi
 ms.assetid: 2ce070e8-dd6d-4f28-8214-37e825b44273
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MWT_IDENTITY, MWT_LEFTMULTIPLY, MWT_RIGHTMULTIPLY, ModifyWorldTransform, ModifyWorldTransform function [Windows GDI], _win32_ModifyWorldTransform, gdi.modifyworldtransform, wingdi/ModifyWorldTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ModifyWorldTransform
-: 
 ---
 
 # ModifyWorldTransform function

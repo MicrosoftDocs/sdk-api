@@ -4,10 +4,10 @@ title: AuditQuerySecurity function
 author: windows-sdk-content
 description: Retrieves security descriptor that delegates access to audit policy.
 old-location: security\auditquerysecurity.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 496c9659-0c03-42c9-93c4-eb4d97e950e2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AuditQuerySecurity, AuditQuerySecurity function [Security], ntsecapi/AuditQuerySecurity, security.auditquerysecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AuditQuerySecurity
-: 
 ---
 
 # AuditQuerySecurity function

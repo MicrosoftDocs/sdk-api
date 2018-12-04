@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_addlistcontents.htm
 tech.root: WMP
 ms.assetid: 22d28495-310e-4f3d-a0e3-8f6679c78c40
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddListContents, AddListContents method [Windows Media Player], AddListContents method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],AddListContents method, IWMPContentPartnerCallback.AddListContents, IWMPContentPartnerCallback::AddListContents, IWMPContentPartnerCallbackAddListContents, contentpartner/IWMPContentPartnerCallback::AddListContents, wmp.iwmpcontentpartnercallback_addlistcontents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- contentpartner.h
-: 
-- IWMPContentPartnerCallback.AddListContents
-: 
 ---
 
 # IWMPContentPartnerCallback::AddListContents
@@ -73,7 +65,7 @@ The <b>AddListContents</b> method adds a set of media items to a list.
 
 ### -param dwListCookie [in]
 
-A cookie that identifies a list retrieval session. Windows Media Player previously supplied this cookie to the content partner plug-in by calling <a href="https://msdn.microsoft.com/en-us/library/Dd563166(v=VS.85).aspx">IWMPContentPartner::GetListContents</a>.
+A cookie that identifies a list retrieval session. Windows Media Player previously supplied this cookie to the content partner plug-in by calling <a href="https://msdn.microsoft.com/a48935ea-8275-4b68-a1ab-006a23c455ad">IWMPContentPartner::GetListContents</a>.
 
 
 ### -param cItems [in]
@@ -119,7 +111,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563142(v=VS.85).aspx">IWMPContentPartnerCallback Interface</a>
+<a href="https://msdn.microsoft.com/3c66052b-2b82-44aa-868d-5d5a4501c457">IWMPContentPartnerCallback Interface</a>
  
 
  

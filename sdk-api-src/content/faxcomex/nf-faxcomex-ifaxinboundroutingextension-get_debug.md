@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxInboundRoutingExtension.get_Debug
-: 
 ---
 
 # IFaxInboundRoutingExtension::get_Debug

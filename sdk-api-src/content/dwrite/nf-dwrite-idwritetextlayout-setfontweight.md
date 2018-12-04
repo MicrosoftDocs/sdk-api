@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_SetFontWeight.htm
 tech.root: DirectWrite
 ms.assetid: c6b65548-c486-4006-afe9-95bc628bbf70
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontWeight method, IDWriteTextLayout.SetFontWeight, IDWriteTextLayout::SetFontWeight, SetFontWeight, SetFontWeight method [Direct Write], SetFontWeight method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontWeight, dwrite/IDWriteTextLayout::SetFontWeight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteTextLayout.SetFontWeight
-: 
 ---
 
 # IDWriteTextLayout::SetFontWeight
@@ -99,27 +91,31 @@ The font weight can be set to one of the predefined font weight values provided 
 
 The following illustration shows an example of Normal and UltraBold weights for the Palatino Linotype typeface.
 
-<img alt='Illustration of the letter "W" in Normal and UltraBold weights' src="./images/FontWeight_for_Palatino.png"/>
+<img alt='Illustration of the letter "W" in Normal and UltraBold weights' src="images/FontWeight_for_Palatino.png"/>
 
 #### Examples
 
 The following code illustrates how to set the font weight to bold.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Set the font weight to bold for the entire string.
 DWRITE_TEXT_RANGE textRange = {0, cTextLength_};
 
 if (SUCCEEDED(hr))
 {
-    hr = pTextLayout_->SetFontWeight(DWRITE_FONT_WEIGHT_BOLD, textRange);
+    hr = pTextLayout_-&gt;SetFontWeight(DWRITE_FONT_WEIGHT_BOLD, textRange);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

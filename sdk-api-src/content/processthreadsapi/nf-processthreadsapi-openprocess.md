@@ -4,10 +4,10 @@ title: OpenProcess function
 author: windows-sdk-content
 description: Opens an existing local process object.
 old-location: base\openprocess.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 8f695c38-19c4-49e4-97de-8b64ea536cb1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: OpenProcess, OpenProcess function, _win32_openprocess, base.openprocess, processthreadsapi/OpenProcess, winbase/OpenProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OpenProcess
-: 
 ---
 
 # OpenProcess function

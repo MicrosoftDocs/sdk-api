@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_getstoragefilter.htm
 tech.root: direct3d11
 ms.assetid: 87c9d6f0-8a3d-47d4-bfcb-369ec9cbf01a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 825c16d1-ee7b-8b61-1f92-96e2717bbbee, GetStorageFilter, GetStorageFilter method [Direct3D 11], GetStorageFilter method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetStorageFilter method, ID3D11InfoQueue.GetStorageFilter, ID3D11InfoQueue::GetStorageFilter, d3d11sdklayers/ID3D11InfoQueue::GetStorageFilter, direct3d11.id3d11infoqueue_getstoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11sdklayers.h
-: 
-- ID3D11InfoQueue.GetStorageFilter
-: 
 ---
 
 # ID3D11InfoQueue::GetStorageFilter
@@ -69,14 +61,14 @@ Get the storage filter at the top of the storage-filter stack.
 
 ### -param pFilter [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476177(v=VS.85).aspx">D3D11_INFO_QUEUE_FILTER</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/6ff12751-86dd-4ae0-b532-661a70dad21f">D3D11_INFO_QUEUE_FILTER</a>*</b>
 
 Storage filter at the top of the storage-filter stack.
 
 
 ### -param pFilterByteLength [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">SIZE_T</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a>*</b>
 
 Size of the storage filter in bytes. If pFilter is <b>NULL</b>, the size of the storage filter will be output to this parameter.
 
@@ -85,9 +77,9 @@ Size of the storage filter in bytes. If pFilter is <b>NULL</b>, the size of the 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
 
 
@@ -97,7 +89,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476538(v=VS.85).aspx">ID3D11InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">ID3D11InfoQueue Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\SHAddFromPropSheetExtArray.htm
 tech.root: shell
 ms.assetid: e0570cd6-dda2-43e4-8540-58baef37bf18
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SHAddFromPropSheetExtArray, SHAddFromPropSheetExtArray function [Windows Shell], _win32_SHAddFromPropSheetExtArray, shell.SHAddFromPropSheetExtArray, shlobj_core/SHAddFromPropSheetExtArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHAddFromPropSheetExtArray
-: 
 ---
 
 # SHAddFromPropSheetExtArray function
@@ -77,7 +71,7 @@ The array of property sheet handlers returned by <a href="https://msdn.microsoft
 
 Type: <b>LPFNADDPROPSHEETPAGE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb760805(v=VS.85).aspx">AddPropSheetPageProc</a> callback function. It is called once for each property sheet handler. The callback function then returns the information needed to add a page to the handler's property sheet.
+A pointer to an <a href="https://msdn.microsoft.com/37673813-89dc-4624-a58b-fe5f44df46c6">AddPropSheetPageProc</a> callback function. It is called once for each property sheet handler. The callback function then returns the information needed to add a page to the handler's property sheet.
 
 
 ### -param lParam

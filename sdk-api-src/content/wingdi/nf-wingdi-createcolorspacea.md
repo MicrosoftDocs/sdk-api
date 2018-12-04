@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateColorSpaceA
-: 
 ---
 
 # CreateColorSpaceA function
@@ -60,7 +54,7 @@ req.redist:
 ## -description
 
 
-The <b>CreateColorSpace</b> function creates a logical <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a>.
+The <b>CreateColorSpace</b> function creates a logical <a href="c.htm">color space</a>.
 
 
 ## -parameters

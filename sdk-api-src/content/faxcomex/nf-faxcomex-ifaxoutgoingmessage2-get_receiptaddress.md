@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxOutgoingMessage2.get_ReceiptAddress
-: 
 ---
 
 # IFaxOutgoingMessage2::get_ReceiptAddress

@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidGraphSegmentContainer.get_Graph
-: 
 ---
 
 # IMSVidGraphSegmentContainer::get_Graph

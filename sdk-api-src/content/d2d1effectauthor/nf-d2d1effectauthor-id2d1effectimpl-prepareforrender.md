@@ -4,10 +4,10 @@ title: ID2D1EffectImpl::PrepareForRender
 author: windows-sdk-content
 description: Prepares an effect for the rendering process.
 old-location: direct2d\id2d1effectimpl_prepareforrender.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 0EBA4FDB-A9EA-4FCF-BF40-3D73ED356CD4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID2D1EffectImpl interface [Direct2D],PrepareForRender method, ID2D1EffectImpl.PrepareForRender, ID2D1EffectImpl::PrepareForRender, PrepareForRender, PrepareForRender method [Direct2D], PrepareForRender method [Direct2D],ID2D1EffectImpl interface, d2d1effectauthor/ID2D1EffectImpl::PrepareForRender, direct2d.id2d1effectimpl_prepareforrender
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1effectauthor.h
-: 
-- ID2D1EffectImpl.PrepareForRender
-: 
 ---
 
 # ID2D1EffectImpl::PrepareForRender
@@ -107,9 +99,13 @@ Most effects defer creating any resources or specifying a topology until this ca
 
 An effect normally waits until it is rendered before snapping its current state and applying it to any transforms it has encapsulated.
 
-
-```cpp
-class CMyTransform : public ID2D1DrawTransform
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>class CMyTransform : public ID2D1DrawTransform
 {
 public:
 
@@ -127,7 +123,7 @@ public:
     IFACEMETHODIMP PrepareForRender(D2D1_CHANGE_TYPE /*type*/)
     {
         // Send the radius to the transform and ask it to render.
-        return _pMyTransform->PrepareForRender(_radius);
+        return _pMyTransform-&gt;PrepareForRender(_radius);
     }
 
 private:
@@ -135,10 +131,10 @@ private:
     CMyTransform *_pMyTransform;
     FLOAT _radius;
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

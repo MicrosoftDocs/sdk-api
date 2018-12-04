@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_setpacketvaluesbyproperty.htm
 tech.root: tablet
 ms.assetid: 9d90e93e-4c4a-43bd-a431-59522e332f2a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 9d90e93e-4c4a-43bd-a431-59522e332f2a, IInkStrokeDisp interface [Tablet PC],SetPacketValuesByProperty method, IInkStrokeDisp.SetPacketValuesByProperty, IInkStrokeDisp::SetPacketValuesByProperty, SetPacketValuesByProperty, SetPacketValuesByProperty method [Tablet PC], SetPacketValuesByProperty method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::SetPacketValuesByProperty, tablet.iinkstrokedisp_setpacketvaluesbyproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkStrokeDisp.SetPacketValuesByProperty
-: 
 ---
 
 # IInkStrokeDisp::SetPacketValuesByProperty

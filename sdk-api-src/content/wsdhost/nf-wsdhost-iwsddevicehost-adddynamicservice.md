@@ -4,10 +4,10 @@ title: IWSDDeviceHost::AddDynamicService
 author: windows-sdk-content
 description: Registers a service object for incoming requests, but does not add the service to the device host metadata. This is used for transient (dynamic) services.
 old-location: ncd\iwsddevicehost_adddynamicservice_method.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 0ef7760d-39eb-48fe-a7e9-043c2b9ba5a4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddDynamicService, AddDynamicService method, AddDynamicService method,IWSDDeviceHost interface, IWSDDeviceHost interface,AddDynamicService method, IWSDDeviceHost.AddDynamicService, IWSDDeviceHost::AddDynamicService, ncd.iwsddevicehost_adddynamicservice_method, wsdhost/IWSDDeviceHost::AddDynamicService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdhost.h
-: 
-- IWSDDeviceHost.AddDynamicService
-: 
 ---
 
 # IWSDDeviceHost::AddDynamicService

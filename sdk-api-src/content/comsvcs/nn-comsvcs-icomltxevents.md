@@ -7,7 +7,7 @@ old-location: cos\icomltxevents.htm
 tech.root: cossdk
 ms.assetid: 8be6dddb-ed57-4715-8933-8a0e478095c8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IComLTxEvents, IComLTxEvents interface [COM+], IComLTxEvents interface [COM+],described, comsvcs/IComLTxEvents, cos.icomltxevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,14 +50,14 @@ req.redist:
 ## -description
 
 
-Notifies the subscriber of events that relate to COM+ transactions. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber of events that relate to COM+ transactions. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComLTxEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IComLTxEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComLTxEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IComLTxEvents</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IComLTxEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681213(v=VS.85).aspx">OnLtxTransactionAbort</a>
+<a href="https://msdn.microsoft.com/49117b74-e84b-497c-ae13-6037e8243e79">OnLtxTransactionAbort</a>
 </td>
 <td align="left" width="63%">
 Generated when a transaction is aborted.
@@ -79,7 +79,7 @@ Generated when a transaction is aborted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686423(v=VS.85).aspx">OnLtxTransactionCommit</a>
+<a href="https://msdn.microsoft.com/c3462a79-6056-4a57-b971-78d8b4bd2a70">OnLtxTransactionCommit</a>
 </td>
 <td align="left" width="63%">
 Generated when a transaction is committed.
@@ -88,7 +88,7 @@ Generated when a transaction is committed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679562(v=VS.85).aspx">OnLtxTransactionPrepare</a>
+<a href="https://msdn.microsoft.com/31915d4c-7ac0-406b-b2d2-ab96b317be3f">OnLtxTransactionPrepare</a>
 </td>
 <td align="left" width="63%">
 Generated when COM+ receives a prepare notification for a transaction.
@@ -97,7 +97,7 @@ Generated when COM+ receives a prepare notification for a transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684391(v=VS.85).aspx">OnLtxTransactionPromote</a>
+<a href="https://msdn.microsoft.com/9cd9927c-355c-4d9f-b679-278e4b6897e1">OnLtxTransactionPromote</a>
 </td>
 <td align="left" width="63%">
 Generated when a transaction is promoted.
@@ -106,7 +106,7 @@ Generated when a transaction is promoted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms678925(v=VS.85).aspx">OnLtxTransactionStart</a>
+<a href="https://msdn.microsoft.com/0d063e3f-d7f8-45b1-995f-29903c42ec37">OnLtxTransactionStart</a>
 </td>
 <td align="left" width="63%">
 Generated when a transaction is started.
@@ -121,11 +121,11 @@ Generated when a transaction is started.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a>
+<a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678896(v=VS.85).aspx">COM+ Instrumentation</a>
+<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
  
 
  

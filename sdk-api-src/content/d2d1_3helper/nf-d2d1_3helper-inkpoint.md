@@ -4,10 +4,10 @@ title: InkPoint function
 author: windows-sdk-content
 description: Creates a D2D1_INK_POINT structure.
 old-location: direct2d\inkpoint.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 6ab8c30d-1ab8-1148-5cce-29797c5f5ad5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: InkPoint, InkPoint function [Direct2D], d2d1_3helper/InkPoint, direct2d.inkpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InkPoint
-: 
 ---
 
 # InkPoint function
@@ -56,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dn890752(v=VS.85).aspx">D2D1_INK_POINT</a> structure.
+Creates a <a href="https://msdn.microsoft.com/C18E7B04-12B8-4EB9-BAFB-24FBA99210E9">D2D1_INK_POINT</a> structure.
         
 
 
@@ -67,7 +61,7 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/Dn890752(v=VS.85).as
 
 ### -param point [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The x and y coordinates of the point.
 
@@ -83,9 +77,9 @@ The radius of this point. Corresponds to the width of the ink stroke at this poi
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890752(v=VS.85).aspx">D2D1_INK_POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/C18E7B04-12B8-4EB9-BAFB-24FBA99210E9">D2D1_INK_POINT</a></b>
 
-Returns the created <a href="https://msdn.microsoft.com/en-us/library/Dn890752(v=VS.85).aspx">D2D1_INK_POINT</a> structure.
+Returns the created <a href="https://msdn.microsoft.com/C18E7B04-12B8-4EB9-BAFB-24FBA99210E9">D2D1_INK_POINT</a> structure.
           
 
 
@@ -96,7 +90,7 @@ Returns the created <a href="https://msdn.microsoft.com/en-us/library/Dn890752(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn890752(v=VS.85).aspx">D2D1_INK_POINT</a>
+<a href="https://msdn.microsoft.com/C18E7B04-12B8-4EB9-BAFB-24FBA99210E9">D2D1_INK_POINT</a>
  
 
  

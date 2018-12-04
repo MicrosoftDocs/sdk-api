@@ -4,10 +4,10 @@ title: "_VDS_LUN_INFORMATION"
 author: windows-sdk-content
 description: Defines information about a LUN or disk. Applications can use this structure to uniquely identify a LUN at all times.
 old-location: base\vds_lun_information.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VDS_LUN_INFORMATION, VDS_LUN_INFORMATION structure [VDS], _VDS_LUN_INFORMATION, base.vds_lun_information, vdslun/_VDS_LUN_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

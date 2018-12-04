@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice3_resolveresource.htm
 tech.root: xaml_diagnostics
 ms.assetid: 7DDF1FD0-AD9B-4679-831D-CEDF6524181B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVisualTreeService3 interface,ResolveResource method, IVisualTreeService3.ResolveResource, IVisualTreeService3::ResolveResource, ResolveResource, ResolveResource method, ResolveResource method,IVisualTreeService3 interface, xaml_diagnostics.ivisualtreeservice3_resolveresource, xamlom/IVisualTreeService3::ResolveResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xamlom.h
-: 
-- IVisualTreeService3.ResolveResource
-: 
 ---
 
 # IVisualTreeService3::ResolveResource

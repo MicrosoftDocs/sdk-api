@@ -4,10 +4,10 @@ title: Vector3F function
 author: windows-sdk-content
 description: Returns a filled D2D1_VECTOR_3F structure.
 old-location: direct2d\vector3f.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: C2842DD9-A70E-4B7C-AFF5-3B95631800A3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Vector3F, Vector3F function [Direct2D], d2d1_1helper/Vector3F, direct2d.vector3f
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Vector3F
-: 
 ---
 
 # Vector3F function

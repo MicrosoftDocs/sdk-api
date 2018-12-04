@@ -4,10 +4,10 @@ title: IComponent2
 author: windows-sdk-content
 description: The IComponent2 interface, implemented by snap-ins, is introduced in MMC 2.0 and supersedes the IComponent interface.
 old-location: mmc\icomponent2.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: b9e67a37-c09d-46f3-896f-e75122256812
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IComponent2, IComponent2 interface [MMC], IComponent2 interface [MMC],described, _slate_icomponent2, mmc.icomponent2, mmc/IComponent2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFsrmQuotaBase::EnumThresholdActions
 author: windows-sdk-content
 description: Enumerates all the actions for the specified threshold.
 old-location: fsrm\ifsrmquotabase_enumthresholdactions.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: ce4f85a9-f2e0-42df-adb4-7c21256d5305
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EnumThresholdActions, EnumThresholdActions method [File Server Resource Manager], EnumThresholdActions method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],EnumThresholdActions method, IFsrmQuotaBase.EnumThresholdActions, IFsrmQuotaBase::EnumThresholdActions, fs.ifsrmquotabase_enumthresholdactions, fsrm.ifsrmquotabase_enumthresholdactions, fsrmquota/IFsrmQuotaBase::EnumThresholdActions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmquota.h
-: 
-- IFsrmQuotaBase.EnumThresholdActions
-: 
 ---
 
 # IFsrmQuotaBase::EnumThresholdActions

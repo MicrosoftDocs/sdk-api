@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioloudness.htm
 tech.root: CoreAudio
 ms.assetid: c182d6ae-c55b-4e3b-9639-7c2f2f7d826d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAudioLoudness, IAudioLoudness interface [Core Audio], IAudioLoudness interface [Core Audio],described, coreaudio.iaudioloudness, devicetopology/IAudioLoudness
 ms.prod: windows-hardware
 ms.technology: windows-devices

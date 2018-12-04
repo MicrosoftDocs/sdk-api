@@ -4,10 +4,10 @@ title: IX509CertificateTemplates::get_ItemByOid
 author: windows-sdk-content
 description: Retrieves an IX509CertificateTemplate object from the collection by object identifier.
 old-location: security\ix509certificatetemplates_itembyoid.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: f601a98b-035d-428b-8579-8e26365e4b78
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IX509CertificateTemplates interface [Security],ItemByOid property, IX509CertificateTemplates.ItemByOid, IX509CertificateTemplates.get_ItemByOid, IX509CertificateTemplates::ItemByOid, IX509CertificateTemplates::get_ItemByOid, ItemByOid property [Security], ItemByOid property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByOid, certenroll/IX509CertificateTemplates::get_ItemByOid, get_ItemByOid, security.ix509certificatetemplates_itembyoid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509CertificateTemplates.get_ItemByOid
-: 
 ---
 
 # IX509CertificateTemplates::get_ItemByOid
@@ -59,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>ItemByOid</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> object from the collection by <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a>.
+The <b>ItemByOid</b> property retrieves an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object from the collection by <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a>.
 
 This property is read-only.
 
@@ -72,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a>
+<a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351665(v=VS.85).aspx">IX509CertificateTemplates</a>
+<a href="https://msdn.microsoft.com/82d14b93-e07b-4ff3-88b9-b1873972b4ad">IX509CertificateTemplates</a>
  
 
  

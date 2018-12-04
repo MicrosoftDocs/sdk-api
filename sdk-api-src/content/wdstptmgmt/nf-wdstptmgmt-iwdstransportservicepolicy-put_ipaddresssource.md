@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportServicePolicy.put_IpAddressSource
-: 
 ---
 
 # IWdsTransportServicePolicy::put_IpAddressSource

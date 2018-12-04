@@ -4,10 +4,10 @@ title: IWSDMessageParameters::SetRemoteAddress
 author: windows-sdk-content
 description: Sets the generic address object representing the remote address to where the message is sent.
 old-location: ncd\iwsdmessageparameters_setremoteaddress.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 7e762942-37b2-43ca-96e3-98594b929d98
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWSDMessageParameters interface,SetRemoteAddress method, IWSDMessageParameters.SetRemoteAddress, IWSDMessageParameters::SetRemoteAddress, SetRemoteAddress, SetRemoteAddress method, SetRemoteAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setremoteaddress, wsdbase/IWSDMessageParameters::SetRemoteAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdbase.h
-: 
-- IWSDMessageParameters.SetRemoteAddress
-: 
 ---
 
 # IWSDMessageParameters::SetRemoteAddress

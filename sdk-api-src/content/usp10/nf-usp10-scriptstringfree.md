@@ -7,7 +7,7 @@ old-location: intl\scriptstringfree.htm
 tech.root: Intl
 ms.assetid: 39d633a7-def7-41ef-80e5-f4c5c90cebba
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ScriptStringFree, ScriptStringFree function [Internationalization for Windows Applications], _win32_ScriptStringFree, intl.scriptstringfree, usp10/ScriptStringFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
-- apiref
-: 
-- 
-: 
-- ScriptStringFree
-: 
 ---
 
 # ScriptStringFree function

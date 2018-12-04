@@ -4,10 +4,10 @@ title: IUpdate::CopyFromCache
 author: windows-sdk-content
 description: Copies the contents of an update to a specified path.
 old-location: wua\iupdate_copyfromcache.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 43af8bb9-0e09-4541-bc2e-fd40be64a980
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CopyFromCache, CopyFromCache method [Windows Update Agent], CopyFromCache method [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],CopyFromCache method, IUpdate.CopyFromCache, IUpdate::CopyFromCache, wua.iupdate_copyfromcache, wuapi/IUpdate::CopyFromCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdate.CopyFromCache
-: 
 ---
 
 # IUpdate::CopyFromCache

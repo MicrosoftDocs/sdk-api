@@ -7,7 +7,7 @@ old-location: cos\iserviceactivity.htm
 tech.root: cossdk
 ms.assetid: 005bf0ec-f5a7-41a3-85b3-07f79f26af27
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IServiceActivity, IServiceActivity interface [COM+], IServiceActivity interface [COM+],described, _cos_IServiceActivity, comsvcs/IServiceActivity, cos.iserviceactivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,15 +50,15 @@ req.redist:
 ## -description
 
 
-Used to call the batch work that is submitted through the activity created by <a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a>.
+Used to call the batch work that is submitted through the activity created by <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>.
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceActivity</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IServiceActivity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceActivity</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IServiceActivity</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IServiceActivity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679229(v=VS.85).aspx">AsynchronousCall</a>
+<a href="https://msdn.microsoft.com/1d81f2e6-9426-4733-bd1d-0b6ca087cc0a">AsynchronousCall</a>
 </td>
 <td align="left" width="63%">
 Performs the user-defined work asynchronously.
@@ -80,7 +80,7 @@ Performs the user-defined work asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms680314(v=VS.85).aspx">BindToCurrentThread</a>
+<a href="https://msdn.microsoft.com/3d2b57fd-1714-4fdf-859c-9fdfb341dd5d">BindToCurrentThread</a>
 </td>
 <td align="left" width="63%">
 Binds the user-defined batch work to the current thread.
@@ -89,7 +89,7 @@ Binds the user-defined batch work to the current thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686691(v=VS.85).aspx">SynchronousCall</a>
+<a href="https://msdn.microsoft.com/d25e6942-7b1b-4b74-b711-2d0f513d0b38">SynchronousCall</a>
 </td>
 <td align="left" width="63%">
 Performs the user-defined work synchronously.
@@ -98,7 +98,7 @@ Performs the user-defined work synchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687124(v=VS.85).aspx">UnbindFromThread</a>
+<a href="https://msdn.microsoft.com/e28b413d-6e3e-4a1f-90ed-8b0ab88904aa">UnbindFromThread</a>
 </td>
 <td align="left" width="63%">
 Unbinds the user-defined batch work from the thread on which it is running.
@@ -117,19 +117,19 @@ Unbinds the user-defined batch work from the thread on which it is running.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a>
+<a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683598(v=VS.85).aspx">IAsyncErrorNotify</a>
+<a href="https://msdn.microsoft.com/870ab43a-c675-499b-a1e3-1f48176768c0">IAsyncErrorNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684294(v=VS.85).aspx">IServiceCall</a>
+<a href="https://msdn.microsoft.com/97532e29-3d1a-4a7c-8103-dd7ae2866a70">IServiceCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683642(v=VS.85).aspx">IServiceThreadPoolConfig</a>
+<a href="https://msdn.microsoft.com/89c04fef-c6a0-4d73-a25a-a70b4b0f0bcf">IServiceThreadPoolConfig</a>
  
 
  

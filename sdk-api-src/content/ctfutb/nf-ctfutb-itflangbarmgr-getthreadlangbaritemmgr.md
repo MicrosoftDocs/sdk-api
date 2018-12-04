@@ -7,7 +7,7 @@ old-location: tsf\itflangbarmgr_getthreadlangbaritemmgr.htm
 tech.root: TSF
 ms.assetid: 3ca37268-eb27-4d8b-9a16-306f77369e8f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetThreadLangBarItemMgr, GetThreadLangBarItemMgr method [Text Services Framework], GetThreadLangBarItemMgr method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetThreadLangBarItemMgr method, ITfLangBarMgr.GetThreadLangBarItemMgr, ITfLangBarMgr::GetThreadLangBarItemMgr, _tsf_itflangbarmgr_getthreadlangbaritemmgr_ref, ctfutb/ITfLangBarMgr::GetThreadLangBarItemMgr, tsf.itflangbarmgr_getthreadlangbaritemmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctfutb.h
-: 
-- ITfLangBarMgr.GetThreadLangBarItemMgr
-: 
 ---
 
 # ITfLangBarMgr::GetThreadLangBarItemMgr
@@ -88,7 +80,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 
@@ -97,7 +89,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628748(v=VS.85).aspx">ITfLangBarMgr</a>
+<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
  
 
  

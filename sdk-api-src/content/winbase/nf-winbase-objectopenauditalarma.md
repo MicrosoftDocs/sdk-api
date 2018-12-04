@@ -4,10 +4,10 @@ title: ObjectOpenAuditAlarmA function
 author: windows-sdk-content
 description: Generates audit messages when a client application attempts to gain access to an object or to create a new one.
 old-location: security\objectopenauditalarm.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: f3cb607b-a8fd-4a1b-9361-7ccd7cd8aac2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ObjectOpenAuditAlarm, ObjectOpenAuditAlarm function [Security], ObjectOpenAuditAlarmA, ObjectOpenAuditAlarmW, _win32_objectopenauditalarm, security.objectopenauditalarm, winbase/ObjectOpenAuditAlarm, winbase/ObjectOpenAuditAlarmA, winbase/ObjectOpenAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ObjectOpenAuditAlarmA
-: 
 ---
 
 # ObjectOpenAuditAlarmA function
@@ -186,7 +180,7 @@ The <b>ObjectOpenAuditAlarm</b> function requires the calling application to hav
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

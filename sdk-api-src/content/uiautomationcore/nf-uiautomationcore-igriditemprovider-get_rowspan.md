@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IGridItemProvider_RowSpan.htm
 tech.root: WinAuto
 ms.assetid: 87636dd8-b62e-4ebf-8921-e5a91c8547e6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IGridItemProvider interface [Windows Accessibility],RowSpan property, IGridItemProvider.RowSpan, IGridItemProvider.get_RowSpan, IGridItemProvider::RowSpan, IGridItemProvider::get_RowSpan, RowSpan property [Windows Accessibility], RowSpan property [Windows Accessibility],IGridItemProvider interface, get_RowSpan, uiauto.uiauto_IGridItemProvider_RowSpan, uiauto_IGridItemProvider_RowSpan, uiautomationcore/IGridItemProvider::RowSpan, uiautomationcore/IGridItemProvider::get_RowSpan, winauto.uiauto_IGridItemProvider_RowSpan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationcore.h
-: 
-- IGridItemProvider.get_RowSpan
-: 
 ---
 
 # IGridItemProvider::get_RowSpan

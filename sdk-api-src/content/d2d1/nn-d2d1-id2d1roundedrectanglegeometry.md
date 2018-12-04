@@ -4,10 +4,10 @@ title: ID2D1RoundedRectangleGeometry
 author: windows-sdk-content
 description: Describes a rounded rectangle.
 old-location: direct2d\ID2D1RoundedRectangleGeometry.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: e49e9be7-155a-4487-9931-035f18771c04
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID2D1RoundedRectangleGeometry, ID2D1RoundedRectangleGeometry interface [Direct2D], ID2D1RoundedRectangleGeometry interface [Direct2D],described, d2d1/ID2D1RoundedRectangleGeometry, direct2d.ID2D1RoundedRectangleGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices

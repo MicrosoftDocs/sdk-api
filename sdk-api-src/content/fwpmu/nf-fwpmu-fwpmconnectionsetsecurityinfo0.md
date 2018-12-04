@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmConnectionSetSecurityInfo0
-: 
 ---
 
 # FwpmConnectionSetSecurityInfo0 function

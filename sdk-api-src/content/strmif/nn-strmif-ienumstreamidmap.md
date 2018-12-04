@@ -7,7 +7,7 @@ old-location: dshow\ienumstreamidmap.htm
 tech.root: DirectShow
 ms.assetid: 8bca9255-2bc8-408b-9127-e3fe050fcf01
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumStreamIdMap, IEnumStreamIdMap interface [DirectShow], IEnumStreamIdMap interface [DirectShow],described, IEnumStreamIdMapInterface, dshow.ienumstreamidmap, strmif/IEnumStreamIdMap
 ms.prod: windows-hardware
 ms.technology: windows-devices

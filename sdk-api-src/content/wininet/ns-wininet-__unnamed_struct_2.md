@@ -1,22 +1,22 @@
 ---
 UID: NS:wininet.__unnamed_struct_2
-title: InternetCookieHistory
+title: INTERNET_PROXY_INFO
 author: windows-sdk-content
-description: The InternetCookieHistory structure contains the cookie history.
-old-location: wininet\internetcookiehistory.htm
-tech.root: WinInet
-ms.assetid: c3aba5be-da66-4471-98e7-95fa5bd88c99
+description: Contains information that is supplied with the INTERNET_OPTION_PROXY value to get or set proxy information on a handle obtained from a call to the InternetOpen function.
+old-location: wininet\internet_proxy_info.htm
+tech.root: wininet
+ms.assetid: f2431800-dbcc-4933-87f5-2d08ca22ad9c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: InternetCookieHistory, InternetCookieHistory structure [WinINet], wininet.internetcookiehistory, wininet/InternetCookieHistory
+ms.date: 11/16/2018
+ms.keywords: "*LPINTERNET_PROXY_INFO, INTERNET_OPEN_TYPE_DIRECT, INTERNET_OPEN_TYPE_PRECONFIG, INTERNET_OPEN_TYPE_PROXY, INTERNET_PROXY_INFO, INTERNET_PROXY_INFO structure [WinINet], LPINTERNET_PROXY_INFO, LPINTERNET_PROXY_INFO structure pointer [WinINet], _inet_internet_proxy_info_structure, wininet.internet_proxy_info, wininet/ LPINTERNET_PROXY_INFO, wininet/INTERNET_PROXY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -37,20 +37,21 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - InternetCookieHistory
+ - INTERNET_PROXY_INFO
 product: Windows
 targetos: Windows
-req.typenames: InternetCookieHistory
+req.typenames: INTERNET_PROXY_INFO, *LPINTERNET_PROXY_INFO
 req.redist: 
 ---
 
-# InternetCookieHistory structure
+# INTERNET_PROXY_INFO structure
 
 
 ## -description
 
 
-The <b>InternetCookieHistory</b> structure contains the cookie history.
+Contains information that is supplied with the INTERNET_OPTION_PROXY value to get or set proxy information on a handle obtained from a call to the 
+<a href="https://msdn.microsoft.com/9ec087c9-d484-4763-a527-2ea5c1a0cf28">InternetOpen</a> function. 
 
 
 ## -struct-fields
@@ -58,24 +59,57 @@ The <b>InternetCookieHistory</b> structure contains the cookie history.
 
 
 
-### -field fAccepted
+### -field dwAccessType
 
-If true, the cookie was accepted.
+Access type. This member can be one of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="INTERNET_OPEN_TYPE_DIRECT"></a><a id="internet_open_type_direct"></a><dl>
+<dt><b>INTERNET_OPEN_TYPE_DIRECT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Internet accessed through a direct connection. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="INTERNET_OPEN_TYPE_PRECONFIG"></a><a id="internet_open_type_preconfig"></a><dl>
+<dt><b>INTERNET_OPEN_TYPE_PRECONFIG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Applies only when setting proxy information. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="INTERNET_OPEN_TYPE_PROXY"></a><a id="internet_open_type_proxy"></a><dl>
+<dt><b>INTERNET_OPEN_TYPE_PROXY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Internet accessed using a proxy. 
+
+</td>
+</tr>
+</table>
+ 
 
 
-### -field fLeashed
+### -field lpszProxy
 
-If true, the cookie was leashed.
-
-
-### -field fDowngraded
-
-If true, the cookie was downgraded.
+Pointer to a string that contains the proxy server list. 
 
 
-### -field fRejected
+### -field lpszProxyBypass
 
-If true, the cookie was rejected.
+Pointer to a string that contains the proxy bypass list. 
 
 
 ## -remarks
@@ -85,4 +119,19 @@ If true, the cookie was rejected.
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b0bafd3d-8f54-429e-b423-dae3d61b0030">InternetQueryOption</a>
+
+
+
+<a href="https://msdn.microsoft.com/578c7130-7426-4a2e-ae0f-ed8a84449b06">InternetSetOption</a>
+ 
+
+ 
 

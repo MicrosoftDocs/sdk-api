@@ -7,7 +7,7 @@ old-location: mf\iwmcodecleakybucketgetbuffersizebits.htm
 tech.root: medfound
 ms.assetid: 7fa0835e-7386-4032-a94b-ef52259aeea9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetBufferSizeBits, GetBufferSizeBits method [Media Foundation], GetBufferSizeBits method [Media Foundation],IWMCodecLeakyBucket interface, IWMCodecLeakyBucket interface [Media Foundation],GetBufferSizeBits method, IWMCodecLeakyBucket.GetBufferSizeBits, IWMCodecLeakyBucket::GetBufferSizeBits, codecapi.iwmcodecleakybucketgetbuffersizebits, mf.iwmcodecleakybucketgetbuffersizebits, wmcodecdsp/IWMCodecLeakyBucket::GetBufferSizeBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmcodecdsp.h
-: 
-- IWMCodecLeakyBucket.GetBufferSizeBits
-: 
 ---
 
 # IWMCodecLeakyBucket::GetBufferSizeBits

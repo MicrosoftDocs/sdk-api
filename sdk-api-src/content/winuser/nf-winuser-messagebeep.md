@@ -4,10 +4,10 @@ title: MessageBeep function
 author: windows-sdk-content
 description: Plays a waveform sound. The waveform sound for each sound type is identified by an entry in the registry.
 old-location: base\messagebeep.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 70681472-36a5-4ae3-b769-0421cf97ff2a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: MessageBeep, MessageBeep function, _win32_messagebeep, base.messagebeep, winuser/MessageBeep
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MessageBeep
-: 
 ---
 
 # MessageBeep function

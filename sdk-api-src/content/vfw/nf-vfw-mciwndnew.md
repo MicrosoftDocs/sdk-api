@@ -7,7 +7,7 @@ old-location: multimedia\mciwndnew.htm
 tech.root: Multimedia
 ms.assetid: dddd73d5-3ce5-43df-a685-05f519b45386
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MCIWndNew, MCIWndNew macro [Windows Multimedia], _win32_MCIWndNew, multimedia.mciwndnew, vfw/MCIWndNew
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- MCIWndNew
-: 
 ---
 
 # MCIWndNew macro

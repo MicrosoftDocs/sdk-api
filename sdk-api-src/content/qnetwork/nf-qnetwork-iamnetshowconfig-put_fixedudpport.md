@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_put_fixedudpport.htm
 tech.root: DirectShow
 ms.assetid: 461b3999-ee1f-4d2a-9ebc-38faf344eba0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_FixedUDPPort method, IAMNetShowConfig.put_FixedUDPPort, IAMNetShowConfig::put_FixedUDPPort, IAMNetShowConfigput_FixedUDPPort, dshow.iamnetshowconfig_put_fixedudpport, put_FixedUDPPort, put_FixedUDPPort method [DirectShow], put_FixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_FixedUDPPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qnetwork.h
-: 
-- IAMNetShowConfig.put_FixedUDPPort
-: 
 ---
 
 # IAMNetShowConfig::put_FixedUDPPort

@@ -4,10 +4,10 @@ title: RasSetCustomAuthDataW function
 author: windows-sdk-content
 description: Use the RasSetCustomAuthData function to set connection-specific authentication information. This information should not be specific to a particular user.
 old-location: rras\rassetcustomauthdata.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: a3369537-1b46-4d7b-8ee1-f6965a3f296d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RasSetCustomAuthData, RasSetCustomAuthData function [RAS], RasSetCustomAuthDataA, RasSetCustomAuthDataW, _ras_rassetcustomauthdata, ras/RasSetCustomAuthData, ras/RasSetCustomAuthDataA, ras/RasSetCustomAuthDataW, rras.rassetcustomauthdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RasSetCustomAuthDataW
-: 
 ---
 
 # RasSetCustomAuthDataW function
@@ -143,7 +137,7 @@ The <i>dwSizeofCustomAuthData</i> parameter is zero, or the <i>pbCustomAuthData<
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>

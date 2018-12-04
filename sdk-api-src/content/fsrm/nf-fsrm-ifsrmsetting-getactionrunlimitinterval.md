@@ -4,10 +4,10 @@ title: IFsrmSetting::GetActionRunLimitInterval
 author: windows-sdk-content
 description: Gets the time that an action that uses the global run limit interval must wait before the action is run again.
 old-location: fsrm\ifsrmsetting_getactionrunlimitinterval.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: cbcd5532-4077-4a5c-94d4-e1fb636e6dda
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FsrmSetting class [File Server Resource Manager],GetActionRunLimitInterval method, GetActionRunLimitInterval, GetActionRunLimitInterval method [File Server Resource Manager], GetActionRunLimitInterval method [File Server Resource Manager],FsrmSetting class, GetActionRunLimitInterval method [File Server Resource Manager],IFsrmSetting interface, IFsrmSetting interface [File Server Resource Manager],GetActionRunLimitInterval method, IFsrmSetting.GetActionRunLimitInterval, IFsrmSetting::GetActionRunLimitInterval, fs.ifsrmsetting_getactionrunlimitinterval, fsrm.ifsrmsetting_getactionrunlimitinterval, fsrm/IFsrmSetting::GetActionRunLimitInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrm.h
-: 
-- IFsrmSetting.GetActionRunLimitInterval
-: 
 ---
 
 # IFsrmSetting::GetActionRunLimitInterval

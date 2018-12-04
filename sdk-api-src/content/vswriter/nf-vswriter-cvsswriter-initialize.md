@@ -4,10 +4,10 @@ title: CVssWriter::Initialize
 author: windows-sdk-content
 description: Initializes a CVssWriter object and allows a writer application to interact with VSS.
 old-location: base\cvsswriter_initialize.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: a427ebbd-b7c4-46ba-ba16-dd601b1f956e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CVssWriter interface [VSS],Initialize method, CVssWriter.Initialize, CVssWriter::Initialize, Initialize, Initialize method [VSS], Initialize method [VSS],CVssWriter interface, _win32_cvsswriter_initialize, base.cvsswriter_initialize, vswriter/CVssWriter::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- CVssWriter.Initialize
-: 
 ---
 
 # CVssWriter::Initialize
@@ -95,7 +87,7 @@ A
 ### -param nLevel [in]
 
 A
-      <a href="https://msdn.microsoft.com/fc7fbaee-d223-4557-987d-2c09f3877ec2">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">Freeze</a> event notification. 
+      <a href="https://msdn.microsoft.com/fc7fbaee-d223-4557-987d-2c09f3877ec2">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="vssgloss_f.htm">Freeze</a> event notification. 
 
 
 
@@ -105,7 +97,7 @@ The default value for this parameter is VSS_APP_FRONT_END.
 
 ### -param dwTimeoutFreeze [in]
 
-The maximum permitted time, in milliseconds, between a writer's receipt of a <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">Freeze</a> event notification and the receipt of a matching <a href="https://msdn.microsoft.com/en-us/library/Aa384668(v=VS.85).aspx">Thaw</a> event notification from VSS. After the time-out expires, the writer's 
+The maximum permitted time, in milliseconds, between a writer's receipt of a <a href="vssgloss_f.htm">Freeze</a> event notification and the receipt of a matching <a href="vssgloss_t.htm">Thaw</a> event notification from VSS. After the time-out expires, the writer's 
 <a href="https://msdn.microsoft.com/56ba5f08-4803-4137-9edd-ce05bc19773b">CVssWriter::OnAbort</a> method is called automatically. 
 
 

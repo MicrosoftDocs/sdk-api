@@ -7,7 +7,7 @@ old-location: shell\IPersistFolder_Initialize.htm
 tech.root: shell
 ms.assetid: 179f13c9-7306-4ed5-935e-2620616b46c1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IPersistFolder interface [Windows Shell],Initialize method, IPersistFolder.Initialize, IPersistFolder::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPersistFolder interface, _win32_IPersistFolder_Initialize, shell.IPersistFolder_Initialize, shobjidl_core/IPersistFolder::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IPersistFolder.Initialize
-: 
 ---
 
 # IPersistFolder::Initialize

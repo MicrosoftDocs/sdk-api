@@ -4,10 +4,10 @@ title: EventAccessQuery function
 author: windows-sdk-content
 description: Retrieves the permissions for the specified controller or provider.
 old-location: etw\eventaccessquery_func.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 21c87137-0e8f-43d1-9dad-9f2b4fc591a3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EventAccessQuery, EventAccessQuery function [ETW], base.eventaccessquery_func, etw.eventaccessquery_func, evntcons/EventAccessQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EventAccessQuery
-: 
 ---
 
 # EventAccessQuery function

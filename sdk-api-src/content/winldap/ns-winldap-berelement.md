@@ -4,10 +4,10 @@ title: berelement
 author: windows-sdk-content
 description: C++ class object that performs basic encoding rules (BER) encoding.
 old-location: ldap\berelement.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 491bdf54-0b45-4324-93fc-35fe15155a3d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: BerElement, BerElement structure [LDAP], _ldap_berelement, berelement, ldap.berelement, winldap/BerElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

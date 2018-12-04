@@ -4,10 +4,10 @@ title: LsaQueryCAPs function
 author: windows-sdk-content
 description: Returns the Central Access Policies (CAPs) for the specified IDs.
 old-location: security\lsaquerycaps.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 55D6FD6F-0FD5-41F6-967B-F5600E19C3EF
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: LsaQueryCAPs, LsaQueryCAPs function [Security], ntlsa/LsaQueryCAPs, security.lsaquerycaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LsaQueryCAPs
-: 
 ---
 
 # LsaQueryCAPs function

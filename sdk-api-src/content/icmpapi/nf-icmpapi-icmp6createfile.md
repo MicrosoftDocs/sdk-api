@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Icmp6CreateFile
-: 
 ---
 
 # Icmp6CreateFile function

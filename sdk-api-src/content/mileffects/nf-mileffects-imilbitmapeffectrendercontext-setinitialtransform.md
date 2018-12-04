@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
-- apiref
-: 
-- COM
-: 
-- mileffects.h
-: 
-- IMILBitmapEffectRenderContext.SetInitialTransform
-: 
 ---
 
 # IMILBitmapEffectRenderContext::SetInitialTransform
@@ -58,7 +50,7 @@ req.redist: Microsoft .Net 3.0
 ## -description
 
 
-Gets the initial <a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS.85).aspx">MILMatrixF</a> transform.
+Gets the initial <a href="https://msdn.microsoft.com/b75a27b4-2aac-42a0-b45e-c9fc84655513">MILMatrixF</a> transform.
 
 
 ## -parameters
@@ -68,7 +60,7 @@ Gets the initial <a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS
 
 ### -param pMatrix [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS.85).aspx">MILMatrixF</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b75a27b4-2aac-42a0-b45e-c9fc84655513">MILMatrixF</a>*</b>
 
 The initial transform.
 

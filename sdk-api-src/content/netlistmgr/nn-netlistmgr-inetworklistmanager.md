@@ -4,10 +4,10 @@ title: INetworkListManager
 author: windows-sdk-content
 description: The INetworkListManager interface provides a set of methods to perform network list management functions.
 old-location: nla\inetworklistmanager.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: a9f76b6a-ea15-47b7-a4ef-14ea60b7810d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetworkListManager, INetworkListManager interface [Network Awareness], INetworkListManager interface [Network Awareness],described, netlistmgr/INetworkListManager, nla.inetworklistmanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,7 +55,7 @@ The <b>INetworkListManager</b> interface provides a set of methods to perform ne
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkListManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetworkListManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkListManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INetworkListManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

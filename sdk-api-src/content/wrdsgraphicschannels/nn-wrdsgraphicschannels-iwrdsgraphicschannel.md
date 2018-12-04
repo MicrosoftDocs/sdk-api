@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannel.htm
 tech.root: termserv
 ms.assetid: 5d1e88b4-3dff-4f88-a6de-abc02da57ece
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: IWRdsGraphicsChannel, IWRdsGraphicsChannel interface [Remote Desktop Services], IWRdsGraphicsChannel interface [Remote Desktop Services],described, termserv.iwrdsgraphicschannel, wrdsgraphicschannels/IWRdsGraphicsChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

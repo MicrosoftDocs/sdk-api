@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetpositionstring.htm
 tech.root: Multimedia
 ms.assetid: ccca1ec7-a523-4a36-bc81-9cb25cfa3aa1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MCIWndGetPositionString, MCIWndGetPositionString macro [Windows Multimedia], _win32_MCIWndGetPositionString, multimedia.mciwndgetpositionstring, vfw/MCIWndGetPositionString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- MCIWndGetPositionString
-: 
 ---
 
 # MCIWndGetPositionString macro

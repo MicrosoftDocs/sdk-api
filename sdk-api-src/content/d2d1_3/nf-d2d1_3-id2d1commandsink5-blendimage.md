@@ -4,10 +4,10 @@ title: ID2D1CommandSink5::BlendImage
 author: windows-sdk-content
 description: Draws an image to the device context using the specified blend mode. Results are equivalent to using Direct2D's built-in Blend effect.
 old-location: direct2d\id2d1commandsink5_blendimage.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 634027BB-A463-4261-B546-CB6289249BAF
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: BlendImage, BlendImage method [Direct2D], BlendImage method [Direct2D],ID2D1CommandSink5 interface, ID2D1CommandSink5 interface [Direct2D],BlendImage method, ID2D1CommandSink5.BlendImage, ID2D1CommandSink5::BlendImage, d2d1_3/ID2D1CommandSink5::BlendImage, direct2d.id2d1commandsink5_blendimage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_3.h
-: 
-- ID2D1CommandSink5.BlendImage
-: 
 ---
 
 # ID2D1CommandSink5::BlendImage

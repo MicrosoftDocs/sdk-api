@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables2_getmetadatastorage.htm
 tech.root: WinRT
 ms.assetid: 7de4fccb-9cd6-443d-bbd3-ba545e040ca6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetMetaDataStorage, GetMetaDataStorage method [Windows Runtime], GetMetaDataStorage method [Windows Runtime],IMetaDataTables2 interface, IMetaDataTables2 interface [Windows Runtime],GetMetaDataStorage method, IMetaDataTables2.GetMetaDataStorage, IMetaDataTables2::GetMetaDataStorage, rometadataapi/IMetaDataTables2::GetMetaDataStorage, winrt.imetadatatables2_getmetadatastorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rometadataapi.h
-: 
-- IMetaDataTables2.GetMetaDataStorage
-: 
 ---
 
 # IMetaDataTables2::GetMetaDataStorage

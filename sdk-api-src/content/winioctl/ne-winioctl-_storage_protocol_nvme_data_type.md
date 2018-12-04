@@ -7,7 +7,7 @@ old-location: fs\storage_protocol_nvme_data_type.htm
 tech.root: fileio
 ms.assetid: BB171CEE-1CB7-44AC-9F39-87394EFAFAEC
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_NVME_DATA_TYPE, NVMeDataTypeFeature, NVMeDataTypeIdentify, NVMeDataTypeLogPage, NVMeDataTypeUnknown, PSTORAGE_PROTOCOL_NVME_DATA_TYPE, PSTORAGE_PROTOCOL_NVME_DATA_TYPE enumeration pointer [Files], STORAGE_PROTOCOL_NVME_DATA_TYPE, STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration [Files], _STORAGE_PROTOCOL_NVME_DATA_TYPE, fs.storage_protocol_nvme_data_type, winioctl/NVMeDataTypeFeature, winioctl/NVMeDataTypeIdentify, winioctl/NVMeDataTypeLogPage, winioctl/NVMeDataTypeUnknown, winioctl/PSTORAGE_PROTOCOL_NVME_DATA_TYPE, winioctl/STORAGE_PROTOCOL_NVME_DATA_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

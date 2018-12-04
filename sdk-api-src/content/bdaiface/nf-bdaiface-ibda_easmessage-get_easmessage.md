@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdaiface.h
-: 
-- IBDA_EasMessage.get_EasMessage
-: 
 ---
 
 # IBDA_EasMessage::get_EasMessage
@@ -73,7 +65,7 @@ Specifies the event ID of the EAS message.
 
 ### -param ppEASObject [in, out]
 
-Pointer to a pointer variable that receives a pointer to the <b>IUnknown</b> interface of the EAS object. The caller can query this object for its <a href="https://msdn.microsoft.com/en-us/library/Dd694883(v=VS.85).aspx">ISCTE_EAS</a> interface.
+Pointer to a pointer variable that receives a pointer to the <b>IUnknown</b> interface of the EAS object. The caller can query this object for its <a href="https://msdn.microsoft.com/7b5620c3-f460-4118-a8a2-9b2561bd12cf">ISCTE_EAS</a> interface.
 
 
 ## -returns
@@ -99,7 +91,7 @@ This method retrieves a counted reference to an <b>IUnknown</b> interface instan
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693321(v=VS.85).aspx">IBDA_EasMessage Interface</a>
+<a href="https://msdn.microsoft.com/dfacaa47-c844-434f-951a-9ee38fa8af4a">IBDA_EasMessage Interface</a>
  
 
  

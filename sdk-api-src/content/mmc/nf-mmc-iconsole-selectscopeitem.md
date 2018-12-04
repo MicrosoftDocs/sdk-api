@@ -4,10 +4,10 @@ title: IConsole::SelectScopeItem
 author: windows-sdk-content
 description: Selects the given scope item.
 old-location: mmc\iconsole_selectscopeitem.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: ADE56DDF-C437-4BF3-A2EC-1E35EE7567F3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IConsole interface [MMC],SelectScopeItem method, IConsole.SelectScopeItem, IConsole::SelectScopeItem, SelectScopeItem, SelectScopeItem method [MMC], SelectScopeItem method [MMC],IConsole interface, mmc.iconsole_selectscopeitem, mmc/IConsole::SelectScopeItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IConsole.SelectScopeItem
-: 
 ---
 
 # IConsole::SelectScopeItem
@@ -106,7 +98,7 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a>
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>
  
 
  

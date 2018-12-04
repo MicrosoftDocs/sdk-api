@@ -7,7 +7,7 @@ old-location: shell\ULongLongToULong.htm
 tech.root: shell
 ms.assetid: d00be99c-f4ec-4a4e-98d1-6e96f5bd3a0c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ULongLongToDWord, ULongLongToULong, ULongLongToULong function [Windows Shell], _shell_ULongLongToULong, intsafe/ULongLongToULong, shell.ULongLongToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ULongLongToULong
-: 
 ---
 
 # ULongLongToULong function

@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::get_RunningStatus
 author: windows-sdk-content
 description: The running status of the job.
 old-location: fsrm\ifsrmfilemanagementjob_runningstatus.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 030efc19-69c0-4321-99ac-ff8abfc38757
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],RunningStatus property, IFsrmFileManagementJob.RunningStatus, IFsrmFileManagementJob.get_RunningStatus, IFsrmFileManagementJob::RunningStatus, IFsrmFileManagementJob::get_RunningStatus, RunningStatus property [File Server Resource Manager], RunningStatus property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_runningstatus, fsrm.ifsrmfilemanagementjob_runningstatus, fsrmreports/IFsrmFileManagementJob::RunningStatus, fsrmreports/IFsrmFileManagementJob::get_RunningStatus, get_RunningStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmFileManagementJob.get_RunningStatus
-: 
 ---
 
 # IFsrmFileManagementJob::get_RunningStatus

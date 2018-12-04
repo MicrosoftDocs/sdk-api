@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12sharingcontract.htm
 tech.root: direct3d12
 ms.assetid: 10E61C88-0CDC-42E6-AB70-4911D254C40A
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID3D12SharingContract, ID3D12SharingContract interface, ID3D12SharingContract interface,described, d3d12sdklayers/ID3D12SharingContract, direct3d12.id3d12sharingcontract
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,9 +55,9 @@ Part of a contract between D3D11On12 diagnostic layers and graphics diagnostics 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12SharingContract</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D12SharingContract</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12SharingContract</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12SharingContract</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ID3D12SharingContract</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt813617(v=VS.85).aspx">Present</a>
+<a href="https://msdn.microsoft.com/878442E3-417A-46CE-B91A-698CA3CA60BE">Present</a>
 </td>
 <td align="left" width="63%">
 Shares a resource (or subresource) between the D3D layers and diagnostics tools.
@@ -79,7 +79,7 @@ Shares a resource (or subresource) between the D3D layers and diagnostics tools.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt813618(v=VS.85).aspx">SharedFenceSignal</a>
+<a href="https://msdn.microsoft.com/E90576A7-B665-4911-A17E-FD328CD71458">SharedFenceSignal</a>
 </td>
 <td align="left" width="63%">
 Signals a shared fence between the D3D layers and diagnostics tools.
@@ -94,11 +94,11 @@ Signals a shared fence between the D3D layers and diagnostics tools.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770457(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
  
 
  

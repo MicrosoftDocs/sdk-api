@@ -7,7 +7,7 @@ old-location: fs\preparelogarchive.htm
 tech.root: Clfs
 ms.assetid: dfdad56a-7485-4c23-852e-819980ecd5e9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: PrepareLogArchive, PrepareLogArchive function [Files], clfsw32/PrepareLogArchive, fs.preparelogarchive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PrepareLogArchive
-: 
 ---
 
 # PrepareLogArchive function
@@ -58,7 +52,7 @@ req.redist:
 
 Prepares a physical log for archival.  The function takes a  snapshot of the current active log, builds an ordered set of log archive descriptors for the active log extents, and returns a log archive context.
 
- By passing this log archive context to <a href="https://msdn.microsoft.com/en-us/library/Bb540381(v=VS.85).aspx">GetNextLogArchiveExtent</a>, a client can iterate through the set of log archive extents to archive the log. You can also specify a range of records to archive.
+ By passing this log archive context to <a href="https://msdn.microsoft.com/4aaf10bd-e9df-435b-a756-5ae5c1eb2903">GetNextLogArchiveExtent</a>, a client can iterate through the set of log archive extents to archive the log. You can also specify a range of records to archive.
 
 
 ## -parameters
@@ -68,7 +62,7 @@ Prepares a physical log for archival.  The function takes a  snapshot of the cur
 
 ### -param hLog [in]
 
-A handle to the log that is  obtained by a successful call to <a href="https://msdn.microsoft.com/en-us/library/Bb540366(v=VS.85).aspx">CreateLogFile</a>.  
+A handle to the log that is  obtained by a successful call to <a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a>.  
 
 This handle can be the handle to a dedicated or multiplexed log. 
 
@@ -89,14 +83,14 @@ The size of the <i>pszBaseLogFileName</i> buffer, in wide characters.
 
 ### -param plsnLow [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the low end of the range of the  active log where the log client needs log archival information. 
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the low end of the range of the  active log where the log client needs log archival information. 
 
 If this parameter is omitted, the low end of the range defaults to the LSN of the log archive tail. 
 
 
 ### -param plsnHigh [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that specifies the LSN of the high end of the range of the  active log where the log client needs log archival information. 
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the LSN of the high end of the range of the  active log where the log client needs log archival information. 
 
 If this parameter is omitted, the high end of the range defaults to the next LSN to be written to the log.
 
@@ -122,24 +116,24 @@ A pointer to a variable  that specifies the exact length  of the base log, in by
 
 ### -param plsnBase [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure to receive the base log sequence number (LSN) of the active log.  
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure to receive the base log sequence number (LSN) of the active log.  
 
 
 ### -param plsnLast [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure to receive the highest valid LSN in the active log.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure to receive the highest valid LSN in the active log.
 
 
 ### -param plsnCurrentArchiveTail [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure to receive the current LSN of the archive tail of the log.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure to receive the current LSN of the archive tail of the log.
 
 
 ### -param ppvArchiveContext [out]
 
 A pointer to the variable that receives a pointer to an  archive context that the system allocates.  
 
-The archive context maintains the cursor state of the archival iterator and the log handle context.  The archival client is responsible for releasing the context by calling <a href="https://msdn.microsoft.com/en-us/library/Bb525009(v=VS.85).aspx">TerminateLogArchive</a>.
+The archive context maintains the cursor state of the archival iterator and the log handle context.  The archival client is responsible for releasing the context by calling <a href="https://msdn.microsoft.com/885356e1-f7c4-4f3f-98c3-fb9b1d339e22">TerminateLogArchive</a>.
 
 
 ## -returns
@@ -159,11 +153,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-You must call <a href="https://msdn.microsoft.com/en-us/library/Bb525009(v=VS.85).aspx">TerminateLogArchive</a> to free the archive context, or memory leaks can occur.
+You must call <a href="https://msdn.microsoft.com/885356e1-f7c4-4f3f-98c3-fb9b1d339e22">TerminateLogArchive</a> to free the archive context, or memory leaks can occur.
 
-Until you call <a href="https://msdn.microsoft.com/en-us/library/Bb525009(v=VS.85).aspx">TerminateLogArchive</a>, containers that are being archived cannot be recycled.
+Until you call <a href="https://msdn.microsoft.com/885356e1-f7c4-4f3f-98c3-fb9b1d339e22">TerminateLogArchive</a>, containers that are being archived cannot be recycled.
 
-You can only perform one archive operation at a time per handle that  <a href="https://msdn.microsoft.com/en-us/library/Bb540366(v=VS.85).aspx">CreateLogFile</a> returns.
+You can only perform one archive operation at a time per handle that  <a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a> returns.
 
 
 
@@ -173,23 +167,23 @@ You can only perform one archive operation at a time per handle that  <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540361(v=VS.85).aspx">Common Log File System Functions</a>
+<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540381(v=VS.85).aspx">GetNextLogArchiveExtent</a>
+<a href="https://msdn.microsoft.com/4aaf10bd-e9df-435b-a756-5ae5c1eb2903">GetNextLogArchiveExtent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540408(v=VS.85).aspx">ReadLogArchiveMetadata</a>
+<a href="https://msdn.microsoft.com/b0b8528d-30fc-4995-b82d-5577af8d299d">ReadLogArchiveMetadata</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb525009(v=VS.85).aspx">TerminateLogArchive</a>
+<a href="https://msdn.microsoft.com/885356e1-f7c4-4f3f-98c3-fb9b1d339e22">TerminateLogArchive</a>
  
 
  

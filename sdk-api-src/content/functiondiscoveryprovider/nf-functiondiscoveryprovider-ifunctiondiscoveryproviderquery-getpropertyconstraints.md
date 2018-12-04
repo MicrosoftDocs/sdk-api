@@ -4,10 +4,10 @@ title: IFunctionDiscoveryProviderQuery::GetPropertyConstraints
 author: windows-sdk-content
 description: Retrieves the current property constraints.
 old-location: ncd\ifunctiondiscoveryproviderquery_getpropertyconstraints.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: d8a45d1b-fb1e-4288-a42a-b967cc9b4533
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetPropertyConstraints, GetPropertyConstraints method, GetPropertyConstraints method,IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,GetPropertyConstraints method, IFunctionDiscoveryProviderQuery.GetPropertyConstraints, IFunctionDiscoveryProviderQuery::GetPropertyConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetPropertyConstraints, ncd.ifunctiondiscoveryproviderquery_getpropertyconstraints
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryprovider.h
-: 
-- IFunctionDiscoveryProviderQuery.GetPropertyConstraints
-: 
 ---
 
 # IFunctionDiscoveryProviderQuery::GetPropertyConstraints

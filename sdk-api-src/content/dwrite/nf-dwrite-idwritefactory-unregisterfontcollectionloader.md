@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_UnregisterFontCollectionLoader.htm
 tech.root: DirectWrite
 ms.assetid: 6a8682e3-72de-4afd-b9db-ba9b0d79f195
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IDWriteFactory interface [Direct Write],UnregisterFontCollectionLoader method, IDWriteFactory.UnregisterFontCollectionLoader, IDWriteFactory::UnregisterFontCollectionLoader, UnregisterFontCollectionLoader, UnregisterFontCollectionLoader method [Direct Write], UnregisterFontCollectionLoader method [Direct Write],IDWriteFactory interface, directwrite.IDWriteFactory_UnregisterFontCollectionLoader, dwrite/IDWriteFactory::UnregisterFontCollectionLoader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteFactory.UnregisterFontCollectionLoader
-: 
 ---
 
 # IDWriteFactory::UnregisterFontCollectionLoader

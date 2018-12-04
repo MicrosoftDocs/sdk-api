@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportNamespace.get_TombstoneTime
-: 
 ---
 
 # IWdsTransportNamespace::get_TombstoneTime

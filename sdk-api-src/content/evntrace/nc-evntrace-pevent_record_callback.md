@@ -4,10 +4,10 @@ title: PEVENT_RECORD_CALLBACK
 author: windows-sdk-content
 description: Consumers implement this callback to receive events from a session. The PEVENT_RECORD_CALLBACK type defines a pointer to this callback function. EventRecordCallback is a placeholder for the application-defined function name.
 old-location: etw\eventrecordcallback.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 80a30faf-af1f-4440-8a17-9df44bdb2291
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EventRecordCallback, EventRecordCallback callback function [ETW], PEVENT_RECORD_CALLBACK, PEVENT_RECORD_CALLBACK callback, etw.eventrecordcallback, evntrace/EventRecordCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

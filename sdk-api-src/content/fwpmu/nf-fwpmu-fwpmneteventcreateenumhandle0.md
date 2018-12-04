@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmNetEventCreateEnumHandle0
-: 
 ---
 
 # FwpmNetEventCreateEnumHandle0 function

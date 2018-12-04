@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDvbSiParser2.GetEIT2
-: 
 ---
 
 # IDvbSiParser2::GetEIT2

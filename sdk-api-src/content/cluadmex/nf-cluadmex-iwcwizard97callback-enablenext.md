@@ -4,10 +4,10 @@ title: IWCWizard97Callback::EnableNext
 author: windows-sdk-content
 description: Enables or disables the Next or Finish button on a Wizard97 wizard page, depending on whether the current page is last.
 old-location: mscs\iwcwizard97callback_enablenext.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: aac4dd75-aa98-4db0-8201-33d4c115896b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EnableNext, EnableNext method [Failover Cluster], EnableNext method [Failover Cluster],IWCWizard97Callback interface, IWCWizard97Callback interface [Failover Cluster],EnableNext method, IWCWizard97Callback.EnableNext, IWCWizard97Callback::EnableNext, _wolf_iwcwizard97callback_enablenext, cluadmex/IWCWizard97Callback::EnableNext, mscs.iwcwizard97callback_enablenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cluadmex.h
-: 
-- IWCWizard97Callback.EnableNext
-: 
 ---
 
 # IWCWizard97Callback::EnableNext
@@ -131,12 +123,12 @@ The <i>hpage</i> parameter represents an unknown page.
 Extensions should call the <b>EnableNext</b> 
      method in their handling of the <b>PSN_SETACTIVE</b> message for a property page that 
      they have added to the Failover Cluster Administrator Wizard. 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> determines whether 
+     <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> determines whether 
      the <b>Next</b> or <b>Finish</b> button should be displayed based on 
      the page specified in the <i>hpage</i> parameter.
 
 For non-Wizard97 pages use 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370603(v=VS.85).aspx">IWCWizardCallback::EnableNext</a>.
+     <a href="https://msdn.microsoft.com/6f485ffa-0e94-4443-9c79-991c35a60e97">IWCWizardCallback::EnableNext</a>.
 
 
 
@@ -146,11 +138,11 @@ For non-Wizard97 pages use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370511(v=VS.85).aspx">IWCWizard97Callback</a>
+<a href="https://msdn.microsoft.com/cbde3bcf-8242-49dc-9ac0-a4b078ea526e">IWCWizard97Callback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370603(v=VS.85).aspx">IWCWizardCallback::EnableNext</a>
+<a href="https://msdn.microsoft.com/6f485ffa-0e94-4443-9c79-991c35a60e97">IWCWizardCallback::EnableNext</a>
  
 
  

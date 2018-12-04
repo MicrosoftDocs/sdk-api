@@ -4,10 +4,10 @@ title: HttpCloseServerSession function
 author: windows-sdk-content
 description: Deletes the server session identified by the server session ID.
 old-location: http\httpcloseserversession.htm
-tech.root: Http
+tech.root: http
 ms.assetid: d1ceb491-c726-4aa0-b17e-f98f34279e32
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: HttpCloseServerSession, HttpCloseServerSession function [HTTP], http.httpcloseserversession, http/HttpCloseServerSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HttpCloseServerSession
-: 
 ---
 
 # HttpCloseServerSession function

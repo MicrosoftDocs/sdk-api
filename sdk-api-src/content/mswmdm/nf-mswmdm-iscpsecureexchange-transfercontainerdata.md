@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecureexchange_transfercontainerdata.htm
 tech.root: WMDM
 ms.assetid: 97b55751-b45e-4204-87e2-1e653d55a718
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],TransferContainerData method, ISCPSecureExchange.TransferContainerData, ISCPSecureExchange::TransferContainerData, ISCPSecureExchangeTransferContainerData, TransferContainerData, TransferContainerData method [windows Media Device Manager], TransferContainerData method [windows Media Device Manager],ISCPSecureExchange interface, mswmdm/ISCPSecureExchange::TransferContainerData, wmdm.iscpsecureexchange_transfercontainerdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mswmdm.h
-: 
-- ISCPSecureExchange.TransferContainerData
-: 
 ---
 
 # ISCPSecureExchange::TransferContainerData

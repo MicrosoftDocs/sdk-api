@@ -4,10 +4,10 @@ title: IWSDiscoveredService::GetLocalTransportAddress
 author: windows-sdk-content
 description: Retrieves the string representation of the local transport (IP) address.
 old-location: ncd\iwsdiscoveredservice_getlocaltransportaddress.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: a7127ce7-175f-463e-8d54-0c637639a108
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetLocalTransportAddress, GetLocalTransportAddress method, GetLocalTransportAddress method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetLocalTransportAddress method, IWSDiscoveredService.GetLocalTransportAddress, IWSDiscoveredService::GetLocalTransportAddress, ncd.iwsdiscoveredservice_getlocaltransportaddress, wsddisco/IWSDiscoveredService::GetLocalTransportAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsddisco.h
-: 
-- IWSDiscoveredService.GetLocalTransportAddress
-: 
 ---
 
 # IWSDiscoveredService::GetLocalTransportAddress

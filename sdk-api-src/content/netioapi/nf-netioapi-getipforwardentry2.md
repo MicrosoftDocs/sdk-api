@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetIpForwardEntry2
-: 
 ---
 
 # GetIpForwardEntry2 function

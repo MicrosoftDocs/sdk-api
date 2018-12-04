@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicollection_getcount.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\getcount.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/20/2018
 ms.keywords: GetCount, GetCount method [Windows Ribbon], GetCount method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],GetCount method, IUICollection.GetCount, IUICollection::GetCount, scenicintent_IUICollection_GetCount, uiribbon/IUICollection::GetCount, windowsribbon.windowsribbon_iuicollection_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiribbon.h
-: 
-- IUICollection.GetCount
-: 
 req.product: Windows UI
 ---
 
@@ -59,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Retrieves the number of items contained in the <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
+Retrieves the number of items contained in the <a href="https://msdn.microsoft.com/c239a724-9d7e-4204-933a-8e10581b4ecc">IUICollection</a>.
 
 
 ## -parameters
@@ -91,11 +83,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
+<a href="https://msdn.microsoft.com/1a462f4e-e75a-40cf-9c52-0bad0a645d57">Gallery Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>
+<a href="https://msdn.microsoft.com/c239a724-9d7e-4204-933a-8e10581b4ecc">IUICollection</a>
  
 
  

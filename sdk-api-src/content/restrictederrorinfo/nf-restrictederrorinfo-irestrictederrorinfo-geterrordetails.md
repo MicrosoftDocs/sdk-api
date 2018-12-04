@@ -7,7 +7,7 @@ old-location: winrt\irestrictederrorinfo_geterrordetails.htm
 tech.root: WinRT
 ms.assetid: ecfd97cf-9f8f-4940-9499-a894e0883f04
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetErrorDetails, GetErrorDetails method [Windows Runtime], GetErrorDetails method [Windows Runtime],IRestrictedErrorInfo interface, IRestrictedErrorInfo interface [Windows Runtime],GetErrorDetails method, IRestrictedErrorInfo.GetErrorDetails, IRestrictedErrorInfo::GetErrorDetails, restrictederrorinfo/IRestrictedErrorInfo::GetErrorDetails, winrt.irestrictederrorinfo_geterrordetails
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- restrictederrorinfo.h
-: 
-- IRestrictedErrorInfo.GetErrorDetails
-: 
 ---
 
 # IRestrictedErrorInfo::GetErrorDetails

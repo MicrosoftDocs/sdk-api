@@ -4,10 +4,10 @@ title: Matrix4x4F::IsIdentity
 author: windows-sdk-content
 description: Indicates whether this matrix is the identity matrix.
 old-location: direct2d\matrix4x4f_isidentity.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 60793CCB-F3E9-4647-9DB0-E28FF1AD0E22
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IsIdentity, IsIdentity method [Direct2D], IsIdentity method [Direct2D],Matrix4x4F interface, Matrix4x4F interface [Direct2D],IsIdentity method, Matrix4x4F.IsIdentity, Matrix4x4F::IsIdentity, d2d1_1helper/Matrix4x4F::IsIdentity, direct2d.matrix4x4f_isidentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_1helper.h
-: 
-- Matrix4x4F.IsIdentity
-: 
 ---
 
 # Matrix4x4F::IsIdentity
@@ -84,7 +76,7 @@ Indicates whether this matrix is the identity matrix.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>
+<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
  
 
  

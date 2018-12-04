@@ -7,7 +7,7 @@ old-location: fs\win32_find_stream_data_str.htm
 tech.root: fileio
 ms.assetid: f21f5161-10a8-474c-85d8-dde075b9daff
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STREAM_DATA structure pointer [Files], WIN32_FIND_STREAM_DATA, WIN32_FIND_STREAM_DATA structure [Files], _WIN32_FIND_STREAM_DATA, _win32_win32_find_stream_data_str, base.win32_find_stream_data_str, fileapi/PWIN32_FIND_STREAM_DATA, fileapi/WIN32_FIND_STREAM_DATA, fs.win32_find_stream_data_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

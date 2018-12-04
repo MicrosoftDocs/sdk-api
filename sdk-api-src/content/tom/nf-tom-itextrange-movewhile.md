@@ -4,10 +4,10 @@ title: ITextRange::MoveWhile
 author: windows-sdk-content
 description: Starts at a specified end of a range and searches while the characters belong to the set specified by Cset and while the number of characters is less than or equal to Count.
 old-location: controls\ITextRange_MoveWhile.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movewhile.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveWhile method, ITextRange.MoveWhile, ITextRange::MoveWhile, MoveWhile, MoveWhile method [Windows Controls], MoveWhile method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveWhile, _win32_ITextRange_MoveWhile_cpp, controls.ITextRange_MoveWhile, controls._win32_ITextRange_MoveWhile, tom/ITextRange::MoveWhile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRange.MoveWhile
-: 
 ---
 
 # ITextRange::MoveWhile
@@ -70,7 +62,7 @@ Starts at a specified end of a range and searches while the characters belong to
 
 Type: <b>VARIANT*</b>
 
-The character set to use in the match. This could be an explicit string of characters or a character-set index. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">Character Match Sets</a>. 
+The character set to use in the match. This could be an explicit string of characters or a character-set index. For more information, see <a href="About_Text_Object_Model.htm">Character Match Sets</a>. 
 
 
 ### -param Count
@@ -132,13 +124,13 @@ Failure for some other reason.
 
 
 
-The motion described by <a href="https://msdn.microsoft.com/en-us/library/Bb774084(v=VS.85).aspx">ITextRange::MoveUntil</a> is logical rather than geometric. That is, motion is toward the end or toward the start of a story. Depending on the language, moving to the end of the story could be moving left or moving right. 
+The motion described by <a href="https://msdn.microsoft.com/a35bdd47-fa5c-4260-8d99-14b0bd4694dd">ITextRange::MoveUntil</a> is logical rather than geometric. That is, motion is toward the end or toward the start of a story. Depending on the language, moving to the end of the story could be moving left or moving right. 
 
-For more information, see the discussion in <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> and the Remarks section of <a href="https://msdn.microsoft.com/en-us/library/Bb774064(v=VS.85).aspx">ITextRange::Move</a>.
+For more information, see the discussion in <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> and the Remarks section of <a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">ITextRange::Move</a>.
 
-The <b>ITextRange::MoveWhile</b> method is similar to <a href="https://msdn.microsoft.com/en-us/library/Bb774084(v=VS.85).aspx">ITextRange::MoveUntil</a>, but <b>MoveWhile</b> searches as long as it finds members of the set specified by <i>Cset</i>, and there is no additional increment to the value <i>pDelta</i>.
+The <b>ITextRange::MoveWhile</b> method is similar to <a href="https://msdn.microsoft.com/a35bdd47-fa5c-4260-8d99-14b0bd4694dd">ITextRange::MoveUntil</a>, but <b>MoveWhile</b> searches as long as it finds members of the set specified by <i>Cset</i>, and there is no additional increment to the value <i>pDelta</i>.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb774082(v=VS.85).aspx">ITextRange::MoveStartWhile</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774072(v=VS.85).aspx">ITextRange::MoveEndWhile</a> methods move the start and end, respectively, just past all contiguous characters that are found in set of characters specified by the <i>Cset</i> parameter.
+The <a href="https://msdn.microsoft.com/5b55abd6-7f1e-499e-8794-6ccb7141ddbb">ITextRange::MoveStartWhile</a> and <a href="https://msdn.microsoft.com/b4559270-5676-40da-be21-31367607c7b7">ITextRange::MoveEndWhile</a> methods move the start and end, respectively, just past all contiguous characters that are found in set of characters specified by the <i>Cset</i> parameter.
 
 The <b>VARIANT</b> type is primarily intended to be used with <b>IDispatch</b> scenarios like Microsoft Visual Basic for Applications (VBA), but it can be readily used from C or C++ as well. The following C++ code illustrates how to initialize and use the <b>VARIANT</b> argument  for matching a span of digits in the range r.
 
@@ -207,23 +199,23 @@ r.FindEnd &lt;, tomStart     // Back up to start of end tag
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774064(v=VS.85).aspx">Move</a>
+<a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">Move</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774072(v=VS.85).aspx">MoveEndWhile</a>
+<a href="https://msdn.microsoft.com/b4559270-5676-40da-be21-31367607c7b7">MoveEndWhile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774082(v=VS.85).aspx">MoveStartWhile</a>
+<a href="https://msdn.microsoft.com/5b55abd6-7f1e-499e-8794-6ccb7141ddbb">MoveStartWhile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774084(v=VS.85).aspx">MoveUntil</a>
+<a href="https://msdn.microsoft.com/a35bdd47-fa5c-4260-8d99-14b0bd4694dd">MoveUntil</a>
 
 
 
@@ -231,7 +223,7 @@ r.FindEnd &lt;, tomStart     // Back up to start of end tag
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

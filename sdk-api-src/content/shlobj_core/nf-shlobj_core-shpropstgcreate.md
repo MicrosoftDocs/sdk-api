@@ -7,7 +7,7 @@ old-location: properties\SHPropStgCreate.htm
 tech.root: properties
 ms.assetid: fd99e04e-ef96-4357-9226-da6604fb0e84
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CREATE_ALWAYS, CREATE_NEW, OPEN_ALWAYS, OPEN_EXISTING, SHPropStgCreate, SHPropStgCreate function [Windows Properties], _win32_SHPropStgCreate, properties.SHPropStgCreate, shell.SHPropStgCreate, shlobj_core/SHPropStgCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHPropStgCreate
-: 
 ---
 
 # SHPropStgCreate function
@@ -91,14 +85,14 @@ A pointer to the CLSID associated with the set. This parameter can be <b>NULL</b
 
 Type: <b>DWORD</b>
 
-One or more members of the <a href="https://msdn.microsoft.com/library/Aa380069(v=VS.85).aspx">PROPSETFLAG</a> enumeration that determine how the property set is created and opened. All sets containing ANSI bytes should be created with PROPSETFLAG_ANSI, otherwise PROPSETFLAG_DEFAULT.
+One or more members of the <a href="stg.propsetflag">PROPSETFLAG</a> enumeration that determine how the property set is created and opened. All sets containing ANSI bytes should be created with PROPSETFLAG_ANSI, otherwise PROPSETFLAG_DEFAULT.
 
 
 ### -param grfMode
 
 Type: <b>DWORD</b>
 
-The flags from the <a href="https://msdn.microsoft.com/library/Aa380337(v=VS.85).aspx">STGM</a> enumeration that indicate conditions for creating and deleting the object and access modes for the object. Must contain STGM_DIRECT | STGM_SHARE_EXCLUSIVE.
+The flags from the <a href="stg.stgm">STGM</a> enumeration that indicate conditions for creating and deleting the object and access modes for the object. Must contain STGM_DIRECT | STGM_SHARE_EXCLUSIVE.
 
 
 ### -param dwDisposition

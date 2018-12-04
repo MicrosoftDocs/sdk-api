@@ -7,7 +7,7 @@ old-location: multimedia\mmiosetbuffer.htm
 tech.root: Multimedia
 ms.assetid: 78bee0a3-1f9e-4268-8070-8267cc6aab5a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_mmioSetBuffer, mmioSetBuffer, mmioSetBuffer function [Windows Multimedia], mmsystem/mmioSetBuffer, multimedia.mmiosetbuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- mmioSetBuffer
-: 
 ---
 
 # mmioSetBuffer function

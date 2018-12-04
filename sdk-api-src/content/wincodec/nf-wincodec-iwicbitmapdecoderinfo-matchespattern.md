@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoderinfo_matchespattern.htm
 tech.root: wic
 ms.assetid: 159459a4-f14e-4441-94a6-d55b3bacb868
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWICBitmapDecoderInfo interface [Windows Imaging Component],MatchesPattern method, IWICBitmapDecoderInfo.MatchesPattern, IWICBitmapDecoderInfo::MatchesPattern, MatchesPattern, MatchesPattern method [Windows Imaging Component], MatchesPattern method [Windows Imaging Component],IWICBitmapDecoderInfo interface, _wic_codec_iwicbitmapdecoderinfo_matchespattern, wic._wic_codec_iwicbitmapdecoderinfo_matchespattern, wincodec/IWICBitmapDecoderInfo::MatchesPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodec.h
-: 
-- IWICBitmapDecoderInfo.MatchesPattern
-: 
 ---
 
 # IWICBitmapDecoderInfo::MatchesPattern

@@ -7,7 +7,7 @@ old-location: display\strobj_benumpositionsonly.htm
 tech.root: display
 ms.assetid: d5ffe766-843d-4e42-8cc8-bc405e78a2fd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: STROBJ_bEnumPositionsOnly, STROBJ_bEnumPositionsOnly function [Display Devices], display.strobj_benumpositionsonly, gdifncs_acadb73a-d6b2-4af7-9727-3e5424d30549.xml, winddi/STROBJ_bEnumPositionsOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- STROBJ_bEnumPositionsOnly
-: 
 ---
 
 # STROBJ_bEnumPositionsOnly function

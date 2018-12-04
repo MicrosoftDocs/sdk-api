@@ -7,7 +7,7 @@ old-location: mf\mfinitmediatypefrommpeg2videoinfo.htm
 tech.root: medfound
 ms.assetid: 44ad976e-2b15-454c-9422-26fc960e03aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 44ad976e-2b15-454c-9422-26fc960e03aa, MFInitMediaTypeFromMPEG2VideoInfo, MFInitMediaTypeFromMPEG2VideoInfo function [Media Foundation], mf.mfinitmediatypefrommpeg2videoinfo, mfapi/MFInitMediaTypeFromMPEG2VideoInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFInitMediaTypeFromMPEG2VideoInfo
-: 
 ---
 
 # MFInitMediaTypeFromMPEG2VideoInfo function

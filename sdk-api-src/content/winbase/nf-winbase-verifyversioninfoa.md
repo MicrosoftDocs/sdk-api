@@ -4,10 +4,10 @@ title: VerifyVersionInfoA function
 author: windows-sdk-content
 description: Compares a set of operating system version requirements to the corresponding values for the currently running version of the system.
 old-location: base\verifyversioninfo.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 791bc6bf-f486-4110-b6ea-30a0935040b2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: VER_BUILDNUMBER, VER_MAJORVERSION, VER_MINORVERSION, VER_PLATFORMID, VER_PRODUCT_TYPE, VER_SERVICEPACKMAJOR, VER_SERVICEPACKMINOR, VER_SUITENAME, VerifyVersionInfo, VerifyVersionInfo function, VerifyVersionInfoA, VerifyVersionInfoW, _win32_verifyversioninfo, base.verifyversioninfo, winbase/VerifyVersionInfo, winbase/VerifyVersionInfoA, winbase/VerifyVersionInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VerifyVersionInfoA
-: 
 ---
 
 # VerifyVersionInfoA function

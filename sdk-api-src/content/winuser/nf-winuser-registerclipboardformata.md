@@ -7,7 +7,7 @@ old-location: dataxchg\registerclipboardformat.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\registerclipboardformat.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RegisterClipboardFormat, RegisterClipboardFormat function [Data Exchange], RegisterClipboardFormatA, RegisterClipboardFormatW, _win32_RegisterClipboardFormat, _win32_registerclipboardformat_cpp, dataxchg.registerclipboardformat, winui._win32_registerclipboardformat, winuser/RegisterClipboardFormat, winuser/RegisterClipboardFormatA, winuser/RegisterClipboardFormatW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,12 +55,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegisterClipboardFormatA
-: 
 ---
 
 # RegisterClipboardFormatA function
@@ -111,7 +105,7 @@ When registered clipboard formats are placed on or retrieved from the clipboard,
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Registering a Clipboard Format</a>. 
+For an example, see <a href="using_the_clipboard.htm">Registering a Clipboard Format</a>. 
 
 
 
@@ -124,7 +118,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
 
 
 
@@ -132,15 +126,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649036(v=VS.85).aspx">CountClipboardFormats</a>
+<a href="https://msdn.microsoft.com/3f9390f0-0fcb-4654-add0-eeea8f79b3f5">CountClipboardFormats</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a>
+<a href="https://msdn.microsoft.com/eca6e3ca-46d1-4f1d-a13c-63542e8eb8bf">EnumClipboardFormats</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649040(v=VS.85).aspx">GetClipboardFormatName</a>
+<a href="https://msdn.microsoft.com/58cb43df-32a5-44ed-b017-441fe18ce54b">GetClipboardFormatName</a>
 
 
 

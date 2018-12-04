@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_viewtype.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_view_type.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/20/2018
 ms.keywords: UI_VIEWTYPE, UI_VIEWTYPE enumeration [Windows Ribbon], UI_VIEWTYPE_RIBBON, scenicintent_UI_VIEWTYPE, uiribbon/UI_VIEWTYPE, uiribbon/UI_VIEWTYPE_RIBBON, windowsribbon.windowsribbon_ui_viewtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ A Ribbon View.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
  
 
  

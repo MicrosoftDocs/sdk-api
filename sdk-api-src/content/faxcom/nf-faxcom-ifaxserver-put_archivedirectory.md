@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcom.h
-: 
-- IFaxServer.put_ArchiveDirectory
-: 
 ---
 
 # IFaxServer::put_ArchiveDirectory

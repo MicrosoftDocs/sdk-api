@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiSetClassPropertyW
-: 
 ---
 
 # SetupDiSetClassPropertyW function
@@ -256,7 +250,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiSetClassProperty</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>.
+<b>SetupDiSetClassProperty</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>.
 
 SetupAPI supports only a Unicode version of <b>SetupDiSetClassProperty</b>. 
 

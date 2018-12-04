@@ -4,10 +4,10 @@ title: NetUserSetGroups function
 author: windows-sdk-content
 description: The NetUserSetGroups function sets global group memberships for a specified user account.
 old-location: netmgmt\netusersetgroups.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 7042c43a-09d1-4179-8074-eb055dc279a6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 0, 1, NetUserSetGroups, NetUserSetGroups function [Network Management], _win32_netusersetgroups, lmaccess/NetUserSetGroups, netmgmt.netusersetgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetUserSetGroups
-: 
 ---
 
 # NetUserSetGroups function

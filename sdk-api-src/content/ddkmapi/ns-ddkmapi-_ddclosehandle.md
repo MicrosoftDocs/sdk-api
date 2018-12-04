@@ -7,7 +7,7 @@ old-location: display\ddclosehandle.htm
 tech.root: display
 ms.assetid: 180612e0-6014-4a14-82a7-3ab2058b1cf3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPDDCLOSEHANDLE, DDCLOSEHANDLE, DDCLOSEHANDLE structure [Display Devices], LPDDCLOSEHANDLE, LPDDCLOSEHANDLE structure pointer [Display Devices], _DDCLOSEHANDLE, ddkmapi/DDCLOSEHANDLE, ddkmapi/LPDDCLOSEHANDLE, ddstrcts_6f935c9b-9a18-4002-adcd-f9f203251e84.xml, display.ddclosehandle"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -56,14 +56,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemcli.h
-: 
-- IWbemServices.PutInstanceAsync
-: 
 ---
 
 # IWbemServices::PutInstanceAsync

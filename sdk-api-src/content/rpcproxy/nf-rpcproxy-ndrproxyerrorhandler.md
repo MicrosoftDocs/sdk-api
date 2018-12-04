@@ -4,10 +4,10 @@ title: NdrProxyErrorHandler function
 author: windows-sdk-content
 description: The NdrProxyErrorHandler function maps an exception into an HRESULT, with RPC facility code.
 old-location: rpc\ndrproxyerrorhandler.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: d453ac8d-5bcb-4565-be95-17b8b45c8d98
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NdrProxyErrorHandler, NdrProxyErrorHandler function [RPC], rpc.ndrproxyerrorhandler, rpcproxy/NdrProxyErrorHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NdrProxyErrorHandler
-: 
 ---
 
 # NdrProxyErrorHandler function

@@ -4,10 +4,10 @@ title: GetThemeAnimationProperty function
 author: windows-sdk-content
 description: Gets a theme animation property based on the storyboard id and the target id.
 old-location: controls\getthemeanimationproperty.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: CEFB457B-2022-4FCC-AF1E-78A62D62E034
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetThemeAnimationProperty, GetThemeAnimationProperty function [Windows Controls], controls.getthemeanimationproperty, uxtheme/GetThemeAnimationProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetThemeAnimationProperty
-: 
 ---
 
 # GetThemeAnimationProperty function

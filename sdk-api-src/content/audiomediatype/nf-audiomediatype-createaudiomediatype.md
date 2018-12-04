@@ -7,7 +7,7 @@ old-location: audio\createaudiomediatype.htm
 tech.root: audio
 ms.assetid: 02f7b1e6-338a-4bea-9a22-21496a045be6
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: CreateAudioMediaType, CreateAudioMediaType function [Audio Devices], audio.createaudiomediatype, audio_syseffects_r_3b76e8f4-37c5-479e-91d7-6620c2e2b9db.xml, audiomediatype/CreateAudioMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateAudioMediaType
-: 
 ---
 
 # CreateAudioMediaType function

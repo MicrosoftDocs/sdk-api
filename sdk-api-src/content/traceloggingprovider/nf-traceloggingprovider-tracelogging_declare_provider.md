@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- traceloggingprovider.h
-: 
-- TRACELOGGING_DECLARE_PROVIDER
-: 
 ---
 
 # TRACELOGGING_DECLARE_PROVIDER macro

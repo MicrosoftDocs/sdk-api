@@ -4,10 +4,10 @@ title: ClusterGroupOpenEnumEx function
 author: windows-sdk-content
 description: Opens a handle to the group enumeration.
 old-location: mscs\clustergroupopenenumex.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 1BEF74A2-8230-4698-A3B7-FC2AA495D294
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ClusterGroupOpenEnumEx, ClusterGroupOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX, mscs.clustergroupopenenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusterGroupOpenEnumEx
-: 
 ---
 
 # ClusterGroupOpenEnumEx function

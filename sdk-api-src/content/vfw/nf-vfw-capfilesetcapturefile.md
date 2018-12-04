@@ -7,7 +7,7 @@ old-location: multimedia\capfilesetcapturefile.htm
 tech.root: Multimedia
 ms.assetid: 47c69c62-5455-401e-adba-9a0eced548cf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_capFileSetCaptureFile, capFileSetCaptureFile, capFileSetCaptureFile macro [Windows Multimedia], multimedia.capfilesetcapturefile, vfw/capFileSetCaptureFile"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- capFileSetCaptureFile
-: 
 ---
 
 # capFileSetCaptureFile macro

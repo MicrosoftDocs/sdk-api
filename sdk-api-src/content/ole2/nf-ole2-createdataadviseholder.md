@@ -7,7 +7,7 @@ old-location: com\createdataadviseholder.htm
 tech.root: com
 ms.assetid: a2114f2f-106a-4a26-ba94-1b40af90a0f3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: CreateDataAdviseHolder, CreateDataAdviseHolder function [COM], _ole_CreateDataAdviseHolder, com.createdataadviseholder, ole2/CreateDataAdviseHolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateDataAdviseHolder
-: 
 ---
 
 # CreateDataAdviseHolder function

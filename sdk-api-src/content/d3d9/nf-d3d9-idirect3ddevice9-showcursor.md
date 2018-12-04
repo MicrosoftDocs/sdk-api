@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__showcursor.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__showcursor.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],ShowCursor method, IDirect3DDevice9.ShowCursor, IDirect3DDevice9::ShowCursor, ShowCursor, ShowCursor method [Direct3D 9], ShowCursor method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::ShowCursor, direct3d9.idirect3ddevice9__showcursor, f4d45e5b-633f-a1a6-df58-ae9ec866fb60
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d9.h
-: 
-- IDirect3DDevice9.ShowCursor
-: 
 ---
 
 # IDirect3DDevice9::ShowCursor
@@ -114,7 +106,7 @@ break;
 </td>
 </tr>
 </table></span></div>
-Or users might want to call the <a href="https://msdn.microsoft.com/en-us/library/Bb174430(v=VS.85).aspx">IDirect3DDevice9::SetCursorProperties</a> method if they want to change the cursor. See the code in the DirectX Graphics C/C++ Samples for more detail.
+Or users might want to call the <a href="https://msdn.microsoft.com/45e4935a-cdbd-4412-8ca5-fc4e1ceb6434">IDirect3DDevice9::SetCursorProperties</a> method if they want to change the cursor. See the code in the DirectX Graphics C/C++ Samples for more detail.
 
 
 
@@ -124,15 +116,15 @@ Or users might want to call the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174429(v=VS.85).aspx">IDirect3DDevice9::SetCursorPosition</a>
+<a href="https://msdn.microsoft.com/3b6410e5-fdeb-4390-b0c6-227f0c6666c6">IDirect3DDevice9::SetCursorPosition</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174430(v=VS.85).aspx">IDirect3DDevice9::SetCursorProperties</a>
+<a href="https://msdn.microsoft.com/45e4935a-cdbd-4412-8ca5-fc4e1ceb6434">IDirect3DDevice9::SetCursorProperties</a>
  
 
  

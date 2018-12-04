@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0001"
 author: windows-sdk-content
 description: Defines the set of RDC-specific error codes.
 old-location: rdc\rdc_errorcode.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 32e9eab0-dc6e-4e04-af8a-bc2ed4adf0be
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RDC_Aborted, RDC_ApplicationError, RDC_DataMissingOrCorrupt, RDC_DataTooManyRecords, RDC_ErrorCode, RDC_ErrorCode enumeration [Remote Differential Compression], RDC_FileChecksumMismatch, RDC_HeaderMissingOrCorrupt, RDC_HeaderVersionNewer, RDC_HeaderVersionOlder, RDC_HeaderWrongType, RDC_NoError, RDC_Win32Error, __MIDL___MIDL_itf_msrdc_0000_0000_0001, fs.rdc_errorcode, msrdc/RDC_Aborted, msrdc/RDC_ApplicationError, msrdc/RDC_DataMissingOrCorrupt, msrdc/RDC_DataTooManyRecords, msrdc/RDC_ErrorCode, msrdc/RDC_FileChecksumMismatch, msrdc/RDC_HeaderMissingOrCorrupt, msrdc/RDC_HeaderVersionNewer, msrdc/RDC_HeaderVersionOlder, msrdc/RDC_HeaderWrongType, msrdc/RDC_NoError, msrdc/RDC_Win32Error, rdc.rdc_errorcode
 ms.prod: windows-hardware
 ms.technology: windows-devices

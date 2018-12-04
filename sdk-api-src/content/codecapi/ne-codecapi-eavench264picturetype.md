@@ -7,7 +7,7 @@ old-location: mf\eavench264picturetype.htm
 tech.root: medfound
 ms.assetid: D73E2F87-EED3-4655-BB39-EB4C8E0B0058
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: codecapi/eAVEncH264PictureType, codecapi/eAVEncH264PictureType_B, codecapi/eAVEncH264PictureType_IDR, codecapi/eAVEncH264PictureType_P, eAVEncH264PictureType, eAVEncH264PictureType enumeration [Media Foundation], eAVEncH264PictureType_B, eAVEncH264PictureType_IDR, eAVEncH264PictureType_P, mf.eavench264picturetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ This enumeration is used with the <a href="https://msdn.microsoft.com/18A47033-3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms705379(v=VS.85).aspx">Media Foundation Enumerations</a>
+<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
  
 
  

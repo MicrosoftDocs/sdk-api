@@ -4,10 +4,10 @@ title: StgSerializePropVariant function
 author: windows-sdk-content
 description: The StgSerializePropVariant function converts a PROPVARIANT data type to a SERIALIZEDPROPERTYVALUE data type.
 old-location: stg\StgSerializePropVariant.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: e1382c1e-3f9e-41a2-8e95-fc3702e516d3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: StgSerializePropVariant, StgSerializePropVariant function [Structured Storage], propvarutil/StgSerializePropVariant, stg.StgSerializePropVariant
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StgSerializePropVariant
-: 
 ---
 
 # StgSerializePropVariant function

@@ -4,10 +4,10 @@ title: DeleteGPOLink function
 author: windows-sdk-content
 description: The DeleteGPOLink function deletes the link between the specified GPO and the specified site, domain, or organizational unit.
 old-location: policy\deletegpolink.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: e797bc8d-c0c5-4d93-b553-6c07029af01f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DeleteGPOLink, DeleteGPOLink function [Group Policy], _win32_deletegpolink, gpedit/DeleteGPOLink, policy.deletegpolink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DeleteGPOLink
-: 
 ---
 
 # DeleteGPOLink function

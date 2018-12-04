@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effecttechnique_getpassbyindex.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_getpassbyindex.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetPassByIndex, GetPassByIndex method [Direct3D 10], GetPassByIndex method [Direct3D 10],ID3D10EffectTechnique interface, ID3D10EffectTechnique interface [Direct3D 10],GetPassByIndex method, ID3D10EffectTechnique.GetPassByIndex, ID3D10EffectTechnique::GetPassByIndex, bf6a09f2-4226-0743-fbab-24f41fc1fd18, d3d10effect/ID3D10EffectTechnique::GetPassByIndex, direct3d10.id3d10effecttechnique_getpassbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10effect.h
-: 
-- ID3D10EffectTechnique.GetPassByIndex
-: 
 ---
 
 # ID3D10EffectTechnique::GetPassByIndex
@@ -77,9 +69,9 @@ A zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173656(v=VS.85).aspx">ID3D10EffectPass</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/50407b6a-a05b-41e3-90a9-b0165378b177">ID3D10EffectPass</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173656(v=VS.85).aspx">ID3D10EffectPass Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/50407b6a-a05b-41e3-90a9-b0165378b177">ID3D10EffectPass Interface</a>.
 
 
 
@@ -98,7 +90,7 @@ A technique contains one or more passes; get a pass using a name or an index.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique Interface</a>
+<a href="https://msdn.microsoft.com/3965c6d5-e529-4225-861a-7846e35840d0">ID3D10EffectTechnique Interface</a>
  
 
  

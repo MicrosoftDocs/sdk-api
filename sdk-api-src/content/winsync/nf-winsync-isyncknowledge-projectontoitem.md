@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_projectontoitem.htm
 tech.root: winsync
 ms.assetid: 069fdc90-bea3-42e4-835c-b2a397d13b60
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoItem method, ISyncKnowledge.ProjectOntoItem, ISyncKnowledge::ProjectOntoItem, ProjectOntoItem, ProjectOntoItem method [Windows Sync], ProjectOntoItem method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontoitem, winsync/ISyncKnowledge::ProjectOntoItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- ISyncKnowledge.ProjectOntoItem
-: 
 ---
 
 # ISyncKnowledge::ProjectOntoItem

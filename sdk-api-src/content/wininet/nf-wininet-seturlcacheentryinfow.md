@@ -4,10 +4,10 @@ title: SetUrlCacheEntryInfoW function
 author: windows-sdk-content
 description: Sets the specified members of the INTERNET_CACHE_ENTRY_INFO structure.
 old-location: wininet\seturlcacheentryinfo.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 71f6e1a3-09ce-4576-9480-1270f343db39
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SetUrlCacheEntryInfo, SetUrlCacheEntryInfo function [WinINet], SetUrlCacheEntryInfoA, SetUrlCacheEntryInfoW, _inet_seturlcacheentryinfo_function, wininet.seturlcacheentryinfo, wininet/SetUrlCacheEntryInfo, wininet/SetUrlCacheEntryInfoA, wininet/SetUrlCacheEntryInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetUrlCacheEntryInfoW
-: 
 ---
 
 # SetUrlCacheEntryInfoW function

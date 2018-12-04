@@ -7,7 +7,7 @@ old-location: dataxchg\convcontext_str.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\convcontext.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCONVCONTEXT, CONVCONTEXT, CONVCONTEXT structure [Data Exchange], PCONVCONTEXT, PCONVCONTEXT structure pointer [Data Exchange], _win32_CONVCONTEXT_str, _win32_convcontext_str_cpp, dataxchg.convcontext_str, ddeml/CONVCONTEXT, ddeml/PCONVCONTEXT, tagCONVCONTEXT, winui._win32_convcontext_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,7 +113,7 @@ The quality of service a DDE client wants from the system during a given convers
 
 
 <h3><a id="Security_Warning"></a><a id="security_warning"></a><a id="SECURITY_WARNING"></a>Security Warning</h3>
-For added security, your application can specify a security code with the <b>dwSecurity</b> member. The application could then examine this value in the <a href="https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx">DdeCallback</a> function to check the identity of the client application. However, a value that is hard-coded into an application might be discovered. Thus, you may want to provide the security code in some other way, such as through user input.
+For added security, your application can specify a security code with the <b>dwSecurity</b> member. The application could then examine this value in the <a href="https://msdn.microsoft.com/bf982432-9b08-4dba-9b7a-b9c135022488">DdeCallback</a> function to check the identity of the client application. However, a value that is hard-coded into an application might be discovered. Thus, you may want to provide the security code in some other way, such as through user input.
 
 
 
@@ -123,7 +123,7 @@ For added security, your application can specify a security code with the <b>dwS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
  
 
  

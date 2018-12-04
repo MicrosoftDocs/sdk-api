@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDVB_ST.GetDataLength
-: 
 ---
 
 # IDVB_ST::GetDataLength

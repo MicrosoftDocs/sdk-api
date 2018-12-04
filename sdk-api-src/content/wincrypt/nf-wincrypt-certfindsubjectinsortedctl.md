@@ -4,10 +4,10 @@ title: CertFindSubjectInSortedCTL function
 author: windows-sdk-content
 description: The CertFindSubjectInSortedCTL function attempts to find the specified subject in a sorted certificate trust list (CTL).
 old-location: security\certfindsubjectinsortedctl.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 027e89e6-3de0-440d-be70-2281778f9a1e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertFindSubjectInSortedCTL, CertFindSubjectInSortedCTL function [Security], _crypto2_certfindsubjectinsortedctl, security.certfindsubjectinsortedctl, wincrypt/CertFindSubjectInSortedCTL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertFindSubjectInSortedCTL
-: 
 ---
 
 # CertFindSubjectInSortedCTL function
@@ -115,7 +109,7 @@ If the function fails and does not locate a matching subject identifier, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate and Certificate Store Maintenance Functions</a>
+<a href="cryptography_functions.htm">Certificate and Certificate Store Maintenance Functions</a>
  
 
  

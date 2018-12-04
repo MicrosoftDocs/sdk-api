@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::Export
 author: windows-sdk-content
 description: Exports templates and object identifiers associated with the certificate enrollment policy (CEP) server to a buffer.
 old-location: security\ix509enrollmentpolicyserver_export.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: b821329b-2ec6-4f47-ba5f-2e1cd7ffb06f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Export, Export method [Security], Export method [Security],IX509EnrollmentPolicyServer interface, ExportOIDs, ExportTemplates, IX509EnrollmentPolicyServer interface [Security],Export method, IX509EnrollmentPolicyServer.Export, IX509EnrollmentPolicyServer::Export, certenroll/IX509EnrollmentPolicyServer::Export, security.ix509enrollmentpolicyserver_export
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509EnrollmentPolicyServer.Export
-: 
 ---
 
 # IX509EnrollmentPolicyServer::Export
@@ -68,7 +60,7 @@ The <b>Export</b> method exports templates and object identifiers associated wit
 
 ### -param exportFlags [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Ee351759(v=VS.85).aspx">X509EnrollmentPolicyExportFlags</a> enumeration value that specifies what to export. This can be a bitwise OR of the following values.
+An <a href="https://msdn.microsoft.com/219f58af-66e8-4a89-8908-89308fc182d8">X509EnrollmentPolicyExportFlags</a> enumeration value that specifies what to export. This can be a bitwise OR of the following values.
 
 <table>
 <tr>
@@ -110,7 +102,7 @@ Pointer to a <b>VARIANT</b> of type <b>VT_ARRAY|VT_UI1</b> that receives the tem
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -146,7 +138,7 @@ The <i>exportFlags</i> parameter must contain <b>ExportTemplates</b> or <b>Expor
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> has not been initialized.
+The <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> has not been initialized.
 
 </td>
 </tr>
@@ -162,7 +154,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX
 
 To prevent memory leaks, you must free the <b>VARIANT</b> returned by this function.
 
-You must call <a href="https://msdn.microsoft.com/en-us/library/Ee351712(v=VS.85).aspx">LoadPolicy</a> before calling this function and after calling <a href="https://msdn.microsoft.com/en-us/library/Ee351710(v=VS.85).aspx">Initialize</a> for the exported data to be meaningful.
+You must call <a href="https://msdn.microsoft.com/5b617c6e-91bc-4a22-acd6-41083102850a">LoadPolicy</a> before calling this function and after calling <a href="https://msdn.microsoft.com/b0d848a2-1bac-4a30-ae02-26d5af719688">Initialize</a> for the exported data to be meaningful.
 
 
 
@@ -172,7 +164,7 @@ You must call <a href="https://msdn.microsoft.com/en-us/library/Ee351712(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

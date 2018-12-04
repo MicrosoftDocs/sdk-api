@@ -4,10 +4,10 @@ title: ITextFont::GetShadow
 author: windows-sdk-content
 description: Gets whether characters are displayed as shadowed characters.
 old-location: controls\ITextFont_GetShadow.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getshadow.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetShadow, GetShadow method [Windows Controls], GetShadow method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetShadow method, ITextFont.GetShadow, ITextFont::GetShadow, _win32_ITextFont_GetShadow, _win32_ITextFont_GetShadow_cpp, controls.ITextFont_GetShadow, controls._win32_ITextFont_GetShadow, tom/ITextFont::GetShadow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextFont.GetShadow
-: 
 ---
 
 # ITextFont::GetShadow
@@ -70,7 +62,7 @@ Gets whether characters are displayed as shadowed characters.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -138,7 +130,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-This property corresponds to the <b>CFE_SHADOW</b> effect described in the <a href="https://msdn.microsoft.com/en-us/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a> structure.
+This property corresponds to the <b>CFE_SHADOW</b> effect described in the <a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a> structure.
 
 
 
@@ -148,7 +140,7 @@ This property corresponds to the <b>CFE_SHADOW</b> effect described in the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a>
+<a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a>
 
 
 
@@ -156,7 +148,7 @@ This property corresponds to the <b>CFE_SHADOW</b> effect described in the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -164,11 +156,11 @@ This property corresponds to the <b>CFE_SHADOW</b> effect described in the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787811(v=VS.85).aspx">SetShadow</a>
+<a href="https://msdn.microsoft.com/b2d07b7c-7528-40c0-9d07-7e384fae0d0c">SetShadow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

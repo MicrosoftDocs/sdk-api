@@ -7,7 +7,7 @@ old-location: wmp\iwmpeffects_setcurrentpreset.htm
 tech.root: WMP
 ms.assetid: 090e5f9b-e7f1-48b6-9018-3d0797493d42
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EffectsSetCurrentPreset, IWMPEffects interface [Windows Media Player],SetCurrentPreset method, IWMPEffects.SetCurrentPreset, IWMPEffects::SetCurrentPreset, SetCurrentPreset, SetCurrentPreset method [Windows Media Player], SetCurrentPreset method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::SetCurrentPreset, wmp.iwmpeffects_setcurrentpreset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- effects.h
-: 
-- IWMPEffects.SetCurrentPreset
-: 
 ---
 
 # IWMPEffects::SetCurrentPreset

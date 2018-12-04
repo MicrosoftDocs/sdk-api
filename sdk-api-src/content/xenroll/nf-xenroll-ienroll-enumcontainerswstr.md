@@ -4,10 +4,10 @@ title: IEnroll::enumContainersWStr
 author: windows-sdk-content
 description: Retrieves the names of containers for the cryptographic service provider (CSP) specified by the ProviderNameWStr property.
 old-location: security\ienroll4_enumcontainerswstr.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: a08d97c9-8ee9-464e-862e-18c335695927
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnroll interface [Security],enumContainersWStr method, IEnroll.enumContainersWStr, IEnroll::enumContainersWStr, enumContainersWStr, enumContainersWStr method [Security], enumContainersWStr method [Security],IEnroll interface, security.ienroll4_enumcontainerswstr, xenroll/IEnroll::enumContainersWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- IEnroll.enumContainersWStr
-: 
 ---
 
 # IEnroll::enumContainersWStr

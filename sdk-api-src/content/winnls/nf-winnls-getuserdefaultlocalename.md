@@ -7,7 +7,7 @@ old-location: intl\getuserdefaultlocalename.htm
 tech.root: Intl
 ms.assetid: 81b896de-1f06-4315-aa64-90806c0fed75
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetUserDefaultLocaleName, GetUserDefaultLocaleName function [Internationalization for Windows Applications], _win32_GetUserDefaultLocaleName, intl.getuserdefaultlocalename, winnls/GetUserDefaultLocaleName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetUserDefaultLocaleName
-: 
 ---
 
 # GetUserDefaultLocaleName function

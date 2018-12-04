@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcd_cancelwrite.htm
 tech.root: imapi
 ms.assetid: 12cd6797-dcb8-496d-a141-9d3a805266e9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CancelWrite, CancelWrite method [IMAPI], CancelWrite method [IMAPI],IDiscFormat2RawCD interface, IDiscFormat2RawCD interface [IMAPI],CancelWrite method, IDiscFormat2RawCD.CancelWrite, IDiscFormat2RawCD::CancelWrite, imapi.idiscformat2rawcd_cancelwrite, imapi2/IDiscFormat2RawCD::CancelWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscFormat2RawCD.CancelWrite
-: 
 ---
 
 # IDiscFormat2RawCD::CancelWrite

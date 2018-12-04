@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_shared_resource.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_shared_resource.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DXGI_SHARED_RESOURCE, DXGI_SHARED_RESOURCE structure [DXGI], aa3179a5-6a16-4e5d-df66-783c4edeb8f4, direct3ddxgi.dxgi_shared_resource, dxgi/DXGI_SHARED_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ A handle to a shared resource.
 
 
 
-To create a shared surface, pass a shared-resource handle into the <a href="https://msdn.microsoft.com/en-us/library/Bb174530(v=VS.85).aspx">IDXGIDevice::CreateSurface</a> method.
+To create a shared surface, pass a shared-resource handle into the <a href="https://msdn.microsoft.com/d0effc0a-0ec9-4350-ac44-c64c29984a02">IDXGIDevice::CreateSurface</a> method.
 
 
 

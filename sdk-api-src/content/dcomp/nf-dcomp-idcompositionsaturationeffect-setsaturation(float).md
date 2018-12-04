@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionsaturationeffect_setsaturation.htm
 tech.root: directcomp
 ms.assetid: A2BAE19A-FC9F-4476-9DBB-438FE2923246
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDCompositionSaturationEffect interface [DirectComposition],SetSaturation method, IDCompositionSaturationEffect.SetSaturation, IDCompositionSaturationEffect.SetSaturation(float), IDCompositionSaturationEffect::SetSaturation, IDCompositionSaturationEffect::SetSaturation(float), SetSaturation, SetSaturation method [DirectComposition], SetSaturation method [DirectComposition],IDCompositionSaturationEffect interface, dcomp/IDCompositionSaturationEffect::SetSaturation, directcomp.idcompositionsaturationeffect_setsaturation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionSaturationEffect.SetSaturation
-: 
 ---
 
 # IDCompositionSaturationEffect::SetSaturation(float)
@@ -76,7 +68,7 @@ The saturation of the image. You can set the saturation to a value between 0 and
             The effect calculates a color matrix based on the saturation value (s in the equation here) using the following equation:
             
 
-<img alt="Matrix equation" src="./images/saturation_formula.png"/>
+<img alt="Matrix equation" src="images/saturation_formula.png"/>
 
 ## -returns
 

@@ -4,10 +4,10 @@ title: IRunningTask::get_InstanceGuid
 author: windows-sdk-content
 description: Gets the GUID identifier for this instance of the task.
 old-location: taskschd\irunningtask_instanceguid.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 993682d1-c77c-48d8-bec6-aab810c8bcda
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRunningTask interface [Task Scheduler],InstanceGuid property, IRunningTask.InstanceGuid, IRunningTask.get_InstanceGuid, IRunningTask::InstanceGuid, IRunningTask::get_InstanceGuid, InstanceGuid property [Task Scheduler], InstanceGuid property [Task Scheduler],IRunningTask interface, get_InstanceGuid, taskschd.irunningtask_instanceguid, taskschd/IRunningTask::InstanceGuid, taskschd/IRunningTask::get_InstanceGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IRunningTask.get_InstanceGuid
-: 
 ---
 
 # IRunningTask::get_InstanceGuid

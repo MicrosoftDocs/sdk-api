@@ -4,10 +4,10 @@ title: ID2D1StrokeStyle::GetDashStyle
 author: windows-sdk-content
 description: Gets a value that describes the stroke's dash pattern.
 old-location: direct2d\ID2D1StrokeStyle_GetDashStyle.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 15d61f2c-9348-47af-a9cf-4706ab0033b7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetDashStyle, GetDashStyle method [Direct2D], GetDashStyle method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashStyle method, ID2D1StrokeStyle.GetDashStyle, ID2D1StrokeStyle::GetDashStyle, d2d1/ID2D1StrokeStyle::GetDashStyle, direct2d.ID2D1StrokeStyle_GetDashStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1StrokeStyle.GetDashStyle
-: 
 ---
 
 # ID2D1StrokeStyle::GetDashStyle

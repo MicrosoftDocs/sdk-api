@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_setrect.htm
 tech.root: com
 ms.assetid: 994eddef-65e6-4ccd-92e7-1e76a7c11681
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IOleDocumentView interface [COM],SetRect method, IOleDocumentView.SetRect, IOleDocumentView::SetRect, SetRect, SetRect method [COM], SetRect method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrect, com.ioledocumentview_setrect, docobj/IOleDocumentView::SetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- docobj.h
-: 
-- IOleDocumentView.SetRect
-: 
 ---
 
 # IOleDocumentView::SetRect

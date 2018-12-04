@@ -4,10 +4,10 @@ title: "_tagSTACKFRAME_EX"
 author: windows-sdk-content
 description: Represents an extended stack frame.
 old-location: base\stackframe_ex.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: d4606619-f9c5-41e9-8627-17846b98956a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPSTACKFRAME_EX, INLINE_FRAME_CONTEXT_IGNORE, INLINE_FRAME_CONTEXT_INIT, LPSTACKFRAME_EX, LPSTACKFRAME_EX structure pointer, STACKFRAME_EX, STACKFRAME_EX structure, _tagSTACKFRAME_EX, base.stackframe_ex, dbghelp/LPSTACKFRAME_EX, dbghelp/STACKFRAME_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

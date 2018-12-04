@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_PointF_pt1_Poin
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawbeziermethods\drawbezier_36penpen_pointfamppt1_pointfamppt2_point.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DrawBezier, DrawBezier method [GDI+], DrawBezier method [GDI+],Graphics class, Graphics class [GDI+],DrawBezier method, Graphics.DrawBezier, Graphics.DrawBezier(IN const Pen,IN const PointF &,IN const PointF &,IN const PointF &,IN const PointF &), Graphics.DrawBezier(const Pen*,const POINTF&,const POINTF&,const POINTF&,const POINTF&), Graphics::DrawBezier, Graphics::DrawBezier(IN const Pen,IN const PointF &,IN const PointF &,IN const PointF &,IN const PointF &), _gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_PointF_pt1_PointF_pt2_PointF_pt3_PointF_pt4_, gdiplus._gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_PointF_pt1_PointF_pt2_PointF_pt3_PointF_pt4_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusgraphics.h
-: 
-- Graphics.DrawBezier
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -131,9 +123,13 @@ A Bézier spline does not pass through its control points. The control points ac
 
 The following example draws a Bézier curve.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID Example_DrawBezier2(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -146,19 +142,19 @@ VOID Example_DrawBezier2(HDC hdc)
    PointF endPoint(500.0f, 100.0f);
 
    //Draw the curve.
-   graphics.DrawBezier(&greenPen, startPoint, controlPoint1, controlPoint2, endPoint);
+   graphics.DrawBezier(&amp;greenPen, startPoint, controlPoint1, controlPoint2, endPoint);
 
    //Draw the end points and control points.
    SolidBrush redBrush(Color(255, 255, 0, 0));
    SolidBrush blueBrush(Color(255, 0, 0, 255));
-   graphics.FillEllipse(&redBrush, 100 - 5, 100 - 5, 10, 10);
-   graphics.FillEllipse(&redBrush, 500 - 5, 100 - 5, 10, 10);
-   graphics.FillEllipse(&blueBrush, 200 - 5, 10 - 5, 10, 10);
-   graphics.FillEllipse(&blueBrush, 350 - 5, 50 - 5, 10, 10);
-}
-```
-
-
+   graphics.FillEllipse(&amp;redBrush, 100 - 5, 100 - 5, 10, 10);
+   graphics.FillEllipse(&amp;redBrush, 500 - 5, 100 - 5, 10, 10);
+   graphics.FillEllipse(&amp;blueBrush, 200 - 5, 10 - 5, 10, 10);
+   graphics.FillEllipse(&amp;blueBrush, 350 - 5, 50 - 5, 10, 10);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -183,7 +179,7 @@ VOID Example_DrawBezier2(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

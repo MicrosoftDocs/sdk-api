@@ -7,7 +7,7 @@ old-location: com\codosdatetimetofiletime.htm
 tech.root: com
 ms.assetid: eb7af6a3-7547-405e-b96e-3e68a1ac273b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: CoDosDateTimeToFileTime, CoDosDateTimeToFileTime function [COM], _com_CoDosDateTimeToFileTime, com.codosdatetimetofiletime, objbase/CoDosDateTimeToFileTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoDosDateTimeToFileTime
-: 
 ---
 
 # CoDosDateTimeToFileTime function

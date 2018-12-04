@@ -4,10 +4,10 @@ title: DrawThemeParentBackgroundEx function
 author: windows-sdk-content
 description: Used by partially-transparent or alpha-blended child controls to draw the part of their parent in front of which they appear. Sends a WM_ERASEBKGND message followed by a WM_PRINTCLIENT.
 old-location: controls\DrawThemeParentBackgroundEx.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeparentbackgroundex.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DTPB_USECTLCOLORSTATIC, DTPB_USEERASEBKGND, DTPB_WINDOWDC, DrawThemeParentBackgroundEx, DrawThemeParentBackgroundEx function [Windows Controls], _shell_DrawThemeParentBackgroundEx, _shell_DrawThemeParentBackgroundEx_cpp, controls.DrawThemeParentBackgroundEx, controls._shell_DrawThemeParentBackgroundEx, uxtheme/DrawThemeParentBackgroundEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DrawThemeParentBackgroundEx
-: 
 ---
 
 # DrawThemeParentBackgroundEx function
@@ -56,7 +50,7 @@ req.redist:
 ## -description
 
 
-Used by partially-transparent or alpha-blended child controls to draw the part of their parent in front of which they appear. Sends a <a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> message followed by a <a href="https://msdn.microsoft.com/8703ee74-812a-4ca2-8ee3-a3b8779739e7">WM_PRINTCLIENT</a>.
+Used by partially-transparent or alpha-blended child controls to draw the part of their parent in front of which they appear. Sends a <a href="https://msdn.microsoft.com/3bdc37da-227c-4be1-bf0b-99704b8acbe1">WM_ERASEBKGND</a> message followed by a <a href="https://msdn.microsoft.com/8703ee74-812a-4ca2-8ee3-a3b8779739e7">WM_PRINTCLIENT</a>.
 
 
 ## -parameters
@@ -105,7 +99,7 @@ If set, <i>hdc</i> is assumed to be a window DC, not a client DC.
 </dl>
 </td>
 <td width="60%">
-If set, this function sends a <a href="https://msdn.microsoft.com/en-us/library/Bb787524(v=VS.85).aspx">WM_CTLCOLORSTATIC</a> message to the parent and uses the brush if one is provided. Otherwise, it uses COLOR_BTNFACE.
+If set, this function sends a <a href="https://msdn.microsoft.com/a171a1e8-6845-4a8e-8394-44cea99d2b0d">WM_CTLCOLORSTATIC</a> message to the parent and uses the brush if one is provided. Otherwise, it uses COLOR_BTNFACE.
 
 </td>
 </tr>
@@ -115,7 +109,7 @@ If set, this function sends a <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-If set, this function returns S_OK without sending a <a href="https://msdn.microsoft.com/en-us/library/Bb787524(v=VS.85).aspx">WM_CTLCOLORSTATIC</a> message if the parent actually painted on <a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a>.
+If set, this function returns S_OK without sending a <a href="https://msdn.microsoft.com/a171a1e8-6845-4a8e-8394-44cea99d2b0d">WM_CTLCOLORSTATIC</a> message if the parent actually painted on <a href="https://msdn.microsoft.com/3bdc37da-227c-4be1-bf0b-99704b8acbe1">WM_ERASEBKGND</a>.
 
 </td>
 </tr>

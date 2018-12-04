@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- _IFaxServerNotify2.OnServerActivityChange
-: 
 ---
 
 # _IFaxServerNotify2::OnServerActivityChange

@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelclient_macupdate.htm
 tech.root: WMDM
 ms.assetid: b868d422-535d-44f5-9713-bfa049da8a4e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],MACUpdate method, CSecureChannelClient.MACUpdate, CSecureChannelClient::MACUpdate, CSecureChannelClientMACUpdate, MACUpdate, MACUpdate method [windows Media Device Manager], MACUpdate method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::MACUpdate, wmdm.csecurechannelclient_macupdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- scclient.h
-: 
-- CSecureChannelClient.MACUpdate
-: 
 ---
 
 # CSecureChannelClient::MACUpdate

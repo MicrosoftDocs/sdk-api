@@ -7,7 +7,7 @@ old-location: wab\_wab_IDistList.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\idistlist\idistlist.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/28/2018
 ms.keywords: IDistList, IDistList interface [Windows Address Book], IDistList interface [Windows Address Book],described, _wab_IDistList, wab._wab_IDistList, wabdefs/IDistList
 ms.prod: windows-hardware
 ms.technology: windows-devices

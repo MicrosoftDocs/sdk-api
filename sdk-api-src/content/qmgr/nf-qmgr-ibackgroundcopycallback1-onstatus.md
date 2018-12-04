@@ -4,10 +4,10 @@ title: IBackgroundCopyCallback1::OnStatus
 author: windows-sdk-content
 description: Implement the OnStatus method to receive notification when the group is complete or an error occurs.
 old-location: bits\ibackgroundcopycallback1_onstatus.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 88f75a65-8d27-4413-8b00-4caf11fbcc5e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IBackgroundCopyCallback1 interface [BITS],OnStatus method, IBackgroundCopyCallback1.OnStatus, IBackgroundCopyCallback1::OnStatus, OnStatus, OnStatus method [BITS], OnStatus method [BITS],IBackgroundCopyCallback1 interface, bits.ibackgroundcopycallback1_onstatus, qmgr/IBackgroundCopyCallback1::OnStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qmgr.h
-: 
-- IBackgroundCopyCallback1.OnStatus
-: 
 ---
 
 # IBackgroundCopyCallback1::OnStatus
@@ -88,9 +80,9 @@ Index to the file associated with the error or -1. To retrieve the file, call th
 The state of the group. The state of the group is either complete (all jobs in the group have been downloaded) or in error. An error occurred if the QM_STATUS_GROUP_ERROR flag is set. Otherwise, the group is complete.
 
 
-### -param dwNumOfRetries
+### -param dwNumOfRetries [in]
 
-TBD
+Number of times QMGR tried to download the group after an error occurs. Valid only if the QM_STATUS_GROUP_ERROR <i>dwStatus</i> flag is set. 
 
 
 ### -param dwWin32Result [in]
@@ -101,11 +93,6 @@ Win32 error code. Valid only if the QM_STATUS_GROUP_ERROR <i>dwStatus</i> flag i
 ### -param dwTransportResult [in]
 
 HTTP error code. Valid only if the QM_STATUS_GROUP_ERROR <i>dwStatus</i> flag is set.
-
-
-#### - dwNumofRetries [in]
-
-Number of times QMGR tried to download the group after an error occurs. Valid only if the QM_STATUS_GROUP_ERROR <i>dwStatus</i> flag is set. 
 
 
 ## -returns

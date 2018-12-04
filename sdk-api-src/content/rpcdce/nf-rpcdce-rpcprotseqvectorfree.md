@@ -4,10 +4,10 @@ title: RpcProtseqVectorFree function
 author: windows-sdk-content
 description: The RpcProtseqVectorFree function frees the protocol sequences contained in the vector and the vector itself.
 old-location: rpc\rpcprotseqvectorfree.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 6f399600-0534-44cc-b179-d3bc7bee091d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RpcProtseqVectorFree, RpcProtseqVectorFree function [RPC], RpcProtseqVectorFreeA, RpcProtseqVectorFreeW, _rpc_rpcprotseqvectorfree, rpc.rpcprotseqvectorfree, rpcdce/RpcProtseqVectorFree, rpcdce/RpcProtseqVectorFreeA, rpcdce/RpcProtseqVectorFreeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcProtseqVectorFree
-: 
 ---
 
 # RpcProtseqVectorFree function

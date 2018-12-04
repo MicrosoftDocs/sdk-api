@@ -4,10 +4,10 @@ title: IRDPSRAPIInvitationManager::CreateInvitation
 author: windows-sdk-content
 description: Creates an invitation.
 old-location: rdp\irdpsrapiinvitationmanager_createinvitation.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 169d220b-3a2a-490e-9c1c-03a707d59f6c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateInvitation, CreateInvitation method [RDP], CreateInvitation method [RDP],IRDPSRAPIInvitationManager interface, IRDPSRAPIInvitationManager interface [RDP],CreateInvitation method, IRDPSRAPIInvitationManager.CreateInvitation, IRDPSRAPIInvitationManager::CreateInvitation, rdp.irdpsrapiinvitationmanager_createinvitation, rdpencomapi/IRDPSRAPIInvitationManager::CreateInvitation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIInvitationManager.CreateInvitation
-: 
 ---
 
 # IRDPSRAPIInvitationManager::CreateInvitation

@@ -7,7 +7,7 @@ old-location: winmsg\adjustwindowrectex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\adjustwindowrectex.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AdjustWindowRectEx, AdjustWindowRectEx function [Windows and Messages], _win32_AdjustWindowRectEx, _win32_adjustwindowrectex_cpp, winmsg.adjustwindowrectex, winui._win32_adjustwindowrectex, winuser/AdjustWindowRectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AdjustWindowRectEx
-: 
 ---
 
 # AdjustWindowRectEx function
@@ -61,7 +55,7 @@ req.redist:
 ## -description
 
 
-Calculates the required size of the window rectangle, based on the desired size of the client rectangle. The window rectangle can then be passed to the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function to create a window whose client area is the desired size.
+Calculates the required size of the window rectangle, based on the desired size of the client rectangle. The window rectangle can then be passed to the <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> function to create a window whose client area is the desired size.
 
 
 ## -parameters
@@ -80,7 +74,7 @@ A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf1
 
 Type: <b>DWORD</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">window style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style. 
+The <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">window style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style. 
 
 
 ### -param bMenu [in]
@@ -140,7 +134,7 @@ This API is not DPI aware, and should not be used if the calling thread is per-m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a>
 
 
 
@@ -156,7 +150,7 @@ This API is not DPI aware, and should not be used if the calling thread is per-m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

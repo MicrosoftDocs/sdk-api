@@ -4,10 +4,10 @@ title: Edit_GetModify macro
 author: windows-sdk-content
 description: Gets the state of an edit or rich edit control's modification flag. The flag indicates whether the contents of the control have been modified. You can use this macro or send the EM_GETMODIFY message explicitly.
 old-location: controls\Edit_GetModify.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getmodify.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Edit_GetModify, Edit_GetModify macro [Windows Controls], _win32_Edit_GetModify, _win32_Edit_GetModify_cpp, controls.Edit_GetModify, controls._win32_Edit_GetModify, windowsx/Edit_GetModify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- windowsx.h
-: 
-- Edit_GetModify
-: 
 ---
 
 # Edit_GetModify macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the state of an edit or rich edit control's modification flag. The flag indicates whether the contents of the control have been modified. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761592(v=VS.85).aspx">EM_GETMODIFY</a> message explicitly.
+Gets the state of an edit or rich edit control's modification flag. The flag indicates whether the contents of the control have been modified. You can use this macro or send the <a href="https://msdn.microsoft.com/4229e2f2-3493-4721-8b52-8933c9dc0a77">EM_GETMODIFY</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +69,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761592(v=VS.85).aspx">EM_GETMODIFY</a>.
+For more information, see <a href="https://msdn.microsoft.com/4229e2f2-3493-4721-8b52-8933c9dc0a77">EM_GETMODIFY</a>.
 
 
 

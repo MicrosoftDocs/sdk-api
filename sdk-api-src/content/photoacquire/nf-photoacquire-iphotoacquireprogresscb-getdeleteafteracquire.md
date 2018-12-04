@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireprogresscb_getdeleteafteracquire.htm
 tech.root: acquisition
 ms.assetid: a9e3fb54-e152-4fbd-b745-852719aabeec
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: GetDeleteAfterAcquire, GetDeleteAfterAcquire method [Picture Acquisition], GetDeleteAfterAcquire method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],GetDeleteAfterAcquire method, IPhotoAcquireProgressCB.GetDeleteAfterAcquire, IPhotoAcquireProgressCB::GetDeleteAfterAcquire, IPhotoAcquireProgressCBGetDeleteAfterAcquire, photoacquire/IPhotoAcquireProgressCB::GetDeleteAfterAcquire, picacq.iphotoacquireprogresscb_getdeleteafteracquire
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- photoacquire.h
-: 
-- IPhotoAcquireProgressCB.GetDeleteAfterAcquire
-: 
 ---
 
 # IPhotoAcquireProgressCB::GetDeleteAfterAcquire

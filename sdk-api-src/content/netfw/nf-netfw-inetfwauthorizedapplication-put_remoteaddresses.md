@@ -4,10 +4,10 @@ title: INetFwAuthorizedApplication::put_RemoteAddresses
 author: windows-sdk-content
 description: Specifies a set of the remote addresses from which the application can listen for traffic.
 old-location: ics\inetfwauthorizedapplication_remoteaddresses.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 56e51590-8cde-4c7d-8034-bc13f16f2617
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],RemoteAddresses property, INetFwAuthorizedApplication.RemoteAddresses, INetFwAuthorizedApplication.put_RemoteAddresses, INetFwAuthorizedApplication::RemoteAddresses, INetFwAuthorizedApplication::get_RemoteAddresses, INetFwAuthorizedApplication::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwAuthorizedApplication interface, ics.inetfwauthorizedapplication_remoteaddresses, netfw/INetFwAuthorizedApplication::RemoteAddresses, netfw/INetFwAuthorizedApplication::get_RemoteAddresses, netfw/INetFwAuthorizedApplication::put_RemoteAddresses, put_RemoteAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwAuthorizedApplication.put_RemoteAddresses
-: 
 ---
 
 # INetFwAuthorizedApplication::put_RemoteAddresses

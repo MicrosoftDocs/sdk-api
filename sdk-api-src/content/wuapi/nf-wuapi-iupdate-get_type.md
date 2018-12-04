@@ -4,10 +4,10 @@ title: IUpdate::get_Type
 author: windows-sdk-content
 description: Gets the type of the update.
 old-location: wua\iupdate_type.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 2556ee19-b6ff-4e66-9e40-2c0a1d6a0176
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Type property, IUpdate.Type, IUpdate.get_Type, IUpdate::Type, IUpdate::get_Type, Type property [Windows Update Agent], Type property [Windows Update Agent],IUpdate interface, get_Type, wua.iupdate_type, wuapi/IUpdate::Type, wuapi/IUpdate::get_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdate.get_Type
-: 
 ---
 
 # IUpdate::get_Type

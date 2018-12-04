@@ -4,10 +4,10 @@ title: tagNMTVSTATEIMAGECHANGING
 author: windows-sdk-content
 description: Contains information about an NM_TVSTATEIMAGECHANGING notification code.
 old-location: controls\NMTVSTATEIMAGECHANGING.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvstateimagechanging.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPNMTVSTATEIMAGECHANGING, LPNMTVSTATEIMAGECHANGING, LPNMTVSTATEIMAGECHANGING structure pointer [Windows Controls], NMTVSTATEIMAGECHANGING, NMTVSTATEIMAGECHANGING structure [Windows Controls], _shell_NMTVSTATEIMAGECHANGING, _shell_NMTVSTATEIMAGECHANGING_cpp, commctrl/LPNMTVSTATEIMAGECHANGING, commctrl/NMTVSTATEIMAGECHANGING, controls.NMTVSTATEIMAGECHANGING, controls._shell_NMTVSTATEIMAGECHANGING, tagNMTVSTATEIMAGECHANGING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information about an <a href="https://msdn.microsoft.com/en-us/library/Bb775572(v=VS.85).aspx">NM_TVSTATEIMAGECHANGING</a> notification code.
+Contains information about an <a href="https://msdn.microsoft.com/8e42d8b3-5e76-4d03-94b0-3e4583669095">NM_TVSTATEIMAGECHANGING</a> notification code.
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information about an <a href="https://msdn.microsoft.com/en-us/library/
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code.
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification code.
 
 
 ### -field hti

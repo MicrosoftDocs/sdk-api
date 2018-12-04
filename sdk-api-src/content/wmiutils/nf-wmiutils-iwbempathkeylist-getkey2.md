@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmiutils.h
-: 
-- IWbemPathKeyList.GetKey2
-: 
 ---
 
 # IWbemPathKeyList::GetKey2

@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_justification_opportunity.htm
 tech.root: DirectWrite
 ms.assetid: D7D18462-A0A4-4064-B04D-CA8ACED7E34D
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DWRITE_JUSTIFICATION_OPPORTUNITY, DWRITE_JUSTIFICATION_OPPORTUNITY structure [Direct Write], directwrite.dwrite_justification_opportunity, dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY
 ms.prod: windows-hardware
 ms.technology: windows-devices

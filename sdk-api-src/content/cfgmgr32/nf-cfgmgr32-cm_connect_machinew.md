@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Connect_MachineW
-: 
 ---
 
 # CM_Connect_MachineW function

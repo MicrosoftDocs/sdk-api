@@ -4,10 +4,10 @@ title: "_WSMAN_KEY"
 author: windows-sdk-content
 description: Represents a key and value pair within a selector set and is used to identify a particular resource.
 old-location: winrm\wsman_key.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: dbd66ad3-3816-43a3-a8e4-403ff3847da0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WSMAN_KEY, WSMAN_KEY structure [Windows Remote Management], _WSMAN_KEY, winrm.wsman_key, wsman/WSMAN_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices

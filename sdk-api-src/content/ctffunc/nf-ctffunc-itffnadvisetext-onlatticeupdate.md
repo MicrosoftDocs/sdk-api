@@ -7,7 +7,7 @@ old-location: tsf\itffnadvisetext_onlatticeupdate.htm
 tech.root: TSF
 ms.assetid: c58f3d2f-ad74-43a7-a8a8-65d65d603611
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfFnAdviseText interface [Text Services Framework],OnLatticeUpdate method, ITfFnAdviseText.OnLatticeUpdate, ITfFnAdviseText::OnLatticeUpdate, OnLatticeUpdate, OnLatticeUpdate method [Text Services Framework], OnLatticeUpdate method [Text Services Framework],ITfFnAdviseText interface, _tsf_itffnadvisetext_onlatticeupdate_ref, ctffunc/ITfFnAdviseText::OnLatticeUpdate, tsf.itffnadvisetext_onlatticeupdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctffunc.h
-: 
-- ITfFnAdviseText.OnLatticeUpdate
-: 
 ---
 
 # ITfFnAdviseText::OnLatticeUpdate
@@ -67,12 +59,12 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628908(v=VS.85).aspx">ITfRange</a> object that represents the range of text that changed.
+Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that represents the range of text that changed.
 
 
 ### -param pLattice [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628774(v=VS.85).aspx">ITfLMLattice</a> object that represents the new lattice element.
+Pointer to an <a href="https://msdn.microsoft.com/25ad6ef2-1d42-498a-852f-163a0efbc26a">ITfLMLattice</a> object that represents the new lattice element.
 
 
 ## -returns
@@ -119,11 +111,11 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538915(v=VS.85).aspx">ITfFnAdviseText</a>
+<a href="https://msdn.microsoft.com/7cca7f23-48d3-4855-8f3d-e937bbc990d4">ITfFnAdviseText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628774(v=VS.85).aspx">ITfLMLattice</a>
+<a href="https://msdn.microsoft.com/25ad6ef2-1d42-498a-852f-163a0efbc26a">ITfLMLattice</a>
 
 
 

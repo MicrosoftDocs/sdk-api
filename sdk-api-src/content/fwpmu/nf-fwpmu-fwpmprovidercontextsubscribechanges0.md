@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmProviderContextSubscribeChanges0
-: 
 ---
 
 # FwpmProviderContextSubscribeChanges0 function

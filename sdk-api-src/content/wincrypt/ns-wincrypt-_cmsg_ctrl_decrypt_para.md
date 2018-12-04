@@ -4,10 +4,10 @@ title: "_CMSG_CTRL_DECRYPT_PARA"
 author: windows-sdk-content
 description: Contains information used to decrypt an enveloped message for a key transport recipient. This structure is passed to CryptMsgControl if the dwCtrlType parameter is CMSG_CTRL_DECRYPT.
 old-location: security\cmsg_ctrl_decrypt_para.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: eb9b1daa-b04f-419a-88e3-7c772f9e62eb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCMSG_CTRL_DECRYPT_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_CTRL_DECRYPT_PARA, CMSG_CTRL_DECRYPT_PARA structure [Security], PCMSG_CTRL_DECRYPT_PARA, PCMSG_CTRL_DECRYPT_PARA structure pointer [Security], _CMSG_CTRL_DECRYPT_PARA, _crypto2_cmsg_ctrl_decrypt_para, security.cmsg_ctrl_decrypt_para, wincrypt/CMSG_CTRL_DECRYPT_PARA, wincrypt/PCMSG_CTRL_DECRYPT_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

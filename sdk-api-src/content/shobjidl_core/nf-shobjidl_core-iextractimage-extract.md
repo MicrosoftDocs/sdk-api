@@ -7,7 +7,7 @@ old-location: shell\IExtractImage_Extract.htm
 tech.root: shell
 ms.assetid: 7c40e2cf-c706-4a4a-819f-a416d6846158
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Extract, Extract method [Windows Shell], Extract method [Windows Shell],IExtractImage interface, IExtractImage interface [Windows Shell],Extract method, IExtractImage.Extract, IExtractImage::Extract, _win32_IExtractImage_Extract, shell.IExtractImage_Extract, shobjidl_core/IExtractImage::Extract
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IExtractImage.Extract
-: 
 ---
 
 # IExtractImage::Extract

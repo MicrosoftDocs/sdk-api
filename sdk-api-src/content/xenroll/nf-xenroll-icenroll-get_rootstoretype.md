@@ -4,10 +4,10 @@ title: ICEnroll::get_RootStoreType
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the RootStoreName property.
 old-location: security\icenroll4_rootstoretype.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 452f89ad-e512-4ac7-816a-c3f97e25350a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CEnroll object [Security],RootStoreType property, ICEnroll interface [Security],RootStoreType property, ICEnroll.RootStoreType, ICEnroll.get_RootStoreType, ICEnroll2 interface [Security],RootStoreType property, ICEnroll2.RootStoreType, ICEnroll2::get_RootStoreType, ICEnroll2::put_RootStoreType, ICEnroll3 interface [Security],RootStoreType property, ICEnroll3.RootStoreType, ICEnroll3::get_RootStoreType, ICEnroll3::put_RootStoreType, ICEnroll4 interface [Security],RootStoreType property, ICEnroll4.RootStoreType, ICEnroll4::RootStoreType, ICEnroll4::get_RootStoreType, ICEnroll4::put_RootStoreType, ICEnroll::get_RootStoreType, ICEnroll::put_RootStoreType, RootStoreType property [Security], RootStoreType property [Security],CEnroll object, RootStoreType property [Security],ICEnroll interface, RootStoreType property [Security],ICEnroll2 interface, RootStoreType property [Security],ICEnroll3 interface, RootStoreType property [Security],ICEnroll4 interface, get_RootStoreType, security.icenroll4_rootstoretype, sz_CERT_STORE_PROV_SYSTEM, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/ICEnroll2::RootStoreType, xenroll/ICEnroll2::get_RootStoreType, xenroll/ICEnroll2::put_RootStoreType, xenroll/ICEnroll3::RootStoreType, xenroll/ICEnroll3::get_RootStoreType, xenroll/ICEnroll3::put_RootStoreType, xenroll/ICEnroll4::RootStoreType, xenroll/ICEnroll4::get_RootStoreType, xenroll/ICEnroll4::put_RootStoreType, xenroll/ICEnroll::RootStoreType, xenroll/ICEnroll::get_RootStoreType, xenroll/ICEnroll::put_RootStoreType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,14 +54,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- ICEnroll.get_RootStoreType
-: 
 ---
 
 # ICEnroll::get_RootStoreType
@@ -105,15 +97,19 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-
-```cpp
-BSTR     bstrStoreType = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrStoreType = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the storetype
-hr = pEnroll->get_RootStoreType( &bstrStoreType );
+hr = pEnroll-&gt;get_RootStoreType( &amp;bstrStoreType );
 if ( FAILED ( hr ) )
     printf("Failed getting RootStoreType - %x\n", hr );
 else
@@ -124,13 +120,13 @@ if ( NULL != bstrStoreType )
 
 // set the storetype
 // bstrNewType is a BSTR that is previously set to a valid store type
-hr = pEnroll->put_RootStoreType( bstrNewType );
+hr = pEnroll-&gt;put_RootStoreType( bstrNewType );
 if ( FAILED ( hr ) )
     printf("Failed setting RootStoreType - %x\n", hr );
 else
-    printf( "RootStoreType was set to %ws\n", bstrNewType );
-```
-
-
+    printf( "RootStoreType was set to %ws\n", bstrNewType );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

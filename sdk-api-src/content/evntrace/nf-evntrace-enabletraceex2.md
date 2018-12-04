@@ -4,10 +4,10 @@ title: EnableTraceEx2 function
 author: windows-sdk-content
 description: Enables or disables the specified event trace provider.
 old-location: etw\enabletraceex2.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 3aceffb6-614f-4cad-bbec-f181f0cbdbff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EVENT_CONTROL_CODE_CAPTURE_STATE, EVENT_CONTROL_CODE_DISABLE_PROVIDER, EVENT_CONTROL_CODE_ENABLE_PROVIDER, EnableTraceEx2, EnableTraceEx2 function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, etw.enabletraceex2, evntrace/EnableTraceEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EnableTraceEx2
-: 
 ---
 
 # EnableTraceEx2 function
@@ -524,15 +518,19 @@ The following example shows you how to use the
      <a href="https://msdn.microsoft.com/B9093E64-1796-4AF2-AB45-84F278813B66">TdhAggregatePayloadFilters</a> functions to 
      filter on specific conditions in a logger session.
 
-
-```cpp
-#define INITGUID  
-#include <windows.h>  
-#include <stdlib.h>  
-#include <stdio.h>  
-#include <strsafe.h>  
-#include <evntrace.h>  
-#include <tdh.h>  
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define INITGUID  
+#include &lt;windows.h&gt;  
+#include &lt;stdlib.h&gt;  
+#include &lt;stdio.h&gt;  
+#include &lt;strsafe.h&gt;  
+#include &lt;evntrace.h&gt;  
+#include &lt;tdh.h&gt;  
   
 #define MAXIMUM_SESSION_NAME 1024  
   
@@ -581,20 +579,20 @@ PEVENT_TRACE_PROPERTIES AllocateTraceProperties (
     // Set the session properties.      
     //    
     ZeroMemory(TraceProperties, BufferSize);  
-    TraceProperties->Wnode.BufferSize = BufferSize;  
-    TraceProperties->Wnode.Flags = WNODE_FLAG_TRACED_GUID;  
-    TraceProperties->LoggerNameOffset = sizeof(EVENT_TRACE_PROPERTIES);  
-    TraceProperties->LogFileNameOffset = sizeof(EVENT_TRACE_PROPERTIES) +   
+    TraceProperties-&gt;Wnode.BufferSize = BufferSize;  
+    TraceProperties-&gt;Wnode.Flags = WNODE_FLAG_TRACED_GUID;  
+    TraceProperties-&gt;LoggerNameOffset = sizeof(EVENT_TRACE_PROPERTIES);  
+    TraceProperties-&gt;LogFileNameOffset = sizeof(EVENT_TRACE_PROPERTIES) +   
         (MAXIMUM_SESSION_NAME * sizeof(WCHAR));   
   
     if (LoggerName != NULL) {  
-        StringCchCopy((LPWSTR)((PCHAR)TraceProperties + TraceProperties->LoggerNameOffset),   
+        StringCchCopy((LPWSTR)((PCHAR)TraceProperties + TraceProperties-&gt;LoggerNameOffset),   
                       MAXIMUM_SESSION_NAME,  
                       LoggerName);  
     }  
   
     if (LogFileName != NULL) {  
-        StringCchCopy((LPWSTR)((PCHAR)TraceProperties + TraceProperties->LogFileNameOffset),   
+        StringCchCopy((LPWSTR)((PCHAR)TraceProperties + TraceProperties-&gt;LogFileNameOffset),   
                       MAX_PATH,   
                       LogFileName);  
     }  
@@ -620,9 +618,9 @@ FORCEINLINE VOID PayloadPredicateCreate(
     LPWSTR Value  
 )  
 {  
-    Predicate->FieldName = FieldName;  
-    Predicate->CompareOp = CompareOp;  
-    Predicate->Value = Value;  
+    Predicate-&gt;FieldName = FieldName;  
+    Predicate-&gt;CompareOp = CompareOp;  
+    Predicate-&gt;Value = Value;  
     return;  
 }  
   
@@ -660,25 +658,25 @@ int __cdecl wmain()
     //      
     // INCLUDE Example_Event_1 IF      
     //     Example_Event_1.Initiator == "User" AND      
-    //     7 <= Example_Event_1.Level <= 16      
+    //     7 &lt;= Example_Event_1.Level &lt;= 16      
     //        
     PredicateCount = 0;  
   
-    PayloadPredicateCreate(&Predicates[PredicateCount++],  
+    PayloadPredicateCreate(&amp;Predicates[PredicateCount++],  
                            L"Initiator",  
                            PAYLOADFIELD_IS,  
                            L"User");  
   
-    PayloadPredicateCreate(&Predicates[PredicateCount++],  
+    PayloadPredicateCreate(&amp;Predicates[PredicateCount++],  
                            L"Level",  
                            PAYLOADFIELD_BETWEEN,  
                            L"7,16");  
   
-    Status = TdhCreatePayloadFilter(&EXAMPLE_PROVIDER,  
-                                    &Example_Event_1,  
+    Status = TdhCreatePayloadFilter(&amp;EXAMPLE_PROVIDER,  
+                                    &amp;Example_Event_1,  
                                     FALSE,      // Match all predicates (AND)                                      PredicateCount,  
                                     Predicates,  
-                                    &EventFilters[FilterCount++]);  
+                                    &amp;EventFilters[FilterCount++]);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"TdhCreatePayloadFilter() failed with %lu\n", Status);  
         goto Exit;  
@@ -692,26 +690,26 @@ int __cdecl wmain()
     //      Example_Event_2.ErrorCode != 0      //    
     PredicateCount = 0;  
   
-    PayloadPredicateCreate(&Predicates[PredicateCount++],  
+    PayloadPredicateCreate(&amp;Predicates[PredicateCount++],  
                            L"Title",  
                            PAYLOADFIELD_CONTAINS,  
                            L"UNI");  
   
-    PayloadPredicateCreate(&Predicates[PredicateCount++],  
+    PayloadPredicateCreate(&amp;Predicates[PredicateCount++],  
                            L"InstanceId",  
                            PAYLOADFIELD_IS,  
                            L" {0E95CFBC-58D4-44BA-BE40-E63A853536DF}");  
   
-    PayloadPredicateCreate(&Predicates[PredicateCount++],  
+    PayloadPredicateCreate(&amp;Predicates[PredicateCount++],  
                            L"ErrorCode",  
                            PAYLOADFIELD_NE,  
                            L"0");  
   
-    Status = TdhCreatePayloadFilter(&EXAMPLE_PROVIDER,  
-                                    &Example_Event_2,  
+    Status = TdhCreatePayloadFilter(&amp;EXAMPLE_PROVIDER,  
+                                    &amp;Example_Event_2,  
                                     FALSE,      // Match any predicates (OR)                                      PredicateCount,  
                                     Predicates,  
-                                    &EventFilters[FilterCount++]);  
+                                    &amp;EventFilters[FilterCount++]);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"TdhCreatePayloadFilter() failed with %lu\n", Status);  
         goto Exit;  
@@ -723,7 +721,7 @@ int __cdecl wmain()
     Status = TdhAggregatePayloadFilters(FilterCount,  
                                         EventFilters,  
                                         NULL,  
-                                        &FilterDescriptor);  
+                                        &amp;FilterDescriptor);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"TdhAggregatePayloadFilters() failed with %lu\n", Status);  
         goto Exit;  
@@ -732,9 +730,9 @@ int __cdecl wmain()
     //      
     // Clean up the interim filters      
     //    
-    for (i = 0; i < FilterCount; i++) {  
+    for (i = 0; i &lt; FilterCount; i++) {  
   
-        Status = TdhDeletePayloadFilter(&EventFilters[i]);  
+        Status = TdhDeletePayloadFilter(&amp;EventFilters[i]);  
         if (Status != ERROR_SUCCESS) {  
             wprintf(L"TdhDeletePayloadFilter() failed with %lu\n", Status);  
             goto Exit;  
@@ -758,13 +756,13 @@ int __cdecl wmain()
         goto Exit;  
     }  
   
-    TraceProperties->LogFileMode = EVENT_TRACE_FILE_MODE_SEQUENTIAL | EVENT_TRACE_SYSTEM_LOGGER_MODE;  
-    TraceProperties->MaximumFileSize = 100; // Limit file size to 100MB max      
-    TraceProperties->BufferSize = 512; // Use 512KB trace buffers      
-    TraceProperties->MinimumBuffers = 8;  
-    TraceProperties->MaximumBuffers = 64;  
+    TraceProperties-&gt;LogFileMode = EVENT_TRACE_FILE_MODE_SEQUENTIAL | EVENT_TRACE_SYSTEM_LOGGER_MODE;  
+    TraceProperties-&gt;MaximumFileSize = 100; // Limit file size to 100MB max      
+    TraceProperties-&gt;BufferSize = 512; // Use 512KB trace buffers      
+    TraceProperties-&gt;MinimumBuffers = 8;  
+    TraceProperties-&gt;MaximumBuffers = 64;  
   
-    Status = StartTrace(&SessionHandle, LoggerName, TraceProperties);  
+    Status = StartTrace(&amp;SessionHandle, LoggerName, TraceProperties);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"StartTrace() failed with %lu\n", Status);  
         goto Exit;  
@@ -776,19 +774,19 @@ int __cdecl wmain()
     // Enable the provider to a trace session with filtering enabled on the      
     // provider      
     //    
-    ZeroMemory(&EnableParameters, sizeof(EnableParameters));  
+    ZeroMemory(&amp;EnableParameters, sizeof(EnableParameters));  
     EnableParameters.Version = ENABLE_TRACE_PARAMETERS_VERSION_2;  
-    EnableParameters.EnableFilterDesc = &FilterDescriptor;  
+    EnableParameters.EnableFilterDesc = &amp;FilterDescriptor;  
     EnableParameters.FilterDescCount = 1;  
   
     Status = EnableTraceEx2(SessionHandle,  
-                            &EXAMPLE_PROVIDER,  
+                            &amp;EXAMPLE_PROVIDER,  
                             EVENT_CONTROL_CODE_ENABLE_PROVIDER,  
                             TRACE_LEVEL_VERBOSE,  
                             0,  
                             0,  
                             0,  
-                            &EnableParameters);  
+                            &amp;EnableParameters);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"EnableTraceEx2() failed with %lu\n", Status);  
         goto Exit;  
@@ -797,7 +795,7 @@ int __cdecl wmain()
     //      
     // Clean up the payload descriptor      
     //    
-    Status = TdhCleanupPayloadEventFilterDescriptor(&FilterDescriptor);  
+    Status = TdhCleanupPayloadEventFilterDescriptor(&amp;FilterDescriptor);  
     if (Status != ERROR_SUCCESS) {  
         wprintf(L"TdhCleanupPayloadEventFilterDescriptor() failed with %lu\n", Status);  
         goto Exit;  
@@ -828,10 +826,10 @@ Exit:
   
     return Status;  
 }  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

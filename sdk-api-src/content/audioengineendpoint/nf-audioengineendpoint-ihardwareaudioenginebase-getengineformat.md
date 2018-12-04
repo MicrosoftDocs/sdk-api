@@ -7,7 +7,7 @@ old-location: coreaudio\ihardwareaudioenginebase_getengineformat.htm
 tech.root: CoreAudio
 ms.assetid: 150F8E7C-35A0-42DA-8E3D-69835153382F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetEngineFormat, GetEngineFormat method [Core Audio], GetEngineFormat method [Core Audio],IHardwareAudioEngineBase interface, IHardwareAudioEngineBase interface [Core Audio],GetEngineFormat method, IHardwareAudioEngineBase.GetEngineFormat, IHardwareAudioEngineBase::GetEngineFormat, audioengineendpoint/IHardwareAudioEngineBase::GetEngineFormat, coreaudio.ihardwareaudioenginebase_getengineformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- audioengineendpoint.h
-: 
-- IHardwareAudioEngineBase.GetEngineFormat
-: 
 ---
 
 # IHardwareAudioEngineBase::GetEngineFormat

@@ -7,7 +7,7 @@ old-location: tsf\itfthreadfocussink_onsetthreadfocus.htm
 tech.root: TSF
 ms.assetid: 1b126f83-74ee-4430-bb07-d4069f899c25
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfThreadFocusSink interface [Text Services Framework],OnSetThreadFocus method, ITfThreadFocusSink.OnSetThreadFocus, ITfThreadFocusSink::OnSetThreadFocus, OnSetThreadFocus, OnSetThreadFocus method [Text Services Framework], OnSetThreadFocus method [Text Services Framework],ITfThreadFocusSink interface, _tsf_itfthreadfocussink_onsetthreadfocus_ref, msctf/ITfThreadFocusSink::OnSetThreadFocus, tsf.itfthreadfocussink_onsetthreadfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfThreadFocusSink.OnSetThreadFocus
-: 
 ---
 
 # ITfThreadFocusSink::OnSetThreadFocus

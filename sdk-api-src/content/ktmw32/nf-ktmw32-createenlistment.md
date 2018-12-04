@@ -4,10 +4,10 @@ title: CreateEnlistment function
 author: windows-sdk-content
 description: Creates an enlistment, sets its initial state, and opens a handle to the enlistment with the specified access.
 old-location: fs\createenlistment.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: 7bc06468-947f-48ec-8e58-20df58ed93bd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateEnlistment, CreateEnlistment function [Files], ENLISTMENT_SUPERIOR, fs.createenlistment, ktmw32/CreateEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateEnlistment
-: 
 ---
 
 # CreateEnlistment function

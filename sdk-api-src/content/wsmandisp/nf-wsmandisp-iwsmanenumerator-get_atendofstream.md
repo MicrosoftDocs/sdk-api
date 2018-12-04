@@ -4,10 +4,10 @@ title: IWSManEnumerator::get_AtEndOfStream
 author: windows-sdk-content
 description: Indicates that the end of items in the IWSManEnumerator object has been reached by calls to IWSManEnumerator::ReadItem.
 old-location: winrm\iwsmanenumerator_atendofstream.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: d80028b0-04ff-4c6d-90f5-1c81141a956c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: AtEndOfStream property [Windows Remote Management], AtEndOfStream property [Windows Remote Management],IWSManEnumerator interface, IWSManEnumerator interface [Windows Remote Management],AtEndOfStream property, IWSManEnumerator.AtEndOfStream, IWSManEnumerator.get_AtEndOfStream, IWSManEnumerator::AtEndOfStream, IWSManEnumerator::get_AtEndOfStream, get_AtEndOfStream, winrm.iwsmanenumerator_atendofstream, wsmandisp/IWSManEnumerator::AtEndOfStream, wsmandisp/IWSManEnumerator::get_AtEndOfStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManEnumerator.get_AtEndOfStream
-: 
 ---
 
 # IWSManEnumerator::get_AtEndOfStream

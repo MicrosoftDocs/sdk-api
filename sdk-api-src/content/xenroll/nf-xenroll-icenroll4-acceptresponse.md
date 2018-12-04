@@ -4,10 +4,10 @@ title: ICEnroll4::acceptResponse
 author: windows-sdk-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createRequest and places the credentials in the appropriate store.
 old-location: security\icenroll4_acceptresponse.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 1149a76e-e714-4bc7-842c-6fcbe220cd24
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CEnroll object [Security],acceptResponse method, ICEnroll4 interface [Security],acceptResponse method, ICEnroll4.acceptResponse, ICEnroll4::acceptResponse, _xen_icenroll4_acceptresponse, acceptResponse, acceptResponse method [Security], acceptResponse method [Security],CEnroll object, acceptResponse method [Security],ICEnroll4 interface, security.icenroll4_acceptresponse, xenroll/ICEnroll4::acceptResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- ICEnroll4.acceptResponse
-: 
 ---
 
 # ICEnroll4::acceptResponse

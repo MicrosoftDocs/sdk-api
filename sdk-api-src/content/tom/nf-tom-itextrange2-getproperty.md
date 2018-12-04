@@ -4,10 +4,10 @@ title: ITextRange2::GetProperty
 author: windows-sdk-content
 description: Gets the value of a property.
 old-location: controls\itextrange2_getproperty.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: d5e636b9-d02e-46ac-b224-7d1019da44eb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetProperty method, ITextRange2.GetProperty, ITextRange2::GetProperty, controls.itextrange2_getproperty, tom/ITextRange2::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRange2.GetProperty
-: 
 ---
 
 # ITextRange2::GetProperty

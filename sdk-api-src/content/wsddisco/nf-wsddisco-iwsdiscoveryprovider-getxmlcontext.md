@@ -4,10 +4,10 @@ title: IWSDiscoveryProvider::GetXMLContext
 author: windows-sdk-content
 description: Gets the XML context associated with this provider.
 old-location: ncd\iwsdiscoveryprovider_getxmlcontext.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: ee2a862a-9d1d-4099-982e-259b6ab815f6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,GetXMLContext method, IWSDiscoveryProvider.GetXMLContext, IWSDiscoveryProvider::GetXMLContext, ncd.iwsdiscoveryprovider_getxmlcontext, wsddisco/IWSDiscoveryProvider::GetXMLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsddisco.h
-: 
-- IWSDiscoveryProvider.GetXMLContext
-: 
 ---
 
 # IWSDiscoveryProvider::GetXMLContext

@@ -7,7 +7,7 @@ old-location: tsf\tf_getthreadmgr.htm
 tech.root: TSF
 ms.assetid: f8e3ed16-7a4f-424a-ae6d-4f81ab344af0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: TF_GetThreadMgr, TF_GetThreadMgr function [Text Services Framework], msctf/TF_GetThreadMgr, tsf.tf_getthreadmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows XPWindows 2000 Professional
-- apiref
-: 
-- 
-: 
-- TF_GetThreadMgr
-: 
 ---
 
 # TF_GetThreadMgr function
@@ -110,9 +104,13 @@ The following example demonstrates a function that will attempt to obtain a copy
 </div>
 <div> </div>
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 typedef HRESULT (WINAPI *PTF_GETTHREADMGR)(ITfThreadMgr **pptim);
 
 HRESULT GetThreadMgr(ITfThreadMgr **pptm)
@@ -134,7 +132,7 @@ HRESULT GetThreadMgr(ITfThreadMgr **pptm)
 
         if(pfnGetThreadMgr)
         {
-            hr = (*pfnGetThreadMgr)(&pThreadMgr);
+            hr = (*pfnGetThreadMgr)(&amp;pThreadMgr);
         }
         
         FreeLibrary(hMSCTF);
@@ -148,17 +146,17 @@ HRESULT GetThreadMgr(ITfThreadMgr **pptm)
                                 NULL, 
                                 CLSCTX_INPROC_SERVER, 
                                 IID_ITfThreadMgr, 
-                                (void**)&pThreadMgr);
+                                (void**)&amp;pThreadMgr);
     }
 
     *pptm = pThreadMgr;
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

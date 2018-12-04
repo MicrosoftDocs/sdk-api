@@ -4,10 +4,10 @@ title: "_MSV1_0_SUBAUTH_REQUEST"
 author: windows-sdk-content
 description: Contains information to pass to an subauthentication package.
 old-location: security\msv1_0_subauth_request.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 5a408c0a-56d4-48f6-8289-6f203ef998df
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PMSV1_0_SUBAUTH_REQUEST, MSV1_0_SUBAUTH_REQUEST, MSV1_0_SUBAUTH_REQUEST structure [Security], PMSV1_0_SUBAUTH_REQUEST, PMSV1_0_SUBAUTH_REQUEST structure pointer [Security], _MSV1_0_SUBAUTH_REQUEST, _lsa_msv1_0_subauth_request, ntsecapi/MSV1_0_SUBAUTH_REQUEST, ntsecapi/PMSV1_0_SUBAUTH_REQUEST, security.msv1_0_subauth_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices

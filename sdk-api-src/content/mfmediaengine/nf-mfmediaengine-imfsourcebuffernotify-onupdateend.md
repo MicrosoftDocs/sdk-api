@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffernotify_onupdateend.htm
 tech.root: medfound
 ms.assetid: a06d5765-d91e-4cbc-ac12-09d1ce4d84f6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdateEnd method, IMFSourceBufferNotify.OnUpdateEnd, IMFSourceBufferNotify::OnUpdateEnd, OnUpdateEnd, OnUpdateEnd method [Media Foundation], OnUpdateEnd method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdateend, mfmediaengine/IMFSourceBufferNotify::OnUpdateEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfmediaengine.h
-: 
-- IMFSourceBufferNotify.OnUpdateEnd
-: 
 ---
 
 # IMFSourceBufferNotify::OnUpdateEnd

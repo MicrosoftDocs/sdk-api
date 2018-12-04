@@ -4,10 +4,10 @@ title: IEnroll2::EnumAlgs
 author: windows-sdk-content
 description: Retrieves the IDs of cryptographic algorithms in a given algorithm class that are supported by the current cryptographic service provider (CSP).
 old-location: security\ienroll4_enumalgs.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: a40d85d0-fd02-4e0a-af7d-dfefe02f4e2a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EnumAlgs, EnumAlgs method [Security], EnumAlgs method [Security],IEnroll2 interface, IEnroll2 interface [Security],EnumAlgs method, IEnroll2.EnumAlgs, IEnroll2::EnumAlgs, security.ienroll4_enumalgs, xenroll/IEnroll2::EnumAlgs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- IEnroll2.EnumAlgs
-: 
 ---
 
 # IEnroll2::EnumAlgs

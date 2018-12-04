@@ -4,10 +4,10 @@ title: lineAnswer function
 author: windows-sdk-content
 description: The lineAnswer function answers the specified offering call.
 old-location: tapi2\lineanswer.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: dd51991c-c044-4b88-8f97-9e0ae701a2a5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_tapi2_lineanswer, lineAnswer, lineAnswer function [TAPI 2.2], tapi/lineAnswer, tapi2.lineanswer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- lineAnswer
-: 
 ---
 
 # lineAnswer function

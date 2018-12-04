@@ -4,10 +4,10 @@ title: CveEventWrite function
 author: windows-sdk-content
 description: A tracing function for publishing events when an attempted security vulnerability exploit is detected in your user-mode application.
 old-location: etw\cveeventwrite.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 81CDC4A8-67B3-40AE-B492-89EF47BC5C4D
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CveEventWrite, CveEventWrite function [ETW], etw.cveeventwrite, securitybaseapi/CveEventWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CveEventWrite
-: 
 ---
 
 # CveEventWrite function

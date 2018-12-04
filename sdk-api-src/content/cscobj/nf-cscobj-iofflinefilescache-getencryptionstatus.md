@@ -4,10 +4,10 @@ title: IOfflineFilesCache::GetEncryptionStatus
 author: windows-sdk-content
 description: Retrieves the current encryption state (encrypted or unencrypted) of the Offline Files cache.
 old-location: of\iofflinefilescache_getencryptionstatus.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 87c2aced-84c9-40cb-bdf2-6974925e89d5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetEncryptionStatus, GetEncryptionStatus method [Offline Files], GetEncryptionStatus method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetEncryptionStatus method, IOfflineFilesCache.GetEncryptionStatus, IOfflineFilesCache::GetEncryptionStatus, cscobj/IOfflineFilesCache::GetEncryptionStatus, of.iofflinefilescache_getencryptionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesCache.GetEncryptionStatus
-: 
 ---
 
 # IOfflineFilesCache::GetEncryptionStatus
@@ -94,7 +86,7 @@ This encryption state is read from the Offline Files cache and reflects the stat
 
 This method returns two values that indicate if the cache is fully encrypted, partially encrypted, fully unencrypted or partially unencrypted.
 
-To change the encryption state of the cache, use the <a href="https://msdn.microsoft.com/en-us/library/Bb530489(v=VS.85).aspx">IOfflineFilesCache::Encrypt</a> method.
+To change the encryption state of the cache, use the <a href="https://msdn.microsoft.com/b7531018-4837-4fde-8947-0f099f6de9e5">IOfflineFilesCache::Encrypt</a> method.
 
 
 #### Examples
@@ -151,7 +143,7 @@ The following example shows how to use this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
  
 
  

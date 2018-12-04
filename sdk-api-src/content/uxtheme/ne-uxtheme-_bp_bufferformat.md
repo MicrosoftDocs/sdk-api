@@ -4,10 +4,10 @@ title: "_BP_BUFFERFORMAT"
 author: windows-sdk-content
 description: Specifies the format of the buffer. Used by BeginBufferedAnimation and BeginBufferedPaint.
 old-location: controls\BP_BUFFERFORMAT.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\enums\bp_bufferformat.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: BPBF_COMPATIBLEBITMAP, BPBF_DIB, BPBF_TOPDOWNDIB, BPBF_TOPDOWNMONODIB, BP_BUFFERFORMAT, BP_BUFFERFORMAT enumeration [Windows Controls], _BP_BUFFERFORMAT, _shell_BP_BUFFERFORMAT, _shell_BP_BUFFERFORMAT_cpp, controls.BP_BUFFERFORMAT, controls._shell_BP_BUFFERFORMAT, uxtheme/BPBF_COMPATIBLEBITMAP, uxtheme/BPBF_DIB, uxtheme/BPBF_TOPDOWNDIB, uxtheme/BPBF_TOPDOWNMONODIB, uxtheme/BP_BUFFERFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the format of the buffer. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb773252(v=VS.85).aspx">BeginBufferedAnimation</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+Specifies the format of the buffer. Used by <a href="https://msdn.microsoft.com/ca7204b3-3166-4911-96f9-16a0f59ecb09">BeginBufferedAnimation</a> and <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
 
 
 ## -enum-fields
@@ -60,7 +60,7 @@ Specifies the format of the buffer. Used by <a href="https://msdn.microsoft.com/
 
 ### -field BPBF_COMPATIBLEBITMAP
 
-Compatible bitmap. The  number of bits per pixel is based on the color format of the device associated with the HDC specified with <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb773252(v=VS.85).aspx">BeginBufferedAnimation</a>—typically, this is the display device.
+Compatible bitmap. The  number of bits per pixel is based on the color format of the device associated with the HDC specified with <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a> or <a href="https://msdn.microsoft.com/ca7204b3-3166-4911-96f9-16a0f59ecb09">BeginBufferedAnimation</a>—typically, this is the display device.
 
 
 ### -field BPBF_DIB

@@ -7,13 +7,13 @@ old-location: base\createjobobject.htm
 tech.root: procthread
 ms.assetid: ca6a044f-67ed-4a9c-9aeb-69dd77652854
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: CreateJobObject, CreateJobObject function, CreateJobObjectA, CreateJobObjectW, _win32_createjobobject, base.createjobobject, jobapi2/CreateJobObject, jobapi2/CreateJobObjectA, jobapi2/CreateJobObjectW
+ms.date: 11/23/2018
+ms.keywords: CreateJobObject, CreateJobObject function, CreateJobObjectA, CreateJobObjectW, _win32_createjobobject, base.createjobobject, winbase/CreateJobObject, winbase/CreateJobObjectA, winbase/CreateJobObjectW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: jobapi2.h
-req.include-header: Windows.h
+req.include-header: Windows.h, Jobapi2.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateJobObjectW
-: 
 ---
 
 # CreateJobObjectW function

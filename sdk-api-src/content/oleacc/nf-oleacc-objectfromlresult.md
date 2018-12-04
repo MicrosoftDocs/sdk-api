@@ -7,7 +7,7 @@ old-location: winauto\objectfromlresult.htm
 tech.root: WinAuto
 ms.assetid: 97e766fd-e142-40d1-aba7-408b45d33426
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ObjectFromLresult, ObjectFromLresult function [Windows Accessibility], _msaa_ObjectFromLresult, msaa.objectfromlresult, oleacc/ObjectFromLresult, winauto.objectfromlresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
-- apiref
-: 
-- 
-: 
-- ObjectFromLresult
-: 
 ---
 
 # ObjectFromLresult function

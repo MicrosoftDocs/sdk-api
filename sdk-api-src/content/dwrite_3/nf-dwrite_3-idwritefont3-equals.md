@@ -7,7 +7,7 @@ old-location: directwrite\idwritefont3_equals.htm
 tech.root: DirectWrite
 ms.assetid: 4C537868-F655-457F-9B70-FA7633CF714C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Equals, Equals method [Direct Write], Equals method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],Equals method, IDWriteFont3.Equals, IDWriteFont3::Equals, directwrite.idwritefont3_equals, dwrite_3/IDWriteFont3::Equals
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_3.h
-: 
-- IDWriteFont3.Equals
-: 
 ---
 
 # IDWriteFont3::Equals

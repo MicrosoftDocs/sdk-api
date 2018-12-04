@@ -7,7 +7,7 @@ old-location: com\bindmoniker.htm
 tech.root: com
 ms.assetid: 5a022c39-fc2c-458b-9dfe-fed1255d49a4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: BindMoniker, BindMoniker function [COM], _com_BindMoniker, com.bindmoniker, objbase/BindMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BindMoniker
-: 
 ---
 
 # BindMoniker function

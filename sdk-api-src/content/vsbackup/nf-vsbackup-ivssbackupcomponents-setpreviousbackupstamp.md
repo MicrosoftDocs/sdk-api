@@ -4,10 +4,10 @@ title: IVssBackupComponents::SetPreviousBackupStamp
 author: windows-sdk-content
 description: The SetPreviousBackupStamp method sets the backup stamp of an earlier backup operation, upon which a differential or incremental backup operation will be based.
 old-location: base\ivssbackupcomponents_setpreviousbackupstamp.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: cc1c75bf-b281-4741-9273-f7264532860f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetPreviousBackupStamp method, IVssBackupComponents.SetPreviousBackupStamp, IVssBackupComponents::SetPreviousBackupStamp, SetPreviousBackupStamp, SetPreviousBackupStamp method [VSS], SetPreviousBackupStamp method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setpreviousbackupstamp, base.ivssbackupcomponents_setpreviousbackupstamp, vsbackup/IVssBackupComponents::SetPreviousBackupStamp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsbackup.h
-: 
-- IVssBackupComponents.SetPreviousBackupStamp
-: 
 ---
 
 # IVssBackupComponents::SetPreviousBackupStamp

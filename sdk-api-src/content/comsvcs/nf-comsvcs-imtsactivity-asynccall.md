@@ -7,7 +7,7 @@ old-location: cos\imtsactivity_asynccall.htm
 tech.root: cossdk
 ms.assetid: ccbb96e8-9fb8-40b4-b027-432ba8c400c7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AsyncCall, AsyncCall method [COM+], AsyncCall method [COM+],IMTSActivity interface, IMTSActivity interface [COM+],AsyncCall method, IMTSActivity.AsyncCall, IMTSActivity::AsyncCall, _cos_IMTSActivity_AsyncCall, comsvcs/IMTSActivity::AsyncCall, cos.imtsactivity_asynccall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- IMTSActivity.AsyncCall
-: 
 ---
 
 # IMTSActivity::AsyncCall

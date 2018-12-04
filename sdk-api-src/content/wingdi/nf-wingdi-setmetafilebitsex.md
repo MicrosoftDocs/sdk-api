@@ -7,7 +7,7 @@ old-location: gdi\setmetafilebitsex.htm
 tech.root: gdi
 ms.assetid: 232eeba9-f579-4b5f-a31a-416aeb56a909
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SetMetaFileBitsEx, SetMetaFileBitsEx function [Windows GDI], _win32_SetMetaFileBitsEx, gdi.setmetafilebitsex, wingdi/SetMetaFileBitsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetMetaFileBitsEx
-: 
 ---
 
 # SetMetaFileBitsEx function

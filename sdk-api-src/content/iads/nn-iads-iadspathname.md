@@ -4,10 +4,10 @@ title: IADsPathname
 author: windows-sdk-content
 description: Parses the X.500 and Windows path in ADSI.
 old-location: adsi\iadspathname.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 9aa26d6c-aa86-4a23-a986-b8cb9057772a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsPathname, IADsPathname interface [ADSI], IADsPathname interface [ADSI],described, Pathname, _ds_iadspathname, adsi.iadspathname, iads/IADsPathname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ The <b>IADsPathname</b> interface can be used to:
 <li>Set and get paths of ADSI objects in different formats.</li>
 <li>Extract or add each element for a given ADsPath.</li>
 <li>Construct ADsPaths to be used in queries of directory objects.</li>
-</ul>The <b>IADsPathname</b> interface is implemented on a <b>Pathname</b> object. You must instantiate the <b>Pathname</b> object to use the methods defined in the <b>IADsPathname</b> interface. This requirement is similar to calling the  <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance()</a> function in C++.
+</ul>The <b>IADsPathname</b> interface is implemented on a <b>Pathname</b> object. You must instantiate the <b>Pathname</b> object to use the methods defined in the <b>IADsPathname</b> interface. This requirement is similar to calling the  <a href="_com_cocreateinstance">CoCreateInstance()</a> function in C++.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -101,7 +101,7 @@ Set path = CreateObject("Pathname")</pre>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPathname</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsPathname</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPathname</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IADsPathname</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -236,7 +236,7 @@ Retrieves the mode for escaping a path.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance()</a>
+<a href="_com_cocreateinstance">CoCreateInstance()</a>
 
 
 
@@ -245,7 +245,7 @@ Retrieves the mode for escaping a path.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

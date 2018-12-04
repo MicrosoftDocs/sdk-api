@@ -4,10 +4,10 @@ title: NetUserModalsGet function
 author: windows-sdk-content
 description: The NetUserModalsGet function retrieves global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netusermodalsget.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 5bb18144-82a6-4e9b-8321-c06a667bdd03
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 0, 1, 2, 3, NetUserModalsGet, NetUserModalsGet function [Network Management], _win32_netusermodalsget, lmaccess/NetUserModalsGet, netmgmt.netusermodalsget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetUserModalsGet
-: 
 ---
 
 # NetUserModalsGet function
@@ -237,14 +231,14 @@ The computer name is invalid.
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user modal functions. For more information, see 
 <a href="https://msdn.microsoft.com/9d4b1e9c-93b1-4aee-b20d-a7693fd0a61b">IADsDomain</a>.
 
-If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://msdn.microsoft.com/32f2ec06-822f-4d1e-bf51-5ae1d7355e60">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="https://msdn.microsoft.com/library/Aa375347(v=VS.85).aspx">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
+If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://msdn.microsoft.com/32f2ec06-822f-4d1e-bf51-5ae1d7355e60">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="security.pre_windows_2000_compatible_access_group">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
 <a href="https://msdn.microsoft.com/846a5b81-d5bf-4275-a898-38e6ba308b8f">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
 <a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>.
 
 The security descriptor of the Domain object is used to perform the access check for this function.
 
 To retrieve the 
-<a href="https://msdn.microsoft.com/library/Aa379571(v=VS.85).aspx">security identifier</a> (SID) of the domain to which the computer belongs, call the 
+<a href="security.security_identifiers_sids_">security identifier</a> (SID) of the domain to which the computer belongs, call the 
 <b>NetUserModalsGet</b> function specifying a 
 <a href="https://msdn.microsoft.com/9a4b3fc1-03b5-4ba7-948f-e455c34fa234">USER_MODALS_INFO_2</a> structure and <b>NULL</b> in the <i>servername</i> parameter. If the computer isn't a member of a domain, the function returns a <b>NULL</b> pointer.
 

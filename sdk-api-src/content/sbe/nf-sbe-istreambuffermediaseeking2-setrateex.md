@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbe.h
-: 
-- IStreamBufferMediaSeeking2.SetRateEx
-: 
 ---
 
 # IStreamBufferMediaSeeking2::SetRateEx

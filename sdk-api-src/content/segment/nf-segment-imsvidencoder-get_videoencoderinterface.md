@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidEncoder.get_VideoEncoderInterface
-: 
 ---
 
 # IMSVidEncoder::get_VideoEncoderInterface

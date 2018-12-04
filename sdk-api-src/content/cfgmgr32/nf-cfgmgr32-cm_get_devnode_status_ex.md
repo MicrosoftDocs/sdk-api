@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Get_DevNode_Status_Ex
-: 
 ---
 
 # CM_Get_DevNode_Status_Ex function

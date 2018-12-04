@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateIpNetEntry2
-: 
 ---
 
 # CreateIpNetEntry2 function

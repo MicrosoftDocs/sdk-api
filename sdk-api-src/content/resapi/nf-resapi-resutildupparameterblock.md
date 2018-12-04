@@ -4,10 +4,10 @@ title: ResUtilDupParameterBlock function
 author: windows-sdk-content
 description: Performs a member-wise copy of the data from one parameter block to another.
 old-location: mscs\resutildupparameterblock.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: b05b5afe-7d4b-4a21-9f28-88d6effaf5af
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PRESUTIL_DUP_PARAMETER_BLOCK, PRESUTIL_DUP_PARAMETER_BLOCK function [Failover Cluster], ResUtilDupParameterBlock, ResUtilDupParameterBlock function [Failover Cluster], _wolf_resutildupparameterblock, mscs.resutildupparameterblock, resapi/PRESUTIL_DUP_PARAMETER_BLOCK, resapi/ResUtilDupParameterBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResUtilDupParameterBlock
-: 
 ---
 
 # ResUtilDupParameterBlock function

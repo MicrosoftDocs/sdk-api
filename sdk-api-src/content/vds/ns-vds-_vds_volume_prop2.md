@@ -4,10 +4,10 @@ title: "_VDS_VOLUME_PROP2"
 author: windows-sdk-content
 description: Defines the properties of a volume object. This structure is identical to the VDS_VOLUME_PROP structure, except that it also includes the volume GUIDs.
 old-location: base\vds_volume_prop2.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: e99aaead-f5ad-4181-9208-9158e9fac38f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PVDS_VOLUME_PROP2, PVDS_VOLUME_PROP2, PVDS_VOLUME_PROP2 structure pointer, VDS_VOLUME_PROP2, VDS_VOLUME_PROP2 structure, _VDS_VOLUME_PROP2, base.vds_volume_prop2, vds/PVDS_VOLUME_PROP2, vds/VDS_VOLUME_PROP2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,7 +107,7 @@ The length of the byte array that the <b>pUniqueId</b> member points to.
 
 ### -field pwszName
 
-The name that was used to open a handle for the volume with the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function. For example, \\?\GLOBALROOT\Device\HarddiskVolume1.
+The name that was used to open a handle for the volume with the <a href="base.createfile">CreateFile</a> function. For example, \\?\GLOBALROOT\Device\HarddiskVolume1.
 
 
 ### -field pUniqueId

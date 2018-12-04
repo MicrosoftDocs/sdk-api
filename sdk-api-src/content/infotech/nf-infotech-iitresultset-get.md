@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- infotech.h
-: 
-- IITResultSet.Get
-: 
 ---
 
 # IITResultSet::Get
@@ -133,7 +125,7 @@ The row or column does not exist in the row set.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670054(v=VS.85).aspx">IITResultSet</a>
+<a href="https://msdn.microsoft.com/e77b1489-a883-4f98-acb0-b998cbe3d46e">IITResultSet</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dshow\idmoqualitycontrol_getstatus.htm
 tech.root: DirectShow
 ms.assetid: 5c45874f-5546-40cc-a113-bea92bd9784b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IDMOQualityControl interface, IDMOQualityControl interface [DirectShow],GetStatus method, IDMOQualityControl.GetStatus, IDMOQualityControl::GetStatus, IDMOQualityControlGetStatus, dshow.idmoqualitycontrol_getstatus, mediaobj/IDMOQualityControl::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mediaobj.h
-: 
-- IDMOQualityControl.GetStatus
-: 
 ---
 
 # IDMOQualityControl::GetStatus

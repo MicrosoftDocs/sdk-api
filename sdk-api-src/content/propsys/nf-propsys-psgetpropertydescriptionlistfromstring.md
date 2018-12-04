@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertyDescriptionListFromString.htm
 tech.root: properties
 ms.assetid: 348253ed-46ac-4643-bbf8-2d286ae97f07
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PSGetPropertyDescriptionListFromString, PSGetPropertyDescriptionListFromString function [Windows Properties], properties.PSGetPropertyDescriptionListFromString, propsys/PSGetPropertyDescriptionListFromString, shell.PSGetPropertyDescriptionListFromString, shell_PSGetPropertyDescriptionListFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PSGetPropertyDescriptionListFromString
-: 
 ---
 
 # PSGetPropertyDescriptionListFromString function
@@ -68,7 +62,7 @@ Gets an instance of a property description list interface for a specified proper
 
 Type: <b>LPCWSTR</b>
 
-Pointer to a null-terminated, Unicode string that identifies the property list. See <a href="https://msdn.microsoft.com/library/Bb761436(v=VS.85).aspx">IPropertySystem::GetPropertyDescriptionListFromString</a> for more information about the format of this parameter.
+Pointer to a null-terminated, Unicode string that identifies the property list. See <a href="shell.IPropertySystem_GetPropertyDescriptionListFromString">IPropertySystem::GetPropertyDescriptionListFromString</a> for more information about the format of this parameter.
 
 
 ### -param riid [in]
@@ -82,7 +76,7 @@ Reference to the interface ID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a>.
 
 
 ## -returns
@@ -130,16 +124,16 @@ The <i>ppv</i> parameter is <b>NULL</b>.
 
 
 
-This function calls the property subsystem implementation of <a href="https://msdn.microsoft.com/library/Bb761436(v=VS.85).aspx">IPropertySystem::GetPropertyDescriptionListFromString</a> to obtain a collection of properties provided as a semicolon-delimited property list string.
+This function calls the property subsystem implementation of <a href="shell.IPropertySystem_GetPropertyDescriptionListFromString">IPropertySystem::GetPropertyDescriptionListFromString</a> to obtain a collection of properties provided as a semicolon-delimited property list string.
 
 We recommend that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error.
 
-For more information about property schemas, see <a href="https://msdn.microsoft.com/library/Cc144135(v=VS.85).aspx">Property Schemas</a>.
+For more information about property schemas, see <a href="shell.Building_Property_Handlers_Property_Schemas">Property Schemas</a>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762079(v=VS.85).aspx">PSGetPropertyDescriptionListFromString</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyDescriptionListFromString">PSGetPropertyDescriptionListFromString</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

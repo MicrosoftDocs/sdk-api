@@ -7,7 +7,7 @@ old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__lookupbypoint.htm
 tech.root: WinAuto
 ms.assetid: 6de40049-3c61-458c-b7e0-c4b416780581
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IAccClientDocMgr interface [Windows Accessibility],LookupByPoint method, IAccClientDocMgr.LookupByPoint, IAccClientDocMgr::LookupByPoint, LookupByPoint, LookupByPoint method [Windows Accessibility], LookupByPoint method [Windows Accessibility],IAccClientDocMgr interface, _msaa_IAccClientDocMgr_LookupByPoint, msaa.iaccclientdocmgr_iaccclientdocmgr__lookupbypoint, msaatext/IAccClientDocMgr::LookupByPoint, winauto.iaccclientdocmgr_iaccclientdocmgr__lookupbypoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
-- apiref
-: 
-- COM
-: 
-- msaatext.h
-: 
-- IAccClientDocMgr.LookupByPoint
-: 
 ---
 
 # IAccClientDocMgr::LookupByPoint

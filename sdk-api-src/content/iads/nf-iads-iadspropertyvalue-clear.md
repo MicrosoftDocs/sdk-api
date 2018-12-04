@@ -4,10 +4,10 @@ title: IADsPropertyValue::Clear
 author: windows-sdk-content
 description: Clears the current values of the property value object.
 old-location: adsi\iadspropertyvalue_clear.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 1662f507-6e1c-4f44-a40d-0eccd8091c51
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: Clear, Clear method [ADSI], Clear method [ADSI],IADsPropertyValue interface, IADsPropertyValue interface [ADSI],Clear method, IADsPropertyValue.Clear, IADsPropertyValue::Clear, _ds_iadspropertyvalue_clear, adsi.iadspropertyvalue__clear, adsi.iadspropertyvalue_clear, iads/IADsPropertyValue::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsPropertyValue.Clear
-: 
 ---
 
 # IADsPropertyValue::Clear

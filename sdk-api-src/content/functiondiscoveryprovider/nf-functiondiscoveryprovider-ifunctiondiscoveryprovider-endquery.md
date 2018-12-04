@@ -4,10 +4,10 @@ title: IFunctionDiscoveryProvider::EndQuery
 author: windows-sdk-content
 description: Terminates a query being executed by a provider.
 old-location: ncd\ifunctiondiscoveryprovider_endquery_method.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: be19f2ac-037c-443b-b36f-68b9c9f132f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EndQuery, EndQuery method, EndQuery method,IFunctionDiscoveryProvider interface, IFunctionDiscoveryProvider interface,EndQuery method, IFunctionDiscoveryProvider.EndQuery, IFunctionDiscoveryProvider::EndQuery, functiondiscoveryprovider/IFunctionDiscoveryProvider::EndQuery, ncd.ifunctiondiscoveryprovider_endquery_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryprovider.h
-: 
-- IFunctionDiscoveryProvider.EndQuery
-: 
 ---
 
 # IFunctionDiscoveryProvider::EndQuery

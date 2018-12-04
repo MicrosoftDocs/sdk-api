@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccolorcontext_getprofilebytes.htm
 tech.root: wic
 ms.assetid: 59427a49-ef68-4680-b6d8-4ffa2a1913b8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetProfileBytes, GetProfileBytes method [Windows Imaging Component], GetProfileBytes method [Windows Imaging Component],IWICColorContext interface, IWICColorContext interface [Windows Imaging Component],GetProfileBytes method, IWICColorContext.GetProfileBytes, IWICColorContext::GetProfileBytes, _wic_codec_iwiccolorcontext_getprofilebytes, wic._wic_codec_iwiccolorcontext_getprofilebytes, wincodec/IWICColorContext::GetProfileBytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodec.h
-: 
-- IWICColorContext.GetProfileBytes
-: 
 ---
 
 # IWICColorContext::GetProfileBytes
@@ -102,7 +94,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Only use this method if the context type is <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextProfile</a>.
+Only use this method if the context type is <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextProfile</a>.
 
 
 Calling this method with <i>pbBuffer</i> set to <b>NULL</b> will cause it to return the required buffer size in <i>pcbActual</i>.

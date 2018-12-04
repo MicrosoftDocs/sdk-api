@@ -4,10 +4,10 @@ title: SaferRecordEventLogEntry function
 author: windows-sdk-content
 description: Saves messages to an event log.
 old-location: security\saferrecordeventlogentry.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 7eb48f80-3a57-46ec-aca1-6ff8c1c514c6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SaferRecordEventLogEntry, SaferRecordEventLogEntry function [Security], _mnp_saferrecordeventlogentry, security.saferrecordeventlogentry, winsafer/SaferRecordEventLogEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SaferRecordEventLogEntry
-: 
 ---
 
 # SaferRecordEventLogEntry function

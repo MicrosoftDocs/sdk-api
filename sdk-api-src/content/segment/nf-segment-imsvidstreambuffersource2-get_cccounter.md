@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidStreamBufferSource2.get_CCCounter
-: 
 ---
 
 # IMSVidStreamBufferSource2::get_CCCounter

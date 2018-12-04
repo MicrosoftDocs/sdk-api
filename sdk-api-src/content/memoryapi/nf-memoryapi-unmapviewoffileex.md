@@ -4,10 +4,10 @@ title: UnmapViewOfFileEx function
 author: windows-sdk-content
 description: This is an extended version of UnmapViewOfFile that takes an additional flags parameter.
 old-location: base\unmapviewoffileex.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 1C86075D-17B8-481E-BDF0-6E5A8F55C188
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MEM_PRESERVE_PLACEHOLDER, MEM_UNMAP_WITH_TRANSIENT_BOOST, UnmapViewOfFileEx, UnmapViewOfFileEx function, base.unmapviewoffileex, winbase/UnmapViewOfFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UnmapViewOfFileEx
-: 
 ---
 
 # UnmapViewOfFileEx function

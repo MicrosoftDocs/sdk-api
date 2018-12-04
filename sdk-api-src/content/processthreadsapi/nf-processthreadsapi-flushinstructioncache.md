@@ -4,10 +4,10 @@ title: FlushInstructionCache function
 author: windows-sdk-content
 description: Flushes the instruction cache for the specified process.
 old-location: base\flushinstructioncache.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 6267adde-8169-4673-97ec-78c66e2135c1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: FlushInstructionCache, FlushInstructionCache function, _win32_flushinstructioncache, base.flushinstructioncache, processthreadsapi/FlushInstructionCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FlushInstructionCache
-: 
 ---
 
 # FlushInstructionCache function

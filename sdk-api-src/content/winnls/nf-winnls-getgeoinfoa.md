@@ -7,7 +7,7 @@ old-location: intl\getgeoinfo.htm
 tech.root: Intl
 ms.assetid: 73827ed9-bdc5-4b34-b849-fb44b3c5bd6e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetGeoInfo, GetGeoInfo function [Internationalization for Windows Applications], GetGeoInfoA, GetGeoInfoW, _win32_GetGeoInfo, intl.getgeoinfo, winnls/GetGeoInfo, winnls/GetGeoInfoA, winnls/GetGeoInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,12 +52,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetGeoInfoA
-: 
 ---
 
 # GetGeoInfoA function

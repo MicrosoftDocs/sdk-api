@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_get_cache_information.htm
 tech.root: fileio
 ms.assetid: 025a92e8-6169-4d7e-9029-f22acb2bdc9f
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: IOCTL_DISK_GET_CACHE_INFORMATION, IOCTL_DISK_GET_CACHE_INFORMATION control, IOCTL_DISK_GET_CACHE_INFORMATION control code [Files], base.ioctl_disk_get_cache_information, fs.ioctl_disk_get_cache_information, winioctl/IOCTL_DISK_GET_CACHE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

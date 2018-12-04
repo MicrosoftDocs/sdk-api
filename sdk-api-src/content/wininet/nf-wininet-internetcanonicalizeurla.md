@@ -4,10 +4,10 @@ title: InternetCanonicalizeUrlA function
 author: windows-sdk-content
 description: Canonicalizes a URL, which includes converting unsafe characters and spaces into escape sequences.
 old-location: wininet\internetcanonicalizeurl.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 3bfde980-e478-4960-b41f-e1c8105ef419
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: InternetCanonicalizeUrl, InternetCanonicalizeUrl function [WinINet], InternetCanonicalizeUrlA, InternetCanonicalizeUrlW, _inet_internetcanonicalizeurl_function, wininet.internetcanonicalizeurl, wininet/InternetCanonicalizeUrl, wininet/InternetCanonicalizeUrlA, wininet/InternetCanonicalizeUrlW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetCanonicalizeUrlA
-: 
 ---
 
 # InternetCanonicalizeUrlA function

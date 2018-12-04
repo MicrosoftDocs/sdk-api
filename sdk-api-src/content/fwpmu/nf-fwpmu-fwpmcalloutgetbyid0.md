@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmCalloutGetById0
-: 
 ---
 
 # FwpmCalloutGetById0 function

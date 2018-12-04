@@ -4,10 +4,10 @@ title: IConsolePowerSink
 author: windows-sdk-content
 description: The IConsolePowerSink interface monitors and responds to power management messages.
 old-location: mmc\iconsolepowersink.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: dd23c6dc-9219-4d13-b237-13405a2fcb5a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IConsolePowerSink, IConsolePowerSink interface [MMC], IConsolePowerSink interface [MMC],described, _slate_iconsolepowersink, mmc.iconsolepowersink, mmc/IConsolePowerSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

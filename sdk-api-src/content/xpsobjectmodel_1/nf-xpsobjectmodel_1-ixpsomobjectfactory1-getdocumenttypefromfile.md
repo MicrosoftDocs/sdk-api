@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory1_getdocumenttypefromfile.htm
 tech.root: printdocs
 ms.assetid: a122c7cb-4166-46e1-a680-d0644ab8ce81
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetDocumentTypeFromFile, GetDocumentTypeFromFile method [XPS Documents and Packaging], GetDocumentTypeFromFile method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],GetDocumentTypeFromFile method, IXpsOMObjectFactory1.GetDocumentTypeFromFile, IXpsOMObjectFactory1::GetDocumentTypeFromFile, xps.ixpsomobjectfactory1_getdocumenttypefromfile, xpsobjectmodel_1/IXpsOMObjectFactory1::GetDocumentTypeFromFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel_1.h
-: 
-- IXpsOMObjectFactory1.GetDocumentTypeFromFile
-: 
 ---
 
 # IXpsOMObjectFactory1::GetDocumentTypeFromFile

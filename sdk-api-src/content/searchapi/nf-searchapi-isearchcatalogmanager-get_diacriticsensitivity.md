@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_get_DiacriticSensitivity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\get_diacriticsensitivity.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISearchCatalogManager interface [search],get_DiacriticSensitivity method, ISearchCatalogManager.get_DiacriticSensitivity, ISearchCatalogManager::get_DiacriticSensitivity, _search_ISearchCatalogManager_get_DiacriticSensitivity, get_DiacriticSensitivity, get_DiacriticSensitivity method [search], get_DiacriticSensitivity method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_get_DiacriticSensitivity, searchapi/ISearchCatalogManager::get_DiacriticSensitivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- COM
-: 
-- searchapi.h
-: 
-- ISearchCatalogManager.get_DiacriticSensitivity
-: 
 ---
 
 # ISearchCatalogManager::get_DiacriticSensitivity

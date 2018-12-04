@@ -4,10 +4,10 @@ title: IConnectedIdentityProvider::DisconnectIdentity
 author: windows-sdk-content
 description: Disconnects an online identity from the current domain user.
 old-location: security\iconnectedidentityprovider_disconnectidentity.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: D7869001-5412-48C9-9C31-0181A9366965
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DisconnectIdentity, DisconnectIdentity method [Security], DisconnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],DisconnectIdentity method, IConnectedIdentityProvider.DisconnectIdentity, IConnectedIdentityProvider::DisconnectIdentity, identityprovider/IConnectedIdentityProvider::DisconnectIdentity, security.iconnectedidentityprovider_disconnectidentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- identityprovider.h
-: 
-- IConnectedIdentityProvider.DisconnectIdentity
-: 
 ---
 
 # IConnectedIdentityProvider::DisconnectIdentity

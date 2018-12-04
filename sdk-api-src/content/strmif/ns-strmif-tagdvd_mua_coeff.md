@@ -7,7 +7,7 @@ old-location: dshow\dvd_mua_coeff.htm
 tech.root: DirectShow
 ms.assetid: 8b8402da-37c2-4983-ae09-967c269fc828
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DVD_MUA_Coeff, DVD_MUA_Coeff structure [DirectShow], DVD_MUA_CoeffStructure, dshow.dvd_mua_coeff, strmif/DVD_MUA_Coeff, tagDVD_MUA_Coeff
 ms.prod: windows-hardware
 ms.technology: windows-devices

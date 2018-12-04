@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EnumDependentServicesA
-: 
 ---
 
 # EnumDependentServicesA function

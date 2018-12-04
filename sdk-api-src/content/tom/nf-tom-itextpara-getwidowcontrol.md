@@ -4,10 +4,10 @@ title: ITextPara::GetWidowControl
 author: windows-sdk-content
 description: Retrieves the widow and orphan control state for the paragraphs in a range.
 old-location: controls\ITextPara_GetWidowControl.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getwidowcontrol.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetWidowControl, GetWidowControl method [Windows Controls], GetWidowControl method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetWidowControl method, ITextPara.GetWidowControl, ITextPara::GetWidowControl, _win32_ITextPara_GetWidowControl, _win32_ITextPara_GetWidowControl_cpp, controls.ITextPara_GetWidowControl, controls._win32_ITextPara_GetWidowControl, tom/ITextPara::GetWidowControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextPara.GetWidowControl
-: 
 ---
 
 # ITextPara::GetWidowControl
@@ -70,7 +62,7 @@ Retrieves the widow and orphan control state for the paragraphs in a range.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates the state of widow and orphan control. It can be one of the following values. 
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates the state of widow and orphan control. It can be one of the following values. 
 					
 
 <table class="clsStd">
@@ -164,7 +156,7 @@ A widow is created when the last line of a paragraph is printed by itself at the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -172,11 +164,11 @@ A widow is created when the last line of a paragraph is printed by itself at the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787834(v=VS.85).aspx">SetWidowControl</a>
+<a href="https://msdn.microsoft.com/87bc1ef8-2422-4a4a-af15-f28aace74f34">SetWidowControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

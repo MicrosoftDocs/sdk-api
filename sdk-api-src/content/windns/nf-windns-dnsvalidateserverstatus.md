@@ -4,10 +4,10 @@ title: DnsValidateServerStatus function
 author: windows-sdk-content
 description: The DnsValidateServerStatus function validates an IP address as a suitable DNS server.
 old-location: dns\dnsvalidateserverstatus.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 5b362d05-87b2-44dd-8198-bcb5ab5a64f6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DNS_VALSVR_ERROR_INVALID_ADDR, DNS_VALSVR_ERROR_INVALID_NAME, DNS_VALSVR_ERROR_NO_AUTH, DNS_VALSVR_ERROR_NO_RESPONSE, DNS_VALSVR_ERROR_NO_TCP, DNS_VALSVR_ERROR_REFUSED, DNS_VALSVR_ERROR_UNKNOWN, DNS_VALSVR_ERROR_UNREACHABLE, DnsValidateServerStatus, DnsValidateServerStatus function [DNS], ERROR_SUCCESS, dns.dnsvalidateserverstatus, windns/DnsValidateServerStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DnsValidateServerStatus
-: 
 ---
 
 # DnsValidateServerStatus function

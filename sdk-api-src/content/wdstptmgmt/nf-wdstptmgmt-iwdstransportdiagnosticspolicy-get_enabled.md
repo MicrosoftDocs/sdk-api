@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportDiagnosticsPolicy.get_Enabled
-: 
 ---
 
 # IWdsTransportDiagnosticsPolicy::get_Enabled

@@ -7,7 +7,7 @@ old-location: shell\ILaunchTargetViewSizePreference_GetTargetViewSizePreference.
 tech.root: shell
 ms.assetid: 2C852FD1-09FD-45B6-A493-07DEE72BEA4C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetTargetViewSizePreference, GetTargetViewSizePreference method [Windows Shell], GetTargetViewSizePreference method [Windows Shell],ILaunchTargetViewSizePreference interface, ILaunchTargetViewSizePreference interface [Windows Shell],GetTargetViewSizePreference method, ILaunchTargetViewSizePreference.GetTargetViewSizePreference, ILaunchTargetViewSizePreference::GetTargetViewSizePreference, shell.ILaunchTargetViewSizePreference_GetTargetViewSizePreference, shobjidl_core/ILaunchTargetViewSizePreference::GetTargetViewSizePreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- ILaunchTargetViewSizePreference.GetTargetViewSizePreference
-: 
 ---
 
 # ILaunchTargetViewSizePreference::GetTargetViewSizePreference

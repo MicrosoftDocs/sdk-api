@@ -7,7 +7,7 @@ old-location: wic\iwicddsframedecode.htm
 tech.root: wic
 ms.assetid: 52E76A8D-E7E2-46F5-BBCC-B7C74F1B1122
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWICDdsFrameDecode, IWICDdsFrameDecode interface [Windows Imaging Component], IWICDdsFrameDecode interface [Windows Imaging Component],described, wic.iwicddsframedecode, wincodec/IWICDdsFrameDecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Provides access to a single frame of DDS image data in its native <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> form, as well as information about the image data.
+Provides access to a single frame of DDS image data in its native <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> form, as well as information about the image data.
 
 
 ## -inheritance

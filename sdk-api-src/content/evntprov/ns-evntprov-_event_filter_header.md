@@ -4,10 +4,10 @@ title: "_EVENT_FILTER_HEADER"
 author: windows-sdk-content
 description: Defines the header data that must precede the filter data that is defined in the instrumentation manifest.
 old-location: etw\event_filter_header.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 364a253d-f4c4-494a-af43-487c70912542
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PEVENT_FILTER_HEADER, EVENT_FILTER_HEADER, EVENT_FILTER_HEADER structure [ETW], PEVENT_FILTER_HEADER, PEVENT_FILTER_HEADER structure pointer [ETW], _EVENT_FILTER_HEADER, etw.event_filter_header, evntprov/EVENT_FILTER_HEADER, evntprov/PEVENT_FILTER_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

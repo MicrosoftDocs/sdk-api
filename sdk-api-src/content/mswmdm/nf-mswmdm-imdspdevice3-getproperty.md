@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice3_getproperty.htm
 tech.root: WMDM
 ms.assetid: e0665ba6-361d-488c-9100-68f39855b736
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Device Manager], GetProperty method [windows Media Device Manager],IMDSPDevice3 interface, IMDSPDevice3 interface [windows Media Device Manager],GetProperty method, IMDSPDevice3.GetProperty, IMDSPDevice3::GetProperty, IMDSPDevice3TransferSessionBegin, mswmdm/IMDSPDevice3::GetProperty, wmdm.imdspdevice3_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mswmdm.h
-: 
-- IMDSPDevice3.GetProperty
-: 
 ---
 
 # IMDSPDevice3::GetProperty

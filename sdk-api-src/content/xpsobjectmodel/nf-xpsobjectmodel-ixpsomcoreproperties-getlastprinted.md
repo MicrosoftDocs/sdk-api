@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getlastprinted.htm
 tech.root: printdocs
 ms.assetid: c7e4b994-ec4f-415d-a340-813f00adba19
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetLastPrinted, GetLastPrinted method [XPS Documents and Packaging], GetLastPrinted method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetLastPrinted method, IXpsOMCoreProperties.GetLastPrinted, IXpsOMCoreProperties::GetLastPrinted, xps.ixpsomcoreproperties_getlastprinted, xpsobjectmodel/IXpsOMCoreProperties::GetLastPrinted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMCoreProperties.GetLastPrinted
-: 
 ---
 
 # IXpsOMCoreProperties::GetLastPrinted
@@ -128,7 +120,7 @@ The <b>lastPrinted</b> property contains the date and time the package was last 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms724950(v=VS.85).aspx">SYSTEMTIME</a>
+<a href="_win32_systemtime_str">SYSTEMTIME</a>
 
 
 

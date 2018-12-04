@@ -4,10 +4,10 @@ title: IDirectorySearch::ExecuteSearch
 author: windows-sdk-content
 description: The IDirectorySearch::ExecuteSearch method executes a search and passes the results to the caller.
 old-location: adsi\idirectorysearch_executesearch.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 7514b372-1a7a-4a42-a814-af70a727c477
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: ExecuteSearch, ExecuteSearch method [ADSI], ExecuteSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],ExecuteSearch method, IDirectorySearch.ExecuteSearch, IDirectorySearch::ExecuteSearch, _ds_idirectorysearch_executesearch, adsi.idirectorysearch__executesearch, adsi.idirectorysearch_executesearch, iads/IDirectorySearch::ExecuteSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IDirectorySearch.ExecuteSearch
-: 
 ---
 
 # IDirectorySearch::ExecuteSearch
@@ -83,14 +75,7 @@ An array of attribute names for which data is requested. If <b>NULL</b>, <i>dwNu
 The size of the <i>pAttributeNames</i> array. The special value 0xFFFFFFFF indicates that <i>pAttributeNames</i> is ignored and can be <b>NULL</b>.  This special value means that all attributes that are set are requested.  If this value is 0 the <i>pAttributeNames</i> array can be <b>NULL</b>.  No attribute will be requested.
 
 
-### -param phSearchResult
-
-TBD
-
-
-
-
-#### - phSearchHandle [out]
+### -param phSearchResult [out]
 
 The address of a method-allocated handle to the search context. The caller passes this handle to other methods of  <a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a> to examine the search result. If <b>NULL</b>, the search cannot be executed.
 

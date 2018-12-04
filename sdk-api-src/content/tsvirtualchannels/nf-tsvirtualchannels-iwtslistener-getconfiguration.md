@@ -7,7 +7,7 @@ old-location: termserv\iwtslistener_getconfiguration.htm
 tech.root: termserv
 ms.assetid: 2d45ab39-0a65-4424-b6ea-2a54bb063c0f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetConfiguration, GetConfiguration method [Remote Desktop Services], GetConfiguration method [Remote Desktop Services],IWTSListener interface, IWTSListener interface [Remote Desktop Services],GetConfiguration method, IWTSListener.GetConfiguration, IWTSListener::GetConfiguration, termserv.iwtslistener_getconfiguration, tsvirtualchannels/IWTSListener::GetConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tsvirtualchannels.h
-: 
-- IWTSListener.GetConfiguration
-: 
 ---
 
 # IWTSListener::GetConfiguration

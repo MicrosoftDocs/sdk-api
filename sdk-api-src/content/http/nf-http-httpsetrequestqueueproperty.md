@@ -4,10 +4,10 @@ title: HttpSetRequestQueueProperty function
 author: windows-sdk-content
 description: Sets a new property or modifies an existing property on the request queue identified by the specified handle.
 old-location: http\httpsetrequestqueueproperty.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 56111cc0-94c8-47dc-a3bb-ffc5dae772fe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, HttpSetRequestQueueProperty, HttpSetRequestQueueProperty function [HTTP], http.httpsetrequestqueueproperty, http/HttpSetRequestQueueProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HttpSetRequestQueueProperty
-: 
 ---
 
 # HttpSetRequestQueueProperty function

@@ -4,10 +4,10 @@ title: IUpdateDownloader::BeginDownload
 author: windows-sdk-content
 description: Starts an asynchronous download of the content files that are associated with the updates.
 old-location: wua\iupdatedownloader_begindownload.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 9a953240-3d8e-4876-92a9-cc7efca62780
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: BeginDownload, BeginDownload method [Windows Update Agent], BeginDownload method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],BeginDownload method, IUpdateDownloader.BeginDownload, IUpdateDownloader::BeginDownload, wua.iupdatedownloader_begindownload, wuapi/IUpdateDownloader::BeginDownload
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateDownloader.BeginDownload
-: 
 ---
 
 # IUpdateDownloader::BeginDownload

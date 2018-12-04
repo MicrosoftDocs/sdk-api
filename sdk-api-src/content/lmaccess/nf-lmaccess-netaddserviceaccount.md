@@ -4,10 +4,10 @@ title: NetAddServiceAccount function
 author: windows-sdk-content
 description: Creates a standalone managed service account (sMSA) or retrieves the credentials for a group managed service account (gMSA) and stores the account information on the local computer.
 old-location: security\netaddserviceaccount.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 004bd392-8837-4d98-905a-cd19ed02817d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetAddServiceAccount, NetAddServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_LINK_TO_HOST_ONLY, lmaccess/NetAddServiceAccount, security.netaddserviceaccount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetAddServiceAccount
-: 
 ---
 
 # NetAddServiceAccount function

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dresource9__gettype.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__gettype.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetType, GetType method [Direct3D 9], GetType method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],GetType method, IDirect3DResource9.GetType, IDirect3DResource9::GetType, d3d9helper/IDirect3DResource9::GetType, direct3d9.idirect3dresource9__gettype, fedd6b5b-487e-c6e4-6122-21f132ce241b
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d9.h
-: 
-- IDirect3DResource9.GetType
-: 
 ---
 
 # IDirect3DResource9::GetType
@@ -73,9 +65,9 @@ Returns the type of the resource.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx">D3DRESOURCETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/6b360fb1-4a5a-47a2-bef9-d8234770bf0c">D3DRESOURCETYPE</a></b>
 
-Returns a member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx">D3DRESOURCETYPE</a> enumerated type, identifying the type of the resource.
+Returns a member of the <a href="https://msdn.microsoft.com/6b360fb1-4a5a-47a2-bef9-d8234770bf0c">D3DRESOURCETYPE</a> enumerated type, identifying the type of the resource.
 
 
 
@@ -85,7 +77,7 @@ Returns a member of the <a href="https://msdn.microsoft.com/en-us/library/Bb1726
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
+<a href="https://msdn.microsoft.com/1fdb0bfe-6e36-49ca-b119-a2b3266037d2">IDirect3DResource9</a>
  
 
  

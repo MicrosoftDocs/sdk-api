@@ -4,10 +4,10 @@ title: RtmReleaseEntities function
 author: windows-sdk-content
 description: The RtmReleaseEntities function releases the client handles returned by RtmGetRegisteredEntities.
 old-location: rras\rtmreleaseentities.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 1f6c4275-0129-4f27-b9b2-bfda33d34d21
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RtmReleaseEntities, RtmReleaseEntities function [RAS], _rtmv2ref_rtmreleaseentities, rras.rtmreleaseentities, rtmv2/RtmReleaseEntities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtmReleaseEntities
-: 
 ---
 
 # RtmReleaseEntities function

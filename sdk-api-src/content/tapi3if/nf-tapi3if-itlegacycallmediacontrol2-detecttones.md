@@ -4,10 +4,10 @@ title: ITLegacyCallMediaControl2::DetectTones
 author: windows-sdk-content
 description: The DetectTones method enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the application.
 old-location: tapi3\itlegacycallmediacontrol2_detecttones.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: e059bfc0-3701-4e07-8c30-0a2512731080
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: DetectTones, DetectTones method [TAPI 2.2], DetectTones method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],DetectTones method, ITLegacyCallMediaControl2.DetectTones, ITLegacyCallMediaControl2::DetectTones, _tapi3_itlegacycallmediacontrol2_detecttones, tapi3.itlegacycallmediacontrol2_detecttones, tapi3if/ITLegacyCallMediaControl2::DetectTones
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITLegacyCallMediaControl2.DetectTones
-: 
 ---
 
 # ITLegacyCallMediaControl2::DetectTones

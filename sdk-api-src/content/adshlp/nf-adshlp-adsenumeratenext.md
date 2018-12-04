@@ -4,10 +4,10 @@ title: ADsEnumerateNext function
 author: windows-sdk-content
 description: The ADsEnumerateNext function enumerates through a specified number of elements from the current cursor position of the enumerator.
 old-location: adsi\adsenumeratenext.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 9bfc98a5-f4f0-4127-89c9-b8ed01bfde4e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: ADsEnumerateNext, ADsEnumerateNext function [ADSI], _ds_adsenumeratenext, adshlp/ADsEnumerateNext, adsi.adsenumeratenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ADsEnumerateNext
-: 
 ---
 
 # ADsEnumerateNext function
@@ -68,7 +62,7 @@ The <b>ADsEnumerateNext</b> function enumerates through a specified number of el
 
 Type: <b>IEnumVARIANT*</b>
 
-Pointer to the  <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on the enumerator object.
+Pointer to the  <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on the enumerator object.
 
 
 ### -param cElements [in]
@@ -113,7 +107,7 @@ The general process to enumerate objects in a container involves the following:
 
 First, create an enumerator object on that container.
 
-Second, retrieve the <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface pointer.
+Second, retrieve the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface pointer.
 
 Third, call the <b>ADsEnumerateNext</b> function to return an enumerated set of elements from the enumerator object.
 
@@ -149,7 +143,7 @@ For more information and a code example, see the  <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
  
 
  

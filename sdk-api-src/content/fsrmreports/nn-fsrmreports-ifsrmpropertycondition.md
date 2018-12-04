@@ -4,10 +4,10 @@ title: IFsrmPropertyCondition
 author: windows-sdk-content
 description: Defines a property condition that the file management job uses to determine if the file is expired.
 old-location: fsrm\ifsrmpropertycondition.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 5c50b86b-f166-459e-92ce-63faa374c407
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmPropertyCondition, IFsrmPropertyCondition interface [File Server Resource Manager], IFsrmPropertyCondition interface [File Server Resource Manager],described, fs.ifsrmpropertycondition, fsrm.ifsrmpropertycondition, fsrm/IFsrmPropertyCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ The <a href="https://msdn.microsoft.com/49435c4b-211e-4aae-a6b3-ad40de811526">IF
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPropertyCondition</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmPropertyCondition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPropertyCondition</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmPropertyCondition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -93,7 +93,7 @@ Removes this property condition from the collection of property conditions speci
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd392473(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/45efc964-9632-434a-a4ae-93a65fcb2951">Name</a>
 
 
 </td>
@@ -109,7 +109,7 @@ The name of the classification property whose value you want to compare to the p
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd392474(v=VS.85).aspx">Type</a>
+<a href="https://msdn.microsoft.com/2cec0753-20ec-4df4-9a74-c65bfed28070">Type</a>
 
 
 </td>
@@ -125,7 +125,7 @@ The comparison operator used to determine whether property condition is met.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd392475(v=VS.85).aspx">Value</a>
+<a href="https://msdn.microsoft.com/51316f3b-ca69-4e0c-936c-8cafc0e2b1b7">Value</a>
 
 
 </td>
@@ -145,7 +145,7 @@ The property condition's value.
 
 
 
-The property condition specifies the classification property in the file to test. When the file management job runs, it gets the value of the classification property and uses the comparison operator to compare the value of the specified classification property (see the <a href="https://msdn.microsoft.com/en-us/library/Dd392473(v=VS.85).aspx">Name</a> property) to the condition's value (see the <a href="https://msdn.microsoft.com/en-us/library/Dd392475(v=VS.85).aspx">Value</a> property). If this condition  and all the other specified conditions for the job are met, FSRM can expire the file or call the custom action if it is defined.
+The property condition specifies the classification property in the file to test. When the file management job runs, it gets the value of the classification property and uses the comparison operator to compare the value of the specified classification property (see the <a href="https://msdn.microsoft.com/45efc964-9632-434a-a4ae-93a65fcb2951">Name</a> property) to the condition's value (see the <a href="https://msdn.microsoft.com/51316f3b-ca69-4e0c-936c-8cafc0e2b1b7">Value</a> property). If this condition  and all the other specified conditions for the job are met, FSRM can expire the file or call the custom action if it is defined.
 
 
 

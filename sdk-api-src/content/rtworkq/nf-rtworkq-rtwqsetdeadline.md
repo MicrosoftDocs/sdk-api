@@ -4,10 +4,10 @@ title: RtwqSetDeadline function
 author: windows-sdk-content
 description: Sets a deadline by which the work in a work queue must be completed.
 old-location: base\rtwqsetdeadline.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 1A5D6352-283C-43FC-B011-48DFA69BC75A
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: RtwqSetDeadline, RtwqSetDeadline function, base.rtwqsetdeadline, rtworkq/RtwqSetDeadline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtwqSetDeadline
-: 
 ---
 
 # RtwqSetDeadline function

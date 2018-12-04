@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IWindowProvider_WaitForInputIdle.htm
 tech.root: WinAuto
 ms.assetid: 787f8309-09aa-4e6a-bfbc-fc03b917ead4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],WaitForInputIdle method, IWindowProvider.WaitForInputIdle, IWindowProvider::WaitForInputIdle, WaitForInputIdle, WaitForInputIdle method [Windows Accessibility], WaitForInputIdle method [Windows Accessibility],IWindowProvider interface, uiauto.uiauto_IWindowProvider_WaitForInputIdle, uiauto_IWindowProvider_WaitForInputIdle, uiautomationcore/IWindowProvider::WaitForInputIdle, winauto.uiauto_IWindowProvider_WaitForInputIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationcore.h
-: 
-- IWindowProvider.WaitForInputIdle
-: 
 ---
 
 # IWindowProvider::WaitForInputIdle
@@ -98,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is typically used in conjunction with the handling of a <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_Window_WindowOpenedEventId</a>.
+This method is typically used in conjunction with the handling of a <a href="uiauto_event_ids.htm">UIA_Window_WindowOpenedEventId</a>.
         The implementation is dependent on the underlying application framework; 
         therefore this method might return some time after the window is ready for user input. 
         The calling code should not rely on this method to ascertain exactly when the window has become idle. 

@@ -4,10 +4,10 @@ title: IUpdateSearcher::EndSearch
 author: windows-sdk-content
 description: Completes an asynchronous search for updates.
 old-location: wua\iupdatesearcherendsearch.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 4a0532ec-3613-4aa1-96d7-7291b9ca7a94
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EndSearch, EndSearch method [Windows Update Agent], EndSearch method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EndSearch method, IUpdateSearcher.EndSearch, IUpdateSearcher::EndSearch, wua.iupdatesearcherendsearch, wuapi/IUpdateSearcher::EndSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateSearcher.EndSearch
-: 
 ---
 
 # IUpdateSearcher::EndSearch

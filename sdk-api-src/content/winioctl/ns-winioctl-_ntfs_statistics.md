@@ -7,7 +7,7 @@ old-location: fs\ntfs_statistics_str.htm
 tech.root: fileio
 ms.assetid: 9b5cffc5-386d-4333-9a37-cc27b8f9b187
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PNTFS_STATISTICS, NTFS_STATISTICS, NTFS_STATISTICS structure [Files], PNTFS_STATISTICS, PNTFS_STATISTICS structure pointer [Files], _NTFS_STATISTICS, base.ntfs_statistics_str, fs.ntfs_statistics_str, winioctl/NTFS_STATISTICS, winioctl/PNTFS_STATISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -436,7 +436,7 @@ For additional statistics that are only available with Windows 10, use <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a>
+<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
  
 
  

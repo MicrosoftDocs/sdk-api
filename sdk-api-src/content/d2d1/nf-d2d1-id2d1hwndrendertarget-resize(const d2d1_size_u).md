@@ -4,10 +4,10 @@ title: ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U)
 author: windows-sdk-content
 description: Changes the size of the render target to the specified pixel size.
 old-location: direct2d\ID2D1HwndRenderTarget_Resize_ptr_D2D_SIZE_U.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 1a1e7aae-9660-4c35-9d7b-374f3ff28253
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID2D1HwndRenderTarget interface [Direct2D],Resize method, ID2D1HwndRenderTarget.Resize, ID2D1HwndRenderTarget.Resize(const D2D1_SIZE_U), ID2D1HwndRenderTarget::Resize, ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U), Resize, Resize method [Direct2D], Resize method [Direct2D],ID2D1HwndRenderTarget interface, d2d1/ID2D1HwndRenderTarget::Resize, direct2d.ID2D1HwndRenderTarget_Resize_ptr_D2D_SIZE_U
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1HwndRenderTarget.Resize
-: 
 ---
 
 # ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U)

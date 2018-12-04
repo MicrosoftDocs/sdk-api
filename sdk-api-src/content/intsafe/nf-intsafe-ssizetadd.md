@@ -7,7 +7,7 @@ old-location: shell\SSIZETAdd.htm
 tech.root: shell
 ms.assetid: a9a2eb36-f70b-45fb-a84a-391a0bb77954
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SSIZETAdd, SSIZETAdd function [Windows Shell], intsafe/SSIZETAdd, shell.SSIZETAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SSIZETAdd
-: 
 ---
 
 # SSIZETAdd function

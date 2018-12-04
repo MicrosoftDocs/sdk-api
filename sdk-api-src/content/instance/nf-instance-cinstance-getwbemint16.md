@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- instance.h
-: 
-- CInstance.GetWBEMINT16
-: 
 ---
 
 # CInstance::GetWBEMINT16

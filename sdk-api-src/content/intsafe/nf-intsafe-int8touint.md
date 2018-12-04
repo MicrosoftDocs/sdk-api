@@ -7,7 +7,7 @@ old-location: shell\Int8ToUInt.htm
 tech.root: shell
 ms.assetid: 4391dffb-ff84-41ab-b136-1c1a0d76cf7f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Int8ToUInt, Int8ToUInt function [Windows Shell], intsafe/Int8ToUInt, shell.Int8ToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Int8ToUInt
-: 
 ---
 
 # Int8ToUInt function

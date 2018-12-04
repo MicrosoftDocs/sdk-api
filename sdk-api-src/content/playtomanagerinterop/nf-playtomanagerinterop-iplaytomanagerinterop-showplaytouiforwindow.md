@@ -7,7 +7,7 @@ old-location: winrt\iplaytomanagerinterop_showplaytouiforwindow.htm
 tech.root: WinRT
 ms.assetid: 106ddd95-06dd-479a-8350-39d791add469
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IPlayToManagerInterop interface [Windows Runtime],ShowPlayToUIForWindow method, IPlayToManagerInterop.ShowPlayToUIForWindow, IPlayToManagerInterop::ShowPlayToUIForWindow, ShowPlayToUIForWindow, ShowPlayToUIForWindow method [Windows Runtime], ShowPlayToUIForWindow method [Windows Runtime],IPlayToManagerInterop interface, playtomanagerinterop/IPlayToManagerInterop::ShowPlayToUIForWindow, winrt.iplaytomanagerinterop_showplaytouiforwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- playtomanagerinterop.h
-: 
-- IPlayToManagerInterop.ShowPlayToUIForWindow
-: 
 ---
 
 # IPlayToManagerInterop::ShowPlayToUIForWindow

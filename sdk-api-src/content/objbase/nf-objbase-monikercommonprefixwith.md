@@ -7,7 +7,7 @@ old-location: com\monikercommonprefixwith.htm
 tech.root: com
 ms.assetid: 6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: MonikerCommonPrefixWith, MonikerCommonPrefixWith function [COM], _com_MonikerCommonPrefixWith, com.monikercommonprefixwith, objbase/MonikerCommonPrefixWith
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MonikerCommonPrefixWith
-: 
 ---
 
 # MonikerCommonPrefixWith function

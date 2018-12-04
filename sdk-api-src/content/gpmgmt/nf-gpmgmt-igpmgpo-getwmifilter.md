@@ -4,10 +4,10 @@ title: IGPMGPO::GetWMIFilter
 author: windows-sdk-content
 description: Retrieves the GPMWMIFilter object linked to the Group Policy object (GPO).
 old-location: gpmc\igpmgpo_getwmifilter.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: eca1dffb-1e92-42a1-b950-c6c6c88bd064
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GPMGPO class [GPMC],GetWMIFilter method, GetWMIFilter, GetWMIFilter method [GPMC], GetWMIFilter method [GPMC],GPMGPO class, GetWMIFilter method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GetWMIFilter method, IGPMGPO.GetWMIFilter, IGPMGPO::GetWMIFilter, _win32_igpmgpo_getwmifilter, gpmc.igpmgpo_getwmifilter, gpmgmt/IGPMGPO::GetWMIFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMGPO.GetWMIFilter
-: 
 ---
 
 # IGPMGPO::GetWMIFilter

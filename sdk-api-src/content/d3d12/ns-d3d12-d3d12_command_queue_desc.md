@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_command_queue_desc.htm
 tech.root: direct3d12
 ms.assetid: 8C43C45B-0A7B-4336-B546-1E6F13D153F3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D3D12_COMMAND_QUEUE_DESC, D3D12_COMMAND_QUEUE_DESC structure, d3d12/D3D12_COMMAND_QUEUE_DESC, direct3d12.d3d12_command_queue_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ For single GPU operation, set this to zero. If there are multiple GPU nodes, set
 This structure is passed into <a href="https://msdn.microsoft.com/556D068C-9939-4B42-AFC2-4EBB2D7B553B">CreateCommandQueue</a>.
         
 
-This structure is returned by <a href="https://msdn.microsoft.com/en-us/library/Dn914410(v=VS.85).aspx">ID3D12CommandQueue::GetDesc</a>.
+This structure is returned by <a href="https://msdn.microsoft.com/AEEE6B15-AEB0-47C5-A3F8-9957516BFBEE">ID3D12CommandQueue::GetDesc</a>.
         
 
 
@@ -103,7 +103,7 @@ This structure is returned by <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

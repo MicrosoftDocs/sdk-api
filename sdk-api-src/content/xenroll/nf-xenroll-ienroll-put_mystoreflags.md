@@ -4,10 +4,10 @@ title: IEnroll::put_MyStoreFlags
 author: windows-sdk-content
 description: Sets or retrieves the registry location used for the MY store.
 old-location: security\ienroll4_mystoreflags.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: e545920a-0c39-49bb-90cc-87039d2e2cfd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnroll interface [Security],MyStoreFlags property, IEnroll.MyStoreFlags, IEnroll.put_MyStoreFlags, IEnroll::MyStoreFlags, IEnroll::get_MyStoreFlags, IEnroll::put_MyStoreFlags, MyStoreFlags property [Security], MyStoreFlags property [Security],IEnroll interface, put_MyStoreFlags, security.ienroll4_mystoreflags, xenroll/IEnroll::MyStoreFlags, xenroll/IEnroll::get_MyStoreFlags, xenroll/IEnroll::put_MyStoreFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- IEnroll.put_MyStoreFlags
-: 
 ---
 
 # IEnroll::put_MyStoreFlags

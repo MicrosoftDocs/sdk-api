@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sdoias.h
-: 
-- ISdoMachine.GetDictionarySDO
-: 
 ---
 
 # ISdoMachine::GetDictionarySDO

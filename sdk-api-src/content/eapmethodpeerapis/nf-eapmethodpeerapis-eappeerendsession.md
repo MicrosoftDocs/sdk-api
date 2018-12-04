@@ -4,10 +4,10 @@ title: EapPeerEndSession function
 author: windows-sdk-content
 description: Ends an EAP authentication session for the EAP method.
 old-location: eaphost\eappeerendsession.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: e4740a71-bf80-41ae-b9c1-91b9769854e7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EapPeerEndSession, EapPeerEndSession function [EAPHost], eaphost.eappeerendsession, eapmethodpeerapis/EapPeerEndSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapPeerEndSession
-: 
 ---
 
 # EapPeerEndSession function

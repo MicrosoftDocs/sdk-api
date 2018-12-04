@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcd_get_requestedwritespeed.htm
 tech.root: imapi
 ms.assetid: 0b718fe5-197e-4dc7-a8df-f2febf76aaab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_RequestedWriteSpeed method, IDiscFormat2RawCD.get_RequestedWriteSpeed, IDiscFormat2RawCD::get_RequestedWriteSpeed, get_RequestedWriteSpeed, get_RequestedWriteSpeed method [IMAPI], get_RequestedWriteSpeed method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_requestedwritespeed, imapi2/IDiscFormat2RawCD::get_RequestedWriteSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscFormat2RawCD.get_RequestedWriteSpeed
-: 
 ---
 
 # IDiscFormat2RawCD::get_RequestedWriteSpeed

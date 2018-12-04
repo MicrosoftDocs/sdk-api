@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2create.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2Create(IXAudio2@,UINT32,XAUDIO2_PROCESSOR)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: XAudio2Create, XAudio2Create function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2create, xaudio2/XAudio2Create
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XAudio2Create
-: 
 ---
 
 # XAudio2Create function
@@ -56,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a> interface.
+Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a> interface.
 
 
 ## -parameters
@@ -66,12 +60,12 @@ Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="https:
 
 ### -param ppXAudio2 [out]
 
-If the operation is successful, returns a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a> object.
+If the operation is successful, returns a pointer to an <a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a> object.
 
 
 ### -param X2DEFAULT [in]
 
-Flags that specify the behavior of the <a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a> object. The value of this parameter must be 0.
+Flags that specify the behavior of the <a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a> object. The value of this parameter must be 0.
 
 
 #### - XAudio2Processor [in]

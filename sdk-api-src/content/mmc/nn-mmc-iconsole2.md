@@ -4,10 +4,10 @@ title: IConsole2
 author: windows-sdk-content
 description: The IConsole2 interface is introduced in MMC 1.1.
 old-location: mmc\iconsole2.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 9a20d09d-219c-4bcb-95b3-67a44e41629e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IConsole2, IConsole2 interface [MMC], IConsole2 interface [MMC],described, _slate_iconsole2, mmc.iconsole2, mmc/IConsole2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsole2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Mt300830(v=VS.85).aspx">IConsole</a>. <b>IConsole2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsole2</b> interface inherits from <a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>. <b>IConsole2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -153,7 +153,7 @@ Queries the console-provided result pane's image list.
 <a href="https://msdn.microsoft.com/26d4859c-e79f-4c63-92ad-b66de7d0fa13">QueryResultView</a>
 </td>
 <td align="left" width="63%">
-Queries IConsole for the result view object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.
+Queries IConsole for the result view object's <a href="_com_iunknown">IUnknown</a> interface pointer.
 
 </td>
 </tr>

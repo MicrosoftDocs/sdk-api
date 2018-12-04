@@ -7,7 +7,7 @@ old-location: tsf\itfreadinginformationuielement.htm
 tech.root: TSF
 ms.assetid: 60f7c6e2-7821-4be6-a1c1-35bacaa60bf4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfReadingInformationUIElement, ITfReadingInformationUIElement interface [Text Services Framework], ITfReadingInformationUIElement interface [Text Services Framework],described, msctf/ITfReadingInformationUIElement, tsf.itfreadinginformationuielement
 ms.prod: windows-hardware
 ms.technology: windows-devices

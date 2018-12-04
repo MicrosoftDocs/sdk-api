@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- ITunerCap.get_SupportedNetworkTypes
-: 
 ---
 
 # ITunerCap::get_SupportedNetworkTypes

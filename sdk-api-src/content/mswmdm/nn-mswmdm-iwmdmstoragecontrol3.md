@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol3.htm
 tech.root: WMDM
 ms.assetid: bc5165c2-791d-4549-a271-78728625b219
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMDMStorageControl3, IWMDMStorageControl3 interface [windows Media Device Manager], IWMDMStorageControl3 interface [windows Media Device Manager],described, IWMDMStorageControl3Interface, mswmdm/IWMDMStorageControl3, wmdm.iwmdmstoragecontrol3
 ms.prod: windows-hardware
 ms.technology: windows-devices

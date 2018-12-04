@@ -7,7 +7,7 @@ old-location: cos\iplaybackcontrol_finalclientretry.htm
 tech.root: cossdk
 ms.assetid: 3fa51832-0e68-4e76-bbdb-ce54f76fbae6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FinalClientRetry, FinalClientRetry method [COM+], FinalClientRetry method [COM+],IPlaybackControl interface, IPlaybackControl interface [COM+],FinalClientRetry method, IPlaybackControl.FinalClientRetry, IPlaybackControl::FinalClientRetry, _cos_IPlaybackControl_FinalClientRetry, comsvcs/IPlaybackControl::FinalClientRetry, cos.iplaybackcontrol_finalclientretry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- IPlaybackControl.FinalClientRetry
-: 
 ---
 
 # IPlaybackControl::FinalClientRetry
@@ -96,7 +88,7 @@ If this method is not successful, the message is left on the Xact dead letter qu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680150(v=VS.85).aspx">IPlaybackControl</a>
+<a href="https://msdn.microsoft.com/3a528e92-37ac-4108-b52a-557a90da4a47">IPlaybackControl</a>
  
 
  

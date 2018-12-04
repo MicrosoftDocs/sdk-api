@@ -4,10 +4,10 @@ title: INetSharingPortMappingProps::get_IPProtocol
 author: windows-sdk-content
 description: The get_IPProtocol method retrieves the IP Protocol associated with this port mapping.
 old-location: ics\inetsharingportmappingprops_get_ipprotocol.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: a227074e-014b-4b76-b1d7-e1728bd99270
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_IPProtocol method, INetSharingPortMappingProps.get_IPProtocol, INetSharingPortMappingProps::get_IPProtocol, _ics_inetsharingportmappingprops_get_ipprotocol, get_IPProtocol, get_IPProtocol method [ICS/ICF], get_IPProtocol method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_ipprotocol, netcon/INetSharingPortMappingProps::get_IPProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netcon.h
-: 
-- INetSharingPortMappingProps.get_IPProtocol
-: 
 ---
 
 # INetSharingPortMappingProps::get_IPProtocol

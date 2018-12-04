@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderstreamclock.htm
 tech.root: wmformat
 ms.assetid: 0f170b6d-fd93-4bf8-8a98-f2a80f03b380
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMReaderStreamClock, IWMReaderStreamClock interface [windows Media Format], IWMReaderStreamClock interface [windows Media Format],described, IWMReaderStreamClockInterface, wmformat.iwmreaderstreamclock, wmsdkidl/IWMReaderStreamClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

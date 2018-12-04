@@ -4,10 +4,10 @@ title: ITQOSEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the QOS_EVENT indicator.
 old-location: tapi3\itqosevent_get_event.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 8e0f4705-6614-4973-85bd-21abd17bd7fe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITQOSEvent interface [TAPI 2.2],get_Event method, ITQOSEvent.get_Event, ITQOSEvent::get_Event, _tapi3_itqosevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITQOSEvent interface, tapi3.itqosevent_get_event, tapi3if/ITQOSEvent::get_Event
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITQOSEvent.get_Event
-: 
 ---
 
 # ITQOSEvent::get_Event

@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_SetControlItemText.htm
 tech.root: shell
 ms.assetid: d89f67ee-ff56-4810-9627-e8f35e653ff4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetControlItemText method, IFileDialogCustomize.SetControlItemText, IFileDialogCustomize::SetControlItemText, SetControlItemText, SetControlItemText method [Windows Shell], SetControlItemText method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetControlItemText, shell_IFileDialogCustomize_SetControlItemText, shobjidl_core/IFileDialogCustomize::SetControlItemText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IFileDialogCustomize.SetControlItemText
-: 
 ---
 
 # IFileDialogCustomize::SetControlItemText

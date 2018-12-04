@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemglue.h
-: 
-- CWbemProviderGlue.IsDerivedFrom
-: 
 ---
 
 # CWbemProviderGlue::IsDerivedFrom(LPCWSTR,LPCWSTR,MethodContext,LPCWSTR)

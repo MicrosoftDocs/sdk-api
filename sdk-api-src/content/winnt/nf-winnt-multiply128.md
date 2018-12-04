@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Multiply128
-: 
 ---
 
 # Multiply128 function
@@ -93,7 +87,7 @@ The low 64 bits of the product.
 
 
 
-<a href="https://msdn.microsoft.com/library/82cxdw50(v=VS.85).aspx">__mul128</a>
+<a href="f68914b9-bffb-4e46-b1ba-4c249f7b4ecc">__mul128</a>
  
 
  

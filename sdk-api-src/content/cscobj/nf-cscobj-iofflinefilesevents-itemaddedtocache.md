@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::ItemAddedToCache
 author: windows-sdk-content
 description: Reports that an item has been added to the Offline Files cache.
 old-location: of\iofflinefilesevents_itemaddedtocache.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 7ab04b07-f72a-4a04-a470-4b85c21005c0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemAddedToCache method, IOfflineFilesEvents.ItemAddedToCache, IOfflineFilesEvents::ItemAddedToCache, ItemAddedToCache, ItemAddedToCache method [Offline Files], ItemAddedToCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemAddedToCache, of.iofflinefilesevents_itemaddedtocache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesEvents.ItemAddedToCache
-: 
 ---
 
 # IOfflineFilesEvents::ItemAddedToCache
@@ -74,7 +66,7 @@ The item's UNC path string.
 
 ### -param ItemType [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb530648(v=VS.85).aspx">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
+An <a href="https://msdn.microsoft.com/cf8bb079-d691-4b37-b408-d1af1746ed37">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
 
 
 ## -returns
@@ -90,7 +82,7 @@ The return value is ignored.
 
 
 
-Note that addition to the cache does not mean that the item is available for offline use.  It may still be sparsely cached.  When the item is available for offline use, the <a href="https://msdn.microsoft.com/en-us/library/Bb530546(v=VS.85).aspx">ItemAvailableOffline</a> event will be sent.
+Note that addition to the cache does not mean that the item is available for offline use.  It may still be sparsely cached.  When the item is available for offline use, the <a href="https://msdn.microsoft.com/6c629ede-00ee-4f5e-9f75-022e3c5b3957">ItemAvailableOffline</a> event will be sent.
 
 
 
@@ -100,7 +92,7 @@ Note that addition to the cache does not mean that the item is available for off
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

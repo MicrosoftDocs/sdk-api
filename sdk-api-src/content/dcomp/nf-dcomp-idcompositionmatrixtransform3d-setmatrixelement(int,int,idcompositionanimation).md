@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionmatrixtransform3d_setmatrixelement_idcompo
 tech.root: directcomp
 ms.assetid: 099AB3AB-D0F8-4D25-B407-83C77810F34D
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDCompositionMatrixTransform3D interface [DirectComposition],SetMatrixElement method, IDCompositionMatrixTransform3D.SetMatrixElement, IDCompositionMatrixTransform3D.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform3D::SetMatrixElement, IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation*), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionMatrixTransform3D interface, dcomp/IDCompositionMatrixTransform3D::SetMatrixElement, directcomp.idcompositionmatrixtransform3d_setmatrixelement_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionMatrixTransform3D.SetMatrixElement
-: 
 ---
 
 # IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation)

@@ -7,7 +7,7 @@ old-location: shell\SHChangeNotification_Unlock.htm
 tech.root: shell
 ms.assetid: 967ede1f-ee9c-46ee-a371-dcfc3a57d824
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SHChangeNotification_Unlock, SHChangeNotification_Unlock function [Windows Shell], _win32_SHChangeNotification_Unlock, shell.SHChangeNotification_Unlock, shlobj_core/SHChangeNotification_Unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHChangeNotification_Unlock
-: 
 ---
 
 # SHChangeNotification_Unlock function

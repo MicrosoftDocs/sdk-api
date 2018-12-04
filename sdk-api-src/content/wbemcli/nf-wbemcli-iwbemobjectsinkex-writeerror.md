@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemcli.h
-: 
-- IWbemObjectSinkEx.WriteError
-: 
 ---
 
 # IWbemObjectSinkEx::WriteError

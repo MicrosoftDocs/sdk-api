@@ -4,10 +4,10 @@ title: ICspInformation::get_KeySpec
 author: windows-sdk-content
 description: Retrieves a value that specifies the intended use of the algorithms supported by the provider.
 old-location: security\icspinformation_keyspec_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: f66f2f5c-7f50-4be6-973e-844d6cb76f61
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICspInformation interface [Security],KeySpec property, ICspInformation.KeySpec, ICspInformation.get_KeySpec, ICspInformation::KeySpec, ICspInformation::get_KeySpec, KeySpec property [Security], KeySpec property [Security],ICspInformation interface, XCN_AT_KEYEXCHANGE (1), XCN_AT_SIGNATURE (2), certenroll/ICspInformation::KeySpec, certenroll/ICspInformation::get_KeySpec, get_KeySpec, security.icspinformation_keyspec_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICspInformation.get_KeySpec
-: 
 ---
 
 # ICspInformation::get_KeySpec
@@ -209,7 +201,7 @@ Microsoft Strong Cryptographic Provider
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
  
 
  

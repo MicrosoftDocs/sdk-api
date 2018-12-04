@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- portabledeviceapi.h
-: 
-- IPortableDeviceCapabilities.GetFunctionalCategories
-: 
 ---
 
 # IPortableDeviceCapabilities::GetFunctionalCategories
@@ -124,7 +116,7 @@ For an example of how to use this method see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 

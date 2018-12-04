@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tvratings.h
-: 
-- IEvalRat.put_BlockUnRated
-: 
 ---
 
 # IEvalRat::put_BlockUnRated

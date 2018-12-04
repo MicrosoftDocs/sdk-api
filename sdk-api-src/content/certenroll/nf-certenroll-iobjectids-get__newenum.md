@@ -4,10 +4,10 @@ title: IObjectIds::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\iobjectids__newenum_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 1c70e20e-4ed9-4b03-99b0-ae47148c6bac
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IObjectIds interface [Security],_NewEnum property, IObjectIds._NewEnum, IObjectIds.get__NewEnum, IObjectIds::_NewEnum, IObjectIds::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IObjectIds interface, certenroll/IObjectIds::_NewEnum, certenroll/IObjectIds::get__NewEnum, get__NewEnum, security.iobjectids__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IObjectIds.get__NewEnum
-: 
 ---
 
 # IObjectIds::get__NewEnum
@@ -72,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a>
+<a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a>
+<a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a>
  
 
  

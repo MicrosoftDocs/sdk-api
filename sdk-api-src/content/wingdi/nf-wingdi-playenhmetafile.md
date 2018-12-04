@@ -7,7 +7,7 @@ old-location: gdi\playenhmetafile.htm
 tech.root: gdi
 ms.assetid: 51e8937b-0c42-49fe-8930-7af303fce788
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PlayEnhMetaFile, PlayEnhMetaFile function [Windows GDI], _win32_PlayEnhMetaFile, gdi.playenhmetafile, wingdi/PlayEnhMetaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PlayEnhMetaFile
-: 
 ---
 
 # PlayEnhMetaFile function

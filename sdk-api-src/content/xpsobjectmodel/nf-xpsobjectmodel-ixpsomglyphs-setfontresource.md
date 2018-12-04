@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_setfontresource.htm
 tech.root: printdocs
 ms.assetid: 0de80249-a1e1-4205-81bd-3ecb6cc938d4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontResource method, IXpsOMGlyphs.SetFontResource, IXpsOMGlyphs::SetFontResource, SetFontResource, SetFontResource method [XPS Documents and Packaging], SetFontResource method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfontresource, xpsobjectmodel/IXpsOMGlyphs::SetFontResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMGlyphs.SetFontResource
-: 
 ---
 
 # IXpsOMGlyphs::SetFontResource

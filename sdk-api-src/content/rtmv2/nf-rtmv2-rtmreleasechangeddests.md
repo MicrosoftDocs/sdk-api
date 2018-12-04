@@ -4,10 +4,10 @@ title: RtmReleaseChangedDests function
 author: windows-sdk-content
 description: The RtmReleaseChangedDests function releases the changed destination handles.
 old-location: rras\rtmreleasechangeddests.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 542cb23f-81c2-4b29-b049-ebb5827b1d62
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RtmReleaseChangedDests, RtmReleaseChangedDests function [RAS], _rtmv2ref_rtmreleasechangeddests, rras.rtmreleasechangeddests, rtmv2/RtmReleaseChangedDests
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtmReleaseChangedDests
-: 
 ---
 
 # RtmReleaseChangedDests function

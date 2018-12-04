@@ -7,7 +7,7 @@ old-location: wmformat\iwmpacketsize2_getminpacketsize.htm
 tech.root: wmformat
 ms.assetid: 2b15f5b9-b7c1-4427-81d9-bbcd0bb0ce45
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetMinPacketSize, GetMinPacketSize method [windows Media Format], GetMinPacketSize method [windows Media Format],IWMPacketSize2 interface, IWMPacketSize2 interface [windows Media Format],GetMinPacketSize method, IWMPacketSize2.GetMinPacketSize, IWMPacketSize2::GetMinPacketSize, IWMPacketSize2GetMinPacketSize, wmformat.iwmpacketsize2_getminpacketsize, wmsdkidl/IWMPacketSize2::GetMinPacketSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmsdkidl.h
-: 
-- IWMPacketSize2.GetMinPacketSize
-: 
 ---
 
 # IWMPacketSize2::GetMinPacketSize
@@ -62,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetMinPacketSize</b> method retrieves the minimum <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> size for files created with the profile. If you use this method from an interface belonging to a reader or synchronous reader object, the retrieved minimum packet size will always be zero.
+The <b>GetMinPacketSize</b> method retrieves the minimum <a href="wmformat_glossary.htm">packet</a> size for files created with the profile. If you use this method from an interface belonging to a reader or synchronous reader object, the retrieved minimum packet size will always be zero.
 
 
 

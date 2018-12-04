@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionblendeffect_setmode.htm
 tech.root: directcomp
 ms.assetid: 61D64543-565B-4E64-B20E-03B1CD0F8FCA
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDCompositionBlendEffect interface [DirectComposition],SetMode method, IDCompositionBlendEffect.SetMode, IDCompositionBlendEffect::SetMode, SetMode, SetMode method [DirectComposition], SetMode method [DirectComposition],IDCompositionBlendEffect interface, dcomp/IDCompositionBlendEffect::SetMode, directcomp.idcompositionblendeffect_setmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionBlendEffect.SetMode
-: 
 ---
 
 # IDCompositionBlendEffect::SetMode

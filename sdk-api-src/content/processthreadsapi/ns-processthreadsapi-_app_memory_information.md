@@ -4,10 +4,10 @@ title: "_APP_MEMORY_INFORMATION"
 author: windows-sdk-content
 description: Represents app memory usage at a single point in time. This structure is used by the PROCESS_INFORMATION_CLASS class.
 old-location: base\app_memory_information.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: A2D0CDED-0E8B-41D6-8435-BDB4E5445DE4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*PAPP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION structure, PAPP_MEMORY_INFORMATION, PAPP_MEMORY_INFORMATION structure pointer, _APP_MEMORY_INFORMATION, base.app_memory_information, processthreadsapi/APP_MEMORY_INFORMATION, processthreadsapi/PAPP_MEMORY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

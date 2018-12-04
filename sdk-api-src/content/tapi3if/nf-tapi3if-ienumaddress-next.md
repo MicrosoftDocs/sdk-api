@@ -4,10 +4,10 @@ title: IEnumAddress::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumaddress_next.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 14bc32c4-8b59-41ec-a7f6-1ed7f26ae62a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IEnumAddress interface [TAPI 2.2],Next method, IEnumAddress.Next, IEnumAddress::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAddress interface, _tapi3_ienumaddress_next, tapi3.ienumaddress_next, tapi3if/IEnumAddress::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- IEnumAddress.Next
-: 
 ---
 
 # IEnumAddress::Next
@@ -148,8 +140,8 @@ Insufficient memory exists to perform the operation.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface returned by this method. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface returned by this method. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITAddress</b> interface to free resources associated with it.
 
 

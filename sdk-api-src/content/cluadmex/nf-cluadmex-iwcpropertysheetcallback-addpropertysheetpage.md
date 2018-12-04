@@ -4,10 +4,10 @@ title: IWCPropertySheetCallback::AddPropertySheetPage
 author: windows-sdk-content
 description: Adds a property page to a Failover Cluster Administrator property sheet.
 old-location: mscs\iwcpropertysheetcallback_addpropertysheetpage.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: ccd87d3a-c9da-4d61-9e9b-f25a52724166
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddPropertySheetPage, AddPropertySheetPage method [Failover Cluster], AddPropertySheetPage method [Failover Cluster],IWCPropertySheetCallback interface, IWCPropertySheetCallback interface [Failover Cluster],AddPropertySheetPage method, IWCPropertySheetCallback.AddPropertySheetPage, IWCPropertySheetCallback::AddPropertySheetPage, _wolf_iwcpropertysheetcallback_addpropertysheetpage, cluadmex/IWCPropertySheetCallback::AddPropertySheetPage, mscs.iwcpropertysheetcallback_addpropertysheetpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cluadmex.h
-: 
-- IWCPropertySheetCallback.AddPropertySheetPage
-: 
 ---
 
 # IWCPropertySheetCallback::AddPropertySheetPage
@@ -59,7 +51,7 @@ req.redist:
 
 
 Adds a property page to a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> property sheet.
+    <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> property sheet.
 
 
 ## -parameters
@@ -122,10 +114,10 @@ The <i>hpage</i> parameter is invalid.
 Call the 
      <b>AddPropertySheetPage</b> 
      method from your 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370720(v=VS.85).aspx">IWEExtendPropertySheet::CreatePropertySheetPages</a> 
+     <a href="https://msdn.microsoft.com/00eca370-a2c6-4f5c-94a9-7d7e4334ccd5">IWEExtendPropertySheet::CreatePropertySheetPages</a> 
      implementation. However, before you call 
      <b>AddPropertySheetPage</b>, 
-     call the function <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> 
+     call the function <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a> 
      to retrieve a handle to pass in the <i>hpage</i> parameter.
 
 
@@ -136,11 +128,11 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370507(v=VS.85).aspx">IWCPropertySheetCallback</a>
+<a href="https://msdn.microsoft.com/f90f9eb3-5568-4db1-8ff8-fda2d3bea952">IWCPropertySheetCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370720(v=VS.85).aspx">IWEExtendPropertySheet::CreatePropertySheetPages</a>
+<a href="https://msdn.microsoft.com/00eca370-a2c6-4f5c-94a9-7d7e4334ccd5">IWEExtendPropertySheet::CreatePropertySheetPages</a>
  
 
  

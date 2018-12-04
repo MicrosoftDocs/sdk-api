@@ -4,10 +4,10 @@ title: ldap_unbind function
 author: windows-sdk-content
 description: The ldap_unbind function frees resources associated with an LDAP session.
 old-location: ldap\ldap_unbind.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 5d8b3198-3935-4305-b0f1-eaf1a9355cf3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ldap_unbind, ldap.ldap__unbind, ldap.ldap_unbind, ldap_unbind, ldap_unbind function [LDAP], winldap/ldap_unbind"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_unbind
-: 
 ---
 
 # ldap_unbind function

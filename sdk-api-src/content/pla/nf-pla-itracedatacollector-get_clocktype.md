@@ -4,10 +4,10 @@ title: ITraceDataCollector::get_ClockType
 author: windows-sdk-content
 description: Retrieves or sets the clock resolution to use when logging the time stamp for each event.
 old-location: pla\itracedatacollector_clocktype.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 8c62d441-01c5-4fca-a802-41c7328a22e9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ClockType property [PLA], ClockType property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],ClockType property, ITraceDataCollector.ClockType, ITraceDataCollector.get_ClockType, ITraceDataCollector::ClockType, ITraceDataCollector::get_ClockType, ITraceDataCollector::put_ClockType, base.itracedatacollector_clocktype, get_ClockType, pla.itracedatacollector_clocktype, pla/ITraceDataCollector::ClockType, pla/ITraceDataCollector::get_ClockType, pla/ITraceDataCollector::put_ClockType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- ITraceDataCollector.get_ClockType
-: 
 ---
 
 # ITraceDataCollector::get_ClockType

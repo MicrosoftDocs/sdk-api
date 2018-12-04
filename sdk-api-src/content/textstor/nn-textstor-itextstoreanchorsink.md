@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink.htm
 tech.root: TSF
 ms.assetid: fb96b4fb-864f-4f32-bf7c-cf7f199e552a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], ITextStoreAnchorSink interface [Text Services Framework],described, _tsf_itextstoreanchorsink_ref, textstor/ITextStoreAnchorSink, tsf.itextstoreanchorsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -164,7 +164,7 @@ Called when text in the text stream changes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediabufferwrapper.htm
 tech.root: medfound
 ms.assetid: 6850e75c-4612-4514-a74d-9b36fd88a598
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 6850e75c-4612-4514-a74d-9b36fd88a598, MFCreateMediaBufferWrapper, MFCreateMediaBufferWrapper function [Media Foundation], mf.mfcreatemediabufferwrapper, mfapi/MFCreateMediaBufferWrapper
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateMediaBufferWrapper
-: 
 ---
 
 # MFCreateMediaBufferWrapper function

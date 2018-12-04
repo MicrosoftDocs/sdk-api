@@ -4,10 +4,10 @@ title: EventRegister function
 author: windows-sdk-content
 description: Registers the provider.
 old-location: etw\eventregister_func.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 6025c3a6-7d88-49dc-bbc3-655c172dde3c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EventRegister, EventRegister function [ETW], base.eventregister_func, etw.eventregister_func, evntprov/EventRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EventRegister
-: 
 ---
 
 # EventRegister function

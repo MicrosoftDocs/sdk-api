@@ -7,7 +7,7 @@ old-location: properties\PropVariantCopy.htm
 tech.root: properties
 ms.assetid: f17f1722-f041-414c-b838-f1f83427ff0c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PropVariantCopy, PropVariantCopy function [Windows Properties], _shell_PropVariantCopy, properties.PropVariantCopy, propidl/PropVariantCopy, shell.PropVariantCopy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantCopy
-: 
 ---
 
 # PropVariantCopy function

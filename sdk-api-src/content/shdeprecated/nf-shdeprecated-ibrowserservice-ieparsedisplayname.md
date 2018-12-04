@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_IEParseDisplayName.htm
 tech.root: shell
 ms.assetid: 02f5a6cb-2f90-4613-80cd-1e8a47bb32c2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IBrowserService interface [Windows Shell],IEParseDisplayName method, IBrowserService.IEParseDisplayName, IBrowserService::IEParseDisplayName, IEParseDisplayName, IEParseDisplayName method [Windows Shell], IEParseDisplayName method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::IEParseDisplayName, shell.IBrowserService_IEParseDisplayName, zone_IBrowserService_IEParseDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- IBrowserService.IEParseDisplayName
-: 
 req.product: Internet Explorer 4.0
 ---
 

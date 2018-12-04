@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx2::BreakSnapshotSetEx
 author: windows-sdk-content
 description: Breaks a shadow copy set according to requester-specified options.
 old-location: base\ivssbackupcomponentsex2_breaksnapshotsetex.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 595fe295-082d-4130-9698-952df49a922e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: BreakSnapshotSetEx, BreakSnapshotSetEx method, BreakSnapshotSetEx method,IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,BreakSnapshotSetEx method, IVssBackupComponentsEx2.BreakSnapshotSetEx, IVssBackupComponentsEx2::BreakSnapshotSetEx, base.ivssbackupcomponentsex2_breaksnapshotsetex, vsbackup/IVssBackupComponentsEx2::BreakSnapshotSetEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsbackup.h
-: 
-- IVssBackupComponentsEx2.BreakSnapshotSetEx
-: 
 ---
 
 # IVssBackupComponentsEx2::BreakSnapshotSetEx
@@ -78,7 +70,7 @@ A bitmask of <a href="https://msdn.microsoft.com/545977ae-7f62-4a8e-9d2f-936224f
 
 ### -param ppAsync [out]
 
-A pointer to a variable that receives an <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface pointer that can be used to retrieve the status of the shadow copy set break operation. When the break operation is complete, the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method must be called for this interface pointer.
+A pointer to a variable that receives an <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface pointer that can be used to retrieve the status of the shadow copy set break operation. When the break operation is complete, the <a href="_com_iunknown_release">IUnknown::Release</a> method must be called for this interface pointer.
 
 
 ## -returns

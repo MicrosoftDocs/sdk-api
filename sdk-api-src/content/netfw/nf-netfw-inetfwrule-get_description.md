@@ -4,10 +4,10 @@ title: INetFwRule::get_Description
 author: windows-sdk-content
 description: Specifies the description of this rule.
 old-location: ics\inetfwrule_description.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 47e5a5ff-d8a7-46e6-aa42-b9e7d544954b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Description property [ICS/ICF], Description property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Description property, INetFwRule.Description, INetFwRule.get_Description, INetFwRule::Description, INetFwRule::get_Description, INetFwRule::put_Description, get_Description, ics.inetfwrule_description, netfw/INetFwRule::Description, netfw/INetFwRule::get_Description, netfw/INetFwRule::put_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwRule.get_Description
-: 
 ---
 
 # INetFwRule::get_Description

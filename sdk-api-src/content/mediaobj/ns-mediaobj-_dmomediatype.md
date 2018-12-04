@@ -7,7 +7,7 @@ old-location: dshow\dmo_media_type.htm
 tech.root: DirectShow
 ms.assetid: c545ddf7-9797-45ab-a42a-d8550b598e98
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DMO_MEDIA_TYPE, DMO_MEDIA_TYPE structure [DirectShow], DMO_MEDIA_TYPEStructure, FORMAT_DvInfo, FORMAT_MPEG2Video, FORMAT_MPEGVideo, FORMAT_None, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, _DMOMediaType, dshow.dmo_media_type, mediaobj/DMO_MEDIA_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

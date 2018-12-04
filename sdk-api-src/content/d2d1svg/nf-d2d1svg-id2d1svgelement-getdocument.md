@@ -4,10 +4,10 @@ title: ID2D1SvgElement::GetDocument
 author: windows-sdk-content
 description: Gets the document that contains this element.
 old-location: direct2d\id2d1svgelement_getdocument.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 87ACD0CD-AF31-4734-80F7-67090154D5D1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetDocument, GetDocument method [Direct2D], GetDocument method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetDocument method, ID2D1SvgElement.GetDocument, ID2D1SvgElement::GetDocument, d2d1svg/ID2D1SvgElement::GetDocument, direct2d.id2d1svgelement_getdocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1svg.h
-: 
-- ID2D1SvgElement.GetDocument
-: 
 ---
 
 # ID2D1SvgElement::GetDocument

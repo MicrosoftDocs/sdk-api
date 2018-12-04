@@ -7,7 +7,7 @@ old-location: properties\VariantCompare.htm
 tech.root: properties
 ms.assetid: 45aed78c-1614-4aad-a930-c44615546d6f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VariantCompare, VariantCompare function [Windows Properties], _shell_VariantCompare, properties.VariantCompare, propvarutil/VariantCompare, shell.VariantCompare
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantCompare
-: 
 ---
 
 # VariantCompare function
@@ -96,7 +90,7 @@ Type: <b>INT</b>
 
 
 
-<div class="alert"><b>Note</b>  This function does not support the comparison of different VARIANT types. If the types named in <i>var1</i> and <i>var2</i> are different, the results are undefined and should be ignored. Calling applications should ensure that they are comparing two of the same type before they call this function. The <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> function can be used to convert the two structures to the same type.</div>
+<div class="alert"><b>Note</b>  This function does not support the comparison of different VARIANT types. If the types named in <i>var1</i> and <i>var2</i> are different, the results are undefined and should be ignored. Calling applications should ensure that they are comparing two of the same type before they call this function. The <a href="shell.PropVariantChangeType">PropVariantChangeType</a> function can be used to convert the two structures to the same type.</div>
 <div> </div>
 By default, VT_NULL / VT_EMPTY / 0-element vectors are considered to be less than any other vartype.
 

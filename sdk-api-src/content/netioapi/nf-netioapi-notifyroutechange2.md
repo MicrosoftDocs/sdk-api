@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NotifyRouteChange2
-: 
 ---
 
 # NotifyRouteChange2 function

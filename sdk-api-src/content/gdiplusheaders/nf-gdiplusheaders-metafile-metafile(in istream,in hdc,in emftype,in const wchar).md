@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_stream_referenceHdc_type_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_48stream_referencehdc_type_description.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN IStream,IN HDC,IN EmfType,IN const WCHAR), Metafile.Metafile(IStream*,HDC,EmfType,const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN IStream,IN HDC,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_stream_referenceHdc_type_description_, gdiplus._gdiplus_CLASS_Metafile_Metafile_stream_referenceHdc_type_description_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusheaders.h
-: 
-- Metafile.Metafile
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -59,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <b>Metafile::Metafile</b> object for recording to an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface.
+Creates a <b>Metafile::Metafile</b> object for recording to an <a href="_stg_istream">IStream</a> interface.
 
 
 ## -parameters
@@ -69,9 +61,9 @@ Creates a <b>Metafile::Metafile</b> object for recording to an <a href="https://
 
 ### -param stream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a>*</b>
+Type: <b><a href="_stg_istream">IStream</a>*</b>
 
-Pointer to a COM <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> interface that points to a stream of data in a file. When the commands are recorded, they will be saved to this stream. 
+Pointer to a COM <a href="_stg_istream">IStream</a> interface that points to a stream of data in a file. When the commands are recorded, they will be saved to this stream. 
 
 
 ### -param referenceHdc [in]
@@ -117,7 +109,7 @@ When recording to a file, the file must be writable, and Windows GDI+ must be ab
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
 
 
 

@@ -4,10 +4,10 @@ title: VirtualQuery function
 author: windows-sdk-content
 description: Retrieves information about a range of pages in the virtual address space of the calling process.
 old-location: base\virtualquery.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VirtualQuery, VirtualQuery function, _win32_virtualquery, base.virtualquery, winbase/VirtualQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VirtualQuery
-: 
 ---
 
 # VirtualQuery function

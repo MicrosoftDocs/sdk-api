@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarDecCmpR8
-: 
 ---
 
 # VarDecCmpR8 function

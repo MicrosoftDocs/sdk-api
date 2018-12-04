@@ -4,10 +4,10 @@ title: MsiProcessAdvertiseScriptW function
 author: windows-sdk-content
 description: The MsiProcessAdvertiseScript function processes an advertise script file into the specified locations.
 old-location: setup\msiprocessadvertisescript.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 2c418552-2c06-4797-9fa3-d36e69ef0d53
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MsiProcessAdvertiseScript, MsiProcessAdvertiseScript function, MsiProcessAdvertiseScriptA, MsiProcessAdvertiseScriptW, _msi_msiprocessadvertisescript, msi/MsiProcessAdvertiseScript, msi/MsiProcessAdvertiseScriptA, msi/MsiProcessAdvertiseScriptW, setup.msiprocessadvertisescript
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiProcessAdvertiseScriptW
-: 
 ---
 
 # MsiProcessAdvertiseScriptW function
@@ -87,7 +81,7 @@ A registry key under which registry data is to be written. If this parameter is 
 ### -param fShortcuts [in]
 
 <b>TRUE</b> if shortcuts should be created. If a special folder is returned by 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762203(v=VS.85).aspx">SHGetSpecialFolderLocation</a> it will hold the shortcuts.
+<a href="_win32_shgetspecialfolderlocation_cpp">SHGetSpecialFolderLocation</a> it will hold the shortcuts.
 
 
 ### -param fRemoveItems [in]

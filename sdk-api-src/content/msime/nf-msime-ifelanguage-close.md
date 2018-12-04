@@ -7,7 +7,7 @@ old-location: intl\ifelanguage_close.htm
 tech.root: Intl
 ms.assetid: EF03C40A-62D1-4B8E-9960-3CD2D515B7CE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: Close, Close method [Internationalization for Windows Applications], Close method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],Close method, IFELanguage.Close, IFELanguage::Close, intl.ifelanguage_close, msime/IFELanguage::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msime.h
-: 
-- IFELanguage.Close
-: 
 ---
 
 # IFELanguage::Close

@@ -4,10 +4,10 @@ title: WTHelperGetProvCertFromChain function
 author: windows-sdk-content
 description: Retrieves a trust provider certificate from the certificate chain.
 old-location: security\wthelpergetprovcertfromchain.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 047278fe-37d5-4fd6-8b36-9e28ead0cc5a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WTHelperGetProvCertFromChain, WTHelperGetProvCertFromChain function [Security], security.wthelpergetprovcertfromchain, wintrust/WTHelperGetProvCertFromChain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WTHelperGetProvCertFromChain
-: 
 ---
 
 # WTHelperGetProvCertFromChain function

@@ -4,10 +4,10 @@ title: IBackgroundCopyManager::EnumJobs
 author: windows-sdk-content
 description: Retrieves an interface pointer to an enumerator object that you use to enumerate the jobs in the transfer queue. The order of the jobs in the enumerator is arbitrary.
 old-location: bits\ibackgroundcopymanager_enumjobs.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: e8b73060-dff9-4ab3-8009-d2b41502fc1a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: BG_JOB_ENUM_ALL_USERS, EnumJobs, EnumJobs method [BITS], EnumJobs method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],EnumJobs method, IBackgroundCopyManager.EnumJobs, IBackgroundCopyManager::EnumJobs, _drz_ibackgroundcopymanager_enumjobs, bits.ibackgroundcopymanager_enumjobs, bits/IBackgroundCopyManager::EnumJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyManager.EnumJobs
-: 
 ---
 
 # IBackgroundCopyManager::EnumJobs
@@ -59,7 +51,7 @@ req.redist:
 
 
 Retrieves an interface pointer to an enumerator object that you use to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362839(v=VS.85).aspx">enumerate the jobs</a> in the transfer queue. The order of the jobs in the enumerator is arbitrary.
+<a href="https://msdn.microsoft.com/ebeb1670-dedd-4791-914e-d035d3c22c5a">enumerate the jobs</a> in the transfer queue. The order of the jobs in the enumerator is arbitrary.
 
 
 ## -parameters
@@ -92,17 +84,10 @@ Includes all jobs in the transfer queue—those owned by the user and those owne
  
 
 
-### -param ppEnum
-
-TBD
-
-
-
-
-#### - ppEnumJobs [out]
+### -param ppEnum [out]
 
 An 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363109(v=VS.85).aspx">IEnumBackgroundCopyJobs</a> interface pointer that you use to enumerate the jobs in the transfer queue. The contents of the enumerator depend on the value of <i>dwFlags</i>. Release <i>ppEnumJobs</i> when done.
+<a href="https://msdn.microsoft.com/21ff88da-9fae-478f-bcba-488ed7a89608">IEnumBackgroundCopyJobs</a> interface pointer that you use to enumerate the jobs in the transfer queue. The contents of the enumerator depend on the value of <i>dwFlags</i>. Release <i>ppEnumJobs</i> when done.
 
 
 ## -returns
@@ -149,15 +134,15 @@ The user must be an administrator or belong to an administrator group to enumera
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363022(v=VS.85).aspx">IBackgroundCopyJob::EnumFiles</a>
+<a href="https://msdn.microsoft.com/c6b8ef69-9c67-447f-9f90-b6905a5a5a19">IBackgroundCopyJob::EnumFiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363060(v=VS.85).aspx">IBackgroundCopyManager::GetJob</a>
+<a href="https://msdn.microsoft.com/dbb7cae6-7e9c-4ac5-8f02-372acaa4fb4d">IBackgroundCopyManager::GetJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363109(v=VS.85).aspx">IEnumBackgroundCopyJobs</a>
+<a href="https://msdn.microsoft.com/21ff88da-9fae-478f-bcba-488ed7a89608">IEnumBackgroundCopyJobs</a>
  
 
  

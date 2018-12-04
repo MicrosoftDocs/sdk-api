@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- adhoc.h
-: 
-- IDot11AdHocManagerNotificationSink.OnInterfaceAdd
-: 
 ---
 
 # IDot11AdHocManagerNotificationSink::OnInterfaceAdd

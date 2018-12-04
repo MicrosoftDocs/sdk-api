@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2erase_get_currentphysicalmediatype.htm
 tech.root: imapi
 ms.assetid: 6eda2c28-3dc6-4ca0-9806-0b9621bfe940
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],get_CurrentPhysicalMediaType method, IDiscFormat2Erase.get_CurrentPhysicalMediaType, IDiscFormat2Erase::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI],IDiscFormat2Erase interface, imapi.idiscformat2erase_get_currentphysicalmediatype, imapi2/IDiscFormat2Erase::get_CurrentPhysicalMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscFormat2Erase.get_CurrentPhysicalMediaType
-: 
 ---
 
 # IDiscFormat2Erase::get_CurrentPhysicalMediaType

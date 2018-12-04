@@ -4,10 +4,10 @@ title: RtmGetNextHopPointer function
 author: windows-sdk-content
 description: The RtmGetNextHopPointer function obtains a direct pointer to the specified next hop. The pointer allows the next-hop owner direct read access to the routing table manager's RTM_NEXTHOP_INFO structure.
 old-location: rras\rtmgetnexthoppointer.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 61fa3fa2-1cad-4930-975e-8f5b86ad3b05
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RtmGetNextHopPointer, RtmGetNextHopPointer function [RAS], _rtmv2ref_rtmgetnexthoppointer, rras.rtmgetnexthoppointer, rtmv2/RtmGetNextHopPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtmGetNextHopPointer
-: 
 ---
 
 # RtmGetNextHopPointer function

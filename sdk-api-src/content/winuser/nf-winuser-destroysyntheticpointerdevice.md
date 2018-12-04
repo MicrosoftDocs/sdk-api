@@ -7,7 +7,7 @@ old-location: input_pointerdevice\destroysyntheticpointerdevice.htm
 tech.root: Input_PointerDevice
 ms.assetid: 236484FC-D552-45CE-A968-B928D020A4C8
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: DestroySyntheticPointerDevice, DestroySyntheticPointerDevice function, input_pointerdevice.destroysyntheticpointerdevice, winuser/DestroySyntheticPointerDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DestroySyntheticPointerDevice
-: 
 ---
 
 # DestroySyntheticPointerDevice function

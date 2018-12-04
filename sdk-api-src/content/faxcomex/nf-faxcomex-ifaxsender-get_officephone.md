@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxSender.get_OfficePhone
-: 
 ---
 
 # IFaxSender::get_OfficePhone

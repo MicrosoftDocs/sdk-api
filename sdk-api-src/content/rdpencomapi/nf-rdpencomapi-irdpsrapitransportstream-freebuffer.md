@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStream::FreeBuffer
 author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to return a stream buffer to the stream.
 old-location: rdp\irdpsrapitransportstream_freebuffer.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: db2f0bc2-cddf-44bd-9899-192e5eb014bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FreeBuffer, FreeBuffer method [RDP], FreeBuffer method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],FreeBuffer method, IRDPSRAPITransportStream.FreeBuffer, IRDPSRAPITransportStream::FreeBuffer, rdp.irdpsrapitransportstream_freebuffer, rdpencomapi/IRDPSRAPITransportStream::FreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPITransportStream.FreeBuffer
-: 
 ---
 
 # IRDPSRAPITransportStream::FreeBuffer

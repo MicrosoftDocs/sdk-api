@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_initializetransform.htm
 tech.root: stream
 ms.assetid: 02ACBC34-0514-4EAE-AC48-62F6AE219E93
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],InitializeTransform method, IMFDeviceTransform.InitializeTransform, IMFDeviceTransform::InitializeTransform, InitializeTransform, InitializeTransform method [Streaming Media Devices], InitializeTransform method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::InitializeTransform, stream.imfdevicetransform_initializetransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mftransform.h
-: 
-- IMFDeviceTransform.InitializeTransform
-: 
 ---
 
 # IMFDeviceTransform::InitializeTransform

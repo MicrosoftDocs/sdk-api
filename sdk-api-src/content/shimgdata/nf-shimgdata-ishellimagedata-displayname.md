@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_DisplayName.htm
 tech.root: shell
 ms.assetid: d2e95a44-2bf7-43e1-9a29-950acc34d2a4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DisplayName, DisplayName method [Windows Shell], DisplayName method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],DisplayName method, IShellImageData.DisplayName, IShellImageData::DisplayName, _shell_IShellImageData_DisplayName, shell.IShellImageData_DisplayName, shimgdata/IShellImageData::DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shimgdata.h
-: 
-- IShellImageData.DisplayName
-: 
 ---
 
 # IShellImageData::DisplayName

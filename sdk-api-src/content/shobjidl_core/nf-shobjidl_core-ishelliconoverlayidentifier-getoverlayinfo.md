@@ -7,7 +7,7 @@ old-location: shell\IShellIconOverlayIdentifier_GetOverlayInfo.htm
 tech.root: shell
 ms.assetid: 301dc569-738f-454f-9063-223ea6632e55
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetOverlayInfo, GetOverlayInfo method [Windows Shell], GetOverlayInfo method [Windows Shell],IShellIconOverlayIdentifier interface, ISIOI_ICONFILE, ISIOI_ICONINDEX, IShellIconOverlayIdentifier interface [Windows Shell],GetOverlayInfo method, IShellIconOverlayIdentifier.GetOverlayInfo, IShellIconOverlayIdentifier::GetOverlayInfo, _win32_IShellIconOverlayIdentifier_GetOverlayInfo, shell.IShellIconOverlayIdentifier_GetOverlayInfo, shobjidl_core/IShellIconOverlayIdentifier::GetOverlayInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IShellIconOverlayIdentifier.GetOverlayInfo
-: 
 ---
 
 # IShellIconOverlayIdentifier::GetOverlayInfo

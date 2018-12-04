@@ -7,7 +7,7 @@ old-location: ad\dsmakespn.htm
 tech.root: ad
 ms.assetid: fca3c59c-bb81-42a0-acd3-2e55c902febe
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: DsMakeSpn, DsMakeSpn function [Active Directory], DsMakeSpnA, DsMakeSpnW, _glines_dsmakespn, ad.dsmakespn, dsparse/DsMakeSpn, dsparse/DsMakeSpnA, dsparse/DsMakeSpnW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DsMakeSpnW
-: 
 ---
 
 # DsMakeSpnW function
@@ -61,7 +55,7 @@ req.redist:
 The <b>DsMakeSpn</b> function constructs a service principal name (SPN) that identifies a service instance.
 
 A client application uses this function to compose an SPN, which it uses to authenticate the service instance. For example, the client can pass an SPN in the <i>pszTargetName</i> parameter of the 
-<a href="https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx">InitializeSecurityContext</a> function.
+<a href="security.initializesecuritycontext">InitializeSecurityContext</a> function.
 
 
 ## -parameters
@@ -200,7 +194,7 @@ String parameters cannot include the forward slash (/) character, as it is used 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx">InitializeSecurityContext</a>
+<a href="security.initializesecuritycontext">InitializeSecurityContext</a>
  
 
  

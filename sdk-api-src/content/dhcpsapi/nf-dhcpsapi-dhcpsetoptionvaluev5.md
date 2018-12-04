@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpSetOptionValueV5
-: 
 ---
 
 # DhcpSetOptionValueV5 function

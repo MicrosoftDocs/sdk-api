@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile_setdescription.htm
 tech.root: wmformat
 ms.assetid: 79ff6ba8-b94b-4c06-a7a5-18b6a8ebc222
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMProfile interface [windows Media Format],SetDescription method, IWMProfile.SetDescription, IWMProfile2 interface [windows Media Format],SetDescription method, IWMProfile2::SetDescription, IWMProfile3 interface [windows Media Format],SetDescription method, IWMProfile3::SetDescription, IWMProfile::SetDescription, IWMProfileSetDescription, SetDescription, SetDescription method [windows Media Format], SetDescription method [windows Media Format],IWMProfile interface, SetDescription method [windows Media Format],IWMProfile2 interface, SetDescription method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_setdescription, wmsdkidl/IWMProfile2::SetDescription, wmsdkidl/IWMProfile3::SetDescription, wmsdkidl/IWMProfile::SetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,14 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmsdkidl.h
-: 
-- IWMProfile.SetDescription
-: 
 ---
 
 # IWMProfile::SetDescription

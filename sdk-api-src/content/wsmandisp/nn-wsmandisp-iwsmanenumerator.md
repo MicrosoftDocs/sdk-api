@@ -4,10 +4,10 @@ title: IWSManEnumerator
 author: windows-sdk-content
 description: Represents a stream of results returned from operations such as a WS-Management protocol WS-Enumeration:Enumerate operation.
 old-location: winrm\iwsmanenumerator.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: c7afac5d-946f-49ec-a7d0-de558ed2144b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], IWSManEnumerator interface [Windows Remote Management],described, winrm.iwsmanenumerator, wsmandisp/IWSManEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

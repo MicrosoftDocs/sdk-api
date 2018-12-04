@@ -4,10 +4,10 @@ title: IOfflineFilesItem::Refresh
 author: windows-sdk-content
 description: Refreshes any data cached in the object by rereading from the Offline Files cache.
 old-location: of\iofflinefilesitem_refresh.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 7b54d6fa-18b6-4ffb-98ce-4cbc44ed5b77
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesItem interface [Offline Files],Refresh method, IOfflineFilesItem.Refresh, IOfflineFilesItem::Refresh, Refresh, Refresh method [Offline Files], Refresh method [Offline Files],IOfflineFilesItem interface, cscobj/IOfflineFilesItem::Refresh, of.iofflinefilesitem_refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,14 +41,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesItem.Refresh
-: 
 ---
 
 # IOfflineFilesItem::Refresh
@@ -95,7 +87,7 @@ When a file object is first created, its internal data is initialized with infor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>
+<a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>
  
 
  

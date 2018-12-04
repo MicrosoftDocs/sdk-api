@@ -7,7 +7,7 @@ old-location: intl\immsetcompositionwindow.htm
 tech.root: Intl
 ms.assetid: 01204f4c-4cf1-4bff-99db-fa0c66c2a8e9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ImmSetCompositionWindow, ImmSetCompositionWindow function [Internationalization for Windows Applications], _win32_ImmSetCompositionWindow, imm/ImmSetCompositionWindow, intl.immsetcompositionwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ImmSetCompositionWindow
-: 
 ---
 
 # ImmSetCompositionWindow function

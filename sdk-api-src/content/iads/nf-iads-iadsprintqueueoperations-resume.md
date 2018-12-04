@@ -4,10 +4,10 @@ title: IADsPrintQueueOperations::Resume
 author: windows-sdk-content
 description: The IADsPrintQueueOperations::Resume method resumes processing of suspended print jobs in the print queue.
 old-location: adsi\iadsprintqueueoperations_resume.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 4142af42-b01c-489b-ab13-2750c3ca0be6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsPrintQueueOperations interface [ADSI],Resume method, IADsPrintQueueOperations.Resume, IADsPrintQueueOperations::Resume, Resume, Resume method [ADSI], Resume method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_resume, adsi.iadsprintqueueoperations__resume, adsi.iadsprintqueueoperations_resume, iads/IADsPrintQueueOperations::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsPrintQueueOperations.Resume
-: 
 ---
 
 # IADsPrintQueueOperations::Resume

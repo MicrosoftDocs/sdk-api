@@ -4,10 +4,10 @@ title: "_SERVER_TRANSPORT_INFO_0"
 author: windows-sdk-content
 description: The SERVER_TRANSPORT_INFO_0 structure contains information about the specified transport protocol, including name, address, and location on the network.
 old-location: netmgmt\server_transport_info_0_str.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 5b94cf7a-74d1-4ae8-87bd-22b2daf292cb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPSERVER_TRANSPORT_INFO_0, *PSERVER_TRANSPORT_INFO_0, LPSERVER_TRANSPORT_INFO_0, LPSERVER_TRANSPORT_INFO_0 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_0, PSERVER_TRANSPORT_INFO_0 structure pointer [Network Management], SERVER_TRANSPORT_INFO_0, SERVER_TRANSPORT_INFO_0 structure [Network Management], _SERVER_TRANSPORT_INFO_0, _win32_server_transport_info_0_str, lmserver/LPSERVER_TRANSPORT_INFO_0, lmserver/PSERVER_TRANSPORT_INFO_0, lmserver/SERVER_TRANSPORT_INFO_0, netmgmt.server_transport_info_0_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

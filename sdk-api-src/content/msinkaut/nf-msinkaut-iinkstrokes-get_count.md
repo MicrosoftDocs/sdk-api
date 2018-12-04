@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_count.htm
 tech.root: tablet
 ms.assetid: e0148627-11fc-47ee-8b77-1aa5700343cb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],Count property, IInkStrokes.Count, IInkStrokes.get_Count, IInkStrokes::Count, IInkStrokes::get_Count, InkStrokes.get_Count, get_Count, msinkaut/IInkStrokes::Count, msinkaut/IInkStrokes::get_Count, tablet.inkstrokes_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkStrokes.get_Count
-: 
 ---
 
 # IInkStrokes::get_Count

@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDvbLinkageDescriptor.GetServiceId
-: 
 ---
 
 # IDvbLinkageDescriptor::GetServiceId

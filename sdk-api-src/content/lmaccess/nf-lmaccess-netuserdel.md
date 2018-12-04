@@ -4,10 +4,10 @@ title: NetUserDel function
 author: windows-sdk-content
 description: The NetUserDel function deletes a user account from a server.
 old-location: netmgmt\netuserdel.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: c1429b82-4fd1-48b6-8957-04dee0426077
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetUserDel, NetUserDel function [Network Management], _win32_netuserdel, lmaccess/NetUserDel, netmgmt.netuserdel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetUserDel
-: 
 ---
 
 # NetUserDel function

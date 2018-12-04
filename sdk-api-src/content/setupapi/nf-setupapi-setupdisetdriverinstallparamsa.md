@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiSetDriverInstallParamsA
-: 
 ---
 
 # SetupDiSetDriverInstallParamsA function
@@ -67,7 +61,7 @@ The <b>SetupDiSetDriverInstallParams</b> function sets driver installation param
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a driver information element that represents the driver for which to set installation parameters.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a driver information element that represents the driver for which to set installation parameters.
 
 
 ### -param DeviceInfoData [in, optional]

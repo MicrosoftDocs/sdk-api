@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensorcollection_getat.htm
 tech.root: SensorsAPI
 ms.assetid: 3117a46d-62f2-4d69-97e1-1a75c08a799e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetAt, GetAt method, GetAt method,ISensorCollection interface, ISensorCollection interface,GetAt method, ISensorCollection.GetAt, ISensorCollection::GetAt, sensorsapi/ISensorCollection::GetAt, winsensors_com_ref.isensorcollection_getat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sensorsapi.h
-: 
-- ISensorCollection.GetAt
-: 
 ---
 
 # ISensorCollection::GetAt

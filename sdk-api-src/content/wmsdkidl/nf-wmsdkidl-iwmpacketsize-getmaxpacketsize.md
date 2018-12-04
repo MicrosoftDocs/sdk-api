@@ -7,7 +7,7 @@ old-location: wmformat\iwmpacketsize_getmaxpacketsize.htm
 tech.root: wmformat
 ms.assetid: 8410c524-9c27-48ac-9a48-c17cae782764
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetMaxPacketSize, GetMaxPacketSize method [windows Media Format], GetMaxPacketSize method [windows Media Format],IWMPacketSize interface, GetMaxPacketSize method [windows Media Format],IWMPacketSize2 interface, IWMPacketSize interface [windows Media Format],GetMaxPacketSize method, IWMPacketSize.GetMaxPacketSize, IWMPacketSize2 interface [windows Media Format],GetMaxPacketSize method, IWMPacketSize2::GetMaxPacketSize, IWMPacketSize::GetMaxPacketSize, IWMPacketSizeGetMaxPacketSize, wmformat.iwmpacketsize_getmaxpacketsize, wmsdkidl/IWMPacketSize2::GetMaxPacketSize, wmsdkidl/IWMPacketSize::GetMaxPacketSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,14 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmsdkidl.h
-: 
-- IWMPacketSize.GetMaxPacketSize
-: 
 ---
 
 # IWMPacketSize::GetMaxPacketSize
@@ -64,7 +56,7 @@ req.redist:
 
 
 
-The <b>GetMaxPacketSize</b> method retrieves the maximum size of a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> in an ASF file. 
+The <b>GetMaxPacketSize</b> method retrieves the maximum size of a <a href="wmformat_glossary.htm">packet</a> in an ASF file. 
 
 
 

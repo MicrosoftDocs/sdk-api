@@ -4,10 +4,10 @@ title: IVdsDisk3
 author: windows-sdk-content
 description: Provides a method to retrieve property information for a disk, including the disk's location path.
 old-location: base\ivdsdisk3.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: e3004195-b180-4053-bf91-8f1a0e72f5a6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVdsDisk3, IVdsDisk3 interface, IVdsDisk3 interface,described, base.ivdsdisk3, vds/IVdsDisk3
 ms.prod: windows-hardware
 ms.technology: windows-devices

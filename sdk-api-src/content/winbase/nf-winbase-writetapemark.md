@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WriteTapemark
-: 
 ---
 
 # WriteTapemark function
@@ -68,7 +62,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device on which to write tapemarks. This handle is created by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
 
 ### -param dwTapemarkType [in]
@@ -357,7 +351,7 @@ A long filemark contains a long erase gap that allows an application to position
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
  
 
  

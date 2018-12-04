@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::DeletePropertyItem
 author: windows-sdk-content
 description: Removes the specified principal from the specified list of principals.
 old-location: security\azauthorizationstore_deletepropertyitem.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 7c204a3c-2c5b-44d3-bbab-2765e66da925
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AzAuthorizationStore object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzAuthorizationStore object, DeletePropertyItem method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePropertyItem method, IAzAuthorizationStore.DeletePropertyItem, IAzAuthorizationStore::DeletePropertyItem, azroles/IAzAuthorizationStore::DeletePropertyItem, security.azauthorizationstore_deletepropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzAuthorizationStore.DeletePropertyItem
-: 
 ---
 
 # IAzAuthorizationStore::DeletePropertyItem
@@ -82,7 +74,7 @@ Property ID of the  list of principals from which to remove the principal specif
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa376350(v=VS.85).aspx">DeletePolicyAdministrator</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/c27ca754-7808-4c96-8966-0be3960f2926">DeletePolicyAdministrator</a> method
 
 </td>
 </tr>
@@ -92,7 +84,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa376351(v=VS.85).aspx">DeletePolicyAdministratorName</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/28be14c8-9e39-4410-a08c-b52bb63d0ce4">DeletePolicyAdministratorName</a> method
 
 </td>
 </tr>
@@ -102,7 +94,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa376352(v=VS.85).aspx">DeletePolicyReader</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/948732bb-4d29-402b-bb12-02d2b73bc443">DeletePolicyReader</a> method
 
 </td>
 </tr>
@@ -112,7 +104,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa376353(v=VS.85).aspx">DeletePolicyReaderName</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/b3375c24-82c3-43fd-a063-8c8079324641">DeletePolicyReaderName</a> method
 
 </td>
 </tr>
@@ -122,7 +114,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa376348(v=VS.85).aspx">DeleteDelegatedPolicyUser</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/cb00abca-7116-4a71-aed0-87ed9caff0fb">DeleteDelegatedPolicyUser</a> method
 
 </td>
 </tr>
@@ -132,7 +124,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa376349(v=VS.85).aspx">DeleteDelegatedPolicyUserName</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/a2e7523a-41d3-4fb5-b455-588e0618f51f">DeleteDelegatedPolicyUserName</a> method
 
 </td>
 </tr>
@@ -169,7 +161,7 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa376369(v=VS.85).aspx">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://msdn.microsoft.com/bf2962af-0e8f-4c4c-a63a-dfd623308e4d">Submit</a> method to persist any changes made by this method.
 
 
 

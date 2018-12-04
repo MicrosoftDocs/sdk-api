@@ -4,10 +4,10 @@ title: IFsrmReportJob::Run
 author: windows-sdk-content
 description: Runs all the reports in the job.
 old-location: fsrm\ifsrmreportjob_run.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 74f369d1-2e3d-49a5-bf54-c1b7c13efbd7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],Run method, IFsrmReportJob.Run, IFsrmReportJob::Run, Run, Run method [File Server Resource Manager], Run method [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_run, fsrm.ifsrmreportjob_run, fsrmreports/IFsrmReportJob::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmReportJob.Run
-: 
 ---
 
 # IFsrmReportJob::Run

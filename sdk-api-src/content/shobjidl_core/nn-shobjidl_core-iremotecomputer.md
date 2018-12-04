@@ -7,7 +7,7 @@ old-location: shell\IRemoteComputer.htm
 tech.root: shell
 ms.assetid: a2137043-baee-496b-b3ad-45af5a6f123e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IRemoteComputer, IRemoteComputer interface [Windows Shell], IRemoteComputer interface [Windows Shell],described, _win32_IRemoteComputer, shell.IRemoteComputer, shobjidl_core/IRemoteComputer
 ms.prod: windows-hardware
 ms.technology: windows-devices

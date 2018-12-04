@@ -4,10 +4,10 @@ title: IRDPSRAPITcpConnectionInfo::get_PeerPort
 author: windows-sdk-content
 description: Retrieves the remote port that is being used by the sharer or by the viewer in communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_peerport.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: bc6a6048-50a8-4194-878a-015ab06955f7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],PeerPort property, IRDPSRAPITcpConnectionInfo.PeerPort, IRDPSRAPITcpConnectionInfo.get_PeerPort, IRDPSRAPITcpConnectionInfo::PeerPort, IRDPSRAPITcpConnectionInfo::get_PeerPort, PeerPort property [RDP], PeerPort property [RDP],IRDPSRAPITcpConnectionInfo interface, PeerPort property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],PeerPort property, get_PeerPort, rdp.irdpsrapitcpconnectioninfo_peerport, rdpencomapi/IRDPSRAPITcpConnectionInfo::PeerPort, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_PeerPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPITcpConnectionInfo.get_PeerPort
-: 
 ---
 
 # IRDPSRAPITcpConnectionInfo::get_PeerPort

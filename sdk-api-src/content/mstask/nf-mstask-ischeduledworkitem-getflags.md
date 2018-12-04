@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetFlags
 author: windows-sdk-content
 description: Retrieves the flags that modify the behavior of any type of work item.
 old-location: taskschd\ischeduledworkitem_getflags.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 0fe3c184-2689-44de-b60f-92d31eaa5285
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetFlags, GetFlags method [Task Scheduler], GetFlags method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetFlags method, IScheduledWorkItem.GetFlags, IScheduledWorkItem::GetFlags, _msb_ischeduledworkitem_getflags, mstask/IScheduledWorkItem::GetFlags, taskschd.ischeduledworkitem_getflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.GetFlags
-: 
 ---
 
 # IScheduledWorkItem::GetFlags
@@ -60,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the flags that modify the behavior of any type of <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
+Retrieves the flags that modify the behavior of any type of <a href="w.htm">work item</a>.
 
 
 ## -parameters

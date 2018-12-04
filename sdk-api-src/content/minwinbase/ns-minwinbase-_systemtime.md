@@ -4,10 +4,10 @@ title: "_SYSTEMTIME"
 author: windows-sdk-content
 description: Specifies a date and time, using individual members for the month, day, year, weekday, hour, minute, second, and millisecond. The time is either in coordinated universal time (UTC) or local time, depending on the function that is being called.
 old-location: base\systemtime_str.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: f77cdf86-0f97-4a89-b565-95b46fa7d65b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPSYSTEMTIME, *PSYSTEMTIME, PSYSTEMTIME, PSYSTEMTIME structure pointer, SYSTEMTIME, SYSTEMTIME structure, _SYSTEMTIME, _win32_systemtime_str, base.systemtime_str, minwinbase/PSYSTEMTIME, minwinbase/SYSTEMTIME"
 ms.prod: windows-hardware
 ms.technology: windows-devices

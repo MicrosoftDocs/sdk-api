@@ -4,10 +4,10 @@ title: ITTAPI::Shutdown
 author: windows-sdk-content
 description: The Shutdown method shuts down a TAPI session.
 old-location: tapi3\ittapi_shutdown.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 64abb427-d41a-4670-a01c-095c678de6ff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],Shutdown method, ITTAPI.Shutdown, ITTAPI::Shutdown, Shutdown, Shutdown method [TAPI 2.2], Shutdown method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_shutdown, tapi3.ittapi_shutdown, tapi3if/ITTAPI::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITTAPI.Shutdown
-: 
 ---
 
 # ITTAPI::Shutdown

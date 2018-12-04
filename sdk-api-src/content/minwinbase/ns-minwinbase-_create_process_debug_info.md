@@ -4,10 +4,10 @@ title: "_CREATE_PROCESS_DEBUG_INFO"
 author: windows-sdk-content
 description: Contains process creation information that can be used by a debugger.
 old-location: base\create_process_debug_info_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 4607aaff-bd05-46b5-86ed-abfffe6c2551
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPCREATE_PROCESS_DEBUG_INFO, CREATE_PROCESS_DEBUG_INFO, CREATE_PROCESS_DEBUG_INFO structure, LPCREATE_PROCESS_DEBUG_INFO, LPCREATE_PROCESS_DEBUG_INFO structure pointer, _CREATE_PROCESS_DEBUG_INFO, _win32_create_process_debug_info_str, base.create_process_debug_info_str, minwinbase/CREATE_PROCESS_DEBUG_INFO, minwinbase/LPCREATE_PROCESS_DEBUG_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

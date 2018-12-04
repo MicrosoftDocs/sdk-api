@@ -4,10 +4,10 @@ title: IVssAsync::QueryStatus
 author: windows-sdk-content
 description: The QueryStatus method queries the status of an asynchronous operation.
 old-location: base\ivssasync_querystatus.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssAsync interface [VSS],QueryStatus method, IVssAsync.QueryStatus, IVssAsync::QueryStatus, QueryStatus, QueryStatus method [VSS], QueryStatus method [VSS],IVssAsync interface, VSS_S_ASYNC_CANCELLED, VSS_S_ASYNC_FINISHED, VSS_S_ASYNC_PENDING, _win32_ivssasync_querystatus, base.ivssasync_querystatus, vss/IVssAsync::QueryStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vss.h
-: 
-- IVssAsync.QueryStatus
-: 
 ---
 
 # IVssAsync::QueryStatus

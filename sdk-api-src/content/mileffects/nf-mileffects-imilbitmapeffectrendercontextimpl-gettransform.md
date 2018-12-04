@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
-- apiref
-: 
-- COM
-: 
-- mileffects.h
-: 
-- IMILBitmapEffectRenderContextImpl.GetTransform
-: 
 ---
 
 # IMILBitmapEffectRenderContextImpl::GetTransform
@@ -68,7 +60,7 @@ Gets the matrix transform of the render context.
 
 ### -param pMatrix [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735225(v=VS.85).aspx">MILMatrixF</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b75a27b4-2aac-42a0-b45e-c9fc84655513">MILMatrixF</a>*</b>
 
 The matrix transform of the render context.
 

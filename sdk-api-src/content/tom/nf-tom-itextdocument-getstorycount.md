@@ -4,10 +4,10 @@ title: ITextDocument::GetStoryCount
 author: windows-sdk-content
 description: Gets the count of stories in this document.
 old-location: controls\ITextDocument_GetStoryCount.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorycount.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetStoryCount, GetStoryCount method [Windows Controls], GetStoryCount method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetStoryCount method, ITextDocument.GetStoryCount, ITextDocument::GetStoryCount, _win32_ITextDocument_GetStoryCount, _win32_ITextDocument_GetStoryCount_cpp, controls.ITextDocument_GetStoryCount, controls._win32_ITextDocument_GetStoryCount, tom/ITextDocument::GetStoryCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextDocument.GetStoryCount
-: 
 ---
 
 # ITextDocument::GetStoryCount
@@ -107,7 +99,7 @@ Invalid argument.
 
 
 
-Rich edit controls have only one story and do not implement the <a href="https://msdn.microsoft.com/en-us/library/Bb774029(v=VS.85).aspx">ITextDocument::GetStoryRanges</a> method. To avoid getting an error when there is only one story, use <b>ITextDocument::GetStoryCount</b> to check the story count. If the story count is greater than one, then call 
+Rich edit controls have only one story and do not implement the <a href="https://msdn.microsoft.com/e542bd10-228a-4d9a-bd62-c721e56c6369">ITextDocument::GetStoryRanges</a> method. To avoid getting an error when there is only one story, use <b>ITextDocument::GetStoryCount</b> to check the story count. If the story count is greater than one, then call 
 				<b>ITextDocument::GetStoryRanges</b>.
 
 
@@ -122,11 +114,11 @@ Rich edit controls have only one story and do not implement the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774029(v=VS.85).aspx">GetStoryRanges</a>
+<a href="https://msdn.microsoft.com/e542bd10-228a-4d9a-bd62-c721e56c6369">GetStoryRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
 
 
 
@@ -134,7 +126,7 @@ Rich edit controls have only one story and do not implement the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

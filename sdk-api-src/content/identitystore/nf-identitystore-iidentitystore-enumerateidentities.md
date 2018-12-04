@@ -4,10 +4,10 @@ title: IIdentityStore::EnumerateIdentities
 author: windows-sdk-content
 description: Gets a pointer to an IEnumUnknown interface pointer that can be used to enumerate identities across identity providers.
 old-location: security\iidentitystore_enumerateidentities.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: df1a53e0-6296-49ed-b0f0-85e9dc9ab947
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EnumerateIdentities, EnumerateIdentities method [Security], EnumerateIdentities method [Security],IIdentityStore interface, IIdentityStore interface [Security],EnumerateIdentities method, IIdentityStore.EnumerateIdentities, IIdentityStore::EnumerateIdentities, identitystore/IIdentityStore::EnumerateIdentities, security.iidentitystore_enumerateidentities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- identitystore.h
-: 
-- IIdentityStore.EnumerateIdentities
-: 
 ---
 
 # IIdentityStore::EnumerateIdentities
@@ -68,7 +60,7 @@ The <b>EnumerateIdentities</b> method gets a pointer to an <a href="https://msdn
 
 ### -param eIdentityType [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Dd401667(v=VS.85).aspx">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
+A value of the <a href="security.identity_type">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
 
 
 ### -param pFilterkey [in, optional]

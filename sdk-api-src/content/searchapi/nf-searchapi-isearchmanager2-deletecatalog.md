@@ -7,7 +7,7 @@ old-location: search\isearchmanager2_deletecatalog.htm
 tech.root: search
 ms.assetid: E9515AEE-6854-4FF8-9A83-10E6BC247D4D
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DeleteCatalog, DeleteCatalog method [search], DeleteCatalog method [search],ISearchManager2 interface, ISearchManager2 interface [search],DeleteCatalog method, ISearchManager2.DeleteCatalog, ISearchManager2::DeleteCatalog, search.isearchmanager2_deletecatalog, searchapi/ISearchManager2::DeleteCatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- searchapi.h
-: 
-- ISearchManager2.DeleteCatalog
-: 
 ---
 
 # ISearchManager2::DeleteCatalog

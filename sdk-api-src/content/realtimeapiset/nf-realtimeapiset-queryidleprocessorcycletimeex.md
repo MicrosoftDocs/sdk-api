@@ -4,10 +4,10 @@ title: QueryIdleProcessorCycleTimeEx function
 author: windows-sdk-content
 description: Retrieves the accumulated cycle time for the idle thread on each logical processor in the specified processor group.
 old-location: base\queryidleprocessorcycletimeex.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 4bf05e40-96d1-4c01-b3a8-8a45934b38c6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: QueryIdleProcessorCycleTimeEx, QueryIdleProcessorCycleTimeEx function, base.queryidleprocessorcycletimeex, realtimeapiset/QueryIdleProcessorCycleTimeEx, winbase/QueryIdleProcessorCycleTimeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- QueryIdleProcessorCycleTimeEx
-: 
 ---
 
 # QueryIdleProcessorCycleTimeEx function

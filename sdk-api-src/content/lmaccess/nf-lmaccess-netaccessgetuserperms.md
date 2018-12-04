@@ -4,10 +4,10 @@ title: NetAccessGetUserPerms function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessgetuserperms.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 8f4f069f-86d7-40cf-a821-32345d308f70
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetAccessGetUserPerms, NetAccessGetUserPerms function [Network Management], _win32_netaccessgetuserperms, lmaccess/NetAccessGetUserPerms, netmgmt.netaccessgetuserperms
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetAccessGetUserPerms
-: 
 ---
 
 # NetAccessGetUserPerms function

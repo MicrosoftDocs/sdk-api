@@ -4,10 +4,10 @@ title: CertRegisterPhysicalStore function
 author: windows-sdk-content
 description: Adds a physical store to a registry system store collection.
 old-location: security\certregisterphysicalstore.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: e301c76d-cacd-441a-b925-754b07e4bfa9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CERT_STORE_CREATE_NEW_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertRegisterPhysicalStore, CertRegisterPhysicalStore function [Security], _crypto2_certregisterphysicalstore, security.certregisterphysicalstore, wincrypt/CertRegisterPhysicalStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertRegisterPhysicalStore
-: 
 ---
 
 # CertRegisterPhysicalStore function
@@ -167,7 +161,7 @@ If the function fails, it returns zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

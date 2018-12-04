@@ -4,10 +4,10 @@ title: GetEncSChannel function
 author: windows-sdk-content
 description: This function is unavailable.
 old-location: security\getencschannel.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 4879895e-8bf4-4464-a344-04e4b361c5c7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetEncSChannel, GetEncSChannel function [Security], security.getencschannel, wincrypt/GetEncSChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetEncSChannel
-: 
 ---
 
 # GetEncSChannel function

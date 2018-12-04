@@ -4,10 +4,10 @@ title: IRDPSRAPIWindowList
 author: windows-sdk-content
 description: Manages the window list.
 old-location: rdp\irdpsrapiwindowlist.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 9ea90838-6de3-4b21-8db8-ff96e026505a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRDPSRAPIWindowList, IRDPSRAPIWindowList interface [RDP], IRDPSRAPIWindowList interface [RDP],described, rdp.irdpsrapiwindowlist, rdpencomapi/IRDPSRAPIWindowList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Applications obtain access to this object using <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

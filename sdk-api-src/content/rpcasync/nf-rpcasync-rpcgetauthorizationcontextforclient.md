@@ -4,10 +4,10 @@ title: RpcGetAuthorizationContextForClient function
 author: windows-sdk-content
 description: The RpcGetAuthorizationContextForClient function returns the Authz context for an RPC client that can be used with Authz functions for high-performance authentication. Supported for ncalrpc and ncacn_* protocol sequences only.
 old-location: rpc\rpcgetauthorizationcontextforclient.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 993dfa23-4303-4601-b05d-70158e5e87ed
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RpcGetAuthorizationContextForClient, RpcGetAuthorizationContextForClient function [RPC], _rpc_rpcgetauthorizationcontextforclient, rpc.rpcgetauthorizationcontextforclient, rpcasync/RpcGetAuthorizationContextForClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcGetAuthorizationContextForClient
-: 
 ---
 
 # RpcGetAuthorizationContextForClient function

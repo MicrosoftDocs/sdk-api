@@ -4,10 +4,10 @@ title: IADsAccessControlList::AddAce
 author: windows-sdk-content
 description: The IADsAccessControlList::AddAce method adds an IADsAccessControlEntry object to the IADsAccessControlList object.
 old-location: adsi\iadsaccesscontrollist_addace.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 663be55a-29d6-4a8a-adf2-024762413fc3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: AddAce, AddAce method [ADSI], AddAce method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],AddAce method, IADsAccessControlList.AddAce, IADsAccessControlList::AddAce, _ds_iadsaccesscontrollist_addace, adsi.iadsaccesscontrollist__addace, adsi.iadsaccesscontrollist_addace, iads/IADsAccessControlList::AddAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsAccessControlList.AddAce
-: 
 ---
 
 # IADsAccessControlList::AddAce
@@ -68,7 +60,7 @@ req.redist:
 
 ### -param pAccessControlEntry [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface of the <a href="https://msdn.microsoft.com/6d2cd45b-0dc6-4bb3-9c41-014bec71f258">IADsAccessControlEntry</a> object to be added. This parameter cannot be <b>NULL</b>.
+Pointer to the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface of the <a href="https://msdn.microsoft.com/6d2cd45b-0dc6-4bb3-9c41-014bec71f258">IADsAccessControlEntry</a> object to be added. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

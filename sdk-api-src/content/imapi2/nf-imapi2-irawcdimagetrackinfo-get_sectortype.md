@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagetrackinfo_get_sectortype.htm
 tech.root: imapi
 ms.assetid: fbec6c4b-dd0e-46c3-9e46-97b8f98438b3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_SectorType method, IRawCDImageTrackInfo.get_SectorType, IRawCDImageTrackInfo::get_SectorType, get_SectorType, get_SectorType method [IMAPI], get_SectorType method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_sectortype, imapi2/IRawCDImageTrackInfo::get_SectorType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IRawCDImageTrackInfo.get_SectorType
-: 
 ---
 
 # IRawCDImageTrackInfo::get_SectorType

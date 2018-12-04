@@ -4,10 +4,10 @@ title: WSManSignalShell function
 author: windows-sdk-content
 description: Sends a control code to an existing command or to the shell itself.
 old-location: winrm\wsmansignalshell.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 9954097d-3e27-4f56-bf8c-3d9aba5c19b5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WSMAN_SIGNAL_SHELL_CODE_CTRL_BREAK, WSMAN_SIGNAL_SHELL_CODE_CTRL_C, WSMAN_SIGNAL_SHELL_CODE_TERMINATE, WSManSignalShell, WSManSignalShell function [Windows Remote Management], winrm.wsmansignalshell, wsman/WSManSignalShell
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
-- apiref
-: 
-- 
-: 
-- WSManSignalShell
-: 
 ---
 
 # WSManSignalShell function

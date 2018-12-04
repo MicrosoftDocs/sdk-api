@@ -4,10 +4,10 @@ title: CertIsRDNAttrsInCertificateName function
 author: windows-sdk-content
 description: The CertIsRDNAttrsInCertificateName function compares the attributes in the certificate name with the specified CERT_RDN to determine whether all attributes are included there.
 old-location: security\certisrdnattrsincertificatename.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: e45b80a3-9269-4f21-8407-1c8303cb5f32
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertIsRDNAttrsInCertificateName, CertIsRDNAttrsInCertificateName function [Security], _crypto2_certisrdnattrsincertificatename, security.certisrdnattrsincertificatename, wincrypt/CertIsRDNAttrsInCertificateName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertIsRDNAttrsInCertificateName
-: 
 ---
 
 # CertIsRDNAttrsInCertificateName function
@@ -169,7 +163,7 @@ Currently, only an exact, case-sensitive match is supported.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

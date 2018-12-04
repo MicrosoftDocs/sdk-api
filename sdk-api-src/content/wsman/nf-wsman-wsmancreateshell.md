@@ -4,10 +4,10 @@ title: WSManCreateShell function
 author: windows-sdk-content
 description: Creates a shell object.
 old-location: winrm\wsmancreateshell.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 901c0a2d-d25f-451c-8d6c-83662f1f1061
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WSManCreateShell, WSManCreateShell function [Windows Remote Management], winrm.wsmancreateshell, wsman/WSManCreateShell
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
-- apiref
-: 
-- 
-: 
-- WSManCreateShell
-: 
 ---
 
 # WSManCreateShell function

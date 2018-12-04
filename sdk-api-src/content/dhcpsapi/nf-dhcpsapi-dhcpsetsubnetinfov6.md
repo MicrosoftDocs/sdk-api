@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpSetSubnetInfoV6
-: 
 ---
 
 # DhcpSetSubnetInfoV6 function

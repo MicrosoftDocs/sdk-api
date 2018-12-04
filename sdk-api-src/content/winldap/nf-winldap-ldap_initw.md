@@ -4,10 +4,10 @@ title: ldap_initW function
 author: windows-sdk-content
 description: Initializes a session with an LDAP server.
 old-location: ldap\ldap_init.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: c0aa5a9e-ed46-42fb-9c02-728afea51505
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ldap_init, ldap.ldap__init, ldap.ldap_init, ldap_init, ldap_init function [LDAP], ldap_initA, ldap_initW, winldap/ldap_init, winldap/ldap_initA, winldap/ldap_initW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_initW
-: 
 ---
 
 # ldap_initW function

@@ -7,7 +7,7 @@ old-location: fs\set_disk_attributes.htm
 tech.root: fileio
 ms.assetid: 2caa79aa-24f9-481d-bbe3-ecd3e49bf316
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PSET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ_ONLY, PSET_DISK_ATTRIBUTES, PSET_DISK_ATTRIBUTES structure pointer [Files], SET_DISK_ATTRIBUTES, SET_DISK_ATTRIBUTES structure [Files], _SET_DISK_ATTRIBUTES, fs.set_disk_attributes, winioctl/PSET_DISK_ATTRIBUTES, winioctl/SET_DISK_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

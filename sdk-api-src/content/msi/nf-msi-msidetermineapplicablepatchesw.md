@@ -4,10 +4,10 @@ title: MsiDetermineApplicablePatchesW function
 author: windows-sdk-content
 description: The MsiDetermineApplicablePatches function takes a set of patch files, XML files, and XML blobs and determines which patches apply to a specified Windows Installer package and in what sequence.
 old-location: setup\msidetermineapplicablepatches.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 2362d1dd-695e-48a3-b8ef-4516952ed253
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MsiDetermineApplicablePatches, MsiDetermineApplicablePatches function, MsiDetermineApplicablePatchesA, MsiDetermineApplicablePatchesW, msi/MsiDetermineApplicablePatches, msi/MsiDetermineApplicablePatchesA, msi/MsiDetermineApplicablePatchesW, setup.msidetermineapplicablepatches
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiDetermineApplicablePatchesW
-: 
 ---
 
 # MsiDetermineApplicablePatchesW function

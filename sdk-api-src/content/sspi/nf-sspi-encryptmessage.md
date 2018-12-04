@@ -4,10 +4,10 @@ title: EncryptMessage function
 author: windows-sdk-content
 description: Encrypts a message to provide privacy by using Digest.
 old-location: security\encryptmessage__digest_.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 0045e931-929b-40c4-a524-5664d2fc5170
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EncryptMessage, EncryptMessage (Digest), EncryptMessage function [Security], SealMessage [Security], security.encryptmessage__digest_, sspi/EncryptMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EncryptMessage
-: 
 ---
 
 # EncryptMessage function
@@ -289,7 +283,7 @@ For optimal performance, the <i>pMessage</i> structures should be allocated from
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

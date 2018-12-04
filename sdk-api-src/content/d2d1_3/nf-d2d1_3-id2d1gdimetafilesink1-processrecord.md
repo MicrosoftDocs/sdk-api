@@ -4,10 +4,10 @@ title: ID2D1GdiMetafileSink1::ProcessRecord
 author: windows-sdk-content
 description: Provides access to metafile records, including their type, data, and flags.
 old-location: direct2d\id2d1gdimetafilesink1_processrecord.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 1f33988f-e4c5-23f9-899a-64ebeaa77007
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID2D1GdiMetafileSink1 interface [Direct2D],ProcessRecord method, ID2D1GdiMetafileSink1.ProcessRecord, ID2D1GdiMetafileSink1::ProcessRecord, ProcessRecord, ProcessRecord method [Direct2D], ProcessRecord method [Direct2D],ID2D1GdiMetafileSink1 interface, d2d1_3/ID2D1GdiMetafileSink1::ProcessRecord, direct2d.id2d1gdimetafilesink1_processrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_3.h
-: 
-- ID2D1GdiMetafileSink1.ProcessRecord
-: 
 ---
 
 # ID2D1GdiMetafileSink1::ProcessRecord

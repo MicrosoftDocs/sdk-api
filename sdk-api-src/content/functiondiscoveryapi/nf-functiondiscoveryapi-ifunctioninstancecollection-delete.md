@@ -4,10 +4,10 @@ title: IFunctionInstanceCollection::Delete
 author: windows-sdk-content
 description: Removes the specified function instance from the collection.
 old-location: ncd\ifunctioninstancecollection_delete.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: e7f94912-9656-4a6b-8754-eb37358b5f9d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Delete, Delete method, Delete method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Delete method, IFunctionInstanceCollection.Delete, IFunctionInstanceCollection::Delete, functiondiscoveryapi/IFunctionInstanceCollection::Delete, ncd.ifunctioninstancecollection_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryapi.h
-: 
-- IFunctionInstanceCollection.Delete
-: 
 ---
 
 # IFunctionInstanceCollection::Delete

@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- wingdi.h
-: 
-- GetKValue
-: 
 ---
 
 # GetKValue macro

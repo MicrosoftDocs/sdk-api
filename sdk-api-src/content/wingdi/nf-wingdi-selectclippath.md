@@ -7,7 +7,7 @@ old-location: gdi\selectclippath.htm
 tech.root: gdi
 ms.assetid: c5102e1b-ba33-4cce-a4e5-93cf10c1c0bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, SelectClipPath, SelectClipPath function [Windows GDI], _win32_SelectClipPath, gdi.selectclippath, wingdi/SelectClipPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SelectClipPath
-: 
 ---
 
 # SelectClipPath function

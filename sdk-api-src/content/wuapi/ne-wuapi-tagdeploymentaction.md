@@ -4,10 +4,10 @@ title: tagDeploymentAction
 author: windows-sdk-content
 description: Defines the action for which an update is explicitly deployed.
 old-location: wua\deploymentaction.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: c192db44-05ad-4fb2-aa51-9153389d95dc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DeploymentAction, DeploymentAction enumeration [Windows Update Agent], daDetection, daInstallation, daNone, daUninstallation, tagDeploymentAction, wua.deploymentaction, wuapi/DeploymentAction, wuapi/daDetection, wuapi/daInstallation, wuapi/daNone, wuapi/daUninstallation
 ms.prod: windows-hardware
 ms.technology: windows-devices

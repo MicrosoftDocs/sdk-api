@@ -4,10 +4,10 @@ title: IWSManConnectionOptionsEx2::ProxyAutoDetect
 author: windows-sdk-content
 description: Returns the value of the proxy access type flag WSManProxyAutoDetect for use in the accessType parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyautodetect.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 8c277ce3-2655-4efc-abb4-224c28531d97
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAutoDetect method, IWSManConnectionOptionsEx2.ProxyAutoDetect, IWSManConnectionOptionsEx2::ProxyAutoDetect, ProxyAutoDetect, ProxyAutoDetect method [Windows Remote Management], ProxyAutoDetect method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyautodetect, wsmandisp/IWSManConnectionOptionsEx2::ProxyAutoDetect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManConnectionOptionsEx2.ProxyAutoDetect
-: 
 ---
 
 # IWSManConnectionOptionsEx2::ProxyAutoDetect

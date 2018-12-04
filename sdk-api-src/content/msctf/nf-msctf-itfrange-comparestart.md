@@ -7,7 +7,7 @@ old-location: tsf\itfrange_comparestart.htm
 tech.root: TSF
 ms.assetid: b84375ec-e00a-4cb3-97b7-f10688814968
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "+1, -1, 0, CompareStart, CompareStart method [Text Services Framework], CompareStart method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],CompareStart method, ITfRange.CompareStart, ITfRange::CompareStart, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_comparestart_ref, msctf/ITfRange::CompareStart, tsf.itfrange_comparestart"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfRange.CompareStart
-: 
 ---
 
 # ITfRange::CompareStart

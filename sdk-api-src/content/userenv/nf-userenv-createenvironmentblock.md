@@ -7,7 +7,7 @@ old-location: shell\CreateEnvironmentBlock.htm
 tech.root: shell
 ms.assetid: bda8879d-d33a-48f4-8b08-e3a279126a07
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: CreateEnvironmentBlock, CreateEnvironmentBlock function [Windows Shell], _shell_CreateEnvironmentBlock, shell.CreateEnvironmentBlock, userenv/CreateEnvironmentBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateEnvironmentBlock
-: 
 ---
 
 # CreateEnvironmentBlock function

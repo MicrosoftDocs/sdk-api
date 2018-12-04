@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediapluginregistrar__wmpregisterplayerplugin.htm
 tech.root: WMP
 ms.assetid: db042911-c46f-431a-ad1c-ceb2c3b4546c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin, wmpservices/WMPRegisterPlayerPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmpservices.h
-: 
-- IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin
-: 
 ---
 
 # IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin

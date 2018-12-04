@@ -4,10 +4,10 @@ title: ID2D1Factory::CreateGeometryGroup
 author: windows-sdk-content
 description: Creates an ID2D1GeometryGroup, which is an object that holds other geometries.
 old-location: direct2d\ID2D1Factory_CreateGeometryGroup.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: CreateGeometryGroup, CreateGeometryGroup method [Direct2D], CreateGeometryGroup method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateGeometryGroup method, ID2D1Factory.CreateGeometryGroup, ID2D1Factory::CreateGeometryGroup, d2d1/ID2D1Factory::CreateGeometryGroup, direct2d.ID2D1Factory_CreateGeometryGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1Factory.CreateGeometryGroup
-: 
 ---
 
 # ID2D1Factory::CreateGeometryGroup
@@ -116,9 +108,13 @@ Geometry groups are a convenient way to group several geometries simultaneously 
 
 The following code example first declares an array of geometry objects. These objects are four concentric circles that have the following radii: 25, 50, 75, and 100. Then call the <b>CreateGeometryGroup</b> on the <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> object,  passing in <a href="https://msdn.microsoft.com/f1a14447-39fa-4a48-9516-ff5b03abc3a6">D2D1_FILL_MODE_ALTERNATE</a>, an array of geometry objects to add to the geometry group, and the number of elements in this array.  
 
-
-```cpp
-ID2D1Geometry *ppGeometries[] =
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1Geometry *ppGeometries[] =
 {
     m_pEllipseGeometry1,
     m_pEllipseGeometry2,
@@ -126,29 +122,29 @@ ID2D1Geometry *ppGeometries[] =
     m_pEllipseGeometry4
 };
 
-hr = m_pD2DFactory->CreateGeometryGroup(
+hr = m_pD2DFactory-&gt;CreateGeometryGroup(
     D2D1_FILL_MODE_ALTERNATE,
     ppGeometries,
     ARRAYSIZE(ppGeometries),
-    &m_pGeoGroup_AlternateFill
+    &amp;m_pGeoGroup_AlternateFill
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = m_pD2DFactory->CreateGeometryGroup(
+    hr = m_pD2DFactory-&gt;CreateGeometryGroup(
         D2D1_FILL_MODE_WINDING,
         ppGeometries,
         ARRAYSIZE(ppGeometries),
-        &m_pGeoGroup_WindingFill
+        &amp;m_pGeoGroup_WindingFill
         );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following illustration shows the results of rendering the two group geometries from the example.
 
-<img alt="Illustration of two sets of four concentric circles, one with the second and fourth rings filled and one with all rings filled" src="./images/create_geometry_group.png"/>
+<img alt="Illustration of two sets of four concentric circles, one with the second and fourth rings filled and one with all rings filled" src="images/create_geometry_group.png"/>
 
 <div class="code"></div>
 

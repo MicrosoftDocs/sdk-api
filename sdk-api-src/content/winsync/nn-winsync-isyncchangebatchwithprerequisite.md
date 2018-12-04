@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchwithprerequisite.htm
 tech.root: winsync
 ms.assetid: 29d767cf-3261-4550-8b28-5d3950b8ded1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISyncChangeBatchWithPrerequisite, ISyncChangeBatchWithPrerequisite interface [Windows Sync], ISyncChangeBatchWithPrerequisite interface [Windows Sync],described, winsync.isyncchangebatchwithprerequisite, winsync/ISyncChangeBatchWithPrerequisite
 ms.prod: windows-hardware
 ms.technology: windows-devices

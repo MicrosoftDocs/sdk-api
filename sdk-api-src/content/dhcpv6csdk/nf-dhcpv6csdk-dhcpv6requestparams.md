@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Dhcpv6RequestParams
-: 
 ---
 
 # Dhcpv6RequestParams function

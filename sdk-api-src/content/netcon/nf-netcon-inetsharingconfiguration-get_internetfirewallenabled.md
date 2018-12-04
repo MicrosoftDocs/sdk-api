@@ -4,10 +4,10 @@ title: INetSharingConfiguration::get_InternetFirewallEnabled
 author: windows-sdk-content
 description: The get_InternetFirewallEnabled method determines whether Internet Connection Firewall is enabled on this connection.
 old-location: ics\inetsharingconfiguration_get_internetfirewallenabled.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 85f6b76f-3c31-4669-a54f-30d12a82935e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_InternetFirewallEnabled method, INetSharingConfiguration.get_InternetFirewallEnabled, INetSharingConfiguration::get_InternetFirewallEnabled, _ics_inetsharingconfiguration_get_internetfirewallenabled, get_InternetFirewallEnabled, get_InternetFirewallEnabled method [ICS/ICF], get_InternetFirewallEnabled method [ICS/ICF],INetSharingConfiguration interface, ics.inetsharingconfiguration_get_internetfirewallenabled, netcon/INetSharingConfiguration::get_InternetFirewallEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netcon.h
-: 
-- INetSharingConfiguration.get_InternetFirewallEnabled
-: 
 ---
 
 # INetSharingConfiguration::get_InternetFirewallEnabled

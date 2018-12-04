@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmFilterGetByKey0
-: 
 ---
 
 # FwpmFilterGetByKey0 function

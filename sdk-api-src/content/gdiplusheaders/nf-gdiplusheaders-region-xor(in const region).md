@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Xor_region_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionxormethods\xor_61region.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Region class [GDI+],Xor method, Region.Xor, Region.Xor(IN const Region), Region.Xor(const Region*), Region::Xor, Region::Xor(IN const Region), Xor, Xor method [GDI+], Xor method [GDI+],Region class, _gdiplus_CLASS_Region_Xor_region_, gdiplus._gdiplus_CLASS_Region_Xor_region_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusheaders.h
-: 
-- Region.Xor
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -69,7 +61,7 @@ The <b>Region::Xor</b> method updates this region to the nonintersecting portion
 
 ### -param region [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>*</b>
 
 Pointer to a region to use to update this region. 
 
@@ -97,7 +89,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
 
 
 

@@ -4,10 +4,10 @@ title: IFunctionDiscoveryProviderQuery::IsSubcategoryQuery
 author: windows-sdk-content
 description: Determines whether a query is for function instances in a specific subcategory.
 old-location: ncd\ifunctiondiscoveryproviderquery_issubcategoryquery.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: fa262e62-2e34-4881-915d-995d66fa6841
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFunctionDiscoveryProviderQuery interface,IsSubcategoryQuery method, IFunctionDiscoveryProviderQuery.IsSubcategoryQuery, IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, IsSubcategoryQuery, IsSubcategoryQuery method, IsSubcategoryQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, ncd.ifunctiondiscoveryproviderquery_issubcategoryquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryprovider.h
-: 
-- IFunctionDiscoveryProviderQuery.IsSubcategoryQuery
-: 
 ---
 
 # IFunctionDiscoveryProviderQuery::IsSubcategoryQuery

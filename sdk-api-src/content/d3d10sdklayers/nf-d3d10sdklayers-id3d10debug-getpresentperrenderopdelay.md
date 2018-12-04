@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10debug_getpresentperrenderopdelay.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_getpresentperrenderopdelay.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 089e85a9-c0e8-518c-4ced-8dfac65c1761, GetPresentPerRenderOpDelay, GetPresentPerRenderOpDelay method [Direct3D 10], GetPresentPerRenderOpDelay method [Direct3D 10],ID3D10Debug interface, ID3D10Debug interface [Direct3D 10],GetPresentPerRenderOpDelay method, ID3D10Debug.GetPresentPerRenderOpDelay, ID3D10Debug::GetPresentPerRenderOpDelay, d3d10sdklayers/ID3D10Debug::GetPresentPerRenderOpDelay, direct3d10.id3d10debug_getpresentperrenderopdelay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10sdklayers.h
-: 
-- ID3D10Debug.GetPresentPerRenderOpDelay
-: 
 ---
 
 # ID3D10Debug::GetPresentPerRenderOpDelay
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Get the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a> is called.
+Get the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">Present</a> is called.
 
 
 ## -parameters
@@ -83,7 +75,7 @@ Number of milliseconds to sleep after Present is called.
 
 
 
-Value is set with <a href="https://msdn.microsoft.com/en-us/library/Bb173521(v=VS.85).aspx">ID3D10Debug::SetPresentPerRenderOpDelay</a>.
+Value is set with <a href="https://msdn.microsoft.com/cc724ab0-1f85-4c87-950a-3202757ba100">ID3D10Debug::SetPresentPerRenderOpDelay</a>.
 
 
 
@@ -93,7 +85,7 @@ Value is set with <a href="https://msdn.microsoft.com/en-us/library/Bb173521(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
+<a href="https://msdn.microsoft.com/2971189b-5df2-4d0a-ad7b-28dbfd6d0af3">ID3D10Debug Interface</a>
  
 
  

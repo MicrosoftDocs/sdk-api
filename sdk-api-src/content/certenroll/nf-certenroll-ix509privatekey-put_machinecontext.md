@@ -4,10 +4,10 @@ title: IX509PrivateKey::put_MachineContext
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that identifies the local certificate store context.
 old-location: security\ix509privatekey_machinecontext_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: bdc3278e-3b5a-4ad0-9e9b-9639a2db4040
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IX509PrivateKey interface [Security],MachineContext property, IX509PrivateKey.MachineContext, IX509PrivateKey.put_MachineContext, IX509PrivateKey::MachineContext, IX509PrivateKey::get_MachineContext, IX509PrivateKey::put_MachineContext, MachineContext property [Security], MachineContext property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::MachineContext, certenroll/IX509PrivateKey::get_MachineContext, certenroll/IX509PrivateKey::put_MachineContext, put_MachineContext, security.ix509privatekey_machinecontext_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509PrivateKey.put_MachineContext
-: 
 ---
 
 # IX509PrivateKey::put_MachineContext
@@ -73,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

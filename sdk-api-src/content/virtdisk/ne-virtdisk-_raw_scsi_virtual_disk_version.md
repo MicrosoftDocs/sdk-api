@@ -7,7 +7,7 @@ old-location: vhd\raw_scsi_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: EE0567C8-D479-436B-B1AC-7D1C4AC3B403
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RAW_SCSI_VIRTUAL_DISK_VERSION, RAW_SCSI_VIRTUAL_DISK_VERSION enumeration [VHD], RAW_SCSI_VIRTUAL_DISK_VERSION_1, RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, _RAW_SCSI_VIRTUAL_DISK_VERSION, vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_1, vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/RAW_SCSI_VIRTUAL_DISK_VERSION, vhd.raw_scsi_virtual_disk_version, virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_1, virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, virtdisk/RAW_SCSI_VIRTUAL_DISK_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

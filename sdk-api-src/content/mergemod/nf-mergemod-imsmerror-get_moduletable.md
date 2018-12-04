@@ -4,10 +4,10 @@ title: IMsmError::get_ModuleTable
 author: windows-sdk-content
 description: The get_ModuleTable method retrieves the ModuleTable property of the Error object. This method returns the name of the table in the module that caused the error.
 old-location: setup\imsmerror_get_moduletable.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: c24145dc-0907-4916-bbec-f9e0ec7584db
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMsmError interface,get_ModuleTable method, IMsmError.get_ModuleTable, IMsmError::get_ModuleTable, _msi_get_moduletable_function, get_ModuleTable, get_ModuleTable method, get_ModuleTable method,IMsmError interface, mergemod/IMsmError::get_ModuleTable, setup.imsmerror_get_moduletable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mergemod.h
-: 
-- IMsmError.get_ModuleTable
-: 
 ---
 
 # IMsmError::get_ModuleTable

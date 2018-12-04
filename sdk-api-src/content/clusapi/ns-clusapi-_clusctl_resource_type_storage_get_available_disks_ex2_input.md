@@ -4,10 +4,10 @@ title: "_CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT"
 author: windows-sdk-content
 description: Represents an input buffer for the CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT control code.
 old-location: mscs\clusctl_resource_type_storage_get_available_disks_ex2_input.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: D6C67381-06AB-4CDB-BDED-9A307204E99C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT, CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_FLAG_ADD_VOLUME_INFO, CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_FLAG_FILTER_BY_POOL, CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_FLAG_INCLUDE_NON_SHARED_DISKS, CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT, CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT structure [Failover Cluster], PCLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT, PCLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT structure pointer [Failover Cluster], _CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT, clusapi/CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT, clusapi/PCLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT, mscs.clusctl_resource_type_storage_get_available_disks_ex2_input"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Represents an input buffer for the <a href="https://msdn.microsoft.com/en-us/library/Dn806584(v=VS.85).aspx">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>  control code.
+Represents an input buffer for the <a href="https://msdn.microsoft.com/F3FF3348-4F75-4E7D-9C19-13A641B0E8E1">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>  control code.
 
 
 ## -struct-fields
@@ -95,11 +95,11 @@ A storage pool <b>GUID</b> that filters the results.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn806584(v=VS.85).aspx">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>
+<a href="https://msdn.microsoft.com/F3FF3348-4F75-4E7D-9C19-13A641B0E8E1">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

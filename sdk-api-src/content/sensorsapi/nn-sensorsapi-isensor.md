@@ -7,7 +7,7 @@ old-location: winsensors\isensor.htm
 tech.root: SensorsAPI
 ms.assetid: 3216afbb-d524-486d-99ad-0ee0cfb884e0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISensor, ISensor interface [WinSensors], ISensor interface [WinSensors],described, sensorsapi/ISensor, winsensors.isensor
 ms.prod: windows-hardware
 ms.technology: windows-devices

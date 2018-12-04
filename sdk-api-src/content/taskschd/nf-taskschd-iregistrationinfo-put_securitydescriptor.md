@@ -4,10 +4,10 @@ title: IRegistrationInfo::put_SecurityDescriptor
 author: windows-sdk-content
 description: Gets or sets the security descriptor of the task.
 old-location: taskschd\iregistrationinfo_securitydescriptor.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 095b8f81-412a-461d-bb6e-65c10b337d3e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],SecurityDescriptor property, IRegistrationInfo.SecurityDescriptor, IRegistrationInfo.put_SecurityDescriptor, IRegistrationInfo::SecurityDescriptor, IRegistrationInfo::get_SecurityDescriptor, IRegistrationInfo::put_SecurityDescriptor, SecurityDescriptor property [Task Scheduler], SecurityDescriptor property [Task Scheduler],IRegistrationInfo interface, put_SecurityDescriptor, taskschd.iregistrationinfo_securitydescriptor, taskschd/IRegistrationInfo::SecurityDescriptor, taskschd/IRegistrationInfo::get_SecurityDescriptor, taskschd/IRegistrationInfo::put_SecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IRegistrationInfo.put_SecurityDescriptor
-: 
 ---
 
 # IRegistrationInfo::put_SecurityDescriptor

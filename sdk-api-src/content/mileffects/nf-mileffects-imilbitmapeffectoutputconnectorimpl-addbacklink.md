@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
-- apiref
-: 
-- COM
-: 
-- mileffects.h
-: 
-- IMILBitmapEffectOutputConnectorImpl.AddBackLink
-: 
 ---
 
 # IMILBitmapEffectOutputConnectorImpl::AddBackLink
@@ -67,7 +59,7 @@ req.redist: Microsoft .Net 3.0
 
 ### -param pConnection [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/930ffa74-8a38-44c2-8b1c-74c0839d1a5d">IMILBitmapEffectInputConnector</a>*</b>
 
 
 ## -returns

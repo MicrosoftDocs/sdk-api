@@ -4,10 +4,10 @@ title: IVdsIscsiTarget
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on an iSCSI target.
 old-location: base\ivdsiscsitarget.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 0db442c4-6cc1-43b2-8ac8-8b17cadb1101
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], IVdsIscsiTarget interface [VDS],described, base.ivdsiscsitarget, vds/IVdsIscsiTarget, vdshwprv/IVdsIscsiTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

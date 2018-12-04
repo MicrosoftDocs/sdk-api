@@ -4,10 +4,10 @@ title: SaferGetLevelInformation function
 author: windows-sdk-content
 description: Retrieves information about a policy level.
 old-location: security\safergetlevelinformation.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: cbe73ebc-bf2c-4d39-a203-78ff1a407481
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SaferGetLevelInformation, SaferGetLevelInformation function [Security], SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, _mnp_safergetlevelinformation, security.safergetlevelinformation, winsafer/SaferGetLevelInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SaferGetLevelInformation
-: 
 ---
 
 # SaferGetLevelInformation function

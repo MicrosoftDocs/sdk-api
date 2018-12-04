@@ -7,7 +7,7 @@ old-location: mbn\imbnpin_pinlengthmax.htm
 tech.root: mbn
 ms.assetid: c6918ada-4141-4b5e-88d8-c201a2b4a8a5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinLengthMax property, IMbnPin.PinLengthMax, IMbnPin.get_PinLengthMax, IMbnPin::PinLengthMax, IMbnPin::get_PinLengthMax, PinLengthMax property [Microsoft Broadband Networks], PinLengthMax property [Microsoft Broadband Networks],IMbnPin interface, get_PinLengthMax, mbn.imbnpin_pinlengthmax, mbnapi/IMbnPin::PinLengthMax, mbnapi/IMbnPin::get_PinLengthMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnPin.get_PinLengthMax
-: 
 ---
 
 # IMbnPin::get_PinLengthMax

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext2.htm
 tech.root: direct3d11
 ms.assetid: 8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ID3D11DeviceContext2, ID3D11DeviceContext2 interface [Direct3D 11], ID3D11DeviceContext2 interface [Direct3D 11],described, d3d11_2/ID3D11DeviceContext2, direct3d11.id3d11devicecontext2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,14 +51,14 @@ req.redist:
 ## -description
 
 
-The device context interface represents a device context; it is used to render commands. <b>ID3D11DeviceContext2</b> adds new methods to those in <a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>.
+The device context interface represents a device context; it is used to render commands. <b>ID3D11DeviceContext2</b> adds new methods to those in <a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceContext2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>. <b>ID3D11DeviceContext2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceContext2</b> interface inherits from <a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>. <b>ID3D11DeviceContext2</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ID3D11DeviceContext2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280509(v=VS.85).aspx">	UpdateTiles</a>
+<a href="https://msdn.microsoft.com/EB0F9CBD-29B2-484D-8923-6686C73487F7">	UpdateTiles</a>
 </td>
 <td align="left" width="63%">
 Updates tiles by copying from app memory to the tiled resource. 
@@ -80,7 +80,7 @@ Updates tiles by copying from app memory to the tiled resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280499(v=VS.85).aspx">BeginEventInt</a>
+<a href="https://msdn.microsoft.com/9a45e16f-a598-4196-ad9c-8a157ae94de0">BeginEventInt</a>
 </td>
 <td align="left" width="63%">
 Allows applications to annotate the beginning of a range of graphics commands.
@@ -89,7 +89,7 @@ Allows applications to annotate the beginning of a range of graphics commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280500(v=VS.85).aspx">CopyTileMappings</a>
+<a href="https://msdn.microsoft.com/03EBF4F5-CEC3-485D-8124-AAB90DA4D6E1">CopyTileMappings</a>
 </td>
 <td align="left" width="63%">
 Copies mappings from a source tiled resource to a destination tiled resource.
@@ -98,7 +98,7 @@ Copies mappings from a source tiled resource to a destination tiled resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280501(v=VS.85).aspx">CopyTiles</a>
+<a href="https://msdn.microsoft.com/C336B0C7-DB99-466C-B689-5D6634EE0B36">CopyTiles</a>
 </td>
 <td align="left" width="63%">
 Copies tiles from buffer to tiled resource or vice versa. 
@@ -107,7 +107,7 @@ Copies tiles from buffer to tiled resource or vice versa.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280502(v=VS.85).aspx">EndEvent</a>
+<a href="https://msdn.microsoft.com/1684ee4b-637d-4764-bb69-6ebc5c2985f1">EndEvent</a>
 </td>
 <td align="left" width="63%">
 Allows applications to annotate the end of a range of graphics commands.
@@ -116,7 +116,7 @@ Allows applications to annotate the end of a range of graphics commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280504(v=VS.85).aspx">IsAnnotationEnabled</a>
+<a href="https://msdn.microsoft.com/76096836-ab68-468e-a54a-a93ecb0bdb88">IsAnnotationEnabled</a>
 </td>
 <td align="left" width="63%">
 Allows apps to determine when either a capture or profiling request is enabled.
@@ -125,7 +125,7 @@ Allows apps to determine when either a capture or profiling request is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280505(v=VS.85).aspx">ResizeTilePool</a>
+<a href="https://msdn.microsoft.com/0F464025-7BF3-47C4-BD77-B4C312E53B07">ResizeTilePool</a>
 </td>
 <td align="left" width="63%">
 Resizes a tile pool.
@@ -134,7 +134,7 @@ Resizes a tile pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280506(v=VS.85).aspx">SetMarkerInt</a>
+<a href="https://msdn.microsoft.com/bb814f16-ca58-46ad-88eb-1c67b17d0c86">SetMarkerInt</a>
 </td>
 <td align="left" width="63%">
 Allows applications to annotate graphics commands.
@@ -143,7 +143,7 @@ Allows applications to annotate graphics commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280507(v=VS.85).aspx">TiledResourceBarrier</a>
+<a href="https://msdn.microsoft.com/D53A4336-53D8-4264-9A9B-B775AA026939">TiledResourceBarrier</a>
 </td>
 <td align="left" width="63%">
 Specifies a data access ordering constraint between multiple tiled resources.  
@@ -152,7 +152,7 @@ Specifies a data access ordering constraint between multiple tiled resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280508(v=VS.85).aspx">UpdateTileMappings</a>
+<a href="https://msdn.microsoft.com/542735C4-BFDE-4EA9-9595-BA30BD06422B">UpdateTileMappings</a>
 </td>
 <td align="left" width="63%">
 Updates mappings of tile locations in tiled resources to memory locations in a tile pool.
@@ -167,11 +167,11 @@ Updates mappings of tile locations in tiled resources to memory locations in a t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476154(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/e96804db-0987-49ca-b1b1-321f36c13024">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>
+<a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>
  
 
  

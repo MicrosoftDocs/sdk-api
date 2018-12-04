@@ -4,10 +4,10 @@ title: NotificationHandler
 author: windows-sdk-content
 description: Notifies the supplicant that there is a change in the Statement of Health (SoH) and re-authentication of a Network Access Protection (NAP) system connection is required.
 old-location: eaphost\notificationhandler.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 7fa12cb4-694a-4db6-9743-5a2cbb995721
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NotificationHandler, NotificationHandler callback, NotificationHandler callback function [EAPHost], eaphost.notificationhandler, eappapis/NotificationHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

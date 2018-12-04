@@ -4,10 +4,10 @@ title: lineAddProvider function
 author: windows-sdk-content
 description: The lineAddProvider function installs a new telephony service provider into the telephony system.
 old-location: tapi2\lineaddprovider.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: d6c96dba-bbfb-4b4a-a4f5-a55fd4446f3b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_tapi2_lineaddprovider, lineAddProvider, lineAddProvider function [TAPI 2.2], lineAddProviderA, lineAddProviderW, tapi/lineAddProvider, tapi/lineAddProviderA, tapi/lineAddProviderW, tapi2.lineaddprovider"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- lineAddProvider
-: 
 ---
 
 # lineAddProvider function

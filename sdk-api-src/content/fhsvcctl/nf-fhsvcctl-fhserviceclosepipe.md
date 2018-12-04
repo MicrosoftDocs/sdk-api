@@ -4,10 +4,10 @@ title: FhServiceClosePipe function
 author: windows-sdk-content
 description: Closes a communication channel to the File History Service opened with FhServiceOpenPipe.
 old-location: winprog\fhserviceclosepipe.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 20C46E2A-E79F-47B9-9D7A-74CD3AF03EF7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: FhServiceClosePipe, FhServiceClosePipe function [Windows API], fhsvcctl/FhServiceClosePipe, winprog.fhserviceclosepipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FhServiceClosePipe
-: 
 ---
 
 # FhServiceClosePipe function

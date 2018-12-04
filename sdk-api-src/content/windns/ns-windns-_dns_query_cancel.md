@@ -4,10 +4,10 @@ title: "_DNS_QUERY_CANCEL"
 author: windows-sdk-content
 description: A DNS_QUERY_CANCEL structure can be used to cancel an asynchronous DNS query.
 old-location: dns\dns_query_cancel.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 543C6F9B-3200-44F6-A2B7-A5C7F5A927DB
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PDNS_QUERY_CANCEL, DNS_QUERY_CANCEL, DNS_QUERY_CANCEL structure [DNS], PDNS_QUERY_CANCEL, PDNS_QUERY_CANCEL structure pointer [DNS], _DNS_QUERY_CANCEL, dns.dns_query_cancel, windns/DNS_QUERY_CANCEL, windns/PDNS_QUERY_CANCEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices

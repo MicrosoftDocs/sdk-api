@@ -4,10 +4,10 @@ title: RectL function
 author: windows-sdk-content
 description: Returns a filled D2D1_RECT_L structure.
 old-location: direct2d\rectl.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: CE2B4034-24BC-49AE-88C6-C60BDCEA38B5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: RectL, RectL function [Direct2D], dciddi/RectL, direct2d.rectl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RectL
-: 
 ---
 
 # RectL function

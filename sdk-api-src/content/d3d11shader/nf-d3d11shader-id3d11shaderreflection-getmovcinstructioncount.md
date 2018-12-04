@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getmovcinstructioncount.htm
 tech.root: direct3d11
 ms.assetid: b732d024-cc94-4292-ad11-e51b5d9328ff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 4a4263fb-7b28-3da9-343c-0bc8a788f788, GetMovcInstructionCount, GetMovcInstructionCount method [Direct3D 11], GetMovcInstructionCount method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetMovcInstructionCount method, ID3D11ShaderReflection.GetMovcInstructionCount, ID3D11ShaderReflection::GetMovcInstructionCount, d3d11shader/ID3D11ShaderReflection::GetMovcInstructionCount, direct3d11.id3d11shaderreflection_getmovcinstructioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11shader.h
-: 
-- ID3D11ShaderReflection.GetMovcInstructionCount
-: 
 ---
 
 # ID3D11ShaderReflection::GetMovcInstructionCount
@@ -72,7 +64,7 @@ Gets the number of Movc instructions.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Returns the number of Movc instructions.
 
@@ -93,7 +85,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476590(v=VS.85).aspx">ID3D11ShaderReflection Interface</a>
+<a href="https://msdn.microsoft.com/a28cca72-7f2d-416a-bfa9-4d1f71fc98d5">ID3D11ShaderReflection Interface</a>
  
 
  

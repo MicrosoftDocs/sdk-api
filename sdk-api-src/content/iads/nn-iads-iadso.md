@@ -4,10 +4,10 @@ title: IADsO
 author: windows-sdk-content
 description: The IADsO interface is a dual interface that inherits from IADs.
 old-location: adsi\iadso.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 223021ff-58ef-4762-a64a-056ccab2696c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsO, IADsO interface [ADSI], IADsO interface [ADSI],described, _ds_iadso, adsi.iadso, iads/IADsO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,7 +58,7 @@ When a directory service provides hierarchical groupings of directory entries by
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsO</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsO</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsO</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsO</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -363,7 +363,7 @@ Gets and sets the telephone number of the organization.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

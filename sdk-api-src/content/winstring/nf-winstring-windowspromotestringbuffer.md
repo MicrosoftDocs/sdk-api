@@ -7,7 +7,7 @@ old-location: winrt\windowspromotestringbuffer.htm
 tech.root: WinRT
 ms.assetid: ac5261fd-2d31-4c65-84f2-4c6b4c3566bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WindowsPromoteStringBuffer, WindowsPromoteStringBuffer function [Windows Runtime], winrt.windowspromotestringbuffer, winstring/WindowsPromoteStringBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WindowsPromoteStringBuffer
-: 
 ---
 
 # WindowsPromoteStringBuffer function

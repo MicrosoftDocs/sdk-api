@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- oaidl.h
-: 
-- ITypeLib2.GetCustData
-: 
 ---
 
 # ITypeLib2::GetCustData

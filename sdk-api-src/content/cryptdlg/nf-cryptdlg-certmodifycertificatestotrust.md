@@ -4,10 +4,10 @@ title: CertModifyCertificatesToTrust function
 author: windows-sdk-content
 description: Modifies the set of certificates in a certificate trust list (CTL) for a given purpose.
 old-location: security\certmodifycertificatestotrust.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: a23d968e-113f-470e-a629-18c22882c77f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertModifyCertificatesToTrust, CertModifyCertificatesToTrust function [Security], cryptdlg/CertModifyCertificatesToTrust, security.certmodifycertificatestotrust
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertModifyCertificatesToTrust
-: 
 ---
 
 # CertModifyCertificatesToTrust function
@@ -71,7 +65,7 @@ The number of modification requests that are in the <i>rgCerts</i> parameter.
 
 ### -param rgCerts [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa381492(v=VS.85).aspx">CTL_MODIFY_REQUEST</a> structure that contains an array of modification requests.
+A pointer to a <a href="https://msdn.microsoft.com/b8b5fd3e-a0db-4edd-84c7-48bae9adc3f8">CTL_MODIFY_REQUEST</a> structure that contains an array of modification requests.
 
 
 ### -param szPurpose [in]
@@ -91,7 +85,7 @@ A handle to the certificate store in which to modify the list of trusted certifi
 
 ### -param pccertSigner [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> structure that contains a certificate. It is used to sign the trust list. The certificate also restricts the set of trust lists that may be modified. If <b>NULL</b>, the trust list is not signed.
+A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains a certificate. It is used to sign the trust list. The certificate also restricts the set of trust lists that may be modified. If <b>NULL</b>, the trust list is not signed.
 
 
 ## -returns
@@ -108,7 +102,7 @@ An <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa381492(v=VS.85).aspx">CTL_MODIFY_REQUEST</a>
+<a href="https://msdn.microsoft.com/b8b5fd3e-a0db-4edd-84c7-48bae9adc3f8">CTL_MODIFY_REQUEST</a>
  
 
  

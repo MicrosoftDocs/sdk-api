@@ -4,10 +4,10 @@ title: "_WSD_RELATIONSHIP_METADATA"
 author: windows-sdk-content
 description: Provides metadata about the relationship between two or more services.
 old-location: ncd\wsd_relationship_metadata.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 232ea033-f368-4a37-9bec-ba5dc0d9b60f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WSD_RELATIONSHIP_METADATA, WSD_RELATIONSHIP_METADATA structure, _WSD_RELATIONSHIP_METADATA, ncd.wsd_relationship_metadata, wsdtypes/WSD_RELATIONSHIP_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

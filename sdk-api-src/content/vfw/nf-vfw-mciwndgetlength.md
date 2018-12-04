@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetlength.htm
 tech.root: Multimedia
 ms.assetid: 2d027660-b2dd-4613-9583-30d7a45f7a1d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MCIWndGetLength, MCIWndGetLength macro [Windows Multimedia], _win32_MCIWndGetLength, multimedia.mciwndgetlength, vfw/MCIWndGetLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- MCIWndGetLength
-: 
 ---
 
 # MCIWndGetLength macro

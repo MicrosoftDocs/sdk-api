@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidTuner.put_Tune
-: 
 ---
 
 # IMSVidTuner::put_Tune

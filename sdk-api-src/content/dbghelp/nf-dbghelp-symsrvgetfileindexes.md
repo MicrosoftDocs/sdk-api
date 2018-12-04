@@ -4,10 +4,10 @@ title: SymSrvGetFileIndexes function
 author: windows-sdk-content
 description: Retrieves the indexes for the specified .pdb, .dbg, or image file that would be used to store the file. The combination of these values uniquely identifies the file in the symbol server.
 old-location: base\symsrvgetfileindexes.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 9a6c6949-1ba2-4ed9-a038-68c57560454a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SymSrvGetFileIndexes, SymSrvGetFileIndexes function, SymSrvGetFileIndexesW, base.symsrvgetfileindexes, dbghelp/SymSrvGetFileIndexes, dbghelp/SymSrvGetFileIndexesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later
-- apiref
-: 
-- 
-: 
-- SymSrvGetFileIndexes
-: 
 ---
 
 # SymSrvGetFileIndexes function

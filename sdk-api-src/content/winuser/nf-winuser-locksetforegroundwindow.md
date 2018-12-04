@@ -7,7 +7,7 @@ old-location: winmsg\locksetforegroundwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\locksetforegroundwindow.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: LSFW_LOCK, LSFW_UNLOCK, LockSetForegroundWindow, LockSetForegroundWindow function [Windows and Messages], _win32_LockSetForegroundWindow, _win32_locksetforegroundwindow_cpp, winmsg.locksetforegroundwindow, winui._win32_locksetforegroundwindow, winuser/LockSetForegroundWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LockSetForegroundWindow
-: 
 ---
 
 # LockSetForegroundWindow function
@@ -58,7 +52,7 @@ req.redist:
 ## -description
 
 
-The foreground process can call the <b>LockSetForegroundWindow</b> function to disable calls to the <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function. 
+The foreground process can call the <b>LockSetForegroundWindow</b> function to disable calls to the <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a> function. 
 
 
 ## -parameters
@@ -70,7 +64,7 @@ The foreground process can call the <b>LockSetForegroundWindow</b> function to d
 
 Type: <b>UINT</b>
 
-Specifies whether to enable or disable calls to <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>. This parameter can be one of the following values. 
+Specifies whether to enable or disable calls to <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>. This parameter can be one of the following values. 
 
 <table>
 <tr>
@@ -84,7 +78,7 @@ Specifies whether to enable or disable calls to <a href="https://msdn.microsoft.
 </dl>
 </td>
 <td width="60%">
-Disables calls to <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>.
+Disables calls to <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>.
 
 </td>
 </tr>
@@ -95,7 +89,7 @@ Disables calls to <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=V
 </dl>
 </td>
 <td width="60%">
-Enables calls to <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>.
+Enables calls to <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>.
 
 </td>
 </tr>
@@ -121,7 +115,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The system automatically enables calls to <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> if the user presses the ALT key or takes some action that causes the system itself to change the foreground window (for example, clicking a background window).
+The system automatically enables calls to <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a> if the user presses the ALT key or takes some action that causes the system itself to change the foreground window (for example, clicking a background window).
 
 This function is provided so applications can prevent other applications from making a foreground change that can interrupt its interaction with the user.
 
@@ -133,7 +127,7 @@ This function is provided so applications can prevent other applications from ma
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632668(v=VS.85).aspx">AllowSetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/2d20519e-4d21-4722-8e26-bab933763326">AllowSetForegroundWindow</a>
 
 
 
@@ -145,11 +139,11 @@ This function is provided so applications can prevent other applications from ma
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

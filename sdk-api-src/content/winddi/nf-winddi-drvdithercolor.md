@@ -7,7 +7,7 @@ old-location: display\drvdithercolor.htm
 tech.root: display
 ms.assetid: 635a4af8-ec19-4f99-80b2-bad2a6e87edc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: DrvDitherColor, DrvDitherColor function [Display Devices], ddifncs_2b62d877-2c36-41ad-bca7-88f1daf3640c.xml, display.drvdithercolor, winddi/DrvDitherColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DrvDitherColor
-: 
 ---
 
 # DrvDitherColor function

@@ -7,7 +7,7 @@ old-location: fs\setfileinformationbyhandle.htm
 tech.root: fileio
 ms.assetid: ea4981e6-a8f1-4977-aca9-b2f53604d449
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: SetFileInformationByHandle, SetFileInformationByHandle function [Files], fileapi/SetFileInformationByHandle, fileextd/SetFileInformationByHandle, fs.setfileinformationbyhandle, winbase/SetFileInformationByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
-- apiref
-: 
-- 
-: 
-- SetFileInformationByHandle
-: 
 ---
 
 # SetFileInformationByHandle function

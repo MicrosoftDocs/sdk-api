@@ -4,10 +4,10 @@ title: ProcessGroupPolicyCompletedEx function
 author: windows-sdk-content
 description: The ProcessGroupPolicyCompletedEx function notifies the system that the specified policy extension has finished applying policy. The function also reports the status of Resultant Set of Policy (RSoP) logging.
 old-location: policy\processgrouppolicycompletedex.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: 0d899190-7345-4762-ab59-b89e2e87d10f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ProcessGroupPolicyCompletedEx, ProcessGroupPolicyCompletedEx function [Group Policy], _win32_processgrouppolicycompletedex, policy.processgrouppolicycompletedex, userenv/ProcessGroupPolicyCompletedEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ProcessGroupPolicyCompletedEx
-: 
 ---
 
 # ProcessGroupPolicyCompletedEx function

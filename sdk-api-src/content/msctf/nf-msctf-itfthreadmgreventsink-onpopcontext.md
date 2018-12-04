@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgreventsink_onpopcontext.htm
 tech.root: TSF
 ms.assetid: de07d7cf-db91-44e0-a0b2-4de26262552f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnPopContext method, ITfThreadMgrEventSink.OnPopContext, ITfThreadMgrEventSink::OnPopContext, OnPopContext, OnPopContext method [Text Services Framework], OnPopContext method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onpopcontext_ref, msctf/ITfThreadMgrEventSink::OnPopContext, tsf.itfthreadmgreventsink_onpopcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfThreadMgrEventSink.OnPopContext
-: 
 ---
 
 # ITfThreadMgrEventSink::OnPopContext

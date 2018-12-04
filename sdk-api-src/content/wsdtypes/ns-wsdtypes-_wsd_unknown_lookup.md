@@ -4,10 +4,10 @@ title: "_WSD_UNKNOWN_LOOKUP"
 author: windows-sdk-content
 description: Represents an XML element that could not be parsed.
 old-location: ncd\wsd_unknown_lookup.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 7711f7d7-0d3c-419c-a02b-2e75ce550d24
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WSD_UNKNOWN_LOOKUP, WSD_UNKNOWN_LOOKUP structure, _WSD_UNKNOWN_LOOKUP, ncd.wsd_unknown_lookup, wsdtypes/WSD_UNKNOWN_LOOKUP
 ms.prod: windows-hardware
 ms.technology: windows-devices

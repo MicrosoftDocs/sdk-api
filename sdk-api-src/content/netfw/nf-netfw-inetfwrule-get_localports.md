@@ -4,10 +4,10 @@ title: INetFwRule::get_LocalPorts
 author: windows-sdk-content
 description: Specifies the list of local ports for this rule.
 old-location: ics\inetfwrule_localports.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 72c4f00c-d5c4-4d93-892b-ec9a63f8df09
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ""*", "RPC", "RPC-EPMap", "Teredo", INetFwRule interface [ICS/ICF],LocalPorts property, INetFwRule.LocalPorts, INetFwRule.get_LocalPorts, INetFwRule::LocalPorts, INetFwRule::get_LocalPorts, INetFwRule::put_LocalPorts, LocalPorts property [ICS/ICF], LocalPorts property [ICS/ICF],INetFwRule interface, get_LocalPorts, ics.inetfwrule_localports, netfw/INetFwRule::LocalPorts, netfw/INetFwRule::get_LocalPorts, netfw/INetFwRule::put_LocalPorts"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwRule.get_LocalPorts
-: 
 ---
 
 # INetFwRule::get_LocalPorts

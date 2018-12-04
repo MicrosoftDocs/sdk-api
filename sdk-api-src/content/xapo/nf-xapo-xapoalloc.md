@@ -7,7 +7,7 @@ old-location: xaudio2\xapoalloc.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xapo.XAPOAlloc(ULONG)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: XAPOAlloc, XAPOAlloc macro [XAudio2 Audio Mixing APIs], xapo/XAPOAlloc, xaudio2.xapoalloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- xapo.h
-: 
-- XAPOAlloc
-: 
 ---
 
 # XAPOAlloc macro
@@ -76,7 +68,7 @@ Size, in bytes, of the memory block to be allocated.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419206(v=VS.85).aspx">XAPOFree</a> and <b>XAPOAlloc</b> are memory allocation macros that allow one module to allocate memory and another to free it, by guaranteeing that the same heap manager is used regardless of differences between the build environments of the two modules.
+<a href="https://msdn.microsoft.com/7E24273A-483B-42E5-8428-A9ED7DD04561">XAPOFree</a> and <b>XAPOAlloc</b> are memory allocation macros that allow one module to allocate memory and another to free it, by guaranteeing that the same heap manager is used regardless of differences between the build environments of the two modules.
 
 <table>
 <tr>
@@ -84,7 +76,7 @@ Size, in bytes, of the memory block to be allocated.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Ee419206(v=VS.85).aspx">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>XMemAlloc</b> and <b>XMemFree</b> on Xbox 360.</td>
+<a href="https://msdn.microsoft.com/7E24273A-483B-42E5-8428-A9ED7DD04561">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>XMemAlloc</b> and <b>XMemFree</b> on Xbox 360.</td>
 </tr>
 </table>
  
@@ -95,7 +87,7 @@ Size, in bytes, of the memory block to be allocated.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Ee419206(v=VS.85).aspx">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b>.</td>
+<a href="https://msdn.microsoft.com/7E24273A-483B-42E5-8428-A9ED7DD04561">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b>.</td>
 </tr>
 </table>
  

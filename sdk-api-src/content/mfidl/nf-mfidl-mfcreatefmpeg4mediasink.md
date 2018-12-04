@@ -7,7 +7,7 @@ old-location: mf\mfcreatefmpeg4mediasink.htm
 tech.root: medfound
 ms.assetid: 31FDA8BD-C837-4CA4-8635-D4A7B53AC7AC
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFCreateFMPEG4MediaSink, MFCreateFMPEG4MediaSink function [Media Foundation], mf.mfcreatefmpeg4mediasink, mfidl/MFCreateFMPEG4MediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateFMPEG4MediaSink
-: 
 ---
 
 # MFCreateFMPEG4MediaSink function

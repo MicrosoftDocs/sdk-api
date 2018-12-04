@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidVideoRenderer.get_OverScan
-: 
 ---
 
 # IMSVidVideoRenderer::get_OverScan

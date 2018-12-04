@@ -4,10 +4,10 @@ title: IsWow64Process function
 author: windows-sdk-content
 description: Determines whether the specified process is running under WOW64 or an Intel64 of x64 processor.
 old-location: base\iswow64process.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 5a237542-e432-487c-aa59-2ede427dd1eb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IsWow64Process, IsWow64Process function, _win32_iswow64process, base.iswow64process, winbase/IsWow64Process, wow64apiset/IsWow64Process
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IsWow64Process
-: 
 ---
 
 # IsWow64Process function

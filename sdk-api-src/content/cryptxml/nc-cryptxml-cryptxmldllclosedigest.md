@@ -4,10 +4,10 @@ title: CryptXmlDllCloseDigest
 author: windows-sdk-content
 description: Frees the CRYPT_XML_DIGEST allocated by the CryptXmlDllCreateDigest function.
 old-location: security\cryptxmldllclosedigest.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 97f720b9-f937-4469-abe9-62bf35ebdd7a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptXmlDllCloseDigest, CryptXmlDllCloseDigest callback, CryptXmlDllCloseDigest callback function [Security], cryptxml/CryptXmlDllCloseDigest, security.cryptxmldllclosedigest
 ms.prod: windows-hardware
 ms.technology: windows-devices

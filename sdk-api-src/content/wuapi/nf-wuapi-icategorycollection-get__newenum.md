@@ -4,10 +4,10 @@ title: ICategoryCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\icategorycollection__newenum.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 4d908686-0e19-401c-a4b9-943b37d8c49c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICategoryCollection interface [Windows Update Agent],_NewEnum property, ICategoryCollection._NewEnum, ICategoryCollection.get__NewEnum, ICategoryCollection::_NewEnum, ICategoryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],ICategoryCollection interface, get__NewEnum, wua.icategorycollection__newenum, wuapi/ICategoryCollection::_NewEnum, wuapi/ICategoryCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- ICategoryCollection.get__NewEnum
-: 
 ---
 
 # ICategoryCollection::get__NewEnum
@@ -59,7 +51,7 @@ req.redist:
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface that can be used to enumerate the collection.
+Gets an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface that can be used to enumerate the collection.
 
 This property is read-only.
 

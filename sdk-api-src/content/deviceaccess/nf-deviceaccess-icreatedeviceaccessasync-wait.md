@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- deviceaccess.h
-: 
-- ICreateDeviceAccessAsync.Wait
-: 
 ---
 
 # ICreateDeviceAccessAsync::Wait

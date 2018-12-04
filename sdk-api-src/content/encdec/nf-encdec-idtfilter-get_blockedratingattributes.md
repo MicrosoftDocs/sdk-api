@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- encdec.h
-: 
-- IDTFilter.get_BlockedRatingAttributes
-: 
 ---
 
 # IDTFilter::get_BlockedRatingAttributes

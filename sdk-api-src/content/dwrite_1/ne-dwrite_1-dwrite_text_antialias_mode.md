@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_text_antialias_mode.htm
 tech.root: DirectWrite
 ms.assetid: 212B02C9-1265-4870-A059-F292640ECE15
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DWRITE_TEXT_ANTIALIAS_MODE, DWRITE_TEXT_ANTIALIAS_MODE enumeration [Direct Write], DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE, DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE, directwrite.dwrite_text_antialias_mode, dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE, dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE, dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetLastModified.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getlastmodified.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetLastModified, GetLastModified method [search], GetLastModified method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetLastModified method, IUrlAccessor.GetLastModified, IUrlAccessor::GetLastModified, _search_IUrlAccessor_GetLastModified, search._search_IUrlAccessor_GetLastModified, searchapi/IUrlAccessor::GetLastModified
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- COM
-: 
-- searchapi.h
-: 
-- IUrlAccessor.GetLastModified
-: 
 ---
 
 # IUrlAccessor::GetLastModified
@@ -69,9 +61,9 @@ Gets the time stamp identifying when the URL was last modified.
 
 ### -param pftLastModified [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
+Type: <b><a href="_com_FILETIME">FILETIME</a>*</b>
 
-Receives a pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a> identifying the time stamp when the URL was last modified.
+Receives a pointer to a variable of type <a href="_com_FILETIME">FILETIME</a> identifying the time stamp when the URL was last modified.
                 
 
 

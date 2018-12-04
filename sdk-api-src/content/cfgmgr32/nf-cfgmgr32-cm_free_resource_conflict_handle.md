@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Free_Resource_Conflict_Handle
-: 
 ---
 
 # CM_Free_Resource_Conflict_Handle function

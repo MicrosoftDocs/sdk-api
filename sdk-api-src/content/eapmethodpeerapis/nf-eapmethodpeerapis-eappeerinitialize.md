@@ -4,10 +4,10 @@ title: EapPeerInitialize function
 author: windows-sdk-content
 description: Initializes an EAP peer method for EAPHost.
 old-location: eaphost\eappeerinitialize.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 7c040f9c-1a70-4882-bea1-7e641f5b1d3f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EapPeerInitialize, EapPeerInitialize function [EAPHost], eaphost.eappeerinitialize, eapmethodpeerapis/EapPeerInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapPeerInitialize
-: 
 ---
 
 # EapPeerInitialize function

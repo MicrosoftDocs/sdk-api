@@ -7,7 +7,7 @@ old-location: gdi\settextalign.htm
 tech.root: gdi
 ms.assetid: 422868c5-14c9-4374-9cc5-b7bf91ab9eb4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SetTextAlign, SetTextAlign function [Windows GDI], TA_BASELINE, TA_BOTTOM, TA_CENTER, TA_LEFT, TA_NOUPDATECP, TA_RIGHT, TA_RTLREADING, TA_TOP, TA_UPDATECP, VTA_BASELINE, VTA_CENTER, _win32_SetTextAlign, gdi.settextalign, wingdi/SetTextAlign
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetTextAlign
-: 
 ---
 
 # SetTextAlign function
@@ -229,24 +223,32 @@ The rectangle that bounds the text is formed by the character cells in the text 
 
 The best way to get left-aligned text is to use either
 
-
-```cpp
-
-SetTextAlign (hdc, GetTextAlign(hdc) & (~TA_CENTER))
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+SetTextAlign (hdc, GetTextAlign(hdc) &amp; (~TA_CENTER))
+</pre>
+</td>
+</tr>
+</table></span></div>
 or
 
-
-```cpp
-
-SetTextAlign (hdc,TA_LEFT | <other flags>)
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+SetTextAlign (hdc,TA_LEFT | &lt;other flags&gt;)
+</pre>
+</td>
+</tr>
+</table></span></div>
 You can also use <b>SetTextAlign</b> (hdc, TA_LEFT) for this purpose, but this loses any vertical or right-to-left settings.
 
 <div class="alert"><b>Note</b>  You should not use <b>SetTextAlign</b> with TA_UPDATECP when you are using <a href="https://msdn.microsoft.com/f9b188d4-00d3-461b-ae7d-bf12e7717748">ScriptStringOut</a>, because selected text is not rendered correctly. If you must use this flag, you can unset and reset it as necessary to avoid the problem.</div>

@@ -4,10 +4,10 @@ title: IBitsPeerCacheAdministration::GetMaximumContentAge
 author: windows-sdk-content
 description: Gets the age by when files are removed from the cache.
 old-location: bits\ibitspeercacheadministration_getmaximumcontentage.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 6b6b0c97-9906-464d-b267-5adde1919a45
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetMaximumContentAge, GetMaximumContentAge method [BITS], GetMaximumContentAge method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetMaximumContentAge method, IBitsPeerCacheAdministration.GetMaximumContentAge, IBitsPeerCacheAdministration::GetMaximumContentAge, bits.ibitspeercacheadministration_getmaximumcontentage, bits3_0/IBitsPeerCacheAdministration::GetMaximumContentAge
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits3_0.h
-: 
-- IBitsPeerCacheAdministration.GetMaximumContentAge
-: 
 ---
 
 # IBitsPeerCacheAdministration::GetMaximumContentAge
@@ -105,11 +97,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964272(v=VS.85).aspx">IBitsPeerCacheAdministration</a>
+<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964290(v=VS.85).aspx">IBitsPeerCacheAdministration::SetMaximumContentAge</a>
+<a href="https://msdn.microsoft.com/815d9e48-f1f0-4c40-a277-d78db9d6ace1">IBitsPeerCacheAdministration::SetMaximumContentAge</a>
  
 
  

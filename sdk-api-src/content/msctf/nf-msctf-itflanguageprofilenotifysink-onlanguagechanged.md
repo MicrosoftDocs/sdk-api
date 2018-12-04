@@ -7,7 +7,7 @@ old-location: tsf\itflanguageprofilenotifysink_onlanguagechanged.htm
 tech.root: TSF
 ms.assetid: 505b3353-90cc-4b78-90af-b0151abc703f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfLanguageProfileNotifySink interface [Text Services Framework],OnLanguageChanged method, ITfLanguageProfileNotifySink.OnLanguageChanged, ITfLanguageProfileNotifySink::OnLanguageChanged, OnLanguageChanged, OnLanguageChanged method [Text Services Framework], OnLanguageChanged method [Text Services Framework],ITfLanguageProfileNotifySink interface, _tsf_itflanguageprofilenotifysink_onlanguagechanged_ref, msctf/ITfLanguageProfileNotifySink::OnLanguageChanged, tsf.itflanguageprofilenotifysink_onlanguagechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfLanguageProfileNotifySink.OnLanguageChanged
-: 
 ---
 
 # ITfLanguageProfileNotifySink::OnLanguageChanged

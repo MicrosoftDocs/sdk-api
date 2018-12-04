@@ -7,7 +7,7 @@ old-location: tablet\destroyalternate.htm
 tech.root: tablet
 ms.assetid: d355d377-2021-4e74-b3bb-2058271c9be9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DestroyAlternate, DestroyAlternate function [Tablet PC], d355d377-2021-4e74-b3bb-2058271c9be9, recapis/DestroyAlternate, tablet.destroyalternate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DestroyAlternate
-: 
 ---
 
 # DestroyAlternate function

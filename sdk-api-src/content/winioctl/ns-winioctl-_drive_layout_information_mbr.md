@@ -7,7 +7,7 @@ old-location: fs\drive_layout_information_mbr_str.htm
 tech.root: fileio
 ms.assetid: 71c361fe-8c85-4915-9776-8ad3f5837e11
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR structure [Files], PDRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Files], _DRIVE_LAYOUT_INFORMATION_MBR, _win32_drive_layout_information_mbr_str, base.drive_layout_information_mbr_str, fs.drive_layout_information_mbr_str, winioctl/DRIVE_LAYOUT_INFORMATION_MBR, winioctl/PDRIVE_LAYOUT_INFORMATION_MBR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

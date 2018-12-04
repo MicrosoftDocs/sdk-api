@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_ownersid.htm
 tech.root: cossdk
 ms.assetid: ab914aa3-04fc-424e-b799-c6268c014080
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEventSubscription interface [COM+],OwnerSID property, IEventSubscription.OwnerSID, IEventSubscription.put_OwnerSID, IEventSubscription::OwnerSID, IEventSubscription::get_OwnerSID, IEventSubscription::put_OwnerSID, OwnerSID property [COM+], OwnerSID property [COM+],IEventSubscription interface, cos.ieventsubscription_ownersid, eventsys/IEventSubscription::OwnerSID, eventsys/IEventSubscription::get_OwnerSID, eventsys/IEventSubscription::put_OwnerSID, put_OwnerSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- eventsys.h
-: 
-- IEventSubscription.put_OwnerSID
-: 
 ---
 
 # IEventSubscription::put_OwnerSID

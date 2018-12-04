@@ -4,10 +4,10 @@ title: ITriggerCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets the collection enumerator for the trigger collection.
 old-location: taskschd\itriggercollection__newenum.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: a5df593a-8771-4a96-a9dd-abd4e3f1721f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],_NewEnum property, ITriggerCollection._NewEnum, ITriggerCollection.get__NewEnum, ITriggerCollection::_NewEnum, ITriggerCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITriggerCollection interface, get__NewEnum, taskschd.itriggercollection__newenum, taskschd/ITriggerCollection::_NewEnum, taskschd/ITriggerCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITriggerCollection.get__NewEnum
-: 
 ---
 
 # ITriggerCollection::get__NewEnum

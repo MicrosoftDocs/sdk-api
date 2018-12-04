@@ -4,10 +4,10 @@ title: IUPnPEventSource::Advise
 author: windows-sdk-content
 description: The Advise method is invoked by the device host to begin receiving events from the hosted service.
 old-location: upnp\iupnpeventsource_advise.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: ec68f4ff-7549-4d48-b347-0320bc55329c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Advise, Advise method [UPnP APIs], Advise method [UPnP APIs],IUPnPEventSource interface, IUPnPEventSource interface [UPnP APIs],Advise method, IUPnPEventSource.Advise, IUPnPEventSource::Advise, _upnp_iupnpeventsource_advise, upnp.iupnpeventsource_advise, upnphost/IUPnPEventSource::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnphost.h
-: 
-- IUPnPEventSource.Advise
-: 
 ---
 
 # IUPnPEventSource::Advise
@@ -59,7 +51,7 @@ req.redist:
 
 
 The 
-<b>Advise</b> method is invoked by the device host to begin receiving events from the hosted service. The device host passes a pointer to its <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. The hosted service must query this <b>IUnknown</b> interface for the 
+<b>Advise</b> method is invoked by the device host to begin receiving events from the hosted service. The device host passes a pointer to its <a href="_com_iunknown">IUnknown</a> interface. The hosted service must query this <b>IUnknown</b> interface for the 
 <a href="https://msdn.microsoft.com/431423c9-2873-422d-a28c-c4ef23109114">IUPnPEventSink</a> interface the service must use to send event notifications.
 
 

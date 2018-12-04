@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_get_expectedtableofcontents.htm
 tech.root: imapi
 ms.assetid: b414bdbc-0f49-4a00-9b25-fa738f5f880b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_ExpectedTableOfContents method, IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents, IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents, get_ExpectedTableOfContents, get_ExpectedTableOfContents method [IMAPI], get_ExpectedTableOfContents method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_expectedtableofcontents, imapi2/IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
-: 
 ---
 
 # IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents

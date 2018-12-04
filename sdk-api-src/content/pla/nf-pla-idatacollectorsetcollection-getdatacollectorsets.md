@@ -4,10 +4,10 @@ title: IDataCollectorSetCollection::GetDataCollectorSets
 author: windows-sdk-content
 description: Populates the data collector set collection.
 old-location: pla\idatacollectorsetcollection_getdatacollectorsets.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 190c96ad-6193-4f74-906f-180575e6e418
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetDataCollectorSets, GetDataCollectorSets method [PLA], GetDataCollectorSets method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],GetDataCollectorSets method, IDataCollectorSetCollection.GetDataCollectorSets, IDataCollectorSetCollection::GetDataCollectorSets, base.idatacollectorsetcollection_getdatacollectorsets, pla.idatacollectorsetcollection_getdatacollectorsets, pla/IDataCollectorSetCollection::GetDataCollectorSets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollectorSetCollection.GetDataCollectorSets
-: 
 ---
 
 # IDataCollectorSetCollection::GetDataCollectorSets

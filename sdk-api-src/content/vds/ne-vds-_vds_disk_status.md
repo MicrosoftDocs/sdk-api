@@ -4,10 +4,10 @@ title: "_VDS_DISK_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a disk.
 old-location: base\vds_disk_status.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 7691347d-49a6-4078-9c6c-af59a48af692
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VDS_DISK_STATUS, VDS_DISK_STATUS enumeration [VDS], VDS_DS_FAILED, VDS_DS_MISSING, VDS_DS_NOT_READY, VDS_DS_NO_MEDIA, VDS_DS_OFFLINE, VDS_DS_ONLINE, VDS_DS_UNKNOWN, _VDS_DISK_STATUS, base.vds_disk_status, vds/VDS_DISK_STATUS, vds/VDS_DS_FAILED, vds/VDS_DS_MISSING, vds/VDS_DS_NOT_READY, vds/VDS_DS_NO_MEDIA, vds/VDS_DS_OFFLINE, vds/VDS_DS_ONLINE, vds/VDS_DS_UNKNOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MsiDatabaseExportW function
 author: windows-sdk-content
 description: The MsiDatabaseExport function exports a Microsoft Installer table from an open database to a Text Archive File.
 old-location: setup\msidatabaseexport.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: c20c168d-900e-496a-894c-5678f308cdbe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MsiDatabaseExport, MsiDatabaseExport function, MsiDatabaseExportA, MsiDatabaseExportW, _msi_msidatabaseexport, msiquery/MsiDatabaseExport, msiquery/MsiDatabaseExportA, msiquery/MsiDatabaseExportW, setup.msidatabaseexport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiDatabaseExportW
-: 
 ---
 
 # MsiDatabaseExportW function
@@ -182,7 +176,7 @@ If the function fails, you can get extended error information by using <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Database Management Functions</a>
+<a href="database_functions.htm">Database Management Functions</a>
 
 
 

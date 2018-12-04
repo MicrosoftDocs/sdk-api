@@ -4,10 +4,10 @@ title: ITQOSEvent::get_MediaType
 author: windows-sdk-content
 description: The get_MediaType method gets the media type indicator.
 old-location: tapi3\itqosevent_get_mediatype.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 0f062eea-386d-4f25-8d51-88adbce1aefe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITQOSEvent interface [TAPI 2.2],get_MediaType method, ITQOSEvent.get_MediaType, ITQOSEvent::get_MediaType, _tapi3_itqosevent_get_mediatype, get_MediaType, get_MediaType method [TAPI 2.2], get_MediaType method [TAPI 2.2],ITQOSEvent interface, tapi3.itqosevent_get_mediatype, tapi3if/ITQOSEvent::get_MediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITQOSEvent.get_MediaType
-: 
 ---
 
 # ITQOSEvent::get_MediaType

@@ -7,7 +7,7 @@ old-location: termserv\iaudiodeviceendpoint_geteventdrivencapable.htm
 tech.root: termserv
 ms.assetid: 56ed44ee-44dd-4a56-a4cc-2983d4802773
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetEventDrivenCapable, GetEventDrivenCapable method [Remote Desktop Services], GetEventDrivenCapable method [Remote Desktop Services],IAudioDeviceEndpoint interface, IAudioDeviceEndpoint interface [Remote Desktop Services],GetEventDrivenCapable method, IAudioDeviceEndpoint.GetEventDrivenCapable, IAudioDeviceEndpoint::GetEventDrivenCapable, audioengineendpoint/IAudioDeviceEndpoint::GetEventDrivenCapable, termserv.iaudiodeviceendpoint_geteventdrivencapable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- audioengineendpoint.h
-: 
-- IAudioDeviceEndpoint.GetEventDrivenCapable
-: 
 ---
 
 # IAudioDeviceEndpoint::GetEventDrivenCapable
@@ -66,14 +58,7 @@ The <b>GetEventDrivenCapable</b> method indicates whether the device endpoint is
 
 
 
-### -param pbisEventCapable
-
-TBD
-
-
-
-
-#### - pbIsEventCapable [out]
+### -param pbisEventCapable [out]
 
 A value of <b>TRUE</b> indicates that the device endpoint is event driven. A value of <b>FALSE</b> indicates that it is not event driven. If the endpoint device is event driven, the audio engine can receive events from an audio device endpoint.
 

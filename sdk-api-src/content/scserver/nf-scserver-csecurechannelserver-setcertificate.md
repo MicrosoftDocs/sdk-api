@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_setcertificate.htm
 tech.root: WMDM
 ms.assetid: 9f12e32c-4904-4591-bc6e-38f507b0dcf6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],SetCertificate method, CSecureChannelServer.SetCertificate, CSecureChannelServer::SetCertificate, CSecureChannelServerSetCertificate, SetCertificate, SetCertificate method [windows Media Device Manager], SetCertificate method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::SetCertificate, wmdm.csecurechannelserver_setcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- scserver.h
-: 
-- CSecureChannelServer.SetCertificate
-: 
 ---
 
 # CSecureChannelServer::SetCertificate

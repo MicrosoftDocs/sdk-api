@@ -60,7 +60,7 @@ The CS_RESOURCE structure is used for specifying a resource list that describes 
 
 ### -field CS_Header
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ff540226(v=VS.85).aspx">CS_DES</a> structure.
+A <a href="https://msdn.microsoft.com/16b47fe9-cb84-453d-b515-bfdba254f947">CS_DES</a> structure.
 
 
 ## -see-also
@@ -68,7 +68,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Ff540226(v=VS.85).aspx">CS_D
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff540226(v=VS.85).aspx">CS_DES</a>
+<a href="https://msdn.microsoft.com/16b47fe9-cb84-453d-b515-bfdba254f947">CS_DES</a>
  
 
  

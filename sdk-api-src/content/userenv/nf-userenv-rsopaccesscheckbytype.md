@@ -4,10 +4,10 @@ title: RsopAccessCheckByType function
 author: windows-sdk-content
 description: The RSoPAccessCheckByType function determines whether a security descriptor grants a specified set of access rights to the client identified by an RSOPTOKEN.
 old-location: policy\rsopaccesscheckbytype.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: d63734a0-1a88-4669-828e-de467606fc14
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RSoPAccessCheckByType, RSoPAccessCheckByType function [Group Policy], RsopAccessCheckByType, _win32_rsopaccesscheckbytype, policy.rsopaccesscheckbytype, userenv/RSoPAccessCheckByType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RsopAccessCheckByType
-: 
 ---
 
 # RsopAccessCheckByType function
@@ -74,7 +68,7 @@ Pointer to a
 ### -param pPrincipalSelfSid [in]
 
 Pointer to a SID. If the security descriptor is associated with an object that represents a principal (for example, a user object), this parameter should be the SID of the object. When evaluating access, this SID logically replaces the SID in any ACE containing the well-known <b>PRINCIPAL_SELF</b> SID ("S-1-5-10"). For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379571(v=VS.85).aspx">Security Identifiers</a> and 
+<a href="security.security_identifiers_sids_">Security Identifiers</a> and 
 <a href="https://msdn.microsoft.com/eb2f95c4-9465-409b-b76c-9ccae1d05eda">Well-Known SIDs</a>.
 
 This parameter should be <b>NULL</b> if the protected object does not represent a principal.

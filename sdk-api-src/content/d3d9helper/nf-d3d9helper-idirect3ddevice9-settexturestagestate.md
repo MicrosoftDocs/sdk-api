@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__settexturestagestate.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__settexturestagestate.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetTextureStageState method, IDirect3DDevice9.SetTextureStageState, IDirect3DDevice9::SetTextureStageState, SetTextureStageState, SetTextureStageState method [Direct3D 9], SetTextureStageState method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetTextureStageState, d527a1a7-ab83-8b59-b7eb-084188448dc6, direct3d9.idirect3ddevice9__settexturestagestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d9helper.h
-: 
-- IDirect3DDevice9.SetTextureStageState
-: 
 ---
 
 # IDirect3DDevice9::SetTextureStageState
@@ -76,9 +68,9 @@ Stage identifier of the texture for which the state value is set. Stage identifi
 
 ### -param Type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172617(v=VS.85).aspx">D3DTEXTURESTAGESTATETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/87a5a1bb-e748-4c72-8320-ea82250dcc0e">D3DTEXTURESTAGESTATETYPE</a></b>
 
-Texture state to set. This parameter can be any member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172617(v=VS.85).aspx">D3DTEXTURESTAGESTATETYPE</a> enumerated type. 
+Texture state to set. This parameter can be any member of the <a href="https://msdn.microsoft.com/87a5a1bb-e748-4c72-8320-ea82250dcc0e">D3DTEXTURESTAGESTATETYPE</a> enumerated type. 
 
 
 ### -param Value [in]
@@ -92,7 +84,7 @@ State value to set. The meaning of this value is determined by the Type paramete
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -104,19 +96,19 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174412(v=VS.85).aspx">IDirect3DDevice9::GetTexture</a>
+<a href="https://msdn.microsoft.com/f472de6f-6c46-4424-95e5-62164afaf026">IDirect3DDevice9::GetTexture</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174413(v=VS.85).aspx">IDirect3DDevice9::GetTextureStageState</a>
+<a href="https://msdn.microsoft.com/8ecc2019-16f9-4c32-9ecb-33c2b85108dc">IDirect3DDevice9::GetTextureStageState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174461(v=VS.85).aspx">IDirect3DDevice9::SetTexture</a>
+<a href="https://msdn.microsoft.com/ec62aeee-037f-4c33-b242-e0483872016c">IDirect3DDevice9::SetTexture</a>
  
 
  

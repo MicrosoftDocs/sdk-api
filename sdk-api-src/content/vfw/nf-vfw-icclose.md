@@ -7,7 +7,7 @@ old-location: multimedia\icclose.htm
 tech.root: Multimedia
 ms.assetid: 9a376412-5c16-44d5-b976-0cf1f766f72a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ICClose, ICClose function [Windows Multimedia], _win32_ICClose, multimedia.icclose, vfw/ICClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ICClose
-: 
 ---
 
 # ICClose function

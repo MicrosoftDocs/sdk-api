@@ -4,10 +4,10 @@ title: CryptXmlDllGetAlgorithmInfo
 author: windows-sdk-content
 description: Decodes the XML algorithm and returns information about the algorithm.
 old-location: security\cryptxmldllgetalgorithminfo.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 36af2809-0dbb-4024-926c-7054b734e97c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptXmlDllGetAlgorithmInfo, CryptXmlDllGetAlgorithmInfo callback, CryptXmlDllGetAlgorithmInfo callback function [Security], cryptxml/CryptXmlDllGetAlgorithmInfo, security.cryptxmldllgetalgorithminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

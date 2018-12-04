@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_ExpandToEnclosingUnitConPat.htm
 tech.root: WinAuto
 ms.assetid: a95a4e34-d3b3-4aa0-a21e-9788874dcf9b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: TextRange_ExpandToEnclosingUnit, TextRange_ExpandToEnclosingUnit function [Windows Accessibility], uiauto.uiauto_TextRange_ExpandToEnclosingUnitConPat, uiauto_TextRange_ExpandToEnclosingUnitConPat, uiautomationcoreapi/TextRange_ExpandToEnclosingUnit, winauto.uiauto_TextRange_ExpandToEnclosingUnitConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TextRange_ExpandToEnclosingUnit
-: 
 ---
 
 # TextRange_ExpandToEnclosingUnit function

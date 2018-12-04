@@ -7,7 +7,7 @@ old-location: shell\ISearchFolderItemFactory_SetFolderLogicalViewMode.htm
 tech.root: shell
 ms.assetid: ef72f196-cfd5-4547-85cb-0ccfdc496c46
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetFolderLogicalViewMode method, ISearchFolderItemFactory.SetFolderLogicalViewMode, ISearchFolderItemFactory::SetFolderLogicalViewMode, SetFolderLogicalViewMode, SetFolderLogicalViewMode method [Windows Shell], SetFolderLogicalViewMode method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetFolderLogicalViewMode, shell.ISearchFolderItemFactory_SetFolderLogicalViewMode, shobjidl_core/ISearchFolderItemFactory::SetFolderLogicalViewMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- ISearchFolderItemFactory.SetFolderLogicalViewMode
-: 
 ---
 
 # ISearchFolderItemFactory::SetFolderLogicalViewMode

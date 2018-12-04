@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataclient_getspatialaudiometadataitems
 tech.root: CoreAudio
 ms.assetid: 63D23390-222C-4F7E-AF8A-B49C85DFB222
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetSpatialAudioMetadataItemsBufferLength, GetSpatialAudioMetadataItemsBufferLength method [Core Audio], GetSpatialAudioMetadataItemsBufferLength method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],GetSpatialAudioMetadataItemsBufferLength method, ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength, ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength, coreaudio.ispatialaudiometadataclient_getspatialaudiometadataitemsbufferlength, spatialaudiometadata/ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- spatialaudiometadata.h
-: 
-- ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength
-: 
 ---
 
 # ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength

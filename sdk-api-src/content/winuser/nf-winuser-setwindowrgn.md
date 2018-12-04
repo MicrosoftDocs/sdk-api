@@ -7,7 +7,7 @@ old-location: gdi\setwindowrgn.htm
 tech.root: gdi
 ms.assetid: 06209d0c-14f9-45ec-ae2c-9cc596b5bbaa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SetWindowRgn, SetWindowRgn function [Windows GDI], _win32_SetWindowRgn, gdi.setwindowrgn, winuser/SetWindowRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetWindowRgn
-: 
 ---
 
 # SetWindowRgn function
@@ -101,11 +95,11 @@ If the function fails, the return value is zero.
 
 
 
-When this function is called, the system sends the <a href="https://msdn.microsoft.com/en-us/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a> and <b>WM_WINDOWPOSCHANGING</b> messages to the window.
+When this function is called, the system sends the <a href="_win32_wm_windowposchanging_cpp">WM_WINDOWPOSCHANGING</a> and <b>WM_WINDOWPOSCHANGING</b> messages to the window.
 
 The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.
 
-<div class="alert"><b>Note</b>  If the window layout is right-to-left (RTL), the coordinates are relative to the upper-right corner of the window. See <a href="https://msdn.microsoft.com/library/ms632599(v=VS.85).aspx">Window Layout and Mirroring</a>.</div>
+<div class="alert"><b>Note</b>  If the window layout is right-to-left (RTL), the coordinates are relative to the upper-right corner of the window. See <a href="_win32_Window_Features">Window Layout and Mirroring</a>.</div>
 <div> </div>
 After a successful call to <b>SetWindowRgn</b>, the system owns the region specified by the region handle <i>hRgn</i>. The system does not make a copy of the region. Thus, you should not make any further function calls with this region handle. In particular, do not delete this region handle. The system deletes the region handle when it no longer needed.
 
@@ -131,7 +125,7 @@ To obtain the window region of a window, call the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a>
+<a href="_win32_wm_windowposchanging_cpp">WM_WINDOWPOSCHANGING</a>
  
 
  

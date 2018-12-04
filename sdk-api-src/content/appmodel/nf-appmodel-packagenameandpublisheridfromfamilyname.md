@@ -7,7 +7,7 @@ old-location: appxpkg\packagenameandpublisheridfromfamilyname.htm
 tech.root: appxpkg
 ms.assetid: 4AA5BD75-F865-40D6-9C10-E54C197D47C4
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: PackageNameAndPublisherIdFromFamilyName, PackageNameAndPublisherIdFromFamilyName function [App packaging and management], appmodel/PackageNameAndPublisherIdFromFamilyName, appxpkg.packagenameandpublisheridfromfamilyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PackageNameAndPublisherIdFromFamilyName
-: 
 ---
 
 # PackageNameAndPublisherIdFromFamilyName function

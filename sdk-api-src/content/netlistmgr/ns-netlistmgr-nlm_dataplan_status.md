@@ -4,10 +4,10 @@ title: NLM_DATAPLAN_STATUS
 author: windows-sdk-content
 description: NLM_DATAPLAN_STATUS structure stores the current data plan status information supplied by the carrier.
 old-location: nla\nlm_dataplan_status.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 49774150-FD7E-4541-95DF-C848247A6A9C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NLM_DATAPLAN_STATUS, NLM_DATAPLAN_STATUS structure [Network Awareness], PNLM_DATAPLAN_STATUS, PNLM_DATAPLAN_STATUS structure pointer [Network Awareness], netlistmgr/NLM_DATAPLAN_STATUS, netlistmgr/PNLM_DATAPLAN_STATUS, nla.nlm_dataplan_status
 ms.prod: windows-hardware
 ms.technology: windows-devices

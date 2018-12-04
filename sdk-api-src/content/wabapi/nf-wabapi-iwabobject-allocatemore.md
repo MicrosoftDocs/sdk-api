@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject_AllocateMore.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\allocatemore.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/28/2018
 ms.keywords: AllocateMore, AllocateMore method [Windows Address Book], AllocateMore method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],AllocateMore method, IWABObject.AllocateMore, IWABObject::AllocateMore, _wab_IWABObject_AllocateMore, wab._wab_IWABObject_AllocateMore, wabapi/IWABObject::AllocateMore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wabapi.h
-: 
-- IWABObject.AllocateMore
-: 
 req.product: Internet Explorer 4.0
 ---
 

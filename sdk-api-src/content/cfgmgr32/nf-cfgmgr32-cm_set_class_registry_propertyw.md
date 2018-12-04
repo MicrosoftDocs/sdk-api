@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Set_Class_Registry_PropertyW
-: 
 ---
 
 # CM_Set_Class_Registry_PropertyW function
@@ -96,7 +90,7 @@ Reserved for internal use only. Must be set to zero.
 
 ### -param hMachine [in, optional]
 
-A handle to a remote machine on which to set the specified <a href="https://msdn.microsoft.com/library/Ff537744(v=VS.85).aspx">device setup class property</a>. This parameter is optional. If set to <b>NULL</b>, the property is set on the local machine.
+A handle to a remote machine on which to set the specified <a href="devinst.accessing_device_setup_class_properties">device setup class property</a>. This parameter is optional. If set to <b>NULL</b>, the property is set on the local machine.
 
 
 ## -returns

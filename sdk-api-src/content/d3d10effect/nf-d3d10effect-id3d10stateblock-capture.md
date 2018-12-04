@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10stateblock_capture.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10stateblock_capture.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 9484ba4e-87ec-bd46-89ed-f4dc19c3d6e2, Capture, Capture method [Direct3D 10], Capture method [Direct3D 10],ID3D10StateBlock interface, ID3D10StateBlock interface [Direct3D 10],Capture method, ID3D10StateBlock.Capture, ID3D10StateBlock::Capture, d3d10effect/ID3D10StateBlock::Capture, direct3d10.id3d10stateblock_capture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10effect.h
-: 
-- ID3D10StateBlock.Capture
-: 
 ---
 
 # ID3D10StateBlock::Capture
@@ -73,9 +65,9 @@ Capture the current value of states that are included in a stateblock.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -94,7 +86,7 @@ Capture captures current values for states within an existing state block. It do
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173856(v=VS.85).aspx">ID3D10StateBlock Interface</a>
+<a href="https://msdn.microsoft.com/3705e8e6-f25f-4943-8c41-09fa6de02932">ID3D10StateBlock Interface</a>
  
 
  

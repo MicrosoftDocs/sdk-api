@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmLayerGetById0
-: 
 ---
 
 # FwpmLayerGetById0 function

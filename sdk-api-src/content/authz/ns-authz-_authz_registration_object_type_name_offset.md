@@ -4,10 +4,10 @@ title: "_AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET"
 author: windows-sdk-content
 description: Specifies the offset of a registration object type name.
 old-location: security\authz_registration_object_type_name_offset.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 2ec39edc-7819-41a5-8798-dc51c00ba85e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET structure [Security], PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET structure pointer [Security], _AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, authz/AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, authz/PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, security.authz_registration_object_type_name_offset"
 ms.prod: windows-hardware
 ms.technology: windows-devices

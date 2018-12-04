@@ -7,7 +7,7 @@ old-location: appxpkg\appx_compression_option.htm
 tech.root: appxpkg
 ms.assetid: C4FEE4DA-1097-4870-BB43-A910E20BCBD6
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: APPX_COMPRESSION_OPTION, APPX_COMPRESSION_OPTION enumeration [App packaging and management], APPX_COMPRESSION_OPTION_FAST, APPX_COMPRESSION_OPTION_MAXIMUM, APPX_COMPRESSION_OPTION_NONE, APPX_COMPRESSION_OPTION_NORMAL, APPX_COMPRESSION_OPTION_SUPERFAST, appxpackaging/APPX_COMPRESSION_OPTION, appxpackaging/APPX_COMPRESSION_OPTION_FAST, appxpackaging/APPX_COMPRESSION_OPTION_MAXIMUM, appxpackaging/APPX_COMPRESSION_OPTION_NONE, appxpackaging/APPX_COMPRESSION_OPTION_NORMAL, appxpackaging/APPX_COMPRESSION_OPTION_SUPERFAST, appxpkg.appx_compression_option
 ms.prod: windows-hardware
 ms.technology: windows-devices

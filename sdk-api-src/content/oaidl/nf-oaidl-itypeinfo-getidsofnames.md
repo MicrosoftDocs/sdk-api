@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- oaidl.h
-: 
-- ITypeInfo.GetIDsOfNames
-: 
 ---
 
 # ITypeInfo::GetIDsOfNames

@@ -4,10 +4,10 @@ title: WSManPluginReportContext function
 author: windows-sdk-content
 description: Reports shell and command context back to the Windows Remote Management (WinRM) infrastructure so that further operations can be performed against the shell and/or command.
 old-location: winrm\wsmanpluginreportcontext.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 8bdfeabf-1028-4ddb-8953-455bbc2a1a1e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WSManPluginReportContext, WSManPluginReportContext function [Windows Remote Management], winrm.wsmanpluginreportcontext, wsman/WSManPluginReportContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
-- apiref
-: 
-- 
-: 
-- WSManPluginReportContext
-: 
 ---
 
 # WSManPluginReportContext function

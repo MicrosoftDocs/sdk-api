@@ -4,10 +4,10 @@ title: IADsServiceOperations::Stop
 author: windows-sdk-content
 description: The IADsServiceOperations::Stop method stops a currently active network service.
 old-location: adsi\iadsserviceoperations_stop.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 5e3b6c3e-0621-4760-8751-15f084b3aaa6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsServiceOperations interface [ADSI],Stop method, IADsServiceOperations.Stop, IADsServiceOperations::Stop, Stop, Stop method [ADSI], Stop method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_stop, adsi.iadsserviceoperations__stop, adsi.iadsserviceoperations_stop, iads/IADsServiceOperations::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsServiceOperations.Stop
-: 
 ---
 
 # IADsServiceOperations::Stop

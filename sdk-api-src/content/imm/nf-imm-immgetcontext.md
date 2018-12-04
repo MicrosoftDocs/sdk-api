@@ -7,7 +7,7 @@ old-location: intl\immgetcontext.htm
 tech.root: Intl
 ms.assetid: 2b7502ac-fa1e-4104-a7ad-051303131a73
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ImmGetContext, ImmGetContext function [Internationalization for Windows Applications], _win32_ImmGetContext, imm/ImmGetContext, intl.immgetcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ImmGetContext
-: 
 ---
 
 # ImmGetContext function

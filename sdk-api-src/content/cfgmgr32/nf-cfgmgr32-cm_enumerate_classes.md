@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Enumerate_Classes
-: 
 ---
 
 # CM_Enumerate_Classes function

@@ -7,7 +7,7 @@ old-location: tsf\SetInputScopes.htm
 tech.root: TSF
 ms.assetid: 28c0be9b-f42c-4ab1-a3af-9c591a5192dd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SetInputScopes, SetInputScopes function [Text Services Framework], inputscope/SetInputScopes, tsf.SetInputScopes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetInputScopes
-: 
 ---
 
 # SetInputScopes function

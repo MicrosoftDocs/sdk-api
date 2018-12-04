@@ -4,10 +4,10 @@ title: InternetSetStatusCallback function
 author: windows-sdk-content
 description: Sets up a callback function that WinINet functions can call as progress is made during an operation.
 old-location: wininet\internetsetstatuscallback.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: fe15627b-c77b-45c0-8ff6-02faa8512b57
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: InternetSetStatusCallback, InternetSetStatusCallback function [WinINet], _inet_internetsetstatuscallback_function, wininet.internetsetstatuscallback, wininet/InternetSetStatusCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetSetStatusCallback
-: 
 ---
 
 # InternetSetStatusCallback function

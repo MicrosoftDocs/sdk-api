@@ -4,10 +4,10 @@ title: EapHostPeerGetDataToUnplumbCredentials function
 author: windows-sdk-content
 description: Returns the Connection Id,User Impersonation Token and Eaphost Process Id used by EAPHost to save the credentials for SSO. This data is needed to unplumb previously plumbed credentials.
 old-location: eaphost\eaphostpeergetdatatounplumbcredentials.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: E0796AA8-594F-4B21-884D-BD2DD6E2549C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EapHostPeerGetDataToUnplumbCredentials, EapHostPeerGetDataToUnplumbCredentials function [EAPHost], eaphost.eaphostpeergetdatatounplumbcredentials, eappapis/EapHostPeerGetDataToUnplumbCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapHostPeerGetDataToUnplumbCredentials
-: 
 ---
 
 # EapHostPeerGetDataToUnplumbCredentials function

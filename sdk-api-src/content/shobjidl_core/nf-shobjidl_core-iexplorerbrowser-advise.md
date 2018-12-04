@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowser_Advise.htm
 tech.root: shell
 ms.assetid: b77f9c41-248e-4f16-a9ff-6ff5437df11c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],Advise method, IExplorerBrowser.Advise, IExplorerBrowser::Advise, _shell_IExplorerBrowser_Advise, shell.IExplorerBrowser_Advise, shobjidl_core/IExplorerBrowser::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IExplorerBrowser.Advise
-: 
 ---
 
 # IExplorerBrowser::Advise

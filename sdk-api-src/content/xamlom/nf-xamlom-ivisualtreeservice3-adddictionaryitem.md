@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice3_adddictionaryitem.htm
 tech.root: xaml_diagnostics
 ms.assetid: 86590A71-8BFC-4214-9F7C-1DF5B8391552
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddDictionaryItem, AddDictionaryItem method, AddDictionaryItem method,IVisualTreeService3 interface, IVisualTreeService3 interface,AddDictionaryItem method, IVisualTreeService3.AddDictionaryItem, IVisualTreeService3::AddDictionaryItem, xaml_diagnostics.ivisualtreeservice3_adddictionaryitem, xamlom/IVisualTreeService3::AddDictionaryItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xamlom.h
-: 
-- IVisualTreeService3.AddDictionaryItem
-: 
 ---
 
 # IVisualTreeService3::AddDictionaryItem

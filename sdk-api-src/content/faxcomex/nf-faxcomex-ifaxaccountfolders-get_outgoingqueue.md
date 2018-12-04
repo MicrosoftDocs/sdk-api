@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxAccountFolders.get_OutgoingQueue
-: 
 ---
 
 # IFaxAccountFolders::get_OutgoingQueue

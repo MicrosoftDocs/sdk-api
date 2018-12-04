@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediatypefromrepresentation.htm
 tech.root: medfound
 ms.assetid: 5d85c47e-2e40-45f2-8f17-52f642652112
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 5d85c47e-2e40-45f2-8f17-52f642652112, MFCreateMediaTypeFromRepresentation, MFCreateMediaTypeFromRepresentation function [Media Foundation], mf.mfcreatemediatypefromrepresentation, mfapi/MFCreateMediaTypeFromRepresentation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateMediaTypeFromRepresentation
-: 
 ---
 
 # MFCreateMediaTypeFromRepresentation function

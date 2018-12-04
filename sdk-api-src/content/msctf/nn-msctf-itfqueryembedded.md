@@ -7,7 +7,7 @@ old-location: tsf\itfqueryembedded.htm
 tech.root: TSF
 ms.assetid: 6e2c3ad5-73c6-481f-9ade-58782e12dfbd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITfQueryEmbedded, ITfQueryEmbedded interface [Text Services Framework], ITfQueryEmbedded interface [Text Services Framework],described, _tsf_itfqueryembedded_ref, msctf/ITfQueryEmbedded, tsf.itfqueryembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,23 +95,27 @@ To obtain an instance of this interface, call the <b>ITfContext::QueryInterface<
 
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfQueryEmbedded *pQueryEmbedded;
 
-hr = pContext->QueryInterface(IID_ITfQueryEmbedded, (LPVOID*)&pQueryEmbedded);
+hr = pContext-&gt;QueryInterface(IID_ITfQueryEmbedded, (LPVOID*)&amp;pQueryEmbedded);
 if(SUCCEEDED(hr))
 {
     //Use the ITfQueryEmbedded interface. 
     
-    pQueryEmbedded->Release();
+    pQueryEmbedded-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -125,7 +129,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

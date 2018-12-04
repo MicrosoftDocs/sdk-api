@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_AddRequestParameter.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\addrequestparameter.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddRequestParameter, AddRequestParameter method [search], AddRequestParameter method [search],IUrlAccessor interface, IUrlAccessor interface [search],AddRequestParameter method, IUrlAccessor.AddRequestParameter, IUrlAccessor::AddRequestParameter, _search_IUrlAccessor_AddRequestParameter, search._search_IUrlAccessor_AddRequestParameter, searchapi/IUrlAccessor::AddRequestParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- COM
-: 
-- searchapi.h
-: 
-- IUrlAccessor.AddRequestParameter
-: 
 ---
 
 # IUrlAccessor::AddRequestParameter
@@ -69,17 +61,17 @@ Requests a property-value set.
 
 ### -param pSpec [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PROPSPEC</a>*</b>
+Type: <b><a href="_stg_propspec">PROPSPEC</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PROPSPEC</a> structure containing the requested property.
+Pointer to a <a href="_stg_propspec">PROPSPEC</a> structure containing the requested property.
                 
 
 
 ### -param pVar [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> structure containing the value for the property specified by <i>pSpec</i>.
+Pointer to a <a href="_stg_propvariant">PROPVARIANT</a> structure containing the value for the property specified by <i>pSpec</i>.
                 
 
 

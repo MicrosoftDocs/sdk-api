@@ -4,10 +4,10 @@ title: "_EapSimCredential"
 author: windows-sdk-content
 description: Contains information about the SIM that is used by the EAP method for authentication.
 old-location: eaphost\eapsimcredential.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 483BF257-BB9F-4AF6-A55C-77277AC6E21F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EapSimCredential, EapSimCredential structure [EAPHost], _EapSimCredential, eaphost.eapsimcredential, eaptypes/EAPSimCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

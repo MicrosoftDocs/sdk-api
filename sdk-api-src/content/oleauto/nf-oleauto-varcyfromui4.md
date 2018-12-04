@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarCyFromUI4
-: 
 ---
 
 # VarCyFromUI4 function

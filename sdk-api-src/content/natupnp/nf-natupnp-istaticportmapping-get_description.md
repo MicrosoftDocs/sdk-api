@@ -4,10 +4,10 @@ title: IStaticPortMapping::get_Description
 author: windows-sdk-content
 description: The get_Description method retrieves the description associated with this port mapping.
 old-location: ics\istaticportmapping_get_description.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 2b25fdff-8ad1-470f-bfd1-758f0bf8ea1f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_Description method, IStaticPortMapping.get_Description, IStaticPortMapping::get_Description, _ics_istaticportmapping_get_description, get_Description, get_Description method [ICS/ICF], get_Description method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_description, natupnp/IStaticPortMapping::get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- natupnp.h
-: 
-- IStaticPortMapping.get_Description
-: 
 ---
 
 # IStaticPortMapping::get_Description
@@ -70,7 +62,7 @@ The
 ### -param pVal [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> variable that, on successful return, receives the description associated with this port mapping.
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that, on successful return, receives the description associated with this port mapping.
 
 
 ## -returns

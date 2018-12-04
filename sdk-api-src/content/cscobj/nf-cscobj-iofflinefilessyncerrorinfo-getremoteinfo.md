@@ -4,10 +4,10 @@ title: IOfflineFilesSyncErrorInfo::GetRemoteInfo
 author: windows-sdk-content
 description: Retrieves an instance of the IOfflineFilesSyncErrorItemInfo interface containing the file times, size, and attributes of the remote copy of the item involved in the synchronization.
 old-location: of\iofflinefilessyncerrorinfo_getremoteinfo.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 8b036680-b74c-485f-adae-88e59fc5e84c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetRemoteInfo, GetRemoteInfo method [Offline Files], GetRemoteInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetRemoteInfo method, IOfflineFilesSyncErrorInfo.GetRemoteInfo, IOfflineFilesSyncErrorInfo::GetRemoteInfo, cscobj/IOfflineFilesSyncErrorInfo::GetRemoteInfo, of.iofflinefilessyncerrorinfo_getremoteinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesSyncErrorInfo.GetRemoteInfo
-: 
 ---
 
 # IOfflineFilesSyncErrorInfo::GetRemoteInfo
@@ -59,7 +51,7 @@ req.redist:
 ## -description
 
 
-Retrieves an instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb530633(v=VS.85).aspx">IOfflineFilesSyncErrorItemInfo</a> interface containing the file times, size, and attributes of the remote copy of the item involved in the synchronization.  
+Retrieves an instance of the <a href="https://msdn.microsoft.com/0af039a6-f0dd-4117-a174-38d32cfc0220">IOfflineFilesSyncErrorItemInfo</a> interface containing the file times, size, and attributes of the remote copy of the item involved in the synchronization.  
 
 
 ## -parameters
@@ -69,7 +61,7 @@ Retrieves an instance of the <a href="https://msdn.microsoft.com/en-us/library/B
 
 ### -param ppInfo [out]
 
-Receives the address of an instance of <a href="https://msdn.microsoft.com/en-us/library/Bb530633(v=VS.85).aspx">IOfflineFilesSyncErrorItemInfo</a> containing information about the remote item copy involved in the synchronization.
+Receives the address of an instance of <a href="https://msdn.microsoft.com/0af039a6-f0dd-4117-a174-38d32cfc0220">IOfflineFilesSyncErrorItemInfo</a> containing information about the remote item copy involved in the synchronization.
 
 
 ## -returns
@@ -86,7 +78,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530625(v=VS.85).aspx">IOfflineFilesSyncErrorInfo</a>
+<a href="https://msdn.microsoft.com/df1dd351-eb18-46e6-b778-852f551adfd1">IOfflineFilesSyncErrorInfo</a>
  
 
  

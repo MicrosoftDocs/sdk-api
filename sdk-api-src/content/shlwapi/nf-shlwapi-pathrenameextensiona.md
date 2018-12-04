@@ -7,7 +7,7 @@ old-location: shell\PathRenameExtension.htm
 tech.root: shell
 ms.assetid: 3d94f67c-e3ee-4b64-b0b9-8f771423bdc5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: PathRenameExtension, PathRenameExtension function [Windows Shell], PathRenameExtensionA, PathRenameExtensionW, _win32_PathRenameExtension, shell.PathRenameExtension, shlwapi/PathRenameExtension, shlwapi/PathRenameExtensionA, shlwapi/PathRenameExtensionW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PathRenameExtensionA
-: 
 ---
 
 # PathRenameExtensionA function

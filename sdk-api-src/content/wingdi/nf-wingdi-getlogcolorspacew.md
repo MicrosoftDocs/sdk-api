@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetLogColorSpaceW
-: 
 ---
 
 # GetLogColorSpaceW function
@@ -60,7 +54,7 @@ req.redist:
 ## -description
 
 
-The <b>GetLogColorSpace</b> function retrieves the <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a> definition identified by a specified handle.
+The <b>GetLogColorSpace</b> function retrieves the <a href="c.htm">color space</a> definition identified by a specified handle.
 
 
 ## -parameters

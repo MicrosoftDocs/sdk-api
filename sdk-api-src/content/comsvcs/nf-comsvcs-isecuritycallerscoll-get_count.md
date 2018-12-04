@@ -7,7 +7,7 @@ old-location: cos\isecuritycallerscoll_get_count.htm
 tech.root: cossdk
 ms.assetid: 98a28194-c4d3-4c5f-b43a-4df73fcea7e4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISecurityCallersColl interface [COM+],get_Count method, ISecurityCallersColl.get_Count, ISecurityCallersColl::get_Count, _cos_ISecurityCallersColl_get_Count, comsvcs/ISecurityCallersColl::get_Count, cos.isecuritycallerscoll_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityCallersColl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- ISecurityCallersColl.get_Count
-: 
 ---
 
 # ISecurityCallersColl::get_Count

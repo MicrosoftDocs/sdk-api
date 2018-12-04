@@ -4,10 +4,10 @@ title: DNS_KEY_DATA
 author: windows-sdk-content
 description: The DNS_KEY_DATA structure represents a DNS key (KEY) resource record (RR) as specified in RFC 3445.
 old-location: dns\dns_key_data.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: d7d60322-4d06-4c57-b181-c6a38e09e1ef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PDNS_DNSKEY_DATA, *PDNS_KEY_DATA, 1, 2, 3, 4, 5, DNS_DNSKEY_DATA, DNS_DNSKEY_DATA structure [DNS], DNS_KEY_DATA, DNS_KEY_DATA structure [DNS], PDNS_DNSKEY_DATA, PDNS_DNSKEY_DATA structure pointer [DNS], PDNS_KEY_DATA, PDNS_KEY_DATA structure pointer [DNS], _dns_dns_key_data, dns.dns_key_data, windns/DNS_DNSKEY_DATA, windns/DNS_KEY_DATA, windns/PDNS_DNSKEY_DATA, windns/PDNS_KEY_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\icrmmonitor_holdclerk.htm
 tech.root: cossdk
 ms.assetid: 8e0f5197-d423-4b74-aaa1-2ec60e01d75c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: HoldClerk, HoldClerk method [COM+], HoldClerk method [COM+],ICrmMonitor interface, ICrmMonitor interface [COM+],HoldClerk method, ICrmMonitor.HoldClerk, ICrmMonitor::HoldClerk, _dtc_ICrmMonitor_HoldClerk, comsvcs/ICrmMonitor::HoldClerk, cos.icrmmonitor_holdclerk
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- ICrmMonitor.HoldClerk
-: 
 ---
 
 # ICrmMonitor::HoldClerk
@@ -73,7 +65,7 @@ A <b>VARIANT</b> string containing the instance CLSID of the required CRM clerk.
 
 ### -param pItem [out]
 
-A <b>VARIANT</b> <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer returning the interface to the specified CRM clerk.
+A <b>VARIANT</b> <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer returning the interface to the specified CRM clerk.
 
 
 ## -returns
@@ -131,7 +123,7 @@ The specified CRM clerk was not found. It may have completed before it could be 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687684(v=VS.85).aspx">ICrmMonitor</a>
+<a href="https://msdn.microsoft.com/ead5f782-8512-4387-b8f3-7be960f35bbe">ICrmMonitor</a>
  
 
  

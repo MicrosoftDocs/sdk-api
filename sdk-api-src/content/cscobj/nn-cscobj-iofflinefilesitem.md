@@ -4,10 +4,10 @@ title: IOfflineFilesItem
 author: windows-sdk-content
 description: Represents a single item in the Offline Files cache.
 old-location: of\iofflinefilesitem.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 870cf4c4-e757-429d-b6cc-c136ed5aa10e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesItem, IOfflineFilesItem interface [Offline Files], IOfflineFilesItem interface [Offline Files],described, cscobj/IOfflineFilesItem, of.iofflinefilesitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,9 +56,9 @@ Represents a single item in the Offline Files cache. The item may be a server, s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesItem</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOfflineFilesItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesItem</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesItem</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IOfflineFilesItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530580(v=VS.85).aspx">GetItemType</a>
+<a href="https://msdn.microsoft.com/87fbf63a-d103-4c80-b6a7-60784c7350bc">GetItemType</a>
 </td>
 <td align="left" width="63%">
 Returns a type code identifying the type of the item; server, share, directory, or file.
@@ -80,7 +80,7 @@ Returns a type code identifying the type of the item; server, share, directory, 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530586(v=VS.85).aspx">GetParentItem</a>
+<a href="https://msdn.microsoft.com/4fa89807-cd0c-4868-bd65-a8a0a42dff7d">GetParentItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <b>IOfflineFilesItem</b> interface for the parent of the item.
@@ -89,7 +89,7 @@ Retrieves the <b>IOfflineFilesItem</b> interface for the parent of the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530587(v=VS.85).aspx">GetPath</a>
+<a href="https://msdn.microsoft.com/d1453c9c-e0e7-4451-bb42-58a627fa1db5">GetPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the fully qualified UNC path string for an item in the Offline Files cache.
@@ -98,7 +98,7 @@ Retrieves the fully qualified UNC path string for an item in the Offline Files c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530588(v=VS.85).aspx">IsMarkedForDeletion</a>
+<a href="https://msdn.microsoft.com/03c0fec4-d320-4c46-a07c-3ebbec61cc54">IsMarkedForDeletion</a>
 </td>
 <td align="left" width="63%">
 Determines whether an item has been deleted from the Offline Files cache.
@@ -107,7 +107,7 @@ Determines whether an item has been deleted from the Offline Files cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530589(v=VS.85).aspx">Refresh</a>
+<a href="https://msdn.microsoft.com/7b54d6fa-18b6-4ffb-98ce-4cbc44ed5b77">Refresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes any data cached in the object by rereading from the Offline Files cache.
@@ -122,7 +122,7 @@ Refreshes any data cached in the object by rereading from the Offline Files cach
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
  
 
  

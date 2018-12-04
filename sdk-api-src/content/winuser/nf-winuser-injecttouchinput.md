@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InjectTouchInput
-: 
 ---
 
 # InjectTouchInput function
@@ -140,7 +134,7 @@ All touch injection sequences end with either UPDATE or UP.
 
 The following diagram demonstrates a touch injection sequence that starts with a hover state, transitions to interactive, and concludes with hover. 
 
-<img alt="" src="./images/inputstates.png"/>
+<img alt="" src="images/inputstates.png"/>
 
 For press and hold gestures, multiple frames must be sent to ensure input is not cancelled. For a press and hold at point (x,y), send <a href="https://msdn.microsoft.com/3bdc37da-227c-4be1-bf0b-99704b8ac000">WM_POINTERDOWN</a> at point (x,y) followed by <a href="https://msdn.microsoft.com/3bdc37da-227c-4be1-bf0b-99704b8ac222">WM_POINTERUPDATE</a> messages at point(x,y). 
 
@@ -150,7 +144,7 @@ Cancel individual contacts by setting POINTER_FLAG_CANCELED with POINTER_FLAG_UP
 
 When POINTER_FLAG_UP is set, ptPixelLocation of <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c335fd102">POINTER_INFO</a> should be the same as the value of the previous touch injection frame with POINTER_FLAG_UPDATE. Otherwise, the injection fails with ERROR_INVALID_PARAMETER and all active injection contacts are cancelled. The system modifies the ptPixelLocation of the <a href="https://msdn.microsoft.com/3bdc38da-227c-4be1-bf0b-99704b8a0111">WM_POINTERUP</a> event as it cancels the injection. 
 
-The input timestamp can be specified in either the dwTime or PerformanceCount field of <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c335fd102">POINTER_INFO</a>. The value cannot be more recent than the current tick count or <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> value of the injection thread. Once a frame is injected with a timestamp, all subsequent frames must include a timestamp until all contacts in the frame go to the UP state. The custom timestamp value must be provided for the first element in the contacts array. The timestamp values after the first element are ignored. The custom timestamp value must increment in every injection frame.
+The input timestamp can be specified in either the dwTime or PerformanceCount field of <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c335fd102">POINTER_INFO</a>. The value cannot be more recent than the current tick count or <a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a> value of the injection thread. Once a frame is injected with a timestamp, all subsequent frames must include a timestamp until all contacts in the frame go to the UP state. The custom timestamp value must be provided for the first element in the contacts array. The timestamp values after the first element are ignored. The custom timestamp value must increment in every injection frame.
 
 
 

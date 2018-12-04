@@ -7,7 +7,7 @@ old-location: shell\ivirtualdesktopmanager_movewindowtodesktop.htm
 tech.root: shell
 ms.assetid: A8756361-E371-41C5-B3F5-BD99439878D9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IVirtualDesktopManager interface [Windows Shell],MoveWindowToDesktop method, IVirtualDesktopManager.MoveWindowToDesktop, IVirtualDesktopManager::MoveWindowToDesktop, MoveWindowToDesktop, MoveWindowToDesktop method [Windows Shell], MoveWindowToDesktop method [Windows Shell],IVirtualDesktopManager interface, shell.ivirtualdesktopmanager_movewindowtodesktop, shobjidl_core/IVirtualDesktopManager::MoveWindowToDesktop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IVirtualDesktopManager.MoveWindowToDesktop
-: 
 ---
 
 # IVirtualDesktopManager::MoveWindowToDesktop
@@ -73,7 +65,7 @@ The window to move.
 
 ### -param desktopId [in]
 
-The identifier of the virtual desktop to move the <i>topLeveLWindow</i> to. You can use <a href="https://msdn.microsoft.com/en-us/library/Mt186441(v=VS.85).aspx">GetWindowDesktopId</a> to get a window's identifier.
+The identifier of the virtual desktop to move the <i>topLeveLWindow</i> to. You can use <a href="https://msdn.microsoft.com/1A53C70F-6034-449D-832E-A563886F20E4">GetWindowDesktopId</a> to get a window's identifier.
 
 
 ## -returns

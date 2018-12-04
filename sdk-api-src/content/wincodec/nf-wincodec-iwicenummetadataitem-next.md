@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicenummetadataitem_next.htm
 tech.root: wic
 ms.assetid: e502f42e-573c-416b-9282-dd50827ef132
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWICEnumMetadataItem interface [Windows Imaging Component],Next method, IWICEnumMetadataItem.Next, IWICEnumMetadataItem::Next, Next, Next method [Windows Imaging Component], Next method [Windows Imaging Component],IWICEnumMetadataItem interface, _wic_codec_iwicenummetadataitem_next, wic._wic_codec_iwicenummetadataitem_next, wincodec/IWICEnumMetadataItem::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodec.h
-: 
-- IWICEnumMetadataItem.Next
-: 
 ---
 
 # IWICEnumMetadataItem::Next
@@ -75,21 +67,21 @@ The number of items to be retrieved.
 
 ### -param rgeltSchema [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 An array of enumerated items. This parameter is optional.
 
 
 ### -param rgeltId [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 An array of enumerated items.
 
 
 ### -param rgeltValue [in, out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 An array of enumerated items. This parameter is optional.
 

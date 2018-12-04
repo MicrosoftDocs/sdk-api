@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetInt16Elem.htm
 tech.root: properties
 ms.assetid: 1dbb6887-81c9-411d-9fce-c9e2f3479a43
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PropVariantGetInt16Elem, PropVariantGetInt16Elem function [Windows Properties], _shell_PropVariantGetInt16Elem, properties.PropVariantGetInt16Elem, propvarutil/PropVariantGetInt16Elem, shell.PropVariantGetInt16Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantGetInt16Elem
-: 
 ---
 
 # PropVariantGetInt16Elem function
@@ -108,12 +102,12 @@ This helper function works for <a href="https://msdn.microsoft.com/e86cc279-826d
 <li>VT_VECTOR | VT_I2</li>
 <li>VT_ARRAY | VT_I2</li>
 </ul>
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_I2, <i>iElem</i> must be 0. Otherwise, <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="https://msdn.microsoft.com/en-us/library/Bb776522(v=VS.85).aspx">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_I2, <i>iElem</i> must be 0. Otherwise, <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="shell.PropVariantGetElementCount">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776524(v=VS.85).aspx">PropVariantGetInt16Elem</a> with an iteration statement to access the values in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantGetInt16Elem">PropVariantGetInt16Elem</a> with an iteration statement to access the values in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -151,7 +145,7 @@ The following example, to be included as part of a larger program, demonstrates 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776521(v=VS.85).aspx">PropVariantGetElem</a>
+<a href="shell.PropVariantGetElem">PropVariantGetElem</a>
  
 
  

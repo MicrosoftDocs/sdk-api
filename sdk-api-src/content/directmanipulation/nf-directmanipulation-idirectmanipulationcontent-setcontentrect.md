@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- directmanipulation.h
-: 
-- IDirectManipulationContent.SetContentRect
-: 
 ---
 
 # IDirectManipulationContent::SetContentRect
@@ -85,7 +77,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-The default bounding rectangle is (-<a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>, -<a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>, <a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>, <a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>).
+The default bounding rectangle is (-<a href="_pluslang_Floating_Limits">FLT_MAX</a>, -<a href="_pluslang_Floating_Limits">FLT_MAX</a>, <a href="_pluslang_Floating_Limits">FLT_MAX</a>, <a href="_pluslang_Floating_Limits">FLT_MAX</a>).
 
 
 

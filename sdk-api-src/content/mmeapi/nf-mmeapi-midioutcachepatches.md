@@ -7,7 +7,7 @@ old-location: multimedia\midioutcachepatches.htm
 tech.root: Multimedia
 ms.assetid: 58d0c73b-46a4-498d-bcef-f5b8aaf52392
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_midiOutCachePatches, midiOutCachePatches, midiOutCachePatches function [Windows Multimedia], mmeapi/midiOutCachePatches, multimedia.midioutcachepatches"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- midiOutCachePatches
-: 
 ---
 
 # midiOutCachePatches function

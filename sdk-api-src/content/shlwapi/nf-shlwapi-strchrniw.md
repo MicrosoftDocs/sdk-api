@@ -7,7 +7,7 @@ old-location: shell\StrChrNIW.htm
 tech.root: shell
 ms.assetid: 01F2CC10-F59A-45dd-8A18-7DC33BDD717F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: StrChrNIW, StrChrNIW function [Windows Shell], shell.StrChrNIW, shlwapi/StrChrNIW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StrChrNIW
-: 
 ---
 
 # StrChrNIW function

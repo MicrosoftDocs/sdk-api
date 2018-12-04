@@ -4,10 +4,10 @@ title: IRootStorage
 author: windows-sdk-content
 description: The IRootStorage interface contains a single method that switches a storage object to a different underlying file and saves the storage object to that file.
 old-location: stg\irootstorage.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: cf92c62f-ef65-46b1-8f41-f2b31ff52044
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRootStorage, IRootStorage interface [Structured Storage], IRootStorage interface [Structured Storage],described, _stg_irootstorage, objidl/IRootStorage, stg.irootstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

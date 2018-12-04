@@ -4,10 +4,10 @@ title: RpcMgmtEpUnregister function
 author: windows-sdk-content
 description: The RpcMgmtEpUnregister function removes server address information from an endpoint map.
 old-location: rpc\rpcmgmtepunregister.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: b825a79d-7f9e-45f1-88d0-a3b733a7df78
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RpcMgmtEpUnregister, RpcMgmtEpUnregister function [RPC], _rpc_rpcmgmtepunregister, rpc.rpcmgmtepunregister, rpcdce/RpcMgmtEpUnregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcMgmtEpUnregister
-: 
 ---
 
 # RpcMgmtEpUnregister function

@@ -4,10 +4,10 @@ title: RtwqLockSharedWorkQueue function
 author: windows-sdk-content
 description: Obtains and locks a shared work queue.
 old-location: base\rtwqlocksharedworkqueue.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: ccebdbd8-fd3e-4e99-b1dd-1ec8e57cbff6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: RtwqLockSharedWorkQueue, RtwqLockSharedWorkQueue function, base.rtwqlocksharedworkqueue, rtworkq/RtwqLockSharedWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtwqLockSharedWorkQueue
-: 
 ---
 
 # RtwqLockSharedWorkQueue function

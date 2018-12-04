@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_setwhitepointrgb.htm
 tech.root: wic
 ms.assetid: 7059959f-dcd6-46a6-a95c-1dd9610f865c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetWhitePointRGB method, IWICDevelopRaw.SetWhitePointRGB, IWICDevelopRaw::SetWhitePointRGB, SetWhitePointRGB, SetWhitePointRGB method [Windows Imaging Component], SetWhitePointRGB method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setwhitepointrgb, wic._wic_codec_iwicdevelopraw_setwhitepointrgb, wincodec/IWICDevelopRaw::SetWhitePointRGB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodec.h
-: 
-- IWICDevelopRaw.SetWhitePointRGB
-: 
 ---
 
 # IWICDevelopRaw::SetWhitePointRGB

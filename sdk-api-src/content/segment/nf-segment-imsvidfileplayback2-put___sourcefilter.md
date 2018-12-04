@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidFilePlayback2.put___SourceFilter
-: 
 ---
 
 # IMSVidFilePlayback2::put___SourceFilter

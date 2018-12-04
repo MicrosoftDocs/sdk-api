@@ -4,10 +4,10 @@ title: SCardListReadersW function
 author: windows-sdk-content
 description: Provides the list of readers within a set of named reader groups, eliminating duplicates.
 old-location: security\scardlistreaders.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: b50218f1-e960-4838-b44b-6c71fa94a0ad
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardListReaders, SCardListReaders function [Security], SCardListReadersA, SCardListReadersW, _smart_scardlistreaders, security.scardlistreaders, winscard/SCardListReaders, winscard/SCardListReadersA, winscard/SCardListReadersW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SCardListReadersW
-: 
 ---
 
 # SCardListReadersW function
@@ -199,7 +193,7 @@ SCARD_E_READER_UNAVAILABLE
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

@@ -4,10 +4,10 @@ title: "_MSV1_0_INTERACTIVE_LOGON"
 author: windows-sdk-content
 description: Contains information about an interactive logon.
 old-location: security\msv1_0_interactive_logon.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: f9b9a966-54b9-4f89-98cc-d92e3f74571d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PMSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_LOGON structure [Security], _MSV1_0_INTERACTIVE_LOGON, _lsa_msv1_0_interactive_logon, ntsecapi/MSV1_0_INTERACTIVE_LOGON, security.msv1_0_interactive_logon"
 ms.prod: windows-hardware
 ms.technology: windows-devices

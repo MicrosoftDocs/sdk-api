@@ -4,10 +4,10 @@ title: tagNMHEADERW
 author: windows-sdk-content
 description: Contains information about header control notification messages. This structure supersedes the HD_NOTIFY structure.
 old-location: controls\NMHEADER.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmheader.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPNMHEADERW, 0, 1, 2, LPNMHEADER, LPNMHEADER structure pointer [Windows Controls], NMHEADER, NMHEADER structure [Windows Controls], NMHEADERA, NMHEADERW, _win32_NMHEADER, _win32_NMHEADER_cpp, commctrl/LPNMHEADER, commctrl/NMHEADER, commctrl/NMHEADERA, commctrl/NMHEADERW, controls.NMHEADER, controls._win32_NMHEADER, tagNMHEADERW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,9 +63,9 @@ Contains information about header control notification messages. This structure 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification message. 
+A <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification message. 
 
 
 ### -field iItem
@@ -122,9 +122,9 @@ Middle button
 
 ### -field pitem
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/2a717394-9123-409d-bda9-8e4ac6534101">HDITEM</a>*</b>
 
-An optional pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure containing information about the item specified by 
+An optional pointer to an <a href="https://msdn.microsoft.com/2a717394-9123-409d-bda9-8e4ac6534101">HDITEM</a> structure containing information about the item specified by 
 					<b>iItem</b>. The 
 					<b>mask</b> member of the <b>HDITEM</b> structure indicates which of its members are valid. 
 
@@ -133,7 +133,7 @@ An optional pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb77
 
 
 
-While most header control notifications pass a pointer to an <b>NMHEADER</b> structure, only some of them use the <b>pitem</b> member to pass an <a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure. Those that do use <b>pitem</b> may not provide complete information about the item. To obtain more information about an item, use <a href="https://msdn.microsoft.com/en-us/library/Bb775335(v=VS.85).aspx">HDM_GETITEM</a>.
+While most header control notifications pass a pointer to an <b>NMHEADER</b> structure, only some of them use the <b>pitem</b> member to pass an <a href="https://msdn.microsoft.com/2a717394-9123-409d-bda9-8e4ac6534101">HDITEM</a> structure. Those that do use <b>pitem</b> may not provide complete information about the item. To obtain more information about an item, use <a href="https://msdn.microsoft.com/fb1330d3-fd28-490c-9caa-4b2b5ff86ba0">HDM_GETITEM</a>.
 
 
 

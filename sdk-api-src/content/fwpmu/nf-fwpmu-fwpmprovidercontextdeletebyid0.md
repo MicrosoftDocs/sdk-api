@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmProviderContextDeleteById0
-: 
 ---
 
 # FwpmProviderContextDeleteById0 function

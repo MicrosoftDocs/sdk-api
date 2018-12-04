@@ -4,10 +4,10 @@ title: CVssWriter::OnVSSShutdown
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_onvssshutdown.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 79a2ebb4-300a-4c6e-b42d-8136d85fedbf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CVssWriter interface [VSS],OnVssShutdown method, CVssWriter.OnVSSShutdown, CVssWriter::OnVSSShutdown, CVssWriter::OnVssShutdown, OnVSSShutdown, OnVssShutdown method [VSS], OnVssShutdown method [VSS],CVssWriter interface, _win32_cvsswriter_onvssshutdown, base.cvsswriter_onvssshutdown, vswriter/CVssWriter::OnVssShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- CVssWriter.OnVSSShutdown
-: 
 ---
 
 # CVssWriter::OnVSSShutdown

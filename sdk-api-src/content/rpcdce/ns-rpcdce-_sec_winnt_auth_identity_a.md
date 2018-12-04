@@ -4,10 +4,10 @@ title: "_SEC_WINNT_AUTH_IDENTITY_A"
 author: windows-sdk-content
 description: The SEC_WINNT_AUTH_IDENTITY structure enables passing a particular user name and password to the run-time library for the purpose of authentication. The structure is valid for Windows and Macintosh.
 old-location: rpc\sec_winnt_auth_identity.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 829dee24-aeeb-4191-b5fc-85970725f064
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PSEC_WINNT_AUTH_IDENTITY, *PSEC_WINNT_AUTH_IDENTITY structure [RPC], *PSEC_WINNT_AUTH_IDENTITY_A, SEC_WINNT_AUTH_IDENTITY, SEC_WINNT_AUTH_IDENTITY structure [RPC], SEC_WINNT_AUTH_IDENTITY_A, SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_UNICODE, _SEC_WINNT_AUTH_IDENTITY_A, _SEC_WINNT_AUTH_IDENTITY_W, _rpc_sec_winnt_auth_identity, rpc.sec_winnt_auth_identity, rpcdce/*PSEC_WINNT_AUTH_IDENTITY, rpcdce/SEC_WINNT_AUTH_IDENTITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

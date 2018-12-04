@@ -7,7 +7,7 @@ old-location: wmp\iwmptranscodepolicy_allowtranscode.htm
 tech.root: WMP
 ms.assetid: 6b43e247-cbb5-4ef1-8906-5ce7e1e58484
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMPTranscodePolicy interface [Windows Media Player],allowTranscode method, IWMPTranscodePolicy.allowTranscode, IWMPTranscodePolicy::allowTranscode, IWMPTranscodePolicyallowTranscode, allowTranscode, allowTranscode method [Windows Media Player], allowTranscode method [Windows Media Player],IWMPTranscodePolicy interface, wmp.iwmptranscodepolicy_allowtranscode, wmpservices/IWMPTranscodePolicy::allowTranscode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmpservices.h
-: 
-- IWMPTranscodePolicy.allowTranscode
-: 
 ---
 
 # IWMPTranscodePolicy::allowTranscode

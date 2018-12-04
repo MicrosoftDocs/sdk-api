@@ -4,10 +4,10 @@ title: RtwqCreateAsyncResult function
 author: windows-sdk-content
 description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.
 old-location: base\rtwqcreateasyncresult.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: ba8e888a-5bd6-4624-94a6-2f2ce0a080d1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: RtwqCreateAsyncResult, RtwqCreateAsyncResult function, base.rtwqcreateasyncresult, rtworkq/RtwqCreateAsyncResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtwqCreateAsyncResult
-: 
 ---
 
 # RtwqCreateAsyncResult function

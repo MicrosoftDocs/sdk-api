@@ -7,7 +7,7 @@ old-location: com\oleflushclipboard.htm
 tech.root: com
 ms.assetid: 18291a91-be7d-42ec-a44a-d1bbfb017c6e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: OleFlushClipboard, OleFlushClipboard function [COM], _ole_OleFlushClipboard, com.oleflushclipboard, ole2/OleFlushClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OleFlushClipboard
-: 
 ---
 
 # OleFlushClipboard function

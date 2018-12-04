@@ -7,7 +7,7 @@ old-location: search\_search_IWordBreaker_GetLicenseToUse.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\getlicensetouse.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IWordBreaker interface, IWordBreaker interface [search],GetLicenseToUse method, IWordBreaker.GetLicenseToUse, IWordBreaker::GetLicenseToUse, _search_IWordBreaker_GetLicenseToUse, indexsrv/IWordBreaker::GetLicenseToUse, search._search_IWordBreaker_GetLicenseToUse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack
-- apiref
-: 
-- COM
-: 
-- indexsrv.h
-: 
-- IWordBreaker.GetLicenseToUse
-: 
 ---
 
 # IWordBreaker::GetLicenseToUse
@@ -58,7 +50,7 @@ req.redist: Windows NT 4.0 Option Pack
 ## -description
 
 
-Gets a pointer to the license information for this implementation of the <a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> interface.
+Gets a pointer to the license information for this implementation of the <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> interface.
 
 
 ## -parameters
@@ -70,7 +62,7 @@ Gets a pointer to the license information for this implementation of the <a href
 
 Type: <b>WCHAR const**</b>
 
-Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementation.
+Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> implementation.
 
 
 ## -returns

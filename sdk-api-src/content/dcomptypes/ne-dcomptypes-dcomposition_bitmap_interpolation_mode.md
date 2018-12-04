@@ -7,7 +7,7 @@ old-location: directcomp\dcomposition_bitmap_interpolation_mode.htm
 tech.root: directcomp
 ms.assetid: 0B919A5C-DEDD-4131-B743-A61CA49CA2B6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DCOMPOSITION_BITMAP_INTERPOLATION_MODE, DCOMPOSITION_BITMAP_INTERPOLATION_MODE enumeration [DirectComposition], DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT, DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR, DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, directcomp.dcomposition_bitmap_interpolation_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ The default interpolation mode for a visual is <b>DCOMPOSITION_BITMAP_INTERPOLAT
 
 A single visual can have any combination of visual properties. However, if a 
 visual has the following combination of properties, the borders of the visual will default 
-to <a href="https://msdn.microsoft.com/en-us/library/Hh437365(v=VS.85).aspx">DCOMPOSITION_BORDER_MODE_HARD</a>.
+to <a href="dcomposition_border_mode.htm">DCOMPOSITION_BORDER_MODE_HARD</a>.
 
 
 
@@ -92,7 +92,7 @@ to <a href="https://msdn.microsoft.com/en-us/library/Hh437365(v=VS.85).aspx">DCO
 </code></li>
 <li><code>SetBitmapInterpolationMode(DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR)</code></li>
 </ul>
-If you want a visual to be drawn with antialiasing, use <b>DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR</b> for the content of the visual, and <a href="https://msdn.microsoft.com/en-us/library/Hh437365(v=VS.85).aspx">DCOMPOSITION_BORDER_MODE_SOFT</a> for the edges.
+If you want a visual to be drawn with antialiasing, use <b>DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR</b> for the content of the visual, and <a href="dcomposition_border_mode.htm">DCOMPOSITION_BORDER_MODE_SOFT</a> for the edges.
 
 
 

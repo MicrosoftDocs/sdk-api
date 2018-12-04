@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxIncomingMessage.get_DeviceName
-: 
 ---
 
 # IFaxIncomingMessage::get_DeviceName

@@ -7,7 +7,7 @@ old-location: termserv\itssbpluginnotifysink_oninitialized.htm
 tech.root: termserv
 ms.assetid: 2fe468c9-457f-4a56-aaf9-4eb48fec8720
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: ITsSbPluginNotifySink interface [Remote Desktop Services],OnInitialized method, ITsSbPluginNotifySink.OnInitialized, ITsSbPluginNotifySink::OnInitialized, OnInitialized, OnInitialized method [Remote Desktop Services], OnInitialized method [Remote Desktop Services],ITsSbPluginNotifySink interface, sbtsv/ITsSbPluginNotifySink::OnInitialized, termserv.itssbpluginnotifysink_oninitialized
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbtsv.h
-: 
-- ITsSbPluginNotifySink.OnInitialized
-: 
 ---
 
 # ITsSbPluginNotifySink::OnInitialized

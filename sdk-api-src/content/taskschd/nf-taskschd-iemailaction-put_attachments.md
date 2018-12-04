@@ -4,10 +4,10 @@ title: IEmailAction::put_Attachments
 author: windows-sdk-content
 description: Gets or sets the pointer to an array of attachments that is sent with the email message.
 old-location: taskschd\iemailaction_attachments.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 06a3cf8f-d7fd-4ed6-9fd6-ea45face034a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Attachments property [Task Scheduler], Attachments property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Attachments property, IEmailAction.Attachments, IEmailAction.put_Attachments, IEmailAction::Attachments, IEmailAction::get_Attachments, IEmailAction::put_Attachments, put_Attachments, taskschd.iemailaction_attachments, taskschd/IEmailAction::Attachments, taskschd/IEmailAction::get_Attachments, taskschd/IEmailAction::put_Attachments
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IEmailAction.put_Attachments
-: 
 ---
 
 # IEmailAction::put_Attachments
@@ -60,7 +52,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://msdn.microsoft.com/library/Hh849925(v=WPS.620).aspx">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="796227F5-C9FF-402D-8A04-CDE9E0C180EE">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the pointer to an array of attachments that is sent with the email message.
 

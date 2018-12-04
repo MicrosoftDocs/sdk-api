@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxInboundRoutingMethod.get_GUID
-: 
 ---
 
 # IFaxInboundRoutingMethod::get_GUID

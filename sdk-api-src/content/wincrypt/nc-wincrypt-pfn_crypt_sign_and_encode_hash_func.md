@@ -4,10 +4,10 @@ title: PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC
 author: windows-sdk-content
 description: Called to sign and encode a computed hash.
 old-location: security\pfn_crypt_sign_and_encode_hash_func.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: d393a092-64a2-47b7-90a4-5144b99cd6b5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC, PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC callback, PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC callback function [Security], security.pfn_crypt_sign_and_encode_hash_func, wincrypt/PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC
 ms.prod: windows-hardware
 ms.technology: windows-devices

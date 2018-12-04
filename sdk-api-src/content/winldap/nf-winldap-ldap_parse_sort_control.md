@@ -4,10 +4,10 @@ title: ldap_parse_sort_control function
 author: windows-sdk-content
 description: The ldap_parse_sort_control function parses the sort control returned by the server.
 old-location: ldap\ldap_parse_sort_control.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 71d6bae2-3ee4-417c-8c1b-d277cad03f36
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ldap_parse_sort_control, ldap.ldap__parse__sort__control, ldap.ldap_parse_sort_control, ldap_parse_sort_control, ldap_parse_sort_control function [LDAP], ldap_parse_sort_controlA, ldap_parse_sort_controlW, winldap/ldap_parse_sort_control, winldap/ldap_parse_sort_controlA, winldap/ldap_parse_sort_controlW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_parse_sort_control
-: 
 ---
 
 # ldap_parse_sort_control function

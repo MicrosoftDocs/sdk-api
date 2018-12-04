@@ -4,10 +4,10 @@ title: MsiEnumProductsExA function
 author: windows-sdk-content
 description: Enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts.
 old-location: setup\msienumproductsex.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 33daeadc-021f-403e-808b-81a9915ae854
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumProductsEx, MsiEnumProductsEx function, MsiEnumProductsExA, MsiEnumProductsExW, NULL, User SID, msi/MsiEnumProductsEx, msi/MsiEnumProductsExA, msi/MsiEnumProductsExW, s-1-1-0, setup.msienumproductsex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiEnumProductsExA
-: 
 ---
 
 # MsiEnumProductsExA function

@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- QueryServiceConfig2A
-: 
 ---
 
 # QueryServiceConfig2A function

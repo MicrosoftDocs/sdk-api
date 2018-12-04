@@ -4,10 +4,10 @@ title: IVssEnumObject::Next
 author: windows-sdk-content
 description: Returns the specified number of objects from the specified list of enumerated objects.
 old-location: base\ivssenumobject_next.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 9bfaba94-802f-47f5-9843-acc05b32f1b2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssEnumObject interface [VSS],Next method, IVssEnumObject.Next, IVssEnumObject::Next, Next, Next method [VSS], Next method [VSS],IVssEnumObject interface, _win32_ivssenumobject_next, base.ivssenumobject_next, vss/IVssEnumObject::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vss.h
-: 
-- IVssEnumObject.Next
-: 
 ---
 
 # IVssEnumObject::Next

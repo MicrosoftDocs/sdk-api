@@ -4,10 +4,10 @@ title: IActionCollection::get_XmlText
 author: windows-sdk-content
 description: Gets or sets an XML-formatted version of the collection.
 old-location: taskschd\iactioncollection_xmltext.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 1c72546d-26e3-441c-875c-a41078ded0b7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IActionCollection interface [Task Scheduler],XmlText property, IActionCollection.XmlText, IActionCollection.get_XmlText, IActionCollection::XmlText, IActionCollection::get_XmlText, IActionCollection::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],IActionCollection interface, get_XmlText, taskschd.iactioncollection_xmltext, taskschd/IActionCollection::XmlText, taskschd/IActionCollection::get_XmlText, taskschd/IActionCollection::put_XmlText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IActionCollection.get_XmlText
-: 
 ---
 
 # IActionCollection::get_XmlText

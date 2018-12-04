@@ -4,10 +4,10 @@ title: IDirectorySearch::GetNextRow
 author: windows-sdk-content
 description: Gets the next row of the search result.
 old-location: adsi\idirectorysearch_getnextrow.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 9fb0b765-0162-418d-b0cd-7e9b1b53e1b9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetNextRow, GetNextRow method [ADSI], GetNextRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetNextRow method, IDirectorySearch.GetNextRow, IDirectorySearch::GetNextRow, _ds_idirectorysearch_getnextrow, adsi.idirectorysearch__getnextrow, adsi.idirectorysearch_getnextrow, iads/IDirectorySearch::GetNextRow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IDirectorySearch.GetNextRow
-: 
 ---
 
 # IDirectorySearch::GetNextRow
@@ -68,14 +60,7 @@ The <b>GetNextRow</b> method gets the next row of the search result. If  <a href
 
 
 
-### -param hSearchResult
-
-TBD
-
-
-
-
-#### - hSearchHandle [in]
+### -param hSearchResult [in]
 
 Contains the search handle obtained by calling <a href="https://msdn.microsoft.com/7514b372-1a7a-4a42-a814-af70a727c477">IDirectorySearch::ExecuteSearch</a>.
 

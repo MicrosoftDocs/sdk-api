@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaDisconnectAllProviders.htm
 tech.root: WinAuto
 ms.assetid: 1E46DC9A-8E72-49B2-B867-C075962EF00A
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: UiaDisconnectAllProviders, UiaDisconnectAllProviders function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectAllProviders, winauto.uiauto_UiaDisconnectAllProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UiaDisconnectAllProviders
-: 
 ---
 
 # UiaDisconnectAllProviders function
@@ -86,7 +80,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 A provider application should use this function to release UI Automation resources before shutting down.
 
-This function cannot be called in response to a call to the <a href="https://msdn.microsoft.com/aed898b3-bb48-4da2-aee7-834ae65a2d51">SendMessage</a> function. An application cannot make outbound Component Object Model (COM) calls in response to a call to <b>SendMessage</b>, and releasing a provider is typically an outbound COM call.  The <b>UiaDisconnectAllProviders</b> function returns RPC_E_CANTCALLOUT_ININPUTSYNCCALL if the function is called in response to a <b>SendMessage</b> call.  You can use the <a href="https://msdn.microsoft.com/en-us/library/ms644942(v=VS.85).aspx">InSendMessageEx</a> function to determine whether a particular message is being handled in response to a <b>SendMessage</b> call.
+This function cannot be called in response to a call to the <a href="https://msdn.microsoft.com/aed898b3-bb48-4da2-aee7-834ae65a2d51">SendMessage</a> function. An application cannot make outbound Component Object Model (COM) calls in response to a call to <b>SendMessage</b>, and releasing a provider is typically an outbound COM call.  The <b>UiaDisconnectAllProviders</b> function returns RPC_E_CANTCALLOUT_ININPUTSYNCCALL if the function is called in response to a <b>SendMessage</b> call.  You can use the <a href="https://msdn.microsoft.com/6625958c-9ebb-4fb1-806f-625fe9e69c22">InSendMessageEx</a> function to determine whether a particular message is being handled in response to a <b>SendMessage</b> call.
 
 For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=231683">BUG: RPC_E_CANTCALLOUT_ININPUTSYNCCALL Error When System Menu Is Shown in Taskbar</a> on the MSDN Support website.
 

@@ -4,10 +4,10 @@ title: ICertPropertyArchived::get_Archived
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the certificate has been archived.
 old-location: security\icertpropertyarchived_archived_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: c4154d9e-5a37-4a6c-9fc3-5935d8c54dc4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Archived property [Security], Archived property [Security],ICertPropertyArchived interface, ICertPropertyArchived interface [Security],Archived property, ICertPropertyArchived.Archived, ICertPropertyArchived.get_Archived, ICertPropertyArchived::Archived, ICertPropertyArchived::get_Archived, certenroll/ICertPropertyArchived::Archived, certenroll/ICertPropertyArchived::get_Archived, get_Archived, security.icertpropertyarchived_archived_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICertPropertyArchived.get_Archived
-: 
 ---
 
 # ICertPropertyArchived::get_Archived
@@ -71,7 +63,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375247(v=VS.85).aspx">Initialize</a> method to specify the Boolean value.
+Call the <a href="https://msdn.microsoft.com/66efee4f-61af-447a-b668-81fbe2107b7f">Initialize</a> method to specify the Boolean value.
 
 
 
@@ -81,11 +73,11 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375247(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375240(v=VS.85).aspx">ICertPropertyArchived</a>
+<a href="https://msdn.microsoft.com/81219ad9-4717-40e5-9ecd-d3df980e23c6">ICertPropertyArchived</a>
  
 
  

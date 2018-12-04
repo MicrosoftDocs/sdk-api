@@ -7,7 +7,7 @@ old-location: tablet\stroke_range.htm
 tech.root: tablet
 ms.assetid: cae64877-2ea4-45a1-b5c2-0764c7ebeaf7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: STROKE_RANGE, STROKE_RANGE structure [Tablet PC], cae64877-2ea4-45a1-b5c2-0764c7ebeaf7, tablet.stroke_range, tagSTROKE_RANGE, tpcshrd/STROKE_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ibasefilter_findpin.htm
 tech.root: DirectShow
 ms.assetid: 0bdefaeb-f631-4b79-9965-c1c570e0ff80
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FindPin, FindPin method [DirectShow], FindPin method [DirectShow],IBaseFilter interface, IBaseFilter interface [DirectShow],FindPin method, IBaseFilter.FindPin, IBaseFilter::FindPin, IBaseFilterFindPin, dshow.ibasefilter_findpin, strmif/IBaseFilter::FindPin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- strmif.h
-: 
-- IBaseFilter.FindPin
-: 
 ---
 
 # IBaseFilter::FindPin

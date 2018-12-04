@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Add_Res_Des_Ex
-: 
 ---
 
 # CM_Add_Res_Des_Ex function
@@ -157,7 +151,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff544764(v=VS.85).aspx">DMA_RESOURCE</a>
+<a href="https://msdn.microsoft.com/226a5ca1-10e1-47a7-8bd9-b153a0784ccb">DMA_RESOURCE</a>
 
 
 </td>

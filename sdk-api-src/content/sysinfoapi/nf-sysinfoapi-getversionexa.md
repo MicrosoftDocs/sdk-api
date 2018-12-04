@@ -4,10 +4,10 @@ title: GetVersionExA function
 author: windows-sdk-content
 description: With the release of Windows 8.1, the behavior of the GetVersionEx API has changed in the value it will return for the operating system version. The value returned by the GetVersionEx function now depends on how the application is manifested.
 old-location: base\getversionex.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 8e3ab4d6-bacd-4bc5-b8f6-dd49289354de
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetVersionEx, GetVersionEx function, GetVersionExA, GetVersionExW, _win32_getversionex, base.getversionex, sysinfoapi/GetVersionEx, sysinfoapi/GetVersionExA, sysinfoapi/GetVersionExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,12 +52,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetVersionExA
-: 
 ---
 
 # GetVersionExA function
@@ -154,33 +148,37 @@ If compatibility mode is in effect, the <b>GetVersionEx</b> function reports the
 When using the 
 <b>GetVersionEx</b> function to determine whether your application is running on a particular version of the operating system, check for version numbers that are greater than or equal to the desired version numbers. This ensures that the test succeeds for later versions of the operating system. For example, if your application requires Windows XP or later, use the following test.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 
 void main()
 {
     OSVERSIONINFO osvi;
     BOOL bIsWindowsXPorLater;
 
-    ZeroMemory(&osvi, sizeof(OSVERSIONINFO));
+    ZeroMemory(&amp;osvi, sizeof(OSVERSIONINFO));
     osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);
 
-    GetVersionEx(&osvi);
+    GetVersionEx(&amp;osvi);
 
     bIsWindowsXPorLater = 
-       ( (osvi.dwMajorVersion > 5) ||
-       ( (osvi.dwMajorVersion == 5) && (osvi.dwMinorVersion >= 1) ));
+       ( (osvi.dwMajorVersion &gt; 5) ||
+       ( (osvi.dwMajorVersion == 5) &amp;&amp; (osvi.dwMinorVersion &gt;= 1) ));
 
     if(bIsWindowsXPorLater)
         printf("The system meets the requirements.\n");
     else printf("The system does not meet the requirements.\n");
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For an example that identifies the current operating system, see 
 <a href="https://msdn.microsoft.com/ae851aef-27d5-4eb7-aeb2-ccdfbf040e5a">Getting the System Version</a>.
 

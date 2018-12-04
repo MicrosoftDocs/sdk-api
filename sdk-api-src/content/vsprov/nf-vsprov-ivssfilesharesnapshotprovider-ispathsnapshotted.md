@@ -4,10 +4,10 @@ title: IVssFileShareSnapshotProvider::IsPathSnapshotted
 author: windows-sdk-content
 description: Determines whether the given Universal Naming Convention (UNC) path currently has any snapshots.
 old-location: base\ivssfilesharesnapshotprovider_ispathsnapshotted.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 9a885d5d-a441-4567-b562-39820fa7ffc1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],IsPathSnapshotted method, IVssFileShareSnapshotProvider.IsPathSnapshotted, IVssFileShareSnapshotProvider::IsPathSnapshotted, IsPathSnapshotted, IsPathSnapshotted method [VSS], IsPathSnapshotted method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_ispathsnapshotted, vsprov/IVssFileShareSnapshotProvider::IsPathSnapshotted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsprov.h
-: 
-- IVssFileShareSnapshotProvider.IsPathSnapshotted
-: 
 ---
 
 # IVssFileShareSnapshotProvider::IsPathSnapshotted

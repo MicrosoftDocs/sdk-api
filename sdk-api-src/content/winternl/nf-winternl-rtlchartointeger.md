@@ -4,10 +4,10 @@ title: RtlCharToInteger function
 author: windows-sdk-content
 description: Converts a character string to an integer.
 old-location: winprog\rtlchartointeger.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlchartointeger.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: RtlCharToInteger, RtlCharToInteger function [Windows API], winprog.rtlchartointeger, winternl/RtlCharToInteger, winui.rtlchartointeger
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtlCharToInteger
-: 
 ---
 
 # RtlCharToInteger function
@@ -94,7 +88,7 @@ If the function succeeds, the function returns <b>STATUS_SUCCESS</b>.
 
 
 
-When converting strings to integers the preferred function to use is <a href="https://msdn.microsoft.com/library/w4z2wdyc(v=VS.100).aspx">strtol, wcstol</a>.
+When converting strings to integers the preferred function to use is <a href="1787c96a-f283-4a83-9325-33cfc1c7e240">strtol, wcstol</a>.
 
 There is no import library for this function. Use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> rather than linking to the function directly.
 

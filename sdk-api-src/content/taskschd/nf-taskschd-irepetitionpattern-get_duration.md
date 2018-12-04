@@ -4,10 +4,10 @@ title: IRepetitionPattern::get_Duration
 author: windows-sdk-content
 description: Gets or sets how long the pattern is repeated.
 old-location: taskschd\irepetitionpattern_duration.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 86deb09e-d6ad-4a8d-9fdf-e3bc5ee73b1f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Duration property [Task Scheduler], Duration property [Task Scheduler],IRepetitionPattern interface, IRepetitionPattern interface [Task Scheduler],Duration property, IRepetitionPattern.Duration, IRepetitionPattern.get_Duration, IRepetitionPattern::Duration, IRepetitionPattern::get_Duration, IRepetitionPattern::put_Duration, get_Duration, taskschd.irepetitionpattern_duration, taskschd/IRepetitionPattern::Duration, taskschd/IRepetitionPattern::get_Duration, taskschd/IRepetitionPattern::put_Duration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IRepetitionPattern.get_Duration
-: 
 ---
 
 # IRepetitionPattern::get_Duration

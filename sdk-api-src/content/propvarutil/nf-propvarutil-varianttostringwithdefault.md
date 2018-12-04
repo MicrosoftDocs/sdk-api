@@ -7,7 +7,7 @@ old-location: properties\VariantToStringWithDefault.htm
 tech.root: properties
 ms.assetid: f8ca7844-057f-4e95-a4a9-f03f1d2ad492
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VariantToStringWithDefault, VariantToStringWithDefault function [Windows Properties], _shell_VariantToStringWithDefault, properties.VariantToStringWithDefault, propvarutil/VariantToStringWithDefault, shell.VariantToStringWithDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToStringWithDefault
-: 
 ---
 
 # VariantToStringWithDefault function

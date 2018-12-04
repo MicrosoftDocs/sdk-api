@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ixamldiagnostics_getdispatcher.htm
 tech.root: xaml_diagnostics
 ms.assetid: 6C7605F7-BBD7-4FAD-AA35-A3DC18AA6FF3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetDispatcher, GetDispatcher method, GetDispatcher method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetDispatcher method, IXamlDiagnostics.GetDispatcher, IXamlDiagnostics::GetDispatcher, xaml_diagnostics.ixamldiagnostics_getdispatcher, xamlom/IXamlDiagnostics::GetDispatcher
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xamlom.h
-: 
-- IXamlDiagnostics.GetDispatcher
-: 
 ---
 
 # IXamlDiagnostics::GetDispatcher

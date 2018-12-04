@@ -4,10 +4,10 @@ title: ITAgentHandlerEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the description for the event that has occurred.
 old-location: tapi3\itagenthandlerevent_get_event.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 3362964c-15d3-497c-876b-46e8d26389c0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITAgentHandlerEvent interface [TAPI 2.2],get_Event method, ITAgentHandlerEvent.get_Event, ITAgentHandlerEvent::get_Event, _tapi3_itagenthandlerevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAgentHandlerEvent interface, tapi3.itagenthandlerevent_get_event, tapi3cc/ITAgentHandlerEvent::get_Event
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3cc.h
-: 
-- ITAgentHandlerEvent.get_Event
-: 
 ---
 
 # ITAgentHandlerEvent::get_Event

@@ -4,10 +4,10 @@ title: MsiGetShortcutTargetA function
 author: windows-sdk-content
 description: The MsiGetShortcutTarget function examines a shortcut and returns its product, feature name, and component if available.
 old-location: setup\msigetshortcuttarget.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 5c040372-d266-4f79-9b80-950ceac9f9b8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MsiGetShortcutTarget, MsiGetShortcutTarget function, MsiGetShortcutTargetA, MsiGetShortcutTargetW, _msi_msigetshortcuttarget, msi/MsiGetShortcutTarget, msi/MsiGetShortcutTargetA, msi/MsiGetShortcutTargetW, setup.msigetshortcuttarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiGetShortcutTargetA
-: 
 ---
 
 # MsiGetShortcutTargetA function
@@ -103,10 +97,10 @@ This function returns UINT.
 
 
 If the function fails, and the shortcut exists, the regular contents of the shortcut may be accessed through the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774950(v=VS.85).aspx">IShellLink</a> interface.
+<a href="_win32_ishelllink_cpp">IShellLink</a> interface.
 
 Otherwise, the state of the target may be determined by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>.
+<a href="database_functions.htm">Installer Selection Functions</a>.
 
 
 

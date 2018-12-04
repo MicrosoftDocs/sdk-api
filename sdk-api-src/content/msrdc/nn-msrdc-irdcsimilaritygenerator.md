@@ -4,10 +4,10 @@ title: IRdcSimilarityGenerator
 author: windows-sdk-content
 description: Defines methods for enabling the signature generator to generate similarity data and for retrieving the similarity data after it is generated.
 old-location: rdc\irdcsimilaritygenerator.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 60133763-9678-4927-9d3a-3e431310b601
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRdcSimilarityGenerator, IRdcSimilarityGenerator interface [Remote Differential Compression], IRdcSimilarityGenerator interface [Remote Differential Compression],described, fs.irdcsimilaritygenerator, msrdc/IRdcSimilarityGenerator, rdc.irdcsimilaritygenerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

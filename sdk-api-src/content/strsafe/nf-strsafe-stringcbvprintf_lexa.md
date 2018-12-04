@@ -7,7 +7,7 @@ old-location: menurc\stringcbvprintf_lex.htm
 tech.root: menurc
 ms.assetid: 34db0546-cede-4329-8364-137bca118755
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbVPrintf_lEx, StringCbVPrintf_lEx function [Menus and Other Resources], StringCbVPrintf_lExA, StringCbVPrintf_lExW, menurc.stringcbvprintf_lex, strsafe/StringCbVPrintf_lEx, strsafe/StringCbVPrintf_lExA, strsafe/StringCbVPrintf_lExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StringCbVPrintf_lExA
-: 
 ---
 
 # StringCbVPrintf_lExA function
@@ -60,7 +54,7 @@ req.redist:
 
 Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbVPrintf_lEx</b> is similar to <a href="https://msdn.microsoft.com/en-us/library/ms647516(v=VS.85).aspx">StringCbVPrintfEx</a> but includes a parameter for locale information.
+<b>StringCbVPrintf_lEx</b> is similar to <a href="https://msdn.microsoft.com/36f77c17-6244-4357-9361-a04118fcd820">StringCbVPrintfEx</a> but includes a parameter for locale information.
 
 
 ## -parameters

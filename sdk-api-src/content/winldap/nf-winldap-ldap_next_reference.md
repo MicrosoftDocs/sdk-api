@@ -4,10 +4,10 @@ title: ldap_next_reference function
 author: windows-sdk-content
 description: Retrieves a reference from a search result chain.
 old-location: ldap\ldap_next_reference.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: ea67f0e9-5cf7-4755-9bfd-856e26589a8d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "_ldap_ldap_next_reference, ldap.ldap__next__reference, ldap.ldap_next_reference, ldap_next_reference, ldap_next_reference function [LDAP], winldap/ldap_next_reference"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_next_reference
-: 
 ---
 
 # ldap_next_reference function

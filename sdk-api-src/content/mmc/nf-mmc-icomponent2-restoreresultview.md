@@ -4,10 +4,10 @@ title: IComponent2::RestoreResultView
 author: windows-sdk-content
 description: The RestoreResultView method restores the result view. This method enables a snap-in to restore snap-in-specific details of a result view. For more information, see Restoring Result Views.
 old-location: mmc\icomponent2_restoreresultview.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: fe9a71c7-eaa6-4479-8337-0746a784a57f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IComponent2 interface [MMC],RestoreResultView method, IComponent2.RestoreResultView, IComponent2::RestoreResultView, RestoreResultView, RestoreResultView method [MMC], RestoreResultView method [MMC],IComponent2 interface, _slate_icomponent2_restoreresultview, mmc.icomponent2_restoreresultview, mmc/IComponent2::RestoreResultView
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IComponent2.RestoreResultView
-: 
 ---
 
 # IComponent2::RestoreResultView

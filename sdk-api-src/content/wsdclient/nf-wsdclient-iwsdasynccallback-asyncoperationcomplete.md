@@ -4,10 +4,10 @@ title: IWSDAsyncCallback::AsyncOperationComplete
 author: windows-sdk-content
 description: Indicates that the asynchronous operation has completed.
 old-location: ncd\iwsdasynccallback_asyncoperationcomplete_method.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: f2272d1e-bb12-43cd-a0ae-80530ad25fcf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method, AsyncOperationComplete method,IWSDAsyncCallback interface, IWSDAsyncCallback interface,AsyncOperationComplete method, IWSDAsyncCallback.AsyncOperationComplete, IWSDAsyncCallback::AsyncOperationComplete, ncd.iwsdasynccallback_asyncoperationcomplete_method, wsdclient/IWSDAsyncCallback::AsyncOperationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdclient.h
-: 
-- IWSDAsyncCallback.AsyncOperationComplete
-: 
 ---
 
 # IWSDAsyncCallback::AsyncOperationComplete

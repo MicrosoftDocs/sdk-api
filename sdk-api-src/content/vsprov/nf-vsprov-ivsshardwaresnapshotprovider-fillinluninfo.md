@@ -4,10 +4,10 @@ title: IVssHardwareSnapshotProvider::FillInLunInfo
 author: windows-sdk-content
 description: Prompts the hardware provider to indicate whether it supports the corresponding disk device and correct any omissions in the VDS_LUN_INFORMATION structure.
 old-location: base\ivsshardwaresnapshotprovider_fillinluninfo.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 4e4e5942-5bc8-4b5e-a651-5bb354514994
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FillInLunInfo, FillInLunInfo method [VSS], FillInLunInfo method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],FillInLunInfo method, IVssHardwareSnapshotProvider.FillInLunInfo, IVssHardwareSnapshotProvider::FillInLunInfo, base.ivsshardwaresnapshotprovider_fillinluninfo, vsprov/IVssHardwareSnapshotProvider::FillInLunInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsprov.h
-: 
-- IVssHardwareSnapshotProvider.FillInLunInfo
-: 
 ---
 
 # IVssHardwareSnapshotProvider::FillInLunInfo

@@ -4,10 +4,10 @@ title: "_CRYPT_PROVIDER_SGNR"
 author: windows-sdk-content
 description: Provides information about a signer or countersigner.
 old-location: security\crypt_provider_sgnr.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 39cf9a03-768d-4ae0-a19d-17652181dbe4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCRYPT_PROVIDER_SGNR, CRYPT_PROVIDER_SGNR, CRYPT_PROVIDER_SGNR structure [Security], PCRYPT_PROVIDER_SGNR, PCRYPT_PROVIDER_SGNR structure pointer [Security], SGNR_TYPE_TIMESTAMP, _CRYPT_PROVIDER_SGNR, security.crypt_provider_sgnr, wintrust/CRYPT_PROVIDER_SGNR, wintrust/PCRYPT_PROVIDER_SGNR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

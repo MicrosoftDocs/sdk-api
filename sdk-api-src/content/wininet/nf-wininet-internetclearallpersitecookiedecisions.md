@@ -4,10 +4,10 @@ title: InternetClearAllPerSiteCookieDecisions function
 author: windows-sdk-content
 description: Clears all decisions that were made about cookies on a site by site basis.
 old-location: wininet\internetclearallpersitecookiedecisions.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 980df63e-70b8-44d3-b98a-b7c8a3e395c6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: InternetClearAllPerSiteCookieDecisions, InternetClearAllPerSiteCookieDecisions function [WinINet], wininet.internetclearallpersitecookiedecisions, wininet/InternetClearAllPerSiteCookieDecisions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetClearAllPerSiteCookieDecisions
-: 
 ---
 
 # InternetClearAllPerSiteCookieDecisions function

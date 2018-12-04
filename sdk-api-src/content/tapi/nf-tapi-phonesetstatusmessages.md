@@ -4,10 +4,10 @@ title: phoneSetStatusMessages function
 author: windows-sdk-content
 description: The phoneSetStatusMessages function enables an application to monitor the specified phone device for selected status events.
 old-location: tapi2\phonesetstatusmessages.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: eb3b6ea8-447f-44df-a0fb-9ab50d6471f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_tapi2_phonesetstatusmessages, phoneSetStatusMessages, phoneSetStatusMessages function [TAPI 2.2], tapi/phoneSetStatusMessages, tapi2.phonesetstatusmessages"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- phoneSetStatusMessages
-: 
 ---
 
 # phoneSetStatusMessages function

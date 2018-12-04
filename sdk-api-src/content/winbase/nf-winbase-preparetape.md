@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PrepareTape
-: 
 ---
 
 # PrepareTape function
@@ -68,7 +62,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device preparing the tape. This handle is created by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
 
 ### -param dwOperation [in]
@@ -371,7 +365,7 @@ Some tape devices do not support certain tape operations. See your tape device d
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

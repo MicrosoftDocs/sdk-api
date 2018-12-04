@@ -7,7 +7,7 @@ old-location: properties\PropVariantClear.htm
 tech.root: properties
 ms.assetid: 68b00e4b-39d3-49e3-8a0d-032edcb23b06
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PropVariantClear, PropVariantClear function [Windows Properties], _shell_PropVariantClear, properties.PropVariantClear, propidl/PropVariantClear, shell.PropVariantClear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantClear
-: 
 ---
 
 # PropVariantClear function

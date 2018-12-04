@@ -7,7 +7,7 @@ old-location: shell\IShellItem_BindToHandler.htm
 tech.root: shell
 ms.assetid: fadd70cd-5018-4b71-af7b-d9c780ebddc5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: BHID_AssociationArray, BHID_DataObject, BHID_EnumAssocHandlers, BHID_EnumItems, BHID_FilePlaceholder, BHID_Filter, BHID_LinkTargetItem, BHID_PropertyStore, BHID_RandomAccessStream, BHID_SFObject, BHID_SFUIObject, BHID_SFViewObject, BHID_Storage, BHID_StorageEnum, BHID_Stream, BHID_ThumbnailHandler, BHID_Transfer, BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],BindToHandler method, IShellItem.BindToHandler, IShellItem::BindToHandler, _win32_IShellItem_BindToHandler, shell.IShellItem_BindToHandler, shobjidl_core/IShellItem::BindToHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IShellItem.BindToHandler
-: 
 ---
 
 # IShellItem::BindToHandler
@@ -161,7 +153,7 @@ If the item is a folder, gets an <a href="https://msdn.microsoft.com/07aed597-35
 
 #### BHID_Filter
 
-<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>.
+<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://msdn.microsoft.com/5fb7219a-608c-43f8-a8e3-48bbf0218c6e">IFilter</a>.
 
 
 
@@ -173,7 +165,7 @@ If the item is a folder, gets an <a href="https://msdn.microsoft.com/07aed597-35
 
 #### BHID_RandomAccessStream
 
-<b>Introduced in Windows 8</b>: Gets an <a href="https://msdn.microsoft.com/en-us/library/Hh438400(v=VS.85).aspx">IRandomAccessStream</a> object for the item.
+<b>Introduced in Windows 8</b>: Gets an <a href="https://msdn.microsoft.com/a9a4bd11-8c69-4826-9ea0-6f42421c8367">IRandomAccessStream</a> object for the item.
 
 
 

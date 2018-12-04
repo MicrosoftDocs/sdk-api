@@ -4,10 +4,10 @@ title: IPerformanceCounterDataCollector::put_PerformanceCounters
 author: windows-sdk-content
 description: Retrieves or sets the performance counters to query.
 old-location: pla\iperformancecounterdatacollector_performancecounters.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 9c75f560-a161-4659-9fd9-9f73c964fa5b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],PerformanceCounters property, IPerformanceCounterDataCollector.PerformanceCounters, IPerformanceCounterDataCollector.put_PerformanceCounters, IPerformanceCounterDataCollector::PerformanceCounters, IPerformanceCounterDataCollector::get_PerformanceCounters, IPerformanceCounterDataCollector::put_PerformanceCounters, PerformanceCounters property [PLA], PerformanceCounters property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_performancecounters, pla.iperformancecounterdatacollector_performancecounters, pla/IPerformanceCounterDataCollector::PerformanceCounters, pla/IPerformanceCounterDataCollector::get_PerformanceCounters, pla/IPerformanceCounterDataCollector::put_PerformanceCounters, put_PerformanceCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IPerformanceCounterDataCollector.put_PerformanceCounters
-: 
 ---
 
 # IPerformanceCounterDataCollector::put_PerformanceCounters

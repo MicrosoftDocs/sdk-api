@@ -4,10 +4,10 @@ title: ISmimeCapabilities::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an object from the collection by index number.
 old-location: security\ismimecapabilities_itembyindex_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: fbb51882-4b56-4648-a0ca-0c93311cebbd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISmimeCapabilities interface [Security],ItemByIndex property, ISmimeCapabilities.ItemByIndex, ISmimeCapabilities.get_ItemByIndex, ISmimeCapabilities::ItemByIndex, ISmimeCapabilities::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ISmimeCapabilities interface, certenroll/ISmimeCapabilities::ItemByIndex, certenroll/ISmimeCapabilities::get_ItemByIndex, get_ItemByIndex, security.ismimecapabilities_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ISmimeCapabilities.get_ItemByIndex
-: 
 ---
 
 # ISmimeCapabilities::get_ItemByIndex
@@ -72,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376841(v=VS.85).aspx">ISmimeCapabilities</a>
+<a href="https://msdn.microsoft.com/f9750b68-9d35-4594-96fc-2fbd54a87dcc">ISmimeCapabilities</a>
  
 
  

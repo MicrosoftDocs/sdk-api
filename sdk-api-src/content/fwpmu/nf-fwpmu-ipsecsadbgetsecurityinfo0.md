@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecSaDbGetSecurityInfo0
-: 
 ---
 
 # IPsecSaDbGetSecurityInfo0 function

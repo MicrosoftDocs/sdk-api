@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LPM_IpAddressTable
-: 
 ---
 
 # LPM_IpAddressTable function

@@ -4,10 +4,10 @@ title: ITaskHandler::Resume
 author: windows-sdk-content
 description: Called to resume the COM handler.
 old-location: taskschd\itaskhandler_resume.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 69e82100-2f21-49a1-8ede-e106cb8f1a25
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Resume method, ITaskHandler.Resume, ITaskHandler::Resume, Resume, Resume method [Task Scheduler], Resume method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_resume, taskschd/ITaskHandler::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITaskHandler.Resume
-: 
 ---
 
 # ITaskHandler::Resume

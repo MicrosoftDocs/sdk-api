@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_open.htm
 tech.root: com
 ms.assetid: 46f801ae-ae03-4567-9442-cf3fbb6d06d7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IOleDocumentView interface [COM],Open method, IOleDocumentView.Open, IOleDocumentView::Open, Open, Open method [COM], Open method [COM],IOleDocumentView interface, _ole_ioledocumentview_open, com.ioledocumentview_open, docobj/IOleDocumentView::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- docobj.h
-: 
-- IOleDocumentView.Open
-: 
 ---
 
 # IOleDocumentView::Open

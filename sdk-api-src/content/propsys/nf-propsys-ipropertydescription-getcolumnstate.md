@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetColumnState.htm
 tech.root: properties
 ms.assetid: fcfb5905-884a-49ed-aa1d-acd3b95753bf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetColumnState, GetColumnState method [Windows Properties], GetColumnState method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetColumnState method, IPropertyDescription.GetColumnState, IPropertyDescription::GetColumnState, properties.IPropertyDescription_GetColumnState, propsys/IPropertyDescription::GetColumnState, shell.IPropertyDescription_GetColumnState, shell_IPropertyDescription_GetColumnState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- propsys.h
-: 
-- IPropertyDescription.GetColumnState
-: 
 ---
 
 # IPropertyDescription::GetColumnState
@@ -88,7 +80,7 @@ Always returns <b>S_OK</b>.
 
 
 
-The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773865(v=VS.85).aspx">displayInfo</a> element in the property's .propdesc file.
+The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element in the property's .propdesc file.
 
 
 
@@ -98,7 +90,7 @@ The value retrieved by this method is originally set through the <i>displayType<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

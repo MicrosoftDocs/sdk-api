@@ -4,10 +4,10 @@ title: "_CLUSTER_SHARED_VOLUME_STATE_INFO_EX"
 author: windows-sdk-content
 description: Represents information about the state of a Cluster Shared Volume (CSV).
 old-location: mscs\cluster_shared_volume_state_info_ex.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: B0926E1A-CA39-44FE-989C-B8BDD86F9683
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, CLUSTER_SHARED_VOLUME_STATE_INFO_EX, CLUSTER_SHARED_VOLUME_STATE_INFO_EX structure [Failover Cluster], PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, PCLUSTER_SHARED_VOLUME_STATE_INFO_EX structure pointer [Failover Cluster], RedirectedIOReasonBitLockerInitializing, RedirectedIOReasonFileSystemTiering, RedirectedIOReasonMax, RedirectedIOReasonReFs, RedirectedIOReasonUnsafeFileSystemFilter, RedirectedIOReasonUnsafeVolumeFilter, RedirectedIOReasonUserRequest, VolumeRedirectedIOReasonMax, VolumeRedirectedIOReasonNoDiskConnectivity, VolumeRedirectedIOReasonStorageSpaceNotAttached, VolumeRedirectedIOReasonVolumeReplicationEnabled, _CLUSTER_SHARED_VOLUME_STATE_INFO_EX, clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO_EX, clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, mscs.cluster_shared_volume_state_info_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ The node name of the node that hosts the CSV.
 
 ### -field VolumeState
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh706768(v=VS.85).aspx">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
+A <a href="https://msdn.microsoft.com/B27C110C-939F-42D4-960E-702CA1B141F9">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
 
 
 ### -field szVolumeFriendlyName
@@ -172,11 +172,11 @@ All reasons.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn622918(v=VS.85).aspx">CLUSTER_SHARED_VOLUME_STATE_INFO</a>
+<a href="https://msdn.microsoft.com/0E0DEF0B-C755-4B34-90D8-56BFEFEF2525">CLUSTER_SHARED_VOLUME_STATE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

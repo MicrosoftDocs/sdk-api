@@ -4,10 +4,10 @@ title: LdapUTF8ToUnicode function
 author: windows-sdk-content
 description: Used to translate strings for modules that do not have the UTF-8 code page.
 old-location: ldap\ldaputf8tounicode.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 4c36ce90-8cc6-4dee-b990-5d283613ba11
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: LdapUTF8ToUnicode, LdapUTF8ToUnicode function [LDAP], _ldap_ldaputf8tounicode, ldap.ldaputf8tounicode, winldap/LdapUTF8ToUnicode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LdapUTF8ToUnicode
-: 
 ---
 
 # LdapUTF8ToUnicode function

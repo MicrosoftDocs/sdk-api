@@ -4,10 +4,10 @@ title: ResUtilIsResourceClassEqual function
 author: windows-sdk-content
 description: Tests whether the resource class of a specified resource is equal to a specified resource class. The PRESUTIL_IS_RESOURCE_CLASS_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilisresourceclassequal.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 3200abd3-5f95-48c5-acd9-8094c0072039
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PRESUTIL_IS_RESOURCE_CLASS_EQUAL, PRESUTIL_IS_RESOURCE_CLASS_EQUAL function [Failover Cluster], ResUtilIsResourceClassEqual, ResUtilIsResourceClassEqual function [Failover Cluster], _wolf_resutilisresourceclassequal, mscs.resutilisresourceclassequal, resapi/PRESUTIL_IS_RESOURCE_CLASS_EQUAL, resapi/ResUtilIsResourceClassEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResUtilIsResourceClassEqual
-: 
 ---
 
 # ResUtilIsResourceClassEqual function

@@ -4,10 +4,10 @@ title: ISchedule
 author: windows-sdk-content
 description: Specifies when the data collector set runs.To get this interface, call the IScheduleCollection::CreateSchedule method.
 old-location: pla\ischedule.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: b02043c6-5010-45a1-a4a4-ce30cbf0dba0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISchedule, ISchedule interface [PLA], ISchedule interface [PLA],described, base.ischedule, pla.ischedule, pla/ISchedule
 ms.prod: windows-hardware
 ms.technology: windows-devices

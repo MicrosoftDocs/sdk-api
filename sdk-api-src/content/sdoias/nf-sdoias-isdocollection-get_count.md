@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sdoias.h
-: 
-- ISdoCollection.get_Count
-: 
 ---
 
 # ISdoCollection::get_Count

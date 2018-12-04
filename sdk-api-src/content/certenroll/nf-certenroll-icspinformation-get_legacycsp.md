@@ -4,10 +4,10 @@ title: ICspInformation::get_LegacyCsp
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the provider is a Cryptography API:\_Next Generation (CNG) provider or a CryptoAPI (legacy) CSP.
 old-location: security\icspinformation_legacycsp.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: f798401c-bc78-438d-8847-82a57589ce38
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICspInformation interface [Security],LegacyCsp property, ICspInformation.LegacyCsp, ICspInformation.get_LegacyCsp, ICspInformation::LegacyCsp, ICspInformation::get_LegacyCsp, LegacyCsp property [Security], LegacyCsp property [Security],ICspInformation interface, Microsoft Base Cryptographic Provider v1.0, Microsoft Base DSS Cryptographic Provider, Microsoft Base DSS and Diffie-Hellman Cryptographic Provider, Microsoft Base Smart Card Crypto Provider, Microsoft DH Schannel Cryptographic Provider, Microsoft Enhanced Cryptographic Provider v1.0, Microsoft Enhanced DSS and Diffie-Hellman Cryptographic Provider, Microsoft Enhanced RSA and AES Cryptographic Provider, Microsoft RSA Schannel Cryptographic Provider, Microsoft Smart Card Key Storage Provider, Microsoft Software Key Storage Provider, Microsoft Strong Cryptographic Provider, certenroll/ICspInformation::LegacyCsp, certenroll/ICspInformation::get_LegacyCsp, get_LegacyCsp, security.icspinformation_legacycsp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICspInformation.get_LegacyCsp
-: 
 ---
 
 # ICspInformation::get_LegacyCsp
@@ -72,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
  
 
  

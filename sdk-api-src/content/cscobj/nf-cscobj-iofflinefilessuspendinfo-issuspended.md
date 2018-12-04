@@ -4,10 +4,10 @@ title: IOfflineFilesSuspendInfo::IsSuspended
 author: windows-sdk-content
 description: Determines whether an item is suspended.
 old-location: of\iofflinefilessuspendinfo_issuspended.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 6f29793f-3b34-4280-b375-3739aefd74db
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesSuspendInfo interface [Offline Files],IsSuspended method, IOfflineFilesSuspendInfo.IsSuspended, IOfflineFilesSuspendInfo::IsSuspended, IsSuspended, IsSuspended method [Offline Files], IsSuspended method [Offline Files],IOfflineFilesSuspendInfo interface, cscobj/IOfflineFilesSuspendInfo::IsSuspended, of.iofflinefilessuspendinfo_issuspended
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesSuspendInfo.IsSuspended
-: 
 ---
 
 # IOfflineFilesSuspendInfo::IsSuspended
@@ -61,7 +53,7 @@ req.redist:
 
 Determines whether an item is suspended.
 
-If an item is suspended and is a suspended root, it was suspended by using the <a href="https://msdn.microsoft.com/en-us/library/Bb530622(v=VS.85).aspx">IOfflineFilesSuspend::SuspendRoot</a> method.  If an item is suspended but is not a suspended root, its suspension was inherited from a suspended root.
+If an item is suspended and is a suspended root, it was suspended by using the <a href="https://msdn.microsoft.com/5307bc8c-e6e9-4ae7-b2da-036fc9c5c08d">IOfflineFilesSuspend::SuspendRoot</a> method.  If an item is suspended but is not a suspended root, its suspension was inherited from a suspended root.
 
 
 ## -parameters
@@ -93,7 +85,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530620(v=VS.85).aspx">IOfflineFilesSuspendInfo</a>
+<a href="https://msdn.microsoft.com/b9f9e30e-df37-467e-ac59-7955e0eae3c0">IOfflineFilesSuspendInfo</a>
  
 
  

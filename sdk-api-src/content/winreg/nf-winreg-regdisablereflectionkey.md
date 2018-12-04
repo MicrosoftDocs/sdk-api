@@ -4,10 +4,10 @@ title: RegDisableReflectionKey function
 author: windows-sdk-content
 description: Disables registry reflection for the specified key. Disabling reflection for a key does not affect reflection of any subkeys.
 old-location: base\regdisablereflectionkey.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 294a1d28-d09f-44a3-8bc0-6fae50c3a8f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: RegDisableReflectionKey, RegDisableReflectionKey function, base.regdisablereflectionkey, winreg/RegDisableReflectionKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegDisableReflectionKey
-: 
 ---
 
 # RegDisableReflectionKey function

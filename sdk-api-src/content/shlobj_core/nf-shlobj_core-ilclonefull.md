@@ -7,7 +7,7 @@ old-location: shell\ILCloneFull.htm
 tech.root: shell
 ms.assetid: 60af0eb7-306a-45f8-b5ce-eb6451f380d5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ILCloneFull, ILCloneFull function [Windows Shell], _shell_ILCloneFull, shell.ILCloneFull, shlobj_core/ILCloneFull
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ILCloneFull
-: 
 ---
 
 # ILCloneFull function

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvolume9__getprivatedata.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__getprivatedata.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 1b475aea-86d8-9a27-8391-6760763a593e, GetPrivateData, GetPrivateData method [Direct3D 9], GetPrivateData method [Direct3D 9],IDirect3DVolume9 interface, IDirect3DVolume9 interface [Direct3D 9],GetPrivateData method, IDirect3DVolume9.GetPrivateData, IDirect3DVolume9::GetPrivateData, d3d9helper/IDirect3DVolume9::GetPrivateData, direct3d9.idirect3dvolume9__getprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d9helper.h
-: 
-- IDirect3DVolume9.GetPrivateData
-: 
 ---
 
 # IDirect3DVolume9::GetPrivateData
@@ -93,7 +85,7 @@ Pointer to the size of the buffer at
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_MOREDATA, D3DERR_NOTFOUND.
 
@@ -105,15 +97,15 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205932(v=VS.85).aspx">IDirect3DVolume9</a>
+<a href="https://msdn.microsoft.com/b157d2d1-5813-43a1-ac3a-000b13b1bb62">IDirect3DVolume9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205933(v=VS.85).aspx">IDirect3DVolume9::FreePrivateData</a>
+<a href="https://msdn.microsoft.com/d4e075e0-2cd7-4160-97d6-fd8c1a932529">IDirect3DVolume9::FreePrivateData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205939(v=VS.85).aspx">IDirect3DVolume9::SetPrivateData</a>
+<a href="https://msdn.microsoft.com/e6d49e44-2633-4a11-8361-f8ea3b2b7d37">IDirect3DVolume9::SetPrivateData</a>
  
 
  

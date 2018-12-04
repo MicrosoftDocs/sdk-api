@@ -7,7 +7,7 @@ old-location: dshow\idecimatevideoimage_resetdecimationimagesize.htm
 tech.root: DirectShow
 ms.assetid: cae80d57-d04a-4835-bb45-2198f36c0539
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDecimateVideoImage interface [DirectShow],ResetDecimationImageSize method, IDecimateVideoImage.ResetDecimationImageSize, IDecimateVideoImage::ResetDecimationImageSize, IDecimateVideoImageResetDecimationImageSize, ResetDecimationImageSize, ResetDecimationImageSize method [DirectShow], ResetDecimationImageSize method [DirectShow],IDecimateVideoImage interface, dshow.idecimatevideoimage_resetdecimationimagesize, strmif/IDecimateVideoImage::ResetDecimationImageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- strmif.h
-: 
-- IDecimateVideoImage.ResetDecimationImageSize
-: 
 ---
 
 # IDecimateVideoImage::ResetDecimationImageSize

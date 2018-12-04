@@ -7,7 +7,7 @@ old-location: shell\FreeIDListArrayChild.htm
 tech.root: shell
 ms.assetid: 89abceae-1aed-401d-82ab-57215ec22d00
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: FreeIDListArrayChild, FreeIDListArrayChild function [Windows Shell], _shell_FreeIDListArrayChild, shell.FreeIDListArrayChild, shobjidl_core/FreeIDListArrayChild
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FreeIDListArrayChild
-: 
 ---
 
 # FreeIDListArrayChild function

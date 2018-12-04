@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_debug_configuration.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_DEBUG_CONFIGURATION
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: XAUDIO2_DEBUG_CONFIGURATION, XAUDIO2_DEBUG_CONFIGURATION structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_debug_configuration, xaudio2/XAUDIO2_DEBUG_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains the new global debug configuration for XAudio2. Used with the <a href="https://msdn.microsoft.com/en-us/library/Ee418624(v=VS.85).aspx">SetDebugConfiguration</a> function.
+Contains the new global debug configuration for XAudio2. Used with the <a href="https://msdn.microsoft.com/765314AA-65CF-47B1-80B8-90C8B9C095B4">SetDebugConfiguration</a> function.
 
 
 ## -struct-fields

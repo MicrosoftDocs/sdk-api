@@ -4,10 +4,10 @@ title: IFsrmFileScreenTemplateManager::GetTemplate
 author: windows-sdk-content
 description: Retrieves the specified file screen template.
 old-location: fsrm\ifsrmfilescreentemplatemanager_gettemplate.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: e97149f6-8cf5-433c-a487-799322253e44
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FsrmFileScreenTemplateManager class [File Server Resource Manager],GetTemplate method, GetTemplate, GetTemplate method [File Server Resource Manager], GetTemplate method [File Server Resource Manager],FsrmFileScreenTemplateManager class, GetTemplate method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],GetTemplate method, IFsrmFileScreenTemplateManager.GetTemplate, IFsrmFileScreenTemplateManager::GetTemplate, fs.ifsrmfilescreentemplatemanager_gettemplate, fsrm.ifsrmfilescreentemplatemanager_gettemplate, fsrmscreen/IFsrmFileScreenTemplateManager::GetTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmscreen.h
-: 
-- IFsrmFileScreenTemplateManager.GetTemplate
-: 
 ---
 
 # IFsrmFileScreenTemplateManager::GetTemplate

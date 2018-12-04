@@ -4,10 +4,10 @@ title: IWSDUdpMessageParameters::GetRetransmitParams
 author: windows-sdk-content
 description: Retrieves the values that WSD uses to determine how often to repeat the message transmission.
 old-location: ncd\iwsdudpmessageparameters_getretransmitparams.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: c34d6320-c70b-410e-ae21-fba849dac62f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetRetransmitParams, GetRetransmitParams method, GetRetransmitParams method,IWSDUdpMessageParameters interface, IWSDUdpMessageParameters interface,GetRetransmitParams method, IWSDUdpMessageParameters.GetRetransmitParams, IWSDUdpMessageParameters::GetRetransmitParams, ncd.iwsdudpmessageparameters_getretransmitparams, wsdbase/IWSDUdpMessageParameters::GetRetransmitParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdbase.h
-: 
-- IWSDUdpMessageParameters.GetRetransmitParams
-: 
 ---
 
 # IWSDUdpMessageParameters::GetRetransmitParams

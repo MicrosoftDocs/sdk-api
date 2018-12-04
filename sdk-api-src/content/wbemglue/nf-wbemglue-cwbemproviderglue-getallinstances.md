@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemglue.h
-: 
-- CWbemProviderGlue.GetAllInstances
-: 
 ---
 
 # CWbemProviderGlue::GetAllInstances

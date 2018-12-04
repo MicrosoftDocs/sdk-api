@@ -4,10 +4,10 @@ title: IADsPathname::RemoveLeafElement
 author: windows-sdk-content
 description: Removes the last element from the directory path that has been set on the Pathname object.
 old-location: adsi\iadspathname_removeleafelement.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 90085c75-0a38-43e8-932e-2b89d167cfa5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsPathname interface [ADSI],RemoveLeafElement method, IADsPathname.RemoveLeafElement, IADsPathname::RemoveLeafElement, RemoveLeafElement, RemoveLeafElement method [ADSI], RemoveLeafElement method [ADSI],IADsPathname interface, _ds_iadspathname_removeleafelement, adsi.iadspathname__removeleafelement, adsi.iadspathname_removeleafelement, iads/IADsPathname::RemoveLeafElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsPathname.RemoveLeafElement
-: 
 ---
 
 # IADsPathname::RemoveLeafElement

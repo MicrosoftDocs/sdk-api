@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_pla_0001_0043_0011"
 author: windows-sdk-content
 description: Defines the actions that the data manager takes when it runs.
 old-location: pla\datamanagersteps.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: e647987d-e524-475e-a355-539cb3f04635
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DataManagerSteps, DataManagerSteps enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0011, base.datamanagersteps, pla.datamanagersteps, pla/DataManagerSteps, pla/plaCreateHtml, pla/plaCreateReport, pla/plaFolderActions, pla/plaResourceFreeing, pla/plaRunRules, plaCreateHtml, plaCreateReport, plaFolderActions, plaResourceFreeing, plaRunRules
 ms.prod: windows-hardware
 ms.technology: windows-devices

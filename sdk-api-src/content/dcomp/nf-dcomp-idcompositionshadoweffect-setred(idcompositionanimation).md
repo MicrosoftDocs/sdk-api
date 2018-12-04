@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionshadoweffect_setred_2.htm
 tech.root: directcomp
 ms.assetid: 91440FC9-DCDA-44F1-B227-56A628686272
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetRed method, IDCompositionShadowEffect.SetRed, IDCompositionShadowEffect.SetRed(IDCompositionAnimation), IDCompositionShadowEffect::SetRed, IDCompositionShadowEffect::SetRed(IDCompositionAnimation), SetRed, SetRed method [DirectComposition], SetRed method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetRed, directcomp.idcompositionshadoweffect_setred_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionShadowEffect.SetRed
-: 
 ---
 
 # IDCompositionShadowEffect::SetRed(IDCompositionAnimation)

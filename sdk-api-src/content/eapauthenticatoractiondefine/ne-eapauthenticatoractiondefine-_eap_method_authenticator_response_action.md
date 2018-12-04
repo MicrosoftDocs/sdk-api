@@ -4,10 +4,10 @@ title: "_EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION"
 author: windows-sdk-content
 description: Defines the set of response instructions sent by the authenticator to the supplicant or EAP peer method.
 old-location: eaphost\eap_method_authenticator_response_action.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 992336ec-65ef-48bf-947f-1d569c9bd4aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION, EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION enumeration [EAPHost], EAP_METHOD_AUTHENTICATOR_RESPONSE_AUTHENTICATE, EAP_METHOD_AUTHENTICATOR_RESPONSE_DISCARD, EAP_METHOD_AUTHENTICATOR_RESPONSE_HANDLE_IDENTITY, EAP_METHOD_AUTHENTICATOR_RESPONSE_RESPOND, EAP_METHOD_AUTHENTICATOR_RESPONSE_RESULT, EAP_METHOD_AUTHENTICATOR_RESPONSE_SEND, _EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION, eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION, eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_AUTHENTICATE, eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_DISCARD, eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_HANDLE_IDENTITY, eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_RESPOND, eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_RESULT, eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_SEND, eaphost.eap_method_authenticator_response_action
 ms.prod: windows-hardware
 ms.technology: windows-devices

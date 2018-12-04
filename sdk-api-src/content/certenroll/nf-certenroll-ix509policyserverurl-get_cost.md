@@ -4,10 +4,10 @@ title: IX509PolicyServerUrl::get_Cost
 author: windows-sdk-content
 description: Specifies and retrieves an arbitrary cost for contacting the certificate enrollment policy server.
 old-location: security\ix509policyserverurl_cost.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 8a188f11-6564-4d52-9b3d-ff7f14f9c127
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Cost property [Security], Cost property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Cost property, IX509PolicyServerUrl.Cost, IX509PolicyServerUrl.get_Cost, IX509PolicyServerUrl::Cost, IX509PolicyServerUrl::get_Cost, IX509PolicyServerUrl::put_Cost, certenroll/IX509PolicyServerUrl::Cost, certenroll/IX509PolicyServerUrl::get_Cost, certenroll/IX509PolicyServerUrl::put_Cost, get_Cost, security.ix509policyserverurl_cost
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509PolicyServerUrl.get_Cost
-: 
 ---
 
 # IX509PolicyServerUrl::get_Cost
@@ -73,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351734(v=VS.85).aspx">IX509PolicyServerUrl</a>
+<a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a>
  
 
  

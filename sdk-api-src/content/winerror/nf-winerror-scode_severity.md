@@ -7,7 +7,7 @@ old-location: com\scode_severity_macro.htm
 tech.root: com
 ms.assetid: a1193f0c-e53e-4e63-b801-f1237bee29a1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: SCODE_SEVERITY, SCODE_SEVERITY macro [COM], _com_SCODE_SEVERITY, com.scode_severity, com.scode_severity_macro, winerror/SCODE_SEVERITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winerror.h
-: 
-- SCODE_SEVERITY
-: 
 ---
 
 # SCODE_SEVERITY macro

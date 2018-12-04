@@ -4,10 +4,10 @@ title: IRdcFileReader::Read
 author: windows-sdk-content
 description: Reads the specified amount of data starting at the specified position.
 old-location: rdc\irdcfilereader_read.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 194944c8-94a8-4f9b-9970-012392e069b1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IRdcFileReader interface [Remote Differential Compression],Read method, IRdcFileReader.Read, IRdcFileReader::Read, Read, Read method [Remote Differential Compression], Read method [Remote Differential Compression],IRdcFileReader interface, fs.irdcfilereader_read, msrdc/IRdcFileReader::Read, rdc.irdcfilereader_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- IRdcFileReader.Read
-: 
 ---
 
 # IRdcFileReader::Read

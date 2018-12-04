@@ -4,10 +4,10 @@ title: IWindowsDriverUpdate4
 author: windows-sdk-content
 description: Contains the properties and methods that are available only from a Windows driver update.
 old-location: wua\iwindowsdriverupdate4.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 3376c93a-4705-432a-8475-89e4448e5bc3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWindowsDriverUpdate4, IWindowsDriverUpdate4 interface [Windows Update Agent], IWindowsDriverUpdate4 interface [Windows Update Agent],described, wua.iwindowsdriverupdate4, wuapi/IWindowsDriverUpdate4
 ms.prod: windows-hardware
 ms.technology: windows-devices

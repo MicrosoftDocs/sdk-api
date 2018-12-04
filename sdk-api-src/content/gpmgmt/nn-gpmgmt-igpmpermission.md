@@ -4,10 +4,10 @@ title: IGPMPermission
 author: windows-sdk-content
 description: The IGPMPermission interface contains methods to retrieve permission-related properties when using the GPMC.
 old-location: gpmc\igpmpermission.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 7ac19065-571e-45f5-934f-35ddbf225262
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GPMPermission, IGPMPermission, IGPMPermission interface [GPMC], IGPMPermission interface [GPMC],described, _win32_igpmpermission, gpmc.igpmpermission, gpmgmt/IGPMPermission
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -332,7 +332,7 @@ For more information about security groups, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

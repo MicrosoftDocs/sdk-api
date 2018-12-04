@@ -7,7 +7,7 @@ old-location: intl\immgetdefaultimewnd.htm
 tech.root: Intl
 ms.assetid: fc3cdfc2-fcdc-4682-b391-83ea4bb1571f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ImmGetDefaultIMEWnd, ImmGetDefaultIMEWnd function [Internationalization for Windows Applications], _win32_ImmGetDefaultIMEWnd, imm/ImmGetDefaultIMEWnd, intl.immgetdefaultimewnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ImmGetDefaultIMEWnd
-: 
 ---
 
 # ImmGetDefaultIMEWnd function

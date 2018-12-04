@@ -4,10 +4,10 @@ title: HttpSendRequestExW function
 author: windows-sdk-content
 description: Sends the specified request to the HTTP server.
 old-location: wininet\httpsendrequestex.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 3362fcd2-e8df-4886-9525-bf60589b2c1f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: HttpSendRequestEx, HttpSendRequestEx function [WinINet], HttpSendRequestExA, HttpSendRequestExW, _win32_httpsendrequestex, wininet.httpsendrequestex, wininet/HttpSendRequestEx, wininet/HttpSendRequestExA, wininet/HttpSendRequestExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HttpSendRequestExW
-: 
 ---
 
 # HttpSendRequestExW function

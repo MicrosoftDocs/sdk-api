@@ -4,10 +4,10 @@ title: IFolderAction::put_SendCabTo
 author: windows-sdk-content
 description: Retrieves or sets the destination of the cabinet file if the action is to send a cabinet file.
 old-location: pla\ifolderaction_sendcabto.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: a6398d07-f15d-401b-a3b6-21b2506ad270
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFolderAction interface [PLA],SendCabTo property, IFolderAction.SendCabTo, IFolderAction.put_SendCabTo, IFolderAction::SendCabTo, IFolderAction::get_SendCabTo, IFolderAction::put_SendCabTo, SendCabTo property [PLA], SendCabTo property [PLA],IFolderAction interface, base.ifolderaction_sendcabto, pla.ifolderaction_sendcabto, pla/IFolderAction::SendCabTo, pla/IFolderAction::get_SendCabTo, pla/IFolderAction::put_SendCabTo, put_SendCabTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IFolderAction.put_SendCabTo
-: 
 ---
 
 # IFolderAction::put_SendCabTo

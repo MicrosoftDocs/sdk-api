@@ -4,10 +4,10 @@ title: IX509Enrollment::get_CertificateDescription
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains a description of the certificate.
 old-location: security\ix509enrollment_certificatedescription_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 5057770b-79b1-4c83-bf2e-bff1eb91aea0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CertificateDescription property [Security], CertificateDescription property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CertificateDescription property, IX509Enrollment.CertificateDescription, IX509Enrollment.get_CertificateDescription, IX509Enrollment::CertificateDescription, IX509Enrollment::get_CertificateDescription, IX509Enrollment::put_CertificateDescription, certenroll/IX509Enrollment::CertificateDescription, certenroll/IX509Enrollment::get_CertificateDescription, certenroll/IX509Enrollment::put_CertificateDescription, get_CertificateDescription, security.ix509enrollment_certificatedescription_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509Enrollment.get_CertificateDescription
-: 
 ---
 
 # IX509Enrollment::get_CertificateDescription
@@ -73,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a>
+<a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>
  
 
  

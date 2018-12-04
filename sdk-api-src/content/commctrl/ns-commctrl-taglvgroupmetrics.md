@@ -4,10 +4,10 @@ title: tagLVGROUPMETRICS
 author: windows-sdk-content
 description: Contains information about the display of groups in a list-view control.
 old-location: controls\LVGROUPMETRICS.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvgroupmetrics.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*PLVGROUPMETRICS, LVGROUPMETRICS, LVGROUPMETRICS structure [Windows Controls], PLVGROUPMETRICS, PLVGROUPMETRICS structure pointer [Windows Controls], commctrl/LVGROUPMETRICS, commctrl/PLVGROUPMETRICS, controls.LVGROUPMETRICS, controls.inet_LVGROUPMETRICS, inet_LVGROUPMETRICS, inet_LVGROUPMETRICS_cpp, tagLVGROUPMETRICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,14 @@ Contains information about the display of groups in a list-view control.
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Size of the <b>LVGROUPMETRICS</b> structure.
 
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Flags that specify which members contain or are to receive valid data. Can be one or more of the following values.
 
@@ -126,28 +126,28 @@ Not implemented.
 
 ### -field Left
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Specifies the width of the left border in icon, small icon, or tile view.
 
 
 ### -field Top
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Specifies the width of the top border in all group views.
 
 
 ### -field Right
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Specifies the width of the right border in icon, small icon, or tile view.
 
 
 ### -field Bottom
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Specifies the width of the bottom border in all group views.
 
@@ -209,19 +209,19 @@ The width of a border determines the margins of the area within which items are 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774934(v=VS.85).aspx">LVM_GETGROUPMETRICS</a>
+<a href="https://msdn.microsoft.com/75e7da66-50c6-4834-ae66-e43b8f9b0b34">LVM_GETGROUPMETRICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761168(v=VS.85).aspx">LVM_SETGROUPMETRICS</a>
+<a href="https://msdn.microsoft.com/268b478d-da1f-4efe-9ee9-af3f12e089ee">LVM_SETGROUPMETRICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761284(v=VS.85).aspx">ListView_GetGroupMetrics</a>
+<a href="https://msdn.microsoft.com/dea34509-b785-4e45-a11a-d0a2e157b6d0">ListView_GetGroupMetrics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775080(v=VS.85).aspx">ListView_SetGroupMetrics</a>
+<a href="https://msdn.microsoft.com/236799ba-3049-4bf8-ae28-0b1a064d3587">ListView_SetGroupMetrics</a>
 
 
 

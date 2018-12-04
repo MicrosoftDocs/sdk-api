@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10stateblock_getdevice.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10stateblock_getdevice.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetDevice, GetDevice method [Direct3D 10], GetDevice method [Direct3D 10],ID3D10StateBlock interface, ID3D10StateBlock interface [Direct3D 10],GetDevice method, ID3D10StateBlock.GetDevice, ID3D10StateBlock::GetDevice, b2a223f6-7ac1-1a6c-ad4e-c3b0032e74b9, d3d10effect/ID3D10StateBlock::GetDevice, direct3d10.id3d10stateblock_getdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10effect.h
-: 
-- ID3D10StateBlock.GetDevice
-: 
 ---
 
 # ID3D10StateBlock::GetDevice
@@ -69,7 +61,7 @@ Get the device.
 
 ### -param ppDevice [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>**</b>
 
 Pointer to the ID3D10Device interface that is returned.
 
@@ -78,9 +70,9 @@ Pointer to the ID3D10Device interface that is returned.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -90,7 +82,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173856(v=VS.85).aspx">ID3D10StateBlock Interface</a>
+<a href="https://msdn.microsoft.com/3705e8e6-f25f-4943-8c41-09fa6de02932">ID3D10StateBlock Interface</a>
  
 
  

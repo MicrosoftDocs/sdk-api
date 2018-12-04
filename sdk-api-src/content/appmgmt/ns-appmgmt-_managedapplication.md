@@ -4,10 +4,10 @@ title: "_MANAGEDAPPLICATION"
 author: windows-sdk-content
 description: The MANAGEDAPPLICATION structure contains information about an application. The function GetManagedApplications returns an array of MANAGEDAPPLICATION structures.
 old-location: policy\managedapplication_str.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: 8ac78f92-e665-4dd0-b226-6bf41dcd050a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PMANAGEDAPPLICATION, MANAGEDAPPLICATION, MANAGEDAPPLICATION structure [Group Policy], MANAGED_APPTYPE_SETUPEXE, MANAGED_APPTYPE_UNSUPPORTED, MANAGED_APPTYPE_WINDOWSINSTALLER, PMANAGEDAPPLICATION, PMANAGEDAPPLICATION structure pointer [Group Policy], _MANAGEDAPPLICATION, appmgmt/MANAGEDAPPLICATION, appmgmt/PMANAGEDAPPLICATION, policy.managedapplication_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ The user-friendly name for the GPO from which this application is deployed.
 
 ### -field ProductId
 
-If this application is installed by <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a>, this member is the ProductId GUID.
+If this application is installed by <a href="setup.windows_installer_start_page">Windows Installer</a>, this member is the ProductId GUID.
 
 
 ### -field Language
@@ -136,7 +136,7 @@ Indicates the type of package used to install the application. This member can h
 
 #### MANAGED_APPTYPE_WINDOWSINSTALLER
 
-The application is installed using the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a>.
+The application is installed using the <a href="setup.windows_installer_start_page">Windows Installer</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnectioncallback_getconnectionid.htm
 tech.root: termserv
 ms.assetid: 2EE03CA1-25D5-4B03-A2F1-EC167BD694B3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetConnectionId, GetConnectionId method [Remote Desktop Services], GetConnectionId method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, IWRdsProtocolConnectionCallback interface [Remote Desktop Services],GetConnectionId method, IWRdsProtocolConnectionCallback.GetConnectionId, IWRdsProtocolConnectionCallback::GetConnectionId, termserv.iwrdsprotocolconnectioncallback_getconnectionid, wtsprotocol/IWRdsProtocolConnectionCallback::GetConnectionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wtsprotocol.h
-: 
-- IWRdsProtocolConnectionCallback.GetConnectionId
-: 
 ---
 
 # IWRdsProtocolConnectionCallback::GetConnectionId

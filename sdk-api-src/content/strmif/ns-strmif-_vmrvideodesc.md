@@ -7,7 +7,7 @@ old-location: dshow\vmrvideodesc.htm
 tech.root: DirectShow
 ms.assetid: b02683ec-9bf9-4a69-87fb-d37a98f02e61
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FALSE, TRUE, VMRVideoDesc, VMRVideoDesc structure [DirectShow], VMRVideoDescStructure, _VMRVideoDesc, dshow.vmrvideodesc, strmif/VMRVideoDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

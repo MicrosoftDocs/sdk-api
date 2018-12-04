@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectiontype_implementsinterface.htm
 tech.root: direct3d11
 ms.assetid: 783f6026-10d1-4b24-a2d8-bbe26ae450eb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 806550ed-6d2f-16a0-b48b-9510e852ab3b, ID3D11ShaderReflectionType interface [Direct3D 11],ImplementsInterface method, ID3D11ShaderReflectionType.ImplementsInterface, ID3D11ShaderReflectionType::ImplementsInterface, ImplementsInterface, ImplementsInterface method [Direct3D 11], ImplementsInterface method [Direct3D 11],ID3D11ShaderReflectionType interface, d3d11shader/ID3D11ShaderReflectionType::ImplementsInterface, direct3d11.id3d11shaderreflectiontype_implementsinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11shader.h
-: 
-- ID3D11ShaderReflectionType.ImplementsInterface
-: 
 ---
 
 # ID3D11ShaderReflectionType::ImplementsInterface
@@ -68,16 +60,16 @@ Indicates whether a class type implements an interface.
 
 ### -param pBase [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if the interface is implemented; otherwise return S_FALSE.
 
@@ -98,7 +90,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>
+<a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>
  
 
  

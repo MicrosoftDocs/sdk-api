@@ -4,10 +4,10 @@ title: IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: base\ivsssnapshotmgmt_queryvolumessupportedforsnapshots.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: c3c4f0a1-eff5-4e83-8a1d-16e007bd119a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssSnapshotMgmt interface [VSS],QueryVolumesSupportedForSnapshots method, IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots, IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots, QueryVolumesSupportedForSnapshots, QueryVolumesSupportedForSnapshots method [VSS], QueryVolumesSupportedForSnapshots method [VSS],IVssSnapshotMgmt interface, base.ivsssnapshotmgmt_queryvolumessupportedforsnapshots, vsmgmt/IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsmgmt.h
-: 
-- IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots
-: 
 ---
 
 # IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots

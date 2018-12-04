@@ -4,10 +4,10 @@ title: INetFwService::get_Customized
 author: windows-sdk-content
 description: Indicates whether at least one of the ports associated with the service has been customized.
 old-location: ics\inetfwservice_customized.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 6c26863a-b0eb-4e5a-b3a9-0129ab9a4df2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Customized property [ICS/ICF], Customized property [ICS/ICF],INetFwService interface, INetFwService interface [ICS/ICF],Customized property, INetFwService.Customized, INetFwService.get_Customized, INetFwService::Customized, INetFwService::get_Customized, get_Customized, ics.inetfwservice_customized, netfw/INetFwService::Customized, netfw/INetFwService::get_Customized
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwService.get_Customized
-: 
 ---
 
 # INetFwService::get_Customized

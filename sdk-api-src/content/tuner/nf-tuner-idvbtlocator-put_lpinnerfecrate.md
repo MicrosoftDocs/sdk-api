@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IDVBTLocator.put_LPInnerFECRate
-: 
 ---
 
 # IDVBTLocator::put_LPInnerFECRate

@@ -7,7 +7,7 @@ old-location: menurc\charlowerbuff.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charlowerbuff.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CharLowerBuff, CharLowerBuff function [Menus and Other Resources], CharLowerBuffA, CharLowerBuffW, _win32_CharLowerBuff, _win32_charlowerbuff_cpp, menurc.charlowerbuff, winui._win32_charlowerbuff, winuser/CharLowerBuff, winuser/CharLowerBuffA, winuser/CharLowerBuffW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CharLowerBuffW
-: 
 ---
 
 # CharLowerBuffW function
@@ -113,7 +107,7 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 #### Examples
 
-For an example, see "Creating a Spell Dialog Box" in <a href="https://msdn.microsoft.com/en-us/library/Bb775794(v=VS.85).aspx">Using Combo Boxes</a>. 
+For an example, see "Creating a Spell Dialog Box" in <a href="_win32_Using_Combo_Boxes">Using Combo Boxes</a>. 
 
 
 
@@ -126,15 +120,15 @@ For an example, see "Creating a Spell Dialog Box" in <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx">CharLower</a>
+<a href="https://msdn.microsoft.com/b67786aa-d629-4d23-b4cb-efb43282ca02">CharLower</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647474(v=VS.85).aspx">CharUpper</a>
+<a href="https://msdn.microsoft.com/4a101fb6-8b90-479b-93dc-3f768e9b952a">CharUpper</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647475(v=VS.85).aspx">CharUpperBuff</a>
+<a href="https://msdn.microsoft.com/774619cf-ed37-4342-b265-8125693fede5">CharUpperBuff</a>
 
 
 
@@ -146,7 +140,7 @@ For an example, see "Creating a Spell Dialog Box" in <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

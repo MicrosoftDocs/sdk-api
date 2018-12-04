@@ -7,7 +7,7 @@ old-location: tsf\ienumtfinputprocessorprofiles.htm
 tech.root: TSF
 ms.assetid: 1a6dd7f9-d348-4c86-8d74-544aaa45581d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumTfInputProcessorProfiles, IEnumTfInputProcessorProfiles interface [Text Services Framework], IEnumTfInputProcessorProfiles interface [Text Services Framework],described, _tsf_ienumtfinputprocessorprofiles_ref, msctf/IEnumTfInputProcessorProfiles, tsf.ienumtfinputprocessorprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

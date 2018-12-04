@@ -4,10 +4,10 @@ title: INetworkConnectionEvents::NetworkConnectionPropertyChanged
 author: windows-sdk-content
 description: The NetworkConnectionPropertyChanged method notifies a client when property change events related to a specific network connection occur.
 old-location: nla\inetworkconnectionevents_networkconnectionpropertychange.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 38c6a422-9291-4136-ac81-b634040138b3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetworkConnectionEvents interface [Network Awareness],NetworkConnectionPropertyChanged method, INetworkConnectionEvents.NetworkConnectionPropertyChanged, INetworkConnectionEvents::NetworkConnectionPropertyChanged, NetworkConnectionPropertyChanged, NetworkConnectionPropertyChanged method [Network Awareness], NetworkConnectionPropertyChanged method [Network Awareness],INetworkConnectionEvents interface, netlistmgr/INetworkConnectionEvents::NetworkConnectionPropertyChanged, nla.inetworkconnectionevents_networkconnectionpropertychange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netlistmgr.h
-: 
-- INetworkConnectionEvents.NetworkConnectionPropertyChanged
-: 
 ---
 
 # INetworkConnectionEvents::NetworkConnectionPropertyChanged

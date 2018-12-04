@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Get_DevNode_Registry_PropertyW
-: 
 ---
 
 # CM_Get_DevNode_Registry_PropertyW function

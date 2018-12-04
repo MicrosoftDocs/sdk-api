@@ -4,10 +4,10 @@ title: IVssFileShareSnapshotProvider::SetSnapshotProperty
 author: windows-sdk-content
 description: Requests the provider to set a property value for the specified snapshot.
 old-location: base\ivssfilesharesnapshotprovider_setsnapshotproperty.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 62a3a189-b14c-434d-98b9-ea4c247e2439
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetSnapshotProperty method, IVssFileShareSnapshotProvider.SetSnapshotProperty, IVssFileShareSnapshotProvider::SetSnapshotProperty, SetSnapshotProperty, SetSnapshotProperty method [VSS], SetSnapshotProperty method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_setsnapshotproperty, vsprov/IVssFileShareSnapshotProvider::SetSnapshotProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsprov.h
-: 
-- IVssFileShareSnapshotProvider.SetSnapshotProperty
-: 
 ---
 
 # IVssFileShareSnapshotProvider::SetSnapshotProperty

@@ -4,10 +4,10 @@ title: NetErrorLogRead function
 author: windows-sdk-content
 description: The NetErrorLogRead function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
 old-location: netmgmt\neterrorlogread.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 90f86d91-e19e-4386-b263-5479680bc6f7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetErrorLogRead, NetErrorLogRead function [Network Management], _win32_neterrorlogread, lmerrlog/NetErrorLogRead, netmgmt.neterrorlogread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetErrorLogRead
-: 
 ---
 
 # NetErrorLogRead function

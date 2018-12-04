@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface1_getkerningpairadjustments.htm
 tech.root: DirectWrite
 ms.assetid: DA837B04-85BC-4A3B-A6FE-24D5AFD21B14
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetKerningPairAdjustments, GetKerningPairAdjustments method [Direct Write], GetKerningPairAdjustments method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetKerningPairAdjustments method, IDWriteFontFace1.GetKerningPairAdjustments, IDWriteFontFace1::GetKerningPairAdjustments, directwrite.idwritefontface1_getkerningpairadjustments, dwrite_1/IDWriteFontFace1::GetKerningPairAdjustments
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_1.h
-: 
-- IDWriteFontFace1.GetKerningPairAdjustments
-: 
 ---
 
 # IDWriteFontFace1::GetKerningPairAdjustments

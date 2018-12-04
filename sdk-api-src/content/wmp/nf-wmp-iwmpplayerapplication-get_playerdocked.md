@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerapplication_get_playerdocked.htm
 tech.root: WMP
 ms.assetid: ca590b80-433d-4a9f-9d6b-cbb33d328fda
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMPPlayerApplication interface [Windows Media Player],get_playerDocked method, IWMPPlayerApplication.get_playerDocked, IWMPPlayerApplication::get_playerDocked, IWMPPlayerApplicationget_playerDocked, get_playerDocked, get_playerDocked method [Windows Media Player], get_playerDocked method [Windows Media Player],IWMPPlayerApplication interface, wmp.iwmpplayerapplication_get_playerdocked, wmp/IWMPPlayerApplication::get_playerDocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmp.h
-: 
-- IWMPPlayerApplication.get_playerDocked
-: 
 ---
 
 # IWMPPlayerApplication::get_playerDocked

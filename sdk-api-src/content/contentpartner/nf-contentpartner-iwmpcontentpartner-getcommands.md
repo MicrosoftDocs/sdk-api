@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_getcommands.htm
 tech.root: WMP
 ms.assetid: bc6dfd97-50bb-438c-9cd6-3eac91e99cab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetCommands, GetCommands method [Windows Media Player], GetCommands method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetCommands method, IWMPContentPartner.GetCommands, IWMPContentPartner::GetCommands, IWMPContentPartnerGetCommands, contentpartner/IWMPContentPartner::GetCommands, wmp.iwmpcontentpartner_getcommands
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- contentpartner.h
-: 
-- IWMPContentPartner.GetCommands
-: 
 ---
 
 # IWMPContentPartner::GetCommands
@@ -73,7 +65,7 @@ The <b>GetCommands</b> method retrieves context menu commands.
 
 ### -param location [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd563765(v=VS.85).aspx">library location constant</a> that specifies the type of library view where the user right-clicked. For example, the constant g_szCPGenreID indicates that the user right-clicked in the view of a particular genre
+A <a href="https://msdn.microsoft.com/88ff9b91-6b21-4f7d-ae13-e8456a3e0f75">library location constant</a> that specifies the type of library view where the user right-clicked. For example, the constant g_szCPGenreID indicates that the user right-clicked in the view of a particular genre
 
 
 ### -param pLocationContext [in]
@@ -103,7 +95,7 @@ The number of elements in the <i>pprgItems</i> array.
 
 ### -param pprgItems [out]
 
-Address of a variable that receives a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd564694(v=VS.85).aspx">WMPContextMenuInfo</a> structures.
+Address of a variable that receives a pointer to an array of <a href="https://msdn.microsoft.com/a37ddbe1-7c66-4060-b93d-bd494cdc4521">WMPContextMenuInfo</a> structures.
 
 
 ## -returns
@@ -148,7 +140,7 @@ This method must call <b>CoTaskMemAlloc</b> to allocate the array that it return
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

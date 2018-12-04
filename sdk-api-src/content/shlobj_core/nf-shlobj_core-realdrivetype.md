@@ -7,7 +7,7 @@ old-location: shell\RealDriveType.htm
 tech.root: shell
 ms.assetid: c4e55b50-637a-446f-aa9c-7d8c71d8071c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: RealDriveType, RealDriveType function [Windows Shell], _win32_RealDriveType, shell.RealDriveType, shlobj_core/RealDriveType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RealDriveType
-: 
 ---
 
 # RealDriveType function

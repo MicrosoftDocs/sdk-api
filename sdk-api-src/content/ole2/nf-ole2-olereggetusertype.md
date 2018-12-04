@@ -7,7 +7,7 @@ old-location: com\olereggetusertype.htm
 tech.root: com
 ms.assetid: 492a4084-494e-4d78-8f3a-853ec486a2d6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: OleRegGetUserType, OleRegGetUserType function [COM], _com_OleRegGetUserType, com.olereggetusertype, ole2/OleRegGetUserType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OleRegGetUserType
-: 
 ---
 
 # OleRegGetUserType function

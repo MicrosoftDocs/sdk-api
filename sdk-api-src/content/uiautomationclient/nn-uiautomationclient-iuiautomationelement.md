@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement.htm
 tech.root: WinAuto
 ms.assetid: 9e1f87b1-a204-4ca9-acf2-a40277012207
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], IUIAutomationElement interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationElement, uiauto_IUIAutomationElement, uiautomationclient/IUIAutomationElement, winauto.uiauto_IUIAutomationElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

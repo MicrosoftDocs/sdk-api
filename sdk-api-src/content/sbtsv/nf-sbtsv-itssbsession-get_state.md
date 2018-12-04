@@ -7,7 +7,7 @@ old-location: termserv\itssbsession_state.htm
 tech.root: termserv
 ms.assetid: 4e769ff7-2bd5-4fcb-b2d7-4dedc853482b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],State property, ITsSbSession.State, ITsSbSession.get_State, ITsSbSession::State, ITsSbSession::get_State, ITsSbSession::put_State, State property [Remote Desktop Services], State property [Remote Desktop Services],ITsSbSession interface, get_State, sbtsv/ITsSbSession::State, sbtsv/ITsSbSession::get_State, sbtsv/ITsSbSession::put_State, termserv.itssbsession_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbtsv.h
-: 
-- ITsSbSession.get_State
-: 
 ---
 
 # ITsSbSession::get_State

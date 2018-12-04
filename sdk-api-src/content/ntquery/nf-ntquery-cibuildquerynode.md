@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CIBuildQueryNode
-: 
 ---
 
 # CIBuildQueryNode function
@@ -56,7 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Builds one node of a query restriction tree for a Command object.
 
@@ -73,17 +67,17 @@ A pointer to a null-terminated string that specifies the friendly name for a pro
 
 ### -param dbOperator
 
-The operation to be performed on the node. See <a href="https://msdn.microsoft.com/en-us/library/ms690290(v=VS.85).aspx">DBCOMMANDOP</a>.
+The operation to be performed on the node. See <a href="https://msdn.microsoft.com/564e287b-ab3c-484e-8818-1d24ba5246ce">DBCOMMANDOP</a>.
 
 
 ### -param pvarPropertyValue
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> structure for the value to use for the <i>wcsProperty</i> parameter.
+A pointer to the <a href="_stg_propvariant">PROPVARIANT</a> structure for the value to use for the <i>wcsProperty</i> parameter.
 
 
 ### -param ppTree
 
-A pointer to an output variable that receives the pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure for the node created by this function. 
+A pointer to an output variable that receives the pointer to the <a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a> structure for the node created by this function. 
 
 
 
@@ -94,7 +88,7 @@ The number of properties in the <i>pProperty</i> array.
 
 ### -param pProperty
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms690848(v=VS.85).aspx">CIPROPERTYDEF</a> structures, each of which describes a property that can be referred to by a friendly name. This array is populated when <i>pvarPropertyValue</i> contains a string that contains references to properties. This parameter can be <b>NULL</b> when <i>cProperties</i> equals zero.
+A pointer to an array of <a href="https://msdn.microsoft.com/36476b0d-7c8e-45db-b7eb-5ae710495e46">CIPROPERTYDEF</a> structures, each of which describes a property that can be referred to by a friendly name. This array is populated when <i>pvarPropertyValue</i> contains a string that contains references to properties. This parameter can be <b>NULL</b> when <i>cProperties</i> equals zero.
 
 
 ### -param LocaleID
@@ -189,7 +183,7 @@ An unknown error has occurred.
 
 
 
-Use nodes created by the <b>CIBuildQueryNode</b> function to create or add to a query tree using the <a href="https://msdn.microsoft.com/en-us/library/ms690980(v=VS.85).aspx">CIBuildQueryTree</a> function. Content properties are in turn passed to the <a href="https://msdn.microsoft.com/en-us/library/ms690937(v=VS.85).aspx">CITextToSelectTree</a> function to create the <b>SELECT</b> part of the full tree.
+Use nodes created by the <b>CIBuildQueryNode</b> function to create or add to a query tree using the <a href="https://msdn.microsoft.com/3c26eed6-4fca-4619-8cc5-420ce05d1e6b">CIBuildQueryTree</a> function. Content properties are in turn passed to the <a href="https://msdn.microsoft.com/333fb241-f484-4d79-89cd-9b1d8240b8a8">CITextToSelectTree</a> function to create the <b>SELECT</b> part of the full tree.
 
 
 
@@ -199,31 +193,31 @@ Use nodes created by the <b>CIBuildQueryNode</b> function to create or add to a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690980(v=VS.85).aspx">CIBuildQueryTree</a>
+<a href="https://msdn.microsoft.com/3c26eed6-4fca-4619-8cc5-420ce05d1e6b">CIBuildQueryTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690933(v=VS.85).aspx">CITextToFullTree</a>
+<a href="https://msdn.microsoft.com/679b96f7-43b3-44c1-86dd-e995bb9a9c53">CITextToFullTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690845(v=VS.85).aspx">CITextToFullTreeEx</a>
+<a href="https://msdn.microsoft.com/095debd6-242f-4449-b5d7-1c2cae232bf4">CITextToFullTreeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690937(v=VS.85).aspx">CITextToSelectTree</a>
+<a href="https://msdn.microsoft.com/333fb241-f484-4d79-89cd-9b1d8240b8a8">CITextToSelectTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691026(v=VS.85).aspx">CITextToSelectTreeEx</a>
+<a href="https://msdn.microsoft.com/8d59e0f4-2c80-4d63-938b-91e7360c039b">CITextToSelectTreeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690290(v=VS.85).aspx">DBCOMMANDOP</a>
+<a href="https://msdn.microsoft.com/564e287b-ab3c-484e-8818-1d24ba5246ce">DBCOMMANDOP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a>
+<a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a>
  
 
  

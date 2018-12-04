@@ -7,7 +7,7 @@ old-location: wmformat\wmt_filesink_mode.htm
 tech.root: wmformat
 ms.assetid: 27846996-1957-4b19-91da-feeef477b06a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WMT_FILESINK_MODE, WMT_FILESINK_MODE enumeration [windows Media Format], WMT_FM_FILESINK_DATA_UNITS, WMT_FM_FILESINK_UNBUFFERED, WMT_FM_SINGLE_BUFFERS, tagWMT_FILESINK_MODE, wmformat.wmt_filesink_mode, wmsdkidl/WMT_FILESINK_MODE, wmsdkidl/WMT_FM_FILESINK_DATA_UNITS, wmsdkidl/WMT_FM_FILESINK_UNBUFFERED, wmsdkidl/WMT_FM_SINGLE_BUFFERS
 ms.prod: windows-hardware
 ms.technology: windows-devices

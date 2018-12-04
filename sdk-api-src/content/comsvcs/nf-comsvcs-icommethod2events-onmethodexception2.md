@@ -7,7 +7,7 @@ old-location: cos\icommethod2events_onmethodexception2.htm
 tech.root: cossdk
 ms.assetid: a797a578-2d0d-45f0-820a-2616f6c65a42
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IComMethod2Events interface [COM+],OnMethodException2 method, IComMethod2Events.OnMethodException2, IComMethod2Events::OnMethodException2, OnMethodException2, OnMethodException2 method [COM+], OnMethodException2 method [COM+],IComMethod2Events interface, _dtc_IComMethod2Events_OnMethodException2, comsvcs/IComMethod2Events::OnMethodException2, cos.icommethod2events_onmethodexception2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- IComMethod2Events.OnMethodException2
-: 
 ---
 
 # IComMethod2Events::OnMethodException2

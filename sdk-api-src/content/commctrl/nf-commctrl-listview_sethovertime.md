@@ -4,10 +4,10 @@ title: ListView_SetHoverTime macro
 author: windows-sdk-content
 description: Sets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the LVM_SETHOVERTIME message explicitly.
 old-location: controls\ListView_SetHoverTime.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethovertime.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ListView_SetHoverTime, ListView_SetHoverTime macro [Windows Controls], _win32_ListView_SetHoverTime, _win32_ListView_SetHoverTime_cpp, commctrl/ListView_SetHoverTime, controls.ListView_SetHoverTime, controls._win32_ListView_SetHoverTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- ListView_SetHoverTime
-: 
 ---
 
 # ListView_SetHoverTime macro
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761174(v=VS.85).aspx">LVM_SETHOVERTIME</a> message explicitly. 
+Sets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/454fbc38-f7fd-4dea-b223-56003b88528f">LVM_SETHOVERTIME</a> message explicitly. 
 
 
 ## -parameters
@@ -68,14 +60,14 @@ Sets the amount of time that the mouse cursor must hover over an item before it 
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 
 
 ### -param dwHoverTimeMs
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 The new amount of time, in milliseconds, that the mouse cursor must hover over an item before it is selected. If this value is (<b>DWORD</b>)-1, then the hover time is set to the default hover time. 
 
@@ -84,7 +76,7 @@ The new amount of time, in milliseconds, that the mouse cursor must hover over a
 
 
 
-The hover time only affects list-view controls that have the <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">LVS_EX_TRACKSELECT</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">LVS_EX_ONECLICKACTIVATE</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">LVS_EX_TWOCLICKACTIVATE</a> extended list-view style. 
+The hover time only affects list-view controls that have the <a href="Extended_list_view_styles.htm">LVS_EX_TRACKSELECT</a>, <a href="Extended_list_view_styles.htm">LVS_EX_ONECLICKACTIVATE</a>, or <a href="Extended_list_view_styles.htm">LVS_EX_TWOCLICKACTIVATE</a> extended list-view style. 
 
 
 

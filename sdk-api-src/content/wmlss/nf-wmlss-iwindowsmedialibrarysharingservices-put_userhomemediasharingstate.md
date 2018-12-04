@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmlss.h
-: 
-- IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState
-: 
 ---
 
 # IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState

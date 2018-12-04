@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitems_getmaxitemcount.htm
 tech.root: CoreAudio
 ms.assetid: 933DEDE0-3DC1-4D0B-8EAE-58EFB52CE2FE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetMaxItemCount, GetMaxItemCount method [Core Audio], GetMaxItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetMaxItemCount method, ISpatialAudioMetadataItems.GetMaxItemCount, ISpatialAudioMetadataItems::GetMaxItemCount, coreaudio.ispatialaudiometadataitems_getmaxitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetMaxItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- spatialaudiometadata.h
-: 
-- ISpatialAudioMetadataItems.GetMaxItemCount
-: 
 ---
 
 # ISpatialAudioMetadataItems::GetMaxItemCount

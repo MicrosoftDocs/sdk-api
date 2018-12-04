@@ -4,10 +4,10 @@ title: IRDPSRAPIAttendee::get_Id
 author: windows-sdk-content
 description: The unique identifier for the attendee.
 old-location: rdp\irdpsrapiattendee_id.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 9ed04c11-d3cc-4846-88e8-aad9fb23fee8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CONST_ATTENDEE_ID_DEFAULT, IRDPSRAPIAttendee interface [RDP],Id property, IRDPSRAPIAttendee.Id, IRDPSRAPIAttendee.get_Id, IRDPSRAPIAttendee::Id, IRDPSRAPIAttendee::get_Id, Id property [RDP], Id property [RDP],IRDPSRAPIAttendee interface, Id property [RDP],RDPSRAPIAttendee object, RDPSRAPIAttendee object [RDP],Id property, get_Id, rdp.irdpsrapiattendee_id, rdpencomapi/IRDPSRAPIAttendee::Id, rdpencomapi/IRDPSRAPIAttendee::get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIAttendee.get_Id
-: 
 ---
 
 # IRDPSRAPIAttendee::get_Id

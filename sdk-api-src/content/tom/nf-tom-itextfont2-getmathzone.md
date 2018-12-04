@@ -4,10 +4,10 @@ title: ITextFont2::GetMathZone
 author: windows-sdk-content
 description: Gets whether a math zone is active.
 old-location: controls\itextfont2_getmathzone.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 4da4d6d1-16e0-4891-9a60-c1330345e45a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetMathZone, GetMathZone method [Windows Controls], GetMathZone method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetMathZone method, ITextFont2.GetMathZone, ITextFont2::GetMathZone, controls.itextfont2_getmathzone, tom/ITextFont2::GetMathZone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextFont2.GetMathZone
-: 
 ---
 
 # ITextFont2::GetMathZone
@@ -70,7 +62,7 @@ Gets whether a math zone is active.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

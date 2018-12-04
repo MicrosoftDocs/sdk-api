@@ -4,10 +4,10 @@ title: IADsPrintJobOperations::Pause
 author: windows-sdk-content
 description: The IADsPrintJobOperations::Pause method halts the processing of the current print job. Call the IADsPrintJobOperations::Resume method to continue the processing.
 old-location: adsi\iadsprintjoboperations_pause.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 8e1e5c1b-7a06-4781-9be5-71d170987e24
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IADsPrintJobOperations interface [ADSI],Pause method, IADsPrintJobOperations.Pause, IADsPrintJobOperations::Pause, Pause, Pause method [ADSI], Pause method [ADSI],IADsPrintJobOperations interface, _ds_iadsprintjoboperations_pause, adsi.iadsprintjoboperations__pause, adsi.iadsprintjoboperations_pause, iads/IADsPrintJobOperations::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsPrintJobOperations.Pause
-: 
 ---
 
 # IADsPrintJobOperations::Pause

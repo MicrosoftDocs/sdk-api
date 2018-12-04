@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpEnumOptionsV5
-: 
 ---
 
 # DhcpEnumOptionsV5 function

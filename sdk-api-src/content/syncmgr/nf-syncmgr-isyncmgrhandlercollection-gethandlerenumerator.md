@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerCollection_GetHandlerEnumerator.htm
 tech.root: shell
 ms.assetid: 9324b621-b29f-47b1-a691-603cb96497e7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetHandlerEnumerator, GetHandlerEnumerator method [Windows Shell], GetHandlerEnumerator method [Windows Shell],ISyncMgrHandlerCollection interface, ISyncMgrHandlerCollection interface [Windows Shell],GetHandlerEnumerator method, ISyncMgrHandlerCollection.GetHandlerEnumerator, ISyncMgrHandlerCollection::GetHandlerEnumerator, _shell_ISyncMgrHandlerCollection_GetHandlerEnumerator, shell.ISyncMgrHandlerCollection_GetHandlerEnumerator, syncmgr/ISyncMgrHandlerCollection::GetHandlerEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- syncmgr.h
-: 
-- ISyncMgrHandlerCollection.GetHandlerEnumerator
-: 
 ---
 
 # ISyncMgrHandlerCollection::GetHandlerEnumerator

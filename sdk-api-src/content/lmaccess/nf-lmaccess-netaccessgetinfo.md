@@ -4,10 +4,10 @@ title: NetAccessGetInfo function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessgetinfo.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 76d818db-ce13-4879-9ba5-c26d13fe098a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 0, 1, NetAccessGetInfo, NetAccessGetInfo function [Network Management], _win32_netaccessgetinfo, lmaccess/NetAccessGetInfo, netmgmt.netaccessgetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetAccessGetInfo
-: 
 ---
 
 # NetAccessGetInfo function

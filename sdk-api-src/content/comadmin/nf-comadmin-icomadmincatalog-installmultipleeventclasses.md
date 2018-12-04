@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_installmultipleeventclasses.htm
 tech.root: cossdk
 ms.assetid: 12860254-4658-4e0d-ad00-7e25875037bf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallMultipleEventClasses method, ICOMAdminCatalog.InstallMultipleEventClasses, ICOMAdminCatalog::InstallMultipleEventClasses, InstallMultipleEventClasses, InstallMultipleEventClasses method [COM+], InstallMultipleEventClasses method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallMultipleEventClasses, comadmin/ICOMAdminCatalog::InstallMultipleEventClasses, cos.icomadmincatalog_installmultipleeventclasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comadmin.h
-: 
-- ICOMAdminCatalog.InstallMultipleEventClasses
-: 
 ---
 
 # ICOMAdminCatalog::InstallMultipleEventClasses
@@ -110,7 +102,7 @@ The dummy implementation of the interface exposed by an event class never actual
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
  
 
  

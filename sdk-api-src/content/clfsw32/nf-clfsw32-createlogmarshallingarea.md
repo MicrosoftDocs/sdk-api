@@ -7,7 +7,7 @@ old-location: fs\createlogmarshallingarea.htm
 tech.root: Clfs
 ms.assetid: 750c0615-bfac-402b-a590-6c9d800cf2d8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: CreateLogMarshallingArea, CreateLogMarshallingArea function [Files], clfsw32/CreateLogMarshallingArea, fs.createlogmarshalingarea, fs.createlogmarshallingarea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateLogMarshallingArea
-: 
 ---
 
 # CreateLogMarshallingArea function

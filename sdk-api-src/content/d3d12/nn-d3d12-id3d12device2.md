@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device2.htm
 tech.root: direct3d12
 ms.assetid: 86C46FD2-7B1D-4F66-97F7-45F9428C5E1E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ID3D12Device2, ID3D12Device2 interface, ID3D12Device2 interface,described, d3d12/ID3D12Device2, direct3d12.id3d12device2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 
 
 Represents a virtual adapter. This interface extends <a href="https://msdn.microsoft.com/7650C695-3F46-405A-9976-A4A50FFAD567">ID3D12Device1</a> to create pipeline state objects from pipeline state stream descriptions.
-<div class="alert"><b>Note</b>  This interface was introduced in Windows 10 Creators Update. Applications targetting Windows 10 Creators Update should use this interface instead of earlier or later versions. Applications targetting an earlier or later version of Windows 10 should use the appropriate version of the <b>ID3D12Device</b> interface.</div><div> </div>
+<div class="alert"><b>Note</b>  This interface was introduced in Windows 10 Creators Update. Applications targeting Windows 10 Creators Update should use this interface instead of earlier or later versions. Applications targeting an earlier or later version of Windows 10 should use the appropriate version of the <b>ID3D12Device</b> interface.</div><div> </div>
 
 ## -inheritance
 

@@ -7,7 +7,7 @@ old-location: shell\ULongMult.htm
 tech.root: shell
 ms.assetid: 79710ade-498d-4cd7-ae6e-552a8e787193
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DWordMult, ULongMult, ULongMult function [Windows Shell], _shell_ULongMult, intsafe/ULongMult, shell.ULongMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ULongMult
-: 
 ---
 
 # ULongMult function

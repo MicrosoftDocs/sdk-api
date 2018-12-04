@@ -4,10 +4,10 @@ title: tagSTATSTG
 author: windows-sdk-content
 description: Contains statistical data about an open storage, stream, or byte-array object.
 old-location: stg\statstg.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 54e1df08-de8f-430a-bf76-e66594df4839
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: STATSTG, STATSTG [Strctd Stg], STATSTG structure [Structured Storage], _stg_statstg, objidl/STATSTG, stg.statstg, tagSTATSTG
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_verifypermissioncomplete.htm
 tech.root: WMP
 ms.assetid: bf99ead7-a50c-4638-9f4c-5c43a8d0a0be
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],VerifyPermissionComplete method, IWMPContentPartnerCallback.VerifyPermissionComplete, IWMPContentPartnerCallback::VerifyPermissionComplete, IWMPContentPartnerCallbackVerifyPermissionComplete, VerifyPermissionComplete, VerifyPermissionComplete method [Windows Media Player], VerifyPermissionComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::VerifyPermissionComplete, wmp.iwmpcontentpartnercallback_verifypermissioncomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- contentpartner.h
-: 
-- IWMPContentPartnerCallback.VerifyPermissionComplete
-: 
 ---
 
 # IWMPContentPartnerCallback::VerifyPermissionComplete
@@ -61,7 +53,7 @@ req.redist:
 
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
-The <b>VerifyPermissionComplete</b> method notifies Windows Media Player that the online store has finished processing a call to <a href="https://msdn.microsoft.com/en-us/library/Dd563178(v=VS.85).aspx">IWMPContentPartner::VerifyPermission</a>.
+The <b>VerifyPermissionComplete</b> method notifies Windows Media Player that the online store has finished processing a call to <a href="https://msdn.microsoft.com/7ff45264-6e49-4953-bc0a-b3652aee965d">IWMPContentPartner::VerifyPermission</a>.
 
 
 
@@ -73,7 +65,7 @@ The <b>VerifyPermissionComplete</b> method notifies Windows Media Player that th
 
 ### -param bstrPermission [in]
 
-A <b>BSTR</b> that specifies the action for which permission was requested. Windows Media Player previously requested permission to perform this action by calling <a href="https://msdn.microsoft.com/en-us/library/Dd563178(v=VS.85).aspx">IWMPContentPartner::VerifyPermission</a>. See Remarks for a list of possible values.
+A <b>BSTR</b> that specifies the action for which permission was requested. Windows Media Player previously requested permission to perform this action by calling <a href="https://msdn.microsoft.com/7ff45264-6e49-4953-bc0a-b3652aee965d">IWMPContentPartner::VerifyPermission</a>. See Remarks for a list of possible values.
 
 
 ### -param pContext [in]
@@ -132,11 +124,11 @@ Windows Media Player previously requested permission to synchronize the content 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563178(v=VS.85).aspx">IWMPContentPartner::VerifyPermission</a>
+<a href="https://msdn.microsoft.com/7ff45264-6e49-4953-bc0a-b3652aee965d">IWMPContentPartner::VerifyPermission</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563142(v=VS.85).aspx">IWMPContentPartnerCallback Interface</a>
+<a href="https://msdn.microsoft.com/3c66052b-2b82-44aa-868d-5d5a4501c457">IWMPContentPartnerCallback Interface</a>
  
 
  

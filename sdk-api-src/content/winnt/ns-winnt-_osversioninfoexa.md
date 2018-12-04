@@ -4,10 +4,10 @@ title: "_OSVERSIONINFOEXA"
 author: windows-sdk-content
 description: Contains operating system version information. The information includes major and minor version numbers, a build number, a platform identifier, and information about product suites and the latest Service Pack installed on the system.
 old-location: base\osversioninfoex_str.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 4ab07a72-404d-459b-b061-b3b06b5db37e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPOSVERSIONINFOEXA, *POSVERSIONINFOEXA, LPOSVERSIONINFOEX, LPOSVERSIONINFOEX structure pointer, OSVERSIONINFOEX, OSVERSIONINFOEX structure, OSVERSIONINFOEXA, OSVERSIONINFOEXW, POSVERSIONINFOEX, POSVERSIONINFOEX structure pointer, VER_NT_DOMAIN_CONTROLLER, VER_NT_SERVER, VER_NT_WORKSTATION, VER_SUITE_BACKOFFICE, VER_SUITE_BLADE, VER_SUITE_COMPUTE_SERVER, VER_SUITE_DATACENTER, VER_SUITE_EMBEDDEDNT, VER_SUITE_ENTERPRISE, VER_SUITE_MULTIUSERTS, VER_SUITE_PERSONAL, VER_SUITE_SINGLEUSERTS, VER_SUITE_SMALLBUSINESS, VER_SUITE_SMALLBUSINESS_RESTRICTED, VER_SUITE_STORAGE_SERVER, VER_SUITE_TERMINAL, VER_SUITE_WH_SERVER, _OSVERSIONINFOEXA, _OSVERSIONINFOEXW, _win32_osversioninfoex_str, base.osversioninfoex_str, winnt/LPOSVERSIONINFOEX, winnt/OSVERSIONINFOEX, winnt/OSVERSIONINFOEXA, winnt/OSVERSIONINFOEXW, winnt/POSVERSIONINFOEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

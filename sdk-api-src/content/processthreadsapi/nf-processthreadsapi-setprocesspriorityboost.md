@@ -4,10 +4,10 @@ title: SetProcessPriorityBoost function
 author: windows-sdk-content
 description: Disables or enables the ability of the system to temporarily boost the priority of the threads of the specified process.
 old-location: base\setprocesspriorityboost.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 211069cb-4b4c-49bc-ad3c-1be184999670
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: SetProcessPriorityBoost, SetProcessPriorityBoost function, _win32_setprocesspriorityboost, base.setprocesspriorityboost, processthreadsapi/SetProcessPriorityBoost
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetProcessPriorityBoost
-: 
 ---
 
 # SetProcessPriorityBoost function

@@ -4,10 +4,10 @@ title: IVssEnumMgmtObject::Next
 author: windows-sdk-content
 description: Returns the specified number of objects from the specified list of enumerated objects.
 old-location: base\ivssenummgmtobject_next.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 0ddcf25d-dc3e-4522-a98e-98d867230d42
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Next method, IVssEnumMgmtObject.Next, IVssEnumMgmtObject::Next, Next, Next method [VSS], Next method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_next, vsmgmt/IVssEnumMgmtObject::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsmgmt.h
-: 
-- IVssEnumMgmtObject.Next
-: 
 ---
 
 # IVssEnumMgmtObject::Next

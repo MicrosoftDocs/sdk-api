@@ -4,10 +4,10 @@ title: tagEapPacket
 author: windows-sdk-content
 description: Contains a packet of opaque data sent during an EAP authentication session.
 old-location: eaphost\eappacket.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: a5d78db0-990f-4318-8f1a-4e903221845f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EapPacket, EapPacket structure [EAPHost], eaphost.eappacket, eapmethodtypes/EapPacket, tagEapPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

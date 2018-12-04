@@ -4,10 +4,10 @@ title: CryptUninstallDefaultContext function
 author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\cryptuninstalldefaultcontext.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: ad7be5cf-f078-4a9f-81c4-959e4203dba8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptUninstallDefaultContext, CryptUninstallDefaultContext function [Security], _crypto2_cryptuninstalldefaultcontext, security.cryptuninstalldefaultcontext, wincrypt/CryptUninstallDefaultContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptUninstallDefaultContext
-: 
 ---
 
 # CryptUninstallDefaultContext function

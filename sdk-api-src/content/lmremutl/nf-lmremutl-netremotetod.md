@@ -4,10 +4,10 @@ title: NetRemoteTOD function
 author: windows-sdk-content
 description: The NetRemoteTOD function returns the time of day information from a specified server.
 old-location: netmgmt\netremotetod.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 5a935e09-f188-4ee1-b998-c67488475baa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetRemoteTOD, NetRemoteTOD function [Network Management], _win32_netremotetod, lmremutl/NetRemoteTOD, netmgmt.netremotetod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetRemoteTOD
-: 
 ---
 
 # NetRemoteTOD function

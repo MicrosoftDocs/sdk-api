@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicescontext_getdeviceservice.htm
 tech.root: mbn
 ms.assetid: 293E9BE5-AD7D-41B7-9A27-E964EE745183
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetDeviceService, GetDeviceService method [Microsoft Broadband Networks], GetDeviceService method [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, IMbnDeviceServicesContext interface [Microsoft Broadband Networks],GetDeviceService method, IMbnDeviceServicesContext.GetDeviceService, IMbnDeviceServicesContext::GetDeviceService, mbn.imbndeviceservicescontext_getdeviceservice, mbnapi/IMbnDeviceServicesContext::GetDeviceService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnDeviceServicesContext.GetDeviceService
-: 
 ---
 
 # IMbnDeviceServicesContext::GetDeviceService
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
+Gets the <a href="IMbnDeviceService">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
 
 
 ## -parameters
@@ -73,7 +65,7 @@ The <a href="https://msdn.microsoft.com/3AE6D7A6-3974-4517-AEB6-992CAC543247">de
 
 ### -param mbnDeviceService [out, retval]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object.
 
 
 ## -returns
@@ -119,7 +111,7 @@ An error was encountered when executing this method.
 
 
 
-<b>GetDeviceService</b> may return an <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object that already has a command or data session open. The calling process can check if the device service is already open.
+<b>GetDeviceService</b> may return an <a href="IMbnDeviceService">IMbnDeviceService</a> object that already has a command or data session open. The calling process can check if the device service is already open.
 
 
 

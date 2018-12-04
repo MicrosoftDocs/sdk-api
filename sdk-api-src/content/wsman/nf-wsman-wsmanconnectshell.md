@@ -4,10 +4,10 @@ title: WSManConnectShell function
 author: windows-sdk-content
 description: Connects to an existing server session.
 old-location: winrm\wsmanconnectshell.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: B765AB84-5EDA-46D6-9150-A8BBD101EF10
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: WSManConnectShell, WSManConnectShell function [Windows Remote Management], winrm.wsmanconnectshell, wsman/WSManConnectShell
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: WinRM on Windows Server 2012.
-- apiref
-: 
-- 
-: 
-- WSManConnectShell
-: 
 ---
 
 # WSManConnectShell function

@@ -4,10 +4,10 @@ title: CryptRetrieveTimeStamp function
 author: windows-sdk-content
 description: Encodes a time stamp request and retrieves the time stamp token from a location specified by a URL to a Time Stamping Authority (TSA).
 old-location: security\cryptretrievetimestamp.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 68ba3d40-08b0-4261-ab2f-6deb1795f830
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CryptRetrieveTimeStamp, CryptRetrieveTimeStamp function [Security], TIMESTAMP_DONT_HASH_DATA, TIMESTAMP_NO_AUTH_RETRIEVAL, TIMESTAMP_VERIFY_CONTEXT_SIGNATURE, security.cryptretrievetimestamp, wincrypt/CryptRetrieveTimeStamp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptRetrieveTimeStamp
-: 
 ---
 
 # CryptRetrieveTimeStamp function

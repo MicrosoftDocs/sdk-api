@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEvent_GetName.htm
 tech.root: shell
 ms.assetid: d533ab62-f6b2-4be9-ac58-98250d99a8c3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetName method, ISyncMgrEvent.GetName, ISyncMgrEvent::GetName, _shell_ISyncMgrEvent_GetName, shell.ISyncMgrEvent_GetName, syncmgr/ISyncMgrEvent::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- syncmgr.h
-: 
-- ISyncMgrEvent.GetName
-: 
 ---
 
 # ISyncMgrEvent::GetName

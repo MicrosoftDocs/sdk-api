@@ -7,7 +7,7 @@ old-location: multimedia\midioutreset.htm
 tech.root: Multimedia
 ms.assetid: 75abf36d-906f-48d1-b91d-c3fcef586693
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_win32_midiOutReset, midiOutReset, midiOutReset function [Windows Multimedia], mmeapi/midiOutReset, multimedia.midioutreset"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- midiOutReset
-: 
 ---
 
 # midiOutReset function

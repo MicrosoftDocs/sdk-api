@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemcli.h
-: 
-- IWbemConfigureRefresher.AddObjectByPath
-: 
 ---
 
 # IWbemConfigureRefresher::AddObjectByPath
@@ -71,7 +63,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="_com_iunknown_addref">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
 
 
 ### -param wszPath [in]
@@ -94,7 +86,7 @@ Typically <b>NULL</b>; otherwise, a pointer to an
 ### -param ppRefreshable [out]
 
 Pointer to hold the reference to a 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object, which contains the refreshable instance object. The client must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the returned object when it is no longer required.
+<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object, which contains the refreshable instance object. The client must call <a href="_com_iunknown_release">Release</a> on the returned object when it is no longer required.
 
 
 ### -param plId [out]
@@ -118,7 +110,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 The supplied path must specify a valid object, which is provided by the High-Performance Provider. The returned object must not be touched by the client while a refresh operation is in process. The returned identifier can be used by the 
 <a href="https://msdn.microsoft.com/f6e68b95-e9d1-473e-add4-823b6db51709">Remove</a> function to remove the object.
 
-<div class="alert"><b>Note</b>  It is not necessary for the user to explicitly remove added objects. The client must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the returned object when it is no longer required.</div>
+<div class="alert"><b>Note</b>  It is not necessary for the user to explicitly remove added objects. The client must call <a href="_com_iunknown_release">Release</a> on the returned object when it is no longer required.</div>
 <div> </div>
 
 

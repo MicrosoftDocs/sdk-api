@@ -4,10 +4,10 @@ title: IAzBizRuleParameters::get_Count
 author: windows-sdk-content
 description: Gets the number of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_count_method.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 5ba6f289-2349-444b-8693-53aadb0ea4d1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: Count property [Security], Count property [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],Count property, IAzBizRuleParameters.Count, IAzBizRuleParameters.get_Count, IAzBizRuleParameters::Count, IAzBizRuleParameters::get_Count, azroles/IAzBizRuleParameters::Count, azroles/IAzBizRuleParameters::get_Count, get_Count, security.iazbizruleparameters_count_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzBizRuleParameters.get_Count
-: 
 ---
 
 # IAzBizRuleParameters::get_Count
@@ -72,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377646(v=VS.85).aspx">IAzBizRuleParameters</a>
+<a href="https://msdn.microsoft.com/07eb33be-71a3-42fc-b7f3-12be23746aa3">IAzBizRuleParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377876(v=VS.85).aspx">IAzClientContext3::BizRuleParameters</a>
+<a href="https://msdn.microsoft.com/161f8a84-ee00-4f39-9997-a1e3d1c5b7a8">IAzClientContext3::BizRuleParameters</a>
  
 
  

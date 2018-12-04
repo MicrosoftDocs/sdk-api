@@ -4,10 +4,10 @@ title: IVdsProviderSupport
 author: windows-sdk-content
 description: Provides a method to indicate what versions of the VDS interfaces are supported by the provider.
 old-location: base\ivdsprovidersupport.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 74e17a86-75ec-429b-9efb-80812ca4b431
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVdsProviderSupport, IVdsProviderSupport interface, IVdsProviderSupport interface,described, base.ivdsprovidersupport, vds/IVdsProviderSupport, vdshwprv/IVdsProviderSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ Returns a bitmask of values enumerated by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList3_UnregisterTab.htm
 tech.root: shell
 ms.assetid: 667cafde-f693-46c3-bbec-140fc7cade5d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],UnregisterTab method, ITaskbarList3.UnregisterTab, ITaskbarList3::UnregisterTab, UnregisterTab, UnregisterTab method [Windows Shell], UnregisterTab method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_UnregisterTab, shell.ITaskbarList3_UnregisterTab, shobjidl_core/ITaskbarList3::UnregisterTab
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- ITaskbarList3.UnregisterTab
-: 
 ---
 
 # ITaskbarList3::UnregisterTab
@@ -88,7 +80,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise. If <i>hwndTab</i
 
 
 
-It is the responsibility of the calling application to free <i>hwndTab</i> through <a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a>. <b>UnregisterTab</b> must be called before the handle is freed.
+It is the responsibility of the calling application to free <i>hwndTab</i> through <a href="https://msdn.microsoft.com/054fa847-7d6e-4c73-bf8c-b75203713b3e">DestroyWindow</a>. <b>UnregisterTab</b> must be called before the handle is freed.
 
 
 

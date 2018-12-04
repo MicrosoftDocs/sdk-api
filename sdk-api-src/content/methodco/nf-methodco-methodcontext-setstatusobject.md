@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- methodco.h
-: 
-- MethodContext.SetStatusObject
-: 
 ---
 
 # MethodContext::SetStatusObject

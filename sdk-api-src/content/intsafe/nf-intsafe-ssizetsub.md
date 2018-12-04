@@ -7,7 +7,7 @@ old-location: shell\SSIZETSub.htm
 tech.root: shell
 ms.assetid: 8c7ca2cb-3753-4d65-9179-5c8e1782c7ff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: SSIZETSub, SSIZETSub function [Windows Shell], intsafe/SSIZETSub, shell.SSIZETSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SSIZETSub
-: 
 ---
 
 # SSIZETSub function

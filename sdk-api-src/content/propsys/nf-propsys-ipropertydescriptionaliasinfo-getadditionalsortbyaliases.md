@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionAliasInfo_GetAdditionalSortByAliase
 tech.root: properties
 ms.assetid: fb7c105b-6e81-4837-ad00-8886abbe108f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetAdditionalSortByAliases, GetAdditionalSortByAliases method [Windows Properties], GetAdditionalSortByAliases method [Windows Properties],IPropertyDescriptionAliasInfo interface, IPropertyDescriptionAliasInfo interface [Windows Properties],GetAdditionalSortByAliases method, IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases, IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases, _shell_IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases, properties.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases, propsys/IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases, shell.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- propsys.h
-: 
-- IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases
-: 
 ---
 
 # IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases
@@ -58,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface, which contains additional sort column values.
+Gets the address of a pointer to the <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface, which contains additional sort column values.
 
 
 ## -parameters
@@ -70,14 +62,14 @@ Gets the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/l
 
 Type: <b>REFIID</b>
 
-A reference to the identifier of the requested <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface.
+A reference to the identifier of the requested <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface.
 
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-When this method returns successfully, contains the address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface.
+When this method returns successfully, contains the address of a pointer to an <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface.
 
 
 ## -returns
@@ -108,11 +100,11 @@ The following is an example usage for this method. When sorting by System.Author
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761517(v=VS.85).aspx">IPropertyDescriptionAliasInfo</a>
+<a href="shell.IPropertyDescriptionAliasInfo">IPropertyDescriptionAliasInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761515(v=VS.85).aspx">IPropertyDescriptionAliasInfo::GetSortByAlias</a>
+<a href="shell.IPropertyDescriptionAliasInfo_GetSortByAlias">IPropertyDescriptionAliasInfo::GetSortByAlias</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_geterrorcode.htm
 tech.root: medfound
 ms.assetid: D73D3ACC-BD9C-4340-8572-6D82E96D0BA8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetErrorCode, GetErrorCode method [Media Foundation], GetErrorCode method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetErrorCode method, IMFTimedTextTrack.GetErrorCode, IMFTimedTextTrack::GetErrorCode, mf.imftimedtexttrack_geterrorcode, mfmediaengine/IMFTimedTextTrack::GetErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfmediaengine.h
-: 
-- IMFTimedTextTrack.GetErrorCode
-: 
 ---
 
 # IMFTimedTextTrack::GetErrorCode

@@ -4,10 +4,10 @@ title: ILockBytes::Flush
 author: windows-sdk-content
 description: The Flush method ensures that any internal buffers maintained by the ILockBytes implementation are written out to the underlying physical storage.
 old-location: stg\ilockbytes_flush.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 9396c44f-ad76-49f4-9796-d29570466a27
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Flush, Flush method [Structured Storage], Flush method [Structured Storage],ILockBytes interface, ILockBytes interface [Structured Storage],Flush method, ILockBytes.Flush, ILockBytes::Flush, _stg_ilockbytes_flush, objidl/ILockBytes::Flush, stg.ilockbytes_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- ILockBytes.Flush
-: 
 ---
 
 # ILockBytes::Flush

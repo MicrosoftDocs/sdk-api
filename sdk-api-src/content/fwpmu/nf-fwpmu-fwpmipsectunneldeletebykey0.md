@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmIPsecTunnelDeleteByKey0
-: 
 ---
 
 # FwpmIPsecTunnelDeleteByKey0 function

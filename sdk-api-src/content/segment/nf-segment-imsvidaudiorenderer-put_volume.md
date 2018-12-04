@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidAudioRenderer.put_Volume
-: 
 ---
 
 # IMSVidAudioRenderer::put_Volume

@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Setup_DevNode
-: 
 ---
 
 # CM_Setup_DevNode function
@@ -129,7 +123,7 @@ Call <a href="https://msdn.microsoft.com/7347c142-8bcf-43b3-aef0-5f99e2873560">C
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539727(v=VS.85).aspx">CM_Query_And_Remove_SubTree_Ex</a>
+<a href="https://msdn.microsoft.com/c8a3af37-0886-4187-9cdb-49616bcb04a9">CM_Query_And_Remove_SubTree_Ex</a>
 
 
 

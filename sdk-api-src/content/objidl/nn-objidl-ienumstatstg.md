@@ -4,10 +4,10 @@ title: IEnumSTATSTG
 author: windows-sdk-content
 description: Enumerates an array of STATSTG structures.
 old-location: stg\ienumstatstg.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 93b8b14e-94e4-460b-9846-413affad8e4f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumSTATSTG, IEnumSTATSTG interface [Structured Storage], IEnumSTATSTG interface [Structured Storage],described, _stg_ienumstatstg, objidl/IEnumSTATSTG, stg.ienumstatstg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,7 +116,7 @@ Skips a specified number of <a href="https://msdn.microsoft.com/54e1df08-de8f-43
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693395(v=VS.85).aspx">CoGetMalloc</a>
+<a href="_com_cogetmalloc">CoGetMalloc</a>
 
 
 

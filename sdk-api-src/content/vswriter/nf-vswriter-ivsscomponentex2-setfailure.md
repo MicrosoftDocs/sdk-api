@@ -4,10 +4,10 @@ title: IVssComponentEx2::SetFailure
 author: windows-sdk-content
 description: VSS writers call this method to report errors at the component level.
 old-location: base\ivsscomponentex2_setfailure.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: f9fd728a-b205-4cfa-8e9e-e0a0d385f5a1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssComponentEx2 interface,SetFailure method, IVssComponentEx2.SetFailure, IVssComponentEx2::SetFailure, S_OK, SetFailure, SetFailure method, SetFailure method,IVssComponentEx2 interface, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, base.ivsscomponentex2_setfailure, vswriter/IVssComponentEx2::SetFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- IVssComponentEx2.SetFailure
-: 
 ---
 
 # IVssComponentEx2::SetFailure

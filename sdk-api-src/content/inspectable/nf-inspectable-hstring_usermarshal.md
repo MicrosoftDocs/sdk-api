@@ -7,7 +7,7 @@ old-location: winrt\hstring_usermarshal.htm
 tech.root: WinRT
 ms.assetid: 986942D6-A1CD-4BED-9AD3-82FB4892E28E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: HSTRING_UserMarshal, HSTRING_UserMarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserMarshal, winrt.hstring_usermarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HSTRING_UserMarshal
-: 
 ---
 
 # HSTRING_UserMarshal function

@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpV6CreateClientInfo
-: 
 ---
 
 # DhcpV6CreateClientInfo function

@@ -7,7 +7,7 @@ old-location: intl\immsetstatuswindowpos.htm
 tech.root: Intl
 ms.assetid: 36a3251a-0d8b-404b-8839-e0724b251cd1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ImmSetStatusWindowPos, ImmSetStatusWindowPos function [Internationalization for Windows Applications], _win32_ImmSetStatusWindowPos, imm/ImmSetStatusWindowPos, intl.immsetstatuswindowpos
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ImmSetStatusWindowPos
-: 
 ---
 
 # ImmSetStatusWindowPos function

@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmProviderDestroyEnumHandle0
-: 
 ---
 
 # FwpmProviderDestroyEnumHandle0 function

@@ -7,7 +7,7 @@ old-location: ad\dsfreepasswordcredentials.htm
 tech.root: ad
 ms.assetid: 3d008aa8-feff-426f-911b-a447257076c2
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: DsFreePasswordCredentials, DsFreePasswordCredentials function [Active Directory], _glines_dsfreepasswordcredentials, ad.dsfreepasswordcredentials, ntdsapi/DsFreePasswordCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DsFreePasswordCredentials
-: 
 ---
 
 # DsFreePasswordCredentials function

@@ -4,10 +4,10 @@ title: IFsrmReportJob::get_LastGeneratedInDirectory
 author: windows-sdk-content
 description: Retrieves the local directory path where the reports were stored the last time the reports were run.
 old-location: fsrm\ifsrmreportjob_lastgeneratedindirectory.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: b72ce871-41e0-4321-8c9c-0ae77a02c7ff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastGeneratedInDirectory property, IFsrmReportJob.LastGeneratedInDirectory, IFsrmReportJob.get_LastGeneratedInDirectory, IFsrmReportJob::LastGeneratedInDirectory, IFsrmReportJob::get_LastGeneratedInDirectory, LastGeneratedInDirectory property [File Server Resource Manager], LastGeneratedInDirectory property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_lastgeneratedindirectory, fsrm.ifsrmreportjob_lastgeneratedindirectory, fsrmreports/IFsrmReportJob::LastGeneratedInDirectory, fsrmreports/IFsrmReportJob::get_LastGeneratedInDirectory, get_LastGeneratedInDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmReportJob.get_LastGeneratedInDirectory
-: 
 ---
 
 # IFsrmReportJob::get_LastGeneratedInDirectory

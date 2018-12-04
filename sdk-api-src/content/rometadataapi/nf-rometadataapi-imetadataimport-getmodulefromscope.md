@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getmodulefromscope.htm
 tech.root: WinRT
 ms.assetid: 4ad7248d-7266-4a14-b499-05bda7f60e01
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetModuleFromScope, GetModuleFromScope method [Windows Runtime], GetModuleFromScope method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetModuleFromScope method, IMetaDataImport.GetModuleFromScope, IMetaDataImport::GetModuleFromScope, rometadataapi/IMetaDataImport::GetModuleFromScope, winrt.imetadataimport_getmodulefromscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rometadataapi.h
-: 
-- IMetaDataImport.GetModuleFromScope
-: 
 ---
 
 # IMetaDataImport::GetModuleFromScope

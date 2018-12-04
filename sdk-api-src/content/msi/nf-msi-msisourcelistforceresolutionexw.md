@@ -4,10 +4,10 @@ title: MsiSourceListForceResolutionExW function
 author: windows-sdk-content
 description: The MsiSourceListForceResolutionEx function removes the registration of the property called &#0034;LastUsedSource&#0034;.
 old-location: setup\msisourcelistforceresolutionex.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 8eb140bb-79c4-454a-9004-71905e430811
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListForceResolutionEx, MsiSourceListForceResolutionEx function, MsiSourceListForceResolutionExA, MsiSourceListForceResolutionExW, msi/MsiSourceListForceResolutionEx, msi/MsiSourceListForceResolutionExA, msi/MsiSourceListForceResolutionExW, setup.msisourcelistforceresolutionex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiSourceListForceResolutionExW
-: 
 ---
 
 # MsiSourceListForceResolutionExW function

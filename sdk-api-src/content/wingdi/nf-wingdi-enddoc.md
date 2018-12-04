@@ -7,7 +7,7 @@ old-location: gdi\enddoc.htm
 tech.root: printdocs
 ms.assetid: bf63ea0f-cc73-4943-9c84-52b3b77e141c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: EndDoc, EndDoc function [Windows GDI], _win32_EndDoc, gdi.enddoc, wingdi/EndDoc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EndDoc
-: 
 ---
 
 # EndDoc function

@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecSaContextAddOutbound1
-: 
 ---
 
 # IPsecSaContextAddOutbound1 function

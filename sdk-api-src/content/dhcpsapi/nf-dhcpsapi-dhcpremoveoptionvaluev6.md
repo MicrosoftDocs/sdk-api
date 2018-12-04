@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpRemoveOptionValueV6
-: 
 ---
 
 # DhcpRemoveOptionValueV6 function

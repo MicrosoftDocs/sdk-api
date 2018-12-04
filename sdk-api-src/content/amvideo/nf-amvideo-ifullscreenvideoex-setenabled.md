@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_setenabled.htm
 tech.root: DirectShow
 ms.assetid: f05c1b3e-3ebc-4753-b3ca-e52907c59121
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetEnabled method, IFullScreenVideoEx.SetEnabled, IFullScreenVideoEx::SetEnabled, IFullScreenVideoSetEnabled, OAFALSE, OATRUE, SetEnabled, SetEnabled method [DirectShow], SetEnabled method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetEnabled, dshow.ifullscreenvideoex_setenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- amvideo.h
-: 
-- IFullScreenVideoEx.SetEnabled
-: 
 ---
 
 # IFullScreenVideoEx::SetEnabled

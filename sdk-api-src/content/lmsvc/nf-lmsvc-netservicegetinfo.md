@@ -4,10 +4,10 @@ title: NetServiceGetInfo function
 author: windows-sdk-content
 description: The NetServiceGetInfo function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
 old-location: netmgmt\netservicegetinfo.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: dcbea171-75fd-4d92-a2a0-ebd2867b233e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NetServiceGetInfo, NetServiceGetInfo function [Network Management], _win32_netservicegetinfo, lmsvc/NetServiceGetInfo, netmgmt.netservicegetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetServiceGetInfo
-: 
 ---
 
 # NetServiceGetInfo function

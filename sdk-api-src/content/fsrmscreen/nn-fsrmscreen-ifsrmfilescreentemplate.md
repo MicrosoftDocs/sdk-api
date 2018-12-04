@@ -4,10 +4,10 @@ title: IFsrmFileScreenTemplate
 author: windows-sdk-content
 description: Used to configure templates from which new file screens can be derived.
 old-location: fsrm\ifsrmfilescreentemplate.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: c8e612f5-e7cd-45ff-9eaf-9d1674231161
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmFileScreenTemplate, IFsrmFileScreenTemplate interface [File Server Resource Manager], IFsrmFileScreenTemplate interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplate, fsrm.ifsrmfilescreentemplate, fsrmscreen/IFsrmFileScreenTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

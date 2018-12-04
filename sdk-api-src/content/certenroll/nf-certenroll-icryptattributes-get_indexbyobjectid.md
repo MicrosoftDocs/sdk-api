@@ -4,10 +4,10 @@ title: ICryptAttributes::get_IndexByObjectId
 author: windows-sdk-content
 description: Retrieves the index of an attribute by object identifier (OID).
 old-location: security\icryptattributes_indexbyobjectid_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: e294e205-791f-444e-92d8-78da347616a7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICryptAttributes interface [Security],IndexByObjectId property, ICryptAttributes.IndexByObjectId, ICryptAttributes.get_IndexByObjectId, ICryptAttributes::IndexByObjectId, ICryptAttributes::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security],ICryptAttributes interface, certenroll/ICryptAttributes::IndexByObjectId, certenroll/ICryptAttributes::get_IndexByObjectId, get_IndexByObjectId, security.icryptattributes_indexbyobjectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICryptAttributes.get_IndexByObjectId
-: 
 ---
 
 # ICryptAttributes::get_IndexByObjectId
@@ -59,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IndexByObjectId</b> property retrieves the index of an attribute by <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID).
+The <b>IndexByObjectId</b> property retrieves the index of an attribute by <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
 
 This property is read-only.
 
@@ -72,23 +64,23 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375929(v=VS.85).aspx">ICryptAttribute</a>
+<a href="https://msdn.microsoft.com/2aefde1b-0f77-4a88-8851-5bacd363900b">ICryptAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375930(v=VS.85).aspx">ICryptAttributes</a>
+<a href="https://msdn.microsoft.com/beedb57c-1c89-4d16-8514-046e3071fd1e">ICryptAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a>
+<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377090(v=VS.85).aspx">IX509AttributeExtensions</a>
+<a href="https://msdn.microsoft.com/d216bcfd-50be-4445-87a5-d1cb223aa70c">IX509AttributeExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a>
+<a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a>
  
 
  

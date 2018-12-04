@@ -4,10 +4,10 @@ title: ResUtilGetAllProperties function
 author: windows-sdk-content
 description: Returns a property list that includes all of the default and unknown properties for a cluster object. The PRESUTIL_GET_ALL_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilgetallproperties.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 18a27e1c-e709-4b0a-97c1-b0697deb8dc7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PRESUTIL_GET_ALL_PROPERTIES, PRESUTIL_GET_ALL_PROPERTIES function [Failover Cluster], ResUtilGetAllProperties, ResUtilGetAllProperties function [Failover Cluster], _wolf_resutilgetallproperties, mscs.resutilgetallproperties, resapi/PRESUTIL_GET_ALL_PROPERTIES, resapi/ResUtilGetAllProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResUtilGetAllProperties
-: 
 ---
 
 # ResUtilGetAllProperties function

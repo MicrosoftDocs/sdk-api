@@ -4,10 +4,10 @@ title: TSPI_phoneGetRing function
 author: windows-sdk-content
 description: The TSPI_phoneGetRing function enables an application to query the specified open phone device as to its current ring mode.
 old-location: tspi\tspi_phonegetring.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: dcdfff60-e853-4ad7-a2b4-ddfc0ee73a48
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: TSPI_phoneGetRing, TSPI_phoneGetRing function [TAPI 2.2], _tspi_tspi_phonegetring, tspi.tspi_phonegetring, tspi/TSPI_phoneGetRing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TSPI_phoneGetRing
-: 
 ---
 
 # TSPI_phoneGetRing function

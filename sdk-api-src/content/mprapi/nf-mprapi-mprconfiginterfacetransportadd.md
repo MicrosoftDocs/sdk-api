@@ -4,10 +4,10 @@ title: MprConfigInterfaceTransportAdd function
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportAdd function adds a transport protocol to an interface configuration on the router.
 old-location: rras\mprconfiginterfacetransportadd.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: f4735fd1-031d-4cda-af40-36f55e5796f9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MprConfigInterfaceTransportAdd, MprConfigInterfaceTransportAdd function [RAS], _mpr_mprconfiginterfacetransportadd, mprapi/MprConfigInterfaceTransportAdd, rras.mprconfiginterfacetransportadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprConfigInterfaceTransportAdd
-: 
 ---
 
 # MprConfigInterfaceTransportAdd function
@@ -187,7 +181,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -215,7 +209,7 @@ If the specified transport already exists,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

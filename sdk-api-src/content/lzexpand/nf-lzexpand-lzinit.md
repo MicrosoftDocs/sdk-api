@@ -7,7 +7,7 @@ old-location: fs\lzinit.htm
 tech.root: fileio
 ms.assetid: 53e6345a-e303-4ef6-8b4d-b9a3fcacfb13
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: LZInit, LZInit function [Files], _win32_lzinit, base.lzinit, fs.lzinit, lzexpand/LZInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LZInit
-: 
 ---
 
 # LZInit function

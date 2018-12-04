@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarDateFromUI8
-: 
 ---
 
 # VarDateFromUI8 function

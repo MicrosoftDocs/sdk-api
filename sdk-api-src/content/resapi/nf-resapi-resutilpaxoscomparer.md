@@ -4,10 +4,10 @@ title: ResUtilPaxosComparer function
 author: windows-sdk-content
 description: Compares two Paxos tags and indicates whether they have the same values.
 old-location: mscs\resutilpaxoscomparer.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 414F9BB0-2490-43A9-BE38-877B283573E1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ResUtilPaxosComparer, ResUtilPaxosComparer function [Failover Cluster], mscs.resutilpaxoscomparer, resapi/ResUtilPaxosComparer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResUtilPaxosComparer
-: 
 ---
 
 # ResUtilPaxosComparer function

@@ -4,10 +4,10 @@ title: "_MPR_DEVICE_0"
 author: windows-sdk-content
 description: The MPR_DEVICE_0 structure stores information about a device used for a link in a multilinked demand dial interface.
 old-location: rras\mpr_device_0.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 1814c428-1a3c-45f3-8b15-182e1eceff7b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PMPR_DEVICE_0, MPR_DEVICE_0, MPR_DEVICE_0 structure [RAS], PMPR_DEVICE_0, PMPR_DEVICE_0 structure pointer [RAS], _MPR_DEVICE_0, _mpr_mpr_device_0, mprapi/MPR_DEVICE_0, mprapi/PMPR_DEVICE_0, rras.mpr_device_0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

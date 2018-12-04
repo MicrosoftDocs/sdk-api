@@ -4,10 +4,10 @@ title: IUPnPDevice::get_PresentationURL
 author: windows-sdk-content
 description: The PresentationURL property specifies the presentation URL for a Web page that controls the device.
 old-location: upnp\iupnpdevice_presentationurl.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 8dba8289-2f2f-482c-abd6-38f81a11f5e2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_PresentationURL method, IUPnPDevice.get_PresentationURL, IUPnPDevice::get_PresentationURL, _upnp_iupnpdevice_presentationurl, get_PresentationURL, get_PresentationURL method [UPnP APIs], get_PresentationURL method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_presentationurl, upnp/IUPnPDevice::get_PresentationURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDevice.get_PresentationURL
-: 
 ---
 
 # IUPnPDevice::get_PresentationURL
@@ -69,7 +61,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains the presentation URL for the Web page. This URL is an absolute URL. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer used. If the device does not specify a presentation URL, this parameter receives an empty string.
+Receives a reference to a string that contains the presentation URL for the Web page. This URL is an absolute URL. Release this string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer used. If the device does not specify a presentation URL, this parameter receives an empty string.
 
 
 ## -returns

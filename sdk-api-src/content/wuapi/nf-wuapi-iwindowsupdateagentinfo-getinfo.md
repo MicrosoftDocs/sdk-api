@@ -4,10 +4,10 @@ title: IWindowsUpdateAgentInfo::GetInfo
 author: windows-sdk-content
 description: Retrieves version information about Windows Update Agent (WUA).
 old-location: wua\iwindowsupdateagentinfo_getinfo.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 7798032c-b0a3-4f2a-958a-f98192204832
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetInfo, GetInfo method [Windows Update Agent], GetInfo method [Windows Update Agent],IWindowsUpdateAgentInfo interface, IWindowsUpdateAgentInfo interface [Windows Update Agent],GetInfo method, IWindowsUpdateAgentInfo.GetInfo, IWindowsUpdateAgentInfo::GetInfo, wua.iwindowsupdateagentinfo_getinfo, wuapi/IWindowsUpdateAgentInfo::GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IWindowsUpdateAgentInfo.GetInfo
-: 
 ---
 
 # IWindowsUpdateAgentInfo::GetInfo

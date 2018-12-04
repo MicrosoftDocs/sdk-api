@@ -7,7 +7,7 @@ old-location: appxpkg\getcurrentpackageinfo.htm
 tech.root: appxpkg
 ms.assetid: A1887D61-0FAD-4BE8-850F-F104CC074798
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: GetCurrentPackageInfo, GetCurrentPackageInfo function [App packaging and management], appmodel/GetCurrentPackageInfo, appxpkg.getcurrentpackageinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,12 +51,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetCurrentPackageInfo
-: 
 ---
 
 # GetCurrentPackageInfo function

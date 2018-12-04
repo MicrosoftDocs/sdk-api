@@ -7,7 +7,7 @@ old-location: shell\IAppVisibility.htm
 tech.root: shell
 ms.assetid: 89E26D36-3536-45F5-9396-83CCFB26890B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IAppVisibility, IAppVisibility interface [Windows Shell], IAppVisibility interface [Windows Shell],described, shell.IAppVisibility, shobjidl_core/IAppVisibility
 ms.prod: windows-hardware
 ms.technology: windows-devices

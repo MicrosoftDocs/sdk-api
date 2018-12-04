@@ -4,10 +4,10 @@ title: INetConnection::Disconnect
 author: windows-sdk-content
 description: The Disconnect method disconnects this connection.
 old-location: ics\inetconnection_disconnect.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 023abd16-7a07-4247-96cc-607a5e313bad
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Disconnect, Disconnect method [ICS/ICF], Disconnect method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Disconnect method, INetConnection.Disconnect, INetConnection::Disconnect, _ics_inetconnection_disconnect, ics.inetconnection_disconnect, netcon/INetConnection::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netcon.h
-: 
-- INetConnection.Disconnect
-: 
 ---
 
 # INetConnection::Disconnect

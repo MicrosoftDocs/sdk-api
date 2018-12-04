@@ -4,10 +4,10 @@ title: MgmGroupEnumerationEnd function
 author: windows-sdk-content
 description: The MgmGroupEnumerationEnd function releases the specified enumeration handle that was obtained from a previous call to MgmGroupEnumerationStart.
 old-location: rras\mgmgroupenumerationend.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 87a0bd96-c877-443e-a539-a31ab0971869
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: MgmGroupEnumerationEnd, MgmGroupEnumerationEnd function [RAS], _mpr_mgmgroupenumerationend, mgm/MgmGroupEnumerationEnd, rras.mgmgroupenumerationend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MgmGroupEnumerationEnd
-: 
 ---
 
 # MgmGroupEnumerationEnd function

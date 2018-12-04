@@ -4,10 +4,10 @@ title: ITAgentSession::get_SessionStartTime
 author: windows-sdk-content
 description: The get_SessionStartTime method gets the time that the session was created.
 old-location: tapi3\itagentsession_get_sessionstarttime.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 84c73a96-9748-430f-8653-55656eadc617
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_SessionStartTime method, ITAgentSession.get_SessionStartTime, ITAgentSession::get_SessionStartTime, _tapi3_itagentsession_get_sessionstarttime, get_SessionStartTime, get_SessionStartTime method [TAPI 2.2], get_SessionStartTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_sessionstarttime, tapi3cc/ITAgentSession::get_SessionStartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3.h
-: 
-- ITAgentSession.get_SessionStartTime
-: 
 ---
 
 # ITAgentSession::get_SessionStartTime

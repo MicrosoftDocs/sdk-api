@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpV4FailoverTriggerAddrAllocation
-: 
 ---
 
 # DhcpV4FailoverTriggerAddrAllocation function

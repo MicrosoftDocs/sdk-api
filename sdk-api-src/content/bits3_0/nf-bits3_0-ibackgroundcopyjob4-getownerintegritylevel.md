@@ -4,10 +4,10 @@ title: IBackgroundCopyJob4::GetOwnerIntegrityLevel
 author: windows-sdk-content
 description: Gets the integrity level of the token of the owner that created or took ownership of the job.
 old-location: bits\ibackgroundcopyjob4_getownerintegritylevel.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 1f5d9576-0948-429b-b136-1b02d7197fcc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetOwnerIntegrityLevel, GetOwnerIntegrityLevel method [BITS], GetOwnerIntegrityLevel method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetOwnerIntegrityLevel method, IBackgroundCopyJob4.GetOwnerIntegrityLevel, IBackgroundCopyJob4::GetOwnerIntegrityLevel, bits.ibackgroundcopyjob4_getownerintegritylevel, bits3_0/IBackgroundCopyJob4::GetOwnerIntegrityLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits3_0.h
-: 
-- IBackgroundCopyJob4.GetOwnerIntegrityLevel
-: 
 ---
 
 # IBackgroundCopyJob4::GetOwnerIntegrityLevel
@@ -104,9 +96,9 @@ Success
 
 
 
-For details on how the integrity level of the user's token affects a job, see <a href="https://msdn.microsoft.com/en-us/library/Bb540464(v=VS.85).aspx">User Account Control and BITS</a>.
+For details on how the integrity level of the user's token affects a job, see <a href="https://msdn.microsoft.com/02439ab3-b885-4a2f-b507-0c48d2b30b76">User Account Control and BITS</a>.
 
-This method returns the value from the <a href="https://msdn.microsoft.com/3a2d07f3-f1da-477d-b93f-525e3459dc61">GetSidSubAuthority</a> function. For possible mandatory integrity RID values, see <a href="https://msdn.microsoft.com/en-us/library/Aa379649(v=VS.85).aspx">Well-known SIDs</a> in the Security documentation.
+This method returns the value from the <a href="https://msdn.microsoft.com/3a2d07f3-f1da-477d-b93f-525e3459dc61">GetSidSubAuthority</a> function. For possible mandatory integrity RID values, see <a href="https://msdn.microsoft.com/eb2f95c4-9465-409b-b76c-9ccae1d05eda">Well-known SIDs</a> in the Security documentation.
 
 
 
@@ -116,7 +108,7 @@ This method returns the value from the <a href="https://msdn.microsoft.com/3a2d0
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362995(v=VS.85).aspx">IBackgroundCopyJob4</a>
+<a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob4</a>
  
 
  

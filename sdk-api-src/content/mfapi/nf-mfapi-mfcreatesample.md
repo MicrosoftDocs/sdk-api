@@ -7,7 +7,7 @@ old-location: mf\mfcreatesample.htm
 tech.root: medfound
 ms.assetid: b8bc29a5-e872-4c7b-ad1d-6c6085aa1984
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: MFCreateSample, MFCreateSample function [Media Foundation], b8bc29a5-e872-4c7b-ad1d-6c6085aa1984, mf.mfcreatesample, mfapi/MFCreateSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateSample
-: 
 ---
 
 # MFCreateSample function

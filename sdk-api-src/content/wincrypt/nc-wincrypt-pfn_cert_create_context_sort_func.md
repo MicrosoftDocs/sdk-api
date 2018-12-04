@@ -4,10 +4,10 @@ title: PFN_CERT_CREATE_CONTEXT_SORT_FUNC
 author: windows-sdk-content
 description: Called for each sorted context entry when a context is created.
 old-location: security\pfn_cert_create_context_sort_func.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5ad79970-d076-4e97-bf56-d6aad4b46eaa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: PFN_CERT_CREATE_CONTEXT_SORT_FUNC, PFN_CERT_CREATE_CONTEXT_SORT_FUNC callback, PFN_CERT_CREATE_CONTEXT_SORT_FUNC callback function [Security], security.pfn_cert_create_context_sort_func, wincrypt/PFN_CERT_CREATE_CONTEXT_SORT_FUNC
 ms.prod: windows-hardware
 ms.technology: windows-devices

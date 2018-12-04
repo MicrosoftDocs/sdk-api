@@ -7,7 +7,7 @@ old-location: tablet\inkedit_locked.htm
 tech.root: tablet
 ms.assetid: 67488146-b2ca-484a-b9e5-e2a8c9519d69
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IInkEdit interface [Tablet PC],Locked property, IInkEdit.Locked, IInkEdit.get_Locked, IInkEdit::Locked, IInkEdit::get_Locked, IInkEdit::put_Locked, InkEdit.get_Locked, InkEdit.put_Locked, Locked property [Tablet PC], Locked property [Tablet PC],IInkEdit interface, get_Locked, inked/IInkEdit::Locked, inked/IInkEdit::get_Locked, inked/IInkEdit::put_Locked, put_Locked, tablet.inkedit_locked
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,14 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- inked.h
-: 
-- IInkEdit.get_Locked
-: 
 ---
 
 # IInkEdit::get_Locked

@@ -7,7 +7,7 @@ old-location: cos\itransactionproperty_gettransactionresourcepool.htm
 tech.root: cossdk
 ms.assetid: 497cfbd8-122f-45c8-a34a-7e7df4932ad1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetTransactionResourcePool, GetTransactionResourcePool method [COM+], GetTransactionResourcePool method [COM+],ITransactionProperty interface, ITransactionProperty interface [COM+],GetTransactionResourcePool method, ITransactionProperty.GetTransactionResourcePool, ITransactionProperty::GetTransactionResourcePool, _cos_ITransactionProperty_GetTransactionResourcePool, comsvcs/ITransactionProperty::GetTransactionResourcePool, cos.itransactionproperty_gettransactionresourcepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- ITransactionProperty.GetTransactionResourcePool
-: 
 ---
 
 # ITransactionProperty::GetTransactionResourcePool

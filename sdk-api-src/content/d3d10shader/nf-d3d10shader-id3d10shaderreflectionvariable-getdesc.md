@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflectionvariable_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionvariable_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 805411f1-db1c-6558-e717-3629cfc7d811, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10ShaderReflectionVariable interface, ID3D10ShaderReflectionVariable interface [Direct3D 10],GetDesc method, ID3D10ShaderReflectionVariable.GetDesc, ID3D10ShaderReflectionVariable::GetDesc, d3d10shader/ID3D10ShaderReflectionVariable::GetDesc, direct3d10.id3d10shaderreflectionvariable_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10shader.h
-: 
-- ID3D10ShaderReflectionVariable.GetDesc
-: 
 ---
 
 # ID3D10ShaderReflectionVariable::GetDesc
@@ -68,18 +60,18 @@ Get a shader-variable description.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172441(v=VS.85).aspx">D3D10_SHADER_VARIABLE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/65f57c91-955f-4383-b11c-31386e48b724">D3D10_SHADER_VARIABLE_DESC</a>*</b>
 
-A pointer to a shader-variable description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172441(v=VS.85).aspx">D3D10_SHADER_VARIABLE_DESC</a>).
+A pointer to a shader-variable description (see <a href="https://msdn.microsoft.com/65f57c91-955f-4383-b11c-31386e48b724">D3D10_SHADER_VARIABLE_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -89,7 +81,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173845(v=VS.85).aspx">ID3D10ShaderReflectionVariable Interface</a>
+<a href="https://msdn.microsoft.com/5b88bd75-831b-4daf-baca-d4a3c1fa5876">ID3D10ShaderReflectionVariable Interface</a>
  
 
  

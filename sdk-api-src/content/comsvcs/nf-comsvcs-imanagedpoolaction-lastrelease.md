@@ -7,7 +7,7 @@ old-location: cos\imanagedpoolaction_lastrelease.htm
 tech.root: cossdk
 ms.assetid: 6685da39-17bb-4c4e-b47a-888511f605ad
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IManagedPoolAction interface [COM+],LastRelease method, IManagedPoolAction.LastRelease, IManagedPoolAction::LastRelease, LastRelease, LastRelease method [COM+], LastRelease method [COM+],IManagedPoolAction interface, _cos_IManagedPoolAction_LastRelease, comsvcs/IManagedPoolAction::LastRelease, cos.imanagedpoolaction_lastrelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- IManagedPoolAction.LastRelease
-: 
 ---
 
 # IManagedPoolAction::LastRelease

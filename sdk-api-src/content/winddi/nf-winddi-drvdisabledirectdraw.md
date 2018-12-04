@@ -7,7 +7,7 @@ old-location: display\drvdisabledirectdraw.htm
 tech.root: display
 ms.assetid: 7675019e-ac05-40e8-a934-a0928800ebe3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: DrvDisableDirectDraw, DrvDisableDirectDraw function [Display Devices], ddfncs_7abbe471-0671-4e98-8eba-ceb25216d961.xml, display.drvdisabledirectdraw, winddi/DrvDisableDirectDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DrvDisableDirectDraw
-: 
 ---
 
 # DrvDisableDirectDraw function

@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetErrorRetryInterval
 author: windows-sdk-content
 description: Retrieves the time interval, in minutes, between Task Scheduler's attempts to run a work item if an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_geterrorretryinterval.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: e3ace124-cb02-4d4f-9d6c-18d0d99d64bf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetErrorRetryInterval, GetErrorRetryInterval method [Task Scheduler], GetErrorRetryInterval method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetErrorRetryInterval method, IScheduledWorkItem.GetErrorRetryInterval, IScheduledWorkItem::GetErrorRetryInterval, _msb_ischeduledworkitem_geterrorretryinterval, mstask/IScheduledWorkItem::GetErrorRetryInterval, taskschd.ischeduledworkitem_geterrorretryinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.GetErrorRetryInterval
-: 
 ---
 
 # IScheduledWorkItem::GetErrorRetryInterval

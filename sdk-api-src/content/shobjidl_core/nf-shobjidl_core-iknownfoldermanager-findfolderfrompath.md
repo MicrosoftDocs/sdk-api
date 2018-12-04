@@ -7,7 +7,7 @@ old-location: shell\IKnownFolderManager_FindFolderFromPath.htm
 tech.root: shell
 ms.assetid: e8033305-e5b9-499d-b794-ac3190141650
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: FFFP_EXACTMATCH, FFFP_NEARESTPARENTMATCH, FindFolderFromPath, FindFolderFromPath method [Windows Shell], FindFolderFromPath method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FindFolderFromPath method, IKnownFolderManager.FindFolderFromPath, IKnownFolderManager::FindFolderFromPath, _shell_IKnownFolderManager_FindFolderFromPath, shell.IKnownFolderManager_FindFolderFromPath, shobjidl_core/IKnownFolderManager::FindFolderFromPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IKnownFolderManager.FindFolderFromPath
-: 
 ---
 
 # IKnownFolderManager::FindFolderFromPath

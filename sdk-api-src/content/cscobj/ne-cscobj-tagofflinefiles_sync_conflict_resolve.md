@@ -4,10 +4,10 @@ title: tagOFFLINEFILES_SYNC_CONFLICT_RESOLVE
 author: windows-sdk-content
 description: Identifies the conflict resolution code returned by the IOfflineFilesSyncConflictHandler::ResolveConflict method.
 old-location: of\offlinefiles_sync_conflict_resolve.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 2082b476-cb98-4845-885a-56731f8a4762
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: OFFLINEFILES_SYNC_CONFLICT_ABORT, OFFLINEFILES_SYNC_CONFLICT_RESOLVE, OFFLINEFILES_SYNC_CONFLICT_RESOLVE enumeration [Offline Files], OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPALLCHANGES, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPLATEST, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPLOCAL, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPREMOTE, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_LOG, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_NONE, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_SKIP, cscobj/OFFLINEFILES_SYNC_CONFLICT_ABORT, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPALLCHANGES, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPLATEST, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPLOCAL, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPREMOTE, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_LOG, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_NONE, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_SKIP, of.offlinefiles_sync_conflict_resolve, tagOFFLINEFILES_SYNC_CONFLICT_RESOLVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifies the conflict resolution code returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb530624(v=VS.85).aspx">IOfflineFilesSyncConflictHandler::ResolveConflict</a> method.
+Identifies the conflict resolution code returned by the <a href="https://msdn.microsoft.com/eb6fbdcf-1833-4ada-880e-f2dbfce64d99">IOfflineFilesSyncConflictHandler::ResolveConflict</a> method.
 
 
 ## -enum-fields
@@ -77,7 +77,7 @@ Keep the remote state.  This overwrites the local copy with the remote copy's co
 
 Keeps both copies.  Note that this resolution is valid only for sync conflict states where both the server and client copies exist and where at least one of the items is a file.  The <b>OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPALLCHANGES</b> resolution is not available when one of the items has been deleted or both items are directories.
 
-The list of applicable <a href="https://msdn.microsoft.com/en-us/library/Bb530655(v=VS.85).aspx">OFFLINEFILES_SYNC_STATE</a> values is as follows:
+The list of applicable <a href="https://msdn.microsoft.com/05d1e03e-2db4-4f1e-8813-98c8cf6d03b6">OFFLINEFILES_SYNC_STATE</a> values is as follows:
 
 <b>OFFLINEFILES_SYNC_STATE_DirChangedOnClient_FileChangedOnServer</b>
 <b>OFFLINEFILES_SYNC_STATE_DirChangedOnClient_FileOnServer</b>
@@ -126,11 +126,11 @@ Cancel the synchronization operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530624(v=VS.85).aspx">IOfflineFilesSyncConflictHandler::ResolveConflict</a>
+<a href="https://msdn.microsoft.com/eb6fbdcf-1833-4ada-880e-f2dbfce64d99">IOfflineFilesSyncConflictHandler::ResolveConflict</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530655(v=VS.85).aspx">OFFLINEFILES_SYNC_STATE</a>
+<a href="https://msdn.microsoft.com/05d1e03e-2db4-4f1e-8813-98c8cf6d03b6">OFFLINEFILES_SYNC_STATE</a>
  
 
  

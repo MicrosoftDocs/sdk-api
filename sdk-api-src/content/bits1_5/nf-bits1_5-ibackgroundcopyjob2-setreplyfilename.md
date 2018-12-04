@@ -4,10 +4,10 @@ title: IBackgroundCopyJob2::SetReplyFileName
 author: windows-sdk-content
 description: Specifies the name of the file to contain the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY.
 old-location: bits\ibackgroundcopyjob2_setreplyfilename.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 9f8591a3-ecc2-497a-ac12-67e5862efde4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetReplyFileName method, IBackgroundCopyJob2.SetReplyFileName, IBackgroundCopyJob2::SetReplyFileName, SetReplyFileName, SetReplyFileName method [BITS], SetReplyFileName method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setreplyfilename, bits.ibackgroundcopyjob2_setreplyfilename, bits1_5/IBackgroundCopyJob2::SetReplyFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP
-- apiref
-: 
-- COM
-: 
-- bits1_5.h
-: 
-- IBackgroundCopyJob2.SetReplyFileName
-: 
 ---
 
 # IBackgroundCopyJob2::SetReplyFileName
@@ -66,14 +58,7 @@ Specifies the name of the file to contain the reply data from the server applica
 
 
 
-### -param ReplyFileName
-
-TBD
-
-
-
-
-#### - ReplyFileNamePathSpec [in]
+### -param ReplyFileName [in]
 
 Null-terminated string that contains the full path to the reply file. BITS generates the file name if <i>ReplyFileNamePathSpec</i> is <b>NULL</b> or an empty string. You cannot use wildcards in the path or file name, and directories in the path must exist. The path is limited to MAX_PATH, not including the null terminator. The user must have permissions to write to the directory. BITS does not support NTFS streams. Instead of using network drives, which are session specific, use UNC paths (for example, \\server\share\path\file). Do not include the \\? prefix in the path.
 
@@ -108,7 +93,7 @@ Successfully specified the name of the file to contain the reply data.
 </td>
 <td width="60%">
 You cannot change the reply file name after BITS begins transferring the reply to the client. BITS is transferring the reply to the client if the state is <b>BG_JOB_STATE_TRANSFERRING</b> and the <b>BytesTotal</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362808(v=VS.85).aspx">BG_JOB_REPLY_PROGRESS</a> structure is not <b>BG_SIZE_UNKNOWN</b>.
+<a href="https://msdn.microsoft.com/ea78ee22-87b2-4859-bd49-dd309c8aa234">BG_JOB_REPLY_PROGRESS</a> structure is not <b>BG_SIZE_UNKNOWN</b>.
 
 </td>
 </tr>
@@ -146,7 +131,7 @@ The reply file name is invalid or exceeds <b>MAX_PATH</b>.
 
 BITS generates the file name if you do not call the 
 <b>SetReplyFileName</b> method before calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363039(v=VS.85).aspx">IBackgroundCopyJob::Resume</a> method for the first time.
+<a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">IBackgroundCopyJob::Resume</a> method for the first time.
 
 If BITS generates the file name, the reply file is written to the same directory as the local upload file.
 
@@ -154,9 +139,9 @@ You can call the
 <b>SetReplyFileName</b> method anytime before BITS begins downloading the reply from the server application; the method fails if the download has begun.
 
 The reply file is available to the client after calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363021(v=VS.85).aspx">IBackgroundCopyJob::Complete</a> method. To retrieve the reply data before calling the 
+<a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">IBackgroundCopyJob::Complete</a> method. To retrieve the reply data before calling the 
 <b>Complete</b> method, call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362983(v=VS.85).aspx">IBackgroundCopyJob2::GetReplyData</a> method.
+<a href="https://msdn.microsoft.com/f29df35f-48c2-4837-9809-46bd04f08bfb">IBackgroundCopyJob2::GetReplyData</a> method.
 
 The file is empty if the server application did not provide a reply.
 
@@ -168,11 +153,11 @@ The file is empty if the server application did not provide a reply.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362983(v=VS.85).aspx">IBackgroundCopyJob::GetReplyData</a>
+<a href="https://msdn.microsoft.com/f29df35f-48c2-4837-9809-46bd04f08bfb">IBackgroundCopyJob::GetReplyData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362984(v=VS.85).aspx">IBackgroundCopyJob::GetReplyFileName</a>
+<a href="https://msdn.microsoft.com/57f9245c-c1ae-4027-8e84-4926fa4861c3">IBackgroundCopyJob::GetReplyFileName</a>
  
 
  

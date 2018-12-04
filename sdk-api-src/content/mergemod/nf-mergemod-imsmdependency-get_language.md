@@ -4,10 +4,10 @@ title: IMsmDependency::get_Language
 author: windows-sdk-content
 description: The get_Language method retrieves the Language property of the Dependency object. This method returns the LANGID of the required module.
 old-location: setup\imsmdependency_get_language.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: eb7e224d-948e-46d6-ac1b-cd851530cc8b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMsmDependency interface,get_Language method, IMsmDependency.get_Language, IMsmDependency::get_Language, _msi_get_language_function_dependency_object_, get_Language, get_Language method, get_Language method,IMsmDependency interface, mergemod/IMsmDependency::get_Language, setup.imsmdependency_get_language
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mergemod.h
-: 
-- IMsmDependency.get_Language
-: 
 ---
 
 # IMsmDependency::get_Language

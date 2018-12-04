@@ -4,10 +4,10 @@ title: StopTraceW function
 author: windows-sdk-content
 description: The StopTrace function stops the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\stoptrace.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 604274a1-c4ed-4746-b69a-e18969f969db
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: StopTrace, StopTrace function [ETW], StopTraceA, StopTraceW, _evt_stoptrace, base.stoptrace, etw.stoptrace, evntrace/StopTrace, evntrace/StopTraceA, evntrace/StopTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StopTraceW
-: 
 ---
 
 # StopTraceW function

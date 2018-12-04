@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IIsdbSiParser2.GetSDTT
-: 
 ---
 
 # IIsdbSiParser2::GetSDTT

@@ -4,10 +4,10 @@ title: "_EVENT_TRACE_LOGFILEW"
 author: windows-sdk-content
 description: The EVENT_TRACE_LOGFILE structure specifies how the consumer wants to read events (from a log file or in real-time) and the callbacks that will receive the events.
 old-location: etw\event_trace_logfile.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 179451e9-7e3c-4d3a-bcc6-3ad9d382229a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PEVENT_TRACE_LOGFILEW, EVENT_TRACE_LOGFILE, EVENT_TRACE_LOGFILE structure [ETW], EVENT_TRACE_LOGFILEA, EVENT_TRACE_LOGFILEW, PEVENT_TRACE_LOGFILE, PEVENT_TRACE_LOGFILE structure pointer [ETW], PROCESS_TRACE_MODE_EVENT_RECORD, PROCESS_TRACE_MODE_RAW_TIMESTAMP, PROCESS_TRACE_MODE_REAL_TIME, _EVENT_TRACE_LOGFILEA, _EVENT_TRACE_LOGFILEW, _evt_event_trace_logfile, base.event_trace_logfile, etw.event_trace_logfile, evntrace/EVENT_TRACE_LOGFILE, evntrace/EVENT_TRACE_LOGFILEA, evntrace/EVENT_TRACE_LOGFILEW, evntrace/PEVENT_TRACE_LOGFILE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IOperationsProgressDialog_StopProgressDialog.htm
 tech.root: shell
 ms.assetid: 1033b197-f11c-49ed-8186-914c1cb04250
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],StopProgressDialog method, IOperationsProgressDialog.StopProgressDialog, IOperationsProgressDialog::StopProgressDialog, StopProgressDialog, StopProgressDialog method [Windows Shell], StopProgressDialog method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_StopProgressDialog, shell.IOperationsProgressDialog_StopProgressDialog, shobjidl_core/IOperationsProgressDialog::StopProgressDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IOperationsProgressDialog.StopProgressDialog
-: 
 ---
 
 # IOperationsProgressDialog::StopProgressDialog

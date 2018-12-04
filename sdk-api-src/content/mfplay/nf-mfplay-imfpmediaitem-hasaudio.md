@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_hasaudio.htm
 tech.root: medfound
 ms.assetid: 38d308d7-77e3-4f13-82e7-677ac94234e7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],HasAudio method, IMFPMediaItem.HasAudio, IMFPMediaItem::HasAudio, mf.imfpmediaitem_hasaudio, mfplay/IMFPMediaItem::HasAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfplay.h
-: 
-- IMFPMediaItem.HasAudio
-: 
 ---
 
 # IMFPMediaItem::HasAudio

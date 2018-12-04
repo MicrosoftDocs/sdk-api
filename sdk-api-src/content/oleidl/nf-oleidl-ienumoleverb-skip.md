@@ -7,7 +7,7 @@ old-location: com\ienumoleverb_skip.htm
 tech.root: com
 ms.assetid: f949f993-1c4c-4d42-ba23-93330f0e9967
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumOLEVERB interface [COM],Skip method, IEnumOLEVERB.Skip, IEnumOLEVERB::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_skip, com.ienumoleverb_skip, oleidl/IEnumOLEVERB::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- oleidl.h
-: 
-- IEnumOLEVERB.Skip
-: 
 ---
 
 # IEnumOLEVERB::Skip

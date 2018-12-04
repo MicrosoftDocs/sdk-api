@@ -4,10 +4,10 @@ title: IVdsIscsiPortal::SetIpsecTunnelAddress
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportal_setipsectunneladdress.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 200ac111-7029-4bfa-a08b-b4bce3c86bb7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],SetIpsecTunnelAddress method, IVdsIscsiPortal.SetIpsecTunnelAddress, IVdsIscsiPortal::SetIpsecTunnelAddress, SetIpsecTunnelAddress, SetIpsecTunnelAddress method [VDS], SetIpsecTunnelAddress method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setipsectunneladdress, vds/IVdsIscsiPortal::SetIpsecTunnelAddress, vdshwprv/IVdsIscsiPortal::SetIpsecTunnelAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsIscsiPortal.SetIpsecTunnelAddress
-: 
 ---
 
 # IVdsIscsiPortal::SetIpsecTunnelAddress

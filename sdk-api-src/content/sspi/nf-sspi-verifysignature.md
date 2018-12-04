@@ -4,10 +4,10 @@ title: VerifySignature function
 author: windows-sdk-content
 description: Verifies that a message signed by using the MakeSignature function was received in the correct sequence and has not been modified.
 old-location: security\verifysignature.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: bebeef92-1d6e-4879-846f-12d706db0653
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: VerifySignature, VerifySignature function [Security], _ssp_verifysignature, security.verifysignature, sspi/VerifySignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VerifySignature
-: 
 ---
 
 # VerifySignature function
@@ -183,7 +177,7 @@ The quality of protection negotiated between the client and server did not inclu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\d3dcreatesurfaceex.htm
 tech.root: display
 ms.assetid: dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: D3dCreateSurfaceEx, D3dCreateSurfaceEx callback function [Display Devices], PDD_CREATESURFACEEX, PDD_CREATESURFACEEX callback, d3dfncs_84d5da96-838e-4ba9-84a2-412e58f36bd0.xml, ddrawint/D3dCreateSurfaceEx, display.d3dcreatesurfaceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,9 +87,9 @@ Points to a <a href="https://msdn.microsoft.com/61965d6b-7473-4121-8c85-fb677a66
 
 All Direct3D drivers must support <b>D3dCreateSurfaceEx</b>.
 
-<b>D3dCreateSurfaceEx</b> creates an association between a DirectDraw surface and a small integer surface handle. By creating these associations between a handle and a DirectDraw surface, <b>D3dCreateSurfaceEx</b> allows a surface handle to be embedded in the Direct3D command stream. For example, when the <a href="https://msdn.microsoft.com/en-us/library/Ff545678(v=VS.85).aspx">D3DDP2OP_TEXBLT</a> command token is sent to the driver's <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> function to load a texture map, it uses a source handle and destination handle that were associated with a DirectDraw surface through <b>D3dCreateSurfaceEx</b>. 
+<b>D3dCreateSurfaceEx</b> creates an association between a DirectDraw surface and a small integer surface handle. By creating these associations between a handle and a DirectDraw surface, <b>D3dCreateSurfaceEx</b> allows a surface handle to be embedded in the Direct3D command stream. For example, when the <a href="d3dhal_dp2operation.htm">D3DDP2OP_TEXBLT</a> command token is sent to the driver's <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> function to load a texture map, it uses a source handle and destination handle that were associated with a DirectDraw surface through <b>D3dCreateSurfaceEx</b>. 
 
-For every DirectDraw surface created under the local DirectDraw object, the runtime generates a valid handle that uniquely identifies the surface and places the handle in the <b>dwSurfaceHandle</b> member of a <a href="https://msdn.microsoft.com/4b000d0f-4ff1-4155-92be-b56793978b1f">DD_SURFACE_MORE</a> structure. The <b>lpDDSLcl</b> member of the DD_CREATESURFACEEXDATA structure at <i>pcsxd</i> points to a <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structure that contains a <b>lpSurfMore</b> member that points to this DD_SURFACE_MORE. This handle value is also used with the D3DRENDERSTATE_TEXTUREHANDLE render state to enable texturing, and with the <a href="https://msdn.microsoft.com/en-us/library/Ff545678(v=VS.85).aspx">D3DDP2OP_SETRENDERTARGET</a> and <a href="https://msdn.microsoft.com/en-us/library/Ff545678(v=VS.85).aspx">D3DDP2OP_CLEAR</a> commands to set and clear new rendering and depth buffers. The driver should fail the call and return DDHAL_DRIVER_HANDLED if it cannot create the Direct3D surface.
+For every DirectDraw surface created under the local DirectDraw object, the runtime generates a valid handle that uniquely identifies the surface and places the handle in the <b>dwSurfaceHandle</b> member of a <a href="https://msdn.microsoft.com/4b000d0f-4ff1-4155-92be-b56793978b1f">DD_SURFACE_MORE</a> structure. The <b>lpDDSLcl</b> member of the DD_CREATESURFACEEXDATA structure at <i>pcsxd</i> points to a <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structure that contains a <b>lpSurfMore</b> member that points to this DD_SURFACE_MORE. This handle value is also used with the D3DRENDERSTATE_TEXTUREHANDLE render state to enable texturing, and with the <a href="d3dhal_dp2operation.htm">D3DDP2OP_SETRENDERTARGET</a> and <a href="d3dhal_dp2operation.htm">D3DDP2OP_CLEAR</a> commands to set and clear new rendering and depth buffers. The driver should fail the call and return DDHAL_DRIVER_HANDLED if it cannot create the Direct3D surface.
 
 For either a system memory surface or video memory surface, when <b>D3dCreateSurfaceEx</b> is called to notify about the association of <b>dwSurfaceHandle</b> with the surface's <a href="https://msdn.microsoft.com/11e0a6b9-16b9-4fc3-8e17-776f56c12196">DD_SURFACE_GLOBAL</a> and <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structures, the display driver can store any data (for example, a pointer to privately allocated memory) in the <b>dwReserved1</b> members of DD_SURFACE_GLOBAL and DD_SURFACE_LOCAL because these members are reserved for private use by the display driver. 
 
@@ -268,15 +268,15 @@ void MyCreateSurfaceExHelper(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff545678(v=VS.85).aspx">D3DDP2OP_CLEAR</a>
+<a href="d3dhal_dp2operation.htm">D3DDP2OP_CLEAR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff545678(v=VS.85).aspx">D3DDP2OP_SETRENDERTARGET</a>
+<a href="d3dhal_dp2operation.htm">D3DDP2OP_SETRENDERTARGET</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff545678(v=VS.85).aspx">D3DDP2OP_TEXBLT</a>
+<a href="d3dhal_dp2operation.htm">D3DDP2OP_TEXBLT</a>
 
 
 

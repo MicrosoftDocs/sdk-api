@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportServer2.get_TftpManager
-: 
 ---
 
 # IWdsTransportServer2::get_TftpManager

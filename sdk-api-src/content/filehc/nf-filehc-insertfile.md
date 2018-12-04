@@ -4,10 +4,10 @@ title: InsertFile function
 author: windows-sdk-content
 description: Inserts a file into the cache.
 old-location: winprog\_insertfile.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 5461dc96-a625-43d7-87e7-c25389e9c822
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: InsertFile, InsertFile function [Windows API], filehc/InsertFile, winprog._insertfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InsertFile
-: 
 ---
 
 # InsertFile function

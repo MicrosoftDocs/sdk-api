@@ -4,10 +4,10 @@ title: "_CREATE_CLUSTER_NAME_ACCOUNT"
 author: windows-sdk-content
 description: Describes a cluster name resource and domain credentials used by the CreateClusterNameAccount function to add a cluster to a domain. PCREATE_CLUSTER_NAME_ACCOUNT defines a pointer to this structure.
 old-location: mscs\create_cluster_name_account.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 21D43B28-0B14-4A00-BDEE-B2B769BF9777
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PCREATE_CLUSTER_NAME_ACCOUNT, CREATE_CLUSTER_NAME_ACCOUNT, CREATE_CLUSTER_NAME_ACCOUNT structure [Failover Cluster], PCREATE_CLUSTER_NAME_ACCOUNT, PCREATE_CLUSTER_NAME_ACCOUNT structure pointer [Failover Cluster], _CREATE_CLUSTER_NAME_ACCOUNT, clusapi/CREATE_CLUSTER_NAME_ACCOUNT, clusapi/PCREATE_CLUSTER_NAME_ACCOUNT, mscs.create_cluster_name_account"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Describes a <a href="https://msdn.microsoft.com/en-us/library/Aa371733(v=VS.85).aspx">cluster name</a> resource and domain credentials used by the <a href="https://msdn.microsoft.com/82BBEE9D-C787-4935-BB5F-09438676B37A">CreateClusterNameAccount</a> function to add a cluster to a domain. <b>PCREATE_CLUSTER_NAME_ACCOUNT</b> defines a pointer to this structure.
+Describes a <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">cluster name</a> resource and domain credentials used by the <a href="https://msdn.microsoft.com/82BBEE9D-C787-4935-BB5F-09438676B37A">CreateClusterNameAccount</a> function to add a cluster to a domain. <b>PCREATE_CLUSTER_NAME_ACCOUNT</b> defines a pointer to this structure.
 
 
 ## -struct-fields
@@ -110,7 +110,7 @@ The management point type.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

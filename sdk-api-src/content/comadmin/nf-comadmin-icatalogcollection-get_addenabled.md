@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_addenabled.htm
 tech.root: cossdk
 ms.assetid: 6a8b0773-5ea7-4ad2-a520-ec9ea74a8755
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: AddEnabled property [COM+], AddEnabled property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],AddEnabled property, ICatalogCollection.AddEnabled, ICatalogCollection.get_AddEnabled, ICatalogCollection::AddEnabled, ICatalogCollection::get_AddEnabled, _cos_ICatalogCollection_get_AddEnabled, comadmin/ICatalogCollection::AddEnabled, comadmin/ICatalogCollection::get_AddEnabled, cos.icatalogcollection_addenabled, get_AddEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comadmin.h
-: 
-- ICatalogCollection.get_AddEnabled
-: 
 ---
 
 # ICatalogCollection::get_AddEnabled
@@ -59,7 +51,7 @@ req.redist:
 ## -description
 
 
-Indicates whether the <a href="https://msdn.microsoft.com/en-us/library/ms678897(v=VS.85).aspx">Add</a> method is enabled for the collection.
+Indicates whether the <a href="https://msdn.microsoft.com/0826a2f0-d4a5-40e2-b951-291d67f0d201">Add</a> method is enabled for the collection.
 
 This property is read-only.
 
@@ -72,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

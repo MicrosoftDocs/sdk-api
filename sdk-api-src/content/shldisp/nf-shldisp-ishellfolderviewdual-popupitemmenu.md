@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual_PopupItemMenu.htm
 tech.root: shell
 ms.assetid: f44e91b7-b651-4b6f-9583-cd9335ae6369
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],PopupItemMenu method, IShellFolderViewDual.PopupItemMenu, IShellFolderViewDual::PopupItemMenu, PopupItemMenu, PopupItemMenu method [Windows Shell], PopupItemMenu method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_PopupItemMenu, shell.IShellFolderViewDual_PopupItemMenu, shldisp/IShellFolderViewDual::PopupItemMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shldisp.h
-: 
-- IShellFolderViewDual.PopupItemMenu
-: 
 ---
 
 # IShellFolderViewDual::PopupItemMenu
@@ -89,7 +81,7 @@ Optional.
 
 ### -param pbs [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>*</b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>*</b>
 
 The command string.
 

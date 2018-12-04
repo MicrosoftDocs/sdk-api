@@ -4,10 +4,10 @@ title: LsaOpenTrustedDomainByName function
 author: windows-sdk-content
 description: The LsaOpenTrustedDomainByName function opens the LSA policy handle of a remote trusted domain. You can pass this handle into LSA function calls in order to set or query the LSA policy of the remote machine.
 old-location: security\lsaopentrusteddomainbyname.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 6c55f8b4-d8a2-48e3-8074-b3ca22ce487a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: LsaOpenTrustedDomainByName, LsaOpenTrustedDomainByName function [Security], _lsa_lsaopentrusteddomainbyname, ntsecapi/LsaOpenTrustedDomainByName, security.lsaopentrusteddomainbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LsaOpenTrustedDomainByName
-: 
 ---
 
 # LsaOpenTrustedDomainByName function
@@ -99,7 +93,7 @@ When your application no longer needs this handle, it should call
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

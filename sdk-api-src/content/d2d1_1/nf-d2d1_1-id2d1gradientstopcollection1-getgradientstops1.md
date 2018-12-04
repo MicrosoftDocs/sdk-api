@@ -4,10 +4,10 @@ title: ID2D1GradientStopCollection1::GetGradientStops1
 author: windows-sdk-content
 description: Copies the gradient stops from the collection into memory.
 old-location: direct2d\id2d1gradientstopcollection1_getgradientstops1.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: da3987a5-b40f-49eb-9930-0162cf64d6a9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: GetGradientStops1, GetGradientStops1 method [Direct2D], GetGradientStops1 method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetGradientStops1 method, ID2D1GradientStopCollection1.GetGradientStops1, ID2D1GradientStopCollection1::GetGradientStops1, d2d1_1/ID2D1GradientStopCollection1::GetGradientStops1, direct2d.id2d1gradientstopcollection1_getgradientstops1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_1.h
-: 
-- ID2D1GradientStopCollection1.GetGradientStops1
-: 
 ---
 
 # ID2D1GradientStopCollection1::GetGradientStops1

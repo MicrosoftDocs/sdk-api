@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IkeextSaEnum1
-: 
 ---
 
 # IkeextSaEnum1 function

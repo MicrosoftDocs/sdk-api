@@ -4,10 +4,10 @@ title: IColumnData::SetColumnConfigData
 author: windows-sdk-content
 description: The IColumnData::SetColumnConfigData method enables a snap-in to set the persisted width, order, and hidden status of columns in a column set.
 old-location: mmc\icolumndata_setcolumnconfigdata.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 2f6727bd-b7ba-4e91-9dce-53605b0b6fe1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IColumnData interface [MMC],SetColumnConfigData method, IColumnData.SetColumnConfigData, IColumnData::SetColumnConfigData, SetColumnConfigData, SetColumnConfigData method [MMC], SetColumnConfigData method [MMC],IColumnData interface, _slate_icolumndata_setcolumnconfigdata, mmc.icolumndata_setcolumnconfigdata, mmc/IColumnData::SetColumnConfigData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IColumnData.SetColumnConfigData
-: 
 ---
 
 # IColumnData::SetColumnConfigData

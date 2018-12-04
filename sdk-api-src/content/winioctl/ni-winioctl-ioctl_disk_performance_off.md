@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_performance_off.htm
 tech.root: fileio
 ms.assetid: 68f4f6fb-a4f3-4fa5-8187-b2287a4271e8
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: IOCTL_DISK_PERFORMANCE_OFF, IOCTL_DISK_PERFORMANCE_OFF control, IOCTL_DISK_PERFORMANCE_OFF control code [Files], base.ioctl_disk_performance_off, fs.ioctl_disk_performance_off, winioctl/IOCTL_DISK_PERFORMANCE_OFF
 ms.prod: windows-hardware
 ms.technology: windows-devices

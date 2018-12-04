@@ -7,7 +7,7 @@ old-location: mf\idirect3dauthenticatedchannel9_configure.htm
 tech.root: medfound
 ms.assetid: 12d15872-4f35-4a6d-ae99-bc9fa69ffe06
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: Configure, Configure method [Media Foundation], Configure method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, IDirect3DAuthenticatedChannel9 interface [Media Foundation],Configure method, IDirect3DAuthenticatedChannel9.Configure, IDirect3DAuthenticatedChannel9::Configure, d3d9/IDirect3DAuthenticatedChannel9::Configure, mf.idirect3dauthenticatedchannel9_configure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d9.h
-: 
-- IDirect3DAuthenticatedChannel9.Configure
-: 
 ---
 
 # IDirect3DAuthenticatedChannel9::Configure

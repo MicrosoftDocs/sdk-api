@@ -4,10 +4,10 @@ title: "_FsrmCollectionState"
 author: windows-sdk-content
 description: Defines the possible states of a collection object.
 old-location: fsrm\fsrmcollectionstate.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 94d7cf83-7fa4-4fec-956d-f5b2e2c0bf68
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FsrmCollectionState, FsrmCollectionState enumeration [File Server Resource Manager], FsrmCollectionState_Cancelled, FsrmCollectionState_Committing, FsrmCollectionState_Complete, FsrmCollectionState_Fetching, _FsrmCollectionState, fs.fsrmcollectionstate, fsrm.fsrmcollectionstate, fsrmenums/FsrmCollectionState, fsrmenums/FsrmCollectionState_Cancelled, fsrmenums/FsrmCollectionState_Committing, fsrmenums/FsrmCollectionState_Complete, fsrmenums/FsrmCollectionState_Fetching
 ms.prod: windows-hardware
 ms.technology: windows-devices

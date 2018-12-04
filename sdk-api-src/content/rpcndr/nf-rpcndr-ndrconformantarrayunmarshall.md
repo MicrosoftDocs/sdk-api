@@ -4,10 +4,10 @@ title: NdrConformantArrayUnmarshall function
 author: windows-sdk-content
 description: The NdrConformantArrayUnmarshall function unmarshals a conformant array.
 old-location: rpc\ndrconformantarrayunmarshall.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 09acbea7-a835-4365-917f-4b12b2602bf0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NdrConformantArrayUnmarshall, NdrConformantArrayUnmarshall
 , pStubMsg, pStubMsg function [RPC], rpc.ndrconformantarrayunmarshall, rpcndr/pStubMsg
 ms.prod: windows-hardware
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NdrConformantArrayUnmarshall
-: 
 ---
 
 # NdrConformantArrayUnmarshall function

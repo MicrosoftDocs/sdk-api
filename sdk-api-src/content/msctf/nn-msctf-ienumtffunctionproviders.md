@@ -7,7 +7,7 @@ old-location: tsf\ienumtffunctionproviders.htm
 tech.root: TSF
 ms.assetid: 21e2f1c8-926e-4e53-b8d1-aecc2d1a97cb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumTfFunctionProviders, IEnumTfFunctionProviders interface [Text Services Framework], IEnumTfFunctionProviders interface [Text Services Framework],described, _tsf_ienumtffunctionproviders_ref, msctf/IEnumTfFunctionProviders, tsf.ienumtffunctionproviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

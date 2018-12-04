@@ -4,10 +4,10 @@ title: "_WSD_RESOLVE_MATCH"
 author: windows-sdk-content
 description: Represents a ResolveMatch message.
 old-location: ncd\wsd_resolve_match_struct.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: eabcc3af-282c-4299-8061-6cddf14eca6b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WSD_RESOLVE_MATCH, WSD_RESOLVE_MATCH structure, _WSD_RESOLVE_MATCH, ncd.wsd_resolve_match_struct, wsdtypes/WSD_RESOLVE_MATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices

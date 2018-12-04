@@ -4,10 +4,10 @@ title: IUpdateService::get_SetupPrefix
 author: windows-sdk-content
 description: Identifies the prefix for the setup files.
 old-location: wua\iupdateservice_setupprefix.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 025d2278-c973-410a-bccf-da8d1a59b6ac
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],SetupPrefix property, IUpdateService.SetupPrefix, IUpdateService.get_SetupPrefix, IUpdateService::SetupPrefix, IUpdateService::get_SetupPrefix, SetupPrefix property [Windows Update Agent], SetupPrefix property [Windows Update Agent],IUpdateService interface, get_SetupPrefix, wua.iupdateservice_setupprefix, wuapi/IUpdateService::SetupPrefix, wuapi/IUpdateService::get_SetupPrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateService.get_SetupPrefix
-: 
 ---
 
 # IUpdateService::get_SetupPrefix

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IWindowProvider_CanMaximize.htm
 tech.root: WinAuto
 ms.assetid: d3ff456a-c17d-4500-a141-87e9dd3fbfd0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CanMaximize property [Windows Accessibility], CanMaximize property [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],CanMaximize property, IWindowProvider.CanMaximize, IWindowProvider.get_CanMaximize, IWindowProvider::CanMaximize, IWindowProvider::get_CanMaximize, get_CanMaximize, uiauto.uiauto_IWindowProvider_CanMaximize, uiauto_IWindowProvider_CanMaximize, uiautomationcore/IWindowProvider::CanMaximize, uiautomationcore/IWindowProvider::get_CanMaximize, winauto.uiauto_IWindowProvider_CanMaximize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationcore.h
-: 
-- IWindowProvider.get_CanMaximize
-: 
 ---
 
 # IWindowProvider::get_CanMaximize

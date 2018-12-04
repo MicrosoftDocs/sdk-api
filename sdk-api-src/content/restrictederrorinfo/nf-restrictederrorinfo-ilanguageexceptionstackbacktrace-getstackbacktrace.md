@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptionstackbacktrace_getstackbacktrace.htm
 tech.root: WinRT
 ms.assetid: 6EB89F76-C518-41A3-A1F8-EC480B0FC68B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetStackBackTrace, GetStackBackTrace method [Windows Runtime], GetStackBackTrace method [Windows Runtime],ILanguageExceptionStackBackTrace interface, ILanguageExceptionStackBackTrace interface [Windows Runtime],GetStackBackTrace method, ILanguageExceptionStackBackTrace.GetStackBackTrace, ILanguageExceptionStackBackTrace::GetStackBackTrace, restrictederrorinfo/ILanguageExceptionStackBackTrace::GetStackBackTrace, winrt.ilanguageexceptionstackbacktrace_getstackbacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- restrictederrorinfo.h
-: 
-- ILanguageExceptionStackBackTrace.GetStackBackTrace
-: 
 ---
 
 # ILanguageExceptionStackBackTrace::GetStackBackTrace

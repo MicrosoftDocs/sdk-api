@@ -7,7 +7,7 @@ old-location: winauto\iversioninfo.htm
 tech.root: WinAuto
 ms.assetid: a149466a-a274-495a-a6cd-1553205abc07
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVersionInfo, IVersionInfo interface [Windows Accessibility], IVersionInfo interface [Windows Accessibility],described, msaa.iversioninfo, msaatext/IVersionInfo, winauto.iversioninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

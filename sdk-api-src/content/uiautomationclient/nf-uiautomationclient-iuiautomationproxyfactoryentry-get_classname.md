@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_ClassName.htm
 tech.root: WinAuto
 ms.assetid: d27bfdbb-dcdb-49d5-9871-9ac13b3b67f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ClassName property [Windows Accessibility], ClassName property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, IUIAutomationProxyFactoryEntry interface [Windows Accessibility],ClassName property, IUIAutomationProxyFactoryEntry.ClassName, IUIAutomationProxyFactoryEntry.get_ClassName, IUIAutomationProxyFactoryEntry::ClassName, IUIAutomationProxyFactoryEntry::get_ClassName, IUIAutomationProxyFactoryEntry::put_ClassName, get_ClassName, uiauto.uiauto_IUIAutomationProxyFactoryEntry_ClassName, uiauto_IUIAutomationProxyFactoryEntry_ClassName, uiautomationclient/IUIAutomationProxyFactoryEntry::ClassName, uiautomationclient/IUIAutomationProxyFactoryEntry::get_ClassName, uiautomationclient/IUIAutomationProxyFactoryEntry::put_ClassName, winauto.uiauto_IUIAutomationProxyFactoryEntry_ClassName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationProxyFactoryEntry.get_ClassName
-: 
 ---
 
 # IUIAutomationProxyFactoryEntry::get_ClassName

@@ -4,10 +4,10 @@ title: IWSManEx::SessionFlagSkipCACheck
 author: windows-sdk-content
 description: Returns the value of the WSManFlagSkipCACheck authentication flag for use in the flags parameter of the IWSMan::CreateSession method.
 old-location: winrm\iwsmanex_sessionflagskipcacheck.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 683054fd-7ee3-4c90-a5cd-234e7d60349d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagSkipCACheck method, IWSManEx.SessionFlagSkipCACheck, IWSManEx::SessionFlagSkipCACheck, SessionFlagSkipCACheck, SessionFlagSkipCACheck method [Windows Remote Management], SessionFlagSkipCACheck method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagskipcacheck, wsmandisp/IWSManEx::SessionFlagSkipCACheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManEx.SessionFlagSkipCACheck
-: 
 ---
 
 # IWSManEx::SessionFlagSkipCACheck

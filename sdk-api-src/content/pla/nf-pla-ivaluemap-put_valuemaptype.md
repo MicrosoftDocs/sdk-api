@@ -4,10 +4,10 @@ title: IValueMap::put_ValueMapType
 author: windows-sdk-content
 description: Retrieves or sets the type of items in the collection.
 old-location: pla\ivaluemap_valuemaptype.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 42cea1e6-c945-4bae-ac65-a052b4069e5f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IValueMap interface [PLA],ValueMapType property, IValueMap.ValueMapType, IValueMap.put_ValueMapType, IValueMap::ValueMapType, IValueMap::get_ValueMapType, IValueMap::put_ValueMapType, ValueMapType property [PLA], ValueMapType property [PLA],IValueMap interface, base.ivaluemap_valuemaptype, pla.ivaluemap_valuemaptype, pla/IValueMap::ValueMapType, pla/IValueMap::get_ValueMapType, pla/IValueMap::put_ValueMapType, put_ValueMapType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IValueMap.put_ValueMapType
-: 
 ---
 
 # IValueMap::put_ValueMapType

@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CancelMibChangeNotify2
-: 
 ---
 
 # CancelMibChangeNotify2 function

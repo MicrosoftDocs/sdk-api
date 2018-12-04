@@ -4,10 +4,10 @@ title: IVssComponent::SetBackupMetadata
 author: windows-sdk-content
 description: The SetBackupMetadata method sets backup metadata with the component.
 old-location: base\ivsscomponent_setbackupmetadata.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 96d0a581-87a5-4f97-b23f-08e90a805de1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IVssComponent interface [VSS],SetBackupMetadata method, IVssComponent.SetBackupMetadata, IVssComponent::SetBackupMetadata, SetBackupMetadata, SetBackupMetadata method [VSS], SetBackupMetadata method [VSS],IVssComponent interface, _win32_ivsscomponent_setbackupmetadata, base.ivsscomponent_setbackupmetadata, vswriter/IVssComponent::SetBackupMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- IVssComponent.SetBackupMetadata
-: 
 ---
 
 # IVssComponent::SetBackupMetadata
@@ -67,8 +59,8 @@ The
 A writer can call this method only during a backup operation.
 
 This method cannot be called while handling a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384652(v=VS.85).aspx">BackupComplete</a> (<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>) or 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384652(v=VS.85).aspx">BackupShutdown</a> (<a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>) event.
+    <a href="vssgloss_b.htm">BackupComplete</a> (<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>) or 
+    <a href="vssgloss_b.htm">BackupShutdown</a> (<a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>) event.
    
 
 

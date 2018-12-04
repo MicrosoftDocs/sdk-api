@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_majorversion.htm
 tech.root: cossdk
 ms.assetid: caa82b0e-435d-4d98-bef0-cd823213c518
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],MajorVersion property, ICOMAdminCatalog.MajorVersion, ICOMAdminCatalog.get_MajorVersion, ICOMAdminCatalog::MajorVersion, ICOMAdminCatalog::get_MajorVersion, MajorVersion property [COM+], MajorVersion property [COM+],ICOMAdminCatalog interface, _cos_IComAdminCatalog_get_MajorVersion, comadmin/ICOMAdminCatalog::MajorVersion, comadmin/ICOMAdminCatalog::get_MajorVersion, cos.icomadmincatalog_majorversion, get_MajorVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comadmin.h
-: 
-- ICOMAdminCatalog.get_MajorVersion
-: 
 ---
 
 # ICOMAdminCatalog::get_MajorVersion
@@ -72,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
  
 
  

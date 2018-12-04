@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VARIANT_UserUnmarshal
-: 
 ---
 
 # VARIANT_UserUnmarshal function

@@ -4,10 +4,10 @@ title: SendSAS function
 author: windows-sdk-content
 description: Simulates a secure attention sequence (SAS).
 old-location: security\sendsas.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: da5d0915-dc41-4b63-a500-a0bec3f19a65
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SendSAS
-: 
 ---
 
 # SendSAS function
@@ -84,7 +78,7 @@ This function does not return a value.
 
 To successfully call the <b>SendSAS</b> function, an application must either be running as a service or have the <b>uiAccess</b> attribute of the <b>requestedExecutionLevel</b> element set to "true" in its application manifest. If an application is not running as a service, it must be running as either the current user or the LocalSystem account to call <b>SendSAS</b>. In addition, if an application is not running as a service, <a href="https://msdn.microsoft.com/8a7ba726-c2a6-4b7b-b664-3c6fcfbfb221">User Account Control</a> must be turned on to call <b>SendSAS</b>. 
 
-<div class="alert"><b>Important</b>  Applications with the <b>uiAccess</b> attribute set to "true" must be signed by using <a href="https://msdn.microsoft.com/library/ms537359(v=VS.85).aspx">Authenticode</a>. In addition, the application must reside in a protected location in the file system. Currently, there are two allowable protected locations:<dl>
+<div class="alert"><b>Important</b>  Applications with the <b>uiAccess</b> attribute set to "true" must be signed by using <a href="_inet_authenticode_node_entry">Authenticode</a>. In addition, the application must reside in a protected location in the file system. Currently, there are two allowable protected locations:<dl>
 <dd><b>\Program Files\</b></dd>
 <dd><b>\windows\system32\</b></dd>
 </dl>

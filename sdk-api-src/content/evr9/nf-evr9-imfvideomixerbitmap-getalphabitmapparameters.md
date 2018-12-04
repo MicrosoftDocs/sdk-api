@@ -7,7 +7,7 @@ old-location: mf\imfvideomixerbitmap_getalphabitmapparameters.htm
 tech.root: medfound
 ms.assetid: 0361e340-9de7-47f3-80fd-61d5e914d44e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: 0361e340-9de7-47f3-80fd-61d5e914d44e, GetAlphaBitmapParameters, GetAlphaBitmapParameters method [Media Foundation], GetAlphaBitmapParameters method [Media Foundation],IMFVideoMixerBitmap interface, IMFVideoMixerBitmap interface [Media Foundation],GetAlphaBitmapParameters method, IMFVideoMixerBitmap.GetAlphaBitmapParameters, IMFVideoMixerBitmap::GetAlphaBitmapParameters, evr9/IMFVideoMixerBitmap::GetAlphaBitmapParameters, mf.imfvideomixerbitmap_getalphabitmapparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- evr9.h
-: 
-- IMFVideoMixerBitmap.GetAlphaBitmapParameters
-: 
 ---
 
 # IMFVideoMixerBitmap::GetAlphaBitmapParameters

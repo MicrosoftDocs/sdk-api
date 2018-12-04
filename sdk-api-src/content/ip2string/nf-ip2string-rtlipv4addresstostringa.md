@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtlIpv4AddressToStringA
-: 
 ---
 
 # RtlIpv4AddressToStringA function

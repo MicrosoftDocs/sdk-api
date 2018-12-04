@@ -4,10 +4,10 @@ title: ICspStatuses::get_Count
 author: windows-sdk-content
 description: Retrieves the number of ICspStatus objects in the collection.
 old-location: security\icspstatuses_count_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a99eb5ee-8677-4449-ba36-c87045530393
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Count property [Security], Count property [Security],ICspStatuses interface, ICspStatuses interface [Security],Count property, ICspStatuses.Count, ICspStatuses.get_Count, ICspStatuses::Count, ICspStatuses::get_Count, certenroll/ICspStatuses::Count, certenroll/ICspStatuses::get_Count, get_Count, security.icspstatuses_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICspStatuses.get_Count
-: 
 ---
 
 # ICspStatuses::get_Count
@@ -59,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> objects in the collection. This property is web enabled.
+The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> objects in the collection. This property is web enabled.
 
 This property is read-only.
 
@@ -72,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a>
+<a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a>
+<a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a>
  
 
  

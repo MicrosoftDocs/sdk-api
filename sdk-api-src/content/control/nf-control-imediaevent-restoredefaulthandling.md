@@ -7,7 +7,7 @@ old-location: dshow\imediaevent_restoredefaulthandling.htm
 tech.root: DirectShow
 ms.assetid: 2df616b0-b944-44ab-8147-4f70796dd2a2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMediaEvent interface [DirectShow],RestoreDefaultHandling method, IMediaEvent.RestoreDefaultHandling, IMediaEvent::RestoreDefaultHandling, IMediaEventRestoreDefaultHandling, RestoreDefaultHandling, RestoreDefaultHandling method [DirectShow], RestoreDefaultHandling method [DirectShow],IMediaEvent interface, control/IMediaEvent::RestoreDefaultHandling, dshow.imediaevent_restoredefaulthandling
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- control.h
-: 
-- IMediaEvent.RestoreDefaultHandling
-: 
 ---
 
 # IMediaEvent::RestoreDefaultHandling
@@ -118,7 +110,7 @@ No default handling for this event.
 
 
 
-By default, the Filter Graph Manager handles some events (such as <a href="https://msdn.microsoft.com/en-us/library/Dd319604(v=VS.85).aspx">EC_REPAINT</a>) without passing them to the application. If you call the <a href="https://msdn.microsoft.com/en-us/library/Dd406903(v=VS.85).aspx">IMediaEvent::CancelDefaultHandling</a> method to override the default handling for an event, you can restore the default behavior by calling <code>RestoreDefaultHandling</code> with the same event code.
+By default, the Filter Graph Manager handles some events (such as <a href="https://msdn.microsoft.com/2e756dea-366c-4024-8fc8-6feabaef1954">EC_REPAINT</a>) without passing them to the application. If you call the <a href="https://msdn.microsoft.com/955d0494-8418-42a1-ab6e-2c779165f578">IMediaEvent::CancelDefaultHandling</a> method to override the default handling for an event, you can restore the default behavior by calling <code>RestoreDefaultHandling</code> with the same event code.
 
 
 
@@ -128,11 +120,11 @@ By default, the Filter Graph Manager handles some events (such as <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent Interface</a>
+<a href="https://msdn.microsoft.com/651561d1-4e7e-48de-9cba-769ddb553e63">IMediaEvent Interface</a>
  
 
  

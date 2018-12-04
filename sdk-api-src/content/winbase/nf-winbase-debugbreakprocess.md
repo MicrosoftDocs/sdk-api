@@ -4,10 +4,10 @@ title: DebugBreakProcess function
 author: windows-sdk-content
 description: Causes a breakpoint exception to occur in the specified process. This allows the calling thread to signal the debugger to handle the exception.
 old-location: base\debugbreakprocess.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: db90d46b-fdbc-49c9-ac99-6b1db1db708c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: DebugBreakProcess, DebugBreakProcess function, _win32_debugbreakprocess, base.debugbreakprocess, winbase/DebugBreakProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DebugBreakProcess
-: 
 ---
 
 # DebugBreakProcess function

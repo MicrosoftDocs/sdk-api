@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_requestlock.htm
 tech.root: TSF
 ms.assetid: 82254529-3deb-4e69-8571-3f8eaa533459
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestLock method, ITextStoreACP2.RequestLock, ITextStoreACP2::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreACP2 interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreACP2::RequestLock, tsf.itextstoreacp2_requestlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- textstor.h
-: 
-- ITextStoreACP2.RequestLock
-: 
 ---
 
 # ITextStoreACP2::RequestLock

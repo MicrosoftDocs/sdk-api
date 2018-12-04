@@ -7,7 +7,7 @@ old-location: intl\getstringtypeex.htm
 tech.root: Intl
 ms.assetid: e0cd051f-6627-457a-9a83-d71de607f67f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: GetStringTypeEx, GetStringTypeEx function [Internationalization for Windows Applications], GetStringTypeExA, GetStringTypeExW, _win32_GetStringTypeEx, _win32_GetStringTypeEx_cpp, intl.getstringtypeex, stringapiset/GetStringTypeEx, stringapiset/GetStringTypeExA, stringapiset/GetStringTypeExW, winui._win32_GetStringTypeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,12 +59,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetStringTypeExW
-: 
 ---
 
 # GetStringTypeExW function

@@ -4,10 +4,10 @@ title: lineOpenA function
 author: windows-sdk-content
 description: The lineOpen function opens the line device specified by its device identifier and returns a line handle for the corresponding opened line device. This line handle is used in subsequent operations on the line device.
 old-location: tapi2\lineopen.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 7dd39866-0b3e-47be-8aa8-adfb66df6644
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: LINEMAPPER, _tapi2_lineopen, lineOpen, lineOpen function [TAPI 2.2], lineOpenA, lineOpenW, tapi/lineOpen, tapi/lineOpenA, tapi/lineOpenW, tapi2.lineopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- lineOpenA
-: 
 ---
 
 # lineOpenA function

@@ -4,10 +4,10 @@ title: IRDPSRAPIViewer::get_ApplicationFilter
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIApplicationFilter interface.
 old-location: rdp\irdpsrapiviewer_applicationfilter.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 984c7238-99ba-438f-b122-e952f95e018d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ApplicationFilter property [RDP], ApplicationFilter property [RDP],IRDPSRAPIViewer interface, ApplicationFilter property [RDP],RDPViewer object, IRDPSRAPIViewer interface [RDP],ApplicationFilter property, IRDPSRAPIViewer.ApplicationFilter, IRDPSRAPIViewer.get_ApplicationFilter, IRDPSRAPIViewer::ApplicationFilter, IRDPSRAPIViewer::get_ApplicationFilter, RDPViewer object [RDP],ApplicationFilter property, get_ApplicationFilter, rdp.irdpsrapiviewer_applicationfilter, rdpencomapi/IRDPSRAPIViewer::ApplicationFilter, rdpencomapi/IRDPSRAPIViewer::get_ApplicationFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIViewer.get_ApplicationFilter
-: 
 ---
 
 # IRDPSRAPIViewer::get_ApplicationFilter

@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioning_canceljob.htm
 tech.root: termserv
 ms.assetid: c0496a8c-00ec-43a4-a7c2-071acb6b068a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: CancelJob, CancelJob method [Remote Desktop Services], CancelJob method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],CancelJob method, ITsSbProvisioning.CancelJob, ITsSbProvisioning::CancelJob, sbtsv/ITsSbProvisioning::CancelJob, termserv.itssbprovisioning_canceljob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbtsv.h
-: 
-- ITsSbProvisioning.CancelJob
-: 
 ---
 
 # ITsSbProvisioning::CancelJob

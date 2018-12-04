@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_item.htm
 tech.root: cossdk
 ms.assetid: 47c9dcfd-81fc-495c-848a-8c2b655e8fce
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ICatalogCollection interface [COM+],Item property, ICatalogCollection.Item, ICatalogCollection.get_Item, ICatalogCollection::Item, ICatalogCollection::get_Item, Item property [COM+], Item property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get_Item, comadmin/ICatalogCollection::Item, comadmin/ICatalogCollection::get_Item, cos.icatalogcollection_item, get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comadmin.h
-: 
-- ICatalogCollection.get_Item
-: 
 ---
 
 # ICatalogCollection::get_Item
@@ -72,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

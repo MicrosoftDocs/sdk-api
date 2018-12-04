@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_effect_descriptor.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_EFFECT_DESCRIPTOR
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: XAUDIO2_EFFECT_DESCRIPTOR, XAUDIO2_EFFECT_DESCRIPTOR structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_effect_descriptor, xaudio2/XAUDIO2_EFFECT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ Number of output channels the effect should produce.
 
 
 
-XAPO instances are passed to XAudio2 as <b>IUnknown</b> interfaces and XAudio2 uses <a href="https://msdn.microsoft.com/730A07AF-FCD9-4BF3-BFD1-28DA8D91876F">IXAPO::QueryInterface</a> to acquire an <a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a> interface and to detect whether the XAPO implements the <a href="https://msdn.microsoft.com/en-us/library/Ee415896(v=VS.85).aspx">IXAPOParameters</a> interface.
+XAPO instances are passed to XAudio2 as <b>IUnknown</b> interfaces and XAudio2 uses <a href="https://msdn.microsoft.com/730A07AF-FCD9-4BF3-BFD1-28DA8D91876F">IXAPO::QueryInterface</a> to acquire an <a href="https://msdn.microsoft.com/21DA61D2-8EDE-496B-8513-D67121697FBA">IXAPO</a> interface and to detect whether the XAPO implements the <a href="https://msdn.microsoft.com/0CB2BA7E-5115-449C-A538-44EDCAFFE96F">IXAPOParameters</a> interface.
 
 
 
@@ -102,7 +102,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAudio2_Effect_Chain</a>
+<a href="https://msdn.microsoft.com/7519f0e0-e063-4849-ba58-675f42e91241">XAudio2_Effect_Chain</a>
  
 
  

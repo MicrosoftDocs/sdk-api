@@ -4,10 +4,10 @@ title: ClusterResourceEnumEx function
 author: windows-sdk-content
 description: Enumerates a resource and then returns a pointer to the current dependent resource or node.
 old-location: mscs\clusterresourceenumex.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 9B5C03DF-84BB-4B3A-8404-94C64F192305
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ClusterResourceEnumEx, ClusterResourceEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX function [Failover Cluster], clusapi/ClusterResourceEnumEx, clusapi/PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, mscs.clusterresourceenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusterResourceEnumEx
-: 
 ---
 
 # ClusterResourceEnumEx function
@@ -168,7 +162,7 @@ Any other returned error code indicates that the operation failed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Failover Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
  
 
  

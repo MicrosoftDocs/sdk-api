@@ -4,10 +4,10 @@ title: ISnapinAbout::GetProvider
 author: windows-sdk-content
 description: The ISnapinAbout::GetProvider method enables the console to obtain the snap-in provider name.
 old-location: mmc\isnapinabout_getprovider.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: a1e0d99c-3485-4a24-aff0-7391ec5f8f6b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetProvider, GetProvider method [MMC], GetProvider method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetProvider method, ISnapinAbout.GetProvider, ISnapinAbout::GetProvider, _slate_isnapinabout_getprovider, mmc.isnapinabout_getprovider, mmc/ISnapinAbout::GetProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- ISnapinAbout.GetProvider
-: 
 ---
 
 # ISnapinAbout::GetProvider
@@ -85,7 +77,7 @@ This method can return one of these values.
 
 
 Memory for out parameters must be allocated using the COM API function 
-<a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>.
+<a href="_com_cotaskmemalloc">CoTaskMemAlloc</a>.
 
 
 

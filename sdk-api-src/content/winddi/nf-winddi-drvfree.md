@@ -7,7 +7,7 @@ old-location: display\drvfree.htm
 tech.root: display
 ms.assetid: 829e8128-f57f-433c-9c09-7e4dc0ef54be
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: DrvFree, DrvFree function [Display Devices], ddifncs_c3b37742-3ce6-477b-a28c-065cd60c38cd.xml, display.drvfree, winddi/DrvFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DrvFree
-: 
 ---
 
 # DrvFree function

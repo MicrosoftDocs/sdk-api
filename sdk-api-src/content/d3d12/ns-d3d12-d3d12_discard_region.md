@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_discard_region.htm
 tech.root: direct3d12
 ms.assetid: 8F0916CB-3389-40BC-8028-BA8CF9BC566B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: D3D12_DISCARD_REGION, D3D12_DISCARD_REGION structure, d3d12/D3D12_DISCARD_REGION, direct3d12.d3d12_discard_region
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ The number of rectangles in the array that the <b>pRects</b> member specifies.
 ### -field pRects
 
 An array of <b>D3D12_RECT</b> structures for the rectangles in the resource to discard.
-            If <b>NULL</b>, <a href="https://msdn.microsoft.com/en-us/library/Dn903869(v=VS.85).aspx">DiscardResource</a> discards the entire resource.
+            If <b>NULL</b>, <a href="https://msdn.microsoft.com/2F4DBA5B-F586-4126-8867-BEE650F6D161">DiscardResource</a> discards the entire resource.
           
 
 
@@ -88,7 +88,7 @@ The number of subresources in the resource to discard.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn903869(v=VS.85).aspx">ID3D12GraphicsCommandList::DiscardResource</a> method.
+This structure is used by the <a href="https://msdn.microsoft.com/2F4DBA5B-F586-4126-8867-BEE650F6D161">ID3D12GraphicsCommandList::DiscardResource</a> method.
       
 
 If rectangles are supplied in this structure, the resource must have 2D subresources with all specified subresources the same dimension.
@@ -102,7 +102,7 @@ If rectangles are supplied in this structure, the resource must have 2D subresou
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

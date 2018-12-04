@@ -4,10 +4,10 @@ title: IFsrmReportJob::get_NamespaceRoots
 author: windows-sdk-content
 description: Retrieves or sets an array of local directory paths that will be scanned when the report job is run.
 old-location: fsrm\ifsrmreportjob_namespaceroots.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 09c767ce-6a81-4c06-93cb-dd1a79d17d97
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],NamespaceRoots property, IFsrmReportJob.NamespaceRoots, IFsrmReportJob.get_NamespaceRoots, IFsrmReportJob::NamespaceRoots, IFsrmReportJob::get_NamespaceRoots, IFsrmReportJob::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_namespaceroots, fsrm.ifsrmreportjob_namespaceroots, fsrmreports/IFsrmReportJob::NamespaceRoots, fsrmreports/IFsrmReportJob::get_NamespaceRoots, fsrmreports/IFsrmReportJob::put_NamespaceRoots, get_NamespaceRoots
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmReportJob.get_NamespaceRoots
-: 
 ---
 
 # IFsrmReportJob::get_NamespaceRoots

@@ -4,10 +4,10 @@ title: ICEnroll::get_GenKeyFlags
 author: windows-sdk-content
 description: Sets or retrieves the values passed to the CryptGenKey function when the certificate request is generated.
 old-location: security\icenroll4_genkeyflags.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: d22fe4d4-a939-4f77-8e11-f9312c81ec1e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CEnroll object [Security],GenKeyFlags property, GenKeyFlags property [Security], GenKeyFlags property [Security],CEnroll object, GenKeyFlags property [Security],ICEnroll interface, GenKeyFlags property [Security],ICEnroll2 interface, GenKeyFlags property [Security],ICEnroll3 interface, GenKeyFlags property [Security],ICEnroll4 interface, ICEnroll interface [Security],GenKeyFlags property, ICEnroll.GenKeyFlags, ICEnroll.get_GenKeyFlags, ICEnroll2 interface [Security],GenKeyFlags property, ICEnroll2.GenKeyFlags, ICEnroll2::get_GenKeyFlags, ICEnroll2::put_GenKeyFlags, ICEnroll3 interface [Security],GenKeyFlags property, ICEnroll3.GenKeyFlags, ICEnroll3::get_GenKeyFlags, ICEnroll3::put_GenKeyFlags, ICEnroll4 interface [Security],GenKeyFlags property, ICEnroll4.GenKeyFlags, ICEnroll4::GenKeyFlags, ICEnroll4::get_GenKeyFlags, ICEnroll4::put_GenKeyFlags, ICEnroll::get_GenKeyFlags, ICEnroll::put_GenKeyFlags, get_GenKeyFlags, security.icenroll4_genkeyflags, xenroll/ICEnroll2::GenKeyFlags, xenroll/ICEnroll2::get_GenKeyFlags, xenroll/ICEnroll2::put_GenKeyFlags, xenroll/ICEnroll3::GenKeyFlags, xenroll/ICEnroll3::get_GenKeyFlags, xenroll/ICEnroll3::put_GenKeyFlags, xenroll/ICEnroll4::GenKeyFlags, xenroll/ICEnroll4::get_GenKeyFlags, xenroll/ICEnroll4::put_GenKeyFlags, xenroll/ICEnroll::GenKeyFlags, xenroll/ICEnroll::get_GenKeyFlags, xenroll/ICEnroll::put_GenKeyFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,14 +54,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- ICEnroll.get_GenKeyFlags
-: 
 ---
 
 # ICEnroll::get_GenKeyFlags
@@ -119,29 +111,33 @@ The <b>GenKeyFlags</b> property affects the behavior of the following methods:
 
 #### Examples
 
-
-```cpp
-LONG     lGenKey;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LONG     lGenKey;
 HRESULT  hr;
 
 // pEnroll is a previously instantiated ICEnroll interface pointer.
 
 // Get the GenKeyFlags value.
-hr = pEnroll->get_GenKeyFlags( &lGenKey );
+hr = pEnroll-&gt;get_GenKeyFlags( &amp;lGenKey );
 if (FAILED( hr ))
     printf("Failed get_GenKeyFlags - %x\n", hr );
 else
     printf( "GenKeyFlags: %d\n", lGenKey );
 
 // Set the GenKeyFlags value.
-hr = pEnroll->put_GenKeyFlags( CRYPT_EXPORTABLE );
+hr = pEnroll-&gt;put_GenKeyFlags( CRYPT_EXPORTABLE );
 if (FAILED( hr ))
     printf("Failed put_GenKeyFlags - %x\n", hr );
 else
-    printf( "GenKeyFlags set to %d\n", CRYPT_EXPORTABLE );
-```
-
-
+    printf( "GenKeyFlags set to %d\n", CRYPT_EXPORTABLE );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: lineAccept function
 author: windows-sdk-content
 description: The lineAccept function accepts the specified offered call. It can optionally send the specified user-user information to the calling party.
 old-location: tapi2\lineaccept.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 185f129a-ba8c-496b-ab1a-ba22e5928c54
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "_tapi2_lineaccept, lineAccept, lineAccept function [TAPI 2.2], tapi/lineAccept, tapi2.lineaccept"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- lineAccept
-: 
 ---
 
 # lineAccept function

@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- directmanipulation.h
-: 
-- IDirectManipulationPrimaryContent.SetZoomBoundaries
-: 
 ---
 
 # IDirectManipulationPrimaryContent::SetZoomBoundaries
@@ -73,7 +65,7 @@ The minimum zoom level allowed. Must be greater than or equal to 0.1f, which cor
 
 ### -param zoomMaximum [in]
 
-The maximum zoom allowed. Must be greater than <i>zoomMinimum</i> and less than <a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>.
+The maximum zoom allowed. Must be greater than <i>zoomMinimum</i> and less than <a href="_pluslang_Floating_Limits">FLT_MAX</a>.
 
 
 ## -returns

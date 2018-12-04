@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetBounds_Rect_bounds_Matrix_m
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathgetboundsmethods\getbounds.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetBounds method, GraphicsPath.GetBounds, GraphicsPath.GetBounds(OUT Rect,IN const Matrix,IN const Pen), GraphicsPath.GetBounds(Rect*,const Matrix*,const Pen*), GraphicsPath::GetBounds, GraphicsPath::GetBounds(OUT Rect,IN const Matrix,IN const Pen), _gdiplus_CLASS_GraphicsPath_GetBounds_Rect_bounds_Matrix_matrix_Pen_pen_, gdiplus._gdiplus_CLASS_GraphicsPath_GetBounds_Rect_bounds_Matrix_matrix_Pen_pen_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdipluspath.h
-: 
-- GraphicsPath.GetBounds
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -115,9 +107,13 @@ The rectangle returned by this method might be larger than necessary to enclose 
 
 The following example creates a path that has one curve and one ellipse. The code draws the path with a thick yellow pen and a thin black pen. The <b>GraphicsPath::GetBounds</b> method receives the address of the thick yellow pen and calculates a bounding rectangle for the path. Then the code draws the bounding rectangle.
 
-
-```cpp
-VOID GetBoundsExample(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID GetBoundsExample(HDC hdc)
 {
    Graphics graphics(hdc);
    Pen blackPen(Color(255, 0, 0, 0), 1);
@@ -135,19 +131,19 @@ VOID GetBoundsExample(HDC hdc)
    path.AddEllipse(120, 220, 100, 40);
 
    // Draw the path with a thick yellow pen and a thin black pen.
-   graphics.DrawPath(&yellowPen, &path);
-   graphics.DrawPath(&blackPen, &path);
+   graphics.DrawPath(&amp;yellowPen, &amp;path);
+   graphics.DrawPath(&amp;blackPen, &amp;path);
  
    // Get the path's bounding rectangle.
    Rect rect;
-   path.GetBounds(&rect, NULL, &yellowPen);
-   graphics.DrawRectangle(&redPen, rect);  
+   path.GetBounds(&amp;rect, NULL, &amp;yellowPen);
+   graphics.DrawRectangle(&amp;redPen, rect);  
 }
 
-Color(255, 0, 0, 0)Color(255, 255, 0,  0)
-```
-
-
+Color(255, 0, 0, 0)Color(255, 255, 0,  0)</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -168,7 +164,7 @@ Color(255, 0, 0, 0)Color(255, 255, 0,  0)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 

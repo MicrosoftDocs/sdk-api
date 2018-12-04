@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_connectclientdrivesatlogon.htm
 tech.root: termserv
 ms.assetid: d9c37f08-67f2-401c-b5a7-1866b8a3d611
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 11/16/2018
 ms.keywords: ConnectClientDrivesAtLogon property [Remote Desktop Services], ConnectClientDrivesAtLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],ConnectClientDrivesAtLogon property, IADsTSUserEx.ConnectClientDrivesAtLogon, IADsTSUserEx.put_ConnectClientDrivesAtLogon, IADsTSUserEx::ConnectClientDrivesAtLogon, IADsTSUserEx::get_ConnectClientDrivesAtLogon, IADsTSUserEx::put_ConnectClientDrivesAtLogon, put_ConnectClientDrivesAtLogon, termserv.iadstsuserex_connectclientdrivesatlogon, tsuserex/IADsTSUserEx::ConnectClientDrivesAtLogon, tsuserex/IADsTSUserEx::get_ConnectClientDrivesAtLogon, tsuserex/IADsTSUserEx::put_ConnectClientDrivesAtLogon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tsuserex.h
-: 
-- IADsTSUserEx.put_ConnectClientDrivesAtLogon
-: 
 ---
 
 # IADsTSUserEx::put_ConnectClientDrivesAtLogon

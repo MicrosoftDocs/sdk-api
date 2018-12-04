@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevicecontrol_play.htm
 tech.root: WMDM
 ms.assetid: 09ca1922-3b33-47a8-a851-a1d221a568b9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Play method, IMDSPDeviceControl.Play, IMDSPDeviceControl::Play, IMDSPDeviceControlPlay, Play, Play method [windows Media Device Manager], Play method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Play, wmdm.imdspdevicecontrol_play
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mswmdm.h
-: 
-- IMDSPDeviceControl.Play
-: 
 ---
 
 # IMDSPDeviceControl::Play

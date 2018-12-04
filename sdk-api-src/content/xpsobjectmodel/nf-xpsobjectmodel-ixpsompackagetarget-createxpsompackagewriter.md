@@ -7,7 +7,7 @@ old-location: xps\ixpsompackagetarget_createxpsompackagewriter.htm
 tech.root: printdocs
 ms.assetid: 6AD4BEB8-86B7-4085-9B84-D723982933FE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: CreateXpsOMPackageWriter, CreateXpsOMPackageWriter method [XPS Documents and Packaging], CreateXpsOMPackageWriter method [XPS Documents and Packaging],IXpsOMPackageTarget interface, IXpsOMPackageTarget interface [XPS Documents and Packaging],CreateXpsOMPackageWriter method, IXpsOMPackageTarget.CreateXpsOMPackageWriter, IXpsOMPackageTarget::CreateXpsOMPackageWriter, xps.ixpsompackagetarget_createxpsompackagewriter, xpsobjectmodel/IXpsOMPackageTarget::CreateXpsOMPackageWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMPackageTarget.CreateXpsOMPackageWriter
-: 
 ---
 
 # IXpsOMPackageTarget::CreateXpsOMPackageWriter

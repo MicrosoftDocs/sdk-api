@@ -7,7 +7,7 @@ old-location: com\cocreateguid.htm
 tech.root: com
 ms.assetid: 8d5cedea-8c2b-4918-99db-1a000989f178
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: CoCreateGuid, CoCreateGuid function [COM], _com_CoCreateGuid, com.cocreateguid, combaseapi/CoCreateGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoCreateGuid
-: 
 ---
 
 # CoCreateGuid function
@@ -99,7 +93,7 @@ The GUID was successfully created.
 </table>
  
 
-Errors returned by <a href="https://msdn.microsoft.com/en-us/library/Aa379205(v=VS.85).aspx">UuidCreate</a> are wrapped as an <b>HRESULT</b>.
+Errors returned by <a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a> are wrapped as an <b>HRESULT</b>.
 
 
 
@@ -108,7 +102,7 @@ Errors returned by <a href="https://msdn.microsoft.com/en-us/library/Aa379205(v=
 
 
 
-The <b>CoCreateGuid</b> function calls the RPC function <a href="https://msdn.microsoft.com/en-us/library/Aa379205(v=VS.85).aspx">UuidCreate</a>, which creates a GUID, a globally unique 128-bit integer. Use <b>CoCreateGuid</b> when you need an absolutely unique number that you will use as a persistent identifier in a distributed environment.To a very high degree of certainty, this function returns a unique value – no other invocation, on the same or any other system (networked or not), should return the same value.
+The <b>CoCreateGuid</b> function calls the RPC function <a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a>, which creates a GUID, a globally unique 128-bit integer. Use <b>CoCreateGuid</b> when you need an absolutely unique number that you will use as a persistent identifier in a distributed environment.To a very high degree of certainty, this function returns a unique value – no other invocation, on the same or any other system (networked or not), should return the same value.
 
 
 
@@ -118,7 +112,7 @@ The <b>CoCreateGuid</b> function calls the RPC function <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379205(v=VS.85).aspx">UuidCreate</a>
+<a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a>
  
 
  

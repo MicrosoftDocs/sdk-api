@@ -4,10 +4,10 @@ title: IADs::GetEx
 author: windows-sdk-content
 description: Retrieves, from the property cache, property values of a given attribute.
 old-location: adsi\iads_getex.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: cda6b8e7-fadc-4e0b-8217-66b37bf7efbd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetEx, GetEx method [ADSI], GetEx method [ADSI],IADs interface, IADs interface [ADSI],GetEx method, IADs.GetEx, IADs::GetEx, _ds_iads_getex, adsi.iads__getex, adsi.iads_getex, iads/IADs::GetEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADs.GetEx
-: 
 ---
 
 # IADs::GetEx

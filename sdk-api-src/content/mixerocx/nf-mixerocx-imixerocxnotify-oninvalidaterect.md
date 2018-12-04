@@ -7,7 +7,7 @@ old-location: dshow\imixerocxnotify_oninvalidaterect.htm
 tech.root: DirectShow
 ms.assetid: 55d349d4-1a9a-4762-8058-c3f7a559e272
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IMixerOCXNotify interface [DirectShow],OnInvalidateRect method, IMixerOCXNotify.OnInvalidateRect, IMixerOCXNotify::OnInvalidateRect, IMixerOCXNotifyOnInvalidateRect, OnInvalidateRect, OnInvalidateRect method [DirectShow], OnInvalidateRect method [DirectShow],IMixerOCXNotify interface, dshow.imixerocxnotify_oninvalidaterect, mixerocx/IMixerOCXNotify::OnInvalidateRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mixerocx.h
-: 
-- IMixerOCXNotify.OnInvalidateRect
-: 
 ---
 
 # IMixerOCXNotify::OnInvalidateRect

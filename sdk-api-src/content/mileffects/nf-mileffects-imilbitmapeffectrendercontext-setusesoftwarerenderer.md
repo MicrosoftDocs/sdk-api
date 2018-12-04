@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
-- apiref
-: 
-- COM
-: 
-- mileffects.h
-: 
-- IMILBitmapEffectRenderContext.SetUseSoftwareRenderer
-: 
 ---
 
 # IMILBitmapEffectRenderContext::SetUseSoftwareRenderer

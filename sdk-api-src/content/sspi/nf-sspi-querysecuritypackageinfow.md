@@ -4,10 +4,10 @@ title: QuerySecurityPackageInfoW function
 author: windows-sdk-content
 description: Retrieves information about a specified security package. This information includes the bounds on sizes of authentication information, credentials, and contexts.
 old-location: security\querysecuritypackageinfo.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 130ef0fe-bb13-4a65-b476-cd25ed234da1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: QuerySecurityPackageInfo, QuerySecurityPackageInfo function [Security], QuerySecurityPackageInfoA, QuerySecurityPackageInfoW, _ssp_querysecuritypackageinfo, security.querysecuritypackageinfo, sspi/QuerySecurityPackageInfo, sspi/QuerySecurityPackageInfoA, sspi/QuerySecurityPackageInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- QuerySecurityPackageInfoW
-: 
 ---
 
 # QuerySecurityPackageInfoW function
@@ -112,7 +106,7 @@ The caller must call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

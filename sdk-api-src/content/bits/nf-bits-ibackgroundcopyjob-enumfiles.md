@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::EnumFiles
 author: windows-sdk-content
 description: Retrieves an IEnumBackgroundCopyFiles interface pointer that you use to enumerate the files in a job.
 old-location: bits\ibackgroundcopyjob_enumfiles.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: c6b8ef69-9c67-447f-9f90-b6905a5a5a19
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: EnumFiles, EnumFiles method [BITS], EnumFiles method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],EnumFiles method, IBackgroundCopyJob.EnumFiles, IBackgroundCopyJob::EnumFiles, _drz_ibackgroundcopyjob_enumfiles, bits.ibackgroundcopyjob_enumfiles, bits/IBackgroundCopyJob::EnumFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.EnumFiles
-: 
 ---
 
 # IBackgroundCopyJob::EnumFiles
@@ -59,8 +51,8 @@ req.redist:
 
 
 Retrieves an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363097(v=VS.85).aspx">IEnumBackgroundCopyFiles</a> interface pointer that you use to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362838(v=VS.85).aspx">enumerate the files</a> in a job.
+<a href="https://msdn.microsoft.com/831998ba-601c-43c4-ba27-faff741f8eb4">IEnumBackgroundCopyFiles</a> interface pointer that you use to 
+<a href="https://msdn.microsoft.com/0e1fa024-4576-434c-bc5f-518d246b5faa">enumerate the files</a> in a job.
 
 
 ## -parameters
@@ -68,17 +60,10 @@ Retrieves an
 
 
 
-### -param pEnum
-
-TBD
+### -param pEnum [out]
 
 
-
-
-#### - ppEnumFiles [out]
-
-
-<a href="https://msdn.microsoft.com/en-us/library/Aa363097(v=VS.85).aspx">IEnumBackgroundCopyFiles</a> interface pointer that you use to enumerate the files in the job. Release <i>ppEnumFiles</i> when done.
+<a href="https://msdn.microsoft.com/831998ba-601c-43c4-ba27-faff741f8eb4">IEnumBackgroundCopyFiles</a> interface pointer that you use to enumerate the files in the job. Release <i>ppEnumFiles</i> when done.
 
 
 ## -returns
@@ -95,11 +80,11 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363052(v=VS.85).aspx">IBackgroundCopyManager::EnumJobs</a>
+<a href="https://msdn.microsoft.com/e8b73060-dff9-4ab3-8009-d2b41502fc1a">IBackgroundCopyManager::EnumJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363097(v=VS.85).aspx">IEnumBackgroundCopyFiles</a>
+<a href="https://msdn.microsoft.com/831998ba-601c-43c4-ba27-faff741f8eb4">IEnumBackgroundCopyFiles</a>
  
 
  
