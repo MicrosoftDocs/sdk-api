@@ -7,7 +7,7 @@ old-location: security\icenroll4_mystoretype.htm
 tech.root: seccrypto
 ms.assetid: 948a9012-b2ac-4bf0-8cae-690ea3ecdb2e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: CEnroll object [Security],MyStoreType property, ICEnroll interface [Security],MyStoreType property, ICEnroll.MyStoreType, ICEnroll.put_MyStoreType, ICEnroll2 interface [Security],MyStoreType property, ICEnroll2.MyStoreType, ICEnroll2::get_MyStoreType, ICEnroll2::put_MyStoreType, ICEnroll3 interface [Security],MyStoreType property, ICEnroll3.MyStoreType, ICEnroll3::get_MyStoreType, ICEnroll3::put_MyStoreType, ICEnroll4 interface [Security],MyStoreType property, ICEnroll4.MyStoreType, ICEnroll4::MyStoreType, ICEnroll4::get_MyStoreType, ICEnroll4::put_MyStoreType, ICEnroll::get_MyStoreType, ICEnroll::put_MyStoreType, MyStoreType property [Security], MyStoreType property [Security],CEnroll object, MyStoreType property [Security],ICEnroll interface, MyStoreType property [Security],ICEnroll2 interface, MyStoreType property [Security],ICEnroll3 interface, MyStoreType property [Security],ICEnroll4 interface, put_MyStoreType, security.icenroll4_mystoretype, sz_CERT_STORE_PROV_SYSTEM, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/ICEnroll2::MyStoreType, xenroll/ICEnroll2::get_MyStoreType, xenroll/ICEnroll2::put_MyStoreType, xenroll/ICEnroll3::MyStoreType, xenroll/ICEnroll3::get_MyStoreType, xenroll/ICEnroll3::put_MyStoreType, xenroll/ICEnroll4::MyStoreType, xenroll/ICEnroll4::get_MyStoreType, xenroll/ICEnroll4::put_MyStoreType, xenroll/ICEnroll::MyStoreType, xenroll/ICEnroll::get_MyStoreType, xenroll/ICEnroll::put_MyStoreType
 ms.prod: windows-hardware
 ms.technology: windows-devices

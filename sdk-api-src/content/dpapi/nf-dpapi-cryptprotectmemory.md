@@ -7,7 +7,7 @@ old-location: security\cryptprotectmemory.htm
 tech.root: seccrypto
 ms.assetid: 6b372552-87d4-4047-afa5-0d1113348289
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptProtectMemory, CryptProtectMemory function [Security], dpapi/CryptProtectMemory, security.cryptprotectmemory, wincrypt/CryptProtectMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

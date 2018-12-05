@@ -7,7 +7,7 @@ old-location: security\iocspcaconfigurationcollection_itembyname_method.htm
 tech.root: seccrypto
 ms.assetid: 78c2ce21-b7f9-48ec-b192-e4cd8be46cc6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],ItemByName property, IOCSPCAConfigurationCollection.ItemByName, IOCSPCAConfigurationCollection.get_ItemByName, IOCSPCAConfigurationCollection::ItemByName, IOCSPCAConfigurationCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::ItemByName, certadm/IOCSPCAConfigurationCollection::get_ItemByName, get_ItemByName, security.iocspcaconfigurationcollection_itembyname_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

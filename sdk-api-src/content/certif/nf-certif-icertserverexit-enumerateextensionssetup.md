@@ -7,7 +7,7 @@ old-location: security\icertserverexit_enumerateextensionssetup.htm
 tech.root: seccrypto
 ms.assetid: 2a0c4919-b3a0-4027-85bd-970f6bc0cdeb
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensionsSetup method, EnumerateExtensionsSetup, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security],CCertServerExit object, EnumerateExtensionsSetup method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensionsSetup method, ICertServerExit.EnumerateExtensionsSetup, ICertServerExit::EnumerateExtensionsSetup, _certsrv_icertserverexit_enumerateextensionssetup, certif/ICertServerExit::EnumerateExtensionsSetup, security.icertserverexit_enumerateextensionssetup
 ms.prod: windows-hardware
 ms.technology: windows-devices

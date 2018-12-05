@@ -7,7 +7,7 @@ old-location: security\certstoreprovsetctlproperty.htm
 tech.root: seccrypto
 ms.assetid: d062c875-b8c1-454f-8a0d-2ada74e5028d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: CertStoreProvSetCTLProperty, PFN_CERT_STORE_PROV_SET_CTL_PROPERTY, PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback, PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback function [Security], _crypto2_certstoreprovsetctlproperty, security.certstoreprovsetctlproperty, wincrypt/PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

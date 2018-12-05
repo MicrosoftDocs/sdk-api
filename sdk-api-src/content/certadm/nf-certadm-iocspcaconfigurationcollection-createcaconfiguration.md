@@ -7,7 +7,7 @@ old-location: security\iocspcaconfigurationcollection_createcaconfiguration_meth
 tech.root: seccrypto
 ms.assetid: d1c47402-77b1-4c43-8d57-20b9dd2682f7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: CreateCAConfiguration, CreateCAConfiguration method [Security], CreateCAConfiguration method [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],CreateCAConfiguration method, IOCSPCAConfigurationCollection.CreateCAConfiguration, IOCSPCAConfigurationCollection::CreateCAConfiguration, certadm/IOCSPCAConfigurationCollection::CreateCAConfiguration, security.iocspcaconfigurationcollection_createcaconfiguration_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

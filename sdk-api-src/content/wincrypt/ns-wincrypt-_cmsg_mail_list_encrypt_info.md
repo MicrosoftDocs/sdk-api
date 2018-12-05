@@ -7,7 +7,7 @@ old-location: security\cmsg_mail_list_encrypt_info.htm
 tech.root: seccrypto
 ms.assetid: 25c4338a-1ea3-4fff-a6bf-f3884a8154d3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: "*PCMSG_MAIL_LIST_ENCRYPT_INFO, CMSG_MAIL_LIST_ENCRYPT_FREE_OBJID_FLAG, CMSG_MAIL_LIST_ENCRYPT_FREE_PARA_FLAG, CMSG_MAIL_LIST_ENCRYPT_INFO, CMSG_MAIL_LIST_ENCRYPT_INFO structure [Security], PCMSG_MAIL_LIST_ENCRYPT_INFO, PCMSG_MAIL_LIST_ENCRYPT_INFO structure pointer [Security], _CMSG_MAIL_LIST_ENCRYPT_INFO, security.cmsg_mail_list_encrypt_info, wincrypt/CMSG_MAIL_LIST_ENCRYPT_INFO, wincrypt/PCMSG_MAIL_LIST_ENCRYPT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

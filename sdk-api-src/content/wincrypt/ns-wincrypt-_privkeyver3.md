@@ -7,7 +7,7 @@ old-location: security\dhprivkey_ver3.htm
 tech.root: seccrypto
 ms.assetid: ad4bf20d-5c6c-4373-bd88-9a5bbb832ba5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: DHPRIVKEY_VER3, DHPRIVKEY_VER3 structure [Security], DSSPRIVKEY_VER3, _PRIVKEYVER3, _crypto2_dhprivkey_ver3, security.dhprivkey_ver3, wincrypt/DHPRIVKEY_VER3
 ms.prod: windows-hardware
 ms.technology: windows-devices

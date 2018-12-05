@@ -7,7 +7,7 @@ old-location: security\cryptcatcdf.htm
 tech.root: seccrypto
 ms.assetid: 15d5710a-d4df-4e45-b161-5d4f7509ba29
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: CRYPTCATCDF, CRYPTCATCDF structure [Security], CRYPTCATCDF_, mscat/CRYPTCATCDF, security.cryptcatcdf
 ms.prod: windows-hardware
 ms.technology: windows-devices

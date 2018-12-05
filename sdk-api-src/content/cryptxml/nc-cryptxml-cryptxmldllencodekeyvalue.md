@@ -7,7 +7,7 @@ old-location: security\cryptxmldllencodekeyvalue.htm
 tech.root: seccrypto
 ms.assetid: a0737139-a820-455d-85f4-c56b63a1a8e0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: CryptXmlDllEncodeKeyValue, CryptXmlDllEncodeKeyValue callback, CryptXmlDllEncodeKeyValue callback function [Security], cryptxml/CryptXmlDllEncodeKeyValue, security.cryptxmldllencodekeyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

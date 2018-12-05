@@ -7,7 +7,7 @@ old-location: security\crypt_oid_func_entry.htm
 tech.root: seccrypto
 ms.assetid: 84c4aca8-ee38-455f-8330-58f512a6d12c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: "*PCRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY structure [Security], PCRYPT_OID_FUNC_ENTRY, PCRYPT_OID_FUNC_ENTRY structure pointer [Security], _CRYPT_OID_FUNC_ENTRY, _crypto2_crypt_oid_func_entry, security.crypt_oid_func_entry, wincrypt/CRYPT_OID_FUNC_ENTRY, wincrypt/PCRYPT_OID_FUNC_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

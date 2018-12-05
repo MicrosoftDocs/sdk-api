@@ -7,7 +7,7 @@ old-location: security\cryptcatcdfclose.htm
 tech.root: seccrypto
 ms.assetid: 9f2a1175-f9fe-4f4d-bf6f-e4f4c59739ec
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: CryptCATCDFClose, CryptCATCDFClose function [Security], mscat/CryptCATCDFClose, security.cryptcatcdfclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

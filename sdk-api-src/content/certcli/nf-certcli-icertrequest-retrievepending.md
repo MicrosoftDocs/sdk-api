@@ -7,7 +7,7 @@ old-location: security\icertrequest2_retrievepending.htm
 tech.root: seccrypto
 ms.assetid: 07a9ac57-f90e-4c5c-b563-8aebbcf8f42e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: CCertRequest object [Security],RetrievePending method, ICertRequest interface [Security],RetrievePending method, ICertRequest.RetrievePending, ICertRequest2 interface [Security],RetrievePending method, ICertRequest2::RetrievePending, ICertRequest3 interface [Security],RetrievePending method, ICertRequest3::RetrievePending, ICertRequest::RetrievePending, RetrievePending, RetrievePending method [Security], RetrievePending method [Security],CCertRequest object, RetrievePending method [Security],ICertRequest interface, RetrievePending method [Security],ICertRequest2 interface, RetrievePending method [Security],ICertRequest3 interface, certcli/ICertRequest2::RetrievePending, certcli/ICertRequest3::RetrievePending, certcli/ICertRequest::RetrievePending, security.icertrequest2_retrievepending
 ms.prod: windows-hardware
 ms.technology: windows-devices

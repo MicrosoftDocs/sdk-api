@@ -7,7 +7,7 @@ old-location: security\pfn_cmsg_export_key_trans.htm
 tech.root: seccrypto
 ms.assetid: bbb976df-5c8d-4d5e-ba92-7c534bba59de
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/04/2018
 ms.keywords: PFN_CMSG_EXPORT_KEY_TRANS, PFN_CMSG_EXPORT_KEY_TRANS callback, PFN_CMSG_EXPORT_KEY_TRANS callback function [Security], security.pfn_cmsg_export_key_trans, wincrypt/PFN_CMSG_EXPORT_KEY_TRANS
 ms.prod: windows-hardware
 ms.technology: windows-devices
