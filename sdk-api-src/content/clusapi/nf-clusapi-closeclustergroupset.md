@@ -7,7 +7,7 @@ old-location: mscs\closeclustergroupcollection.htm
 tech.root: mscs
 ms.assetid: 017f0c40-023d-4b22-90ec-037122718830
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CloseClusterGroupSet, CloseClusterGroupSet function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, PCLUSAPI_CLOSE_CLUSTER_GROUP_SET function [Failover Cluster], clusapi/CloseClusterGroupSet, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, mscs.closeclustergroupcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

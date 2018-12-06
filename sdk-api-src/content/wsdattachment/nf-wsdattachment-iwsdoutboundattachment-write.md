@@ -7,7 +7,7 @@ old-location: ncd\iwsdoutboundattachment_write_method.htm
 tech.root: wsdapi
 ms.assetid: 5bd24e7c-f2f4-4cc4-abc0-176ed024fa43
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDOutboundAttachment interface,Write method, IWSDOutboundAttachment.Write, IWSDOutboundAttachment::Write, Write, Write method, Write method,IWSDOutboundAttachment interface, ncd.iwsdoutboundattachment_write_method, wsdattachment/IWSDOutboundAttachment::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices

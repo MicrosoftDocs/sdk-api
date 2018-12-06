@@ -7,7 +7,7 @@ old-location: security\iazapplication_addpolicyadministrator.htm
 tech.root: secauthz
 ms.assetid: 944f93c1-5155-4c87-a241-9fdef84b68fc
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzApplication object, AddPolicyAdministrator method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyAdministrator method, IAzApplication interface [Security],AddPolicyAdministrator method, IAzApplication.AddPolicyAdministrator, IAzApplication::AddPolicyAdministrator, azroles/IAzApplication::AddPolicyAdministrator, security.iazapplication_addpolicyadministrator
 ms.prod: windows-hardware
 ms.technology: windows-devices

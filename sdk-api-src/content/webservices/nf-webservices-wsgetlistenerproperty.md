@@ -7,7 +7,7 @@ old-location: wsw\wsgetlistenerproperty.htm
 tech.root: wsw
 ms.assetid: cc4fb48a-8282-471a-aed0-1ca3134f9bd0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsGetListenerProperty, WsGetListenerProperty function [Web Services for Windows], webservices/WsGetListenerProperty, wsw.wsgetlistenerproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

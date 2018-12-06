@@ -7,7 +7,7 @@ old-location: etw\eventcallback.htm
 tech.root: etw
 ms.assetid: 9312eaed-2997-4d44-952a-fcae3b262947
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: EventCallback, EventCallback callback function [ETW], PEVENT_CALLBACK, PEVENT_CALLBACK callback, _evt_eventcallback, base.eventcallback, etw.eventcallback, evntrace/EventCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

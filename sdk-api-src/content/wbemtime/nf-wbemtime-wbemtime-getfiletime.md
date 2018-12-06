@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_getfiletime.htm
 tech.root: WmiSdk
 ms.assetid: 3debc121-ff7b-4e2c-9d77-502ee491cad8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z, GetFILETIME, GetFILETIME method [Windows Management Instrumentation], GetFILETIME method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetFILETIME method, WBEMTime.GetFILETIME, WBEMTime::GetFILETIME, _hmm_wbemtime_getfiletime, wbemtime/WBEMTime::GetFILETIME, wmi.wbemtime_getfiletime"
 ms.prod: windows-hardware
 ms.technology: windows-devices

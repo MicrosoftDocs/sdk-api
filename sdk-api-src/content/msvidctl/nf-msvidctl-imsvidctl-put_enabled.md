@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_put_enabled.htm
 tech.root: mstv
 ms.assetid: 366164ac-1514-46d6-870a-388706b8de75
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_Enabled method, IMSVidCtl.put_Enabled, IMSVidCtl::put_Enabled, IMSVidCtlput_Enabled, mstv.imsvidctl_put_enabled, msvidctl/IMSVidCtl::put_Enabled, put_Enabled, put_Enabled method [Microsoft TV Technologies], put_Enabled method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

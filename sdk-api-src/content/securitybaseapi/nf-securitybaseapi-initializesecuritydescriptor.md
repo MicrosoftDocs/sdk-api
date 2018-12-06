@@ -7,7 +7,7 @@ old-location: security\initializesecuritydescriptor.htm
 tech.root: secauthz
 ms.assetid: 234fcda4-7d30-4c3f-a036-7ace58ca8a3c
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: InitializeSecurityDescriptor, InitializeSecurityDescriptor function [Security], _win32_initializesecuritydescriptor, security.initializesecuritydescriptor, securitybaseapi/InitializeSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

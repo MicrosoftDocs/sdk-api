@@ -7,7 +7,7 @@ old-location: security\getace.htm
 tech.root: secauthz
 ms.assetid: 5b5d8751-20d7-40a2-bd70-cfbe956aaa03
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetAce, GetAce function [Security], _win32_getace, security.getace, securitybaseapi/GetAce
 ms.prod: windows-hardware
 ms.technology: windows-devices

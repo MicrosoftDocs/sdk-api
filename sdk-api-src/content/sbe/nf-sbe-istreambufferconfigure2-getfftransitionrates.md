@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure2_getfftransitionrates.htm
 tech.root: mstv
 ms.assetid: ba0ce9b2-f160-4749-92ba-b9a77f34b980
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetFFTransitionRates, GetFFTransitionRates method [Microsoft TV Technologies], GetFFTransitionRates method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, IStreamBufferConfigure2 interface [Microsoft TV Technologies],GetFFTransitionRates method, IStreamBufferConfigure2.GetFFTransitionRates, IStreamBufferConfigure2::GetFFTransitionRates, IStreamBufferConfigure2GetFFTransitionRates, mstv.istreambufferconfigure2_getfftransitionrates, sbe/IStreamBufferConfigure2::GetFFTransitionRates
 ms.prod: windows-hardware
 ms.technology: windows-devices

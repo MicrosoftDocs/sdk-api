@@ -7,7 +7,7 @@ old-location: gdi\setbkcolor.htm
 tech.root: gdi
 ms.assetid: 9163370b-19c5-4c23-9197-793e4b8d50c4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: SetBkColor, SetBkColor function [Windows GDI], _win32_SetBkColor, gdi.setbkcolor, wingdi/SetBkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

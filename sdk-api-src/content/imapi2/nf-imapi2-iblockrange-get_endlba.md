@@ -7,7 +7,7 @@ old-location: imapi\iblockrange_get_endlba.htm
 tech.root: imapi
 ms.assetid: e2260241-5922-4cf5-8aff-1dd7431a44c2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IBlockRange interface [IMAPI],get_EndLba method, IBlockRange.get_EndLba, IBlockRange::get_EndLba, get_EndLba, get_EndLba method [IMAPI], get_EndLba method [IMAPI],IBlockRange interface, imapi.iblockrange_get_endlba, imapi2/IBlockRange::get_EndLba
 ms.prod: windows-hardware
 ms.technology: windows-devices

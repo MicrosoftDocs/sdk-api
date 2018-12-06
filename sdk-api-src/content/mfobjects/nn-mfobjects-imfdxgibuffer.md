@@ -7,7 +7,7 @@ old-location: mf\imfdxgibuffer.htm
 tech.root: medfound
 ms.assetid: 796D7755-275D-4A0B-A34F-5D34DCEC8AC7
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IMFDXGIBuffer, IMFDXGIBuffer interface [Media Foundation], IMFDXGIBuffer interface [Media Foundation],described, mf.imfdxgibuffer, mfobjects/IMFDXGIBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

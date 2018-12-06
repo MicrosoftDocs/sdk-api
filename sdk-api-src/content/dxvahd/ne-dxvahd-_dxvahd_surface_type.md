@@ -7,7 +7,7 @@ old-location: mf\dxvahd_surface_type.htm
 tech.root: medfound
 ms.assetid: 06df2d2f-9163-4672-8ea4-57f1942320c5
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: DXVAHD_SURFACE_TYPE, DXVAHD_SURFACE_TYPE enumeration [Media Foundation], DXVAHD_SURFACE_TYPE_VIDEO_INPUT, DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE, DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT, _DXVAHD_SURFACE_TYPE, dxvahd/DXVAHD_SURFACE_TYPE, dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_INPUT, dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE, dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT, mf.dxvahd_surface_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

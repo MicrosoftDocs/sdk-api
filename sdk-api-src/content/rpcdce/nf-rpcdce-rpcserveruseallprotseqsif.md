@@ -7,7 +7,7 @@ old-location: rpc\rpcserveruseallprotseqsif.htm
 tech.root: rpc
 ms.assetid: 6f3f7726-3e12-4b0b-8454-25f06a29b245
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RpcServerUseAllProtseqsIf, RpcServerUseAllProtseqsIf function [RPC], _rpc_rpcserveruseallprotseqsif, rpc.rpcserveruseallprotseqsif, rpcdce/RpcServerUseAllProtseqsIf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -190,10 +190,10 @@ To receive remote procedure call requests, a server must register at least one p
 <a href="https://msdn.microsoft.com/3633842c-d1f5-46d9-866e-e54f31415ea5">ncacn_nb_tcp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/641471d4-eba4-4d4a-a3fe-1e40b3751e38">ncacn_nb_ipx</a>
+<a href="https://msdn.microsoft.com/">ncacn_nb_ipx</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/">ncadg_mq</a>
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/3165e4f6-8869-4eff-af65-53e85f78a949">ncacn_at_dsp</a>

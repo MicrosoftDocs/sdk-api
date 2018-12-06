@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionshadoweffect_setred.htm
 tech.root: directcomp
 ms.assetid: CB8B41BF-1E68-472C-946B-4D07FF8C5541
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetRed method, IDCompositionShadowEffect.SetRed, IDCompositionShadowEffect::SetRed, IDCompositionShadowEffect::SetRed(float), SetRed, SetRed method [DirectComposition], SetRed method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetRed, directcomp.idcompositionshadoweffect_setred
 ms.prod: windows-hardware
 ms.technology: windows-devices

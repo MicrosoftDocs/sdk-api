@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation5.htm
 tech.root: WinAuto
 ms.assetid: BCF67DB0-DF5B-4CED-9C32-01F126494129
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAutomation5, IUIAutomation5 interface [Windows Accessibility], IUIAutomation5 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation5, winauto.uiauto_IUIAutomation5
 ms.prod: windows-hardware
 ms.technology: windows-devices

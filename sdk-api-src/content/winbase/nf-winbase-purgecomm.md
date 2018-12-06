@@ -7,7 +7,7 @@ old-location: base\purgecomm.htm
 tech.root: devio
 ms.assetid: bfbd6530-447e-46e2-89e6-683b3c8c32ea
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 12/5/2018
 ms.keywords: PURGE_RXABORT, PURGE_RXCLEAR, PURGE_TXABORT, PURGE_TXCLEAR, PurgeComm, PurgeComm function, _win32_purgecomm, base.purgecomm, winbase/PurgeComm
 ms.prod: windows-hardware
 ms.technology: windows-devices

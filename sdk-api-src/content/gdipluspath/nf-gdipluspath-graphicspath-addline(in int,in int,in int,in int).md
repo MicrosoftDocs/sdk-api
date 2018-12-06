@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_INT_x1_INT_y1_INT_x2_I
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinemethods\addline_82intx1_inty1_intx2_inty2.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddLine, AddLine method [GDI+], AddLine method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddLine method, GraphicsPath.AddLine, GraphicsPath.AddLine(IN INT,IN INT,IN INT,IN INT), GraphicsPath.AddLine(INT,INT,INT,INT), GraphicsPath::AddLine, GraphicsPath::AddLine(IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_GraphicsPath_AddLine_INT_x1_INT_y1_INT_x2_INT_y2_, gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_INT_x1_INT_y1_INT_x2_INT_y2_
 ms.prod: windows-hardware
 ms.technology: windows-devices

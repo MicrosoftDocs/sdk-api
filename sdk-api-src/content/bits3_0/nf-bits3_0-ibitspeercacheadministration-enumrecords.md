@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_enumrecords.htm
 tech.root: bits
 ms.assetid: b471cee0-0ad0-4488-9819-e524e50dbc76
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: EnumRecords, EnumRecords method [BITS], EnumRecords method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],EnumRecords method, IBitsPeerCacheAdministration.EnumRecords, IBitsPeerCacheAdministration::EnumRecords, bits.ibitspeercacheadministration_enumrecords, bits3_0/IBitsPeerCacheAdministration::EnumRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

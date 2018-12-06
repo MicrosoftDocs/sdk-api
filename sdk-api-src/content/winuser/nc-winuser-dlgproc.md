@@ -7,7 +7,7 @@ old-location: dlgbox\dialogproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogproc.htm
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: DLGPROC, DLGPROC callback, DLGPROC callback function [Dialog Boxes], _win32_DialogProc, _win32_dialogproc_cpp, dlgbox.dialogproc, winui._win32_dialogproc, winuser/DLGPROC
 ms.prod: windows-hardware
 ms.technology: windows-devices

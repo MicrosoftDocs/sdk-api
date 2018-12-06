@@ -7,7 +7,7 @@ old-location: mstv\imsvidxdsevent.htm
 tech.root: mstv
 ms.assetid: c89f378d-daa6-4e01-a087-6082d368585b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidXDSEvent, IMSVidXDSEvent interface [Microsoft TV Technologies], IMSVidXDSEvent interface [Microsoft TV Technologies],described, IMSVidXDSEventInterface, mstv.imsvidxdsevent, segment/IMSVidXDSEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

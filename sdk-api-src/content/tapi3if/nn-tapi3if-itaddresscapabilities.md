@@ -7,7 +7,7 @@ old-location: tapi3\itaddresscapabilities.htm
 tech.root: tapi
 ms.assetid: 36f452ce-9171-41da-b003-4c7df17790da
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITAddressCapabilities, ITAddressCapabilities interface [TAPI 2.2], ITAddressCapabilities interface [TAPI 2.2],described, _tapi3_itaddresscapabilities, tapi3.itaddresscapabilities, tapi3if/ITAddressCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

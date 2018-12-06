@@ -7,7 +7,7 @@ old-location: termserv\wtsenumerateservers.htm
 tech.root: termserv
 ms.assetid: 49aa3813-4e29-420e-9309-3ef9b11f1da7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WTSEnumerateServers, WTSEnumerateServers function [Remote Desktop Services], WTSEnumerateServersA, WTSEnumerateServersW, termserv.wtsenumerateservers, wtsapi32/WTSEnumerateServers, wtsapi32/WTSEnumerateServersA, wtsapi32/WTSEnumerateServersW
 ms.prod: windows-hardware
 ms.technology: windows-devices

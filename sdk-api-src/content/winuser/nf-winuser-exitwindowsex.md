@@ -7,7 +7,7 @@ old-location: base\exitwindowsex.htm
 tech.root: Shutdown
 ms.assetid: f44ccb66-10bd-4ee6-93e1-16948cf10e50
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_HYBRID_SHUTDOWN, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_RESTARTAPPS, EWX_SHUTDOWN, ExitWindowsEx, ExitWindowsEx function, _win32_exitwindowsex, base.exitwindowsex, winuser/ExitWindowsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

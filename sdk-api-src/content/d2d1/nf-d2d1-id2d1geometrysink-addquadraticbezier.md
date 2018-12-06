@@ -7,7 +7,7 @@ old-location: direct2d\id2d1geometrysink_addquadraticbezier.htm
 tech.root: direct2d
 ms.assetid: 142f0823-0d8d-4216-8f40-9dec7f48032e
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AddQuadraticBezier, AddQuadraticBezier methods [Direct2D], ID2D1GeometrySink.AddQuadraticBezier, ID2D1GeometrySink::AddQuadraticBezier, d2d1/AddQuadraticBezier, direct2d.id2d1geometrysink_addquadraticbezier
 ms.prod: windows-hardware
 ms.technology: windows-devices

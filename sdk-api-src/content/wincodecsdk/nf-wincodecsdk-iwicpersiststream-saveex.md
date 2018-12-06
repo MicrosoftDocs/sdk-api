@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpersiststream_saveex.htm
 tech.root: wic
 ms.assetid: 8820ad87-a808-48db-91d8-c76bca1c832c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWICPersistStream interface [Windows Imaging Component],SaveEx method, IWICPersistStream.SaveEx, IWICPersistStream::SaveEx, SaveEx, SaveEx method [Windows Imaging Component], SaveEx method [Windows Imaging Component],IWICPersistStream interface, _wic_codec_iwicpersiststream_saveex, wic._wic_codec_iwicpersiststream_saveex, wincodecsdk/IWICPersistStream::SaveEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

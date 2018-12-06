@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_drawroundedrectangle.htm
 tech.root: direct2d
 ms.assetid: d718c355-ffd8-4a7f-90f3-9a10d37a19c8
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: DrawRoundedRectangle, DrawRoundedRectangle methods [Direct2D], ID2D1RenderTarget.DrawRoundedRectangle, ID2D1RenderTarget::DrawRoundedRectangle, d2d1/DrawRoundedRectangle, direct2d.id2d1rendertarget_drawroundedrectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ienumcall.htm
 tech.root: tapi
 ms.assetid: 418c1005-98f0-406f-a85c-c08adb269b9f
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumCall, IEnumCall interface [TAPI 2.2], IEnumCall interface [TAPI 2.2],described, _tapi3_ienumcall, tapi3.ienumcall, tapi3if/IEnumCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ifont_get_strikethrough.htm
 tech.root: com
 ms.assetid: e70ea85a-fc76-412c-a100-c834dc8f0208
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFont interface [COM],get_Strikethrough method, IFont.get_Strikethrough, IFont::get_Strikethrough, _ctrl_ifont_get_strikethrough, com.ifont_get_strikethrough, get_Strikethrough, get_Strikethrough method [COM], get_Strikethrough method [COM],IFont interface, ocidl/IFont::get_Strikethrough
 ms.prod: windows-hardware
 ms.technology: windows-devices

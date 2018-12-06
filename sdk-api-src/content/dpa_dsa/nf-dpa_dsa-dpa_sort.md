@@ -7,7 +7,7 @@ old-location: controls\DPA_Sort.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_sort.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: DPA_Sort, DPA_Sort function [Windows Controls], _win32_DPA_Sort, _win32_DPA_Sort_cpp, controls.DPA_Sort, controls._win32_DPA_Sort, dpa_dsa/DPA_Sort
 ms.prod: windows-hardware
 ms.technology: windows-devices

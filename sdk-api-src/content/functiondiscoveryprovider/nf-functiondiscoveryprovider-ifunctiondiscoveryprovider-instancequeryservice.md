@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoveryprovider_instancequeryservice_method.htm
 tech.root: fundisc
 ms.assetid: 8fb955dd-f396-4473-a1c1-b0d83e2b4b07
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstanceQueryService method, IFunctionDiscoveryProvider.InstanceQueryService, IFunctionDiscoveryProvider::InstanceQueryService, InstanceQueryService, InstanceQueryService method, InstanceQueryService method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceQueryService, ncd.ifunctiondiscoveryprovider_instancequeryservice_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol_delete.htm
 tech.root: WMDM
 ms.assetid: f2b044d2-6386-4c2e-a437-5ebddf827fb4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Delete, Delete method [windows Media Device Manager], Delete method [windows Media Device Manager],IWMDMStorageControl interface, IWMDMStorageControl interface [windows Media Device Manager],Delete method, IWMDMStorageControl.Delete, IWMDMStorageControl::Delete, IWMDMStorageControlDelete, mswmdm/IWMDMStorageControl::Delete, wmdm.iwmdmstoragecontrol_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

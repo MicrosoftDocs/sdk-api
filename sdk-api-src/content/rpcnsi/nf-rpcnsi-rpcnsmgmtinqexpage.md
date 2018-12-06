@@ -7,7 +7,7 @@ old-location: rpc\rpcnsmgmtinqexpage.htm
 tech.root: rpc
 ms.assetid: b9e27fba-c4ee-4a0e-ab95-af4c975e9123
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RpcNsMgmtInqExpAge, RpcNsMgmtInqExpAge function [RPC], _rpc_rpcnsmgmtinqexpage, rpc.rpcnsmgmtinqexpage, rpcnsi/RpcNsMgmtInqExpAge
 ms.prod: windows-hardware
 ms.technology: windows-devices

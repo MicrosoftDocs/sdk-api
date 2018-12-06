@@ -7,7 +7,7 @@ old-location: com\clsidfromstring.htm
 tech.root: com
 ms.assetid: 36cc9037-480f-491f-a9bb-5aa1e707781e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CLSIDFromString, CLSIDFromString function [COM], _com_CLSIDFromString, com.clsidfromstring, combaseapi/CLSIDFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices

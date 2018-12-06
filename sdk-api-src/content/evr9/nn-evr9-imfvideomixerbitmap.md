@@ -7,7 +7,7 @@ old-location: mf\imfvideomixerbitmap.htm
 tech.root: medfound
 ms.assetid: 4da4bdb9-857b-40c9-b910-04a099a23ab5
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: 4da4bdb9-857b-40c9-b910-04a099a23ab5, IMFVideoMixerBitmap, IMFVideoMixerBitmap interface [Media Foundation], IMFVideoMixerBitmap interface [Media Foundation],described, evr9/IMFVideoMixerBitmap, mf.imfvideomixerbitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

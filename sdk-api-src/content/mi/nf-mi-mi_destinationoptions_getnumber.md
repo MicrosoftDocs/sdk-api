@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_getnumber.htm
 tech.root: wmi_v2
 ms.assetid: ac48c290-631f-427e-a544-ee0258029c42
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_GetNumber, MI_DestinationOptions_GetNumber function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetNumber, wmi_v2.mi_destinationoptions_getnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_DestinationOptions_GetNumber
-: 
 ---
 
 # MI_DestinationOptions_GetNumber function

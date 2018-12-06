@@ -7,7 +7,7 @@ old-location: wcm\wcm_billing_cycle_info.htm
 tech.root: wcm
 ms.assetid: 5cfcdfb7-aa33-4582-ba17-e1a305b830f5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WCM_BILLING_CYCLE_INFO, WCM_BILLING_CYCLE_INFO structure [Windows Connection Manager], wcm.wcm_billing_cycle_info, wcmapi/WCM_BILLING_CYCLE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

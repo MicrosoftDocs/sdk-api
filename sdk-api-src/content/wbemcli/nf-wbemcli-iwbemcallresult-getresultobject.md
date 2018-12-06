@@ -7,7 +7,7 @@ old-location: wmi\iwbemcallresult_getresultobject.htm
 tech.root: WmiSdk
 ms.assetid: 06603f26-587f-4aff-8ae3-7f77f9b266f5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetResultObject, GetResultObject method [Windows Management Instrumentation], GetResultObject method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultObject method, IWbemCallResult.GetResultObject, IWbemCallResult::GetResultObject, _hmm_iwbemcallresult_getresultobject, wbemcli/IWbemCallResult::GetResultObject, wmi.iwbemcallresult_getresultobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dxmath\xmvector2refract.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Refract(XMVECTOR,XMVECTOR,float)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2Refract, XMVector2Refract, XMVector2Refract method [DirectX Math Support APIs], dxmath.xmvector2refract
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVector2Refract
-: 
 ---
 
 # XMVector2Refract function
@@ -94,14 +88,18 @@ Returns the refracted incident vector. If the refraction index and the angle bet
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-XMVECTOR Result;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
 float t = (Incident.x * Normal.x + Incident.y * Normal.y); // dot(Incident, Normal);
 float r = 1.0f - RefractionIndex * RefractionIndex * (1.0f - t * t);
 
-if (r < 0.0f) // Total internal reflection
+if (r &lt; 0.0f) // Total internal reflection
 {
 	Result.x = 0.0f;
 	Result.y = 0.0f;
@@ -116,10 +114,10 @@ else
 Result.z = undefined;
 Result.w = undefined;
 
-return Result;
-```
-
-
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 The index of refraction is the ratio of the index of refraction of the medium containing the incident vector to the index of refraction of the medium being entered (where the index of refraction of a medium is itself the ratio of the speed of light in a vacuum to the speed of light in the medium).
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

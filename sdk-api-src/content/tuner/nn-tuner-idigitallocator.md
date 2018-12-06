@@ -7,7 +7,7 @@ old-location: mstv\idigitallocator.htm
 tech.root: mstv
 ms.assetid: 9af4d871-c6ed-479b-ba41-2a719d3a394d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDigitalLocator, IDigitalLocator interface [Microsoft TV Technologies], IDigitalLocator interface [Microsoft TV Technologies],described, IDigitalLocatorInterface, mstv.idigitallocator, tuner/IDigitalLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

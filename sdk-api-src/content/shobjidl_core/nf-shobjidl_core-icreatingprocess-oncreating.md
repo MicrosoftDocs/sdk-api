@@ -7,7 +7,7 @@ old-location: shell\icreatingprocess_oncreating.htm
 tech.root: shell
 ms.assetid: 5A13ABDB-8453-41BE-AF0C-B5A07486CBE6
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ICreatingProcess interface [Windows Shell],OnCreating method, ICreatingProcess.OnCreating, ICreatingProcess::OnCreating, OnCreating, OnCreating method [Windows Shell], OnCreating method [Windows Shell],ICreatingProcess interface, shell.icreatingprocess_oncreating, shobjidl_core/ICreatingProcess::OnCreating
 ms.prod: windows-hardware
 ms.technology: windows-devices

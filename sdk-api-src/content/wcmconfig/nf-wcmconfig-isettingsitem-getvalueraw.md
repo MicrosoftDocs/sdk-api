@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_getvalueraw.htm
 tech.root: SMI
 ms.assetid: 2b4b96df-1286-49be-869a-404adaead27a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetValueRaw, GetValueRaw method [SMI], GetValueRaw method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetValueRaw method, ISettingsItem.GetValueRaw, ISettingsItem::GetValueRaw, smi.isettingsitem_getvalueraw, wcmconfig/ISettingsItem::GetValueRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices

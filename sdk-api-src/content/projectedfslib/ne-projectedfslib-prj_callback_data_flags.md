@@ -7,7 +7,7 @@ old-location: projfs\prj_callback_data_flags.htm
 tech.root: ProjFS
 ms.assetid: 5046714B-64AC-458D-93C7-013B1466C655
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: PRJ_CALLBACK_DATA_FLAGS, PRJ_CALLBACK_DATA_FLAGS enumeration, PRJ_CB_DATA_FLAG_ENUM_RESTART_SCAN, PRJ_CB_DATA_FLAG_ENUM_RETURN_SINGLE_ENTRY, ProjFS.prj_callback_data_flags, projectedfslib/PRJ_CALLBACK_DATA_FLAGS, projectedfslib/PRJ_CB_DATA_FLAG_ENUM_RESTART_SCAN, projectedfslib/PRJ_CB_DATA_FLAG_ENUM_RETURN_SINGLE_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices

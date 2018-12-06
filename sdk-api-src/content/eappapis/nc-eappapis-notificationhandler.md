@@ -7,7 +7,7 @@ old-location: eaphost\notificationhandler.htm
 tech.root: eaphost
 ms.assetid: 7fa12cb4-694a-4db6-9743-5a2cbb995721
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: NotificationHandler, NotificationHandler callback, NotificationHandler callback function [EAPHost], eaphost.notificationhandler, eappapis/NotificationHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

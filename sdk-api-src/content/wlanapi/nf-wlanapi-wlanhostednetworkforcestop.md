@@ -7,7 +7,7 @@ old-location: nwifi\wlanhostednetworkforcestop.htm
 tech.root: NativeWiFi
 ms.assetid: abcfc33d-0310-46d2-a543-5c9529c2b851
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WlanHostedNetworkForceStop, WlanHostedNetworkForceStop function [NativeWIFI], nwifi.wlanhostednetworkforcestop, wlanapi/WlanHostedNetworkForceStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

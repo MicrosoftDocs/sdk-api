@@ -7,7 +7,7 @@ old-location: qos\intservparmhdr.htm
 tech.root: QOS
 ms.assetid: 56ca242e-d5e9-4c16-9c8e-70a356375683
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IntServParmHdr, IntServParmHdr structure [QOS], lpmapi/IntServParmHdr, qos.intservparmhdr
 ms.prod: windows-hardware
 ms.technology: windows-devices

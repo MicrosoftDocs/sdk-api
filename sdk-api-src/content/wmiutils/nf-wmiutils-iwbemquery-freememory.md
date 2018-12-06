@@ -7,7 +7,7 @@ old-location: wmi\iwbemquery_freememory.htm
 tech.root: WmiSdk
 ms.assetid: fbc4329d-73b8-4104-b3e0-e6dc12938b4f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FreeMemory, FreeMemory method [Windows Management Instrumentation], FreeMemory method [Windows Management Instrumentation],IWbemQuery interface, IWbemQuery interface [Windows Management Instrumentation],FreeMemory method, IWbemQuery.FreeMemory, IWbemQuery::FreeMemory, _hmm_iwbemquery_freememory, wmi.iwbemquery_freememory, wmiutils/IWbemQuery::FreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

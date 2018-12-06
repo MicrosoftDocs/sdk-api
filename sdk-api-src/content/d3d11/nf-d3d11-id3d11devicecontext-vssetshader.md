@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_vssetshader.htm
 tech.root: direct3d11
 ms.assetid: d6207779-7477-4e74-beb8-065949abce06
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 2642b72a-9d7a-0eff-a9a4-df4e0b8eca75, ID3D11DeviceContext interface [Direct3D 11],VSSetShader method, ID3D11DeviceContext.VSSetShader, ID3D11DeviceContext::VSSetShader, VSSetShader, VSSetShader method [Direct3D 11], VSSetShader method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::VSSetShader, direct3d11.id3d11devicecontext_vssetshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11DeviceContext.VSSetShader
-: 
 ---
 
 # ID3D11DeviceContext::VSSetShader
@@ -76,14 +68,14 @@ Pointer to a vertex shader (see <a href="https://msdn.microsoft.com/8300ec12-ecf
 
 ### -param ppClassInstances [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476353(v=VS.85).aspx">ID3D11ClassInstance</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/70d006d2-5c47-4e8a-9a14-b5475d88ac32">ID3D11ClassInstance</a>*</b>
 
-A pointer to an array of class-instance interfaces (see <a href="https://msdn.microsoft.com/en-us/library/Ff476353(v=VS.85).aspx">ID3D11ClassInstance</a>). Each interface used by a shader must have a corresponding class instance or the shader will get disabled. Set ppClassInstances to <b>NULL</b> if the shader does not use any interfaces.
+A pointer to an array of class-instance interfaces (see <a href="https://msdn.microsoft.com/70d006d2-5c47-4e8a-9a14-b5475d88ac32">ID3D11ClassInstance</a>). Each interface used by a shader must have a corresponding class instance or the shader will get disabled. Set ppClassInstances to <b>NULL</b> if the shader does not use any interfaces.
 
 
 ### -param NumClassInstances
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The number of class-instance interfaces in the array.
 
@@ -114,7 +106,7 @@ The maximum number of instances a shader can have is 256.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

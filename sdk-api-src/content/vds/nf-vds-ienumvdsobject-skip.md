@@ -7,7 +7,7 @@ old-location: base\ienumvdsobject_skip.htm
 tech.root: vds
 ms.assetid: 8c0a856e-831e-489d-9e2a-bf2829bf59b6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumVdsObject interface [VDS],Skip method, IEnumVdsObject.Skip, IEnumVdsObject::Skip, Skip, Skip method [VDS], Skip method [VDS],IEnumVdsObject interface, base.ienumvdsobject_skip, vds/IEnumVdsObject::Skip, vdshwprv/IEnumVdsObject::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

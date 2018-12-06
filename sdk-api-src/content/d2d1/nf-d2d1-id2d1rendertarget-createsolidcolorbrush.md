@@ -7,7 +7,7 @@ old-location: direct2d\id2d1rendertarget_createsolidcolorbrush.htm
 tech.root: direct2d
 ms.assetid: 3dbfe26f-cf36-47b0-925e-4934e0d7c390
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush methods [Direct2D], ID2D1RenderTarget.CreateSolidColorBrush, ID2D1RenderTarget::CreateSolidColorBrush, d2d1/CreateSolidColorBrush, direct2d.id2d1rendertarget_createsolidcolorbrush
 ms.prod: windows-hardware
 ms.technology: windows-devices

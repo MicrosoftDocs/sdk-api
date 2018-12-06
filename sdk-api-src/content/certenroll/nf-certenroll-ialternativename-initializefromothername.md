@@ -7,7 +7,7 @@ old-location: security\ialternativename_initializefromothername_method.htm
 tech.root: seccertenroll
 ms.assetid: cd697085-0e8e-4a18-a7c5-77cd4927f664
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAlternativeName interface [Security],InitializeFromOtherName method, IAlternativeName.InitializeFromOtherName, IAlternativeName::InitializeFromOtherName, InitializeFromOtherName, InitializeFromOtherName method [Security], InitializeFromOtherName method [Security],IAlternativeName interface, certenroll/IAlternativeName::InitializeFromOtherName, security.ialternativename_initializefromothername_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

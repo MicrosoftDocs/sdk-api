@@ -7,7 +7,7 @@ old-location: mscs\clustergroupopenenum.htm
 tech.root: mscs
 ms.assetid: d8f9eff0-1784-4b55-8603-c262d5c23f6c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CLUSTER_GROUP_ENUM_ALL, CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, ClusterGroupOpenEnum, ClusterGroupOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM function [Failover Cluster], _wolf_clustergroupopenenum, clusapi/ClusterGroupOpenEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, mscs.clustergroupopenenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

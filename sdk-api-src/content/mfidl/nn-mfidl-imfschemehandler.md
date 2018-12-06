@@ -7,7 +7,7 @@ old-location: mf\imfschemehandler.htm
 tech.root: medfound
 ms.assetid: a342054e-2cb5-494a-a2f7-d144c72d1fa5
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IMFSchemeHandler, IMFSchemeHandler interface [Media Foundation], IMFSchemeHandler interface [Media Foundation],described, a342054e-2cb5-494a-a2f7-d144c72d1fa5, mf.imfschemehandler, mfidl/IMFSchemeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

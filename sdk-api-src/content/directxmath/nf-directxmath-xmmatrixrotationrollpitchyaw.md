@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixrotationrollpitchyaw.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationRollPitchYaw(float,float,float)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMMatrixRotationRollPitchYaw, XMMatrixRotationRollPitchYaw, XMMatrixRotationRollPitchYaw method [DirectX Math Support APIs], dxmath.xmmatrixrotationrollpitchyaw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMMatrixRotationRollPitchYaw
-: 
 ---
 
 # XMMatrixRotationRollPitchYaw function

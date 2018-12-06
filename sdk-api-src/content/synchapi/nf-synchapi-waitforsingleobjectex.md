@@ -7,7 +7,7 @@ old-location: base\waitforsingleobjectex.htm
 tech.root: sync
 ms.assetid: 530b5340-f8b2-4e00-a3ca-87a7c7372482
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: WaitForSingleObjectEx, WaitForSingleObjectEx function, _win32_waitforsingleobjectex, base.waitforsingleobjectex, synchapi/WaitForSingleObjectEx, winbase/WaitForSingleObjectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\freeinheritedfromarray.htm
 tech.root: secauthz
 ms.assetid: c9c58b9a-1b65-40e2-b518-30e247f9718e
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: FreeInheritedFromArray, FreeInheritedFromArray function [Security], _win32_freeinheritedfromarray, aclapi/FreeInheritedFromArray, security.freeinheritedfromarray
 ms.prod: windows-hardware
 ms.technology: windows-devices

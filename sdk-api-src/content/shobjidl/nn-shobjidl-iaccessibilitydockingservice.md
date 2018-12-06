@@ -7,7 +7,7 @@ old-location: com\iaccessibilitydockingservice.htm
 tech.root: com
 ms.assetid: DBAFE260-0AC6-4801-8590-DE058667C9A6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAccessibilityDockingService, IAccessibilityDockingService interface [COM], IAccessibilityDockingService interface [COM],described, com.iaccessibilitydockingservice, shobjidl/IAccessibilityDockingService
 ms.prod: windows-hardware
 ms.technology: windows-devices

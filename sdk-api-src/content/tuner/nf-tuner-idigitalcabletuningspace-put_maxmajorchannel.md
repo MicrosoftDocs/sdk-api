@@ -7,7 +7,7 @@ old-location: mstv\idigitalcabletuningspace_put_maxmajorchannel.htm
 tech.root: mstv
 ms.assetid: fbe0add4-dc2e-4d0b-9d78-a67ce75edba0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],put_MaxMajorChannel method, IDigitalCableTuningSpace.put_MaxMajorChannel, IDigitalCableTuningSpace::put_MaxMajorChannel, IDigitalCableTuningSpaceput_MaxMajorChannel, mstv.idigitalcabletuningspace_put_maxmajorchannel, put_MaxMajorChannel, put_MaxMajorChannel method [Microsoft TV Technologies], put_MaxMajorChannel method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, tuner/IDigitalCableTuningSpace::put_MaxMajorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

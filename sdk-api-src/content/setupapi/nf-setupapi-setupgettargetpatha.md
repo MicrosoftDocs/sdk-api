@@ -7,7 +7,7 @@ old-location: setup\setupgettargetpath.htm
 tech.root: SetupApi
 ms.assetid: fe98f00e-7887-4e37-8e09-037a804e6195
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetupGetTargetPath, SetupGetTargetPath function [Setup API], SetupGetTargetPathA, SetupGetTargetPathW, _setupapi_setupgettargetpath, setup.setupgettargetpath, setupapi/SetupGetTargetPath, setupapi/SetupGetTargetPathA, setupapi/SetupGetTargetPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

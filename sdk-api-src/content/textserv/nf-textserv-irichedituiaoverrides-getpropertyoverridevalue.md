@@ -4,10 +4,10 @@ title: IRicheditUiaOverrides::GetPropertyOverrideValue
 author: windows-sdk-content
 description: Retrieves the host container's override value for the specified Microsoft UI Automation accessibility property of a windowless rich edit control.
 old-location: controls\irichedituiaoverrides_getpropertyoverridevalue.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: C949A3DA-F98E-4035-8986-A76EB8F54558
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetPropertyOverrideValue, GetPropertyOverrideValue method [Windows Controls], GetPropertyOverrideValue method [Windows Controls],IRicheditUiaOverrides interface, IRicheditUiaOverrides interface [Windows Controls],GetPropertyOverrideValue method, IRicheditUiaOverrides.GetPropertyOverrideValue, IRicheditUiaOverrides::GetPropertyOverrideValue, controls.irichedituiaoverrides_getpropertyoverridevalue, textserv/IRicheditUiaOverrides::GetPropertyOverrideValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- textserv.h
-: 
-- IRicheditUiaOverrides.GetPropertyOverrideValue
-: 
 ---
 
 # IRicheditUiaOverrides::GetPropertyOverrideValue

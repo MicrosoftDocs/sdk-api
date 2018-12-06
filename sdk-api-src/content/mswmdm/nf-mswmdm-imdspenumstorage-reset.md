@@ -7,7 +7,7 @@ old-location: wmdm\imdspenumstorage_reset.htm
 tech.root: WMDM
 ms.assetid: 1296406c-2c5d-4db8-965e-db11a9759560
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMDSPEnumStorage interface [windows Media Device Manager],Reset method, IMDSPEnumStorage.Reset, IMDSPEnumStorage::Reset, IMDSPEnumStorageReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IMDSPEnumStorage interface, mswmdm/IMDSPEnumStorage::Reset, wmdm.imdspenumstorage_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

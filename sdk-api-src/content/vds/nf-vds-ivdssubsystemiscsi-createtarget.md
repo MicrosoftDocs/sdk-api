@@ -7,7 +7,7 @@ old-location: base\ivdssubsystemiscsi_createtarget.htm
 tech.root: vds
 ms.assetid: 084a1f0e-0764-404a-bd9a-a724e4f12c5f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateTarget, CreateTarget method [VDS], CreateTarget method [VDS],IVdsSubSystemIscsi interface, IVdsSubSystemIscsi interface [VDS],CreateTarget method, IVdsSubSystemIscsi.CreateTarget, IVdsSubSystemIscsi::CreateTarget, base.ivdssubsystemiscsi_createtarget, vds/IVdsSubSystemIscsi::CreateTarget, vdshwprv/IVdsSubSystemIscsi::CreateTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

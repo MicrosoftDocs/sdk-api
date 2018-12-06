@@ -7,7 +7,7 @@ old-location: rras\pmgm_disable_igmp_callback.htm
 tech.root: rras
 ms.assetid: 4f790e1b-b10f-477b-b2bc-75c95560d7f4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: MgmDisableIgmpCallback, PMGM_DISABLE_IGMP_CALLBACK, PMGM_DISABLE_IGMP_CALLBACK callback, PMGM_DISABLE_IGMP_CALLBACK callback function [RAS], _mpr_pmgm_disable_igmp_callback, mgm/PMGM_DISABLE_IGMP_CALLBACK, rras.pmgm_disable_igmp_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

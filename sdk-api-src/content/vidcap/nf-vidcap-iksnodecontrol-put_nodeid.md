@@ -7,7 +7,7 @@ old-location: dshow\iksnodecontrol_put_nodeid.htm
 tech.root: DirectShow
 ms.assetid: 3f18085c-5a5c-4bc3-84e2-50fbf2319072
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IKsNodeControl interface [DirectShow],put_NodeId method, IKsNodeControl.put_NodeId, IKsNodeControl::put_NodeId, IKsNodeControlput_NodeId, dshow.iksnodecontrol_put_nodeid, put_NodeId, put_NodeId method [DirectShow], put_NodeId method [DirectShow],IKsNodeControl interface, vidcap/IKsNodeControl::put_NodeId
 ms.prod: windows-hardware
 ms.technology: windows-devices

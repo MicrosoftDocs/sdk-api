@@ -7,7 +7,7 @@ old-location: ncd\iwsdattachment.htm
 tech.root: wsdapi
 ms.assetid: 9acbbca2-9b43-4bed-8917-be99f13fce13
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDAttachment, IWSDAttachment interface, IWSDAttachment interface,described, ncd.iwsdattachment, wsdattachment/IWSDAttachment
 ms.prod: windows-hardware
 ms.technology: windows-devices

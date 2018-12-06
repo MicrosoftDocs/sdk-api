@@ -7,7 +7,7 @@ old-location: security\pfn_crypt_object_locator_provider_get.htm
 tech.root: seccrypto
 ms.assetid: 2073915D-F23B-41BD-8376-4493FE9D62C6
 ms.author: windowssdkdev
-ms.date: 12/04/2018
+ms.date: 12/5/2018
 ms.keywords: CRYPT_OBJECT_LOCATOR_FIRST_RESERVED_USER_NAME_TYPE, CRYPT_OBJECT_LOCATOR_LAST_RESERVED_NAME_TYPE, CRYPT_OBJECT_LOCATOR_LAST_RESERVED_USER_NAME_TYPE, CRYPT_OBJECT_LOCATOR_SPN_NAME_TYPE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET callback function [Security], security.pfn_crypt_object_locator_provider_get, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
 ms.prod: windows-hardware
 ms.technology: windows-devices

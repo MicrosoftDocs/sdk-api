@@ -7,7 +7,7 @@ old-location: setup\imsmmerge2_interface.htm
 tech.root: msi
 ms.assetid: cda5698d-4aee-4771-9989-628162b433ef
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmMerge2, IMsmMerge2 interface, IMsmMerge2 interface,described, _msi_imsmmerge2_interface, mergemod/IMsmMerge2, setup.imsmmerge2_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

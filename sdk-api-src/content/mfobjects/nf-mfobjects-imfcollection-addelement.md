@@ -7,7 +7,7 @@ old-location: mf\imfcollection_addelement.htm
 tech.root: medfound
 ms.assetid: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056, AddElement, AddElement method [Media Foundation], AddElement method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],AddElement method, IMFCollection.AddElement, IMFCollection::AddElement, mf.imfcollection_addelement, mfobjects/IMFCollection::AddElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

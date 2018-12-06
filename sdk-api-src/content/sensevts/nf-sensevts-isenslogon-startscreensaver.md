@@ -7,7 +7,7 @@ old-location: sens\isenslogon_startscreensaver.htm
 tech.root: Sens
 ms.assetid: 47531e1f-e2d4-4475-a109-e213c903a7ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISensLogon interface [SENS],StartScreenSaver method, ISensLogon.StartScreenSaver, ISensLogon::StartScreenSaver, StartScreenSaver, StartScreenSaver method [SENS], StartScreenSaver method [SENS],ISensLogon interface, _zaw_isenslogon_startscreensaver, sens.isenslogon_startscreensaver, sensevts/ISensLogon::StartScreenSaver, syncmgr.isenslogon_startscreensaver
 ms.prod: windows-hardware
 ms.technology: windows-devices

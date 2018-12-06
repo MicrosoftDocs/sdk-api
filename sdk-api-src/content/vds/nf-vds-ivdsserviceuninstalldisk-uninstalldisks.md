@@ -7,7 +7,7 @@ old-location: base\ivdsserviceuninstalldisk_uninstalldisks.htm
 tech.root: vds
 ms.assetid: 65c5444f-7e97-4746-9d74-561dc435212d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsServiceUninstallDisk interface,UninstallDisks method, IVdsServiceUninstallDisk.UninstallDisks, IVdsServiceUninstallDisk::UninstallDisks, UninstallDisks, UninstallDisks method, UninstallDisks method,IVdsServiceUninstallDisk interface, base.ivdsserviceuninstalldisk_uninstalldisks, vds/IVdsServiceUninstallDisk::UninstallDisks
 ms.prod: windows-hardware
 ms.technology: windows-devices

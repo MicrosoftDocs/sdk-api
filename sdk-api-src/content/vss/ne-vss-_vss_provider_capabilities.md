@@ -7,7 +7,7 @@ old-location: base\_vss_provider_capabilities.htm
 tech.root: vss
 ms.assetid: 933d7567-d3d3-49cd-970b-f1355702f290
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVSS_PROVIDER_CAPABILITIES, VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES enumeration, base._vss_provider_capabilities, vss/, vss/_VSS_PROVIDER_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

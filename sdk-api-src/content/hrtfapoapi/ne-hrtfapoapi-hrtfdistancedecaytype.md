@@ -7,7 +7,7 @@ old-location: xaudio2\hrtfdistancedecaytype.htm
 tech.root: xaudio2
 ms.assetid: 72421F09-6DB6-4195-AE44-0D3AD17F50B3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CustomDecay, HrtfDistanceDecayType, HrtfDistanceDecayType enumeration [XAudio2 Audio Mixing APIs], NaturalDecay, hrtfapoapi/CustomDecay, hrtfapoapi/HrtfDistanceDecayType, hrtfapoapi/NaturalDecay, xaudio2.hrtfdistancedecaytype
 ms.prod: windows-hardware
 ms.technology: windows-devices

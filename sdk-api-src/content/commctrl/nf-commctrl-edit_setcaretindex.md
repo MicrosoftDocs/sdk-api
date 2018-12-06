@@ -7,7 +7,7 @@ old-location: controls\edit_setcaretindex.htm
 tech.root: controls
 ms.assetid: 62D60717-4FE6-4738-8504-791CDE7C15E3
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: Edit_SetCaretIndex, Edit_SetCaretIndex macro [Windows Controls], commctrl/Edit_SetCaretIndex, controls.edit_setcaretindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

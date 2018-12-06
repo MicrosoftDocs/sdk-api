@@ -7,7 +7,7 @@ old-location: winsock\transport_setting_id.htm
 tech.root: winsock
 ms.assetid: 8ECBF92A-0AF9-4419-A4E8-0EDEF63FCE16
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_ID structure pointer [Winsock], TRANSPORT_SETTING_ID, TRANSPORT_SETTING_ID structure [Winsock], transportsettingcommon/PTRANSPORT_SETTING_ID, transportsettingcommon/TRANSPORT_SETTING_ID, winsock.transport_setting_id"
 ms.prod: windows-hardware
 ms.technology: windows-devices

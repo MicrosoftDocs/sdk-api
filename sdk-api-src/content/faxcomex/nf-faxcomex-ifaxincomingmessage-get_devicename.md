@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_devicenam
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5fhh.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],IFaxIncomingMessage interface, IFaxIncomingMessage interface [Fax Service],DeviceName property, IFaxIncomingMessage.DeviceName, IFaxIncomingMessage.get_DeviceName, IFaxIncomingMessage::DeviceName, IFaxIncomingMessage::get_DeviceName, _mfax_faxincomingmessage.devicename, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_devicename_cpp, fax._mfax_faxincomingmessage_devicename, faxcomex/IFaxIncomingMessage::DeviceName, faxcomex/IFaxIncomingMessage::get_DeviceName, get_DeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices

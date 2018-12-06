@@ -7,7 +7,7 @@ old-location: mmc\ipropertysheetprovider_findpropertysheet.htm
 tech.root: mmc
 ms.assetid: 14f3a2b7-9e14-4068-a85a-20c41d7e4a4d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FindPropertySheet, FindPropertySheet method [MMC], FindPropertySheet method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],FindPropertySheet method, IPropertySheetProvider.FindPropertySheet, IPropertySheetProvider::FindPropertySheet, _slate_ipropertysheetprovider_findpropertysheet, mmc.ipropertysheetprovider_findpropertysheet, mmc/IPropertySheetProvider::FindPropertySheet
 ms.prod: windows-hardware
 ms.technology: windows-devices

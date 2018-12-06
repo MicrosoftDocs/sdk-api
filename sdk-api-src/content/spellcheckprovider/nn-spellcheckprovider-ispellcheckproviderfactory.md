@@ -7,7 +7,7 @@ old-location: intl\ispellcheckproviderfactory.htm
 tech.root: Intl
 ms.assetid: 680EC2D1-740E-40A8-9721-AC53AF17AC09
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ISpellCheckProviderFactory, ISpellCheckProviderFactory interface [Internationalization for Windows Applications], ISpellCheckProviderFactory interface [Internationalization for Windows Applications],described, intl.ispellcheckproviderfactory, spellcheckprovider/ISpellCheckProviderFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

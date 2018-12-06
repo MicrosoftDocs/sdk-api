@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_getobject.htm
 tech.root: com
 ms.assetid: 5d74b3ee-323d-43f9-8eab-0866432659de
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],GetObject method, IRunningObjectTable.GetObject, IRunningObjectTable::GetObject, _com_irunningobjecttable_getobject, com.irunningobjecttable_getobject, objidl/IRunningObjectTable::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

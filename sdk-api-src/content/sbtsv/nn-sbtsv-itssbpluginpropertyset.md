@@ -7,7 +7,7 @@ old-location: termserv\itssbpluginpropertyset.htm
 tech.root: termserv
 ms.assetid: e28e4ce7-1d11-483e-b666-69b3c0ba34b1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITsSbPluginPropertySet, ITsSbPluginPropertySet interface [Remote Desktop Services], ITsSbPluginPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbPluginPropertySet, termserv.itssbpluginpropertyset
 ms.prod: windows-hardware
 ms.technology: windows-devices

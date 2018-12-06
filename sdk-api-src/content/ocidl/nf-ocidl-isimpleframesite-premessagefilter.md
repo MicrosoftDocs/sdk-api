@@ -7,7 +7,7 @@ old-location: com\isimpleframesite_premessagefilter.htm
 tech.root: com
 ms.assetid: f308ea77-12e7-450b-8b0f-252f1d240388
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ISimpleFrameSite interface [COM],PreMessageFilter method, ISimpleFrameSite.PreMessageFilter, ISimpleFrameSite::PreMessageFilter, PreMessageFilter, PreMessageFilter method [COM], PreMessageFilter method [COM],ISimpleFrameSite interface, _ctrl_isimpleframesite_premessagefilter, com.isimpleframesite_premessagefilter, ocidl/ISimpleFrameSite::PreMessageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyerror_getfile.htm
 tech.root: bits
 ms.assetid: 7b6d4bd4-2102-4e6b-b250-1d73fae94cf9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetFile, GetFile method [BITS], GetFile method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetFile method, IBackgroundCopyError.GetFile, IBackgroundCopyError::GetFile, _drz_ibackgroundcopyerror_getfile, bits.ibackgroundcopyerror_getfile, bits/IBackgroundCopyError::GetFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

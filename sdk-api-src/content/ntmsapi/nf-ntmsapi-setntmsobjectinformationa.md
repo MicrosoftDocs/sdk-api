@@ -7,7 +7,7 @@ old-location: fs\setntmsobjectinformation.htm
 tech.root: Rsm
 ms.assetid: 1cdb9c72-1b34-4800-a07d-b648baec8582
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SetNtmsObjectInformation, SetNtmsObjectInformation function [Files], SetNtmsObjectInformationA, SetNtmsObjectInformationW, _zaw_setntmsobjectinformation, base.setntmsobjectinformation, fs.setntmsobjectinformation, ntmsapi/SetNtmsObjectInformation, ntmsapi/SetNtmsObjectInformationA, ntmsapi/SetNtmsObjectInformationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

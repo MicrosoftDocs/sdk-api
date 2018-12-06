@@ -7,7 +7,7 @@ old-location: termserv\wtsterminateprocess.htm
 tech.root: termserv
 ms.assetid: 38036657-4e65-4100-893a-e35cf0b71e0d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WTSTerminateProcess, WTSTerminateProcess function [Remote Desktop Services], _win32_wtsterminateprocess, termserv.wtsterminateprocess, wtsapi32/WTSTerminateProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

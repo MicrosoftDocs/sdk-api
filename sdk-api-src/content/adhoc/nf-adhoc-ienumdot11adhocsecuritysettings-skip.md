@@ -7,7 +7,7 @@ old-location: nwifi\ienumdot11adhocsecuritysettings_skip.htm
 tech.root: NativeWiFi
 ms.assetid: c423e794-bb3a-4dd8-b6bc-324d91909e92
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Skip method, IEnumDot11AdHocSecuritySettings.Skip, IEnumDot11AdHocSecuritySettings::Skip, Skip, Skip method [NativeWIFI], Skip method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, adhoc/IEnumDot11AdHocSecuritySettings::Skip, nwifi.ienumdot11adhocsecuritysettings_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

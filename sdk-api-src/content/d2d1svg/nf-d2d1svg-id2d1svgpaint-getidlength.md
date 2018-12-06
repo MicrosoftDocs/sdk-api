@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgpaint_getidlength.htm
 tech.root: direct2d
 ms.assetid: 063B4258-1D96-4807-B3E4-652D5C1D2298
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetIdLength, GetIdLength method [Direct2D], GetIdLength method [Direct2D],ID2D1SvgPaint interface, ID2D1SvgPaint interface [Direct2D],GetIdLength method, ID2D1SvgPaint.GetIdLength, ID2D1SvgPaint::GetIdLength, d2d1svg/ID2D1SvgPaint::GetIdLength, direct2d.id2d1svgpaint_getidlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_data.htm
 tech.root: medfound
 ms.assetid: 95d74c87-5884-4004-926f-108e9bbb012d
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: DXVAHD_STREAM_DATA, DXVAHD_STREAM_DATA structure [Media Foundation], _DXVAHD_STREAM_DATA, dxvahd/DXVAHD_STREAM_DATA, mf.dxvahd_stream_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

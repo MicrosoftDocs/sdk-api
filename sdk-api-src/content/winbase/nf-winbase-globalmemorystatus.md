@@ -7,7 +7,7 @@ old-location: base\globalmemorystatus.htm
 tech.root: memory
 ms.assetid: 473e4172-b57a-4fc6-9bb2-e916ac3c9a2f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GlobalMemoryStatus, GlobalMemoryStatus function, _win32_globalmemorystatus, base.globalmemorystatus, winbase/GlobalMemoryStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

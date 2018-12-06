@@ -7,7 +7,7 @@ old-location: display\floatobj_addfloat.htm
 tech.root: display
 ms.assetid: 47af86ec-a7b2-49c1-aeda-1a273f17c4ae
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: FLOATOBJ_AddFloat, FLOATOBJ_AddFloat function [Display Devices], display.floatobj_addfloat, gdifncs_2e5305b6-571f-4ae2-bfd7-2305c006b6da.xml, winddi/FLOATOBJ_AddFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices

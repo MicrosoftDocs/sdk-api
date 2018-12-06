@@ -7,7 +7,7 @@ old-location: monitor\savecurrentmonitorsettings.htm
 tech.root: Monitor
 ms.assetid: 933106f7-970e-466b-8f66-741e8ba39450
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SaveCurrentMonitorSettings, SaveCurrentMonitorSettings function [Monitor Configuration], highlevelmonitorconfigurationapi/SaveCurrentMonitorSettings, monitor.savecurrentmonitorsettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

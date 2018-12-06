@@ -7,7 +7,7 @@ old-location: base\regopenkeytransacted.htm
 tech.root: sysinfo
 ms.assetid: 11663ed2-d17c-4f08-be7b-9b591271fbcd
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: RegOpenKeyTransacted, RegOpenKeyTransacted function, RegOpenKeyTransactedA, RegOpenKeyTransactedW, base.regopenkeytransacted, winreg/RegOpenKeyTransacted, winreg/RegOpenKeyTransactedA, winreg/RegOpenKeyTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

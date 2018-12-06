@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob1_getfile.htm
 tech.root: bits
 ms.assetid: 6cd680cc-abe0-44e1-a650-079295a8dd4a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetFile, GetFile method [BITS], GetFile method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetFile method, IBackgroundCopyJob1.GetFile, IBackgroundCopyJob1::GetFile, bits.ibackgroundcopyjob1_getfile, qmgr/IBackgroundCopyJob1::GetFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

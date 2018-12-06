@@ -7,7 +7,7 @@ old-location: controls\ListView_RedrawItems.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_redrawitems.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ListView_RedrawItems, ListView_RedrawItems macro [Windows Controls], _win32_ListView_RedrawItems, _win32_ListView_RedrawItems_cpp, commctrl/ListView_RedrawItems, controls.ListView_RedrawItems, controls._win32_ListView_RedrawItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

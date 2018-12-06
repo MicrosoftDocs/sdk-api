@@ -7,7 +7,7 @@ old-location: ics\networkisolationgetenterpriseidclose.htm
 tech.root: ics
 ms.assetid: 85FE7431-CC20-4CD2-9853-9B81BB8B7160
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: NetworkIsolationGetEnterpriseIdClose, NetworkIsolationGetEnterpriseIdClose function [ICS/ICF], ics.networkisolationgetenterpriseidclose, netfw/NetworkIsolationGetEnterpriseIdClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

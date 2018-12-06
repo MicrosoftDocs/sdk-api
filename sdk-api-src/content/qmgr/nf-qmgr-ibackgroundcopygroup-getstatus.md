@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_getstatus.htm
 tech.root: bits
 ms.assetid: 9ac76e50-a2cf-4dfb-af7e-803ee483f0f9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [BITS], GetStatus method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetStatus method, IBackgroundCopyGroup.GetStatus, IBackgroundCopyGroup::GetStatus, QM_STATUS_GROUP_ERROR, QM_STATUS_GROUP_FOREGROUND, QM_STATUS_GROUP_INCOMPLETE, QM_STATUS_GROUP_SUSPENDED, bits.ibackgroundcopygroup_getstatus, qmgr/IBackgroundCopyGroup::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

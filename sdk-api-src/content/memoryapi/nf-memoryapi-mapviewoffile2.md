@@ -7,7 +7,7 @@ old-location: base\mapviewoffile2.htm
 tech.root: memory
 ms.assetid: D97138F0-2FB3-488A-91AC-A654B22FE9AD
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: MapViewOfFile2, MapViewOfFile2 function, base.mapviewoffile2, winbase/MapViewOfFile2
 ms.prod: windows-hardware
 ms.technology: windows-devices

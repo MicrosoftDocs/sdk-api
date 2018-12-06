@@ -7,7 +7,7 @@ old-location: winsock\wsagetqosbyname_2.htm
 tech.root: winsock
 ms.assetid: 9b586856-5441-414b-8b91-298c952c351b
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: WSAGetQOSByName, WSAGetQOSByName function [Winsock], _win32_wsagetqosbyname_2, winsock.wsagetqosbyname_2, winsock2/WSAGetQOSByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\joygetthreshold.htm
 tech.root: Multimedia
 ms.assetid: 17084365-3fb2-422c-97dc-4501aec7a86c
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_joyGetThreshold, joyGetThreshold, joyGetThreshold function [Windows Multimedia], joystickapi/joyGetThreshold, multimedia.joygetthreshold"
 ms.prod: windows-hardware
 ms.technology: windows-devices

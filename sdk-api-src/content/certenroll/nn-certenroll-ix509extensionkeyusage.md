@@ -7,7 +7,7 @@ old-location: security\ix509extensionkeyusage.htm
 tech.root: seccertenroll
 ms.assetid: 4325e6aa-99bb-4c9a-9b19-c5352ebf27b9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IX509ExtensionKeyUsage, IX509ExtensionKeyUsage interface [Security], IX509ExtensionKeyUsage interface [Security],described, certenroll/IX509ExtensionKeyUsage, security.ix509extensionkeyusage
 ms.prod: windows-hardware
 ms.technology: windows-devices

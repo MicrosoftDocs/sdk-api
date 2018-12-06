@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_configure_accessible_encryption_input.htm
 tech.root: medfound
 ms.assetid: CEC3B9BC-CEDB-448E-9088-35EBF9D7906F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT, D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT, mf.d3d11_authenticated_configure_accessible_encryption_input
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Contains input data for a <b>D3D11_AUTHENTICATED_CONFIGURE_ENCRYPTION_WHEN_ACCES
 
 ### -field Parameters
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh447603(v=VS.85).aspx">D3D11_AUTHENTICATED_CONFIGURE_INPUT</a> structure that contains the command GUID and other data.
+A <a href="https://msdn.microsoft.com/11FC071E-9B73-4960-B675-A43DDF75AA0B">D3D11_AUTHENTICATED_CONFIGURE_INPUT</a> structure that contains the command GUID and other data.
 
 
 
@@ -75,7 +75,7 @@ A GUID that specifies the type of encryption to apply.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

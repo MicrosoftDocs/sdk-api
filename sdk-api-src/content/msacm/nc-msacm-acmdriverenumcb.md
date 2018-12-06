@@ -7,7 +7,7 @@ old-location: multimedia\acmdriverenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 8566fd31-ec0c-4325-b182-4765e81c7884
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ACMDRIVERENUMCB, ACMDRIVERENUMCB callback, ACMDRIVERENUMCB callback function [Windows Multimedia], _win32_acmDriverEnumCallback, acmDriverEnumCallback, msacm/ACMDRIVERENUMCB, multimedia.acmdriverenumcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

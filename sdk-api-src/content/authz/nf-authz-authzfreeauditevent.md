@@ -7,7 +7,7 @@ old-location: security\authzfreeauditevent.htm
 tech.root: secauthz
 ms.assetid: e2980ef7-45dd-47c7-ba4d-f36b52bbd7dc
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AuthzFreeAuditEvent, AuthzFreeAuditEvent function [Security], _win32_authzfreeauditevent, authz/AuthzFreeAuditEvent, security.authzfreeauditevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

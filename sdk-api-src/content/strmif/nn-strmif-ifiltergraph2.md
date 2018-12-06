@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph2.htm
 tech.root: DirectShow
 ms.assetid: 1a1ef4fe-a054-4ba7-99c7-1f209472c5a6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFilterGraph2, IFilterGraph2 interface [DirectShow], IFilterGraph2 interface [DirectShow],described, IFilterGraph2Interface, dshow.ifiltergraph2, strmif/IFilterGraph2
 ms.prod: windows-hardware
 ms.technology: windows-devices

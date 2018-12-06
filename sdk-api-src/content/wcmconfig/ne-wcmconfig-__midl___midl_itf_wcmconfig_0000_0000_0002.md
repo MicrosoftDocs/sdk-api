@@ -7,7 +7,7 @@ old-location: smi\wcmnamespaceenumerationflags.htm
 tech.root: SMI
 ms.assetid: 606fad95-1f93-4e16-9be5-2ebd52b91180
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AllEnumeration, SharedEnumeration, UserEnumeration, WcmNamespaceEnumerationFlags, WcmNamespaceEnumerationFlags enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0002, smi.wcmnamespaceenumerationflags, wcmconfig/AllEnumeration, wcmconfig/SharedEnumeration, wcmconfig/UserEnumeration, wcmconfig/WcmNamespaceEnumerationFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

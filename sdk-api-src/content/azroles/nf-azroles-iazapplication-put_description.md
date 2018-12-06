@@ -7,7 +7,7 @@ old-location: security\iazapplication_description.htm
 tech.root: secauthz
 ms.assetid: 32ccf51c-b820-4819-9e19-135ed3a0581d
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AzApplication object [Security],Description property, Description property [Security], Description property [Security],AzApplication object, Description property [Security],IAzApplication interface, IAzApplication interface [Security],Description property, IAzApplication.Description, IAzApplication.put_Description, IAzApplication::Description, IAzApplication::get_Description, IAzApplication::put_Description, azroles/IAzApplication::Description, azroles/IAzApplication::get_Description, azroles/IAzApplication::put_Description, put_Description, security.iazapplication_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

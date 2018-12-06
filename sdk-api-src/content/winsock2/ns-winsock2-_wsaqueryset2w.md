@@ -7,7 +7,7 @@ old-location: winsock\wsaqueryset2.htm
 tech.root: winsock
 ms.assetid: ffe71de0-3561-481f-b81f-835c6c3a3ee4
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPWSAQUERYSET2W, *PWSAQUERYSET2W, LPWSAQUERYSET2, LPWSAQUERYSET2 structure pointer [Winsock], NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_PNRPCLOUD, NS_PNRPNAME, PWSAQUERYSET2, PWSAQUERYSET2 structure pointer [Winsock], WSAQUERYSET2, WSAQUERYSET2 structure [Winsock], WSAQUERYSET2A, WSAQUERYSET2W, _WSAQuerySet2W, winsock.wsaqueryset2, winsock2/LPWSAQUERYSET2, winsock2/PWSAQUERYSET2, winsock2/WSAQUERYSET2, winsock2/WSAQUERYSET2A, winsock2/WSAQUERYSET2W"
 ms.prod: windows-hardware
 ms.technology: windows-devices

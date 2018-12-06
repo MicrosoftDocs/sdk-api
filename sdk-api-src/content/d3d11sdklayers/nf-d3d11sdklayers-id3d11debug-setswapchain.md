@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11debug_setswapchain.htm
 tech.root: direct3d11
 ms.assetid: 554d56e7-8901-4b39-bc1e-6db6496263c8
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 93f55103-9ea2-645a-a17a-4dc52160d41b, ID3D11Debug interface [Direct3D 11],SetSwapChain method, ID3D11Debug.SetSwapChain, ID3D11Debug::SetSwapChain, SetSwapChain, SetSwapChain method [Direct3D 11], SetSwapChain method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::SetSwapChain, direct3d11.id3d11debug_setswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices

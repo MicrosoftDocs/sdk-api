@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesupportssourcetransfer_attachmediasource.htm
 tech.root: medfound
 ms.assetid: db7c17cf-020d-4317-801e-35539e25df49
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: AttachMediaSource, AttachMediaSource method [Media Foundation], AttachMediaSource method [Media Foundation],IMFMediaEngineSupportsSourceTransfer interface, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],AttachMediaSource method, IMFMediaEngineSupportsSourceTransfer.AttachMediaSource, IMFMediaEngineSupportsSourceTransfer::AttachMediaSource, mf.imfmediaenginesupportssourcetransfer_attachmediasource, mfmediaengine/IMFMediaEngineSupportsSourceTransfer::AttachMediaSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsWmf_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\iswmf.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IsWmf, IsWmf method [GDI+], IsWmf method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsWmf method, MetafileHeader.IsWmf, MetafileHeader::IsWmf, _gdiplus_CLASS_MetafileHeader_IsWmf_, gdiplus._gdiplus_CLASS_MetafileHeader_IsWmf_
 ms.prod: windows-hardware
 ms.technology: windows-devices

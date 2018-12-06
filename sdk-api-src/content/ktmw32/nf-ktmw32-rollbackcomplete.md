@@ -7,7 +7,7 @@ old-location: fs\rollbackcomplete.htm
 tech.root: ktm
 ms.assetid: c9d53777-eef9-4c60-921d-50b0fbf8d005
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RollbackComplete, RollbackComplete function [Files], fs.rollbackcomplete, ktmw32/RollbackComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

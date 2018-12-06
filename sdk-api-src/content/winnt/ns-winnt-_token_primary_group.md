@@ -7,7 +7,7 @@ old-location: security\token_primary_group.htm
 tech.root: secauthz
 ms.assetid: d23ebe6c-36a3-434a-a0fa-fcdf50dd19a0
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP structure pointer [Security], TOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP structure [Security], _TOKEN_PRIMARY_GROUP, _win32_token_primary_group_str, security.token_primary_group, winnt/PTOKEN_PRIMARY_GROUP, winnt/TOKEN_PRIMARY_GROUP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

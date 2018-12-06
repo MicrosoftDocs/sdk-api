@@ -7,7 +7,7 @@ old-location: shell\NetAddr_DisplayErrorTip.htm
 tech.root: shell
 ms.assetid: 1fd623da-51a0-4b37-a25b-00278b5f4732
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: NetAddr_DisplayErrorTip, NetAddr_DisplayErrorTip macro [Windows Shell], _shell_NetAddr_DisplayErrorTip, shell.NetAddr_DisplayErrorTip, shellapi/NetAddr_DisplayErrorTip
 ms.prod: windows-hardware
 ms.technology: windows-devices

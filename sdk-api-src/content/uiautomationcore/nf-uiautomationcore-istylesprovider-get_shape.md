@@ -7,7 +7,7 @@ old-location: winauto\uiauto_istylesprovider_shape.htm
 tech.root: WinAuto
 ms.assetid: 4FE34CD4-DF41-4B00-B9C9-A5909E116030
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IStylesProvider interface [Windows Accessibility],Shape property, IStylesProvider.Shape, IStylesProvider.get_Shape, IStylesProvider::Shape, IStylesProvider::get_Shape, Shape property [Windows Accessibility], Shape property [Windows Accessibility],IStylesProvider interface, get_Shape, uiautomationcore/IStylesProvider::Shape, uiautomationcore/IStylesProvider::get_Shape, winauto.uiauto_istylesprovider_shape
 ms.prod: windows-hardware
 ms.technology: windows-devices

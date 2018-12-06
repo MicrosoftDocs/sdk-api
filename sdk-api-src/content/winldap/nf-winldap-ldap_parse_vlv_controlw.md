@@ -7,7 +7,7 @@ old-location: ldap\ldap_parse_vlv_control.htm
 tech.root: ldap
 ms.assetid: a1a1e47f-c53b-48a3-9c40-0e1518c5c729
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_parse_vlv_control, ldap.ldap__parse__vlv__control, ldap.ldap_parse_vlv_control, ldap_parse_vlv_control, ldap_parse_vlv_control function [LDAP], ldap_parse_vlv_controlA, ldap_parse_vlv_controlW, winldap/ldap_parse_vlv_control, winldap/ldap_parse_vlv_controlA, winldap/ldap_parse_vlv_controlW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

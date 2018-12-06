@@ -7,7 +7,7 @@ old-location: fs\netsharesetinfo.htm
 tech.root: NetShare
 ms.assetid: 216b0b78-87da-4734-ad07-5ad1c9edf494
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 1, 1004, 1005, 1006, 1501, 2, 502, 503, NetShareSetInfo, NetShareSetInfo function [Files], _win32_netsharesetinfo, fs.netsharesetinfo, lmshare/NetShareSetInfo, netmgmt.netsharesetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothauthenticatedevice.htm
 tech.root: Bluetooth
 ms.assetid: 9f8ff768-a794-4a61-a215-ae17e9acf620
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: BluetoothAuthenticateDevice, BluetoothAuthenticateDevice function [Bluetooth], bluetooth.bluetoothauthenticatedevice, bluetoothapis/BluetoothAuthenticateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

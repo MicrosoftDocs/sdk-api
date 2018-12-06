@@ -7,7 +7,7 @@ old-location: base\thread_power_throttling_state.htm
 tech.root: procthread
 ms.assetid: 2E4D3A93-F4EE-4293-BE28-239B48E869B4
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: PTHREAD_POWER_THROTTLING_STATE, PTHREAD_POWER_THROTTLING_STATE structure pointer, THREAD_POWER_THROTTLING_CURRENT_VERSION, THREAD_POWER_THROTTLING_EXECUTION_SPEED, THREAD_POWER_THROTTLING_STATE, THREAD_POWER_THROTTLING_STATE structure, _THREAD_POWER_THROTTLING_STATE, base.thread_power_throttling_state, processthreadsapi/PTHREAD_POWER_THROTTLING_STATE, processthreadsapi/THREAD_POWER_THROTTLING_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

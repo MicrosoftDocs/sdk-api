@@ -7,7 +7,7 @@ old-location: rm\drmiswindowprotected.htm
 tech.root: AdRms_Sdk
 ms.assetid: 5cd4b4fe-6941-441c-ac6c-9ec8d838598c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMIsWindowProtected, DRMIsWindowProtected function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMIsWindowProtected, rm.drmiswindowprotected
 ms.prod: windows-hardware
 ms.technology: windows-devices

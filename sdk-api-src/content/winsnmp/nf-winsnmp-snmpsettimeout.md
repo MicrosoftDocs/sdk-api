@@ -7,7 +7,7 @@ old-location: snmp\snmpsettimeout.htm
 tech.root: SNMP
 ms.assetid: ae72f775-9f2a-4c16-b866-14ab17fd3a6a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpSetTimeout, SnmpSetTimeout function [SNMP], _snmp_snmpsettimeout, snmp.snmpsettimeout, winsnmp/SnmpSetTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

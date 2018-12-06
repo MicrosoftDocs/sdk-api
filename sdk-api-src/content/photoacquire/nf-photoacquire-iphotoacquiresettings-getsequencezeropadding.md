@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquiresettings_getsequencezeropadding.htm
 tech.root: acquisition
 ms.assetid: 72dc052a-bf8e-4876-8ab6-d0f6857941d5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetSequenceZeroPadding, GetSequenceZeroPadding method [Picture Acquisition], GetSequenceZeroPadding method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetSequenceZeroPadding method, IPhotoAcquireSettings.GetSequenceZeroPadding, IPhotoAcquireSettings::GetSequenceZeroPadding, IPhotoAcquireSettingsGetSequenceZeroPadding, photoacquire/IPhotoAcquireSettings::GetSequenceZeroPadding, picacq.iphotoacquiresettings_getsequencezeropadding
 ms.prod: windows-hardware
 ms.technology: windows-devices

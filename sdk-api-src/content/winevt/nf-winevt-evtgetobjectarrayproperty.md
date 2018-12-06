@@ -7,7 +7,7 @@ old-location: wes\evtgetobjectarrayproperty.htm
 tech.root: wes
 ms.assetid: a522f0a8-6050-4082-acdf-e700ebfa7efc
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: EvtGetObjectArrayProperty, EvtGetObjectArrayProperty function [EventLog], wes.evtgetobjectarrayproperty, winevt/EvtGetObjectArrayProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

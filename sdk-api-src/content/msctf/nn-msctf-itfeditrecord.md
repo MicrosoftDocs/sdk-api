@@ -7,7 +7,7 @@ old-location: tsf\itfeditrecord.htm
 tech.root: TSF
 ms.assetid: 2106cd97-9e1f-4d7c-a7a4-55676cf8923b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITfEditRecord, ITfEditRecord interface [Text Services Framework], ITfEditRecord interface [Text Services Framework],described, _tsf_itfeditrecord_ref, msctf/ITfEditRecord, tsf.itfeditrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

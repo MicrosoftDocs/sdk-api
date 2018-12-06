@@ -7,7 +7,7 @@ old-location: base\ivdscontrollerport_getproperties.htm
 tech.root: vds
 ms.assetid: 7540f2d3-c17c-4868-9e72-116219bab51c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsControllerPort interface, IVdsControllerPort interface [VDS],GetProperties method, IVdsControllerPort.GetProperties, IVdsControllerPort::GetProperties, base.ivdscontrollerport_getproperties, vds/IVdsControllerPort::GetProperties, vdshwprv/IVdsControllerPort::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: hid\mouse_input_data.htm
 tech.root: hid
 ms.assetid: 363699d5-e91c-43ea-bae3-8ed997487e31
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMOUSE_INPUT_DATA, MOUSE_INPUT_DATA, MOUSE_INPUT_DATA structure [Human Input Devices], PMOUSE_INPUT_DATA, PMOUSE_INPUT_DATA structure pointer [Human Input Devices], _MOUSE_INPUT_DATA, hid.mouse_input_data, mref_7f184199-ae93-458c-8e4b-25fcacc57263.xml, ntddmou/MOUSE_INPUT_DATA, ntddmou/PMOUSE_INPUT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

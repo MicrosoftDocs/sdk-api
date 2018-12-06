@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsreadmsgtextcdma.htm
 tech.root: mbn
 ms.assetid: d26b09f7-eb83-46ed-82cb-a702d3af5d05
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMbnSmsReadMsgTextCdma, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks], IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],described, mbn.imbnsmsreadmsgtextcdma, mbnapi/IMbnSmsReadMsgTextCdma
 ms.prod: windows-hardware
 ms.technology: windows-devices

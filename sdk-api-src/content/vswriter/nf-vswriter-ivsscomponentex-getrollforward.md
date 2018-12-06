@@ -7,7 +7,7 @@ old-location: base\ivsscomponentex_getrollforward.htm
 tech.root: vss
 ms.assetid: 4ba52c80-2229-4653-bd5b-85d9f11cd127
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetRollForward, GetRollForward method, GetRollForward method,IVssComponentEx interface, IVssComponentEx interface,GetRollForward method, IVssComponentEx.GetRollForward, IVssComponentEx::GetRollForward, base.ivsscomponentex_getrollforward, vswriter/IVssComponentEx::GetRollForward
 ms.prod: windows-hardware
 ms.technology: windows-devices

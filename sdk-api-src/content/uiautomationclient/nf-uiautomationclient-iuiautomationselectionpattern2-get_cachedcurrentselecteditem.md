@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedCurrentSelecte
 tech.root: WinAuto
 ms.assetid: 9DA262DD-A1A2-4F92-BDF8-4F61330A5EC5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CachedCurrentSelectedItem property [Windows Accessibility], CachedCurrentSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedCurrentSelectedItem property, IUIAutomationSelectionPattern2.CachedCurrentSelectedItem, IUIAutomationSelectionPattern2.get_CachedCurrentSelectedItem, IUIAutomationSelectionPattern2::CachedCurrentSelectedItem, IUIAutomationSelectionPattern2::get_CachedCurrentSelectedItem, get_CachedCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CachedCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedCurrentSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CachedCurrentSelectedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iscsidisc\getiscsiversioninformation.htm
 tech.root: iSCSIDisc
 ms.assetid: b1b17aa4-1aa8-440e-a9d8-f11c03e48afc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetIScsiVersionInformation, GetIscsiVersionInformation, GetIscsiVersionInformation function [iSCSI Discovery Library API], iscsidisc.getiscsiversioninformation, iscsidsc/GetIscsiVersionInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

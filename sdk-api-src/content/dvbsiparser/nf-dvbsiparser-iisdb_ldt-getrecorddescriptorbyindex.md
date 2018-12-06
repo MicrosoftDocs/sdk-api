@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getrecorddescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: a551794a-6051-4c8e-9d44-5938974a6df4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_LDT.GetRecordDescriptorByIndex, IISDB_LDT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_LDT::GetRecordDescriptorByIndex, mstv.iisdb_ldt_getrecorddescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

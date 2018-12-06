@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLine_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinemethods.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DrawLine, DrawLine methods [GDI+], Graphics.DrawLine, Graphics::DrawLine, _gdiplus_CLASS_Graphics_DrawLine_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawLine_Methods, gdiplusgraphics/DrawLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

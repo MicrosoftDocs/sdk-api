@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordisoutofbandbitset.htm
 tech.root: mstv
 ms.assetid: cb4dc4f0-2bbb-44f6-b45e-347cce890b75
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordIsOutOfBandBitSet, GetRecordIsOutOfBandBitSet method [Microsoft TV Technologies], GetRecordIsOutOfBandBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsOutOfBandBitSet method, IATSC_VCT.GetRecordIsOutOfBandBitSet, IATSC_VCT::GetRecordIsOutOfBandBitSet, IATSC_VCTGetRecordIsOutOfBandBitSet, atscpsipparser/IATSC_VCT::GetRecordIsOutOfBandBitSet, mstv.iatsc_vct_getrecordisoutofbandbitset
 ms.prod: windows-hardware
 ms.technology: windows-devices

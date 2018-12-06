@@ -7,7 +7,7 @@ old-location: shell\IExecuteCommandHost.htm
 tech.root: shell
 ms.assetid: ab75d502-c488-4511-9aa1-3af863b8e425
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IExecuteCommandHost, IExecuteCommandHost interface [Windows Shell], IExecuteCommandHost interface [Windows Shell],described, shell.IExecuteCommandHost, shobjidl_core/IExecuteCommandHost
 ms.prod: windows-hardware
 ms.technology: windows-devices

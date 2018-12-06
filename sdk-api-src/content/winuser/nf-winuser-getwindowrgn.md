@@ -7,7 +7,7 @@ old-location: gdi\getwindowrgn.htm
 tech.root: gdi
 ms.assetid: c8a8fa46-354b-489e-b016-fd2e728958ce
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetWindowRgn, GetWindowRgn function [Windows GDI], _win32_GetWindowRgn, gdi.getwindowrgn, winuser/GetWindowRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

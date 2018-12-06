@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactProperties_GetDate.htm
 tech.root: wincontacts
 ms.assetid: 0ee9a870-ad51-4528-b830-bee72586b936
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetDate, GetDate method [Windows Contacts], GetDate method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetDate method, IContactProperties.GetDate, IContactProperties::GetDate, _wincontacts_IContactProperties_GetDate, icontact/IContactProperties::GetDate, wincontacts._wincontacts_IContactProperties_GetDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

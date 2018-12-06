@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\iuiframework.htm
 ms.author: windowssdkdev
-ms.date: 11/20/2018
+ms.date: 12/5/2018
 ms.keywords: IUIFramework, IUIFramework interface [Windows Ribbon], IUIFramework interface [Windows Ribbon],described, scenicintent_IUIFramework, uiribbon/IUIFramework, windowsribbon.windowsribbon_iuiframework
 ms.prod: windows-hardware
 ms.technology: windows-devices

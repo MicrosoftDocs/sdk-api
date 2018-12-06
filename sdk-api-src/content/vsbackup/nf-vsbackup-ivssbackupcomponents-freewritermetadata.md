@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_freewritermetadata.htm
 tech.root: vss
 ms.assetid: 888d30bd-527b-4b7b-9d31-3df0556b268f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FreeWriterMetadata, FreeWriterMetadata method [VSS], FreeWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],FreeWriterMetadata method, IVssBackupComponents.FreeWriterMetadata, IVssBackupComponents::FreeWriterMetadata, _win32_ivssbackupcomponents_freewritermetadata, base.ivssbackupcomponents_freewritermetadata, vsbackup/IVssBackupComponents::FreeWriterMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

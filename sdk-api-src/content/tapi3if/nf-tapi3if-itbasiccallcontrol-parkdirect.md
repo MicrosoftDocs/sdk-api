@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol_parkdirect.htm
 tech.root: tapi
 ms.assetid: 6461fd21-1726-4d24-8a17-d687b807b8e3
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],ParkDirect method, ITBasicCallControl.ParkDirect, ITBasicCallControl::ParkDirect, ParkDirect, ParkDirect method [TAPI 2.2], ParkDirect method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_parkdirect, tapi3.itbasiccallcontrol_parkdirect, tapi3if/ITBasicCallControl::ParkDirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

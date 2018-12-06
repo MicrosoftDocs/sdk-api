@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmderivedobjectsresult.htm
 tech.root: fsrm
 ms.assetid: 1486d53a-d09a-4eff-ba07-b9dbb32e18ba
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmDerivedObjectsResult, IFsrmDerivedObjectsResult interface [File Server Resource Manager], IFsrmDerivedObjectsResult interface [File Server Resource Manager],described, fs.ifsrmderivedobjectsresult, fsrm.ifsrmderivedobjectsresult, fsrm/IFsrmDerivedObjectsResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

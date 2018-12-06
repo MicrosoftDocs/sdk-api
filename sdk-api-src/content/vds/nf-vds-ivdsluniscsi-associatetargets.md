@@ -7,7 +7,7 @@ old-location: base\ivdsluniscsi_associatetargets.htm
 tech.root: vds
 ms.assetid: eb80020b-caf8-4d85-b250-d9a8738b8848
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AssociateTargets, AssociateTargets method [VDS], AssociateTargets method [VDS],IVdsLunIscsi interface, IVdsLunIscsi interface [VDS],AssociateTargets method, IVdsLunIscsi.AssociateTargets, IVdsLunIscsi::AssociateTargets, base.ivdsluniscsi_associatetargets, vds/IVdsLunIscsi::AssociateTargets, vdshwprv/IVdsLunIscsi::AssociateTargets
 ms.prod: windows-hardware
 ms.technology: windows-devices

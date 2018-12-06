@@ -7,7 +7,7 @@ old-location: controls\TreeView_Expand.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_expand.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: TreeView_Expand, TreeView_Expand macro [Windows Controls], _win32_TreeView_Expand, _win32_TreeView_Expand_cpp, commctrl/TreeView_Expand, controls.TreeView_Expand, controls._win32_TreeView_Expand
 ms.prod: windows-hardware
 ms.technology: windows-devices

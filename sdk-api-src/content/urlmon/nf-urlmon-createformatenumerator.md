@@ -7,7 +7,7 @@ old-location: com\createformatenumerator.htm
 tech.root: com
 ms.assetid: 302418e5-48b6-46ee-bb96-2a8170c4af5e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateFormatEnumerator, CreateFormatEnumerator function [COM], _ole_CreateFormatEnumerator, com.createformatenumerator, urlmon/CreateFormatEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

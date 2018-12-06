@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicecontrol.htm
 tech.root: WMDM
 ms.assetid: e7b58957-4795-461f-ae3d-fb80e6711c9f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMDMDeviceControl, IWMDMDeviceControl interface [windows Media Device Manager], IWMDMDeviceControl interface [windows Media Device Manager],described, IWMDMDeviceControlInterface, mswmdm/IWMDMDeviceControl, wmdm.iwmdmdevicecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

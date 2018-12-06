@@ -7,7 +7,7 @@ old-location: mbn\imbnsignalevents.htm
 tech.root: mbn
 ms.assetid: 9e52168a-c6f9-4154-b8b9-8ae6cb771d46
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMbnSignalEvents, IMbnSignalEvents interface [Microsoft Broadband Networks], IMbnSignalEvents interface [Microsoft Broadband Networks],described, mbn.imbnsignalevents, mbnapi/IMbnSignalEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\imsmconfigurableitem_get_helpkeyword.htm
 tech.root: msi
 ms.assetid: 75dc8672-f910-448a-906b-aba921463e78
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmConfigurableItem interface,get_HelpKeyword method, IMsmConfigurableItem.get_HelpKeyword, IMsmConfigurableItem::get_HelpKeyword, _msi_get_helpkeyword_function, get_HelpKeyword, get_HelpKeyword method, get_HelpKeyword method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_HelpKeyword, setup.imsmconfigurableitem_get_helpkeyword
 ms.prod: windows-hardware
 ms.technology: windows-devices

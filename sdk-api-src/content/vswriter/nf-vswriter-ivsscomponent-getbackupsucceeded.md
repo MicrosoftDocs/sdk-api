@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getbackupsucceeded.htm
 tech.root: vss
 ms.assetid: 9b2dce08-a4ab-4e55-aeef-819f71ddf9d2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetBackupSucceeded, GetBackupSucceeded method [VSS], GetBackupSucceeded method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupSucceeded method, IVssComponent.GetBackupSucceeded, IVssComponent::GetBackupSucceeded, _win32_ivsscomponent_getbackupsucceeded, base.ivsscomponent_getbackupsucceeded, vswriter/IVssComponent::GetBackupSucceeded
 ms.prod: windows-hardware
 ms.technology: windows-devices

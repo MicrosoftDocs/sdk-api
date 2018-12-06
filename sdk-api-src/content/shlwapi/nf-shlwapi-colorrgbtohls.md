@@ -7,7 +7,7 @@ old-location: shell\ColorRGBToHLS.htm
 tech.root: shell
 ms.assetid: ed000f53-cc7e-4693-994c-a5dd7c789f1f
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ColorRGBToHLS, ColorRGBToHLS function [Windows Shell], _win32_ColorRGBToHLS, shell.ColorRGBToHLS, shlwapi/ColorRGBToHLS
 ms.prod: windows-hardware
 ms.technology: windows-devices

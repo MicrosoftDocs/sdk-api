@@ -7,7 +7,7 @@ old-location: mstv\iesisdbcasresponseevent_getstatus.htm
 tech.root: mstv
 ms.assetid: 63cf3d47-5aac-4bce-8562-f67df47f83b2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetStatus method, IESIsdbCasResponseEvent.GetStatus, IESIsdbCasResponseEvent::GetStatus, mstv.iesisdbcasresponseevent_getstatus, tuner/IESIsdbCasResponseEvent::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

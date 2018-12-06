@@ -7,7 +7,7 @@ old-location: direct3d11\id3duserdefinedannotation_getstatus.htm
 tech.root: direct3d11
 ms.assetid: 67C95617-3454-4457-AB3B-FD79C176E314
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [Direct3D 11], GetStatus method [Direct3D 11],ID3DUserDefinedAnnotation interface, ID3DUserDefinedAnnotation interface [Direct3D 11],GetStatus method, ID3DUserDefinedAnnotation.GetStatus, ID3DUserDefinedAnnotation::GetStatus, d3d11_1/ID3DUserDefinedAnnotation::GetStatus, direct3d11.id3duserdefinedannotation_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11_1.h
-: 
-- ID3DUserDefinedAnnotation.GetStatus
-: 
 ---
 
 # ID3DUserDefinedAnnotation::GetStatus
@@ -82,7 +74,7 @@ The return value is nonzero if the calling application is running under a Direct
 
 
 
-You can call <b>GetStatus</b> to determine whether your application is running under a Direct3D profiling tool before you make further calls to other methods of the <a href="https://msdn.microsoft.com/en-us/library/Hh446881(v=VS.85).aspx">ID3DUserDefinedAnnotation</a> interface. For example, the <a href="https://msdn.microsoft.com/en-us/library/Hh446884(v=VS.85).aspx">ID3DUserDefinedAnnotation::BeginEvent</a> and <a href="https://msdn.microsoft.com/en-us/library/Hh446886(v=VS.85).aspx">ID3DUserDefinedAnnotation::EndEvent</a> methods have no effect if the calling application is not running under an enabled Direct3D profiling tool. Therefore, you do not need to call these methods unless your application is running under a Direct3D profiling tool.
+You can call <b>GetStatus</b> to determine whether your application is running under a Direct3D profiling tool before you make further calls to other methods of the <a href="https://msdn.microsoft.com/255DE24B-3D6D-49D9-B6A8-D296AB99B4C9">ID3DUserDefinedAnnotation</a> interface. For example, the <a href="https://msdn.microsoft.com/38FC7BFA-A01E-4537-88F1-836AE03C9A07">ID3DUserDefinedAnnotation::BeginEvent</a> and <a href="https://msdn.microsoft.com/5C478278-EC05-4214-80F9-808EADA76E41">ID3DUserDefinedAnnotation::EndEvent</a> methods have no effect if the calling application is not running under an enabled Direct3D profiling tool. Therefore, you do not need to call these methods unless your application is running under a Direct3D profiling tool.
 
 
 #### Examples
@@ -90,24 +82,28 @@ You can call <b>GetStatus</b> to determine whether your application is running u
 The following code shows how to use <b>GetStatus</b>.
           
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 #ifdef DEVELOPMENT_BUILD
-    if ( pPerf->GetStatus() )
+    if ( pPerf-&gt;GetStatus() )
         m_MakeD3DAnnotationCalls = true;
 #endif
 
 …
 
    if ( m_ MakeD3DAnnotationCalls )
-        pPerf->BeginEvent(L“Drawing Ocean”);
+        pPerf-&gt;BeginEvent(L“Drawing Ocean”);
    MyDrawOceanRoutine();
 
-          
-```
-
-
+          </pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 
@@ -117,7 +113,7 @@ The following code shows how to use <b>GetStatus</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446881(v=VS.85).aspx">ID3DUserDefinedAnnotation</a>
+<a href="https://msdn.microsoft.com/255DE24B-3D6D-49D9-B6A8-D296AB99B4C9">ID3DUserDefinedAnnotation</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: tsf\ienumtfinputprocessorprofiles_next.htm
 tech.root: TSF
 ms.assetid: b936c479-a5f1-47a3-bd5a-f1b83cd84dc0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Next method, IEnumTfInputProcessorProfiles.Next, IEnumTfInputProcessorProfiles::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Next, tsf.ienumtfinputprocessorprofiles_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: http\winhttpreaddata.htm
 tech.root: WinHttp
 ms.assetid: 06340601-9b2d-487a-a82a-aa2175a52dc5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinHttpReadData, WinHttpReadData function [WinHTTP], http.winhttpreaddata, winhttp.winhttpreaddata_function, winhttp/WinHttpReadData
 ms.prod: windows-hardware
 ms.technology: windows-devices

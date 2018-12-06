@@ -7,7 +7,7 @@ old-location: base\ivdsdisk_setflags.htm
 tech.root: vds
 ms.assetid: 0ede6a22-b15c-4afd-8d49-c963ea7e2052
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsDisk interface [VDS],SetFlags method, IVdsDisk.SetFlags, IVdsDisk::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsDisk interface, base.ivdsdisk_setflags, vds/IVdsDisk::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winmsg\setlayeredwindowattributes.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setlayeredwindowattributes.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: LWA_ALPHA, LWA_COLORKEY, SetLayeredWindowAttributes, SetLayeredWindowAttributes function [Windows and Messages], _win32_SetLayeredWindowAttributes, _win32_setlayeredwindowattributes_cpp, winmsg.setlayeredwindowattributes, winui._win32_setlayeredwindowattributes, winuser/SetLayeredWindowAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

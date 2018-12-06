@@ -7,7 +7,7 @@ old-location: adsi\iadsdnwithstring.htm
 tech.root: adsi
 ms.assetid: 112985e7-6e96-42fb-a4cb-916296d4a524
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DNWithString, IADsDNWithString, IADsDNWithString interface [ADSI], IADsDNWithString interface [ADSI],described, _ds_iadsdnwithstring, adsi.iadsdnwithstring, iads/IADsDNWithString
 ms.prod: windows-hardware
 ms.technology: windows-devices

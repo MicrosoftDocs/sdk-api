@@ -7,7 +7,7 @@ old-location: shell\DEFCONTEXTMENU.htm
 tech.root: shell
 ms.assetid: 007861f6-1e66-4c5f-a459-3cfbe9f8cec2
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: DEFCONTEXTMENU, DEFCONTEXTMENU structure [Windows Shell], _shell_DEFCONTEXTMENU, shell.DEFCONTEXTMENU, shlobj_core/DEFCONTEXTMENU
 ms.prod: windows-hardware
 ms.technology: windows-devices

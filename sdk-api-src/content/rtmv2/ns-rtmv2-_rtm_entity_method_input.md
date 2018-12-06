@@ -7,7 +7,7 @@ old-location: rras\rtm_entity_method_input.htm
 tech.root: rras
 ms.assetid: 1f900e85-c522-47c9-bfc8-5a1c1d01ab78
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT structure pointer [RAS], RTM_ENTITY_METHOD_INPUT, RTM_ENTITY_METHOD_INPUT structure [RAS], _RTM_ENTITY_METHOD_INPUT, _rtmv2ref_rtm_entity_method_input, rras.rtm_entity_method_input, rtmv2/PRTM_ENTITY_METHOD_INPUT, rtmv2/RTM_ENTITY_METHOD_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

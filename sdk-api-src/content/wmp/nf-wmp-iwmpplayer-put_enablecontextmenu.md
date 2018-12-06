@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer_put_enablecontextmenu.htm
 tech.root: WMP
 ms.assetid: 1fd79fc3-34c6-4d76-a726-bbf64ee983c9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_enableContextMenu method, IWMPPlayer.put_enableContextMenu, IWMPPlayer::put_enableContextMenu, IWMPPlayerput_enableContextMenu, put_enableContextMenu, put_enableContextMenu method [Windows Media Player], put_enableContextMenu method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_enablecontextmenu, wmp/IWMPPlayer::put_enableContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

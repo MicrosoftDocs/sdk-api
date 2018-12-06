@@ -7,7 +7,7 @@ old-location: security\authzuninstallsecurityeventsource.htm
 tech.root: secauthz
 ms.assetid: 495157da-d4ed-42ff-bcb4-5c07ab9ec0e6
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AuthzUninstallSecurityEventSource, AuthzUninstallSecurityEventSource function [Security], authz/AuthzUninstallSecurityEventSource, security.authzuninstallsecurityeventsource
 ms.prod: windows-hardware
 ms.technology: windows-devices

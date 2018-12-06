@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassinfo.htm
 tech.root: tapi
 ms.assetid: 0f7190c4-c696-4749-82f2-20fdbc8651f4
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITPluggableTerminalClassInfo, ITPluggableTerminalClassInfo interface [TAPI 2.2], ITPluggableTerminalClassInfo interface [TAPI 2.2],described, _tapi3_itpluggableterminalclassinfo, tapi3.itpluggableterminalclassinfo, tapi3if/ITPluggableTerminalClassInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdsvdprovider.htm
 tech.root: vds
 ms.assetid: 812e8ac5-91c5-455a-94e7-2edf55d92cdc
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsVdProvider, IVdsVdProvider interface, IVdsVdProvider interface,described, base.ivdsvdprovider, vds/IVdsVdProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

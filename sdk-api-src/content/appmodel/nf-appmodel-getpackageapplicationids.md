@@ -7,7 +7,7 @@ old-location: appxpkg\getpackageapplicationids.htm
 tech.root: appxpkg
 ms.assetid: F08135F9-FF45-4309-84B5-77F4AFD7FC0C
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetPackageApplicationIds, GetPackageApplicationIds function [App packaging and management], appmodel/GetPackageApplicationIds, appxpkg.getpackageapplicationids
 ms.prod: windows-hardware
 ms.technology: windows-devices

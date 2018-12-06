@@ -7,7 +7,7 @@ old-location: ics\inatexternalipaddresscallback.htm
 tech.root: ics
 ms.assetid: f180f597-680b-47ce-b437-3395069a8c77
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INATExternalIPAddressCallback, INATExternalIPAddressCallback interface [ICS/ICF], INATExternalIPAddressCallback interface [ICS/ICF],described, _ics_inatexternalipaddresscallback, ics.inatexternalipaddresscallback, natupnp/INATExternalIPAddressCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

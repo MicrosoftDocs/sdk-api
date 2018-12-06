@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createrasterizerstate.htm
 tech.root: direct3d11
 ms.assetid: b49a8dbb-2280-4d5d-ae65-58cde2e9ed10
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 89e8a772-b143-38e2-89a4-4b72b0a4b1c5, CreateRasterizerState, CreateRasterizerState method [Direct3D 11], CreateRasterizerState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateRasterizerState method, ID3D11Device.CreateRasterizerState, ID3D11Device::CreateRasterizerState, d3d11/ID3D11Device::CreateRasterizerState, direct3d11.id3d11device_createrasterizerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11Device.CreateRasterizerState
-: 
 ---
 
 # ID3D11Device::CreateRasterizerState
@@ -69,25 +61,25 @@ Create a rasterizer state object that tells the rasterizer stage how to behave.
 
 ### -param pRasterizerDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Ff476198(v=VS.85).aspx">D3D11_RASTERIZER_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a">D3D11_RASTERIZER_DESC</a>*</b>
 
-Pointer to a rasterizer state description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476198(v=VS.85).aspx">D3D11_RASTERIZER_DESC</a>).
+Pointer to a rasterizer state description (see <a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a">D3D11_RASTERIZER_DESC</a>).
 
 
 ### -param ppRasterizerState [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476580(v=VS.85).aspx">ID3D11RasterizerState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/fbe6d2b9-375e-4390-9d34-36acef0a5aa2">ID3D11RasterizerState</a>**</b>
 
-Address of a pointer to the rasterizer state object created (see <a href="https://msdn.microsoft.com/en-us/library/Ff476580(v=VS.85).aspx">ID3D11RasterizerState</a>).
+Address of a pointer to the rasterizer state object created (see <a href="https://msdn.microsoft.com/fbe6d2b9-375e-4390-9d34-36acef0a5aa2">ID3D11RasterizerState</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns E_OUTOFMEMORY if there is insufficient memory to create the compute shader.  See <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a> for other possible return values.
+This method returns E_OUTOFMEMORY if there is insufficient memory to create the compute shader.  See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
 
 
 
@@ -108,7 +100,7 @@ If an application attempts to create a rasterizer-state interface with the same 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
  
 
  

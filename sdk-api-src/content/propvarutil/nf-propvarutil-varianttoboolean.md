@@ -7,7 +7,7 @@ old-location: properties\VariantToBoolean.htm
 tech.root: properties
 ms.assetid: 3ad12c41-e124-45f1-99f1-92790121ad93
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToBoolean, VariantToBoolean function [Windows Properties], _shell_VariantToBoolean, properties.VariantToBoolean, propvarutil/VariantToBoolean, shell.VariantToBoolean
 ms.prod: windows-hardware
 ms.technology: windows-devices

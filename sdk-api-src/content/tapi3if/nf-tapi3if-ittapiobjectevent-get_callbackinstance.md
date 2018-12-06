@@ -7,7 +7,7 @@ old-location: tapi3\ittapiobjectevent_get_callbackinstance.htm
 tech.root: tapi
 ms.assetid: 13f16ccf-8d51-4f3f-90cb-3596cb8e9938
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_CallbackInstance method, ITTAPIObjectEvent.get_CallbackInstance, ITTAPIObjectEvent::get_CallbackInstance, _tapi3_ittapiobjectevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_callbackinstance, tapi3if/ITTAPIObjectEvent::get_CallbackInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

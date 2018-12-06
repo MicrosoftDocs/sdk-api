@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob2_setcredentials.htm
 tech.root: bits
 ms.assetid: adaffc21-7df1-48ca-8e05-bdb09663a49b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetCredentials method, IBackgroundCopyJob2.SetCredentials, IBackgroundCopyJob2::SetCredentials, SetCredentials, SetCredentials method [BITS], SetCredentials method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setcredentials, bits.ibackgroundcopyjob2_setcredentials, bits1_5/IBackgroundCopyJob2::SetCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

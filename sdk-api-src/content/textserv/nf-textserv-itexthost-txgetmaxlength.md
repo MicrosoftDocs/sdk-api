@@ -4,10 +4,10 @@ title: ITextHost::TxGetMaxLength
 author: windows-sdk-content
 description: Gets the text host's maximum allowed length for the text.
 old-location: controls\ITextHost_TxGetMaxLength.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetmaxlength.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetMaxLength method, ITextHost.TxGetMaxLength, ITextHost::TxGetMaxLength, TxGetMaxLength, TxGetMaxLength method [Windows Controls], TxGetMaxLength method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetMaxLength, _win32_ITextHost_TxGetMaxLength_cpp, controls.ITextHost_TxGetMaxLength, controls._win32_ITextHost_TxGetMaxLength, textserv/ITextHost::TxGetMaxLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- textserv.h
-: 
-- ITextHost.TxGetMaxLength
-: 
 ---
 
 # ITextHost::TxGetMaxLength
@@ -89,9 +81,9 @@ The return value is <b>S_OK</b>.
 
 
 When this maximum is reached, the text services object should reject any further character insertion and pasted text. 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb787685(v=VS.85).aspx">TxSetText</a> however should still accept (and set) text longer than the maximum length. This is because this method is used for binding and is critical to maintaining the integrity of the data to which the control is bound.
+				<a href="https://msdn.microsoft.com/29be3eba-285c-4297-b692-0a5fcb4797c6">TxSetText</a> however should still accept (and set) text longer than the maximum length. This is because this method is used for binding and is critical to maintaining the integrity of the data to which the control is bound.
 
-This method parallels the <a href="https://msdn.microsoft.com/en-us/library/Bb761607(v=VS.85).aspx">EM_LIMITTEXT</a> message. 
+This method parallels the <a href="https://msdn.microsoft.com/5a605de7-8dc7-4c54-8f18-e0b08c720856">EM_LIMITTEXT</a> message. 
 
 If the limit returned is less than the number of characters currently in the text services object, no data is lost. Instead, no edits are allowed to the text 
 				<i>other</i> than deletion until the text is reduced to below the limit.
@@ -108,11 +100,11 @@ If the limit returned is less than the number of characters currently in the tex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761607(v=VS.85).aspx">EM_LIMITTEXT</a>
+<a href="https://msdn.microsoft.com/5a605de7-8dc7-4c54-8f18-e0b08c720856">EM_LIMITTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
@@ -120,7 +112,7 @@ If the limit returned is less than the number of characters currently in the tex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_effect_shader_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_effect_shader_desc.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 7f99dca9-036c-f8a6-79ea-5316af7e1124, D3D10_EFFECT_SHADER_DESC, D3D10_EFFECT_SHADER_DESC structure [Direct3D 10], _D3D10_EFFECT_SHADER_DESC, d3d10effect/D3D10_EFFECT_SHADER_DESC, direct3d10.d3d10_effect_shader_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

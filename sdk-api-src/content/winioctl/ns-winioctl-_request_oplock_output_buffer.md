@@ -7,7 +7,7 @@ old-location: fs\request_oplock_output_buffer.htm
 tech.root: fileio
 ms.assetid: 5912e0db-a102-4e1c-a1c0-c6a900fe0bbe
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER structure pointer [Files], REQUEST_OPLOCK_OUTPUT_BUFFER, REQUEST_OPLOCK_OUTPUT_BUFFER structure [Files], REQUEST_OPLOCK_OUTPUT_FLAG_ACK_REQUIRED, REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED, _REQUEST_OPLOCK_OUTPUT_BUFFER, fs.request_oplock_output_buffer, winioctl/PREQUEST_OPLOCK_OUTPUT_BUFFER, winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

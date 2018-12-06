@@ -7,7 +7,7 @@ old-location: mmc\iconsolenamespace2_addextension.htm
 tech.root: mmc
 ms.assetid: 6057b8dd-d794-43a3-998b-689aafa28b9d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddExtension, AddExtension method [MMC], AddExtension method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace2 interface [MMC],AddExtension method, IConsoleNameSpace2.AddExtension, IConsoleNameSpace2::AddExtension, _slate_iconsolenamespace2_addextension, mmc.iconsolenamespace2_addextension, mmc/IConsoleNameSpace2::AddExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

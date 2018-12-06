@@ -7,7 +7,7 @@ old-location: wua\isearchcompletedcallback_invoke.htm
 tech.root: wua_sdk
 ms.assetid: 2d06754a-5750-4986-9f54-98f91dcc705b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ISearchCompletedCallback interface [Windows Update Agent],Invoke method, ISearchCompletedCallback.Invoke, ISearchCompletedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],ISearchCompletedCallback interface, wua.isearchcompletedcallback_invoke, wuapi/ISearchCompletedCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

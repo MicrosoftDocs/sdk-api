@@ -7,7 +7,7 @@ old-location: rras\mpr_server_2.htm
 tech.root: rras
 ms.assetid: 9e38651a-541f-4470-a841-4eb94dbe4835
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMPR_SERVER_2, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, MPR_SERVER_2, MPR_SERVER_2 structure [RAS], PMPR_SERVER_2, PMPR_SERVER_2 structure pointer [RAS], _MPR_SERVER_2, mprapi/MPR_SERVER_2, mprapi/PMPR_SERVER_2, rras.mpr_server_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

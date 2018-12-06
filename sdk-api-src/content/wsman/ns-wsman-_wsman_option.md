@@ -7,7 +7,7 @@ old-location: winrm\wsman_option.htm
 tech.root: winrm
 ms.assetid: 9ebb9b21-1418-476d-a7a2-395c77f26dc9
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: WSMAN_OPTION, WSMAN_OPTION structure [Windows Remote Management], _WSMAN_OPTION, winrm.wsman_option, wsman/WSMAN_OPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

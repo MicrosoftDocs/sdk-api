@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatablockreader_getreaderbyindex.htm
 tech.root: wic
 ms.assetid: fb0d0951-7bb1-4bf7-9bfb-50f522929baf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetReaderByIndex, GetReaderByIndex method [Windows Imaging Component], GetReaderByIndex method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetReaderByIndex method, IWICMetadataBlockReader.GetReaderByIndex, IWICMetadataBlockReader::GetReaderByIndex, _wic_codec_iwicmetadatablockreader_getreaderbyindex, wic._wic_codec_iwicmetadatablockreader_getreaderbyindex, wincodecsdk/IWICMetadataBlockReader::GetReaderByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

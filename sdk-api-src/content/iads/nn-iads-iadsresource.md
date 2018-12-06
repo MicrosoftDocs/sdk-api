@@ -7,7 +7,7 @@ old-location: adsi\iadsresource.htm
 tech.root: adsi
 ms.assetid: 217749a4-55dc-457f-8582-1513ff3b0666
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IADsResource, IADsResource interface [ADSI], IADsResource interface [ADSI],described, _ds_iadsresource, adsi.iadsresource, iads/IADsResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

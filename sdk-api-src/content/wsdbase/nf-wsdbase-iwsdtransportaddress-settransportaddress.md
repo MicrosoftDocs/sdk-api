@@ -7,7 +7,7 @@ old-location: ncd\iwsdtransportaddress_settransportaddress.htm
 tech.root: wsdapi
 ms.assetid: ea87b7d8-71c0-4cb6-b28b-7ac8f2417886
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDTransportAddress interface,SetTransportAddress method, IWSDTransportAddress.SetTransportAddress, IWSDTransportAddress::SetTransportAddress, SetTransportAddress, SetTransportAddress method, SetTransportAddress method,IWSDTransportAddress interface, ncd.iwsdtransportaddress_settransportaddress, wsdbase/IWSDTransportAddress::SetTransportAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

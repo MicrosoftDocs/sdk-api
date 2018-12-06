@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_root.htm
 tech.root: imapi
 ms.assetid: 4b43468a-f02c-4806-9f65-529dc6d8f20a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_Root method, IFileSystemImage.get_Root, IFileSystemImage::get_Root, get_Root, get_Root method [IMAPI], get_Root method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_root, imapi2fs/IFileSystemImage::get_Root
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestresourcesenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: 72798FDF-3296-4AC7-9BA0-212457F9BEC7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxManifestResourcesEnumerator interface, IAppxManifestResourcesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxManifestResourcesEnumerator.GetHasCurrent, IAppxManifestResourcesEnumerator::GetHasCurrent, appxpackaging/IAppxManifestResourcesEnumerator::GetHasCurrent, appxpkg.iappxmanifestresourcesenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_write.htm
 tech.root: printdocs
 ms.assetid: ab586c7d-69e6-4ad7-93f1-3e1437c04856
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FALSE, IXpsOMPage interface [XPS Documents and Packaging],Write method, IXpsOMPage.Write, IXpsOMPage::Write, TRUE, Write, Write method [XPS Documents and Packaging], Write method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_write, xpsobjectmodel/IXpsOMPage::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: etw\enablecallback.htm
 tech.root: etw
 ms.assetid: f339323e-9da9-495f-aac5-f44969a018eb
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: EVENT_CONTROL_CODE_CAPTURE_STATE, EVENT_CONTROL_CODE_DISABLE_PROVIDER, EVENT_CONTROL_CODE_ENABLE_PROVIDER, PENABLECALLBACK, PENABLECALLBACK callback, PENABLECALLBACK callback function [ETW], base.eanblecallback, etw.eanblecallback, etw.enablecallback, evntprov/PENABLECALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

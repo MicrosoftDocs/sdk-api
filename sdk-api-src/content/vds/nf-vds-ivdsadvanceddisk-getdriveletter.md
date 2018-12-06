@@ -7,7 +7,7 @@ old-location: base\ivdsadvanceddisk_getdriveletter.htm
 tech.root: vds
 ms.assetid: de914162-3d55-4766-89d8-da2a531e9362
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetDriveLetter, GetDriveLetter method [VDS], GetDriveLetter method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],GetDriveLetter method, IVdsAdvancedDisk.GetDriveLetter, IVdsAdvancedDisk::GetDriveLetter, base.ivdsadvanceddisk_getdriveletter, vds/IVdsAdvancedDisk::GetDriveLetter
 ms.prod: windows-hardware
 ms.technology: windows-devices

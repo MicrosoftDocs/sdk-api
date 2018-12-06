@@ -7,7 +7,7 @@ old-location: direct2d\point2u.htm
 tech.root: direct2d
 ms.assetid: 79a19a38-3941-41bd-a1bd-5260ba36541f
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: Point2U, Point2U function [Direct2D], d2d1helper/Point2U, direct2d.point2u
 ms.prod: windows-hardware
 ms.technology: windows-devices

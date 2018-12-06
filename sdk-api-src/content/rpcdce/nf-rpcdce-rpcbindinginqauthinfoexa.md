@@ -7,7 +7,7 @@ old-location: rpc\rpcbindinginqauthinfoex.htm
 tech.root: rpc
 ms.assetid: e75f5ba6-7a1c-4069-8810-05aa38a47e9c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RpcBindingInqAuthInfoEx, RpcBindingInqAuthInfoEx function [RPC], RpcBindingInqAuthInfoExA, RpcBindingInqAuthInfoExW, _rpc_rpcbindinginqauthinfoex, rpc.rpcbindinginqauthinfoex, rpcdce/RpcBindingInqAuthInfoEx, rpcdce/RpcBindingInqAuthInfoExA, rpcdce/RpcBindingInqAuthInfoExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

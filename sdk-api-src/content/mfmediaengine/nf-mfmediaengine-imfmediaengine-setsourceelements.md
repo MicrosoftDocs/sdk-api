@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setsourceelements.htm
 tech.root: medfound
 ms.assetid: 7B1A1C43-A9BD-4DBF-B6A7-53BF9295CDAC
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetSourceElements method, IMFMediaEngine.SetSourceElements, IMFMediaEngine::SetSourceElements, SetSourceElements, SetSourceElements method [Media Foundation], SetSourceElements method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setsourceelements, mfmediaengine/IMFMediaEngine::SetSourceElements
 ms.prod: windows-hardware
 ms.technology: windows-devices

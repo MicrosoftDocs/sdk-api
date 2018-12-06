@@ -7,7 +7,7 @@ old-location: rpc\rpcerrorsaveerrorinfo.htm
 tech.root: rpc
 ms.assetid: 59a3ba71-10bd-47d1-91b0-eba5ffa5051b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RpcErrorSaveErrorInfo, RpcErrorSaveErrorInfo function [RPC], _rpc_rpcerrorsaveerrorinfo, rpc.rpcerrorsaveerrorinfo, rpcasync/RpcErrorSaveErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

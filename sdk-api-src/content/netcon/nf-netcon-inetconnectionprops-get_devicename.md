@@ -7,7 +7,7 @@ old-location: ics\inetconnectionprops_get_devicename.htm
 tech.root: ics
 ms.assetid: 4c24c5a6-d856-4c62-a98e-33e4fc216f83
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_DeviceName method, INetConnectionProps.get_DeviceName, INetConnectionProps::get_DeviceName, _ics_inetconnectionprops_get_devicename, get_DeviceName, get_DeviceName method [ICS/ICF], get_DeviceName method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_devicename, netcon/INetConnectionProps::get_DeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices

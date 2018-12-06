@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn_get_label.htm
 tech.root: WMP
 ms.assetid: 89197e65-036c-4ffb-8b08-4ab8c194f92f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_label method, IWMPCdromBurn.get_label, IWMPCdromBurn::get_label, IWMPCdromBurnget_label, get_label, get_label method [Windows Media Player], get_label method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_label, wmp/IWMPCdromBurn::get_label
 ms.prod: windows-hardware
 ms.technology: windows-devices

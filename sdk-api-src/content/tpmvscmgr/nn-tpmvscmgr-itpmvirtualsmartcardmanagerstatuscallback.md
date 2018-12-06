@@ -7,7 +7,7 @@ old-location: security\itpmvirtualsmartcardmanagerstatuscallback.htm
 tech.root: secauthn
 ms.assetid: 6CB62E42-16FD-453F-9566-B4DFCDAC7368
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback, ITpmVirtualSmartCardManagerStatusCallback interface [Security], ITpmVirtualSmartCardManagerStatusCallback interface [Security],described, security.itpmvirtualsmartcardmanagerstatuscallback, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

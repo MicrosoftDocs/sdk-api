@@ -7,7 +7,7 @@ old-location: webdav\authnextstep.htm
 tech.root: WebDAV
 ms.assetid: e9ce9e61-c395-4f6b-843c-c1caa13ac3b4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AUTHNEXTSTEP, AUTHNEXTSTEP enumeration [WebDAV], CancelRequest, DefaultBehavior, RetryRequest, davclnt/AUTHNEXTSTEP, davclnt/CancelRequest, davclnt/DefaultBehavior, davclnt/RetryRequest, webdav.authnextstep
 ms.prod: windows-hardware
 ms.technology: windows-devices

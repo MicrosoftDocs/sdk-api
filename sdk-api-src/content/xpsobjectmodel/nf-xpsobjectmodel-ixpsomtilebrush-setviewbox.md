@@ -7,7 +7,7 @@ old-location: xps\ixpsomtilebrush_setviewbox.htm
 tech.root: printdocs
 ms.assetid: a4a0a9c7-15d5-493e-8ed3-9644f59796fd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewbox method, IXpsOMTileBrush.SetViewbox, IXpsOMTileBrush::SetViewbox, SetViewbox, SetViewbox method [XPS Documents and Packaging], SetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewbox, xpsobjectmodel/IXpsOMTileBrush::SetViewbox
 ms.prod: windows-hardware
 ms.technology: windows-devices

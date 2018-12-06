@@ -7,7 +7,7 @@ old-location: shell\IExpDispSupportXP.htm
 tech.root: shell
 ms.assetid: 1d8de371-5138-4a26-b4ff-fc1a5f62e3bb
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IExpDispSupportXP, IExpDispSupportXP interface [Windows Shell], IExpDispSupportXP interface [Windows Shell],described, _shell_IExpDispSupportXP, shdeprecated/IExpDispSupportXP, shell.IExpDispSupportXP
 ms.prod: windows-hardware
 ms.technology: windows-devices

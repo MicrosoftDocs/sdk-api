@@ -7,7 +7,7 @@ old-location: wcn\wcn_value_type_rf_bands.htm
 tech.root: wcn
 ms.assetid: cf744dc0-dcf7-4ad3-82f0-2ade186ba608
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WCN_VALUE_RB_24GHZ, WCN_VALUE_RB_50GHZ, WCN_VALUE_TYPE_RF_BANDS, WCN_VALUE_TYPE_RF_BANDS enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_RF_BANDS, wcn.wcn_value_type_rf_bands, wcntypes/WCN_VALUE_RB_24GHZ, wcntypes/WCN_VALUE_RB_50GHZ, wcntypes/WCN_VALUE_TYPE_RF_BANDS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1drawinfo_setvertexshaderconstantbuffer.htm
 tech.root: direct2d
 ms.assetid: 1A7991C9-BB3F-4E58-9FA7-5C4B194C33F6
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetVertexShaderConstantBuffer method, ID2D1DrawInfo.SetVertexShaderConstantBuffer, ID2D1DrawInfo::SetVertexShaderConstantBuffer, SetVertexShaderConstantBuffer, SetVertexShaderConstantBuffer method [Direct2D], SetVertexShaderConstantBuffer method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetVertexShaderConstantBuffer, direct2d.id2d1drawinfo_setvertexshaderconstantbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

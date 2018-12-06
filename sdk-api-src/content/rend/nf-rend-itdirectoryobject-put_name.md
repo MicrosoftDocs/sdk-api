@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_put_name.htm
 tech.root: tapi
 ms.assetid: 398ba207-bdd7-4090-ac8b-72badbb401e3
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],put_Name method, ITDirectoryObject.put_Name, ITDirectoryObject::put_Name, _tapi3_itdirectoryobject_put_name, put_Name, put_Name method [TAPI 2.2], put_Name method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::put_Name, tapi3.itdirectoryobject_put_name
 ms.prod: windows-hardware
 ms.technology: windows-devices

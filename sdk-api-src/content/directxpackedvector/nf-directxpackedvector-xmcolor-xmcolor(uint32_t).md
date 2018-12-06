@@ -1,17 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.XMCOLOR(uint32_t)
-title: XMCOLOR function
+title: XMCOLOR::XMCOLOR(uint32_t)
 author: windows-sdk-content
 description: Initializes a new instance of XMCOLOR from a uint32_t variable containing component data in a packed format.
 old-location: dxmath\xmcolor_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.#ctor(uint32_t)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR(uint32_t), dxmath.xmcolor_ctor_2
+ms.date: 12/5/2018
+ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR, XMCOLOR.XMCOLOR(uint32_t), XMCOLOR::XMCOLOR, XMCOLOR::XMCOLOR(uint32_t), dxmath.xmcolor_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMCOLOR
-: 
 ---
 
-# XMCOLOR function
+# XMCOLOR::XMCOLOR(uint32_t)
 
 
 ## -description

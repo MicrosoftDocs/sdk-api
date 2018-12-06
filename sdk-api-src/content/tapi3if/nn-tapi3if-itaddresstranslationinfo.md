@@ -7,7 +7,7 @@ old-location: tapi3\itaddresstranslationinfo.htm
 tech.root: tapi
 ms.assetid: b59454a0-315f-4160-b969-d930c13bb4de
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITAddressTranslationInfo, ITAddressTranslationInfo interface [TAPI 2.2], ITAddressTranslationInfo interface [TAPI 2.2],described, _tapi3_itaddresstranslationinfo, tapi3.itaddresstranslationinfo, tapi3if/ITAddressTranslationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

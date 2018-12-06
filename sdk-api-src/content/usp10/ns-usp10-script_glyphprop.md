@@ -1,14 +1,14 @@
 ---
 UID: NS:usp10.script_glyphprop
-title: script_glyphprop
+title: SCRIPT_GLYPHPROP
 author: windows-sdk-content
 description: Contains information about a glyph that is part of an output glyph array.
 old-location: intl\script_glyphprop.htm
 tech.root: Intl
 ms.assetid: 5d68c8b6-77dd-48f7-b05a-0c02c9271097
 ms.author: windowssdkdev
-ms.date: 11/23/2018
-ms.keywords: SCRIPT_GLYPHPROP, SCRIPT_GLYPHPROP structure [Internationalization for Windows Applications], _win32_SCRIPT_GLYPHPROP, intl.script_glyphprop, script_glyphprop, usp10/SCRIPT_GLYPHPROP
+ms.date: 12/5/2018
+ms.keywords: SCRIPT_GLYPHPROP, SCRIPT_GLYPHPROP structure [Internationalization for Windows Applications], _win32_SCRIPT_GLYPHPROP, intl.script_glyphprop, usp10/SCRIPT_GLYPHPROP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -44,7 +44,7 @@ req.typenames: SCRIPT_GLYPHPROP
 req.redist: Usp10.dll version 1.600 or greater onWindows XP
 ---
 
-# script_glyphprop structure
+# SCRIPT_GLYPHPROP structure
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider.htm
 tech.root: termserv
 ms.assetid: a8574750-d86e-4b0d-a534-d005596e2a33
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], ITsSbProvider interface [Remote Desktop Services],described, sbtsv/ITsSbProvider, termserv.itssbprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IObjMgr.htm
 tech.root: shell
 ms.assetid: c0556a87-2be5-43dc-9ca6-dfbdae7e7137
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IObjMgr, IObjMgr interface [Windows Shell], IObjMgr interface [Windows Shell],described, _win32_IObjMgr, shell.IObjMgr, shlobj_core/IObjMgr
 ms.prod: windows-hardware
 ms.technology: windows-devices

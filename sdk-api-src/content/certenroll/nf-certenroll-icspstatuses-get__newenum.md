@@ -7,7 +7,7 @@ old-location: security\icspstatuses__newenum_property.htm
 tech.root: seccertenroll
 ms.assetid: 2f5afa98-92ad-4f69-8de9-500575f288a6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ICspStatuses interface [Security],_NewEnum property, ICspStatuses._NewEnum, ICspStatuses.get__NewEnum, ICspStatuses::_NewEnum, ICspStatuses::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICspStatuses interface, certenroll/ICspStatuses::_NewEnum, certenroll/ICspStatuses::get__NewEnum, get__NewEnum, security.icspstatuses__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

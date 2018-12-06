@@ -7,7 +7,7 @@ old-location: wininet\internet_auth_notify_data.htm
 tech.root: wininet
 ms.assetid: d6f36cf7-7a54-4890-aa27-ffb40997cfd6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INTERNET_AUTH_NOTIFY_DATA, INTERNET_AUTH_NOTIFY_DATA structure [WinINet], _inet_internet_auth_notify_data_structure, wininet.internet_auth_notify_data, wininet/INTERNET_AUTH_NOTIFY_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\wsd_soap_fault_reason_struct.htm
 tech.root: wsdapi
 ms.assetid: c1b2ac44-8a86-4aac-a0d3-3b8d80a6b1d9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_SOAP_FAULT_REASON, WSD_SOAP_FAULT_REASON structure, _WSD_SOAP_FAULT_REASON, ncd.wsd_soap_fault_reason_struct, wsdtypes/WSD_SOAP_FAULT_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices

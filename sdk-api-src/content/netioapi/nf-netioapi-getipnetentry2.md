@@ -7,7 +7,7 @@ old-location: iphlp\getipnetentry2.htm
 tech.root: IpHlp
 ms.assetid: c77e01da-2d5a-4c74-b581-62fa6ee52c9e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetIpNetEntry2, GetIpNetEntry2 function [IP Helper], iphlp.getipnetentry2, netioapi/GetIpNetEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IQueryInfo_GetInfoTip.htm
 tech.root: shell
 ms.assetid: 9bbaaec4-87b8-4fcc-b5df-b516ef6081ba
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetInfoTip, GetInfoTip method [Windows Shell], GetInfoTip method [Windows Shell],IQueryInfo interface, IQueryInfo interface [Windows Shell],GetInfoTip method, IQueryInfo.GetInfoTip, IQueryInfo::GetInfoTip, QITIPF_DEFAULT, QITIPF_LINKNOTARGET, QITIPF_LINKUSETARGET, QITIPF_SINGLELINE, QITIPF_USENAME, QITIPF_USESLOWTIP, _win32_IQueryInfo_GetInfoTip, shell.IQueryInfo_GetInfoTip, shlobj_core/IQueryInfo::GetInfoTip
 ms.prod: windows-hardware
 ms.technology: windows-devices

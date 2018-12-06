@@ -7,7 +7,7 @@ old-location: fs\wofsetfiledatalocation.htm
 tech.root: fileio
 ms.assetid: E5BDD684-46AC-40C0-89FC-DFABBB6AB72C
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: WofSetFileDataLocation, WofSetFileDataLocation function [Files], fs.wofsetfiledatalocation, wofapi/WofSetFileDataLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

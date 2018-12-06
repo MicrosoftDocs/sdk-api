@@ -7,7 +7,7 @@ old-location: tapi3\itaddress_get_serviceprovidername.htm
 tech.root: tapi
 ms.assetid: fa49d256-58e0-4d7e-a121-387a3a704519
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_ServiceProviderName method, ITAddress.get_ServiceProviderName, ITAddress::get_ServiceProviderName, _tapi3_itaddress_get_serviceprovidername, get_ServiceProviderName, get_ServiceProviderName method [TAPI 2.2], get_ServiceProviderName method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_serviceprovidername, tapi3if/ITAddress::get_ServiceProviderName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextrenderer1_drawstrikethrough.htm
 tech.root: DirectWrite
 ms.assetid: 8800a536-9477-89c5-c48d-3f4bdf1ca1a5
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: DrawStrikethrough, DrawStrikethrough method [Direct Write], DrawStrikethrough method [Direct Write],IDWriteTextRenderer1 interface, IDWriteTextRenderer1 interface [Direct Write],DrawStrikethrough method, IDWriteTextRenderer1.DrawStrikethrough, IDWriteTextRenderer1::DrawStrikethrough, directwrite.idwritetextrenderer1_drawstrikethrough, dwrite_2/IDWriteTextRenderer1::DrawStrikethrough
 ms.prod: windows-hardware
 ms.technology: windows-devices

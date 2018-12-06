@@ -7,7 +7,7 @@ old-location: mmc\mmc_task_display_symbol.htm
 tech.root: mmc
 ms.assetid: a46f1b86-883e-4eca-a3f8-d18c6a4d64e5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: MMC_TASK_DISPLAY_SYMBOL, MMC_TASK_DISPLAY_SYMBOL structure [MMC], _MMC_TASK_DISPLAY_SYMBOL, _slate_mmc_task_display_symbol, mmc.mmc_task_display_symbol, mmc/MMC_TASK_DISPLAY_SYMBOL
 ms.prod: windows-hardware
 ms.technology: windows-devices

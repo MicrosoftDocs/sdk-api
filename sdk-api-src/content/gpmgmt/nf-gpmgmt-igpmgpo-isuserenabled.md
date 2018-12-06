@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_isuserenabled.htm
 tech.root: gpmc
 ms.assetid: a5ed21bd-19b7-4518-97fa-6ffcd4ea80b4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GPMGPO class [GPMC],IsUserEnabled method, IGPMGPO interface [GPMC],IsUserEnabled method, IGPMGPO.IsUserEnabled, IGPMGPO::IsUserEnabled, IsUserEnabled, IsUserEnabled method [GPMC], IsUserEnabled method [GPMC],GPMGPO class, IsUserEnabled method [GPMC],IGPMGPO interface, _win32_igpmgpo_isuserenabled, gpmc.igpmgpo_isuserenabled, gpmgmt/IGPMGPO::IsUserEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

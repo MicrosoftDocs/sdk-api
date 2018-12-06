@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoverynotification_onupdate_method.htm
 tech.root: fundisc
 ms.assetid: ab4d0fc6-de3f-49cf-b53c-573222a8bc89
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFunctionDiscoveryNotification interface,OnUpdate method, IFunctionDiscoveryNotification.OnUpdate, IFunctionDiscoveryNotification::OnUpdate, OnUpdate, OnUpdate method, OnUpdate method,IFunctionDiscoveryNotification interface, functiondiscoveryapi/IFunctionDiscoveryNotification::OnUpdate, ncd.ifunctiondiscoverynotification_onupdate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

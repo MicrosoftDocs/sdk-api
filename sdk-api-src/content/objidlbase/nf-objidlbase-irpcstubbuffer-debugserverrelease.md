@@ -7,7 +7,7 @@ old-location: com\irpcstubbuffer_debugserverrelease.htm
 tech.root: com
 ms.assetid: 511f6e55-fb1d-4500-80fd-83e3fe2779d1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DebugServerRelease, DebugServerRelease method [COM], DebugServerRelease method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerRelease method, IRpcStubBuffer.DebugServerRelease, IRpcStubBuffer::DebugServerRelease, _com_irpcstubbuffer_debugserverrelease, com.irpcstubbuffer_debugserverrelease, objidlbase/IRpcStubBuffer::DebugServerRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices

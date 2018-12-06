@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_search_info_v6.htm
 tech.root: DHCP
 ms.assetid: b290baab-9a70-437a-a519-876891184fbc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_SEARCH_INFO_V6, DHCP_SEARCH_INFO_V6, DHCP_SEARCH_INFO_V6 structure [DHCP], Dhcpv6ClientDUID, Dhcpv6ClientIpAddress, Dhcpv6ClientName, PDHCP_SEARCH_INFO_V6, PDHCP_SEARCH_INFO_V6 structure pointer [DHCP], _DHCP_CLIENT_SEARCH_INFO_V6, dhcp.dhcp_search_info_v6, dhcpsapi/DHCP_SEARCH_INFO_V6, dhcpsapi/PDHCP_SEARCH_INFO_V6"
 ms.prod: windows-hardware
 ms.technology: windows-devices

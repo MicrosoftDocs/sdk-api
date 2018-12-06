@@ -7,7 +7,7 @@ old-location: security\iscesvcattachmentdata.htm
 tech.root: secmgmt
 ms.assetid: 385acdb9-5642-47c1-b2ac-be388edaac12
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ISceSvcAttachmentData, ISceSvcAttachmentData interface [Security], ISceSvcAttachmentData interface [Security],described, _config_iscesvcattachmentdata, scesvc/ISceSvcAttachmentData, security.iscesvcattachmentdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

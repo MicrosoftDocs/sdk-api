@@ -7,7 +7,7 @@ old-location: shell\IHomeGroup_IsMember.htm
 tech.root: shell
 ms.assetid: 9ce98b11-46fd-4168-828d-a5ba8f71b7c9
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IHomeGroup interface [Windows Shell],IsMember method, IHomeGroup.IsMember, IHomeGroup::IsMember, IsMember, IsMember method [Windows Shell], IsMember method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_IsMember, shell.IHomeGroup_IsMember, shobjidl_core/IHomeGroup::IsMember
 ms.prod: windows-hardware
 ms.technology: windows-devices

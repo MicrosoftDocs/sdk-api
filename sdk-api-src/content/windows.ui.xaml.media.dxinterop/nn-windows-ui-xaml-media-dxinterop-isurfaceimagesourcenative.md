@@ -7,7 +7,7 @@ old-location: winrt\isurfaceimagesourcenative.htm
 tech.root: WinRT
 ms.assetid: 55122048-FA3B-494F-8BD3-97D2C36E4579
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ISurfaceImageSourceNative, ISurfaceImageSourceNative interface [Windows Runtime], ISurfaceImageSourceNative interface [Windows Runtime],described, windows/ISurfaceImageSourceNative, winrt.isurfaceimagesourcenative
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\ienumworkitems.htm
 tech.root: taskschd
 ms.assetid: 1af162e5-8ba1-4d2e-9451-39c80ac0eecf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumWorkItems, IEnumWorkItems interface [Task Scheduler], IEnumWorkItems interface [Task Scheduler],described, _msb_ienumworkitems, mstask/IEnumWorkItems, taskschd.ienumworkitems
 ms.prod: windows-hardware
 ms.technology: windows-devices

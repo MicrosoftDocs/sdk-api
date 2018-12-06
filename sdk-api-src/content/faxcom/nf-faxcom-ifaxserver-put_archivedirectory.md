@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_archivedirectory_c
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4fi1.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ArchiveDirectory property [Fax Service], ArchiveDirectory property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],ArchiveDirectory property, IFaxServer.ArchiveDirectory, IFaxServer.get_ArchiveDirectory, IFaxServer.put_ArchiveDirectory, IFaxServer::ArchiveDirectory, IFaxServer::get_ArchiveDirectory, IFaxServer::put_ArchiveDirectory, _mfax_ifaxserver_get_archivedirectory, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_archivedirectory_cpp, fax._mfax_ifaxserver_get_archivedirectory, faxcom/IFaxServer::ArchiveDirectory, faxcom/IFaxServer::get_ArchiveDirectory, faxcom/IFaxServer::put_ArchiveDirectory, put_ArchiveDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

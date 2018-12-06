@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_ondevicestatuschange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_ondevicestatuschange.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnDeviceStatusChange method, IFaxServerNotify2.OnDeviceStatusChange, IFaxServerNotify2::OnDeviceStatusChange, OnDeviceStatusChange, OnDeviceStatusChange method [Fax Service], OnDeviceStatusChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnDeviceStatusChange, _IFaxServerNotify2::OnDeviceStatusChange, _mfax_ifaxservernotify2_ondevicestatuschange, fax._mfax_ifaxservernotify2_ondevicestatuschange, faxcomex/IFaxServerNotify2::OnDeviceStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

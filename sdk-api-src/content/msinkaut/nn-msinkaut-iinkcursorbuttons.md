@@ -7,7 +7,7 @@ old-location: tablet\iinkcursorbuttons.htm
 tech.root: tablet
 ms.assetid: 3f695ab4-8174-402f-b7d6-810f149f5153
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 3f695ab4-8174-402f-b7d6-810f149f5153, IInkCursorButtons, IInkCursorButtons interface [Tablet PC], IInkCursorButtons interface [Tablet PC],described, msinkaut/IInkCursorButtons, tablet.iinkcursorbuttons
 ms.prod: windows-hardware
 ms.technology: windows-devices

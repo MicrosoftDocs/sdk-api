@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getmsapolicy.htm
 tech.root: xblidp
 ms.assetid: C2DFE2D9-EDDF-41BF-9E58-3D35054434DA
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetMsaPolicy, GetMsaPolicy method, GetMsaPolicy method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaPolicy method, IXblIdpAuthTokenResult.GetMsaPolicy, IXblIdpAuthTokenResult::GetMsaPolicy, xblidp.ixblidpauthtokenresult_getmsapolicy, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

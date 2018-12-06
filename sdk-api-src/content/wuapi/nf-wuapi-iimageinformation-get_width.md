@@ -7,7 +7,7 @@ old-location: wua\iimageinformation_width.htm
 tech.root: wua_sdk
 ms.assetid: 90379e21-f67b-4c59-b3bf-da6aeefe5b00
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IImageInformation interface [Windows Update Agent],Width property, IImageInformation.Width, IImageInformation.get_Width, IImageInformation::Width, IImageInformation::get_Width, Width property [Windows Update Agent], Width property [Windows Update Agent],IImageInformation interface, get_Width, wua.iimageinformation_width, wuapi/IImageInformation::Width, wuapi/IImageInformation::get_Width
 ms.prod: windows-hardware
 ms.technology: windows-devices

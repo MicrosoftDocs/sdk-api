@@ -7,7 +7,7 @@ old-location: wcs\igamutmapmodelplugin.htm
 tech.root: WCS
 ms.assetid: 794eb94c-fdb3-42b3-8320-b13bf51324d1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IGamutMapModelPlugIn, IGamutMapModelPlugIn interface [Windows Color System], IGamutMapModelPlugIn interface [Windows Color System],described, _color_IGamutMapModelPlugIn, wcs.igamutmapmodelplugin, wcsplugin/IGamutMapModelPlugIn
 ms.prod: windows-hardware
 ms.technology: windows-devices

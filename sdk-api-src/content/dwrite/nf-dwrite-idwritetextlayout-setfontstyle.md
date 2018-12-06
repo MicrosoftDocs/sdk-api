@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_SetFontStyle.htm
 tech.root: DirectWrite
 ms.assetid: 688a6c30-5eca-44aa-bcb0-02a3f29647b8
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontStyle method, IDWriteTextLayout.SetFontStyle, IDWriteTextLayout::SetFontStyle, SetFontStyle, SetFontStyle method [Direct Write], SetFontStyle method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontStyle, dwrite/IDWriteTextLayout::SetFontStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

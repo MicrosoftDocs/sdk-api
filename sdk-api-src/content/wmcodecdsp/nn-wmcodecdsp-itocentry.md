@@ -7,7 +7,7 @@ old-location: mf\itocentry.htm
 tech.root: medfound
 ms.assetid: 82a1a390-50b1-4699-9baa-60cea322ce7c
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITocEntry, ITocEntry interface [Media Foundation], ITocEntry interface [Media Foundation],described, codecapi.itocentry, mf.itocentry, wmcodecdsp/ITocEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

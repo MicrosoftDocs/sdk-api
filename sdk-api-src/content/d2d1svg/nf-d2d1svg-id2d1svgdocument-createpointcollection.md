@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgdocument_createpointcollection.htm
 tech.root: direct2d
 ms.assetid: A7AB02F2-32B0-4FF5-8A3A-CE7A6AD9DB57
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreatePointCollection, CreatePointCollection method [Direct2D], CreatePointCollection method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],CreatePointCollection method, ID2D1SvgDocument.CreatePointCollection, ID2D1SvgDocument::CreatePointCollection, d2d1svg/ID2D1SvgDocument::CreatePointCollection, direct2d.id2d1svgdocument_createpointcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

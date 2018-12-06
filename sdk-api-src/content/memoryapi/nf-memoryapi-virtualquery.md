@@ -7,7 +7,7 @@ old-location: base\virtualquery.htm
 tech.root: memory
 ms.assetid: 3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: VirtualQuery, VirtualQuery function, _win32_virtualquery, base.virtualquery, winbase/VirtualQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices

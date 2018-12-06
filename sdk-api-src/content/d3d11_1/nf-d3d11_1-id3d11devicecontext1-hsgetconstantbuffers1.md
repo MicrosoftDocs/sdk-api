@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext1_hsgetconstantbuffers1.htm
 tech.root: direct3d11
 ms.assetid: 600F04B5-2173-4CB0-9978-7A0327BE1FE0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HSGetConstantBuffers1, HSGetConstantBuffers1 method [Direct3D 11], HSGetConstantBuffers1 method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],HSGetConstantBuffers1 method, ID3D11DeviceContext1.HSGetConstantBuffers1, ID3D11DeviceContext1::HSGetConstantBuffers1, d3d11_1/ID3D11DeviceContext1::HSGetConstantBuffers1, direct3d11.id3d11devicecontext1_hsgetconstantbuffers1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11_1.h
-: 
-- ID3D11DeviceContext1.HSGetConstantBuffers1
-: 
 ---
 
 # ID3D11DeviceContext1::HSGetConstantBuffers1
@@ -59,7 +51,7 @@ req.redist:
 ## -description
 
 
-Gets the constant buffers that the <a href="https://msdn.microsoft.com/en-us/library/Ff476340(v=VS.85).aspx">hull-shader stage</a> uses.
+Gets the constant buffers that the <a href="https://msdn.microsoft.com/4ad2fd3e-6e1a-4326-8469-3198acf931dc">hull-shader stage</a> uses.
 
 
 ## -parameters
@@ -115,7 +107,7 @@ If no buffer is bound at a slot, <i>pFirstConstant</i> and <i>pNumConstants</i> 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>
+<a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>
  
 
  

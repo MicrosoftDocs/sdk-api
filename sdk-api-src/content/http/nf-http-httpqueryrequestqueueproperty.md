@@ -7,7 +7,7 @@ old-location: http\httpqueryrequestqueueproperty.htm
 tech.root: http
 ms.assetid: a3b1e85e-f152-4038-a56a-3d5985757c45
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: HttpQueryRequestQueueProperty, HttpQueryRequestQueueProperty function [HTTP], HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, http.httpqueryrequestqueueproperty, http/HttpQueryRequestQueueProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: adsi\freeadsstr.htm
 tech.root: adsi
 ms.assetid: 9c8eaac2-1fb4-47f9-8f60-6896073012aa
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FreeADsStr, FreeADsStr function [ADSI], _ds_freeadsstr, adshlp/FreeADsStr, adsi.freeadsstr
 ms.prod: windows-hardware
 ms.technology: windows-devices

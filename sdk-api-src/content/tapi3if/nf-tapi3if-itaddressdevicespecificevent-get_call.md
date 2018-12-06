@@ -7,7 +7,7 @@ old-location: tapi3\itaddressdevicespecificevent_get_call.htm
 tech.root: tapi
 ms.assetid: dcf3b82d-5c1f-41f7-bb6a-6470a96f4049
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_Call method, ITAddressDeviceSpecificEvent.get_Call, ITAddressDeviceSpecificEvent::get_Call, _tapi3_itaddressdevicespecificevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_call, tapi3if/ITAddressDeviceSpecificEvent::get_Call
 ms.prod: windows-hardware
 ms.technology: windows-devices

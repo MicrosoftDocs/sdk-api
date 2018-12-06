@@ -7,7 +7,7 @@ old-location: dxmath\boundingbox.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.BoundingBox
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: BoundingBox, BoundingBox structure [DirectX Math Support APIs], directxcollision/BoundingBox, dxmath.boundingbox
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,49 +73,54 @@ The center of the BoundingBox.
 The extents of the BoundingBox.
 
 
-#### - BoundingBox
+### -field operator=
+
+TBD 
+
+
+### -field BoundingBox
 
 Creates an instance of the <code>BoundingBox</code> class.
 
 
-#### - ContainedBy
+### -field Transform
 
-Tests whether the <b>BoundingBox</b> is contained by the specified frustum.
-
-
-#### - Contains
-
-Tests whether the BoundingBox contains a specified object.
+Transforms the BoundingBox.
 
 
-#### - CreateFromPoints
-
-Creates a BoundingBox from points.
-
-
-#### - CreateFromSphere
-
-Creates a BoundingBox large enough to contain the a specified BoundingSphere.
-
-
-#### - CreateMerged
-
-Creates a BoundingBox large enough to contains two specified BoundBox intances.
-
-
-#### - GetCorners
+### -field GetCorners
 
 Retrieves the corners of the BoundingBox.
 
 
-#### - Intersects
+### -field Contains
+
+Tests whether the BoundingBox contains a specified object.
+
+
+### -field Intersects
 
 Tests the BoundingBox for intersection with another object.
 
 
-#### - Transform
+### -field ContainedBy
 
-Transforms the BoundingBox.
+Tests whether the <b>BoundingBox</b> is contained by the specified frustum.
+
+
+### -field CreateMerged
+
+Creates a BoundingBox large enough to contains two specified BoundBox intances.
+
+
+### -field CreateFromSphere
+
+Creates a BoundingBox large enough to contain the a specified BoundingSphere.
+
+
+### -field CreateFromPoints
+
+Creates a BoundingBox from points.
 
 
 #### - op_Assignment

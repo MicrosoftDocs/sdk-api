@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaLog.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialog\iwialog.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWiaLog, IWiaLog interface [WIA], IWiaLog interface [WIA],described, _wia_IWiaLog, wia._wia_IWiaLog, wia_xp/IWiaLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

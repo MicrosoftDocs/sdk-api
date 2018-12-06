@@ -7,7 +7,7 @@ old-location: base\ivdshwproviderprivate_queryifcreatedlun.htm
 tech.root: vds
 ms.assetid: 06ba3486-9381-4898-b639-3d94b83be857
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsHwProviderPrivate interface [VDS],QueryIfCreatedLun method, IVdsHwProviderPrivate.QueryIfCreatedLun, IVdsHwProviderPrivate::QueryIfCreatedLun, QueryIfCreatedLun, QueryIfCreatedLun method [VDS], QueryIfCreatedLun method [VDS],IVdsHwProviderPrivate interface, base.ivdshwproviderprivate_queryifcreatedlun, vdshwprv/IVdsHwProviderPrivate::QueryIfCreatedLun
 ms.prod: windows-hardware
 ms.technology: windows-devices

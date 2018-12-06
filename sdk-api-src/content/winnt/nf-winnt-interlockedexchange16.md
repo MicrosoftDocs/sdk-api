@@ -7,7 +7,7 @@ old-location: base\interlockedexchange16.htm
 tech.root: sync
 ms.assetid: 06756ec6-9c1c-4aac-99de-c45186c89af1
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedExchange16, InterlockedExchange16 function, base.interlockedexchange16, winnt/InterlockedExchange16
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetfilterv4.htm
 tech.root: DHCP
 ms.assetid: 4a67ad11-1f24-4ab6-b5f7-e51c97562037
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpSetFilterV4, DhcpSetFilterV4 function [DHCP], dhcp.dhcpsetfilterv4, dhcpsapi/DhcpSetFilterV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

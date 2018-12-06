@@ -7,7 +7,7 @@ old-location: controls\itextrow.htm
 tech.root: controls
 ms.assetid: 49f5ffc1-d615-4d07-9f41-1c5f0dd9045b
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], ITextRow interface [Windows Controls],described, controls.itextrow, tom/ITextRow
 ms.prod: windows-hardware
 ms.technology: windows-devices

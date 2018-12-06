@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpaddress_setmessagetype.htm
 tech.root: wsdapi
 ms.assetid: 1b041094-fb00-4b73-8753-cf89f9b10f97
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDUdpAddress interface,SetMessageType method, IWSDUdpAddress.SetMessageType, IWSDUdpAddress::SetMessageType, SetMessageType, SetMessageType method, SetMessageType method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setmessagetype, wsdbase/IWSDUdpAddress::SetMessageType
 ms.prod: windows-hardware
 ms.technology: windows-devices

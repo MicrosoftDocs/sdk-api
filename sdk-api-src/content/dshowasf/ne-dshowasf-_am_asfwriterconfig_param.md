@@ -7,7 +7,7 @@ old-location: wmformat\_am_asfwriterconfig_param_enumeration.htm
 tech.root: wmformat
 ms.assetid: 773f9b98-8b88-4b2d-b1f0-40bb1e0c0ab0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AM_CONFIGASFWRITER_PARAM_AUTOINDEX, AM_CONFIGASFWRITER_PARAM_DONTCOMPRESS, AM_CONFIGASFWRITER_PARAM_MULTIPASS, _AM_ASFWRITERCONFIG_PARAM, _AM_ASFWRITERCONFIG_PARAM enumeration [windows Media Format], dshowasf/AM_CONFIGASFWRITER_PARAM_AUTOINDEX, dshowasf/AM_CONFIGASFWRITER_PARAM_DONTCOMPRESS, dshowasf/AM_CONFIGASFWRITER_PARAM_MULTIPASS, dshowasf/_AM_ASFWRITERCONFIG_PARAM, wmformat._am_asfwriterconfig_param_enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices

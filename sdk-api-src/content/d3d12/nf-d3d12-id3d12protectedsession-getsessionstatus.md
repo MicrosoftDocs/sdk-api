@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12protectedsession_getsessionstatus.htm
 tech.root: direct3d12
 ms.assetid: 9069D567-80BB-469D-A079-917D619F4F46
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetSessionStatus, GetSessionStatus method, GetSessionStatus method,ID3D12ProtectedSession interface, ID3D12ProtectedSession interface,GetSessionStatus method, ID3D12ProtectedSession.GetSessionStatus, ID3D12ProtectedSession::GetSessionStatus, d3d12/ID3D12ProtectedSession::GetSessionStatus, direct3d12.id3d12protectedsession_getsessionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

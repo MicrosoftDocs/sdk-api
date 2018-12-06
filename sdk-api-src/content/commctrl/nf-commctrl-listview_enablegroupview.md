@@ -7,7 +7,7 @@ old-location: controls\ListView_EnableGroupView.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_enablegroupview.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ListView_EnableGroupView, ListView_EnableGroupView macro [Windows Controls], _win32_ListView_EnableGroupView, _win32_ListView_EnableGroupView_cpp, commctrl/ListView_EnableGroupView, controls.ListView_EnableGroupView, controls._win32_ListView_EnableGroupView
 ms.prod: windows-hardware
 ms.technology: windows-devices

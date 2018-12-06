@@ -7,7 +7,7 @@ old-location: tablet\scrolldirection.htm
 tech.root: tablet
 ms.assetid: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9, SCROLLDIRECTION, SCROLLDIRECTION enumeration [Tablet PC], SCROLLDIRECTION_DOWN, SCROLLDIRECTION_UP, tabflicks/SCROLLDIRECTION, tabflicks/SCROLLDIRECTION_DOWN, tabflicks/SCROLLDIRECTION_UP, tablet.scrolldirection
 ms.prod: windows-hardware
 ms.technology: windows-devices

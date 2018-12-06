@@ -7,7 +7,7 @@ old-location: base\ivdsiscsitarget_queryportalgroups.htm
 tech.root: vds
 ms.assetid: bcddd435-a422-4ba3-8978-24388346ab27
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],QueryPortalGroups method, IVdsIscsiTarget.QueryPortalGroups, IVdsIscsiTarget::QueryPortalGroups, QueryPortalGroups, QueryPortalGroups method [VDS], QueryPortalGroups method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_queryportalgroups, vds/IVdsIscsiTarget::QueryPortalGroups, vdshwprv/IVdsIscsiTarget::QueryPortalGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

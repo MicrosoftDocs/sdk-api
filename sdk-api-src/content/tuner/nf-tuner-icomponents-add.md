@@ -7,7 +7,7 @@ old-location: mstv\icomponents_add.htm
 tech.root: mstv
 ms.assetid: ec5d9d6c-4957-46f2-9798-6e30c934459e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],Add method, IComponents.Add, IComponents::Add, IComponentsAdd, mstv.icomponents_add, tuner/IComponents::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

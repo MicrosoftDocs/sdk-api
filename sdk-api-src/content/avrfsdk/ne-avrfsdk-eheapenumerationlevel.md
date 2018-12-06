@@ -7,7 +7,7 @@ old-location: winprog\eheapenumerationlevel.htm
 tech.root: devnotes
 ms.assetid: f8260ae8-eb1e-45f4-babc-905f4af7e3b1
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: HeapEnumerationEverything, HeapEnumerationStop, avrfsdk/HeapEnumerationEverything, avrfsdk/HeapEnumerationStop, avrfsdk/eHeapEnumerationLevel, base.eheapenumerationlevel, eHeapEnumerationLevel, eHeapEnumerationLevel enumeration [Windows API], winprog.eheapenumerationlevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

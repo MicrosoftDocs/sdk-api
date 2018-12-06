@@ -7,7 +7,7 @@ old-location: mmc\isnapinhelp_gethelptopic.htm
 tech.root: mmc
 ms.assetid: 2F7E987F-1E1E-4C9E-9B26-D7BB8F5A05DD
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetHelpTopic, GetHelpTopic method [MMC], GetHelpTopic method [MMC],ISnapinHelp interface, ISnapinHelp interface [MMC],GetHelpTopic method, ISnapinHelp.GetHelpTopic, ISnapinHelp::GetHelpTopic, mmc.isnapinhelp_gethelptopic, mmc/ISnapinHelp::GetHelpTopic
 ms.prod: windows-hardware
 ms.technology: windows-devices

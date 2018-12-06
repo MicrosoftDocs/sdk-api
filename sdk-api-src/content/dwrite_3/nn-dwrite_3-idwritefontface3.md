@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface3.htm
 tech.root: DirectWrite
 ms.assetid: 1081A005-E4A8-4EE0-AFE0-10BD8D8471DF
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IDWriteFontFace3, IDWriteFontFace3 interface [Direct Write], IDWriteFontFace3 interface [Direct Write],described, directwrite.idwritefontface3, dwrite_3/IDWriteFontFace3
 ms.prod: windows-hardware
 ms.technology: windows-devices

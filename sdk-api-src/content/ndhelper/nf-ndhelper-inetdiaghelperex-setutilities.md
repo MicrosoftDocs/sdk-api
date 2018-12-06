@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelperex_setutilities.htm
 tech.root: NDF
 ms.assetid: cdc3cdd5-c301-4052-81ec-a4a68248d3a4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: INetDiagHelperEx interface [NDF],SetUtilities method, INetDiagHelperEx.SetUtilities, INetDiagHelperEx::SetUtilities, SetUtilities, SetUtilities method [NDF], SetUtilities method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_setutilities, ndhelper/INetDiagHelperEx::SetUtilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mib\mib_udprow_owner_pid.htm
 tech.root: MIB
 ms.assetid: b914b6eb-adf9-4a61-ae8f-05d3ff90ce90
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMIB_UDPROW_OWNER_PID, MIB_UDPROW_OWNER_PID, MIB_UDPROW_OWNER_PID structure [MIB], PMIB_UDPROW_OWNER_PID, PMIB_UDPROW_OWNER_PID structure pointer [MIB], _MIB_UDPROW_OWNER_PID, iprtrmib/MIB_UDPROW_OWNER_PID, iprtrmib/PMIB_UDPROW_OWNER_PID, mib.mib_udprow_owner_pid, udpmib/MIB_UDPROW_OWNER_PID, udpmib/PMIB_UDPROW_OWNER_PID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

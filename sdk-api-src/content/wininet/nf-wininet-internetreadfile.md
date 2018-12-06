@@ -7,7 +7,7 @@ old-location: wininet\internetreadfile.htm
 tech.root: wininet
 ms.assetid: 1ec0fe70-4749-4251-9c58-44efdab74688
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: InternetReadFile, InternetReadFile function [WinINet], _inet_internetreadfile_function, wininet.internetreadfile, wininet/InternetReadFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

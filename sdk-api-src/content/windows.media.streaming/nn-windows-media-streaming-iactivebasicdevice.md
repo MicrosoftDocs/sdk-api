@@ -7,7 +7,7 @@ old-location: mediastreaming\iactivebasicdevice.htm
 tech.root: mediastreaming
 ms.assetid: 97544BF4-188F-4CE3-9436-EB7F3E706E94
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IActiveBasicDevice, IActiveBasicDevice interface [Media Streaming API], IActiveBasicDevice interface [Media Streaming API],described, mediastreaming.iactivebasicdevice, windows/IActiveBasicDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -222,14 +222,16 @@ Gets the cached sink protocol info for the device.
 An <b>IActiveBasicDevice</b> is associated with a UPnP device.  To retrieve  a pointer to the underlying <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a>, 	<b>IServiceProvider-&gt;QueryService</b> can be used with <b>GUID_NativeDeviceService</b> to get native interfaces for the device.
 
 
- For example, you can retrieve a <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a> pointer as follows: 
-
-
-```cpp
-pActiveBasicDevice->QueryService( GUID_NativeDeviceService, IID_IUPnPDevice, (void **)&spUPnPDevice );
-```
-
-
+ For example, you can retrieve a <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a> pointer as follows: <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>pActiveBasicDevice-&gt;QueryService( GUID_NativeDeviceService, IID_IUPnPDevice, (void **)&amp;spUPnPDevice );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

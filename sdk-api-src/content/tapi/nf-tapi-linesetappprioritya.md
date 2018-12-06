@@ -7,7 +7,7 @@ old-location: tapi2\linesetapppriority.htm
 tech.root: tapi
 ms.assetid: f173c472-56bc-4773-a77a-1aa05ba8766f
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_linesetapppriority, lineSetAppPriority, lineSetAppPriority function [TAPI 2.2], lineSetAppPriorityA, lineSetAppPriorityW, tapi/lineSetAppPriority, tapi/lineSetAppPriorityA, tapi/lineSetAppPriorityW, tapi2.linesetapppriority"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsock\rio_buf.htm
 tech.root: winsock
 ms.assetid: DD55194E-EE66-4FD4-87BC-E855922CEEA1
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PRIO_BUF, PRIO_BUF, PRIO_BUF structure pointer [Winsock], RIO_BUF, RIO_BUF structure [Winsock], _RIO_BUF, mswsockdef/PRIO_BUF, mswsockdef/RIO_BUF, winsock.rio_buf"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_getwindowcontext.htm
 tech.root: com
 ms.assetid: f6cf62b3-5a64-49aa-b0bd-56744ecee313
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetWindowContext, GetWindowContext method [COM], GetWindowContext method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],GetWindowContext method, IOleInPlaceSite.GetWindowContext, IOleInPlaceSite::GetWindowContext, _ole_ioleinplacesite_getwindowcontext, com.ioleinplacesite_getwindowcontext, oleidl/IOleInPlaceSite::GetWindowContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

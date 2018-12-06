@@ -7,7 +7,7 @@ old-location: com\coinitializeex.htm
 tech.root: com
 ms.assetid: ffb79c0f-aeda-4ea1-aea8-afb79109837f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CoInitializeEx, CoInitializeEx function [COM], _com_CoInitializeEx, com.coinitializeex, combaseapi/CoInitializeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

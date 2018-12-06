@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecordnewversion.htm
 tech.root: mstv
 ms.assetid: 0a121a8b-10fd-4f78-922a-6be704c2cab4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordNewVersion, GetRecordNewVersion method [Microsoft TV Technologies], GetRecordNewVersion method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordNewVersion method, IISDB_SDTT.GetRecordNewVersion, IISDB_SDTT::GetRecordNewVersion, dvbsiparser/IISDB_SDTT::GetRecordNewVersion, mstv.iisdb_sdtt_getrecordnewversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

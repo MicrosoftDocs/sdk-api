@@ -7,7 +7,7 @@ old-location: xps\xps_tile_mode.htm
 tech.root: printdocs
 ms.assetid: 59434771-6402-4b0f-b8b6-58a4dda0f836
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: XPS_TILE_MODE, XPS_TILE_MODE enumeration [XPS Documents and Packaging], XPS_TILE_MODE_FLIPX, XPS_TILE_MODE_FLIPXY, XPS_TILE_MODE_FLIPY, XPS_TILE_MODE_NONE, XPS_TILE_MODE_TILE, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0001, xps.xps_tile_mode, xpsobjectmodel/XPS_TILE_MODE, xpsobjectmodel/XPS_TILE_MODE_FLIPX, xpsobjectmodel/XPS_TILE_MODE_FLIPXY, xpsobjectmodel/XPS_TILE_MODE_FLIPY, xpsobjectmodel/XPS_TILE_MODE_NONE, xpsobjectmodel/XPS_TILE_MODE_TILE
 ms.prod: windows-hardware
 ms.technology: windows-devices

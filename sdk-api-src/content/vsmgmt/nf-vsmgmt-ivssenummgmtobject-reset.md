@@ -7,7 +7,7 @@ old-location: base\ivssenummgmtobject_reset.htm
 tech.root: vss
 ms.assetid: 57f984da-6c20-405b-883b-6e54e4ac9546
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Reset method, IVssEnumMgmtObject.Reset, IVssEnumMgmtObject::Reset, Reset, Reset method [VSS], Reset method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_reset, vsmgmt/IVssEnumMgmtObject::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

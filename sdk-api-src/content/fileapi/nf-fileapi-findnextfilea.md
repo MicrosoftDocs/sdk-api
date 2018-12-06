@@ -7,7 +7,7 @@ old-location: fs\findnextfile.htm
 tech.root: fileio
 ms.assetid: db7acb83-2da6-40bf-9962-5cfe54e257a5
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: FindNextFile, FindNextFile function [Files], FindNextFileA, FindNextFileW, _win32_findnextfile, base.findnextfile, fileapi/FindNextFile, fileapi/FindNextFileA, fileapi/FindNextFileW, fs.findnextfile, winbase/FindNextFile, winbase/FindNextFileA, winbase/FindNextFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

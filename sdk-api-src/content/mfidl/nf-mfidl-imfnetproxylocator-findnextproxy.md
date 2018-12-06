@@ -7,7 +7,7 @@ old-location: mf\imfnetproxylocator_findnextproxy.htm
 tech.root: medfound
 ms.assetid: 91a6046f-f5c3-4239-af71-d25e9d5b5838
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: 91a6046f-f5c3-4239-af71-d25e9d5b5838, FindNextProxy, FindNextProxy method [Media Foundation], FindNextProxy method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],FindNextProxy method, IMFNetProxyLocator.FindNextProxy, IMFNetProxyLocator::FindNextProxy, mf.imfnetproxylocator_findnextproxy, mfidl/IMFNetProxyLocator::FindNextProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

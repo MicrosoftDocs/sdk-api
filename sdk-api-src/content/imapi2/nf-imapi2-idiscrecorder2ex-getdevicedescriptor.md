@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_getdevicedescriptor.htm
 tech.root: imapi
 ms.assetid: c0c22ce6-daf4-4218-afce-c773d607638b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetDeviceDescriptor, GetDeviceDescriptor method [IMAPI], GetDeviceDescriptor method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetDeviceDescriptor method, IDiscRecorder2Ex.GetDeviceDescriptor, IDiscRecorder2Ex::GetDeviceDescriptor, imapi.idiscrecorder2ex_getdevicedescriptor, imapi2/IDiscRecorder2Ex::GetDeviceDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

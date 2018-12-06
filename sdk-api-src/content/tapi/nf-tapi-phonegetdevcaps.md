@@ -7,7 +7,7 @@ old-location: tapi2\phonegetdevcaps.htm
 tech.root: tapi
 ms.assetid: 7bfef6d7-d5fd-4887-afb8-b1d850df050d
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonegetdevcaps, phoneGetDevCaps, phoneGetDevCaps function [TAPI 2.2], phoneGetDevCapsA, phoneGetDevCapsW, tapi/phoneGetDevCaps, tapi/phoneGetDevCapsA, tapi/phoneGetDevCapsW, tapi2.phonegetdevcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

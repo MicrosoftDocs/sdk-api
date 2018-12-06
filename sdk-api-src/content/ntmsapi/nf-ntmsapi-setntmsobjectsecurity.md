@@ -7,7 +7,7 @@ old-location: fs\setntmsobjectsecurity.htm
 tech.root: Rsm
 ms.assetid: ea6be316-6188-46a2-b12a-fe8426bc5fac
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SetNtmsObjectSecurity, SetNtmsObjectSecurity function [Files], _zaw_setntmsobjectsecurity, base.setntmsobjectsecurity, fs.setntmsobjectsecurity, ntmsapi/SetNtmsObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

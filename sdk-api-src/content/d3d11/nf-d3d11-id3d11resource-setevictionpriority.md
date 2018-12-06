@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11resource_setevictionpriority.htm
 tech.root: direct3d11
 ms.assetid: 8c68fbb8-dd8a-4d60-b081-082720e7bda5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 55340049-7283-9bea-b4ac-8b0b9cb71119, ID3D11Resource interface [Direct3D 11],SetEvictionPriority method, ID3D11Resource.SetEvictionPriority, ID3D11Resource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [Direct3D 11], SetEvictionPriority method [Direct3D 11],ID3D11Resource interface, d3d11/ID3D11Resource::SetEvictionPriority, direct3d11.id3d11resource_setevictionpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11Resource.SetEvictionPriority
-: 
 ---
 
 # ID3D11Resource::SetEvictionPriority
@@ -69,7 +61,7 @@ Set the eviction priority of a resource.
 
 ### -param EvictionPriority [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Eviction priority for the resource, which is one of the following values:
 
@@ -108,7 +100,7 @@ Changing the priorities of resources should be done carefully. The wrong evictio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>
+<a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: controls\ListView_SetBkColor.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ListView_SetBkColor, ListView_SetBkColor macro [Windows Controls], _win32_ListView_SetBkColor, _win32_ListView_SetBkColor_cpp, commctrl/ListView_SetBkColor, controls.ListView_SetBkColor, controls._win32_ListView_SetBkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

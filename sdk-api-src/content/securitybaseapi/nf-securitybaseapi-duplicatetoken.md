@@ -7,7 +7,7 @@ old-location: security\duplicatetoken.htm
 tech.root: secauthz
 ms.assetid: 796ec60e-fcae-48a9-b471-de3dce831306
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: DuplicateToken, DuplicateToken function [Security], _win32_duplicatetoken, security.duplicatetoken, securitybaseapi/DuplicateToken
 ms.prod: windows-hardware
 ms.technology: windows-devices

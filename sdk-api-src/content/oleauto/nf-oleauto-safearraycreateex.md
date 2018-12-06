@@ -7,7 +7,7 @@ old-location: automat\safearraycreateex.htm
 tech.root: automat
 ms.assetid: 63117428-6676-4fb5-a0ae-7e3b22546d77
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SafeArrayCreateEx, SafeArrayCreateEx function [Automation], _oa96_SafeArrayCreateEx, automat.safearraycreateex, oleauto/SafeArrayCreateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

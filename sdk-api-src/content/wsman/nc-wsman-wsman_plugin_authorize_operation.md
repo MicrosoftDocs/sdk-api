@@ -7,7 +7,7 @@ old-location: winrm\wsman_plugin_authorize_operation.htm
 tech.root: winrm
 ms.assetid: 28fbd8db-557d-487b-8cf7-c550fe0826f7
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: Command, Create, Delete, Enumerate, Get, Invoke, Put, Shell, Subscribe, WSMAN_PLUGIN_AUTHORIZE_OPERATION, WSMAN_PLUGIN_AUTHORIZE_OPERATION callback, WSMAN_PLUGIN_AUTHORIZE_OPERATION callback function [Windows Management Instrumentation], winrm.wsman_plugin_authorize_operation, wsman/WSMAN_PLUGIN_AUTHORIZE_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

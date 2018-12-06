@@ -7,7 +7,7 @@ old-location: mmc\iconsole_settoolbar.htm
 tech.root: mmc
 ms.assetid: 242F3143-A6C1-49A1-A51B-735EE5D5D353
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IConsole interface [MMC],SetToolbar method, IConsole.SetToolbar, IConsole::SetToolbar, SetToolbar, SetToolbar method [MMC], SetToolbar method [MMC],IConsole interface, mmc.iconsole_settoolbar, mmc/IConsole::SetToolbar
 ms.prod: windows-hardware
 ms.technology: windows-devices

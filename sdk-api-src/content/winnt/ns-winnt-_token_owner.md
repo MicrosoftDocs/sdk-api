@@ -7,7 +7,7 @@ old-location: security\token_owner.htm
 tech.root: secauthz
 ms.assetid: 85617d56-ad46-40a3-a335-121f3c8edcc3
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTOKEN_OWNER, PTOKEN_OWNER, PTOKEN_OWNER structure pointer [Security], TOKEN_OWNER, TOKEN_OWNER structure [Security], _TOKEN_OWNER, _win32_token_owner_str, security.token_owner, winnt/PTOKEN_OWNER, winnt/TOKEN_OWNER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

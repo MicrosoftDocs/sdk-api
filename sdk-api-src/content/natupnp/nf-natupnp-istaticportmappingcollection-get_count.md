@@ -7,7 +7,7 @@ old-location: ics\istaticportmappingcollection_get_count.htm
 tech.root: ics
 ms.assetid: 8ececd98-a700-4d64-8f89-a1ec36597edf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get_Count method, IStaticPortMappingCollection.get_Count, IStaticPortMappingCollection::get_Count, _ics_istaticportmappingcollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get_count, natupnp/IStaticPortMappingCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

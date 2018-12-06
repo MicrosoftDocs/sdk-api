@@ -7,7 +7,7 @@ old-location: tapi2\linemonitortones.htm
 tech.root: tapi
 ms.assetid: 47fe21f2-7896-4ccf-8c26-33430b2081ac
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_linemonitortones, lineMonitorTones, lineMonitorTones function [TAPI 2.2], tapi/lineMonitorTones, tapi2.linemonitortones"
 ms.prod: windows-hardware
 ms.technology: windows-devices

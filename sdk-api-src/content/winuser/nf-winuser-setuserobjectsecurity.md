@@ -7,7 +7,7 @@ old-location: security\setuserobjectsecurity.htm
 tech.root: secauthz
 ms.assetid: 219e41b8-9ac7-4747-a585-b6b9df6a1c9c
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetUserObjectSecurity, SetUserObjectSecurity function [Security], _win32_setuserobjectsecurity, security.setuserobjectsecurity, winuser/SetUserObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

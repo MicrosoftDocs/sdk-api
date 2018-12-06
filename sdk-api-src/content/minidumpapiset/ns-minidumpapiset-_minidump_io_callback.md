@@ -7,7 +7,7 @@ old-location: base\minidump_io_callback.htm
 tech.root: debug
 ms.assetid: db38f035-1fb8-4715-846f-59392aac2d4e
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMINIDUMP_IO_CALLBACK, MINIDUMP_IO_CALLBACK, MINIDUMP_IO_CALLBACK structure, PMINIDUMP_IO_CALLBACK, PMINIDUMP_IO_CALLBACK structure pointer, _MINIDUMP_IO_CALLBACK, base.minidump_io_callback, minidumpapiset/MINIDUMP_IO_CALLBACK, minidumpapiset/PMINIDUMP_IO_CALLBACK"
 ms.prod: windows-hardware
 ms.technology: windows-devices

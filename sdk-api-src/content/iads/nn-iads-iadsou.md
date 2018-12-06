@@ -7,7 +7,7 @@ old-location: adsi\iadsou.htm
 tech.root: adsi
 ms.assetid: 3ac61a48-faa3-4457-8842-7e57175e35e5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IADsOU, IADsOU interface [ADSI], IADsOU interface [ADSI],described, _ds_iadsou, adsi.iadsou, iads/IADsOU
 ms.prod: windows-hardware
 ms.technology: windows-devices

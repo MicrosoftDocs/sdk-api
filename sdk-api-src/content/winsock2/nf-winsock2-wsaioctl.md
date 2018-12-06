@@ -7,7 +7,7 @@ old-location: winsock\wsaioctl_2.htm
 tech.root: winsock
 ms.assetid: 038aeca6-d7b7-4f74-ac69-4536c2e5118b
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: WSAIoctl, WSAIoctl function [Winsock], _win32_wsaioctl_2, mstcpip/WSAIoctl, winsock.wsaioctl_2, winsock2/WSAIoctl
 ms.prod: windows-hardware
 ms.technology: windows-devices

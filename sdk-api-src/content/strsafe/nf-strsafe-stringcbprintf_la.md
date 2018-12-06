@@ -7,7 +7,7 @@ old-location: menurc\stringcbprintf_l.htm
 tech.root: menurc
 ms.assetid: d4576e63-32b0-413d-9b8c-ae16e6e15990
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: StringCbPrintf_l, StringCbPrintf_l function [Menus and Other Resources], StringCbPrintf_lA, StringCbPrintf_lW, menurc.stringcbprintf_l, strsafe/StringCbPrintf_l, strsafe/StringCbPrintf_lA, strsafe/StringCbPrintf_lW
 ms.prod: windows-hardware
 ms.technology: windows-devices

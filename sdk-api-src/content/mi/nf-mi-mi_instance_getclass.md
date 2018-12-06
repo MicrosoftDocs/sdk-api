@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_getclass.htm
 tech.root: wmi_v2
 ms.assetid: 4799e9f0-f233-499f-acec-9041074eab42
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Instance_GetClass, MI_Instance_GetClass function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetClass, wmi_v2.mi_instance_getclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_Instance_GetClass
-: 
 ---
 
 # MI_Instance_GetClass function
@@ -97,7 +91,7 @@ A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7
 
 Different types of classes exist. A dynamic instance has a very flat class declaration with no real 
     qualifiers. Certain 
-    <a href="https://msdn.microsoft.com/en-us/library/JJ653875(v=VS.85).aspx">flags</a> in to 
+    <a href="mi_flags.htm">flags</a> in to 
     session objects can also change the type of runtime type information (RTTI) that is returned, such that it has 
     none (types are all strings, flat structure, no qualifiers), basic (types of properties should be correct, but 
     they are flat-structured without qualifiers), standard (best effort at creating hierarchy, but overloaded 

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application_newsubscriptiondeliveryoptions.htm
 tech.root: wmi_v2
 ms.assetid: ac84ec09-7d91-42fc-8271-3e0e54bbb788
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Application_NewSubscriptionDeliveryOptions, MI_Application_NewSubscriptionDeliveryOptions function [Windows Management Infrastructure (MI)], mi/MI_Application_NewSubscriptionDeliveryOptions, wmi_v2.mi_application_newsubscriptiondeliveryoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_Application_NewSubscriptionDeliveryOptions
-: 
 ---
 
 # MI_Application_NewSubscriptionDeliveryOptions function

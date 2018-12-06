@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiviewer_connect.htm
 tech.root: rdp
 ms.assetid: f3deec96-af56-4ebe-a5c3-25a4c7be14c0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Connect, Connect method [RDP], Connect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Connect method, IRDPSRAPIViewer.Connect, IRDPSRAPIViewer::Connect, rdp.irdpsrapiviewer_connect, rdpencomapi/IRDPSRAPIViewer::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

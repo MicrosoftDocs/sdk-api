@@ -7,7 +7,7 @@ old-location: tapi3\ienumagent_clone.htm
 tech.root: tapi
 ms.assetid: e6e23f6b-a91a-43c1-8e37-f37d7284cef6
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumAgent interface, IEnumAgent interface [TAPI 2.2],Clone method, IEnumAgent.Clone, IEnumAgent::Clone, _tapi3_ienumagent_clone, tapi3.ienumagent_clone, tapi3cc/IEnumAgent::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

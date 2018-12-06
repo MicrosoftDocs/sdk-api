@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext1.htm
 tech.root: direct3d11
 ms.assetid: DD2A556D-AEF0-407E-A497-CF17ACDEB1A7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11DeviceContext1, ID3D11DeviceContext1 interface [Direct3D 11], ID3D11DeviceContext1 interface [Direct3D 11],described, d3d11_1/ID3D11DeviceContext1, direct3d11.id3d11devicecontext1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,14 +51,14 @@ req.redist:
 ## -description
 
 
-The device context interface represents a device context; it is used to render commands. <b>ID3D11DeviceContext1</b> adds new methods to those in <a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>.
+The device context interface represents a device context; it is used to render commands. <b>ID3D11DeviceContext1</b> adds new methods to those in <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceContext1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>. <b>ID3D11DeviceContext1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DeviceContext1</b> interface inherits from <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>. <b>ID3D11DeviceContext1</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ID3D11DeviceContext1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404601(v=VS.85).aspx">ClearView</a>
+<a href="https://msdn.microsoft.com/7CC8DEB6-075C-40EB-822D-8A627E285FA2">ClearView</a>
 </td>
 <td align="left" width="63%">
 Sets all the elements in a resource view to one value.
@@ -80,7 +80,7 @@ Sets all the elements in a resource view to one value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404604(v=VS.85).aspx">CopySubresourceRegion1</a>
+<a href="https://msdn.microsoft.com/1963011F-C3E2-428D-B667-195A4976510B">CopySubresourceRegion1</a>
 </td>
 <td align="left" width="63%">
 Copies a region from a source resource to a destination resource.
@@ -89,7 +89,7 @@ Copies a region from a source resource to a destination resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404607(v=VS.85).aspx">CSGetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/B729FEF6-44AA-4F1B-A73B-000C3691F232">CSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Gets the constant buffers that the compute-shader stage uses.
@@ -98,7 +98,7 @@ Gets the constant buffers that the compute-shader stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404610(v=VS.85).aspx">CSSetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/52524F23-8196-47DB-A57C-F7214BC23BE8">CSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffers that the compute-shader stage uses.
@@ -107,7 +107,7 @@ Sets the constant buffers that the compute-shader stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404613(v=VS.85).aspx">DiscardResource</a>
+<a href="https://msdn.microsoft.com/6C27231E-BF61-4D50-B5B1-59961B82534B">DiscardResource</a>
 </td>
 <td align="left" width="63%">
 Discards a resource from the device context.
@@ -116,7 +116,7 @@ Discards a resource from the device context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404616(v=VS.85).aspx">DiscardView</a>
+<a href="https://msdn.microsoft.com/7BBF20BC-3777-46B9-8DE3-40B7B88DAF6C">DiscardView</a>
 </td>
 <td align="left" width="63%">
 Discards a resource view from the device context.
@@ -125,7 +125,7 @@ Discards a resource view from the device context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/JJ247573(v=VS.85).aspx">DiscardView1</a>
+<a href="https://msdn.microsoft.com/C478F696-D0D7-4ABB-8BCD-5C528CC13814">DiscardView1</a>
 </td>
 <td align="left" width="63%">
 Discards the specified elements in a resource view from the device context.
@@ -134,7 +134,7 @@ Discards the specified elements in a resource view from the device context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404630(v=VS.85).aspx">DSGetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/7C6E2BFF-E351-417C-B351-F9B8EDB95F57">DSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Gets the constant buffers that the domain-shader stage uses.
@@ -143,7 +143,7 @@ Gets the constant buffers that the domain-shader stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404632(v=VS.85).aspx">DSSetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/3B37B2AE-96E8-4275-B9D9-7CA8D027C6E1">DSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffers that the domain-shader stage uses.
@@ -152,7 +152,7 @@ Sets the constant buffers that the domain-shader stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404635(v=VS.85).aspx">GSGetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/5899782E-89A4-4DFD-8A1E-AA7E87364AFC">GSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Gets the constant buffers that the geometry shader pipeline stage uses.
@@ -161,7 +161,7 @@ Gets the constant buffers that the geometry shader pipeline stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404638(v=VS.85).aspx">GSSetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/6C15F822-9F02-4CC9-8B69-60D902ACEB88">GSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffers that the geometry shader pipeline stage uses.
@@ -170,25 +170,25 @@ Sets the constant buffers that the geometry shader pipeline stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404641(v=VS.85).aspx">HSGetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/600F04B5-2173-4CB0-9978-7A0327BE1FE0">HSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
-Gets the constant buffers that the <a href="https://msdn.microsoft.com/en-us/library/Ff476340(v=VS.85).aspx">hull-shader stage</a> uses.
+Gets the constant buffers that the <a href="https://msdn.microsoft.com/4ad2fd3e-6e1a-4326-8469-3198acf931dc">hull-shader stage</a> uses.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404642(v=VS.85).aspx">HSSetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/8E44A677-8C08-4343-BFA4-D4B536DB082B">HSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
-Sets the constant buffers that the <a href="https://msdn.microsoft.com/en-us/library/Ff476340(v=VS.85).aspx">hull-shader stage</a> of the pipeline uses.
+Sets the constant buffers that the <a href="https://msdn.microsoft.com/4ad2fd3e-6e1a-4326-8469-3198acf931dc">hull-shader stage</a> of the pipeline uses.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404645(v=VS.85).aspx">PSGetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/68BCB27D-5D31-45BC-87BD-47E083F75933">PSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Gets the constant buffers that the pixel shader pipeline stage uses.
@@ -197,7 +197,7 @@ Gets the constant buffers that the pixel shader pipeline stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh404649(v=VS.85).aspx">PSSetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/4B05144B-7766-4AE6-9B9F-C439B4BF0220">PSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffers that the pixel shader pipeline stage uses, and enables the shader to access other parts of the buffer.
@@ -207,7 +207,7 @@ Sets the constant buffers that the pixel shader pipeline stage uses, and enables
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh446787(v=VS.85).aspx">SwapDeviceContextState</a>
+<a href="https://msdn.microsoft.com/4E267E86-602F-459C-A6F9-4660EC8FA752">SwapDeviceContextState</a>
 </td>
 <td align="left" width="63%">
 Activates the given context state object and changes the current device behavior to Direct3D 11, Direct3D 10.1, or Direct3D 10.
@@ -216,7 +216,7 @@ Activates the given context state object and changes the current device behavior
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh446790(v=VS.85).aspx">UpdateSubresource1</a>
+<a href="https://msdn.microsoft.com/7D89591C-F3F7-4A4F-A91A-AC67D9A573AF">UpdateSubresource1</a>
 </td>
 <td align="left" width="63%">
 The CPU copies data from memory to a subresource created in non-mappable memory.
@@ -225,7 +225,7 @@ The CPU copies data from memory to a subresource created in non-mappable memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh446793(v=VS.85).aspx">VSGetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/5499AA20-0B1C-4F01-9059-0092D689DE73">VSGetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Gets the constant buffers that the vertex shader pipeline stage uses.
@@ -234,7 +234,7 @@ Gets the constant buffers that the vertex shader pipeline stage uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh446795(v=VS.85).aspx">VSSetConstantBuffers1</a>
+<a href="https://msdn.microsoft.com/4D896539-216F-4823-B36E-2FE3E8A40C64">VSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffers that the vertex shader pipeline stage uses.
@@ -249,11 +249,11 @@ Sets the constant buffers that the vertex shader pipeline stage uses.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476154(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/e96804db-0987-49ca-b1b1-321f36c13024">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

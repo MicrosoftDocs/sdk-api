@@ -7,7 +7,7 @@ old-location: mstv\bfentvrat_genericattributes.htm
 tech.root: mstv
 ms.assetid: eb7f56c4-1d48-43f9-a691-c08aee3cd537
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: BfAttrNone, BfEnTvRat_GenericAttributes, BfEnTvRat_GenericAttributes enumeration [Microsoft TV Technologies], BfIsAttr_1, BfIsAttr_2, BfIsAttr_3, BfIsAttr_4, BfIsAttr_5, BfIsAttr_6, BfIsAttr_7, BfIsBlocked, BfValidAttrSubmask, mstv.bfentvrat_genericattributes, tvratings/BfAttrNone, tvratings/BfEnTvRat_GenericAttributes, tvratings/BfIsAttr_1, tvratings/BfIsAttr_2, tvratings/BfIsAttr_3, tvratings/BfIsAttr_4, tvratings/BfIsAttr_5, tvratings/BfIsAttr_6, tvratings/BfIsAttr_7, tvratings/BfIsBlocked, tvratings/BfValidAttrSubmask
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\wlxusectrlaltdel.htm
 tech.root: secauthn
 ms.assetid: 827bc495-eb7d-4a83-a325-903de0551d5f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PWLX_USE_CTRL_ALT_DEL, PWLX_USE_CTRL_ALT_DEL callback, WlxUseCtrlAltDel, WlxUseCtrlAltDel callback function [Security], _gina_wlxusectrlaltdel, security.wlxusectrlaltdel, winwlx/WlxUseCtrlAltDel
 ms.prod: windows-hardware
 ms.technology: windows-devices

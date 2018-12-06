@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationrule_executionoption.htm
 tech.root: fsrm
 ms.assetid: e084c056-18b1-4089-bab9-fce2ef58cd05
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ExecutionOption property [File Server Resource Manager], ExecutionOption property [File Server Resource Manager],IFsrmClassificationRule interface, IFsrmClassificationRule interface [File Server Resource Manager],ExecutionOption property, IFsrmClassificationRule.ExecutionOption, IFsrmClassificationRule.put_ExecutionOption, IFsrmClassificationRule::ExecutionOption, IFsrmClassificationRule::get_ExecutionOption, IFsrmClassificationRule::put_ExecutionOption, fs.ifsrmclassificationrule_executionoption, fsrm.ifsrmclassificationrule_executionoption, fsrmpipeline/IFsrmClassificationRule::ExecutionOption, fsrmpipeline/IFsrmClassificationRule::get_ExecutionOption, fsrmpipeline/IFsrmClassificationRule::put_ExecutionOption, put_ExecutionOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

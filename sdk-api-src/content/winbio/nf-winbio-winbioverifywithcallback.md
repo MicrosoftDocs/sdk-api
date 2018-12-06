@@ -7,7 +7,7 @@ old-location: secbiomet\winbioverifywithcallback.htm
 tech.root: SecBioMet
 ms.assetid: 4ea03163-062a-4abf-837a-b12b03ada375
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioVerifyWithCallback, WinBioVerifyWithCallback function [Windows Biometric Framework API], secbiomet.winbioverifywithcallback, winbio/WinBioVerifyWithCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

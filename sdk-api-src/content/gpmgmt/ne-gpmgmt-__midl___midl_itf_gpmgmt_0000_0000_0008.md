@@ -7,7 +7,7 @@ old-location: gpmc\gpmreportingoptions.htm
 tech.root: gpmc
 ms.assetid: 52d51058-d5fd-4b62-9206-2dc60a3eafb1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GPMReportingOptions, GPMReportingOptions enumeration [GPMC], __MIDL___MIDL_itf_gpmgmt_0000_0000_0008, gpmc.gpmreportingoptions, gpmgmt/GPMReportingOptions, gpmgmt/opReportComments, gpmgmt/opReportLegacy, opReportComments, opReportLegacy
 ms.prod: windows-hardware
 ms.technology: windows-devices

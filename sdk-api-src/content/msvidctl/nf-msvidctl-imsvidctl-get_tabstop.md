@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_tabstop.htm
 tech.root: mstv
 ms.assetid: 9579144d-22b6-4d97-a52c-0d8bbc9066e4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_TabStop method, IMSVidCtl.get_TabStop, IMSVidCtl::get_TabStop, IMSVidCtlget_TabStop, get_TabStop, get_TabStop method [Microsoft TV Technologies], get_TabStop method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_tabstop, msvidctl/IMSVidCtl::get_TabStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingeveryconnection_next.htm
 tech.root: ics
 ms.assetid: 05c1ec04-81bc-4d38-aab5-843ea54dda1d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Next method, IEnumNetSharingEveryConnection.Next, IEnumNetSharingEveryConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_next, ics.ienumnetsharingeveryconnection_next, netcon/IEnumNetSharingEveryConnection::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_setishyperlinktarget.htm
 tech.root: printdocs
 ms.assetid: a8096303-5940-4ad1-aa5a-de604efe8c9e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetIsHyperlinkTarget method, IXpsOMPage.SetIsHyperlinkTarget, IXpsOMPage::SetIsHyperlinkTarget, SetIsHyperlinkTarget, SetIsHyperlinkTarget method [XPS Documents and Packaging], SetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setishyperlinktarget, xpsobjectmodel/IXpsOMPage::SetIsHyperlinkTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

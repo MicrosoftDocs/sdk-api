@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveryprovidernotify.htm
 tech.root: wsdapi
 ms.assetid: e186f721-14d9-4d9b-942a-1c05ada2bee6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,described, ncd.iwsdiscoveryprovidernotify, wsddisco/IWSDiscoveryProviderNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

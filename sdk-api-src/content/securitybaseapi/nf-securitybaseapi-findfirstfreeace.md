@@ -7,7 +7,7 @@ old-location: security\findfirstfreeace.htm
 tech.root: secauthz
 ms.assetid: bf770761-008a-4a35-b31f-b781d5a8622b
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: FindFirstFreeAce, FindFirstFreeAce function [Security], _win32_findfirstfreeace, security.findfirstfreeace, securitybaseapi/FindFirstFreeAce
 ms.prod: windows-hardware
 ms.technology: windows-devices

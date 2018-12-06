@@ -7,7 +7,7 @@ old-location: rpc\rpc_if_id_vector.htm
 tech.root: rpc
 ms.assetid: 0bbef807-9eba-496b-be1c-4e48be7cc713
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RPC_IF_ID_VECTOR, RPC_IF_ID_VECTOR structure [RPC], _rpc_rpc_if_id_vector, rpc.rpc_if_id_vector, rpcdce/RPC_IF_ID_VECTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

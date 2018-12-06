@@ -7,7 +7,7 @@ old-location: cos\igetsecuritycallcontext.htm
 tech.root: cossdk
 ms.assetid: 7be988b7-b144-4b8f-b8d3-b0700b564df3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IGetSecurityCallContext, IGetSecurityCallContext interface [COM+], IGetSecurityCallContext interface [COM+],described, _cos_IGetSecurityCallContext, comsvcs/IGetSecurityCallContext, cos.igetsecuritycallcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

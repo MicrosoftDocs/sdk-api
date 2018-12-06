@@ -7,7 +7,7 @@ old-location: fs\txflogdestroyreadcontext.htm
 tech.root: fileio
 ms.assetid: e1f323bd-48cb-4264-89a0-185d18881726
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: TxfLogDestroyReadContext, TxfLogDestroyReadContext function [Files], fs.txflogdestroyreadcontext, txfw32/TxfLogDestroyReadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

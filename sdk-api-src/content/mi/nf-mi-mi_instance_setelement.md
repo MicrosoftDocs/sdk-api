@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_setelement.htm
 tech.root: wmi_v2
 ms.assetid: 581f8d9f-5421-44ab-a3e2-dfb536a35c2c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NULL, MI_Instance_SetElement, MI_Instance_SetElement function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetElement, wmi_v2.mi_instance_setelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_Instance_SetElement
-: 
 ---
 
 # MI_Instance_SetElement function

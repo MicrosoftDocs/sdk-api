@@ -7,7 +7,7 @@ old-location: rpc\rpc_interface_template.htm
 tech.root: rpc
 ms.assetid: 4DBD0B43-659B-4074-954B-FE9ABB0DCE63
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PRPC_INTERFACE_TEMPLATEW, PRPC_INTERFACE_TEMPLATE, PRPC_INTERFACE_TEMPLATE structure pointer [RPC], RPC_INTERFACE_TEMPLATE, RPC_INTERFACE_TEMPLATE structure [RPC], RPC_INTERFACE_TEMPLATEA, RPC_INTERFACE_TEMPLATEW, rpc.rpc_interface_template, rpcdce/PRPC_INTERFACE_TEMPLATE, rpcdce/RPC_INTERFACE_TEMPLATE, rpcdce/RPC_INTERFACE_TEMPLATEA, rpcdce/RPC_INTERFACE_TEMPLATEW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

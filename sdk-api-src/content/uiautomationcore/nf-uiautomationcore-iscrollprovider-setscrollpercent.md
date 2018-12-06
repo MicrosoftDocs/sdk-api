@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollProvider_SetScrollPercent.htm
 tech.root: WinAuto
 ms.assetid: 4949fd00-6678-4278-b11b-cc8503e67de2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],SetScrollPercent method, IScrollProvider.SetScrollPercent, IScrollProvider::SetScrollPercent, SetScrollPercent, SetScrollPercent method [Windows Accessibility], SetScrollPercent method [Windows Accessibility],IScrollProvider interface, uiauto.uiauto_IScrollProvider_SetScrollPercent, uiauto_IScrollProvider_SetScrollPercent, uiautomationcore/IScrollProvider::SetScrollPercent, winauto.uiauto_IScrollProvider_SetScrollPercent
 ms.prod: windows-hardware
 ms.technology: windows-devices

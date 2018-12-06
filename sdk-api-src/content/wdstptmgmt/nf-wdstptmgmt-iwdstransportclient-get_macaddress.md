@@ -7,7 +7,7 @@ old-location: wds\iwdstransportclient_macaddress.htm
 tech.root: wds
 ms.assetid: cc05d24a-54c8-40e7-85e4-640813538116
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],MacAddress property, IWdsTransportClient.MacAddress, IWdsTransportClient.get_MacAddress, IWdsTransportClient::MacAddress, IWdsTransportClient::get_MacAddress, MacAddress property [Windows Deployment Services], MacAddress property [Windows Deployment Services],IWdsTransportClient interface, get_MacAddress, wds.iwdstransportclient_macaddress, wdstptmgmt/IWdsTransportClient::MacAddress, wdstptmgmt/IWdsTransportClient::get_MacAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

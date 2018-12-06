@@ -7,7 +7,7 @@ old-location: security\isecurityinformation2.htm
 tech.root: secauthz
 ms.assetid: 5cb7a096-5088-424a-82d1-0351ce5bb413
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ISecurityInformation2, ISecurityInformation2 interface [Security], ISecurityInformation2 interface [Security],described, _win32_isecurityinformation2, aclui/ISecurityInformation2, security.isecurityinformation2
 ms.prod: windows-hardware
 ms.technology: windows-devices

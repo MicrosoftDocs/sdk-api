@@ -7,7 +7,7 @@ old-location: devinst\cmp_waitnopendinginstallevents.htm
 tech.root: devinst
 ms.assetid: 5be4c315-0e47-44ec-970c-855f302b355c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CMP_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents function [Device and Driver Installation], cfgmgr32/CM_WaitNoPendingInstallEvents, cfgmgrfn_096076fd-3ea8-42cb-9b51-ea551bde863d.xml, devinst.cmp_waitnopendinginstallevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

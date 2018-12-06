@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_disablechannel.htm
 tech.root: wmi_v2
 ms.assetid: fed7893b-16cb-4c51-a8dc-68440f358712
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_OperationOptions_DisableChannel, MI_OperationOptions_DisableChannel function [Windows Management Infrastructure (MI)], MI_WRITEMESSAGE_CHANNEL_DEBUG, MI_WRITEMESSAGE_CHANNEL_VERBOSE, MI_WRITEMESSAGE_CHANNEL_WARNING, mi/MI_OperationOptions_DisableChannel, wmi_v2.mi_operationoptions_disablechannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_OperationOptions_DisableChannel
-: 
 ---
 
 # MI_OperationOptions_DisableChannel function

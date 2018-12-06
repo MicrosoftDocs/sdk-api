@@ -7,7 +7,7 @@ old-location: base\ivsswritercomponents.htm
 tech.root: vss
 ms.assetid: e8ff2491-014c-43c7-bdce-99ed3b408605
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssWriterComponents, IVssWriterComponents interface [VSS], IVssWriterComponents interface [VSS],described, _win32_ivsswritercomponents, base.ivsswritercomponents, vswriter/IVssWriterComponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

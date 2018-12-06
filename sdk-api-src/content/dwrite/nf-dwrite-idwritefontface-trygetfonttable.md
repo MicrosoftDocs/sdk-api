@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFace_TryGetFontTable.htm
 tech.root: DirectWrite
 ms.assetid: 82ce9078-0b50-4e8c-a38a-181ec71d6136
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IDWriteFontFace interface [Direct Write],TryGetFontTable method, IDWriteFontFace.TryGetFontTable, IDWriteFontFace::TryGetFontTable, TryGetFontTable, TryGetFontTable method [Direct Write], TryGetFontTable method [Direct Write],IDWriteFontFace interface, directwrite.IDWriteFontFace_TryGetFontTable, dwrite/IDWriteFontFace::TryGetFontTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

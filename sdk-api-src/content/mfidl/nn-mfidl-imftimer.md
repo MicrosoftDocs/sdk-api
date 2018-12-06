@@ -7,7 +7,7 @@ old-location: mf\imftimer.htm
 tech.root: medfound
 ms.assetid: 152594df-de3d-4f6f-9277-dba95ab3533a
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: 152594df-de3d-4f6f-9277-dba95ab3533a, IMFTimer, IMFTimer interface [Media Foundation], IMFTimer interface [Media Foundation],described, mf.imftimer, mfidl/IMFTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

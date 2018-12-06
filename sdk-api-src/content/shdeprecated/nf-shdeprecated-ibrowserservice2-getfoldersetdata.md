@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_GetFolderSetData.htm
 tech.root: shell
 ms.assetid: fac9323b-bf32-45d0-95c4-798a1aab4d02
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetFolderSetData, GetFolderSetData method [Windows Shell], GetFolderSetData method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],GetFolderSetData method, IBrowserService2.GetFolderSetData, IBrowserService2::GetFolderSetData, shdeprecated/IBrowserService2::GetFolderSetData, shell.IBrowserService2_GetFolderSetData, zone_IBrowserService2_GetFolderSetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

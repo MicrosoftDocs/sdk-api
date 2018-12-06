@@ -7,7 +7,7 @@ old-location: mmc\itoolbar_getbuttonstate.htm
 tech.root: mmc
 ms.assetid: 94c41b13-f1ab-4368-8cfa-960caeea796e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, GetButtonState, GetButtonState method [MMC], GetButtonState method [MMC],IToolbar interface, HIDDEN, INDETERMINATE, IToolbar interface [MMC],GetButtonState method, IToolbar.GetButtonState, IToolbar::GetButtonState, _slate_itoolbar_getbuttonstate, mmc.itoolbar_getbuttonstate, mmc/IToolbar::GetButtonState
 ms.prod: windows-hardware
 ms.technology: windows-devices

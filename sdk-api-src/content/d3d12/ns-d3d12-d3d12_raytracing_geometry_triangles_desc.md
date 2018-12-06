@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_raytracing_geometry_triangles_desc.htm
 tech.root: direct3d12
 ms.assetid: 21F4FE2C-FE1B-4520-BEE7-5058467B54D1
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC structure, PD3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, PD3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC structure pointer, d3d12/D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, d3d12/PD3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, direct3d12.d3d12_raytracing_geometry_triangles_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

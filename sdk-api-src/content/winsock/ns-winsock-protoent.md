@@ -1,13 +1,13 @@
 ---
 UID: NS:winsock.protoent
-title: protoent
+title: PROTOENT
 author: windows-sdk-content
 description: The protoent structure contains the name and protocol numbers that correspond to a given protocol name.
 old-location: winsock\protoent_2.htm
 tech.root: winsock
 ms.assetid: 8fc729dd-5a73-42a1-9c3f-adc68d83d863
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPPROTOENT, *PPROTOENT, PROTOENT, _win32_protoent_2, protoent, protoent structure [Winsock], winsock.protoent_2, winsock/protoent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.typenames: PROTOENT, *PPROTOENT, *LPPROTOENT
 req.redist: 
 ---
 
-# protoent structure
+# PROTOENT structure
 
 
 ## -description

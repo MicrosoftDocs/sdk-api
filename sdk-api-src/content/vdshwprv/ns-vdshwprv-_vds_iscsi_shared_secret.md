@@ -7,7 +7,7 @@ old-location: base\vds_iscsi_shared_secret.htm
 tech.root: vds
 ms.assetid: eab1e2f4-b14e-4336-9b83-5dd7089da2d8
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: VDS_ISCSI_SHARED_SECRET, VDS_ISCSI_SHARED_SECRET structure [VDS], _VDS_ISCSI_SHARED_SECRET, base.vds_iscsi_shared_secret, vds/VDS_ISCSI_SHARED_SECRET, vdshwprv/VDS_ISCSI_SHARED_SECRET
 ms.prod: windows-hardware
 ms.technology: windows-devices

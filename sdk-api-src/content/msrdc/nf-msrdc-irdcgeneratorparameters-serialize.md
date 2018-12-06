@@ -7,7 +7,7 @@ old-location: rdc\irdcgeneratorparameters_serialize.htm
 tech.root: rdc
 ms.assetid: ba0d09b0-417f-494a-a5e8-dccd08e5280a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRdcGeneratorParameters interface [Remote Differential Compression],Serialize method, IRdcGeneratorParameters.Serialize, IRdcGeneratorParameters::Serialize, Serialize, Serialize method [Remote Differential Compression], Serialize method [Remote Differential Compression],IRdcGeneratorParameters interface, fs.irdcgeneratorparameters_serialize, msrdc/IRdcGeneratorParameters::Serialize, rdc.irdcgeneratorparameters_serialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

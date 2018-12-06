@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalyzer1_getjustificationopportunities.htm
 tech.root: DirectWrite
 ms.assetid: 85D3841F-FA2B-4636-B786-DCD68C72209A
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetJustificationOpportunities, GetJustificationOpportunities method [Direct Write], GetJustificationOpportunities method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetJustificationOpportunities method, IDWriteTextAnalyzer1.GetJustificationOpportunities, IDWriteTextAnalyzer1::GetJustificationOpportunities, directwrite.idwritetextanalyzer1_getjustificationopportunities, dwrite_1/IDWriteTextAnalyzer1::GetJustificationOpportunities
 ms.prod: windows-hardware
 ms.technology: windows-devices

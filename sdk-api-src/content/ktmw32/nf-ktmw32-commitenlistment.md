@@ -7,7 +7,7 @@ old-location: fs\commitenlistment.htm
 tech.root: ktm
 ms.assetid: d1e1043d-2db3-4f05-affc-2d32744baf10
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CommitEnlistment, CommitEnlistment function [Files], fs.commitenlistment, ktmw32/CommitEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

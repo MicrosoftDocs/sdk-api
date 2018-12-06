@@ -7,7 +7,7 @@ old-location: tsf\itfmessagepump_peekmessagew.htm
 tech.root: TSF
 ms.assetid: 05a3a7e1-4b83-4257-bfe8-7f79405ff02a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITfMessagePump interface [Text Services Framework],PeekMessageW method, ITfMessagePump.PeekMessageW, ITfMessagePump::PeekMessageW, PeekMessageW, PeekMessageW method [Text Services Framework], PeekMessageW method [Text Services Framework],ITfMessagePump interface, _tsf_itfmessagepump_peekmessagew_ref, msctf/ITfMessagePump::PeekMessageW, tsf.itfmessagepump_peekmessagew
 ms.prod: windows-hardware
 ms.technology: windows-devices

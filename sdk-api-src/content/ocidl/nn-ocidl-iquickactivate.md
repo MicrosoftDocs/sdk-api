@@ -7,7 +7,7 @@ old-location: com\iquickactivate.htm
 tech.root: com
 ms.assetid: 9b3e3b56-5055-4dfa-83e6-702578662463
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IQuickActivate, IQuickActivate interface [COM], IQuickActivate interface [COM],described, _ctrl_iquickactivate, com.iquickactivate, ocidl/IQuickActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

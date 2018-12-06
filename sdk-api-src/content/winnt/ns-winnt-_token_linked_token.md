@@ -7,7 +7,7 @@ old-location: security\token_linked_token.htm
 tech.root: secauthz
 ms.assetid: a77dd410-1074-4196-8323-ccf52ed0375a
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN structure pointer [Security], TOKEN_LINKED_TOKEN, TOKEN_LINKED_TOKEN structure [Security], _TOKEN_LINKED_TOKEN, security.token_linked_token, winnt/PTOKEN_LINKED_TOKEN, winnt/TOKEN_LINKED_TOKEN"
 ms.prod: windows-hardware
 ms.technology: windows-devices

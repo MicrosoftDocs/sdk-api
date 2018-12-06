@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicemethodcallback_oncomplete.htm
 tech.root: wpd_sdk
 ms.assetid: b04e7bf1-bad7-4e9a-b53a-ec064d323f94
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IPortableDeviceServiceMethodCallback interface [Windows Portable Devices SDK],OnComplete method, IPortableDeviceServiceMethodCallback.OnComplete, IPortableDeviceServiceMethodCallback::OnComplete, OnComplete, OnComplete method [Windows Portable Devices SDK], OnComplete method [Windows Portable Devices SDK],IPortableDeviceServiceMethodCallback interface, portabledeviceapi/IPortableDeviceServiceMethodCallback::OnComplete, wpdsdk.iportabledeviceservicemethodcallback_oncomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

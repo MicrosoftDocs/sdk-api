@@ -7,7 +7,7 @@ old-location: mscs\backupclusterdatabase.htm
 tech.root: mscs
 ms.assetid: c381b7d3-cc60-45cf-a7f0-eebf44557bcf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: BackupClusterDatabase, BackupClusterDatabase function [Failover Cluster], _wolf_backupclusterdatabase, clusapi/BackupClusterDatabase, mscs.backupclusterdatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices

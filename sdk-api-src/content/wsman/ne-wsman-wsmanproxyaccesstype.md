@@ -7,7 +7,7 @@ old-location: winrm\wsmanproxyaccesstype.htm
 tech.root: winrm
 ms.assetid: 0c7d13dc-42e0-4c91-bcdf-c198b557206b
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: WSMAN_OPTION_PROXY_AUTO_DETECT, WSMAN_OPTION_PROXY_IE_PROXY_CONFIG, WSMAN_OPTION_PROXY_NO_PROXY_SERVER, WSMAN_OPTION_PROXY_WINHTTP_PROXY_CONFIG, WSManProxyAccessType, WSManProxyAccessType enumeration [Windows Remote Management], winrm.wsmanproxyaccesstype, wsman/WSMAN_OPTION_PROXY_AUTO_DETECT, wsman/WSMAN_OPTION_PROXY_IE_PROXY_CONFIG, wsman/WSMAN_OPTION_PROXY_NO_PROXY_SERVER, wsman/WSMAN_OPTION_PROXY_WINHTTP_PROXY_CONFIG, wsman/WSManProxyAccessType
 ms.prod: windows-hardware
 ms.technology: windows-devices

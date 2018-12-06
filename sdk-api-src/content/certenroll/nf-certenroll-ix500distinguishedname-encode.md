@@ -7,7 +7,7 @@ old-location: security\ix500distinguishedname_encode_method.htm
 tech.root: seccertenroll
 ms.assetid: da0d4479-dc58-4719-886e-5ce610764305
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Encode, Encode method [Security], Encode method [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],Encode method, IX500DistinguishedName.Encode, IX500DistinguishedName::Encode, certenroll/IX500DistinguishedName::Encode, security.ix500distinguishedname_encode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

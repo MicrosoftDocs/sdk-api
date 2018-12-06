@@ -7,7 +7,7 @@ old-location: upnp\iupnphttpheadercontrol_addrequestheaders.htm
 tech.root: upnp
 ms.assetid: e44f83de-eaf6-4b16-a70e-64f4daffc6b3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddRequestHeaders, AddRequestHeaders method [UPnP APIs], AddRequestHeaders method [UPnP APIs],IUPnPHttpHeaderControl interface, IUPnPHttpHeaderControl interface [UPnP APIs],AddRequestHeaders method, IUPnPHttpHeaderControl.AddRequestHeaders, IUPnPHttpHeaderControl::AddRequestHeaders, upnp.iupnphttpheadercontrol_addrequestheaders, upnp/IUPnPHttpHeaderControl::AddRequestHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

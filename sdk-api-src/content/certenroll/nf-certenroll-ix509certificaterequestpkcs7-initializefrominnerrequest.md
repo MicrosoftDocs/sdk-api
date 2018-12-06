@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs7_initializefrominnerrequest_m
 tech.root: seccertenroll
 ms.assetid: b63bfaaa-a8af-4c72-a191-447230adae72
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromInnerRequest method, IX509CertificateRequestPkcs7.InitializeFromInnerRequest, IX509CertificateRequestPkcs7::InitializeFromInnerRequest, InitializeFromInnerRequest, InitializeFromInnerRequest method [Security], InitializeFromInnerRequest method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromInnerRequest, security.ix509certificaterequestpkcs7_initializefrominnerrequest_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

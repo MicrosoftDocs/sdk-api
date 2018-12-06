@@ -1,17 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565
-title: XMU565 function
+title: XMU565::XMU565
 author: windows-sdk-content
 description: Default constructor for XMU565.
 old-location: dxmath\xmu565_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.#ctor
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(), dxmath.xmu565_ctor_1
+ms.date: 12/5/2018
+ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(), XMU565::XMU565, dxmath.xmu565_ctor_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMU565
-: 
 ---
 
-# XMU565 function
+# XMU565::XMU565
 
 
 ## -description

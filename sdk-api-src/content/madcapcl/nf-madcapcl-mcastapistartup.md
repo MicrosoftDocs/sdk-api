@@ -7,7 +7,7 @@ old-location: madcap\mcastapistartup.htm
 tech.root: Madcap
 ms.assetid: edb7d666-cbd0-46f7-b63e-2a09ffc9e9e2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: McastApiStartup, McastApiStartup function [MADCAP], _mdhcp_mcastapistartup, madcap.mcastapistartup, madcapcl/McastApiStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices

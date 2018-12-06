@@ -7,7 +7,7 @@ old-location: security\getsidsubauthority.htm
 tech.root: secauthz
 ms.assetid: 3a2d07f3-f1da-477d-b93f-525e3459dc61
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetSidSubAuthority, GetSidSubAuthority function [Security], _win32_getsidsubauthority, security.getsidsubauthority, securitybaseapi/GetSidSubAuthority
 ms.prod: windows-hardware
 ms.technology: windows-devices

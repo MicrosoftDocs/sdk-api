@@ -7,7 +7,7 @@ old-location: ncd\iwsdsignatureproperty.htm
 tech.root: wsdapi
 ms.assetid: 10e95100-4890-4c00-b231-bb7125fed197
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IWSDSignatureProperty interface,described, ncd.iwsdsignatureproperty, wsdbase/IWSDSignatureProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorshiftleft.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorShiftLeft(XMVECTOR,XMVECTOR,uint32_t)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorShiftLeft, XMVectorShiftLeft, XMVectorShiftLeft method [DirectX Math Support APIs], dxmath.xmvectorshiftleft
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVectorShiftLeft
-: 
 ---
 
 # XMVectorShiftLeft function
@@ -95,29 +89,37 @@ Returns the shifted and filled in <a href="https://msdn.microsoft.com/1a044094-4
 
 The following code demonstrates how this function might be used.
 
-
-```
-XMVECTOR v1 = XMVectorSet( 10.0f, 20.0f, 30.0f, 40.0f );
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR v1 = XMVectorSet( 10.0f, 20.0f, 30.0f, 40.0f );
 XMVECTOR v2 = XMVectorSet( 50.0f, 60.0f, 70.0f, 80.0f );
-XMVECTOR result = XMVectorShiftLeft( v1, v2, 1 );
-```
-
-
+XMVECTOR result = XMVectorShiftLeft( v1, v2, 1 );</pre>
+</td>
+</tr>
+</table></span></div>
 The shifted vector (<i>result</i>) will be &lt;20.0f, 30.0f, 40.0f, 50.0f&gt;.
 
 In the case of a constant shift value, it is more efficent to use the template form of <a href="https://msdn.microsoft.com/5e0f146f-b038-46dd-8b71-95b19cd007c0">XMVectorShiftLeft</a>:
 
-
-```
-
-template<uint32_t Elements>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+template&lt;uint32_t Elements&gt;
     XMVECTOR XMVectorShiftLeft(FXMVECTOR V1, FXMVECTOR V2)
 
-Example: XMVectorShiftLeft<1>( v1, v2 );
-   
-```
-
-
+Example: XMVectorShiftLeft&lt;1&gt;( v1, v2 );
+   </pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

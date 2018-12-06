@@ -7,7 +7,7 @@ old-location: tapi3\call_state_event_cause.htm
 tech.root: tapi
 ms.assetid: 9bc9e050-41f7-4330-a263-db745d3fa3f8
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: CALL_STATE_EVENT_CAUSE, CALL_STATE_EVENT_CAUSE enumeration [TAPI 2.2], CEC_DISCONNECT_BADADDRESS, CEC_DISCONNECT_BUSY, CEC_DISCONNECT_CANCELLED, CEC_DISCONNECT_FAILED, CEC_DISCONNECT_NOANSWER, CEC_DISCONNECT_NORMAL, CEC_DISCONNECT_REJECTED, CEC_NONE, _tapi3_call_state_event_cause, tapi3.call_state_event_cause, tapi3if/CALL_STATE_EVENT_CAUSE, tapi3if/CEC_DISCONNECT_BADADDRESS, tapi3if/CEC_DISCONNECT_BUSY, tapi3if/CEC_DISCONNECT_CANCELLED, tapi3if/CEC_DISCONNECT_FAILED, tapi3if/CEC_DISCONNECT_NOANSWER, tapi3if/CEC_DISCONNECT_NORMAL, tapi3if/CEC_DISCONNECT_REJECTED, tapi3if/CEC_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices

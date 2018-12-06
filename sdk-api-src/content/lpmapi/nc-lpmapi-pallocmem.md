@@ -7,7 +7,7 @@ old-location: qos\pallocmem.htm
 tech.root: QOS
 ms.assetid: e7b38820-4a7e-4f17-a67d-b94caa9037f5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PALLOCMEM, PALLOCMEM callback, PALLOCMEM callback function [QOS], _gqos_pallocmem, lpmapi/PALLOCMEM, qos.pallocmem
 ms.prod: windows-hardware
 ms.technology: windows-devices

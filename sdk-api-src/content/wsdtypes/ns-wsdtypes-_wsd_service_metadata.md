@@ -7,7 +7,7 @@ old-location: ncd\wsd_service_metadata_struct.htm
 tech.root: wsdapi
 ms.assetid: 1f80e36f-06ca-41fc-bbd7-b44823c75d4d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_SERVICE_METADATA, WSD_SERVICE_METADATA structure, _WSD_SERVICE_METADATA, ncd.wsd_service_metadata_struct, wsdtypes/WSD_SERVICE_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_protocol.htm
 tech.root: ics
 ms.assetid: 16f61a1d-770a-4be9-a43d-10ff9fe276fb
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Protocol property, INetFwRule.Protocol, INetFwRule.get_Protocol, INetFwRule::Protocol, INetFwRule::get_Protocol, INetFwRule::put_Protocol, Protocol property [ICS/ICF], Protocol property [ICS/ICF],INetFwRule interface, get_Protocol, ics.inetfwrule_protocol, netfw/INetFwRule::Protocol, netfw/INetFwRule::get_Protocol, netfw/INetFwRule::put_Protocol
 ms.prod: windows-hardware
 ms.technology: windows-devices

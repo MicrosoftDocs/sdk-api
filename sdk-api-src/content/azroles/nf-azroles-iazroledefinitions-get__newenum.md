@@ -7,7 +7,7 @@ old-location: security\iazroledefinitions__newenum.htm
 tech.root: secauthz
 ms.assetid: 28c84285-fcb4-4a1c-bc26-89fd1ba8fb90
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IAzRoleDefinitions interface [Security],_NewEnum property, IAzRoleDefinitions._NewEnum, IAzRoleDefinitions.get__NewEnum, IAzRoleDefinitions::_NewEnum, IAzRoleDefinitions::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IAzRoleDefinitions interface, azroles/IAzRoleDefinitions::_NewEnum, azroles/IAzRoleDefinitions::get__NewEnum, get__NewEnum, security.iazroledefinitions__newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollment_cadnsname_property.htm
 tech.root: seccertenroll
 ms.assetid: 5b388cfe-e0b1-4b57-bf6c-81f9ab65ffcf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CADnsName property [Security], CADnsName property [Security],ICertPropertyEnrollment interface, ICertPropertyEnrollment interface [Security],CADnsName property, ICertPropertyEnrollment.CADnsName, ICertPropertyEnrollment.get_CADnsName, ICertPropertyEnrollment::CADnsName, ICertPropertyEnrollment::get_CADnsName, certenroll/ICertPropertyEnrollment::CADnsName, certenroll/ICertPropertyEnrollment::get_CADnsName, get_CADnsName, security.icertpropertyenrollment_cadnsname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

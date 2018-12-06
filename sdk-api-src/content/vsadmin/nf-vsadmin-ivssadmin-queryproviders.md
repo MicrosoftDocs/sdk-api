@@ -7,7 +7,7 @@ old-location: base\ivssadmin_queryproviders.htm
 tech.root: vss
 ms.assetid: 1267b715-dc2e-47a2-88f1-5c03b5fb5415
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssAdmin interface [VSS],QueryProviders method, IVssAdmin.QueryProviders, IVssAdmin::QueryProviders, QueryProviders, QueryProviders method [VSS], QueryProviders method [VSS],IVssAdmin interface, base.ivssadmin_queryproviders, vsadmin/IVssAdmin::QueryProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netmgmt\netservicecontrol.htm
 tech.root: netmgmt
 ms.assetid: 4ea0e624-7b6e-459d-879e-f6c5998765cf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: NetServiceControl, NetServiceControl function [Network Management], _win32_netservicecontrol, lmsvc/NetServiceControl, netmgmt.netservicecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

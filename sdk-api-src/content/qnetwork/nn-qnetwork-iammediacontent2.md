@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent2.htm
 tech.root: DirectShow
 ms.assetid: cf8381f2-2ef0-4169-8029-bce36bf3d6a9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAMMediaContent2, IAMMediaContent2 interface [DirectShow], IAMMediaContent2 interface [DirectShow],described, IAMMediaContent2Interface, dshow.iammediacontent2, qnetwork/IAMMediaContent2
 ms.prod: windows-hardware
 ms.technology: windows-devices

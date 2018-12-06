@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_propertyset_destruct.htm
 tech.root: wmi_v2
 ms.assetid: b00eba60-5fff-4e31-acee-c9b148e9ab7c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_PropertySet_Destruct, MI_PropertySet_Destruct function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_Destruct, wmi_v2.mi_propertyset_destruct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_PropertySet_Destruct
-: 
 ---
 
 # MI_PropertySet_Destruct function

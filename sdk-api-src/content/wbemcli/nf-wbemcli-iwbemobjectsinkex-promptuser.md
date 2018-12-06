@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectsinkex_promptuser.htm
 tech.root: WmiSdk
 ms.assetid: a4ea6f73-e94f-4ffa-9528-43b52ab00192
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],PromptUser method, IWbemObjectSinkEx.PromptUser, IWbemObjectSinkEx::PromptUser, PromptUser, PromptUser method [Windows Management Instrumentation], PromptUser method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::PromptUser, wmi.iwbemobjectsinkex_promptuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

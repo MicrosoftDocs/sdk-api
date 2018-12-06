@@ -7,7 +7,7 @@ old-location: controls\ListView_GetViewRect.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getviewrect.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ListView_GetViewRect, ListView_GetViewRect macro [Windows Controls], _win32_ListView_GetViewRect, _win32_ListView_GetViewRect_cpp, commctrl/ListView_GetViewRect, controls.ListView_GetViewRect, controls._win32_ListView_GetViewRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

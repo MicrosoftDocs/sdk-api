@@ -7,7 +7,7 @@ old-location: mbn\imbnsms_getsmsconfiguration.htm
 tech.root: mbn
 ms.assetid: b868bb6f-3ac0-4d77-82dd-b9bc94882a8b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetSmsConfiguration, GetSmsConfiguration method [Microsoft Broadband Networks], GetSmsConfiguration method [Microsoft Broadband Networks],IMbnSms interface, IMbnSms interface [Microsoft Broadband Networks],GetSmsConfiguration method, IMbnSms.GetSmsConfiguration, IMbnSms::GetSmsConfiguration, mbn.imbnsms_getsmsconfiguration, mbnapi/IMbnSms::GetSmsConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

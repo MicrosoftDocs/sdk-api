@@ -7,7 +7,7 @@ old-location: vhd\deletesnapshotvhdset.htm
 tech.root: VStor
 ms.assetid: F6A65E00-857A-44CF-A827-747518564DAB
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteSnapshotVhdSet, DeleteSnapshotVhdSet function [VHD], vdssys/DeleteSnapshotVhdSet, vhd.deletesnapshotvhdset, virtdisk/DeleteSnapshotVhdSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

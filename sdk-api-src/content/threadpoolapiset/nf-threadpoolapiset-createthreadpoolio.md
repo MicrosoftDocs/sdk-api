@@ -7,7 +7,7 @@ old-location: base\createthreadpoolio.htm
 tech.root: procthread
 ms.assetid: 621f4747-50fa-4538-bd6a-dbe4dbb05dd1
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: CreateThreadpoolIo, CreateThreadpoolIo function, base.createthreadpoolio, threadpoolapiset/CreateThreadpoolIo, winbase/CreateThreadpoolIo
 ms.prod: windows-hardware
 ms.technology: windows-devices

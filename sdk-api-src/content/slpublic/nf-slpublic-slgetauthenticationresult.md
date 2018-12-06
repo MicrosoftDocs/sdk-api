@@ -7,7 +7,7 @@ old-location: security\slgetauthenticationresult.htm
 tech.root: SecSLApi
 ms.assetid: 8f30ac28-92a0-41f5-b076-eda7014fb526
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLGetAuthenticationResult, SLGetAuthenticationResult function [Security], security.slgetauthenticationresult, slpublic/SLGetAuthenticationResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

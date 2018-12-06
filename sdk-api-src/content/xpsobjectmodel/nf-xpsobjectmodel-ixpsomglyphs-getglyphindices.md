@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getglyphindices.htm
 tech.root: printdocs
 ms.assetid: 6698ae0b-3525-4612-8234-8ba4dd2870a0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetGlyphIndices, GetGlyphIndices method [XPS Documents and Packaging], GetGlyphIndices method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndices method, IXpsOMGlyphs.GetGlyphIndices, IXpsOMGlyphs::GetGlyphIndices, xps.ixpsomglyphs_getglyphindices, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndices
 ms.prod: windows-hardware
 ms.technology: windows-devices

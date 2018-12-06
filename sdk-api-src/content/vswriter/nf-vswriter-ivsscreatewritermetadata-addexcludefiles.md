@@ -7,7 +7,7 @@ old-location: base\ivsscreatewritermetadata_addexcludefiles.htm
 tech.root: vss
 ms.assetid: 705bb666-9080-4b42-af58-9cc21fbf88cf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method [VSS], AddExcludeFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddExcludeFiles method, IVssCreateWriterMetadata.AddExcludeFiles, IVssCreateWriterMetadata::AddExcludeFiles, _win32_ivsscreatewritermetadata_addexcludefiles, base.ivsscreatewritermetadata_addexcludefiles, vswriter/IVssCreateWriterMetadata::AddExcludeFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

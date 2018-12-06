@@ -7,7 +7,7 @@ old-location: fs\transaction_outcome.htm
 tech.root: ktm
 ms.assetid: d4315a62-b65f-4744-8084-2317ad39c32c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Files], TransactionOutcomeAborted, TransactionOutcomeCommitted, TransactionOutcomeUndetermined, _TRANSACTION_OUTCOME, fs.transaction_outcome, winnt/TRANSACTION_OUTCOME, winnt/TransactionOutcomeAborted, winnt/TransactionOutcomeCommitted, winnt/TransactionOutcomeUndetermined
 ms.prod: windows-hardware
 ms.technology: windows-devices

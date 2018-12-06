@@ -7,7 +7,7 @@ old-location: security\iaztask_applicationdata.htm
 tech.root: secauthz
 ms.assetid: 0a3939ee-6449-4eef-bb23-11e6d7018f04
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzTask object, ApplicationData property [Security],IAzTask interface, AzTask object [Security],ApplicationData property, IAzTask interface [Security],ApplicationData property, IAzTask.ApplicationData, IAzTask.get_ApplicationData, IAzTask::ApplicationData, IAzTask::get_ApplicationData, IAzTask::put_ApplicationData, azroles/IAzTask::ApplicationData, azroles/IAzTask::get_ApplicationData, azroles/IAzTask::put_ApplicationData, get_ApplicationData, security.iaztask_applicationdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

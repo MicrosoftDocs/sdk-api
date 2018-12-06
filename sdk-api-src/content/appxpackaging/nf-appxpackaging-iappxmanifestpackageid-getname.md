@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid_getname.htm
 tech.root: appxpkg
 ms.assetid: F59FDC61-BA78-4204-AAD3-C34B7F1EB37B
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetName method, IAppxManifestPackageId.GetName, IAppxManifestPackageId::GetName, appxpackaging/IAppxManifestPackageId::GetName, appxpkg.iappxmanifestpackageid_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices

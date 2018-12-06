@@ -7,7 +7,7 @@ old-location: winauto\uiauto_MultipleViewPattern_GetViewNameConPat.htm
 tech.root: WinAuto
 ms.assetid: 950d9649-0565-4e1b-bdc7-49d1df7bbcd4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: MultipleViewPattern_GetViewName, MultipleViewPattern_GetViewName function [Windows Accessibility], uiauto.uiauto_MultipleViewPattern_GetViewNameConPat, uiauto_MultipleViewPattern_GetViewNameConPat, uiautomationcoreapi/MultipleViewPattern_GetViewName, winauto.uiauto_MultipleViewPattern_GetViewNameConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

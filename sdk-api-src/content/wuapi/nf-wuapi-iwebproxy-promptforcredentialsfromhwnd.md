@@ -7,7 +7,7 @@ old-location: wua\iwebproxy_promptforcredentialsfromhwnd.htm
 tech.root: wua_sdk
 ms.assetid: 36ee1771-cfa6-4fa0-924b-69dbd57b1ad4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],PromptForCredentialsFromHwnd method, IWebProxy.PromptForCredentialsFromHwnd, IWebProxy::PromptForCredentialsFromHwnd, PromptForCredentialsFromHwnd, PromptForCredentialsFromHwnd method [Windows Update Agent], PromptForCredentialsFromHwnd method [Windows Update Agent],IWebProxy interface, wua.iwebproxy_promptforcredentialsfromhwnd, wuapi/IWebProxy::PromptForCredentialsFromHwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

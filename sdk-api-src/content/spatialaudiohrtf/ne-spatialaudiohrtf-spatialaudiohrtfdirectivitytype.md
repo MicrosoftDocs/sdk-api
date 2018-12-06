@@ -7,7 +7,7 @@ old-location: coreaudio\spatialaudiohrtfdirectivitytype.htm
 tech.root: CoreAudio
 ms.assetid: 3A1426B5-F4FF-4CF0-9E0A-3096371B3D2E
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: SpatialAudioHrtfDirectivityType, SpatialAudioHrtfDirectivityType enumeration [Core Audio], SpatialAudioHrtfDirectivity_Cardioid, SpatialAudioHrtfDirectivity_Cone, SpatialAudioHrtfDirectivity_OmniDirectional, coreaudio.spatialaudiohrtfdirectivitytype, spatialaudiohrtf/SpatialAudioHrtfDirectivityType, spatialaudiohrtf/SpatialAudioHrtfDirectivity_Cardioid, spatialaudiohrtf/SpatialAudioHrtfDirectivity_Cone, spatialaudiohrtf/SpatialAudioHrtfDirectivity_OmniDirectional
 ms.prod: windows-hardware
 ms.technology: windows-devices

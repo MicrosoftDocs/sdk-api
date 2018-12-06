@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediapluginregistrar__wmpunregisterplayerplugin.htm
 tech.root: WMP
 ms.assetid: b6165962-3ca6-49c8-826c-ce87e55c09fd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPUnRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpunregisterplayerplugin, wmpservices/WMPUnRegisterPlayerPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

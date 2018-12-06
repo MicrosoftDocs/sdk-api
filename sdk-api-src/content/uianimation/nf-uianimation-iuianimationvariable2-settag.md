@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_settag.htm
 tech.root: UIAnimation
 ms.assetid: 21BAFF23-8866-432F-BB9A-0328CE0E6021
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetTag method, IUIAnimationVariable2.SetTag, IUIAnimationVariable2::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_settag, uianimation/IUIAnimationVariable2::SetTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

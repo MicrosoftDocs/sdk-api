@@ -7,7 +7,7 @@ old-location: intl\scriptfreecache.htm
 tech.root: Intl
 ms.assetid: a30a6c5a-157a-47ad-b946-502d583733c8
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ScriptFreeCache, ScriptFreeCache function [Internationalization for Windows Applications], _win32_ScriptFreeCache, intl.scriptfreecache, usp10/ScriptFreeCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

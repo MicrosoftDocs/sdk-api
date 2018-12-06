@@ -7,7 +7,7 @@ old-location: fs\ioctl_volume_is_clustered.htm
 tech.root: fileio
 ms.assetid: 3722b08c-237d-4551-b75e-1d28fe8e94c3
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_VOLUME_IS_CLUSTERED, IOCTL_VOLUME_IS_CLUSTERED control, IOCTL_VOLUME_IS_CLUSTERED control code [Files], _win32_ioctl_volume_is_clustered, base.ioctl_volume_is_clustered, fs.ioctl_volume_is_clustered, winioctl/IOCTL_VOLUME_IS_CLUSTERED
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\credprotect.htm
 tech.root: secauthn
 ms.assetid: 1e299dfb-2ffe-463c-9e2c-b7774a2216e3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CredProtect, CredProtect function [Security], CredProtectA, CredProtectW, security.credprotect, wincred/CredProtect, wincred/CredProtectA, wincred/CredProtectW
 ms.prod: windows-hardware
 ms.technology: windows-devices

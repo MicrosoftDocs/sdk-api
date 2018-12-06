@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgdocument_createstrokedasharray.htm
 tech.root: direct2d
 ms.assetid: 559330E4-A0B9-437A-AD83-02C9409B5BE2
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreateStrokeDashArray, CreateStrokeDashArray method [Direct2D], CreateStrokeDashArray method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],CreateStrokeDashArray method, ID2D1SvgDocument.CreateStrokeDashArray, ID2D1SvgDocument::CreateStrokeDashArray, d2d1svg/ID2D1SvgDocument::CreateStrokeDashArray, direct2d.id2d1svgdocument_createstrokedasharray
 ms.prod: windows-hardware
 ms.technology: windows-devices

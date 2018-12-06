@@ -7,7 +7,7 @@ old-location: security\wlxswitchdesktoptouser.htm
 tech.root: secauthn
 ms.assetid: ec353e23-7e33-4af2-93ea-35801a19d9aa
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PWLX_SWITCH_DESKTOP_TO_USER, PWLX_SWITCH_DESKTOP_TO_USER callback, WlxSwitchDesktopToUser, WlxSwitchDesktopToUser callback function [Security], _gina_wlxswitchdesktoptouser, security.wlxswitchdesktoptouser, winwlx/WlxSwitchDesktopToUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

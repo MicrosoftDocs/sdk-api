@@ -7,7 +7,7 @@ old-location: mf\imfplugincontrol2.htm
 tech.root: medfound
 ms.assetid: 15BD57FC-7CEF-45DC-AF94-3E54A3A9477A
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IMFPluginControl2, IMFPluginControl2 interface [Media Foundation], IMFPluginControl2 interface [Media Foundation],described, mf.imfplugincontrol2, mfobjects/IMFPluginControl2
 ms.prod: windows-hardware
 ms.technology: windows-devices

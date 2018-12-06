@@ -7,7 +7,7 @@ old-location: mf\imftopology_addnode.htm
 tech.root: medfound
 ms.assetid: 5e519524-f5c5-4d4d-922f-166f9e616631
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: 5e519524-f5c5-4d4d-922f-166f9e616631, AddNode, AddNode method [Media Foundation], AddNode method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],AddNode method, IMFTopology.AddNode, IMFTopology::AddNode, mf.imftopology_addnode, mfidl/IMFTopology::AddNode
 ms.prod: windows-hardware
 ms.technology: windows-devices

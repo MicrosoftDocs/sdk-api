@@ -7,7 +7,7 @@ old-location: mstv\idtfilter2_get_challengeurl.htm
 tech.root: mstv
 ms.assetid: 46bb9197-839a-4a49-98b5-c51164651868
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDTFilter2 interface [Microsoft TV Technologies],get_ChallengeUrl method, IDTFilter2.get_ChallengeUrl, IDTFilter2::get_ChallengeUrl, IDTFilter2get_ChallengeUrl, encdec/IDTFilter2::get_ChallengeUrl, get_ChallengeUrl, get_ChallengeUrl method [Microsoft TV Technologies], get_ChallengeUrl method [Microsoft TV Technologies],IDTFilter2 interface, mstv.idtfilter2_get_challengeurl
 ms.prod: windows-hardware
 ms.technology: windows-devices

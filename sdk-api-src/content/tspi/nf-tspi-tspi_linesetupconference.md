@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetupconference.htm
 tech.root: tapi
 ms.assetid: 71b9720b-54dc-44a7-9fad-38dcd9f57ab3
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_lineSetupConference, TSPI_lineSetupConference function [TAPI 2.2], _tspi_tspi_linesetupconference, tspi.tspi_linesetupconference, tspi/TSPI_lineSetupConference
 ms.prod: windows-hardware
 ms.technology: windows-devices

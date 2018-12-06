@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionmanager2.htm
 tech.root: CoreAudio
 ms.assetid: 476dac90-d0c4-499c-973e-33ea55546659
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAudioSessionManager2, IAudioSessionManager2 interface [Core Audio], IAudioSessionManager2 interface [Core Audio],described, audiopolicy/IAudioSessionManager2, coreaudio.iaudiosessionmanager2
 ms.prod: windows-hardware
 ms.technology: windows-devices

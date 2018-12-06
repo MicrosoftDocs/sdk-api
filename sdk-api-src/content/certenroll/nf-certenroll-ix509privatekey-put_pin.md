@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_pin.htm
 tech.root: seccertenroll
 ms.assetid: d81fad8a-767d-48c8-874a-c34843600b13
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IX509PrivateKey interface [Security],Pin property, IX509PrivateKey.Pin, IX509PrivateKey.put_Pin, IX509PrivateKey::Pin, IX509PrivateKey::put_Pin, Pin property [Security], Pin property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Pin, certenroll/IX509PrivateKey::put_Pin, put_Pin, security.ix509privatekey_pin
 ms.prod: windows-hardware
 ms.technology: windows-devices

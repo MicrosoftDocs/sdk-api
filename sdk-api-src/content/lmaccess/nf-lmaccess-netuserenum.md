@@ -7,7 +7,7 @@ old-location: netmgmt\netuserenum.htm
 tech.root: netmgmt
 ms.assetid: b26ef3c0-934a-4840-8c06-4eaff5c9ff86
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 3, FILTER_INTERDOMAIN_TRUST_ACCOUNT, FILTER_NORMAL_ACCOUNT, FILTER_SERVER_TRUST_ACCOUNT, FILTER_TEMP_DUPLICATE_ACCOUNT, FILTER_WORKSTATION_TRUST_ACCOUNT, NetUserEnum, NetUserEnum function [Network Management], _win32_netuserenum, lmaccess/NetUserEnum, netmgmt.netuserenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

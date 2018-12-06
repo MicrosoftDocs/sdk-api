@@ -7,7 +7,7 @@ old-location: buses\winusb_starttrackingfortimesync.htm
 tech.root: usbref
 ms.assetid: FC19CDFD-76F1-49E3-A212-E4F490D679E6
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: WinUsb_StartTrackingForTimeSync, WinUsb_StartTrackingForTimeSync function [Buses], buses.winusb_starttrackingfortimesync, winusb/WinUsb_StartTrackingForTimeSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\iemailaction_server.htm
 tech.root: taskschd
 ms.assetid: c781f189-f27b-4f37-af53-144e1ae8cb75
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEmailAction interface [Task Scheduler],Server property, IEmailAction.Server, IEmailAction.put_Server, IEmailAction::Server, IEmailAction::get_Server, IEmailAction::put_Server, Server property [Task Scheduler], Server property [Task Scheduler],IEmailAction interface, put_Server, taskschd.iemailaction_server, taskschd/IEmailAction::Server, taskschd/IEmailAction::get_Server, taskschd/IEmailAction::put_Server
 ms.prod: windows-hardware
 ms.technology: windows-devices

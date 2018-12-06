@@ -7,7 +7,7 @@ old-location: wcs\getcolorspace.htm
 tech.root: WCS
 ms.assetid: 6d092755-2c7a-46a7-9127-df72c26c3ae9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetColorSpace, GetColorSpace function [Windows Color System], _color_GetColorSpace, wcs.getcolorspace, wingdi/GetColorSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\vds_create_vdisk_parameters.htm
 tech.root: vds
 ms.assetid: 7ee830d5-6392-4e66-a8bb-2fd92c1e092c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVDS_CREATE_VDISK_PARAMETERS, PVDS_CREATE_VDISK_PARAMETERS, PVDS_CREATE_VDISK_PARAMETERS structure pointer, VDS_CREATE_VDISK_PARAMETERS, VDS_CREATE_VDISK_PARAMETERS structure, _VDS_CREATE_VDISK_PARAMETERS, base.vds_create_vdisk_parameters, vds/PVDS_CREATE_VDISK_PARAMETERS, vds/VDS_CREATE_VDISK_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

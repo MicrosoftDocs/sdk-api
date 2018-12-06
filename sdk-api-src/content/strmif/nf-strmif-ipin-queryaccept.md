@@ -7,7 +7,7 @@ old-location: dshow\ipin_queryaccept.htm
 tech.root: DirectShow
 ms.assetid: ed11eeef-464b-4a75-958b-2bc6dbc7af04
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IPin interface [DirectShow],QueryAccept method, IPin.QueryAccept, IPin::QueryAccept, IPinQueryAccept, QueryAccept, QueryAccept method [DirectShow], QueryAccept method [DirectShow],IPin interface, dshow.ipin_queryaccept, strmif/IPin::QueryAccept
 ms.prod: windows-hardware
 ms.technology: windows-devices

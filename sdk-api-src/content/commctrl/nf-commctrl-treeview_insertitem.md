@@ -7,7 +7,7 @@ old-location: controls\TreeView_InsertItem.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_insertitem.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: TreeView_InsertItem, TreeView_InsertItem macro [Windows Controls], _win32_TreeView_InsertItem, _win32_TreeView_InsertItem_cpp, commctrl/TreeView_InsertItem, controls.TreeView_InsertItem, controls._win32_TreeView_InsertItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

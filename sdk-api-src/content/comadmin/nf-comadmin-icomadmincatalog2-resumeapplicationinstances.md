@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_resumeapplicationinstances.htm
 tech.root: cossdk
 ms.assetid: 675ecabc-1414-4cf6-b691-805e9a5cb61c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],ResumeApplicationInstances method, ICOMAdminCatalog2.ResumeApplicationInstances, ICOMAdminCatalog2::ResumeApplicationInstances, ResumeApplicationInstances, ResumeApplicationInstances method [COM+], ResumeApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ResumeApplicationInstances, comadmin/ICOMAdminCatalog2::ResumeApplicationInstances, cos.icomadmincatalog2_resumeapplicationinstances
 ms.prod: windows-hardware
 ms.technology: windows-devices

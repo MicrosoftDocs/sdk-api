@@ -7,7 +7,7 @@ old-location: netmgmt\netconfigset.htm
 tech.root: netmgmt
 ms.assetid: a3615699-a84b-4be1-85a0-497bf73223e6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: NetConfigSet, NetConfigSet function [Network Management], _win32_netconfigset, lmconfig/NetConfigSet, netmgmt.netconfigset
 ms.prod: windows-hardware
 ms.technology: windows-devices

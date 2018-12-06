@@ -7,7 +7,7 @@ old-location: adsi\iadsproperty_qualifiers.htm
 tech.root: adsi
 ms.assetid: 48645dda-ba1e-47fa-b483-120ba982451e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IADsProperty interface [ADSI],Qualifiers method, IADsProperty.Qualifiers, IADsProperty::Qualifiers, Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI],IADsProperty interface, _ds_iadsproperty_qualifiers, adsi.iadsproperty__qualifiers, adsi.iadsproperty_qualifiers, iads/IADsProperty::Qualifiers
 ms.prod: windows-hardware
 ms.technology: windows-devices

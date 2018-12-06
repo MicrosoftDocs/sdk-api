@@ -7,7 +7,7 @@ old-location: mstv\ibda_mux.htm
 tech.root: mstv
 ms.assetid: 5dde7b14-d5a4-4db5-b91f-d6bfd4be269d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_MUX, IBDA_MUX interface [Microsoft TV Technologies], IBDA_MUX interface [Microsoft TV Technologies],described, bdaiface/IBDA_MUX, mstv.ibda_mux
 ms.prod: windows-hardware
 ms.technology: windows-devices

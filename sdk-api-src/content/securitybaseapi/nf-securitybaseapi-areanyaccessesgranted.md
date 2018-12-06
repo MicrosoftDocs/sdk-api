@@ -7,7 +7,7 @@ old-location: security\areanyaccessesgranted.htm
 tech.root: secauthz
 ms.assetid: 4bac6ebc-716a-4725-b9e6-a109b27dfc18
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AreAnyAccessesGranted, AreAnyAccessesGranted function [Security], _win32_areanyaccessesgranted, security.areanyaccessesgranted, securitybaseapi/AreAnyAccessesGranted
 ms.prod: windows-hardware
 ms.technology: windows-devices

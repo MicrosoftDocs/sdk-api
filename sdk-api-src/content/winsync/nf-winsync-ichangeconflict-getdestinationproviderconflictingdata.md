@@ -7,7 +7,7 @@ old-location: winsync\ichangeconflict_getdestinationproviderconflictingdata.htm
 tech.root: winsync
 ms.assetid: 7a63d554-56e0-4c39-94ea-613fecc97331
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetDestinationProviderConflictingData, GetDestinationProviderConflictingData method [Windows Sync], GetDestinationProviderConflictingData method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetDestinationProviderConflictingData method, IChangeConflict.GetDestinationProviderConflictingData, IChangeConflict::GetDestinationProviderConflictingData, winsync.ichangeconflict_getdestinationproviderconflictingdata, winsync/IChangeConflict::GetDestinationProviderConflictingData
 ms.prod: windows-hardware
 ms.technology: windows-devices

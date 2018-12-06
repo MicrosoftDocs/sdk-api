@@ -7,7 +7,7 @@ old-location: ncd\wsd_event_struct.htm
 tech.root: wsdapi
 ms.assetid: d8697474-bfe5-4704-b1ac-15cf96f2ca92
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_EVENT, WSD_EVENT structure, _WSD_EVENT, ncd.wsd_event_struct, wsdtypes/WSD_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\IsPropVariantString.htm
 tech.root: properties
 ms.assetid: 3f580098-6bfb-41bd-b43d-986ee00b9c75
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IsPropVariantString, IsPropVariantString function [Windows Properties], properties.IsPropVariantString, propvarutil/IsPropVariantString, shell.IsPropVariantString, shell_IsPropVariantString
 ms.prod: windows-hardware
 ms.technology: windows-devices

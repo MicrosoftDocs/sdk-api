@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_showpopup.htm
 tech.root: WMP
 ms.assetid: 93b2938c-e3e7-4c9f-92b1-a0b37ed573e6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],ShowPopup method, IWMPContentPartnerCallback.ShowPopup, IWMPContentPartnerCallback::ShowPopup, IWMPContentPartnerCallbackShowPopup, ShowPopup, ShowPopup method [Windows Media Player], ShowPopup method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::ShowPopup, wmp.iwmpcontentpartnercallback_showpopup
 ms.prod: windows-hardware
 ms.technology: windows-devices

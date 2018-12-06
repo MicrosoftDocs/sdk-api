@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_initialize.htm
 tech.root: seccertenroll
 ms.assetid: b0d848a2-1bac-4a30-ae02-26d5af719688
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentPolicyServer interface [Security],Initialize method, IX509EnrollmentPolicyServer.Initialize, IX509EnrollmentPolicyServer::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentPolicyServer interface, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::Initialize, security.ix509enrollmentpolicyserver_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

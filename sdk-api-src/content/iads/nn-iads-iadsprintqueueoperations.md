@@ -7,7 +7,7 @@ old-location: adsi\iadsprintqueueoperations.htm
 tech.root: adsi
 ms.assetid: 97495455-a576-4984-beb8-9282073e88c2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPrintQueueOperations, IADsPrintQueueOperations interface [ADSI], IADsPrintQueueOperations interface [ADSI],described, _ds_iadsprintqueueoperations, adsi.iadsprintqueueoperations, iads/IADsPrintQueueOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

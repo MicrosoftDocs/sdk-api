@@ -7,7 +7,7 @@ old-location: mstv\impeg2data_gettable.htm
 tech.root: mstv
 ms.assetid: c76a9117-5dd7-46fc-8390-3f1ec80f6499
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IMpeg2Data interface, IMpeg2Data interface [Microsoft TV Technologies],GetTable method, IMpeg2Data.GetTable, IMpeg2Data::GetTable, IMpeg2DataGetTable, mpeg2data/IMpeg2Data::GetTable, mstv.impeg2data_gettable
 ms.prod: windows-hardware
 ms.technology: windows-devices

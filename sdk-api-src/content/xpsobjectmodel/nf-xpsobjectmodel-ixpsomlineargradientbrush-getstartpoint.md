@@ -7,7 +7,7 @@ old-location: xps\ixpsomlineargradientbrush_getstartpoint.htm
 tech.root: printdocs
 ms.assetid: 03e9884b-6249-4ccb-a6ee-d360655c5f75
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetStartPoint, GetStartPoint method [XPS Documents and Packaging], GetStartPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],GetStartPoint method, IXpsOMLinearGradientBrush.GetStartPoint, IXpsOMLinearGradientBrush::GetStartPoint, xps.ixpsomlineargradientbrush_getstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetStartPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfintegratablecandidatelistuielement_onkeydown.htm
 tech.root: TSF
 ms.assetid: EF6A8FB1-9B48-44BE-A1B4-AA3F2EA0F6BA
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],OnKeyDown method, ITfIntegratableCandidateListUIElement.OnKeyDown, ITfIntegratableCandidateListUIElement::OnKeyDown, OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::OnKeyDown, tsf.itfintegratablecandidatelistuielement_onkeydown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\iwsdhttpaddress_getsecure.htm
 tech.root: wsdapi
 ms.assetid: aaf9e918-7d1c-4457-94f8-888a99f07c18
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetSecure, GetSecure method, GetSecure method,IWSDHttpAddress interface, IWSDHttpAddress interface,GetSecure method, IWSDHttpAddress.GetSecure, IWSDHttpAddress::GetSecure, ncd.iwsdhttpaddress_getsecure, wsdbase/IWSDHttpAddress::GetSecure
 ms.prod: windows-hardware
 ms.technology: windows-devices

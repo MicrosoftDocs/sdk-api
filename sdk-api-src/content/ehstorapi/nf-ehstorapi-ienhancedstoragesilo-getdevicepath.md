@@ -7,7 +7,7 @@ old-location: enstor\ienhancedstoragesilo_getdevicepath.htm
 tech.root: enstor
 ms.assetid: 98ef04a1-d14d-4de3-b24a-0f044335d75b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetDevicePath, GetDevicePath method [Enhanced Storage], GetDevicePath method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetDevicePath method, IEnhancedStorageSilo.GetDevicePath, IEnhancedStorageSilo::GetDevicePath, ehstorapi/IEnhancedStorageSilo::GetDevicePath, enstor.ienhancedstoragesilo_getdevicepath
 ms.prod: windows-hardware
 ms.technology: windows-devices

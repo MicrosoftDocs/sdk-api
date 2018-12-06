@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncchanges.htm
 tech.root: winsync
 ms.assetid: c3f27c6d-4fc1-420c-afc1-0bd2bdbd6ab2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumSyncChanges, IEnumSyncChanges interface [Windows Sync], IEnumSyncChanges interface [Windows Sync],described, winsync.ienumsyncchanges, winsync/IEnumSyncChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

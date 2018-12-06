@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorageglobals_getserialnumber.htm
 tech.root: WMDM
 ms.assetid: 13783d0e-82e6-4340-bb06-85b8d3d06b5c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetSerialNumber method, IWMDMStorageGlobals.GetSerialNumber, IWMDMStorageGlobals::GetSerialNumber, IWMDMStorageGlobalsGetSerialNumber, mswmdm/IWMDMStorageGlobals::GetSerialNumber, wmdm.iwmdmstorageglobals_getserialnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

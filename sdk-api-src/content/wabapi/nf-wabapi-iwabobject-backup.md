@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject_Backup.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\backup.htm
 ms.author: windowssdkdev
-ms.date: 11/28/2018
+ms.date: 12/5/2018
 ms.keywords: Backup, Backup method [Windows Address Book], Backup method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],Backup method, IWABObject.Backup, IWABObject::Backup, _wab_IWABObject_Backup, wab._wab_IWABObject_Backup, wabapi/IWABObject::Backup
 ms.prod: windows-hardware
 ms.technology: windows-devices

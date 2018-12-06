@@ -7,7 +7,7 @@ old-location: rdc\irdclibrary_opengeneratorparameters.htm
 tech.root: rdc
 ms.assetid: 6fbced31-a230-44d4-a9ee-bb3e15df2563
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRdcLibrary interface [Remote Differential Compression],OpenGeneratorParameters method, IRdcLibrary.OpenGeneratorParameters, IRdcLibrary::OpenGeneratorParameters, OpenGeneratorParameters, OpenGeneratorParameters method [Remote Differential Compression], OpenGeneratorParameters method [Remote Differential Compression],IRdcLibrary interface, fs.irdclibrary_opengeneratorparameters, msrdc/IRdcLibrary::OpenGeneratorParameters, rdc.irdclibrary_opengeneratorparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\exit_process_debug_info_str.htm
 tech.root: debug
 ms.assetid: 91a7f4bf-88c7-4a57-b0d0-0d379d967baf
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPEXIT_PROCESS_DEBUG_INFO, EXIT_PROCESS_DEBUG_INFO, EXIT_PROCESS_DEBUG_INFO structure, LPEXIT_PROCESS_DEBUG_INFO, LPEXIT_PROCESS_DEBUG_INFO structure pointer, _EXIT_PROCESS_DEBUG_INFO, _win32_exit_process_debug_info_str, base.exit_process_debug_info_str, minwinbase/EXIT_PROCESS_DEBUG_INFO, minwinbase/LPEXIT_PROCESS_DEBUG_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

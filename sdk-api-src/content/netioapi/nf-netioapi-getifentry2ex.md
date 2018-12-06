@@ -7,7 +7,7 @@ old-location: iphlp\getifentry2ex.htm
 tech.root: IpHlp
 ms.assetid: 98C25986-1B38-4878-B578-3D30394F49E4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetIfEntry2Ex, GetIfEntry2Ex function [IP Helper], MibIfEntryNormal, MibIfEntryNormalWithoutStatistics, iphlp.getifentry2ex, netioapi/GetIfEntry2Ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

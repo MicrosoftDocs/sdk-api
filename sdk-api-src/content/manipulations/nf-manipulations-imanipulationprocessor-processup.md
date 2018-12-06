@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_processup.htm
 tech.root: wintouch
 ms.assetid: c93f6729-5e50-41a1-867c-93e4ce9ecda9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessUp method, IManipulationProcessor.ProcessUp, IManipulationProcessor::ProcessUp, ProcessUp, ProcessUp method [Windows Touch], ProcessUp method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessUp, wintouch.imanipulationprocessor_processup
 ms.prod: windows-hardware
 ms.technology: windows-devices

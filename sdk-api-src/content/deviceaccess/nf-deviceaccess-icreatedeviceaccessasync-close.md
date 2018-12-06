@@ -7,7 +7,7 @@ old-location: deviceaccess\icreatedeviceaccessasync_close.htm
 tech.root: deviceaccess
 ms.assetid: 58887745-6a36-4600-9a1b-f9709a0e37e8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Close, Close method [Device Access Broker API], Close method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],Close method, ICreateDeviceAccessAsync.Close, ICreateDeviceAccessAsync::Close, deviceaccess.icreatedeviceaccessasync_close, deviceaccess/ICreateDeviceAccessAsync::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

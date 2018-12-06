@@ -7,7 +7,7 @@ old-location: base\deviceiocontrol.htm
 tech.root: devio
 ms.assetid: 1d35c087-6672-4fc6-baa1-a886dd9d3878
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 12/5/2018
 ms.keywords: DeviceIoControl, DeviceIoControl function, _win32_deviceiocontrol, base.deviceiocontrol, ioapiset/DeviceIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

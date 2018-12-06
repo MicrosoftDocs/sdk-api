@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_write.htm
 tech.root: WMDM
 ms.assetid: 29f16be5-9304-4b09-86e8-3f9e0e591a41
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Write method, IMDSPObject.Write, IMDSPObject::Write, IMDSPObjectWrite, Write, Write method [windows Media Device Manager], Write method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Write, wmdm.imdspobject_write
 ms.prod: windows-hardware
 ms.technology: windows-devices

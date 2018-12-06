@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage2_getattributes2.htm
 tech.root: WMDM
 ms.assetid: 8212ab78-0a2a-41cd-8a7c-da6e3886b586
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetAttributes2, GetAttributes2 method [windows Media Device Manager], GetAttributes2 method [windows Media Device Manager],IWMDMStorage2 interface, IWMDMStorage2 interface [windows Media Device Manager],GetAttributes2 method, IWMDMStorage2.GetAttributes2, IWMDMStorage2::GetAttributes2, IWMDMStorage2GetAttributes2, mswmdm/IWMDMStorage2::GetAttributes2, wmdm.iwmdmstorage2_getattributes2
 ms.prod: windows-hardware
 ms.technology: windows-devices

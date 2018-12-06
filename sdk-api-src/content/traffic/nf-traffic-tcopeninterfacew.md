@@ -7,7 +7,7 @@ old-location: qos\tcopeninterface.htm
 tech.root: QOS
 ms.assetid: 8c7e658c-862f-4715-9ba5-ac079db924a1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TcOpenInterface, TcOpenInterface function [QOS], TcOpenInterfaceA, TcOpenInterfaceW, _gqos_tcopeninterface, qos.tcopeninterface, traffic/TcOpenInterface, traffic/TcOpenInterfaceA, traffic/TcOpenInterfaceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

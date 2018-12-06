@@ -7,7 +7,7 @@ old-location: security\ix509endorsementkey_addcertificate.htm
 tech.root: seccertenroll
 ms.assetid: 24621d53-c435-43e9-b709-619908f09f3b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddCertificate, AddCertificate method [Security], AddCertificate method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],AddCertificate method, IX509EndorsementKey.AddCertificate, IX509EndorsementKey::AddCertificate, certenroll/IX509EndorsementKey::AddCertificate, security.ix509endorsementkey_addcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

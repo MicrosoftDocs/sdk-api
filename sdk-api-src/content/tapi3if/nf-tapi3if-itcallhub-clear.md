@@ -7,7 +7,7 @@ old-location: tapi3\itcallhub_clear.htm
 tech.root: tapi
 ms.assetid: 87799da3-73c3-469a-badf-884dcfe774e0
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [TAPI 2.2], Clear method [TAPI 2.2],ITCallHub interface, ITCallHub interface [TAPI 2.2],Clear method, ITCallHub.Clear, ITCallHub::Clear, _tapi3_itcallhub_clear, tapi3.itcallhub_clear, tapi3if/ITCallHub::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

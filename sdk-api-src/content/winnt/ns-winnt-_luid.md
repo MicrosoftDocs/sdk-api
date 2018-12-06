@@ -7,7 +7,7 @@ old-location: security\luid.htm
 tech.root: secauthz
 ms.assetid: a812a46b-f23f-45b1-a6c6-48f931b78750
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PLUID, LUID, LUID structure [Security], PLUID, PLUID structure pointer [Security], _LUID, _win32_luid_str, security.luid, winnt/LUID, winnt/PLUID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

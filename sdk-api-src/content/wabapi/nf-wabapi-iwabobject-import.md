@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject_Import.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\import.htm
 ms.author: windowssdkdev
-ms.date: 11/28/2018
+ms.date: 12/5/2018
 ms.keywords: IWABObject interface [Windows Address Book],Import method, IWABObject.Import, IWABObject::Import, Import, Import method [Windows Address Book], Import method [Windows Address Book],IWABObject interface, _wab_IWABObject_Import, wab._wab_IWABObject_Import, wabapi/IWABObject::Import
 ms.prod: windows-hardware
 ms.technology: windows-devices

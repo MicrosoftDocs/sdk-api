@@ -7,7 +7,7 @@ old-location: winsock\wspgetoverlappedresult_2.htm
 tech.root: winsock
 ms.assetid: 8156b8ab-00f8-4325-9b81-3e43053f4f56
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: LPWSPGETOVERLAPPEDRESULT, WSPGetOverlappedResult, WSPGetOverlappedResult function [Winsock], _win32_wspgetoverlappedresult_2, winsock.wspgetoverlappedresult_2, ws2spi/WSPGetOverlappedResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

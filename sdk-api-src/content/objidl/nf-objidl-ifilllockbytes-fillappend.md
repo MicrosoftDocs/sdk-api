@@ -7,7 +7,7 @@ old-location: stg\ifilllockbytes_fillappend.htm
 tech.root: stg
 ms.assetid: 3f25c48f-85a4-4778-b262-ad0c52cb1ac9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FillAppend, FillAppend method [Structured Storage], FillAppend method [Structured Storage],IFillLockBytes interface, IFillLockBytes interface [Structured Storage],FillAppend method, IFillLockBytes.FillAppend, IFillLockBytes::FillAppend, _stg_ifilllockbytes_fillappend, objidl/IFillLockBytes::FillAppend, stg.ifilllockbytes_fillappend
 ms.prod: windows-hardware
 ms.technology: windows-devices

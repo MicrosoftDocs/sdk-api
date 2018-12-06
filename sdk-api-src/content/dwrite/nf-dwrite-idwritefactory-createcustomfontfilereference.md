@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateCustomFontFileReference.htm
 tech.root: DirectWrite
 ms.assetid: 1c82ffcd-3e43-47cd-9a6c-ff8bd1d2625f
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreateCustomFontFileReference, CreateCustomFontFileReference method [Direct Write], CreateCustomFontFileReference method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateCustomFontFileReference method, IDWriteFactory.CreateCustomFontFileReference, IDWriteFactory::CreateCustomFontFileReference, directwrite.IDWriteFactory_CreateCustomFontFileReference, dwrite/IDWriteFactory::CreateCustomFontFileReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

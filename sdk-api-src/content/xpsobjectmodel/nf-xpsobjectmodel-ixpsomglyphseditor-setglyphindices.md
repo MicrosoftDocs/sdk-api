@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphseditor_setglyphindices.htm
 tech.root: printdocs
 ms.assetid: a95aaf48-9a55-4a62-b8e1-7b8d077f1b2e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetGlyphIndices method, IXpsOMGlyphsEditor.SetGlyphIndices, IXpsOMGlyphsEditor::SetGlyphIndices, SetGlyphIndices, SetGlyphIndices method [XPS Documents and Packaging], SetGlyphIndices method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setglyphindices, xpsobjectmodel/IXpsOMGlyphsEditor::SetGlyphIndices
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem.htm
 tech.root: taskschd
 ms.assetid: e668833a-094d-4504-90a0-87912a6a53c2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], IScheduledWorkItem interface [Task Scheduler],described, _msb_ischeduledworkitem, mstask/IScheduledWorkItem, taskschd.ischeduledworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

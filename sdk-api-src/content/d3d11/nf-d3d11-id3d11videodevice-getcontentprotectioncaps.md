@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_getcontentprotectioncaps.htm
 tech.root: medfound
 ms.assetid: 3BF2D2B9-6A12-4E71-9F52-829BABA32EF6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_CRYPTO_TYPE_AES128_CTR, GetContentProtectionCaps, GetContentProtectionCaps method [Media Foundation], GetContentProtectionCaps method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetContentProtectionCaps method, ID3D11VideoDevice.GetContentProtectionCaps, ID3D11VideoDevice::GetContentProtectionCaps, d3d11/ID3D11VideoDevice::GetContentProtectionCaps, mf.id3d11videodevice_getcontentprotectioncaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11VideoDevice.GetContentProtectionCaps
-: 
 ---
 
 # ID3D11VideoDevice::GetContentProtectionCaps

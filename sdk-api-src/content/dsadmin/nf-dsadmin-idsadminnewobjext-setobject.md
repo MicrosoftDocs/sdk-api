@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobjext_setobject.htm
 tech.root: ad
 ms.assetid: e6dbb0ed-e20e-49c7-8247-d5688be93d8e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDsAdminNewObjExt interface [Active Directory],SetObject method, IDsAdminNewObjExt.SetObject, IDsAdminNewObjExt::SetObject, SetObject, SetObject method [Active Directory], SetObject method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_setobject, ad.idsadminnewobjext__setobject, ad.idsadminnewobjext_setobject, dsadmin/IDsAdminNewObjExt::SetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

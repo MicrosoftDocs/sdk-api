@@ -7,7 +7,7 @@ old-location: ics\inetsharingeveryconnectioncollection.htm
 tech.root: ics
 ms.assetid: a53c15f0-c7f3-49ea-a85d-663ad4b12f6e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INetSharingEveryConnectionCollection, INetSharingEveryConnectionCollection interface [ICS/ICF], INetSharingEveryConnectionCollection interface [ICS/ICF],described, _ics_inetsharingeveryconnectioncollection, ics.inetsharingeveryconnectioncollection, netcon/INetSharingEveryConnectionCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

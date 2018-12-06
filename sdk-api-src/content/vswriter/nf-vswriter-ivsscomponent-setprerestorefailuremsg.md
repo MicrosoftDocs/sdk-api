@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_setprerestorefailuremsg.htm
 tech.root: vss
 ms.assetid: 5b273cba-9878-4494-81ef-af1367f1e0a5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssComponent interface [VSS],SetPreRestoreFailureMsg method, IVssComponent.SetPreRestoreFailureMsg, IVssComponent::SetPreRestoreFailureMsg, SetPreRestoreFailureMsg, SetPreRestoreFailureMsg method [VSS], SetPreRestoreFailureMsg method [VSS],IVssComponent interface, _win32_ivsscomponent_setprerestorefailuremsg, base.ivsscomponent_setprerestorefailuremsg, vswriter/IVssComponent::SetPreRestoreFailureMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

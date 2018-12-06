@@ -7,7 +7,7 @@ old-location: wua\icategory.htm
 tech.root: wua_sdk
 ms.assetid: 1ae4ab27-97f3-494b-acd2-991dccf56011
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ICategory, ICategory interface [Windows Update Agent], ICategory interface [Windows Update Agent],described, wua.icategory, wuapi/ICategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

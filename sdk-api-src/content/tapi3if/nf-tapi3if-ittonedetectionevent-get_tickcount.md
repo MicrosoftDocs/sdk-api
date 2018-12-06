@@ -7,7 +7,7 @@ old-location: tapi3\ittonedetectionevent_get_tickcount.htm
 tech.root: tapi
 ms.assetid: 01a00b2c-d4b0-4de0-91b8-0741ed1fd300
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITToneDetectionEvent interface [TAPI 2.2],get_TickCount method, ITToneDetectionEvent.get_TickCount, ITToneDetectionEvent::get_TickCount, _tapi3_ittonedetectionevent_get_tickcount, get_TickCount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2],ITToneDetectionEvent interface, tapi3.ittonedetectionevent_get_tickcount, tapi3if/ITToneDetectionEvent::get_TickCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

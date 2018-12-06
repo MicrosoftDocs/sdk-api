@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsVisible_INT_x_INT_y_Graphics
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisvisiblemethods\isvisible_86intx_inty_graphicsg.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GraphicsPath class [GDI+],IsVisible method, GraphicsPath.IsVisible, GraphicsPath.IsVisible(IN INT,IN INT,IN const Graphics), GraphicsPath.IsVisible(INT,INT,const Graphics*), GraphicsPath::IsVisible, GraphicsPath::IsVisible(IN INT,IN INT,IN const Graphics), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_IsVisible_INT_x_INT_y_Graphics_g_, gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_INT_x_INT_y_Graphics_g_
 ms.prod: windows-hardware
 ms.technology: windows-devices

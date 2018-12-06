@@ -7,7 +7,7 @@ old-location: webdav\davgetextendederror.htm
 tech.root: WebDAV
 ms.assetid: 939b6163-b7ae-4ab7-9bcc-a02cbf34ca63
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DavGetExtendedError, DavGetExtendedError function [WebDAV], davclnt/DavGetExtendedError, webdav.davgetextendederror
 ms.prod: windows-hardware
 ms.technology: windows-devices

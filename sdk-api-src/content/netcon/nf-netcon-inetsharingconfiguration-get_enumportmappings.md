@@ -7,7 +7,7 @@ old-location: ics\inetsharingconfiguration_enumportmappings.htm
 tech.root: ics
 ms.assetid: f5465acc-2b36-47d1-b48f-b36df3a8efb3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_EnumPortMappings method, INetSharingConfiguration.get_EnumPortMappings, INetSharingConfiguration::get_EnumPortMappings, _ics_inetsharingconfiguration_enumportmappings, get_EnumPortMappings, get_EnumPortMappings method [ICS/ICF], get_EnumPortMappings method [ICS/ICF],INetSharingConfiguration interface, ics.inetsharingconfiguration_enumportmappings, netcon/INetSharingConfiguration::get_EnumPortMappings
 ms.prod: windows-hardware
 ms.technology: windows-devices

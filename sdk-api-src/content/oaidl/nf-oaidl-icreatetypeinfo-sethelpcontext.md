@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_sethelpcontext.htm
 tech.root: automat
 ms.assetid: 8f61500a-29b5-48e4-b8ee-584cf5430274
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetHelpContext method, ICreateTypeInfo.SetHelpContext, ICreateTypeInfo::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetHelpContext, automat.icreatetypeinfo_sethelpcontext, oaidl/ICreateTypeInfo::SetHelpContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

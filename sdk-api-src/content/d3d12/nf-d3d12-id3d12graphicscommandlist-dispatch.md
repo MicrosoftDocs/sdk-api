@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_dispatch.htm
 tech.root: direct3d12
 ms.assetid: 948EE430-6B34-473D-9B5F-1C78CECFBF6F
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: Dispatch, Dispatch method, Dispatch method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,Dispatch method, ID3D12GraphicsCommandList.Dispatch, ID3D12GraphicsCommandList::Dispatch, d3d12/ID3D12GraphicsCommandList::Dispatch, direct3d12.id3d12graphicscommandlist_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

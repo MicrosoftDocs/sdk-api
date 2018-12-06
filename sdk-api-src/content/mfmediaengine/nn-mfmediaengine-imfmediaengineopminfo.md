@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineopminfo.htm
 tech.root: medfound
 ms.assetid: 399f81ac-38f8-4aaa-8b34-f5fd13b71402
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineOPMInfo, IMFMediaEngineOPMInfo interface [Media Foundation], IMFMediaEngineOPMInfo interface [Media Foundation],described, mf.imfmediaengineopminfo, mfmediaengine/IMFMediaEngineOPMInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

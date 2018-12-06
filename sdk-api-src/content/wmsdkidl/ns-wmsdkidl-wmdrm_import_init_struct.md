@@ -7,7 +7,7 @@ old-location: wmformat\wmdrm_import_init_struct.htm
 tech.root: wmformat
 ms.assetid: 191b844e-5760-44d7-9b27-9fa87fead90f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WMDRM_IMPORT_INIT_STRUCT, WMDRM_IMPORT_INIT_STRUCT structure [windows Media Format], structure [windows Media Format], wmformat.wmdrm_import_init_struct, wmsdkidl/WMDRM_IMPORT_INIT_STRUCT
 ms.prod: windows-hardware
 ms.technology: windows-devices

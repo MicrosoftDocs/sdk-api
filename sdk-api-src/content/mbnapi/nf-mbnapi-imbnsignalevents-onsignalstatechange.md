@@ -7,7 +7,7 @@ old-location: mbn\imbnsignalevents_onsignalstatechange.htm
 tech.root: mbn
 ms.assetid: 07e98555-03fa-4852-af65-55778dc9c477
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMbnSignalEvents interface [Microsoft Broadband Networks],OnSignalStateChange method, IMbnSignalEvents.OnSignalStateChange, IMbnSignalEvents::OnSignalStateChange, OnSignalStateChange, OnSignalStateChange method [Microsoft Broadband Networks], OnSignalStateChange method [Microsoft Broadband Networks],IMbnSignalEvents interface, mbn.imbnsignalevents_onsignalstatechange, mbnapi/IMbnSignalEvents::OnSignalStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

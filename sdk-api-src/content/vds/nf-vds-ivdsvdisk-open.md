@@ -7,7 +7,7 @@ old-location: base\ivdsvdisk_open.htm
 tech.root: vds
 ms.assetid: e633f934-8f2d-4614-b34c-87bb74ebf385
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsVDisk interface,Open method, IVdsVDisk.Open, IVdsVDisk::Open, Open, Open method, Open method,IVdsVDisk interface, base.ivdsvdisk_open, vds/IVdsVDisk::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

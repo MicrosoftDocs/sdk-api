@@ -7,7 +7,7 @@ old-location: security\x509scepdisposition.htm
 tech.root: seccertenroll
 ms.assetid: 635AAD37-261F-4F38-AD00-B3E8A5C55ABF
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: SCEPDispositionFailure, SCEPDispositionPending, SCEPDispositionSuccess, X509SCEPDisposition, X509SCEPDisposition enumeration [Security], certpol/SCEPDispositionFailure, certpol/SCEPDispositionPending, certpol/SCEPDispositionSuccess, certpol/X509SCEPDisposition, security.x509scepdisposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_resource_dimension.htm
 tech.root: direct3d11
 ms.assetid: 56f138a2-9f2b-4f3b-8619-d9f394704b8a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 6d57af93-82b7-a916-56c4-587636f7f9c4, D3D11_RESOURCE_DIMENSION, D3D11_RESOURCE_DIMENSION enumeration [Direct3D 11], D3D11_RESOURCE_DIMENSION_BUFFER, D3D11_RESOURCE_DIMENSION_TEXTURE1D, D3D11_RESOURCE_DIMENSION_TEXTURE2D, D3D11_RESOURCE_DIMENSION_TEXTURE3D, D3D11_RESOURCE_DIMENSION_UNKNOWN, d3d11/D3D11_RESOURCE_DIMENSION, d3d11/D3D11_RESOURCE_DIMENSION_BUFFER, d3d11/D3D11_RESOURCE_DIMENSION_TEXTURE1D, d3d11/D3D11_RESOURCE_DIMENSION_TEXTURE2D, d3d11/D3D11_RESOURCE_DIMENSION_TEXTURE3D, d3d11/D3D11_RESOURCE_DIMENSION_UNKNOWN, direct3d11.d3d11_resource_dimension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,7 +87,7 @@ Resource is a 3D texture.
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Ff476586(v=VS.85).aspx">ID3D11Resource::GetType</a>. 
+This enumeration is used in <a href="https://msdn.microsoft.com/8358ab9b-acf3-41cd-8812-cc15862928da">ID3D11Resource::GetType</a>. 
 
 
 
@@ -97,7 +97,7 @@ This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Ff
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476170(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
  
 
  

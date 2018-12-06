@@ -7,7 +7,7 @@ old-location: rpc\uuid_vector.htm
 tech.root: rpc
 ms.assetid: 6fc7216b-023b-4aca-a572-35cc22202522
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: UUID_VECTOR, UUID_VECTOR structure [RPC], _UUID_VECTOR, _rpc_uuid_vector, rpc.uuid_vector, rpcdce/UUID_VECTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

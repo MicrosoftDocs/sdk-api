@@ -7,7 +7,7 @@ old-location: tapi2\phonegetdata.htm
 tech.root: tapi
 ms.assetid: 9ad2f99e-73b3-4e4c-a6cd-49ca0fe775ca
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonegetdata, phoneGetData, phoneGetData function [TAPI 2.2], tapi/phoneGetData, tapi2.phonegetdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

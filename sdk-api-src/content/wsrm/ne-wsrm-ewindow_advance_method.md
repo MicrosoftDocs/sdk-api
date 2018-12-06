@@ -7,7 +7,7 @@ old-location: winsock\ewindow_advance_method.htm
 tech.root: winsock
 ms.assetid: cd6f0809-ca6b-4a83-ae21-aea1cb4a101a
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: E_WINDOW_ADVANCE_BY_TIME, E_WINDOW_USE_AS_DATA_CACHE, eWINDOW_ADVANCE_METHOD, eWINDOW_ADVANCE_METHOD enumeration [Winsock], winsock.ewindow_advance_method, wsrm/E_WINDOW_ADVANCE_BY_TIME, wsrm/E_WINDOW_USE_AS_DATA_CACHE, wsrm/eWINDOW_ADVANCE_METHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices

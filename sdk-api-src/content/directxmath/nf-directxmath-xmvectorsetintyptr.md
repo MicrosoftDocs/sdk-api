@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsetintyptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntYPtr(XMVECTOR,const uint32_t)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorSetIntYPtr, XMVectorSetIntYPtr, XMVectorSetIntYPtr method [DirectX Math Support APIs], dxmath.xmvectorsetintyptr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVectorSetIntYPtr
-: 
 ---
 
 # XMVectorSetIntYPtr function

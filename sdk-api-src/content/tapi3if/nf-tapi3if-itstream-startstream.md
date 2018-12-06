@@ -7,7 +7,7 @@ old-location: tapi3\itstream_startstream.htm
 tech.root: tapi
 ms.assetid: 23553f00-5ce5-465e-b455-8bf2d73dae9d
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITStream interface [TAPI 2.2],StartStream method, ITStream.StartStream, ITStream::StartStream, StartStream, StartStream method [TAPI 2.2], StartStream method [TAPI 2.2],ITStream interface, _tapi3_itstream_startstream, tapi3.itstream_startstream, tapi3if/ITStream::StartStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

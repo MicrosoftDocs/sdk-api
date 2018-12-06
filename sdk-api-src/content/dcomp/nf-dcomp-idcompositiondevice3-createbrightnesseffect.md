@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice3_createbrightnesseffect.htm
 tech.root: directcomp
 ms.assetid: 4BD16F01-6CF1-4634-9D68-A153C7AABFFD
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateBrightnessEffect, CreateBrightnessEffect method [DirectComposition], CreateBrightnessEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateBrightnessEffect method, IDCompositionDevice3.CreateBrightnessEffect, IDCompositionDevice3::CreateBrightnessEffect, dcomp/IDCompositionDevice3::CreateBrightnessEffect, directcomp.idcompositiondevice3_createbrightnesseffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

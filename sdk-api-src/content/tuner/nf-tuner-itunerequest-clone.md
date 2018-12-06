@@ -7,7 +7,7 @@ old-location: mstv\itunerequest_clone.htm
 tech.root: mstv
 ms.assetid: 14298e56-805d-48f3-9f78-79d4eaf2239f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],ITuneRequest interface, ITuneRequest interface [Microsoft TV Technologies],Clone method, ITuneRequest.Clone, ITuneRequest::Clone, ITuneRequestClone, mstv.itunerequest_clone, tuner/ITuneRequest::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

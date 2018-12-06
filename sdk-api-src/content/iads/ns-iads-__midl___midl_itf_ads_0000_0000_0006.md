@@ -7,7 +7,7 @@ old-location: adsi\ads_postaladdress.htm
 tech.root: adsi
 ms.assetid: ae56f4ca-e6f1-4199-83b2-6d810d24fb4a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PADS_POSTALADDRESS, ADS_POSTALADDRESS, ADS_POSTALADDRESS structure [ADSI], PADS_POSTALADDRESS, PADS_POSTALADDRESS structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0006, _ds_ads_postaladdress, adsi.ads__postaladdress, adsi.ads_postaladdress, iads/ADS_POSTALADDRESS, iads/PADS_POSTALADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

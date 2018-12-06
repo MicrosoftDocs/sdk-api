@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption_get_samistyle.htm
 tech.root: WMP
 ms.assetid: 27040145-af7a-4d09-9c80-e0907df08f01
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_SAMIStyle method, IWMPClosedCaption.get_SAMIStyle, IWMPClosedCaption::get_SAMIStyle, IWMPClosedCaptionget_SAMIStyle, get_SAMIStyle, get_SAMIStyle method [Windows Media Player], get_SAMIStyle method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_samistyle, wmp/IWMPClosedCaption::get_SAMIStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

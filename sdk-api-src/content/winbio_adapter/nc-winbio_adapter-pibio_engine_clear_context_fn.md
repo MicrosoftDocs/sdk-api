@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterclearcontext.htm
 tech.root: SecBioMet
 ms.assetid: c4ed5971-e657-4583-aac2-6263801f7468
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EngineAdapterClearContext, EngineAdapterClearContext callback function [Windows Biometric Framework API], PIBIO_ENGINE_CLEAR_CONTEXT_FN, PIBIO_ENGINE_CLEAR_CONTEXT_FN callback, secbiomet.engineadapterclearcontext, winbio_adapter/EngineAdapterClearContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

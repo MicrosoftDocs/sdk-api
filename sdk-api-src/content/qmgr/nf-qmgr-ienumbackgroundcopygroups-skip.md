@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopygroups_skip.htm
 tech.root: bits
 ms.assetid: 27e907d0-1b2a-44d2-b401-0b28d5a8b340
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Skip method, IEnumBackgroundCopyGroups.Skip, IEnumBackgroundCopyGroups::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_skip, qmgr/IEnumBackgroundCopyGroups::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_getclassqualifierset.htm
 tech.root: wmi_v2
 ms.assetid: 900ae879-a728-43a9-8dcb-de20a50f8dce
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Class_GetClassQualifierSet, MI_Class_GetClassQualifierSet function [Windows Management Infrastructure (MI)], mi/MI_Class_GetClassQualifierSet, wmi_v2.mi_class_getclassqualifierset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_Class_GetClassQualifierSet
-: 
 ---
 
 # MI_Class_GetClassQualifierSet function

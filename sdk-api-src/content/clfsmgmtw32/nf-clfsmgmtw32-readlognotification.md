@@ -7,7 +7,7 @@ old-location: fs\readlognotification.htm
 tech.root: Clfs
 ms.assetid: 08931011-511b-471b-9a4a-ebc96e963c51
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ReadLogNotification, ReadLogNotification function [Files], clfsmgmtw32/ReadLogNotification, fs.readlognotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

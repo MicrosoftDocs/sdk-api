@@ -7,7 +7,7 @@ old-location: snmp\snmputilvarbindlistfree.htm
 tech.root: SNMP
 ms.assetid: 79143aaa-26e1-4142-9c67-508d70034de2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpUtilVarBindListFree, SnmpUtilVarBindListFree function [SNMP], _snmp_snmputilvarbindlistfree, snmp.snmputilvarbindlistfree, snmp/SnmpUtilVarBindListFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

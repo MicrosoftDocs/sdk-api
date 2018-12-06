@@ -7,7 +7,7 @@ old-location: etw\controlcallback.htm
 tech.root: etw
 ms.assetid: e9f70ae6-906f-4e55-bca7-4355f1ca6091
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ControlCallback, ControlCallback callback function [ETW], WMIDPREQUEST, WMIDPREQUEST callback, WMI_DISABLE_EVENTS, WMI_ENABLE_EVENTS, _evt_controlcallback, base.controlcallback, etw.controlcallback, evntrace/ControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

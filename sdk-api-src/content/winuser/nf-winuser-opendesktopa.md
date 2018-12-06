@@ -7,7 +7,7 @@ old-location: winstation\opendesktop.htm
 tech.root: winstation
 ms.assetid: 7f805f47-1737-4f4b-a74a-9c1423b65f2c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DF_ALLOWOTHERACCOUNTHOOK, OpenDesktop, OpenDesktop function [Windows Stations and Desktops], OpenDesktopA, OpenDesktopW, _win32_opendesktop, base.opendesktop, winstation.opendesktop, winuser/OpenDesktop, winuser/OpenDesktopA, winuser/OpenDesktopW
 ms.prod: windows-hardware
 ms.technology: windows-devices

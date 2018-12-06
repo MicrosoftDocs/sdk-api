@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface2_getrecommendedrenderingmode.htm
 tech.root: DirectWrite
 ms.assetid: 351E9A18-CD14-421F-931F-7F25FBCA6B83
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecommendedRenderingMode, GetRecommendedRenderingMode method [Direct Write], GetRecommendedRenderingMode method [Direct Write],IDWriteFontFace2 interface, IDWriteFontFace2 interface [Direct Write],GetRecommendedRenderingMode method, IDWriteFontFace2.GetRecommendedRenderingMode, IDWriteFontFace2::GetRecommendedRenderingMode, directwrite.idwritefontface2_getrecommendedrenderingmode, dwrite_2/IDWriteFontFace2::GetRecommendedRenderingMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

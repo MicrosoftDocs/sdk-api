@@ -1,17 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMSHORTN4.XMSHORTN4
-title: XMSHORTN4 function
+title: XMSHORTN4::XMSHORTN4
 author: windows-sdk-content
 description: Default constructor for XMSHORTN4.
 old-location: dxmath\xmshortn4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORTN4.#ctor
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: XMSHORTN4 constructor [DirectX Math Support APIs], XMSHORTN4 constructor [DirectX Math Support APIs],XMSHORTN4 structure, XMSHORTN4 structure [DirectX Math Support APIs],XMSHORTN4 constructor, XMSHORTN4.XMSHORTN4, XMSHORTN4.XMSHORTN4(), dxmath.xmshortn4_ctor_1
+ms.date: 12/5/2018
+ms.keywords: XMSHORTN4, XMSHORTN4 constructor [DirectX Math Support APIs], XMSHORTN4 constructor [DirectX Math Support APIs],XMSHORTN4 structure, XMSHORTN4 structure [DirectX Math Support APIs],XMSHORTN4 constructor, XMSHORTN4.XMSHORTN4, XMSHORTN4.XMSHORTN4(), XMSHORTN4::XMSHORTN4, dxmath.xmshortn4_ctor_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMSHORTN4
-: 
 ---
 
-# XMSHORTN4 function
+# XMSHORTN4::XMSHORTN4
 
 
 ## -description

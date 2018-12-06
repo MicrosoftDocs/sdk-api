@@ -7,7 +7,7 @@ old-location: security\iazapplication_createrole.htm
 tech.root: secauthz
 ms.assetid: abad30e8-a483-4c29-ae87-4218882e8319
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AzApplication object [Security],CreateRole method, CreateRole, CreateRole method [Security], CreateRole method [Security],AzApplication object, CreateRole method [Security],IAzApplication interface, IAzApplication interface [Security],CreateRole method, IAzApplication.CreateRole, IAzApplication::CreateRole, azroles/IAzApplication::CreateRole, security.iazapplication_createrole
 ms.prod: windows-hardware
 ms.technology: windows-devices

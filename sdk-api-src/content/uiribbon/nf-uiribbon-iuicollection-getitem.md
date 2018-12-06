@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicollection_getitem.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\getitem.htm
 ms.author: windowssdkdev
-ms.date: 11/20/2018
+ms.date: 12/5/2018
 ms.keywords: GetItem, GetItem method [Windows Ribbon], GetItem method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],GetItem method, IUICollection.GetItem, IUICollection::GetItem, scenicintent_IUICollection_GetItem, uiribbon/IUICollection::GetItem, windowsribbon.windowsribbon_iuicollection_getitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

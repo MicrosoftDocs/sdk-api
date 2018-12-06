@@ -7,7 +7,7 @@ old-location: base\ivdsopenvdisk_merge.htm
 tech.root: vds
 ms.assetid: b513e904-a6ff-494e-9f63-b5158467b245
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsOpenVDisk interface,Merge method, IVdsOpenVDisk.Merge, IVdsOpenVDisk::Merge, Merge, Merge method, Merge method,IVdsOpenVDisk interface, base.ivdsopenvdisk_merge, vds/IVdsOpenVDisk::Merge
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamclockslave.htm
 tech.root: DirectShow
 ms.assetid: 7b3d0f93-09dd-4a36-a031-70f61402c314
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAMClockSlave, IAMClockSlave interface [DirectShow], IAMClockSlave interface [DirectShow],described, IAMClockSlaveInterface, dshow.iamclockslave, strmif/IAMClockSlave
 ms.prod: windows-hardware
 ms.technology: windows-devices

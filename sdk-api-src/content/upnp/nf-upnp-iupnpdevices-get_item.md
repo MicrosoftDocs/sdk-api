@@ -7,7 +7,7 @@ old-location: upnp\iupnpdevices_item.htm
 tech.root: upnp
 ms.assetid: 38648c9c-6d5a-4215-9270-fd1f893fa360
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDevices interface [UPnP APIs],get_Item method, IUPnPDevices.get_Item, IUPnPDevices::get_Item, _upnp_iupnpdevices_item, get_Item, get_Item method [UPnP APIs], get_Item method [UPnP APIs],IUPnPDevices interface, upnp.iupnpdevices_item, upnp/IUPnPDevices::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

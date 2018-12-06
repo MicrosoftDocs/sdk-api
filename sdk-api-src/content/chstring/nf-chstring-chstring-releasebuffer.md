@@ -7,7 +7,7 @@ old-location: wmi\chstring_releasebuffer.htm
 tech.root: WmiSdk
 ms.assetid: 55de2960-8a71-48cc-862b-7cf9a4edf8ea
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "?ReleaseBuffer@CHString@@QAEXH@Z, ?ReleaseBuffer@CHString@@QEAAXH@Z, CHString interface [Windows Management Instrumentation],ReleaseBuffer method, CHString.ReleaseBuffer, CHString::ReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Windows Management Instrumentation], ReleaseBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_releasebuffer, chstring/CHString::ReleaseBuffer, wmi.chstring_releasebuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- chstring.h
-: 
-- CHString.ReleaseBuffer
-: 
 ---
 
 # CHString::ReleaseBuffer

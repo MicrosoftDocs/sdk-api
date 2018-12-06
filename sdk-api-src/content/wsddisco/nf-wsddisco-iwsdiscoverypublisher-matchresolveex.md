@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoverypublisher_matchresolveex_method.htm
 tech.root: wsdapi
 ms.assetid: 0eba744c-c335-4b82-95f0-6142cfedad09
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryPublisher interface,MatchResolveEx method, IWSDiscoveryPublisher.MatchResolveEx, IWSDiscoveryPublisher::MatchResolveEx, MatchResolveEx, MatchResolveEx method, MatchResolveEx method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchresolveex_method, wsddisco/IWSDiscoveryPublisher::MatchResolveEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

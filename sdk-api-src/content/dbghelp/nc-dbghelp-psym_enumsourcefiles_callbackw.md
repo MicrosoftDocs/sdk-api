@@ -7,7 +7,7 @@ old-location: base\symenumsourcefilesproc.htm
 tech.root: debug
 ms.assetid: b1d1e967-514d-43da-b470-23228fa03dd9
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: PSYM_ENUMSOURCEFILES_CALLBACK, PSYM_ENUMSOURCEFILES_CALLBACKW, SymEnumSourceFilesProc, SymEnumSourceFilesProc callback, SymEnumSourceFilesProc callback function, base.symenumsourcefilesproc, dbghelp/SymEnumSourceFilesProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

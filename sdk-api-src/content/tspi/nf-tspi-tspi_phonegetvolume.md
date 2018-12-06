@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonegetvolume.htm
 tech.root: tapi
 ms.assetid: 4ea36cce-da68-47a3-ad79-4fc304a49451
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_phoneGetVolume, TSPI_phoneGetVolume function [TAPI 2.2], _tspi_tspi_phonegetvolume, tspi.tspi_phonegetvolume, tspi/TSPI_phoneGetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

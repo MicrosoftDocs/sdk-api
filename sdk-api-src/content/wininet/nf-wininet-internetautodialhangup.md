@@ -7,7 +7,7 @@ old-location: wininet\internetautodialhangup.htm
 tech.root: wininet
 ms.assetid: 8aa8ecb8-cacd-4cd9-a00b-5293b28dd6bf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: InternetAutodialHangup, InternetAutodialHangup function [WinINet], _inet_internetautodialhangup_function, wininet.internetautodialhangup, winineti/InternetAutodialHangup
 ms.prod: windows-hardware
 ms.technology: windows-devices

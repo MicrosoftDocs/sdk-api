@@ -7,7 +7,7 @@ old-location: base\messagebeep.htm
 tech.root: debug
 ms.assetid: 70681472-36a5-4ae3-b769-0421cf97ff2a
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: MessageBeep, MessageBeep function, _win32_messagebeep, base.messagebeep, winuser/MessageBeep
 ms.prod: windows-hardware
 ms.technology: windows-devices

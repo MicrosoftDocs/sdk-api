@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_so_declaration_entry.htm
 tech.root: direct3d12
 ms.assetid: F16FA746-2213-4F11-85AD-2CDCB0744618
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_SO_DECLARATION_ENTRY, D3D12_SO_DECLARATION_ENTRY structure, d3d12/D3D12_SO_DECLARATION_ENTRY, direct3d12.d3d12_so_declaration_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices

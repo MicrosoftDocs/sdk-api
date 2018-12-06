@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddArc_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddarcmethods.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddArc, AddArc methods [GDI+], GraphicsPath.AddArc, GraphicsPath::AddArc, _gdiplus_CLASS_GraphicsPath_AddArc_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddArc_Methods, gdipluspath/AddArc
 ms.prod: windows-hardware
 ms.technology: windows-devices

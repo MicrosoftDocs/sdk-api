@@ -7,7 +7,7 @@ old-location: wmformat\wmt_payload_fragment.htm
 tech.root: wmformat
 ms.assetid: 5a99c772-0e8a-4f6d-a13f-9bf7b4fa7d89
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WMT_PAYLOAD_FRAGMENT, WMT_PAYLOAD_FRAGMENT structure [windows Media Format], _WMT_PAYLOAD_FRAGMENT, wmformat.wmt_payload_fragment, wmsdkidl/WMT_PAYLOAD_FRAGMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedWindowInteractionS
 tech.root: WinAuto
 ms.assetid: f01c4b96-8cd5-466d-9514-73aedfdb60d4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CachedWindowInteractionState property [Windows Accessibility], CachedWindowInteractionState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedWindowInteractionState property, IUIAutomationWindowPattern.CachedWindowInteractionState, IUIAutomationWindowPattern.get_CachedWindowInteractionState, IUIAutomationWindowPattern::CachedWindowInteractionState, IUIAutomationWindowPattern::get_CachedWindowInteractionState, get_CachedWindowInteractionState, uiauto.uiauto_IUIAutomationWindowPattern_CachedWindowInteractionState, uiauto_IUIAutomationWindowPattern_CachedWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::CachedWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::get_CachedWindowInteractionState, winauto.uiauto_IUIAutomationWindowPattern_CachedWindowInteractionState
 ms.prod: windows-hardware
 ms.technology: windows-devices

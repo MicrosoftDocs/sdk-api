@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Pen, Pen constructors [GDI+], Pen.Pen, Pen.Pen(GpPen,Status), Pen::Pen, Pen::Pen(GpPen,Status), _gdiplus_CLASS_Pen_Constructors, gdiplus._gdiplus_CLASS_Pen_Constructors, gdipluspen/Pen
 ms.prod: windows-hardware
 ms.technology: windows-devices

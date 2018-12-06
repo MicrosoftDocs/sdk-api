@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquota_resetpeakusage.htm
 tech.root: fsrm
 ms.assetid: 5c2b18a9-912a-49cc-bf4f-07f172a328b1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],ResetPeakUsage method, IFsrmQuota.ResetPeakUsage, IFsrmQuota::ResetPeakUsage, ResetPeakUsage, ResetPeakUsage method [File Server Resource Manager], ResetPeakUsage method [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_resetpeakusage, fsrm.ifsrmquota_resetpeakusage, fsrmquota/IFsrmQuota::ResetPeakUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices

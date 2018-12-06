@@ -7,7 +7,7 @@ old-location: base\ivsswmcomponent_getdatabasefile.htm
 tech.root: vss
 ms.assetid: adb2d6f7-592c-403d-92c0-6b99e2180a6b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetDatabaseFile, GetDatabaseFile method [VSS], GetDatabaseFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDatabaseFile method, IVssWMComponent.GetDatabaseFile, IVssWMComponent::GetDatabaseFile, _win32_ivsswmcomponent_getdatabasefile, base.ivsswmcomponent_getdatabasefile, vsbackup/IVssWMComponent::GetDatabaseFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

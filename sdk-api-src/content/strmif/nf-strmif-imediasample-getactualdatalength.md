@@ -7,7 +7,7 @@ old-location: dshow\imediasample_getactualdatalength.htm
 tech.root: DirectShow
 ms.assetid: d89dbaef-01ff-4379-b696-cdd1a6a9801b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetActualDataLength, GetActualDataLength method [DirectShow], GetActualDataLength method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetActualDataLength method, IMediaSample.GetActualDataLength, IMediaSample::GetActualDataLength, IMediaSampleGetActualDataLength, dshow.imediasample_getactualdatalength, strmif/IMediaSample::GetActualDataLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

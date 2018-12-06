@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchbase_getsourceforgottenknowledge.htm
 tech.root: winsync
 ms.assetid: 309b2c83-4480-421c-ae90-9cbe7ac11055
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetSourceForgottenKnowledge, GetSourceForgottenKnowledge method [Windows Sync], GetSourceForgottenKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetSourceForgottenKnowledge method, ISyncChangeBatchBase.GetSourceForgottenKnowledge, ISyncChangeBatchBase::GetSourceForgottenKnowledge, winsync.isyncchangebatchbase_getsourceforgottenknowledge, winsync/ISyncChangeBatchBase::GetSourceForgottenKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices

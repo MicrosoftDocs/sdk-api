@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effectcontext_findresourcetexture.htm
 tech.root: direct2d
 ms.assetid: 7E205798-A9E1-4213-925B-7A5DF918F60E
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: FindResourceTexture, FindResourceTexture method [Direct2D], FindResourceTexture method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],FindResourceTexture method, ID2D1EffectContext.FindResourceTexture, ID2D1EffectContext::FindResourceTexture, d2d1effectauthor/ID2D1EffectContext::FindResourceTexture, direct2d.id2d1effectcontext_findresourcetexture
 ms.prod: windows-hardware
 ms.technology: windows-devices

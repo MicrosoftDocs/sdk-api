@@ -7,7 +7,7 @@ old-location: mstv\iauxintuningspace2.htm
 tech.root: mstv
 ms.assetid: 51d92eab-1cf0-451c-aefb-ca36360e29f7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IAuxInTuningSpace2, IAuxInTuningSpace2 interface [Microsoft TV Technologies], IAuxInTuningSpace2 interface [Microsoft TV Technologies],described, IAuxInTuningSpace2Interface, mstv.iauxintuningspace2, tuner/IAuxInTuningSpace2
 ms.prod: windows-hardware
 ms.technology: windows-devices

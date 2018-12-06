@@ -7,7 +7,7 @@ old-location: taskschd\idailytrigger_daysinterval.htm
 tech.root: taskschd
 ms.assetid: fde401c7-f0ab-46bd-9b84-bd9f762f2c89
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DaysInterval property [Task Scheduler], DaysInterval property [Task Scheduler],IDailyTrigger interface, IDailyTrigger interface [Task Scheduler],DaysInterval property, IDailyTrigger.DaysInterval, IDailyTrigger.get_DaysInterval, IDailyTrigger::DaysInterval, IDailyTrigger::get_DaysInterval, IDailyTrigger::put_DaysInterval, get_DaysInterval, taskschd.idailytrigger_daysinterval, taskschd/IDailyTrigger::DaysInterval, taskschd/IDailyTrigger::get_DaysInterval, taskschd/IDailyTrigger::put_DaysInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

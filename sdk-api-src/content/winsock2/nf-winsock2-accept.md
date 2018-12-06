@@ -7,7 +7,7 @@ old-location: winsock\accept_2.htm
 tech.root: winsock
 ms.assetid: 72246263-4806-4ab2-9b26-89a1782a954b
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_accept_2, accept, accept function [Winsock], winsock.accept_2, winsock2/accept"
 ms.prod: windows-hardware
 ms.technology: windows-devices

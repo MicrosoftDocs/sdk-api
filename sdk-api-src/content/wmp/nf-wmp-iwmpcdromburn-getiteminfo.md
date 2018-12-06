@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromburn_getiteminfo.htm
 tech.root: WMP
 ms.assetid: f54b406f-0441-4ed3-8f8b-6794ab2180d9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],getItemInfo method, IWMPCdromBurn.getItemInfo, IWMPCdromBurn::getItemInfo, IWMPCdromBurngetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_getiteminfo, wmp/IWMPCdromBurn::getItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\itaskvariables_getcontext.htm
 tech.root: taskschd
 ms.assetid: 090d24ac-18eb-4a76-887f-30d3b99e7ad0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetContext, GetContext method [Task Scheduler], GetContext method [Task Scheduler],ITaskVariables interface, ITaskVariables interface [Task Scheduler],GetContext method, ITaskVariables.GetContext, ITaskVariables::GetContext, taskschd.itaskvariables_getcontext, taskschd/ITaskVariables::GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

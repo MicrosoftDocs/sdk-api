@@ -7,7 +7,7 @@ old-location: gpmc\igpmsomcollection_get_count.htm
 tech.root: gpmc
 ms.assetid: 3362bf1b-f989-4feb-b130-3fc9e5dcafa4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMSOMCollection class, Count property [GPMC],IGPMSOMCollection interface, GPMSOMCollection class [GPMC],Count property, IGPMSOMCollection interface [GPMC],Count property, IGPMSOMCollection.Count, IGPMSOMCollection.get_Count, IGPMSOMCollection::Count, IGPMSOMCollection::get_Count, _win32_igpmsomcollection_get_count, get_Count, gpmc.igpmsomcollection_get_count, gpmgmt/IGPMSOMCollection::Count, gpmgmt/IGPMSOMCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

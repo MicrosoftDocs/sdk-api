@@ -7,7 +7,7 @@ old-location: eaphost\eappeerquerycredentialinputfields.htm
 tech.root: eaphost
 ms.assetid: 8ae42352-e972-4094-bf03-90a2f20ab641
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: EapPeerQueryCredentialInputFields, EapPeerQueryCredentialInputFields function [EAPHost], eaphost.eappeerquerycredentialinputfields, eapmethodpeerapis/EapPeerQueryCredentialInputFields
 ms.prod: windows-hardware
 ms.technology: windows-devices

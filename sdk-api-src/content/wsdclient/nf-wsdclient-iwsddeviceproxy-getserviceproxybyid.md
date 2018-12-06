@@ -7,7 +7,7 @@ old-location: ncd\iwsddeviceproxy_getserviceproxybyid_method.htm
 tech.root: wsdapi
 ms.assetid: c1c07b78-16f6-4595-8de3-0c6591096496
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetServiceProxyById, GetServiceProxyById method, GetServiceProxyById method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetServiceProxyById method, IWSDDeviceProxy.GetServiceProxyById, IWSDDeviceProxy::GetServiceProxyById, ncd.iwsddeviceproxy_getserviceproxybyid_method, wsdclient/IWSDDeviceProxy::GetServiceProxyById
 ms.prod: windows-hardware
 ms.technology: windows-devices

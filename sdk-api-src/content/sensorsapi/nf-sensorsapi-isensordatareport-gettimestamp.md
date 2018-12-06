@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensordatareport_gettimestamp.htm
 tech.root: SensorsAPI
 ms.assetid: 3366bfb5-1132-4960-8a0e-49967310ade5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetTimestamp, GetTimestamp method, GetTimestamp method,ISensorDataReport interface, ISensorDataReport interface,GetTimestamp method, ISensorDataReport.GetTimestamp, ISensorDataReport::GetTimestamp, sensorsapi/ISensorDataReport::GetTimestamp, winsensors_com_ref.isensordatareport_gettimestamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

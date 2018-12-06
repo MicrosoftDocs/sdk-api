@@ -7,7 +7,7 @@ old-location: automat\sysfreestring.htm
 tech.root: automat
 ms.assetid: 8f230ee3-5f6e-4cb9-a910-9c90b754dcd3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SysFreeString, SysFreeString function [Automation], _oa96_SysFreeString, automat.sysfreestring, oleauto/SysFreeString
 ms.prod: windows-hardware
 ms.technology: windows-devices

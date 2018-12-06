@@ -7,7 +7,7 @@ old-location: controls\itextrange2_getformattedtext2.htm
 tech.root: controls
 ms.assetid: 9fe5d82d-b13e-4b94-beb6-15691d4c5176
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetFormattedText2, GetFormattedText2 method [Windows Controls], GetFormattedText2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetFormattedText2 method, ITextRange2.GetFormattedText2, ITextRange2::GetFormattedText2, controls.itextrange2_getformattedtext2, tom/ITextRange2::GetFormattedText2
 ms.prod: windows-hardware
 ms.technology: windows-devices

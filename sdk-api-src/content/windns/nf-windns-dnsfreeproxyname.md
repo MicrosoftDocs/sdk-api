@@ -7,7 +7,7 @@ old-location: dns\dnsfreeproxyname.htm
 tech.root: dns
 ms.assetid: 4c69d548-3bb5-4609-9fc5-3a829a285956
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DnsFreeProxyName, DnsFreeProxyName function [DNS], dns.dnsfreeproxyname, windns/DnsFreeProxyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

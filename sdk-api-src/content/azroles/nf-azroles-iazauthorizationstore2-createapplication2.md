@@ -7,7 +7,7 @@ old-location: security\iazauthorizationstore2_createapplication2.htm
 tech.root: secauthz
 ms.assetid: d9af40e4-9ed9-4b81-b808-315eef07a96d
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreateApplication2, CreateApplication2 method [Security], CreateApplication2 method [Security],IAzAuthorizationStore2 interface, IAzAuthorizationStore2 interface [Security],CreateApplication2 method, IAzAuthorizationStore2.CreateApplication2, IAzAuthorizationStore2::CreateApplication2, azroles/IAzAuthorizationStore2::CreateApplication2, security.iazauthorizationstore2_createapplication2
 ms.prod: windows-hardware
 ms.technology: windows-devices

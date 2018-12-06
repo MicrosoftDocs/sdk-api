@@ -7,7 +7,7 @@ old-location: vstor\resize_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: ff44f07a-67d1-4ad3-be2b-0aea1d3c4a6a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PRESIZE_VIRTUAL_DISK_PARAMETERS, PRESIZE_VIRTUAL_DISK_PARAMETERS, PRESIZE_VIRTUAL_DISK_PARAMETERS structure pointer [Virtual Storage], RESIZE_VIRTUAL_DISK_PARAMETERS, RESIZE_VIRTUAL_DISK_PARAMETERS structure [Virtual Storage], _RESIZE_VIRTUAL_DISK_PARAMETERS, virtdisk/PRESIZE_VIRTUAL_DISK_PARAMETERS, virtdisk/RESIZE_VIRTUAL_DISK_PARAMETERS, vstor.resize_virtual_disk_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdsvolume_shrink.htm
 tech.root: vds
 ms.assetid: 63ac6ef9-0e84-40ed-a302-4f32316a41cc
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsVolume interface [VDS],Shrink method, IVdsVolume.Shrink, IVdsVolume::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsVolume interface, base.ivdsvolume_shrink, vds/IVdsVolume::Shrink
 ms.prod: windows-hardware
 ms.technology: windows-devices

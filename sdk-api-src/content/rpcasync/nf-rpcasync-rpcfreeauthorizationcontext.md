@@ -7,7 +7,7 @@ old-location: rpc\rpcfreeauthorizationcontext.htm
 tech.root: rpc
 ms.assetid: ad6117e1-3244-42dd-b513-d5b2c28e8e10
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RpcFreeAuthorizationContext, RpcFreeAuthorizationContext function [RPC], _rpc_rpcfreeauthorizationcontext, rpc.rpcfreeauthorizationcontext, rpcasync/RpcFreeAuthorizationContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

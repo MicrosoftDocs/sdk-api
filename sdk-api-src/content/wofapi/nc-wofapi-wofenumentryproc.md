@@ -7,7 +7,7 @@ old-location: fs\wofenumentryproc.htm
 tech.root: fileio
 ms.assetid: B0569A28-7B5F-451D-A972-89A6D42F9821
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: WofEnumEntryProc, WofEnumEntryProc callback, WofEnumEntryProc callback function [Files], fs.wofenumentryproc, wofapi/WofEnumEntryProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\reparse_guid_data_buffer_str.htm
 tech.root: fileio
 ms.assetid: 2d49c1bc-0b1d-40b1-a3a2-6b30f0b3cca0
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER structure pointer [Files], REPARSE_GUID_DATA_BUFFER, REPARSE_GUID_DATA_BUFFER structure [Files], _REPARSE_GUID_DATA_BUFFER, _win32_reparse_guid_data_buffer_str, base.reparse_guid_data_buffer_str, fs.reparse_guid_data_buffer_str, winnt/PREPARSE_GUID_DATA_BUFFER, winnt/REPARSE_GUID_DATA_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

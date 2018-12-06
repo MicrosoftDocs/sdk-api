@@ -7,7 +7,7 @@ old-location: base\ivdsproviderprivate.htm
 tech.root: vds
 ms.assetid: 5f1c38bf-85a7-4123-becb-e8abf3052b41
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsProviderPrivate, IVdsProviderPrivate interface [VDS], IVdsProviderPrivate interface [VDS],described, base.ivdsproviderprivate, vdshwprv/IVdsProviderPrivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

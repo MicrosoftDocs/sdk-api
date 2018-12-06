@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getmute.htm
 tech.root: medfound
 ms.assetid: 2a628608-37ea-48f3-aed4-0344d47ede9f
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: GetMute, GetMute method [Media Foundation], GetMute method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetMute method, IMFPMediaPlayer.GetMute, IMFPMediaPlayer::GetMute, mf.imfpmediaplayer_getmute, mfplay/IMFPMediaPlayer::GetMute
 ms.prod: windows-hardware
 ms.technology: windows-devices

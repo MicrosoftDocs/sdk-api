@@ -7,7 +7,7 @@ old-location: upnp\iupnpdescriptiondocument_load.htm
 tech.root: upnp
 ms.assetid: 02ae8af2-44f2-4b7c-a426-f2a26c43da37
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],Load method, IUPnPDescriptionDocument.Load, IUPnPDescriptionDocument::Load, Load, Load method [UPnP APIs], Load method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_load, upnp.iupnpdescriptiondocument_load, upnp/IUPnPDescriptionDocument::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices

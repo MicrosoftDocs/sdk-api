@@ -7,7 +7,7 @@ old-location: mstv\impeg2componenttype.htm
 tech.root: mstv
 ms.assetid: 10bf35e0-d5bf-41ed-b514-7c1bfaf774a0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMPEG2ComponentType, IMPEG2ComponentType interface [Microsoft TV Technologies], IMPEG2ComponentType interface [Microsoft TV Technologies],described, IMPEG2ComponentTypeInterface, mstv.impeg2componenttype, tuner/IMPEG2ComponentType
 ms.prod: windows-hardware
 ms.technology: windows-devices

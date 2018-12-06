@@ -7,7 +7,7 @@ old-location: direct2d\id2d1device_createxpsprintcontrol.htm
 tech.root: direct2d
 ms.assetid: dcffa436-154a-4283-9c1c-f167de5f9888
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreatePrintControl, CreatePrintControl method [Direct2D], CreatePrintControl method [Direct2D],ID2D1Device interface, ID2D1Device interface [Direct2D],CreatePrintControl method, ID2D1Device.CreatePrintControl, ID2D1Device.CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageTarget,const D2D1_PRINT_CONTROL_PROPERTIES,ID2D1PrintControl), ID2D1Device::CreatePrintControl, ID2D1Device::CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageTarget,const D2D1_PRINT_CONTROL_PROPERTIES,ID2D1PrintControl), d2d1_1/ID2D1Device::CreatePrintControl, direct2d.id2d1device_createxpsprintcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,17 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.XMHALF4
-title: XMHALF4 function
+title: XMHALF4::XMHALF4
 author: windows-sdk-content
 description: Default constructor for XMHALF4.
 old-location: dxmath\xmhalf4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF4.#ctor
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: XMHALF4 constructor [DirectX Math Support APIs], XMHALF4 constructor [DirectX Math Support APIs],XMHALF4 structure, XMHALF4 structure [DirectX Math Support APIs],XMHALF4 constructor, XMHALF4.XMHALF4, XMHALF4.XMHALF4(), dxmath.xmhalf4_ctor_1
+ms.date: 12/5/2018
+ms.keywords: XMHALF4, XMHALF4 constructor [DirectX Math Support APIs], XMHALF4 constructor [DirectX Math Support APIs],XMHALF4 structure, XMHALF4 structure [DirectX Math Support APIs],XMHALF4 constructor, XMHALF4.XMHALF4, XMHALF4.XMHALF4(), XMHALF4::XMHALF4, dxmath.xmhalf4_ctor_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMHALF4
-: 
 ---
 
-# XMHALF4 function
+# XMHALF4::XMHALF4
 
 
 ## -description

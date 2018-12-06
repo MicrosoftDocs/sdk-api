@@ -7,7 +7,7 @@ old-location: ncd\iwsdasynccallback.htm
 tech.root: wsdapi
 ms.assetid: 24108143-55b7-4098-a4cc-025dfdfd054a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDAsyncCallback, IWSDAsyncCallback interface, IWSDAsyncCallback interface,described, ncd.iwsdasynccallback, wsdclient/IWSDAsyncCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

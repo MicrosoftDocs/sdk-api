@@ -7,7 +7,7 @@ old-location: multimedia\joygetposex.htm
 tech.root: Multimedia
 ms.assetid: 7376b55c-54c0-4f58-a7f9-1cb89a8db9ee
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_joyGetPosEx, joyGetPosEx, joyGetPosEx function [Windows Multimedia], joystickapi/joyGetPosEx, multimedia.joygetposex"
 ms.prod: windows-hardware
 ms.technology: windows-devices

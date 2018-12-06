@@ -7,7 +7,7 @@ old-location: proc_snap\psswalkmarkercreate.htm
 tech.root: proc_snap
 ms.assetid: 58E2FBAF-661C-45BE-A25A-A096AF52ED3E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PssWalkMarkerCreate, PssWalkMarkerCreate function, proc_snap.psswalkmarkercreate, processsnapshot/PssWalkMarkerCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

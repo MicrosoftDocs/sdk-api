@@ -7,7 +7,7 @@ old-location: display\pathobj.htm
 tech.root: display
 ms.assetid: ceccca92-3312-49b4-b0f6-a3d0cd4bbef5
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: PATHOBJ, PATHOBJ structure [Display Devices], _PATHOBJ, display.pathobj, grstrcts_e8c946a6-f07c-4cc2-8440-d4f3af979612.xml, winddi/PATHOBJ
 ms.prod: windows-hardware
 ms.technology: windows-devices

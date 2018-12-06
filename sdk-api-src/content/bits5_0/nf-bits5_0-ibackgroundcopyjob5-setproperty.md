@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob5_setproperty.htm
 tech.root: bits
 ms.assetid: D5DB8A96-7417-4142-BA27-783314835CED
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob5 interface [BITS],SetProperty method, IBackgroundCopyJob5.SetProperty, IBackgroundCopyJob5::SetProperty, SetProperty, SetProperty method [BITS], SetProperty method [BITS],IBackgroundCopyJob5 interface, bits.ibackgroundcopyjob5_setproperty, bits5_0/IBackgroundCopyJob5::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

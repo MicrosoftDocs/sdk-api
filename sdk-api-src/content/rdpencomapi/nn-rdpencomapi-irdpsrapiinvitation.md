@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiinvitation.htm
 tech.root: rdp
 ms.assetid: 66cd8251-726a-4368-8da5-4d3f6899bdc8
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], IRDPSRAPIInvitation interface [RDP],described, rdp.irdpsrapiinvitation, rdpencomapi/IRDPSRAPIInvitation
 ms.prod: windows-hardware
 ms.technology: windows-devices

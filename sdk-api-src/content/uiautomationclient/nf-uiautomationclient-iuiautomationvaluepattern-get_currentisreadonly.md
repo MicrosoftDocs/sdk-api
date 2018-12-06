@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationValuePattern_CurrentIsReadOnly.htm
 tech.root: WinAuto
 ms.assetid: dc5111c4-6fc8-4a4f-b797-6da472fd0533
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CurrentIsReadOnly property [Windows Accessibility], CurrentIsReadOnly property [Windows Accessibility],IUIAutomationValuePattern interface, IUIAutomationValuePattern interface [Windows Accessibility],CurrentIsReadOnly property, IUIAutomationValuePattern.CurrentIsReadOnly, IUIAutomationValuePattern.get_CurrentIsReadOnly, IUIAutomationValuePattern::CurrentIsReadOnly, IUIAutomationValuePattern::get_CurrentIsReadOnly, get_CurrentIsReadOnly, uiauto.uiauto_IUIAutomationValuePattern_CurrentIsReadOnly, uiauto_IUIAutomationValuePattern_CurrentIsReadOnly, uiautomationclient/IUIAutomationValuePattern::CurrentIsReadOnly, uiautomationclient/IUIAutomationValuePattern::get_CurrentIsReadOnly, winauto.uiauto_IUIAutomationValuePattern_CurrentIsReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices

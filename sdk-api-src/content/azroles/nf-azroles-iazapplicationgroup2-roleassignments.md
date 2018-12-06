@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup2_roleassignments_method.htm
 tech.root: secauthz
 ms.assetid: 4996fb10-7b46-48e4-8028-a24ae4072bec
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IAzApplicationGroup2 interface [Security],RoleAssignments property, IAzApplicationGroup2.RoleAssignments, IAzApplicationGroup2::RoleAssignments, IAzApplicationGroup2::get_RoleAssignments, RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzApplicationGroup2 interface, azroles/IAzApplicationGroup2::RoleAssignments, azroles/IAzApplicationGroup2::get_RoleAssignments, security.iazapplicationgroup2_roleassignments_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

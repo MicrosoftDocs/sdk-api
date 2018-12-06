@@ -7,7 +7,7 @@ old-location: wds\wdstransportprovideruseraccesscheck.htm
 tech.root: wds
 ms.assetid: 3ce381d3-d6f6-4f64-a825-116c3cff4747
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsTransportProviderUserAccessCheck, WdsTransportProviderUserAccessCheck callback, WdsTransportProviderUserAccessCheck callback function [Windows Deployment Services], wds.wdstransportprovideruseraccesscheck, wdstpdi/WdsTransportProviderUserAccessCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

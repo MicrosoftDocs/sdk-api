@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersource2_get_wstcounter.htm
 tech.root: mstv
 ms.assetid: a506a152-c0e7-497b-a494-5464f712f432
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],get_WSTCounter method, IMSVidStreamBufferSource2.get_WSTCounter, IMSVidStreamBufferSource2::get_WSTCounter, IMSVidStreamBufferSource2get_WSTCounter, get_WSTCounter, get_WSTCounter method [Microsoft TV Technologies], get_WSTCounter method [Microsoft TV Technologies],IMSVidStreamBufferSource2 interface, mstv.imsvidstreambuffersource2_get_wstcounter, segment/IMSVidStreamBufferSource2::get_WSTCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices

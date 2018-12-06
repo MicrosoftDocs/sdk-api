@@ -7,7 +7,7 @@ old-location: swdevice\swdeviceinterfacesetstate.htm
 tech.root: swdevice
 ms.assetid: 09430CEF-F386-4F08-9D11-78E61C44468D
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SwDeviceInterfaceSetState, SwDeviceInterfaceSetState function, swdevice.swdeviceinterfacesetstate, swdevice/SwDeviceInterfaceSetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

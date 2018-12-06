@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_conservative_rasterization_mode.htm
 tech.root: direct3d12
 ms.assetid: E0F033D5-8042-4C39-A35D-C8FE2A95C1D2
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_CONSERVATIVE_RASTERIZATION_MODE, D3D12_CONSERVATIVE_RASTERIZATION_MODE enumeration, D3D12_CONSERVATIVE_RASTERIZATION_MODE_OFF, D3D12_CONSERVATIVE_RASTERIZATION_MODE_ON, d3d12/D3D12_CONSERVATIVE_RASTERIZATION_MODE, d3d12/D3D12_CONSERVATIVE_RASTERIZATION_MODE_OFF, d3d12/D3D12_CONSERVATIVE_RASTERIZATION_MODE_ON, direct3d12.d3d12_conservative_rasterization_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

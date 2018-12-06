@@ -7,7 +7,7 @@ old-location: mstv\ituner_enumtuningspaces.htm
 tech.root: mstv
 ms.assetid: 6bd42b1b-b644-4fd7-9875-21a8d0f01243
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EnumTuningSpaces, EnumTuningSpaces method [Microsoft TV Technologies], EnumTuningSpaces method [Microsoft TV Technologies],ITuner interface, ITuner interface [Microsoft TV Technologies],EnumTuningSpaces method, ITuner.EnumTuningSpaces, ITuner::EnumTuningSpaces, ITunerEnumTuningSpaces, mstv.ituner_enumtuningspaces, tuner/ITuner::EnumTuningSpaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdsasync_cancel.htm
 tech.root: vds
 ms.assetid: 40940cb8-46b7-4483-9952-ab053c49dad7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Cancel, Cancel method [VDS], Cancel method [VDS],IVdsAsync interface, IVdsAsync interface [VDS],Cancel method, IVdsAsync.Cancel, IVdsAsync::Cancel, base.ivdsasync_cancel, vds/IVdsAsync::Cancel, vdshwprv/IVdsAsync::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

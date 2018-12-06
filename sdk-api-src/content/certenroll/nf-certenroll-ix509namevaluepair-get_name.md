@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepair_name_property.htm
 tech.root: seccertenroll
 ms.assetid: 2a124fe7-7f28-4911-b5fe-2c98b4187723
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IX509NameValuePair interface [Security],Name property, IX509NameValuePair.Name, IX509NameValuePair.get_Name, IX509NameValuePair::Name, IX509NameValuePair::get_Name, Name property [Security], Name property [Security],IX509NameValuePair interface, certenroll/IX509NameValuePair::Name, certenroll/IX509NameValuePair::get_Name, get_Name, security.ix509namevaluepair_name_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

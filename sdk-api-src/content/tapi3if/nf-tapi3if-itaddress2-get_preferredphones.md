@@ -7,7 +7,7 @@ old-location: tapi3\itaddress2_get_preferredphones.htm
 tech.root: tapi
 ms.assetid: 6cb17c83-86db-4d44-bbd3-80a0e52fec73
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],get_PreferredPhones method, ITAddress2.get_PreferredPhones, ITAddress2::get_PreferredPhones, _tapi3_itaddress2_get_preferredphones, get_PreferredPhones, get_PreferredPhones method [TAPI 2.2], get_PreferredPhones method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_get_preferredphones, tapi3if/ITAddress2::get_PreferredPhones
 ms.prod: windows-hardware
 ms.technology: windows-devices

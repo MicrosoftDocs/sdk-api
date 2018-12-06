@@ -7,7 +7,7 @@ old-location: cos\imanagedpoolaction.htm
 tech.root: cossdk
 ms.assetid: 6c29bbe0-840f-4eaf-97ad-40b0f89cadfd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IManagedPoolAction, IManagedPoolAction interface [COM+], IManagedPoolAction interface [COM+],described, _cos_IManagedPoolAction, comsvcs/IManagedPoolAction, cos.imanagedpoolaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

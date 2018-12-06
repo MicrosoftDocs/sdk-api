@@ -7,7 +7,7 @@ old-location: ifsk\filterload.htm
 tech.root: ifsk
 ms.assetid: 248e05e6-570a-45fc-8b63-16625ffda1dd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FilterLoad, FilterLoad function [Installable File System Drivers], FltWin32ApiRef_273c18c5-9474-4605-80a1-1bc4cb9e4e7b.xml, fltuser/FilterLoad, ifsk.filterload
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiportalgroup_getproperties.htm
 tech.root: vds
 ms.assetid: 7257101e-04a5-41d5-b4fa-401106610dcf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetProperties method, IVdsIscsiPortalGroup.GetProperties, IVdsIscsiPortalGroup::GetProperties, base.ivdsiscsiportalgroup_getproperties, vds/IVdsIscsiPortalGroup::GetProperties, vdshwprv/IVdsIscsiPortalGroup::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

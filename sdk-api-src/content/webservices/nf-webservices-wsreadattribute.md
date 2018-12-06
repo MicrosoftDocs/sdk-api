@@ -7,7 +7,7 @@ old-location: wsw\wsreadattribute.htm
 tech.root: wsw
 ms.assetid: 2055182a-8aff-4db0-88f1-d344ca89e383
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsReadAttribute, WsReadAttribute function [Web Services for Windows], webservices/WsReadAttribute, wsw.wsreadattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

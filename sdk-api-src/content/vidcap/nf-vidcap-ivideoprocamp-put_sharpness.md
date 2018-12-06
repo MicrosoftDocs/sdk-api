@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_sharpness.htm
 tech.root: DirectShow
 ms.assetid: a47e8f21-29ec-4845-97b2-1a9d6478afa6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Sharpness method, IVideoProcAmp.put_Sharpness, IVideoProcAmp::put_Sharpness, IVideoProcAmpput_Sharpness, dshow.ivideoprocamp_put_sharpness, put_Sharpness, put_Sharpness method [DirectShow], put_Sharpness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Sharpness
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevicecontrol.htm
 tech.root: WMDM
 ms.assetid: a196edef-f670-4c1f-92bd-172a75f3f420
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], IMDSPDeviceControl interface [windows Media Device Manager],described, IMDSPDeviceControlInterface, mswmdm/IMDSPDeviceControl, wmdm.imdspdevicecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

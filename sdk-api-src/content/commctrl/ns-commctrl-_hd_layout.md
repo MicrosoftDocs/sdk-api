@@ -7,7 +7,7 @@ old-location: controls\HDLAYOUT.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdlayout.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPHDLAYOUT, HDLAYOUT, HDLAYOUT structure [Windows Controls], LPHDLAYOUT, LPHDLAYOUT structure pointer [Windows Controls], _HD_LAYOUT, _win32_HDLAYOUT, _win32_HDLAYOUT_cpp, commctrl/HDLAYOUT, commctrl/LPHDLAYOUT, controls.HDLAYOUT, controls._win32_HDLAYOUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

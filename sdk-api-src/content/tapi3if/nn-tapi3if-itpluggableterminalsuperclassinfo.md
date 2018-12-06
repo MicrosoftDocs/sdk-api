@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalsuperclassinfo.htm
 tech.root: tapi
 ms.assetid: f9226af1-90e7-4317-af73-e1563883e2b6
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITPluggableTerminalSuperclassInfo, ITPluggableTerminalSuperclassInfo interface [TAPI 2.2], ITPluggableTerminalSuperclassInfo interface [TAPI 2.2],described, _tapi3_itpluggableterminalsuperclassinfo, tapi3.itpluggableterminalsuperclassinfo, tapi3if/ITPluggableTerminalSuperclassInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

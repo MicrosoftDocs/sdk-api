@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_properties.htm
 tech.root: wsw
 ms.assetid: 8c874422-3d59-43cd-b65e-8f4f543e57e5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_XML_WRITER_PROPERTIES, WS_XML_WRITER_PROPERTIES structure [Web Services for Windows], _WS_XML_WRITER_PROPERTIES, webservices/WS_XML_WRITER_PROPERTIES, wsw.ws_xml_writer_properties
 ms.prod: windows-hardware
 ms.technology: windows-devices

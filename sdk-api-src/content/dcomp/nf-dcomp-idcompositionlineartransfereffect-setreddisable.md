@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setreddisable.htm
 tech.root: directcomp
 ms.assetid: 59B82C2B-9DAE-4B6C-A5ED-425A8ACEF24E
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedDisable method, IDCompositionLinearTransferEffect.SetRedDisable, IDCompositionLinearTransferEffect::SetRedDisable, SetRedDisable, SetRedDisable method [DirectComposition], SetRedDisable method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedDisable, directcomp.idcompositionlineartransfereffect_setreddisable
 ms.prod: windows-hardware
 ms.technology: windows-devices

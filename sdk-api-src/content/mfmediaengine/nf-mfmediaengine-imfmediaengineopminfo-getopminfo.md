@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineopminfo_getopminfo.htm
 tech.root: medfound
 ms.assetid: 5e4a6e8f-5042-4de1-8cea-64b8e6cc928a
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: GetOPMInfo, GetOPMInfo method [Media Foundation], GetOPMInfo method [Media Foundation],IMFMediaEngineOPMInfo interface, IMFMediaEngineOPMInfo interface [Media Foundation],GetOPMInfo method, IMFMediaEngineOPMInfo.GetOPMInfo, IMFMediaEngineOPMInfo::GetOPMInfo, mf.imfmediaengineopminfo_getopminfo, mfmediaengine/IMFMediaEngineOPMInfo::GetOPMInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapterpipelineinit.htm
 tech.root: SecBioMet
 ms.assetid: 69D4BB35-2E00-4FF6-8A69-DFCEFA5785A0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EngineAdapterPipelineInit, EngineAdapterPipelineInit callback function [Windows Biometric Framework API], PIBIO_ENGINE_PIPELINE_INIT_FN, PIBIO_ENGINE_PIPELINE_INIT_FN callback, secbiomet.engineadapterpipelineinit, winbio_adapter/EngineAdapterPipelineInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

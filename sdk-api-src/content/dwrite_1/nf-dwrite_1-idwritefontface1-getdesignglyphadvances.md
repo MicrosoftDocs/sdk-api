@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface1_getdesignglyphadvances.htm
 tech.root: DirectWrite
 ms.assetid: 1E40518F-51E0-48F6-99ED-BE9407B61B6E
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetDesignGlyphAdvances, GetDesignGlyphAdvances method [Direct Write], GetDesignGlyphAdvances method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetDesignGlyphAdvances method, IDWriteFontFace1.GetDesignGlyphAdvances, IDWriteFontFace1::GetDesignGlyphAdvances, directwrite.idwritefontface1_getdesignglyphadvances, dwrite_1/IDWriteFontFace1::GetDesignGlyphAdvances
 ms.prod: windows-hardware
 ms.technology: windows-devices

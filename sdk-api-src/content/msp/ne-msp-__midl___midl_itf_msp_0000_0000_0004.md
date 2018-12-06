@@ -7,7 +7,7 @@ old-location: tapi3\msp_event.htm
 tech.root: tapi
 ms.assetid: 53e19eff-b5f0-43fd-b59b-e85e75220282
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ME_ADDRESS_EVENT, ME_CALL_EVENT, ME_PRIVATE_EVENT, ME_TSP_DATA, MSP_EVENT, MSP_EVENT enumeration [TAPI 2.2], __MIDL___MIDL_itf_msp_0000_0000_0004, _tapi3_msp_event, msp/ME_ADDRESS_EVENT, msp/ME_CALL_EVENT, msp/ME_PRIVATE_EVENT, msp/ME_TSP_DATA, msp/MSP_EVENT, tapi3.msp_event
 ms.prod: windows-hardware
 ms.technology: windows-devices

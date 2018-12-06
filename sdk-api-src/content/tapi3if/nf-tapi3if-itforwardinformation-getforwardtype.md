@@ -7,7 +7,7 @@ old-location: tapi3\itforwardinformation_getforwardtype.htm
 tech.root: tapi
 ms.assetid: 02d3c558-585a-4dcc-873e-8465c1d2af64
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: GetForwardType, GetForwardType method [TAPI 2.2], GetForwardType method [TAPI 2.2],ITForwardInformation interface, ITForwardInformation interface [TAPI 2.2],GetForwardType method, ITForwardInformation.GetForwardType, ITForwardInformation::GetForwardType, _tapi3_itforwardinformation_getforwardtype, tapi3.itforwardinformation_getforwardtype, tapi3if/ITForwardInformation::GetForwardType
 ms.prod: windows-hardware
 ms.technology: windows-devices

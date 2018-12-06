@@ -7,7 +7,7 @@ old-location: tapi3\itdetecttone_get_appspecific.htm
 tech.root: tapi
 ms.assetid: a3ffba50-664d-42d2-87b2-fe6943715e85
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],get_AppSpecific method, ITDetectTone.get_AppSpecific, ITDetectTone::get_AppSpecific, _tapi3_itdetecttone_get_appspecific, get_AppSpecific, get_AppSpecific method [TAPI 2.2], get_AppSpecific method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_get_appspecific, tapi3if/ITDetectTone::get_AppSpecific
 ms.prod: windows-hardware
 ms.technology: windows-devices

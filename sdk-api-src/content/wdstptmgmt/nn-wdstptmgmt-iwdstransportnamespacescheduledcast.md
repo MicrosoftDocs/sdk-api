@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespacescheduledcast.htm
 tech.root: wds
 ms.assetid: 434e2eb2-b149-46e6-b7d0-0d07c44bcec2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IWdsTransportNamespaceScheduledCast, IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcast, wdstptmgmt/IWdsTransportNamespaceScheduledCast
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_ipv6filter_getmulticastmode.htm
 tech.root: mstv
 ms.assetid: 158e9569-b535-4744-ba12-c8a09f3e8491
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetMulticastMode, GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies],IBDA_IPV6Filter interface, IBDA_IPV6Filter interface [Microsoft TV Technologies],GetMulticastMode method, IBDA_IPV6Filter.GetMulticastMode, IBDA_IPV6Filter::GetMulticastMode, IBDA_IPV6FilterGetMulticastMode, bdaiface/IBDA_IPV6Filter::GetMulticastMode, mstv.ibda_ipv6filter_getmulticastmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

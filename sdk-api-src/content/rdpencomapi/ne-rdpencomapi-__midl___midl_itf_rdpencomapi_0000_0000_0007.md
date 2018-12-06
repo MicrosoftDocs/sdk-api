@@ -7,7 +7,7 @@ old-location: rdp\rdpsrapi_wnd_flags.htm
 tech.root: rdp
 ms.assetid: 0ba626e0-b6dc-4331-9541-0c27c73b3de4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RDPSRAPI_WND_FLAGS, RDPSRAPI_WND_FLAGS enumeration [RDP], WND_FLAG_PRIVILEGED, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0007, rdp.rdpsrapi_wnd_flags, rdpencomapi/RDPSRAPI_WND_FLAGS, rdpencomapi/WND_FLAG_PRIVILEGED
 ms.prod: windows-hardware
 ms.technology: windows-devices

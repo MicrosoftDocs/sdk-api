@@ -7,7 +7,7 @@ old-location: ad\dsgeticon.htm
 tech.root: ad
 ms.assetid: eee18c78-aefa-4f09-9361-91893502efec
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, DSGIF_ISNORMAL, DSGIF_ISOPEN, DsGetIcon, DsGetIcon function [Active Directory], ad.dsgeticon, dsclient/DsGetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

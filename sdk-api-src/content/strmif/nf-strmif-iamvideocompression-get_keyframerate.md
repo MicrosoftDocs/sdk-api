@@ -7,7 +7,7 @@ old-location: dshow\iamvideocompression_get_keyframerate.htm
 tech.root: DirectShow
 ms.assetid: af73cfaa-3297-44a7-96a7-8805aad057e2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],get_KeyFrameRate method, IAMVideoCompression.get_KeyFrameRate, IAMVideoCompression::get_KeyFrameRate, IAMVideoCompressionget_KeyFrameRate, dshow.iamvideocompression_get_keyframerate, get_KeyFrameRate, get_KeyFrameRate method [DirectShow], get_KeyFrameRate method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_KeyFrameRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

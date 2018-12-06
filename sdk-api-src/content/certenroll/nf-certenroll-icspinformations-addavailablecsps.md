@@ -7,7 +7,7 @@ old-location: security\icspinformations_addavailablecsps_method.htm
 tech.root: seccertenroll
 ms.assetid: f44af323-41fb-46d6-88ed-15d465fc8815
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddAvailableCsps, AddAvailableCsps method [Security], AddAvailableCsps method [Security],ICspInformations interface, ICspInformations interface [Security],AddAvailableCsps method, ICspInformations.AddAvailableCsps, ICspInformations::AddAvailableCsps, certenroll/ICspInformations::AddAvailableCsps, security.icspinformations_addavailablecsps_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

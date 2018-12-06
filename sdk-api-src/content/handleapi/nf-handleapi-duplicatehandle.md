@@ -7,7 +7,7 @@ old-location: base\duplicatehandle.htm
 tech.root: sysinfo
 ms.assetid: 9c8da574-5bda-49f1-a6b6-c026639d6504
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: DUPLICATE_CLOSE_SOURCE, DUPLICATE_SAME_ACCESS, DuplicateHandle, DuplicateHandle function, _win32_duplicatehandle, base.duplicatehandle, handleapi/DuplicateHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

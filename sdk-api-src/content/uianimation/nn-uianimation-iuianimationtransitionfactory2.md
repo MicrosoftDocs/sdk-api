@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionfactory2.htm
 tech.root: UIAnimation
 ms.assetid: EB829B6A-770C-486A-9BA2-4D7C8F073C8F
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAnimationTransitionFactory2, IUIAnimationTransitionFactory2 interface [Windows Animation], IUIAnimationTransitionFactory2 interface [Windows Animation],described, uianimation.iuianimationtransitionfactory2, uianimation/IUIAnimationTransitionFactory2
 ms.prod: windows-hardware
 ms.technology: windows-devices

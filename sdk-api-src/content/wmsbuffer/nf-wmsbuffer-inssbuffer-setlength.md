@@ -7,7 +7,7 @@ old-location: wmformat\inssbuffer_setlength.htm
 tech.root: wmformat
 ms.assetid: 3f0e8d8a-efc7-4f1b-8a42-7907439ed8af
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INSSBuffer interface [windows Media Format],SetLength method, INSSBuffer.SetLength, INSSBuffer::SetLength, INSSBufferSetLength, SetLength, SetLength method [windows Media Format], SetLength method [windows Media Format],INSSBuffer interface, wmformat.inssbuffer_setlength, wmsbuffer/INSSBuffer::SetLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

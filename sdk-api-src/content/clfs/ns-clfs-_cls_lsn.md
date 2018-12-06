@@ -7,7 +7,7 @@ old-location: fs\clfs_lsn.htm
 tech.root: Clfs
 ms.assetid: f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCLFS_LSN, *PCLS_LSN, CLFS_LSN, CLFS_LSN structure [Files], CLS_LSN, PCLFS_LSN, PCLFS_LSN structure pointer [Files], PPCLS_LSN, _CLS_LSN, clfs/CLFS_LSN, clfs/PCLFS_LSN, fs.clfs_lsn"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationcompositor.htm
 tech.root: directmanipulation
 ms.assetid: b96b5e8f-fc11-48ad-83ca-96e23fd3ffc1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDirectManipulationCompositor, IDirectManipulationCompositor interface [Direct Manipulation], IDirectManipulationCompositor interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcompositor, directmanipulation/IDirectManipulationCompositor
 ms.prod: windows-hardware
 ms.technology: windows-devices

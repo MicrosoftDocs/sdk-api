@@ -7,7 +7,7 @@ old-location: controls\edit_getfileline.htm
 tech.root: controls
 ms.assetid: F59ECED6-5584-43A9-A5F8-5502D66A29B6
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: Edit_GetFileLine, Edit_GetFileLine macro [Windows Controls], commctrl/Edit_GetFileLine, controls.edit_getfileline
 ms.prod: windows-hardware
 ms.technology: windows-devices

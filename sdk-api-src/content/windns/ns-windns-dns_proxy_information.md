@@ -7,7 +7,7 @@ old-location: dns\dns_proxy_information.htm
 tech.root: dns
 ms.assetid: cfe7653f-7e68-4e50-ba67-bd441f837ef8
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DNS_PROXY_INFORMATION, DNS_PROXY_INFORMATION structure [DNS], PDNS_PROXY_INFORMATION, PDNS_PROXY_INFORMATION structure pointer [DNS], dns.dns_proxy_information, windns/DNS_PROXY_INFORMATION, windns/PDNS_PROXY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

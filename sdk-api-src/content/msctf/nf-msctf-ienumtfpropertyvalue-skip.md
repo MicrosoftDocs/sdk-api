@@ -7,7 +7,7 @@ old-location: tsf\ienumtfpropertyvalue_skip.htm
 tech.root: TSF
 ms.assetid: 6bc11b63-c8d8-453d-b667-8a087b24cf47
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Skip method, IEnumTfPropertyValue.Skip, IEnumTfPropertyValue::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfPropertyValue interface, _tsf_ienumtfpropertyvalue_skip_ref, msctf/IEnumTfPropertyValue::Skip, tsf.ienumtfpropertyvalue_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

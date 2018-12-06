@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_put_audiorendereractive.htm
 tech.root: mstv
 ms.assetid: 1f6498ce-fb53-4d57-b6bd-6696ba57de3b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_AudioRendererActive method, IMSVidCtl.put_AudioRendererActive, IMSVidCtl::put_AudioRendererActive, IMSVidCtlput_AudioRendererActive, mstv.imsvidctl_put_audiorendereractive, msvidctl/IMSVidCtl::put_AudioRendererActive, put_AudioRendererActive, put_AudioRendererActive method [Microsoft TV Technologies], put_AudioRendererActive method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\eavencadaptivemode.htm
 tech.root: medfound
 ms.assetid: 5810E336-35F0-4109-9155-368C638AF987
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncAdaptiveMode, codecapi/eAVEncAdaptiveMode_FrameRate, codecapi/eAVEncAdaptiveMode_None, codecapi/eAVEncAdaptiveMode_Resolution, eAVEncAdaptiveMode, eAVEncAdaptiveMode enumeration [Media Foundation], eAVEncAdaptiveMode_FrameRate, eAVEncAdaptiveMode_None, eAVEncAdaptiveMode_Resolution, mf.eavencadaptivemode
 ms.prod: windows-hardware
 ms.technology: windows-devices

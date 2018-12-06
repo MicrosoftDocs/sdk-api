@@ -7,7 +7,7 @@ old-location: tablet\iec_strokeinfo__win32_only_.htm
 tech.root: tablet
 ms.assetid: 12486d28-eba2-4ef6-802e-be7155de6edd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 12486d28-eba2-4ef6-802e-be7155de6edd, IEC_STROKEINFO, IEC_STROKEINFO (Win32 Only), IEC_STROKEINFO (Win32 Only) structure [Tablet PC], inked/IEC_STROKEINFO, structure [Tablet PC], tablet.iec_strokeinfo__win32_only_
 ms.prod: windows-hardware
 ms.technology: windows-devices

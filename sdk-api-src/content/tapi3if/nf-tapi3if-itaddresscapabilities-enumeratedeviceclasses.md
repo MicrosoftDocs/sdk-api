@@ -7,7 +7,7 @@ old-location: tapi3\itaddresscapabilities_enumeratedeviceclasses.htm
 tech.root: tapi
 ms.assetid: 33cc965f-0603-40b0-95bb-9b16025dd2b6
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: EnumerateDeviceClasses, EnumerateDeviceClasses method [TAPI 2.2], EnumerateDeviceClasses method [TAPI 2.2],ITAddressCapabilities interface, ITAddressCapabilities interface [TAPI 2.2],EnumerateDeviceClasses method, ITAddressCapabilities.EnumerateDeviceClasses, ITAddressCapabilities::EnumerateDeviceClasses, _tapi3_itaddresscapabilities_enumeratedeviceclasses, tapi3.itaddresscapabilities_enumeratedeviceclasses, tapi3if/ITAddressCapabilities::EnumerateDeviceClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

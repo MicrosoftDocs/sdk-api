@@ -7,7 +7,7 @@ old-location: mscs\beginresourcetypecontrolasuser.htm
 tech.root: mscs
 ms.assetid: 0A95F509-0B07-4E6C-B200-FCF11A0A95F0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: BeginResourceTypeControlAsUser, BeginResourceTypeControlAsUser callback, BeginResourceTypeControlAsUser callback function [Failover Cluster], PBEGIN_RESTYPECALL_AS_USER_ROUTINE, PBEGIN_RESTYPECALL_AS_USER_ROUTINE callback function [Failover Cluster], mscs.beginresourcetypecontrolasuser, resapi/BeginResourceTypeControlAsUser, resapi/PBEGIN_RESTYPECALL_AS_USER_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

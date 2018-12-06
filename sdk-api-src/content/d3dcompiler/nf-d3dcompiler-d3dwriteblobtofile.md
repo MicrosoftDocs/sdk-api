@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dwriteblobtofile.htm
 tech.root: direct3dhlsl
 ms.assetid: F21FF3B4-5F69-4C93-9F93-6A12324A664A
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3DWriteBlobToFile, D3DWriteBlobToFile function [HLSL], d3dcompiler/D3DWriteBlobToFile, direct3dhlsl.d3dwriteblobtofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

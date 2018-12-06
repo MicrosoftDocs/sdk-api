@@ -7,7 +7,7 @@ old-location: winrm\wsmansetsessionoption.htm
 tech.root: winrm
 ms.assetid: e6d21412-49c5-4e04-974d-28e0165ddb69
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: WSManSetSessionOption, WSManSetSessionOption function [Windows Remote Management], winrm.wsmansetsessionoption, wsman/WSManSetSessionOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

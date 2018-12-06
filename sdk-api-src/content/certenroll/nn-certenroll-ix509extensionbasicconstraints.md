@@ -7,7 +7,7 @@ old-location: security\ix509extensionbasicconstraints.htm
 tech.root: seccertenroll
 ms.assetid: 81a1d567-191f-463c-ba67-0867025d8756
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IX509ExtensionBasicConstraints, IX509ExtensionBasicConstraints interface [Security], IX509ExtensionBasicConstraints interface [Security],described, certenroll/IX509ExtensionBasicConstraints, security.ix509extensionbasicconstraints
 ms.prod: windows-hardware
 ms.technology: windows-devices

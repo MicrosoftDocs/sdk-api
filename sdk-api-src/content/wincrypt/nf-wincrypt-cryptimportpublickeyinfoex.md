@@ -7,7 +7,7 @@ old-location: security\cryptimportpublickeyinfoex.htm
 tech.root: seccrypto
 ms.assetid: d3a59f83-c761-46bb-ac4f-f42f689ea5f1
 ms.author: windowssdkdev
-ms.date: 12/04/2018
+ms.date: 12/5/2018
 ms.keywords: CryptImportPublicKeyInfoEx, CryptImportPublicKeyInfoEx function [Security], _crypto2_cryptimportpublickeyinfoex, security.cryptimportpublickeyinfoex, wincrypt/CryptImportPublicKeyInfoEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

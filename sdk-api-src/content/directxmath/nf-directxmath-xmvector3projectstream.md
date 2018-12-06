@@ -7,7 +7,7 @@ old-location: dxmath\xmvector3projectstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3ProjectStream(XMFLOAT3@,size_t,const XMFLOAT3,size_t,size_t,float,float,float,float,float,float,XMMATRIX,XMMATRIX,XMMATRIX)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3ProjectStream, XMVector3ProjectStream, XMVector3ProjectStream method [DirectX Math Support APIs], dxmath.xmvector3projectstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVector3ProjectStream
-: 
 ---
 
 # XMVector3ProjectStream function

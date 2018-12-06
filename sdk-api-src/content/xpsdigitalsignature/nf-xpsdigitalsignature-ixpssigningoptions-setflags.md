@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions_setflags.htm
 tech.root: printdocs
 ms.assetid: 59467fd5-c462-4827-a4f8-e152df981ace
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetFlags method, IXpsSigningOptions.SetFlags, IXpsSigningOptions::SetFlags, SetFlags, SetFlags method [XPS Documents and Packaging], SetFlags method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setflags, xpsdigitalsignature/IXpsSigningOptions::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

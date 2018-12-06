@@ -7,7 +7,7 @@ old-location: gpmc\igpm_getrsop.htm
 tech.root: gpmc
 ms.assetid: 61a1be3e-d959-47e2-ad6c-ca00accd0afe
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GPM object [GPMC],GetRSOP method, GetRSOP, GetRSOP method [GPMC], GetRSOP method [GPMC],GPM object, GetRSOP method [GPMC],IGPM interface, IGPM interface [GPMC],GetRSOP method, IGPM.GetRSOP, IGPM::GetRSOP, _win32_igpm_getrsop, gpmc.igpm_getrsop, gpmgmt/IGPM::GetRSOP, rsopLogging, rsopPlanning, rsopUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

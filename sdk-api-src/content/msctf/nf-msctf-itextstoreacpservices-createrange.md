@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpservices_createrange.htm
 tech.root: TSF
 ms.assetid: 727945e7-b876-460e-9b06-8d03734f53b2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateRange, CreateRange method [Text Services Framework], CreateRange method [Text Services Framework],ITextStoreACPServices interface, ITextStoreACPServices interface [Text Services Framework],CreateRange method, ITextStoreACPServices.CreateRange, ITextStoreACPServices::CreateRange, _tsf_itextstoreacpservices_createrange_ref, msctf/ITextStoreACPServices::CreateRange, tsf.itextstoreacpservices_createrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

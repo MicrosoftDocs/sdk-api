@@ -7,7 +7,7 @@ old-location: security\policy_lsa_server_role_info.htm
 tech.root: secmgmt
 ms.assetid: f66abe33-d8c8-45b8-9b94-d6890d786aaa
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPOLICY_LSA_SERVER_ROLE_INFO, POLICY_LSA_SERVER_ROLE_INFO, POLICY_LSA_SERVER_ROLE_INFO structure [Security], PPOLICY_LSA_SERVER_ROLE_INFO, PPOLICY_LSA_SERVER_ROLE_INFO structure pointer [Security], _POLICY_LSA_SERVER_ROLE_INFO, _lsa_policy_lsa_server_role_info, ntsecapi/POLICY_LSA_SERVER_ROLE_INFO, ntsecapi/PPOLICY_LSA_SERVER_ROLE_INFO, security.policy_lsa_server_role_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\wsdxml_type_struct.htm
 tech.root: wsdapi
 ms.assetid: dc214dfb-1717-4f84-af4d-6eb8cf17522c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WSDXML_TYPE, WSDXML_TYPE structure, _WSDXML_TYPE, ncd.wsdxml_type_struct, wsdxmldom/WSDXML_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

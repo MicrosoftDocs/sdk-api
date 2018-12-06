@@ -7,7 +7,7 @@ old-location: qos\qos.htm
 tech.root: QOS
 ms.assetid: 859faa13-bd66-46ee-8452-6ff5d53d66c9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPQOS, LPQOS, LPQOS structure pointer [QOS], QOS, QOS structure [QOS], _QualityOfService, _gqos_qos, qos.qos, winsock2/LPQOS, winsock2/QOS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

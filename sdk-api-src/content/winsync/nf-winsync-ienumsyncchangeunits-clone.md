@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncchangeunits_clone.htm
 tech.root: winsync
 ms.assetid: 9a223a31-c147-4c51-94f5-f24ae0246f64
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncChangeUnits interface, IEnumSyncChangeUnits interface [Windows Sync],Clone method, IEnumSyncChangeUnits.Clone, IEnumSyncChangeUnits::Clone, winsync.ienumsyncchangeunits_clone, winsync/IEnumSyncChangeUnits::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

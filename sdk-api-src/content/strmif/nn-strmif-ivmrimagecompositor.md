@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagecompositor.htm
 tech.root: DirectShow
 ms.assetid: d905e871-c156-4140-bb3f-a19fa0cd79be
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVMRImageCompositor, IVMRImageCompositor interface [DirectShow], IVMRImageCompositor interface [DirectShow],described, IVMRImageCompositorInterface, dshow.ivmrimagecompositor, strmif/IVMRImageCompositor
 ms.prod: windows-hardware
 ms.technology: windows-devices

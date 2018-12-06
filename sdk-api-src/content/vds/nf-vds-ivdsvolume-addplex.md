@@ -7,7 +7,7 @@ old-location: base\ivdsvolume_addplex.htm
 tech.root: vds
 ms.assetid: b463ad74-400d-4100-83ff-3eb98e6a0db4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddPlex, AddPlex method [VDS], AddPlex method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],AddPlex method, IVdsVolume.AddPlex, IVdsVolume::AddPlex, base.ivdsvolume_addplex, vds/IVdsVolume::AddPlex
 ms.prod: windows-hardware
 ms.technology: windows-devices

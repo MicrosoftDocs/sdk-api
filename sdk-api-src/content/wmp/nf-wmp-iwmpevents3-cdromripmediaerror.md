@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents3_iwmpevents3__cdromripmediaerror.htm
 tech.root: WMP
 ms.assetid: 103f6d52-5b59-422d-918d-5004cbdfc75a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CdromRipMediaError, CdromRipMediaError method [Windows Media Player], CdromRipMediaError method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromRipMediaError method, IWMPEvents3.CdromRipMediaError, IWMPEvents3::CdromRipMediaError, IWMPEvents3CdromRipMediaError, wmp.iwmpevents3_iwmpevents3__cdromripmediaerror, wmp/IWMPEvents3::CdromRipMediaError
 ms.prod: windows-hardware
 ms.technology: windows-devices

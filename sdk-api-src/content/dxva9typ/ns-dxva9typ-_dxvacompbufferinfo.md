@@ -7,7 +7,7 @@ old-location: mf\dxvacompbufferinfo.htm
 tech.root: medfound
 ms.assetid: dabef388-d883-48a6-9abc-218dc163ef63
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: DXVACompBufferInfo, DXVACompBufferInfo structure [Media Foundation], _DXVACompBufferInfo, dxva9typ/DXVACompBufferInfo, mf.dxvacompbufferinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

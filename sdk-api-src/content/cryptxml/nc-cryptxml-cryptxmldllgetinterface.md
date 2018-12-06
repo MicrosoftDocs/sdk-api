@@ -7,7 +7,7 @@ old-location: security\cryptxmldllgetinterface.htm
 tech.root: seccrypto
 ms.assetid: a547e869-3c9f-4408-9895-29fae0cc6066
 ms.author: windowssdkdev
-ms.date: 12/04/2018
+ms.date: 12/5/2018
 ms.keywords: CryptXmlDllGetInterface, CryptXmlDllGetInterface callback, CryptXmlDllGetInterface callback function [Security], cryptxml/CryptXmlDllGetInterface, security.cryptxmldllgetinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

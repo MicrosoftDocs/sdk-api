@@ -7,7 +7,7 @@ old-location: mstv\iguidedata_getservices.htm
 tech.root: mstv
 ms.assetid: a3c08812-ed56-440e-a88d-80e20a681695
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetServices method, IGuideData.GetServices, IGuideData::GetServices, IGuideDataGetServices, bdatif/IGuideData::GetServices, mstv.iguidedata_getservices
 ms.prod: windows-hardware
 ms.technology: windows-devices

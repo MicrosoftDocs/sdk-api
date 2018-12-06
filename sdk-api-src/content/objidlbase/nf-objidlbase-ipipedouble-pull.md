@@ -7,7 +7,7 @@ old-location: com\ipipedouble_pull.htm
 tech.root: com
 ms.assetid: 393e44fa-48fe-4a8d-b337-9b875129a502
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IPipeDouble interface [COM],Pull method, IPipeDouble.Pull, IPipeDouble::Pull, Pull, Pull method [COM], Pull method [COM],IPipeDouble interface, _com_ipipedouble_pull, com.ipipedouble_pull, objidlbase/IPipeDouble::Pull
 ms.prod: windows-hardware
 ms.technology: windows-devices

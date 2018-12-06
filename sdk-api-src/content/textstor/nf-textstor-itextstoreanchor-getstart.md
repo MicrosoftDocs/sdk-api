@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getstart.htm
 tech.root: TSF
 ms.assetid: 431ca3b0-920b-4a4e-b475-32175555a789
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetStart, GetStart method [Text Services Framework], GetStart method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetStart method, ITextStoreAnchor.GetStart, ITextStoreAnchor::GetStart, textstor/ITextStoreAnchor::GetStart, tsf.itextstoreanchor_getstart
 ms.prod: windows-hardware
 ms.technology: windows-devices

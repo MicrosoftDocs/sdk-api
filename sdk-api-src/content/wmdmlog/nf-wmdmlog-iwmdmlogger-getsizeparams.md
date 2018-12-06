@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmlogger_getsizeparams.htm
 tech.root: WMDM
 ms.assetid: c8775cea-3764-44cf-a977-c4c529e2133e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetSizeParams, GetSizeParams method [windows Media Device Manager], GetSizeParams method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],GetSizeParams method, IWMDMLogger.GetSizeParams, IWMDMLogger::GetSizeParams, IWMDMLoggerGetSizeParams, wmdm.iwmdmlogger_getsizeparams, wmdmlog/IWMDMLogger::GetSizeParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IShellLink_GetArguments.htm
 tech.root: shell
 ms.assetid: bd807387-1998-4b38-996f-6dbacefffa48
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetArguments, GetArguments method [Windows Shell], GetArguments method [Windows Shell],IShellLink interface, GetArguments method [Windows Shell],IShellLinkA interface, GetArguments method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetArguments method, IShellLink::GetArguments, IShellLinkA interface [Windows Shell],GetArguments method, IShellLinkA.GetArguments, IShellLinkA::GetArguments, IShellLinkW interface [Windows Shell],GetArguments method, IShellLinkW.GetArguments, IShellLinkW::GetArguments, _win32_IShellLink_GetArguments, shell.IShellLink_GetArguments, shobjidl_core/IShellLink::GetArguments, shobjidl_core/IShellLinkA::GetArguments, shobjidl_core/IShellLinkW::GetArguments
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollmentpolicyserver_getauthentication.htm
 tech.root: seccertenroll
 ms.assetid: 56f6e7b8-4ed2-47fe-bc57-e238668c5264
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetAuthentication, GetAuthentication method [Security], GetAuthentication method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetAuthentication method, ICertPropertyEnrollmentPolicyServer.GetAuthentication, ICertPropertyEnrollmentPolicyServer::GetAuthentication, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::GetAuthentication, security.icertpropertyenrollmentpolicyserver_getauthentication
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\partition_information_mbr_str.htm
 tech.root: fileio
 ms.assetid: 5b74b06f-ef4c-44ab-95c6-49c050faf1f4
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Files], PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR structure pointer [Files], _PARTITION_INFORMATION_MBR, _win32_partition_information_mbr_str, base.partition_information_mbr_str, fs.partition_information_mbr_str, winioctl/PARTITION_INFORMATION_MBR, winioctl/PPARTITION_INFORMATION_MBR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

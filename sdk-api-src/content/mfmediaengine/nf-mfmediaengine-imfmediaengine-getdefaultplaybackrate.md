@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getdefaultplaybackrate.htm
 tech.root: medfound
 ms.assetid: FF7E9E76-B85E-40BB-88BD-5033FCE31177
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: GetDefaultPlaybackRate, GetDefaultPlaybackRate method [Media Foundation], GetDefaultPlaybackRate method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetDefaultPlaybackRate method, IMFMediaEngine.GetDefaultPlaybackRate, IMFMediaEngine::GetDefaultPlaybackRate, mf.imfmediaengine_getdefaultplaybackrate, mfmediaengine/IMFMediaEngine::GetDefaultPlaybackRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

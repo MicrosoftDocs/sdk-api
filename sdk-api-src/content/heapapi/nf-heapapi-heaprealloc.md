@@ -7,7 +7,7 @@ old-location: base\heaprealloc.htm
 tech.root: memory
 ms.assetid: 21d711d9-3b16-4537-a830-1a2fa049a471
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_REALLOC_IN_PLACE_ONLY, HEAP_ZERO_MEMORY, HeapReAlloc, HeapReAlloc function, _win32_heaprealloc, base.heaprealloc, heapapi/HeapReAlloc, winbase/HeapReAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

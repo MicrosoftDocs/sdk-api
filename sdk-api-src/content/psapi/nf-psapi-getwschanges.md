@@ -7,7 +7,7 @@ old-location: psapi\getwschanges.htm
 tech.root: psapi
 ms.assetid: ace5106c-9c7b-4d5f-a69a-c3a8bff0bb2d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetWsChanges, GetWsChanges function [PSAPI], K32GetWsChanges, _win32_getwschanges, base.getwschanges, psapi.getwschanges, psapi.h/K32GetWsChanges, psapi/GetWsChanges, psapi/K32GetWsChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

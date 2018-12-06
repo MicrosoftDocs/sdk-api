@@ -7,7 +7,7 @@ old-location: mschap\mschapsrvchangepassword.htm
 tech.root: MsChap
 ms.assetid: 6c154675-4c82-4305-8231-577f990eaeb1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: MSChapSrvChangePassword, MSChapSrvChangePassword function [MS-CHAP], _mschap_mschapsrvchangepassword, mschap.mschapsrvchangepassword, mschapp/MSChapSrvChangePassword
 ms.prod: windows-hardware
 ms.technology: windows-devices

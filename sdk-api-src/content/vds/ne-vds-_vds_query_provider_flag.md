@@ -7,7 +7,7 @@ old-location: base\vds_query_provider_flag.htm
 tech.root: vds
 ms.assetid: 849b3cbc-a1ed-438a-8fda-ada096fb8375
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: VDS_QUERY_HARDWARE_PROVIDERS, VDS_QUERY_PROVIDER_FLAG, VDS_QUERY_PROVIDER_FLAG enumeration [VDS], VDS_QUERY_SOFTWARE_PROVIDERS, VDS_QUERY_VIRTUALDISK_PROVIDERS, _VDS_QUERY_PROVIDER_FLAG, base.vds_query_provider_flag, vds/VDS_QUERY_HARDWARE_PROVIDERS, vds/VDS_QUERY_PROVIDER_FLAG, vds/VDS_QUERY_SOFTWARE_PROVIDERS, vds/VDS_QUERY_VIRTUALDISK_PROVIDERS, vdshwprv/VDS_QUERY_HARDWARE_PROVIDERS, vdshwprv/VDS_QUERY_PROVIDER_FLAG, vdshwprv/VDS_QUERY_SOFTWARE_PROVIDERS, vdshwprv/VDS_QUERY_VIRTUALDISK_PROVIDERS
 ms.prod: windows-hardware
 ms.technology: windows-devices

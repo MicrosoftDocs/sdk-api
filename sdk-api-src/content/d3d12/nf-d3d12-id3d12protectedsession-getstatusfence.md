@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12protectedsession_getstatusfence.htm
 tech.root: direct3d12
 ms.assetid: A2B4A826-198C-4D6E-9006-B6470DE1121E
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetStatusFence, GetStatusFence method, GetStatusFence method,ID3D12ProtectedSession interface, ID3D12ProtectedSession interface,GetStatusFence method, ID3D12ProtectedSession.GetStatusFence, ID3D12ProtectedSession::GetStatusFence, d3d12/ID3D12ProtectedSession::GetStatusFence, direct3d12.id3d12protectedsession_getstatusfence
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\vds_volume_prop.htm
 tech.root: vds
 ms.assetid: 3628b312-f830-4a1c-beb7-ad002a94313c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVDS_VOLUME_PROP, PVDS_VOLUME_PROP, PVDS_VOLUME_PROP structure pointer [VDS], VDS_VOLUME_PROP, VDS_VOLUME_PROP structure [VDS], _VDS_VOLUME_PROP, base.vds_volume_prop, vds/PVDS_VOLUME_PROP, vds/_VDS_VOLUME_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

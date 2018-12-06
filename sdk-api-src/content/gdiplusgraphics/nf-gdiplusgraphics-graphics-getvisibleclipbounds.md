@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsgetvisibleclipboundsmethods.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetVisibleClipBounds, GetVisibleClipBounds methods [GDI+], Graphics.GetVisibleClipBounds, Graphics::GetVisibleClipBounds, _gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods, gdiplus._gdiplus_CLASS_Graphics_GetVisibleClipBounds_Methods, gdiplusgraphics/GetVisibleClipBounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

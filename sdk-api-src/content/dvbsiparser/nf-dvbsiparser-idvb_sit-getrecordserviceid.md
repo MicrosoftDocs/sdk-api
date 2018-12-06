@@ -7,7 +7,7 @@ old-location: mstv\idvb_sit_getrecordserviceid.htm
 tech.root: mstv
 ms.assetid: de7c8002-292b-45eb-ba41-1dcd5f55a781
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordServiceId, GetRecordServiceId method [Microsoft TV Technologies], GetRecordServiceId method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetRecordServiceId method, IDVB_SIT.GetRecordServiceId, IDVB_SIT::GetRecordServiceId, IDVB_SITGetRecordServiceId, dvbsiparser/IDVB_SIT::GetRecordServiceId, mstv.idvb_sit_getrecordserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices

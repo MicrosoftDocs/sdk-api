@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 473935d9-362f-417c-a366-f683d97d9a18
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IPsecSaCreateEnumHandle0, IPsecSaCreateEnumHandle0 function [Filtering], fwp.ipsecsacreateenumhandle0_func, fwpmu/IPsecSaCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

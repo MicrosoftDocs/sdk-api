@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_containschangeunit.htm
 tech.root: winsync
 ms.assetid: 67fc3b59-ad82-47a4-9fc6-2d980b9e26fe
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ContainsChangeUnit, ContainsChangeUnit method [Windows Sync], ContainsChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ContainsChangeUnit method, ISyncKnowledge.ContainsChangeUnit, ISyncKnowledge::ContainsChangeUnit, winsync.isyncknowledge_containschangeunit, winsync/ISyncKnowledge::ContainsChangeUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

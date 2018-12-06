@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_setantialiasmode.htm
 tech.root: direct2d
 ms.assetid: 335cb9e7-56da-4971-b6d1-94292a6a771a
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetAntialiasMode method, ID2D1CommandSink.SetAntialiasMode, ID2D1CommandSink::SetAntialiasMode, SetAntialiasMode, SetAntialiasMode method [Direct2D], SetAntialiasMode method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetAntialiasMode, direct2d.id2d1commandsink_setantialiasmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

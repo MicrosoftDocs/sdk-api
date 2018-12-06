@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyfiles_clone.htm
 tech.root: bits
 ms.assetid: ea2d2f76-7cd9-4e48-8a2c-3dd367afdee7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopyFiles interface, IEnumBackgroundCopyFiles interface [BITS],Clone method, IEnumBackgroundCopyFiles.Clone, IEnumBackgroundCopyFiles::Clone, _drz_ienumbackgroundcopyfiles_clone, bits.ienumbackgroundcopyfiles_clone, bits/IEnumBackgroundCopyFiles::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

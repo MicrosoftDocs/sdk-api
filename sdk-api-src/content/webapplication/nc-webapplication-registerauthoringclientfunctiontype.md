@@ -7,7 +7,7 @@ old-location: debug\registerauthoringclientfunctiontype.htm
 tech.root: debug_wwahost
 ms.assetid: 31414CBA-12A3-45F8-967B-7ECD9D90D0F6
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: RegisterAuthoringClientFunctionType, RegisterAuthoringClientFunctionType callback, RegisterAuthoringClientFunctionType callback function [Debugging Windows Store apps], debug.registerauthoringclientfunctiontype, webapplication/RegisterAuthoringClientFunctionType
 ms.prod: windows-hardware
 ms.technology: windows-devices

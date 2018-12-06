@@ -7,7 +7,7 @@ old-location: security\authzunregistersecurityeventsource.htm
 tech.root: secauthz
 ms.assetid: 3ca3086b-f9c9-4305-aaf3-c41b5dba30ad
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AuthzUnregisterSecurityEventSource, AuthzUnregisterSecurityEventSource function [Security], authz/AuthzUnregisterSecurityEventSource, security.authzunregistersecurityeventsource
 ms.prod: windows-hardware
 ms.technology: windows-devices

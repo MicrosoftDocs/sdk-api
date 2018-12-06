@@ -7,7 +7,7 @@ old-location: base\ivdsiscsitarget_getsubsystem.htm
 tech.root: vds
 ms.assetid: c9feb332-1b30-4de8-ac30-79fe53750d8c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],GetSubSystem method, IVdsIscsiTarget.GetSubSystem, IVdsIscsiTarget::GetSubSystem, base.ivdsiscsitarget_getsubsystem, vds/IVdsIscsiTarget::GetSubSystem, vdshwprv/IVdsIscsiTarget::GetSubSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

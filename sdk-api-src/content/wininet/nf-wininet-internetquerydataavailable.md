@@ -7,7 +7,7 @@ old-location: wininet\internetquerydataavailable.htm
 tech.root: wininet
 ms.assetid: fea8250d-f260-421f-b4dd-14b8685e8dac
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: InternetQueryDataAvailable, InternetQueryDataAvailable function [WinINet], _inet_internetquerydataavailable_function, wininet.internetquerydataavailable, wininet/InternetQueryDataAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

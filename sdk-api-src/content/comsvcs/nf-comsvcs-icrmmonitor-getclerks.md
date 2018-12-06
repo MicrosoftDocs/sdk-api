@@ -7,7 +7,7 @@ old-location: cos\icrmmonitor_getclerks.htm
 tech.root: cossdk
 ms.assetid: b5802d3b-1464-4ddf-b459-a308b699de96
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetClerks, GetClerks method [COM+], GetClerks method [COM+],ICrmMonitor interface, ICrmMonitor interface [COM+],GetClerks method, ICrmMonitor.GetClerks, ICrmMonitor::GetClerks, _dtc_ICrmMonitor_GetClerks, comsvcs/ICrmMonitor::GetClerks, cos.icrmmonitor_getclerks
 ms.prod: windows-hardware
 ms.technology: windows-devices

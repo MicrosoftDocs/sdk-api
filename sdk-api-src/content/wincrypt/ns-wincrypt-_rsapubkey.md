@@ -7,7 +7,7 @@ old-location: security\rsapubkey.htm
 tech.root: seccrypto
 ms.assetid: 34b3d591-5d51-484b-accc-9a923d7492b9
 ms.author: windowssdkdev
-ms.date: 12/04/2018
+ms.date: 12/5/2018
 ms.keywords: RSAPUBKEY, RSAPUBKEY structure [Security], _RSAPUBKEY, _crypto2_rsapubkey, security.rsapubkey, wincrypt/RSAPUBKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices

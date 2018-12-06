@@ -7,7 +7,7 @@ old-location: tablet\process.htm
 tech.root: tablet
 ms.assetid: 564a2734-1a90-4566-a39d-7e16eff870ff
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 564a2734-1a90-4566-a39d-7e16eff870ff, Process, Process function [Tablet PC], recapis/Process, tablet.process
 ms.prod: windows-hardware
 ms.technology: windows-devices

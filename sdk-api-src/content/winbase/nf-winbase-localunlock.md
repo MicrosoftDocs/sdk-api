@@ -7,7 +7,7 @@ old-location: base\localunlock.htm
 tech.root: memory
 ms.assetid: eac40b69-5fb6-4523-826d-a012f6f4e5ce
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: LocalUnlock, LocalUnlock function, _win32_localunlock, base.localunlock, winbase/LocalUnlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

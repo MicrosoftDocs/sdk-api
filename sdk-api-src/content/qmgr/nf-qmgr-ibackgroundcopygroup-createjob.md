@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_createjob.htm
 tech.root: bits
 ms.assetid: 2453996e-f994-43b9-901b-680a55095268
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateJob, CreateJob method [BITS], CreateJob method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],CreateJob method, IBackgroundCopyGroup.CreateJob, IBackgroundCopyGroup::CreateJob, bits.ibackgroundcopygroup_createjob, qmgr/IBackgroundCopyGroup::CreateJob
 ms.prod: windows-hardware
 ms.technology: windows-devices

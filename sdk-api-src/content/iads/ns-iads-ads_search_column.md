@@ -1,14 +1,14 @@
 ---
 UID: NS:iads.ads_search_column
-title: ads_search_column
+title: ADS_SEARCH_COLUMN
 author: windows-sdk-content
 description: The ADS_SEARCH_COLUMN structure specifies the contents of a search column in the query returned from the directory service database.
 old-location: adsi\ads_search_column.htm
 tech.root: adsi
 ms.assetid: 9fdb370d-9409-4717-ae10-bb3b5b8a0e02
 ms.author: windowssdkdev
-ms.date: 11/16/2018
-ms.keywords: "*PADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN structure [ADSI], PADS_SEARCH_COLUMN, PADS_SEARCH_COLUMN structure pointer [ADSI], _ds_ads_search_column, ads_search_column, adsi.ads__search__column, adsi.ads_search_column, iads/ADS_SEARCH_COLUMN, iads/PADS_SEARCH_COLUMN"
+ms.date: 12/5/2018
+ms.keywords: "*PADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN structure [ADSI], PADS_SEARCH_COLUMN, PADS_SEARCH_COLUMN structure pointer [ADSI], _ds_ads_search_column, adsi.ads__search__column, adsi.ads_search_column, iads/ADS_SEARCH_COLUMN, iads/PADS_SEARCH_COLUMN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -44,7 +44,7 @@ req.typenames: ADS_SEARCH_COLUMN, *PADS_SEARCH_COLUMN
 req.redist: 
 ---
 
-# ads_search_column structure
+# ADS_SEARCH_COLUMN structure
 
 
 ## -description

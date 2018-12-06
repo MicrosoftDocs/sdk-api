@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_get_advertisingscope.htm
 tech.root: tapi
 ms.assetid: 25e155ad-c809-4ff4-85cb-ca43cb203368
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_AdvertisingScope method, ITDirectoryObjectConference.get_AdvertisingScope, ITDirectoryObjectConference::get_AdvertisingScope, _tapi3_itdirectoryobjectconference_get_advertisingscope, get_AdvertisingScope, get_AdvertisingScope method [TAPI 2.2], get_AdvertisingScope method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_AdvertisingScope, tapi3.itdirectoryobjectconference_get_advertisingscope
 ms.prod: windows-hardware
 ms.technology: windows-devices

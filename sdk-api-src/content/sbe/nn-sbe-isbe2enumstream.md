@@ -7,7 +7,7 @@ old-location: mstv\isbe2enumstream.htm
 tech.root: mstv
 ms.assetid: 77a918f8-d305-4d4d-9a5c-523ddb796b26
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISBE2EnumStream, ISBE2EnumStream interface [Microsoft TV Technologies], ISBE2EnumStream interface [Microsoft TV Technologies],described, mstv.isbe2enumstream, sbe/ISBE2EnumStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

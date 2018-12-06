@@ -7,7 +7,7 @@ old-location: wsw\ws_endpoint_address.htm
 tech.root: wsw
 ms.assetid: 4e9b5f3e-849f-46aa-a94a-3cd6ae16275f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_ENDPOINT_ADDRESS, WS_ENDPOINT_ADDRESS structure [Web Services for Windows], _WS_ENDPOINT_ADDRESS, webservices/WS_ENDPOINT_ADDRESS, wsw.ws_endpoint_address
 ms.prod: windows-hardware
 ms.technology: windows-devices

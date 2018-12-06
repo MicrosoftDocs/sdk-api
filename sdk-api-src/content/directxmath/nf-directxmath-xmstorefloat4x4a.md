@@ -7,7 +7,7 @@ old-location: dxmath\xmstorefloat4x4a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat4x4A(XMFLOAT4X4A@,XMMATRIX)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMStoreFloat4x4A, XMStoreFloat4x4A, XMStoreFloat4x4A method [DirectX Math Support APIs], dxmath.xmstorefloat4x4a
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMStoreFloat4x4A
-: 
 ---
 
 # XMStoreFloat4x4A function
@@ -93,33 +87,37 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>assert(pDestination);
+assert(((uint32_t_PTR)pDestination &amp; 0xF) == 0);
 
-```
-assert(pDestination);
-assert(((uint32_t_PTR)pDestination & 0xF) == 0);
+pDestination-&gt;m[0][0] = M.r[0].v[0];
+pDestination-&gt;m[0][1] = M.r[0].v[1];
+pDestination-&gt;m[0][2] = M.r[0].v[2];
+pDestination-&gt;m[0][3] = M.r[0].v[3];
 
-pDestination->m[0][0] = M.r[0].v[0];
-pDestination->m[0][1] = M.r[0].v[1];
-pDestination->m[0][2] = M.r[0].v[2];
-pDestination->m[0][3] = M.r[0].v[3];
+pDestination-&gt;m[1][0] = M.r[1].v[0];
+pDestination-&gt;m[1][1] = M.r[1].v[1];
+pDestination-&gt;m[1][2] = M.r[1].v[2];
+pDestination-&gt;m[1][3] = M.r[1].v[3];
 
-pDestination->m[1][0] = M.r[1].v[0];
-pDestination->m[1][1] = M.r[1].v[1];
-pDestination->m[1][2] = M.r[1].v[2];
-pDestination->m[1][3] = M.r[1].v[3];
+pDestination-&gt;m[2][0] = M.r[2].v[0];
+pDestination-&gt;m[2][1] = M.r[2].v[1];
+pDestination-&gt;m[2][2] = M.r[2].v[2];
+pDestination-&gt;m[2][3] = M.r[2].v[3];
 
-pDestination->m[2][0] = M.r[2].v[0];
-pDestination->m[2][1] = M.r[2].v[1];
-pDestination->m[2][2] = M.r[2].v[2];
-pDestination->m[2][3] = M.r[2].v[3];
-
-pDestination->m[3][0] = M.r[3].v[0];
-pDestination->m[3][1] = M.r[3].v[1];
-pDestination->m[3][2] = M.r[3].v[2];
-pDestination->m[3][3] = M.r[3].v[3];
-```
-
-
+pDestination-&gt;m[3][0] = M.r[3].v[0];
+pDestination-&gt;m[3][1] = M.r[3].v[1];
+pDestination-&gt;m[3][2] = M.r[3].v[2];
+pDestination-&gt;m[3][3] = M.r[3].v[3];</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

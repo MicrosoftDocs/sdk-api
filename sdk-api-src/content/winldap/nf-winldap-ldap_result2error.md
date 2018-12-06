@@ -7,7 +7,7 @@ old-location: ldap\ldap_result2error.htm
 tech.root: ldap
 ms.assetid: 67198ed0-c210-4eb1-b0f9-13cdb128c57d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_result2error, ldap.ldap__result2error, ldap.ldap_result2error, ldap_result2error, ldap_result2error function [LDAP], winldap/ldap_result2error"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_getid.htm
 tech.root: SensorsAPI
 ms.assetid: f314060d-ed39-48b1-b8b1-8659c05be549
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetID, GetID method, GetID method,ISensor interface, ISensor interface,GetID method, ISensor.GetID, ISensor::GetID, sensorsapi/ISensor::GetID, winsensors_com_ref.isensor_getid
 ms.prod: windows-hardware
 ms.technology: windows-devices

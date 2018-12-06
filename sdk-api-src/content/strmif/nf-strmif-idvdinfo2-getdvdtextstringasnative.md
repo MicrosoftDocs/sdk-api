@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getdvdtextstringasnative.htm
 tech.root: DirectShow
 ms.assetid: a162b4ad-28f2-49fc-9b32-72538be9ddd5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetDVDTextStringAsNative, GetDVDTextStringAsNative method [DirectShow], GetDVDTextStringAsNative method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextStringAsNative method, IDvdInfo2.GetDVDTextStringAsNative, IDvdInfo2::GetDVDTextStringAsNative, IDvdInfo2GetDVDTextStringAsNative, dshow.idvdinfo2_getdvdtextstringasnative, strmif/IDvdInfo2::GetDVDTextStringAsNative
 ms.prod: windows-hardware
 ms.technology: windows-devices

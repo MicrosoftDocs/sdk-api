@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedIsDataValidForForm.htm
 tech.root: WinAuto
 ms.assetid: 2f1027fd-7d95-412f-a9e8-73236252e49f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CachedIsDataValidForForm property [Windows Accessibility], CachedIsDataValidForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsDataValidForForm property, IUIAutomationElement.CachedIsDataValidForForm, IUIAutomationElement.get_CachedIsDataValidForForm, IUIAutomationElement::CachedIsDataValidForForm, IUIAutomationElement::get_CachedIsDataValidForForm, get_CachedIsDataValidForForm, uiauto.uiauto_IUIAutomationElement_CachedIsDataValidForForm, uiauto_IUIAutomationElement_CachedIsDataValidForForm, uiautomationclient/IUIAutomationElement::CachedIsDataValidForForm, uiautomationclient/IUIAutomationElement::get_CachedIsDataValidForForm, winauto.uiauto_IUIAutomationElement_CachedIsDataValidForForm
 ms.prod: windows-hardware
 ms.technology: windows-devices

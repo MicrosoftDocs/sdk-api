@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreampixelaspectratio.htm
 tech.root: medfound
 ms.assetid: 45B0CF31-6552-4C75-B32F-755398D1A054
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamPixelAspectRatio method, ID3D11VideoContext.VideoProcessorGetStreamPixelAspectRatio, ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio, VideoProcessorGetStreamPixelAspectRatio, VideoProcessorGetStreamPixelAspectRatio method [Media Foundation], VideoProcessorGetStreamPixelAspectRatio method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio, mf.id3d11videocontext_videoprocessorgetstreampixelaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11VideoContext.VideoProcessorGetStreamPixelAspectRatio
-: 
 ---
 
 # ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio
@@ -85,12 +77,12 @@ Receives the value <b>TRUE</b> if the pixel aspect ratio is specified. Otherwise
 
 ### -param pSourceAspectRatio [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure. If *<i>pEnabled</i> is <b>TRUE</b>, this parameter receives the pixel aspect ratio of the source rectangle.
+A pointer to a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure. If *<i>pEnabled</i> is <b>TRUE</b>, this parameter receives the pixel aspect ratio of the source rectangle.
 
 
 ### -param pDestinationAspectRatio [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure. If *<i>pEnabled</i> is <b>TRUE</b>, this parameter receives the pixel aspect ratio of the destination rectangle.
+A pointer to a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure. If *<i>pEnabled</i> is <b>TRUE</b>, this parameter receives the pixel aspect ratio of the destination rectangle.
 
 
 ## -returns

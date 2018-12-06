@@ -7,7 +7,7 @@ old-location: security\isignercertificates_find_method.htm
 tech.root: seccertenroll
 ms.assetid: ee741eda-e125-4938-bc49-d8089f7d5df2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Find, Find method [Security], Find method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Find method, ISignerCertificates.Find, ISignerCertificates::Find, certenroll/ISignerCertificates::Find, security.isignercertificates_find_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

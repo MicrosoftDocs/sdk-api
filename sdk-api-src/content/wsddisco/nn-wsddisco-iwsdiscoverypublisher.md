@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoverypublisher.htm
 tech.root: wsdapi
 ms.assetid: 4fff1328-d315-4a26-b7d8-43a273133e08
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,described, ncd.iwsdiscoverypublisher, wsddisco/IWSDiscoveryPublisher
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivsswmdependency.htm
 tech.root: vss
 ms.assetid: 5ec3d8d2-5138-4887-9741-addaaaee6bee
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssWMDependency, IVssWMDependency interface [VSS], IVssWMDependency interface [VSS],described, _win32_ivsswmdependency, base.ivsswmdependency, vswriter/IVssWMDependency
 ms.prod: windows-hardware
 ms.technology: windows-devices

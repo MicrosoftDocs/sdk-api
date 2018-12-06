@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylistarray_get_count.htm
 tech.root: WMP
 ms.assetid: 2ce0058c-8839-43da-aad8-4bc423ff3cde
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPPlaylistArray interface [Windows Media Player],get_count method, IWMPPlaylistArray.get_count, IWMPPlaylistArray::get_count, IWMPPlaylistArrayget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPPlaylistArray interface, wmp.iwmpplaylistarray_get_count, wmp/IWMPPlaylistArray::get_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

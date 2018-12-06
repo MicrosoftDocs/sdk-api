@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapivirtualchannel_flags.htm
 tech.root: rdp
 ms.assetid: a6c75a09-f791-4dca-8059-33f03b4e3d1e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIVirtualChannel interface, Flags property [RDP],RDPSRAPIVirtualChannel object, IRDPSRAPIVirtualChannel interface [RDP],Flags property, IRDPSRAPIVirtualChannel.Flags, IRDPSRAPIVirtualChannel.get_Flags, IRDPSRAPIVirtualChannel::Flags, IRDPSRAPIVirtualChannel::get_Flags, RDPSRAPIVirtualChannel object [RDP],Flags property, get_Flags, rdp.irdpsrapivirtualchannel_flags, rdpencomapi/IRDPSRAPIVirtualChannel::Flags, rdpencomapi/IRDPSRAPIVirtualChannel::get_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

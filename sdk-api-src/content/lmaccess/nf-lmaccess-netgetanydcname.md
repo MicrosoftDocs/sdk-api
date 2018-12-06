@@ -7,7 +7,7 @@ old-location: netmgmt\netgetanydcname.htm
 tech.root: netmgmt
 ms.assetid: 64dacbf4-46c2-4f82-b250-b7d338535e7c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: NetGetAnyDCName, NetGetAnyDCName function [Network Management], _win32_netgetanydcname, lmaccess/NetGetAnyDCName, netmgmt.netgetanydcname
 ms.prod: windows-hardware
 ms.technology: windows-devices

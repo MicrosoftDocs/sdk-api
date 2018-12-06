@@ -1,17 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMDECN4.XMDECN4
-title: XMDECN4 function
+title: XMDECN4::XMDECN4
 author: windows-sdk-content
 description: Default constructor for XMDECN4.
 old-location: dxmath\xmdecn4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMDECN4.#ctor
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: XMDECN4 constructor [DirectX Math Support APIs], XMDECN4 constructor [DirectX Math Support APIs],XMDECN4 structure, XMDECN4 structure [DirectX Math Support APIs],XMDECN4 constructor, XMDECN4.XMDECN4, XMDECN4.XMDECN4(), dxmath.xmdecn4_ctor_1
+ms.date: 12/5/2018
+ms.keywords: XMDECN4, XMDECN4 constructor [DirectX Math Support APIs], XMDECN4 constructor [DirectX Math Support APIs],XMDECN4 structure, XMDECN4 structure [DirectX Math Support APIs],XMDECN4 constructor, XMDECN4.XMDECN4, XMDECN4.XMDECN4(), XMDECN4::XMDECN4, dxmath.xmdecn4_ctor_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMDECN4
-: 
 ---
 
-# XMDECN4 function
+# XMDECN4::XMDECN4
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpaddress_getexclusive.htm
 tech.root: wsdapi
 ms.assetid: 9ee62901-242a-47bc-a50d-4ced245392de
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetExclusive, GetExclusive method, GetExclusive method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetExclusive method, IWSDUdpAddress.GetExclusive, IWSDUdpAddress::GetExclusive, ncd.iwsdudpaddress_getexclusive, wsdbase/IWSDUdpAddress::GetExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\itaskscheduler_delete.htm
 tech.root: taskschd
 ms.assetid: 87f21acc-e6e0-4645-84b8-b35a2eb2e80b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Delete, Delete method [Task Scheduler], Delete method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Delete method, ITaskScheduler.Delete, ITaskScheduler::Delete, _msb_itaskscheduler_delete, mstask/ITaskScheduler::Delete, taskschd.itaskscheduler_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

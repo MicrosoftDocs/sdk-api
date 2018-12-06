@@ -7,7 +7,7 @@ old-location: direct3d11\id3dx11scan_multiscan.htm
 tech.root: direct3d11
 ms.assetid: 5b6c637b-747d-465c-8915-dba13725ee0b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 370f6a70-577e-dd58-afb3-50bba688da70, ID3DX11Scan interface [Direct3D 11],Multiscan method, ID3DX11Scan.Multiscan, ID3DX11Scan::Multiscan, Multiscan, Multiscan method [Direct3D 11], Multiscan method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::Multiscan, direct3d11.id3dx11scan_multiscan
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\SFVM_HELPTOPIC_DATA_str.htm
 tech.root: shell
 ms.assetid: c06f43ca-be32-4ab7-ba6c-a0066b749dba
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: SFVM_HELPTOPIC_DATA, SFVM_HELPTOPIC_DATA structure [Windows Shell], _SFVM_HELPTOPIC_DATA, _win32_SFVM_HELPTOPIC_DATA_str, shell.SFVM_HELPTOPIC_DATA_str, shlobj_core/SFVM_HELPTOPIC_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

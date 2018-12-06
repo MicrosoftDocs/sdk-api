@@ -7,7 +7,7 @@ old-location: ncd\wsd_uri_list_struct.htm
 tech.root: wsdapi
 ms.assetid: 86d77741-39c3-44bd-b072-d2d4eb99e488
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_URI_LIST, WSD_URI_LIST structure, _WSD_URI_LIST, ncd.wsd_uri_list_struct, wsdtypes/WSD_URI_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

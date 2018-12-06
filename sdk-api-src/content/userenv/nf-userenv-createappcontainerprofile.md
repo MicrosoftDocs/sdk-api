@@ -7,7 +7,7 @@ old-location: shell\createappcontainerprofile.htm
 tech.root: shell
 ms.assetid: 73F5F30F-4083-4D33-B181-31B782AD40D6
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreateAppContainerProfile, CreateAppContainerProfile function [Windows Shell], shell.createappcontainerprofile, userenv/CreateAppContainerProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

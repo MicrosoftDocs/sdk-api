@@ -7,7 +7,7 @@ old-location: fwp\ipsecgetstatistics1_func.htm
 tech.root: fwp
 ms.assetid: cb95167c-224f-4c78-a0a2-8268f766aa05
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IPsecGetStatistics1, IPsecGetStatistics1 function [Filtering], fwp.ipsecgetstatistics1_func, fwpmu/IPsecGetStatistics1
 ms.prod: windows-hardware
 ms.technology: windows-devices

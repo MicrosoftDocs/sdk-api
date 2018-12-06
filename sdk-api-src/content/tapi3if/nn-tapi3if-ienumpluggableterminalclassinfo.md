@@ -7,7 +7,7 @@ old-location: tapi3\ienumpluggableterminalclassinfo.htm
 tech.root: tapi
 ms.assetid: 72c0db41-8391-4923-8961-6aefce9886c4
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumPluggableTerminalClassInfo, IEnumPluggableTerminalClassInfo interface [TAPI 2.2], IEnumPluggableTerminalClassInfo interface [TAPI 2.2],described, _tapi3_ienumpluggableterminalclassinfo, tapi3.ienumpluggableterminalclassinfo, tapi3if/IEnumPluggableTerminalClassInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

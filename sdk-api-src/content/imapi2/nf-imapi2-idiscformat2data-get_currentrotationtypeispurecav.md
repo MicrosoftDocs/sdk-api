@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_currentrotationtypeispurecav.htm
 tech.root: imapi
 ms.assetid: 4740a631-d5e1-496a-9631-0398a7709319
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_CurrentRotationTypeIsPureCAV method, IDiscFormat2Data.get_CurrentRotationTypeIsPureCAV, IDiscFormat2Data::get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV method [IMAPI], get_CurrentRotationTypeIsPureCAV method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_currentrotationtypeispurecav, imapi2/IDiscFormat2Data::get_CurrentRotationTypeIsPureCAV
 ms.prod: windows-hardware
 ms.technology: windows-devices

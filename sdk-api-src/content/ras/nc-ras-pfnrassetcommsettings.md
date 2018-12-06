@@ -7,7 +7,7 @@ old-location: rras\rassetcommsettings.htm
 tech.root: rras
 ms.assetid: 1df305b8-39b0-4426-b20a-62aa79240f67
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PFNRASSETCOMMSETTINGS, PFNRASSETCOMMSETTINGS callback, RasSetCommSettings, RasSetCommSettings callback function [RAS], _ras_rassetcommsettings, ras/RasSetCommSettings, rras.rassetcommsettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

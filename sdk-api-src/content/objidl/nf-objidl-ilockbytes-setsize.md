@@ -7,7 +7,7 @@ old-location: stg\ilockbytes_setsize.htm
 tech.root: stg
 ms.assetid: 13b3237b-d113-4505-b397-b06916368fef
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ILockBytes interface [Structured Storage],SetSize method, ILockBytes.SetSize, ILockBytes::SetSize, SetSize, SetSize method [Structured Storage], SetSize method [Structured Storage],ILockBytes interface, _stg_ilockbytes_setsize, objidl/ILockBytes::SetSize, stg.ilockbytes_setsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

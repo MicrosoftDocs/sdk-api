@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getemptyinstance_methodcontext_lpcwstr_cinst
 tech.root: WmiSdk
 ms.assetid: 001135bf-5ef5-41ca-9b14-257ea672a3b7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "?GetEmptyInstance@CWbemProviderGlue@@SGJPAVMethodContext@@PBGPAPAVCInstance@@1@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetEmptyInstance method, CWbemProviderGlue.GetEmptyInstance, CWbemProviderGlue.GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR), CWbemProviderGlue::GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance(MethodContext*,LPCWSTR,CInstance**,LPCWSTR), CWbemProviderGlue::GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR), GetEmptyInstance, GetEmptyInstance method [Windows Management Instrumentation], GetEmptyInstance method [Windows Management Instrumentation],CWbemProviderGlue interface, wbemglue/CWbemProviderGlue::GetEmptyInstance, wmi.cwbemproviderglue_getemptyinstance_methodcontext_lpcwstr_cinstance__lpcwstr_"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wininet\seturlcachegroupattribute.htm
 tech.root: wininet
 ms.assetid: dd4e94cd-0fe5-414a-8a43-8777403e8a45
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: SetUrlCacheGroupAttribute, SetUrlCacheGroupAttribute function [WinINet], SetUrlCacheGroupAttributeA, SetUrlCacheGroupAttributeW, _inet_seturlcachegroupattribute_function, wininet.seturlcachegroupattribute, wininet/SetUrlCacheGroupAttribute, wininet/SetUrlCacheGroupAttributeA, wininet/SetUrlCacheGroupAttributeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

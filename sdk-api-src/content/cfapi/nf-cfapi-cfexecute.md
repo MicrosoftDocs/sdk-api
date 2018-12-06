@@ -7,7 +7,7 @@ old-location: cloudapi\cfexecute.htm
 tech.root: cfApi
 ms.assetid: 6AC8958D-B060-4468-9811-9BAB0E6A06D3
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CfExecute, CfExecute function, cfapi/CfExecute, cloudApi.cfexecute
 ms.prod: windows-hardware
 ms.technology: windows-devices

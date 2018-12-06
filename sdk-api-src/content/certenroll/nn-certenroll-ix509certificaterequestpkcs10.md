@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10.htm
 tech.root: seccertenroll
 ms.assetid: 5b3764dc-fc63-45cc-8c35-65539c461e81
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], IX509CertificateRequestPkcs10 interface [Security],described, certenroll/IX509CertificateRequestPkcs10, security.ix509certificaterequestpkcs10
 ms.prod: windows-hardware
 ms.technology: windows-devices

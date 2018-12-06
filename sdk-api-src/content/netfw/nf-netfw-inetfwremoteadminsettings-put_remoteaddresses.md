@@ -7,7 +7,7 @@ old-location: ics\inetfwremoteadminsettings_remoteaddresses.htm
 tech.root: ics
 ms.assetid: 9166617b-3e61-4d83-bd2f-92682ea5df82
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwRemoteAdminSettings interface [ICS/ICF],RemoteAddresses property, INetFwRemoteAdminSettings.RemoteAddresses, INetFwRemoteAdminSettings.put_RemoteAddresses, INetFwRemoteAdminSettings::RemoteAddresses, INetFwRemoteAdminSettings::get_RemoteAddresses, INetFwRemoteAdminSettings::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwRemoteAdminSettings interface, ics.inetfwremoteadminsettings_remoteaddresses, netfw/INetFwRemoteAdminSettings::RemoteAddresses, netfw/INetFwRemoteAdminSettings::get_RemoteAddresses, netfw/INetFwRemoteAdminSettings::put_RemoteAddresses, put_RemoteAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices

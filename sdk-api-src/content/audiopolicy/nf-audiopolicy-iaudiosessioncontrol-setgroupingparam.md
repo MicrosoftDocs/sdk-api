@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol_setgroupingparam.htm
 tech.root: CoreAudio
 ms.assetid: 990bebd9-c37d-4f72-b349-a43a074d8992
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],SetGroupingParam method, IAudioSessionControl.SetGroupingParam, IAudioSessionControl::SetGroupingParam, IAudioSessionControlSetGroupingParam, SetGroupingParam, SetGroupingParam method [Core Audio], SetGroupingParam method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetGroupingParam, coreaudio.iaudiosessioncontrol_setgroupingparam
 ms.prod: windows-hardware
 ms.technology: windows-devices

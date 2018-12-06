@@ -7,7 +7,7 @@ old-location: wmi\iwbemdecoupledbasiceventprovider.htm
 tech.root: WmiSdk
 ms.assetid: 71ce4f79-8168-47c5-a8b1-4286b34f7a31
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWbemDecoupledBasicEventProvider, IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation], IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation],described, _hmm_iwbemdecoupledbasiceventprovider, wbemprov/IWbemDecoupledBasicEventProvider, wmi.iwbemdecoupledbasiceventprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

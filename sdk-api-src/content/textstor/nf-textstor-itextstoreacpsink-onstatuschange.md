@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink_onstatuschange.htm
 tech.root: TSF
 ms.assetid: 44ecc116-e6f3-48dd-9bff-16d3c1e4cc97
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnStatusChange method, ITextStoreACPSink.OnStatusChange, ITextStoreACPSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onstatuschange_ref, textstor/ITextStoreACPSink::OnStatusChange, tsf.itextstoreacpsink_onstatuschange
 ms.prod: windows-hardware
 ms.technology: windows-devices

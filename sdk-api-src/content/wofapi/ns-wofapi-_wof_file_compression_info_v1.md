@@ -7,7 +7,7 @@ old-location: fs\wof_file_compression_info_v1.htm
 tech.root: fileio
 ms.assetid: 84FC5525-43BC-436C-AADC-C58882D48C1F
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1 structure pointer [Files], WOF_FILE_COMPRESSION_INFO, WOF_FILE_COMPRESSION_INFO_V1, WOF_FILE_COMPRESSION_INFO_V1 structure [Files], _WOF_FILE_COMPRESSION_INFO_V1, fs.wof_file_compression_info_v1, wofapi/PWOF_FILE_COMPRESSION_INFO_V1, wofapi/WOF_FILE_COMPRESSION_INFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rpc\mesencodefixedbufferhandlecreate.htm
 tech.root: rpc
 ms.assetid: 7700e0f6-0f30-415c-9873-983ec6c249b2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: MesEncodeFixedBufferHandleCreate, MesEncodeFixedBufferHandleCreate function [RPC], _rpc_mesencodefixedbufferhandlecreate, midles/MesEncodeFixedBufferHandleCreate, rpc.mesencodefixedbufferhandlecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsock\setsocketmediastreamingmode.htm
 tech.root: winsock
 ms.assetid: 5D1C18FC-2F25-44C0-AD3C-F1E7744C4963
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: SetSocketMediaStreamingMode, SetSocketMediaStreamingMode function [Winsock], socketapi/SetSocketMediaStreamingMode, winsock.setsocketmediastreamingmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

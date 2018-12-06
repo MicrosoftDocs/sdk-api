@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth_unload.htm
 tech.root: audio
 ms.assetid: 608ebffe-873a-40ed-a411-245e8b6ceabd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],Unload method, IDirectMusicSynth.Unload, IDirectMusicSynth::Unload, Unload, Unload method [Audio Devices], Unload method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_unload, audmp-routines_7a0213c4-3cd1-4c6f-ab4a-064d08782629.xml, dmusics/IDirectMusicSynth::Unload
 ms.prod: windows-hardware
 ms.technology: windows-devices

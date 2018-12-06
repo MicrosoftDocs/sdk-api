@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1SimplifiedGeometrySink.htm
 tech.root: direct2d
 ms.assetid: cf877a25-7b9f-4db0-ac53-b4a350795a86
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1SimplifiedGeometrySink, ID2D1SimplifiedGeometrySink interface [Direct2D], ID2D1SimplifiedGeometrySink interface [Direct2D],described, d2d1/ID2D1SimplifiedGeometrySink, direct2d.ID2D1SimplifiedGeometrySink
 ms.prod: windows-hardware
 ms.technology: windows-devices

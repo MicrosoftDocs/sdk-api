@@ -7,7 +7,7 @@ old-location: upnp\iupnpasyncresult_asyncoperationcomplete.htm
 tech.root: upnp
 ms.assetid: C71C0A78-C3D1-4725-99E2-542786B03C8F
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method [UPnP APIs], AsyncOperationComplete method [UPnP APIs],IUPnPAsyncResult interface, IUPnPAsyncResult interface [UPnP APIs],AsyncOperationComplete method, IUPnPAsyncResult.AsyncOperationComplete, IUPnPAsyncResult::AsyncOperationComplete, upnp.iupnpasyncresult_asyncoperationcomplete, upnp/IUPnPAsyncResult::AsyncOperationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_getvectorcurve.htm
 tech.root: UIAnimation
 ms.assetid: CAC7D415-5B0F-4587-8F1C-65399D2A5A58
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetVectorCurve, GetVectorCurve method [Windows Animation], GetVectorCurve method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetVectorCurve method, IUIAnimationVariable2.GetVectorCurve, IUIAnimationVariable2::GetVectorCurve, uianimation.iuianimationvariable2_getvectorcurve, uianimation/IUIAnimationVariable2::GetVectorCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices

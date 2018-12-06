@@ -7,7 +7,7 @@ old-location: multimedia\midioutcachedrumpatches.htm
 tech.root: Multimedia
 ms.assetid: 2cd5d6d9-7bff-40f9-a088-d66e06ca147c
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiOutCacheDrumPatches, midiOutCacheDrumPatches, midiOutCacheDrumPatches function [Windows Multimedia], midiOutCacheDrumPatchesA, midiOutCacheDrumPatchesW, mmeapi/midiOutCacheDrumPatches, multimedia.midioutcachedrumpatches"
 ms.prod: windows-hardware
 ms.technology: windows-devices

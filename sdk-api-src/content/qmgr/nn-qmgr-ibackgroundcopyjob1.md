@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob1.htm
 tech.root: bits
 ms.assetid: ccf1b355-c1af-4b5e-b613-181c426ed777
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], IBackgroundCopyJob1 interface [BITS],described, bits.ibackgroundcopyjob1, qmgr/IBackgroundCopyJob1
 ms.prod: windows-hardware
 ms.technology: windows-devices

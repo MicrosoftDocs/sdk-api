@@ -7,7 +7,7 @@ old-location: base\getcurrentthreadstacklimits.htm
 tech.root: procthread
 ms.assetid: a5556124-a832-477d-80ab-424779eb9553
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurrentThreadStackLimits, GetCurrentThreadStackLimits function, base.getcurrentthreadstacklimits, processthreadsapi/GetCurrentThreadStackLimits
 ms.prod: windows-hardware
 ms.technology: windows-devices

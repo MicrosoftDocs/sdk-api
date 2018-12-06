@@ -7,7 +7,7 @@ old-location: stg\stgisstorageilockbytes.htm
 tech.root: stg
 ms.assetid: ce0e29fd-1b21-4064-8e37-1a5d5df8bb61
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: StgIsStorageILockBytes, StgIsStorageILockBytes function [Structured Storage], _stg_stgisstorageilockbytes, coml2api/StgIsStorageILockBytes, stg.stgisstorageilockbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

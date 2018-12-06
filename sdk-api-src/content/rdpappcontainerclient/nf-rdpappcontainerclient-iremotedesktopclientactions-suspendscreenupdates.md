@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientactions_suspendscreenupdates.htm
 tech.root: termserv
 ms.assetid: 0161ee5f-5e67-4bc9-b822-800c2b23ec44
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],SuspendScreenUpdates method, IRemoteDesktopClientActions.SuspendScreenUpdates, IRemoteDesktopClientActions::SuspendScreenUpdates, SuspendScreenUpdates, SuspendScreenUpdates method [Remote Desktop Services], SuspendScreenUpdates method [Remote Desktop Services],IRemoteDesktopClientActions interface, rdpappcontainerclient/IRemoteDesktopClientActions::SuspendScreenUpdates, termserv.iremotedesktopclientactions_suspendscreenupdates
 ms.prod: windows-hardware
 ms.technology: windows-devices

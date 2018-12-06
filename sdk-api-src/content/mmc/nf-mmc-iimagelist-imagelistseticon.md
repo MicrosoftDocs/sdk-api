@@ -7,7 +7,7 @@ old-location: mmc\iimagelist_imagelistseticon.htm
 tech.root: mmc
 ms.assetid: 3bdb166e-e78a-41a8-9bb7-904d0462f976
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IImageList interface [MMC],ImageListSetIcon method, IImageList.ImageListSetIcon, IImageList::ImageListSetIcon, ImageListSetIcon, ImageListSetIcon method [MMC], ImageListSetIcon method [MMC],IImageList interface, _slate_iimagelist_imagelistseticon, mmc.iimagelist_imagelistseticon, mmc/IImageList::ImageListSetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

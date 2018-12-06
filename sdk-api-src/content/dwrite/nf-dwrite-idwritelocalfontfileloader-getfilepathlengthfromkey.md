@@ -7,7 +7,7 @@ old-location: directwrite\idwritelocalfontfileloader_getfilepathlengthfromkey.ht
 tech.root: DirectWrite
 ms.assetid: bdd84d75-5a7a-448a-a52c-0f5997ab07b9
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetFilePathLengthFromKey, GetFilePathLengthFromKey method [Direct Write], GetFilePathLengthFromKey method [Direct Write],IDWriteLocalFontFileLoader interface, IDWriteLocalFontFileLoader interface [Direct Write],GetFilePathLengthFromKey method, IDWriteLocalFontFileLoader.GetFilePathLengthFromKey, IDWriteLocalFontFileLoader::GetFilePathLengthFromKey, directwrite.idwritelocalfontfileloader_getfilepathlengthfromkey, dwrite/IDWriteLocalFontFileLoader::GetFilePathLengthFromKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

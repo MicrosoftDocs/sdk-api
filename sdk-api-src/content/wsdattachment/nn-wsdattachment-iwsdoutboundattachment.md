@@ -7,7 +7,7 @@ old-location: ncd\iwsdoutboundattachment.htm
 tech.root: wsdapi
 ms.assetid: ba2f2038-e6ef-4ad4-a1fb-50e225394c60
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDOutboundAttachment, IWSDOutboundAttachment interface, IWSDOutboundAttachment interface,described, ncd.iwsdoutboundattachment, wsdattachment/IWSDOutboundAttachment
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mib\mib_udpstats2.htm
 tech.root: MIB
 ms.assetid: A225E0E7-54FB-4655-9A45-F3EF6DA1FF4E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMIB_UDPSTATS2, MIB_UDPSTATS2, MIB_UDPSTATS2 structure [MIB], PMIB_UDPSTATS2, PMIB_UDPSTATS2 structure pointer [MIB], _MIB_UDPSTATS2, mib.mib_udpstats2, udpmib/MIB_UDPSTATS, udpmib/PMIB_UDPSTATS2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

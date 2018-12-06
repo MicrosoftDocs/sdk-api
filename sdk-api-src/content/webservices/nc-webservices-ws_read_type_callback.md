@@ -7,7 +7,7 @@ old-location: wsw\ws_read_type_callback.htm
 tech.root: wsw
 ms.assetid: 95df152c-69cb-4417-9e85-e7ecb54ed042
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_READ_TYPE_CALLBACK, WS_READ_TYPE_CALLBACK callback, WS_READ_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_READ_TYPE_CALLBACK, wsw.ws_read_type_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

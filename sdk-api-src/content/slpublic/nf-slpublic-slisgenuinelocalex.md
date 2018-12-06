@@ -7,7 +7,7 @@ old-location: security\slisgenuinelocalex.htm
 tech.root: SecSLApi
 ms.assetid: 171edde8-edbd-4040-9623-359f13817687
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLIsGenuineLocalEx, SLIsGenuineLocalEx function [Security], security.slisgenuinelocalex, slpublic/SLIsGenuineLocalEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

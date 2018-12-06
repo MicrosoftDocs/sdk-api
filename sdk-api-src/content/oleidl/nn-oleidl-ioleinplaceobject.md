@@ -7,7 +7,7 @@ old-location: com\ioleinplaceobject.htm
 tech.root: com
 ms.assetid: c14de79d-e844-49cf-ae70-6c3e417fab90
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOleInPlaceObject, IOleInPlaceObject interface [COM], IOleInPlaceObject interface [COM],described, _ole_ioleinplaceobject, com.ioleinplaceobject, oleidl/IOleInPlaceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

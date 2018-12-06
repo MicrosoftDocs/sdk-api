@@ -7,7 +7,7 @@ old-location: wia\_wia_WIA_EXTENDED_TRANSFER_INFO.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_extended_transfer_info.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWIA_EXTENDED_TRANSFER_INFO, PWIA_EXTENDED_TRANSFER_INFO, PWIA_EXTENDED_TRANSFER_INFO structure pointer [WIA], WIA_EXTENDED_TRANSFER_INFO, WIA_EXTENDED_TRANSFER_INFO structure [WIA], _WIA_EXTENDED_TRANSFER_INFO, _wia_WIA_EXTENDED_TRANSFER_INFO, wia._wia_WIA_EXTENDED_TRANSFER_INFO, wia_xp/PWIA_EXTENDED_TRANSFER_INFO, wia_xp/WIA_EXTENDED_TRANSFER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

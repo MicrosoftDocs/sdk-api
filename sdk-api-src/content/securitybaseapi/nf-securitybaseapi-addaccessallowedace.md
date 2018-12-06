@@ -7,7 +7,7 @@ old-location: security\addaccessallowedace.htm
 tech.root: secauthz
 ms.assetid: 1004353a-f907-4452-9c0f-85eba0ece813
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AddAccessAllowedAce, AddAccessAllowedAce function [Security], _win32_addaccessallowedace, security.addaccessallowedace, securitybaseapi/AddAccessAllowedAce
 ms.prod: windows-hardware
 ms.technology: windows-devices

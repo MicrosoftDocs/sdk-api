@@ -7,7 +7,7 @@ old-location: direct3d11\id3duserdefinedannotation_setmarker.htm
 tech.root: direct3d11
 ms.assetid: EACF3660-C6A7-4C46-816C-0D9D292903B5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3DUserDefinedAnnotation interface [Direct3D 11],SetMarker method, ID3DUserDefinedAnnotation.SetMarker, ID3DUserDefinedAnnotation::SetMarker, SetMarker, SetMarker method [Direct3D 11], SetMarker method [Direct3D 11],ID3DUserDefinedAnnotation interface, d3d11_1/ID3DUserDefinedAnnotation::SetMarker, direct3d11.id3duserdefinedannotation_setmarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11_1.h
-: 
-- ID3DUserDefinedAnnotation.SetMarker
-: 
 ---
 
 # ID3DUserDefinedAnnotation::SetMarker
@@ -94,12 +86,16 @@ A user can visualize the marker when the calling application is running under an
 #### Examples
 
 The following code shows how to use <b>SetMarker</b>.
-          It also uses the <a href="https://msdn.microsoft.com/library/ezzw7k98(v=VS.100).aspx">CComPtr</a> smart pointer type.
+          It also uses the <a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a> smart pointer type.
 
-
-```
-
-CComPtr< ID3D11DeviceContext > pID3D11DeviceContext;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+CComPtr&lt; ID3D11DeviceContext &gt; pID3D11DeviceContext;
 
 HRESULT hrCreateDevice = (*pfnD3D11CreateDevice)( 
         0,
@@ -111,19 +107,19 @@ HRESULT hrCreateDevice = (*pfnD3D11CreateDevice)(
         D3D11_SDK_VERSION,
         NULL,
         0,
-        & pID3D11DeviceContext );
+        &amp; pID3D11DeviceContext );
 VERIFY_SUCCEEDED(hrCreateDevice);
 
-CComPtr<ID3DUserDefinedAnnotation> pPerf;
-HRESULT hr = pID3D11DeviceContext->QueryInterface( __uuidof(pPerf), reinterpret_cast<void**>(&pPerf) );
+CComPtr&lt;ID3DUserDefinedAnnotation&gt; pPerf;
+HRESULT hr = pID3D11DeviceContext-&gt;QueryInterface( __uuidof(pPerf), reinterpret_cast&lt;void**&gt;(&amp;pPerf) );
 if ( FAILED( hr ) ) 
     return;
-pPerf->SetMarker( L”Occlusion test failed- not drawing sun flare” );
+pPerf-&gt;SetMarker( L”Occlusion test failed- not drawing sun flare” );
 
-          
-```
-
-
+          </pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 
@@ -133,7 +129,7 @@ pPerf->SetMarker( L”Occlusion test failed- not drawing sun flare” );
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446881(v=VS.85).aspx">ID3DUserDefinedAnnotation</a>
+<a href="https://msdn.microsoft.com/255DE24B-3D6D-49D9-B6A8-D296AB99B4C9">ID3DUserDefinedAnnotation</a>
  
 
  

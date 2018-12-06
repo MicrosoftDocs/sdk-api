@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_UnregisterForPackageStateChanges.htm
 tech.root: shell
 ms.assetid: CFCDA0AD-83D5-43DD-A7DD-C121563BF3DB
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],UnregisterForPackageStateChanges method, IPackageDebugSettings.UnregisterForPackageStateChanges, IPackageDebugSettings::UnregisterForPackageStateChanges, UnregisterForPackageStateChanges, UnregisterForPackageStateChanges method [Windows Shell], UnregisterForPackageStateChanges method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_UnregisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::UnregisterForPackageStateChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

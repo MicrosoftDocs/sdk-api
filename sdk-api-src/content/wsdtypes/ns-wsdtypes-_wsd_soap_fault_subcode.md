@@ -7,7 +7,7 @@ old-location: ncd\wsd_soap_fault_subcode_struct.htm
 tech.root: wsdapi
 ms.assetid: cd8f35e4-7b22-4af0-b6a4-78f43ed8b060
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_SOAP_FAULT_SUBCODE, WSD_SOAP_FAULT_SUBCODE structure, _WSD_SOAP_FAULT_SUBCODE, ncd.wsd_soap_fault_subcode_struct, wsdtypes/WSD_SOAP_FAULT_SUBCODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

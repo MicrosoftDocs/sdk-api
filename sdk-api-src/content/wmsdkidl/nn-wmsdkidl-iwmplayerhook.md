@@ -7,7 +7,7 @@ old-location: wmformat\iwmplayerhook.htm
 tech.root: wmformat
 ms.assetid: 5e58cb6a-3398-4b12-881e-76f936f6c7b3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPlayerHook, IWMPlayerHook interface [windows Media Format], IWMPlayerHook interface [windows Media Format],described, IWMPlayerHookInterface, wmformat.iwmplayerhook, wmsdkidl/IWMPlayerHook
 ms.prod: windows-hardware
 ms.technology: windows-devices

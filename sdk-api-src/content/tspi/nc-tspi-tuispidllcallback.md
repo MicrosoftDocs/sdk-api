@@ -7,7 +7,7 @@ old-location: tspi\dllcallbackproc.htm
 tech.root: tapi
 ms.assetid: 2f4ec748-26ff-49c5-bd88-6c6e64e5bc89
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: DllCallbackProc, DllCallbackProc callback function [TAPI 2.2], TUISPIDLLCALLBACK, TUISPIDLLCALLBACK callback, _tspi_tuispidllcallback, tspi.dllcallbackproc, tspi.tuispidllcallback, tspi/DllCallbackProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

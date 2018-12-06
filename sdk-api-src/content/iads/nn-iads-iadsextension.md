@@ -7,7 +7,7 @@ old-location: adsi\iadsextension.htm
 tech.root: adsi
 ms.assetid: 05681526-2232-4341-859d-6773f7a58431
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IADsExtension, IADsExtension interface [ADSI], IADsExtension interface [ADSI],described, _ds_iadsextension, adsi.iadsextension, iads/IADsExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

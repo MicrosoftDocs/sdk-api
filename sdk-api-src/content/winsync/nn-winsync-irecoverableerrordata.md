@@ -7,7 +7,7 @@ old-location: winsync\irecoverableerrordata.htm
 tech.root: winsync
 ms.assetid: e99779ef-87c9-45ac-93dc-53ee1a201402
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRecoverableErrorData, IRecoverableErrorData interface [Windows Sync], IRecoverableErrorData interface [Windows Sync],described, winsync.irecoverableerrordata, winsync/IRecoverableErrorData
 ms.prod: windows-hardware
 ms.technology: windows-devices

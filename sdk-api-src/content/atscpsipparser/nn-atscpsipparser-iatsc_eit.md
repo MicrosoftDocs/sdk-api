@@ -7,7 +7,7 @@ old-location: mstv\iatsc_eit.htm
 tech.root: mstv
 ms.assetid: ab3fd79f-4ca6-418e-8e7c-a5fa196c09e6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IATSC_EIT, IATSC_EIT interface [Microsoft TV Technologies], IATSC_EIT interface [Microsoft TV Technologies],described, IATSC_EITInterface, atscpsipparser/IATSC_EIT, mstv.iatsc_eit
 ms.prod: windows-hardware
 ms.technology: windows-devices

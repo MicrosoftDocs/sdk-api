@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__put_accvalue.htm
 tech.root: WinAuto
 ms.assetid: 0b1e44f4-8d03-47a4-a8c5-5296059e0459
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAccessible interface [Windows Accessibility],put_accValue method, IAccessible.put_accValue, IAccessible::put_accValue, _msaa_IAccessible_put_accValue, msaa.iaccessible_iaccessible__put_accvalue, oleacc/IAccessible::put_accValue, put_accValue, put_accValue method [Windows Accessibility], put_accValue method [Windows Accessibility],IAccessible interface, winauto.iaccessible_iaccessible__put_accvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

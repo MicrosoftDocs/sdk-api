@@ -7,7 +7,7 @@ old-location: base\vds_iscsi_ipsec_key.htm
 tech.root: vds
 ms.assetid: a2428142-4dd0-467d-bb7c-3d7fca31111e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: VDS_ISCSI_IPSEC_KEY, VDS_ISCSI_IPSEC_KEY structure [VDS], _VDS_ISCSI_IPSEC_KEY, base.vds_iscsi_ipsec_key, vds/VDS_ISCSI_IPSEC_KEY, vdshwprv/VDS_ISCSI_IPSEC_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices

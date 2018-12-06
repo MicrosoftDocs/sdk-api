@@ -7,7 +7,7 @@ old-location: fwp\fwpmfilterdeletebykey0_func.htm
 tech.root: fwp
 ms.assetid: 75c0796c-84d0-4282-bc93-267a17dd3edc
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmFilterDeleteByKey0, FwpmFilterDeleteByKey0 function [Filtering], fwp.fwpmfilterdeletebykey0_func, fwpmu/FwpmFilterDeleteByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

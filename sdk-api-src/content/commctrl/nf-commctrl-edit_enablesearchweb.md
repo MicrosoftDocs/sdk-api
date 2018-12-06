@@ -7,7 +7,7 @@ old-location: controls\edit_enablesearchweb.htm
 tech.root: controls
 ms.assetid: BB56F4F6-0D13-41B4-B8C1-FF724FCC4D0B
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: Edit_EnableSearchWeb, Edit_EnableSearchWeb macro [Windows Controls], commctrl/Edit_EnableSearchWeb, controls.edit_enablesearchweb
 ms.prod: windows-hardware
 ms.technology: windows-devices

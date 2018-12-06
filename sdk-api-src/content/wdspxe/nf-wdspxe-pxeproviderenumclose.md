@@ -7,7 +7,7 @@ old-location: wds\pxeproviderenumclose.htm
 tech.root: wds
 ms.assetid: 6b71c2cf-a156-4ccb-be7c-2955b4db26a2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: PxeProviderEnumClose, PxeProviderEnumClose function [Windows Deployment Services], wds.pxeproviderenumclose, wdspxe/PxeProviderEnumClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

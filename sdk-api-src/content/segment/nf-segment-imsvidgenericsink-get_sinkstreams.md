@@ -7,7 +7,7 @@ old-location: mstv\imsvidgenericsink_get_sinkstreams.htm
 tech.root: mstv
 ms.assetid: e77f2ee8-081b-4415-87b5-ab27ee0218d2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],get_SinkStreams method, IMSVidGenericSink.get_SinkStreams, IMSVidGenericSink::get_SinkStreams, IMSVidGenericSinkget_SinkStreams, get_SinkStreams, get_SinkStreams method [Microsoft TV Technologies], get_SinkStreams method [Microsoft TV Technologies],IMSVidGenericSink interface, mstv.imsvidgenericsink_get_sinkstreams, segment/IMSVidGenericSink::get_SinkStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

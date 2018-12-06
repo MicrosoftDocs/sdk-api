@@ -7,7 +7,7 @@ old-location: upnp\iupnpeventsink.htm
 tech.root: upnp
 ms.assetid: 431423c9-2873-422d-a28c-c4ef23109114
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPEventSink, IUPnPEventSink interface [UPnP APIs], IUPnPEventSink interface [UPnP APIs],described, _upnp_iupnpeventsink, upnp.iupnpeventsink, upnphost/IUPnPEventSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

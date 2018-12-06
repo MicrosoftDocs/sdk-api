@@ -7,7 +7,7 @@ old-location: secbiomet\engineadapteridentifyall.htm
 tech.root: SecBioMet
 ms.assetid: B8B72654-D161-480B-AD3D-8ED236249562
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EngineAdapterIdentifyAll, EngineAdapterIdentifyAll callback function [Windows Biometric Framework API], PIBIO_ENGINE_IDENTIFY_ALL_FN, PIBIO_ENGINE_IDENTIFY_ALL_FN callback, secbiomet.engineadapteridentifyall, winbio_adapter/EngineAdapterIdentifyAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

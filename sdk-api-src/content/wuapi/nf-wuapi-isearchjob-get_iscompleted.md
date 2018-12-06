@@ -7,7 +7,7 @@ old-location: wua\isearchjob_iscompleted.htm
 tech.root: wua_sdk
 ms.assetid: 32bb990d-89ce-4aca-8a9f-28cbd991e506
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ISearchJob interface [Windows Update Agent],IsCompleted property, ISearchJob.IsCompleted, ISearchJob.get_IsCompleted, ISearchJob::IsCompleted, ISearchJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],ISearchJob interface, get_IsCompleted, wua.isearchjob_iscompleted, wuapi/ISearchJob::IsCompleted, wuapi/ISearchJob::get_IsCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

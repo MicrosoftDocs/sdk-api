@@ -7,7 +7,7 @@ old-location: tapi3\itlocationinfo_get_countrycode.htm
 tech.root: tapi
 ms.assetid: 3ddd2e25-39ac-419b-9f99-85c6086f0377
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CountryCode method, ITLocationInfo.get_CountryCode, ITLocationInfo::get_CountryCode, _tapi3_itlocationinfo_get_countrycode, get_CountryCode, get_CountryCode method [TAPI 2.2], get_CountryCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_countrycode, tapi3if/ITLocationInfo::get_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

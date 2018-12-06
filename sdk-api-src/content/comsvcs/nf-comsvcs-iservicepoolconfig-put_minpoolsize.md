@@ -7,7 +7,7 @@ old-location: cos\iservicepoolconfig_put_minpoolsize.htm
 tech.root: cossdk
 ms.assetid: 6280b4ed-704e-464e-bde2-64c1f2353730
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_MinPoolSize method, IServicePoolConfig.put_MinPoolSize, IServicePoolConfig::put_MinPoolSize, comsvcs/IServicePoolConfig::put_MinPoolSize, cos.iservicepoolconfig_put_minpoolsize, put_MinPoolSize, put_MinPoolSize method [COM+], put_MinPoolSize method [COM+],IServicePoolConfig interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

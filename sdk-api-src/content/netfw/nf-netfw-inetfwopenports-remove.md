@@ -7,7 +7,7 @@ old-location: ics\inetfwopenports_remove.htm
 tech.root: ics
 ms.assetid: e3719087-f7b9-4780-a030-0c568248080d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],Remove method, INetFwOpenPorts.Remove, INetFwOpenPorts::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwOpenPorts interface, ics.inetfwopenports_remove, netfw/INetFwOpenPorts::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

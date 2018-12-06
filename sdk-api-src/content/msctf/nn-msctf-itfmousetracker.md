@@ -7,7 +7,7 @@ old-location: tsf\itfmousetracker.htm
 tech.root: TSF
 ms.assetid: aad07b35-99e0-4c76-ba65-93c2c972303d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITfMouseTracker, ITfMouseTracker interface [Text Services Framework], ITfMouseTracker interface [Text Services Framework],described, _tsf_itfmousetracker_ref, msctf/ITfMouseTracker, tsf.itfmousetracker
 ms.prod: windows-hardware
 ms.technology: windows-devices

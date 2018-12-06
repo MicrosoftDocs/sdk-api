@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatawriter.htm
 tech.root: wic
 ms.assetid: 7e742a96-f9d0-49e1-80e4-31ec90680e60
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWICMetadataWriter, IWICMetadataWriter interface [Windows Imaging Component], IWICMetadataWriter interface [Windows Imaging Component],described, _wic_codec_iwicmetadatawriter, wic._wic_codec_iwicmetadatawriter, wincodecsdk/IWICMetadataWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

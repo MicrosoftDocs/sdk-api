@@ -213,14 +213,14 @@ A bitmask representing the processor affinity of the IRQ line that is allocated 
 <i>Not used.</i>
 
 
-##### - IRQD_Affinity.For a resource list:
+##### - IRQD_Count.For a resource list:
 
-A bitmask representing the processor affinity of the IRQ line that is allocated to the device. Bit zero represents the first processor, bit two the second, and so on. Set this value to -1 to represent all processors. 
+Zero.
 
 
-##### - IRQD_Affinity.For a resource requirements list:
+##### - IRQD_Count.For a resource requirements list:
 
-<i>Not used.</i>
+The number of elements in the <a href="https://msdn.microsoft.com/973834cc-0798-414f-a937-5ab14c214559">IRQ_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/448298d1-2583-47d5-b393-e6c8e59da64e">IRQ_RESOURCE</a> structure.
 
 
 ##### - IRQD_Alloc_Num.For a resource list:
@@ -233,14 +233,14 @@ The number of the IRQ line that is allocated to the device.
 <i>Not used.</i>
 
 
-##### - IRQD_Count.For a resource list:
+##### - IRQD_Affinity.For a resource list:
 
-Zero.
+A bitmask representing the processor affinity of the IRQ line that is allocated to the device. Bit zero represents the first processor, bit two the second, and so on. Set this value to -1 to represent all processors. 
 
 
-##### - IRQD_Count.For a resource requirements list:
+##### - IRQD_Affinity.For a resource requirements list:
 
-The number of elements in the <a href="https://msdn.microsoft.com/973834cc-0798-414f-a937-5ab14c214559">IRQ_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/448298d1-2583-47d5-b393-e6c8e59da64e">IRQ_RESOURCE</a> structure.
+<i>Not used.</i>
 
 
 ## -see-also

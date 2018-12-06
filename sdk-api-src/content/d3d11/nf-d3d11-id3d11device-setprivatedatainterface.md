@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_setprivatedatainterface.htm
 tech.root: direct3d11
 ms.assetid: 65b4461d-bfbb-4de1-84f8-6294fde12980
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11Device interface [Direct3D 11],SetPrivateDataInterface method, ID3D11Device.SetPrivateDataInterface, ID3D11Device::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Direct3D 11], SetPrivateDataInterface method [Direct3D 11],ID3D11Device interface, c27aaa23-b80d-2dcf-0f00-1b62c5fb3acb, d3d11/ID3D11Device::SetPrivateDataInterface, direct3d11.id3d11device_setprivatedatainterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11Device.SetPrivateDataInterface
-: 
 ---
 
 # ID3D11Device::SetPrivateDataInterface
@@ -85,7 +77,7 @@ Pointer to an IUnknown-derived interface to be associated with the device child.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

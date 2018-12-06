@@ -7,7 +7,7 @@ old-location: winauto\uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat.htm
 tech.root: WinAuto
 ms.assetid: 4f05dae6-d315-457c-a496-fe915dd00265
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: LegacyIAccessiblePattern_GetIAccessible, LegacyIAccessiblePattern_GetIAccessible function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat, uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat, uiautomationcoreapi/LegacyIAccessiblePattern_GetIAccessible, winauto.uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadata_saveasxml.htm
 tech.root: vss
 ms.assetid: 146dcd00-e479-40fa-963b-e7111b783822
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssExamineWriterMetadata interface [VSS],SaveAsXML method, IVssExamineWriterMetadata.SaveAsXML, IVssExamineWriterMetadata::SaveAsXML, SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS],IVssExamineWriterMetadata interface, _win32_ivssexaminewritermetadata_saveasxml, base.ivssexaminewritermetadata_saveasxml, vsbackup/IVssExamineWriterMetadata::SaveAsXML
 ms.prod: windows-hardware
 ms.technology: windows-devices

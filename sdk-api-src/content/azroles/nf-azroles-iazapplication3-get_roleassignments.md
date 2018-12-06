@@ -7,7 +7,7 @@ old-location: security\iazapplication3_roleassignments.htm
 tech.root: secauthz
 ms.assetid: 5f70cc85-9275-4ccd-ad53-c22b00a4dea3
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IAzApplication3 interface [Security],RoleAssignments property, IAzApplication3.RoleAssignments, IAzApplication3.get_RoleAssignments, IAzApplication3::RoleAssignments, IAzApplication3::get_RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzApplication3 interface, azroles/IAzApplication3::RoleAssignments, azroles/IAzApplication3::get_RoleAssignments, get_RoleAssignments, security.iazapplication3_roleassignments
 ms.prod: windows-hardware
 ms.technology: windows-devices

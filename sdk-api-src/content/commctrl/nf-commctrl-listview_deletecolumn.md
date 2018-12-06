@@ -7,7 +7,7 @@ old-location: controls\ListView_DeleteColumn.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_deletecolumn.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ListView_DeleteColumn, ListView_DeleteColumn macro [Windows Controls], _win32_ListView_DeleteColumn, _win32_ListView_DeleteColumn_cpp, commctrl/ListView_DeleteColumn, controls.ListView_DeleteColumn, controls._win32_ListView_DeleteColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices

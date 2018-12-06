@@ -7,7 +7,7 @@ old-location: termserv\itssbsession_targetname.htm
 tech.root: termserv
 ms.assetid: 5ab4cdd6-9f5f-4253-9b80-6cc35cff8b79
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],TargetName property, ITsSbSession.TargetName, ITsSbSession.get_TargetName, ITsSbSession::TargetName, ITsSbSession::get_TargetName, TargetName property [Remote Desktop Services], TargetName property [Remote Desktop Services],ITsSbSession interface, get_TargetName, sbtsv/ITsSbSession::TargetName, sbtsv/ITsSbSession::get_TargetName, termserv.itssbsession_targetname
 ms.prod: windows-hardware
 ms.technology: windows-devices

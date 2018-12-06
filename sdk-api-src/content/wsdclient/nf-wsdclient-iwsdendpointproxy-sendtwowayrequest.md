@@ -7,7 +7,7 @@ old-location: ncd\iwsdendpointproxy_sendtwowayrequest.htm
 tech.root: wsdapi
 ms.assetid: f93ddbf1-d530-4957-87ab-5718ee5f20d9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDEndpointProxy interface,SendTwoWayRequest method, IWSDEndpointProxy.SendTwoWayRequest, IWSDEndpointProxy::SendTwoWayRequest, SendTwoWayRequest, SendTwoWayRequest method, SendTwoWayRequest method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendtwowayrequest, wsdclient/IWSDEndpointProxy::SendTwoWayRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\isessionstatechangetrigger_statechange.htm
 tech.root: taskschd
 ms.assetid: 742e623f-7794-4e2a-970f-77ab22914554
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ISessionStateChangeTrigger interface [Task Scheduler],StateChange property, ISessionStateChangeTrigger.StateChange, ISessionStateChangeTrigger.get_StateChange, ISessionStateChangeTrigger::StateChange, ISessionStateChangeTrigger::get_StateChange, ISessionStateChangeTrigger::put_StateChange, StateChange property [Task Scheduler], StateChange property [Task Scheduler],ISessionStateChangeTrigger interface, TASK_CONSOLE_CONNECT, TASK_CONSOLE_DISCONNECT, TASK_REMOTE_CONNECT, TASK_REMOTE_DISCONNECT, TASK_SESSION_LOCK, TASK_SESSION_UNLOCK, get_StateChange, taskschd.isessionstatechangetrigger_statechange, taskschd/ISessionStateChangeTrigger::StateChange, taskschd/ISessionStateChangeTrigger::get_StateChange, taskschd/ISessionStateChangeTrigger::put_StateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

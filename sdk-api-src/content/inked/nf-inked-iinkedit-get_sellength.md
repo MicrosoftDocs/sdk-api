@@ -7,7 +7,7 @@ old-location: tablet\inkedit_sellength.htm
 tech.root: tablet
 ms.assetid: 6295a536-831e-4603-9412-87b2fa5b7f53
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelLength property, IInkEdit.SelLength, IInkEdit.get_SelLength, IInkEdit::SelLength, IInkEdit::get_SelLength, IInkEdit::put_SelLength, InkEdit.get_SelLength, InkEdit.put_SelLength, SelLength property [Tablet PC], SelLength property [Tablet PC],IInkEdit interface, get_SelLength, inked/IInkEdit::SelLength, inked/IInkEdit::get_SelLength, inked/IInkEdit::put_SelLength, put_SelLength, tablet.inkedit_sellength
 ms.prod: windows-hardware
 ms.technology: windows-devices

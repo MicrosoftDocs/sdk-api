@@ -7,7 +7,7 @@ old-location: dshow\ivideoframestep_canstep.htm
 tech.root: DirectShow
 ms.assetid: e2e3f665-28be-4a6d-b29a-4f0485d9a672
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CanStep, CanStep method [DirectShow], CanStep method [DirectShow],IVideoFrameStep interface, IVideoFrameStep interface [DirectShow],CanStep method, IVideoFrameStep.CanStep, IVideoFrameStep::CanStep, IVideoFrameStepCanStep, dshow.ivideoframestep_canstep, strmif/IVideoFrameStep::CanStep
 ms.prod: windows-hardware
 ms.technology: windows-devices

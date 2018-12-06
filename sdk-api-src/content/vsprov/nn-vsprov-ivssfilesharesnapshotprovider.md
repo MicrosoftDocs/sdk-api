@@ -7,7 +7,7 @@ old-location: base\ivssfilesharesnapshotprovider.htm
 tech.root: vss
 ms.assetid: 1af45503-2f6f-4266-a0d2-ffc74a7be16f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], IVssFileShareSnapshotProvider interface [VSS],described, base.ivssfilesharesnapshotprovider, vsprov/IVssFileShareSnapshotProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

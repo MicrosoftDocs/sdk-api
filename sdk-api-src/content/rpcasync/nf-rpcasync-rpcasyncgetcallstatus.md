@@ -7,7 +7,7 @@ old-location: rpc\rpcasyncgetcallstatus.htm
 tech.root: rpc
 ms.assetid: caa3add7-d07f-4d56-ad96-51dc67f66117
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RpcAsyncGetCallStatus, RpcAsyncGetCallStatus function [RPC], _rpc_rpcasyncgetcallstatus, rpc.rpcasyncgetcallstatus, rpcasync/RpcAsyncGetCallStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

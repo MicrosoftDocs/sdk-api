@@ -7,7 +7,7 @@ old-location: base\ivdscontrollerport_setstatus.htm
 tech.root: vds
 ms.assetid: 1338e1e7-80c8-409d-aa54-575618fd9797
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsControllerPort interface [VDS],SetStatus method, IVdsControllerPort.SetStatus, IVdsControllerPort::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_setstatus, vds/IVdsControllerPort::SetStatus, vdshwprv/IVdsControllerPort::SetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

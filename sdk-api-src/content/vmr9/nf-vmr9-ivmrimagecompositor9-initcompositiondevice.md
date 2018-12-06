@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagecompositor9_initcompositiondevice.htm
 tech.root: DirectShow
 ms.assetid: 78381141-6b6d-4ed5-b8d3-aa1114fd9ac0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVMRImageCompositor9 interface [DirectShow],InitCompositionDevice method, IVMRImageCompositor9.InitCompositionDevice, IVMRImageCompositor9::InitCompositionDevice, IVMRImageCompositor9InitCompositionDevice, InitCompositionDevice, InitCompositionDevice method [DirectShow], InitCompositionDevice method [DirectShow],IVMRImageCompositor9 interface, dshow.ivmrimagecompositor9_initcompositiondevice, vmr9/IVMRImageCompositor9::InitCompositionDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

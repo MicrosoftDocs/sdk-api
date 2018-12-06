@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_exists.htm
 tech.root: imapi
 ms.assetid: c3a86e85-1ffd-47c1-9dba-0fc207d76a1a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Exists, Exists method [IMAPI], Exists method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],Exists method, IFileSystemImage.Exists, IFileSystemImage::Exists, imapi.ifilesystemimage_exists, imapi2fs/IFileSystemImage::Exists
 ms.prod: windows-hardware
 ms.technology: windows-devices

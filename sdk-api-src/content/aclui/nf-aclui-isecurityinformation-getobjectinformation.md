@@ -7,7 +7,7 @@ old-location: security\isecurityinformation_getobjectinformation.htm
 tech.root: secauthz
 ms.assetid: 2bc63aa0-dada-4962-a381-6b0f8332e564
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetObjectInformation, GetObjectInformation method [Security], GetObjectInformation method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetObjectInformation method, ISecurityInformation.GetObjectInformation, ISecurityInformation::GetObjectInformation, _win32_isecurityinformation_getobjectinformation, aclui/ISecurityInformation::GetObjectInformation, security.isecurityinformation_getobjectinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

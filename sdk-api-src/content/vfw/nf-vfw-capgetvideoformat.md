@@ -7,7 +7,7 @@ old-location: multimedia\capgetvideoformat.htm
 tech.root: Multimedia
 ms.assetid: 2013bf9c-3759-440a-a62c-2ba3c54441c1
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_capGetVideoFormat, capGetVideoFormat, capGetVideoFormat macro [Windows Multimedia], multimedia.capgetvideoformat, vfw/capGetVideoFormat"
 ms.prod: windows-hardware
 ms.technology: windows-devices

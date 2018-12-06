@@ -7,7 +7,7 @@ old-location: setup\file_in_cabinet_info_str.htm
 tech.root: SetupApi
 ms.assetid: 071491a8-f305-4e53-b0d7-16f7c9606e99
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PFILE_IN_CABINET_INFO_A, FILE_IN_CABINET_INFO, FILE_IN_CABINET_INFO structure [Setup API], FILE_IN_CABINET_INFO_A, PFILE_IN_CABINET_INFO, PFILE_IN_CABINET_INFO structure pointer [Setup API], _FILE_IN_CABINET_INFO_A, _setupapi_file_in_cabinet_info_str, setup.file_in_cabinet_info_str, setupapi/FILE_IN_CABINET_INFO, setupapi/PFILE_IN_CABINET_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

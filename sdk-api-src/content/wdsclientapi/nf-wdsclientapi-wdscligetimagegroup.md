@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagegroup.htm
 tech.root: wds
 ms.assetid: 1588e19e-b215-4c26-ae00-6b6608b0c252
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsCliGetImageGroup, WdsCliGetImageGroup function [Windows Deployment Services], wds.wdscligetimagegroup, wdsclientapi/WdsCliGetImageGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

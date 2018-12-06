@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext1_drawgeometryrealization.htm
 tech.root: direct2d
 ms.assetid: BA4FB8E7-E59A-42BD-86BB-8048267A26AA
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: DrawGeometryRealization, DrawGeometryRealization method [Direct2D], DrawGeometryRealization method [Direct2D],ID2D1DeviceContext1 interface, ID2D1DeviceContext1 interface [Direct2D],DrawGeometryRealization method, ID2D1DeviceContext1.DrawGeometryRealization, ID2D1DeviceContext1::DrawGeometryRealization, d2d1_2/ID2D1DeviceContext1::DrawGeometryRealization, direct2d.id2d1devicecontext1_drawgeometryrealization
 ms.prod: windows-hardware
 ms.technology: windows-devices

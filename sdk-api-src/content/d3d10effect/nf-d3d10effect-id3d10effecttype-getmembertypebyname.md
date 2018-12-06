@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effecttype_getmembertypebyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype_getmembertypebyname.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 86e236b9-7c07-9a19-3421-2874e5f044cd, GetMemberTypeByName, GetMemberTypeByName method [Direct3D 10], GetMemberTypeByName method [Direct3D 10],ID3D10EffectType interface, ID3D10EffectType interface [Direct3D 10],GetMemberTypeByName method, ID3D10EffectType.GetMemberTypeByName, ID3D10EffectType::GetMemberTypeByName, d3d10effect/ID3D10EffectType::GetMemberTypeByName, direct3d10.id3d10effecttype_getmembertypebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

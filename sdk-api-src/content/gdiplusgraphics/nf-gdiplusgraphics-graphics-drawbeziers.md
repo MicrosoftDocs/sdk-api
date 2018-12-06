@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBeziers_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawbeziersmethods.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DrawBeziers, DrawBeziers methods [GDI+], Graphics.DrawBeziers, Graphics::DrawBeziers, _gdiplus_CLASS_Graphics_DrawBeziers_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawBeziers_Methods, gdiplusgraphics/DrawBeziers
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mmc\resultdataitem.htm
 tech.root: mmc
 ms.assetid: c8f4682e-e1f7-4f7f-9a56-508648ca8c07
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPRESULTDATAITEM, LPRESULTDATAITEM, LPRESULTDATAITEM structure pointer [MMC], LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_SELECTED, RDI_IMAGE, RDI_INDENT, RDI_INDEX, RDI_PARAM, RDI_STATE, RDI_STR, RESULTDATAITEM, RESULTDATAITEM structure [MMC], _RESULTDATAITEM, _slate_resultdataitem, mmc.resultdataitem, mmc/LPRESULTDATAITEM, mmc/RESULTDATAITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

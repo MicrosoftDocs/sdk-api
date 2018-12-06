@@ -7,7 +7,7 @@ old-location: mstv\imsvidfeatures_get_count.htm
 tech.root: mstv
 ms.assetid: 45ad322a-d9ec-446d-8c1e-c955049dd257
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get_Count method, IMSVidFeatures.get_Count, IMSVidFeatures::get_Count, IMSVidFeaturesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_get_count, segment/IMSVidFeatures::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

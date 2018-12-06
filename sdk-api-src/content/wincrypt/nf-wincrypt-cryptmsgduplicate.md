@@ -7,7 +7,7 @@ old-location: security\cryptmsgduplicate.htm
 tech.root: seccrypto
 ms.assetid: 9b1142b9-0caa-4304-bfe6-1c27c6a7b782
 ms.author: windowssdkdev
-ms.date: 12/04/2018
+ms.date: 12/5/2018
 ms.keywords: CryptMsgDuplicate, CryptMsgDuplicate function [Security], _crypto2_cryptmsgduplicate, security.cryptmsgduplicate, wincrypt/CryptMsgDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices

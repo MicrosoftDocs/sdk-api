@@ -7,7 +7,7 @@ old-location: winprog\fhserviceopenpipe.htm
 tech.root: devnotes
 ms.assetid: D0927124-0568-4897-9169-445C252E8ED4
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: FhServiceOpenPipe, FhServiceOpenPipe function [Windows API], fhsvcctl/FhServiceOpenPipe, winprog.fhserviceopenpipe
 ms.prod: windows-hardware
 ms.technology: windows-devices

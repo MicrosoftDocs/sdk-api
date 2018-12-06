@@ -7,7 +7,7 @@ old-location: http\httpprepareurl.htm
 tech.root: http
 ms.assetid: 45199AEE-950D-44C4-8590-96077DBDC846
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: HttpPrepareUrl, HttpPrepareUrl function [HTTP], http.httpprepareurl, http/HttpPrepareUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

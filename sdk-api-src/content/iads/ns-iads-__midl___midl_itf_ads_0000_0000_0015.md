@@ -7,7 +7,7 @@ old-location: adsi\ads_dn_with_binary.htm
 tech.root: adsi
 ms.assetid: 541dd19d-79a1-4a74-b4a1-31cdf69fbf0c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY structure [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0015, _ds_ads_dn_with_binary, adsi.ads__dn__with__binary, adsi.ads_dn_with_binary, iads/ADS_DN_WITH_BINARY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

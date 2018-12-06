@@ -7,7 +7,7 @@ old-location: properties\VariantToStringArray.htm
 tech.root: properties
 ms.assetid: d19b12ad-408c-4502-ad59-49386784bd69
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToStringArray, VariantToStringArray function [Windows Properties], _shell_VariantToStringArray, properties.VariantToStringArray, propvarutil/VariantToStringArray, shell.VariantToStringArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

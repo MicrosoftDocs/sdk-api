@@ -7,7 +7,7 @@ old-location: direct3d12\id3d11on12device.htm
 tech.root: direct3d12
 ms.assetid: 031F9AC2-E5C0-47F9-B084-2D2431F1187A
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11On12Device, ID3D11On12Device interface, ID3D11On12Device interface,described, d3d11on12/ID3D11On12Device, direct3d12.id3d11on12device
 ms.prod: windows-hardware
 ms.technology: windows-devices

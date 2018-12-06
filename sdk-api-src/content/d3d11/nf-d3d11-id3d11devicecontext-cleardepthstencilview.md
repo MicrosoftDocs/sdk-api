@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_cleardepthstencilview.htm
 tech.root: direct3d11
 ms.assetid: 1e2269cf-edef-466e-be59-95dc644c7a0c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ClearDepthStencilView, ClearDepthStencilView method [Direct3D 11], ClearDepthStencilView method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ClearDepthStencilView method, ID3D11DeviceContext.ClearDepthStencilView, ID3D11DeviceContext::ClearDepthStencilView, d3d11/ID3D11DeviceContext::ClearDepthStencilView, d4e31518-5c9c-aa0c-b817-a09a4886e3f2, direct3d11.id3d11devicecontext_cleardepthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11DeviceContext.ClearDepthStencilView
-: 
 ---
 
 # ID3D11DeviceContext::ClearDepthStencilView

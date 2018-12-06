@@ -7,7 +7,7 @@ old-location: dshow\iamfiltergraphcallback_unabletorender.htm
 tech.root: DirectShow
 ms.assetid: c7fa0eae-f950-423a-8a89-9a7619b27ce6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAMFilterGraphCallback interface [DirectShow],UnableToRender method, IAMFilterGraphCallback.UnableToRender, IAMFilterGraphCallback::UnableToRender, IAMFilterGraphCallbackUnableToRender, UnableToRender, UnableToRender method [DirectShow], UnableToRender method [DirectShow],IAMFilterGraphCallback interface, dshow.iamfiltergraphcallback_unabletorender, strmif/IAMFilterGraphCallback::UnableToRender
 ms.prod: windows-hardware
 ms.technology: windows-devices

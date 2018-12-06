@@ -7,7 +7,7 @@ old-location: security\policy_audit_sid_array.htm
 tech.root: secauthz
 ms.assetid: 22f4255c-331a-4327-84d8-e905c7e419b6
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPOLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY structure [Security], PPOLICY_AUDIT_SID_ARRAY, PPOLICY_AUDIT_SID_ARRAY structure pointer [Security], _POLICY_AUDIT_SID_ARRAY, ntsecapi/POLICY_AUDIT_SID_ARRAY, ntsecapi/PPOLICY_AUDIT_SID_ARRAY, security.policy_audit_sid_array"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\deleteanycastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 3d6b7c5c-97a8-4a1d-a4cd-7ccf1f585305
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteAnycastIpAddressEntry, DeleteAnycastIpAddressEntry function [IP Helper], iphlp.deleteanycastipaddressentry, netioapi/DeleteAnycastIpAddressEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

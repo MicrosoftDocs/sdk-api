@@ -1,17 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingSphere.CreateFromBoundingBox
-title: CreateFromBoundingBox function
+title: BoundingSphere::CreateFromBoundingBox
 author: windows-sdk-content
 description: Creates a BoundingSphere containing the specified BoundingBox.
 old-location: dxmath\boundingsphere_createfromboundingbox.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.CreateFromBoundingBox(BoundingSphere@,BoundingBox)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: BoundingSphere interface [DirectX Math Support APIs],CreateFromBoundingBox method, BoundingSphere.CreateFromBoundingBox, CreateFromBoundingBox method [DirectX Math Support APIs], CreateFromBoundingBox method [DirectX Math Support APIs],BoundingSphere interface, Use DirectX..BoundingSphere.CreateFromBoundingBox, Use DirectX::::BoundingSphere::CreateFromBoundingBox, dxmath.boundingsphere_createfromboundingbox
+ms.date: 12/5/2018
+ms.keywords: BoundingSphere interface [DirectX Math Support APIs],CreateFromBoundingBox method, BoundingSphere.CreateFromBoundingBox, BoundingSphere::CreateFromBoundingBox, CreateFromBoundingBox, CreateFromBoundingBox method [DirectX Math Support APIs], CreateFromBoundingBox method [DirectX Math Support APIs],BoundingSphere interface, Use DirectX..BoundingSphere.CreateFromBoundingBox, Use DirectX::::BoundingSphere::CreateFromBoundingBox, dxmath.boundingsphere_createfromboundingbox
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateFromBoundingBox
-: 
 ---
 
-# CreateFromBoundingBox function
+# BoundingSphere::CreateFromBoundingBox
 
 
 ## -description

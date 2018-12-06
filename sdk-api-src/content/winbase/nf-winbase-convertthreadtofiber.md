@@ -7,7 +7,7 @@ old-location: base\convertthreadtofiber.htm
 tech.root: procthread
 ms.assetid: 31954a7e-b9a3-4d60-b43a-54fe0047f380
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ConvertThreadToFiber, ConvertThreadToFiber function, _win32_convertthreadtofiber, base.convertthreadtofiber, winbase/ConvertThreadToFiber
 ms.prod: windows-hardware
 ms.technology: windows-devices

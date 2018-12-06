@@ -7,7 +7,7 @@ old-location: ncd\responsebody_subscribe_struct.htm
 tech.root: wsdapi
 ms.assetid: 8cba3835-9695-4741-b5ac-faba11c1c974
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RESPONSEBODY_Subscribe, RESPONSEBODY_Subscribe structure, ncd.responsebody_subscribe_struct, wsdtypes/RESPONSEBODY_Subscribe
 ms.prod: windows-hardware
 ms.technology: windows-devices

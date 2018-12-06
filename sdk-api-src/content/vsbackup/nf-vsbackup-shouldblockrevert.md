@@ -7,7 +7,7 @@ old-location: base\shouldblockrevert.htm
 tech.root: vss
 ms.assetid: ec5d62f0-e1af-44e4-a8ca-4c98c1be1dc7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ShouldBlockRevert, ShouldBlockRevert function, base.shouldblockrevert, vsbackup/ShouldBlockRevert
 ms.prod: windows-hardware
 ms.technology: windows-devices

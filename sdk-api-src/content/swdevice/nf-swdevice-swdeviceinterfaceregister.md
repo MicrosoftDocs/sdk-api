@@ -7,7 +7,7 @@ old-location: swdevice\swdeviceinterfaceregister.htm
 tech.root: swdevice
 ms.assetid: A53FEBC2-E7D7-4DF7-B41C-BBB5A7EE044B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SwDeviceInterfaceRegister, SwDeviceInterfaceRegister function, swdevice.swdeviceinterfaceregister, swdevice/SwDeviceInterfaceRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices

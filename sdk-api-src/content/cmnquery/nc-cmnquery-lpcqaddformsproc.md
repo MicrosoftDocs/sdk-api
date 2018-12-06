@@ -7,7 +7,7 @@ old-location: ad\cqaddformsproc.htm
 tech.root: ad
 ms.assetid: e4221299-93de-4747-b464-0d152d6e767b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CQAddFormsProc, CQAddFormsProc callback, CQAddFormsProc callback function [Active Directory], LPCQADDFORMSPROC, LPCQADDFORMSPROC callback function pointer [Active Directory], ad.cqaddformsproc, cmnquery/CQAddFormsProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

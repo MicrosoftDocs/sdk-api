@@ -7,7 +7,7 @@ old-location: dns\dns_atma_data.htm
 tech.root: dns
 ms.assetid: 09df3990-36bd-4656-b5cd-792e521adf9d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDNS_ATMA_DATA, DNS_ATMA_DATA, DNS_ATMA_DATA structure [DNS], DNS_ATMA_FORMAT_AESA, DNS_ATMA_FORMAT_E164, PDNS_ATMA_DATA, PDNS_ATMA_DATA structure pointer [DNS], _dns_dns_atma_data, dns.dns_atma_data, windns/DNS_ATMA_DATA, windns/PDNS_ATMA_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

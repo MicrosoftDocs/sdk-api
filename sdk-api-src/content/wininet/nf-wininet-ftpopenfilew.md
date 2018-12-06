@@ -7,7 +7,7 @@ old-location: wininet\ftpopenfile.htm
 tech.root: wininet
 ms.assetid: fb44d7bd-7868-4c53-aa4b-608d79c5bc7c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FTP_TRANSFER_TYPE_ASCII, FTP_TRANSFER_TYPE_BINARY, FTP_TRANSFER_TYPE_UNKNOWN, FtpOpenFile, FtpOpenFile function [WinINet], FtpOpenFileA, FtpOpenFileW, INTERNET_FLAG_HYPERLINK, INTERNET_FLAG_NEED_FILE, INTERNET_FLAG_RELOAD, INTERNET_FLAG_RESYNCHRONIZE, INTERNET_FLAG_TRANSFER_ASCII, INTERNET_FLAG_TRANSFER_BINARY, _inet_ftpopenfile_function, wininet.ftpopenfile, wininet/FtpOpenFile, wininet/FtpOpenFileA, wininet/FtpOpenFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

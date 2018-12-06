@@ -7,7 +7,7 @@ old-location: appxpkg\getpackagefamilynamefromtoken.htm
 tech.root: appxpkg
 ms.assetid: C4FAF5DE-DF1F-4AFA-813B-5D80C786031B
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetPackageFamilyNameFromToken, GetPackageFamilyNameFromToken function [App packaging and management], appmodel/GetPackageFamilyNameFromToken, appxpkg.getpackagefamilynamefromtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

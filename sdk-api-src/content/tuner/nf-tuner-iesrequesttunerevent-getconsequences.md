@@ -7,7 +7,7 @@ old-location: mstv\iesrequesttunerevent_getconsequences.htm
 tech.root: mstv
 ms.assetid: 39588da7-90e7-4544-b53c-0f0ddb6cd951
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetConsequences, GetConsequences method [Microsoft TV Technologies], GetConsequences method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetConsequences method, IESRequestTunerEvent.GetConsequences, IESRequestTunerEvent::GetConsequences, mstv.iesrequesttunerevent_getconsequences, tuner/IESRequestTunerEvent::GetConsequences
 ms.prod: windows-hardware
 ms.technology: windows-devices

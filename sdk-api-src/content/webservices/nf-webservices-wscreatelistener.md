@@ -7,7 +7,7 @@ old-location: wsw\wscreatelistener.htm
 tech.root: wsw
 ms.assetid: 2e592fd2-cf88-4f87-a71b-1c3416917fa7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsCreateListener, WsCreateListener function [Web Services for Windows], webservices/WsCreateListener, wsw.wscreatelistener
 ms.prod: windows-hardware
 ms.technology: windows-devices

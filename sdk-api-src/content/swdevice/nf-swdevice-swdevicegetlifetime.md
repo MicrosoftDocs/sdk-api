@@ -7,7 +7,7 @@ old-location: swdevice\swdevicegetlifetime.htm
 tech.root: swdevice
 ms.assetid: 62DF53E6-30C5-41D1-867A-9A5D288AADC7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SWDeviceLifetimeHandle, SWDeviceLifetimeParentPresent, SwDeviceGetLifetime, SwDeviceGetLifetime function, swdevice.swdevicegetlifetime, swdevice/SwDeviceGetLifetime
 ms.prod: windows-hardware
 ms.technology: windows-devices

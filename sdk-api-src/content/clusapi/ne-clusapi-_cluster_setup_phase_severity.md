@@ -7,7 +7,7 @@ old-location: mscs\cluster_setup_phase_severity.htm
 tech.root: mscs
 ms.assetid: a355dc8d-73f1-476b-a06f-24f011af4ace
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CLUSTER_SETUP_PHASE_SEVERITY, CLUSTER_SETUP_PHASE_SEVERITY enumeration [Failover Cluster], ClusterSetupPhaseFatal, ClusterSetupPhaseInformational, ClusterSetupPhaseWarning, _CLUSTER_SETUP_PHASE_SEVERITY, clusapi/CLUSTER_SETUP_PHASE_SEVERITY, clusapi/ClusterSetupPhaseFatal, clusapi/ClusterSetupPhaseInformational, clusapi/ClusterSetupPhaseWarning, mscs.cluster_setup_phase_severity
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iazscope_createrole.htm
 tech.root: secauthz
 ms.assetid: a5e527f9-0aab-40d9-83fe-f19f73673266
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AzScope object [Security],CreateRole method, CreateRole, CreateRole method [Security], CreateRole method [Security],AzScope object, CreateRole method [Security],IAzScope interface, IAzScope interface [Security],CreateRole method, IAzScope.CreateRole, IAzScope::CreateRole, azroles/IAzScope::CreateRole, security.iazscope_createrole
 ms.prod: windows-hardware
 ms.technology: windows-devices

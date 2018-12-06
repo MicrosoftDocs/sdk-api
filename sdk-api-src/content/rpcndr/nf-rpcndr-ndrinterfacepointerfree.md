@@ -7,7 +7,7 @@ old-location: rpc\ndrinterfacepointerfree.htm
 tech.root: rpc
 ms.assetid: fc40b621-b823-4a14-bd72-eab6086ec998
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: NdrInterfacePointerFree, NdrInterfacePointerFree function [RPC], rpc.ndrinterfacepointerfree, rpcndr/NdrInterfacePointerFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

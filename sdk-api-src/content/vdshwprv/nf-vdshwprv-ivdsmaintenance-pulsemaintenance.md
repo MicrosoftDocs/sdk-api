@@ -7,7 +7,7 @@ old-location: base\ivdsmaintenance_pulsemaintenance.htm
 tech.root: vds
 ms.assetid: 057424eb-c491-4295-b2a7-cf983902c667
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsMaintenance interface [VDS],PulseMaintenance method, IVdsMaintenance.PulseMaintenance, IVdsMaintenance::PulseMaintenance, PulseMaintenance, PulseMaintenance method [VDS], PulseMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_pulsemaintenance, vds/IVdsMaintenance::PulseMaintenance, vdshwprv/IVdsMaintenance::PulseMaintenance
 ms.prod: windows-hardware
 ms.technology: windows-devices

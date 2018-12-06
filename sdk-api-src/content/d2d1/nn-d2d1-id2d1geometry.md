@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Geometry.htm
 tech.root: direct2d
 ms.assetid: be4ab801-64f6-48f9-8f62-d0492cc438b1
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1Geometry, ID2D1Geometry interface [Direct2D], ID2D1Geometry interface [Direct2D],described, d2d1/ID2D1Geometry, direct2d.ID2D1Geometry
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersink_lockprofile.htm
 tech.root: mstv
 ms.assetid: 9e694cc2-090e-43b1-88c7-77175a930bf1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],LockProfile method, IStreamBufferSink.LockProfile, IStreamBufferSink::LockProfile, IStreamBufferSinkLockProfile, LockProfile, LockProfile method [Microsoft TV Technologies], LockProfile method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_lockprofile, sbe/IStreamBufferSink::LockProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

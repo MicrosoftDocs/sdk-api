@@ -7,7 +7,7 @@ old-location: tapi3\itmediasupport.htm
 tech.root: tapi
 ms.assetid: 196995f1-b8d0-4ec1-b94e-61a02a258087
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITMediaSupport, ITMediaSupport interface [TAPI 2.2], ITMediaSupport interface [TAPI 2.2],described, _tapi3_itmediasupport, tapi3.itmediasupport, tapi3if/ITMediaSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices

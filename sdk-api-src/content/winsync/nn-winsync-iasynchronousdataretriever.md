@@ -7,7 +7,7 @@ old-location: winsync\iasynchronousdataretriever.htm
 tech.root: winsync
 ms.assetid: 38f07582-908b-430e-a886-c0fc24b807ef
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAsynchronousDataRetriever, IAsynchronousDataRetriever interface [Windows Sync], IAsynchronousDataRetriever interface [Windows Sync],described, winsync.iasynchronousdataretriever, winsync/IAsynchronousDataRetriever
 ms.prod: windows-hardware
 ms.technology: windows-devices

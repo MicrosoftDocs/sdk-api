@@ -7,7 +7,7 @@ old-location: qos\scope_list_ipv4.htm
 tech.root: QOS
 ms.assetid: f1651371-d192-45d9-9a9e-d272b624f40d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Scope_list_ipv4, Scope_list_ipv4 structure [QOS], lpmapi/Scope_list_ipv4, qos.scope_list_ipv4
 ms.prod: windows-hardware
 ms.technology: windows-devices

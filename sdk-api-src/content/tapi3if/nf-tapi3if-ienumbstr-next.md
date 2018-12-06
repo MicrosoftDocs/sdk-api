@@ -7,7 +7,7 @@ old-location: tapi3\ienumbstr_next.htm
 tech.root: tapi
 ms.assetid: e4a03985-9f90-4ae4-b4ec-a6aa43e5bb10
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumBstr interface [TAPI 2.2],Next method, IEnumBstr.Next, IEnumBstr::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumBstr interface, _tapi3_ienumbstr_next, tapi3.ienumbstr_next, tapi3if/IEnumBstr::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

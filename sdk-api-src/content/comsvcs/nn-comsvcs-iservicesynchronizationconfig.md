@@ -7,7 +7,7 @@ old-location: cos\iservicesynchronizationconfig.htm
 tech.root: cossdk
 ms.assetid: c4856738-66bf-4982-9440-83b72148c85c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IServiceSynchronizationConfig, IServiceSynchronizationConfig interface [COM+], IServiceSynchronizationConfig interface [COM+],described, _cos_IServiceSynchronizationConfig, comsvcs/IServiceSynchronizationConfig, cos.iservicesynchronizationconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

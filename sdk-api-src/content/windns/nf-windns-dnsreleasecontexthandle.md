@@ -7,7 +7,7 @@ old-location: dns\dnsreleasecontexthandle.htm
 tech.root: dns
 ms.assetid: 08a5fa73-4583-4e87-bddb-09bfbfe1b36f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DnsReleaseContextHandle, DnsReleaseContextHandle function [DNS], _dns_dnsreleasecontexthandle, dns.dnsreleasecontexthandle, windns/DnsReleaseContextHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

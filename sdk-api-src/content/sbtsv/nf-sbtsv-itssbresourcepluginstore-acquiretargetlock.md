@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_acquiretargetlock.htm
 tech.root: termserv
 ms.assetid: ee6f22cf-c111-4a11-ab84-b52904a148b6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AcquireTargetLock, AcquireTargetLock method [Remote Desktop Services], AcquireTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AcquireTargetLock method, ITsSbResourcePluginStore.AcquireTargetLock, ITsSbResourcePluginStore::AcquireTargetLock, sbtsv/ITsSbResourcePluginStore::AcquireTargetLock, termserv.itssbresourcepluginstore_acquiretargetlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

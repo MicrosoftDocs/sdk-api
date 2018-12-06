@@ -7,7 +7,7 @@ old-location: tapi3\itphoneevent_get_event.htm
 tech.root: tapi
 ms.assetid: 01ac0b3f-ba45-4bf3-a0e7-b2c3a5d44727
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_Event method, ITPhoneEvent.get_Event, ITPhoneEvent::get_Event, _tapi3_itphoneevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_event, tapi3if/ITPhoneEvent::get_Event
 ms.prod: windows-hardware
 ms.technology: windows-devices

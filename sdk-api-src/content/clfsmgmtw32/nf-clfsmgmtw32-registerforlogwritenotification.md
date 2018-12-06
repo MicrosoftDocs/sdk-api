@@ -7,7 +7,7 @@ old-location: fs\registerforlogwritenotification.htm
 tech.root: Clfs
 ms.assetid: 08e197af-d88e-46dd-b862-66eb0ab27551
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RegisterForLogWriteNotification, RegisterForLogWriteNotification function [Files], clfsmgmtw32/RegisterForLogWriteNotification, fs.registerforlogwritenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

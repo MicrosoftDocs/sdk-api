@@ -7,7 +7,7 @@ old-location: security\iazscopes_count.htm
 tech.root: secauthz
 ms.assetid: aff809a6-c768-4cfe-a41f-ee227f77a3b1
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AzScopes object [Security],Count property, Count property [Security], Count property [Security],AzScopes object, Count property [Security],IAzScopes interface, IAzScopes interface [Security],Count property, IAzScopes.Count, IAzScopes.get_Count, IAzScopes::Count, IAzScopes::get_Count, azroles/IAzScopes::Count, azroles/IAzScopes::get_Count, get_Count, security.iazscopes_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

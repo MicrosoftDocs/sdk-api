@@ -7,7 +7,7 @@ old-location: security\ix509publickey_computekeyidentifier_method.htm
 tech.root: seccertenroll
 ms.assetid: b2e471c7-1087-46a2-8938-5d3cea44f7f7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ComputeKeyIdentifier, ComputeKeyIdentifier method [Security], ComputeKeyIdentifier method [Security],IX509PublicKey interface, IX509PublicKey interface [Security],ComputeKeyIdentifier method, IX509PublicKey.ComputeKeyIdentifier, IX509PublicKey::ComputeKeyIdentifier, certenroll/IX509PublicKey::ComputeKeyIdentifier, security.ix509publickey_computekeyidentifier_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

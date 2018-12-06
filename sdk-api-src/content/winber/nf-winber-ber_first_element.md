@@ -7,7 +7,7 @@ old-location: ldap\ber_first_element.htm
 tech.root: ldap
 ms.assetid: 079ac0a6-1b73-433e-88b3-1ce16ddc2851
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ber_first_element, ber_first_element, ber_first_element function [LDAP], ldap.ber__first__element, ldap.ber_first_element, winber/ber_first_element"
 ms.prod: windows-hardware
 ms.technology: windows-devices

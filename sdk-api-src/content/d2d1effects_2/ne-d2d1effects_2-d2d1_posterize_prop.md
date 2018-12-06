@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_posterize_prop.htm
 tech.root: direct2d
 ms.assetid: F5A41C61-6AEB-47A6-813E-FF19994D013D
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_POSTERIZE_PROP, D2D1_POSTERIZE_PROP enumeration [Direct2D], D2D1_POSTERIZE_PROP_BLUE_VALUE_COUNT, D2D1_POSTERIZE_PROP_GREEN_VALUE_COUNT, D2D1_POSTERIZE_PROP_RED_VALUE_COUNT, d2d1effects_2/D2D1_POSTERIZE_PROP, d2d1effects_2/D2D1_POSTERIZE_PROP_BLUE_VALUE_COUNT, d2d1effects_2/D2D1_POSTERIZE_PROP_GREEN_VALUE_COUNT, d2d1effects_2/D2D1_POSTERIZE_PROP_RED_VALUE_COUNT, direct2d.d2d1_posterize_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices

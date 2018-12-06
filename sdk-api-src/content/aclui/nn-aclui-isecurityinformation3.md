@@ -7,7 +7,7 @@ old-location: security\isecurityinformation3.htm
 tech.root: secauthz
 ms.assetid: e6cf92da-ebd2-4960-9df1-7124745df616
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ISecurityInformation3, ISecurityInformation3 interface [Security], ISecurityInformation3 interface [Security],described, aclui/ISecurityInformation3, security.isecurityinformation3
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlewriter.htm
 tech.root: appxpkg
 ms.assetid: 5762E634-CBA6-496C-A771-CA5718E7E6AD
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAppxBundleWriter, IAppxBundleWriter interface [App packaging and management], IAppxBundleWriter interface [App packaging and management],described, appxpackaging/IAppxBundleWriter, appxpkg.iappxbundlewriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

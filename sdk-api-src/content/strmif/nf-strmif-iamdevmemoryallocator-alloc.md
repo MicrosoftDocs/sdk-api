@@ -7,7 +7,7 @@ old-location: dshow\iamdevmemoryallocator_alloc.htm
 tech.root: DirectShow
 ms.assetid: de5f7755-fd96-4016-9cab-b98721080e14
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Alloc, Alloc method [DirectShow], Alloc method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],Alloc method, IAMDevMemoryAllocator.Alloc, IAMDevMemoryAllocator::Alloc, IAMDevMemoryAllocatorAlloc, dshow.iamdevmemoryallocator_alloc, strmif/IAMDevMemoryAllocator::Alloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

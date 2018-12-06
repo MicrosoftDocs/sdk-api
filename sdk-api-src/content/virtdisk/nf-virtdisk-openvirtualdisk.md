@@ -7,7 +7,7 @@ old-location: vhd\openvirtualdisk.htm
 tech.root: VStor
 ms.assetid: 08e2a82d-9110-42b1-be09-dc5150da42f6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: OpenVirtualDisk, OpenVirtualDisk function [VHD], vdssys/OpenVirtualDisk, vhd.openvirtualdisk, virtdisk/OpenVirtualDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices

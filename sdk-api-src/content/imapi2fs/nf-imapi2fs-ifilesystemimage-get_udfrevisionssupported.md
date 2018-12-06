@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_udfrevisionssupported.htm
 tech.root: imapi
 ms.assetid: ad9b4a68-5fef-4092-9cef-4b5ebd9c5093
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UDFRevisionsSupported method, IFileSystemImage.get_UDFRevisionsSupported, IFileSystemImage::get_UDFRevisionsSupported, get_UDFRevisionsSupported, get_UDFRevisionsSupported method [IMAPI], get_UDFRevisionsSupported method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_udfrevisionssupported, imapi2fs/IFileSystemImage::get_UDFRevisionsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

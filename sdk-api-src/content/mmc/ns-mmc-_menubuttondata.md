@@ -7,7 +7,7 @@ old-location: mmc\menubuttondata.htm
 tech.root: mmc
 ms.assetid: 440467ea-3d6c-49a0-a81a-24088e307d22
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPMENUBUTTONDATA, LPMENUBUTTONDATA, LPMENUBUTTONDATA structure pointer [MMC], MENUBUTTONDATA, MENUBUTTONDATA structure [MMC], _MENUBUTTONDATA, _slate_menubuttondata, mmc.menubuttondata, mmc/LPMENUBUTTONDATA, mmc/MENUBUTTONDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

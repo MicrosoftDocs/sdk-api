@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager2.htm
 tech.root: fsrm
 ms.assetid: 6ff821e3-f0bd-4c66-8ced-edbbfbc8503b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmClassificationManager2, IFsrmClassificationManager2 interface [File Server Resource Manager], IFsrmClassificationManager2 interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager2, fsrm.ifsrmclassificationmanager2, fsrmpipeline/IFsrmClassificationManager2
 ms.prod: windows-hardware
 ms.technology: windows-devices

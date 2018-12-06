@@ -7,7 +7,7 @@ old-location: display\strobj.htm
 tech.root: display
 ms.assetid: efe53cb8-39b9-4931-bac2-9c61efd9d457
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: STROBJ, STROBJ structure [Display Devices], _STROBJ, display.strobj, grstrcts_fcaba370-f9bd-40e8-819a-c5277d6d89b6.xml, winddi/STROBJ
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\idownloadprogress_currentupdatedownloadphase.htm
 tech.root: wua_sdk
 ms.assetid: 5c94b0e9-c137-4677-a014-b8467a8049e5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CurrentUpdateDownloadPhase property [Windows Update Agent], CurrentUpdateDownloadPhase property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateDownloadPhase property, IDownloadProgress.CurrentUpdateDownloadPhase, IDownloadProgress.get_CurrentUpdateDownloadPhase, IDownloadProgress::CurrentUpdateDownloadPhase, IDownloadProgress::get_CurrentUpdateDownloadPhase, get_CurrentUpdateDownloadPhase, wua.idownloadprogress_currentupdatedownloadphase, wuapi/IDownloadProgress::CurrentUpdateDownloadPhase, wuapi/IDownloadProgress::get_CurrentUpdateDownloadPhase
 ms.prod: windows-hardware
 ms.technology: windows-devices

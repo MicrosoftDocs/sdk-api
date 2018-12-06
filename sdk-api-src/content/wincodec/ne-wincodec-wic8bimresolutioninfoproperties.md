@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wic8bimresolutioninfoproperties.htm
 tech.root: wic
 ms.assetid: a5bb984a-290c-4dd6-8b94-b8a221e78a6b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WIC8BIMResolutionInfoHResolution, WIC8BIMResolutionInfoHResolutionUnit, WIC8BIMResolutionInfoHeightUnit, WIC8BIMResolutionInfoPString, WIC8BIMResolutionInfoProperties, WIC8BIMResolutionInfoProperties enumeration [Windows Imaging Component], WIC8BIMResolutionInfoVResolution, WIC8BIMResolutionInfoVResolutionUnit, WIC8BIMResolutionInfoWidthUnit, _wic_codec_wic8bimresolutioninfoproperties, wic._wic_codec_wic8bimresolutioninfoproperties, wincodec/WIC8BIMResolutionInfoHResolution, wincodec/WIC8BIMResolutionInfoHResolutionUnit, wincodec/WIC8BIMResolutionInfoHeightUnit, wincodec/WIC8BIMResolutionInfoPString, wincodec/WIC8BIMResolutionInfoProperties, wincodec/WIC8BIMResolutionInfoVResolution, wincodec/WIC8BIMResolutionInfoVResolutionUnit, wincodec/WIC8BIMResolutionInfoWidthUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

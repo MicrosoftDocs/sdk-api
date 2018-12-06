@@ -7,7 +7,7 @@ old-location: properties\VariantGetBooleanElem.htm
 tech.root: properties
 ms.assetid: d21ad8cc-5919-4582-a593-64bd98a82a89
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: VariantGetBooleanElem, VariantGetBooleanElem function [Windows Properties], _shell_VariantGetBooleanElem, properties.VariantGetBooleanElem, propvarutil/VariantGetBooleanElem, shell.VariantGetBooleanElem
 ms.prod: windows-hardware
 ms.technology: windows-devices

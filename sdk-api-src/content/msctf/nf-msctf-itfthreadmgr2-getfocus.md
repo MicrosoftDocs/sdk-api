@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr2_getfocus.htm
 tech.root: TSF
 ms.assetid: A4106774-1817-4308-BD7E-C303AED2B576
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetFocus, GetFocus method [Text Services Framework], GetFocus method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetFocus method, ITfThreadMgr2.GetFocus, ITfThreadMgr2::GetFocus, msctf/ITfThreadMgr2::GetFocus, tsf.itfthreadmgr2_getfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

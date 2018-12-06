@@ -7,7 +7,7 @@ old-location: security\iazapplication2_initializeclientcontext2.htm
 tech.root: secauthz
 ms.assetid: 8790ebb0-97eb-47a0-b975-87e0524dcc1b
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IAzApplication2 interface [Security],InitializeClientContext2 method, IAzApplication2.InitializeClientContext2, IAzApplication2::InitializeClientContext2, InitializeClientContext2, InitializeClientContext2 method [Security], InitializeClientContext2 method [Security],IAzApplication2 interface, azroles/IAzApplication2::InitializeClientContext2, security.iazapplication2_initializeclientcontext2
 ms.prod: windows-hardware
 ms.technology: windows-devices

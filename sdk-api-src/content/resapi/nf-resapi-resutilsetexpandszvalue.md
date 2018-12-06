@@ -7,7 +7,7 @@ old-location: mscs\resutilsetexpandszvalue.htm
 tech.root: mscs
 ms.assetid: a2049be4-cebb-45bf-b2f7-40841e379b12
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_SET_EXPAND_SZ_VALUE, PRESUTIL_SET_EXPAND_SZ_VALUE function [Failover Cluster], ResUtilSetExpandSzValue, ResUtilSetExpandSzValue function [Failover Cluster], _wolf_resutilsetexpandszvalue, mscs.resutilsetexpandszvalue, resapi/PRESUTIL_SET_EXPAND_SZ_VALUE, resapi/ResUtilSetExpandSzValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

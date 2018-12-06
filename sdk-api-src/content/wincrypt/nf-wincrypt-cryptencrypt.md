@@ -7,7 +7,7 @@ old-location: security\cryptencrypt.htm
 tech.root: seccrypto
 ms.assetid: 697c4960-552b-4c3a-95cf-4632af56945b
 ms.author: windowssdkdev
-ms.date: 12/04/2018
+ms.date: 12/5/2018
 ms.keywords: CRYPT_OAEP, CryptEncrypt, CryptEncrypt function [Security], _crypto2_cryptencrypt, security.cryptencrypt, wincrypt/CryptEncrypt
 ms.prod: windows-hardware
 ms.technology: windows-devices

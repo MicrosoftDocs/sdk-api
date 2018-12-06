@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsenddocumentforbroadcast.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0sz8.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FaxSendDocumentForBroadcast, FaxSendDocumentForBroadcast function [Fax Service], FaxSendDocumentForBroadcastA, FaxSendDocumentForBroadcastW, _mfax_faxsenddocumentforbroadcast, fax._mfax_faxsenddocumentforbroadcast, winfax/FaxSendDocumentForBroadcast, winfax/FaxSendDocumentForBroadcastA, winfax/FaxSendDocumentForBroadcastW
 ms.prod: windows-hardware
 ms.technology: windows-devices

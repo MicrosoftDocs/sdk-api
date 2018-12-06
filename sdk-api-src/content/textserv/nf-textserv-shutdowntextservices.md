@@ -4,10 +4,10 @@ title: ShutdownTextServices function
 author: windows-sdk-content
 description: Disconnects a host from a text services instance.
 old-location: controls\shutdowntextservices.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 3367D22B-1F9E-4D70-8907-0F218A23AE7E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ShutdownTextServices, ShutdownTextServices function [Windows Controls], controls.shutdowntextservices, textserv/ShutdownTextServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ShutdownTextServices
-: 
 ---
 
 # ShutdownTextServices function
@@ -68,7 +62,7 @@ Disconnects a host from a text services instance.
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
 
-A text services instance created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/Bb787722(v=VS.85).aspx">CreateTextServices</a> function.
+A text services instance created by a previous call to the <a href="https://msdn.microsoft.com/475ede7d-75ba-4eda-8253-1166fc9f45fe">CreateTextServices</a> function.
 
 
 ## -returns
@@ -117,7 +111,7 @@ A host calls this function when the host is being freed. Calling this function i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787722(v=VS.85).aspx">CreateTextServices</a>
+<a href="https://msdn.microsoft.com/475ede7d-75ba-4eda-8253-1166fc9f45fe">CreateTextServices</a>
  
 
  

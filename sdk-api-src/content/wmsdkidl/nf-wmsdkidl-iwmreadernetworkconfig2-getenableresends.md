@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig2_getenableresends.htm
 tech.root: wmformat
 ms.assetid: d39d42c3-7d00-4fb6-8979-2b65d00ac636
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetEnableResends, GetEnableResends method [windows Media Format], GetEnableResends method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableResends method, IWMReaderNetworkConfig2.GetEnableResends, IWMReaderNetworkConfig2::GetEnableResends, IWMReaderNetworkConfig2GetEnableResends, wmformat.iwmreadernetworkconfig2_getenableresends, wmsdkidl/IWMReaderNetworkConfig2::GetEnableResends
 ms.prod: windows-hardware
 ms.technology: windows-devices

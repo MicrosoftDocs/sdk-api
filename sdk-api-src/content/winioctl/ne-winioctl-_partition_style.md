@@ -7,7 +7,7 @@ old-location: fs\partition_style_str.htm
 tech.root: fileio
 ms.assetid: 254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: PARTITION_STYLE, PARTITION_STYLE enumeration [Files], PARTITION_STYLE_GPT, PARTITION_STYLE_MBR, PARTITION_STYLE_RAW, _PARTITION_STYLE, _win32_partition_style_str, base.partition_style_str, fs.partition_style_str, winioctl/PARTITION_STYLE, winioctl/PARTITION_STYLE_GPT, winioctl/PARTITION_STYLE_MBR, winioctl/PARTITION_STYLE_RAW
 ms.prod: windows-hardware
 ms.technology: windows-devices

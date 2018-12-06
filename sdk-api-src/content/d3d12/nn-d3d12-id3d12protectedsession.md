@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12protectedsession.htm
 tech.root: direct3d12
 ms.assetid: BBB87F18-A4F4-44E7-AFD8-803BD2C7C753
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D12ProtectedSession, ID3D12ProtectedSession interface, ID3D12ProtectedSession interface,described, d3d12/ID3D12ProtectedSession, direct3d12.id3d12protectedsession
 ms.prod: windows-hardware
 ms.technology: windows-devices

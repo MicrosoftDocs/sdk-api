@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application_newparameterset.htm
 tech.root: wmi_v2
 ms.assetid: 9704ad73-78af-4d75-8da6-f327193ea0fa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Application_NewParameterSet, MI_Application_NewParameterSet function [Windows Management Infrastructure (MI)], mi/MI_Application_NewParameterSet, wmi_v2.mi_application_newparameterset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_Application_NewParameterSet
-: 
 ---
 
 # MI_Application_NewParameterSet function

@@ -7,7 +7,7 @@ old-location: com\ieventpublisher_description.htm
 tech.root: com
 ms.assetid: 1fead633-e498-4dc2-8591-d1f9c0090adb
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Description property [COM], Description property [COM],IEventPublisher interface, IEventPublisher interface [COM],Description property, IEventPublisher.Description, IEventPublisher.get_Description, IEventPublisher::Description, IEventPublisher::get_Description, IEventPublisher::put_Description, _com_ieventpublisher_description, com.ieventpublisher_description, eventsys/IEventPublisher::Description, eventsys/IEventPublisher::get_Description, eventsys/IEventPublisher::put_Description, get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices

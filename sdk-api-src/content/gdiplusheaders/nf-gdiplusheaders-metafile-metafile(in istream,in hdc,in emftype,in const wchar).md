@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_stream_referenceHdc_type_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_48stream_referencehdc_type_description.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN IStream,IN HDC,IN EmfType,IN const WCHAR), Metafile.Metafile(IStream*,HDC,EmfType,const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN IStream,IN HDC,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_stream_referenceHdc_type_description_, gdiplus._gdiplus_CLASS_Metafile_Metafile_stream_referenceHdc_type_description_
 ms.prod: windows-hardware
 ms.technology: windows-devices

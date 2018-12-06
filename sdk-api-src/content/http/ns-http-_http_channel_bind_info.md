@@ -7,7 +7,7 @@ old-location: http\http_channel_bind_info.htm
 tech.root: http
 ms.assetid: 60428e66-9c08-418b-99e1-6824c638f2be
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_CHANNEL_BIND_INFO, HTTP_CHANNEL_BIND_INFO, HTTP_CHANNEL_BIND_INFO structure [HTTP], PHTTP_CHANNEL_BIND_INFO, PHTTP_CHANNEL_BIND_INFO structure pointer [HTTP], _HTTP_CHANNEL_BIND_INFO, http.http_channel_bind_info, http/HTTP_CHANNEL_BIND_INFO, http/PHTTP_CHANNEL_BIND_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

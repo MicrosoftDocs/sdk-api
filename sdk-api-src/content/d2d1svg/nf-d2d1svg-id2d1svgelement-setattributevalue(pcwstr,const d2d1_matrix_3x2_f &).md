@@ -7,7 +7,7 @@ old-location: direct2d\id2d1svgelement_setattributevalue_12.htm
 tech.root: direct2d
 ms.assetid: 98CDD40C-C39B-41B9-8978-9C9B480DB3C4
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,const D2D1_MATRIX_3X2_F &), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_MATRIX_3X2_F &), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_12
 ms.prod: windows-hardware
 ms.technology: windows-devices

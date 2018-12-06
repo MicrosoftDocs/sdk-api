@@ -7,7 +7,7 @@ old-location: smi\isettingscontext_getnamespaces.htm
 tech.root: SMI
 ms.assetid: 844ef731-9ccf-4cf5-9bb9-218312cbb07c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetNamespaces, GetNamespaces method [SMI], GetNamespaces method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],GetNamespaces method, ISettingsContext.GetNamespaces, ISettingsContext::GetNamespaces, smi.isettingscontext_getnamespaces, wcmconfig/ISettingsContext::GetNamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

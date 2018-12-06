@@ -7,7 +7,7 @@ old-location: setup\setupcanceltemporarysourcelist.htm
 tech.root: SetupApi
 ms.assetid: 87ef9425-5dab-442b-a487-3a4789005411
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetupCancelTemporarySourceList, SetupCancelTemporarySourceList function [Setup API], _setupapi_setupcanceltemporarysourcelist, setup.setupcanceltemporarysourcelist, setupapi/SetupCancelTemporarySourceList
 ms.prod: windows-hardware
 ms.technology: windows-devices

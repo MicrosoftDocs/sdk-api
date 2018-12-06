@@ -7,7 +7,7 @@ old-location: mstv\idvbservicedescriptor_getserviceprovidernamew.htm
 tech.root: mstv
 ms.assetid: e4c6f1f1-8cf8-4848-bb88-e1d11f4fe045
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetServiceProviderNameW, GetServiceProviderNameW method [Microsoft TV Technologies], GetServiceProviderNameW method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceProviderNameW method, IDvbServiceDescriptor.GetServiceProviderNameW, IDvbServiceDescriptor::GetServiceProviderNameW, dvbsiparser/IDvbServiceDescriptor::GetServiceProviderNameW, mstv.idvbservicedescriptor_getserviceprovidernamew
 ms.prod: windows-hardware
 ms.technology: windows-devices

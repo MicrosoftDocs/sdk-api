@@ -7,7 +7,7 @@ old-location: wsw\ws_security_binding_property.htm
 tech.root: wsw
 ms.assetid: f2790fd7-6f51-45a5-b2b6-e5aaaaca9660
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_SECURITY_BINDING_PROPERTY, WS_SECURITY_BINDING_PROPERTY structure [Web Services for Windows], _WS_SECURITY_BINDING_PROPERTY, webservices/WS_SECURITY_BINDING_PROPERTY, wsw.ws_security_binding_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

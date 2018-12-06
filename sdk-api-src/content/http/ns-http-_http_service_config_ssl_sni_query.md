@@ -7,7 +7,7 @@ old-location: http\http_service_config_ssl_sni_query.htm
 tech.root: http
 ms.assetid: 9C45B1B1-5572-4153-BBA4-0E8A52F650CA
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY, HTTP_SERVICE_CONFIG_SSL_SNI_QUERY, HTTP_SERVICE_CONFIG_SSL_SNI_QUERY structure [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY, PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_SNI_QUERY, http.http_service_config_ssl_sni_query, http/HTTP_SERVICE_CONFIG_SSL_SNI_QUERY, http/PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

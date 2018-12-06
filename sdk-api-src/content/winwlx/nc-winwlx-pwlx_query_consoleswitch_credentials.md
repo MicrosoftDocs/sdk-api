@@ -7,7 +7,7 @@ old-location: security\wlxqueryconsoleswitchcredentials.htm
 tech.root: secauthn
 ms.assetid: cbb9342e-c06a-4040-9c6c-c761195734a4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PWLX_QUERY_CONSOLESWITCH_CREDENTIALS, PWLX_QUERY_CONSOLESWITCH_CREDENTIALS callback, WlxQueryConsoleSwitchCredentials, WlxQueryConsoleSwitchCredentials callback function [Security], _gina_wlxqueryconsoleswitchcredentials, security.wlxqueryconsoleswitchcredentials, winwlx/WlxQueryConsoleSwitchCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

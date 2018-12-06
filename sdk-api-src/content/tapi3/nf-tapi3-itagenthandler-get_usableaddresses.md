@@ -7,7 +7,7 @@ old-location: tapi3\itagenthandler_get_usableaddresses.htm
 tech.root: tapi
 ms.assetid: ee457b5c-e505-489c-93dc-8bdfb87c7afe
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_UsableAddresses method, ITAgentHandler.get_UsableAddresses, ITAgentHandler::get_UsableAddresses, _tapi3_itagenthandler_get_usableaddresses, get_UsableAddresses, get_UsableAddresses method [TAPI 2.2], get_UsableAddresses method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_usableaddresses, tapi3cc/ITAgentHandler::get_UsableAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices

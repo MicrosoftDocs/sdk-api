@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaLogEx_LogEx.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\logex.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWiaLogEx interface [WIA],LogEx method, IWiaLogEx.LogEx, IWiaLogEx::LogEx, LogEx, LogEx method [WIA], LogEx method [WIA],IWiaLogEx interface, _wia_IWiaLogEx_LogEx, wia._wia_IWiaLogEx_LogEx, wia_xp/IWiaLogEx::LogEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

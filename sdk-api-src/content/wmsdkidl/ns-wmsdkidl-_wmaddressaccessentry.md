@@ -7,7 +7,7 @@ old-location: wmformat\wm_address_accessentry.htm
 tech.root: wmformat
 ms.assetid: 670c126f-c94b-4fac-b18c-d764f048f401
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WM_ADDRESS_ACCESSENTRY, WM_ADDRESS_ACCESSENTRY structure [windows Media Format], _WMAddressAccessEntry, wmformat.wm_address_accessentry, wmsdkidl/WM_ADDRESS_ACCESSENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices

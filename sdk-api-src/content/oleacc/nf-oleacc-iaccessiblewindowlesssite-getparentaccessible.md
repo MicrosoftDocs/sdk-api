@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAccessibleWindowlessSite_GetParentAccessible.htm
 tech.root: WinAuto
 ms.assetid: 579C2425-9C3E-4CFF-8A25-C661670FB636
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetParentAccessible, GetParentAccessible method [Windows Accessibility], GetParentAccessible method [Windows Accessibility],IAccessibleWindowlessSite interface, IAccessibleWindowlessSite interface [Windows Accessibility],GetParentAccessible method, IAccessibleWindowlessSite.GetParentAccessible, IAccessibleWindowlessSite::GetParentAccessible, oleacc/IAccessibleWindowlessSite::GetParentAccessible, winauto.uiauto_IAccessibleWindowlessSite_GetParentAccessible
 ms.prod: windows-hardware
 ms.technology: windows-devices

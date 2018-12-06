@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_get_sourceprotocol.htm
 tech.root: WMP
 ms.assetid: 6703ce88-9ca8-4401-b297-f765c4b15b84
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_sourceProtocol method, IWMPNetwork.get_sourceProtocol, IWMPNetwork::get_sourceProtocol, IWMPNetworkget_sourceProtocol, get_sourceProtocol, get_sourceProtocol method [Windows Media Player], get_sourceProtocol method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_sourceprotocol, wmp/IWMPNetwork::get_sourceProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices

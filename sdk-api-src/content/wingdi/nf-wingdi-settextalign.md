@@ -7,7 +7,7 @@ old-location: gdi\settextalign.htm
 tech.root: gdi
 ms.assetid: 422868c5-14c9-4374-9cc5-b7bf91ab9eb4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: SetTextAlign, SetTextAlign function [Windows GDI], TA_BASELINE, TA_BOTTOM, TA_CENTER, TA_LEFT, TA_NOUPDATECP, TA_RIGHT, TA_RTLREADING, TA_TOP, TA_UPDATECP, VTA_BASELINE, VTA_CENTER, _win32_SetTextAlign, gdi.settextalign, wingdi/SetTextAlign
 ms.prod: windows-hardware
 ms.technology: windows-devices

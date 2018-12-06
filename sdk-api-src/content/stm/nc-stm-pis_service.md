@@ -7,7 +7,7 @@ old-location: rras\isservice.htm
 tech.root: rras
 ms.assetid: f2d8e1f4-ce6c-429c-bb14-26c6c75eab7e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IsService, IsService callback function [RAS], PIS_SERVICE, PIS_SERVICE callback, _mpr_isservice, rras.isservice, stm/IsService
 ms.prod: windows-hardware
 ms.technology: windows-devices

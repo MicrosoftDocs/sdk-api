@@ -7,7 +7,7 @@ old-location: shell\IShellApp.htm
 tech.root: shell
 ms.assetid: 2f56744c-a10e-423f-8b8f-c3257e560310
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IShellApp, IShellApp interface [Windows Shell], IShellApp interface [Windows Shell],described, inet_IShellApp, shappmgr/IShellApp, shell.IShellApp
 ms.prod: windows-hardware
 ms.technology: windows-devices

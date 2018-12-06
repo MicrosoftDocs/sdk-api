@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetclrcompat.htm
 tech.root: appxpkg
 ms.assetid: FCB15725-CA80-4C4E-9592-D69E0C937DB4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AppPolicyGetClrCompat, AppPolicyGetClrCompat function [App packaging and management], appmodel/AppPolicyGetClrCompat, appxpkg.apppolicygetclrcompat
 ms.prod: windows-hardware
 ms.technology: windows-devices

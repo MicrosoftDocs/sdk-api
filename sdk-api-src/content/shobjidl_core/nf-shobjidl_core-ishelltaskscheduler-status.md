@@ -7,7 +7,7 @@ old-location: shell\IShellTaskScheduler_Status.htm
 tech.root: shell
 ms.assetid: 378a2ae1-520a-48a7-a2e5-fa1ad25e2380
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IShellTaskScheduler interface [Windows Shell],Status method, IShellTaskScheduler.Status, IShellTaskScheduler::Status, ITSSFLAG_KILL_ON_DESTROY, Status, Status method [Windows Shell], Status method [Windows Shell],IShellTaskScheduler interface, _win32_IShellTaskScheduler_Status, shell.IShellTaskScheduler_Status, shobjidl_core/IShellTaskScheduler::Status
 ms.prod: windows-hardware
 ms.technology: windows-devices

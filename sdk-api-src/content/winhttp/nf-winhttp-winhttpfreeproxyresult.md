@@ -7,7 +7,7 @@ old-location: http\winhttpfreeproxyresult.htm
 tech.root: WinHttp
 ms.assetid: 0484bf54-066f-4a7f-8d1a-079eb4b001bd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinHttpFreeProxyResult, WinHttpFreeProxyResult function [WinHTTP], http.winhttpfreeproxyresult, winhttp/WinHttpFreeProxyResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

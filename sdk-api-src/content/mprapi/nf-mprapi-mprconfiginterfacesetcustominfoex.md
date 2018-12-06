@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacesetcustominfoex.htm
 tech.root: rras
 ms.assetid: fff18156-ba94-45b7-86c2-a604823a9b08
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: MprConfigInterfaceSetCustomInfoEx, MprConfigInterfaceSetCustomInfoEx function [RAS], mprapi/MprConfigInterfaceSetCustomInfoEx, rras.mprconfiginterfacesetcustominfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices

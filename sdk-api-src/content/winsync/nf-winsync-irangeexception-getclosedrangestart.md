@@ -7,7 +7,7 @@ old-location: winsync\irangeexception_getclosedrangestart.htm
 tech.root: winsync
 ms.assetid: 5c3c4e92-8c0d-4a3d-97be-029d2c386af4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetClosedRangeStart, GetClosedRangeStart method [Windows Sync], GetClosedRangeStart method [Windows Sync],IRangeException interface, IRangeException interface [Windows Sync],GetClosedRangeStart method, IRangeException.GetClosedRangeStart, IRangeException::GetClosedRangeStart, winsync.irangeexception_getclosedrangestart, winsync/IRangeException::GetClosedRangeStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

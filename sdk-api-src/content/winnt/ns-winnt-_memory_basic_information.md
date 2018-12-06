@@ -7,7 +7,7 @@ old-location: base\memory_basic_information_str.htm
 tech.root: memory
 ms.assetid: dc3fa48e-0986-49cc-88a9-ff8179fbe5f0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure, MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, PMEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer, _MEMORY_BASIC_INFORMATION, _win32_memory_basic_information_str, base.memory_basic_information_str, winnt/MEMORY_BASIC_INFORMATION, winnt/PMEMORY_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

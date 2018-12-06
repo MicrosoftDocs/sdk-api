@@ -7,7 +7,7 @@ old-location: adsi\ads_faxnumber.htm
 tech.root: adsi
 ms.assetid: 32553290-e9ca-44e7-a085-f053df8104e6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PADS_FAXNUMBER, ADS_FAXNUMBER, ADS_FAXNUMBER structure [ADSI], PADS_FAXNUMBER, PADS_FAXNUMBER structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0013, _ds_ads_faxnumber, adsi.ads__faxnumber, adsi.ads_faxnumber, iads/ADS_FAXNUMBER, iads/PADS_FAXNUMBER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

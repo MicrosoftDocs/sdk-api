@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiwindowlist__newenum.htm
 tech.root: rdp
 ms.assetid: bd590250-1187-451f-81ea-5a4a8bf3bb18
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIWindowList interface [RDP],_NewEnum property, IRDPSRAPIWindowList._NewEnum, IRDPSRAPIWindowList.get__NewEnum, IRDPSRAPIWindowList::_NewEnum, IRDPSRAPIWindowList::get__NewEnum, RDPSRAPIWindowList object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIWindowList interface, _NewEnum property [RDP],RDPSRAPIWindowList object, get__NewEnum, rdp.irdpsrapiwindowlist__newenum, rdpencomapi/IRDPSRAPIWindowList::_NewEnum, rdpencomapi/IRDPSRAPIWindowList::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

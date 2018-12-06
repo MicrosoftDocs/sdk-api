@@ -7,7 +7,7 @@ old-location: ncd\wsdxmlbuildanyforsingleelement.htm
 tech.root: wsdapi
 ms.assetid: 2a8b9b4a-0a08-442a-896f-f980bff28f03
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WSDXMLBuildAnyForSingleElement, WSDXMLBuildAnyForSingleElement function, ncd.wsdxmlbuildanyforsingleelement, wsdutil/WSDXMLBuildAnyForSingleElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

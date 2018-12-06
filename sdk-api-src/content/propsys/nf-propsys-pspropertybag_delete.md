@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_Delete.htm
 tech.root: properties
 ms.assetid: 53ED1C87-5141-4925-B70E-C0304817A871
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_Delete, PSPropertyBag_Delete function [Windows Properties], properties.PSPropertyBag_Delete, propsys/PSPropertyBag_Delete, shell.PSPropertyBag_Delete, shell_PSPropertyBag_Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\ipnpxassociation.htm
 tech.root: fundisc
 ms.assetid: 03c1c4cb-fffb-4b4a-963a-200670062f4a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IPNPXAssociation, IPNPXAssociation interface, IPNPXAssociation interface,described, ncd.ipnpxassociation, pnpxassoc/IPNPXAssociation
 ms.prod: windows-hardware
 ms.technology: windows-devices

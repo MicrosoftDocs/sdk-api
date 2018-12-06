@@ -7,7 +7,7 @@ old-location: rpc\rpcssdontserializecontext.htm
 tech.root: rpc
 ms.assetid: 75c8bf34-1522-4db2-9c33-e1ca5ac11e4c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RpcSsDontSerializeContext, RpcSsDontSerializeContext function [RPC], _rpc_rpcssdontserializecontext, rpc.rpcssdontserializecontext, rpcdce/RpcSsDontSerializeContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,7 +110,7 @@ It is recommended that, if your distributed application invokes the
 
 
 
-<a href="https://msdn.microsoft.com/">context_handle_noserialize</a>
+<a href="https://msdn.microsoft.com/aff2484e-639b-41d2-94a9-f34ca4f2343c">context_handle_noserialize</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_getvolumeasync.htm
 tech.root: mediastreaming
 ms.assetid: CBE8E7EE-DC64-4FB0-B09D-58EC9BACCA26
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetVolumeAsync, GetVolumeAsync method [Media Streaming API], GetVolumeAsync method [Media Streaming API],IMediaRenderer interface, IMediaRenderer interface [Media Streaming API],GetVolumeAsync method, IMediaRenderer.GetVolumeAsync, IMediaRenderer.streaming, IMediaRenderer::GetVolumeAsync, IMediaRenderer::streaming, mediastreaming.imediarenderer_getvolumeasync, windows/IMediaRenderer::GetVolumeAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- windows.media.streaming.h
-: 
-- IMediaRenderer.GetVolumeAsync
-: 
 ---
 
 # IMediaRenderer::streaming

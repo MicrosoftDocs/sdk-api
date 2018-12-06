@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IValueProvider.htm
 tech.root: WinAuto
 ms.assetid: e6adbc23-dbfe-4dd2-82d9-66ce16de3338
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IValueProvider, IValueProvider interface [Windows Accessibility], IValueProvider interface [Windows Accessibility],described, uiauto.uiauto_IValueProvider, uiauto_IValueProvider, uiautomationcore/IValueProvider, winauto.uiauto_IValueProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

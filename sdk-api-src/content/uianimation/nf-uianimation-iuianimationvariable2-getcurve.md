@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_getcurve.htm
 tech.root: UIAnimation
 ms.assetid: 59E7C7A1-2461-487C-A263-A9DFC851B720
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurve, GetCurve method [Windows Animation], GetCurve method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetCurve method, IUIAnimationVariable2.GetCurve, IUIAnimationVariable2::GetCurve, uianimation.iuianimationvariable2_getcurve, uianimation/IUIAnimationVariable2::GetCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices

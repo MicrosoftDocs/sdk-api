@@ -7,7 +7,7 @@ old-location: automat\idispatch_getidsofnames.htm
 tech.root: automat
 ms.assetid: 6f6cf233-3481-436e-8d6a-51f93bf91619
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],IDispatch interface, IDispatch interface [Automation],GetIDsOfNames method, IDispatch.GetIDsOfNames, IDispatch::GetIDsOfNames, _oa96_IDispatch::GetIDsOfNames, automat.idispatch_getidsofnames, oaidl/IDispatch::GetIDsOfNames
 ms.prod: windows-hardware
 ms.technology: windows-devices

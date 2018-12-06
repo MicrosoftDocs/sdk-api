@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_setorigin.htm
 tech.root: printdocs
 ms.assetid: f5491bf0-bc40-491e-bf5e-f3fb580e10b4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetOrigin method, IXpsOMGlyphs.SetOrigin, IXpsOMGlyphs::SetOrigin, SetOrigin, SetOrigin method [XPS Documents and Packaging], SetOrigin method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setorigin, xpsobjectmodel/IXpsOMGlyphs::SetOrigin
 ms.prod: windows-hardware
 ms.technology: windows-devices

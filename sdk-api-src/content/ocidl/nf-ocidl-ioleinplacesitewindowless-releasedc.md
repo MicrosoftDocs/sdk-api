@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_releasedc.htm
 tech.root: com
 ms.assetid: 8778a58c-2995-4c14-826c-9c97e97e957b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],ReleaseDC method, IOleInPlaceSiteWindowless.ReleaseDC, IOleInPlaceSiteWindowless::ReleaseDC, ReleaseDC, ReleaseDC method [COM], ReleaseDC method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_releasedc, com.ioleinplacesitewindowless_releasedc, ocidl/IOleInPlaceSiteWindowless::ReleaseDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

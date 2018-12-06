@@ -7,7 +7,7 @@ old-location: mstv\impeg2stream.htm
 tech.root: mstv
 ms.assetid: 189c921a-ec49-48dc-8c60-3d3ec2a648ca
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMpeg2Stream, IMpeg2Stream interface [Microsoft TV Technologies], IMpeg2Stream interface [Microsoft TV Technologies],described, IMpeg2StreamInterface, mpeg2data/IMpeg2Stream, mstv.impeg2stream
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromUInt64.htm
 tech.root: properties
 ms.assetid: c0dbc8d1-45ed-497b-a6ef-2beb4f031e4b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: InitPropVariantFromUInt64, InitPropVariantFromUInt64 function [Windows Properties], properties.InitPropVariantFromUInt64, propvarutil/InitPropVariantFromUInt64, shell.InitPropVariantFromUInt64, shell_InitPropVariantFromUInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices

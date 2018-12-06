@@ -7,7 +7,7 @@ old-location: controls\TOOLINFO.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\toolinfo.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPTTTOOLINFOA, *PTOOLINFOA, LPTOOLINFO, LPTOOLINFO structure pointer [Windows Controls], PTOOLINFO, PTOOLINFO structure pointer [Windows Controls], TOOLINFO, TOOLINFO structure [Windows Controls], TOOLINFOA, TOOLINFOW, TTF_ABSOLUTE, TTF_CENTERTIP, TTF_IDISHWND, TTF_PARSELINKS, TTF_RTLREADING, TTF_SUBCLASS, TTF_TRACK, TTF_TRANSPARENT, TTTOOLINFO, TTTOOLINFOA, TTTOOLINFOW, _win32_TOOLINFO, _win32_TOOLINFO_cpp, commctrl/LPTOOLINFO, commctrl/PTOOLINFO, commctrl/TOOLINFO, commctrl/TOOLINFOA, commctrl/TOOLINFOW, controls.TOOLINFO, controls._win32_TOOLINFO, tagTOOLINFOA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

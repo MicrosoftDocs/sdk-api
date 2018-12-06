@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientstop_setoffset.htm
 tech.root: printdocs
 ms.assetid: 8c1932b0-386b-4779-a4e4-e239e42e1d16
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMGradientStop interface [XPS Documents and Packaging],SetOffset method, IXpsOMGradientStop.SetOffset, IXpsOMGradientStop::SetOffset, SetOffset, SetOffset method [XPS Documents and Packaging], SetOffset method [XPS Documents and Packaging],IXpsOMGradientStop interface, xps.ixpsomgradientstop_setoffset, xpsobjectmodel/IXpsOMGradientStop::SetOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

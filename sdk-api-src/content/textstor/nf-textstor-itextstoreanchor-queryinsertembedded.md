@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_queryinsertembedded.htm
 tech.root: TSF
 ms.assetid: 722506fa-db83-49d3-9434-a4ad7b797ce2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],QueryInsertEmbedded method, ITextStoreAnchor.QueryInsertEmbedded, ITextStoreAnchor::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::QueryInsertEmbedded, tsf.itextstoreanchor_queryinsertembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices

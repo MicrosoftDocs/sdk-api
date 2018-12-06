@@ -7,7 +7,7 @@ old-location: adsi\iadscontainer_getobject.htm
 tech.root: adsi
 ms.assetid: df8b1eae-1138-4e55-af6e-17c6105ca9c1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],GetObject method, IADsContainer.GetObject, IADsContainer::GetObject, _ds_iadscontainer_getobject, adsi.iadscontainer__getobject, adsi.iadscontainer_getobject, iads/IADsContainer::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

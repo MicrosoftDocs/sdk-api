@@ -7,7 +7,7 @@ old-location: fs\rollbacktransaction.htm
 tech.root: ktm
 ms.assetid: 7d3522b8-ddf0-449e-8ab4-09e679ba1f15
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RollbackTransaction, RollbackTransaction function [Files], fs.rollbacktransaction, ktmw32/RollbackTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

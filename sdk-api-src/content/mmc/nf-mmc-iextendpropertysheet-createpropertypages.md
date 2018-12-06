@@ -7,7 +7,7 @@ old-location: mmc\iextendpropertysheet_createpropertypages.htm
 tech.root: mmc
 ms.assetid: 8B99EC8D-AFE1-4944-AF61-BFE93C0AF7DE
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreatePropertyPages, CreatePropertyPages method [MMC], CreatePropertyPages method [MMC],IExtendPropertySheet interface, IExtendPropertySheet interface [MMC],CreatePropertyPages method, IExtendPropertySheet.CreatePropertyPages, IExtendPropertySheet::CreatePropertyPages, mmc.iextendpropertysheet_createpropertypages, mmc/IExtendPropertySheet::CreatePropertyPages
 ms.prod: windows-hardware
 ms.technology: windows-devices

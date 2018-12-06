@@ -7,7 +7,7 @@ old-location: hcp\enablethreadprofiling.htm
 tech.root: hcp
 ms.assetid: dbbe5b01-cabf-42cb-9ed9-c2c143f9923b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EnableThreadProfiling, EnableThreadProfiling function [Hardware Counter Profiling], hcp.enablethreadprofiling, winbase/EnableThreadProfiling
 ms.prod: windows-hardware
 ms.technology: windows-devices

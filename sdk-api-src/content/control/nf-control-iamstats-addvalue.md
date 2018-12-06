@@ -7,7 +7,7 @@ old-location: dshow\iamstats_addvalue.htm
 tech.root: DirectShow
 ms.assetid: a408b106-702c-4ecc-a424-b4b3588ea58f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddValue, AddValue method [DirectShow], AddValue method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],AddValue method, IAMStats.AddValue, IAMStats::AddValue, IAMStatsAddValue, control/IAMStats::AddValue, dshow.iamstats_addvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

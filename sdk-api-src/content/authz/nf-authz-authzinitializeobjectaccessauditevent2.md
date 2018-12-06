@@ -7,7 +7,7 @@ old-location: security\authzinitializeobjectaccessauditevent2.htm
 tech.root: secauthz
 ms.assetid: c65bb799-0158-496a-b428-0331c4474b74
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AUTHZ_NO_ALLOC_STRINGS, AUTHZ_NO_FAILURE_AUDIT, AUTHZ_NO_SUCCESS_AUDIT, AuthzInitializeObjectAccessAuditEvent2, AuthzInitializeObjectAccessAuditEvent2 function [Security], authz/AuthzInitializeObjectAccessAuditEvent2, security.authzinitializeobjectaccessauditevent2
 ms.prod: windows-hardware
 ms.technology: windows-devices

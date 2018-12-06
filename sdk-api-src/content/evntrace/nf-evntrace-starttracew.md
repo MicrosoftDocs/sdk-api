@@ -7,7 +7,7 @@ old-location: etw\starttrace.htm
 tech.root: etw
 ms.assetid: c040514a-733d-44b9-8300-a8341d2630b3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: StartTrace, StartTrace function [ETW], StartTraceA, StartTraceW, _evt_starttrace, base.starttrace, etw.starttrace, evntrace/StartTrace, evntrace/StartTraceA, evntrace/StartTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

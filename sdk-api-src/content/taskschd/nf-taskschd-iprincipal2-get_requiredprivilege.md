@@ -7,7 +7,7 @@ old-location: taskschd\iprincipal2_requiredprivilege.htm
 tech.root: taskschd
 ms.assetid: 701ff07e-2dd1-4985-8fc4-f570749c5834
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IPrincipal2 interface [Task Scheduler],RequiredPrivilege property, IPrincipal2.RequiredPrivilege, IPrincipal2.get_RequiredPrivilege, IPrincipal2::RequiredPrivilege, IPrincipal2::get_RequiredPrivilege, RequiredPrivilege property [Task Scheduler], RequiredPrivilege property [Task Scheduler],IPrincipal2 interface, get_RequiredPrivilege, taskschd.iprincipal2_requiredprivilege, taskschd/IPrincipal2::RequiredPrivilege, taskschd/IPrincipal2::get_RequiredPrivilege
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: battery\batteryminisetinformation.htm
 tech.root: battery
 ms.assetid: ebfcabb7-7447-486d-b980-7cb5456332f4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: BCLASS_SET_INFORMATION_CALLBACK, BCLASS_SET_INFORMATION_CALLBACK callback, BatteryMiniSetInformation, BatteryMiniSetInformation callback function [Battery Devices], bat-mini_abc151e1-9d35-4b39-b1e8-576503335d3b.xml, batclass/BatteryMiniSetInformation, battery.batteryminisetinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

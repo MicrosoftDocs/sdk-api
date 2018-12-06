@@ -7,7 +7,7 @@ old-location: base\vds_portal_group_notification.htm
 tech.root: vds
 ms.assetid: db4f947b-996f-4aa0-aed6-0190f00ca58a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: VDS_NF_PORTAL_GROUP_ARRIVE, VDS_NF_PORTAL_GROUP_DEPART, VDS_NF_PORTAL_GROUP_MODIFY, VDS_PORTAL_GROUP_NOTIFICATION, VDS_PORTAL_GROUP_NOTIFICATION structure [VDS], _VDS_PORTAL_GROUP_NOTIFICATION, base.vds_portal_group_notification, vds/_VDS_PORTAL_GROUP_NOTIFICATION, vdshwprv/_VDS_PORTAL_GROUP_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

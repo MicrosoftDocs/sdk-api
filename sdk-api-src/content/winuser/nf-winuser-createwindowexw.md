@@ -7,7 +7,7 @@ old-location: winmsg\createwindowex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindowex.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateWindowEx, CreateWindowEx function [Windows and Messages], CreateWindowExA, CreateWindowExW, _win32_CreateWindowEx, _win32_createwindowex_cpp, winmsg.createwindowex, winui._win32_createwindowex, winuser/CreateWindowEx, winuser/CreateWindowExA, winuser/CreateWindowExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

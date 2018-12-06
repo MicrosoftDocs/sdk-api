@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore3.htm
 tech.root: WMP
 ms.assetid: 3004551e-ce36-4f15-88c3-93b2bfaa72fc
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPCore3, IWMPCore3 interface [Windows Media Player], IWMPCore3 interface [Windows Media Player],described, IWMPCore3Interface, wmp.iwmpcore3, wmp/IWMPCore3
 ms.prod: windows-hardware
 ms.technology: windows-devices

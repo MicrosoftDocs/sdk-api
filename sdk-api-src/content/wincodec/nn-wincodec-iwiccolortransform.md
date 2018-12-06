@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccolortransform.htm
 tech.root: wic
 ms.assetid: 6c8ae787-3175-4128-ae9f-e11cb0e4c317
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWICColorTransform, IWICColorTransform interface [Windows Imaging Component], IWICColorTransform interface [Windows Imaging Component],described, _wic_codec_iwiccolortransform, wic._wic_codec_iwiccolortransform, wincodec/IWICColorTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

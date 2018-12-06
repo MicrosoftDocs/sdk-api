@@ -7,7 +7,7 @@ old-location: taskschd\itrigger.htm
 tech.root: taskschd
 ms.assetid: 165297c1-704b-4ab3-a9e3-4aa3f10e07b1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITrigger, ITrigger interface [Task Scheduler], ITrigger interface [Task Scheduler],described, taskschd.itrigger, taskschd/ITrigger, triggers [Task Scheduler],trigger interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributeinfo.htm
 tech.root: TSF
 ms.assetid: 7f590ecf-06e9-42da-ba40-4364296ae594
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITfDisplayAttributeInfo, ITfDisplayAttributeInfo interface [Text Services Framework], ITfDisplayAttributeInfo interface [Text Services Framework],described, _tsf_itfdisplayattributeinfo_ref, msctf/ITfDisplayAttributeInfo, tsf.itfdisplayattributeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

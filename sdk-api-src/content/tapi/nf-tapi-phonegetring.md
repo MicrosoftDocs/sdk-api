@@ -7,7 +7,7 @@ old-location: tapi2\phonegetring.htm
 tech.root: tapi
 ms.assetid: 7ce96ce5-ab7c-42cf-8d06-e50e676ddbd2
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonegetring, phoneGetRing, phoneGetRing function [TAPI 2.2], tapi/phoneGetRing, tapi2.phonegetring"
 ms.prod: windows-hardware
 ms.technology: windows-devices

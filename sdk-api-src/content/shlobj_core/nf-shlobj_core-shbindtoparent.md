@@ -7,7 +7,7 @@ old-location: shell\SHBindToParent.htm
 tech.root: shell
 ms.assetid: 1cb283a6-3ebf-4986-9f32-5f6ab8d977ad
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: SHBindToParent, SHBindToParent function [Windows Shell], _win32_SHBindToParent, shell.SHBindToParent, shlobj_core/SHBindToParent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_1540_str.htm
 tech.root: netmgmt
 ms.assetid: 918c568d-392a-4efc-9c32-fa6b01614040
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSERVER_INFO_1540, *PSERVER_INFO_1540, LPSERVER_INFO_1540, LPSERVER_INFO_1540 structure pointer [Network Management], PSERVER_INFO_1540, PSERVER_INFO_1540 structure pointer [Network Management], SERVER_INFO_1540, SERVER_INFO_1540 structure [Network Management], _SERVER_INFO_1540, _win32_server_info_1540_str, lmserver/LPSERVER_INFO_1540, lmserver/PSERVER_INFO_1540, lmserver/SERVER_INFO_1540, netmgmt.server_info_1540_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

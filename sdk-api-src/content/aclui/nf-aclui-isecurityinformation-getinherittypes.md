@@ -7,7 +7,7 @@ old-location: security\isecurityinformation_getinherittypes.htm
 tech.root: secauthz
 ms.assetid: dafe6c45-616f-4339-a119-9b88055b5d3a
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetInheritTypes, GetInheritTypes method [Security], GetInheritTypes method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetInheritTypes method, ISecurityInformation.GetInheritTypes, ISecurityInformation::GetInheritTypes, _win32_isecurityinformation_getinherittypes, aclui/ISecurityInformation::GetInheritTypes, security.isecurityinformation_getinherittypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

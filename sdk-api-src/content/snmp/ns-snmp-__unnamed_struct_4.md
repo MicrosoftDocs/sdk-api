@@ -7,7 +7,7 @@ old-location: snmp\snmpvarbindlist_str.htm
 tech.root: SNMP
 ms.assetid: 73e33a64-39fb-4e36-8267-88c78ec27e26
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpVarBindList, SnmpVarBindList structure [SNMP], _snmp_snmpvarbindlist_str, snmp.snmpvarbindlist_str, snmp/SnmpVarBindList
 ms.prod: windows-hardware
 ms.technology: windows-devices

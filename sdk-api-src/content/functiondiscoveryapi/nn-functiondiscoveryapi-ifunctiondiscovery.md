@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscovery.htm
 tech.root: fundisc
 ms.assetid: 352a8d61-7d3a-423d-8b7e-1163d4fa1e00
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFunctionDiscovery, IFunctionDiscovery interface, IFunctionDiscovery interface,described, functiondiscoveryapi/IFunctionDiscovery, ncd.ifunctiondiscovery
 ms.prod: windows-hardware
 ms.technology: windows-devices

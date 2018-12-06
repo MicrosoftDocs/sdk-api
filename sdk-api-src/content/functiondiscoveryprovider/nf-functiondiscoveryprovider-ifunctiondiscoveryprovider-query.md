@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoveryprovider_query_method.htm
 tech.root: fundisc
 ms.assetid: 8c368ea7-c9db-4e80-a080-eef8068f7402
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFunctionDiscoveryProvider interface,Query method, IFunctionDiscoveryProvider.Query, IFunctionDiscoveryProvider::Query, Query, Query method, Query method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::Query, ncd.ifunctiondiscoveryprovider_query_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

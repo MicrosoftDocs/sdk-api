@@ -7,7 +7,7 @@ old-location: etw\eventdescsetopcode_func.htm
 tech.root: etw
 ms.assetid: fe16eae0-5bff-4266-9b91-4b714540bde3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: EventDescSetOpcode, EventDescSetOpcode function [ETW], base.eventdescsetopcode_func, etw.eventdescsetopcode_func, evntprov/EventDescSetOpcode
 ms.prod: windows-hardware
 ms.technology: windows-devices

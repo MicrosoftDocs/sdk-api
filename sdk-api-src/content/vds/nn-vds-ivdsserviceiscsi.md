@@ -7,7 +7,7 @@ old-location: base\ivdsserviceiscsi.htm
 tech.root: vds
 ms.assetid: 07bbfb4b-f054-4ec2-8f0b-3910115db5c1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsServiceIscsi, IVdsServiceIscsi interface [VDS], IVdsServiceIscsi interface [VDS],described, base.ivdsserviceiscsi, vds/IVdsServiceIscsi
 ms.prod: windows-hardware
 ms.technology: windows-devices

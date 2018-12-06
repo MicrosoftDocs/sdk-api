@@ -7,7 +7,7 @@ old-location: winrt\iasyncinfo_close.htm
 tech.root: WinRT
 ms.assetid: 1c357343-79cf-4808-8e41-f898dfdb99f6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Close, Close method [Windows Runtime], Close method [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],Close method, IAsyncInfo.Close, IAsyncInfo::Close, asyncinfo/IAsyncInfo::Close, winrt.iasyncinfo_close
 ms.prod: windows-hardware
 ms.technology: windows-devices

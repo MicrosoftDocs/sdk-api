@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtppasswor
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1euc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPPassword property, IFaxReceiptOptions.SMTPPassword, IFaxReceiptOptions.get_SMTPPassword, IFaxReceiptOptions.put_SMTPPassword, IFaxReceiptOptions::SMTPPassword, IFaxReceiptOptions::get_SMTPPassword, IFaxReceiptOptions::put_SMTPPassword, SMTPPassword property [Fax Service], SMTPPassword property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtppassword, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtppassword_cpp, fax._mfax_faxreceiptoptions_smtppassword, faxcomex/IFaxReceiptOptions::SMTPPassword, faxcomex/IFaxReceiptOptions::get_SMTPPassword, faxcomex/IFaxReceiptOptions::put_SMTPPassword, put_SMTPPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_idragprovider_dropeffects.htm
 tech.root: WinAuto
 ms.assetid: 66DEC1A0-5AB4-41C7-AA7A-F512AE388999
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DropEffects property [Windows Accessibility], DropEffects property [Windows Accessibility],IDragProvider interface, IDragProvider interface [Windows Accessibility],DropEffects property, IDragProvider.DropEffects, IDragProvider.get_DropEffects, IDragProvider::DropEffects, IDragProvider::get_DropEffects, get_DropEffects, uiautomationcore/IDragProvider::DropEffects, uiautomationcore/IDragProvider::get_DropEffects, winauto.uiauto_idragprovider_dropeffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

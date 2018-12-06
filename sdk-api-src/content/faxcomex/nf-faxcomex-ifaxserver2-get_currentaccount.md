@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver2_cpp_mfax_faxserver2_currentaccount_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxserver2\currentaccount.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CurrentAccount property [Fax Service], CurrentAccount property [Fax Service],IFaxServer2 interface, IFaxServer2 interface [Fax Service],CurrentAccount property, IFaxServer2.CurrentAccount, IFaxServer2.get_CurrentAccount, IFaxServer2::CurrentAccount, IFaxServer2::get_CurrentAccount, _mfax_faxserver2.currentaccount, fax._mfax_faxserver2_cpp_mfax_faxserver2_currentaccount_cpp, fax._mfax_faxserver2_currentaccount, faxcomex/IFaxServer2::CurrentAccount, faxcomex/IFaxServer2::get_CurrentAccount, get_CurrentAccount
 ms.prod: windows-hardware
 ms.technology: windows-devices

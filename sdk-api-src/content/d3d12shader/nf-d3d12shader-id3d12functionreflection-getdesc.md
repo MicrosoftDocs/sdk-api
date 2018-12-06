@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12functionreflection_getdesc.htm
 tech.root: direct3d12
 ms.assetid: CAFBC2D0-0C1C-4D55-87A4-C7ABB52976BF
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetDesc method, ID3D12FunctionReflection.GetDesc, ID3D12FunctionReflection::GetDesc, d3d12shader/ID3D12FunctionReflection::GetDesc, direct3d12.id3d12functionreflection_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

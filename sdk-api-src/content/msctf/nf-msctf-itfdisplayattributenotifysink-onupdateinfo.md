@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributenotifysink_onupdateinfo.htm
 tech.root: TSF
 ms.assetid: 6f4cbdca-b2a3-4e14-b4fb-ac65f3cec646
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITfDisplayAttributeNotifySink interface [Text Services Framework],OnUpdateInfo method, ITfDisplayAttributeNotifySink.OnUpdateInfo, ITfDisplayAttributeNotifySink::OnUpdateInfo, OnUpdateInfo, OnUpdateInfo method [Text Services Framework], OnUpdateInfo method [Text Services Framework],ITfDisplayAttributeNotifySink interface, _tsf_itfdisplayattributenotifysink_onupdateinfo_ref, msctf/ITfDisplayAttributeNotifySink::OnUpdateInfo, tsf.itfdisplayattributenotifysink_onupdateinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dns\dns_txt_data.htm
 tech.root: dns
 ms.assetid: 3ff643e2-d736-45d5-8cf8-ab5e63caf44b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDNS_TXT_DATA, *PDNS_TXT_DATAA, DNS_TXT_DATA, DNS_TXT_DATA structure [DNS], DNS_TXT_DATAA, PDNS_TXT_DATA, PDNS_TXT_DATA structure pointer [DNS], _dns_dns_txt_data, dns.dns_txt_data, windns/DNS_TXT_DATA, windns/PDNS_TXT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

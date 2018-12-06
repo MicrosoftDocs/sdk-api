@@ -7,7 +7,7 @@ old-location: fs\readonlyenlistment.htm
 tech.root: ktm
 ms.assetid: a6411fad-8ad0-4a31-9e09-0c18dd384634
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ReadOnlyEnlistment, ReadOnlyEnlistment function [Files], fs.readonlyenlistment, ktmw32/ReadOnlyEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

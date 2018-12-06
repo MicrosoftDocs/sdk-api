@@ -7,7 +7,7 @@ old-location: serports\comdbclaimnextfreeport.htm
 tech.root: serports
 ms.assetid: b32b42e8-d38c-4bb5-bf8a-96538a03cb5b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/5/2018
 ms.keywords: ComDBClaimNextFreePort, ComDBClaimNextFreePort function [Serial Ports], comdb_ed1e04f0-bebb-4d9f-8603-20e7d15b7644.xml, msports/ComDBClaimNextFreePort, serports.comdbclaimnextfreeport
 ms.prod: windows-hardware
 ms.technology: windows-devices

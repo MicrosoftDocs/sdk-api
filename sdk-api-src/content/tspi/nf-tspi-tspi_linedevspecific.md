@@ -7,7 +7,7 @@ old-location: tspi\tspi_linedevspecific.htm
 tech.root: tapi
 ms.assetid: 16510976-6fa6-4e48-837a-98f94d4e1342
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_lineDevSpecific, TSPI_lineDevSpecific function [TAPI 2.2], _tspi_tspi_linedevspecific, tspi.tspi_linedevspecific, tspi/TSPI_lineDevSpecific
 ms.prod: windows-hardware
 ms.technology: windows-devices

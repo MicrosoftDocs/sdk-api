@@ -7,7 +7,7 @@ old-location: cos\icomsecurityevents.htm
 tech.root: cossdk
 ms.assetid: 83366f18-8dd4-4c3d-8362-4fbcc4c33b95
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IComSecurityEvents, IComSecurityEvents interface [COM+], IComSecurityEvents interface [COM+],described, _dtc_IComSecurityEvents, comsvcs/IComSecurityEvents, cos.icomsecurityevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

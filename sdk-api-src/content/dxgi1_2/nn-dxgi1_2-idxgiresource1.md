@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiresource1.htm
 tech.root: direct3ddxgi
 ms.assetid: 0ABA9B8D-BEA4-4455-A312-7CFEDEBBF19A
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDXGIResource1, IDXGIResource1 interface [DXGI], IDXGIResource1 interface [DXGI],described, direct3ddxgi.idxgiresource1, dxgi1_2/IDXGIResource1
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwatermarkinfo_getwatermarkentry.htm
 tech.root: wmformat
 ms.assetid: 7f303233-cd20-40ff-b564-4c44bf17a5f4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetWatermarkEntry, GetWatermarkEntry method [windows Media Format], GetWatermarkEntry method [windows Media Format],IWMWatermarkInfo interface, IWMWatermarkInfo interface [windows Media Format],GetWatermarkEntry method, IWMWatermarkInfo.GetWatermarkEntry, IWMWatermarkInfo::GetWatermarkEntry, IWMWatermarkInfoGetWatermarkEntry, wmformat.iwmwatermarkinfo_getwatermarkentry, wmsdkidl/IWMWatermarkInfo::GetWatermarkEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

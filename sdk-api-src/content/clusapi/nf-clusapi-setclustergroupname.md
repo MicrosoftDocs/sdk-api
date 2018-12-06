@@ -7,7 +7,7 @@ old-location: mscs\setclustergroupname.htm
 tech.root: mscs
 ms.assetid: d2dc3837-24d3-4455-8e3e-bb74b95b1d44
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_NAME, PCLUSAPI_SET_CLUSTER_GROUP_NAME function [Failover Cluster], SetClusterGroupName, SetClusterGroupName function [Failover Cluster], _wolf_setclustergroupname, clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NAME, clusapi/SetClusterGroupName, mscs.setclustergroupname
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\ipartslist_getcount.htm
 tech.root: CoreAudio
 ms.assetid: 78ca8592-f687-4194-873b-83640c6e72da
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IPartsList interface, IPartsList interface [Core Audio],GetCount method, IPartsList.GetCount, IPartsList::GetCount, IPartsListGetCount, coreaudio.ipartslist_getcount, devicetopology/IPartsList::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

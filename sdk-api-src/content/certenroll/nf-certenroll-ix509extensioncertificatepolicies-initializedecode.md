@@ -7,7 +7,7 @@ old-location: security\ix509extensioncertificatepolicies_initializedecode_method
 tech.root: seccertenroll
 ms.assetid: bd542fbd-4cba-4584-9a14-b22cf0ae5705
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IX509ExtensionCertificatePolicies interface [Security],InitializeDecode method, IX509ExtensionCertificatePolicies.InitializeDecode, IX509ExtensionCertificatePolicies::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionCertificatePolicies interface, certenroll/IX509ExtensionCertificatePolicies::InitializeDecode, security.ix509extensioncertificatepolicies_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

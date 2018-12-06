@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_gettime.htm
 tech.root: WmiSdk
 ms.assetid: 1690d33d-c39b-448e-889e-48dce1933fc1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTime, GetTime method [Windows Management Instrumentation], GetTime method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetTime method, WBEMTime.GetTime, WBEMTime::GetTime, _hmm_wbemtime_gettime, wbemtime/WBEMTime::GetTime, wmi.wbemtime_gettime
 ms.prod: windows-hardware
 ms.technology: windows-devices

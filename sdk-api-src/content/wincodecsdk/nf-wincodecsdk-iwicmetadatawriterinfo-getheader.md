@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatawriterinfo_getheader.htm
 tech.root: wic
 ms.assetid: 156728ea-b4a3-47d7-b0d8-cd34881e9703
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetHeader, GetHeader method [Windows Imaging Component], GetHeader method [Windows Imaging Component],IWICMetadataWriterInfo interface, IWICMetadataWriterInfo interface [Windows Imaging Component],GetHeader method, IWICMetadataWriterInfo.GetHeader, IWICMetadataWriterInfo::GetHeader, _wic_codec_iwicmetadatawriterinfo_getheader, wic._wic_codec_iwicmetadatawriterinfo_getheader, wincodecsdk/IWICMetadataWriterInfo::GetHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

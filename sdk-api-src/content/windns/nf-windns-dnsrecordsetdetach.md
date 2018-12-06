@@ -7,7 +7,7 @@ old-location: dns\dnsrecordsetdetach.htm
 tech.root: dns
 ms.assetid: 434dc11f-19a9-434f-a024-9cdbb560f24c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DnsRecordSetDetach, DnsRecordSetDetach function [DNS], _dns_dnsrecordsetdetach, dns.dnsrecordsetdetach, windns/DnsRecordSetDetach
 ms.prod: windows-hardware
 ms.technology: windows-devices

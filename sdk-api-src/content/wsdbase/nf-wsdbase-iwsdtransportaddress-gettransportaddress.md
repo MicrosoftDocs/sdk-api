@@ -7,7 +7,7 @@ old-location: ncd\iwsdtransportaddress_gettransportaddress.htm
 tech.root: wsdapi
 ms.assetid: 090b009d-0cca-4925-bf90-cb3d0975d271
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetTransportAddress, GetTransportAddress method, GetTransportAddress method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetTransportAddress method, IWSDTransportAddress.GetTransportAddress, IWSDTransportAddress::GetTransportAddress, ncd.iwsdtransportaddress_gettransportaddress, wsdbase/IWSDTransportAddress::GetTransportAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

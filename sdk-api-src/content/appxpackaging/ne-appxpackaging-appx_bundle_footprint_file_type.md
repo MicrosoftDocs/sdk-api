@@ -7,7 +7,7 @@ old-location: appxpkg\appx_bundle_footprint_file_type.htm
 tech.root: appxpkg
 ms.assetid: 1BC2B15B-9DF3-48D8-B7BE-BEC1E5D7E6E3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: APPX_BUNDLE_FOOTPRINT_FILE_TYPE, APPX_BUNDLE_FOOTPRINT_FILE_TYPE enumeration [App packaging and management], APPX_BUNDLE_FOOTPRINT_FILE_TYPE_BLOCKMAP, APPX_BUNDLE_FOOTPRINT_FILE_TYPE_FIRST, APPX_BUNDLE_FOOTPRINT_FILE_TYPE_LAST, APPX_BUNDLE_FOOTPRINT_FILE_TYPE_MANIFEST, APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE, appxpackaging/APPX_BUNDLE_FOOTPRINT_FILE_TYPE, appxpackaging/APPX_BUNDLE_FOOTPRINT_FILE_TYPE_BLOCKMAP, appxpackaging/APPX_BUNDLE_FOOTPRINT_FILE_TYPE_FIRST, appxpackaging/APPX_BUNDLE_FOOTPRINT_FILE_TYPE_LAST, appxpackaging/APPX_BUNDLE_FOOTPRINT_FILE_TYPE_MANIFEST, appxpackaging/APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE, appxpkg.appx_bundle_footprint_file_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_setfilerestorestatus.htm
 tech.root: vss
 ms.assetid: 669d61cc-c586-4dcc-a936-5343a393d371
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetFileRestoreStatus method, IVssBackupComponents.SetFileRestoreStatus, IVssBackupComponents::SetFileRestoreStatus, SetFileRestoreStatus, SetFileRestoreStatus method [VSS], SetFileRestoreStatus method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setfilerestorestatus, base.ivssbackupcomponents_setfilerestorestatus, vsbackup/IVssBackupComponents::SetFileRestoreStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

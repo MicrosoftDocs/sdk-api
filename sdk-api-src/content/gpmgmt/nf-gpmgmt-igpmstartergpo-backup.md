@@ -7,7 +7,7 @@ old-location: gpmc\igpmstartergpo_backup.htm
 tech.root: gpmc
 ms.assetid: bf419f56-803f-44c2-ae08-7e428940f79d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Backup, Backup method [GPMC], Backup method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],Backup method, IGPMStarterGPO.Backup, IGPMStarterGPO::Backup, gpmc.igpmstartergpo_backup, gpmgmt/IGPMStarterGPO::Backup
 ms.prod: windows-hardware
 ms.technology: windows-devices

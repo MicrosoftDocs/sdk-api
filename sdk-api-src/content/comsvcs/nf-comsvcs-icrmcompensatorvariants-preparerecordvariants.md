@@ -7,7 +7,7 @@ old-location: cos\icrmcompensatorvariants_preparerecordvariants.htm
 tech.root: cossdk
 ms.assetid: 5cbe3bf9-b82c-42da-ac19-dddb5837368e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ICrmCompensatorVariants interface [COM+],PrepareRecordVariants method, ICrmCompensatorVariants.PrepareRecordVariants, ICrmCompensatorVariants::PrepareRecordVariants, PrepareRecordVariants, PrepareRecordVariants method [COM+], PrepareRecordVariants method [COM+],ICrmCompensatorVariants interface, _dtc_ICrmCompensatorVariants_PrepareRecordVariants, comsvcs/ICrmCompensatorVariants::PrepareRecordVariants, cos.icrmcompensatorvariants_preparerecordvariants
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509extension_objectid_property.htm
 tech.root: seccertenroll
 ms.assetid: d3508bfe-e323-4075-9c82-d9b53b8f54aa
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IX509Extension interface [Security],ObjectId property, IX509Extension.ObjectId, IX509Extension.get_ObjectId, IX509Extension::ObjectId, IX509Extension::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IX509Extension interface, certenroll/IX509Extension::ObjectId, certenroll/IX509Extension::get_ObjectId, get_ObjectId, security.ix509extension_objectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

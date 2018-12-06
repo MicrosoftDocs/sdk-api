@@ -7,7 +7,7 @@ old-location: http\winhttpqueryoption.htm
 tech.root: WinHttp
 ms.assetid: 47973eab-de70-47bf-9713-97b87a500cfa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinHttpQueryOption, WinHttpQueryOption function [WinHTTP], http.winhttpqueryoption, winhttp.winhttpqueryoption_function, winhttp/WinHttpQueryOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

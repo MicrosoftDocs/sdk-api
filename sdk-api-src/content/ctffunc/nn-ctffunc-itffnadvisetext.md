@@ -7,7 +7,7 @@ old-location: tsf\itffnadvisetext.htm
 tech.root: TSF
 ms.assetid: 7cca7f23-48d3-4855-8f3d-e937bbc990d4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITfFnAdviseText, ITfFnAdviseText interface [Text Services Framework], ITfFnAdviseText interface [Text Services Framework],described, _tsf_itffnadvisetext_ref, ctffunc/ITfFnAdviseText, tsf.itffnadvisetext
 ms.prod: windows-hardware
 ms.technology: windows-devices

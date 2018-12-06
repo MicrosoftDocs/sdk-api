@@ -7,7 +7,7 @@ old-location: display\engcreatedriverobj.htm
 tech.root: display
 ms.assetid: 2912a456-e5d7-4ae4-b8b0-d16c9e8eadf2
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: EngCreateDriverObj, EngCreateDriverObj function [Display Devices], display.engcreatedriverobj, gdifncs_b2ab33cf-bcdf-418d-87a5-eee4b0704433.xml, winddi/EngCreateDriverObj
 ms.prod: windows-hardware
 ms.technology: windows-devices

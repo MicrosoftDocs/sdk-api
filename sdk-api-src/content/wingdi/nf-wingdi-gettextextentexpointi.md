@@ -7,7 +7,7 @@ old-location: gdi\gettextextentexpointi.htm
 tech.root: gdi
 ms.assetid: d543ec43-f6f1-4463-b27d-a1abf1cf3961
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetTextExtentExPointI, GetTextExtentExPointI function [Windows GDI], _win32_GetTextExtentExPointI, gdi.gettextextentexpointi, wingdi/GetTextExtentExPointI
 ms.prod: windows-hardware
 ms.technology: windows-devices

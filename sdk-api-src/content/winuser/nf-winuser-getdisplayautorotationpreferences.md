@@ -2,21 +2,21 @@
 UID: NF:winuser.GetDisplayAutoRotationPreferences
 title: GetDisplayAutoRotationPreferences function
 author: windows-sdk-content
-description: Gets the orientation preferences of the display.
-old-location: gdi\getdisplayautorotationpreferences.htm
-tech.root: gdi
-ms.assetid: 2E412DAA-1855-4CB1-856C-4486A895E63D
+description: Retrieves the screen auto-rotation preferences for the current process.
+old-location: base\getdisplayautorotationpreferences.htm
+tech.root: procthread
+ms.assetid: 48D609CC-3E2B-4E0E-9566-FE02853DD831
 ms.author: windowssdkdev
-ms.date: 11/16/2018
-ms.keywords: GetDisplayAutoRotationPreferences, GetDisplayAutoRotationPreferences function [Windows GDI], ORIENTATION_PREFERENCE_LANDSCAPE, ORIENTATION_PREFERENCE_LANDSCAPE_FLIPPED, ORIENTATION_PREFERENCE_NONE, ORIENTATION_PREFERENCE_PORTRAIT, ORIENTATION_PREFERENCE_PORTRAIT_FLIPPED, gdi.getdisplayautorotationpreferences, winuser/GetDisplayAutoRotationPreferences
+ms.date: 12/5/2018
+ms.keywords: GetDisplayAutoRotationPreferences, GetDisplayAutoRotationPreferences function, base.getdisplayautorotationpreferences, winuser/GetDisplayAutoRotationPreferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: User32.lib
-req.dll: User32.dll
+req.lib: 
+req.dll: Kernel.dll
 req.irql: 
 topic_type:
  - APIRef
@@ -35,8 +35,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - user32.dll
+ - kernel.dll
  - Ext-MS-Win-NTUser-rotationmanager-l1-1-1.dll
+ - user32.dll
  - ext-ms-win-ntuser-rotationmanager-l1-1-0.dll
 api_name:
  - GetDisplayAutoRotationPreferences
@@ -52,7 +53,7 @@ req.redist:
 ## -description
 
 
-Gets the orientation preferences of the display.
+Retrieves the screen auto-rotation preferences for the current process.
 
 
 ## -parameters
@@ -62,99 +63,14 @@ Gets the orientation preferences of the display.
 
 ### -param pOrientation [out]
 
-Type: <b>ORIENTATION_PREFERENCE*</b>
-
-A pointer to a variable that receives a combination of <b>ORIENTATION_PREFERENCE</b>-typed values that are combined by using a bitwise OR operation. The resulting value specifies the orientation preferences of the display. Here are possible values:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="ORIENTATION_PREFERENCE_NONE"></a><a id="orientation_preference_none"></a><dl>
-<dt><b>ORIENTATION_PREFERENCE_NONE</b></dt>
-<dt>0x0</dt>
-</dl>
-</td>
-<td width="60%">
-No display orientation is specified.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ORIENTATION_PREFERENCE_LANDSCAPE"></a><a id="orientation_preference_landscape"></a><dl>
-<dt><b>ORIENTATION_PREFERENCE_LANDSCAPE</b></dt>
-<dt>0x1</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies that the display can be oriented in landscape mode where the width of the display viewing area is greater than the height.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ORIENTATION_PREFERENCE_PORTRAIT"></a><a id="orientation_preference_portrait"></a><dl>
-<dt><b>ORIENTATION_PREFERENCE_PORTRAIT</b></dt>
-<dt>0x2</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies that the display can be oriented in portrait mode where the height of the display viewing area is greater than the width.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ORIENTATION_PREFERENCE_LANDSCAPE_FLIPPED"></a><a id="orientation_preference_landscape_flipped"></a><dl>
-<dt><b>ORIENTATION_PREFERENCE_LANDSCAPE_FLIPPED</b></dt>
-<dt>0x4</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies that the display can be oriented in flipped landscape mode where the width of the display viewing area is greater than the height. This landscape mode is flipped 180 degrees from <b>ORIENTATION_PREFERENCE_LANDSCAPE</b> mode.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ORIENTATION_PREFERENCE_PORTRAIT_FLIPPED"></a><a id="orientation_preference_portrait_flipped"></a><dl>
-<dt><b>ORIENTATION_PREFERENCE_PORTRAIT_FLIPPED</b></dt>
-<dt>0x8</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies that the display can be oriented in flipped portrait mode where the height of the display viewing area is greater than the width. This portrait mode is flipped 180 degrees from the <b>ORIENTATION_PREFERENCE_PORTRAIT</b> mode.
-
-
-</td>
-</tr>
-</table>
- 
+Pointer to a location in memory that will receive the current orientation preference setting for the calling process.
 
 
 ## -returns
 
 
 
-Type: <b>BOOL</b>
-
-If this function successfully retrieved the orientation preferences, the return value is nonzero.
-
-If the orientation preferences couldn't be retrieved, the return value is zero.
+TRUE if the method succeeds, otherwise FALSE.
 
 
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/95679AAC-9C04-4E21-BD34-A86F069B8AE3">SetDisplayAutoRotationPreferences</a>
- 
-
- 
 

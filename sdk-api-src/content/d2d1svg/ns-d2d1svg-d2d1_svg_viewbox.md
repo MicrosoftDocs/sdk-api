@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_svg_viewbox.htm
 tech.root: direct2d
 ms.assetid: 35D576E1-18E1-4A3B-A1E9-7A6A55AA2872
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_SVG_VIEWBOX, D2D1_SVG_VIEWBOX structure [Direct2D], d2d1svg/D2D1_SVG_VIEWBOX, direct2d.d2d1_svg_viewbox
 ms.prod: windows-hardware
 ms.technology: windows-devices

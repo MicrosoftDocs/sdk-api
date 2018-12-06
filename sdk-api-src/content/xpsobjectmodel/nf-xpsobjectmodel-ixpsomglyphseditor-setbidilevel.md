@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphseditor_setbidilevel.htm
 tech.root: printdocs
 ms.assetid: a8035863-d1ed-4215-add3-6e60cfca7f1c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetBidiLevel method, IXpsOMGlyphsEditor.SetBidiLevel, IXpsOMGlyphsEditor::SetBidiLevel, SetBidiLevel, SetBidiLevel method [XPS Documents and Packaging], SetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setbidilevel, xpsobjectmodel/IXpsOMGlyphsEditor::SetBidiLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

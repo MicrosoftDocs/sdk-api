@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservice_opendatasession.htm
 tech.root: mbn
 ms.assetid: A26EBECA-4390-4BB2-88CD-EE2356E44E3A
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],OpenDataSession method, IMbnDeviceService.OpenDataSession, IMbnDeviceService::OpenDataSession, OpenDataSession, OpenDataSession method [Microsoft Broadband Networks], OpenDataSession method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_opendatasession, mbnapi/IMbnDeviceService::OpenDataSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_pantilt.htm
 tech.root: DirectShow
 ms.assetid: d9aa052a-72f9-4a17-bebe-809f43264481
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],put_PanTilt method, ICameraControl.put_PanTilt, ICameraControl::put_PanTilt, ICameraControlput_PanTilt, dshow.icameracontrol_put_pantilt, put_PanTilt, put_PanTilt method [DirectShow], put_PanTilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PanTilt
 ms.prod: windows-hardware
 ms.technology: windows-devices

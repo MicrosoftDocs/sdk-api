@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_get_receivedpackets.htm
 tech.root: WMP
 ms.assetid: 9a896a67-ef0c-4fd7-b352-3c091bea1ad8
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_receivedPackets method, IWMPNetwork.get_receivedPackets, IWMPNetwork::get_receivedPackets, IWMPNetworkget_receivedPackets, get_receivedPackets, get_receivedPackets method [Windows Media Player], get_receivedPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_receivedpackets, wmp/IWMPNetwork::get_receivedPackets
 ms.prod: windows-hardware
 ms.technology: windows-devices

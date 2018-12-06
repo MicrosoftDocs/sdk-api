@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireplugin_processitem.htm
 tech.root: acquisition
 ms.assetid: f8a9144e-a728-48b7-a729-eec6d4db6d9e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],ProcessItem method, IPhotoAcquirePlugin.ProcessItem, IPhotoAcquirePlugin::ProcessItem, IPhotoAcquirePluginProcessItem, ProcessItem, ProcessItem method [Picture Acquisition], ProcessItem method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::ProcessItem, picacq.iphotoacquireplugin_processitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

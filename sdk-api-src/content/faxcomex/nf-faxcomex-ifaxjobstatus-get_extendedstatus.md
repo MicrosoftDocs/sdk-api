@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_extendedstatus_cpp.ht
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2fn7.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ExtendedStatus property [Fax Service], ExtendedStatus property [Fax Service],IFaxJobStatus interface, IFaxJobStatus interface [Fax Service],ExtendedStatus property, IFaxJobStatus.ExtendedStatus, IFaxJobStatus.get_ExtendedStatus, IFaxJobStatus::ExtendedStatus, IFaxJobStatus::get_ExtendedStatus, _mfax_faxjobstatus.extendedstatus, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_extendedstatus_cpp, fax._mfax_faxjobstatus_extendedstatus, faxcomex/IFaxJobStatus::ExtendedStatus, faxcomex/IFaxJobStatus::get_ExtendedStatus, get_ExtendedStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ad\idsadmincreateobj.htm
 tech.root: ad
 ms.assetid: 93673b29-744a-4100-86b7-8a2eec861c47
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDsAdminCreateObj, IDsAdminCreateObj interface [Active Directory], IDsAdminCreateObj interface [Active Directory],described, _glines_idsadmincreateobj, ad.idsadmincreateobj, dsadmin/IDsAdminCreateObj
 ms.prod: windows-hardware
 ms.technology: windows-devices

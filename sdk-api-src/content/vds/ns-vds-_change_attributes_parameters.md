@@ -7,7 +7,7 @@ old-location: base\change_attributes_parameters.htm
 tech.root: vds
 ms.assetid: 6ff3ea68-70dd-4ef1-9c31-1f8c1fcf5fca
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CHANGE_ATTRIBUTES_PARAMETERS, CHANGE_ATTRIBUTES_PARAMETERS structure [VDS], GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, _CHANGE_ATTRIBUTES_PARAMETERS, base.change_attributes_parameters, vds/CHANGE_ATTRIBUTES_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices

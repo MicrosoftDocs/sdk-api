@@ -7,7 +7,7 @@ old-location: winprog\processvdms.htm
 tech.root: devnotes
 ms.assetid: ba5ce19d-4f37-4764-9a76-0f1013f9ea0f
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: PROCESSENUMPROC, PROCESSENUMPROC callback, PROCESSENUMPROC callback function [Windows API], vdmdbg/PROCESSENUMPROC, winprog.processvdms
 ms.prod: windows-hardware
 ms.technology: windows-devices

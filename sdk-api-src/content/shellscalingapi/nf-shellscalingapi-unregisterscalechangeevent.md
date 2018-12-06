@@ -7,7 +7,7 @@ old-location: shell\UnregisterScaleChangeEvent.htm
 tech.root: shell
 ms.assetid: 4BF2F912-857A-4122-A9E1-6704F92240E6
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: UnregisterScaleChangeEvent, UnregisterScaleChangeEvent function [Windows Shell], shell.UnregisterScaleChangeEvent, shellscalingapi/UnregisterScaleChangeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

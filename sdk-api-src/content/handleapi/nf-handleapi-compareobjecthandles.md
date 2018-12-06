@@ -7,7 +7,7 @@ old-location: base\compareobjecthandles.htm
 tech.root: sysinfo
 ms.assetid: 06F22A46-0999-4622-8D62-23465C92A997
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CompareObjectHandles, CompareObjectHandles function, base.compareobjecthandles, handleapi/CompareObjectHandles
 ms.prod: windows-hardware
 ms.technology: windows-devices

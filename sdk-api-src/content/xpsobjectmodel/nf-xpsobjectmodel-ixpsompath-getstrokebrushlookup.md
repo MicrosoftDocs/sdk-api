@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getstrokebrushlookup.htm
 tech.root: printdocs
 ms.assetid: af70b6a3-203a-4189-b44d-763539e0302a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetStrokeBrushLookup, GetStrokeBrushLookup method [XPS Documents and Packaging], GetStrokeBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrushLookup method, IXpsOMPath.GetStrokeBrushLookup, IXpsOMPath::GetStrokeBrushLookup, xps.ixpsompath_getstrokebrushlookup, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices

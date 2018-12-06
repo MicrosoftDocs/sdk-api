@@ -7,7 +7,7 @@ old-location: controls\BeginPanningFeedback.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginpanningfeedback.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: BeginPanningFeedback, BeginPanningFeedback function [Windows Controls], _controls_BeginPanningFeedback, _controls_BeginPanningFeedback_cpp, controls.BeginPanningFeedback, controls._controls_BeginPanningFeedback, uxtheme/BeginPanningFeedback
 ms.prod: windows-hardware
 ms.technology: windows-devices

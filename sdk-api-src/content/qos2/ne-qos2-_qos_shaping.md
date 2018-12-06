@@ -7,7 +7,7 @@ old-location: qos\qos_shaping.htm
 tech.root: QOS
 ms.assetid: 8cd40e29-3af4-440c-8c44-3aeb5291e9c9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PQOS_SHAPING, PQOS_SHAPING, PQOS_SHAPING enumeration pointer [QOS], QOSShapeAndMark, QOSShapeOnly, QOSUseNonConformantMarkings, QOS_SHAPING, QOS_SHAPING enumeration [QOS], _QOS_SHAPING, qos.qos_shaping, qos2/PQOS_SHAPING, qos2/QOSShapeAndMark, qos2/QOSShapeOnly, qos2/QOSUseNonConformantMarkings, qos2/QOS_SHAPING"
 ms.prod: windows-hardware
 ms.technology: windows-devices

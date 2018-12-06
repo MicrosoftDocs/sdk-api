@@ -7,7 +7,7 @@ old-location: swdevice\swmemfree.htm
 tech.root: swdevice
 ms.assetid: DBA39124-D93A-4865-B4CB-B2FA66FBD417
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SwMemFree, SwMemFree function, swdevice.swmemfree, swdevice/SwMemFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

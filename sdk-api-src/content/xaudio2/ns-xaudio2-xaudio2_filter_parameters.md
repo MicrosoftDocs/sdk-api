@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_filter_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_FILTER_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: XAUDIO2_FILTER_PARAMETERS, XAUDIO2_FILTER_PARAMETERS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_filter_parameters, xaudio2/XAUDIO2_FILTER_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices

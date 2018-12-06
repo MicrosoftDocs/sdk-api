@@ -7,7 +7,7 @@ old-location: wsw\ws_async_operation.htm
 tech.root: wsw
 ms.assetid: 7a6311f0-4beb-4827-b754-68ef4bde093c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_ASYNC_OPERATION, WS_ASYNC_OPERATION structure [Web Services for Windows], _WS_ASYNC_OPERATION, webservices/WS_ASYNC_OPERATION, wsw.ws_async_operation
 ms.prod: windows-hardware
 ms.technology: windows-devices

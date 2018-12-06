@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationprimitiveinterpolation_addcubic.htm
 tech.root: UIAnimation
 ms.assetid: 98738F6A-364E-491F-BCA3-F8B74B036D89
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddCubic, AddCubic method [Windows Animation], AddCubic method [Windows Animation],IUIAnimationPrimitiveInterpolation interface, IUIAnimationPrimitiveInterpolation interface [Windows Animation],AddCubic method, IUIAnimationPrimitiveInterpolation.AddCubic, IUIAnimationPrimitiveInterpolation::AddCubic, uianimation.iuianimationprimitiveinterpolation_addcubic, uianimation/IUIAnimationPrimitiveInterpolation::AddCubic
 ms.prod: windows-hardware
 ms.technology: windows-devices

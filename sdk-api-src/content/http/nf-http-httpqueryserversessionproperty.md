@@ -7,7 +7,7 @@ old-location: http\httpqueryserversessionproperty.htm
 tech.root: http
 ms.assetid: 653b286b-dc86-4896-8f03-1628b7178680
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: HttpQueryServerSessionProperty, HttpQueryServerSessionProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryserversessionproperty, http/HttpQueryServerSessionProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

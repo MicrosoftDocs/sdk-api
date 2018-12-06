@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_getpolicyserverurl.htm
 tech.root: seccertenroll
 ms.assetid: 34fb1430-afde-43f2-a425-dcb25c9ea58d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetPolicyServerUrl, GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetPolicyServerUrl method, IX509EnrollmentPolicyServer.GetPolicyServerUrl, IX509EnrollmentPolicyServer::GetPolicyServerUrl, certenroll/IX509EnrollmentPolicyServer::GetPolicyServerUrl, security.ix509enrollmentpolicyserver_getpolicyserverurl
 ms.prod: windows-hardware
 ms.technology: windows-devices

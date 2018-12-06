@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_get_currentwritespeed.htm
 tech.root: imapi
 ms.assetid: 8236dc3f-fe94-4dd5-908b-36ed74943ad4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_CurrentWriteSpeed method, IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed, IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed, get_CurrentWriteSpeed, get_CurrentWriteSpeed method [IMAPI], get_CurrentWriteSpeed method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_currentwritespeed, imapi2/IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices

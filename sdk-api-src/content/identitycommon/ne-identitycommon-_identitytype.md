@@ -7,7 +7,7 @@ old-location: security\identity_type.htm
 tech.root: secauthn
 ms.assetid: b15fadf6-5331-4c66-9a6b-0cfdef2ca867
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDENTITIES_ALL, IDENTITIES_ME_ONLY, IDENTITY_TYPE, IDENTITY_TYPE enumeration [Security], _IdentityType, identitycommon/IDENTITIES_ALL, identitycommon/IDENTITIES_ME_ONLY, identitycommon/IDENTITY_TYPE, security.identity_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\getbitmapdimensionex.htm
 tech.root: gdi
 ms.assetid: 3e4f5afc-26d3-4fb2-8d00-183165fdf471
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetBitmapDimensionEx, GetBitmapDimensionEx function [Windows GDI], _win32_GetBitmapDimensionEx, gdi.getbitmapdimensionex, wingdi/GetBitmapDimensionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

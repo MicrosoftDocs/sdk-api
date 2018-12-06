@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer4_get_isremote.htm
 tech.root: WMP
 ms.assetid: 0b4f76f2-f62a-4c91-bbc4-166c450608dd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],get_isRemote method, IWMPPlayer4.get_isRemote, IWMPPlayer4::get_isRemote, IWMPPlayer4get_isRemote, get_isRemote, get_isRemote method [Windows Media Player], get_isRemote method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_get_isremote, wmp/IWMPPlayer4::get_isRemote
 ms.prod: windows-hardware
 ms.technology: windows-devices

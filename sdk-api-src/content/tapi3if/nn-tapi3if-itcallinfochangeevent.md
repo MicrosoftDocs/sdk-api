@@ -7,7 +7,7 @@ old-location: tapi3\itcallinfochangeevent.htm
 tech.root: tapi
 ms.assetid: f543da95-c0cc-4631-b91e-ba02dde2c081
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITCallInfoChangeEvent, ITCallInfoChangeEvent interface [TAPI 2.2], ITCallInfoChangeEvent interface [TAPI 2.2],described, _tapi3_itcallinfochangeevent, tapi3.itcallinfochangeevent, tapi3if/ITCallInfoChangeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsync\iproviderconverter.htm
 tech.root: winsync
 ms.assetid: 67dc6290-00e8-457a-97be-efe8e731619d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IProviderConverter, IProviderConverter interface [Windows Sync], IProviderConverter interface [Windows Sync],described, winsync.iproviderconverter, winsync/IProviderConverter
 ms.prod: windows-hardware
 ms.technology: windows-devices

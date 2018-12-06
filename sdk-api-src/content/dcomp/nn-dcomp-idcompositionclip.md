@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionclip.htm
 tech.root: directcomp
 ms.assetid: 647638f4-7eca-42bc-a083-3d9d15089648
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionClip, IDCompositionClip interface [DirectComposition], IDCompositionClip interface [DirectComposition],described, dcomp/IDCompositionClip, directcomp.idcompositionclip
 ms.prod: windows-hardware
 ms.technology: windows-devices

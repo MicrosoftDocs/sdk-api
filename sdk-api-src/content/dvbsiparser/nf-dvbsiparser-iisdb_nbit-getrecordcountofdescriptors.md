@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: 2f4f5b5a-f03a-4b90-aa7c-2552841ba165
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IISDB_NBIT.GetRecordCountOfDescriptors, IISDB_NBIT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_NBIT::GetRecordCountOfDescriptors, mstv.iisdb_nbit_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

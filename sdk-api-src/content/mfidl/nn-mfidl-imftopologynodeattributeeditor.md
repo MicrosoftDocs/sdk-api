@@ -7,7 +7,7 @@ old-location: mf\imftopologynodeattributeeditor.htm
 tech.root: medfound
 ms.assetid: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9, IMFTopologyNodeAttributeEditor, IMFTopologyNodeAttributeEditor interface [Media Foundation], IMFTopologyNodeAttributeEditor interface [Media Foundation],described, mf.imftopologynodeattributeeditor, mfidl/IMFTopologyNodeAttributeEditor
 ms.prod: windows-hardware
 ms.technology: windows-devices

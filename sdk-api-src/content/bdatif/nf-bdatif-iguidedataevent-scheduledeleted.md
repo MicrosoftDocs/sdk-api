@@ -7,7 +7,7 @@ old-location: mstv\iguidedataevent_scheduledeleted.htm
 tech.root: mstv
 ms.assetid: 302c068e-4fab-4045-be9b-664902afd44c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ScheduleDeleted method, IGuideDataEvent.ScheduleDeleted, IGuideDataEvent::ScheduleDeleted, IGuideDataEventScheduleDeleted, ScheduleDeleted, ScheduleDeleted method [Microsoft TV Technologies], ScheduleDeleted method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ScheduleDeleted, mstv.iguidedataevent_scheduledeleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

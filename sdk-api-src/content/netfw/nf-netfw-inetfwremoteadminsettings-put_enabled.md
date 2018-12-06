@@ -7,7 +7,7 @@ old-location: ics\inetfwremoteadminsettings_enabled.htm
 tech.root: ics
 ms.assetid: 3f8affb4-0f71-4687-836b-f4fc484a258d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwRemoteAdminSettings interface, INetFwRemoteAdminSettings interface [ICS/ICF],Enabled property, INetFwRemoteAdminSettings.Enabled, INetFwRemoteAdminSettings.put_Enabled, INetFwRemoteAdminSettings::Enabled, INetFwRemoteAdminSettings::get_Enabled, INetFwRemoteAdminSettings::put_Enabled, ics.inetfwremoteadminsettings_enabled, netfw/INetFwRemoteAdminSettings::Enabled, netfw/INetFwRemoteAdminSettings::get_Enabled, netfw/INetFwRemoteAdminSettings::put_Enabled, put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

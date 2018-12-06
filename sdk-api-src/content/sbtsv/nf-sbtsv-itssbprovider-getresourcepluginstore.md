@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_getresourcepluginstore.htm
 tech.root: termserv
 ms.assetid: 9e4d5b1d-100e-49e1-b1b5-4b126683c329
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetResourcePluginStore, GetResourcePluginStore method [Remote Desktop Services], GetResourcePluginStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetResourcePluginStore method, ITsSbProvider.GetResourcePluginStore, ITsSbProvider::GetResourcePluginStore, sbtsv/ITsSbProvider::GetResourcePluginStore, termserv.itssbprovider_getresourcepluginstore
 ms.prod: windows-hardware
 ms.technology: windows-devices

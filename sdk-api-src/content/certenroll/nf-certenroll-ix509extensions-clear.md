@@ -7,7 +7,7 @@ old-location: security\ix509extensions_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: a985521d-7fcc-49e6-b625-4038939da2ca
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509Extensions interface, IX509Extensions interface [Security],Clear method, IX509Extensions.Clear, IX509Extensions::Clear, certenroll/IX509Extensions::Clear, security.ix509extensions_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\iswindowsxpsp3orgreater.htm
 tech.root: sysinfo
 ms.assetid: 06DC8FF0-8652-4652-855F-600AC53C6301
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IsWindowsXPSP3OrGreater, IsWindowsXPSP3OrGreater function, base.iswindowsxpsp3orgreater, versionhelpers/IsWindowsXPSP3OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices

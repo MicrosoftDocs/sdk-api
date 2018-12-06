@@ -7,7 +7,7 @@ old-location: mstv\imsvidgenericsink2.htm
 tech.root: mstv
 ms.assetid: 01acd28b-a17a-413a-ab43-9656e3ab7f60
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidGenericSink2, IMSVidGenericSink2 interface [Microsoft TV Technologies], IMSVidGenericSink2 interface [Microsoft TV Technologies],described, IMSVidGenericSink2Interface, mstv.imsvidgenericsink2, segment/IMSVidGenericSink2
 ms.prod: windows-hardware
 ms.technology: windows-devices

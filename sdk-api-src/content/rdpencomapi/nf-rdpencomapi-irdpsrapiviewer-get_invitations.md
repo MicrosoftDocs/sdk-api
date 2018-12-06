@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiviewer_invitations.htm
 tech.root: rdp
 ms.assetid: 2657e79a-de3a-44e1-90af-81242ac123f6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],Invitations property, IRDPSRAPIViewer.Invitations, IRDPSRAPIViewer.get_Invitations, IRDPSRAPIViewer::Invitations, IRDPSRAPIViewer::get_Invitations, Invitations property [RDP], Invitations property [RDP],IRDPSRAPIViewer interface, Invitations property [RDP],RDPViewer object, RDPViewer object [RDP],Invitations property, get_Invitations, rdp.irdpsrapiviewer_invitations, rdpencomapi/IRDPSRAPIViewer::Invitations, rdpencomapi/IRDPSRAPIViewer::get_Invitations
 ms.prod: windows-hardware
 ms.technology: windows-devices

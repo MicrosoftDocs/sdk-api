@@ -7,7 +7,7 @@ old-location: mstv\sbe_pin_data.htm
 tech.root: mstv
 ms.assetid: 727aa921-5156-4b7a-a184-b0744acfa6fb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SBE_PIN_DATA, SBE_PIN_DATA structure [Microsoft TV Technologies], SBE_PIN_DATAStructure, mstv.sbe_pin_data, sbe/SBE_PIN_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

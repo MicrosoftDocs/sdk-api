@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getpointarray.htm
 tech.root: WinRT
 ms.assetid: 7df4ad4e-3ca6-4956-b907-02c2cb6e481b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetPointArray, GetPointArray method [Windows Runtime], GetPointArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetPointArray method, IPropertyValue.GetPointArray, IPropertyValue.IPropertyValue, IPropertyValue::GetPointArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetPointArray, winrt.ipropertyvalue_getpointarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- windows.foundation.h
-: 
-- IPropertyValue.GetPointArray
-: 
 ---
 
 # IPropertyValue::IPropertyValue

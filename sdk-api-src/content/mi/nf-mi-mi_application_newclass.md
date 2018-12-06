@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application_newclass.htm
 tech.root: wmi_v2
 ms.assetid: f325532e-8e29-40d4-ab7f-52f318ae9349
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Application_NewClass, MI_Application_NewClass function [Windows Management Infrastructure (MI)], mi/MI_Application_NewClass, wmi_v2.mi_application_newclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MI_Application_NewClass
-: 
 ---
 
 # MI_Application_NewClass function

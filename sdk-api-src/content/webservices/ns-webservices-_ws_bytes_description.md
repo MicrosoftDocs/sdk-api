@@ -7,7 +7,7 @@ old-location: wsw\ws_bytes_description.htm
 tech.root: wsw
 ms.assetid: 0c5384f9-0f6c-4523-bacb-ec3dd7321648
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_BYTES_DESCRIPTION, WS_BYTES_DESCRIPTION structure [Web Services for Windows], _WS_BYTES_DESCRIPTION, webservices/WS_BYTES_DESCRIPTION, wsw.ws_bytes_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

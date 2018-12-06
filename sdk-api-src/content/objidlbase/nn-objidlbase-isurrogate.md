@@ -7,7 +7,7 @@ old-location: com\isurrogate.htm
 tech.root: com
 ms.assetid: fbed0514-3646-4744-aa7a-4a98f1a12cc0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ISurrogate, ISurrogate interface [COM], ISurrogate interface [COM],described, _com_isurrogate, com.isurrogate, objidlbase/ISurrogate
 ms.prod: windows-hardware
 ms.technology: windows-devices

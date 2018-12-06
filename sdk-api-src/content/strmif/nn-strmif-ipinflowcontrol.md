@@ -7,7 +7,7 @@ old-location: dshow\ipinflowcontrol.htm
 tech.root: DirectShow
 ms.assetid: 27e607d9-85f0-4e17-b8e7-6df729288acd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IPinFlowControl, IPinFlowControl interface [DirectShow], IPinFlowControl interface [DirectShow],described, IPinFlowControlInterface, dshow.ipinflowcontrol, strmif/IPinFlowControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

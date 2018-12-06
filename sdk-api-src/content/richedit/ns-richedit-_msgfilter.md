@@ -7,7 +7,7 @@ old-location: controls\MSGFILTER.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\msgfilter.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: MSGFILTER, MSGFILTER structure [Windows Controls], _msgfilter, _win32_MSGFILTER_str, _win32_MSGFILTER_str_cpp, controls.MSGFILTER, controls._win32_MSGFILTER_str, richedit/MSGFILTER
 ms.prod: windows-hardware
 ms.technology: windows-devices

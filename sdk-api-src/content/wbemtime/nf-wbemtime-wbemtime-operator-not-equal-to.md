@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_comparison_operators_notequal.htm
 tech.root: WmiSdk
 ms.assetid: 9fdd37ed-a6b3-4cc0-8e0b-684265647051
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator!= method, WBEMTime.operator!=, WBEMTime.operator-not-equal-to, WBEMTime::operator!=, WBEMTime::operator-not-equal-to, operator!=, operator!= method [Windows Management Instrumentation], operator!= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator!=, wmi.wbemtime_comparison_operators_notequal
 ms.prod: windows-hardware
 ms.technology: windows-devices

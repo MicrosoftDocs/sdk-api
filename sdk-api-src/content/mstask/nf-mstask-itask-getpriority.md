@@ -7,7 +7,7 @@ old-location: taskschd\itask_getpriority.htm
 tech.root: taskschd
 ms.assetid: 4ace8ab8-e629-4cf9-9bdf-416b2f67c4cd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetPriority, GetPriority method [Task Scheduler], GetPriority method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetPriority method, ITask.GetPriority, ITask::GetPriority, _msb_itask_getpriority, mstask/ITask::GetPriority, taskschd.itask_getpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

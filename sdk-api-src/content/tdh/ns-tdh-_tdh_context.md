@@ -7,7 +7,7 @@ old-location: etw\tdh_context_struct.htm
 tech.root: etw
 ms.assetid: 184df0af-3ac5-406f-a298-4f23826ad85e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTDH_CONTEXT, TDH_CONTEXT, TDH_CONTEXT structure [ETW], _TDH_CONTEXT, etw.tdh_context_struct, tdh.tdh_context_struct, tdh/TDH_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

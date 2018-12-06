@@ -7,7 +7,7 @@ old-location: fs\mft_enum_data_v1.htm
 tech.root: fileio
 ms.assetid: 6d7b50e3-60cf-4eaf-9d22-fbb20c7e0bba
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMFT_ENUM_DATA, *PMFT_ENUM_DATA_V1, MFT_ENUM_DATA, MFT_ENUM_DATA_V1, MFT_ENUM_DATA_V1 structure [Files], PMFT_ENUM_DATA_V1, PMFT_ENUM_DATA_V1 structure pointer [Files], fs.mft_enum_data_v1, winioctl/MFT_ENUM_DATA_V1, winioctl/PMFT_ENUM_DATA_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

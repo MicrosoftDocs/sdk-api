@@ -7,7 +7,7 @@ old-location: mmc\mmc_snapin_property.htm
 tech.root: mmc
 ms.assetid: 0815d6a0-ddc2-43d1-aafd-5a05352557fc
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: MMC_SNAPIN_PROPERTY, MMC_SNAPIN_PROPERTY structure [MMC], _MMC_SNAPIN_PROPERTY, _slate_mmc_snapin_property, mmc.mmc_snapin_property, mmcobj/MMC_SNAPIN_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

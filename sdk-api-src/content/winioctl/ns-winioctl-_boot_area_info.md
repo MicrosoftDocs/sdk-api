@@ -7,7 +7,7 @@ old-location: fs\boot_area_info.htm
 tech.root: fileio
 ms.assetid: e6ec156d-6a20-4b00-89fb-a27421fffbc0
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PBOOT_AREA_INFO, BOOT_AREA_INFO, BOOT_AREA_INFO structure [Files], PBOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Files], _BOOT_AREA_INFO, fs.boot_area_info, winioctl/BOOT_AREA_INFO, winioctl/PBOOT_AREA_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

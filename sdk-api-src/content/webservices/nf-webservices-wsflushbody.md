@@ -7,7 +7,7 @@ old-location: wsw\wsflushbody.htm
 tech.root: wsw
 ms.assetid: f94c409b-94c0-4440-8587-74322777261f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsFlushBody, WsFlushBody function [Web Services for Windows], webservices/WsFlushBody, wsw.wsflushbody
 ms.prod: windows-hardware
 ms.technology: windows-devices

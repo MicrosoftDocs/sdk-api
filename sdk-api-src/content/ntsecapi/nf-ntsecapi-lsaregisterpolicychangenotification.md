@@ -7,7 +7,7 @@ old-location: security\lsaregisterpolicychangenotification.htm
 tech.root: secmgmt
 ms.assetid: 0c713d2b-e13a-44e0-8b48-68b233d1c562
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: LsaRegisterPolicyChangeNotification, LsaRegisterPolicyChangeNotification function [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyServerRoleInformation, _lsa_lsaregisterpolicychangenotification, ntsecapi/LsaRegisterPolicyChangeNotification, security.lsaregisterpolicychangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

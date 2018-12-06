@@ -7,7 +7,7 @@ old-location: base\ivssasync.htm
 tech.root: vss
 ms.assetid: d2cff547-b4ff-454d-8e0e-cd29b91cbb07
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssAsync, IVssAsync interface [VSS], IVssAsync interface [VSS],described, _win32_ivssasync, base.ivssasync, vss/IVssAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

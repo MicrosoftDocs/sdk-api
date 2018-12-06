@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepairs__newenum_property.htm
 tech.root: seccertenroll
 ms.assetid: e66b2278-5cfd-456e-8122-2e1fa8351b15
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IX509NameValuePairs interface [Security],_NewEnum property, IX509NameValuePairs._NewEnum, IX509NameValuePairs.get__NewEnum, IX509NameValuePairs::_NewEnum, IX509NameValuePairs::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509NameValuePairs interface, certenroll/IX509NameValuePairs::_NewEnum, certenroll/IX509NameValuePairs::get__NewEnum, get__NewEnum, security.ix509namevaluepairs__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

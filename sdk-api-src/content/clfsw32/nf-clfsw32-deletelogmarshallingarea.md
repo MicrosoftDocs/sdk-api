@@ -7,7 +7,7 @@ old-location: fs\deletelogmarshallingarea.htm
 tech.root: Clfs
 ms.assetid: d58bd64f-fa76-4ab3-9660-e31e9029171c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteLogMarshallingArea, DeleteLogMarshallingArea function [Files], clfsw32/DeleteLogMarshallingArea, fs.deletelogmarshalingarea, fs.deletelogmarshallingarea
 ms.prod: windows-hardware
 ms.technology: windows-devices

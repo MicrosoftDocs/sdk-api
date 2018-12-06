@@ -7,7 +7,7 @@ old-location: rras\rasfreebuffer.htm
 tech.root: rras
 ms.assetid: aba43ef9-7f62-48ab-a790-c8592a57f2c2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PFNRASFREEBUFFER, PFNRASFREEBUFFER callback, RasFreeBuffer, RasFreeBuffer callback function [RAS], _ras_rasfreebuffer, ras/RasFreeBuffer, rras.rasfreebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

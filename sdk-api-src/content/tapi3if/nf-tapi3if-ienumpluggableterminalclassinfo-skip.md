@@ -7,7 +7,7 @@ old-location: tapi3\ienumpluggableterminalclassinfo_skip.htm
 tech.root: tapi
 ms.assetid: 19880df4-7c1c-4840-a1c9-c51f2e9fd0fc
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Skip method, IEnumPluggableTerminalClassInfo.Skip, IEnumPluggableTerminalClassInfo::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, _tapi3_ienumpluggableterminalclassinfo_skip, tapi3.ienumpluggableterminalclassinfo_skip, tapi3if/IEnumPluggableTerminalClassInfo::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

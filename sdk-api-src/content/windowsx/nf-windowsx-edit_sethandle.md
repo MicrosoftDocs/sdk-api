@@ -7,7 +7,7 @@ old-location: controls\Edit_SetHandle.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_sethandle.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: Edit_SetHandle, Edit_SetHandle macro [Windows Controls], _win32_Edit_SetHandle, _win32_Edit_SetHandle_cpp, controls.Edit_SetHandle, controls._win32_Edit_SetHandle, windowsx/Edit_SetHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

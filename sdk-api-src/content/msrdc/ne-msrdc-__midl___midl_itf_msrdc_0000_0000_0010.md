@@ -7,7 +7,7 @@ old-location: rdc\rdcmappingaccessmode.htm
 tech.root: rdc
 ms.assetid: 570fe290-1209-4bae-a56c-f6f663e53f87
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RDCMAPPING_ReadOnly, RDCMAPPING_ReadWrite, RDCMAPPING_Undefined, RdcMappingAccessMode, RdcMappingAccessMode enumeration [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0010, fs.rdcmappingaccessmode, msrdc/RDCMAPPING_ReadOnly, msrdc/RDCMAPPING_ReadWrite, msrdc/RDCMAPPING_Undefined, msrdc/RdcMappingAccessMode, rdc.rdcmappingaccessmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

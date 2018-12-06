@@ -7,7 +7,7 @@ old-location: termserv\itssborchestrationnotifysink_onreadytoconnect.htm
 tech.root: termserv
 ms.assetid: 781cb67c-75bb-4d3c-8b86-fddbe9511255
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITsSbOrchestrationNotifySink interface [Remote Desktop Services],OnReadyToConnect method, ITsSbOrchestrationNotifySink.OnReadyToConnect, ITsSbOrchestrationNotifySink::OnReadyToConnect, OnReadyToConnect, OnReadyToConnect method [Remote Desktop Services], OnReadyToConnect method [Remote Desktop Services],ITsSbOrchestrationNotifySink interface, sbtsv/ITsSbOrchestrationNotifySink::OnReadyToConnect, termserv.itssborchestrationnotifysink_onreadytoconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

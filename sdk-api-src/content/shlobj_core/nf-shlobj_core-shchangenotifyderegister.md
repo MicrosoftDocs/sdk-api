@@ -7,7 +7,7 @@ old-location: shell\SHChangeNotifyDeregister.htm
 tech.root: shell
 ms.assetid: fad021dc-8199-4384-b623-c98bc618799f
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: NTSHChangeNotifyDeregister, SHChangeNotifyDeregister, SHChangeNotifyDeregister function [Windows Shell], _win32_SHChangeNotifyDeregister, shell.SHChangeNotifyDeregister, shlobj_core/NTSHChangeNotifyDeregister, shlobj_core/SHChangeNotifyDeregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_hdr_metadata_type.htm
 tech.root: direct3ddxgi
 ms.assetid: EFDFEB2E-8631-4BD6-ADA1-D415B70CCBCD
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DXGI_HDR_METADATA_TYPE, DXGI_HDR_METADATA_TYPE enumeration [DXGI], DXGI_HDR_METADATA_TYPE_HDR10, DXGI_HDR_METADATA_TYPE_NONE, direct3ddxgi.dxgi_hdr_metadata_type, dxgi1_5/DXGI_HDR_METADATA_TYPE, dxgi1_5/DXGI_HDR_METADATA_TYPE_HDR10, dxgi1_5/DXGI_HDR_METADATA_TYPE_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices

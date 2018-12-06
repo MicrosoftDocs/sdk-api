@@ -7,7 +7,7 @@ old-location: security\crypt_enum_oid_info.htm
 tech.root: seccrypto
 ms.assetid: 30ae4274-631d-4c6a-96c5-18f096607cad
 ms.author: windowssdkdev
-ms.date: 12/04/2018
+ms.date: 12/5/2018
 ms.keywords: CRYPT_ENUM_OID_INFO, CRYPT_ENUM_OID_INFO callback function [Security], PFN_CRYPT_ENUM_OID_INFO, PFN_CRYPT_ENUM_OID_INFO callback, security.crypt_enum_oid_info, wincrypt/CRYPT_ENUM_OID_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

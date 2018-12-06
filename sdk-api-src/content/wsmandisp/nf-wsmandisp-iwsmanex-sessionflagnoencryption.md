@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_sessionflagnoencryption.htm
 tech.root: winrm
 ms.assetid: ec96e873-ecb6-4d89-ada3-41c889544091
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagNoEncryption method, IWSManEx.SessionFlagNoEncryption, IWSManEx::SessionFlagNoEncryption, SessionFlagNoEncryption, SessionFlagNoEncryption method [Windows Remote Management], SessionFlagNoEncryption method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagnoencryption, wsmandisp/IWSManEx::SessionFlagNoEncryption
 ms.prod: windows-hardware
 ms.technology: windows-devices

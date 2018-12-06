@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_pipeline_state_stream_desc.htm
 tech.root: direct3d12
 ms.assetid: 2CC9051B-09B1-49F5-9392-3E0AE3AB1277
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_PIPELINE_STATE_STREAM_DESC, D3D12_PIPELINE_STATE_STREAM_DESC structure, d3d12/D3D12_PIPELINE_STATE_STREAM_DESC, direct3d12.d3d12_pipeline_state_stream_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

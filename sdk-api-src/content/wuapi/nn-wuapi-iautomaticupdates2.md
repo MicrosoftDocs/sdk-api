@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdates2.htm
 tech.root: wua_sdk
 ms.assetid: 9cb09bb2-5532-446b-9441-0987d50c6228
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAutomaticUpdates2, IAutomaticUpdates2 interface [Windows Update Agent], IAutomaticUpdates2 interface [Windows Update Agent],described, wua.iautomaticupdates2, wuapi/IAutomaticUpdates2
 ms.prod: windows-hardware
 ms.technology: windows-devices

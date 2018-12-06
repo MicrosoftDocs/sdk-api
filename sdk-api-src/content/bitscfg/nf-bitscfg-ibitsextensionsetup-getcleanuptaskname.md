@@ -7,7 +7,7 @@ old-location: bits\ibitsextensionsetup_getcleanuptaskname.htm
 tech.root: bits
 ms.assetid: edca833f-16ec-40c7-a3d8-f893a635b8e2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetCleanupTaskName, GetCleanupTaskName method [BITS], GetCleanupTaskName method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],GetCleanupTaskName method, IBITSExtensionSetup.GetCleanupTaskName, IBITSExtensionSetup::GetCleanupTaskName, _drz_ibitsextensionsetup_getcleanuptaskname, bits.ibitsextensionsetup_getcleanuptaskname, bitscfg/IBITSExtensionSetup::GetCleanupTaskName
 ms.prod: windows-hardware
 ms.technology: windows-devices

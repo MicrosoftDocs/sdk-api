@@ -7,7 +7,7 @@ old-location: taskschd\itaskfolder.htm
 tech.root: taskschd
 ms.assetid: da0cc808-b284-4d10-be61-d96c5e07d0a8
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskFolder, ITaskFolder interface [Task Scheduler], ITaskFolder interface [Task Scheduler],described, taskschd.itaskfolder, taskschd/ITaskFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

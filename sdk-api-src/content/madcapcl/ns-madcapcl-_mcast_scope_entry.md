@@ -7,7 +7,7 @@ old-location: madcap\mcast_scope_entry.htm
 tech.root: Madcap
 ms.assetid: d275e78b-ddf3-4f92-a76f-463aec2f6c95
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY structure [MADCAP], PMCAST_SCOPE_ENTRY, PMCAST_SCOPE_ENTRY structure pointer [MADCAP], _MCAST_SCOPE_ENTRY, _mdhcp_mcast_scope_entry, madcap.mcast_scope_entry, madcapcl/MCAST_SCOPE_ENTRY, madcapcl/PMCAST_SCOPE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

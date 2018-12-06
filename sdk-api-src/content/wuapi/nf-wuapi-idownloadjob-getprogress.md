@@ -7,7 +7,7 @@ old-location: wua\idownloadjob_getprogress.htm
 tech.root: wua_sdk
 ms.assetid: e87c85cf-0011-4edb-a409-0b4db3292caf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetProgress, GetProgress method [Windows Update Agent], GetProgress method [Windows Update Agent],IDownloadJob interface, IDownloadJob interface [Windows Update Agent],GetProgress method, IDownloadJob.GetProgress, IDownloadJob::GetProgress, wua.idownloadjob_getprogress, wuapi/IDownloadJob::GetProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

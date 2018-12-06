@@ -1,13 +1,13 @@
 ---
 UID: NS:winsock.sockaddr
-title: sockaddr
+title: SOCKADDR
 author: windows-sdk-content
 description: The sockaddr structure varies depending on the protocol selected.
 old-location: winsock\sockaddr_2.htm
 tech.root: winsock
 ms.assetid: d1392e1c-2b20-425a-8adf-38e665fb6275
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSOCKADDR, *PSOCKADDR, SOCKADDR, SOCKADDR_IN, SOCKADDR_IN6, _win32_sockaddr_2, sockaddr, sockaddr structure [Winsock], sockaddr_in, sockaddr_in6, sockaddr_in6_old, winsock.sockaddr_2, winsock/sockaddr"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.typenames: SOCKADDR, *PSOCKADDR, *LPSOCKADDR
 req.redist: 
 ---
 
-# sockaddr structure
+# SOCKADDR structure
 
 
 ## -description

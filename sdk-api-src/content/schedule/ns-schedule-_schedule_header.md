@@ -7,7 +7,7 @@ old-location: ad\schedule_header.htm
 tech.root: ad
 ms.assetid: 5453927e-306e-4442-a855-916005dc8e3b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSCHEDULE_HEADER, PSCHEDULE_HEADER, PSCHEDULE_HEADER structure pointer [Active Directory], SCHEDULE_BANDWIDTH, SCHEDULE_HEADER, SCHEDULE_HEADER structure [Active Directory], SCHEDULE_INTERVAL, SCHEDULE_PRIORITY, _SCHEDULE_HEADER, ad.schedule_header, schedule/PSCHEDULE_HEADER, schedule/SCHEDULE_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

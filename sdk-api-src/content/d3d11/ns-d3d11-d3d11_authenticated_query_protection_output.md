@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_query_protection_output.htm
 tech.root: medfound
 ms.assetid: F70D5AFC-06A6-408D-A951-1280FBBF8E89
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT, D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_PROTECTION_OUTPUT, mf.d3d11_authenticated_query_protection_output
 ms.prod: windows-hardware
 ms.technology: windows-devices

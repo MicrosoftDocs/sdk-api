@@ -7,7 +7,7 @@ old-location: cmpapi\resetdecompressor.htm
 tech.root: cmpapi
 ms.assetid: 45243dac-bf07-4fee-aaf3-1482f4f009d9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ResetDecompressor, ResetDecompressor function [Compression API], cmpapi.resetdecompressor, compressapi/ResetDecompressor
 ms.prod: windows-hardware
 ms.technology: windows-devices

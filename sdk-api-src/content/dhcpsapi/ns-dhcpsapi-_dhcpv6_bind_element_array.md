@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6_bind_element_array.htm
 tech.root: DHCP
 ms.assetid: b78ebdf8-da24-418c-8fe8-aed3047dfdf3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BIND_ELEMENT_ARRAY structure [DHCP], PDHCPV6_BIND_ELEMENT_ARRAY, PDHCPV6_BIND_ELEMENT_ARRAY structure pointer [DHCP], _DHCPV6_BIND_ELEMENT_ARRAY, dhcp.dhcpv6_bind_element_array, dhcpsapi/DHCPV6_BIND_ELEMENT_ARRAY, dhcpsapi/PDHCPV6_BIND_ELEMENT_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

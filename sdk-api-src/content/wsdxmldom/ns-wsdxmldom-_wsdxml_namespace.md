@@ -7,7 +7,7 @@ old-location: ncd\wsdxml_namespace_struct.htm
 tech.root: wsdapi
 ms.assetid: dcf27f38-e628-4b0c-859c-ad12d3ed0924
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WSDXML_NAMESPACE, WSDXML_NAMESPACE structure, _WSDXML_NAMESPACE, ncd.wsdxml_namespace_struct, wsdxmldom/WSDXML_NAMESPACE
 ms.prod: windows-hardware
 ms.technology: windows-devices

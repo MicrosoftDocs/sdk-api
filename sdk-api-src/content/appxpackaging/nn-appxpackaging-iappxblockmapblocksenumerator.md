@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapblocksenumerator.htm
 tech.root: appxpkg
 ms.assetid: E7678755-4779-4A64-A666-C5FFC4A7F37A
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAppxBlockMapBlocksEnumerator, IAppxBlockMapBlocksEnumerator interface [App packaging and management], IAppxBlockMapBlocksEnumerator interface [App packaging and management],described, appxpackaging/IAppxBlockMapBlocksEnumerator, appxpkg.iappxblockmapblocksenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

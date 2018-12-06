@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationPropertyChangedEventHandler_HandleProp
 tech.root: WinAuto
 ms.assetid: 3b0bb9a0-b2a5-4843-9431-cc00e1836dd1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: HandlePropertyChangedEvent, HandlePropertyChangedEvent method [Windows Accessibility], HandlePropertyChangedEvent method [Windows Accessibility],IUIAutomationPropertyChangedEventHandler interface, IUIAutomationPropertyChangedEventHandler interface [Windows Accessibility],HandlePropertyChangedEvent method, IUIAutomationPropertyChangedEventHandler.HandlePropertyChangedEvent, IUIAutomationPropertyChangedEventHandler::HandlePropertyChangedEvent, uiauto.uiauto_IUIAutomationPropertyChangedEventHandler_HandlePropertyChangedEvent, uiauto_IUIAutomationPropertyChangedEventHandler_HandlePropertyChangedEvent, uiautomationclient/IUIAutomationPropertyChangedEventHandler::HandlePropertyChangedEvent, winauto.uiauto_IUIAutomationPropertyChangedEventHandler_HandlePropertyChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

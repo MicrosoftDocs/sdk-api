@@ -7,7 +7,7 @@ old-location: winsync\irecoverableerrordata_initialize.htm
 tech.root: winsync
 ms.assetid: df34b3ee-fc78-47ca-8916-ee4a81110628
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRecoverableErrorData interface [Windows Sync],Initialize method, IRecoverableErrorData.Initialize, IRecoverableErrorData::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IRecoverableErrorData interface, winsync.irecoverableerrordata_initialize, winsync/IRecoverableErrorData::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

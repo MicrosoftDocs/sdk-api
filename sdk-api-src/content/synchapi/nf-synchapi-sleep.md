@@ -7,7 +7,7 @@ old-location: base\sleep.htm
 tech.root: procthread
 ms.assetid: 934d37ea-402c-4118-bd7e-87b5fce80fca
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: Sleep, Sleep function, _win32_sleep, base.sleep, synchapi/Sleep, winbase/Sleep
 ms.prod: windows-hardware
 ms.technology: windows-devices

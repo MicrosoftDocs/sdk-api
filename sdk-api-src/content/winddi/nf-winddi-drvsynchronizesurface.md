@@ -7,7 +7,7 @@ old-location: display\drvsynchronizesurface.htm
 tech.root: display
 ms.assetid: 717e0738-71a0-45e1-a479-337fab2998ab
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: DrvSynchronizeSurface, DrvSynchronizeSurface function [Display Devices], ddifncs_ab69a2cb-5b19-4a94-a78e-2c21d2950ff8.xml, display.drvsynchronizesurface, winddi/DrvSynchronizeSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

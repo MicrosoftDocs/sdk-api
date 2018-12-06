@@ -7,7 +7,7 @@ old-location: http\winhttp_creds_ex.htm
 tech.root: WinHttp
 ms.assetid: e9a9e882-383c-4f4f-ae1e-3e9e7fa957ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWINHTTP_CREDS_EX, INHTTP_AUTH_SCHEME_DIGEST, PWINHTTP_CREDS_EX, PWINHTTP_CREDS_EX structure pointer [HTTP], WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_CREDS_EX, WINHTTP_CREDS_EX structure [HTTP], http.winhttp_creds_ex, tagWINHTTP_CREDS_EX, winhttp/PWINHTTP_CREDS_EX, winhttp/WINHTTP_CREDS_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IShellApp_GetPossibleActions.htm
 tech.root: shell
 ms.assetid: e2cdff59-1339-4d00-9bbc-e34e773da1c2
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetPossibleActions, GetPossibleActions method [Windows Shell], GetPossibleActions method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetPossibleActions method, IShellApp.GetPossibleActions, IShellApp::GetPossibleActions, inet_IShellApp_GetPossibleActions, shappmgr/IShellApp::GetPossibleActions, shell.IShellApp_GetPossibleActions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\access_denied_object_ace.htm
 tech.root: secauthz
 ms.assetid: 80e00c2b-7c31-428d-96c1-c4e3d22619f3
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PACCESS_DENIED_OBJECT_ACE, 0, ACCESS_DENIED_OBJECT_ACE, ACCESS_DENIED_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_DENIED_OBJECT_ACE, PACCESS_DENIED_OBJECT_ACE structure pointer [Security], _ACCESS_DENIED_OBJECT_ACE, _win32_access_denied_object_ace_str, security.access_denied_object_ace, winnt/ACCESS_DENIED_OBJECT_ACE, winnt/PACCESS_DENIED_OBJECT_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

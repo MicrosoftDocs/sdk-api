@@ -7,7 +7,7 @@ old-location: tapi3\ienumterminal_clone.htm
 tech.root: tapi
 ms.assetid: 019a8ff7-0238-4519-8912-caa78f059b56
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumTerminal interface, IEnumTerminal interface [TAPI 2.2],Clone method, IEnumTerminal.Clone, IEnumTerminal::Clone, _tapi3_ienumterminal_clone, tapi3.ienumterminal_clone, tapi3if/IEnumTerminal::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

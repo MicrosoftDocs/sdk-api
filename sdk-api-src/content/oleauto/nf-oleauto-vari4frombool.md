@@ -7,7 +7,7 @@ old-location: automat\vari4frombool.htm
 tech.root: automat
 ms.assetid: 992d1fcc-423f-4d6f-9004-561f55b5c799
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarI4FromBool, VarI4FromBool function [Automation], _oa96_VarI4FromBool, automat.vari4frombool, oleauto/VarI4FromBool
 ms.prod: windows-hardware
 ms.technology: windows-devices

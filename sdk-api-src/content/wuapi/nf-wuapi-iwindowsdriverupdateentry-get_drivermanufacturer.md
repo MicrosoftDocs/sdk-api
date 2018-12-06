@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdateentry_drivermanufacturer.htm
 tech.root: wua_sdk
 ms.assetid: 5f0a0afa-72fa-4e7a-9ae2-75004bf65e31
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DriverManufacturer property [Windows Update Agent], DriverManufacturer property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverManufacturer property, IWindowsDriverUpdateEntry.DriverManufacturer, IWindowsDriverUpdateEntry.get_DriverManufacturer, IWindowsDriverUpdateEntry::DriverManufacturer, IWindowsDriverUpdateEntry::get_DriverManufacturer, get_DriverManufacturer, wua.iwindowsdriverupdateentry_drivermanufacturer, wuapi/IWindowsDriverUpdateEntry::DriverManufacturer, wuapi/IWindowsDriverUpdateEntry::get_DriverManufacturer
 ms.prod: windows-hardware
 ms.technology: windows-devices

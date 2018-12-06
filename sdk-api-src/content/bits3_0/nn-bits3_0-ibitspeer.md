@@ -7,7 +7,7 @@ old-location: bits\ibitspeer.htm
 tech.root: bits
 ms.assetid: 617b88d4-6c3e-4c33-9bfa-6d9f6f629866
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IBitsPeer, IBitsPeer interface [BITS], IBitsPeer interface [BITS],described, bits.ibitspeer, bits3_0/IBitsPeer
 ms.prod: windows-hardware
 ms.technology: windows-devices

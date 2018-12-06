@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_flushpartitioncache.htm
 tech.root: cossdk
 ms.assetid: 8b5f6619-fbff-417d-b80a-a38532227059
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FlushPartitionCache, FlushPartitionCache method [COM+], FlushPartitionCache method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],FlushPartitionCache method, ICOMAdminCatalog2.FlushPartitionCache, ICOMAdminCatalog2::FlushPartitionCache, _cos_icomadmincatalog2_FlushPartitionCache, comadmin/ICOMAdminCatalog2::FlushPartitionCache, cos.icomadmincatalog2_flushpartitioncache
 ms.prod: windows-hardware
 ms.technology: windows-devices

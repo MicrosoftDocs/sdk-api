@@ -7,7 +7,7 @@ old-location: controls\ENCORRECTTEXT.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\encorrecttext.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ENCORRECTTEXT, ENCORRECTTEXT structure [Windows Controls], SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _encorrecttext, _win32_ENCORRECTTEXT_str, _win32_ENCORRECTTEXT_str_cpp, controls.ENCORRECTTEXT, controls._win32_ENCORRECTTEXT_str, richedit/ENCORRECTTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices

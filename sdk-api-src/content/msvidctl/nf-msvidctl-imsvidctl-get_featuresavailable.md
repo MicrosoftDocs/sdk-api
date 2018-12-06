@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_featuresavailable.htm
 tech.root: mstv
 ms.assetid: 73da686c-0c25-4dfb-8a13-681f1dac6a4a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_FeaturesAvailable method, IMSVidCtl.get_FeaturesAvailable, IMSVidCtl::get_FeaturesAvailable, IMSVidCtlget_FeaturesAvailable, get_FeaturesAvailable, get_FeaturesAvailable method [Microsoft TV Technologies], get_FeaturesAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_featuresavailable, msvidctl/IMSVidCtl::get_FeaturesAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

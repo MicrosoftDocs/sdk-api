@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_retries_c
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7dir.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Retries property, IFaxOutgoingMessage.Retries, IFaxOutgoingMessage.get_Retries, IFaxOutgoingMessage::Retries, IFaxOutgoingMessage::get_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.retries, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_retries_cpp, fax._mfax_faxoutgoingmessage_retries, faxcomex/IFaxOutgoingMessage::Retries, faxcomex/IFaxOutgoingMessage::get_Retries, get_Retries
 ms.prod: windows-hardware
 ms.technology: windows-devices

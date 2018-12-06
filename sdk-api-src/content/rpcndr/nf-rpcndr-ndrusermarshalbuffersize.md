@@ -7,7 +7,7 @@ old-location: rpc\ndrusermarshalbuffersize.htm
 tech.root: rpc
 ms.assetid: 6c3f9073-3695-4eec-a973-e40aa55f9504
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: NdrUserMarshalBufferSize, NdrUserMarshalBufferSize function [RPC], rpc.ndrusermarshalbuffersize, rpcndr/NdrUserMarshalBufferSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

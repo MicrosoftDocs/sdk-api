@@ -7,7 +7,7 @@ old-location: ad\dsfreeschemaguidmap.htm
 tech.root: ad
 ms.assetid: 54d6acb9-5602-4996-a483-08534143bc0a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DsFreeSchemaGuidMap, DsFreeSchemaGuidMap function [Active Directory], DsFreeSchemaGuidMapA, DsFreeSchemaGuidMapW, _glines_dsfreeschemaguidmap, ad.dsfreeschemaguidmap, ntdsapi/DsFreeSchemaGuidMap, ntdsapi/DsFreeSchemaGuidMapA, ntdsapi/DsFreeSchemaGuidMapW
 ms.prod: windows-hardware
 ms.technology: windows-devices

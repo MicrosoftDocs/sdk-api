@@ -7,7 +7,7 @@ old-location: security\slgetproductskuinformation.htm
 tech.root: SecSLApi
 ms.assetid: 38da608d-88c9-4e3a-84a6-5b305560191f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLGetProductSkuInformation, SLGetProductSkuInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_AUTHOR, SL_INFO_KEY_DESCRIPTION, SL_INFO_KEY_NAME, security.slgetproductskuinformation, slpublic/SLGetProductSkuInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

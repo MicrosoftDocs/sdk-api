@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalsuperclassregistration_get_clsid.htm
 tech.root: tapi
 ms.assetid: d343284c-ffe1-4491-8476-37bcdd6e1a97
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],get_CLSID method, ITPluggableTerminalSuperclassRegistration.get_CLSID, ITPluggableTerminalSuperclassRegistration::get_CLSID, _tapi3_itpluggableterminalsuperclassregistration_get_clsid, get_CLSID, get_CLSID method [TAPI 2.2], get_CLSID method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_get_clsid, termmgr/ITPluggableTerminalSuperclassRegistration::get_CLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

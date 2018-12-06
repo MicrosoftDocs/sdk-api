@@ -7,7 +7,7 @@ old-location: nwifi\wlangetprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 6486e961-402f-45c8-a806-ab91a4f0f156
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WLAN_PROFILE_GET_PLAINTEXT_KEY, WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanGetProfile, WlanGetProfile function [NativeWIFI], nwifi.wlangetprofile, wlanapi/WlanGetProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

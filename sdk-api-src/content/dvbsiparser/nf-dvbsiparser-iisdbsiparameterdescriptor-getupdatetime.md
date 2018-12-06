@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparameterdescriptor_getupdatetime.htm
 tech.root: mstv
 ms.assetid: 9cfe8387-4edf-453b-b41b-768496eae76c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetUpdateTime, GetUpdateTime method [Microsoft TV Technologies], GetUpdateTime method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetUpdateTime method, IIsdbSIParameterDescriptor.GetUpdateTime, IIsdbSIParameterDescriptor::GetUpdateTime, dvbsiparser/IIsdbSIParameterDescriptor::GetUpdateTime, mstv.iisdbsiparameterdescriptor_getupdatetime
 ms.prod: windows-hardware
 ms.technology: windows-devices

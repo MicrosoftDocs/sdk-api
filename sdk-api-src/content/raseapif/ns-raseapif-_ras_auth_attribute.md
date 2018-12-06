@@ -7,7 +7,7 @@ old-location: eap\ras_auth_attribute.htm
 tech.root: EAP
 ms.assetid: 36659154-de2b-4a94-b25e-b731a4ef9d99
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PRAS_AUTH_ATTRIBUTE, PRAS_AUTH_ATTRIBUTE, PRAS_AUTH_ATTRIBUTE structure pointer [EAP], RAS_AUTH_ATTRIBUTE, RAS_AUTH_ATTRIBUTE structure [EAP], _RAS_AUTH_ATTRIBUTE, _eap_ras_auth_attribute, eap.ras_auth_attribute, raseapif/PRAS_AUTH_ATTRIBUTE, raseapif/RAS_AUTH_ATTRIBUTE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

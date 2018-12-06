@@ -7,7 +7,7 @@ old-location: setup\msidatabaseexport.htm
 tech.root: msi
 ms.assetid: c20c168d-900e-496a-894c-5678f308cdbe
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: MsiDatabaseExport, MsiDatabaseExport function, MsiDatabaseExportA, MsiDatabaseExportW, _msi_msidatabaseexport, msiquery/MsiDatabaseExport, msiquery/MsiDatabaseExportA, msiquery/MsiDatabaseExportW, setup.msidatabaseexport
 ms.prod: windows-hardware
 ms.technology: windows-devices

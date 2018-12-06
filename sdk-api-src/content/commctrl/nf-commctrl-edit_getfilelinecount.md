@@ -7,7 +7,7 @@ old-location: controls\edit_getfilelinecount.htm
 tech.root: controls
 ms.assetid: FEE1018B-AE00-4934-9C64-AB7A679E6A8C
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: Edit_GetFileLineCount, Edit_GetFileLineCount macro [Windows Controls], commctrl/Edit_GetFileLineCount, controls.edit_getfilelinecount
 ms.prod: windows-hardware
 ms.technology: windows-devices

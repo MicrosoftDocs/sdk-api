@@ -7,7 +7,7 @@ old-location: wua\iupdateservicemanager_addservice.htm
 tech.root: wua_sdk
 ms.assetid: b4071ef7-316f-4624-bc43-79c5982c4a82
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddService, AddService method [Windows Update Agent], AddService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddService method, IUpdateServiceManager.AddService, IUpdateServiceManager::AddService, wua.iupdateservicemanager_addservice, wuapi/IUpdateServiceManager::AddService
 ms.prod: windows-hardware
 ms.technology: windows-devices

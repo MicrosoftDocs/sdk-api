@@ -7,7 +7,7 @@ old-location: tspi\tspi_linegetcallstatus.htm
 tech.root: tapi
 ms.assetid: 7124ef73-148f-41df-afd6-ebfa29d5cf1c
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_lineGetCallStatus, TSPI_lineGetCallStatus function [TAPI 2.2], _tspi_tspi_linegetcallstatus, tspi.tspi_linegetcallstatus, tspi/TSPI_lineGetCallStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

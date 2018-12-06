@@ -7,7 +7,7 @@ old-location: tapi3\itammediaformat.htm
 tech.root: tapi
 ms.assetid: 82728afe-5743-4b45-86e6-32df021a2a5f
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITAMMediaFormat, ITAMMediaFormat interface [TAPI 2.2], ITAMMediaFormat interface [TAPI 2.2],described, _tapi3_itammediaformat, tapi3.itammediaformat, tapi3ds/ITAMMediaFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

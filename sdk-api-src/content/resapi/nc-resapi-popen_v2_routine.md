@@ -7,7 +7,7 @@ old-location: mscs\openv2.htm
 tech.root: mscs
 ms.assetid: EA798D15-9458-4F66-8D0E-13DA383552F7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CLUS_RESDLL_OPEN_RECOVER_MONITOR_STATE, OpenV2, OpenV2 callback, OpenV2 callback function [Failover Cluster], POPEN_V2_ROUTINE, POPEN_V2_ROUTINE callback function [Failover Cluster], mscs.openv2, resapi/OpenV2, resapi/POPEN_V2_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

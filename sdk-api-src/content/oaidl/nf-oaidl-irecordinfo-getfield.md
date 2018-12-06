@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_getfield.htm
 tech.root: automat
 ms.assetid: 6765371c-209a-4794-bff8-83560171affb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetField, GetField method [Automation], GetField method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetField method, IRecordInfo.GetField, IRecordInfo::GetField, _oa96_IRecordInfo_GetField, automat.irecordinfo_getfield, oaidl/IRecordInfo::GetField
 ms.prod: windows-hardware
 ms.technology: windows-devices

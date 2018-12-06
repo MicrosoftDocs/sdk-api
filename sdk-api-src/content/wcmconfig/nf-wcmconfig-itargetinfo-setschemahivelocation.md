@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_setschemahivelocation.htm
 tech.root: SMI
 ms.assetid: 223ce821-4f31-4673-95e2-ec9cf94d5726
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITargetInfo interface [SMI],SetSchemaHiveLocation method, ITargetInfo.SetSchemaHiveLocation, ITargetInfo::SetSchemaHiveLocation, SetSchemaHiveLocation, SetSchemaHiveLocation method [SMI], SetSchemaHiveLocation method [SMI],ITargetInfo interface, smi.itargetinfo_setschemahivelocation, wcmconfig/ITargetInfo::SetSchemaHiveLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

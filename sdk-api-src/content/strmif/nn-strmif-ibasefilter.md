@@ -7,7 +7,7 @@ old-location: dshow\ibasefilter.htm
 tech.root: DirectShow
 ms.assetid: d8c09dc7-dae8-4b51-8da8-69e64928a091
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IBaseFilter, IBaseFilter interface [DirectShow], IBaseFilter interface [DirectShow],described, IBaseFilterInterface, dshow.ibasefilter, strmif/IBaseFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

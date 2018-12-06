@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingprops_get_options.htm
 tech.root: ics
 ms.assetid: 4df3258d-27d8-41b3-a58b-655d643929f5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_Options method, INetSharingPortMappingProps.get_Options, INetSharingPortMappingProps::get_Options, _ics_inetsharingportmappingprops_get_options, get_Options, get_Options method [ICS/ICF], get_Options method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_options, netcon/INetSharingPortMappingProps::get_Options
 ms.prod: windows-hardware
 ms.technology: windows-devices

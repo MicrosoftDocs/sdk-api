@@ -7,7 +7,7 @@ old-location: base\lockworkstation.htm
 tech.root: Shutdown
 ms.assetid: e0f7f2b9-0fc1-4e76-b5bb-286408240fc6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: LockWorkStation, LockWorkStation function, _win32_lockworkstation, base.lockworkstation, winuser/LockWorkStation
 ms.prod: windows-hardware
 ms.technology: windows-devices

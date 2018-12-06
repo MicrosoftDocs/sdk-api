@@ -7,7 +7,7 @@ old-location: controls\ITextFont_Reset.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontreset.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],Reset method, ITextFont.Reset, ITextFont::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextFont interface, _win32_ITextFont_Reset, _win32_ITextFont_Reset_cpp, controls.ITextFont_Reset, controls._win32_ITextFont_Reset, tom/ITextFont::Reset, tomApplyLater, tomApplyNow, tomApplyTmp, tomCacheParms, tomDefault, tomDisableSmartFont, tomEnableSmartFont, tomTrackParms, tomUndefined, tomUsePoints, tomUseTwips
 ms.prod: windows-hardware
 ms.technology: windows-devices

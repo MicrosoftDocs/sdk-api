@@ -7,7 +7,7 @@ old-location: winsock\rio_notification_completion.htm
 tech.root: winsock
 ms.assetid: 85D3D68F-A914-4126-8D3D-4A6E3F970A4B
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION structure pointer [Winsock], RIO_NOTIFICATION_COMPLETION, RIO_NOTIFICATION_COMPLETION structure [Winsock], _RIO_NOTIFICATION_COMPLETION, mswsock/PRIO_NOTIFICATION_COMPLETION, mswsock/RIO_NOTIFICATION_COMPLETION, winsock.rio_notification_completion"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iisdbaudiocomponentdescriptor.htm
 tech.root: mstv
 ms.assetid: f771b318-5fd5-4c7f-a22b-6966aec5c0fa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbAudioComponentDescriptor, mstv.iisdbaudiocomponentdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

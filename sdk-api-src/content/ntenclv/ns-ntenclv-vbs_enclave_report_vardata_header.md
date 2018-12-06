@@ -7,7 +7,7 @@ old-location: base\vbs_enclave_report_vardata_header.htm
 tech.root: memory
 ms.assetid: A0B02839-E8F4-45A1-B2BA-73E6EF9DA7C8
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: VBS_ENCLAVE_REPORT_VARDATA_HEADER, VBS_ENCLAVE_REPORT_VARDATA_HEADER structure, VBS_ENCLAVE_VARDATA_INVALID, VBS_ENCLAVE_VARDATA_MODULE, base.vbs_enclave_report_vardata_header, ntenclv/VBS_ENCLAVE_REPORT_VARDATA_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices

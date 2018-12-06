@@ -7,7 +7,7 @@ old-location: ics\inetconnection_delete.htm
 tech.root: ics
 ms.assetid: d2179872-da9b-4d89-b6e9-b318d304b15d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Delete, Delete method [ICS/ICF], Delete method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Delete method, INetConnection.Delete, INetConnection::Delete, _ics_inetconnection_delete, ics.inetconnection_delete, netcon/INetConnection::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

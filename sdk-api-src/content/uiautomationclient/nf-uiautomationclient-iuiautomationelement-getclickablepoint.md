@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_GetClickablePoint.htm
 tech.root: WinAuto
 ms.assetid: 3762aac6-5bd8-43a6-8fe6-e79d8724622b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetClickablePoint, GetClickablePoint method [Windows Accessibility], GetClickablePoint method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetClickablePoint method, IUIAutomationElement.GetClickablePoint, IUIAutomationElement::GetClickablePoint, uiauto.uiauto_IUIAutomationElement_GetClickablePoint, uiauto_IUIAutomationElement_GetClickablePoint, uiautomationclient/IUIAutomationElement::GetClickablePoint, winauto.uiauto_IUIAutomationElement_GetClickablePoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

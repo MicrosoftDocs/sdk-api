@@ -7,7 +7,7 @@ old-location: winsock\wsasetblockinghook_2.htm
 tech.root: winsock
 ms.assetid: 3a420778-0082-4c81-bdc9-d79c67453fae
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: WSASetBlockingHook, WSASetBlockingHook function [Winsock], _win32_wsasetblockinghook_2, winsock.wsasetblockinghook_2, winsock2/WSASetBlockingHook
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getdifferencedfile.htm
 tech.root: vss
 ms.assetid: 285b2ac7-d09e-4ac5-bf5c-62c510544353
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetDifferencedFile, GetDifferencedFile method [VSS], GetDifferencedFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDifferencedFile method, IVssComponent.GetDifferencedFile, IVssComponent::GetDifferencedFile, _win32_ivsscomponent_getdifferencedfile, base.ivsscomponent_getdifferencedfile, vswriter/IVssComponent::GetDifferencedFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,17 +1,17 @@
 ---
 UID: NF:directxmath.XMUINT2.XMUINT2
-title: XMUINT2 function
+title: XMUINT2::XMUINT2
 author: windows-sdk-content
 description: Default constructor for XMUINT2.
 old-location: dxmath\xmuint2_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT2.#ctor
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: XMUINT2 constructor [DirectX Math Support APIs], XMUINT2 constructor [DirectX Math Support APIs],XMUINT2 structure, XMUINT2 structure [DirectX Math Support APIs],XMUINT2 constructor, XMUINT2.XMUINT2, XMUINT2.XMUINT2(), dxmath.xmuint2_ctor_1
+ms.date: 12/5/2018
+ms.keywords: XMUINT2, XMUINT2 constructor [DirectX Math Support APIs], XMUINT2 constructor [DirectX Math Support APIs],XMUINT2 structure, XMUINT2 structure [DirectX Math Support APIs],XMUINT2 constructor, XMUINT2.XMUINT2, XMUINT2.XMUINT2(), XMUINT2::XMUINT2, dxmath.xmuint2_ctor_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMUINT2
-: 
 ---
 
-# XMUINT2 function
+# XMUINT2::XMUINT2
 
 
 ## -description

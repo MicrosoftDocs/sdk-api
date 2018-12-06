@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setdatalocale.htm
 tech.root: wmi_v2
 ms.assetid: 0b5c0ae7-d11c-4014-b61e-4528b9320844
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_SetDataLocale, MI_DestinationOptions_SetDataLocale function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetDataLocale, wmi_v2.mi_destinationoptions_setdatalocale
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_DestinationOptions_SetDataLocale
-: 
 ---
 
 # MI_DestinationOptions_SetDataLocale function

@@ -7,7 +7,7 @@ old-location: shell\IContextMenuCB_CallBack.htm
 tech.root: shell
 ms.assetid: 9d091b1a-26b5-4cab-a3ec-6d59dc7d103e
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CallBack, CallBack method [Windows Shell], CallBack method [Windows Shell],IContextMenuCB interface, IContextMenuCB interface [Windows Shell],CallBack method, IContextMenuCB.CallBack, IContextMenuCB::CallBack, _shell_IContextMenuCB_CallBack, shell.IContextMenuCB_CallBack, shobjidl_core/IContextMenuCB::CallBack
 ms.prod: windows-hardware
 ms.technology: windows-devices

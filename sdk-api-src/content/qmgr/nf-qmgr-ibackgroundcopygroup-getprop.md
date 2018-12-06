@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_getprop.htm
 tech.root: bits
 ms.assetid: c27debdf-22eb-417e-b870-2891167f4498
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetProp, GetProp method [BITS], GetProp method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetProp method, IBackgroundCopyGroup.GetProp, IBackgroundCopyGroup::GetProp, bits.ibackgroundcopygroup_getprop, qmgr/IBackgroundCopyGroup::GetProp
 ms.prod: windows-hardware
 ms.technology: windows-devices

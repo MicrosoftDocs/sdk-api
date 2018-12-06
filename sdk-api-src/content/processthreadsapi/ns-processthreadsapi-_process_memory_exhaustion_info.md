@@ -7,7 +7,7 @@ old-location: base\process_memory_exhaustion_info.htm
 tech.root: procthread
 ms.assetid: 5BD60CA2-1F97-4B62-8DD1-D21724186323
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPROCESS_MEMORY_EXHAUSTION_INFO, PPROCESS_MEMORY_EXHAUSTION_INFO, PPROCESS_MEMORY_EXHAUSTION_INFO structure pointer, PROCESS_MEMORY_EXHAUSTION_INFO, PROCESS_MEMORY_EXHAUSTION_INFO structure, _PROCESS_MEMORY_EXHAUSTION_INFO, base.process_memory_exhaustion_info, processthreadsapi/PPROCESS_MEMORY_EXHAUSTION_INFO, processthreadsapi/PROCESS_MEMORY_EXHAUSTION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

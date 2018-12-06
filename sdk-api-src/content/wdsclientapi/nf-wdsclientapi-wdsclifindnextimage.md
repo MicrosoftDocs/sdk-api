@@ -7,7 +7,7 @@ old-location: wds\wdsclifindnextimage.htm
 tech.root: wds
 ms.assetid: 15f2a00b-30bd-4736-b236-db847eec1779
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsCliFindNextImage, WdsCliFindNextImage function [Windows Deployment Services], wds.wdsclifindnextimage, wdsclientapi/WdsCliFindNextImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

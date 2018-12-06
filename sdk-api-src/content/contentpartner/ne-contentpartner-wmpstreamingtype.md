@@ -7,7 +7,7 @@ old-location: wmp\wmpstreamingtype.htm
 tech.root: WMP
 ms.assetid: 3ac7e8cb-39c7-4437-a2da-6de5cb1efed9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WMPStreamingType, WMPStreamingType enumeration [Windows Media Player], contentpartner/WMPStreamingType, contentpartner/wmpstMusic, contentpartner/wmpstRadio, contentpartner/wmpstUnknown, contentpartner/wmpstVideo, enumeration [Windows Media Player], wmp.wmpstreamingtype, wmpstMusic, wmpstRadio, wmpstUnknown, wmpstVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,17 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4
-title: XMUNIBBLE4 function
+title: XMUNIBBLE4::XMUNIBBLE4
 author: windows-sdk-content
 description: Default constructor for XMUNIBBLE4.
 old-location: dxmath\xmunibble4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUNIBBLE4.#ctor
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4, XMUNIBBLE4.XMUNIBBLE4(), dxmath.xmunibble4_ctor_1
+ms.date: 12/5/2018
+ms.keywords: XMUNIBBLE4, XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4, XMUNIBBLE4.XMUNIBBLE4(), XMUNIBBLE4::XMUNIBBLE4, dxmath.xmunibble4_ctor_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMUNIBBLE4
-: 
 ---
 
-# XMUNIBBLE4 function
+# XMUNIBBLE4::XMUNIBBLE4
 
 
 ## -description

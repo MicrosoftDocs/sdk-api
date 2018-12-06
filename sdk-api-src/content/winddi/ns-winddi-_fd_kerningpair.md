@@ -7,7 +7,7 @@ old-location: display\fd_kerningpair.htm
 tech.root: display
 ms.assetid: 5c5eced6-a0a3-448e-bcb3-57be1b703797
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: FD_KERNINGPAIR, FD_KERNINGPAIR structure [Display Devices], _FD_KERNINGPAIR, display.fd_kerningpair, grstrcts_5e6126d0-b3c2-4964-ab7a-f3ec90162b7e.xml, winddi/FD_KERNINGPAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices

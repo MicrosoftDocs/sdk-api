@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_decode_swap_chain_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: 9AAF8E99-E5BC-49B3-8CA6-1F4FC0190B54
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DXGI_DECODE_SWAP_CHAIN_DESC, DXGI_DECODE_SWAP_CHAIN_DESC structure [DXGI], direct3ddxgi.dxgi_decode_swap_chain_desc, dxgi1_3/DXGI_DECODE_SWAP_CHAIN_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices

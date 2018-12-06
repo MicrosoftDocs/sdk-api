@@ -7,7 +7,7 @@ old-location: taskschd\itasknamedvaluecollection__newenum.htm
 tech.root: taskschd
 ms.assetid: 53bcb237-939e-4e10-bc83-83a5dcdeab70
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],_NewEnum property, ITaskNamedValueCollection._NewEnum, ITaskNamedValueCollection.get__NewEnum, ITaskNamedValueCollection::_NewEnum, ITaskNamedValueCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITaskNamedValueCollection interface, get__NewEnum, taskschd.itasknamedvaluecollection__newenum, taskschd/ITaskNamedValueCollection::_NewEnum, taskschd/ITaskNamedValueCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

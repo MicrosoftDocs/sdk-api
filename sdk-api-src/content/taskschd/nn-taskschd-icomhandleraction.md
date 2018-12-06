@@ -7,7 +7,7 @@ old-location: taskschd\icomhandleraction.htm
 tech.root: taskschd
 ms.assetid: fb5cc2c3-ba86-401a-b51f-b28d1f5be58f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: COM handler action [Task Scheduler],interface, IComHandlerAction, IComHandlerAction interface [Task Scheduler], IComHandlerAction interface [Task Scheduler],described, taskschd.icomhandleraction, taskschd/IComHandlerAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

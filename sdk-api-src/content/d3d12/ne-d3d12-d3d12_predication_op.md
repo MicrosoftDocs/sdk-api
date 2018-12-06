@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_predication_op.htm
 tech.root: direct3d12
 ms.assetid: 2A650FE4-7D24-4852-9435-7C3CB73848AB
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_PREDICATION_OP, D3D12_PREDICATION_OP enumeration, D3D12_PREDICATION_OP_EQUAL_ZERO, D3D12_PREDICATION_OP_NOT_EQUAL_ZERO, d3d12/D3D12_PREDICATION_OP, d3d12/D3D12_PREDICATION_OP_EQUAL_ZERO, d3d12/D3D12_PREDICATION_OP_NOT_EQUAL_ZERO, direct3d12.d3d12_predication_op
 ms.prod: windows-hardware
 ms.technology: windows-devices

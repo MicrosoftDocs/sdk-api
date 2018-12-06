@@ -7,7 +7,7 @@ old-location: security\cryptxmlcreatereference.htm
 tech.root: seccrypto
 ms.assetid: 1078d483-a017-486b-8967-a3efe9d3a29a
 ms.author: windowssdkdev
-ms.date: 12/04/2018
+ms.date: 12/5/2018
 ms.keywords: CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT, CryptXmlCreateReference, CryptXmlCreateReference function [Security], cryptxml/CryptXmlCreateReference, security.cryptxmlcreatereference
 ms.prod: windows-hardware
 ms.technology: windows-devices

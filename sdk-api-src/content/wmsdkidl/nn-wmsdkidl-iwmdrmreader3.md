@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader3.htm
 tech.root: wmformat
 ms.assetid: 9474e06a-9519-456c-b304-efc875a4accc
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMDRMReader3, IWMDRMReader3 interface [windows Media Format], IWMDRMReader3 interface [windows Media Format],described, IWMDRMReader3Interface, wmformat.iwmdrmreader3, wmsdkidl/IWMDRMReader3
 ms.prod: windows-hardware
 ms.technology: windows-devices

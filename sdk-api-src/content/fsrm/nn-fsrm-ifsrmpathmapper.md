@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpathmapper.htm
 tech.root: fsrm
 ms.assetid: 04e62a10-1719-454b-adfb-6320e31c7a88
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmPathMapper, IFsrmPathMapper interface [File Server Resource Manager], IFsrmPathMapper interface [File Server Resource Manager],described, fs.ifsrmpathmapper, fsrm.ifsrmpathmapper, fsrm/IFsrmPathMapper
 ms.prod: windows-hardware
 ms.technology: windows-devices

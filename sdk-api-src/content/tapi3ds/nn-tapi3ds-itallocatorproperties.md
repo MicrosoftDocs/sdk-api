@@ -7,7 +7,7 @@ old-location: tapi3\itallocatorproperties.htm
 tech.root: tapi
 ms.assetid: a0facf08-1b03-415b-b97e-3fda5a164b89
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], ITAllocatorProperties interface [TAPI 2.2],described, _tapi3_itallocatorproperties, tapi3.itallocatorproperties, tapi3ds/ITAllocatorProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

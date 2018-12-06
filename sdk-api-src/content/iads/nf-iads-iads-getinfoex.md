@@ -7,7 +7,7 @@ old-location: adsi\iads_getinfoex.htm
 tech.root: adsi
 ms.assetid: 306ab953-890a-4ec9-8ec2-bea73888ea20
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetInfoEx, GetInfoEx method [ADSI], GetInfoEx method [ADSI],IADs interface, IADs interface [ADSI],GetInfoEx method, IADs.GetInfoEx, IADs::GetInfoEx, _ds_iads_getinfoex, adsi.iads__getinfoex, adsi.iads_getinfoex, iads/IADs::GetInfoEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

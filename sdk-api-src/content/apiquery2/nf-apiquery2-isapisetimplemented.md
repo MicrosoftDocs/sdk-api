@@ -7,7 +7,7 @@ old-location: winprog\isapisetimplemented.htm
 tech.root: devnotes
 ms.assetid: DF177716-9F33-4E39-BD63-D1B8E39CD67C
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IsApiSetImplemented, IsApiSetImplemented function [Windows API], apiquery2/IsApiSetImplemented, winprog.isapisetimplemented
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_setbalance.htm
 tech.root: medfound
 ms.assetid: cb95d037-54b4-4686-b8e6-5b960998d361
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetBalance method, IMFPMediaPlayer.SetBalance, IMFPMediaPlayer::SetBalance, SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setbalance, mfplay/IMFPMediaPlayer::SetBalance
 ms.prod: windows-hardware
 ms.technology: windows-devices

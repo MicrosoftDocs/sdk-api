@@ -7,7 +7,7 @@ old-location: secbiomet\winbiogetlogonsetting.htm
 tech.root: SecBioMet
 ms.assetid: 1053f68f-4785-48a2-98da-26cc8bd41a50
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WINBIO_SETTING_SOURCE_DEFAULT, WINBIO_SETTING_SOURCE_INVALID, WINBIO_SETTING_SOURCE_LOCAL, WINBIO_SETTING_SOURCE_POLICY, WinBioGetLogonSetting, WinBioGetLogonSetting function [Windows Biometric Framework API], secbiomet.winbiogetlogonsetting, winbio/WinBioGetLogonSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices

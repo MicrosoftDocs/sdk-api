@@ -7,7 +7,7 @@ old-location: com\iaccessibilitydockingservicecallback.htm
 tech.root: com
 ms.assetid: D69C8040-AAC4-4149-ACDA-948FDBACAB48
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAccessibilityDockingServiceCallback, IAccessibilityDockingServiceCallback interface [COM], IAccessibilityDockingServiceCallback interface [COM],described, com.iaccessibilitydockingservicecallback, shobjidl/IAccessibilityDockingServiceCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: http\http_service_config_timeout_key.htm
 tech.root: http
 ms.assetid: e591a6b8-e63f-40c3-bd48-e14cb9f89453
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_TIMEOUT_KEY, *PHTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration [HTTP], HTTP_SERVICE_CONFIG_TIMEOUT_KEY, HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration [HTTP], HeaderWaitTimeout, IdleConnectionTimeout, _HTTP_SERVICE_CONFIG_TIMEOUT_KEY, http.http_service_config_timeout_key, http/*PHTTP_SERVICE_CONFIG_TIMEOUT_KEY, http/HTTP_SERVICE_CONFIG_TIMEOUT_KEY, http/HeaderWaitTimeout, http/IdleConnectionTimeout"
 ms.prod: windows-hardware
 ms.technology: windows-devices

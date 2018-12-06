@@ -7,7 +7,7 @@ old-location: shell\ShortToUShort.htm
 tech.root: shell
 ms.assetid: 35820e7f-db32-439b-a96b-8891ab2ab5ae
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ShortToUShort, ShortToUShort function [Windows Shell], ShortToWord, _shell_ShortToUShort, intsafe/ShortToUShort, shell.ShortToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

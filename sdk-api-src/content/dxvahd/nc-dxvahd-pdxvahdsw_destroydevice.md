@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_destroydevice.htm
 tech.root: medfound
 ms.assetid: 1d0cc0a4-effb-4dea-b6ba-ca1a4e1e394e
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: PDXVAHDSW_DestroyDevice, PDXVAHDSW_DestroyDevice callback, PDXVAHDSW_DestroyDevice callback function [Media Foundation], dxvahd/PDXVAHDSW_DestroyDevice, mf.pdxvahdsw_destroydevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

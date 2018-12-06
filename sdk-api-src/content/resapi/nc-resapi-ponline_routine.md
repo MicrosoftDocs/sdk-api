@@ -7,7 +7,7 @@ old-location: mscs\online.htm
 tech.root: mscs
 ms.assetid: b406ef44-0622-4625-a6cf-462b6ea6018d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Online, Online callback, Online callback function [Failover Cluster], PONLINE_ROUTINE, PONLINE_ROUTINE callback function [Failover Cluster], _wolf_online, mscs.online, resapi/Online, resapi/PONLINE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

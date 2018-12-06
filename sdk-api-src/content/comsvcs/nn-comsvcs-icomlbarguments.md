@@ -7,7 +7,7 @@ old-location: cos\icomlbarguments.htm
 tech.root: cossdk
 ms.assetid: 1eb1c464-9371-420e-afc0-4b18c11a70d4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ICOMLBArguments, ICOMLBArguments interface [COM+], ICOMLBArguments interface [COM+],described, _cos_icomlbarguments, comsvcs/ICOMLBArguments, cos.icomlbarguments
 ms.prod: windows-hardware
 ms.technology: windows-devices

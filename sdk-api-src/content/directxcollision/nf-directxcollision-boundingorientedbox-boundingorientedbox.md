@@ -1,17 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.BoundingOrientedBox
-title: BoundingOrientedBox function
+title: BoundingOrientedBox::BoundingOrientedBox
 author: windows-sdk-content
 description: Creates an instance of BoundingOrientedBox.
 old-location: dxmath\boundingorientedbox_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.#ctor
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: BoundingOrientedBox constructor [DirectX Math Support APIs], BoundingOrientedBox constructor [DirectX Math Support APIs],BoundingOrientedBox interface, BoundingOrientedBox interface [DirectX Math Support APIs],BoundingOrientedBox constructor, BoundingOrientedBox.BoundingOrientedBox, BoundingOrientedBox.BoundingOrientedBox(), dxmath.boundingorientedbox_ctor_2
+ms.date: 12/5/2018
+ms.keywords: BoundingOrientedBox, BoundingOrientedBox constructor [DirectX Math Support APIs], BoundingOrientedBox constructor [DirectX Math Support APIs],BoundingOrientedBox interface, BoundingOrientedBox interface [DirectX Math Support APIs],BoundingOrientedBox constructor, BoundingOrientedBox.BoundingOrientedBox, BoundingOrientedBox.BoundingOrientedBox(), BoundingOrientedBox::BoundingOrientedBox, dxmath.boundingorientedbox_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BoundingOrientedBox
-: 
 ---
 
-# BoundingOrientedBox function
+# BoundingOrientedBox::BoundingOrientedBox
 
 
 ## -description

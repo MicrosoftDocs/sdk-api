@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapitransportstreambuffer_flags.htm
 tech.root: rdp
 ms.assetid: 505ff729-258c-4919-9985-a8a3a9f09871
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPITransportStreamBuffer interface, IRDPSRAPITransportStreamBuffer interface [RDP],Flags property, IRDPSRAPITransportStreamBuffer.Flags, IRDPSRAPITransportStreamBuffer.put_Flags, IRDPSRAPITransportStreamBuffer::Flags, IRDPSRAPITransportStreamBuffer::get_Flags, IRDPSRAPITransportStreamBuffer::put_Flags, put_Flags, rdp.irdpsrapitransportstreambuffer_flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::Flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex1d_srv.htm
 tech.root: direct3d12
 ms.assetid: 552DC1C1-8FFB-4BFC-8781-78B287CB70BD
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_TEX1D_SRV, D3D12_TEX1D_SRV structure, d3d12/D3D12_TEX1D_SRV, direct3d12.d3d12_tex1d_srv
 ms.prod: windows-hardware
 ms.technology: windows-devices

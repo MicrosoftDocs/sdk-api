@@ -7,7 +7,7 @@ old-location: direct2d\id2d1factory_createtransformedgeometry.htm
 tech.root: direct2d
 ms.assetid: 71f26200-0f35-49d7-951d-2962768d16bc
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreateTransformedGeometry, CreateTransformedGeometry methods [Direct2D], ID2D1Factory.CreateTransformedGeometry, ID2D1Factory::CreateTransformedGeometry, d2d1/CreateTransformedGeometry, direct2d.id2d1factory_createtransformedgeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices

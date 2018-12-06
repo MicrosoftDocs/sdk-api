@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_asvector.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asvector.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AsVector, AsVector method [Direct3D 10], AsVector method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsVector method, ID3D10EffectVariable.AsVector, ID3D10EffectVariable::AsVector, a5136c3d-204c-bce5-0022-ead9b334e840, d3d10effect/ID3D10EffectVariable::AsVector, direct3d10.id3d10effectvariable_asvector
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\wsd_port_type_struct.htm
 tech.root: wsdapi
 ms.assetid: ec321771-b3d1-4e7b-b870-009db7c49c6e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_PORT_TYPE, WSD_PORT_TYPE structure, _WSD_PORT_TYPE, ncd.wsd_port_type_struct, wsdtypes/WSD_PORT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

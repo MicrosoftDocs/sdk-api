@@ -7,7 +7,7 @@ old-location: base\setprocessvalidcalltargets.htm
 tech.root: memory
 ms.assetid: A28BBE75-5188-452B-B784-B6824D4BD161
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: SetProcessValidCallTargets, SetProcessValidCallTargets function, base.setprocessvalidcalltargets, winbase/SetProcessValidCallTargets
 ms.prod: windows-hardware
 ms.technology: windows-devices

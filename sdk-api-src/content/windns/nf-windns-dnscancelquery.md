@@ -7,7 +7,7 @@ old-location: dns\dnscancelquery.htm
 tech.root: dns
 ms.assetid: E5F422AA-D4E6-4F9F-A57C-608CE9317658
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DnsCancelQuery, DnsCancelQuery function [DNS], dns.dnscancelquery, windns/DnsCancelQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices

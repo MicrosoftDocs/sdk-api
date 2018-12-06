@@ -7,7 +7,7 @@ old-location: iphlp\deleteipforwardentry2.htm
 tech.root: IpHlp
 ms.assetid: 68d5a5a5-21cf-4337-8a35-7f847f5e2138
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteIpForwardEntry2, DeleteIpForwardEntry2 function [IP Helper], iphlp.deleteipforwardentry2, netioapi/DeleteIpForwardEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices

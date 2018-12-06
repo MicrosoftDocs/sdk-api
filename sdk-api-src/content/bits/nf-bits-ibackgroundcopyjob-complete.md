@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_complete.htm
 tech.root: bits
 ms.assetid: d57b0b2e-1181-45ed-b7fc-d002d14527cf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Complete, Complete method [BITS], Complete method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],Complete method, IBackgroundCopyJob.Complete, IBackgroundCopyJob::Complete, _drz_ibackgroundcopyjob_complete, bits.ibackgroundcopyjob_complete, bits/IBackgroundCopyJob::Complete
 ms.prod: windows-hardware
 ms.technology: windows-devices

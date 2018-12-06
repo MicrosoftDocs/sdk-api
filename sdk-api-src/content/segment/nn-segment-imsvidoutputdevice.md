@@ -7,7 +7,7 @@ old-location: mstv\imsvidoutputdevice.htm
 tech.root: mstv
 ms.assetid: c2e5ebac-cb10-4567-83f7-f8f4e3b4f009
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidOutputDevice, IMSVidOutputDevice interface [Microsoft TV Technologies], IMSVidOutputDevice interface [Microsoft TV Technologies],described, IMSVidOutputDeviceInterface, mstv.imsvidoutputdevice, segment/IMSVidOutputDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

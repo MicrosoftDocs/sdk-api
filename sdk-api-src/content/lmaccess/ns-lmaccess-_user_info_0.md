@@ -7,7 +7,7 @@ old-location: netmgmt\user_info_0_str.htm
 tech.root: netmgmt
 ms.assetid: 5d24a2dd-d1ee-4c97-8fbc-0b336313b60c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPUSER_INFO_0, *PUSER_INFO_0, LPUSER_INFO_0, LPUSER_INFO_0 structure pointer [Network Management], PUSER_INFO_0, PUSER_INFO_0 structure pointer [Network Management], USER_INFO_0, USER_INFO_0 structure [Network Management], _USER_INFO_0, _win32_user_info_0_str, lmaccess/LPUSER_INFO_0, lmaccess/PUSER_INFO_0, lmaccess/USER_INFO_0, netmgmt.user_info_0_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

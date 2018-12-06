@@ -7,7 +7,7 @@ old-location: base\symfunctiontableaccess64.htm
 tech.root: debug
 ms.assetid: f79e6af9-9931-4bd7-ae12-29d890267a89
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: SymFunctionTableAccess, SymFunctionTableAccess function, SymFunctionTableAccess64, SymFunctionTableAccess64 function, _win32_symfunctiontableaccess64, base.symfunctiontableaccess64, dbghelp/SymFunctionTableAccess, dbghelp/SymFunctionTableAccess64
 ms.prod: windows-hardware
 ms.technology: windows-devices

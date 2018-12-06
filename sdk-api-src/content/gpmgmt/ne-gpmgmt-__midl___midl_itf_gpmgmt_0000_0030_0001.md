@@ -7,7 +7,7 @@ old-location: gpmc\gpmbackuptype.htm
 tech.root: gpmc
 ms.assetid: 048871f3-39ea-4bf6-bc04-b4a34cd1a9d0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GPMBackupType, GPMBackupType enumeration [GPMC], __MIDL___MIDL_itf_gpmgmt_0000_0030_0001, gpmc.gpmbackuptype, gpmgmt/GPMBackupType, gpmgmt/typeGPO, gpmgmt/typeStarterGPO, typeGPO, typeStarterGPO
 ms.prod: windows-hardware
 ms.technology: windows-devices

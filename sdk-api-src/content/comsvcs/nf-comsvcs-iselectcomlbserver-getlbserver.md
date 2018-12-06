@@ -7,7 +7,7 @@ old-location: cos\iselectcomlbserver_getlbserver.htm
 tech.root: cossdk
 ms.assetid: 90b33e42-b26f-4dd8-bd91-939f452b7872
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetLBServer, GetLBServer method [COM+], GetLBServer method [COM+],ISelectCOMLBServer interface, ISelectCOMLBServer interface [COM+],GetLBServer method, ISelectCOMLBServer.GetLBServer, ISelectCOMLBServer::GetLBServer, _cos_ISelectCOMLBServer_GetLBServer, comsvcs/ISelectCOMLBServer::GetLBServer, cos.iselectcomlbserver_getlbserver
 ms.prod: windows-hardware
 ms.technology: windows-devices

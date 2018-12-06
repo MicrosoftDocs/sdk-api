@@ -7,7 +7,7 @@ old-location: termserv\iworkspacescriptable.htm
 tech.root: termserv
 ms.assetid: b6591369-d73f-4c7d-8525-428dffc9a341
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWorkspaceScriptable, IWorkspaceScriptable interface [Remote Desktop Services], IWorkspaceScriptable interface [Remote Desktop Services],described, termserv.iworkspacescriptable, workspaceruntime/IWorkspaceScriptable
 ms.prod: windows-hardware
 ms.technology: windows-devices

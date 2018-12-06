@@ -7,7 +7,7 @@ old-location: winrm\wsmaninitialize.htm
 tech.root: winrm
 ms.assetid: 5aa1f451-0d12-4079-9477-1971fc084df2
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: WSManInitialize, WSManInitialize function [Windows Remote Management], winrm.wsmaninitialize, wsman/WSManInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\request_oplock_input_buffer.htm
 tech.root: fileio
 ms.assetid: ac19fbd3-a967-4ac8-9260-93e07b5008ac
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PREQUEST_OPLOCK_INPUT_BUFFER, OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, PREQUEST_OPLOCK_INPUT_BUFFER, PREQUEST_OPLOCK_INPUT_BUFFER structure pointer [Files], REQUEST_OPLOCK_INPUT_BUFFER, REQUEST_OPLOCK_INPUT_BUFFER structure [Files], REQUEST_OPLOCK_INPUT_FLAG_ACK, REQUEST_OPLOCK_INPUT_FLAG_REQUEST, _REQUEST_OPLOCK_INPUT_BUFFER, fs.request_oplock_input_buffer, winioctl/PREQUEST_OPLOCK_INPUT_BUFFER, winioctl/REQUEST_OPLOCK_INPUT_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

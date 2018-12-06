@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactioneventlog_messagetext.htm
 tech.root: fsrm
 ms.assetid: 3a883032-808a-47f9-845e-50bad5424304
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmActionEventLog interface [File Server Resource Manager],MessageText property, IFsrmActionEventLog.MessageText, IFsrmActionEventLog.get_MessageText, IFsrmActionEventLog::MessageText, IFsrmActionEventLog::get_MessageText, IFsrmActionEventLog::put_MessageText, MessageText property [File Server Resource Manager], MessageText property [File Server Resource Manager],IFsrmActionEventLog interface, fs.ifsrmactioneventlog_messagetext, fsrm.ifsrmactioneventlog_messagetext, fsrm/IFsrmActionEventLog::MessageText, fsrm/IFsrmActionEventLog::get_MessageText, fsrm/IFsrmActionEventLog::put_MessageText, get_MessageText
 ms.prod: windows-hardware
 ms.technology: windows-devices

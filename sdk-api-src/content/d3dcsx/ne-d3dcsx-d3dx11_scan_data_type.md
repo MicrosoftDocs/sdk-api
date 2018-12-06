@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11_scan_data_type.htm
 tech.root: direct3d11
 ms.assetid: 28bef01c-2d04-48f8-994b-86194f530610
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: D3DX11_SCAN_DATA_TYPE, D3DX11_SCAN_DATA_TYPE enumeration [Direct3D 11], D3DX11_SCAN_DATA_TYPE_FLOAT, D3DX11_SCAN_DATA_TYPE_INT, D3DX11_SCAN_DATA_TYPE_UINT, d3dcsx/D3DX11_SCAN_DATA_TYPE, d3dcsx/D3DX11_SCAN_DATA_TYPE_FLOAT, d3dcsx/D3DX11_SCAN_DATA_TYPE_INT, d3dcsx/D3DX11_SCAN_DATA_TYPE_UINT, d5f42071-16a0-03ca-bdea-302fc9f575bf, direct3d11.d3dx11_scan_data_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_format_support2.htm
 tech.root: direct3d11
 ms.assetid: 075cc44a-3c91-4015-af7f-489b3b3c6661
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 666f73ad-8c04-9774-e3ed-01d758bb509f, D3D11_FEATURE_DATA_FORMAT_SUPPORT2, D3D11_FEATURE_DATA_FORMAT_SUPPORT2 structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT2, direct3d11.d3d11_feature_data_format_support2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,17 +60,17 @@ Describes which unordered resource options are supported by the current graphics
 
 ### -field InFormat
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> to return information on.
+<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> to return information on.
 
 
 ### -field OutFormatSupport2
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Combination of <a href="https://msdn.microsoft.com/en-us/library/Ff476135(v=VS.85).aspx">D3D11_FORMAT_SUPPORT2</a> flags indicating which unordered resource options are supported.
+Combination of <a href="https://msdn.microsoft.com/40650aae-ec0d-4c44-8abd-32c00343b717">D3D11_FORMAT_SUPPORT2</a> flags indicating which unordered resource options are supported.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ Combination of <a href="https://msdn.microsoft.com/en-us/library/Ff476135(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
  
 
  

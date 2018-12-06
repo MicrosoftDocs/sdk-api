@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextsubscriptionsget0.htm
 tech.root: fwp
 ms.assetid: eb7d8cd1-4bdb-4584-b9b9-c3667abf9bdb
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IPsecSaContextSubscriptionsGet0, IPsecSaContextSubscriptionsGet0 function [Filtering], fwp.ipsecsacontextsubscriptionsget0, fwpmu/IPsecSaContextSubscriptionsGet0
 ms.prod: windows-hardware
 ms.technology: windows-devices

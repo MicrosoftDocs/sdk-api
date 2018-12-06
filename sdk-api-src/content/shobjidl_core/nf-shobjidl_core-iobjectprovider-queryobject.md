@@ -7,7 +7,7 @@ old-location: shell\IObjectProvider_QueryObject.htm
 tech.root: shell
 ms.assetid: 7bd76e54-bc1d-481d-90cb-fcfe519b8bfb
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IObjectProvider interface [Windows Shell],QueryObject method, IObjectProvider.QueryObject, IObjectProvider::QueryObject, QueryObject, QueryObject method [Windows Shell], QueryObject method [Windows Shell],IObjectProvider interface, _shell_IObjectProvider_QueryObject, shell.IObjectProvider_QueryObject, shobjidl_core/IObjectProvider::QueryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

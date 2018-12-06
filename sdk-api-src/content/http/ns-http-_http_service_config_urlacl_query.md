@@ -7,7 +7,7 @@ old-location: http\http_service_config_urlacl_query.htm
 tech.root: http
 ms.assetid: 298edd6c-c036-4e45-88f3-84917c8a76ea
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_URLACL_QUERY, HTTP_SERVICE_CONFIG_URLACL_QUERY, HTTP_SERVICE_CONFIG_URLACL_QUERY structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_QUERY, PHTTP_SERVICE_CONFIG_URLACL_QUERY structure pointer [HTTP], _HTTP_SERVICE_CONFIG_URLACL_QUERY, _http_http_service_config_urlacl_query, http.http_service_config_urlacl_query, http/HTTP_SERVICE_CONFIG_URLACL_QUERY, http/PHTTP_SERVICE_CONFIG_URLACL_QUERY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

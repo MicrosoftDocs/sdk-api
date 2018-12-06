@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getpreviousbackupstamp.htm
 tech.root: vss
 ms.assetid: 91778854-52af-4e1e-943b-89c786963291
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetPreviousBackupStamp, GetPreviousBackupStamp method [VSS], GetPreviousBackupStamp method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPreviousBackupStamp method, IVssComponent.GetPreviousBackupStamp, IVssComponent::GetPreviousBackupStamp, _win32_ivsscomponent_getpreviousbackupstamp, base.ivsscomponent_getpreviousbackupstamp, vswriter/IVssComponent::GetPreviousBackupStamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

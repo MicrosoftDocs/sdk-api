@@ -7,7 +7,7 @@ old-location: ncd\wsduriencode.htm
 tech.root: wsdapi
 ms.assetid: 3d086ac8-0c14-46fb-baa5-b1d89b86ebbb
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WSDUriEncode, WSDUriEncode function, ncd.wsduriencode, wsdutil/WSDUriEncode
 ms.prod: windows-hardware
 ms.technology: windows-devices

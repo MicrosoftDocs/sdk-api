@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tex2dms_srv.htm
 tech.root: direct3d11
 ms.assetid: ba896737-a94e-49d0-8f35-2e4ef5a335e7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_TEX2DMS_SRV, D3D11_TEX2DMS_SRV structure [Direct3D 11], d3d11/D3D11_TEX2DMS_SRV, dee77306-be03-b837-54e1-859e7d5eb5e1, direct3d11.d3d11_tex2dms_srv
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ Since a multisampled 2D texture contains a single subresource, there is actually
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
  
 
  

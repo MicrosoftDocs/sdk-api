@@ -7,7 +7,7 @@ old-location: tspi\tspi_linegetcalladdressid.htm
 tech.root: tapi
 ms.assetid: 8dffbaa5-77fc-4653-84f9-f8e08141ee0e
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_lineGetCallAddressID, TSPI_lineGetCallAddressID function [TAPI 2.2], _tspi_tspi_linegetcalladdressid, tspi.tspi_linegetcalladdressid, tspi/TSPI_lineGetCallAddressID
 ms.prod: windows-hardware
 ms.technology: windows-devices

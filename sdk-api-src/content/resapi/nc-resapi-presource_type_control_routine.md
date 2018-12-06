@@ -7,7 +7,7 @@ old-location: mscs\resourcetypecontrol.htm
 tech.root: mscs
 ms.assetid: dc4a6e6e-f968-4502-88d0-dc692341528d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PRESOURCE_TYPE_CONTROL_ROUTINE, PRESOURCE_TYPE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceTypeControl, ResourceTypeControl callback, ResourceTypeControl callback function [Failover Cluster], _wolf_resourcetypecontrol, mscs.resourcetypecontrol, resapi/PRESOURCE_TYPE_CONTROL_ROUTINE, resapi/ResourceTypeControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

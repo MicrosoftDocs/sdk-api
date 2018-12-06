@@ -7,7 +7,7 @@ old-location: display\dd_surface_int.htm
 tech.root: display
 ms.assetid: b06f204c-e59a-4f13-ac6d-ff0860378312
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDD_SURFACE_INT, DD_SURFACE_INT, DD_SURFACE_INT structure [Display Devices], _DD_SURFACE_INT, ddrawint/DD_SURFACE_INT, ddstrcts_3cca7be6-adbb-4d60-a970-891adb294d72.xml, display.dd_surface_int"
 ms.prod: windows-hardware
 ms.technology: windows-devices

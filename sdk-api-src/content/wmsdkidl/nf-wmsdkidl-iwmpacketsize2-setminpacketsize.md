@@ -7,7 +7,7 @@ old-location: wmformat\iwmpacketsize2_setminpacketsize.htm
 tech.root: wmformat
 ms.assetid: 6d58da65-710c-46ea-8fb9-9d161df06483
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPacketSize2 interface [windows Media Format],SetMinPacketSize method, IWMPacketSize2.SetMinPacketSize, IWMPacketSize2::SetMinPacketSize, IWMPacketSize2SetMinPacketSize, SetMinPacketSize, SetMinPacketSize method [windows Media Format], SetMinPacketSize method [windows Media Format],IWMPacketSize2 interface, wmformat.iwmpacketsize2_setminpacketsize, wmsdkidl/IWMPacketSize2::SetMinPacketSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

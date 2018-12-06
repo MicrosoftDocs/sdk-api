@@ -7,7 +7,7 @@ old-location: base\enclave_information.htm
 tech.root: memory
 ms.assetid: 6720EDBE-6A0E-4192-A096-2ACA681E2AAF
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ENCLAVE_INFORMATION, ENCLAVE_INFORMATION structure, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.enclave_information, ntenclv/ENCLAVE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

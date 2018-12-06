@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_DEV_CAPS_Skip.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\skip.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumWIA_DEV_CAPS interface [WIA],Skip method, IEnumWIA_DEV_CAPS.Skip, IEnumWIA_DEV_CAPS::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWIA_DEV_CAPS interface, _wia_IEnumWIA_DEV_CAPS_Skip, wia._wia_IEnumWIA_DEV_CAPS_Skip, wia_xp/IEnumWIA_DEV_CAPS::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

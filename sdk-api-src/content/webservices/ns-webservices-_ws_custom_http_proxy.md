@@ -7,7 +7,7 @@ old-location: wsw\ws_custom_http_proxy.htm
 tech.root: wsw
 ms.assetid: cb666185-6a33-4e4c-a0b2-290f2f0bce4b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_CUSTOM_HTTP_PROXY, WS_CUSTOM_HTTP_PROXY structure [Web Services for Windows], _WS_CUSTOM_HTTP_PROXY, webservices/WS_CUSTOM_HTTP_PROXY, wsw.ws_custom_http_proxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

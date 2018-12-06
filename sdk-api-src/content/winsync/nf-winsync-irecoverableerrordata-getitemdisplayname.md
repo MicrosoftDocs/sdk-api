@@ -7,7 +7,7 @@ old-location: winsync\irecoverableerrordata_getitemdisplayname.htm
 tech.root: winsync
 ms.assetid: 6b40d528-18dc-4924-959a-cde5f02d18b1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetItemDisplayName, GetItemDisplayName method [Windows Sync], GetItemDisplayName method [Windows Sync],IRecoverableErrorData interface, IRecoverableErrorData interface [Windows Sync],GetItemDisplayName method, IRecoverableErrorData.GetItemDisplayName, IRecoverableErrorData::GetItemDisplayName, winsync.irecoverableerrordata_getitemdisplayname, winsync/IRecoverableErrorData::GetItemDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

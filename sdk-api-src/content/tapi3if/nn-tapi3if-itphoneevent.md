@@ -7,7 +7,7 @@ old-location: tapi3\itphoneevent.htm
 tech.root: tapi
 ms.assetid: cc3ca533-d523-4889-b3c7-bb306e49b85b
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITPhoneEvent, ITPhoneEvent interface [TAPI 2.2], ITPhoneEvent interface [TAPI 2.2],described, _tapi3_itphoneevent, tapi3.itphoneevent, tapi3if/ITPhoneEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: devinst\cm_set_devnode_property.htm
 tech.root: devinst
 ms.assetid: D6511A3B-F324-4153-8EAE-8C970AAE4E9D
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Set_DevNode_Property, CM_Set_DevNode_Property function [Device and Driver Installation], CM_Set_DevNode_PropertyW, cfgmgr32/CM_Set_DevNode_Property, cfgmgr32/CM_Set_DevNode_PropertyW, devinst.cm_set_devnode_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

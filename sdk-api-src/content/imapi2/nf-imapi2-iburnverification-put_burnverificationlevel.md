@@ -7,7 +7,7 @@ old-location: imapi\iburnverification_put_burnverificationlevel.htm
 tech.root: imapi
 ms.assetid: 71842038-91dc-4de5-8169-3bc97ef288c6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IBurnVerification interface [IMAPI],put_BurnVerificationLevel method, IBurnVerification.put_BurnVerificationLevel, IBurnVerification::put_BurnVerificationLevel, imapi.iburnverification_put_burnverificationlevel, imapi2/IBurnVerification::put_BurnVerificationLevel, put_BurnVerificationLevel, put_BurnVerificationLevel method [IMAPI], put_BurnVerificationLevel method [IMAPI],IBurnVerification interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\fsctl_query_region_info_input.htm
 tech.root: fileio
 ms.assetid: 2D098A85-F1EA-4538-9BFB-E04092497945
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PFSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT structure [Files], PFSCTL_QUERY_REGION_INFO_INPUT, PFSCTL_QUERY_REGION_INFO_INPUT structure pointer [Files], _FSCTL_QUERY_REGION_INFO_INPUT, fs.fsctl_query_region_info_input, winioctl/FSCTL_QUERY_REGION_INFO_INPUT, winioctl/PFSCTL_QUERY_REGION_INFO_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

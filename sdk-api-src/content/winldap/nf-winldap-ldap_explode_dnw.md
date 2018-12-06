@@ -7,7 +7,7 @@ old-location: ldap\ldap_explode_dn.htm
 tech.root: ldap
 ms.assetid: 9d151adf-f8b2-4ed1-8e25-86c95a89a948
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_explode_dn, ldap.ldap__explode__dn, ldap.ldap_explode_dn, ldap_explode_dn, ldap_explode_dn function [LDAP], ldap_explode_dnA, ldap_explode_dnW, winldap/ldap_explode_dn, winldap/ldap_explode_dnA, winldap/ldap_explode_dnW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

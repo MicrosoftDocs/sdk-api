@@ -7,7 +7,7 @@ old-location: fs\setfileapistooem.htm
 tech.root: fileio
 ms.assetid: 15f657d8-075a-4f0c-a653-73273ea62f5f
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: SetFileApisToOEM, SetFileApisToOEM function [Files], _win32_setfileapistooem, base.setfileapistooem, fileapi/SetFileApisToOEM, fs.setfileapistooem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_query_misc_flag.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_misc_flag.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D10_QUERY_MISC_FLAG, D3D10_QUERY_MISC_FLAG enumeration [Direct3D 10], D3D10_QUERY_MISC_PREDICATEHINT, afca49a1-e15e-21f0-d3cc-592d3ba4b0cd, d3d10/D3D10_QUERY_MISC_FLAG, d3d10/D3D10_QUERY_MISC_PREDICATEHINT, direct3d10.d3d10_query_misc_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,14 @@ Flags that describe miscellaneous query behavior.
 
 ### -field D3D10_QUERY_MISC_PREDICATEHINT
 
-Tell the hardware that if it is not yet sure if something is hidden or not to draw it anyway. This is only used with an occlusion predicate. Predication data cannot be returned to your application via <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> when using this flag.
+Tell the hardware that if it is not yet sure if something is hidden or not to draw it anyway. This is only used with an occlusion predicate. Predication data cannot be returned to your application via <a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">ID3D10Asynchronous::GetData</a> when using this flag.
 
 
 ## -remarks
 
 
 
-This flag is part of a query description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172405(v=VS.85).aspx">D3D10_QUERY_DESC</a>).
+This flag is part of a query description (see <a href="https://msdn.microsoft.com/50fab3df-78f7-4bac-b353-0e840873f13e">D3D10_QUERY_DESC</a>).
 
 
 
@@ -77,7 +77,7 @@ This flag is part of a query description (see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

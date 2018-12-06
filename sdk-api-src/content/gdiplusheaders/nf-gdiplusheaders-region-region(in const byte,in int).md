@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Region_regionData_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_35regiondata_size.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(IN const BYTE,IN INT), Region.Region(const BYTE*,INT), Region::Region, Region::Region(IN const BYTE,IN INT), _gdiplus_CLASS_Region_Region_regionData_size_, gdiplus._gdiplus_CLASS_Region_Region_regionData_size_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\ddtransferoutinfo.htm
 tech.root: display
 ms.assetid: 0c029912-0540-438a-a255-aeb1a58ad275
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDDTRANSFEROUTINFO, DDTRANSFEROUTINFO, DDTRANSFEROUTINFO structure [Display Devices], PDDTRANSFEROUTINFO, PDDTRANSFEROUTINFO structure pointer [Display Devices], Video_Structs_c2b03ae4-21b0-4c16-8ddc-e3ef4c79e6ff.xml, _DDTRANSFEROUTINFO, display.ddtransferoutinfo, dxmini/DDTRANSFEROUTINFO, dxmini/PDDTRANSFEROUTINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_message_state.htm
 tech.root: wsw
 ms.assetid: 2c5ddedd-b0b4-4c26-a5c0-a5851f0408de
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_MESSAGE_STATE, WS_MESSAGE_STATE enumeration [Web Services for Windows], WS_MESSAGE_STATE_DONE, WS_MESSAGE_STATE_EMPTY, WS_MESSAGE_STATE_INITIALIZED, WS_MESSAGE_STATE_READING, WS_MESSAGE_STATE_WRITING, webservices/WS_MESSAGE_STATE, webservices/WS_MESSAGE_STATE_DONE, webservices/WS_MESSAGE_STATE_EMPTY, webservices/WS_MESSAGE_STATE_INITIALIZED, webservices/WS_MESSAGE_STATE_READING, webservices/WS_MESSAGE_STATE_WRITING, wsw.ws_message_state
 ms.prod: windows-hardware
 ms.technology: windows-devices

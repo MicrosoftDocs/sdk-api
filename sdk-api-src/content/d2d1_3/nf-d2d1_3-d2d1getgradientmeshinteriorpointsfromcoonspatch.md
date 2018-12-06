@@ -7,7 +7,7 @@ old-location: direct2d\d2d1getgradientmeshinteriorpointsfromcoonspatch.htm
 tech.root: direct2d
 ms.assetid: 388d5cbf-cb15-f0c9-3f3b-897f68519a4c
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1GetGradientMeshInteriorPointsFromCoonsPatch, D2D1GetGradientMeshInteriorPointsFromCoonsPatch function [Direct2D], d2d1_3/D2D1GetGradientMeshInteriorPointsFromCoonsPatch, direct2d.d2d1getgradientmeshinteriorpointsfromcoonspatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

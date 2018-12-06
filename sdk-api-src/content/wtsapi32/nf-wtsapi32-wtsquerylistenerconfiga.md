@@ -7,7 +7,7 @@ old-location: termserv\wtsquerylistenerconfig.htm
 tech.root: termserv
 ms.assetid: abdcb98e-c00c-444f-a6f9-ce98161c8b62
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WTSQueryListenerConfig, WTSQueryListenerConfig function [Remote Desktop Services], WTSQueryListenerConfigA, WTSQueryListenerConfigW, termserv.wtsquerylistenerconfig, wtsapi32/WTSQueryListenerConfig, wtsapi32/WTSQueryListenerConfigA, wtsapi32/WTSQueryListenerConfigW
 ms.prod: windows-hardware
 ms.technology: windows-devices

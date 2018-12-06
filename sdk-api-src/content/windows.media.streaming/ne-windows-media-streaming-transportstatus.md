@@ -7,7 +7,7 @@ old-location: mediastreaming\transportstatus.htm
 tech.root: mediastreaming
 ms.assetid: 6fde82f0-9bc4-4abb-9d10-0000501c2b24
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ErrorOccurred, Last, Ok, TransportStatus, TransportStatus enumeration [Media Streaming API], Unknown, mediastreaming.transportstatus, windows/ErrorOccurred, windows/Last, windows/Ok, windows/TransportStatus, windows/Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,6 @@ Defines the available transport status as defined by the UPnP Guidelines.
 
 
 ### -field TransportStatus_Last
-
-
-### -field int
 
 
 

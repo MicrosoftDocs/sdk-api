@@ -7,7 +7,7 @@ old-location: fs\session_info_0_str.htm
 tech.root: NetShare
 ms.assetid: 6b39df47-f25c-41dd-ba15-6e6806c4ec89
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSESSION_INFO_0, *PSESSION_INFO_0, LPSESSION_INFO_0, LPSESSION_INFO_0 structure pointer [Files], PSESSION_INFO_0, PSESSION_INFO_0 structure pointer [Files], SESSION_INFO_0, SESSION_INFO_0 structure [Files], _SESSION_INFO_0, _win32_session_info_0_str, fs.session_info_0_str, lmshare/LPSESSION_INFO_0, lmshare/PSESSION_INFO_0, lmshare/SESSION_INFO_0, netmgmt.session_info_0_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

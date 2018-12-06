@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromrip.htm
 tech.root: WMP
 ms.assetid: c3e2db46-bef0-4c79-91b5-97ca5a86c6ba
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], IWMPCdromRip interface [Windows Media Player],described, IWMPCdromRipInterface, wmp.iwmpcdromrip, wmp/IWMPCdromRip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrm\iwsmansession_put.htm
 tech.root: winrm
 ms.assetid: 1224dab8-82d1-4416-8c21-e84fdda15deb
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Put method, IWSManSession.Put, IWSManSession::Put, Put, Put method [Windows Remote Management], Put method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_put, wsmandisp/IWSManSession::Put
 ms.prod: windows-hardware
 ms.technology: windows-devices

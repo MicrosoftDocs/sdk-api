@@ -7,7 +7,7 @@ old-location: multimedia\drawdibgetpalette.htm
 tech.root: Multimedia
 ms.assetid: 38ed99a7-f704-467b-a23f-a19c990d0b10
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: DrawDibGetPalette, DrawDibGetPalette function [Windows Multimedia], _win32_DrawDibGetPalette, multimedia.drawdibgetpalette, vfw/DrawDibGetPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

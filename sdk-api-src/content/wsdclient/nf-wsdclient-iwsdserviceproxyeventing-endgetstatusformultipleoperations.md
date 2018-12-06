@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxyeventing_endgetstatusformultipleoperations.htm
 tech.root: wsdapi
 ms.assetid: 0918ef4f-29ae-4c74-9b7d-0e7adb514c7b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: EndGetStatusForMultipleOperations, EndGetStatusForMultipleOperations method, EndGetStatusForMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndGetStatusForMultipleOperations method, IWSDServiceProxyEventing.EndGetStatusForMultipleOperations, IWSDServiceProxyEventing::EndGetStatusForMultipleOperations, ncd.iwsdserviceproxyeventing_endgetstatusformultipleoperations, wsdclient/IWSDServiceProxyEventing::EndGetStatusForMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

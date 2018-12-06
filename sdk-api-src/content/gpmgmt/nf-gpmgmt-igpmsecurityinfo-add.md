@@ -7,7 +7,7 @@ old-location: gpmc\igpmsecurityinfo_add.htm
 tech.root: gpmc
 ms.assetid: d180a4ed-7c7d-4df9-a2a4-7aab46446283
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],GPMSecurityInfo class, Add method [GPMC],IGPMSecurityInfo interface, GPMSecurityInfo class [GPMC],Add method, IGPMSecurityInfo interface [GPMC],Add method, IGPMSecurityInfo.Add, IGPMSecurityInfo::Add, _win32_igpmsecurityinfo_add, gpmc.igpmsecurityinfo_add, gpmgmt/IGPMSecurityInfo::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

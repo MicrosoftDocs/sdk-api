@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactionreport_reporttypes.htm
 tech.root: fsrm
 ms.assetid: 942b9a7f-06b2-45bf-8398-b4c68a168a73
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmActionReport interface [File Server Resource Manager],ReportTypes property, IFsrmActionReport.ReportTypes, IFsrmActionReport.get_ReportTypes, IFsrmActionReport::ReportTypes, IFsrmActionReport::get_ReportTypes, IFsrmActionReport::put_ReportTypes, ReportTypes property [File Server Resource Manager], ReportTypes property [File Server Resource Manager],IFsrmActionReport interface, fs.ifsrmactionreport_reporttypes, fsrm.ifsrmactionreport_reporttypes, fsrm/IFsrmActionReport::ReportTypes, fsrm/IFsrmActionReport::get_ReportTypes, fsrm/IFsrmActionReport::put_ReportTypes, get_ReportTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

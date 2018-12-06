@@ -7,7 +7,7 @@ old-location: shell\IEnumReadyCallback.htm
 tech.root: shell
 ms.assetid: 6c36e13d-9bd8-4ec1-980a-dc4ebd4dbcd9
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumReadyCallback, IEnumReadyCallback interface [Windows Shell], IEnumReadyCallback interface [Windows Shell],described, _shell_IEnumReadyCallback, shell.IEnumReadyCallback, shobjidl/IEnumReadyCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

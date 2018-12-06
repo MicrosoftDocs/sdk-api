@@ -7,7 +7,7 @@ old-location: mscs\offlineclustergroupex.htm
 tech.root: mscs
 ms.assetid: ED22150C-7149-4CED-9C9B-356BCEEBF11F
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: OfflineClusterGroupEx, OfflineClusterGroupEx function [Failover Cluster], clusapi/OfflineClusterGroupEx, mscs.offlineclustergroupex
 ms.prod: windows-hardware
 ms.technology: windows-devices

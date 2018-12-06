@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob4.htm
 tech.root: bits
 ms.assetid: 68909710-f749-487e-b064-9f8630929c53
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob4, IBackgroundCopyJob4 interface [BITS], IBackgroundCopyJob4 interface [BITS],described, bits.ibackgroundcopyjob4, bits3_0/IBackgroundCopyJob4
 ms.prod: windows-hardware
 ms.technology: windows-devices

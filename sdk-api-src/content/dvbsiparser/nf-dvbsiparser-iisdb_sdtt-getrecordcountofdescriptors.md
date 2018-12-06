@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: 04f32111-4c4b-4f5b-81d1-fa7c19841cd8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IISDB_SDTT.GetRecordCountOfDescriptors, IISDB_SDTT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_SDTT::GetRecordCountOfDescriptors, mstv.iisdb_sdtt_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

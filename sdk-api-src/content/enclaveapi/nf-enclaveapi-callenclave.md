@@ -7,7 +7,7 @@ old-location: base\callenclave.htm
 tech.root: memory
 ms.assetid: 4C495245-381F-4561-970D-5FCEC105276B
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CallEnclave, CallEnclave function, base.callenclave, enclaveapi/CallEnclave
 ms.prod: windows-hardware
 ms.technology: windows-devices

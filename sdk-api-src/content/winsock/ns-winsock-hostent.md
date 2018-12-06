@@ -1,13 +1,13 @@
 ---
 UID: NS:winsock.hostent
-title: hostent
+title: HOSTENT
 author: windows-sdk-content
 description: The hostent structure is used by functions to store information about a given host, such as host name, IPv4 address, and so forth.
 old-location: winsock\hostent_2.htm
 tech.root: winsock
 ms.assetid: f194b9d5-dfaf-4a02-95c6-6d06015aad1d
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPHOSTENT, *PHOSTENT, FAR *LPHOSTENT, FAR *LPHOSTENT structure [Winsock], HOSTENT, HOSTENT structure [Winsock], PHOSTENT, PHOSTENT structure pointer [Winsock], _win32_hostent_2, hostent, hostent structure [Winsock], winsock.hostent_2, winsock/FAR *LPHOSTENT, winsock/PHOSTENT, winsock/hostent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.typenames: HOSTENT, *PHOSTENT, *LPHOSTENT
 req.redist: 
 ---
 
-# hostent structure
+# HOSTENT structure
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: wsw\wsadderrorstring.htm
 tech.root: wsw
 ms.assetid: 5fdad296-5024-4360-b1c5-f0192929c612
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsAddErrorString, WsAddErrorString function [Web Services for Windows], webservices/WsAddErrorString, wsw.wsadderrorstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

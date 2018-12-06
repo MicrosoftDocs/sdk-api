@@ -7,7 +7,7 @@ old-location: shell\icreateprocessinputs.htm
 tech.root: shell
 ms.assetid: 2C1756A3-FF40-4FBF-860D-06BB415DB695
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ICreateProcessInputs, ICreateProcessInputs interface [Windows Shell], ICreateProcessInputs interface [Windows Shell],described, shell.icreateprocessinputs, shobjidl_core/ICreateProcessInputs
 ms.prod: windows-hardware
 ms.technology: windows-devices

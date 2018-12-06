@@ -7,7 +7,7 @@ old-location: winrm\wsmangetsessionoptionasstring.htm
 tech.root: winrm
 ms.assetid: 7fb1cec5-059f-4710-868a-d34c6ae2fd2a
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: WSManGetSessionOptionAsString, WSManGetSessionOptionAsString function [Windows Remote Management], winrm.wsmangetsessionoptionasstring, wsman/WSManGetSessionOptionAsString
 ms.prod: windows-hardware
 ms.technology: windows-devices

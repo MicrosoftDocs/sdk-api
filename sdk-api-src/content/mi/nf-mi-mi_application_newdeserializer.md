@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application_newdeserializer.htm
 tech.root: wmi_v2
 ms.assetid: e58c69ce-032a-4024-9023-53cd1776b7f3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Application_NewDeserializer, MI_Application_NewDeserializer function [Windows Management Infrastructure (MI)], mi/MI_Application_NewDeserializer, wmi_v2.mi_application_newdeserializer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_Application_NewDeserializer
-: 
 ---
 
 # MI_Application_NewDeserializer function

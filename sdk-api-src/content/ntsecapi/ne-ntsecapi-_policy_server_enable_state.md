@@ -7,7 +7,7 @@ old-location: security\policy_server_enable_state.htm
 tech.root: secmgmt
 ms.assetid: aae5875e-ca55-4571-a9a4-684280ae8aa0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPOLICY_SERVER_ENABLE_STATE, POLICY_SERVER_ENABLE_STATE, POLICY_SERVER_ENABLE_STATE enumeration [Security], PPOLICY_SERVER_ENABLE_STATE, PPOLICY_SERVER_ENABLE_STATE enumeration pointer [Security], PolicyServerDisabled, PolicyServerEnabled, _POLICY_SERVER_ENABLE_STATE, _lsa_policy_server_enable_state, ntsecapi/POLICY_SERVER_ENABLE_STATE, ntsecapi/PPOLICY_SERVER_ENABLE_STATE, ntsecapi/PolicyServerDisabled, ntsecapi/PolicyServerEnabled, security.policy_server_enable_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices

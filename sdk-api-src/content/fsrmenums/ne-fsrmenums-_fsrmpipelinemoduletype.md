@@ -7,7 +7,7 @@ old-location: fsrm\fsrmpipelinemoduletype.htm
 tech.root: fsrm
 ms.assetid: a482c371-a01c-486b-b25b-d22283dba652
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FsrmPipelineModuleType, FsrmPipelineModuleType enumeration [File Server Resource Manager], FsrmPipelineModuleType_Classifier, FsrmPipelineModuleType_Storage, FsrmPipelineModuleType_Unknown, _FsrmPipelineModuleType, fs.fsrmpipelinemoduletype, fsrm.fsrmpipelinemoduletype, fsrmenums/FsrmPipelineModuleType, fsrmenums/FsrmPipelineModuleType_Classifier, fsrmenums/FsrmPipelineModuleType_Storage, fsrmenums/FsrmPipelineModuleType_Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

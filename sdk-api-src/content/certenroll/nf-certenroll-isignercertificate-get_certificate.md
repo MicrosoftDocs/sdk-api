@@ -7,7 +7,7 @@ old-location: security\isignercertificate_certificate_property.htm
 tech.root: seccertenroll
 ms.assetid: 7c7cc326-593d-4b2b-b8db-46aaf894279b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Certificate property [Security], Certificate property [Security],ISignerCertificate interface, ISignerCertificate interface [Security],Certificate property, ISignerCertificate.Certificate, ISignerCertificate.get_Certificate, ISignerCertificate::Certificate, ISignerCertificate::get_Certificate, certenroll/ISignerCertificate::Certificate, certenroll/ISignerCertificate::get_Certificate, get_Certificate, security.isignercertificate_certificate_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itffnballoon.htm
 tech.root: TSF
 ms.assetid: 9b79526b-b7e1-41a2-b32e-88124347d77d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITfFnBalloon, ITfFnBalloon interface [Text Services Framework], ITfFnBalloon interface [Text Services Framework],described, _tsf_itffnballoon_ref, ctffunc/ITfFnBalloon, tsf.itffnballoon
 ms.prod: windows-hardware
 ms.technology: windows-devices

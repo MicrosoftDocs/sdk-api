@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineaccept.htm
 tech.root: tapi
 ms.assetid: 2690992b-b155-4ae9-816a-e5fafaffa033
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_lineAccept, TSPI_lineAccept function [TAPI 2.2], _tspi_tspi_lineaccept, tspi.tspi_lineaccept, tspi/TSPI_lineAccept
 ms.prod: windows-hardware
 ms.technology: windows-devices

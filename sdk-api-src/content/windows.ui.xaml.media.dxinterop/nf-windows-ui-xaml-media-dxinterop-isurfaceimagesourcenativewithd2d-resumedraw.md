@@ -7,7 +7,7 @@ old-location: winrt\isurfaceimagesourcenativewithd2d_resumedraw.htm
 tech.root: WinRT
 ms.assetid: 0A1FD29B-6340-49F5-BBF3-2E621FB16925
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],ResumeDraw method, ISurfaceImageSourceNativeWithD2D.ResumeDraw, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::ResumeDraw, ISurfaceImageSourceNativeWithD2D::xaml, ResumeDraw, ResumeDraw method [Windows Runtime], ResumeDraw method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, windows/ISurfaceImageSourceNativeWithD2D::ResumeDraw, winrt.isurfaceimagesourcenativewithd2d_resumedraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

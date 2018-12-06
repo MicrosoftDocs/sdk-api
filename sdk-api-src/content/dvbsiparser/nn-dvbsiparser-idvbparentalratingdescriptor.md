@@ -7,7 +7,7 @@ old-location: mstv\idvbparentalratingdescriptor.htm
 tech.root: mstv
 ms.assetid: 667ef815-ef22-4dd1-9457-49af674b24ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDvbParentalRatingDescriptor, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies], IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbParentalRatingDescriptor, mstv.idvbparentalratingdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

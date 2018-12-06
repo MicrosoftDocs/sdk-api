@@ -7,7 +7,7 @@ old-location: security\getsidsubauthoritycount.htm
 tech.root: secauthz
 ms.assetid: ca81fb91-f5a1-4dc6-83ec-eadb62a37805
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetSidSubAuthorityCount, GetSidSubAuthorityCount function [Security], _win32_getsidsubauthoritycount, security.getsidsubauthoritycount, securitybaseapi/GetSidSubAuthorityCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

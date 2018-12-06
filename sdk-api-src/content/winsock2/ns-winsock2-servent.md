@@ -1,13 +1,13 @@
 ---
 UID: NS:winsock2.servent
-title: servent
+title: SERVENT
 author: windows-sdk-content
 description: The servent structure is used to store or return the name and service number for a given service name.
 old-location: winsock\servent_2.htm
 tech.root: winsock
 ms.assetid: 8696b854-4d37-4d1b-8383-169b5dc7a2ae
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSERVENT, *PSERVENT, FAR *LPSERVENT, FAR *LPSERVENT structure [Winsock], PSERVENT, PSERVENT structure pointer [Winsock], SERVENT, SERVENT structure [Winsock], _win32_servent_2, servent, servent structure [Winsock], winsock.servent_2, winsock/FAR *LPSERVENT, winsock/PSERVENT, winsock/servent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.typenames: SERVENT, *PSERVENT, *LPSERVENT
 req.redist: 
 ---
 
-# servent structure
+# SERVENT structure
 
 
 ## -description

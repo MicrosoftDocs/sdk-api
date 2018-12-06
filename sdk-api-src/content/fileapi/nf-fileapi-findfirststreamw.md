@@ -7,7 +7,7 @@ old-location: fs\findfirststreamw.htm
 tech.root: fileio
 ms.assetid: aab3af94-a2e0-45ad-a846-f457408a19d5
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: FindFirstStreamW, FindFirstStreamW function [Files], FindStreamInfoStandard, _win32_findfirststreamw, base.findfirststreamw, fileapi/FindFirstStreamW, fs.findfirststreamw
 ms.prod: windows-hardware
 ms.technology: windows-devices

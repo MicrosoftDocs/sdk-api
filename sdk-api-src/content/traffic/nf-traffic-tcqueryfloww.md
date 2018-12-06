@@ -7,7 +7,7 @@ old-location: qos\tcqueryflow.htm
 tech.root: QOS
 ms.assetid: 3662fdac-9d8c-4e8d-a56e-2b34d9597211
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TcQueryFlow, TcQueryFlow function [QOS], TcQueryFlowA, TcQueryFlowW, _gqos_tcqueryflow, qos.tcqueryflow, traffic/TcQueryFlow, traffic/TcQueryFlowA, traffic/TcQueryFlowW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: stg\setconvertstg.htm
 tech.root: stg
 ms.assetid: 98c8fd20-6384-4656-941c-1f24d9a4d4a9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: SetConvertStg, SetConvertStg function [Structured Storage], _stg_setconvertstg, ole2/SetConvertStg, stg.setconvertstg
 ms.prod: windows-hardware
 ms.technology: windows-devices

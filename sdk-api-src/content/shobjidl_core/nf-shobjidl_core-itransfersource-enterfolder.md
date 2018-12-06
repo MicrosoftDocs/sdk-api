@@ -7,7 +7,7 @@ old-location: shell\ITransferSource_EnterFolder.htm
 tech.root: shell
 ms.assetid: de6b1b03-450f-4d48-b0f4-67e268feb36a
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: EnterFolder, EnterFolder method [Windows Shell], EnterFolder method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],EnterFolder method, ITransferSource.EnterFolder, ITransferSource::EnterFolder, _shell_ITransferSource_EnterFolder, shell.ITransferSource_EnterFolder, shobjidl_core/ITransferSource::EnterFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dxmath\xmconverthalftofloat.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertHalfToFloat(HALF)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DirectX::PackedVector.XMConvertHalfToFloat, XMConvertHalfToFloat, XMConvertHalfToFloat method [DirectX Math Support APIs], dxmath.xmconverthalftofloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMConvertHalfToFloat
-: 
 ---
 
 # XMConvertHalfToFloat function
@@ -101,7 +95,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437922(v=VS.85).aspx">XMConvertHalfToFloatStream</a>
+<a href="https://msdn.microsoft.com/BBE16FD0-1434-4041-A27D-2D1408ACF3F3">XMConvertHalfToFloatStream</a>
  
 
  

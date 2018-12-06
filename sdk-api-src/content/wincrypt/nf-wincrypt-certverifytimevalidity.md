@@ -7,7 +7,7 @@ old-location: security\certverifytimevalidity.htm
 tech.root: seccrypto
 ms.assetid: 9ccf9230-e998-4f82-9db0-6cbaa1c36850
 ms.author: windowssdkdev
-ms.date: 12/04/2018
+ms.date: 12/5/2018
 ms.keywords: CertVerifyTimeValidity, CertVerifyTimeValidity function [Security], _crypto2_certverifytimevalidity, security.certverifytimevalidity, wincrypt/CertVerifyTimeValidity
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\Header_SetFilterChangeTimeout.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setfilterchangetimeout.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: Header_SetFilterChangeTimeout, Header_SetFilterChangeTimeout macro [Windows Controls], _win32_Header_SetFilterChangeTimeout, _win32_Header_SetFilterChangeTimeout_cpp, commctrl/Header_SetFilterChangeTimeout, controls.Header_SetFilterChangeTimeout, controls._win32_Header_SetFilterChangeTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

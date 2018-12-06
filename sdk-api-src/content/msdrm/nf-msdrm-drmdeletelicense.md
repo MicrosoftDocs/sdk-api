@@ -7,7 +7,7 @@ old-location: rm\drmdeletelicense.htm
 tech.root: AdRms_Sdk
 ms.assetid: 596f9959-0beb-4051-87c4-b8704abd8fc0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMDeleteLicense, DRMDeleteLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDeleteLicense, rm.drmdeletelicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

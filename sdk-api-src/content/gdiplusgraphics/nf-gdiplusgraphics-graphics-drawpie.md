@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPie_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawpiemethods.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DrawPie, DrawPie methods [GDI+], Graphics.DrawPie, Graphics::DrawPie, _gdiplus_CLASS_Graphics_DrawPie_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawPie_Methods, gdiplusgraphics/DrawPie
 ms.prod: windows-hardware
 ms.technology: windows-devices

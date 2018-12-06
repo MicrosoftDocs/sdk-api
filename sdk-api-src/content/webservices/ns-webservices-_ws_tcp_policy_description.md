@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_policy_description.htm
 tech.root: wsw
 ms.assetid: 7114ea0f-b7c7-4fe8-b46c-065f4dd88824
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_TCP_POLICY_DESCRIPTION, WS_TCP_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_TCP_POLICY_DESCRIPTION, webservices/WS_TCP_POLICY_DESCRIPTION, wsw.ws_tcp_policy_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

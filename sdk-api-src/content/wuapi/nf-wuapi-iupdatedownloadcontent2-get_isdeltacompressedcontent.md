@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloadcontent2_isdeltacompressedcontent.htm
 tech.root: wua_sdk
 ms.assetid: 1140051f-c2cd-4fe1-b7fd-aa21bbcd7889
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdateDownloadContent2 interface [Windows Update Agent],IsDeltaCompressedContent property, IUpdateDownloadContent2.IsDeltaCompressedContent, IUpdateDownloadContent2.get_IsDeltaCompressedContent, IUpdateDownloadContent2::IsDeltaCompressedContent, IUpdateDownloadContent2::get_IsDeltaCompressedContent, IsDeltaCompressedContent property [Windows Update Agent], IsDeltaCompressedContent property [Windows Update Agent],IUpdateDownloadContent2 interface, get_IsDeltaCompressedContent, wua.iupdatedownloadcontent2_isdeltacompressedcontent, wuapi/IUpdateDownloadContent2::IsDeltaCompressedContent, wuapi/IUpdateDownloadContent2::get_IsDeltaCompressedContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccess_informuiclosed.htm
 tech.root: mstv
 ms.assetid: 8f9dcd29-ccd9-4154-bf11-932a3635c156
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],InformUIClosed method, IBDA_ConditionalAccess.InformUIClosed, IBDA_ConditionalAccess::InformUIClosed, IBDA_ConditionalAccessInformUIClosed, InformUIClosed, InformUIClosed method [Microsoft TV Technologies], InformUIClosed method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::InformUIClosed, mstv.ibda_conditionalaccess_informuiclosed
 ms.prod: windows-hardware
 ms.technology: windows-devices

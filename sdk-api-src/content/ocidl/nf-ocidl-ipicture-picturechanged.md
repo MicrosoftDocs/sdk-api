@@ -7,7 +7,7 @@ old-location: com\ipicture_picturechanged.htm
 tech.root: com
 ms.assetid: 60485293-8d5b-4f9f-a529-746ea3371491
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IPicture interface [COM],PictureChanged method, IPicture.PictureChanged, IPicture::PictureChanged, PictureChanged, PictureChanged method [COM], PictureChanged method [COM],IPicture interface, _ctrl_ipicture_picturechanged, com.ipicture_picturechanged, ocidl/IPicture::PictureChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

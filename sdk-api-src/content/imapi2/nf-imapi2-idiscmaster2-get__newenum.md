@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster2_get__newenum.htm
 tech.root: imapi
 ms.assetid: f148a1c0-cb76-40e9-9749-a074f04c93e8
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get__NewEnum method, IDiscMaster2.get__NewEnum, IDiscMaster2::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get__newenum, imapi2/IDiscMaster2::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IComputerInfoChangeNotify.htm
 tech.root: shell
 ms.assetid: 47b853f7-3ee9-4884-94ab-bdcacfa0c2ef
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IComputerInfoChangeNotify, IComputerInfoChangeNotify interface [Windows Shell], IComputerInfoChangeNotify interface [Windows Shell],described, _shell_IComputerInfoChangeNotify, shell.IComputerInfoChangeNotify, shobjidl/IComputerInfoChangeNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

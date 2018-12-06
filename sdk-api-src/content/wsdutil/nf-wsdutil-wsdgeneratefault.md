@@ -7,7 +7,7 @@ old-location: ncd\wsdgeneratefault.htm
 tech.root: wsdapi
 ms.assetid: eebecf71-2572-4e20-ad40-b1a2f811bedf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DataEncodingUnknown, MustUnderstand, Receiver, Sender, VersionMismatch, WSDGenerateFault, WSDGenerateFault function, ncd.wsdgeneratefault, wsdutil/WSDGenerateFault
 ms.prod: windows-hardware
 ms.technology: windows-devices

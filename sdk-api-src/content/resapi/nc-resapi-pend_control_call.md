@@ -7,7 +7,7 @@ old-location: mscs\endcontrolcall.htm
 tech.root: mscs
 ms.assetid: 0FB2C129-B98C-4570-8621-6BAD46911682
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: EndControlCall, EndControlCall callback, EndControlCall callback function [Failover Cluster], PEND_CONTROL_CALL, PEND_CONTROL_CALL callback function [Failover Cluster], mscs.endcontrolcall, resapi/EndControlCall, resapi/PEND_CONTROL_CALL
 ms.prod: windows-hardware
 ms.technology: windows-devices

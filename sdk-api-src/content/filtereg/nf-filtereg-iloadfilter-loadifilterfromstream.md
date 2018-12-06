@@ -7,7 +7,7 @@ old-location: search\iloadfilter_loadifilterfromstream.htm
 tech.root: search
 ms.assetid: 6a577306-d5ff-43c1-ab9f-3a7437661d2a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilterFromStream method, ILoadFilter.LoadIFilterFromStream, ILoadFilter::LoadIFilterFromStream, LoadIFilterFromStream, LoadIFilterFromStream method [search], LoadIFilterFromStream method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilterFromStream, search.iloadfilter_loadifilterfromstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

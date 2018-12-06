@@ -7,7 +7,7 @@ old-location: mbn\imbnmulticarrier_getcurrentcellularclass.htm
 tech.root: mbn
 ms.assetid: 8DA29C25-3866-4BCA-8591-F8408A1C1401
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurrentCellularClass, GetCurrentCellularClass method [Microsoft Broadband Networks], GetCurrentCellularClass method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetCurrentCellularClass method, IMbnMultiCarrier.GetCurrentCellularClass, IMbnMultiCarrier::GetCurrentCellularClass, mbn.imbnmulticarrier_getcurrentcellularclass, mbnapi/IMbnMultiCarrier::GetCurrentCellularClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

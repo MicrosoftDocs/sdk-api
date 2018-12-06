@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2_put_endingsectorspersecond.htm
 tech.root: imapi
 ms.assetid: 7060578d-c6d5-4155-9ab8-7185bde38f64
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_EndingSectorsPerSecond method, IWriteEngine2.put_EndingSectorsPerSecond, IWriteEngine2::put_EndingSectorsPerSecond, imapi.iwriteengine2_put_endingsectorspersecond, imapi2/IWriteEngine2::put_EndingSectorsPerSecond, put_EndingSectorsPerSecond, put_EndingSectorsPerSecond method [IMAPI], put_EndingSectorsPerSecond method [IMAPI],IWriteEngine2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: stg\istorage_renameelement.htm
 tech.root: stg
 ms.assetid: 9d88b2e0-8b68-4607-8f96-5e36e831c283
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IStorage interface [Structured Storage],RenameElement method, IStorage.RenameElement, IStorage::RenameElement, RenameElement, RenameElement method [Structured Storage], RenameElement method [Structured Storage],IStorage interface, _stg_istorage_renameelement, objidl/IStorage::RenameElement, stg.istorage_renameelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

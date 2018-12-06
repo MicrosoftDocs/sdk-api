@@ -7,7 +7,7 @@ old-location: base\getwritewatch.htm
 tech.root: memory
 ms.assetid: fa1426fe-4a1d-4300-b6f3-3e9e2272b8d3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetWriteWatch, GetWriteWatch function, _win32_getwritewatch, base.getwritewatch, winbase/GetWriteWatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

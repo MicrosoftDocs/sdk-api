@@ -7,7 +7,7 @@ old-location: dshow\am_dvd_stream_flags.htm
 tech.root: DirectShow
 ms.assetid: 3fb3e57f-7c0b-4a49-b83d-798c84b2d5d1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AM_DVD_STREAM_AUDIO, AM_DVD_STREAM_FLAGS, AM_DVD_STREAM_FLAGS , AM_DVD_STREAM_FLAGS enumeration [DirectShow], AM_DVD_STREAM_FLAGSEnumeration, AM_DVD_STREAM_SUBPIC, AM_DVD_STREAM_VIDEO, _AM_DVD_STREAM_FLAGS, dshow.am_dvd_stream_flags, strmif/AM_DVD_STREAM_AUDIO, strmif/AM_DVD_STREAM_FLAGS, strmif/AM_DVD_STREAM_SUBPIC, strmif/AM_DVD_STREAM_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices

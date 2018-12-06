@@ -7,7 +7,7 @@ old-location: base\heap_information_class.htm
 tech.root: memory
 ms.assetid: 4D1B21D2-1F0E-4DC8-A583-220E9891DBBF
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: HEAP_INFORMATION_CLASS, HEAP_INFORMATION_CLASS enumeration, HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, _HEAP_INFORMATION_CLASS, base.heap_information_class, winnt/HEAP_INFORMATION_CLASS, winnt/HeapCompatibilityInformation, winnt/HeapEnableTerminationOnCorruption
 ms.prod: windows-hardware
 ms.technology: windows-devices

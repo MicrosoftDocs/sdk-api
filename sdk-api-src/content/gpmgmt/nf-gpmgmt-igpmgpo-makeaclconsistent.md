@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_makeaclconsistent.htm
 tech.root: gpmc
 ms.assetid: 936e7795-e5ab-4014-86df-6b74ab122b11
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GPMGPO class [GPMC],MakeACLConsistent method, IGPMGPO interface [GPMC],MakeACLConsistent method, IGPMGPO.MakeACLConsistent, IGPMGPO::MakeACLConsistent, MakeACLConsistent, MakeACLConsistent method [GPMC], MakeACLConsistent method [GPMC],GPMGPO class, MakeACLConsistent method [GPMC],IGPMGPO interface, gpmc.igpmgpo_makeaclconsistent, gpmgmt/IGPMGPO::MakeACLConsistent
 ms.prod: windows-hardware
 ms.technology: windows-devices

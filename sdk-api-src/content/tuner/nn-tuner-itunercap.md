@@ -7,7 +7,7 @@ old-location: mstv\itunercap.htm
 tech.root: mstv
 ms.assetid: d7027ff4-4fb9-48c1-b527-92e65009b089
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITunerCap, ITunerCap interface [Microsoft TV Technologies], ITunerCap interface [Microsoft TV Technologies],described, ITunerCapInterface, mstv.itunercap, tuner/ITunerCap
 ms.prod: windows-hardware
 ms.technology: windows-devices

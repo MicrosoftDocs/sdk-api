@@ -7,7 +7,7 @@ old-location: gpmc\igpmdomain_restoregpo.htm
 tech.root: gpmc
 ms.assetid: 8e202ea1-ca5c-4757-950b-ea1802699b68
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GPMDomain object [GPMC],RestoreGPO method, IGPMDomain interface [GPMC],RestoreGPO method, IGPMDomain.RestoreGPO, IGPMDomain::RestoreGPO, RestoreGPO, RestoreGPO method [GPMC], RestoreGPO method [GPMC],GPMDomain object, RestoreGPO method [GPMC],IGPMDomain interface, _win32_igpmdomain_restoregpo, gpmc.igpmdomain_restoregpo, gpmgmt/IGPMDomain::RestoreGPO
 ms.prod: windows-hardware
 ms.technology: windows-devices

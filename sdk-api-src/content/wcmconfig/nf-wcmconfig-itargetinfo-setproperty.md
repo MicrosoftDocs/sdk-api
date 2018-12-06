@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_setproperty.htm
 tech.root: SMI
 ms.assetid: ecd93710-a9e8-41cf-b30c-97d1efe0fa6f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITargetInfo interface [SMI],SetProperty method, ITargetInfo.SetProperty, ITargetInfo::SetProperty, SetProperty, SetProperty method [SMI], SetProperty method [SMI],ITargetInfo interface, smi.itargetinfo_setproperty, wcmconfig/ITargetInfo::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

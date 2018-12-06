@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_nativenames.htm
 tech.root: secauthn
 ms.assetid: f935093f-5661-4ced-94f1-c4b21c3b9f69
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSecPkgContext_NativeNamesW, PSecPkgContext_NativeNames, PSecPkgContext_NativeNames structure pointer [Security], SecPkgContext_NativeNames, SecPkgContext_NativeNames structure [Security], SecPkgContext_NativeNamesW, _SecPkgContext_NativeNamesA, _SecPkgContext_NativeNamesW, security.secpkgcontext_nativenames, sspi/PSecPkgContext_NativeNames, sspi/SecPkgContext_NativeNames"
 ms.prod: windows-hardware
 ms.technology: windows-devices

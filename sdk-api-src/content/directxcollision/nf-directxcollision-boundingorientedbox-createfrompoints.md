@@ -1,17 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.CreateFromPoints
-title: CreateFromPoints function
+title: BoundingOrientedBox::CreateFromPoints
 author: windows-sdk-content
 description: Creates a BoundingOrientedBox from a collection of points.
 old-location: dxmath\boundingorientedbox_createfrompoints.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.CreateFromPoints(BoundingOrientedBox@,size_t,XMFLOAT3,size_t)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],CreateFromPoints method, BoundingOrientedBox.CreateFromPoints, CreateFromPoints method [DirectX Math Support APIs], CreateFromPoints method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_createfrompoints
+ms.date: 12/5/2018
+ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],CreateFromPoints method, BoundingOrientedBox.CreateFromPoints, BoundingOrientedBox::CreateFromPoints, CreateFromPoints, CreateFromPoints method [DirectX Math Support APIs], CreateFromPoints method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_createfrompoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateFromPoints
-: 
 ---
 
-# CreateFromPoints function
+# BoundingOrientedBox::CreateFromPoints
 
 
 ## -description

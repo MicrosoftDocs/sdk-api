@@ -7,7 +7,7 @@ old-location: wab\_wab_IWABObject_GetMe.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\getme.htm
 ms.author: windowssdkdev
-ms.date: 11/28/2018
+ms.date: 12/5/2018
 ms.keywords: AB_NO_DIALOG, GetMe, GetMe method [Windows Address Book], GetMe method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],GetMe method, IWABObject.GetMe, IWABObject::GetMe, WABOBJECT_ME_NOCREATE, _wab_IWABObject_GetMe, wab._wab_IWABObject_GetMe, wabapi/IWABObject::GetMe
 ms.prod: windows-hardware
 ms.technology: windows-devices

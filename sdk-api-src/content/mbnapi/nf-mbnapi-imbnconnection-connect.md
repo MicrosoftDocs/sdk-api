@@ -7,7 +7,7 @@ old-location: mbn\imbnconnection_connect.htm
 tech.root: mbn
 ms.assetid: 66acb84e-8e0f-4ff1-abc4-b32f782ce9f3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Connect, Connect method [Microsoft Broadband Networks], Connect method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],Connect method, IMbnConnection.Connect, IMbnConnection::Connect, mbn.imbnconnection_connect, mbnapi/IMbnConnection::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

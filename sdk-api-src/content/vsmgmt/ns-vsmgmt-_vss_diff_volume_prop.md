@@ -7,7 +7,7 @@ old-location: base\vss_diff_volume_prop.htm
 tech.root: vss
 ms.assetid: c4a20583-7fee-4ae1-97ed-d80b2a7539e3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP structure pointer [VSS], VSS_DIFF_VOLUME_PROP, VSS_DIFF_VOLUME_PROP structure [VSS], _VSS_DIFF_VOLUME_PROP, base.vss_diff_volume_prop, vsmgmt/PVSS_DIFF_VOLUME_PROP, vsmgmt/VSS_DIFF_VOLUME_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

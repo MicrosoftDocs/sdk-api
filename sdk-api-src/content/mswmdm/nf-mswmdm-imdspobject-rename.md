@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_rename.htm
 tech.root: WMDM
 ms.assetid: 3da6a4a4-6e3b-4907-a466-5a5bd34f4374
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Rename method, IMDSPObject.Rename, IMDSPObject::Rename, IMDSPObjectRename, Rename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Rename, wmdm.imdspobject_rename
 ms.prod: windows-hardware
 ms.technology: windows-devices

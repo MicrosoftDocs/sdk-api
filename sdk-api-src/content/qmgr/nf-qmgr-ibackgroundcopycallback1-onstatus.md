@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopycallback1_onstatus.htm
 tech.root: bits
 ms.assetid: 88f75a65-8d27-4413-8b00-4caf11fbcc5e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyCallback1 interface [BITS],OnStatus method, IBackgroundCopyCallback1.OnStatus, IBackgroundCopyCallback1::OnStatus, OnStatus, OnStatus method [BITS], OnStatus method [BITS],IBackgroundCopyCallback1 interface, bits.ibackgroundcopycallback1_onstatus, qmgr/IBackgroundCopyCallback1::OnStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

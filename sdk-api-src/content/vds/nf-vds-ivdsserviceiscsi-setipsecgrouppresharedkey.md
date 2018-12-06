@@ -7,7 +7,7 @@ old-location: base\ivdsserviceiscsi_setipsecgrouppresharedkey.htm
 tech.root: vds
 ms.assetid: 3d386eb3-5897-4ce7-91ab-99cf2bfa93bb
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetIpsecGroupPresharedKey method, IVdsServiceIscsi.SetIpsecGroupPresharedKey, IVdsServiceIscsi::SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey method [VDS], SetIpsecGroupPresharedKey method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setipsecgrouppresharedkey, vds/IVdsServiceIscsi::SetIpsecGroupPresharedKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

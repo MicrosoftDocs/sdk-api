@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_filter_add_info.htm
 tech.root: DHCP
 ms.assetid: eed7fffa-a48c-4ebc-ba3a-a118d2b0e20b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_FILTER_ADD_INFO, DHCP_FILTER_ADD_INFO, DHCP_FILTER_ADD_INFO structure [DHCP], PDHCP_FILTER_ADD_INFO, PDHCP_FILTER_ADD_INFO structure pointer [DHCP], _DHCP_FILTER_ADD_INFOV4, dhcp.dhcp_filter_add_info, dhcpsapi/DHCP_FILTER_ADD_INFO, dhcpsapi/PDHCP_FILTER_ADD_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\csv_control_param.htm
 tech.root: fileio
 ms.assetid: B984F8CA-3548-4442-8D3B-B2F469F699E1
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCSV_CONTROL_PARAM, CSV_CONTROL_PARAM, CSV_CONTROL_PARAM structure [Files], PCSV_CONTROL_PARAM, PCSV_CONTROL_PARAM structure pointer [Files], _CSV_CONTROL_PARAM, fs.csv_control_param, winioctl/CSV_CONTROL_PARAM, winioctl/PCSV_CONTROL_PARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ipat_registerforwhencurrent.htm
 tech.root: mstv
 ms.assetid: 2a7808b6-2e31-4cd9-a4cc-7a6a7cf46cd4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IPAT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IPAT.RegisterForWhenCurrent, IPAT::RegisterForWhenCurrent, IPATRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IPAT interface, mpeg2psiparser/IPAT::RegisterForWhenCurrent, mstv.ipat_registerforwhencurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

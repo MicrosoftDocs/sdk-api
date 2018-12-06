@@ -7,7 +7,7 @@ old-location: adsi\iadsprintjoboperations.htm
 tech.root: adsi
 ms.assetid: 259f6c3d-73ec-4110-801a-c83ffca0f830
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPrintJobOperations, IADsPrintJobOperations interface [ADSI], IADsPrintJobOperations interface [ADSI],described, _ds_iadsprintjoboperations, adsi.iadsprintjoboperations, iads/IADsPrintJobOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

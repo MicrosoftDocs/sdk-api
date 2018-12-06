@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shadertracefactory.htm
 tech.root: direct3d11
 ms.assetid: 0B90EA4B-0176-49DC-8A57-4D847552EFA3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11ShaderTraceFactory, ID3D11ShaderTraceFactory interface [Direct3D 11], ID3D11ShaderTraceFactory interface [Direct3D 11],described, d3d11shadertracing/ID3D11ShaderTraceFactory, direct3d11.id3d11shadertracefactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

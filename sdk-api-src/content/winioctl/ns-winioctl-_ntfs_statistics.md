@@ -7,7 +7,7 @@ old-location: fs\ntfs_statistics_str.htm
 tech.root: fileio
 ms.assetid: 9b5cffc5-386d-4333-9a37-cc27b8f9b187
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PNTFS_STATISTICS, NTFS_STATISTICS, NTFS_STATISTICS structure [Files], PNTFS_STATISTICS, PNTFS_STATISTICS structure pointer [Files], _NTFS_STATISTICS, base.ntfs_statistics_str, fs.ntfs_statistics_str, winioctl/NTFS_STATISTICS, winioctl/PNTFS_STATISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

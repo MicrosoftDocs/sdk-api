@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapcodecinfo_getcolormanagementversion.htm
 tech.root: wic
 ms.assetid: 3d115306-615a-403b-95f8-3e2850928928
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetColorManagementVersion, GetColorManagementVersion method [Windows Imaging Component], GetColorManagementVersion method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetColorManagementVersion method, IWICBitmapCodecInfo.GetColorManagementVersion, IWICBitmapCodecInfo::GetColorManagementVersion, _wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wic._wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wincodec/IWICBitmapCodecInfo::GetColorManagementVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

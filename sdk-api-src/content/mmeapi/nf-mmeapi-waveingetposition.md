@@ -7,7 +7,7 @@ old-location: multimedia\waveingetposition.htm
 tech.root: Multimedia
 ms.assetid: 91764c6e-e9d4-4d8e-819a-6e27ca2478d8
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_waveInGetPosition, mmeapi/waveInGetPosition, multimedia.waveingetposition, waveInGetPosition, waveInGetPosition function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices

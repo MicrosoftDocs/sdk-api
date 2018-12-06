@@ -7,7 +7,7 @@ old-location: base\iswindowsvistasp2orgreater.htm
 tech.root: sysinfo
 ms.assetid: 8D7F5DA2-8927-4453-A5E3-35A345B099EC
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IsWindowsVistaSP2OrGreater, IsWindowsVistaSP2OrGreater function, base.iswindowsvistasp2orgreater, versionhelpers/IsWindowsVistaSP2OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices

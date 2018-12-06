@@ -7,7 +7,7 @@ old-location: wua\iupdatecollection.htm
 tech.root: wua_sdk
 ms.assetid: e56a09e9-6a5f-4579-9a5c-987519fccaad
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdateCollection, IUpdateCollection interface [Windows Update Agent], IUpdateCollection interface [Windows Update Agent],described, wua.iupdatecollection, wuapi/IUpdateCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

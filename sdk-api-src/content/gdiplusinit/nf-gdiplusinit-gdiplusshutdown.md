@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_GdiplusShutdown_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\gdiplusshutdown.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GdiplusShutdown, GdiplusShutdown function [GDI+], _gdiplus_FUNC_GdiplusShutdown_, gdiplus._gdiplus_FUNC_GdiplusShutdown_, gdiplusinit/GdiplusShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GdiplusShutdown
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -57,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>GdiplusShutdown</b> function cleans up resources used by Windows GDI+. Each call to <a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a> should be paired with a call to <b>GdiplusShutdown</b>.
+The <b>GdiplusShutdown</b> function cleans up resources used by Windows GDI+. Each call to <a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a> should be paired with a call to <b>GdiplusShutdown</b>.
 
 
 ## -parameters
@@ -69,7 +63,7 @@ The <b>GdiplusShutdown</b> function cleans up resources used by Windows GDI+. Ea
 
 Type: <b>ULONG_PTR</b>
 
-Token returned by a previous call to <a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a>. 
+Token returned by a previous call to <a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a>. 
 
 
 ## -returns
@@ -85,14 +79,14 @@ This function does not return a value.
 
 
 
-You must call <a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a> before you create any GDI+ objects, and you must delete all of your GDI+ objects (or have them go out of scope) before you call <b>GdiplusShutdown</b>.
+You must call <a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a> before you create any GDI+ objects, and you must delete all of your GDI+ objects (or have them go out of scope) before you call <b>GdiplusShutdown</b>.
 
-<div class="alert"><b>Note</b>  For Windows 7 and earlier, if GDI+ can't create a font family, it substitutes the generic Sans Serif family and client-side caches the pointer for the generic family. Because calls to <a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a> and <b>GdiplusShutdown</b> are not aware of this caching, the operating system retains the pointer for the generic family object past the object's lifetime, which causes the operating system to crash. For Windows 8 and later, GDI+ returns a sentinel value for the generic family object that remains constant across calls to <b>GdiplusStartup</b> and <b>GdiplusShutdown</b> so the operating system doesn't retain the pointer for the generic family object past the object's lifetime.</div>
+<div class="alert"><b>Note</b>  For Windows 7 and earlier, if GDI+ can't create a font family, it substitutes the generic Sans Serif family and client-side caches the pointer for the generic family. Because calls to <a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a> and <b>GdiplusShutdown</b> are not aware of this caching, the operating system retains the pointer for the generic family object past the object's lifetime, which causes the operating system to crash. For Windows 8 and later, GDI+ returns a sentinel value for the generic family object that remains constant across calls to <b>GdiplusStartup</b> and <b>GdiplusShutdown</b> so the operating system doesn't retain the pointer for the generic family object past the object's lifetime.</div>
 <div> </div>
 
 #### Examples
 
-For an example of calling <a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a> and <b>GdiplusShutdown</b>, see <a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a>.
+For an example of calling <a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a> and <b>GdiplusShutdown</b>, see <a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a>.
 
 <div class="code"></div>
 
@@ -103,19 +97,19 @@ For an example of calling <a href="https://msdn.microsoft.com/en-us/library/ms53
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a>
+<a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534067(v=VS.85).aspx">GdiplusStartupInput</a>
+<a href="https://msdn.microsoft.com/dd0ffdd3-f05c-4ad4-a7c8-727d1d3ec83c">GdiplusStartupInput</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534068(v=VS.85).aspx">GdiplusStartupOutput</a>
+<a href="https://msdn.microsoft.com/dcf89c6f-c0b2-4df0-910c-43d8d758fbaf">GdiplusStartupOutput</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533807(v=VS.85).aspx">Getting Started</a>
+<a href="https://msdn.microsoft.com/c03c5ef1-13f6-4cf5-9395-be90b46aa6bb">Getting Started</a>
  
 
  

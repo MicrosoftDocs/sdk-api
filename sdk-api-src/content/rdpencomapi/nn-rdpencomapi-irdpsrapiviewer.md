@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiviewer.htm
 tech.root: rdp
 ms.assetid: 6bafe380-2ef4-4e93-a6cd-143798437615
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], IRDPSRAPIViewer interface [RDP],described, rdp.irdpsrapiviewer, rdpencomapi/IRDPSRAPIViewer
 ms.prod: windows-hardware
 ms.technology: windows-devices

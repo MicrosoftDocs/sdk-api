@@ -7,7 +7,7 @@ old-location: security\iscesvcattachmentpersistinfo_freebuffer.htm
 tech.root: secmgmt
 ms.assetid: b41f01a4-dc38-4954-a3c5-19fa72910d6f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FreeBuffer, FreeBuffer method [Security], FreeBuffer method [Security],ISceSvcAttachmentPersistInfo interface, ISceSvcAttachmentPersistInfo interface [Security],FreeBuffer method, ISceSvcAttachmentPersistInfo.FreeBuffer, ISceSvcAttachmentPersistInfo::FreeBuffer, _config_iscesvcattachmentpersistinfo_freebuffer, scesvc/ISceSvcAttachmentPersistInfo::FreeBuffer, security.iscesvcattachmentpersistinfo_freebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

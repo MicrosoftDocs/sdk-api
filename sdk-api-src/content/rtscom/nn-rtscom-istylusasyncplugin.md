@@ -7,7 +7,7 @@ old-location: tablet\istylusasyncplugin.htm
 tech.root: tablet
 ms.assetid: bf961d70-2576-493b-a34d-c7c72b6c0234
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IStylusAsyncPlugin, IStylusAsyncPlugin interface [Tablet PC], IStylusAsyncPlugin interface [Tablet PC],described, bf961d70-2576-493b-a34d-c7c72b6c0234, rtscom/IStylusAsyncPlugin, tablet.istylusasyncplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1inkstyle.htm
 tech.root: direct2d
 ms.assetid: 03853FA5-1377-42FB-A4C2-50069DDF6E2D
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1InkStyle, ID2D1InkStyle interface [Direct2D], ID2D1InkStyle interface [Direct2D],described, d2d1_3/ID2D1InkStyle, direct2d.id2d1inkstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

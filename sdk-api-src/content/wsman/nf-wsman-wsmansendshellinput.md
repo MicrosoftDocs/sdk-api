@@ -7,7 +7,7 @@ old-location: winrm\wsmansendshellinput.htm
 tech.root: winrm
 ms.assetid: 2336671e-0f60-407f-86a2-9918bbf7f66b
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: WSManSendShellInput, WSManSendShellInput function [Windows Remote Management], winrm.wsmansendshellinput, wsman/WSManSendShellInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

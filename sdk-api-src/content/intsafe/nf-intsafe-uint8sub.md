@@ -7,7 +7,7 @@ old-location: shell\UInt8Sub.htm
 tech.root: shell
 ms.assetid: 3c140c21-7185-4342-bc40-d6382944e423
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: UInt8Sub, UInt8Sub function [Windows Shell], intsafe/UInt8Sub, shell.UInt8Sub
 ms.prod: windows-hardware
 ms.technology: windows-devices

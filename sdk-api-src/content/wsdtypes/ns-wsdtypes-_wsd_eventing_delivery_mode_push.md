@@ -7,7 +7,7 @@ old-location: ncd\wsd_eventing_delivery_mode_push.htm
 tech.root: wsdapi
 ms.assetid: 350d023f-18fb-4eb5-af47-81fdb54e594d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_EVENTING_DELIVERY_MODE_PUSH, WSD_EVENTING_DELIVERY_MODE_PUSH structure, _WSD_EVENTING_DELIVERY_MODE_PUSH, ncd.wsd_eventing_delivery_mode_push, wsdtypes/WSD_EVENTING_DELIVERY_MODE_PUSH
 ms.prod: windows-hardware
 ms.technology: windows-devices

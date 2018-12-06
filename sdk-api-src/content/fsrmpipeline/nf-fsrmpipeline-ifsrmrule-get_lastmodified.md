@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmrule_lastmodified.htm
 tech.root: fsrm
 ms.assetid: 8f087d75-6432-40d3-b9bf-aec3733a7107
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],LastModified property, IFsrmRule.LastModified, IFsrmRule.get_LastModified, IFsrmRule::LastModified, IFsrmRule::get_LastModified, LastModified property [File Server Resource Manager], LastModified property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_lastmodified, fsrm.ifsrmrule_lastmodified, fsrmpipeline/IFsrmRule::LastModified, fsrmpipeline/IFsrmRule::get_LastModified, get_LastModified
 ms.prod: windows-hardware
 ms.technology: windows-devices

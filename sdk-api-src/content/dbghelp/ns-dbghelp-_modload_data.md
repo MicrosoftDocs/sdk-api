@@ -7,7 +7,7 @@ old-location: base\modload_data_str.htm
 tech.root: debug
 ms.assetid: aa9c2b18-01bf-4eaa-8283-584ca16fc98e
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMODLOAD_DATA, DBHHEADER_CVMISC, DBHHEADER_DEBUGDIRS, MODLOAD_DATA, MODLOAD_DATA structure, PMODLOAD_DATA, PMODLOAD_DATA structure pointer, _MODLOAD_DATA, _win32_modload_data_str, base.modload_data_str, dbghelp/MODLOAD_DATA, dbghelp/PMODLOAD_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

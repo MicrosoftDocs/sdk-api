@@ -7,7 +7,7 @@ old-location: base\interlockedexchangepointer.htm
 tech.root: sync
 ms.assetid: 479aede8-e9e3-42c2-9081-94c150c7f274
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedExchangePointer, InterlockedExchangePointer function, _win32_interlockedexchangepointer, base.interlockedexchangepointer, winnt/InterlockedExchangePointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

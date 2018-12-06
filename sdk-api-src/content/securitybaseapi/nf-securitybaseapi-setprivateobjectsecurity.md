@@ -7,7 +7,7 @@ old-location: security\setprivateobjectsecurity.htm
 tech.root: secauthz
 ms.assetid: 726994c8-7813-4f1a-b7d7-a25e79202c33
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: SetPrivateObjectSecurity, SetPrivateObjectSecurity function [Security], _win32_setprivateobjectsecurity, security.setprivateobjectsecurity, securitybaseapi/SetPrivateObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

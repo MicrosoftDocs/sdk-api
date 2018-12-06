@@ -7,7 +7,7 @@ old-location: base\globalhandle.htm
 tech.root: memory
 ms.assetid: 18ed3446-060a-4874-8187-5c54fb936da9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GlobalHandle, GlobalHandle function, _win32_globalhandle, base.globalhandle, winbase/GlobalHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,17 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.CreateFromBoundingBox
-title: CreateFromBoundingBox function
+title: BoundingOrientedBox::CreateFromBoundingBox
 author: windows-sdk-content
 description: Creates a BoundingOrientedBox from a BoundingBox.
 old-location: dxmath\boundingorientedbox_createfromboundingbox.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.CreateFromBoundingBox(BoundingOrientedBox@,BoundingBox)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],CreateFromBoundingBox method, BoundingOrientedBox.CreateFromBoundingBox, CreateFromBoundingBox method [DirectX Math Support APIs], CreateFromBoundingBox method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_createfromboundingbox
+ms.date: 12/5/2018
+ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],CreateFromBoundingBox method, BoundingOrientedBox.CreateFromBoundingBox, BoundingOrientedBox::CreateFromBoundingBox, CreateFromBoundingBox, CreateFromBoundingBox method [DirectX Math Support APIs], CreateFromBoundingBox method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_createfromboundingbox
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateFromBoundingBox
-: 
 ---
 
-# CreateFromBoundingBox function
+# BoundingOrientedBox::CreateFromBoundingBox
 
 
 ## -description

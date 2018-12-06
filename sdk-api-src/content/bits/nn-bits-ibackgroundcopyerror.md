@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyerror.htm
 tech.root: bits
 ms.assetid: a0b9e887-84d5-4f67-a65c-6a807c50dafd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyError, IBackgroundCopyError interface [BITS], IBackgroundCopyError interface [BITS],described, _drz_ibackgroundcopyerror, bits.ibackgroundcopyerror, bits/IBackgroundCopyError
 ms.prod: windows-hardware
 ms.technology: windows-devices

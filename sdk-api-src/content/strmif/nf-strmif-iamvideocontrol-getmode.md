@@ -7,7 +7,7 @@ old-location: dshow\iamvideocontrol_getmode.htm
 tech.root: DirectShow
 ms.assetid: 4b937661-67b2-445c-ab25-8655e1036797
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetMode, GetMode method [DirectShow], GetMode method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetMode method, IAMVideoControl.GetMode, IAMVideoControl::GetMode, IAMVideoControlGetMode, dshow.iamvideocontrol_getmode, strmif/IAMVideoControl::GetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

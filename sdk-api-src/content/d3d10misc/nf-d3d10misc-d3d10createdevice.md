@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10createdevice.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createdevice.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 2a50ebc1-5169-2724-57d7-f5fe11b437c5, D3D10CreateDevice, D3D10CreateDevice function [Direct3D 10], d3d10misc/D3D10CreateDevice, direct3d10.d3d10createdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

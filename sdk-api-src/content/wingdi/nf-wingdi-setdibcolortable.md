@@ -7,7 +7,7 @@ old-location: gdi\setdibcolortable.htm
 tech.root: gdi
 ms.assetid: f301c34d-6e8e-4dc8-b3f3-0fdc658d09e3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: SetDIBColorTable, SetDIBColorTable function [Windows GDI], _win32_SetDIBColorTable, gdi.setdibcolortable, wingdi/SetDIBColorTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

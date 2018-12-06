@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionProvider2_ItemCount.htm
 tech.root: WinAuto
 ms.assetid: AC8C68D0-E905-4C37-AA56-4AAB224789D9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ISelectionProvider2 interface [Windows Accessibility],ItemCount property, ISelectionProvider2.ItemCount, ISelectionProvider2.get_ItemCount, ISelectionProvider2::ItemCount, ISelectionProvider2::get_ItemCount, ItemCount property [Windows Accessibility], ItemCount property [Windows Accessibility],ISelectionProvider2 interface, get_ItemCount, uiautomationcore/ISelectionProvider2::ItemCount, uiautomationcore/ISelectionProvider2::get_ItemCount, winauto.uiauto_ISelectionProvider2_ItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

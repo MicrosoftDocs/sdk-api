@@ -7,7 +7,7 @@ old-location: base\ivdssubsystem_setstatus.htm
 tech.root: vds
 ms.assetid: 07104aac-acdc-447c-9a30-ff3318f6df09
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsSubSystem interface [VDS],SetStatus method, IVdsSubSystem.SetStatus, IVdsSubSystem::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsSubSystem interface, base.ivdssubsystem_setstatus, vds/IVdsSubSystem::SetStatus, vdshwprv/IVdsSubSystem::SetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

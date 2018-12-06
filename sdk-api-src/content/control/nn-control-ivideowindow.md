@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow.htm
 tech.root: DirectShow
 ms.assetid: 8e931c15-bd1d-409e-ada1-97fe49125fe7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], IVideoWindow interface [DirectShow],described, IVideoWindowInterface, control/IVideoWindow, dshow.ivideowindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

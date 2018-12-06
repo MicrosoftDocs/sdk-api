@@ -7,7 +7,7 @@ old-location: dns\dns_null_data.htm
 tech.root: dns
 ms.assetid: c31e468f-8efd-4173-bc2c-442ee4df737f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDNS_NULL_DATA, DNS_NULL_DATA, DNS_NULL_DATA structure [DNS], PDNS_NULL_DATA, PDNS_NULL_DATA structure pointer [DNS], _dns_dns_null_data, dns.dns_null_data, windns/DNS_NULL_DATA, windns/PDNS_NULL_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

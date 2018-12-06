@@ -7,7 +7,7 @@ old-location: gdi\equalrgn.htm
 tech.root: gdi
 ms.assetid: c7829998-78f4-4334-bf34-92aad12555f5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: EqualRgn, EqualRgn function [Windows GDI], _win32_EqualRgn, gdi.equalrgn, wingdi/EqualRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

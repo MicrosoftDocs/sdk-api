@@ -7,7 +7,7 @@ old-location: nwifi\wlan_autoconf_opcode.htm
 tech.root: NativeWiFi
 ms.assetid: d7816d6f-0f8c-4d53-aa70-357aaca360d0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWLAN_AUTOCONF_OPCODE, PWLAN_AUTOCONF_OPCODE, PWLAN_AUTOCONF_OPCODE enumeration pointer [NativeWIFI], WLAN_AUTOCONF_OPCODE, WLAN_AUTOCONF_OPCODE enumeration [NativeWIFI], _WLAN_AUTOCONF_OPCODE, nwifi.wlan_autoconf_opcode, wlan_autoconf_opcode_allow_explicit_creds, wlan_autoconf_opcode_allow_virtual_station_extensibility, wlan_autoconf_opcode_block_period, wlan_autoconf_opcode_end, wlan_autoconf_opcode_only_use_gp_profiles_for_allowed_networks, wlan_autoconf_opcode_power_setting, wlan_autoconf_opcode_show_denied_networks, wlan_autoconf_opcode_start, wlanapi/PWLAN_AUTOCONF_OPCODE, wlanapi/WLAN_AUTOCONF_OPCODE, wlanapi/wlan_autoconf_opcode_allow_explicit_creds, wlanapi/wlan_autoconf_opcode_allow_virtual_station_extensibility, wlanapi/wlan_autoconf_opcode_block_period, wlanapi/wlan_autoconf_opcode_end, wlanapi/wlan_autoconf_opcode_only_use_gp_profiles_for_allowed_networks, wlanapi/wlan_autoconf_opcode_power_setting, wlanapi/wlan_autoconf_opcode_show_denied_networks, wlanapi/wlan_autoconf_opcode_start"
 ms.prod: windows-hardware
 ms.technology: windows-devices

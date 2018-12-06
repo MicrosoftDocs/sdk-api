@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetRegionScans_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiongetregionscansmethods.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetRegionScans, GetRegionScans methods [GDI+], Region.GetRegionScans, Region::GetRegionScans, _gdiplus_CLASS_Region_GetRegionScans_Methods, gdiplus._gdiplus_CLASS_Region_GetRegionScans_Methods, gdiplusheaders/GetRegionScans
 ms.prod: windows-hardware
 ms.technology: windows-devices

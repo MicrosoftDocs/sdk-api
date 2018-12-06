@@ -7,7 +7,7 @@ old-location: wmformat\iwmreader.htm
 tech.root: wmformat
 ms.assetid: e995b707-d388-4ec3-b3c8-b111628c13d7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMReader, IWMReader interface [windows Media Format], IWMReader interface [windows Media Format],described, IWMReaderInterface, wmformat.iwmreader, wmsdkidl/IWMReader
 ms.prod: windows-hardware
 ms.technology: windows-devices

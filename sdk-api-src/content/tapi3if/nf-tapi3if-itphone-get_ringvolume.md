@@ -7,7 +7,7 @@ old-location: tapi3\itphone_get_ringvolume.htm
 tech.root: tapi
 ms.assetid: 147553f1-74a7-4f80-bbf3-b140d9b375ba
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_RingVolume method, ITPhone.get_RingVolume, ITPhone::get_RingVolume, _tapi3_itphone_get_ringvolume, get_RingVolume, get_RingVolume method [TAPI 2.2], get_RingVolume method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_ringvolume, tapi3if/ITPhone::get_RingVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

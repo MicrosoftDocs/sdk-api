@@ -7,7 +7,7 @@ old-location: netmgmt\netmessagenameenum.htm
 tech.root: netmgmt
 ms.assetid: fc1b11e6-294d-47d3-8c63-bee80b5a8581
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 0, 1, NetMessageNameEnum, NetMessageNameEnum function [Network Management], _win32_netmessagenameenum, lmmsg/NetMessageNameEnum, netmgmt.netmessagenameenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

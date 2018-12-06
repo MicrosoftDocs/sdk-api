@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10devicechild_getdevice.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild_getdevice.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetDevice, GetDevice method [Direct3D 10], GetDevice method [Direct3D 10],ID3D10DeviceChild interface, ID3D10DeviceChild interface [Direct3D 10],GetDevice method, ID3D10DeviceChild.GetDevice, ID3D10DeviceChild::GetDevice, a6448c63-5b6c-87fa-33e0-73a8850ca573, d3d10/ID3D10DeviceChild::GetDevice, direct3d10.id3d10devicechild_getdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10.h
-: 
-- ID3D10DeviceChild.GetDevice
-: 
 ---
 
 # ID3D10DeviceChild::GetDevice
@@ -69,9 +61,9 @@ Get a pointer to the device that created this interface.
 
 ### -param ppDevice [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>**</b>
 
-Address of a pointer to a device (see <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>).
+Address of a pointer to a device (see <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>).
 
 
 ## -returns
@@ -97,7 +89,7 @@ Any returned interfaces will have their reference count incremented by one, so b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild Interface</a>
+<a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild Interface</a>
  
 
  

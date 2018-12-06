@@ -7,7 +7,7 @@ old-location: dxmath\xmuint2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: XMUINT2, XMUINT2 structure [DirectX Math Support APIs], directxmath/XMUINT2, dxmath.xmuint2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,6 +71,18 @@ Unsigned integer value describing the x-coordinate of the vector.
 ### -field y
 
 Unsigned integer value describing the y-coordinate of the vector.
+
+
+### -field operator=
+
+TBD 
+
+
+### -field XMUINT2
+
+TBD 
+
+
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: inputdev\getkbcodepage.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkbcodepage.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetKBCodePage, GetKBCodePage function [Keyboard and Mouse Input], _win32_GetKBCodePage, _win32_getkbcodepage_cpp, inputdev.getkbcodepage, winui._win32_getkbcodepage, winuser/GetKBCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices

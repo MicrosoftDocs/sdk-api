@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createformatconverter.htm
 tech.root: wic
 ms.assetid: 50ceabdf-574e-4083-86a4-dddd4da06bbf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateFormatConverter, CreateFormatConverter method [Windows Imaging Component], CreateFormatConverter method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateFormatConverter method, IWICImagingFactory.CreateFormatConverter, IWICImagingFactory::CreateFormatConverter, _wic_codec_iwicimagingfactory_createformatconverter, wic._wic_codec_iwicimagingfactory_createformatconverter, wincodec/IWICImagingFactory::CreateFormatConverter
 ms.prod: windows-hardware
 ms.technology: windows-devices

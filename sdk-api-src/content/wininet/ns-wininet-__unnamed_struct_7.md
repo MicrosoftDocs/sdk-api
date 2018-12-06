@@ -7,7 +7,7 @@ old-location: wininet\internet_version_info.htm
 tech.root: wininet
 ms.assetid: 6d979829-2451-47fa-a95f-81f447c93567
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPINTERNET_VERSION_INFO, INTERNET_VERSION_INFO, INTERNET_VERSION_INFO structure [WinINet], LPINTERNET_VERSION_INFO, LPINTERNET_VERSION_INFO structure pointer [WinINet], _inet_internet_verion_info_structure, wininet.internet_version_info, wininet/ LPINTERNET_VERSION_INFO, wininet/INTERNET_VERSION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

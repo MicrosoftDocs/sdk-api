@@ -7,7 +7,7 @@ old-location: shell\SIZETSub_1.htm
 tech.root: shell
 ms.assetid: 10c66f6a-648d-4308-9c23-384ebe273af3
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: SIZETSub, SIZETSub function [Windows Shell], ULongLongSub, _shell_SIZETSub, intsafe/SIZETSub, shell.SIZETSub, shell.SIZETSub_1
 ms.prod: windows-hardware
 ms.technology: windows-devices

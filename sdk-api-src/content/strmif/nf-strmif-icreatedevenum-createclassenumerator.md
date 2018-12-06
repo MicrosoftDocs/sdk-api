@@ -7,7 +7,7 @@ old-location: dshow\icreatedevenum_createclassenumerator.htm
 tech.root: DirectShow
 ms.assetid: 07457acc-51f1-4d1b-b795-e8d980a5531e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateClassEnumerator, CreateClassEnumerator method [DirectShow], CreateClassEnumerator method [DirectShow],ICreateDevEnum interface, ICreateDevEnum interface [DirectShow],CreateClassEnumerator method, ICreateDevEnum.CreateClassEnumerator, ICreateDevEnum::CreateClassEnumerator, ICreateDevEnumCreateClassEnumerator, dshow.icreatedevenum_createclassenumerator, strmif/ICreateDevEnum::CreateClassEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

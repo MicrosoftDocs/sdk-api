@@ -7,7 +7,7 @@ old-location: winsync\ienumrangeexceptions_clone.htm
 tech.root: winsync
 ms.assetid: b9ba5d49-754f-4eb0-972b-67e9a6a41994
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumRangeExceptions interface, IEnumRangeExceptions interface [Windows Sync],Clone method, IEnumRangeExceptions.Clone, IEnumRangeExceptions::Clone, winsync.ienumrangeexceptions_clone, winsync/IEnumRangeExceptions::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

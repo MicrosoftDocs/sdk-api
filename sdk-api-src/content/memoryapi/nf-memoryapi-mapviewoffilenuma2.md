@@ -7,7 +7,7 @@ old-location: base\mapviewoffilenuma2.htm
 tech.root: memory
 ms.assetid: 848BF3AD-9469-4A16-B1C4-B5D78954D9B5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: MapViewOfFileNuma2, MapViewOfFileNuma2 function, base.mapviewoffilenuma2, winbase/MapViewOfFileNuma2
 ms.prod: windows-hardware
 ms.technology: windows-devices

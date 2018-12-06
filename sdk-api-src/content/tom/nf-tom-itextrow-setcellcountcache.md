@@ -7,7 +7,7 @@ old-location: controls\itextrow_setcellcountcache.htm
 tech.root: controls
 ms.assetid: 54b9a0a0-1822-4cd6-afef-8ed9403e750a
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellCountCache method, ITextRow.SetCellCountCache, ITextRow::SetCellCountCache, SetCellCountCache, SetCellCountCache method [Windows Controls], SetCellCountCache method [Windows Controls],ITextRow interface, controls.itextrow_setcellcountcache, tom/ITextRow::SetCellCountCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

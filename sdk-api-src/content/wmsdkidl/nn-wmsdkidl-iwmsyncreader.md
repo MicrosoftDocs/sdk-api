@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader.htm
 tech.root: wmformat
 ms.assetid: 2a46e79f-084e-4173-ad0f-211d3065d81a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], IWMSyncReader interface [windows Media Format],described, IWMSyncReaderInterface, wmformat.iwmsyncreader, wmsdkidl/IWMSyncReader
 ms.prod: windows-hardware
 ms.technology: windows-devices

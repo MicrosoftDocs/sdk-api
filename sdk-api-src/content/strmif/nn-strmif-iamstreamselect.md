@@ -7,7 +7,7 @@ old-location: dshow\iamstreamselect.htm
 tech.root: DirectShow
 ms.assetid: a305e91e-f506-4bd1-b4d4-7361df89e158
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAMStreamSelect, IAMStreamSelect interface [DirectShow], IAMStreamSelect interface [DirectShow],described, IAMStreamSelectInterface, dshow.iamstreamselect, strmif/IAMStreamSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices

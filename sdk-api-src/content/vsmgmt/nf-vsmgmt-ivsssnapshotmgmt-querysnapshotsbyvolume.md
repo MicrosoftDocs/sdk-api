@@ -7,7 +7,7 @@ old-location: base\ivsssnapshotmgmt_querysnapshotsbyvolume.htm
 tech.root: vss
 ms.assetid: c74322d8-24a6-4463-82a5-c06e7624a1ca
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssSnapshotMgmt interface [VSS],QuerySnapshotsByVolume method, IVssSnapshotMgmt.QuerySnapshotsByVolume, IVssSnapshotMgmt::QuerySnapshotsByVolume, QuerySnapshotsByVolume, QuerySnapshotsByVolume method [VSS], QuerySnapshotsByVolume method [VSS],IVssSnapshotMgmt interface, base.ivsssnapshotmgmt_querysnapshotsbyvolume, vsmgmt/IVssSnapshotMgmt::QuerySnapshotsByVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

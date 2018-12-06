@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorreplicateintptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorReplicateIntPtr(Const uint32_t)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorReplicateIntPtr, XMVectorReplicateIntPtr, XMVectorReplicateIntPtr method [DirectX Math Support APIs], dxmath.xmvectorreplicateintptr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVectorReplicateIntPtr
-: 
 ---
 
 # XMVectorReplicateIntPtr function

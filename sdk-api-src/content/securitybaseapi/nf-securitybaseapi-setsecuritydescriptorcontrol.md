@@ -7,7 +7,7 @@ old-location: security\setsecuritydescriptorcontrol.htm
 tech.root: secauthz
 ms.assetid: 672406af-ae04-4939-82a4-069a91e61b3f
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: SetSecurityDescriptorControl, SetSecurityDescriptorControl function [Security], _win32_setsecuritydescriptorcontrol, security.setsecuritydescriptorcontrol, securitybaseapi/SetSecurityDescriptorControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

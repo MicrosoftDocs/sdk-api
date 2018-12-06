@@ -7,7 +7,7 @@ old-location: netmgmt\user_info_1011_str.htm
 tech.root: netmgmt
 ms.assetid: f60075b4-19c5-4998-b8c3-61e960e76035
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPUSER_INFO_1011, *PUSER_INFO_1011, LPUSER_INFO_1011, LPUSER_INFO_1011 structure pointer [Network Management], PUSER_INFO_1011, PUSER_INFO_1011 structure pointer [Network Management], USER_INFO_1011, USER_INFO_1011 structure [Network Management], _USER_INFO_1011, _win32_user_info_1011_str, lmaccess/LPUSER_INFO_1011, lmaccess/PUSER_INFO_1011, lmaccess/USER_INFO_1011, netmgmt.user_info_1011_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

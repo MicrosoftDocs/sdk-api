@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_drawindexedinstanced.htm
 tech.root: direct3d11
 ms.assetid: c7a4821a-324c-47e4-b89f-603d2afcfb51
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 8742ce56-5b31-7869-ab62-cb36d33cc5ca, DrawIndexedInstanced, DrawIndexedInstanced method [Direct3D 11], DrawIndexedInstanced method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawIndexedInstanced method, ID3D11DeviceContext.DrawIndexedInstanced, ID3D11DeviceContext::DrawIndexedInstanced, d3d11/ID3D11DeviceContext::DrawIndexedInstanced, direct3d11.id3d11devicecontext_drawindexedinstanced
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11DeviceContext.DrawIndexedInstanced
-: 
 ---
 
 # ID3D11DeviceContext::DrawIndexedInstanced
@@ -129,7 +121,7 @@ Instancing may extend performance by reusing the same geometry to draw multiple 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

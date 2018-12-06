@@ -7,7 +7,7 @@ old-location: netshell\cmd_entry.htm
 tech.root: netshell
 ms.assetid: 299962c8-8f93-4b22-a232-8230eb64cc12
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCMD_ENTRY, CMD_ENTRY, CMD_ENTRY structure [NetShell], PCMD_ENTRY, PCMD_ENTRY structure pointer [NetShell], _CMD_ENTRY, _netsh_cmd_entry, netsh/CMD_ENTRY, netsh/PCMD_ENTRY, netshell.cmd_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices

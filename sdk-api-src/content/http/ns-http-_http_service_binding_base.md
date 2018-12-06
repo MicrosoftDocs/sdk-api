@@ -7,7 +7,7 @@ old-location: http\http_service_binding_base.htm
 tech.root: http
 ms.assetid: c9d3ed21-8987-4b98-99a1-dc1e776b0dab
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_BINDING_BASE, HTTP_SERVICE_BINDING_BASE, HTTP_SERVICE_BINDING_BASE structure [HTTP], PHTTP_SERVICE_BINDING_BASE, PHTTP_SERVICE_BINDING_BASE structure pointer [HTTP], _HTTP_SERVICE_BINDING_BASE, http.http_service_binding_base, http/HTTP_SERVICE_BINDING_BASE, http/PHTTP_SERVICE_BINDING_BASE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

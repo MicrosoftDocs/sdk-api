@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolshadowconnection_stop.htm
 tech.root: termserv
 ms.assetid: 629b82cb-7bf3-4a83-bc96-a1e6a757f974
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWTSProtocolShadowConnection interface [Remote Desktop Services],Stop method, IWTSProtocolShadowConnection.Stop, IWTSProtocolShadowConnection::Stop, Stop, Stop method [Remote Desktop Services], Stop method [Remote Desktop Services],IWTSProtocolShadowConnection interface, termserv.iwtsprotocolshadowconnection_stop, wtsprotocol/IWTSProtocolShadowConnection::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

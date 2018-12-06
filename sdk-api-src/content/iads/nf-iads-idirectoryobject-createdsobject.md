@@ -7,7 +7,7 @@ old-location: adsi\idirectoryobject_createdsobject.htm
 tech.root: adsi
 ms.assetid: 77648d1c-b05b-4c36-a2e3-25bb5713d615
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateDSObject, CreateDSObject method [ADSI], CreateDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],CreateDSObject method, IDirectoryObject.CreateDSObject, IDirectoryObject::CreateDSObject, _ds_idirectoryobject_createdsobject, adsi.idirectoryobject__createdsobject, adsi.idirectoryobject_createdsobject, iads/IDirectoryObject::CreateDSObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

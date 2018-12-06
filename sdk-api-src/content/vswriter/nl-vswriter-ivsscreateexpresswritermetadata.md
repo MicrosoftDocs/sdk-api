@@ -7,7 +7,7 @@ old-location: base\ivsscreateexpresswritermetadata.htm
 tech.root: vss
 ms.assetid: 49112cff-9e61-4218-a013-5ae5eb58b534
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,described, base.ivsscreateexpresswritermetadata, vswriter/IVssCreateExpressWriterMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

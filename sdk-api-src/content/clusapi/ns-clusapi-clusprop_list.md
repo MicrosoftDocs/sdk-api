@@ -7,7 +7,7 @@ old-location: mscs\clusprop_list.htm
 tech.root: mscs
 ms.assetid: 1f76104f-99eb-4376-8d92-e04b7f00c46d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCLUSPROP_LIST, CLUSPROP_LIST, CLUSPROP_LIST structure [Failover Cluster], PCLUSPROP_LIST, PCLUSPROP_LIST structure pointer [Failover Cluster], _wolf_clusprop_list, clusapi/CLUSPROP_LIST, clusapi/PCLUSPROP_LIST, mscs.clusprop_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices

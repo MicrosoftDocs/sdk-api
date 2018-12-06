@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireprogresscb_endenumeration.htm
 tech.root: acquisition
 ms.assetid: dac16ca2-bd80-4771-9e81-09d07958a4bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EndEnumeration, EndEnumeration method [Picture Acquisition], EndEnumeration method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndEnumeration method, IPhotoAcquireProgressCB.EndEnumeration, IPhotoAcquireProgressCB::EndEnumeration, IPhotoAcquireProgressCBEndEnumeration, photoacquire/IPhotoAcquireProgressCB::EndEnumeration, picacq.iphotoacquireprogresscb_endenumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices

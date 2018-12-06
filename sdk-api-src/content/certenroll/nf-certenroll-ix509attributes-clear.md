@@ -7,7 +7,7 @@ old-location: security\ix509attributes_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: f7d4e443-4022-4a62-b3a0-88a813a4b778
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509Attributes interface, IX509Attributes interface [Security],Clear method, IX509Attributes.Clear, IX509Attributes::Clear, certenroll/IX509Attributes::Clear, security.ix509attributes_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

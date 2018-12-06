@@ -7,7 +7,7 @@ old-location: controls\edit_getextendedstyle.htm
 tech.root: controls
 ms.assetid: 6E29C7FE-A0D4-4A4D-B10A-2E2B2211D6C3
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: Edit_GetExtendedStyle, Edit_GetExtendedStyle macro [Windows Controls], commctrl/Edit_GetExtendedStyle, controls.edit_getextendedstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

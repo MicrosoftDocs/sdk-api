@@ -7,7 +7,7 @@ old-location: mmc\imessageview_setbodytext.htm
 tech.root: mmc
 ms.assetid: 27b3ae83-be3c-4d40-88b8-9253f1c793f6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMessageView interface [MMC],SetBodyText method, IMessageView.SetBodyText, IMessageView::SetBodyText, SetBodyText, SetBodyText method [MMC], SetBodyText method [MMC],IMessageView interface, _slate_imessageview_setbodytext, mmc.imessageview_setbodytext, mmc/IMessageView::SetBodyText
 ms.prod: windows-hardware
 ms.technology: windows-devices

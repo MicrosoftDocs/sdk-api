@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced4_cansavefileas.htm
 tech.root: wmformat
 ms.assetid: ed4f31b6-e20f-432c-a1ec-954d85ce3a3d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CanSaveFileAs, CanSaveFileAs method [windows Media Format], CanSaveFileAs method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],CanSaveFileAs method, IWMReaderAdvanced4.CanSaveFileAs, IWMReaderAdvanced4::CanSaveFileAs, IWMReaderAdvanced4CanSaveFileAs, wmformat.iwmreaderadvanced4_cansavefileas, wmsdkidl/IWMReaderAdvanced4::CanSaveFileAs
 ms.prod: windows-hardware
 ms.technology: windows-devices

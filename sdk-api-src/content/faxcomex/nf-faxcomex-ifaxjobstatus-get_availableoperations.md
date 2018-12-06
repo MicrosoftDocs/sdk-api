@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_availableoperations_c
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1xwz.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],IFaxJobStatus interface, IFaxJobStatus interface [Fax Service],AvailableOperations property, IFaxJobStatus.AvailableOperations, IFaxJobStatus.get_AvailableOperations, IFaxJobStatus::AvailableOperations, IFaxJobStatus::get_AvailableOperations, _mfax_faxjobstatus.availableoperations, fax._mfax_faxjobstatus_availableoperations, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_availableoperations_cpp, faxcomex/IFaxJobStatus::AvailableOperations, faxcomex/IFaxJobStatus::get_AvailableOperations, get_AvailableOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

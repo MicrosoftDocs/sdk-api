@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceinterfacealias.htm
 tech.root: devinst
 ms.assetid: eb36da2a-4ff1-4f2b-abc6-9bdaf491252f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetupDiGetDeviceInterfaceAlias, SetupDiGetDeviceInterfaceAlias function [Device and Driver Installation], devinst.setupdigetdeviceinterfacealias, di-rtns_a9f0fc2b-7a4e-49fc-afc5-723a0120a5d7.xml, setupapi/SetupDiGetDeviceInterfaceAlias
 ms.prod: windows-hardware
 ms.technology: windows-devices

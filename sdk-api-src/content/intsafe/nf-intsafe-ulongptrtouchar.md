@@ -7,7 +7,7 @@ old-location: shell\ULongPtrToUChar.htm
 tech.root: shell
 ms.assetid: ed18b6c7-0ee3-41b4-a73c-83926fd62798
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ULongPtrToUChar, ULongPtrToUChar function [Windows Shell], intsafe/ULongPtrToUChar, shell.ULongPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\getrttandhopcount.htm
 tech.root: IpHlp
 ms.assetid: 4e84fe6f-40bd-4f0e-bb78-4180e13577aa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRTTAndHopCount, GetRTTAndHopCount function [IP Helper], _iphlp_getrttandhopcount, iphlp.getrttandhopcount, iphlpapi/GetRTTAndHopCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

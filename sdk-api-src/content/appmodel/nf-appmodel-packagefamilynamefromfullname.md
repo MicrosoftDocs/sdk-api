@@ -7,7 +7,7 @@ old-location: appxpkg\packagefamilynamefromfullname.htm
 tech.root: appxpkg
 ms.assetid: 98E95CE5-E970-4A19-BAD3-994DAEC4BEA0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PackageFamilyNameFromFullName, PackageFamilyNameFromFullName function [App packaging and management], appmodel/PackageFamilyNameFromFullName, appxpkg.packagefamilynamefromfullname
 ms.prod: windows-hardware
 ms.technology: windows-devices

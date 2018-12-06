@@ -7,7 +7,7 @@ old-location: mstv\iatsc_stt_initialize.htm
 tech.root: mstv
 ms.assetid: 8a887c78-a1ea-4b81-b933-f95bd33f13c5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IATSC_STT interface [Microsoft TV Technologies],Initialize method, IATSC_STT.Initialize, IATSC_STT::Initialize, IATSC_STTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IATSC_STT interface, atscpsipparser/IATSC_STT::Initialize, mstv.iatsc_stt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

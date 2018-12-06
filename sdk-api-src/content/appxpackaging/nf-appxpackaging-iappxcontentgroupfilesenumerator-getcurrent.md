@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroupfilesenumerator__getcurrent.htm
 tech.root: appxpkg
 ms.assetid: B8BD3A9A-5330-4328-9FFD-69BF07CA93C7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxContentGroupFilesEnumerator interface, IAppxContentGroupFilesEnumerator interface [App packaging and management],GetCurrent method, IAppxContentGroupFilesEnumerator.GetCurrent, IAppxContentGroupFilesEnumerator::GetCurrent, appxpackaging/IAppxContentGroupFilesEnumerator::GetCurrent, appxpkg.iappxcontentgroupfilesenumerator__getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices

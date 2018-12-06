@@ -7,7 +7,7 @@ old-location: fs\opentransaction.htm
 tech.root: ktm
 ms.assetid: d95f15e4-d0fd-4665-849d-eecac8fc542b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: OpenTransaction, OpenTransaction function [Files], fs.opentransaction, ktmw32/OpenTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

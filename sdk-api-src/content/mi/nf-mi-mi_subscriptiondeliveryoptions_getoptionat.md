@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_getoptionat.htm
 tech.root: wmi_v2
 ms.assetid: 7ee9fc4a-b836-4820-84b6-925d9842819d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetOptionAt, MI_SubscriptionDeliveryOptions_GetOptionAt function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetOptionAt, wmi_v2.mi_subscriptiondeliveryoptions_getoptionat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_SubscriptionDeliveryOptions_GetOptionAt
-: 
 ---
 
 # MI_SubscriptionDeliveryOptions_GetOptionAt function

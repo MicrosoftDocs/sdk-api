@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_importfilesystem.htm
 tech.root: imapi
 ms.assetid: 87d654bc-f2c9-4a74-a822-352cdb242b5f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],ImportFileSystem method, IFileSystemImage.ImportFileSystem, IFileSystemImage::ImportFileSystem, ImportFileSystem, ImportFileSystem method [IMAPI], ImportFileSystem method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_importfilesystem, imapi2fs/IFileSystemImage::ImportFileSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

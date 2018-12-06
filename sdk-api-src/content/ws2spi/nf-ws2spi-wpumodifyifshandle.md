@@ -7,7 +7,7 @@ old-location: winsock\wpumodifyifshandle_2.htm
 tech.root: winsock
 ms.assetid: f58971eb-0948-4e16-a767-1d4cba9ec721
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: WPUModifyIFSHandle, WPUModifyIFSHandle function [Winsock], _win32_wpumodifyifshandle_2, winsock.wpumodifyifshandle_2, ws2spi/WPUModifyIFSHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

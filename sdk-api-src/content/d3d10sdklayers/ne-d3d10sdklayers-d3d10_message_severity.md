@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_message_severity.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_message_severity.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: D3D10_MESSAGE_SEVERITY, D3D10_MESSAGE_SEVERITY enumeration [Direct3D 10], D3D10_MESSAGE_SEVERITY_CORRUPTION, D3D10_MESSAGE_SEVERITY_ERROR, D3D10_MESSAGE_SEVERITY_INFO, D3D10_MESSAGE_SEVERITY_WARNING, b48ff3e8-3124-4d3c-9284-db459579b3d2, d3d10sdklayers/D3D10_MESSAGE_SEVERITY, d3d10sdklayers/D3D10_MESSAGE_SEVERITY_CORRUPTION, d3d10sdklayers/D3D10_MESSAGE_SEVERITY_ERROR, d3d10sdklayers/D3D10_MESSAGE_SEVERITY_INFO, d3d10sdklayers/D3D10_MESSAGE_SEVERITY_WARNING, direct3d10.d3d10_message_severity
 ms.prod: windows-hardware
 ms.technology: windows-devices

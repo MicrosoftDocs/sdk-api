@@ -7,7 +7,7 @@ old-location: appxpkg\packageorigin.htm
 tech.root: appxpkg
 ms.assetid: 0CB9CE97-8A54-4BE7-B054-00F29D36CAB2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PackageOrigin, PackageOrigin enumeration [App packaging and management], PackageOrigin_DeveloperSigned, PackageOrigin_DeveloperUnsigned, PackageOrigin_Inbox, PackageOrigin_LineOfBusiness, PackageOrigin_Store, PackageOrigin_Unknown, PackageOrigin_Unsigned, appmodel/PackageOrigin, appmodel/PackageOrigin_DeveloperSigned, appmodel/PackageOrigin_DeveloperUnsigned, appmodel/PackageOrigin_Inbox, appmodel/PackageOrigin_LineOfBusiness, appmodel/PackageOrigin_Store, appmodel/PackageOrigin_Unknown, appmodel/PackageOrigin_Unsigned, appxpkg.packageorigin
 ms.prod: windows-hardware
 ms.technology: windows-devices

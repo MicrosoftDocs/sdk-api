@@ -7,7 +7,7 @@ old-location: shell\SHAlloc.htm
 tech.root: shell
 ms.assetid: 621e4335-1484-4111-9cfe-7ae5c6d5c609
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: SHAlloc, SHAlloc function [Windows Shell], _win32_SHAlloc, shell.SHAlloc, shlobj_core/SHAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

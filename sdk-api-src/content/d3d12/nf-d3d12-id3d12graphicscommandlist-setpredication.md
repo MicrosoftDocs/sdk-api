@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setpredication.htm
 tech.root: direct3d12
 ms.assetid: 21526012-A675-40E8-A11C-4CBA5C12B9CF
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetPredication method, ID3D12GraphicsCommandList.SetPredication, ID3D12GraphicsCommandList::SetPredication, SetPredication, SetPredication method, SetPredication method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetPredication, direct3d12.id3d12graphicscommandlist_setpredication
 ms.prod: windows-hardware
 ms.technology: windows-devices

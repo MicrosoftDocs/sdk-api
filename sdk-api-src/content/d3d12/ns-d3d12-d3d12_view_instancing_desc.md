@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_view_instancing_desc.htm
 tech.root: direct3d12
 ms.assetid: AFB7AB23-9A59-49D7-8C3E-222C3AED2314
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_VIEW_INSTANCING_DESC, D3D12_VIEW_INSTANCING_DESC structure, d3d12/D3D12_VIEW_INSTANCING_DESC, direct3d12.d3d12_view_instancing_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\imessagefilter_retryrejectedcall.htm
 tech.root: com
 ms.assetid: 3f800819-2a21-4e46-ad15-f9594fac1a3d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMessageFilter interface [COM],RetryRejectedCall method, IMessageFilter.RetryRejectedCall, IMessageFilter::RetryRejectedCall, RetryRejectedCall, RetryRejectedCall method [COM], RetryRejectedCall method [COM],IMessageFilter interface, _com_imessagefilter_retryrejectedcall, com.imessagefilter_retryrejectedcall, objidl/IMessageFilter::RetryRejectedCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

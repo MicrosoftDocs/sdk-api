@@ -7,7 +7,7 @@ old-location: qos\rsvp_scope.htm
 tech.root: QOS
 ms.assetid: 64a7e461-d767-4571-97ca-cf7862a05d18
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: RSVP_SCOPE, RSVP_SCOPE structure [QOS], lpmapi/RSVP_SCOPE, qos.rsvp_scope
 ms.prod: windows-hardware
 ms.technology: windows-devices

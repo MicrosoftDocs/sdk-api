@@ -7,7 +7,7 @@ old-location: wua\iupdatesession.htm
 tech.root: wua_sdk
 ms.assetid: 00b84246-b5f2-48c2-a0ab-eaaa1ec80262
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdateSession, IUpdateSession interface [Windows Update Agent], IUpdateSession interface [Windows Update Agent],described, wua.iupdatesession, wuapi/IUpdateSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

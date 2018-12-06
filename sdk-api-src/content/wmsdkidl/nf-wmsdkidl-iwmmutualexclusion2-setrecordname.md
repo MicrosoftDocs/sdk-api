@@ -7,7 +7,7 @@ old-location: wmformat\iwmmutualexclusion2_setrecordname.htm
 tech.root: wmformat
 ms.assetid: 9527024e-2d52-4a81-90a5-4ef5241ba6dd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],SetRecordName method, IWMMutualExclusion2.SetRecordName, IWMMutualExclusion2::SetRecordName, IWMMutualExclusion2SetRecordName, SetRecordName, SetRecordName method [windows Media Format], SetRecordName method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_setrecordname, wmsdkidl/IWMMutualExclusion2::SetRecordName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\copysid.htm
 tech.root: secauthz
 ms.assetid: 2d7c182e-cdf8-4604-97bf-468bb4bd9232
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CopySid, CopySid function [Security], _win32_copysid, security.copysid, securitybaseapi/CopySid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: qos\qosclosehandle.htm
 tech.root: QOS
 ms.assetid: e9e8e467-616c-419e-952d-2c9e93044a2f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: QOSCloseHandle, QOSCloseHandle function [QOS], qos.qosclosehandle, qos2/QOSCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

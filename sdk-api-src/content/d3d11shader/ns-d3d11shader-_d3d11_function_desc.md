@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_function_desc.htm
 tech.root: direct3d11
 ms.assetid: 1C163EE4-DA67-4341-ACA3-13ACCDD1E952
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_FUNCTION_DESC, D3D11_FUNCTION_DESC structure [Direct3D 11], _D3D11_FUNCTION_DESC, d3d11shader/D3D11_FUNCTION_DESC, direct3d11.d3d11_function_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

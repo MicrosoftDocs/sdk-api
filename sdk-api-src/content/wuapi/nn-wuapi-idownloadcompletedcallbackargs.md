@@ -7,7 +7,7 @@ old-location: wua\idownloadcompletedcallbackargs.htm
 tech.root: wua_sdk
 ms.assetid: edba6725-07fc-4b26-bf97-b9e6690fc05c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDownloadCompletedCallbackArgs, IDownloadCompletedCallbackArgs interface [Windows Update Agent], IDownloadCompletedCallbackArgs interface [Windows Update Agent],described, wua.idownloadcompletedcallbackargs, wuapi/IDownloadCompletedCallbackArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices

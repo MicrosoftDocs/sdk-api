@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginenotify.htm
 tech.root: medfound
 ms.assetid: 85D702D4-3C9B-4848-81F2-3634C2B6AE1A
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineNotify, IMFMediaEngineNotify interface [Media Foundation], IMFMediaEngineNotify interface [Media Foundation],described, mf.imfmediaenginenotify, mfmediaengine/IMFMediaEngineNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

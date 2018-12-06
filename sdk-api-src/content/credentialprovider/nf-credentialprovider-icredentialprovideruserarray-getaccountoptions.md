@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUserArray_GetAccountOptions.htm
 tech.root: shell
 ms.assetid: A274F799-FB0C-40a7-AB9E-9525F6079C9A
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetAccountOptions, GetAccountOptions method [Windows Shell], GetAccountOptions method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAccountOptions method, ICredentialProviderUserArray.GetAccountOptions, ICredentialProviderUserArray::GetAccountOptions, credentialprovider/ICredentialProviderUserArray::GetAccountOptions, shell.ICredentialProviderUserArray_GetAccountOptions, shell.ICredentialProviderUserArray_GetUserEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

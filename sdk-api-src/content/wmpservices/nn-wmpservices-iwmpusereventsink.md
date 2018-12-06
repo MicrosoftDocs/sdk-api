@@ -7,7 +7,7 @@ old-location: wmp\iwmpusereventsink.htm
 tech.root: WMP
 ms.assetid: b9afa601-543e-4338-a603-2fe4cd56db36
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPUserEventSink, IWMPUserEventSink interface [Windows Media Player], IWMPUserEventSink interface [Windows Media Player],described, IWMPUserEventSinkInterface, wmp.iwmpusereventsink, wmpservices/IWMPUserEventSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

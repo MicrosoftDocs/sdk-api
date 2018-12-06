@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_popstoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: B621336B-9334-4408-988F-6F5DBB2C4B53
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PopStorageFilter method, IDXGIInfoQueue.PopStorageFilter, IDXGIInfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method [DXGI], PopStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_popstoragefilter, dxgidebug/IDXGIInfoQueue::PopStorageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\itaskfolder_createfolder.htm
 tech.root: taskschd
 ms.assetid: da0f2420-b1a0-4359-aa05-ddf1f2a35118
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateFolder, CreateFolder method [Task Scheduler], CreateFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],CreateFolder method, ITaskFolder.CreateFolder, ITaskFolder::CreateFolder, taskschd.itaskfolder_createfolder, taskschd/ITaskFolder::CreateFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

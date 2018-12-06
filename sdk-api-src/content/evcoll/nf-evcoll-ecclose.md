@@ -7,7 +7,7 @@ old-location: wec\ecclose.htm
 tech.root: WEC
 ms.assetid: a2dc71e3-7580-4484-9a08-4e3ee2139921
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EcClose, EcClose function, evcoll/EcClose, wec.ecclose, wes.ecclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordsourceid.htm
 tech.root: mstv
 ms.assetid: c5edc529-ca54-4f18-8859-b7eb168bff0a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordSourceId, GetRecordSourceId method [Microsoft TV Technologies], GetRecordSourceId method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordSourceId method, IATSC_VCT.GetRecordSourceId, IATSC_VCT::GetRecordSourceId, IATSC_VCTGetRecordSourceId, atscpsipparser/IATSC_VCT::GetRecordSourceId, mstv.iatsc_vct_getrecordsourceid
 ms.prod: windows-hardware
 ms.technology: windows-devices

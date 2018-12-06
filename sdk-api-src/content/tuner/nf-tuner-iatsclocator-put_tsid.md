@@ -7,7 +7,7 @@ old-location: mstv\iatsclocator_put_tsid.htm
 tech.root: mstv
 ms.assetid: 1864d2e7-0d4a-44b6-a9db-11f6efcd6986
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IATSCLocator interface [Microsoft TV Technologies],put_TSID method, IATSCLocator.put_TSID, IATSCLocator::put_TSID, IATSCLocatorput_TSID, mstv.iatsclocator_put_tsid, put_TSID, put_TSID method [Microsoft TV Technologies], put_TSID method [Microsoft TV Technologies],IATSCLocator interface, tuner/IATSCLocator::put_TSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

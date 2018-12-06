@@ -7,7 +7,7 @@ old-location: wmp\wmptasktype.htm
 tech.root: WMP
 ms.assetid: 7abc17b1-5ce7-4741-9a6a-d5a444046418
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: WMPTaskType, WMPTaskType enumeration [Windows Media Player], contentpartner/WMPTaskType, contentpartner/wmpttBrowse, contentpartner/wmpttBurn, contentpartner/wmpttCurrent, contentpartner/wmpttSync, enumeration [Windows Media Player], wmp.wmptasktype, wmpttBrowse, wmpttBurn, wmpttCurrent, wmpttSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

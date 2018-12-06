@@ -7,7 +7,7 @@ old-location: winprog\ndrcomformantarraybuffersize.htm
 tech.root: devnotes
 ms.assetid: 0f230b58-6f80-40c1-b70d-5ba7fbb5a130
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: NdrComformantArrayBufferSize, NdrConformantArrayBufferSize, NdrConformantArrayBufferSize function [Windows API], rpcndr/NdrConformantArrayBufferSize, winprog.ndrcomformantarraybuffersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\policy_modification_info.htm
 tech.root: secmgmt
 ms.assetid: ef4d1d1d-9b1b-4d67-80b8-2b548ec31a87
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPOLICY_MODIFICATION_INFO, POLICY_MODIFICATION_INFO, POLICY_MODIFICATION_INFO structure [Security], PPOLICY_MODIFICATION_INFO, PPOLICY_MODIFICATION_INFO structure pointer [Security], _POLICY_MODIFICATION_INFO, _lsa_policy_modification_info, ntsecapi/POLICY_MODIFICATION_INFO, ntsecapi/PPOLICY_MODIFICATION_INFO, security.policy_modification_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

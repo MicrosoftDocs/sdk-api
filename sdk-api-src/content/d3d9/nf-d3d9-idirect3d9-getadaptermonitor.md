@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__getadaptermonitor.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadaptermonitor.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 1cf647c6-38ba-6d39-fbf9-c82f611d7078, GetAdapterMonitor, GetAdapterMonitor method [Direct3D 9], GetAdapterMonitor method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterMonitor method, IDirect3D9.GetAdapterMonitor, IDirect3D9::GetAdapterMonitor, d3d9helper/IDirect3D9::GetAdapterMonitor, direct3d9.idirect3d9__getadaptermonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

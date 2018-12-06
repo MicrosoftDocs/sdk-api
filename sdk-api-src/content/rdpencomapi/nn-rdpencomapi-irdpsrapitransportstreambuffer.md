@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapitransportstreambuffer.htm
 tech.root: rdp
 ms.assetid: 44087315-7a71-4557-89b3-bf8c66ed10a4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], IRDPSRAPITransportStreamBuffer interface [RDP],described, rdp.irdpsrapitransportstreambuffer, rdpencomapi/IRDPSRAPITransportStreamBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

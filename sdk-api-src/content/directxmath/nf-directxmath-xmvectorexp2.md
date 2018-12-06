@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorexp2.htm
 tech.root: dxmath
 ms.assetid: 1B04528B-532B-4555-B027-D5EC33DD9843
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorExp2, XMVectorExp2, XMVectorExp2 method [DirectX Math Support APIs], dxmath.xmvectorexp2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVectorExp2
-: 
 ---
 
 # XMVectorExp2 function

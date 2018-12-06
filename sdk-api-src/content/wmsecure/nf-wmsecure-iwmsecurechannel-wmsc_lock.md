@@ -7,7 +7,7 @@ old-location: wmformat\iwmsecurechannel_wmsc_lock.htm
 tech.root: wmformat
 ms.assetid: fbb9f71c-49ee-45d8-bb9a-945290e11ea9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Lock method, IWMSecureChannel.WMSC_Lock, IWMSecureChannel::WMSC_Lock, WMSC_Lock, WMSC_Lock method [windows Media Format], WMSC_Lock method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_lock, wmsecure/IWMSecureChannel::WMSC_Lock
 ms.prod: windows-hardware
 ms.technology: windows-devices

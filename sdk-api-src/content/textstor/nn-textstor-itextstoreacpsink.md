@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink.htm
 tech.root: TSF
 ms.assetid: d7e5a04f-7159-436e-a522-4cb63063aeef
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITextStoreACPSink, ITextStoreACPSink interface [Text Services Framework], ITextStoreACPSink interface [Text Services Framework],described, _tsf_itextstoreacpsink_ref, textstor/ITextStoreACPSink, tsf.itextstoreacpsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

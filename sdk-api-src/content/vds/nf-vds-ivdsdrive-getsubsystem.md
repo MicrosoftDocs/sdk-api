@@ -7,7 +7,7 @@ old-location: base\ivdsdrive_getsubsystem.htm
 tech.root: vds
 ms.assetid: e407cf77-93a7-48f6-85d3-007369316041
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],GetSubSystem method, IVdsDrive.GetSubSystem, IVdsDrive::GetSubSystem, base.ivdsdrive_getsubsystem, vds/IVdsDrive::GetSubSystem, vdshwprv/IVdsDrive::GetSubSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

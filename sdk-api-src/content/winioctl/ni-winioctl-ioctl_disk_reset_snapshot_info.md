@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_reset_snapshot_info.htm
 tech.root: fileio
 ms.assetid: 522f469e-9630-4fa3-a157-7090c58a9856
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Files], fs.ioctl_disk_reset_snapshot_info, winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

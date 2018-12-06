@@ -7,7 +7,7 @@ old-location: base\cvsswriterex.htm
 tech.root: vss
 ms.assetid: 29820c1d-2add-402d-a9ca-9e8674d85f7f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CVssWriterEx, CVssWriterEx class, CVssWriterEx class,described, base.cvsswriterex, vswriter/CVssWriterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

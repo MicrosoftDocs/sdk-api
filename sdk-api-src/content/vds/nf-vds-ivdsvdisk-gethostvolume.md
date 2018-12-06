@@ -7,7 +7,7 @@ old-location: base\ivdsvdisk_gethostvolume.htm
 tech.root: vds
 ms.assetid: e8ab5d3a-775d-4c80-9c18-d25b5dd169e6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetHostVolume, GetHostVolume method, GetHostVolume method,IVdsVDisk interface, IVdsVDisk interface,GetHostVolume method, IVdsVDisk.GetHostVolume, IVdsVDisk::GetHostVolume, base.ivdsvdisk_gethostvolume, vds/IVdsVDisk::GetHostVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

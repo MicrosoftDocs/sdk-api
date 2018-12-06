@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilegroupmanager.htm
 tech.root: fsrm
 ms.assetid: e0a1a3d3-f683-410d-a0d9-081cd2476d1e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmFileGroupManager, IFsrmFileGroupManager interface [File Server Resource Manager], IFsrmFileGroupManager interface [File Server Resource Manager],described, fs.ifsrmfilegroupmanager, fsrm.ifsrmfilegroupmanager, fsrmscreen/IFsrmFileGroupManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itaddresstranslation_enumeratelocations.htm
 tech.root: tapi
 ms.assetid: b286c738-1037-4a11-8c71-192b050d1502
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: EnumerateLocations, EnumerateLocations method [TAPI 2.2], EnumerateLocations method [TAPI 2.2],ITAddressTranslation interface, ITAddressTranslation interface [TAPI 2.2],EnumerateLocations method, ITAddressTranslation.EnumerateLocations, ITAddressTranslation::EnumerateLocations, _tapi3_itaddresstranslation_enumeratelocations, tapi3.itaddresstranslation_enumeratelocations, tapi3if/ITAddressTranslation::EnumerateLocations
 ms.prod: windows-hardware
 ms.technology: windows-devices

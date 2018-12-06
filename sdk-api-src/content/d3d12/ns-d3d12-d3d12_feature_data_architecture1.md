@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_architecture1.htm
 tech.root: direct3d12
 ms.assetid: 635091FE-2756-4648-958E-0C13BDD50851
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_FEATURE_DATA_ARCHITECTURE1, D3D12_FEATURE_DATA_ARCHITECTURE1 structure, d3d12/D3D12_FEATURE_DATA_ARCHITECTURE1, direct3d12.d3d12_feature_data_architecture1
 ms.prod: windows-hardware
 ms.technology: windows-devices

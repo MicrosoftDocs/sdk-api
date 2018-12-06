@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_geteaseventcodelen.htm
 tech.root: mstv
 ms.assetid: d6e05cd0-d043-4f15-b25b-28402035943b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetEASEventCodeLen, GetEASEventCodeLen method [Microsoft TV Technologies], GetEASEventCodeLen method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventCodeLen method, ISCTE_EAS.GetEASEventCodeLen, ISCTE_EAS::GetEASEventCodeLen, ISCTE_EASGetEASEventCodeLen, atscpsipparser/ISCTE_EAS::GetEASEventCodeLen, mstv.iscte_eas_geteaseventcodelen
 ms.prod: windows-hardware
 ms.technology: windows-devices

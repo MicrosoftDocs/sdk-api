@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveryprovidernotify_remove.htm
 tech.root: wsdapi
 ms.assetid: 776fc1d5-9dfe-445f-9af6-36faf971bf37
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryProviderNotify interface,Remove method, IWSDiscoveryProviderNotify.Remove, IWSDiscoveryProviderNotify::Remove, Remove, Remove method, Remove method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_remove, wsddisco/IWSDiscoveryProviderNotify::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

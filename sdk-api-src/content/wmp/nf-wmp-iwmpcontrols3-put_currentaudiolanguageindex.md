@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols3_put_currentaudiolanguageindex.htm
 tech.root: WMP
 ms.assetid: f231ed72-e61d-4754-8ecb-e9a35f4abf2c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],put_currentAudioLanguageIndex method, IWMPControls3.put_currentAudioLanguageIndex, IWMPControls3::put_currentAudioLanguageIndex, IWMPControls3put_currentAudioLanguageIndex, put_currentAudioLanguageIndex, put_currentAudioLanguageIndex method [Windows Media Player], put_currentAudioLanguageIndex method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_put_currentaudiolanguageindex, wmp/IWMPControls3::put_currentAudioLanguageIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

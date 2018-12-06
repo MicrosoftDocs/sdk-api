@@ -7,7 +7,7 @@ old-location: mmc\iconsolepower_setexecutionstate.htm
 tech.root: mmc
 ms.assetid: 1fbdc155-ea95-43b6-8aea-f47ff0c89859
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, IConsolePower interface [MMC],SetExecutionState method, IConsolePower.SetExecutionState, IConsolePower::SetExecutionState, SetExecutionState, SetExecutionState method [MMC], SetExecutionState method [MMC],IConsolePower interface, _slate_iconsolepower_setexecutionstate, mmc.iconsolepower_setexecutionstate, mmc/IConsolePower::SetExecutionState
 ms.prod: windows-hardware
 ms.technology: windows-devices

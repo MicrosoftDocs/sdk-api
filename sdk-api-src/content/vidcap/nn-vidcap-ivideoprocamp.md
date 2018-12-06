@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp.htm
 tech.root: DirectShow
 ms.assetid: efaef34a-688a-4c7d-b8ee-e0f52468e355
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], IVideoProcAmp interface [DirectShow],described, IVideoProcAmpInterface, dshow.ivideoprocamp, vidcap/IVideoProcAmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice2_createanimation.htm
 tech.root: directcomp
 ms.assetid: 6F15F6CD-E2EE-42E5-AF46-01A9A28F4896
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateAnimation, CreateAnimation method [DirectComposition], CreateAnimation method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateAnimation method, IDCompositionDevice2.CreateAnimation, IDCompositionDevice2::CreateAnimation, dcomp/IDCompositionDevice2::CreateAnimation, directcomp.idcompositiondevice2_createanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices

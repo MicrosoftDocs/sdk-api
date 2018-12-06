@@ -7,7 +7,7 @@ old-location: dhcp\dhcpaddserver.htm
 tech.root: DHCP
 ms.assetid: bdf5d239-478a-47af-9240-19d1b6933f7e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpAddServer, DhcpAddServer function [DHCP], dhcp.dhcpaddserver, dhcpsapi/DhcpAddServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

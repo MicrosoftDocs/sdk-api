@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator_get_bandwidth.htm
 tech.root: mstv
 ms.assetid: 7483d876-fdcc-4eee-b4f3-338846a159c0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_Bandwidth method, IDVBTLocator.get_Bandwidth, IDVBTLocator::get_Bandwidth, IDVBTLocatorget_Bandwidth, get_Bandwidth, get_Bandwidth method [Microsoft TV Technologies], get_Bandwidth method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_bandwidth, tuner/IDVBTLocator::get_Bandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

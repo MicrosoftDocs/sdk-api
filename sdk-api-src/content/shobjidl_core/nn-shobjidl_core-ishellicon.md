@@ -7,7 +7,7 @@ old-location: shell\IShellIcon.htm
 tech.root: shell
 ms.assetid: 64711453-bc70-4acb-bff7-8b5534cceff5
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IShellIcon, IShellIcon interface [Windows Shell], IShellIcon interface [Windows Shell],described, _win32_IShellIcon, shell.IShellIcon, shobjidl_core/IShellIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorlogrecords_get_structuredrecords.htm
 tech.root: cossdk
 ms.assetid: a9b687c9-1e78-4896-a407-b069328ce66d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ICrmMonitorLogRecords interface [COM+],get_StructuredRecords method, ICrmMonitorLogRecords.get_StructuredRecords, ICrmMonitorLogRecords::get_StructuredRecords, _dtc_ICrmMonitorLogRecords_StructuredRecords, comsvcs/ICrmMonitorLogRecords::get_StructuredRecords, cos.icrmmonitorlogrecords_get_structuredrecords, get_StructuredRecords, get_StructuredRecords method [COM+], get_StructuredRecords method [COM+],ICrmMonitorLogRecords interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

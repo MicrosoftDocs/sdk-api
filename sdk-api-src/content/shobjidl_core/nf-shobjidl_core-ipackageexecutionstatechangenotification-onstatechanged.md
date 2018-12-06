@@ -7,7 +7,7 @@ old-location: shell\IPackageExecutionStateChangeNotification_OnStateChanged.htm
 tech.root: shell
 ms.assetid: 254986AF-4572-4D63-B055-1C05A8FB0417
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IPackageExecutionStateChangeNotification interface [Windows Shell],OnStateChanged method, IPackageExecutionStateChangeNotification.OnStateChanged, IPackageExecutionStateChangeNotification::OnStateChanged, OnStateChanged, OnStateChanged method [Windows Shell], OnStateChanged method [Windows Shell],IPackageExecutionStateChangeNotification interface, shell.IPackageExecutionStateChangeNotification_OnStateChanged, shobjidl_core/IPackageExecutionStateChangeNotification::OnStateChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

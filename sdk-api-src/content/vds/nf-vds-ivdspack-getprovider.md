@@ -7,7 +7,7 @@ old-location: base\ivdspack_getprovider.htm
 tech.root: vds
 ms.assetid: b6e7ca7c-b95f-457d-996b-b3c449b6ce6b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetProvider, GetProvider method [VDS], GetProvider method [VDS],IVdsPack interface, IVdsPack interface [VDS],GetProvider method, IVdsPack.GetProvider, IVdsPack::GetProvider, base.ivdspack_getprovider, vds/IVdsPack::GetProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

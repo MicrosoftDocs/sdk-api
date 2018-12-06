@@ -7,7 +7,7 @@ old-location: security\authzreportsecurityevent.htm
 tech.root: secauthz
 ms.assetid: 95d561ef-3233-433a-a1e7-b914df1dd211
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: APF_AuditFailure, APF_AuditSuccess, AuthzReportSecurityEvent, AuthzReportSecurityEvent function [Security], authz/AuthzReportSecurityEvent, security.authzreportsecurityevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

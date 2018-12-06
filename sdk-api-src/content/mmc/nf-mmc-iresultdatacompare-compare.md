@@ -7,7 +7,7 @@ old-location: mmc\iresultdatacompare_compare.htm
 tech.root: mmc
 ms.assetid: 00d18ba5-589f-4a70-b331-ba9c7d5164c5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Compare, Compare method [MMC], Compare method [MMC],IResultDataCompare interface, IResultDataCompare interface [MMC],Compare method, IResultDataCompare.Compare, IResultDataCompare::Compare, _slate_iresultdatacompare_compare, mmc.iresultdatacompare_compare, mmc/IResultDataCompare::Compare
 ms.prod: windows-hardware
 ms.technology: windows-devices

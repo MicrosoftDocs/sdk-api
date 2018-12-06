@@ -7,7 +7,7 @@ old-location: netmgmt\netuseenum.htm
 tech.root: netmgmt
 ms.assetid: fb527f85-baea-48e8-b837-967870834ec5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: NetUseEnum, NetUseEnum function [Network Management], _win32_netuseenum, lmuse/NetUseEnum, netmgmt.netuseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

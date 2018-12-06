@@ -7,7 +7,7 @@ old-location: controls\GetMUILanguage.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\getmuilanguage.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetMUILanguage, GetMUILanguage function [Windows Controls], _win32_GetMUILanguage, _win32_GetMUILanguage_cpp, commctrl/GetMUILanguage, controls.GetMUILanguage, controls._win32_GetMUILanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

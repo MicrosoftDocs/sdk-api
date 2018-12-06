@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_COLUMN_PROPERTIES.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_column_properties.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: SEARCH_COLUMN_PROPERTIES, SEARCH_COLUMN_PROPERTIES structure [search], _SEARCH_COLUMN_PROPERTIES, _search_SEARCH_COLUMN_PROPERTIES, search._search_SEARCH_COLUMN_PROPERTIES, searchapi/SEARCH_COLUMN_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_window_parms.htm
 tech.root: Multimedia
 ms.assetid: 89c16949-4501-4ca0-87b6-c5f2524879a7
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPMCI_DGV_WINDOW_PARMSW, MCI_DGV_WINDOW_PARMS, MCI_DGV_WINDOW_PARMS structure [Windows Multimedia], MCI_DGV_WINDOW_PARMSW, _win32_MCI_DGV_WINDOW_PARMS_str, digitalv/MCI_DGV_WINDOW_PARMS, multimedia.mci_dgv_window_parms"
 ms.prod: windows-hardware
 ms.technology: windows-devices

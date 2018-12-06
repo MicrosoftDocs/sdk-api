@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_clearretrievalfilter.htm
 tech.root: direct3d12
 ms.assetid: 266FEB51-0922-47B1-B165-736EC6AFC22B
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ClearRetrievalFilter, ClearRetrievalFilter method, ClearRetrievalFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,ClearRetrievalFilter method, ID3D12InfoQueue.ClearRetrievalFilter, ID3D12InfoQueue::ClearRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::ClearRetrievalFilter, direct3d12.id3d12infoqueue_clearretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

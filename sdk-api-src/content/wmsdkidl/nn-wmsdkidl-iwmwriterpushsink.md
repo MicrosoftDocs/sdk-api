@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpushsink.htm
 tech.root: wmformat
 ms.assetid: 47bee154-0d29-4f4c-ac38-af8747088024
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMWriterPushSink, IWMWriterPushSink interface [windows Media Format], IWMWriterPushSink interface [windows Media Format],described, IWMWriterPushSinkInterface, wmformat.iwmwriterpushsink, wmsdkidl/IWMWriterPushSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

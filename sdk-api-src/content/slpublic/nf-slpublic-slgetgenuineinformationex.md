@@ -7,7 +7,7 @@ old-location: security\slgetgenuineinformationex.htm
 tech.root: SecSLApi
 ms.assetid: 229fd8f2-ec8c-4f34-a492-caf18e036b70
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLGetGenuineInformationEx, SLGetGenuineInformationEx function [Security], security.slgetgenuineinformationex, slpublic/SLGetGenuineInformationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

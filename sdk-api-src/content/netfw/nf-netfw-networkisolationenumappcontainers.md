@@ -7,7 +7,7 @@ old-location: ics\networkisolationenumappcontainers.htm
 tech.root: ics
 ms.assetid: 9a940eb5-712a-459e-9932-0115fdfb512b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: NetworkIsolationEnumAppContainers, NetworkIsolationEnumAppContainers function [ICS/ICF], ics.networkisolationenumappcontainers, networkisolation/NetworkIsolationEnumAppContainers
 ms.prod: windows-hardware
 ms.technology: windows-devices

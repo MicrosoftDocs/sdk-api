@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactionemail.htm
 tech.root: fsrm
 ms.assetid: 6eb6d82e-018d-4977-ad60-fce296c16e83
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmActionEmail, IFsrmActionEmail interface [File Server Resource Manager], IFsrmActionEmail interface [File Server Resource Manager],described, fs.ifsrmactionemail, fsrm.ifsrmactionemail, fsrm/IFsrmActionEmail
 ms.prod: windows-hardware
 ms.technology: windows-devices

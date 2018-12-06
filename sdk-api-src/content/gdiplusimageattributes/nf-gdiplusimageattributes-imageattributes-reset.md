@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_Reset_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\reset_82type.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ImageAttributes class [GDI+],Reset method, ImageAttributes.Reset, ImageAttributes::Reset, Reset, Reset method [GDI+], Reset method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_Reset_type_, gdiplus._gdiplus_CLASS_ImageAttributes_Reset_type_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imeminputpin_receivecanblock.htm
 tech.root: DirectShow
 ms.assetid: cc047cad-e250-41f7-856d-26fc077f87a1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMemInputPin interface [DirectShow],ReceiveCanBlock method, IMemInputPin.ReceiveCanBlock, IMemInputPin::ReceiveCanBlock, IMemInputPinReceiveCanBlock, ReceiveCanBlock, ReceiveCanBlock method [DirectShow], ReceiveCanBlock method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receivecanblock, strmif/IMemInputPin::ReceiveCanBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

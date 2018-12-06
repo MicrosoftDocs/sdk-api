@@ -7,7 +7,7 @@ old-location: com\ifastrundown.htm
 tech.root: com
 ms.assetid: 8406B781-7CBE-47F8-B7EF-5FF599BB8EDE
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFastRundown, IFastRundown interface [COM], IFastRundown interface [COM],described, com.ifastrundown, objidl/IFastRundown
 ms.prod: windows-hardware
 ms.technology: windows-devices

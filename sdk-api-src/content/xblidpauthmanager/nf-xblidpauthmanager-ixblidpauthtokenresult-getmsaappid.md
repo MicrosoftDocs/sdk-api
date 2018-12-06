@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getmsaappid.htm
 tech.root: xblidp
 ms.assetid: B27ADEA9-EF4F-4A6C-8876-3D2358E442E1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetMsaAppId, GetMsaAppId method, GetMsaAppId method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaAppId method, IXblIdpAuthTokenResult.GetMsaAppId, IXblIdpAuthTokenResult::GetMsaAppId, xblidp.ixblidpauthtokenresult_getmsaappid, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaAppId
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setalphaslope.htm
 tech.root: directcomp
 ms.assetid: 2FC6E287-D71B-40DC-A8A8-95B031327771
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaSlope method, IDCompositionLinearTransferEffect.SetAlphaSlope, IDCompositionLinearTransferEffect::SetAlphaSlope, IDCompositionLinearTransferEffect::SetAlphaSlope(float), SetAlphaSlope, SetAlphaSlope method [DirectComposition], SetAlphaSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaSlope, directcomp.idcompositionlineartransfereffect_setalphaslope
 ms.prod: windows-hardware
 ms.technology: windows-devices

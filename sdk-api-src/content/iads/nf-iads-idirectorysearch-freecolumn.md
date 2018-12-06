@@ -7,7 +7,7 @@ old-location: adsi\idirectorysearch_freecolumn.htm
 tech.root: adsi
 ms.assetid: 72e75429-d22c-490f-a1f7-d771628067c9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FreeColumn, FreeColumn method [ADSI], FreeColumn method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],FreeColumn method, IDirectorySearch.FreeColumn, IDirectorySearch::FreeColumn, _ds_idirectorysearch_freecolumn, adsi.idirectorysearch__freecolumn, adsi.idirectorysearch_freecolumn, iads/IDirectorySearch::FreeColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices

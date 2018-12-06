@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex2_prefastrecovery.htm
 tech.root: vss
 ms.assetid: ba06e324-0f17-4184-bc53-dcb82fb49292
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssBackupComponentsEx2 interface,PreFastRecovery method, IVssBackupComponentsEx2.PreFastRecovery, IVssBackupComponentsEx2::PreFastRecovery, PreFastRecovery, PreFastRecovery method, PreFastRecovery method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_prefastrecovery, vsbackup/IVssBackupComponentsEx2::PreFastRecovery
 ms.prod: windows-hardware
 ms.technology: windows-devices

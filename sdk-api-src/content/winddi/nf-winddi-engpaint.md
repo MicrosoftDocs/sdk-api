@@ -7,7 +7,7 @@ old-location: display\engpaint.htm
 tech.root: display
 ms.assetid: 9bfa2e7b-06c7-427a-9283-54b9c6cdac30
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: EngPaint, EngPaint function [Display Devices], display.engpaint, gdifncs_fdbafee3-278d-4d69-bd16-535e92436a1d.xml, winddi/EngPaint
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1factory6.htm
 tech.root: direct2d
 ms.assetid: 79656026-7197-4EF4-A8DD-7E65D43D1F18
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1Factory6, ID2D1Factory6 interface [Direct2D], ID2D1Factory6 interface [Direct2D],described, d2d1_3/ID2D1Factory6, direct2d.id2d1factory6
 ms.prod: windows-hardware
 ms.technology: windows-devices

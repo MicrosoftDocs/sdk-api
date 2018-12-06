@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: e345e860-247a-4c30-876b-c0e6c82767b8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IISDB_CDT.GetTableDescriptorByIndex, IISDB_CDT::GetTableDescriptorByIndex, dvbsiparser/IISDB_CDT::GetTableDescriptorByIndex, mstv.iisdb_cdt_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

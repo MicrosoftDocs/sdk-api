@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiframebuffer.htm
 tech.root: rdp
 ms.assetid: ab40bdd2-448f-4867-aabd-d6b66add5247
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], IRDPSRAPIFrameBuffer interface [RDP],described, rdp.irdpsrapiframebuffer, rdpencomapi/IRDPSRAPIFrameBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

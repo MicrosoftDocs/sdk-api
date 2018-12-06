@@ -7,7 +7,7 @@ old-location: tapi3\itcollection2.htm
 tech.root: tapi
 ms.assetid: d65f06c9-fecd-4ce6-af82-81acb48268e5
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITCollection2, ITCollection2 interface [TAPI 2.2], ITCollection2 interface [TAPI 2.2],described, _tapi3_itcollection2, tapi3.itcollection2, tapi3if/ITCollection2
 ms.prod: windows-hardware
 ms.technology: windows-devices

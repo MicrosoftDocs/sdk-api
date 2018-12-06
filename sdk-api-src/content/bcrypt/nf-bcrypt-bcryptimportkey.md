@@ -7,7 +7,7 @@ old-location: security\bcryptimportkey_func.htm
 tech.root: seccng
 ms.assetid: 6b9683f4-10f2-40e4-9757-a1f01991bef7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: BCRYPT_AES_WRAP_KEY_BLOB, BCRYPT_KEY_DATA_BLOB, BCRYPT_OPAQUE_KEY_BLOB, BCryptImportKey, BCryptImportKey function [Security], bcrypt/BCryptImportKey, security.bcryptimportkey_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

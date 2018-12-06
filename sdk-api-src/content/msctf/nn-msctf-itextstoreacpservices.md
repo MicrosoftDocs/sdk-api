@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpservices.htm
 tech.root: TSF
 ms.assetid: 8c84429c-3f99-4ab1-b994-e4e93cd9c86d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITextStoreACPServices, ITextStoreACPServices interface [Text Services Framework], ITextStoreACPServices interface [Text Services Framework],described, _tsf_itextstoreacpservices_ref, msctf/ITextStoreACPServices, tsf.itextstoreacpservices
 ms.prod: windows-hardware
 ms.technology: windows-devices

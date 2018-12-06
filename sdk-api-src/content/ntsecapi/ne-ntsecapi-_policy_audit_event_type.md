@@ -7,7 +7,7 @@ old-location: security\policy_audit_event_type.htm
 tech.root: secmgmt
 ms.assetid: e8dbd1d5-37d5-4a97-9d1c-c645871dc7a5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPOLICY_AUDIT_EVENT_TYPE, AuditCategoryAccountLogon, AuditCategoryAccountManagement, AuditCategoryDetailedTracking, AuditCategoryDirectoryServiceAccess, AuditCategoryLogon, AuditCategoryObjectAccess, AuditCategoryPolicyChange, AuditCategoryPrivilegeUse, AuditCategorySystem, POLICY_AUDIT_EVENT_TYPE, POLICY_AUDIT_EVENT_TYPE enumeration [Security], PPOLICY_AUDIT_EVENT_TYPE, PPOLICY_AUDIT_EVENT_TYPE enumeration pointer [Security], _POLICY_AUDIT_EVENT_TYPE, _lsa_policy_audit_event_type, ntsecapi/AuditCategoryAccountLogon, ntsecapi/AuditCategoryAccountManagement, ntsecapi/AuditCategoryDetailedTracking, ntsecapi/AuditCategoryDirectoryServiceAccess, ntsecapi/AuditCategoryLogon, ntsecapi/AuditCategoryObjectAccess, ntsecapi/AuditCategoryPolicyChange, ntsecapi/AuditCategoryPrivilegeUse, ntsecapi/AuditCategorySystem, ntsecapi/POLICY_AUDIT_EVENT_TYPE, ntsecapi/PPOLICY_AUDIT_EVENT_TYPE, security.policy_audit_event_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: http\httpreceiverequestentitybody.htm
 tech.root: http
 ms.assetid: b4ba765f-537b-4021-9ecc-d400d9b94723
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: HTTP_RECEIVE_REQUEST_ENTITY_BODY_FLAG_FILL_BUFFER, HttpReceiveRequestEntityBody, HttpReceiveRequestEntityBody function [HTTP], _http_httpreceiverequestentitybody, http.httpreceiverequestentitybody, http/HttpReceiveRequestEntityBody
 ms.prod: windows-hardware
 ms.technology: windows-devices

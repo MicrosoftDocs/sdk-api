@@ -7,7 +7,7 @@ old-location: tsf\itfmousesink.htm
 tech.root: TSF
 ms.assetid: d6e5549e-768d-47af-a553-84430641cda4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITfMouseSink, ITfMouseSink interface [Text Services Framework], ITfMouseSink interface [Text Services Framework],described, _tsf_itfmousesink_ref, msctf/ITfMouseSink, tsf.itfmousesink
 ms.prod: windows-hardware
 ms.technology: windows-devices

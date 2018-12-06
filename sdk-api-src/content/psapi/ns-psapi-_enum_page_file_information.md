@@ -7,7 +7,7 @@ old-location: psapi\enum_page_file_information_str.htm
 tech.root: psapi
 ms.assetid: 020f3be8-f624-4788-8079-0f7679c9bef0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PENUM_PAGE_FILE_INFORMATION, ENUM_PAGE_FILE_INFORMATION, ENUM_PAGE_FILE_INFORMATION structure [PSAPI], PENUM_PAGE_FILE_INFORMATION, PENUM_PAGE_FILE_INFORMATION structure pointer [PSAPI], _ENUM_PAGE_FILE_INFORMATION, _win32_enum_page_file_information_str, base.enum_page_file_information_str, psapi.enum_page_file_information_str, psapi/ENUM_PAGE_FILE_INFORMATION, psapi/PENUM_PAGE_FILE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

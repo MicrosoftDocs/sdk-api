@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdsinit.htm
 tech.root: DHCP
 ms.assetid: c622d492-91a8-4fd3-87ed-3545e7b83a0a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpDsInit, DhcpDsInit function [DHCP], dhcp.dhcpdsinit, dhcpsapi/DhcpDsInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

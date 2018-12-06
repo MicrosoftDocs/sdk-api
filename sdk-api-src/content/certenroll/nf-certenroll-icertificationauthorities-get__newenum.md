@@ -7,7 +7,7 @@ old-location: security\icertificationauthorities__newenum.htm
 tech.root: seccertenroll
 ms.assetid: 8e83859c-8f61-4864-8b4d-5056c604d219
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ICertificationAuthorities interface [Security],_NewEnum property, ICertificationAuthorities._NewEnum, ICertificationAuthorities.get__NewEnum, ICertificationAuthorities::_NewEnum, ICertificationAuthorities::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::_NewEnum, certenroll/ICertificationAuthorities::get__NewEnum, get__NewEnum, security.icertificationauthorities__newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

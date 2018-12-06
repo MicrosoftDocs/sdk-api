@@ -7,7 +7,7 @@ old-location: dshow\idmoqualitycontrol.htm
 tech.root: DirectShow
 ms.assetid: c23211f2-d4ba-45ff-b443-3425c3a3e72f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDMOQualityControl, IDMOQualityControl interface [DirectShow], IDMOQualityControl interface [DirectShow],described, IDMOQualityControlInterface, dshow.idmoqualitycontrol, mediaobj/IDMOQualityControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

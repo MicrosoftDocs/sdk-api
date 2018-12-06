@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetPointCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getpointcount_35.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetPointCount, GetPointCount method [GDI+], GetPointCount method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetPointCount method, PathGradientBrush.GetPointCount, PathGradientBrush::GetPointCount, _gdiplus_CLASS_PathGradientBrush_GetPointCount_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetPointCount_
 ms.prod: windows-hardware
 ms.technology: windows-devices

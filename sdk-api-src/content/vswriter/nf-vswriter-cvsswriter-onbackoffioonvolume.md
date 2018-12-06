@@ -7,7 +7,7 @@ old-location: base\cvsswriter_onbackoffioonvolume.htm
 tech.root: vss
 ms.assetid: 64aaae49-1d78-48ba-a38f-cab2ef2c4271
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CVssWriter interface [VSS],OnBackOffIOOnVolume method, CVssWriter.OnBackOffIOOnVolume, CVssWriter::OnBackOffIOOnVolume, OnBackOffIOOnVolume, OnBackOffIOOnVolume method [VSS], OnBackOffIOOnVolume method [VSS],CVssWriter interface, _win32_cvsswriter_onbackoffioonvolume, base.cvsswriter_onbackoffioonvolume, vswriter/CVssWriter::OnBackOffIOOnVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

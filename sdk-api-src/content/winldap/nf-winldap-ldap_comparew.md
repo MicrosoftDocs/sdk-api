@@ -7,7 +7,7 @@ old-location: ldap\ldap_compare.htm
 tech.root: ldap
 ms.assetid: 0cdcea2f-5ee2-407a-a229-5a3fb1e3b856
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_compare, ldap.ldap__compare, ldap.ldap_compare, ldap_compare, ldap_compare function [LDAP], ldap_compareA, ldap_compareW, winldap/ldap_compare, winldap/ldap_compareA, winldap/ldap_compareW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

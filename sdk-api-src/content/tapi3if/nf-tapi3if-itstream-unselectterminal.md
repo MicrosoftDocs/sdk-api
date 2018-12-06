@@ -7,7 +7,7 @@ old-location: tapi3\itstream_unselectterminal.htm
 tech.root: tapi
 ms.assetid: ad16ea41-0c02-4bba-bfd9-267b56c481e1
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITStream interface [TAPI 2.2],UnselectTerminal method, ITStream.UnselectTerminal, ITStream::UnselectTerminal, UnselectTerminal, UnselectTerminal method [TAPI 2.2], UnselectTerminal method [TAPI 2.2],ITStream interface, _tapi3_itstream_unselectterminal, tapi3.itstream_unselectterminal, tapi3if/ITStream::UnselectTerminal
 ms.prod: windows-hardware
 ms.technology: windows-devices

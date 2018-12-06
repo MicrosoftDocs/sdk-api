@@ -7,7 +7,7 @@ old-location: base\ivssprovidernotifications_onunload.htm
 tech.root: vss
 ms.assetid: 5b9e0940-70b4-4913-9281-0347e60baa0d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IVssProviderNotifications interface [VSS],OnUnload method, IVssProviderNotifications.OnUnload, IVssProviderNotifications::OnUnload, OnUnload, OnUnload method [VSS], OnUnload method [VSS],IVssProviderNotifications interface, base.ivssprovidernotifications_onunload, vsprov/IVssProviderNotifications::OnUnload
 ms.prod: windows-hardware
 ms.technology: windows-devices

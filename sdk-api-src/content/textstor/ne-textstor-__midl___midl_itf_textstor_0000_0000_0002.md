@@ -7,7 +7,7 @@ old-location: tsf\tslayoutcode.htm
 tech.root: TSF
 ms.assetid: 879f83ba-211b-49f6-93b2-6cde5f50fc24
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: TS_LC_CHANGE, TS_LC_CREATE, TS_LC_DESTROY, TsLayoutCode, TsLayoutCode enumeration [Text Services Framework], __MIDL___MIDL_itf_textstor_0000_0000_0002, _tsf_tslayoutcode_ref, textstor/TS_LC_CHANGE, textstor/TS_LC_CREATE, textstor/TS_LC_DESTROY, textstor/TsLayoutCode, tsf.tslayoutcode
 ms.prod: windows-hardware
 ms.technology: windows-devices

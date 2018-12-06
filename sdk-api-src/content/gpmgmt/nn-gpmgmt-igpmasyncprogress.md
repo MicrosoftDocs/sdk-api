@@ -7,7 +7,7 @@ old-location: gpmc\igpmasyncprogress.htm
 tech.root: gpmc
 ms.assetid: f48b90db-5984-4ea7-826b-6fbbf3c33788
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IGPMAsyncProgress, IGPMAsyncProgress interface [GPMC], IGPMAsyncProgress interface [GPMC],described, _win32_igpmasyncprogress, gpmc.igpmasyncprogress, gpmgmt/IGPMAsyncProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

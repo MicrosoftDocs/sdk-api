@@ -7,7 +7,7 @@ old-location: security\iazrole_addtask.htm
 tech.root: secauthz
 ms.assetid: 51ba30c3-8067-4aca-b8aa-8e64d4427b98
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: AddTask, AddTask method [Security], AddTask method [Security],AzRole object, AddTask method [Security],IAzRole interface, AzRole object [Security],AddTask method, IAzRole interface [Security],AddTask method, IAzRole.AddTask, IAzRole::AddTask, azroles/IAzRole::AddTask, security.iazrole_addtask
 ms.prod: windows-hardware
 ms.technology: windows-devices

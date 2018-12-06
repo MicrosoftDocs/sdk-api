@@ -7,7 +7,7 @@ old-location: fs\openenlistment.htm
 tech.root: ktm
 ms.assetid: 2c403e22-3feb-415a-b65b-572802764548
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: OpenEnlistment, OpenEnlistment function [Files], fs.openenlistment, ktmw32/OpenEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

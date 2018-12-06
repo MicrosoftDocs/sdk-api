@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat3pk.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3PK
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: XMFLOAT3PK, XMFLOAT3PK structure [DirectX Math Support APIs], directxpackedvector/XMFLOAT3PK, dxmath.xmfloat3pk
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,6 +99,23 @@ Unsigned 32-bit integer representing the 3D vector.
 		    
 
 
+### -field XMFLOAT3PK
+
+TBD 
+
+
+### -field operator uint32_t
+
+TBD 
+
+
+### -field operator=
+
+TBD 
+
+
+
+
 #### - xe : 5
 
 The 5-bit biased exponent for the x component.
@@ -144,14 +161,18 @@ There are no sign bits. This means all partial-precision numbers are positive. T
 	    least significant bits like this:
 	
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
   (Z10Y11X11): [31] ZZZZZzzz zzYYYYYy yyyyyXXX XXxxxxxx [0]
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Or in detail:
      
 

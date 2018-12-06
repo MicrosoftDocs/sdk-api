@@ -7,7 +7,7 @@ old-location: devinst\cm_set_devnode_property_exw.htm
 tech.root: devinst
 ms.assetid: FB725245-DB20-4363-BEC0-D7C837BED78A
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Set_DevNode_Property_ExW, CM_Set_DevNode_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Set_DevNode_Property_ExW, devinst.cm_set_devnode_property_exw
 ms.prod: windows-hardware
 ms.technology: windows-devices

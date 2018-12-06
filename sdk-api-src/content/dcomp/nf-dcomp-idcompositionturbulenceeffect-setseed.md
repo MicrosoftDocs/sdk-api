@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionturbulenceeffect_setseed.htm
 tech.root: directcomp
 ms.assetid: FF980DF7-9DD2-4B98-AE84-CB4CA3A1226B
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetSeed method, IDCompositionTurbulenceEffect.SetSeed, IDCompositionTurbulenceEffect::SetSeed, SetSeed, SetSeed method [DirectComposition], SetSeed method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetSeed, directcomp.idcompositionturbulenceeffect_setseed
 ms.prod: windows-hardware
 ms.technology: windows-devices

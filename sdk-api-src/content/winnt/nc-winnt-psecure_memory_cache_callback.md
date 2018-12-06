@@ -7,7 +7,7 @@ old-location: base\securememorycachecallback.htm
 tech.root: memory
 ms.assetid: abde4b6f-7cd8-4a4b-9b00-f035b2c29054
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: PSECURE_MEMORY_CACHE_CALLBACK, PSECURE_MEMORY_CACHE_CALLBACK callback function, SecureMemoryCacheCallback, SecureMemoryCacheCallback callback, SecureMemoryCacheCallback callback function, base.securememorycachecallback, winnt/PSECURE_MEMORY_CACHE_CALLBACK, winnt/SecureMemoryCacheCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ad\idsdisplayspecifier_getfriendlyclassname.htm
 tech.root: ad
 ms.assetid: 192e2a57-6bde-4357-893e-37f466588b55
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetFriendlyClassName, GetFriendlyClassName method [Active Directory], GetFriendlyClassName method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetFriendlyClassName method, IDsDisplaySpecifier.GetFriendlyClassName, IDsDisplaySpecifier::GetFriendlyClassName, _glines_idsdisplayspecifier_getfriendlyclassname, ad.idsdisplayspecifier__getfriendlyclassname, ad.idsdisplayspecifier_getfriendlyclassname, dsclient/IDsDisplaySpecifier::GetFriendlyClassName
 ms.prod: windows-hardware
 ms.technology: windows-devices

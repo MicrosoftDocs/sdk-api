@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_finishallstoryboards.htm
 tech.root: UIAnimation
 ms.assetid: db5ba70c-3904-4053-881a-b1412beb35f3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FinishAllStoryboards, FinishAllStoryboards method [Windows Animation], FinishAllStoryboards method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],FinishAllStoryboards method, IUIAnimationManager.FinishAllStoryboards, IUIAnimationManager::FinishAllStoryboards, uianimation.iuianimationmanager_finishallstoryboards, uianimation/IUIAnimationManager::FinishAllStoryboards
 ms.prod: windows-hardware
 ms.technology: windows-devices

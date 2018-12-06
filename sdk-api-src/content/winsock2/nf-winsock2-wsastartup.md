@@ -7,7 +7,7 @@ old-location: winsock\wsastartup_2.htm
 tech.root: winsock
 ms.assetid: 08299592-867c-491d-9769-d16602133659
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: WSAStartup, WSAStartup function [Winsock], _win32_wsastartup_2, winsock.wsastartup_2, winsock/WSAStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices

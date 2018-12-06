@@ -7,7 +7,7 @@ old-location: iphlp\interface_timestamp_capability_flags.htm
 tech.root: IpHlp
 ms.assetid: EF064499-D11C-4C41-A417-E494D2FE3686
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS, INTERFACE_TIMESTAMP_CAPABILITY_FLAGS, INTERFACE_TIMESTAMP_CAPABILITY_FLAGS structure [IP Helper], PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS, PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS structure pointer [IP Helper], _INTERFACE_TIMESTAMP_CAPABILITY_FLAGS, iphlp.interface_timestamp_capability_flags, iphlpapi/INTERFACE_TIMESTAMP_CAPABILITY_FLAGS, iphlpapi/PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\service_preferred_node_info.htm
 tech.root: services
 ms.assetid: aa16cc56-0a95-47e0-9390-c219b83aeeb4
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSERVICE_PREFERRED_NODE_INFO, LPSERVICE_PREFERRED_NODE_INFO, LPSERVICE_PREFERRED_NODE_INFO structure pointer, SERVICE_PREFERRED_NODE_INFO, SERVICE_PREFERRED_NODE_INFO structure, _SERVICE_PREFERRED_NODE_INFO, base.service_preferred_node_info, winsvc/LPSERVICE_PREFERRED_NODE_INFO, winsvc/SERVICE_PREFERRED_NODE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

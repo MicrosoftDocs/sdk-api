@@ -7,7 +7,7 @@ old-location: com\ifontdisp.htm
 tech.root: com
 ms.assetid: c2ee251e-2419-4436-96e4-caaf6acc2550
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFontDisp, IFontDisp interface [COM], IFontDisp interface [COM],described, _ctrl_ifontdisp, com.ifontdisp, ocidl/IFontDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices

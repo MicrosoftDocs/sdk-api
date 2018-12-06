@@ -7,7 +7,7 @@ old-location: dshow\iamstreamconfig_getstreamcaps.htm
 tech.root: DirectShow
 ms.assetid: 9dd84847-2cae-42f2-a858-7106cd2ac075
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetStreamCaps, GetStreamCaps method [DirectShow], GetStreamCaps method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetStreamCaps method, IAMStreamConfig.GetStreamCaps, IAMStreamConfig::GetStreamCaps, IAMStreamConfigGetStreamCaps, dshow.iamstreamconfig_getstreamcaps, strmif/IAMStreamConfig::GetStreamCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

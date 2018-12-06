@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_sspi_kerberos_apreq_security_context_binding_template.h
 tech.root: wsw
 ms.assetid: 2499125c-757c-4960-a1b6-aa41c55e7594
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE, WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE structure [Web Services for Windows], _WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE, webservices/WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE, wsw.ws_tcp_sspi_kerberos_apreq_security_context_binding_template
 ms.prod: windows-hardware
 ms.technology: windows-devices

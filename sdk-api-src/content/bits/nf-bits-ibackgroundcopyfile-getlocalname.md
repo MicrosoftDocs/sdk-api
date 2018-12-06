@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile_getlocalname.htm
 tech.root: bits
 ms.assetid: d27844b7-a5c6-4f4c-a1db-80e031898634
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetLocalName, GetLocalName method [BITS], GetLocalName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetLocalName method, IBackgroundCopyFile.GetLocalName, IBackgroundCopyFile::GetLocalName, _drz_ibackgroundcopyfile_getlocalname, bits.ibackgroundcopyfile_getlocalname, bits/IBackgroundCopyFile::GetLocalName
 ms.prod: windows-hardware
 ms.technology: windows-devices

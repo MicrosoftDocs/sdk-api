@@ -7,7 +7,7 @@ old-location: mstv\ibda_encoder_querycapabilities.htm
 tech.root: mstv
 ms.assetid: 038f9360-0515-4655-9397-cd1bfb6c3d21
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_Encoder interface [Microsoft TV Technologies],QueryCapabilities method, IBDA_Encoder.QueryCapabilities, IBDA_Encoder::QueryCapabilities, QueryCapabilities, QueryCapabilities method [Microsoft TV Technologies], QueryCapabilities method [Microsoft TV Technologies],IBDA_Encoder interface, bdaiface/IBDA_Encoder::QueryCapabilities, mstv.ibda_encoder_querycapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

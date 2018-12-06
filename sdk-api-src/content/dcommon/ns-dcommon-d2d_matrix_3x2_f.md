@@ -7,7 +7,7 @@ old-location: direct2d\D2D_MATRIX_3X2_F.htm
 tech.root: direct2d
 ms.assetid: c8a54bad-4376-479b-8529-1e407623e473
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_MATRIX_3X2_F, D2D_MATRIX_3X2_F, D2D_MATRIX_3X2_F structure [Direct2D], dcommon/D2D_MATRIX_3X2_F, direct2d.D2D_MATRIX_3X2_F
 ms.prod: windows-hardware
 ms.technology: windows-devices

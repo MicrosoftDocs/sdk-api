@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_setstring.htm
 tech.root: wmi_v2
 ms.assetid: 1bfc3af0-cc43-4a80-acbe-010520acf8b5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_OperationOptions_SetString, MI_OperationOptions_SetString function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetString, wmi_v2.mi_operationoptions_setstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_OperationOptions_SetString
-: 
 ---
 
 # MI_OperationOptions_SetString function

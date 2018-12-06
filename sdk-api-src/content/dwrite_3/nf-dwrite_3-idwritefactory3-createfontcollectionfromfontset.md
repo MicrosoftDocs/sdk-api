@@ -7,7 +7,7 @@ old-location: directwrite\idwritefactory3_createfontcollectionfromfontset.htm
 tech.root: DirectWrite
 ms.assetid: 22cc005f-6d34-f701-ff83-63ba819ab651
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreateFontCollectionFromFontSet, CreateFontCollectionFromFontSet method [Direct Write], CreateFontCollectionFromFontSet method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateFontCollectionFromFontSet method, IDWriteFactory3.CreateFontCollectionFromFontSet, IDWriteFactory3::CreateFontCollectionFromFontSet, directwrite.idwritefactory3_createfontcollectionfromfontset, dwrite_3/IDWriteFactory3::CreateFontCollectionFromFontSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

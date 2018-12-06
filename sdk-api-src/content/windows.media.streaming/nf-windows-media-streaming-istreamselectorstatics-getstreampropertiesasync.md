@@ -7,7 +7,7 @@ old-location: mediastreaming\istreamselectorstatics_getstreampropertiesasync.htm
 tech.root: mediastreaming
 ms.assetid: 8C1B6DC6-D85E-406F-B6DA-914DC5269666
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetStreamPropertiesAsync, GetStreamPropertiesAsync method [Media Streaming API], GetStreamPropertiesAsync method [Media Streaming API],IStreamSelectorStatics interface, IStreamSelectorStatics interface [Media Streaming API],GetStreamPropertiesAsync method, IStreamSelectorStatics.GetStreamPropertiesAsync, IStreamSelectorStatics.streaming, IStreamSelectorStatics::GetStreamPropertiesAsync, IStreamSelectorStatics::streaming, mediastreaming.istreamselectorstatics_getstreampropertiesasync, windows/IStreamSelectorStatics::GetStreamPropertiesAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- windows.media.streaming.h
-: 
-- IStreamSelectorStatics.GetStreamPropertiesAsync
-: 
 ---
 
 # IStreamSelectorStatics::streaming

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext2_createtransformedimagesource.htm
 tech.root: direct2d
 ms.assetid: 1ABA6A8E-B691-47FF-AE32-1FC5D29C48B2
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreateTransformedImageSource, CreateTransformedImageSource method [Direct2D], CreateTransformedImageSource method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateTransformedImageSource method, ID2D1DeviceContext2.CreateTransformedImageSource, ID2D1DeviceContext2::CreateTransformedImageSource, d2d1_3/ID2D1DeviceContext2::CreateTransformedImageSource, direct2d.id2d1devicecontext2_createtransformedimagesource
 ms.prod: windows-hardware
 ms.technology: windows-devices

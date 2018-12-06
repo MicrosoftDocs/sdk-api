@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontext_setoutputpixelformat.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setoutputpixelformat.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetOutputPixelFormat method, IMILBitmapEffectRenderContext.SetOutputPixelFormat, IMILBitmapEffectRenderContext::SetOutputPixelFormat, SetOutputPixelFormat, SetOutputPixelFormat method [WPF Bitmap Effects], SetOutputPixelFormat method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setoutputpixelformat, mileffects/IMILBitmapEffectRenderContext::SetOutputPixelFormat, wibe._wibe_imilbitmapeffectrendercontext_setoutputpixelformat
 ms.prod: windows-hardware
 ms.technology: windows-devices

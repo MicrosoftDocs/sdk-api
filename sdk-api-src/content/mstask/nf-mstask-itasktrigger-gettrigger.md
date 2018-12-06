@@ -7,7 +7,7 @@ old-location: taskschd\itasktrigger_gettrigger.htm
 tech.root: taskschd
 ms.assetid: d6c9110d-c79e-475d-871b-83dca6577fc5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetTrigger, GetTrigger method [Task Scheduler], GetTrigger method [Task Scheduler],ITaskTrigger interface, ITaskTrigger interface [Task Scheduler],GetTrigger method, ITaskTrigger.GetTrigger, ITaskTrigger::GetTrigger, _msb_itasktrigger_gettrigger, mstask/ITaskTrigger::GetTrigger, taskschd.itasktrigger_gettrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices

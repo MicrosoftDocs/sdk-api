@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpmessageparameters.htm
 tech.root: wsdapi
 ms.assetid: 3af6e0ff-c0b9-47af-b018-37567f614adc
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDUdpMessageParameters, IWSDUdpMessageParameters interface, IWSDUdpMessageParameters interface,described, ncd.iwsdudpmessageparameters, wsdbase/IWSDUdpMessageParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iagileobject.htm
 tech.root: com
 ms.assetid: 787A22DE-AEAB-4570-BB97-C49D656E5D40
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAgileObject, IAgileObject interface [COM], IAgileObject interface [COM],described, com.iagileobject, objidl/IAgileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

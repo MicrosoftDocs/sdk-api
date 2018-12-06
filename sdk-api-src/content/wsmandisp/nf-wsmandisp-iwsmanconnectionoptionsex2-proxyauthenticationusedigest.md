@@ -7,7 +7,7 @@ old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusedigest.htm
 tech.root: winrm
 ms.assetid: 6813d121-2f02-4678-80fc-161dcb1d78ea
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseDigest method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest, IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest, ProxyAuthenticationUseDigest, ProxyAuthenticationUseDigest method [Windows Remote Management], ProxyAuthenticationUseDigest method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusedigest, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest
 ms.prod: windows-hardware
 ms.technology: windows-devices

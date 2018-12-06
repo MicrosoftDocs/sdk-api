@@ -7,7 +7,7 @@ old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getcoderatelpstream.h
 tech.root: mstv
 ms.assetid: dc4a1eef-1dd3-4946-8dad-6c8993290ca2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCodeRateLPStream, GetCodeRateLPStream method [Microsoft TV Technologies], GetCodeRateLPStream method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCodeRateLPStream method, IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateLPStream, IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateLPStream, IDvbTerrestrialDeliverySystemDescriptorGetCodeRateLPStream, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateLPStream, mstv.idvbterrestrialdeliverysystemdescriptor_getcoderatelpstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

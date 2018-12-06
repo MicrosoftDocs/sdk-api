@@ -7,7 +7,7 @@ old-location: shell\IProfferService_RevokeService.htm
 tech.root: shell
 ms.assetid: 90868bbb-6fcd-4de1-a853-524542b74701
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IProfferService interface [Windows Shell],RevokeService method, IProfferService.RevokeService, IProfferService::RevokeService, RevokeService, RevokeService method [Windows Shell], RevokeService method [Windows Shell],IProfferService interface, inet_IProfferService_RevokeService, shell.IProfferService_RevokeService, shobjidl_core/IProfferService::RevokeService
 ms.prod: windows-hardware
 ms.technology: windows-devices

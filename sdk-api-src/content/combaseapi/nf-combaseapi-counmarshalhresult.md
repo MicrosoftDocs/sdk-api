@@ -7,7 +7,7 @@ old-location: com\counmarshalhresult.htm
 tech.root: com
 ms.assetid: a45ef72c-d385-4012-9683-7d2cc6d68b6d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CoUnmarshalHresult, CoUnmarshalHresult function [COM], _com_CoUnmarshalHresult, com.counmarshalhresult, combaseapi/CoUnmarshalHresult
 ms.prod: windows-hardware
 ms.technology: windows-devices

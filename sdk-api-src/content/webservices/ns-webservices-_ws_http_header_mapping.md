@@ -7,7 +7,7 @@ old-location: wsw\ws_http_header_mapping.htm
 tech.root: wsw
 ms.assetid: bca1f244-4692-42bb-bbd7-c96647038a06
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_HTTP_HEADER_MAPPING, WS_HTTP_HEADER_MAPPING structure [Web Services for Windows], _WS_HTTP_HEADER_MAPPING, webservices/WS_HTTP_HEADER_MAPPING, wsw.ws_http_header_mapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

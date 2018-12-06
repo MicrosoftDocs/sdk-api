@@ -7,7 +7,7 @@ old-location: wua\iupdateexceptioncollection.htm
 tech.root: wua_sdk
 ms.assetid: 3f1a0290-5915-4ba4-8a59-855ab5a02e3e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdateExceptionCollection, IUpdateExceptionCollection interface [Windows Update Agent], IUpdateExceptionCollection interface [Windows Update Agent],described, wua.iupdateexceptioncollection, wuapi/IUpdateExceptionCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

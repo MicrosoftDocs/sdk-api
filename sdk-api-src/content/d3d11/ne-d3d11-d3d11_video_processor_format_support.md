@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_format_support.htm
 tech.root: medfound
 ms.assetid: A23C33B8-20D0-4F78-B21F-36FCD1506DC6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT, D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, d3d11/D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT, d3d11/D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, d3d11/D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, mf.d3d11_video_processor_format_support
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\imdserviceprovider_getdevicecount.htm
 tech.root: WMDM
 ms.assetid: 9cca4cb7-f569-452f-92dc-409b996ede17
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetDeviceCount, GetDeviceCount method [windows Media Device Manager], GetDeviceCount method [windows Media Device Manager],IMDServiceProvider interface, IMDServiceProvider interface [windows Media Device Manager],GetDeviceCount method, IMDServiceProvider.GetDeviceCount, IMDServiceProvider::GetDeviceCount, IMDServiceProviderGetDeviceCount, mswmdm/IMDServiceProvider::GetDeviceCount, wmdm.imdserviceprovider_getdevicecount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\storage_device_io_capability_descriptor.htm
 tech.root: fileio
 ms.assetid: E9AAE295-091C-4DF4-9EBD-0B8AD6C48F9C
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure [Files], _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, fs.storage_device_io_capability_descriptor, winioctl/PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, winioctl/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

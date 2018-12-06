@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolmanager_createlistener.htm
 tech.root: termserv
 ms.assetid: df91dc10-77af-4b5a-8033-1b1ff614bb17
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWRdsProtocolManager interface, IWRdsProtocolManager interface [Remote Desktop Services],CreateListener method, IWRdsProtocolManager.CreateListener, IWRdsProtocolManager::CreateListener, termserv.iwrdsprotocolmanager_createlistener, wtsprotocol/IWRdsProtocolManager::CreateListener
 ms.prod: windows-hardware
 ms.technology: windows-devices

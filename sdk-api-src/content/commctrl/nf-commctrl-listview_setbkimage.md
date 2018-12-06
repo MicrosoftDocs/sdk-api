@@ -7,7 +7,7 @@ old-location: controls\ListView_SetBkImage.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setbkimage.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ListView_SetBkImage, ListView_SetBkImage macro [Windows Controls], _win32_ListView_SetBkImage, _win32_ListView_SetBkImage_cpp, commctrl/ListView_SetBkImage, controls.ListView_SetBkImage, controls._win32_ListView_SetBkImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

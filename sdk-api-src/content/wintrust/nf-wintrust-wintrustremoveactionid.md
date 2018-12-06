@@ -7,7 +7,7 @@ old-location: security\wintrustremoveactionid.htm
 tech.root: seccrypto
 ms.assetid: d1c84b69-4886-4cb4-99c5-294bd9d8228b
 ms.author: windowssdkdev
-ms.date: 12/04/2018
+ms.date: 12/5/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustRemoveActionID, WintrustRemoveActionID function [Security], security.wintrustremoveactionid, wintrust/WintrustRemoveActionID
 ms.prod: windows-hardware
 ms.technology: windows-devices

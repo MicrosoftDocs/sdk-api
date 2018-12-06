@@ -7,7 +7,7 @@ old-location: fs\disk_extent_str.htm
 tech.root: fileio
 ms.assetid: 1b8dc6fa-e60b-4490-b439-44c93b6f4ce5
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDISK_EXTENT, DISK_EXTENT, DISK_EXTENT structure [Files], PDISK_EXTENT, PDISK_EXTENT structure pointer [Files], _DISK_EXTENT, _win32_disk_extent_str, base.disk_extent_str, fs.disk_extent_str, winioctl/DISK_EXTENT, winioctl/PDISK_EXTENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

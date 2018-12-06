@@ -7,7 +7,7 @@ old-location: ncd\responsebody_getstatus.htm
 tech.root: wsdapi
 ms.assetid: 41db6c35-b722-4b46-bfc2-7bbfe50aaa0a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RESPONSEBODY_GetStatus, RESPONSEBODY_GetStatus structure, ncd.responsebody_getstatus, wsdtypes/RESPONSEBODY_GetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

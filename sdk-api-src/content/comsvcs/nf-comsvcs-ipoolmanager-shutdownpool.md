@@ -7,7 +7,7 @@ old-location: cos\ipoolmanager_shutdownpool.htm
 tech.root: cossdk
 ms.assetid: c374b0a4-d984-4fa6-80a7-8bc4d0aff284
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IPoolManager interface [COM+],ShutdownPool method, IPoolManager.ShutdownPool, IPoolManager::ShutdownPool, ShutdownPool, ShutdownPool method [COM+], ShutdownPool method [COM+],IPoolManager interface, _cos_IPoolManager_ShutdownPool, comsvcs/IPoolManager::ShutdownPool, cos.ipoolmanager_shutdownpool
 ms.prod: windows-hardware
 ms.technology: windows-devices

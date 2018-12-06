@@ -7,7 +7,7 @@ old-location: proc_snap\pss_thread_entry.htm
 tech.root: proc_snap
 ms.assetid: 99C89DBB-8C12-482E-B33D-AE59C37662CF
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PSS_THREAD_ENTRY, PSS_THREAD_ENTRY structure, proc_snap.pss_thread_entry, processsnapshot/PSS_THREAD_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices

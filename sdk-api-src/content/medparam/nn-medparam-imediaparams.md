@@ -7,7 +7,7 @@ old-location: dshow\imediaparams.htm
 tech.root: DirectShow
 ms.assetid: 68ea8f6a-4b6d-4d79-a986-6032b767147b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IMediaParams, IMediaParams interface [DirectShow], IMediaParams interface [DirectShow],described, IMediaParamsInterface, dshow.imediaparams, medparam/IMediaParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

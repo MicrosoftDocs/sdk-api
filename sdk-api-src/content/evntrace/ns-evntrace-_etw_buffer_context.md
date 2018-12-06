@@ -7,7 +7,7 @@ old-location: etw\etw_buffer_context.htm
 tech.root: etw
 ms.assetid: 75577305-fb3f-40a2-8fe6-9cd82c3f4e69
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: "*PETW_BUFFER_CONTEXT, ETW_BUFFER_CONTEXT, ETW_BUFFER_CONTEXT structure [ETW], PETW_BUFFER_CONTEXT, PETW_BUFFER_CONTEXT structure pointer [ETW], _ETW_BUFFER_CONTEXT, base.etw_buffer_context, etw.etw_buffer_context, relogger/ETW_BUFFER_CONTEXT, relogger/PETW_BUFFER_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

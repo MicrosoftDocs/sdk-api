@@ -7,7 +7,7 @@ old-location: direct2d\D2D1_QUADRATIC_BEZIER_SEGMENT.htm
 tech.root: direct2d
 ms.assetid: 5060cb17-b6f4-4796-b91d-602fd81591c2
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_QUADRATIC_BEZIER_SEGMENT, D2D1_QUADRATIC_BEZIER_SEGMENT structure [Direct2D], d2d1/D2D1_QUADRATIC_BEZIER_SEGMENT, direct2d.D2D1_QUADRATIC_BEZIER_SEGMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent2_get_playlistcount.htm
 tech.root: DirectShow
 ms.assetid: 6f1a388e-de23-4441-bc65-33ce13519d70
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_PlaylistCount method, IAMMediaContent2.get_PlaylistCount, IAMMediaContent2::get_PlaylistCount, IAMMediaContent2get_PlaylistCount, dshow.iammediacontent2_get_playlistcount, get_PlaylistCount, get_PlaylistCount method [DirectShow], get_PlaylistCount method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_PlaylistCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

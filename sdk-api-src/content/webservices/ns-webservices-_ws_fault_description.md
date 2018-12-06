@@ -7,7 +7,7 @@ old-location: wsw\ws_fault_description.htm
 tech.root: wsw
 ms.assetid: 6634faec-5491-4332-b815-be2effa263f8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_FAULT_DESCRIPTION, WS_FAULT_DESCRIPTION structure [Web Services for Windows], _WS_FAULT_DESCRIPTION, webservices/WS_FAULT_DESCRIPTION, wsw.ws_fault_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

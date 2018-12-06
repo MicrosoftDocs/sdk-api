@@ -7,7 +7,7 @@ old-location: direct3ddxgi\createdxgifactory1.htm
 tech.root: direct3ddxgi
 ms.assetid: 6fb9d7a3-0b59-4b7a-8871-b99d59811d46
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateDXGIFactory1, CreateDXGIFactory1 function [DXGI], cbbcd6f0-23c8-ef1c-0d0c-2b56092eb8b1, direct3ddxgi.createdxgifactory1, dxgi/CreateDXGIFactory1
 ms.prod: windows-hardware
 ms.technology: windows-devices

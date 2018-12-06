@@ -7,7 +7,7 @@ old-location: wsw\wsfreewriter.htm
 tech.root: wsw
 ms.assetid: eb1eb835-838a-41e4-9e7d-c5c805237f65
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsFreeWriter, WsFreeWriter function [Web Services for Windows], webservices/WsFreeWriter, wsw.wsfreewriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

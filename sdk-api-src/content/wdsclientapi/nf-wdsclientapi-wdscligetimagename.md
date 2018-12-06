@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagename.htm
 tech.root: wds
 ms.assetid: 09bcd4c1-ce80-4338-a457-80c46b17015a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsCliGetImageName, WdsCliGetImageName function [Windows Deployment Services], wds.wdscligetimagename, wdsclientapi/WdsCliGetImageName
 ms.prod: windows-hardware
 ms.technology: windows-devices

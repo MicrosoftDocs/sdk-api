@@ -7,7 +7,7 @@ old-location: winsock\wsaecomparator_2.htm
 tech.root: winsock
 ms.assetid: a1de171e-42d7-4d57-b241-1db9989dbd8e
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPWSAECOMPARATOR, *PWSAECOMPARATOR, COMP_EQUAL, COMP_NOTLESS, PWSAECOMPARATOR, PWSAECOMPARATOR enumeration pointer [Winsock], WSAECOMPARATOR, WSAECOMPARATOR enumeration [Winsock], _WSAEcomparator, _win32_wsaecomparator_2, winsock.wsaecomparator_2, winsock2/COMP_EQUAL, winsock2/COMP_NOTLESS, winsock2/PWSAECOMPARATOR, winsock2/WSAECOMPARATOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

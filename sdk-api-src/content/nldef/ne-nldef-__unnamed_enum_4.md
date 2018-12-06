@@ -7,7 +7,7 @@ old-location: netvista\nl_address_type.htm
 tech.root: NetVista
 ms.assetid: fc91bebc-e023-4f6a-a588-c4f1fbecd200
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: "*PNL_ADDRESS_TYPE, NL_ADDRESS_TYPE, NL_ADDRESS_TYPE enumeration [Network Drivers Starting with Windows Vista], NlatAnycast, NlatBroadcast, NlatInvalid, NlatMulticast, NlatUnicast, NlatUnspecified, PNL_ADDRESS_TYPE, PNL_ADDRESS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], iphelper_2e71b644-fdff-4c64-bd7f-3f0e24006dc6.xml, netvista.nl_address_type, nldef/NL_ADDRESS_TYPE, nldef/NlatAnycast, nldef/NlatBroadcast, nldef/NlatInvalid, nldef/NlatMulticast, nldef/NlatUnicast, nldef/NlatUnspecified, nldef/PNL_ADDRESS_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrm\iwsmanconnectionoptions.htm
 tech.root: winrm
 ms.assetid: 940097da-c5bb-4170-a2aa-fcbbee622fe6
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IWSManConnectionOptions, IWSManConnectionOptions interface [Windows Remote Management], IWSManConnectionOptions interface [Windows Remote Management],described, winrm.iwsmanconnectionoptions, wsmandisp/IWSManConnectionOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\cleanupgroupcancelcallback.htm
 tech.root: procthread
 ms.assetid: 5704b0df-a868-40f0-9bcf-41274facb0b5
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: PTP_CLEANUP_GROUP_CANCEL_CALLBACK, PTP_CLEANUP_GROUP_CANCEL_CALLBACK callback, PTP_CLEANUP_GROUP_CANCEL_CALLBACK callback function, base.cleanupgroupcancelcallback, winnt/PTP_CLEANUP_GROUP_CANCEL_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

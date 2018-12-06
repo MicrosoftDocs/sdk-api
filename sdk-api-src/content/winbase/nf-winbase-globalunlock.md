@@ -7,7 +7,7 @@ old-location: base\globalunlock.htm
 tech.root: memory
 ms.assetid: 580a2873-7f06-47a1-acf5-c2b3c96e15e7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GlobalUnlock, GlobalUnlock function, _win32_globalunlock, base.globalunlock, winbase/GlobalUnlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

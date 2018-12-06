@@ -7,7 +7,7 @@ old-location: qos\ipx_pattern.htm
 tech.root: QOS
 ms.assetid: bbb5466c-3ec4-48a7-a50e-4859d074d001
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PIPX_PATTERN, *PIPX_PATTERN structure [QOS], IPX_PATTERN, IPX_PATTERN structure [QOS], _IPX_PATTERN, qos.ipx_pattern, traffic/*PIPX_PATTERN, traffic/IPX_PATTERN"
 ms.prod: windows-hardware
 ms.technology: windows-devices

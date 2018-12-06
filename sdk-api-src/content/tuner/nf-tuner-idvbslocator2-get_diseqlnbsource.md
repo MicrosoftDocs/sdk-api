@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator2_diseqlnbsource.htm
 tech.root: mstv
 ms.assetid: 665ea57d-6cb7-43d6-8bf3-993d0075b3cc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DiseqLNBSource property [Microsoft TV Technologies], DiseqLNBSource property [Microsoft TV Technologies],IDVBSLocator2 interface, IDVBSLocator2 interface [Microsoft TV Technologies],DiseqLNBSource property, IDVBSLocator2.DiseqLNBSource, IDVBSLocator2.get_DiseqLNBSource, IDVBSLocator2::DiseqLNBSource, IDVBSLocator2::get_DiseqLNBSource, IDVBSLocator2::put_DiseqLNBSource, get_DiseqLNBSource, mstv.idvbslocator2_diseqlnbsource, tuner/IDVBSLocator2::DiseqLNBSource, tuner/IDVBSLocator2::get_DiseqLNBSource, tuner/IDVBSLocator2::put_DiseqLNBSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

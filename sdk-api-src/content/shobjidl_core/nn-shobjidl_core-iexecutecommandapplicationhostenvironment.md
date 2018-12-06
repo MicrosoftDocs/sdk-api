@@ -7,7 +7,7 @@ old-location: shell\IExecuteCommandApplicationHostEnvironment.htm
 tech.root: shell
 ms.assetid: c890d306-66df-4c29-88db-d54362ac018a
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: IExecuteCommandApplicationHostEnvironment, IExecuteCommandApplicationHostEnvironment interface [Windows Shell], IExecuteCommandApplicationHostEnvironment interface [Windows Shell],described, shell.IExecuteCommandApplicationHostEnvironment, shobjidl_core/IExecuteCommandApplicationHostEnvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices

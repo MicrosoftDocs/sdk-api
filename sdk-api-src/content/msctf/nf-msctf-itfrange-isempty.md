@@ -7,7 +7,7 @@ old-location: tsf\itfrange_isempty.htm
 tech.root: TSF
 ms.assetid: 4cc720c1-acc1-445e-830e-91135fdfeeed
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITfRange interface [Text Services Framework],IsEmpty method, ITfRange.IsEmpty, ITfRange::IsEmpty, IsEmpty, IsEmpty method [Text Services Framework], IsEmpty method [Text Services Framework],ITfRange interface, _tsf_itfrange_isempty_ref, msctf/ITfRange::IsEmpty, tsf.itfrange_isempty
 ms.prod: windows-hardware
 ms.technology: windows-devices

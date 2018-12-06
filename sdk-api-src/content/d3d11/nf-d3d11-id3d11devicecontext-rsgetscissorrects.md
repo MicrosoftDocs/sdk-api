@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_rsgetscissorrects.htm
 tech.root: direct3d11
 ms.assetid: 83676c65-e5d8-44c9-bc0d-ebe9850cb382
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],RSGetScissorRects method, ID3D11DeviceContext.RSGetScissorRects, ID3D11DeviceContext::RSGetScissorRects, RSGetScissorRects, RSGetScissorRects method [Direct3D 11], RSGetScissorRects method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::RSGetScissorRects, direct3d11.id3d11devicecontext_rsgetscissorrects, e30c7e76-70dc-8be0-b80a-ea7965268531
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11DeviceContext.RSGetScissorRects
-: 
 ---
 
 # ID3D11DeviceContext::RSGetScissorRects

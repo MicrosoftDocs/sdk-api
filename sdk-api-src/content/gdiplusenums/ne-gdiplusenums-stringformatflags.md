@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_StringFormatFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringformatflags.htm
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: StringFormatFlags, StringFormatFlags enumeration [GDI+], StringFormatFlagsDirectionRightToLeft, StringFormatFlagsDirectionVertical, StringFormatFlagsDisplayFormatControl, StringFormatFlagsLineLimit, StringFormatFlagsMeasureTrailingSpaces, StringFormatFlagsNoClip, StringFormatFlagsNoFitBlackBox, StringFormatFlagsNoFontFallback, StringFormatFlagsNoWrap, _gdiplus_ENUM_StringFormatFlags, gdiplus._gdiplus_ENUM_StringFormatFlags, gdiplusenums/StringFormatFlags, gdiplusenums/StringFormatFlagsDirectionRightToLeft, gdiplusenums/StringFormatFlagsDirectionVertical, gdiplusenums/StringFormatFlagsDisplayFormatControl, gdiplusenums/StringFormatFlagsLineLimit, gdiplusenums/StringFormatFlagsMeasureTrailingSpaces, gdiplusenums/StringFormatFlagsNoClip, gdiplusenums/StringFormatFlagsNoFitBlackBox, gdiplusenums/StringFormatFlagsNoFontFallback, gdiplusenums/StringFormatFlagsNoWrap
 ms.prod: windows-hardware
 ms.technology: windows-devices

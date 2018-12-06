@@ -7,7 +7,7 @@ old-location: wmp\iwmpusereventsink_notifyuserevent.htm
 tech.root: WMP
 ms.assetid: f3a84ff8-2f96-43ab-a8a7-7c07d07927dc
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPUserEventSink interface [Windows Media Player],NotifyUserEvent method, IWMPUserEventSink.NotifyUserEvent, IWMPUserEventSink::NotifyUserEvent, IWMPUserEventSinkNotifyUserEvent, NotifyUserEvent, NotifyUserEvent method [Windows Media Player], NotifyUserEvent method [Windows Media Player],IWMPUserEventSink interface, wmp.iwmpusereventsink_notifyuserevent, wmpservices/IWMPUserEventSink::NotifyUserEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

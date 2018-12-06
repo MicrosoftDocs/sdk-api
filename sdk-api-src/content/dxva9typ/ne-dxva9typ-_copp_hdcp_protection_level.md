@@ -7,7 +7,7 @@ old-location: dshow\copp_hdcp_protection_level.htm
 tech.root: DirectShow
 ms.assetid: 902ea4c6-8eba-4bfd-b986-5e7a5a2a5971
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: COPP_HDCP_ForceDWORD, COPP_HDCP_Level0, COPP_HDCP_Level1, COPP_HDCP_LevelMax, COPP_HDCP_LevelMin, COPP_HDCP_Protection_Level, COPP_HDCP_Protection_Level , COPP_HDCP_Protection_Level enumeration [DirectShow], COPP_HDCP_Protection_LevelEnumeration, _COPP_HDCP_Protection_Level, dshow.copp_hdcp_protection_level, dxva9typ/COPP_HDCP_ForceDWORD, dxva9typ/COPP_HDCP_Level0, dxva9typ/COPP_HDCP_Level1, dxva9typ/COPP_HDCP_LevelMax, dxva9typ/COPP_HDCP_LevelMin, dxva9typ/COPP_HDCP_Protection_Level
 ms.prod: windows-hardware
 ms.technology: windows-devices

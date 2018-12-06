@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_getadapterdescriptor.htm
 tech.root: imapi
 ms.assetid: 3922243c-97cf-43e3-a437-a5157ed73559
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetAdapterDescriptor, GetAdapterDescriptor method [IMAPI], GetAdapterDescriptor method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetAdapterDescriptor method, IDiscRecorder2Ex.GetAdapterDescriptor, IDiscRecorder2Ex::GetAdapterDescriptor, imapi.idiscrecorder2ex_getadapterdescriptor, imapi2/IDiscRecorder2Ex::GetAdapterDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile3.htm
 tech.root: bits
 ms.assetid: 5304f93a-993a-4327-9fdb-fb2ef1dafecb
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyFile3, IBackgroundCopyFile3 interface [BITS], IBackgroundCopyFile3 interface [BITS],described, bits.ibackgroundcopyfile3, bits3_0/IBackgroundCopyFile3
 ms.prod: windows-hardware
 ms.technology: windows-devices

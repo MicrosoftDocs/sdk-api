@@ -7,7 +7,7 @@ old-location: rm\drmgetinfo.htm
 tech.root: AdRms_Sdk
 ms.assetid: 6cb1275a-c0e4-48df-a389-76add74bdabd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMGetInfo, DRMGetInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetInfo, rm.drmgetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

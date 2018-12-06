@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclienttouchpointer.htm
 tech.root: termserv
 ms.assetid: 98c47e41-ecda-45cb-94e9-de51edc7af08
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IRemoteDesktopClientTouchPointer, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services], IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientTouchPointer, termserv.iremotedesktopclienttouchpointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

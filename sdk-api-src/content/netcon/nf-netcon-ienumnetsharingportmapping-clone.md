@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingportmapping_clone.htm
 tech.root: ics
 ms.assetid: 7d8606ec-d8a2-40c5-9406-fcf16f30e999
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPortMapping interface, IEnumNetSharingPortMapping interface [ICS/ICF],Clone method, IEnumNetSharingPortMapping.Clone, IEnumNetSharingPortMapping::Clone, _ics_ienumnetsharingportmapping_clone, ics.ienumnetsharingportmapping_clone, netcon/IEnumNetSharingPortMapping::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

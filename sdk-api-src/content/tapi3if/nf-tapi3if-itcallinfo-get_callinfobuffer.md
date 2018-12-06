@@ -7,7 +7,7 @@ old-location: tapi3\itcallinfo_get_callinfobuffer.htm
 tech.root: tapi
 ms.assetid: cda9d577-7230-42d9-8063-5ca94e0400dc
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallInfoBuffer method, ITCallInfo.get_CallInfoBuffer, ITCallInfo::get_CallInfoBuffer, _tapi3_itcallinfo_get_callinfobuffer, get_CallInfoBuffer, get_CallInfoBuffer method [TAPI 2.2], get_CallInfoBuffer method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callinfobuffer, tapi3if/ITCallInfo::get_CallInfoBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

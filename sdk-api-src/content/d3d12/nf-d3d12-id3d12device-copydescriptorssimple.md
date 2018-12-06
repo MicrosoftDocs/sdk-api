@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_copydescriptorssimple.htm
 tech.root: direct3d12
 ms.assetid: 6DA1FCDA-042C-4727-9814-B8F57E14CD51
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: CopyDescriptorsSimple, CopyDescriptorsSimple method, CopyDescriptorsSimple method,ID3D12Device interface, ID3D12Device interface,CopyDescriptorsSimple method, ID3D12Device.CopyDescriptorsSimple, ID3D12Device::CopyDescriptorsSimple, d3d12/ID3D12Device::CopyDescriptorsSimple, direct3d12.id3d12device_copydescriptorssimple
 ms.prod: windows-hardware
 ms.technology: windows-devices

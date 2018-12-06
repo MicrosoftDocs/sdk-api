@@ -7,7 +7,7 @@ old-location: mstv\ietfilter_get_evalratobjok.htm
 tech.root: mstv
 ms.assetid: ac76a634-af8d-4cf7-aab5-9022ce79ff31
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IETFilter interface [Microsoft TV Technologies],get_EvalRatObjOK method, IETFilter.get_EvalRatObjOK, IETFilter::get_EvalRatObjOK, IETFilterget_EvalRatObjOK, encdec/IETFilter::get_EvalRatObjOK, get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies],IETFilter interface, mstv.ietfilter_get_evalratobjok
 ms.prod: windows-hardware
 ms.technology: windows-devices

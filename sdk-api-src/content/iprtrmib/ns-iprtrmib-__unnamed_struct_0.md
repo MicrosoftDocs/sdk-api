@@ -7,7 +7,7 @@ old-location: mib\mib_boundaryrow.htm
 tech.root: MIB
 ms.assetid: df252c06-6067-4cf8-b66e-5c9f15e954f5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMIB_BOUNDARYROW, MIB_BOUNDARYROW, MIB_BOUNDARYROW structure [MIB], PMIB_BOUNDARYROW, PMIB_BOUNDARYROW structure pointer [MIB], iprtrmib/MIB_BOUNDARYROW, iprtrmib/PMIB_BOUNDARYROW, mib.mib_boundaryrow"
 ms.prod: windows-hardware
 ms.technology: windows-devices

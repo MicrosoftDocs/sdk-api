@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetelementsv4.htm
 tech.root: DHCP
 ms.assetid: 561a7aac-eed9-4a80-a4a4-f3a7727ae92a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpEnumSubnetElementsV4, DhcpEnumSubnetElementsV4 function [DHCP], dhcp.dhcpenumsubnetelementsv4, dhcpsapi/DhcpEnumSubnetElementsV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsock\service_type_value_abs_2.htm
 tech.root: winsock
 ms.assetid: 6e3df308-3f5c-40d7-b0f9-19fb6d6d3db8
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSERVICE_TYPE_VALUE_ABSA, *PSERVICE_TYPE_VALUE_ABSA, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, REG_BINARY, REG_DWORD, REG_MULTI_SZ, REG_SZ, SERVICE_TYPE_VALUE_ABS, SERVICE_TYPE_VALUE_ABS structure [Winsock], SERVICE_TYPE_VALUE_ABSA, SERVICE_TYPE_VALUE_ABSW, SERVICE_TYPE_VALUE_CONN, SERVICE_TYPE_VALUE_SAPID, SERVICE_TYPE_VALUE_TCPPORT, SERVICE_TYPE_VALUE_UDPPORT, _SERVICE_TYPE_VALUE_ABSA, _win32_service_type_value_abs_2, nspapi/SERVICE_TYPE_VALUE_ABS, nspapi/SERVICE_TYPE_VALUE_ABSA, nspapi/SERVICE_TYPE_VALUE_ABSW, winsock.service_type_value_abs_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

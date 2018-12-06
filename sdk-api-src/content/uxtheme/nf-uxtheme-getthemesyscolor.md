@@ -7,7 +7,7 @@ old-location: controls\GetThemeSysColor.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyscolor.htm
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetThemeSysColor, GetThemeSysColor function [Windows Controls], controls.GetThemeSysColor, controls.inet_GetThemeSysColor, inet_GetThemeSysColor, inet_GetThemeSysColor_cpp, uxtheme/GetThemeSysColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

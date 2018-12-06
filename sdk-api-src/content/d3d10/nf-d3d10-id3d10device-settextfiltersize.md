@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_settextfiltersize.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_settextfiltersize.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 212dab36-4bb8-c796-336c-b8a6e4d0b9e4, ID3D10Device interface [Direct3D 10],SetTextFilterSize method, ID3D10Device.SetTextFilterSize, ID3D10Device::SetTextFilterSize, SetTextFilterSize, SetTextFilterSize method [Direct3D 10], SetTextFilterSize method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SetTextFilterSize, direct3d10.id3d10device_settextfiltersize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10.h
-: 
-- ID3D10Device.SetTextFilterSize
-: 
 ---
 
 # ID3D10Device::SetTextFilterSize
@@ -69,14 +61,14 @@ This method is not implemented.
 
 ### -param Width [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Not applicable
 
 
 ### -param Height [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Not applicable
 
@@ -104,7 +96,7 @@ This method is not implemented, and should not be used.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

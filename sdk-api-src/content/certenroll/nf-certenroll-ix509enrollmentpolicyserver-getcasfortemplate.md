@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_getcasfortemplate.htm
 tech.root: seccertenroll
 ms.assetid: 7330aea0-36b3-49fa-8970-2476f2ae9d34
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetCAsForTemplate, GetCAsForTemplate method [Security], GetCAsForTemplate method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCAsForTemplate method, IX509EnrollmentPolicyServer.GetCAsForTemplate, IX509EnrollmentPolicyServer::GetCAsForTemplate, certenroll/IX509EnrollmentPolicyServer::GetCAsForTemplate, security.ix509enrollmentpolicyserver_getcasfortemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

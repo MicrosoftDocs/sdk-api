@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireplugin.htm
 tech.root: acquisition
 ms.assetid: 7c8a0a49-8c15-4db2-8231-a48a3f76eb62
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IPhotoAcquirePlugin, IPhotoAcquirePlugin interface [Picture Acquisition], IPhotoAcquirePlugin interface [Picture Acquisition],described, IPhotoAcquirePluginInterface, photoacquire/IPhotoAcquirePlugin, picacq.iphotoacquireplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

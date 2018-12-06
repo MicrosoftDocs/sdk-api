@@ -7,7 +7,7 @@ old-location: mf\mfvideolighting.htm
 tech.root: medfound
 ms.assetid: 2eeca357-b7e2-40b1-b19f-2e12a833c1ca
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: 2eeca357-b7e2-40b1-b19f-2e12a833c1ca, MFVideoLighting, MFVideoLighting enumeration [Media Foundation], MFVideoLighting_ForceDWORD, MFVideoLighting_Last, MFVideoLighting_Unknown, MFVideoLighting_bright, MFVideoLighting_dark, MFVideoLighting_dim, MFVideoLighting_office, _MFVideoLighting, mf.mfvideolighting, mfobjects/MFVideoLighting, mfobjects/MFVideoLighting_ForceDWORD, mfobjects/MFVideoLighting_Last, mfobjects/MFVideoLighting_Unknown, mfobjects/MFVideoLighting_bright, mfobjects/MFVideoLighting_dark, mfobjects/MFVideoLighting_dim, mfobjects/MFVideoLighting_office
 ms.prod: windows-hardware
 ms.technology: windows-devices

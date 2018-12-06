@@ -7,7 +7,7 @@ old-location: base\ntqueryinformationthread.htm
 tech.root: procthread
 ms.assetid: ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: NtQueryInformationThread, NtQueryInformationThread function, base.ntqueryinformationthread, winternl/NtQueryInformationThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

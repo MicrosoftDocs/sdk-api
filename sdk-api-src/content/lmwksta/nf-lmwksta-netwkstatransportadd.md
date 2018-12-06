@@ -7,7 +7,7 @@ old-location: netmgmt\netwkstatransportadd.htm
 tech.root: netmgmt
 ms.assetid: 016060ea-eae1-421f-b708-5c2ddd2000c1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: 0, NetWkstaTransportAdd, NetWkstaTransportAdd function [Network Management], _win32_netwkstatransportadd, lmwksta/NetWkstaTransportAdd, netmgmt.netwkstatransportadd
 ms.prod: windows-hardware
 ms.technology: windows-devices

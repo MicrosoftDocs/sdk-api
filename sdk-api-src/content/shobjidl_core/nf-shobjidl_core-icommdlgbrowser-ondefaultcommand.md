@@ -7,7 +7,7 @@ old-location: shell\ICommDlgBrowser_OnDefaultCommand.htm
 tech.root: shell
 ms.assetid: 827af758-63df-42bb-9ecf-087bc974710a
 ms.author: windowssdkdev
-ms.date: 11/30/2018
+ms.date: 12/5/2018
 ms.keywords: ICommDlgBrowser interface [Windows Shell],OnDefaultCommand method, ICommDlgBrowser.OnDefaultCommand, ICommDlgBrowser::OnDefaultCommand, OnDefaultCommand, OnDefaultCommand method [Windows Shell], OnDefaultCommand method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_OnDefaultCommand, shell.ICommDlgBrowser_OnDefaultCommand, shobjidl_core/ICommDlgBrowser::OnDefaultCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ienumstream.htm
 tech.root: tapi
 ms.assetid: 52e8c040-8bc5-4c9c-a697-ec05164adea2
 ms.author: windowssdkdev
-ms.date: 11/23/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumStream, IEnumStream interface [TAPI 2.2], IEnumStream interface [TAPI 2.2],described, _tapi3_ienumstream, tapi3.ienumstream, tapi3if/IEnumStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

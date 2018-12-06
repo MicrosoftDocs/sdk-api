@@ -7,7 +7,7 @@ old-location: termserv\iwrdswddmiddprops_enablewddmidd.htm
 tech.root: termserv
 ms.assetid: 19F07236-6F9C-49F0-B100-E02F9DBF54F7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: EnableWddmIdd, EnableWddmIdd method [Remote Desktop Services], EnableWddmIdd method [Remote Desktop Services],IWRdsWddmIddProps interface, IWRdsWddmIddProps interface [Remote Desktop Services],EnableWddmIdd method, IWRdsWddmIddProps.EnableWddmIdd, IWRdsWddmIddProps::EnableWddmIdd, termserv.iwrdswddmiddprops_enablewddmidd, wtsprotocol/IWRdsWddmIddProps::EnableWddmIdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

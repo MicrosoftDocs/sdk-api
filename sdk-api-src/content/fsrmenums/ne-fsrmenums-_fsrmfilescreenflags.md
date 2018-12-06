@@ -7,7 +7,7 @@ old-location: fsrm\fsrmfilescreenflags.htm
 tech.root: fsrm
 ms.assetid: 5f0029e5-fe0a-453e-b226-6d4f31f650c5
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FsrmFileScreenFlags, FsrmFileScreenFlags enumeration [File Server Resource Manager], FsrmFileScreenFlags_Enforce, _FsrmFileScreenFlags, fs.fsrmfilescreenflags, fsrm.fsrmfilescreenflags, fsrmenums/FsrmFileScreenFlags, fsrmenums/FsrmFileScreenFlags_Enforce
 ms.prod: windows-hardware
 ms.technology: windows-devices

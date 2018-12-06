@@ -7,7 +7,7 @@ old-location: ncd\iwsddeviceproxy_gethostmetadata.htm
 tech.root: wsdapi
 ms.assetid: e1e81f75-baeb-4406-8de0-f575db573fe8
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetHostMetadata, GetHostMetadata method, GetHostMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetHostMetadata method, IWSDDeviceProxy.GetHostMetadata, IWSDDeviceProxy::GetHostMetadata, ncd.iwsddeviceproxy_gethostmetadata, wsdclient/IWSDDeviceProxy::GetHostMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

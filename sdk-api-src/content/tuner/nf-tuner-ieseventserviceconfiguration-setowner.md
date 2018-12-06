@@ -7,7 +7,7 @@ old-location: mstv\ieseventserviceconfiguration_setowner.htm
 tech.root: mstv
 ms.assetid: 7d8e1be1-b363-41ac-b60b-98415f0f44b6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetOwner method, IESEventServiceConfiguration.SetOwner, IESEventServiceConfiguration::SetOwner, SetOwner, SetOwner method [Microsoft TV Technologies], SetOwner method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setowner, tuner/IESEventServiceConfiguration::SetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
