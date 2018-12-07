@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Reads the next record in a sequence that is initiated by a call to <a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a> or <a href="https://msdn.microsoft.com/ab59d2fe-d951-42f3-b270-844eaeb6ff90">ReadLogRestartArea</a>.   By using <b>ReadNextLogRecord</b> iteratively, a client can read all records of a specified type in a log.  The direction of enumeration is determined by specifying the context mode when beginning the read sequence.
+Reads the next record in a sequence that is initiated by a call to <a href="https://msdn.microsoft.com/en-us/library/Bb540410(v=VS.85).aspx">ReadLogRecord</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb540411(v=VS.85).aspx">ReadLogRestartArea</a>.   By using <b>ReadNextLogRecord</b> iteratively, a client can read all records of a specified type in a log.  The direction of enumeration is determined by specifying the context mode when beginning the read sequence.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Reads the next record in a sequence that is initiated by a call to <a href="http
 
 ### -param pvReadContext [in, out]
 
-A pointer to a  read context  that the system allocates and creates during a successful call to <a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a> or <a href="https://msdn.microsoft.com/ab59d2fe-d951-42f3-b270-844eaeb6ff90">ReadLogRestartArea</a>.  
+A pointer to a  read context  that the system allocates and creates during a successful call to <a href="https://msdn.microsoft.com/en-us/library/Bb540410(v=VS.85).aspx">ReadLogRecord</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb540411(v=VS.85).aspx">ReadLogRestartArea</a>.  
 
 If the function defers completion of an operation, it  returns a pointer to a valid read context and an error status of <b>ERROR_IO_PENDING</b>.  For information about handling asynchronous completion, see the Remarks section of this topic.
 
@@ -122,29 +122,29 @@ Clients can specify any of the following record types.
 
 ### -param plsnUser [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies   the log client  to read this log sequence number (LSN) as the next LSN instead of  reading forward to the next record, reading the previous LSN, or reading the next undo LSN.  
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that specifies   the log client  to read this log sequence number (LSN) as the next LSN instead of  reading forward to the next record, reading the previous LSN, or reading the next undo LSN.  
 
-This parameter gives log clients the ability to cursor through user-defined LSN chains in client buffers.  The relationship of this parameter to the current LSN held by the read context must be consistent with the context mode, <i>ecxMode</i>,  that is specified in the <a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a>  entry points; otherwise, an error code of <b>ERROR_INVALID_PARAMETER</b> is returned.
+This parameter gives log clients the ability to cursor through user-defined LSN chains in client buffers.  The relationship of this parameter to the current LSN held by the read context must be consistent with the context mode, <i>ecxMode</i>,  that is specified in the <a href="https://msdn.microsoft.com/en-us/library/Bb540410(v=VS.85).aspx">ReadLogRecord</a>  entry points; otherwise, an error code of <b>ERROR_INVALID_PARAMETER</b> is returned.
 
 
 ### -param plsnUndoNext [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the LSN of the next record in an undo record chain.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that receives the LSN of the next record in an undo record chain.
 
 
 ### -param plsnPrevious [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the LSN of the next record in the previous record chain.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that receives the LSN of the next record in the previous record chain.
 
 
 ### -param plsnRecord [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the LSN of the current record read into the read context.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that receives the LSN of the current record read into the read context.
 
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that is required for asynchronous operation. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx">OVERLAPPED</a> structure that is required for asynchronous operation. 
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
@@ -168,7 +168,7 @@ The following  list identifies the  possible error codes:
 
 
 
-If <b>ReadNextLogRecord</b>  returns with a status code of <b>ERROR_IO_PENDING</b>, the client should synchronize its execution with deferred completion of the overlapped I/O operation by using <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>, or one of the synchronization <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">Wait Functions</a>. For more information, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>. 
+If <b>ReadNextLogRecord</b>  returns with a status code of <b>ERROR_IO_PENDING</b>, the client should synchronize its execution with deferred completion of the overlapped I/O operation by using <a href="https://msdn.microsoft.com/en-us/library/ms683209(v=VS.85).aspx">GetOverlappedResult</a>, or one of the synchronization <a href="https://msdn.microsoft.com/en-us/library/ms687069(v=VS.85).aspx">Wait Functions</a>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms686358(v=VS.85).aspx">Synchronization and Overlapped Input and Output</a>. 
 
 After <b>ReadNextLogRecord</b> completes asynchronously, the requested record  is  read from the disk, but is not   resolved to a pointer in <i>*ppvReadBuffer</i>. To obtain a valid pointer to the record,  the client must call <b>ReadNextLogRecord</b> a second time.
 
@@ -184,31 +184,31 @@ After <b>ReadNextLogRecord</b> completes asynchronously, the requested record  i
 
 
 
-<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a>
 
 
 
-<a href="https://msdn.microsoft.com/63489b1b-75de-469d-9ffc-f0353bb2fdd9">CLFS_RECORD_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540353(v=VS.85).aspx">CLFS_RECORD_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540361(v=VS.85).aspx">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx">OVERLAPPED</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540410(v=VS.85).aspx">ReadLogRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab59d2fe-d951-42f3-b270-844eaeb6ff90">ReadLogRestartArea</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540411(v=VS.85).aspx">ReadLogRestartArea</a>
 
 
 
-<a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686358(v=VS.85).aspx">Synchronization and Overlapped Input and Output</a>
  
 
  

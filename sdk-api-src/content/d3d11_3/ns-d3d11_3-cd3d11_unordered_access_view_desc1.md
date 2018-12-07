@@ -82,12 +82,12 @@ TBD
 
 #### - Buffer
 
-A <a href="https://msdn.microsoft.com/8dcd2281-1875-474e-8c86-a6920ab2b515">D3D11_BUFFER_UAV</a> structure that specifies which buffer elements can be accessed.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff476095(v=VS.85).aspx">D3D11_BUFFER_UAV</a> structure that specifies which buffer elements can be accessed.
 
 
 #### - Format
 
-A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that specifies the data format.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the data format.
 
 
 #### - Texture1D

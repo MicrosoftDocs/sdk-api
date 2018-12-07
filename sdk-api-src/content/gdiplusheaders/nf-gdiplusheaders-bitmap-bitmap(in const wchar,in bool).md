@@ -78,7 +78,7 @@ Optional. Boolean value that specifies whether the new <b>Bitmap::Bitmap</b> obj
 
 
 
-<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
 
 
 

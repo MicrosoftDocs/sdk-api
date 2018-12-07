@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CRYPT_XML_REFERENCES</b> structure defines an array of <a href="https://msdn.microsoft.com/af16af5a-b1e5-4250-bdb1-f3fceb1830b9">CRYPT_XML_REFERENCE</a> structures.
+The <b>CRYPT_XML_REFERENCES</b> structure defines an array of <a href="https://msdn.microsoft.com/en-us/library/Dd433862(v=VS.85).aspx">CRYPT_XML_REFERENCE</a> structures.
 
 
 ## -struct-fields
@@ -65,5 +65,5 @@ The number of elements in the array pointed to by the <b>rgpReference</b> member
 
 ### -field rgpReference
 
-A pointer to an array of  <a href="https://msdn.microsoft.com/af16af5a-b1e5-4250-bdb1-f3fceb1830b9">PCRYPT_XML_REFERENCE</a> structures.
+A pointer to an array of  <a href="https://msdn.microsoft.com/en-us/library/Dd433862(v=VS.85).aspx">PCRYPT_XML_REFERENCE</a> structures.
 

@@ -52,7 +52,7 @@ req.redist:
 
 The <b>BITS_JOB_PROPERTY_VALUE</b> union provides the 
     property value of the BITS job based on the value of the 
-    <a href="https://msdn.microsoft.com/4ED7419E-3435-4F12-B293-1FDC24F40D63">BITS_JOB_PROPERTY_ID</a> enumeration.
+    <a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a> enumeration.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The <b>BITS_JOB_PROPERTY_VALUE</b> union provides the
 
 This value is returned when using the enum property ID 
       <b>BITS_JOB_PROPERTY_ID_COST_FLAGS</b> and is applied as the 
-      <a href="bits_job_transfer_policy.htm">transfer policy</a> on the BITS job.
+      <a href="https://msdn.microsoft.com/en-us/library/Hh446785(v=VS.85).aspx">transfer policy</a> on the BITS job.
 
 This value is also used when using the <b>BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS</b> to specify the minimum notification interval.
 
@@ -103,11 +103,11 @@ This value is returned when using the enum property ID <b>BITS_JOB_PROPERTY_USE_
 
 
 
-<a href="https://msdn.microsoft.com/4ED7419E-3435-4F12-B293-1FDC24F40D63">BITS_JOB_PROPERTY_ID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/6B321E80-333A-49F3-B36F-18652F2C92FE">BITS_JOB_TRANSFER_POLICY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446785(v=VS.85).aspx">BITS_JOB_TRANSFER_POLICY</a>
  
 
  

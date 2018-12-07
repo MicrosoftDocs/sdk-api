@@ -60,7 +60,7 @@ Generated when CRM recovery has started.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/f4aa0892-4c93-42ea-adc6-1b304b917389">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms688276(v=VS.85).aspx">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidApp [in]
@@ -82,7 +82,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/720beffb-8fb5-4c87-9bcf-6db214543b01">IComCRMEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms682772(v=VS.85).aspx">IComCRMEvents</a>
  
 
  

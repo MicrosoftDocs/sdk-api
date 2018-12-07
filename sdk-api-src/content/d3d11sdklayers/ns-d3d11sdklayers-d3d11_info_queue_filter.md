@@ -60,14 +60,14 @@ Debug message filter; contains a lists of message types to allow or deny.
 
 ### -field AllowList
 
-Type: <b><a href="https://msdn.microsoft.com/265aa51a-7352-4d3a-b523-9e497e1e6a94">D3D11_INFO_QUEUE_FILTER_DESC</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476178(v=VS.85).aspx">D3D11_INFO_QUEUE_FILTER_DESC</a></b>
 
-Types of messages that you want to allow. See <a href="https://msdn.microsoft.com/265aa51a-7352-4d3a-b523-9e497e1e6a94">D3D11_INFO_QUEUE_FILTER_DESC</a>.
+Types of messages that you want to allow. See <a href="https://msdn.microsoft.com/en-us/library/Ff476178(v=VS.85).aspx">D3D11_INFO_QUEUE_FILTER_DESC</a>.
 
 
 ### -field DenyList
 
-Type: <b><a href="https://msdn.microsoft.com/265aa51a-7352-4d3a-b523-9e497e1e6a94">D3D11_INFO_QUEUE_FILTER_DESC</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476178(v=VS.85).aspx">D3D11_INFO_QUEUE_FILTER_DESC</a></b>
 
 Types of messages that you want to deny.
 
@@ -76,7 +76,7 @@ Types of messages that you want to deny.
 
 
 
-For use with an <a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">ID3D11InfoQueue Interface</a>.
+For use with an <a href="https://msdn.microsoft.com/en-us/library/Ff476538(v=VS.85).aspx">ID3D11InfoQueue Interface</a>.
 
 
 
@@ -86,11 +86,11 @@ For use with an <a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497f
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/65f0830f-f009-47fb-b04e-24790e677338">Layer Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476159(v=VS.85).aspx">Layer Structures</a>
  
 
  

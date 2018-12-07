@@ -84,7 +84,7 @@ Specifies whether the server may enable or disable <a href="https://msdn.microso
 
 
 
-<a href="_win32_ddesetqualityofservice_cpp">DdeSetQualityOfService</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649003(v=VS.85).aspx">DdeSetQualityOfService</a>
 
 
 

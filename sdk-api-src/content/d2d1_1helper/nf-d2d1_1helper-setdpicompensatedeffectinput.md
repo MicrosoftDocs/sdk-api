@@ -89,14 +89,14 @@ The input bitmap.
 
 ### -param interpolationMode
 
-Type: <b><a href="https://msdn.microsoft.com/7a32f551-afad-4eb2-953f-a9acc71d7776">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE</a></b>
 
 The interpolation mode for the DPI compensation effect.
 
 
 ### -param borderMode
 
-Type: <b><a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn934220(v=VS.85).aspx">D2D1_BORDER_MODE</a></b>
 
 The border mode for the DPI compensation effect.
 

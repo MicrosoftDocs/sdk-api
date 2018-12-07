@@ -83,11 +83,11 @@ Delete all items from the collection.
 
 
 
-<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a524071-2679-44c7-85db-a40cfcb4a321">IUICollectionChangedEvent::OnChanged</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371502(v=VS.85).aspx">IUICollectionChangedEvent::OnChanged</a>
  
 
  

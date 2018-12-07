@@ -56,9 +56,9 @@ Provides a text description and raw data block associated with an error.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesErrorInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesErrorInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesErrorInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOfflineFilesErrorInfo</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IOfflineFilesErrorInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04ec70c6-84e0-4543-b49f-1fe058d4d31d">GetDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530518(v=VS.85).aspx">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves a text string describing the error.
@@ -80,7 +80,7 @@ Retrieves a text string describing the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/70e5e444-7c46-4df9-8f77-da8dc331fcf0">GetRawData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530519(v=VS.85).aspx">GetRawData</a>
 </td>
 <td align="left" width="63%">
 Retrieves a block of bytes containing internal data associated with the error.
@@ -95,7 +95,7 @@ Retrieves a block of bytes containing internal data associated with the error.
 
 
 
-<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
  
 
  

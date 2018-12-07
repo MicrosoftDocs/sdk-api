@@ -60,7 +60,7 @@ This structure is not implemented.
 
 ### -field Value
 
-Type: <b><a href="_stg_propvariant">PROPVARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a></b>
 
 The name of the column referenced in the ISearchQueryHelper::WriteProperties methods pColumns property array.
 

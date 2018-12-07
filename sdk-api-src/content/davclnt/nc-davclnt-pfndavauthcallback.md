@@ -110,7 +110,7 @@ Basic authentication is to be used.
 </td>
 <td width="60%">
 
-<a href="http.passport">Passport authentication</a> is to be used.
+<a href="https://msdn.microsoft.com/library/Aa384067(v=VS.85).aspx">Passport authentication</a> is to be used.
 
 </td>
 </tr>

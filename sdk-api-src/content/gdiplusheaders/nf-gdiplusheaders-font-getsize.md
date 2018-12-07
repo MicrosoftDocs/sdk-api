@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Font::GetSize</b> method returns the font size (commonly called the em size) of this 
-			<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object. The size is in the units of this 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object. The size is in the units of this 
 			<b>Font</b> object.
 
 
@@ -71,7 +71,7 @@ Type: <strong>Type: <b>REAL</b>
 </strong>
 
 The method returns the font size. The size is in the units of this 
-						<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object.
 
 
 
@@ -81,23 +81,23 @@ The method returns the font size. The size is in the units of this
 
 
 
-<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/7953300d-a2b9-4bef-977a-ca4e4d6fc49d">Font::GetHeight</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536202(v=VS.85).aspx">Font::GetHeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3453c5d-7ecb-411f-88a6-fae01cca7dd9">Font::GetStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536198(v=VS.85).aspx">Font::GetStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cf901f0-9be9-4dcd-b847-6c3d530556cd">Font::GetUnit</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536199(v=VS.85).aspx">Font::GetUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
  
 
  

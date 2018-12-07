@@ -56,7 +56,7 @@ req.redist:
 
 
 
-The <b>SetMaxPacketSize</b> method specifies the maximum size of a <a href="wmformat_glossary.htm">packet</a> in an ASF file. 
+The <b>SetMaxPacketSize</b> method specifies the maximum size of a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> in an ASF file. 
 
 
 

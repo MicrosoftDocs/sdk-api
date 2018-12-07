@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Describes a <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">cluster name</a> resource and domain credentials used by the <a href="https://msdn.microsoft.com/82BBEE9D-C787-4935-BB5F-09438676B37A">CreateClusterNameAccount</a> function to add a cluster to a domain. <b>PCREATE_CLUSTER_NAME_ACCOUNT</b> defines a pointer to this structure.
+Describes a <a href="https://msdn.microsoft.com/en-us/library/Aa371733(v=VS.85).aspx">cluster name</a> resource and domain credentials used by the <a href="https://msdn.microsoft.com/82BBEE9D-C787-4935-BB5F-09438676B37A">CreateClusterNameAccount</a> function to add a cluster to a domain. <b>PCREATE_CLUSTER_NAME_ACCOUNT</b> defines a pointer to this structure.
 
 
 ## -struct-fields
@@ -110,7 +110,7 @@ The management point type.
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
  
 
  

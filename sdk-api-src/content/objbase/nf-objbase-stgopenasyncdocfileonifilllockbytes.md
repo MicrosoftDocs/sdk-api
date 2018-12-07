@@ -104,7 +104,7 @@ The byte array wrapper object must have been previously instantiated through a c
 <a href="https://msdn.microsoft.com/7920bd46-0a8f-42e0-9988-59d85edb64e2">StgOpenStorageOnILockBytes</a> function.
 
 The returned storage object has a connection point for 
-<a href="_com_iprogressnotify">IProgressNotify</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms680740(v=VS.85).aspx">IProgressNotify</a>.
 
 
 

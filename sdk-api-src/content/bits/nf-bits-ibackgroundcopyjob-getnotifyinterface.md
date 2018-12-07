@@ -51,7 +51,7 @@ req.redist:
 
 
 Retrieves the interface pointer to your implementation of the 
-<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface.
+<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Retrieves the interface pointer to your implementation of the
 ### -param pVal [out]
 
 Interface pointer to your implementation of the 
-<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface. When done, release <i>ppNotifyInterface</i>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface. When done, release <i>ppNotifyInterface</i>.
 
 
 ## -returns
@@ -109,15 +109,15 @@ Must pass the address of the <i>ppNotifyInterface</i> interface pointer.
 
 
 
-<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4407816-a4c5-4734-9686-46d5a8133c2f">IBackgroundCopyJob::GetNotifyFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363030(v=VS.85).aspx">IBackgroundCopyJob::GetNotifyFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a>
  
 
  

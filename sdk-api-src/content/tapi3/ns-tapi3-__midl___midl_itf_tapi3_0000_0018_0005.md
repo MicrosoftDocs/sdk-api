@@ -155,7 +155,7 @@ MSP event.
 
 ##### pEvent.pEvent
 
-Pointer to <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface of private object on which event has occurred.
+Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface of private object on which event has occurred.
 
 
 ### -field MSP_PRIVATE_EVENT_INFO.lEventCode
@@ -242,7 +242,7 @@ Pointer to <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interfac
 
 ###### - MSP_PRIVATE_EVENT_INFO.pEvent.pEvent
 
-Pointer to <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface of private object on which event has occurred.
+Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface of private object on which event has occurred.
 
 
 ## -see-also

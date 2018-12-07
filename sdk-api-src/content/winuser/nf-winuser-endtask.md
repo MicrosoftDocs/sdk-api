@@ -82,7 +82,7 @@ Ignored. Must be <b>FALSE</b>.
 Type: <b>BOOL</b>
 
 A <b>TRUE</b> for this parameter will force the destruction of the
-        window if an initial attempt fails to gently close the window using <a href="https://msdn.microsoft.com/19500baf-e0ad-4dfa-804f-6a6e0652cffb">WM_CLOSE</a>.
+        window if an initial attempt fails to gently close the window using <a href="https://msdn.microsoft.com/en-us/library/ms632617(v=VS.85).aspx">WM_CLOSE</a>.
         With a <b>FALSE</b> for this parameter, only the close with <b>WM_CLOSE</b>is attempted. 
 
 
@@ -115,7 +115,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/6bb41c24-458a-42ee-9e60-592e20881e06">CloseWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632678(v=VS.85).aspx">CloseWindow</a>
 
 
 
@@ -123,7 +123,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/054fa847-7d6e-4c73-bf8c-b75203713b3e">DestroyWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a>
 
 
 
@@ -131,11 +131,11 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/19500baf-e0ad-4dfa-804f-6a6e0652cffb">WM_CLOSE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632617(v=VS.85).aspx">WM_CLOSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

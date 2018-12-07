@@ -276,7 +276,7 @@ If the service requires more time to clean up, it should send <b>STOP_PENDING</b
 
 
 
-Services can also use the <a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a> function to receive shutdown notification. This notification is received when the running applications are shutting down, which occurs before services are shut down.
+Services can also use the <a href="https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx">SetConsoleCtrlHandler</a> function to receive shutdown notification. This notification is received when the running applications are shutting down, which occurs before services are shut down.
 
 
 #### Examples

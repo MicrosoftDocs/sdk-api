@@ -66,7 +66,7 @@ Number of elements in <i>ppRanges</i>.
 
 ### -param ppRanges [out]
 
-Array of  <a href="https://msdn.microsoft.com/4ed20321-fb89-410b-906e-9f2c4366645a">BG_FILE_RANGE</a> structures that specify the ranges of the file that are in the cache. When done, call the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>ppRanges</i>.
+Array of  <a href="https://msdn.microsoft.com/en-us/library/Aa362802(v=VS.85).aspx">BG_FILE_RANGE</a> structures that specify the ranges of the file that are in the cache. When done, call the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppRanges</i>.
 
 
 ## -returns
@@ -101,7 +101,7 @@ Success
 
 
 
-The method always returns at least one range (for the complete file). Multiple ranges can be returned if the application called <a href="https://msdn.microsoft.com/b3601f23-1a69-47db-8943-7515652cf015">IBackgroundCopyJob3::AddFileWithRanges</a> to download one or more ranges of a file.
+The method always returns at least one range (for the complete file). Multiple ranges can be returned if the application called <a href="https://msdn.microsoft.com/en-us/library/Aa362991(v=VS.85).aspx">IBackgroundCopyJob3::AddFileWithRanges</a> to download one or more ranges of a file.
 
 
 
@@ -111,11 +111,11 @@ The method always returns at least one range (for the complete file). Multiple r
 
 
 
-<a href="https://msdn.microsoft.com/4ed20321-fb89-410b-906e-9f2c4366645a">BG_FILE_RANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362802(v=VS.85).aspx">BG_FILE_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/61db33de-a38c-4c52-9f1b-66d46f25c297">IBitsPeerCacheRecord</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964291(v=VS.85).aspx">IBitsPeerCacheRecord</a>
  
 
  

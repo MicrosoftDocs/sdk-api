@@ -60,28 +60,28 @@ Describes image brush features.
 
 ### -field sourceRectangle
 
-Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a></b>
 
 The source rectangle in the image space from which the image will be tiled or interpolated.
 
 
 ### -field extendModeX
 
-Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368100(v=VS.85).aspx">D2D1_EXTEND_MODE</a></b>
 
 The extend mode in the image x-axis.
 
 
 ### -field extendModeY
 
-Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368100(v=VS.85).aspx">D2D1_EXTEND_MODE</a></b>
 
 The extend mode in the image y-axis.
 
 
 ### -field interpolationMode
 
-Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_INTERPOLATION_MODE</a></b>
 
 The interpolation mode to use when scaling the image brush.
 

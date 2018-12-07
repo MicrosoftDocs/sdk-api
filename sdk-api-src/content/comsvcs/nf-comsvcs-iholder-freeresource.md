@@ -117,7 +117,7 @@ The method failed. The resource has not been freed.
 
 
 
-A resource originally returned by <a href="https://msdn.microsoft.com/2b6c5d54-4917-460f-9740-abe4b578761f">IHolder::AllocResource</a> is returned to the pool. This notifies the Resource Dispenser through <a href="https://msdn.microsoft.com/59df0703-90ea-480c-8608-7d43039b48ba">IDispenserDriver::ResetResource</a>, which is the Resource Dispenser's opportunity to prepare the resource before it is returned to the pool.
+A resource originally returned by <a href="https://msdn.microsoft.com/en-us/library/ms679519(v=VS.85).aspx">IHolder::AllocResource</a> is returned to the pool. This notifies the Resource Dispenser through <a href="https://msdn.microsoft.com/en-us/library/ms681713(v=VS.85).aspx">IDispenserDriver::ResetResource</a>, which is the Resource Dispenser's opportunity to prepare the resource before it is returned to the pool.
 
 
 
@@ -128,15 +128,15 @@ A resource originally returned by <a href="https://msdn.microsoft.com/2b6c5d54-4
 
 
 
-<a href="https://msdn.microsoft.com/dba9c616-031d-48a7-b3e3-eb28b95a573a">IDispenserDriver</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686956(v=VS.85).aspx">IDispenserDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0465d78-f8b7-4934-9dc6-c8f0ead04bf1">IDispenserManager</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685072(v=VS.85).aspx">IDispenserManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c852e72-2fdc-4fd0-b523-f5601154da2a">IHolder</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680226(v=VS.85).aspx">IHolder</a>
  
 
  

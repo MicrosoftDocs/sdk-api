@@ -70,7 +70,7 @@ The <b>IStemmer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7996468d-3b5f-4bfc-837d-51082655cbbc">GenerateWordForms</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266434(v=VS.85).aspx">GenerateWordForms</a>
 </td>
 <td align="left" width="63%">
 Generates alternative forms for a word and puts these forms in the <a href="https://msdn.microsoft.com/81D52B0C-BADD-48C0-85DB-57CA82D7BBA8">IWordFormSink</a> object.
@@ -79,7 +79,7 @@ Generates alternative forms for a word and puts these forms in the <a href="http
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cd2798cf-8db2-474b-8a1c-abd8fdc9187e">GetLicenseToUse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266435(v=VS.85).aspx">GetLicenseToUse</a>
 </td>
 <td align="left" width="63%">
 Gets the license information for this <b>IStemmer</b> implementation.
@@ -88,7 +88,7 @@ Gets the license information for this <b>IStemmer</b> implementation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56440abe-c2d3-4224-af17-b220321a46ad">Init</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266436(v=VS.85).aspx">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the stemmer.

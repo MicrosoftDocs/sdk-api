@@ -65,7 +65,7 @@ A <b>VARIANT</b> string containing the instance CLSID of the required CRM clerk.
 
 ### -param pItem [out]
 
-A <b>VARIANT</b> <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer returning the interface to the specified CRM clerk.
+A <b>VARIANT</b> <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer returning the interface to the specified CRM clerk.
 
 
 ## -returns
@@ -123,7 +123,7 @@ The specified CRM clerk was not found. It may have completed before it could be 
 
 
 
-<a href="https://msdn.microsoft.com/ead5f782-8512-4387-b8f3-7be960f35bbe">ICrmMonitor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687684(v=VS.85).aspx">ICrmMonitor</a>
  
 
  

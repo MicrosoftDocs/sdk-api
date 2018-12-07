@@ -90,7 +90,7 @@ To enable the debug layers using this API, it must be called before the D3D12 de
         debugController-&gt;EnableDebugLayer();
     }
 }</code></pre>
-Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -101,7 +101,7 @@ Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A
 
 
 
-<a href="https://msdn.microsoft.com/6CFAE096-EE09-4DD0-ADA3-A700FD9FDCB9">ID3D12Debug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950153(v=VS.85).aspx">ID3D12Debug</a>
  
 
  

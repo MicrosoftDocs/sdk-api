@@ -80,15 +80,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef5dbf4a-ecbb-4f2c-a34d-ce3864133adc">IBDA_FrequencyFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693355(v=VS.85).aspx">IBDA_FrequencyFilter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2ca03b8-fd22-4b8f-90a9-42a235b0a675">IBDA_FrequencyFilter::put_Autotune</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693362(v=VS.85).aspx">IBDA_FrequencyFilter::put_Autotune</a>
  
 
  

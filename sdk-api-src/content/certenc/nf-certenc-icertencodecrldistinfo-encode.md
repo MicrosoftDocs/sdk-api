@@ -51,12 +51,12 @@ req.redist:
 ## -description
 
 
-The <b>Encode</b> method performs <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding on a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) distribution information array stored in the COM object and returns the ASN.1-encoded extension.
+The <b>Encode</b> method performs <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1) encoding on a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) distribution information array stored in the COM object and returns the ASN.1-encoded extension.
 
  Before using this method, you must call the 
-<a href="https://msdn.microsoft.com/899de888-918f-4202-a324-0e603eba2324">Reset</a> method to size the array and the 
-<a href="https://msdn.microsoft.com/ce27adfd-e21a-4e8d-882e-72041f97958a">SetNameCount</a> and 
-<a href="https://msdn.microsoft.com/fe33265a-8c75-4e16-8178-3569cf30d8e4">SetNameEntry</a> methods to set each element in each distribution point structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa383969(v=VS.85).aspx">Reset</a> method to size the array and the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa383982(v=VS.85).aspx">SetNameCount</a> and 
+<a href="https://msdn.microsoft.com/en-us/library/Aa383985(v=VS.85).aspx">SetNameEntry</a> methods to set each element in each distribution point structure.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The <b>Encode</b> method performs <a href="https://msdn.microsoft.com/0baaa937-f
 
 ### -param pstrBinary [out]
 
-A pointer to a <b>BSTR</b> that will contain the encoded CRL distribution information extension. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that will contain the encoded CRL distribution information extension. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
 
 
 ## -returns
@@ -76,7 +76,7 @@ A pointer to a <b>BSTR</b> that will contain the encoded CRL distribution inform
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the ASN.1-encoded string that represents the CRL distribution information array.
@@ -89,19 +89,19 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/e9c0053f-263f-4d7b-9356-bc33af989dbe">ICertEncodeCRLDistInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383911(v=VS.85).aspx">ICertEncodeCRLDistInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/899de888-918f-4202-a324-0e603eba2324">ICertEncodeCRLDistInfo::Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383969(v=VS.85).aspx">ICertEncodeCRLDistInfo::Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce27adfd-e21a-4e8d-882e-72041f97958a">ICertEncodeCRLDistInfo::SetNameCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383982(v=VS.85).aspx">ICertEncodeCRLDistInfo::SetNameCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe33265a-8c75-4e16-8178-3569cf30d8e4">ICertEncodeCRLDistInfo::SetNameEntry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383985(v=VS.85).aspx">ICertEncodeCRLDistInfo::SetNameEntry</a>
  
 
  

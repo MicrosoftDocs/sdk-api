@@ -86,7 +86,7 @@ This function supports the standard return value E_INVALIDARG, in addition to th
 This function converts an OLE 2 storage object to OLE 1 format. The <b>OLESTREAM</b> structure code implemented for OLE 1 must be available.
 
 On entry, the stream to which <i>lpolestm</i> points should be created and positioned just as it would be for an 
-<a href="_ole_olesavetostream">OleSaveToStream</a> call. On exit, the stream contains the persistent representation of the object using OLE 1 storage.
+<a href="https://msdn.microsoft.com/en-us/library/ms678407(v=VS.85).aspx">OleSaveToStream</a> call. On exit, the stream contains the persistent representation of the object using OLE 1 storage.
 
 <div class="alert"><b>Note</b>  Paintbrush objects are dealt with differently from other objects because their native data is in device-independent bitmap (DIB) format. When Paintbrush objects are converted using 
 <b>OleConvertIStorageToOLESTREAM</b>, no presentation data is added to the <b>OLESTREAM</b> structure. To include presentation data, use the 
@@ -100,7 +100,7 @@ On entry, the stream to which <i>lpolestm</i> points should be created and posit
 
 
 
-<a href="_com_coisole1class">CoIsOle1Class</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680738(v=VS.85).aspx">CoIsOle1Class</a>
 
 
 

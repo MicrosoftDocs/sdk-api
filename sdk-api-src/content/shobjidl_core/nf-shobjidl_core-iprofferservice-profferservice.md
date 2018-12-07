@@ -67,9 +67,9 @@ A value of type <b>GUID</b> that specifies the service being offered.
 
 ### -param psp [in]
 
-Type: <b><a href="_inet_IServiceProvider_Interface">IServiceProvider</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>*</b>
 
-A pointer to an <a href="_inet_IServiceProvider_Interface">IServiceProvider</a> interface.
+A pointer to an <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a> interface.
 
 
 ### -param pdwCookie [out]
@@ -103,7 +103,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="_inet_IServiceProvider_Interface">IServiceProvider</a>
+<a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>
  
 
  

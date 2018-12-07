@@ -68,7 +68,7 @@ Pointer to the TIF's <b>IUnknown</b> interface.
 
 ### -param ppvRegistrationContext [in, out]
 
-Pointer to a variable that receives an identifier. Use this value as the parameter to the <a href="https://msdn.microsoft.com/e4fd151e-ec24-41b9-85df-fba05fc174d1">IMPEG2_TIF_CONTROL::UnregisterTIF</a> method.
+Pointer to a variable that receives an identifier. Use this value as the parameter to the <a href="https://msdn.microsoft.com/en-us/library/Dd694419(v=VS.85).aspx">IMPEG2_TIF_CONTROL::UnregisterTIF</a> method.
 
 
 ## -returns
@@ -146,11 +146,11 @@ Call this method immediately after the TIF's input pin is connected to the Demux
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/9583365d-b318-49e2-a32f-f6cc9d3f289d">IMPEG2_TIF_CONTROL Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694413(v=VS.85).aspx">IMPEG2_TIF_CONTROL Interface</a>
  
 
  

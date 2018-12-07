@@ -65,7 +65,7 @@ A pointer to a   marshaling context that  is allocated by using the <a href="htt
 
 ### -param rgWriteEntries [in, optional]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/7c81a695-b93c-4c74-8ee8-133eea9f12d9">CLFS_WRITE_ENTRY</a> buffers to be marshaled into  one  record.  
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb540357(v=VS.85).aspx">CLFS_WRITE_ENTRY</a> buffers to be marshaled into  one  record.  
 
 This parameter is ignored if the <i>cWriteEntries</i> parameter is zero.
 
@@ -86,12 +86,12 @@ Specify 1 (one) for a simple concatenation. The <i>cbWriteEntryAlignment</i> par
 
 ### -param plsnUndoNext [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the next record in the undo-chain.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the next record in the undo-chain.
 
 
 ### -param plsnPrevious [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the LSN of the previous record in the previous-chain.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that specifies the LSN of the previous record in the previous-chain.
 
 
 ### -param cReserveRecords [in]
@@ -169,12 +169,12 @@ Assigns no flags.
 
 ### -param plsn [out, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the LSN  of the appended record.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that receives the LSN  of the appended record.
 
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx">OVERLAPPED</a> structure. 
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
@@ -206,7 +206,7 @@ If the <b>ReserveAndAppendLogAligned</b> function returns <b>ERROR_LOG_FILE_FULL
 
 If the <b>ReserveAndAppendLogAligned</b>  function is called with a valid <i>overlapped</i> structure and the log handle is created with the overlapped option, then if a call to this function fails with an error code of <b>ERROR_IO_PENDING</b>, a pointer to a valid read context  is  placed in the variable that is pointed to by the <i>ppvReadContext</i> parameter.
 
-To complete the log-record copy, the client should first synchronize its execution with deferred completion of the overlapped I/O operation by using  the <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> function or one of the synchronization <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">Wait Functions</a>. For more information, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
+To complete the log-record copy, the client should first synchronize its execution with deferred completion of the overlapped I/O operation by using  the <a href="https://msdn.microsoft.com/en-us/library/ms683209(v=VS.85).aspx">GetOverlappedResult</a> function or one of the synchronization <a href="https://msdn.microsoft.com/en-us/library/ms687069(v=VS.85).aspx">Wait Functions</a>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms686358(v=VS.85).aspx">Synchronization and Overlapped Input and Output</a>.
 
 
 
@@ -216,19 +216,19 @@ To complete the log-record copy, the client should first synchronize its executi
 
 
 
-<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c81a695-b93c-4c74-8ee8-133eea9f12d9">CLFS_WRITE_ENTRY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540357(v=VS.85).aspx">CLFS_WRITE_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540361(v=VS.85).aspx">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx">OVERLAPPED</a>
  
 
  

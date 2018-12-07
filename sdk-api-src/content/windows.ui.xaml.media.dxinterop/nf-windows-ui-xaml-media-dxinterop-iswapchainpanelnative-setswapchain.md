@@ -60,7 +60,7 @@ Sets the DirectX swap chain for <a href="https://msdn.microsoft.com/e99a6d0f-d55
 
 ### -param swapChain [in]
 
-A configured <a href="https://msdn.microsoft.com/344ada45-35a0-4e99-b3b7-0f316df029ab">IDXGISwapChain</a>.
+A configured <a href="https://msdn.microsoft.com/en-us/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>.
 
 
 ## -returns

@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/4f4b5c95-3213-4ccb-9bdd-05cb221f54bd">IX509CertificateRequestCertificate2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351612(v=VS.85).aspx">IX509CertificateRequestCertificate2</a>
  
 
  

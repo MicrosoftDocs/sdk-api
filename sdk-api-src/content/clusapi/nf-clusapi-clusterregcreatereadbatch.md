@@ -76,7 +76,7 @@ A pointer to the handle of the created read batch.
 
 
 The function returns one of the following 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
 
 <table>
 <tr>
@@ -117,7 +117,7 @@ Not enough storage is available to complete this operation.
 
 
 
-Add commands to the batch by calling the <a href="https://msdn.microsoft.com/2B665231-7325-43C4-92A4-4EDF28126BA1">ClusterRegReadBatchAddCommand</a>  function. Execute the batch by calling the <a href="https://msdn.microsoft.com/A164EB9F-290E-446E-98E9-95C6C3C3D00C">ClusterRegCloseReadBatch</a> function.
+Add commands to the batch by calling the <a href="https://msdn.microsoft.com/en-us/library/Hh706744(v=VS.85).aspx">ClusterRegReadBatchAddCommand</a>  function. Execute the batch by calling the <a href="https://msdn.microsoft.com/A164EB9F-290E-446E-98E9-95C6C3C3D00C">ClusterRegCloseReadBatch</a> function.
 
 Do not close the key until the read batch has been submitted for execution.
 
@@ -133,7 +133,7 @@ Do not close the key until the read batch has been submitted for execution.
 
 
 
-<a href="https://msdn.microsoft.com/2B665231-7325-43C4-92A4-4EDF28126BA1">ClusterRegReadBatchAddCommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh706744(v=VS.85).aspx">ClusterRegReadBatchAddCommand</a>
  
 
  
