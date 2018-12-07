@@ -227,7 +227,7 @@ The following example draws the original source image and then draws a portion o
 </table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing a multicolored checkerboard pattern, then an enlarged, two-toned subset of that pattern, sheared to a parallelogram" src="images/drawimage2.png"/>
+<img alt="Illustration showing a multicolored checkerboard pattern, then an enlarged, two-toned subset of that pattern, sheared to a parallelogram" src="./images/drawimage2.png"/>
 
 <div class="code"></div>
 

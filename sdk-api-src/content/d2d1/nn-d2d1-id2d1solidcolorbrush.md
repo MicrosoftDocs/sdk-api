@@ -144,7 +144,7 @@ m_pRenderTarget-&gt;DrawRectangle(&amp;rcBrushRect, m_pBlackBrush, 1, NULL);
 </table></span></div>
 These examples produce the output shown in the following illustration.
 
-<img alt="Illustration of a rectangle filled with a solid, yellow-green color" src="images/brushes_ovw_solidcolor.png"/>
+<img alt="Illustration of a rectangle filled with a solid, yellow-green color" src="./images/brushes_ovw_solidcolor.png"/>
 
 <div class="code"></div>
 

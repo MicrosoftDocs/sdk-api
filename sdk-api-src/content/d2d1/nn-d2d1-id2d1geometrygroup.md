@@ -150,7 +150,7 @@ if (SUCCEEDED(hr))
 </table></span></div>
 The following illustration shows the results of rendering the two group geometries from the example.
 
-<img alt="Illustration of two sets of four concentric circles, one with the second and fourth rings filled and one with all rings filled" src="images/create_geometry_group.png"/>
+<img alt="Illustration of two sets of four concentric circles, one with the second and fourth rings filled and one with all rings filled" src="./images/create_geometry_group.png"/>
 
 <div class="code"></div>
 
