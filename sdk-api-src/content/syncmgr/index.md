@@ -2,7 +2,7 @@
 UID: NA:syncmgr
 ms.assetid: 00d830a4-f7de-3553-ba48-0c001fccf645
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

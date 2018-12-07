@@ -2,7 +2,7 @@
 UID: NA:vds
 ms.assetid: e0f296a4-ccbc-378e-85b8-f04b91873ba3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

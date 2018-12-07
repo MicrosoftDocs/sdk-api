@@ -2,7 +2,7 @@
 UID: NA:windef
 ms.assetid: d38cdf1b-ef65-394e-984c-8776732b0365
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

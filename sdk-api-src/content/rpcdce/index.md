@@ -2,7 +2,7 @@
 UID: NA:rpcdce
 ms.assetid: a5344ffc-da83-3b13-a817-48a23b104a56
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

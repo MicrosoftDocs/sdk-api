@@ -2,7 +2,7 @@
 UID: TP:htmlhelp
 ms.assetid: adfbbda2-b7ca-3f58-bd38-3aaccbf29126
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

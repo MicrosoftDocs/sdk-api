@@ -2,7 +2,7 @@
 UID: NA:azroles
 ms.assetid: b0d03ad2-0c6d-3dd5-a767-8f008a9fc4c0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

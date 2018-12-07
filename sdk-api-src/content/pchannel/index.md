@@ -2,7 +2,7 @@
 UID: NA:pchannel
 ms.assetid: bff335a9-9ef2-395d-8e2d-22f9fa628622
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

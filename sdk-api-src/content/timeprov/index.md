@@ -2,7 +2,7 @@
 UID: NA:timeprov
 ms.assetid: 06cc2056-0006-3b56-8ad9-ae54cf342a15
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
