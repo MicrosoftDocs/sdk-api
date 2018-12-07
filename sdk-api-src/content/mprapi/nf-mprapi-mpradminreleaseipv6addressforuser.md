@@ -4,10 +4,10 @@ title: MprAdminReleaseIpv6AddressForUser function
 author: windows-sdk-content
 description: The MprAdminReleaseIpv6AddressForUser function is called once for each user that needs to release an IPv6 address.
 old-location: rras\mpradminreleaseipv6addressforuser.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: c06433b3-d1b0-42d0-993d-5c1cde4cbc0f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MprAdminReleaseIpv6AddressForUser, MprAdminReleaseIpv6AddressForUser callback, MprAdminReleaseIpv6AddressForUser callback function [RAS], mprapi/MprAdminReleaseIpv6AddressForUser, rras.mpradminreleaseipv6addressforuser
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprAdminReleaseIpv6AddressForUser
-: 
 ---
 
 # MprAdminReleaseIpv6AddressForUser function

@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\idefaultlocation_setreport.htm
 tech.root: locationapi
 ms.assetid: 50355f93-e609-44d5-925a-2de7af1e0564
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IDefaultLocation interface [WinLocation],SetReport method, IDefaultLocation.SetReport, IDefaultLocation::SetReport, SetReport, SetReport method [WinLocation], SetReport method [WinLocation],IDefaultLocation interface, WinLocation_COM_Ref.idefaultlocation_setreport, locationapi/IDefaultLocation::SetReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- locationapi.h
-: 
-- IDefaultLocation.SetReport
-: 
 ---
 
 # IDefaultLocation::SetReport

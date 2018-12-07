@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadSHORT.htm
 tech.root: properties
 ms.assetid: F6E71602-86D0-41be-854F-83C5D5B64BF8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_ReadSHORT, PSPropertyBag_ReadSHORT function [Windows Properties], properties.PSPropertyBag_ReadSHORT, propsys/PSPropertyBag_ReadSHORT, shell.PSPropertyBag_ReadSHORT, shell_PSPropertyBag_ReadSHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PSPropertyBag_ReadSHORT
-: 
 ---
 
 # PSPropertyBag_ReadSHORT function

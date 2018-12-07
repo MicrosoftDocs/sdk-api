@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt32.htm
 tech.root: properties
 ms.assetid: ce1d8d07-2532-48bd-be8b-7650230dbe0d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PropVariantToUInt32, PropVariantToUInt32 function [Windows Properties], properties.PropVariantToUInt32, propvarutil/PropVariantToUInt32, shell.PropVariantToUInt32, shell_PropVariantToUInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantToUInt32
-: 
 ---
 
 # PropVariantToUInt32 function

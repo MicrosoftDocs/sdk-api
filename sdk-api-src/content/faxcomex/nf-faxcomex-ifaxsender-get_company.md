@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_company_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2c8p.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Company property [Fax Service], Company property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],Company property, IFaxSender.Company, IFaxSender.get_Company, IFaxSender::Company, IFaxSender::get_Company, IFaxSender::put_Company, _mfax_faxsender.company, fax._mfax_faxsender_company, fax._mfax_faxsender_cpp_mfax_faxsender_company_cpp, faxcomex/IFaxSender::Company, faxcomex/IFaxSender::get_Company, faxcomex/IFaxSender::put_Company, get_Company
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxSender.get_Company
-: 
 ---
 
 # IFaxSender::get_Company

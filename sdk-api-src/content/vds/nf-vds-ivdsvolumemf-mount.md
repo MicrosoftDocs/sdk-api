@@ -4,10 +4,10 @@ title: IVdsVolumeMF::Mount
 author: windows-sdk-content
 description: Mounts a volume.
 old-location: base\ivdsvolumemf_mount.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 1de3bbd7-cd81-42f9-9e25-48a0a07e9ccc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsVolumeMF interface [VDS],Mount method, IVdsVolumeMF.Mount, IVdsVolumeMF::Mount, Mount, Mount method [VDS], Mount method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_mount, vds/IVdsVolumeMF::Mount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsVolumeMF.Mount
-: 
 ---
 
 # IVdsVolumeMF::Mount

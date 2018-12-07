@@ -4,10 +4,10 @@ title: ICertificatePolicy
 author: windows-sdk-content
 description: Can be used to specify a certificate policy that identifies a purpose for which the certificate can be used.
 old-location: security\icertificatepolicy.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 2162de70-edcc-4f01-807d-79ff200d0016
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICertificatePolicy, ICertificatePolicy interface [Security], ICertificatePolicy interface [Security],described, certenroll/ICertificatePolicy, security.icertificatepolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

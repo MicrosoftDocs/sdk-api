@@ -4,10 +4,10 @@ title: RasGetConnectionStatistics function
 author: windows-sdk-content
 description: The RasGetConnectionStatistics function retrieves accumulated connection statistics for the specified connection.
 old-location: rras\rasgetconnectionstatistics.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 2db03535-c2bd-4e04-a86f-e68fe5c1f805
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RasGetConnectionStatistics, RasGetConnectionStatistics function [RAS], _ras_rasgetconnectionstatistics, ras/RasGetConnectionStatistics, rras.rasgetconnectionstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RasGetConnectionStatistics
-: 
 ---
 
 # RasGetConnectionStatistics function

@@ -7,7 +7,7 @@ old-location: mstv\ipmt_registerforwhencurrent.htm
 tech.root: mstv
 ms.assetid: 4759c813-3a1f-492a-bca9-cb6610f6426b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IPMT.RegisterForWhenCurrent, IPMT::RegisterForWhenCurrent, IPMTRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::RegisterForWhenCurrent, mstv.ipmt_registerforwhencurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mpeg2psiparser.h
-: 
-- IPMT.RegisterForWhenCurrent
-: 
 ---
 
 # IPMT::RegisterForWhenCurrent

@@ -7,7 +7,7 @@ old-location: http\winhttpquerydataavailable.htm
 tech.root: WinHttp
 ms.assetid: 041ec571-10ed-48d0-9a99-e0b5d9e08f70
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinHttpQueryDataAvailable, WinHttpQueryDataAvailable function [WinHTTP], http.winhttpquerydataavailable, winhttp.winhttpquerydataavailable_function, winhttp/WinHttpQueryDataAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
-- apiref
-: 
-- 
-: 
-- WinHttpQueryDataAvailable
-: 
 ---
 
 # WinHttpQueryDataAvailable function

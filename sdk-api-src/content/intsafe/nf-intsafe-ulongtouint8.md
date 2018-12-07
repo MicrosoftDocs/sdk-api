@@ -7,7 +7,7 @@ old-location: shell\ULongToUInt8.htm
 tech.root: shell
 ms.assetid: 2d1db351-797f-4785-b67c-9ab6e661282a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DWordToByte, ULongToUInt8, ULongToUInt8 function [Windows Shell], intsafe/ULongToUInt8, shell.ULongToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ULongToUInt8
-: 
 ---
 
 # ULongToUInt8 function

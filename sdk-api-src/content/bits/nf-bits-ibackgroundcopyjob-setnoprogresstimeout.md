@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::SetNoProgressTimeout
 author: windows-sdk-content
 description: Sets the length of time that BITS tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
 old-location: bits\ibackgroundcopyjob_setnoprogresstimeout.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 3fcf46ed-197f-46ad-ac62-2c4a2e8b27ef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetNoProgressTimeout method, IBackgroundCopyJob.SetNoProgressTimeout, IBackgroundCopyJob::SetNoProgressTimeout, SetNoProgressTimeout, SetNoProgressTimeout method [BITS], SetNoProgressTimeout method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setnoprogresstimeout, bits.ibackgroundcopyjob_setnoprogresstimeout, bits/IBackgroundCopyJob::SetNoProgressTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.SetNoProgressTimeout
-: 
 ---
 
 # IBackgroundCopyJob::SetNoProgressTimeout
@@ -66,14 +58,7 @@ Sets the length of time that BITS tries to transfer the file after a transient e
 
 
 
-### -param Seconds
-
-TBD
-
-
-
-
-#### - RetryPeriod [in]
+### -param Seconds [in]
 
 Length of time, in seconds, that BITS tries to transfer the file after the first transient error occurs. The default retry period is 1,209,600 seconds (14 days). Set the retry period to 0 to prevent retries and to force the job into the BG_JOB_STATE_ERROR state for all errors. If the retry period value exceeds the <a href="https://msdn.microsoft.com/en-us/library/Aa362844(v=VS.85).aspx">JobInactivityTimeout</a> Group Policy value (90-day default), BITS cancels the job after the policy value is exceeded.  
 

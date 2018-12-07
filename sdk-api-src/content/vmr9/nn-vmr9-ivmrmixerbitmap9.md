@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixerbitmap9.htm
 tech.root: DirectShow
 ms.assetid: de48307a-3522-49a0-b0a5-73ce7cf90517
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVMRMixerBitmap9, IVMRMixerBitmap9 interface [DirectShow], IVMRMixerBitmap9 interface [DirectShow],described, IVMRMixerBitmap9Interface, dshow.ivmrmixerbitmap9, vmr9/IVMRMixerBitmap9
 ms.prod: windows-hardware
 ms.technology: windows-devices

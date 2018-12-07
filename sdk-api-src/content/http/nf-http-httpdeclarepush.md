@@ -4,10 +4,10 @@ title: HttpDeclarePush function
 author: windows-sdk-content
 description: Declares a resource-to-subresource relationship to use for an HTTP server push. HTTP.sys then performs an HTTP 2.0 server push for the given resource, if the underlying protocol, connection, client, and policies allow the push operation.
 old-location: http\httpdeclarepush.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 02844D45-01B2-497B-83D6-8FEB904CF2FE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HttpDeclarePush, HttpDeclarePush function [HTTP], http.httpdeclarepush, http/HttpDeclarePush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HttpDeclarePush
-: 
 ---
 
 # HttpDeclarePush function

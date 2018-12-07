@@ -7,7 +7,7 @@ old-location: wds\pxedhcpisvalid.htm
 tech.root: wds
 ms.assetid: b5f43afb-ab71-4edf-a48a-7315d19af913
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: FALSE, PxeDhcpIsValid, PxeDhcpIsValid function [Windows Deployment Services], TRUE, wds.pxedhcpisvalid, wdspxe/PxeDhcpIsValid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PxeDhcpIsValid
-: 
 ---
 
 # PxeDhcpIsValid function

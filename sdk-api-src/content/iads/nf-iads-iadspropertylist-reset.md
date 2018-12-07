@@ -4,10 +4,10 @@ title: IADsPropertyList::Reset
 author: windows-sdk-content
 description: Resets the list to the first item.
 old-location: adsi\iadspropertylist_reset.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: ca9f92e5-d81f-40e5-8223-38fd8312ef7c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPropertyList interface [ADSI],Reset method, IADsPropertyList.Reset, IADsPropertyList::Reset, Reset, Reset method [ADSI], Reset method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_reset, adsi.iadspropertylist__reset, adsi.iadspropertylist_reset, iads/IADsPropertyList::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsPropertyList.Reset
-: 
 ---
 
 # IADsPropertyList::Reset

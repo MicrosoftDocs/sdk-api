@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_transmiss
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_86pg.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],TransmissionStart property, IFaxOutgoingMessage.TransmissionStart, IFaxOutgoingMessage.get_TransmissionStart, IFaxOutgoingMessage::TransmissionStart, IFaxOutgoingMessage::get_TransmissionStart, TransmissionStart property [Fax Service], TransmissionStart property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.transmissionstart, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_transmissionstart_cpp, fax._mfax_faxoutgoingmessage_transmissionstart, faxcomex/IFaxOutgoingMessage::TransmissionStart, faxcomex/IFaxOutgoingMessage::get_TransmissionStart, get_TransmissionStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxOutgoingMessage.get_TransmissionStart
-: 
 ---
 
 # IFaxOutgoingMessage::get_TransmissionStart

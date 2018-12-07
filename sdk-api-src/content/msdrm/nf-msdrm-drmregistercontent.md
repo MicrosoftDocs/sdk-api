@@ -7,7 +7,7 @@ old-location: rm\drmregistercontent.htm
 tech.root: AdRms_Sdk
 ms.assetid: ddf1ef8d-f509-43c0-87bd-9ea393a7231a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMRegisterContent, DRMRegisterContent function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterContent, rm.drmregistercontent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DRMRegisterContent
-: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

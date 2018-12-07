@@ -4,10 +4,10 @@ title: IWSMan::CreateConnectionOptions
 author: windows-sdk-content
 description: Creates an IWSManConnectionOptions object that specifies the user name and password used when creating a session.
 old-location: winrm\iwsman_createconnectionoptions.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: e24813cb-b996-4712-803b-360c9bcfdee3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateConnectionOptions, CreateConnectionOptions method [Windows Remote Management], CreateConnectionOptions method [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CreateConnectionOptions method, IWSMan.CreateConnectionOptions, IWSMan::CreateConnectionOptions, winrm.iwsman_createconnectionoptions, wsmandisp/IWSMan::CreateConnectionOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSMan.CreateConnectionOptions
-: 
 ---
 
 # IWSMan::CreateConnectionOptions

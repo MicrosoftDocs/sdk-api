@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_getpat.htm
 tech.root: mstv
 ms.assetid: 7cfa9ec0-a802-4dbe-9997-d0eaac2b71c9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetPAT, GetPAT method [Microsoft TV Technologies], GetPAT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetPAT method, IAtscPsipParser.GetPAT, IAtscPsipParser::GetPAT, IAtscPsipParserGetPAT, atscpsipparser/IAtscPsipParser::GetPAT, mstv.iatscpsipparser_getpat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- atscpsipparser.h
-: 
-- IAtscPsipParser.GetPAT
-: 
 ---
 
 # IAtscPsipParser::GetPAT

@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationactivation_cancelpendingactivation.htm
 tech.root: debug_wwahost
 ms.assetid: FBBA086D-1B20-4F70-B162-DD922DC5C4BF
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CancelPendingActivation, CancelPendingActivation method [Debugging Windows Store apps], CancelPendingActivation method [Debugging Windows Store apps],IWebApplicationActivation interface, IWebApplicationActivation interface [Debugging Windows Store apps],CancelPendingActivation method, IWebApplicationActivation.CancelPendingActivation, IWebApplicationActivation::CancelPendingActivation, debug.iwebapplicationactivation_cancelpendingactivation, webapplication/IWebApplicationActivation::CancelPendingActivation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- webapplication.h
-: 
-- IWebApplicationActivation.CancelPendingActivation
-: 
 ---
 
 # IWebApplicationActivation::CancelPendingActivation

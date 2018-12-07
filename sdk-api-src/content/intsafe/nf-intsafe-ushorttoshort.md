@@ -7,7 +7,7 @@ old-location: shell\UShortToShort.htm
 tech.root: shell
 ms.assetid: 77fd8f32-0b24-4d03-8a6e-d7512c8c6482
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: UShortToShort, UShortToShort function [Windows Shell], WordToShort, _shell_UShortToShort, intsafe/UShortToShort, shell.UShortToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UShortToShort
-: 
 ---
 
 # UShortToShort function

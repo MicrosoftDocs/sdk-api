@@ -7,7 +7,7 @@ old-location: dxmath\xmbyte4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMBYTE4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: XMBYTE4, XMBYTE4 structure [DirectX Math Support APIs], directxpackedvector/XMBYTE4, dxmath.xmbyte4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,6 +96,18 @@ Signed 8-bit integer value in the range [-127, 127] describing the
 
 Unsigned 32-bit integer representing the 4D vector.
 		    
+
+
+### -field XMBYTE4
+
+TBD 
+
+
+### -field operator=
+
+TBD 
+
+
 
 
 ## -remarks

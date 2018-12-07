@@ -7,7 +7,7 @@ old-location: display\engalphablend.htm
 tech.root: display
 ms.assetid: c8839271-0a75-4657-875f-114545f44777
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EngAlphaBlend, EngAlphaBlend function [Display Devices], display.engalphablend, gdifncs_f7f6d10b-db7e-40af-8378-05cca946505f.xml, winddi/EngAlphaBlend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngAlphaBlend
-: 
 ---
 
 # EngAlphaBlend function

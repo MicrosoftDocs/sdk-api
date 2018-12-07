@@ -4,10 +4,10 @@ title: IX509PrivateKey::put_Algorithm
 author: windows-sdk-content
 description: Specifies or retrieves an object identifier (OID) for the public key algorithm.
 old-location: security\ix509privatekey_algorithm.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 40d2eae1-733a-4e5b-bb15-71301d73f438
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Algorithm property [Security], Algorithm property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Algorithm property, IX509PrivateKey.Algorithm, IX509PrivateKey.put_Algorithm, IX509PrivateKey::Algorithm, IX509PrivateKey::get_Algorithm, IX509PrivateKey::put_Algorithm, certenroll/IX509PrivateKey::Algorithm, certenroll/IX509PrivateKey::get_Algorithm, certenroll/IX509PrivateKey::put_Algorithm, put_Algorithm, security.ix509privatekey_algorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509PrivateKey.put_Algorithm
-: 
 ---
 
 # IX509PrivateKey::put_Algorithm

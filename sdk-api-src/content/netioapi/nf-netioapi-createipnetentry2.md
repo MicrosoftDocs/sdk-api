@@ -7,7 +7,7 @@ old-location: iphlp\createipnetentry2.htm
 tech.root: IpHlp
 ms.assetid: ca92b9f8-ec3c-4889-b649-f606c3920f92
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateIpNetEntry2, CreateIpNetEntry2 function [IP Helper], iphlp.createipnetentry2, netioapi/CreateIpNetEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateIpNetEntry2
-: 
 ---
 
 # CreateIpNetEntry2 function

@@ -7,7 +7,7 @@ old-location: mf\idirect3ddevice9video.htm
 tech.root: medfound
 ms.assetid: e2c9cd73-6320-4ce3-a44f-5658c162aeb4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDirect3DDevice9Video, IDirect3DDevice9Video interface [Media Foundation], IDirect3DDevice9Video interface [Media Foundation],described, d3d9/IDirect3DDevice9Video, mf.idirect3ddevice9video
 ms.prod: windows-hardware
 ms.technology: windows-devices

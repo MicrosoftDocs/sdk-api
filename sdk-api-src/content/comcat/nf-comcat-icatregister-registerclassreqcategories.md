@@ -7,7 +7,7 @@ old-location: com\icatregister_registerclassreqcategories.htm
 tech.root: com
 ms.assetid: 56aa5fcd-b46a-4807-ba51-9b4b6d28ceeb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ICatRegister interface [COM],RegisterClassReqCategories method, ICatRegister.RegisterClassReqCategories, ICatRegister::RegisterClassReqCategories, RegisterClassReqCategories, RegisterClassReqCategories method [COM], RegisterClassReqCategories method [COM],ICatRegister interface, _com_icatregister_registerclassreqcategories, com.icatregister_registerclassreqcategories, comcat/ICatRegister::RegisterClassReqCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comcat.h
-: 
-- ICatRegister.RegisterClassReqCategories
-: 
 ---
 
 # ICatRegister::RegisterClassReqCategories

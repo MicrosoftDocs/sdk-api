@@ -7,7 +7,7 @@ old-location: netvista\setnetworkinformation.htm
 tech.root: NetVista
 ms.assetid: e196e978-2eb7-4b22-af3b-e14736c5ac94
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: SetNetworkInformation, SetNetworkInformation function [Network Drivers Starting with Windows Vista], iphelper_d0cffca7-e9e7-404a-ab30-e2a2d6f66c14.xml, netioapi/SetNetworkInformation, netvista.setnetworkinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetNetworkInformation
-: 
 ---
 
 # SetNetworkInformation function

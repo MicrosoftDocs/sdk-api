@@ -7,7 +7,7 @@ old-location: security\slsetgenuineinformation.htm
 tech.root: SecSLApi
 ms.assetid: 20b82813-4c6e-4be8-969f-e6ed1fd5d008
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLSetGenuineInformation, SLSetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, security.slsetgenuineinformation, slpublic/SLSetGenuineInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SLSetGenuineInformation
-: 
 ---
 
 # SLSetGenuineInformation function

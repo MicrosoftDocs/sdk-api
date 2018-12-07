@@ -7,7 +7,7 @@ old-location: monitor\destroyphysicalmonitor.htm
 tech.root: Monitor
 ms.assetid: 5371cbe4-80f5-4514-88e7-38107cd1a127
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DestroyPhysicalMonitor, DestroyPhysicalMonitor function [Monitor Configuration], monitor.destroyphysicalmonitor, physicalmonitorenumerationapi/DestroyPhysicalMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DestroyPhysicalMonitor
-: 
 ---
 
 # DestroyPhysicalMonitor function

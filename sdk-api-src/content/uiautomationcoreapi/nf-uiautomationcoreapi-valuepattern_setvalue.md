@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ValuePattern_SetValueConPat.htm
 tech.root: WinAuto
 ms.assetid: 6233abb0-7d18-4d1f-a611-28931d874bda
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ValuePattern_SetValue, ValuePattern_SetValue function [Windows Accessibility], uiauto.uiauto_ValuePattern_SetValueConPat, uiauto_ValuePattern_SetValueConPat, uiautomationcoreapi/ValuePattern_SetValue, winauto.uiauto_ValuePattern_SetValueConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ValuePattern_SetValue
-: 
 ---
 
 # ValuePattern_SetValue function

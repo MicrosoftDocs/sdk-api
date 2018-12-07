@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::QueryChanges
 author: windows-sdk-content
 description: Retrieves a value that specifies whether the template or certification authority collections have changed in Active Directory.
 old-location: security\ix509enrollmentpolicyserver_querychanges.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: c83faaba-0355-4765-bc08-5e0e02afe8c2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],QueryChanges method, IX509EnrollmentPolicyServer.QueryChanges, IX509EnrollmentPolicyServer::QueryChanges, QueryChanges, QueryChanges method [Security], QueryChanges method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::QueryChanges, security.ix509enrollmentpolicyserver_querychanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509EnrollmentPolicyServer.QueryChanges
-: 
 ---
 
 # IX509EnrollmentPolicyServer::QueryChanges

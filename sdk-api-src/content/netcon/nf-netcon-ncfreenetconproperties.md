@@ -4,10 +4,10 @@ title: NcFreeNetconProperties function
 author: windows-sdk-content
 description: The NcFreeNetconProperties function frees memory associated with NETCON_PROPERTIES structures.
 old-location: ics\ncfreenetconproperties.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: ac73b831-81da-48e7-858b-7ca1ee03768e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: NcFreeNetconProperties, NcFreeNetconProperties function [ICS/ICF], ics.ncfreenetconproperties, netcon/NcFreeNetconProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NcFreeNetconProperties
-: 
 ---
 
 # NcFreeNetconProperties function

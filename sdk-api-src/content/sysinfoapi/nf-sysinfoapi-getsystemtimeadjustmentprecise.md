@@ -4,10 +4,10 @@ title: GetSystemTimeAdjustmentPrecise function
 author: windows-sdk-content
 description: Determines whether the system is applying periodic, programmed time adjustments to its time-of-day clock, and obtains the value and period of any such adjustments.
 old-location: base\getsystemtimeadjustmentprecise.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 95EEE23D-01D8-49E1-BA64-49C07E8B1619
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetSystemTimeAdjustmentPrecise, GetSystemTimeAdjustmentPrecise function, base.getsystemtimeadjustmentprecise, sysinfoapi/GetSystemTimeAdjustmentPrecise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetSystemTimeAdjustmentPrecise
-: 
 ---
 
 # GetSystemTimeAdjustmentPrecise function

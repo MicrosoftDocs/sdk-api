@@ -7,7 +7,7 @@ old-location: directwrite\idwriteinmemoryfontfileloader.htm
 tech.root: DirectWrite
 ms.assetid: E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDWriteInMemoryFontFileLoader, IDWriteInMemoryFontFileLoader interface [Direct Write], IDWriteInMemoryFontFileLoader interface [Direct Write],described, directwrite.idwriteinmemoryfontfileloader, dwrite_3/IDWriteInMemoryFontFileLoader
 ms.prod: windows-hardware
 ms.technology: windows-devices

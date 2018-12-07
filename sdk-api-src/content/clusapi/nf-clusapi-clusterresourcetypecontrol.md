@@ -4,10 +4,10 @@ title: ClusterResourceTypeControl function
 author: windows-sdk-content
 description: Initiates an operation affecting a resource type. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusterresourcetypecontrol.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 79f4949d-e5ef-4d2e-ac11-0e30b6c566fd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterResourceTypeControl, ClusterResourceTypeControl function [Failover Cluster], _wolf_clusterresourcetypecontrol, clusapi/ClusterResourceTypeControl, mscs.clusterresourcetypecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusterResourceTypeControl
-: 
 ---
 
 # ClusterResourceTypeControl function

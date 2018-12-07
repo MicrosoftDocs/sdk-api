@@ -7,7 +7,7 @@ old-location: wec\ec_subscription_configuration_mode.htm
 tech.root: WEC
 ms.assetid: ec2c3006-c452-4dec-b3ed-a7a11f6456b3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EC_SUBSCRIPTION_CONFIGURATION_MODE, EC_SUBSCRIPTION_CONFIGURATION_MODE enumeration, EcConfigurationModeCustom, EcConfigurationModeMinBandwidth, EcConfigurationModeMinLatency, EcConfigurationModeNormal, _EC_SUBSCRIPTION_CONFIGURATION_MODE, evcoll/EC_SUBSCRIPTION_CONFIGURATION_MODE, evcoll/EcConfigurationModeCustom, evcoll/EcConfigurationModeMinBandwidth, evcoll/EcConfigurationModeMinLatency, evcoll/EcConfigurationModeNormal, wec.ec_subscription_configuration_mode, wes.ec_subscription_configuration_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

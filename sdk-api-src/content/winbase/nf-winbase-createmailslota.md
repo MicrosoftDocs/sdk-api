@@ -7,7 +7,7 @@ old-location: base\createmailslot.htm
 tech.root: ipc
 ms.assetid: a2e8199f-4d00-4315-9562-ff30f4fafcb7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateMailslot, CreateMailslot function, CreateMailslotA, CreateMailslotW, MAILSLOT_WAIT_FOREVER, _win32_createmailslot, base.createmailslot, winbase/CreateMailslot, winbase/CreateMailslotA, winbase/CreateMailslotW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,12 +52,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateMailslotA
-: 
 ---
 
 # CreateMailslotA function

@@ -4,10 +4,10 @@ title: ICspStatuses::get_ItemByOperations
 author: windows-sdk-content
 description: Retrieves an ICspStatus object that has the same name as the provider specified on input and the same algorithm but identifies a different cryptographic operation.
 old-location: security\icspstatuses_itembyoperations_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: ae314b76-61b7-4e28-87bb-f58ea14d7b71
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICspStatuses interface [Security],ItemByOperations property, ICspStatuses.ItemByOperations, ICspStatuses.get_ItemByOperations, ICspStatuses::ItemByOperations, ICspStatuses::get_ItemByOperations, ItemByOperations property [Security], ItemByOperations property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByOperations, certenroll/ICspStatuses::get_ItemByOperations, get_ItemByOperations, security.icspstatuses_itembyoperations_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICspStatuses.get_ItemByOperations
-: 
 ---
 
 # ICspStatuses::get_ItemByOperations

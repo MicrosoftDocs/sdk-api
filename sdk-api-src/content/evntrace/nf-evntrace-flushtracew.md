@@ -4,10 +4,10 @@ title: FlushTraceW function
 author: windows-sdk-content
 description: The FlushTrace function causes an event tracing session to immediately deliver buffered events for the specified session.
 old-location: etw\flushtrace.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: bc7d0dac-93d9-4614-9cb6-fee99765eb39
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FlushTrace, FlushTrace function [ETW], FlushTraceA, FlushTraceW, _evt_flushtrace, base.flushtrace, etw.flushtrace, evntrace/FlushTrace, evntrace/FlushTraceA, evntrace/FlushTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FlushTraceW
-: 
 ---
 
 # FlushTraceW function

@@ -4,10 +4,10 @@ title: WSCUpdateProvider32 function
 author: windows-sdk-content
 description: Modifies the specified 32-bit transport provider in the system configuration database.Note  This call is a strictly 32-bit version of WSCUpdateProvider for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .
 old-location: winsock\wscupdateprovider32.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 803ef58a-853b-491c-bed1-e02275fef258
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSCUpdateProvider32, WSCUpdateProvider32 function [Winsock], winsock.wscupdateprovider32, ws2spi/WSCUpdateProvider32
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSCUpdateProvider32
-: 
 ---
 
 # WSCUpdateProvider32 function

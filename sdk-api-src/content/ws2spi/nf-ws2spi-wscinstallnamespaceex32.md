@@ -4,10 +4,10 @@ title: WSCInstallNameSpaceEx32 function
 author: windows-sdk-content
 description: Installs a specified 32-bit namespace provider.
 old-location: winsock\wscinstallnamespaceex32.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 222ebfcc-8854-4224-b464-28098c84b750
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSCInstallNameSpaceEx32, WSCInstallNameSpaceEx32 function [Winsock], winsock.wscinstallnamespaceex32, ws2spi/WSCInstallNameSpaceEx32
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSCInstallNameSpaceEx32
-: 
 ---
 
 # WSCInstallNameSpaceEx32 function

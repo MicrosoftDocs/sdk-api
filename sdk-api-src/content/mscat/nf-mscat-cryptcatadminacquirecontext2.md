@@ -4,10 +4,10 @@ title: CryptCATAdminAcquireContext2 function
 author: windows-sdk-content
 description: Acquires a handle to a catalog administrator context for a given hash algorithm and hash policy.
 old-location: security\cryptcatadminacquirecontext2.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: B089217A-5C12-4C51-8E46-3A9243347B21
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CryptCATAdminAcquireContext2, CryptCATAdminAcquireContext2 function [Security], mscat/CryptCATAdminAcquireContext2, security.cryptcatadminacquirecontext2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptCATAdminAcquireContext2
-: 
 ---
 
 # CryptCATAdminAcquireContext2 function

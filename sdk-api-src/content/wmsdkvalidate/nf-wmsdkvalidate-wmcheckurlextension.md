@@ -7,7 +7,7 @@ old-location: wmformat\wmcheckurlextension.htm
 tech.root: wmformat
 ms.assetid: f001d9e7-ccbd-4dc9-bb4b-fe45cb47700c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WMCheckURLExtension, WMCheckURLExtension function [windows Media Format], wmformat.wmcheckurlextension, wmsdkvalidate/WMCheckURLExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WMCheckURLExtension
-: 
 ---
 
 # WMCheckURLExtension function

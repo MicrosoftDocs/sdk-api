@@ -7,7 +7,7 @@ old-location: qos\tcregisterclient.htm
 tech.root: QOS
 ms.assetid: 10bbc08d-4bfa-4a64-b5b8-b720d7bc3185
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TcRegisterClient, TcRegisterClient function [QOS], _gqos_tcregisterclient, qos.tcregisterclient, traffic/TcRegisterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TcRegisterClient
-: 
 ---
 
 # TcRegisterClient function

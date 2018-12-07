@@ -7,7 +7,7 @@ old-location: winrt\roclearerror.htm
 tech.root: WinRT
 ms.assetid: 082B26B2-3B17-45E3-8D4B-0E27777EDFF6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RoClearError, RoClearError function [Windows Runtime], roerrorapi/RoClearError, winrt.roclearerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RoClearError
-: 
 ---
 
 # RoClearError function

@@ -7,7 +7,7 @@ old-location: mstv\idvbsatellitedeliverysystemdescriptor_getmodulation.htm
 tech.root: mstv
 ms.assetid: 66578df9-35f7-4a2b-91ce-3f60cab16dd3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetModulation, GetModulation method [Microsoft TV Technologies], GetModulation method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetModulation method, IDvbSatelliteDeliverySystemDescriptor.GetModulation, IDvbSatelliteDeliverySystemDescriptor::GetModulation, IDvbSatelliteDeliverySystemDescriptorGetModulation, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetModulation, mstv.idvbsatellitedeliverysystemdescriptor_getmodulation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDvbSatelliteDeliverySystemDescriptor.GetModulation
-: 
 ---
 
 # IDvbSatelliteDeliverySystemDescriptor::GetModulation

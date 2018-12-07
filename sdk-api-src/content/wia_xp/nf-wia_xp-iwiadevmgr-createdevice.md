@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDevMgr_CreateDevice.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\createdevice.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateDevice, CreateDevice method [WIA], CreateDevice method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],CreateDevice method, IWiaDevMgr.CreateDevice, IWiaDevMgr::CreateDevice, _wia_IWiaDevMgr_CreateDevice, wia._wia_IWiaDevMgr_CreateDevice, wia_xp/IWiaDevMgr::CreateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wia_xp.h
-: 
-- IWiaDevMgr.CreateDevice
-: 
 ---
 
 # IWiaDevMgr::CreateDevice

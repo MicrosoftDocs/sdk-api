@@ -7,7 +7,7 @@ old-location: psapi\enumpagefiles.htm
 tech.root: psapi
 ms.assetid: 9289fe3c-a7d9-4acb-aeb6-a50de65db0a2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EnumPageFiles, EnumPageFiles function [PSAPI], EnumPageFilesA, EnumPageFilesW, K32EnumPageFiles, K32EnumPageFilesA, K32EnumPageFilesW, _win32_enumpagefiles, base.enumpagefiles, psapi.enumpagefiles, psapi/EnumPageFiles, psapi/EnumPageFilesA, psapi/EnumPageFilesW, psapi/K32EnumPageFiles, psapi/K32EnumPageFilesA, psapi/K32EnumPageFilesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,12 +52,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EnumPageFilesW
-: 
 ---
 
 # EnumPageFilesW function

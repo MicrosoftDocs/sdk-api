@@ -7,7 +7,7 @@ old-location: imapi\imultisession_get_inuse.htm
 tech.root: imapi
 ms.assetid: 35ebf336-0d67-422c-b6f7-2fd6ee3e7226
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMultisession interface [IMAPI],get_InUse method, IMultisession.get_InUse, IMultisession::get_InUse, get_InUse, get_InUse method [IMAPI], get_InUse method [IMAPI],IMultisession interface, imapi.imultisession_get_inuse, imapi2/IMultisession::get_InUse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IMultisession.get_InUse
-: 
 ---
 
 # IMultisession::get_InUse

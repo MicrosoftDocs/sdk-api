@@ -7,7 +7,7 @@ old-location: tsf\itfcontextkeyeventsink_onkeydown.htm
 tech.root: TSF
 ms.assetid: 684d3c01-fa95-4a19-b5fb-48a62315ce2f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfContextKeyEventSink interface [Text Services Framework],OnKeyDown method, ITfContextKeyEventSink.OnKeyDown, ITfContextKeyEventSink::OnKeyDown, OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework],ITfContextKeyEventSink interface, _tsf_itfcontextkeyeventsink_onkeydown_ref, msctf/ITfContextKeyEventSink::OnKeyDown, tsf.itfcontextkeyeventsink_onkeydown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfContextKeyEventSink.OnKeyDown
-: 
 ---
 
 # ITfContextKeyEventSink::OnKeyDown

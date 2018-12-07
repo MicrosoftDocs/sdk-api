@@ -7,7 +7,7 @@ old-location: shell\LongToUInt.htm
 tech.root: shell
 ms.assetid: 8a40e74e-9173-46a9-93ad-62eafb23c4d7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LongToUInt, LongToUInt function [Windows Shell], _shell_LongToUInt, intsafe/LongToUInt, shell.LongToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LongToUInt
-: 
 ---
 
 # LongToUInt function

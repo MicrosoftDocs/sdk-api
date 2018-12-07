@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorlog2.htm
 tech.root: dxmath
 ms.assetid: 92C911B4-5BC7-443D-BCBB-F4838E24E607
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorLog2, XMVectorLog2, XMVectorLog2 method [DirectX Math Support APIs], dxmath.xmvectorlog2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVectorLog2
-: 
 ---
 
 # XMVectorLog2 function

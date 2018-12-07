@@ -4,10 +4,10 @@ title: IEnumWorkItems::Clone
 author: windows-sdk-content
 description: Creates a new enumeration object that contains the same enumeration state as the current enumeration.
 old-location: taskschd\ienumworkitems_clone.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: c42550df-33ad-49cc-ab89-5f952cce2a83
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Task Scheduler], Clone method [Task Scheduler],IEnumWorkItems interface, IEnumWorkItems interface [Task Scheduler],Clone method, IEnumWorkItems.Clone, IEnumWorkItems::Clone, _msb_ienumworkitems_clone, mstask/IEnumWorkItems::Clone, taskschd.ienumworkitems_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IEnumWorkItems.Clone
-: 
 ---
 
 # IEnumWorkItems::Clone

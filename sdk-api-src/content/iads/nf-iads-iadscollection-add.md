@@ -4,10 +4,10 @@ title: IADsCollection::Add
 author: windows-sdk-content
 description: Adds a named item to the collection.
 old-location: adsi\iadscollection_add.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: c4f0dc3e-238c-4fd3-adb7-9d467efc8c3d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [ADSI], Add method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],Add method, IADsCollection.Add, IADsCollection::Add, _ds_iadscollection_add, adsi.iadscollection__add, adsi.iadscollection_add, iads/IADsCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsCollection.Add
-: 
 ---
 
 # IADsCollection::Add
@@ -71,14 +63,7 @@ The <b>IADsCollection::Add</b> method adds a named item to the collection.
 The <b>BSTR</b> value that specifies the item name.  <a href="https://msdn.microsoft.com/04b33451-505e-43de-8db4-3e37f9909ea6">IADsCollection::GetObject</a> and  <a href="https://msdn.microsoft.com/21ce80fe-542b-4350-b66c-fa26f62ca611">IADsCollection::Remove</a> reference the item by this name.
 
 
-### -param vItem
-
-TBD
-
-
-
-
-#### - varItem [in]
+### -param vItem [in]
 
 Item value. When the item is an object, this parameter holds the  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer on the object.
 

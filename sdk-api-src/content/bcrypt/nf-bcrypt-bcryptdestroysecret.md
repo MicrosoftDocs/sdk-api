@@ -7,7 +7,7 @@ old-location: security\bcryptdestroysecret.htm
 tech.root: seccng
 ms.assetid: 237743ff-ecb1-4c01-b4f9-192f27716f2c
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: BCryptDestroySecret, BCryptDestroySecret function [Security], bcrypt/BCryptDestroySecret, security.bcryptdestroysecret
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BCryptDestroySecret
-: 
 ---
 
 # BCryptDestroySecret function

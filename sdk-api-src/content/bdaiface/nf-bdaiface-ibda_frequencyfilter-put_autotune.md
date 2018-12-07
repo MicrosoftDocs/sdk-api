@@ -7,7 +7,7 @@ old-location: mstv\ibda_frequencyfilter_put_autotune.htm
 tech.root: mstv
 ms.assetid: e2ca03b8-fd22-4b8f-90a9-42a235b0a675
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Autotune method, IBDA_FrequencyFilter.put_Autotune, IBDA_FrequencyFilter::put_Autotune, IBDA_FrequencyFilterput_Autotune, bdaiface/IBDA_FrequencyFilter::put_Autotune, mstv.ibda_frequencyfilter_put_autotune, put_Autotune, put_Autotune method [Microsoft TV Technologies], put_Autotune method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdaiface.h
-: 
-- IBDA_FrequencyFilter.put_Autotune
-: 
 ---
 
 # IBDA_FrequencyFilter::put_Autotune

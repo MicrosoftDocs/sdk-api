@@ -4,10 +4,10 @@ title: ITAddressTranslation::get_Locations
 author: windows-sdk-content
 description: The get_Locations method creates a collection of currently available address locations. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateLocations method.
 old-location: tapi3\itaddresstranslation_get_locations.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: b18f7cb1-fcec-41eb-ac57-bf2d47f958e0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITAddressTranslation interface [TAPI 2.2],get_Locations method, ITAddressTranslation.get_Locations, ITAddressTranslation::get_Locations, _tapi3_itaddresstranslation_get_locations, get_Locations, get_Locations method [TAPI 2.2], get_Locations method [TAPI 2.2],ITAddressTranslation interface, tapi3.itaddresstranslation_get_locations, tapi3if/ITAddressTranslation::get_Locations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITAddressTranslation.get_Locations
-: 
 ---
 
 # ITAddressTranslation::get_Locations

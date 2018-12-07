@@ -1,22 +1,22 @@
 ---
 UID: NE:webservices.__unnamed_enum_8
-title: "__unnamed_enum_8"
+title: WS_VALUE_TYPE
 author: windows-sdk-content
-description: Defines failures related to certificate validation. Can be used with WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE to specify which certificate verification failures should be ignored.
-old-location: wsw\ws_cert_failure.htm
+description: The types of fixed-size primitives.
+old-location: wsw\ws_value_type.htm
 tech.root: wsw
-ms.assetid: e2324688-abf5-4b09-b236-502af8e1fcd1
+ms.assetid: 6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: WS_CERT_FAILURE, WS_CERT_FAILURE enumeration [Web Services for Windows], WS_CERT_FAILURE_CN_MISMATCH, WS_CERT_FAILURE_INVALID_DATE, WS_CERT_FAILURE_REVOCATION_OFFLINE, WS_CERT_FAILURE_UNTRUSTED_ROOT, WS_CERT_FAILURE_WRONG_USAGE, __unnamed_enum_8, webservices/WS_CERT_FAILURE, webservices/WS_CERT_FAILURE_CN_MISMATCH, webservices/WS_CERT_FAILURE_INVALID_DATE, webservices/WS_CERT_FAILURE_REVOCATION_OFFLINE, webservices/WS_CERT_FAILURE_UNTRUSTED_ROOT, webservices/WS_CERT_FAILURE_WRONG_USAGE, wsw.ws_cert_failure
+ms.date: 12/5/2018
+ms.keywords: WS_BOOL_VALUE_TYPE, WS_DATETIME_VALUE_TYPE, WS_DECIMAL_VALUE_TYPE, WS_DOUBLE_VALUE_TYPE, WS_DURATION_VALUE_TYPE, WS_FLOAT_VALUE_TYPE, WS_GUID_VALUE_TYPE, WS_INT16_VALUE_TYPE, WS_INT32_VALUE_TYPE, WS_INT64_VALUE_TYPE, WS_INT8_VALUE_TYPE, WS_TIMESPAN_VALUE_TYPE, WS_UINT16_VALUE_TYPE, WS_UINT32_VALUE_TYPE, WS_UINT64_VALUE_TYPE, WS_UINT8_VALUE_TYPE, WS_VALUE_TYPE, WS_VALUE_TYPE enumeration [Web Services for Windows], webservices/WS_BOOL_VALUE_TYPE, webservices/WS_DATETIME_VALUE_TYPE, webservices/WS_DECIMAL_VALUE_TYPE, webservices/WS_DOUBLE_VALUE_TYPE, webservices/WS_DURATION_VALUE_TYPE, webservices/WS_FLOAT_VALUE_TYPE, webservices/WS_GUID_VALUE_TYPE, webservices/WS_INT16_VALUE_TYPE, webservices/WS_INT32_VALUE_TYPE, webservices/WS_INT64_VALUE_TYPE, webservices/WS_INT8_VALUE_TYPE, webservices/WS_TIMESPAN_VALUE_TYPE, webservices/WS_UINT16_VALUE_TYPE, webservices/WS_UINT32_VALUE_TYPE, webservices/WS_UINT64_VALUE_TYPE, webservices/WS_UINT8_VALUE_TYPE, webservices/WS_VALUE_TYPE, wsw.ws_value_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: v.1.0
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -37,22 +37,21 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - WS_CERT_FAILURE
+ - WS_VALUE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: 
+req.typenames: WS_VALUE_TYPE
 req.redist: 
 ---
 
-# __unnamed_enum_8 enumeration
+# WS_VALUE_TYPE enumeration
 
 
 ## -description
 
 
-Defines failures related to certificate validation. Can be used with <a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE</a> to 
-                specify which certificate verification failures should be ignored.
-            
+The types of fixed-size primitives.
+      
 
 
 ## -enum-fields
@@ -60,43 +59,98 @@ Defines failures related to certificate validation. Can be used with <a href="ht
 
 
 
-### -field WS_CERT_FAILURE_CN_MISMATCH
+### -field WS_BOOL_VALUE_TYPE
 
-Failure due to a certificate that contains a common name that does not match the server name specified by the application.
-                    
-                    When used with <a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE</a>, this flag will suppress the <b>CERT_E_CN_NO_MATCH</b> error code. (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
-                
+Used to indicate a BOOL value.
+        
 
 
-### -field WS_CERT_FAILURE_INVALID_DATE
+### -field WS_INT8_VALUE_TYPE
 
-Failure due to an expired or not-yet-effective certificate.
-                    
-                    When used with <a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE</a>, this flag will suppress the <b>CERT_E_EXPIRED</b> error code.
-                
+Used to indicate a signed 8-bit integer.
+        
 
 
-### -field WS_CERT_FAILURE_UNTRUSTED_ROOT
+### -field WS_INT16_VALUE_TYPE
 
-Failure due to the root certificate of the certificate chain being untrusted.
-                    
-                    When used with <a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE</a>, this flag will suppress the <b>CERT_E_UNTRUSTEDROOT</b> error code.
-                
+Used to indicate a signed 16-bit integer.
+        
 
 
-### -field WS_CERT_FAILURE_WRONG_USAGE
+### -field WS_INT32_VALUE_TYPE
 
-Failure due to the server using a non-server certificate to establish its identity.
-                    
-                    When used with <a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE</a>, this flag will suppress the <b>CERT_E_WRONG_USAGE</b> error code.
-                
+Used to indicate a signed 32-bit integer.
+        
 
 
-### -field WS_CERT_FAILURE_REVOCATION_OFFLINE
+### -field WS_INT64_VALUE_TYPE
 
-Failure due to the certificate revocation server being offline.
-                    
-                    When used with <a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE</a>, this flag will cause the channel 
-                    to intercept the <b>CRYPT_E_REVOCATION_OFFLINE</b> error code and resend the request without certificate revocation checking.
-                
+Used to indicate a signed 64-bit integer.
+        
+
+
+### -field WS_UINT8_VALUE_TYPE
+
+Used to indicate an unsigned 8-bit integer.
+        
+
+
+### -field WS_UINT16_VALUE_TYPE
+
+Used to indicate an unsigned 16-bit integer.
+        
+
+
+### -field WS_UINT32_VALUE_TYPE
+
+Used to indicate an unsigned 32-bit integer.
+        
+
+
+### -field WS_UINT64_VALUE_TYPE
+
+Used to indicate an unsigned 64-bit integer.
+        
+
+
+### -field WS_FLOAT_VALUE_TYPE
+
+Used to indicate a 32-bit floating point value.
+        
+
+
+### -field WS_DOUBLE_VALUE_TYPE
+
+Used to indicate a 64-bit floating point value.
+        
+
+
+### -field WS_DECIMAL_VALUE_TYPE
+
+Used to indicate a 96-bit fixed point value.
+        
+
+
+### -field WS_DATETIME_VALUE_TYPE
+
+Used to indicate a date and time.
+        
+
+
+### -field WS_TIMESPAN_VALUE_TYPE
+
+Used to indicate a signed 64-bit time period in 100 nanosecond units.
+        
+
+
+### -field WS_GUID_VALUE_TYPE
+
+Used to indicate a GUID.
+        
+
+
+### -field WS_DURATION_VALUE_TYPE
+
+Used to indicate a <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a>.
+        
 

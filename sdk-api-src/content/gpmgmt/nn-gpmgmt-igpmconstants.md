@@ -4,10 +4,10 @@ title: IGPMConstants
 author: windows-sdk-content
 description: The IGPMConstants interface supports methods that retrieve the value of multiple Group Policy Management Console (GPMC) constants. To create a GPMConstants object, call the IGPM::GetConstants method.
 old-location: gpmc\igpmconstants.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: e9137167-4a2d-4cc4-940e-20f9991c4187
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPMConstants, IGPMConstants, IGPMConstants interface [GPMC], IGPMConstants interface [GPMC],described, _win32_igpmconstants, gpmc.igpmconstants, gpmgmt/IGPMConstants
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 3dbd072d-0b48-4ce9-80ec-67f4c3b74915
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetVersionNumber method, IDVB_EIT.GetVersionNumber, IDVB_EIT::GetVersionNumber, IDVB_EITGetVersionNumber, dvbsiparser/IDVB_EIT::GetVersionNumber, mstv.idvb_eit_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDVB_EIT.GetVersionNumber
-: 
 ---
 
 # IDVB_EIT::GetVersionNumber

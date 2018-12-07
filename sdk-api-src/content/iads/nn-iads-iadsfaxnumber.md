@@ -4,10 +4,10 @@ title: IADsFaxNumber
 author: windows-sdk-content
 description: The IADsFaxNumber interface provides methods for an ADSI client to access the Facsimile Telephone Number attribute.
 old-location: adsi\iadsfaxnumber.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 1c78bb35-dfa9-40f0-b3a4-db4a1c212cf7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsFaxNumber, IADsFaxNumber interface [ADSI], IADsFaxNumber interface [ADSI],described, _ds_iadsfaxnumber, adsi.iadsfaxnumber, iads/IADsFaxNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

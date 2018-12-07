@@ -4,10 +4,10 @@ title: IX509MachineEnrollmentFactory
 author: windows-sdk-content
 description: Can be used to create an IX509EnrollmentHelper object on a webpage.
 old-location: security\ix509machineenrollmentfactory.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 2f97fdd7-13ca-4427-8ec5-24302d245fdb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509MachineEnrollmentFactory, IX509MachineEnrollmentFactory interface [Security], IX509MachineEnrollmentFactory interface [Security],described, certenroll/IX509MachineEnrollmentFactory, security.ix509machineenrollmentfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

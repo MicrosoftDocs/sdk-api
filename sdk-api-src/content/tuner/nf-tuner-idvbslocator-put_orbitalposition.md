@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator_put_orbitalposition.htm
 tech.root: mstv
 ms.assetid: 2de4d67c-5d99-47c2-99bf-e4f40c6247a5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_OrbitalPosition method, IDVBSLocator.put_OrbitalPosition, IDVBSLocator::put_OrbitalPosition, IDVBSLocatorput_OrbitalPosition, mstv.idvbslocator_put_orbitalposition, put_OrbitalPosition, put_OrbitalPosition method [Microsoft TV Technologies], put_OrbitalPosition method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_OrbitalPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IDVBSLocator.put_OrbitalPosition
-: 
 ---
 
 # IDVBSLocator::put_OrbitalPosition

@@ -7,7 +7,7 @@ old-location: psapi\getmodulebasename.htm
 tech.root: psapi
 ms.assetid: 31a9eb69-95f0-4dd7-8fd5-296f2cff0b8a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetModuleBaseName, GetModuleBaseName function [PSAPI], GetModuleBaseNameA, GetModuleBaseNameW, K32GetModuleBaseName, K32GetModuleBaseNameA, K32GetModuleBaseNameW, _win32_getmodulebasename, base.getmodulebasename, psapi.getmodulebasename, psapi/GetModuleBaseName, psapi/GetModuleBaseNameA, psapi/GetModuleBaseNameW, psapi/K32GetModuleBaseName, psapi/K32GetModuleBaseNameA, psapi/K32GetModuleBaseNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,12 +53,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetModuleBaseNameW
-: 
 ---
 
 # GetModuleBaseNameW function

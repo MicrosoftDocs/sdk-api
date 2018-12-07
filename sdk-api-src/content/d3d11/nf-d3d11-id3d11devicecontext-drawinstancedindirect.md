@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_drawinstancedindirect.htm
 tech.root: direct3d11
 ms.assetid: f40c662d-7cdc-4592-b8d5-72aad0b4dd53
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 2014c761-6e9c-961c-13a0-087ea9f94a6a, DrawInstancedIndirect, DrawInstancedIndirect method [Direct3D 11], DrawInstancedIndirect method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawInstancedIndirect method, ID3D11DeviceContext.DrawInstancedIndirect, ID3D11DeviceContext::DrawInstancedIndirect, d3d11/ID3D11DeviceContext::DrawInstancedIndirect, direct3d11.id3d11devicecontext_drawinstancedindirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11DeviceContext.DrawInstancedIndirect
-: 
 ---
 
 # ID3D11DeviceContext::DrawInstancedIndirect

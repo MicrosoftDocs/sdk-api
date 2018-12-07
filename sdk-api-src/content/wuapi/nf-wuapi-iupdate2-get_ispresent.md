@@ -4,10 +4,10 @@ title: IUpdate2::get_IsPresent
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is present on a computer.
 old-location: wua\iupdate2_ispresent.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: de378d24-aba9-44c2-9c49-fbd1b2fc2446
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdate2 interface [Windows Update Agent],IsPresent property, IUpdate2.IsPresent, IUpdate2.get_IsPresent, IUpdate2::IsPresent, IUpdate2::get_IsPresent, IsPresent property [Windows Update Agent], IsPresent property [Windows Update Agent],IUpdate2 interface, get_IsPresent, wua.iupdate2_ispresent, wuapi/IUpdate2::IsPresent, wuapi/IUpdate2::get_IsPresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdate2.get_IsPresent
-: 
 ---
 
 # IUpdate2::get_IsPresent

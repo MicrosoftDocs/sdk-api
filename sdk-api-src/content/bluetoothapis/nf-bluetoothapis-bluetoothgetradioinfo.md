@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothgetradioinfo.htm
 tech.root: Bluetooth
 ms.assetid: 0c596f49-70f9-4a58-842c-e01dcf69bd01
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: BluetoothGetRadioInfo, BluetoothGetRadioInfo function [Bluetooth], bluetooth.bluetoothgetradioinfo, bluetoothapis/BluetoothGetRadioInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BluetoothGetRadioInfo
-: 
 ---
 
 # BluetoothGetRadioInfo function

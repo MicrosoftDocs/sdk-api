@@ -7,7 +7,7 @@ old-location: wds\iwdstransportcontent_name.htm
 tech.root: wds
 ms.assetid: 24178dca-58b6-463a-adf0-40b5aa0446fc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Name property, IWdsTransportContent.Name, IWdsTransportContent.get_Name, IWdsTransportContent::Name, IWdsTransportContent::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportContent interface, get_Name, wds.iwdstransportcontent_name, wdstptmgmt/IWdsTransportContent::Name, wdstptmgmt/IWdsTransportContent::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportContent.get_Name
-: 
 ---
 
 # IWdsTransportContent::get_Name

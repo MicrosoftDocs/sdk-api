@@ -4,10 +4,10 @@ title: sendto function
 author: windows-sdk-content
 description: The sendto function sends data to a specific destination.
 old-location: winsock\sendto_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: a1c89c6b-d11d-4d3e-a664-af2beed0cd09
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_sendto_2, sendto, sendto function [Winsock], winsock.sendto_2, winsock/sendto"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- sendto
-: 
 ---
 
 # sendto function

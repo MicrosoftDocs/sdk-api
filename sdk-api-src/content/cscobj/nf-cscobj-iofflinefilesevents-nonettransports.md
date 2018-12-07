@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::NoNetTransports
 author: windows-sdk-content
 description: Reports that the Offline Files feature has detected that no network transports are available.
 old-location: of\iofflinefilesevents_nonettransports.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 4970acd4-b99d-4d7a-a0bc-04c10a4423b8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],NoNetTransports method, IOfflineFilesEvents.NoNetTransports, IOfflineFilesEvents::NoNetTransports, NoNetTransports, NoNetTransports method [Offline Files], NoNetTransports method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::NoNetTransports, of.iofflinefilesevents_nonettransports
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesEvents.NoNetTransports
-: 
 ---
 
 # IOfflineFilesEvents::NoNetTransports

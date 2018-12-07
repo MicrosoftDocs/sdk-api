@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_discountratestartm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2d7p.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DiscountRateStartMinute property [Fax Service], DiscountRateStartMinute property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],DiscountRateStartMinute property, IFaxServer.DiscountRateStartMinute, IFaxServer.get_DiscountRateStartMinute, IFaxServer.put_DiscountRateStartMinute, IFaxServer::DiscountRateStartMinute, IFaxServer::get_DiscountRateStartMinute, IFaxServer::put_DiscountRateStartMinute, _mfax_ifaxserver_get_discountratestartminute, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_discountratestartminute_cpp, fax._mfax_ifaxserver_get_discountratestartminute, faxcom/IFaxServer::DiscountRateStartMinute, faxcom/IFaxServer::get_DiscountRateStartMinute, faxcom/IFaxServer::put_DiscountRateStartMinute, put_DiscountRateStartMinute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcom.h
-: 
-- IFaxServer.put_DiscountRateStartMinute
-: 
 ---
 
 # IFaxServer::put_DiscountRateStartMinute

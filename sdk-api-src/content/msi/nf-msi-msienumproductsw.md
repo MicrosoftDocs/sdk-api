@@ -4,10 +4,10 @@ title: MsiEnumProductsW function
 author: windows-sdk-content
 description: The MsiEnumProducts function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine installation context and advertisements are enumerated.
 old-location: setup\msienumproducts.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: c05ddc32-2c61-49ab-991f-8f9efae331a4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MsiEnumProducts, MsiEnumProducts function, MsiEnumProductsA, MsiEnumProductsW, _msi_msienumproducts, msi/MsiEnumProducts, msi/MsiEnumProductsA, msi/MsiEnumProductsW, setup.msienumproducts
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiEnumProductsW
-: 
 ---
 
 # MsiEnumProductsW function

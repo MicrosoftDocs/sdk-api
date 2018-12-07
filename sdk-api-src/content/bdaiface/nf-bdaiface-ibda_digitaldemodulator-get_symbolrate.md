@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator_get_symbolrate.htm
 tech.root: mstv
 ms.assetid: d3640389-2533-4e6f-bc3e-7dceef76866b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_SymbolRate method, IBDA_DigitalDemodulator.get_SymbolRate, IBDA_DigitalDemodulator::get_SymbolRate, IBDA_DigitalDemodulatorget_SymbolRate, bdaiface/IBDA_DigitalDemodulator::get_SymbolRate, get_SymbolRate, get_SymbolRate method [Microsoft TV Technologies], get_SymbolRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_symbolrate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdaiface.h
-: 
-- IBDA_DigitalDemodulator.get_SymbolRate
-: 
 ---
 
 # IBDA_DigitalDemodulator::get_SymbolRate

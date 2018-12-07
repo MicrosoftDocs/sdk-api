@@ -7,7 +7,7 @@ old-location: mstv\ibroadcastevent.htm
 tech.root: mstv
 ms.assetid: 90d4fbc7-d552-460b-96b2-77e2347af716
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBroadcastEvent, IBroadcastEvent interface [Microsoft TV Technologies], IBroadcastEvent interface [Microsoft TV Technologies],described, IBroadcastEventInterface, mstv.ibroadcastevent, tuner/IBroadcastEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

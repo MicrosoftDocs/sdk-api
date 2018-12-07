@@ -4,10 +4,10 @@ title: IUPnPDevice::get_Services
 author: windows-sdk-content
 description: The Services property specifies the list of services provided by the device.
 old-location: upnp\iupnpdevice_services.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 3b854a5a-a0a9-4236-83c1-98b3671bfc74
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_Services method, IUPnPDevice.get_Services, IUPnPDevice::get_Services, _upnp_iupnpdevice_services, get_Services, get_Services method [UPnP APIs], get_Services method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_services, upnp/IUPnPDevice::get_Services
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDevice.get_Services
-: 
 ---
 
 # IUPnPDevice::get_Services

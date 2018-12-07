@@ -4,10 +4,10 @@ title: IX509CertificateTemplates
 author: windows-sdk-content
 description: The IX509CertificateTemplates interface defines the following methods and properties that manage a collection of IX509CertificateTemplate objects.
 old-location: security\ix509certificatetemplates.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 82d14b93-e07b-4ff3-88b9-b1873972b4ad
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509CertificateTemplates, IX509CertificateTemplates interface [Security], IX509CertificateTemplates interface [Security],described, certenroll/IX509CertificateTemplates, security.ix509certificatetemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices

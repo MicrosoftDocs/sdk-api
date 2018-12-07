@@ -4,10 +4,10 @@ title: IVdsLun::GetIdentificationData
 author: windows-sdk-content
 description: Returns data from the SCSI Inquiry Data and Vital Product Data pages 0x80 and 0x83.
 old-location: base\ivdslun_getidentificationdata.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: ab72cbe0-d10d-49af-87a0-4da28f79b124
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetIdentificationData, GetIdentificationData method [VDS], GetIdentificationData method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetIdentificationData method, IVdsLun.GetIdentificationData, IVdsLun::GetIdentificationData, base.ivdslun_getidentificationdata, vds/IVdsLun::GetIdentificationData, vdshwprv/IVdsLun::GetIdentificationData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsLun.GetIdentificationData
-: 
 ---
 
 # IVdsLun::GetIdentificationData

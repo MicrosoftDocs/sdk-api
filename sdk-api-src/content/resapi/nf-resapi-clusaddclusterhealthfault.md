@@ -4,10 +4,10 @@ title: ClusAddClusterHealthFault function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusaddclusterhealthfault.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 7240e9c9-a362-4de8-b0bd-aeadf53eb111
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ClusAddClusterHealthFault, ClusAddClusterHealthFault function [Failover Cluster], mscs.clusaddclusterhealthfault, resapi/ClusAddClusterHealthFault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,12 +41,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusAddClusterHealthFault
-: 
 ---
 
 # ClusAddClusterHealthFault function

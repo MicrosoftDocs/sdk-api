@@ -7,7 +7,7 @@ old-location: winrt\rooriginatelanguageexception.htm
 tech.root: WinRT
 ms.assetid: 573A9209-31EF-4FD4-A504-16795BA42337
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RoOriginateLanguageException, RoOriginateLanguageException function [Windows Runtime], roerrorapi/RoOriginateLanguageException, winrt.rooriginatelanguageexception
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RoOriginateLanguageException
-: 
 ---
 
 # RoOriginateLanguageException function

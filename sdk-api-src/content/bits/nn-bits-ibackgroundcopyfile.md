@@ -4,10 +4,10 @@ title: IBackgroundCopyFile
 author: windows-sdk-content
 description: IBackgroundCopyFile contains information about a file that is part of a job. For example, you can use IBackgroundCopyFile methods to retrieve the local and remote names of the file and transfer progress information.
 old-location: bits\ibackgroundcopyfile.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: fae9cf56-c211-445b-b962-9a9d7d67c59c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyFile, IBackgroundCopyFile interface [BITS], IBackgroundCopyFile interface [BITS],described, _drz_ibackgroundcopyfile, bits.ibackgroundcopyfile, bits/IBackgroundCopyFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

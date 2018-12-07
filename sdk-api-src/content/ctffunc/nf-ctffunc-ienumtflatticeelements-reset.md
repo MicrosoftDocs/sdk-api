@@ -7,7 +7,7 @@ old-location: tsf\ienumtflatticeelements_reset.htm
 tech.root: TSF
 ms.assetid: 9b4b7479-33e9-4bff-8e18-f4e03060dc73
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Reset method, IEnumTfLatticeElements.Reset, IEnumTfLatticeElements::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_reset_ref, ctffunc/IEnumTfLatticeElements::Reset, tsf.ienumtflatticeelements_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctffunc.h
-: 
-- IEnumTfLatticeElements.Reset
-: 
 ---
 
 # IEnumTfLatticeElements::Reset

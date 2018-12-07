@@ -7,7 +7,7 @@ old-location: rm\drmduplicateenvironmenthandle.htm
 tech.root: AdRms_Sdk
 ms.assetid: 6e246181-1d93-49b4-bc3f-e54083d4cad2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMDuplicateEnvironmentHandle, DRMDuplicateEnvironmentHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicateEnvironmentHandle, rm.drmduplicateenvironmenthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DRMDuplicateEnvironmentHandle
-: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

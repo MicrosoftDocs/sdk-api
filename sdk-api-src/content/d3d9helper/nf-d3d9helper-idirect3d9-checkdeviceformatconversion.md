@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__checkdeviceformatconversion.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdeviceformatconversion.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CheckDeviceFormatConversion, CheckDeviceFormatConversion method [Direct3D 9], CheckDeviceFormatConversion method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceFormatConversion method, IDirect3D9.CheckDeviceFormatConversion, IDirect3D9::CheckDeviceFormatConversion, a6fe9dd6-8eae-cbfc-8047-efc7175e6688, d3d9helper/IDirect3D9::CheckDeviceFormatConversion, direct3d9.idirect3d9__checkdeviceformatconversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d9helper.h
-: 
-- IDirect3D9.CheckDeviceFormatConversion
-: 
 ---
 
 # IDirect3D9::CheckDeviceFormatConversion

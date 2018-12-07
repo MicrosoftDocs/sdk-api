@@ -7,7 +7,7 @@ old-location: shell\PathCchAppend.htm
 tech.root: shell
 ms.assetid: b64884ad-15c7-495e-8037-34daf68f8cf7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PathCchAppend, PathCchAppend function [Windows Shell], pathcch/PathCchAppend, shell.PathCchAppend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PathCchAppend
-: 
 ---
 
 # PathCchAppend function

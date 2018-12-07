@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout
 author: windows-sdk-content
 description: The get_AutoEndOfNumberTimeout method retrieves the current value of the AutoEndOfNumberTimeout property. The property specifies how long to wait after a digit has been pressed before it is assumed that the entire number has been gathered.
 old-location: tapi3\itautomatedphonecontrol_get_autoendofnumbertimeout.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: c5bc3176-7237-4c20-808a-b2d028ae4344
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoEndOfNumberTimeout method, ITAutomatedPhoneControl.get_AutoEndOfNumberTimeout, ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout, _tapi3_itautomatedphonecontrol_get_autoendofnumbertimeout, get_AutoEndOfNumberTimeout, get_AutoEndOfNumberTimeout method [TAPI 2.2], get_AutoEndOfNumberTimeout method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autoendofnumbertimeout, tapi3if/ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITAutomatedPhoneControl.get_AutoEndOfNumberTimeout
-: 
 ---
 
 # ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout

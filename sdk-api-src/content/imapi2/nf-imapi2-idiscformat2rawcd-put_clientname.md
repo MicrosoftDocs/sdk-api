@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcd_put_clientname.htm
 tech.root: imapi
 ms.assetid: 49fce259-2b39-4905-a48f-a252537d8360
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],put_ClientName method, IDiscFormat2RawCD.put_ClientName, IDiscFormat2RawCD::put_ClientName, imapi.idiscformat2rawcd_put_clientname, imapi2/IDiscFormat2RawCD::put_ClientName, put_ClientName, put_ClientName method [IMAPI], put_ClientName method [IMAPI],IDiscFormat2RawCD interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscFormat2RawCD.put_ClientName
-: 
 ---
 
 # IDiscFormat2RawCD::put_ClientName

@@ -4,10 +4,10 @@ title: IColumnData::GetColumnSortData
 author: windows-sdk-content
 description: The IColumnData::GetColumnSortData method enables a snap-in to retrieve from memory the sorted column and sorting direction for columns in a column set.
 old-location: mmc\icolumndata_getcolumnsortdata.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: cbcc5e61-994e-46e2-b227-398b79cbc557
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetColumnSortData, GetColumnSortData method [MMC], GetColumnSortData method [MMC],IColumnData interface, IColumnData interface [MMC],GetColumnSortData method, IColumnData.GetColumnSortData, IColumnData::GetColumnSortData, _slate_icolumndata_getcolumnsortdata, mmc.icolumndata_getcolumnsortdata, mmc/IColumnData::GetColumnSortData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IColumnData.GetColumnSortData
-: 
 ---
 
 # IColumnData::GetColumnSortData

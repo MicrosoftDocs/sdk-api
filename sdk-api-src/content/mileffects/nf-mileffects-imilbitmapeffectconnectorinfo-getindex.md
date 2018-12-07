@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getindex.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getindex.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetIndex, GetIndex method [WPF Bitmap Effects], GetIndex method [WPF Bitmap Effects],IMILBitmapEffectConnectorInfo interface, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],GetIndex method, IMILBitmapEffectConnectorInfo.GetIndex, IMILBitmapEffectConnectorInfo::GetIndex, _wibe_imilbitmapeffectconnectorinfo_getindex, mileffects/IMILBitmapEffectConnectorInfo::GetIndex, wibe._wibe_imilbitmapeffectconnectorinfo_getindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
-- apiref
-: 
-- COM
-: 
-- mileffects.h
-: 
-- IMILBitmapEffectConnectorInfo.GetIndex
-: 
 ---
 
 # IMILBitmapEffectConnectorInfo::GetIndex

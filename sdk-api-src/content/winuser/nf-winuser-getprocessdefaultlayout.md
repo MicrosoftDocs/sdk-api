@@ -7,7 +7,7 @@ old-location: winmsg\getprocessdefaultlayout.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getprocessdefaultlayout.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetProcessDefaultLayout, GetProcessDefaultLayout function [Windows and Messages], _win32_GetProcessDefaultLayout, _win32_getprocessdefaultlayout_cpp, winmsg.getprocessdefaultlayout, winui._win32_getprocessdefaultlayout, winuser/GetProcessDefaultLayout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetProcessDefaultLayout
-: 
 ---
 
 # GetProcessDefaultLayout function

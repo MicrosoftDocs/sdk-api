@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface1_hasverticalglyphvariants.htm
 tech.root: DirectWrite
 ms.assetid: 694F003E-4189-4DC6-ADC8-B94EE8C624BE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HasVerticalGlyphVariants, HasVerticalGlyphVariants method [Direct Write], HasVerticalGlyphVariants method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],HasVerticalGlyphVariants method, IDWriteFontFace1.HasVerticalGlyphVariants, IDWriteFontFace1::HasVerticalGlyphVariants, directwrite.idwritefontface1_hasverticalglyphvariants, dwrite_1/IDWriteFontFace1::HasVerticalGlyphVariants
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_1.h
-: 
-- IDWriteFontFace1.HasVerticalGlyphVariants
-: 
 ---
 
 # IDWriteFontFace1::HasVerticalGlyphVariants

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidebug1_disableleaktrackingforthread.htm
 tech.root: direct3ddxgi
 ms.assetid: 5A96849C-D2DB-49F2-AEE9-CDC63F970077
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DisableLeakTrackingForThread, DisableLeakTrackingForThread method [DXGI], DisableLeakTrackingForThread method [DXGI],IDXGIDebug1 interface, IDXGIDebug1 interface [DXGI],DisableLeakTrackingForThread method, IDXGIDebug1.DisableLeakTrackingForThread, IDXGIDebug1::DisableLeakTrackingForThread, direct3ddxgi.idxgidebug1_disableleaktrackingforthread, dxgidebug/IDXGIDebug1::DisableLeakTrackingForThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxgidebug.h
-: 
-- IDXGIDebug1.DisableLeakTrackingForThread
-: 
 ---
 
 # IDXGIDebug1::DisableLeakTrackingForThread

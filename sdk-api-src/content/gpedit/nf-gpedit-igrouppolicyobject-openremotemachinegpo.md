@@ -4,10 +4,10 @@ title: IGroupPolicyObject::OpenRemoteMachineGPO
 author: windows-sdk-content
 description: The OpenRemoteMachineGPO method opens the default GPO for the specified remote computer and optionally loads the registry information.
 old-location: policy\igrouppolicyobject_openremotemachinegpo.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: ac124b48-7eb6-473b-a96b-de9b1a903f28
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject interface [Group Policy],OpenRemoteMachineGPO method, IGroupPolicyObject.OpenRemoteMachineGPO, IGroupPolicyObject::OpenRemoteMachineGPO, OpenRemoteMachineGPO, OpenRemoteMachineGPO method [Group Policy], OpenRemoteMachineGPO method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_openremotemachinegpo, gpedit/IGroupPolicyObject::OpenRemoteMachineGPO, policy.igrouppolicyobject_openremotemachinegpo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpedit.h
-: 
-- IGroupPolicyObject.OpenRemoteMachineGPO
-: 
 ---
 
 # IGroupPolicyObject::OpenRemoteMachineGPO

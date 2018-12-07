@@ -4,10 +4,10 @@ title: SymSrvIsStore function
 author: windows-sdk-content
 description: Determines whether the specified path points to a symbol store.
 old-location: base\symsrvisstore.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 7fbec886-c1b7-4d17-9813-af7812b4abb9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SymSrvIsStore, SymSrvIsStore function, SymSrvIsStoreW, base.symsrvisstore, dbghelp/SymSrvIsStore, dbghelp/SymSrvIsStoreW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later
-- apiref
-: 
-- 
-: 
-- SymSrvIsStore
-: 
 ---
 
 # SymSrvIsStore function

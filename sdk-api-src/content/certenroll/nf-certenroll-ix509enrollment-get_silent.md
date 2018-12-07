@@ -4,10 +4,10 @@ title: IX509Enrollment::get_Silent
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether a user interface is displayed during the certificate enrollment process.
 old-location: security\ix509enrollment_silent_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: bd1f1e73-0c49-4a2f-9b29-8520da8e1d4b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509Enrollment interface [Security],Silent property, IX509Enrollment.Silent, IX509Enrollment.get_Silent, IX509Enrollment::Silent, IX509Enrollment::get_Silent, IX509Enrollment::put_Silent, Silent property [Security], Silent property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Silent, certenroll/IX509Enrollment::get_Silent, certenroll/IX509Enrollment::put_Silent, get_Silent, security.ix509enrollment_silent_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509Enrollment.get_Silent
-: 
 ---
 
 # IX509Enrollment::get_Silent

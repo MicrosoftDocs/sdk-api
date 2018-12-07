@@ -4,10 +4,10 @@ title: ITACDGroupEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the descriptor of an event which indicates that a new ACD group has been added.
 old-location: tapi3\itacdgroupevent_get_event.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 9bc67911-cfb6-450c-bdc6-ade8d4617271
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITACDGroupEvent interface [TAPI 2.2],get_Event method, ITACDGroupEvent.get_Event, ITACDGroupEvent::get_Event, _tapi3_itacdgroupevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITACDGroupEvent interface, tapi3.itacdgroupevent_get_event, tapi3cc/ITACDGroupEvent::get_Event
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3cc.h
-: 
-- ITACDGroupEvent.get_Event
-: 
 ---
 
 # ITACDGroupEvent::get_Event

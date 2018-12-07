@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilatlongreport_getlongitude.htm
 tech.root: locationapi
 ms.assetid: 77fa407b-109c-45aa-bbdb-0b8a40d222e5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetLongitude, GetLongitude method [WinLocation], GetLongitude method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetLongitude method, ILatLongReport.GetLongitude, ILatLongReport::GetLongitude, WinLocation_COM_Ref.ilatlongreport_getlongitude, locationapi/ILatLongReport::GetLongitude
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- locationapi.h
-: 
-- ILatLongReport.GetLongitude
-: 
 ---
 
 # ILatLongReport::GetLongitude

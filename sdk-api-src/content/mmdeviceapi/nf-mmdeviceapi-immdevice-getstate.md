@@ -7,7 +7,7 @@ old-location: coreaudio\immdevice_getstate.htm
 tech.root: CoreAudio
 ms.assetid: 9b50773b-241c-4a32-8ab6-85adb3f885e1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetState, GetState method [Core Audio], GetState method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],GetState method, IMMDevice.GetState, IMMDevice::GetState, IMMDeviceGetState, coreaudio.immdevice_getstate, mmdeviceapi/IMMDevice::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmdeviceapi.h
-: 
-- IMMDevice.GetState
-: 
 ---
 
 # IMMDevice::GetState

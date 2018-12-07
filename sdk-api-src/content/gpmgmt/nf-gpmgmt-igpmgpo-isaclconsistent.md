@@ -4,10 +4,10 @@ title: IGPMGPO::IsACLConsistent
 author: windows-sdk-content
 description: Checks for the consistency of ACLs between the Directory Service and the system volume folder (SysVol).
 old-location: gpmc\igpmgpo_isaclconsistent.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 4a4f2d87-bfaa-453a-9dbe-de19ba1d1953
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPMGPO class [GPMC],IsACLConsistent method, IGPMGPO interface [GPMC],IsACLConsistent method, IGPMGPO.IsACLConsistent, IGPMGPO::IsACLConsistent, IsACLConsistent, IsACLConsistent method [GPMC], IsACLConsistent method [GPMC],GPMGPO class, IsACLConsistent method [GPMC],IGPMGPO interface, _win32_igpmgpo_isaclconsistent, gpmc.igpmgpo_isaclconsistent, gpmgmt/IGPMGPO::IsACLConsistent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMGPO.IsACLConsistent
-: 
 ---
 
 # IGPMGPO::IsACLConsistent

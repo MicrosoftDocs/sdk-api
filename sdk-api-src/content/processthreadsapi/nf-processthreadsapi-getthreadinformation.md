@@ -4,10 +4,10 @@ title: GetThreadInformation function
 author: windows-sdk-content
 description: Retrieves information about the specified thread.
 old-location: base\getthreadinformation.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: b7996647-78ab-4f32-bcf6-41aa87d13bb8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetThreadInformation, GetThreadInformation function, base.getthreadinformation, processthreadsapi/GetThreadInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetThreadInformation
-: 
 ---
 
 # GetThreadInformation function

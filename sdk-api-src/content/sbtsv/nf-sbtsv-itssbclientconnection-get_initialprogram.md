@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_initialprogram.htm
 tech.root: termserv
 ms.assetid: 8734b130-f1fd-4107-b0cc-482b78647ac7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],InitialProgram property, ITsSbClientConnection.InitialProgram, ITsSbClientConnection.get_InitialProgram, ITsSbClientConnection::InitialProgram, ITsSbClientConnection::get_InitialProgram, InitialProgram property [Remote Desktop Services], InitialProgram property [Remote Desktop Services],ITsSbClientConnection interface, get_InitialProgram, sbtsv/ITsSbClientConnection::InitialProgram, sbtsv/ITsSbClientConnection::get_InitialProgram, termserv.itssbclientconnection_initialprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbtsv.h
-: 
-- ITsSbClientConnection.get_InitialProgram
-: 
 ---
 
 # ITsSbClientConnection::get_InitialProgram

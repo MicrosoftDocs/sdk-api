@@ -7,7 +7,7 @@ old-location: shell\IntPtrAdd.htm
 tech.root: shell
 ms.assetid: eceb36c4-287c-48e6-ad7d-0abf3d0a3893
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IntPtrAdd, IntPtrAdd function [Windows Shell], intsafe/IntPtrAdd, shell.IntPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IntPtrAdd
-: 
 ---
 
 # IntPtrAdd function

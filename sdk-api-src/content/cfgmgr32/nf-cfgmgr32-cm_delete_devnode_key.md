@@ -7,7 +7,7 @@ old-location: devinst\cm_delete_devnode_key.htm
 tech.root: devinst
 ms.assetid: a2b6faf3-bd24-416a-b7ea-1ef1b48f965b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Delete_DevNode_Key, CM_Delete_DevNode_Key function [Device and Driver Installation], cfgmgr32/CM_Delete_DevNode_Key, cfgmgrfn_20a14360-4506-465d-bb5c-79116c3bc78f.xml, devinst.cm_delete_devnode_key
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Delete_DevNode_Key
-: 
 ---
 
 # CM_Delete_DevNode_Key function

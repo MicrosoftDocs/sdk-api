@@ -7,7 +7,7 @@ old-location: devinst\cm_free_res_des.htm
 tech.root: devinst
 ms.assetid: baef66ed-11a9-4a54-ba07-82159a9101e7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Free_Res_Des, CM_Free_Res_Des function [Device and Driver Installation], cfgmgr32/CM_Free_Res_Des, cfgmgrfn_57d3d070-5730-4c20-a558-a52855e4d1e1.xml, devinst.cm_free_res_des
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Free_Res_Des
-: 
 ---
 
 # CM_Free_Res_Des function

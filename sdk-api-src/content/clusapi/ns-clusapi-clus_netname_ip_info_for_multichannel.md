@@ -4,10 +4,10 @@ title: CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
 author: windows-sdk-content
 description: Represents IP information for a NetName resource that has Multichannel enabled.
 old-location: mscs\clus_netname_ip_info_for_multichannel.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 724FD774-00F4-4617-B761-87509AD61AF4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL structure [Failover Cluster], PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, clusapi/PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, mscs.clus_netname_ip_info_for_multichannel"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onoutgoingarchiveconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingarchiveconfigchange.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutgoingArchiveConfigChange method, IFaxServerNotify2.OnOutgoingArchiveConfigChange, IFaxServerNotify2::OnOutgoingArchiveConfigChange, OnOutgoingArchiveConfigChange, OnOutgoingArchiveConfigChange method [Fax Service], OnOutgoingArchiveConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutgoingArchiveConfigChange, _IFaxServerNotify2::OnOutgoingArchiveConfigChange, _mfax_ifaxservernotify2_onoutgoingarchiveconfigchange, fax._mfax_ifaxservernotify2_onoutgoingarchiveconfigchange, faxcomex/IFaxServerNotify2::OnOutgoingArchiveConfigChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- _IFaxServerNotify2.OnOutgoingArchiveConfigChange
-: 
 ---
 
 # _IFaxServerNotify2::OnOutgoingArchiveConfigChange

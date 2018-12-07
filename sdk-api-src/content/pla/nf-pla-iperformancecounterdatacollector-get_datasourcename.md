@@ -4,10 +4,10 @@ title: IPerformanceCounterDataCollector::get_DataSourceName
 author: windows-sdk-content
 description: Retrieves or sets the data source name if the log file is an SQL log file.
 old-location: pla\iperformancecounterdatacollector_datasourcename.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 67ed9ce6-392b-42ac-81f8-b5f26241c0a8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DataSourceName property [PLA], DataSourceName property [PLA],IPerformanceCounterDataCollector interface, IPerformanceCounterDataCollector interface [PLA],DataSourceName property, IPerformanceCounterDataCollector.DataSourceName, IPerformanceCounterDataCollector.get_DataSourceName, IPerformanceCounterDataCollector::DataSourceName, IPerformanceCounterDataCollector::get_DataSourceName, IPerformanceCounterDataCollector::put_DataSourceName, base.iperformancecounterdatacollector_datasourcename, get_DataSourceName, pla.iperformancecounterdatacollector_datasourcename, pla/IPerformanceCounterDataCollector::DataSourceName, pla/IPerformanceCounterDataCollector::get_DataSourceName, pla/IPerformanceCounterDataCollector::put_DataSourceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IPerformanceCounterDataCollector.get_DataSourceName
-: 
 ---
 
 # IPerformanceCounterDataCollector::get_DataSourceName

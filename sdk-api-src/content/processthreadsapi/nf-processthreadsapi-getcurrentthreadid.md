@@ -4,10 +4,10 @@ title: GetCurrentThreadId function
 author: windows-sdk-content
 description: Retrieves the thread identifier of the calling thread.
 old-location: base\getcurrentthreadid.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: a496f61a-e027-44e7-8b22-4f6651d7afb2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurrentThreadId, GetCurrentThreadId function, _win32_getcurrentthreadid, base.getcurrentthreadid, processthreadsapi/GetCurrentThreadId, winbase/GetCurrentThreadId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetCurrentThreadId
-: 
 ---
 
 # GetCurrentThreadId function

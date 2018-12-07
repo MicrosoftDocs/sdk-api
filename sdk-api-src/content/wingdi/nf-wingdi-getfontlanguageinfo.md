@@ -7,7 +7,7 @@ old-location: gdi\getfontlanguageinfo.htm
 tech.root: gdi
 ms.assetid: c2f19423-4410-44dd-83f1-5b858852051d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetFontLanguageInfo, GetFontLanguageInfo function [Windows GDI], _win32_GetFontLanguageInfo, gdi.getfontlanguageinfo, wingdi/GetFontLanguageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetFontLanguageInfo
-: 
 ---
 
 # GetFontLanguageInfo function

@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::GetFileCounts
 author: windows-sdk-content
 description: The GetFileCounts method obtains excluded files and the number of components that a writer manages.
 old-location: base\ivssexaminewritermetadata_getfilecounts.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 7c1f1e9d-3154-4e03-a7dd-69b9f505dbb2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetFileCounts, GetFileCounts method [VSS], GetFileCounts method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetFileCounts method, IVssExamineWriterMetadata.GetFileCounts, IVssExamineWriterMetadata::GetFileCounts, _win32_ivssexaminewritermetadata_getfilecounts, base.ivssexaminewritermetadata_getfilecounts, vsbackup/IVssExamineWriterMetadata::GetFileCounts
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsbackup.h
-: 
-- IVssExamineWriterMetadata.GetFileCounts
-: 
 ---
 
 # IVssExamineWriterMetadata::GetFileCounts

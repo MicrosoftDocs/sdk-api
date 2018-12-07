@@ -4,10 +4,10 @@ title: "_DNS_WIRE_RECORD"
 author: windows-sdk-content
 description: The DNS_WIRE_RECORD structure contains information about a DNS wire record transmitted across the network as specified in section 4.1.3 of RFC 1035.
 old-location: dns\dns_wire_record.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: fb36930c-dd43-427a-8034-078c99497a3e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDNS_WIRE_RECORD, *PDNS_WIRE_RECORD structure [DNS], DNS_WIRE_RECORD, DNS_WIRE_RECORD structure [DNS], _DNS_WIRE_RECORD, dns.dns_wire_record, windns/*PDNS_WIRE_RECORD, windns/DNS_WIRE_RECORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

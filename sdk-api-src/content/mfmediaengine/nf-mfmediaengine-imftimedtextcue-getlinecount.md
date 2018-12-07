@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getlinecount.htm
 tech.root: medfound
 ms.assetid: 5930C8BB-5F00-4263-B3F6-B61EF6DBD0DA
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetLineCount, GetLineCount method [Media Foundation], GetLineCount method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetLineCount method, IMFTimedTextCue.GetLineCount, IMFTimedTextCue::GetLineCount, mf.imftimedtextcue_getlinecount, mfmediaengine/IMFTimedTextCue::GetLineCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfmediaengine.h
-: 
-- IMFTimedTextCue.GetLineCount
-: 
 ---
 
 # IMFTimedTextCue::GetLineCount

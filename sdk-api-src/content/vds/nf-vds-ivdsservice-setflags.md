@@ -4,10 +4,10 @@ title: IVdsService::SetFlags
 author: windows-sdk-content
 description: Sets service object flags.
 old-location: base\ivdsservice_setflags.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 9c82746e-fbf0-4754-b246-82a174410cef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsService interface [VDS],SetFlags method, IVdsService.SetFlags, IVdsService::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsService interface, base.ivdsservice_setflags, vds/IVdsService::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsService.SetFlags
-: 
 ---
 
 # IVdsService::SetFlags

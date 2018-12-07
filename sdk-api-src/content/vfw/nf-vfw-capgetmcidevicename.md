@@ -7,7 +7,7 @@ old-location: multimedia\capgetmcidevicename.htm
 tech.root: Multimedia
 ms.assetid: e65a2a27-ae35-4637-8d85-1cc2162c41b1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_capGetMCIDeviceName, capGetMCIDeviceName, capGetMCIDeviceName macro [Windows Multimedia], multimedia.capgetmcidevicename, vfw/capGetMCIDeviceName"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- capGetMCIDeviceName
-: 
 ---
 
 # capGetMCIDeviceName macro

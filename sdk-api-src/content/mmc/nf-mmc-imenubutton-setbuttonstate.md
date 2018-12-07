@@ -4,10 +4,10 @@ title: IMenuButton::SetButtonState
 author: windows-sdk-content
 description: The IMenuButton::SetButtonState method enables a user to change the state of a menu button.
 old-location: mmc\imenubutton_setbuttonstate.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 28f4faf7-9fb2-4be0-84b6-e3e8f7450c34
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ENABLED, HIDDEN, IMenuButton interface [MMC],SetButtonState method, IMenuButton.SetButtonState, IMenuButton::SetButtonState, SetButtonState, SetButtonState method [MMC], SetButtonState method [MMC],IMenuButton interface, _slate_imenubutton_setbuttonstate, mmc.imenubutton_setbuttonstate, mmc/IMenuButton::SetButtonState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IMenuButton.SetButtonState
-: 
 ---
 
 # IMenuButton::SetButtonState

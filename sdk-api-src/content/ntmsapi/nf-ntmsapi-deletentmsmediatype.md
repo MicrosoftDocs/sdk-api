@@ -7,7 +7,7 @@ old-location: fs\deletentmsmediatype.htm
 tech.root: Rsm
 ms.assetid: c2a2bc8a-4230-44c4-b6bc-4b4e2a9fece1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteNtmsMediaType, DeleteNtmsMediaType function [Files], _zaw_deletentmsmediatype, base.deletentmsmediatype, fs.deletentmsmediatype, ntmsapi/DeleteNtmsMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DeleteNtmsMediaType
-: 
 ---
 
 # DeleteNtmsMediaType function

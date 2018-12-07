@@ -7,7 +7,7 @@ old-location: mstv\idtfilter_get_blockunrated.htm
 tech.root: mstv
 ms.assetid: 9b8ecc6b-02e8-47e9-a8df-6e73d58dd177
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockUnRated method, IDTFilter.get_BlockUnRated, IDTFilter::get_BlockUnRated, IDTFilterget_BlockUnRated, encdec/IDTFilter::get_BlockUnRated, get_BlockUnRated, get_BlockUnRated method [Microsoft TV Technologies], get_BlockUnRated method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockunrated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- encdec.h
-: 
-- IDTFilter.get_BlockUnRated
-: 
 ---
 
 # IDTFilter::get_BlockUnRated

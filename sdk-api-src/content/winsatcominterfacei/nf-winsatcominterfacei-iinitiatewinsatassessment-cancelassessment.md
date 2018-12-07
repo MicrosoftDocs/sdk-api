@@ -7,7 +7,7 @@ old-location: winsat\iinitiatewinsatassessment_cancelassessment.htm
 tech.root: WinSAT
 ms.assetid: fa4b159f-9d40-445f-bd43-5fc2e7b2d33b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CancelAssessment, CancelAssessment method [WinSAT], CancelAssessment method [WinSAT],IInitiateWinSATAssessment interface, IInitiateWinSATAssessment interface [WinSAT],CancelAssessment method, IInitiateWinSATAssessment.CancelAssessment, IInitiateWinSATAssessment::CancelAssessment, winsat.iinitiatewinsatassessment_cancelassessment, winsatcominterfacei/IInitiateWinSATAssessment::CancelAssessment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsatcominterfacei.h
-: 
-- IInitiateWinSATAssessment.CancelAssessment
-: 
 ---
 
 # IInitiateWinSATAssessment::CancelAssessment

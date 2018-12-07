@@ -4,10 +4,10 @@ title: ITriggerCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of triggers in the collection.
 old-location: taskschd\itriggercollection_count.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: ae4ff1b8-f030-420b-b96a-b5c1246c04ce
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Count property, ITriggerCollection.Count, ITriggerCollection.get_Count, ITriggerCollection::Count, ITriggerCollection::get_Count, get_Count, taskschd.itriggercollection_count, taskschd/ITriggerCollection::Count, taskschd/ITriggerCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITriggerCollection.get_Count
-: 
 ---
 
 # ITriggerCollection::get_Count

@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::Validate
 author: windows-sdk-content
 description: Validates the current policy information.
 old-location: security\ix509enrollmentpolicyserver_validate.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: ab58622e-79a6-4a1b-a0e2-74efb81c7062
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],Validate method, IX509EnrollmentPolicyServer.Validate, IX509EnrollmentPolicyServer::Validate, Validate, Validate method [Security], Validate method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::Validate, security.ix509enrollmentpolicyserver_validate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509EnrollmentPolicyServer.Validate
-: 
 ---
 
 # IX509EnrollmentPolicyServer::Validate

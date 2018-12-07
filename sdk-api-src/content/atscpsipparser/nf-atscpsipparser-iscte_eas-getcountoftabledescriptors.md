@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: 1d6cae55-233f-49e0-8ced-9dd21b0aa32b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, ISCTE_EAS.GetCountOfTableDescriptors, ISCTE_EAS::GetCountOfTableDescriptors, ISCTE_EASGetCountOfTableDescriptors, atscpsipparser/ISCTE_EAS::GetCountOfTableDescriptors, mstv.iscte_eas_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- atscpsipparser.h
-: 
-- ISCTE_EAS.GetCountOfTableDescriptors
-: 
 ---
 
 # ISCTE_EAS::GetCountOfTableDescriptors

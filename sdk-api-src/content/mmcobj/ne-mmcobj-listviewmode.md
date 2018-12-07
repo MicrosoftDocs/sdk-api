@@ -4,10 +4,10 @@ title: ListViewMode
 author: windows-sdk-content
 description: The ListViewMode enumeration is used by the View.ListViewMode property to define the list view.
 old-location: mmc\listviewmode.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 4f9bcc24-676b-4697-ae11-0d97a6ed4a71
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PLISTVIEWMODE, LISTVIEWMODE, ListMode_Detail, ListMode_Filtered, ListMode_Large_Icons, ListMode_List, ListMode_Small_Icons, ListViewMode, ListViewMode enumeration [MMC], PLISTVIEWMODE, PLISTVIEWMODE enumeration pointer [MMC], PPLISTVIEWMODE, PPLISTVIEWMODE enumeration pointer [MMC], _ListViewMode, _ListViewMode enumeration [MMC], _slate_listviewmode, mmc.listviewmode, mmcobj/ListMode_Detail, mmcobj/ListMode_Filtered, mmcobj/ListMode_Large_Icons, mmcobj/ListMode_List, mmcobj/ListMode_Small_Icons, mmcobj/ListViewMode, mmcobj/PLISTVIEWMODE, mmcobj/PPLISTVIEWMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IGPMAsyncCancel::Cancel
 author: windows-sdk-content
 description: The client calls this method to cancel an asynchronous Group Policy Management Console (GPMC) operation. GPMC operations such as backup, restore, import, copy, and report generation can execute asynchronously.
 old-location: gpmc\igpmasynccancel_cancel.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: c2055e7d-daed-4c9c-a374-6cb378d04962
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Cancel, Cancel method [GPMC], Cancel method [GPMC],IGPMAsyncCancel interface, IGPMAsyncCancel interface [GPMC],Cancel method, IGPMAsyncCancel.Cancel, IGPMAsyncCancel::Cancel, _win32_igpmasynccancel_cancel, gpmc.igpmasynccancel_cancel, gpmgmt/IGPMAsyncCancel::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMAsyncCancel.Cancel
-: 
 ---
 
 # IGPMAsyncCancel::Cancel

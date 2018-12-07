@@ -7,7 +7,7 @@ old-location: mstv\isbe2spanningevent_getevent.htm
 tech.root: mstv
 ms.assetid: f1fc2b7c-3f60-4d03-9c75-9b9d9450ceef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetEvent, GetEvent method [Microsoft TV Technologies], GetEvent method [Microsoft TV Technologies],ISBE2SpanningEvent interface, ISBE2SpanningEvent interface [Microsoft TV Technologies],GetEvent method, ISBE2SpanningEvent.GetEvent, ISBE2SpanningEvent::GetEvent, mstv.isbe2spanningevent_getevent, sbe/ISBE2SpanningEvent::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbe.h
-: 
-- ISBE2SpanningEvent.GetEvent
-: 
 ---
 
 # ISBE2SpanningEvent::GetEvent

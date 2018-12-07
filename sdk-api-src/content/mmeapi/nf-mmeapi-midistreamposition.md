@@ -7,7 +7,7 @@ old-location: multimedia\midistreamposition.htm
 tech.root: Multimedia
 ms.assetid: 77d859bb-1f1b-4a95-939e-88bdf31b1959
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiStreamPosition, midiStreamPosition, midiStreamPosition function [Windows Multimedia], mmeapi/midiStreamPosition, multimedia.midistreamposition"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- midiStreamPosition
-: 
 ---
 
 # midiStreamPosition function

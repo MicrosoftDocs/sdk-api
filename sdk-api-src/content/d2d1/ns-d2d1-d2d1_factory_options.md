@@ -4,10 +4,10 @@ title: D2D1_FACTORY_OPTIONS
 author: windows-sdk-content
 description: Contains the debugging level of an ID2D1Factory object.
 old-location: direct2d\D2D1_FACTORY_OPTIONS.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 2765d34e-978c-4121-82c9-2780d54e2850
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_FACTORY_OPTIONS, D2D1_FACTORY_OPTIONS structure [Direct2D], d2d1/D2D1_FACTORY_OPTIONS, direct2d.D2D1_FACTORY_OPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices

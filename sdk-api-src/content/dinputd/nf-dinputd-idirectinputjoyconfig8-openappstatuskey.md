@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_openappstatuskey.htm
 tech.root: hid
 ms.assetid: a9caea40-6570-4756-81a4-91a3aaff302b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],OpenAppStatusKey method, IDirectInputJoyConfig8.OpenAppStatusKey, IDirectInputJoyConfig8::OpenAppStatusKey, OpenAppStatusKey, OpenAppStatusKey method [Human Input Devices], OpenAppStatusKey method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_004ec952-e0fd-4e41-a466-a09fb37e6f80.xml, dinputd/IDirectInputJoyConfig8::OpenAppStatusKey, hid.idirectinputjoyconfig8_openappstatuskey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dinputd.h
-: 
-- IDirectInputJoyConfig8.OpenAppStatusKey
-: 
 ---
 
 # IDirectInputJoyConfig8::OpenAppStatusKey

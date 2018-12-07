@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_initialize.htm
 tech.root: mstv
 ms.assetid: 7f59b8d4-520c-441d-bbd3-60ab8962e3b4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDVB_NIT interface [Microsoft TV Technologies],Initialize method, IDVB_NIT.Initialize, IDVB_NIT::Initialize, IDVB_NITInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_NIT interface, dvbsiparser/IDVB_NIT::Initialize, mstv.idvb_nit_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDVB_NIT.Initialize
-: 
 ---
 
 # IDVB_NIT::Initialize

@@ -4,10 +4,10 @@ title: RtlAddGrowableFunctionTable function
 author: windows-sdk-content
 description: Informs the system of a dynamic function table representing a region of memory containing code.
 old-location: base\rtladdgrowablefunctiontable.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 84ba7171-a4eb-4807-9883-f4fac6296ed0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RtlAddGrowableFunctionTable, RtlAddGrowableFunctionTable function, base.rtladdgrowablefunctiontable, winnt/RtlAddGrowableFunctionTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtlAddGrowableFunctionTable
-: 
 ---
 
 # RtlAddGrowableFunctionTable function

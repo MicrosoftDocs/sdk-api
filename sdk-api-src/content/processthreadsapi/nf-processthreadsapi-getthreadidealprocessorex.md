@@ -4,10 +4,10 @@ title: GetThreadIdealProcessorEx function
 author: windows-sdk-content
 description: Retrieves the processor number of the ideal processor for the specified thread.
 old-location: base\getthreadidealprocessorex.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 4fbe1b85-352f-4576-9056-5ba1b0b85874
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetThreadIdealProcessorEx, GetThreadIdealProcessorEx function, base.getthreadidealprocessorex, processthreadsapi/GetThreadIdealProcessorEx, winbase/GetThreadIdealProcessorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetThreadIdealProcessorEx
-: 
 ---
 
 # GetThreadIdealProcessorEx function

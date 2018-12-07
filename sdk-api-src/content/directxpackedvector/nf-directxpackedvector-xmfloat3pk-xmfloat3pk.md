@@ -1,17 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK
-title: XMFLOAT3PK function
+title: XMFLOAT3PK::XMFLOAT3PK
 author: windows-sdk-content
 description: Default constructor for XMFLOAT3PK.
 old-location: dxmath\xmfloat3pk_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.#ctor
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: XMFLOAT3PK constructor [DirectX Math Support APIs], XMFLOAT3PK constructor [DirectX Math Support APIs],XMFLOAT3PK structure, XMFLOAT3PK structure [DirectX Math Support APIs],XMFLOAT3PK constructor, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(), dxmath.xmfloat3pk_ctor_1
+ms.date: 12/5/2018
+ms.keywords: XMFLOAT3PK, XMFLOAT3PK constructor [DirectX Math Support APIs], XMFLOAT3PK constructor [DirectX Math Support APIs],XMFLOAT3PK structure, XMFLOAT3PK structure [DirectX Math Support APIs],XMFLOAT3PK constructor, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(), XMFLOAT3PK::XMFLOAT3PK, dxmath.xmfloat3pk_ctor_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMFLOAT3PK
-: 
 ---
 
-# XMFLOAT3PK function
+# XMFLOAT3PK::XMFLOAT3PK
 
 
 ## -description

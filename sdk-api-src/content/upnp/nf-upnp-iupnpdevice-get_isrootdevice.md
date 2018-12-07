@@ -4,10 +4,10 @@ title: IUPnPDevice::get_IsRootDevice
 author: windows-sdk-content
 description: The IsRootDevice property specifies whether the device is the topmost device in the device tree.
 old-location: upnp\iupnpdevice_isrootdevice.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 0416c4f0-1289-4e91-be34-23f8b80df5c3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_IsRootDevice method, IUPnPDevice.get_IsRootDevice, IUPnPDevice::get_IsRootDevice, _upnp_iupnpdevice_isrootdevice, get_IsRootDevice, get_IsRootDevice method [UPnP APIs], get_IsRootDevice method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_isrootdevice, upnp/IUPnPDevice::get_IsRootDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDevice.get_IsRootDevice
-: 
 ---
 
 # IUPnPDevice::get_IsRootDevice

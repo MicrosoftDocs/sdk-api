@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession::get_Properties
 author: windows-sdk-content
 description: Retrieves an object implementing the IRDPSRAPISessionProperties interface.
 old-location: rdp\irdpsrapisharingsession_properties.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: d9eff86e-74ee-440b-9f89-7cf26ba1ac39
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Properties property, IRDPSRAPISharingSession.Properties, IRDPSRAPISharingSession.get_Properties, IRDPSRAPISharingSession2 interface [RDP],Properties property, IRDPSRAPISharingSession2.Properties, IRDPSRAPISharingSession2::Properties, IRDPSRAPISharingSession2::get_Properties, IRDPSRAPISharingSession::get_Properties, Properties property [RDP], Properties property [RDP],IRDPSRAPISharingSession interface, Properties property [RDP],IRDPSRAPISharingSession2 interface, Properties property [RDP],RDPSession object, RDPSession object [RDP],Properties property, get_Properties, rdp.irdpsrapisharingsession_properties, rdpencomapi/IRDPSRAPISharingSession2::Properties, rdpencomapi/IRDPSRAPISharingSession2::get_Properties, rdpencomapi/IRDPSRAPISharingSession::Properties, rdpencomapi/IRDPSRAPISharingSession::get_Properties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPISharingSession.get_Properties
-: 
 ---
 
 # IRDPSRAPISharingSession::get_Properties

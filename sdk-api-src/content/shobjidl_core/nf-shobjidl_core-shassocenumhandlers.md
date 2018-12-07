@@ -7,7 +7,7 @@ old-location: shell\SHAssocEnumHandlers.htm
 tech.root: shell
 ms.assetid: 83db466b-e00c-4015-879f-c5c222f45b8c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ASSOC_FILTER_NONE, ASSOC_FILTER_RECOMMENDED, SHAssocEnumHandlers, SHAssocEnumHandlers function [Windows Shell], _shell_SHAssocEnumHandlers, shell.SHAssocEnumHandlers, shobjidl_core/SHAssocEnumHandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHAssocEnumHandlers
-: 
 ---
 
 # SHAssocEnumHandlers function

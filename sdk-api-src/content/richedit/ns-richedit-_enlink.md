@@ -4,10 +4,10 @@ title: "_enlink"
 author: windows-sdk-content
 description: Contains information about an EN_LINK notification code from a rich edit control.
 old-location: controls\ENLINK.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enlink.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ENLINK, ENLINK structure [Windows Controls], _enlink, _win32_ENLINK_str, _win32_ENLINK_str_cpp, controls.ENLINK, controls._win32_ENLINK_str, richedit/ENLINK
 ms.prod: windows-hardware
 ms.technology: windows-devices

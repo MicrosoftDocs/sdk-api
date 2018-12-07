@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_setresourceuriprefix.htm
 tech.root: wmi_v2
 ms.assetid: 7f384720-7673-4dd2-883f-a52da4a51729
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_OperationOptions_SetResourceUriPrefix, MI_OperationOptions_SetResourceUriPrefix function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetResourceUriPrefix, wmi_v2.mi_operationoptions_setresourceuriprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_OperationOptions_SetResourceUriPrefix
-: 
 ---
 
 # MI_OperationOptions_SetResourceUriPrefix function

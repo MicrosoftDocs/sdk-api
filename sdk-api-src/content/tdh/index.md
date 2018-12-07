@@ -2,7 +2,7 @@
 UID: NA:tdh
 ms.assetid: a9cf5ac1-aeaf-35a0-9629-8d9e346a9c19
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

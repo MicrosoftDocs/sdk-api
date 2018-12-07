@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_put_prerolltime.htm
 tech.root: DirectShow
 ms.assetid: a09e6e9f-7e6f-4e53-b805-ee4b9d97f4e7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_PrerollTime method, IMediaPosition.put_PrerollTime, IMediaPosition::put_PrerollTime, IMediaPositionput_PrerollTime, control/IMediaPosition::put_PrerollTime, dshow.imediaposition_put_prerolltime, put_PrerollTime, put_PrerollTime method [DirectShow], put_PrerollTime method [DirectShow],IMediaPosition interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- control.h
-: 
-- IMediaPosition.put_PrerollTime
-: 
 ---
 
 # IMediaPosition::put_PrerollTime

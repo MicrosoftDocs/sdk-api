@@ -7,7 +7,7 @@ old-location: fs\wow64enablewow64fsredirection.htm
 tech.root: fileio
 ms.assetid: 8d11a7ba-540d-4bd0-881a-a61605357dd8
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: Wow64EnableWow64FsRedirection, Wow64EnableWow64FsRedirection function [Files], base.wow64enablewow64fsredirection, fs.wow64enablewow64fsredirection, winbase/Wow64EnableWow64FsRedirection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Wow64EnableWow64FsRedirection
-: 
 ---
 
 # Wow64EnableWow64FsRedirection function

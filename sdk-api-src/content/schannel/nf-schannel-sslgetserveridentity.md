@@ -4,10 +4,10 @@ title: SslGetServerIdentity function
 author: windows-sdk-content
 description: Gets the identity of the server.
 old-location: security\sslgetserveridentity.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 5FA7A0F5-187F-4CE6-AD62-44B71A40568D
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SslGetServerIdentity, SslGetServerIdentity function [Security], schannel/SslGetServerIdentity, security.sslgetserveridentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SslGetServerIdentity
-: 
 ---
 
 # SslGetServerIdentity function

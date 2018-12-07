@@ -7,7 +7,7 @@ old-location: multimedia\acmfilterdetails.htm
 tech.root: Multimedia
 ms.assetid: ab29362e-fa85-4833-a2c8-df5cfacc6140
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_acmFilterDetails, acmFilterDetails, acmFilterDetails function [Windows Multimedia], acmFilterDetailsA, acmFilterDetailsW, msacm/acmFilterDetails, msacm/acmFilterDetailsA, msacm/acmFilterDetailsW, multimedia.acmfilterdetails"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- acmFilterDetails
-: 
 ---
 
 # acmFilterDetails function

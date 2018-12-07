@@ -7,7 +7,7 @@ old-location: directwrite\idwriteasyncresult_getwaithandle.htm
 tech.root: DirectWrite
 ms.assetid: BF7F7A94-AD3E-48DB-9A01-D4E615063A8F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetWaitHandle, GetWaitHandle method [Direct Write], GetWaitHandle method [Direct Write],IDWriteAsyncResult interface, IDWriteAsyncResult interface [Direct Write],GetWaitHandle method, IDWriteAsyncResult.GetWaitHandle, IDWriteAsyncResult::GetWaitHandle, directwrite.idwriteasyncresult_getwaithandle, dwrite_3/IDWriteAsyncResult::GetWaitHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_3.h
-: 
-- IDWriteAsyncResult.GetWaitHandle
-: 
 ---
 
 # IDWriteAsyncResult::GetWaitHandle

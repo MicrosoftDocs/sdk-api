@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextPattern_SupportedTextSelection.htm
 tech.root: WinAuto
 ms.assetid: 794c08d4-9305-4fdd-8ca0-188e1e9b6547
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAutomationTextPattern interface [Windows Accessibility],SupportedTextSelection property, IUIAutomationTextPattern.SupportedTextSelection, IUIAutomationTextPattern.get_SupportedTextSelection, IUIAutomationTextPattern::SupportedTextSelection, IUIAutomationTextPattern::get_SupportedTextSelection, SupportedTextSelection property [Windows Accessibility], SupportedTextSelection property [Windows Accessibility],IUIAutomationTextPattern interface, get_SupportedTextSelection, uiauto.uiauto_IUIAutomationTextPattern_SupportedTextSelection, uiauto_IUIAutomationTextPattern_SupportedTextSelection, uiautomationclient/IUIAutomationTextPattern::SupportedTextSelection, uiautomationclient/IUIAutomationTextPattern::get_SupportedTextSelection, winauto.uiauto_IUIAutomationTextPattern_SupportedTextSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationTextPattern.get_SupportedTextSelection
-: 
 ---
 
 # IUIAutomationTextPattern::get_SupportedTextSelection

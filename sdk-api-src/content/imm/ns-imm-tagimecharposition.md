@@ -7,13 +7,13 @@ old-location: intl\imecharposition.htm
 tech.root: Intl
 ms.assetid: 5c278df0-ce90-4f9d-915e-45dadc823360
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPIMECHARPOSITION, *NPIMECHARPOSITION, *PIMECHARPOSITION, IMECHARPOSITION, IMECHARPOSITION structure [Internationalization for Windows Applications], PIMECHARPOSITION, PIMECHARPOSITION structure pointer [Internationalization for Windows Applications], _win32_IMECHARPOSITION_str, imm/IMECHARPOSITION, imm/PIMECHARPOSITION, intl.imecharposition, tagIMECHARPOSITION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: imm.h
-req.include-header: Windows.h
+req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]

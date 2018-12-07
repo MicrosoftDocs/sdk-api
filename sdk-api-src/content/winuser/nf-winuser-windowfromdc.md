@@ -7,7 +7,7 @@ old-location: gdi\windowfromdc.htm
 tech.root: gdi
 ms.assetid: 57ecec82-03be-4d1a-84cf-6b64131af19d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WindowFromDC, WindowFromDC function [Windows GDI], _win32_WindowFromDC, gdi.windowfromdc, winuser/WindowFromDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WindowFromDC
-: 
 ---
 
 # WindowFromDC function

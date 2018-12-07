@@ -7,7 +7,7 @@ old-location: mf\mfcreateprotectedenvironmentaccess.htm
 tech.root: medfound
 ms.assetid: B16BEFFD-26CF-4598-96A4-098C3E3AA51C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MFCreateProtectedEnvironmentAccess, MFCreateProtectedEnvironmentAccess function [Media Foundation], mf.mfcreateprotectedenvironmentaccess, mfidl/MFCreateProtectedEnvironmentAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateProtectedEnvironmentAccess
-: 
 ---
 
 # MFCreateProtectedEnvironmentAccess function

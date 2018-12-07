@@ -7,7 +7,7 @@ old-location: automat\vareqv.htm
 tech.root: automat
 ms.assetid: 34ddece6-87c8-469d-b275-443d1e99b1c9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarEqv, VarEqv function [Automation], _oa96_VarEqv, automat.vareqv, oleauto/VarEqv
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarEqv
-: 
 ---
 
 # VarEqv function

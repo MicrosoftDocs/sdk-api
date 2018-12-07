@@ -4,10 +4,10 @@ title: MprAdminPortDisconnect function
 author: windows-sdk-content
 description: The MprAdminPortDisconnect function disconnects a connection on a specific port.
 old-location: rras\mpradminportdisconnect.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 97ba7bdf-fac2-44a5-94a8-0b3075a19013
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MprAdminPortDisconnect, MprAdminPortDisconnect function [RAS], _mpr_mpradminportdisconnect, mprapi/MprAdminPortDisconnect, rras.mpradminportdisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprAdminPortDisconnect
-: 
 ---
 
 # MprAdminPortDisconnect function

@@ -7,7 +7,7 @@ old-location: wds\iwdstransportserver_namespacemanager.htm
 tech.root: wds
 ms.assetid: 3f54d5ef-c630-4f5b-93ea-1da7303482ba
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IWdsTransportServer interface [Windows Deployment Services],NamespaceManager property, IWdsTransportServer.NamespaceManager, IWdsTransportServer.get_NamespaceManager, IWdsTransportServer::NamespaceManager, IWdsTransportServer::get_NamespaceManager, NamespaceManager property [Windows Deployment Services], NamespaceManager property [Windows Deployment Services],IWdsTransportServer interface, get_NamespaceManager, wds.iwdstransportserver_namespacemanager, wdstptmgmt/IWdsTransportServer::NamespaceManager, wdstptmgmt/IWdsTransportServer::get_NamespaceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportServer.get_NamespaceManager
-: 
 ---
 
 # IWdsTransportServer::get_NamespaceManager

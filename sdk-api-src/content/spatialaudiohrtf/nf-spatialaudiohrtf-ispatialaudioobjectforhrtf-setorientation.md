@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectforhrtf_setorientation.htm
 tech.root: CoreAudio
 ms.assetid: 2B88643A-C81A-4F11-BFD0-EEF4C65861C8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetOrientation method, ISpatialAudioObjectForHrtf.SetOrientation, ISpatialAudioObjectForHrtf::SetOrientation, SetOrientation, SetOrientation method [Core Audio], SetOrientation method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setorientation, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetOrientation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- spatialaudiohrtf.h
-: 
-- ISpatialAudioObjectForHrtf.SetOrientation
-: 
 ---
 
 # ISpatialAudioObjectForHrtf::SetOrientation

@@ -4,10 +4,10 @@ title: ID2D1RenderTarget::GetTextAntialiasMode
 author: windows-sdk-content
 description: Gets the current antialiasing mode for text and glyph drawing operations.
 old-location: direct2d\ID2D1RenderTarget_GetTextAntialiasMode.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: c9d4ecd9-816d-43b2-adcf-25ac595279f4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTextAntialiasMode, GetTextAntialiasMode method [Direct2D], GetTextAntialiasMode method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetTextAntialiasMode method, ID2D1RenderTarget.GetTextAntialiasMode, ID2D1RenderTarget::GetTextAntialiasMode, d2d1/ID2D1RenderTarget::GetTextAntialiasMode, direct2d.ID2D1RenderTarget_GetTextAntialiasMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1RenderTarget.GetTextAntialiasMode
-: 
 ---
 
 # ID2D1RenderTarget::GetTextAntialiasMode

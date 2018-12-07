@@ -4,10 +4,10 @@ title: INetSharingManager::get_EnumPublicConnections
 author: windows-sdk-content
 description: The EnumPublicConnections method retrieves an enumeration interface for publicly-shared connections.
 old-location: ics\inetsharingmanager_get_enumpublicconnections.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 7db0eb73-8e0f-4267-9a88-20952f3721e2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumPublicConnections method, INetSharingManager.get_EnumPublicConnections, INetSharingManager::get_EnumPublicConnections, _ics_inetsharingmanager_get_enumpublicconnections, get_EnumPublicConnections, get_EnumPublicConnections method [ICS/ICF], get_EnumPublicConnections method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumpublicconnections, netcon/INetSharingManager::get_EnumPublicConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netcon.h
-: 
-- INetSharingManager.get_EnumPublicConnections
-: 
 ---
 
 # INetSharingManager::get_EnumPublicConnections

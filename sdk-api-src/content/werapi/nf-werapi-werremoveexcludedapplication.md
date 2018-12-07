@@ -7,7 +7,7 @@ old-location: wer\werremoveexcludedapplication.htm
 tech.root: wer
 ms.assetid: e7bab01b-a09c-4b06-a233-34ed63f75857
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WerRemoveExcludedApplication, WerRemoveExcludedApplication function [Windows Error Reporting], base.werremoveexcludedapplication, wer.werremoveexcludedapplication, werapi/WerRemoveExcludedApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WerRemoveExcludedApplication
-: 
 ---
 
 # WerRemoveExcludedApplication function

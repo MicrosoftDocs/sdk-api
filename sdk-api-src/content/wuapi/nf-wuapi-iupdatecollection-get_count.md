@@ -4,10 +4,10 @@ title: IUpdateCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\iupdatecollection_count.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: f0d8de56-c51e-4165-a6bb-ea7eec70c567
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Count property, IUpdateCollection.Count, IUpdateCollection.get_Count, IUpdateCollection::Count, IUpdateCollection::get_Count, get_Count, wua.iupdatecollection_count, wuapi/IUpdateCollection::Count, wuapi/IUpdateCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateCollection.get_Count
-: 
 ---
 
 # IUpdateCollection::get_Count

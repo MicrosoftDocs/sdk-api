@@ -4,10 +4,10 @@ title: VSS_COMPONENT_FLAGS
 author: windows-sdk-content
 description: Used by writers to indicate support for auto-recovery.
 old-location: base\vss_component_flags.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 91b7fbab-82f8-48cc-8078-f8f71c48a70b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VSS_CF_APP_ROLLBACK_RECOVERY, VSS_CF_BACKUP_RECOVERY, VSS_CF_NOT_SYSTEM_STATE, VSS_COMPONENT_FLAGS, VSS_COMPONENT_FLAGS enumeration [VSS], _win32_vss_component_flags, base.vss_component_flags, enumeration [VSS], vswriter/VSS_CF_APP_ROLLBACK_RECOVERY, vswriter/VSS_CF_BACKUP_RECOVERY, vswriter/VSS_CF_NOT_SYSTEM_STATE, vswriter/VSS_COMPONENT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

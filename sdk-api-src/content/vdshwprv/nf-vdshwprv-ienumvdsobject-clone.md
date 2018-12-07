@@ -4,10 +4,10 @@ title: IEnumVdsObject::Clone
 author: windows-sdk-content
 description: Creates an enumeration with the same state as the current enumeration.
 old-location: base\ienumvdsobject_clone.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 9d547011-2200-43fc-a8de-9b90ba94c39e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [VDS], Clone method [VDS],IEnumVdsObject interface, IEnumVdsObject interface [VDS],Clone method, IEnumVdsObject.Clone, IEnumVdsObject::Clone, base.ienumvdsobject_clone, vds/IEnumVdsObject::Clone, vdshwprv/IEnumVdsObject::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vdshwprv.h
-: 
-- IEnumVdsObject.Clone
-: 
 ---
 
 # IEnumVdsObject::Clone

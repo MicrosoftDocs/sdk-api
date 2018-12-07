@@ -7,7 +7,7 @@ old-location: shell\IEnumIDList_Reset.htm
 tech.root: shell
 ms.assetid: a2ce1947-ca8b-4f0c-a94a-d1aba42b105d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumIDList interface [Windows Shell],Reset method, IEnumIDList.Reset, IEnumIDList::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumIDList interface, _win32_IEnumIDList_Reset, shell.IEnumIDList_Reset, shobjidl_core/IEnumIDList::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IEnumIDList.Reset
-: 
 ---
 
 # IEnumIDList::Reset

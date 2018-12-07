@@ -4,10 +4,10 @@ title: WTHelperGetProvSignerFromChain function
 author: windows-sdk-content
 description: Retrieves a signer or countersigner by index from the chain.
 old-location: security\wthelpergetprovsignerfromchain.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 8e1ebf82-73c2-445b-9964-6739f7c90c47
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WTHelperGetProvSignerFromChain, WTHelperGetProvSignerFromChain function [Security], security.wthelpergetprovsignerfromchain, wintrust/WTHelperGetProvSignerFromChain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WTHelperGetProvSignerFromChain
-: 
 ---
 
 # WTHelperGetProvSignerFromChain function

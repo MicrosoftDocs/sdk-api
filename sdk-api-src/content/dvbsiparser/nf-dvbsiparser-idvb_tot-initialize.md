@@ -7,7 +7,7 @@ old-location: mstv\idvb_tot_initialize.htm
 tech.root: mstv
 ms.assetid: 06e3380b-cf33-476f-bb41-2d843bc69e2c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDVB_TOT interface [Microsoft TV Technologies],Initialize method, IDVB_TOT.Initialize, IDVB_TOT::Initialize, IDVB_TOTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_TOT interface, dvbsiparser/IDVB_TOT::Initialize, mstv.idvb_tot_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDVB_TOT.Initialize
-: 
 ---
 
 # IDVB_TOT::Initialize

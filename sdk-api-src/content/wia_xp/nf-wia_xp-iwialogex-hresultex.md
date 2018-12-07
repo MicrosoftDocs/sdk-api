@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaLogEx_hResultEx.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\hresultex.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWiaLogEx interface [WIA],hResultEx method, IWiaLogEx.hResultEx, IWiaLogEx::hResultEx, _wia_IWiaLogEx_hResultEx, hResultEx, hResultEx method [WIA], hResultEx method [WIA],IWiaLogEx interface, wia._wia_IWiaLogEx_hResultEx, wia_xp/IWiaLogEx::hResultEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wia_xp.h
-: 
-- IWiaLogEx.hResultEx
-: 
 ---
 
 # IWiaLogEx::hResultEx

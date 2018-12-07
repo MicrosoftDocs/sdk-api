@@ -4,10 +4,10 @@ title: IADsPath
 author: windows-sdk-content
 description: The IADsPath interface provides methods for an ADSI client to access the Path attribute.
 old-location: adsi\iadspath.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: e588195c-eb4f-48d3-a2fa-777dd6dc2901
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPath, IADsPath interface [ADSI], IADsPath interface [ADSI],described, _ds_iadspath, adsi.iadspath, iads/IADsPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

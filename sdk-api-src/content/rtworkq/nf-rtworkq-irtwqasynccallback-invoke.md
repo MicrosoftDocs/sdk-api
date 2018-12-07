@@ -4,10 +4,10 @@ title: IRtwqAsyncCallback::Invoke
 author: windows-sdk-content
 description: Called when an asynchronous operation is completed.
 old-location: base\irtwqasynccallback_invoke.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 1798C338-4C82-42A7-AE15-ADFD356604BD
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRtwqAsyncCallback interface,Invoke method, IRtwqAsyncCallback.Invoke, IRtwqAsyncCallback::Invoke, Invoke, Invoke method, Invoke method,IRtwqAsyncCallback interface, base.irtwqasynccallback_invoke, rtworkq/IRtwqAsyncCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rtworkq.h
-: 
-- IRtwqAsyncCallback.Invoke
-: 
 ---
 
 # IRtwqAsyncCallback::Invoke

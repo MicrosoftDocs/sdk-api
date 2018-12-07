@@ -4,10 +4,10 @@ title: LsaEnumerateTrustedDomains function
 author: windows-sdk-content
 description: The LsaEnumerateTrustedDomains function retrieves the names and SIDs of domains trusted to authenticate logon credentials.
 old-location: security\lsaenumeratetrusteddomains.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 5c371d5a-26cf-4a99-a8e1-006b6b3cc91f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LsaEnumerateTrustedDomains, LsaEnumerateTrustedDomains function [Security], _lsa_lsaenumeratetrusteddomains, ntsecapi/LsaEnumerateTrustedDomains, security.lsaenumeratetrusteddomains
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LsaEnumerateTrustedDomains
-: 
 ---
 
 # LsaEnumerateTrustedDomains function

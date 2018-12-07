@@ -4,10 +4,10 @@ title: IMSCEPSetup::InitializeDefaults
 author: windows-sdk-content
 description: Initializes a CMSCEPSetup object with default values to enable installation of a Network Device Enrollment Service (NDES) role.
 old-location: security\imscepsetup_initializedefaults.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 25b1fd48-7b2c-4687-af7e-09efd99038b3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSCEPSetup interface [Security],InitializeDefaults method, IMSCEPSetup.InitializeDefaults, IMSCEPSetup::InitializeDefaults, InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::InitializeDefaults, security.imscepsetup_initializedefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- casetup.h
-: 
-- IMSCEPSetup.InitializeDefaults
-: 
 ---
 
 # IMSCEPSetup::InitializeDefaults

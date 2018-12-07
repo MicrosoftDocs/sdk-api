@@ -7,7 +7,7 @@ old-location: hidpi\getthreaddpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: DE86D551-974F-4A03-BDBE-348592CAB81F
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetThreadDpiAwarenessContext, GetThreadDpiAwarenessContext function [High DPI], hidpi.getthreaddpiawarenesscontext, winuser/GetThreadDpiAwarenessContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetThreadDpiAwarenessContext
-: 
 ---
 
 # GetThreadDpiAwarenessContext function

@@ -4,10 +4,10 @@ title: ITaskScheduler::Activate
 author: windows-sdk-content
 description: The Activate method returns an active interface for a specified work item.
 old-location: taskschd\itaskscheduler_activate.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 27391e34-8632-4ab5-9d6e-d2fde7942f80
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Activate, Activate method [Task Scheduler], Activate method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Activate method, ITaskScheduler.Activate, ITaskScheduler::Activate, _msb_itaskscheduler_activate, mstask/ITaskScheduler::Activate, taskschd.itaskscheduler_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- ITaskScheduler.Activate
-: 
 ---
 
 # ITaskScheduler::Activate

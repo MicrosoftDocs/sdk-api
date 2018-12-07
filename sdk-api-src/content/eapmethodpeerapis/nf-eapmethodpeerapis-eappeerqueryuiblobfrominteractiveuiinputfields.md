@@ -4,10 +4,10 @@ title: EapPeerQueryUIBlobFromInteractiveUIInputFields function
 author: windows-sdk-content
 description: Converts user information into a user BLOB that can be consumed by EAPHost run-time functions.
 old-location: eaphost\eappeerqueryuiblobfrominteractiveuiinputfields.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: bfb8906e-7adb-4c69-bd13-7c5239d392af
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EapPeerQueryUIBlobFromInteractiveUIInputFields, EapPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost], eaphost.eappeerqueryuiblobfrominteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryUIBlobFromInteractiveUIInputFields
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapPeerQueryUIBlobFromInteractiveUIInputFields
-: 
 ---
 
 # EapPeerQueryUIBlobFromInteractiveUIInputFields function

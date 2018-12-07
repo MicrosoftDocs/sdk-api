@@ -7,7 +7,7 @@ old-location: properties\VariantToInt64WithDefault.htm
 tech.root: properties
 ms.assetid: c4a5fc5c-19f9-4313-9d98-a486bfdfb359
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToInt64WithDefault, VariantToInt64WithDefault function [Windows Properties], _shell_VariantToInt64WithDefault, properties.VariantToInt64WithDefault, propvarutil/VariantToInt64WithDefault, shell.VariantToInt64WithDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToInt64WithDefault
-: 
 ---
 
 # VariantToInt64WithDefault function

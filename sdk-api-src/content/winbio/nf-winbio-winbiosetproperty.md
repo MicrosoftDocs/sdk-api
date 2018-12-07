@@ -7,7 +7,7 @@ old-location: secbiomet\winbiosetproperty.htm
 tech.root: SecBioMet
 ms.assetid: 569AAEF0-DA06-4005-9874-2762BE96539F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioSetProperty, WinBioSetProperty function [Windows Biometric Framework API], secbiomet.winbiosetproperty, winbio/WinBioSetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinBioSetProperty
-: 
 ---
 
 # WinBioSetProperty function

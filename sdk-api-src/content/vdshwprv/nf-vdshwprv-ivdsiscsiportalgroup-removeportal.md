@@ -4,10 +4,10 @@ title: IVdsIscsiPortalGroup::RemovePortal
 author: windows-sdk-content
 description: Removes a portal from a portal group.
 old-location: base\ivdsiscsiportalgroup_removeportal.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 462562f5-69c2-413d-9cdf-f9e1176f5c20
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsIscsiPortalGroup interface [VDS],RemovePortal method, IVdsIscsiPortalGroup.RemovePortal, IVdsIscsiPortalGroup::RemovePortal, RemovePortal, RemovePortal method [VDS], RemovePortal method [VDS],IVdsIscsiPortalGroup interface, base.ivdsiscsiportalgroup_removeportal, vds/IVdsIscsiPortalGroup::RemovePortal, vdshwprv/IVdsIscsiPortalGroup::RemovePortal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
-- apiref
-: 
-- COM
-: 
-- vdshwprv.h
-: 
-- IVdsIscsiPortalGroup.RemovePortal
-: 
 ---
 
 # IVdsIscsiPortalGroup::RemovePortal

@@ -1,22 +1,22 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_0
-title: "__unnamed_enum_0"
+title: URL_SCHEME
 author: windows-sdk-content
-description: Provides information to the IQueryAssociations interface methods.
-old-location: shell\ASSOCF_str.htm
+description: Used to specify URL schemes.
+old-location: shell\URL_SCHEME.htm
 tech.root: shell
-ms.assetid: e67d0282-9090-43e6-aedf-bb1fc0443221
+ms.assetid: 45686920-356d-4dd7-8482-2427854a92ed
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: ASSOCF, ASSOCF enumeration [Windows Shell], ASSOCF_IGNOREBASECLASS, ASSOCF_INIT_BYEXENAME, ASSOCF_INIT_DEFAULTTOFOLDER, ASSOCF_INIT_DEFAULTTOSTAR, ASSOCF_INIT_FIXED_PROGID, ASSOCF_INIT_FOR_FILE, ASSOCF_INIT_IGNOREUNKNOWN, ASSOCF_INIT_NOREMAPCLSID, ASSOCF_IS_PROTOCOL, ASSOCF_NOFIXUPS, ASSOCF_NONE, ASSOCF_NOTRUNCATE, ASSOCF_NOUSERSETTINGS, ASSOCF_OPEN_BYEXENAME, ASSOCF_REMAPRUNDLL, ASSOCF_VERIFY, __unnamed_enum_0, _win32_ASSOCF_str, shell.ASSOCF_str, shlwapi/ASSOCF, shlwapi/ASSOCF_IGNOREBASECLASS, shlwapi/ASSOCF_INIT_BYEXENAME, shlwapi/ASSOCF_INIT_DEFAULTTOFOLDER, shlwapi/ASSOCF_INIT_DEFAULTTOSTAR, shlwapi/ASSOCF_INIT_FIXED_PROGID, shlwapi/ASSOCF_INIT_FOR_FILE, shlwapi/ASSOCF_INIT_IGNOREUNKNOWN, shlwapi/ASSOCF_INIT_NOREMAPCLSID, shlwapi/ASSOCF_IS_PROTOCOL, shlwapi/ASSOCF_NOFIXUPS, shlwapi/ASSOCF_NONE, shlwapi/ASSOCF_NOTRUNCATE, shlwapi/ASSOCF_NOUSERSETTINGS, shlwapi/ASSOCF_OPEN_BYEXENAME, shlwapi/ASSOCF_REMAPRUNDLL, shlwapi/ASSOCF_VERIFY
+ms.date: 12/5/2018
+ms.keywords: URL_SCHEME, URL_SCHEME enumeration [Windows Shell], URL_SCHEME_ABOUT, URL_SCHEME_FILE, URL_SCHEME_FTP, URL_SCHEME_GOPHER, URL_SCHEME_HTTP, URL_SCHEME_HTTPS, URL_SCHEME_INVALID, URL_SCHEME_JAVASCRIPT, URL_SCHEME_KNOWNFOLDER, URL_SCHEME_LOCAL, URL_SCHEME_MAILTO, URL_SCHEME_MAXVALUE, URL_SCHEME_MK, URL_SCHEME_MSHELP, URL_SCHEME_MSSHELLDEVICE, URL_SCHEME_MSSHELLIDLIST, URL_SCHEME_MSSHELLROOTED, URL_SCHEME_NEWS, URL_SCHEME_NNTP, URL_SCHEME_RES, URL_SCHEME_SEARCH, URL_SCHEME_SEARCH_MS, URL_SCHEME_SHELL, URL_SCHEME_SNEWS, URL_SCHEME_TELNET, URL_SCHEME_UNKNOWN, URL_SCHEME_VBSCRIPT, URL_SCHEME_WAIS, URL_SCHEME_WILDCARD, _win32_URL_SCHEME, shell.URL_SCHEME, shlwapi/URL_SCHEME, shlwapi/URL_SCHEME_ABOUT, shlwapi/URL_SCHEME_FILE, shlwapi/URL_SCHEME_FTP, shlwapi/URL_SCHEME_GOPHER, shlwapi/URL_SCHEME_HTTP, shlwapi/URL_SCHEME_HTTPS, shlwapi/URL_SCHEME_INVALID, shlwapi/URL_SCHEME_JAVASCRIPT, shlwapi/URL_SCHEME_KNOWNFOLDER, shlwapi/URL_SCHEME_LOCAL, shlwapi/URL_SCHEME_MAILTO, shlwapi/URL_SCHEME_MAXVALUE, shlwapi/URL_SCHEME_MK, shlwapi/URL_SCHEME_MSHELP, shlwapi/URL_SCHEME_MSSHELLDEVICE, shlwapi/URL_SCHEME_MSSHELLIDLIST, shlwapi/URL_SCHEME_MSSHELLROOTED, shlwapi/URL_SCHEME_NEWS, shlwapi/URL_SCHEME_NNTP, shlwapi/URL_SCHEME_RES, shlwapi/URL_SCHEME_SEARCH, shlwapi/URL_SCHEME_SEARCH_MS, shlwapi/URL_SCHEME_SHELL, shlwapi/URL_SCHEME_SNEWS, shlwapi/URL_SCHEME_TELNET, shlwapi/URL_SCHEME_UNKNOWN, shlwapi/URL_SCHEME_VBSCRIPT, shlwapi/URL_SCHEME_WAIS, shlwapi/URL_SCHEME_WILDCARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP, Windows Vista, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server, Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -37,20 +37,20 @@ api_type:
 api_location:
  - Shlwapi.h
 api_name:
- - ASSOCF
+ - URL_SCHEME
 product: Windows
 targetos: Windows
-req.typenames: 
+req.typenames: URL_SCHEME
 req.redist: 
 ---
 
-# __unnamed_enum_0 enumeration
+# URL_SCHEME enumeration
 
 
 ## -description
 
 
-Provides information to the <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> interface methods.
+Used to specify URL schemes.
 
 
 ## -enum-fields
@@ -58,112 +58,147 @@ Provides information to the <a href="https://msdn.microsoft.com/8edb99d3-5860-4d
 
 
 
-### -field ASSOCF_NONE
+### -field URL_SCHEME_INVALID
 
-None of the following options are set.
+An invalid scheme.
 
 
-### -field ASSOCF_INIT_NOREMAPCLSID
+### -field URL_SCHEME_UNKNOWN
 
-Instructs <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> interface methods not to map CLSID values to ProgID values.
+An unknown scheme.
 
 
-### -field ASSOCF_INIT_BYEXENAME
+### -field URL_SCHEME_FTP
 
-Identifies the value of the <i>pwszAssoc</i> parameter of <a href="https://msdn.microsoft.com/cb1bcfc1-dbaa-48f8-8547-408f6560753e">IQueryAssociations::Init</a> as an executable file name. If this flag is not set, the root key will be set to the ProgID associated with the <b>.exe</b> key instead of the executable file's ProgID.
+FTP (ftp:).
 
 
-### -field ASSOCF_OPEN_BYEXENAME
+### -field URL_SCHEME_HTTP
 
-Identical to <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF_INIT_BYEXENAME</a>.
+HTTP (http:).
 
 
-### -field ASSOCF_INIT_DEFAULTTOSTAR
+### -field URL_SCHEME_GOPHER
 
-Specifies that when an <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> method does not find the requested value under the root key, it should attempt to retrieve the comparable value from the <b>*</b> subkey.
+Gopher (gopher:).
 
 
-### -field ASSOCF_INIT_DEFAULTTOFOLDER
+### -field URL_SCHEME_MAILTO
 
-Specifies that when a <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> method does not find the requested value under the root key, it should attempt to retrieve the comparable value from the <b>Folder</b> subkey.
+Mail-to (mailto:).
 
 
-### -field ASSOCF_NOUSERSETTINGS
+### -field URL_SCHEME_NEWS
 
-Specifies that only <b>HKEY_CLASSES_ROOT</b> should be searched, and that <b>HKEY_CURRENT_USER</b> should be ignored.
+Usenet news (news:).
 
 
-### -field ASSOCF_NOTRUNCATE
+### -field URL_SCHEME_NNTP
 
-Specifies that the return string should not be truncated. Instead, return an error value and the required size for the complete string.
+Usenet news with NNTP (nntp:).
 
 
-### -field ASSOCF_VERIFY
+### -field URL_SCHEME_TELNET
 
-Instructs <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> methods to verify that data is accurate. This setting allows <b>IQueryAssociations</b> methods to read data from the user's hard disk for verification. For example, they can check the friendly name in the registry against the one stored in the .exe file. Setting this flag typically reduces the efficiency of the method.
+Telnet (telnet:).
 
 
-### -field ASSOCF_REMAPRUNDLL
+### -field URL_SCHEME_WAIS
 
-Instructs <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> methods to ignore Rundll.exe and return information about its target. Typically <b>IQueryAssociations</b> methods return information about the first .exe or .dll in a command string. If a command uses Rundll.exe, setting this flag tells the method to ignore Rundll.exe and return information about its target.
+Wide Area Information Server (wais:).
 
 
-### -field ASSOCF_NOFIXUPS
+### -field URL_SCHEME_FILE
 
-Instructs <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> methods not to fix errors in the registry, such as the friendly name of a function not matching the one found in the .exe file.
+File (file:).
 
 
-### -field ASSOCF_IGNOREBASECLASS
+### -field URL_SCHEME_MK
 
-Specifies that the BaseClass value should be ignored.
+URL moniker (mk:).
 
 
-### -field ASSOCF_INIT_IGNOREUNKNOWN
+### -field URL_SCHEME_HTTPS
 
-<b>Introduced in Windows 7</b>. Specifies that the "Unknown" ProgID should be ignored; instead, fail.
+URL HTTPS (https:).
 
 
-### -field ASSOCF_INIT_FIXED_PROGID
+### -field URL_SCHEME_SHELL
 
-<b>Introduced in Windows 8</b>. Specifies that the supplied ProgID should be mapped using the system defaults, rather than the current user defaults.
+Shell (shell:).
 
 
-### -field ASSOCF_IS_PROTOCOL
+### -field URL_SCHEME_SNEWS
 
-<b>Introduced in Windows 8</b>. Specifies that the value is a protocol, and should be mapped using the current user defaults.
+NNTP news postings with SSL (snews:).
 
 
-### -field ASSOCF_INIT_FOR_FILE
+### -field URL_SCHEME_LOCAL
 
-<b>Introduced in Windows 8.1</b>. Specifies that the ProgID corresponds with a file extension based association. Use together with <b>ASSOCF_INIT_FIXED_PROGID</b>.
+Local (local:).
 
 
-### -field ASSOCF_IS_FULL_URI
+### -field URL_SCHEME_JAVASCRIPT
 
+JavaScript (javascript:).
 
-### -field ASSOCF_PER_MACHINE_ONLY
 
+### -field URL_SCHEME_VBSCRIPT
 
-### -field ASSOCF_APP_TO_APP
+VBScript (vbscript:).
 
 
+### -field URL_SCHEME_ABOUT
 
+About (about:).
 
-## -see-also
 
+### -field URL_SCHEME_RES
 
+Res (res:).
 
 
-<a href="https://msdn.microsoft.com/9eaeb885-0428-48c3-82a7-5dc21d5015ce">AssocQueryKey</a>
+### -field URL_SCHEME_MSSHELLROOTED
 
+Internet Explorer 6 and later only. Shell-rooted (ms-shell-rooted:)
 
 
-<a href="https://msdn.microsoft.com/026b841d-b831-475e-a788-2c79801e20b8">AssocQueryString</a>
+### -field URL_SCHEME_MSSHELLIDLIST
 
+Internet Explorer 6 and later only. Shell ID-list (ms-shell-idlist:).
 
 
-<a href="https://msdn.microsoft.com/6816f7fe-9a70-4c5f-bd45-d1ca96d4ebd0">AssocQueryStringByKey</a>
- 
+### -field URL_SCHEME_MSHELP
 
- 
+Internet Explorer 6 and later only. MSHelp (hcp:).
+
+
+### -field URL_SCHEME_MSSHELLDEVICE
+
+Not supported.
+
+
+### -field URL_SCHEME_WILDCARD
+
+Internet Explorer 7 and later only. Wildcard (*:).
+
+
+### -field URL_SCHEME_SEARCH_MS
+
+Windows Vista and later only. Search-MS (search-ms:).
+
+
+### -field URL_SCHEME_SEARCH
+
+Windows Vista with SP1 and later only. Search (search:).
+
+
+### -field URL_SCHEME_KNOWNFOLDER
+
+<b>Windows 7 and later</b>. Known folder (knownfolder:).
+
+
+### -field URL_SCHEME_MAXVALUE
+
+The highest legitimate value in the enumeration, used for validation purposes.
 

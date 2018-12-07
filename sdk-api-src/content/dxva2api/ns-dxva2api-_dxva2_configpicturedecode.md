@@ -7,7 +7,7 @@ old-location: mf\dxva2_configpicturedecode.htm
 tech.root: medfound
 ms.assetid: 1515cfa9-24ff-4c65-adca-f4143d36685c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 1515cfa9-24ff-4c65-adca-f4143d36685c, DXVA2_ConfigPictureDecode, DXVA2_ConfigPictureDecode structure [Media Foundation], _DXVA2_ConfigPictureDecode, dxva2api/DXVA2_ConfigPictureDecode, mf.dxva2_configpicturedecode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: PLOOKS_ALIVE_ROUTINE
 author: windows-sdk-content
 description: Determines whether a resource appears to be available for use.
 old-location: mscs\looksalive.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: cfc57325-847d-4f59-bee8-6a02b0a2ef32
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LooksAlive, LooksAlive callback, LooksAlive callback function [Failover Cluster], PLOOKS_ALIVE_ROUTINE, PLOOKS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_looksalive, mscs.looksalive, resapi/LooksAlive, resapi/PLOOKS_ALIVE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

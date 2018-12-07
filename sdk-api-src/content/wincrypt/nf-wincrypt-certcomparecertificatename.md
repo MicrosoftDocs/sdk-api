@@ -4,10 +4,10 @@ title: CertCompareCertificateName function
 author: windows-sdk-content
 description: The CertCompareCertificateName function compares two certificate CERT_NAME_BLOB structures to determine whether they are identical. The CERT_NAME_BLOB structures are used for the subject and the issuer of certificates.
 old-location: security\certcomparecertificatename.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 6249429d-0cb2-4209-9580-87185d44b967
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CertCompareCertificateName, CertCompareCertificateName function [Security], _crypto2_certcomparecertificatename, security.certcomparecertificatename, wincrypt/CertCompareCertificateName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertCompareCertificateName
-: 
 ---
 
 # CertCompareCertificateName function

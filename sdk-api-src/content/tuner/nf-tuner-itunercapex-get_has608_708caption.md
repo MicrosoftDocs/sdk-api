@@ -7,7 +7,7 @@ old-location: mstv\itunercapex_has608_708caption.htm
 tech.root: mstv
 ms.assetid: 4ed432e1-2206-4e87-832a-a2d2b4b7491c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Has608_708Caption property [Microsoft TV Technologies], Has608_708Caption property [Microsoft TV Technologies],ITunerCapEx interface, ITunerCapEx interface [Microsoft TV Technologies],Has608_708Caption property, ITunerCapEx.Has608_708Caption, ITunerCapEx.get_Has608_708Caption, ITunerCapEx::Has608_708Caption, ITunerCapEx::get_Has608_708Caption, get_Has608_708Caption, mstv.itunercapex_has608_708caption, tuner/ITunerCapEx::Has608_708Caption, tuner/ITunerCapEx::get_Has608_708Caption
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- ITunerCapEx.get_Has608_708Caption
-: 
 ---
 
 # ITunerCapEx::get_Has608_708Caption

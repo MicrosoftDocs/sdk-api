@@ -7,7 +7,7 @@ old-location: shell\SHSetTemporaryPropertyForItem.htm
 tech.root: shell
 ms.assetid: 779b1b2e-cd4b-404f-9d50-ac87b81640d2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHSetTemporaryPropertyForItem, SHSetTemporaryPropertyForItem function [Windows Shell], _shell_SHSetTemporaryPropertyForItem, shell.SHSetTemporaryPropertyForItem, shobjidl_core/SHSetTemporaryPropertyForItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHSetTemporaryPropertyForItem
-: 
 ---
 
 # SHSetTemporaryPropertyForItem function

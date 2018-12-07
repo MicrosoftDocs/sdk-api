@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_getfunccustdata.htm
 tech.root: automat
 ms.assetid: d3a7b13f-6296-45ee-9697-4d52b5965c4b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetFuncCustData, GetFuncCustData method [Automation], GetFuncCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetFuncCustData method, ITypeInfo2.GetFuncCustData, ITypeInfo2::GetFuncCustData, _oa96_ITypeInfo2_GetFuncCustData, automat.itypeinfo2_getfunccustdata, oaidl/ITypeInfo2::GetFuncCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- oaidl.h
-: 
-- ITypeInfo2.GetFuncCustData
-: 
 ---
 
 # ITypeInfo2::GetFuncCustData

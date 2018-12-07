@@ -4,10 +4,10 @@ title: ICertPropertySHA1Hash::Initialize
 author: windows-sdk-content
 description: Initializes the object from the SHA-1 hash of a certificate.
 old-location: security\icertpropertysha1hash_initialize_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 898da01b-94e6-4a07-9c53-f93378fbda8c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICertPropertySHA1Hash interface [Security],Initialize method, ICertPropertySHA1Hash.Initialize, ICertPropertySHA1Hash::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertySHA1Hash interface, certenroll/ICertPropertySHA1Hash::Initialize, security.icertpropertysha1hash_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICertPropertySHA1Hash.Initialize
-: 
 ---
 
 # ICertPropertySHA1Hash::Initialize

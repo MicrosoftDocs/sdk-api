@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt64VectorAlloc.htm
 tech.root: properties
 ms.assetid: 88947036-3745-48c6-ba61-dc139c3801d5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PropVariantToUInt64VectorAlloc, PropVariantToUInt64VectorAlloc function [Windows Properties], _shell_PropVariantToUInt64VectorAlloc, properties.PropVariantToUInt64VectorAlloc, propvarutil/PropVariantToUInt64VectorAlloc, shell.PropVariantToUInt64VectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantToUInt64VectorAlloc
-: 
 ---
 
 # PropVariantToUInt64VectorAlloc function

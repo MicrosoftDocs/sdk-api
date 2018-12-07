@@ -4,10 +4,10 @@ title: CertFindCertificateInCRL function
 author: windows-sdk-content
 description: The CertFindCertificateInCRL function searches the certificate revocation list (CRL) for the specified certificate.
 old-location: security\certfindcertificateincrl.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: c05a99e6-da38-431e-8d02-04056047a211
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CertFindCertificateInCRL, CertFindCertificateInCRL function [Security], _crypto2_certfindcertificateincrl, security.certfindcertificateincrl, wincrypt/CertFindCertificateInCRL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertFindCertificateInCRL
-: 
 ---
 
 # CertFindCertificateInCRL function

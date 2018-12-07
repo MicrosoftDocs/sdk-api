@@ -7,7 +7,7 @@ old-location: shell\RegisterAppStateChangeNotification.htm
 tech.root: shell
 ms.assetid: EE55F783-BF18-49F0-934E-67A252138565
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RegisterAppStateChangeNotification, RegisterAppStateChangeNotification function [Windows Shell], appnotify/RegisterAppStateChangeNotification, shell.RegisterAppStateChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegisterAppStateChangeNotification
-: 
 ---
 
 # RegisterAppStateChangeNotification function

@@ -4,10 +4,10 @@ title: UnregisterWait function
 author: windows-sdk-content
 description: Cancels a registered wait operation issued by the RegisterWaitForSingleObject function.
 old-location: base\unregisterwait.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 9ae8879f-0dbd-4d04-ae6e-094324f82acf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: UnregisterWait, UnregisterWait function, _win32_unregisterwait, base.unregisterwait, winbase/UnregisterWait
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UnregisterWait
-: 
 ---
 
 # UnregisterWait function

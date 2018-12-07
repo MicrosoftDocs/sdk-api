@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetState
 author: windows-sdk-content
 description: Retrieves the state of the job.
 old-location: bits\ibackgroundcopyjob_getstate.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 32789bd2-2368-473b-accf-ac6e317d0172
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetState, GetState method [BITS], GetState method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetState method, IBackgroundCopyJob.GetState, IBackgroundCopyJob::GetState, _drz_ibackgroundcopyjob_getstate, bits.ibackgroundcopyjob_getstate, bits/IBackgroundCopyJob::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.GetState
-: 
 ---
 
 # IBackgroundCopyJob::GetState
@@ -66,14 +58,7 @@ Retrieves the state of the job.
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - pJobState [out]
+### -param pVal [out]
 
 The state of the job. For example, the state reflects whether the job is in error, transferring data, or suspended. For a list of job states, see the 
 <a href="https://msdn.microsoft.com/en-us/library/Aa362809(v=VS.85).aspx">BG_JOB_STATE</a> enumeration.

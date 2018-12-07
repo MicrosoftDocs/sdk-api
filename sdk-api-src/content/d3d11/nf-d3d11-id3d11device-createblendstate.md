@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createblendstate.htm
 tech.root: direct3d11
 ms.assetid: 05b27d72-6ae5-4bab-8906-2d1373ea8d4c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 3e6800b8-cd67-743c-c74d-b23a9a29daea, CreateBlendState, CreateBlendState method [Direct3D 11], CreateBlendState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateBlendState method, ID3D11Device.CreateBlendState, ID3D11Device::CreateBlendState, d3d11/ID3D11Device::CreateBlendState, direct3d11.id3d11device_createblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11Device.CreateBlendState
-: 
 ---
 
 # ID3D11Device::CreateBlendState

@@ -4,10 +4,10 @@ title: DnsGetProxyInformation function
 author: windows-sdk-content
 description: The DnsGetProxyInformation function returns the proxy information for a DNS server's name resolution policy table.
 old-location: dns\dnsgetproxyinformation.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: fdc8eb09-e071-4f03-974a-2b11a657ab18
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DnsGetProxyInformation, DnsGetProxyInformation function [DNS], dns.dnsgetproxyinformation, windns/DnsGetProxyInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DnsGetProxyInformation
-: 
 ---
 
 # DnsGetProxyInformation function

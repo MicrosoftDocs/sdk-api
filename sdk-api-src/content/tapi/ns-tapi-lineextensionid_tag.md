@@ -4,10 +4,10 @@ title: lineextensionid_tag
 author: windows-sdk-content
 description: The LINEEXTENSIONID structure describes an extension identifier.
 old-location: tapi2\lineextensionid_str.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: bf7d9ccc-3f80-4e54-bcc2-cc2fef1d24af
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPLINEEXTENSIONID, LINEEXTENSIONID, LINEEXTENSIONID structure [TAPI 2.2], LPLINEEXTENSIONID, LPLINEEXTENSIONID structure pointer [TAPI 2.2], _tapi2_lineextensionid_str, lineextensionid_tag, tapi/LINEEXTENSIONID, tapi/LPLINEEXTENSIONID, tapi2.lineextensionid_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

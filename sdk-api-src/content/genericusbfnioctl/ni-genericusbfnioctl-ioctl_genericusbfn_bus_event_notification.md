@@ -7,7 +7,7 @@ old-location: buses\ioctl_genericusbfn_bus_event_notification.htm
 tech.root: usbref
 ms.assetid: 1DFDF22D-D86D-4875-B11D-45C0577B6281
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION, IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control, IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_genericusbfn_bus_event_notification, genericusbfnioctl/IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

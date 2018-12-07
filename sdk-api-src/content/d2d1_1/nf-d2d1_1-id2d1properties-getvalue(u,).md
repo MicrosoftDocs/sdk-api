@@ -4,10 +4,10 @@ title: ID2D1Properties::GetValue(U,)
 author: windows-sdk-content
 description: Gets the value of the property by index. This is a template overload. See Remarks.
 old-location: direct2d\id2d1properties_getvalue5.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 90E54C63-B584-4844-85B7-BCCF766D90E3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties.GetValue(U,), ID2D1Properties::GetValue, ID2D1Properties::GetValue(U), ID2D1Properties::GetValue(U,), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue5
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_1.h
-: 
-- ID2D1Properties.GetValue
-: 
 ---
 
 # ID2D1Properties::GetValue(U,)

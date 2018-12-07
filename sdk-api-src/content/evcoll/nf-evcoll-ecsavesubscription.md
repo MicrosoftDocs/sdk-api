@@ -7,7 +7,7 @@ old-location: wec\ecsavesubscription.htm
 tech.root: WEC
 ms.assetid: 41702fb8-5b39-4daa-8904-aa36de18665c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EcSaveSubscription, EcSaveSubscription function, evcoll/EcSaveSubscription, wec.ecsavesubscription, wes.ecsavesubscription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EcSaveSubscription
-: 
 ---
 
 # EcSaveSubscription function

@@ -7,7 +7,7 @@ old-location: fwp\fwpmfiltercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: fd8ffa91-a205-441c-9145-da8b441cef28
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmFilterCreateEnumHandle0, FwpmFilterCreateEnumHandle0 function [Filtering], fwp.fwpmfiltercreateenumhandle0_func, fwpmu/FwpmFilterCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmFilterCreateEnumHandle0
-: 
 ---
 
 # FwpmFilterCreateEnumHandle0 function

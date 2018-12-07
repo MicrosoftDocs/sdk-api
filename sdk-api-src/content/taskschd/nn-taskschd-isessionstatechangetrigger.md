@@ -4,10 +4,10 @@ title: ISessionStateChangeTrigger
 author: windows-sdk-content
 description: Triggers tasks for console connect or disconnect, remote connect or disconnect, or workstation lock or unlock notifications.
 old-location: taskschd\isessionstatechangetrigger.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 0bf56d67-6c44-4978-93a9-7b525f2bf140
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISessionStateChangeTrigger, ISessionStateChangeTrigger interface [Task Scheduler], ISessionStateChangeTrigger interface [Task Scheduler],described, taskschd.isessionstatechangetrigger, taskschd/ISessionStateChangeTrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xps\ptgetprintdevicecapabilities.htm
 tech.root: printdocs
 ms.assetid: DB9D63B1-2703-47F7-8F31-30FA0110E1E9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PTGetPrintDeviceCapabilities, PTGetPrintDeviceCapabilities function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceCapabilities, xps.ptgetprintdevicecapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PTGetPrintDeviceCapabilities
-: 
 ---
 
 # PTGetPrintDeviceCapabilities function

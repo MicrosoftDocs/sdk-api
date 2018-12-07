@@ -7,7 +7,7 @@ old-location: mstv\ienumguidedataproperties_skip.htm
 tech.root: mstv
 ms.assetid: bd8096cb-478a-4d23-b5e1-231c98ca21d1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Skip method, IEnumGuideDataProperties.Skip, IEnumGuideDataProperties::Skip, IEnumGuideDataPropertiesSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Skip, mstv.ienumguidedataproperties_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdatif.h
-: 
-- IEnumGuideDataProperties.Skip
-: 
 ---
 
 # IEnumGuideDataProperties::Skip

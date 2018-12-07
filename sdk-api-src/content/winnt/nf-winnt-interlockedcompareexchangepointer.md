@@ -4,10 +4,10 @@ title: InterlockedCompareExchangePointer function
 author: windows-sdk-content
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified pointer values and exchanges with another pointer value based on the outcome of the comparison.
 old-location: base\interlockedcompareexchangepointer.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 15c1fadd-9e0d-4254-ae14-82b0ce46909e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedCompareExchangePointer, InterlockedCompareExchangePointer function, _win32_interlockedcompareexchangepointer, base.interlockedcompareexchangepointer, winnt/InterlockedCompareExchangePointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InterlockedCompareExchangePointer
-: 
 ---
 
 # InterlockedCompareExchangePointer function

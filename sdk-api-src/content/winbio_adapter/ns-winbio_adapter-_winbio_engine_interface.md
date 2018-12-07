@@ -7,7 +7,7 @@ old-location: secbiomet\winbio_engine_interface.htm
 tech.root: SecBioMet
 ms.assetid: 04429f64-ae41-4c26-a777-bdb7aa92b685
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGINE_INTERFACE structure pointer [Windows Biometric Framework API], WINBIO_ENGINE_INTERFACE, WINBIO_ENGINE_INTERFACE structure [Windows Biometric Framework API], _WINBIO_ENGINE_INTERFACE, secbiomet.winbio_engine_interface, winbio_adapter/PWINBIO_ENGINE_INTERFACE, winbio_adapter/WINBIO_ENGINE_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

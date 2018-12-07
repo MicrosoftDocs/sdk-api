@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoder_beginframe.htm
 tech.root: medfound
 ms.assetid: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb, BeginFrame, BeginFrame method [Media Foundation], BeginFrame method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],BeginFrame method, IDirectXVideoDecoder.BeginFrame, IDirectXVideoDecoder::BeginFrame, dxva2api/IDirectXVideoDecoder::BeginFrame, mf.idirectxvideodecoder_beginframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxva2api.h
-: 
-- IDirectXVideoDecoder.BeginFrame
-: 
 ---
 
 # IDirectXVideoDecoder::BeginFrame

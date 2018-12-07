@@ -7,7 +7,7 @@ old-location: monitor\savecurrentsettings.htm
 tech.root: Monitor
 ms.assetid: e5903e52-d04c-4ac3-9566-eb4f2559464b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SaveCurrentSettings, SaveCurrentSettings function [Monitor Configuration], lowlevelmonitorconfigurationapi/SaveCurrentSettings, monitor.savecurrentsettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SaveCurrentSettings
-: 
 ---
 
 # SaveCurrentSettings function

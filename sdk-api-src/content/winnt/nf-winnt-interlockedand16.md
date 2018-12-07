@@ -4,10 +4,10 @@ title: InterlockedAnd16 function
 author: windows-sdk-content
 description: Performs an atomic AND operation on the specified SHORT values.
 old-location: base\interlockedand16.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 2fadfee3-929e-4087-a1c9-789a881c7a25
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedAnd16, InterlockedAnd16 function, base.interlockedand16, winnt/InterlockedAnd16
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InterlockedAnd16
-: 
 ---
 
 # InterlockedAnd16 function

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxactivity_cpp_mfax_faxactivity_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4krs.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxActivity interface [Fax Service],Refresh method, IFaxActivity.Refresh, IFaxActivity::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxActivity interface, _mfax_faxactivity.refresh, fax._mfax_faxactivity_cpp_mfax_faxactivity_refresh_cpp, fax._mfax_faxactivity_refresh, faxcomex/IFaxActivity::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxActivity.Refresh
-: 
 ---
 
 # IFaxActivity::Refresh

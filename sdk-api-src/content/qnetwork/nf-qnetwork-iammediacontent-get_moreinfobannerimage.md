@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_moreinfobannerimage.htm
 tech.root: DirectShow
 ms.assetid: ae456ce2-4df8-4a36-88f5-526acb722bda
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoBannerImage method, IAMMediaContent.get_MoreInfoBannerImage, IAMMediaContent::get_MoreInfoBannerImage, IAMMediaContentget_MoreInfoBannerImage, dshow.iammediacontent_get_moreinfobannerimage, get_MoreInfoBannerImage, get_MoreInfoBannerImage method [DirectShow], get_MoreInfoBannerImage method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoBannerImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qnetwork.h
-: 
-- IAMMediaContent.get_MoreInfoBannerImage
-: 
 ---
 
 # IAMMediaContent::get_MoreInfoBannerImage

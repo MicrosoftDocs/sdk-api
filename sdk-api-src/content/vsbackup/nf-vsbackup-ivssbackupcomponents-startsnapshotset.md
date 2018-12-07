@@ -4,10 +4,10 @@ title: IVssBackupComponents::StartSnapshotSet
 author: windows-sdk-content
 description: The StartSnapshotSet method creates a new, empty shadow copy set.
 old-location: base\ivssbackupcomponents_startsnapshotset.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 6a0a6228-2131-48a6-8d18-9491969d265b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVssBackupComponents interface [VSS],StartSnapshotSet method, IVssBackupComponents.StartSnapshotSet, IVssBackupComponents::StartSnapshotSet, StartSnapshotSet, StartSnapshotSet method [VSS], StartSnapshotSet method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_startsnapshotset, base.ivssbackupcomponents_startsnapshotset, vsbackup/IVssBackupComponents::StartSnapshotSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsbackup.h
-: 
-- IVssBackupComponents.StartSnapshotSet
-: 
 ---
 
 # IVssBackupComponents::StartSnapshotSet

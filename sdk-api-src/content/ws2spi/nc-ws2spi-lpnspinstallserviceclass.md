@@ -4,10 +4,10 @@ title: LPNSPINSTALLSERVICECLASS
 author: windows-sdk-content
 description: The NSPInstallServiceClass function registers service class schema within the namespace providers.
 old-location: winsock\nspinstallserviceclass_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 437a3580-e296-4f20-8921-84e522cccc1a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LPNSPINSTALLSERVICECLASS, NSPInstallServiceClass, NSPInstallServiceClass function [Winsock], _win32_nspinstallserviceclass_2, winsock.nspinstallserviceclass_2, ws2spi/NSPInstallServiceClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

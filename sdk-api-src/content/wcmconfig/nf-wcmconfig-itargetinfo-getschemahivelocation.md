@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_getschemahivelocation.htm
 tech.root: SMI
 ms.assetid: ad9accbd-0d23-40e6-8132-5a0c63a1b12a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetSchemaHiveLocation, GetSchemaHiveLocation method [SMI], GetSchemaHiveLocation method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetSchemaHiveLocation method, ITargetInfo.GetSchemaHiveLocation, ITargetInfo::GetSchemaHiveLocation, smi.itargetinfo_getschemahivelocation, wcmconfig/ITargetInfo::GetSchemaHiveLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wcmconfig.h
-: 
-- ITargetInfo.GetSchemaHiveLocation
-: 
 ---
 
 # ITargetInfo::GetSchemaHiveLocation

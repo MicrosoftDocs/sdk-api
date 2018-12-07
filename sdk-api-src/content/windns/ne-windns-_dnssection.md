@@ -4,10 +4,10 @@ title: "_DnsSection"
 author: windows-sdk-content
 description: The DNS_SECTION enumeration is used in record flags, and as an index into DNS wire message header section counts.
 old-location: dns\dns_section.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: d51ef2c7-c2bb-4eed-a026-a559460352b6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DNS_SECTION, DNS_SECTION enumeration [DNS], DnsSectionAddtional, DnsSectionAnswer, DnsSectionAuthority, DnsSectionQuestion, _DnsSection, dns.dns_section, windns/DNS_SECTION, windns/DnsSectionAddtional, windns/DnsSectionAnswer, windns/DnsSectionAuthority, windns/DnsSectionQuestion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: NetGetDisplayInformationIndex function
 author: windows-sdk-content
 description: The NetGetDisplayInformationIndex function returns the index of the first display information entry whose name begins with a specified string or whose name alphabetically follows the string.
 old-location: netmgmt\netgetdisplayinformationindex.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: c56b3cf9-e0a2-4b66-a518-70753b79214c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 1, 2, 3, NetGetDisplayInformationIndex, NetGetDisplayInformationIndex function [Network Management], _win32_netgetdisplayinformationindex, lmaccess/NetGetDisplayInformationIndex, netmgmt.netgetdisplayinformationindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetGetDisplayInformationIndex
-: 
 ---
 
 # NetGetDisplayInformationIndex function

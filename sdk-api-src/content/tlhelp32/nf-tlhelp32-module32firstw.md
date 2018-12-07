@@ -7,7 +7,7 @@ old-location: toolhelp\module32first.htm
 tech.root: ToolHelp
 ms.assetid: bb41cab9-13a1-469d-bf76-68c172e982f6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Module32First, Module32First function [ToolHelp], Module32FirstW, _win32_module32first, base.module32first, tlhelp32/Module32First, tlhelp32/Module32FirstW, toolhelp.module32first
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,12 +51,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Module32FirstW
-: 
 ---
 
 # Module32FirstW function

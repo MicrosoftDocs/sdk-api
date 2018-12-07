@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicbitmapdithertype.htm
 tech.root: wic
 ms.assetid: e3fd8f37-8ea9-4cdb-853b-d5119b7afdc9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WICBitmapDitherType, WICBitmapDitherType enumeration [Windows Imaging Component], WICBitmapDitherTypeDualSpiral4x4, WICBitmapDitherTypeDualSpiral8x8, WICBitmapDitherTypeErrorDiffusion, WICBitmapDitherTypeNone, WICBitmapDitherTypeOrdered16x16, WICBitmapDitherTypeOrdered4x4, WICBitmapDitherTypeOrdered8x8, WICBitmapDitherTypeSolid, WICBitmapDitherTypeSpiral4x4, WICBitmapDitherTypeSpiral8x8, _wic_codec_wicbitmapdithertype, wic._wic_codec_wicbitmapdithertype, wincodec/WICBitmapDitherType, wincodec/WICBitmapDitherTypeDualSpiral4x4, wincodec/WICBitmapDitherTypeDualSpiral8x8, wincodec/WICBitmapDitherTypeErrorDiffusion, wincodec/WICBitmapDitherTypeNone, wincodec/WICBitmapDitherTypeOrdered16x16, wincodec/WICBitmapDitherTypeOrdered4x4, wincodec/WICBitmapDitherTypeOrdered8x8, wincodec/WICBitmapDitherTypeSolid, wincodec/WICBitmapDitherTypeSpiral4x4, wincodec/WICBitmapDitherTypeSpiral8x8
 ms.prod: windows-hardware
 ms.technology: windows-devices

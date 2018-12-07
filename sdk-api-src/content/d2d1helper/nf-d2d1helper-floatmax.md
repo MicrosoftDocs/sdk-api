@@ -4,10 +4,10 @@ title: FloatMax function
 author: windows-sdk-content
 description: Returns the maximum floating-point value.
 old-location: direct2d\floatmax.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 93f0e030-b913-4b3b-bee8-c52eb19c63ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FloatMax, FloatMax function [Direct2D], d2d1helper/FloatMax, direct2d.floatmax
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FloatMax
-: 
 ---
 
 # FloatMax function

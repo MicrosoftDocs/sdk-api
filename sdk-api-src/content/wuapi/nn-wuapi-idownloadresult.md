@@ -4,10 +4,10 @@ title: IDownloadResult
 author: windows-sdk-content
 description: Represents the result of a download operation.
 old-location: wua\idownloadresult.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 293bea59-acec-4774-adb9-1ad1d29406c3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDownloadResult, IDownloadResult interface [Windows Update Agent], IDownloadResult interface [Windows Update Agent],described, wua.idownloadresult, wuapi/IDownloadResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

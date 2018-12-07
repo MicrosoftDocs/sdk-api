@@ -7,7 +7,7 @@ old-location: dhcp\dhcpaddsubnetelementv5.htm
 tech.root: DHCP
 ms.assetid: 200fc8da-d05c-4502-9cfc-d1092c5d0417
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpAddSubnetElementV5, DhcpAddSubnetElementV5 function [DHCP], dhcp.dhcpaddsubnetelementv5, dhcpsapi/DhcpAddSubnetElementV5
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpAddSubnetElementV5
-: 
 ---
 
 # DhcpAddSubnetElementV5 function

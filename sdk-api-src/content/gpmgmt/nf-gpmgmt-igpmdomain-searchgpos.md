@@ -4,10 +4,10 @@ title: IGPMDomain::SearchGPOs
 author: windows-sdk-content
 description: Executes a search for GPMGPO objects in the domain and then returns a GPMGPOCollection object.
 old-location: gpmc\igpmdomain_searchgpos.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 19a8efae-0b85-49ba-bf7e-08ed700874c3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPMDomain object [GPMC],SearchGPOs method, IGPMDomain interface [GPMC],SearchGPOs method, IGPMDomain.SearchGPOs, IGPMDomain::SearchGPOs, SearchGPOs, SearchGPOs method [GPMC], SearchGPOs method [GPMC],GPMDomain object, SearchGPOs method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchgpos, gpmc.igpmdomain_searchgpos, gpmgmt/IGPMDomain::SearchGPOs, gpoComputerExtensions, gpoDisplayName, gpoEffectivePermissions, gpoID, gpoPermissions, gpoUserExtensions, gpoWMIFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMDomain.SearchGPOs
-: 
 ---
 
 # IGPMDomain::SearchGPOs

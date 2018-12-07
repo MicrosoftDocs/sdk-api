@@ -4,10 +4,10 @@ title: MsiSummaryInfoSetPropertyA function
 author: windows-sdk-content
 description: The MsiSummaryInfoSetProperty function sets a single summary information property.
 old-location: setup\msisummaryinfosetproperty.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 0cd04068-537e-497a-97ff-7aea4e316b87
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MsiSummaryInfoSetProperty, MsiSummaryInfoSetProperty function, MsiSummaryInfoSetPropertyA, MsiSummaryInfoSetPropertyW, _msi_msisummaryinfosetproperty, msiquery/MsiSummaryInfoSetProperty, msiquery/MsiSummaryInfoSetPropertyA, msiquery/MsiSummaryInfoSetPropertyW, setup.msisummaryinfosetproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiSummaryInfoSetPropertyA
-: 
 ---
 
 # MsiSummaryInfoSetPropertyA function

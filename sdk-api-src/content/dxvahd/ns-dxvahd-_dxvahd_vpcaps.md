@@ -7,7 +7,7 @@ old-location: mf\dxvahd_vpcaps.htm
 tech.root: medfound
 ms.assetid: 25ec6802-ca6e-42d4-b1d5-de7597e3d042
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DXVAHD_VPCAPS, DXVAHD_VPCAPS structure [Media Foundation], _DXVAHD_VPCAPS, dxvahd/DXVAHD_VPCAPS, mf.dxvahd_vpcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

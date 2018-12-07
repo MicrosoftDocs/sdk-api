@@ -7,7 +7,7 @@ old-location: wes\evtgetobjectarraysize.htm
 tech.root: wes
 ms.assetid: fc4043ac-48eb-400b-8cf6-b83cbbb2765c
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: EvtGetObjectArraySize, EvtGetObjectArraySize function [EventLog], wes.evtgetobjectarraysize, winevt/EvtGetObjectArraySize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EvtGetObjectArraySize
-: 
 ---
 
 # EvtGetObjectArraySize function

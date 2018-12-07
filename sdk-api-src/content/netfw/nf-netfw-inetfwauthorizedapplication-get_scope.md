@@ -4,10 +4,10 @@ title: INetFwAuthorizedApplication::get_Scope
 author: windows-sdk-content
 description: Controls the network scope from which the port can listen.
 old-location: ics\inetfwauthorizedapplication_scope.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: f9784736-2af0-4bd4-980c-2365a1cdc20b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],Scope property, INetFwAuthorizedApplication.Scope, INetFwAuthorizedApplication.get_Scope, INetFwAuthorizedApplication::Scope, INetFwAuthorizedApplication::get_Scope, INetFwAuthorizedApplication::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwAuthorizedApplication interface, get_Scope, ics.inetfwauthorizedapplication_scope, netfw/INetFwAuthorizedApplication::Scope, netfw/INetFwAuthorizedApplication::get_Scope, netfw/INetFwAuthorizedApplication::put_Scope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwAuthorizedApplication.get_Scope
-: 
 ---
 
 # INetFwAuthorizedApplication::get_Scope

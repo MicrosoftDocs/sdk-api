@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_IsDecoded.htm
 tech.root: shell
 ms.assetid: f02dbf35-4dc7-4750-978d-b703338514df
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsDecoded method, IShellImageData.IsDecoded, IShellImageData::IsDecoded, IsDecoded, IsDecoded method [Windows Shell], IsDecoded method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsDecoded, shell.IShellImageData_IsDecoded, shimgdata/IShellImageData::IsDecoded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shimgdata.h
-: 
-- IShellImageData.IsDecoded
-: 
 ---
 
 # IShellImageData::IsDecoded

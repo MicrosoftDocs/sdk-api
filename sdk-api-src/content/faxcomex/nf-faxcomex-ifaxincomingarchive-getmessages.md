@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_getmessag
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1qnn.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetMessages, GetMessages method [Fax Service], GetMessages method [Fax Service],IFaxIncomingArchive interface, IFaxIncomingArchive interface [Fax Service],GetMessages method, IFaxIncomingArchive.GetMessages, IFaxIncomingArchive::GetMessages, _mfax_faxincomingarchive.getmessages, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_getmessages_cpp, fax._mfax_faxincomingarchive_getmessages, faxcomex/IFaxIncomingArchive::GetMessages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxIncomingArchive.GetMessages
-: 
 ---
 
 # IFaxIncomingArchive::GetMessages

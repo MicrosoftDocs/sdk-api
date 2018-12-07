@@ -4,10 +4,10 @@ title: ITDirectoryObjectUser::put_IPPhonePrimary
 author: windows-sdk-content
 description: The put_IPPhonePrimary method sets the name of a machine as the primary IP phone for a user.
 old-location: tapi3\itdirectoryobjectuser_put_ipphoneprimary.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: ba53ea12-7f05-4f68-8a59-915a5906b7be
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],put_IPPhonePrimary method, ITDirectoryObjectUser.put_IPPhonePrimary, ITDirectoryObjectUser::put_IPPhonePrimary, _tapi3_itdirectoryobjectuser_put_ipphoneprimary, put_IPPhonePrimary, put_IPPhonePrimary method [TAPI 2.2], put_IPPhonePrimary method [TAPI 2.2],ITDirectoryObjectUser interface, rend/ITDirectoryObjectUser::put_IPPhonePrimary, tapi3.itdirectoryobjectuser_put_ipphoneprimary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rend.h
-: 
-- ITDirectoryObjectUser.put_IPPhonePrimary
-: 
 ---
 
 # ITDirectoryObjectUser::put_IPPhonePrimary

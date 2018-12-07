@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecorddownloadlevel.htm
 tech.root: mstv
 ms.assetid: 22903a8d-effc-422b-bca2-907b19703b6d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordDownloadLevel, GetRecordDownloadLevel method [Microsoft TV Technologies], GetRecordDownloadLevel method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordDownloadLevel method, IISDB_SDTT.GetRecordDownloadLevel, IISDB_SDTT::GetRecordDownloadLevel, dvbsiparser/IISDB_SDTT::GetRecordDownloadLevel, mstv.iisdb_sdtt_getrecorddownloadlevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IISDB_SDTT.GetRecordDownloadLevel
-: 
 ---
 
 # IISDB_SDTT::GetRecordDownloadLevel

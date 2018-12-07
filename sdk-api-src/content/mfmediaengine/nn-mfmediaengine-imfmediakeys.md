@@ -7,7 +7,7 @@ old-location: mf\imfmediakeys.htm
 tech.root: medfound
 ms.assetid: 0689d938-e0be-46d7-bfed-add431331a90
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFMediaKeys, IMFMediaKeys interface [Media Foundation], IMFMediaKeys interface [Media Foundation],described, mf.imfmediakeys, mfmediaengine/IMFMediaKeys
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rm\drmgetmetadata.htm
 tech.root: AdRms_Sdk
 ms.assetid: bea3120a-11a2-42e9-bf1b-368cad25ede5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMGetMetaData, DRMGetMetaData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetMetaData, rm.drmgetmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DRMGetMetaData
-: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

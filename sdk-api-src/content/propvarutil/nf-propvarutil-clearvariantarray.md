@@ -7,7 +7,7 @@ old-location: properties\ClearVariantArray.htm
 tech.root: properties
 ms.assetid: 8126392e-d86c-420c-9f0d-ca7cb97030b0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ClearVariantArray, ClearVariantArray function [Windows Properties], _shell_ClearVariantArray, properties.ClearVariantArray, propvarutil/ClearVariantArray, shell.ClearVariantArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- ClearVariantArray
-: 
 ---
 
 # ClearVariantArray function

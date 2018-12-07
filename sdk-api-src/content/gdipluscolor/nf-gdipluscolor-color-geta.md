@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_GetA_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\geta.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Color class [GDI+],GetA method, Color.GetA, Color::GetA, GetA, GetA method [GDI+], GetA method [GDI+],Color class, _gdiplus_CLASS_Color_GetA_, gdiplus._gdiplus_CLASS_Color_GetA_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdipluscolor.h
-: 
-- Color.GetA
-: 
 req.product: GDI+ 1.0
 ---
 

@@ -7,7 +7,7 @@ old-location: com\cofreeunusedlibraries.htm
 tech.root: com
 ms.assetid: 188e9a3b-39cc-454e-af65-4ac797e275d4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CoFreeUnusedLibraries, CoFreeUnusedLibraries function [COM], _com_CoFreeUnusedLibraries, com.cofreeunusedlibraries, combaseapi/CoFreeUnusedLibraries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoFreeUnusedLibraries
-: 
 ---
 
 # CoFreeUnusedLibraries function

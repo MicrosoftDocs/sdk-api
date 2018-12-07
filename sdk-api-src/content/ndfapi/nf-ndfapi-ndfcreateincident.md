@@ -7,7 +7,7 @@ old-location: ndf\ndfcreateincident.htm
 tech.root: NDF
 ms.assetid: 8570a0e2-f02f-4812-a5c8-13b6e5feee6f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NdfCreateIncident, NdfCreateIncident function [NDF], ndf.ndfcreateincident, ndfapi/NdfCreateIncident
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NdfCreateIncident
-: 
 ---
 
 # NdfCreateIncident function

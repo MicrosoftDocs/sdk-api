@@ -7,7 +7,7 @@ old-location: wsw\wsgetwriterproperty.htm
 tech.root: wsw
 ms.assetid: 1167662f-0383-44bb-a7e1-1ec12539903e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsGetWriterProperty, WsGetWriterProperty function [Web Services for Windows], webservices/WsGetWriterProperty, wsw.wsgetwriterproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsGetWriterProperty
-: 
 ---
 
 # WsGetWriterProperty function

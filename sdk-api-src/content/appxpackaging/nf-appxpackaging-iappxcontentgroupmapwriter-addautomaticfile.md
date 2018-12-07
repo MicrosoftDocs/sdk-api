@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroupmapwriter_addautomaticfile.htm
 tech.root: appxpkg
 ms.assetid: 73F03332-8427-4470-9001-5EA9481BB05E
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: AddAutomaticFile, AddAutomaticFile method [App packaging and management], AddAutomaticFile method [App packaging and management],IAppxContentGroupMapWriter interface, IAppxContentGroupMapWriter interface [App packaging and management],AddAutomaticFile method, IAppxContentGroupMapWriter.AddAutomaticFile, IAppxContentGroupMapWriter::AddAutomaticFile, appxpackaging/IAppxContentGroupMapWriter::AddAutomaticFile, appxpkg.iappxcontentgroupmapwriter_addautomaticfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- appxpackaging.h
-: 
-- IAppxContentGroupMapWriter.AddAutomaticFile
-: 
 ---
 
 # IAppxContentGroupMapWriter::AddAutomaticFile

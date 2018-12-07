@@ -4,10 +4,10 @@ title: IMsmConfigurableItem::get_DisplayName
 author: windows-sdk-content
 description: The get_DisplayName method retrieves the DisplayName property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_displayname.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: f947e570-251d-4638-b8b8-aaa6f08bde46
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmConfigurableItem interface,get_DisplayName method, IMsmConfigurableItem.get_DisplayName, IMsmConfigurableItem::get_DisplayName, _msi_get_displayname_function, get_DisplayName, get_DisplayName method, get_DisplayName method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_DisplayName, setup.imsmconfigurableitem_get_displayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mergemod.h
-: 
-- IMsmConfigurableItem.get_DisplayName
-: 
 ---
 
 # IMsmConfigurableItem::get_DisplayName

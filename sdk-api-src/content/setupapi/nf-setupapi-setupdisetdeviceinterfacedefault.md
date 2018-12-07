@@ -7,7 +7,7 @@ old-location: devinst\setupdisetdeviceinterfacedefault.htm
 tech.root: devinst
 ms.assetid: 1be4dd1e-6bef-4ef6-9db3-6725c27ec16d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetupDiSetDeviceInterfaceDefault, SetupDiSetDeviceInterfaceDefault function [Device and Driver Installation], devinst.setupdisetdeviceinterfacedefault, di-rtns_3c21b60f-d837-4c08-8e1c-816bd88e9ba7.xml, setupapi/SetupDiSetDeviceInterfaceDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiSetDeviceInterfaceDefault
-: 
 ---
 
 # SetupDiSetDeviceInterfaceDefault function

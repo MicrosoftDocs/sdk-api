@@ -7,7 +7,7 @@ old-location: intl\getuserdefaultgeoname.htm
 tech.root: Intl
 ms.assetid: 7938A5A1-E18E-4643-A07C-3354B4E94B5D
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetUserDefaultGeoName, GetUserDefaultGeoName function [Internationalization for Windows Applications], intl.getuserdefaultgeoname, winnls/GetUserDefaultGeoName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetUserDefaultGeoName
-: 
 ---
 
 # GetUserDefaultGeoName function

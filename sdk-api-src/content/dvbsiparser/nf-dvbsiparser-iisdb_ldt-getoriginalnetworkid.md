@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getoriginalnetworkid.htm
 tech.root: mstv
 ms.assetid: a887536d-7ccb-4c28-8ea7-ded90683c036
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IISDB_LDT.GetOriginalNetworkId, IISDB_LDT::GetOriginalNetworkId, dvbsiparser/IISDB_LDT::GetOriginalNetworkId, mstv.iisdb_ldt_getoriginalnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IISDB_LDT.GetOriginalNetworkId
-: 
 ---
 
 # IISDB_LDT::GetOriginalNetworkId

@@ -7,7 +7,7 @@ old-location: termserv\itssbtarget_numsessions.htm
 tech.root: termserv
 ms.assetid: 6163f4c3-135c-4282-91ac-d01cfb0cec05
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],NumSessions property, ITsSbTarget.NumSessions, ITsSbTarget.get_NumSessions, ITsSbTarget::NumSessions, ITsSbTarget::get_NumSessions, ITsSbTargetEx interface [Remote Desktop Services],NumSessions property, ITsSbTargetEx.NumSessions, ITsSbTargetEx::get_NumSessions, NumSessions property [Remote Desktop Services], NumSessions property [Remote Desktop Services],ITsSbTarget interface, NumSessions property [Remote Desktop Services],ITsSbTargetEx interface, get_NumSessions, sbtsv/ITsSbTarget::NumSessions, sbtsv/ITsSbTarget::get_NumSessions, sbtsv/ITsSbTargetEx::NumSessions, sbtsv/ITsSbTargetEx::get_NumSessions, termserv.itssbtarget_numsessions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbtsv.h
-: 
-- ITsSbTarget.get_NumSessions
-: 
 ---
 
 # ITsSbTarget::get_NumSessions

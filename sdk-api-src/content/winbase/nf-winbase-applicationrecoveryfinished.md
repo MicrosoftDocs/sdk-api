@@ -7,7 +7,7 @@ old-location: recovery\applicationrecoveryfinished.htm
 tech.root: Recovery
 ms.assetid: 2c9309c5-c36d-4b68-a642-ed087024dba1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ApplicationRecoveryFinished, ApplicationRecoveryFinished function [Recovery], recovery.applicationrecoveryfinished, winbase/ApplicationRecoveryFinished
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ApplicationRecoveryFinished
-: 
 ---
 
 # ApplicationRecoveryFinished function

@@ -4,10 +4,10 @@ title: "__MIDL_IBackgroundCopyJob2_0004"
 author: windows-sdk-content
 description: The BG_AUTH_CREDENTIALS_UNION union identifies the credentials to use for the authentication scheme specified in the BG_AUTH_CREDENTIALS structure.
 old-location: bits\bg_auth_credentials_union.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: c16c616c-f4cb-483d-8a15-6ff9d45762ae
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: BG_AUTH_CREDENTIALS_UNION, BG_AUTH_CREDENTIALS_UNION union [BITS], __MIDL_IBackgroundCopyJob2_0004, _drz_bg_auth_credentials_union, bits.bg_auth_credentials_union, bits1_5/BG_AUTH_CREDENTIALS_UNION
 ms.prod: windows-hardware
 ms.technology: windows-devices

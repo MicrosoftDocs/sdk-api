@@ -7,7 +7,7 @@ old-location: mf\imfcaptureengineoneventcallback_onevent.htm
 tech.root: medfound
 ms.assetid: 26C5B2E5-0543-49FC-915A-DCE097FF66BA
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFCaptureEngineOnEventCallback interface [Media Foundation],OnEvent method, IMFCaptureEngineOnEventCallback.OnEvent, IMFCaptureEngineOnEventCallback::OnEvent, OnEvent, OnEvent method [Media Foundation], OnEvent method [Media Foundation],IMFCaptureEngineOnEventCallback interface, mf.imfcaptureengineoneventcallback_onevent, mfcaptureengine/IMFCaptureEngineOnEventCallback::OnEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfcaptureengine.h
-: 
-- IMFCaptureEngineOnEventCallback.OnEvent
-: 
 ---
 
 # IMFCaptureEngineOnEventCallback::OnEvent

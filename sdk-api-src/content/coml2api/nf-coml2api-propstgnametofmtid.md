@@ -4,10 +4,10 @@ title: PropStgNameToFmtId function
 author: windows-sdk-content
 description: Converts a property set storage or stream name to its format identifier.
 old-location: stg\propstgnametofmtid.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: bbbaf5a3-df17-42fd-ba2b-ad5b572c8a3f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PropStgNameToFmtId, PropStgNameToFmtId function [Structured Storage], _stg_propstgnametofmtid, coml2api/PropStgNameToFmtId, stg.propstgnametofmtid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PropStgNameToFmtId
-: 
 ---
 
 # PropStgNameToFmtId function

@@ -7,7 +7,7 @@ old-location: com\comarshalhresult.htm
 tech.root: com
 ms.assetid: 37aaf404-49ca-4881-a369-44c5288abf1d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CoMarshalHresult, CoMarshalHresult function [COM], _com_CoMarshalHresult, com.comarshalhresult, combaseapi/CoMarshalHresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoMarshalHresult
-: 
 ---
 
 # CoMarshalHresult function

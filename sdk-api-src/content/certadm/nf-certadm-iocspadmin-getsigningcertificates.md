@@ -4,10 +4,10 @@ title: IOCSPAdmin::GetSigningCertificates
 author: windows-sdk-content
 description: Gets the signing certificates that are available on a responder server for a given certification authority (CA) certificate.
 old-location: security\iocspadmin_getsigningcertificates.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 762dc32f-90d4-4e88-a3cc-e77e729f0a98
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetSigningCertificates, GetSigningCertificates method [Security], GetSigningCertificates method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSigningCertificates method, IOCSPAdmin.GetSigningCertificates, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certadm.h
-: 
-- IOCSPAdmin.GetSigningCertificates
-: 
 ---
 
 # IOCSPAdmin::GetSigningCertificates

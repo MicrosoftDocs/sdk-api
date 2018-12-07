@@ -4,10 +4,10 @@ title: WSAProviderCompleteAsyncCall function
 author: windows-sdk-content
 description: Notifies a client when an asynchronous call to a namespace version-2 provider is completed.
 old-location: winsock\wsaprovidercompleteasynccall.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 2bbc20ae-ad6d-47f6-8ca9-dd5559236fbe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSAProviderCompleteAsyncCall, WSAProviderCompleteAsyncCall function [Winsock], winsock.wsaprovidercompleteasynccall, ws2spi/WSAProviderCompleteAsyncCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSAProviderCompleteAsyncCall
-: 
 ---
 
 # WSAProviderCompleteAsyncCall function

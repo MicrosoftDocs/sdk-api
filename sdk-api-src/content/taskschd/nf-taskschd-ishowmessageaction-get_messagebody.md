@@ -4,10 +4,10 @@ title: IShowMessageAction::get_MessageBody
 author: windows-sdk-content
 description: Gets or sets the message text that is displayed in the body of the message box.
 old-location: taskschd\ishowmessageaction_messagebody.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 7a9e4140-a010-4922-83d2-a063322640c6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IShowMessageAction interface [Task Scheduler],MessageBody property, IShowMessageAction.MessageBody, IShowMessageAction.get_MessageBody, IShowMessageAction::MessageBody, IShowMessageAction::get_MessageBody, IShowMessageAction::put_MessageBody, MessageBody property [Task Scheduler], MessageBody property [Task Scheduler],IShowMessageAction interface, get_MessageBody, taskschd.ishowmessageaction_messagebody, taskschd/IShowMessageAction::MessageBody, taskschd/IShowMessageAction::get_MessageBody, taskschd/IShowMessageAction::put_MessageBody
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IShowMessageAction.get_MessageBody
-: 
 ---
 
 # IShowMessageAction::get_MessageBody

@@ -4,10 +4,10 @@ title: IUPnPDevice::get_Type
 author: windows-sdk-content
 description: The Type method specifies the device type uniform resource identifier (URI) for the device.
 old-location: upnp\iupnpdevice_type.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 3db09e94-4211-44ff-850e-2e34719909d6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_Type method, IUPnPDevice.get_Type, IUPnPDevice::get_Type, _upnp_iupnpdevice_type, get_Type, get_Type method [UPnP APIs], get_Type method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_type, upnp/IUPnPDevice::get_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDevice.get_Type
-: 
 ---
 
 # IUPnPDevice::get_Type

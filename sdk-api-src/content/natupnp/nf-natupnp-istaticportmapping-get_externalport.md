@@ -4,10 +4,10 @@ title: IStaticPortMapping::get_ExternalPort
 author: windows-sdk-content
 description: The get_ExternalPort method retrieves the external port on the NAT computer for this port mapping.
 old-location: ics\istaticportmapping_get_externalport.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 2a63d036-37d5-4686-a19e-11fd5dab6f64
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_ExternalPort method, IStaticPortMapping.get_ExternalPort, IStaticPortMapping::get_ExternalPort, _ics_istaticportmapping_get_externalport, get_ExternalPort, get_ExternalPort method [ICS/ICF], get_ExternalPort method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_externalport, natupnp/IStaticPortMapping::get_ExternalPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- natupnp.h
-: 
-- IStaticPortMapping.get_ExternalPort
-: 
 ---
 
 # IStaticPortMapping::get_ExternalPort

@@ -4,10 +4,10 @@ title: IUpdate::get_InstallationBehavior
 author: windows-sdk-content
 description: Gets an interface that contains the installation options of the update.
 old-location: wua\iupdate_installationbehavior.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: f02e5ebc-a8ea-496b-a79e-52644b98e75d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdate interface [Windows Update Agent],InstallationBehavior property, IUpdate.InstallationBehavior, IUpdate.get_InstallationBehavior, IUpdate::InstallationBehavior, IUpdate::get_InstallationBehavior, InstallationBehavior property [Windows Update Agent], InstallationBehavior property [Windows Update Agent],IUpdate interface, get_InstallationBehavior, wua.iupdate_installationbehavior, wuapi/IUpdate::InstallationBehavior, wuapi/IUpdate::get_InstallationBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdate.get_InstallationBehavior
-: 
 ---
 
 # IUpdate::get_InstallationBehavior

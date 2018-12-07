@@ -4,10 +4,10 @@ title: ResUtilAddUnknownProperties function
 author: windows-sdk-content
 description: Retrieves a set of unknown properties from the cluster database and appends them to the end of a property list.
 old-location: mscs\resutiladdunknownproperties.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 17659c86-d7cc-4316-ba0e-ce71de727fa1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_ADD_UNKNOWN_PROPERTIES, PRESUTIL_ADD_UNKNOWN_PROPERTIES function [Failover Cluster], ResUtilAddUnknownProperties, ResUtilAddUnknownProperties function [Failover Cluster], _wolf_resutiladdunknownproperties, mscs.resutiladdunknownproperties, resapi/PRESUTIL_ADD_UNKNOWN_PROPERTIES, resapi/ResUtilAddUnknownProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResUtilAddUnknownProperties
-: 
 ---
 
 # ResUtilAddUnknownProperties function

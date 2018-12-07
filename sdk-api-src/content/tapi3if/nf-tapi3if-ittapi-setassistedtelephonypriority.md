@@ -4,10 +4,10 @@ title: ITTAPI::SetAssistedTelephonyPriority
 author: windows-sdk-content
 description: The SetAssistedTelephonyPriority method sets the application priority to handle assisted telephony requests.
 old-location: tapi3\ittapi_setassistedtelephonypriority.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 446fd541-30af-45de-85fa-d6655317362c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],SetAssistedTelephonyPriority method, ITTAPI.SetAssistedTelephonyPriority, ITTAPI::SetAssistedTelephonyPriority, SetAssistedTelephonyPriority, SetAssistedTelephonyPriority method [TAPI 2.2], SetAssistedTelephonyPriority method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_setassistedtelephonypriority, tapi3.ittapi_setassistedtelephonypriority, tapi3if/ITTAPI::SetAssistedTelephonyPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITTAPI.SetAssistedTelephonyPriority
-: 
 ---
 
 # ITTAPI::SetAssistedTelephonyPriority

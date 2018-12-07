@@ -4,10 +4,10 @@ title: NetConfigGetAll function
 author: windows-sdk-content
 description: The NetConfigGetAll function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.
 old-location: netmgmt\netconfiggetall.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 1819f3d0-5e85-454b-947a-ae5e3db30987
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: NetConfigGetAll, NetConfigGetAll function [Network Management], _win32_netconfiggetall, lmconfig/NetConfigGetAll, netmgmt.netconfiggetall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetConfigGetAll
-: 
 ---
 
 # NetConfigGetAll function

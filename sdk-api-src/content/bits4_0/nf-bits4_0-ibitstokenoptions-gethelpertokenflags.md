@@ -4,10 +4,10 @@ title: IBitsTokenOptions::GetHelperTokenFlags
 author: windows-sdk-content
 description: Returns the usage flags for a token that is associated with a BITS transfer job.
 old-location: bits\ibitstokenoptions_gethelpertokenflags.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: d00596bf-7695-4a5e-8d13-4700876fdef6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: BG_TOKEN_LOCAL_FILE, BG_TOKEN_NETWORK, GetHelperTokenFlags, GetHelperTokenFlags method [BITS], GetHelperTokenFlags method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenFlags method, IBitsTokenOptions.GetHelperTokenFlags, IBitsTokenOptions::GetHelperTokenFlags, bits.ibitstokenoptions_gethelpertokenflags, bits4_0/IBitsTokenOptions::GetHelperTokenFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2
-- apiref
-: 
-- COM
-: 
-- bits4_0.h
-: 
-- IBitsTokenOptions.GetHelperTokenFlags
-: 
 ---
 
 # IBitsTokenOptions::GetHelperTokenFlags

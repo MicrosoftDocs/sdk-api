@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator2.htm
 tech.root: mstv
 ms.assetid: 337fba05-80d5-4638-9936-2e02767a5b1b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator2, IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies], IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],described, bdaiface/IBDA_DigitalDemodulator2, mstv.ibda_digitaldemodulator2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetclientinfovq.htm
 tech.root: DHCP
 ms.assetid: e8ed729b-12c2-4179-b7ef-6c71acf2672e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpGetClientInfoVQ, DhcpGetClientInfoVQ function [DHCP], dhcp.dhcpgetclientinfovq, dhcpsapi/DhcpGetClientInfoVQ
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpGetClientInfoVQ
-: 
 ---
 
 # DhcpGetClientInfoVQ function

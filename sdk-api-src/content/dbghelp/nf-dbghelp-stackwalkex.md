@@ -4,10 +4,10 @@ title: StackWalkEx function
 author: windows-sdk-content
 description: Obtains a stack trace.
 old-location: base\stackwalkex.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 87765e30-b444-4f68-b11f-1be73e0775fc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, SYM_STKWALK_DEFAULT, SYM_STKWALK_FORCE_FRAMEPTR, StackWalkEx, StackWalkEx function, base.stackwalkex, dbghelp/StackWalkEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
-- apiref
-: 
-- 
-: 
-- StackWalkEx
-: 
 ---
 
 # StackWalkEx function

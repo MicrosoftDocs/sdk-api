@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextgetbyid0.htm
 tech.root: fwp
 ms.assetid: a5bfd0e6-0113-4953-954c-d58e9cda91f0
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IPsecSaContextGetById0, IPsecSaContextGetById0 function [Filtering], fwp.ipsecsacontextgetbyid0, fwpmu/IPsecSaContextGetById0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecSaContextGetById0
-: 
 ---
 
 # IPsecSaContextGetById0 function

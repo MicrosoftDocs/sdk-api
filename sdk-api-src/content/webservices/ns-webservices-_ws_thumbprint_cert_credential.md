@@ -7,7 +7,7 @@ old-location: wsw\ws_thumbprint_cert_credential.htm
 tech.root: wsw
 ms.assetid: b1e7b6a6-1f71-4bcd-9c0e-9a46b963b19b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_THUMBPRINT_CERT_CREDENTIAL, WS_THUMBPRINT_CERT_CREDENTIAL structure [Web Services for Windows], _WS_THUMBPRINT_CERT_CREDENTIAL, webservices/WS_THUMBPRINT_CERT_CREDENTIAL, wsw.ws_thumbprint_cert_credential
 ms.prod: windows-hardware
 ms.technology: windows-devices

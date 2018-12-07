@@ -7,7 +7,7 @@ old-location: multimedia\sndopensound.htm
 tech.root: Multimedia
 ms.assetid: 59871C13-4275-4E69-AFE5-989998C9AB69
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: mmiscapi/sndOpenSound, multimedia.sndopensound, sndOpenSound, sndOpenSound function [Windows Multimedia]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- sndOpenSound
-: 
 ---
 
 # sndOpenSound function

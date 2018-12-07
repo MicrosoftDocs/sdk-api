@@ -4,10 +4,10 @@ title: PstGetUserNameForCertificate function
 author: windows-sdk-content
 description: Retrieves the user name associated with the specified certificate.
 old-location: security\pstgetusernameforcertificate.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: abef13bc-0d63-4c71-a1cb-9ade26b41da3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PstGetUserNameForCertificate, PstGetUserNameForCertificate function [Security], certpoleng/PstGetUserNameForCertificate, security.pstgetusernameforcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PstGetUserNameForCertificate
-: 
 ---
 
 # PstGetUserNameForCertificate function

@@ -7,7 +7,7 @@ old-location: iphlp\icmpclosehandle.htm
 tech.root: IpHlp
 ms.assetid: ce8f11bb-1e33-41bd-adb9-c18efadd4d0b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IcmpCloseHandle, IcmpCloseHandle function [IP Helper], _iphlp_icmpclosehandle, icmpapi/IcmpCloseHandle, iphlp.icmpclosehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IcmpCloseHandle
-: 
 ---
 
 # IcmpCloseHandle function

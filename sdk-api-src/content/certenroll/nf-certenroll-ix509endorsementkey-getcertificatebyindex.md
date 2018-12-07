@@ -4,10 +4,10 @@ title: IX509EndorsementKey::GetCertificateByIndex
 author: windows-sdk-content
 description: Gets the endorsement certificate associated with the endorsement key from the key storage provider for the specified index.
 old-location: security\ix509endorsementkey_getcertificatebyindex.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: ab1eb37a-d79e-4d02-8e60-6c093f42c68f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCertificateByIndex, GetCertificateByIndex method [Security], GetCertificateByIndex method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],GetCertificateByIndex method, IX509EndorsementKey.GetCertificateByIndex, IX509EndorsementKey::GetCertificateByIndex, certenroll/IX509EndorsementKey::GetCertificateByIndex, security.ix509endorsementkey_getcertificatebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509EndorsementKey.GetCertificateByIndex
-: 
 ---
 
 # IX509EndorsementKey::GetCertificateByIndex

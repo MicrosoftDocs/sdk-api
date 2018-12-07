@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_PrevPage.htm
 tech.root: shell
 ms.assetid: d3a4f07e-a1c0-4180-a02c-12eaebaaf1d2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IShellImageData interface [Windows Shell],PrevPage method, IShellImageData.PrevPage, IShellImageData::PrevPage, PrevPage, PrevPage method [Windows Shell], PrevPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_PrevPage, shell.IShellImageData_PrevPage, shimgdata/IShellImageData::PrevPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shimgdata.h
-: 
-- IShellImageData.PrevPage
-: 
 ---
 
 # IShellImageData::PrevPage

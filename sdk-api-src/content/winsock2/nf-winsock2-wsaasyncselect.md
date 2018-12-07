@@ -4,10 +4,10 @@ title: WSAAsyncSelect function
 author: windows-sdk-content
 description: Requests Windows message-based notification of network events for a socket.
 old-location: winsock\wsaasyncselect_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: a4d3f599-358c-4a94-91eb-7e1c80244250
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSAAsyncSelect, WSAAsyncSelect function [Winsock], _win32_wsaasyncselect_2, winsock.wsaasyncselect_2, winsock/WSAAsyncSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSAAsyncSelect
-: 
 ---
 
 # WSAAsyncSelect function

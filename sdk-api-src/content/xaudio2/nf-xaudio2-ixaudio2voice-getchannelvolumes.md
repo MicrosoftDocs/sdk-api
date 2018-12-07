@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voice_interface_getchannelvolumes.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetChannelVolumes(UINT32,float@)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetChannelVolumes, GetChannelVolumes method [XAudio2 Audio Mixing APIs], GetChannelVolumes method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetChannelVolumes method, IXAudio2Voice.GetChannelVolumes, IXAudio2Voice::GetChannelVolumes, xaudio2.ixaudio2voice_interface_getchannelvolumes, xaudio2/IXAudio2Voice::GetChannelVolumes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xaudio2.h
-: 
-- IXAudio2Voice.GetChannelVolumes
-: 
 ---
 
 # IXAudio2Voice::GetChannelVolumes

@@ -2,13 +2,13 @@
 UID: NF:gdiplusmatrix.Matrix.Matrix(IN const RectF &,IN const PointF)
 title: Matrix::Matrix(IN const RectF &,IN const PointF)
 author: windows-sdk-content
-description: Creates and initializes a Matrix::Matrix object that represents the identity matrix.
-old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_.htm
+description: Creates a Matrix::Matrix object based on a rectangle and a point.
+old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_RectF_rect_PointF_dstplg_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_53.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_21rectfamprect_pointfdstplg.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(), Matrix.Matrix(IN const RectF &,IN const PointF), Matrix::Matrix, Matrix::Matrix(IN const RectF &,IN const PointF), _gdiplus_CLASS_Matrix_Matrix_, gdiplus._gdiplus_CLASS_Matrix_Matrix_
+ms.date: 12/5/2018
+ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(IN const RectF &,IN const PointF), Matrix.Matrix(const RectF&,const PointF*), Matrix::Matrix, Matrix::Matrix(IN const RectF &,IN const PointF), _gdiplus_CLASS_Matrix_Matrix_RectF_rect_PointF_dstplg_, gdiplus._gdiplus_CLASS_Matrix_Matrix_RectF_rect_PointF_dstplg_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusmatrix.h
-: 
-- Matrix.Matrix
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -59,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates and initializes a <b>Matrix::Matrix</b> object that represents the identity matrix.
+Creates a <b>Matrix::Matrix</b> object based on a rectangle and a point.
 
 
 ## -parameters
@@ -67,16 +59,18 @@ Creates and initializes a <b>Matrix::Matrix</b> object that represents the ident
 
 
 
-### -param rect
+### -param rect [in, ref]
 
-TBD
+Type: <b>const <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a></b>
 
-
-### -param dstplg
-
-TBD
+Reference to a <a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> object. The <b>X</b> data member of the rectangle specifies the matrix element in row 1, column 1. The <b>Y</b> data member of the rectangle specifies the matrix element in row 1, column 2. The <b>Width</b> data member of the rectangle specifies the matrix element in row 2, column 1. The <b>Height</b> data member of the rectangle specifies the matrix element in row 2, column 2. 
 
 
+### -param dstplg [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>*</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object. The <b>X</b> data member of the point specifies the matrix element in row 3, column 1. The <b>Y</b> data member of the point specifies the matrix element in row 3, column 2. 
 
 
 ## -see-also
@@ -97,6 +91,14 @@ TBD
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
+
+
+
+<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
+
+
+
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 

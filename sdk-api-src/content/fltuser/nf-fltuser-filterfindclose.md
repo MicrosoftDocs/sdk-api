@@ -7,7 +7,7 @@ old-location: ifsk\filterfindclose.htm
 tech.root: ifsk
 ms.assetid: 053c06b0-3bfd-436c-ab98-14c55e66da53
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FilterFindClose, FilterFindClose function [Installable File System Drivers], FltWin32ApiRef_37b77edb-bee8-40ca-803f-4091417ef714.xml, fltuser/FilterFindClose, ifsk.filterfindclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FilterFindClose
-: 
 ---
 
 # FilterFindClose function

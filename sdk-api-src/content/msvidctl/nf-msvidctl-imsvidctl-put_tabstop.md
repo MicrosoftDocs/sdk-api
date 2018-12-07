@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_put_tabstop.htm
 tech.root: mstv
 ms.assetid: c0e3d216-ea3f-4db4-80fd-aaf4d520ba1a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_TabStop method, IMSVidCtl.put_TabStop, IMSVidCtl::put_TabStop, IMSVidCtlput_TabStop, mstv.imsvidctl_put_tabstop, msvidctl/IMSVidCtl::put_TabStop, put_TabStop, put_TabStop method [Microsoft TV Technologies], put_TabStop method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msvidctl.h
-: 
-- IMSVidCtl.put_TabStop
-: 
 ---
 
 # IMSVidCtl::put_TabStop

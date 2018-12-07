@@ -4,10 +4,10 @@ title: "_VDS_PATH_POLICY"
 author: windows-sdk-content
 description: Defines the load balance policy as it applies to a particular path.
 old-location: base\vds_path_policy.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 7dec1d91-6781-42fa-9476-bb64e2554017
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VDS_PATH_POLICY, VDS_PATH_POLICY structure [VDS], _VDS_PATH_POLICY, base.vds_path_policy, vds/VDS_PATH_POLICY, vdshwprv/VDS_PATH_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices

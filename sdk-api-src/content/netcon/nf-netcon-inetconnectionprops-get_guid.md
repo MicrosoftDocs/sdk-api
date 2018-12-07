@@ -4,10 +4,10 @@ title: INetConnectionProps::get_Guid
 author: windows-sdk-content
 description: The get_Guid method retrieves the globally-unique identifier (GUID) for the connection.
 old-location: ics\inetconnectionprops_get_guid.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: df094bda-2e0f-4ff4-aff5-77d1703f8dee
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Guid method, INetConnectionProps.get_Guid, INetConnectionProps::get_Guid, _ics_inetconnectionprops_get_guid, get_Guid, get_Guid method [ICS/ICF], get_Guid method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_guid, netcon/INetConnectionProps::get_Guid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netcon.h
-: 
-- INetConnectionProps.get_Guid
-: 
 ---
 
 # INetConnectionProps::get_Guid

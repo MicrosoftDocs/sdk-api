@@ -7,7 +7,7 @@ old-location: rstmgr\rmgetfilterlist.htm
 tech.root: rstmgr
 ms.assetid: 61427838-8b23-4105-93fd-55f457fd43a7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: RmGetFilterList, RmGetFilterList function [Restart Mgr], restartmanager/RmGetFilterList, rstmgr.rmgetfilterlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RmGetFilterList
-: 
 ---
 
 # RmGetFilterList function

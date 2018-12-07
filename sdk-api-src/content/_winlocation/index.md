@@ -2,7 +2,7 @@
 UID: TP:winlocation
 ms.assetid: 2a5fa965-1b15-3465-91e6-0823cc0eceb6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

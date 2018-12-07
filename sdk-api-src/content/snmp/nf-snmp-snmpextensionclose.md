@@ -7,7 +7,7 @@ old-location: snmp\snmpextensionclose.htm
 tech.root: SNMP
 ms.assetid: 19fcac27-daa1-40e2-9038-7f03279381f0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpExtensionClose, SnmpExtensionClose callback, SnmpExtensionClose callback function [SNMP], _snmp_snmpextensionclose, snmp.snmpextensionclose, snmp/SnmpExtensionClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpExtensionClose
-: 
 ---
 
 # SnmpExtensionClose function

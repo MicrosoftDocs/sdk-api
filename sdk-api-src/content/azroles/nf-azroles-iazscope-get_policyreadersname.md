@@ -4,10 +4,10 @@ title: IAzScope::get_PolicyReadersName
 author: windows-sdk-content
 description: Retrieves the account names of principals that act as policy readers.
 old-location: security\iazscope_policyreadersname.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 4f56ee3f-f987-4569-9e19-c13ab3ff100a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AzScope object [Security],PolicyReadersName property, IAzScope interface [Security],PolicyReadersName property, IAzScope.PolicyReadersName, IAzScope.get_PolicyReadersName, IAzScope::PolicyReadersName, IAzScope::get_PolicyReadersName, PolicyReadersName property [Security], PolicyReadersName property [Security],AzScope object, PolicyReadersName property [Security],IAzScope interface, azroles/IAzScope::PolicyReadersName, azroles/IAzScope::get_PolicyReadersName, get_PolicyReadersName, security.iazscope_policyreadersname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzScope.get_PolicyReadersName
-: 
 ---
 
 # IAzScope::get_PolicyReadersName

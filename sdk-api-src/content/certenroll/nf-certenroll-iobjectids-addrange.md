@@ -4,10 +4,10 @@ title: IObjectIds::AddRange
 author: windows-sdk-content
 description: Adds a range of IObjectId objects to the collection.
 old-location: security\iobjectids_addrange_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: bf7a85a3-201b-413e-a1da-1e54b55771cc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IObjectIds interface, IObjectIds interface [Security],AddRange method, IObjectIds.AddRange, IObjectIds::AddRange, certenroll/IObjectIds::AddRange, security.iobjectids_addrange_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IObjectIds.AddRange
-: 
 ---
 
 # IObjectIds::AddRange

@@ -4,10 +4,10 @@ title: MprAdminUserGetInfo function
 author: windows-sdk-content
 description: The MprAdminUserGetInfo function retrieves all RAS information for a particular user.
 old-location: rras\mpradminusergetinfo.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: d04f6925-ac38-4adf-ac2e-701db5435c90
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MprAdminUserGetInfo, MprAdminUserGetInfo function [RAS], _mpr_mpradminusergetinfo, mprapi/MprAdminUserGetInfo, rras.mpradminusergetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprAdminUserGetInfo
-: 
 ---
 
 # MprAdminUserGetInfo function

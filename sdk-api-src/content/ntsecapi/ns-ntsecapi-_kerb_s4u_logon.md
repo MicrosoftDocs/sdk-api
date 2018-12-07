@@ -4,10 +4,10 @@ title: "_KERB_S4U_LOGON"
 author: windows-sdk-content
 description: Contains information about a service for user (S4U) logon.
 old-location: security\kerb_s4u_logon.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: ab94c36b-7aba-452d-abc0-220c91ffacca
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PKERB_S4U_LOGON, KERB_S4U_LOGON, KERB_S4U_LOGON structure [Security], KERB_S4U_LOGON_FLAG_CHECK_LOGONHOURS, KERB_S4U_LOGON_FLAG_IDENTITY, PKERB_S4U_LOGON, PKERB_S4U_LOGON structure pointer [Security], _KERB_S4U_LOGON, ntsecapi/KERB_S4U_LOGON, ntsecapi/PKERB_S4U_LOGON, security.kerb_s4u_logon"
 ms.prod: windows-hardware
 ms.technology: windows-devices

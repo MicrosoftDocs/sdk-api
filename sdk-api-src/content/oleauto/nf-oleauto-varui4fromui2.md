@@ -7,7 +7,7 @@ old-location: automat\varui4fromui2.htm
 tech.root: automat
 ms.assetid: caec0732-470f-4654-8d69-96b816bad6fb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarUI4FromUI2, VarUI4FromUI2 function [Automation], _oa96_VarUI4FromUI2, automat.varui4fromui2, oleauto/VarUI4FromUI2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarUI4FromUI2
-: 
 ---
 
 # VarUI4FromUI2 function

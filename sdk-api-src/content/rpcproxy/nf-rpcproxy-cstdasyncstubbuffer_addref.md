@@ -4,10 +4,10 @@ title: CStdAsyncStubBuffer_AddRef function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::AddRef method.
 old-location: rpc\cstdasyncstubbuffer_addref.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: AE4BC50C-0AF1-4612-B4BF-27319351CA1E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CStdAsyncStubBuffer_AddRef, CStdAsyncStubBuffer_AddRef function [RPC], rpc.cstdasyncstubbuffer_addref, rpcproxy/CStdAsyncStubBuffer_AddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CStdAsyncStubBuffer_AddRef
-: 
 ---
 
 # CStdAsyncStubBuffer_AddRef function

@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_sspi_kerberos_apreq_security_context_policy_description
 tech.root: wsw
 ms.assetid: 8bf8ffe4-f812-4d72-80d2-f15339e4b6b5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION, WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION, webservices/WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION, wsw.ws_tcp_sspi_kerberos_apreq_security_context_policy_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

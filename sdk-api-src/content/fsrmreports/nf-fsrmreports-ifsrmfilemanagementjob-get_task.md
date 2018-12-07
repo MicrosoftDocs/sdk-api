@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::get_Task
 author: windows-sdk-content
 description: The name of the scheduled task to associate with the job.
 old-location: fsrm\ifsrmfilemanagementjob_task.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: ca562a21-5b0a-4726-9921-68c6a9fbde6c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Task property, IFsrmFileManagementJob.Task, IFsrmFileManagementJob.get_Task, IFsrmFileManagementJob::Task, IFsrmFileManagementJob::get_Task, IFsrmFileManagementJob::put_Task, Task property [File Server Resource Manager], Task property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_task, fsrm.ifsrmfilemanagementjob_task, fsrmreports/IFsrmFileManagementJob::Task, fsrmreports/IFsrmFileManagementJob::get_Task, fsrmreports/IFsrmFileManagementJob::put_Task, get_Task
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmFileManagementJob.get_Task
-: 
 ---
 
 # IFsrmFileManagementJob::get_Task

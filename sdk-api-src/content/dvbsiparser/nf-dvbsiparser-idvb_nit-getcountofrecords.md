@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: fb0f8071-575a-4bbd-b34b-b8d92c17c476
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetCountOfRecords method, IDVB_NIT.GetCountOfRecords, IDVB_NIT::GetCountOfRecords, IDVB_NITGetCountOfRecords, dvbsiparser/IDVB_NIT::GetCountOfRecords, mstv.idvb_nit_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDVB_NIT.GetCountOfRecords
-: 
 ---
 
 # IDVB_NIT::GetCountOfRecords

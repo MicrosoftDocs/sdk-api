@@ -4,10 +4,10 @@ title: ID2D1RenderTarget::SetTags
 author: windows-sdk-content
 description: Specifies a label for subsequent drawing operations.
 old-location: direct2d\ID2D1RenderTarget_SetTags.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: d71c3500-e11f-4b2d-9b78-b57df7dbc2bd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],SetTags method, ID2D1RenderTarget.SetTags, ID2D1RenderTarget::SetTags, SetTags, SetTags method [Direct2D], SetTags method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::SetTags, direct2d.ID2D1RenderTarget_SetTags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1RenderTarget.SetTags
-: 
 ---
 
 # ID2D1RenderTarget::SetTags

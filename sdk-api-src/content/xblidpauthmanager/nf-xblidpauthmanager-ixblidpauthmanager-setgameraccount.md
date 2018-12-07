@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthmanager_setgameraccount.htm
 tech.root: xblidp
 ms.assetid: F9C1FE38-C7AC-4E4C-BEF8-8EB3E47899B1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IXblIdpAuthManager interface,SetGamerAccount method, IXblIdpAuthManager.SetGamerAccount, IXblIdpAuthManager::SetGamerAccount, SetGamerAccount, SetGamerAccount method, SetGamerAccount method,IXblIdpAuthManager interface, xblidp.ixblidpauthmanager_setgameraccount, xblidpauthmanager/IXblIdpAuthManager::SetGamerAccount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xblidpauthmanager.h
-: 
-- IXblIdpAuthManager.SetGamerAccount
-: 
 ---
 
 # IXblIdpAuthManager::SetGamerAccount

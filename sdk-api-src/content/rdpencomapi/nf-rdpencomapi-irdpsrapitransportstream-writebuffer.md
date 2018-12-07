@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStream::WriteBuffer
 author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to write the contents of a stream buffer to the network.
 old-location: rdp\irdpsrapitransportstream_writebuffer.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 9e78360d-9ea6-4a74-8a20-5546057c24b0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPITransportStream interface [RDP],WriteBuffer method, IRDPSRAPITransportStream.WriteBuffer, IRDPSRAPITransportStream::WriteBuffer, WriteBuffer, WriteBuffer method [RDP], WriteBuffer method [RDP],IRDPSRAPITransportStream interface, rdp.irdpsrapitransportstream_writebuffer, rdpencomapi/IRDPSRAPITransportStream::WriteBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPITransportStream.WriteBuffer
-: 
 ---
 
 # IRDPSRAPITransportStream::WriteBuffer

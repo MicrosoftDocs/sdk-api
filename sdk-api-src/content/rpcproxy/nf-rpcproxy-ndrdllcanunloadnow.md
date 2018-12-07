@@ -4,10 +4,10 @@ title: NdrDllCanUnloadNow function
 author: windows-sdk-content
 description: The NdrDllCanUnloadNow function determines whether the DLL that implements the proxy and stub is still in use. If not, the caller can safely unload the DLL from memory.
 old-location: rpc\ndrdllcanunloadnow.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 25cc5909-87f7-4670-a123-69bb28d891a5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: NdrDllCanUnloadNow, NdrDllCanUnloadNow function [RPC], rpc.ndrdllcanunloadnow, rpcproxy/NdrDllCanUnloadNow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NdrDllCanUnloadNow
-: 
 ---
 
 # NdrDllCanUnloadNow function

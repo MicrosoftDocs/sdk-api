@@ -7,7 +7,7 @@ old-location: display\brushobj_pvallocrbrush.htm
 tech.root: display
 ms.assetid: 10900536-6c48-4a96-92d2-025660ccff7e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: BRUSHOBJ_pvAllocRbrush, BRUSHOBJ_pvAllocRbrush function [Display Devices], display.brushobj_pvallocrbrush, gdifncs_1858340b-edd3-4fbb-b214-6863301a93fa.xml, winddi/BRUSHOBJ_pvAllocRbrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BRUSHOBJ_pvAllocRbrush
-: 
 ---
 
 # BRUSHOBJ_pvAllocRbrush function

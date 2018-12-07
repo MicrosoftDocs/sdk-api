@@ -4,10 +4,10 @@ title: IImageList::GetImageRect
 author: windows-sdk-content
 description: Gets an image's bounding rectangle.
 old-location: controls\IImageList_GetImageRect.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimagerect.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetImageRect, GetImageRect method [Windows Controls], GetImageRect method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetImageRect method, IImageList.GetImageRect, IImageList::GetImageRect, comctl_IImageList_GetImageRect, comctl_IImageList_GetImageRect_cpp, commoncontrols/IImageList::GetImageRect, controls.IImageList_GetImageRect, controls.comctl_IImageList_GetImageRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- commoncontrols.h
-: 
-- IImageList.GetImageRect
-: 
 ---
 
 # IImageList::GetImageRect

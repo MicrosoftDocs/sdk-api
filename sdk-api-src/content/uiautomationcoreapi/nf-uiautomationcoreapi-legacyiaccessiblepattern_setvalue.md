@@ -7,7 +7,7 @@ old-location: winauto\uiauto_LegacyIAccessiblePattern_SetValue.htm
 tech.root: WinAuto
 ms.assetid: ce3fc72b-ddef-4add-a9ff-42763af7ec48
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LegacyIAccessiblePattern_SetValue, LegacyIAccessiblePattern_SetValue function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_SetValue, uiauto_LegacyIAccessiblePattern_SetValue, uiautomationcoreapi/LegacyIAccessiblePattern_SetValue, winauto.uiauto_LegacyIAccessiblePattern_SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LegacyIAccessiblePattern_SetValue
-: 
 ---
 
 # LegacyIAccessiblePattern_SetValue function

@@ -7,7 +7,7 @@ old-location: mf\mfframeratetoaveragetimeperframe.htm
 tech.root: medfound
 ms.assetid: 750f6920-3386-4d50-9d59-73e876b406da
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 750f6920-3386-4d50-9d59-73e876b406da, MFFrameRateToAverageTimePerFrame, MFFrameRateToAverageTimePerFrame function [Media Foundation], mf.mfframeratetoaveragetimeperframe, mfapi/MFFrameRateToAverageTimePerFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFFrameRateToAverageTimePerFrame
-: 
 ---
 
 # MFFrameRateToAverageTimePerFrame function

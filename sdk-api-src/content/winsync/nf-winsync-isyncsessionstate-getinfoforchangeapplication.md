@@ -7,7 +7,7 @@ old-location: winsync\isyncsessionstate_getinfoforchangeapplication.htm
 tech.root: winsync
 ms.assetid: 88f7f8f7-468f-4d9d-9593-0d3f92cb458f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetInfoForChangeApplication, GetInfoForChangeApplication method [Windows Sync], GetInfoForChangeApplication method [Windows Sync],ISyncSessionState interface, ISyncSessionState interface [Windows Sync],GetInfoForChangeApplication method, ISyncSessionState.GetInfoForChangeApplication, ISyncSessionState::GetInfoForChangeApplication, winsync.isyncsessionstate_getinfoforchangeapplication, winsync/ISyncSessionState::GetInfoForChangeApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- ISyncSessionState.GetInfoForChangeApplication
-: 
 ---
 
 # ISyncSessionState::GetInfoForChangeApplication

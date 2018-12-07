@@ -7,7 +7,7 @@ old-location: secbiomet\winbioreleasefocus.htm
 tech.root: SecBioMet
 ms.assetid: 260f24e9-4527-4bec-b18a-64781060714b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioReleaseFocus, WinBioReleaseFocus function [Windows Biometric Framework API], secbiomet.winbioreleasefocus, winbio/WinBioReleaseFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinBioReleaseFocus
-: 
 ---
 
 # WinBioReleaseFocus function

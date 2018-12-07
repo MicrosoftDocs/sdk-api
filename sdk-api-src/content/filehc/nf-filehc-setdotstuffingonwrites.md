@@ -4,10 +4,10 @@ title: SetDotStuffingOnWrites function
 author: windows-sdk-content
 description: Enables dot-stuffing properties on the write path of the file handle cache of the message.
 old-location: winprog\_setdotstuffingonwrites.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 6191e097-3e8a-4149-85bb-88d804caa3ae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SetDotStuffingOnWrites, SetDotStuffingOnWrites function [Windows API], filehc/SetDotStuffingOnWrites, winprog._setdotstuffingonwrites
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetDotStuffingOnWrites
-: 
 ---
 
 # SetDotStuffingOnWrites function

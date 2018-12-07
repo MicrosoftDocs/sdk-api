@@ -7,7 +7,7 @@ old-location: devinst\cm_get_class_property_exw.htm
 tech.root: devinst
 ms.assetid: 580E055C-B731-4168-8051-81BD5ACB4EFC
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Get_Class_Property_ExW, CM_Get_Class_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Get_Class_Property_ExW, devinst.cm_get_class_property_exw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Get_Class_Property_ExW
-: 
 ---
 
 # CM_Get_Class_Property_ExW function

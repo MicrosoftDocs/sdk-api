@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_getembedded.htm
 tech.root: TSF
 ms.assetid: 82904a96-70ec-4ceb-a3c4-5d48c801a9ef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetEmbedded method, ITextStoreACP.GetEmbedded, ITextStoreACP::GetEmbedded, _tsf_itextstoreacp_getembedded_ref, textstor/ITextStoreACP::GetEmbedded, tsf.itextstoreacp_getembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- textstor.h
-: 
-- ITextStoreACP.GetEmbedded
-: 
 ---
 
 # ITextStoreACP::GetEmbedded

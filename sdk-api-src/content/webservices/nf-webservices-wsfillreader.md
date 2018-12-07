@@ -7,7 +7,7 @@ old-location: wsw\wsfillreader.htm
 tech.root: wsw
 ms.assetid: 1f4138a2-acc5-4f1d-8e35-544859d2fa49
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsFillReader, WsFillReader function [Web Services for Windows], webservices/WsFillReader, wsw.wsfillreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsFillReader
-: 
 ---
 
 # WsFillReader function

@@ -4,10 +4,10 @@ title: MprConfigInterfaceGetInfo function
 author: windows-sdk-content
 description: The MprConfigInterfaceGetInfo function retrieves the configuration for the specified interface from the router.
 old-location: rras\mprconfiginterfacegetinfo.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: f33f9e66-1668-4839-9c98-5945104110bc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MprConfigInterfaceGetInfo, MprConfigInterfaceGetInfo function [RAS], _mpr_mprconfiginterfacegetinfo, mprapi/MprConfigInterfaceGetInfo, rras.mprconfiginterfacegetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprConfigInterfaceGetInfo
-: 
 ---
 
 # MprConfigInterfaceGetInfo function

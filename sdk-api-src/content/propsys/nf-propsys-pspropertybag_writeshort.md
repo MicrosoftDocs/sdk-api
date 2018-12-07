@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteSHORT.htm
 tech.root: properties
 ms.assetid: 9A8F0974-E7BE-4d66-8DBF-68744C0124A2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_WriteSHORT, PSPropertyBag_WriteSHORT function [Windows Properties], properties.PSPropertyBag_WriteSHORT, propsys/PSPropertyBag_WriteSHORT, shell.PSPropertyBag_WriteSHORT, shell_PSPropertyBag_WriteSHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PSPropertyBag_WriteSHORT
-: 
 ---
 
 # PSPropertyBag_WriteSHORT function

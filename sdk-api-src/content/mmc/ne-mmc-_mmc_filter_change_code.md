@@ -4,10 +4,10 @@ title: "_MMC_FILTER_CHANGE_CODE"
 author: windows-sdk-content
 description: The MMC_FILTER_CHANGE_CODE enumeration is introduced in MMC 1.2.
 old-location: mmc\mmc_filter_change_code.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 04f3daf3-2ac0-4999-9a08-1b46f1ef47c8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MFCC_DISABLE, MFCC_ENABLE, MFCC_VALUE_CHANGE, MMC_FILTER_CHANGE_CODE, MMC_FILTER_CHANGE_CODE enumeration [MMC], _MMC_FILTER_CHANGE_CODE, _slate_mmc_filter_change_code, mmc.mmc_filter_change_code, mmc/MFCC_DISABLE, mmc/MFCC_ENABLE, mmc/MFCC_VALUE_CHANGE, mmc/MMC_FILTER_CHANGE_CODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

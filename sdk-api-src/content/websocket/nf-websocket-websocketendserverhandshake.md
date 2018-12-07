@@ -7,7 +7,7 @@ old-location: websock\websocketendserverhandshake.htm
 tech.root: WebSock
 ms.assetid: 8708d290-18d6-4130-aa1c-8e4e5a716a5c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WebSocketEndServerHandshake, WebSocketEndServerHandshake function [Websocket Protocol Component API], websock.websocketendserverhandshake, websocket/WebSocketEndServerHandshake
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WebSocketEndServerHandshake
-: 
 ---
 
 # WebSocketEndServerHandshake function

@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_get_partition_info.htm
 tech.root: fileio
 ms.assetid: 24053a1a-8cf8-4aa8-a611-15c9fae0a36d
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_DISK_GET_PARTITION_INFO, IOCTL_DISK_GET_PARTITION_INFO control, IOCTL_DISK_GET_PARTITION_INFO control code [Files], _win32_ioctl_disk_get_partition_info, base.ioctl_disk_get_partition_info, fs.ioctl_disk_get_partition_info, winioctl/IOCTL_DISK_GET_PARTITION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

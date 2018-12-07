@@ -7,7 +7,7 @@ old-location: hid\ioctl_keyboard_query_indicators2.htm
 tech.root: hid
 ms.assetid: ca031026-a077-4270-addd-a0a8c22f46b6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATORS, IOCTL_KEYBOARD_QUERY_INDICATORS control, IOCTL_KEYBOARD_QUERY_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_query_indicators2, i8042ref_d34933a9-dfd8-464b-9653-7b344b5007e3.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATORS
 ms.prod: windows-hardware
 ms.technology: windows-devices

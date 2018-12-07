@@ -4,10 +4,10 @@ title: IBackgroundCopyError::GetErrorContextDescription
 author: windows-sdk-content
 description: Retrieves the description of the context in which the error occurred.
 old-location: bits\ibackgroundcopyerror_geterrorcontextdescription.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 87f5ae62-c171-4637-bebb-3a5c5aa546b3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetErrorContextDescription, GetErrorContextDescription method [BITS], GetErrorContextDescription method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetErrorContextDescription method, IBackgroundCopyError.GetErrorContextDescription, IBackgroundCopyError::GetErrorContextDescription, _drz_ibackgroundcopyerror_geterrorcontextdescription, bits.ibackgroundcopyerror_geterrorcontextdescription, bits/IBackgroundCopyError::GetErrorContextDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyError.GetErrorContextDescription
-: 
 ---
 
 # IBackgroundCopyError::GetErrorContextDescription
@@ -81,14 +73,7 @@ To retrieve the system's default user language identifier, use the following cal
 <code>LANGIDFROMLCID(GetThreadLocale())</code>
 
 
-### -param pContextDescription
-
-TBD
-
-
-
-
-#### - ppContextDescription [out]
+### -param pContextDescription [out]
 
 Null-terminated string that contains the description of the context in which the error occurred. Call the 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=154376">CoTaskMemFree</a> function to free <i>ppContextDescription</i> when done.

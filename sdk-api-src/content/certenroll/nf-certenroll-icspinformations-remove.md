@@ -4,10 +4,10 @@ title: ICspInformations::Remove
 author: windows-sdk-content
 description: Removes an ICspInformation object from the collection by index number.
 old-location: security\icspinformations_remove_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: cbf427d8-3f66-4a54-a226-2060c58924b6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICspInformations interface [Security],Remove method, ICspInformations.Remove, ICspInformations::Remove, Remove, Remove method [Security], Remove method [Security],ICspInformations interface, certenroll/ICspInformations::Remove, security.icspinformations_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICspInformations.Remove
-: 
 ---
 
 # ICspInformations::Remove

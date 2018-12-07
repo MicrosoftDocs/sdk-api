@@ -7,7 +7,7 @@ old-location: dfs\netdfsremove.htm
 tech.root: Dfs
 ms.assetid: c879ba56-cc42-4fa3-960f-ddc65a75dbe3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NetDfsRemove, NetDfsRemove function [Distributed File System], _win32_netdfsremove, dfs.netdfsremove, fs.netdfsremove, lmdfs/NetDfsRemove, netmgmt.netdfsremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetDfsRemove
-: 
 ---
 
 # NetDfsRemove function

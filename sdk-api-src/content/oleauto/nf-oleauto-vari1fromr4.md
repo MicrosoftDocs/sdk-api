@@ -7,7 +7,7 @@ old-location: automat\vari1fromr4.htm
 tech.root: automat
 ms.assetid: 77c1edf4-29df-405f-baa8-5e35979ae0ee
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarI1FromR4, VarI1FromR4 function [Automation], _oa96_VarI1FromR4, automat.vari1fromr4, oleauto/VarI1FromR4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarI1FromR4
-: 
 ---
 
 # VarI1FromR4 function

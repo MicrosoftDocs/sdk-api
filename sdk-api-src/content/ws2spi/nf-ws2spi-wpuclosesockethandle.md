@@ -4,10 +4,10 @@ title: WPUCloseSocketHandle function
 author: windows-sdk-content
 description: The WPUCloseSocketHandle function closes an existing socket handle.
 old-location: winsock\wpuclosesockethandle_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: c125b763-6c5a-4a83-ba34-79e898fdc9fe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WPUCloseSocketHandle, WPUCloseSocketHandle function [Winsock], _win32_wpuclosesockethandle_2, winsock.wpuclosesockethandle_2, ws2spi/WPUCloseSocketHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WPUCloseSocketHandle
-: 
 ---
 
 # WPUCloseSocketHandle function

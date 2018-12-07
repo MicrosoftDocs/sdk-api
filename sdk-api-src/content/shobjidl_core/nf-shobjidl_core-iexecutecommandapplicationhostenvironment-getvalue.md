@@ -7,7 +7,7 @@ old-location: shell\IExecuteCommandApplicationHostEnvironment_GetValue.htm
 tech.root: shell
 ms.assetid: ba26f985-04f1-4a05-9363-a7be0585bcfc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AHE_DESKTOP, AHE_IMMERSIVE, GetValue, GetValue method [Windows Shell], GetValue method [Windows Shell],IExecuteCommandApplicationHostEnvironment interface, IExecuteCommandApplicationHostEnvironment interface [Windows Shell],GetValue method, IExecuteCommandApplicationHostEnvironment.GetValue, IExecuteCommandApplicationHostEnvironment::GetValue, shell.IExecuteCommandApplicationHostEnvironment_GetValue, shobjidl_core/IExecuteCommandApplicationHostEnvironment::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IExecuteCommandApplicationHostEnvironment.GetValue
-: 
 ---
 
 # IExecuteCommandApplicationHostEnvironment::GetValue

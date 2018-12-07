@@ -7,7 +7,7 @@ old-location: fs\getlogiostatistics.htm
 tech.root: Clfs
 ms.assetid: 1d4a5486-8a9e-480a-952c-12fc7386af3e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetLogIoStatistics, GetLogIoStatistics function [Files], clfsw32/GetLogIoStatistics, fs.getlogiostatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetLogIoStatistics
-: 
 ---
 
 # GetLogIoStatistics function

@@ -4,10 +4,10 @@ title: phoneSetLamp function
 author: windows-sdk-content
 description: The phoneSetLamp function causes the specified lamp to be lit on the specified open phone device in the specified lamp mode.
 old-location: tapi2\phonesetlamp.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 2e21ef29-9c40-4463-8678-028a8772a494
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonesetlamp, phoneSetLamp, phoneSetLamp function [TAPI 2.2], tapi/phoneSetLamp, tapi2.phonesetlamp"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- phoneSetLamp
-: 
 ---
 
 # phoneSetLamp function

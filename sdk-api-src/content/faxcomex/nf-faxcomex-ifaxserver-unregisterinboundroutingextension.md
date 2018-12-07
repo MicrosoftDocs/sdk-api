@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_unregisterinboundroutingext
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2c32.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxServer interface [Fax Service],UnregisterInboundRoutingExtension method, IFaxServer.UnregisterInboundRoutingExtension, IFaxServer::UnregisterInboundRoutingExtension, UnregisterInboundRoutingExtension, UnregisterInboundRoutingExtension method [Fax Service], UnregisterInboundRoutingExtension method [Fax Service],IFaxServer interface, _mfax_faxserver.unregisterinboundroutingextension, fax._mfax_faxserver_cpp_mfax_faxserver_unregisterinboundroutingextension_cpp, fax._mfax_faxserver_unregisterinboundroutingextension, faxcomex/IFaxServer::UnregisterInboundRoutingExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxServer.UnregisterInboundRoutingExtension
-: 
 ---
 
 # IFaxServer::UnregisterInboundRoutingExtension

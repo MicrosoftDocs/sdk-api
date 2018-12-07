@@ -7,7 +7,7 @@ old-location: properties\VariantToDosDateTime.htm
 tech.root: properties
 ms.assetid: ebbba4d9-8e97-422d-b52f-67c417f295cc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToDosDateTime, VariantToDosDateTime function [Windows Properties], _shell_VariantToDosDateTime, properties.VariantToDosDateTime, propvarutil/VariantToDosDateTime, shell.VariantToDosDateTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToDosDateTime
-: 
 ---
 
 # VariantToDosDateTime function

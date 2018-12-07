@@ -4,10 +4,10 @@ title: "_SECPKG_CLIENT_INFO"
 author: windows-sdk-content
 description: The SECPKG_CLIENT_INFO structure holds information about a security package's client. This structure is used by the GetClientInfo function.
 old-location: security\secpkg_client_info.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: c9c58a50-7fc2-44a7-9551-a2675410b2b5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSECPKG_CLIENT_INFO, PSECPKG_CLIENT_INFO, PSECPKG_CLIENT_INFO structure pointer [Security], SECPKG_CLIENT_INFO, SECPKG_CLIENT_INFO structure [Security], _SECPKG_CLIENT_INFO, _ssp_secpkg_client_info, ntsecpkg/PSECPKG_CLIENT_INFO, ntsecpkg/SECPKG_CLIENT_INFO, security.secpkg_client_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

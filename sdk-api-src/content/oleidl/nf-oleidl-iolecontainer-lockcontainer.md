@@ -7,7 +7,7 @@ old-location: com\iolecontainer_lockcontainer.htm
 tech.root: com
 ms.assetid: 31b9961a-29a2-48bf-9d39-d86718983682
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IOleContainer interface [COM],LockContainer method, IOleContainer.LockContainer, IOleContainer::LockContainer, LockContainer, LockContainer method [COM], LockContainer method [COM],IOleContainer interface, _ole_iolecontainer_lockcontainer, com.iolecontainer_lockcontainer, oleidl/IOleContainer::LockContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- oleidl.h
-: 
-- IOleContainer.LockContainer
-: 
 ---
 
 # IOleContainer::LockContainer

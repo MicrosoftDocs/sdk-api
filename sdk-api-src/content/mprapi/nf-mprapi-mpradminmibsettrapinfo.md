@@ -4,10 +4,10 @@ title: MprAdminMIBSetTrapInfo function
 author: windows-sdk-content
 description: The MprAdminMIBSetTrapInfo function specifies a handle to an event that is signaled whenever a TRAP needs to be issued.
 old-location: rras\mpradminmibsettrapinfo.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: fc223682-9dd9-4d3f-8cfb-ec7c438f68e7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MprAdminMIBSetTrapInfo, MprAdminMIBSetTrapInfo function [RAS], _mpr_mpradminmibsettrapinfo, mprapi/MprAdminMIBSetTrapInfo, rras.mpradminmibsettrapinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprAdminMIBSetTrapInfo
-: 
 ---
 
 # MprAdminMIBSetTrapInfo function

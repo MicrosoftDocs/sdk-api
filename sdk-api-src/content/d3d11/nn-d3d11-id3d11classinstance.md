@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11classinstance.htm
 tech.root: direct3d11
 ms.assetid: 70d006d2-5c47-4e8a-9a14-b5475d88ac32
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11ClassInstance, ID3D11ClassInstance interface [Direct3D 11], ID3D11ClassInstance interface [Direct3D 11],described, d3d11/ID3D11ClassInstance, direct3d11.id3d11classinstance, fb695194-ccb6-d8bd-59c0-5dbd185a1a4c
 ms.prod: windows-hardware
 ms.technology: windows-devices

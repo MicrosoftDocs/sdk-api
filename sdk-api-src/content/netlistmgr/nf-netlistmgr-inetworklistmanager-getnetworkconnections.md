@@ -4,10 +4,10 @@ title: INetworkListManager::GetNetworkConnections
 author: windows-sdk-content
 description: The GetNetworkConnections method enumerates a complete list of the network connections that have been made.
 old-location: nla\inetworklistmanager_getnetworkconnections.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: ddbf02ae-3232-4866-b4c1-e4611b680f9f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetNetworkConnections, GetNetworkConnections method [Network Awareness], GetNetworkConnections method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworkConnections method, INetworkListManager.GetNetworkConnections, INetworkListManager::GetNetworkConnections, netlistmgr/INetworkListManager::GetNetworkConnections, nla.inetworklistmanager_getnetworkconnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netlistmgr.h
-: 
-- INetworkListManager.GetNetworkConnections
-: 
 ---
 
 # INetworkListManager::GetNetworkConnections

@@ -4,10 +4,10 @@ title: ITQueueEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the descriptor of the event that occurred.
 old-location: tapi3\itqueueevent_get_event.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 704a9601-e8c3-42d4-86bc-be59c44a05b3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITQueueEvent interface [TAPI 2.2],get_Event method, ITQueueEvent.get_Event, ITQueueEvent::get_Event, _tapi3_itqueueevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITQueueEvent interface, tapi3.itqueueevent_get_event, tapi3cc/ITQueueEvent::get_Event
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3.h
-: 
-- ITQueueEvent.get_Event
-: 
 ---
 
 # ITQueueEvent::get_Event

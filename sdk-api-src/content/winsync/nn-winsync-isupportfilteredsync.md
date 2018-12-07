@@ -7,7 +7,7 @@ old-location: winsync\isupportfilteredsync.htm
 tech.root: winsync
 ms.assetid: cf07e322-7c75-49a4-a514-b4c782ceb2d7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISupportFilteredSync, ISupportFilteredSync interface [Windows Sync], ISupportFilteredSync interface [Windows Sync],described, winsync.isupportfilteredsync, winsync/ISupportFilteredSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

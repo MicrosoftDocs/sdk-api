@@ -4,10 +4,10 @@ title: IADsFileServiceOperations
 author: windows-sdk-content
 description: The IADsFileServiceOperations interface is a dual interface that inherits from IADsServiceOperations.
 old-location: adsi\iadsfileserviceoperations.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 91335658-8efb-4945-9862-f72e78d749d6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsFileServiceOperations, IADsFileServiceOperations interface [ADSI], IADsFileServiceOperations interface [ADSI],described, _ds_iadsfileserviceoperations, adsi.iadsfileserviceoperations, iads/IADsFileServiceOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

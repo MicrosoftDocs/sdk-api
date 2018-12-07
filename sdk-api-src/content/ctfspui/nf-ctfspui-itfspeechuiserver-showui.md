@@ -7,7 +7,7 @@ old-location: tsf\itfspeechuiserver_showui.htm
 tech.root: TSF
 ms.assetid: 4491a3f0-b748-45a8-a8bd-c8fa78d49fa7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],ShowUI method, ITfSpeechUIServer.ShowUI, ITfSpeechUIServer::ShowUI, ShowUI, ShowUI method [Text Services Framework], ShowUI method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::ShowUI, tsf.itfspeechuiserver_showui
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctfspui.h
-: 
-- ITfSpeechUIServer.ShowUI
-: 
 ---
 
 # ITfSpeechUIServer::ShowUI

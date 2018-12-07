@@ -4,10 +4,10 @@ title: ClusterRegReadBatchReplyNextCommand function
 author: windows-sdk-content
 description: Reads the next command from a read batch result.
 old-location: mscs\clusterregreadbatchreplynextcommand.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 4E0DEB5C-36AA-480C-913C-235DE9AEA58D
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterRegReadBatchReplyNextCommand, ClusterRegReadBatchReplyNextCommand function [Failover Cluster], clusapi/ClusterRegReadBatchReplyNextCommand, mscs.clusterregreadbatchreplynextcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusterRegReadBatchReplyNextCommand
-: 
 ---
 
 # ClusterRegReadBatchReplyNextCommand function

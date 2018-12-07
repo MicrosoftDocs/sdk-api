@@ -4,10 +4,10 @@ title: IFsrmQuotaManager::get_ActionVariableDescriptions
 author: windows-sdk-content
 description: Retrieves the descriptions for the macros contained in the IFsrmQuotaManager::ActionVariables property.
 old-location: fsrm\ifsrmquotamanager_actionvariabledescriptions.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 39e2efcb-fbed-48aa-a1ea-481df6fe2ea6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ActionVariableDescriptions property [File Server Resource Manager], ActionVariableDescriptions property [File Server Resource Manager],FsrmQuotaManager class, ActionVariableDescriptions property [File Server Resource Manager],IFsrmQuotaManager interface, ActionVariableDescriptions property [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],ActionVariableDescriptions property, IFsrmQuotaManager interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmQuotaManager.ActionVariableDescriptions, IFsrmQuotaManager.get_ActionVariableDescriptions, IFsrmQuotaManager::ActionVariableDescriptions, IFsrmQuotaManager::get_ActionVariableDescriptions, IFsrmQuotaManagerEx interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmQuotaManagerEx.ActionVariableDescriptions, IFsrmQuotaManagerEx::get_ActionVariableDescriptions, fs.ifsrmquotamanager_actionvariabledescriptions, fsrm.ifsrmquotamanager_actionvariabledescriptions, fsrmquota/IFsrmQuotaManager::ActionVariableDescriptions, fsrmquota/IFsrmQuotaManager::get_ActionVariableDescriptions, fsrmquota/IFsrmQuotaManagerEx::ActionVariableDescriptions, fsrmquota/IFsrmQuotaManagerEx::get_ActionVariableDescriptions, get_ActionVariableDescriptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmquota.h
-: 
-- IFsrmQuotaManager.get_ActionVariableDescriptions
-: 
 ---
 
 # IFsrmQuotaManager::get_ActionVariableDescriptions

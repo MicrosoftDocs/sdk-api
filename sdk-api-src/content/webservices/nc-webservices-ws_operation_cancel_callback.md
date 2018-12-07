@@ -7,7 +7,7 @@ old-location: wsw\ws_operation_cancel_callback.htm
 tech.root: wsw
 ms.assetid: 177f9abb-861d-42a9-8044-25076b026f1d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_OPERATION_CANCEL_CALLBACK, WS_OPERATION_CANCEL_CALLBACK callback, WS_OPERATION_CANCEL_CALLBACK callback function [Web Services for Windows], webservices/WS_OPERATION_CANCEL_CALLBACK, wsw.ws_operation_cancel_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

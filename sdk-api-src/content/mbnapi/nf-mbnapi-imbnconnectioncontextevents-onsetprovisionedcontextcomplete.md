@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectioncontextevents_onsetprovisionedcontextcomplete.ht
 tech.root: mbn
 ms.assetid: 06e1071d-c541-4824-9b56-f2d18f41e972
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: E_INVALIDARG, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), HRESULT_FROM_WIN32(ERROR_WRITE_FAULT), IMbnConnectionContextEvents interface [Microsoft Broadband Networks],OnSetProvisionedContextComplete method, IMbnConnectionContextEvents.OnSetProvisionedContextComplete, IMbnConnectionContextEvents::OnSetProvisionedContextComplete, OnSetProvisionedContextComplete, OnSetProvisionedContextComplete method [Microsoft Broadband Networks], OnSetProvisionedContextComplete method [Microsoft Broadband Networks],IMbnConnectionContextEvents interface, S_OK, mbn.imbnconnectioncontextevents_onsetprovisionedcontextcomplete, mbnapi/IMbnConnectionContextEvents::OnSetProvisionedContextComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnConnectionContextEvents.OnSetProvisionedContextComplete
-: 
 ---
 
 # IMbnConnectionContextEvents::OnSetProvisionedContextComplete

@@ -4,10 +4,10 @@ title: ID2D1RoundedRectangleGeometry::GetRoundedRect
 author: windows-sdk-content
 description: Retrieves a rounded rectangle that describes this rounded rectangle geometry.
 old-location: direct2d\ID2D1RoundedRectangleGeometry_GetRoundedRect.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 6f9abc57-bb0b-4e90-8478-eef05456f9d8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRoundedRect, GetRoundedRect method [Direct2D], GetRoundedRect method [Direct2D],ID2D1RoundedRectangleGeometry interface, ID2D1RoundedRectangleGeometry interface [Direct2D],GetRoundedRect method, ID2D1RoundedRectangleGeometry.GetRoundedRect, ID2D1RoundedRectangleGeometry::GetRoundedRect, d2d1/ID2D1RoundedRectangleGeometry::GetRoundedRect, direct2d.ID2D1RoundedRectangleGeometry_GetRoundedRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1RoundedRectangleGeometry.GetRoundedRect
-: 
 ---
 
 # ID2D1RoundedRectangleGeometry::GetRoundedRect

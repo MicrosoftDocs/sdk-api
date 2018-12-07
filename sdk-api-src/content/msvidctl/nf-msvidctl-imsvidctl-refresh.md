@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_refresh.htm
 tech.root: mstv
 ms.assetid: 7413049e-3ce4-46e9-ab49-fbdb0455c6b6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Refresh method, IMSVidCtl.Refresh, IMSVidCtl::Refresh, IMSVidCtlRefresh, Refresh, Refresh method [Microsoft TV Technologies], Refresh method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_refresh, msvidctl/IMSVidCtl::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msvidctl.h
-: 
-- IMSVidCtl.Refresh
-: 
 ---
 
 # IMSVidCtl::Refresh

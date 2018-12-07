@@ -4,10 +4,10 @@ title: IFsrmPipelineModuleConnector::get_ModuleName
 author: windows-sdk-content
 description: The name of the module.
 old-location: fsrm\ifsrmpipelinemoduleconnector_modulename.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: ef64a255-94da-4d42-af90-1ac9b2c0fbbc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],ModuleName property, IFsrmPipelineModuleConnector interface [File Server Resource Manager],ModuleName property, IFsrmPipelineModuleConnector.ModuleName, IFsrmPipelineModuleConnector.get_ModuleName, IFsrmPipelineModuleConnector::ModuleName, IFsrmPipelineModuleConnector::get_ModuleName, ModuleName property [File Server Resource Manager], ModuleName property [File Server Resource Manager],FsrmPipelineModuleConnector class, ModuleName property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, fs.ifsrmpipelinemoduleconnector_modulename, fsrm.ifsrmpipelinemoduleconnector_modulename, fsrmpipeline/IFsrmPipelineModuleConnector::ModuleName, fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleName, get_ModuleName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmpipeline.h
-: 
-- IFsrmPipelineModuleConnector.get_ModuleName
-: 
 ---
 
 # IFsrmPipelineModuleConnector::get_ModuleName

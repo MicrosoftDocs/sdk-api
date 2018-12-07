@@ -4,10 +4,10 @@ title: StgGetIFillLockBytesOnILockBytes function
 author: windows-sdk-content
 description: Creates a new wrapper object on a byte array object provided by the caller.
 old-location: stg\stggetifilllockbytesonilockbytes.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 87159472-3b80-4c0f-b2d4-7635dfcf2121
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: StgGetIFillLockBytesOnILockBytes, StgGetIFillLockBytesOnILockBytes function [Structured Storage], _stg_stggetifilllockbytesonilockbytes, objbase/StgGetIFillLockBytesOnILockBytes, stg.stggetifilllockbytesonilockbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StgGetIFillLockBytesOnILockBytes
-: 
 ---
 
 # StgGetIFillLockBytesOnILockBytes function

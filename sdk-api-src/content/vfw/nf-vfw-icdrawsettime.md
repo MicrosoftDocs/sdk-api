@@ -7,7 +7,7 @@ old-location: multimedia\icdrawsettime.htm
 tech.root: Multimedia
 ms.assetid: 4c97e0ee-c6f1-4258-9a5f-de633f8c0335
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICDrawSetTime, ICDrawSetTime macro [Windows Multimedia], _win32_ICDrawSetTime, multimedia.icdrawsettime, vfw/ICDrawSetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- ICDrawSetTime
-: 
 ---
 
 # ICDrawSetTime macro

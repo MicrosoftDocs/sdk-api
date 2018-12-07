@@ -7,7 +7,7 @@ old-location: directcomp\dcompositioncreatedevice3.htm
 tech.root: directcomp
 ms.assetid: 5EF8F6E9-7632-42B4-A589-10CD4ABC7695
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DCompositionCreateDevice3, DCompositionCreateDevice3 function [DirectComposition], dcomp/DCompositionCreateDevice3, directcomp.dcompositioncreatedevice3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DCompositionCreateDevice3
-: 
 ---
 
 # DCompositionCreateDevice3 function

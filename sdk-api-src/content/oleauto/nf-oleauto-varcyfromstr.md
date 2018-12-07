@@ -7,7 +7,7 @@ old-location: automat\varcyfromstr.htm
 tech.root: automat
 ms.assetid: ad67fa19-f927-47ec-83b5-45a4f1f9cbe2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarCyFromStr, VarCyFromStr function [Automation], _oa96_VarCyFromStr, automat.varcyfromstr, oleauto/VarCyFromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarCyFromStr
-: 
 ---
 
 # VarCyFromStr function

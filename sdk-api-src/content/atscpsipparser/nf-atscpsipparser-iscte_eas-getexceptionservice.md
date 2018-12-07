@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getexceptionservice.htm
 tech.root: mstv
 ms.assetid: b9431651-4f8f-40a0-abd8-b162e5ad09ae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetExceptionService, GetExceptionService method [Microsoft TV Technologies], GetExceptionService method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetExceptionService method, ISCTE_EAS.GetExceptionService, ISCTE_EAS::GetExceptionService, ISCTE_EASGetExceptionService, atscpsipparser/ISCTE_EAS::GetExceptionService, mstv.iscte_eas_getexceptionservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- atscpsipparser.h
-: 
-- ISCTE_EAS.GetExceptionService
-: 
 ---
 
 # ISCTE_EAS::GetExceptionService

@@ -7,7 +7,7 @@ old-location: automat\varr8fromi1.htm
 tech.root: automat
 ms.assetid: a40aedef-3366-4c4d-8fd2-ef0b70bccc6f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarR8FromI1, VarR8FromI1 function [Automation], _oa96_VarR8FromI1, automat.varr8fromi1, oleauto/VarR8FromI1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarR8FromI1
-: 
 ---
 
 # VarR8FromI1 function

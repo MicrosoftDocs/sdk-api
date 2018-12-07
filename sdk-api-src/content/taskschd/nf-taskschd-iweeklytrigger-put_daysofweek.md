@@ -4,10 +4,10 @@ title: IWeeklyTrigger::put_DaysOfWeek
 author: windows-sdk-content
 description: Gets or sets the days of the week in which the task runs.
 old-location: taskschd\iweeklytrigger_daysofweek.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 3d4bb891-8620-401e-b1ce-39d593c1038a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler],IWeeklyTrigger interface, IWeeklyTrigger interface [Task Scheduler],DaysOfWeek property, IWeeklyTrigger.DaysOfWeek, IWeeklyTrigger.put_DaysOfWeek, IWeeklyTrigger::DaysOfWeek, IWeeklyTrigger::get_DaysOfWeek, IWeeklyTrigger::put_DaysOfWeek, put_DaysOfWeek, taskschd.iweeklytrigger_daysofweek, taskschd/IWeeklyTrigger::DaysOfWeek, taskschd/IWeeklyTrigger::get_DaysOfWeek, taskschd/IWeeklyTrigger::put_DaysOfWeek
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IWeeklyTrigger.put_DaysOfWeek
-: 
 ---
 
 # IWeeklyTrigger::put_DaysOfWeek

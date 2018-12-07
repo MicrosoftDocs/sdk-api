@@ -7,7 +7,7 @@ old-location: dxmath\xmushortn4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUSHORTN4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: XMUSHORTN4, XMUSHORTN4 structure [DirectX Math Support APIs], directxpackedvector/XMUSHORTN4, dxmath.xmushortn4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,6 +97,16 @@ Unsigned 16-bit integer in the range [0-65535] describing the w-coordinate
 ### -field v
 
  
+
+
+### -field XMUSHORTN4
+
+TBD 
+
+
+### -field operator=
+
+TBD 
 
 
 

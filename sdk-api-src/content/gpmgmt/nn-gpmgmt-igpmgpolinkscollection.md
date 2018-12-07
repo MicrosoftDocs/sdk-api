@@ -4,10 +4,10 @@ title: IGPMGPOLinksCollection
 author: windows-sdk-content
 description: The IGPMGPOLinksCollection interface contains methods that enable applications to access a collection of GPO links when using the Group Policy Management (GPMC) interfaces.
 old-location: gpmc\igpmgpolinkscollection.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 37753a31-0ef8-4fb9-b542-a91ae47ed417
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPMGPOLinksCollection, IGPMGPOLinksCollection, IGPMGPOLinksCollection interface [GPMC], IGPMGPOLinksCollection interface [GPMC],described, _win32_igpmgpolinkscollection, gpmc.igpmgpolinkscollection, gpmgmt/IGPMGPOLinksCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

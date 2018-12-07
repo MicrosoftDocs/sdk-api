@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_GetB_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getb.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Color class [GDI+],GetB method, Color.GetB, Color::GetB, GetB, GetB method [GDI+], GetB method [GDI+],Color class, _gdiplus_CLASS_Color_GetB_, gdiplus._gdiplus_CLASS_Color_GetB_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdipluscolor.h
-: 
-- Color.GetB
-: 
 req.product: GDI+ 1.0
 ---
 

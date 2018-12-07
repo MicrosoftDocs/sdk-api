@@ -4,10 +4,10 @@ title: IEnumSTATPROPSTG::Skip
 author: windows-sdk-content
 description: Skips the specified number of STATPROPSTG structures in the enumeration sequence.
 old-location: stg\ienumstatpropstg_skip.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: e70e4668-d52c-4135-948b-c8f5d141e6a2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Skip method, IEnumSTATPROPSTG.Skip, IEnumSTATPROPSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Skip, stg.ienumstatpropstg_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- propidl.h
-: 
-- IEnumSTATPROPSTG.Skip
-: 
 ---
 
 # IEnumSTATPROPSTG::Skip

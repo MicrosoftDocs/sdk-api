@@ -7,7 +7,7 @@ old-location: devinst\setupwritetextlogerror.htm
 tech.root: devinst
 ms.assetid: 9b52d5a7-4a7f-49eb-86c4-cc0434b54232
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetupWriteTextLogError, SetupWriteTextLogError function [Device and Driver Installation], devinst.setupwritetextlogerror, setupapi/SetupWriteTextLogError, setupapilog-ref_886f507a-408e-4745-b9d2-ea0cf1bf7250.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupWriteTextLogError
-: 
 ---
 
 # SetupWriteTextLogError function

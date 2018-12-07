@@ -4,10 +4,10 @@ title: IBackgroundCopyFile5::GetProperty
 author: windows-sdk-content
 description: Gets a generic property of a BITS file transfer.
 old-location: bits\ibackgroundcopyfile5_getproperty.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 7afe4d11-f611-40ea-be94-7825f95576de
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [BITS], GetProperty method [BITS],IBackgroundCopyFile5 interface, IBackgroundCopyFile5 interface [BITS],GetProperty method, IBackgroundCopyFile5.GetProperty, IBackgroundCopyFile5::GetProperty, bits.ibackgroundcopyfile5_getproperty, bits5_0/IBackgroundCopyFile5::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits5_0.h
-: 
-- IBackgroundCopyFile5.GetProperty
-: 
 ---
 
 # IBackgroundCopyFile5::GetProperty

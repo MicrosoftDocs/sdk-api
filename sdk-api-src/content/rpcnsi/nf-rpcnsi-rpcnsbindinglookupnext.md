@@ -4,10 +4,10 @@ title: RpcNsBindingLookupNext function
 author: windows-sdk-content
 description: The RpcNsBindingLookupNext function returns a list of compatible binding handles for a specified interface and optionally an object.
 old-location: rpc\rpcnsbindinglookupnext.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 068913fb-f9ca-4e03-93d7-3484ba43472e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RpcNsBindingLookupNext, RpcNsBindingLookupNext function [RPC], _rpc_rpcnsbindinglookupnext, rpc.rpcnsbindinglookupnext, rpcnsi/RpcNsBindingLookupNext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcNsBindingLookupNext
-: 
 ---
 
 # RpcNsBindingLookupNext function

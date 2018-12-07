@@ -7,7 +7,7 @@ old-location: iphlp\icmp6createfile.htm
 tech.root: IpHlp
 ms.assetid: 2ddb23d8-a4e6-47c4-a552-2815ccaf055f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Icmp6CreateFile, Icmp6CreateFile function [IP Helper], icmpapi/Icmp6CreateFile, iphlp.icmp6createfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Icmp6CreateFile
-: 
 ---
 
 # Icmp6CreateFile function

@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt16VectorAlloc.htm
 tech.root: properties
 ms.assetid: 489aff33-2faa-480a-a146-67f6ef4b8b93
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PropVariantToInt16VectorAlloc, PropVariantToInt16VectorAlloc function [Windows Properties], _shell_PropVariantToInt16VectorAlloc, properties.PropVariantToInt16VectorAlloc, propvarutil/PropVariantToInt16VectorAlloc, shell.PropVariantToInt16VectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantToInt16VectorAlloc
-: 
 ---
 
 # PropVariantToInt16VectorAlloc function

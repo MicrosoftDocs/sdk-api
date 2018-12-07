@@ -7,7 +7,7 @@ old-location: websock\websocketgetglobalproperty.htm
 tech.root: WebSock
 ms.assetid: ca4b76e9-6545-447b-93b2-e9e4054a54ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WebSocketGetGlobalProperty, WebSocketGetGlobalProperty function [Websocket Protocol Component API], websock.websocketgetglobalproperty, websocket/WebSocketGetGlobalProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WebSocketGetGlobalProperty
-: 
 ---
 
 # WebSocketGetGlobalProperty function

@@ -4,10 +4,10 @@ title: IVdsLunPlex::QueryExtents
 author: windows-sdk-content
 description: Returns an array of the drive extents that contribute to the plex.
 old-location: base\ivdslunplex_queryextents.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: e9ed5bdd-c696-47cc-84c8-266b230f7970
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsLunPlex interface [VDS],QueryExtents method, IVdsLunPlex.QueryExtents, IVdsLunPlex::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsLunPlex interface, base.ivdslunplex_queryextents, vds/IVdsLunPlex::QueryExtents, vdshwprv/IVdsLunPlex::QueryExtents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vdshwprv.h
-: 
-- IVdsLunPlex.QueryExtents
-: 
 ---
 
 # IVdsLunPlex::QueryExtents

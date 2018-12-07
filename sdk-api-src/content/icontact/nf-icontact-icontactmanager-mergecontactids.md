@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactManager_MergeContactIDs.htm
 tech.root: wincontacts
 ms.assetid: 1a3aea59-ef92-4775-b942-7383a5e8a63c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IContactManager interface [Windows Contacts],MergeContactIDs method, IContactManager.MergeContactIDs, IContactManager::MergeContactIDs, MergeContactIDs, MergeContactIDs method [Windows Contacts], MergeContactIDs method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_MergeContactIDs, icontact/IContactManager::MergeContactIDs, wincontacts._wincontacts_IContactManager_MergeContactIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- icontact.h
-: 
-- IContactManager.MergeContactIDs
-: 
 ---
 
 # IContactManager::MergeContactIDs

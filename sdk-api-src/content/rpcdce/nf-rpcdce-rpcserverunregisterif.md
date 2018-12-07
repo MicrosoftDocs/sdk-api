@@ -4,10 +4,10 @@ title: RpcServerUnregisterIf function
 author: windows-sdk-content
 description: The RpcServerUnregisterIf function removes an interface from the RPC run-time library registry.
 old-location: rpc\rpcserverunregisterif.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: bcaf4a0d-8a0d-4016-ab6e-9e1a0fd65d4b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RpcServerUnregisterIf, RpcServerUnregisterIf function [RPC], _rpc_rpcserverunregisterif, rpc.rpcserverunregisterif, rpcdce/RpcServerUnregisterIf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcServerUnregisterIf
-: 
 ---
 
 # RpcServerUnregisterIf function

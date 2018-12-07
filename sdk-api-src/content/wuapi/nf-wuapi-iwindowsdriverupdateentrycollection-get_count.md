@@ -4,10 +4,10 @@ title: IWindowsDriverUpdateEntryCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of elements contained in the collection.
 old-location: wua\iwindowsdriverupdateentrycollection_count.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: a3fb3a1c-f555-4443-9afc-9ad6e613fdda
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],Count property, IWindowsDriverUpdateEntryCollection.Count, IWindowsDriverUpdateEntryCollection.get_Count, IWindowsDriverUpdateEntryCollection::Count, IWindowsDriverUpdateEntryCollection::get_Count, get_Count, wua.iwindowsdriverupdateentrycollection_count, wuapi/IWindowsDriverUpdateEntryCollection::Count, wuapi/IWindowsDriverUpdateEntryCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IWindowsDriverUpdateEntryCollection.get_Count
-: 
 ---
 
 # IWindowsDriverUpdateEntryCollection::get_Count

@@ -4,10 +4,10 @@ title: MprAdminInterfaceConnect function
 author: windows-sdk-content
 description: The MprAdminInterfaceConnect function creates a connection to the specified WAN interface.
 old-location: rras\mpradmininterfaceconnect.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 21440495-9372-42c7-8e40-8f3d5812f187
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MprAdminInterfaceConnect, MprAdminInterfaceConnect function [RAS], _mpr_mpradmininterfaceconnect, mprapi/MprAdminInterfaceConnect, rras.mpradmininterfaceconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprAdminInterfaceConnect
-: 
 ---
 
 # MprAdminInterfaceConnect function

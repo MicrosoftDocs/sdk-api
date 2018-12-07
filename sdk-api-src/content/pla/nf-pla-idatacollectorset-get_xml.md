@@ -4,10 +4,10 @@ title: IDataCollectorSet::get_Xml
 author: windows-sdk-content
 description: Retrieves an XML string that describes the values of the data collector set properties, including those of the data collectors contained in the set.
 old-location: pla\idatacollectorset_get_xml.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 4b07bf1c-58e8-430a-a68c-c16cab954140
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDataCollectorSet interface [PLA],Xml property, IDataCollectorSet.Xml, IDataCollectorSet.get_Xml, IDataCollectorSet::Xml, IDataCollectorSet::get_Xml, Xml property [PLA], Xml property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_xml, get_Xml, pla.idatacollectorset_get_xml, pla/IDataCollectorSet::Xml, pla/IDataCollectorSet::get_Xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollectorSet.get_Xml
-: 
 ---
 
 # IDataCollectorSet::get_Xml

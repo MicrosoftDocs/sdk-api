@@ -7,7 +7,7 @@ old-location: wcs\cmyk.htm
 tech.root: WCS
 ms.assetid: ee28d4e3-314f-429d-841b-da432ff6dc78
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CMYK, CMYK macro [Windows Color System], _color_CMYK, wcs.cmyk, wingdi/CMYK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- wingdi.h
-: 
-- CMYK
-: 
 ---
 
 # CMYK macro

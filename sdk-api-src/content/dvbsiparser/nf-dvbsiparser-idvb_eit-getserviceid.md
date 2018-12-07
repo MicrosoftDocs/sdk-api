@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_getserviceid.htm
 tech.root: mstv
 ms.assetid: 6ff89d80-9c68-4c2a-b0b5-14603b55d7b7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetServiceId method, IDVB_EIT.GetServiceId, IDVB_EIT::GetServiceId, IDVB_EITGetServiceId, dvbsiparser/IDVB_EIT::GetServiceId, mstv.idvb_eit_getserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDVB_EIT.GetServiceId
-: 
 ---
 
 # IDVB_EIT::GetServiceId

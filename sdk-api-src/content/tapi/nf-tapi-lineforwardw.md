@@ -4,10 +4,10 @@ title: lineForwardW function
 author: windows-sdk-content
 description: The lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions.
 old-location: tapi2\lineforward.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 68dc99c5-1158-4e18-8e32-08216ff3567b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_lineforward, lineForward, lineForward function [TAPI 2.2], lineForwardA, lineForwardW, tapi/lineForward, tapi/lineForwardA, tapi/lineForwardW, tapi2.lineforward"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- lineForwardW
-: 
 ---
 
 # lineForwardW function

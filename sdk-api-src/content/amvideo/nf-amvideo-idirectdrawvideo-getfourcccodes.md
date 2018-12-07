@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_getfourcccodes.htm
 tech.root: DirectShow
 ms.assetid: 3ea1c5c4-bf2e-40f6-bf48-a69900128ec8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectShow], GetFourCCCodes method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetFourCCCodes method, IDirectDrawVideo.GetFourCCCodes, IDirectDrawVideo::GetFourCCCodes, IDirectDrawVideoGetFourCCCodes, amvideo/IDirectDrawVideo::GetFourCCCodes, dshow.idirectdrawvideo_getfourcccodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- amvideo.h
-: 
-- IDirectDrawVideo.GetFourCCCodes
-: 
 ---
 
 # IDirectDrawVideo::GetFourCCCodes

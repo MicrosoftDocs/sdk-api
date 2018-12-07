@@ -7,7 +7,7 @@ old-location: winsync\iknowledgesyncprovider_endsession.htm
 tech.root: winsync
 ms.assetid: b726c902-6ccb-4c73-85f1-7256b92ef7e2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EndSession, EndSession method [Windows Sync], EndSession method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],EndSession method, IKnowledgeSyncProvider.EndSession, IKnowledgeSyncProvider::EndSession, winsync.iknowledgesyncprovider_endsession, winsync/IKnowledgeSyncProvider::EndSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- IKnowledgeSyncProvider.EndSession
-: 
 ---
 
 # IKnowledgeSyncProvider::EndSession

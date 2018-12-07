@@ -4,10 +4,10 @@ title: NetworkIsolationUnregisterForAppContainerChanges function
 author: windows-sdk-content
 description: Is used to cancel an app container change registration and stop receiving notifications.
 old-location: ics\networkisolationunregisterforappcontainerchanges.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 589f416d-058a-4711-863f-74b0dacc63eb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: NetworkIsolationUnregisterForAppContainerChanges, NetworkIsolationUnregisterForAppContainerChanges function [ICS/ICF], ics.networkisolationunregisterforappcontainerchanges, networkisolation/NetworkIsolationUnregisterForAppContainerChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetworkIsolationUnregisterForAppContainerChanges
-: 
 ---
 
 # NetworkIsolationUnregisterForAppContainerChanges function

@@ -7,7 +7,7 @@ old-location: termserv\iworkspaceregistration2_addresourceex.htm
 tech.root: termserv
 ms.assetid: 7bb26842-ca30-40e2-b7a2-474dda4ad433
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddResourceEx, AddResourceEx method [Remote Desktop Services], AddResourceEx method [Remote Desktop Services],IWorkspaceRegistration2 interface, AddResourceEx method [Remote Desktop Services],Workspace object, IWorkspaceRegistration2 interface [Remote Desktop Services],AddResourceEx method, IWorkspaceRegistration2.AddResourceEx, IWorkspaceRegistration2::AddResourceEx, Workspace object [Remote Desktop Services],AddResourceEx method, termserv.iworkspaceregistration2_addresourceex, workspaceruntime/IWorkspaceRegistration2::AddResourceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,14 +41,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- workspaceruntime.h
-: 
-- IWorkspaceRegistration2.AddResourceEx
-: 
 ---
 
 # IWorkspaceRegistration2::AddResourceEx
@@ -72,7 +64,7 @@ Adds a resource to the connection in RemoteApp and Desktop Connection.
 A pointer to the <a href="https://msdn.microsoft.com/f72b0709-1a55-49c9-ab5d-22f9259c41f0">IWorkspaceClientExt</a> object  that called this method.
 
 
-### -param bstrEventLogUploadAddress [in] [in]
+### -param bstrEventLogUploadAddress [in]
 
 TBD
 
@@ -82,7 +74,7 @@ TBD
 A pointer to a <b>DWORD</b> variable to receive the connection cookie for a new resource.
 
 
-### -param correlationId [in] [in]
+### -param correlationId [in]
 
 TBD
 

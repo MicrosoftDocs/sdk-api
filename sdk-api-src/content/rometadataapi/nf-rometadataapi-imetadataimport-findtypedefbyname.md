@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_findtypedefbyname.htm
 tech.root: WinRT
 ms.assetid: dd4dd7d9-dfdf-4095-881b-c730ebfb083c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FindTypeDefByName, FindTypeDefByName method [Windows Runtime], FindTypeDefByName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],FindTypeDefByName method, IMetaDataImport.FindTypeDefByName, IMetaDataImport::FindTypeDefByName, rometadataapi/IMetaDataImport::FindTypeDefByName, winrt.imetadataimport_findtypedefbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rometadataapi.h
-: 
-- IMetaDataImport.FindTypeDefByName
-: 
 ---
 
 # IMetaDataImport::FindTypeDefByName

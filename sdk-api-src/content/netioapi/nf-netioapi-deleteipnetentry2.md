@@ -7,7 +7,7 @@ old-location: iphlp\deleteipnetentry2.htm
 tech.root: IpHlp
 ms.assetid: 85bace04-6c95-4cf2-a212-764de292aed6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteIpNetEntry2, DeleteIpNetEntry2 function [IP Helper], iphlp.deleteipnetentry2, netioapi/DeleteIpNetEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DeleteIpNetEntry2
-: 
 ---
 
 # DeleteIpNetEntry2 function

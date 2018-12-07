@@ -4,10 +4,10 @@ title: IUPnPDevices
 author: windows-sdk-content
 description: The IUPnPDevices interface enumerates a collection of devices.
 old-location: upnp\iupnpdevices.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 237715dc-2b5a-45b4-b006-d31c0b4e89e3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDevices, IUPnPDevices interface [UPnP APIs], IUPnPDevices interface [UPnP APIs],described, _upnp_iupnpdevices, upnp.iupnpdevices, upnp/IUPnPDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices

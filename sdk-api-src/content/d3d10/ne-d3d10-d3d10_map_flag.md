@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_map_flag.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_map_flag.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D10_MAP_FLAG, D3D10_MAP_FLAG enumeration [Direct3D 10], D3D10_MAP_FLAG_DO_NOT_WAIT, b065a6b9-984f-67e0-f7d5-c91d03926340, d3d10/D3D10_MAP_FLAG, d3d10/D3D10_MAP_FLAG_DO_NOT_WAIT, direct3d10.d3d10_map_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices

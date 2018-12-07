@@ -4,10 +4,10 @@ title: IOfflineFilesGhostInfo::IsGhosted
 author: windows-sdk-content
 description: Determines whether the item is ghosted.
 old-location: of\iofflinefilesghostinfo_isghosted.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: b2e8ca73-4186-4971-b5be-41ecfc6b5e4a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesGhostInfo interface [Offline Files],IsGhosted method, IOfflineFilesGhostInfo.IsGhosted, IOfflineFilesGhostInfo::IsGhosted, IsGhosted, IsGhosted method [Offline Files], IsGhosted method [Offline Files],IOfflineFilesGhostInfo interface, cscobj/IOfflineFilesGhostInfo::IsGhosted, of.iofflinefilesghostinfo_isghosted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesGhostInfo.IsGhosted
-: 
 ---
 
 # IOfflineFilesGhostInfo::IsGhosted

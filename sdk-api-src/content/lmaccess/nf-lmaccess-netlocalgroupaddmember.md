@@ -4,10 +4,10 @@ title: NetLocalGroupAddMember function
 author: windows-sdk-content
 description: The NetLocalGroupAddMember function is obsolete. You should use the NetLocalGroupAddMembers function instead.
 old-location: netmgmt\netlocalgroupaddmember.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: df249dfd-2509-4e67-af4d-b152b95d0eae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: NetLocalGroupAddMember, NetLocalGroupAddMember function [Network Management], _win32_netlocalgroupaddmember, lmaccess/NetLocalGroupAddMember, netmgmt.netlocalgroupaddmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetLocalGroupAddMember
-: 
 ---
 
 # NetLocalGroupAddMember function

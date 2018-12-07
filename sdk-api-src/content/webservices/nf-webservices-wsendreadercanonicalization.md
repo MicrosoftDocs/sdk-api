@@ -7,7 +7,7 @@ old-location: wsw\wsendreadercanonicalization.htm
 tech.root: wsw
 ms.assetid: 5cacad47-8581-4713-96cb-3b3a863e6327
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsEndReaderCanonicalization, WsEndReaderCanonicalization function [Web Services for Windows], webservices/WsEndReaderCanonicalization, wsw.wsendreadercanonicalization
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsEndReaderCanonicalization
-: 
 ---
 
 # WsEndReaderCanonicalization function

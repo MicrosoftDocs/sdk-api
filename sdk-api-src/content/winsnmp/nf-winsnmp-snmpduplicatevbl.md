@@ -7,7 +7,7 @@ old-location: snmp\snmpduplicatevbl.htm
 tech.root: SNMP
 ms.assetid: b6ca0167-43d7-4a85-b3ba-c2683ae27ff5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpDuplicateVbl, SnmpDuplicateVbl function [SNMP], _snmp_snmpduplicatevbl, snmp.snmpduplicatevbl, winsnmp/SnmpDuplicateVbl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpDuplicateVbl
-: 
 ---
 
 # SnmpDuplicateVbl function

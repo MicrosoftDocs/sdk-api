@@ -7,7 +7,7 @@ old-location: intl\idntounicode.htm
 tech.root: Intl
 ms.assetid: 90707414-aef7-4265-bc2b-d48ac79db099
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IdnToUnicode, IdnToUnicode function [Internationalization for Windows Applications], _win32_IdnToUnicode, intl.idntounicode, winnls/IdnToUnicode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1
-- apiref
-: 
-- 
-: 
-- IdnToUnicode
-: 
 ---
 
 # IdnToUnicode function

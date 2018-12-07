@@ -7,7 +7,7 @@ old-location: shell\SFV_SETITEMPOS.htm
 tech.root: shell
 ms.assetid: 5ee6ef2b-2d06-42ec-b70e-659c2f137714
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSFV_SETITEMPOS, SFV_SETITEMPOS, SFV_SETITEMPOS structure [Windows Shell], _SFV_SETITEMPOS, _shell_SFV_SETITEMPOS, shell.SFV_SETITEMPOS, shlobj/SFV_SETITEMPOS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

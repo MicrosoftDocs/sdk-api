@@ -7,7 +7,7 @@ old-location: nwifi\wlanfreememory.htm
 tech.root: NativeWiFi
 ms.assetid: 241afb9d-8b16-4d76-b311-302b5492853e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WlanFreeMemory, WlanFreeMemory function [NativeWIFI], nwifi.wlanfreememory, wlanapi/WlanFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
-- apiref
-: 
-- 
-: 
-- WlanFreeMemory
-: 
 ---
 
 # WlanFreeMemory function

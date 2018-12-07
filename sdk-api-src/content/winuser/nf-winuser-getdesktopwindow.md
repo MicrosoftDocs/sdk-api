@@ -7,7 +7,7 @@ old-location: winmsg\getdesktopwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getdesktopwindow.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetDesktopWindow, GetDesktopWindow function [Windows and Messages], _win32_GetDesktopWindow, _win32_getdesktopwindow_cpp, winmsg.getdesktopwindow, winui._win32_getdesktopwindow, winuser/GetDesktopWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,12 +52,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetDesktopWindow
-: 
 ---
 
 # GetDesktopWindow function

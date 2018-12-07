@@ -7,7 +7,7 @@ old-location: com\imessagedispatcher_pumpmessages.htm
 tech.root: com
 ms.assetid: CC34B3B0-C956-4B37-8DF7-CC90A0160835
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IMessageDispatcher interface [COM],PumpMessages method, IMessageDispatcher.PumpMessages, IMessageDispatcher::PumpMessages, PumpMessages, PumpMessages method [COM], PumpMessages method [COM],IMessageDispatcher interface, com.imessagedispatcher_pumpmessages, imessagedispatcher/IMessageDispatcher::PumpMessages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imessagedispatcher.h
-: 
-- IMessageDispatcher.PumpMessages
-: 
 ---
 
 # IMessageDispatcher::PumpMessages

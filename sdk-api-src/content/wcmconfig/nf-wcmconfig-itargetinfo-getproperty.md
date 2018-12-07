@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_getproperty.htm
 tech.root: SMI
 ms.assetid: f4366d23-e2dd-4561-af79-870212631ebf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [SMI], GetProperty method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetProperty method, ITargetInfo.GetProperty, ITargetInfo::GetProperty, smi.itargetinfo_getproperty, wcmconfig/ITargetInfo::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wcmconfig.h
-: 
-- ITargetInfo.GetProperty
-: 
 ---
 
 # ITargetInfo::GetProperty

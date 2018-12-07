@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt16VectorAlloc.htm
 tech.root: properties
 ms.assetid: e5af0f91-49c1-4ff3-8339-77fffc2102f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PropVariantToUInt16VectorAlloc, PropVariantToUInt16VectorAlloc function [Windows Properties], _shell_PropVariantToUInt16VectorAlloc, properties.PropVariantToUInt16VectorAlloc, propvarutil/PropVariantToUInt16VectorAlloc, shell.PropVariantToUInt16VectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantToUInt16VectorAlloc
-: 
 ---
 
 # PropVariantToUInt16VectorAlloc function

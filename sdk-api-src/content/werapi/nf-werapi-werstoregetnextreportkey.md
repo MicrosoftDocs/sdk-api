@@ -7,7 +7,7 @@ old-location: wer\werstoregetnextreportkey.htm
 tech.root: wer
 ms.assetid: 781D54A9-6F51-445E-89A8-A0C944081B81
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WerStoreGetNextReportKey, WerStoreGetNextReportKey function [Windows Error Reporting], wer.werstoregetnextreportkey, werapi/WerStoreGetNextReportKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WerStoreGetNextReportKey
-: 
 ---
 
 # WerStoreGetNextReportKey function

@@ -4,10 +4,10 @@ title: IRdcFileReader
 author: windows-sdk-content
 description: The IRdcFileReader interface is used to provide the equivalent of a file handle, because the data being synchronized may not exist as a file on disk.
 old-location: rdc\irdcfilereader.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 9684efca-37fd-45ce-a24e-d5276b8ea6af
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRdcFileReader, IRdcFileReader interface [Remote Differential Compression], IRdcFileReader interface [Remote Differential Compression],described, fs.irdcfilereader, msrdc/IRdcFileReader, rdc.irdcfilereader
 ms.prod: windows-hardware
 ms.technology: windows-devices

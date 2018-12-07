@@ -4,10 +4,10 @@ title: "_MANAGEDAPPLICATION"
 author: windows-sdk-content
 description: The MANAGEDAPPLICATION structure contains information about an application. The function GetManagedApplications returns an array of MANAGEDAPPLICATION structures.
 old-location: policy\managedapplication_str.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: 8ac78f92-e665-4dd0-b226-6bf41dcd050a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*PMANAGEDAPPLICATION, MANAGEDAPPLICATION, MANAGEDAPPLICATION structure [Group Policy], MANAGED_APPTYPE_SETUPEXE, MANAGED_APPTYPE_UNSUPPORTED, MANAGED_APPTYPE_WINDOWSINSTALLER, PMANAGEDAPPLICATION, PMANAGEDAPPLICATION structure pointer [Group Policy], _MANAGEDAPPLICATION, appmgmt/MANAGEDAPPLICATION, appmgmt/PMANAGEDAPPLICATION, policy.managedapplication_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

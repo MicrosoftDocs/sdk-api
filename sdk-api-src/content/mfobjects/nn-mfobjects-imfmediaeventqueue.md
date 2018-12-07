@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventqueue.htm
 tech.root: medfound
 ms.assetid: e1698caa-db70-436d-af6a-64c6e7247590
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFMediaEventQueue, IMFMediaEventQueue interface [Media Foundation], IMFMediaEventQueue interface [Media Foundation],described, e1698caa-db70-436d-af6a-64c6e7247590, mf.imfmediaeventqueue, mfobjects/IMFMediaEventQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

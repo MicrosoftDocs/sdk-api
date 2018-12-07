@@ -4,10 +4,10 @@ title: IAzRole::Submit
 author: windows-sdk-content
 description: Persists changes made to the IAzRole object.
 old-location: security\iazrole_submit.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 97f2018a-92f0-4ebb-85f1-78c140003d8f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AzRole object [Security],Submit method, IAzRole interface [Security],Submit method, IAzRole.Submit, IAzRole::Submit, Submit, Submit method [Security], Submit method [Security],AzRole object, Submit method [Security],IAzRole interface, azroles/IAzRole::Submit, security.iazrole_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzRole.Submit
-: 
 ---
 
 # IAzRole::Submit

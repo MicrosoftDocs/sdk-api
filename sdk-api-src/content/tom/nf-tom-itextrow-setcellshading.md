@@ -4,10 +4,10 @@ title: ITextRow::SetCellShading
 author: windows-sdk-content
 description: Sets the shading of the active cell.
 old-location: controls\itextrow_setcellshading.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 9163a9a3-6f8c-4318-a5a1-4b00a9037f6a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellShading method, ITextRow.SetCellShading, ITextRow::SetCellShading, SetCellShading, SetCellShading method [Windows Controls], SetCellShading method [Windows Controls],ITextRow interface, controls.itextrow_setcellshading, tom/ITextRow::SetCellShading
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRow.SetCellShading
-: 
 ---
 
 # ITextRow::SetCellShading

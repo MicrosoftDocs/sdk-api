@@ -4,10 +4,10 @@ title: SymAddSymbolW function
 author: windows-sdk-content
 description: Adds a virtual symbol to the specified module.
 old-location: base\symaddsymbol.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 28405993-035f-4946-91c3-0e3e34fd8824
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SymAddSymbol, SymAddSymbol function, SymAddSymbolW, _win32_symaddsymbol, base.symaddsymbol, dbghelp/SymAddSymbol, dbghelp/SymAddSymbolW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later
-- apiref
-: 
-- 
-: 
-- SymAddSymbolW
-: 
 ---
 
 # SymAddSymbolW function

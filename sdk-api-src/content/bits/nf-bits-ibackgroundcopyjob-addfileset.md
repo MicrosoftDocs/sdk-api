@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::AddFileSet
 author: windows-sdk-content
 description: Adds multiple files to a job.
 old-location: bits\ibackgroundcopyjob_addfileset.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: fe2f9b47-0f0a-48ab-be0e-658307cfec5f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddFileSet, AddFileSet method [BITS], AddFileSet method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],AddFileSet method, IBackgroundCopyJob.AddFileSet, IBackgroundCopyJob::AddFileSet, _drz_ibackgroundcopyjob_addfileset, bits.ibackgroundcopyjob_addfileset, bits/IBackgroundCopyJob::AddFileSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.AddFileSet
-: 
 ---
 
 # IBackgroundCopyJob::AddFileSet
@@ -72,14 +64,7 @@ Adds multiple files to a job.
 Number of elements in <i>paFileSet</i>.
 
 
-### -param pFileSet
-
-TBD
-
-
-
-
-#### - paFileSet [in]
+### -param pFileSet [in]
 
 Array of 
 <a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structures that identify the local and remote file names of the files to transfer. 

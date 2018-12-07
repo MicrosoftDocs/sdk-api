@@ -7,7 +7,7 @@ old-location: com\cogetapartmenttype.htm
 tech.root: com
 ms.assetid: ab0b6008-397f-4210-ba26-1a041b709722
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CoGetApartmentType, CoGetApartmentType function [COM], com.cogetapartmenttype, combaseapi/CoGetApartmentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoGetApartmentType
-: 
 ---
 
 # CoGetApartmentType function

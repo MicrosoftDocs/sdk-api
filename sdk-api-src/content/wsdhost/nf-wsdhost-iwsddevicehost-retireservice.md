@@ -4,10 +4,10 @@ title: IWSDDeviceHost::RetireService
 author: windows-sdk-content
 description: Unregisters a service object that was registered using RegisterService and removes the service from the device host metadata.
 old-location: ncd\iwsddevicehost_retireservice_method.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 7832c787-f268-44e3-b394-363299b6a823
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDDeviceHost interface,RetireService method, IWSDDeviceHost.RetireService, IWSDDeviceHost::RetireService, RetireService, RetireService method, RetireService method,IWSDDeviceHost interface, ncd.iwsddevicehost_retireservice_method, wsdhost/IWSDDeviceHost::RetireService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdhost.h
-: 
-- IWSDDeviceHost.RetireService
-: 
 ---
 
 # IWSDDeviceHost::RetireService

@@ -4,10 +4,10 @@ title: CheckTokenMembershipEx function
 author: windows-sdk-content
 description: Determines whether the specified SID is enabled in the specified token.
 old-location: security\checktokenmembershipex.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 0420FC77-8035-42A5-8907-83D0CE53FB64
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CheckTokenMembershipEx, CheckTokenMembershipEx function [Security], security.checktokenmembershipex, securitybaseapi/CheckTokenMembershipEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CheckTokenMembershipEx
-: 
 ---
 
 # CheckTokenMembershipEx function

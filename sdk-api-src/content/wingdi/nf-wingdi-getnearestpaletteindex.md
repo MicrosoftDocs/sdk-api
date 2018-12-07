@@ -7,7 +7,7 @@ old-location: gdi\getnearestpaletteindex.htm
 tech.root: gdi
 ms.assetid: df54532d-dcdb-4927-8f48-c9c92a7e0121
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetNearestPaletteIndex, GetNearestPaletteIndex function [Windows GDI], _win32_GetNearestPaletteIndex, gdi.getnearestpaletteindex, wingdi/GetNearestPaletteIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetNearestPaletteIndex
-: 
 ---
 
 # GetNearestPaletteIndex function

@@ -7,7 +7,7 @@ old-location: secbiomet\winbio_adapter_interface_version.htm
 tech.root: SecBioMet
 ms.assetid: e9dd91ea-cca3-49f3-89dc-f8f2c0594bd2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWINBIO_ADAPTER_INTERFACE_VERSION, PWINBIO_ADAPTER_INTERFACE_VERSION, PWINBIO_ADAPTER_INTERFACE_VERSION structure pointer [Windows Biometric Framework API], WINBIO_ADAPTER_INTERFACE_VERSION, WINBIO_ADAPTER_INTERFACE_VERSION structure [Windows Biometric Framework API], _WINBIO_ADAPTER_INTERFACE_VERSION, secbiomet.winbio_adapter_interface_version, winbio_adapter/PWINBIO_ADAPTER_INTERFACE_VERSION, winbio_adapter/WINBIO_ADAPTER_INTERFACE_VERSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ResUtilSetPropertyTableEx function
 author: windows-sdk-content
 description: Sets properties in the cluster database based on a property list from a property table.
 old-location: mscs\resutilsetpropertytableex.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 82f5f5d5-8ec1-4693-b66c-f141a8999803
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE_EX, PRESUTIL_SET_PROPERTY_TABLE_EX function [Failover Cluster], ResUtilSetPropertyTableEx, ResUtilSetPropertyTableEx function [Failover Cluster], _wolf_resutilsetpropertytableex, mscs.resutilsetpropertytableex, resapi/PRESUTIL_SET_PROPERTY_TABLE_EX, resapi/ResUtilSetPropertyTableEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResUtilSetPropertyTableEx
-: 
 ---
 
 # ResUtilSetPropertyTableEx function

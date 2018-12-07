@@ -4,10 +4,10 @@ title: IIdentityStore::GetAt
 author: windows-sdk-content
 description: Retrieves an IIdentityProvider interface pointer for the specified identity provider.
 old-location: security\iidentitystore_getat.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: c62212bf-852b-43fb-9abf-b85f4d15b305
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetAt, GetAt method [Security], GetAt method [Security],IIdentityStore interface, IIdentityStore interface [Security],GetAt method, IIdentityStore.GetAt, IIdentityStore::GetAt, identitystore/IIdentityStore::GetAt, security.iidentitystore_getat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- identitystore.h
-: 
-- IIdentityStore.GetAt
-: 
 ---
 
 # IIdentityStore::GetAt

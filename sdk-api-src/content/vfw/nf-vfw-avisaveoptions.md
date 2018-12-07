@@ -7,7 +7,7 @@ old-location: multimedia\avisaveoptions.htm
 tech.root: Multimedia
 ms.assetid: 6141272f-a815-4ba8-bc6b-41751d6e0104
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AVISaveOptions, AVISaveOptions function [Windows Multimedia], _win32_AVISaveOptions, multimedia.avisaveoptions, vfw/AVISaveOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AVISaveOptions
-: 
 ---
 
 # AVISaveOptions function

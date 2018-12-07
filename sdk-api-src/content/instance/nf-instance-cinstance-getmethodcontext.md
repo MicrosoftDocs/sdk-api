@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getmethodcontext.htm
 tech.root: WmiSdk
 ms.assetid: a2033754-4fd0-405f-9ad9-737eb8931016
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "?GetMethodContext@CInstance@@QBEPAVMethodContext@@XZ, ?GetMethodContext@CInstance@@QEBAPEAVMethodContext@@XZ, CInstance interface [Windows Management Instrumentation],GetMethodContext method, CInstance.GetMethodContext, CInstance::GetMethodContext, GetMethodContext, GetMethodContext method [Windows Management Instrumentation], GetMethodContext method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getmethodcontext, instance/CInstance::GetMethodContext, wmi.cinstance_getmethodcontext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- instance.h
-: 
-- CInstance.GetMethodContext
-: 
 ---
 
 # CInstance::GetMethodContext

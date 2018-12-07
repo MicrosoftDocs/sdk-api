@@ -7,7 +7,7 @@ old-location: winrt\iprintmanagerinterop_getforwindow.htm
 tech.root: WinRT
 ms.assetid: 8cbf37b6-6756-4399-aa6b-01eb63c8c6db
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime],IPrintManagerInterop interface, IPrintManagerInterop interface [Windows Runtime],GetForWindow method, IPrintManagerInterop.GetForWindow, IPrintManagerInterop::GetForWindow, printmanagerinterop/IPrintManagerInterop::GetForWindow, winrt.iprintmanagerinterop_getforwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- printmanagerinterop.h
-: 
-- IPrintManagerInterop.GetForWindow
-: 
 ---
 
 # IPrintManagerInterop::GetForWindow

@@ -4,10 +4,10 @@ title: IDirectorySearch
 author: windows-sdk-content
 description: The IDirectorySearch interface is a pure COM interface that provides a low overhead method that non-Automation clients can use to perform queries in the underlying directory.
 old-location: adsi\idirectorysearch.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: e8989795-8f72-476a-a69e-c0e8800289ab
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDirectorySearch, IDirectorySearch interface [ADSI], IDirectorySearch interface [ADSI],described, _ds_idirectorysearch, adsi.idirectorysearch, iads/IDirectorySearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

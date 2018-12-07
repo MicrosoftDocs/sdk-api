@@ -4,10 +4,10 @@ title: "_SID"
 author: windows-sdk-content
 description: Used to uniquely identify users or groups.
 old-location: security\sid.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 328fba4e-e590-4174-9274-52dad58cb91f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PISID, PSID, PSID structure pointer [Security], SID, SID structure [Security], _SID, _win32_sid_str, security.sid, winnt/PSID, winnt/SID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

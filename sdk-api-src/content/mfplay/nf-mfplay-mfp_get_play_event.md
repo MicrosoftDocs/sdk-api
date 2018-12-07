@@ -7,7 +7,7 @@ old-location: mf\mfp_get_play_event.htm
 tech.root: medfound
 ms.assetid: 2a67965f-3429-4ce7-ae62-8952cacb00eb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MFP_GET_PLAY_EVENT, MFP_GET_PLAY_EVENT macro [Media Foundation], mf.mfp_get_play_event, mfplay/MFP_GET_PLAY_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- mfplay.h
-: 
-- MFP_GET_PLAY_EVENT
-: 
 ---
 
 # MFP_GET_PLAY_EVENT macro

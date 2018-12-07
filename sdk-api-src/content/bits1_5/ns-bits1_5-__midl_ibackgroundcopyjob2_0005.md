@@ -4,10 +4,10 @@ title: "__MIDL_IBackgroundCopyJob2_0005"
 author: windows-sdk-content
 description: The BG_AUTH_CREDENTIALS structure identifies the target (proxy or server), authentication scheme, and the user's credentials to use for user authentication requests. The structure is passed to the IBackgroundCopyJob2::SetCredentials method.
 old-location: bits\bg_auth_credentials.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: f89ebf46-da83-495c-bafe-b2e0f72f5d8e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: "*PBG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS structure [BITS], __MIDL_IBackgroundCopyJob2_0005, _drz_bg_auth_credentials, bits.bg_auth_credentials, bits1_5/BG_AUTH_CREDENTIALS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

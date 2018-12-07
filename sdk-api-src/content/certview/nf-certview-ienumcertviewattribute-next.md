@@ -4,10 +4,10 @@ title: IEnumCERTVIEWATTRIBUTE::Next
 author: windows-sdk-content
 description: Moves to the next attribute in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_next.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 2903ccda-e06d-4690-accf-79bc73d8569f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE interface [Security],Next method, IEnumCERTVIEWATTRIBUTE.Next, IEnumCERTVIEWATTRIBUTE::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWATTRIBUTE interface, _certsrv_ienumcertviewattribute_next, certview/IEnumCERTVIEWATTRIBUTE::Next, security.ienumcertviewattribute_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certview.h
-: 
-- IEnumCERTVIEWATTRIBUTE.Next
-: 
 ---
 
 # IEnumCERTVIEWATTRIBUTE::Next

@@ -7,7 +7,7 @@ old-location: fs\getlongpathnametransacted.htm
 tech.root: fileio
 ms.assetid: 8523cde9-f0dd-4832-8d9d-9e68bac89344
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: GetLongPathNameTransacted, GetLongPathNameTransacted function [Files], GetLongPathNameTransactedA, GetLongPathNameTransactedW, fs.getlongpathnametransacted, winbase/GetLongPathNameTransacted, winbase/GetLongPathNameTransactedA, winbase/GetLongPathNameTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetLongPathNameTransactedA
-: 
 ---
 
 # GetLongPathNameTransactedA function

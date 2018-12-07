@@ -4,10 +4,10 @@ title: SetEventWhenCallbackReturns function
 author: windows-sdk-content
 description: Specifies the event that the thread pool will set when the current callback completes.
 old-location: base\seteventwhencallbackreturns.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 50e127bc-d518-4f84-88ea-b262572d5248
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SetEventWhenCallbackReturns, SetEventWhenCallbackReturns function, base.seteventwhencallbackreturns, threadpoolapiset/SetEventWhenCallbackReturns, winbase/SetEventWhenCallbackReturns
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetEventWhenCallbackReturns
-: 
 ---
 
 # SetEventWhenCallbackReturns function

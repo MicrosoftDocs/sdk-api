@@ -4,10 +4,10 @@ title: GetCurrentProcessId function
 author: windows-sdk-content
 description: Retrieves the process identifier of the calling process.
 old-location: base\getcurrentprocessid.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: a442e147-0db0-4911-94de-91728a4b277a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurrentProcessId, GetCurrentProcessId function, _win32_getcurrentprocessid, base.getcurrentprocessid, processthreadsapi/GetCurrentProcessId, winbase/GetCurrentProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetCurrentProcessId
-: 
 ---
 
 # GetCurrentProcessId function

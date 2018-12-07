@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_raytracing_acceleration_structure_prebuild_info.h
 tech.root: direct3d12
 ms.assetid: B9F9551D-CB2F-488E-AD29-BCE603195F53
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO structure, PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO structure pointer, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, d3d12/PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, direct3d12.d3d12_raytracing_acceleration_structure_prebuild_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\engprobeforreadandwrite.htm
 tech.root: display
 ms.assetid: 1b618bee-7069-410b-9a3d-65ee4b25874c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EngProbeForReadAndWrite, EngProbeForReadAndWrite function [Display Devices], display.engprobeforreadandwrite, gdifncs_a27f9e58-49c2-4c85-9f84-3aadc8776752.xml, winddi/EngProbeForReadAndWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngProbeForReadAndWrite
-: 
 ---
 
 # EngProbeForReadAndWrite function

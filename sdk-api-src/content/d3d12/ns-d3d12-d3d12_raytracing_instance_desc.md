@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_raytracing_instance_desc.htm
 tech.root: direct3d12
 ms.assetid: 816B0281-EC69-4EA1-AE32-6B3E178117DE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_RAYTRACING_INSTANCE_DESC, D3D12_RAYTRACING_INSTANCE_DESC structure, PD3D12_RAYTRACING_INSTANCE_DESC, PD3D12_RAYTRACING_INSTANCE_DESC structure pointer, d3d12/D3D12_RAYTRACING_INSTANCE_DESC, d3d12/PD3D12_RAYTRACING_INSTANCE_DESC, direct3d12.d3d12_raytracing_instance_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

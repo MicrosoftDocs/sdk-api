@@ -7,7 +7,7 @@ old-location: mstv\ievalrat_testrating.htm
 tech.root: mstv
 ms.assetid: 26144496-200c-49b8-9f5e-23a39fea20bc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],TestRating method, IEvalRat.TestRating, IEvalRat::TestRating, IEvalRatTestRating, TestRating, TestRating method [Microsoft TV Technologies], TestRating method [Microsoft TV Technologies],IEvalRat interface, mstv.ievalrat_testrating, tvratings/IEvalRat::TestRating
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tvratings.h
-: 
-- IEvalRat.TestRating
-: 
 ---
 
 # IEvalRat::TestRating

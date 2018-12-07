@@ -7,7 +7,7 @@ old-location: termserv\iwtslistenercallback_onnewchannelconnection.htm
 tech.root: termserv
 ms.assetid: 1fa2b063-3a41-4f56-8cc1-8a829e530fb2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWTSListenerCallback interface [Remote Desktop Services],OnNewChannelConnection method, IWTSListenerCallback.OnNewChannelConnection, IWTSListenerCallback::OnNewChannelConnection, OnNewChannelConnection, OnNewChannelConnection method [Remote Desktop Services], OnNewChannelConnection method [Remote Desktop Services],IWTSListenerCallback interface, termserv.iwtslistenercallback_onnewchannelconnection, tsvirtualchannels/IWTSListenerCallback::OnNewChannelConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tsvirtualchannels.h
-: 
-- IWTSListenerCallback.OnNewChannelConnection
-: 
 ---
 
 # IWTSListenerCallback::OnNewChannelConnection
@@ -74,9 +66,9 @@ An <a href="https://msdn.microsoft.com/d90c6f80-ed4c-4b99-af85-d2c5816ade85">IWT
       method.
 
 
-### -param data
+### -param data [in]
 
-TBD
+This parameter is not implemented and is reserved for future use.
 
 
 ### -param pbAccept [out]
@@ -90,11 +82,6 @@ Indicates whether the connection should be accepted. Receives <b>TRUE</b> if the
 Receives an 
       <a href="https://msdn.microsoft.com/d90c6f80-ed4c-4b99-af85-d2c5816ade85">IWTSVirtualChannelCallback</a> object that 
       receives notifications for the connection. This object is created by the plug-in.
-
-
-#### - Data [in]
-
-This parameter is not implemented and is reserved for future use.
 
 
 ## -returns

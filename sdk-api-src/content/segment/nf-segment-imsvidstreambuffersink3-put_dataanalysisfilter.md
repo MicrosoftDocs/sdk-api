@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink3_put_dataanalysisfilter.htm
 tech.root: mstv
 ms.assetid: 8a353c20-7804-4277-a5cb-de0a7a610dc5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put_DataAnalysisFilter method, IMSVidStreamBufferSink3.put_DataAnalysisFilter, IMSVidStreamBufferSink3::put_DataAnalysisFilter, IMSVidStreamBufferSink3put_DataAnalysisFilter, mstv.imsvidstreambuffersink3_put_dataanalysisfilter, put_DataAnalysisFilter, put_DataAnalysisFilter method [Microsoft TV Technologies], put_DataAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put_DataAnalysisFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidStreamBufferSink3.put_DataAnalysisFilter
-: 
 ---
 
 # IMSVidStreamBufferSink3::put_DataAnalysisFilter

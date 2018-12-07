@@ -4,10 +4,10 @@ title: RollforwardTransactionManager function
 author: windows-sdk-content
 description: Recovers information only to the specified virtual clock value.
 old-location: fs\rollforwardtransactionmanager.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: 13492b74-8707-46bb-93f1-59c3c5ceab6d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RollforwardTransactionManager, RollforwardTransactionManager function [Files], fs.rollforwardtransactionmanager, ktmw32/RollforwardTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RollforwardTransactionManager
-: 
 ---
 
 # RollforwardTransactionManager function

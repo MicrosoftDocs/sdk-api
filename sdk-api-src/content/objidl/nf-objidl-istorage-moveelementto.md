@@ -4,10 +4,10 @@ title: IStorage::MoveElementTo
 author: windows-sdk-content
 description: The MoveElementTo method copies or moves a substorage or stream from this storage object to another storage object.
 old-location: stg\istorage_moveelementto.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: d9d33c64-edac-480f-b295-b2a06e51af2e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IStorage interface [Structured Storage],MoveElementTo method, IStorage.MoveElementTo, IStorage::MoveElementTo, MoveElementTo, MoveElementTo method [Structured Storage], MoveElementTo method [Structured Storage],IStorage interface, _stg_istorage_moveelementto, objidl/IStorage::MoveElementTo, stg.istorage_moveelementto
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- IStorage.MoveElementTo
-: 
 ---
 
 # IStorage::MoveElementTo

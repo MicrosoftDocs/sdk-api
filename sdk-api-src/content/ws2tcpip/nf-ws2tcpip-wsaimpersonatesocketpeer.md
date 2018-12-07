@@ -4,10 +4,10 @@ title: WSAImpersonateSocketPeer function
 author: windows-sdk-content
 description: Used to impersonate the security principal corresponding to a socket peer in order to perform application-level authorization.
 old-location: winsock\wsaimpersonatesocketpeer.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 8dd2c0dd-ca1d-40b8-8e58-a980e67b6941
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSAImpersonateSocketPeer, WSAImpersonateSocketPeer function [Winsock], winsock.wsaimpersonatesocketpeer, ws2tcpip/WSAImpersonateSocketPeer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSAImpersonateSocketPeer
-: 
 ---
 
 # WSAImpersonateSocketPeer function

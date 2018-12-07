@@ -7,7 +7,7 @@ old-location: automat\bstr_userfree.htm
 tech.root: automat
 ms.assetid: d15c2f80-abbd-4564-b962-a88a3bb7acb7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: BSTR_UserFree, BSTR_UserFree function [Automation], _oa96_BSTR_UserFree, automat.bstr_userfree, oaidl/BSTR_UserFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BSTR_UserFree
-: 
 ---
 
 # BSTR_UserFree function

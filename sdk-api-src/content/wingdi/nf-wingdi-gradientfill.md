@@ -7,7 +7,7 @@ old-location: gdi\gradientfill.htm
 tech.root: gdi
 ms.assetid: 2f3e23e4-0105-4dcf-89ea-702ec2cf9e21
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE, GradientFill, GradientFill function [Windows GDI], _win32_GradientFill, gdi.gradientfill, wingdi/GradientFill
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GradientFill
-: 
 ---
 
 # GradientFill function

@@ -7,7 +7,7 @@ old-location: multimedia\midiincaps.htm
 tech.root: Multimedia
 ms.assetid: 358f0d4e-afdd-4a20-9572-ebb6e0000780
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPMIDIINCAPSW, *NPMIDIINCAPSW, *PMIDIINCAPSW, MIDIINCAPS, MIDIINCAPS structure [Windows Multimedia], MIDIINCAPSW, _win32_MIDIINCAPS_str, midiincaps_tag, mmeapi/MIDIINCAPS, multimedia.midiincaps, tagMIDIINCAPSA, tagMIDIINCAPSW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

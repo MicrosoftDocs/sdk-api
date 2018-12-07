@@ -7,7 +7,7 @@ old-location: wcs\getcvalue.htm
 tech.root: WCS
 ms.assetid: 0b1b1eca-61b2-4011-85ea-6311ac78cab6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCValue, GetCValue macro [Windows Color System], _color_GetCValue, wcs.getcvalue, wingdi/GetCValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- wingdi.h
-: 
-- GetCValue
-: 
 ---
 
 # GetCValue macro

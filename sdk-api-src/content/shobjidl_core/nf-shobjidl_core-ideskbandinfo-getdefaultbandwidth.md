@@ -7,7 +7,7 @@ old-location: shell\IDeskBandInfo_GetDefaultBandWidth.htm
 tech.root: shell
 ms.assetid: 2a900f9d-4727-4279-867d-ec4ed17cd374
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DBIF_VIEWMODE_FLOATING, DBIF_VIEWMODE_NORMAL, DBIF_VIEWMODE_TRANSPARENT, DBIF_VIEWMODE_VERTICAL, GetDefaultBandWidth, GetDefaultBandWidth method [Windows Shell], GetDefaultBandWidth method [Windows Shell],IDeskBandInfo interface, IDeskBandInfo interface [Windows Shell],GetDefaultBandWidth method, IDeskBandInfo.GetDefaultBandWidth, IDeskBandInfo::GetDefaultBandWidth, _shell_IDeskBandInfo_GetDefaultBandWidth, shell.IDeskBandInfo_GetDefaultBandWidth, shobjidl_core/IDeskBandInfo::GetDefaultBandWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IDeskBandInfo.GetDefaultBandWidth
-: 
 ---
 
 # IDeskBandInfo::GetDefaultBandWidth

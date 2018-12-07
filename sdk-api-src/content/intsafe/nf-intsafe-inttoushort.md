@@ -7,7 +7,7 @@ old-location: shell\IntToUShort.htm
 tech.root: shell
 ms.assetid: 7e350beb-3cf4-44e1-a9fe-6864bb82d679
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IntToUShort, IntToUShort function [Windows Shell], IntToWord, _shell_IntToUShort, intsafe/IntToUShort, shell.IntToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IntToUShort
-: 
 ---
 
 # IntToUShort function

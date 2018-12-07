@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_setpromptusermode.htm
 tech.root: wmi_v2
 ms.assetid: c0bf739d-4da1-4f68-9af8-18874d16e701
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_OperationOptions_SetPromptUserMode, MI_OperationOptions_SetPromptUserMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetPromptUserMode, wmi_v2.mi_operationoptions_setpromptusermode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_OperationOptions_SetPromptUserMode
-: 
 ---
 
 # MI_OperationOptions_SetPromptUserMode function

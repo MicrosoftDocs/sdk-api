@@ -7,7 +7,7 @@ old-location: setup\addrefactctx.htm
 tech.root: SbsCs
 ms.assetid: 6812a3f4-53e4-4b60-be04-711ab4c37d12
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddRefActCtx, AddRefActCtx function [Side-by-side Assemblies], _win32_addrefactctx, setup.addrefactctx, winbase/AddRefActCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AddRefActCtx
-: 
 ---
 
 # AddRefActCtx function

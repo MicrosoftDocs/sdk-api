@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchainmedia_getframestatisticsmedia.htm
 tech.root: direct3ddxgi
 ms.assetid: AC29C389-832A-4A73-A5D8-7687B1D02256
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetFrameStatisticsMedia, GetFrameStatisticsMedia method [DXGI], GetFrameStatisticsMedia method [DXGI],IDXGISwapChainMedia interface, IDXGISwapChainMedia interface [DXGI],GetFrameStatisticsMedia method, IDXGISwapChainMedia.GetFrameStatisticsMedia, IDXGISwapChainMedia::GetFrameStatisticsMedia, direct3ddxgi.idxgiswapchainmedia_getframestatisticsmedia, dxgi1_3/IDXGISwapChainMedia::GetFrameStatisticsMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxgi1_3.h
-: 
-- IDXGISwapChainMedia.GetFrameStatisticsMedia
-: 
 ---
 
 # IDXGISwapChainMedia::GetFrameStatisticsMedia

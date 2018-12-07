@@ -4,10 +4,10 @@ title: PRESOURCE_CONTROL_ROUTINE
 author: windows-sdk-content
 description: Performs an operation that applies to a resource.
 old-location: mscs\resourcecontrol.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: a9c64471-41fa-4101-9a02-ad57add8124c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PRESOURCE_CONTROL_ROUTINE, PRESOURCE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceControl, ResourceControl callback, ResourceControl callback function [Failover Cluster], _wolf_resourcecontrol, mscs.resourcecontrol, resapi/PRESOURCE_CONTROL_ROUTINE, resapi/ResourceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

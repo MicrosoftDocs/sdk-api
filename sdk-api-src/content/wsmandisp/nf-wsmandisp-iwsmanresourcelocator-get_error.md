@@ -4,10 +4,10 @@ title: IWSManResourceLocator::get_Error
 author: windows-sdk-content
 description: Gets an XML representation of additional error information.
 old-location: winrm\iwsmanresourcelocator_error.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 040333f5-32b0-4ec8-8deb-da9fcb2ea46b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],Error property, IWSManResourceLocator.Error, IWSManResourceLocator.get_Error, IWSManResourceLocator::Error, IWSManResourceLocator::get_Error, get_Error, winrm.iwsmanresourcelocator_error, wsmandisp/IWSManResourceLocator::Error, wsmandisp/IWSManResourceLocator::get_Error
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManResourceLocator.get_Error
-: 
 ---
 
 # IWSManResourceLocator::get_Error

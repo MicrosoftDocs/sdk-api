@@ -7,7 +7,7 @@ old-location: devinst\cm_enumerate_classes_ex.htm
 tech.root: devinst
 ms.assetid: 8dce071c-3f91-42c2-a334-ec1051b6436a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Enumerate_Classes_Ex, CM_Enumerate_Classes_Ex function [Device and Driver Installation], cfgmgr32/CM_Enumerate_Classes_Ex, cfgmgrfn_586eceae-046e-4e4a-8763-e287b039585e.xml, devinst.cm_enumerate_classes_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Enumerate_Classes_Ex
-: 
 ---
 
 # CM_Enumerate_Classes_Ex function

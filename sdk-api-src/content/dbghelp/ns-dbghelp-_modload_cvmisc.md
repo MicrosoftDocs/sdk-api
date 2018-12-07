@@ -4,10 +4,10 @@ title: "_MODLOAD_CVMISC"
 author: windows-sdk-content
 description: Contains CodeView and Misc records.
 old-location: base\modload_cvmisc.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 24f1ed20-ef7a-4c7b-9bbe-4aaf26c219e7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMODLOAD_CVMISC, MODLOAD_CVMISC, MODLOAD_CVMISC structure, PMODLOAD_CVMISC, PMODLOAD_CVMISC structure pointer, _MODLOAD_CVMISC, base.modload_cvmisc, dbghelp/MODLOAD_CVMISC, dbghelp/PMODLOAD_CVMISC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,17 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingSphere.CreateFromPoints
-title: CreateFromPoints function
+title: BoundingSphere::CreateFromPoints
 author: windows-sdk-content
 description: Creates a new BoundingSphere from a list of points.
 old-location: dxmath\boundingsphere_createfrompoints.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.CreateFromPoints(BoundingSphere@,size_t,XMFLOAT3,size_t)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: BoundingSphere interface [DirectX Math Support APIs],CreateFromPoints method, BoundingSphere.CreateFromPoints, CreateFromPoints method [DirectX Math Support APIs], CreateFromPoints method [DirectX Math Support APIs],BoundingSphere interface, Use DirectX..BoundingSphere.CreateFromPoints, Use DirectX::::BoundingSphere::CreateFromPoints, dxmath.boundingsphere_createfrompoints
+ms.date: 12/5/2018
+ms.keywords: BoundingSphere interface [DirectX Math Support APIs],CreateFromPoints method, BoundingSphere.CreateFromPoints, BoundingSphere::CreateFromPoints, CreateFromPoints, CreateFromPoints method [DirectX Math Support APIs], CreateFromPoints method [DirectX Math Support APIs],BoundingSphere interface, Use DirectX..BoundingSphere.CreateFromPoints, Use DirectX::::BoundingSphere::CreateFromPoints, dxmath.boundingsphere_createfrompoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateFromPoints
-: 
 ---
 
-# CreateFromPoints function
+# BoundingSphere::CreateFromPoints
 
 
 ## -description

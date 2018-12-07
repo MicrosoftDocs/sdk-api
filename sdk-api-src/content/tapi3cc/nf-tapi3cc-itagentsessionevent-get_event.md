@@ -4,10 +4,10 @@ title: ITAgentSessionEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets an AGENT_SESSION_EVENT descriptor of the event that occurred.
 old-location: tapi3\itagentsessionevent_get_event.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 34779590-c2f6-4bd7-932b-5ac6365bcb20
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITAgentSessionEvent interface [TAPI 2.2],get_Event method, ITAgentSessionEvent.get_Event, ITAgentSessionEvent::get_Event, _tapi3_itagentsessionevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAgentSessionEvent interface, tapi3.itagentsessionevent_get_event, tapi3cc/ITAgentSessionEvent::get_Event
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3cc.h
-: 
-- ITAgentSessionEvent.get_Event
-: 
 ---
 
 # ITAgentSessionEvent::get_Event

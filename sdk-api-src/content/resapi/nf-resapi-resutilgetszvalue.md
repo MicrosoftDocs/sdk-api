@@ -4,10 +4,10 @@ title: ResUtilGetSzValue function
 author: windows-sdk-content
 description: Returns a string value from the cluster database.
 old-location: mscs\resutilgetszvalue.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: c2ba04ea-0f98-4513-b8f8-658056a493e6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_GET_SZ_VALUE, PRESUTIL_GET_SZ_VALUE function [Failover Cluster], ResUtilGetSzValue, ResUtilGetSzValue function [Failover Cluster], _wolf_resutilgetszvalue, mscs.resutilgetszvalue, resapi/PRESUTIL_GET_SZ_VALUE, resapi/ResUtilGetSzValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResUtilGetSzValue
-: 
 ---
 
 # ResUtilGetSzValue function

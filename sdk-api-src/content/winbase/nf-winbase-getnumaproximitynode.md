@@ -4,10 +4,10 @@ title: GetNumaProximityNode function
 author: windows-sdk-content
 description: Retrieves the NUMA node number that corresponds to the specified proximity domain identifier.
 old-location: base\getnumaproximitynode.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 9a2dbfe3-13e7-442d-a5f6-b2632878f618
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetNumaProximityNode, GetNumaProximityNode function, base.getnumaproximitynode, winbase/GetNumaProximityNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetNumaProximityNode
-: 
 ---
 
 # GetNumaProximityNode function

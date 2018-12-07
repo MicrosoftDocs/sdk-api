@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_format_tracks_ex.htm
 tech.root: fileio
 ms.assetid: 50ca069e-efc5-46d8-bf8f-ff44e1593a76
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_DISK_FORMAT_TRACKS_EX, IOCTL_DISK_FORMAT_TRACKS_EX control, IOCTL_DISK_FORMAT_TRACKS_EX control code [Files], _win32_ioctl_disk_format_tracks_ex, base.ioctl_disk_format_tracks_ex, fs.ioctl_disk_format_tracks_ex, winioctl/IOCTL_DISK_FORMAT_TRACKS_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices

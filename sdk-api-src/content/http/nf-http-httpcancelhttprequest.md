@@ -4,10 +4,10 @@ title: HttpCancelHttpRequest function
 author: windows-sdk-content
 description: The HttpCancelHttpRequest function cancels a specified reqest.
 old-location: http\httpcancelhttprequest.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 9ece13ab-7b13-49b7-8d29-bbbb2755db52
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HttpCancelHttpRequest, HttpCancelHttpRequest function [HTTP], http.httpcancelhttprequest, http/HttpCancelHttpRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HttpCancelHttpRequest
-: 
 ---
 
 # HttpCancelHttpRequest function

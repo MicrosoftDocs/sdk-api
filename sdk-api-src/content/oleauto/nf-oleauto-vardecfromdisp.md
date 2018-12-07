@@ -7,7 +7,7 @@ old-location: automat\vardecfromdisp.htm
 tech.root: automat
 ms.assetid: 514637e1-ae11-4fa5-9947-ca697953b344
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarDecFromDisp, VarDecFromDisp function [Automation], _oa96_VarDecFromDisp, automat.vardecfromdisp, oleauto/VarDecFromDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarDecFromDisp
-: 
 ---
 
 # VarDecFromDisp function

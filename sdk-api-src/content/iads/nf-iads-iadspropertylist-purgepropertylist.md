@@ -4,10 +4,10 @@ title: IADsPropertyList::PurgePropertyList
 author: windows-sdk-content
 description: Deletes all items from the property list.
 old-location: adsi\iadspropertylist_purgepropertylist.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 872c8af7-60c4-4dfc-aa37-0cbb2229a93f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPropertyList interface [ADSI],PurgePropertyList method, IADsPropertyList.PurgePropertyList, IADsPropertyList::PurgePropertyList, PurgePropertyList, PurgePropertyList method [ADSI], PurgePropertyList method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_purgepropertylist, adsi.iadspropertylist__purgepropertylist, adsi.iadspropertylist_purgepropertylist, iads/IADsPropertyList::PurgePropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsPropertyList.PurgePropertyList
-: 
 ---
 
 # IADsPropertyList::PurgePropertyList

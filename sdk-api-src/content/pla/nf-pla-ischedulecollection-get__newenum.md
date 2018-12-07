@@ -4,10 +4,10 @@ title: IScheduleCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\ischedulecollection__newenum.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 4aae67ae-8b9d-4baa-b617-b6e44b7e7edf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IScheduleCollection interface [PLA],_NewEnum property, IScheduleCollection._NewEnum, IScheduleCollection.get__NewEnum, IScheduleCollection::_NewEnum, IScheduleCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IScheduleCollection interface, get__NewEnum, pla.ischedulecollection__newenum, pla/IScheduleCollection::_NewEnum, pla/IScheduleCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IScheduleCollection.get__NewEnum
-: 
 ---
 
 # IScheduleCollection::get__NewEnum

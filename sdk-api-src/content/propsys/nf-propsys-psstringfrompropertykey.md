@@ -7,7 +7,7 @@ old-location: properties\PSStringFromPropertyKey.htm
 tech.root: properties
 ms.assetid: 081f8e6d-9189-44f9-9b27-e85f4793da48
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PSStringFromPropertyKey, PSStringFromPropertyKey function [Windows Properties], _shell_PSStringFromPropertyKey, properties.PSStringFromPropertyKey, propsys/PSStringFromPropertyKey, shell.PSStringFromPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PSStringFromPropertyKey
-: 
 ---
 
 # PSStringFromPropertyKey function

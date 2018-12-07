@@ -4,10 +4,10 @@ title: ITaskService::Connect
 author: windows-sdk-content
 description: Connects to a remote computer and associates all subsequent calls on this interface with a remote session.
 old-location: taskschd\itaskservice_connect.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: ba810bac-e587-4eb8-871c-449b4174ab46
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Connect, Connect method [Task Scheduler], Connect method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],Connect method, ITaskService.Connect, ITaskService::Connect, taskschd.itaskservice_connect, taskschd/ITaskService::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITaskService.Connect
-: 
 ---
 
 # ITaskService::Connect

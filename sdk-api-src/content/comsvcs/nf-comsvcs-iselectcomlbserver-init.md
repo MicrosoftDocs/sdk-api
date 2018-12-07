@@ -7,7 +7,7 @@ old-location: cos\iselectcomlbserver_init.htm
 tech.root: cossdk
 ms.assetid: 1b435b7f-9ddc-40c9-afb5-f5e46e782bd7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISelectCOMLBServer interface [COM+],Init method, ISelectCOMLBServer.Init, ISelectCOMLBServer::Init, Init, Init method [COM+], Init method [COM+],ISelectCOMLBServer interface, _cos_ISelectCOMLBServer_Init, comsvcs/ISelectCOMLBServer::Init, cos.iselectcomlbserver_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- ISelectCOMLBServer.Init
-: 
 ---
 
 # ISelectCOMLBServer::Init

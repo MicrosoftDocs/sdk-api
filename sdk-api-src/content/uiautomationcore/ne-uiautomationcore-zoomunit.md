@@ -7,7 +7,7 @@ old-location: winauto\uiauto_zoomunit.htm
 tech.root: WinAuto
 ms.assetid: 3ECDFCD7-2FBD-42C4-8863-4B5A557F56AE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ZoomUnit, ZoomUnit enumeration [Windows Accessibility], ZoomUnit_LargeDecrement, ZoomUnit_LargeIncrement, ZoomUnit_NoAmount, ZoomUnit_SmallDecrement, ZoomUnit_SmallIncrement, uiautomationcore/ ZoomUnit_NoAmount, uiautomationcore/ZoomUnit, uiautomationcore/ZoomUnit_LargeDecrement, uiautomationcore/ZoomUnit_LargeIncrement, uiautomationcore/ZoomUnit_SmallDecrement, uiautomationcore/ZoomUnit_SmallIncrement, winauto.uiauto_zoomunit
 ms.prod: windows-hardware
 ms.technology: windows-devices

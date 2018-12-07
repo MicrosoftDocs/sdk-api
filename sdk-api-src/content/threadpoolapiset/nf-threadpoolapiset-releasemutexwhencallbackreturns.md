@@ -4,10 +4,10 @@ title: ReleaseMutexWhenCallbackReturns function
 author: windows-sdk-content
 description: Specifies the mutex that the thread pool will release when the current callback completes.
 old-location: base\releasemutexwhencallbackreturns.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 0e82c041-8191-477d-8a2e-819b8920bbc8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ReleaseMutexWhenCallbackReturns, ReleaseMutexWhenCallbackReturns function, base.releasemutexwhencallbackreturns, threadpoolapiset/ReleaseMutexWhenCallbackReturns, winbase/ReleaseMutexWhenCallbackReturns
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ReleaseMutexWhenCallbackReturns
-: 
 ---
 
 # ReleaseMutexWhenCallbackReturns function

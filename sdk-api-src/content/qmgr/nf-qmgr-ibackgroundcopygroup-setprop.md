@@ -4,10 +4,10 @@ title: IBackgroundCopyGroup::SetProp
 author: windows-sdk-content
 description: Use the SetProp method to set the property value for a group property.
 old-location: bits\ibackgroundcopygroup_setprop.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 057a1004-fbe6-4c90-84c0-4e5b55539ce9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SetProp method, IBackgroundCopyGroup.SetProp, IBackgroundCopyGroup::SetProp, SetProp, SetProp method [BITS], SetProp method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_setprop, qmgr/IBackgroundCopyGroup::SetProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qmgr.h
-: 
-- IBackgroundCopyGroup.SetProp
-: 
 ---
 
 # IBackgroundCopyGroup::SetProp
@@ -68,24 +60,12 @@ Use the <b>SetProp</b> method to set the property value for a group property.
 
 
 
-### -param propID
-
-TBD
-
-
-### -param pvarVal
-
-TBD
-
-
-
-
-#### - PropId [in]
+### -param propID [in]
 
 Identifies the property to set. For a list of properties, see the <a href="https://msdn.microsoft.com/8bd5d1df-237a-4c42-afe1-6540ab1ad8c1">GROUPPROP</a> enumeration.
 
 
-#### - pvarPropValue [in]
+### -param pvarVal [in]
 
 Property value.
 

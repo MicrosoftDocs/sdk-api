@@ -4,10 +4,10 @@ title: FindOrCreateNameCache function
 author: windows-sdk-content
 description: Finds or creates a name cache.
 old-location: winprog\_findorcreatenamecache.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: c10a501c-cc25-4586-a62a-7c7be207cbd9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FindOrCreateNameCache, FindOrCreateNameCache function [Windows API], filehc/FindOrCreateNameCache, winprog._findorcreatenamecache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FindOrCreateNameCache
-: 
 ---
 
 # FindOrCreateNameCache function

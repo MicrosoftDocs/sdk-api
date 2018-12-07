@@ -4,10 +4,10 @@ title: IX509CertificateRequestCmc::put_EncryptionAlgorithm
 author: windows-sdk-content
 description: Specifies or retrieves an object identifier (OID) of the algorithm used to encrypt the private key to be archived.
 old-location: security\ix509certificaterequestcmc_encryptionalgorithm_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: c46b3373-6d9e-46d9-a36a-b73a718ddaf7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptionAlgorithm property, IX509CertificateRequestCmc.EncryptionAlgorithm, IX509CertificateRequestCmc.put_EncryptionAlgorithm, IX509CertificateRequestCmc::EncryptionAlgorithm, IX509CertificateRequestCmc::get_EncryptionAlgorithm, IX509CertificateRequestCmc::put_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::get_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::put_EncryptionAlgorithm, put_EncryptionAlgorithm, security.ix509certificaterequestcmc_encryptionalgorithm_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509CertificateRequestCmc.put_EncryptionAlgorithm
-: 
 ---
 
 # IX509CertificateRequestCmc::put_EncryptionAlgorithm

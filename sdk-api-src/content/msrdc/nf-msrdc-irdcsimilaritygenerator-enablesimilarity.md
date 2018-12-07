@@ -4,10 +4,10 @@ title: IRdcSimilarityGenerator::EnableSimilarity
 author: windows-sdk-content
 description: Enables the signature generator to generate similarity data.
 old-location: rdc\irdcsimilaritygenerator_enablesimilarity.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 1d67be55-ed00-4e41-9319-10947d1d88a0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EnableSimilarity, EnableSimilarity method [Remote Differential Compression], EnableSimilarity method [Remote Differential Compression],IRdcSimilarityGenerator interface, IRdcSimilarityGenerator interface [Remote Differential Compression],EnableSimilarity method, IRdcSimilarityGenerator.EnableSimilarity, IRdcSimilarityGenerator::EnableSimilarity, fs.irdcsimilaritygenerator_enablesimilarity, msrdc/IRdcSimilarityGenerator::EnableSimilarity, rdc.irdcsimilaritygenerator_enablesimilarity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- IRdcSimilarityGenerator.EnableSimilarity
-: 
 ---
 
 # IRdcSimilarityGenerator::EnableSimilarity

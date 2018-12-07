@@ -4,10 +4,10 @@ title: IADsUser
 author: windows-sdk-content
 description: The IADsUser interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsuser.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsUser, IADsUser interface [ADSI], IADsUser interface [ADSI],described, _ds_iadsuser, adsi.iadsuser, iads/IADsUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

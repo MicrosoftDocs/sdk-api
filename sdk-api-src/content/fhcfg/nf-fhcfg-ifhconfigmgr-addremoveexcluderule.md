@@ -4,10 +4,10 @@ title: IFhConfigMgr::AddRemoveExcludeRule
 author: windows-sdk-content
 description: Adds an exclusion rule to the exclusion list or removes a rule from the list.
 old-location: winprog\ifhconfigmgr_addremoveexcluderule.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 8900944D-3B73-49AB-AE26-F0B2D5842B02
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AddRemoveExcludeRule, AddRemoveExcludeRule method [Windows API], AddRemoveExcludeRule method [Windows API],FhConfigMgr class, AddRemoveExcludeRule method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],AddRemoveExcludeRule method, IFhConfigMgr interface [Windows API],AddRemoveExcludeRule method, IFhConfigMgr.AddRemoveExcludeRule, IFhConfigMgr::AddRemoveExcludeRule, fhcfg/IFhConfigMgr::AddRemoveExcludeRule, winprog.ifhconfigmgr_addremoveexcluderule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fhcfg.h
-: 
-- IFhConfigMgr.AddRemoveExcludeRule
-: 
 ---
 
 # IFhConfigMgr::AddRemoveExcludeRule

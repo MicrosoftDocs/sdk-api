@@ -1,14 +1,14 @@
 ---
 UID: NS:usp10.textrange_properties
-title: textrange_properties
+title: TEXTRANGE_PROPERTIES
 author: windows-sdk-content
 description: Contains a group of OpenType features to apply to a run.
 old-location: intl\textrange_properties.htm
 tech.root: Intl
 ms.assetid: f43a0873-f499-4d66-9fce-57f332c1dc77
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: TEXTRANGE_PROPERTIES, TEXTRANGE_PROPERTIES structure [Internationalization for Windows Applications], _win32_TEXTRANGE_PROPERTIES, intl.textrange_properties, textrange_properties, usp10/TEXTRANGE_PROPERTIES
+ms.date: 12/5/2018
+ms.keywords: TEXTRANGE_PROPERTIES, TEXTRANGE_PROPERTIES structure [Internationalization for Windows Applications], _win32_TEXTRANGE_PROPERTIES, intl.textrange_properties, usp10/TEXTRANGE_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -44,7 +44,7 @@ req.typenames: TEXTRANGE_PROPERTIES
 req.redist: Usp10.dll version 1.600 or greater onWindows XP
 ---
 
-# textrange_properties structure
+# TEXTRANGE_PROPERTIES structure
 
 
 ## -description

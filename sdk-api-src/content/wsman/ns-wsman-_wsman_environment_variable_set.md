@@ -4,10 +4,10 @@ title: "_WSMAN_ENVIRONMENT_VARIABLE_SET"
 author: windows-sdk-content
 description: Defines an array of environment variables.
 old-location: winrm\wsman_environment_variable_set.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 3d9b4374-241f-489e-946a-9c180d77de3b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSMAN_ENVIRONMENT_VARIABLE_SET, WSMAN_ENVIRONMENT_VARIABLE_SET structure [Windows Remote Management], _WSMAN_ENVIRONMENT_VARIABLE_SET, winrm.wsman_environment_variable_set, wsman/WSMAN_ENVIRONMENT_VARIABLE_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices

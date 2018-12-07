@@ -2,7 +2,7 @@
 UID: NA:sensevts
 ms.assetid: a4cf7dfb-e50b-30c0-939b-550e3e803e8a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

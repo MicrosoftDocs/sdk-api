@@ -4,10 +4,10 @@ title: IMonthlyDOWTrigger::put_WeeksOfMonth
 author: windows-sdk-content
 description: Gets or sets the weeks of the month during which the task runs.
 old-location: taskschd\imonthlydowtrigger_weeksofmonth.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 55bbf8d6-6ff6-46a3-82e2-b5986ee3927e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],WeeksOfMonth property, IMonthlyDOWTrigger.WeeksOfMonth, IMonthlyDOWTrigger.put_WeeksOfMonth, IMonthlyDOWTrigger::WeeksOfMonth, IMonthlyDOWTrigger::get_WeeksOfMonth, IMonthlyDOWTrigger::put_WeeksOfMonth, WeeksOfMonth property [Task Scheduler], WeeksOfMonth property [Task Scheduler],IMonthlyDOWTrigger interface, put_WeeksOfMonth, taskschd.imonthlydowtrigger_weeksofmonth, taskschd/IMonthlyDOWTrigger::WeeksOfMonth, taskschd/IMonthlyDOWTrigger::get_WeeksOfMonth, taskschd/IMonthlyDOWTrigger::put_WeeksOfMonth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IMonthlyDOWTrigger.put_WeeksOfMonth
-: 
 ---
 
 # IMonthlyDOWTrigger::put_WeeksOfMonth

@@ -7,7 +7,7 @@ old-location: fwp\ipsecdospstateenum0.htm
 tech.root: fwp
 ms.assetid: d69e323b-249b-4b90-8754-2c910fbc2fc4
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IPsecDospStateEnum0, IPsecDospStateEnum0 function [Filtering], fwp.ipsecdospstateenum0, fwpmu/IPsecDospStateEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecDospStateEnum0
-: 
 ---
 
 # IPsecDospStateEnum0 function

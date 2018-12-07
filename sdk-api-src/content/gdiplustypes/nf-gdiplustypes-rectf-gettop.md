@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_GetTop_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\gettop_7.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTop, GetTop method [GDI+], GetTop method [GDI+],RectF class, RectF class [GDI+],GetTop method, RectF.GetTop, RectF::GetTop, _gdiplus_CLASS_RectF_GetTop_, gdiplus._gdiplus_CLASS_RectF_GetTop_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplustypes.h
-: 
-- RectF.GetTop
-: 
 req.product: GDI+ 1.0
 ---
 

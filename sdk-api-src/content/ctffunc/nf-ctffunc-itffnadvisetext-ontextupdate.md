@@ -7,7 +7,7 @@ old-location: tsf\itffnadvisetext_ontextupdate.htm
 tech.root: TSF
 ms.assetid: 0b8235bd-22a6-4074-89e5-2223a20f3559
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfFnAdviseText interface [Text Services Framework],OnTextUpdate method, ITfFnAdviseText.OnTextUpdate, ITfFnAdviseText::OnTextUpdate, OnTextUpdate, OnTextUpdate method [Text Services Framework], OnTextUpdate method [Text Services Framework],ITfFnAdviseText interface, _tsf_itffnadvisetext_ontextupdate_ref, ctffunc/ITfFnAdviseText::OnTextUpdate, tsf.itffnadvisetext_ontextupdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctffunc.h
-: 
-- ITfFnAdviseText.OnTextUpdate
-: 
 ---
 
 # ITfFnAdviseText::OnTextUpdate

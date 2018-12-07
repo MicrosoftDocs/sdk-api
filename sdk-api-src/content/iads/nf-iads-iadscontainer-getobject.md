@@ -4,10 +4,10 @@ title: IADsContainer::GetObject
 author: windows-sdk-content
 description: Retrieves an interface for a directory object in the container.
 old-location: adsi\iadscontainer_getobject.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: df8b1eae-1138-4e55-af6e-17c6105ca9c1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],GetObject method, IADsContainer.GetObject, IADsContainer::GetObject, _ds_iadscontainer_getobject, adsi.iadscontainer__getobject, adsi.iadscontainer_getobject, iads/IADsContainer::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsContainer.GetObject
-: 
 ---
 
 # IADsContainer::GetObject
@@ -67,34 +59,17 @@ interface for a directory object in the container.
 
 
 
-### -param ClassName
-
-TBD
-
-
-### -param RelativeName
-
-TBD
-
-
-### -param ppObject
-
-TBD
-
-
-
-
-#### - bstrClassName [in]
+### -param ClassName [in]
 
 A <b>BSTR</b> that specifies the name of the object class as of the object to retrieve. If this parameter is <b>NULL</b>, the provider returns the first item found in the container.
 
 
-#### - bstrRelativeName [in]
+### -param RelativeName [in]
 
 A <b>BSTR</b> that specifies the relative distinguished name of the object to retrieve.
 
 
-#### - ppNamedObject [out]
+### -param ppObject [out]
 
 A pointer to a pointer to the  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the specified object.
 

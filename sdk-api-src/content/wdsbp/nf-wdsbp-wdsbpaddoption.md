@@ -7,7 +7,7 @@ old-location: wds\wdsbpaddoption.htm
 tech.root: wds
 ms.assetid: 4418fe47-4d54-4874-9ab1-6747f9d9eb72
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsBpAddOption, WdsBpAddOption function [Windows Deployment Services], wds.wdsbpaddoption, wdsbp/WdsBpAddOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WdsBpAddOption
-: 
 ---
 
 # WdsBpAddOption function

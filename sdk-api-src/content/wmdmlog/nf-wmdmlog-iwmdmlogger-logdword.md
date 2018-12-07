@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmlogger_logdword.htm
 tech.root: WMDM
 ms.assetid: 68467750-76c5-4f2c-82cf-69c3db12fae9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],LogDword method, IWMDMLogger.LogDword, IWMDMLogger::LogDword, IWMDMLoggerLogDword, LogDword, LogDword method [windows Media Device Manager], LogDword method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_logdword, wmdmlog/IWMDMLogger::LogDword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmdmlog.h
-: 
-- IWMDMLogger.LogDword
-: 
 ---
 
 # IWMDMLogger::LogDword

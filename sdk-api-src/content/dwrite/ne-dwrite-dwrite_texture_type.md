@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_texture_type.htm
 tech.root: DirectWrite
 ms.assetid: c97ee0fd-2743-4f72-aa69-bf5e3780aa33
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DWRITE_TEXTURE_ALIASED_1x1, DWRITE_TEXTURE_CLEARTYPE_3x1, DWRITE_TEXTURE_TYPE, DWRITE_TEXTURE_TYPE enumeration [Direct Write], directwrite.dwrite_texture_type, dwrite/DWRITE_TEXTURE_ALIASED_1x1, dwrite/DWRITE_TEXTURE_CLEARTYPE_3x1, dwrite/DWRITE_TEXTURE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

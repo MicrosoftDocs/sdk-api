@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_setoutputstreamstate.htm
 tech.root: stream
 ms.assetid: E44A5D0C-440A-4929-9640-AD2F7AA7D19F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],SetOutputStreamState method, IMFDeviceTransform.SetOutputStreamState, IMFDeviceTransform::SetOutputStreamState, SetOutputStreamState, SetOutputStreamState method [Streaming Media Devices], SetOutputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::SetOutputStreamState, stream.imfdevicetransform_setoutputstreamstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mftransform.h
-: 
-- IMFDeviceTransform.SetOutputStreamState
-: 
 ---
 
 # IMFDeviceTransform::SetOutputStreamState

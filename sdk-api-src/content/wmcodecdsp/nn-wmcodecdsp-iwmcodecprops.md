@@ -7,7 +7,7 @@ old-location: mf\iwmcodecpropsinterface.htm
 tech.root: medfound
 ms.assetid: b49e506b-8c87-44b9-be6c-b9a33f6c9ecb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMCodecProps, IWMCodecProps interface [Media Foundation], IWMCodecProps interface [Media Foundation],described, codecapi.iwmcodecpropsinterface, mf.iwmcodecprops, mf.iwmcodecpropsinterface, wmcodecdsp/IWMCodecProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

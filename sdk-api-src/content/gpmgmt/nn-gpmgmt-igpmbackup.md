@@ -4,10 +4,10 @@ title: IGPMBackup
 author: windows-sdk-content
 description: The IGPMBackup interface supports methods that allow you to delete GPMBackup objects and to retrieve various properties of GPMBackup objects.
 old-location: gpmc\igpmbackup.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: a593740a-9541-465a-9a2d-64ddf29793bf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPMBackup, IGPMBackup, IGPMBackup interface [GPMC], IGPMBackup interface [GPMC],described, _win32_igpmbackup, gpmc.igpmbackup, gpmgmt/IGPMBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices

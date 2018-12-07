@@ -4,10 +4,10 @@ title: INetFwIcmpSettings
 author: windows-sdk-content
 description: The INetFwIcmpSettings interface provides access to the settings controlling ICMP packets.
 old-location: ics\inetfwicmpsettings.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 4eed8f30-4265-4735-a885-83c11b5031e5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], INetFwIcmpSettings interface [ICS/ICF],described, ics.inetfwicmpsettings, netfw/INetFwIcmpSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

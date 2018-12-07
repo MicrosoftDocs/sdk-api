@@ -7,7 +7,7 @@ old-location: gdi\abortpath.htm
 tech.root: gdi
 ms.assetid: 49299a11-910b-40e0-b02e-80a244cfc978
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AbortPath, AbortPath function [Windows GDI], _win32_AbortPath, gdi.abortpath, wingdi/AbortPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AbortPath
-: 
 ---
 
 # AbortPath function

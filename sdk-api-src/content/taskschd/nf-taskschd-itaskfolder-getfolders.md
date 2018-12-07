@@ -4,10 +4,10 @@ title: ITaskFolder::GetFolders
 author: windows-sdk-content
 description: Gets all the subfolders in the folder.
 old-location: taskschd\itaskfolder_getfolders.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: ee00a8be-52f5-4399-9a1f-18e06121a3da
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetFolders, GetFolders method [Task Scheduler], GetFolders method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetFolders method, ITaskFolder.GetFolders, ITaskFolder::GetFolders, taskschd.itaskfolder_getfolders, taskschd/ITaskFolder::GetFolders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITaskFolder.GetFolders
-: 
 ---
 
 # ITaskFolder::GetFolders

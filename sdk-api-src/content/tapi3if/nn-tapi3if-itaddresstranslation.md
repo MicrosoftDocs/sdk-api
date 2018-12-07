@@ -4,10 +4,10 @@ title: ITAddressTranslation
 author: windows-sdk-content
 description: The ITAddressTranslation interface provides methods that allow translation of a calling address into a different format. For example, an application may need to translate an address from canonical to dialable prior to making a call.
 old-location: tapi3\itaddresstranslation.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: e1cd88f1-1ed7-4e7f-a745-9a9c4af69317
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITAddressTranslation, ITAddressTranslation interface [TAPI 2.2], ITAddressTranslation interface [TAPI 2.2],described, _tapi3_itaddresstranslation, tapi3.itaddresstranslation, tapi3if/ITAddressTranslation
 ms.prod: windows-hardware
 ms.technology: windows-devices

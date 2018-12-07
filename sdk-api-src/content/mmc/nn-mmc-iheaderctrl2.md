@@ -4,10 +4,10 @@ title: IHeaderCtrl2
 author: windows-sdk-content
 description: The IHeaderCtrl2 interface is introduced in MMC 1.2.
 old-location: mmc\iheaderctrl2.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: fecf38be-6f45-45ea-a689-ff37b2b92922
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IHeaderCtrl2, IHeaderCtrl2 interface [MMC], IHeaderCtrl2 interface [MMC],described, _slate_iheaderctrl2, mmc.iheaderctrl2, mmc/IHeaderCtrl2
 ms.prod: windows-hardware
 ms.technology: windows-devices

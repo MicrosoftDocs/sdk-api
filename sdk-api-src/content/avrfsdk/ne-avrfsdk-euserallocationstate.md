@@ -4,10 +4,10 @@ title: eUserAllocationState
 author: windows-sdk-content
 description: Specifies the application's current heap allocation state.
 old-location: winprog\euserallocationstate.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 8aa46c8a-1261-47da-8145-e7ff9826d2ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AllocationStateBusy, AllocationStateFree, AllocationStateUnknown, avrfsdk/AllocationStateBusy, avrfsdk/AllocationStateFree, avrfsdk/AllocationStateUnknown, avrfsdk/eUserAllocationState, base.euserallocationstate, eUserAllocationState, eUserAllocationState enumeration [Windows API], winprog.euserallocationstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

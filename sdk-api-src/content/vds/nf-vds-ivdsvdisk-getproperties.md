@@ -4,10 +4,10 @@ title: IVdsVDisk::GetProperties
 author: windows-sdk-content
 description: Returns disk property information for the volume where the virtual disk resides.
 old-location: base\ivdsvdisk_getproperties.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 0ecfbd1f-2f67-4d79-b081-7df071b070a4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsVDisk interface, IVdsVDisk interface,GetProperties method, IVdsVDisk.GetProperties, IVdsVDisk::GetProperties, base.ivdsvdisk_getproperties, vds/IVdsVDisk::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsVDisk.GetProperties
-: 
 ---
 
 # IVdsVDisk::GetProperties

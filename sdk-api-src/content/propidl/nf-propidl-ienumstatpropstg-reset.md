@@ -4,10 +4,10 @@ title: IEnumSTATPROPSTG::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning of the STATPROPSTG structure array.
 old-location: stg\ienumstatpropstg_reset.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: e742e3ee-6261-4d6d-85ca-8df770aa58ad
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Reset method, IEnumSTATPROPSTG.Reset, IEnumSTATPROPSTG::Reset, Reset, Reset method [Structured Storage], Reset method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Reset, stg.ienumstatpropstg_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- propidl.h
-: 
-- IEnumSTATPROPSTG.Reset
-: 
 ---
 
 # IEnumSTATPROPSTG::Reset

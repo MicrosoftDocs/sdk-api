@@ -4,10 +4,10 @@ title: EapHostPeerQueryUserBlobFromCredentialInputFields function
 author: windows-sdk-content
 description: Obtains a credential BLOB that can be used to start authentication from user input received from the Single-Sign-On (SSO) UI.
 old-location: eaphost\eaphostpeerqueryuserblobfromcredentialinputfields.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: bd4fafce-7ece-4cdc-9307-4d41538a4f49
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EapHostPeerQueryUserBlobFromCredentialInputFields, EapHostPeerQueryUserBlobFromCredentialInputFields function [EAPHost], eaphost.eaphostpeerqueryuserblobfromcredentialinputfields, eaphostpeerconfigapis/EapHostPeerQueryUserBlobFromCredentialInputFields
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapHostPeerQueryUserBlobFromCredentialInputFields
-: 
 ---
 
 # EapHostPeerQueryUserBlobFromCredentialInputFields function

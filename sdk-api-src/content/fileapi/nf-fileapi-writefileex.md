@@ -7,7 +7,7 @@ old-location: fs\writefileex.htm
 tech.root: fileio
 ms.assetid: 6995c4ee-ba91-41d5-b72d-19dc2eb95945
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: WriteFileEx, WriteFileEx function [Files], _win32_writefileex, base.writefileex, fileapi/WriteFileEx, fs.writefileex, winbase/WriteFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WriteFileEx
-: 
 ---
 
 # WriteFileEx function

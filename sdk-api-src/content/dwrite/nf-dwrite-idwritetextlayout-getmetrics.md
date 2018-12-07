@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_GetMetrics.htm
 tech.root: DirectWrite
 ms.assetid: cbfafccc-f66c-4b75-9540-e393ee203859
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetMetrics method, IDWriteTextLayout.GetMetrics, IDWriteTextLayout::GetMetrics, directwrite.IDWriteTextLayout_GetMetrics, dwrite/IDWriteTextLayout::GetMetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteTextLayout.GetMetrics
-: 
 ---
 
 # IDWriteTextLayout::GetMetrics

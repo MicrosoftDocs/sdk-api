@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_server_getsystemname.htm
 tech.root: wmi_v2
 ms.assetid: 895b21b8-dc66-4e05-9f10-9dcd704bef70
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Server_GetSystemName, MI_Server_GetSystemName callback, MI_Server_GetSystemName callback function [Windows Management Infrastructure (MI)], mi/MI_Server_GetSystemName, wmi_v2.mi_server_getsystemname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_Server_GetSystemName
-: 
 ---
 
 # MI_Server_GetSystemName function

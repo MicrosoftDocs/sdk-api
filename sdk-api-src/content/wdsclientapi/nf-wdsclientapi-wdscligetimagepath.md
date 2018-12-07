@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagepath.htm
 tech.root: wds
 ms.assetid: 1ad28066-dcec-4dd4-896d-e009e6827ea3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsCliGetImagePath, WdsCliGetImagePath function [Windows Deployment Services], wds.wdscligetimagepath, wdsclientapi/WdsCliGetImagePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WdsCliGetImagePath
-: 
 ---
 
 # WdsCliGetImagePath function

@@ -4,10 +4,10 @@ title: IGPMSOM::GetSecurityInfo
 author: windows-sdk-content
 description: Returns an object that represents the collection of GPMPermission objects for the scope of management (SOM).
 old-location: gpmc\igpmsom_getsecurityinfo.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 7b120bf6-17f8-43d7-a27c-b7674535c1d3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPMSOM class [GPMC],GetSecurityInfo method, GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],GPMSOM class, GetSecurityInfo method [GPMC],IGPMSOM interface, IGPMSOM interface [GPMC],GetSecurityInfo method, IGPMSOM.GetSecurityInfo, IGPMSOM::GetSecurityInfo, _win32_igpmsom_getsecurityinfo, gpmc.igpmsom_getsecurityinfo, gpmgmt/IGPMSOM::GetSecurityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMSOM.GetSecurityInfo
-: 
 ---
 
 # IGPMSOM::GetSecurityInfo

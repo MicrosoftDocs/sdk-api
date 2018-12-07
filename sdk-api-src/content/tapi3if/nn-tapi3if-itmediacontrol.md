@@ -4,10 +4,10 @@ title: ITMediaControl
 author: windows-sdk-content
 description: The ITMediaControl interface is a generic interface for media file terminals. The interface exposes methods that allow the application to start, stop, or pause current actions, such as a playback.
 old-location: tapi3\itmediacontrol.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 016166a1-72ac-4ce8-9c86-43cf94b1bdbd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITMediaControl, ITMediaControl interface [TAPI 2.2], ITMediaControl interface [TAPI 2.2],described, _tapi3_itmediacontrol, tapi3.itmediacontrol, tapi3if/ITMediaControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

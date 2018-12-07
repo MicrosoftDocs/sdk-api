@@ -7,7 +7,7 @@ old-location: http\winhttpgetproxyforurl.htm
 tech.root: WinHttp
 ms.assetid: d01b101e-a496-4e84-9aec-61afe3920fbb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinHttpGetProxyForUrl, WinHttpGetProxyForUrl function [WinHTTP], http.winhttpgetproxyforurl, winhttp/WinHttpGetProxyForUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinHttpGetProxyForUrl
-: 
 ---
 
 # WinHttpGetProxyForUrl function

@@ -7,7 +7,7 @@ old-location: tsf\tf_createlangbaritemmgr.htm
 tech.root: TSF
 ms.assetid: b7492732-ae06-4344-b5c0-97b3734af36a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TF_CreateLangBarItemMgr, TF_CreateLangBarItemMgr function [Text Services Framework], msctf/TF_CreateLangBarItemMgr, tsf.tf_createlangbaritemmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- 
-: 
-- TF_CreateLangBarItemMgr
-: 
 ---
 
 # TF_CreateLangBarItemMgr function

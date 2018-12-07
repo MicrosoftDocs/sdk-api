@@ -7,7 +7,7 @@ old-location: automat\varboolfromdate.htm
 tech.root: automat
 ms.assetid: 3ba9e701-56c6-471c-9c82-a31c893a3a1c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarBoolFromDate, VarBoolFromDate function [Automation], _oa96_VarBoolFromDate, automat.varboolfromdate, oleauto/VarBoolFromDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarBoolFromDate
-: 
 ---
 
 # VarBoolFromDate function

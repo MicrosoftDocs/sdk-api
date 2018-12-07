@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_OnSetFocus.htm
 tech.root: shell
 ms.assetid: 107a2ce8-2914-423a-bda7-4aeb112965bc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnSetFocus method, IBrowserService2.OnSetFocus, IBrowserService2::OnSetFocus, OnSetFocus, OnSetFocus method [Windows Shell], OnSetFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnSetFocus, shell.IBrowserService2_OnSetFocus, zone_IBrowserService2_OnSetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- IBrowserService2.OnSetFocus
-: 
 req.product: Internet Explorer 5.0
 ---
 

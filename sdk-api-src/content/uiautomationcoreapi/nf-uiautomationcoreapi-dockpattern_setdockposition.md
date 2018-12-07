@@ -7,7 +7,7 @@ old-location: winauto\uiauto_DockPattern_SetDockPositionConPat.htm
 tech.root: WinAuto
 ms.assetid: 45fdd85f-1f35-4cdd-adfc-086e01e85adf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DockPattern_SetDockPosition, DockPattern_SetDockPosition function [Windows Accessibility], uiauto.uiauto_DockPattern_SetDockPositionConPat, uiauto_DockPattern_SetDockPositionConPat, uiautomationcoreapi/DockPattern_SetDockPosition, winauto.uiauto_DockPattern_SetDockPositionConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DockPattern_SetDockPosition
-: 
 ---
 
 # DockPattern_SetDockPosition function

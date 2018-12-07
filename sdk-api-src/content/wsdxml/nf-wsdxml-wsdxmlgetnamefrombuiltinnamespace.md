@@ -4,10 +4,10 @@ title: WSDXMLGetNameFromBuiltinNamespace function
 author: windows-sdk-content
 description: Gets a specified name from the built-in namespace.
 old-location: ncd\wsdxmlgetnamefrombuiltinnamespace.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: b7a5ac45-ee87-4290-9cbb-de523c0f2775
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSDXMLGetNameFromBuiltinNamespace, WSDXMLGetNameFromBuiltinNamespace function, ncd.wsdxmlgetnamefrombuiltinnamespace, wsdxml/WSDXMLGetNameFromBuiltinNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSDXMLGetNameFromBuiltinNamespace
-: 
 ---
 
 # WSDXMLGetNameFromBuiltinNamespace function

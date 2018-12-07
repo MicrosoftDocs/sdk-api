@@ -7,7 +7,7 @@ old-location: properties\PSGetItemPropertyHandler.htm
 tech.root: properties
 ms.assetid: 7b7fd260-c863-41f7-8594-4ee435090228
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PSGetItemPropertyHandler, PSGetItemPropertyHandler function [Windows Properties], _shell_PSGetItemPropertyHandler, properties.PSGetItemPropertyHandler, propsys/PSGetItemPropertyHandler, shell.PSGetItemPropertyHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PSGetItemPropertyHandler
-: 
 ---
 
 # PSGetItemPropertyHandler function

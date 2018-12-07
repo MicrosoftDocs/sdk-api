@@ -4,10 +4,10 @@ title: IStream::CopyTo
 author: windows-sdk-content
 description: Copies a specified number of bytes from the current seek pointer in the stream to the current seek pointer in another stream.
 old-location: stg\istream_copyto.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 5bcd7da6-8bd5-4ab7-952f-f0a12e87f2d4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CopyTo, CopyTo method [Structured Storage], CopyTo method [Structured Storage],IStream interface, IStream interface [Structured Storage],CopyTo method, IStream.CopyTo, IStream::CopyTo, _stg_istream_copyto, objidl/IStream::CopyTo, stg.istream_copyto
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- IStream.CopyTo
-: 
 ---
 
 # IStream::CopyTo

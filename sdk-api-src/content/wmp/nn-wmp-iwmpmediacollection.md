@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection.htm
 tech.root: WMP
 ms.assetid: bf975a30-dfb1-4994-9095-510a6b997aff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], IWMPMediaCollection interface [Windows Media Player],described, IWMPMediaCollectionInterface, wmp.iwmpmediacollection, wmp/IWMPMediaCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_HTTP_BINDING_INFO"
 author: windows-sdk-content
 description: Used to associate a URL Group with a request queue.
 old-location: http\http_binding_info.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 551a928a-84c6-479b-a500-de69dc8857cd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_BINDING_INFO, *PHTTP_BINDING_INFO structure [HTTP], HTTP_BINDING_INFO, HTTP_BINDING_INFO structure [HTTP], _HTTP_BINDING_INFO, http.http_binding_info, http/*PHTTP_BINDING_INFO, http/HTTP_BINDING_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

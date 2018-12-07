@@ -4,10 +4,10 @@ title: RegInstallW function
 author: windows-sdk-content
 description: Updates the string registry values in the provided table.
 old-location: winprog\reginstallw.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 3E3A48B6-FAF8-4C21-8438-41FA94937A39
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RegInstallW, RegInstallW function [Windows API], advpub/RegInstallW, winprog.reginstallw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegInstallW
-: 
 ---
 
 # RegInstallW function

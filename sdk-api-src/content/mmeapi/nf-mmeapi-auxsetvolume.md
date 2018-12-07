@@ -7,7 +7,7 @@ old-location: multimedia\auxsetvolume.htm
 tech.root: Multimedia
 ms.assetid: 886acacd-f2ac-4e75-aa3d-668e6d4fbbf2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_auxSetVolume, auxSetVolume, auxSetVolume function [Windows Multimedia], mmeapi/auxSetVolume, multimedia.auxsetvolume"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- auxSetVolume
-: 
 ---
 
 # auxSetVolume function

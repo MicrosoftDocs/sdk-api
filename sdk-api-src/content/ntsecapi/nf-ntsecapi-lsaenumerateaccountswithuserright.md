@@ -4,10 +4,10 @@ title: LsaEnumerateAccountsWithUserRight function
 author: windows-sdk-content
 description: Returns the accounts in the database of a Local Security Authority (LSA) Policy object that hold a specified privilege.
 old-location: security\lsaenumerateaccountswithuserright.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 97e7180e-4edb-4edd-915e-0477e7e7a9ff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LsaEnumerateAccountsWithUserRight, LsaEnumerateAccountsWithUserRight function [Security], _lsa_lsaenumerateaccountswithuserright, ntsecapi/LsaEnumerateAccountsWithUserRight, security.lsaenumerateaccountswithuserright
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LsaEnumerateAccountsWithUserRight
-: 
 ---
 
 # LsaEnumerateAccountsWithUserRight function

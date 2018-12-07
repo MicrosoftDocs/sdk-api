@@ -4,10 +4,10 @@ title: lineGetAgentActivityListA function
 author: windows-sdk-content
 description: The lineGetAgentActivityList function obtains the identities of activities that the application can select using lineSetAgentActivity to indicate what function the agent is actually performing at the moment.
 old-location: tapi2\linegetagentactivitylist.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 8f0be375-2891-45bd-a2cb-246ea5c4b9bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegetagentactivitylist, lineGetAgentActivityList, lineGetAgentActivityList function [TAPI 2.2], lineGetAgentActivityListA, lineGetAgentActivityListW, tapi/lineGetAgentActivityList, tapi/lineGetAgentActivityListA, tapi/lineGetAgentActivityListW, tapi2.linegetagentactivitylist"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- lineGetAgentActivityListA
-: 
 ---
 
 # lineGetAgentActivityListA function

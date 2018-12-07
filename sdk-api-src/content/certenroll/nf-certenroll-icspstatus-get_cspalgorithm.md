@@ -4,10 +4,10 @@ title: ICspStatus::get_CspAlgorithm
 author: windows-sdk-content
 description: Retrieves an ICspAlgorithm object that contains information about an algorithm supported by the provider.
 old-location: security\icspstatus_cspalgorithm.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: fc86ff4a-98f4-4e14-8d24-132926c9b41d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CspAlgorithm property [Security], CspAlgorithm property [Security],ICspStatus interface, ICspStatus interface [Security],CspAlgorithm property, ICspStatus.CspAlgorithm, ICspStatus.get_CspAlgorithm, ICspStatus::CspAlgorithm, ICspStatus::get_CspAlgorithm, certenroll/ICspStatus::CspAlgorithm, certenroll/ICspStatus::get_CspAlgorithm, get_CspAlgorithm, security.icspstatus_cspalgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICspStatus.get_CspAlgorithm
-: 
 ---
 
 # ICspStatus::get_CspAlgorithm

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_setvariablechangehandler.htm
 tech.root: UIAnimation
 ms.assetid: F603C693-8F91-483F-8B0A-712E03BC10E5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetVariableChangeHandler method, IUIAnimationVariable2.SetVariableChangeHandler, IUIAnimationVariable2::SetVariableChangeHandler, SetVariableChangeHandler, SetVariableChangeHandler method [Windows Animation], SetVariableChangeHandler method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setvariablechangehandler, uianimation/IUIAnimationVariable2::SetVariableChangeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uianimation.h
-: 
-- IUIAnimationVariable2.SetVariableChangeHandler
-: 
 ---
 
 # IUIAnimationVariable2::SetVariableChangeHandler

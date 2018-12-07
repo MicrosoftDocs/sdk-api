@@ -4,10 +4,10 @@ title: InterlockedXor16 function
 author: windows-sdk-content
 description: Performs an atomic XOR operation on the specified SHORT values.
 old-location: base\interlockedxor16.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 414830ba-ce2b-4ed0-96f4-db5edd8e4ebe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedXor16, InterlockedXor16 function, base.interlockedxor16, winnt/InterlockedXor16
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InterlockedXor16
-: 
 ---
 
 # InterlockedXor16 function

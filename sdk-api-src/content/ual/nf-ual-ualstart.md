@@ -7,7 +7,7 @@ old-location: ual\ualstart.htm
 tech.root: ual
 ms.assetid: 800E8BCF-39A1-490A-9B6A-12EE900B8D17
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: UalStart, UalStart function [User Access Logging], ual.ualstart, ual/UalStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UalStart
-: 
 ---
 
 # UalStart function

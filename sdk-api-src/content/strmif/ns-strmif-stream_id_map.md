@@ -7,7 +7,7 @@ old-location: dshow\stream_id_map.htm
 tech.root: DirectShow
 ms.assetid: 75f41d9f-00a1-47e1-8b42-64de1e6abbdb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MPEG2_PROGRAM_DIRECTORY_PES_PACKET, MPEG2_PROGRAM_ELEMENTARY_STREAM, MPEG2_PROGRAM_PACK_HEADER, MPEG2_PROGRAM_PES_STREAM, MPEG2_PROGRAM_STREAM_MAP, MPEG2_PROGRAM_SYSTEM_HEADER, STREAM_ID_MAP, STREAM_ID_MAP structure [DirectShow], STREAM_ID_MAPStructure, dshow.stream_id_map, strmif/STREAM_ID_MAP
 ms.prod: windows-hardware
 ms.technology: windows-devices

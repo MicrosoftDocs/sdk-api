@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory1_getdocumenttypefromstream.htm
 tech.root: printdocs
 ms.assetid: 98d5bfc1-75f7-425f-b69d-11e74c15f08e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetDocumentTypeFromStream, GetDocumentTypeFromStream method [XPS Documents and Packaging], GetDocumentTypeFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],GetDocumentTypeFromStream method, IXpsOMObjectFactory1.GetDocumentTypeFromStream, IXpsOMObjectFactory1::GetDocumentTypeFromStream, xps.ixpsomobjectfactory1_getdocumenttypefromstream, xpsobjectmodel_1/IXpsOMObjectFactory1::GetDocumentTypeFromStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel_1.h
-: 
-- IXpsOMObjectFactory1.GetDocumentTypeFromStream
-: 
 ---
 
 # IXpsOMObjectFactory1::GetDocumentTypeFromStream

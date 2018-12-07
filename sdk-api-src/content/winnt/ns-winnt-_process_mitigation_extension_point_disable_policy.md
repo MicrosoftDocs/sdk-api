@@ -4,10 +4,10 @@ title: "_PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY"
 author: windows-sdk-content
 description: Contains process mitigation policy settings for legacy extension point DLLs.
 old-location: base\process_mitigation_extension_point_disable_policy.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 6B9B5306-F79F-4744-948F-ECBD9EAFC3C3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY, PPROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY, PPROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY structure pointer, PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY, PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY structure, _PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY, base.process_mitigation_extension_point_disable_policy, winnt/PPROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY, winnt/_PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

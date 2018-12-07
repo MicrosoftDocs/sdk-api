@@ -7,7 +7,7 @@ old-location: deviceaccess\icreatedeviceaccessasync_wait.htm
 tech.root: deviceaccess
 ms.assetid: 6fdab230-f8f7-47fa-838f-97316a4e78b9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICreateDeviceAccessAsync interface [Device Access Broker API],Wait method, ICreateDeviceAccessAsync.Wait, ICreateDeviceAccessAsync::Wait, Wait, Wait method [Device Access Broker API], Wait method [Device Access Broker API],ICreateDeviceAccessAsync interface, deviceaccess.icreatedeviceaccessasync_wait, deviceaccess/ICreateDeviceAccessAsync::Wait
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- deviceaccess.h
-: 
-- ICreateDeviceAccessAsync.Wait
-: 
 ---
 
 # ICreateDeviceAccessAsync::Wait

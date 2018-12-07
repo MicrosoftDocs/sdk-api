@@ -4,10 +4,10 @@ title: TSPI_lineUnpark function
 author: windows-sdk-content
 description: The TSPI_lineUnpark function retrieves the call parked at the specified address and returns a call handle for it.
 old-location: tspi\tspi_lineunpark.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 941a9715-533e-489c-87b0-27a04be1d80e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_lineUnpark, TSPI_lineUnpark function [TAPI 2.2], _tspi_tspi_lineunpark, tspi.tspi_lineunpark, tspi/TSPI_lineUnpark
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TSPI_lineUnpark
-: 
 ---
 
 # TSPI_lineUnpark function

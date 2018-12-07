@@ -4,10 +4,10 @@ title: IDataCollectorCollection::Clear
 author: windows-sdk-content
 description: Removes all data collectors from the collection.
 old-location: pla\idatacollectorcollection_clear.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: be0840dc-e19a-454e-bbea-6968c7284cc8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],Clear method, IDataCollectorCollection.Clear, IDataCollectorCollection::Clear, base.idatacollectorcollection_clear, pla.idatacollectorcollection_clear, pla/IDataCollectorCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollectorCollection.Clear
-: 
 ---
 
 # IDataCollectorCollection::Clear

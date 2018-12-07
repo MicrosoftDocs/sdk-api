@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetInt32Elem.htm
 tech.root: properties
 ms.assetid: de7dc6d4-d85a-44cb-8af7-840fd6e68d5c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PropVariantGetInt32Elem, PropVariantGetInt32Elem function [Windows Properties], _shell_PropVariantGetInt32Elem, properties.PropVariantGetInt32Elem, propvarutil/PropVariantGetInt32Elem, shell.PropVariantGetInt32Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantGetInt32Elem
-: 
 ---
 
 # PropVariantGetInt32Elem function

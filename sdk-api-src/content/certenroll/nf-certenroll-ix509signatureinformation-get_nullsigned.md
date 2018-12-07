@@ -4,10 +4,10 @@ title: IX509SignatureInformation::get_NullSigned
 author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that indicates whether the certificate request is null-signed.
 old-location: security\ix509signatureinformation_nullsigned_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a693343e-7c9a-4967-b46c-53936497662a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509SignatureInformation interface [Security],NullSigned property, IX509SignatureInformation.NullSigned, IX509SignatureInformation.get_NullSigned, IX509SignatureInformation::NullSigned, IX509SignatureInformation::get_NullSigned, IX509SignatureInformation::put_NullSigned, NullSigned property [Security], NullSigned property [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::NullSigned, certenroll/IX509SignatureInformation::get_NullSigned, certenroll/IX509SignatureInformation::put_NullSigned, get_NullSigned, security.ix509signatureinformation_nullsigned_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509SignatureInformation.get_NullSigned
-: 
 ---
 
 # IX509SignatureInformation::get_NullSigned

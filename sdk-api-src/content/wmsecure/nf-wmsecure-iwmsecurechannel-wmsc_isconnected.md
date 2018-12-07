@@ -7,7 +7,7 @@ old-location: wmformat\iwmsecurechannel_wmsc_isconnected.htm
 tech.root: wmformat
 ms.assetid: 162bb01f-ba64-4563-a257-28931190ac96
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_IsConnected method, IWMSecureChannel.WMSC_IsConnected, IWMSecureChannel::WMSC_IsConnected, WMSC_IsConnected, WMSC_IsConnected method [windows Media Format], WMSC_IsConnected method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_isconnected, wmsecure/IWMSecureChannel::WMSC_IsConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmsecure.h
-: 
-- IWMSecureChannel.WMSC_IsConnected
-: 
 ---
 
 # IWMSecureChannel::WMSC_IsConnected

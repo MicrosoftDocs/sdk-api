@@ -7,7 +7,7 @@ old-location: shell\IHWEventHandler_HandleEventWithContent.htm
 tech.root: shell
 ms.assetid: d5787ebd-2784-4e86-b749-93258a1a26bd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HandleEventWithContent, HandleEventWithContent method [Windows Shell], HandleEventWithContent method [Windows Shell],IHWEventHandler interface, IHWEventHandler interface [Windows Shell],HandleEventWithContent method, IHWEventHandler.HandleEventWithContent, IHWEventHandler::HandleEventWithContent, inet_IHWEventHandler_HandleEventWithContent, shell.IHWEventHandler_HandleEventWithContent, shobjidl/IHWEventHandler::HandleEventWithContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl.h
-: 
-- IHWEventHandler.HandleEventWithContent
-: 
 ---
 
 # IHWEventHandler::HandleEventWithContent

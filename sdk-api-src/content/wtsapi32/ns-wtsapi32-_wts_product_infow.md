@@ -7,7 +7,7 @@ old-location: termserv\wts_product_info.htm
 tech.root: termserv
 ms.assetid: 92E4BC54-029D-4B37-9397-CFF44B9712A3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: PRODUCT_INFO, PRODUCT_INFO structure [Remote Desktop Services], PRODUCT_INFOW, WTS_PRODUCT_INFO, WTS_PRODUCT_INFO structure [Remote Desktop Services], WTS_PRODUCT_INFOA, WTS_PRODUCT_INFOW, _WTS_PRODUCT_INFOA, _WTS_PRODUCT_INFOW, termserv.wts_product_info, wtsapi32/WTS_PRODUCT_INFO, wtsapi32/WTS_PRODUCT_INFOA, wtsapi32/WTS_PRODUCT_INFOW
 ms.prod: windows-hardware
 ms.technology: windows-devices

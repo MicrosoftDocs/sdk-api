@@ -7,7 +7,7 @@ old-location: setup\setupinitdefaultqueuecallback.htm
 tech.root: SetupApi
 ms.assetid: 3ee7da67-42ff-4ea1-9c7f-6c0dcc3dc0b4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetupInitDefaultQueueCallback, SetupInitDefaultQueueCallback function [Setup API], _setupapi_setupinitdefaultqueuecallback, setup.setupinitdefaultqueuecallback, setupapi/SetupInitDefaultQueueCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupInitDefaultQueueCallback
-: 
 ---
 
 # SetupInitDefaultQueueCallback function

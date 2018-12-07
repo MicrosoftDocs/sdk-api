@@ -7,7 +7,7 @@ old-location: dxmath\xmloadubyten4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUByteN4(const XMUBYTEN4)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DirectX::PackedVector.XMLoadUByteN4, XMLoadUByteN4, XMLoadUByteN4 method [DirectX Math Support APIs], dxmath.xmloadubyten4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMLoadUByteN4
-: 
 ---
 
 # XMLoadUByteN4 function

@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_fisauthenticated.htm
 tech.root: WMDM
 ms.assetid: 673d3bf6-27ba-4d91-b485-1171bc47a0d0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],fIsAuthenticated method, CSecureChannelServer.fIsAuthenticated, CSecureChannelServer::fIsAuthenticated, CSecureChannelServerfIsAuthenticated, fIsAuthenticated, fIsAuthenticated method [windows Media Device Manager], fIsAuthenticated method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::fIsAuthenticated, wmdm.csecurechannelserver_fisauthenticated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- scserver.h
-: 
-- CSecureChannelServer.fIsAuthenticated
-: 
 ---
 
 # CSecureChannelServer::fIsAuthenticated

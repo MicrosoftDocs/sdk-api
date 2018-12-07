@@ -7,7 +7,7 @@ old-location: buses\ioctl_genericusbfn_control_status_handshake_out.htm
 tech.root: usbref
 ms.assetid: B8DE5F6E-6FC5-4E53-8A02-301A3CE436C9
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT control, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT control code [Buses], buses.ioctl_genericusbfn_control_status_handshake_out, genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices

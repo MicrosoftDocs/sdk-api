@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_children.htm
 tech.root: SMI
 ms.assetid: 33bd7f91-c414-420e-bc18-1114924b93e9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Children, Children method [SMI], Children method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],Children method, ISettingsItem.Children, ISettingsItem::Children, smi.isettingsitem_children, wcmconfig/ISettingsItem::Children
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wcmconfig.h
-: 
-- ISettingsItem.Children
-: 
 ---
 
 # ISettingsItem::Children

@@ -7,7 +7,7 @@ old-location: tsf\tf_createthreadmgr.htm
 tech.root: TSF
 ms.assetid: 470cc721-598e-480d-a41c-354704b4d058
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TF_CreateThreadMgr, TF_CreateThreadMgr function [Text Services Framework], msctf/TF_CreateThreadMgr, tsf.tf_createthreadmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- 
-: 
-- TF_CreateThreadMgr
-: 
 ---
 
 # TF_CreateThreadMgr function

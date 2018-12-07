@@ -4,10 +4,10 @@ title: IUPnPEventSource::Unadvise
 author: windows-sdk-content
 description: The Unadvise method is invoked by the device host to stop receiving events. The device host passes in the same pointer that it did when it invoked the IUPnPEventSource::Advise method.
 old-location: upnp\iupnpeventsource_unadvise.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 6ae9c53f-eb82-4396-ba85-c95e252911c8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPEventSource interface [UPnP APIs],Unadvise method, IUPnPEventSource.Unadvise, IUPnPEventSource::Unadvise, Unadvise, Unadvise method [UPnP APIs], Unadvise method [UPnP APIs],IUPnPEventSource interface, _upnp_iupnpeventsource_unadvise, upnp.iupnpeventsource_unadvise, upnphost/IUPnPEventSource::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnphost.h
-: 
-- IUPnPEventSource.Unadvise
-: 
 ---
 
 # IUPnPEventSource::Unadvise

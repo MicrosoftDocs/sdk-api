@@ -7,7 +7,7 @@ old-location: dshow\iaudiostreamsample_getaudiodata.htm
 tech.root: DirectShow
 ms.assetid: b482e628-d4bc-461e-b529-58e891689513
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetAudioData, GetAudioData method [DirectShow], GetAudioData method [DirectShow],IAudioStreamSample interface, IAudioStreamSample interface [DirectShow],GetAudioData method, IAudioStreamSample.GetAudioData, IAudioStreamSample::GetAudioData, IAudioStreamSampleGetAudioData, austream/IAudioStreamSample::GetAudioData, dshow.iaudiostreamsample_getaudiodata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- austream.h
-: 
-- IAudioStreamSample.GetAudioData
-: 
 ---
 
 # IAudioStreamSample::GetAudioData

@@ -7,7 +7,7 @@ old-location: tsf\tf_lbballooninfo.htm
 tech.root: TSF
 ms.assetid: 8ceed1ae-27f9-4998-b950-52865bfa2f79
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TF_LBBALLOONINFO, TF_LBBALLOONINFO structure [Text Services Framework], _tsf_tf_lbballooninfo_ref, ctfutb/TF_LBBALLOONINFO, tsf.tf_lbballooninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

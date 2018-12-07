@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IExpandCollapseProvider.htm
 tech.root: WinAuto
 ms.assetid: 59d91498-54f8-40df-8224-52ff8e45f6c3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IExpandCollapseProvider, IExpandCollapseProvider interface [Windows Accessibility], IExpandCollapseProvider interface [Windows Accessibility],described, uiauto.uiauto_IExpandCollapseProvider, uiauto_IExpandCollapseProvider, uiautomationcore/IExpandCollapseProvider, winauto.uiauto_IExpandCollapseProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

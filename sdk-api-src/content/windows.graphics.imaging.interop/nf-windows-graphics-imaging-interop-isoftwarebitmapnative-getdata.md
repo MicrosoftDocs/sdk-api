@@ -7,7 +7,7 @@ old-location: winrt\isoftwarebitmapnative_getdata.htm
 tech.root: WinRT
 ms.assetid: 4BB9674A-A95A-4183-A1E1-428AB140D6EB
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],ISoftwareBitmapNative interface, ISoftwareBitmapNative interface [Windows Runtime],GetData method, ISoftwareBitmapNative.GetData, ISoftwareBitmapNative.imaging, ISoftwareBitmapNative::GetData, ISoftwareBitmapNative::imaging, windows/ISoftwareBitmapNative::GetData, winrt.isoftwarebitmapnative_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- windows.graphics.imaging.interop.h
-: 
-- ISoftwareBitmapNative.GetData
-: 
 ---
 
 # ISoftwareBitmapNative::imaging

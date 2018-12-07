@@ -7,7 +7,7 @@ old-location: fs\file_disposition_info.htm
 tech.root: fileio
 ms.assetid: 07095f62-323a-463a-a33e-7e4ca9adcb69
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PFILE_DISPOSITION_INFO, FILE_DISPOSITION_INFO, FILE_DISPOSITION_INFO structure [Files], PFILE_DISPOSITION_INFO, PFILE_DISPOSITION_INFO structure pointer [Files], _FILE_DISPOSITION_INFO, fileextd/FILE_DISPOSITION_INFO, fileextd/PFILE_DISPOSITION_INFO, fs.file_disposition_info, winbase/FILE_DISPOSITION_INFO, winbase/PFILE_DISPOSITION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdriverinstallparams.htm
 tech.root: devinst
 ms.assetid: 7c5b0e3f-75cd-48e1-b84e-d81e4e4db7b2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetupDiGetDriverInstallParams, SetupDiGetDriverInstallParams function [Device and Driver Installation], SetupDiGetDriverInstallParamsA, SetupDiGetDriverInstallParamsW, devinst.setupdigetdriverinstallparams, di-rtns_b8e7fdca-3201-42f9-86b4-a8a97be8cb90.xml, setupapi/SetupDiGetDriverInstallParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiGetDriverInstallParamsW
-: 
 ---
 
 # SetupDiGetDriverInstallParamsW function

@@ -4,10 +4,10 @@ title: "_RM_SEND_WINDOW"
 author: windows-sdk-content
 description: The RM_SEND_WINDOW structure specifies the Reliable Multicast send window. This structure is used with the RM_RATE_WINDOW_SIZE socket option.
 old-location: winsock\rm_send_window.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 7ce84d2e-a52f-4652-b24a-55c94b7c120b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RM_SEND_WINDOW, RM_SEND_WINDOW structure [Winsock], _RM_SEND_WINDOW, winsock.rm_send_window, wsrm/RM_SEND_WINDOW
 ms.prod: windows-hardware
 ms.technology: windows-devices

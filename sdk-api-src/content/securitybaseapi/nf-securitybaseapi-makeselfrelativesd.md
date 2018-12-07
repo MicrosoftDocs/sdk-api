@@ -4,10 +4,10 @@ title: MakeSelfRelativeSD function
 author: windows-sdk-content
 description: Creates a security descriptor in self-relative format by using a security descriptor in absolute format as a template.
 old-location: security\makeselfrelativesd.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 497c7e2f-75b7-41b9-9693-37e041b7af58
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MakeSelfRelativeSD, MakeSelfRelativeSD function [Security], _win32_makeselfrelativesd, security.makeselfrelativesd, securitybaseapi/MakeSelfRelativeSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MakeSelfRelativeSD
-: 
 ---
 
 # MakeSelfRelativeSD function

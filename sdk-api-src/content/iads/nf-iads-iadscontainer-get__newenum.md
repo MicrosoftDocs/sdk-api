@@ -4,10 +4,10 @@ title: IADsContainer::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an enumerator object for the container.
 old-location: adsi\iadscontainer_get__newenum.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: b268efb8-59cd-41ef-b96c-583ae476432e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsContainer interface [ADSI],get__NewEnum method, IADsContainer.get__NewEnum, IADsContainer::get__NewEnum, _ds_iadscontainer_get__newenum, adsi.iadscontainer__get____newenum, adsi.iadscontainer_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsContainer interface, iads/IADsContainer::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsContainer.get__NewEnum
-: 
 ---
 
 # IADsContainer::get__NewEnum
@@ -67,14 +59,7 @@ The <b>IADsContainer::get__NewEnum</b> method Retrieves an enumerator object for
 
 
 
-### -param retval
-
-TBD
-
-
-
-
-#### - ppEnumerator [out]
+### -param retval [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
 

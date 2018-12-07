@@ -4,10 +4,10 @@ title: IUpdateException::get_HResult
 author: windows-sdk-content
 description: Gets the Windows-based HRESULT code for the search results.
 old-location: wua\iupdateexception_hresult.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 122c7945-c75d-4205-8df6-3136d388baee
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IUpdateException interface, IUpdateException interface [Windows Update Agent],HResult property, IUpdateException.HResult, IUpdateException.get_HResult, IUpdateException::HResult, IUpdateException::get_HResult, get_HResult, wua.iupdateexception_hresult, wuapi/IUpdateException::HResult, wuapi/IUpdateException::get_HResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateException.get_HResult
-: 
 ---
 
 # IUpdateException::get_HResult

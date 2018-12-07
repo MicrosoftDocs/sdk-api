@@ -7,7 +7,7 @@ old-location: wec\ecgetobjectarrayproperty.htm
 tech.root: WEC
 ms.assetid: a145c982-a1df-442f-8923-58f1db67ac25
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EcGetObjectArrayProperty, EcGetObjectArrayProperty function, evcoll/EcGetObjectArrayProperty, wec.ecgetobjectarrayproperty, wes.ecgetobjectarrayproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EcGetObjectArrayProperty
-: 
 ---
 
 # EcGetObjectArrayProperty function

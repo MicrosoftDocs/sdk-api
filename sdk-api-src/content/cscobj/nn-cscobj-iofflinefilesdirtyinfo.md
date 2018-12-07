@@ -4,10 +4,10 @@ title: IOfflineFilesDirtyInfo
 author: windows-sdk-content
 description: Represents information about an unsynchronized (&#0034;dirty&#0034;) file in the Offline Files cache.
 old-location: of\iofflinefilesdirtyinfo.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 10414443-9e7f-4520-80dd-d2ad098c1d44
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesDirtyInfo, IOfflineFilesDirtyInfo interface [Offline Files], IOfflineFilesDirtyInfo interface [Offline Files],described, cscobj/IOfflineFilesDirtyInfo, of.iofflinefilesdirtyinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

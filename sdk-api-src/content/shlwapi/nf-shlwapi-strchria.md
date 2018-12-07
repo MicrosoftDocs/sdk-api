@@ -7,7 +7,7 @@ old-location: shell\StrChrI.htm
 tech.root: shell
 ms.assetid: bad606d2-e337-42b5-853e-c7afa8d3d71b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: StrChrI, StrChrI function [Windows Shell], StrChrIA, StrChrIW, _win32_StrChrI, shell.StrChrI, shlwapi/StrChrI, shlwapi/StrChrIA, shlwapi/StrChrIW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StrChrIA
-: 
 ---
 
 # StrChrIA function

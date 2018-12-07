@@ -7,7 +7,7 @@ old-location: winsync\ienumchangeunitexceptions_reset.htm
 tech.root: winsync
 ms.assetid: 7c9a98e2-c976-42cb-ada3-ee33c11adae8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Reset method, IEnumChangeUnitExceptions.Reset, IEnumChangeUnitExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_reset, winsync/IEnumChangeUnitExceptions::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- IEnumChangeUnitExceptions.Reset
-: 
 ---
 
 # IEnumChangeUnitExceptions::Reset

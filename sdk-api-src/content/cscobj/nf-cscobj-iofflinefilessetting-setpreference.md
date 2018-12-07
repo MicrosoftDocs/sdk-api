@@ -4,10 +4,10 @@ title: IOfflineFilesSetting::SetPreference
 author: windows-sdk-content
 description: Sets a per-computer or per-user preference associated with an Offline Files setting.
 old-location: of\iofflinefilessetting_setpreference.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: a5dc0522-4a1b-450f-bddb-17e67007f809
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesSetting interface [Offline Files],SetPreference method, IOfflineFilesSetting.SetPreference, IOfflineFilesSetting::SetPreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, SetPreference, SetPreference method [Offline Files], SetPreference method [Offline Files],IOfflineFilesSetting interface, cscobj/IOfflineFilesSetting::SetPreference, of.iofflinefilessetting_setpreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesSetting.SetPreference
-: 
 ---
 
 # IOfflineFilesSetting::SetPreference

@@ -4,10 +4,10 @@ title: IWSDiscoveredService::GetXAddrs
 author: windows-sdk-content
 description: Retrieves a list of WS-Discovery XAddrs.
 old-location: ncd\iwsdiscoveredservice_getxaddrs.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: a861374e-fee4-486b-8e23-f4a4a8203b28
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetXAddrs, GetXAddrs method, GetXAddrs method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetXAddrs method, IWSDiscoveredService.GetXAddrs, IWSDiscoveredService::GetXAddrs, ncd.iwsdiscoveredservice_getxaddrs, wsddisco/IWSDiscoveredService::GetXAddrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsddisco.h
-: 
-- IWSDiscoveredService.GetXAddrs
-: 
 ---
 
 # IWSDiscoveredService::GetXAddrs

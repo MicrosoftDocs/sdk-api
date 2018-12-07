@@ -4,10 +4,10 @@ title: IImageList::Merge
 author: windows-sdk-content
 description: Creates a new image by combining two existing images. This method also creates a new image list in which to store the image.
 old-location: controls\IImageList_Merge.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\merge.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IImageList interface [Windows Controls],Merge method, IImageList.Merge, IImageList::Merge, Merge, Merge method [Windows Controls], Merge method [Windows Controls],IImageList interface, comctl_IImageList_Merge, comctl_IImageList_Merge_cpp, commoncontrols/IImageList::Merge, controls.IImageList_Merge, controls.comctl_IImageList_Merge
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- commoncontrols.h
-: 
-- IImageList.Merge
-: 
 ---
 
 # IImageList::Merge

@@ -4,10 +4,10 @@ title: IX509AttributeExtensions::get_X509Extensions
 author: windows-sdk-content
 description: Retrieves the certificate extensions.
 old-location: security\ix509attributeextensions_x509extensions_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 719c4ac5-8d67-4026-9eb6-9682942ad367
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509AttributeExtensions interface [Security],X509Extensions property, IX509AttributeExtensions.X509Extensions, IX509AttributeExtensions.get_X509Extensions, IX509AttributeExtensions::X509Extensions, IX509AttributeExtensions::get_X509Extensions, X509Extensions property [Security], X509Extensions property [Security],IX509AttributeExtensions interface, certenroll/IX509AttributeExtensions::X509Extensions, certenroll/IX509AttributeExtensions::get_X509Extensions, get_X509Extensions, security.ix509attributeextensions_x509extensions_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509AttributeExtensions.get_X509Extensions
-: 
 ---
 
 # IX509AttributeExtensions::get_X509Extensions

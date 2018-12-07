@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttracklist.htm
 tech.root: medfound
 ms.assetid: EA94A81E-3B1D-4723-B00F-B216991E19E5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFTimedTextTrackList, IMFTimedTextTrackList interface [Media Foundation], IMFTimedTextTrackList interface [Media Foundation],described, mf.imftimedtexttracklist, mfmediaengine/IMFTimedTextTrackList
 ms.prod: windows-hardware
 ms.technology: windows-devices

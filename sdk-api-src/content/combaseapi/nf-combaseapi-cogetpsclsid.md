@@ -7,7 +7,7 @@ old-location: com\cogetpsclsid.htm
 tech.root: com
 ms.assetid: dfe6b514-a80a-4adb-bf43-d9a7d0e5f4a3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CoGetPSClsid, CoGetPSClsid function [COM], _com_CoGetPSClsid, com.cogetpsclsid, combaseapi/CoGetPSClsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoGetPSClsid
-: 
 ---
 
 # CoGetPSClsid function

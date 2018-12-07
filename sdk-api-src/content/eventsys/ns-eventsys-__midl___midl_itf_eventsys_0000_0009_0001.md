@@ -7,7 +7,7 @@ old-location: cos\comeventsyschangeinfo.htm
 tech.root: cossdk
 ms.assetid: 6c9f143e-bdd4-48be-a635-a382c8c770c1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: COMEVENTSYSCHANGEINFO, COMEVENTSYSCHANGEINFO structure [COM+], __MIDL___MIDL_itf_eventsys_0000_0009_0001, _cos_COMEVENTSYSCHANGEINFO, cos.comeventsyschangeinfo, eventsys/COMEVENTSYSCHANGEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

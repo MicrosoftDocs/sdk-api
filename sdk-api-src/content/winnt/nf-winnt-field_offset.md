@@ -7,7 +7,7 @@ old-location: kernel\field_offset.htm
 tech.root: Kernel
 ms.assetid: c792d021-3c64-4341-878c-08a7e163447c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FIELD_OFFSET, FIELD_OFFSET function [Kernel-Mode Driver Architecture], k106_d6f0b450-e99c-4dd7-94c5-f428e4b1d642.xml, kernel.field_offset, winnt/FIELD_OFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winnt.h
-: 
-- FIELD_OFFSET
-: 
 ---
 
 # FIELD_OFFSET macro

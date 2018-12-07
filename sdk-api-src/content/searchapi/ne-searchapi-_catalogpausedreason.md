@@ -7,7 +7,7 @@ old-location: search\_search_CatalogPausedReason.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\catalogpausedreason.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CATALOG_PAUSED_REASON_DELAYED_RECOVERY, CATALOG_PAUSED_REASON_EXTERNAL, CATALOG_PAUSED_REASON_HIGH_CPU, CATALOG_PAUSED_REASON_HIGH_IO, CATALOG_PAUSED_REASON_HIGH_NTF_RATE, CATALOG_PAUSED_REASON_LOW_BATTERY, CATALOG_PAUSED_REASON_LOW_DISK, CATALOG_PAUSED_REASON_LOW_MEMORY, CATALOG_PAUSED_REASON_NONE, CATALOG_PAUSED_REASON_UPGRADING, CATALOG_PAUSED_REASON_USER_ACTIVE, CatalogPausedReason, CatalogPausedReason enumeration [search], _CatalogPausedReason, _search_CatalogPausedReason, search._search_CatalogPausedReason, searchapi/CATALOG_PAUSED_REASON_DELAYED_RECOVERY, searchapi/CATALOG_PAUSED_REASON_EXTERNAL, searchapi/CATALOG_PAUSED_REASON_HIGH_CPU, searchapi/CATALOG_PAUSED_REASON_HIGH_IO, searchapi/CATALOG_PAUSED_REASON_HIGH_NTF_RATE, searchapi/CATALOG_PAUSED_REASON_LOW_BATTERY, searchapi/CATALOG_PAUSED_REASON_LOW_DISK, searchapi/CATALOG_PAUSED_REASON_LOW_MEMORY, searchapi/CATALOG_PAUSED_REASON_NONE, searchapi/CATALOG_PAUSED_REASON_UPGRADING, searchapi/CATALOG_PAUSED_REASON_USER_ACTIVE, searchapi/CatalogPausedReason
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_VDS_INTERCONNECT"
 author: windows-sdk-content
 description: Defines the address data of a physical interconnect.
 old-location: base\vds_interconnect.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: fc9f532b-a37f-4338-95db-6ec988131211
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VDS_INTERCONNECT, VDS_INTERCONNECT structure [VDS], _VDS_INTERCONNECT, base.vds_interconnect, vdslun/_VDS_INTERCONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices

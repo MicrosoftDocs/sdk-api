@@ -4,10 +4,10 @@ title: FreeLibraryWhenCallbackReturns function
 author: windows-sdk-content
 description: Specifies the DLL that the thread pool will unload when the current callback completes.
 old-location: base\freelibrarywhencallbackreturns.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: a29ba988-5d66-4914-9e37-a229bce75af2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FreeLibraryWhenCallbackReturns, FreeLibraryWhenCallbackReturns function, base.freelibrarywhencallbackreturns, threadpoolapiset/FreeLibraryWhenCallbackReturns, winbase/FreeLibraryWhenCallbackReturns
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FreeLibraryWhenCallbackReturns
-: 
 ---
 
 # FreeLibraryWhenCallbackReturns function

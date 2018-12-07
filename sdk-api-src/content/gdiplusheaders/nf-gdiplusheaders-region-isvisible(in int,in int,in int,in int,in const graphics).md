@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_INT_x_INT_y_INT_width_INT_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods\isvisible_53intx_inty_intwidth_intheight_graphicsg.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region class, Region class [GDI+],IsVisible method, Region.IsVisible, Region.IsVisible(IN INT,IN INT,IN INT,IN INT,IN const Graphics), Region.IsVisible(INT,INT,INT,INT,const Graphics*), Region::IsVisible, Region::IsVisible(IN INT,IN INT,IN INT,IN INT,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_INT_x_INT_y_INT_width_INT_height_Graphics_g_, gdiplus._gdiplus_CLASS_Region_IsVisible_INT_x_INT_y_INT_width_INT_height_Graphics_g_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusheaders.h
-: 
-- Region.IsVisible
-: 
 req.product: GDI+ 1.0
 ---
 

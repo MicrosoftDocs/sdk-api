@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_getvideoprocessbltstateprivate.htm
 tech.root: medfound
 ms.assetid: 32154457-5270-4e60-a16c-bca72c6a9673
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessBltStatePrivate, PDXVAHDSW_GetVideoProcessBltStatePrivate callback, PDXVAHDSW_GetVideoProcessBltStatePrivate callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessBltStatePrivate, mf.pdxvahdsw_getvideoprocessbltstateprivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

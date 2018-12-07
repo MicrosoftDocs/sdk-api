@@ -4,10 +4,10 @@ title: "_MMC_EXPANDSYNC_STRUCT"
 author: windows-sdk-content
 description: The MMC_EXPANDSYNC_STRUCT structure is introduced in MMC 1.1.
 old-location: mmc\mmc_expandsync_struct.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: a614ea59-0661-43db-8ad5-b732d4acee80
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MMC_EXPANDSYNC_STRUCT, MMC_EXPANDSYNC_STRUCT structure [MMC], _MMC_EXPANDSYNC_STRUCT, _slate_mmc_expandsync_struct, mmc.mmc_expandsync_struct, mmc/MMC_EXPANDSYNC_STRUCT
 ms.prod: windows-hardware
 ms.technology: windows-devices

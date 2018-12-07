@@ -4,10 +4,10 @@ title: ITextRow::GetCellIndex
 author: windows-sdk-content
 description: Gets the index of the active cell to get or set parameters for.
 old-location: controls\itextrow_getcellindex.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 7768e073-929c-43a4-8c4f-a67f89a0e7ee
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCellIndex, GetCellIndex method [Windows Controls], GetCellIndex method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellIndex method, ITextRow.GetCellIndex, ITextRow::GetCellIndex, controls.itextrow_getcellindex, tom/ITextRow::GetCellIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRow.GetCellIndex
-: 
 ---
 
 # ITextRow::GetCellIndex

@@ -7,7 +7,7 @@ old-location: shell\SHLoadNonloadedIconOverlayIdentifiers.htm
 tech.root: shell
 ms.assetid: d2c4f37e-6e9d-4536-90ea-d69461c4105a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHLoadNonloadedIconOverlayIdentifiers, SHLoadNonloadedIconOverlayIdentifiers function [Windows Shell], _shell_shloadnonloadediconoverlayidentifiers, shell.SHLoadNonloadedIconOverlayIdentifiers, shellapi/SHLoadNonloadedIconOverlayIdentifiers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHLoadNonloadedIconOverlayIdentifiers
-: 
 ---
 
 # SHLoadNonloadedIconOverlayIdentifiers function

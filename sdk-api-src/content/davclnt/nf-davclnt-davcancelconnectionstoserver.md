@@ -7,7 +7,7 @@ old-location: webdav\davcancelconnectionstoserver.htm
 tech.root: WebDAV
 ms.assetid: 6eb3b011-4cd3-45ec-a07e-c8743d35a176
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DavCancelConnectionsToServer, DavCancelConnectionsToServer function [WebDAV], davclnt/DavCancelConnectionsToServer, webdav.davcancelconnectionstoserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DavCancelConnectionsToServer
-: 
 ---
 
 # DavCancelConnectionsToServer function

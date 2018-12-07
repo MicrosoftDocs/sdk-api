@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlevaluationcontext_getvaluebyname.htm
 tech.root: MachineLearning
 ms.assetid: 750A799F-A5A7-48D2-958B-D03423C0CE09
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: GetValueByName, GetValueByName method, GetValueByName method,IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,GetValueByName method, IWinMLEvaluationContext.GetValueByName, IWinMLEvaluationContext::GetValueByName, MachineLearning.iwinmlevaluationcontext_getvaluebyname, winml/IWinMLEvaluationContext::GetValueByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winml.h
-: 
-- IWinMLEvaluationContext.GetValueByName
-: 
 ---
 
 # IWinMLEvaluationContext::GetValueByName

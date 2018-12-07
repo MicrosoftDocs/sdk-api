@@ -4,10 +4,10 @@ title: IWSManResourceLocator::get_MustUnderstandOptions
 author: windows-sdk-content
 description: Gets or sets the MustUnderstandOptions value for the ResourceLocator object.
 old-location: winrm\iwsmanresourcelocator_mustunderstandoptions.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: fff64708-faef-4f61-b569-17d9ff52dc64
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWSManResourceLocator interface [Windows Remote Management],MustUnderstandOptions property, IWSManResourceLocator.MustUnderstandOptions, IWSManResourceLocator.get_MustUnderstandOptions, IWSManResourceLocator::MustUnderstandOptions, IWSManResourceLocator::get_MustUnderstandOptions, IWSManResourceLocator::put_MustUnderstandOptions, MustUnderstandOptions property [Windows Remote Management], MustUnderstandOptions property [Windows Remote Management],IWSManResourceLocator interface, get_MustUnderstandOptions, winrm.iwsmanresourcelocator_mustunderstandoptions, wsmandisp/IWSManResourceLocator::MustUnderstandOptions, wsmandisp/IWSManResourceLocator::get_MustUnderstandOptions, wsmandisp/IWSManResourceLocator::put_MustUnderstandOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManResourceLocator.get_MustUnderstandOptions
-: 
 ---
 
 # IWSManResourceLocator::get_MustUnderstandOptions

@@ -4,10 +4,10 @@ title: SymGetOptions function
 author: windows-sdk-content
 description: Retrieves the current option mask.
 old-location: base\symgetoptions.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 3d9db826-1c4a-46d6-b007-c0dd5e6b17cc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SymGetOptions, SymGetOptions function, _win32_symgetoptions, base.symgetoptions, dbghelp/SymGetOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
-- apiref
-: 
-- 
-: 
-- SymGetOptions
-: 
 ---
 
 # SymGetOptions function

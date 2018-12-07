@@ -7,7 +7,7 @@ old-location: wsw\ws_reset_listener_callback.htm
 tech.root: wsw
 ms.assetid: 98a48403-5ac6-44c2-8a43-c81746390a0d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_RESET_LISTENER_CALLBACK, WS_RESET_LISTENER_CALLBACK callback, WS_RESET_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_RESET_LISTENER_CALLBACK, wsw.ws_reset_listener_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

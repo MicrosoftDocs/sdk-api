@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcapi_classid.htm
 tech.root: DHCP
 ms.assetid: ef1167cb-fcfb-4de3-8b3c-d306f69472f3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDHCPCAPI_CLASSID, *LPDHCPCAPI_CLASSID structure [DHCP], *PDHCPCAPI_CLASSID, *PDHCPCAPI_CLASSID structure [DHCP], DHCPCAPI_CLASSID, DHCPCAPI_CLASSID structure [DHCP], _DHCPCAPI_CLASSID, dhcp.dhcpcapi_classid, dhcpcsdk/*LPDHCPCAPI_CLASSID, dhcpcsdk/*PDHCPCAPI_CLASSID, dhcpcsdk/DHCPCAPI_CLASSID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

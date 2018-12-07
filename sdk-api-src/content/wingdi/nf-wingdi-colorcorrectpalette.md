@@ -7,7 +7,7 @@ old-location: wcs\colorcorrectpalette.htm
 tech.root: WCS
 ms.assetid: e7680521-fb1e-4292-945f-867964dac1ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ColorCorrectPalette, ColorCorrectPalette function [Windows Color System], _color_ColorCorrectPalette, wcs.colorcorrectpalette, wingdi/ColorCorrectPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ColorCorrectPalette
-: 
 ---
 
 # ColorCorrectPalette function

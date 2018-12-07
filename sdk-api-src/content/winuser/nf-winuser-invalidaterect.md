@@ -7,7 +7,7 @@ old-location: gdi\invalidaterect.htm
 tech.root: gdi
 ms.assetid: 5a823d36-d08b-41c9-8857-540576f54b55
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InvalidateRect, InvalidateRect function [Windows GDI], _win32_InvalidateRect, gdi.invalidaterect, winuser/InvalidateRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InvalidateRect
-: 
 ---
 
 # InvalidateRect function

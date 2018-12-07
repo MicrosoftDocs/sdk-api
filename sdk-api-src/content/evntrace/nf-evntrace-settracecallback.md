@@ -4,10 +4,10 @@ title: SetTraceCallback function
 author: windows-sdk-content
 description: The SetTraceCallback function specifies an EventClassCallback function to process events for the specified event trace class.
 old-location: etw\settracecallback.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 8663f64f-a203-43e5-94e8-337f2d81c3a0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SetTraceCallback, SetTraceCallback function [ETW], _evt_settracecallback, base.settracecallback, etw.settracecallback, evntrace/SetTraceCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetTraceCallback
-: 
 ---
 
 # SetTraceCallback function

@@ -7,7 +7,7 @@ old-location: ndf\ndfcreatesharingincident.htm
 tech.root: NDF
 ms.assetid: 6a5e3c3b-7c2b-4de3-89e4-ef330b894320
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NdfCreateSharingIncident, NdfCreateSharingIncident function [NDF], ndf.ndfcreatesharingincident, ndfapi/NdfCreateSharingIncident
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NdfCreateSharingIncident
-: 
 ---
 
 # NdfCreateSharingIncident function

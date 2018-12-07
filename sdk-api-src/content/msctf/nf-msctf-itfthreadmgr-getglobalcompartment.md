@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr_getglobalcompartment.htm
 tech.root: TSF
 ms.assetid: 801e2c3a-0445-4630-83ba-55f51ef2704e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetGlobalCompartment, GetGlobalCompartment method [Text Services Framework], GetGlobalCompartment method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],GetGlobalCompartment method, ITfThreadMgr.GetGlobalCompartment, ITfThreadMgr::GetGlobalCompartment, _tsf_itfthreadmgr_getglobalcompartment_ref, msctf/ITfThreadMgr::GetGlobalCompartment, tsf.itfthreadmgr_getglobalcompartment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfThreadMgr.GetGlobalCompartment
-: 
 ---
 
 # ITfThreadMgr::GetGlobalCompartment

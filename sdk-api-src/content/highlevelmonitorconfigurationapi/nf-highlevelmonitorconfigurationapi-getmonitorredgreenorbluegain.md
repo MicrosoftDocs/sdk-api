@@ -7,7 +7,7 @@ old-location: monitor\getmonitorredgreenorbluegain.htm
 tech.root: Monitor
 ms.assetid: 058d70c4-a29c-4916-a4b9-911db5863363
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetMonitorRedGreenOrBlueGain, GetMonitorRedGreenOrBlueGain function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorRedGreenOrBlueGain, monitor.getmonitorredgreenorbluegain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetMonitorRedGreenOrBlueGain
-: 
 ---
 
 # GetMonitorRedGreenOrBlueGain function

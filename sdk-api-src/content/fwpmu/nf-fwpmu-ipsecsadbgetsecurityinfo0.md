@@ -7,7 +7,7 @@ old-location: fwp\ipsecsadbgetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: 19121de3-91bc-4dca-94f8-599a43bb1e68
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IPsecSaDbGetSecurityInfo0, IPsecSaDbGetSecurityInfo0 function [Filtering], fwp.ipsecsadbgetsecurityinfo0, fwpmu/IPsecSaDbGetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecSaDbGetSecurityInfo0
-: 
 ---
 
 # IPsecSaDbGetSecurityInfo0 function

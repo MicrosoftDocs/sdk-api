@@ -4,10 +4,10 @@ title: IMsmConfigurableItem
 author: windows-sdk-content
 description: The IMsmConfigurableItem interface manages a single row from the ModuleConfiguration table. This is a single configurable &#0034;attribute&#0034; from the module. The interface consists of read-only properties, one for each column in the ModuleConfiguration table.
 old-location: setup\imsmconfigurableitem_interface.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: d10bfd31-22a8-4100-ac0b-dd0795622808
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, IMsmConfigurableItem interface,described, mergemod/IMsmConfigurableItem, setup.imsmconfigurableitem_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

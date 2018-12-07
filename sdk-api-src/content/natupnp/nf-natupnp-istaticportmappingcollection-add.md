@@ -4,10 +4,10 @@ title: IStaticPortMappingCollection::Add
 author: windows-sdk-content
 description: The Add method creates a new port mapping and adds it to the collection.
 old-location: ics\istaticportmappingcollection_add.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 5e61629d-80e4-4d44-8e53-12e17b399126
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],IStaticPortMappingCollection interface, IStaticPortMappingCollection interface [ICS/ICF],Add method, IStaticPortMappingCollection.Add, IStaticPortMappingCollection::Add, _ics_istaticportmappingcollection_add, ics.istaticportmappingcollection_add, natupnp/IStaticPortMappingCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- natupnp.h
-: 
-- IStaticPortMappingCollection.Add
-: 
 ---
 
 # IStaticPortMappingCollection::Add

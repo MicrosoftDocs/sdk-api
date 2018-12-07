@@ -7,7 +7,7 @@ old-location: wsw\wsremovecustomheader.htm
 tech.root: wsw
 ms.assetid: def38214-2de9-4a26-93cb-e2f34d8dd6ef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsRemoveCustomHeader, WsRemoveCustomHeader function [Web Services for Windows], webservices/WsRemoveCustomHeader, wsw.wsremovecustomheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsRemoveCustomHeader
-: 
 ---
 
 # WsRemoveCustomHeader function

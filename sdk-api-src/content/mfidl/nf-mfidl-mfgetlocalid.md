@@ -7,7 +7,7 @@ old-location: mf\mfgetlocalid.htm
 tech.root: medfound
 ms.assetid: 24EA8907-9EBF-42FF-8823-05D48E27F9EA
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MFGetLocalId, MFGetLocalId function [Media Foundation], mf.mfgetlocalid, mfidl/MFGetLocalId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFGetLocalId
-: 
 ---
 
 # MFGetLocalId function

@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_is64bitcatalogserver.htm
 tech.root: cossdk
 ms.assetid: 6c5371e2-c196-4a98-9738-bbf3c456c36e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],Is64BitCatalogServer property, ICOMAdminCatalog2.Is64BitCatalogServer, ICOMAdminCatalog2.get_Is64BitCatalogServer, ICOMAdminCatalog2::Is64BitCatalogServer, ICOMAdminCatalog2::get_Is64BitCatalogServer, Is64BitCatalogServer property [COM+], Is64BitCatalogServer property [COM+],ICOMAdminCatalog2 interface, _cos_IComAdminCatalog2_get_Is64BitCatalogServer, comadmin/ICOMAdminCatalog2::Is64BitCatalogServer, comadmin/ICOMAdminCatalog2::get_Is64BitCatalogServer, cos.icomadmincatalog2_is64bitcatalogserver, get_Is64BitCatalogServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comadmin.h
-: 
-- ICOMAdminCatalog2.get_Is64BitCatalogServer
-: 
 ---
 
 # ICOMAdminCatalog2::get_Is64BitCatalogServer

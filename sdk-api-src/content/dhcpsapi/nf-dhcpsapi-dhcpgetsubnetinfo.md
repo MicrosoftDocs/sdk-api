@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetsubnetinfo.htm
 tech.root: DHCP
 ms.assetid: 0e511993-a9c3-445b-bafc-3d66182ee32d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpGetSubnetInfo, DhcpGetSubnetInfo function [DHCP], dhcp.dhcpgetsubnetinfo, dhcpsapi/DhcpGetSubnetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpGetSubnetInfo
-: 
 ---
 
 # DhcpGetSubnetInfo function

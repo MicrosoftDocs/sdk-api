@@ -4,10 +4,10 @@ title: MEM_EXTENDED_PARAMETER_TYPE
 author: windows-sdk-content
 description: Defines values for extended parameters used for file mapping into an address space.
 old-location: base\mem_extended_parameter_type.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: B3591D93-BAF5-4D6E-90ED-88E1C193670E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE enumeration, MemExtendedParameterAddressRequirements, MemExtendedParameterAttributeFlags, MemExtendedParameterInvalidType, MemExtendedParameterMax, MemExtendedParameterNumaNode, MemExtendedParameterPartitionHandle, MemExtendedParameterUserPhysicalHandle, base.mem_extended_parameter_type, winnt/MEM_EXTENDED_PARAMETER_TYPE, winnt/MemExtendedParameterAddressRequirements, winnt/MemExtendedParameterAttributeFlags, winnt/MemExtendedParameterInvalidType, winnt/MemExtendedParameterMax, winnt/MemExtendedParameterNumaNode, winnt/MemExtendedParameterPartitionHandle, winnt/MemExtendedParameterUserPhysicalHandle"
 ms.prod: windows-hardware
 ms.technology: windows-devices

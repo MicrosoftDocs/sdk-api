@@ -4,10 +4,10 @@ title: NPAddConnection3 function
 author: windows-sdk-content
 description: Connects a local device to a network resource.
 old-location: security\npaddconnection3.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: b0d730f7-595e-4ea7-8688-db479dcc40b4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CONNECT_DEFERRED, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, NPAddConnection3, NPAddConnection3 function [Security], _mnp_npaddconnection3, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection3, security.npaddconnection3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NPAddConnection3
-: 
 ---
 
 # NPAddConnection3 function

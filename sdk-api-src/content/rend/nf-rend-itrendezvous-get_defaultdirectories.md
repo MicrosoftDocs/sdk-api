@@ -4,10 +4,10 @@ title: ITRendezvous::get_DefaultDirectories
 author: windows-sdk-content
 description: The get_DefaultDirectories method enumerates all configured default directories. This method is similar to EnumerateDefaultDirectories but is provided for use by Visual Basic and other scripting languages.
 old-location: tapi3\itrendezvous_get_defaultdirectories.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 3db02f17-6fb5-467b-91f6-dc501b5472cf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITRendezvous interface [TAPI 2.2],get_DefaultDirectories method, ITRendezvous.get_DefaultDirectories, ITRendezvous::get_DefaultDirectories, _tapi3_itrendezvous_get_defaultdirectories, get_DefaultDirectories, get_DefaultDirectories method [TAPI 2.2], get_DefaultDirectories method [TAPI 2.2],ITRendezvous interface, rend/ITRendezvous::get_DefaultDirectories, tapi3.itrendezvous_get_defaultdirectories
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rend.h
-: 
-- ITRendezvous.get_DefaultDirectories
-: 
 ---
 
 # ITRendezvous::get_DefaultDirectories

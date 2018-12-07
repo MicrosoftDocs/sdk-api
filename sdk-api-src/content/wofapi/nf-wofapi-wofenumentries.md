@@ -7,7 +7,7 @@ old-location: fs\wofenumentries.htm
 tech.root: fileio
 ms.assetid: D6BCBFC1-C916-43E3-BB6A-E8EB6467850B
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: WofEnumEntries, WofEnumEntries function [Files], fs.wofenumentries, wofapi/WofEnumEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WofEnumEntries
-: 
 ---
 
 # WofEnumEntries function

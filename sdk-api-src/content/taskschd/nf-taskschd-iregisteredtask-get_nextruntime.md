@@ -4,10 +4,10 @@ title: IRegisteredTask::get_NextRunTime
 author: windows-sdk-content
 description: Gets the time when the registered task is next scheduled to run.
 old-location: taskschd\iregisteredtask_nextruntime.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: ccaed6d7-4247-4299-9226-77d84d572e3b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],NextRunTime property, IRegisteredTask.NextRunTime, IRegisteredTask.get_NextRunTime, IRegisteredTask::NextRunTime, IRegisteredTask::get_NextRunTime, NextRunTime property [Task Scheduler], NextRunTime property [Task Scheduler],IRegisteredTask interface, get_NextRunTime, taskschd.iregisteredtask_nextruntime, taskschd/IRegisteredTask::NextRunTime, taskschd/IRegisteredTask::get_NextRunTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IRegisteredTask.get_NextRunTime
-: 
 ---
 
 # IRegisteredTask::get_NextRunTime

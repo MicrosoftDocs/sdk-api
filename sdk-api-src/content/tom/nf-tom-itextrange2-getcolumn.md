@@ -4,10 +4,10 @@ title: ITextRange2::GetColumn
 author: windows-sdk-content
 description: Gets the column properties for the currently selected column.
 old-location: controls\itextrange2_getcolumn.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: d8e2c985-9799-42c9-b23d-43c16bae5c69
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetColumn, GetColumn method [Windows Controls], GetColumn method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetColumn method, ITextRange2.GetColumn, ITextRange2::GetColumn, controls.itextrange2_getcolumn, tom/ITextRange2::GetColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRange2.GetColumn
-: 
 ---
 
 # ITextRange2::GetColumn

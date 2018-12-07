@@ -4,10 +4,10 @@ title: "_DnsAddrArray"
 author: windows-sdk-content
 description: Stores an array of IPv4 or IPv6 addresses.
 old-location: dns\dns_addr_array.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 5FD7F28B-D1A6-4731-ACB9-A7BB23CC1FB4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDNS_ADDR_ARRAY, AF_INET, AF_INET6, DNS_ADDR_ARRAY, DNS_ADDR_ARRAY structure [DNS], PDNS_ADDR_ARRAY, PDNS_ADDR_ARRAY structure pointer [DNS], _DnsAddrArray, dns.dns_addr_array, windns/DNS_ADDR_ARRAY, windns/PDNS_ADDR_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

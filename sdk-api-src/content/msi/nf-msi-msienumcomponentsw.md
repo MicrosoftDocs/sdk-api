@@ -4,10 +4,10 @@ title: MsiEnumComponentsW function
 author: windows-sdk-content
 description: The MsiEnumComponents function enumerates the installed components for all products. This function retrieves one component code each time it is called.
 old-location: setup\msienumcomponents.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 8ca07b2a-7616-4b0d-be3e-3e500172e5ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MsiEnumComponents, MsiEnumComponents function, MsiEnumComponentsA, MsiEnumComponentsW, _msi_msienumcomponents, msi/MsiEnumComponents, msi/MsiEnumComponentsA, msi/MsiEnumComponentsW, setup.msienumcomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiEnumComponentsW
-: 
 ---
 
 # MsiEnumComponentsW function

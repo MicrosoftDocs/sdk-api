@@ -4,10 +4,10 @@ title: RpcErrorResetEnumeration function
 author: windows-sdk-content
 description: The RpcErrorResetEnumeration function resets an enumeration cursor for any in-process enumeration, resetting the process such that a subsequent call to the RpcErrorGetNextRecord retrieves the first extended error information record.
 old-location: rpc\rpcerrorresetenumeration.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: fb41b923-7fd3-4058-9f5f-df4018d9b872
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RpcErrorResetEnumeration, RpcErrorResetEnumeration function [RPC], _rpc_rpcerrorresetenumeration, rpc.rpcerrorresetenumeration, rpcasync/RpcErrorResetEnumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcErrorResetEnumeration
-: 
 ---
 
 # RpcErrorResetEnumeration function

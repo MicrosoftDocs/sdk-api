@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_GetControlItemState.htm
 tech.root: shell
 ms.assetid: 62fc28c4-3e6d-4141-b5c7-e7659a1a15c2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetControlItemState, GetControlItemState method [Windows Shell], GetControlItemState method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetControlItemState method, IFileDialogCustomize.GetControlItemState, IFileDialogCustomize::GetControlItemState, shell.IFileDialogCustomize_GetControlItemState, shell_IFileDialogCustomize_GetControlItemState, shobjidl_core/IFileDialogCustomize::GetControlItemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IFileDialogCustomize.GetControlItemState
-: 
 ---
 
 # IFileDialogCustomize::GetControlItemState

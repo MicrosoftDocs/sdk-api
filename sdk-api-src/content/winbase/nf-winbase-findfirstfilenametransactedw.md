@@ -7,7 +7,7 @@ old-location: fs\findfirstfilenametransactedw.htm
 tech.root: fileio
 ms.assetid: 79c7d32d-3cb7-4e27-9db1-f24282bf606a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FindFirstFileNameTransactedW, FindFirstFileNameTransactedW function [Files], fs.findfirstfilenametransactedw, winbase/FindFirstFileNameTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FindFirstFileNameTransactedW
-: 
 ---
 
 # FindFirstFileNameTransactedW function

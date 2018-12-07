@@ -7,7 +7,7 @@ old-location: devinst\setupdiopendeviceinterfaceregkey.htm
 tech.root: devinst
 ms.assetid: 950dddcb-2a59-4c2d-826b-147e9acf401a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetupDiOpenDeviceInterfaceRegKey, SetupDiOpenDeviceInterfaceRegKey function [Device and Driver Installation], devinst.setupdiopendeviceinterfaceregkey, di-rtns_420dfbe9-7cb3-4ecb-9341-b40fbc76a50e.xml, setupapi/SetupDiOpenDeviceInterfaceRegKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiOpenDeviceInterfaceRegKey
-: 
 ---
 
 # SetupDiOpenDeviceInterfaceRegKey function

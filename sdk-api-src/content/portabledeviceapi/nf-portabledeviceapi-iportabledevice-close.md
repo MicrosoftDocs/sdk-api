@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_close.htm
 tech.root: wpd_sdk
 ms.assetid: aa60a439-7589-465e-98e5-56b93d594f96
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Close, Close method [Windows Portable Devices SDK], Close method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Close method, IPortableDevice.Close, IPortableDevice::Close, IPortableDeviceClose, portabledeviceapi/IPortableDevice::Close, wpdsdk.iportabledevice_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- portabledeviceapi.h
-: 
-- IPortableDevice.Close
-: 
 ---
 
 # IPortableDevice::Close

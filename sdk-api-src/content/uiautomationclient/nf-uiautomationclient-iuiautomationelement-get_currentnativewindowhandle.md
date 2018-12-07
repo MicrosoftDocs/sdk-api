@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentNativeWindowHandle.htm
 tech.root: WinAuto
 ms.assetid: 9a59f674-6b48-4679-bc24-fe46ebae2041
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CurrentNativeWindowHandle property [Windows Accessibility], CurrentNativeWindowHandle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentNativeWindowHandle property, IUIAutomationElement.CurrentNativeWindowHandle, IUIAutomationElement.get_CurrentNativeWindowHandle, IUIAutomationElement::CurrentNativeWindowHandle, IUIAutomationElement::get_CurrentNativeWindowHandle, get_CurrentNativeWindowHandle, uiauto.uiauto_IUIAutomationElement_CurrentNativeWindowHandle, uiauto_IUIAutomationElement_CurrentNativeWindowHandle, uiautomationclient/IUIAutomationElement::CurrentNativeWindowHandle, uiautomationclient/IUIAutomationElement::get_CurrentNativeWindowHandle, winauto.uiauto_IUIAutomationElement_CurrentNativeWindowHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationElement.get_CurrentNativeWindowHandle
-: 
 ---
 
 # IUIAutomationElement::get_CurrentNativeWindowHandle

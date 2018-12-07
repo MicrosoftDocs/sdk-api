@@ -7,7 +7,7 @@ old-location: input_pointerdevice\pointer_device_info.htm
 tech.root: Input_PointerDevice
 ms.assetid: 1b909caf-2d69-42b9-8d60-5d89a0286f59
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: POINTER_DEVICE_INFO, POINTER_DEVICE_INFO structure, input_pointerdevice.pointer_device_info, tagPOINTER_DEVICE_INFO, unifiedinputstack.pointer_device_info, winuser/POINTER_DEVICE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ixmlgraphbuilder_savetoxml.htm
 tech.root: DirectShow
 ms.assetid: 02f710a4-3d13-46b0-b00d-4ffd2b4c3157
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IXMLGraphBuilder interface [DirectShow],SaveToXML method, IXMLGraphBuilder.SaveToXML, IXMLGraphBuilder::SaveToXML, IXMLGraphBuilderSaveToXML, SaveToXML, SaveToXML method [DirectShow], SaveToXML method [DirectShow],IXMLGraphBuilder interface, amxmlgraphbuilder/IXMLGraphBuilder::SaveToXML, dshow.ixmlgraphbuilder_savetoxml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- amxmlgraphbuilder.h
-: 
-- IXMLGraphBuilder.SaveToXML
-: 
 ---
 
 # IXMLGraphBuilder::SaveToXML

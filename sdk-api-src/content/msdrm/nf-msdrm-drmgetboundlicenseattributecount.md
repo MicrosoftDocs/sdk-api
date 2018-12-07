@@ -7,7 +7,7 @@ old-location: rm\drmgetboundlicenseattributecount.htm
 tech.root: AdRms_Sdk
 ms.assetid: 5b3814f5-bab7-4b46-a38b-54406cb8cae0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMGetBoundLicenseAttributeCount, DRMGetBoundLicenseAttributeCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseAttributeCount, rm.drmgetboundlicenseattributecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DRMGetBoundLicenseAttributeCount
-: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

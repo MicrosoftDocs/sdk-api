@@ -7,7 +7,7 @@ old-location: tsf\itfinputscope_getregularexpression.htm
 tech.root: TSF
 ms.assetid: fa24c473-efc7-408f-86e8-905161de10f0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRegularExpression, GetRegularExpression method [Text Services Framework], GetRegularExpression method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetRegularExpression method, ITfInputScope.GetRegularExpression, ITfInputScope::GetRegularExpression, inputscope/ITfInputScope::GetRegularExpression, tsf.itfinputscope_getregularexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- inputscope.h
-: 
-- ITfInputScope.GetRegularExpression
-: 
 ---
 
 # ITfInputScope::GetRegularExpression

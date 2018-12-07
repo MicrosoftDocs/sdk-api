@@ -7,7 +7,7 @@ old-location: mf\mfcreatecollection.htm
 tech.root: medfound
 ms.assetid: 6a7bf7b6-62f1-4eac-9849-39021ee50f42
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 6a7bf7b6-62f1-4eac-9849-39021ee50f42, MFCreateCollection, MFCreateCollection function [Media Foundation], mf.mfcreatecollection, mfapi/MFCreateCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateCollection
-: 
 ---
 
 # MFCreateCollection function

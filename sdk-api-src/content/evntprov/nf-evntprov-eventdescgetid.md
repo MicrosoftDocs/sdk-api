@@ -4,10 +4,10 @@ title: EventDescGetId function
 author: windows-sdk-content
 description: Retrieves the event identifier from the event descriptor.
 old-location: etw\eventdescgetid_func.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 33deea6e-27e0-44ae-8d18-e8c854bc1819
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EventDescGetId, EventDescGetId function [ETW], base.eventdescgetid_func, etw.eventdescgetid_func, evntprov/EventDescGetId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EventDescGetId
-: 
 ---
 
 # EventDescGetId function

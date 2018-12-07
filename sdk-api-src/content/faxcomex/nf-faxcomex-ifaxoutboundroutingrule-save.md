@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_s
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qn9.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxOutboundRoutingRule interface [Fax Service],Save method, IFaxOutboundRoutingRule.Save, IFaxOutboundRoutingRule::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxOutboundRoutingRule interface, _mfax_faxoutboundroutingrule.save, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_save_cpp, fax._mfax_faxoutboundroutingrule_save, faxcomex/IFaxOutboundRoutingRule::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxOutboundRoutingRule.Save
-: 
 ---
 
 # IFaxOutboundRoutingRule::Save

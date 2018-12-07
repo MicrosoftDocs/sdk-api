@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt32Array.htm
 tech.root: properties
 ms.assetid: b08e61bc-8b76-4baf-acf7-9eb97e521b65
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InitVariantFromUInt32Array, InitVariantFromUInt32Array function [Windows Properties], _shell_InitVariantFromUInt32Array, properties.InitVariantFromUInt32Array, propvarutil/InitVariantFromUInt32Array, shell.InitVariantFromUInt32Array
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- InitVariantFromUInt32Array
-: 
 ---
 
 # InitVariantFromUInt32Array function

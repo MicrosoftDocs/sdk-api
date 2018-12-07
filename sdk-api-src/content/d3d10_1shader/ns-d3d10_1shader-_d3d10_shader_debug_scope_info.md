@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_debug_scope_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_scope_info.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 98b3a0e8-be0d-c4db-defc-df94817adf46, D3D10_SHADER_DEBUG_SCOPE_INFO, D3D10_SHADER_DEBUG_SCOPE_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_SCOPE_INFO, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_INFO, direct3d10.d3d10_shader_debug_scope_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

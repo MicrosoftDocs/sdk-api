@@ -7,7 +7,7 @@ old-location: shell\LongLongMult.htm
 tech.root: shell
 ms.assetid: 71f9cef9-33a2-48f2-a14f-aad364116e93
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LongLongMult, LongLongMult function [Windows Shell], intsafe/LongLongMult, shell.LongLongMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LongLongMult
-: 
 ---
 
 # LongLongMult function

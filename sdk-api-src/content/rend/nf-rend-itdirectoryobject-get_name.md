@@ -4,10 +4,10 @@ title: ITDirectoryObject::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the name of the directory object.
 old-location: tapi3\itdirectoryobject_get_name.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: b24c1e69-5ba1-4597-86fb-2233707a1acf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_Name method, ITDirectoryObject.get_Name, ITDirectoryObject::get_Name, _tapi3_itdirectoryobject_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_Name, tapi3.itdirectoryobject_get_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rend.h
-: 
-- ITDirectoryObject.get_Name
-: 
 ---
 
 # ITDirectoryObject::get_Name

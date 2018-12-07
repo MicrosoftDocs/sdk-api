@@ -4,10 +4,10 @@ title: IADsPrintQueueOperations::PrintJobs
 author: windows-sdk-content
 description: The IADsPrintQueueOperations::PrintJobs method gets an IADsCollection interface pointer on the collection of the print jobs processed in this print queue.
 old-location: adsi\iadsprintqueueoperations_printjobs.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: fe92fef3-596f-416c-b613-1d93737c298e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPrintQueueOperations interface [ADSI],PrintJobs method, IADsPrintQueueOperations.PrintJobs, IADsPrintQueueOperations::PrintJobs, PrintJobs, PrintJobs method [ADSI], PrintJobs method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_printjobs, adsi.iadsprintqueueoperations__printjobs, adsi.iadsprintqueueoperations_printjobs, iads/IADsPrintQueueOperations::PrintJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsPrintQueueOperations.PrintJobs
-: 
 ---
 
 # IADsPrintQueueOperations::PrintJobs
@@ -66,14 +58,7 @@ The <b>IADsPrintQueueOperations::PrintJobs</b> method gets an  <a href="https://
 
 
 
-### -param pObject
-
-TBD
-
-
-
-
-#### - ppPrintJobs [out]
+### -param pObject [out]
 
 Pointer to a pointer to the  <a href="https://msdn.microsoft.com/4552552b-c008-439a-95bf-eaf9ffd28b5f">IADsCollection</a> interface on the collection of objects added to this print queue. Objects in the collection implement the  <a href="https://msdn.microsoft.com/82d61e39-4dbb-41c9-85d5-6f4e7ab7f66b">IADsPrintJob</a> interface.
 

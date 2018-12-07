@@ -4,10 +4,10 @@ title: SymFromAddrW function
 author: windows-sdk-content
 description: Retrieves symbol information for the specified address.
 old-location: base\symfromaddr.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 20338631-19ab-4ad8-9ba2-56fa4812b33e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SymFromAddr, SymFromAddr function, SymFromAddrW, _win32_symfromaddr, base.symfromaddr, dbghelp/SymFromAddr, dbghelp/SymFromAddrW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
-- apiref
-: 
-- 
-: 
-- SymFromAddrW
-: 
 ---
 
 # SymFromAddrW function

@@ -4,10 +4,10 @@ title: IVdsOpenVDisk
 author: windows-sdk-content
 description: Defines methods for managing a virtual disk.
 old-location: base\ivdsopenvdisk.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 3d5f080f-3e83-437e-8cbc-9730988f5dcc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsOpenVDisk, IVdsOpenVDisk interface, IVdsOpenVDisk interface,described, base.ivdsopenvdisk, vds/IVdsOpenVDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices

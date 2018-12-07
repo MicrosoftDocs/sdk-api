@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilocation_getreportstatus.htm
 tech.root: locationapi
 ms.assetid: 9b7c72cc-fa09-44b2-97be-f200fab7b31d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetReportStatus, GetReportStatus method [WinLocation], GetReportStatus method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportStatus method, ILocation.GetReportStatus, ILocation::GetReportStatus, WinLocation_COM_Ref.ilocation_getreportstatus, locationapi/ILocation::GetReportStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- locationapi.h
-: 
-- ILocation.GetReportStatus
-: 
 ---
 
 # ILocation::GetReportStatus

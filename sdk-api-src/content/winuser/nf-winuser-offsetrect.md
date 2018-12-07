@@ -7,7 +7,7 @@ old-location: gdi\offsetrect.htm
 tech.root: gdi
 ms.assetid: 14101ad3-8c6e-459a-974a-1a8a4d8d7906
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: OffsetRect, OffsetRect function [Windows GDI], _win32_OffsetRect, gdi.offsetrect, winuser/OffsetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OffsetRect
-: 
 ---
 
 # OffsetRect function

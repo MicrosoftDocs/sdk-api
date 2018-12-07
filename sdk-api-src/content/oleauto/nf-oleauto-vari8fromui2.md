@@ -7,7 +7,7 @@ old-location: automat\vari8fromui2.htm
 tech.root: automat
 ms.assetid: 1b11b69a-1f9e-400d-99a0-6c75d784c570
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarI8FromUI2, VarI8FromUI2 function [Automation], _oa96_VarI8FromUI2, automat.vari8fromui2, oleauto/VarI8FromUI2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarI8FromUI2
-: 
 ---
 
 # VarI8FromUI2 function

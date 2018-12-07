@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_texture1d_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texture1d_desc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 3b8edbcf-2f3c-dbad-9241-29cfd861f8cf, CD3D10_TEXTURE1D_DESC, D3D10_TEXTURE1D_DESC, D3D10_TEXTURE1D_DESC structure [Direct3D 10], d3d10/D3D10_TEXTURE1D_DESC, direct3d10.d3d10_texture1d_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

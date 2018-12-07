@@ -4,10 +4,10 @@ title: SymUnloadModule64 function
 author: windows-sdk-content
 description: Unloads the symbol table.
 old-location: base\symunloadmodule64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: f4801039-eba2-4ec3-8c23-706ab89bb442
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SymUnloadModule, SymUnloadModule function, SymUnloadModule64, SymUnloadModule64 function, _win32_symunloadmodule64, base.symunloadmodule64, dbghelp/SymUnloadModule, dbghelp/SymUnloadModule64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
-- apiref
-: 
-- 
-: 
-- SymUnloadModule64
-: 
 ---
 
 # SymUnloadModule64 function

@@ -7,7 +7,7 @@ old-location: fs\lsnless.htm
 tech.root: Clfs
 ms.assetid: 610023f3-6017-480f-9a0c-807e81a50e84
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ClfsLsnLess, LsnLess, LsnLess function [Files], clfs/LsnLess, fs.lsnless
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClfsLsnLess
-: 
 ---
 
 # ClfsLsnLess function

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicbitmaptransformoptions.htm
 tech.root: wic
 ms.assetid: e123bb4d-bc75-4f3f-98f1-bea9b008498b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WICBitmapTransformFlipHorizontal, WICBitmapTransformFlipVertical, WICBitmapTransformOptions, WICBitmapTransformOptions enumeration [Windows Imaging Component], WICBitmapTransformRotate0, WICBitmapTransformRotate180, WICBitmapTransformRotate270, WICBitmapTransformRotate90, _wic_codec_wicbitmaptransformoptions, wic._wic_codec_wicbitmaptransformoptions, wincodec/WICBitmapTransformFlipHorizontal, wincodec/WICBitmapTransformFlipVertical, wincodec/WICBitmapTransformOptions, wincodec/WICBitmapTransformRotate0, wincodec/WICBitmapTransformRotate180, wincodec/WICBitmapTransformRotate270, wincodec/WICBitmapTransformRotate90
 ms.prod: windows-hardware
 ms.technology: windows-devices

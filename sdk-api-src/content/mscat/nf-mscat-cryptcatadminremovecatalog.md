@@ -4,10 +4,10 @@ title: CryptCATAdminRemoveCatalog function
 author: windows-sdk-content
 description: Deletes a catalog file and removes that catalog's entry from the Windows catalog database.
 old-location: security\cryptcatadminremovecatalog.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: e09fe991-0e7a-45da-910a-8cb148bdff9a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CryptCATAdminRemoveCatalog, CryptCATAdminRemoveCatalog function [Security], mscat/CryptCATAdminRemoveCatalog, security.cryptcatadminremovecatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptCATAdminRemoveCatalog
-: 
 ---
 
 # CryptCATAdminRemoveCatalog function

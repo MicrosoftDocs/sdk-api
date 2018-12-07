@@ -4,10 +4,10 @@ title: GetThreadWaitChain function
 author: windows-sdk-content
 description: Retrieves the wait chain for the specified thread.
 old-location: base\getthreadwaitchain.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 5b418fa6-1d07-465e-85ea-b7127264eebf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetThreadWaitChain, GetThreadWaitChain function, WCT_OUT_OF_PROC_COM_FLAG, WCT_OUT_OF_PROC_CS_FLAG, WCT_OUT_OF_PROC_FLAG, base.getthreadwaitchain, wct/GetThreadWaitChain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetThreadWaitChain
-: 
 ---
 
 # GetThreadWaitChain function

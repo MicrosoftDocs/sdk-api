@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_renderer.htm
 tech.root: tablet
 ms.assetid: 5df5918a-caca-4296-8464-3710ff904b10
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IInkPicture interface [Tablet PC],Renderer property, IInkPicture.Renderer, IInkPicture.get_Renderer, IInkPicture::Renderer, IInkPicture::get_Renderer, IInkPicture::put_Renderer, InkPicture.get_Renderer, InkPicture.put_Renderer, Renderer property [Tablet PC], Renderer property [Tablet PC],IInkPicture interface, get_Renderer, msinkaut/IInkPicture::Renderer, msinkaut/IInkPicture::get_Renderer, msinkaut/IInkPicture::put_Renderer, put_Renderer, tablet.inkpicture_renderer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,14 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkPicture.get_Renderer
-: 
 ---
 
 # IInkPicture::get_Renderer

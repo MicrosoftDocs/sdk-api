@@ -7,7 +7,7 @@ old-location: shell\IntPtrToULongLong.htm
 tech.root: shell
 ms.assetid: 81358f7f-9e78-469a-889e-85fa93bd1eac
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IntPtrToULongLong, IntPtrToULongLong function [Windows Shell], UIntPtrToInt64, _shell_IntPtrToULongLong, intsafe/IntPtrToULongLong, shell.IntPtrToULongLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IntPtrToULongLong
-: 
 ---
 
 # IntPtrToULongLong function

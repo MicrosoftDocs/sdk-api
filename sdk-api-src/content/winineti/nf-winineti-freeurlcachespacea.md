@@ -4,10 +4,10 @@ title: FreeUrlCacheSpaceA function
 author: windows-sdk-content
 description: Frees space in the cache.
 old-location: wininet\freeurlcachespace.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 5853CA64-551F-484E-A992-25B9EA6C74C2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FreeUrlCacheSpace, FreeUrlCacheSpace function [WinINet], FreeUrlCacheSpaceA, FreeUrlCacheSpaceW, wininet.freeurlcachespace, winineti/FreeUrlCacheSpace, winineti/FreeUrlCacheSpaceA, winineti/FreeUrlCacheSpaceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FreeUrlCacheSpaceA
-: 
 ---
 
 # FreeUrlCacheSpaceA function

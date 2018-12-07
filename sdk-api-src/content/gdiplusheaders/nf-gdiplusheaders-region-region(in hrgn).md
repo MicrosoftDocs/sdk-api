@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Region_hRgn_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_79hrgn.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(HRGN), Region.Region(IN HRGN), Region::Region, Region::Region(IN HRGN), _gdiplus_CLASS_Region_Region_hRgn_, gdiplus._gdiplus_CLASS_Region_Region_hRgn_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusheaders.h
-: 
-- Region.Region
-: 
 req.product: GDI+ 1.0
 ---
 

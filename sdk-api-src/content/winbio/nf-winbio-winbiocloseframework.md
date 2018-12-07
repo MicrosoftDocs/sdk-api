@@ -7,7 +7,7 @@ old-location: secbiomet\winbiocloseframework.htm
 tech.root: SecBioMet
 ms.assetid: AE13FB2F-0B6B-4D98-A75A-E8A2EA525136
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioCloseFramework, WinBioCloseFramework function [Windows Biometric Framework API], secbiomet.winbiocloseframework, winbio/WinBioCloseFramework
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinBioCloseFramework
-: 
 ---
 
 # WinBioCloseFramework function

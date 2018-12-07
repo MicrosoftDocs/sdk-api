@@ -2,7 +2,7 @@
 UID: NA:cmnquery
 ms.assetid: abd5885b-c8db-3998-9edb-520f306c5343
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: display\strobj_dwgetcodepage.htm
 tech.root: display
 ms.assetid: b28e5854-1ac0-4b76-87a9-ec943228e2ed
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: STROBJ_dwGetCodePage, STROBJ_dwGetCodePage function [Display Devices], display.strobj_dwgetcodepage, gdifncs_e446480e-8516-4138-8121-1c9665fc22d9.xml, winddi/STROBJ_dwGetCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- STROBJ_dwGetCodePage
-: 
 ---
 
 # STROBJ_dwGetCodePage function

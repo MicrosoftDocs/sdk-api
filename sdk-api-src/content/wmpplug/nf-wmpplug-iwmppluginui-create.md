@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_create.htm
 tech.root: WMP
 ms.assetid: f7ba2985-42a2-456f-8195-a292c90b440d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Create, Create method [Windows Media Player], Create method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],Create method, IWMPPluginUI.Create, IWMPPluginUI::Create, IWMPPluginUICreate, wmp.iwmppluginui_create, wmpplug/IWMPPluginUI::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmpplug.h
-: 
-- IWMPPluginUI.Create
-: 
 ---
 
 # IWMPPluginUI::Create

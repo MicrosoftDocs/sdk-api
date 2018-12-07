@@ -7,7 +7,7 @@ old-location: shell\ULongLongToUIntPtr.htm
 tech.root: shell
 ms.assetid: c3c08ff3-e583-435d-9e44-5fab9371b7cd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ULongLongToSizeT, ULongLongToUIntPtr, ULongLongToUIntPtr function [Windows Shell], _shell_ULongLongToUIntPtr, intsafe/ULongLongToUIntPtr, shell.ULongLongToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ULongLongToUIntPtr
-: 
 ---
 
 # ULongLongToUIntPtr function

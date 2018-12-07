@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarc
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingarchive\sizelow.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxAccountIncomingArchive interface [Fax Service],SizeLow property, IFaxAccountIncomingArchive.SizeLow, IFaxAccountIncomingArchive.get_SizeLow, IFaxAccountIncomingArchive::SizeLow, IFaxAccountIncomingArchive::get_SizeLow, SizeLow property [Fax Service], SizeLow property [Fax Service],IFaxAccountIncomingArchive interface, _mfax_faxaccountincomingarchive.sizelow, fax._mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_sizelow_cpp, fax._mfax_faxaccountincomingarchive_sizelow, faxcomex/IFaxAccountIncomingArchive::SizeLow, faxcomex/IFaxAccountIncomingArchive::get_SizeLow, get_SizeLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxAccountIncomingArchive.get_SizeLow
-: 
 ---
 
 # IFaxAccountIncomingArchive::get_SizeLow

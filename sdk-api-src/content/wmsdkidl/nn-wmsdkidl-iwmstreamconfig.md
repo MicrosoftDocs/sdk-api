@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig.htm
 tech.root: wmformat
 ms.assetid: e013996a-95b6-4cd3-9fb5-75dbce821eef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig, IWMStreamConfig interface [windows Media Format], IWMStreamConfig interface [windows Media Format],described, IWMStreamConfigInterface, wmformat.iwmstreamconfig, wmsdkidl/IWMStreamConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2_get_exclusiveaccessowner.htm
 tech.root: imapi
 ms.assetid: 32577b35-235a-4186-8fb3-18e5555cb56f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_ExclusiveAccessOwner method, IDiscRecorder2.get_ExclusiveAccessOwner, IDiscRecorder2::get_ExclusiveAccessOwner, get_ExclusiveAccessOwner, get_ExclusiveAccessOwner method [IMAPI], get_ExclusiveAccessOwner method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_exclusiveaccessowner, imapi2/IDiscRecorder2::get_ExclusiveAccessOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscRecorder2.get_ExclusiveAccessOwner
-: 
 ---
 
 # IDiscRecorder2::get_ExclusiveAccessOwner

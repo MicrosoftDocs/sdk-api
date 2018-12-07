@@ -4,10 +4,10 @@ title: ID2D1Geometry::CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F 
 author: windows-sdk-content
 description: Describes the intersection between this geometry and the specified geometry. The comparison is performed using the default flattening tolerance.
 old-location: direct2d\ID2D1Geometry_CompareWithGeometry_ptr_ID2D1Geometry_ref_D2D_MATRIX_3X2_F_ptr_D2D1_GEOMETRY_RELATION.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 946a6d1c-551f-416a-a3bf-362cdf063d7d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CompareWithGeometry, CompareWithGeometry method [Direct2D], CompareWithGeometry method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],CompareWithGeometry method, ID2D1Geometry.CompareWithGeometry, ID2D1Geometry.CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,D2D1_GEOMETRY_RELATION), ID2D1Geometry::CompareWithGeometry, ID2D1Geometry::CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,D2D1_GEOMETRY_RELATION), d2d1/ID2D1Geometry::CompareWithGeometry, direct2d.ID2D1Geometry_CompareWithGeometry_ptr_ID2D1Geometry_ref_D2D_MATRIX_3X2_F_ptr_D2D1_GEOMETRY_RELATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1Geometry.CompareWithGeometry
-: 
 ---
 
 # ID2D1Geometry::CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,D2D1_GEOMETRY_RELATION)

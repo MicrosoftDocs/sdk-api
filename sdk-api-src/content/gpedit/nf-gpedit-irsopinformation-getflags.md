@@ -4,10 +4,10 @@ title: IRSOPInformation::GetFlags
 author: windows-sdk-content
 description: The GetFlags method retrieves information about the RSoP user interface session.
 old-location: policy\irsopinformation_getflags.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: 10a518a3-9097-4efd-90cc-14ea66b70fa2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GetFlags, GetFlags method [Group Policy], GetFlags method [Group Policy],IRSOPInformation interface, IRSOPInformation interface [Group Policy],GetFlags method, IRSOPInformation.GetFlags, IRSOPInformation::GetFlags, RSOP_INFO_FLAG_LOGGING_MODE, _win32_irsopinformation_getflags, gpedit/IRSOPInformation::GetFlags, policy.irsopinformation_getflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpedit.h
-: 
-- IRSOPInformation.GetFlags
-: 
 ---
 
 # IRSOPInformation::GetFlags

@@ -7,7 +7,7 @@ old-location: properties\VariantToBooleanArray.htm
 tech.root: properties
 ms.assetid: 80a1e7d4-ec11-4b16-ba05-b97f3bbf02d0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToBooleanArray, VariantToBooleanArray function [Windows Properties], _shell_VariantToBooleanArray, properties.VariantToBooleanArray, propvarutil/VariantToBooleanArray, shell.VariantToBooleanArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToBooleanArray
-: 
 ---
 
 # VariantToBooleanArray function

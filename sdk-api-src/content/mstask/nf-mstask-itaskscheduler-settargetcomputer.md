@@ -4,10 +4,10 @@ title: ITaskScheduler::SetTargetComputer
 author: windows-sdk-content
 description: The SetTargetComputer method selects the computer that the ITaskScheduler interface operates on, allowing remote task management and enumeration.
 old-location: taskschd\itaskscheduler_settargetcomputer.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: e56d2384-026e-44e0-b6b7-20a41a421e09
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],SetTargetComputer method, ITaskScheduler.SetTargetComputer, ITaskScheduler::SetTargetComputer, SetTargetComputer, SetTargetComputer method [Task Scheduler], SetTargetComputer method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_settargetcomputer, mstask/ITaskScheduler::SetTargetComputer, taskschd.itaskscheduler_settargetcomputer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- ITaskScheduler.SetTargetComputer
-: 
 ---
 
 # ITaskScheduler::SetTargetComputer

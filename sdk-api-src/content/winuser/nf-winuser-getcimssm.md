@@ -7,7 +7,7 @@ old-location: input_sourceid\getcimssm.htm
 tech.root: Input_SourceId
 ms.assetid: DF5C9B54-0B32-44D8-BFF6-80A190DC5294
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetCIMSSM, GetCIMSSM function, input_sourceid.getcimssm, winuser/GetCIMSSM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetCIMSSM
-: 
 ---
 
 # GetCIMSSM function

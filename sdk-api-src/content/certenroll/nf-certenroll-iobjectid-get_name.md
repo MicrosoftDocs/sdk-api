@@ -4,10 +4,10 @@ title: IObjectId::get_Name
 author: windows-sdk-content
 description: Retrieves a CERTENROLL_OBJECTID value that contains an object identifier.
 old-location: security\iobjectid_name_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 3d3842a9-73b6-4fb8-83cf-ac65c5a09acb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IObjectId interface [Security],Name property, IObjectId.Name, IObjectId.get_Name, IObjectId::Name, IObjectId::get_Name, Name property [Security], Name property [Security],IObjectId interface, certenroll/IObjectId::Name, certenroll/IObjectId::get_Name, get_Name, security.iobjectid_name_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IObjectId.get_Name
-: 
 ---
 
 # IObjectId::get_Name

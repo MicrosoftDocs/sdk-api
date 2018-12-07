@@ -7,7 +7,7 @@ old-location: mf\mfgetworkqueuemmcsspriority.htm
 tech.root: medfound
 ms.assetid: 8ADF4751-3BC5-4353-9927-C7E0079D0B83
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MFGetWorkQueueMMCSSPriority, MFGetWorkQueueMMCSSPriority function [Media Foundation], mf.mfgetworkqueuemmcsspriority, mfapi/MFGetWorkQueueMMCSSPriority, mfplat/MFGetWorkQueueMMCSSPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFGetWorkQueueMMCSSPriority
-: 
 ---
 
 # MFGetWorkQueueMMCSSPriority function

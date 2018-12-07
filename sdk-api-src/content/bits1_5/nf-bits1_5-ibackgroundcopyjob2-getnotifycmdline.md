@@ -4,10 +4,10 @@ title: IBackgroundCopyJob2::GetNotifyCmdLine
 author: windows-sdk-content
 description: Retrieves the program to execute when the job enters the error or transferred state.
 old-location: bits\ibackgroundcopyjob2_getnotifycmdline.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 62978315-e893-4617-8e6d-63bab8204913
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetNotifyCmdLine, GetNotifyCmdLine method [BITS], GetNotifyCmdLine method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetNotifyCmdLine method, IBackgroundCopyJob2.GetNotifyCmdLine, IBackgroundCopyJob2::GetNotifyCmdLine, _drz_ibackgroundcopyjob2_getnotifycmdline, bits.ibackgroundcopyjob2_getnotifycmdline, bits1_5/IBackgroundCopyJob2::GetNotifyCmdLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP
-- apiref
-: 
-- COM
-: 
-- bits1_5.h
-: 
-- IBackgroundCopyJob2.GetNotifyCmdLine
-: 
 ---
 
 # IBackgroundCopyJob2::GetNotifyCmdLine

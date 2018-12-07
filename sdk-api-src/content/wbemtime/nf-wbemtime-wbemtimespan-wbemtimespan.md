@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_wbemtimespan.htm
 tech.root: WmiSdk
 ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation], WBEMTimeSpan::WbemTimeSpan, wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemtime.h
-: 
-- WBEMTimeSpan.WBEMTimeSpan
-: 
 ---
 
 # WBEMTimeSpan::WBEMTimeSpan

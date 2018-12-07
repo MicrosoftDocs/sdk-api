@@ -7,7 +7,7 @@ old-location: properties\IsVarTypeFloat.htm
 tech.root: properties
 ms.assetid: ff233e26-c02b-47ca-958b-a5282b280ecd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IsVarTypeFloat, IsVarTypeFloat function [Windows Properties], _shell_IsVarTypeFloat, properties.IsVarTypeFloat, propvarutil/IsVarTypeFloat, shell.IsVarTypeFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- IsVarTypeFloat
-: 
 ---
 
 # IsVarTypeFloat function

@@ -7,7 +7,7 @@ old-location: intl\lcidtolocalename.htm
 tech.root: Intl
 ms.assetid: 63233e3e-5b7c-43cb-9c62-88b0791c2647
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LCIDToLocaleName, LCIDToLocaleName function [Internationalization for Windows Applications], _win32_LCIDToLocaleName, intl.lcidtolocalename, winnls/LCIDToLocaleName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LCIDToLocaleName
-: 
 ---
 
 # LCIDToLocaleName function

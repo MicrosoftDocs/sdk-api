@@ -4,10 +4,10 @@ title: "_CREDSSP_SUBMIT_TYPE"
 author: windows-sdk-content
 description: Specifies the type of credentials specified by a CREDSSP_CRED structure.
 old-location: security\credspp_submit_type.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: d30e219b-ea39-41da-b714-3ceb13a5614d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CREDSPP_SUBMIT_TYPE, CREDSPP_SUBMIT_TYPE enumeration [Security], CredsspCertificateCreds, CredsspPasswordCreds, CredsspSchannelCreds, CredsspSubmitBufferBoth, CredsspSubmitBufferBothOld, _CREDSSP_SUBMIT_TYPE, credssp/CREDSPP_SUBMIT_TYPE, credssp/CredsspCertificateCreds, credssp/CredsspPasswordCreds, credssp/CredsspSchannelCreds, credssp/CredsspSubmitBufferBoth, credssp/CredsspSubmitBufferBothOld, security.credspp_submit_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

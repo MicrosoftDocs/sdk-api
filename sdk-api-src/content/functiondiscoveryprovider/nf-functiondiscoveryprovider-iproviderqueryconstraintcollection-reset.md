@@ -4,10 +4,10 @@ title: IProviderQueryConstraintCollection::Reset
 author: windows-sdk-content
 description: Resets the current index to the start of the collection.
 old-location: ncd\iproviderqueryconstraintcollection_reset.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: 56bd143b-b3eb-4273-854b-4d6876ad5e4d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Reset method, IProviderQueryConstraintCollection.Reset, IProviderQueryConstraintCollection::Reset, Reset, Reset method, Reset method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Reset, ncd.iproviderqueryconstraintcollection_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryprovider.h
-: 
-- IProviderQueryConstraintCollection.Reset
-: 
 ---
 
 # IProviderQueryConstraintCollection::Reset

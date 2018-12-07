@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespace_registered.htm
 tech.root: wds
 ms.assetid: b3255a79-5c6d-42cc-9ddd-30c8e13dcfd9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Registered property, IWdsTransportNamespace.Registered, IWdsTransportNamespace.get_Registered, IWdsTransportNamespace::Registered, IWdsTransportNamespace::get_Registered, Registered property [Windows Deployment Services], Registered property [Windows Deployment Services],IWdsTransportNamespace interface, get_Registered, wds.iwdstransportnamespace_registered, wdstptmgmt/IWdsTransportNamespace::Registered, wdstptmgmt/IWdsTransportNamespace::get_Registered
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportNamespace.get_Registered
-: 
 ---
 
 # IWdsTransportNamespace::get_Registered

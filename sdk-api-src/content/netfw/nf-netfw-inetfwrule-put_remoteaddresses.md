@@ -4,10 +4,10 @@ title: INetFwRule::put_RemoteAddresses
 author: windows-sdk-content
 description: Specifies the list of remote addresses for this rule.
 old-location: ics\inetfwrule_remoteaddresses.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 107e8cad-a603-4ac8-aa3c-6a85d47016ef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwRule interface [ICS/ICF],RemoteAddresses property, INetFwRule.RemoteAddresses, INetFwRule.put_RemoteAddresses, INetFwRule::RemoteAddresses, INetFwRule::get_RemoteAddresses, INetFwRule::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwRule interface, ics.inetfwrule_remoteaddresses, netfw/INetFwRule::RemoteAddresses, netfw/INetFwRule::get_RemoteAddresses, netfw/INetFwRule::put_RemoteAddresses, put_RemoteAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwRule.put_RemoteAddresses
-: 
 ---
 
 # INetFwRule::put_RemoteAddresses

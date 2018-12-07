@@ -7,7 +7,7 @@ old-location: dshow\dmo_input_stream_info_flags.htm
 tech.root: DirectShow
 ms.assetid: 96e37678-0325-4569-8491-c8ef23f6c76e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DMO_INPUT_STREAMF_FIXED_SAMPLE_SIZE, DMO_INPUT_STREAMF_HOLDS_BUFFERS, DMO_INPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER, DMO_INPUT_STREAMF_WHOLE_SAMPLES, DMO_INPUT_STREAM_INFO_FLAGS , DMO_INPUT_STREAM_INFO_FLAGSEnumeration, _DMO_INPUT_STREAM_INFO_FLAGS, _DMO_INPUT_STREAM_INFO_FLAGS enumeration [DirectShow], dshow.dmo_input_stream_info_flags, mediaobj/DMO_INPUT_STREAMF_FIXED_SAMPLE_SIZE, mediaobj/DMO_INPUT_STREAMF_HOLDS_BUFFERS, mediaobj/DMO_INPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER, mediaobj/DMO_INPUT_STREAMF_WHOLE_SAMPLES, mediaobj/_DMO_INPUT_STREAM_INFO_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: AllocADsStr function
 author: windows-sdk-content
 description: Allocates memory for and copies a specified string.
 old-location: adsi\allocadsstr.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 1e2b6d42-a879-4a53-a2ce-0e841f6b8543
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AllocADsStr, AllocADsStr function [ADSI], _ds_allocadsstr, adshlp/AllocADsStr, adsi.allocadsstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AllocADsStr
-: 
 ---
 
 # AllocADsStr function

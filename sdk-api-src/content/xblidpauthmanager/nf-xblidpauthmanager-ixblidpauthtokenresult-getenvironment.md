@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getenvironment.htm
 tech.root: xblidp
 ms.assetid: E1113568-9C4D-4091-80C2-A04549A857F2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetEnvironment, GetEnvironment method, GetEnvironment method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetEnvironment method, IXblIdpAuthTokenResult.GetEnvironment, IXblIdpAuthTokenResult::GetEnvironment, xblidp.ixblidpauthtokenresult_getenvironment, xblidpauthmanager/IXblIdpAuthTokenResult::GetEnvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xblidpauthmanager.h
-: 
-- IXblIdpAuthTokenResult.GetEnvironment
-: 
 ---
 
 # IXblIdpAuthTokenResult::GetEnvironment

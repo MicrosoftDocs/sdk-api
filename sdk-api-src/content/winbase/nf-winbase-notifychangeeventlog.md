@@ -7,7 +7,7 @@ old-location: base\notifychangeeventlog.htm
 tech.root: EventLog
 ms.assetid: 12b9a7bf-2aad-48b7-8cfd-a72b353ba2b2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NotifyChangeEventLog, NotifyChangeEventLog function, _win32_notifychangeeventlog, base.notifychangeeventlog, winbase/NotifyChangeEventLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NotifyChangeEventLog
-: 
 ---
 
 # NotifyChangeEventLog function

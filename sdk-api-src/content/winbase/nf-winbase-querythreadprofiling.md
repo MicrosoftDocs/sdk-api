@@ -7,7 +7,7 @@ old-location: hcp\querythreadprofiling.htm
 tech.root: hcp
 ms.assetid: cf746694-cc3a-4791-8877-fd879e968811
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: QueryThreadProfiling, QueryThreadProfiling function [Hardware Counter Profiling], hcp.querythreadprofiling, winbase/QueryThreadProfiling
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- QueryThreadProfiling
-: 
 ---
 
 # QueryThreadProfiling function

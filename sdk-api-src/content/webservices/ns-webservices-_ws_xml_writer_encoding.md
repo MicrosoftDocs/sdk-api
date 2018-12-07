@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_encoding.htm
 tech.root: wsw
 ms.assetid: 5ca43d39-e714-4070-b343-6c8ab9484817
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_XML_WRITER_ENCODING, WS_XML_WRITER_ENCODING structure [Web Services for Windows], _WS_XML_WRITER_ENCODING, webservices/WS_XML_WRITER_ENCODING, wsw.ws_xml_writer_encoding
 ms.prod: windows-hardware
 ms.technology: windows-devices

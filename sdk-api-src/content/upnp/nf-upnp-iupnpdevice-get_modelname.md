@@ -4,10 +4,10 @@ title: IUPnPDevice::get_ModelName
 author: windows-sdk-content
 description: The ModelName property specifies a human-readable form of the model name of the device.
 old-location: upnp\iupnpdevice_modelname.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: c71868ab-e05d-4e6a-b157-4474afc8f61f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ModelName method, IUPnPDevice.get_ModelName, IUPnPDevice::get_ModelName, _upnp_iupnpdevice_modelname, get_ModelName, get_ModelName method [UPnP APIs], get_ModelName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_modelname, upnp/IUPnPDevice::get_ModelName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDevice.get_ModelName
-: 
 ---
 
 # IUPnPDevice::get_ModelName

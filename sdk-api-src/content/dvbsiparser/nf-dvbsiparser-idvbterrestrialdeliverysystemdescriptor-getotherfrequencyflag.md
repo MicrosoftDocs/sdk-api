@@ -7,7 +7,7 @@ old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getotherfrequencyflag
 tech.root: mstv
 ms.assetid: 1462004c-7605-430e-bf9a-beb1776adb6c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetOtherFrequencyFlag, GetOtherFrequencyFlag method [Microsoft TV Technologies], GetOtherFrequencyFlag method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetOtherFrequencyFlag method, IDvbTerrestrialDeliverySystemDescriptor.GetOtherFrequencyFlag, IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag, IDvbTerrestrialDeliverySystemDescriptorGetOtherFrequencyFlag, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag, mstv.idvbterrestrialdeliverysystemdescriptor_getotherfrequencyflag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDvbTerrestrialDeliverySystemDescriptor.GetOtherFrequencyFlag
-: 
 ---
 
 # IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag

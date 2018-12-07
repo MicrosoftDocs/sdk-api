@@ -7,7 +7,7 @@ old-location: automat\registeractiveobject.htm
 tech.root: automat
 ms.assetid: ba15bb69-7b65-47ea-b938-f235e3d9f9ee
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RegisterActiveObject, RegisterActiveObject function [Automation], _oa96_RegisterActiveObject, automat.registeractiveobject, oleauto/RegisterActiveObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegisterActiveObject
-: 
 ---
 
 # RegisterActiveObject function

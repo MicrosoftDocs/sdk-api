@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionevents_onconnectcomplete.htm
 tech.root: mbn
 ms.assetid: d770eda5-43f4-44d3-a870-fc54f9374610
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: E_MBN_ACTIVE_CONNECTION, E_MBN_INVALID_ACCESS_STRING, E_MBN_MAX_ACTIVATED_CONTEXTS, E_MBN_PACKET_SVC_DETACHED, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_RADIO_POWER_OFF, E_MBN_SERVICE_NOT_ACTIVATED, E_MBN_SIM_NOT_INSERTED, E_MBN_VOICE_CALL_IN_PROGRESS, HRESULT_FROM_WIN32(ERROR_INVALID_PASSWORD), IMbnConnectionEvents interface [Microsoft Broadband Networks],OnConnectComplete method, IMbnConnectionEvents.OnConnectComplete, IMbnConnectionEvents::OnConnectComplete, OnConnectComplete, OnConnectComplete method [Microsoft Broadband Networks], OnConnectComplete method [Microsoft Broadband Networks],IMbnConnectionEvents interface, S_OK, mbn.imbnconnectionevents_onconnectcomplete, mbnapi/IMbnConnectionEvents::OnConnectComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnConnectionEvents.OnConnectComplete
-: 
 ---
 
 # IMbnConnectionEvents::OnConnectComplete

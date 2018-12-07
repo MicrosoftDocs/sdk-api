@@ -4,10 +4,10 @@ title: ITAgent::get_User
 author: windows-sdk-content
 description: The get_User method gets the agent user name, which is the same as the operating system user login or e-mail name.
 old-location: tapi3\itagent_get_user.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 6949fdb0-5841-4473-bb50-2ea598a71576
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_User method, ITAgent.get_User, ITAgent::get_User, _tapi3_itagent_get_user, get_User, get_User method [TAPI 2.2], get_User method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_user, tapi3cc/ITAgent::get_User
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3.h
-: 
-- ITAgent.get_User
-: 
 ---
 
 # ITAgent::get_User

@@ -4,10 +4,10 @@ title: "_CMC_ADD_ATTRIBUTES_INFO"
 author: windows-sdk-content
 description: Contains certificate attributes to be added to a certificate.
 old-location: security\cmc_add_attributes_info.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: fd13cd2b-b818-41ca-85be-d51b864194df
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCMC_ADD_ATTRIBUTES_INFO, CMC_ADD_ATTRIBUTES_INFO, CMC_ADD_ATTRIBUTES_INFO structure [Security], PCMC_ADD_ATTRIBUTES_INFO, PCMC_ADD_ATTRIBUTES_INFO structure pointer [Security], _CMC_ADD_ATTRIBUTES_INFO, _crypto2_cmc_add_attributes_info, security.cmc_add_attributes_info, wincrypt/CMC_ADD_ATTRIBUTES_INFO, wincrypt/PCMC_ADD_ATTRIBUTES_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

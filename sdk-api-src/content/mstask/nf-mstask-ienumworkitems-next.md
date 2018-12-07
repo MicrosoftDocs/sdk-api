@@ -4,10 +4,10 @@ title: IEnumWorkItems::Next
 author: windows-sdk-content
 description: Retrieves the next specified number of tasks in the enumeration sequence.
 old-location: taskschd\ienumworkitems_next.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: a606e340-33fb-4a51-acdd-b7428c755ac5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumWorkItems interface [Task Scheduler],Next method, IEnumWorkItems.Next, IEnumWorkItems::Next, Next, Next method [Task Scheduler], Next method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_next, mstask/IEnumWorkItems::Next, taskschd.ienumworkitems_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IEnumWorkItems.Next
-: 
 ---
 
 # IEnumWorkItems::Next

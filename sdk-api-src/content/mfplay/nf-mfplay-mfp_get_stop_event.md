@@ -7,7 +7,7 @@ old-location: mf\mfp_get_stop_event.htm
 tech.root: medfound
 ms.assetid: 3ca3fa23-1abf-49fc-96e3-f094b483c78f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MFP_GET_STOP_EVENT, MFP_GET_STOP_EVENT macro [Media Foundation], mf.mfp_get_stop_event, mfplay/MFP_GET_STOP_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- mfplay.h
-: 
-- MFP_GET_STOP_EVENT
-: 
 ---
 
 # MFP_GET_STOP_EVENT macro

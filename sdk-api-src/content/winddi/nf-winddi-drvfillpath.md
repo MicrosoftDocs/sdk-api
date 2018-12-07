@@ -7,7 +7,7 @@ old-location: display\drvfillpath.htm
 tech.root: display
 ms.assetid: 6f499d08-d2a1-46d0-b931-e6c16c4e1d3a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DrvFillPath, DrvFillPath function [Display Devices], ddifncs_176fcd15-80b2-49da-a11d-a1ed5ca67201.xml, display.drvfillpath, winddi/DrvFillPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DrvFillPath
-: 
 ---
 
 # DrvFillPath function

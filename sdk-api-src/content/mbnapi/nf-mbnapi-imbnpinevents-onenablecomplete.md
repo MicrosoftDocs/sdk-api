@@ -7,7 +7,7 @@ old-location: mbn\imbnpinevents_onenablecomplete.htm
 tech.root: mbn
 ms.assetid: 577ba161-dbde-4541-8098-72ab682e548b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_FAILURE, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnEnableComplete method, IMbnPinEvents.OnEnableComplete, IMbnPinEvents::OnEnableComplete, OnEnableComplete, OnEnableComplete method [Microsoft Broadband Networks], OnEnableComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_onenablecomplete, mbnapi/IMbnPinEvents::OnEnableComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnPinEvents.OnEnableComplete
-: 
 ---
 
 # IMbnPinEvents::OnEnableComplete

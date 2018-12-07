@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_isended.htm
 tech.root: medfound
 ms.assetid: 0760707C-B25E-44FF-9263-6B59BF43A98E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsEnded method, IMFMediaEngine.IsEnded, IMFMediaEngine::IsEnded, IsEnded, IsEnded method [Media Foundation], IsEnded method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_isended, mfmediaengine/IMFMediaEngine::IsEnded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfmediaengine.h
-: 
-- IMFMediaEngine.IsEnded
-: 
 ---
 
 # IMFMediaEngine::IsEnded

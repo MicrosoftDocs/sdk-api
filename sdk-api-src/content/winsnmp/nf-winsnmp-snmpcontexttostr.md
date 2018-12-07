@@ -7,7 +7,7 @@ old-location: snmp\snmpcontexttostr.htm
 tech.root: SNMP
 ms.assetid: d82c352d-8685-4276-b58c-ce89557f074a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpContextToStr, SnmpContextToStr function [SNMP], _snmp_snmpcontexttostr, snmp.snmpcontexttostr, winsnmp/SnmpContextToStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpContextToStr
-: 
 ---
 
 # SnmpContextToStr function

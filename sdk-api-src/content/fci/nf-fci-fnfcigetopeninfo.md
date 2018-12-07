@@ -4,10 +4,10 @@ title: FNFCIGETOPENINFO macro
 author: windows-sdk-content
 description: The FNFCIGETOPENINFO macro provides the declaration for the application-defined callback function to open a file and retrieve file date, time, and attribute.
 old-location: winprog\fnfcigetopeninfo.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 5baccb69-7872-4d67-ad74-70cdd7459f8d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FNFCIGETOPENINFO, FNFCIGETOPENINFO macro [Windows API], fci/FNFCIGETOPENINFO, winprog.fnfcigetopeninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- fci.h
-: 
-- FNFCIGETOPENINFO
-: 
 ---
 
 # FNFCIGETOPENINFO macro

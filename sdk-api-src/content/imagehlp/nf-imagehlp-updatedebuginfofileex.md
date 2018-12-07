@@ -4,10 +4,10 @@ title: UpdateDebugInfoFileEx function
 author: windows-sdk-content
 description: Uses the specified extended information to update the corresponding fields in the symbol file.
 old-location: base\updatedebuginfofileex.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 67da28db-1566-4d12-8090-9f38fdfd246e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: UpdateDebugInfoFileEx, UpdateDebugInfoFileEx function, _win32_updatedebuginfofileex, base.updatedebuginfofileex, imagehlp/UpdateDebugInfoFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UpdateDebugInfoFileEx
-: 
 ---
 
 # UpdateDebugInfoFileEx function

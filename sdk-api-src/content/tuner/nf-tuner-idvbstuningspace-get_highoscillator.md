@@ -7,7 +7,7 @@ old-location: mstv\idvbstuningspace_get_highoscillator.htm
 tech.root: mstv
 ms.assetid: e3b70684-5066-411e-9946-ccfc1efa3e7c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_HighOscillator method, IDVBSTuningSpace.get_HighOscillator, IDVBSTuningSpace::get_HighOscillator, IDVBSTuningSpaceget_HighOscillator, get_HighOscillator, get_HighOscillator method [Microsoft TV Technologies], get_HighOscillator method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_highoscillator, tuner/IDVBSTuningSpace::get_HighOscillator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IDVBSTuningSpace.get_HighOscillator
-: 
 ---
 
 # IDVBSTuningSpace::get_HighOscillator

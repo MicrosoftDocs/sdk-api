@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_getnoisereduction.htm
 tech.root: wic
 ms.assetid: 38dee560-16c1-4a91-8a8d-ed42dcdbb9ff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetNoiseReduction, GetNoiseReduction method [Windows Imaging Component], GetNoiseReduction method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetNoiseReduction method, IWICDevelopRaw.GetNoiseReduction, IWICDevelopRaw::GetNoiseReduction, _wic_codec_iwicdevelopraw_getnoisereduction, wic._wic_codec_iwicdevelopraw_getnoisereduction, wincodec/IWICDevelopRaw::GetNoiseReduction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodec.h
-: 
-- IWICDevelopRaw.GetNoiseReduction
-: 
 ---
 
 # IWICDevelopRaw::GetNoiseReduction

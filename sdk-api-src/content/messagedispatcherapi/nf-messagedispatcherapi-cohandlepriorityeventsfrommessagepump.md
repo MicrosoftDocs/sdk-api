@@ -7,7 +7,7 @@ old-location: com\cohandlepriorityeventsfrommessagepump.htm
 tech.root: com
 ms.assetid: 24EA766D-82F8-4E57-AAB8-A06ECE644319
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CoHandlePriorityEventsFromMessagePump, CoHandlePriorityEventsFromMessagePump function [COM], com.cohandlepriorityeventsfrommessagepump, messagedispatcherapi/CoHandlePriorityEventsFromMessagePump
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoHandlePriorityEventsFromMessagePump
-: 
 ---
 
 # CoHandlePriorityEventsFromMessagePump function

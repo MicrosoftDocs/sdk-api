@@ -4,10 +4,10 @@ title: ADsFreeEnumerator function
 author: windows-sdk-content
 description: Frees an enumerator object created with the ADsBuildEnumerator function.
 old-location: adsi\adsfreeenumerator.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 0ac13320-c0c2-45e3-b1c0-b4bf6c7e5315
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADsFreeEnumerator, ADsFreeEnumerator function [ADSI], _ds_adsfreeenumerator, adshlp/ADsFreeEnumerator, adsi.adsfreeenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ADsFreeEnumerator
-: 
 ---
 
 # ADsFreeEnumerator function

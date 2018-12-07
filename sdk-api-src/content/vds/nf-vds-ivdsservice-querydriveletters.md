@@ -4,10 +4,10 @@ title: IVdsService::QueryDriveLetters
 author: windows-sdk-content
 description: Returns property details for a set of drive letters.
 old-location: base\ivdsservice_querydriveletters.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: e9e9f8b0-963f-4c57-9553-8b9241317b55
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsService interface [VDS],QueryDriveLetters method, IVdsService.QueryDriveLetters, IVdsService::QueryDriveLetters, QueryDriveLetters, QueryDriveLetters method [VDS], QueryDriveLetters method [VDS],IVdsService interface, base.ivdsservice_querydriveletters, vds/IVdsService::QueryDriveLetters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsService.QueryDriveLetters
-: 
 ---
 
 # IVdsService::QueryDriveLetters

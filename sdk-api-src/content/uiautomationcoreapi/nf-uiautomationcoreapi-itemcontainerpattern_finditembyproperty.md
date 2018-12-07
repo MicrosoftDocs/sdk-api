@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ItemContainerPattern_FindItemByProperty.htm
 tech.root: WinAuto
 ms.assetid: ffad2cd6-fcf8-436d-888e-1092ba6c3e76
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ItemContainerPattern_FindItemByProperty, ItemContainerPattern_FindItemByProperty function [Windows Accessibility], uiauto.uiauto_ItemContainerPattern_FindItemByProperty, uiauto_ItemContainerPattern_FindItemByProperty, uiautomationcoreapi/ItemContainerPattern_FindItemByProperty, winauto.uiauto_ItemContainerPattern_FindItemByProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ItemContainerPattern_FindItemByProperty
-: 
 ---
 
 # ItemContainerPattern_FindItemByProperty function

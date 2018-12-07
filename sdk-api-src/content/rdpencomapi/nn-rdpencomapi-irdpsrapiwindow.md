@@ -4,10 +4,10 @@ title: IRDPSRAPIWindow
 author: windows-sdk-content
 description: Represents a one-to-one mapping to a sharable window.
 old-location: rdp\irdpsrapiwindow.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 85c8263b-e796-4748-b8e5-6315e5937861
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], IRDPSRAPIWindow interface [RDP],described, rdp.irdpsrapiwindow, rdpencomapi/IRDPSRAPIWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

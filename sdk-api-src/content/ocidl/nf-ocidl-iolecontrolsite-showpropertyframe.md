@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_showpropertyframe.htm
 tech.root: com
 ms.assetid: 88421303-8f90-4ff3-90e4-74cb6d64a541
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IOleControlSite interface [COM],ShowPropertyFrame method, IOleControlSite.ShowPropertyFrame, IOleControlSite::ShowPropertyFrame, ShowPropertyFrame, ShowPropertyFrame method [COM], ShowPropertyFrame method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_showpropertyframe, com.iolecontrolsite_showpropertyframe, ocidl/IOleControlSite::ShowPropertyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ocidl.h
-: 
-- IOleControlSite.ShowPropertyFrame
-: 
 ---
 
 # IOleControlSite::ShowPropertyFrame

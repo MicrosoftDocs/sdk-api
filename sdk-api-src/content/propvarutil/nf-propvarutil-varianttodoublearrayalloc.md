@@ -7,7 +7,7 @@ old-location: properties\VariantToDoubleArrayAlloc.htm
 tech.root: properties
 ms.assetid: 334d192e-7f63-47b4-88d4-9361e679cb15
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToDoubleArrayAlloc, VariantToDoubleArrayAlloc function [Windows Properties], _shell_VariantToDoubleArrayAlloc, properties.VariantToDoubleArrayAlloc, propvarutil/VariantToDoubleArrayAlloc, shell.VariantToDoubleArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToDoubleArrayAlloc
-: 
 ---
 
 # VariantToDoubleArrayAlloc function

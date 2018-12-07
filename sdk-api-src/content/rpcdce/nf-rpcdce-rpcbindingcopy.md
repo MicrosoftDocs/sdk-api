@@ -4,10 +4,10 @@ title: RpcBindingCopy function
 author: windows-sdk-content
 description: The RpcBindingCopy function copies binding information and creates a new binding handle.
 old-location: rpc\rpcbindingcopy.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 835cac4b-9cf8-463a-8eff-d08bbee5f98e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RpcBindingCopy, RpcBindingCopy function [RPC], _rpc_rpcbindingcopy, rpc.rpcbindingcopy, rpcdce/RpcBindingCopy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcBindingCopy
-: 
 ---
 
 # RpcBindingCopy function

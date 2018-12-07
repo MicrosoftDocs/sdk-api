@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_counter_type.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_counter_type.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D10_COUNTER_TYPE, D3D10_COUNTER_TYPE enumeration [Direct3D 10], D3D10_COUNTER_TYPE_FLOAT32, D3D10_COUNTER_TYPE_UINT16, D3D10_COUNTER_TYPE_UINT32, D3D10_COUNTER_TYPE_UINT64, bb9961cd-e7cc-f750-99c8-f051bdeb0f36, d3d10/D3D10_COUNTER_TYPE, d3d10/D3D10_COUNTER_TYPE_FLOAT32, d3d10/D3D10_COUNTER_TYPE_UINT16, d3d10/D3D10_COUNTER_TYPE_UINT32, d3d10/D3D10_COUNTER_TYPE_UINT64, direct3d10.d3d10_counter_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

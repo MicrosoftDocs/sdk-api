@@ -7,7 +7,7 @@ old-location: base\adddlldirectory.htm
 tech.root: Dlls
 ms.assetid: 7eb49bdf-58f9-4520-876b-c8b69bf26b8a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddDllDirectory, AddDllDirectory function, base.adddlldirectory, libloaderapi/AddDllDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AddDllDirectory
-: 
 ---
 
 # AddDllDirectory function

@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_getmediatype.htm
 tech.root: DirectShow
 ms.assetid: 40a2640e-aaeb-44f2-a772-2deda2fd3999
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetMediaType method, IAMMediaTypeSample.GetMediaType, IAMMediaTypeSample::GetMediaType, IAMMediaTypeSampleGetMediaType, amstream/IAMMediaTypeSample::GetMediaType, dshow.iammediatypesample_getmediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- amstream.h
-: 
-- IAMMediaTypeSample.GetMediaType
-: 
 ---
 
 # IAMMediaTypeSample::GetMediaType

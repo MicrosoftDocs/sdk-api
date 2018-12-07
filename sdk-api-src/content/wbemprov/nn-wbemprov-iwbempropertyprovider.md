@@ -7,7 +7,7 @@ old-location: wmi\iwbempropertyprovider.htm
 tech.root: WmiSdk
 ms.assetid: 8a7910ae-4258-4486-80ff-82b1081083cc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWbemPropertyProvider, IWbemPropertyProvider interface [Windows Management Instrumentation], IWbemPropertyProvider interface [Windows Management Instrumentation],described, _hmm_iwbempropertyprovider, wbemprov/IWbemPropertyProvider, wmi.iwbempropertyprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

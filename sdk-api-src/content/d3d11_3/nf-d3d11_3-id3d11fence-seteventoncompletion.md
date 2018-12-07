@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11fence_seteventoncompletion.htm
 tech.root: direct3d11
 ms.assetid: 255FF723-85FA-4230-B751-B5F52A6F8EBB
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11Fence interface [Direct3D 11],SetEventOnCompletion method, ID3D11Fence.SetEventOnCompletion, ID3D11Fence::SetEventOnCompletion, SetEventOnCompletion, SetEventOnCompletion method [Direct3D 11], SetEventOnCompletion method [Direct3D 11],ID3D11Fence interface, d3d11_3/ID3D11Fence::SetEventOnCompletion, direct3d11.id3d11fence_seteventoncompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11_3.h
-: 
-- ID3D11Fence.SetEventOnCompletion
-: 
 ---
 
 # ID3D11Fence::SetEventOnCompletion

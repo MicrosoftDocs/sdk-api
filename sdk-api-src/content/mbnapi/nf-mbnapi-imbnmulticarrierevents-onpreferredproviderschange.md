@@ -7,7 +7,7 @@ old-location: mbn\imbnmulticarrierevents_onpreferredproviderschange.htm
 tech.root: mbn
 ms.assetid: B2E7C42B-32B0-47D1-AA88-8A22B379B500
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnPreferredProvidersChange method, IMbnMultiCarrierEvents.OnPreferredProvidersChange, IMbnMultiCarrierEvents::OnPreferredProvidersChange, OnPreferredProvidersChange, OnPreferredProvidersChange method [Microsoft Broadband Networks], OnPreferredProvidersChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_onpreferredproviderschange, mbnapi/IMbnMultiCarrierEvents::OnPreferredProvidersChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnMultiCarrierEvents.OnPreferredProvidersChange
-: 
 ---
 
 # IMbnMultiCarrierEvents::OnPreferredProvidersChange

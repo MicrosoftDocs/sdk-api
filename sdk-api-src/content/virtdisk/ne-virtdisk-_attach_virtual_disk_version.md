@@ -7,7 +7,7 @@ old-location: vhd\attach_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 2cd4fda7-a005-49c6-a525-81b7605a189a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ATTACH_VIRTUAL_DISK_VERSION, ATTACH_VIRTUAL_DISK_VERSION enumeration [VHD], ATTACH_VIRTUAL_DISK_VERSION_1, ATTACH_VIRTUAL_DISK_VERSION_UNSPECIFIED, _ATTACH_VIRTUAL_DISK_VERSION, vdssys/ATTACH_VIRTUAL_DISK_VERSION, vdssys/ATTACH_VIRTUAL_DISK_VERSION_1, vdssys/ATTACH_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.attach_virtual_disk_version, vhd.surface_virtual_disk_version, virtdisk/ATTACH_VIRTUAL_DISK_VERSION, virtdisk/ATTACH_VIRTUAL_DISK_VERSION_1, virtdisk/ATTACH_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices

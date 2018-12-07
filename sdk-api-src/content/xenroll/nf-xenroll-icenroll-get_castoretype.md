@@ -4,10 +4,10 @@ title: ICEnroll::get_CAStoreType
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the CAStoreName property.
 old-location: security\icenroll4_castoretype.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 8b0b113d-4046-4b2b-8f3b-ad08bfe3d0ac
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CAStoreType property [Security], CAStoreType property [Security],CEnroll object, CAStoreType property [Security],ICEnroll interface, CAStoreType property [Security],ICEnroll2 interface, CAStoreType property [Security],ICEnroll3 interface, CAStoreType property [Security],ICEnroll4 interface, CEnroll object [Security],CAStoreType property, ICEnroll interface [Security],CAStoreType property, ICEnroll.CAStoreType, ICEnroll.get_CAStoreType, ICEnroll2 interface [Security],CAStoreType property, ICEnroll2.CAStoreType, ICEnroll2::get_CAStoreType, ICEnroll2::put_CAStoreType, ICEnroll3 interface [Security],CAStoreType property, ICEnroll3.CAStoreType, ICEnroll3::get_CAStoreType, ICEnroll3::put_CAStoreType, ICEnroll4 interface [Security],CAStoreType property, ICEnroll4.CAStoreType, ICEnroll4::CAStoreType, ICEnroll4::get_CAStoreType, ICEnroll4::put_CAStoreType, ICEnroll::get_CAStoreType, ICEnroll::put_CAStoreType, get_CAStoreType, security.icenroll4_castoretype, sz_CERT_STORE_PROV_SYSTEM, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/ICEnroll2::CAStoreType, xenroll/ICEnroll2::get_CAStoreType, xenroll/ICEnroll2::put_CAStoreType, xenroll/ICEnroll3::CAStoreType, xenroll/ICEnroll3::get_CAStoreType, xenroll/ICEnroll3::put_CAStoreType, xenroll/ICEnroll4::CAStoreType, xenroll/ICEnroll4::get_CAStoreType, xenroll/ICEnroll4::put_CAStoreType, xenroll/ICEnroll::CAStoreType, xenroll/ICEnroll::get_CAStoreType, xenroll/ICEnroll::put_CAStoreType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,14 +54,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- ICEnroll.get_CAStoreType
-: 
 ---
 
 # ICEnroll::get_CAStoreType

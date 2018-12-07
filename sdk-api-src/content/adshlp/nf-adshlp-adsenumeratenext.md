@@ -4,10 +4,10 @@ title: ADsEnumerateNext function
 author: windows-sdk-content
 description: The ADsEnumerateNext function enumerates through a specified number of elements from the current cursor position of the enumerator.
 old-location: adsi\adsenumeratenext.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 9bfc98a5-f4f0-4127-89c9-b8ed01bfde4e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADsEnumerateNext, ADsEnumerateNext function [ADSI], _ds_adsenumeratenext, adshlp/ADsEnumerateNext, adsi.adsenumeratenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ADsEnumerateNext
-: 
 ---
 
 # ADsEnumerateNext function

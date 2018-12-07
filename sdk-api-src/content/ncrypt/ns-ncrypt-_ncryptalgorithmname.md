@@ -7,7 +7,7 @@ old-location: security\ncryptalgorithmname_struct.htm
 tech.root: seccng
 ms.assetid: 79b0193e-3be8-46ce-a422-40ed9698363f
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: NCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, NCRYPT_SECRET_AGREEMENT_INTERFACE, NCRYPT_SECRET_AGREEMENT_OPERATION, NCRYPT_SIGNATURE_INTERFACE, NCRYPT_SIGNATURE_OPERATION, NCryptAlgorithmName, NCryptAlgorithmName structure [Security], _NCryptAlgorithmName, ncrypt/NCryptAlgorithmName, security.ncryptalgorithmname_struct
 ms.prod: windows-hardware
 ms.technology: windows-devices

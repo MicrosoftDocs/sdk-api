@@ -4,10 +4,10 @@ title: IWEExtendWizard
 author: windows-sdk-content
 description: Implement the IWEExtendWizard interface to add wizard pages to Failover Cluster Administrator's New Resource Wizard or Cluster Application Wizard.
 old-location: mscs\iweextendwizard.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 6407163e-a8ca-4601-88a0-ecf87e29b9ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWEExtendWizard, IWEExtendWizard interface [Failover Cluster], IWEExtendWizard interface [Failover Cluster],described, _wolf_iweextendwizard, cluadmex/IWEExtendWizard, mscs.iweextendwizard
 ms.prod: windows-hardware
 ms.technology: windows-devices

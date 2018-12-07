@@ -7,7 +7,7 @@ old-location: com\oleregenumverbs.htm
 tech.root: com
 ms.assetid: 25cd0876-90b6-4fa3-b180-ffa0c3b51497
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: OleRegEnumVerbs, OleRegEnumVerbs function [COM], _ole_OleRegEnumVerbs, com.oleregenumverbs, ole2/OleRegEnumVerbs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OleRegEnumVerbs
-: 
 ---
 
 # OleRegEnumVerbs function

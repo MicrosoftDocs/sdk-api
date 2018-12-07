@@ -7,7 +7,7 @@ old-location: display\floatobj_add.htm
 tech.root: display
 ms.assetid: 6502d863-ab3e-46d2-8da4-c2f1b01fe344
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FLOATOBJ_Add, FLOATOBJ_Add function [Display Devices], display.floatobj_add, gdifncs_484fa853-6c4e-4bc1-95a3-7f7b40828fcc.xml, winddi/FLOATOBJ_Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FLOATOBJ_Add
-: 
 ---
 
 # FLOATOBJ_Add function

@@ -4,10 +4,10 @@ title: IX509Extensions::get_IndexByObjectId
 author: windows-sdk-content
 description: Retrieves the index of an extension in the collection by object identifier (OID).
 old-location: security\ix509extensions_indexbyobjectid_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 1048c1d8-11f9-4a44-a492-0518cb1782c6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509Extensions interface [Security],IndexByObjectId property, IX509Extensions.IndexByObjectId, IX509Extensions.get_IndexByObjectId, IX509Extensions::IndexByObjectId, IX509Extensions::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security],IX509Extensions interface, certenroll/IX509Extensions::IndexByObjectId, certenroll/IX509Extensions::get_IndexByObjectId, get_IndexByObjectId, security.ix509extensions_indexbyobjectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509Extensions.get_IndexByObjectId
-: 
 ---
 
 # IX509Extensions::get_IndexByObjectId

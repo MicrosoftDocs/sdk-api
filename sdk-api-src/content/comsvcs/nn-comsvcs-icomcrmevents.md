@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents.htm
 tech.root: cossdk
 ms.assetid: 720beffb-8fb5-4c87-9bcf-6db214543b01
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], IComCRMEvents interface [COM+],described, _dtc_icomcrmevents, comsvcs/IComCRMEvents, cos.icomcrmevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

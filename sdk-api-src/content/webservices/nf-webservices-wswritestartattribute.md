@@ -7,7 +7,7 @@ old-location: wsw\wswritestartattribute.htm
 tech.root: wsw
 ms.assetid: 9fd1eed9-6d8b-4b2e-a7ad-54a7f584734f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsWriteStartAttribute, WsWriteStartAttribute function [Web Services for Windows], webservices/WsWriteStartAttribute, wsw.wswritestartattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsWriteStartAttribute
-: 
 ---
 
 # WsWriteStartAttribute function

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetalloptionsv6.htm
 tech.root: DHCP
 ms.assetid: 66a49f05-66ab-489d-abd7-b9f0bbe5a7cc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetAllOptionsV6, DhcpGetAllOptionsV6 function [DHCP], dhcp.dhcpgetalloptionsv6, dhcpsapi/DhcpGetAllOptionsV6
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpGetAllOptionsV6
-: 
 ---
 
 # DhcpGetAllOptionsV6 function

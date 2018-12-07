@@ -7,7 +7,7 @@ old-location: automat\geterrorinfo.htm
 tech.root: automat
 ms.assetid: 03317526-8c4f-4173-bc10-110c8112676a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetErrorInfo, GetErrorInfo function [Automation], _oa96_GetErrorInfo, automat.geterrorinfo, oleauto/GetErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetErrorInfo
-: 
 ---
 
 # GetErrorInfo function

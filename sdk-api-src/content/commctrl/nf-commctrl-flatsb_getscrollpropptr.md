@@ -4,10 +4,10 @@ title: FlatSB_GetScrollPropPtr function
 author: windows-sdk-content
 description: Gets the properties for a flat scroll bar.
 old-location: controls\FlatSB_GetScrollPropPtr.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollpropptr.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FlatSB_GetScrollPropPtr, FlatSB_GetScrollPropPtr function [Windows Controls], WSB_PROP_CXHSCROLL, WSB_PROP_CXHTHUMB, WSB_PROP_CXVSCROLL, WSB_PROP_CYHSCROLL, WSB_PROP_CYVSCROLL, WSB_PROP_CYVTHUMB, WSB_PROP_HBKGCOLOR, WSB_PROP_HSTYLE, WSB_PROP_PALETTE, WSB_PROP_VBKGCOLOR, WSB_PROP_VSTYLE, WSB_PROP_WINSTYLE, _win32_FlatSB_GetScrollPropPtr, _win32_FlatSB_GetScrollPropPtr_cpp, commctrl/FlatSB_GetScrollPropPtr, controls.FlatSB_GetScrollPropPtr, controls._win32_FlatSB_GetScrollPropPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FlatSB_GetScrollPropPtr
-: 
 ---
 
 # FlatSB_GetScrollPropPtr function

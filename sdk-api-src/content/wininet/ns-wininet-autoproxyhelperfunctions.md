@@ -4,10 +4,10 @@ title: AutoProxyHelperFunctions
 author: windows-sdk-content
 description: The AutoProxyHelperFunctions structure is used create a v-table of Proxy Auto-Config functions that can be passed to InternetInitializeAutoProxyDll.
 old-location: wininet\autoproxyhelperfunctions.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 00574c2a-d72f-4744-82b7-3a980af59427
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AutoProxyHelperFunctions, AutoProxyHelperFunctions structure [WinINet], wininet.autoproxyhelperfunctions, wininet/AutoProxyHelperFunctions
 ms.prod: windows-hardware
 ms.technology: windows-devices

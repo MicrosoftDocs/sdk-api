@@ -4,10 +4,10 @@ title: CreateDispatcherQueueController function
 author: windows-sdk-content
 description: Creates a DispatcherQueueController on the caller's thread. Use the created DispatcherQueueController to create and manage the lifetime of a DispatcherQueue to run queued tasks in priority order on the Dispatcher queue's thread.
 old-location: base\createdispatcherqueuecontroller.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 750097BB-C4D1-4579-9353-582124D5CE3B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateDispatcherQueueController, CreateDispatcherQueueController function, base.createdispatcherqueuecontroller, dispatcherqueue/CreateDispatcherQueueController
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateDispatcherQueueController
-: 
 ---
 
 # CreateDispatcherQueueController function

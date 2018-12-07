@@ -4,10 +4,10 @@ title: IGPMStarterGPOBackupCollection::get_Item
 author: windows-sdk-content
 description: Given an index, returns an GPMStarterGPOBackup object from the collection.
 old-location: gpmc\igpmstartergpobackupcollection_get_item.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 295b00ed-856e-4199-8b93-7c676a5ab8bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IGPMStarterGPOBackupCollection interface [GPMC],Item property, IGPMStarterGPOBackupCollection.Item, IGPMStarterGPOBackupCollection.get_Item, IGPMStarterGPOBackupCollection::Item, IGPMStarterGPOBackupCollection::get_Item, Item property [GPMC], Item property [GPMC],IGPMStarterGPOBackupCollection interface, get_Item, gpmc.igpmstartergpobackupcollection_get_item, gpmgmt/IGPMStarterGPOBackupCollection::Item, gpmgmt/IGPMStarterGPOBackupCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: GPMC on Windows Server 2008 or Windows Vista
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMStarterGPOBackupCollection.get_Item
-: 
 ---
 
 # IGPMStarterGPOBackupCollection::get_Item

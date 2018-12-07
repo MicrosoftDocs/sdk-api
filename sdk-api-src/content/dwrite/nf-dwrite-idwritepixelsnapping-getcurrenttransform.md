@@ -7,7 +7,7 @@ old-location: directwrite\IDWritePixelSnapping_GetCurrentTransform.htm
 tech.root: DirectWrite
 ms.assetid: d3cfbea6-c240-47e9-a072-a59626e39ee9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurrentTransform, GetCurrentTransform method [Direct Write], GetCurrentTransform method [Direct Write],IDWritePixelSnapping interface, IDWritePixelSnapping interface [Direct Write],GetCurrentTransform method, IDWritePixelSnapping.GetCurrentTransform, IDWritePixelSnapping::GetCurrentTransform, directwrite.IDWritePixelSnapping_GetCurrentTransform, dwrite/IDWritePixelSnapping::GetCurrentTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWritePixelSnapping.GetCurrentTransform
-: 
 ---
 
 # IDWritePixelSnapping::GetCurrentTransform

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_font
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors\font_74familyname_emsize_style_unit_fontcolle.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Font, Font class [GDI+],Font constructor, Font constructor [GDI+], Font constructor [GDI+],Font class, Font.Font, Font.Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection), Font.Font(const WCHAR*,REAL,INT,Unit,const FontCollection*), Font::Font, Font::Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection), _gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_, gdiplus._gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusheaders.h
-: 
-- Font.Font
-: 
 req.product: GDI+ 1.0
 ---
 

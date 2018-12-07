@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_getcredentialscount.htm
 tech.root: wmi_v2
 ms.assetid: 6d9286ac-70e0-4290-8cbf-11514510dcdb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetCredentialsCount, MI_SubscriptionDeliveryOptions_GetCredentialsCount function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetCredentialsCount, wmi_v2.mi_subscriptiondeliveryoptions_getcredentialscount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_SubscriptionDeliveryOptions_GetCredentialsCount
-: 
 ---
 
 # MI_SubscriptionDeliveryOptions_GetCredentialsCount function

@@ -7,7 +7,7 @@ old-location: iphlp\addipaddress.htm
 tech.root: IpHlp
 ms.assetid: 669264cd-a43c-4681-9416-2704d4232685
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddIPAddress, AddIPAddress function [IP Helper], _iphlp_addipaddress, iphlp.addipaddress, iphlpapi/AddIPAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AddIPAddress
-: 
 ---
 
 # AddIPAddress function

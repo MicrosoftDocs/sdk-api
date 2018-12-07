@@ -4,10 +4,10 @@ title: IFunctionDiscoveryProvider::InstanceReleased
 author: windows-sdk-content
 description: Releases the specified function instance and frees the memory previously allocated.
 old-location: ncd\ifunctiondiscoveryprovider_instancereleased.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: fa348767-8a83-4a45-9411-1e9eb545d97d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstanceReleased method, IFunctionDiscoveryProvider.InstanceReleased, IFunctionDiscoveryProvider::InstanceReleased, InstanceReleased, InstanceReleased method, InstanceReleased method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceReleased, ncd.ifunctiondiscoveryprovider_instancereleased
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryprovider.h
-: 
-- IFunctionDiscoveryProvider.InstanceReleased
-: 
 ---
 
 # IFunctionDiscoveryProvider::InstanceReleased

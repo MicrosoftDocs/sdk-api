@@ -2,7 +2,7 @@
 UID: NA:nsemail
 ms.assetid: eaf7ba32-c687-3088-9d7e-e1eadfe0646e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

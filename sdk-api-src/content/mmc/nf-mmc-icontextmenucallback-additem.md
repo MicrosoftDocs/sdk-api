@@ -4,10 +4,10 @@ title: IContextMenuCallback::AddItem
 author: windows-sdk-content
 description: The IContextMenuCallback::AddItem method adds a single item to a context menu.
 old-location: mmc\icontextmenucallback_additem.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 7186f201-13aa-4357-9b89-b435d244229c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AddItem, AddItem method [MMC], AddItem method [MMC],IContextMenuCallback interface, IContextMenuCallback interface [MMC],AddItem method, IContextMenuCallback.AddItem, IContextMenuCallback::AddItem, _slate_icontextmenucallback_additem, mmc.icontextmenucallback_additem, mmc/IContextMenuCallback::AddItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IContextMenuCallback.AddItem
-: 
 ---
 
 # IContextMenuCallback::AddItem

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccounts_cpp_mfax_faxaccounts_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\count.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxAccounts interface, IFaxAccounts interface [Fax Service],Count property, IFaxAccounts.Count, IFaxAccounts.get_Count, IFaxAccounts::Count, IFaxAccounts::get_Count, _mfax_faxaccounts.count, fax._mfax_faxaccounts_count, fax._mfax_faxaccounts_cpp_mfax_faxaccounts_count_cpp, faxcomex/IFaxAccounts::Count, faxcomex/IFaxAccounts::get_Count, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxAccounts.get_Count
-: 
 ---
 
 # IFaxAccounts::get_Count

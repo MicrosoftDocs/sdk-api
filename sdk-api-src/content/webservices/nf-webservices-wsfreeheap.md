@@ -7,7 +7,7 @@ old-location: wsw\wsfreeheap.htm
 tech.root: wsw
 ms.assetid: ec643915-8c4b-4916-b390-d6ca043350db
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsFreeHeap, WsFreeHeap function [Web Services for Windows], webservices/WsFreeHeap, wsw.wsfreeheap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsFreeHeap
-: 
 ---
 
 # WsFreeHeap function

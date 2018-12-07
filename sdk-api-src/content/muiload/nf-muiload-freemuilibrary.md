@@ -7,7 +7,7 @@ old-location: intl\freemuilibrary.htm
 tech.root: Intl
 ms.assetid: 38a0d7cb-46a9-449b-8f7e-4c573e400e75
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FreeMUILibrary, FreeMUILibrary function [Internationalization for Windows Applications], _win32_FreeMUILibrary, intl.freemuilibrary, muiload/FreeMUILibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Muiload.lib, included in theWindows SDKforWindows VistaonWindows 2000 Professional,Windows Me/98/95.  Not supported onWindows NT 4.0
-- apiref
-: 
-- 
-: 
-- FreeMUILibrary
-: 
 ---
 
 # FreeMUILibrary function

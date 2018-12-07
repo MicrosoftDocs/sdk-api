@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0007"
 author: windows-sdk-content
 description: Contains a single signature and the length of the chunk used to generate it.
 old-location: rdc\rdcsignature.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: eca15d66-1d8c-422b-a2ab-7dbe00cb4087
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RdcSignature, RdcSignature structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0007, fs.rdcsignature, msrdc/RdcSignature, rdc.rdcsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

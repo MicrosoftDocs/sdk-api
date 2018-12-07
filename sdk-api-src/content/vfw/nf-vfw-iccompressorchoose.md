@@ -7,7 +7,7 @@ old-location: multimedia\iccompressorchoose.htm
 tech.root: Multimedia
 ms.assetid: 4a58df6a-9ac4-44bb-8c49-338bb60193fc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICCompressorChoose, ICCompressorChoose function [Windows Multimedia], _win32_ICCompressorChoose, multimedia.iccompressorchoose, vfw/ICCompressorChoose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ICCompressorChoose
-: 
 ---
 
 # ICCompressorChoose function

@@ -7,7 +7,7 @@ old-location: iphlp\interface_hardware_crosstimestamp.htm
 tech.root: IpHlp
 ms.assetid: DAEA7430-85C1-4FF5-8F85-C58EDF27BF3D
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PINTERFACE_HARDWARE_CROSSTIMESTAMP, INTERFACE_HARDWARE_CROSSTIMESTAMP, INTERFACE_HARDWARE_CROSSTIMESTAMP structure [IP Helper], PINTERFACE_HARDWARE_CROSSTIMESTAMP, PINTERFACE_HARDWARE_CROSSTIMESTAMP structure pointer [IP Helper], _INTERFACE_HARDWARE_CROSSTIMESTAMP, iphlp.interface_hardware_crosstimestamp, iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP, iphlpapi/PINTERFACE_HARDWARE_CROSSTIMESTAMP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

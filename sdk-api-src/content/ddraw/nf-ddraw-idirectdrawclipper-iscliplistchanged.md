@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawclipper_iscliplistchanged.htm
 tech.root: directdraw
 ms.assetid: d394b638-6015-47d8-89ea-2ed71611ddb3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],IsClipListChanged method, IDirectDrawClipper.IsClipListChanged, IDirectDrawClipper::IsClipListChanged, IsClipListChanged, IsClipListChanged method [DirectDraw], IsClipListChanged method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::IsClipListChanged, directdraw.idirectdrawclipper_iscliplistchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ddraw.h
-: 
-- IDirectDrawClipper.IsClipListChanged
-: 
 ---
 
 # IDirectDrawClipper::IsClipListChanged

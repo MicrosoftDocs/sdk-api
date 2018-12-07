@@ -4,10 +4,10 @@ title: IEnumNetSharingPrivateConnection
 author: windows-sdk-content
 description: The IEnumNetSharingPrivateConnection interface provides methods for enumerating the currently configured privately-shared connections.
 old-location: ics\ienumnetsharingprivateconnection.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 0e4cfa2e-8caa-4258-bd52-1f5a00403dfa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumNetSharingPrivateConnection, IEnumNetSharingPrivateConnection interface [ICS/ICF], IEnumNetSharingPrivateConnection interface [ICS/ICF],described, _ics_ienumnetsharingprivateconnection, ics.ienumnetsharingprivateconnection, netcon/IEnumNetSharingPrivateConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

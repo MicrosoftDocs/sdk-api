@@ -4,10 +4,10 @@ title: IEnumOfflineFilesSettings::Next
 author: windows-sdk-content
 description: Retrieves the next item in the enumeration and advances the enumerator.
 old-location: of\ienumofflinefilessettings_next.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 00230021-6069-4e0b-a3d6-95651aa6e44a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumOfflineFilesSettings interface [Offline Files],Next method, IEnumOfflineFilesSettings.Next, IEnumOfflineFilesSettings::Next, Next, Next method [Offline Files], Next method [Offline Files],IEnumOfflineFilesSettings interface, cscobj/IEnumOfflineFilesSettings::Next, of.ienumofflinefilessettings_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IEnumOfflineFilesSettings.Next
-: 
 ---
 
 # IEnumOfflineFilesSettings::Next

@@ -4,10 +4,10 @@ title: IUpdateSearcher
 author: windows-sdk-content
 description: Searches for updates on a server.
 old-location: wua\iupdatesearcher.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: f41b1689-d9fe-4697-91e9-a176d3b592c7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdateSearcher, IUpdateSearcher interface [Windows Update Agent], IUpdateSearcher interface [Windows Update Agent],described, wua.iupdatesearcher, wuapi/IUpdateSearcher
 ms.prod: windows-hardware
 ms.technology: windows-devices

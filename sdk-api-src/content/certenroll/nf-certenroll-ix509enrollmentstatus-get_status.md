@@ -4,10 +4,10 @@ title: IX509EnrollmentStatus::get_Status
 author: windows-sdk-content
 description: Specifies or retrieves a value that indicates the status of the enrollment process.
 old-location: security\ix509enrollmentstatus_status_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: ca1105eb-a29a-458d-abbb-34c9b67d7c8a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509EnrollmentStatus interface [Security],Status property, IX509EnrollmentStatus.Status, IX509EnrollmentStatus.get_Status, IX509EnrollmentStatus::Status, IX509EnrollmentStatus::get_Status, IX509EnrollmentStatus::put_Status, Status property [Security], Status property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Status, certenroll/IX509EnrollmentStatus::get_Status, certenroll/IX509EnrollmentStatus::put_Status, get_Status, security.ix509enrollmentstatus_status_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509EnrollmentStatus.get_Status
-: 
 ---
 
 # IX509EnrollmentStatus::get_Status

@@ -4,10 +4,10 @@ title: IADsProperty
 author: windows-sdk-content
 description: The IADsProperty interface is designed to manage a single attribute definition for a schema class object.
 old-location: adsi\iadsproperty.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: ebf03974-371b-4bf4-91b4-f137339bd784
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsProperty, IADsProperty interface [ADSI], IADsProperty interface [ADSI],described, _ds_iadsproperty, adsi.iadsproperty, iads/IADsProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

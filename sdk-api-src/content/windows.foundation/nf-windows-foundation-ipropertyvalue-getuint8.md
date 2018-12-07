@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getuint8.htm
 tech.root: WinRT
 ms.assetid: 736B44FF-F5A7-463A-9892-399CB3EC90B4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetUInt8, GetUInt8 method [Windows Runtime], GetUInt8 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt8 method, IPropertyValue.GetUInt8, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt8, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt8, winrt.ipropertyvalue_getuint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- windows.foundation.h
-: 
-- IPropertyValue.GetUInt8
-: 
 ---
 
 # IPropertyValue::IPropertyValue

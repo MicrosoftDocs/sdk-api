@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_pla_0001_0043_0009"
 author: windows-sdk-content
 description: Defines the days of the week on which to run the data collector set.
 old-location: pla\weekdays.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 5246fee3-0536-4525-bab8-5087330a1b49
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: WeekDays, WeekDays enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0009, base.weekdays, pla.weekdays, pla/WeekDays, pla/plaEveryday, pla/plaFriday, pla/plaMonday, pla/plaRunOnce, pla/plaSaturday, pla/plaSunday, pla/plaThursday, pla/plaTuesday, pla/plaWednesday, plaEveryday, plaFriday, plaMonday, plaRunOnce, plaSaturday, plaSunday, plaThursday, plaTuesday, plaWednesday
 ms.prod: windows-hardware
 ms.technology: windows-devices

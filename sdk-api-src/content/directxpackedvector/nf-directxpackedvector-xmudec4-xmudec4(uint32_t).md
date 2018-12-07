@@ -1,17 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUDEC4.XMUDEC4(uint32_t)
-title: XMUDEC4 function
+title: XMUDEC4::XMUDEC4(uint32_t)
 author: windows-sdk-content
 description: Initializes a new instance of XMUDEC4 from a uint32_t variable containing component data in a packed format.
 old-location: dxmath\xmudec4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDEC4.#ctor(uint32_t)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: XMUDEC4 constructor [DirectX Math Support APIs], XMUDEC4 constructor [DirectX Math Support APIs],XMUDEC4 structure, XMUDEC4 structure [DirectX Math Support APIs],XMUDEC4 constructor, XMUDEC4.XMUDEC4(uint32_t), dxmath.xmudec4_ctor_2
+ms.date: 12/5/2018
+ms.keywords: XMUDEC4, XMUDEC4 constructor [DirectX Math Support APIs], XMUDEC4 constructor [DirectX Math Support APIs],XMUDEC4 structure, XMUDEC4 structure [DirectX Math Support APIs],XMUDEC4 constructor, XMUDEC4.XMUDEC4, XMUDEC4.XMUDEC4(uint32_t), XMUDEC4::XMUDEC4, XMUDEC4::XMUDEC4(uint32_t), dxmath.xmudec4_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMUDEC4
-: 
 ---
 
-# XMUDEC4 function
+# XMUDEC4::XMUDEC4(uint32_t)
 
 
 ## -description

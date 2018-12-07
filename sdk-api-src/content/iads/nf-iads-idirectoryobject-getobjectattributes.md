@@ -4,10 +4,10 @@ title: IDirectoryObject::GetObjectAttributes
 author: windows-sdk-content
 description: Retrieves one or more specified attributes of the directory service object.
 old-location: adsi\idirectoryobject_getobjectattributes.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 6e3d046f-eac0-4955-925b-71ab15df9ed3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetObjectAttributes, GetObjectAttributes method [ADSI], GetObjectAttributes method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],GetObjectAttributes method, IDirectoryObject.GetObjectAttributes, IDirectoryObject::GetObjectAttributes, _ds_idirectoryobject_getobjectattributes, adsi.idirectoryobject__getobjectattributes, adsi.idirectoryobject_getobjectattributes, iads/IDirectoryObject::GetObjectAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IDirectoryObject.GetObjectAttributes
-: 
 ---
 
 # IDirectoryObject::GetObjectAttributes

@@ -4,10 +4,10 @@ title: IX509PolicyServerUrl::get_Url
 author: windows-sdk-content
 description: Specifies or retrieves the URL for the certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_url.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: ea45a003-357b-469a-b932-66fa13ae80b1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509PolicyServerUrl interface [Security],Url property, IX509PolicyServerUrl.Url, IX509PolicyServerUrl.get_Url, IX509PolicyServerUrl::Url, IX509PolicyServerUrl::get_Url, IX509PolicyServerUrl::put_Url, Url property [Security], Url property [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::Url, certenroll/IX509PolicyServerUrl::get_Url, certenroll/IX509PolicyServerUrl::put_Url, get_Url, security.ix509policyserverurl_url
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509PolicyServerUrl.get_Url
-: 
 ---
 
 # IX509PolicyServerUrl::get_Url

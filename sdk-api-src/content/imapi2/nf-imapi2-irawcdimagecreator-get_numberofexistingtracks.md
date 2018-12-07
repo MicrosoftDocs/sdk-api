@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_get_numberofexistingtracks.htm
 tech.root: imapi
 ms.assetid: c10053d0-d9c1-4ac0-aa38-71dacf1e4425
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_NumberOfExistingTracks method, IRawCDImageCreator.get_NumberOfExistingTracks, IRawCDImageCreator::get_NumberOfExistingTracks, get_NumberOfExistingTracks, get_NumberOfExistingTracks method [IMAPI], get_NumberOfExistingTracks method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_numberofexistingtracks, imapi2/IRawCDImageCreator::get_NumberOfExistingTracks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IRawCDImageCreator.get_NumberOfExistingTracks
-: 
 ---
 
 # IRawCDImageCreator::get_NumberOfExistingTracks

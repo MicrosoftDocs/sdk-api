@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operation_cancel.htm
 tech.root: wmi_v2
 ms.assetid: 11a9f9f6-9dfa-4f7c-9562-f4793c007f04
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Operation_Cancel, MI_Operation_Cancel function [Windows Management Infrastructure (MI)], mi/MI_Operation_Cancel, wmi_v2.mi_operation_cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_Operation_Cancel
-: 
 ---
 
 # MI_Operation_Cancel function

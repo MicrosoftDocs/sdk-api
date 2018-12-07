@@ -4,10 +4,10 @@ title: MsiFormatRecordA function
 author: windows-sdk-content
 description: The MsiFormatRecord function formats record field data and properties using a format string.
 old-location: setup\msiformatrecord.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 574f51b1-a5cf-46c8-bfa3-449839872cf3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MsiFormatRecord, MsiFormatRecord function, MsiFormatRecordA, MsiFormatRecordW, _msi_msiformatrecord, msiquery/MsiFormatRecord, msiquery/MsiFormatRecordA, msiquery/MsiFormatRecordW, setup.msiformatrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiFormatRecordA
-: 
 ---
 
 # MsiFormatRecordA function

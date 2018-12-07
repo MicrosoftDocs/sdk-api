@@ -7,7 +7,7 @@ old-location: tablet\iinkgesture_confidence.htm
 tech.root: tablet
 ms.assetid: 4a27163b-e55a-4ced-8943-9a8ac161794c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 4a27163b-e55a-4ced-8943-9a8ac161794c, Confidence property [Tablet PC], Confidence property [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],Confidence property, IInkGesture.Confidence, IInkGesture.get_Confidence, IInkGesture::Confidence, IInkGesture::get_Confidence, get_Confidence, msinkaut/IInkGesture::Confidence, msinkaut/IInkGesture::get_Confidence, tablet.iinkgesture_confidence
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkGesture.get_Confidence
-: 
 ---
 
 # IInkGesture::get_Confidence

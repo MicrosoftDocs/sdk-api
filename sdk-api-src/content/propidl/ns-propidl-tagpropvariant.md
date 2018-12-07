@@ -4,10 +4,10 @@ title: tagPROPVARIANT
 author: windows-sdk-content
 description: Used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set.
 old-location: stg\propvariant.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: e86cc279-826d-4767-8d96-fc8280060ea1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -462,366 +462,6 @@ There are five members. The first member, the value-type tag, and the last membe
 
 
 
-#### - bVal
-
-<b>VT_UI1</b>
-
-
-#### - blob
-
-<b>VT_BLOB</b>, <b>VT_BLOBOBJECT</b>
-
-
-#### - boolVal
-
-<b>VT_BOOL</b>
-
-
-#### - bstrVal
-
-<b>VT_BSTR</b>
-
-
-#### - bstrblobVal
-
-<b>VT_BSTR_BLOB</b>
-
-
-#### - cVal
-
-<b>VT_I1</b>, Version 1
-
-
-#### - cabool
-
-<b>VT_VECTOR</b> | <b>VT_BOOL</b>
-
-
-#### - cabstr
-
-<b>VT_VECTOR</b> | <b>VT_BSTR</b>
-
-
-#### - cabstrblob
-
-<b>VT_VECTOR</b> | <b>VT_BSTR_BLOB</b>
-
-
-#### - cac
-
-<b>VT_VECTOR</b> | <b>VT_I1</b>, Version 1
-
-
-#### - caclipdata
-
-<b>VT_VECTOR</b> | <b>VT_CF</b>
-
-
-#### - cacy
-
-<b>VT_VECTOR</b> | <b>VT_CY</b>
-
-
-#### - cadate
-
-<b>VT_VECTOR</b> | <b>VT_DATE</b>
-
-
-#### - cadbl
-
-<b>VT_VECTOR</b> | <b>VT_R8</b>
-
-
-#### - cafiletime
-
-<b>VT_VECTOR</b> | <b>VT_FILETIME</b>
-
-
-#### - caflt
-
-<b>VT_VECTOR</b> | <b>VT_R4</b>
-
-
-#### - cah
-
-<b>VT_VECTOR</b> | <b>VT_I8</b>
-
-
-#### - cai
-
-<b>VT_VECTOR</b> | <b>VT_I2</b>
-
-
-#### - cal
-
-<b>VT_VECTOR</b> | <b>VT_I4</b>
-
-
-#### - calpstr
-
-<b>VT_VECTOR</b> | <b>VT_LPSTR</b>
-
-
-#### - calpwstr
-
-<b>VT_VECTOR</b> | <b>VT_LPWSTR</b>
-
-
-#### - capropvar
-
-<b>VT_VECTOR</b> | <b>VT_VARIANT</b>
-
-
-#### - cascode
-
-<b>VT_VECTOR</b> | <b>VT_ERROR</b>
-
-
-#### - caub
-
-<b>VT_VECTOR</b> | <b>VT_UI1</b>
-
-
-#### - cauh
-
-<b>VT_VECTOR</b> | <b>VT_UI8</b>
-
-
-#### - caui
-
-<b>VT_VECTOR</b> | <b>VT_UI2</b>
-
-
-#### - caul
-
-<b>VT_VECTOR</b> | <b>VT_UI4</b>
-
-
-#### - cauuid
-
-<b>VT_VECTOR</b> | <b>VT_CLSID</b>
-
-
-#### - cyVal
-
-<b>VT_CY</b>
-
-
-#### - date
-
-<b>VT_DATE</b>
-
-
-#### - dblVal
-
-<b>VT_R8</b>
-
-
-#### - filetime
-
-<b>VT_FILETIME</b>
-
-
-#### - fltVal
-
-<b>VT_R4</b>
-
-
-#### - hVal
-
-<b>VT_I8</b>
-
-
-#### - iVal
-
-<b>VT_I2</b>
-
-
-#### - intVal
-
-<b>VT_INT</b>, Version 1
-
-
-#### - lVal
-
-<b>VT_I4</b>
-
-
-#### - pStorage
-
-<b>VT_STORAGE</b>, <b>VT_STORED_OBJECT</b>
-
-
-#### - pStream
-
-<b>VT_STREAM</b>, <b>VT_STREAMED_OBJECT</b>
-
-
-#### - pVersionedStream
-
-<b>VT_VERSIONED_STREAM</b>
-
-
-#### - parray
-
-<b>VT_ARRAY</b> | <b>VT_*</b>, Version 1
-
-
-#### - pbVal
-
-<b>VT_BYREF</b> | <b>VT_UI1</b>, Version 1
-
-
-#### - pboolVal
-
-<b>VT_BYREF</b> | <b>VT_BOOL</b>, Version 1
-
-
-#### - pbstrVal
-
-<b>VT_BYREF</b> | <b>VT_BSTR</b>, Version 1
-
-
-#### - pcVal
-
-<b>VT_BYREF</b> | <b>VT_I1</b>, Version 1
-
-
-#### - pclipdata
-
-<b>VT_CF</b>
-
-
-#### - pcyVal
-
-<b>VT_BYREF</b> | <b>VT_CY</b>, Version 1
-
-
-#### - pdate
-
-<b>VT_BYREF</b> | <b>VT_DATE</b>, Version 1
-
-
-#### - pdblVal
-
-<b>VT_BYREF</b> | <b>VT_R8</b>, Version 1
-
-
-#### - pdecVal
-
-<b>VT_BYREF</b> | <b>VT_DECIMAL</b>, Version 1
-
-
-#### - pdispVal
-
-<b>VT_DISPATCH</b>
-
-
-#### - pfltVal
-
-<b>VT_BYREF</b> | <b>VT_R4</b>, Version 1
-
-
-#### - piVal
-
-<b>VT_BYREF</b> | <b>VT_I2</b>, Version 1
-
-
-#### - pintVal
-
-<b>VT_BYREF</b> | <b>VT_INT</b>, Version 1
-
-
-#### - plVal
-
-<b>VT_BYREF</b> | <b>VT_I4</b>, Version 1
-
-
-#### - pparray
-
-<b>VT_BYREF</b> | <b>VT_ARRAY</b>, Version 1
-
-
-#### - ppdispVal
-
-<b>VT_BYREF</b> | <b>VT_DISPATCH</b>, Version 1
-
-
-#### - ppunkVal
-
-<b>VT_BYREF</b> | <b>VT_UNKNOWN</b>, Version 1
-
-
-#### - pscode
-
-<b>VT_BYREF</b> | <b>VT_ERROR</b>, Version 1
-
-
-#### - pszVal
-
-<b>VT_LPSTR</b>
-
-
-#### - puiVal
-
-<b>VT_BYREF</b> | <b>VT_UI2</b>, Version 1
-
-
-#### - puintVal
-
-<b>VT_BYREF</b> | <b>VT_UINT</b>, Version 1
-
-
-#### - pulVal
-
-<b>VT_BYREF</b> | <b>VT_UI4</b>, Version 1
-
-
-#### - punkVal
-
-<b>VT_UNKNOWN</b>
-
-
-#### - puuid
-
-<b>VT_CLSID</b>
-
-
-#### - pvarVal
-
-<b>VT_BYREF</b> | <b>VT_VARIANT</b>, Version 1
-
-
-#### - pwszVal
-
-<b>VT_LPWSTR</b>
-
-
-#### - scode
-
-<b>VT_ERROR</b>
-
-
-#### - uhVal
-
-<b>VT_UI8</b>
-
-
-#### - uiVal
-
-<b>VT_UI2</b>
-
-
-#### - uintVal
-
-<b>VT_UINT</b>, Version 1
-
-
-#### - ulVal
-
-<b>VT_UI4</b>
-
-
 #### - vt
 
 Value type tag.
@@ -840,6 +480,366 @@ Reserved for future use.
 #### - wReserved3
 
 Reserved for future use.
+
+
+#### - cVal
+
+<b>VT_I1</b>, Version 1
+
+
+#### - bVal
+
+<b>VT_UI1</b>
+
+
+#### - iVal
+
+<b>VT_I2</b>
+
+
+#### - uiVal
+
+<b>VT_UI2</b>
+
+
+#### - lVal
+
+<b>VT_I4</b>
+
+
+#### - ulVal
+
+<b>VT_UI4</b>
+
+
+#### - intVal
+
+<b>VT_INT</b>, Version 1
+
+
+#### - uintVal
+
+<b>VT_UINT</b>, Version 1
+
+
+#### - hVal
+
+<b>VT_I8</b>
+
+
+#### - uhVal
+
+<b>VT_UI8</b>
+
+
+#### - fltVal
+
+<b>VT_R4</b>
+
+
+#### - dblVal
+
+<b>VT_R8</b>
+
+
+#### - boolVal
+
+<b>VT_BOOL</b>
+
+
+#### - scode
+
+<b>VT_ERROR</b>
+
+
+#### - cyVal
+
+<b>VT_CY</b>
+
+
+#### - date
+
+<b>VT_DATE</b>
+
+
+#### - filetime
+
+<b>VT_FILETIME</b>
+
+
+#### - puuid
+
+<b>VT_CLSID</b>
+
+
+#### - pclipdata
+
+<b>VT_CF</b>
+
+
+#### - bstrVal
+
+<b>VT_BSTR</b>
+
+
+#### - bstrblobVal
+
+<b>VT_BSTR_BLOB</b>
+
+
+#### - blob
+
+<b>VT_BLOB</b>, <b>VT_BLOBOBJECT</b>
+
+
+#### - pszVal
+
+<b>VT_LPSTR</b>
+
+
+#### - pwszVal
+
+<b>VT_LPWSTR</b>
+
+
+#### - punkVal
+
+<b>VT_UNKNOWN</b>
+
+
+#### - pdispVal
+
+<b>VT_DISPATCH</b>
+
+
+#### - pStream
+
+<b>VT_STREAM</b>, <b>VT_STREAMED_OBJECT</b>
+
+
+#### - pStorage
+
+<b>VT_STORAGE</b>, <b>VT_STORED_OBJECT</b>
+
+
+#### - pVersionedStream
+
+<b>VT_VERSIONED_STREAM</b>
+
+
+#### - parray
+
+<b>VT_ARRAY</b> | <b>VT_*</b>, Version 1
+
+
+#### - cac
+
+<b>VT_VECTOR</b> | <b>VT_I1</b>, Version 1
+
+
+#### - caub
+
+<b>VT_VECTOR</b> | <b>VT_UI1</b>
+
+
+#### - cai
+
+<b>VT_VECTOR</b> | <b>VT_I2</b>
+
+
+#### - caui
+
+<b>VT_VECTOR</b> | <b>VT_UI2</b>
+
+
+#### - cal
+
+<b>VT_VECTOR</b> | <b>VT_I4</b>
+
+
+#### - caul
+
+<b>VT_VECTOR</b> | <b>VT_UI4</b>
+
+
+#### - cah
+
+<b>VT_VECTOR</b> | <b>VT_I8</b>
+
+
+#### - cauh
+
+<b>VT_VECTOR</b> | <b>VT_UI8</b>
+
+
+#### - caflt
+
+<b>VT_VECTOR</b> | <b>VT_R4</b>
+
+
+#### - cadbl
+
+<b>VT_VECTOR</b> | <b>VT_R8</b>
+
+
+#### - cabool
+
+<b>VT_VECTOR</b> | <b>VT_BOOL</b>
+
+
+#### - cascode
+
+<b>VT_VECTOR</b> | <b>VT_ERROR</b>
+
+
+#### - cacy
+
+<b>VT_VECTOR</b> | <b>VT_CY</b>
+
+
+#### - cadate
+
+<b>VT_VECTOR</b> | <b>VT_DATE</b>
+
+
+#### - cafiletime
+
+<b>VT_VECTOR</b> | <b>VT_FILETIME</b>
+
+
+#### - cauuid
+
+<b>VT_VECTOR</b> | <b>VT_CLSID</b>
+
+
+#### - caclipdata
+
+<b>VT_VECTOR</b> | <b>VT_CF</b>
+
+
+#### - cabstr
+
+<b>VT_VECTOR</b> | <b>VT_BSTR</b>
+
+
+#### - cabstrblob
+
+<b>VT_VECTOR</b> | <b>VT_BSTR_BLOB</b>
+
+
+#### - calpstr
+
+<b>VT_VECTOR</b> | <b>VT_LPSTR</b>
+
+
+#### - calpwstr
+
+<b>VT_VECTOR</b> | <b>VT_LPWSTR</b>
+
+
+#### - capropvar
+
+<b>VT_VECTOR</b> | <b>VT_VARIANT</b>
+
+
+#### - pcVal
+
+<b>VT_BYREF</b> | <b>VT_I1</b>, Version 1
+
+
+#### - pbVal
+
+<b>VT_BYREF</b> | <b>VT_UI1</b>, Version 1
+
+
+#### - piVal
+
+<b>VT_BYREF</b> | <b>VT_I2</b>, Version 1
+
+
+#### - puiVal
+
+<b>VT_BYREF</b> | <b>VT_UI2</b>, Version 1
+
+
+#### - plVal
+
+<b>VT_BYREF</b> | <b>VT_I4</b>, Version 1
+
+
+#### - pulVal
+
+<b>VT_BYREF</b> | <b>VT_UI4</b>, Version 1
+
+
+#### - pintVal
+
+<b>VT_BYREF</b> | <b>VT_INT</b>, Version 1
+
+
+#### - puintVal
+
+<b>VT_BYREF</b> | <b>VT_UINT</b>, Version 1
+
+
+#### - pfltVal
+
+<b>VT_BYREF</b> | <b>VT_R4</b>, Version 1
+
+
+#### - pdblVal
+
+<b>VT_BYREF</b> | <b>VT_R8</b>, Version 1
+
+
+#### - pboolVal
+
+<b>VT_BYREF</b> | <b>VT_BOOL</b>, Version 1
+
+
+#### - pdecVal
+
+<b>VT_BYREF</b> | <b>VT_DECIMAL</b>, Version 1
+
+
+#### - pscode
+
+<b>VT_BYREF</b> | <b>VT_ERROR</b>, Version 1
+
+
+#### - pcyVal
+
+<b>VT_BYREF</b> | <b>VT_CY</b>, Version 1
+
+
+#### - pdate
+
+<b>VT_BYREF</b> | <b>VT_DATE</b>, Version 1
+
+
+#### - pbstrVal
+
+<b>VT_BYREF</b> | <b>VT_BSTR</b>, Version 1
+
+
+#### - ppunkVal
+
+<b>VT_BYREF</b> | <b>VT_UNKNOWN</b>, Version 1
+
+
+#### - ppdispVal
+
+<b>VT_BYREF</b> | <b>VT_DISPATCH</b>, Version 1
+
+
+#### - pparray
+
+<b>VT_BYREF</b> | <b>VT_ARRAY</b>, Version 1
+
+
+#### - pvarVal
+
+<b>VT_BYREF</b> | <b>VT_VARIANT</b>, Version 1
 
 
 ## -remarks

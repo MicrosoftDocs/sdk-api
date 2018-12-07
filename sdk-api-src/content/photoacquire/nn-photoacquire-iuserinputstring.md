@@ -7,7 +7,7 @@ old-location: picacq\iuserinputstring.htm
 tech.root: acquisition
 ms.assetid: f942fefc-2db1-4067-8311-f9ebbaca9d31
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IUserInputString, IUserInputString interface [Picture Acquisition], IUserInputString interface [Picture Acquisition],described, IUserInputStringInterface, photoacquire/IUserInputString, picacq.iuserinputstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

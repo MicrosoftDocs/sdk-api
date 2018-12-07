@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStreamBuffer::get_StorageSize
 author: windows-sdk-content
 description: The size, in bytes, of the internal storage buffer for the stream.
 old-location: rdp\irdpsrapitransportstreambuffer_storagesize.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: e422febe-6b7f-4ce5-af5c-214200b6723e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],StorageSize property, IRDPSRAPITransportStreamBuffer.StorageSize, IRDPSRAPITransportStreamBuffer.get_StorageSize, IRDPSRAPITransportStreamBuffer::StorageSize, IRDPSRAPITransportStreamBuffer::get_StorageSize, StorageSize property [RDP], StorageSize property [RDP],IRDPSRAPITransportStreamBuffer interface, get_StorageSize, rdp.irdpsrapitransportstreambuffer_storagesize, rdpencomapi/IRDPSRAPITransportStreamBuffer::StorageSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_StorageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,14 +41,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPITransportStreamBuffer.get_StorageSize
-: 
 ---
 
 # IRDPSRAPITransportStreamBuffer::get_StorageSize

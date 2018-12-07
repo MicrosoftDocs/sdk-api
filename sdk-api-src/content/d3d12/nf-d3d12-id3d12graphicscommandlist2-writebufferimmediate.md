@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist2_writebufferimmediate_uint_pa
 tech.root: direct3d12
 ms.assetid: EB1FD3E0-5785-40D1-961B-AF22F9911653
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList2 interface,WriteBufferImmediate method, ID3D12GraphicsCommandList2.WriteBufferImmediate, ID3D12GraphicsCommandList2::WriteBufferImmediate, WriteBufferImmediate, WriteBufferImmediate method, WriteBufferImmediate method,ID3D12GraphicsCommandList2 interface, d3d12/ID3D12GraphicsCommandList2::WriteBufferImmediate, direct3d12.id3d12graphicscommandlist2_writebufferimmediate_uint_parameter_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: D3D12.lib
+req.dll: D3D12.dll
 req.irql: 
 topic_type:
  - APIRef
@@ -35,21 +35,13 @@ topic_type:
 api_type:
  - COM
 api_location:
- - D3D12.h
+ - D3D12.dll
 api_name:
  - ID3D12GraphicsCommandList2.WriteBufferImmediate
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d12.h
-: 
-- ID3D12GraphicsCommandList2.WriteBufferImmediate
-: 
 ---
 
 # ID3D12GraphicsCommandList2::WriteBufferImmediate

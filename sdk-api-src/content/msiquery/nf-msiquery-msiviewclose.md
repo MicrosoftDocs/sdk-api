@@ -4,10 +4,10 @@ title: MsiViewClose function
 author: windows-sdk-content
 description: The MsiViewClose function releases the result set for an executed view.
 old-location: setup\msiviewclose.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: bd38be52-d76c-4f1b-bc29-12f93aac2aa9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MsiViewClose, MsiViewClose function, _msi_msiviewclose, msiquery/MsiViewClose, setup.msiviewclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiViewClose
-: 
 ---
 
 # MsiViewClose function

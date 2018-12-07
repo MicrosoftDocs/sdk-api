@@ -7,7 +7,7 @@ old-location: wsw\ws_write_callback.htm
 tech.root: wsw
 ms.assetid: 8d106ac2-226d-4e0c-8f14-8d3e17f15548
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_WRITE_CALLBACK, WS_WRITE_CALLBACK callback, WS_WRITE_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_CALLBACK, wsw.ws_write_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

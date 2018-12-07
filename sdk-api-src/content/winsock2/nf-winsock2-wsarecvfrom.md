@@ -4,10 +4,10 @@ title: WSARecvFrom function
 author: windows-sdk-content
 description: Receives a datagram and stores the source address.
 old-location: winsock\wsarecvfrom_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 8617dbb8-0e4e-4cd3-9597-5d20de6778f6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSARecvFrom, WSARecvFrom function [Winsock], _win32_wsarecvfrom_2, winsock.wsarecvfrom_2, winsock2/WSARecvFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSARecvFrom
-: 
 ---
 
 # WSARecvFrom function

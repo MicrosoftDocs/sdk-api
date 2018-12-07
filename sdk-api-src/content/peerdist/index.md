@@ -2,7 +2,7 @@
 UID: NA:peerdist
 ms.assetid: f294ca87-7c02-3c9b-92a9-8db8753da587
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

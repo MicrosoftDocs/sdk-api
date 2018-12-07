@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_informvpinputformats.htm
 tech.root: DirectShow
 ms.assetid: d9b4ea2b-ad71-4226-9aad-e68a9cb26274
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],InformVPInputFormats method, IVPBaseConfig.InformVPInputFormats, IVPBaseConfig::InformVPInputFormats, IVPBaseConfigInformVPInputFormats, InformVPInputFormats, InformVPInputFormats method [DirectShow], InformVPInputFormats method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_informvpinputformats, vpconfig/IVPBaseConfig::InformVPInputFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vpconfig.h
-: 
-- IVPBaseConfig.InformVPInputFormats
-: 
 ---
 
 # IVPBaseConfig::InformVPInputFormats

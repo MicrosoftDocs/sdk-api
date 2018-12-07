@@ -4,10 +4,10 @@ title: ITextFont::GetEmboss
 author: windows-sdk-content
 description: Gets whether characters are embossed.
 old-location: controls\ITextFont_GetEmboss.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getemboss.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetEmboss, GetEmboss method [Windows Controls], GetEmboss method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetEmboss method, ITextFont.GetEmboss, ITextFont::GetEmboss, _win32_ITextFont_GetEmboss, _win32_ITextFont_GetEmboss_cpp, controls.ITextFont_GetEmboss, controls._win32_ITextFont_GetEmboss, tom/ITextFont::GetEmboss
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextFont.GetEmboss
-: 
 ---
 
 # ITextFont::GetEmboss

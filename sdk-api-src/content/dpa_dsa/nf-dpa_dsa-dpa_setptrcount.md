@@ -4,10 +4,10 @@ title: DPA_SetPtrCount macro
 author: windows-sdk-content
 description: Sets the number of pointers in a dynamic pointer array (DPA).
 old-location: controls\DPA_SetPtrCount.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_setptrcount.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DPA_SetPtrCount, DPA_SetPtrCount macro [Windows Controls], _shell_DPA_SetPtrCount, _shell_DPA_SetPtrCount_cpp, controls.DPA_SetPtrCount, controls._shell_DPA_SetPtrCount, dpa_dsa/DPA_SetPtrCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- dpa_dsa.h
-: 
-- DPA_SetPtrCount
-: 
 ---
 
 # DPA_SetPtrCount macro

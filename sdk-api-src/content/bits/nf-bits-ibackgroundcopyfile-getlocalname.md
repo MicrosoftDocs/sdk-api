@@ -4,10 +4,10 @@ title: IBackgroundCopyFile::GetLocalName
 author: windows-sdk-content
 description: Retrieves the local name of the file.
 old-location: bits\ibackgroundcopyfile_getlocalname.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: d27844b7-a5c6-4f4c-a1db-80e031898634
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetLocalName, GetLocalName method [BITS], GetLocalName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetLocalName method, IBackgroundCopyFile.GetLocalName, IBackgroundCopyFile::GetLocalName, _drz_ibackgroundcopyfile_getlocalname, bits.ibackgroundcopyfile_getlocalname, bits/IBackgroundCopyFile::GetLocalName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyFile.GetLocalName
-: 
 ---
 
 # IBackgroundCopyFile::GetLocalName
@@ -66,14 +58,7 @@ Retrieves the local name of the file.
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - ppName [out]
+### -param pVal [out]
 
 Null-terminated string that contains the name of the file on the client. The name is fully qualified. Call the 
 <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppName</i> when done.

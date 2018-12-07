@@ -7,7 +7,7 @@ old-location: automat\varand.htm
 tech.root: automat
 ms.assetid: bcdda3e6-d599-4266-ba66-6634ab26f9d0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarAnd, VarAnd function [Automation], _oa96_VarAnd, automat.varand, oleauto/VarAnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarAnd
-: 
 ---
 
 # VarAnd function

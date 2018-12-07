@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: 94182dbb-d96c-45e9-953c-faf8e0403aac
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IDVB_NIT.GetTableDescriptorByTag, IDVB_NIT::GetTableDescriptorByTag, IDVB_NITGetTableDescriptorByTag, dvbsiparser/IDVB_NIT::GetTableDescriptorByTag, mstv.idvb_nit_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDVB_NIT.GetTableDescriptorByTag
-: 
 ---
 
 # IDVB_NIT::GetTableDescriptorByTag

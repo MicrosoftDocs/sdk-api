@@ -7,7 +7,7 @@ old-location: com\ienumconnections_next.htm
 tech.root: com
 ms.assetid: af58f961-1182-43fc-95ce-4afb251b9b08
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumConnections interface [COM],Next method, IEnumConnections.Next, IEnumConnections::Next, Next, Next method [COM], Next method [COM],IEnumConnections interface, _com_ienumconnections_next, com.ienumconnections_next, ocidl/IEnumConnections::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ocidl.h
-: 
-- IEnumConnections.Next
-: 
 ---
 
 # IEnumConnections::Next
@@ -78,14 +70,7 @@ An array of enumerated items.
 The enumerator is responsible for allocating any memory, and the caller is responsible for freeing it. If <i>celt</i> is greater than 1, the caller must also pass a non-NULL pointer passed to <i>pceltFetched</i> to know how many pointers to release.
 
 
-### -param pcFetched
-
-TBD
-
-
-
-
-#### - lpcFetched [out]
+### -param pcFetched [out]
 
 The number of items that were retrieved. This parameter is always less than or equal to the number of items requested.
 

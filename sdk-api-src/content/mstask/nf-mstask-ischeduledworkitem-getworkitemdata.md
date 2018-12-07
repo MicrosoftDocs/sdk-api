@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetWorkItemData
 author: windows-sdk-content
 description: Retrieves application-defined data associated with the work item.
 old-location: taskschd\ischeduledworkitem_getworkitemdata.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 1b37c412-80ed-44fb-8b3a-b142a9669080
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetWorkItemData, GetWorkItemData method [Task Scheduler], GetWorkItemData method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetWorkItemData method, IScheduledWorkItem.GetWorkItemData, IScheduledWorkItem::GetWorkItemData, _msb_ischeduledworkitem_getworkitemdata, mstask/IScheduledWorkItem::GetWorkItemData, taskschd.ischeduledworkitem_getworkitemdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.GetWorkItemData
-: 
 ---
 
 # IScheduledWorkItem::GetWorkItemData

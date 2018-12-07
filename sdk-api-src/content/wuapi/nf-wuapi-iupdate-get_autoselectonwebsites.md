@@ -4,10 +4,10 @@ title: IUpdate::get_AutoSelectOnWebSites
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the update is flagged to be automatically selected by Windows Update.
 old-location: wua\iupdate_autoselectonwebsites.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: a27d7144-bd76-40e3-b8a7-951ae1974afb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AutoSelectOnWebSites property [Windows Update Agent], AutoSelectOnWebSites property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AutoSelectOnWebSites property, IUpdate.AutoSelectOnWebSites, IUpdate.get_AutoSelectOnWebSites, IUpdate::AutoSelectOnWebSites, IUpdate::get_AutoSelectOnWebSites, get_AutoSelectOnWebSites, wua.iupdate_autoselectonwebsites, wuapi/IUpdate::AutoSelectOnWebSites, wuapi/IUpdate::get_AutoSelectOnWebSites
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdate.get_AutoSelectOnWebSites
-: 
 ---
 
 # IUpdate::get_AutoSelectOnWebSites

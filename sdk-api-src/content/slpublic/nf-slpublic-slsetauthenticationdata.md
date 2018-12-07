@@ -7,7 +7,7 @@ old-location: security\slsetauthenticationdata.htm
 tech.root: SecSLApi
 ms.assetid: 68906873-6c49-4221-ad87-1e1f1463c0d4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLSetAuthenticationData, SLSetAuthenticationData function [Security], security.slsetauthenticationdata, slpublic/SLSetAuthenticationData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SLSetAuthenticationData
-: 
 ---
 
 # SLSetAuthenticationData function

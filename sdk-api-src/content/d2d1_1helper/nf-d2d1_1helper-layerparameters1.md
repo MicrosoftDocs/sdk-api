@@ -4,10 +4,10 @@ title: LayerParameters1 function
 author: windows-sdk-content
 description: Returns a D2D1_LAYER_PARAMETERS1 struct that contains the content bounds, mask information, opacity settings, and other options for a layer resource.
 old-location: direct2d\layerparameters1.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 8E882B23-CD6C-4CEB-9297-837B4E278BB7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LayerParameters1, LayerParameters1 function [Direct2D], d2d1_1helper/LayerParameters1, direct2d.layerparameters1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LayerParameters1
-: 
 ---
 
 # LayerParameters1 function

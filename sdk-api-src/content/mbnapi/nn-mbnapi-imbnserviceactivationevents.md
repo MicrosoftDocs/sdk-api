@@ -7,7 +7,7 @@ old-location: mbn\imbnserviceactivationevents.htm
 tech.root: mbn
 ms.assetid: b3385523-f1ab-403d-9244-7683a7e9f95a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMbnServiceActivationEvents, IMbnServiceActivationEvents interface [Microsoft Broadband Networks], IMbnServiceActivationEvents interface [Microsoft Broadband Networks],described, mbn.imbnserviceactivationevents, mbnapi/IMbnServiceActivationEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

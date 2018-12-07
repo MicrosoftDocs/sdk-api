@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::SetMinimumRetryDelay
 author: windows-sdk-content
 description: Sets the minimum length of time that BITS waits after encountering a transient error condition before trying to transfer the file.
 old-location: bits\ibackgroundcopyjob_setminimumretrydelay.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 52d2b7a1-6f68-424e-9c0b-a9f8df4a5ad6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetMinimumRetryDelay method, IBackgroundCopyJob.SetMinimumRetryDelay, IBackgroundCopyJob::SetMinimumRetryDelay, SetMinimumRetryDelay, SetMinimumRetryDelay method [BITS], SetMinimumRetryDelay method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setminimumretrydelay, bits.ibackgroundcopyjob_setminimumretrydelay, bits/IBackgroundCopyJob::SetMinimumRetryDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.SetMinimumRetryDelay
-: 
 ---
 
 # IBackgroundCopyJob::SetMinimumRetryDelay
@@ -66,14 +58,7 @@ Sets the minimum length of time that BITS waits after encountering a transient e
 
 
 
-### -param Seconds
-
-TBD
-
-
-
-
-#### - RetryDelay [in]
+### -param Seconds [in]
 
 Minimum length of time, in seconds, that BITS waits after encountering a transient error before trying to transfer the file. The default retry delay is 600 seconds (10 minutes). The minimum retry delay that you can specify is 5 seconds. If you specify a value less than 5 seconds, BITS changes the value to 5 seconds. If the value exceeds the no-progress-timeout 
 value retrieved from the <a href="https://msdn.microsoft.com/en-us/library/Aa363034(v=VS.85).aspx">GetNoProgressTimeout</a> method, BITS will not retry the transfer and moves the job to the BG_JOB_STATE_ERROR state.

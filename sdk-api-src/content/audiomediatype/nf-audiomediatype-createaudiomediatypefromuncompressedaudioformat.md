@@ -7,7 +7,7 @@ old-location: audio\createaudiomediatypefromuncompressedaudioformat.htm
 tech.root: audio
 ms.assetid: 48c9d15c-2e95-4a4a-b2cb-8a144569e45b
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: CreateAudioMediaTypeFromUncompressedAudioFormat, CreateAudioMediaTypeFromUncompressedAudioFormat function [Audio Devices], audio.createaudiomediatypefromuncompressedaudioformat, audio_syseffects_r_af85b8fb-5bdc-41f6-af2f-ee84ca999ac9.xml, audiomediatype/CreateAudioMediaTypeFromUncompressedAudioFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateAudioMediaTypeFromUncompressedAudioFormat
-: 
 ---
 
 # CreateAudioMediaTypeFromUncompressedAudioFormat function

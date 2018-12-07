@@ -7,7 +7,7 @@ old-location: websock\websocketaborthandle.htm
 tech.root: WebSock
 ms.assetid: fcfa67cf-9121-4f65-bba9-31ebca1291bd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WebSocketAbortHandle, WebSocketAbortHandle function [Websocket Protocol Component API], websock.websocketaborthandle, websocket/WebSocketAbortHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WebSocketAbortHandle
-: 
 ---
 
 # WebSocketAbortHandle function

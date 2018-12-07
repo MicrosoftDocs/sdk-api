@@ -4,10 +4,10 @@ title: DNS_NSEC_DATAW
 author: windows-sdk-content
 description: Represents an NSEC resource record (RR) as specified in section 4 of RFC 4034.
 old-location: dns\dns_nsec_data.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: ea446732-bc6a-4597-b164-11bfd77c07f2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDNS_NSEC_DATA, *PDNS_NSEC_DATAW, DNS_NSEC_DATA, DNS_NSEC_DATA structure [DNS], DNS_NSEC_DATAW, PDNS_NSEC_DATA, PDNS_NSEC_DATA structure pointer [DNS], dns.dns_nsec_data, windns/DNS_NSEC_DATA, windns/PDNS_NSEC_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

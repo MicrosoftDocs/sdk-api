@@ -4,10 +4,10 @@ title: IBackgroundCopyGroup::EnumJobs
 author: windows-sdk-content
 description: Use the EnumJobs method to retrieve a list of jobs in the group. The list contains only one job.
 old-location: bits\ibackgroundcopygroup_enumjobs.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 40e4412e-60d5-4e08-85b9-1e92f5222e71
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EnumJobs, EnumJobs method [BITS], EnumJobs method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],EnumJobs method, IBackgroundCopyGroup.EnumJobs, IBackgroundCopyGroup::EnumJobs, bits.ibackgroundcopygroup_enumjobs, qmgr/IBackgroundCopyGroup::EnumJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qmgr.h
-: 
-- IBackgroundCopyGroup.EnumJobs
-: 
 ---
 
 # IBackgroundCopyGroup::EnumJobs

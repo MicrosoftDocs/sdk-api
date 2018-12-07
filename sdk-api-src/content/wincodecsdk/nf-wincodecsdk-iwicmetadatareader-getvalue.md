@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatareader_getvalue.htm
 tech.root: wic
 ms.assetid: 7ae1328d-cda7-4522-9bcf-2c4b16fd6984
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetValue, GetValue method [Windows Imaging Component], GetValue method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetValue method, IWICMetadataReader.GetValue, IWICMetadataReader::GetValue, _wic_codec_iwicmetadatareader_getvalue, wic._wic_codec_iwicmetadatareader_getvalue, wincodecsdk/IWICMetadataReader::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodecsdk.h
-: 
-- IWICMetadataReader.GetValue
-: 
 ---
 
 # IWICMetadataReader::GetValue

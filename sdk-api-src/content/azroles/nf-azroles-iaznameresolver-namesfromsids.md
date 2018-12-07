@@ -4,10 +4,10 @@ title: IAzNameResolver::NamesFromSids
 author: windows-sdk-content
 description: Gets the display names that correspond to the specified security identifiers (SIDs).
 old-location: security\iaznameresolver_namesfromsids_method.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: fedf0164-51ca-480c-8e45-443e74fc5b13
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IAzNameResolver interface [Security],NamesFromSids method, IAzNameResolver.NamesFromSids, IAzNameResolver::NamesFromSids, NamesFromSids, NamesFromSids method [Security], NamesFromSids method [Security],IAzNameResolver interface, azroles/IAzNameResolver::NamesFromSids, security.iaznameresolver_namesfromsids_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzNameResolver.NamesFromSids
-: 
 ---
 
 # IAzNameResolver::NamesFromSids

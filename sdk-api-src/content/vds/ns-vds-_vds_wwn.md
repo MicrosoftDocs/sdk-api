@@ -4,10 +4,10 @@ title: "_VDS_WWN"
 author: windows-sdk-content
 description: Defines a world-wide name (WWN). This structure corresponds to the HBA_WWN structure defined by the ANSI HBA API.
 old-location: base\vds_wwn.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: a6d546bd-26ba-4f49-aeed-1f5462cc0bab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VDS_WWN, VDS_WWN structure [VDS], _VDS_WWN, base.vds_wwn, vds/VDS_WWN, vdshwprv/VDS_WWN
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5nz9.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ExtensionFriendlyName property [Fax Service], ExtensionFriendlyName property [Fax Service],IFaxInboundRoutingMethod interface, IFaxInboundRoutingMethod interface [Fax Service],ExtensionFriendlyName property, IFaxInboundRoutingMethod.ExtensionFriendlyName, IFaxInboundRoutingMethod.get_ExtensionFriendlyName, IFaxInboundRoutingMethod::ExtensionFriendlyName, IFaxInboundRoutingMethod::get_ExtensionFriendlyName, _mfax_faxinboundroutingmethod.extensionfriendlyname, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_extensionfriendlyname_cpp, fax._mfax_faxinboundroutingmethod_extensionfriendlyname, faxcomex/IFaxInboundRoutingMethod::ExtensionFriendlyName, faxcomex/IFaxInboundRoutingMethod::get_ExtensionFriendlyName, get_ExtensionFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxInboundRoutingMethod.get_ExtensionFriendlyName
-: 
 ---
 
 # IFaxInboundRoutingMethod::get_ExtensionFriendlyName

@@ -7,7 +7,7 @@ old-location: iphlp\setunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 906a3895-2e42-4bed-90a3-7c10487d76cb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetUnicastIpAddressEntry, SetUnicastIpAddressEntry function [IP Helper], iphlp.setunicastipaddressentry, netioapi/SetUnicastIpAddressEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetUnicastIpAddressEntry
-: 
 ---
 
 # SetUnicastIpAddressEntry function

@@ -4,10 +4,10 @@ title: ber_bvecfree function
 author: windows-sdk-content
 description: The ber_bvecfree function frees an array of berval structures.
 old-location: ldap\ber_bvecfree.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 5c2b53e4-257e-4c3f-b712-345e6b33341b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ber_bvecfree, ber_bvecfree, ber_bvecfree function [LDAP], ldap.ber__bvecfree, ldap.ber_bvecfree, winber/ber_bvecfree"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ber_bvecfree
-: 
 ---
 
 # ber_bvecfree function

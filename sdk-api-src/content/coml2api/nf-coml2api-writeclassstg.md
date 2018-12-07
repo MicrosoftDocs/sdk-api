@@ -4,10 +4,10 @@ title: WriteClassStg function
 author: windows-sdk-content
 description: The WriteClassStg function stores the specified class identifier (CLSID) in a storage object.
 old-location: stg\writeclassstg.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 5f2f16d1-923f-4ba7-8d4b-7e8535f6f15e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WriteClassStg, WriteClassStg function [Structured Storage], _stg_writeclassstg, coml2api/WriteClassStg, stg.writeclassstg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WriteClassStg
-: 
 ---
 
 # WriteClassStg function

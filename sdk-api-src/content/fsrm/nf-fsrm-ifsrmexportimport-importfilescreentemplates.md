@@ -4,10 +4,10 @@ title: IFsrmExportImport::ImportFileScreenTemplates
 author: windows-sdk-content
 description: Imports one or more file screen templates from the specified file.
 old-location: fsrm\ifsrmexportimport_importfilescreentemplates.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: ea2fbd88-777e-454c-8d32-0d704c219558
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FsrmExportImport class [File Server Resource Manager],ImportFileScreenTemplates method, IFsrmExportImport interface [File Server Resource Manager],ImportFileScreenTemplates method, IFsrmExportImport.ImportFileScreenTemplates, IFsrmExportImport::ImportFileScreenTemplates, ImportFileScreenTemplates, ImportFileScreenTemplates method [File Server Resource Manager], ImportFileScreenTemplates method [File Server Resource Manager],FsrmExportImport class, ImportFileScreenTemplates method [File Server Resource Manager],IFsrmExportImport interface, fs.ifsrmexportimport_importfilescreentemplates, fsrm.ifsrmexportimport_importfilescreentemplates, fsrm/IFsrmExportImport::ImportFileScreenTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrm.h
-: 
-- IFsrmExportImport.ImportFileScreenTemplates
-: 
 ---
 
 # IFsrmExportImport::ImportFileScreenTemplates

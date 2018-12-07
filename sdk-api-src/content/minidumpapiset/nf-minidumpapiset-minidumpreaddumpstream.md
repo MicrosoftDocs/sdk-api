@@ -4,10 +4,10 @@ title: MiniDumpReadDumpStream function
 author: windows-sdk-content
 description: Reads a stream from a user-mode minidump file.
 old-location: base\minidumpreaddumpstream.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 56df69aa-55b6-451b-a003-3ee88dc934f9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MiniDumpReadDumpStream, MiniDumpReadDumpStream function, _win32_minidumpreaddumpstream, base.minidumpreaddumpstream, minidumpapiset/MiniDumpReadDumpStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll and Dbgcore.dll
-- apiref
-: 
-- 
-: 
-- MiniDumpReadDumpStream
-: 
 ---
 
 # MiniDumpReadDumpStream function

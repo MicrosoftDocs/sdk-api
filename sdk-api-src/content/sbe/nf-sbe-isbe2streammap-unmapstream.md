@@ -7,7 +7,7 @@ old-location: mstv\isbe2streammap_unmapstream.htm
 tech.root: mstv
 ms.assetid: 75736e65-b708-4162-836d-7694899d23d7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISBE2StreamMap interface [Microsoft TV Technologies],UnmapStream method, ISBE2StreamMap.UnmapStream, ISBE2StreamMap::UnmapStream, UnmapStream, UnmapStream method [Microsoft TV Technologies], UnmapStream method [Microsoft TV Technologies],ISBE2StreamMap interface, mstv.isbe2streammap_unmapstream, sbe/ISBE2StreamMap::UnmapStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbe.h
-: 
-- ISBE2StreamMap.UnmapStream
-: 
 ---
 
 # ISBE2StreamMap::UnmapStream

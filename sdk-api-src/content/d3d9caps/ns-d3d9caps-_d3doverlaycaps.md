@@ -7,7 +7,7 @@ old-location: mf\d3doverlaycaps.htm
 tech.root: medfound
 ms.assetid: 4d9e031d-af01-4b8a-b90c-9d83b09c24da
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3DOVERLAYCAPS, D3DOVERLAYCAPS structure [Media Foundation], D3DOVERLAYCAPS_FULLRANGERGB, D3DOVERLAYCAPS_LIMITEDRANGERGB, D3DOVERLAYCAPS_STRETCHX, D3DOVERLAYCAPS_STRETCHY, D3DOVERLAYCAPS_YCbCr_BT601, D3DOVERLAYCAPS_YCbCr_BT601_xvYCC, D3DOVERLAYCAPS_YCbCr_BT709, D3DOVERLAYCAPS_YCbCr_BT709_xvYCC, _D3DOVERLAYCAPS, d3d9caps/D3DOVERLAYCAPS, mf.d3doverlaycaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

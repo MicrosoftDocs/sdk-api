@@ -4,10 +4,10 @@ title: WSDCreateDeviceHostAdvanced function
 author: windows-sdk-content
 description: Creates a device host and returns a pointer to the IWSDDeviceHost interface.
 old-location: ncd\wsdcreatedevicehostadvanced.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 8136fc01-9476-4ee4-aa44-784bef482ff5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSDCreateDeviceHostAdvanced, WSDCreateDeviceHostAdvanced function, ncd.wsdcreatedevicehostadvanced, wsdhost/WSDCreateDeviceHostAdvanced
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSDCreateDeviceHostAdvanced
-: 
 ---
 
 # WSDCreateDeviceHostAdvanced function

@@ -4,10 +4,10 @@ title: RtwqBeginUnregisterWorkQueueWithMMCSS function
 author: windows-sdk-content
 description: Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: base\rtwqbeginunregisterworkqueuewithmmcss.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 1faa9661-9b65-472a-b1d5-c99b10b149e9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RtwqBeginUnregisterWorkQueueWithMMCSS, RtwqBeginUnregisterWorkQueueWithMMCSS function, base.rtwqbeginunregisterworkqueuewithmmcss, rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtwqBeginUnregisterWorkQueueWithMMCSS
-: 
 ---
 
 # RtwqBeginUnregisterWorkQueueWithMMCSS function

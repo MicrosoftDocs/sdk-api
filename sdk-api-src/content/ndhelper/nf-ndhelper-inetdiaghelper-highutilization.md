@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelpe_highutilization.htm
 tech.root: NDF
 ms.assetid: 4a555683-f7fd-43a4-808a-60579723293c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: HighUtilization, HighUtilization method [NDF], HighUtilization method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],HighUtilization method, INetDiagHelper.HighUtilization, INetDiagHelper::HighUtilization, ndf.inetdiaghelpe_highutilization, ndhelper/INetDiagHelper::HighUtilization
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ndhelper.h
-: 
-- INetDiagHelper.HighUtilization
-: 
 ---
 
 # INetDiagHelper::HighUtilization

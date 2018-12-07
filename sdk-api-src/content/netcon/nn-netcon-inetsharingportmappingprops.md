@@ -4,10 +4,10 @@ title: INetSharingPortMappingProps
 author: windows-sdk-content
 description: The INetSharingPortMappingProps interface provides methods that retrieve and set the properties of a network connection port mapping.
 old-location: ics\inetsharingportmappingprops.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 9fa20653-5224-4588-89fb-8d4ce07b4235
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface [ICS/ICF], INetSharingPortMappingProps interface [ICS/ICF],described, _ics_inetsharingportmappingprops, ics.inetsharingportmappingprops, netcon/INetSharingPortMappingProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

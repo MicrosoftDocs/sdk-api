@@ -7,7 +7,7 @@ old-location: multimedia\mmioproc.htm
 tech.root: Multimedia
 ms.assetid: 8f7ca236-8bdf-477d-843d-d825cc606e0e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MMIOProc, MMIOProc callback, MMIOProc callback function [Windows Multimedia], _win32_MMIOProc, mmsystem/MMIOProc, multimedia.mmioproc
 ms.prod: windows-hardware
 ms.technology: windows-devices

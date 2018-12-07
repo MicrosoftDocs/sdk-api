@@ -7,7 +7,7 @@ old-location: mstv\imsvidfeatures.htm
 tech.root: mstv
 ms.assetid: 19790fab-0530-4a17-8a3c-a50576fea9ca
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidFeatures, IMSVidFeatures interface [Microsoft TV Technologies], IMSVidFeatures interface [Microsoft TV Technologies],described, IMSVidFeaturesInterface, mstv.imsvidfeatures, segment/IMSVidFeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices

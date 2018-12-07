@@ -4,10 +4,10 @@ title: IGPM::GetSitesContainer
 author: windows-sdk-content
 description: Creates and returns a GPMSitesContainer object from which sites can be opened and queried.
 old-location: gpmc\igpm_getsitescontainer.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 0a1b8975-cd73-49e6-83b9-f6af296276cb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPM object [GPMC],GetSitesContainer method, GetSitesContainer, GetSitesContainer method [GPMC], GetSitesContainer method [GPMC],GPM object, GetSitesContainer method [GPMC],IGPM interface, IGPM interface [GPMC],GetSitesContainer method, IGPM.GetSitesContainer, IGPM::GetSitesContainer, _win32_igpm_getsitescontainer, gpmc.igpm_getsitescontainer, gpmgmt/IGPM::GetSitesContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPM.GetSitesContainer
-: 
 ---
 
 # IGPM::GetSitesContainer

@@ -7,7 +7,7 @@ old-location: mstv\imsvidinputdevices_get_item.htm
 tech.root: mstv
 ms.assetid: 4d8b2d88-e591-4280-966b-9c23f05d55f9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],get_Item method, IMSVidInputDevices.get_Item, IMSVidInputDevices::get_Item, IMSVidInputDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_get_item, segment/IMSVidInputDevices::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidInputDevices.get_Item
-: 
 ---
 
 # IMSVidInputDevices::get_Item

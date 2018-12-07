@@ -7,7 +7,7 @@ old-location: iphlp\setifentry.htm
 tech.root: IpHlp
 ms.assetid: 67a18ef2-a7af-4fc1-8416-053aa8388f9e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: MIB_IF_ADMIN_STATUS_DOWN, MIB_IF_ADMIN_STATUS_UP, SetIfEntry, SetIfEntry function [IP Helper], _iphlp_setifentry, iphlp.setifentry, iphlpapi/SetIfEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetIfEntry
-: 
 ---
 
 # SetIfEntry function

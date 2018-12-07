@@ -4,10 +4,10 @@ title: IFsrmReportJob::put_Task
 author: windows-sdk-content
 description: Retrieves or sets the name of the report job.
 old-location: fsrm\ifsrmreportjob_task.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 2c9ceaca-f696-4506-bc25-efd601522560
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],Task property, IFsrmReportJob.Task, IFsrmReportJob.put_Task, IFsrmReportJob::Task, IFsrmReportJob::get_Task, IFsrmReportJob::put_Task, Task property [File Server Resource Manager], Task property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_task, fsrm.ifsrmreportjob_task, fsrmreports/IFsrmReportJob::Task, fsrmreports/IFsrmReportJob::get_Task, fsrmreports/IFsrmReportJob::put_Task, put_Task
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmReportJob.put_Task
-: 
 ---
 
 # IFsrmReportJob::put_Task

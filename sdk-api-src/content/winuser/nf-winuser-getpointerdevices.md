@@ -7,7 +7,7 @@ old-location: input_pointerdevice\getpointerdevices.htm
 tech.root: Input_PointerDevice
 ms.assetid: 91FD5EBA-EDD7-4D7D-ABF3-3CE2461417B0
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: GetPointerDevices, GetPointerDevices function, input_pointerdevice.getpointerdevices, unifiedinputstack.getpointerdevices, winuser/GetPointerDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetPointerDevices
-: 
 ---
 
 # GetPointerDevices function

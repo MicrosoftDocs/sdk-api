@@ -4,10 +4,10 @@ title: ITDigitDetectionEvent
 author: windows-sdk-content
 description: The ITDigitDetectionEvent interface contains methods that retrieve the description of DTMF digit events.
 old-location: tapi3\itdigitdetectionevent.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: f387f5f5-06e4-45f2-8d93-31ff0da6151a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITDigitDetectionEvent, ITDigitDetectionEvent interface [TAPI 2.2], ITDigitDetectionEvent interface [TAPI 2.2],described, _tapi3_itdigitdetectionevent, tapi3.itdigitdetectionevent, tapi3if/ITDigitDetectionEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

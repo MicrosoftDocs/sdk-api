@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationupdatemanager_update.htm
 tech.root: directmanipulation
 ms.assetid: dffa747c-933a-4b61-9f15-e175d9338774
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],Update method, IDirectManipulationUpdateManager.Update, IDirectManipulationUpdateManager::Update, Update, Update method [Direct Manipulation], Update method [Direct Manipulation],IDirectManipulationUpdateManager interface, directmanipulation.idirectmanipulationupdatemanager_update, directmanipulation/IDirectManipulationUpdateManager::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- directmanipulation.h
-: 
-- IDirectManipulationUpdateManager.Update
-: 
 ---
 
 # IDirectManipulationUpdateManager::Update

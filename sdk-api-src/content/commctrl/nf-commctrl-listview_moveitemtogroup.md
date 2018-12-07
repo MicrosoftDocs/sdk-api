@@ -4,10 +4,10 @@ title: ListView_MoveItemToGroup macro
 author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\ListView_MoveItemToGroup.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_moveitemtogroup.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ListView_MoveItemToGroup, ListView_MoveItemToGroup macro [Windows Controls], _win32_ListView_MoveItemToGroup, _win32_ListView_MoveItemToGroup_cpp, commctrl/ListView_MoveItemToGroup, controls.ListView_MoveItemToGroup, controls._win32_ListView_MoveItemToGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- ListView_MoveItemToGroup
-: 
 ---
 
 # ListView_MoveItemToGroup macro

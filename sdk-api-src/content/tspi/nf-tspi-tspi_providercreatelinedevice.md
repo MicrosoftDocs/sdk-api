@@ -4,10 +4,10 @@ title: TSPI_providerCreateLineDevice function
 author: windows-sdk-content
 description: The TSPI_providerCreateLineDevice function is called by TAPI in response to receipt of a LINE_CREATE message from the service provider, which allows the dynamic creation of a new line device.
 old-location: tspi\tspi_providercreatelinedevice.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 58c28934-7c2f-49ec-af40-b32b05ec921a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_providerCreateLineDevice, TSPI_providerCreateLineDevice function [TAPI 2.2], _tspi_tspi_providercreatelinedevice, tspi.tspi_providercreatelinedevice, tspi/TSPI_providerCreateLineDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TSPI_providerCreateLineDevice
-: 
 ---
 
 # TSPI_providerCreateLineDevice function

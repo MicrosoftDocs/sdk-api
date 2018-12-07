@@ -7,7 +7,7 @@ old-location: mstv\icomponenttypes_get_count.htm
 tech.root: mstv
 ms.assetid: 9f353702-1be1-4fa0-9312-f76f23f63a2b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],get_Count method, IComponentTypes.get_Count, IComponentTypes::get_Count, IComponentTypesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IComponentTypes interface, mstv.icomponenttypes_get_count, tuner/IComponentTypes::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IComponentTypes.get_Count
-: 
 ---
 
 # IComponentTypes::get_Count

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_GetBounds_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getbounds_70rect.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],Rect class, Rect class [GDI+],GetBounds method, Rect.GetBounds, Rect::GetBounds, _gdiplus_CLASS_Rect_GetBounds_rect_, gdiplus._gdiplus_CLASS_Rect_GetBounds_rect_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplustypes.h
-: 
-- Rect.GetBounds
-: 
 req.product: GDI+ 1.0
 ---
 

@@ -1,13 +1,13 @@
 ---
 UID: NS:winldap.ldapmodA
-title: ldapmodA
+title: LDAPModA
 author: windows-sdk-content
 description: Holds data required to perform a modification operation.
 old-location: ldap\ldapmod.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 07761668-e0d9-4ab0-b8ce-ce8626389e03
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PLDAPModA, LDAPMod, LDAPMod structure [LDAP], LDAPModA, LDAP_MOD_ADD (0x00), LDAP_MOD_DELETE (0x01), LDAP_MOD_REPLACE (0x02), PLDAPMod, PLDAPMod structure pointer [LDAP], _ldap_ldapmod, ldap.ldapmod, ldapmodA, ldapmodW, winldap/LDAPMod, winldap/PLDAPMod, winldap/ldapmodA, winldap/ldapmodW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,7 +46,7 @@ req.typenames: LDAPModA, *PLDAPModA
 req.redist: 
 ---
 
-# ldapmodA structure
+# LDAPModA structure
 
 
 ## -description

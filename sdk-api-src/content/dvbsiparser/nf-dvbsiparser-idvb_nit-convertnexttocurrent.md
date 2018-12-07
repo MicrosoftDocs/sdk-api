@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: 068f5dd8-f0fc-4d34-a49c-91cedb7bf7e7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IDVB_NIT.ConvertNextToCurrent, IDVB_NIT::ConvertNextToCurrent, IDVB_NITConvertNextToCurrent, dvbsiparser/IDVB_NIT::ConvertNextToCurrent, mstv.idvb_nit_convertnexttocurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDVB_NIT.ConvertNextToCurrent
-: 
 ---
 
 # IDVB_NIT::ConvertNextToCurrent

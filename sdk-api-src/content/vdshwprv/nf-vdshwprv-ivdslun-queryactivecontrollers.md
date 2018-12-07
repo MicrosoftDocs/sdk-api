@@ -4,10 +4,10 @@ title: IVdsLun::QueryActiveControllers
 author: windows-sdk-content
 description: Returns an enumeration of currently active controllers&#8212;the controllers through which the LUN is accessible.
 old-location: base\ivdslun_queryactivecontrollers.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 82561e4a-f2c2-46da-96bb-fbd50d4f7c39
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsLun interface [VDS],QueryActiveControllers method, IVdsLun.QueryActiveControllers, IVdsLun::QueryActiveControllers, QueryActiveControllers, QueryActiveControllers method [VDS], QueryActiveControllers method [VDS],IVdsLun interface, base.ivdslun_queryactivecontrollers, vds/IVdsLun::QueryActiveControllers, vdshwprv/IVdsLun::QueryActiveControllers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vdshwprv.h
-: 
-- IVdsLun.QueryActiveControllers
-: 
 ---
 
 # IVdsLun::QueryActiveControllers

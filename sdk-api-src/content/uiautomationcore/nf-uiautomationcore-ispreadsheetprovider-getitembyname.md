@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISpreadsheetProvider_GetItemByName.htm
 tech.root: WinAuto
 ms.assetid: 9A496B3F-5095-4094-BAF6-D4EE20498D4B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetItemByName, GetItemByName method [Windows Accessibility], GetItemByName method [Windows Accessibility],ISpreadsheetProvider interface, ISpreadsheetProvider interface [Windows Accessibility],GetItemByName method, ISpreadsheetProvider.GetItemByName, ISpreadsheetProvider::GetItemByName, uiautomationcore/ISpreadsheetProvider::GetItemByName, winauto.uiauto_ISpreadsheetProvider_GetItemByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationcore.h
-: 
-- ISpreadsheetProvider.GetItemByName
-: 
 ---
 
 # ISpreadsheetProvider::GetItemByName

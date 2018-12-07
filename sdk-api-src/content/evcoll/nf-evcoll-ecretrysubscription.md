@@ -7,7 +7,7 @@ old-location: wec\ecretrysubscription.htm
 tech.root: WEC
 ms.assetid: 31a9148d-8026-4383-9f31-04b75b4a278d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EcRetrySubscription, EcRetrySubscription function, evcoll/EcRetrySubscription, wec.ecretrysubscription, wes.ecretrysubscription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EcRetrySubscription
-: 
 ---
 
 # EcRetrySubscription function

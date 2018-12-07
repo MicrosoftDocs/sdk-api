@@ -4,10 +4,10 @@ title: IBackgroundCopyFile3::GetTemporaryName
 author: windows-sdk-content
 description: Gets the full path of the temporary file that contains the content of the download.
 old-location: bits\ibackgroundcopyfile3_gettemporaryname.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 3fa4cc3b-b134-4e11-8bb6-1c9855d8dd37
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTemporaryName, GetTemporaryName method [BITS], GetTemporaryName method [BITS],IBackgroundCopyFile3 interface, IBackgroundCopyFile3 interface [BITS],GetTemporaryName method, IBackgroundCopyFile3.GetTemporaryName, IBackgroundCopyFile3::GetTemporaryName, bits.ibackgroundcopyfile3_gettemporaryname, bits3_0/IBackgroundCopyFile3::GetTemporaryName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits3_0.h
-: 
-- IBackgroundCopyFile3.GetTemporaryName
-: 
 ---
 
 # IBackgroundCopyFile3::GetTemporaryName
@@ -67,14 +59,7 @@ Gets the full path of the temporary file that contains the content of the downlo
 
 
 
-### -param pFilename
-
-TBD
-
-
-
-
-#### - ppFileName [out]
+### -param pFilename [out]
 
 Null-terminated string that contains the full path of the temporary file. Call the 
 <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppFileName</i> when done.

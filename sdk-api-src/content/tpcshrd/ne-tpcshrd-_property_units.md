@@ -7,7 +7,7 @@ old-location: tablet\property_units.htm
 tech.root: tablet
 ms.assetid: bf207b4a-5ce2-4d2d-98ed-8020d559dca7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPROPERTY_UNITS, PPROPERTY_UNITS, PPROPERTY_UNITS enumeration pointer [Tablet PC], PROPERTY_UNITS, PROPERTY_UNITS enumeration [Tablet PC], PROPERTY_UNITS_CENTIMETERS, PROPERTY_UNITS_DEFAULT, PROPERTY_UNITS_DEGREES, PROPERTY_UNITS_GRAMS, PROPERTY_UNITS_INCHES, PROPERTY_UNITS_POUNDS, PROPERTY_UNITS_RADIANS, PROPERTY_UNITS_SECONDS, _PROPERTY_UNITS, bf207b4a-5ce2-4d2d-98ed-8020d559dca7, tablet.property_units, tpcshrd/PPROPERTY_UNITS, tpcshrd/PROPERTY_UNITS, tpcshrd/PROPERTY_UNITS_CENTIMETERS, tpcshrd/PROPERTY_UNITS_DEFAULT, tpcshrd/PROPERTY_UNITS_DEGREES, tpcshrd/PROPERTY_UNITS_GRAMS, tpcshrd/PROPERTY_UNITS_INCHES, tpcshrd/PROPERTY_UNITS_POUNDS, tpcshrd/PROPERTY_UNITS_RADIANS, tpcshrd/PROPERTY_UNITS_SECONDS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: qos\tcmodifyflow.htm
 tech.root: QOS
 ms.assetid: e1b5d987-8365-4fea-a88b-0d574749b38a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TcModifyFlow, TcModifyFlow function [QOS], _gqos_tcmodifyflow, qos.tcmodifyflow, traffic/TcModifyFlow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TcModifyFlow
-: 
 ---
 
 # TcModifyFlow function

@@ -7,7 +7,7 @@ old-location: wmlss\IWMLSSget_computerInternetMediaSharingAllowedState.htm
 tech.root: WMLSS
 ms.assetid: d4c6df42-5bbb-47b0-aedc-ffedd6fe9a8a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_computerInternetMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState, get_computerInternetMediaSharingAllowedState, get_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services], get_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_computerInternetMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmlss.h
-: 
-- IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState
-: 
 ---
 
 # IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState

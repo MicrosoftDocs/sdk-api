@@ -7,7 +7,7 @@ old-location: mstv\ipbda_services_getrecordbyindex.htm
 tech.root: mstv
 ms.assetid: 1f9a71a4-3cfd-4a08-929f-e17d506a021b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordByIndex, GetRecordByIndex method [Microsoft TV Technologies], GetRecordByIndex method [Microsoft TV Technologies],IPBDA_Services interface, IPBDA_Services interface [Microsoft TV Technologies],GetRecordByIndex method, IPBDA_Services.GetRecordByIndex, IPBDA_Services::GetRecordByIndex, dvbsiparser/IPBDA_Services::GetRecordByIndex, mstv.ipbda_services_getrecordbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IPBDA_Services.GetRecordByIndex
-: 
 ---
 
 # IPBDA_Services::GetRecordByIndex

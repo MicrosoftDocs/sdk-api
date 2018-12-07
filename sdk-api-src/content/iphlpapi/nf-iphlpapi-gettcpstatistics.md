@@ -7,7 +7,7 @@ old-location: iphlp\gettcpstatistics.htm
 tech.root: IpHlp
 ms.assetid: 841cdeaa-6284-4b39-a218-69937eca1982
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTcpStatistics, GetTcpStatistics function [IP Helper], _iphlp_gettcpstatistics, iphlp.gettcpstatistics, iphlpapi/GetTcpStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetTcpStatistics
-: 
 ---
 
 # GetTcpStatistics function

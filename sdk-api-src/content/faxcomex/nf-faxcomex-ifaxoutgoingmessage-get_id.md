@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_id_cpp.ht
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_357o.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Id property, IFaxOutgoingMessage.Id, IFaxOutgoingMessage.get_Id, IFaxOutgoingMessage::Id, IFaxOutgoingMessage::get_Id, Id property [Fax Service], Id property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.id, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_id_cpp, fax._mfax_faxoutgoingmessage_id, faxcomex/IFaxOutgoingMessage::Id, faxcomex/IFaxOutgoingMessage::get_Id, get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxOutgoingMessage.get_Id
-: 
 ---
 
 # IFaxOutgoingMessage::get_Id

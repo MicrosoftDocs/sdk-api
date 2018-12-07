@@ -4,10 +4,10 @@ title: "_StrEntryW"
 author: windows-sdk-content
 description: Represents a registry string replacement.
 old-location: winprog\_strentryw.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 0EA85285-B5CC-4DC2-ADB7-4888316634C3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPSTRENTRYW, LPSTRENTRYW, LPSTRENTRYW structure pointer [Windows API], STRENTRY, STRENTRYW, STRENTRYW structure [Windows API], _StrEntryW, _StrEntryW structure [Windows API], advpub/LPSTRENTRYW, advpub/_StrEntryW, winprog._strentryw"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ClusterNetInterfaceControl function
 author: windows-sdk-content
 description: Initiates an operation that affects a network interface. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusternetinterfacecontrol.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: cfb56e61-3652-47a3-860b-706e6dba03d7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterNetInterfaceControl, ClusterNetInterfaceControl function [Failover Cluster], _wolf_clusternetinterfacecontrol, clusapi/ClusterNetInterfaceControl, mscs.clusternetinterfacecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusterNetInterfaceControl
-: 
 ---
 
 # ClusterNetInterfaceControl function

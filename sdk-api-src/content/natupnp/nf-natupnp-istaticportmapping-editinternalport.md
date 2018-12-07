@@ -4,10 +4,10 @@ title: IStaticPortMapping::EditInternalPort
 author: windows-sdk-content
 description: The EditInternalPort method sets the internal port for this port mapping.
 old-location: ics\istaticportmapping_editinternalport.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 8a43d828-327a-42be-8b8e-f3d669727fd7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EditInternalPort, EditInternalPort method [ICS/ICF], EditInternalPort method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditInternalPort method, IStaticPortMapping.EditInternalPort, IStaticPortMapping::EditInternalPort, _ics_istaticportmapping_editinternalport, ics.istaticportmapping_editinternalport, natupnp/IStaticPortMapping::EditInternalPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- natupnp.h
-: 
-- IStaticPortMapping.EditInternalPort
-: 
 ---
 
 # IStaticPortMapping::EditInternalPort

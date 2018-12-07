@@ -7,7 +7,7 @@ old-location: gdi\roundrect.htm
 tech.root: gdi
 ms.assetid: 17808a6a-7bd0-4fd6-81ab-00d5db764b93
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RoundRect, RoundRect function [Windows GDI], _win32_RoundRect, gdi.roundrect, wingdi/RoundRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RoundRect
-: 
 ---
 
 # RoundRect function

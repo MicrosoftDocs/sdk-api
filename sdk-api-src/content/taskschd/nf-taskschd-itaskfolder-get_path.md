@@ -4,10 +4,10 @@ title: ITaskFolder::get_Path
 author: windows-sdk-content
 description: Gets the path to where the folder is stored.
 old-location: taskschd\itaskfolder_path.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: d65c5f69-21dc-49d0-9a42-581947a195df
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],Path property, ITaskFolder.Path, ITaskFolder.get_Path, ITaskFolder::Path, ITaskFolder::get_Path, Path property [Task Scheduler], Path property [Task Scheduler],ITaskFolder interface, get_Path, taskschd.itaskfolder_path, taskschd/ITaskFolder::Path, taskschd/ITaskFolder::get_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITaskFolder.get_Path
-: 
 ---
 
 # ITaskFolder::get_Path

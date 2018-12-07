@@ -4,10 +4,10 @@ title: IOCSPProperty
 author: windows-sdk-content
 description: Represents a name-value pair for OCSPServiceProperties or ProviderProperties.
 old-location: security\iocspproperty.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 854848f0-ea89-4c25-a8a5-40f1e4d229be
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IOCSPProperty, IOCSPProperty interface [Security], IOCSPProperty interface [Security],described, certadm/IOCSPProperty, security.iocspproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

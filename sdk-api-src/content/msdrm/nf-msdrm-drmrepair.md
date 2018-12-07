@@ -7,7 +7,7 @@ old-location: rm\drmrepair.htm
 tech.root: AdRms_Sdk
 ms.assetid: d3abebcd-1200-417c-a0ec-64768b3c320a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMRepair, DRMRepair function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRepair, rm.drmrepair
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DRMRepair
-: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

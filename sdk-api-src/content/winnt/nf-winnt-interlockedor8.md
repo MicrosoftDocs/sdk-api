@@ -4,10 +4,10 @@ title: InterlockedOr8 function
 author: windows-sdk-content
 description: Performs an atomic OR operation on the specified char values.
 old-location: base\interlockedor8.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: fa5cfecf-dde7-4d54-8dfd-68387aa86083
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedOr8, InterlockedOr8 function, base.interlockedor8, winnt/InterlockedOr8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InterlockedOr8
-: 
 ---
 
 # InterlockedOr8 function

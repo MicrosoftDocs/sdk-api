@@ -7,7 +7,7 @@ old-location: mstv\iisdbemergencyinformationdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: d23f1cc0-c6b0-4054-80be-36d7675fdec7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbEmergencyInformationDescriptor.GetCountOfRecords, IIsdbEmergencyInformationDescriptor::GetCountOfRecords, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetCountOfRecords, mstv.iisdbemergencyinformationdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IIsdbEmergencyInformationDescriptor.GetCountOfRecords
-: 
 ---
 
 # IIsdbEmergencyInformationDescriptor::GetCountOfRecords

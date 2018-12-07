@@ -4,10 +4,10 @@ title: IADsTypedName
 author: windows-sdk-content
 description: The IADsTypedName interface provides methods for an ADSI client to access the Typed Name attribute.
 old-location: adsi\iadstypedname.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: ed57fad7-6cc6-4127-b8d2-da295bc0c5fe
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsTypedName, IADsTypedName interface [ADSI], IADsTypedName interface [ADSI],described, TypedName, _ds_iadstypedname, adsi.iadstypedname, iads/IADsTypedName
 ms.prod: windows-hardware
 ms.technology: windows-devices

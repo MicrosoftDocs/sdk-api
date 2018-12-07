@@ -7,7 +7,7 @@ old-location: wds\wdstransportprovidergetcontentmetadata.htm
 tech.root: wds
 ms.assetid: ed243373-b5ff-418d-811c-544589ea11ac
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsTransportProviderGetContentMetadata, WdsTransportProviderGetContentMetadata callback, WdsTransportProviderGetContentMetadata callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentmetadata, wdstpdi/WdsTransportProviderGetContentMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WdsTransportProviderGetContentMetadata
-: 
 ---
 
 # WdsTransportProviderGetContentMetadata function

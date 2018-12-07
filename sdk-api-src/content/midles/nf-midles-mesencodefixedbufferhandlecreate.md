@@ -4,10 +4,10 @@ title: MesEncodeFixedBufferHandleCreate function
 author: windows-sdk-content
 description: The MesEncodeFixedBufferHandleCreate function creates an encoding handle and then initializes it for a fixed buffer style of serialization.
 old-location: rpc\mesencodefixedbufferhandlecreate.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 7700e0f6-0f30-415c-9873-983ec6c249b2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MesEncodeFixedBufferHandleCreate, MesEncodeFixedBufferHandleCreate function [RPC], _rpc_mesencodefixedbufferhandlecreate, midles/MesEncodeFixedBufferHandleCreate, rpc.mesencodefixedbufferhandlecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MesEncodeFixedBufferHandleCreate
-: 
 ---
 
 # MesEncodeFixedBufferHandleCreate function

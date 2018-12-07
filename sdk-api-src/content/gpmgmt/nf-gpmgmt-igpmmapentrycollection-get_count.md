@@ -4,10 +4,10 @@ title: IGPMMapEntryCollection::get_Count
 author: windows-sdk-content
 description: Returns the number of map entries in the collection.
 old-location: gpmc\igpmmapentrycollection_get_count.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 1bc3a983-17db-4b91-adda-24351bc9a02d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMMapEntryCollection class, Count property [GPMC],IGPMMapEntryCollection interface, GPMMapEntryCollection class [GPMC],Count property, IGPMMapEntryCollection interface [GPMC],Count property, IGPMMapEntryCollection.Count, IGPMMapEntryCollection.get_Count, IGPMMapEntryCollection::Count, IGPMMapEntryCollection::get_Count, get_Count, gpmc.igpmmapentrycollection_get_count, gpmgmt/IGPMMapEntryCollection::Count, gpmgmt/IGPMMapEntryCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMMapEntryCollection.get_Count
-: 
 ---
 
 # IGPMMapEntryCollection::get_Count

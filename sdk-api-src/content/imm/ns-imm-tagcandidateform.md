@@ -7,13 +7,13 @@ old-location: intl\candidateform.htm
 tech.root: Intl
 ms.assetid: 86edcfe0-07f7-4bd7-9444-3a884aeb7926
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/05/2018
 ms.keywords: "*LPCANDIDATEFORM, *NPCANDIDATEFORM, *PCANDIDATEFORM, CANDIDATEFORM, CANDIDATEFORM structure [Internationalization for Windows Applications], PCANDIDATEFORM, PCANDIDATEFORM structure pointer [Internationalization for Windows Applications], _win32_CANDIDATEFORM_str, imm/CANDIDATEFORM, imm/PCANDIDATEFORM, intl.candidateform, tagCANDIDATEFORM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: imm.h
-req.include-header: Windows.h
+req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]

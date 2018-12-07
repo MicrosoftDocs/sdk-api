@@ -4,10 +4,10 @@ title: tagUpdateAssessmentStatus
 author: windows-sdk-content
 description: Describes how up-to-date the OS on a device is.
 old-location: base\updateassessmentstatus.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 157E241E-E8D8-41F8-9565-5C9298DCD1BE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: UpdateAssessmentStatus, UpdateAssessmentStatus enumeration, UpdateAssessmentStatus_Latest, UpdateAssessmentStatus_NotLatestDeferredFeature, UpdateAssessmentStatus_NotLatestDeferredQuality, UpdateAssessmentStatus_NotLatestEndOfSupport, UpdateAssessmentStatus_NotLatestHardRestriction, UpdateAssessmentStatus_NotLatestManaged, UpdateAssessmentStatus_NotLatestPausedFeature, UpdateAssessmentStatus_NotLatestPausedQuality, UpdateAssessmentStatus_NotLatestServicingTrain, UpdateAssessmentStatus_NotLatestSoftRestriction, UpdateAssessmentStatus_NotLatestUnknown, base.updateassessmentstatus, tagUpdateAssessmentStatus, waasapitypes/ UpdateAssessmentStatus_Latest, waasapitypes/ UpdateAssessmentStatus_NotLatestDeferredFeature, waasapitypes/ UpdateAssessmentStatus_NotLatestDeferredQuality, waasapitypes/ UpdateAssessmentStatus_NotLatestEndOfSupport, waasapitypes/ UpdateAssessmentStatus_NotLatestHardRestriction, waasapitypes/ UpdateAssessmentStatus_NotLatestManaged, waasapitypes/ UpdateAssessmentStatus_NotLatestPausedFeature, waasapitypes/ UpdateAssessmentStatus_NotLatestPausedQuality, waasapitypes/ UpdateAssessmentStatus_NotLatestServicingTrain, waasapitypes/ UpdateAssessmentStatus_NotLatestSoftRestriction, waasapitypes/ UpdateAssessmentStatus_NotLatestUnknown, waasapitypes/UpdateAssessmentStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: secbiomet\winbioasyncopenframework.htm
 tech.root: SecBioMet
 ms.assetid: D9557A6F-32C4-464F-8800-6E546808F100
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WINBIO_ASYNC_NOTIFY_CALLBACK, WINBIO_ASYNC_NOTIFY_MESSAGE, WinBioAsyncOpenFramework, WinBioAsyncOpenFramework function [Windows Biometric Framework API], secbiomet.winbioasyncopenframework, winbio/WinBioAsyncOpenFramework
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinBioAsyncOpenFramework
-: 
 ---
 
 # WinBioAsyncOpenFramework function

@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_element_node.htm
 tech.root: wsw
 ms.assetid: 32157ddf-ace2-49dc-85d7-b04e25e85693
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_XML_ELEMENT_NODE, WS_XML_ELEMENT_NODE structure [Web Services for Windows], _WS_XML_ELEMENT_NODE, webservices/WS_XML_ELEMENT_NODE, wsw.ws_xml_element_node
 ms.prod: windows-hardware
 ms.technology: windows-devices

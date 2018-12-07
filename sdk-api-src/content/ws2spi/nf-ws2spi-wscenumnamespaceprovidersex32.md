@@ -4,10 +4,10 @@ title: WSCEnumNameSpaceProvidersEx32 function
 author: windows-sdk-content
 description: Retrieves information on available 32-bit namespace providers.
 old-location: winsock\wscenumnamespaceprovidersex32.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 544120b2-7575-4deb-8429-2bd4582eceef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSCEnumNameSpaceProvidersEx32, WSCEnumNameSpaceProvidersEx32 function [Winsock], winsock.wscenumnamespaceprovidersex32, ws2spi/WSCEnumNameSpaceProvidersEx32
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSCEnumNameSpaceProvidersEx32
-: 
 ---
 
 # WSCEnumNameSpaceProvidersEx32 function

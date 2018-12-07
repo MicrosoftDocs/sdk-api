@@ -7,7 +7,7 @@ old-location: wsw\wscreatemessageforchannel.htm
 tech.root: wsw
 ms.assetid: 0a4f076b-6725-45a9-8817-5dec3b647c4f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsCreateMessageForChannel, WsCreateMessageForChannel function [Web Services for Windows], webservices/WsCreateMessageForChannel, wsw.wscreatemessageforchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsCreateMessageForChannel
-: 
 ---
 
 # WsCreateMessageForChannel function

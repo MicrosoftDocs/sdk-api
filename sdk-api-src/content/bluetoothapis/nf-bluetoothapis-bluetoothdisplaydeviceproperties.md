@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothdisplaydeviceproperties.htm
 tech.root: Bluetooth
 ms.assetid: cb33cf35-eb1e-4953-a779-4eb38afe0c34
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: BluetoothDisplayDeviceProperties, BluetoothDisplayDeviceProperties function [Bluetooth], bluetooth.bluetoothdisplaydeviceproperties, bluetoothapis/BluetoothDisplayDeviceProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BluetoothDisplayDeviceProperties
-: 
 ---
 
 # BluetoothDisplayDeviceProperties function

@@ -7,7 +7,7 @@ old-location: wsw\ws_operation_description.htm
 tech.root: wsw
 ms.assetid: d05b55aa-4159-4e48-ae75-2af36c0a7101
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_OPERATION_DESCRIPTION, WS_OPERATION_DESCRIPTION structure [Web Services for Windows], _WS_OPERATION_DESCRIPTION, webservices/WS_OPERATION_DESCRIPTION, wsw.ws_operation_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

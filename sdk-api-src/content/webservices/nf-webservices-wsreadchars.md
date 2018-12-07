@@ -7,7 +7,7 @@ old-location: wsw\wsreadchars.htm
 tech.root: wsw
 ms.assetid: 3285d3f7-8ab1-42f0-b6e0-1d91aa0d576f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsReadChars, WsReadChars function [Web Services for Windows], webservices/WsReadChars, wsw.wsreadchars
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsReadChars
-: 
 ---
 
 # WsReadChars function

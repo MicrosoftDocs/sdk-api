@@ -4,10 +4,10 @@ title: "_PEB"
 author: windows-sdk-content
 description: Contains process information.
 old-location: base\peb.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 836a6b82-d3e8-4de6-808d-5476dfb51356
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPEB, PEB, PEB structure, PPEB, PPEB structure pointer, _PEB, base.peb, winternl/PEB, winternl/PPEB"
 ms.prod: windows-hardware
 ms.technology: windows-devices

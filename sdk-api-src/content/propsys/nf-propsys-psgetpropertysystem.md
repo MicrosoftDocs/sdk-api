@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertySystem.htm
 tech.root: properties
 ms.assetid: ddbf7cea-b22f-4cf9-8b5f-804640086466
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PSGetPropertySystem, PSGetPropertySystem function [Windows Properties], properties.PSGetPropertySystem, propsys/PSGetPropertySystem, shell.PSGetPropertySystem, shell_PSGetPropertySystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PSGetPropertySystem
-: 
 ---
 
 # PSGetPropertySystem function

@@ -7,7 +7,7 @@ old-location: intl\scriptcptox.htm
 tech.root: Intl
 ms.assetid: 65a11b21-3f4b-463a-b347-a00add32380c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ScriptCPtoX, ScriptCPtoX function [Internationalization for Windows Applications], _win32_ScriptCPtoX, intl.scriptcptox, usp10/ScriptCPtoX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
-- apiref
-: 
-- 
-: 
-- ScriptCPtoX
-: 
 ---
 
 # ScriptCPtoX function

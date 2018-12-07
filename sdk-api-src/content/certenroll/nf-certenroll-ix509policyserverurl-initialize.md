@@ -4,10 +4,10 @@ title: IX509PolicyServerUrl::Initialize
 author: windows-sdk-content
 description: Initializes an IX509PolicyServerUrl object for a computer or user context.
 old-location: security\ix509policyserverurl_initialize.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 693c3a29-0d12-4603-a06a-4277db3b8b8b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],Initialize method, IX509PolicyServerUrl.Initialize, IX509PolicyServerUrl::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::Initialize, security.ix509policyserverurl_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509PolicyServerUrl.Initialize
-: 
 ---
 
 # IX509PolicyServerUrl::Initialize

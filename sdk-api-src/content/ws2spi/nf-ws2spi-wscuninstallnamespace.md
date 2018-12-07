@@ -4,10 +4,10 @@ title: WSCUnInstallNameSpace function
 author: windows-sdk-content
 description: Uninstalls the indicated name-space provider.
 old-location: winsock\wscuninstallnamespace_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 5267f986-99fc-4e53-9fbb-3850bb9d24cf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSCUnInstallNameSpace, WSCUnInstallNameSpace function [Winsock], _win32_wscuninstallnamespace_2, winsock.wscuninstallnamespace_2, ws2spi/WSCUnInstallNameSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSCUnInstallNameSpace
-: 
 ---
 
 # WSCUnInstallNameSpace function

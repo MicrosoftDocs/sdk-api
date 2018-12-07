@@ -4,10 +4,10 @@ title: FindNextUrlCacheGroup function
 author: windows-sdk-content
 description: Retrieves the next cache group in a cache group enumeration started by FindFirstUrlCacheGroup.
 old-location: wininet\findnexturlcachegroup.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: f3cbe67c-c069-404c-8ca4-d18b35cc4c4a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FindNextUrlCacheGroup, FindNextUrlCacheGroup function [WinINet], _inet_findnexturlcachegroup_function, wininet.findnexturlcachegroup, wininet/FindNextUrlCacheGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FindNextUrlCacheGroup
-: 
 ---
 
 # FindNextUrlCacheGroup function

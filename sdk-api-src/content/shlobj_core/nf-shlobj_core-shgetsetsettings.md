@@ -7,7 +7,7 @@ old-location: shell\SHGetSetSettings.htm
 tech.root: shell
 ms.assetid: d7c2646c-03e0-4d7a-9503-bdf487d43723
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHGetSetSettings, SHGetSetSettings function [Windows Shell], _win32_SHGetSetSettings, shell.SHGetSetSettings, shlobj_core/SHGetSetSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHGetSetSettings
-: 
 ---
 
 # SHGetSetSettings function

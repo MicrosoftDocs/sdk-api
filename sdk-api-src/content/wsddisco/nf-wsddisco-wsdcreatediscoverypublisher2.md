@@ -4,10 +4,10 @@ title: WSDCreateDiscoveryPublisher2 function
 author: windows-sdk-content
 description: Creates an IWSDiscoveryPublisher object that supports signed messages.
 old-location: ncd\wsdcreatediscoverypublisher2.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 43c17910-a4b6-4889-ba98-4e125b4a3ac0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSDCreateDiscoveryPublisher2, WSDCreateDiscoveryPublisher2 function, ncd.wsdcreatediscoverypublisher2, wsddisco/WSDCreateDiscoveryPublisher2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSDCreateDiscoveryPublisher2
-: 
 ---
 
 # WSDCreateDiscoveryPublisher2 function

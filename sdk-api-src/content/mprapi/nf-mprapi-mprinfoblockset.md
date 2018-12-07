@@ -4,10 +4,10 @@ title: MprInfoBlockSet function
 author: windows-sdk-content
 description: The MprInfoBlockSet creates a new header that is identical to an existing header with a specified block modified.
 old-location: rras\mprinfoblockset.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 55912927-d886-46d1-a5c1-e10f19c117ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MprInfoBlockSet, MprInfoBlockSet function [RAS], _mpr_mprinfoblockset, mprapi/MprInfoBlockSet, rras.mprinfoblockset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprInfoBlockSet
-: 
 ---
 
 # MprInfoBlockSet function

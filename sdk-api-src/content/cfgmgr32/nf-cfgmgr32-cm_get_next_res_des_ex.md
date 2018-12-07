@@ -7,7 +7,7 @@ old-location: devinst\cm_get_next_res_des_ex.htm
 tech.root: devinst
 ms.assetid: 91e9a686-2465-4ae8-9cc2-391cd98c2138
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Get_Next_Res_Des_Ex, CM_Get_Next_Res_Des_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Next_Res_Des_Ex, cfgmgrfn_2c25fbc8-7434-4a94-817e-2c7cd8d9fa99.xml, devinst.cm_get_next_res_des_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Get_Next_Res_Des_Ex
-: 
 ---
 
 # CM_Get_Next_Res_Des_Ex function

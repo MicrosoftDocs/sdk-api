@@ -4,10 +4,10 @@ title: EventDescGetKeyword function
 author: windows-sdk-content
 description: Retrieves the keyword from the event descriptor.
 old-location: etw\eventdescgetkeyword_func.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 4c96fad0-23c4-44cc-8b8f-2d62f08429d2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EventDescGetKeyword, EventDescGetKeyword function [ETW], base.eventdescgetkeyword_func, etw.eventdescgetkeyword_func, evntprov/EventDescGetKeyword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EventDescGetKeyword
-: 
 ---
 
 # EventDescGetKeyword function

@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextsetsecurityinfobykey0_func.htm
 tech.root: fwp
 ms.assetid: 08dd5867-7082-4c1e-88d0-98a382942454
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmProviderContextSetSecurityInfoByKey0, FwpmProviderContextSetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidercontextsetsecurityinfobykey0_func, fwpmu/FwpmProviderContextSetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmProviderContextSetSecurityInfoByKey0
-: 
 ---
 
 # FwpmProviderContextSetSecurityInfoByKey0 function

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_normalize.htm
 tech.root: wmi_v2
 ms.assetid: 4FE8FD63-78F4-41C8-9A72-A2E3ABDEBB86
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Instance_Normalize, MI_Instance_Normalize function [Windows Management Infrastructure (MI)], mi/MI_Instance_Normalize, wmi_v2.mi_instance_normalize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_Instance_Normalize
-: 
 ---
 
 # MI_Instance_Normalize function

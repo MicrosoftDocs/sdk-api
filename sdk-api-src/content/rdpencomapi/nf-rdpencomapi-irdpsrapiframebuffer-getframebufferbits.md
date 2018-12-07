@@ -4,10 +4,10 @@ title: IRDPSRAPIFrameBuffer::GetFrameBufferBits
 author: windows-sdk-content
 description: Gets the bits in a specified area of the frame.
 old-location: rdp\irdpsrapiframebuffer_getframebufferbits.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 6497d9d1-c987-40ea-b384-0fff1e852122
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetFrameBufferBits, GetFrameBufferBits method [RDP], GetFrameBufferBits method [RDP],IRDPSRAPIFrameBuffer interface, IRDPSRAPIFrameBuffer interface [RDP],GetFrameBufferBits method, IRDPSRAPIFrameBuffer.GetFrameBufferBits, IRDPSRAPIFrameBuffer::GetFrameBufferBits, rdp.irdpsrapiframebuffer_getframebufferbits, rdpencomapi/IRDPSRAPIFrameBuffer::GetFrameBufferBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIFrameBuffer.GetFrameBufferBits
-: 
 ---
 
 # IRDPSRAPIFrameBuffer::GetFrameBufferBits

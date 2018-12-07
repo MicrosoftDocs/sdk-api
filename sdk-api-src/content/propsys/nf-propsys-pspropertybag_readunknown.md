@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadUnknown.htm
 tech.root: properties
 ms.assetid: 87921F52-308F-4ed7-8390-A3C0217ACEFD
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_ReadUnknown, PSPropertyBag_ReadUnknown function [Windows Properties], properties.PSPropertyBag_ReadUnknown, propsys/PSPropertyBag_ReadUnknown, shell.PSPropertyBag_ReadUnknown, shell_PSPropertyBag_ReadUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PSPropertyBag_ReadUnknown
-: 
 ---
 
 # PSPropertyBag_ReadUnknown function

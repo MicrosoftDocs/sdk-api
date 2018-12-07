@@ -4,10 +4,10 @@ title: IBackgroundCopyFile2::SetRemoteName
 author: windows-sdk-content
 description: Changes the remote name to a new URL in a download job.
 old-location: bits\ibackgroundcopyfile2_setremotename.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 6dd33b7d-4317-4eb5-aae4-83d3f4416bf9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyFile2 interface [BITS],SetRemoteName method, IBackgroundCopyFile2.SetRemoteName, IBackgroundCopyFile2::SetRemoteName, SetRemoteName, SetRemoteName method [BITS], SetRemoteName method [BITS],IBackgroundCopyFile2 interface, bits.ibackgroundcopyfile2_setremotename, bits2_0/IBackgroundCopyFile2::SetRemoteName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits2_0.h
-: 
-- IBackgroundCopyFile2.SetRemoteName
-: 
 ---
 
 # IBackgroundCopyFile2::SetRemoteName
@@ -66,14 +58,7 @@ Changes the remote name to a new URL in a download job.
 
 
 
-### -param Val
-
-TBD
-
-
-
-
-#### - RemoteName [in]
+### -param Val [in]
 
 Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structure.
 					

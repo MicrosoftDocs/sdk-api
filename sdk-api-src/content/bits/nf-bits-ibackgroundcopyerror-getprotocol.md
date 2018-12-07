@@ -4,10 +4,10 @@ title: IBackgroundCopyError::GetProtocol
 author: windows-sdk-content
 description: Retrieves the protocol used to transfer the file. The remote file name identifies the protocol to use to transfer the file.
 old-location: bits\ibackgroundcopyerror_getprotocol.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 94c1fcc8-7132-41db-9a1c-cbe105e3b0bb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProtocol, GetProtocol method [BITS], GetProtocol method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetProtocol method, IBackgroundCopyError.GetProtocol, IBackgroundCopyError::GetProtocol, _drz_ibackgroundcopyerror_getprotocol, bits.ibackgroundcopyerror_getprotocol, bits/IBackgroundCopyError::GetProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyError.GetProtocol
-: 
 ---
 
 # IBackgroundCopyError::GetProtocol
@@ -66,14 +58,7 @@ Retrieves the protocol used to transfer the file. The remote file name identifie
 
 
 
-### -param pProtocol
-
-TBD
-
-
-
-
-#### - ppProtocol [out]
+### -param pProtocol [out]
 
 Null-terminated string that contains the protocol used to transfer the file. The string contains "http" for the HTTP protocol and "file" for the SMB protocol. The <i>ppProtocol</i> parameter is set to <b>NULL</b> if the error is not related to the transfer protocol. Call the 
 <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppProtocol</i> when done.

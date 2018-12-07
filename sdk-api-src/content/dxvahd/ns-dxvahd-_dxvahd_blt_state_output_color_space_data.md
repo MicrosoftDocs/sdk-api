@@ -7,7 +7,7 @@ old-location: mf\dxvahd_blt_state_output_color_space_data.htm
 tech.root: medfound
 ms.assetid: ec817ebc-dc3f-4101-863a-218f0a8c998a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Media Foundation], _DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, mf.dxvahd_blt_state_output_color_space_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

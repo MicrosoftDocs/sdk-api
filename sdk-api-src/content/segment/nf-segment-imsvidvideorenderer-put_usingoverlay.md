@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_put_usingoverlay.htm
 tech.root: mstv
 ms.assetid: ee7a5c92-bdae-4b67-9b2b-5fb4ae3a8fd7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_UsingOverlay method, IMSVidVideoRenderer.put_UsingOverlay, IMSVidVideoRenderer::put_UsingOverlay, IMSVidVideoRendererput_UsingOverlay, mstv.imsvidvideorenderer_put_usingoverlay, put_UsingOverlay, put_UsingOverlay method [Microsoft TV Technologies], put_UsingOverlay method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_UsingOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidVideoRenderer.put_UsingOverlay
-: 
 ---
 
 # IMSVidVideoRenderer::put_UsingOverlay

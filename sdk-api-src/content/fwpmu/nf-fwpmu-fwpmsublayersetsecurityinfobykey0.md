@@ -7,7 +7,7 @@ old-location: fwp\fwpmsublayersetsecurityinfobykey0_func.htm
 tech.root: fwp
 ms.assetid: 47f1aa71-017d-4de2-8428-d666afa67b71
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmSubLayerSetSecurityInfoByKey0, FwpmSubLayerSetSecurityInfoByKey0 function [Filtering], fwp.fwpmsublayersetsecurityinfobykey0_func, fwpmu/FwpmSubLayerSetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmSubLayerSetSecurityInfoByKey0
-: 
 ---
 
 # FwpmSubLayerSetSecurityInfoByKey0 function

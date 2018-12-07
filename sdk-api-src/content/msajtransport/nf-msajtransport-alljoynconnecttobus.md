@@ -7,7 +7,7 @@ old-location: alljoyn\alljoynconnecttobus.htm
 tech.root: AllJoyn
 ms.assetid: B1929CE6-3707-4660-92CA-E267B1E5B9CC
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AllJoynConnectToBus, AllJoynConnectToBus function [AllJoyn API], alljoyn.alljoynconnecttobus, msajtransport/AllJoynConnectToBus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AllJoynConnectToBus
-: 
 ---
 
 # AllJoynConnectToBus function

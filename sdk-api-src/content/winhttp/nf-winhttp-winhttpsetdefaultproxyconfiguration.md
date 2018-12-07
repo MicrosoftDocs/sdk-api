@@ -7,7 +7,7 @@ old-location: http\winhttpsetdefaultproxyconfiguration.htm
 tech.root: WinHttp
 ms.assetid: df95703b-8fa0-4ea4-b9e6-7f19aa8c1941
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinHttpSetDefaultProxyConfiguration, WinHttpSetDefaultProxyConfiguration function [WinHTTP], http.winhttpsetdefaultproxyconfiguration, winhttp.winhttpsetdefaultproxyconfiguration_function, winhttp/WinHttpSetDefaultProxyConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
-- apiref
-: 
-- 
-: 
-- WinHttpSetDefaultProxyConfiguration
-: 
 ---
 
 # WinHttpSetDefaultProxyConfiguration function

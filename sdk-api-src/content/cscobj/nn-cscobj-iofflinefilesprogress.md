@@ -4,10 +4,10 @@ title: IOfflineFilesProgress
 author: windows-sdk-content
 description: Used to report progress back to callers of lengthy Offline Files operations.
 old-location: of\iofflinefilesprogress.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: b568a8c6-119b-486e-94e3-fe4e54a395bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesProgress, IOfflineFilesProgress interface [Offline Files], IOfflineFilesProgress interface [Offline Files],described, cscobj/IOfflineFilesProgress, of.iofflinefilesprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices

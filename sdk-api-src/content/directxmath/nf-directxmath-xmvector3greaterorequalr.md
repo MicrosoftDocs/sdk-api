@@ -7,7 +7,7 @@ old-location: dxmath\xmvector3greaterorequalr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3GreaterOrEqualR(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3GreaterOrEqualR, XMVector3GreaterOrEqualR, XMVector3GreaterOrEqualR method [DirectX Math Support APIs], dxmath.xmvector3greaterorequalr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMVector3GreaterOrEqualR
-: 
 ---
 
 # XMVector3GreaterOrEqualR function

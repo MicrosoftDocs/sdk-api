@@ -7,7 +7,7 @@ old-location: wmi\cinstance_gettimespan.htm
 tech.root: WmiSdk
 ms.assetid: b14c7a62-579b-4a96-b018-c62918c9c35e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetTimeSpan method, CInstance.GetTimeSpan, CInstance::GetTimeSpan, GetTimeSpan, GetTimeSpan method [Windows Management Instrumentation], GetTimeSpan method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_gettimespan, instance/CInstance::GetTimeSpan, wmi.cinstance_gettimespan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- instance.h
-: 
-- CInstance.GetTimeSpan
-: 
 ---
 
 # CInstance::GetTimeSpan

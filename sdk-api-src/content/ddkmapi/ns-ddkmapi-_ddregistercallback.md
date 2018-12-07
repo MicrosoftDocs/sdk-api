@@ -7,7 +7,7 @@ old-location: display\ddregistercallback.htm
 tech.root: display
 ms.assetid: 35b82122-0cff-4a19-9723-28ce38896f2a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDDREGISTERCALLBACK, DDREGISTERCALLBACK, DDREGISTERCALLBACK structure [Display Devices], LPDDREGISTERCALLBACK, LPDDREGISTERCALLBACK structure pointer [Display Devices], _DDREGISTERCALLBACK, ddkmapi/DDREGISTERCALLBACK, ddkmapi/LPDDREGISTERCALLBACK, ddstrcts_bf4e1fea-7c5d-4ae9-96bf-39a78d184aa5.xml, display.ddregistercallback"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\engwriteprinter.htm
 tech.root: display
 ms.assetid: c65f09b2-5924-479a-8067-a1ba472348e2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EngWritePrinter, EngWritePrinter function [Display Devices], display.engwriteprinter, gdifncs_ec307778-86e1-4f8c-96c8-66c86e196a67.xml, winddi/EngWritePrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngWritePrinter
-: 
 ---
 
 # EngWritePrinter function

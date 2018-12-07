@@ -7,7 +7,7 @@ old-location: intl\localenametolcid.htm
 tech.root: Intl
 ms.assetid: 00404566-b9ef-43ea-8056-ca9ab0117814
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LocaleNameToLCID, LocaleNameToLCID function [Internationalization for Windows Applications], _win32_LocaleNameToLCID, intl.localenametolcid, winnls/LocaleNameToLCID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LocaleNameToLCID
-: 
 ---
 
 # LocaleNameToLCID function

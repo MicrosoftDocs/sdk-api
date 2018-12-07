@@ -7,7 +7,7 @@ old-location: setup\iassemblyname_finalize.htm
 tech.root: SbsCs
 ms.assetid: 9930826e-3082-4ad3-991e-13cf426983a4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Finalize, Finalize method [Side-by-side Assemblies], Finalize method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],Finalize method, IAssemblyName.Finalize, IAssemblyName::Finalize, setup.iassemblyname_finalize, winsxs/IAssemblyName::Finalize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsxs.h
-: 
-- IAssemblyName.Finalize
-: 
 ---
 
 # IAssemblyName::Finalize

@@ -4,10 +4,10 @@ title: IOfflineFilesCache::Synchronize
 author: windows-sdk-content
 description: Synchronizes files and directories in the Offline Files cache with their corresponding copies in the applicable network shared folders.
 old-location: of\iofflinefilescache_synchronize.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 4a9dd105-ea68-40ce-b1cb-6126ca932095
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],Synchronize method, IOfflineFilesCache.Synchronize, IOfflineFilesCache::Synchronize, OFFLINEFILES_SYNC_CONTROL_CR_KEEPLATEST, OFFLINEFILES_SYNC_CONTROL_CR_KEEPLOCAL, OFFLINEFILES_SYNC_CONTROL_CR_KEEPREMOTE, OFFLINEFILES_SYNC_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_SYNC_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_SYNC_CONTROL_FLAG_CONSOLE, OFFLINEFILES_SYNC_CONTROL_FLAG_FILLSPARSE, OFFLINEFILES_SYNC_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_SYNC_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_SYNC_CONTROL_FLAG_NONEWFILESOUT, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORALL, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORREDIR, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORUSER, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORUSER_POLICY, OFFLINEFILES_SYNC_CONTROL_FLAG_PINNEWFILES, OFFLINEFILES_SYNC_CONTROL_FLAG_SKIPSUSPENDEDDIRS, OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCIN, OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCOUT, OFFLINEFILES_SYNC_CONTROL_PINLINKTARGETS, Synchronize, Synchronize method [Offline Files], Synchronize method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Synchronize, of.iofflinefilescache_synchronize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesCache.Synchronize
-: 
 ---
 
 # IOfflineFilesCache::Synchronize

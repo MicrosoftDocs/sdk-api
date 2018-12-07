@@ -7,7 +7,7 @@ old-location: mstv\impeg2tablefilter_removeextension.htm
 tech.root: mstv
 ms.assetid: 1f29f29d-d411-44b7-bedb-6d10c49a0d4d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMpeg2TableFilter interface [Microsoft TV Technologies],RemoveExtension method, IMpeg2TableFilter.RemoveExtension, IMpeg2TableFilter::RemoveExtension, IMpeg2TableFilterRemoveExtension, RemoveExtension, RemoveExtension method [Microsoft TV Technologies], RemoveExtension method [Microsoft TV Technologies],IMpeg2TableFilter interface, mpeg2data/IMpeg2TableFilter::RemoveExtension, mstv.impeg2tablefilter_removeextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mpeg2data.h
-: 
-- IMpeg2TableFilter.RemoveExtension
-: 
 ---
 
 # IMpeg2TableFilter::RemoveExtension

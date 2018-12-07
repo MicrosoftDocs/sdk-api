@@ -4,10 +4,10 @@ title: MgmGetNextMfe function
 author: windows-sdk-content
 description: The MgmGetNextMfe function retrieves one or more MFEs.
 old-location: rras\mgmgetnextmfe.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 067003ef-bb92-48cc-bc13-5b90066c9123
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MgmGetNextMfe, MgmGetNextMfe function [RAS], _mpr_mgmgetnextmfe, mgm/MgmGetNextMfe, rras.mgmgetnextmfe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MgmGetNextMfe
-: 
 ---
 
 # MgmGetNextMfe function

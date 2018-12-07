@@ -7,7 +7,7 @@ old-location: iscsidisc\setuppersistentiscsidevices.htm
 tech.root: iSCSIDisc
 ms.assetid: b21e5872-24b2-4a4c-86a7-528789c1b9aa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetupPersistentIScsiDevices, SetupPersistentIscsiDevices, SetupPersistentIscsiDevices function [iSCSI Discovery Library API], iscsidisc.setuppersistentiscsidevices, iscsidsc/SetupPersistentIscsiDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupPersistentIScsiDevices
-: 
 ---
 
 # SetupPersistentIScsiDevices function

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_setcustomoption.htm
 tech.root: wmi_v2
 ms.assetid: 5db96e9e-dd81-4b62-a555-770b781d0ed3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_OperationOptions_SetCustomOption, MI_OperationOptions_SetCustomOption function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetCustomOption, wmi_v2.mi_operationoptions_setcustomoption
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_OperationOptions_SetCustomOption
-: 
 ---
 
 # MI_OperationOptions_SetCustomOption function

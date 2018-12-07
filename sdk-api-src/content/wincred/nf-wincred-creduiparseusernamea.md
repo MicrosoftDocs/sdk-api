@@ -4,10 +4,10 @@ title: CredUIParseUserNameA function
 author: windows-sdk-content
 description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name.
 old-location: security\creduiparseusername.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 4a7fb207-f940-4610-a740-7bf5d58fb285
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CredUIParseUserName, CredUIParseUserName function [Security], CredUIParseUserNameA, CredUIParseUserNameW, _cred_creduiparseusername, security.creduiparseusername, wincred/CredUIParseUserName, wincred/CredUIParseUserNameA, wincred/CredUIParseUserNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CredUIParseUserNameA
-: 
 ---
 
 # CredUIParseUserNameA function

@@ -7,7 +7,7 @@ old-location: properties\VariantGetInt16Elem.htm
 tech.root: properties
 ms.assetid: fd572a65-c74c-490e-8cff-aa9ba54da5a1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VariantGetInt16Elem, VariantGetInt16Elem function [Windows Properties], _shell_VariantGetInt16Elem, properties.VariantGetInt16Elem, propvarutil/VariantGetInt16Elem, shell.VariantGetInt16Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantGetInt16Elem
-: 
 ---
 
 # VariantGetInt16Elem function

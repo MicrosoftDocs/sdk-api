@@ -7,7 +7,7 @@ old-location: com\coishandlerconnected.htm
 tech.root: com
 ms.assetid: f58bdec6-3709-439d-9867-0022a069c53d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CoIsHandlerConnected, CoIsHandlerConnected function [COM], _com_CoIsHandlerConnected, com.coishandlerconnected, combaseapi/CoIsHandlerConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoIsHandlerConnected
-: 
 ---
 
 # CoIsHandlerConnected function

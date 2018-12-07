@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_getname.htm
 tech.root: SMI
 ms.assetid: a8517c53-5833-4087-91eb-3eb9301e0d3a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [SMI], GetName method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetName method, ISettingsItem.GetName, ISettingsItem::GetName, smi.isettingsitem_getname, wcmconfig/ISettingsItem::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wcmconfig.h
-: 
-- ISettingsItem.GetName
-: 
 ---
 
 # ISettingsItem::GetName

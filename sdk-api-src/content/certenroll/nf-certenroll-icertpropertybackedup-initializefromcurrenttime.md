@@ -4,10 +4,10 @@ title: ICertPropertyBackedUp::InitializeFromCurrentTime
 author: windows-sdk-content
 description: Initializes the property from a Boolean value and the current system date and time.
 old-location: security\icertpropertybackedup_initializefromcurrenttime_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 2033c947-661c-4a52-b24f-82fa71ba7868
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICertPropertyBackedUp interface [Security],InitializeFromCurrentTime method, ICertPropertyBackedUp.InitializeFromCurrentTime, ICertPropertyBackedUp::InitializeFromCurrentTime, InitializeFromCurrentTime, InitializeFromCurrentTime method [Security], InitializeFromCurrentTime method [Security],ICertPropertyBackedUp interface, certenroll/ICertPropertyBackedUp::InitializeFromCurrentTime, security.icertpropertybackedup_initializefromcurrenttime_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICertPropertyBackedUp.InitializeFromCurrentTime
-: 
 ---
 
 # ICertPropertyBackedUp::InitializeFromCurrentTime

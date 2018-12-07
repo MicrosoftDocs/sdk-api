@@ -7,7 +7,7 @@ old-location: automat\vari1fromdisp.htm
 tech.root: automat
 ms.assetid: 82439eb1-e46f-4179-9017-fc5dccdbfeaf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarI1FromDisp, VarI1FromDisp function [Automation], _oa96_VarI1FromDisp, automat.vari1fromdisp, oleauto/VarI1FromDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarI1FromDisp
-: 
 ---
 
 # VarI1FromDisp function

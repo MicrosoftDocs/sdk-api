@@ -7,7 +7,7 @@ old-location: security\bcryptderivekeycapi.htm
 tech.root: seccng
 ms.assetid: bebb0767-8c54-48b7-864c-f53caea7120d
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: BCryptDeriveKeyCapi, BCryptDeriveKeyCapi function [Security], bcrypt/BCryptDeriveKeyCapi, security.bcryptderivekeycapi
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BCryptDeriveKeyCapi
-: 
 ---
 
 # BCryptDeriveKeyCapi function

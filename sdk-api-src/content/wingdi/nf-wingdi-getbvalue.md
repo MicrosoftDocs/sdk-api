@@ -7,7 +7,7 @@ old-location: gdi\getbvalue.htm
 tech.root: gdi
 ms.assetid: 97e2644c-5298-4dea-b35a-fc0e2c74f9c8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetBValue, GetBValue macro [Windows GDI], _win32_GetBValue, gdi.getbvalue, wingdi/GetBValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- wingdi.h
-: 
-- GetBValue
-: 
 ---
 
 # GetBValue macro

@@ -7,7 +7,7 @@ old-location: qos\tcdeletefilter.htm
 tech.root: QOS
 ms.assetid: 3a9eaffc-78d8-4473-a2d3-c060b104abd3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TcDeleteFilter, TcDeleteFilter function [QOS], _gqos_tcdeletefilter, qos.tcdeletefilter, traffic/TcDeleteFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TcDeleteFilter
-: 
 ---
 
 # TcDeleteFilter function

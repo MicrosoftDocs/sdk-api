@@ -4,10 +4,10 @@ title: ITrigger::get_StartBoundary
 author: windows-sdk-content
 description: Gets or sets the date and time when the trigger is activated.
 old-location: taskschd\itrigger_startboundary.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 749101ae-3db6-44ec-9113-95282c86c3c0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITrigger interface [Task Scheduler],StartBoundary property, ITrigger.StartBoundary, ITrigger.get_StartBoundary, ITrigger::StartBoundary, ITrigger::get_StartBoundary, ITrigger::put_StartBoundary, StartBoundary property [Task Scheduler], StartBoundary property [Task Scheduler],ITrigger interface, get_StartBoundary, taskschd.itrigger_startboundary, taskschd/ITrigger::StartBoundary, taskschd/ITrigger::get_StartBoundary, taskschd/ITrigger::put_StartBoundary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITrigger.get_StartBoundary
-: 
 ---
 
 # ITrigger::get_StartBoundary

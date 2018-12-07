@@ -7,7 +7,7 @@ old-location: dxmath\xmloadu555.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadU555(const XMU555)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DirectX::PackedVector.XMLoadU555, XMLoadU555, XMLoadU555 method [DirectX Math Support APIs], dxmath.xmloadu555
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMLoadU555
-: 
 ---
 
 # XMLoadU555 function

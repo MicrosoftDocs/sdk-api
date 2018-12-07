@@ -7,7 +7,7 @@ old-location: properties\SHAddDefaultPropertiesByExt.htm
 tech.root: properties
 ms.assetid: ba0fec36-3983-4064-9202-6158af565d9b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHAddDefaultPropertiesByExt, SHAddDefaultPropertiesByExt function [Windows Properties], _shell_SHAddDefaultPropertiesByExt, properties.SHAddDefaultPropertiesByExt, shell.SHAddDefaultPropertiesByExt, shobjidl/SHAddDefaultPropertiesByExt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHAddDefaultPropertiesByExt
-: 
 ---
 
 # SHAddDefaultPropertiesByExt function

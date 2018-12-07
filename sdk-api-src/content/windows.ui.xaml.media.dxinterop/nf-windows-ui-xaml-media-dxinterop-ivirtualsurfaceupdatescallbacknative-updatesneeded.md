@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceupdatescallbacknative_updatesneeded.htm
 tech.root: WinRT
 ms.assetid: D689C977-3182-41FE-A789-8A349AC2FB10
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],UpdatesNeeded method, IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded, IVirtualSurfaceUpdatesCallbackNative.xaml, IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, IVirtualSurfaceUpdatesCallbackNative::xaml, UpdatesNeeded, UpdatesNeeded method [Windows Runtime], UpdatesNeeded method [Windows Runtime],IVirtualSurfaceUpdatesCallbackNative interface, windows/IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, winrt.ivirtualsurfaceupdatescallbacknative_updatesneeded
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- windows.ui.xaml.media.dxinterop.h
-: 
-- IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded
-: 
 ---
 
 # IVirtualSurfaceUpdatesCallbackNative::xaml

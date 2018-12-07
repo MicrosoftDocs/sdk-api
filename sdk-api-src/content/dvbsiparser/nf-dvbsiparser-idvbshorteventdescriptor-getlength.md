@@ -7,7 +7,7 @@ old-location: mstv\idvbshorteventdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 6cccd096-eb8f-488f-9883-3e16e57d3efb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbShortEventDescriptor.GetLength, IDvbShortEventDescriptor::GetLength, dvbsiparser/IDvbShortEventDescriptor::GetLength, mstv.idvbshorteventdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDvbShortEventDescriptor.GetLength
-: 
 ---
 
 # IDvbShortEventDescriptor::GetLength

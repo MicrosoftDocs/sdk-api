@@ -7,7 +7,7 @@ old-location: shell\LongPtrToULongLong.htm
 tech.root: shell
 ms.assetid: 1936b963-751c-46c6-a409-f1191c6940e7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LongPtrToULongLong, LongPtrToULongLong function [Windows Shell], _shell_LongPtrToULongLong, intsafe/LongPtrToULongLong, shell.LongPtrToULongLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LongPtrToULongLong
-: 
 ---
 
 # LongPtrToULongLong function

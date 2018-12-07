@@ -7,7 +7,7 @@ old-location: termserv\itspubplugin2_getresource2list.htm
 tech.root: termserv
 ms.assetid: 58b30088-be32-4aa0-88a4-459df52db7af
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetResource2List, GetResource2List method [Remote Desktop Services], GetResource2List method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],GetResource2List method, ItsPubPlugin2.GetResource2List, ItsPubPlugin2::GetResource2List, termserv.itspubplugin2_getresource2list, tspubplugin2com/ItsPubPlugin2::GetResource2List
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tspubplugin2com.h
-: 
-- ItsPubPlugin2.GetResource2List
-: 
 ---
 
 # ItsPubPlugin2::GetResource2List

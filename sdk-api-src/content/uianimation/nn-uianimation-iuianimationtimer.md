@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimer.htm
 tech.root: UIAnimation
 ms.assetid: 75d29528-005e-4f49-b8ff-651b58d58fc7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAnimationTimer, IUIAnimationTimer interface [Windows Animation], IUIAnimationTimer interface [Windows Animation],described, uianimation.iuianimationtimer, uianimation/IUIAnimationTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iperpropertybrowsing.htm
 tech.root: com
 ms.assetid: 05e46df3-b6c8-4520-af11-21e1ff90fb9f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IPerPropertyBrowsing, IPerPropertyBrowsing interface [COM], IPerPropertyBrowsing interface [COM],described, _ctrl_iperpropertybrowsing, com.iperpropertybrowsing, ocidl/IPerPropertyBrowsing
 ms.prod: windows-hardware
 ms.technology: windows-devices

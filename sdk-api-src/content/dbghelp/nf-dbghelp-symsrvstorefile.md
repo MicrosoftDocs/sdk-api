@@ -4,10 +4,10 @@ title: SymSrvStoreFile function
 author: windows-sdk-content
 description: Stores a file in the specified symbol store.
 old-location: base\symsrvstorefile.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 308ce0bb-d5ff-4de0-b5b3-9e26aa7b163a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SYMSTOREOPT_COMPRESS, SYMSTOREOPT_OVERWRITE, SYMSTOREOPT_PASS_IF_EXISTS, SYMSTOREOPT_POINTER, SYMSTOREOPT_RETURNINDEX, SymSrvStoreFile, SymSrvStoreFile function, SymSrvStoreFileW, base.symsrvstorefile, dbghelp/SymSrvStoreFile, dbghelp/SymSrvStoreFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later
-- apiref
-: 
-- 
-: 
-- SymSrvStoreFile
-: 
 ---
 
 # SymSrvStoreFile function

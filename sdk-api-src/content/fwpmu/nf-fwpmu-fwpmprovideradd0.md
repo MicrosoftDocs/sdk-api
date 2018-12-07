@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovideradd0_func.htm
 tech.root: fwp
 ms.assetid: e76f03e2-0853-465a-9f82-c29d35de32c9
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmProviderAdd0, FwpmProviderAdd0 function [Filtering], fwp.fwpmprovideradd0_func, fwpmu/FwpmProviderAdd0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmProviderAdd0
-: 
 ---
 
 # FwpmProviderAdd0 function

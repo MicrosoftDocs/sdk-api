@@ -7,7 +7,7 @@ old-location: shell\IShellIconOverlayIdentifier.htm
 tech.root: shell
 ms.assetid: c093bc13-def7-411d-b741-50996ffad84b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IShellIconOverlayIdentifier, IShellIconOverlayIdentifier interface [Windows Shell], IShellIconOverlayIdentifier interface [Windows Shell],described, _win32_IShellIconOverlayIdentifier, shell.IShellIconOverlayIdentifier, shobjidl_core/IShellIconOverlayIdentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

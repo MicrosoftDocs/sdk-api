@@ -1,17 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2
-title: XMBYTEN2 function
+title: XMBYTEN2::XMBYTEN2
 author: windows-sdk-content
 description: Default constructor for XMBYTEN2.
 old-location: dxmath\xmbyten2_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN2.#ctor
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: XMBYTEN2 constructor [DirectX Math Support APIs], XMBYTEN2 constructor [DirectX Math Support APIs],XMBYTEN2 structure, XMBYTEN2 structure [DirectX Math Support APIs],XMBYTEN2 constructor, XMBYTEN2.XMBYTEN2, XMBYTEN2.XMBYTEN2(), dxmath.xmbyten2_ctor_1
+ms.date: 12/5/2018
+ms.keywords: XMBYTEN2, XMBYTEN2 constructor [DirectX Math Support APIs], XMBYTEN2 constructor [DirectX Math Support APIs],XMBYTEN2 structure, XMBYTEN2 structure [DirectX Math Support APIs],XMBYTEN2 constructor, XMBYTEN2.XMBYTEN2, XMBYTEN2.XMBYTEN2(), XMBYTEN2::XMBYTEN2, dxmath.xmbyten2_ctor_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMBYTEN2
-: 
 ---
 
-# XMBYTEN2 function
+# XMBYTEN2::XMBYTEN2
 
 
 ## -description

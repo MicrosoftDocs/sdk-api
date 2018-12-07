@@ -7,7 +7,7 @@ old-location: wsw\wsmatchpolicyalternative.htm
 tech.root: wsw
 ms.assetid: 6e5f352b-5422-4bba-9525-7850bdddf0a5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsMatchPolicyAlternative, WsMatchPolicyAlternative function [Web Services for Windows], webservices/WsMatchPolicyAlternative, wsw.wsmatchpolicyalternative
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsMatchPolicyAlternative
-: 
 ---
 
 # WsMatchPolicyAlternative function

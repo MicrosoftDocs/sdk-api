@@ -4,10 +4,10 @@ title: INetFwAuthorizedApplication::put_Name
 author: windows-sdk-content
 description: Specifies the friendly name of this application.
 old-location: ics\inetfwauthorizedapplication_name.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 4937e0a5-089f-404f-b0dc-bba8e8a332a5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],Name property, INetFwAuthorizedApplication.Name, INetFwAuthorizedApplication.put_Name, INetFwAuthorizedApplication::Name, INetFwAuthorizedApplication::get_Name, INetFwAuthorizedApplication::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwAuthorizedApplication interface, ics.inetfwauthorizedapplication_name, netfw/INetFwAuthorizedApplication::Name, netfw/INetFwAuthorizedApplication::get_Name, netfw/INetFwAuthorizedApplication::put_Name, put_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwAuthorizedApplication.put_Name
-: 
 ---
 
 # INetFwAuthorizedApplication::put_Name

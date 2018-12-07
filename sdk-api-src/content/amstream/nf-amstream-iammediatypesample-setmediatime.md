@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_setmediatime.htm
 tech.root: DirectShow
 ms.assetid: d255840f-9ff5-4eb0-b3b4-1295d77403f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetMediaTime method, IAMMediaTypeSample.SetMediaTime, IAMMediaTypeSample::SetMediaTime, IAMMediaTypeSampleSetMediaTime, SetMediaTime, SetMediaTime method [DirectShow], SetMediaTime method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetMediaTime, dshow.iammediatypesample_setmediatime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- amstream.h
-: 
-- IAMMediaTypeSample.SetMediaTime
-: 
 ---
 
 # IAMMediaTypeSample::SetMediaTime

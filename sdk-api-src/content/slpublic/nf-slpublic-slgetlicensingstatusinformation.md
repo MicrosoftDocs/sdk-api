@@ -7,7 +7,7 @@ old-location: security\slgetlicensingstatusinformation.htm
 tech.root: SecSLApi
 ms.assetid: d35e6f8d-a019-46e0-9755-51f670f4913e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLGetLicensingStatusInformation, SLGetLicensingStatusInformation function [Security], security.slgetlicensingstatusinformation, slpublic/SLGetLicensingStatusInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SLGetLicensingStatusInformation
-: 
 ---
 
 # SLGetLicensingStatusInformation function

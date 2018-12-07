@@ -4,10 +4,10 @@ title: CVssWriter::Unsubscribe
 author: windows-sdk-content
 description: The Unsubscribe method unsubscribes the writer with VSS.
 old-location: base\cvsswriter_unsubscribe.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: b2bb68d1-7beb-4ba1-b16d-6314ac3f4a3d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CVssWriter interface [VSS],Unsubscribe method, CVssWriter.Unsubscribe, CVssWriter::Unsubscribe, Unsubscribe, Unsubscribe method [VSS], Unsubscribe method [VSS],CVssWriter interface, _win32_cvsswriter_unsubscribe, base.cvsswriter_unsubscribe, vswriter/CVssWriter::Unsubscribe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- CVssWriter.Unsubscribe
-: 
 ---
 
 # CVssWriter::Unsubscribe

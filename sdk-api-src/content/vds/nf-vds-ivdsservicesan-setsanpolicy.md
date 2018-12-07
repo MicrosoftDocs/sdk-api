@@ -4,10 +4,10 @@ title: IVdsServiceSAN::SetSANPolicy
 author: windows-sdk-content
 description: Sets the disk SAN policy for the operating system.
 old-location: base\ivdsservicesan_setsanpolicy.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: e5cb0b5e-d181-44a7-8416-e9f8fb575423
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsServiceSAN interface,SetSANPolicy method, IVdsServiceSAN.SetSANPolicy, IVdsServiceSAN::SetSANPolicy, SetSANPolicy, SetSANPolicy method, SetSANPolicy method,IVdsServiceSAN interface, base.ivdsservicesan_setsanpolicy, vds/IVdsServiceSAN::SetSANPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsServiceSAN.SetSANPolicy
-: 
 ---
 
 # IVdsServiceSAN::SetSANPolicy

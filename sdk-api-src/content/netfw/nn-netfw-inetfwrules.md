@@ -4,10 +4,10 @@ title: INetFwRules
 author: windows-sdk-content
 description: Collection of firewall rules.
 old-location: ics\inetfwrules.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 4908a5f2-4093-4f2d-8e68-fe4b2e552b13
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwRules, INetFwRules interface [ICS/ICF], INetFwRules interface [ICS/ICF],described, ics.inetfwrules, netfw/INetFwRules
 ms.prod: windows-hardware
 ms.technology: windows-devices

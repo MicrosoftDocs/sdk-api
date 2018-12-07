@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_Multiply_matrix_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\multiply.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Matrix class [GDI+],Multiply method, Matrix.Multiply, Matrix::Multiply, Multiply, Multiply method [GDI+], Multiply method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Multiply_matrix_order_, gdiplus._gdiplus_CLASS_Matrix_Multiply_matrix_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusmatrix.h
-: 
-- Matrix.Multiply
-: 
 req.product: GDI+ 1.0
 ---
 

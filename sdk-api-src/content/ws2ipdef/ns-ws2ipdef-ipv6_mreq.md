@@ -1,13 +1,13 @@
 ---
 UID: NS:ws2ipdef.ipv6_mreq
-title: ipv6_mreq
+title: IPV6_MREQ
 author: windows-sdk-content
 description: The ipv6_mreq structure provides multicast group information for IPv6 addresses.
 old-location: winsock\ipv6_mreq.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 672ce465-357c-450c-83a2-3cbdb28e018c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PIPV6_MREQ, IP6_MREQ [Winsock], IPV6_MREQ, IPV6_MREQ structure [Winsock], PIPV6_MREQ, PIPV6_MREQ structure pointer [Winsock], ipv6_mreq, ipv6_mreq structure [Winsock], winsock.ipv6_mreq, ws2ipdef/PIPV6_MREQ, ws2ipdef/ipv6_mreq, ws2tcpip/PIPV6_MREQ, ws2tcpip/ipv6_mreq"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ req.typenames: IPV6_MREQ, *PIPV6_MREQ
 req.redist: 
 ---
 
-# ipv6_mreq structure
+# IPV6_MREQ structure
 
 
 ## -description

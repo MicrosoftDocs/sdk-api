@@ -4,10 +4,10 @@ title: IFsrmActionCommand::put_MonitorCommand
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether FSRM will monitor the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_monitorcommand.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 7aa420de-9be5-4333-a511-23e0443e633b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],MonitorCommand property, IFsrmActionCommand.MonitorCommand, IFsrmActionCommand.put_MonitorCommand, IFsrmActionCommand::MonitorCommand, IFsrmActionCommand::get_MonitorCommand, IFsrmActionCommand::put_MonitorCommand, MonitorCommand property [File Server Resource Manager], MonitorCommand property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_monitorcommand, fsrm.ifsrmactioncommand_monitorcommand, fsrm/IFsrmActionCommand::MonitorCommand, fsrm/IFsrmActionCommand::get_MonitorCommand, fsrm/IFsrmActionCommand::put_MonitorCommand, put_MonitorCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrm.h
-: 
-- IFsrmActionCommand.put_MonitorCommand
-: 
 ---
 
 # IFsrmActionCommand::put_MonitorCommand

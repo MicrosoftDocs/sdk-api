@@ -4,10 +4,10 @@ title: ICertSrvSetupKeyInformation::get_Existing
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether the private key already exists.
 old-location: security\icertsrvsetupkeyinformation_existing.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 2205499f-3ae6-426b-a8e0-a15bc39076ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Existing property [Security], Existing property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],Existing property, ICertSrvSetupKeyInformation.Existing, ICertSrvSetupKeyInformation.get_Existing, ICertSrvSetupKeyInformation::Existing, ICertSrvSetupKeyInformation::get_Existing, ICertSrvSetupKeyInformation::put_Existing, casetup/ICertSrvSetupKeyInformation::Existing, casetup/ICertSrvSetupKeyInformation::get_Existing, casetup/ICertSrvSetupKeyInformation::put_Existing, get_Existing, security.icertsrvsetupkeyinformation_existing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- casetup.h
-: 
-- ICertSrvSetupKeyInformation.get_Existing
-: 
 ---
 
 # ICertSrvSetupKeyInformation::get_Existing

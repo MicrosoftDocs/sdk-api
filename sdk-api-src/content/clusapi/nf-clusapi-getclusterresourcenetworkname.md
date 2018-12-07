@@ -4,10 +4,10 @@ title: GetClusterResourceNetworkName function
 author: windows-sdk-content
 description: Retrieves the Name private property of the Network Name resource on which a resource is dependent.
 old-location: mscs\getclusterresourcenetworkname.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: db3cdaa6-d686-48be-be4a-468910813d6d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetClusterResourceNetworkName, GetClusterResourceNetworkName function [Failover Cluster], PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME, PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME function [Failover Cluster], _wolf_getclusterresourcenetworkname, clusapi/GetClusterResourceNetworkName, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME, mscs.getclusterresourcenetworkname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetClusterResourceNetworkName
-: 
 ---
 
 # GetClusterResourceNetworkName function

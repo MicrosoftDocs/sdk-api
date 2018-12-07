@@ -7,7 +7,7 @@ old-location: shell\ShortToInt8.htm
 tech.root: shell
 ms.assetid: 65cbc147-9d86-4079-82de-36bd5852f13f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ShortToInt8, ShortToInt8 function [Windows Shell], intsafe/ShortToInt8, shell.ShortToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ShortToInt8
-: 
 ---
 
 # ShortToInt8 function

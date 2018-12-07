@@ -7,7 +7,7 @@ old-location: mstv\iatsc_mgt_getrecordtype.htm
 tech.root: mstv
 ms.assetid: f3a1ef39-7de4-4979-acb9-805893f41937
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordType, GetRecordType method [Microsoft TV Technologies], GetRecordType method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordType method, IATSC_MGT.GetRecordType, IATSC_MGT::GetRecordType, IATSC_MGTGetRecordType, atscpsipparser/IATSC_MGT::GetRecordType, mstv.iatsc_mgt_getrecordtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- atscpsipparser.h
-: 
-- IATSC_MGT.GetRecordType
-: 
 ---
 
 # IATSC_MGT::GetRecordType

@@ -4,10 +4,10 @@ title: ITPluggableTerminalSuperclassRegistration::Add
 author: windows-sdk-content
 description: The Add method adds a pluggable terminal superclass to the registry. If the superclass already exists, the method modifies the information for the superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_add.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: ffef0255-c262-43d4-905f-5574c205c37e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [TAPI 2.2], Add method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],Add method, ITPluggableTerminalSuperclassRegistration.Add, ITPluggableTerminalSuperclassRegistration::Add, _tapi3_itpluggableterminalsuperclassregistration_add, tapi3.itpluggableterminalsuperclassregistration_add, termmgr/ITPluggableTerminalSuperclassRegistration::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- termmgr.h
-: 
-- ITPluggableTerminalSuperclassRegistration.Add
-: 
 ---
 
 # ITPluggableTerminalSuperclassRegistration::Add

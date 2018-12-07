@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_getjob_cpp.ht
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6crm.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetJob, GetJob method [Fax Service], GetJob method [Fax Service],IFaxIncomingQueue interface, IFaxIncomingQueue interface [Fax Service],GetJob method, IFaxIncomingQueue.GetJob, IFaxIncomingQueue::GetJob, _mfax_faxincomingqueue.getjob, fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_getjob_cpp, fax._mfax_faxincomingqueue_getjob, faxcomex/IFaxIncomingQueue::GetJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxIncomingQueue.GetJob
-: 
 ---
 
 # IFaxIncomingQueue::GetJob

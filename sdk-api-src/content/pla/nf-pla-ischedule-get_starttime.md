@@ -4,10 +4,10 @@ title: ISchedule::get_StartTime
 author: windows-sdk-content
 description: Retrieves or sets the time of day when the data collector set runs.
 old-location: pla\ischedule_starttime.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 296c9d7d-5629-456f-9119-f06d8b8c476f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ISchedule interface [PLA],StartTime property, ISchedule.StartTime, ISchedule.get_StartTime, ISchedule::StartTime, ISchedule::get_StartTime, ISchedule::put_StartTime, StartTime property [PLA], StartTime property [PLA],ISchedule interface, base.ischedule_starttime, get_StartTime, pla.ischedule_starttime, pla/ISchedule::StartTime, pla/ISchedule::get_StartTime, pla/ISchedule::put_StartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- ISchedule.get_StartTime
-: 
 ---
 
 # ISchedule::get_StartTime

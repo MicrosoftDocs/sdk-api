@@ -4,10 +4,10 @@ title: "_LSA_STRING"
 author: windows-sdk-content
 description: Used by Local Security Authority (LSA) functions to specify an ANSI string.
 old-location: security\lsa_string.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 4ae4160f-bcad-41d9-8239-91da44702b76
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PLSA_STRING, LSA_STRING, LSA_STRING structure [Security], PLSA_STRING, PLSA_STRING structure pointer [Security], _LSA_STRING, _lsa_lsa_string, lsalookup/LSA_STRING, lsalookup/PLSA_STRING, security.lsa_string"
 ms.prod: windows-hardware
 ms.technology: windows-devices

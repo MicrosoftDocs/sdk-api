@@ -7,7 +7,7 @@ old-location: menurc\vs_fixedfileinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationstructures\vs_fixedfileinfo.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VFT2_DRV_COMM, VFT2_DRV_DISPLAY, VFT2_DRV_INSTALLABLE, VFT2_DRV_KEYBOARD, VFT2_DRV_LANGUAGE, VFT2_DRV_MOUSE, VFT2_DRV_NETWORK, VFT2_DRV_PRINTER, VFT2_DRV_SOUND, VFT2_DRV_SYSTEM, VFT2_DRV_VERSIONED_PRINTER, VFT2_FONT_RASTER, VFT2_FONT_TRUETYPE, VFT2_FONT_VECTOR, VFT2_UNKNOWN, VFT_APP, VFT_DLL, VFT_DRV, VFT_FONT, VFT_STATIC_LIB, VFT_UNKNOWN, VFT_VXD, VOS_DOS, VOS_DOS_WINDOWS16, VOS_DOS_WINDOWS32, VOS_NT, VOS_NT_WINDOWS32, VOS_OS216, VOS_OS216_PM16, VOS_OS232, VOS_OS232_PM32, VOS_UNKNOWN, VOS__PM16, VOS__PM32, VOS__WINDOWS16, VOS__WINDOWS32, VS_FF_DEBUG, VS_FF_INFOINFERRED, VS_FF_PATCHED, VS_FF_PRERELEASE, VS_FF_PRIVATEBUILD, VS_FF_SPECIALBUILD, VS_FIXEDFILEINFO, VS_FIXEDFILEINFO structure [Menus and Other Resources], _win32_VS_FIXEDFILEINFO_str, _win32_vs_fixedfileinfo_str_cpp, menurc.vs_fixedfileinfo, tagVS_FIXEDFILEINFO, verrsrc/VS_FIXEDFILEINFO, winui._win32_vs_fixedfileinfo_str
 ms.prod: windows-hardware
 ms.technology: windows-devices

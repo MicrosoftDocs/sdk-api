@@ -4,10 +4,10 @@ title: SaferCreateLevel function
 author: windows-sdk-content
 description: Opens a SAFER_LEVEL_HANDLE.
 old-location: security\safercreatelevel.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: 7deb1365-5355-4983-900b-8e4fed009403
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SAFER_LEVELID_CONSTRAINED, SAFER_LEVELID_DISALLOWED, SAFER_LEVELID_FULLYTRUSTED, SAFER_LEVELID_NORMALUSER, SAFER_LEVELID_UNTRUSTED, SAFER_LEVEL_OPEN, SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferCreateLevel, SaferCreateLevel function [Security], _mnp_safercreatelevel, security.safercreatelevel, winsafer/SaferCreateLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SaferCreateLevel
-: 
 ---
 
 # SaferCreateLevel function

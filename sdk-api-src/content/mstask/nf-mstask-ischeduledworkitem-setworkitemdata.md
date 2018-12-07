@@ -4,10 +4,10 @@ title: IScheduledWorkItem::SetWorkItemData
 author: windows-sdk-content
 description: This method stores application-defined data associated with the work item.
 old-location: taskschd\ischeduledworkitem_setworkitemdata.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 9135b37a-d9f8-4bee-a851-9daca6dc733c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetWorkItemData method, IScheduledWorkItem.SetWorkItemData, IScheduledWorkItem::SetWorkItemData, SetWorkItemData, SetWorkItemData method [Task Scheduler], SetWorkItemData method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setworkitemdata, mstask/IScheduledWorkItem::SetWorkItemData, taskschd.ischeduledworkitem_setworkitemdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.SetWorkItemData
-: 
 ---
 
 # IScheduledWorkItem::SetWorkItemData

@@ -7,7 +7,7 @@ old-location: automat\itypelib_releasetlibattr.htm
 tech.root: automat
 ms.assetid: a5b9ee66-ab66-4ad9-a6bf-93bd98e3905c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITypeLib interface [Automation],ReleaseTLibAttr method, ITypeLib.ReleaseTLibAttr, ITypeLib::ReleaseTLibAttr, ReleaseTLibAttr, ReleaseTLibAttr method [Automation], ReleaseTLibAttr method [Automation],ITypeLib interface, _oa96_ITypeLib_ReleaseTLibAttr, automat.itypelib_releasetlibattr, oaidl/ITypeLib::ReleaseTLibAttr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- oaidl.h
-: 
-- ITypeLib.ReleaseTLibAttr
-: 
 ---
 
 # ITypeLib::ReleaseTLibAttr

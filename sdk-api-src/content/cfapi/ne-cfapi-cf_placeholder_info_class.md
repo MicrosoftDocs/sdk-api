@@ -7,7 +7,7 @@ old-location: cloudapi\cf_placeholder_info_class.htm
 tech.root: cfApi
 ms.assetid: DA05148F-3EF0-4CC3-9233-883859FA00F1
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CF_PLACEHOLDER_INFO_BASIC, CF_PLACEHOLDER_INFO_CLASS, CF_PLACEHOLDER_INFO_CLASS enumeration, CF_PLACEHOLDER_INFO_STANDARD, cfapi/CF_PLACEHOLDER_INFO_BASIC, cfapi/CF_PLACEHOLDER_INFO_CLASS, cfapi/CF_PLACEHOLDER_INFO_STANDARD, cloudApi.cf_placeholder_info_class
 ms.prod: windows-hardware
 ms.technology: windows-devices

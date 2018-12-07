@@ -4,10 +4,10 @@ title: INetworkSettings::get_Id
 author: windows-sdk-content
 description: Gets or sets a GUID value that identifies a network profile.
 old-location: taskschd\inetworksettings_id.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 490a8e0a-a980-4634-924a-00c571e93a59
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INetworkSettings interface [Task Scheduler],Id property, INetworkSettings.Id, INetworkSettings.get_Id, INetworkSettings::Id, INetworkSettings::get_Id, INetworkSettings::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],INetworkSettings interface, get_Id, taskschd.inetworksettings_id, taskschd/INetworkSettings::Id, taskschd/INetworkSettings::get_Id, taskschd/INetworkSettings::put_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- INetworkSettings.get_Id
-: 
 ---
 
 # INetworkSettings::get_Id

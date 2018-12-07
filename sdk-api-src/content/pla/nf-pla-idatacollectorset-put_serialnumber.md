@@ -4,10 +4,10 @@ title: IDataCollectorSet::put_SerialNumber
 author: windows-sdk-content
 description: Retrieves or sets the number of times that this data collector set has been started, including segments.
 old-location: pla\idatacollectorset_get_serialnumber.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 92bfd307-362e-4d60-9a61-d2096fbb3d19
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDataCollectorSet interface [PLA],SerialNumber property, IDataCollectorSet.SerialNumber, IDataCollectorSet.put_SerialNumber, IDataCollectorSet::SerialNumber, IDataCollectorSet::get_SerialNumber, IDataCollectorSet::put_SerialNumber, SerialNumber property [PLA], SerialNumber property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_serialnumber, pla.idatacollectorset_get_serialnumber, pla/IDataCollectorSet::SerialNumber, pla/IDataCollectorSet::get_SerialNumber, pla/IDataCollectorSet::put_SerialNumber, put_SerialNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollectorSet.put_SerialNumber
-: 
 ---
 
 # IDataCollectorSet::put_SerialNumber

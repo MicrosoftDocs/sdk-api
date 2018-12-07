@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidergetbykey0_func.htm
 tech.root: fwp
 ms.assetid: e5ed3f8e-a740-4cd9-9311-278abc9444e1
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmProviderGetByKey0, FwpmProviderGetByKey0 function [Filtering], fwp.fwpmprovidergetbykey0_func, fwpmu/FwpmProviderGetByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmProviderGetByKey0
-: 
 ---
 
 # FwpmProviderGetByKey0 function

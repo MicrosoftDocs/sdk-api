@@ -7,7 +7,7 @@ old-location: tablet\istrokebuilder_appendpackets.htm
 tech.root: tablet
 ms.assetid: 7b53a9b2-11da-4063-aac3-a85e52abeb52
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 7b53a9b2-11da-4063-aac3-a85e52abeb52, AppendPackets, AppendPackets method [Tablet PC], AppendPackets method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],AppendPackets method, IStrokeBuilder.AppendPackets, IStrokeBuilder::AppendPackets, rtscom/IStrokeBuilder::AppendPackets, tablet.istrokebuilder_appendpackets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rtscom.h
-: 
-- IStrokeBuilder.AppendPackets
-: 
 ---
 
 # IStrokeBuilder::AppendPackets

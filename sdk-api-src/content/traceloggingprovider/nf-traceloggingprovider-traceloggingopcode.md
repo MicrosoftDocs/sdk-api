@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingopcode.htm
 tech.root: tracelogging
 ms.assetid: 8D1459CE-51A8-49A8-A30B-EA8D87E822C3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: TraceLoggingOpcode, TraceLoggingOpcode macro, tracelogging.traceloggingopcode, traceloggingprovider/TraceLoggingOpcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- traceloggingprovider.h
-: 
-- TraceLoggingOpcode
-: 
 ---
 
 # TraceLoggingOpcode macro

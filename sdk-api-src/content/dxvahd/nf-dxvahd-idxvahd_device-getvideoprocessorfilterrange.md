@@ -7,7 +7,7 @@ old-location: mf\idxvahd_device_getvideoprocessorfilterrange.htm
 tech.root: medfound
 ms.assetid: cff587a5-04ed-4f3e-bd05-0cb8d83fffb7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetVideoProcessorFilterRange, GetVideoProcessorFilterRange method [Media Foundation], GetVideoProcessorFilterRange method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorFilterRange method, IDXVAHD_Device.GetVideoProcessorFilterRange, IDXVAHD_Device::GetVideoProcessorFilterRange, dxvahd/IDXVAHD_Device::GetVideoProcessorFilterRange, mf.idxvahd_device_getvideoprocessorfilterrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxvahd.h
-: 
-- IDXVAHD_Device.GetVideoProcessorFilterRange
-: 
 ---
 
 # IDXVAHD_Device::GetVideoProcessorFilterRange

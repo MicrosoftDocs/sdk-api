@@ -4,10 +4,10 @@ title: IADsExtension::PrivateInvoke
 author: windows-sdk-content
 description: The IADsExtension::PrivateInvoke method is normally called by ADSI after the IADsExtension::PrivateGetIDsOfNames method. This method can either have a custom implementation or it can delegate the operation to IDispatch::DispInvoke method.
 old-location: adsi\iadsextension_privateinvoke.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 5af74a05-df64-4679-890b-a5a031633fd8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IADsExtension interface [ADSI],PrivateInvoke method, IADsExtension.PrivateInvoke, IADsExtension::PrivateInvoke, PrivateInvoke, PrivateInvoke method [ADSI], PrivateInvoke method [ADSI],IADsExtension interface, _ds_iadsextension_privateinvoke, adsi.iadsextension__privateinvoke, adsi.iadsextension_privateinvoke, iads/IADsExtension::PrivateInvoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsExtension.PrivateInvoke
-: 
 ---
 
 # IADsExtension::PrivateInvoke

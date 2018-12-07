@@ -2,12 +2,12 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS
 title: D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS
 author: windows-sdk-content
-description: Describes the image quality levels for a given format and sample count.
+description: Describes the multi-sampling image quality levels for a given format and sample count.
 old-location: direct3d12\d3d12_feature_data_multisample_quality_levels.htm
 tech.root: direct3d12
 ms.assetid: F3ECEF7C-F4A4-4134-9671-21AE488D8183
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS, D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS structure, d3d12/D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS, direct3d12.d3d12_feature_data_multisample_quality_levels
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,8 +50,7 @@ req.redist:
 ## -description
 
 
-Describes the image quality levels for a given format and sample count.
-        
+Describes the multi-sampling image quality levels for a given format and sample count.
 
 
 ## -struct-fields

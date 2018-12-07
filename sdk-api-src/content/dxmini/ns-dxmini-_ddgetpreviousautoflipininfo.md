@@ -7,7 +7,7 @@ old-location: display\ddgetpreviousautoflipininfo.htm
 tech.root: display
 ms.assetid: 44816bbe-9ec2-4f96-a18c-442359aa36ad
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDDGETPREVIOUSAUTOFLIPININFO, DDGETPREVIOUSAUTOFLIPININFO, DDGETPREVIOUSAUTOFLIPININFO structure [Display Devices], PDDGETPREVIOUSAUTOFLIPININFO, PDDGETPREVIOUSAUTOFLIPININFO structure pointer [Display Devices], Video_Structs_4327df9a-a51c-4fd6-9cd6-ef0665c6562e.xml, _DDGETPREVIOUSAUTOFLIPININFO, display.ddgetpreviousautoflipininfo, dxmini/DDGETPREVIOUSAUTOFLIPININFO, dxmini/PDDGETPREVIOUSAUTOFLIPININFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

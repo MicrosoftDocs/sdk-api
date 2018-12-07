@@ -7,7 +7,7 @@ old-location: gdi\alphablend.htm
 tech.root: gdi
 ms.assetid: 4624aa31-7e19-4506-ac70-9b3c98a8215d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AlphaBlend, AlphaBlend function [Windows GDI], _win32_AlphaBlend, gdi.alphablend, wingdi/AlphaBlend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AlphaBlend
-: 
 ---
 
 # AlphaBlend function

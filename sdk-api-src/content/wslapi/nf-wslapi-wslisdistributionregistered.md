@@ -7,7 +7,7 @@ old-location: wsl\wslisdistributionregistered.htm
 tech.root: wsl
 ms.assetid: 51751073-922D-43B9-A253-2017CEEC262A
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WslIsDistributionRegistered, WslIsDistributionRegistered function, wsl.wslisdistributionregistered, wslapi/WslIsDistributionRegistered
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WslIsDistributionRegistered
-: 
 ---
 
 # WslIsDistributionRegistered function

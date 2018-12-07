@@ -7,7 +7,7 @@ old-location: mstv\idvblinkagedescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 4a01430f-13b2-40ff-a47e-98e1bcdbf4fc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbLinkageDescriptor.GetTag, IDvbLinkageDescriptor::GetTag, dvbsiparser/IDvbLinkageDescriptor::GetTag, mstv.idvblinkagedescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDvbLinkageDescriptor.GetTag
-: 
 ---
 
 # IDvbLinkageDescriptor::GetTag

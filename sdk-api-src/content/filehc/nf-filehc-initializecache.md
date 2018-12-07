@@ -4,10 +4,10 @@ title: InitializeCache function
 author: windows-sdk-content
 description: Provides the initializing values of the file handle cache.
 old-location: winprog\_initializecache.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 756235f6-293b-4535-9b0e-4294fafe9e5a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InitializeCache, InitializeCache function [Windows API], filehc/InitializeCache, winprog._initializecache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InitializeCache
-: 
 ---
 
 # InitializeCache function

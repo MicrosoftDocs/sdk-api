@@ -4,10 +4,10 @@ title: IVdsProviderPrivate::GetObject
 author: windows-sdk-content
 description: Returns the specified object.
 old-location: base\ivdsproviderprivate_getobject.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 3f346255-c5c6-4ca3-9718-0347c3f8294a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetObject, GetObject method [VDS], GetObject method [VDS],IVdsProviderPrivate interface, IVdsProviderPrivate interface [VDS],GetObject method, IVdsProviderPrivate.GetObject, IVdsProviderPrivate::GetObject, base.ivdsproviderprivate_getobject, vdshwprv/IVdsProviderPrivate::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vdshwprv.h
-: 
-- IVdsProviderPrivate.GetObject
-: 
 ---
 
 # IVdsProviderPrivate::GetObject

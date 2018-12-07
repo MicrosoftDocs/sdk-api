@@ -4,10 +4,10 @@ title: ntohd function
 author: windows-sdk-content
 description: Converts an unsigned __int64 from TCP/IP network order to host byte order (which is little-endian on Intel processors) and returns a double.
 old-location: winsock\ntohd.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 00176446-517B-40B8-AF9A-D61B5B033AE1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ntohd, ntohd function [Winsock], winsock.ntohd, winsock2/ntohd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ntohd
-: 
 ---
 
 # ntohd function

@@ -7,7 +7,7 @@ old-location: rm\drmencode.htm
 tech.root: AdRms_Sdk
 ms.assetid: 5fc0275c-098b-43a6-a52a-871321b0e4f3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMEncode, DRMEncode function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMEncode, rm.drmencode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DRMEncode
-: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

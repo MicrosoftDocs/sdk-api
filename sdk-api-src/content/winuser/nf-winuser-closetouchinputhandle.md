@@ -7,7 +7,7 @@ old-location: wintouch\closetouchinputhandle.htm
 tech.root: wintouch
 ms.assetid: bdc8bb94-3126-4183-9dfd-ba4844d98f29
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CloseTouchInputHandle, CloseTouchInputHandle function [Windows Touch], wintouch.closetouchinputhandle, winuser/CloseTouchInputHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CloseTouchInputHandle
-: 
 ---
 
 # CloseTouchInputHandle function

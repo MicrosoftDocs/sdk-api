@@ -4,10 +4,10 @@ title: ITextStrings::GetCount
 author: windows-sdk-content
 description: Gets the number of strings in a string collection.
 old-location: controls\itextstrings_getcount.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 6bbe53ab-bd03-4445-8d36-0186a43da451
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],GetCount method, ITextStrings.GetCount, ITextStrings::GetCount, controls.itextstrings_getcount, tom/ITextStrings::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextStrings.GetCount
-: 
 ---
 
 # ITextStrings::GetCount

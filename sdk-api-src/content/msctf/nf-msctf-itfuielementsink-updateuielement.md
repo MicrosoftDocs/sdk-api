@@ -7,7 +7,7 @@ old-location: tsf\itfuielementsink_updateuielement.htm
 tech.root: TSF
 ms.assetid: 573742f6-df34-4336-a090-3d03a90946ec
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfUIElementSink interface [Text Services Framework],UpdateUIElement method, ITfUIElementSink.UpdateUIElement, ITfUIElementSink::UpdateUIElement, UpdateUIElement, UpdateUIElement method [Text Services Framework], UpdateUIElement method [Text Services Framework],ITfUIElementSink interface, msctf/ITfUIElementSink::UpdateUIElement, tsf.itfuielementsink_updateuielement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfUIElementSink.UpdateUIElement
-: 
 ---
 
 # ITfUIElementSink::UpdateUIElement

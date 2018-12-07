@@ -7,7 +7,7 @@ old-location: shell\ShortToUInt.htm
 tech.root: shell
 ms.assetid: e00b9dd2-fa40-401b-9002-e65c91d2b6ef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ShortToUInt, ShortToUInt function [Windows Shell], intsafe/ShortToUInt, shell.ShortToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ShortToUInt
-: 
 ---
 
 # ShortToUInt function

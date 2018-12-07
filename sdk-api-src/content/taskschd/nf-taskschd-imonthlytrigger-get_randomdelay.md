@@ -4,10 +4,10 @@ title: IMonthlyTrigger::get_RandomDelay
 author: windows-sdk-content
 description: Gets or sets a delay time that is randomly added to the start time of the trigger.
 old-location: taskschd\imonthlytrigger_randomdelay.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 6b2a42dc-4002-4e51-9a8a-2982f83835d6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMonthlyTrigger interface [Task Scheduler],RandomDelay property, IMonthlyTrigger.RandomDelay, IMonthlyTrigger.get_RandomDelay, IMonthlyTrigger::RandomDelay, IMonthlyTrigger::get_RandomDelay, IMonthlyTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],IMonthlyTrigger interface, get_RandomDelay, taskschd.imonthlytrigger_randomdelay, taskschd/IMonthlyTrigger::RandomDelay, taskschd/IMonthlyTrigger::get_RandomDelay, taskschd/IMonthlyTrigger::put_RandomDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IMonthlyTrigger.get_RandomDelay
-: 
 ---
 
 # IMonthlyTrigger::get_RandomDelay

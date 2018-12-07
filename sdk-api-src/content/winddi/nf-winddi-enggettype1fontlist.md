@@ -7,7 +7,7 @@ old-location: display\enggettype1fontlist.htm
 tech.root: display
 ms.assetid: 66f8ca3d-2080-4560-8e64-1dc26ceaaad4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EngGetType1FontList, EngGetType1FontList function [Display Devices], display.enggettype1fontlist, gdifncs_66e06beb-5f9a-4184-9ab8-a0aca467e59d.xml, winddi/EngGetType1FontList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngGetType1FontList
-: 
 ---
 
 # EngGetType1FontList function

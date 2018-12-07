@@ -4,10 +4,10 @@ title: IFunctionDiscovery::GetInstanceCollection
 author: windows-sdk-content
 description: Gets the specified collection of function instances, based on category and subcategory.
 old-location: ncd\ifunctiondiscovery_getinstancecollection_method.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: 615d252c-7365-4ef5-9e4f-94a49783a1bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetInstanceCollection, GetInstanceCollection method, GetInstanceCollection method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstanceCollection method, IFunctionDiscovery.GetInstanceCollection, IFunctionDiscovery::GetInstanceCollection, functiondiscoveryapi/IFunctionDiscovery::GetInstanceCollection, ncd.ifunctiondiscovery_getinstancecollection_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryapi.h
-: 
-- IFunctionDiscovery.GetInstanceCollection
-: 
 ---
 
 # IFunctionDiscovery::GetInstanceCollection

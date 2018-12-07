@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_execnotificationqueryasync.htm
 tech.root: WmiSdk
 ms.assetid: f26eb44a-e0c4-418b-b849-d38d85ef236a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ExecNotificationQueryAsync, ExecNotificationQueryAsync method [Windows Management Instrumentation], ExecNotificationQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecNotificationQueryAsync method, IWbemServices.ExecNotificationQueryAsync, IWbemServices::ExecNotificationQueryAsync, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_execnotificationqueryasync, wbemcli/IWbemServices::ExecNotificationQueryAsync, wmi.iwbemservices_execnotificationqueryasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,14 +56,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemcli.h
-: 
-- IWbemServices.ExecNotificationQueryAsync
-: 
 ---
 
 # IWbemServices::ExecNotificationQueryAsync

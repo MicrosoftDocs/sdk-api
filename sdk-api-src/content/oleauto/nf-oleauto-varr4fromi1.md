@@ -7,7 +7,7 @@ old-location: automat\varr4fromi1.htm
 tech.root: automat
 ms.assetid: a8996080-98a7-439d-a300-3fd3930872fb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarR4FromI1, VarR4FromI1 function [Automation], _oa96_VarR4FromI1, automat.varr4fromi1, oleauto/VarR4FromI1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarR4FromI1
-: 
 ---
 
 # VarR4FromI1 function

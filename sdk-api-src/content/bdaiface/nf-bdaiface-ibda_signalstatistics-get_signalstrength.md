@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalstatistics_get_signalstrength.htm
 tech.root: mstv
 ms.assetid: f4830da1-1031-456e-8f3f-eb15f5366942
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalStrength method, IBDA_SignalStatistics.get_SignalStrength, IBDA_SignalStatistics::get_SignalStrength, IBDA_SignalStatisticsget_SignalStrength, bdaiface/IBDA_SignalStatistics::get_SignalStrength, get_SignalStrength, get_SignalStrength method [Microsoft TV Technologies], get_SignalStrength method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signalstrength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdaiface.h
-: 
-- IBDA_SignalStatistics.get_SignalStrength
-: 
 ---
 
 # IBDA_SignalStatistics::get_SignalStrength

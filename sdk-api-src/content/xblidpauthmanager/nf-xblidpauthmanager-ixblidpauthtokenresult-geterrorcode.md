@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_geterrorcode.htm
 tech.root: xblidp
 ms.assetid: 0870EC42-9E67-4A5F-A465-CDD8B152D257
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetErrorCode, GetErrorCode method, GetErrorCode method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetErrorCode method, IXblIdpAuthTokenResult.GetErrorCode, IXblIdpAuthTokenResult::GetErrorCode, xblidp.ixblidpauthtokenresult_geterrorcode, xblidpauthmanager/IXblIdpAuthTokenResult::GetErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xblidpauthmanager.h
-: 
-- IXblIdpAuthTokenResult.GetErrorCode
-: 
 ---
 
 # IXblIdpAuthTokenResult::GetErrorCode

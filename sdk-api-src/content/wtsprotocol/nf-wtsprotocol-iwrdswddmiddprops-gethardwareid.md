@@ -7,7 +7,7 @@ old-location: termserv\iwrdswddmiddprops_gethardwareid.htm
 tech.root: termserv
 ms.assetid: 4F9D2C6D-6555-4ABE-B856-6DD59B139978
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetHardwareId, GetHardwareId method [Remote Desktop Services], GetHardwareId method [Remote Desktop Services],IWRdsWddmIddProps interface, IWRdsWddmIddProps interface [Remote Desktop Services],GetHardwareId method, IWRdsWddmIddProps.GetHardwareId, IWRdsWddmIddProps::GetHardwareId, termserv.iwrdswddmiddprops_gethardwareid, wtsprotocol/IWRdsWddmIddProps::GetHardwareId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wtsprotocol.h
-: 
-- IWRdsWddmIddProps.GetHardwareId
-: 
 ---
 
 # IWRdsWddmIddProps::GetHardwareId

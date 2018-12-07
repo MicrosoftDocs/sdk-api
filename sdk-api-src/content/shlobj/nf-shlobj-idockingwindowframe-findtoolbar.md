@@ -7,7 +7,7 @@ old-location: shell\IDockingWindowFrame_FindToolbar.htm
 tech.root: shell
 ms.assetid: 9086f8ae-6a81-463d-9482-7a60701ab8de
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FindToolbar, FindToolbar method [Windows Shell], FindToolbar method [Windows Shell],IDockingWindowFrame interface, IDockingWindowFrame interface [Windows Shell],FindToolbar method, IDockingWindowFrame.FindToolbar, IDockingWindowFrame::FindToolbar, _win32_IDockingWindowFrame_FindToolbar, shell.IDockingWindowFrame_FindToolbar, shlobj/IDockingWindowFrame::FindToolbar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shlobj.h
-: 
-- IDockingWindowFrame.FindToolbar
-: 
 ---
 
 # IDockingWindowFrame::FindToolbar

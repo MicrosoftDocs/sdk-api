@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_getstoragefilterstacksize.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getstoragefilterstacksize.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 42bd12bf-1f25-ab24-7650-a67bea7a9458, GetStorageFilterStackSize, GetStorageFilterStackSize method [Direct3D 10], GetStorageFilterStackSize method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetStorageFilterStackSize method, ID3D10InfoQueue.GetStorageFilterStackSize, ID3D10InfoQueue::GetStorageFilterStackSize, d3d10sdklayers/ID3D10InfoQueue::GetStorageFilterStackSize, direct3d10.id3d10infoqueue_getstoragefilterstacksize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10sdklayers.h
-: 
-- ID3D10InfoQueue.GetStorageFilterStackSize
-: 
 ---
 
 # ID3D10InfoQueue::GetStorageFilterStackSize

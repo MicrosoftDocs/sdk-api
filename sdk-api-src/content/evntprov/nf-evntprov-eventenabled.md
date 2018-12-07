@@ -4,10 +4,10 @@ title: EventEnabled function
 author: windows-sdk-content
 description: Determines if the event is enabled for any session.
 old-location: etw\eventenabled_func.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: b332b6d4-6921-40bd-bebc-6646b5b9bcde
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EventEnabled, EventEnabled function [ETW], base.eventenabled_func, etw.eventenabled_func, evntprov/EventEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EventEnabled
-: 
 ---
 
 # EventEnabled function

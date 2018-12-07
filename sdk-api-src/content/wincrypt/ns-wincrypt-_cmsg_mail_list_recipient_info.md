@@ -4,10 +4,10 @@ title: "_CMSG_MAIL_LIST_RECIPIENT_INFO"
 author: windows-sdk-content
 description: Contains information used for previously distributed symmetric key-encryption keys (KEK).
 old-location: security\cmsg_mail_list_recipient_info.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: e0946278-75e9-4990-af81-d9e61da9724b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCMSG_MAIL_LIST_RECIPIENT_INFO, CMSG_MAIL_LIST_RECIPIENT_INFO, CMSG_MAIL_LIST_RECIPIENT_INFO structure [Security], PCMSG_MAIL_LIST_RECIPIENT_INFO, PCMSG_MAIL_LIST_RECIPIENT_INFO structure pointer [Security], _CMSG_MAIL_LIST_RECIPIENT_INFO, _crypto2_cmsg_mail_list_recipient_info, security.cmsg_mail_list_recipient_info, wincrypt/CMSG_MAIL_LIST_RECIPIENT_INFO, wincrypt/PCMSG_MAIL_LIST_RECIPIENT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

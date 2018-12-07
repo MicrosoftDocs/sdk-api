@@ -4,10 +4,10 @@ title: ITToneTerminalEvent::get_Terminal
 author: windows-sdk-content
 description: The get_Terminal method returns an ITTerminal pointer for the tone terminal on which the event occurred.
 old-location: tapi3\ittoneterminalevent_get_terminal.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 3358e219-fde9-4b60-bf75-c6d8c42a51ea
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITToneTerminalEvent interface [TAPI 2.2],get_Terminal method, ITToneTerminalEvent.get_Terminal, ITToneTerminalEvent::get_Terminal, _tapi3_ittoneterminalevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITToneTerminalEvent interface, tapi3.ittoneterminalevent_get_terminal, tapi3if/ITToneTerminalEvent::get_Terminal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITToneTerminalEvent.get_Terminal
-: 
 ---
 
 # ITToneTerminalEvent::get_Terminal

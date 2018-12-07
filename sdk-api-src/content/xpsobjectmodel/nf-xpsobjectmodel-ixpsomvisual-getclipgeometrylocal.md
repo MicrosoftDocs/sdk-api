@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_getclipgeometrylocal.htm
 tech.root: printdocs
 ms.assetid: 19efe0d7-6b11-41bc-80e7-e43e64d977b4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetClipGeometryLocal, GetClipGeometryLocal method [XPS Documents and Packaging], GetClipGeometryLocal method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetClipGeometryLocal method, IXpsOMVisual.GetClipGeometryLocal, IXpsOMVisual::GetClipGeometryLocal, xps.ixpsomvisual_getclipgeometrylocal, xpsobjectmodel/IXpsOMVisual::GetClipGeometryLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMVisual.GetClipGeometryLocal
-: 
 ---
 
 # IXpsOMVisual::GetClipGeometryLocal

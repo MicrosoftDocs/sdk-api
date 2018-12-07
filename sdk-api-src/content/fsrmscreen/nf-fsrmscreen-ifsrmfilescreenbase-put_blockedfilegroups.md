@@ -4,10 +4,10 @@ title: IFsrmFileScreenBase::put_BlockedFileGroups
 author: windows-sdk-content
 description: Retrieves or sets the names of the file groups that contain the file name patterns used to specify the files that are blocked by this screen.
 old-location: fsrm\ifsrmfilescreenbase_blockedfilegroups.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 1f75fa45-8de8-42ca-a0f5-5ffe8acea6b8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: BlockedFileGroups property [File Server Resource Manager], BlockedFileGroups property [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],BlockedFileGroups property, IFsrmFileScreenBase.BlockedFileGroups, IFsrmFileScreenBase.put_BlockedFileGroups, IFsrmFileScreenBase::BlockedFileGroups, IFsrmFileScreenBase::get_BlockedFileGroups, IFsrmFileScreenBase::put_BlockedFileGroups, fs.ifsrmfilescreenbase_blockedfilegroups, fsrm.ifsrmfilescreenbase_blockedfilegroups, fsrmscreen/IFsrmFileScreenBase::BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::get_BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::put_BlockedFileGroups, put_BlockedFileGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmscreen.h
-: 
-- IFsrmFileScreenBase.put_BlockedFileGroups
-: 
 ---
 
 # IFsrmFileScreenBase::put_BlockedFileGroups

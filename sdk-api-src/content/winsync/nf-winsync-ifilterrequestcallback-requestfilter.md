@@ -7,7 +7,7 @@ old-location: winsync\ifilterrequestcallback_requestfilter.htm
 tech.root: winsync
 ms.assetid: f7dea17e-ab13-4eb3-8354-3dfefea16062
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFilterRequestCallback interface [Windows Sync],RequestFilter method, IFilterRequestCallback.RequestFilter, IFilterRequestCallback::RequestFilter, RequestFilter, RequestFilter method [Windows Sync], RequestFilter method [Windows Sync],IFilterRequestCallback interface, winsync.ifilterrequestcallback_requestfilter, winsync/IFilterRequestCallback::RequestFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- IFilterRequestCallback.RequestFilter
-: 
 ---
 
 # IFilterRequestCallback::RequestFilter

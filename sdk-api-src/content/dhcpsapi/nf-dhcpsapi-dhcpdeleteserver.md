@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdeleteserver.htm
 tech.root: DHCP
 ms.assetid: 88b6c29b-7b01-40c7-b4f5-4920845f1eb9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpDeleteServer, DhcpDeleteServer function [DHCP], dhcp.dhcpdeleteserver, dhcpsapi/DhcpDeleteServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpDeleteServer
-: 
 ---
 
 # DhcpDeleteServer function

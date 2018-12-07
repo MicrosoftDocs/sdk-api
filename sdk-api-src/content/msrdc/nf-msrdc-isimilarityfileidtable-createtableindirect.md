@@ -4,10 +4,10 @@ title: ISimilarityFileIdTable::CreateTableIndirect
 author: windows-sdk-content
 description: Creates or opens a similarity file ID table using the RDC application's implementation of the IRdcFileWriter interface.
 old-location: rdc\isimilarityfileidtable_createtableindirect.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 6e472ab0-efa4-4edd-8d78-68d5a66cf41c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateTableIndirect, CreateTableIndirect method [Remote Differential Compression], CreateTableIndirect method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],CreateTableIndirect method, ISimilarityFileIdTable.CreateTableIndirect, ISimilarityFileIdTable::CreateTableIndirect, fs.isimilarityfileidtable_createtableindirect, msrdc/ISimilarityFileIdTable::CreateTableIndirect, rdc.isimilarityfileidtable_createtableindirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- ISimilarityFileIdTable.CreateTableIndirect
-: 
 ---
 
 # ISimilarityFileIdTable::CreateTableIndirect

@@ -4,10 +4,10 @@ title: IBootTrigger
 author: windows-sdk-content
 description: Represents a trigger that starts a task when the system is started.
 old-location: taskschd\iboottrigger.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 8f186ee2-8d74-426c-9173-523a335422c9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBootTrigger, IBootTrigger interface [Task Scheduler], IBootTrigger interface [Task Scheduler],described, boot trigger [Task Scheduler],interface, taskschd.iboottrigger, taskschd/IBootTrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices

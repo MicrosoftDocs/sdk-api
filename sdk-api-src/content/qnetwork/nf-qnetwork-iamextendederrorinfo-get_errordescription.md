@@ -7,7 +7,7 @@ old-location: dshow\iamextendederrorinfo_get_errordescription.htm
 tech.root: DirectShow
 ms.assetid: d417855e-7df6-4978-b971-a91b79c5fa2c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_ErrorDescription method, IAMExtendedErrorInfo.get_ErrorDescription, IAMExtendedErrorInfo::get_ErrorDescription, IAMExtendedErrorInfoget_ErrorDescription, dshow.iamextendederrorinfo_get_errordescription, get_ErrorDescription, get_ErrorDescription method [DirectShow], get_ErrorDescription method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_ErrorDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qnetwork.h
-: 
-- IAMExtendedErrorInfo.get_ErrorDescription
-: 
 ---
 
 # IAMExtendedErrorInfo::get_ErrorDescription

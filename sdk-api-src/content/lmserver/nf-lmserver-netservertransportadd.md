@@ -4,10 +4,10 @@ title: NetServerTransportAdd function
 author: windows-sdk-content
 description: The NetServerTransportAdd function binds the server to the transport protocol.
 old-location: netmgmt\netservertransportadd.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: c8521aed-0762-4412-b117-c911fc77049b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 0, NetServerTransportAdd, NetServerTransportAdd function [Network Management], _win32_netservertransportadd, lmserver/NetServerTransportAdd, netmgmt.netservertransportadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetServerTransportAdd
-: 
 ---
 
 # NetServerTransportAdd function

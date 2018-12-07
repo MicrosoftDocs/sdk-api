@@ -7,7 +7,7 @@ old-location: security\tokenbindingdeletebinding.htm
 tech.root: seccng
 ms.assetid: 4258CC92-580E-403C-9AE4-4BB726255464
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: TokenBindingDeleteBinding, TokenBindingDeleteBinding function [Security], security.tokenbindingdeletebinding, tokenbinding/TokenBindingDeleteBinding
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TokenBindingDeleteBinding
-: 
 ---
 
 # TokenBindingDeleteBinding function

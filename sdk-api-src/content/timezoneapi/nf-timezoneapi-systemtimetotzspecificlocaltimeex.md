@@ -4,10 +4,10 @@ title: SystemTimeToTzSpecificLocalTimeEx function
 author: windows-sdk-content
 description: Converts a time in Coordinated Universal Time (UTC) with dynamic daylight saving time settings to a specified time zone's corresponding local time.
 old-location: base\systemtimetotzspecificlocaltimeex.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: A4483E33-6D74-4194-BF85-51FF55F1BF9A
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SystemTimeToTzSpecificLocalTimeEx, SystemTimeToTzSpecificLocalTimeEx function, base.systemtimetotzspecificlocaltimeex, timezoneapi/SystemTimeToTzSpecificLocalTimeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SystemTimeToTzSpecificLocalTimeEx
-: 
 ---
 
 # SystemTimeToTzSpecificLocalTimeEx function

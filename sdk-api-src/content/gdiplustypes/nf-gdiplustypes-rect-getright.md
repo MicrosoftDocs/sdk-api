@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_GetRight_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getright.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRight, GetRight method [GDI+], GetRight method [GDI+],Rect class, Rect class [GDI+],GetRight method, Rect.GetRight, Rect::GetRight, _gdiplus_CLASS_Rect_GetRight_, gdiplus._gdiplus_CLASS_Rect_GetRight_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplustypes.h
-: 
-- Rect.GetRight
-: 
 req.product: GDI+ 1.0
 ---
 

@@ -7,7 +7,7 @@ old-location: shell\IApplicationDocumentLists.htm
 tech.root: shell
 ms.assetid: 1912d8fd-1724-4a4b-b74a-e05db12ffead
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IApplicationDocumentLists, IApplicationDocumentLists interface [Windows Shell], IApplicationDocumentLists interface [Windows Shell],described, _shell_IApplicationDocumentLists, shell.IApplicationDocumentLists, shobjidl_core/IApplicationDocumentLists
 ms.prod: windows-hardware
 ms.technology: windows-devices

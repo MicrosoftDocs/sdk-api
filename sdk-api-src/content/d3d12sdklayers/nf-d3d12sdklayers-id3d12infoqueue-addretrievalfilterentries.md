@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_addretrievalfilterentries.htm
 tech.root: direct3d12
 ms.assetid: 66430A0A-0279-4D2D-A34D-D49C7940DB87
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AddRetrievalFilterEntries, AddRetrievalFilterEntries method, AddRetrievalFilterEntries method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,AddRetrievalFilterEntries method, ID3D12InfoQueue.AddRetrievalFilterEntries, ID3D12InfoQueue::AddRetrievalFilterEntries, d3d12sdklayers/ID3D12InfoQueue::AddRetrievalFilterEntries, direct3d12.id3d12infoqueue_addretrievalfilterentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d12sdklayers.h
-: 
-- ID3D12InfoQueue.AddRetrievalFilterEntries
-: 
 ---
 
 # ID3D12InfoQueue::AddRetrievalFilterEntries

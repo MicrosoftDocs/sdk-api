@@ -4,10 +4,10 @@ title: "_CERT_REVOCATION_STATUS"
 author: windows-sdk-content
 description: Contains information on the revocation status of the certificate.
 old-location: security\cert_revocation_status.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 087ea37a-907a-4652-a5df-dd8e86755490
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCERT_REVOCATION_STATUS, CERT_REVOCATION_STATUS, CERT_REVOCATION_STATUS structure [Security], CRL_REASON_AFFILIATION_CHANGED, CRL_REASON_CA_COMPROMISE, CRL_REASON_CERTIFICATE_HOLD, CRL_REASON_CESSATION_OF_OPERATION, CRL_REASON_KEY_COMPROMISE, CRL_REASON_SUPERSEDED, CRL_REASON_UNSPECIFIED, PCERT_REVOCATION_STATUS, PCERT_REVOCATION_STATUS structure pointer [Security], _CERT_REVOCATION_STATUS, _crypto2_cert_revocation_status, security.cert_revocation_status, wincrypt/CERT_REVOCATION_STATUS, wincrypt/PCERT_REVOCATION_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

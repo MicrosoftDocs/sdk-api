@@ -7,7 +7,7 @@ old-location: eap\raseapfreememory.htm
 tech.root: EAP
 ms.assetid: d6eb6afd-0d92-4050-b6a9-7bd90788e01c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: RasEapFreeMemory, RasEapFreeMemory callback, RasEapFreeMemory callback function [EAP], _eap_raseapfreememory, eap.raseapfreememory, raseapif/RasEapFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RasEapFreeMemory
-: 
 ---
 
 # RasEapFreeMemory function

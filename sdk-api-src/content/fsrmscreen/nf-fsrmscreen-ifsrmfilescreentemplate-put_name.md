@@ -4,10 +4,10 @@ title: IFsrmFileScreenTemplate::put_Name
 author: windows-sdk-content
 description: Retrieves and sets the name of the file screen template.
 old-location: fsrm\ifsrmfilescreentemplate_name.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: b72309d1-8b8e-46bc-bca4-e6e47dae88e8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmFileScreenTemplate interface [File Server Resource Manager],Name property, IFsrmFileScreenTemplate.Name, IFsrmFileScreenTemplate.put_Name, IFsrmFileScreenTemplate::Name, IFsrmFileScreenTemplate::get_Name, IFsrmFileScreenTemplate::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmFileScreenTemplate interface, fs.ifsrmfilescreentemplate_name, fsrm.ifsrmfilescreentemplate_name, fsrmscreen/IFsrmFileScreenTemplate::Name, fsrmscreen/IFsrmFileScreenTemplate::get_Name, fsrmscreen/IFsrmFileScreenTemplate::put_Name, put_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmscreen.h
-: 
-- IFsrmFileScreenTemplate.put_Name
-: 
 ---
 
 # IFsrmFileScreenTemplate::put_Name

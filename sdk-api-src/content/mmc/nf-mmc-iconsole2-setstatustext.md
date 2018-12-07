@@ -4,10 +4,10 @@ title: IConsole2::SetStatusText
 author: windows-sdk-content
 description: The IConsole2::SetStatusText method enables the snap-in to change the text in the status bar. Be aware that this is used only by instances of IComponent.
 old-location: mmc\iconsole2_setstatustext.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 31c95dcc-8bb8-4a11-9977-d4fa2ca30992
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IConsole2 interface [MMC],SetStatusText method, IConsole2.SetStatusText, IConsole2::SetStatusText, SetStatusText, SetStatusText method [MMC], SetStatusText method [MMC],IConsole2 interface, _slate_iconsole2_setstatustext, mmc.iconsole2_setstatustext, mmc/IConsole2::SetStatusText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IConsole2.SetStatusText
-: 
 ---
 
 # IConsole2::SetStatusText

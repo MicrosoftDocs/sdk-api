@@ -1,17 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingBox.BoundingBox
-title: BoundingBox function
+title: BoundingBox::BoundingBox
 author: windows-sdk-content
 description: Creates an instance of the BoundingBox class.
 old-location: dxmath\boundingbox_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.#ctor
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: BoundingBox constructor [DirectX Math Support APIs], BoundingBox constructor [DirectX Math Support APIs],BoundingBox interface, BoundingBox interface [DirectX Math Support APIs],BoundingBox constructor, BoundingBox.BoundingBox, BoundingBox.BoundingBox(), dxmath.boundingbox_ctor_3
+ms.date: 12/5/2018
+ms.keywords: BoundingBox, BoundingBox constructor [DirectX Math Support APIs], BoundingBox constructor [DirectX Math Support APIs],BoundingBox interface, BoundingBox interface [DirectX Math Support APIs],BoundingBox constructor, BoundingBox.BoundingBox, BoundingBox.BoundingBox(), BoundingBox::BoundingBox, dxmath.boundingbox_ctor_3
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BoundingBox
-: 
 ---
 
-# BoundingBox function
+# BoundingBox::BoundingBox
 
 
 ## -description

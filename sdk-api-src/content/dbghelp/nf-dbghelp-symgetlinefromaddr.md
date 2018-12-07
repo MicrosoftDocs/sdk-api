@@ -4,10 +4,10 @@ title: SymGetLineFromAddr function
 author: windows-sdk-content
 description: Locates the source line for the specified address.
 old-location: base\symgetlinefromaddr64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: a1dad8e0-cd85-41f7-b0e3-e359be94c0ac
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SymGetLineFromAddr, SymGetLineFromAddr function, SymGetLineFromAddr64, SymGetLineFromAddr64 function, SymGetLineFromAddrW64, _win32_symgetlinefromaddr64, base.symgetlinefromaddr64, dbghelp/SymGetLineFromAddr, dbghelp/SymGetLineFromAddr64, dbghelp/SymGetLineFromAddrW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
-- apiref
-: 
-- 
-: 
-- SymGetLineFromAddr
-: 
 ---
 
 # SymGetLineFromAddr function

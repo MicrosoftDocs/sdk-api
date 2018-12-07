@@ -7,7 +7,7 @@ old-location: iphlp\tcpip_owner_module_info_class.htm
 tech.root: IpHlp
 ms.assetid: 8529dd62-8516-47d0-8118-95e6d33fc799
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTCPIP_OWNER_MODULE_INFO_CLASS, PTCPIP_OWNER_MODULE_INFO_CLASS, PTCPIP_OWNER_MODULE_INFO_CLASS enumeration pointer [IP Helper], TCPIP_OWNER_MODULE_INFO_BASIC, TCPIP_OWNER_MODULE_INFO_CLASS, TCPIP_OWNER_MODULE_INFO_CLASS enumeration [IP Helper], _TCPIP_OWNER_MODULE_INFO_CLASS, iphlp.tcpip_owner_module_info_class, iprtrmib/PTCPIP_OWNER_MODULE_INFO_CLASS, iprtrmib/TCPIP_OWNER_MODULE_INFO_BASIC, iprtrmib/TCPIP_OWNER_MODULE_INFO_CLASS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_Condition.htm
 tech.root: WinAuto
 ms.assetid: e62989ac-6fcf-4648-9b81-40b508ceae71
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Condition property [Windows Accessibility], Condition property [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],Condition property, IUIAutomationTreeWalker.Condition, IUIAutomationTreeWalker.get_Condition, IUIAutomationTreeWalker::Condition, IUIAutomationTreeWalker::get_Condition, get_Condition, uiauto.uiauto_IUIAutomationTreeWalker_Condition, uiauto_IUIAutomationTreeWalker_Condition, uiautomationclient/IUIAutomationTreeWalker::Condition, uiautomationclient/IUIAutomationTreeWalker::get_Condition, winauto.uiauto_IUIAutomationTreeWalker_Condition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationTreeWalker.get_Condition
-: 
 ---
 
 # IUIAutomationTreeWalker::get_Condition

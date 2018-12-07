@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_ScrollIntoView.htm
 tech.root: WinAuto
 ms.assetid: 58044de0-124f-4efd-a14f-4865f3278421
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],ScrollIntoView method, ITextRangeProvider.ScrollIntoView, ITextRangeProvider::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_ScrollIntoView, uiauto_ITextRangeProvider_ScrollIntoView, uiautomationcore/ITextRangeProvider::ScrollIntoView, winauto.uiauto_ITextRangeProvider_ScrollIntoView
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationcore.h
-: 
-- ITextRangeProvider.ScrollIntoView
-: 
 ---
 
 # ITextRangeProvider::ScrollIntoView

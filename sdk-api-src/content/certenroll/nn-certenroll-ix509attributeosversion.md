@@ -4,10 +4,10 @@ title: IX509AttributeOSVersion
 author: windows-sdk-content
 description: Represents an attribute that contains version information about the client operating system on which the certificate request was generated.
 old-location: security\ix509attributeosversion.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 2ae84d47-2bda-4954-9165-902634d09da9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509AttributeOSVersion, IX509AttributeOSVersion interface [Security], IX509AttributeOSVersion interface [Security],described, certenroll/IX509AttributeOSVersion, security.ix509attributeosversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

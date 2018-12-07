@@ -4,10 +4,10 @@ title: IUPnPDeviceProvider::Start
 author: windows-sdk-content
 description: The Start method starts the device provider. The device host invokes this method after it loads the device provider This method performs any initialization required by the device provider.
 old-location: upnp\iupnpdeviceprovider_start.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: a76c7063-bad5-4f59-a5ca-8a8a4a79787e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDeviceProvider interface [UPnP APIs],Start method, IUPnPDeviceProvider.Start, IUPnPDeviceProvider::Start, Start, Start method [UPnP APIs], Start method [UPnP APIs],IUPnPDeviceProvider interface, _upnp_iupnpdeviceprovider_start, upnp.iupnpdeviceprovider_start, upnphost/IUPnPDeviceProvider::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnphost.h
-: 
-- IUPnPDeviceProvider.Start
-: 
 ---
 
 # IUPnPDeviceProvider::Start

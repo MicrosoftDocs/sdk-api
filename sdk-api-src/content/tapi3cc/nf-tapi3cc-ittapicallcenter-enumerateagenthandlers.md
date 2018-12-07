@@ -4,10 +4,10 @@ title: ITTAPICallCenter::EnumerateAgentHandlers
 author: windows-sdk-content
 description: The EnumerateAgentHandlers method enumerates agent handlers that are currently associated with the call center.
 old-location: tapi3\ittapicallcenter_enumerateagenthandlers.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 5bd0a926-0d99-4efe-a995-28654c97c97a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EnumerateAgentHandlers, EnumerateAgentHandlers method [TAPI 2.2], EnumerateAgentHandlers method [TAPI 2.2],ITTAPICallCenter interface, ITTAPICallCenter interface [TAPI 2.2],EnumerateAgentHandlers method, ITTAPICallCenter.EnumerateAgentHandlers, ITTAPICallCenter::EnumerateAgentHandlers, _tapi3_ittapicallcenter_enumerateagenthandlers, tapi3.ittapicallcenter_enumerateagenthandlers, tapi3cc/ITTAPICallCenter::EnumerateAgentHandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3cc.h
-: 
-- ITTAPICallCenter.EnumerateAgentHandlers
-: 
 ---
 
 # ITTAPICallCenter::EnumerateAgentHandlers

@@ -2,7 +2,7 @@
 UID: NA:adshlp
 ms.assetid: 1a48b2c0-308d-3e20-8b63-61e6397a1d85
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

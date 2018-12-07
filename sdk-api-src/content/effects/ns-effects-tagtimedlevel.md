@@ -7,7 +7,7 @@ old-location: wmp\timedlevel.htm
 tech.root: WMP
 ms.assetid: a33d4cd1-e888-4ecd-9e6c-113febfefd99
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TimedLevel, TimedLevel structure [Windows Media Player], effects/TimedLevel, tagTimedLevel, typedefstructtagTimedLevel, wmp.timedlevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

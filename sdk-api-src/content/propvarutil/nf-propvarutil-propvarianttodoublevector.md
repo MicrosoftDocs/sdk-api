@@ -7,7 +7,7 @@ old-location: properties\PropVariantToDoubleVector.htm
 tech.root: properties
 ms.assetid: 2d90bf96-8a3f-4949-8480-bb75f0deeb2e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PropVariantToDoubleVector, PropVariantToDoubleVector function [Windows Properties], _shell_PropVariantToDoubleVector, properties.PropVariantToDoubleVector, propvarutil/PropVariantToDoubleVector, shell.PropVariantToDoubleVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantToDoubleVector
-: 
 ---
 
 # PropVariantToDoubleVector function

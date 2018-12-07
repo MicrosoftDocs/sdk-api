@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_currentpartition.htm
 tech.root: cossdk
 ms.assetid: 1df71c0b-0abe-48c3-baa2-8c04b2aa171d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CurrentPartition property [COM+], CurrentPartition property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartition property, ICOMAdminCatalog2.CurrentPartition, ICOMAdminCatalog2.put_CurrentPartition, ICOMAdminCatalog2::CurrentPartition, ICOMAdminCatalog2::put_CurrentPartition, _cos_IComAdminCatalog2_put_CurrentPartition, comadmin/ICOMAdminCatalog2::CurrentPartition, comadmin/ICOMAdminCatalog2::put_CurrentPartition, cos.icomadmincatalog2_currentpartition, put_CurrentPartition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comadmin.h
-: 
-- ICOMAdminCatalog2.put_CurrentPartition
-: 
 ---
 
 # ICOMAdminCatalog2::put_CurrentPartition

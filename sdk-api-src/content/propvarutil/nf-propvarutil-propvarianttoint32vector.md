@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt32Vector.htm
 tech.root: properties
 ms.assetid: 771fa1d7-c648-49d4-a6a2-5aa23f8c20b7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PropVariantToInt32Vector, PropVariantToInt32Vector function [Windows Properties], _shell_PropVariantToInt32Vector, properties.PropVariantToInt32Vector, propvarutil/PropVariantToInt32Vector, shell.PropVariantToInt32Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantToInt32Vector
-: 
 ---
 
 # PropVariantToInt32Vector function

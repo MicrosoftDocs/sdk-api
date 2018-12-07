@@ -4,10 +4,10 @@ title: ITextFont2::SetAutospaceAlpha
 author: windows-sdk-content
 description: Sets the East Asian &#0034;autospace alpha&#0034; state.
 old-location: controls\itextfont2_setautospacealpha.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 8a01677d-74c6-437b-8ee9-350c891c6c3f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceAlpha method, ITextFont2.SetAutospaceAlpha, ITextFont2::SetAutospaceAlpha, SetAutospaceAlpha, SetAutospaceAlpha method [Windows Controls], SetAutospaceAlpha method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospacealpha, tom/ITextFont2::SetAutospaceAlpha
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextFont2.SetAutospaceAlpha
-: 
 ---
 
 # ITextFont2::SetAutospaceAlpha

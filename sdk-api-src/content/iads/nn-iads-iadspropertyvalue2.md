@@ -4,10 +4,10 @@ title: IADsPropertyValue2
 author: windows-sdk-content
 description: Used to represent the value of an IADsPropertyEntry object in any data format.
 old-location: adsi\iadspropertyvalue2.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 57a3b413-f658-4793-abad-358455b5b9f4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPropertyValue2, IADsPropertyValue2 interface [ADSI], IADsPropertyValue2 interface [ADSI],described, _ds_iadspropertyvalue2, adsi.iadspropertyvalue2, iads/IADsPropertyValue2
 ms.prod: windows-hardware
 ms.technology: windows-devices

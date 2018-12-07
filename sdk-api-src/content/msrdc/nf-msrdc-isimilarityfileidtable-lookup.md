@@ -4,10 +4,10 @@ title: ISimilarityFileIdTable::Lookup
 author: windows-sdk-content
 description: Retrieves the file ID that corresponds to a given file index in the similarity file ID table.
 old-location: rdc\isimilarityfileidtable_lookup.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: bf9dbeb1-0182-4927-80ad-bb51fab2e637
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISimilarityFileIdTable interface [Remote Differential Compression],Lookup method, ISimilarityFileIdTable.Lookup, ISimilarityFileIdTable::Lookup, Lookup, Lookup method [Remote Differential Compression], Lookup method [Remote Differential Compression],ISimilarityFileIdTable interface, fs.isimilarityfileidtable_lookup, msrdc/ISimilarityFileIdTable::Lookup, rdc.isimilarityfileidtable_lookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- ISimilarityFileIdTable.Lookup
-: 
 ---
 
 # ISimilarityFileIdTable::Lookup

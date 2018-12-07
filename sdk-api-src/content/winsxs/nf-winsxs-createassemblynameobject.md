@@ -7,7 +7,7 @@ old-location: setup\createassemblynameobject.htm
 tech.root: SbsCs
 ms.assetid: 1290a0b3-28f9-46fb-a98f-40b43bc0df1a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateAssemblyNameObject, CreateAssemblyNameObject function [Side-by-side Assemblies], setup.createassemblynameobject, winsxs/CreateAssemblyNameObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateAssemblyNameObject
-: 
 ---
 
 # CreateAssemblyNameObject function

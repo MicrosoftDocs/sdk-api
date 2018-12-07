@@ -4,10 +4,10 @@ title: lineGetIconW function
 author: windows-sdk-content
 description: The lineGetIcon function allows an application to retrieve a service line device-specific (or provider-specific) icon for display to the user.
 old-location: tapi2\linegeticon.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 4c76a990-676e-4bb2-b7d7-3b4a0aabf058
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegeticon, lineGetIcon, lineGetIcon function [TAPI 2.2], lineGetIconA, lineGetIconW, tapi/lineGetIcon, tapi/lineGetIconA, tapi/lineGetIconW, tapi2.linegeticon"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- lineGetIconW
-: 
 ---
 
 # lineGetIconW function

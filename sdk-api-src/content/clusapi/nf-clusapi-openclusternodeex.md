@@ -4,10 +4,10 @@ title: OpenClusterNodeEx function
 author: windows-sdk-content
 description: Opens a node and returns a handle to it.
 old-location: mscs\openclusternodeex.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 2db24a30-0e4e-4647-8975-c9f584c3a9da
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: OpenClusterNodeEx, OpenClusterNodeEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NODE_EX, PCLUSAPI_OPEN_CLUSTER_NODE_EX function [Failover Cluster], clusapi/OpenClusterNodeEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NODE_EX, mscs.openclusternodeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OpenClusterNodeEx
-: 
 ---
 
 # OpenClusterNodeEx function

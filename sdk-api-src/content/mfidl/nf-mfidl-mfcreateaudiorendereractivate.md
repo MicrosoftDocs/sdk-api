@@ -7,7 +7,7 @@ old-location: mf\mfcreateaudiorendereractivate.htm
 tech.root: medfound
 ms.assetid: bce55c34-d64a-4f3b-8d09-6c9363e4eb11
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MFCreateAudioRendererActivate, MFCreateAudioRendererActivate function [Media Foundation], bce55c34-d64a-4f3b-8d09-6c9363e4eb11, mf.mfcreateaudiorendereractivate, mfidl/MFCreateAudioRendererActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateAudioRendererActivate
-: 
 ---
 
 # MFCreateAudioRendererActivate function

@@ -4,10 +4,10 @@ title: RpcEpRegisterNoReplaceW function
 author: windows-sdk-content
 description: The RpcEpRegisterNoReplace function adds server-address information to the local endpoint-map database.
 old-location: rpc\rpcepregisternoreplace.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: eaf132a8-0bc2-4201-945a-76b6c2eab559
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RpcEpRegisterNoReplace, RpcEpRegisterNoReplace function [RPC], RpcEpRegisterNoReplaceA, RpcEpRegisterNoReplaceW, _rpc_rpcepregisternoreplace, rpc.rpcepregisternoreplace, rpcdce/RpcEpRegisterNoReplace, rpcdce/RpcEpRegisterNoReplaceA, rpcdce/RpcEpRegisterNoReplaceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcEpRegisterNoReplaceW
-: 
 ---
 
 # RpcEpRegisterNoReplaceW function

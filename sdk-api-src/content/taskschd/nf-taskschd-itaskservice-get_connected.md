@@ -4,10 +4,10 @@ title: ITaskService::get_Connected
 author: windows-sdk-content
 description: Gets a Boolean value that indicates if you are connected to the Task Scheduler service.
 old-location: taskschd\itaskservice_connected.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 51450195-f11a-469a-a98f-4d1e00343e41
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Connected property [Task Scheduler], Connected property [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],Connected property, ITaskService.Connected, ITaskService.get_Connected, ITaskService::Connected, ITaskService::get_Connected, get_Connected, taskschd.itaskservice_connected, taskschd/ITaskService::Connected, taskschd/ITaskService::get_Connected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITaskService.get_Connected
-: 
 ---
 
 # ITaskService::get_Connected

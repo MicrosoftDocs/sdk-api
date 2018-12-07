@@ -7,7 +7,7 @@ old-location: wec\ecopensubscriptionenum.htm
 tech.root: WEC
 ms.assetid: edbfabb0-6ad1-415a-a2ef-094b1d3bcccb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EcOpenSubscriptionEnum, EcOpenSubscriptionEnum function, evcoll/EcOpenSubscriptionEnum, wec.ecopensubscriptionenum, wes.ecopensubscriptionenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EcOpenSubscriptionEnum
-: 
 ---
 
 # EcOpenSubscriptionEnum function

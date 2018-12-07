@@ -7,7 +7,7 @@ old-location: monitor\setmonitorcontrast.htm
 tech.root: Monitor
 ms.assetid: 7957702b-0ca2-4aaa-bae7-2518d2628f64
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetMonitorContrast, SetMonitorContrast function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorContrast, monitor.setmonitorcontrast
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetMonitorContrast
-: 
 ---
 
 # SetMonitorContrast function

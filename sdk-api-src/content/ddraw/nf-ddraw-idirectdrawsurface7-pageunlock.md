@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_pageunlock.htm
 tech.root: directdraw
 ms.assetid: 1a87df37-a53f-4240-a5cb-47b13999c34b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],PageUnlock method, IDirectDrawSurface7.PageUnlock, IDirectDrawSurface7::PageUnlock, PageUnlock, PageUnlock method [DirectDraw], PageUnlock method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::PageUnlock, directdraw.idirectdrawsurface7_pageunlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ddraw.h
-: 
-- IDirectDrawSurface7.PageUnlock
-: 
 ---
 
 # IDirectDrawSurface7::PageUnlock

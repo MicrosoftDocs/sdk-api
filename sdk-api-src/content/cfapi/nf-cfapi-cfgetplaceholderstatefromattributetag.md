@@ -7,7 +7,7 @@ old-location: cloudapi\cfgetplaceholderstatefromattributetag.htm
 tech.root: cfApi
 ms.assetid: D7B4FB60-3388-489F-9F55-153B53BBDA9F
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CfGetPlaceholderStateFromAttributeTag, CfGetPlaceholderStateFromAttributeTag function, cfapi/CfGetPlaceholderStateFromAttributeTag, cloudApi.cfgetplaceholderstatefromattributetag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CfGetPlaceholderStateFromAttributeTag
-: 
 ---
 
 # CfGetPlaceholderStateFromAttributeTag function

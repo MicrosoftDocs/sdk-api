@@ -7,7 +7,7 @@ old-location: termserv\itssbenvironment_name.htm
 tech.root: termserv
 ms.assetid: 8104bdae-f445-425b-b326-cc3333839d29
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITsSbEnvironment interface [Remote Desktop Services],Name property, ITsSbEnvironment.Name, ITsSbEnvironment.get_Name, ITsSbEnvironment::Name, ITsSbEnvironment::get_Name, Name property [Remote Desktop Services], Name property [Remote Desktop Services],ITsSbEnvironment interface, get_Name, sbtsv/ITsSbEnvironment::Name, sbtsv/ITsSbEnvironment::get_Name, termserv.itssbenvironment_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbtsv.h
-: 
-- ITsSbEnvironment.get_Name
-: 
 ---
 
 # ITsSbEnvironment::get_Name

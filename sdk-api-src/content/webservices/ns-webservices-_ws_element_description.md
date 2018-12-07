@@ -7,7 +7,7 @@ old-location: wsw\ws_element_description.htm
 tech.root: wsw
 ms.assetid: 17035b64-9b2c-40d3-bdce-45e9b132e9f1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_ELEMENT_DESCRIPTION, WS_ELEMENT_DESCRIPTION structure [Web Services for Windows], _WS_ELEMENT_DESCRIPTION, webservices/WS_ELEMENT_DESCRIPTION, wsw.ws_element_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

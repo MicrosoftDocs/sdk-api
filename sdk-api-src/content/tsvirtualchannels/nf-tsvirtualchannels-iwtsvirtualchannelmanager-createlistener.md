@@ -7,7 +7,7 @@ old-location: termserv\iwtsvirtualchannelmanager_createlistener.htm
 tech.root: termserv
 ms.assetid: 62800999-bd13-4529-b5e4-5c6d67d3a6bc
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSVirtualChannelManager interface, IWTSVirtualChannelManager interface [Remote Desktop Services],CreateListener method, IWTSVirtualChannelManager.CreateListener, IWTSVirtualChannelManager::CreateListener, termserv.iwtsvirtualchannelmanager_createlistener, tsvirtualchannels/IWTSVirtualChannelManager::CreateListener
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tsvirtualchannels.h
-: 
-- IWTSVirtualChannelManager.CreateListener
-: 
 ---
 
 # IWTSVirtualChannelManager::CreateListener
@@ -71,9 +63,11 @@ Returns an instance of a listener object that listens on a specific endpoint.
 The endpoint name on which the listener will listen. This is a string value, the length of which is limited to <b>MAX_PATH</b> number of characters.
 
 
-### -param uFlags
+### -param uFlags [in]
 
-TBD
+This parameter is reserved and must be set to zero.
+
+
 
 
 ### -param pListenerCallback [in, optional]
@@ -84,13 +78,6 @@ Returns a listener callback (<a href="https://msdn.microsoft.com/b5f1d74d-31e6-4
 ### -param ppListener [out, optional]
 
 An instance of the <a href="https://msdn.microsoft.com/af0dda9a-0d18-4f44-ac13-0bf2b903d34e">IWTSListener</a> object.
-
-
-#### - ulFlags [in]
-
-This parameter is reserved and must be set to zero.
-
-
 
 
 ## -returns

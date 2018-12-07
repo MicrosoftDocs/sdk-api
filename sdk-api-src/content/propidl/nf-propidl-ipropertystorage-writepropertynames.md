@@ -4,10 +4,10 @@ title: IPropertyStorage::WritePropertyNames
 author: windows-sdk-content
 description: Assigns string IPropertyStoragenames to a specified array of property IDs in the current property set.
 old-location: stg\ipropertystorage_writepropertynames.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 3612bf29-344a-4389-bd3b-56b9fa297362
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],WritePropertyNames method, IPropertyStorage.WritePropertyNames, IPropertyStorage::WritePropertyNames, WritePropertyNames, WritePropertyNames method [Structured Storage], WritePropertyNames method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_writepropertynames, propidl/IPropertyStorage::WritePropertyNames, stg.ipropertystorage_writepropertynames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- propidl.h
-: 
-- IPropertyStorage.WritePropertyNames
-: 
 ---
 
 # IPropertyStorage::WritePropertyNames

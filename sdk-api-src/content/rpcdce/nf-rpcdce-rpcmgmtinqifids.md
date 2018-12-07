@@ -4,10 +4,10 @@ title: RpcMgmtInqIfIds function
 author: windows-sdk-content
 description: The RpcMgmtInqIfIds function returns a vector containing the identifiers of the interfaces offered by the server.
 old-location: rpc\rpcmgmtinqifids.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: f6d89f2c-ff51-44ab-9f8a-2f76cd3ac6db
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RpcMgmtInqIfIds, RpcMgmtInqIfIds function [RPC], _rpc_rpcmgmtinqifids, rpc.rpcmgmtinqifids, rpcdce/RpcMgmtInqIfIds
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcMgmtInqIfIds
-: 
 ---
 
 # RpcMgmtInqIfIds function

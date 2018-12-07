@@ -7,7 +7,7 @@ old-location: mstv\ipmt_getnexttable.htm
 tech.root: mstv
 ms.assetid: a1e6f321-b24b-46dc-8da8-5a4bbda61918
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetNextTable method, IPMT.GetNextTable, IPMT::GetNextTable, IPMTGetNextTable, mpeg2psiparser/IPMT::GetNextTable, mstv.ipmt_getnexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mpeg2psiparser.h
-: 
-- IPMT.GetNextTable
-: 
 ---
 
 # IPMT::GetNextTable

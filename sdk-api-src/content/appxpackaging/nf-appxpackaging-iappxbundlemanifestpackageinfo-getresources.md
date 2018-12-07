@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestpackageinfo_getresources.htm
 tech.root: appxpkg
 ms.assetid: 07B1028B-4084-44E5-840D-14403E01F628
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: GetResources, GetResources method [App packaging and management], GetResources method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetResources method, IAppxBundleManifestPackageInfo.GetResources, IAppxBundleManifestPackageInfo::GetResources, appxpackaging/IAppxBundleManifestPackageInfo::GetResources, appxpkg.iappxbundlemanifestpackageinfo_getresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- appxpackaging.h
-: 
-- IAppxBundleManifestPackageInfo.GetResources
-: 
 ---
 
 # IAppxBundleManifestPackageInfo::GetResources

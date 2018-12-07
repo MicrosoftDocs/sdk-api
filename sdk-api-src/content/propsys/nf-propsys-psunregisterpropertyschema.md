@@ -7,7 +7,7 @@ old-location: properties\PSUnregisterPropertySchema.htm
 tech.root: properties
 ms.assetid: 57df82a9-8954-4c2b-b794-82ac542149e2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PSUnregisterPropertySchema, PSUnregisterPropertySchema function [Windows Properties], properties.PSUnregisterPropertySchema, propsys/PSUnregisterPropertySchema, shell.PSUnregisterPropertySchema, shell_PSUnregisterPropertySchema
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PSUnregisterPropertySchema
-: 
 ---
 
 # PSUnregisterPropertySchema function

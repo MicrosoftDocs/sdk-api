@@ -4,10 +4,10 @@ title: IFunctionDiscoveryProviderFactory::CreateInstance
 author: windows-sdk-content
 description: Creates a function instance.
 old-location: ncd\ifunctiondiscoveryproviderfactory_createinstance.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: 143a4f62-7093-4127-b89e-e7d0985a92bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreateInstance method, IFunctionDiscoveryProviderFactory.CreateInstance, IFunctionDiscoveryProviderFactory::CreateInstance, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreateInstance, ncd.ifunctiondiscoveryproviderfactory_createinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryprovider.h
-: 
-- IFunctionDiscoveryProviderFactory.CreateInstance
-: 
 ---
 
 # IFunctionDiscoveryProviderFactory::CreateInstance

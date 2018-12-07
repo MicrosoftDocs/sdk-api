@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdeletesuperscopev4.htm
 tech.root: DHCP
 ms.assetid: 5d61f39d-8423-43c4-89ab-4c28214ee84d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpDeleteSuperScopeV4, DhcpDeleteSuperScopeV4 function [DHCP], dhcp.dhcpdeletesuperscopev4, dhcpsapi/DhcpDeleteSuperScopeV4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpDeleteSuperScopeV4
-: 
 ---
 
 # DhcpDeleteSuperScopeV4 function

@@ -4,10 +4,10 @@ title: IVdsVolumeMF2::QueryFileSystemFormatSupport
 author: windows-sdk-content
 description: Retrieves the properties of the file systems that are supported for formatting a volume.
 old-location: base\ivdsvolumemf2_queryfilesystemformatsupport.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 770a92fb-9e70-4db0-a782-b9064daef4ef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsVolumeMF2 interface,QueryFileSystemFormatSupport method, IVdsVolumeMF2.QueryFileSystemFormatSupport, IVdsVolumeMF2::QueryFileSystemFormatSupport, QueryFileSystemFormatSupport, QueryFileSystemFormatSupport method, QueryFileSystemFormatSupport method,IVdsVolumeMF2 interface, base.ivdsvolumemf2_queryfilesystemformatsupport, vds/IVdsVolumeMF2::QueryFileSystemFormatSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsVolumeMF2.QueryFileSystemFormatSupport
-: 
 ---
 
 # IVdsVolumeMF2::QueryFileSystemFormatSupport

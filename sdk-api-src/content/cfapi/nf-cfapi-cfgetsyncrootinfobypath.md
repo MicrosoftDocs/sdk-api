@@ -7,7 +7,7 @@ old-location: cloudapi\cfgetsyncrootinfobypath.htm
 tech.root: cfApi
 ms.assetid: 0FEEF910-3545-4D94-BFF9-88AEE084F454
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CfGetSyncRootInfoByPath, CfGetSyncRootInfoByPath function, cfapi/CfGetSyncRootInfoByPath, cloudApi.cfgetsyncrootinfobypath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CfGetSyncRootInfoByPath
-: 
 ---
 
 # CfGetSyncRootInfoByPath function

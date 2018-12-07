@@ -4,10 +4,10 @@ title: "_VDS_PORT_PROP"
 author: windows-sdk-content
 description: Defines the properties of a port on a controller object.
 old-location: base\vds_port_prop.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 40f81f31-3776-4685-8b79-c047c669b2bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVDS_PORT_PROP, VDS_PORT_PROP, VDS_PORT_PROP structure [VDS], _VDS_PORT_PROP, base.vds_port_prop, vds/_VDS_PORT_PROP, vdshwprv/_VDS_PORT_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

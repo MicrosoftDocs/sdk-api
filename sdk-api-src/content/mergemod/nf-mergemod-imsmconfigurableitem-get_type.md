@@ -4,10 +4,10 @@ title: IMsmConfigurableItem::get_Type
 author: windows-sdk-content
 description: The get_Type method retrieves the Type property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_type.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 18745546-1aa7-4f52-9eba-adfedb46753a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmConfigurableItem interface,get_Type method, IMsmConfigurableItem.get_Type, IMsmConfigurableItem::get_Type, _msi_get_type_function_configurableitem_object_, get_Type, get_Type method, get_Type method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Type, setup.imsmconfigurableitem_get_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mergemod.h
-: 
-- IMsmConfigurableItem.get_Type
-: 
 ---
 
 # IMsmConfigurableItem::get_Type

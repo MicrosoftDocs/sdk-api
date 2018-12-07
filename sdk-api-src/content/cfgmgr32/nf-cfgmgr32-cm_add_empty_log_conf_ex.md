@@ -7,7 +7,7 @@ old-location: devinst\cm_add_empty_log_conf_ex.htm
 tech.root: devinst
 ms.assetid: cb34e5ec-4257-4c30-890a-40f669f1dfeb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Add_Empty_Log_Conf_Ex, CM_Add_Empty_Log_Conf_Ex function [Device and Driver Installation], cfgmgr32/CM_Add_Empty_Log_Conf_Ex, cfgmgrfn_5cbb39e6-bde8-4677-b099-25e30e618569.xml, devinst.cm_add_empty_log_conf_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Add_Empty_Log_Conf_Ex
-: 
 ---
 
 # CM_Add_Empty_Log_Conf_Ex function

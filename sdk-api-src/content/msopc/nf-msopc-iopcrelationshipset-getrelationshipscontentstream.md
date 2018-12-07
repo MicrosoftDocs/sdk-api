@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msopc.h
-: 
-- IOpcRelationshipSet.GetRelationshipsContentStream
-: 
 ---
 
 # IOpcRelationshipSet::GetRelationshipsContentStream

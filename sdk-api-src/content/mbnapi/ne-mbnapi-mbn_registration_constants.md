@@ -7,7 +7,7 @@ old-location: mbn\mbn_registration_constants.htm
 tech.root: mbn
 ms.assetid: d4b0aa6b-899c-493c-9822-92c2710006e4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MBN_CDMA_DEFAULT_PROVIDER_ID, MBN_REGISTRATION_CONSTANTS, MBN_REGISTRATION_CONSTANTS enumeration [Microsoft Broadband Networks], MBN_ROAMTEXT_LEN, mbn.mbn_registration_constants, mbnapi/MBN_CDMA_DEFAULT_PROVIDER_ID, mbnapi/MBN_REGISTRATION_CONSTANTS, mbnapi/MBN_ROAMTEXT_LEN
 ms.prod: windows-hardware
 ms.technology: windows-devices

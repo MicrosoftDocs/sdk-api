@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_sosettargets.htm
 tech.root: direct3d12
 ms.assetid: 40683FD6-5B9F-411C-AC0A-6641E0A3D688
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SOSetTargets method, ID3D12GraphicsCommandList.SOSetTargets, ID3D12GraphicsCommandList::SOSetTargets, SOSetTargets, SOSetTargets method, SOSetTargets method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SOSetTargets, direct3d12.id3d12graphicscommandlist_sosettargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d12.h
-: 
-- ID3D12GraphicsCommandList.SOSetTargets
-: 
 ---
 
 # ID3D12GraphicsCommandList::SOSetTargets

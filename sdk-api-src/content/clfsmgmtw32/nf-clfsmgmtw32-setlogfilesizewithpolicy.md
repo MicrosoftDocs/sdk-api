@@ -7,7 +7,7 @@ old-location: fs\setlogfilesizewithpolicy.htm
 tech.root: Clfs
 ms.assetid: 4da401cf-3606-4ae1-ae6f-37eb3dea6426
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetLogFileSizeWithPolicy, SetLogFileSizeWithPolicy function [Files], clfsmgmtw32/SetLogFileSizeWithPolicy, fs.setlogfilesizewithpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetLogFileSizeWithPolicy
-: 
 ---
 
 # SetLogFileSizeWithPolicy function

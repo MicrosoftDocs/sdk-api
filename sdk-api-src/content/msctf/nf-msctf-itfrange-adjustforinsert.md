@@ -7,7 +7,7 @@ old-location: tsf\itfrange_adjustforinsert.htm
 tech.root: TSF
 ms.assetid: b286266c-d6cf-4291-b4b2-24d5a3d4e1ad
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AdjustForInsert, AdjustForInsert method [Text Services Framework], AdjustForInsert method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],AdjustForInsert method, ITfRange.AdjustForInsert, ITfRange::AdjustForInsert, _tsf_itfrange_adjustforinsert_ref, msctf/ITfRange::AdjustForInsert, tsf.itfrange_adjustforinsert
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfRange.AdjustForInsert
-: 
 ---
 
 # ITfRange::AdjustForInsert

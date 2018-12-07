@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireoptionsdialog.htm
 tech.root: acquisition
 ms.assetid: 075e188f-e533-403d-be06-6a3260479f1a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IPhotoAcquireOptionsDialog, IPhotoAcquireOptionsDialog interface [Picture Acquisition], IPhotoAcquireOptionsDialog interface [Picture Acquisition],described, IPhotoAcquireOptionsDialogInterface, photoacquire/IPhotoAcquireOptionsDialog, picacq.iphotoacquireoptionsdialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

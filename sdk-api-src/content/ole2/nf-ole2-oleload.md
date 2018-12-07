@@ -7,7 +7,7 @@ old-location: com\oleload.htm
 tech.root: com
 ms.assetid: f2d8bb2e-5bd1-4991-a80c-ed06bfd5c9f9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: OleLoad, OleLoad function [COM], _ole_OleLoad, com.oleload, ole2/OleLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OleLoad
-: 
 ---
 
 # OleLoad function

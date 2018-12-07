@@ -7,7 +7,7 @@ old-location: qos\tc_gen_filter.htm
 tech.root: QOS
 ms.assetid: 979bfa2d-50da-43a6-8ead-d338159e31cf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTC_GEN_FILTER, TC_GEN_FILTER, TC_GEN_FILTER structure [QOS], TC_GEN_FILTER), TC_GEN_FILTER) structure [QOS], _TC_GEN_FILTER, _gqos_tc_gen_filter, qos.tc_gen_filter, traffic/TC_GEN_FILTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

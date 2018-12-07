@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_factory_type.htm
 tech.root: DirectWrite
 ms.assetid: ce51d8cd-3125-49e3-878c-9d4b446e2422
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DWRITE_FACTORY_TYPE, DWRITE_FACTORY_TYPE enumeration [Direct Write], DWRITE_FACTORY_TYPE_ISOLATED, DWRITE_FACTORY_TYPE_SHARED, directwrite.dwrite_factory_type, dwrite/DWRITE_FACTORY_TYPE, dwrite/DWRITE_FACTORY_TYPE_ISOLATED, dwrite/DWRITE_FACTORY_TYPE_SHARED
 ms.prod: windows-hardware
 ms.technology: windows-devices

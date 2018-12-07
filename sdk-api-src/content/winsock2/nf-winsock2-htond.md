@@ -4,10 +4,10 @@ title: htond function
 author: windows-sdk-content
 description: Converts a double from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htond.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: DEC42B75-F637-4CD5-B42F-4F59D1516BB9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: htond, htond function [Winsock], winsock.htond, winsock2/htond
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- htond
-: 
 ---
 
 # htond function

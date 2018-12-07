@@ -4,10 +4,10 @@ title: Msv1_0SubAuthenticationRoutineGeneric function
 author: windows-sdk-content
 description: Performs Remote Access Service authentication when subauthentication is requested by calling the LsaCallAuthenticationPackage function.
 old-location: security\msv1_0subauthenticationroutinegeneric.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 78F51B69-DCFA-47D0-84C5-B44C79D50DAF
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Msv1_0SubAuthenticationRoutineGeneric, Msv1_0SubAuthenticationRoutineGeneric function [Security], security.msv1_0subauthenticationroutinegeneric, subauth/Msv1_0SubAuthenticationRoutineGeneric
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Msv1_0SubAuthenticationRoutineGeneric
-: 
 ---
 
 # Msv1_0SubAuthenticationRoutineGeneric function

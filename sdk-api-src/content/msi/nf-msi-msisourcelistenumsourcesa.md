@@ -4,10 +4,10 @@ title: MsiSourceListEnumSourcesA function
 author: windows-sdk-content
 description: The MsiSourceListEnumSources function enumerates the sources in the source list of a specified patch or product.
 old-location: setup\msisourcelistenumsources.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 30a5efae-ebb5-4ff3-880a-4eed1bc8eed4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListEnumSources, MsiSourceListEnumSources function, MsiSourceListEnumSourcesA, MsiSourceListEnumSourcesW, NULL, User SID, msi/MsiSourceListEnumSources, msi/MsiSourceListEnumSourcesA, msi/MsiSourceListEnumSourcesW, s-1-1-0, setup.msisourcelistenumsources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiSourceListEnumSourcesA
-: 
 ---
 
 # MsiSourceListEnumSourcesA function

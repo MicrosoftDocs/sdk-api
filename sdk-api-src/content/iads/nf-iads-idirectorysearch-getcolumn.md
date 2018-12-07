@@ -4,10 +4,10 @@ title: IDirectorySearch::GetColumn
 author: windows-sdk-content
 description: The IDirectorySearch::GetColumn method gets data from a named column of the search result.
 old-location: adsi\idirectorysearch_getcolumn.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 3bcacb24-a4b4-4fad-ab7c-79ef7a67064d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetColumn, GetColumn method [ADSI], GetColumn method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetColumn method, IDirectorySearch.GetColumn, IDirectorySearch::GetColumn, _ds_idirectorysearch_getcolumn, adsi.idirectorysearch__getcolumn, adsi.idirectorysearch_getcolumn, iads/IDirectorySearch::GetColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IDirectorySearch.GetColumn
-: 
 ---
 
 # IDirectorySearch::GetColumn
@@ -68,9 +60,9 @@ The <b>IDirectorySearch::GetColumn</b> method gets data from a named column of t
 
 
 
-### -param hSearchResult
+### -param hSearchResult [in]
 
-TBD
+Provides a handle to the search context.
 
 
 ### -param szColumnName [in]
@@ -81,11 +73,6 @@ Provides the name of the column for which data is requested.
 ### -param pSearchColumn [out]
 
 Provides the address of a method-allocated  <a href="https://msdn.microsoft.com/9fdb370d-9409-4717-ae10-bb3b5b8a0e02">ADS_SEARCH_COLUMN</a> structure that contains the column from the current row of the search result.
-
-
-#### - hSearchHandle [in]
-
-Provides a handle to the search context.
 
 
 ## -returns

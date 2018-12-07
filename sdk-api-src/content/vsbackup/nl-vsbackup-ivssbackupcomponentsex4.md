@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx4
 author: windows-sdk-content
 description: Defines additional methods to support the processing of UNC file share paths in a requester.
 old-location: base\ivssbackupcomponentsex4.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 3D72F6FC-4EAA-49F9-9652-AC314FFAB504
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVssBackupComponentsEx4, IVssBackupComponentsEx4 interface, IVssBackupComponentsEx4 interface,described, base.ivssbackupcomponentsex4, vsbackup/IVssBackupComponentsEx4
 ms.prod: windows-hardware
 ms.technology: windows-devices

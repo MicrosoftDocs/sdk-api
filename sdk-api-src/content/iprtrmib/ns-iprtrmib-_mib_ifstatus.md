@@ -7,7 +7,7 @@ old-location: mib\mib_ifstatus.htm
 tech.root: MIB
 ms.assetid: ab5afe84-1e14-4ffd-9bf6-f3b319554608
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMIB_IFSTATUS, MIB_IFSTATUS, MIB_IFSTATUS structure [MIB], PMIB_IFSTATUS, PMIB_IFSTATUS structure pointer [MIB], _MIB_IFSTATUS, _mpr_mib_ifstatus, iprtrmib/MIB_IFSTATUS, iprtrmib/PMIB_IFSTATUS, mib.mib_ifstatus, rras.mib_ifstatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPer
 tech.root: WinAuto
 ms.assetid: 45b45faa-a147-4c05-82ca-878d46c71af0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CurrentVerticalScrollPercent property [Windows Accessibility], CurrentVerticalScrollPercent property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentVerticalScrollPercent property, IUIAutomationScrollPattern.CurrentVerticalScrollPercent, IUIAutomationScrollPattern.get_CurrentVerticalScrollPercent, IUIAutomationScrollPattern::CurrentVerticalScrollPercent, IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent, get_CurrentVerticalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent, uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CurrentVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationScrollPattern.get_CurrentVerticalScrollPercent
-: 
 ---
 
 # IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent

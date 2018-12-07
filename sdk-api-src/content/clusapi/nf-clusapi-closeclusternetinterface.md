@@ -4,10 +4,10 @@ title: CloseClusterNetInterface function
 author: windows-sdk-content
 description: Closes a network interface handle.
 old-location: mscs\closeclusternetinterface.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: e5978e81-790a-4ca7-92b7-d19af31f222e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CloseClusterNetInterface, CloseClusterNetInterface function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE, PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE function [Failover Cluster], _wolf_closeclusternetinterface, clusapi/CloseClusterNetInterface, clusapi/PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE, mscs.closeclusternetinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CloseClusterNetInterface
-: 
 ---
 
 # CloseClusterNetInterface function

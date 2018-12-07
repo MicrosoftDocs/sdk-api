@@ -7,7 +7,7 @@ old-location: secbiomet\winbioidentify.htm
 tech.root: SecBioMet
 ms.assetid: aaa9b4cd-81d4-4fee-a40a-5563997c42e8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioIdentify, WinBioIdentify function [Windows Biometric Framework API], secbiomet.winbioidentify, winbio/WinBioIdentify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinBioIdentify
-: 
 ---
 
 # WinBioIdentify function

@@ -4,10 +4,10 @@ title: HTTPAPI_LESS_VERSION macro
 author: windows-sdk-content
 description: Returns a non-zero value if an HTTPAPI_VERSION structure is less than a specified major/minor version combination, or zero otherwise.
 old-location: http\httpapi_less_version.htm
-tech.root: Http
+tech.root: http
 ms.assetid: e53d1866-7e5a-43aa-a1b3-287e7cfe3ad8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HTTPAPI_LESS_VERSION, HTTPAPI_LESS_VERSION macro [HTTP], http.httpapi_less_version, http/HTTPAPI_LESS_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- http.h
-: 
-- HTTPAPI_LESS_VERSION
-: 
 ---
 
 # HTTPAPI_LESS_VERSION macro

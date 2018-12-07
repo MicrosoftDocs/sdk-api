@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrix.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMMATRIX
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: XMMATRIX, XMMATRIX structure [DirectX Math Support APIs], directxmath/XMMATRIX, dxmath.xmmatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,6 +153,63 @@ For a list of additional functionality such as constructors and operators that a
 ### -field r
 
 Array of four vectors, representing the rows of the matrix.
+
+
+### -field operator=
+
+TBD 
+
+
+### -field XMMATRIX
+
+TBD 
+
+
+### -field operator()
+
+TBD 
+
+
+### -field operator+=
+
+TBD 
+
+
+### -field operator-=
+
+TBD 
+
+
+### -field operator*=
+
+TBD 
+
+
+### -field operator/=
+
+TBD 
+
+
+### -field operator+
+
+TBD 
+
+
+### -field operator-
+
+TBD 
+
+
+### -field operator*
+
+TBD 
+
+
+### -field operator/
+
+TBD 
+
+
 
 
 ## -remarks

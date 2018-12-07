@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient3_getcurrentsharedmodeengineperiod.htm
 tech.root: CoreAudio
 ms.assetid: F91E46F5-5D12-4D53-842B-4495CAA3E09E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurrentSharedModeEnginePeriod, GetCurrentSharedModeEnginePeriod method [Core Audio], GetCurrentSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetCurrentSharedModeEnginePeriod method, IAudioClient3.GetCurrentSharedModeEnginePeriod, IAudioClient3::GetCurrentSharedModeEnginePeriod, audioclient/IAudioClient3::GetCurrentSharedModeEnginePeriod, coreaudio.iaudioclient3_getcurrentsharedmodeengineperiod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- audioclient.h
-: 
-- IAudioClient3.GetCurrentSharedModeEnginePeriod
-: 
 ---
 
 # IAudioClient3::GetCurrentSharedModeEnginePeriod

@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice1_recommendvideodecoderdownsampleparameters.ht
 tech.root: medfound
 ms.assetid: DD1C1273-C069-4C46-933F-3450F9DDAFBD
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11VideoDevice1 interface [Media Foundation],RecommendVideoDecoderDownsampleParameters method, ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters, ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters method [Media Foundation], RecommendVideoDecoderDownsampleParameters method [Media Foundation],ID3D11VideoDevice1 interface, d3d11_1/ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, mf.id3d11videodevice1_recommendvideodecoderdownsampleparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11_1.h
-: 
-- ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters
-: 
 ---
 
 # ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters

@@ -7,7 +7,7 @@ old-location: automat\vardatefromcy.htm
 tech.root: automat
 ms.assetid: b14f82af-4f26-4211-9368-e4da653c0492
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarDateFromCy, VarDateFromCy function [Automation], _oa96_VarDateFromCy, automat.vardatefromcy, oleauto/VarDateFromCy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarDateFromCy
-: 
 ---
 
 # VarDateFromCy function

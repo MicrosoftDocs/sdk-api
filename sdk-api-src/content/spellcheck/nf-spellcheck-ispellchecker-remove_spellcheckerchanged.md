@@ -7,7 +7,7 @@ old-location: intl\ispellchecker_remove_spellcheckerchanged.htm
 tech.root: Intl
 ms.assetid: 66f62590-2d86-4747-a9e8-ea02f26eeb4d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],remove_SpellCheckerChanged method, ISpellChecker.remove_SpellCheckerChanged, ISpellChecker::remove_SpellCheckerChanged, intl.ispellchecker_remove_spellcheckerchanged, remove_SpellCheckerChanged, remove_SpellCheckerChanged method [Internationalization for Windows Applications], remove_SpellCheckerChanged method [Internationalization for Windows Applications],ISpellChecker interface, spellcheck/ISpellChecker::remove_SpellCheckerChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- spellcheck.h
-: 
-- ISpellChecker.remove_SpellCheckerChanged
-: 
 ---
 
 # ISpellChecker::remove_SpellCheckerChanged

@@ -4,10 +4,10 @@ title: GlobalReAlloc function
 author: windows-sdk-content
 description: Changes the size or attributes of a specified global memory object. The size can increase or decrease.
 old-location: base\globalrealloc.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 2439b16a-f27d-4e95-bc9e-6f1e563933c9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GMEM_MOVEABLE, GMEM_ZEROINIT, GlobalReAlloc, GlobalReAlloc function, _win32_globalrealloc, base.globalrealloc, winbase/GlobalReAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GlobalReAlloc
-: 
 ---
 
 # GlobalReAlloc function

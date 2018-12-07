@@ -4,10 +4,10 @@ title: IBackgroundCopyFile::GetRemoteName
 author: windows-sdk-content
 description: Retrieves the remote name of the file.
 old-location: bits\ibackgroundcopyfile_getremotename.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: b6b1b1dc-776e-4369-bd39-d159e4edfe38
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRemoteName, GetRemoteName method [BITS], GetRemoteName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetRemoteName method, IBackgroundCopyFile.GetRemoteName, IBackgroundCopyFile::GetRemoteName, _drz_ibackgroundcopyfile_getremotename, bits.ibackgroundcopyfile_getremotename, bits/IBackgroundCopyFile::GetRemoteName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyFile.GetRemoteName
-: 
 ---
 
 # IBackgroundCopyFile::GetRemoteName
@@ -66,14 +58,7 @@ Retrieves the remote name of the file.
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - ppName [out]
+### -param pVal [out]
 
 Null-terminated string that contains the remote name of the file to transfer. The name is fully qualified. Call the 
 <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppName</i> when done.

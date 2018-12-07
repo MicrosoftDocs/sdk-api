@@ -7,7 +7,7 @@ old-location: mediastreaming\idevicecontroller.htm
 tech.root: mediastreaming
 ms.assetid: 18989598-86C5-4BD7-B8F4-27496897DFBA
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API], IDeviceController interface [Media Streaming API],described, mediastreaming.idevicecontroller, windows/IDeviceController
 ms.prod: windows-hardware
 ms.technology: windows-devices

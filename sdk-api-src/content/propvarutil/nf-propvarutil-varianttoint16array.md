@@ -7,7 +7,7 @@ old-location: properties\VariantToInt16Array.htm
 tech.root: properties
 ms.assetid: dd00d986-acfa-445e-a0f6-0f52860b762b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToInt16Array, VariantToInt16Array function [Windows Properties], _shell_VariantToInt16Array, properties.VariantToInt16Array, propvarutil/VariantToInt16Array, shell.VariantToInt16Array
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToInt16Array
-: 
 ---
 
 # VariantToInt16Array function

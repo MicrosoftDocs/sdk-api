@@ -4,10 +4,10 @@ title: IEnumNetSharingPublicConnection
 author: windows-sdk-content
 description: The IEnumNetSharingPublicConnection interface provides methods for enumerating the currently configured publicly-shared connections.
 old-location: ics\ienumnetsharingpublicconnection.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 69f2d4c0-7c25-4a50-988b-3ca6babb489a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection interface [ICS/ICF], IEnumNetSharingPublicConnection interface [ICS/ICF],described, _ics_ienumnetsharingpublicconnection, ics.ienumnetsharingpublicconnection, netcon/IEnumNetSharingPublicConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFsrmFileScreenTemplateManager::ImportTemplates
 author: windows-sdk-content
 description: Imports the specified file screen templates from an XML string.
 old-location: fsrm\ifsrmfilescreentemplatemanager_importtemplates.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 0660a1cb-904e-4ed0-bbc8-9903e8848f4e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FsrmFileScreenTemplateManager class [File Server Resource Manager],ImportTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],ImportTemplates method, IFsrmFileScreenTemplateManager.ImportTemplates, IFsrmFileScreenTemplateManager::ImportTemplates, ImportTemplates, ImportTemplates method [File Server Resource Manager], ImportTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, ImportTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, fs.ifsrmfilescreentemplatemanager_importtemplates, fsrm.ifsrmfilescreentemplatemanager_importtemplates, fsrmscreen/IFsrmFileScreenTemplateManager::ImportTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmscreen.h
-: 
-- IFsrmFileScreenTemplateManager.ImportTemplates
-: 
 ---
 
 # IFsrmFileScreenTemplateManager::ImportTemplates

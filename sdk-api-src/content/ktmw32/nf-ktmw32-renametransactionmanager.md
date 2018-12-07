@@ -4,10 +4,10 @@ title: RenameTransactionManager function
 author: windows-sdk-content
 description: Renames a transaction manager (TM) object. This function can only be used on named TM handles.
 old-location: fs\renametransactionmanager.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: 2767e689-1342-458f-a215-a29d774c0648
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RenameTransactionManager, RenameTransactionManager function [Files], fs.renametransactionmanager, ktmw32/RenameTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RenameTransactionManager
-: 
 ---
 
 # RenameTransactionManager function

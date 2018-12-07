@@ -4,10 +4,10 @@ title: "_LSA_REFERENCED_DOMAIN_LIST"
 author: windows-sdk-content
 description: The LSA_REFERENCED_DOMAIN_LIST structure contains information about the domains referenced in a lookup operation.
 old-location: security\lsa_referenced_domain_list.htm
-tech.root: SecMgmt
+tech.root: secmgmt
 ms.assetid: ddf0afcb-7ec4-42ed-bf40-38ef33f33a0c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PLSA_REFERENCED_DOMAIN_LIST, LSA_REFERENCED_DOMAIN_LIST, LSA_REFERENCED_DOMAIN_LIST structure [Security], PLSA_REFERENCED_DOMAIN_LIST, PLSA_REFERENCED_DOMAIN_LIST structure pointer [Security], _LSA_REFERENCED_DOMAIN_LIST, _lsa_lsa_referenced_domain_list, lsalookup/LSA_REFERENCED_DOMAIN_LIST, lsalookup/PLSA_REFERENCED_DOMAIN_LIST, security.lsa_referenced_domain_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices

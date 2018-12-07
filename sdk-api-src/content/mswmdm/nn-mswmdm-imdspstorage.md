@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage.htm
 tech.root: WMDM
 ms.assetid: f22b8a6d-7df8-4fea-9436-79b9ded25a40
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMDSPStorage, IMDSPStorage interface [windows Media Device Manager], IMDSPStorage interface [windows Media Device Manager],described, IMDSPStorageInterface, mswmdm/IMDSPStorage, wmdm.imdspstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

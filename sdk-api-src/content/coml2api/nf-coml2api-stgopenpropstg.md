@@ -4,10 +4,10 @@ title: StgOpenPropStg function
 author: windows-sdk-content
 description: Opens a specified property set in a specified storage or stream object.
 old-location: stg\stgopenpropstg.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: ecc78e49-f1c2-4c2d-8390-b2b6f1dc776e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: StgOpenPropStg, StgOpenPropStg function [Structured Storage], _stg_stgopenpropstg, coml2api/StgOpenPropStg, stg.stgopenpropstg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StgOpenPropStg
-: 
 ---
 
 # StgOpenPropStg function

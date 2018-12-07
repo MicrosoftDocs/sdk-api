@@ -4,10 +4,10 @@ title: EapPeerInvokeIdentityUI function
 author: windows-sdk-content
 description: Raises a custom interactive user interface dialog to obtain user identity information for the EAP method on the client.
 old-location: eaphost\eappeerinvokeidentityui.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 9b3a525a-2322-496e-83c7-a3180235583a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EapPeerInvokeIdentityUI, EapPeerInvokeIdentityUI function [EAPHost], eaphost.eappeerinvokeidentityui, eapmethodpeerapis/EapPeerInvokeIdentityUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapPeerInvokeIdentityUI
-: 
 ---
 
 # EapPeerInvokeIdentityUI function

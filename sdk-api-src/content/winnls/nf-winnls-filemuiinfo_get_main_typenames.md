@@ -7,7 +7,7 @@ old-location: intl\filemuiinfo_get_main_typenames.htm
 tech.root: Intl
 ms.assetid: 93fe7be8-693f-493c-94d4-7b7b2405880a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FILEMUIINFO_GET_MAIN_TYPENAMES, FILEMUIINFO_GET_MAIN_TYPENAMES macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MAIN_TYPENAMES, intl.filemuiinfo_get_main_typenames, winnls/FILEMUIINFO_GET_MAIN_TYPENAMES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winnls.h
-: 
-- FILEMUIINFO_GET_MAIN_TYPENAMES
-: 
 ---
 
 # FILEMUIINFO_GET_MAIN_TYPENAMES macro

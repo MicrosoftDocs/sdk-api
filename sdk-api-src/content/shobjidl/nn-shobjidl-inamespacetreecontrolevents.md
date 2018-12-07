@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents.htm
 tech.root: shell
 ms.assetid: 496fa657-c27c-4f6c-a137-fb0d393aa284
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], INameSpaceTreeControlEvents interface [Windows Shell],described, _shell_INameSpaceTreeControlEvents, shell.INameSpaceTreeControlEvents, shobjidl/INameSpaceTreeControlEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

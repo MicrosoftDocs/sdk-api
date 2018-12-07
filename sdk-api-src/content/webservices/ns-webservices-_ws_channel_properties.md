@@ -7,7 +7,7 @@ old-location: wsw\ws_channel_properties.htm
 tech.root: wsw
 ms.assetid: a28eddde-2b95-4655-962b-1d04b7a2c5fe
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_CHANNEL_PROPERTIES, WS_CHANNEL_PROPERTIES structure [Web Services for Windows], _WS_CHANNEL_PROPERTIES, webservices/WS_CHANNEL_PROPERTIES, wsw.ws_channel_properties
 ms.prod: windows-hardware
 ms.technology: windows-devices

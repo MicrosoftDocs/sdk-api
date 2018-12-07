@@ -4,10 +4,10 @@ title: SetXStateFeaturesMask function
 author: windows-sdk-content
 description: Sets the mask of XState features set within a CONTEXT structure.
 old-location: base\setxstatefeaturesmask.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 64ADEA8A-DE78-437E-AE68-A68E7214C5FD
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SetXStateFeaturesMask, SetXStateFeaturesMask function, base.setxstatefeaturesmask, winbase/SetXStateFeaturesMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetXStateFeaturesMask
-: 
 ---
 
 # SetXStateFeaturesMask function

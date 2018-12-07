@@ -7,7 +7,7 @@ old-location: monitor\degaussmonitor.htm
 tech.root: Monitor
 ms.assetid: 8f476ba3-24d2-456a-9335-873368993d71
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DegaussMonitor, DegaussMonitor function [Monitor Configuration], highlevelmonitorconfigurationapi/DegaussMonitor, monitor.degaussmonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DegaussMonitor
-: 
 ---
 
 # DegaussMonitor function

@@ -7,7 +7,7 @@ old-location: wds\wdstransportserverallocatebuffer.htm
 tech.root: wds
 ms.assetid: 0e227f46-a6f6-4fed-ac33-6e4e54f8b14d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsTransportServerAllocateBuffer, WdsTransportServerAllocateBuffer function [Windows Deployment Services], wds.wdstransportserverallocatebuffer, wdstpdi/WdsTransportServerAllocateBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WdsTransportServerAllocateBuffer
-: 
 ---
 
 # WdsTransportServerAllocateBuffer function

@@ -7,7 +7,7 @@ old-location: mf\aecqualitymetrics_structstructure.htm
 tech.root: medfound
 ms.assetid: 1a44d12c-3da9-4fcb-a4ba-4a405882c134
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: AecQualityMetrics_Struct, AecQualityMetrics_Struct structure [Media Foundation], codecapi.aecqualitymetrics_structstructure, codecapi.mic_array_modeenumeration, mf.aecqualitymetrics_structstructure, tagAecQualityMetrics_Struct, wmcodecdsp/AecQualityMetrics_Struct
 ms.prod: windows-hardware
 ms.technology: windows-devices

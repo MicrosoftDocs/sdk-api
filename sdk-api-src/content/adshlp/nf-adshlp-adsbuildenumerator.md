@@ -4,10 +4,10 @@ title: ADsBuildEnumerator function
 author: windows-sdk-content
 description: The ADsBuildEnumerator function creates an enumerator object for the specified ADSI container object.
 old-location: adsi\adsbuildenumerator.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: e4fdec19-bccf-49ec-8a95-29e096c4c9c1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADsBuildEnumerator, ADsBuildEnumerator function [ADSI], _ds_adsbuildenumerator, adshlp/ADsBuildEnumerator, adsi.adsbuildenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ADsBuildEnumerator
-: 
 ---
 
 # ADsBuildEnumerator function

@@ -7,7 +7,7 @@ old-location: eap\ieapproviderconfig_serverinvokeconfigui.htm
 tech.root: EAP
 ms.assetid: 95d98664-e108-41d5-8ed0-49867563df43
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IEAPProviderConfig interface [EAP],ServerInvokeConfigUI method, IEAPProviderConfig.ServerInvokeConfigUI, IEAPProviderConfig::ServerInvokeConfigUI, ServerInvokeConfigUI, ServerInvokeConfigUI method [EAP], ServerInvokeConfigUI method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_serverinvokeconfigui, eap.ieapproviderconfig_serverinvokeconfigui, rrascfg/IEAPProviderConfig::ServerInvokeConfigUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rrascfg.h
-: 
-- IEAPProviderConfig.ServerInvokeConfigUI
-: 
 ---
 
 # IEAPProviderConfig::ServerInvokeConfigUI

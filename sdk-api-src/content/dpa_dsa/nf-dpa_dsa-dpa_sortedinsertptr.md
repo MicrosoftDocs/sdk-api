@@ -4,10 +4,10 @@ title: DPA_SortedInsertPtr macro
 author: windows-sdk-content
 description: Inserts a new item before or after a specified existing item.
 old-location: controls\DPA_SortedInsertPtr.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_sortedinsertptr.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DPAS_INSERTAFTER, DPAS_INSERTBEFORE, DPA_SortedInsertPtr, DPA_SortedInsertPtr macro [Windows Controls], _shell_DPA_SortedInsertPtr, _shell_DPA_SortedInsertPtr_cpp, controls.DPA_SortedInsertPtr, controls._shell_DPA_SortedInsertPtr, dpa_dsa/DPA_SortedInsertPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- dpa_dsa.h
-: 
-- DPA_SortedInsertPtr
-: 
 ---
 
 # DPA_SortedInsertPtr macro

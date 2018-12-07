@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__mediacollectionchange.htm
 tech.root: WMP
 ms.assetid: 8de74905-a0be-46a7-8653-bb955c098257
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionChange method, IWMPEvents.MediaCollectionChange, IWMPEvents::MediaCollectionChange, IWMPEventsMediaCollectionChange, MediaCollectionChange, MediaCollectionChange method [Windows Media Player], MediaCollectionChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionchange, wmp/IWMPEvents::MediaCollectionChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmp.h
-: 
-- IWMPEvents.MediaCollectionChange
-: 
 ---
 
 # IWMPEvents::MediaCollectionChange

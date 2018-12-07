@@ -4,10 +4,10 @@ title: IProviderQueryConstraintCollection::Item
 author: windows-sdk-content
 description: Gets the name and value of the specified query constraint, by index.
 old-location: ncd\iproviderqueryconstraintcollection_item.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: db8840db-365a-485d-9097-ef98a9d875bc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Item method, IProviderQueryConstraintCollection.Item, IProviderQueryConstraintCollection::Item, Item, Item method, Item method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Item, ncd.iproviderqueryconstraintcollection_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryprovider.h
-: 
-- IProviderQueryConstraintCollection.Item
-: 
 ---
 
 # IProviderQueryConstraintCollection::Item

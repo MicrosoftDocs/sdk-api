@@ -7,7 +7,7 @@ old-location: shell\Win32DeleteFile.htm
 tech.root: shell
 ms.assetid: e6b2ac77-a206-413e-aba7-0fd627799a95
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Win32DeleteFile, Win32DeleteFile function [Windows Shell], _shell_Win32DeleteFile, shell.Win32DeleteFile, shlobj_core/Win32DeleteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Win32DeleteFile
-: 
 ---
 
 # Win32DeleteFile function

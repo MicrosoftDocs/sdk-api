@@ -4,10 +4,10 @@ title: IShowMessageAction::put_Title
 author: windows-sdk-content
 description: Gets or sets the title of the message box.
 old-location: taskschd\ishowmessageaction_title.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 6ec51ebb-5aa3-4338-bc88-dd8df34d59ac
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IShowMessageAction interface [Task Scheduler],Title property, IShowMessageAction.Title, IShowMessageAction.put_Title, IShowMessageAction::Title, IShowMessageAction::get_Title, IShowMessageAction::put_Title, Title property [Task Scheduler], Title property [Task Scheduler],IShowMessageAction interface, put_Title, taskschd.ishowmessageaction_title, taskschd/IShowMessageAction::Title, taskschd/IShowMessageAction::get_Title, taskschd/IShowMessageAction::put_Title
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IShowMessageAction.put_Title
-: 
 ---
 
 # IShowMessageAction::put_Title

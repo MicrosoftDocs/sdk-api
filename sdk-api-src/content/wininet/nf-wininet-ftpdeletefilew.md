@@ -4,10 +4,10 @@ title: FtpDeleteFileW function
 author: windows-sdk-content
 description: Deletes a file stored on the FTP server.
 old-location: wininet\ftpdeletefile.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 16723c97-fd6f-40c2-844d-fc6d2dcc1a32
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FtpDeleteFile, FtpDeleteFile function [WinINet], FtpDeleteFileA, FtpDeleteFileW, _inet_ftpdeletefile_function, wininet.ftpdeletefile, wininet/FtpDeleteFile, wininet/FtpDeleteFileA, wininet/FtpDeleteFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FtpDeleteFileW
-: 
 ---
 
 # FtpDeleteFileW function

@@ -7,7 +7,7 @@ old-location: shell\DriveType.htm
 tech.root: shell
 ms.assetid: 3089656d-2e64-4d65-aa18-0a451d82fa95
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DriveType, DriveType function [Windows Shell], _shell_DriveType, shell.DriveType, shlobj_core/DriveType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DriveType
-: 
 ---
 
 # DriveType function

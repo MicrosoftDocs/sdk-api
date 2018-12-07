@@ -4,10 +4,10 @@ title: "_enlowfirtf"
 author: windows-sdk-content
 description: Contains information about an unsupported Rich Text Format (RTF) keyword in a Microsoft Rich Edit control.
 old-location: controls\ENLOWFIRTF.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enlowfirtf.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ENLOWFIRTF, ENLOWFIRTF structure [Windows Controls], _enlowfirtf, _win32_ENLOWFIRTF_str, _win32_ENLOWFIRTF_str_cpp, controls.ENLOWFIRTF, controls._win32_ENLOWFIRTF_str, richedit/ENLOWFIRTF
 ms.prod: windows-hardware
 ms.technology: windows-devices

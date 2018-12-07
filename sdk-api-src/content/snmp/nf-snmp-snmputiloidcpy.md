@@ -7,7 +7,7 @@ old-location: snmp\snmputiloidcpy.htm
 tech.root: SNMP
 ms.assetid: 65947bdb-1165-4e5d-b3ca-1c54cd50166e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpUtilOidCpy, SnmpUtilOidCpy function [SNMP], _snmp_snmputiloidcpy, snmp.snmputiloidcpy, snmp/SnmpUtilOidCpy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpUtilOidCpy
-: 
 ---
 
 # SnmpUtilOidCpy function

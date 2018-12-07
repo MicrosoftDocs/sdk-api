@@ -7,7 +7,7 @@ old-location: dhcp\dhcpauditlogsetparams.htm
 tech.root: DHCP
 ms.assetid: ea7fc321-3e7c-4d1f-9a39-6a25d0d1c5b2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpAuditLogSetParams, DhcpAuditLogSetParams function [DHCP], dhcp.dhcpauditlogsetparams, dhcpsapi/DhcpAuditLogSetParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpAuditLogSetParams
-: 
 ---
 
 # DhcpAuditLogSetParams function

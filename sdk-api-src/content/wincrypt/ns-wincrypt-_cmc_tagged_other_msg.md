@@ -4,10 +4,10 @@ title: "_CMC_TAGGED_OTHER_MSG"
 author: windows-sdk-content
 description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
 old-location: security\cmc_tagged_other_msg.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: cf70c245-fe22-4c02-9cfd-07690b930585
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCMC_TAGGED_OTHER_MSG, CMC_TAGGED_OTHER_MSG, CMC_TAGGED_OTHER_MSG structure [Security], PCMC_TAGGED_OTHER_MSG, PCMC_TAGGED_OTHER_MSG structure pointer [Security], _CMC_TAGGED_OTHER_MSG, _crypto2_cmc_tagged_other_msg, security.cmc_tagged_other_msg, wincrypt/CMC_TAGGED_OTHER_MSG, wincrypt/PCMC_TAGGED_OTHER_MSG"
 ms.prod: windows-hardware
 ms.technology: windows-devices

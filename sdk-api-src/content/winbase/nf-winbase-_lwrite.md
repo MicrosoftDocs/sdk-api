@@ -4,10 +4,10 @@ title: "_lwrite function"
 author: windows-sdk-content
 description: Writes data to the specified file.
 old-location: winprog\_lwrite.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 34b875a4-ca45-4f9d-a5be-e6e4d41c68bf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_lwrite, _lwrite function [Windows API], winbase/_lwrite, winprog._lwrite"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- _lwrite
-: 
 ---
 
 # _lwrite function

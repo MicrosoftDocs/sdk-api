@@ -4,10 +4,10 @@ title: IDataCollectorSet::get_Keywords
 author: windows-sdk-content
 description: Retrieves or sets keywords that describe the data collector set. The list of keywords is added to the output files as metadata.
 old-location: pla\idatacollectorset_get_keywords.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 0a1203e3-672b-47fb-9072-d3f06ba22865
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDataCollectorSet interface [PLA],Keywords property, IDataCollectorSet.Keywords, IDataCollectorSet.get_Keywords, IDataCollectorSet::Keywords, IDataCollectorSet::get_Keywords, IDataCollectorSet::put_Keywords, Keywords property [PLA], Keywords property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_keywords, get_Keywords, pla.idatacollectorset_get_keywords, pla/IDataCollectorSet::Keywords, pla/IDataCollectorSet::get_Keywords, pla/IDataCollectorSet::put_Keywords
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollectorSet.get_Keywords
-: 
 ---
 
 # IDataCollectorSet::get_Keywords

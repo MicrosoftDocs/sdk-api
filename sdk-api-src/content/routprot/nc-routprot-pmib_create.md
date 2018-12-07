@@ -4,10 +4,10 @@ title: PMIB_CREATE
 author: windows-sdk-content
 description: The MibCreate function passes an SNMP MIB-style Create Request to the routing protocol.
 old-location: rras\mibcreate.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: b3e8eca6-6d8d-4385-8c94-7269878810c0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MibCreate, MibCreate callback function [RAS], PMIB_CREATE, PMIB_CREATE callback, _mpr_mibcreate, routprot/MibCreate, rras.mibcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

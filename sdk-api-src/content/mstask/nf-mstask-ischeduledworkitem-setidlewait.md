@@ -4,10 +4,10 @@ title: IScheduledWorkItem::SetIdleWait
 author: windows-sdk-content
 description: Sets the minutes that the system must be idle before the work item can run.
 old-location: taskschd\ischeduledworkitem_setidlewait.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: f7ad639a-4094-4621-9add-b89958c0bda4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetIdleWait method, IScheduledWorkItem.SetIdleWait, IScheduledWorkItem::SetIdleWait, SetIdleWait, SetIdleWait method [Task Scheduler], SetIdleWait method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setidlewait, mstask/IScheduledWorkItem::SetIdleWait, taskschd.ischeduledworkitem_setidlewait
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.SetIdleWait
-: 
 ---
 
 # IScheduledWorkItem::SetIdleWait

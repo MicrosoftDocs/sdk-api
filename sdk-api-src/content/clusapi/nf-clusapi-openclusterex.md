@@ -4,10 +4,10 @@ title: OpenClusterEx function
 author: windows-sdk-content
 description: Opens a connection to a cluster and returns a handle to it.
 old-location: mscs\openclusterex.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 688702b7-7525-48d6-9e44-d7c4969565f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: OpenClusterEx, OpenClusterEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_EX, PCLUSAPI_OPEN_CLUSTER_EX function [Failover Cluster], clusapi/OpenClusterEx, clusapi/PCLUSAPI_OPEN_CLUSTER_EX, mscs.openclusterex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OpenClusterEx
-: 
 ---
 
 # OpenClusterEx function

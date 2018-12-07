@@ -4,10 +4,10 @@ title: GetComboBoxInfo function
 author: windows-sdk-content
 description: Retrieves information about the specified combo box.
 old-location: controls\GetComboBoxInfo.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\getcomboboxinfo.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetComboBoxInfo, GetComboBoxInfo function [Windows Controls], _win32_GetComboBoxInfo, _win32_GetComboBoxInfo_cpp, controls.GetComboBoxInfo, controls._win32_GetComboBoxInfo, winuser/GetComboBoxInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Service Pack 6
-- apiref
-: 
-- 
-: 
-- GetComboBoxInfo
-: 
 ---
 
 # GetComboBoxInfo function

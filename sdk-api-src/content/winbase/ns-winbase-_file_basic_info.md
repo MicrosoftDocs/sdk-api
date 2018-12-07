@@ -7,7 +7,7 @@ old-location: fs\file_basic_info.htm
 tech.root: fileio
 ms.assetid: 7765e430-cf6b-4ccf-b5e7-9fb6e15ca6d6
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PFILE_BASIC_INFO, FILE_BASIC_INFO, FILE_BASIC_INFO structure [Files], PFILE_BASIC_INFO, PFILE_BASIC_INFO structure pointer [Files], _FILE_BASIC_INFO, fileextd/FILE_BASIC_INFO, fileextd/PFILE_BASIC_INFO, fs.file_basic_info, winbase/FILE_BASIC_INFO, winbase/PFILE_BASIC_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IGPMRSOP::CreateQueryResults
 author: windows-sdk-content
 description: Executes a Resultant Set of Policy (RSoP) query.
 old-location: gpmc\igpmrsop_createqueryresults.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 2259a014-3ecb-480d-ab65-9d27c0acf26c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateQueryResults, CreateQueryResults method [GPMC], CreateQueryResults method [GPMC],GPMRSOP object, CreateQueryResults method [GPMC],IGPMRSOP interface, GPMRSOP object [GPMC],CreateQueryResults method, IGPMRSOP interface [GPMC],CreateQueryResults method, IGPMRSOP.CreateQueryResults, IGPMRSOP::CreateQueryResults, _win32_igpmrsop_createqueryresults, gpmc.igpmrsop_createqueryresults, gpmgmt/IGPMRSOP::CreateQueryResults
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMRSOP.CreateQueryResults
-: 
 ---
 
 # IGPMRSOP::CreateQueryResults

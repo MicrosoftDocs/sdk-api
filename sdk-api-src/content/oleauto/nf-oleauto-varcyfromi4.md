@@ -7,7 +7,7 @@ old-location: automat\varcyfromi4.htm
 tech.root: automat
 ms.assetid: 5b9230fb-96c0-4b61-b932-e703a3611fbf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarCyFromI4, VarCyFromI4 function [Automation], _oa96_VarCyFromI4, automat.varcyfromi4, oleauto/VarCyFromI4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarCyFromI4
-: 
 ---
 
 # VarCyFromI4 function

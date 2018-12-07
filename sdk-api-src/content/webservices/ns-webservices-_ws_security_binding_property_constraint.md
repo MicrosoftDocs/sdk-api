@@ -7,7 +7,7 @@ old-location: wsw\ws_security_binding_property_constraint.htm
 tech.root: wsw
 ms.assetid: 97334ced-315d-49db-9c7b-b05ef387f6c8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_SECURITY_BINDING_PROPERTY_CONSTRAINT, WS_SECURITY_BINDING_PROPERTY_CONSTRAINT structure [Web Services for Windows], _WS_SECURITY_BINDING_PROPERTY_CONSTRAINT, webservices/WS_SECURITY_BINDING_PROPERTY_CONSTRAINT, wsw.ws_security_binding_property_constraint
 ms.prod: windows-hardware
 ms.technology: windows-devices

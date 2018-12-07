@@ -4,10 +4,10 @@ title: "_NET_INTERFACE_CONTEXT_TABLE"
 author: windows-sdk-content
 description: The table of NET_INTERFACE_CONTEXT structures.
 old-location: nla\net_interface_context_table.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: DA6101F2-EB8F-43DC-93C6-9365A7AABEAC
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: NET_INTERFACE_CONTEXT_TABLE, NET_INTERFACE_CONTEXT_TABLE structure [Network Awareness], PNET_INTERFACE_CONTEXT_TABLE, PNET_INTERFACE_CONTEXT_TABLE structure pointer [Network Awareness], _NET_INTERFACE_CONTEXT_TABLE, nla.net_interface_context_table, ondemandconnroutehelper/NET_INTERFACE_CONTEXT_TABLE, ondemandconnroutehelper/PNET_INTERFACE_CONTEXT_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

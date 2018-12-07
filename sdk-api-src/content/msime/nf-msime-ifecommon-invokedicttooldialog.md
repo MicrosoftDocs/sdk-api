@@ -7,7 +7,7 @@ old-location: intl\ifecommon_invokedicttooldialog.htm
 tech.root: Intl
 ms.assetid: E70E3B78-58D7-40E9-8DAB-447B4CBC13F4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],InvokeDictToolDialog method, IFECommon.InvokeDictToolDialog, IFECommon::InvokeDictToolDialog, InvokeDictToolDialog, InvokeDictToolDialog method [Internationalization for Windows Applications], InvokeDictToolDialog method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_invokedicttooldialog, msime/IFECommon::InvokeDictToolDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msime.h
-: 
-- IFECommon.InvokeDictToolDialog
-: 
 ---
 
 # IFECommon::InvokeDictToolDialog

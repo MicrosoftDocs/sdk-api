@@ -7,7 +7,7 @@ old-location: iphlp\geticmpstatistics.htm
 tech.root: IpHlp
 ms.assetid: b10ec58b-54fe-4068-beb9-6909ad7cecf7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetIcmpStatistics, GetIcmpStatistics function [IP Helper], _iphlp_geticmpstatistics, iphlp.geticmpstatistics, iphlpapi/GetIcmpStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetIcmpStatistics
-: 
 ---
 
 # GetIcmpStatistics function

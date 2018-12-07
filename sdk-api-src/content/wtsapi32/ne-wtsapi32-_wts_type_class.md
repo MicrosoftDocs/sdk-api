@@ -7,7 +7,7 @@ old-location: termserv\wts_type_class.htm
 tech.root: termserv
 ms.assetid: 1827e862-add0-4271-b5d7-62834c396250
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: WTSTypeProcessInfoLevel0, WTSTypeProcessInfoLevel1, WTSTypeSessionInfoLevel1, WTS_TYPE_CLASS, WTS_TYPE_CLASS enumeration [Remote Desktop Services], _WTS_TYPE_CLASS, termserv.wts_type_class, wtsapi32/WTSTypeProcessInfoLevel0, wtsapi32/WTSTypeProcessInfoLevel1, wtsapi32/WTSTypeSessionInfoLevel1, wtsapi32/WTS_TYPE_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices

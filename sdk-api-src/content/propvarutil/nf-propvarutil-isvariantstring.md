@@ -7,7 +7,7 @@ old-location: properties\IsVariantString.htm
 tech.root: properties
 ms.assetid: 6056856c-9b7a-4c6a-9e9a-0baa5e1addcf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IsVariantString, IsVariantString function [Windows Properties], _shell_IsVariantString, properties.IsVariantString, propvarutil/IsVariantString, shell.IsVariantString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- IsVariantString
-: 
 ---
 
 # IsVariantString function

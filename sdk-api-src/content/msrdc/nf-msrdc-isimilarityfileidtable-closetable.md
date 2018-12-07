@@ -4,10 +4,10 @@ title: ISimilarityFileIdTable::CloseTable
 author: windows-sdk-content
 description: Closes a similarity file ID table.
 old-location: rdc\isimilarityfileidtable_closetable.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: f7c54c1a-0b02-43ae-975c-e94bd3dcac45
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CloseTable, CloseTable method [Remote Differential Compression], CloseTable method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],CloseTable method, ISimilarityFileIdTable.CloseTable, ISimilarityFileIdTable::CloseTable, fs.isimilarityfileidtable_closetable, msrdc/ISimilarityFileIdTable::CloseTable, rdc.isimilarityfileidtable_closetable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- ISimilarityFileIdTable.CloseTable
-: 
 ---
 
 # ISimilarityFileIdTable::CloseTable

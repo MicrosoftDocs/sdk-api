@@ -4,10 +4,10 @@ title: "_PROCESSOR_NUMBER"
 author: windows-sdk-content
 description: Represents a logical processor in a processor group.
 old-location: base\processor_number.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 9005c6d4-07a9-4ce0-9ee2-54880d7244c3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPROCESSOR_NUMBER, PPROCESSOR_NUMBER, PPROCESSOR_NUMBER structure pointer, PROCESSOR_NUMBER, PROCESSOR_NUMBER structure, _PROCESSOR_NUMBER, base.processor_number, winnt/PPROCESSOR_NUMBER, winnt/PROCESSOR_NUMBER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

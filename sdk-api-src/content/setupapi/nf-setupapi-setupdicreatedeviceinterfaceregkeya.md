@@ -7,7 +7,7 @@ old-location: devinst\setupdicreatedeviceinterfaceregkey.htm
 tech.root: devinst
 ms.assetid: 1be942a1-428d-4cc4-bc9f-9f21243c3d21
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetupDiCreateDeviceInterfaceRegKey, SetupDiCreateDeviceInterfaceRegKey function [Device and Driver Installation], SetupDiCreateDeviceInterfaceRegKeyA, SetupDiCreateDeviceInterfaceRegKeyW, devinst.setupdicreatedeviceinterfaceregkey, di-rtns_4b18b81a-e8ae-4d04-ae67-26cb21472e23.xml, setupapi/SetupDiCreateDeviceInterfaceRegKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiCreateDeviceInterfaceRegKeyA
-: 
 ---
 
 # SetupDiCreateDeviceInterfaceRegKeyA function

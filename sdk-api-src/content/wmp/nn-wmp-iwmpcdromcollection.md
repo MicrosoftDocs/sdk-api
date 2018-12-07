@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromcollection.htm
 tech.root: WMP
 ms.assetid: ba55ac32-149d-4f7b-a2bb-1fdb0be806cd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPCdromCollection, IWMPCdromCollection interface [Windows Media Player], IWMPCdromCollection interface [Windows Media Player],described, IWMPCdromCollectionInterface, wmp.iwmpcdromcollection, wmp/IWMPCdromCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertyDescription.htm
 tech.root: properties
 ms.assetid: 03d98a40-1bfb-4df3-bc8b-eee6c49014d7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PSGetPropertyDescription, PSGetPropertyDescription function [Windows Properties], properties.PSGetPropertyDescription, propsys/PSGetPropertyDescription, shell.PSGetPropertyDescription, shell_PSGetPropertyDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PSGetPropertyDescription
-: 
 ---
 
 # PSGetPropertyDescription function

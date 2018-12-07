@@ -4,10 +4,10 @@ title: ICameraUIControl
 author: windows-sdk-content
 description: Enables a user interface control for a camera device..
 old-location: winprog\icamerauicontrol.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: e0fbcf43-cd52-4b5b-af4b-f7d673f7a7c9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICameraUIControl, ICameraUIControl interface [Windows API], ICameraUIControl interface [Windows API],described, camerauicontrol/ICameraUIControl, winprog.icamerauicontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ixamldiagnostics_getuilayer.htm
 tech.root: xaml_diagnostics
 ms.assetid: BE45AF9E-0C2D-439B-A360-2B9AE9359AEE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetUiLayer, GetUiLayer method, GetUiLayer method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetUiLayer method, IXamlDiagnostics.GetUiLayer, IXamlDiagnostics::GetUiLayer, xaml_diagnostics.ixamldiagnostics_getuilayer, xamlom/IXamlDiagnostics::GetUiLayer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xamlom.h
-: 
-- IXamlDiagnostics.GetUiLayer
-: 
 ---
 
 # IXamlDiagnostics::GetUiLayer

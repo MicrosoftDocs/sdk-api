@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_initialize.htm
 tech.root: medfound
 ms.assetid: 61c37bd5-3f6f-434b-ae5b-c25c5213d49f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 61c37bd5-3f6f-434b-ae5b-c25c5213d49f, IMFASFMultiplexer interface [Media Foundation],Initialize method, IMFASFMultiplexer.Initialize, IMFASFMultiplexer::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFMultiplexer interface, mf.imfasfmultiplexer_initialize, wmcontainer/IMFASFMultiplexer::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmcontainer.h
-: 
-- IMFASFMultiplexer.Initialize
-: 
 ---
 
 # IMFASFMultiplexer::Initialize

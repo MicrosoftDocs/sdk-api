@@ -4,10 +4,10 @@ title: Msv1_0SubAuthenticationRoutine function
 author: windows-sdk-content
 description: Performs client/server-specific authentication.
 old-location: security\msv1_0subauthenticationroutine.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 18d0da59-026a-4951-8529-f7dbaab20d08
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LOGON_GUEST, LOGON_NOENCRYPTION, MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationRoutine, Msv1_0SubAuthenticationRoutine function [Security], USER_ALL_PARAMETERS, _lsa_msv1_0subauthenticationroutine, security.msv1_0subauthenticationroutine, subauth/Msv1_0SubAuthenticationRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Msv1_0SubAuthenticationRoutine
-: 
 ---
 
 # Msv1_0SubAuthenticationRoutine function
@@ -138,7 +132,7 @@ Returns the members of the <a href="https://msdn.microsoft.com/18cf7194-4309-47b
 <td width="60%">
 Write the data contained in the <b>Parameters</b> member of the <i>UserAll</i> structure back to the SAM database.
 
-If the size of the <b>Parameters</b> member's UNICODE_STRING buffer is changed, <b>Msv1_0SubAuthenticationRoutine</b> must delete the buffer by using the <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">MIDL_user_free</a> function and reallocate it by using the <a href="https://msdn.microsoft.com/0eaf6df5-791d-4f6d-8f49-cc1ce64e7ab4">MIDL_user_allocate</a> function.
+If the size of the <b>Parameters</b> member's UNICODE_STRING buffer is changed, <b>Msv1_0SubAuthenticationRoutine</b> must delete the buffer by using the <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">MIDL_user_free</a> function and reallocate it by using the <a href="https://msdn.microsoft.com/">MIDL_user_allocate</a> function.
 
 </td>
 </tr>

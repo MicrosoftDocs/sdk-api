@@ -4,10 +4,10 @@ title: IMsmConfigurableItem::get_Description
 author: windows-sdk-content
 description: The get_Description method retrieves the Description property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_description.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: aafc79a0-51cb-4147-b72c-b5218835dc03
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmConfigurableItem interface,get_Description method, IMsmConfigurableItem.get_Description, IMsmConfigurableItem::get_Description, _msi_get_description_function, get_Description, get_Description method, get_Description method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Description, setup.imsmconfigurableitem_get_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mergemod.h
-: 
-- IMsmConfigurableItem.get_Description
-: 
 ---
 
 # IMsmConfigurableItem::get_Description

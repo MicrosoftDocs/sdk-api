@@ -7,7 +7,7 @@ old-location: secbiomet\winbioasyncenumdatabases.htm
 tech.root: SecBioMet
 ms.assetid: 405AB590-B579-4B61-9CE7-BF21D9E56600
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioAsyncEnumDatabases, WinBioAsyncEnumDatabases function [Windows Biometric Framework API], secbiomet.winbioasyncenumdatabases, winbio/WinBioAsyncEnumDatabases
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinBioAsyncEnumDatabases
-: 
 ---
 
 # WinBioAsyncEnumDatabases function

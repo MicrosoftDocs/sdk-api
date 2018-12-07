@@ -4,10 +4,10 @@ title: InitializeCriticalSection function
 author: windows-sdk-content
 description: Initializes a critical section object.
 old-location: base\initializecriticalsection.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: ad4b182d-a65d-4890-9eda-fdd6d044f736
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InitializeCriticalSection, InitializeCriticalSection function, _win32_initializecriticalsection, base.initializecriticalsection, synchapi/InitializeCriticalSection, winbase/InitializeCriticalSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InitializeCriticalSection
-: 
 ---
 
 # InitializeCriticalSection function

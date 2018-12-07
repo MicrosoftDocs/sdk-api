@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_GetFieldState.htm
 tech.root: shell
 ms.assetid: 9a709835-cf89-464d-a257-d16a1312ab44
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetFieldState, GetFieldState method [Windows Shell], GetFieldState method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetFieldState method, ICredentialProviderCredential.GetFieldState, ICredentialProviderCredential::GetFieldState, _shell_ICredentialProviderCredential_GetFieldState, credentialprovider/ICredentialProviderCredential::GetFieldState, shell.ICredentialProviderCredential_GetFieldState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- credentialprovider.h
-: 
-- ICredentialProviderCredential.GetFieldState
-: 
 ---
 
 # ICredentialProviderCredential::GetFieldState

@@ -7,7 +7,7 @@ old-location: iphlp\resolveipnetentry2.htm
 tech.root: IpHlp
 ms.assetid: 37f9dc58-362d-413e-a593-4dda52fb7d8b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ResolveIpNetEntry2, ResolveIpNetEntry2 function [IP Helper], iphlp.resolveipnetentry2, netioapi/ResolveIpNetEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResolveIpNetEntry2
-: 
 ---
 
 # ResolveIpNetEntry2 function

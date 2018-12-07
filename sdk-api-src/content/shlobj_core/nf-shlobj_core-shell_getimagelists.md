@@ -7,7 +7,7 @@ old-location: shell\Shell_GetImageLists.htm
 tech.root: shell
 ms.assetid: c3b73616-849c-4149-b04d-a7d389ebf700
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Shell_GetImageLists, Shell_GetImageLists function [Windows Shell], _win32_Shell_GetImageLists, shell.Shell_GetImageLists, shlobj_core/Shell_GetImageLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Shell_GetImageLists
-: 
 ---
 
 # Shell_GetImageLists function

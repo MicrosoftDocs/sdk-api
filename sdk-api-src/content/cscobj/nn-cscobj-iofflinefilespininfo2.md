@@ -4,10 +4,10 @@ title: IOfflineFilesPinInfo2
 author: windows-sdk-content
 description: Defines a method to determine whether an item in the Offline Files cache is partly pinned.
 old-location: of\iofflinefilespininfo2.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 80aa7e38-dbd7-42c6-b4b8-df4f104dfdc8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesPinInfo2, IOfflineFilesPinInfo2 interface [Offline Files], IOfflineFilesPinInfo2 interface [Offline Files],described, cscobj/IOfflineFilesPinInfo2, of.iofflinefilespininfo2
 ms.prod: windows-hardware
 ms.technology: windows-devices

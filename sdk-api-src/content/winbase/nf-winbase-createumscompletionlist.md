@@ -4,10 +4,10 @@ title: CreateUmsCompletionList function
 author: windows-sdk-content
 description: Creates a user-mode scheduling (UMS) completion list.
 old-location: base\createumscompletionlist.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 6e77b793-a82e-4e23-8c8b-7aff79d69346
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateUmsCompletionList, CreateUmsCompletionList function, base.createumscompletionlist, winbase/CreateUmsCompletionList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateUmsCompletionList
-: 
 ---
 
 # CreateUmsCompletionList function

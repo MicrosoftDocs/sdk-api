@@ -7,7 +7,7 @@ old-location: backup\tape_write_marks_str.htm
 tech.root: Backup
 ms.assetid: fd2f2a69-7683-430a-a60b-0fc70c1ab60f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure pointer [Backup], TAPE_FILEMARKS, TAPE_LONG_FILEMARKS, TAPE_SETMARKS, TAPE_SHORT_FILEMARKS, TAPE_WRITE_MARKS, TAPE_WRITE_MARKS structure [Backup], _TAPE_WRITE_MARKS, _win32_tape_write_marks_str, backup.tape_write_marks_str, winnt/PTAPE_WRITE_MARKS, winnt/TAPE_WRITE_MARKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directwrite\idwritefactory5_createfontsetbuilder.htm
 tech.root: DirectWrite
 ms.assetid: 80E2E906-7596-4E39-808A-5CCA69376903
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateFontSetBuilder, CreateFontSetBuilder method [Direct Write], CreateFontSetBuilder method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],CreateFontSetBuilder method, IDWriteFactory5.CreateFontSetBuilder, IDWriteFactory5::CreateFontSetBuilder, directwrite.idwritefactory5_createfontsetbuilder, dwrite_3/IDWriteFactory5::CreateFontSetBuilder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_3.h
-: 
-- IDWriteFactory5.CreateFontSetBuilder
-: 
 ---
 
 # IDWriteFactory5::CreateFontSetBuilder

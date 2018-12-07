@@ -7,7 +7,7 @@ old-location: ad\dsrole_upgrade_status_info.htm
 tech.root: ad
 ms.assetid: c368d8d9-a91d-4013-880e-36a47d42a697
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDSROLE_UPGRADE_STATUS_INFO, 0, DSROLE_UPGRADE_IN_PROGRESS, DSROLE_UPGRADE_STATUS_INFO, DSROLE_UPGRADE_STATUS_INFO structure [Active Directory], PDSROLE_UPGRADE_STATUS_INFO, PDSROLE_UPGRADE_STATUS_INFO structure pointer [Active Directory], _DSROLE_UPGRADE_STATUS_INFO, _glines_dsrole_upgrade_status_info, ad.dsrole__upgrade__status__info, ad.dsrole_upgrade_status_info, dsrole/DSROLE_UPGRADE_STATUS_INFO, dsrole/PDSROLE_UPGRADE_STATUS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

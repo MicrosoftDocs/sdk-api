@@ -4,10 +4,10 @@ title: DeleteUrlCacheContainerA function
 author: windows-sdk-content
 description: Deletes a cache container (which contains cache entries) based on the specified name.
 old-location: wininet\deleteurlcachecontainer.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 97F46974-9B20-46C6-B742-4BA5C60491DA
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteUrlCacheContainer, DeleteUrlCacheContainer function [WinINet], DeleteUrlCacheContainerA, DeleteUrlCacheContainerW, wininet.deleteurlcachecontainer, winineti/DeleteUrlCacheContainer, winineti/DeleteUrlCacheContainerA, winineti/DeleteUrlCacheContainerW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DeleteUrlCacheContainerA
-: 
 ---
 
 # DeleteUrlCacheContainerA function

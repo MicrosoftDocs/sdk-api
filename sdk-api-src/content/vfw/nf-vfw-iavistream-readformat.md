@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_readformat.htm
 tech.root: Multimedia
 ms.assetid: ec684a91-9a16-4e9d-9d52-8b721df24889
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],ReadFormat method, IAVIStream.ReadFormat, IAVIStream::ReadFormat, ReadFormat, ReadFormat method [Windows Multimedia], ReadFormat method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_ReadFormat, multimedia.iavistream_readformat, vfw/IAVIStream::ReadFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vfw.h
-: 
-- IAVIStream.ReadFormat
-: 
 ---
 
 # IAVIStream::ReadFormat

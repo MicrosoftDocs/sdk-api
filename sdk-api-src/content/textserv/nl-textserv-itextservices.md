@@ -4,10 +4,10 @@ title: ITextServices
 author: windows-sdk-content
 description: Extends the Text Object Model (TOM) to provide extra functionality for windowless operation.
 old-location: controls\ITextServices.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itextservices.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITextServices, ITextServices interface [Windows Controls], ITextServices interface [Windows Controls],described, _win32_ITextServices, _win32_ITextServices_cpp, controls.ITextServices, controls._win32_ITextServices, textserv/ITextServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

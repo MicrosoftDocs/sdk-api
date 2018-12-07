@@ -4,10 +4,10 @@ title: ITAddress2::put_EventFilter
 author: windows-sdk-content
 description: The put_EventFilter method sets an event filter for the current address. If no event filters are set, the application will not be notified of events on this address.
 old-location: tapi3\itaddress2_put_eventfilter.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: ca58c796-d843-48c3-9eac-ca126395d448
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],put_EventFilter method, ITAddress2.put_EventFilter, ITAddress2::put_EventFilter, _tapi3_itaddress2_put_eventfilter, put_EventFilter, put_EventFilter method [TAPI 2.2], put_EventFilter method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_put_eventfilter, tapi3if/ITAddress2::put_EventFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITAddress2.put_EventFilter
-: 
 ---
 
 # ITAddress2::put_EventFilter

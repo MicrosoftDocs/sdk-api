@@ -4,10 +4,10 @@ title: IAzScope::DeleteRole
 author: windows-sdk-content
 description: Removes the IAzRole object with the specified name from the IAzScope object.
 old-location: security\iazscope_deleterole.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 9155c4f8-ad17-402e-80a1-3dcee044d2c4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AzScope object [Security],DeleteRole method, DeleteRole, DeleteRole method [Security], DeleteRole method [Security],AzScope object, DeleteRole method [Security],IAzScope interface, IAzScope interface [Security],DeleteRole method, IAzScope.DeleteRole, IAzScope::DeleteRole, azroles/IAzScope::DeleteRole, security.iazscope_deleterole
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzScope.DeleteRole
-: 
 ---
 
 # IAzScope::DeleteRole

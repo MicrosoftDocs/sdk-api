@@ -7,7 +7,7 @@ old-location: termserv\iwtssbplugin.htm
 tech.root: termserv
 ms.assetid: f6959b8c-a8a8-438b-8b6d-31bf0e782bac
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWTSSBPlugin, IWTSSBPlugin interface [Remote Desktop Services], IWTSSBPlugin interface [Remote Desktop Services],described, termserv.iwtssbplugin, tssbx/IWTSSBPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

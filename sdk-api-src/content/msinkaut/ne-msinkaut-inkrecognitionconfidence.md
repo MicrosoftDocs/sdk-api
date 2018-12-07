@@ -7,7 +7,7 @@ old-location: tablet\inkrecognitionconfidence.htm
 tech.root: tablet
 ms.assetid: ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRC_Intermediate, IRC_Poor, IRC_Strong, InkRecognitionConfidence, InkRecognitionConfidence enumeration [Tablet PC], ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d, msinkaut/IRC_Intermediate, msinkaut/IRC_Poor, msinkaut/IRC_Strong, msinkaut/InkRecognitionConfidence, tablet.inkrecognitionconfidence
 ms.prod: windows-hardware
 ms.technology: windows-devices

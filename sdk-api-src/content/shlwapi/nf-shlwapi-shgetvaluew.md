@@ -7,7 +7,7 @@ old-location: shell\SHGetValue.htm
 tech.root: shell
 ms.assetid: 8cca6bfe-d365-4d10-bc8d-f3bebefaad02
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHGetValue, SHGetValue function [Windows Shell], SHGetValueA, SHGetValueW, _win32_SHGetValue, shell.SHGetValue, shlwapi/SHGetValue, shlwapi/SHGetValueA, shlwapi/SHGetValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHGetValueW
-: 
 ---
 
 # SHGetValueW function

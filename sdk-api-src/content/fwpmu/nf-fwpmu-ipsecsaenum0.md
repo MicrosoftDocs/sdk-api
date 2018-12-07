@@ -7,7 +7,7 @@ old-location: fwp\ipsecsaenum0_func.htm
 tech.root: fwp
 ms.assetid: dea82534-4b73-4c74-9cea-d17ba8aff2e7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IPsecSaEnum0, IPsecSaEnum0 function [Filtering], fwp.ipsecsaenum0_func, fwpmu/IPsecSaEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecSaEnum0
-: 
 ---
 
 # IPsecSaEnum0 function

@@ -4,10 +4,10 @@ title: RtmReleaseDests function
 author: windows-sdk-content
 description: The RtmReleaseDests function releases the destination handles.
 old-location: rras\rtmreleasedests.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: eb338b7f-8461-4980-b92f-09d976661ff2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RtmReleaseDests, RtmReleaseDests function [RAS], _rtmv2ref_rtmreleasedests, rras.rtmreleasedests, rtmv2/RtmReleaseDests
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtmReleaseDests
-: 
 ---
 
 # RtmReleaseDests function

@@ -4,10 +4,10 @@ title: IOfflineFilesFileItem
 author: windows-sdk-content
 description: Represents a file item in the Offline Files cache.
 old-location: of\iofflinefilesfileitem.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 53b9af4b-7526-4b54-bae2-61c97aa67ebf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesFileItem, IOfflineFilesFileItem interface [Offline Files], IOfflineFilesFileItem interface [Offline Files],described, cscobj/IOfflineFilesFileItem, of.iofflinefilesfileitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

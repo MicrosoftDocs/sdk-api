@@ -4,10 +4,10 @@ title: IDownloadJob::get_Updates
 author: windows-sdk-content
 description: Gets an interface that contains a read-only collection of the updates that are specified in a download.
 old-location: wua\idownloadjob_updates.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 43ceffc8-f045-4cac-976a-2357ab0d1283
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDownloadJob interface [Windows Update Agent],Updates property, IDownloadJob.Updates, IDownloadJob.get_Updates, IDownloadJob::Updates, IDownloadJob::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IDownloadJob interface, get_Updates, wua.idownloadjob_updates, wuapi/IDownloadJob::Updates, wuapi/IDownloadJob::get_Updates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IDownloadJob.get_Updates
-: 
 ---
 
 # IDownloadJob::get_Updates

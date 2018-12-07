@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: XMFLOAT2, XMFLOAT2 structure [DirectX Math Support APIs], directxmath/XMFLOAT2, dxmath.xmfloat2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,6 +73,18 @@ For a list of additional functionality such as constructors and operators that a
 ### -field y
 
 <b>float</b> value describing the y-coordinate of the vector.
+
+
+### -field operator=
+
+TBD 
+
+
+### -field XMFLOAT2
+
+TBD 
+
+
 
 
 ## -remarks

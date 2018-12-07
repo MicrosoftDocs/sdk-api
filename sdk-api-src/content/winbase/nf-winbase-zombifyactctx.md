@@ -7,7 +7,7 @@ old-location: setup\zombifyactctx.htm
 tech.root: SbsCs
 ms.assetid: f421350a-66b5-4c5a-9e4c-ef69dbe39e7c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ZombifyActCtx, ZombifyActCtx function [Side-by-side Assemblies], _win32_zombifyactctx, setup.zombifyactctx, winbase/ZombifyActCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ZombifyActCtx
-: 
 ---
 
 # ZombifyActCtx function

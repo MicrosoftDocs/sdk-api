@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ScrollItemPattern_ScrollIntoViewConPat.htm
 tech.root: WinAuto
 ms.assetid: cd68138f-dcd2-4d1d-aee6-f25168b0045b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ScrollItemPattern_ScrollIntoView, ScrollItemPattern_ScrollIntoView function [Windows Accessibility], uiauto.uiauto_ScrollItemPattern_ScrollIntoViewConPat, uiauto_ScrollItemPattern_ScrollIntoViewConPat, uiautomationcoreapi/ScrollItemPattern_ScrollIntoView, winauto.uiauto_ScrollItemPattern_ScrollIntoViewConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ScrollItemPattern_ScrollIntoView
-: 
 ---
 
 # ScrollItemPattern_ScrollIntoView function

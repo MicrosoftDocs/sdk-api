@@ -7,7 +7,7 @@ old-location: directdraw\directdrawcreate.htm
 tech.root: directdraw
 ms.assetid: bad18493-417f-499d-a9a8-719d094be62a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: DDCREATE_EMULATIONONLY, DDCREATE_HARDWAREONLY, DirectDrawCreate, DirectDrawCreate function [DirectDraw], ddraw/DirectDrawCreate, directdraw.directdrawcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DirectDrawCreate
-: 
 ---
 
 # DirectDrawCreate function

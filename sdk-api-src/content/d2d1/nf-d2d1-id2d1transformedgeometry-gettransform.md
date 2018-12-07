@@ -4,10 +4,10 @@ title: ID2D1TransformedGeometry::GetTransform
 author: windows-sdk-content
 description: Retrieves the matrix used to transform the ID2D1TransformedGeometry object's source geometry.
 old-location: direct2d\ID2D1TransformedGeometry_GetTransform.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 9d448af2-49ad-4209-b3a6-b07b40bb3e9d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTransform, GetTransform method [Direct2D], GetTransform method [Direct2D],ID2D1TransformedGeometry interface, ID2D1TransformedGeometry interface [Direct2D],GetTransform method, ID2D1TransformedGeometry.GetTransform, ID2D1TransformedGeometry::GetTransform, d2d1/ID2D1TransformedGeometry::GetTransform, direct2d.ID2D1TransformedGeometry_GetTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1.h
-: 
-- ID2D1TransformedGeometry.GetTransform
-: 
 ---
 
 # ID2D1TransformedGeometry::GetTransform

@@ -7,7 +7,7 @@ old-location: wsb\deregisteronlinebackupfromwindowsserverbackup.htm
 tech.root: wsb
 ms.assetid: 4E70EF3D-E4AA-498C-B131-8C5F48CD230E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DeregisterOnlineBackupFromWindowsServerBackup, DeregisterOnlineBackupFromWindowsServerBackup function [Windows Server Backup], wsb.deregisteronlinebackupfromwindowsserverbackup, wsbonline/DeregisterOnlineBackupFromWindowsServerBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DeregisterOnlineBackupFromWindowsServerBackup
-: 
 ---
 
 # DeregisterOnlineBackupFromWindowsServerBackup function

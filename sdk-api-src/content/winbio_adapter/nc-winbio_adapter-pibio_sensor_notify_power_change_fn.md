@@ -7,7 +7,7 @@ old-location: secbiomet\sensoradapternotifypowerchange.htm
 tech.root: SecBioMet
 ms.assetid: 7EA9D7E7-3DB9-4131-A747-B0388310ACB5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN, PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN callback, SensorAdapterNotifyPowerChange, SensorAdapterNotifyPowerChange callback function [Windows Biometric Framework API], secbiomet.sensoradapternotifypowerchange, winbio_adapter/SensorAdapterNotifyPowerChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: InterlockedAnd function
 author: windows-sdk-content
 description: Performs an atomic AND operation on the specified LONG values.
 old-location: base\interlockedand.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 463b579e-d1cd-4ad5-b2f2-bae599849401
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedAnd, InterlockedAnd function, base.interlockedand, winnt/InterlockedAnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InterlockedAnd
-: 
 ---
 
 # InterlockedAnd function

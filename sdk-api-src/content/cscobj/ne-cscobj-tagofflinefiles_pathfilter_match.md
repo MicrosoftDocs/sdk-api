@@ -4,10 +4,10 @@ title: tagOFFLINEFILES_PATHFILTER_MATCH
 author: windows-sdk-content
 description: Specifies how closely an event must match a filter.
 old-location: of\offlinefiles_pathfilter_match.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: fae3d36d-b5f3-45ae-97f2-41fd6045d976
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: OFFLINEFILES_PATHFILTER_CHILD, OFFLINEFILES_PATHFILTER_DESCENDENT, OFFLINEFILES_PATHFILTER_MATCH, OFFLINEFILES_PATHFILTER_MATCH enumeration [Offline Files], OFFLINEFILES_PATHFILTER_SELF, OFFLINEFILES_PATHFILTER_SELFORCHILD, OFFLINEFILES_PATHFILTER_SELFORDESCENDENT, cscobj/OFFLINEFILES_PATHFILTER_CHILD, cscobj/OFFLINEFILES_PATHFILTER_DESCENDENT, cscobj/OFFLINEFILES_PATHFILTER_MATCH, cscobj/OFFLINEFILES_PATHFILTER_SELF, cscobj/OFFLINEFILES_PATHFILTER_SELFORCHILD, cscobj/OFFLINEFILES_PATHFILTER_SELFORDESCENDENT, of.offlinefiles_pathfilter_match, tagOFFLINEFILES_PATHFILTER_MATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices

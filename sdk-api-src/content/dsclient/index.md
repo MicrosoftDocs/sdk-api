@@ -2,7 +2,7 @@
 UID: NA:dsclient
 ms.assetid: 067265ba-83f1-39aa-a861-5f34057c802f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: termserv\iworkspacescriptable_disconnectworkspacebyfriendlyname.ht
 tech.root: termserv
 ms.assetid: e9cf9c1a-8400-4a69-9cf1-0dfa6fe6a38b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: DisconnectWorkspaceByFriendlyName, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services], DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],IWorkspaceScriptable interface, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],IWorkspaceScriptable2 interface, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],IWorkspaceScriptable3 interface, DisconnectWorkspaceByFriendlyName method [Remote Desktop Services],Workspace object, IWorkspaceScriptable interface [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, IWorkspaceScriptable.DisconnectWorkspaceByFriendlyName, IWorkspaceScriptable2 interface [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, IWorkspaceScriptable2::DisconnectWorkspaceByFriendlyName, IWorkspaceScriptable3 interface [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, IWorkspaceScriptable3::DisconnectWorkspaceByFriendlyName, IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName, Workspace object [Remote Desktop Services],DisconnectWorkspaceByFriendlyName method, termserv.iworkspacescriptable_disconnectworkspacebyfriendlyname, workspaceruntime/IWorkspaceScriptable2::DisconnectWorkspaceByFriendlyName, workspaceruntime/IWorkspaceScriptable3::DisconnectWorkspaceByFriendlyName, workspaceruntime/IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- workspaceruntime.h
-: 
-- IWorkspaceScriptable.DisconnectWorkspaceByFriendlyName
-: 
 ---
 
 # IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName
@@ -69,14 +61,7 @@ Disconnects all existing connections associated with the connection that has the
 
 
 
-### -param bstrWorkspaceFriendlyName
-
-TBD
-
-
-
-
-#### - BSTR [in]
+### -param bstrWorkspaceFriendlyName [in]
 
 A string that contains the friendly name of the connection to disconnect.
 

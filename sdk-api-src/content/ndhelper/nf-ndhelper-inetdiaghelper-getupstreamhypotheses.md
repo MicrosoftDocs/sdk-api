@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelpe_getupstreathypotheses.htm
 tech.root: NDF
 ms.assetid: e683a2eb-8dec-47e2-ae3d-6c12a9b2773d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetUpStreamHypotheses, GetUpStreamHypotheses method [NDF], GetUpStreamHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetUpStreamHypotheses method, INetDiagHelper.GetUpStreamHypotheses, INetDiagHelper::GetUpStreamHypotheses, ndf.inetdiaghelpe_getupstreathypotheses, ndhelper/INetDiagHelper::GetUpStreamHypotheses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ndhelper.h
-: 
-- INetDiagHelper.GetUpStreamHypotheses
-: 
 ---
 
 # INetDiagHelper::GetUpStreamHypotheses

@@ -7,7 +7,7 @@ old-location: fs\setlogarchivetail.htm
 tech.root: Clfs
 ms.assetid: 0cdd0b85-d53e-432d-962d-9e89143ec4c7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetLogArchiveTail, SetLogArchiveTail function [Files], clfsw32/SetLogArchiveTail, fs.setlogarchivetail
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetLogArchiveTail
-: 
 ---
 
 # SetLogArchiveTail function

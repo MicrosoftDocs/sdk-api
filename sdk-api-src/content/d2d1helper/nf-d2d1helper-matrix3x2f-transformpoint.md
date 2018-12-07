@@ -4,10 +4,10 @@ title: Matrix3x2F::TransformPoint
 author: windows-sdk-content
 description: Uses this matrix to transform the specified point and returns the result.
 old-location: direct2d\matrix3x2f_transformpoint.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: f7c31524-5c29-4c09-b863-6b511ef9ce70
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1.Matrix3x2F.TransformPoint, D2D1::Matrix3x2F::TransformPoint, Matrix3x2F interface [Direct2D],TransformPoint method, Matrix3x2F.TransformPoint, Matrix3x2F::TransformPoint, TransformPoint, TransformPoint method [Direct2D], TransformPoint method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::TransformPoint, direct2d.matrix3x2f_transformpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1helper.h
-: 
-- Matrix3x2F.TransformPoint
-: 
 ---
 
 # Matrix3x2F::TransformPoint

@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_compute_shader_trace_desc.htm
 tech.root: direct3d11
 ms.assetid: C047CA31-22D4-4512-B90C-3C77BA6AADA9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_COMPUTE_SHADER_TRACE_DESC, D3D11_COMPUTE_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_COMPUTE_SHADER_TRACE_DESC, direct3d11.d3d11_compute_shader_trace_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

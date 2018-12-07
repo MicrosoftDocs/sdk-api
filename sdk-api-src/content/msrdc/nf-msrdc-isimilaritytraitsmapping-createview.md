@@ -4,10 +4,10 @@ title: ISimilarityTraitsMapping::CreateView
 author: windows-sdk-content
 description: Maps a view of the file mapping for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_createview.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 222b3682-8ccc-4c52-858a-ad4ac8a65add
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateView, CreateView method [Remote Differential Compression], CreateView method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],CreateView method, ISimilarityTraitsMapping.CreateView, ISimilarityTraitsMapping::CreateView, fs.isimilaritytraitsmapping_createview, msrdc/ISimilarityTraitsMapping::CreateView, rdc.isimilaritytraitsmapping_createview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- ISimilarityTraitsMapping.CreateView
-: 
 ---
 
 # ISimilarityTraitsMapping::CreateView

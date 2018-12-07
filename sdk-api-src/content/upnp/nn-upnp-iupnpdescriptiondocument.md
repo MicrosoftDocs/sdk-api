@@ -4,10 +4,10 @@ title: IUPnPDescriptionDocument
 author: windows-sdk-content
 description: The IUPnPDescriptionDocument interface enables an application to load a device description.
 old-location: upnp\iupnpdescriptiondocument.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 25bd3abd-b270-4609-93bb-a786ccaa95dd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDescriptionDocument, IUPnPDescriptionDocument interface [UPnP APIs], IUPnPDescriptionDocument interface [UPnP APIs],described, _upnp_iupnpdescriptiondocument, upnp.iupnpdescriptiondocument, upnp/IUPnPDescriptionDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices

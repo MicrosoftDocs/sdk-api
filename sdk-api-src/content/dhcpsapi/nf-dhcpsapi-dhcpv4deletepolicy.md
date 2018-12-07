@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4deletepolicy.htm
 tech.root: DHCP
 ms.assetid: 94e6ad23-3e38-4ee2-bc3a-8d7ff1b21eca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpV4DeletePolicy, DhcpV4DeletePolicy function [DHCP], dhcp.dhcpv4deletepolicy, dhcpsapi/DhcpV4DeletePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpV4DeletePolicy
-: 
 ---
 
 # DhcpV4DeletePolicy function

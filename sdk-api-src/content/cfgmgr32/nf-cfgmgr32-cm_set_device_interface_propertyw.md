@@ -7,7 +7,7 @@ old-location: devinst\cm_set_device_interface_property.htm
 tech.root: devinst
 ms.assetid: EB009652-2B20-43C2-A373-AB17F1FBC1B2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Set_Device_Interface_Property, CM_Set_Device_Interface_Property function [Device and Driver Installation], CM_Set_Device_Interface_PropertyW, cfgmgr32/CM_Set_Device_Interface_Property, cfgmgr32/CM_Set_Device_Interface_PropertyW, devinst.cm_set_device_interface_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Set_Device_Interface_PropertyW
-: 
 ---
 
 # CM_Set_Device_Interface_PropertyW function

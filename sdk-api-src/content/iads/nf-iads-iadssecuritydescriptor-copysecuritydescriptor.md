@@ -4,10 +4,10 @@ title: IADsSecurityDescriptor::CopySecurityDescriptor
 author: windows-sdk-content
 description: The IADsSecurityDescriptor::CopySecurityDescriptor method copies an ADSI security descriptor object that holds security data about an object.
 old-location: adsi\iadssecuritydescriptor_copysecuritydescriptor.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: fe30a23a-ccf0-4852-bfcc-9f5a010bd0ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CopySecurityDescriptor, CopySecurityDescriptor method [ADSI], CopySecurityDescriptor method [ADSI],IADsSecurityDescriptor interface, IADsSecurityDescriptor interface [ADSI],CopySecurityDescriptor method, IADsSecurityDescriptor.CopySecurityDescriptor, IADsSecurityDescriptor::CopySecurityDescriptor, _ds_iadssecuritydescriptor_copysecuritydescriptor, adsi.iadssecuritydescriptor__copysecuritydescriptor, adsi.iadssecuritydescriptor_copysecuritydescriptor, iads/IADsSecurityDescriptor::CopySecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsSecurityDescriptor.CopySecurityDescriptor
-: 
 ---
 
 # IADsSecurityDescriptor::CopySecurityDescriptor

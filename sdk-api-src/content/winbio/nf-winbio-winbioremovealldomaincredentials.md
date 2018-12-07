@@ -7,7 +7,7 @@ old-location: secbiomet\winbioremovealldomaincredentials.htm
 tech.root: SecBioMet
 ms.assetid: 2aee0929-2340-4901-a5d2-f1cd4395624a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioRemoveAllDomainCredentials, WinBioRemoveAllDomainCredentials function [Windows Biometric Framework API], secbiomet.winbioremovealldomaincredentials, winbio/WinBioRemoveAllDomainCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinBioRemoveAllDomainCredentials
-: 
 ---
 
 # WinBioRemoveAllDomainCredentials function

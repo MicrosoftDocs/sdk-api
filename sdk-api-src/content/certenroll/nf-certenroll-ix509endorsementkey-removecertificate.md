@@ -4,10 +4,10 @@ title: IX509EndorsementKey::RemoveCertificate
 author: windows-sdk-content
 description: Removes an endorsement certificate related to the endorsement key from the key storage provider. You can only call the RemoveCertificate method after the Open method has been successfully called.
 old-location: security\ix509endorsementkey_removecertificate.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 40c5d77c-9b0d-4ee4-a02e-cec9b2f1b392
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509EndorsementKey interface [Security],RemoveCertificate method, IX509EndorsementKey.RemoveCertificate, IX509EndorsementKey::RemoveCertificate, RemoveCertificate, RemoveCertificate method [Security], RemoveCertificate method [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::RemoveCertificate, security.ix509endorsementkey_removecertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509EndorsementKey.RemoveCertificate
-: 
 ---
 
 # IX509EndorsementKey::RemoveCertificate

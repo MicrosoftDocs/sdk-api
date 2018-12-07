@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxabort.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_03jo.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FaxAbortA, FaxAbortW, PFAXABORT, PFAXABORT callback, PFAXABORT callback function [Fax Service], _mfax_faxabort, fax._mfax_faxabort, winfax/FaxAbortA, winfax/FaxAbortW, winfax/PFAXABORT
 ms.prod: windows-hardware
 ms.technology: windows-devices

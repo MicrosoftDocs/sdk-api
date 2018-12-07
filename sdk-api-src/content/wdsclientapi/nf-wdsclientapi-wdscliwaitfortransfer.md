@@ -7,7 +7,7 @@ old-location: wds\wdscliwaitfortransfer.htm
 tech.root: wds
 ms.assetid: 2328ce69-5a2d-4c4e-bf24-95a379fb7faa
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsCliWaitForTransfer, WdsCliWaitForTransfer function [Windows Deployment Services], wds.wdscliwaitfortransfer, wdsclientapi/WdsCliWaitForTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WdsCliWaitForTransfer
-: 
 ---
 
 # WdsCliWaitForTransfer function

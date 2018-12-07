@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_backcolor.htm
 tech.root: tablet
 ms.assetid: f97858c5-a8f9-4d92-9ed2-bdeaeb1e2f5a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: BackColor property [Tablet PC], BackColor property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],BackColor property, IInkPicture.BackColor, IInkPicture.get_BackColor, IInkPicture::BackColor, IInkPicture::get_BackColor, IInkPicture::put_BackColor, InkPicture.get_BackColor, InkPicture.put_BackColor, get_BackColor, msinkaut/IInkPicture::BackColor, msinkaut/IInkPicture::get_BackColor, msinkaut/IInkPicture::put_BackColor, put_BackColor, tablet.inkpicture_backcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,14 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkPicture.get_BackColor
-: 
 ---
 
 # IInkPicture::get_BackColor

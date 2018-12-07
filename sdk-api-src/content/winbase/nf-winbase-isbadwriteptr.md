@@ -4,10 +4,10 @@ title: IsBadWritePtr function
 author: windows-sdk-content
 description: Verifies that the calling process has write access to the specified range of memory.
 old-location: base\isbadwriteptr.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 2b353a8e-45cf-4108-9522-bcbde9c71ec4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IsBadWritePtr, IsBadWritePtr function, _win32_isbadwriteptr, base.isbadwriteptr, winbase/IsBadWritePtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IsBadWritePtr
-: 
 ---
 
 # IsBadWritePtr function

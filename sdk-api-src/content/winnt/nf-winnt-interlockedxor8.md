@@ -4,10 +4,10 @@ title: InterlockedXor8 function
 author: windows-sdk-content
 description: Performs an atomic XOR operation on the specified char values.
 old-location: base\interlockedxor8.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 9b96417e-dc2e-4b67-8084-0c0219444299
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedXor8, InterlockedXor8 function, base.interlockedxor8, winnt/InterlockedXor8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InterlockedXor8
-: 
 ---
 
 # InterlockedXor8 function

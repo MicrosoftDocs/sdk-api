@@ -7,7 +7,7 @@ old-location: input_intcontext\getmousewheelparameterinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 2edb742d-a5a1-4c3b-bc0f-c119a2f1c221
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetMouseWheelParameterInteractionContext, GetMouseWheelParameterInteractionContext function, input_intcontext.getmousewheelparameterinteractioncontext, interactioncontext.getmousewheelparameterinteractioncontext, interactioncontext/GetMouseWheelParameterInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetMouseWheelParameterInteractionContext
-: 
 ---
 
 # GetMouseWheelParameterInteractionContext function

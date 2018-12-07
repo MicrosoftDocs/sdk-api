@@ -7,7 +7,7 @@ old-location: shell\IShellLink_GetIDList.htm
 tech.root: shell
 ms.assetid: ae1ac1b0-bcaf-4e3b-831c-f843ae86779c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetIDList, GetIDList method [Windows Shell], GetIDList method [Windows Shell],IShellLink interface, GetIDList method [Windows Shell],IShellLinkA interface, GetIDList method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetIDList method, IShellLink::GetIDList, IShellLinkA interface [Windows Shell],GetIDList method, IShellLinkA::GetIDList, IShellLinkW interface [Windows Shell],GetIDList method, IShellLinkW.GetIDList, IShellLinkW::GetIDList, _win32_IShellLink_GetIDList, shell.IShellLink_GetIDList, shobjidl_core/IShellLink::GetIDList, shobjidl_core/IShellLinkA::GetIDList, shobjidl_core/IShellLinkW::GetIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IShellLinkW.GetIDList
-: 
 ---
 
 # IShellLinkW::GetIDList

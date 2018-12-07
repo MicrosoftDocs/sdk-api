@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice3.htm
 tech.root: xaml_diagnostics
 ms.assetid: 20AD2DC4-388E-458E-AA44-8B2F3464FD6C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVisualTreeService3, IVisualTreeService3 interface, IVisualTreeService3 interface,described, xaml_diagnostics.ivisualtreeservice3, xamlom/IVisualTreeService3
 ms.prod: windows-hardware
 ms.technology: windows-devices

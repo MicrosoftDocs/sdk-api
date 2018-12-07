@@ -4,10 +4,10 @@ title: IADsComputerOperations::Status
 author: windows-sdk-content
 description: The IADsComputerOperations::Status method retrieves the status of a computer.
 old-location: adsi\iadscomputeroperations_status.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 85243a67-3fe4-43f2-8173-4e9a507609ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsComputerOperations interface [ADSI],Status method, IADsComputerOperations.Status, IADsComputerOperations::Status, Status, Status method [ADSI], Status method [ADSI],IADsComputerOperations interface, _ds_iadscomputeroperations_status, adsi.iadscomputeroperations__status, adsi.iadscomputeroperations_status, iads/IADsComputerOperations::Status
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsComputerOperations.Status
-: 
 ---
 
 # IADsComputerOperations::Status

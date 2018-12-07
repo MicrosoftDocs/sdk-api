@@ -4,10 +4,10 @@ title: D2D1_BRUSH_PROPERTIES
 author: windows-sdk-content
 description: Describes the opacity and transformation of a brush.
 old-location: direct2d\D2D1_BRUSH_PROPERTIES.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 37b2fc18-a320-41c0-8717-dcd561a2f2df
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_BRUSH_PROPERTIES, D2D1_BRUSH_PROPERTIES structure [Direct2D], d2d1/D2D1_BRUSH_PROPERTIES, direct2d.D2D1_BRUSH_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

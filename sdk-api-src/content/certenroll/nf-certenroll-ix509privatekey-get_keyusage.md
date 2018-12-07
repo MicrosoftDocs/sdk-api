@@ -4,10 +4,10 @@ title: IX509PrivateKey::get_KeyUsage
 author: windows-sdk-content
 description: Specifies or retrieves a value that identifies the specific purpose for which a private key can be used.
 old-location: security\ix509privatekey_keyusage.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: e983c95b-6b3a-4e27-8a23-ef9051b11a16
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509PrivateKey interface [Security],KeyUsage property, IX509PrivateKey.KeyUsage, IX509PrivateKey.get_KeyUsage, IX509PrivateKey::KeyUsage, IX509PrivateKey::get_KeyUsage, IX509PrivateKey::put_KeyUsage, KeyUsage property [Security], KeyUsage property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::KeyUsage, certenroll/IX509PrivateKey::get_KeyUsage, certenroll/IX509PrivateKey::put_KeyUsage, get_KeyUsage, security.ix509privatekey_keyusage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509PrivateKey.get_KeyUsage
-: 
 ---
 
 # IX509PrivateKey::get_KeyUsage

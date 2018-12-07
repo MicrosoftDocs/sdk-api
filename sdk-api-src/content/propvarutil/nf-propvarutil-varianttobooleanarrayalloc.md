@@ -7,7 +7,7 @@ old-location: properties\VariantToBooleanArrayAlloc.htm
 tech.root: properties
 ms.assetid: 6a623ee0-d99e-47db-82f9-9008c618a526
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToBooleanArrayAlloc, VariantToBooleanArrayAlloc function [Windows Properties], _shell_VariantToBooleanArrayAlloc, properties.VariantToBooleanArrayAlloc, propvarutil/VariantToBooleanArrayAlloc, shell.VariantToBooleanArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToBooleanArrayAlloc
-: 
 ---
 
 # VariantToBooleanArrayAlloc function

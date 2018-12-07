@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_description.htm
 tech.root: cossdk
 ms.assetid: 59648682-12c4-4c55-83f6-57c6ec5d6d02
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Description property [COM+], Description property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],Description property, IEventSubscription.Description, IEventSubscription.get_Description, IEventSubscription::Description, IEventSubscription::get_Description, IEventSubscription::put_Description, cos.ieventsubscription_description, eventsys/IEventSubscription::Description, eventsys/IEventSubscription::get_Description, eventsys/IEventSubscription::put_Description, get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- eventsys.h
-: 
-- IEventSubscription.get_Description
-: 
 ---
 
 # IEventSubscription::get_Description

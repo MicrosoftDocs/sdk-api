@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice2_enqueuesetevent.htm
 tech.root: direct3ddxgi
 ms.assetid: CECF3ED6-A025-48C4-A7E2-971B86A262F0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EnqueueSetEvent, EnqueueSetEvent method [DXGI], EnqueueSetEvent method [DXGI],IDXGIDevice2 interface, IDXGIDevice2 interface [DXGI],EnqueueSetEvent method, IDXGIDevice2.EnqueueSetEvent, IDXGIDevice2::EnqueueSetEvent, direct3ddxgi.idxgidevice2_enqueuesetevent, dxgi1_2/IDXGIDevice2::EnqueueSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxgi1_2.h
-: 
-- IDXGIDevice2.EnqueueSetEvent
-: 
 ---
 
 # IDXGIDevice2::EnqueueSetEvent

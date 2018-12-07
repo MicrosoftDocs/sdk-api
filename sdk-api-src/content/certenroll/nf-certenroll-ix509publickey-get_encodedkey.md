@@ -4,10 +4,10 @@ title: IX509PublicKey::get_EncodedKey
 author: windows-sdk-content
 description: Retrieves a byte array that contains the public key.
 old-location: security\ix509publickey_encodedkey_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 3573f4b6-ecfd-4540-bc43-c88943992fe2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EncodedKey property [Security], EncodedKey property [Security],IX509PublicKey interface, IX509PublicKey interface [Security],EncodedKey property, IX509PublicKey.EncodedKey, IX509PublicKey.get_EncodedKey, IX509PublicKey::EncodedKey, IX509PublicKey::get_EncodedKey, certenroll/IX509PublicKey::EncodedKey, certenroll/IX509PublicKey::get_EncodedKey, get_EncodedKey, security.ix509publickey_encodedkey_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509PublicKey.get_EncodedKey
-: 
 ---
 
 # IX509PublicKey::get_EncodedKey

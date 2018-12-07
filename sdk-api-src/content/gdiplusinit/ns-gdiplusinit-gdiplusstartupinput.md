@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_GdiplusStartupInput.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusstartupinput.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GdiplusStartupInput, GdiplusStartupInput structure [GDI+], _gdiplus_STRUC_GdiplusStartupInput, gdiplus._gdiplus_STRUC_GdiplusStartupInput, gdiplusinit/GdiplusStartupInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,6 +85,13 @@ Boolean value that specifies whether to suppress the GDI+ background thread. If 
 Type: <b>BOOL</b>
 
 Boolean value that specifies whether you want GDI+ to suppress external image codecs. GDI+ version 1.0 does not support external image codecs, so this parameter is ignored.
+
+
+### -field GdiplusStartupInput
+
+TBD 
+
+
 
 
 ## -remarks

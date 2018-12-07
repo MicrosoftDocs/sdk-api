@@ -4,10 +4,10 @@ title: IX509EnrollmentStatus::get_Selected
 author: windows-sdk-content
 description: Specifies or retrieves a value that indicates whether an item can be used during the enrollment process.
 old-location: security\ix509enrollmentstatus_selected_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 9050f394-ccad-4a6e-90bc-53af3a874f91
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509EnrollmentStatus interface [Security],Selected property, IX509EnrollmentStatus.Selected, IX509EnrollmentStatus.get_Selected, IX509EnrollmentStatus::Selected, IX509EnrollmentStatus::get_Selected, IX509EnrollmentStatus::put_Selected, Selected property [Security], Selected property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Selected, certenroll/IX509EnrollmentStatus::get_Selected, certenroll/IX509EnrollmentStatus::put_Selected, get_Selected, security.ix509enrollmentstatus_selected_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509EnrollmentStatus.get_Selected
-: 
 ---
 
 # IX509EnrollmentStatus::get_Selected

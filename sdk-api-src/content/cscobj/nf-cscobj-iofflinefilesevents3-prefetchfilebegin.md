@@ -4,10 +4,10 @@ title: IOfflineFilesEvents3::PrefetchFileBegin
 author: windows-sdk-content
 description: Reports that a file prefetch operation has begun.
 old-location: of\iofflinefilesevents3_prefetchfilebegin.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: b65354ed-dc4b-491c-9672-2f5fa91093bd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesEvents3 interface [Offline Files],PrefetchFileBegin method, IOfflineFilesEvents3.PrefetchFileBegin, IOfflineFilesEvents3::PrefetchFileBegin, PrefetchFileBegin, PrefetchFileBegin method [Offline Files], PrefetchFileBegin method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::PrefetchFileBegin, of.iofflinefilesevents3_prefetchfilebegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesEvents3.PrefetchFileBegin
-: 
 ---
 
 # IOfflineFilesEvents3::PrefetchFileBegin

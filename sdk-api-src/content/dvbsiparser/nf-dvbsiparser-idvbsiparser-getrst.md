@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser_getrst.htm
 tech.root: mstv
 ms.assetid: 263abb39-3f8d-4501-985c-d5ac9b1c9ea1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRST, GetRST method [Microsoft TV Technologies], GetRST method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetRST method, IDvbSiParser.GetRST, IDvbSiParser::GetRST, IDvbSiParserGetRST, dvbsiparser/IDvbSiParser::GetRST, mstv.idvbsiparser_getrst
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDvbSiParser.GetRST
-: 
 ---
 
 # IDvbSiParser::GetRST

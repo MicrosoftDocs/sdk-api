@@ -4,10 +4,10 @@ title: ITLegacyCallMediaControl::GenerateDigits
 author: windows-sdk-content
 description: The GenerateDigits method causes digits to be output on the current call.
 old-location: tapi3\itlegacycallmediacontrol_generatedigits.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: d4dcdce0-4df5-43bb-a5ea-ea72782d5f04
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GenerateDigits, GenerateDigits method [TAPI 2.2], GenerateDigits method [TAPI 2.2],ITLegacyCallMediaControl interface, ITLegacyCallMediaControl interface [TAPI 2.2],GenerateDigits method, ITLegacyCallMediaControl.GenerateDigits, ITLegacyCallMediaControl::GenerateDigits, _tapi3_itlegacycallmediacontrol_generatedigits, tapi3.itlegacycallmediacontrol_generatedigits, tapi3if/ITLegacyCallMediaControl::GenerateDigits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITLegacyCallMediaControl.GenerateDigits
-: 
 ---
 
 # ITLegacyCallMediaControl::GenerateDigits

@@ -7,7 +7,7 @@ old-location: gdi\validatergn.htm
 tech.root: gdi
 ms.assetid: 80fb1d4a-d9b1-4e67-b585-eee81893ed34
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ValidateRgn, ValidateRgn function [Windows GDI], _win32_ValidateRgn, gdi.validatergn, winuser/ValidateRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ValidateRgn
-: 
 ---
 
 # ValidateRgn function

@@ -4,10 +4,10 @@ title: INetFwService::put_RemoteAddresses
 author: windows-sdk-content
 description: Specifies a set of the remote addresses from which the service ports can listen for traffic.
 old-location: ics\inetfwservice_remoteaddresses.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 6cb1dfa1-1e92-47a8-9a97-45443f487f6e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwService interface [ICS/ICF],RemoteAddresses property, INetFwService.RemoteAddresses, INetFwService.put_RemoteAddresses, INetFwService::RemoteAddresses, INetFwService::get_RemoteAddresses, INetFwService::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwService interface, ics.inetfwservice_remoteaddresses, netfw/INetFwService::RemoteAddresses, netfw/INetFwService::get_RemoteAddresses, netfw/INetFwService::put_RemoteAddresses, put_RemoteAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netfw.h
-: 
-- INetFwService.put_RemoteAddresses
-: 
 ---
 
 # INetFwService::put_RemoteAddresses

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayercallback.htm
 tech.root: medfound
 ms.assetid: 7d9d01bf-861a-4c35-93b1-dbf85cbf0a32
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFPMediaPlayerCallback, IMFPMediaPlayerCallback interface [Media Foundation], IMFPMediaPlayerCallback interface [Media Foundation],described, mf.imfpmediaplayercallback, mfplay/IMFPMediaPlayerCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

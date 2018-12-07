@@ -4,10 +4,10 @@ title: Edit_SetSel macro
 author: windows-sdk-content
 description: Selects a range of characters in an edit or rich edit control. You can use this macro or send the EM_SETSEL message explicitly.
 old-location: controls\Edit_SetSel.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setsel.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Edit_SetSel, Edit_SetSel macro [Windows Controls], _win32_Edit_SetSel, _win32_Edit_SetSel_cpp, controls.Edit_SetSel, controls._win32_Edit_SetSel, windowsx/Edit_SetSel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- windowsx.h
-: 
-- Edit_SetSel
-: 
 ---
 
 # Edit_SetSel macro

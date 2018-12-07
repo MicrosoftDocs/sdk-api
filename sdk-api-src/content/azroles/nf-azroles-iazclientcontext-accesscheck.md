@@ -4,10 +4,10 @@ title: IAzClientContext::AccessCheck
 author: windows-sdk-content
 description: Determines whether the current client context is allowed to perform the specified operations.
 old-location: security\iazclientcontext_accesscheck.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 0bd16cdb-3dba-4656-b264-32e622732155
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AccessCheck, AccessCheck method [Security], AccessCheck method [Security],AzClientContext object, AccessCheck method [Security],IAzClientContext interface, AzClientContext object [Security],AccessCheck method, IAzClientContext interface [Security],AccessCheck method, IAzClientContext.AccessCheck, IAzClientContext::AccessCheck, azroles/IAzClientContext::AccessCheck, security.iazclientcontext_accesscheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzClientContext.AccessCheck
-: 
 ---
 
 # IAzClientContext::AccessCheck

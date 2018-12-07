@@ -7,7 +7,7 @@ old-location: direct3d11\id3dx11scan_scan.htm
 tech.root: direct3d11
 ms.assetid: 42b91efd-3d84-4c76-bb9f-da0f398da6c7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 4ae96918-c884-060a-690a-7632d7df6622, ID3DX11Scan interface [Direct3D 11],Scan method, ID3DX11Scan.Scan, ID3DX11Scan::Scan, Scan, Scan method [Direct3D 11], Scan method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::Scan, direct3d11.id3dx11scan_scan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3dcsx.h
-: 
-- ID3DX11Scan.Scan
-: 
 ---
 
 # ID3DX11Scan::Scan

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetclientinfov4.htm
 tech.root: DHCP
 ms.assetid: f7e1aa86-634e-48a7-ae2a-9c23277ed946
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpSetClientInfoV4, DhcpSetClientInfoV4 function [DHCP], dhcp.dhcpsetclientinfov4, dhcpsapi/DhcpSetClientInfoV4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpSetClientInfoV4
-: 
 ---
 
 # DhcpSetClientInfoV4 function

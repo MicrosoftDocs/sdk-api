@@ -7,7 +7,7 @@ old-location: mschap\cypher_block.htm
 tech.root: MsChap
 ms.assetid: eb0e38ed-8d12-4df2-be58-7ac18447121f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CYPHER_BLOCK, CYPHER_BLOCK structure [MS-CHAP], _CYPHER_BLOCK, mschap.cypher_block, mschapp/CYPHER_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices

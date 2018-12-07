@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription2.htm
 tech.root: properties
 ms.assetid: 46c009b0-caf7-469f-9973-36d100a5ef98
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IPropertyDescription2, IPropertyDescription2 interface [Windows Properties], IPropertyDescription2 interface [Windows Properties],described, properties.IPropertyDescription2, propsys/IPropertyDescription2, shell.IPropertyDescription2, shell_IPropertyDescription2
 ms.prod: windows-hardware
 ms.technology: windows-devices

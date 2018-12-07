@@ -7,7 +7,7 @@ old-location: search\iphrasesink_putsmallphrase.htm
 tech.root: search
 ms.assetid: AC666D12-220B-4D22-997E-CCBE9967B6AB
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IPhraseSink interface [search],PutSmallPhrase method, IPhraseSink.PutSmallPhrase, IPhraseSink::PutSmallPhrase, PutSmallPhrase, PutSmallPhrase method [search], PutSmallPhrase method [search],IPhraseSink interface, indexsrv/IPhraseSink::PutSmallPhrase, search.iphrasesink_putsmallphrase
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- indexsrv.h
-: 
-- IPhraseSink.PutSmallPhrase
-: 
 ---
 
 # IPhraseSink::PutSmallPhrase

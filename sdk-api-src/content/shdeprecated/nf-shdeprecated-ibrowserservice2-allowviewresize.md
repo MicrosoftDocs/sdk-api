@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_AllowViewResize.htm
 tech.root: shell
 ms.assetid: 005d1c7a-00cc-4083-bde6-d3fa947de28e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AllowViewResize, AllowViewResize method [Windows Shell], AllowViewResize method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],AllowViewResize method, IBrowserService2.AllowViewResize, IBrowserService2::AllowViewResize, shdeprecated/IBrowserService2::AllowViewResize, shell.IBrowserService2_AllowViewResize, zone_IBrowserService2_AllowViewResize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- IBrowserService2.AllowViewResize
-: 
 req.product: Internet Explorer 5.0
 ---
 

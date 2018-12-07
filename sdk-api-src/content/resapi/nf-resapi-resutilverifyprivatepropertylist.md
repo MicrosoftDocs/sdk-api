@@ -4,10 +4,10 @@ title: ResUtilVerifyPrivatePropertyList function
 author: windows-sdk-content
 description: Verifies that a property list is correctly formatted.
 old-location: mscs\resutilverifyprivatepropertylist.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 3d2eaa83-dd82-4023-8466-0131f7b90abc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST, PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST function [Failover Cluster], ResUtilVerifyPrivatePropertyList, ResUtilVerifyPrivatePropertyList function [Failover Cluster], _wolf_resutilverifyprivatepropertylist, mscs.resutilverifyprivatepropertylist, resapi/PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST, resapi/ResUtilVerifyPrivatePropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResUtilVerifyPrivatePropertyList
-: 
 ---
 
 # ResUtilVerifyPrivatePropertyList function

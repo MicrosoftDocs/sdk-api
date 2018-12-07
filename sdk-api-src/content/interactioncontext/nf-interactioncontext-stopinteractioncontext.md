@@ -7,7 +7,7 @@ old-location: input_intcontext\stopinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 52fb6054-c8f3-4dbe-af1f-0b8d39ebcf5b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: StopInteractionContext, StopInteractionContext function, input_intcontext.stopinteractioncontext, interactioncontext.stopinteractioncontext, interactioncontext/StopInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StopInteractionContext
-: 
 ---
 
 # StopInteractionContext function

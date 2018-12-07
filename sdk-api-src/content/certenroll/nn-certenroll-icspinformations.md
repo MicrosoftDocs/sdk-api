@@ -4,10 +4,10 @@ title: ICspInformations
 author: windows-sdk-content
 description: The ICspInformations interface defines the following methods and properties to manage a collection of ICspInformation objects.
 old-location: security\icspinformations.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 8141023c-c162-46d6-9c37-e227ce1c8761
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICspInformations, ICspInformations interface [Security], ICspInformations interface [Security],described, certenroll/ICspInformations, security.icspinformations
 ms.prod: windows-hardware
 ms.technology: windows-devices

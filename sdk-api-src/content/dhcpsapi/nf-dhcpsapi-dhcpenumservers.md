@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumservers.htm
 tech.root: DHCP
 ms.assetid: c8b4d241-19d4-4a97-9129-c2954d63b6ac
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpEnumServers, DhcpEnumServers function [DHCP], dhcp.dhcpenumservers, dhcpsapi/DhcpEnumServers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpEnumServers
-: 
 ---
 
 # DhcpEnumServers function

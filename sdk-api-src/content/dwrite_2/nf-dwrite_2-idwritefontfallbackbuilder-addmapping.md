@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontfallbackbuilder_addmapping.htm
 tech.root: DirectWrite
 ms.assetid: FCA3CD9C-9FB3-49BD-B4D1-53AEAAAAEE8A
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AddMapping, AddMapping method [Direct Write], AddMapping method [Direct Write],IDWriteFontFallbackBuilder interface, IDWriteFontFallbackBuilder interface [Direct Write],AddMapping method, IDWriteFontFallbackBuilder.AddMapping, IDWriteFontFallbackBuilder::AddMapping, directwrite.idwritefontfallbackbuilder_addmapping, dwrite_2/IDWriteFontFallbackBuilder::AddMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_2.h
-: 
-- IDWriteFontFallbackBuilder.AddMapping
-: 
 ---
 
 # IDWriteFontFallbackBuilder::AddMapping

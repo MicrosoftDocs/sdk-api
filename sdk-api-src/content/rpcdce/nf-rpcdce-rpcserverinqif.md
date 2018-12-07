@@ -4,10 +4,10 @@ title: RpcServerInqIf function
 author: windows-sdk-content
 description: The RpcServerInqIf function returns the manager entry-point vector (EPV) registered for an interface.
 old-location: rpc\rpcserverinqif.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 4c5f86a5-7867-4d5a-a255-5c0c57c7fe0a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RpcServerInqIf, RpcServerInqIf function [RPC], _rpc_rpcserverinqif, rpc.rpcserverinqif, rpcdce/RpcServerInqIf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcServerInqIf
-: 
 ---
 
 # RpcServerInqIf function

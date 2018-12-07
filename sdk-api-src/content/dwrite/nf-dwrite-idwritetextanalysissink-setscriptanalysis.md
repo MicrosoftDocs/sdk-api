@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalysissink_setscriptanalysis.htm
 tech.root: DirectWrite
 ms.assetid: beae0420-b244-4c87-a3cb-a1b34562c3ed
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetScriptAnalysis method, IDWriteTextAnalysisSink.SetScriptAnalysis, IDWriteTextAnalysisSink::SetScriptAnalysis, SetScriptAnalysis, SetScriptAnalysis method [Direct Write], SetScriptAnalysis method [Direct Write],IDWriteTextAnalysisSink interface, directwrite.idwritetextanalysissink_setscriptanalysis, dwrite/IDWriteTextAnalysisSink::SetScriptAnalysis
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteTextAnalysisSink.SetScriptAnalysis
-: 
 ---
 
 # IDWriteTextAnalysisSink::SetScriptAnalysis

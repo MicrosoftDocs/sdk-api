@@ -7,7 +7,7 @@ old-location: mf\imftranscodeprofile.htm
 tech.root: medfound
 ms.assetid: 82e012e0-84d8-4791-8b6f-bda58b498a90
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], IMFTranscodeProfile interface [Media Foundation],described, mf.imftranscodeprofile, mfidl/IMFTranscodeProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

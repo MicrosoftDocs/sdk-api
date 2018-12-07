@@ -4,10 +4,10 @@ title: IRDPSRAPISessionProperties
 author: windows-sdk-content
 description: Use this interface to get or set session properties.
 old-location: rdp\irdpsrapisessionproperties.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: bf4d9df2-8436-4d21-9016-7db231212155
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [RDP], IRDPSRAPISessionProperties interface [RDP],described, rdp.irdpsrapisessionproperties, rdpencomapi/IRDPSRAPISessionProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

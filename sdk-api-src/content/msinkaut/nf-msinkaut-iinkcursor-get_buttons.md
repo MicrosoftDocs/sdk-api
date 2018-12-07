@@ -7,7 +7,7 @@ old-location: tablet\iinkcursor_buttons.htm
 tech.root: tablet
 ms.assetid: 21ea5b71-390e-448f-becc-1e3bb7015ed9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 21ea5b71-390e-448f-becc-1e3bb7015ed9, Buttons property [Tablet PC], Buttons property [Tablet PC],IInkCursor interface, IInkCursor interface [Tablet PC],Buttons property, IInkCursor.Buttons, IInkCursor.get_Buttons, IInkCursor::Buttons, IInkCursor::get_Buttons, get_Buttons, msinkaut/IInkCursor::Buttons, msinkaut/IInkCursor::get_Buttons, tablet.iinkcursor_buttons
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,14 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msinkaut.h
-: 
-- IInkCursor.get_Buttons
-: 
 ---
 
 # IInkCursor::get_Buttons

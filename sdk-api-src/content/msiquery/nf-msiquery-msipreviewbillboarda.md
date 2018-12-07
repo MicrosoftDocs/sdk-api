@@ -4,10 +4,10 @@ title: MsiPreviewBillboardA function
 author: windows-sdk-content
 description: The MsiPreviewBillboard function displays a billboard with the host control in the displayed dialog box.
 old-location: setup\msipreviewbillboard.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 7404ea12-bb38-4b7d-986e-2dff2fc36346
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MsiPreviewBillboard, MsiPreviewBillboard function, MsiPreviewBillboardA, MsiPreviewBillboardW, _msi_msipreviewbillboard, msiquery/MsiPreviewBillboard, msiquery/MsiPreviewBillboardA, msiquery/MsiPreviewBillboardW, setup.msipreviewbillboard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiPreviewBillboardA
-: 
 ---
 
 # MsiPreviewBillboardA function

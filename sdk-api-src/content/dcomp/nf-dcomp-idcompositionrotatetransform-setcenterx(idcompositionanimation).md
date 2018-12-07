@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform_setcenterx_idcompositionan
 tech.root: directcomp
 ms.assetid: 9E04CEF1-FC36-46AE-BD63-3154BDB26034
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetCenterX method, IDCompositionRotateTransform.SetCenterX, IDCompositionRotateTransform.SetCenterX(IDCompositionAnimation), IDCompositionRotateTransform::SetCenterX, IDCompositionRotateTransform::SetCenterX(IDCompositionAnimation), IDCompositionRotateTransform::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetCenterX, directcomp.idcompositionrotatetransform_setcenterx_idcompositionanimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionRotateTransform.SetCenterX
-: 
 ---
 
 # IDCompositionRotateTransform::SetCenterX(IDCompositionAnimation)

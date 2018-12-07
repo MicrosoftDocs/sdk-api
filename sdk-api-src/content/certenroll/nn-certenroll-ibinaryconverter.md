@@ -4,10 +4,10 @@ title: IBinaryConverter
 author: windows-sdk-content
 description: Contains general methods that enable you to create a Unicode-encoded string from a byte array, create a byte array from a Unicode-encoded string, and modify the type of Unicode encoding applied to a string.
 old-location: security\ibinaryconverter.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 495a321a-3005-4537-b082-5003e437d21f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBinaryConverter, IBinaryConverter interface [Security], IBinaryConverter interface [Security],described, certenroll/IBinaryConverter, security.ibinaryconverter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IEnumPluggableSuperclassInfo::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumpluggablesuperclassinfo_next.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 820cf2cd-1354-473d-974d-267b888f07a9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumPluggableSuperclassInfo interface [TAPI 2.2],Next method, IEnumPluggableSuperclassInfo.Next, IEnumPluggableSuperclassInfo::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, _tapi3_ienumpluggablesuperclassinfo_next, tapi3.ienumpluggablesuperclassinfo_next, tapi3if/IEnumPluggableSuperclassInfo::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- IEnumPluggableSuperclassInfo.Next
-: 
 ---
 
 # IEnumPluggableSuperclassInfo::Next

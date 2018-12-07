@@ -7,7 +7,7 @@ old-location: gdi\ixpsprintjob_getjobstatus.htm
 tech.root: printdocs
 ms.assetid: e2a55aec-f8a5-40b4-8c26-1488df49eed0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetJobStatus, GetJobStatus method [Windows GDI], GetJobStatus method [Windows GDI],IXpsPrintJob interface, IXpsPrintJob interface [Windows GDI],GetJobStatus method, IXpsPrintJob.GetJobStatus, IXpsPrintJob::GetJobStatus, gdi.ixpsprintjob_getjobstatus, xpsprint/IXpsPrintJob::GetJobStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsprint.h
-: 
-- IXpsPrintJob.GetJobStatus
-: 
 ---
 
 # IXpsPrintJob::GetJobStatus

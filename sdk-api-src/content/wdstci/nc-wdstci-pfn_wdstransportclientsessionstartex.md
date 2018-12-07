@@ -7,7 +7,7 @@ old-location: wds\pfn_wdstransportclientsessionstartex.htm
 tech.root: wds
 ms.assetid: 36970f1b-9dbf-421f-a078-3da3bbb050e8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: PFN_WdsTransportClientSessionStartEx, PFN_WdsTransportClientSessionStartEx callback, PFN_WdsTransportClientSessionStartEx callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessionstartex, wdstci/PFN_WdsTransportClientSessionStartEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

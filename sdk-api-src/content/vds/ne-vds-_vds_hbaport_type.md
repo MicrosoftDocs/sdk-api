@@ -4,10 +4,10 @@ title: "_VDS_HBAPORT_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types for an HBA port.
 old-location: base\vds_hbaport_type.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: fcad33c0-9a85-4180-b5de-fbef06e9e6e6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VDS_HBAPORT_TYPE, VDS_HBAPORT_TYPE enumeration [VDS], VDS_HPT_EPORT, VDS_HPT_FLPORT, VDS_HPT_FPORT, VDS_HPT_GPORT, VDS_HPT_LPORT, VDS_HPT_NLPORT, VDS_HPT_NOTPRESENT, VDS_HPT_NPORT, VDS_HPT_OTHER, VDS_HPT_PTP, VDS_HPT_UNKNOWN, _VDS_HBAPORT_TYPE, base.vds_hbaport_type, vds/VDS_HBAPORT_TYPE, vds/VDS_HPT_EPORT, vds/VDS_HPT_FLPORT, vds/VDS_HPT_FPORT, vds/VDS_HPT_GPORT, vds/VDS_HPT_LPORT, vds/VDS_HPT_NLPORT, vds/VDS_HPT_NOTPRESENT, vds/VDS_HPT_NPORT, vds/VDS_HPT_OTHER, vds/VDS_HPT_PTP, vds/VDS_HPT_UNKNOWN, vdshwprv/VDS_HBAPORT_TYPE, vdshwprv/VDS_HPT_EPORT, vdshwprv/VDS_HPT_FLPORT, vdshwprv/VDS_HPT_FPORT, vdshwprv/VDS_HPT_GPORT, vdshwprv/VDS_HPT_LPORT, vdshwprv/VDS_HPT_NLPORT, vdshwprv/VDS_HPT_NOTPRESENT, vdshwprv/VDS_HPT_NPORT, vdshwprv/VDS_HPT_OTHER, vdshwprv/VDS_HPT_PTP, vdshwprv/VDS_HPT_UNKNOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices

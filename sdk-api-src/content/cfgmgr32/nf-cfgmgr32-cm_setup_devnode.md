@@ -7,7 +7,7 @@ old-location: devinst\cm_setup_devnode.htm
 tech.root: devinst
 ms.assetid: 94d0023d-d93f-42da-b2fc-54b9d8831b9b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Setup_DevNode, CM_Setup_DevNode function [Device and Driver Installation], cfgmgr32/CM_Setup_DevNode, cfgmgrfn_e8515529-d4bc-4411-a5cf-18bc4f4d7500.xml, devinst.cm_setup_devnode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Setup_DevNode
-: 
 ---
 
 # CM_Setup_DevNode function

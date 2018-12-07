@@ -4,10 +4,10 @@ title: SspiValidateAuthIdentity function
 author: windows-sdk-content
 description: Indicates whether the specified identity structure is valid.
 old-location: security\sspivalidateauthidentity.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 82733abd-d984-4902-b6e4-c3809171ad51
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SspiValidateAuthIdentity, SspiValidateAuthIdentity function [Security], security.sspivalidateauthidentity, sspi/SspiValidateAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SspiValidateAuthIdentity
-: 
 ---
 
 # SspiValidateAuthIdentity function

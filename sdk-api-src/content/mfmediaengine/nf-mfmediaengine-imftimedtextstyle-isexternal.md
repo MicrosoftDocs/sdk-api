@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_isexternal.htm
 tech.root: medfound
 ms.assetid: D24C7503-F7BB-44F9-B668-538B604F0394
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFTimedTextStyle interface [Media Foundation],IsExternal method, IMFTimedTextStyle.IsExternal, IMFTimedTextStyle::IsExternal, IsExternal, IsExternal method [Media Foundation], IsExternal method [Media Foundation],IMFTimedTextStyle interface, mf.imftimedtextstyle_isexternal, mfmediaengine/IMFTimedTextStyle::IsExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfmediaengine.h
-: 
-- IMFTimedTextStyle.IsExternal
-: 
 ---
 
 # IMFTimedTextStyle::IsExternal

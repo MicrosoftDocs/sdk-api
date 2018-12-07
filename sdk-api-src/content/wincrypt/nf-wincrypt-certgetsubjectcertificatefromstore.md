@@ -4,10 +4,10 @@ title: CertGetSubjectCertificateFromStore function
 author: windows-sdk-content
 description: Returns from a certificate store a subject certificate context uniquely identified by its issuer and serial number.
 old-location: security\certgetsubjectcertificatefromstore.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 61d73501-91b1-4498-b1a3-17392360c700
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CertGetSubjectCertificateFromStore, CertGetSubjectCertificateFromStore function [Security], _crypto2_certgetsubjectcertificatefromstore, security.certgetsubjectcertificatefromstore, wincrypt/CertGetSubjectCertificateFromStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertGetSubjectCertificateFromStore
-: 
 ---
 
 # CertGetSubjectCertificateFromStore function

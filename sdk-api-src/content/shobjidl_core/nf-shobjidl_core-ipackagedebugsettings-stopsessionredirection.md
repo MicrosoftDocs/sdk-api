@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_StopSessionRedirection.htm
 tech.root: shell
 ms.assetid: 6edd4f9a-c9e8-45eb-a86b-a04116530aad
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StopSessionRedirection method, IPackageDebugSettings.StopSessionRedirection, IPackageDebugSettings::StopSessionRedirection, StopSessionRedirection, StopSessionRedirection method [Windows Shell], StopSessionRedirection method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StopSessionRedirection, shobjidl_core/IPackageDebugSettings::StopSessionRedirection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IPackageDebugSettings.StopSessionRedirection
-: 
 ---
 
 # IPackageDebugSettings::StopSessionRedirection

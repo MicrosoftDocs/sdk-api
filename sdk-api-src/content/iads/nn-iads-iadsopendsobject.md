@@ -4,10 +4,10 @@ title: IADsOpenDSObject
 author: windows-sdk-content
 description: The IADsOpenDSObject interface is designed to supply a security context for binding to an object in the underlying directory store.
 old-location: adsi\iadsopendsobject.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 9daf6f91-6c58-46a8-ba05-149f28b53829
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsOpenDSObject, IADsOpenDSObject interface [ADSI], IADsOpenDSObject interface [ADSI],described, _ds_iadsopendsobject, adsi.iadsopendsobject, iads/IADsOpenDSObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

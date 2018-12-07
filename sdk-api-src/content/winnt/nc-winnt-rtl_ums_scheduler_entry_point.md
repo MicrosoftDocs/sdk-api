@@ -4,10 +4,10 @@ title: RTL_UMS_SCHEDULER_ENTRY_POINT
 author: windows-sdk-content
 description: The application-defined user-mode scheduling (UMS) scheduler entry point function associated with a UMS completion list.
 old-location: base\umsschedulerproc.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 10de1c48-255d-45c3-acf0-25f8a564b585
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 0, 1, RTL_UMS_SCHEDULER_ENTRY_POINT, RTL_UMS_SCHEDULER_ENTRY_POINT callback, UmsSchedulerProc, UmsSchedulerProc callback function, UmsSchedulerStartup, UmsSchedulerThreadBlocked, UmsSchedulerThreadYield, base.umsschedulerproc, winnt/UmsSchedulerProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IX509AttributeCspProvider::InitializeEncode
 author: windows-sdk-content
 description: Initializes the attribute from information about the provider.
 old-location: security\ix509attributecspprovider_initializeencode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: b0b45ea2-b682-4065-8624-08c34581b5ea
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509AttributeCspProvider interface [Security],InitializeEncode method, IX509AttributeCspProvider.InitializeEncode, IX509AttributeCspProvider::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::InitializeEncode, security.ix509attributecspprovider_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509AttributeCspProvider.InitializeEncode
-: 
 ---
 
 # IX509AttributeCspProvider::InitializeEncode

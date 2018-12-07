@@ -7,7 +7,7 @@ old-location: iphlp\getextendedtcptable.htm
 tech.root: IpHlp
 ms.assetid: 96356a0e-ae0d-4000-9223-a578cbdeaa8b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AF_INET, AF_INET6, GetExtendedTcpTable, GetExtendedTcpTable function [IP Helper], iphlp.getextendedtcptable, iphlpapi/GetExtendedTcpTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetExtendedTcpTable
-: 
 ---
 
 # GetExtendedTcpTable function

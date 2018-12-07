@@ -4,10 +4,10 @@ title: EventDescGetVersion function
 author: windows-sdk-content
 description: Retrieves the version from the event descriptor.
 old-location: etw\eventdescgetversion_func.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 3881f089-d0c6-4d46-929a-09777df13f61
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EventDescGetVersion, EventDescGetVersion function [ETW], base.eventdescgetversion_func, etw.eventdescgetversion_func, evntprov/EventDescGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EventDescGetVersion
-: 
 ---
 
 # EventDescGetVersion function

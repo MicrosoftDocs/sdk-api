@@ -7,7 +7,7 @@ old-location: automat\varui4fromdisp.htm
 tech.root: automat
 ms.assetid: 613e879b-a66c-4703-b81e-aa34b68dbae2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarUI4FromDisp, VarUI4FromDisp function [Automation], _oa96_VarUI4FromDisp, automat.varui4fromdisp, oleauto/VarUI4FromDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarUI4FromDisp
-: 
 ---
 
 # VarUI4FromDisp function

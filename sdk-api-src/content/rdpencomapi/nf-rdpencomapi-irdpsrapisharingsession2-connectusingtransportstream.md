@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession2::ConnectUsingTransportStream
 author: windows-sdk-content
 description: Connects using the specified transport stream.
 old-location: rdp\irdpsrapisharingsession2_connectusingtransportstream.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 78f517c9-0870-4dfd-a318-3bd510e05dfa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ConnectUsingTransportStream, ConnectUsingTransportStream method [RDP], ConnectUsingTransportStream method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession2 interface [RDP],ConnectUsingTransportStream method, IRDPSRAPISharingSession2.ConnectUsingTransportStream, IRDPSRAPISharingSession2::ConnectUsingTransportStream, rdp.irdpsrapisharingsession2_connectusingtransportstream, rdpencomapi/IRDPSRAPISharingSession2::ConnectUsingTransportStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPISharingSession2.ConnectUsingTransportStream
-: 
 ---
 
 # IRDPSRAPISharingSession2::ConnectUsingTransportStream

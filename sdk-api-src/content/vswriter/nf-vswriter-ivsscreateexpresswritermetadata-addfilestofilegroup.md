@@ -4,10 +4,10 @@ title: IVssCreateExpressWriterMetadata::AddFilesToFileGroup
 author: windows-sdk-content
 description: Adds a file set (a specified file or files) to a specified file group component for an express writer.
 old-location: base\ivsscreateexpresswritermetadata_addfilestofilegroup.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 9a3f409e-f58a-4c06-ad5e-b0a8bc03da2c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method, AddFilesToFileGroup method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddFilesToFileGroup method, IVssCreateExpressWriterMetadata.AddFilesToFileGroup, IVssCreateExpressWriterMetadata::AddFilesToFileGroup, base.ivsscreateexpresswritermetadata_addfilestofilegroup, vswriter/IVssCreateExpressWriterMetadata::AddFilesToFileGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- IVssCreateExpressWriterMetadata.AddFilesToFileGroup
-: 
 ---
 
 # IVssCreateExpressWriterMetadata::AddFilesToFileGroup

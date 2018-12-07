@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetclientsv5.htm
 tech.root: DHCP
 ms.assetid: 34be1d6d-10d5-4025-abc6-29857417e081
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpEnumSubnetClientsV5, DhcpEnumSubnetClientsV5 function [DHCP], dhcp.dhcpenumsubnetclientsv5, dhcpsapi/DhcpEnumSubnetClientsV5
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpEnumSubnetClientsV5
-: 
 ---
 
 # DhcpEnumSubnetClientsV5 function

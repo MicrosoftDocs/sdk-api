@@ -7,7 +7,7 @@ old-location: multimedia\midiinstart.htm
 tech.root: Multimedia
 ms.assetid: c8d570a2-30a2-453e-a320-7b097c4e90bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiInStart, midiInStart, midiInStart function [Windows Multimedia], mmeapi/midiInStart, multimedia.midiinstart"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- midiInStart
-: 
 ---
 
 # midiInStart function

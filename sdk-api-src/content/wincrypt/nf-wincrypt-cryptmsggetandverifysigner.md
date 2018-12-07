@@ -4,10 +4,10 @@ title: CryptMsgGetAndVerifySigner function
 author: windows-sdk-content
 description: The CryptMsgGetAndVerifySigner function verifies a cryptographic message's signature.
 old-location: security\cryptmsggetandverifysigner.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 380c9cf3-27a2-4354-b1c8-97cec33f4e44
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CMSG_SIGNER_ONLY_FLAG, CMSG_TRUSTED_SIGNER_FLAG, CMSG_USE_SIGNER_INDEX_FLAG, CryptMsgGetAndVerifySigner, CryptMsgGetAndVerifySigner function [Security], _crypto2_cryptmsggetandverifysigner, security.cryptmsggetandverifysigner, wincrypt/CryptMsgGetAndVerifySigner
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptMsgGetAndVerifySigner
-: 
 ---
 
 # CryptMsgGetAndVerifySigner function

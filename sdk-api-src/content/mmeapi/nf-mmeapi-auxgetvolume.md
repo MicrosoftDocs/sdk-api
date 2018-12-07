@@ -7,7 +7,7 @@ old-location: multimedia\auxgetvolume.htm
 tech.root: Multimedia
 ms.assetid: a427cdb5-83ec-4529-847d-1494118ef926
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_auxGetVolume, auxGetVolume, auxGetVolume function [Windows Multimedia], mmeapi/auxGetVolume, multimedia.auxgetvolume"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- auxGetVolume
-: 
 ---
 
 # auxGetVolume function

@@ -4,10 +4,10 @@ title: MsiEnumComponentQualifiersA function
 author: windows-sdk-content
 description: The MsiEnumComponentQualifiers function enumerates the advertised qualifiers for the given component. This function retrieves one qualifier each time it is called.
 old-location: setup\msienumcomponentqualifiers.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: f499cca3-ef24-4419-92b8-7794b3a6816b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MsiEnumComponentQualifiers, MsiEnumComponentQualifiers function, MsiEnumComponentQualifiersA, MsiEnumComponentQualifiersW, _msi_msienumcomponentqualifiers, msi/MsiEnumComponentQualifiers, msi/MsiEnumComponentQualifiersA, msi/MsiEnumComponentQualifiersW, setup.msienumcomponentqualifiers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiEnumComponentQualifiersA
-: 
 ---
 
 # MsiEnumComponentQualifiersA function

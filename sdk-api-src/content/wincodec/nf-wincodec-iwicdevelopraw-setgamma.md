@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_setgamma.htm
 tech.root: wic
 ms.assetid: 14d3b34c-1628-4e49-b07c-141f2933c86e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetGamma method, IWICDevelopRaw.SetGamma, IWICDevelopRaw::SetGamma, SetGamma, SetGamma method [Windows Imaging Component], SetGamma method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setgamma, wic._wic_codec_iwicdevelopraw_setgamma, wincodec/IWICDevelopRaw::SetGamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wincodec.h
-: 
-- IWICDevelopRaw.SetGamma
-: 
 ---
 
 # IWICDevelopRaw::SetGamma

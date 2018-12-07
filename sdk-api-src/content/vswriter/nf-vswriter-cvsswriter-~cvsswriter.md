@@ -4,10 +4,10 @@ title: CVssWriter::~CVssWriter
 author: windows-sdk-content
 description: "~CVssWriter is the destructor of the CVssWriter class object."
 old-location: base\cvsswriter_cvsswriterdestructor.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 5ae3f144-24c4-4833-ac8f-44e12df6fbc3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CVssWriter interface [VSS],~CVssWriter method, CVssWriter.~CVssWriter, CVssWriter::~CVssWriter, _win32_cvsswriter_cvsswriterdestructor, base.cvsswriter_cvsswriterdestructor, vswriter/CVssWriter::~CVssWriter, ~CVssWriter, ~CVssWriter method [VSS], ~CVssWriter method [VSS],CVssWriter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- CVssWriter.~CVssWriter
-: 
 ---
 
 # CVssWriter::~CVssWriter

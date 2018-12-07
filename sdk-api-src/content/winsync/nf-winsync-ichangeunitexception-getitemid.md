@@ -7,7 +7,7 @@ old-location: winsync\ichangeunitexception_getitemid.htm
 tech.root: winsync
 ms.assetid: d5c76ecf-bd3f-4a0a-9fba-4fd51591d39f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetItemId, GetItemId method [Windows Sync], GetItemId method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetItemId method, IChangeUnitException.GetItemId, IChangeUnitException::GetItemId, winsync.ichangeunitexception_getitemid, winsync/IChangeUnitException::GetItemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- IChangeUnitException.GetItemId
-: 
 ---
 
 # IChangeUnitException::GetItemId

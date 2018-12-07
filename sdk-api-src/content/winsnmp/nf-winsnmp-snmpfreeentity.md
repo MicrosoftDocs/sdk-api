@@ -7,7 +7,7 @@ old-location: snmp\snmpfreeentity.htm
 tech.root: SNMP
 ms.assetid: 82f331e8-1768-470f-b924-16262e06f099
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpFreeEntity, SnmpFreeEntity function [SNMP], _snmp_snmpfreeentity, snmp.snmpfreeentity, winsnmp/SnmpFreeEntity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpFreeEntity
-: 
 ---
 
 # SnmpFreeEntity function

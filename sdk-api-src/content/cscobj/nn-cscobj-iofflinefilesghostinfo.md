@@ -4,10 +4,10 @@ title: IOfflineFilesGhostInfo
 author: windows-sdk-content
 description: Represents the ghosting status of an item in the Offline Files cache.
 old-location: of\iofflinefilesghostinfo.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: bb71bc95-049d-4ade-ad10-c33b0bf739ce
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesGhostInfo, IOfflineFilesGhostInfo interface [Offline Files], IOfflineFilesGhostInfo interface [Offline Files],described, cscobj/IOfflineFilesGhostInfo, of.iofflinefilesghostinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

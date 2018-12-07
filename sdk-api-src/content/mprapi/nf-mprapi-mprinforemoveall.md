@@ -4,10 +4,10 @@ title: MprInfoRemoveAll function
 author: windows-sdk-content
 description: The MprInfoRemoveAll function removes all information blocks from the specified header.
 old-location: rras\mprinforemoveall.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 4afa616f-bf4b-4700-8ca1-9bb679bc30ff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MprInfoRemoveAll, MprInfoRemoveAll function [RAS], _mpr_mprinforemoveall, mprapi/MprInfoRemoveAll, rras.mprinforemoveall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprInfoRemoveAll
-: 
 ---
 
 # MprInfoRemoveAll function

@@ -4,10 +4,10 @@ title: IADsContainer::CopyHere
 author: windows-sdk-content
 description: The IADsContainer::CopyHere method creates a copy of the specified directory object in this container.
 old-location: adsi\iadscontainer_copyhere.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 8a006253-ccb4-4f13-93b5-297db17f7c2e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CopyHere, CopyHere method [ADSI], CopyHere method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],CopyHere method, IADsContainer.CopyHere, IADsContainer::CopyHere, _ds_iadscontainer_copyhere, adsi.iadscontainer__copyhere, adsi.iadscontainer_copyhere, iads/IADsContainer::CopyHere
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsContainer.CopyHere
-: 
 ---
 
 # IADsContainer::CopyHere
@@ -66,34 +58,17 @@ The <b>IADsContainer::CopyHere</b> method creates a  copy of the specified direc
 
 
 
-### -param SourceName
-
-TBD
-
-
-### -param NewName
-
-TBD
-
-
-### -param ppObject
-
-TBD
-
-
-
-
-#### - bstrNewName [in]
-
-Optional name of the new object within the container. If a new name is not specified  for the object, set to <b>NULL</b>; the new object will have the same name as the source object.
-
-
-#### - bstrSourceObject [in]
+### -param SourceName [in]
 
 The ADsPath of the object to copy.
 
 
-#### - ppNewObject [out]
+### -param NewName [in]
+
+Optional name of the new object within the container. If a new name is not specified  for the object, set to <b>NULL</b>; the new object will have the same name as the source object.
+
+
+### -param ppObject [out]
 
 Indirect pointer to the  <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a> interface on the copied object.
 

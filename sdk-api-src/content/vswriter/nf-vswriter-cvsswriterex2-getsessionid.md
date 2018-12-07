@@ -4,10 +4,10 @@ title: CVssWriterEx2::GetSessionId
 author: windows-sdk-content
 description: Returns the writer's session identifier.
 old-location: base\cvsswriterex2_getsessionid.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: bea5ba9c-538b-453f-ae6d-12b94b8edeb6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CVssWriterEx2 interface,GetSessionId method, CVssWriterEx2.GetSessionId, CVssWriterEx2::GetSessionId, GetSessionId, GetSessionId method, GetSessionId method,CVssWriterEx2 interface, base.cvsswriterex2_getsessionid, vswriter/CVssWriterEx2::GetSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vswriter.h
-: 
-- CVssWriterEx2.GetSessionId
-: 
 ---
 
 # CVssWriterEx2::GetSessionId

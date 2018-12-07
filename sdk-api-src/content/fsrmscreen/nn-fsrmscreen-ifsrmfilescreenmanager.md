@@ -4,10 +4,10 @@ title: IFsrmFileScreenManager
 author: windows-sdk-content
 description: Used to manage file screen objects.
 old-location: fsrm\ifsrmfilescreenmanager.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: a0cea95d-5839-41a2-91b9-da8e13030682
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmFileScreenManager, IFsrmFileScreenManager interface [File Server Resource Manager], IFsrmFileScreenManager interface [File Server Resource Manager],described, fs.ifsrmfilescreenmanager, fsrm.ifsrmfilescreenmanager, fsrmscreen/IFsrmFileScreenManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

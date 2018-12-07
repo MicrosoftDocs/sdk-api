@@ -4,10 +4,10 @@ title: ldap_first_attributeA function
 author: windows-sdk-content
 description: Returns the first attribute.
 old-location: ldap\ldap_first_attribute.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: 2a654ef4-519f-41a7-943e-3befe5c932e8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_first_attribute, ldap.ldap__first__attribute, ldap.ldap_first_attribute, ldap_first_attribute, ldap_first_attribute function [LDAP], ldap_first_attributeA, ldap_first_attributeW, winldap/ldap_first_attribute, winldap/ldap_first_attributeA, winldap/ldap_first_attributeW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_first_attributeA
-: 
 ---
 
 # ldap_first_attributeA function

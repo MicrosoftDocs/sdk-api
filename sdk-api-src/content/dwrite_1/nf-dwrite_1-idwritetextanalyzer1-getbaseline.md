@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalyzer1_getbaseline.htm
 tech.root: DirectWrite
 ms.assetid: 5ACD5075-BD96-41FC-AE36-8D5D03F2EB54
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetBaseline, GetBaseline method [Direct Write], GetBaseline method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetBaseline method, IDWriteTextAnalyzer1.GetBaseline, IDWriteTextAnalyzer1::GetBaseline, directwrite.idwritetextanalyzer1_getbaseline, dwrite_1/IDWriteTextAnalyzer1::GetBaseline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_1.h
-: 
-- IDWriteTextAnalyzer1.GetBaseline
-: 
 ---
 
 # IDWriteTextAnalyzer1::GetBaseline

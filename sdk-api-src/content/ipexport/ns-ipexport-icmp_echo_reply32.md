@@ -1,14 +1,14 @@
 ---
 UID: NS:ipexport.icmp_echo_reply32
-title: icmp_echo_reply32
+title: ICMP_ECHO_REPLY32
 author: windows-sdk-content
 description: Describes the data returned in response to an IPv4 echo request on a 64-bit platform.
 old-location: iphlp\icmp_echo_reply32.htm
 tech.root: IpHlp
 ms.assetid: 4a84f29c-31bd-453c-b215-300cc782595f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: "*PICMP_ECHO_REPLY32, ICMP_ECHO_REPLY32, ICMP_ECHO_REPLY32 structure [IP Helper], IP_BAD_DESTINATION, IP_BAD_OPTION, IP_BAD_REQ, IP_BAD_ROUTE, IP_BUF_TOO_SMALL, IP_DEST_HOST_UNREACHABLE, IP_DEST_NET_UNREACHABLE, IP_DEST_PORT_UNREACHABLE, IP_DEST_PROT_UNREACHABLE, IP_GENERAL_FAILURE, IP_HW_ERROR, IP_NO_RESOURCES, IP_OPTION_TOO_BIG, IP_PACKET_TOO_BIG, IP_PARAM_PROBLEM, IP_REQ_TIMED_OUT, IP_SOURCE_QUENCH, IP_SUCCESS, IP_TTL_EXPIRED_REASSEM, IP_TTL_EXPIRED_TRANSIT, PICMP_ECHO_REPLY32, PICMP_ECHO_REPLY32 structure pointer [IP Helper], icmp_echo_reply32, ipexport/ICMP_ECHO_REPLY32, ipexport/PICMP_ECHO_REPLY32, iphlp.icmp_echo_reply32"
+ms.date: 12/5/2018
+ms.keywords: "*PICMP_ECHO_REPLY32, ICMP_ECHO_REPLY32, ICMP_ECHO_REPLY32 structure [IP Helper], IP_BAD_DESTINATION, IP_BAD_OPTION, IP_BAD_REQ, IP_BAD_ROUTE, IP_BUF_TOO_SMALL, IP_DEST_HOST_UNREACHABLE, IP_DEST_NET_UNREACHABLE, IP_DEST_PORT_UNREACHABLE, IP_DEST_PROT_UNREACHABLE, IP_GENERAL_FAILURE, IP_HW_ERROR, IP_NO_RESOURCES, IP_OPTION_TOO_BIG, IP_PACKET_TOO_BIG, IP_PARAM_PROBLEM, IP_REQ_TIMED_OUT, IP_SOURCE_QUENCH, IP_SUCCESS, IP_TTL_EXPIRED_REASSEM, IP_TTL_EXPIRED_TRANSIT, PICMP_ECHO_REPLY32, PICMP_ECHO_REPLY32 structure pointer [IP Helper], ipexport/ICMP_ECHO_REPLY32, ipexport/PICMP_ECHO_REPLY32, iphlp.icmp_echo_reply32"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -44,7 +44,7 @@ req.typenames: ICMP_ECHO_REPLY32, *PICMP_ECHO_REPLY32
 req.redist: 
 ---
 
-# icmp_echo_reply32 structure
+# ICMP_ECHO_REPLY32 structure
 
 
 ## -description

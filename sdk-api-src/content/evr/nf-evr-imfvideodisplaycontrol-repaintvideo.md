@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_repaintvideo.htm
 tech.root: medfound
 ms.assetid: c8051883-2a48-4ca4-a7d2-c90d0d451cd2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFVideoDisplayControl interface [Media Foundation],RepaintVideo method, IMFVideoDisplayControl.RepaintVideo, IMFVideoDisplayControl::RepaintVideo, RepaintVideo, RepaintVideo method [Media Foundation], RepaintVideo method [Media Foundation],IMFVideoDisplayControl interface, c8051883-2a48-4ca4-a7d2-c90d0d451cd2, evr/IMFVideoDisplayControl::RepaintVideo, mf.imfvideodisplaycontrol_repaintvideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- evr.h
-: 
-- IMFVideoDisplayControl.RepaintVideo
-: 
 ---
 
 # IMFVideoDisplayControl::RepaintVideo

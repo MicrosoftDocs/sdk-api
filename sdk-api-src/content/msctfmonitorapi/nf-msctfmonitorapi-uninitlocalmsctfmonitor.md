@@ -7,7 +7,7 @@ old-location: tsf\UninitLocalMsCtfMonitor.htm
 tech.root: TSF
 ms.assetid: 73c8b170-da76-4710-b307-61c42954997a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: UninitLocalMsCtfMonitor, UninitLocalMsCtfMonitor function [Text Services Framework], msctfmonitorapi/UninitLocalMsCtfMonitor, tsf.UninitLocalMsCtfMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UninitLocalMsCtfMonitor
-: 
 ---
 
 # UninitLocalMsCtfMonitor function

@@ -4,10 +4,10 @@ title: IObjectIds::Add
 author: windows-sdk-content
 description: Adds an IObjectId object to the collection.
 old-location: security\iobjectids_add_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 93f27993-2dba-4aec-9b63-cfd4dd56bbda
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IObjectIds interface, IObjectIds interface [Security],Add method, IObjectIds.Add, IObjectIds::Add, certenroll/IObjectIds::Add, security.iobjectids_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IObjectIds.Add
-: 
 ---
 
 # IObjectIds::Add

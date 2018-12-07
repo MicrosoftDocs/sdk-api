@@ -7,7 +7,7 @@ old-location: mstv\idvb_rst_getrecordserviceid.htm
 tech.root: mstv
 ms.assetid: f9592e18-5cf6-4359-9654-2535070cdce9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordServiceId, GetRecordServiceId method [Microsoft TV Technologies], GetRecordServiceId method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordServiceId method, IDVB_RST.GetRecordServiceId, IDVB_RST::GetRecordServiceId, IDVB_RSTGetRecordServiceId, dvbsiparser/IDVB_RST::GetRecordServiceId, mstv.idvb_rst_getrecordserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDVB_RST.GetRecordServiceId
-: 
 ---
 
 # IDVB_RST::GetRecordServiceId

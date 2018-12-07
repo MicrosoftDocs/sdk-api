@@ -7,7 +7,7 @@ old-location: wds\iwdstransportcollection__newenum.htm
 tech.root: wds
 ms.assetid: b1b51f0b-ae79-4e59-8517-456d8ef2048c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IWdsTransportCollection interface [Windows Deployment Services],_NewEnum property, IWdsTransportCollection._NewEnum, IWdsTransportCollection.get__NewEnum, IWdsTransportCollection::_NewEnum, IWdsTransportCollection::get__NewEnum, _NewEnum property [Windows Deployment Services], _NewEnum property [Windows Deployment Services],IWdsTransportCollection interface, get__NewEnum, wds.iwdstransportcollection__newenum, wdstptmgmt/IWdsTransportCollection::_NewEnum, wdstptmgmt/IWdsTransportCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportCollection.get__NewEnum
-: 
 ---
 
 # IWdsTransportCollection::get__NewEnum

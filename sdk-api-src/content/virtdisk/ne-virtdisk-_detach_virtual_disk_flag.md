@@ -7,7 +7,7 @@ old-location: vhd\detach_virtual_disk_flag.htm
 tech.root: VStor
 ms.assetid: 43f0687d-edb5-48d9-885c-530261c485fa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DETACH_VIRTUAL_DISK_FLAG, DETACH_VIRTUAL_DISK_FLAG enumeration [VHD], DETACH_VIRTUAL_DISK_FLAG_NONE, _DETACH_VIRTUAL_DISK_FLAG, vdssys/DETACH_VIRTUAL_DISK_FLAG, vdssys/DETACH_VIRTUAL_DISK_FLAG_NONE, vhd.detach_virtual_disk_flag, vhd.unsurface_virtual_disk_flag, virtdisk/DETACH_VIRTUAL_DISK_FLAG, virtdisk/DETACH_VIRTUAL_DISK_FLAG_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices

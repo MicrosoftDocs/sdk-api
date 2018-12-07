@@ -7,7 +7,7 @@ old-location: winauto\iaccdictionary_iaccdictionary__lookupmnemonicterm.htm
 tech.root: WinAuto
 ms.assetid: a8a4dfde-3721-4bf5-a609-12f06154b5f0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IAccDictionary interface [Windows Accessibility],LookupMnemonicTerm method, IAccDictionary.LookupMnemonicTerm, IAccDictionary::LookupMnemonicTerm, LookupMnemonicTerm, LookupMnemonicTerm method [Windows Accessibility], LookupMnemonicTerm method [Windows Accessibility],IAccDictionary interface, _msaa_IAccDictionary_LookupMnemonicTerm, msaa.iaccdictionary_iaccdictionary__lookupmnemonicterm, msaatext/IAccDictionary::LookupMnemonicTerm, winauto.iaccdictionary_iaccdictionary__lookupmnemonicterm
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
-- apiref
-: 
-- COM
-: 
-- msaatext.h
-: 
-- IAccDictionary.LookupMnemonicTerm
-: 
 ---
 
 # IAccDictionary::LookupMnemonicTerm

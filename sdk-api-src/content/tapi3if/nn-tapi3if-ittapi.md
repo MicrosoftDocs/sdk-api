@@ -4,10 +4,10 @@ title: ITTAPI
 author: windows-sdk-content
 description: The ITTAPI interface is the base interface for the TAPI object. The TAPI object is created by CoCreateInstance. For information on CoCreateInstance, see documentation on COM. All other TAPI 3 objects are created by TAPI 3 itself.
 old-location: tapi3\ittapi.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 75d641c7-dbf8-4ae2-b16b-2757e890d32b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITTAPI, ITTAPI interface [TAPI 2.2], ITTAPI interface [TAPI 2.2],described, _tapi3_ittapi, tapi3.ittapi, tapi3if/ITTAPI
 ms.prod: windows-hardware
 ms.technology: windows-devices

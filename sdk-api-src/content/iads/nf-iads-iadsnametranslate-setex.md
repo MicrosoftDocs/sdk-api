@@ -4,10 +4,10 @@ title: IADsNameTranslate::SetEx
 author: windows-sdk-content
 description: Establishes an array of objects for name translation.
 old-location: adsi\iadsnametranslate_setex.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: e8a5014e-d848-46b7-a336-7801ff1f6b08
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsNameTranslate interface [ADSI],SetEx method, IADsNameTranslate.SetEx, IADsNameTranslate::SetEx, SetEx, SetEx method [ADSI], SetEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_setex, adsi.iadsnametranslate__setex, adsi.iadsnametranslate_setex, iads/IADsNameTranslate::SetEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsNameTranslate.SetEx
-: 
 ---
 
 # IADsNameTranslate::SetEx
@@ -72,13 +64,6 @@ The format type of the input names. For more information, see  <a href="https://
 
 
 ### -param pvar
-
-TBD
-
-
-
-
-#### - pVar
 
 A variant array of strings that hold object names.
 

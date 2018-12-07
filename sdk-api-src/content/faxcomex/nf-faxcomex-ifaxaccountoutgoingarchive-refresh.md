@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarc
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\refresh.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxAccountOutgoingArchive interface [Fax Service],Refresh method, IFaxAccountOutgoingArchive.Refresh, IFaxAccountOutgoingArchive::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxAccountOutgoingArchive interface, _mfax_faxaccountoutgoingarchive.refresh, fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_refresh_cpp, fax._mfax_faxaccountoutgoingarchive_refresh, faxcomex/IFaxAccountOutgoingArchive::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxAccountOutgoingArchive.Refresh
-: 
 ---
 
 # IFaxAccountOutgoingArchive::Refresh

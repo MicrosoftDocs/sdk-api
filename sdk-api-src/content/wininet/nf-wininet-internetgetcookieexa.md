@@ -4,10 +4,10 @@ title: InternetGetCookieExA function
 author: windows-sdk-content
 description: Retrieves data stored in cookies associated with a specified URL.
 old-location: wininet\internetgetcookieex.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 5006f009-e217-4fdc-9e4e-800ff5fcbf03
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INTERNET_COOKIE_HTTPONLY, INTERNET_COOKIE_THIRD_PARTY, INTERNET_FLAG_RESTRICTED_ZONE, InternetGetCookieEx, InternetGetCookieEx function [WinINet], InternetGetCookieExA, InternetGetCookieExW, wininet.internetgetcookieex, wininet/InternetGetCookieEx, wininet/InternetGetCookieExA, wininet/InternetGetCookieExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetGetCookieExA
-: 
 ---
 
 # InternetGetCookieExA function

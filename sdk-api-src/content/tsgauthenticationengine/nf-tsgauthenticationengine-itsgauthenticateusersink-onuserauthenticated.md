@@ -7,7 +7,7 @@ old-location: termserv\itsgauthenticateusersink_onuserauthenticated.htm
 tech.root: termserv
 ms.assetid: 2f3dd498-661c-4787-8db4-bcc43bd76294
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],OnUserAuthenticated method, ITSGAuthenticateUserSink.OnUserAuthenticated, ITSGAuthenticateUserSink::OnUserAuthenticated, OnUserAuthenticated, OnUserAuthenticated method [Remote Desktop Services], OnUserAuthenticated method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_onuserauthenticated, tsgauthenticationengine/ITSGAuthenticateUserSink::OnUserAuthenticated
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tsgauthenticationengine.h
-: 
-- ITSGAuthenticateUserSink.OnUserAuthenticated
-: 
 ---
 
 # ITSGAuthenticateUserSink::OnUserAuthenticated

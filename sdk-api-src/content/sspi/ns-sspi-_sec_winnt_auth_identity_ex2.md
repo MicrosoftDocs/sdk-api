@@ -4,10 +4,10 @@ title: "_SEC_WINNT_AUTH_IDENTITY_EX2"
 author: windows-sdk-content
 description: Contains information about an authentication identity.
 old-location: security\sec_winnt_auth_identity_ex2.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: a6083d76-1774-428c-85ca-fea817827d6a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSEC_WINNT_AUTH_IDENTITY_EX2, PSEC_WINNT_AUTH_IDENTITY_EX2, PSEC_WINNT_AUTH_IDENTITY_EX2 structure pointer [Security], SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_EX2, SEC_WINNT_AUTH_IDENTITY_EX2 structure [Security], SEC_WINNT_AUTH_IDENTITY_FLAGS_ID_PROVIDER, SEC_WINNT_AUTH_IDENTITY_FLAGS_PROCESS_ENCRYPTED, SEC_WINNT_AUTH_IDENTITY_FLAGS_RESERVED, SEC_WINNT_AUTH_IDENTITY_FLAGS_SYSTEM_PROTECTED, SEC_WINNT_AUTH_IDENTITY_FLAGS_USER_PROTECTED, SEC_WINNT_AUTH_IDENTITY_MARSHALLED, SEC_WINNT_AUTH_IDENTITY_ONLY, SEC_WINNT_AUTH_IDENTITY_UNICODE, _SEC_WINNT_AUTH_IDENTITY_EX2, security.sec_winnt_auth_identity_ex2, sspi/PSEC_WINNT_AUTH_IDENTITY_EX2, sspi/SEC_WINNT_AUTH_IDENTITY_EX2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

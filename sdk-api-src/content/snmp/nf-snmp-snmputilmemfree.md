@@ -7,7 +7,7 @@ old-location: snmp\snmputilmemfree.htm
 tech.root: SNMP
 ms.assetid: 57cf0398-d2c1-4dd9-ad77-0c453412034a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpUtilMemFree, SnmpUtilMemFree function [SNMP], _snmp_snmputilmemfree, snmp.snmputilmemfree, snmp/SnmpUtilMemFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpUtilMemFree
-: 
 ---
 
 # SnmpUtilMemFree function

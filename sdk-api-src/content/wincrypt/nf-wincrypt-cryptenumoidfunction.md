@@ -4,10 +4,10 @@ title: CryptEnumOIDFunction function
 author: windows-sdk-content
 description: The CryptEnumOIDFunction function enumerates the registered object identifier (OID) functions.
 old-location: security\cryptenumoidfunction.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: aa2fba03-183b-4b74-b306-8f4592995897
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CryptEnumOIDFunction, CryptEnumOIDFunction function [Security], _crypto2_cryptenumoidfunction, security.cryptenumoidfunction, wincrypt/CryptEnumOIDFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptEnumOIDFunction
-: 
 ---
 
 # CryptEnumOIDFunction function

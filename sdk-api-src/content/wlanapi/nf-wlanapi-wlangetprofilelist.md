@@ -7,7 +7,7 @@ old-location: nwifi\wlangetprofilelist.htm
 tech.root: NativeWiFi
 ms.assetid: f4336113-538f-4161-a71f-64a432e31f1c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WlanGetProfileList, WlanGetProfileList function [NativeWIFI], nwifi.wlangetprofilelist, wlanapi/WlanGetProfileList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
-- apiref
-: 
-- 
-: 
-- WlanGetProfileList
-: 
 ---
 
 # WlanGetProfileList function

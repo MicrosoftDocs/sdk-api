@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchbase_getworkestimateforbatch.htm
 tech.root: winsync
 ms.assetid: 4abf4027-814a-461d-b179-b2510abccc5e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetWorkEstimateForBatch, GetWorkEstimateForBatch method [Windows Sync], GetWorkEstimateForBatch method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetWorkEstimateForBatch method, ISyncChangeBatchBase.GetWorkEstimateForBatch, ISyncChangeBatchBase::GetWorkEstimateForBatch, winsync.isyncchangebatchbase_getworkestimateforbatch, winsync/ISyncChangeBatchBase::GetWorkEstimateForBatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winsync.h
-: 
-- ISyncChangeBatchBase.GetWorkEstimateForBatch
-: 
 ---
 
 # ISyncChangeBatchBase::GetWorkEstimateForBatch

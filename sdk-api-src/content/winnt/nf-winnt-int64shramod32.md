@@ -7,7 +7,7 @@ old-location: winprog\int64shramod32.htm
 tech.root: WinProg
 ms.assetid: 69de2eb7-2cbe-48db-935b-b3d2c41f4e86
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Int64ShraMod32, Int64ShraMod32 macro [Windows API], _win32_int64shramod32, winnt/Int64ShraMod32, winprog.int64shramod32
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winnt.h
-: 
-- Int64ShraMod32
-: 
 ---
 
 # Int64ShraMod32 macro

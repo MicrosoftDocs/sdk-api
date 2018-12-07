@@ -4,10 +4,10 @@ title: MsiGetProductInfoFromScriptW function
 author: windows-sdk-content
 description: The MsiGetProductInfoFromScript function returns product information for a Windows Installer script file.
 old-location: setup\msigetproductinfofromscript.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: fe0bc709-b410-4a61-bea3-d11fc8f71883
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MsiGetProductInfoFromScript, MsiGetProductInfoFromScript function, MsiGetProductInfoFromScriptA, MsiGetProductInfoFromScriptW, _msi_msigetproductinfofromscript, msi/MsiGetProductInfoFromScript, msi/MsiGetProductInfoFromScriptA, msi/MsiGetProductInfoFromScriptW, setup.msigetproductinfofromscript
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiGetProductInfoFromScriptW
-: 
 ---
 
 # MsiGetProductInfoFromScriptW function

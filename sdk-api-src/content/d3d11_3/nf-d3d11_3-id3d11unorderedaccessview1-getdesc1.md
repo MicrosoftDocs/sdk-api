@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11unorderedaccessview1_getdesc1.htm
 tech.root: direct3d11
 ms.assetid: 277087B3-AAD7-4A6A-91D3-C204B0FA0FE5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetDesc1, GetDesc1 method [Direct3D 11], GetDesc1 method [Direct3D 11],ID3D11UnorderedAccessView1 interface, ID3D11UnorderedAccessView1 interface [Direct3D 11],GetDesc1 method, ID3D11UnorderedAccessView1.GetDesc1, ID3D11UnorderedAccessView1::GetDesc1, d3d11_3/ID3D11UnorderedAccessView1::GetDesc1, direct3d11.id3d11unorderedaccessview1_getdesc1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11_3.h
-: 
-- ID3D11UnorderedAccessView1.GetDesc1
-: 
 ---
 
 # ID3D11UnorderedAccessView1::GetDesc1

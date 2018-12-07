@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelpe_getlowerhypotheses.htm
 tech.root: NDF
 ms.assetid: d17f5241-6efb-45a7-b355-8343e48b3261
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetLowerHypotheses, GetLowerHypotheses method [NDF], GetLowerHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetLowerHypotheses method, INetDiagHelper.GetLowerHypotheses, INetDiagHelper::GetLowerHypotheses, ndf.inetdiaghelpe_getlowerhypotheses, ndhelper/INetDiagHelper::GetLowerHypotheses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ndhelper.h
-: 
-- INetDiagHelper.GetLowerHypotheses
-: 
 ---
 
 # INetDiagHelper::GetLowerHypotheses

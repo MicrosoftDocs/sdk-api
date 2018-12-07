@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFamily_GetFirstMatchingFont.htm
 tech.root: DirectWrite
 ms.assetid: ba5836a5-87ca-43bf-bb18-4498ed2a9619
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetFirstMatchingFont, GetFirstMatchingFont method [Direct Write], GetFirstMatchingFont method [Direct Write],IDWriteFontFamily interface, IDWriteFontFamily interface [Direct Write],GetFirstMatchingFont method, IDWriteFontFamily.GetFirstMatchingFont, IDWriteFontFamily::GetFirstMatchingFont, directwrite.IDWriteFontFamily_GetFirstMatchingFont, dwrite/IDWriteFontFamily::GetFirstMatchingFont
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteFontFamily.GetFirstMatchingFont
-: 
 ---
 
 # IDWriteFontFamily::GetFirstMatchingFont

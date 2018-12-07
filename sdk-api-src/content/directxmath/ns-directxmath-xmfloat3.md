@@ -7,7 +7,7 @@ old-location: dxmath\xmfloat3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: XMFLOAT3, XMFLOAT3 structure [DirectX Math Support APIs], directxmath/XMFLOAT3, dxmath.xmfloat3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,6 +76,18 @@ For a list of additional functionality such as constructors and operators that a
 ### -field z
 
 <b>float</b> value describing the z-coordinate of the vector.
+
+
+### -field operator=
+
+TBD 
+
+
+### -field XMFLOAT3
+
+TBD 
+
+
 
 
 ## -remarks

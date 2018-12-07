@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreatesubnetvq.htm
 tech.root: DHCP
 ms.assetid: 4ec8cff5-0652-4dd0-9393-7131e3be6ef8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpCreateSubnetVQ, DhcpCreateSubnetVQ function [DHCP], dhcp.dhcpcreatesubnetvq, dhcpsapi/DhcpCreateSubnetVQ
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpCreateSubnetVQ
-: 
 ---
 
 # DhcpCreateSubnetVQ function

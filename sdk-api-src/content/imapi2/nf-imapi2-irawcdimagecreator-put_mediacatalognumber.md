@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_put_mediacatalognumber.htm
 tech.root: imapi
 ms.assetid: 0ba2eaac-3bbc-4625-9c5d-1f1d23bbfa66
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_MediaCatalogNumber method, IRawCDImageCreator.put_MediaCatalogNumber, IRawCDImageCreator::put_MediaCatalogNumber, imapi.irawcdimagecreator_put_mediacatalognumber, imapi2/IRawCDImageCreator::put_MediaCatalogNumber, put_MediaCatalogNumber, put_MediaCatalogNumber method [IMAPI], put_MediaCatalogNumber method [IMAPI],IRawCDImageCreator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IRawCDImageCreator.put_MediaCatalogNumber
-: 
 ---
 
 # IRawCDImageCreator::put_MediaCatalogNumber

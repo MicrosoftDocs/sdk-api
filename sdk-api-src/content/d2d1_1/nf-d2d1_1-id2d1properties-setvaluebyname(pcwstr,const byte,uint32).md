@@ -4,10 +4,10 @@ title: ID2D1Properties::SetValueByName(PCWSTR,const BYTE,UINT32)
 author: windows-sdk-content
 description: Sets the named property to the given value.
 old-location: direct2d\id2d1properties_setvaluebyname.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 3faedf5e-9329-4502-a1c9-162fd7b00319
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1Properties interface [Direct2D],SetValueByName method, ID2D1Properties.SetValueByName, ID2D1Properties.SetValueByName(PCWSTR,const BYTE,UINT32), ID2D1Properties::SetValueByName, ID2D1Properties::SetValueByName(PCWSTR,const BYTE*,UINT32), ID2D1Properties::SetValueByName(PCWSTR,const BYTE,UINT32), SetValueByName, SetValueByName method [Direct2D], SetValueByName method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValueByName, direct2d.id2d1properties_setvaluebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_1.h
-: 
-- ID2D1Properties.SetValueByName
-: 
 ---
 
 # ID2D1Properties::SetValueByName(PCWSTR,const BYTE,UINT32)

@@ -4,10 +4,10 @@ title: phoneShutdown function
 author: windows-sdk-content
 description: The phoneShutdown function shuts down the application's usage of TAPI's phone abstraction.
 old-location: tapi2\phoneshutdown.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 0cf8bc07-946a-450d-8062-b9e19c22a4c5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_phoneshutdown, phoneShutdown, phoneShutdown function [TAPI 2.2], tapi/phoneShutdown, tapi2.phoneshutdown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- phoneShutdown
-: 
 ---
 
 # phoneShutdown function

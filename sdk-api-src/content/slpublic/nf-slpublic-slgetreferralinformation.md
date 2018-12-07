@@ -7,7 +7,7 @@ old-location: security\slgetreferralinformation.htm
 tech.root: SecSLApi
 ms.assetid: 880ee26d-4deb-415c-b1dd-f17d802ea8e8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLGetReferralInformation, SLGetReferralInformation function [Security], SL_DOWNLOADURL, SL_INSTALLATIONPARAMETERS, SL_MERCHANTCOMMERCEURL, SL_MERCHANTSUPPORTEMAIL, SL_MERCHANTSUPPORTPHONENUMBER, SL_MERCHANTSUPPORTURL, SL_MERCHANTUPGRADEURL, SL_PARTNERID, SL_REFERRALID, SL_SERIALIZEDDATA, security.slgetreferralinformation, slpublic/SLGetReferralInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SLGetReferralInformation
-: 
 ---
 
 # SLGetReferralInformation function

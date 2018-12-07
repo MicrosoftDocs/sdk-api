@@ -7,7 +7,7 @@ old-location: snmp\snmpsetpdudata.htm
 tech.root: SNMP
 ms.assetid: 113c67b4-65d7-418d-9600-d1545e1cb0fb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpSetPduData, SnmpSetPduData function [SNMP], _snmp_snmpsetpdudata, snmp.snmpsetpdudata, winsnmp/SnmpSetPduData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpSetPduData
-: 
 ---
 
 # SnmpSetPduData function

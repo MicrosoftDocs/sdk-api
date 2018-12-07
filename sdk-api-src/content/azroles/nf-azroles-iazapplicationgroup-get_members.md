@@ -4,10 +4,10 @@ title: IAzApplicationGroup::get_Members
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs), in text form, of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_members.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 1370fe81-a729-477e-a500-1823abb713e1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AzApplicationGroup object [Security],Members property, IAzApplicationGroup interface [Security],Members property, IAzApplicationGroup.Members, IAzApplicationGroup.get_Members, IAzApplicationGroup::Members, IAzApplicationGroup::get_Members, Members property [Security], Members property [Security],AzApplicationGroup object, Members property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Members, azroles/IAzApplicationGroup::get_Members, get_Members, security.iazapplicationgroup_members
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzApplicationGroup.get_Members
-: 
 ---
 
 # IAzApplicationGroup::get_Members

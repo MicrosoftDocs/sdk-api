@@ -4,10 +4,10 @@ title: MprAdminPortReset function
 author: windows-sdk-content
 description: The MprAdminPortReset function resets the communication device attached to the specified port.
 old-location: rras\mpradminportreset.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 9fa58bec-ecec-4496-91fa-8c41da7961b3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MprAdminPortReset, MprAdminPortReset function [RAS], _mpr_mpradminportreset, mprapi/MprAdminPortReset, rras.mpradminportreset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprAdminPortReset
-: 
 ---
 
 # MprAdminPortReset function

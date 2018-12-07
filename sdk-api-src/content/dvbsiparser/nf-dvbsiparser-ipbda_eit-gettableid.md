@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit_gettableid.htm
 tech.root: mstv
 ms.assetid: 4468a632-49e0-4e49-84a4-2ad32c67530b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTableId, GetTableId method [Microsoft TV Technologies], GetTableId method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetTableId method, IPBDA_EIT.GetTableId, IPBDA_EIT::GetTableId, dvbsiparser/IPBDA_EIT::GetTableId, mstv.ipbda_eit_gettableid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IPBDA_EIT.GetTableId
-: 
 ---
 
 # IPBDA_EIT::GetTableId

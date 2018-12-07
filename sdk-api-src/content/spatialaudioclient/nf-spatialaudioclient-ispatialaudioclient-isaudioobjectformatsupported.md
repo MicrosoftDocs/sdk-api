@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioclient_isaudioobjectformatsupported.htm
 tech.root: CoreAudio
 ms.assetid: 47AB0B3B-E8D0-412F-AC9C-F8BC700E7C23
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISpatialAudioClient interface [Core Audio],IsAudioObjectFormatSupported method, ISpatialAudioClient.IsAudioObjectFormatSupported, ISpatialAudioClient::IsAudioObjectFormatSupported, IsAudioObjectFormatSupported, IsAudioObjectFormatSupported method [Core Audio], IsAudioObjectFormatSupported method [Core Audio],ISpatialAudioClient interface, coreaudio.ispatialaudioclient_isaudioobjectformatsupported, spatialaudioclient/ISpatialAudioClient::IsAudioObjectFormatSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- spatialaudioclient.h
-: 
-- ISpatialAudioClient.IsAudioObjectFormatSupported
-: 
 ---
 
 # ISpatialAudioClient::IsAudioObjectFormatSupported

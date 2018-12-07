@@ -7,7 +7,7 @@ old-location: tablet\reco_range.htm
 tech.root: tablet
 ms.assetid: 212de1c5-b61e-4e6e-a781-cba63b820504
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: 212de1c5-b61e-4e6e-a781-cba63b820504, RECO_RANGE, RECO_RANGE structure [Tablet PC], rectypes/RECO_RANGE, tablet.reco_range, tagRECO_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

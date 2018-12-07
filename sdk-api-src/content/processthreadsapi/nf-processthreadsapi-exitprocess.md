@@ -4,10 +4,10 @@ title: ExitProcess function
 author: windows-sdk-content
 description: Ends the calling process and all its threads.
 old-location: base\exitprocess.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: c26dbf15-62e8-4892-b7c5-2e6c085e4cd5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ExitProcess, ExitProcess function, _win32_exitprocess, base.exitprocess, processthreadsapi/ExitProcess, winbase/ExitProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ExitProcess
-: 
 ---
 
 # ExitProcess function

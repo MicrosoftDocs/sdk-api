@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstream_endupdatingaudioobjects.
 tech.root: CoreAudio
 ms.assetid: 111DB695-66F6-45DD-B3B6-1DFB0D5D29FC
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EndUpdatingAudioObjects, EndUpdatingAudioObjects method [Core Audio], EndUpdatingAudioObjects method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],EndUpdatingAudioObjects method, ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects, ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects, coreaudio.ispatialaudioobjectrenderstream_endupdatingaudioobjects, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- spatialaudioclient.h
-: 
-- ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects
-: 
 ---
 
 # ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects

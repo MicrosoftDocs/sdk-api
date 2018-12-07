@@ -4,10 +4,10 @@ title: FCICreate function
 author: windows-sdk-content
 description: The FCICreate function creates an FCI context.
 old-location: winprog\fcicreate.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: bfcea06d-2f09-405c-955c-0f56149148f2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FCICreate, FCICreate function [Windows API], fci/FCICreate, winprog.fcicreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FCICreate
-: 
 ---
 
 # FCICreate function

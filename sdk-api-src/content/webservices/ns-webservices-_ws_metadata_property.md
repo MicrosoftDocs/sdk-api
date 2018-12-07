@@ -7,7 +7,7 @@ old-location: wsw\ws_metadata_property.htm
 tech.root: wsw
 ms.assetid: 72c37aa9-f9d8-4fc5-8ad8-854e01cb54f4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_METADATA_PROPERTY, WS_METADATA_PROPERTY structure [Web Services for Windows], _WS_METADATA_PROPERTY, webservices/WS_METADATA_PROPERTY, wsw.ws_metadata_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

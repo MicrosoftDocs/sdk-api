@@ -4,10 +4,10 @@ title: IWSDScopeMatchingRule
 author: windows-sdk-content
 description: Is implemented by the client program to supply a custom scope matching rule which can be used to extend the standard scope matching rules defined in WS-Discovery.
 old-location: ncd\iwsdscopematchingrule.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: c608215d-6c72-4567-bf81-15af665e8c52
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDScopeMatchingRule, IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,described, ncd.iwsdscopematchingrule, wsddisco/IWSDScopeMatchingRule
 ms.prod: windows-hardware
 ms.technology: windows-devices

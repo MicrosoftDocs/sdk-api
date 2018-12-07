@@ -4,10 +4,10 @@ title: ISimilarityTraitsMapping::GetFileSize
 author: windows-sdk-content
 description: Returns the size of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_getfilesize.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 920b9c77-ca45-42ff-801f-cbe1ab3eab2c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetFileSize, GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],GetFileSize method, ISimilarityTraitsMapping.GetFileSize, ISimilarityTraitsMapping::GetFileSize, fs.isimilaritytraitsmapping_getfilesize, msrdc/ISimilarityTraitsMapping::GetFileSize, rdc.isimilaritytraitsmapping_getfilesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- ISimilarityTraitsMapping.GetFileSize
-: 
 ---
 
 # ISimilarityTraitsMapping::GetFileSize

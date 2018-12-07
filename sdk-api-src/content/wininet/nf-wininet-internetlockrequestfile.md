@@ -4,10 +4,10 @@ title: InternetLockRequestFile function
 author: windows-sdk-content
 description: Places a lock on the file that is being used.
 old-location: wininet\internetlockrequestfile.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 5924d117-1dcd-43d8-817e-02bda302bdd4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InternetLockRequestFile, InternetLockRequestFile function [WinINet], _inet_internetlockrequestfile_function, wininet.internetlockrequestfile, wininet/InternetLockRequestFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetLockRequestFile
-: 
 ---
 
 # InternetLockRequestFile function

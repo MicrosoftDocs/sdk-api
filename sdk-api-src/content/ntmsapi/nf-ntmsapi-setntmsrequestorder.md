@@ -7,7 +7,7 @@ old-location: fs\setntmsrequestorder.htm
 tech.root: Rsm
 ms.assetid: d7171ce9-14d9-4fbc-b95f-19c502adedd0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SetNtmsRequestOrder, SetNtmsRequestOrder function [Files], _zaw_setntmsrequestorder, base.setntmsrequestorder, fs.setntmsrequestorder, ntmsapi/SetNtmsRequestOrder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetNtmsRequestOrder
-: 
 ---
 
 # SetNtmsRequestOrder function

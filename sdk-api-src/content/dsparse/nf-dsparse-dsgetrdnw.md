@@ -7,7 +7,7 @@ old-location: ad\dsgetrdnw.htm
 tech.root: ad
 ms.assetid: 22627f2e-adfb-49de-bae5-20aaf69830ac
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: DsGetRdnW, DsGetRdnW function [Active Directory], ad.dsgetrdnw, dsparse/DsGetRdnW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DsGetRdnW
-: 
 ---
 
 # DsGetRdnW function

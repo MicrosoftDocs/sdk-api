@@ -7,7 +7,7 @@ old-location: shell\IContextMenu.htm
 tech.root: shell
 ms.assetid: 6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IContextMenu, IContextMenu interface [Windows Shell], IContextMenu interface [Windows Shell],described, _win32_IContextMenu, _win32_icontextmenu_cpp, shell.IContextMenu, shobjidl_core/IContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

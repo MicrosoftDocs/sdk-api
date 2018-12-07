@@ -4,10 +4,10 @@ title: IFsrmPathMapper::GetSharePathsForLocalPath
 author: windows-sdk-content
 description: Retrieves a list of network shares that point to the specified local path.
 old-location: fsrm\ifsrmpathmapper_getsharepathsforlocalpath.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: af5c668f-4675-4568-9b6a-c8d2663d819b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FsrmPathMapper class [File Server Resource Manager],GetSharePathsForLocalPath method, GetSharePathsForLocalPath, GetSharePathsForLocalPath method [File Server Resource Manager], GetSharePathsForLocalPath method [File Server Resource Manager],FsrmPathMapper class, GetSharePathsForLocalPath method [File Server Resource Manager],IFsrmPathMapper interface, IFsrmPathMapper interface [File Server Resource Manager],GetSharePathsForLocalPath method, IFsrmPathMapper.GetSharePathsForLocalPath, IFsrmPathMapper::GetSharePathsForLocalPath, fs.ifsrmpathmapper_getsharepathsforlocalpath, fsrm.ifsrmpathmapper_getsharepathsforlocalpath, fsrm/IFsrmPathMapper::GetSharePathsForLocalPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrm.h
-: 
-- IFsrmPathMapper.GetSharePathsForLocalPath
-: 
 ---
 
 # IFsrmPathMapper::GetSharePathsForLocalPath

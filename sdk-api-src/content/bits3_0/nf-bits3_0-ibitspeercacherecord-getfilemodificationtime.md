@@ -4,10 +4,10 @@ title: IBitsPeerCacheRecord::GetFileModificationTime
 author: windows-sdk-content
 description: Gets the date and time that the file was last modified on the server.
 old-location: bits\ibitspeercacherecord_getfilemodificationtime.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: fe24b090-7dfd-4cbe-bb5d-ff3fd01723df
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetFileModificationTime, GetFileModificationTime method [BITS], GetFileModificationTime method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileModificationTime method, IBitsPeerCacheRecord.GetFileModificationTime, IBitsPeerCacheRecord::GetFileModificationTime, bits.ibitspeercacherecord_getfilemodificationtime, bits3_0/IBitsPeerCacheRecord::GetFileModificationTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits3_0.h
-: 
-- IBitsPeerCacheRecord.GetFileModificationTime
-: 
 ---
 
 # IBitsPeerCacheRecord::GetFileModificationTime
@@ -67,14 +59,7 @@ Gets the date and time that the file was last modified on the server.
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - pModificationTime [out]
+### -param pVal [out]
 
 Date and time that the file was last modified on the server. The time is specified as 
 <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.

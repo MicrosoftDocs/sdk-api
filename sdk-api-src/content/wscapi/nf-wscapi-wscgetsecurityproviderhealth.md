@@ -4,10 +4,10 @@ title: WscGetSecurityProviderHealth function
 author: windows-sdk-content
 description: Gets the aggregate health state of the security provider categories represented by the specified WSC_SECURITY_PROVIDER enumeration values.
 old-location: winprog\wscgetsecurityproviderhealth.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 1193eba3-a01b-4ee3-a83d-25dcdbc15de0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WscGetSecurityProviderHealth, WscGetSecurityProviderHealth function [Windows API], winprog.wscgetsecurityproviderhealth, wscapi/WscGetSecurityProviderHealth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WscGetSecurityProviderHealth
-: 
 ---
 
 # WscGetSecurityProviderHealth function

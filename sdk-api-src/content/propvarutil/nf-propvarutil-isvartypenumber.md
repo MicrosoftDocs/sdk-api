@@ -7,7 +7,7 @@ old-location: properties\IsVarTypeNumber.htm
 tech.root: properties
 ms.assetid: 57051571-4871-46dd-8319-9c9f29890603
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IsVarTypeNumber, IsVarTypeNumber function [Windows Properties], _shell_IsVarTypeNumber, properties.IsVarTypeNumber, propvarutil/IsVarTypeNumber, shell.IsVarTypeNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- IsVarTypeNumber
-: 
 ---
 
 # IsVarTypeNumber function

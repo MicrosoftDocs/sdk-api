@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_unacquire.htm
 tech.root: hid
 ms.assetid: d6eb4743-5845-4acd-8526-f2ab562aa24f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],Unacquire method, IDirectInputJoyConfig8.Unacquire, IDirectInputJoyConfig8::Unacquire, Unacquire, Unacquire method [Human Input Devices], Unacquire method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_df66f848-ee07-47f7-afc3-3f1d2883c070.xml, dinputd/IDirectInputJoyConfig8::Unacquire, hid.idirectinputjoyconfig8_unacquire
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dinputd.h
-: 
-- IDirectInputJoyConfig8.Unacquire
-: 
 ---
 
 # IDirectInputJoyConfig8::Unacquire

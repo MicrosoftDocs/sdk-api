@@ -1,17 +1,17 @@
 ---
 UID: NF:directxmath.XMFLOAT3X3.XMFLOAT3X3
-title: XMFLOAT3X3 function
+title: XMFLOAT3X3::XMFLOAT3X3
 author: windows-sdk-content
 description: Default constructor for XMFLOAT3X3.
 old-location: dxmath\xmfloat3x3_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3X3.#ctor
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: XMFLOAT3X3 constructor [DirectX Math Support APIs], XMFLOAT3X3 constructor [DirectX Math Support APIs],XMFLOAT3X3 structure, XMFLOAT3X3 structure [DirectX Math Support APIs],XMFLOAT3X3 constructor, XMFLOAT3X3.XMFLOAT3X3, XMFLOAT3X3.XMFLOAT3X3(), dxmath.xmfloat3x3_ctor_1
+ms.date: 12/5/2018
+ms.keywords: XMFLOAT3X3, XMFLOAT3X3 constructor [DirectX Math Support APIs], XMFLOAT3X3 constructor [DirectX Math Support APIs],XMFLOAT3X3 structure, XMFLOAT3X3 structure [DirectX Math Support APIs],XMFLOAT3X3 constructor, XMFLOAT3X3.XMFLOAT3X3, XMFLOAT3X3.XMFLOAT3X3(), XMFLOAT3X3::XMFLOAT3X3, dxmath.xmfloat3x3_ctor_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- XMFLOAT3X3
-: 
 ---
 
-# XMFLOAT3X3 function
+# XMFLOAT3X3::XMFLOAT3X3
 
 
 ## -description

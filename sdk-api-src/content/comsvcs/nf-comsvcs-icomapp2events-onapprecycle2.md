@@ -7,7 +7,7 @@ old-location: cos\icomapp2events_onapprecycle2.htm
 tech.root: cossdk
 ms.assetid: 36be1f17-05cc-4c0a-97aa-84abd46de801
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CRR_ACTIVATION_LIMIT, CRR_CALL_LIMIT, CRR_LIFETIME_LIMIT, CRR_MEMORY_LIMIT, CRR_NO_REASON_SUPPLIED, CRR_RECYCLED_FROM_UI, IComApp2Events interface [COM+],OnAppRecycle2 method, IComApp2Events.OnAppRecycle2, IComApp2Events::OnAppRecycle2, OnAppRecycle2, OnAppRecycle2 method [COM+], OnAppRecycle2 method [COM+],IComApp2Events interface, _dtc_IComApp2Events_OnAppRecycle2, comsvcs/IComApp2Events::OnAppRecycle2, cos.icomapp2events_onapprecycle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- IComApp2Events.OnAppRecycle2
-: 
 ---
 
 # IComApp2Events::OnAppRecycle2

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_info_queue_filter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_info_queue_filter.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 9c94d10b-2b6f-b70e-75d1-72a61687e2b9, D3D10_INFO_QUEUE_FILTER, D3D10_INFO_QUEUE_FILTER structure [Direct3D 10], d3d10sdklayers/D3D10_INFO_QUEUE_FILTER, direct3d10.d3d10_info_queue_filter
 ms.prod: windows-hardware
 ms.technology: windows-devices

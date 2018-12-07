@@ -4,10 +4,10 @@ title: QueryInterruptTime function
 author: windows-sdk-content
 description: Gets the current interrupt-time count.
 old-location: base\queryinterrupttime.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: FB2B179B-5E44-4201-86E2-DB386607FD90
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: QueryInterruptTime, QueryInterruptTime function, base.queryinterrupttime, realtimeapiset/QueryInterruptTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- QueryInterruptTime
-: 
 ---
 
 # QueryInterruptTime function

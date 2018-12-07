@@ -7,7 +7,7 @@ old-location: wmi\iwbempathkeylist_removeallkeys.htm
 tech.root: WmiSdk
 ms.assetid: 57c36ecd-7a24-4055-b373-9193fd945363
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],RemoveAllKeys method, IWbemPathKeyList.RemoveAllKeys, IWbemPathKeyList::RemoveAllKeys, RemoveAllKeys, RemoveAllKeys method [Windows Management Instrumentation], RemoveAllKeys method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_removeallkeys, wmi.iwbempathkeylist_removeallkeys, wmiutils/IWbemPathKeyList::RemoveAllKeys
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmiutils.h
-: 
-- IWbemPathKeyList.RemoveAllKeys
-: 
 ---
 
 # IWbemPathKeyList::RemoveAllKeys

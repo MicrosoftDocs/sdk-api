@@ -7,7 +7,7 @@ old-location: shell\istorageproviderpropertyhandler_saveproperties.htm
 tech.root: shell
 ms.assetid: 983751BA-BF36-4018-A95A-4BEA1E9BA3BF
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IStorageProviderPropertyHandler interface [Windows Shell],SaveProperties method, IStorageProviderPropertyHandler.SaveProperties, IStorageProviderPropertyHandler::SaveProperties, SaveProperties, SaveProperties method [Windows Shell], SaveProperties method [Windows Shell],IStorageProviderPropertyHandler interface, shell.istorageproviderpropertyhandler_saveproperties, storageprovider/IStorageProviderPropertyHandler::SaveProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- storageprovider.h
-: 
-- IStorageProviderPropertyHandler.SaveProperties
-: 
 ---
 
 # IStorageProviderPropertyHandler::SaveProperties

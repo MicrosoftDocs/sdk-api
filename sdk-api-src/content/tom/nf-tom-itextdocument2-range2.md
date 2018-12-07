@@ -4,10 +4,10 @@ title: ITextDocument2::Range2
 author: windows-sdk-content
 description: Retrieves a new text range for the active story of the document.
 old-location: controls\itextdocument2_range2.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: e0cd3788-de0e-4b57-8f24-f0897e2b0bed
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],Range2 method, ITextDocument2.Range2, ITextDocument2::Range2, Range2, Range2 method [Windows Controls], Range2 method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_range2, tom/ITextDocument2::Range2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextDocument2.Range2
-: 
 ---
 
 # ITextDocument2::Range2

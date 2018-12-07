@@ -3,12 +3,12 @@ UID: NF:gdiplusheaders.Metafile.ConvertToEmfPlus(IN const Graphics,IN const WCHA
 title: Metafile::ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR)
 author: windows-sdk-content
 description: The Metafile::ConvertToEmfPlus method converts this Metafile object to the EMF+ format.
-old-location: gdiplus\_gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_.htm
+old-location: gdiplus\_gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_WCHAR_filename_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafileconverttoemfplusmethods\converttoemfplus_graphicsrefgraphics_bool.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafileconverttoemfplusmethods\converttoemfplus_graphicsrefgraphics_wcharfilename.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: ConvertToEmfPlus, ConvertToEmfPlus method [GDI+], ConvertToEmfPlus method [GDI+],Metafile class, Metafile class [GDI+],ConvertToEmfPlus method, Metafile.ConvertToEmfPlus, Metafile.ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR), Metafile::ConvertToEmfPlus, Metafile::ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_, gdiplus._gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_
+ms.date: 12/5/2018
+ms.keywords: ConvertToEmfPlus, ConvertToEmfPlus method [GDI+], ConvertToEmfPlus method [GDI+],Metafile class, Metafile class [GDI+],ConvertToEmfPlus method, Metafile.ConvertToEmfPlus, Metafile.ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR), Metafile::ConvertToEmfPlus, Metafile::ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_WCHAR_filename_, gdiplus._gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_WCHAR_filename_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusheaders.h
-: 
-- Metafile.ConvertToEmfPlus
-: 
 req.product: GDI+ 1.1
 ---
 
@@ -59,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Metafile::ConvertToEmfPlus</b> method converts this <a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a> object to the EMF+ format.
+The <a href="https://msdn.microsoft.com/c1c9d4c2-caf1-4e8d-bc35-ab27212397d5">Metafile::ConvertToEmfPlus</a> method converts this <a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a> object to the EMF+ format.
 
 
 ## -parameters
@@ -74,16 +66,16 @@ Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.8
 Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object whose state (settings for antialiasing, interpolation, and the like) is applied to the records stored in the converted metafile.
 
 
-### -param filename
+### -param filename [in]
+
+Type: <b>const WCHAR*</b>
+
+Pointer to a null-terminated wide-character string that specifies the name of a file to which the converted metafile is saved.
+
+
+### -param conversionFailureFlag
 
 TBD
-
-
-### -param conversionFailureFlag [out]
-
-Type: <b>BOOL*</b>
-
-Optional. Pointer to a <b>BOOL</b> that receives <b>TRUE</b> if all the metafile records were converted successfully; <b>FALSE</b> otherwise. Pass <b>NULL</b> if you do not want to receive this information. The default value is <b>NULL</b>.
 
 
 ### -param emfType [in]
@@ -98,6 +90,13 @@ Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534
 Type: <b>const WCHAR*</b>
 
 Optional. Pointer to a null-terminated wide-character string that is stored in the header of the converted metafile. The default value is <b>NULL</b>.
+
+
+#### - conversionSuccess [out]
+
+Type: <b>BOOL*</b>
+
+Optional. Pointer to a <b>BOOL</b> that receives <b>TRUE</b> if all the metafile records were converted successfully; <b>FALSE</b> otherwise. Pass <b>NULL</b> if you do not want to receive this information. The default value is <b>NULL</b>.
 
 
 ## -returns

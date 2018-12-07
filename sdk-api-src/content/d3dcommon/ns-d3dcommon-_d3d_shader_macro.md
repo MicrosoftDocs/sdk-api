@@ -7,7 +7,7 @@ old-location: direct3d11\d3d_shader_macro.htm
 tech.root: direct3d11
 ms.assetid: 8cfe0b3c-5ce8-4d59-8fd9-0fdf200c9552
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPD3D_SHADER_MACRO, D3D_SHADER_MACRO, D3D_SHADER_MACRO structure [Direct3D 11], LPD3D_SHADER_MACRO, LPD3D_SHADER_MACRO structure pointer [Direct3D 11], _D3D_SHADER_MACRO, d3dcommon/D3D_SHADER_MACRO, d3dcommon/LPD3D_SHADER_MACRO, direct3d11.d3d_shader_macro"
 ms.prod: windows-hardware
 ms.technology: windows-devices

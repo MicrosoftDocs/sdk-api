@@ -4,10 +4,10 @@ title: IFsrmQuotaTemplateManager::CreateTemplate
 author: windows-sdk-content
 description: Creates a quota template object.
 old-location: fsrm\ifsrmquotatemplatemanager_createtemplate.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: d8dbc0fb-de02-4491-94f5-e845a2338251
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateTemplate, CreateTemplate method [File Server Resource Manager], CreateTemplate method [File Server Resource Manager],FsrmQuotaTemplateManager class, CreateTemplate method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],CreateTemplate method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],CreateTemplate method, IFsrmQuotaTemplateManager.CreateTemplate, IFsrmQuotaTemplateManager::CreateTemplate, fs.ifsrmquotatemplatemanager_createtemplate, fsrm.ifsrmquotatemplatemanager_createtemplate, fsrmquota/IFsrmQuotaTemplateManager::CreateTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmquota.h
-: 
-- IFsrmQuotaTemplateManager.CreateTemplate
-: 
 ---
 
 # IFsrmQuotaTemplateManager::CreateTemplate

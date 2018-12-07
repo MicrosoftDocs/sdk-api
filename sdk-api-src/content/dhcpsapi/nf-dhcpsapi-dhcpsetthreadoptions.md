@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetthreadoptions.htm
 tech.root: DHCP
 ms.assetid: aadca143-6fdd-4b25-9bd5-1ba177be148e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DHCP_FLAGS_DONT_ACCESS_DS, DhcpSetThreadOptions, DhcpSetThreadOptions function [DHCP], dhcp.dhcpsetthreadoptions, dhcpsapi/DhcpSetThreadOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpSetThreadOptions
-: 
 ---
 
 # DhcpSetThreadOptions function

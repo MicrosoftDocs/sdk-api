@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::Delete
 author: windows-sdk-content
 description: Deletes the policy store currently in use by the AzAuthorizationStore object.
 old-location: security\azauthorizationstore_delete.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 8493af39-c5db-4aeb-839f-bc07e2616443
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AzAuthorizationStore object [Security],Delete method, Delete, Delete method [Security], Delete method [Security],AzAuthorizationStore object, Delete method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],Delete method, IAzAuthorizationStore.Delete, IAzAuthorizationStore::Delete, azroles/IAzAuthorizationStore::Delete, security.azauthorizationstore_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzAuthorizationStore.Delete
-: 
 ---
 
 # IAzAuthorizationStore::Delete

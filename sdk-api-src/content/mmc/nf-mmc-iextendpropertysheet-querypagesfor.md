@@ -4,10 +4,10 @@ title: IExtendPropertySheet::QueryPagesFor
 author: windows-sdk-content
 description: Determines whether the object requires pages.
 old-location: mmc\iextendpropertysheet_querypagesfor.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: F21A0AA2-8F79-4AEA-A5B1-8D650BE14C9F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IExtendPropertySheet interface [MMC],QueryPagesFor method, IExtendPropertySheet.QueryPagesFor, IExtendPropertySheet::QueryPagesFor, QueryPagesFor, QueryPagesFor method [MMC], QueryPagesFor method [MMC],IExtendPropertySheet interface, mmc.iextendpropertysheet_querypagesfor, mmc/IExtendPropertySheet::QueryPagesFor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IExtendPropertySheet.QueryPagesFor
-: 
 ---
 
 # IExtendPropertySheet::QueryPagesFor

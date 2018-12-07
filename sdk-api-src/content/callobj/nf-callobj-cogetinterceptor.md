@@ -7,7 +7,7 @@ old-location: com\cogetinterceptor.htm
 tech.root: com
 ms.assetid: d1ffee1d-f907-4091-b993-cf13d8ce616c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CoGetInterceptor, CoGetInterceptor function [COM], _com_CoGetInterceptor, callobj/CoGetInterceptor, com.cogetinterceptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoGetInterceptor
-: 
 ---
 
 # CoGetInterceptor function

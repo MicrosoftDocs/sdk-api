@@ -7,7 +7,7 @@ old-location: dfs\netdfsaddftroot.htm
 tech.root: Dfs
 ms.assetid: df3192f8-f8fc-40ad-a5ff-fb991befff09
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NetDfsAddFtRoot, NetDfsAddFtRoot function [Distributed File System], _win32_netdfsaddftroot, dfs.netdfsaddftroot, fs.netdfsaddftroot, lmdfs/NetDfsAddFtRoot, netmgmt.netdfsaddftroot
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetDfsAddFtRoot
-: 
 ---
 
 # NetDfsAddFtRoot function

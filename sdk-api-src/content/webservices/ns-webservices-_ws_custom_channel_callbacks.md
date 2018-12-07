@@ -7,7 +7,7 @@ old-location: wsw\ws_custom_channel_callbacks.htm
 tech.root: wsw
 ms.assetid: 8df774fd-7cfc-4006-84ad-b81737770b6e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_CUSTOM_CHANNEL_CALLBACKS, WS_CUSTOM_CHANNEL_CALLBACKS structure [Web Services for Windows], _WS_CUSTOM_CHANNEL_CALLBACKS, webservices/WS_CUSTOM_CHANNEL_CALLBACKS, wsw.ws_custom_channel_callbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

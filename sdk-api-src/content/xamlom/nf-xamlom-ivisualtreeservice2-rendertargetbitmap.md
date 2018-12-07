@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice2_rendertargetbitmap.htm
 tech.root: xaml_diagnostics
 ms.assetid: BE5DA08C-46F9-44E1-89CD-85613DD3BDE4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVisualTreeService2 interface,RenderTargetBitmap method, IVisualTreeService2.RenderTargetBitmap, IVisualTreeService2::RenderTargetBitmap, RenderTargetBitmap, RenderTargetBitmap method, RenderTargetBitmap method,IVisualTreeService2 interface, xaml_diagnostics.ivisualtreeservice2_rendertargetbitmap, xamlom/IVisualTreeService2::RenderTargetBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xamlom.h
-: 
-- IVisualTreeService2.RenderTargetBitmap
-: 
 ---
 
 # IVisualTreeService2::RenderTargetBitmap

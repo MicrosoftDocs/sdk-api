@@ -4,10 +4,10 @@ title: "_VSS_PROVIDER_PROP"
 author: windows-sdk-content
 description: Specifies shadow copy provider properties.
 old-location: base\vss_provider_prop.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 000da95d-a3f5-447e-a96d-c8fb34e9d0d3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP structure pointer [VSS], VSS_PROVIDER_PROP, VSS_PROVIDER_PROP structure [VSS], _VSS_PROVIDER_PROP, _win32_vss_provider_prop, base.vss_provider_prop, vss/PVSS_PROVIDER_PROP, vss/VSS_PROVIDER_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

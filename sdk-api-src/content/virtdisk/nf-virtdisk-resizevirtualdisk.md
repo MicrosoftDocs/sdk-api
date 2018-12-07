@@ -7,7 +7,7 @@ old-location: vstor\resizevirtualdisk.htm
 tech.root: VStor
 ms.assetid: d000c03e-c0ad-4054-b2eb-1aca34a95816
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ResizeVirtualDisk, ResizeVirtualDisk function [Virtual Storage], virtdisk/ResizeVirtualDisk, vstor.resizevirtualdisk
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ResizeVirtualDisk
-: 
 ---
 
 # ResizeVirtualDisk function

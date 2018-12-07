@@ -4,10 +4,10 @@ title: ArcSegment function
 author: windows-sdk-content
 description: Creates a D2D1_ARC_SEGMENT structure.
 old-location: direct2d\arcsegment.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 0a2e7b92-2d0a-4898-ad3e-2142347e8c31
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ArcSegment, ArcSegment function [Direct2D], d2d1helper/ArcSegment, direct2d.arcsegment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ArcSegment
-: 
 ---
 
 # ArcSegment function

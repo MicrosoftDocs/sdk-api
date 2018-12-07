@@ -7,7 +7,7 @@ old-location: wds\iwdstransportserver_configurationmanager.htm
 tech.root: wds
 ms.assetid: 007e166b-a8f9-4acc-8963-ffa14b22084a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ConfigurationManager property [Windows Deployment Services], ConfigurationManager property [Windows Deployment Services],IWdsTransportServer interface, IWdsTransportServer interface [Windows Deployment Services],ConfigurationManager property, IWdsTransportServer.ConfigurationManager, IWdsTransportServer.get_ConfigurationManager, IWdsTransportServer::ConfigurationManager, IWdsTransportServer::get_ConfigurationManager, get_ConfigurationManager, wds.iwdstransportserver_configurationmanager, wdstptmgmt/IWdsTransportServer::ConfigurationManager, wdstptmgmt/IWdsTransportServer::get_ConfigurationManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportServer.get_ConfigurationManager
-: 
 ---
 
 # IWdsTransportServer::get_ConfigurationManager

@@ -4,10 +4,10 @@ title: IVdsOpenVDisk::Expand
 author: windows-sdk-content
 description: Increases the size of a virtual disk to the maximum size available on a fixed or expandable disk.
 old-location: base\ivdsopenvdisk_expand.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 6ba166de-8045-4ccb-8771-fc4dd9438c1f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Expand, Expand method, Expand method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Expand method, IVdsOpenVDisk.Expand, IVdsOpenVDisk::Expand, base.ivdsopenvdisk_expand, vds/IVdsOpenVDisk::Expand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsOpenVDisk.Expand
-: 
 ---
 
 # IVdsOpenVDisk::Expand

@@ -7,7 +7,7 @@ old-location: lwef\iactivedesktop_removedesktopitem.htm
 tech.root: lwef
 ms.assetid: 6fee6c97-0605-4ad3-90fb-c5271f78536a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],RemoveDesktopItem method, IActiveDesktop.RemoveDesktopItem, IActiveDesktop::RemoveDesktopItem, RemoveDesktopItem, RemoveDesktopItem method [Legacy Windows Environment Features], RemoveDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_RemoveDesktopItem, lwef.iactivedesktop_removedesktopitem, shell.iactivedesktop_removedesktopitem, shlobj_core/IActiveDesktop::RemoveDesktopItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shlobj_core.h
-: 
-- IActiveDesktop.RemoveDesktopItem
-: 
 ---
 
 # IActiveDesktop::RemoveDesktopItem

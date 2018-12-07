@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservice_iscommandsessionopen.htm
 tech.root: mbn
 ms.assetid: 7A986AD8-9DC3-4543-8FB9-5F633DEC95C7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],IsCommandSessionOpen property, IMbnDeviceService.IsCommandSessionOpen, IMbnDeviceService.get_IsCommandSessionOpen, IMbnDeviceService::IsCommandSessionOpen, IMbnDeviceService::get_IsCommandSessionOpen, IsCommandSessionOpen property [Microsoft Broadband Networks], IsCommandSessionOpen property [Microsoft Broadband Networks],IMbnDeviceService interface, get_IsCommandSessionOpen, mbn.imbndeviceservice_iscommandsessionopen, mbnapi/IMbnDeviceService::IsCommandSessionOpen, mbnapi/IMbnDeviceService::get_IsCommandSessionOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mbnapi.h
-: 
-- IMbnDeviceService.get_IsCommandSessionOpen
-: 
 ---
 
 # IMbnDeviceService::get_IsCommandSessionOpen

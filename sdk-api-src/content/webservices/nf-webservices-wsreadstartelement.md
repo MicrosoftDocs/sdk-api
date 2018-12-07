@@ -7,7 +7,7 @@ old-location: wsw\wsreadstartelement.htm
 tech.root: wsw
 ms.assetid: 88661ae5-2112-4a41-8fcd-03c74f6ec170
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsReadStartElement, WsReadStartElement function [Web Services for Windows], webservices/WsReadStartElement, wsw.wsreadstartelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsReadStartElement
-: 
 ---
 
 # WsReadStartElement function

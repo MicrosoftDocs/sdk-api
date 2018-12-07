@@ -4,10 +4,10 @@ title: IBitsPeerCacheAdministration::GetRecord
 author: windows-sdk-content
 description: Gets a record from the cache.
 old-location: bits\ibitspeercacheadministration_getrecord.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 7dd32e9c-bf4e-4dbf-aa9f-9ffbf98d3f1c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecord, GetRecord method [BITS], GetRecord method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetRecord method, IBitsPeerCacheAdministration.GetRecord, IBitsPeerCacheAdministration::GetRecord, bits.ibitspeercacheadministration_getrecord, bits3_0/IBitsPeerCacheAdministration::GetRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits3_0.h
-: 
-- IBitsPeerCacheAdministration.GetRecord
-: 
 ---
 
 # IBitsPeerCacheAdministration::GetRecord

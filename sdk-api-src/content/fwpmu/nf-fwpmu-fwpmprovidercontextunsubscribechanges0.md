@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextunsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: 15c24c24-4aba-4570-aad2-56f8748c03e7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmProviderContextUnsubscribeChanges0, FwpmProviderContextUnsubscribeChanges0 function [Filtering], fwp.fwpmprovidercontextunsubscribechanges0_func, fwpmu/FwpmProviderContextUnsubscribeChanges0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmProviderContextUnsubscribeChanges0
-: 
 ---
 
 # FwpmProviderContextUnsubscribeChanges0 function

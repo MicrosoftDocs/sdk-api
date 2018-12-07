@@ -4,10 +4,10 @@ title: IFsrmQuota::get_QuotaUsed
 author: windows-sdk-content
 description: Retrieves the current amount of disk space usage charged to this quota.
 old-location: fsrm\ifsrmquota_quotaused.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: c6df9842-9d69-4422-a8bc-c541ae31f21d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],QuotaUsed property, IFsrmQuota.QuotaUsed, IFsrmQuota.get_QuotaUsed, IFsrmQuota::QuotaUsed, IFsrmQuota::get_QuotaUsed, QuotaUsed property [File Server Resource Manager], QuotaUsed property [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_quotaused, fsrm.ifsrmquota_quotaused, fsrmquota/IFsrmQuota::QuotaUsed, fsrmquota/IFsrmQuota::get_QuotaUsed, get_QuotaUsed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmquota.h
-: 
-- IFsrmQuota.get_QuotaUsed
-: 
 ---
 
 # IFsrmQuota::get_QuotaUsed

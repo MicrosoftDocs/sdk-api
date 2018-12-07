@@ -7,7 +7,7 @@ old-location: fwp\fwpmipsectunneldeletebykey0.htm
 tech.root: fwp
 ms.assetid: cbef853e-0d6e-420b-84a9-640f56614fe7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmIPsecTunnelDeleteByKey0, FwpmIPsecTunnelDeleteByKey0 function [Filtering], fwp.fwpmipsectunneldeletebykey0, fwpmu/FwpmIPsecTunnelDeleteByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmIPsecTunnelDeleteByKey0
-: 
 ---
 
 # FwpmIPsecTunnelDeleteByKey0 function

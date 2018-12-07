@@ -7,7 +7,7 @@ old-location: smi\isettingsidentity_setflags.htm
 tech.root: SMI
 ms.assetid: f31f6ea1-e101-40c0-a431-ab3bdc9f02be
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISettingsIdentity interface [SMI],SetFlags method, ISettingsIdentity.SetFlags, ISettingsIdentity::SetFlags, SetFlags, SetFlags method [SMI], SetFlags method [SMI],ISettingsIdentity interface, smi.isettingsidentity_setflags, wcmconfig/ISettingsIdentity::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wcmconfig.h
-: 
-- ISettingsIdentity.SetFlags
-: 
 ---
 
 # ISettingsIdentity::SetFlags

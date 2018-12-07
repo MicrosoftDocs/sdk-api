@@ -4,10 +4,10 @@ title: NetServerTransportDel function
 author: windows-sdk-content
 description: The NetServerTransportDel function unbinds (or disconnects) the transport protocol from the server. Effectively, the server can no longer communicate with clients using the specified transport protocol (such as TCP or XNS).
 old-location: netmgmt\netservertransportdel.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 69b22f30-62b1-4dcb-bbb0-aceae8d77f61
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 0, 1, NetServerTransportDel, NetServerTransportDel function [Network Management], _win32_netservertransportdel, lmserver/NetServerTransportDel, netmgmt.netservertransportdel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetServerTransportDel
-: 
 ---
 
 # NetServerTransportDel function

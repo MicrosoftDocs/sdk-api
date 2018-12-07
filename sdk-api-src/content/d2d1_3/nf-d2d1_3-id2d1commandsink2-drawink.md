@@ -4,10 +4,10 @@ title: ID2D1CommandSink2::DrawInk
 author: windows-sdk-content
 description: Renders the given ink object using the given brush and ink style.
 old-location: direct2d\id2d1commandsink2_drawink.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: dd328fdb-c87c-e3ee-b8cd-f89ff3fb1b87
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DrawInk, DrawInk method [Direct2D], DrawInk method [Direct2D],ID2D1CommandSink2 interface, ID2D1CommandSink2 interface [Direct2D],DrawInk method, ID2D1CommandSink2.DrawInk, ID2D1CommandSink2::DrawInk, d2d1_3/ID2D1CommandSink2::DrawInk, direct2d.id2d1commandsink2_drawink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_3.h
-: 
-- ID2D1CommandSink2.DrawInk
-: 
 ---
 
 # ID2D1CommandSink2::DrawInk

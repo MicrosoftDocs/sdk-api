@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxfolders_cpp_mfax_faxfolders_outgoingarchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3q79.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxFolders interface [Fax Service],OutgoingArchive property, IFaxFolders.OutgoingArchive, IFaxFolders.get_OutgoingArchive, IFaxFolders::OutgoingArchive, IFaxFolders::get_OutgoingArchive, OutgoingArchive property [Fax Service], OutgoingArchive property [Fax Service],IFaxFolders interface, _mfax_faxfolders.outgoingarchive, fax._mfax_faxfolders_cpp_mfax_faxfolders_outgoingarchive_cpp, fax._mfax_faxfolders_outgoingarchive, faxcomex/IFaxFolders::OutgoingArchive, faxcomex/IFaxFolders::get_OutgoingArchive, get_OutgoingArchive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxFolders.get_OutgoingArchive
-: 
 ---
 
 # IFaxFolders::get_OutgoingArchive

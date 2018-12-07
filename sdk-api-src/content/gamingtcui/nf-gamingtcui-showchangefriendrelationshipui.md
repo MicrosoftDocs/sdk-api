@@ -7,7 +7,7 @@ old-location: tcui\showchangefriendrelationshipui.htm
 tech.root: tcui
 ms.assetid: 1066CEA3-DCF1-4B68-8C77-E23B1903C847
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ShowChangeFriendRelationshipUI, ShowChangeFriendRelationshipUI function, gamingtcui/ShowChangeFriendRelationshipUI, tcui.showchangefriendrelationshipui
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ShowChangeFriendRelationshipUI
-: 
 ---
 
 # ShowChangeFriendRelationshipUI function

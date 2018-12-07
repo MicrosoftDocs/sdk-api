@@ -4,10 +4,10 @@ title: IMcastAddressAllocation::get_Scopes
 author: windows-sdk-content
 description: The get_Scopes method creates a collection of IMcast scopes available. This method is similar to EnumerateScopes, but is used by scripting languages such as Visual Basic.
 old-location: tapi3\imcastaddressallocation_get_scopes.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 4fe824fa-2fcb-4f6b-b3de-15dcfc79575c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],get_Scopes method, IMcastAddressAllocation.get_Scopes, IMcastAddressAllocation::get_Scopes, _tapi3_imcastaddressallocation_get_scopes, get_Scopes, get_Scopes method [TAPI 2.2], get_Scopes method [TAPI 2.2],IMcastAddressAllocation interface, mdhcp/IMcastAddressAllocation::get_Scopes, tapi3.imcastaddressallocation_get_scopes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mdhcp.h
-: 
-- IMcastAddressAllocation.get_Scopes
-: 
 ---
 
 # IMcastAddressAllocation::get_Scopes

@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetErrorRetryCount
 author: windows-sdk-content
 description: Retrieves the number of times that the Task Scheduler will retry an operation when an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_geterrorretrycount.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: f9935325-124b-4c21-be9c-e9d48fb69791
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetErrorRetryCount, GetErrorRetryCount method [Task Scheduler], GetErrorRetryCount method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetErrorRetryCount method, IScheduledWorkItem.GetErrorRetryCount, IScheduledWorkItem::GetErrorRetryCount, _msb_ischeduledworkitem_geterrorretrycount, mstask/IScheduledWorkItem::GetErrorRetryCount, taskschd.ischeduledworkitem_geterrorretrycount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.GetErrorRetryCount
-: 
 ---
 
 # IScheduledWorkItem::GetErrorRetryCount

@@ -7,7 +7,7 @@ old-location: qos\lpm_admitrsvpmsg.htm
 tech.root: QOS
 ms.assetid: 0bf84c25-312c-4b4a-8bb1-e8f00711dbe3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ErrorSpec, FlowDescList, FlowDescListCount, LPM_AdmitRsvpMsg, LPM_AdmitRsvpMsg callback, LPM_AdmitRsvpMsg callback function [QOS], LpmPriorityValue, PolicyDataCount, PolicyDataObjects, PolicyErrorCode, PolicyErrorValue, RsvpFromHop, RsvpMsgType, RsvpScope, RsvpSession, RsvpStyle, _gqos_lpm_admitrsvpmsg, lpmapi/LPM_AdmitRsvpMsg, qos.lpm_admitrsvpmsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LPM_AdmitRsvpMsg
-: 
 ---
 
 # LPM_AdmitRsvpMsg function

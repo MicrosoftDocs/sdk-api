@@ -4,10 +4,10 @@ title: IFsrmQuotaBase::get_Thresholds
 author: windows-sdk-content
 description: Retrieves the thresholds for the quota object.
 old-location: fsrm\ifsrmquotabase_thresholds.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: e9a68b62-5d53-419f-a0c4-2e284fa51313
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],Thresholds property, IFsrmQuotaBase.Thresholds, IFsrmQuotaBase.get_Thresholds, IFsrmQuotaBase::Thresholds, IFsrmQuotaBase::get_Thresholds, Thresholds property [File Server Resource Manager], Thresholds property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_thresholds, fsrm.ifsrmquotabase_thresholds, fsrmquota/IFsrmQuotaBase::Thresholds, fsrmquota/IFsrmQuotaBase::get_Thresholds, get_Thresholds
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmquota.h
-: 
-- IFsrmQuotaBase.get_Thresholds
-: 
 ---
 
 # IFsrmQuotaBase::get_Thresholds

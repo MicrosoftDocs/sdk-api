@@ -4,10 +4,10 @@ title: IGetClusterDataInfo::GetObjectCount
 author: windows-sdk-content
 description: Returns a count of the number of selected cluster objects.
 old-location: mscs\igetclusterdatainfo_getobjectcount.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 20ef63e2-bcec-48bc-86e8-ab746fb72cc5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Failover Cluster], GetObjectCount method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetObjectCount method, IGetClusterDataInfo.GetObjectCount, IGetClusterDataInfo::GetObjectCount, _wolf_igetclusterdatainfo_getobjectcount, cluadmex/IGetClusterDataInfo::GetObjectCount, mscs.igetclusterdatainfo_getobjectcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cluadmex.h
-: 
-- IGetClusterDataInfo.GetObjectCount
-: 
 ---
 
 # IGetClusterDataInfo::GetObjectCount

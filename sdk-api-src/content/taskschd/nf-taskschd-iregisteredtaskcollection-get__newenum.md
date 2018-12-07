@@ -4,10 +4,10 @@ title: IRegisteredTaskCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets the collection enumerator for the register task collection.
 old-location: taskschd\iregisteredtaskcollection__newenum.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: a28d8615-e13f-4fce-a5c8-1fbb28da9bf4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRegisteredTaskCollection interface [Task Scheduler],_NewEnum property, IRegisteredTaskCollection._NewEnum, IRegisteredTaskCollection.get__NewEnum, IRegisteredTaskCollection::_NewEnum, IRegisteredTaskCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],IRegisteredTaskCollection interface, get__NewEnum, taskschd.iregisteredtaskcollection__newenum, taskschd/IRegisteredTaskCollection::_NewEnum, taskschd/IRegisteredTaskCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IRegisteredTaskCollection.get__NewEnum
-: 
 ---
 
 # IRegisteredTaskCollection::get__NewEnum

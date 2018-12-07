@@ -7,7 +7,7 @@ old-location: dxmath\xmubyte2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUBYTE2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: XMUBYTE2, XMUBYTE2 structure [DirectX Math Support APIs], _XMUBYTE2, _XMUBYTE2 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTE2, dxmath.xmubyte2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,6 +80,16 @@ Unsigned 8-bit integer value in the range [0, 255] describing the y-coordinate o
 ### -field v
 
  
+
+
+### -field XMUBYTE2
+
+TBD 
+
+
+### -field operator=
+
+TBD 
 
 
 

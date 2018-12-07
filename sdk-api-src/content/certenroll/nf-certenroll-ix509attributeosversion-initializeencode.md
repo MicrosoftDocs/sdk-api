@@ -4,10 +4,10 @@ title: IX509AttributeOSVersion::InitializeEncode
 author: windows-sdk-content
 description: Initializes the attribute from operating system version information.
 old-location: security\ix509attributeosversioner_initializeencode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 1eee63f8-8345-4f3d-9fee-d8d67bcebb8c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509AttributeOSVersion interface [Security],InitializeEncode method, IX509AttributeOSVersion.InitializeEncode, IX509AttributeOSVersion::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeOSVersion interface, certenroll/IX509AttributeOSVersion::InitializeEncode, security.ix509attributeosversioner_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509AttributeOSVersion.InitializeEncode
-: 
 ---
 
 # IX509AttributeOSVersion::InitializeEncode

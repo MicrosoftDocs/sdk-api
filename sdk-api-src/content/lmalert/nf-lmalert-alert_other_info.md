@@ -4,10 +4,10 @@ title: ALERT_OTHER_INFO macro
 author: windows-sdk-content
 description: The ALERT_OTHER_INFO macro returns a pointer to the alert-specific data in an alert message. The data follows a STD_ALERT structure, and can be an ADMIN_OTHER_INFO, a PRINT_OTHER_INFO, or a USER_OTHER_INFO structure.
 old-location: netmgmt\alert_other_info.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: e7bcc306-4b44-4230-96aa-a4717bb1fb11
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ALERT_OTHER_INFO, ALERT_OTHER_INFO macro [Network Management], _win32_alert_other_info, lmalert/ALERT_OTHER_INFO, netmgmt.alert_other_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- lmalert.h
-: 
-- ALERT_OTHER_INFO
-: 
 ---
 
 # ALERT_OTHER_INFO macro

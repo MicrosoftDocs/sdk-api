@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_user_request.htm
 tech.root: usbref
 ms.assetid: 6aba5cf4-a9fa-4d10-a212-acc79e00fa9b
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_USB_USER_REQUEST, IOCTL_USB_USER_REQUEST control, IOCTL_USB_USER_REQUEST control code [Buses], buses.ioctl_usb_user_request, usbirp_7409a5c0-756e-45ea-b2f5-0b73d91c9225.xml, usbuser/IOCTL_USB_USER_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices

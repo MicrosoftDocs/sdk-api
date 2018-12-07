@@ -7,7 +7,7 @@ old-location: devinst\cm_get_devnode_property_keys.htm
 tech.root: devinst
 ms.assetid: 3476FAA7-32EA-43A9-B7CF-3938F08E0AD1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Get_DevNode_Property_Keys, CM_Get_DevNode_Property_Keys function [Device and Driver Installation], cfgmgr32/CM_Get_DevNode_Property_Keys, devinst.cm_get_devnode_property_keys
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Get_DevNode_Property_Keys
-: 
 ---
 
 # CM_Get_DevNode_Property_Keys function

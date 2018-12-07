@@ -4,10 +4,10 @@ title: EapHostPeerConfigBlob2Xml function
 author: windows-sdk-content
 description: Converts the configuration BLOB to XML.
 old-location: eaphost\eaphostpeerconfigblob2xml.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 158750ec-cc26-4740-add6-2135b9aa294c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EapHostPeerConfigBlob2Xml, EapHostPeerConfigBlob2Xml function [EAPHost], eaphost.eaphostpeerconfigblob2xml, eaphostpeerconfigapis/EapHostPeerConfigBlob2Xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapHostPeerConfigBlob2Xml
-: 
 ---
 
 # EapHostPeerConfigBlob2Xml function

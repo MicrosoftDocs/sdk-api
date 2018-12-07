@@ -4,10 +4,10 @@ title: ReleaseNameCache function
 author: windows-sdk-content
 description: Releases a name cache.
 old-location: winprog\_releasenamecache.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 3abab799-4f55-40e4-9b2c-f40e92dc9af5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ReleaseNameCache, ReleaseNameCache function [Windows API], filehc/ReleaseNameCache, winprog._releasenamecache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ReleaseNameCache
-: 
 ---
 
 # ReleaseNameCache function

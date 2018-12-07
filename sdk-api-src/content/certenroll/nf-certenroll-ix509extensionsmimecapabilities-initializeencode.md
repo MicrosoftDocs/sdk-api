@@ -4,10 +4,10 @@ title: IX509ExtensionSmimeCapabilities::InitializeEncode
 author: windows-sdk-content
 description: Initializes the extension from an ISmimeCapabilities collection.
 old-location: security\ix509extensionsmimecapabilities_initializeencode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 731e3c93-699b-4a99-8520-294f3134aa66
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509ExtensionSmimeCapabilities interface [Security],InitializeEncode method, IX509ExtensionSmimeCapabilities.InitializeEncode, IX509ExtensionSmimeCapabilities::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::InitializeEncode, security.ix509extensionsmimecapabilities_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509ExtensionSmimeCapabilities.InitializeEncode
-: 
 ---
 
 # IX509ExtensionSmimeCapabilities::InitializeEncode

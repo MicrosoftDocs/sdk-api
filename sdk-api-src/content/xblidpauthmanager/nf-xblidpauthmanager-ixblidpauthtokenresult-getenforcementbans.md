@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getenforcementbans.htm
 tech.root: xblidp
 ms.assetid: 813D030B-73CD-463E-A548-E32380075524
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetEnforcementBans, GetEnforcementBans method, GetEnforcementBans method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetEnforcementBans method, IXblIdpAuthTokenResult.GetEnforcementBans, IXblIdpAuthTokenResult::GetEnforcementBans, xblidp.ixblidpauthtokenresult_getenforcementbans, xblidpauthmanager/IXblIdpAuthTokenResult::GetEnforcementBans
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xblidpauthmanager.h
-: 
-- IXblIdpAuthTokenResult.GetEnforcementBans
-: 
 ---
 
 # IXblIdpAuthTokenResult::GetEnforcementBans

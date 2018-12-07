@@ -2,12 +2,12 @@
 UID: NN:d3d12.ID3D12GraphicsCommandList4
 title: ID3D12GraphicsCommandList4
 author: windows-sdk-content
-description: Represents a virtual adapter. This interface extends ID3D12Device3 to support additional features, including raytracing.
+description: Encapsulates a list of graphics commands for rendering, extending the interface to support ray tracing and render passes.
 old-location: direct3d12\id3d12graphicscommandlist4.htm
 tech.root: direct3d12
 ms.assetid: 2385E66F-CD42-4826-B508-3EF6144179BD
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList4, ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,described, d3d12/ID3D12GraphicsCommandList4, direct3d12.id3d12graphicscommandlist4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,12 @@ req.redist:
 ## -description
 
 
-Represents a virtual adapter. This interface extends <b>ID3D12Device3</b> to  support additional features, including raytracing.
+Encapsulates a list of graphics commands for rendering, extending the interface to support ray tracing and render passes.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList4</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12GraphicsCommandList4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList4</b> interface inherits from <a href="direct3d12.id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>. <b>ID3D12GraphicsCommandList4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -132,4 +132,15 @@ Sets a state object on the command list.
 </td>
 </tr>
 </table> 
+
+
+## -see-also
+
+
+
+
+<a href="direct3d12.id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
+ 
+
+ 
 

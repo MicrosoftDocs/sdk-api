@@ -4,10 +4,10 @@ title: IX509PrivateKey::put_CspStatus
 author: windows-sdk-content
 description: Specifies or retrieves an ICspStatus object that contains information about the cryptographic provider and algorithm pair associated with the private key.
 old-location: security\ix509privatekey_cspstatus.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 8bf6e62d-9ecf-4eee-9652-f04d2010b4f7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CspStatus property [Security], CspStatus property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],CspStatus property, IX509PrivateKey.CspStatus, IX509PrivateKey.put_CspStatus, IX509PrivateKey::CspStatus, IX509PrivateKey::get_CspStatus, IX509PrivateKey::put_CspStatus, certenroll/IX509PrivateKey::CspStatus, certenroll/IX509PrivateKey::get_CspStatus, certenroll/IX509PrivateKey::put_CspStatus, put_CspStatus, security.ix509privatekey_cspstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509PrivateKey.put_CspStatus
-: 
 ---
 
 # IX509PrivateKey::put_CspStatus

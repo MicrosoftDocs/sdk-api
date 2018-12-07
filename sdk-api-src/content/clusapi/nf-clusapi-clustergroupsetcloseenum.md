@@ -4,10 +4,10 @@ title: ClusterGroupSetCloseEnum function
 author: windows-sdk-content
 description: Closes an open enumeration for a groupset.
 old-location: mscs\clustergroupcollectioncloseenum.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: b82e13f0-364c-41cf-9fda-98a95f23ff7d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterGroupSetCloseEnum, ClusterGroupSetCloseEnum function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/ClusterGroupSetCloseEnum, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, mscs.clustergroupcollectioncloseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusterGroupSetCloseEnum
-: 
 ---
 
 # ClusterGroupSetCloseEnum function

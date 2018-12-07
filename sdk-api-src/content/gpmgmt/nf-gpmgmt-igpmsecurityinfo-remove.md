@@ -4,10 +4,10 @@ title: IGPMSecurityInfo::Remove
 author: windows-sdk-content
 description: Removes the permission specified in a given GPMPermission object from the GPMSecurityInfo collection.
 old-location: gpmc\igpmsecurityinfo_remove.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 187ae17c-82c0-4439-8b98-52ba0571d222
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPMSecurityInfo class [GPMC],Remove method, IGPMSecurityInfo interface [GPMC],Remove method, IGPMSecurityInfo.Remove, IGPMSecurityInfo::Remove, Remove, Remove method [GPMC], Remove method [GPMC],GPMSecurityInfo class, Remove method [GPMC],IGPMSecurityInfo interface, _win32_igpmsecurityinfo_remove, gpmc.igpmsecurityinfo_remove, gpmgmt/IGPMSecurityInfo::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpmgmt.h
-: 
-- IGPMSecurityInfo.Remove
-: 
 ---
 
 # IGPMSecurityInfo::Remove

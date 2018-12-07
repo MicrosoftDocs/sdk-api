@@ -7,7 +7,7 @@ old-location: security\sllicensingstatus.htm
 tech.root: SecSLApi
 ms.assetid: 8af21021-ad18-4045-8a24-0af0d39db919
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLLICENSINGSTATUS, SLLICENSINGSTATUS enumeration [Security], SL_LICENSING_STATUS_IN_GRACE_PERIOD, SL_LICENSING_STATUS_LAST, SL_LICENSING_STATUS_LICENSED, SL_LICENSING_STATUS_NOTIFICATION, SL_LICENSING_STATUS_UNLICENSED, _tagSLLICENSINGSTATUS, security.sllicensingstatus, slpublic/SLLICENSINGSTATUS, slpublic/SL_LICENSING_STATUS_IN_GRACE_PERIOD, slpublic/SL_LICENSING_STATUS_LAST, slpublic/SL_LICENSING_STATUS_LICENSED, slpublic/SL_LICENSING_STATUS_NOTIFICATION, slpublic/SL_LICENSING_STATUS_UNLICENSED
 ms.prod: windows-hardware
 ms.technology: windows-devices

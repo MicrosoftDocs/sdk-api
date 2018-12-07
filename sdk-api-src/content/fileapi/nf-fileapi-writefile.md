@@ -7,7 +7,7 @@ old-location: fs\writefile.htm
 tech.root: fileio
 ms.assetid: 9d6fa723-fe3e-4052-b0b3-2686eee076a7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: WriteFile, WriteFile function [Files], _win32_writefile, base.writefile, fileapi/WriteFile, fs.writefile, winbase/WriteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WriteFile
-: 
 ---
 
 # WriteFile function

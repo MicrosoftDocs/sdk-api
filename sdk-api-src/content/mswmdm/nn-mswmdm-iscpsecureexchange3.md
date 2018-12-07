@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecureexchange3.htm
 tech.root: WMDM
 ms.assetid: 2617a6af-c91d-4416-8bef-fe69404e7c3f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISCPSecureExchange3, ISCPSecureExchange3 interface [windows Media Device Manager], ISCPSecureExchange3 interface [windows Media Device Manager],described, ISCPSecureExchange3Interface, mswmdm/ISCPSecureExchange3, wmdm.iscpsecureexchange3
 ms.prod: windows-hardware
 ms.technology: windows-devices

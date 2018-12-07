@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11view.htm
 tech.root: direct3d11
 ms.assetid: 060973b4-bf7d-4be2-b087-85a5b1bca905
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 0332b528-6d94-2603-1e1b-65d4d541f94f, ID3D11View, ID3D11View interface [Direct3D 11], ID3D11View interface [Direct3D 11],described, d3d11/ID3D11View, direct3d11.id3d11view
 ms.prod: windows-hardware
 ms.technology: windows-devices

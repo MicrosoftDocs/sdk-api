@@ -7,7 +7,7 @@ old-location: automat\bstr_userunmarshal.htm
 tech.root: automat
 ms.assetid: d0a6229e-7091-4859-b539-d1e29044171a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: BSTR_UserUnmarshal, BSTR_UserUnmarshal function [Automation], _oa96_BSTR_UserUnmarshal, automat.bstr_userunmarshal, oaidl/BSTR_UserUnmarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BSTR_UserUnmarshal
-: 
 ---
 
 # BSTR_UserUnmarshal function

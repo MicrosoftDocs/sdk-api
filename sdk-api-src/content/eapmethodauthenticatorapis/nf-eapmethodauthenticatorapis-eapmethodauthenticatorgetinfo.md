@@ -4,10 +4,10 @@ title: EapMethodAuthenticatorGetInfo function
 author: windows-sdk-content
 description: Obtains a set of function pointers for an implementation of the loaded EAP authenticator method.EapMethodAuthenticatorGetInfo is a function prototype.
 old-location: eaphost\eapmethodauthenticatorgetinfo.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 83a643bb-5d2e-4227-b82e-e63035860f46
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EapMethodAuthenticatorGetInfo, EapMethodAuthenticatorGetInfo function [EAPHost], eaphost.eapmethodauthenticatorgetinfo, eapmethodauthenticatorapis/EapMethodAuthenticatorGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapMethodAuthenticatorGetInfo
-: 
 ---
 
 # EapMethodAuthenticatorGetInfo function

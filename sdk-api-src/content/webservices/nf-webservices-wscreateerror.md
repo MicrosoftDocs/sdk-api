@@ -7,7 +7,7 @@ old-location: wsw\wscreateerror.htm
 tech.root: wsw
 ms.assetid: 0ec858f7-12a5-43cf-94a7-3838ab6d76ae
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsCreateError, WsCreateError function [Web Services for Windows], webservices/WsCreateError, wsw.wscreateerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsCreateError
-: 
 ---
 
 # WsCreateError function

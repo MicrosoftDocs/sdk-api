@@ -7,7 +7,7 @@ old-location: shell\PathIsUNCEx.htm
 tech.root: shell
 ms.assetid: 3b2a4158-63ec-49eb-a031-7493d02f2caa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PathIsUNCEx, PathIsUNCEx function [Windows Shell], pathcch/PathIsUNCEx, shell.PathIsUNCEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PathIsUNCEx
-: 
 ---
 
 # PathIsUNCEx function

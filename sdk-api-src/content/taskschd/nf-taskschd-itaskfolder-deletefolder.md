@@ -4,10 +4,10 @@ title: ITaskFolder::DeleteFolder
 author: windows-sdk-content
 description: Deletes a subfolder from the parent folder.
 old-location: taskschd\itaskfolder_deletefolder.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 7758afc5-73d8-456c-98a9-89e4b7ad42b9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteFolder, DeleteFolder method [Task Scheduler], DeleteFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],DeleteFolder method, ITaskFolder.DeleteFolder, ITaskFolder::DeleteFolder, taskschd.itaskfolder_deletefolder, taskschd/ITaskFolder::DeleteFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITaskFolder.DeleteFolder
-: 
 ---
 
 # ITaskFolder::DeleteFolder

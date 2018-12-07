@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_operator_plus_equal.htm
 tech.root: WmiSdk
 ms.assetid: d531e7e0-7de2-41d0-bf1b-7c4ef43b3b46
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator+= method, WBEMTimeSpan.operator+=, WBEMTimeSpan.operator-add-assign, WBEMTimeSpan::operator+=, WBEMTimeSpan::operator-add-assign, _hmm_wbemtimespan_operator_plus_equal, operator+=, operator+= method [Windows Management Instrumentation], operator+= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator+=, wmi.wbemtimespan_operator_plus_equal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemtime.h
-: 
-- WBEMTimeSpan.operator+=
-: 
 ---
 
 # WBEMTimeSpan::operator-add-assign

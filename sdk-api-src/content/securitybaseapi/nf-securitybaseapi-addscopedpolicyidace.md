@@ -4,10 +4,10 @@ title: AddScopedPolicyIDAce function
 author: windows-sdk-content
 description: Adds a SYSTEM_SCOPED_POLICY_ID_ACEaccess control entry (ACE) to the end of a system access control list (SACL).
 old-location: security\addscopedpolicyidace.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 30AA5730-566C-4B02-A904-5A38237EE8E3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AddScopedPolicyIDAce, AddScopedPolicyIDAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, security.addscopedpolicyidace, securitybaseapi/AddScopedPolicyIDAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AddScopedPolicyIDAce
-: 
 ---
 
 # AddScopedPolicyIDAce function

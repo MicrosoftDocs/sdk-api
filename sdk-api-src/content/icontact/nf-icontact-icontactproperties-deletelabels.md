@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactProperties_DeleteLabels.htm
 tech.root: wincontacts
 ms.assetid: 0925bed9-26ef-46e6-9087-0e1a1e57349d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteLabels, DeleteLabels method [Windows Contacts], DeleteLabels method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],DeleteLabels method, IContactProperties.DeleteLabels, IContactProperties::DeleteLabels, _wincontacts_IContactProperties_DeleteLabels, icontact/IContactProperties::DeleteLabels, wincontacts._wincontacts_IContactProperties_DeleteLabels
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- icontact.h
-: 
-- IContactProperties.DeleteLabels
-: 
 ---
 
 # IContactProperties::DeleteLabels

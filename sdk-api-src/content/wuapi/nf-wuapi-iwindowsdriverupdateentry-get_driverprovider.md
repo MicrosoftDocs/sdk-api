@@ -4,10 +4,10 @@ title: IWindowsDriverUpdateEntry::get_DriverProvider
 author: windows-sdk-content
 description: Gets the language-invariant name of the provider of the Windows driver update.
 old-location: wua\iwindowsdriverupdateentry_driverprovider.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 8462cbf0-b362-4143-9cc5-0af41ae4f597
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DriverProvider property [Windows Update Agent], DriverProvider property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverProvider property, IWindowsDriverUpdateEntry.DriverProvider, IWindowsDriverUpdateEntry.get_DriverProvider, IWindowsDriverUpdateEntry::DriverProvider, IWindowsDriverUpdateEntry::get_DriverProvider, get_DriverProvider, wua.iwindowsdriverupdateentry_driverprovider, wuapi/IWindowsDriverUpdateEntry::DriverProvider, wuapi/IWindowsDriverUpdateEntry::get_DriverProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IWindowsDriverUpdateEntry.get_DriverProvider
-: 
 ---
 
 # IWindowsDriverUpdateEntry::get_DriverProvider

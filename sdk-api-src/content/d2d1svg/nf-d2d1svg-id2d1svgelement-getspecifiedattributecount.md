@@ -4,10 +4,10 @@ title: ID2D1SvgElement::GetSpecifiedAttributeCount
 author: windows-sdk-content
 description: Returns the number of specified attributes on this element.
 old-location: direct2d\id2d1svgelement_getspecifiedattributecount.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: DB683CA6-57B5-4B13-9EB3-269DDCA94667
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetSpecifiedAttributeCount, GetSpecifiedAttributeCount method [Direct2D], GetSpecifiedAttributeCount method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetSpecifiedAttributeCount method, ID2D1SvgElement.GetSpecifiedAttributeCount, ID2D1SvgElement::GetSpecifiedAttributeCount, d2d1svg/ID2D1SvgElement::GetSpecifiedAttributeCount, direct2d.id2d1svgelement_getspecifiedattributecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1svg.h
-: 
-- ID2D1SvgElement.GetSpecifiedAttributeCount
-: 
 ---
 
 # ID2D1SvgElement::GetSpecifiedAttributeCount

@@ -7,7 +7,7 @@ old-location: cloudapi\cfcreateplaceholders.htm
 tech.root: cfApi
 ms.assetid: 96A6F62E-7F14-40B5-AB57-260DC9B1DF89
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CfCreatePlaceholders, CfCreatePlaceholders function, cfapi/CfCreatePlaceholders, cloudApi.cfcreateplaceholders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CfCreatePlaceholders
-: 
 ---
 
 # CfCreatePlaceholders function

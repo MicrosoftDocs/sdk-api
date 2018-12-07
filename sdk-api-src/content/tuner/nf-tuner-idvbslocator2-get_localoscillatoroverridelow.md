@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator2_localoscillatoroverridelow.htm
 tech.root: mstv
 ms.assetid: 141295c9-1129-4996-84e9-5ad63d70da05
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalOscillatorOverrideLow property, IDVBSLocator2.LocalOscillatorOverrideLow, IDVBSLocator2.get_LocalOscillatorOverrideLow, IDVBSLocator2::LocalOscillatorOverrideLow, IDVBSLocator2::get_LocalOscillatorOverrideLow, IDVBSLocator2::put_LocalOscillatorOverrideLow, LocalOscillatorOverrideLow property [Microsoft TV Technologies], LocalOscillatorOverrideLow property [Microsoft TV Technologies],IDVBSLocator2 interface, get_LocalOscillatorOverrideLow, mstv.idvbslocator2_localoscillatoroverridelow, tuner/IDVBSLocator2::LocalOscillatorOverrideLow, tuner/IDVBSLocator2::get_LocalOscillatorOverrideLow, tuner/IDVBSLocator2::put_LocalOscillatorOverrideLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IDVBSLocator2.get_LocalOscillatorOverrideLow
-: 
 ---
 
 # IDVBSLocator2::get_LocalOscillatorOverrideLow

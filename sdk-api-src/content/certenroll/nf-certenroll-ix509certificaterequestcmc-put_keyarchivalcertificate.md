@@ -4,10 +4,10 @@ title: IX509CertificateRequestCmc::put_KeyArchivalCertificate
 author: windows-sdk-content
 description: Specifies or retrieves a certification authority (CA) encryption certificate.
 old-location: security\ix509certificaterequestcmc_keyarchivalcertificate_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 93f71fd7-33bb-4352-b184-7270bca1363f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],KeyArchivalCertificate property, IX509CertificateRequestCmc.KeyArchivalCertificate, IX509CertificateRequestCmc.put_KeyArchivalCertificate, IX509CertificateRequestCmc::KeyArchivalCertificate, IX509CertificateRequestCmc::get_KeyArchivalCertificate, IX509CertificateRequestCmc::put_KeyArchivalCertificate, KeyArchivalCertificate property [Security], KeyArchivalCertificate property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::get_KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::put_KeyArchivalCertificate, put_KeyArchivalCertificate, security.ix509certificaterequestcmc_keyarchivalcertificate_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509CertificateRequestCmc.put_KeyArchivalCertificate
-: 
 ---
 
 # IX509CertificateRequestCmc::put_KeyArchivalCertificate

@@ -4,10 +4,10 @@ title: ITForwardInformation
 author: windows-sdk-content
 description: The ITForwardInformation interface provides methods for setup and implementation of call forwarding.
 old-location: tapi3\itforwardinformation.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 0e06cd0b-b95b-4853-b883-53146be084f0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITForwardInformation, ITForwardInformation interface [TAPI 2.2], ITForwardInformation interface [TAPI 2.2],described, _tapi3_itforwardinformation, tapi3.itforwardinformation, tapi3if/ITForwardInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

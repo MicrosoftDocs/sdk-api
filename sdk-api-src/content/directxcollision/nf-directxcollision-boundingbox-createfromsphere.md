@@ -1,17 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingBox.CreateFromSphere
-title: CreateFromSphere function
+title: BoundingBox::CreateFromSphere
 author: windows-sdk-content
 description: Creates a BoundingBox large enough to contain the a specified BoundingSphere.
 old-location: dxmath\boundingbox_createfromsphere.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.CreateFromSphere(BoundingBox@,BoundingSphere)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: BoundingBox interface [DirectX Math Support APIs],CreateFromSphere method, BoundingBox.CreateFromSphere, CreateFromSphere method [DirectX Math Support APIs], CreateFromSphere method [DirectX Math Support APIs],BoundingBox interface, Use DirectX..BoundingBox.CreateFromSphere, Use DirectX::::BoundingBox::CreateFromSphere, dxmath.boundingbox_createfromsphere
+ms.date: 12/5/2018
+ms.keywords: BoundingBox interface [DirectX Math Support APIs],CreateFromSphere method, BoundingBox.CreateFromSphere, BoundingBox::CreateFromSphere, CreateFromSphere, CreateFromSphere method [DirectX Math Support APIs], CreateFromSphere method [DirectX Math Support APIs],BoundingBox interface, Use DirectX..BoundingBox.CreateFromSphere, Use DirectX::::BoundingBox::CreateFromSphere, dxmath.boundingbox_createfromsphere
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateFromSphere
-: 
 ---
 
-# CreateFromSphere function
+# BoundingBox::CreateFromSphere
 
 
 ## -description

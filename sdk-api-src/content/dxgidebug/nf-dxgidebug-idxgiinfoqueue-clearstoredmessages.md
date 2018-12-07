@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_clearstoredmessages.htm
 tech.root: direct3ddxgi
 ms.assetid: DAE3D3F2-A07E-4A24-863A-042AB3DAF98E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ClearStoredMessages, ClearStoredMessages method [DXGI], ClearStoredMessages method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],ClearStoredMessages method, IDXGIInfoQueue.ClearStoredMessages, IDXGIInfoQueue::ClearStoredMessages, direct3ddxgi.idxgiinfoqueue_clearstoredmessages, dxgidebug/IDXGIInfoQueue::ClearStoredMessages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxgidebug.h
-: 
-- IDXGIInfoQueue.ClearStoredMessages
-: 
 ---
 
 # IDXGIInfoQueue::ClearStoredMessages

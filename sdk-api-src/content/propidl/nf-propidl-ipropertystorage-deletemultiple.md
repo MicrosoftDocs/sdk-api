@@ -4,10 +4,10 @@ title: IPropertyStorage::DeleteMultiple
 author: windows-sdk-content
 description: The DeleteMultiple method deletes as many of the indicated properties as exist in this property set.
 old-location: stg\ipropertystorage_deletemultiple.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 95c218f1-2bf7-4946-ae9c-934e5916395a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteMultiple, DeleteMultiple method [Structured Storage], DeleteMultiple method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],DeleteMultiple, IPropertyStorage interface [Structured Storage],DeleteMultiple method, IPropertyStorage.DeleteMultiple, IPropertyStorage::DeleteMultiple, _stg_ipropertystorage_deletemultiple, propidl/IPropertyStorage::DeleteMultiple, stg.ipropertystorage_deletemultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- propidl.h
-: 
-- IPropertyStorage.DeleteMultiple
-: 
 ---
 
 # IPropertyStorage::DeleteMultiple

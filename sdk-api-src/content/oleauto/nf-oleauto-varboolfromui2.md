@@ -7,7 +7,7 @@ old-location: automat\varboolfromui2.htm
 tech.root: automat
 ms.assetid: 2ee04e9d-0a6b-4fc7-b572-51e943aa1daf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarBoolFromUI2, VarBoolFromUI2 function [Automation], _oa96_VarBoolFromUI2, automat.varboolfromui2, oleauto/VarBoolFromUI2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarBoolFromUI2
-: 
 ---
 
 # VarBoolFromUI2 function

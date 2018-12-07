@@ -4,10 +4,10 @@ title: IExecAction::put_Path
 author: windows-sdk-content
 description: Gets or sets the path to an executable file.
 old-location: taskschd\iexecaction_path.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 307e59e9-5460-40aa-bac7-fa8cb4755d35
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IExecAction interface [Task Scheduler],Path property, IExecAction.Path, IExecAction.put_Path, IExecAction::Path, IExecAction::get_Path, IExecAction::put_Path, Path property [Task Scheduler], Path property [Task Scheduler],IExecAction interface, put_Path, taskschd.iexecaction_path, taskschd/IExecAction::Path, taskschd/IExecAction::get_Path, taskschd/IExecAction::put_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IExecAction.put_Path
-: 
 ---
 
 # IExecAction::put_Path

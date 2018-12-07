@@ -7,7 +7,7 @@ old-location: dshow\iambuffernegotiation.htm
 tech.root: DirectShow
 ms.assetid: 68e98afd-3275-49bb-b165-48ed40026e76
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IAMBufferNegotiation, IAMBufferNegotiation interface [DirectShow], IAMBufferNegotiation interface [DirectShow],described, IAMBufferNegotiationInterface, dshow.iambuffernegotiation, strmif/IAMBufferNegotiation
 ms.prod: windows-hardware
 ms.technology: windows-devices

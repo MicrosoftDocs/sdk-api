@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3.htm
 tech.root: direct3d11
 ms.assetid: 0AA10851-0077-4075-BD41-72FCD7BC0556
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11Device3, ID3D11Device3 interface [Direct3D 11], ID3D11Device3 interface [Direct3D 11],described, d3d11_3/ID3D11Device3, direct3d11.id3d11device3
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: "_CRYPTUI_WIZ_EXPORT_INFO"
 author: windows-sdk-content
 description: Contains information that controls the operation of the CryptUIWizExport function.
 old-location: security\cryptui_wiz_export_info.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 3c509bb6-d391-4b59-809c-23466c8196ea
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCRYPTUI_WIZ_EXPORT_INFO, CRYPTUI_WIZ_EXPORT_CERT_CONTEXT, CRYPTUI_WIZ_EXPORT_CERT_STORE, CRYPTUI_WIZ_EXPORT_CERT_STORE_CERTIFICATES_ONLY, CRYPTUI_WIZ_EXPORT_CRL_CONTEXT, CRYPTUI_WIZ_EXPORT_CTL_CONTEXT, CRYPTUI_WIZ_EXPORT_INFO, CRYPTUI_WIZ_EXPORT_INFO structure [Security], PCRYPTUI_WIZ_EXPORT_INFO, PCRYPTUI_WIZ_EXPORT_INFO structure pointer [Security], _CRYPTUI_WIZ_EXPORT_INFO, cryptuiapi/CRYPTUI_WIZ_EXPORT_INFO, cryptuiapi/PCRYPTUI_WIZ_EXPORT_INFO, security.cryptui_wiz_export_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

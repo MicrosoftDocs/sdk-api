@@ -2,7 +2,7 @@
 UID: NA:scesvc
 ms.assetid: e549a166-ed41-3456-b217-3fdef07eaaf4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

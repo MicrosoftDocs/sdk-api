@@ -7,7 +7,7 @@ old-location: shell\SHLoadIndirectString.htm
 tech.root: shell
 ms.assetid: f0265cd8-deb8-4bca-b379-39aff49c7df1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHLoadIndirectString, SHLoadIndirectString function [Windows Shell], _shell_SHLoadIndirectString, shell.SHLoadIndirectString, shlwapi/SHLoadIndirectString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHLoadIndirectString
-: 
 ---
 
 # SHLoadIndirectString function

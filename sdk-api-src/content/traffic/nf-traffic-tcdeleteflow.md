@@ -7,7 +7,7 @@ old-location: qos\tcdeleteflow.htm
 tech.root: QOS
 ms.assetid: 6e62b55e-9919-44be-a9ae-f1319cc82d76
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TcDeleteFlow, TcDeleteFlow function [QOS], _gqos_tcdeleteflow, qos.tcdeleteflow, traffic/TcDeleteFlow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TcDeleteFlow
-: 
 ---
 
 # TcDeleteFlow function

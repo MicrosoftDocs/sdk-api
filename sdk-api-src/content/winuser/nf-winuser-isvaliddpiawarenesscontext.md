@@ -7,7 +7,7 @@ old-location: hidpi\isvaliddpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: 66F48B95-DEF4-4422-BF4F-5EBA3C713A80
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IsValidDpiAwarenessContext, IsValidDpiAwarenessContext function [High DPI], hidpi.isvaliddpiawarenesscontext, winuser/IsValidDpiAwarenessContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IsValidDpiAwarenessContext
-: 
 ---
 
 # IsValidDpiAwarenessContext function

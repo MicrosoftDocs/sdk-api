@@ -4,10 +4,10 @@ title: GetClusterNodeKey function
 author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a node.
 old-location: mscs\getclusternodekey.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 8c943e86-aacc-4340-a26a-1d1916150344
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetClusterNodeKey, GetClusterNodeKey function [Failover Cluster], _wolf_getclusternodekey, clusapi/GetClusterNodeKey, mscs.getclusternodekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetClusterNodeKey
-: 
 ---
 
 # GetClusterNodeKey function

@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextcreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 3b660e3a-fba6-4466-aa82-eb90c27ae004
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmProviderContextCreateEnumHandle0, FwpmProviderContextCreateEnumHandle0 function [Filtering], fwp.fwpmprovidercontextcreateenumhandle0_func, fwpmu/FwpmProviderContextCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmProviderContextCreateEnumHandle0
-: 
 ---
 
 # FwpmProviderContextCreateEnumHandle0 function

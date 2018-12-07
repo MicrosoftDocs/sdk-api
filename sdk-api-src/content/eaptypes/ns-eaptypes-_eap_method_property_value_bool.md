@@ -4,10 +4,10 @@ title: "_EAP_METHOD_PROPERTY_VALUE_BOOL"
 author: windows-sdk-content
 description: Contains a Boolean value of an EAP method property.
 old-location: eaphost\eap_method_property_value_bool.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: ff482df6-a9c9-41b3-bedf-880fee71b968
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_BOOL, EAP_METHOD_PROPERTY_VALUE_BOOL structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_BOOL, PEAP_METHOD_PROPERTY_VALUE_BOOL structure pointer [EAPHost], _EAP_METHOD_PROPERTY_VALUE_BOOL, eaphost.eap_method_property_value_bool, eaptypes/EAP_METHOD_PROPERTY_VALUE_BOOL, eaptypes/PEAP_METHOD_PROPERTY_VALUE_BOOL
 ms.prod: windows-hardware
 ms.technology: windows-devices

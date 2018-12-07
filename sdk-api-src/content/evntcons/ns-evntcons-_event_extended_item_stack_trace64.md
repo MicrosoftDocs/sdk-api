@@ -4,10 +4,10 @@ title: "_EVENT_EXTENDED_ITEM_STACK_TRACE64"
 author: windows-sdk-content
 description: Defines a call stack on a 64-bit computer.
 old-location: etw\event_extended_item_stack_trace64.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 3c9e0dcb-1eb9-4c9f-a4c8-5a93566be303
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PEVENT_EXTENDED_ITEM_STACK_TRACE64, EVENT_EXTENDED_ITEM_STACK_TRACE64, EVENT_EXTENDED_ITEM_STACK_TRACE64 structure [ETW], PEVENT_EXTENDED_ITEM_STACK_TRACE64, PEVENT_EXTENDED_ITEM_STACK_TRACE64 structure pointer [ETW], _EVENT_EXTENDED_ITEM_STACK_TRACE64, etw.event_extended_item_stack_trace64, evntcons/EVENT_EXTENDED_ITEM_STACK_TRACE64, evntcons/PEVENT_EXTENDED_ITEM_STACK_TRACE64"
 ms.prod: windows-hardware
 ms.technology: windows-devices

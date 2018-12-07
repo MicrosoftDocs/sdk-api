@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_GetCurrentSelection.htm
 tech.root: shell
 ms.assetid: b3768c15-d933-43c0-8398-f8f1c16ecbf9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurrentSelection, GetCurrentSelection method [Windows Shell], GetCurrentSelection method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetCurrentSelection method, IFileDialog.GetCurrentSelection, IFileDialog::GetCurrentSelection, shell.IFileDialog_GetCurrentSelection, shell_IFileDialog_GetCurrentSelection, shobjidl_core/IFileDialog::GetCurrentSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IFileDialog.GetCurrentSelection
-: 
 ---
 
 # IFileDialog::GetCurrentSelection

@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationhost_document.htm
 tech.root: debug_wwahost
 ms.assetid: e2ba8ea7-0179-42d6-8d85-1617d14f85e4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Document property [Debugging Windows Store apps], Document property [Debugging Windows Store apps],IWebApplicationHost interface, IWebApplicationHost interface [Debugging Windows Store apps],Document property, IWebApplicationHost.Document, IWebApplicationHost.get_Document, IWebApplicationHost::Document, IWebApplicationHost::get_Document, debug.iwebapplicationhost_document, get_Document, webapplication/IWebApplicationHost::Document, webapplication/IWebApplicationHost::get_Document
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- webapplication.h
-: 
-- IWebApplicationHost.get_Document
-: 
 ---
 
 # IWebApplicationHost::get_Document

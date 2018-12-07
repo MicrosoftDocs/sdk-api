@@ -7,7 +7,7 @@ old-location: wds\iwdstransportservicepolicy2_enabletftpvariablewindowextension.
 tech.root: wds
 ms.assetid: 948B70F8-2871-404E-8DEC-C4CBE8F84ED7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EnableTftpVariableWindowExtension property [Windows Deployment Services], EnableTftpVariableWindowExtension property [Windows Deployment Services],IWdsTransportServicePolicy2 interface, IWdsTransportServicePolicy2 interface [Windows Deployment Services],EnableTftpVariableWindowExtension property, IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2.get_EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension, get_EnableTftpVariableWindowExtension, wds.iwdstransportservicepolicy2_enabletftpvariablewindowextension, wdstptmgmt/IWdsTransportServicePolicy2::EnableTftpVariableWindowExtension, wdstptmgmt/IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension, wdstptmgmt/IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportServicePolicy2.get_EnableTftpVariableWindowExtension
-: 
 ---
 
 # IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension

@@ -7,7 +7,7 @@ old-location: secbiomet\winbiomonitorpresence.htm
 tech.root: SecBioMet
 ms.assetid: 973DA92D-7319-43A9-B4FF-3CAF8A644C50
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioMonitorPresence, WinBioMonitorPresence function [Windows Biometric Framework API], secbiomet.winbiomonitorpresence, winbio/WinBioMonitorPresence
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinBioMonitorPresence
-: 
 ---
 
 # WinBioMonitorPresence function

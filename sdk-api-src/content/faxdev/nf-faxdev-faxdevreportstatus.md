@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevreportstatus.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_65gz.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FaxDevReportStatus, FaxDevReportStatus function [Fax Service], _mfax_faxdevreportstatus, fax._mfax_faxdevreportstatus, faxdev/FaxDevReportStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FaxDevReportStatus
-: 
 ---
 
 # FaxDevReportStatus function

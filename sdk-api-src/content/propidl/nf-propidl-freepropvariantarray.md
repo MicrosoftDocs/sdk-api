@@ -7,7 +7,7 @@ old-location: properties\FreePropVariantArray.htm
 tech.root: properties
 ms.assetid: 5033557c-d43c-42b1-ae4e-0fb0569d697a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Windows Properties], _shell_FreePropVariantArray, properties.FreePropVariantArray, propidl/FreePropVariantArray, shell.FreePropVariantArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- FreePropVariantArray
-: 
 ---
 
 # FreePropVariantArray function

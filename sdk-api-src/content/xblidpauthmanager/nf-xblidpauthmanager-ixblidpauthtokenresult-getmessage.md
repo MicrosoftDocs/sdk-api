@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getmessage.htm
 tech.root: xblidp
 ms.assetid: 733EF96D-EDB5-4C8C-83C9-9CE225C510FC
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetMessage, GetMessage method, GetMessage method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMessage method, IXblIdpAuthTokenResult.GetMessage, IXblIdpAuthTokenResult::GetMessage, xblidp.ixblidpauthtokenresult_getmessage, xblidpauthmanager/IXblIdpAuthTokenResult::GetMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xblidpauthmanager.h
-: 
-- IXblIdpAuthTokenResult.GetMessage
-: 
 ---
 
 # IXblIdpAuthTokenResult::GetMessage

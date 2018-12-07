@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetElementCount.htm
 tech.root: properties
 ms.assetid: 1d02f06e-f90b-40f2-923b-a89d2d4d535c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PropVariantGetElementCount, PropVariantGetElementCount function [Windows Properties], _shell_PropVariantGetElementCount, properties.PropVariantGetElementCount, propvarutil/PropVariantGetElementCount, shell.PropVariantGetElementCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantGetElementCount
-: 
 ---
 
 # PropVariantGetElementCount function

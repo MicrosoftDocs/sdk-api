@@ -4,10 +4,10 @@ title: AvRevertMmThreadCharacteristics function
 author: windows-sdk-content
 description: Indicates that a thread is no longer performing work associated with the specified task.
 old-location: base\avrevertmmthreadcharacteristics.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 2ae0d34c-3819-46fa-9779-5de8a57e5281
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AvRevertMmThreadCharacteristics, AvRevertMmThreadCharacteristics function, avrt/AvRevertMmThreadCharacteristics, base.avrevertmmthreadcharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AvRevertMmThreadCharacteristics
-: 
 ---
 
 # AvRevertMmThreadCharacteristics function

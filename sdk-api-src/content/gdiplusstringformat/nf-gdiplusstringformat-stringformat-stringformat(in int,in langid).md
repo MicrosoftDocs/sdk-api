@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_StringFormat_formatFlags_langu
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors\stringformat_22formatflags_language.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: StringFormat, StringFormat class [GDI+],StringFormat constructor, StringFormat constructor [GDI+], StringFormat constructor [GDI+],StringFormat class, StringFormat.StringFormat, StringFormat.StringFormat(IN INT,IN LANGID), StringFormat.StringFormat(INT,LANGID), StringFormat::StringFormat, StringFormat::StringFormat(IN INT,IN LANGID), _gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_, gdiplus._gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusstringformat.h
-: 
-- StringFormat.StringFormat
-: 
 req.product: GDI+ 1.0
 ---
 

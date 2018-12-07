@@ -7,7 +7,7 @@ old-location: wds\iwdstransporttftpclient_windowsize.htm
 tech.root: wds
 ms.assetid: F7769EE5-1819-4CB9-B902-AF3A0EA098F9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IWdsTransportTftpClient interface [Windows Deployment Services],WindowSize property, IWdsTransportTftpClient.WindowSize, IWdsTransportTftpClient.get_WindowSize, IWdsTransportTftpClient::WindowSize, IWdsTransportTftpClient::get_WindowSize, WindowSize property [Windows Deployment Services], WindowSize property [Windows Deployment Services],IWdsTransportTftpClient interface, get_WindowSize, wds.iwdstransporttftpclient_windowsize, wdstptmgmt/IWdsTransportTftpClient::WindowSize, wdstptmgmt/IWdsTransportTftpClient::get_WindowSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wdstptmgmt.h
-: 
-- IWdsTransportTftpClient.get_WindowSize
-: 
 ---
 
 # IWdsTransportTftpClient::get_WindowSize

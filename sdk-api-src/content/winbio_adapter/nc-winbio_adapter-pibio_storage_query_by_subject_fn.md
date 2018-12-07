@@ -7,7 +7,7 @@ old-location: secbiomet\storageadapterquerybysubject.htm
 tech.root: SecBioMet
 ms.assetid: b2c93122-fae1-44ad-97d4-f90115194a31
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PIBIO_STORAGE_QUERY_BY_SUBJECT_FN, PIBIO_STORAGE_QUERY_BY_SUBJECT_FN callback, StorageAdapterQueryBySubject, StorageAdapterQueryBySubject callback function [Windows Biometric Framework API], secbiomet.storageadapterquerybysubject, winbio_adapter/StorageAdapterQueryBySubject
 ms.prod: windows-hardware
 ms.technology: windows-devices

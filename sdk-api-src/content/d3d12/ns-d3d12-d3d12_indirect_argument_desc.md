@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_indirect_argument_desc.htm
 tech.root: direct3d12
 ms.assetid: 2B51E4B1-F48A-4937-A92D-6AE9449018B4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_INDIRECT_ARGUMENT_DESC, D3D12_INDIRECT_ARGUMENT_DESC structure, d3d12/D3D12_INDIRECT_ARGUMENT_DESC, direct3d12.d3d12_indirect_argument_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

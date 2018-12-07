@@ -7,7 +7,7 @@ old-location: security\ncryptiskeyhandle.htm
 tech.root: seccng
 ms.assetid: ad841c2e-8097-4b07-914e-8e7240d55585
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: NCryptIsKeyHandle, NCryptIsKeyHandle function [Security], ncrypt/NCryptIsKeyHandle, security.ncryptiskeyhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NCryptIsKeyHandle
-: 
 ---
 
 # NCryptIsKeyHandle function

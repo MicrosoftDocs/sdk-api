@@ -4,10 +4,10 @@ title: SymEnumLines function
 author: windows-sdk-content
 description: Enumerates all lines in the specified module.
 old-location: base\symenumlines.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: d518b320-e4db-4bd1-8221-583eb84c292c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SymEnumLines, SymEnumLines function, SymEnumLinesW, base.symenumlines, dbghelp/SymEnumLines, dbghelp/SymEnumLinesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.1 or later
-- apiref
-: 
-- 
-: 
-- SymEnumLines
-: 
 ---
 
 # SymEnumLines function

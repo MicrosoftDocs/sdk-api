@@ -7,7 +7,7 @@ old-location: xps\ixpsomimageresourcecollection_getat.htm
 tech.root: printdocs
 ms.assetid: 31d4989d-72bd-4065-a0d7-c1ba5bea8391
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMImageResourceCollection.GetAt, IXpsOMImageResourceCollection::GetAt, xps.ixpsomimageresourcecollection_getat, xpsobjectmodel/IXpsOMImageResourceCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMImageResourceCollection.GetAt
-: 
 ---
 
 # IXpsOMImageResourceCollection::GetAt

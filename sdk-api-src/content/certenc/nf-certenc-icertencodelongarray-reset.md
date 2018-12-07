@@ -4,10 +4,10 @@ title: ICertEncodeLongArray::Reset
 author: windows-sdk-content
 description: Specifies the size of the array in this object.
 old-location: security\icertencodelongarray_reset.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 4b5821e0-c81a-47b7-98b0-2a293967d8f6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CCertEncodeLongArray object [Security],Reset method, ICertEncodeLongArray interface [Security],Reset method, ICertEncodeLongArray.Reset, ICertEncodeLongArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeLongArray object, Reset method [Security],ICertEncodeLongArray interface, _certsrv_icertencodelongarray_reset, certenc/ICertEncodeLongArray::Reset, security.icertencodelongarray_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenc.h
-: 
-- ICertEncodeLongArray.Reset
-: 
 ---
 
 # ICertEncodeLongArray::Reset

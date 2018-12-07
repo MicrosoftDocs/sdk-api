@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTransformPattern_Rotate.htm
 tech.root: WinAuto
 ms.assetid: 97312397-dfea-435b-950d-6f346d5fa222
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Rotate method, IUIAutomationTransformPattern.Rotate, IUIAutomationTransformPattern::Rotate, Rotate, Rotate method [Windows Accessibility], Rotate method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Rotate, uiauto_IUIAutomationTransformPattern_Rotate, uiautomationclient/IUIAutomationTransformPattern::Rotate, winauto.uiauto_IUIAutomationTransformPattern_Rotate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationTransformPattern.Rotate
-: 
 ---
 
 # IUIAutomationTransformPattern::Rotate

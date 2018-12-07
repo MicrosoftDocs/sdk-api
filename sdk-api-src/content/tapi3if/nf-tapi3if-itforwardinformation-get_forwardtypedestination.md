@@ -4,10 +4,10 @@ title: ITForwardInformation::get_ForwardTypeDestination
 author: windows-sdk-content
 description: The get_ForwardTypeDestination method gets the destination for a forwarding mode.
 old-location: tapi3\itforwardinformation_get_forwardtypedestination.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 84a5737c-3bcd-4fdf-9a51-ef726fe71682
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_ForwardTypeDestination method, ITForwardInformation.get_ForwardTypeDestination, ITForwardInformation::get_ForwardTypeDestination, _tapi3_itforwardinformation_get_forwardtypedestination, get_ForwardTypeDestination, get_ForwardTypeDestination method [TAPI 2.2], get_ForwardTypeDestination method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_forwardtypedestination, tapi3if/ITForwardInformation::get_ForwardTypeDestination
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITForwardInformation.get_ForwardTypeDestination
-: 
 ---
 
 # ITForwardInformation::get_ForwardTypeDestination

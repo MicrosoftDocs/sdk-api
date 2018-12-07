@@ -7,7 +7,7 @@ old-location: magapi\magapi_magsetfullscreentransform.htm
 tech.root: magapi
 ms.assetid: B02C2A37-6BA6-4DF8-92C1-748BF7B25B96
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: MagSetFullscreenTransform, MagSetFullscreenTransform function [Magnification API], magapi.magapi_magsetfullscreentransform, magnification/MagSetFullscreenTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MagSetFullscreenTransform
-: 
 ---
 
 # MagSetFullscreenTransform function

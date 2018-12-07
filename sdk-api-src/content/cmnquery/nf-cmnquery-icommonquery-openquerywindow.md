@@ -7,7 +7,7 @@ old-location: ad\icommonquery_openquerywindow.htm
 tech.root: ad
 ms.assetid: 604c4d7a-1f85-4e5b-9879-be502c5c7bff
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: CFSTR_DSOBJECTNAMES, CFSTR_DSQUERYPARAMS, CFSTR_DSQUERYSCOPE, ICommonQuery interface [Active Directory],OpenQueryWindow method, ICommonQuery.OpenQueryWindow, ICommonQuery::OpenQueryWindow, OpenQueryWindow, OpenQueryWindow method [Active Directory], OpenQueryWindow method [Active Directory],ICommonQuery interface, _glines_icommonquery_openquerywindow, ad.icommonquery__openquerywindow, ad.icommonquery_openquerywindow, cmnquery/ICommonQuery::OpenQueryWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cmnquery.h
-: 
-- ICommonQuery.OpenQueryWindow
-: 
 ---
 
 # ICommonQuery::OpenQueryWindow
@@ -66,9 +58,9 @@ The <b>ICommonQuery::OpenQueryWindow</b> method displays the directory service q
 
 
 
-### -param hwndParent
+### -param hwndParent [in]
 
-TBD
+Contains the handle of the window to use as the parent to the query dialog box. This parameter can be <b>NULL</b> if no parent is specified.
 
 
 ### -param pQueryWnd [in]
@@ -77,19 +69,7 @@ Address of an
 <a href="https://msdn.microsoft.com/07ef2af1-230e-41d9-ad19-d002d0579d66">OPENQUERYWINDOW</a> structure that defines the query to perform and the characteristics of the query dialog.
 
 
-### -param ppDataObject
-
-TBD
-
-
-
-
-#### - hwdnParent [in]
-
-Contains the handle of the window to use as the parent to the query dialog box. This parameter can be <b>NULL</b> if no parent is specified.
-
-
-#### - ppDataObj [out]
+### -param ppDataObject [out]
 
 Address of an <a href="_ole_idataobject">IDataObject</a> interface pointer that receives the results of the query. This parameter only receives valid data if this method returns <b>S_OK</b>. This <b>IDataObject</b> supports the following clipboard formats.
 

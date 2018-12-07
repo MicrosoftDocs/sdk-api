@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2_get_productrevision.htm
 tech.root: imapi
 ms.assetid: 0d727937-8581-4001-96f2-f83795e1ee52
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_ProductRevision method, IDiscRecorder2.get_ProductRevision, IDiscRecorder2::get_ProductRevision, get_ProductRevision, get_ProductRevision method [IMAPI], get_ProductRevision method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_productrevision, imapi2/IDiscRecorder2::get_ProductRevision
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscRecorder2.get_ProductRevision
-: 
 ---
 
 # IDiscRecorder2::get_ProductRevision

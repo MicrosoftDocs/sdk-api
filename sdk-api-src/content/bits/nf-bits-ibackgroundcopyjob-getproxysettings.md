@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetProxySettings
 author: windows-sdk-content
 description: Retrieves the proxy information that the job uses to transfer the files.
 old-location: bits\ibackgroundcopyjob_getproxysettings.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: c2d0ec9b-eaa1-4f78-9ccc-4e91d045cd94
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProxySettings, GetProxySettings method [BITS], GetProxySettings method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetProxySettings method, IBackgroundCopyJob.GetProxySettings, IBackgroundCopyJob::GetProxySettings, _drz_ibackgroundcopyjob_getproxysettings, bits.ibackgroundcopyjob_getproxysettings, bits/IBackgroundCopyJob::GetProxySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.GetProxySettings
-: 
 ---
 
 # IBackgroundCopyJob::GetProxySettings
@@ -72,30 +64,18 @@ Specifies the proxy settings the job uses to transfer the files. For a list of p
 <a href="https://msdn.microsoft.com/en-us/library/Aa362807(v=VS.85).aspx">BG_JOB_PROXY_USAGE</a> enumeration.
 
 
-### -param pProxyList
-
-TBD
-
-
-### -param pProxyBypassList
-
-TBD
-
-
-
-
-#### - ppProxyBypassList [out]
-
-Null-terminated string that contains an optional list of host names or IP addresses, or both, that were not routed through the proxy. The list is space-delimited. For details on the format of the string, see the Listing the Proxy Bypass section of 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383996(v=VS.85).aspx">Enabling Internet Functionality</a>. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppProxyBypassList</i> when done.
-
-
-#### - ppProxyList [out]
+### -param pProxyList [out]
 
 Null-terminated string that contains one or more proxies to use to transfer files. The list is space-delimited. For details on the format of the string, see the Listing Proxy Servers section of 
 <a href="https://msdn.microsoft.com/en-us/library/Aa383996(v=VS.85).aspx">Enabling Internet Functionality</a>. Call the 
 <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppProxyList</i> when done.
+
+
+### -param pProxyBypassList [out]
+
+Null-terminated string that contains an optional list of host names or IP addresses, or both, that were not routed through the proxy. The list is space-delimited. For details on the format of the string, see the Listing the Proxy Bypass section of 
+<a href="https://msdn.microsoft.com/en-us/library/Aa383996(v=VS.85).aspx">Enabling Internet Functionality</a>. Call the 
+<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppProxyBypassList</i> when done.
 
 
 ## -returns

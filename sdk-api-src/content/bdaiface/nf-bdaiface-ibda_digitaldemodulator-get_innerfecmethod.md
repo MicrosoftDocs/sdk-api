@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator_get_innerfecmethod.htm
 tech.root: mstv
 ms.assetid: a245c9fa-6f1e-4aa6-a5bf-b9707244a9e2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_InnerFECMethod method, IBDA_DigitalDemodulator.get_InnerFECMethod, IBDA_DigitalDemodulator::get_InnerFECMethod, IBDA_DigitalDemodulatorget_InnerFECMethod, bdaiface/IBDA_DigitalDemodulator::get_InnerFECMethod, get_InnerFECMethod, get_InnerFECMethod method [Microsoft TV Technologies], get_InnerFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_innerfecmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdaiface.h
-: 
-- IBDA_DigitalDemodulator.get_InnerFECMethod
-: 
 ---
 
 # IBDA_DigitalDemodulator::get_InnerFECMethod

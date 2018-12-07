@@ -7,7 +7,7 @@ old-location: security\slactivateproduct.htm
 tech.root: SecSLApi
 ms.assetid: 14a2e84f-f5f7-4f17-8c7c-2cf580e14a26
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLActivateProduct, SLActivateProduct function [Security], security.slactivateproduct, slpublic/SLActivateProduct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SLActivateProduct
-: 
 ---
 
 # SLActivateProduct function

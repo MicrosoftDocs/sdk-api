@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_iasetprimitivetopology.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetprimitivetopology.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 574e830c-3db9-ca52-4b41-1b3e8224137a, IASetPrimitiveTopology, IASetPrimitiveTopology method [Direct3D 10], IASetPrimitiveTopology method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IASetPrimitiveTopology method, ID3D10Device.IASetPrimitiveTopology, ID3D10Device::IASetPrimitiveTopology, d3d10/ID3D10Device::IASetPrimitiveTopology, direct3d10.id3d10device_iasetprimitivetopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10.h
-: 
-- ID3D10Device.IASetPrimitiveTopology
-: 
 ---
 
 # ID3D10Device::IASetPrimitiveTopology

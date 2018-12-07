@@ -7,7 +7,7 @@ old-location: ad\ipersistquery_readstruct.htm
 tech.root: ad
 ms.assetid: 47d1b733-7e37-42f8-b344-909a6e48b381
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: IPersistQuery interface [Active Directory],ReadStruct method, IPersistQuery.ReadStruct, IPersistQuery::ReadStruct, ReadStruct, ReadStruct method [Active Directory], ReadStruct method [Active Directory],IPersistQuery interface, _glines_ipersistquery_readstruct, ad.ipersistquery__readstruct, ad.ipersistquery_readstruct, cmnquery/IPersistQuery::ReadStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cmnquery.h
-: 
-- IPersistQuery.ReadStruct
-: 
 ---
 
 # IPersistQuery::ReadStruct

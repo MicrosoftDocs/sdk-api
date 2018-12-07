@@ -7,7 +7,7 @@ old-location: lwef\iactivedesktop_setpattern.htm
 tech.root: lwef
 ms.assetid: ca66a200-dd12-454b-b449-feeae26941b6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],SetPattern method, IActiveDesktop.SetPattern, IActiveDesktop::SetPattern, SetPattern, SetPattern method [Legacy Windows Environment Features], SetPattern method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_SetPattern, lwef.iactivedesktop_setpattern, shell.iactivedesktop_setpattern, shlobj_core/IActiveDesktop::SetPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shlobj_core.h
-: 
-- IActiveDesktop.SetPattern
-: 
 ---
 
 # IActiveDesktop::SetPattern

@@ -4,10 +4,10 @@ title: "_HTTP_REQUEST_HEADERS"
 author: windows-sdk-content
 description: Contains headers sent with an HTTP request.
 old-location: http\http_request_headers.htm
-tech.root: Http
+tech.root: http
 ms.assetid: a87b9c9c-cba1-4453-a300-7af35da944c9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_REQUEST_HEADERS, HTTP_REQUEST_HEADERS, HTTP_REQUEST_HEADERS structure [HTTP], PHTTP_REQUEST_HEADERS, PHTTP_REQUEST_HEADERS structure pointer [HTTP], _HTTP_REQUEST_HEADERS, _http_http_request_headers, http.http_request_headers, http/HTTP_REQUEST_HEADERS, http/PHTTP_REQUEST_HEADERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_incomingque
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\incomingqueue.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxAccountFolders interface [Fax Service],IncomingQueue property, IFaxAccountFolders.IncomingQueue, IFaxAccountFolders.get_IncomingQueue, IFaxAccountFolders::IncomingQueue, IFaxAccountFolders::get_IncomingQueue, IncomingQueue property [Fax Service], IncomingQueue property [Fax Service],IFaxAccountFolders interface, _mfax_faxaccountfolders.incomingqueue, fax._mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_incomingqueue_cpp, fax._mfax_faxaccountfolders_incomingqueue, faxcomex/IFaxAccountFolders::IncomingQueue, faxcomex/IFaxAccountFolders::get_IncomingQueue, get_IncomingQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxAccountFolders.get_IncomingQueue
-: 
 ---
 
 # IFaxAccountFolders::get_IncomingQueue

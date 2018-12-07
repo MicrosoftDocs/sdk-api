@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10reflectshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10reflectshader.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D10ReflectShader, D3D10ReflectShader function [Direct3D 10], abc201df-57cf-fbbd-708b-94ffa50ba7d4, d3d10shader/D3D10ReflectShader, direct3d10.d3d10reflectshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- D3D10ReflectShader
-: 
 ---
 
 # D3D10ReflectShader function

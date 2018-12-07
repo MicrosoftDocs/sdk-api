@@ -4,10 +4,10 @@ title: IADsLocality
 author: windows-sdk-content
 description: The IADsLocality interface is a dual interface that inherits from IADs.
 old-location: adsi\iadslocality.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: fec0c8c2-b17f-49a0-9c97-260c98e71604
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsLocality, IADsLocality interface [ADSI], IADsLocality interface [ADSI],described, _ds_iadslocality, adsi.iadslocality, iads/IADsLocality
 ms.prod: windows-hardware
 ms.technology: windows-devices

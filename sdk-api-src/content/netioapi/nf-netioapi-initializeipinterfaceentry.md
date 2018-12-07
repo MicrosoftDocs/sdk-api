@@ -7,7 +7,7 @@ old-location: iphlp\initializeipinterfaceentry.htm
 tech.root: IpHlp
 ms.assetid: 5e7aed65-63e1-4e7b-bccf-9a2485212432
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: InitializeIpInterfaceEntry, InitializeIpInterfaceEntry function [IP Helper], iphlp.initializeipinterfaceentry, netioapi/InitializeIpInterfaceEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InitializeIpInterfaceEntry
-: 
 ---
 
 # InitializeIpInterfaceEntry function

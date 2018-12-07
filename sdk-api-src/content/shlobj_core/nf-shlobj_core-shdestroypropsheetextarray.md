@@ -7,7 +7,7 @@ old-location: shell\SHDestroyPropSheetExtArray.htm
 tech.root: shell
 ms.assetid: beb3c1b1-deef-440d-8cf7-f76b3f396efa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHDestroyPropSheetExtArray, SHDestroyPropSheetExtArray function [Windows Shell], _win32_SHDestroyPropSheetExtArray, shell.SHDestroyPropSheetExtArray, shlobj_core/SHDestroyPropSheetExtArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHDestroyPropSheetExtArray
-: 
 ---
 
 # SHDestroyPropSheetExtArray function

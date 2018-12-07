@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumclasses.htm
 tech.root: DHCP
 ms.assetid: 93f37424-1a81-477e-85da-359885e94349
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpEnumClasses, DhcpEnumClasses function [DHCP], dhcp.dhcpenumclasses, dhcpsapi/DhcpEnumClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpEnumClasses
-: 
 ---
 
 # DhcpEnumClasses function

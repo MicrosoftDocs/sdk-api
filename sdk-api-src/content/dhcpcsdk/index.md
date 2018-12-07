@@ -2,7 +2,7 @@
 UID: NA:dhcpcsdk
 ms.assetid: f91d8a2d-b3e9-3a2d-993d-73f64e008ee3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

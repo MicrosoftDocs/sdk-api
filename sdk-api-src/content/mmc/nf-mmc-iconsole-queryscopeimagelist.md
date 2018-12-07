@@ -4,10 +4,10 @@ title: IConsole::QueryScopeImageList
 author: windows-sdk-content
 description: Queries the console-provided scope pane image list.
 old-location: mmc\iconsole_queryscopeimagelist.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 42901F6C-F66E-4CB6-A457-1905C3912F15
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IConsole interface [MMC],QueryScopeImageList method, IConsole.QueryScopeImageList, IConsole::QueryScopeImageList, QueryScopeImageList, QueryScopeImageList method [MMC], QueryScopeImageList method [MMC],IConsole interface, mmc.iconsole_queryscopeimagelist, mmc/IConsole::QueryScopeImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IConsole.QueryScopeImageList
-: 
 ---
 
 # IConsole::QueryScopeImageList

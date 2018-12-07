@@ -4,10 +4,10 @@ title: SetCredentialsAttributesA function
 author: windows-sdk-content
 description: Sets the attributes of a credential, such as the name associated with the credential.
 old-location: security\setcredentialsattributes.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 419fb4f0-3dd1-4473-aeb2-8024355e0c1c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SetCredentialsAttributes, SetCredentialsAttributes function [Security], SetCredentialsAttributesA, SetCredentialsAttributesW, security.setcredentialsattributes, sspi/SetCredentialsAttributes, sspi/SetCredentialsAttributesA, sspi/SetCredentialsAttributesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetCredentialsAttributesA
-: 
 ---
 
 # SetCredentialsAttributesA function

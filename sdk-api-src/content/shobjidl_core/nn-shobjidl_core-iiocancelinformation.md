@@ -7,7 +7,7 @@ old-location: shell\IIOCancelInformation.htm
 tech.root: shell
 ms.assetid: fb030100-b0e8-497c-b9e1-338599aa3b0f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IIOCancelInformation, IIOCancelInformation interface [Windows Shell], IIOCancelInformation interface [Windows Shell],described, _shell_IIOCancelInformation, shell.IIOCancelInformation, shobjidl_core/IIOCancelInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

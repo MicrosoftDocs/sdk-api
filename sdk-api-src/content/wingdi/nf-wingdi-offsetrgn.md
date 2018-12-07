@@ -7,7 +7,7 @@ old-location: gdi\offsetrgn.htm
 tech.root: gdi
 ms.assetid: 5228c614-3278-4852-a867-7eed57359aef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: OffsetRgn, OffsetRgn function [Windows GDI], _win32_OffsetRgn, gdi.offsetrgn, wingdi/OffsetRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OffsetRgn
-: 
 ---
 
 # OffsetRgn function

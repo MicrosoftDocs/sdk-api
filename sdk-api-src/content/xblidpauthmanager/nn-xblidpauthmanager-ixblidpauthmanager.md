@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthmanager.htm
 tech.root: xblidp
 ms.assetid: BD421B26-241F-46C4-9B77-ADCFFBEA24B0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IXblIdpAuthManager, IXblIdpAuthManager interface, IXblIdpAuthManager interface,described, xblidp.ixblidpauthmanager, xblidpauthmanager/IXblIdpAuthManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

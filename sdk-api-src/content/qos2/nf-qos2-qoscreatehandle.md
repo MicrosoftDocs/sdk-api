@@ -7,7 +7,7 @@ old-location: qos\qoscreatehandle.htm
 tech.root: QOS
 ms.assetid: dcee0bed-dc6f-435d-b292-07e331f6cf5b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: QOSCreateHandle, QOSCreateHandle function [QOS], qos.qoscreatehandle, qos2/QOSCreateHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- QOSCreateHandle
-: 
 ---
 
 # QOSCreateHandle function

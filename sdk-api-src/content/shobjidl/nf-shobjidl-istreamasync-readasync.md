@@ -7,7 +7,7 @@ old-location: shell\IStreamAsync_ReadAsync.htm
 tech.root: shell
 ms.assetid: c0046a89-1427-465e-a5f3-2398ebff04f3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IStreamAsync interface [Windows Shell],ReadAsync method, IStreamAsync.ReadAsync, IStreamAsync::ReadAsync, ReadAsync, ReadAsync method [Windows Shell], ReadAsync method [Windows Shell],IStreamAsync interface, _shell_IStreamAsync_ReadAsync, shell.IStreamAsync_ReadAsync, shobjidl/IStreamAsync::ReadAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl.h
-: 
-- IStreamAsync.ReadAsync
-: 
 ---
 
 # IStreamAsync::ReadAsync

@@ -4,10 +4,10 @@ title: InterlockedAdd function
 author: windows-sdk-content
 description: Performs an atomic addition operation on the specified LONG values.
 old-location: base\interlockedadd.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: c3ff4c2f-ac84-4046-ac4e-600569b874be
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedAdd, InterlockedAdd function, base.interlockedadd, winnt/InterlockedAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InterlockedAdd
-: 
 ---
 
 # InterlockedAdd function

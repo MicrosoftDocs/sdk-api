@@ -4,10 +4,10 @@ title: IGPMCSECollection
 author: windows-sdk-content
 description: The IGPMCSECollection interface contains methods that enable applications to query a collection of client-side extensions (CSEs) when you use the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmcsecollection.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: e32c1c39-b817-4db6-ad76-b2e66b54d79d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPMCSECollection, IGPMCSECollection, IGPMCSECollection interface [GPMC], IGPMCSECollection interface [GPMC],described, _win32_igpmcsecollection, gpmc.igpmcsecollection, gpmgmt/IGPMCSECollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

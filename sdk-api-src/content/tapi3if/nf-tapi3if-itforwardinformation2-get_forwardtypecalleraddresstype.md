@@ -4,10 +4,10 @@ title: ITForwardInformation2::get_ForwardTypeCallerAddressType
 author: windows-sdk-content
 description: The get_ForwardTypeCallerAddressType method gets the caller address type for a given forwarding type.
 old-location: tapi3\itforwardinformation2_get_forwardtypecalleraddresstype.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 030d2b44-0c1d-488b-8cd9-e68ad6d26c6e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITForwardInformation2 interface [TAPI 2.2],get_ForwardTypeCallerAddressType method, ITForwardInformation2.get_ForwardTypeCallerAddressType, ITForwardInformation2::get_ForwardTypeCallerAddressType, _tapi3_itforwardinformation2_get_forwardtypecalleraddresstype, get_ForwardTypeCallerAddressType, get_ForwardTypeCallerAddressType method [TAPI 2.2], get_ForwardTypeCallerAddressType method [TAPI 2.2],ITForwardInformation2 interface, tapi3.itforwardinformation2_get_forwardtypecalleraddresstype, tapi3if/ITForwardInformation2::get_ForwardTypeCallerAddressType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITForwardInformation2.get_ForwardTypeCallerAddressType
-: 
 ---
 
 # ITForwardInformation2::get_ForwardTypeCallerAddressType

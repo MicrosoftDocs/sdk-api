@@ -4,10 +4,10 @@ title: ITDirectoryObjectConference::get_Protocol
 author: windows-sdk-content
 description: The get_Protocol method gets protocol identification.
 old-location: tapi3\itdirectoryobjectconference_get_protocol.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 2a9d1b8e-1ebc-4a67-87cf-f88aaf25c309
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Protocol method, ITDirectoryObjectConference.get_Protocol, ITDirectoryObjectConference::get_Protocol, _tapi3_itdirectoryobjectconference_get_protocol, get_Protocol, get_Protocol method [TAPI 2.2], get_Protocol method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Protocol, tapi3.itdirectoryobjectconference_get_protocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rend.h
-: 
-- ITDirectoryObjectConference.get_Protocol
-: 
 ---
 
 # ITDirectoryObjectConference::get_Protocol

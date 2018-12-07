@@ -7,7 +7,7 @@ old-location: wsw\wscloselistener.htm
 tech.root: wsw
 ms.assetid: 6023595a-ac52-4619-a824-df49da887fc5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsCloseListener, WsCloseListener function [Web Services for Windows], webservices/WsCloseListener, wsw.wscloselistener
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsCloseListener
-: 
 ---
 
 # WsCloseListener function

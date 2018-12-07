@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilatlongreport_getaltitudeerror.htm
 tech.root: locationapi
 ms.assetid: 313aefda-785c-43ce-a71c-cacfd929e27e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetAltitudeError, GetAltitudeError method [WinLocation], GetAltitudeError method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetAltitudeError method, ILatLongReport.GetAltitudeError, ILatLongReport::GetAltitudeError, WinLocation_COM_Ref.ilatlongreport_getaltitudeerror, locationapi/ILatLongReport::GetAltitudeError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- locationapi.h
-: 
-- ILatLongReport.GetAltitudeError
-: 
 ---
 
 # ILatLongReport::GetAltitudeError

@@ -4,10 +4,10 @@ title: IADsADSystemInfo::GetTrees
 author: windows-sdk-content
 description: Retrieves the DNS names of all the directory trees in the local computer's forest.
 old-location: adsi\iadsadsysteminfo_gettrees.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 1446d248-0adc-4542-b4af-c7139cee028f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTrees, GetTrees method [ADSI], GetTrees method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetTrees method, IADsADSystemInfo.GetTrees, IADsADSystemInfo::GetTrees, _ds_iadsadsysteminfo_gettrees, adsi.iadsadsysteminfo__gettrees, adsi.iadsadsysteminfo_gettrees, iads/IADsADSystemInfo::GetTrees
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsADSystemInfo.GetTrees
-: 
 ---
 
 # IADsADSystemInfo::GetTrees

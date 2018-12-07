@@ -7,7 +7,7 @@ old-location: automat\varui8frombool.htm
 tech.root: automat
 ms.assetid: d9e0625f-98a5-419e-9a1d-361ca6697a3a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarUI8FromBool, VarUI8FromBool function [Automation], _oa96_VarUI8FromBool, automat.varui8frombool, oleauto/VarUI8FromBool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarUI8FromBool
-: 
 ---
 
 # VarUI8FromBool function

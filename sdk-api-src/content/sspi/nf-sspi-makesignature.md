@@ -4,10 +4,10 @@ title: MakeSignature function
 author: windows-sdk-content
 description: Generates a cryptographic checksum of the message, and also includes sequencing information to prevent message loss or insertion.
 old-location: security\makesignature.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: d17824b0-6121-48a3-b19b-d4fae3e1348e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 0, 1, 2, 3, 4, MakeSignature, MakeSignature function [Security], _ssp_makesignature, security.makesignature, sspi/MakeSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MakeSignature
-: 
 ---
 
 # MakeSignature function

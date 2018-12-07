@@ -7,7 +7,7 @@ old-location: wsw\wssendmessage.htm
 tech.root: wsw
 ms.assetid: 143864db-0a09-4d8d-8b07-369a0555aa46
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsSendMessage, WsSendMessage function [Web Services for Windows], webservices/WsSendMessage, wsw.wssendmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsSendMessage
-: 
 ---
 
 # WsSendMessage function

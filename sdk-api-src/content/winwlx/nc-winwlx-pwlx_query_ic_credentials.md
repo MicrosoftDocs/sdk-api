@@ -4,10 +4,10 @@ title: PWLX_QUERY_IC_CREDENTIALS
 author: windows-sdk-content
 description: Called by a replacement GINA DLL if Terminal Services is enabled. GINA calls this function to determine whether the terminal server is using Internet connector licensing and to retrieve credentials information.
 old-location: security\wlxqueryinetconnectorcredentials.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: dfa12961-1552-4531-8f79-d44fb2a46e74
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PWLX_QUERY_IC_CREDENTIALS, PWLX_QUERY_IC_CREDENTIALS callback, WlxQueryInetConnectorCredentials, WlxQueryInetConnectorCredentials callback function [Security], _gina_wlxqueryinetconnectorcredentials, security.wlxqueryinetconnectorcredentials, winwlx/WlxQueryInetConnectorCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

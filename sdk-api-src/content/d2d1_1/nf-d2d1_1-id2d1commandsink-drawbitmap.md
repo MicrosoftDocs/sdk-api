@@ -4,10 +4,10 @@ title: ID2D1CommandSink::DrawBitmap
 author: windows-sdk-content
 description: Draws a bitmap to the render target.
 old-location: direct2d\id2d1commandsink_drawbitmap.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 95F73EBD-989E-4FB1-B1D2-86642E99FA3E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DrawBitmap, DrawBitmap method [Direct2D], DrawBitmap method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawBitmap method, ID2D1CommandSink.DrawBitmap, ID2D1CommandSink::DrawBitmap, d2d1_1/ID2D1CommandSink::DrawBitmap, direct2d.id2d1commandsink_drawbitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_1.h
-: 
-- ID2D1CommandSink.DrawBitmap
-: 
 ---
 
 # ID2D1CommandSink::DrawBitmap

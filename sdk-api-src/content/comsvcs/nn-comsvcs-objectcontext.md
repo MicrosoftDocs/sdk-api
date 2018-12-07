@@ -7,7 +7,7 @@ old-location: cos\objectcontext.htm
 tech.root: cossdk
 ms.assetid: 09a17e57-7224-43bc-93c7-16ab95ca2517
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ObjectContext, ObjectContext interface [COM+], ObjectContext interface [COM+],described, _cos_ObjectContext, comsvcs/ObjectContext, cos.objectcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

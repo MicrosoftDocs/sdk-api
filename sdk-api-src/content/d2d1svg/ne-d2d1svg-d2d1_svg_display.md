@@ -4,10 +4,10 @@ title: D2D1_SVG_DISPLAY
 author: windows-sdk-content
 description: Specifies a value for the SVG display property.
 old-location: direct2d\d2d1_svg_display.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 028B78B3-FCDA-4260-8720-3DC5C2557DE5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_SVG_DISPLAY, D2D1_SVG_DISPLAY enumeration [Direct2D], D2D1_SVG_DISPLAY_FORCE_DWORD, D2D1_SVG_DISPLAY_INLINE, D2D1_SVG_DISPLAY_NONE, d2d1svg/D2D1_SVG_DISPLAY, d2d1svg/D2D1_SVG_DISPLAY_FORCE_DWORD, d2d1svg/D2D1_SVG_DISPLAY_INLINE, d2d1svg/D2D1_SVG_DISPLAY_NONE, direct2d.d2d1_svg_display
 ms.prod: windows-hardware
 ms.technology: windows-devices

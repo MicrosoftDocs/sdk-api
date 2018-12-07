@@ -4,10 +4,10 @@ title: DateTime_GetSystemtime macro
 author: windows-sdk-content
 description: Gets the currently selected time from a date and time picker (DTP) control and places it in a specified SYSTEMTIME structure. You can use this macro, or send the DTM_GETSYSTEMTIME message explicitly.
 old-location: controls\DateTime_GetSystemtime.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getsystemtime.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DateTime_GetSystemtime, DateTime_GetSystemtime macro [Windows Controls], _win32_DateTime_GetSystemtime, _win32_DateTime_GetSystemtime_cpp, commctrl/DateTime_GetSystemtime, controls.DateTime_GetSystemtime, controls._win32_DateTime_GetSystemtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- DateTime_GetSystemtime
-: 
 ---
 
 # DateTime_GetSystemtime macro

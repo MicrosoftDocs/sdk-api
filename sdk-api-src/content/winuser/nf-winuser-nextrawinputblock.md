@@ -7,7 +7,7 @@ old-location: inputdev\nextrawinputblock.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputmacros\nextrawinputblock.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NEXTRAWINPUTBLOCK, NEXTRAWINPUTBLOCK macro [Keyboard and Mouse Input], _win32_NEXTRAWINPUTBLOCK, _win32_nextrawinputblock_cpp, inputdev.nextrawinputblock, winui._win32_nextrawinputblock, winuser/NEXTRAWINPUTBLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winuser.h
-: 
-- NEXTRAWINPUTBLOCK
-: 
 ---
 
 # NEXTRAWINPUTBLOCK macro

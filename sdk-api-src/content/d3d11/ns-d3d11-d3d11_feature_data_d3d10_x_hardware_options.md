@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_d3d10_x_hardware_options.htm
 tech.root: direct3d11
 ms.assetid: d41d1d78-21c1-4373-b579-6e051d6e8929
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS, D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS structure [Direct3D 11], cc86b8e7-d7f6-8b3b-2873-497eec6f351e, d3d11/D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS, direct3d11.d3d11_feature_data_d3d10_x_hardware_options
 ms.prod: windows-hardware
 ms.technology: windows-devices

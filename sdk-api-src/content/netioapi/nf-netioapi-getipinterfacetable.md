@@ -7,7 +7,7 @@ old-location: iphlp\getipinterfacetable.htm
 tech.root: IpHlp
 ms.assetid: 09f2bbff-3281-41ae-878f-61c5afa20ec5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpInterfaceTable, GetIpInterfaceTable function [IP Helper], iphlp.getipinterfacetable, netioapi/GetIpInterfaceTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetIpInterfaceTable
-: 
 ---
 
 # GetIpInterfaceTable function

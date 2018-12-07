@@ -4,10 +4,10 @@ title: UnlockUrlCacheEntryFile function
 author: windows-sdk-content
 description: Unlocks the cache entry that was locked while the file was retrieved for use from the cache.
 old-location: wininet\unlockurlcacheentryfile.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: ccc650dc-1759-4438-85d5-539c71d21a74
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: UnlockUrlCacheEntryFile, UnlockUrlCacheEntryFile function [WinINet], UnlockUrlCacheEntryFileA, UnlockUrlCacheEntryFileW, _inet_unlockurlcacheentryfile_function, wininet.unlockurlcacheentryfile, wininet/UnlockUrlCacheEntryFile, wininet/UnlockUrlCacheEntryFileA, wininet/UnlockUrlCacheEntryFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UnlockUrlCacheEntryFile
-: 
 ---
 
 # UnlockUrlCacheEntryFile function

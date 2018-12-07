@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaNodeFromHandleFunction.htm
 tech.root: WinAuto
 ms.assetid: 0a8c79e6-b825-40a1-b174-5428ab643514
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: UiaNodeFromHandle, UiaNodeFromHandle function [Windows Accessibility], uiauto.uiauto_UiaNodeFromHandleFunction, uiauto_UiaNodeFromHandleFunction, uiautomationcoreapi/UiaNodeFromHandle, winauto.uiauto_UiaNodeFromHandleFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UiaNodeFromHandle
-: 
 ---
 
 # UiaNodeFromHandle function

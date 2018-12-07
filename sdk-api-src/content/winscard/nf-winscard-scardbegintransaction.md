@@ -4,10 +4,10 @@ title: SCardBeginTransaction function
 author: windows-sdk-content
 description: Starts a transaction.
 old-location: security\scardbegintransaction.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 91f61060-4b0b-4890-9372-25ba0aacb642
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SCardBeginTransaction, SCardBeginTransaction function [Security], _smart_scardbegintransaction, security.scardbegintransaction, winscard/SCardBeginTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SCardBeginTransaction
-: 
 ---
 
 # SCardBeginTransaction function

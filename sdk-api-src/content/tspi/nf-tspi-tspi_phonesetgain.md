@@ -4,10 +4,10 @@ title: TSPI_phoneSetGain function
 author: windows-sdk-content
 description: The TSPI_phoneSetGain function sets the gain of the microphone of the specified hookswitch device to the specified gain level.
 old-location: tspi\tspi_phonesetgain.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: c7eb459d-6b59-4bc1-8f2b-c3c03a0a5bd9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_phoneSetGain, TSPI_phoneSetGain function [TAPI 2.2], _tspi_tspi_phonesetgain, tspi.tspi_phonesetgain, tspi/TSPI_phoneSetGain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TSPI_phoneSetGain
-: 
 ---
 
 # TSPI_phoneSetGain function

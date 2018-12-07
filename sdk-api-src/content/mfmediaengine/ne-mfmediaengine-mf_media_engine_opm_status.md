@@ -7,7 +7,7 @@ old-location: mf\mf_media_engine_opm_status.htm
 tech.root: medfound
 ms.assetid: 7C4D88F6-369B-4364-90C4-6D0F8DD1523B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MF_MEDIA_ENGINE_OPM_ESTABLISHED, MF_MEDIA_ENGINE_OPM_FAILED, MF_MEDIA_ENGINE_OPM_FAILED_BDA, MF_MEDIA_ENGINE_OPM_FAILED_UNSIGNED_DRIVER, MF_MEDIA_ENGINE_OPM_FAILED_VM, MF_MEDIA_ENGINE_OPM_NOT_REQUESTED, MF_MEDIA_ENGINE_OPM_STATUS, MF_MEDIA_ENGINE_OPM_STATUS enumeration [Media Foundation], mf.mf_media_engine_opm_status, mfmediaengine/MF_MEDIA_ENGINE_OPM_ESTABLISHED, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED_BDA, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED_UNSIGNED_DRIVER, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED_VM, mfmediaengine/MF_MEDIA_ENGINE_OPM_NOT_REQUESTED, mfmediaengine/MF_MEDIA_ENGINE_OPM_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices

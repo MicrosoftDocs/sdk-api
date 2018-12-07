@@ -7,7 +7,7 @@ old-location: mf\mfsetattributesize.htm
 tech.root: medfound
 ms.assetid: cf7b3cfe-fdce-417d-8c0b-198d026b8768
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MFSetAttributeSize, MFSetAttributeSize function [Media Foundation], cf7b3cfe-fdce-417d-8c0b-198d026b8768, mf.mfsetattributesize, mfapi/MFSetAttributeSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFSetAttributeSize
-: 
 ---
 
 # MFSetAttributeSize function

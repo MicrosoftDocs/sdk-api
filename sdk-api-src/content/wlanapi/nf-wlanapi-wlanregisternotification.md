@@ -7,7 +7,7 @@ old-location: nwifi\wlanregisternotification.htm
 tech.root: NativeWiFi
 ms.assetid: e24810da-ed3b-41c4-b7b1-290b01e26cd5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WLAN_NOTIFICATION_SOURCE_ACM, WLAN_NOTIFICATION_SOURCE_ALL, WLAN_NOTIFICATION_SOURCE_HNWK, WLAN_NOTIFICATION_SOURCE_IHV, WLAN_NOTIFICATION_SOURCE_MSM, WLAN_NOTIFICATION_SOURCE_NONE, WLAN_NOTIFICATION_SOURCE_ONEX, WLAN_NOTIFICATION_SOURCE_SECURITY, WlanRegisterNotification, WlanRegisterNotification function [NativeWIFI], nwifi.wlanregisternotification, wlanapi/WlanRegisterNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
-- apiref
-: 
-- 
-: 
-- WlanRegisterNotification
-: 
 ---
 
 # WlanRegisterNotification function

@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocmanagernotificationsink_onnetworkremove.htm
 tech.root: NativeWiFi
 ms.assetid: 9f325b86-3aff-4344-a154-86b74a922372
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnNetworkRemove method, IDot11AdHocManagerNotificationSink.OnNetworkRemove, IDot11AdHocManagerNotificationSink::OnNetworkRemove, OnNetworkRemove, OnNetworkRemove method [NativeWIFI], OnNetworkRemove method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnNetworkRemove, nwifi.idot11adhocmanagernotificationsink_onnetworkremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- adhoc.h
-: 
-- IDot11AdHocManagerNotificationSink.OnNetworkRemove
-: 
 ---
 
 # IDot11AdHocManagerNotificationSink::OnNetworkRemove

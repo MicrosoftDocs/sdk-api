@@ -4,10 +4,10 @@ title: IADsComputerOperations
 author: windows-sdk-content
 description: The IADsComputerOperations interface is a dual interface that inherits from IADs.
 old-location: adsi\iadscomputeroperations.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 9b0155ce-f313-43fa-8605-650aa8f38587
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsComputerOperations, IADsComputerOperations interface [ADSI], IADsComputerOperations interface [ADSI],described, _ds_iadscomputeroperations, adsi.iadscomputeroperations, iads/IADsComputerOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

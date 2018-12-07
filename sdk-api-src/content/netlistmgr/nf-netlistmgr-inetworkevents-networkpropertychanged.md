@@ -4,10 +4,10 @@ title: INetworkEvents::NetworkPropertyChanged
 author: windows-sdk-content
 description: The NetworkPropertyChanged method is called when a network property change is detected.
 old-location: nla\inetworkevents_networkpropertychanged.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: a84f49ee-9efd-450e-a6e6-3f140330a9d0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkPropertyChanged method, INetworkEvents.NetworkPropertyChanged, INetworkEvents::NetworkPropertyChanged, NetworkPropertyChanged, NetworkPropertyChanged method [Network Awareness], NetworkPropertyChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkPropertyChanged, nla.inetworkevents_networkpropertychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- netlistmgr.h
-: 
-- INetworkEvents.NetworkPropertyChanged
-: 
 ---
 
 # INetworkEvents::NetworkPropertyChanged

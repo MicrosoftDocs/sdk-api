@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_ads_0000_0000_0009"
 author: windows-sdk-content
 description: Represents an ADSI representation of Typed Name attribute syntax.
 old-location: adsi\ads_typedname.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 64ce748c-adfc-4beb-8507-ca6aece46ad0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PADS_TYPEDNAME, ADS_TYPEDNAME, ADS_TYPEDNAME structure [ADSI], PADS_TYPEDNAME, PADS_TYPEDNAME structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0009, _ds_ads_typedname, adsi.ads__typedname, adsi.ads_typedname, iads/ADS_TYPEDNAME, iads/PADS_TYPEDNAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices

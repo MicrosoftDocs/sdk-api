@@ -4,10 +4,10 @@ title: IADsNameTranslate::Get
 author: windows-sdk-content
 description: Retrieves the name of a directory object in the specified format.
 old-location: adsi\iadsnametranslate_get.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 6c8246a9-657e-4db1-ae8f-d9c0a2d41397
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],Get method, IADsNameTranslate.Get, IADsNameTranslate::Get, _ds_iadsnametranslate_get, adsi.iadsnametranslate__get, adsi.iadsnametranslate_get, iads/IADsNameTranslate::Get
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsNameTranslate.Get
-: 
 ---
 
 # IADsNameTranslate::Get

@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::put_AutoVolumeControlRepeatPeriod
 author: windows-sdk-content
 description: The put_AutoVolumeControlRepeatPeriod method sets the AutoVolumeControlRepeatPeriod property. The property controls the period, in milliseconds (ms), of button repeats when a volume button is held down.
 old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrolrepeatperiod.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 932b1092-6396-4ee9-84d7-1e28b09d132f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoVolumeControlRepeatPeriod method, ITAutomatedPhoneControl.put_AutoVolumeControlRepeatPeriod, ITAutomatedPhoneControl::put_AutoVolumeControlRepeatPeriod, _tapi3_itautomatedphonecontrol_put_autovolumecontrolrepeatperiod, put_AutoVolumeControlRepeatPeriod, put_AutoVolumeControlRepeatPeriod method [TAPI 2.2], put_AutoVolumeControlRepeatPeriod method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autovolumecontrolrepeatperiod, tapi3if/ITAutomatedPhoneControl::put_AutoVolumeControlRepeatPeriod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITAutomatedPhoneControl.put_AutoVolumeControlRepeatPeriod
-: 
 ---
 
 # ITAutomatedPhoneControl::put_AutoVolumeControlRepeatPeriod

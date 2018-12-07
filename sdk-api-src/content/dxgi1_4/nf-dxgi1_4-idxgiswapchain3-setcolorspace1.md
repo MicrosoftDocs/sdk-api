@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain3_setcolorspace1.htm
 tech.root: direct3ddxgi
 ms.assetid: 3B4391A5-C4E0-4D2E-BCEE-5DB635B98CFD
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDXGISwapChain3 interface [DXGI],SetColorSpace1 method, IDXGISwapChain3.SetColorSpace1, IDXGISwapChain3::SetColorSpace1, SetColorSpace1, SetColorSpace1 method [DXGI], SetColorSpace1 method [DXGI],IDXGISwapChain3 interface, direct3ddxgi.idxgiswapchain3_setcolorspace1, dxgi1_4/IDXGISwapChain3::SetColorSpace1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxgi1_4.h
-: 
-- IDXGISwapChain3.SetColorSpace1
-: 
 ---
 
 # IDXGISwapChain3::SetColorSpace1

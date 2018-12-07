@@ -4,10 +4,10 @@ title: linelocationentry_tag
 author: windows-sdk-content
 description: Describes a location used to provide an address translation context.
 old-location: tapi2\linelocationentry_str.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 8b4357d8-6dc9-4fc8-b164-79675ac71870
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPLINELOCATIONENTRY, LINELOCATIONENTRY, LINELOCATIONENTRY structure [TAPI 2.2], LPLINELOCATIONENTRY, LPLINELOCATIONENTRY structure pointer [TAPI 2.2], _tapi2_linelocationentry_str, linelocationentry_tag, tapi/LINELOCATIONENTRY, tapi/LPLINELOCATIONENTRY, tapi2.linelocationentry_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

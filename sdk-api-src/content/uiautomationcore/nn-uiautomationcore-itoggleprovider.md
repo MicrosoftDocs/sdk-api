@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IToggleProvider.htm
 tech.root: WinAuto
 ms.assetid: 85da8225-31b8-4b4d-81f4-ad98871b8e31
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IToggleProvider, IToggleProvider interface [Windows Accessibility], IToggleProvider interface [Windows Accessibility],described, uiauto.uiauto_IToggleProvider, uiauto_IToggleProvider, uiautomationcore/IToggleProvider, winauto.uiauto_IToggleProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IActionCollection::Remove
 author: windows-sdk-content
 description: Removes the specified action from the collection.
 old-location: taskschd\iactioncollection_remove.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 91332ec0-8225-421a-baae-1a106be157a9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IActionCollection interface [Task Scheduler],Remove method, IActionCollection.Remove, IActionCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],IActionCollection interface, actions [Task Scheduler],removing, taskschd.iactioncollection_remove, taskschd/IActionCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IActionCollection.Remove
-: 
 ---
 
 # IActionCollection::Remove

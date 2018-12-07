@@ -4,10 +4,10 @@ title: IOfflineFilesItem::IsMarkedForDeletion
 author: windows-sdk-content
 description: Determines whether an item has been deleted from the Offline Files cache.
 old-location: of\iofflinefilesitem_ismarkedfordeletion.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 03c0fec4-d320-4c46-a07c-3ebbec61cc54
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesItem interface [Offline Files],IsMarkedForDeletion method, IOfflineFilesItem.IsMarkedForDeletion, IOfflineFilesItem::IsMarkedForDeletion, IsMarkedForDeletion, IsMarkedForDeletion method [Offline Files], IsMarkedForDeletion method [Offline Files],IOfflineFilesItem interface, cscobj/IOfflineFilesItem::IsMarkedForDeletion, of.iofflinefilesitem_ismarkedfordeletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesItem.IsMarkedForDeletion
-: 
 ---
 
 # IOfflineFilesItem::IsMarkedForDeletion

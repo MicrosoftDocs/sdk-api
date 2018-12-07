@@ -7,7 +7,7 @@ old-location: multimedia\mciwndplayfrom.htm
 tech.root: Multimedia
 ms.assetid: b3efd0c9-d216-4b16-818d-76f3bb8f627e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MCIWndPlayFrom, MCIWndPlayFrom macro [Windows Multimedia], _win32_MCIWndPlayFrom, multimedia.mciwndplayfrom, vfw/MCIWndPlayFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- MCIWndPlayFrom
-: 
 ---
 
 # MCIWndPlayFrom macro

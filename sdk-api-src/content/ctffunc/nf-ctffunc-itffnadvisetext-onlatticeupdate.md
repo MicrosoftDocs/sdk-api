@@ -7,7 +7,7 @@ old-location: tsf\itffnadvisetext_onlatticeupdate.htm
 tech.root: TSF
 ms.assetid: c58f3d2f-ad74-43a7-a8a8-65d65d603611
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfFnAdviseText interface [Text Services Framework],OnLatticeUpdate method, ITfFnAdviseText.OnLatticeUpdate, ITfFnAdviseText::OnLatticeUpdate, OnLatticeUpdate, OnLatticeUpdate method [Text Services Framework], OnLatticeUpdate method [Text Services Framework],ITfFnAdviseText interface, _tsf_itffnadvisetext_onlatticeupdate_ref, ctffunc/ITfFnAdviseText::OnLatticeUpdate, tsf.itffnadvisetext_onlatticeupdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctffunc.h
-: 
-- ITfFnAdviseText.OnLatticeUpdate
-: 
 ---
 
 # ITfFnAdviseText::OnLatticeUpdate

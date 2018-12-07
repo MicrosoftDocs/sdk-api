@@ -4,10 +4,10 @@ title: InterlockedIncrement function
 author: windows-sdk-content
 description: Increments (increases by one) the value of the specified 32-bit variable as an atomic operation.
 old-location: base\interlockedincrement.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 87eda7fb-966d-4630-9da6-8933b53daadd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedIncrement, InterlockedIncrement function, _win32_interlockedincrement, base.interlockedincrement, winnt/InterlockedIncrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InterlockedIncrement
-: 
 ---
 
 # InterlockedIncrement function

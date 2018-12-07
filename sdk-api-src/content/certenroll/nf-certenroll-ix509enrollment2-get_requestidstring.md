@@ -4,10 +4,10 @@ title: IX509Enrollment2::get_RequestIdString
 author: windows-sdk-content
 description: Retrieves a string that contains a unique identifier for the certificate request sent to the certification enrollment server (CES).
 old-location: security\ix509enrollment2_requestidstring.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a1269b0d-6b55-47ba-bca8-610c1032ecc4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509Enrollment2 interface [Security],RequestIdString property, IX509Enrollment2.RequestIdString, IX509Enrollment2.get_RequestIdString, IX509Enrollment2::RequestIdString, IX509Enrollment2::get_RequestIdString, RequestIdString property [Security], RequestIdString property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::RequestIdString, certenroll/IX509Enrollment2::get_RequestIdString, get_RequestIdString, security.ix509enrollment2_requestidstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509Enrollment2.get_RequestIdString
-: 
 ---
 
 # IX509Enrollment2::get_RequestIdString

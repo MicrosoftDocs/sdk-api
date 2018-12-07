@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt64.htm
 tech.root: properties
 ms.assetid: 8fa8bfe9-b9a6-4292-b303-621ef9d8aa4d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InitVariantFromUInt64, InitVariantFromUInt64 function [Windows Properties], _shell_InitVariantFromUInt64, properties.InitVariantFromUInt64, propvarutil/InitVariantFromUInt64, shell.InitVariantFromUInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- InitVariantFromUInt64
-: 
 ---
 
 # InitVariantFromUInt64 function

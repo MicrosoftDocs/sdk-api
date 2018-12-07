@@ -4,10 +4,10 @@ title: FhServiceReloadConfiguration function
 author: windows-sdk-content
 description: This function causes the File History Service to reload the current user’s File History configuration files.
 old-location: winprog\fhservicereloadconfiguration.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: DEFD729F-ED84-4C6A-8014-E986C2EB2767
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FhServiceReloadConfiguration, FhServiceReloadConfiguration function [Windows API], fhsvcctl/FhServiceReloadConfiguration, winprog.fhservicereloadconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FhServiceReloadConfiguration
-: 
 ---
 
 # FhServiceReloadConfiguration function

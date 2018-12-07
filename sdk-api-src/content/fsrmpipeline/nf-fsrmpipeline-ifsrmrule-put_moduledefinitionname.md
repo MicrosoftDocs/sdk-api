@@ -4,10 +4,10 @@ title: IFsrmRule::put_ModuleDefinitionName
 author: windows-sdk-content
 description: The name of the module definition that you want to run this rule.
 old-location: fsrm\ifsrmrule_moduledefinitionname.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: b003b31b-fe40-446d-9db8-619dfcecc6c7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],ModuleDefinitionName property, IFsrmRule.ModuleDefinitionName, IFsrmRule.put_ModuleDefinitionName, IFsrmRule::ModuleDefinitionName, IFsrmRule::get_ModuleDefinitionName, IFsrmRule::put_ModuleDefinitionName, ModuleDefinitionName property [File Server Resource Manager], ModuleDefinitionName property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_moduledefinitionname, fsrm.ifsrmrule_moduledefinitionname, fsrmpipeline/IFsrmRule::ModuleDefinitionName, fsrmpipeline/IFsrmRule::get_ModuleDefinitionName, fsrmpipeline/IFsrmRule::put_ModuleDefinitionName, put_ModuleDefinitionName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmpipeline.h
-: 
-- IFsrmRule.put_ModuleDefinitionName
-: 
 ---
 
 # IFsrmRule::put_ModuleDefinitionName

@@ -7,7 +7,7 @@ old-location: mstv\imsvidtuner_put_tuningspace.htm
 tech.root: mstv
 ms.assetid: b1da0078-0c5e-439e-9419-670e9e0f812c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],put_TuningSpace method, IMSVidTuner.put_TuningSpace, IMSVidTuner::put_TuningSpace, IMSVidTunerput_TuningSpace, mstv.imsvidtuner_put_tuningspace, put_TuningSpace, put_TuningSpace method [Microsoft TV Technologies], put_TuningSpace method [Microsoft TV Technologies],IMSVidTuner interface, segment/IMSVidTuner::put_TuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidTuner.put_TuningSpace
-: 
 ---
 
 # IMSVidTuner::put_TuningSpace

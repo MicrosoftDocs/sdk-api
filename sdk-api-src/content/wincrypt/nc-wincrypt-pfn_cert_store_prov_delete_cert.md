@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_DELETE_CERT
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertDeleteCertificateFromStore before deleting a certificate from the store.
 old-location: security\certstoreprovdeletecertcallback.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 0ae64bbc-05f6-4fc2-a05d-895654b4b97d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CertStoreProvDeleteCertCallback, PFN_CERT_STORE_PROV_DELETE_CERT, PFN_CERT_STORE_PROV_DELETE_CERT callback, PFN_CERT_STORE_PROV_DELETE_CERT callback function [Security], _crypto2_certstoreprovdeletecertcallback, security.certstoreprovdeletecertcallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT
 ms.prod: windows-hardware
 ms.technology: windows-devices

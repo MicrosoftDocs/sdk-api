@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcenotificationex_notifyclientconnectionstatech
 tech.root: termserv
 ms.assetid: 79f59e18-f9ca-4e64-b8a1-8b0dd2b2715e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotificationEx interface [Remote Desktop Services],NotifyClientConnectionStateChangeEx method, ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx, ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx, NotifyClientConnectionStateChangeEx, NotifyClientConnectionStateChangeEx method [Remote Desktop Services], NotifyClientConnectionStateChangeEx method [Remote Desktop Services],ITsSbResourceNotificationEx interface, sbtsv/ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx, termserv.itssbresourcenotificationex_notifyclientconnectionstatechangeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbtsv.h
-: 
-- ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx
-: 
 ---
 
 # ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx

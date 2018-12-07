@@ -4,10 +4,10 @@ title: GetNumaAvailableMemoryNode function
 author: windows-sdk-content
 description: Retrieves the amount of memory available in the specified node.
 old-location: base\getnumaavailablememorynode.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 8db45ec1-fa3c-4395-8986-817e8b137a8a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetNumaAvailableMemoryNode, GetNumaAvailableMemoryNode function, _win32_getnumaavailablememorynode, base.getnumaavailablememorynode, winbase/GetNumaAvailableMemoryNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetNumaAvailableMemoryNode
-: 
 ---
 
 # GetNumaAvailableMemoryNode function

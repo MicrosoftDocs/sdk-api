@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_SetPageUnit_unit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setpageunit.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Graphics class [GDI+],SetPageUnit method, Graphics.SetPageUnit, Graphics::SetPageUnit, SetPageUnit, SetPageUnit method [GDI+], SetPageUnit method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetPageUnit_unit_, gdiplus._gdiplus_CLASS_Graphics_SetPageUnit_unit_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusgraphics.h
-: 
-- Graphics.SetPageUnit
-: 
 req.product: GDI+ 1.0
 ---
 

@@ -4,10 +4,10 @@ title: IOfflineFilesProgress::QueryAbort
 author: windows-sdk-content
 description: May be called during lengthy operations to determine if the operation should be canceled.
 old-location: of\iofflinefilesprogress_queryabort.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 24b95898-0fe6-420b-83f2-ac77f493aeab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesProgress interface [Offline Files],QueryAbort method, IOfflineFilesProgress.QueryAbort, IOfflineFilesProgress::QueryAbort, QueryAbort, QueryAbort method [Offline Files], QueryAbort method [Offline Files],IOfflineFilesProgress interface, cscobj/IOfflineFilesProgress::QueryAbort, of.iofflinefilesprogress_queryabort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesProgress.QueryAbort
-: 
 ---
 
 # IOfflineFilesProgress::QueryAbort

@@ -7,7 +7,7 @@ old-location: snmp\snmputilasnanyfree.htm
 tech.root: SNMP
 ms.assetid: b18c3722-398e-4659-ab1c-edd09d5c220d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpUtilAsnAnyFree, SnmpUtilAsnAnyFree function [SNMP], _snmp_snmputilasnanyfree, snmp.snmputilasnanyfree, snmp/SnmpUtilAsnAnyFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpUtilAsnAnyFree
-: 
 ---
 
 # SnmpUtilAsnAnyFree function

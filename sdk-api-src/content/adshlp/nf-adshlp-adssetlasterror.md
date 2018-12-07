@@ -4,10 +4,10 @@ title: ADsSetLastError function
 author: windows-sdk-content
 description: The ADsSetLastError sets the last-error code value for the calling thread.
 old-location: adsi\adssetlasterror.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: c9433af7-2ca5-492a-9b8e-9dfedb5e4d9d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADsSetLastError, ADsSetLastError function [ADSI], _ds_adssetlasterror, adshlp/ADsSetLastError, adsi.adssetlasterror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ADsSetLastError
-: 
 ---
 
 # ADsSetLastError function

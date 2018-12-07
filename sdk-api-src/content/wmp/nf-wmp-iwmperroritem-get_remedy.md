@@ -7,7 +7,7 @@ old-location: wmp\iwmperroritem_get_remedy.htm
 tech.root: WMP
 ms.assetid: f37ec43a-cf58-4e90-9b2a-aef8afc30744
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_remedy method, IWMPErrorItem.get_remedy, IWMPErrorItem::get_remedy, IWMPErrorItemget_remedy, get_remedy, get_remedy method [Windows Media Player], get_remedy method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_remedy, wmp/IWMPErrorItem::get_remedy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmp.h
-: 
-- IWMPErrorItem.get_remedy
-: 
 ---
 
 # IWMPErrorItem::get_remedy

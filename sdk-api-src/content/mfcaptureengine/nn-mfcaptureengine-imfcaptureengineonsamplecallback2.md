@@ -7,7 +7,7 @@ old-location: mf\imfcaptureengineonsamplecallback2.htm
 tech.root: medfound
 ms.assetid: 0899e558-df9e-4060-970c-af0bd26ed5ce
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFCaptureEngineOnSampleCallback2, IMFCaptureEngineOnSampleCallback2 interface [Media Foundation], IMFCaptureEngineOnSampleCallback2 interface [Media Foundation],described, mf.imfcaptureengineonsamplecallback2, mfcaptureengine/IMFCaptureEngineOnSampleCallback2
 ms.prod: windows-hardware
 ms.technology: windows-devices

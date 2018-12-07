@@ -4,10 +4,10 @@ title: IRichEditOleCallback::GetDragDropEffect
 author: windows-sdk-content
 description: Allows the client to specify the effects of a drop operation.
 old-location: controls\IRichEditOleCallback_GetDragDropEffect.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetdragdropeffect.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetDragDropEffect, GetDragDropEffect method [Windows Controls], GetDragDropEffect method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetDragDropEffect method, IRichEditOleCallback.GetDragDropEffect, IRichEditOleCallback::GetDragDropEffect, _win32_IRichEditOleCallback_GetDragDropEffect, _win32_IRichEditOleCallback_GetDragDropEffect_cpp, controls.IRichEditOleCallback_GetDragDropEffect, controls._win32_IRichEditOleCallback_GetDragDropEffect, richole/IRichEditOleCallback::GetDragDropEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- richole.h
-: 
-- IRichEditOleCallback.GetDragDropEffect
-: 
 ---
 
 # IRichEditOleCallback::GetDragDropEffect

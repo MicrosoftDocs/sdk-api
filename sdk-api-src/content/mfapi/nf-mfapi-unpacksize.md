@@ -7,7 +7,7 @@ old-location: mf\unpacksize.htm
 tech.root: medfound
 ms.assetid: A98C2908-E566-4E2F-BED8-10C7D649F8B2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: UnpackSize, UnpackSize function [Media Foundation], mf.unpacksize, mfapi/UnpackSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UnpackSize
-: 
 ---
 
 # UnpackSize function

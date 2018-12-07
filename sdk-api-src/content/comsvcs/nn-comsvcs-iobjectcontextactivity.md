@@ -7,7 +7,7 @@ old-location: cos\iobjectcontextactivity.htm
 tech.root: cossdk
 ms.assetid: b3cdd835-60fd-414c-9b60-b15c07b11f34
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IObjectContextActivity, IObjectContextActivity interface [COM+], IObjectContextActivity interface [COM+],described, _cos_IObjectContextActivity, comsvcs/IObjectContextActivity, cos.iobjectcontextactivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iconfigavimux.htm
 tech.root: DirectShow
 ms.assetid: 4cc3cdeb-ebc5-46e1-8cc4-84b40e91323b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IConfigAviMux, IConfigAviMux interface [DirectShow], IConfigAviMux interface [DirectShow],described, IConfigAviMuxInterface, dshow.iconfigavimux, strmif/IConfigAviMux
 ms.prod: windows-hardware
 ms.technology: windows-devices

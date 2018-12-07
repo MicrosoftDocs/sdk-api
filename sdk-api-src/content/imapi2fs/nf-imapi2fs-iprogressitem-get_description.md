@@ -7,7 +7,7 @@ old-location: imapi\iprogressitem_get_description.htm
 tech.root: imapi
 ms.assetid: 72da165f-a875-4f26-a2ba-701ad0a4a9d1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IProgressItem interface [IMAPI],get_Description method, IProgressItem.get_Description, IProgressItem::get_Description, get_Description, get_Description method [IMAPI], get_Description method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_description, imapi2fs/IProgressItem::get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2fs.h
-: 
-- IProgressItem.get_Description
-: 
 ---
 
 # IProgressItem::get_Description

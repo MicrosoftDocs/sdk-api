@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui.htm
 tech.root: WMP
 ms.assetid: f292a3e6-87bf-4e68-8737-f7d6351c4ff4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPPluginUI, IWMPPluginUI interface [Windows Media Player], IWMPPluginUI interface [Windows Media Player],described, IWMPPluginUIInterface, wmp.iwmppluginui, wmpplug/IWMPPluginUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

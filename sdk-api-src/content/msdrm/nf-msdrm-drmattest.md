@@ -7,7 +7,7 @@ old-location: rm\drmattest.htm
 tech.root: AdRms_Sdk
 ms.assetid: f0975845-d609-4f7a-a663-6481334c983d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMAttest, DRMAttest function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAttest, rm.drmattest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DRMAttest
-: 
 req.product: Rights Management Services client 1.0 or later
 ---
 

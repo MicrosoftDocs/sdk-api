@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordservicetype.htm
 tech.root: mstv
 ms.assetid: 8975a42e-69f8-43b8-8c02-2f03a4dde29f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordServiceType, GetRecordServiceType method [Microsoft TV Technologies], GetRecordServiceType method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordServiceType method, IATSC_VCT.GetRecordServiceType, IATSC_VCT::GetRecordServiceType, IATSC_VCTGetRecordServiceType, atscpsipparser/IATSC_VCT::GetRecordServiceType, mstv.iatsc_vct_getrecordservicetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- atscpsipparser.h
-: 
-- IATSC_VCT.GetRecordServiceType
-: 
 ---
 
 # IATSC_VCT::GetRecordServiceType

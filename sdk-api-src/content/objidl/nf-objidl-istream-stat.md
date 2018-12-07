@@ -4,10 +4,10 @@ title: IStream::Stat
 author: windows-sdk-content
 description: The Stat method retrieves the STATSTG structure for this stream.
 old-location: stg\istream_stat.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: c22ab396-dbc5-43a0-8448-35a2c094464f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IStream interface [Structured Storage],Stat method, IStream.Stat, IStream::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IStream interface, _stg_istream_stat, objidl/IStream::Stat, stg.istream_stat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- IStream.Stat
-: 
 ---
 
 # IStream::Stat

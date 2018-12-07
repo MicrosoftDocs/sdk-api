@@ -4,10 +4,10 @@ title: IDataCollector::get_DataCollectorSet
 author: windows-sdk-content
 description: Retrieves the data collector set to which this data collector belongs.
 old-location: pla\idatacollector_datacollectorset.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: d4449953-b982-474b-ac35-b03e39db48c9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DataCollectorSet property [PLA], DataCollectorSet property [PLA],IDataCollector interface, IDataCollector interface [PLA],DataCollectorSet property, IDataCollector.DataCollectorSet, IDataCollector.get_DataCollectorSet, IDataCollector::DataCollectorSet, IDataCollector::get_DataCollectorSet, base.idatacollector_datacollectorset, get_DataCollectorSet, pla.idatacollector_datacollectorset, pla/IDataCollector::DataCollectorSet, pla/IDataCollector::get_DataCollectorSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollector.get_DataCollectorSet
-: 
 ---
 
 # IDataCollector::get_DataCollectorSet

@@ -4,10 +4,10 @@ title: IX509Enrollment::InitializeFromTemplateName
 author: windows-sdk-content
 description: Initializes the enrollment object from a template common name (CN).
 old-location: security\ix509enrollment_initializefromtemplatename_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 44a934f4-9ae9-4f52-9d44-f5fcf30f3837
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509Enrollment interface [Security],InitializeFromTemplateName method, IX509Enrollment.InitializeFromTemplateName, IX509Enrollment::InitializeFromTemplateName, InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InitializeFromTemplateName, security.ix509enrollment_initializefromtemplatename_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509Enrollment.InitializeFromTemplateName
-: 
 ---
 
 # IX509Enrollment::InitializeFromTemplateName

@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncproviderinfos_skip.htm
 tech.root: winsync
 ms.assetid: da59a26a-8df3-4a19-b771-6fd11f69576e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumSyncProviderInfos interface [Windows Sync],Skip method, IEnumSyncProviderInfos.Skip, IEnumSyncProviderInfos::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSyncProviderInfos interface, syncregistration/IEnumSyncProviderInfos::Skip, winsync.ienumsyncproviderinfos_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- syncregistration.h
-: 
-- IEnumSyncProviderInfos.Skip
-: 
 ---
 
 # IEnumSyncProviderInfos::Skip

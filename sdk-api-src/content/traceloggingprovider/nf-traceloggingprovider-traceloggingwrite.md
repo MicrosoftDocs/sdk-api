@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwrite.htm
 tech.root: tracelogging
 ms.assetid: BFBC6802-64DC-478E-B09D-F550135994AB
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: TraceLoggingWrite, TraceLoggingWrite macro, tracelogging.traceloggingwrite, traceloggingprovider/TraceLoggingWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- traceloggingprovider.h
-: 
-- TraceLoggingWrite
-: 
 ---
 
 # TraceLoggingWrite macro

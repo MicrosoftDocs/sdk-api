@@ -7,7 +7,7 @@ old-location: security\slsetcurrentproductkey.htm
 tech.root: SecSLApi
 ms.assetid: a6490a89-9280-4b7d-8ea0-afa80c0a03f8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLSetCurrentProductKey, SLSetCurrentProductKey function [Security], security.slsetcurrentproductkey, slpublic/SLSetCurrentProductKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SLSetCurrentProductKey
-: 
 ---
 
 # SLSetCurrentProductKey function

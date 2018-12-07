@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteLocalizedStrings_GetCount.htm
 tech.root: DirectWrite
 ms.assetid: 5aafda50-327d-4fee-9c2b-fb3f23482c60
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [Direct Write], GetCount method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],GetCount method, IDWriteLocalizedStrings.GetCount, IDWriteLocalizedStrings::GetCount, directwrite.IDWriteLocalizedStrings_GetCount, dwrite/IDWriteLocalizedStrings::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteLocalizedStrings.GetCount
-: 
 ---
 
 # IDWriteLocalizedStrings::GetCount

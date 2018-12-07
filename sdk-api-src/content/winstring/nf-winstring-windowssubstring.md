@@ -7,7 +7,7 @@ old-location: winrt\windowssubstring.htm
 tech.root: WinRT
 ms.assetid: 15DB3383-D7EC-4047-A1B8-90F8A47428EE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WindowsSubstring, WindowsSubstring function [Windows Runtime], winrt.windowssubstring, winstring/WindowsSubstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WindowsSubstring
-: 
 ---
 
 # WindowsSubstring function

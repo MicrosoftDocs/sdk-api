@@ -7,7 +7,7 @@ old-location: com\ienumconnectionpoints_next.htm
 tech.root: com
 ms.assetid: 954bd587-75ce-4216-85c9-f1382414a979
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumConnectionPoints interface [COM],Next method, IEnumConnectionPoints.Next, IEnumConnectionPoints::Next, Next, Next method [COM], Next method [COM],IEnumConnectionPoints interface, _com_ienumconnectionpoints_next, com.ienumconnectionpoints_next, ocidl/IEnumConnectionPoints::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ocidl.h
-: 
-- IEnumConnectionPoints.Next
-: 
 ---
 
 # IEnumConnectionPoints::Next
@@ -71,28 +63,16 @@ Retrieves the specified number of items in the enumeration sequence.
 The number of items to be retrieved. If there are fewer than the requested number of items left in the sequence, this method retrieves the remaining elements.
 
 
-### -param ppCP
-
-TBD
-
-
-### -param pcFetched
-
-TBD
-
-
-
-
-#### - lpcFetched [out]
-
-The number of items that were retrieved. This parameter is always less than or equal to the number of items requested.
-
-
-#### - rgpcn [out]
+### -param ppCP [out]
 
 An array of enumerated items.
 
 The enumerator is responsible for calling <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a>, and the caller is responsible for calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> through each pointer enumerated. If <i>cConnections</i> is greater than 1, the caller must also pass a non-NULL pointer passed to <i>lpcFetched</i> to know how many pointers to release.
+
+
+### -param pcFetched [out]
+
+The number of items that were retrieved. This parameter is always less than or equal to the number of items requested.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: winstation\getprocesswindowstation.htm
 tech.root: winstation
 ms.assetid: f8929122-d277-4260-b2a7-5e76eb3ca876
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProcessWindowStation, GetProcessWindowStation function [Windows Stations and Desktops], _win32_getprocesswindowstation, base.getprocesswindowstation, winstation.getprocesswindowstation, winuser/GetProcessWindowStation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetProcessWindowStation
-: 
 ---
 
 # GetProcessWindowStation function

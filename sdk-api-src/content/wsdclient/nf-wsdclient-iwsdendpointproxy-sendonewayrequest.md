@@ -4,10 +4,10 @@ title: IWSDEndpointProxy::SendOneWayRequest
 author: windows-sdk-content
 description: Sends a one-way request message.
 old-location: ncd\iwsdendpointproxy_sendonewayrequest.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: e610c68f-1fce-42fa-8527-8ca2d9267c90
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDEndpointProxy interface,SendOneWayRequest method, IWSDEndpointProxy.SendOneWayRequest, IWSDEndpointProxy::SendOneWayRequest, SendOneWayRequest, SendOneWayRequest method, SendOneWayRequest method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendonewayrequest, wsdclient/IWSDEndpointProxy::SendOneWayRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdclient.h
-: 
-- IWSDEndpointProxy.SendOneWayRequest
-: 
 ---
 
 # IWSDEndpointProxy::SendOneWayRequest

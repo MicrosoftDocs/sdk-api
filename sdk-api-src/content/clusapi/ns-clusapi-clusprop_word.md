@@ -4,10 +4,10 @@ title: CLUSPROP_WORD
 author: windows-sdk-content
 description: Describes numeric data.
 old-location: mscs\clusprop_word.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: ba09290b-171b-45cf-a367-485f7322ebef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCLUSPROP_WORD, CLUSPROP_WORD, CLUSPROP_WORD structure [Failover Cluster], PCLUSPROP_WORD, PCLUSPROP_WORD structure pointer [Failover Cluster], _wolf_clusprop_word, clusapi/CLUSPROP_WORD, clusapi/PCLUSPROP_WORD, mscs.clusprop_word"
 ms.prod: windows-hardware
 ms.technology: windows-devices

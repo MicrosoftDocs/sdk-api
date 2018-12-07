@@ -4,10 +4,10 @@ title: RpcSmClientFree function
 author: windows-sdk-content
 description: The RpcSmClientFree function frees memory returned from a client stub.
 old-location: rpc\rpcsmclientfree.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: b3e9a526-7b78-49a6-9550-e3f682cecfb8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RpcSmClientFree, RpcSmClientFree function [RPC], _rpc_rpcsmclientfree, rpc.rpcsmclientfree, rpcndr/RpcSmClientFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcSmClientFree
-: 
 ---
 
 # RpcSmClientFree function

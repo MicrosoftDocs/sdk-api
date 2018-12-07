@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_pushdenyallretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 104C5BAD-D1FF-47EC-A1FA-C4B32EA4DFB6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushDenyAllRetrievalFilter method, IDXGIInfoQueue.PushDenyAllRetrievalFilter, IDXGIInfoQueue::PushDenyAllRetrievalFilter, PushDenyAllRetrievalFilter, PushDenyAllRetrievalFilter method [DXGI], PushDenyAllRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushdenyallretrievalfilter, dxgidebug/IDXGIInfoQueue::PushDenyAllRetrievalFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxgidebug.h
-: 
-- IDXGIInfoQueue.PushDenyAllRetrievalFilter
-: 
 ---
 
 # IDXGIInfoQueue::PushDenyAllRetrievalFilter

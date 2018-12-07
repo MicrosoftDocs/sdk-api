@@ -4,10 +4,10 @@ title: ClusterResourceTypeCloseEnum function
 author: windows-sdk-content
 description: Closes a resource type enumeration handle.
 old-location: mscs\clusterresourcetypecloseenum.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: c6524604-7a73-414c-95bb-dce9524f3295
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterResourceTypeCloseEnum, ClusterResourceTypeCloseEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM function [Failover Cluster], _wolf_clusterresourcetypecloseenum, clusapi/ClusterResourceTypeCloseEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM, mscs.clusterresourcetypecloseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusterResourceTypeCloseEnum
-: 
 ---
 
 # ClusterResourceTypeCloseEnum function

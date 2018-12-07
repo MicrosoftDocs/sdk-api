@@ -4,10 +4,10 @@ title: MesHandleFree function
 author: windows-sdk-content
 description: The MesHandleFree function frees the memory allocated by the serialization handle.
 old-location: rpc\meshandlefree.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: d4a4ac59-56fb-4693-9007-f358105f82f0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MesHandleFree, MesHandleFree function [RPC], _rpc_meshandlefree, midles/MesHandleFree, rpc.meshandlefree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MesHandleFree
-: 
 ---
 
 # MesHandleFree function

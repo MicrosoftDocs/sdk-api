@@ -7,7 +7,7 @@ old-location: intl\filemuiinfo_get_culture.htm
 tech.root: Intl
 ms.assetid: 3afed0e8-3a9c-4513-954a-83855a53f5b2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FILEMUIINFO_GET_CULTURE, FILEMUIINFO_GET_CULTURE macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_CULTURE, intl.filemuiinfo_get_culture, winnls/FILEMUIINFO_GET_CULTURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winnls.h
-: 
-- FILEMUIINFO_GET_CULTURE
-: 
 ---
 
 # FILEMUIINFO_GET_CULTURE macro

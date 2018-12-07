@@ -7,7 +7,7 @@ old-location: fs\file_level_trim_range.htm
 tech.root: fileio
 ms.assetid: 2ee14239-68bb-40f6-b10b-2500d316dcc8
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PFILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE structure [Files], PFILE_LEVEL_TRIM_RANGE, PFILE_LEVEL_TRIM_RANGE structure pointer [Files], _FILE_LEVEL_TRIM_RANGE, fs.file_level_trim_range, winioctl/FILE_LEVEL_TRIM_RANGE, winioctl/PFILE_LEVEL_TRIM_RANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

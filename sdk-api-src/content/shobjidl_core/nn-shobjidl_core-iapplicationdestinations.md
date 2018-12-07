@@ -7,7 +7,7 @@ old-location: shell\IApplicationDestinations.htm
 tech.root: shell
 ms.assetid: d425eb2c-75c7-431e-9607-11ea2e092178
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IApplicationDestinations, IApplicationDestinations interface [Windows Shell], IApplicationDestinations interface [Windows Shell],described, _shell_IApplicationDestinations, shell.IApplicationDestinations, shobjidl_core/IApplicationDestinations
 ms.prod: windows-hardware
 ms.technology: windows-devices

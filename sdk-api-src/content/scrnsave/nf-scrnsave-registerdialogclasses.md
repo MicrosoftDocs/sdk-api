@@ -7,7 +7,7 @@ old-location: shell\RegisterDialogClasses.htm
 tech.root: shell
 ms.assetid: abd3ba28-a5a7-4ace-99b1-c42f5d81930e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RegisterDialogClasses, RegisterDialogClasses function [Windows Shell], _win32_RegisterDialogClasses, scrnsave/RegisterDialogClasses, shell.RegisterDialogClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegisterDialogClasses
-: 
 ---
 
 # RegisterDialogClasses function

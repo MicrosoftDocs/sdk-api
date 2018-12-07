@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicemethodcallback.htm
 tech.root: wpd_sdk
 ms.assetid: cda7e4f7-0006-4b87-ac68-d07004440ce8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IPortableDeviceServiceMethodCallback, IPortableDeviceServiceMethodCallback interface [Windows Portable Devices SDK], IPortableDeviceServiceMethodCallback interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceMethodCallback, wpdsdk.iportabledeviceservicemethodcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

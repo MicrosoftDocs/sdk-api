@@ -4,10 +4,10 @@ title: IX509SignatureInformation::SetDefaultValues
 author: windows-sdk-content
 description: Specifies a default hashing algorithm used to create a digest of the certificate request prior to signing.
 old-location: security\ix509signatureinformation_setdefaultvalues_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 123e65e8-62bb-4bc7-9e15-113780be81e3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509SignatureInformation interface [Security],SetDefaultValues method, IX509SignatureInformation.SetDefaultValues, IX509SignatureInformation::SetDefaultValues, SetDefaultValues, SetDefaultValues method [Security], SetDefaultValues method [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::SetDefaultValues, security.ix509signatureinformation_setdefaultvalues_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509SignatureInformation.SetDefaultValues
-: 
 ---
 
 # IX509SignatureInformation::SetDefaultValues

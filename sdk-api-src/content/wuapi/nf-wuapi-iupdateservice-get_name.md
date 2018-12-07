@@ -4,10 +4,10 @@ title: IUpdateService::get_Name
 author: windows-sdk-content
 description: Gets the name of the service.
 old-location: wua\iupdateservice_name.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 37c84d46-628f-4af9-ac40-8ba2c5a24fd6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],Name property, IUpdateService.Name, IUpdateService.get_Name, IUpdateService::Name, IUpdateService::get_Name, Name property [Windows Update Agent], Name property [Windows Update Agent],IUpdateService interface, get_Name, wua.iupdateservice_name, wuapi/IUpdateService::Name, wuapi/IUpdateService::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateService.get_Name
-: 
 ---
 
 # IUpdateService::get_Name

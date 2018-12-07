@@ -4,10 +4,10 @@ title: PD2D1_PROPERTY_SET_FUNCTION
 author: windows-sdk-content
 description: Sets a property on an effect.
 old-location: direct2d\pd2d1_property_set_function.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 3293F53E-B911-4F5F-9510-E91B5261BB90
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PD2D1_PROPERTY_SET_FUNCTION, PD2D1_PROPERTY_SET_FUNCTION function, PD2D1_PROPERTY_SET_FUNCTION function pointer [Direct2D], d2d1effectauthor/PD2D1_PROPERTY_SET_FUNCTION, direct2d.pd2d1_property_set_function
 ms.prod: windows-hardware
 ms.technology: windows-devices

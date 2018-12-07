@@ -4,10 +4,10 @@ title: IAzClientContext::get_UserDisplay
 author: windows-sdk-content
 description: Retrieves the name of the current client in user display name format.
 old-location: security\iazclientcontext_userdisplay.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: db75ecc1-0096-4e14-a5be-10b596ad5163
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AzClientContext object [Security],UserDisplay property, IAzClientContext interface [Security],UserDisplay property, IAzClientContext.UserDisplay, IAzClientContext.get_UserDisplay, IAzClientContext::UserDisplay, IAzClientContext::get_UserDisplay, UserDisplay property [Security], UserDisplay property [Security],AzClientContext object, UserDisplay property [Security],IAzClientContext interface, azroles/IAzClientContext::UserDisplay, azroles/IAzClientContext::get_UserDisplay, get_UserDisplay, security.iazclientcontext_userdisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzClientContext.get_UserDisplay
-: 
 ---
 
 # IAzClientContext::get_UserDisplay

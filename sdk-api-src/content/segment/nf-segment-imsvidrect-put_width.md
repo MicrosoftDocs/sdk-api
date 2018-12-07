@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_put_width.htm
 tech.root: mstv
 ms.assetid: 35eed36a-de3e-4bb6-8b1b-179ba72b568a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Width method, IMSVidRect.put_Width, IMSVidRect::put_Width, IMSVidRectput_Width, mstv.imsvidrect_put_width, put_Width, put_Width method [Microsoft TV Technologies], put_Width method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Width
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- segment.h
-: 
-- IMSVidRect.put_Width
-: 
 ---
 
 # IMSVidRect::put_Width

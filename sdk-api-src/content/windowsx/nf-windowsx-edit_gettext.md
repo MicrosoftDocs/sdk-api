@@ -4,10 +4,10 @@ title: Edit_GetText macro
 author: windows-sdk-content
 description: Gets the text of an edit control.
 old-location: controls\edit_GetText.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_gettext.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Edit_GetText, Edit_GetText macro [Windows Controls], _win32_edit_GetText, _win32_edit_GetText_cpp, controls._win32_edit_GetText, controls.edit_GetText, windowsx/Edit_GetText
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- windowsx.h
-: 
-- Edit_GetText
-: 
 ---
 
 # Edit_GetText macro

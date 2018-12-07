@@ -4,10 +4,10 @@ title: RsopFileAccessCheck function
 author: windows-sdk-content
 description: The RSoPFileAccessCheck function determines whether a file's security descriptor grants a specified set of file access rights to the client identified by an RSOPTOKEN.
 old-location: policy\rsopfileaccesscheck.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: dfdf14ee-fee1-4e96-9955-7f24dfe39487
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RSoPFileAccessCheck, RSoPFileAccessCheck function [Group Policy], RsopFileAccessCheck, _win32_rsopfileaccesscheck, policy.rsopfileaccesscheck, userenv/RSoPFileAccessCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RsopFileAccessCheck
-: 
 ---
 
 # RsopFileAccessCheck function

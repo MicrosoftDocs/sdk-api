@@ -7,7 +7,7 @@ old-location: display\enggetprinter.htm
 tech.root: display
 ms.assetid: dd492777-48a2-4fb6-9202-a2af3b632678
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EngGetPrinter, EngGetPrinter function [Display Devices], display.enggetprinter, gdifncs_6e95ce51-f1ca-4e44-b26d-b677ace5e297.xml, winddi/EngGetPrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngGetPrinter
-: 
 ---
 
 # EngGetPrinter function

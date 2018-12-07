@@ -4,10 +4,10 @@ title: IX509CertificateRequestCmc2::get_Template
 author: windows-sdk-content
 description: Retrieves the certificate request template used during initialization.
 old-location: security\ix509certificaterequestcmc2_template.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 50c1b376-60e4-4a77-8e12-01fd61805d92
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestCmc2 interface [Security],Template property, IX509CertificateRequestCmc2.Template, IX509CertificateRequestCmc2.get_Template, IX509CertificateRequestCmc2::Template, IX509CertificateRequestCmc2::get_Template, Template property [Security], Template property [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::Template, certenroll/IX509CertificateRequestCmc2::get_Template, get_Template, security.ix509certificaterequestcmc2_template
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509CertificateRequestCmc2.get_Template
-: 
 ---
 
 # IX509CertificateRequestCmc2::get_Template

@@ -4,10 +4,10 @@ title: ITCallInfo2
 author: windows-sdk-content
 description: The ITCallInfo2 interface is an extension of the ITCallInfo interface. ITCallInfo2 provides additional methods that allow an application to set event filtering on a per-call basis.
 old-location: tapi3\itcallinfo2.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 20f7b20e-37f8-49f7-ae9d-83a9b9f574b6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITCallInfo2, ITCallInfo2 interface [TAPI 2.2], ITCallInfo2 interface [TAPI 2.2],described, _tapi3_itcallinfo2, tapi3.itcallinfo2, tapi3if/ITCallInfo2
 ms.prod: windows-hardware
 ms.technology: windows-devices

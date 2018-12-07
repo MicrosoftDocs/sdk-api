@@ -7,7 +7,7 @@ old-location: dshow\idvenc.htm
 tech.root: DirectShow
 ms.assetid: f193b76f-ca6a-44f5-b097-1570c4527ab4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDVEnc, IDVEnc interface [DirectShow], IDVEnc interface [DirectShow],described, IDVEncInterface, dshow.idvenc, strmif/IDVEnc
 ms.prod: windows-hardware
 ms.technology: windows-devices

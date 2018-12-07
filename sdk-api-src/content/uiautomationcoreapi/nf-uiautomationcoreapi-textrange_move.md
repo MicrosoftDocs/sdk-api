@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_MoveConPat.htm
 tech.root: WinAuto
 ms.assetid: 9d63bd12-da79-46b4-ad93-cd940948a0f5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TextRange_Move, TextRange_Move function [Windows Accessibility], uiauto.uiauto_TextRange_MoveConPat, uiauto_TextRange_MoveConPat, uiautomationcoreapi/TextRange_Move, winauto.uiauto_TextRange_MoveConPat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TextRange_Move
-: 
 ---
 
 # TextRange_Move function

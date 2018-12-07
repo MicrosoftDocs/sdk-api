@@ -4,10 +4,10 @@ title: ID2D1EffectImpl::SetGraph
 author: windows-sdk-content
 description: The renderer calls this method to provide the effect implementation with a way to specify its transform graph and transform graph changes.
 old-location: direct2d\id2d1effectimpl_setgraph.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 3255CD0D-5B73-4020-965E-2CBBEF5BA35B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1EffectImpl interface [Direct2D],SetGraph method, ID2D1EffectImpl.SetGraph, ID2D1EffectImpl::SetGraph, SetGraph, SetGraph method [Direct2D], SetGraph method [Direct2D],ID2D1EffectImpl interface, d2d1effectauthor/ID2D1EffectImpl::SetGraph, direct2d.id2d1effectimpl_setgraph
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1effectauthor.h
-: 
-- ID2D1EffectImpl.SetGraph
-: 
 ---
 
 # ID2D1EffectImpl::SetGraph

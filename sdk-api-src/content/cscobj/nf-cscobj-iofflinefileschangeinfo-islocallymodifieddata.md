@@ -4,10 +4,10 @@ title: IOfflineFilesChangeInfo::IsLocallyModifiedData
 author: windows-sdk-content
 description: Determines whether an item's data was modified while working offline.
 old-location: of\iofflinefileschangeinfo_islocallymodifieddata.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: d27999af-147e-4c1b-be89-58191292337d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsLocallyModifiedData method, IOfflineFilesChangeInfo.IsLocallyModifiedData, IOfflineFilesChangeInfo::IsLocallyModifiedData, IsLocallyModifiedData, IsLocallyModifiedData method [Offline Files], IsLocallyModifiedData method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedData, of.iofflinefileschangeinfo_islocallymodifieddata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesChangeInfo.IsLocallyModifiedData
-: 
 ---
 
 # IOfflineFilesChangeInfo::IsLocallyModifiedData

@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer_setsourcefromuriasync.htm
 tech.root: mediastreaming
 ms.assetid: 3062FC13-61FD-4781-9AE6-39576D86B783
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetSourceFromUriAsync method, IMediaRenderer.SetSourceFromUriAsync, IMediaRenderer.streaming, IMediaRenderer::SetSourceFromUriAsync, IMediaRenderer::streaming, SetSourceFromUriAsync, SetSourceFromUriAsync method [Media Streaming API], SetSourceFromUriAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setsourcefromuriasync, windows/IMediaRenderer::SetSourceFromUriAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- windows.media.streaming.h
-: 
-- IMediaRenderer.SetSourceFromUriAsync
-: 
 ---
 
 # IMediaRenderer::streaming

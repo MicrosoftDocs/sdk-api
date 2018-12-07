@@ -7,7 +7,7 @@ old-location: mediastreaming\imediarenderer.htm
 tech.root: mediastreaming
 ms.assetid: FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], IMediaRenderer interface [Media Streaming API],described, mediastreaming.imediarenderer, windows/IMediaRenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices

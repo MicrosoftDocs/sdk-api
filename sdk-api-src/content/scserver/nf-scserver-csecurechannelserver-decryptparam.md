@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_decryptparam.htm
 tech.root: WMDM
 ms.assetid: 42ccaf4a-02a4-432f-a0eb-b7852f0e5406
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],DecryptParam method, CSecureChannelServer.DecryptParam, CSecureChannelServer::DecryptParam, CSecureChannelServerDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::DecryptParam, wmdm.csecurechannelserver_decryptparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- scserver.h
-: 
-- CSecureChannelServer.DecryptParam
-: 
 ---
 
 # CSecureChannelServer::DecryptParam

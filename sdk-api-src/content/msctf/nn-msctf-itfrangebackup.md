@@ -7,7 +7,7 @@ old-location: tsf\itfrangebackup.htm
 tech.root: TSF
 ms.assetid: f98cd8d0-7033-4bd2-94a1-1a75913c2647
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfRangeBackup, ITfRangeBackup interface [Text Services Framework], ITfRangeBackup interface [Text Services Framework],described, _tsf_itfrangebackup_ref, msctf/ITfRangeBackup, tsf.itfrangebackup
 ms.prod: windows-hardware
 ms.technology: windows-devices

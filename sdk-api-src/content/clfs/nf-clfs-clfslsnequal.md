@@ -7,7 +7,7 @@ old-location: fs\lsnequal.htm
 tech.root: Clfs
 ms.assetid: 995b3afd-5724-40d1-ab80-f2c7b2ea8560
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ClfsLsnEqual, LsnEqual, LsnEqual function [Files], clfs/LsnEqual, fs.lsnequal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClfsLsnEqual
-: 
 ---
 
 # ClfsLsnEqual function

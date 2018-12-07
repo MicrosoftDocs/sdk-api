@@ -7,7 +7,7 @@ old-location: wds\wdsclicanceltransfer.htm
 tech.root: wds
 ms.assetid: 8d138b95-4be1-4f53-ac15-21503408954b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsCliCancelTransfer, WdsCliCancelTransfer function [Windows Deployment Services], wds.wdsclicanceltransfer, wdsclientapi/WdsCliCancelTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WdsCliCancelTransfer
-: 
 ---
 
 # WdsCliCancelTransfer function

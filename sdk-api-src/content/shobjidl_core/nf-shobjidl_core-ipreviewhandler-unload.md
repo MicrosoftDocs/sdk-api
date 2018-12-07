@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandler_Unload.htm
 tech.root: shell
 ms.assetid: cefa9888-66cf-48a1-a6cd-49e273076d39
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],Unload method, IPreviewHandler.Unload, IPreviewHandler::Unload, Unload, Unload method [Windows Shell], Unload method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_Unload, shell.IPreviewHandler_Unload, shobjidl_core/IPreviewHandler::Unload
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IPreviewHandler.Unload
-: 
 ---
 
 # IPreviewHandler::Unload

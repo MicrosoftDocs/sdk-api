@@ -4,10 +4,10 @@ title: "_WitnessTagHelper"
 author: windows-sdk-content
 description: Contains information used to validate a PaxosTagCStruct structure.
 old-location: mscs\witnesstaghelper.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: FFE7EF63-4025-4CC5-B3F8-FF07FA67AFD1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PWitnessTagHelper, PWitnessTagHelper structure pointer [Failover Cluster], WitnessTagHelper, WitnessTagHelper structure [Failover Cluster], _WitnessTagHelper, mscs.witnesstaghelper, resapi/PWitnessTagHelper, resapi/WitnessTagHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices

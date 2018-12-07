@@ -4,10 +4,10 @@ title: Animate_Stop macro
 author: windows-sdk-content
 description: Stops playing an AVI clip in an animation control. You can use this macro or send the ACM_STOP message explicitly.
 old-location: controls\Animate_Stop.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_stop.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Animate_Stop, Animate_Stop macro [Windows Controls], _win32_Animate_Stop, _win32_Animate_Stop_cpp, commctrl/Animate_Stop, controls.Animate_Stop, controls._win32_Animate_Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- Animate_Stop
-: 
 ---
 
 # Animate_Stop macro

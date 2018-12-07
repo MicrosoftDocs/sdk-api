@@ -4,10 +4,10 @@ title: ListView_InsertItem macro
 author: windows-sdk-content
 description: Inserts a new item in a list-view control. You can use this macro or send the LVM_INSERTITEM message explicitly.
 old-location: controls\ListView_InsertItem.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertitem.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ListView_InsertItem, ListView_InsertItem macro [Windows Controls], _win32_ListView_InsertItem, _win32_ListView_InsertItem_cpp, commctrl/ListView_InsertItem, controls.ListView_InsertItem, controls._win32_ListView_InsertItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- commctrl.h
-: 
-- ListView_InsertItem
-: 
 ---
 
 # ListView_InsertItem macro

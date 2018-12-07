@@ -4,10 +4,10 @@ title: MprAdminMIBEntryDelete function
 author: windows-sdk-content
 description: The MprAdminMIBEntryDelete function deletes an entry for one of the variables exported by a routing protocol or router manager.
 old-location: rras\mpradminmibentrydelete.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 5a9a1d79-a313-49bc-a678-ba26ccda8e65
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MprAdminMIBEntryDelete, MprAdminMIBEntryDelete function [RAS], _mpr_mpradminmibentrydelete, mprapi/MprAdminMIBEntryDelete, rras.mpradminmibentrydelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprAdminMIBEntryDelete
-: 
 ---
 
 # MprAdminMIBEntryDelete function

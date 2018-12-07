@@ -7,7 +7,7 @@ old-location: wsw\wscreatechannelforlistener.htm
 tech.root: wsw
 ms.assetid: d9a80506-d891-4cfd-b120-0d3fce946cf5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsCreateChannelForListener, WsCreateChannelForListener function [Web Services for Windows], webservices/WsCreateChannelForListener, wsw.wscreatechannelforlistener
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsCreateChannelForListener
-: 
 ---
 
 # WsCreateChannelForListener function

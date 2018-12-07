@@ -4,10 +4,10 @@ title: IValueMap::get_Item
 author: windows-sdk-content
 description: Retrieves the requested item from the collection.
 old-location: pla\ivaluemap_item.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: a01f134d-9700-4826-9040-d5d6340241de
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IValueMap interface [PLA],Item property, IValueMap.Item, IValueMap.get_Item, IValueMap::Item, IValueMap::get_Item, Item property [PLA], Item property [PLA],IValueMap interface, base.ivaluemap_item, get_Item, pla.ivaluemap_item, pla/IValueMap::Item, pla/IValueMap::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IValueMap.get_Item
-: 
 ---
 
 # IValueMap::get_Item

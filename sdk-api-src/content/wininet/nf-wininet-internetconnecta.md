@@ -4,10 +4,10 @@ title: InternetConnectA function
 author: windows-sdk-content
 description: Opens an File Transfer Protocol (FTP) or HTTP session for a given site.
 old-location: wininet\internetconnect.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 42b5d733-dccd-4c9d-8820-e358e033077c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InternetConnect, InternetConnect function [WinINet], InternetConnectA, InternetConnectW, _win32_internetconnect, wininet.internetconnect, wininet/InternetConnect, wininet/InternetConnectA, wininet/InternetConnectW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetConnectA
-: 
 ---
 
 # InternetConnectA function

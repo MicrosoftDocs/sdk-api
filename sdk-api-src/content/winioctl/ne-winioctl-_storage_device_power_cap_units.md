@@ -7,7 +7,7 @@ old-location: fs\storage_device_power_cap_units.htm
 tech.root: fileio
 ms.assetid: A6C48765-9A18-4F77-8B0F-9653CE6FDE23
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Files], StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, _STORAGE_DEVICE_POWER_CAP_UNITS, fs.storage_device_power_cap_units, winioctl/STORAGE_DEVICE_POWER_CAP_UNITS, winioctl/StorageDevicePowerCapUnitsMilliwatts, winioctl/StorageDevicePowerCapUnitsPercent"
 ms.prod: windows-hardware
 ms.technology: windows-devices

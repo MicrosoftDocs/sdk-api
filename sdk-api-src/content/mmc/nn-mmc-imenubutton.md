@@ -4,10 +4,10 @@ title: IMenuButton
 author: windows-sdk-content
 description: The IMenuButton interface enables the user to add and manage menu buttons for a snap-in.
 old-location: mmc\imenubutton.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 51bbd98a-7017-497a-858a-dd63cefc679a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMenuButton, IMenuButton interface [MMC], IMenuButton interface [MMC],described, _slate_imenubutton, mmc.imenubutton, mmc/IMenuButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

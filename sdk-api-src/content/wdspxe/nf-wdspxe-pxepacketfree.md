@@ -7,7 +7,7 @@ old-location: wds\pxepacketfree.htm
 tech.root: wds
 ms.assetid: de93d42d-9c46-4944-a6e9-5dd72b8a3278
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: PxePacketFree, PxePacketFree function [Windows Deployment Services], wds.pxepacketfree, wdspxe/PxePacketFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PxePacketFree
-: 
 ---
 
 # PxePacketFree function

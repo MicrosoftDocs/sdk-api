@@ -7,7 +7,7 @@ old-location: winrt\ifindreferencetargetscallback_foundtrackertarget.htm
 tech.root: WinRT
 ms.assetid: f8959af6-a857-4bca-a469-d68f70e2fadf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FoundTrackerTarget, FoundTrackerTarget method [Windows Runtime], FoundTrackerTarget method [Windows Runtime],IFindReferenceTargetsCallback interface, IFindReferenceTargetsCallback interface [Windows Runtime],FoundTrackerTarget method, IFindReferenceTargetsCallback.FoundTrackerTarget, IFindReferenceTargetsCallback.xaml, IFindReferenceTargetsCallback::FoundTrackerTarget, IFindReferenceTargetsCallback::xaml, windows/IFindReferenceTargetsCallback::FoundTrackerTarget, winrt.ifindreferencetargetscallback_foundtrackertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- windows.ui.xaml.hosting.referencetracker.h
-: 
-- IFindReferenceTargetsCallback.FoundTrackerTarget
-: 
 ---
 
 # IFindReferenceTargetsCallback::xaml

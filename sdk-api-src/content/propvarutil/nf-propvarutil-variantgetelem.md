@@ -7,7 +7,7 @@ old-location: properties\VariantGetElem.htm
 tech.root: properties
 ms.assetid: e1541e66-3ccc-494c-a909-72eeb9159d11
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VariantGetElem, VariantGetElem function [Windows Properties], _shell_VariantGetElem, properties.VariantGetElem, propvarutil/VariantGetElem, shell.VariantGetElem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantGetElem
-: 
 ---
 
 # VariantGetElem function

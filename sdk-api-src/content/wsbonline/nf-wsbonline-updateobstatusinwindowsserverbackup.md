@@ -7,7 +7,7 @@ old-location: wsb\updateobstatusinwindowsserverbackup.htm
 tech.root: wsb
 ms.assetid: 13C745FB-D0B9-432E-BDBA-E4194BF54924
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: UpdateOBStatusInWindowsServerBackup, UpdateOBStatusInWindowsServerBackup function [Windows Server Backup], wsb.updateobstatusinwindowsserverbackup, wsbonline/UpdateOBStatusInWindowsServerBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UpdateOBStatusInWindowsServerBackup
-: 
 ---
 
 # UpdateOBStatusInWindowsServerBackup function

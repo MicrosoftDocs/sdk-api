@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__FindTBar.htm
 tech.root: shell
 ms.assetid: 1bf707e5-8849-4b5c-aa5b-f77ccfbc3ad7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_FindTBar method, IBrowserService2._FindTBar, IBrowserService2::_FindTBar, _FindTBar, _FindTBar method [Windows Shell], _FindTBar method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_FindTBar, shell.IBrowserService2__FindTBar, zone_IBrowserService2__FindTBar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- IBrowserService2._FindTBar
-: 
 req.product: Internet Explorer 5.0
 ---
 

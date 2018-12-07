@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoi
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbaseclass\gdiplusbasemethods\operatordelete[].htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GdiplusBase class [GDI+],operator delete[] method, GdiplusBase.operator delete[], GdiplusBase::operator delete[], _gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_, operator delete[], operator delete[] method [GDI+], operator delete[] method [GDI+],GdiplusBase class
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusbase.h
-: 
-- GdiplusBase.operator delete[]
-: 
 req.product: GDI+ 1.0
 ---
 

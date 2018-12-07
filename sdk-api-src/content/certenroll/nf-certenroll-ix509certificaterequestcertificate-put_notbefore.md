@@ -4,10 +4,10 @@ title: IX509CertificateRequestCertificate::put_NotBefore
 author: windows-sdk-content
 description: Specifies or retrieves the date and time before which the certificate is not valid.
 old-location: security\ix509certificaterequestcertificate_notbefore_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 2568df97-6864-452d-aa18-a5ee47956abd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestCertificate interface [Security],NotBefore property, IX509CertificateRequestCertificate.NotBefore, IX509CertificateRequestCertificate.put_NotBefore, IX509CertificateRequestCertificate::NotBefore, IX509CertificateRequestCertificate::get_NotBefore, IX509CertificateRequestCertificate::put_NotBefore, NotBefore property [Security], NotBefore property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::NotBefore, certenroll/IX509CertificateRequestCertificate::get_NotBefore, certenroll/IX509CertificateRequestCertificate::put_NotBefore, put_NotBefore, security.ix509certificaterequestcertificate_notbefore_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509CertificateRequestCertificate.put_NotBefore
-: 
 ---
 
 # IX509CertificateRequestCertificate::put_NotBefore

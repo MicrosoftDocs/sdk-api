@@ -7,7 +7,7 @@ old-location: setup\setupinitdefaultqueuecallbackex.htm
 tech.root: SetupApi
 ms.assetid: 9376f55b-55ee-4064-8aed-264c43db0c7d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetupInitDefaultQueueCallbackEx, SetupInitDefaultQueueCallbackEx function [Setup API], _setupapi_setupinitdefaultqueuecallbackex, setup.setupinitdefaultqueuecallbackex, setupapi/SetupInitDefaultQueueCallbackEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupInitDefaultQueueCallbackEx
-: 
 ---
 
 # SetupInitDefaultQueueCallbackEx function

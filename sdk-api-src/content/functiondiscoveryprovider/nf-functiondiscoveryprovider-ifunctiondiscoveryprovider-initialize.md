@@ -4,10 +4,10 @@ title: IFunctionDiscoveryProvider::Initialize
 author: windows-sdk-content
 description: Initializes the Function Discovery provider object.
 old-location: ncd\ifunctiondiscoveryprovider_initialize_method.htm
-tech.root: FunDisc
+tech.root: fundisc
 ms.assetid: 084d6d91-4637-4325-887b-e9f46ecaaee4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFunctionDiscoveryProvider interface,Initialize method, IFunctionDiscoveryProvider.Initialize, IFunctionDiscoveryProvider::Initialize, Initialize, Initialize method, Initialize method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::Initialize, ncd.ifunctiondiscoveryprovider_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- functiondiscoveryprovider.h
-: 
-- IFunctionDiscoveryProvider.Initialize
-: 
 ---
 
 # IFunctionDiscoveryProvider::Initialize

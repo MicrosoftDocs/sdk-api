@@ -4,10 +4,10 @@ title: EapHostPeerGetSendPacket function
 author: windows-sdk-content
 description: Is called by the supplicant when the supplicant needs to obtains a packet from EAPHost to send to the authenticator.
 old-location: eaphost\eaphostpeergetsendpacket.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 22e17496-e381-415e-8da0-88aad37d0d21
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EapHostPeerGetSendPacket, EapHostPeerGetSendPacket function [EAPHost], eaphost.eaphostpeergetsendpacket, eappapis/EapHostPeerGetSendPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapHostPeerGetSendPacket
-: 
 ---
 
 # EapHostPeerGetSendPacket function

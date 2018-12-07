@@ -4,10 +4,10 @@ title: ITraceDataCollector::put_SessionName
 author: windows-sdk-content
 description: Retrieves or sets the name of the session.
 old-location: pla\itracedatacollector_sessionname.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: eef98aa2-8494-46d6-bbc2-1115eff30996
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITraceDataCollector interface [PLA],SessionName property, ITraceDataCollector.SessionName, ITraceDataCollector.put_SessionName, ITraceDataCollector::SessionName, ITraceDataCollector::get_SessionName, ITraceDataCollector::put_SessionName, SessionName property [PLA], SessionName property [PLA],ITraceDataCollector interface, base.itracedatacollector_sessionname, pla.itracedatacollector_sessionname, pla/ITraceDataCollector::SessionName, pla/ITraceDataCollector::get_SessionName, pla/ITraceDataCollector::put_SessionName, put_SessionName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- ITraceDataCollector.put_SessionName
-: 
 ---
 
 # ITraceDataCollector::put_SessionName

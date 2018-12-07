@@ -7,7 +7,7 @@ old-location: wes\evt_subscribe_callback.htm
 tech.root: wes
 ms.assetid: 935a787c-fd71-492d-a803-80cb2c9019ea
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: EVT_SUBSCRIBE_CALLBACK, EVT_SUBSCRIBE_CALLBACK callback, EVT_SUBSCRIBE_CALLBACK callback function [EventLog], wes.evt_subscribe_callback, winevt/EVT_SUBSCRIBE_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

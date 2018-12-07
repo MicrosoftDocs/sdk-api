@@ -4,10 +4,10 @@ title: InitializeSynchronizationBarrier function
 author: windows-sdk-content
 description: Initializes a new synchronization barrier.
 old-location: base\initializesynchronizationbarrier.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: f69934a1-ee1f-4400-ae3e-cb9a19feff93
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InitializeSynchronizationBarrier, InitializeSynchronizationBarrier function, base.initializesynchronizationbarrier, synchapi/InitializeSynchronizationBarrier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InitializeSynchronizationBarrier
-: 
 ---
 
 # InitializeSynchronizationBarrier function

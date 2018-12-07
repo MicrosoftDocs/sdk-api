@@ -7,7 +7,7 @@ old-location: base\cdromdisabledigitalplayback.htm
 tech.root: devio
 ms.assetid: 289812ac-cec1-4ccc-b4ef-146b19a26ebd
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 12/5/2018
 ms.keywords: CdromDisableDigitalPlayback, CdromDisableDigitalPlayback function, base.cdromdisabledigitalplayback, storprop/CdromDisableDigitalPlayback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CdromDisableDigitalPlayback
-: 
 ---
 
 # CdromDisableDigitalPlayback function

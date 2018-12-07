@@ -7,7 +7,7 @@ old-location: intl\getthreadlocale.htm
 tech.root: Intl
 ms.assetid: 4d77f78b-f059-40f3-b4ed-c3ffd09d9e9f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetThreadLocale, GetThreadLocale function [Internationalization for Windows Applications], _win32_GetThreadLocale, intl.getthreadlocale, winnls/GetThreadLocale
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetThreadLocale
-: 
 ---
 
 # GetThreadLocale function

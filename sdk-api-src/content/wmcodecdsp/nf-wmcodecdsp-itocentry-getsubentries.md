@@ -7,7 +7,7 @@ old-location: mf\itocentry_getsubentries.htm
 tech.root: medfound
 ms.assetid: 583340d7-87f9-40c5-a0dc-3e69bbb96334
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetSubEntries, GetSubEntries method [Media Foundation], GetSubEntries method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetSubEntries method, ITocEntry.GetSubEntries, ITocEntry::GetSubEntries, codecapi.itocentry_getsubentries, mf.itocentry_getsubentries, wmcodecdsp/ITocEntry::GetSubEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmcodecdsp.h
-: 
-- ITocEntry.GetSubEntries
-: 
 ---
 
 # ITocEntry::GetSubEntries

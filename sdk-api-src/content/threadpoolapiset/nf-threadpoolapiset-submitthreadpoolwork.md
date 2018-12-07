@@ -4,10 +4,10 @@ title: SubmitThreadpoolWork function
 author: windows-sdk-content
 description: Posts a work object to the thread pool. A worker thread calls the work object's callback function.
 old-location: base\submitthreadpoolwork.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 28df173d-b78c-4158-97d5-63117a2d3967
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SubmitThreadpoolWork, SubmitThreadpoolWork function, base.submitthreadpoolwork, threadpoolapiset/SubmitThreadpoolWork, winbase/SubmitThreadpoolWork
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SubmitThreadpoolWork
-: 
 ---
 
 # SubmitThreadpoolWork function

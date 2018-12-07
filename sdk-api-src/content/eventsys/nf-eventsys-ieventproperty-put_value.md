@@ -7,7 +7,7 @@ old-location: com\ieventproperty_value.htm
 tech.root: com
 ms.assetid: 2715675d-590d-4132-a2fb-ce0000fe10a1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IEventProperty interface [COM],Value property, IEventProperty.Value, IEventProperty.put_Value, IEventProperty::Value, IEventProperty::get_Value, IEventProperty::put_Value, Value property [COM], Value property [COM],IEventProperty interface, _com_ieventproperty_value, com.ieventproperty_value, eventsys/IEventProperty::Value, eventsys/IEventProperty::get_Value, eventsys/IEventProperty::put_Value, put_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- eventsys.h
-: 
-- IEventProperty.put_Value
-: 
 ---
 
 # IEventProperty::put_Value

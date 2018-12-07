@@ -7,7 +7,7 @@ old-location: mf\imfmediakeysessionnotify_keyerror.htm
 tech.root: medfound
 ms.assetid: e437b46a-8b25-42c4-b307-b6962b60b452
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFMediaKeySessionNotify interface [Media Foundation],KeyError method, IMFMediaKeySessionNotify.KeyError, IMFMediaKeySessionNotify::KeyError, KeyError, KeyError method [Media Foundation], KeyError method [Media Foundation],IMFMediaKeySessionNotify interface, mf.imfmediakeysessionnotify_keyerror, mfmediaengine/IMFMediaKeySessionNotify::KeyError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfmediaengine.h
-: 
-- IMFMediaKeySessionNotify.KeyError
-: 
 ---
 
 # IMFMediaKeySessionNotify::KeyError

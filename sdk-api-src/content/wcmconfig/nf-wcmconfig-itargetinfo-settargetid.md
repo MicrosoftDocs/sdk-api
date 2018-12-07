@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_settargetid.htm
 tech.root: SMI
 ms.assetid: 183b1ccd-9244-42d5-a787-617e43a55f64
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetID method, ITargetInfo.SetTargetID, ITargetInfo::SetTargetID, SetTargetID, SetTargetID method [SMI], SetTargetID method [SMI],ITargetInfo interface, smi.itargetinfo_settargetid, wcmconfig/ITargetInfo::SetTargetID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wcmconfig.h
-: 
-- ITargetInfo.SetTargetID
-: 
 ---
 
 # ITargetInfo::SetTargetID

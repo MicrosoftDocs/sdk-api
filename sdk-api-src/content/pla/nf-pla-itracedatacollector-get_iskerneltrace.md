@@ -4,10 +4,10 @@ title: ITraceDataCollector::get_IsKernelTrace
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the trace contains kernel providers.
 old-location: pla\itracedatacollector_iskerneltrace.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 8986b84c-a79b-49d8-adf2-1618e2d7c343
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITraceDataCollector interface [PLA],IsKernelTrace property, ITraceDataCollector.IsKernelTrace, ITraceDataCollector.get_IsKernelTrace, ITraceDataCollector::IsKernelTrace, ITraceDataCollector::get_IsKernelTrace, IsKernelTrace property [PLA], IsKernelTrace property [PLA],ITraceDataCollector interface, base.itracedatacollector_iskerneltrace, get_IsKernelTrace, pla.itracedatacollector_iskerneltrace, pla/ITraceDataCollector::IsKernelTrace, pla/ITraceDataCollector::get_IsKernelTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- ITraceDataCollector.get_IsKernelTrace
-: 
 ---
 
 # ITraceDataCollector::get_IsKernelTrace

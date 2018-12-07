@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_get_EnumerationDepth.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_enumerationdepth.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISearchRoot interface [search],get_EnumerationDepth method, ISearchRoot.get_EnumerationDepth, ISearchRoot::get_EnumerationDepth, _search_ISearchRoot_get_EnumerationDepth, get_EnumerationDepth, get_EnumerationDepth method [search], get_EnumerationDepth method [search],ISearchRoot interface, search._search_ISearchRoot_get_EnumerationDepth, searchapi/ISearchRoot::get_EnumerationDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- searchapi.h
-: 
-- ISearchRoot.get_EnumerationDepth
-: 
 ---
 
 # ISearchRoot::get_EnumerationDepth

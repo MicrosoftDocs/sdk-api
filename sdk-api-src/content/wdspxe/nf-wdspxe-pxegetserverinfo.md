@@ -7,7 +7,7 @@ old-location: wds\pxegetserverinfo.htm
 tech.root: wds
 ms.assetid: 68fb12ff-c73c-4e36-8f62-de8a04a9afb0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: PXE_GSI_TRACE_ENABLED, PxeGetServerInfo, PxeGetServerInfo function [Windows Deployment Services], wds.pxegetserverinfo, wdspxe/PxeGetServerInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PxeGetServerInfo
-: 
 ---
 
 # PxeGetServerInfo function

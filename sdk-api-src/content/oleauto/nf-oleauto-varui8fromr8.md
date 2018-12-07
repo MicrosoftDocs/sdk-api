@@ -7,7 +7,7 @@ old-location: automat\varui8fromr8.htm
 tech.root: automat
 ms.assetid: 7f9ecdbe-090c-41c9-82ea-3157589da00f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarUI8FromR8, VarUI8FromR8 function [Automation], _oa96_VarUI8FromR8, automat.varui8fromr8, oleauto/VarUI8FromR8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarUI8FromR8
-: 
 ---
 
 # VarUI8FromR8 function

@@ -4,10 +4,10 @@ title: IFhTarget::GetStringProperty
 author: windows-sdk-content
 description: Retrieves a string property of the File History backup target that is represented by an IFhTarget interface.
 old-location: winprog\ifhtarget_getstringproperty.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: DC5FE023-FA6E-4B97-AD9D-830975A17159
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetStringProperty, GetStringProperty method [Windows API], GetStringProperty method [Windows API],IFhTarget interface, IFhTarget interface [Windows API],GetStringProperty method, IFhTarget.GetStringProperty, IFhTarget::GetStringProperty, fhcfg/IFhTarget::GetStringProperty, winprog.ifhtarget_getstringproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fhcfg.h
-: 
-- IFhTarget.GetStringProperty
-: 
 ---
 
 # IFhTarget::GetStringProperty

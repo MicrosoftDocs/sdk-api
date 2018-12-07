@@ -2,7 +2,7 @@
 UID: NA:richole
 ms.assetid: 2faf07a3-448c-3a2e-ac1f-506e91790b29
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

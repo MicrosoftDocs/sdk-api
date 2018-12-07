@@ -7,7 +7,7 @@ old-location: fs\deletentmslibrary.htm
 tech.root: Rsm
 ms.assetid: 2bbc1463-9fbb-49d9-84d0-7b8ea231b454
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteNtmsLibrary, DeleteNtmsLibrary function [Files], _zaw_deletentmslibrary, base.deletentmslibrary, fs.deletentmslibrary, ntmsapi/DeleteNtmsLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DeleteNtmsLibrary
-: 
 ---
 
 # DeleteNtmsLibrary function

@@ -9,10 +9,10 @@ The network interface through which the device advertisement came.
 
 The IUPnPDeviceFinderAddCallbackWithInterface interface allows the UPnP framework to communicate to an application:
 old-location: upnp\iupnpdevicefinderaddcallbackwithinterface.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: b0d78121-35d0-4f33-b1e9-19e0b2c5b78f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDeviceFinderAddCallbackWithInterface, IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs], IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs],described, upnp.iupnpdevicefinderaddcallbackwithinterface, upnp/IUPnPDeviceFinderAddCallbackWithInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

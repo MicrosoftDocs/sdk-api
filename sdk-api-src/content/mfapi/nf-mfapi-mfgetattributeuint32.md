@@ -7,7 +7,7 @@ old-location: mf\mfgetattributeuint32.htm
 tech.root: medfound
 ms.assetid: b79f3b2c-6293-41b2-afe7-4a0b2c27b34f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MFGetAttributeUINT32, MFGetAttributeUINT32 function [Media Foundation], b79f3b2c-6293-41b2-afe7-4a0b2c27b34f, mf.mfgetattributeuint32, mfapi/MFGetAttributeUINT32
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFGetAttributeUINT32
-: 
 ---
 
 # MFGetAttributeUINT32 function

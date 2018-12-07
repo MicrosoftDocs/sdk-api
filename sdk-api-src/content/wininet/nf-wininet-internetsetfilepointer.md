@@ -4,10 +4,10 @@ title: InternetSetFilePointer function
 author: windows-sdk-content
 description: Sets a file position for InternetReadFile. This is a synchronous call; however, subsequent calls to InternetReadFile might block or return pending if the data is not available from the cache and the server does not support random access.
 old-location: wininet\internetsetfilepointer.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 0fdd85cb-f6a9-4a08-b72b-10d2075efb59
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InternetSetFilePointer, InternetSetFilePointer function [WinINet], _inet_internetsetfilepointer_function, wininet.internetsetfilepointer, wininet/InternetSetFilePointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetSetFilePointer
-: 
 ---
 
 # InternetSetFilePointer function

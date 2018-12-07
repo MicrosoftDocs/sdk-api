@@ -7,7 +7,7 @@ old-location: directwrite\idwriterenderingparams1_getgrayscaleenhancedcontrast.h
 tech.root: DirectWrite
 ms.assetid: 986917A6-AAC1-4676-A7A0-7A8FC4796E72
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetGrayscaleEnhancedContrast, GetGrayscaleEnhancedContrast method [Direct Write], GetGrayscaleEnhancedContrast method [Direct Write],IDWriteRenderingParams1 interface, IDWriteRenderingParams1 interface [Direct Write],GetGrayscaleEnhancedContrast method, IDWriteRenderingParams1.GetGrayscaleEnhancedContrast, IDWriteRenderingParams1::GetGrayscaleEnhancedContrast, directwrite.idwriterenderingparams1_getgrayscaleenhancedcontrast, dwrite_1/IDWriteRenderingParams1::GetGrayscaleEnhancedContrast
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite_1.h
-: 
-- IDWriteRenderingParams1.GetGrayscaleEnhancedContrast
-: 
 ---
 
 # IDWriteRenderingParams1::GetGrayscaleEnhancedContrast

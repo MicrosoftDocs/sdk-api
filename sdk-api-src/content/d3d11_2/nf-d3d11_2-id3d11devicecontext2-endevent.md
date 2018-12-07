@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext2_endevent.htm
 tech.root: direct3d11
 ms.assetid: 1684ee4b-637d-4764-bb69-6ebc5c2985f1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EndEvent, EndEvent method [Direct3D 11], EndEvent method [Direct3D 11],ID3D11DeviceContext2 interface, ID3D11DeviceContext2 interface [Direct3D 11],EndEvent method, ID3D11DeviceContext2.EndEvent, ID3D11DeviceContext2::EndEvent, d3d11_2/ID3D11DeviceContext2::EndEvent, direct3d11.id3d11devicecontext2_endevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11_2.h
-: 
-- ID3D11DeviceContext2.EndEvent
-: 
 ---
 
 # ID3D11DeviceContext2::EndEvent

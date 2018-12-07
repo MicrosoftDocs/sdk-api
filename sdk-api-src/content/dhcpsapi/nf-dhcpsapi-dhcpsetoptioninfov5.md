@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetoptioninfov5.htm
 tech.root: DHCP
 ms.assetid: 2a58706e-dfae-418e-867a-328830d47d5b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionInfoV5, DhcpSetOptionInfoV5 function [DHCP], dhcp.dhcpsetoptioninfov5, dhcpsapi/DhcpSetOptionInfoV5
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpSetOptionInfoV5
-: 
 ---
 
 # DhcpSetOptionInfoV5 function

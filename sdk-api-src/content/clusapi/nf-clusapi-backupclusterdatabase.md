@@ -4,10 +4,10 @@ title: BackupClusterDatabase function
 author: windows-sdk-content
 description: Creates a backup of the cluster database and all registry checkpoints.
 old-location: mscs\backupclusterdatabase.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: c381b7d3-cc60-45cf-a7f0-eebf44557bcf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: BackupClusterDatabase, BackupClusterDatabase function [Failover Cluster], _wolf_backupclusterdatabase, clusapi/BackupClusterDatabase, mscs.backupclusterdatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BackupClusterDatabase
-: 
 ---
 
 # BackupClusterDatabase function

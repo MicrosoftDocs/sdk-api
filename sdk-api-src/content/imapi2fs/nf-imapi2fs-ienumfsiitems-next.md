@@ -7,7 +7,7 @@ old-location: imapi\ienumfsiitems_next.htm
 tech.root: imapi
 ms.assetid: 3aad9540-7fbc-4eda-9619-187a9c5b4b2d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumFsiItems interface [IMAPI],Next method, IEnumFsiItems.Next, IEnumFsiItems::Next, Next, Next method [IMAPI], Next method [IMAPI],IEnumFsiItems interface, imapi.ienumfsiitems_next, imapi2fs/IEnumFsiItems::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2fs.h
-: 
-- IEnumFsiItems.Next
-: 
 ---
 
 # IEnumFsiItems::Next

@@ -7,7 +7,7 @@ old-location: shell\SHReleaseThreadRef.htm
 tech.root: shell
 ms.assetid: 7f3fd09b-baad-4019-a060-c68727aee61f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHReleaseThreadRef, SHReleaseThreadRef function [Windows Shell], _shell_SHReleaseThreadRef, shell.SHReleaseThreadRef, shlwapi/SHReleaseThreadRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHReleaseThreadRef
-: 
 ---
 
 # SHReleaseThreadRef function

@@ -4,10 +4,10 @@ title: IGPM
 author: windows-sdk-content
 description: The IGPM interface provides methods that access other interfaces of the Group Policy Management Console (GPMC) and methods that create other objects on which various search operations can be performed.
 old-location: gpmc\igpm.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 2780760e-7114-46b0-a264-00ed58a556cb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPM, IGPM, IGPM interface [GPMC], IGPM interface [GPMC],described, _win32_igpm, gpmc.igpm, gpmgmt/IGPM
 ms.prod: windows-hardware
 ms.technology: windows-devices

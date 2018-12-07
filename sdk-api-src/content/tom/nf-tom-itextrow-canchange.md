@@ -4,10 +4,10 @@ title: ITextRow::CanChange
 author: windows-sdk-content
 description: Determines whether changes can be made to this row.
 old-location: controls\itextrow_canchange.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 721f3841-a50b-4569-b988-71a9fb96f16f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],CanChange method, ITextRow.CanChange, ITextRow::CanChange, controls.itextrow_canchange, tom/ITextRow::CanChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRow.CanChange
-: 
 ---
 
 # ITextRow::CanChange

@@ -7,7 +7,7 @@ old-location: properties\PropVariantToVariant.htm
 tech.root: properties
 ms.assetid: 34907419-47ae-4f8f-8ce6-5f5e9b098488
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PropVariantToVariant, PropVariantToVariant function [Windows Properties], properties.PropVariantToVariant, propvarutil/PropVariantToVariant, shell.PropVariantToVariant, shell_PropVariantToVariant
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantToVariant
-: 
 ---
 
 # PropVariantToVariant function

@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlevaluationcontext_clear.htm
 tech.root: MachineLearning
 ms.assetid: DBA33BEB-0843-463C-8EB8-BF86C7D106AC
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: Clear, Clear method, Clear method,IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,Clear method, IWinMLEvaluationContext.Clear, IWinMLEvaluationContext::Clear, MachineLearning.iwinmlevaluationcontext_clear, winml/IWinMLEvaluationContext::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- winml.h
-: 
-- IWinMLEvaluationContext.Clear
-: 
 ---
 
 # IWinMLEvaluationContext::Clear

@@ -4,10 +4,10 @@ title: MesBufferHandleReset function
 author: windows-sdk-content
 description: The MesBufferHandleReset function re-initializes the handle for buffer serialization.
 old-location: rpc\mesbufferhandlereset.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: adc9681f-267e-4f6f-88a3-ec913e886dd1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MesBufferHandleReset, MesBufferHandleReset function [RPC], _rpc_mesbufferhandlereset, midles/MesBufferHandleReset, rpc.mesbufferhandlereset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MesBufferHandleReset
-: 
 ---
 
 # MesBufferHandleReset function

@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_gettypecomp.htm
 tech.root: automat
 ms.assetid: 094cf9d5-2d9b-4c3c-844e-45737e905099
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetTypeComp, GetTypeComp method [Automation], GetTypeComp method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetTypeComp method, ITypeInfo.GetTypeComp, ITypeInfo::GetTypeComp, _oa96_ITypeInfo_GetTypeComp, automat.itypeinfo_gettypecomp, oaidl/ITypeInfo::GetTypeComp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- oaidl.h
-: 
-- ITypeInfo.GetTypeComp
-: 
 ---
 
 # ITypeInfo::GetTypeComp

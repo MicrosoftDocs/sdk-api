@@ -4,10 +4,10 @@ title: NPEnumResource function
 author: windows-sdk-content
 description: Performs an enumeration based on a handle returned by NPOpenEnum.
 old-location: security\npenumresource.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 286a6865-478a-41e5-a48f-42f9fc117f14
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: NPEnumResource, NPEnumResource function [Security], _mnp_npenumresource, npapi/NPEnumResource, security.npenumresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NPEnumResource
-: 
 ---
 
 # NPEnumResource function

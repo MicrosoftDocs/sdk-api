@@ -4,10 +4,10 @@ title: FlatSB_EnableScrollBar function
 author: windows-sdk-content
 description: Enables or disables one or both flat scroll bar direction buttons. If flat scroll bars are not initialized for the window, this function calls the standard EnableScrollBar function.
 old-location: controls\FlatSB_EnableScrollBar.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_enablescrollbar.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, FlatSB_EnableScrollBar, FlatSB_EnableScrollBar function [Windows Controls], SB_BOTH, SB_HORZ, SB_VERT, _win32_FlatSB_EnableScrollBar, _win32_FlatSB_EnableScrollBar_cpp, commctrl/FlatSB_EnableScrollBar, controls.FlatSB_EnableScrollBar, controls._win32_FlatSB_EnableScrollBar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FlatSB_EnableScrollBar
-: 
 ---
 
 # FlatSB_EnableScrollBar function

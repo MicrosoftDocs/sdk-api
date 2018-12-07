@@ -4,10 +4,10 @@ title: GetSymLoadError function
 author: windows-sdk-content
 description: Gets the last symbol load error.
 old-location: base\getsymloaderror.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: EFCE3FC5-A815-401F-96C1-2A4F12E01C1C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetSymLoadError, GetSymLoadError function, base.getsymloaderror, dbghelp/GetSymLoadError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
-- apiref
-: 
-- 
-: 
-- GetSymLoadError
-: 
 ---
 
 # GetSymLoadError function

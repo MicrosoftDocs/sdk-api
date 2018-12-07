@@ -7,7 +7,7 @@ old-location: http\winhttpconnect.htm
 tech.root: WinHttp
 ms.assetid: afcdad8d-687e-4a1f-99d8-5d8be13825fa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: INTERNET_DEFAULT_HTTPS_PORT, INTERNET_DEFAULT_HTTP_PORT, INTERNET_DEFAULT_PORT, WinHttpConnect, WinHttpConnect function [WinHTTP], http.winhttpconnect, winhttp.winhttpconnect, winhttp/WinHttpConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
-- apiref
-: 
-- 
-: 
-- WinHttpConnect
-: 
 ---
 
 # WinHttpConnect function

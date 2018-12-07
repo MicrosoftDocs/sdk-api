@@ -7,7 +7,7 @@ old-location: qos\tc_gen_flow.htm
 tech.root: QOS
 ms.assetid: 88b162d9-003c-42ce-8f82-91ee1aa9e32e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTC_GEN_FLOW, PTC_GEN_FLOW, PTC_GEN_FLOW structure pointer [QOS], TC_GEN_FLOW, TC_GEN_FLOW structure [QOS], _TC_GEN_FLOW, _gqos_tc_gen_flow, qos.tc_gen_flow, traffic/PTC_GEN_FLOW, traffic/TC_GEN_FLOW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

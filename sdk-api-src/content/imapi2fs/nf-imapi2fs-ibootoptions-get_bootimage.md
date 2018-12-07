@@ -7,7 +7,7 @@ old-location: imapi\ibootoptions_get_bootimage.htm
 tech.root: imapi
 ms.assetid: 161e0cea-63dd-4806-a246-4b36249b2cc7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBootOptions interface [IMAPI],get_BootImage method, IBootOptions.get_BootImage, IBootOptions::get_BootImage, get_BootImage, get_BootImage method [IMAPI], get_BootImage method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_bootimage, imapi2fs/IBootOptions::get_BootImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2fs.h
-: 
-- IBootOptions.get_BootImage
-: 
 ---
 
 # IBootOptions::get_BootImage

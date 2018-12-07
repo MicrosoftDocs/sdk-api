@@ -7,7 +7,7 @@ old-location: websock\websocketbeginclienthandshake.htm
 tech.root: WebSock
 ms.assetid: b326d32d-7226-46cd-b15b-b5547d3ec8cb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WebSocketBeginClientHandshake, WebSocketBeginClientHandshake function [Websocket Protocol Component API], websock.websocketbeginclienthandshake, websocket/WebSocketBeginClientHandshake
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WebSocketBeginClientHandshake
-: 
 ---
 
 # WebSocketBeginClientHandshake function

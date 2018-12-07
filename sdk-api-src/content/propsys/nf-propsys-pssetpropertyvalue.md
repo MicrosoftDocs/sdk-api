@@ -7,7 +7,7 @@ old-location: properties\PSSetPropertyValue.htm
 tech.root: properties
 ms.assetid: b4f8c50d-93cd-4371-88b0-6ce58f023981
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PSSetPropertyValue, PSSetPropertyValue function [Windows Properties], _shell_PSSetPropertyValue, properties.PSSetPropertyValue, propsys/PSSetPropertyValue, shell.PSSetPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PSSetPropertyValue
-: 
 ---
 
 # PSSetPropertyValue function

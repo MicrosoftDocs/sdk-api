@@ -7,7 +7,7 @@ old-location: dshow\ienumpins_reset.htm
 tech.root: DirectShow
 ms.assetid: c2147884-aec2-43ae-b85a-61383ad6ca15
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumPins interface [DirectShow],Reset method, IEnumPins.Reset, IEnumPins::Reset, IEnumPinsReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumPins interface, dshow.ienumpins_reset, strmif/IEnumPins::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- strmif.h
-: 
-- IEnumPins.Reset
-: 
 ---
 
 # IEnumPins::Reset

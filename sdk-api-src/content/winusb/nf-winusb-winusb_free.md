@@ -7,7 +7,7 @@ old-location: buses\winusb_free.htm
 tech.root: usbref
 ms.assetid: 0f453364-fb2b-4b29-a96d-37c1d0d22608
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 12/5/2018
 ms.keywords: WinUsb_Free, WinUsb_Free function [Buses], buses.winusb_free, winusb/WinUsb_Free, winusbfunc_5364f078-34b5-4844-ab20-60e601f036b9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinUsb_Free
-: 
 ---
 
 # WinUsb_Free function

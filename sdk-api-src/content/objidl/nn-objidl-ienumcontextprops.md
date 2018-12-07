@@ -7,7 +7,7 @@ old-location: com\ienumcontextprops.htm
 tech.root: com
 ms.assetid: 64591e45-5478-4360-8c1f-08b09b5aef8e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumContextProps, IEnumContextProps interface [COM], IEnumContextProps interface [COM],described, _com_ienumcontextprops, com.ienumcontextprops, objidlbase/IEnumContextProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

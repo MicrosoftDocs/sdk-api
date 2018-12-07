@@ -4,10 +4,10 @@ title: ITPhone::get_Privilege
 author: windows-sdk-content
 description: The get_Privilege method retrieves the privilege of the open phone.
 old-location: tapi3\itphone_get_privilege.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 88103a48-a5cd-43a7-a88e-9b16313b35c2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Privilege method, ITPhone.get_Privilege, ITPhone::get_Privilege, _tapi3_itphone_get_privilege, get_Privilege, get_Privilege method [TAPI 2.2], get_Privilege method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_privilege, tapi3if/ITPhone::get_Privilege
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITPhone.get_Privilege
-: 
 ---
 
 # ITPhone::get_Privilege

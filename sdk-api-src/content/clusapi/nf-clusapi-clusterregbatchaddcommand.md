@@ -4,10 +4,10 @@ title: ClusterRegBatchAddCommand function
 author: windows-sdk-content
 description: Adds a command to a batch that will be executed on a cluster registry key.
 old-location: mscs\clusterregbatchaddcommand.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 3d59e68a-deb3-443f-9d8f-281cdb15e8b6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_SET_VALUE, ClusterRegBatchAddCommand, ClusterRegBatchAddCommand function [Failover Cluster], PCLUSTER_REG_BATCH_ADD_COMMAND, clusapi/ClusterRegBatchAddCommand, mscs.clusterregbatchaddcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusterRegBatchAddCommand
-: 
 ---
 
 # ClusterRegBatchAddCommand function

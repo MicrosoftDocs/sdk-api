@@ -7,7 +7,7 @@ old-location: wmp\iwmprenderconfig.htm
 tech.root: WMP
 ms.assetid: 01a4c79e-9867-47c0-9aca-b2f1596f1c2a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPRenderConfig, IWMPRenderConfig interface [Windows Media Player], IWMPRenderConfig interface [Windows Media Player],described, IWMPRenderConfigInterface, wmp.iwmprenderconfig, wmprealestate/IWMPRenderConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

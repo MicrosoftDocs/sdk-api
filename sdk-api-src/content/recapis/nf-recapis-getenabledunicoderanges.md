@@ -7,7 +7,7 @@ old-location: tablet\getenabledunicoderanges.htm
 tech.root: tablet
 ms.assetid: 047a72f9-a627-4c8b-b271-13d3c873abc9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 047a72f9-a627-4c8b-b271-13d3c873abc9, GetEnabledUnicodeRanges, GetEnabledUnicodeRanges function [Tablet PC], recapis/GetEnabledUnicodeRanges, tablet.getenabledunicoderanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetEnabledUnicodeRanges
-: 
 ---
 
 # GetEnabledUnicodeRanges function

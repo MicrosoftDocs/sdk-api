@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_GetSubmitButtonValue.htm
 tech.root: shell
 ms.assetid: 74adc133-aa4d-405f-a98d-c9cfc719648a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetSubmitButtonValue, GetSubmitButtonValue method [Windows Shell], GetSubmitButtonValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetSubmitButtonValue method, ICredentialProviderCredential.GetSubmitButtonValue, ICredentialProviderCredential::GetSubmitButtonValue, _shell_ICredentialProviderCredential_GetSubmitButtonValue, credentialprovider/ICredentialProviderCredential::GetSubmitButtonValue, shell.ICredentialProviderCredential_GetSubmitButtonValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- credentialprovider.h
-: 
-- ICredentialProviderCredential.GetSubmitButtonValue
-: 
 ---
 
 # ICredentialProviderCredential::GetSubmitButtonValue

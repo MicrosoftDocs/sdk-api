@@ -7,7 +7,7 @@ old-location: multimedia\icdrawsuggestformat.htm
 tech.root: Multimedia
 ms.assetid: 748d09a6-52db-4bd0-9006-6ee96f07a74b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICDrawSuggestFormat, ICDrawSuggestFormat function [Windows Multimedia], _win32_ICDrawSuggestFormat, multimedia.icdrawsuggestformat, vfw/ICDrawSuggestFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ICDrawSuggestFormat
-: 
 ---
 
 # ICDrawSuggestFormat function

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10depthstencilstate_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10depthstencilstate_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10DepthStencilState interface, ID3D10DepthStencilState interface [Direct3D 10],GetDesc method, ID3D10DepthStencilState.GetDesc, ID3D10DepthStencilState::GetDesc, b619fad1-5159-b9ea-3203-439bc2625a45, d3d10/ID3D10DepthStencilState::GetDesc, direct3d10.id3d10depthstencilstate_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10.h
-: 
-- ID3D10DepthStencilState.GetDesc
-: 
 ---
 
 # ID3D10DepthStencilState::GetDesc

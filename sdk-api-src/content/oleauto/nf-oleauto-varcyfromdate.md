@@ -7,7 +7,7 @@ old-location: automat\varcyfromdate.htm
 tech.root: automat
 ms.assetid: 636f7c14-0363-4323-aae3-1ceede260ad5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarCyFromDate, VarCyFromDate function [Automation], _oa96_VarCyFromDate, automat.varcyfromdate, oleauto/VarCyFromDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarCyFromDate
-: 
 ---
 
 # VarCyFromDate function

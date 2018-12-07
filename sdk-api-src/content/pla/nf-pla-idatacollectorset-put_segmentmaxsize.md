@@ -4,10 +4,10 @@ title: IDataCollectorSet::put_SegmentMaxSize
 author: windows-sdk-content
 description: Retrieves or sets the maximum size of any log file in the data collector set.
 old-location: pla\idatacollectorset_get_segmentmaxsize.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 7dd96822-a398-42c3-94f1-b9cd7a647575
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDataCollectorSet interface [PLA],SegmentMaxSize property, IDataCollectorSet.SegmentMaxSize, IDataCollectorSet.put_SegmentMaxSize, IDataCollectorSet::SegmentMaxSize, IDataCollectorSet::get_SegmentMaxSize, IDataCollectorSet::put_SegmentMaxSize, SegmentMaxSize property [PLA], SegmentMaxSize property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_segmentmaxsize, pla.idatacollectorset_get_segmentmaxsize, pla/IDataCollectorSet::SegmentMaxSize, pla/IDataCollectorSet::get_SegmentMaxSize, pla/IDataCollectorSet::put_SegmentMaxSize, put_SegmentMaxSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollectorSet.put_SegmentMaxSize
-: 
 ---
 
 # IDataCollectorSet::put_SegmentMaxSize

@@ -4,10 +4,10 @@ title: OfflineClusterGroup function
 author: windows-sdk-content
 description: Takes a group offline.
 old-location: mscs\offlineclustergroup.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 465e9eac-6286-4955-a11c-a515c64230da
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: OfflineClusterGroup, OfflineClusterGroup function [Failover Cluster], PCLUSAPI_OFFLINE_CLUSTER_GROUP, PCLUSAPI_OFFLINE_CLUSTER_GROUP function [Failover Cluster], _wolf_offlineclustergroup, clusapi/OfflineClusterGroup, clusapi/PCLUSAPI_OFFLINE_CLUSTER_GROUP, mscs.offlineclustergroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OfflineClusterGroup
-: 
 ---
 
 # OfflineClusterGroup function

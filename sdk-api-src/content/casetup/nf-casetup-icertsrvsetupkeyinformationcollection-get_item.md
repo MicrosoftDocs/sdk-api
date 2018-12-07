@@ -4,10 +4,10 @@ title: ICertSrvSetupKeyInformationCollection::get_Item
 author: windows-sdk-content
 description: Gets an ICertSrvSetupKeyInformation object that is identified by index in the collection.
 old-location: security\icertsrvsetupkeyinformationcollection_item.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 2ae3d695-4dfe-4c72-8e66-64dce88c2bb2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection interface [Security],Item property, ICertSrvSetupKeyInformationCollection.Item, ICertSrvSetupKeyInformationCollection.get_Item, ICertSrvSetupKeyInformationCollection::Item, ICertSrvSetupKeyInformationCollection::get_Item, Item property [Security], Item property [Security],ICertSrvSetupKeyInformationCollection interface, casetup/ICertSrvSetupKeyInformationCollection::Item, casetup/ICertSrvSetupKeyInformationCollection::get_Item, get_Item, security.icertsrvsetupkeyinformationcollection_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- casetup.h
-: 
-- ICertSrvSetupKeyInformationCollection.get_Item
-: 
 ---
 
 # ICertSrvSetupKeyInformationCollection::get_Item

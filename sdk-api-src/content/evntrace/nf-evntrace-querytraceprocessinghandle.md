@@ -4,10 +4,10 @@ title: QueryTraceProcessingHandle function
 author: windows-sdk-content
 description: Queries the system for the trace processing handle.
 old-location: etw\querytraceprocessinghandle.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: 87666275-8752-4EC8-9C01-16D36AE4C5E8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: QueryTraceProcessingHandle, QueryTraceProcessingHandle function [ETW], etw.querytraceprocessinghandle, evntrace/QueryTraceProcessingHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- QueryTraceProcessingHandle
-: 
 ---
 
 # QueryTraceProcessingHandle function

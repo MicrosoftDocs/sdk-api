@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::DataLost
 author: windows-sdk-content
 description: Reports that one or more events destined for this event sink have been lost and will not be delivered.
 old-location: of\iofflinefilesevents_datalost.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: da0414dd-2acb-48d9-ac84-66bb1f7ccbef
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: DataLost, DataLost method [Offline Files], DataLost method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],DataLost method, IOfflineFilesEvents.DataLost, IOfflineFilesEvents::DataLost, cscobj/IOfflineFilesEvents::DataLost, of.iofflinefilesevents_datalost
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesEvents.DataLost
-: 
 ---
 
 # IOfflineFilesEvents::DataLost

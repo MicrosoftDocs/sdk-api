@@ -4,10 +4,10 @@ title: TpSetCallbackCleanupGroup function
 author: windows-sdk-content
 description: Associates the specified cleanup group with the specified callback environment.
 old-location: base\tpsetcallbackcleanupgroup.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: B14084F5-2686-4522-8024-71A07541CFE2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TpSetCallbackCleanupGroup, TpSetCallbackCleanupGroup function, base.tpsetcallbackcleanupgroup, winnt/TpSetCallbackCleanupGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TpSetCallbackCleanupGroup
-: 
 ---
 
 # TpSetCallbackCleanupGroup function

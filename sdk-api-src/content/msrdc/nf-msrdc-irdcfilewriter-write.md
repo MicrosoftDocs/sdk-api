@@ -4,10 +4,10 @@ title: IRdcFileWriter::Write
 author: windows-sdk-content
 description: Write bytes to a file starting at a given offset.
 old-location: rdc\irdcfilewriter_write.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: be7f3f2c-017a-4ca5-9652-a9b091c168be
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRdcFileWriter interface [Remote Differential Compression],Write method, IRdcFileWriter.Write, IRdcFileWriter::Write, Write, Write method [Remote Differential Compression], Write method [Remote Differential Compression],IRdcFileWriter interface, fs.irdcfilewriter_write, msrdc/IRdcFileWriter::Write, rdc.irdcfilewriter_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- IRdcFileWriter.Write
-: 
 ---
 
 # IRdcFileWriter::Write

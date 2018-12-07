@@ -7,7 +7,7 @@ old-location: dfs\netdfssetsecurity.htm
 tech.root: Dfs
 ms.assetid: 7ee81f67-face-498f-b5bd-ca2636408012
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NetDfsSetSecurity, NetDfsSetSecurity function [Distributed File System], dfs.netdfssetsecurity, fs.netdfssetsecurity, lmdfs/NetDfsSetSecurity, netmgmt.netdfssetsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetDfsSetSecurity
-: 
 ---
 
 # NetDfsSetSecurity function

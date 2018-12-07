@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessor_setbackgroundcolor.htm
 tech.root: medfound
 ms.assetid: fb654dba-1f03-48a7-ac8e-fa0c82f29849
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFVideoProcessor interface [Media Foundation],SetBackgroundColor method, IMFVideoProcessor.SetBackgroundColor, IMFVideoProcessor::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Media Foundation], SetBackgroundColor method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetBackgroundColor, fb654dba-1f03-48a7-ac8e-fa0c82f29849, mf.imfvideoprocessor_setbackgroundcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- evr9.h
-: 
-- IMFVideoProcessor.SetBackgroundColor
-: 
 ---
 
 # IMFVideoProcessor::SetBackgroundColor

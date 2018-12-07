@@ -7,7 +7,7 @@ old-location: fwp\fwpmcalloutadd0_func.htm
 tech.root: fwp
 ms.assetid: e4f79262-6345-49e9-a50c-9f8a82f2df0e
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmCalloutAdd0, FwpmCalloutAdd0 function [Filtering], fwp.fwpmcalloutadd0_func, fwpmu/FwpmCalloutAdd0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmCalloutAdd0
-: 
 ---
 
 # FwpmCalloutAdd0 function

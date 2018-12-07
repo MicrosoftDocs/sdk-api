@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiresource1_createsharedhandle.htm
 tech.root: direct3ddxgi
 ms.assetid: 7A53616A-E7AB-4EB7-9B8F-ED43A70B691C
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateSharedHandle, CreateSharedHandle method [DXGI], CreateSharedHandle method [DXGI],IDXGIResource1 interface, IDXGIResource1 interface [DXGI],CreateSharedHandle method, IDXGIResource1.CreateSharedHandle, IDXGIResource1::CreateSharedHandle, direct3ddxgi.idxgiresource1_createsharedhandle, dxgi1_2/IDXGIResource1::CreateSharedHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dxgi1_2.h
-: 
-- IDXGIResource1.CreateSharedHandle
-: 
 ---
 
 # IDXGIResource1::CreateSharedHandle

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionfiltereffect.htm
 tech.root: directcomp
 ms.assetid: 4303c24d-e3e1-e188-bbef-e654c0e7e266
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionFilterEffect, IDCompositionFilterEffect interface [DirectComposition], IDCompositionFilterEffect interface [DirectComposition],described, dcomp/IDCompositionFilterEffect, directcomp.idcompositionfiltereffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

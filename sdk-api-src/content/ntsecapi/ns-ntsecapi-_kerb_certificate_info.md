@@ -4,10 +4,10 @@ title: "_KERB_CERTIFICATE_INFO"
 author: windows-sdk-content
 description: Contains the certificate information.
 old-location: security\kerb_certificate_info.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 1E8CA0FE-02DF-4FAA-B0ED-5882DF38B78A
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PKERB_CERTIFICATE_INFO, KERB_CERTIFICATE_INFO, KERB_CERTIFICATE_INFO structure [Security], PKERB_CERTIFICATE_INFO, PKERB_CERTIFICATE_INFO structure pointer [Security], _KERB_CERTIFICATE_INFO, ntsecapi/KERB_CERTIFICATE_INFO, ntsecapi/PKERB_CERTIFICATE_INFO, security.kerb_certificate_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

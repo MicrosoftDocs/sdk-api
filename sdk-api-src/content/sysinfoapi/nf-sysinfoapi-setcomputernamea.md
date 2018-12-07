@@ -4,10 +4,10 @@ title: SetComputerNameA function
 author: windows-sdk-content
 description: Sets a new NetBIOS name for the local computer. The name is stored in the registry and the name change takes effect the next time the user restarts the computer.
 old-location: base\setcomputername.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: ff64fde2-d1b5-4211-b8c4-4823a5469e04
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SetComputerName, SetComputerName function, SetComputerNameA, SetComputerNameW, _win32_setcomputername, base.setcomputername, sysinfoapi/SetComputerName, sysinfoapi/SetComputerNameA, sysinfoapi/SetComputerNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetComputerNameA
-: 
 ---
 
 # SetComputerNameA function

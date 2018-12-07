@@ -4,10 +4,10 @@ title: IUPnPServiceDocumentAccess::GetDocument
 author: windows-sdk-content
 description: GetDocument method retrieves the Service Control Protocol Description (SCPD) document for a service object.
 old-location: upnp\iupnpservicedocumentaccess_getdocument.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: B0C197A0-4987-43BD-A48D-BF2E6150A85F
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetDocument, GetDocument method [UPnP APIs], GetDocument method [UPnP APIs],IUPnPServiceDocumentAccess interface, IUPnPServiceDocumentAccess interface [UPnP APIs],GetDocument method, IUPnPServiceDocumentAccess.GetDocument, IUPnPServiceDocumentAccess::GetDocument, upnp.iupnpservicedocumentaccess_getdocument, upnp/IUPnPServiceDocumentAccess::GetDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPServiceDocumentAccess.GetDocument
-: 
 ---
 
 # IUPnPServiceDocumentAccess::GetDocument

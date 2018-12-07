@@ -4,10 +4,10 @@ title: IGPMBackupDir
 author: windows-sdk-content
 description: The IGPMBackupDir interface supports methods that allow you to query GPMBackup and GPMBackupCollection objects when you use the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmbackupdir.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 2d44cf6d-a3fa-43db-b28e-3d48f6d13625
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPMBackupDir, IGPMBackupDir, IGPMBackupDir interface [GPMC], IGPMBackupDir interface [GPMC],described, _win32_igpmbackupdir, gpmc.igpmbackupdir, gpmgmt/IGPMBackupDir
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IRunningTask::get_EnginePID
 author: windows-sdk-content
 description: Gets the process ID for the engine (process) which is running the task.
 old-location: taskschd\irunningtask_enginepid.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 933a0e41-e025-483a-98c4-a3b8e264c462
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EnginePID property [Task Scheduler], EnginePID property [Task Scheduler],IRunningTask interface, EnginePID property [Task Scheduler],TBD object, IRunningTask interface [Task Scheduler],EnginePID property, IRunningTask.EnginePID, IRunningTask.get_EnginePID, IRunningTask::EnginePID, IRunningTask::get_EnginePID, TBD object [Task Scheduler],EnginePID property, get_EnginePID, taskschd.irunningtask_enginepid, taskschd/IRunningTask::EnginePID, taskschd/IRunningTask::get_EnginePID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IRunningTask.get_EnginePID
-: 
 ---
 
 # IRunningTask::get_EnginePID

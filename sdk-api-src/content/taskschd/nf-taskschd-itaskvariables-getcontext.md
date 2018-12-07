@@ -4,10 +4,10 @@ title: ITaskVariables::GetContext
 author: windows-sdk-content
 description: Used to share the context between different steps and tasks that are in the same job instance.
 old-location: taskschd\itaskvariables_getcontext.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 090d24ac-18eb-4a76-887f-30d3b99e7ad0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetContext, GetContext method [Task Scheduler], GetContext method [Task Scheduler],ITaskVariables interface, ITaskVariables interface [Task Scheduler],GetContext method, ITaskVariables.GetContext, ITaskVariables::GetContext, taskschd.itaskvariables_getcontext, taskschd/ITaskVariables::GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITaskVariables.GetContext
-: 
 ---
 
 # ITaskVariables::GetContext

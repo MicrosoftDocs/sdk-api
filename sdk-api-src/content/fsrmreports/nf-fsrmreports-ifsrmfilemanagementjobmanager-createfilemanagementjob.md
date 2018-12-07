@@ -4,10 +4,10 @@ title: IFsrmFileManagementJobManager::CreateFileManagementJob
 author: windows-sdk-content
 description: Creates a file management job.
 old-location: fsrm\ifsrmfilemanagementjobmanager_createfilemanagementjob.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 22ac77f5-264e-482b-aacf-0c1d90dd4dbe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateFileManagementJob, CreateFileManagementJob method [File Server Resource Manager], CreateFileManagementJob method [File Server Resource Manager],FsrmFileManagementJobManager class, CreateFileManagementJob method [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],CreateFileManagementJob method, IFsrmFileManagementJobManager interface [File Server Resource Manager],CreateFileManagementJob method, IFsrmFileManagementJobManager.CreateFileManagementJob, IFsrmFileManagementJobManager::CreateFileManagementJob, fs.ifsrmfilemanagementjobmanager_createfilemanagementjob, fsrm.ifsrmfilemanagementjobmanager_createfilemanagementjob, fsrmreports/IFsrmFileManagementJobManager::CreateFileManagementJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmFileManagementJobManager.CreateFileManagementJob
-: 
 ---
 
 # IFsrmFileManagementJobManager::CreateFileManagementJob

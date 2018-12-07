@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetoutputconstriction.htm
 tech.root: medfound
 ms.assetid: 40F7D380-C385-4C1C-90E5-E362CA54CD41
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputConstriction method, ID3D11VideoContext.VideoProcessorGetOutputConstriction, ID3D11VideoContext::VideoProcessorGetOutputConstriction, VideoProcessorGetOutputConstriction, VideoProcessorGetOutputConstriction method [Media Foundation], VideoProcessorGetOutputConstriction method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputConstriction, mf.id3d11videocontext_videoprocessorgetoutputconstriction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11VideoContext.VideoProcessorGetOutputConstriction
-: 
 ---
 
 # ID3D11VideoContext::VideoProcessorGetOutputConstriction

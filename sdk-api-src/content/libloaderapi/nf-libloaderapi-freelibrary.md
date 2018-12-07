@@ -7,7 +7,7 @@ old-location: base\freelibrary.htm
 tech.root: Dlls
 ms.assetid: 823d3147-4ba8-4fe5-ade4-e5604f47eb0a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FreeLibrary, FreeLibrary function, _win32_freelibrary, base.freelibrary, libloaderapi/FreeLibrary, winbase/FreeLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,12 +50,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FreeLibrary
-: 
 ---
 
 # FreeLibrary function

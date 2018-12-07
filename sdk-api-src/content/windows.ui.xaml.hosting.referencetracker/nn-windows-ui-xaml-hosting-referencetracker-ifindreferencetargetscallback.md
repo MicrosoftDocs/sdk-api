@@ -7,7 +7,7 @@ old-location: winrt\ifindreferencetargetscallback.htm
 tech.root: WinRT
 ms.assetid: 1733680a-6b14-4541-b30d-407f5185ac14
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFindReferenceTargetsCallback, IFindReferenceTargetsCallback interface [Windows Runtime], IFindReferenceTargetsCallback interface [Windows Runtime],described, windows/IFindReferenceTargetsCallback, winrt.ifindreferencetargetscallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: InternetCloseHandle function
 author: windows-sdk-content
 description: Closes a single Internet handle.
 old-location: wininet\internetclosehandle.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 52b57e3c-3cfe-40bc-b87b-90cf39c5c38d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InternetCloseHandle, InternetCloseHandle function [WinINet], _win32_internetclosehandle, wininet.internetclosehandle, wininet/InternetCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InternetCloseHandle
-: 
 ---
 
 # InternetCloseHandle function

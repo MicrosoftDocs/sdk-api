@@ -4,10 +4,10 @@ title: IWEInvokeCommand::InvokeCommand
 author: windows-sdk-content
 description: Allows you to implement procedures that execute when users select your context menu items.
 old-location: mscs\iweinvokecommand_invokecommand.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 1e723535-d786-496f-bc16-5b10a8a22383
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWEInvokeCommand interface [Failover Cluster],InvokeCommand method, IWEInvokeCommand.InvokeCommand, IWEInvokeCommand::InvokeCommand, InvokeCommand, InvokeCommand method [Failover Cluster], InvokeCommand method [Failover Cluster],IWEInvokeCommand interface, _wolf_iweinvokecommand_invokecommand, cluadmex/IWEInvokeCommand::InvokeCommand, mscs.iweinvokecommand_invokecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cluadmex.h
-: 
-- IWEInvokeCommand.InvokeCommand
-: 
 ---
 
 # IWEInvokeCommand::InvokeCommand

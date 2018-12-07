@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_raise_flag.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_raise_flag.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 4f0a160b-254f-303d-968b-d35d73102d48, D3D10_RAISE_FLAG, D3D10_RAISE_FLAG enumeration [Direct3D 10], D3D10_RAISE_FLAG_DRIVER_INTERNAL_ERROR, d3d10/D3D10_RAISE_FLAG, d3d10/D3D10_RAISE_FLAG_DRIVER_INTERNAL_ERROR, direct3d10.d3d10_raise_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices

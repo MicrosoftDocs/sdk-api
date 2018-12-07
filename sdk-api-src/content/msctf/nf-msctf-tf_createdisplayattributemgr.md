@@ -7,7 +7,7 @@ old-location: tsf\tf_createdisplayattributemgr.htm
 tech.root: TSF
 ms.assetid: d50ab73d-6266-4aaa-8053-ebbc84ec1e2c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TF_CreateDisplayAttributeMgr, TF_CreateDisplayAttributeMgr function [Text Services Framework], msctf/TF_CreateDisplayAttributeMgr, tsf.tf_createdisplayattributemgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- 
-: 
-- TF_CreateDisplayAttributeMgr
-: 
 ---
 
 # TF_CreateDisplayAttributeMgr function

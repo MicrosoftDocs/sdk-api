@@ -4,10 +4,10 @@ title: IOCSPPropertyCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets an enumerator for a property set.
 old-location: security\iocsppropertycollection__newenum_method.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 09ed83ce-ebab-4d03-a508-304f54206921
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],_NewEnum property, IOCSPPropertyCollection._NewEnum, IOCSPPropertyCollection.get__NewEnum, IOCSPPropertyCollection::_NewEnum, IOCSPPropertyCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::_NewEnum, certadm/IOCSPPropertyCollection::get__NewEnum, get__NewEnum, security.iocsppropertycollection__newenum_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certadm.h
-: 
-- IOCSPPropertyCollection.get__NewEnum
-: 
 ---
 
 # IOCSPPropertyCollection::get__NewEnum

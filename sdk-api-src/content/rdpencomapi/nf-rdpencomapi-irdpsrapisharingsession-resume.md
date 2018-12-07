@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession::Resume
 author: windows-sdk-content
 description: Causes the graphics stream that is sent to all viewers from the sharer to resume until either IRDPSRAPISharingSession::Pause or IRDPSRAPISharingSession::Close is called.
 old-location: rdp\irdpsrapisharingsession_resume.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 3e99d514-a6fe-4855-99ab-9ab2b5cbcc9b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Resume method, IRDPSRAPISharingSession.Resume, IRDPSRAPISharingSession2 interface [RDP],Resume method, IRDPSRAPISharingSession2::Resume, IRDPSRAPISharingSession::Resume, Resume, Resume method [RDP], Resume method [RDP],IRDPSRAPISharingSession interface, Resume method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession_resume, rdpencomapi/IRDPSRAPISharingSession2::Resume, rdpencomapi/IRDPSRAPISharingSession::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPISharingSession.Resume
-: 
 ---
 
 # IRDPSRAPISharingSession::Resume

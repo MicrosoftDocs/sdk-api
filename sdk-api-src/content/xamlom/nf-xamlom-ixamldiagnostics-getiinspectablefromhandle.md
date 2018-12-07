@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ixamldiagnostics_getiinspectablefromhandle.htm
 tech.root: xaml_diagnostics
 ms.assetid: F5BD99E0-CBAF-461C-9B4A-692604D4BAA9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetIInspectableFromHandle, GetIInspectableFromHandle method, GetIInspectableFromHandle method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetIInspectableFromHandle method, IXamlDiagnostics.GetIInspectableFromHandle, IXamlDiagnostics::GetIInspectableFromHandle, xaml_diagnostics.ixamldiagnostics_getiinspectablefromhandle, xamlom/IXamlDiagnostics::GetIInspectableFromHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xamlom.h
-: 
-- IXamlDiagnostics.GetIInspectableFromHandle
-: 
 ---
 
 # IXamlDiagnostics::GetIInspectableFromHandle

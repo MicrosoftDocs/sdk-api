@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontfamily1.htm
 tech.root: DirectWrite
 ms.assetid: 0642C2FA-03D0-4233-B8C4-27E4549B30BB
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDWriteFontFamily1, IDWriteFontFamily1 interface [Direct Write], IDWriteFontFamily1 interface [Direct Write],described, directwrite.idwritefontfamily1, dwrite_3/IDWriteFontFamily1
 ms.prod: windows-hardware
 ms.technology: windows-devices

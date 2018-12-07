@@ -7,7 +7,7 @@ old-location: security\slgetserverstatus.htm
 tech.root: SecSLApi
 ms.assetid: 3c07fdcc-2282-4d94-ac60-001571cd5da8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLGetServerStatus, SLGetServerStatus function [Security], SL_INFO_KEY_PRODUCT_ACTIVATION_URL, SL_INFO_KEY_PRODUCT_KEY_ACTIVATION_URL, SL_INFO_KEY_RIGHT_ACCOUNT_ACTIVATION_URL, SL_INFO_KEY_SECURE_PROCESSOR_ACTIVATION_URL, SL_INFO_KEY_USE_LICENSE_ACTIVATION_URL, security.slgetserverstatus, slpublic/SLGetServerStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SLGetServerStatus
-: 
 ---
 
 # SLGetServerStatus function

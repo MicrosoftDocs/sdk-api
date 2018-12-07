@@ -7,7 +7,7 @@ old-location: http\winhttpwritedata.htm
 tech.root: WinHttp
 ms.assetid: c8b94285-1b01-451b-9803-cc1bacb015ff
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinHttpWriteData, WinHttpWriteData function [WinHTTP], http.winhttpwritedata, winhttp.winhttpwritedata_function, winhttp/WinHttpWriteData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
-- apiref
-: 
-- 
-: 
-- WinHttpWriteData
-: 
 ---
 
 # WinHttpWriteData function

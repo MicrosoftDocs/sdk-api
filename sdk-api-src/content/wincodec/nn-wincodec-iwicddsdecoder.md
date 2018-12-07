@@ -7,7 +7,7 @@ old-location: wic\iwicddsdecoder.htm
 tech.root: wic
 ms.assetid: 632D1E7B-9C1D-48FB-95B5-1A295FE99577
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWICDdsDecoder, IWICDdsDecoder interface [Windows Imaging Component], IWICDdsDecoder interface [Windows Imaging Component],described, wic.iwicddsdecoder, wincodec/IWICDdsDecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

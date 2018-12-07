@@ -7,7 +7,7 @@ old-location: mediastreaming\transportstate.htm
 tech.root: mediastreaming
 ms.assetid: 2F942EAC-514B-4E65-A12F-85558E9A96A0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Last, NoMediaPresent, Paused, Playing, Recording, Stopped, Transitioning, TransportState, TransportState enumeration [Media Streaming API], Unknown, mediastreaming.transportstate, windows/Last, windows/NoMediaPresent, windows/Paused, windows/Playing, windows/Recording, windows/Stopped, windows/Transitioning, windows/TransportState, windows/Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,9 +80,6 @@ Defines the available transport states as defined by the UPnP Guidelines.
 
 
 ### -field TransportState_Last
-
-
-### -field int
 
 
 

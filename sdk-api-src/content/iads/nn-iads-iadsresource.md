@@ -4,10 +4,10 @@ title: IADsResource
 author: windows-sdk-content
 description: The IADsResource interface is a dual interface that inherits from IADs. It is designed to manage an open resource for a file service across a network.
 old-location: adsi\iadsresource.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 217749a4-55dc-457f-8582-1513ff3b0666
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsResource, IADsResource interface [ADSI], IADsResource interface [ADSI],described, _ds_iadsresource, adsi.iadsresource, iads/IADsResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: ITraceDataProvider::SetSecurity
 author: windows-sdk-content
 description: Sets the security information for the trace data provider.
 old-location: pla\itracedataprovider_setsecurity.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 07b6f5b3-5531-4174-9315-661695bd7c5d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: ITraceDataProvider interface [PLA],SetSecurity method, ITraceDataProvider.SetSecurity, ITraceDataProvider::SetSecurity, SetSecurity, SetSecurity method [PLA], SetSecurity method [PLA],ITraceDataProvider interface, pla.itracedataprovider_setsecurity, pla/ITraceDataProvider::SetSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- ITraceDataProvider.SetSecurity
-: 
 ---
 
 # ITraceDataProvider::SetSecurity

@@ -4,10 +4,10 @@ title: IVssHardwareSnapshotProviderEx::ResyncLuns
 author: windows-sdk-content
 description: The VSS service calls this method to notify hardware providers that a LUN resynchronization is needed.
 old-location: base\ivsshardwaresnapshotproviderex_resyncluns.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 27322ba0-e318-45d4-824e-8c81a18abd49
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,ResyncLuns method, IVssHardwareSnapshotProviderEx.ResyncLuns, IVssHardwareSnapshotProviderEx::ResyncLuns, ResyncLuns, ResyncLuns method, ResyncLuns method,IVssHardwareSnapshotProviderEx interface, base.ivsshardwaresnapshotproviderex_resyncluns, vsprov/IVssHardwareSnapshotProviderEx::ResyncLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsprov.h
-: 
-- IVssHardwareSnapshotProviderEx.ResyncLuns
-: 
 ---
 
 # IVssHardwareSnapshotProviderEx::ResyncLuns

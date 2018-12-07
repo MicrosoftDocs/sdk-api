@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_stop.htm
 tech.root: mstv
 ms.assetid: 8ca43663-3726-4147-8774-2f1eecef9142
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Stop method, IMSVidCtl.Stop, IMSVidCtl::Stop, IMSVidCtlStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_stop, msvidctl/IMSVidCtl::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msvidctl.h
-: 
-- IMSVidCtl.Stop
-: 
 ---
 
 # IMSVidCtl::Stop

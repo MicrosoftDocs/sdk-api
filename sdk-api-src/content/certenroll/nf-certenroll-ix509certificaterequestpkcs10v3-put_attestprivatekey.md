@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10V3::put_AttestPrivateKey
 author: windows-sdk-content
 description: True if the created private key needs to be attested; otherwise false. If true, it is expected that the AttestationEncryptionCertificate property has been set.
 old-location: security\ix509certificaterequestpkcs10v3_attestprivatekey.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 9b3234a2-ec65-4624-8d35-a6f50cb10150
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AttestPrivateKey property [Security], AttestPrivateKey property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],AttestPrivateKey property, IX509CertificateRequestPkcs10V3.AttestPrivateKey, IX509CertificateRequestPkcs10V3.put_AttestPrivateKey, IX509CertificateRequestPkcs10V3::AttestPrivateKey, IX509CertificateRequestPkcs10V3::get_AttestPrivateKey, IX509CertificateRequestPkcs10V3::put_AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::get_AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::put_AttestPrivateKey, put_AttestPrivateKey, security.ix509certificaterequestpkcs10v3_attestprivatekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509CertificateRequestPkcs10V3.put_AttestPrivateKey
-: 
 ---
 
 # IX509CertificateRequestPkcs10V3::put_AttestPrivateKey

@@ -4,10 +4,10 @@ title: PWAITCHAINCALLBACK
 author: windows-sdk-content
 description: An application-defined callback function that receives a wait chain. Specify this address when calling the OpenThreadWaitChainSession function.
 old-location: base\waitchaincallback.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 07d987b4-3ee4-4957-a6e8-542c427b94dd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ERROR_ACCESS_DENIED, ERROR_CANCELLED, ERROR_MORE_DATA, ERROR_OBJECT_NOT_FOUND, ERROR_SUCCESS, ERROR_TOO_MANY_THREADS, PWAITCHAINCALLBACK, PWAITCHAINCALLBACK callback, PWAITCHAINCALLBACK callback function, base.waitchaincallback, wct/PWAITCHAINCALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: TdhEnumerateProviders function
 author: windows-sdk-content
 description: Retrieves a list of providers that have registered a MOF class or manifest file on the computer.
 old-location: etw\tdhenumerateproviders_func.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: ef326ef8-227d-46b5-88b9-b519748fb778
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TdhEnumerateProviders, TdhEnumerateProviders function [ETW], etw.tdhenumerateproviders_func, tdh.tdhenumerateproviders_func, tdh/TdhEnumerateProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TdhEnumerateProviders
-: 
 ---
 
 # TdhEnumerateProviders function

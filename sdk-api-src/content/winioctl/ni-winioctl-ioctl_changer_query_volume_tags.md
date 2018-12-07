@@ -7,7 +7,7 @@ old-location: base\ioctl_changer_query_volume_tags.htm
 tech.root: devio
 ms.assetid: 67c440e1-cef8-459d-b811-0b483ff51e7e
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_CHANGER_QUERY_VOLUME_TAGS, IOCTL_CHANGER_QUERY_VOLUME_TAGS control, IOCTL_CHANGER_QUERY_VOLUME_TAGS control code, _win32_ioctl_changer_query_volume_tags, base.ioctl_changer_query_volume_tags, winioctl/IOCTL_CHANGER_QUERY_VOLUME_TAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

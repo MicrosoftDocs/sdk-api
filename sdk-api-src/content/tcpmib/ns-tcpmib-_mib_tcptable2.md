@@ -7,7 +7,7 @@ old-location: mib\mib_tcptable2.htm
 tech.root: MIB
 ms.assetid: e07de994-0bd5-4d18-9012-8ff191dd6939
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMIB_TCPTABLE2, MIB_TCPTABLE2, MIB_TCPTABLE2 structure [MIB], PMIB_TCPTABLE2, PMIB_TCPTABLE2 structure pointer [MIB], _MIB_TCPTABLE2, mib.mib_tcptable2, tcpmib/MIB_TCPTABLE2, tcpmib/PMIB_TCPTABLE2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

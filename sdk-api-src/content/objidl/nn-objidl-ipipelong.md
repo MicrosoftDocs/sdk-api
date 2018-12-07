@@ -7,7 +7,7 @@ old-location: com\ipipelong.htm
 tech.root: com
 ms.assetid: c1b4d3b3-e1bf-4441-8cea-b667b82c4c27
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IPipeLong, IPipeLong interface [COM], IPipeLong interface [COM],described, _com_ipipelong, com.ipipelong, objidlbase/IPipeLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

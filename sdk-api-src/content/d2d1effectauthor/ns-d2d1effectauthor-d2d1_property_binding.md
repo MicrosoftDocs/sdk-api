@@ -4,10 +4,10 @@ title: D2D1_PROPERTY_BINDING
 author: windows-sdk-content
 description: Defines a property binding to a pair of functions which get and set the corresponding property.
 old-location: direct2d\d2d1_property_binding.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 0eb6d428-cb65-4738-9cf3-64038b728004
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_PROPERTY_BINDING, D2D1_PROPERTY_BINDING structure [Direct2D], d2d1effectauthor/D2D1_PROPERTY_BINDING, direct2d.d2d1_property_binding
 ms.prod: windows-hardware
 ms.technology: windows-devices

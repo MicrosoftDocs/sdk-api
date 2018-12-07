@@ -4,10 +4,10 @@ title: StackWalk64 function
 author: windows-sdk-content
 description: Obtains a stack trace.
 old-location: base\stackwalk64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: e2bdaa4c-5474-41a0-bcea-927570c8402c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, StackWalk, StackWalk function, StackWalk64, StackWalk64 function, _win32_stackwalk64, base.stackwalk64, dbghelp/StackWalk, dbghelp/StackWalk64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
-- apiref
-: 
-- 
-: 
-- StackWalk64
-: 
 ---
 
 # StackWalk64 function

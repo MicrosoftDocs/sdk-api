@@ -4,10 +4,10 @@ title: MsiRecordSetInteger function
 author: windows-sdk-content
 description: Sets a record field to an integer field.
 old-location: setup\msirecordsetinteger.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: d95105f0-afd6-4f56-94bd-ac8f49cb8f52
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MsiRecordSetInteger, MsiRecordSetInteger function, _msi_msirecordsetinteger, msiquery/MsiRecordSetInteger, setup.msirecordsetinteger
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiRecordSetInteger
-: 
 ---
 
 # MsiRecordSetInteger function

@@ -7,7 +7,7 @@ old-location: properties\PSGetNameFromPropertyKey.htm
 tech.root: properties
 ms.assetid: 7ab6b5e8-8202-4553-ba9b-be7cf9f9381d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PSGetNameFromPropertyKey, PSGetNameFromPropertyKey function [Windows Properties], properties.PSGetNameFromPropertyKey, propsys/PSGetNameFromPropertyKey, shell.PSGetNameFromPropertyKey, shell_PSGetNameFromPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PSGetNameFromPropertyKey
-: 
 ---
 
 # PSGetNameFromPropertyKey function

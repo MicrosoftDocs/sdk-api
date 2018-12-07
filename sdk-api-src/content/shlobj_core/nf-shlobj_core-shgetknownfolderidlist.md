@@ -7,7 +7,7 @@ old-location: shell\SHGetKnownFolderIDList.htm
 tech.root: shell
 ms.assetid: fed9cfb8-4c38-4947-99aa-278245148136
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHGetKnownFolderIDList, SHGetKnownFolderIDList function [Windows Shell], _shell_SHGetKnownFolderIDList, shell.SHGetKnownFolderIDList, shlobj_core/SHGetKnownFolderIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHGetKnownFolderIDList
-: 
 ---
 
 # SHGetKnownFolderIDList function

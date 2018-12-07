@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11moduleinstance_bindresourceasunorderedaccessview.
 tech.root: direct3d11
 ms.assetid: A9E61E17-F1FE-4BF1-8A4A-F73B23FEDD08
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: BindResourceAsUnorderedAccessView, BindResourceAsUnorderedAccessView method [Direct3D 11], BindResourceAsUnorderedAccessView method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindResourceAsUnorderedAccessView method, ID3D11ModuleInstance.BindResourceAsUnorderedAccessView, ID3D11ModuleInstance::BindResourceAsUnorderedAccessView, d3d11shader/ID3D11ModuleInstance::BindResourceAsUnorderedAccessView, direct3d11.id3d11moduleinstance_bindresourceasunorderedaccessview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11shader.h
-: 
-- ID3D11ModuleInstance.BindResourceAsUnorderedAccessView
-: 
 ---
 
 # ID3D11ModuleInstance::BindResourceAsUnorderedAccessView

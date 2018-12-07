@@ -4,10 +4,10 @@ title: IEventTrigger::put_Delay
 author: windows-sdk-content
 description: Gets or sets a value that indicates the amount of time between when the event occurs and when the task is started.
 old-location: taskschd\ieventtrigger_delay.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 2731ad62-6384-4c66-b66f-b159a5b15cb1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],IEventTrigger interface, IEventTrigger interface [Task Scheduler],Delay property, IEventTrigger.Delay, IEventTrigger.put_Delay, IEventTrigger::Delay, IEventTrigger::get_Delay, IEventTrigger::put_Delay, put_Delay, taskschd.ieventtrigger_delay, taskschd/IEventTrigger::Delay, taskschd/IEventTrigger::get_Delay, taskschd/IEventTrigger::put_Delay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IEventTrigger.put_Delay
-: 
 ---
 
 # IEventTrigger::put_Delay

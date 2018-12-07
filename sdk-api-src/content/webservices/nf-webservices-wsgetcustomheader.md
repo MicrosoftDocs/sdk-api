@@ -7,7 +7,7 @@ old-location: wsw\wsgetcustomheader.htm
 tech.root: wsw
 ms.assetid: bdfb441b-afc4-4be8-b437-f299a31ce84b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsGetCustomHeader, WsGetCustomHeader function [Web Services for Windows], webservices/WsGetCustomHeader, wsw.wsgetcustomheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsGetCustomHeader
-: 
 ---
 
 # WsGetCustomHeader function

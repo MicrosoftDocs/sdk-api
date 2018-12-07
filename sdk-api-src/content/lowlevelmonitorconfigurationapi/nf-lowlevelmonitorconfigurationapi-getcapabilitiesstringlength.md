@@ -7,7 +7,7 @@ old-location: monitor\getcapabilitiesstringlength.htm
 tech.root: Monitor
 ms.assetid: fe38e63d-b5b8-4b64-b7cb-9ff1c20a2e4a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetCapabilitiesStringLength, GetCapabilitiesStringLength function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetCapabilitiesStringLength, monitor.getcapabilitiesstringlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetCapabilitiesStringLength
-: 
 ---
 
 # GetCapabilitiesStringLength function

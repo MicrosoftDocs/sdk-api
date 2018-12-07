@@ -4,10 +4,10 @@ title: RpcNsProfileEltAddW function
 author: windows-sdk-content
 description: The RpcNsProfileEltAdd function adds an element to a profile. If necessary, it creates the entry.
 old-location: rpc\rpcnsprofileeltadd.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: e0a2d4b9-853c-4578-8a15-e0be7bfc0b9b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RpcNsProfileEltAdd, RpcNsProfileEltAdd function [RPC], RpcNsProfileEltAddA, RpcNsProfileEltAddW, _rpc_rpcnsprofileeltadd, rpc.rpcnsprofileeltadd, rpcnsi/RpcNsProfileEltAdd, rpcnsi/RpcNsProfileEltAddA, rpcnsi/RpcNsProfileEltAddW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcNsProfileEltAddW
-: 
 ---
 
 # RpcNsProfileEltAddW function

@@ -7,7 +7,7 @@ old-location: tsf\itffngetlinguisticalternates_getalternates.htm
 tech.root: TSF
 ms.assetid: 17BB0DF8-3F97-423C-A2FD-CDC7590EE49B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetAlternates, GetAlternates method [Text Services Framework], GetAlternates method [Text Services Framework],ITfFnGetLinguisticAlternates interface, ITfFnGetLinguisticAlternates interface [Text Services Framework],GetAlternates method, ITfFnGetLinguisticAlternates.GetAlternates, ITfFnGetLinguisticAlternates::GetAlternates, ctffunc/ITfFnGetLinguisticAlternates::GetAlternates, tsf.itffngetlinguisticalternates_getalternates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ctffunc.h
-: 
-- ITfFnGetLinguisticAlternates.GetAlternates
-: 
 ---
 
 # ITfFnGetLinguisticAlternates::GetAlternates

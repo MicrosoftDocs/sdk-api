@@ -7,7 +7,7 @@ old-location: wds\pxesendreply.htm
 tech.root: wds
 ms.assetid: b4809f0b-b8a5-45d1-b6ef-8f812379e706
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: PxeSendReply, PxeSendReply function [Windows Deployment Services], wds.pxesendreply, wdspxe/PxeSendReply
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PxeSendReply
-: 
 ---
 
 # PxeSendReply function

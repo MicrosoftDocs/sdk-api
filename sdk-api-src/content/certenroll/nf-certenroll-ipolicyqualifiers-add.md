@@ -4,10 +4,10 @@ title: IPolicyQualifiers::Add
 author: windows-sdk-content
 description: Adds an object to the collection.
 old-location: security\ipolicyqualifiers_add_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 41ead360-0b11-4e47-86c5-24e636cc589d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Add method, IPolicyQualifiers.Add, IPolicyQualifiers::Add, certenroll/IPolicyQualifiers::Add, security.ipolicyqualifiers_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IPolicyQualifiers.Add
-: 
 ---
 
 # IPolicyQualifiers::Add

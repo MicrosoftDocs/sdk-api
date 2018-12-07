@@ -4,10 +4,10 @@ title: "_PUBLICKEYSTRUC"
 author: windows-sdk-content
 description: Indicates a key's BLOB type and the algorithm that the key uses.
 old-location: security\publickeystruc.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 99d41222-b4ca-40f3-a240-52b0a9b3a9aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: BLOBHEADER, BLOBHEADER [Security], BLOBHEADER structure [Security], KEYSTATEBLOB, OPAQUEKEYBLOB, PLAINTEXTKEYBLOB, PRIVATEKEYBLOB, PUBLICKEYBLOB, PUBLICKEYBLOBEX, PUBLICKEYSTRUC, PUBLICKEYSTRUC structure [Security], SIMPLEBLOB, SYMMETRICWRAPKEYBLOB, _PUBLICKEYSTRUC, _cryptcsp_blobheader, _crypto2_publickeystruc, security.blobheader, security.publickeystruc, wincrypt/PUBLICKEYSTRUC
 ms.prod: windows-hardware
 ms.technology: windows-devices

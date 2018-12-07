@@ -4,10 +4,10 @@ title: IVdsIscsiInitiatorPortal
 author: windows-sdk-content
 description: Provides methods to query and interact with iSCSI initiator portals on the local system.
 old-location: base\ivdsiscsiinitiatorportal.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: ae64cc73-4f36-4846-a1c0-f329de6299ee
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsIscsiInitiatorPortal, IVdsIscsiInitiatorPortal interface [VDS], IVdsIscsiInitiatorPortal interface [VDS],described, base.ivdsiscsiinitiatorportal, vds/IVdsIscsiInitiatorPortal
 ms.prod: windows-hardware
 ms.technology: windows-devices

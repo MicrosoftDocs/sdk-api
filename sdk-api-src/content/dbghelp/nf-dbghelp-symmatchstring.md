@@ -4,10 +4,10 @@ title: SymMatchString function
 author: windows-sdk-content
 description: Compares the specified string to the specified wildcard expression.
 old-location: base\symmatchstring.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 8423d14c-4ad7-453d-82d2-72e41492ac15
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SymMatchString, SymMatchString function, SymMatchStringW, base.symmatchstring, dbghelp/SymMatchString, dbghelp/SymMatchStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
-- apiref
-: 
-- 
-: 
-- SymMatchString
-: 
 ---
 
 # SymMatchString function

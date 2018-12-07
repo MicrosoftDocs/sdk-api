@@ -7,7 +7,7 @@ old-location: mf\imfmediakeysession_update.htm
 tech.root: medfound
 ms.assetid: 29e66037-5f18-4724-b6f2-d85555e6af69
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFMediaKeySession interface [Media Foundation],Update method, IMFMediaKeySession.Update, IMFMediaKeySession::Update, Update, Update method [Media Foundation], Update method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_update, mfmediaengine/IMFMediaKeySession::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfmediaengine.h
-: 
-- IMFMediaKeySession.Update
-: 
 ---
 
 # IMFMediaKeySession::Update

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__DisableModeless.htm
 tech.root: shell
 ms.assetid: e13763de-a3cb-42ea-a3bc-e9324e14d336
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_DisableModeless method, IBrowserService2._DisableModeless, IBrowserService2::_DisableModeless, _DisableModeless, _DisableModeless method [Windows Shell], _DisableModeless method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_DisableModeless, shell.IBrowserService2__DisableModeless, zone_IBrowserService2__DisableModeless
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- IBrowserService2._DisableModeless
-: 
 req.product: Internet Explorer 5.0
 ---
 

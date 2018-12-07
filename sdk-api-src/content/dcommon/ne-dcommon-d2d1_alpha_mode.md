@@ -4,10 +4,10 @@ title: D2D1_ALPHA_MODE
 author: windows-sdk-content
 description: Specifies how the alpha value of a bitmap or render target should be treated.
 old-location: direct2d\D2D1_ALPHA_MODE.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: f1b1e735-2e89-4dc1-9fee-dfb4626ef453
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_ALPHA_MODE, D2D1_ALPHA_MODE enumeration [Direct2D], D2D1_ALPHA_MODE_IGNORE, D2D1_ALPHA_MODE_PREMULTIPLIED, D2D1_ALPHA_MODE_STRAIGHT, D2D1_ALPHA_MODE_UNKNOWN, dcommon/D2D1_ALPHA_MODE, dcommon/D2D1_ALPHA_MODE_IGNORE, dcommon/D2D1_ALPHA_MODE_PREMULTIPLIED, dcommon/D2D1_ALPHA_MODE_STRAIGHT, dcommon/D2D1_ALPHA_MODE_UNKNOWN, direct2d.D2D1_ALPHA_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexbuffer9__getdesc.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9__getdesc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 757c012d-2bd8-4555-34bc-493f1a96904f, GetDesc, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9],IDirect3DVertexBuffer9 interface, IDirect3DVertexBuffer9 interface [Direct3D 9],GetDesc method, IDirect3DVertexBuffer9.GetDesc, IDirect3DVertexBuffer9::GetDesc, d3d9helper/IDirect3DVertexBuffer9::GetDesc, direct3d9.idirect3dvertexbuffer9__getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d9helper.h
-: 
-- IDirect3DVertexBuffer9.GetDesc
-: 
 ---
 
 # IDirect3DVertexBuffer9::GetDesc

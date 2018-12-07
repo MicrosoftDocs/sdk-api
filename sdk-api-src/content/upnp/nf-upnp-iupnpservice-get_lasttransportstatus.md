@@ -4,10 +4,10 @@ title: IUPnPService::get_LastTransportStatus
 author: windows-sdk-content
 description: For queries related to evented variables, the LastTransportStatus property specifies the HTTP status of the last IUPnPService::InvokeAction operation.
 old-location: upnp\iupnpservice_lasttransportstatus.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 8593b800-ae0a-41b8-9a61-92bdfc106c8b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPService interface [UPnP APIs],get_LastTransportStatus method, IUPnPService.get_LastTransportStatus, IUPnPService::get_LastTransportStatus, _upnp_iupnpservice_lasttransportstatus, get_LastTransportStatus, get_LastTransportStatus method [UPnP APIs], get_LastTransportStatus method [UPnP APIs],IUPnPService interface, upnp.iupnpservice_lasttransportstatus, upnp/IUPnPService::get_LastTransportStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPService.get_LastTransportStatus
-: 
 ---
 
 # IUPnPService::get_LastTransportStatus

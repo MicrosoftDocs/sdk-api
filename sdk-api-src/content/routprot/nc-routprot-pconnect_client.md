@@ -4,10 +4,10 @@ title: PCONNECT_CLIENT
 author: windows-sdk-content
 description: The router manager calls the ConnectClient function when a client connects to an interface on which the routing protocol is running.
 old-location: rras\connectclient.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 548d8411-ca03-4316-9adb-3b4b48a740d9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ConnectClient, ConnectClient callback function [RAS], PCONNECT_CLIENT, PCONNECT_CLIENT callback, _mpr_connectclient, routprot/ConnectClient, rras.connectclient
 ms.prod: windows-hardware
 ms.technology: windows-devices

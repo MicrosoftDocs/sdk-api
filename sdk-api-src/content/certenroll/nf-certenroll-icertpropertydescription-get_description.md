@@ -4,10 +4,10 @@ title: ICertPropertyDescription::get_Description
 author: windows-sdk-content
 description: Retrieves a description of the certificate.
 old-location: security\icertpropertydescription_description_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: afc8c4f4-186b-4f00-b12b-54b50913865d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Description property [Security], Description property [Security],ICertPropertyDescription interface, ICertPropertyDescription interface [Security],Description property, ICertPropertyDescription.Description, ICertPropertyDescription.get_Description, ICertPropertyDescription::Description, ICertPropertyDescription::get_Description, certenroll/ICertPropertyDescription::Description, certenroll/ICertPropertyDescription::get_Description, get_Description, security.icertpropertydescription_description_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ICertPropertyDescription.get_Description
-: 
 ---
 
 # ICertPropertyDescription::get_Description

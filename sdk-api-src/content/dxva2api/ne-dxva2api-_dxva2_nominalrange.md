@@ -7,7 +7,7 @@ old-location: mf\dxva2_nominalrange.htm
 tech.root: medfound
 ms.assetid: ebc146e4-517f-4413-93dc-66cf4b3a04c3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DXVA2_NominalRange, DXVA2_NominalRange enumeration [Media Foundation], DXVA2_NominalRangeMask, DXVA2_NominalRange_0_255, DXVA2_NominalRange_16_235, DXVA2_NominalRange_48_208, DXVA2_NominalRange_Normal, DXVA2_NominalRange_Unknown, DXVA2_NominalRange_Wide, _DXVA2_NominalRange, dxva2api/DXVA2_NominalRange, dxva2api/DXVA2_NominalRangeMask, dxva2api/DXVA2_NominalRange_0_255, dxva2api/DXVA2_NominalRange_16_235, dxva2api/DXVA2_NominalRange_48_208, dxva2api/DXVA2_NominalRange_Normal, dxva2api/DXVA2_NominalRange_Unknown, dxva2api/DXVA2_NominalRange_Wide, ebc146e4-517f-4413-93dc-66cf4b3a04c3, mf.dxva2_nominalrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

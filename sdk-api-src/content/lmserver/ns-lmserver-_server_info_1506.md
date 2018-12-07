@@ -4,10 +4,10 @@ title: "_SERVER_INFO_1506"
 author: windows-sdk-content
 description: The SERVER_INFO_1506 structure contains information about the maximum number of work items the specified server can allocate.
 old-location: netmgmt\server_info_1506_str.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 3a18838b-2a47-4b78-9356-f20de8a87d2f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSERVER_INFO_1506, *PSERVER_INFO_1506, LPSERVER_INFO_1506, LPSERVER_INFO_1506 structure pointer [Network Management], PSERVER_INFO_1506, PSERVER_INFO_1506 structure pointer [Network Management], SERVER_INFO_1506, SERVER_INFO_1506 structure [Network Management], _SERVER_INFO_1506, _win32_server_info_1506_str, lmserver/LPSERVER_INFO_1506, lmserver/PSERVER_INFO_1506, lmserver/SERVER_INFO_1506, netmgmt.server_info_1506_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

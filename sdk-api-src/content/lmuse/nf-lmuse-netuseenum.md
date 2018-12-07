@@ -4,10 +4,10 @@ title: NetUseEnum function
 author: windows-sdk-content
 description: The NetUseEnum function lists all current connections between the local computer and resources on remote servers.
 old-location: netmgmt\netuseenum.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: fb527f85-baea-48e8-b837-967870834ec5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: NetUseEnum, NetUseEnum function [Network Management], _win32_netuseenum, lmuse/NetUseEnum, netmgmt.netuseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetUseEnum
-: 
 ---
 
 # NetUseEnum function

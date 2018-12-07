@@ -4,10 +4,10 @@ title: IGetClusterNodeInfo::GetNodeHandle
 author: windows-sdk-content
 description: Returns a handle to a node.
 old-location: mscs\igetclusternodeinfo_getnodehandle.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: d1932844-9900-4a16-8c9a-39f89bddfdb0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetNodeHandle, GetNodeHandle method [Failover Cluster], GetNodeHandle method [Failover Cluster],IGetClusterNodeInfo interface, IGetClusterNodeInfo interface [Failover Cluster],GetNodeHandle method, IGetClusterNodeInfo.GetNodeHandle, IGetClusterNodeInfo::GetNodeHandle, _wolf_igetclusternodeinfo_getnodehandle, cluadmex/IGetClusterNodeInfo::GetNodeHandle, mscs.igetclusternodeinfo_getnodehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cluadmex.h
-: 
-- IGetClusterNodeInfo.GetNodeHandle
-: 
 ---
 
 # IGetClusterNodeInfo::GetNodeHandle

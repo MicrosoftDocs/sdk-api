@@ -7,7 +7,7 @@ old-location: multimedia\mciwndresume.htm
 tech.root: Multimedia
 ms.assetid: 08b0dc42-edf2-485b-8b00-164157117a32
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MCIWndResume, MCIWndResume macro [Windows Multimedia], _win32_MCIWndResume, multimedia.mciwndresume, vfw/MCIWndResume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- MCIWndResume
-: 
 ---
 
 # MCIWndResume macro

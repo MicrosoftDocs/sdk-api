@@ -7,7 +7,7 @@ old-location: automat\varianttimetosystemtime.htm
 tech.root: automat
 ms.assetid: 954eb6f3-f9f0-4586-9dd7-1632ebc6ef58
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VariantTimeToSystemTime, VariantTimeToSystemTime function [Automation], _oa96_VariantTimeToSystemTime, automat.varianttimetosystemtime, oleauto/VariantTimeToSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VariantTimeToSystemTime
-: 
 ---
 
 # VariantTimeToSystemTime function

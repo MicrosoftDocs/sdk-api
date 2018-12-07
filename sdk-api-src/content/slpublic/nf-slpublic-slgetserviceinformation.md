@@ -7,7 +7,7 @@ old-location: security\slgetserviceinformation.htm
 tech.root: SecSLApi
 ms.assetid: c8c932af-c716-425a-8c37-ad3b749dd985
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLGetServiceInformation, SLGetServiceInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_MULTI_SZ, SL_DATA_SZ, SL_INFO_KEY_ACTIVE_PLUGINS, SL_INFO_KEY_SECURE_STORE_ID, SL_INFO_KEY_SESSION_MACHINE_ID, SL_INFO_KEY_SYSTEM_STATE, SL_INFO_KEY_VERSION, security.slgetserviceinformation, slpublic/SLGetServiceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SLGetServiceInformation
-: 
 ---
 
 # SLGetServiceInformation function

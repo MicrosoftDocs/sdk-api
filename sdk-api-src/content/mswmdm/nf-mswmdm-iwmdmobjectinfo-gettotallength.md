@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmobjectinfo_gettotallength.htm
 tech.root: WMDM
 ms.assetid: ca0e0efc-ff2e-40d6-ace3-5644013bccff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTotalLength, GetTotalLength method [windows Media Device Manager], GetTotalLength method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetTotalLength method, IWMDMObjectInfo.GetTotalLength, IWMDMObjectInfo::GetTotalLength, IWMDMObjectInfoGetTotalLength, mswmdm/IWMDMObjectInfo::GetTotalLength, wmdm.iwmdmobjectinfo_gettotallength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mswmdm.h
-: 
-- IWMDMObjectInfo.GetTotalLength
-: 
 ---
 
 # IWMDMObjectInfo::GetTotalLength

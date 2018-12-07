@@ -7,7 +7,7 @@ old-location: ad\idsdisplayspecifier_isclasscontainer.htm
 tech.root: ad
 ms.assetid: 1717200a-353b-413e-97a2-0742a95056d8
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: DSICCF_IGNORETREATASLEAF, IDsDisplaySpecifier interface [Active Directory],IsClassContainer method, IDsDisplaySpecifier.IsClassContainer, IDsDisplaySpecifier::IsClassContainer, IsClassContainer, IsClassContainer method [Active Directory], IsClassContainer method [Active Directory],IDsDisplaySpecifier interface, _glines_idsdisplayspecifier_isclasscontainer, ad.idsdisplayspecifier__isclasscontainer, ad.idsdisplayspecifier_isclasscontainer, dsclient/IDsDisplaySpecifier::IsClassContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dsclient.h
-: 
-- IDsDisplaySpecifier.IsClassContainer
-: 
 ---
 
 # IDsDisplaySpecifier::IsClassContainer
@@ -71,9 +63,9 @@ The <b>IDsDisplaySpecifier::IsClassContainer</b> method determines if a given ob
 Pointer to a null-terminated Unicode string that contains the name of the object class to determine if it is a container. Examples of the object class name are "user" and "container".
 
 
-### -param pszADsPath
+### -param pszADsPath [in]
 
-TBD
+Pointer to a null-terminated Unicode string that contains the <b>ADsPath</b> of a class object that can be bound to in the display specifier container and whose schema data can be obtained.
 
 
 ### -param dwFlags [in]
@@ -85,11 +77,6 @@ Contains flags that modify the behavior of this method. This can be zero or the 
 #### DSICCF_IGNORETREATASLEAF
 
 The <b>treatAsLeaf</b> attribute in the display specifier is ignored and only the schema data is used to determine if the class is a container.
-
-
-#### - pszAdsPath [in]
-
-Pointer to a null-terminated Unicode string that contains the <b>ADsPath</b> of a class object that can be bound to in the display specifier container and whose schema data can be obtained.
 
 
 ## -returns

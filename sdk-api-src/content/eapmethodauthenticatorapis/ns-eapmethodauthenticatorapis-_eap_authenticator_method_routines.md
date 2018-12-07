@@ -4,10 +4,10 @@ title: "_EAP_AUTHENTICATOR_METHOD_ROUTINES"
 author: windows-sdk-content
 description: Contains a set of function pointers to the EAPHost Authenticator Method APIs.
 old-location: eaphost\eap_authenticator_method_routines.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 8ec96ee2-678a-45c0-bfeb-c460ee863620
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PEAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES structure [EAPHost], _EAP_AUTHENTICATOR_METHOD_ROUTINES, eaphost.eap_authenticator_method_routines, eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

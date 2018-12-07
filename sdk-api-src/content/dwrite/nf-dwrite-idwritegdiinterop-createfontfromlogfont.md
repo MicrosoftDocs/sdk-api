@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteGdiInterop_CreateFontFromLOGFONT.htm
 tech.root: DirectWrite
 ms.assetid: d083123a-1b45-4c18-9490-6ce038bb6b22
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateFontFromLOGFONT, CreateFontFromLOGFONT method [Direct Write], CreateFontFromLOGFONT method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],CreateFontFromLOGFONT method, IDWriteGdiInterop.CreateFontFromLOGFONT, IDWriteGdiInterop::CreateFontFromLOGFONT, directwrite.IDWriteGdiInterop_CreateFontFromLOGFONT, dwrite/IDWriteGdiInterop::CreateFontFromLOGFONT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteGdiInterop.CreateFontFromLOGFONT
-: 
 ---
 
 # IDWriteGdiInterop::CreateFontFromLOGFONT

@@ -7,7 +7,7 @@ old-location: shell\AssocIsDangerous.htm
 tech.root: shell
 ms.assetid: 4e0bc3ce-f9d2-4766-8b19-c0954d71e890
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AssocIsDangerous, AssocIsDangerous function [Windows Shell], _shell_AssocIsDangerous, shell.AssocIsDangerous, shlwapi/AssocIsDangerous
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AssocIsDangerous
-: 
 req.product: Internet Explorer 6.01
 ---
 

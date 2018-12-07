@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetMinimumRetryDelay
 author: windows-sdk-content
 description: Retrieves the minimum length of time that the service waits after encountering a transient error condition before trying to transfer the file.
 old-location: bits\ibackgroundcopyjob_getminimumretrydelay.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: af599174-44f8-4d5e-b9ff-61ddbb330580
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetMinimumRetryDelay, GetMinimumRetryDelay method [BITS], GetMinimumRetryDelay method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetMinimumRetryDelay method, IBackgroundCopyJob.GetMinimumRetryDelay, IBackgroundCopyJob::GetMinimumRetryDelay, _drz_ibackgroundcopyjob_getminimumretrydelay, bits.ibackgroundcopyjob_getminimumretrydelay, bits/IBackgroundCopyJob::GetMinimumRetryDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.GetMinimumRetryDelay
-: 
 ---
 
 # IBackgroundCopyJob::GetMinimumRetryDelay
@@ -66,14 +58,7 @@ Retrieves the minimum length of time that the service waits after encountering a
 
 
 
-### -param Seconds
-
-TBD
-
-
-
-
-#### - pRetryDelay [in]
+### -param Seconds [in]
 
 Length of time, in seconds, that the service waits after encountering a transient error before trying to transfer the file.
 

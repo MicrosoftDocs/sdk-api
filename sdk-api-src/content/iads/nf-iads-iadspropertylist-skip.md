@@ -4,10 +4,10 @@ title: IADsPropertyList::Skip
 author: windows-sdk-content
 description: Skips a specified number of items, counting from the current cursor position, in the property list.
 old-location: adsi\iadspropertylist_skip.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 3bbdf1e8-444c-4d5e-83df-95a1f4fd7508
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPropertyList interface [ADSI],Skip method, IADsPropertyList.Skip, IADsPropertyList::Skip, Skip, Skip method [ADSI], Skip method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_skip, adsi.iadspropertylist__skip, adsi.iadspropertylist_skip, iads/IADsPropertyList::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsPropertyList.Skip
-: 
 ---
 
 # IADsPropertyList::Skip

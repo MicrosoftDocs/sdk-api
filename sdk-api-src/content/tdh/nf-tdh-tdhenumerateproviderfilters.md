@@ -4,10 +4,10 @@ title: TdhEnumerateProviderFilters function
 author: windows-sdk-content
 description: Enumerates the filters that the specified provider defined in the manifest.
 old-location: etw\tdhenumerateproviderfilters.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: bc0f4286-1f6e-4d99-ad84-af8ab5dbba2b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TdhEnumerateProviderFilters, TdhEnumerateProviderFilters function [ETW], etw.tdhenumerateproviderfilters, tdh/TdhEnumerateProviderFilters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TdhEnumerateProviderFilters
-: 
 ---
 
 # TdhEnumerateProviderFilters function

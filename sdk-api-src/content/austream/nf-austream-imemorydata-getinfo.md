@@ -7,7 +7,7 @@ old-location: dshow\imemorydata_getinfo.htm
 tech.root: DirectShow
 ms.assetid: 9e9538c4-2f11-401e-a3c1-f8aa6c24f725
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IMemoryData interface, IMemoryData interface [DirectShow],GetInfo method, IMemoryData.GetInfo, IMemoryData::GetInfo, IMemoryDataGetInfo, austream/IMemoryData::GetInfo, dshow.imemorydata_getinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- austream.h
-: 
-- IMemoryData.GetInfo
-: 
 ---
 
 # IMemoryData::GetInfo

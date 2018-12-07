@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquiredeviceselectiondialog_setprompt.htm
 tech.root: acquisition
 ms.assetid: 4685c4b8-8c56-4be1-a73f-6d984449d227
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],SetSubmitButtonText method, IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText, IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText, IPhotoAcquireDeviceSelectionDialogSetPrompt, SetSubmitButtonText, SetSubmitButtonText method [Picture Acquisition], SetSubmitButtonText method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, photoacquire/IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText, picacq.iphotoacquiredeviceselectiondialog_setprompt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- photoacquire.h
-: 
-- IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText
-: 
 ---
 
 # IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText
@@ -70,14 +62,7 @@ The <code>SetPrompt</code> method sets the text displayed in the dialog box that
 
 
 
-### -param pszSubmitButtonText
-
-TBD
-
-
-
-
-#### - pszPrompt [in]
+### -param pszSubmitButtonText [in]
 
 Pointer to a null-terminated string containing the prompt.
 

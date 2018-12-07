@@ -4,10 +4,10 @@ title: MprAdminConnectionHangupNotification2 function
 author: windows-sdk-content
 description: Remote Access Service calls the MprAdminConnectionHangupNotification2 function after the last link for the specified connection has been dismantled.
 old-location: rras\mpradminconnectionhangupnotification2.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 3231ae83-c7fc-46d4-a4d9-f7ccf1c4ed18
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MprAdminConnectionHangupNotification2, MprAdminConnectionHangupNotification2 callback, MprAdminConnectionHangupNotification2 callback function [RAS], _mpr_mpradminconnectionhangupnotification2, mprapi/MprAdminConnectionHangupNotification2, rras.mpradminconnectionhangupnotification2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MprAdminConnectionHangupNotification2
-: 
 ---
 
 # MprAdminConnectionHangupNotification2 function

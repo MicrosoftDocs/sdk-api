@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_getactiveview.htm
 tech.root: TSF
 ms.assetid: 38db4fd3-3268-4b3d-9e2c-19d80afeba47
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetActiveView method, ITextStoreACP2.GetActiveView, ITextStoreACP2::GetActiveView, textstor/ITextStoreACP2::GetActiveView, tsf.itextstoreacp2_getactiveview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- textstor.h
-: 
-- ITextStoreACP2.GetActiveView
-: 
 ---
 
 # ITextStoreACP2::GetActiveView

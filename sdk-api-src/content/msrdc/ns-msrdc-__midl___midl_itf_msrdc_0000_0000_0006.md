@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0006"
 author: windows-sdk-content
 description: Describes an array of RdcNeed structures.
 old-location: rdc\rdcneedpointer.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 92a1fae7-5ada-4f7d-a736-c93bc404a418
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RdcNeedPointer, RdcNeedPointer structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0006, fs.rdcneedpointer, msrdc/RdcNeedPointer, rdc.rdcneedpointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

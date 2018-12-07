@@ -4,10 +4,10 @@ title: IConnectedIdentityProvider::GetUrl
 author: windows-sdk-content
 description: Returns the URL string for the specified wizard or webpage.
 old-location: security\iconnectedidentityprovider_geturl.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: 623A9AE8-D838-4F00-B81E-35031ADB67F5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetUrl, GetUrl method [Security], GetUrl method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],GetUrl method, IConnectedIdentityProvider.GetUrl, IConnectedIdentityProvider::GetUrl, identityprovider/IConnectedIdentityProvider::GetUrl, security.iconnectedidentityprovider_geturl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- identityprovider.h
-: 
-- IConnectedIdentityProvider.GetUrl
-: 
 ---
 
 # IConnectedIdentityProvider::GetUrl

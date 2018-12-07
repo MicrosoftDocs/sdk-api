@@ -7,7 +7,7 @@ old-location: psapi\enumprocessmodules.htm
 tech.root: psapi
 ms.assetid: b4088506-2f69-4cf0-9bab-3e6a7185f5b2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EnumProcessModules, EnumProcessModules function [PSAPI], K32EnumProcessModules, _win32_enumprocessmodules, base.enumprocessmodules, psapi.enumprocessmodules, psapi/EnumProcessModules, psapi/K32EnumProcessModules
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,12 +48,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EnumProcessModules
-: 
 ---
 
 # EnumProcessModules function

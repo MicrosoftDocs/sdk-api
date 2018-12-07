@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicmatchmetadatacontent.htm
 tech.root: wic
 ms.assetid: 2d1ab317-a77c-4e91-9455-e6738fd40e88
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WICMatchMetadataContent, WICMatchMetadataContent function [Windows Imaging Component], _wic_codec_wicmatchmetadatacontent, wic._wic_codec_wicmatchmetadatacontent, wincodecsdk/WICMatchMetadataContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WICMatchMetadataContent
-: 
 ---
 
 # WICMatchMetadataContent function

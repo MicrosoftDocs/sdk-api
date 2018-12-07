@@ -4,10 +4,10 @@ title: "_SOCKET_USAGE_TYPE"
 author: windows-sdk-content
 description: Used to specified the usage type for the socket.
 old-location: winsock\socket_usage_type.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 27142160-7381-47d0-8664-4064be801a06
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SOCKET_USAGE_TYPE, SOCKET_USAGE_TYPE enumeration [Winsock], SYSTEM_CRITICAL_SOCKET, _SOCKET_USAGE_TYPE, mstcpip/SOCKET_USAGE_TYPE, mstcpip/SYSTEM_CRITICAL_SOCKET, winsock.socket_usage_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

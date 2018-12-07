@@ -4,10 +4,10 @@ title: GetClusterResourceTypeKey function
 author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a resource type.
 old-location: mscs\getclusterresourcetypekey.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: facc22b2-221d-4d82-85ae-5b9a463c5858
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetClusterResourceTypeKey, GetClusterResourceTypeKey function [Failover Cluster], _wolf_getclusterresourcetypekey, clusapi/GetClusterResourceTypeKey, mscs.getclusterresourcetypekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetClusterResourceTypeKey
-: 
 ---
 
 # GetClusterResourceTypeKey function

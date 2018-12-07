@@ -7,7 +7,7 @@ old-location: snmp\snmpcountvbl.htm
 tech.root: SNMP
 ms.assetid: 08e7d450-0c75-4ef5-a9c5-ef0255601a9a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpCountVbl, SnmpCountVbl function [SNMP], _snmp_snmpcountvbl, snmp.snmpcountvbl, winsnmp/SnmpCountVbl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpCountVbl
-: 
 ---
 
 # SnmpCountVbl function

@@ -4,10 +4,10 @@ title: RpcMgmtSetServerStackSize function
 author: windows-sdk-content
 description: The RpcMgmtSetServerStackSize function specifies the stack size for server threads created by the RPC run time.
 old-location: rpc\rpcmgmtsetserverstacksize.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: 5cf04ff5-d25b-42f5-a14e-2e73225765e9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RpcMgmtSetServerStackSize, RpcMgmtSetServerStackSize function [RPC], _rpc_rpcmgmtsetserverstacksize, rpc.rpcmgmtsetserverstacksize, rpcdce/RpcMgmtSetServerStackSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RpcMgmtSetServerStackSize
-: 
 ---
 
 # RpcMgmtSetServerStackSize function

@@ -7,7 +7,7 @@ old-location: multimedia\cappreviewrate.htm
 tech.root: Multimedia
 ms.assetid: 72d885cb-5a48-4403-a668-c3c437405317
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_capPreviewRate, capPreviewRate, capPreviewRate macro [Windows Multimedia], multimedia.cappreviewrate, vfw/capPreviewRate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- capPreviewRate
-: 
 ---
 
 # capPreviewRate macro

@@ -4,10 +4,10 @@ title: WSARemoveServiceClass function
 author: windows-sdk-content
 description: The WSARemoveServiceClass function permanently removes the service class schema from the registry.
 old-location: winsock\wsaremoveserviceclass_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 7d72f727-cca9-4a07-beb4-d64f23c1f0c1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSARemoveServiceClass, WSARemoveServiceClass function [Winsock], _win32_wsaremoveserviceclass_2, winsock.wsaremoveserviceclass_2, winsock2/WSARemoveServiceClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSARemoveServiceClass
-: 
 ---
 
 # WSARemoveServiceClass function

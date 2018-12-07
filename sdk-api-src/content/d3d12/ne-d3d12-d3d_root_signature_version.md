@@ -7,7 +7,7 @@ old-location: direct3d12\d3d_root_signature_version.htm
 tech.root: direct3d12
 ms.assetid: 44A22509-5CAE-4C4E-ADC6-E86B5BD8CE3B
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D_ROOT_SIGNATURE_VERSION, D3D_ROOT_SIGNATURE_VERSION enumeration, D3D_ROOT_SIGNATURE_VERSION_1, D3D_ROOT_SIGNATURE_VERSION_1_0, D3D_ROOT_SIGNATURE_VERSION_1_1, d3d12/D3D_ROOT_SIGNATURE_VERSION, d3d12/D3D_ROOT_SIGNATURE_VERSION_1, d3d12/D3D_ROOT_SIGNATURE_VERSION_1_0, d3d12/D3D_ROOT_SIGNATURE_VERSION_1_1, direct3d12.d3d_root_signature_version
 ms.prod: windows-hardware
 ms.technology: windows-devices

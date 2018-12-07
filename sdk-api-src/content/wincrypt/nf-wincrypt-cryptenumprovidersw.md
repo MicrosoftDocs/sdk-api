@@ -4,10 +4,10 @@ title: CryptEnumProvidersW function
 author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\cryptenumproviders.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 2d93ef0f-b48f-481b-ba62-c535476fde08
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CryptEnumProviders, CryptEnumProviders function [Security], CryptEnumProvidersA, CryptEnumProvidersW, _crypto2_cryptenumproviders, security.cryptenumproviders, wincrypt/CryptEnumProviders, wincrypt/CryptEnumProvidersA, wincrypt/CryptEnumProvidersW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptEnumProvidersW
-: 
 ---
 
 # CryptEnumProvidersW function

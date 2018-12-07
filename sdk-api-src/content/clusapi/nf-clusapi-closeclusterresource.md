@@ -4,10 +4,10 @@ title: CloseClusterResource function
 author: windows-sdk-content
 description: Closes a resource handle.
 old-location: mscs\closeclusterresource.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: dbefd7f9-3499-45b3-a5c8-d0000632f61c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CloseClusterResource, CloseClusterResource function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_RESOURCE, PCLUSAPI_CLOSE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_closeclusterresource, clusapi/CloseClusterResource, clusapi/PCLUSAPI_CLOSE_CLUSTER_RESOURCE, mscs.closeclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CloseClusterResource
-: 
 ---
 
 # CloseClusterResource function

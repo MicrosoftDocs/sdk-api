@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromBoolean.htm
 tech.root: properties
 ms.assetid: 155af0c9-bc1a-4d57-a2fc-dc22a0b1abe3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InitVariantFromBoolean, InitVariantFromBoolean function [Windows Properties], _shell_InitVariantFromBoolean, properties.InitVariantFromBoolean, propvarutil/InitVariantFromBoolean, shell.InitVariantFromBoolean
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- InitVariantFromBoolean
-: 
 ---
 
 # InitVariantFromBoolean function

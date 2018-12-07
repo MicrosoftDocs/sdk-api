@@ -7,7 +7,7 @@ old-location: madcap\mcastrequestaddress.htm
 tech.root: Madcap
 ms.assetid: 856eb251-1909-41a1-8e4f-c081942280de
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: McastRequestAddress, McastRequestAddress function [MADCAP], _mdhcp_mcastrequestaddress, madcap.mcastrequestaddress, madcapcl/McastRequestAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- McastRequestAddress
-: 
 ---
 
 # McastRequestAddress function

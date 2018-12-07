@@ -4,10 +4,10 @@ title: "_HTTP_REQUEST_AUTH_INFO"
 author: windows-sdk-content
 description: Contains the authentication status of the request with a handle to the client token that the receiving process can use to impersonate the authenticated client.
 old-location: http\http_request_auth_info.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 07008290-5277-4ef4-ae55-d335fdb2ba90
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_REQUEST_AUTH_INFO, *PHTTP_REQUEST_AUTH_INFO structure [HTTP], HTTP_REQUEST_AUTH_FLAG_TOKEN_FOR_CACHED_CRED, HTTP_REQUEST_AUTH_INFO, HTTP_REQUEST_AUTH_INFO structure [HTTP], _HTTP_REQUEST_AUTH_INFO, http.http_request_auth_info, http/*PHTTP_REQUEST_AUTH_INFO, http/HTTP_REQUEST_AUTH_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

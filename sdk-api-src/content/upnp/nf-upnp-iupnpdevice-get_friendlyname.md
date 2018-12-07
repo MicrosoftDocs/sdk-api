@@ -4,10 +4,10 @@ title: IUPnPDevice::get_FriendlyName
 author: windows-sdk-content
 description: The FriendlyName property specifies the device display name for the device.
 old-location: upnp\iupnpdevice_friendlyname.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: dd24384f-2657-4cb0-812e-1b51d53b73de
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_FriendlyName method, IUPnPDevice.get_FriendlyName, IUPnPDevice::get_FriendlyName, _upnp_iupnpdevice_friendlyname, get_FriendlyName, get_FriendlyName method [UPnP APIs], get_FriendlyName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_friendlyname, upnp/IUPnPDevice::get_FriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDevice.get_FriendlyName
-: 
 ---
 
 # IUPnPDevice::get_FriendlyName

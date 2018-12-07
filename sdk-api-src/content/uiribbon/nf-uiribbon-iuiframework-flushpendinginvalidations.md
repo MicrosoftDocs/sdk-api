@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_flushpendinginvalidations
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\flushpendinginvalidations.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FlushPendingInvalidations, FlushPendingInvalidations method [Windows Ribbon], FlushPendingInvalidations method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],FlushPendingInvalidations method, IUIFramework.FlushPendingInvalidations, IUIFramework::FlushPendingInvalidations, scenicintent_IUIFramework_FlushPendingInvalidations, uiribbon/IUIFramework::FlushPendingInvalidations, windowsribbon.windowsribbon_iuiframework_flushpendinginvalidations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiribbon.h
-: 
-- IUIFramework.FlushPendingInvalidations
-: 
 req.product: Windows UI
 ---
 

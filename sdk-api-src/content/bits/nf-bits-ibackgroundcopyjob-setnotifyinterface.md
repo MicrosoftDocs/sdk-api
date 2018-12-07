@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::SetNotifyInterface
 author: windows-sdk-content
 description: Identifies your implementation of the IBackgroundCopyCallback interface to BITS. Use the IBackgroundCopyCallback interface to receive notification of job-related events.
 old-location: bits\ibackgroundcopyjob_setnotifyinterface.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 34d51546-ec27-471f-9da5-3bec7ed4e1ea
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetNotifyInterface method, IBackgroundCopyJob.SetNotifyInterface, IBackgroundCopyJob::SetNotifyInterface, SetNotifyInterface, SetNotifyInterface method [BITS], SetNotifyInterface method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setnotifyinterface, bits.ibackgroundcopyjob_setnotifyinterface, bits/IBackgroundCopyJob::SetNotifyInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.SetNotifyInterface
-: 
 ---
 
 # IBackgroundCopyJob::SetNotifyInterface
@@ -69,13 +61,6 @@ Identifies your implementation of the
 
 
 ### -param Val
-
-TBD
-
-
-
-
-#### - pNotifyInterface
 
 An 
 <a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface pointer. To remove the current callback interface pointer, set this parameter to <b>NULL</b>.

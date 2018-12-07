@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_setversion.htm
 tech.root: automat
 ms.assetid: ffa4d287-44c4-40ec-984a-70cbc0928274
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVersion method, ICreateTypeInfo.SetVersion, ICreateTypeInfo::SetVersion, SetVersion, SetVersion method [Automation], SetVersion method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVersion, automat.icreatetypeinfo_setversion, oaidl/ICreateTypeInfo::SetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- oaidl.h
-: 
-- ICreateTypeInfo.SetVersion
-: 
 ---
 
 # ICreateTypeInfo::SetVersion

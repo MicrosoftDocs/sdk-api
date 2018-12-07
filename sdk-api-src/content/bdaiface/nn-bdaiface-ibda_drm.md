@@ -7,7 +7,7 @@ old-location: mstv\ibda_drm.htm
 tech.root: mstv
 ms.assetid: d0bde207-d550-4e98-85c7-b0d47b0cd637
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_DRM, IBDA_DRM interface [Microsoft TV Technologies], IBDA_DRM interface [Microsoft TV Technologies],described, IBDA_DRMInterface, bdaiface/IBDA_DRM, mstv.ibda_drm
 ms.prod: windows-hardware
 ms.technology: windows-devices

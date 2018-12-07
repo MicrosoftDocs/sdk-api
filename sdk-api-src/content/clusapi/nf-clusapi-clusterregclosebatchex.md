@@ -4,10 +4,10 @@ title: ClusterRegCloseBatchEx function
 author: windows-sdk-content
 description: Executes or ignores the batch created by the ClusterRegCreateBatch function.
 old-location: mscs\clusterregclosebatchex.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 127d06de-28a4-4df4-9f5f-17ea4a330528
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterRegCloseBatchEx, ClusterRegCloseBatchEx function [Failover Cluster], clusapi/ClusterRegCloseBatchEx, mscs.clusterregclosebatchex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ClusterRegCloseBatchEx
-: 
 ---
 
 # ClusterRegCloseBatchEx function

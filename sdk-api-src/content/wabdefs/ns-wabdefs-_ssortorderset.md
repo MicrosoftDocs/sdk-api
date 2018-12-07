@@ -7,7 +7,7 @@ old-location: wab\_wab_SSortOrderSet.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\ssortorderset.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSSortOrderSet, LPSSortOrderSet, LPSSortOrderSet structure pointer [Windows Address Book], SSortOrderSet, SSortOrderSet structure [Windows Address Book], _SSortOrderSet, _wab_SSortOrderSet, wab._wab_SSortOrderSet, wabdefs/LPSSortOrderSet, wabdefs/SSortOrderSet"
 ms.prod: windows-hardware
 ms.technology: windows-devices

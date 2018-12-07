@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt32ArrayAlloc.htm
 tech.root: properties
 ms.assetid: 4d6cbfc8-fe1c-4bd0-8d29-32bce01d31f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToUInt32ArrayAlloc, VariantToUInt32ArrayAlloc function [Windows Properties], _shell_VariantToUInt32ArrayAlloc, properties.VariantToUInt32ArrayAlloc, propvarutil/VariantToUInt32ArrayAlloc, shell.VariantToUInt32ArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToUInt32ArrayAlloc
-: 
 ---
 
 # VariantToUInt32ArrayAlloc function

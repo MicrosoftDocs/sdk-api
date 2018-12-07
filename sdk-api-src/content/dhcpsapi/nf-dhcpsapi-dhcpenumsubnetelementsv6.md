@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetelementsv6.htm
 tech.root: DHCP
 ms.assetid: 72f40256-7f49-41f3-ac31-d863cd6383db
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpEnumSubnetElementsV6, DhcpEnumSubnetElementsV6 function [DHCP], dhcp.dhcpenumsubnetelementsv6, dhcpsapi/DhcpEnumSubnetElementsV6
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpEnumSubnetElementsV6
-: 
 ---
 
 # DhcpEnumSubnetElementsV6 function

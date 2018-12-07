@@ -7,7 +7,7 @@ old-location: shell\SHCreateMemStream.htm
 tech.root: shell
 ms.assetid: f3ae8241-f3a6-4007-a10f-ff05960c5de8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHCreateMemStream, SHCreateMemStream function [Windows Shell], _win32_SHCreateMemStream, shell.SHCreateMemStream, shlwapi/SHCreateMemStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHCreateMemStream
-: 
 ---
 
 # SHCreateMemStream function

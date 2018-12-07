@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_setposition.htm
 tech.root: tablet
 ms.assetid: 9b5fc988-7c93-47d4-8661-4cef56cab0d0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetPosition method, IMathInputControl.SetPosition, IMathInputControl::SetPosition, SetPosition, SetPosition method [Tablet PC], SetPosition method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetPosition, tablet.imathinputcontrol_setposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- micaut.h
-: 
-- IMathInputControl.SetPosition
-: 
 ---
 
 # IMathInputControl::SetPosition

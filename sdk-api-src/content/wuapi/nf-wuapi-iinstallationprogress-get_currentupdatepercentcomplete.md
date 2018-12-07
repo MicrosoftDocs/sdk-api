@@ -4,10 +4,10 @@ title: IInstallationProgress::get_CurrentUpdatePercentComplete
 author: windows-sdk-content
 description: Gets how far the installation or uninstallation process for the current update has progressed, as a percentage.
 old-location: wua\iinstallationprogress_currentupdatepercentcomplete.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 2034cd9f-d666-43ff-b7d1-719b42a60cd5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CurrentUpdatePercentComplete property [Windows Update Agent], CurrentUpdatePercentComplete property [Windows Update Agent],IInstallationProgress interface, IInstallationProgress interface [Windows Update Agent],CurrentUpdatePercentComplete property, IInstallationProgress.CurrentUpdatePercentComplete, IInstallationProgress.get_CurrentUpdatePercentComplete, IInstallationProgress::CurrentUpdatePercentComplete, IInstallationProgress::get_CurrentUpdatePercentComplete, get_CurrentUpdatePercentComplete, wua.iinstallationprogress_currentupdatepercentcomplete, wuapi/IInstallationProgress::CurrentUpdatePercentComplete, wuapi/IInstallationProgress::get_CurrentUpdatePercentComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IInstallationProgress.get_CurrentUpdatePercentComplete
-: 
 ---
 
 # IInstallationProgress::get_CurrentUpdatePercentComplete

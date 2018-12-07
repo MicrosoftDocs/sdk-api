@@ -7,7 +7,7 @@ old-location: ad\adsproperror.htm
 tech.root: ad
 ms.assetid: 584cb3e7-3b26-4346-9162-b3e3064ded1a
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 11/16/2018
 ms.keywords: "*PADSPROPERROR, ADSPROPERROR, ADSPROPERROR structure [Active Directory], PADSPROPERROR, PADSPROPERROR structure pointer [Active Directory], _ADSPROPERROR, _glines_adsproperror, ad.adsproperror, adsprop/ADSPROPERROR, adsprop/PADSPROPERROR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

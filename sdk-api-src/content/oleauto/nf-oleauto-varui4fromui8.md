@@ -7,7 +7,7 @@ old-location: automat\varui4fromui8.htm
 tech.root: automat
 ms.assetid: faac7016-210b-4d07-9978-7665f16ae356
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarUI4FromUI8, VarUI4FromUI8 function [Automation], _oa96_VarUI4FromUI8, automat.varui4fromui8, oleauto/VarUI4FromUI8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarUI4FromUI8
-: 
 ---
 
 # VarUI4FromUI8 function

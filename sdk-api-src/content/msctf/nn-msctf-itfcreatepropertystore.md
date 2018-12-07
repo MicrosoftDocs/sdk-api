@@ -7,7 +7,7 @@ old-location: tsf\itfcreatepropertystore.htm
 tech.root: TSF
 ms.assetid: f21619c5-5f59-4cc4-9f84-fa5f8a178d40
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfCreatePropertyStore, ITfCreatePropertyStore interface [Text Services Framework], ITfCreatePropertyStore interface [Text Services Framework],described, _tsf_itfcreatepropertystore_ref, msctf/ITfCreatePropertyStore, tsf.itfcreatepropertystore
 ms.prod: windows-hardware
 ms.technology: windows-devices

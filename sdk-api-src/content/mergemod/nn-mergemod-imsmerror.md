@@ -4,10 +4,10 @@ title: IMsmError
 author: windows-sdk-content
 description: The IMsmError interface retrieves details about a single merge error.
 old-location: setup\imsmerror_interface.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 705f53ca-82f4-4929-b2a3-0ace8e4ca19b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmError, IMsmError interface, IMsmError interface,described, mergemod/IMsmError, setup.imsmerror_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

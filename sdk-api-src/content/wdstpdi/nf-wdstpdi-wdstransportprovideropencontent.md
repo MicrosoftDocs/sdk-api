@@ -7,7 +7,7 @@ old-location: wds\wdstransportprovideropencontent.htm
 tech.root: wds
 ms.assetid: 95bea971-9c97-4d66-871d-5ef7407b9659
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsTransportProviderOpenContent, WdsTransportProviderOpenContent callback, WdsTransportProviderOpenContent callback function [Windows Deployment Services], wds.wdstransportprovideropencontent, wdstpdi/WdsTransportProviderOpenContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WdsTransportProviderOpenContent
-: 
 ---
 
 # WdsTransportProviderOpenContent function

@@ -7,7 +7,7 @@ old-location: mf\mfheapalloc.htm
 tech.root: medfound
 ms.assetid: 3ad97cbf-4065-4807-ad6a-68e84a3601d4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 3ad97cbf-4065-4807-ad6a-68e84a3601d4, MFHeapAlloc, MFHeapAlloc function [Media Foundation], mf.mfheapalloc, mfapi/MFHeapAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFHeapAlloc
-: 
 ---
 
 # MFHeapAlloc function

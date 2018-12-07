@@ -7,7 +7,7 @@ old-location: mstv\iisdbdownloadcontentdescriptor_gettextlanguagecode.htm
 tech.root: mstv
 ms.assetid: 023e2b6f-0f38-4550-a839-29c254970219
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTextLanguageCode, GetTextLanguageCode method [Microsoft TV Technologies], GetTextLanguageCode method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetTextLanguageCode method, IIsdbDownloadContentDescriptor.GetTextLanguageCode, IIsdbDownloadContentDescriptor::GetTextLanguageCode, dvbsiparser/IIsdbDownloadContentDescriptor::GetTextLanguageCode, mstv.iisdbdownloadcontentdescriptor_gettextlanguagecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IIsdbDownloadContentDescriptor.GetTextLanguageCode
-: 
 ---
 
 # IIsdbDownloadContentDescriptor::GetTextLanguageCode

@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage3_setmetadata.htm
 tech.root: WMDM
 ms.assetid: bfb9a1e4-3cf6-4605-9613-d93f9cce201b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMDSPStorage3 interface [windows Media Device Manager],SetMetadata method, IMDSPStorage3.SetMetadata, IMDSPStorage3::SetMetadata, IMDSPStorage3SetMetadata, SetMetadata, SetMetadata method [windows Media Device Manager], SetMetadata method [windows Media Device Manager],IMDSPStorage3 interface, mswmdm/IMDSPStorage3::SetMetadata, wmdm.imdspstorage3_setmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mswmdm.h
-: 
-- IMDSPStorage3.SetMetadata
-: 
 ---
 
 # IMDSPStorage3::SetMetadata

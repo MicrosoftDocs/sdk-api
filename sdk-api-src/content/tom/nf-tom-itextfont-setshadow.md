@@ -4,10 +4,10 @@ title: ITextFont::SetShadow
 author: windows-sdk-content
 description: Sets whether characters are displayed as shadowed characters.
 old-location: controls\ITextFont_SetShadow.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setshadow.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],SetShadow method, ITextFont.SetShadow, ITextFont::SetShadow, SetShadow, SetShadow method [Windows Controls], SetShadow method [Windows Controls],ITextFont interface, _win32_ITextFont_SetShadow, _win32_ITextFont_SetShadow_cpp, controls.ITextFont_SetShadow, controls._win32_ITextFont_SetShadow, tom/ITextFont::SetShadow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextFont.SetShadow
-: 
 ---
 
 # ITextFont::SetShadow

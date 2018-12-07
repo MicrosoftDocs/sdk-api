@@ -4,10 +4,10 @@ title: IRtwqPlatformEvents::ShutdownStart
 author: windows-sdk-content
 description: Called before the platform is about to shutdown.
 old-location: base\irtwqplatformevents_shutdownstart.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: B2D3F35E-B859-4735-A11C-B3CB6ACD81EC
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRtwqPlatformEvents interface,ShutdownStart method, IRtwqPlatformEvents.ShutdownStart, IRtwqPlatformEvents::ShutdownStart, ShutdownStart, ShutdownStart method, ShutdownStart method,IRtwqPlatformEvents interface, base.irtwqplatformevents_shutdownstart, rtworkq/IRtwqPlatformEvents::ShutdownStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rtworkq.h
-: 
-- IRtwqPlatformEvents.ShutdownStart
-: 
 ---
 
 # IRtwqPlatformEvents::ShutdownStart

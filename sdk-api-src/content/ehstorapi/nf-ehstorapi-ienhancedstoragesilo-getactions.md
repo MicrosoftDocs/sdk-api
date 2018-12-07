@@ -7,7 +7,7 @@ old-location: enstor\ienhancedstoragesilo_getactions.htm
 tech.root: enstor
 ms.assetid: eaf24814-b47a-4f33-ac17-d3b5b344f234
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetActions, GetActions method [Enhanced Storage], GetActions method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetActions method, IEnhancedStorageSilo.GetActions, IEnhancedStorageSilo::GetActions, ehstorapi/IEnhancedStorageSilo::GetActions, enstor.ienhancedstoragesilo_getactions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- ehstorapi.h
-: 
-- IEnhancedStorageSilo.GetActions
-: 
 ---
 
 # IEnhancedStorageSilo::GetActions

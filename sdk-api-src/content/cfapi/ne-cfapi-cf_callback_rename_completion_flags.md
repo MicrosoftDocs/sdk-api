@@ -7,7 +7,7 @@ old-location: cloudapi\cf_callback_rename_completion_flags.htm
 tech.root: cfApi
 ms.assetid: 60C94543-E0C4-4A79-BBE3-3098401B1123
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CF_CALLBACK_RENAME_COMPLETION_FLAGS, CF_CALLBACK_RENAME_COMPLETION_FLAGS enumeration, CF_CALLBACK_RENAME_COMPLETION_FLAG_NONE, cfapi/CF_CALLBACK_RENAME_COMPLETION_FLAGS, cfapi/CF_CALLBACK_RENAME_COMPLETION_FLAG_NONE, cloudApi.cf_callback_rename_completion_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

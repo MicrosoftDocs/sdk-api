@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_csid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6lus.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CSID property [Fax Service], CSID property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],CSID property, IFaxOutgoingJob.CSID, IFaxOutgoingJob.get_CSID, IFaxOutgoingJob::CSID, IFaxOutgoingJob::get_CSID, _mfax_faxoutgoingjob.csid, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_csid_cpp, fax._mfax_faxoutgoingjob_csid, faxcomex/IFaxOutgoingJob::CSID, faxcomex/IFaxOutgoingJob::get_CSID, get_CSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxOutgoingJob.get_CSID
-: 
 ---
 
 # IFaxOutgoingJob::get_CSID

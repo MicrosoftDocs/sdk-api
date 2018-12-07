@@ -4,10 +4,10 @@ title: IEnroll4::put_ThumbPrintWStr
 author: windows-sdk-content
 description: Sets or retrieves a hash of the certificate data. The thumbprint is used to point to the pending certificate.
 old-location: security\ienroll4_thumbprintwstr.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 3682e83d-8c3c-42fa-b743-0b149c956339
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnroll4 interface [Security],ThumbPrintWStr property, IEnroll4.ThumbPrintWStr, IEnroll4.put_ThumbPrintWStr, IEnroll4::ThumbPrintWStr, IEnroll4::get_ThumbPrintWStr, IEnroll4::put_ThumbPrintWStr, ThumbPrintWStr property [Security], ThumbPrintWStr property [Security],IEnroll4 interface, put_ThumbPrintWStr, security.ienroll4_thumbprintwstr, xenroll/IEnroll4::ThumbPrintWStr, xenroll/IEnroll4::get_ThumbPrintWStr, xenroll/IEnroll4::put_ThumbPrintWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- IEnroll4.put_ThumbPrintWStr
-: 
 ---
 
 # IEnroll4::put_ThumbPrintWStr

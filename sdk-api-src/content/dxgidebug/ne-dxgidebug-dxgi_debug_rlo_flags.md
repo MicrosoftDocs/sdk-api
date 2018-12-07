@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_debug_rlo_flags.htm
 tech.root: direct3ddxgi
 ms.assetid: 8A4B4139-42FC-4983-9699-ABCDBF5783E7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DXGI_DEBUG_RLO_ALL, DXGI_DEBUG_RLO_DETAIL, DXGI_DEBUG_RLO_FLAGS, DXGI_DEBUG_RLO_FLAGS enumeration [DXGI], DXGI_DEBUG_RLO_IGNORE_INTERNAL, DXGI_DEBUG_RLO_SUMMARY, direct3ddxgi.dxgi_debug_rlo_flags, dxgidebug/DXGI_DEBUG_RLO_ALL, dxgidebug/DXGI_DEBUG_RLO_DETAIL, dxgidebug/DXGI_DEBUG_RLO_FLAGS, dxgidebug/DXGI_DEBUG_RLO_IGNORE_INTERNAL, dxgidebug/DXGI_DEBUG_RLO_SUMMARY
 ms.prod: windows-hardware
 ms.technology: windows-devices

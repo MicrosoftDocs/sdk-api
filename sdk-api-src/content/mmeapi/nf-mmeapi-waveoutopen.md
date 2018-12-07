@@ -7,7 +7,7 @@ old-location: multimedia\waveoutopen.htm
 tech.root: Multimedia
 ms.assetid: ef02221b-df45-4fc3-8d9d-f119fa802d34
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_waveOutOpen, mmeapi/waveOutOpen, multimedia.waveoutopen, waveOutOpen, waveOutOpen function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- waveOutOpen
-: 
 ---
 
 # waveOutOpen function

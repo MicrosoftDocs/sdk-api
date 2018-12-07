@@ -7,7 +7,7 @@ old-location: mstv\idvbnetworknamedescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 22841428-c223-4385-97c3-bd1819468866
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbNetworkNameDescriptor interface, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbNetworkNameDescriptor.GetLength, IDvbNetworkNameDescriptor::GetLength, dvbsiparser/IDvbNetworkNameDescriptor::GetLength, mstv.idvbnetworknamedescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDvbNetworkNameDescriptor.GetLength
-: 
 ---
 
 # IDvbNetworkNameDescriptor::GetLength

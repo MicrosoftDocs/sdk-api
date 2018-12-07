@@ -7,7 +7,7 @@ old-location: qos\tcsetinterface.htm
 tech.root: QOS
 ms.assetid: 7ca28fac-999c-4386-81e7-65003e89d9c5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TcSetInterface, TcSetInterface function [QOS], _gqos_tcsetinterface, qos.tcsetinterface, traffic/TcSetInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TcSetInterface
-: 
 ---
 
 # TcSetInterface function

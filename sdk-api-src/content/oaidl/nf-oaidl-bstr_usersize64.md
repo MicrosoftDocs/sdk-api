@@ -7,7 +7,7 @@ old-location: automat\bstr_usersize64.htm
 tech.root: automat
 ms.assetid: 56ba0992-b5df-419d-b531-ea974413a7b0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: BSTR_UserSize64, BSTR_UserSize64 function [Automation], automat.bstr_usersize64, oaidl/BSTR_UserSize64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BSTR_UserSize64
-: 
 ---
 
 # BSTR_UserSize64 function

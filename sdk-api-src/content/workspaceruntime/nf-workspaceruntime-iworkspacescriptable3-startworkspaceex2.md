@@ -7,7 +7,7 @@ old-location: termserv\iworkspacescriptable3_startworkspaceex2.htm
 tech.root: termserv
 ms.assetid: 819eb47e-f697-4b34-a91f-44aa95cf116a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWorkspaceScriptable3 interface [Remote Desktop Services],StartWorkspaceEx2 method, IWorkspaceScriptable3.StartWorkspaceEx2, IWorkspaceScriptable3::StartWorkspaceEx2, StartWorkspaceEx2, StartWorkspaceEx2 method [Remote Desktop Services], StartWorkspaceEx2 method [Remote Desktop Services],IWorkspaceScriptable3 interface, StartWorkspaceEx2 method [Remote Desktop Services],Workspace object, WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE, WKS_FLAG_CREDS_AUTHENTICATED, WKS_FLAG_PASSWORD_ENCRYPTED, Workspace object [Remote Desktop Services],StartWorkspaceEx2 method, termserv.iworkspacescriptable3_startworkspaceex2, workspaceruntime/IWorkspaceScriptable3::StartWorkspaceEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,14 +41,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- workspaceruntime.h
-: 
-- IWorkspaceScriptable3.StartWorkspaceEx2
-: 
 ---
 
 # IWorkspaceScriptable3::StartWorkspaceEx2
@@ -72,12 +64,12 @@ Associates user credentials and certificates with a connection ID.
 A string that contains the connection ID.
 
 
-### -param bstrWorkspaceFriendlyName [in] [in]
+### -param bstrWorkspaceFriendlyName [in]
 
 TBD
 
 
-### -param bstrRedirectorName [in] [in]
+### -param bstrRedirectorName [in]
 
 TBD
 
@@ -92,7 +84,7 @@ A string that contains a user name.
 A string that contains a password.
 
 
-### -param bstrAppContainer [in] [in]
+### -param bstrAppContainer [in]
 
 TBD
 
@@ -130,12 +122,12 @@ The password is encrypted.
 The user credentials are verified. If this flag is not set, you must call the <a href="https://msdn.microsoft.com/7b879234-07a2-43e7-83e8-c503e418f71e">OnAuthenticated</a> method before using the credentials.
 
 
-### -param bstrEventLogUploadAddress [in] [in]
+### -param bstrEventLogUploadAddress [in]
 
 TBD
 
 
-### -param correlationId [in] [in]
+### -param correlationId [in]
 
 TBD
 

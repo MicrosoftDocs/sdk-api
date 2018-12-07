@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalysissource_getparagraphreadingdirection
 tech.root: DirectWrite
 ms.assetid: 23013354-54bd-4f45-91d7-159965f0c56c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetParagraphReadingDirection, GetParagraphReadingDirection method [Direct Write], GetParagraphReadingDirection method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetParagraphReadingDirection method, IDWriteTextAnalysisSource.GetParagraphReadingDirection, IDWriteTextAnalysisSource::GetParagraphReadingDirection, directwrite.idwritetextanalysissource_getparagraphreadingdirection, dwrite/IDWriteTextAnalysisSource::GetParagraphReadingDirection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dwrite.h
-: 
-- IDWriteTextAnalysisSource.GetParagraphReadingDirection
-: 
 ---
 
 # IDWriteTextAnalysisSource::GetParagraphReadingDirection

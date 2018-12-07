@@ -7,7 +7,7 @@ old-location: com\registerdragdrop.htm
 tech.root: com
 ms.assetid: 00726271-4436-41f5-b7cc-666cd77216bc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RegisterDragDrop, RegisterDragDrop function [COM], _ole_RegisterDragDrop, com.registerdragdrop, ole2/RegisterDragDrop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegisterDragDrop
-: 
 ---
 
 # RegisterDragDrop function

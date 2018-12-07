@@ -4,10 +4,10 @@ title: IEmailAction::get_ReplyTo
 author: windows-sdk-content
 description: Gets or sets the email address that you want to reply to.
 old-location: taskschd\iemailaction_replyto.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 315ec0f3-3a1b-4b83-a934-af1f5d30910a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEmailAction interface [Task Scheduler],ReplyTo property, IEmailAction.ReplyTo, IEmailAction.get_ReplyTo, IEmailAction::ReplyTo, IEmailAction::get_ReplyTo, IEmailAction::put_ReplyTo, ReplyTo property [Task Scheduler], ReplyTo property [Task Scheduler],IEmailAction interface, get_ReplyTo, taskschd.iemailaction_replyto, taskschd/IEmailAction::ReplyTo, taskschd/IEmailAction::get_ReplyTo, taskschd/IEmailAction::put_ReplyTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- IEmailAction.get_ReplyTo
-: 
 ---
 
 # IEmailAction::get_ReplyTo

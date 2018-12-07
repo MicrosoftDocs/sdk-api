@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_setgeometrylocal.htm
 tech.root: printdocs
 ms.assetid: 32657c0d-3be5-466c-98a7-6bbd46f710d1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetGeometryLocal method, IXpsOMPath.SetGeometryLocal, IXpsOMPath::SetGeometryLocal, SetGeometryLocal, SetGeometryLocal method [XPS Documents and Packaging], SetGeometryLocal method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setgeometrylocal, xpsobjectmodel/IXpsOMPath::SetGeometryLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMPath.SetGeometryLocal
-: 
 ---
 
 # IXpsOMPath::SetGeometryLocal

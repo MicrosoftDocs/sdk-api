@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failovergetclientinfo.htm
 tech.root: DHCP
 ms.assetid: 125665d1-5af6-4d8f-b7fe-cdbff6a7b415
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpV4FailoverGetClientInfo, DhcpV4FailoverGetClientInfo function [DHCP], dhcp.dhcpv4failovergetclientinfo, dhcpsapi/DhcpV4FailoverGetClientInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpV4FailoverGetClientInfo
-: 
 ---
 
 # DhcpV4FailoverGetClientInfo function

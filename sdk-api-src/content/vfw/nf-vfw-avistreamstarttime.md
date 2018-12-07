@@ -7,7 +7,7 @@ old-location: multimedia\avistreamstarttime.htm
 tech.root: Multimedia
 ms.assetid: 6bfa053f-26ca-4dc8-8896-11ee9f0d9b77
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AVIStreamStartTime, AVIStreamStartTime macro [Windows Multimedia], _win32_AVIStreamStartTime, multimedia.avistreamstarttime, vfw/AVIStreamStartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- vfw.h
-: 
-- AVIStreamStartTime
-: 
 ---
 
 # AVIStreamStartTime macro

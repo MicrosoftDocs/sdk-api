@@ -7,7 +7,7 @@ old-location: fs\preparelogarchive.htm
 tech.root: Clfs
 ms.assetid: dfdad56a-7485-4c23-852e-819980ecd5e9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PrepareLogArchive, PrepareLogArchive function [Files], clfsw32/PrepareLogArchive, fs.preparelogarchive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PrepareLogArchive
-: 
 ---
 
 # PrepareLogArchive function

@@ -4,10 +4,10 @@ title: CallbackMayRunLong function
 author: windows-sdk-content
 description: Indicates that the callback may not return quickly.
 old-location: base\callbackmayrunlong.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 59364b91-d78b-46e2-b298-42f77e712577
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CallbackMayRunLong, CallbackMayRunLong function, base.callbackmayrunlong, threadpoolapiset/CallbackMayRunLong, winbase/CallbackMayRunLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CallbackMayRunLong
-: 
 ---
 
 # CallbackMayRunLong function

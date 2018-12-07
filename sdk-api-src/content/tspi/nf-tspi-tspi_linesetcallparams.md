@@ -4,10 +4,10 @@ title: TSPI_lineSetCallParams function
 author: windows-sdk-content
 description: The TSPI_lineSetCallParams function sets certain parameters for an existing call.
 old-location: tspi\tspi_linesetcallparams.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: cc5d5347-ebb7-437a-a9a1-311b6c2a78ab
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_lineSetCallParams, TSPI_lineSetCallParams function [TAPI 2.2], _tspi_tspi_linesetcallparams, tspi.tspi_linesetcallparams, tspi/TSPI_lineSetCallParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TSPI_lineSetCallParams
-: 
 ---
 
 # TSPI_lineSetCallParams function

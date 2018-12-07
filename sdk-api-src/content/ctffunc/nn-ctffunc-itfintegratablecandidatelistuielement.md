@@ -7,7 +7,7 @@ old-location: tsf\itfintegratablecandidatelistuielement.htm
 tech.root: TSF
 ms.assetid: F9AB2037-6806-42FC-BD41-F6B6BA047908
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], ITfIntegratableCandidateListUIElement interface [Text Services Framework],described, ctffunc/ITfIntegratableCandidateListUIElement, tsf.itfintegratablecandidatelistuielement
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IAzApplicationGroup::DeleteNonMemberName
 author: windows-sdk-content
 description: Removes the specified account name from the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_deletenonmembername.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 8011e55a-1e62-45a6-a91c-07a488384d84
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteNonMemberName method, DeleteNonMemberName, DeleteNonMemberName method [Security], DeleteNonMemberName method [Security],AzApplicationGroup object, DeleteNonMemberName method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteNonMemberName method, IAzApplicationGroup.DeleteNonMemberName, IAzApplicationGroup::DeleteNonMemberName, azroles/IAzApplicationGroup::DeleteNonMemberName, security.iazapplicationgroup_deletenonmembername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzApplicationGroup.DeleteNonMemberName
-: 
 ---
 
 # IAzApplicationGroup::DeleteNonMemberName

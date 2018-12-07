@@ -4,10 +4,10 @@ title: "_RM_SENDER_STATS"
 author: windows-sdk-content
 description: Provides statistical information for a Reliable Multicast sender session. This structure is used with the RM_SENDER_STATISTICS socket option.
 old-location: winsock\rm_sender_stats.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 9ab6019c-459a-443d-b8e4-f7ee362e3385
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RM_SENDER_STATS, RM_SENDER_STATS structure [Winsock], _RM_SENDER_STATS, winsock.rm_sender_stats, wsrm/RM_SENDER_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices

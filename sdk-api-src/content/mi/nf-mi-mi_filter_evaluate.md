@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_filter_evaluate.htm
 tech.root: wmi_v2
 ms.assetid: b826f02d-3764-4f61-996f-42bf01ea44e2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Filter_Evaluate, MI_Filter_Evaluate function [Windows Management Infrastructure (MI)], mi/MI_Filter_Evaluate, wmi_v2.mi_filter_evaluate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_Filter_Evaluate
-: 
 ---
 
 # MI_Filter_Evaluate function

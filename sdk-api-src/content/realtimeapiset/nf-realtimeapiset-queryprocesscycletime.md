@@ -4,10 +4,10 @@ title: QueryProcessCycleTime function
 author: windows-sdk-content
 description: Retrieves the sum of the cycle time of all threads of the specified process.
 old-location: base\queryprocesscycletime.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 1859bc0f-8065-4104-b421-1b4c020ad5ea
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: QueryProcessCycleTime, QueryProcessCycleTime function, base.queryprocesscycletime, realtimeapiset/QueryProcessCycleTime, winbase/QueryProcessCycleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- QueryProcessCycleTime
-: 
 ---
 
 # QueryProcessCycleTime function

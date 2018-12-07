@@ -7,7 +7,7 @@ old-location: dshow\ivpbasenotify_renegotiatevpparameters.htm
 tech.root: DirectShow
 ms.assetid: b35a0e8f-3d4f-443d-b76c-83b44745a86d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVPBaseNotify interface [DirectShow],RenegotiateVPParameters method, IVPBaseNotify.RenegotiateVPParameters, IVPBaseNotify::RenegotiateVPParameters, IVPBaseNotifyRenegotiateVPParameters, RenegotiateVPParameters, RenegotiateVPParameters method [DirectShow], RenegotiateVPParameters method [DirectShow],IVPBaseNotify interface, dshow.ivpbasenotify_renegotiatevpparameters, vpnotify/IVPBaseNotify::RenegotiateVPParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vpnotify.h
-: 
-- IVPBaseNotify.RenegotiateVPParameters
-: 
 ---
 
 # IVPBaseNotify::RenegotiateVPParameters

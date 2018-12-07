@@ -4,10 +4,10 @@ title: tagNMREBARCHILDSIZE
 author: windows-sdk-content
 description: Contains information used in handling the RBN_CHILDSIZE notification code.
 old-location: controls\NMREBARCHILDSIZE.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarchildsize.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE structure pointer [Windows Controls], NMREBARCHILDSIZE, NMREBARCHILDSIZE structure [Windows Controls], _win32_NMREBARCHILDSIZE, _win32_NMREBARCHILDSIZE_cpp, commctrl/LPNMREBARCHILDSIZE, commctrl/NMREBARCHILDSIZE, controls.NMREBARCHILDSIZE, controls._win32_NMREBARCHILDSIZE, tagNMREBARCHILDSIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

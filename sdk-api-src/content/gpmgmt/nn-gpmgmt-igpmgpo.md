@@ -4,10 +4,10 @@ title: IGPMGPO
 author: windows-sdk-content
 description: The IGPMGPO interface supports methods that enable you to manage Group Policy Objects (GPOs) in the directory service.
 old-location: gpmc\igpmgpo.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 2857c8b7-019d-4ec2-9a00-574fc8541cae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GPMGPO, IGPMGPO, IGPMGPO interface [GPMC], IGPMGPO interface [GPMC],described, _win32_igpmgpo, gpmc.igpmgpo, gpmgmt/ IGPMGPO
 ms.prod: windows-hardware
 ms.technology: windows-devices

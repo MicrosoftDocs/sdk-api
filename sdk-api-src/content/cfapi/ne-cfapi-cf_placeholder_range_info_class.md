@@ -7,7 +7,7 @@ old-location: cloudapi\_cf_placeholder_range_info_class.htm
 tech.root: cfApi
 ms.assetid: 04533C98-894C-422F-9BE5-F2746BF13567
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CF_PLACEHOLDER_RANGE_INFO_CLASS, CF_PLACEHOLDER_RANGE_INFO_CLASS enumeration, CF_PLACEHOLDER_RANGE_INFO_MODIFIED, CF_PLACEHOLDER_RANGE_INFO_ONDISK, CF_PLACEHOLDER_RANGE_INFO_VALIDATED, PCF_PLACEHOLDER_RANGE_INFO_CLASS, PCF_PLACEHOLDER_RANGE_INFO_CLASS enumeration pointer, cfapi/CF_PLACEHOLDER_RANGE_INFO_CLASS, cfapi/CF_PLACEHOLDER_RANGE_INFO_MODIFIED, cfapi/CF_PLACEHOLDER_RANGE_INFO_ONDISK, cfapi/CF_PLACEHOLDER_RANGE_INFO_VALIDATED, cfapi/PCF_PLACEHOLDER_RANGE_INFO_CLASS, cloudApi._cf_placeholder_range_info_class
 ms.prod: windows-hardware
 ms.technology: windows-devices

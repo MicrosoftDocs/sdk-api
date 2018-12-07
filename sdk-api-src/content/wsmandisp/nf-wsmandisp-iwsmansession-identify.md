@@ -4,10 +4,10 @@ title: IWSManSession::Identify
 author: windows-sdk-content
 description: Queries a remote computer to determine if it supports the WS-Management protocol.
 old-location: winrm\iwsmansession_identify.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: d3f4e33e-436b-4f05-8696-321a3bfbacd5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Identify method, IWSManSession.Identify, IWSManSession::Identify, Identify, Identify method [Windows Remote Management], Identify method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_identify, wsmandisp/IWSManSession::Identify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManSession.Identify
-: 
 ---
 
 # IWSManSession::Identify

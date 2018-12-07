@@ -7,7 +7,7 @@ old-location: fwp\ikeextsadestroyenumhandle0.htm
 tech.root: fwp
 ms.assetid: b9351d74-bc0b-4423-9f21-5f3be8608b8a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IkeextSaDestroyEnumHandle0, IkeextSaDestroyEnumHandle0 function [Filtering], fwp.ikeextsadestroyenumhandle0, fwpmu/IkeextSaDestroyEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IkeextSaDestroyEnumHandle0
-: 
 ---
 
 # IkeextSaDestroyEnumHandle0 function

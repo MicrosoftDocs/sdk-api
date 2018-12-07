@@ -7,7 +7,7 @@ old-location: mixedreality\ispatialinteractionmanager_getforwindow.htm
 tech.root: MixedReality
 ms.assetid: 5D11BF4D-2EE3-40A3-A1EE-202DD5B904FE
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,GetForWindow method, ISpatialInteractionManagerInterop.GetForWindow, ISpatialInteractionManagerInterop::GetForWindow, MixedReality.ispatialinteractionmanager_getforwindow, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop::GetForWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- spatialinteractionmanagerinterop.h
-: 
-- ISpatialInteractionManagerInterop.GetForWindow
-: 
 ---
 
 # ISpatialInteractionManagerInterop::GetForWindow

@@ -7,7 +7,7 @@ old-location: security\bcryptenumproviders_func.htm
 tech.root: seccng
 ms.assetid: 0496f241-9530-47fb-89e2-15d7ab6da87a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: BCryptEnumProviders, BCryptEnumProviders function [Security], bcrypt/BCryptEnumProviders, security.bcryptenumproviders_func
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- BCryptEnumProviders
-: 
 ---
 
 # BCryptEnumProviders function

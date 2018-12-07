@@ -4,10 +4,10 @@ title: "_CERT_POLICY_MAPPINGS_INFO"
 author: windows-sdk-content
 description: The CERT_POLICY_MAPPINGS_INFO structure provides mapping between the policy OIDs of two domains.
 old-location: security\cert_policy_mappings_info.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: dcc44691-d621-4e28-8618-38238f866302
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCERT_POLICY_MAPPINGS_INFO, CERT_POLICY_MAPPINGS_INFO, CERT_POLICY_MAPPINGS_INFO structure [Security], PCERT_POLICY_MAPPINGS_INFO, PCERT_POLICY_MAPPINGS_INFO structure pointer [Security], _CERT_POLICY_MAPPINGS_INFO, _crypto2_cert_policy_mappings_info, security.cert_policy_mappings_info, wincrypt/CERT_POLICY_MAPPINGS_INFO, wincrypt/PCERT_POLICY_MAPPINGS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

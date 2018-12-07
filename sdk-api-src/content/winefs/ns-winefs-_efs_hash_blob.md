@@ -7,7 +7,7 @@ old-location: fs\efs_hash_blob_str.htm
 tech.root: fileio
 ms.assetid: 23a172be-6e94-4a1f-afde-fc9437443c7a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PEFS_HASH_BLOB, EFS_HASH_BLOB, EFS_HASH_BLOB structure [Files], PEFS_HASH_BLOB, PEFS_HASH_BLOB structure pointer [Files], _EFS_HASH_BLOB, _win32_efs_hash_blob_str, base.efs_hash_blob_str, fs.efs_hash_blob_str, winefs/EFS_HASH_BLOB, winefs/PEFS_HASH_BLOB"
 ms.prod: windows-hardware
 ms.technology: windows-devices

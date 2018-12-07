@@ -4,10 +4,10 @@ title: CertVerifyValidityNesting function
 author: windows-sdk-content
 description: The CertVerifyValidityNesting function verifies that a subject certificate's time validity nests correctly within its issuer's time validity.
 old-location: security\certverifyvaliditynesting.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: dc73a21d-5b55-45c4-80d2-220508d9f762
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CertVerifyValidityNesting, CertVerifyValidityNesting function [Security], _crypto2_certverifyvaliditynesting, security.certverifyvaliditynesting, wincrypt/CertVerifyValidityNesting
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CertVerifyValidityNesting
-: 
 ---
 
 # CertVerifyValidityNesting function

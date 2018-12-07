@@ -7,7 +7,7 @@ old-location: shell\SHCreateShellItem.htm
 tech.root: shell
 ms.assetid: d4371cdf-a8f4-4a39-ba66-97fd40ed46ae
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHCreateShellItem, SHCreateShellItem function [Windows Shell], _win32_SHCreateShellItem, shell.SHCreateShellItem, shlobj_core/SHCreateShellItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHCreateShellItem
-: 
 ---
 
 # SHCreateShellItem function

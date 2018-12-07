@@ -4,10 +4,10 @@ title: IADs::Get
 author: windows-sdk-content
 description: Retrieves a property of a given name from the property cache.
 old-location: adsi\iads_get.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: fd6d79b6-46f8-42dd-8525-a72a6e0a7672
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADs interface, IADs interface [ADSI],Get method, IADs.Get, IADs::Get, _ds_iads_get, adsi.iads__get, adsi.iads_get, iads/IADs::Get
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADs.Get
-: 
 ---
 
 # IADs::Get

@@ -4,10 +4,10 @@ title: HttpCreateServerSession function
 author: windows-sdk-content
 description: Creates a server session for the specified version.
 old-location: http\httpcreateserversession.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 42c8be3a-eb1b-49ff-ade0-16e4500b0c44
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HttpCreateServerSession, HttpCreateServerSession function [HTTP], http.httpcreateserversession, http/HttpCreateServerSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- HttpCreateServerSession
-: 
 ---
 
 # HttpCreateServerSession function

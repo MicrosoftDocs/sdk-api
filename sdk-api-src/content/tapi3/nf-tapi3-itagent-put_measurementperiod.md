@@ -4,10 +4,10 @@ title: ITAgent::put_MeasurementPeriod
 author: windows-sdk-content
 description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information. This also resets any cumulative counts to zero.
 old-location: tapi3\itagent_put_measurementperiod.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 3c5d6e8e-8ddf-4eef-be79-fed56daecb1b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITAgent interface [TAPI 2.2],put_MeasurementPeriod method, ITAgent.put_MeasurementPeriod, ITAgent::put_MeasurementPeriod, _tapi3_itagent_put_measurementperiod, put_MeasurementPeriod, put_MeasurementPeriod method [TAPI 2.2], put_MeasurementPeriod method [TAPI 2.2],ITAgent interface, tapi3.itagent_put_measurementperiod, tapi3cc/ITAgent::put_MeasurementPeriod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3.h
-: 
-- ITAgent.put_MeasurementPeriod
-: 
 ---
 
 # ITAgent::put_MeasurementPeriod

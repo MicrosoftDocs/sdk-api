@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_writetosubresource.htm
 tech.root: direct3d11
 ms.assetid: DCA4A88D-3DCA-41D5-AE52-061A605A9CBF
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11Device3 interface [Direct3D 11],WriteToSubresource method, ID3D11Device3.WriteToSubresource, ID3D11Device3::WriteToSubresource, WriteToSubresource, WriteToSubresource method [Direct3D 11], WriteToSubresource method [Direct3D 11],ID3D11Device3 interface, d3d11_3/ID3D11Device3::WriteToSubresource, direct3d11.id3d11device3_writetosubresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11_3.h
-: 
-- ID3D11Device3.WriteToSubresource
-: 
 ---
 
 # ID3D11Device3::WriteToSubresource

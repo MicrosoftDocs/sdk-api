@@ -4,10 +4,10 @@ title: IAzApplication::Submit
 author: windows-sdk-content
 description: Persists changes made to the IAzApplication object.
 old-location: security\iazapplication_submit.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: d00d55a1-884f-46c2-b80b-f90ce8f5c648
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AzApplication object [Security],Submit method, IAzApplication interface [Security],Submit method, IAzApplication.Submit, IAzApplication::Submit, Submit, Submit method [Security], Submit method [Security],AzApplication object, Submit method [Security],IAzApplication interface, azroles/IAzApplication::Submit, security.iazapplication_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzApplication.Submit
-: 
 ---
 
 # IAzApplication::Submit

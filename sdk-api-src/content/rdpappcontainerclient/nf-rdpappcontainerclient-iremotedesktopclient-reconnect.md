@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclient_reconnect.htm
 tech.root: termserv
 ms.assetid: ef000769-a2d8-4d62-99d9-33ffc18ec8f6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],Reconnect method, IRemoteDesktopClient.Reconnect, IRemoteDesktopClient::Reconnect, Reconnect, Reconnect method [Remote Desktop Services], Reconnect method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::Reconnect, termserv.iremotedesktopclient_reconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpappcontainerclient.h
-: 
-- IRemoteDesktopClient.Reconnect
-: 
 ---
 
 # IRemoteDesktopClient::Reconnect

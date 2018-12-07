@@ -4,10 +4,10 @@ title: IProvideTaskPage
 author: windows-sdk-content
 description: Provides the methods to access the property sheet settings of a task.
 old-location: taskschd\iprovidetaskpage.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 58be7ea9-022f-46a0-9f27-9b226000a8cc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IProvideTaskPage, IProvideTaskPage interface [Task Scheduler], IProvideTaskPage interface [Task Scheduler],described, _msb_iprovidetaskpage, mstask/IProvideTaskPage, taskschd.iprovidetaskpage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: SfcGetNextProtectedFile function
 author: windows-sdk-content
 description: Retrieves the complete list of protected files.
 old-location: setup\sfcgetnextprotectedfile.htm
-tech.root: Wfp
+tech.root: wfp
 ms.assetid: 122261d5-b758-4088-8c8b-64b38c6092f1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SfcGetNextProtectedFile, SfcGetNextProtectedFile function [Setup API], _win32_sfcgetnextprotectedfile, setup.sfcgetnextprotectedfile, sfc/SfcGetNextProtectedFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SfcGetNextProtectedFile
-: 
 ---
 
 # SfcGetNextProtectedFile function

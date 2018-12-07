@@ -4,10 +4,10 @@ title: IX509Enrollment::put_CertificateDescription
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains a description of the certificate.
 old-location: security\ix509enrollment_certificatedescription_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 5057770b-79b1-4c83-bf2e-bff1eb91aea0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CertificateDescription property [Security], CertificateDescription property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CertificateDescription property, IX509Enrollment.CertificateDescription, IX509Enrollment.put_CertificateDescription, IX509Enrollment::CertificateDescription, IX509Enrollment::get_CertificateDescription, IX509Enrollment::put_CertificateDescription, certenroll/IX509Enrollment::CertificateDescription, certenroll/IX509Enrollment::get_CertificateDescription, certenroll/IX509Enrollment::put_CertificateDescription, put_CertificateDescription, security.ix509enrollment_certificatedescription_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509Enrollment.put_CertificateDescription
-: 
 ---
 
 # IX509Enrollment::put_CertificateDescription

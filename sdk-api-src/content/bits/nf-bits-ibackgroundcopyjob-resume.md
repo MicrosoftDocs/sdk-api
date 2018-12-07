@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::Resume
 author: windows-sdk-content
 description: Activates a new job or restarts a job that has been suspended.
 old-location: bits\ibackgroundcopyjob_resume.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: a9e6f057-0a51-4f2d-810b-edbb3e019370
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],Resume method, IBackgroundCopyJob.Resume, IBackgroundCopyJob::Resume, Resume, Resume method [BITS], Resume method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_resume, bits.ibackgroundcopyjob_resume, bits/IBackgroundCopyJob::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.Resume
-: 
 ---
 
 # IBackgroundCopyJob::Resume

@@ -7,7 +7,7 @@ old-location: amsi\amsiinitialize.htm
 tech.root: AMSI
 ms.assetid: 946FC79C-556C-404E-A559-323AA69B3EC6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AmsiInitialize, AmsiInitialize function [Antimalware Scan Interface], amsi.amsiinitialize, amsi/AmsiInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AmsiInitialize
-: 
 ---
 
 # AmsiInitialize function

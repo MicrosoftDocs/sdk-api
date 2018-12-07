@@ -7,7 +7,7 @@ old-location: mf\imfsourcereader_getnativemediatype.htm
 tech.root: medfound
 ms.assetid: 4b514f8d-082f-4e84-b512-d4a59706a6d8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetNativeMediaType, GetNativeMediaType method [Media Foundation], GetNativeMediaType method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetNativeMediaType method, IMFSourceReader.GetNativeMediaType, IMFSourceReader::GetNativeMediaType, MF_SOURCE_READER_CURRENT_TYPE_INDEX, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_getnativemediatype, mfreadwrite/IMFSourceReader::GetNativeMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfreadwrite.h
-: 
-- IMFSourceReader.GetNativeMediaType
-: 
 ---
 
 # IMFSourceReader::GetNativeMediaType

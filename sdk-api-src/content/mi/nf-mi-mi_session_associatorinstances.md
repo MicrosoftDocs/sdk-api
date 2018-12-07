@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session_associatorinstances.htm
 tech.root: wmi_v2
 ms.assetid: 4e517289-a30e-4ba3-8cbf-dfc4f9744b1a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Session_AssociatorInstances, MI_Session_AssociatorInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_AssociatorInstances, wmi_v2.mi_session_associatorinstances
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
-- apiref
-: 
-- 
-: 
-- MI_Session_AssociatorInstances
-: 
 ---
 
 # MI_Session_AssociatorInstances function

@@ -1,17 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.GetPlanes
-title: GetPlanes function
+title: BoundingFrustum::GetPlanes
 author: windows-sdk-content
 description: Gets the planes making up the BoundingFrustum.
 old-location: dxmath\boundingfrustum_getplanes.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.GetPlanes(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],GetPlanes method, BoundingFrustum.GetPlanes, GetPlanes method [DirectX Math Support APIs], GetPlanes method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_getplanes
+ms.date: 12/5/2018
+ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],GetPlanes method, BoundingFrustum.GetPlanes, BoundingFrustum::GetPlanes, GetPlanes, GetPlanes method [DirectX Math Support APIs], GetPlanes method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_getplanes
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -42,15 +42,9 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetPlanes
-: 
 ---
 
-# GetPlanes function
+# BoundingFrustum::GetPlanes
 
 
 ## -description

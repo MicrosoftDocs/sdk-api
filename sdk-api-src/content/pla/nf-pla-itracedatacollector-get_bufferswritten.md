@@ -4,10 +4,10 @@ title: ITraceDataCollector::get_BuffersWritten
 author: windows-sdk-content
 description: Retrieves the number of buffers written to the log file.
 old-location: pla\itracedatacollector_bufferswritten.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: e150a68f-da6d-4ee1-9ac8-d19d0cae62cc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: BuffersWritten property [PLA], BuffersWritten property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BuffersWritten property, ITraceDataCollector.BuffersWritten, ITraceDataCollector.get_BuffersWritten, ITraceDataCollector::BuffersWritten, ITraceDataCollector::get_BuffersWritten, base.itracedatacollector_bufferswritten, get_BuffersWritten, pla.itracedatacollector_bufferswritten, pla/ITraceDataCollector::BuffersWritten, pla/ITraceDataCollector::get_BuffersWritten
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- ITraceDataCollector.get_BuffersWritten
-: 
 ---
 
 # ITraceDataCollector::get_BuffersWritten

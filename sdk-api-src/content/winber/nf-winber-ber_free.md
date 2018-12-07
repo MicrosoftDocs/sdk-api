@@ -4,10 +4,10 @@ title: ber_free function
 author: windows-sdk-content
 description: The ber_free function frees a BerElement structure that was previously allocated with ber_alloc_t, ber_init, or the ldap_first_attribute/ ldap_next_attribute search functions.
 old-location: ldap\ber_free.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: b0f5a81e-a1d1-41c3-802c-b17be2275964
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ber_free, ber_free, ber_free function [LDAP], ldap.ber__free, ldap.ber_free, winber/ber_free"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ber_free
-: 
 ---
 
 # ber_free function

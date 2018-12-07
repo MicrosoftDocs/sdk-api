@@ -7,7 +7,7 @@ old-location: devinst\cm_delete_class_key.htm
 tech.root: devinst
 ms.assetid: f315f5fa-eb67-4898-ac4e-acb92b8e9b3e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Delete_Class_Key, CM_Delete_Class_Key function [Device and Driver Installation], cfgmgr32/CM_Delete_Class_Key, cfgmgrfn_4e8a0362-3fd5-4cb6-af2b-33a904bcafde.xml, devinst.cm_delete_class_key
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CM_Delete_Class_Key
-: 
 ---
 
 # CM_Delete_Class_Key function

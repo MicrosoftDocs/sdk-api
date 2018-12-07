@@ -7,7 +7,7 @@ old-location: com\icancelmethodcalls.htm
 tech.root: com
 ms.assetid: 5e31f706-1c9c-4510-845c-4e47093780a1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ICancelMethodCalls, ICancelMethodCalls interface [COM], ICancelMethodCalls interface [COM],described, _com_icancelmethodcalls, com.icancelmethodcalls, objidlbase/ICancelMethodCalls
 ms.prod: windows-hardware
 ms.technology: windows-devices

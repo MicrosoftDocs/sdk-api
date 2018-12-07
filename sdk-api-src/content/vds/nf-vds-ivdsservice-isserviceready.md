@@ -4,10 +4,10 @@ title: IVdsService::IsServiceReady
 author: windows-sdk-content
 description: Returns the initialization status of VDS.
 old-location: base\ivdsservice_isserviceready.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 79ef68db-6bc6-40b3-a133-86f00eb70ee3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsService interface [VDS],IsServiceReady method, IVdsService.IsServiceReady, IVdsService::IsServiceReady, IsServiceReady, IsServiceReady method [VDS], IsServiceReady method [VDS],IVdsService interface, base.ivdsservice_isserviceready, vds/IVdsService::IsServiceReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsService.IsServiceReady
-: 
 ---
 
 # IVdsService::IsServiceReady

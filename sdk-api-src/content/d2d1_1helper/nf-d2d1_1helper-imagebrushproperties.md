@@ -4,10 +4,10 @@ title: ImageBrushProperties function
 author: windows-sdk-content
 description: Creates a D2D1_IMAGE_BRUSH_PROPERTIES structure.
 old-location: direct2d\imagebrushproperties.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 824FA979-7D68-4383-BE3B-C3F39C1AAF77
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ImageBrushProperties, ImageBrushProperties function [Direct2D], d2d1_1helper/ImageBrushProperties, direct2d.imagebrushproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ImageBrushProperties
-: 
 ---
 
 # ImageBrushProperties function

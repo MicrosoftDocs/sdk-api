@@ -4,10 +4,10 @@ title: "_SRCCODEINFOW"
 author: windows-sdk-content
 description: Contains line information.
 old-location: base\srccodeinfo_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 8a2ee743-d2e8-402a-b659-0c0b75052d1d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSRCCODEINFOW, PSRCCODEINFO, PSRCCODEINFO structure pointer, SRCCODEINFO, SRCCODEINFO structure, SRCCODEINFOW, _SRCCODEINFO, _SRCCODEINFOW, base.srccodeinfo_str, dbghelp/PSRCCODEINFO, dbghelp/SRCCODEINFO, dbghelp/SRCCODEINFOW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

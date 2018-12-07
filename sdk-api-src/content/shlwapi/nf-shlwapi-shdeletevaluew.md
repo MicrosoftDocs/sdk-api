@@ -7,7 +7,7 @@ old-location: shell\SHDeleteValue.htm
 tech.root: shell
 ms.assetid: 54f3459b-486c-4907-84b1-39b1f8abb12d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHDeleteValue, SHDeleteValue function [Windows Shell], SHDeleteValueA, SHDeleteValueW, _win32_SHDeleteValue, shell.SHDeleteValue, shlwapi/SHDeleteValue, shlwapi/SHDeleteValueA, shlwapi/SHDeleteValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHDeleteValueW
-: 
 ---
 
 # SHDeleteValueW function

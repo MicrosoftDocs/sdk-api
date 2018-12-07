@@ -7,7 +7,7 @@ old-location: ual\ualstop.htm
 tech.root: ual
 ms.assetid: 142A0C96-2D53-4C31-9847-D6D5313C841E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: UalStop, UalStop function [User Access Logging], ual.ualstop, ual/UalStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UalStop
-: 
 ---
 
 # UalStop function

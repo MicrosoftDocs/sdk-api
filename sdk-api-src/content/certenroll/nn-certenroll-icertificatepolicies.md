@@ -4,10 +4,10 @@ title: ICertificatePolicies
 author: windows-sdk-content
 description: Contains methods and properties that enable you to manage a collection of ICertificatePolicy objects.
 old-location: security\icertificatepolicies.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 2503adcb-0b73-42ef-98cf-a2b906e34ef7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICertificatePolicies, ICertificatePolicies interface [Security], ICertificatePolicies interface [Security],described, certenroll/ICertificatePolicies, security.icertificatepolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices

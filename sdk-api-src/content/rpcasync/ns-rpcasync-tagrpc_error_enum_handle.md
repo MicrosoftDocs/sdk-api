@@ -4,10 +4,10 @@ title: tagRPC_ERROR_ENUM_HANDLE
 author: windows-sdk-content
 description: The RPC_ERROR_ENUM_HANDLE structure provides an enumeration handle used by RpcError* functions for processing extended error information.
 old-location: rpc\rpc_error_enum_handle.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: d6fbd0ad-b63e-4fb8-bebb-1b2b2552a8c8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: RPC_ERROR_ENUM_HANDLE, RPC_ERROR_ENUM_HANDLE structure [RPC], _rpc_rpc_error_enum_handle, rpc.rpc_error_enum_handle, rpcasync/RPC_ERROR_ENUM_HANDLE, tagRPC_ERROR_ENUM_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

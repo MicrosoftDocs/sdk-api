@@ -7,7 +7,7 @@ old-location: snmp\snmpextensionmonitor.htm
 tech.root: SNMP
 ms.assetid: 40468bf2-0e91-448b-a2e5-b84b786c67a2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpExtensionMonitor, SnmpExtensionMonitor callback, SnmpExtensionMonitor callback function [SNMP], _snmp_snmpextensionmonitor, snmp.snmpextensionmonitor, snmp/SnmpExtensionMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpExtensionMonitor
-: 
 ---
 
 # SnmpExtensionMonitor function

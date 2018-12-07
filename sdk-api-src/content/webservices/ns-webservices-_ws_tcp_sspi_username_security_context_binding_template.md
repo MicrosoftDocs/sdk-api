@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_sspi_username_security_context_binding_template.htm
 tech.root: wsw
 ms.assetid: e72dc719-df42-42c8-98c0-d997c5876dd4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE structure [Web Services for Windows], _WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, webservices/WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, wsw.ws_tcp_sspi_username_security_context_binding_template
 ms.prod: windows-hardware
 ms.technology: windows-devices

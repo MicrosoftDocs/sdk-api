@@ -4,10 +4,10 @@ title: StgPropertyLengthAsVariant function
 author: windows-sdk-content
 description: The StgPropertyLengthAsVariant function examines a SERIALIZEDPROPERTYVALUE and returns the amount of memory that this property would occupy as a PROPVARIANT.
 old-location: stg\stgpropertylengthasvariant.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 3e809ca9-3038-4d92-bb56-23bd45b6b644
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: StgPropertyLengthAsVariant, StgPropertyLengthAsVariant function [Structured Storage], propapi/StgPropertyLengthAsVariant, stg.stgpropertylengthasvariant
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StgPropertyLengthAsVariant
-: 
 ---
 
 # StgPropertyLengthAsVariant function

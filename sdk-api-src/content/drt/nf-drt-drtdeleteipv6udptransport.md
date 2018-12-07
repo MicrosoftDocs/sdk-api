@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DrtDeleteIpv6UdpTransport
-: 
 ---
 
 # DrtDeleteIpv6UdpTransport function

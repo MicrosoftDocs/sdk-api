@@ -7,7 +7,7 @@ old-location: com\getclassfile.htm
 tech.root: com
 ms.assetid: dc3cb263-7b9a-45f9-8eab-3a88aa9392db
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetClassFile, GetClassFile function [COM], _com_GetClassFile, com.getclassfile, objbase/GetClassFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,12 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetClassFile
-: 
 ---
 
 # GetClassFile function

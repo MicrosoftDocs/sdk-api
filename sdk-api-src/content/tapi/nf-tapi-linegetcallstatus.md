@@ -4,10 +4,10 @@ title: lineGetCallStatus function
 author: windows-sdk-content
 description: The lineGetCallStatus function returns the current status of the specified call.
 old-location: tapi2\linegetcallstatus.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 88bcd211-0993-4703-b43f-4e0b93e3eb7e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegetcallstatus, lineGetCallStatus, lineGetCallStatus function [TAPI 2.2], tapi/lineGetCallStatus, tapi2.linegetcallstatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- lineGetCallStatus
-: 
 ---
 
 # lineGetCallStatus function

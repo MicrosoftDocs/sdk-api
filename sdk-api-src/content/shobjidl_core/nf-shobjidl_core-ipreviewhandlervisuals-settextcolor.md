@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandlerVisuals_SetTextColor.htm
 tech.root: shell
 ms.assetid: 07278485-51a6-4729-8569-250478382a1e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IPreviewHandlerVisuals interface [Windows Shell],SetTextColor method, IPreviewHandlerVisuals.SetTextColor, IPreviewHandlerVisuals::SetTextColor, SetTextColor, SetTextColor method [Windows Shell], SetTextColor method [Windows Shell],IPreviewHandlerVisuals interface, _shell_IPreviewHandlerVisuals_SetTextColor, shell.IPreviewHandlerVisuals_SetTextColor, shobjidl_core/IPreviewHandlerVisuals::SetTextColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IPreviewHandlerVisuals.SetTextColor
-: 
 ---
 
 # IPreviewHandlerVisuals::SetTextColor

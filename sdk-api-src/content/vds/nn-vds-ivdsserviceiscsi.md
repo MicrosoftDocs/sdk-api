@@ -4,10 +4,10 @@ title: IVdsServiceIscsi
 author: windows-sdk-content
 description: Provides methods to interface with the local initiator service, including the ability to set CHAP security settings and to log into targets.
 old-location: base\ivdsserviceiscsi.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 07bbfb4b-f054-4ec2-8f0b-3910115db5c1
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsServiceIscsi, IVdsServiceIscsi interface [VDS], IVdsServiceIscsi interface [VDS],described, base.ivdsserviceiscsi, vds/IVdsServiceIscsi
 ms.prod: windows-hardware
 ms.technology: windows-devices

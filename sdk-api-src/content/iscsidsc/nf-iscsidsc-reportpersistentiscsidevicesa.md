@@ -7,7 +7,7 @@ old-location: iscsidisc\reportpersistentiscsidevices.htm
 tech.root: iSCSIDisc
 ms.assetid: 856e240d-8c4d-4e55-aef3-71f98193c221
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ReportPersistentIScsiDevicesA, ReportPersistentIscsiDevices, ReportPersistentIscsiDevices function [iSCSI Discovery Library API], ReportPersistentIscsiDevicesA, ReportPersistentIscsiDevicesW, iscsidisc.reportpersistentiscsidevices, iscsidsc/ReportPersistentIscsiDevices, iscsidsc/ReportPersistentIscsiDevicesA, iscsidsc/ReportPersistentIscsiDevicesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ReportPersistentIScsiDevicesA
-: 
 ---
 
 # ReportPersistentIScsiDevicesA function

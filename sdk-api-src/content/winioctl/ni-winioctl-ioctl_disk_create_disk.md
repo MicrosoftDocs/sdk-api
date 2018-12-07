@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_create_disk.htm
 tech.root: fileio
 ms.assetid: c8215a00-ea39-4268-bb66-68cf3d37baef
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_DISK_CREATE_DISK, IOCTL_DISK_CREATE_DISK control, IOCTL_DISK_CREATE_DISK control code [Files], _win32_ioctl_disk_create_disk, base.ioctl_disk_create_disk, fs.ioctl_disk_create_disk, winioctl/IOCTL_DISK_CREATE_DISK
 ms.prod: windows-hardware
 ms.technology: windows-devices

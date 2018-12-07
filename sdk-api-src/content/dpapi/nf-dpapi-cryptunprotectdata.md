@@ -4,10 +4,10 @@ title: CryptUnprotectData function
 author: windows-sdk-content
 description: Decrypts and does an integrity check of the data in a DATA_BLOB structure.
 old-location: security\cryptunprotectdata.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 54eab3b0-d341-47c6-9c32-79328d7a7155
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CRYPTPROTECT_UI_FORBIDDEN, CRYPTPROTECT_VERIFY_PROTECTION, CryptUnprotectData, CryptUnprotectData function [Security], _crypto2_cryptunprotectdata, dpapi/CryptUnprotectData, security.cryptunprotectdata, wincrypt/CryptUnprotectData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptUnprotectData
-: 
 ---
 
 # CryptUnprotectData function

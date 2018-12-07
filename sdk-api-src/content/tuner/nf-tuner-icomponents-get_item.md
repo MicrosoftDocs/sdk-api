@@ -7,7 +7,7 @@ old-location: mstv\icomponents_get_item.htm
 tech.root: mstv
 ms.assetid: 12716c7c-3156-401e-8f1c-be3100afb912
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],get_Item method, IComponents.get_Item, IComponents::get_Item, IComponentsget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_get_item, tuner/IComponents::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tuner.h
-: 
-- IComponents.get_Item
-: 
 ---
 
 # IComponents::get_Item

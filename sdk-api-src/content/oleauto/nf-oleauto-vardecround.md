@@ -7,7 +7,7 @@ old-location: automat\vardecround.htm
 tech.root: automat
 ms.assetid: 264914c6-2f47-4e99-b3bb-a2c510906954
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarDecRound, VarDecRound function [Automation], _oa96_VarDecRound, automat.vardecround, oleauto/VarDecRound
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarDecRound
-: 
 ---
 
 # VarDecRound function

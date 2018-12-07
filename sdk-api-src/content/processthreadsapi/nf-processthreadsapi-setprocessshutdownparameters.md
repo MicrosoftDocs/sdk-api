@@ -4,10 +4,10 @@ title: SetProcessShutdownParameters function
 author: windows-sdk-content
 description: Sets shutdown parameters for the currently calling process. This function sets a shutdown order for a process relative to the other processes in the system.
 old-location: base\setprocessshutdownparameters.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: c467950e-31e1-4608-a08a-0736a5524e0e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHUTDOWN_NORETRY, SetProcessShutdownParameters, SetProcessShutdownParameters function, _win32_setprocessshutdownparameters, base.setprocessshutdownparameters, processthreadsapi/SetProcessShutdownParameters, winbase/SetProcessShutdownParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetProcessShutdownParameters
-: 
 ---
 
 # SetProcessShutdownParameters function

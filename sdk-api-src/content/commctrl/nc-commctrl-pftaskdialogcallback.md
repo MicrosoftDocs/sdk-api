@@ -4,10 +4,10 @@ title: PFTASKDIALOGCALLBACK
 author: windows-sdk-content
 description: The TaskDialogCallbackProc function is an application-defined function used with the TaskDialogIndirect function.
 old-location: controls\TaskDialogCallbackProc.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialogcallbackproc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PFTASKDIALOGCALLBACK, PFTASKDIALOGCALLBACK callback, PFTASKDIALOGCALLBACK callback function [Windows Controls], _shell_TaskDialogCallbackProc, _shell_TaskDialogCallbackProc_cpp, commctrl/PFTASKDIALOGCALLBACK, controls.TaskDialogCallbackProc, controls._shell_TaskDialogCallbackProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

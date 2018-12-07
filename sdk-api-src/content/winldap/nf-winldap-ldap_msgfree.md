@@ -4,10 +4,10 @@ title: ldap_msgfree function
 author: windows-sdk-content
 description: The ldap_msgfree function frees the results obtained from a previous call to ldap_result, or to one of the synchronous search routines.
 old-location: ldap\ldap_msgfree.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: a4292638-0686-4c2d-8c51-1d5d079d5782
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_msgfree, ldap.ldap__msgfree, ldap.ldap_msgfree, ldap_msgfree, ldap_msgfree function [LDAP], winldap/ldap_msgfree"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_msgfree
-: 
 ---
 
 # ldap_msgfree function

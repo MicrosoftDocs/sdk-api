@@ -7,7 +7,7 @@ old-location: tsf\ienumtfdocumentmgrs_next.htm
 tech.root: TSF
 ms.assetid: 2fe1beed-9952-4e6c-9c45-eb21c4918288
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumTfDocumentMgrs interface [Text Services Framework],Next method, IEnumTfDocumentMgrs.Next, IEnumTfDocumentMgrs::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfDocumentMgrs interface, _tsf_ienumtfdocumentmgrs_next_ref, msctf/IEnumTfDocumentMgrs::Next, tsf.ienumtfdocumentmgrs_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- IEnumTfDocumentMgrs.Next
-: 
 ---
 
 # IEnumTfDocumentMgrs::Next

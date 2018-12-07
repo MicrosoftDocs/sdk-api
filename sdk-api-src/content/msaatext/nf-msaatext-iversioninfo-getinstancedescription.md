@@ -7,7 +7,7 @@ old-location: winauto\iversioninfo_iversioninfo__getinstancedescription.htm
 tech.root: WinAuto
 ms.assetid: f8aa3fd3-9869-4c24-8c9a-752947d21002
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetInstanceDescription, GetInstanceDescription method [Windows Accessibility], GetInstanceDescription method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetInstanceDescription method, IVersionInfo.GetInstanceDescription, IVersionInfo::GetInstanceDescription, _msaa_IVersionInfo_GetInstanceDescription, msaa.iversioninfo_iversioninfo__getinstancedescription, msaatext/IVersionInfo::GetInstanceDescription, winauto.iversioninfo_iversioninfo__getinstancedescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
-- apiref
-: 
-- COM
-: 
-- msaatext.h
-: 
-- IVersionInfo.GetInstanceDescription
-: 
 ---
 
 # IVersionInfo::GetInstanceDescription

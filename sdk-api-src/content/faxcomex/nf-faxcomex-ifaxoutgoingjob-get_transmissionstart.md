@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_transmissionstart
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_27w4.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],TransmissionStart property, IFaxOutgoingJob.TransmissionStart, IFaxOutgoingJob.get_TransmissionStart, IFaxOutgoingJob::TransmissionStart, IFaxOutgoingJob::get_TransmissionStart, TransmissionStart property [Fax Service], TransmissionStart property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.transmissionstart, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_transmissionstart_cpp, fax._mfax_faxoutgoingjob_transmissionstart, faxcomex/IFaxOutgoingJob::TransmissionStart, faxcomex/IFaxOutgoingJob::get_TransmissionStart, get_TransmissionStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxOutgoingJob.get_TransmissionStart
-: 
 ---
 
 # IFaxOutgoingJob::get_TransmissionStart

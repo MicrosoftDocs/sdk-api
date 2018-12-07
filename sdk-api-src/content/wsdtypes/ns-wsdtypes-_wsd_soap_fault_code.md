@@ -4,10 +4,10 @@ title: "_WSD_SOAP_FAULT_CODE"
 author: windows-sdk-content
 description: Represents a generated SOAP fault code.
 old-location: ncd\wsd_soap_fault_code_struct.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: b71f4bcc-d125-4091-a491-1a5a2aea2310
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_SOAP_FAULT_CODE, WSD_SOAP_FAULT_CODE structure, _WSD_SOAP_FAULT_CODE, ncd.wsd_soap_fault_code_struct, wsdtypes/WSD_SOAP_FAULT_CODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

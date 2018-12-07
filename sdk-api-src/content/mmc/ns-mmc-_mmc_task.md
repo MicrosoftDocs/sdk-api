@@ -4,10 +4,10 @@ title: "_MMC_TASK"
 author: windows-sdk-content
 description: The MMC_TASK structure is introduced in MMC 1.1.
 old-location: mmc\mmc_task.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: bb101c09-947f-4316-890a-86e09358d88c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MMC_ACTION_ID, MMC_ACTION_LINK, MMC_ACTION_SCRIPT, MMC_TASK, MMC_TASK structure [MMC], _MMC_TASK, _slate_mmc_task, mmc.mmc_task, mmc/MMC_TASK
 ms.prod: windows-hardware
 ms.technology: windows-devices

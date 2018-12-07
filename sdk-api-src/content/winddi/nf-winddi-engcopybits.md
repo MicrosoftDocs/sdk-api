@@ -7,7 +7,7 @@ old-location: display\engcopybits.htm
 tech.root: display
 ms.assetid: ad8e0658-8378-4f4e-867a-6bd8a479c354
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EngCopyBits, EngCopyBits function [Display Devices], display.engcopybits, gdifncs_032d6884-2d0c-4554-a896-0fb80cfca707.xml, winddi/EngCopyBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EngCopyBits
-: 
 ---
 
 # EngCopyBits function

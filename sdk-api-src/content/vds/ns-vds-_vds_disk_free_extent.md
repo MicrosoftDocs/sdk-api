@@ -4,10 +4,10 @@ title: "_VDS_DISK_FREE_EXTENT"
 author: windows-sdk-content
 description: Describes a free extent on a disk.
 old-location: base\vds_disk_free_extent.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 94beebd5-bfd6-410f-94b9-51c8e3609bf6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVDS_DISK_FREE_EXTENT, PVDS_DISK_FREE_EXTENT, PVDS_DISK_FREE_EXTENT structure pointer, VDS_DISK_FREE_EXTENT, VDS_DISK_FREE_EXTENT structure, _VDS_DISK_FREE_EXTENT, base.vds_disk_free_extent, vds/PVDS_DISK_FREE_EXTENT, vds/VDS_DISK_FREE_EXTENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

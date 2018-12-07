@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetType
 author: windows-sdk-content
 description: Retrieves the type of transfer being performed, such as a file download or upload.
 old-location: bits\ibackgroundcopyjob_gettype.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: b84c45c2-379a-40d0-91ab-0124f0ef6b00
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetType, GetType method [BITS], GetType method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetType method, IBackgroundCopyJob.GetType, IBackgroundCopyJob::GetType, _drz_ibackgroundcopyjob_gettype, bits.ibackgroundcopyjob_gettype, bits/IBackgroundCopyJob::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.GetType
-: 
 ---
 
 # IBackgroundCopyJob::GetType
@@ -66,14 +58,7 @@ Retrieves the type of transfer being performed, such as a file download or uploa
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - pJobType [out]
+### -param pVal [out]
 
 Type of transfer being performed. For a list of transfer types, see the 
 <a href="https://msdn.microsoft.com/en-us/library/Aa362811(v=VS.85).aspx">BG_JOB_TYPE</a> enumeration.

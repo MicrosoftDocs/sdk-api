@@ -7,7 +7,7 @@ old-location: wsl\wslunregisterdistribution.htm
 tech.root: wsl
 ms.assetid: B655E05D-4F4E-401D-8A24-6E8E8B0CE00C
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WslUnregisterDistribution, WslUnregisterDistribution function, wsl.wslunregisterdistribution, wslapi/WslUnregisterDistribution
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WslUnregisterDistribution
-: 
 ---
 
 # WslUnregisterDistribution function

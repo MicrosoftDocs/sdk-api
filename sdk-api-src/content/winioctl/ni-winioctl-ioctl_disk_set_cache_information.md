@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_set_cache_information.htm
 tech.root: fileio
 ms.assetid: e921da48-9435-41f0-87dd-abb383fd5208
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_DISK_SET_CACHE_INFORMATION, IOCTL_DISK_SET_CACHE_INFORMATION control, IOCTL_DISK_SET_CACHE_INFORMATION control code [Files], base.ioctl_disk_set_cache_information, fs.ioctl_disk_set_cache_information, winioctl/IOCTL_DISK_SET_CACHE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

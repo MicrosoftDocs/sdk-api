@@ -7,7 +7,7 @@ old-location: fs\writelogrestartarea.htm
 tech.root: Clfs
 ms.assetid: deb5fd90-e987-4e5b-9740-6ecef8705557
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, WriteLogRestartArea, WriteLogRestartArea function [Files], clfsw32/WriteLogRestartArea, fs.writelogrestartarea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WriteLogRestartArea
-: 
 ---
 
 # WriteLogRestartArea function

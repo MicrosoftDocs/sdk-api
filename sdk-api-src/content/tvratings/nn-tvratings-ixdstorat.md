@@ -7,7 +7,7 @@ old-location: mstv\ixdstorat.htm
 tech.root: mstv
 ms.assetid: de65e5cd-3f4b-4925-a6b8-636fc2e332ec
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IXDSToRat, IXDSToRat interface [Microsoft TV Technologies], IXDSToRat interface [Microsoft TV Technologies],described, IXDSToRatInterface, mstv.ixdstorat, tvratings/IXDSToRat
 ms.prod: windows-hardware
 ms.technology: windows-devices

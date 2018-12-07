@@ -7,7 +7,7 @@ old-location: mstv\ibda_networkprovider_puttuningspace.htm
 tech.root: mstv
 ms.assetid: 4541a675-875b-4a6c-8251-e13abdd46b38
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],PutTuningSpace method, IBDA_NetworkProvider.PutTuningSpace, IBDA_NetworkProvider::PutTuningSpace, IBDA_NetworkProviderPutTuningSpace, PutTuningSpace, PutTuningSpace method [Microsoft TV Technologies], PutTuningSpace method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::PutTuningSpace, mstv.ibda_networkprovider_puttuningspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdaiface.h
-: 
-- IBDA_NetworkProvider.PutTuningSpace
-: 
 ---
 
 # IBDA_NetworkProvider::PutTuningSpace

@@ -4,10 +4,10 @@ title: NetConfigSet function
 author: windows-sdk-content
 description: The NetConfigSet function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.
 old-location: netmgmt\netconfigset.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: a3615699-a84b-4be1-85a0-497bf73223e6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: NetConfigSet, NetConfigSet function [Network Management], _win32_netconfigset, lmconfig/NetConfigSet, netmgmt.netconfigset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetConfigSet
-: 
 ---
 
 # NetConfigSet function

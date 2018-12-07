@@ -7,7 +7,7 @@ old-location: shell\IStream_ReadPidl.htm
 tech.root: shell
 ms.assetid: 63b1f842-139b-4558-8105-4986ce592b56
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IStream_ReadPidl, IStream_ReadPidl function [Windows Shell], _shell_IStream_ReadPidl, shell.IStream_ReadPidl, shlwapi/IStream_ReadPidl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IStream_ReadPidl
-: 
 ---
 
 # IStream_ReadPidl function

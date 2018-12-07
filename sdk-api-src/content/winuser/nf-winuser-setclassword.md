@@ -7,7 +7,7 @@ old-location: winmsg\setclassword.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setclassword.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SetClassWord, SetClassWord function [Windows and Messages], _win32_SetClassWord, _win32_setclassword_cpp, winmsg.setclassword, winui._win32_setclassword, winuser/SetClassWord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetClassWord
-: 
 ---
 
 # SetClassWord function

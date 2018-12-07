@@ -7,7 +7,7 @@ old-location: winrt\rogetactivationfactory.htm
 tech.root: WinRT
 ms.assetid: 291ed35d-a459-4509-a265-89c49f8aa13a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RoGetActivationFactory, RoGetActivationFactory function [Windows Runtime], WinRTGetActivationFactory, roapi/RoGetActivationFactory, roapi/WinRTGetActivationFactory, winrt.rogetactivationfactory, winrt.winrtgetactivationfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RoGetActivationFactory
-: 
 ---
 
 # RoGetActivationFactory function

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionhuerotationeffect_setangle.htm
 tech.root: directcomp
 ms.assetid: BA98A918-EE51-40C7-9392-D5E0D78580F8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionHueRotationEffect interface [DirectComposition],SetAngle method, IDCompositionHueRotationEffect.SetAngle, IDCompositionHueRotationEffect.SetAngle(float), IDCompositionHueRotationEffect::SetAngle, IDCompositionHueRotationEffect::SetAngle(float), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionHueRotationEffect interface, dcomp/IDCompositionHueRotationEffect::SetAngle, directcomp.idcompositionhuerotationeffect_setangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dcomp.h
-: 
-- IDCompositionHueRotationEffect.SetAngle
-: 
 ---
 
 # IDCompositionHueRotationEffect::SetAngle(float)

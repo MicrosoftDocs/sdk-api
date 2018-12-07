@@ -7,7 +7,7 @@ old-location: qos\tccloseinterface.htm
 tech.root: QOS
 ms.assetid: c7c78f98-0890-4889-994e-bbac08ba9c44
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TcCloseInterface, TcCloseInterface function [QOS], _gqos_tccloseinterface, qos.tccloseinterface, traffic/TcCloseInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TcCloseInterface
-: 
 ---
 
 # TcCloseInterface function

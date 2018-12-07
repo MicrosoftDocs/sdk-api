@@ -4,10 +4,10 @@ title: IUpdateDownloadContent2
 author: windows-sdk-content
 description: Represents the download content of an update.
 old-location: wua\iupdatedownloadcontent2.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: adf2e5df-42ca-41dc-aa84-60302c36a494
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdateDownloadContent2, IUpdateDownloadContent2 interface [Windows Update Agent], IUpdateDownloadContent2 interface [Windows Update Agent],described, wua.iupdatedownloadcontent2, wuapi/IUpdateDownloadContent2
 ms.prod: windows-hardware
 ms.technology: windows-devices

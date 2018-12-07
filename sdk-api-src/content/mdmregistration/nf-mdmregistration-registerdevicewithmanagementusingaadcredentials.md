@@ -7,7 +7,7 @@ old-location: mdmreg\registerdevicewithmanagementusingaadcredentials.htm
 tech.root: MDMReg
 ms.assetid: 709E464A-C9EC-41EF-AC80-EF0BC35E0905
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: RegisterDeviceWithManagementUsingAADCredentials, RegisterDeviceWithManagementUsingAADCredentials function [MDM Registration], mdmreg.registerdevicewithmanagementusingaadcredentials, mdmregistration/RegisterDeviceWithManagementUsingAADCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegisterDeviceWithManagementUsingAADCredentials
-: 
 ---
 
 # RegisterDeviceWithManagementUsingAADCredentials function

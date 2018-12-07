@@ -4,10 +4,10 @@ title: EndPanningFeedback function
 author: windows-sdk-content
 description: Terminates any existing animation that was in process or set up by BeginPanningFeedback and UpdatePanningFeedback.
 old-location: controls\EndPanningFeedback.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endpanningfeedback.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EndPanningFeedback, EndPanningFeedback function [Windows Controls], _controls_EndPanningFeedback, _controls_EndPanningFeedback_cpp, controls.EndPanningFeedback, controls._controls_EndPanningFeedback, uxtheme/EndPanningFeedback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EndPanningFeedback
-: 
 ---
 
 # EndPanningFeedback function

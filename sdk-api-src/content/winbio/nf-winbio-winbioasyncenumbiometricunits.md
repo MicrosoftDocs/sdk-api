@@ -7,7 +7,7 @@ old-location: secbiomet\winbioasyncenumbiometricunits.htm
 tech.root: SecBioMet
 ms.assetid: 3A7CEC71-7352-43B7-83D3-447D487C4703
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioAsyncEnumBiometricUnits, WinBioAsyncEnumBiometricUnits function [Windows Biometric Framework API], secbiomet.winbioasyncenumbiometricunits, winbio/WinBioAsyncEnumBiometricUnits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinBioAsyncEnumBiometricUnits
-: 
 ---
 
 # WinBioAsyncEnumBiometricUnits function

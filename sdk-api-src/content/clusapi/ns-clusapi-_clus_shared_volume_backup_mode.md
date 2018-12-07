@@ -4,10 +4,10 @@ title: "_CLUS_SHARED_VOLUME_BACKUP_MODE"
 author: windows-sdk-content
 description: Describes the backup mode for CSV.
 old-location: mscs\clus_shared_volume_backup_mode.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: e5ae8cc7-bff8-4293-920e-3a704d1bd7e5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCLUS_SHARED_VOLUME_BACKUP_MODE, CLUS_SHARED_VOLUME_BACKUP_MODE, CLUS_SHARED_VOLUME_BACKUP_MODE structure [Failover Cluster], PCLUS_SHARED_VOLUME_BACKUP_MODE, PCLUS_SHARED_VOLUME_BACKUP_MODE structure pointer [Failover Cluster], VolumeBackupInProgress, VolumeBackupNone, _CLUS_SHARED_VOLUME_BACKUP_MODE, clusapi/CLUS_SHARED_VOLUME_BACKUP_MODE, clusapi/PCLUS_SHARED_VOLUME_BACKUP_MODE, mscs.clus_shared_volume_backup_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices

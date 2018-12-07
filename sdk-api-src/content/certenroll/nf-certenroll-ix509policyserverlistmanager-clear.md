@@ -4,10 +4,10 @@ title: IX509PolicyServerListManager::Clear
 author: windows-sdk-content
 description: Removes all IX509PolicyServerUrl objects from the collection.
 old-location: security\ix509policyserverlistmanager_clear.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: c9be8128-ed19-4087-9057-3d1a0d215a96
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Clear method, IX509PolicyServerListManager.Clear, IX509PolicyServerListManager::Clear, certenroll/IX509PolicyServerListManager::Clear, security.ix509policyserverlistmanager_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509PolicyServerListManager.Clear
-: 
 ---
 
 # IX509PolicyServerListManager::Clear

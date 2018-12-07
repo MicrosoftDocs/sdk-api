@@ -4,10 +4,10 @@ title: IPropertySheetProvider::CreatePropertySheet
 author: windows-sdk-content
 description: Creates a property sheet frame.
 old-location: mmc\ipropertysheetprovider_createpropertysheet.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 8d53083a-d578-4a88-bd3f-d43c88d697e5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreatePropertySheet, CreatePropertySheet method [MMC], CreatePropertySheet method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],CreatePropertySheet method, IPropertySheetProvider.CreatePropertySheet, IPropertySheetProvider::CreatePropertySheet, MMC_PSO_HASHELP, MMC_PSO_NEWWIZARDTYPE, MMC_PSO_NOAPPLYNOW, MMC_PSO_NO_PROPTITLE, _slate_ipropertysheetprovider_createpropertysheet, mmc.ipropertysheetprovider_createpropertysheet, mmc/IPropertySheetProvider::CreatePropertySheet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmc.h
-: 
-- IPropertySheetProvider.CreatePropertySheet
-: 
 ---
 
 # IPropertySheetProvider::CreatePropertySheet

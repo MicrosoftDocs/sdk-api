@@ -4,10 +4,10 @@ title: IWSDiscoveryProviderNotify::SearchFailed
 author: windows-sdk-content
 description: Is called to indicate a user initiated search has failed.
 old-location: ncd\iwsdiscoveryprovidernotify_searchfailed_method.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 8f861c69-2967-4a8d-a64a-e2409d722984
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryProviderNotify interface,SearchFailed method, IWSDiscoveryProviderNotify.SearchFailed, IWSDiscoveryProviderNotify::SearchFailed, SearchFailed, SearchFailed method, SearchFailed method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_searchfailed_method, wsddisco/IWSDiscoveryProviderNotify::SearchFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsddisco.h
-: 
-- IWSDiscoveryProviderNotify.SearchFailed
-: 
 ---
 
 # IWSDiscoveryProviderNotify::SearchFailed

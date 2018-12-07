@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_writeprotectstatus.htm
 tech.root: imapi
 ms.assetid: b3e58024-9a51-46e9-a9a1-c850166c9a85
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_WriteProtectStatus method, IDiscFormat2Data.get_WriteProtectStatus, IDiscFormat2Data::get_WriteProtectStatus, get_WriteProtectStatus, get_WriteProtectStatus method [IMAPI], get_WriteProtectStatus method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_writeprotectstatus, imapi2/IDiscFormat2Data::get_WriteProtectStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscFormat2Data.get_WriteProtectStatus
-: 
 ---
 
 # IDiscFormat2Data::get_WriteProtectStatus

@@ -1,5 +1,5 @@
 ---
-UID: NE:bcrypt.HASHALGORITHM_ENUM
+UID: NE:bcrypt.__unnamed_enum_2
 title: HASHALGORITHM_ENUM
 author: windows-sdk-content
 description: Specifies signing and hashing algorithms.
@@ -7,7 +7,7 @@ old-location: security\hashalgorithm_enum.htm
 tech.root: seccng
 ms.assetid: 482DA4B6-EC1C-4E88-95C0-62ED1356DC3B
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: DSA_HASH_ALGORITHM_SHA1, DSA_HASH_ALGORITHM_SHA256, DSA_HASH_ALGORITHM_SHA512, HASHALGORITHM_ENUM, HASHALGORITHM_ENUM enumeration [Security], bcrypt/DSA_HASH_ALGORITHM_SHA1, bcrypt/DSA_HASH_ALGORITHM_SHA256, bcrypt/DSA_HASH_ALGORITHM_SHA512, bcrypt/HASHALGORITHM_ENUM, security.hashalgorithm_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices

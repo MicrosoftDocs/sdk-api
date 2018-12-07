@@ -7,7 +7,7 @@ old-location: winsync\ienumchangeunitexceptions.htm
 tech.root: winsync
 ms.assetid: 40b2977e-f3ae-4ad2-89ed-aacf32b1171e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumChangeUnitExceptions, IEnumChangeUnitExceptions interface [Windows Sync], IEnumChangeUnitExceptions interface [Windows Sync],described, winsync.ienumchangeunitexceptions, winsync/IEnumChangeUnitExceptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

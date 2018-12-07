@@ -7,7 +7,7 @@ old-location: shell\deriverestrictedappcontainersidfromappcontainersidandrestric
 tech.root: shell
 ms.assetid: D9E34178-3AC2-4C7A-906B-A42D69428C63
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName, DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function [Windows Shell], shell.deriverestrictedappcontainersidfromappcontainersidandrestrictedname, userenv/DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
-: 
 ---
 
 # DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function

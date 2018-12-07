@@ -7,7 +7,7 @@ old-location: mstv\ibda_lnbinfo.htm
 tech.root: mstv
 ms.assetid: 4985b525-c000-4d19-9679-c995cbc3c99b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_LNBInfo, IBDA_LNBInfo interface [Microsoft TV Technologies], IBDA_LNBInfo interface [Microsoft TV Technologies],described, IBDA_LNBInfoInterface, bdaiface/IBDA_LNBInfo, mstv.ibda_lnbinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

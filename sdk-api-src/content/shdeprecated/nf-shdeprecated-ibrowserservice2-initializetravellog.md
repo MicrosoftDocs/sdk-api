@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_InitializeTravelLog.htm
 tech.root: shell
 ms.assetid: ff2165da-e195-4cc1-ba89-c11eb37ac4c3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeTravelLog method, IBrowserService2.InitializeTravelLog, IBrowserService2::InitializeTravelLog, InitializeTravelLog, InitializeTravelLog method [Windows Shell], InitializeTravelLog method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeTravelLog, shell.IBrowserService2_InitializeTravelLog, zone_IBrowserService2_InitializeTravelLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- IBrowserService2.InitializeTravelLog
-: 
 req.product: Internet Explorer 5.0
 ---
 

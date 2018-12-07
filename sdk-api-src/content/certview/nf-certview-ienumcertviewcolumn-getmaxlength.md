@@ -4,10 +4,10 @@ title: IEnumCERTVIEWCOLUMN::GetMaxLength
 author: windows-sdk-content
 description: Retrieves the maximum allowable length, in bytes, for the column data.
 old-location: security\ienumcertviewcolumn_getmaxlength.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 20cd5f5a-2e19-43ca-9b84-70e6dd1a4cad
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Security], GetMaxLength method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetMaxLength method, IEnumCERTVIEWCOLUMN.GetMaxLength, IEnumCERTVIEWCOLUMN::GetMaxLength, _certsrv_ienumcertviewcolumn_getmaxlength, certview/IEnumCERTVIEWCOLUMN::GetMaxLength, security.ienumcertviewcolumn_getmaxlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certview.h
-: 
-- IEnumCERTVIEWCOLUMN.GetMaxLength
-: 
 ---
 
 # IEnumCERTVIEWCOLUMN::GetMaxLength

@@ -4,10 +4,10 @@ title: IStaticPortMapping
 author: windows-sdk-content
 description: The IStaticPortMapping interface provides methods to retrieve and change the information for a particular port mapping.
 old-location: ics\istaticportmapping.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 5013fea2-e767-4600-a10c-6859b7be42e4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], IStaticPortMapping interface [ICS/ICF],described, _ics_istaticportmapping, ics.istaticportmapping, natupnp/IStaticPortMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IDelayedPropertyStoreFactory.htm
 tech.root: shell
 ms.assetid: 855c9f10-9f40-4c60-a669-551fa51133f5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDelayedPropertyStoreFactory, IDelayedPropertyStoreFactory interface [Windows Shell], IDelayedPropertyStoreFactory interface [Windows Shell],described, _shell_IDelayedPropertyStoreFactory, propsys/IDelayedPropertyStoreFactory, shell.IDelayedPropertyStoreFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

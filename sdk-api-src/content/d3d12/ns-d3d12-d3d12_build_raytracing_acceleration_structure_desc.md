@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_build_raytracing_acceleration_structure_desc.htm
 tech.root: direct3d12
 ms.assetid: C73A3A59-1184-401C-AF45-CBF12419852E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC, D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC structure, PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC, PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC structure pointer, d3d12/D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC, d3d12/PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC, direct3d12.d3d12_build_raytracing_acceleration_structure_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

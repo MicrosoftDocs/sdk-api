@@ -7,7 +7,7 @@ old-location: fs\findclose.htm
 tech.root: fileio
 ms.assetid: 64b3bc49-1e0e-4572-9d9f-936c45f5b01c
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FindClose, FindClose function [Files], _win32_findclose, base.findclose, fileapi/FindClose, fs.findclose, winbase/FindClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FindClose
-: 
 ---
 
 # FindClose function

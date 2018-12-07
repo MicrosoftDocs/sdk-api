@@ -7,7 +7,7 @@ old-location: xps\ixpsomcanvas_getvisuals.htm
 tech.root: printdocs
 ms.assetid: 67f42c32-f9d2-4d64-a8e1-b18a0d5f55fa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetVisuals, GetVisuals method [XPS Documents and Packaging], GetVisuals method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetVisuals method, IXpsOMCanvas.GetVisuals, IXpsOMCanvas::GetVisuals, xps.ixpsomcanvas_getvisuals, xpsobjectmodel/IXpsOMCanvas::GetVisuals
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMCanvas.GetVisuals
-: 
 ---
 
 # IXpsOMCanvas::GetVisuals

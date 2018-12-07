@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt64ArrayAlloc.htm
 tech.root: properties
 ms.assetid: 898edef6-a688-4a39-897c-70f29952db49
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToUInt64ArrayAlloc, VariantToUInt64ArrayAlloc function [Windows Properties], _shell_VariantToUInt64ArrayAlloc, properties.VariantToUInt64ArrayAlloc, propvarutil/VariantToUInt64ArrayAlloc, shell.VariantToUInt64ArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantToUInt64ArrayAlloc
-: 
 ---
 
 # VariantToUInt64ArrayAlloc function

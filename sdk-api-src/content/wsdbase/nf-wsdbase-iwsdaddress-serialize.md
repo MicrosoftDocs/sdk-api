@@ -4,10 +4,10 @@ title: IWSDAddress::Serialize
 author: windows-sdk-content
 description: Assembles the component parts of the address into a string.
 old-location: ncd\iwsdaddress_serialize.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 6264a2f6-39db-4c55-a0b3-2705d2093d77
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDAddress interface,Serialize method, IWSDAddress.Serialize, IWSDAddress::Serialize, Serialize, Serialize method, Serialize method,IWSDAddress interface, ncd.iwsdaddress_serialize, wsdbase/IWSDAddress::Serialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsdbase.h
-: 
-- IWSDAddress.Serialize
-: 
 ---
 
 # IWSDAddress::Serialize

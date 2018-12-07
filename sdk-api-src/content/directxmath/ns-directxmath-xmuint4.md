@@ -7,7 +7,7 @@ old-location: dxmath\xmuint4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: XMUINT4, XMUINT4 structure [DirectX Math Support APIs], directxmath/XMUINT4, dxmath.xmuint4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,6 +81,18 @@ Unsigned integer value describing the z-coordinate of the vector.
 ### -field w
 
 Unsigned integer value describing the w-coordinate of the vector.
+
+
+### -field operator=
+
+TBD 
+
+
+### -field XMUINT4
+
+TBD 
+
+
 
 
 ## -remarks

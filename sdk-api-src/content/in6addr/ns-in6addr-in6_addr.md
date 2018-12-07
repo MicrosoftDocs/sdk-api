@@ -1,14 +1,14 @@
 ---
 UID: NS:in6addr.in6_addr
-title: in6_addr
+title: IN6_ADDR
 author: windows-sdk-content
 description: The IN6_ADDR structure specifies an IPv6 transport address.
 old-location: netvista\in6_addr.htm
 tech.root: NetVista
 ms.assetid: 218b07e8-94cf-42f2-a762-13fc1f7c4473
 ms.author: windowssdkdev
-ms.date: 09/27/2018
-ms.keywords: "*LPIN6_ADDR, *PIN6_ADDR, IN6_ADDR, IN6_ADDR structure [Network Drivers Starting with Windows Vista], LPIN6_ADDR, LPIN6_ADDR structure pointer [Network Drivers Starting with Windows Vista], PIN6_ADDR, PIN6_ADDR structure pointer [Network Drivers Starting with Windows Vista], in6_addr, in6addr/IN6_ADDR, in6addr/LPIN6_ADDR, in6addr/PIN6_ADDR, netvista.in6_addr, wskref_fd9f043f-fd21-4d2e-b683-0437cf3523c1.xml"
+ms.date: 12/5/2018
+ms.keywords: "*LPIN6_ADDR, *PIN6_ADDR, IN6_ADDR, IN6_ADDR structure [Network Drivers Starting with Windows Vista], LPIN6_ADDR, LPIN6_ADDR structure pointer [Network Drivers Starting with Windows Vista], PIN6_ADDR, PIN6_ADDR structure pointer [Network Drivers Starting with Windows Vista], in6addr/IN6_ADDR, in6addr/LPIN6_ADDR, in6addr/PIN6_ADDR, netvista.in6_addr, wskref_fd9f043f-fd21-4d2e-b683-0437cf3523c1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -44,7 +44,7 @@ req.typenames: IN6_ADDR, *PIN6_ADDR, *LPIN6_ADDR
 req.redist: 
 ---
 
-# in6_addr structure
+# IN6_ADDR structure
 
 
 ## -description

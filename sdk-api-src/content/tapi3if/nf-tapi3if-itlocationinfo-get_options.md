@@ -4,10 +4,10 @@ title: ITLocationInfo::get_Options
 author: windows-sdk-content
 description: The get_Options method gets an indicator of whether the current location supports pulse or tone dialing.
 old-location: tapi3\itlocationinfo_get_options.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: a53d7029-25a0-460c-97dd-c49355cc2ddc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_Options method, ITLocationInfo.get_Options, ITLocationInfo::get_Options, _tapi3_itlocationinfo_get_options, get_Options, get_Options method [TAPI 2.2], get_Options method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_options, tapi3if/ITLocationInfo::get_Options
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITLocationInfo.get_Options
-: 
 ---
 
 # ITLocationInfo::get_Options

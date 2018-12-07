@@ -7,7 +7,7 @@ old-location: webdav\freecredcallback.htm
 tech.root: WebDAV
 ms.assetid: 96bacda5-8f24-4119-b0ae-82ff8aff54b4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DavFreeCredCallback, DavFreeCredCallback callback function [WebDAV], PFNDAVAUTHCALLBACK_FREECRED, PFNDAVAUTHCALLBACK_FREECRED callback, davclnt/DavFreeCredCallback, webdav.freecredcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

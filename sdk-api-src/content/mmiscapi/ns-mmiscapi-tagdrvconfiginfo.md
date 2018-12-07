@@ -7,7 +7,7 @@ old-location: multimedia\drvconfiginfo.htm
 tech.root: Multimedia
 ms.assetid: 34451e1c-0748-48c7-9e5e-877a0c531a07
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPDRVCONFIGINFO, *NPDRVCONFIGINFO, *PDRVCONFIGINFO, DRVCONFIGINFO, DRVCONFIGINFO structure [Windows Multimedia], _win32_DRVCONFIGINFO_str, mmsystem/DRVCONFIGINFO, multimedia.drvconfiginfo, tagDRVCONFIGINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

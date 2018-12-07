@@ -4,10 +4,10 @@ title: IPerformanceCounterDataCollector::get_SegmentMaxRecords
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of samples to log.
 old-location: pla\iperformancecounterdatacollector_segmentmaxrecords.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: cc987959-dbf6-44da-8f1a-d66a3ad791a5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],SegmentMaxRecords property, IPerformanceCounterDataCollector.SegmentMaxRecords, IPerformanceCounterDataCollector.get_SegmentMaxRecords, IPerformanceCounterDataCollector::SegmentMaxRecords, IPerformanceCounterDataCollector::get_SegmentMaxRecords, IPerformanceCounterDataCollector::put_SegmentMaxRecords, SegmentMaxRecords property [PLA], SegmentMaxRecords property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_segmentmaxrecords, get_SegmentMaxRecords, pla.iperformancecounterdatacollector_segmentmaxrecords, pla/IPerformanceCounterDataCollector::SegmentMaxRecords, pla/IPerformanceCounterDataCollector::get_SegmentMaxRecords, pla/IPerformanceCounterDataCollector::put_SegmentMaxRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IPerformanceCounterDataCollector.get_SegmentMaxRecords
-: 
 ---
 
 # IPerformanceCounterDataCollector::get_SegmentMaxRecords

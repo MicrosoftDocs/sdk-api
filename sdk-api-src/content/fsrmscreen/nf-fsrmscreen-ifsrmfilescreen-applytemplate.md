@@ -4,10 +4,10 @@ title: IFsrmFileScreen::ApplyTemplate
 author: windows-sdk-content
 description: Applies the property values of the specified file screen template to this file screen object.
 old-location: fsrm\ifsrmfilescreen_applytemplate.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: d495cb92-09c4-4fa5-873c-5f07475eb7bf
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ApplyTemplate, ApplyTemplate method [File Server Resource Manager], ApplyTemplate method [File Server Resource Manager],IFsrmFileScreen interface, IFsrmFileScreen interface [File Server Resource Manager],ApplyTemplate method, IFsrmFileScreen.ApplyTemplate, IFsrmFileScreen::ApplyTemplate, fs.ifsrmfilescreen_applytemplate, fsrm.ifsrmfilescreen_applytemplate, fsrmscreen/IFsrmFileScreen::ApplyTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmscreen.h
-: 
-- IFsrmFileScreen.ApplyTemplate
-: 
 ---
 
 # IFsrmFileScreen::ApplyTemplate

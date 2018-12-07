@@ -7,7 +7,7 @@ old-location: automat\varboolfromcy.htm
 tech.root: automat
 ms.assetid: 4d13c480-26f6-49d3-aaaa-1804d56f8fe3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarBoolFromCy, VarBoolFromCy function [Automation], _oa96_VarBoolFromCy, automat.varboolfromcy, oleauto/VarBoolFromCy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarBoolFromCy
-: 
 ---
 
 # VarBoolFromCy function

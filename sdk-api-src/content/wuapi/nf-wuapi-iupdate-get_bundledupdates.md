@@ -4,10 +4,10 @@ title: IUpdate::get_BundledUpdates
 author: windows-sdk-content
 description: Gets an interface that contains information about the ordered list of the bundled updates for the update.
 old-location: wua\iupdate_bundledupdates.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 17fcde27-86be-4fe1-8cd2-a49cfe2b408f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: BundledUpdates property [Windows Update Agent], BundledUpdates property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],BundledUpdates property, IUpdate.BundledUpdates, IUpdate.get_BundledUpdates, IUpdate::BundledUpdates, IUpdate::get_BundledUpdates, get_BundledUpdates, wua.iupdate_bundledupdates, wuapi/IUpdate::BundledUpdates, wuapi/IUpdate::get_BundledUpdates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdate.get_BundledUpdates
-: 
 ---
 
 # IUpdate::get_BundledUpdates

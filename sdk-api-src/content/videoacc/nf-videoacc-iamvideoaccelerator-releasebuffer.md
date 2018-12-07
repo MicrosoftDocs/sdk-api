@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_releasebuffer.htm
 tech.root: DirectShow
 ms.assetid: 2170cf7e-85c8-4658-84fd-96ebc0d2704f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IAMVideoAccelerator interface [DirectShow],ReleaseBuffer method, IAMVideoAccelerator.ReleaseBuffer, IAMVideoAccelerator::ReleaseBuffer, IAMVideoAcceleratorReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [DirectShow], ReleaseBuffer method [DirectShow],IAMVideoAccelerator interface, dshow.iamvideoaccelerator_releasebuffer, videoacc/IAMVideoAccelerator::ReleaseBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- videoacc.h
-: 
-- IAMVideoAccelerator.ReleaseBuffer
-: 
 ---
 
 # IAMVideoAccelerator::ReleaseBuffer

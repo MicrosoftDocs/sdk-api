@@ -4,10 +4,10 @@ title: RasGetLinkStatistics function
 author: windows-sdk-content
 description: The RasGetLinkStatistics function retrieves accumulated statistics for the specified link in a RAS multilink connection.
 old-location: rras\rasgetlinkstatistics.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 825a80c9-8023-4b7f-a303-f1eaa650e1d8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RasGetLinkStatistics, RasGetLinkStatistics function [RAS], _ras_rasgetlinkstatistics, ras/RasGetLinkStatistics, rras.rasgetlinkstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RasGetLinkStatistics
-: 
 ---
 
 # RasGetLinkStatistics function

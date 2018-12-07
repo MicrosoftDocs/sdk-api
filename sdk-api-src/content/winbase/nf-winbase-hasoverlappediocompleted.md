@@ -4,10 +4,10 @@ title: HasOverlappedIoCompleted macro
 author: windows-sdk-content
 description: Provides a high performance test operation that can be used to poll for the completion of an outstanding I/O operation.
 old-location: base\hasoverlappediocompleted.htm
-tech.root: Sync
+tech.root: sync
 ms.assetid: 1e2a3bf0-a73e-4406-99ac-32652f7f5b25
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HasOverlappedIoCompleted, HasOverlappedIoCompleted macro, _win32_hasoverlappediocompleted, base.hasoverlappediocompleted, winbase/HasOverlappedIoCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- winbase.h
-: 
-- HasOverlappedIoCompleted
-: 
 ---
 
 # HasOverlappedIoCompleted macro

@@ -4,10 +4,10 @@ title: ILayoutStorage::ReLayoutDocfile
 author: windows-sdk-content
 description: The ReLayoutDocfile method rewrites the compound file, using the layout script obtained through monitoring, or provided through explicit layout scripting, to create a new compound file.
 old-location: stg\ilayoutstorage_relayoutdocfile.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 5db3a26c-595a-4c9b-bb6d-b170eb9864df
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],ReLayoutDocfile method, ILayoutStorage.ReLayoutDocfile, ILayoutStorage::ReLayoutDocfile, ReLayoutDocfile, ReLayoutDocfile method [Structured Storage], ReLayoutDocfile method [Structured Storage],ILayoutStorage interface, _stg_ilayoutstorage_relayoutdocfile, objidl/ILayoutStorage::ReLayoutDocfile, stg.ilayoutstorage_relayoutdocfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- ILayoutStorage.ReLayoutDocfile
-: 
 ---
 
 # ILayoutStorage::ReLayoutDocfile

@@ -4,10 +4,10 @@ title: ISignerCertificates::Remove
 author: windows-sdk-content
 description: Removes an ISignerCertificate object from the collection by index number.
 old-location: security\isignercertificates_remove_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 3f0a3d9b-590f-4fa2-904c-26593bf977c8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISignerCertificates interface [Security],Remove method, ISignerCertificates.Remove, ISignerCertificates::Remove, Remove, Remove method [Security], Remove method [Security],ISignerCertificates interface, certenroll/ISignerCertificates::Remove, security.isignercertificates_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- ISignerCertificates.Remove
-: 
 ---
 
 # ISignerCertificates::Remove

@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt32WithDefault.htm
 tech.root: properties
 ms.assetid: 1d014cad-a9a5-4a58-855e-21c6d3ba6dcd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PropVariantToInt32WithDefault, PropVariantToInt32WithDefault function [Windows Properties], properties.PropVariantToInt32WithDefault, propvarutil/PropVariantToInt32WithDefault, shell.PropVariantToInt32WithDefault, shell_PropVariantToInt32WithDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- PropVariantToInt32WithDefault
-: 
 ---
 
 # PropVariantToInt32WithDefault function

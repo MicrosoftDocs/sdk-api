@@ -4,10 +4,10 @@ title: IFsrmQuotaObject::get_SourceTemplateName
 author: windows-sdk-content
 description: Retrieves the name of the template from which this quota was derived.
 old-location: fsrm\ifsrmquotaobject_sourcetemplatename.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 976b804e-f292-47ff-95df-18e63b8b23d0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],SourceTemplateName property, IFsrmQuotaObject.SourceTemplateName, IFsrmQuotaObject.get_SourceTemplateName, IFsrmQuotaObject::SourceTemplateName, IFsrmQuotaObject::get_SourceTemplateName, SourceTemplateName property [File Server Resource Manager], SourceTemplateName property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_sourcetemplatename, fsrm.ifsrmquotaobject_sourcetemplatename, fsrmquota/IFsrmQuotaObject::SourceTemplateName, fsrmquota/IFsrmQuotaObject::get_SourceTemplateName, get_SourceTemplateName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmquota.h
-: 
-- IFsrmQuotaObject.get_SourceTemplateName
-: 
 ---
 
 # IFsrmQuotaObject::get_SourceTemplateName

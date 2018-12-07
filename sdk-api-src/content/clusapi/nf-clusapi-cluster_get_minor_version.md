@@ -4,10 +4,10 @@ title: CLUSTER_GET_MINOR_VERSION macro
 author: windows-sdk-content
 description: Extracts the minor version portion of a Cluster service version number.
 old-location: mscs\cluster_get_minor_version.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 90caa255-9b04-4b83-a846-78590bfce3a7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CLUSTER_GET_MINOR_VERSION, CLUSTER_GET_MINOR_VERSION macro [Failover Cluster], _wolf_cluster_get_minor_version, clusapi/CLUSTER_GET_MINOR_VERSION, mscs.cluster_get_minor_version
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- clusapi.h
-: 
-- CLUSTER_GET_MINOR_VERSION
-: 
 ---
 
 # CLUSTER_GET_MINOR_VERSION macro

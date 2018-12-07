@@ -4,10 +4,10 @@ title: MINIDUMP_CALLBACK_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with MiniDumpWriteDump. It receives extended minidump information.
 old-location: base\minidumpcallback.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 8dc95b0a-6aee-4c38-ab25-a800153bbe91
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MINIDUMP_CALLBACK_ROUTINE, MiniDumpCallback, MiniDumpCallback callback, MiniDumpCallback callback function, _win32_minidumpcallback, base.minidumpcallback, minidumpapiset/MiniDumpCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

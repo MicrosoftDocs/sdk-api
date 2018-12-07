@@ -4,10 +4,10 @@ title: "_SERVER_INFO_1538"
 author: windows-sdk-content
 description: The SERVER_INFO_1538 structure specifies whether several MS-DOS File Control Blocks (FCBs) are placed in a single location.
 old-location: netmgmt\server_info_1538_str.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 4e11d2f5-27e5-480d-8486-d683bea22781
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSERVER_INFO_1538, *PSERVER_INFO_1538, LPSERVER_INFO_1538, LPSERVER_INFO_1538 structure pointer [Network Management], PSERVER_INFO_1538, PSERVER_INFO_1538 structure pointer [Network Management], SERVER_INFO_1538, SERVER_INFO_1538 structure [Network Management], _SERVER_INFO_1538, _win32_server_info_1538_str, lmserver/LPSERVER_INFO_1538, lmserver/PSERVER_INFO_1538, lmserver/SERVER_INFO_1538, netmgmt.server_info_1538_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

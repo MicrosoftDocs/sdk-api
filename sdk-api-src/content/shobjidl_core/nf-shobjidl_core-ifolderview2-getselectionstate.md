@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_GetSelectionState.htm
 tech.root: shell
 ms.assetid: fc446188-c7f8-4158-a5b4-631fb374e0c4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetSelectionState, GetSelectionState method [Windows Shell], GetSelectionState method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelectionState method, IFolderView2.GetSelectionState, IFolderView2::GetSelectionState, _shell_IFolderView2_GetSelectionState, shell.IFolderView2_GetSelectionState, shobjidl_core/IFolderView2::GetSelectionState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IFolderView2.GetSelectionState
-: 
 ---
 
 # IFolderView2::GetSelectionState

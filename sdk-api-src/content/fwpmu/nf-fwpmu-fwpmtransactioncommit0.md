@@ -7,7 +7,7 @@ old-location: fwp\fwpmtransactioncommit0_func.htm
 tech.root: fwp
 ms.assetid: 3bde803c-f416-4096-98c5-1c56e4a86b94
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmTransactionCommit0, FwpmTransactionCommit0 function [Filtering], fwp.fwpmtransactioncommit0_func, fwpmu/FwpmTransactionCommit0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmTransactionCommit0
-: 
 ---
 
 # FwpmTransactionCommit0 function

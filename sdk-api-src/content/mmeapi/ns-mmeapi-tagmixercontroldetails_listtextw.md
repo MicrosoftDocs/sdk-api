@@ -7,7 +7,7 @@ old-location: multimedia\mixercontroldetails.htm
 tech.root: Multimedia
 ms.assetid: 171605e0-4bfc-47cf-b667-3e73c172aebd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPMIXERCONTROLDETAILS_LISTTEXTW, *PMIXERCONTROLDETAILS_LISTTEXTW, 0, 1, MIXERCONTROL cMultipleItems member, MIXERCONTROLDETAILS, MIXERCONTROLDETAILS hwndOwner member, MIXERCONTROLDETAILS structure [Windows Multimedia], MIXERCONTROLDETAILS_BOOLEAN, MIXERCONTROLDETAILS_LISTTEXT, MIXERCONTROLDETAILS_LISTTEXTW, MIXERCONTROLDETAILS_SIGNED, MIXERCONTROLDETAILS_UNSIGNED, MIXERLINE cChannels, _win32_MIXERCONTROLDETAILS_str, mmeapi/MIXERCONTROLDETAILS, multimedia.mixercontroldetails, tMIXERCONTROLDETAILS, tagMIXERCONTROLDETAILS_LISTTEXTW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,6 +78,16 @@ The <b>MIXERCONTROLDETAILS</b> structure refers to control-detail structures, re
 
 
 
+#### - cbStruct
+
+Size, in bytes, of the <b>MIXERCONTROLDETAILS</b> structure. The size must be large enough to contain the base <b>MIXERCONTROLDETAILS</b> structure. When <a href="https://msdn.microsoft.com/b1fdd9e7-42cf-41fb-99f7-b7da990e5881">mixerGetControlDetails</a> returns, this member contains the actual size of the information returned. The returned information will not exceed the requested size, nor will it be smaller than the base <b>MIXERCONTROLDETAILS</b> structure.
+
+
+#### - dwControlID
+
+Control identifier on which to get or set properties.
+
+
 #### - cChannels
 
 Number of channels on which to get or set control properties. The following values are defined:
@@ -124,6 +134,11 @@ An application cannot specify a value that falls between 1 and the number of cha
 
 
 This member cannot be 0 for noncustom control types.
+
+
+#### - hwndOwner
+
+Handle to the window that owns a custom dialog box for a mixer control. This member is used when the MIXER_SETCONTROLDETAILSF_CUSTOM flag is specified in the <a href="https://msdn.microsoft.com/c4d500f3-a1c2-432c-9096-90f229bc7b7a">mixerSetControlDetails</a> function.
 
 
 #### - cMultipleItems
@@ -226,21 +241,6 @@ Unsigned value for an audio line control.
 </tr>
 </table>
  
-
-
-#### - cbStruct
-
-Size, in bytes, of the <b>MIXERCONTROLDETAILS</b> structure. The size must be large enough to contain the base <b>MIXERCONTROLDETAILS</b> structure. When <a href="https://msdn.microsoft.com/b1fdd9e7-42cf-41fb-99f7-b7da990e5881">mixerGetControlDetails</a> returns, this member contains the actual size of the information returned. The returned information will not exceed the requested size, nor will it be smaller than the base <b>MIXERCONTROLDETAILS</b> structure.
-
-
-#### - dwControlID
-
-Control identifier on which to get or set properties.
-
-
-#### - hwndOwner
-
-Handle to the window that owns a custom dialog box for a mixer control. This member is used when the MIXER_SETCONTROLDETAILSF_CUSTOM flag is specified in the <a href="https://msdn.microsoft.com/c4d500f3-a1c2-432c-9096-90f229bc7b7a">mixerSetControlDetails</a> function.
 
 
 #### - paDetails

@@ -4,10 +4,10 @@ title: RasDialDlgW function
 author: windows-sdk-content
 description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.
 old-location: rras\rasdialdlg.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 698a18a1-b302-4b0d-8399-0bbdbe775f08
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RasDialDlg, RasDialDlg function [RAS], RasDialDlgA, RasDialDlgW, _ras_rasdialdlg, rasdlg/RasDialDlg, rasdlg/RasDialDlgA, rasdlg/RasDialDlgW, rras.rasdialdlg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RasDialDlgW
-: 
 ---
 
 # RasDialDlgW function

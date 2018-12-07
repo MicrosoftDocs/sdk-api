@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession::Close
 author: windows-sdk-content
 description: Disconnects all attendees from the session and stops listening to incoming connections.
 old-location: rdp\irdpsrapisharingsession_close.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: ab6e27d8-b6f2-42a6-a0f6-cfdfb5ec9a13
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Close, Close method [RDP], Close method [RDP],IRDPSRAPISharingSession interface, Close method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],Close method, IRDPSRAPISharingSession.Close, IRDPSRAPISharingSession2 interface [RDP],Close method, IRDPSRAPISharingSession2::Close, IRDPSRAPISharingSession::Close, rdp.irdpsrapisharingsession_close, rdpencomapi/IRDPSRAPISharingSession2::Close, rdpencomapi/IRDPSRAPISharingSession::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPISharingSession.Close
-: 
 ---
 
 # IRDPSRAPISharingSession::Close

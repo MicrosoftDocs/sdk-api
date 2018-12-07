@@ -7,7 +7,7 @@ old-location: edp\iprotectionpolicymanager_requestaccessforwindowasync.htm
 tech.root: EDP
 ms.assetid: F32A24C6-0913-4EB9-8462-6AA734429D7E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EDP.iprotectionpolicymanager_requestaccessforwindowasync, IProtectionPolicyManagerInterop interface,RequestAccessForWindowAsync method, IProtectionPolicyManagerInterop.RequestAccessForWindowAsync, IProtectionPolicyManagerInterop::RequestAccessForWindowAsync, RequestAccessForWindowAsync, RequestAccessForWindowAsync method, RequestAccessForWindowAsync method,IProtectionPolicyManagerInterop interface, efswrtinterop/IProtectionPolicyManagerInterop::RequestAccessForWindowAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- efswrtinterop.h
-: 
-- IProtectionPolicyManagerInterop.RequestAccessForWindowAsync
-: 
 ---
 
 # IProtectionPolicyManagerInterop::RequestAccessForWindowAsync

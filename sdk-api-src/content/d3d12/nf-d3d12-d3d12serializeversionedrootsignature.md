@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12serializeversionedrootsignature.htm
 tech.root: direct3d12
 ms.assetid: D8A15561-4911-4067-B25E-8BF2B079FD81
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12SerializeVersionedRootSignature, D3D12SerializeVersionedRootSignature function, d3d12/D3D12SerializeVersionedRootSignature, direct3d12.d3d12serializeversionedrootsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- D3D12SerializeVersionedRootSignature
-: 
 ---
 
 # D3D12SerializeVersionedRootSignature function

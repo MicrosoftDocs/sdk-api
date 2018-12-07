@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlruntimefactory.htm
 tech.root: MachineLearning
 ms.assetid: 7817A028-031C-49AA-A17A-4364DC0E78D0
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IWinMLRuntimeFactory, IWinMLRuntimeFactory interface, IWinMLRuntimeFactory interface,described, MachineLearning.iwinmlruntimefactory, winml/IWinMLRuntimeFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

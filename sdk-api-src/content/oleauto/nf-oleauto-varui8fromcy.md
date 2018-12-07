@@ -7,7 +7,7 @@ old-location: automat\varui8fromcy.htm
 tech.root: automat
 ms.assetid: 968c3f1c-6890-469c-b89f-6658ebbb93a5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarUI8FromCy, VarUI8FromCy function [Automation], _oa96_VarUI8FromCy, automat.varui8fromcy, oleauto/VarUI8FromCy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- VarUI8FromCy
-: 
 ---
 
 # VarUI8FromCy function

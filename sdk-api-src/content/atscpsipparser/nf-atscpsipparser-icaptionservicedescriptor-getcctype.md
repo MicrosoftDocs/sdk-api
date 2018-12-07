@@ -7,7 +7,7 @@ old-location: mstv\icaptionservicedescriptor_getcctype.htm
 tech.root: mstv
 ms.assetid: d245118a-3ff2-4ea7-9ff9-f8c1991f2073
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCCType, GetCCType method [Microsoft TV Technologies], GetCCType method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetCCType method, ICaptionServiceDescriptor.GetCCType, ICaptionServiceDescriptor::GetCCType, ICaptionServiceDescriptorGetCCType, atscpsipparser/ICaptionServiceDescriptor::GetCCType, mstv.icaptionservicedescriptor_getcctype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- atscpsipparser.h
-: 
-- ICaptionServiceDescriptor.GetCCType
-: 
 ---
 
 # ICaptionServiceDescriptor::GetCCType

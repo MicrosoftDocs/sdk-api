@@ -4,10 +4,10 @@ title: NetAuditClear function
 author: windows-sdk-content
 description: The NetAuditClear function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
 old-location: netmgmt\netauditclear.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: e767ba9a-3df8-49db-80b3-9f0875cdeaaa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: NetAuditClear, NetAuditClear function [Network Management], _win32_netauditclear, lmaudit/NetAuditClear, netmgmt.netauditclear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetAuditClear
-: 
 ---
 
 # NetAuditClear function

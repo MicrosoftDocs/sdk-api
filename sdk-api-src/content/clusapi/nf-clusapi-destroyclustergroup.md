@@ -4,10 +4,10 @@ title: DestroyClusterGroup function
 author: windows-sdk-content
 description: Deletes the specified group from a cluster.
 old-location: mscs\destroyclustergroup.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: ac293d5b-edc8-4c5f-9b05-9e2349bf1453
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DestroyClusterGroup, DestroyClusterGroup function [Failover Cluster], PCLUSAPI_DESTROY_CLUSTER_GROUP, PCLUSAPI_DESTROY_CLUSTER_GROUP function [Failover Cluster], clusapi/DestroyClusterGroup, clusapi/PCLUSAPI_DESTROY_CLUSTER_GROUP, mscs.destroyclustergroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DestroyClusterGroup
-: 
 ---
 
 # DestroyClusterGroup function

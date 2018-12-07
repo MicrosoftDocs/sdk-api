@@ -4,10 +4,10 @@ title: IADsPropertyList::PutPropertyItem
 author: windows-sdk-content
 description: Updates the values for an item in the property list.
 old-location: adsi\iadspropertylist_putpropertyitem.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 16af5cbf-3b87-467e-8e72-0110bcf95295
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPropertyList interface [ADSI],PutPropertyItem method, IADsPropertyList.PutPropertyItem, IADsPropertyList::PutPropertyItem, PutPropertyItem, PutPropertyItem method [ADSI], PutPropertyItem method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_putpropertyitem, adsi.iadspropertylist__putpropertyitem, adsi.iadspropertylist_putpropertyitem, iads/IADsPropertyList::PutPropertyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsPropertyList.PutPropertyItem
-: 
 ---
 
 # IADsPropertyList::PutPropertyItem
@@ -66,14 +58,7 @@ The <b>IADsPropertyList::PutPropertyItem</b> method updates the values for an it
 
 
 
-### -param varData
-
-TBD
-
-
-
-
-#### - VarData [in]
+### -param varData [in]
 
 New property values to be put in the property cache. This should contain the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> pointer to the object which implements the  <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> that contain the modified property values.
 

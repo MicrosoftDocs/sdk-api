@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue.htm
 tech.root: direct3d12
 ms.assetid: 88A4E8BA-02B9-48A1-8E46-2D2560544539
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D12CommandQueue, ID3D12CommandQueue interface, ID3D12CommandQueue interface,described, d3d12/ID3D12CommandQueue, direct3d12.id3d12commandqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

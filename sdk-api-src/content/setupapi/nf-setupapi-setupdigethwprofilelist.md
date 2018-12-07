@@ -7,7 +7,7 @@ old-location: devinst\setupdigethwprofilelist.htm
 tech.root: devinst
 ms.assetid: 59fc7202-0e03-4eaa-b3ca-7d55be767b1a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetupDiGetHwProfileList, SetupDiGetHwProfileList function [Device and Driver Installation], devinst.setupdigethwprofilelist, di-rtns_fb906b00-dab3-4cb0-88a9-b54f719211c9.xml, setupapi/SetupDiGetHwProfileList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiGetHwProfileList
-: 
 ---
 
 # SetupDiGetHwProfileList function

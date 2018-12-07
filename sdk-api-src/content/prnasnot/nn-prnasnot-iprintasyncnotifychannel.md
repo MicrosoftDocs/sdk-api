@@ -7,7 +7,7 @@ old-location: gdi\iprintasyncnotifychannel.htm
 tech.root: printdocs
 ms.assetid: 8973cf5a-bbce-43c2-b418-2807842d43c0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IPrintAsyncNotifyChannel, IPrintAsyncNotifyChannel interface [Windows GDI], IPrintAsyncNotifyChannel interface [Windows GDI],described, _win32_IPrintAsyncNotifyChannel, gdi.iprintasyncnotifychannel, prnasnot/IPrintAsyncNotifyChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\allocateandgettcpextablefromstack.htm
 tech.root: IpHlp
 ms.assetid: c79dd5ba-e80b-494f-80fa-efa10c021773
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AF_INET, AF_INET6, AllocateAndGetTcpExTableFromStack, AllocateAndGetTcpExTableFromStack function [IP Helper], iphlp.allocateandgettcpextablefromstack, iphlpapi/AllocateAndGetTcpExTableFromStack
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- AllocateAndGetTcpExTableFromStack
-: 
 ---
 
 # AllocateAndGetTcpExTableFromStack function

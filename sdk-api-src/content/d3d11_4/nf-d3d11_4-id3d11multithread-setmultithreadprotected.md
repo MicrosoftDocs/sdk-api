@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11multithread_setmultithreadprotected.htm
 tech.root: direct3d11
 ms.assetid: E8BF9A25-CCEA-44F3-AE7C-376E5B672079
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11Multithread interface [Direct3D 11],SetMultithreadProtected method, ID3D11Multithread.SetMultithreadProtected, ID3D11Multithread::SetMultithreadProtected, SetMultithreadProtected, SetMultithreadProtected method [Direct3D 11], SetMultithreadProtected method [Direct3D 11],ID3D11Multithread interface, d3d11_4/ID3D11Multithread::SetMultithreadProtected, direct3d11.id3d11multithread_setmultithreadprotected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11_4.h
-: 
-- ID3D11Multithread.SetMultithreadProtected
-: 
 ---
 
 # ID3D11Multithread::SetMultithreadProtected

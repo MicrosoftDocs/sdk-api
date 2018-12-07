@@ -7,7 +7,7 @@ old-location: cos\isharedpropertygroup.htm
 tech.root: cossdk
 ms.assetid: e7f23c83-40d3-4b08-a185-cd6e3260e0a9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISharedPropertyGroup, ISharedPropertyGroup interface [COM+], ISharedPropertyGroup interface [COM+],described, _cos_ISharedPropertyGroup, comsvcs/ISharedPropertyGroup, cos.isharedpropertygroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IFsrmPropertyCondition::get_Value
 author: windows-sdk-content
 description: The property condition's value.
 old-location: fsrm\ifsrmpropertycondition_value.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 51316f3b-ca69-4e0c-936c-8cafc0e2b1b7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmPropertyCondition interface [File Server Resource Manager],Value property, IFsrmPropertyCondition.Value, IFsrmPropertyCondition.get_Value, IFsrmPropertyCondition::Value, IFsrmPropertyCondition::get_Value, IFsrmPropertyCondition::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmPropertyCondition interface, fs.ifsrmpropertycondition_value, fsrm.ifsrmpropertycondition_value, fsrmreports/IFsrmPropertyCondition::Value, fsrmreports/IFsrmPropertyCondition::get_Value, fsrmreports/IFsrmPropertyCondition::put_Value, get_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmPropertyCondition.get_Value
-: 
 ---
 
 # IFsrmPropertyCondition::get_Value

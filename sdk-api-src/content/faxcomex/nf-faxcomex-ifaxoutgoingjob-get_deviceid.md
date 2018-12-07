@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_deviceid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4qzo.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],DeviceId property, IFaxOutgoingJob.DeviceId, IFaxOutgoingJob.get_DeviceId, IFaxOutgoingJob::DeviceId, IFaxOutgoingJob::get_DeviceId, _mfax_faxoutgoingjob.deviceid, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_deviceid_cpp, fax._mfax_faxoutgoingjob_deviceid, faxcomex/IFaxOutgoingJob::DeviceId, faxcomex/IFaxOutgoingJob::get_DeviceId, get_DeviceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxOutgoingJob.get_DeviceId
-: 
 ---
 
 # IFaxOutgoingJob::get_DeviceId

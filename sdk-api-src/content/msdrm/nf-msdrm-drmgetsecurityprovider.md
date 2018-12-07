@@ -7,7 +7,7 @@ old-location: rm\drmgetsecurityprovider.htm
 tech.root: AdRms_Sdk
 ms.assetid: 9f74fd19-bd87-4e21-a2b9-66b7d1f481a1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMGetSecurityProvider, DRMGetSecurityProvider function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetSecurityProvider, rm.drmgetsecurityprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DRMGetSecurityProvider
-: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

@@ -4,10 +4,10 @@ title: EapPeerGetResponsePacket function
 author: windows-sdk-content
 description: Obtains a response packet from the EAP method.
 old-location: eaphost\eappeergetresponsepacket.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 4e1deaab-53fe-4c8f-9018-d7b148131231
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EapPeerGetResponsePacket, EapPeerGetResponsePacket function [EAPHost], eaphost.eappeergetresponsepacket, eapmethodpeerapis/EapPeerGetResponsePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapPeerGetResponsePacket
-: 
 ---
 
 # EapPeerGetResponsePacket function

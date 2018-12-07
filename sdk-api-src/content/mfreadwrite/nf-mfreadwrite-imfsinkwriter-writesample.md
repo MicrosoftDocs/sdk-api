@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_writesample.htm
 tech.root: medfound
 ms.assetid: 1c65a5d0-cc1b-456e-9d88-a24da57ee30a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],WriteSample method, IMFSinkWriter.WriteSample, IMFSinkWriter::WriteSample, WriteSample, WriteSample method [Media Foundation], WriteSample method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_writesample, mfreadwrite/IMFSinkWriter::WriteSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mfreadwrite.h
-: 
-- IMFSinkWriter.WriteSample
-: 
 ---
 
 # IMFSinkWriter::WriteSample

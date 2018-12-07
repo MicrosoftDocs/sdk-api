@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceunitsstream_seekinunits.htm
 tech.root: wpd_sdk
 ms.assetid: F94D30C7-57A8-4CBB-B416-ABB8BEC26A6E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IPortableDeviceUnitsStream interface [Windows Portable Devices SDK],SeekInUnits method, IPortableDeviceUnitsStream.SeekInUnits, IPortableDeviceUnitsStream::SeekInUnits, SeekInUnits, SeekInUnits method [Windows Portable Devices SDK], SeekInUnits method [Windows Portable Devices SDK],IPortableDeviceUnitsStream interface, portabledeviceapi/IPortableDeviceUnitsStream::SeekInUnits, wpdsdk.iportabledeviceunitsstream_seekinunits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- portabledeviceapi.h
-: 
-- IPortableDeviceUnitsStream.SeekInUnits
-: 
 ---
 
 # IPortableDeviceUnitsStream::SeekInUnits

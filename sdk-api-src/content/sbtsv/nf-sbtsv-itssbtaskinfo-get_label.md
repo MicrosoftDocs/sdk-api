@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskinfo_label.htm
 tech.root: termserv
 ms.assetid: 075de6a4-53b0-43b0-9bca-03bf312fff6e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Label property, ITsSbTaskInfo.Label, ITsSbTaskInfo.get_Label, ITsSbTaskInfo::Label, ITsSbTaskInfo::get_Label, Label property [Remote Desktop Services], Label property [Remote Desktop Services],ITsSbTaskInfo interface, get_Label, sbtsv/ITsSbTaskInfo::Label, sbtsv/ITsSbTaskInfo::get_Label, termserv.itssbtaskinfo_label
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- sbtsv.h
-: 
-- ITsSbTaskInfo.get_Label
-: 
 ---
 
 # ITsSbTaskInfo::get_Label

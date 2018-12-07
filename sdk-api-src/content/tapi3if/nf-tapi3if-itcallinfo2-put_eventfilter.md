@@ -4,10 +4,10 @@ title: ITCallInfo2::put_EventFilter
 author: windows-sdk-content
 description: The put_EventFilter method sets an event filter for the current call.
 old-location: tapi3\itcallinfo2_put_eventfilter.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 8e1b4474-b9ff-489d-8226-58eda659e057
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITCallInfo2 interface [TAPI 2.2],put_EventFilter method, ITCallInfo2.put_EventFilter, ITCallInfo2::put_EventFilter, _tapi3_itcallinfo2_put_eventfilter, put_EventFilter, put_EventFilter method [TAPI 2.2], put_EventFilter method [TAPI 2.2],ITCallInfo2 interface, tapi3.itcallinfo2_put_eventfilter, tapi3if/ITCallInfo2::put_EventFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITCallInfo2.put_EventFilter
-: 
 ---
 
 # ITCallInfo2::put_EventFilter

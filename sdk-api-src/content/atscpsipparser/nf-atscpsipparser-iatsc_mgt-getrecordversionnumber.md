@@ -7,7 +7,7 @@ old-location: mstv\iatsc_mgt_getrecordversionnumber.htm
 tech.root: mstv
 ms.assetid: 1a5ec8e9-d1e6-4514-8d0d-7992be52ba8c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordVersionNumber, GetRecordVersionNumber method [Microsoft TV Technologies], GetRecordVersionNumber method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordVersionNumber method, IATSC_MGT.GetRecordVersionNumber, IATSC_MGT::GetRecordVersionNumber, IATSC_MGTGetRecordVersionNumber, atscpsipparser/IATSC_MGT::GetRecordVersionNumber, mstv.iatsc_mgt_getrecordversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- atscpsipparser.h
-: 
-- IATSC_MGT.GetRecordVersionNumber
-: 
 ---
 
 # IATSC_MGT::GetRecordVersionNumber

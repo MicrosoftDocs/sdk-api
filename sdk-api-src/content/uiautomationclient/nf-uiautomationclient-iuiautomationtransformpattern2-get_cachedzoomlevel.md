@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationtransformpattern2_cachedzoomlevel.htm
 tech.root: WinAuto
 ms.assetid: 9A0F0459-97F7-44C0-B7F8-11593A69DEBA
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CachedZoomLevel property [Windows Accessibility], CachedZoomLevel property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CachedZoomLevel property, IUIAutomationTransformPattern2.CachedZoomLevel, IUIAutomationTransformPattern2.get_CachedZoomLevel, IUIAutomationTransformPattern2::CachedZoomLevel, IUIAutomationTransformPattern2::get_CachedZoomLevel, get_CachedZoomLevel, uiautomationclient/IUIAutomationTransformPattern2::CachedZoomLevel, uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomLevel, winauto.uiauto_iuiautomationtransformpattern2_cachedzoomlevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationTransformPattern2.get_CachedZoomLevel
-: 
 ---
 
 # IUIAutomationTransformPattern2::get_CachedZoomLevel

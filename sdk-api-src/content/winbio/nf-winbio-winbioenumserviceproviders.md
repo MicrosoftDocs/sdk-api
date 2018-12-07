@@ -7,7 +7,7 @@ old-location: secbiomet\winbioenumserviceproviders.htm
 tech.root: SecBioMet
 ms.assetid: 2424eae8-4fc6-43f4-97a1-3340870396cc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioEnumServiceProviders, WinBioEnumServiceProviders function [Windows Biometric Framework API], secbiomet.winbioenumserviceproviders, winbio/WinBioEnumServiceProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinBioEnumServiceProviders
-: 
 ---
 
 # WinBioEnumServiceProviders function

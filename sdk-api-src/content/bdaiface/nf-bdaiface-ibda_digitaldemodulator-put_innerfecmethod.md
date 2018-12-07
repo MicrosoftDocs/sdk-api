@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator_put_innerfecmethod.htm
 tech.root: mstv
 ms.assetid: 618074c0-5139-4373-8bcd-9a8fd90a4ed7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_InnerFECMethod method, IBDA_DigitalDemodulator.put_InnerFECMethod, IBDA_DigitalDemodulator::put_InnerFECMethod, IBDA_DigitalDemodulatorput_InnerFECMethod, bdaiface/IBDA_DigitalDemodulator::put_InnerFECMethod, mstv.ibda_digitaldemodulator_put_innerfecmethod, put_InnerFECMethod, put_InnerFECMethod method [Microsoft TV Technologies], put_InnerFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bdaiface.h
-: 
-- IBDA_DigitalDemodulator.put_InnerFECMethod
-: 
 ---
 
 # IBDA_DigitalDemodulator::put_InnerFECMethod

@@ -4,10 +4,10 @@ title: CryptExportPKCS8Ex function
 author: windows-sdk-content
 description: Exports the private key in PKCS #8 format.
 old-location: security\cryptexportpkcs8ex.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: 82fee86a-8704-4f22-8f11-f89509c5a0aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CryptExportPKCS8Ex, CryptExportPKCS8Ex function [Security], security.cryptexportpkcs8ex, wincrypt/CryptExportPKCS8Ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CryptExportPKCS8Ex
-: 
 ---
 
 # CryptExportPKCS8Ex function

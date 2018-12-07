@@ -7,7 +7,7 @@ old-location: mf\mf_file_accessmode.htm
 tech.root: medfound
 ms.assetid: 38108686-5378-4844-8d5a-a433e89f62bb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 38108686-5378-4844-8d5a-a433e89f62bb, MF_ACCESSMODE_READ, MF_ACCESSMODE_READWRITE, MF_ACCESSMODE_WRITE, MF_FILE_ACCESSMODE, MF_FILE_ACCESSMODE enumeration [Media Foundation], __MIDL___MIDL_itf_mfobjects_0000_0017_0001, mf.mf_file_accessmode, mfobjects/MF_ACCESSMODE_READ, mfobjects/MF_ACCESSMODE_READWRITE, mfobjects/MF_ACCESSMODE_WRITE, mfobjects/MF_FILE_ACCESSMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

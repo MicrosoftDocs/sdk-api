@@ -4,10 +4,10 @@ title: IX509PrivateKey
 author: windows-sdk-content
 description: Represents an asymmetric private key that can be used for encryption, signing, and key agreement.
 old-location: security\ix509privatekey.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 72612ea4-ed45-46ac-9dad-614a9a754d83
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], IX509PrivateKey interface [Security],described, certenroll/IX509PrivateKey, security.ix509privatekey
 ms.prod: windows-hardware
 ms.technology: windows-devices

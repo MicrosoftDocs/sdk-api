@@ -4,10 +4,10 @@ title: phoneClose function
 author: windows-sdk-content
 description: The phoneClose function closes the specified open phone device.
 old-location: tapi2\phoneclose.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: 9e5e66c6-a8d2-4e0a-a400-17f0a3637f63
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_phoneclose, phoneClose, phoneClose function [TAPI 2.2], tapi/phoneClose, tapi2.phoneclose"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- phoneClose
-: 
 ---
 
 # phoneClose function

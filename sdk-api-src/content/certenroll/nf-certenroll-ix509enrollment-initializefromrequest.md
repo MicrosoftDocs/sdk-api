@@ -4,10 +4,10 @@ title: IX509Enrollment::InitializeFromRequest
 author: windows-sdk-content
 description: Initializes the enrollment object from an existing IX509CertificateRequest object.
 old-location: security\ix509enrollment_initializefromrequest_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 04cb00af-f786-4548-bee3-2cc5083278c3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509Enrollment interface [Security],InitializeFromRequest method, IX509Enrollment.InitializeFromRequest, IX509Enrollment::InitializeFromRequest, InitializeFromRequest, InitializeFromRequest method [Security], InitializeFromRequest method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InitializeFromRequest, security.ix509enrollment_initializefromrequest_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509Enrollment.InitializeFromRequest
-: 
 ---
 
 # IX509Enrollment::InitializeFromRequest

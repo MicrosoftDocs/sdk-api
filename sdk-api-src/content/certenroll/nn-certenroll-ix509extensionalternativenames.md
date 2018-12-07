@@ -4,10 +4,10 @@ title: IX509ExtensionAlternativeNames
 author: windows-sdk-content
 description: Enables you to specify one or more alternative name forms for the subject of a certificate. A certification authority processes the extension by binding the names to the certified public key.
 old-location: security\ix509extensionalternativenames.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: facfcc85-c1ca-47a1-90a6-10522b15cc65
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509ExtensionAlternativeNames, IX509ExtensionAlternativeNames interface [Security], IX509ExtensionAlternativeNames interface [Security],described, certenroll/IX509ExtensionAlternativeNames, security.ix509extensionalternativenames
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iesvalueupdatedevent.htm
 tech.root: mstv
 ms.assetid: 6639c483-aebe-43b4-94cd-494b820c1b14
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IESValueUpdatedEvent, IESValueUpdatedEvent interface [Microsoft TV Technologies], IESValueUpdatedEvent interface [Microsoft TV Technologies],described, mstv.iesvalueupdatedevent, tuner/IESValueUpdatedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

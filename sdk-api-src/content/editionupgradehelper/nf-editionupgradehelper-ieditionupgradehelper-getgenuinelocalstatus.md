@@ -4,10 +4,10 @@ title: IEditionUpgradeHelper::GetGenuineLocalStatus
 author: windows-sdk-content
 description: Retrieves whether the currently installed operating system is activated.
 old-location: winprog\ieditionupgradehelper_getgenuinelocalstatus.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: 061AECF0-AC7A-480F-B532-F5D8AC078168
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetGenuineLocalStatus, GetGenuineLocalStatus method [Windows API], GetGenuineLocalStatus method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],GetGenuineLocalStatus method, IEditionUpgradeHelper.GetGenuineLocalStatus, IEditionUpgradeHelper::GetGenuineLocalStatus, editionupgradehelper/IEditionUpgradeHelper::GetGenuineLocalStatus, winprog.ieditionupgradehelper_getgenuinelocalstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- editionupgradehelper.h
-: 
-- IEditionUpgradeHelper.GetGenuineLocalStatus
-: 
 ---
 
 # IEditionUpgradeHelper::GetGenuineLocalStatus

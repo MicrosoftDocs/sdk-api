@@ -4,10 +4,10 @@ title: hyphresult
 author: windows-sdk-content
 description: Contains information about the result of hyphenation in a Microsoft Rich Edit control.
 old-location: controls\HYPHRESULT.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\hyphresult.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HYPHRESULT, HYPHRESULT structure [Windows Controls], _win32_HYPHRESULT_str, _win32_HYPHRESULT_str_cpp, controls.HYPHRESULT, controls._win32_HYPHRESULT_str, hyphresult, richedit/HYPHRESULT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: devinst\setupdiinstalldeviceinterfaces.htm
 tech.root: devinst
 ms.assetid: c47d83f6-9ae5-43a9-a6ed-b0441b490e8d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetupDiInstallDeviceInterfaces, SetupDiInstallDeviceInterfaces function [Device and Driver Installation], devinst.setupdiinstalldeviceinterfaces, di-rtns_8bb9c70f-c1be-45f6-af6c-243a750babb9.xml, setupapi/SetupDiInstallDeviceInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetupDiInstallDeviceInterfaces
-: 
 ---
 
 # SetupDiInstallDeviceInterfaces function

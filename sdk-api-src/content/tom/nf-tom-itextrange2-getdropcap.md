@@ -4,10 +4,10 @@ title: ITextRange2::GetDropCap
 author: windows-sdk-content
 description: Gets the drop-cap parameters of the paragraph that contains this range.
 old-location: controls\itextrange2_getdropcap.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: c653c002-6708-4813-83ae-1ea578bdcee2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetDropCap, GetDropCap method [Windows Controls], GetDropCap method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetDropCap method, ITextRange2.GetDropCap, ITextRange2::GetDropCap, controls.itextrange2_getdropcap, tom/ITextRange2::GetDropCap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRange2.GetDropCap
-: 
 ---
 
 # ITextRange2::GetDropCap

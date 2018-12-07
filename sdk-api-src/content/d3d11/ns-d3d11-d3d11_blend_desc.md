@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_blend_desc.htm
 tech.root: direct3d11
 ms.assetid: 388f862c-58b0-48a8-a865-ba7568484ef5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_BLEND_DESC, D3D11_BLEND_DESC structure [Direct3D 11], d3d11/D3D11_BLEND_DESC, direct3d11.d3d11_blend_desc, ed99badb-a124-6d18-9617-fc6a75dc845f
 ms.prod: windows-hardware
 ms.technology: windows-devices

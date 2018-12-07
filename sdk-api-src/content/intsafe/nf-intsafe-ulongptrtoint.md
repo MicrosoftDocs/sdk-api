@@ -7,7 +7,7 @@ old-location: shell\SizeTToInt.htm
 tech.root: shell
 ms.assetid: 65f178c1-8029-40c5-af31-03f158d90582
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SizeTToInt, SizeTToInt function [Windows Shell], ULongPtrToInt, _shell_SizeTToInt, intsafe/SizeTToInt, shell.SizeTToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ULongPtrToInt
-: 
 ---
 
 # ULongPtrToInt function

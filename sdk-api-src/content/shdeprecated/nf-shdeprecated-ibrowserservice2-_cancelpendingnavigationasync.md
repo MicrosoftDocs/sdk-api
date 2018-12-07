@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__CancelPendingNavigationAsync.htm
 tech.root: shell
 ms.assetid: fa3605fe-ebff-48f9-a9d2-9146c719696d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_CancelPendingNavigationAsync method, IBrowserService2._CancelPendingNavigationAsync, IBrowserService2::_CancelPendingNavigationAsync, _CancelPendingNavigationAsync, _CancelPendingNavigationAsync method [Windows Shell], _CancelPendingNavigationAsync method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_CancelPendingNavigationAsync, shell.IBrowserService2__CancelPendingNavigationAsync, zone_IBrowserService2__CancelPendingNavigationAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shdeprecated.h
-: 
-- IBrowserService2._CancelPendingNavigationAsync
-: 
 req.product: Internet Explorer 5.0
 ---
 

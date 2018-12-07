@@ -7,7 +7,7 @@ old-location: nwifi\wlansetprofileposition.htm
 tech.root: NativeWiFi
 ms.assetid: 06ef9f55-b425-4f61-9b9e-3c27cc3796f6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WlanSetProfilePosition, WlanSetProfilePosition function [NativeWIFI], nwifi.wlansetprofileposition, wlanapi/WlanSetProfilePosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
-- apiref
-: 
-- 
-: 
-- WlanSetProfilePosition
-: 
 ---
 
 # WlanSetProfilePosition function

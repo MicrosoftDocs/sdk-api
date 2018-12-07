@@ -4,10 +4,10 @@ title: Matrix3x2F::Rotation
 author: windows-sdk-content
 description: Creates a rotation transformation that has the specified angle and center point.
 old-location: direct2d\matrix3x2f_rotate.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 9bb3ee14-3637-41fc-9164-1114619a59e4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1.Matrix3x2F.Rotation, D2D1::Matrix3x2F::Rotation, Matrix3x2F interface [Direct2D],Rotation method, Matrix3x2F.Rotation, Matrix3x2F::Rotation, Rotation, Rotation method [Direct2D], Rotation method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Rotation, direct2d.matrix3x2f_rotate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1helper.h
-: 
-- Matrix3x2F.Rotation
-: 
 ---
 
 # Matrix3x2F::Rotation

@@ -7,7 +7,7 @@ old-location: base\waitnamedpipe.htm
 tech.root: ipc
 ms.assetid: cbb2300b-5d5f-4a7b-994b-63b747e9ccfc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, WaitNamedPipe, WaitNamedPipe function, WaitNamedPipeA, WaitNamedPipeW, _win32_waitnamedpipe, base.waitnamedpipe, winbase/WaitNamedPipe, winbase/WaitNamedPipeA, winbase/WaitNamedPipeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,12 +54,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WaitNamedPipeA
-: 
 ---
 
 # WaitNamedPipeA function

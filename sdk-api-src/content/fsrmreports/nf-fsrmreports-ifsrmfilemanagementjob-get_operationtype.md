@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::get_OperationType
 author: windows-sdk-content
 description: The type of file management job. The type determines the operation to perform on a file when all conditions are met.
 old-location: fsrm\ifsrmfilemanagementjob_operationtype.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 98816ea0-7651-42ef-8893-13c568ed859a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],OperationType property, IFsrmFileManagementJob.OperationType, IFsrmFileManagementJob.get_OperationType, IFsrmFileManagementJob::OperationType, IFsrmFileManagementJob::get_OperationType, IFsrmFileManagementJob::put_OperationType, OperationType property [File Server Resource Manager], OperationType property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_operationtype, fsrm.ifsrmfilemanagementjob_operationtype, fsrmreports/IFsrmFileManagementJob::OperationType, fsrmreports/IFsrmFileManagementJob::get_OperationType, fsrmreports/IFsrmFileManagementJob::put_OperationType, get_OperationType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmFileManagementJob.get_OperationType
-: 
 ---
 
 # IFsrmFileManagementJob::get_OperationType

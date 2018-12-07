@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetTriggerString
 author: windows-sdk-content
 description: Retrieves a string that describes the work item trigger.
 old-location: taskschd\ischeduledworkitem_gettriggerstring.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 5e342807-4796-449b-b490-815ce57f4d8f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetTriggerString, GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTriggerString method, IScheduledWorkItem.GetTriggerString, IScheduledWorkItem::GetTriggerString, _msb_ischeduledworkitem_gettriggerstring, mstask/IScheduledWorkItem::GetTriggerString, taskschd.ischeduledworkitem_gettriggerstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.GetTriggerString
-: 
 ---
 
 # IScheduledWorkItem::GetTriggerString

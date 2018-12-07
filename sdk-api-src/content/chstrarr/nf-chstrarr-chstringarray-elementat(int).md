@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_elementat.htm
 tech.root: WmiSdk
 ms.assetid: 5431a9ae-e009-4457-87e4-bb91da8bfdb6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],ElementAt method, CHStringArray.ElementAt, CHStringArray.ElementAt(int), CHStringArray::ElementAt, CHStringArray::ElementAt(int), ElementAt, ElementAt method [Windows Management Instrumentation], ElementAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_elementat, chstrarr/CHStringArray::ElementAt, wmi.chstringarray_elementat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- chstrarr.h
-: 
-- CHStringArray.ElementAt
-: 
 ---
 
 # CHStringArray::ElementAt(int)

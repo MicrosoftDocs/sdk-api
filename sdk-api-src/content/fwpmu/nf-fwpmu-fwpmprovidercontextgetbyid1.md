@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextgetbyid1_func.htm
 tech.root: fwp
 ms.assetid: 76353efa-844e-4c7f-9f9a-0bf2e247c58b
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmProviderContextGetById1, FwpmProviderContextGetById1 function [Filtering], fwp.fwpmprovidercontextgetbyid1_func, fwpmu/FwpmProviderContextGetById1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmProviderContextGetById1
-: 
 ---
 
 # FwpmProviderContextGetById1 function

@@ -4,10 +4,10 @@ title: IGetClusterNetworkInfo::GetNetworkHandle
 author: windows-sdk-content
 description: Retrieves a handle to a network.
 old-location: mscs\igetclusternetworkinfo_getnetworkhandle.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 596ebdb3-c4c1-4186-ac6b-e6a7d4a61688
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetNetworkHandle, GetNetworkHandle method [Failover Cluster], GetNetworkHandle method [Failover Cluster],IGetClusterNetworkInfo interface, IGetClusterNetworkInfo interface [Failover Cluster],GetNetworkHandle method, IGetClusterNetworkInfo.GetNetworkHandle, IGetClusterNetworkInfo::GetNetworkHandle, _wolf_igetclusternetworkinfo_getnetworkhandle, cluadmex/IGetClusterNetworkInfo::GetNetworkHandle, mscs.igetclusternetworkinfo_getnetworkhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cluadmex.h
-: 
-- IGetClusterNetworkInfo.GetNetworkHandle
-: 
 ---
 
 # IGetClusterNetworkInfo::GetNetworkHandle

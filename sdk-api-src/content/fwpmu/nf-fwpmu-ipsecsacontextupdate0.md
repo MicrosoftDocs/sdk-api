@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextupdate0.htm
 tech.root: fwp
 ms.assetid: ff19c7e6-569e-4bde-9a25-1661d50aea5e
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IPSEC_SA_BUNDLE_UPDATE_FLAGS, IPSEC_SA_BUNDLE_UPDATE_KEY_MODULE_STATE, IPSEC_SA_BUNDLE_UPDATE_MM_SA_ID, IPSEC_SA_BUNDLE_UPDATE_NAP_CONTEXT, IPSEC_SA_BUNDLE_UPDATE_PEER_V4_PRIVATE_ADDRESS, IPSEC_SA_DETAILS_UPDATE_TRAFFIC, IPSEC_SA_DETAILS_UPDATE_UDP_ENCAPSULATION, IPsecSaContextUpdate0, IPsecSaContextUpdate0 function [Filtering], fwp.ipsecsacontextupdate0, fwpmu/IPsecSaContextUpdate0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- IPsecSaContextUpdate0
-: 
 ---
 
 # IPsecSaContextUpdate0 function

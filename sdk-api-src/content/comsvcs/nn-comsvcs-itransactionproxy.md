@@ -7,7 +7,7 @@ old-location: cos\itransactionproxy.htm
 tech.root: cossdk
 ms.assetid: 58d40456-fd4f-4690-a679-3fa58b2f3cda
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITransactionProxy, ITransactionProxy interface [COM+], ITransactionProxy interface [COM+],described, comsvcs/ITransactionProxy, cos.itransactionproxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IEnumCERTVIEWCOLUMN::Clone
 author: windows-sdk-content
 description: Creates a copy of the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_clone.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: a0870155-3f16-4cfb-b180-7a8e617dfcd8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],Clone method, IEnumCERTVIEWCOLUMN.Clone, IEnumCERTVIEWCOLUMN::Clone, _certsrv_ienumcertviewcolumn_clone, certview/IEnumCERTVIEWCOLUMN::Clone, security.ienumcertviewcolumn_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certview.h
-: 
-- IEnumCERTVIEWCOLUMN.Clone
-: 
 ---
 
 # IEnumCERTVIEWCOLUMN::Clone

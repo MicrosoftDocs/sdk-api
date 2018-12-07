@@ -7,7 +7,7 @@ old-location: dxmath\xmudecn4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUDECN4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: XMUDECN4, XMUDECN4 structure [DirectX Math Support APIs], directxpackedvector/XMUDECN4, dxmath.xmudecn4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,6 +97,23 @@ Unsigned integer value in the range [0, 3] describing the w-coordinate
 
 Unsigned 32-bit integer representing the 4D vector.
 		    
+
+
+### -field XMUDECN4
+
+TBD 
+
+
+### -field operator uint32_t
+
+TBD 
+
+
+### -field operator=
+
+TBD 
+
+
 
 
 ## -remarks

@@ -4,10 +4,10 @@ title: IWSManEx::SessionFlagCredUsernamePassword
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagCredUsernamePassword for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagcredusernamepassword.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: e9af95ac-4543-4d8b-ac6e-15e89b73713e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagCredUsernamePassword method, IWSManEx.SessionFlagCredUsernamePassword, IWSManEx::SessionFlagCredUsernamePassword, SessionFlagCredUsernamePassword, SessionFlagCredUsernamePassword method [Windows Remote Management], SessionFlagCredUsernamePassword method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagcredusernamepassword, wsmandisp/IWSManEx::SessionFlagCredUsernamePassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wsmandisp.h
-: 
-- IWSManEx.SessionFlagCredUsernamePassword
-: 
 ---
 
 # IWSManEx::SessionFlagCredUsernamePassword

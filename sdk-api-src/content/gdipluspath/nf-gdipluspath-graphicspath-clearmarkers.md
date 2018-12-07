@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_ClearMarkers_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\clearmarkers.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ClearMarkers, ClearMarkers method [GDI+], ClearMarkers method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],ClearMarkers method, GraphicsPath.ClearMarkers, GraphicsPath::ClearMarkers, _gdiplus_CLASS_GraphicsPath_ClearMarkers_, gdiplus._gdiplus_CLASS_GraphicsPath_ClearMarkers_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdipluspath.h
-: 
-- GraphicsPath.ClearMarkers
-: 
 req.product: GDI+ 1.0
 ---
 

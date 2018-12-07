@@ -4,10 +4,10 @@ title: IEnumSTATSTG::Clone
 author: windows-sdk-content
 description: Creates a new enumerator that contains the same enumeration state as the current STATSTG structure enumerator.
 old-location: stg\ienumstatstg_clone.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: b6bc5dbd-7e09-4590-a7d4-d58fcd297f74
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IEnumSTATSTG interface, IEnumSTATSTG interface [Structured Storage],Clone method, IEnumSTATSTG.Clone, IEnumSTATSTG::Clone, objidl/IEnumSTATSTG::Clone, stg.ienumstatstg_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- IEnumSTATSTG.Clone
-: 
 ---
 
 # IEnumSTATSTG::Clone

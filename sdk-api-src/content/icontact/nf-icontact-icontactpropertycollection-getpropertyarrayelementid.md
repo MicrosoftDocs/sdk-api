@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyArr
 tech.root: wincontacts
 ms.assetid: bfd860d6-cd67-4f97-afc4-1e2e7c8f57ca
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetPropertyArrayElementID, GetPropertyArrayElementID method [Windows Contacts], GetPropertyArrayElementID method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyArrayElementID method, IContactPropertyCollection.GetPropertyArrayElementID, IContactPropertyCollection::GetPropertyArrayElementID, _wincontacts_IContactPropertyCollection_GetPropertyArrayElementID, icontact/IContactPropertyCollection::GetPropertyArrayElementID, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyArrayElementID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- icontact.h
-: 
-- IContactPropertyCollection.GetPropertyArrayElementID
-: 
 ---
 
 # IContactPropertyCollection::GetPropertyArrayElementID

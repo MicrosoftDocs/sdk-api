@@ -7,7 +7,7 @@ old-location: gdi\getstretchbltmode.htm
 tech.root: gdi
 ms.assetid: a4408e28-d7ac-44e9-905d-efa75c60e503
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetStretchBltMode, GetStretchBltMode function [Windows GDI], _win32_GetStretchBltMode, gdi.getstretchbltmode, wingdi/GetStretchBltMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetStretchBltMode
-: 
 ---
 
 # GetStretchBltMode function

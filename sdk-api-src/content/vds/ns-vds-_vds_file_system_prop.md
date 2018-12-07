@@ -4,10 +4,10 @@ title: "_VDS_FILE_SYSTEM_PROP"
 author: windows-sdk-content
 description: Defines the properties of a file system.
 old-location: base\vds_file_system_prop.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 1068eb6d-0f7f-4d04-b7ec-f40e54ff8325
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVDS_FILE_SYSTEM_PROP, PVDS_FILE_SYSTEM_PROP, PVDS_FILE_SYSTEM_PROP structure pointer [VDS], VDS_FILE_SYSTEM_PROP, VDS_FILE_SYSTEM_PROP structure [VDS], _VDS_FILE_SYSTEM_PROP, base.vds_file_system_prop, vds/PVDS_FILE_SYSTEM_PROP, vds/_VDS_FILE_SYSTEM_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

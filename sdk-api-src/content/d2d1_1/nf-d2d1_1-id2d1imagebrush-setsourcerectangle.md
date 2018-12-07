@@ -4,10 +4,10 @@ title: ID2D1ImageBrush::SetSourceRectangle
 author: windows-sdk-content
 description: Sets the source rectangle in the image brush.
 old-location: direct2d\id2d1imagebrush_setsourcerectangle.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: be445505-585f-448b-a7eb-386e18a416b3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1ImageBrush interface [Direct2D],SetSourceRectangle method, ID2D1ImageBrush.SetSourceRectangle, ID2D1ImageBrush::SetSourceRectangle, SetSourceRectangle, SetSourceRectangle method [Direct2D], SetSourceRectangle method [Direct2D],ID2D1ImageBrush interface, d2d1_1/ID2D1ImageBrush::SetSourceRectangle, direct2d.id2d1imagebrush_setsourcerectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d2d1_1.h
-: 
-- ID2D1ImageBrush.SetSourceRectangle
-: 
 ---
 
 # ID2D1ImageBrush::SetSourceRectangle

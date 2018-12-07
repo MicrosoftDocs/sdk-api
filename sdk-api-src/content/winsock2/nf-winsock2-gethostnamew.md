@@ -4,10 +4,10 @@ title: GetHostNameW function
 author: windows-sdk-content
 description: The GetHostNameW function retrieves the standard host name for the local computer as a Unicode string.
 old-location: winsock\gethostnamew.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 787EB209-5944-4F0A-8550-FE1115C2298A
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetHostNameW, GetHostNameW function [Winsock], winsock.gethostnamew, winsock2/GetHostNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetHostNameW
-: 
 ---
 
 # GetHostNameW function

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectpass_isvalid.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_isvalid.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 9122c231-edb3-12f1-7535-16f793aee59d, ID3D10EffectPass interface [Direct3D 10],IsValid method, ID3D10EffectPass.IsValid, ID3D10EffectPass::IsValid, IsValid, IsValid method [Direct3D 10], IsValid method [Direct3D 10],ID3D10EffectPass interface, d3d10effect/ID3D10EffectPass::IsValid, direct3d10.id3d10effectpass_isvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10effect.h
-: 
-- ID3D10EffectPass.IsValid
-: 
 ---
 
 # ID3D10EffectPass::IsValid

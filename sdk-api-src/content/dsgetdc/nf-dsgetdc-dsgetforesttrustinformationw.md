@@ -7,7 +7,7 @@ old-location: ad\dsgetforesttrustinformationw.htm
 tech.root: ad
 ms.assetid: c94fdc5b-920b-4807-9cbf-3172ec1c7386
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: DS_GFTI_UPDATE_TDO, DsGetForestTrustInformationW, DsGetForestTrustInformationW function [Active Directory], ad.dsgetforesttrustinformationw, dsgetdc/DsGetForestTrustInformationW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DsGetForestTrustInformationW
-: 
 ---
 
 # DsGetForestTrustInformationW function

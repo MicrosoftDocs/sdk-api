@@ -7,7 +7,7 @@ old-location: gamemode\getexpandedresourceexclusivecpucount.htm
 tech.root: gamemode
 ms.assetid: C87BE7FE-9CC7-4B6B-AC25-606A967D70C6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetExpandedResourceExclusiveCpuCount, GetExpandedResourceExclusiveCpuCount function, expandedresources/GetExpandedResourceExclusiveCpuCount, gamemode.getexpandedresourceexclusivecpucount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetExpandedResourceExclusiveCpuCount
-: 
 ---
 
 # GetExpandedResourceExclusiveCpuCount function

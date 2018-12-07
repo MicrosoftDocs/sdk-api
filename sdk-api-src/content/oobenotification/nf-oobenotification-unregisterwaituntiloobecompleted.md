@@ -7,7 +7,7 @@ old-location: windowssetupandmigration\unregisterwaituntiloobecompleted.htm
 tech.root: WNF
 ms.assetid: 966803DF-744A-430F-86C0-F6ACA754C603
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: UnregisterWaitUntilOOBECompleted, UnregisterWaitUntilOOBECompleted function, oobenotification/UnregisterWaitUntilOOBECompleted, windowssetupandmigration.unregisterwaituntiloobecompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- UnregisterWaitUntilOOBECompleted
-: 
 ---
 
 # UnregisterWaitUntilOOBECompleted function

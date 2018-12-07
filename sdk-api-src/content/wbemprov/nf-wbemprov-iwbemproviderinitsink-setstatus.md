@@ -7,7 +7,7 @@ old-location: wmi\iwbemproviderinitsink_setstatus.htm
 tech.root: WmiSdk
 ms.assetid: 909935ba-ae3a-477d-a466-1f2679764b10
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWbemProviderInitSink interface [Windows Management Instrumentation],SetStatus method, IWbemProviderInitSink.SetStatus, IWbemProviderInitSink::SetStatus, SetStatus, SetStatus method [Windows Management Instrumentation], SetStatus method [Windows Management Instrumentation],IWbemProviderInitSink interface, WBEM_E_FAILED, WBEM_S_INITIALIZED, _hmm_iwbemproviderinitsink_setstatus, wbemprov/IWbemProviderInitSink::SetStatus, wmi.iwbemproviderinitsink_setstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wbemprov.h
-: 
-- IWbemProviderInitSink.SetStatus
-: 
 ---
 
 # IWbemProviderInitSink::SetStatus

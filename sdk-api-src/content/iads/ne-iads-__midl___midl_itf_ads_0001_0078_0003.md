@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_ads_0001_0078_0003"
 author: windows-sdk-content
 description: The ADS_DISPLAY_ENUM enumeration specifies how a path is to be displayed.
 old-location: adsi\ads_display_enum.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: bc57aa4d-99f6-483f-b027-9b66b0c3bad1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADS_DISPLAY_ENUM, ADS_DISPLAY_ENUM enumeration [ADSI], ADS_DISPLAY_FULL, ADS_DISPLAY_VALUE_ONLY, __MIDL___MIDL_itf_ads_0001_0078_0003, _ds_ads_display_enum, adsi.ads__display__enum, adsi.ads_display_enum, iads/ADS_DISPLAY_ENUM, iads/ADS_DISPLAY_FULL, iads/ADS_DISPLAY_VALUE_ONLY
 ms.prod: windows-hardware
 ms.technology: windows-devices

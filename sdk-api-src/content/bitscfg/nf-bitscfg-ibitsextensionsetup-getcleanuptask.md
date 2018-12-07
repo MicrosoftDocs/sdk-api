@@ -4,10 +4,10 @@ title: IBITSExtensionSetup::GetCleanupTask
 author: windows-sdk-content
 description: Use the GetCleanupTask method to retrieve an interface pointer to the cleanup task associated with the virtual directory.
 old-location: bits\ibitsextensionsetup_getcleanuptask.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: ffa89d5b-7ba1-433b-a93d-032012906258
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetCleanupTask, GetCleanupTask method [BITS], GetCleanupTask method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],GetCleanupTask method, IBITSExtensionSetup.GetCleanupTask, IBITSExtensionSetup::GetCleanupTask, _drz_ibitsextensionsetup_getcleanuptask, bits.ibitsextensionsetup_getcleanuptask, bitscfg/IBITSExtensionSetup::GetCleanupTask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on Windows XP
-- apiref
-: 
-- COM
-: 
-- bitscfg.h
-: 
-- IBITSExtensionSetup.GetCleanupTask
-: 
 ---
 
 # IBITSExtensionSetup::GetCleanupTask
@@ -73,14 +65,7 @@ Identifies the task scheduler interface to return in <i>ppTask</i>. For a list o
 <a href="https://msdn.microsoft.com/en-us/library/Aa381813(v=VS.85).aspx">ITaskScheduler::Activate</a> method.
 
 
-### -param ppUnk
-
-TBD
-
-
-
-
-#### - ppTask [out]
+### -param ppUnk [out]
 
 A pointer to the interface specified by <i>riid</i>. Use the interface to modify the properties of the task. Release <i>ppTask</i> when done.
 

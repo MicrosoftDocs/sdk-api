@@ -4,10 +4,10 @@ title: RtmDeleteEnumHandle function
 author: windows-sdk-content
 description: The RtmDeleteEnumHandle function deletes the specified enumeration handle and frees all resources allocated for the enumeration.
 old-location: rras\rtmdeleteenumhandle.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 87477e25-d4bc-44d2-932b-f266b0bdaafa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RtmDeleteEnumHandle, RtmDeleteEnumHandle function [RAS], _rtmv2ref_rtmdeleteenumhandle, rras.rtmdeleteenumhandle, rtmv2/RtmDeleteEnumHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RtmDeleteEnumHandle
-: 
 ---
 
 # RtmDeleteEnumHandle function

@@ -7,7 +7,7 @@ old-location: ad\idsdisplayspecifier_setserver.htm
 tech.root: ad
 ms.assetid: f72cc711-7dec-4f5a-9cf1-57612240b435
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: DSSSF_DONTSIGNSEAL, DSSSF_DSAVAILABLE, DSSSF_SIMPLEAUTHENTICATE, IDsDisplaySpecifier interface [Active Directory],SetServer method, IDsDisplaySpecifier.SetServer, IDsDisplaySpecifier::SetServer, SetServer, SetServer method [Active Directory], SetServer method [Active Directory],IDsDisplaySpecifier interface, _glines_idsdisplayspecifier_setserver, ad.idsdisplayspecifier__setserver, ad.idsdisplayspecifier_setserver, dsclient/IDsDisplaySpecifier::SetServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dsclient.h
-: 
-- IDsDisplaySpecifier.SetServer
-: 
 ---
 
 # IDsDisplaySpecifier::SetServer

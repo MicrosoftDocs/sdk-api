@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10rendertargetview_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10rendertargetview_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 00748511-34f4-ea6c-71a8-8ee7172ca5af, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10RenderTargetView interface, ID3D10RenderTargetView interface [Direct3D 10],GetDesc method, ID3D10RenderTargetView.GetDesc, ID3D10RenderTargetView::GetDesc, d3d10/ID3D10RenderTargetView::GetDesc, direct3d10.id3d10rendertargetview_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d10.h
-: 
-- ID3D10RenderTargetView.GetDesc
-: 
 ---
 
 # ID3D10RenderTargetView::GetDesc

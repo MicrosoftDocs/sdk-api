@@ -7,7 +7,7 @@ old-location: display\floatobj_divfloat.htm
 tech.root: display
 ms.assetid: 47ebf68c-6dfa-43d3-8bc9-1f0b8f030974
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FLOATOBJ_DivFloat, FLOATOBJ_DivFloat function [Display Devices], display.floatobj_divfloat, gdifncs_b815b21c-c9fb-4334-857f-e6e66053014a.xml, winddi/FLOATOBJ_DivFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FLOATOBJ_DivFloat
-: 
 ---
 
 # FLOATOBJ_DivFloat function

@@ -7,7 +7,7 @@ old-location: fwp\fwpmengineclose0_func.htm
 tech.root: fwp
 ms.assetid: e96165a8-95ad-4cb0-9f45-e8af22f83a52
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmEngineClose0, FwpmEngineClose0 function [Filtering], fwp.fwpmengineclose0_func, fwpmu/FwpmEngineClose0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmEngineClose0
-: 
 ---
 
 # FwpmEngineClose0 function

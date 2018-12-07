@@ -7,7 +7,7 @@ old-location: snmp\snmpregister.htm
 tech.root: SNMP
 ms.assetid: ea2476b4-2f98-4295-95c4-c96c6b719e05
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpRegister, SnmpRegister function [SNMP], _snmp_snmpregister, snmp.snmpregister, winsnmp/SnmpRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpRegister
-: 
 ---
 
 # SnmpRegister function

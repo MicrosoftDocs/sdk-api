@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmlogger_setsizeparams.htm
 tech.root: WMDM
 ms.assetid: f602efb8-7b00-4a9d-a61a-06e2f15e9185
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],SetSizeParams method, IWMDMLogger.SetSizeParams, IWMDMLogger::SetSizeParams, IWMDMLoggerSetSizeParams, SetSizeParams, SetSizeParams method [windows Media Device Manager], SetSizeParams method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_setsizeparams, wmdmlog/IWMDMLogger::SetSizeParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmdmlog.h
-: 
-- IWMDMLogger.SetSizeParams
-: 
 ---
 
 # IWMDMLogger::SetSizeParams

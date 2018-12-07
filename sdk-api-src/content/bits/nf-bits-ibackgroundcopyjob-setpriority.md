@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::SetPriority
 author: windows-sdk-content
 description: Specifies the priority level of your job. The priority level determines when your job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_setpriority.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 8b59128d-7e63-45dc-af0f-54ea844dac98
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetPriority method, IBackgroundCopyJob.SetPriority, IBackgroundCopyJob::SetPriority, SetPriority, SetPriority method [BITS], SetPriority method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setpriority, bits.ibackgroundcopyjob_setpriority, bits/IBackgroundCopyJob::SetPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.SetPriority
-: 
 ---
 
 # IBackgroundCopyJob::SetPriority
@@ -66,14 +58,7 @@ Specifies the priority level of your job. The priority level determines when you
 
 
 
-### -param Val
-
-TBD
-
-
-
-
-#### - Priority [in]
+### -param Val [in]
 
 Specifies the priority level of your job relative to other jobs in the transfer queue. The default is BG_JOB_PRIORITY_NORMAL. For a list of priority levels, see the 
 <a href="https://msdn.microsoft.com/en-us/library/Aa362805(v=VS.85).aspx">BG_JOB_PRIORITY</a> enumeration.

@@ -7,7 +7,7 @@ old-location: automat\itypelib2_getdocumentation2.htm
 tech.root: automat
 ms.assetid: 976e3258-5dba-4d0c-916d-75449f869363
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetDocumentation2, GetDocumentation2 method [Automation], GetDocumentation2 method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetDocumentation2 method, ITypeLib2.GetDocumentation2, ITypeLib2::GetDocumentation2, _oa96_ITypeLib2_GetDocumentation2, automat.itypelib2_getdocumentation2, oaidl/ITypeLib2::GetDocumentation2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- oaidl.h
-: 
-- ITypeLib2.GetDocumentation2
-: 
 ---
 
 # ITypeLib2::GetDocumentation2

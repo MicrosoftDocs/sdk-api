@@ -4,10 +4,10 @@ title: IRDPSRAPIViewer::get_Properties
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPISessionProperties interface.
 old-location: rdp\irdpsrapiviewer_properties.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 86930ad8-6389-47b9-9397-0662a0a36f04
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],Properties property, IRDPSRAPIViewer.Properties, IRDPSRAPIViewer.get_Properties, IRDPSRAPIViewer::Properties, IRDPSRAPIViewer::get_Properties, Properties property [RDP], Properties property [RDP],IRDPSRAPIViewer interface, Properties property [RDP],RDPViewer object, RDPViewer object [RDP],Properties property, get_Properties, rdp.irdpsrapiviewer_properties, rdpencomapi/IRDPSRAPIViewer::Properties, rdpencomapi/IRDPSRAPIViewer::get_Properties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIViewer.get_Properties
-: 
 ---
 
 # IRDPSRAPIViewer::get_Properties

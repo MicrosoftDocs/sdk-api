@@ -7,7 +7,7 @@ old-location: automat\safearraydestroydescriptor.htm
 tech.root: automat
 ms.assetid: f1e8de45-673b-4f20-a639-18c724c82df1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SafeArrayDestroyDescriptor, SafeArrayDestroyDescriptor function [Automation], _oa96_SafeArrayDestroyDescriptor, automat.safearraydestroydescriptor, oleauto/SafeArrayDestroyDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SafeArrayDestroyDescriptor
-: 
 ---
 
 # SafeArrayDestroyDescriptor function

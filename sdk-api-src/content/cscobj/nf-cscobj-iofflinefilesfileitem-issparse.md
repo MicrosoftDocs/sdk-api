@@ -4,10 +4,10 @@ title: IOfflineFilesFileItem::IsSparse
 author: windows-sdk-content
 description: Determines whether an item in the Offline Files cache is sparsely cached.
 old-location: of\iofflinefilesfileitem_issparse.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 6f731b25-f4f0-4635-af00-dbd1ba4e5f11
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsSparse method, IOfflineFilesFileItem.IsSparse, IOfflineFilesFileItem::IsSparse, IsSparse, IsSparse method [Offline Files], IsSparse method [Offline Files],IOfflineFilesFileItem interface, cscobj/IOfflineFilesFileItem::IsSparse, of.iofflinefilesfileitem_issparse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- cscobj.h
-: 
-- IOfflineFilesFileItem.IsSparse
-: 
 ---
 
 # IOfflineFilesFileItem::IsSparse

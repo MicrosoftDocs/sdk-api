@@ -4,10 +4,10 @@ title: EapMethodAuthenticatorGetResult function
 author: windows-sdk-content
 description: Obtains the authentication result from the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorgetresult.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 898b5465-a030-4df6-a51f-0725c6332e80
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EapMethodAuthenticatorGetResult, EapMethodAuthenticatorGetResult function [EAPHost], eaphost.eapmethodauthenticatorgetresult, eapmethodauthenticatorapis/EapMethodAuthenticatorGetResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapMethodAuthenticatorGetResult
-: 
 ---
 
 # EapMethodAuthenticatorGetResult function

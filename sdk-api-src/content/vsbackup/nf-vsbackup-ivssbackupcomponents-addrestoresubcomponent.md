@@ -4,10 +4,10 @@ title: IVssBackupComponents::AddRestoreSubcomponent
 author: windows-sdk-content
 description: Indicates that a subcomponent member of a component set, which had been marked as nonselectable for backup but is marked selectable for restore, is to be restored.
 old-location: base\ivssbackupcomponents_addrestoresubcomponent.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 8eea27d7-6780-49cf-97ea-8876a9a2c8f8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AddRestoreSubcomponent, AddRestoreSubcomponent method [VSS], AddRestoreSubcomponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddRestoreSubcomponent method, IVssBackupComponents.AddRestoreSubcomponent, IVssBackupComponents::AddRestoreSubcomponent, _win32_ivssbackupcomponents_addrestoresubcomponent, base.ivssbackupcomponents_addrestoresubcomponent, vsbackup/IVssBackupComponents::AddRestoreSubcomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vsbackup.h
-: 
-- IVssBackupComponents.AddRestoreSubcomponent
-: 
 ---
 
 # IVssBackupComponents::AddRestoreSubcomponent

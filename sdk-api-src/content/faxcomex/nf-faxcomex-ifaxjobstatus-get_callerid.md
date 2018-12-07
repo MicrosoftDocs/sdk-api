@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_callerid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7p9g.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],IFaxJobStatus interface, IFaxJobStatus interface [Fax Service],CallerId property, IFaxJobStatus.CallerId, IFaxJobStatus.get_CallerId, IFaxJobStatus::CallerId, IFaxJobStatus::get_CallerId, _mfax_faxjobstatus.callerid, fax._mfax_faxjobstatus_callerid, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_callerid_cpp, faxcomex/IFaxJobStatus::CallerId, faxcomex/IFaxJobStatus::get_CallerId, get_CallerId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxJobStatus.get_CallerId
-: 
 ---
 
 # IFaxJobStatus::get_CallerId

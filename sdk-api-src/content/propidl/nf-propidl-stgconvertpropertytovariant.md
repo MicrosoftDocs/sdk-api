@@ -4,10 +4,10 @@ title: StgConvertPropertyToVariant function
 author: windows-sdk-content
 description: Converts a SERIALIZEDPROPERTYVALUE data type to a PROPVARIANT data type.
 old-location: stg\stgconvertpropertytovariant.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: ea4196e6-fc99-4288-942a-e5283f2e5544
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: StgConvertPropertyToVariant, StgConvertPropertyToVariant function [Structured Storage], propidl/StgConvertPropertyToVariant, stg.stgconvertpropertytovariant
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StgConvertPropertyToVariant
-: 
 ---
 
 # StgConvertPropertyToVariant function

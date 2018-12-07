@@ -7,7 +7,7 @@ old-location: qos\qoscancel.htm
 tech.root: QOS
 ms.assetid: d1f6f32f-d105-40cb-8113-319aa1f63c77
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: QOSCancel, QOSCancel function [QOS], qos.qoscancel, qos2/QOSCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- QOSCancel
-: 
 ---
 
 # QOSCancel function

@@ -7,7 +7,7 @@ old-location: com\coqueryclientblanket.htm
 tech.root: com
 ms.assetid: 58a2c121-c324-4c33-aaca-490b5a09738c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CoQueryClientBlanket, CoQueryClientBlanket function [COM], _com_CoQueryClientBlanket, com.coqueryclientblanket, combaseapi/CoQueryClientBlanket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoQueryClientBlanket
-: 
 ---
 
 # CoQueryClientBlanket function

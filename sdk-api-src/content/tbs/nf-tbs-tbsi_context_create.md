@@ -7,7 +7,7 @@ old-location: tbs\_tbsi_context_create.htm
 tech.root: TBS
 ms.assetid: 5f19f649-2132-4fd8-a346-4be73fb8917c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Tbsi_Context_Create, Tbsi_Context_Create function [TBS], tbs._tbsi_context_create, tbs/Tbsi_Context_Create
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Tbsi_Context_Create
-: 
 ---
 
 # Tbsi_Context_Create function

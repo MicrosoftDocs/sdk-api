@@ -7,7 +7,7 @@ old-location: intl\nlsversioninfoex.htm
 tech.root: Intl
 ms.assetid: 97f637df-3e0e-4349-a617-96b7c640b19d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX structure pointer [Internationalization for Windows Applications], NLSVERSIONINFOEX, NLSVERSIONINFOEX structure [Internationalization for Windows Applications], _nlsversioninfoex, _win32_NLSVERSIONINFOEX_str, intl.nlsversioninfoex, winnls/LPNLSVERSIONINFOEX, winnls/NLSVERSIONINFOEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

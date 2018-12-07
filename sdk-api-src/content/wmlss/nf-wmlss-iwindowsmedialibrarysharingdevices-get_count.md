@@ -7,7 +7,7 @@ old-location: wmlss\IWMLSDevicesget_Count.htm
 tech.root: WMLSS
 ms.assetid: 6eb802a3-18a2-4fcf-9be0-fc251860f3ab
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services],get_Count method, IWindowsMediaLibrarySharingDevices.get_Count, IWindowsMediaLibrarySharingDevices::get_Count, get_Count, get_Count method [Windows Media Library Sharing Services], get_Count method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevices interface, wmlss.IWMLSDevicesget_Count, wmlss/IWindowsMediaLibrarySharingDevices::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmlss.h
-: 
-- IWindowsMediaLibrarySharingDevices.get_Count
-: 
 ---
 
 # IWindowsMediaLibrarySharingDevices::get_Count

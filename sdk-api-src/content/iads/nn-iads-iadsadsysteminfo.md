@@ -4,10 +4,10 @@ title: IADsADSystemInfo
 author: windows-sdk-content
 description: The IADsADSystemInfo interface retrieves data about the local computer if it is running a Windows operating system in a Windows domain. For example, you can get the domain, site, and distinguished name of the local computer.
 old-location: adsi\iadsadsysteminfo.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 5573d37b-10a8-4176-80c7-711552ff36cb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADSystemInfo, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], IADsADSystemInfo interface [ADSI],described, _ds_iadsadsysteminfo, adsi.iadsadsysteminfo, iads/IADsADSystemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: audio\iaudiosystemeffects2_geteffectslist.htm
 tech.root: audio
 ms.assetid: FC337D99-E992-43DB-9565-3B46827A7960
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: GetEffectsList, GetEffectsList method [Audio Devices], GetEffectsList method [Audio Devices],IAudioSystemEffects2 interface, IAudioSystemEffects2 interface [Audio Devices],GetEffectsList method, IAudioSystemEffects2.GetEffectsList, IAudioSystemEffects2::GetEffectsList, audio.iaudiosystemeffects2_geteffectslist, audioenginebaseapo/IAudioSystemEffects2::GetEffectsList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- audioenginebaseapo.h
-: 
-- IAudioSystemEffects2.GetEffectsList
-: 
 ---
 
 # IAudioSystemEffects2::GetEffectsList

@@ -4,10 +4,10 @@ title: WSARecvDisconnect function
 author: windows-sdk-content
 description: The WSARecvDisconnect function terminates reception on a socket, and retrieves the disconnect data if the socket is connection oriented.
 old-location: winsock\wsarecvdisconnect_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 33e0fb8e-3ece-427f-b3ef-43a0f5cf0cc8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WSARecvDisconnect, WSARecvDisconnect function [Winsock], _win32_wsarecvdisconnect_2, winsock.wsarecvdisconnect_2, winsock2/WSARecvDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WSARecvDisconnect
-: 
 ---
 
 # WSARecvDisconnect function

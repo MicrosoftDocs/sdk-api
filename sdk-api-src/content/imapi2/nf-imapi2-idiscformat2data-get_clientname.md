@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_clientname.htm
 tech.root: imapi
 ms.assetid: faf5009a-395a-49ed-a0c7-e6bc44f17b7c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_ClientName method, IDiscFormat2Data.get_ClientName, IDiscFormat2Data::get_ClientName, get_ClientName, get_ClientName method [IMAPI], get_ClientName method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_clientname, imapi2/IDiscFormat2Data::get_ClientName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IDiscFormat2Data.get_ClientName
-: 
 ---
 
 # IDiscFormat2Data::get_ClientName

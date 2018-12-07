@@ -7,7 +7,7 @@ old-location: xaudio2\hrtfdirectivity.htm
 tech.root: xaudio2
 ms.assetid: 830DB9FC-B2D0-46E5-B0C1-0BBC94D37050
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: HrtfDirectivity, HrtfDirectivity structure [XAudio2 Audio Mixing APIs], PHrtfDirectivity, PHrtfDirectivity structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDirectivity, hrtfapoapi/PHrtfDirectivity, xaudio2.hrtfdirectivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

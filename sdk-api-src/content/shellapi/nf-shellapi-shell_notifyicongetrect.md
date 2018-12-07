@@ -7,7 +7,7 @@ old-location: shell\Shell_NotifyIconGetRect.htm
 tech.root: shell
 ms.assetid: 81ad13be-a908-4079-b47c-6f983919700b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Shell_NotifyIconGetRect, Shell_NotifyIconGetRect function [Windows Shell], _shell_Shell_NotifyIconGetRect, shell.Shell_NotifyIconGetRect, shellapi/Shell_NotifyIconGetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- Shell_NotifyIconGetRect
-: 
 ---
 
 # Shell_NotifyIconGetRect function

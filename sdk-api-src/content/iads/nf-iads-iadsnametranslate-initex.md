@@ -4,10 +4,10 @@ title: IADsNameTranslate::InitEx
 author: windows-sdk-content
 description: Initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the specified user credential.
 old-location: adsi\iadsnametranslate_initex.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 169e1e0d-26c0-484d-b461-8817d37d17b8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsNameTranslate interface [ADSI],InitEx method, IADsNameTranslate.InitEx, IADsNameTranslate::InitEx, InitEx, InitEx method [ADSI], InitEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_initex, adsi.iadsnametranslate__initex, adsi.iadsnametranslate_initex, iads/IADsNameTranslate::InitEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsNameTranslate.InitEx
-: 
 ---
 
 # IADsNameTranslate::InitEx
@@ -70,7 +62,7 @@ The <b>IADsNameTranslate::InitEx</b> method initializes the object by setting th
 
 ### -param lnSetType
 
-TBD
+A type of initialization to be performed. Possible values are defined in  <a href="https://msdn.microsoft.com/cd7e4786-b20c-4dad-bae6-4e703e60f330">ADS_NAME_INITTYPE_ENUM</a>.
 
 
 ### -param bstrADsPath
@@ -91,11 +83,6 @@ User domain name.
 ### -param bstrPassword
 
 User password.
-
-
-#### - lnInitType
-
-A type of initialization to be performed. Possible values are defined in  <a href="https://msdn.microsoft.com/cd7e4786-b20c-4dad-bae6-4e703e60f330">ADS_NAME_INITTYPE_ENUM</a>.
 
 
 ## -returns

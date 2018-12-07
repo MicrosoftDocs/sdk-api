@@ -4,10 +4,10 @@ title: IEnroll::createPKCS10WStr
 author: windows-sdk-content
 description: Creates a base64-encoded PKCS #10 certificate request.
 old-location: security\ienroll4_createpkcs10wstr.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: ebbcc9ad-9f87-4abe-963b-38c57a60e45e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IEnroll interface [Security],createPKCS10WStr method, IEnroll.createPKCS10WStr, IEnroll::createPKCS10WStr, createPKCS10WStr, createPKCS10WStr method [Security], createPKCS10WStr method [Security],IEnroll interface, security.ienroll4_createpkcs10wstr, xenroll/IEnroll::createPKCS10WStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xenroll.h
-: 
-- IEnroll.createPKCS10WStr
-: 
 ---
 
 # IEnroll::createPKCS10WStr

@@ -4,10 +4,10 @@ title: PCREATE_STATIC_SERVICE
 author: windows-sdk-content
 description: The CreateStaticService function adds a static service to the table.
 old-location: rras\createstaticservice.htm
-tech.root: RRAS
+tech.root: rras
 ms.assetid: 529beae6-ba39-417c-8fa6-7b97fc720352
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateStaticService, CreateStaticService callback function [RAS], PCREATE_STATIC_SERVICE, PCREATE_STATIC_SERVICE callback, _mpr_createstaticservice, rras.createstaticservice, stm/CreateStaticService
 ms.prod: windows-hardware
 ms.technology: windows-devices

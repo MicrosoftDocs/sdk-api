@@ -7,7 +7,7 @@ old-location: qos\qos_friendly_name.htm
 tech.root: QOS
 ms.assetid: 9681fc36-0a31-4b2a-9719-085506126877
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPQOS_FRIENDLY_NAME, LPQOS_FRIENDLY_NAME, LPQOS_FRIENDLY_NAME structure pointer [QOS], QOS_FRIENDLY_NAME, QOS_FRIENDLY_NAME structure [QOS], _QOS_FRIENDLY_NAME, _gqos_qos_friendly_name, qos.qos_friendly_name, qosobjs/LPQOS_FRIENDLY_NAME, qosobjs/QOS_FRIENDLY_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices

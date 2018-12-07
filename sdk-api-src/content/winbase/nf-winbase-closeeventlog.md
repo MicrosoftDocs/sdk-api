@@ -7,7 +7,7 @@ old-location: base\closeeventlog.htm
 tech.root: EventLog
 ms.assetid: cb98a0cf-8ee9-4d78-8508-efae1d43a91d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CloseEventLog, CloseEventLog function, _win32_closeeventlog, base.closeeventlog, winbase/CloseEventLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CloseEventLog
-: 
 ---
 
 # CloseEventLog function

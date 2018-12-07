@@ -4,10 +4,10 @@ title: INetFwProducts
 author: windows-sdk-content
 description: To access the methods and properties for registering third-party firewall products with Windows Firewall and for enumerating registered products.
 old-location: ics\inetfwproducts.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 66608887-02df-4caf-91d0-e5091849ff32
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwProducts, INetFwProducts interface [ICS/ICF], INetFwProducts interface [ICS/ICF],described, ics.inetfwproducts, netfw/INetFwProducts
 ms.prod: windows-hardware
 ms.technology: windows-devices

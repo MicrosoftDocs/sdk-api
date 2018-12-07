@@ -4,10 +4,10 @@ title: ITLocationInfo::get_CityCode
 author: windows-sdk-content
 description: The get_CityCode method gets the code for the city.
 old-location: tapi3\itlocationinfo_get_citycode.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: ab8aee25-84b8-4913-876f-dd01bca5e3b0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CityCode method, ITLocationInfo.get_CityCode, ITLocationInfo::get_CityCode, _tapi3_itlocationinfo_get_citycode, get_CityCode, get_CityCode method [TAPI 2.2], get_CityCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_citycode, tapi3if/ITLocationInfo::get_CityCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITLocationInfo.get_CityCode
-: 
 ---
 
 # ITLocationInfo::get_CityCode

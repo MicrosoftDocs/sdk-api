@@ -4,10 +4,10 @@ title: IConsole
 author: windows-sdk-content
 description: Enables communication with the console.
 old-location: mmc\iconsole.htm
-tech.root: MMC
+tech.root: mmc
 ms.assetid: 65154EB1-ABE5-4C4F-8B09-08633D82FD62
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IConsole, IConsole interface [MMC], IConsole interface [MMC],described, mmc.iconsole, mmc/IConsole
 ms.prod: windows-hardware
 ms.technology: windows-devices

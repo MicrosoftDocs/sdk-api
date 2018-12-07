@@ -4,10 +4,10 @@ title: D2D1_DISPLACEMENTMAP_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Displacement map effect.
 old-location: direct2d\d2d1_displacementmap_prop.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 29DD521D-3CFE-400B-BA9F-6EFEF0DC6BB7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_DISPLACEMENTMAP_PROP, D2D1_DISPLACEMENTMAP_PROP enumeration [Direct2D], D2D1_DISPLACEMENTMAP_PROP_SCALE, D2D1_DISPLACEMENTMAP_PROP_X_CHANNEL_SELECT, D2D1_DISPLACEMENTMAP_PROP_Y_CHANNEL_SELECT, d2d1effects/D2D1_DISPLACEMENTMAP_PROP, d2d1effects/D2D1_DISPLACEMENTMAP_PROP_SCALE, d2d1effects/D2D1_DISPLACEMENTMAP_PROP_X_CHANNEL_SELECT, d2d1effects/D2D1_DISPLACEMENTMAP_PROP_Y_CHANNEL_SELECT, direct2d.d2d1_displacementmap_prop
 ms.prod: windows-hardware
 ms.technology: windows-devices

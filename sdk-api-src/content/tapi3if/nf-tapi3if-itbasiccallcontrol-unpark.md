@@ -4,10 +4,10 @@ title: ITBasicCallControl::Unpark
 author: windows-sdk-content
 description: The Unpark method gets the call from park.
 old-location: tapi3\itbasiccallcontrol_unpark.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: d4cea44e-0dac-4021-a42c-b136c2e686e0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Unpark method, ITBasicCallControl.Unpark, ITBasicCallControl::Unpark, Unpark, Unpark method [TAPI 2.2], Unpark method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_unpark, tapi3.itbasiccallcontrol_unpark, tapi3if/ITBasicCallControl::Unpark
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tapi3if.h
-: 
-- ITBasicCallControl.Unpark
-: 
 ---
 
 # ITBasicCallControl::Unpark

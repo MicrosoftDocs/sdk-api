@@ -4,10 +4,10 @@ title: IAzApplicationGroups::get_Item
 author: windows-sdk-content
 description: Retrieves the IAzApplicationGroup object at the specified index into the IAzApplicationGroups collection.
 old-location: security\iazapplicationgroups_item.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 9b895379-9b2f-45f5-997e-b589f08d7d6e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AzApplicationGroups object [Security],Item property, IAzApplicationGroups interface [Security],Item property, IAzApplicationGroups.Item, IAzApplicationGroups.get_Item, IAzApplicationGroups::Item, IAzApplicationGroups::get_Item, Item property [Security], Item property [Security],AzApplicationGroups object, Item property [Security],IAzApplicationGroups interface, azroles/IAzApplicationGroups::Item, azroles/IAzApplicationGroups::get_Item, get_Item, security.iazapplicationgroups_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzApplicationGroups.get_Item
-: 
 ---
 
 # IAzApplicationGroups::get_Item

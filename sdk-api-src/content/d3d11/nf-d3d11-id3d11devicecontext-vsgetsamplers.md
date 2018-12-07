@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_vsgetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 0b8cbdfe-58e1-46f0-86c1-22da8178d296
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],VSGetSamplers method, ID3D11DeviceContext.VSGetSamplers, ID3D11DeviceContext::VSGetSamplers, VSGetSamplers, VSGetSamplers method [Direct3D 11], VSGetSamplers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::VSGetSamplers, da7916b1-64dc-68da-7790-065a4977bd36, direct3d11.id3d11devicecontext_vsgetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d11.h
-: 
-- ID3D11DeviceContext.VSGetSamplers
-: 
 ---
 
 # ID3D11DeviceContext::VSGetSamplers

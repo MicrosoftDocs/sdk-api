@@ -7,7 +7,7 @@ old-location: lwef\iactivedesktop_getdesktopitem.htm
 tech.root: lwef
 ms.assetid: b9d4a771-023f-4a31-b9b7-39b8b4a8695a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetDesktopItem, GetDesktopItem method [Legacy Windows Environment Features], GetDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetDesktopItem method, IActiveDesktop.GetDesktopItem, IActiveDesktop::GetDesktopItem, _win32_IActiveDesktop_GetDesktopItem, lwef.iactivedesktop_getdesktopitem, shell.iactivedesktop_getdesktopitem, shlobj_core/IActiveDesktop::GetDesktopItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shlobj_core.h
-: 
-- IActiveDesktop.GetDesktopItem
-: 
 ---
 
 # IActiveDesktop::GetDesktopItem

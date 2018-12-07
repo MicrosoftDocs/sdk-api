@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\visualelement.htm
 tech.root: xaml_diagnostics
 ms.assetid: 655642E7-64B3-439A-BAE1-7D54461EE058
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PVisualElement, PVisualElement structure pointer, VisualElement, VisualElement structure, xaml_diagnostics.visualelement, xamlom/PVisualElement, xamlom/VisualElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

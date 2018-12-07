@@ -4,10 +4,10 @@ title: ITraceEvent::SetProviderId
 author: windows-sdk-content
 description: Sets the GUID for the provider which traced an event.
 old-location: etw\ievent_setproviderid.htm
-tech.root: ETW
+tech.root: etw
 ms.assetid: dc61ff9e-2af9-4428-82df-84635313ddc6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITraceEvent interface [ETW],SetProviderId method, ITraceEvent.SetProviderId, ITraceEvent::SetProviderId, SetProviderId, SetProviderId method [ETW], SetProviderId method [ETW],ITraceEvent interface, etw.ievent_setproviderid, relogger/ITraceEvent::SetProviderId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- relogger.h
-: 
-- ITraceEvent.SetProviderId
-: 
 ---
 
 # ITraceEvent::SetProviderId

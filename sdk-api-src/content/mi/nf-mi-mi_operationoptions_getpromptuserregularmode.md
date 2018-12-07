@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getpromptuserregularmode.htm
 tech.root: wmi_v2
 ms.assetid: 10c22de2-3f07-4d91-aa95-c59285d6087f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MI_OperationOptions_GetPromptUserRegularMode, MI_OperationOptions_GetPromptUserRegularMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetPromptUserRegularMode, wmi_v2.mi_operationoptions_getpromptuserregularmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,12 +41,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MI_OperationOptions_GetPromptUserRegularMode
-: 
 ---
 
 # MI_OperationOptions_GetPromptUserRegularMode function

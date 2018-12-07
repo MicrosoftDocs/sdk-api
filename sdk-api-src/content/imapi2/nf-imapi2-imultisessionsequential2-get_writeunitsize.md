@@ -7,7 +7,7 @@ old-location: imapi\imultisessionsequential2_get_writeunitsize.htm
 tech.root: imapi
 ms.assetid: 9d784477-7e6d-4433-81d2-c756dcfb060b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMultisessionSequential2 interface [IMAPI],get_WriteUnitSize method, IMultisessionSequential2.get_WriteUnitSize, IMultisessionSequential2::get_WriteUnitSize, get_WriteUnitSize, get_WriteUnitSize method [IMAPI], get_WriteUnitSize method [IMAPI],IMultisessionSequential2 interface, imapi.imultisessionsequential2_get_writeunitsize, imapi2/IMultisessionSequential2::get_WriteUnitSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- imapi2.h
-: 
-- IMultisessionSequential2.get_WriteUnitSize
-: 
 ---
 
 # IMultisessionSequential2::get_WriteUnitSize

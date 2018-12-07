@@ -7,7 +7,7 @@ old-location: hidpi\setthreaddpihostingbehavior.htm
 tech.root: hidpi
 ms.assetid: CF31D96A-EC84-4911-81A2-82EC90D417B9
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: SetThreadDpiHostingBehavior, SetThreadDpiHostingBehavior function [High DPI], hidpi.setthreaddpihostingbehavior, winuser/SetThreadDpiHostingBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetThreadDpiHostingBehavior
-: 
 ---
 
 # SetThreadDpiHostingBehavior function

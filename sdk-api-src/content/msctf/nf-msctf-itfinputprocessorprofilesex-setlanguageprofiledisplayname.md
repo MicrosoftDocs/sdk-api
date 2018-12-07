@@ -7,7 +7,7 @@ old-location: tsf\setlanguageprofiledisplayname.htm
 tech.root: TSF
 ms.assetid: ce762764-dcaf-4419-8ca0-44a8462a848e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfInputProcessorProfilesEx, ITfInputProcessorProfilesEx interface [Text Services Framework],SetLanguageProfileDisplayName method, ITfInputProcessorProfilesEx.SetLanguageProfileDisplayName, ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName, SetLanguageProfileDisplayName, SetLanguageProfileDisplayName method [Text Services Framework], SetLanguageProfileDisplayName method [Text Services Framework],ITfInputProcessorProfilesEx interface, msctf/ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName, tsf.itfinputprocessorprofilesex_setlanguageprofiledisplayname, tsf.setlanguageprofiledisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfInputProcessorProfilesEx.SetLanguageProfileDisplayName
-: 
 ---
 
 # ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_FindFirst.htm
 tech.root: WinAuto
 ms.assetid: 84098431-46e8-49bd-a258-337ad1d68f91
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FindFirst, FindFirst method [Windows Accessibility], FindFirst method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindFirst method, IUIAutomationElement.FindFirst, IUIAutomationElement::FindFirst, uiauto.uiauto_IUIAutomationElement_FindFirst, uiauto_IUIAutomationElement_FindFirst, uiautomationclient/IUIAutomationElement::FindFirst, winauto.uiauto_IUIAutomationElement_FindFirst
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationElement.FindFirst
-: 
 ---
 
 # IUIAutomationElement::FindFirst

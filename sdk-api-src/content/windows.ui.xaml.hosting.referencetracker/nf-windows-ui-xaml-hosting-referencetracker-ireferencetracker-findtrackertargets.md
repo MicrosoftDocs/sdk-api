@@ -7,7 +7,7 @@ old-location: winrt\ireferencetracker_findtrackertargets.htm
 tech.root: WinRT
 ms.assetid: ede8da3a-cef8-4741-950d-4303870ab10e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FindTrackerTargets, FindTrackerTargets method [Windows Runtime], FindTrackerTargets method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],FindTrackerTargets method, IReferenceTracker.FindTrackerTargets, IReferenceTracker.xaml, IReferenceTracker::FindTrackerTargets, IReferenceTracker::xaml, windows/IReferenceTracker::FindTrackerTargets, winrt.ireferencetracker_findtrackertargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- windows.ui.xaml.hosting.referencetracker.h
-: 
-- IReferenceTracker.FindTrackerTargets
-: 
 ---
 
 # IReferenceTracker::xaml

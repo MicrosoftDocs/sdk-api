@@ -4,10 +4,10 @@ title: IVdsPack::ReplaceDisk
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdspack_replacedisk.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 4fc59ed0-ef54-4834-90d3-309d297543e6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsPack interface [VDS],ReplaceDisk method, IVdsPack.ReplaceDisk, IVdsPack::ReplaceDisk, ReplaceDisk, ReplaceDisk method [VDS], ReplaceDisk method [VDS],IVdsPack interface, base.ivdspack_replacedisk, vds/IVdsPack::ReplaceDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsPack.ReplaceDisk
-: 
 ---
 
 # IVdsPack::ReplaceDisk

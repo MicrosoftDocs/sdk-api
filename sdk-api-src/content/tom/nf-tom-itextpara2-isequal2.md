@@ -4,10 +4,10 @@ title: ITextPara2::IsEqual2
 author: windows-sdk-content
 description: Determines whether this text paragraph object has the same properties as the specified text paragraph object.
 old-location: controls\itextpara2_isequal2.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 7817b1bd-6ade-4145-90ff-54561a639dc9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITextPara2 interface [Windows Controls],IsEqual2 method, ITextPara2.IsEqual2, ITextPara2::IsEqual2, IsEqual2, IsEqual2 method [Windows Controls], IsEqual2 method [Windows Controls],ITextPara2 interface, controls.itextpara2_isequal2, tom/ITextPara2::IsEqual2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextPara2.IsEqual2
-: 
 ---
 
 # ITextPara2::IsEqual2

@@ -4,10 +4,10 @@ title: IWSDAsyncCallback
 author: windows-sdk-content
 description: Handles callbacks for the completion of an asynchronous operation.
 old-location: ncd\iwsdasynccallback.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 24108143-55b7-4098-a4cc-025dfdfd054a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDAsyncCallback, IWSDAsyncCallback interface, IWSDAsyncCallback interface,described, ncd.iwsdasynccallback, wsdclient/IWSDAsyncCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

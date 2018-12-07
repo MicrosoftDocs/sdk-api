@@ -7,7 +7,7 @@ old-location: base\getcommports.htm
 tech.root: devio
 ms.assetid: 8E57FB62-D7A0-4B47-942B-E33E0B7A37B1
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetCommPorts, GetCommPorts function, base.getcommports, winbase/GetCommPorts
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetCommPorts
-: 
 ---
 
 # GetCommPorts function

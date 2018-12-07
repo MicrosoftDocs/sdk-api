@@ -7,7 +7,7 @@ old-location: shell\IColumnManager_SetColumns.htm
 tech.root: shell
 ms.assetid: 1541809d-0826-46c4-aa10-cb4cbd6f8437
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IColumnManager interface [Windows Shell],SetColumns method, IColumnManager.SetColumns, IColumnManager::SetColumns, SetColumns, SetColumns method [Windows Shell], SetColumns method [Windows Shell],IColumnManager interface, shell.IColumnManager_SetColumns, shell_IColumnManager_SetColumns, shobjidl_core/IColumnManager::SetColumns
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- shobjidl_core.h
-: 
-- IColumnManager.SetColumns
-: 
 ---
 
 # IColumnManager::SetColumns

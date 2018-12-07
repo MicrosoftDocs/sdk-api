@@ -4,10 +4,10 @@ title: ldap_extended_operation_sA function
 author: windows-sdk-content
 description: Used to pass extended LDAP operations to the server.
 old-location: ldap\ldap_extended_operation_s.htm
-tech.root: LDAP
+tech.root: ldap
 ms.assetid: a9e354f3-b6b3-4c41-93d7-497354c87237
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ldap.ldap_extended_operation_s, ldap_extended_operation_s, ldap_extended_operation_s function [LDAP], ldap_extended_operation_sA, ldap_extended_operation_sW, winldap/ldap_extended_operation_s, winldap/ldap_extended_operation_sA, winldap/ldap_extended_operation_sW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- ldap_extended_operation_sA
-: 
 ---
 
 # ldap_extended_operation_sA function

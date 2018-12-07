@@ -7,7 +7,7 @@ old-location: coreaudio\immdevice_getid.htm
 tech.root: CoreAudio
 ms.assetid: b2f56713-856c-408e-8993-1d13e234dc89
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetId, GetId method [Core Audio], GetId method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],GetId method, IMMDevice.GetId, IMMDevice::GetId, IMMDeviceGetId, coreaudio.immdevice_getid, mmdeviceapi/IMMDevice::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mmdeviceapi.h
-: 
-- IMMDevice.GetId
-: 
 ---
 
 # IMMDevice::GetId

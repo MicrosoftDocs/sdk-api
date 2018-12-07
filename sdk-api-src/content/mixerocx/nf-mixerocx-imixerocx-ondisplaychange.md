@@ -7,7 +7,7 @@ old-location: dshow\imixerocx_ondisplaychange.htm
 tech.root: DirectShow
 ms.assetid: 5d082ab6-6195-417b-ad0d-b8e97561b268
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMixerOCX interface [DirectShow],OnDisplayChange method, IMixerOCX.OnDisplayChange, IMixerOCX::OnDisplayChange, IMixerOCXOnDisplayChange, OnDisplayChange, OnDisplayChange method [DirectShow], OnDisplayChange method [DirectShow],IMixerOCX interface, dshow.imixerocx_ondisplaychange, mixerocx/IMixerOCX::OnDisplayChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mixerocx.h
-: 
-- IMixerOCX.OnDisplayChange
-: 
 ---
 
 # IMixerOCX::OnDisplayChange

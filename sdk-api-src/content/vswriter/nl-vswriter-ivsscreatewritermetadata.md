@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata
 author: windows-sdk-content
 description: The IVssCreateWriterMetadata interface is a C++ (not COM) interface containing methods to construct the Writer Metadata Document in response to an Identify event. It is used only in the CVssWriter::OnIdentify method.
 old-location: base\ivsscreatewritermetadata.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 427ed302-c3b7-483a-aa48-da6fec1160a9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IVssCreateWriterMetadata, IVssCreateWriterMetadata interface [VSS], IVssCreateWriterMetadata interface [VSS],described, _win32_ivsscreatewritermetadata, base.ivsscreatewritermetadata, vswriter/IVssCreateWriterMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

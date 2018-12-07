@@ -4,10 +4,10 @@ title: "_HTTP_SERVICE_CONFIG_SSL_SET"
 author: windows-sdk-content
 description: Used to add a new record to the SSL store or retrieve an existing record from it.
 old-location: http\http_service_config_ssl_set.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 23adda0b-907d-4804-9c12-e549af4f18c4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_SET, HTTP_SERVICE_CONFIG_SSL_SET, HTTP_SERVICE_CONFIG_SSL_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_SET, PHTTP_SERVICE_CONFIG_SSL_SET structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_SET, _http_http_service_config_ssl_set, http.http_service_config_ssl_set, http/HTTP_SERVICE_CONFIG_SSL_SET, http/PHTTP_SERVICE_CONFIG_SSL_SET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

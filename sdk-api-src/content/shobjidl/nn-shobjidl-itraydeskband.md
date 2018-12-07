@@ -7,7 +7,7 @@ old-location: shell\ITrayDeskBand.htm
 tech.root: shell
 ms.assetid: 4542bd20-b7ca-4ab9-9c25-9f6eeabd7c2e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITrayDeskBand, ITrayDeskBand interface [Windows Shell], ITrayDeskBand interface [Windows Shell],described, _shell_ITrayDeskBand, shell.ITrayDeskBand, shobjidl/ITrayDeskBand
 ms.prod: windows-hardware
 ms.technology: windows-devices

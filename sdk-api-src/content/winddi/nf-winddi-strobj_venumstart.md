@@ -7,7 +7,7 @@ old-location: display\strobj_venumstart.htm
 tech.root: display
 ms.assetid: 568af273-2b9d-4782-849f-6cb9c49952e0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: STROBJ_vEnumStart, STROBJ_vEnumStart function [Display Devices], display.strobj_venumstart, gdifncs_f0be3fdf-8725-4f9c-8487-0aaa95a13ede.xml, winddi/STROBJ_vEnumStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- STROBJ_vEnumStart
-: 
 ---
 
 # STROBJ_vEnumStart function

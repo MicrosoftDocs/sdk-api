@@ -7,7 +7,7 @@ old-location: projfs\prj_notification_mapping.htm
 tech.root: ProjFS
 ms.assetid: 758E1ADB-8C16-46D9-B796-57C0B875790D
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: PRJ_NOTIFICATION_MAPPING, PRJ_NOTIFICATION_MAPPING structure, ProjFS.prj_notification_mapping, projectedfslib/PRJ_NOTIFICATION_MAPPING
 ms.prod: windows-hardware
 ms.technology: windows-devices

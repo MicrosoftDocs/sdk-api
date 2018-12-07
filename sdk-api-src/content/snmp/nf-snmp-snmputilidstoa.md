@@ -7,7 +7,7 @@ old-location: snmp\snmputilidstoa.htm
 tech.root: SNMP
 ms.assetid: 0a8e1ead-a1f8-4aeb-ae89-d9b135ccbb14
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpUtilIdsToA, SnmpUtilIdsToA function [SNMP], _snmp_snmputilidstoa, snmp.snmputilidstoa, snmp/SnmpUtilIdsToA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpUtilIdsToA
-: 
 ---
 
 # SnmpUtilIdsToA function

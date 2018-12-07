@@ -4,10 +4,10 @@ title: NetGroupGetUsers function
 author: windows-sdk-content
 description: The NetGroupGetUsers function retrieves a list of the members in a particular global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupgetusers.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: a9bcb806-f44c-4db2-9644-06687b31405d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 0, 1, NetGroupGetUsers, NetGroupGetUsers function [Network Management], _win32_netgroupgetusers, lmaccess/NetGroupGetUsers, netmgmt.netgroupgetusers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetGroupGetUsers
-: 
 ---
 
 # NetGroupGetUsers function

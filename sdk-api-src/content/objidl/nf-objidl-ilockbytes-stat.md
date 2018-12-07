@@ -4,10 +4,10 @@ title: ILockBytes::Stat
 author: windows-sdk-content
 description: The Stat method retrieves a STATSTG structure containing information for this byte array object.
 old-location: stg\ilockbytes_stat.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: e7953f21-ac34-44e3-9b6f-b93ac89e2e32
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ILockBytes interface [Structured Storage],Stat method, ILockBytes.Stat, ILockBytes::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],ILockBytes interface, _stg_ilockbytes_stat, objidl/ILockBytes::Stat, stg.ilockbytes_stat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- ILockBytes.Stat
-: 
 ---
 
 # ILockBytes::Stat

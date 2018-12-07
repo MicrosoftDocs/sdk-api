@@ -4,10 +4,10 @@ title: htons function
 author: windows-sdk-content
 description: The htons function converts a u_short from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htons_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 3dae2655-2b3c-41d9-9650-125ac393d64a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_htons_2, htons, htons function [Winsock], winsock.htons_2, winsock/htons"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- htons
-: 
 ---
 
 # htons function

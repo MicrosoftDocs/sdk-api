@@ -4,10 +4,10 @@ title: ITaskSettings::get_MultipleInstances
 author: windows-sdk-content
 description: Gets or sets the policy that defines how the Task Scheduler deals with multiple instances of the task.
 old-location: taskschd\itasksettings_multipleinstances.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 2a84b780-2378-4ee8-aaa4-3bc960e32206
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],MultipleInstances property, ITaskSettings.MultipleInstances, ITaskSettings.get_MultipleInstances, ITaskSettings::MultipleInstances, ITaskSettings::get_MultipleInstances, ITaskSettings::put_MultipleInstances, MultipleInstances property [Task Scheduler], MultipleInstances property [Task Scheduler],ITaskSettings interface, TASK_INSTANCES_IGNORE_NEW, TASK_INSTANCES_PARALLEL, TASK_INSTANCES_QUEUE, TASK_INSTANCES_STOP_EXISTING, get_MultipleInstances, taskschd.itasksettings_multipleinstances, taskschd/ITaskSettings::MultipleInstances, taskschd/ITaskSettings::get_MultipleInstances, taskschd/ITaskSettings::put_MultipleInstances
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITaskSettings.get_MultipleInstances
-: 
 ---
 
 # ITaskSettings::get_MultipleInstances

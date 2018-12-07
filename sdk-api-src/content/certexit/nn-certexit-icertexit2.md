@@ -4,10 +4,10 @@ title: ICertExit2
 author: windows-sdk-content
 description: Provide communications between the Certificate Services server and an exit module.
 old-location: security\icertexit2.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: a9d66aeb-b596-4d50-9c07-b760cdf4f8c0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICertExit2, ICertExit2 interface [Security], ICertExit2 interface [Security],described, _certsrv_icertexit2, certexit/ICertExit2, security.icertexit2
 ms.prod: windows-hardware
 ms.technology: windows-devices

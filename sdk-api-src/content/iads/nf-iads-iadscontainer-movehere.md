@@ -4,10 +4,10 @@ title: IADsContainer::MoveHere
 author: windows-sdk-content
 description: Moves a specified object to the container that implements this interface.
 old-location: adsi\iadscontainer_movehere.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 132b1cdc-6fb5-43b1-a5de-3b25c361e8e1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsContainer interface [ADSI],MoveHere method, IADsContainer.MoveHere, IADsContainer::MoveHere, MoveHere, MoveHere method [ADSI], MoveHere method [ADSI],IADsContainer interface, _ds_iadscontainer_movehere, adsi.iadscontainer__movehere, adsi.iadscontainer_movehere, iads/IADsContainer::MoveHere
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsContainer.MoveHere
-: 
 ---
 
 # IADsContainer::MoveHere
@@ -66,36 +58,19 @@ The <b>IADsContainer::MoveHere</b>method moves a specified object to the contain
 
 
 
-### -param SourceName
+### -param SourceName [in]
 
-TBD
-
-
-### -param NewName
-
-TBD
+The null-terminated Unicode string that specifies the <b>ADsPath</b> of the object to be moved.
 
 
-### -param ppObject
-
-TBD
-
-
-
-
-#### - bstrNewName [in]
+### -param NewName [in]
 
 The null-terminated Unicode string that specifies the relative name of the new object within the container. This can be
     <b>NULL</b>, in which case the object is moved. If it is not <b>NULL</b>, the object is
     renamed accordingly in the process.
 
 
-#### - bstrSourceObject [in]
-
-The null-terminated Unicode string that specifies the <b>ADsPath</b> of the object to be moved.
-
-
-#### - ppbstrNewObject [out]
+### -param ppObject [out]
 
 Pointer to a pointer to the 
      <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the moved

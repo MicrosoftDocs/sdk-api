@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getbreakonid.htm
 tech.root: direct3d12
 ms.assetid: 04763E09-3076-4865-8026-976ED08B61C3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetBreakOnID, GetBreakOnID method, GetBreakOnID method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnID method, ID3D12InfoQueue.GetBreakOnID, ID3D12InfoQueue::GetBreakOnID, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnID, direct3d12.id3d12infoqueue_getbreakonid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- d3d12sdklayers.h
-: 
-- ID3D12InfoQueue.GetBreakOnID
-: 
 ---
 
 # ID3D12InfoQueue::GetBreakOnID

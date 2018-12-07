@@ -4,10 +4,10 @@ title: IFsrmReportManager::GetOutputDirectory
 author: windows-sdk-content
 description: Retrieves the local directory path where the reports with the specified context are stored.
 old-location: fsrm\ifsrmreportmanager_getoutputdirectory.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 90df1a6e-e2e6-4095-8337-61bfd172e203
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],GetOutputDirectory method, GetOutputDirectory, GetOutputDirectory method [File Server Resource Manager], GetOutputDirectory method [File Server Resource Manager],FsrmReportManager class, GetOutputDirectory method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetOutputDirectory method, IFsrmReportManager.GetOutputDirectory, IFsrmReportManager::GetOutputDirectory, fs.ifsrmreportmanager_getoutputdirectory, fsrm.ifsrmreportmanager_getoutputdirectory, fsrmreports/IFsrmReportManager::GetOutputDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmreports.h
-: 
-- IFsrmReportManager.GetOutputDirectory
-: 
 ---
 
 # IFsrmReportManager::GetOutputDirectory

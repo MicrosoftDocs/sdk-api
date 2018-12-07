@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msopc.h
-: 
-- IOpcRelationship.GetId
-: 
 ---
 
 # IOpcRelationship::GetId

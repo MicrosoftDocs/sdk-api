@@ -7,7 +7,7 @@ old-location: tsf\itflangbareventsink_showfloating.htm
 tech.root: TSF
 ms.assetid: f667762a-f276-4311-827e-f89eca7eba1e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],ShowFloating method, ITfLangBarEventSink.ShowFloating, ITfLangBarEventSink::ShowFloating, ShowFloating, ShowFloating method [Text Services Framework], ShowFloating method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_showfloating_ref, ctfutb/ITfLangBarEventSink::ShowFloating, tsf.itflangbareventsink_showfloating
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctfutb.h
-: 
-- ITfLangBarEventSink.ShowFloating
-: 
 ---
 
 # ITfLangBarEventSink::ShowFloating

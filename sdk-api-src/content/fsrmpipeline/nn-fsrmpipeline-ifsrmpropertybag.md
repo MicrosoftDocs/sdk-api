@@ -4,10 +4,10 @@ title: IFsrmPropertyBag
 author: windows-sdk-content
 description: Contains the classification properties for a file.
 old-location: fsrm\ifsrmpropertybag.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 237f024d-2b1d-45d5-a63d-c530426278e6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], IFsrmPropertyBag interface [File Server Resource Manager],described, fs.ifsrmpropertybag, fsrm.ifsrmpropertybag, fsrm/IFsrmPropertyBag
 ms.prod: windows-hardware
 ms.technology: windows-devices

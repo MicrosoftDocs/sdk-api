@@ -4,10 +4,10 @@ title: ISimilarityTraitsMappedView::Flush
 author: windows-sdk-content
 description: Writes to the disk any dirty pages within a mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_flush.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 88ac6bd2-846e-40ae-bbc6-3f2c49e66e3a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Flush, Flush method [Remote Differential Compression], Flush method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],Flush method, ISimilarityTraitsMappedView.Flush, ISimilarityTraitsMappedView::Flush, fs.isimilaritytraitsmappedview_flush, msrdc/ISimilarityTraitsMappedView::Flush, rdc.isimilaritytraitsmappedview_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- ISimilarityTraitsMappedView.Flush
-: 
 ---
 
 # ISimilarityTraitsMappedView::Flush

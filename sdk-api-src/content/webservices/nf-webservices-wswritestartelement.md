@@ -7,7 +7,7 @@ old-location: wsw\wswritestartelement.htm
 tech.root: wsw
 ms.assetid: da23f5e6-504c-4e93-9190-7d8c41efc0da
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsWriteStartElement, WsWriteStartElement function [Web Services for Windows], webservices/WsWriteStartElement, wsw.wswritestartelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WsWriteStartElement
-: 
 ---
 
 # WsWriteStartElement function

@@ -7,7 +7,7 @@ old-location: shell\LongPtrToUInt.htm
 tech.root: shell
 ms.assetid: b738dfcf-6c99-4795-9d9a-6b2349429140
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: LongPtrToUInt, LongPtrToUInt function [Windows Shell], SSIZETToUInt, _shell_LongPtrToUInt, intsafe/LongPtrToUInt, shell.LongPtrToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- LongPtrToUInt
-: 
 ---
 
 # LongPtrToUInt function

@@ -7,7 +7,7 @@ old-location: termserv\itsgaccountingengine.htm
 tech.root: termserv
 ms.assetid: 49b402a9-137a-4cfa-89f5-12bf89c3ebb6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITSGAccountingEngine, ITSGAccountingEngine interface [Remote Desktop Services], ITSGAccountingEngine interface [Remote Desktop Services],described, termserv.itsgaccountingengine, tsgpolicyengine/ITSGAccountingEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices

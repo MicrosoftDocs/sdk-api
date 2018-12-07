@@ -7,7 +7,7 @@ old-location: tsf\itfrange_shiftendregion.htm
 tech.root: TSF
 ms.assetid: cda2282f-3d3c-4763-9892-b889b29963a6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftEndRegion method, ITfRange.ShiftEndRegion, ITfRange::ShiftEndRegion, ShiftEndRegion, ShiftEndRegion method [Text Services Framework], ShiftEndRegion method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftendregion_ref, msctf/ITfRange::ShiftEndRegion, tsf.itfrange_shiftendregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- ITfRange.ShiftEndRegion
-: 
 ---
 
 # ITfRange::ShiftEndRegion

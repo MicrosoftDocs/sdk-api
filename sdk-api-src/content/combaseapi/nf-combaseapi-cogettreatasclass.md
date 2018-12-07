@@ -7,7 +7,7 @@ old-location: com\cogettreatasclass.htm
 tech.root: com
 ms.assetid: f95fefe6-dc37-45f4-93be-87c996990ab9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CoGetTreatAsClass, CoGetTreatAsClass function [COM], _com_CoGetTreatAsClass, com.cogettreatasclass, combaseapi/CoGetTreatAsClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoGetTreatAsClass
-: 
 ---
 
 # CoGetTreatAsClass function

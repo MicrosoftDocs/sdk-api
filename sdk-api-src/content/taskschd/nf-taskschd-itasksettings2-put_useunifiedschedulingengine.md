@@ -4,10 +4,10 @@ title: ITaskSettings2::put_UseUnifiedSchedulingEngine
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Unified Scheduling Engine will be utilized to run this task.
 old-location: taskschd\itasksettings2_useunifiedschedulingengine.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: bc632e8d-e53f-48c0-88cf-294451130752
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskSettings2 interface [Task Scheduler],UseUnifiedSchedulingEngine property, ITaskSettings2.UseUnifiedSchedulingEngine, ITaskSettings2.put_UseUnifiedSchedulingEngine, ITaskSettings2::UseUnifiedSchedulingEngine, ITaskSettings2::get_UseUnifiedSchedulingEngine, ITaskSettings2::put_UseUnifiedSchedulingEngine, UseUnifiedSchedulingEngine property [Task Scheduler], UseUnifiedSchedulingEngine property [Task Scheduler],ITaskSettings2 interface, put_UseUnifiedSchedulingEngine, taskschd.itasksettings2_useunifiedschedulingengine, taskschd/ITaskSettings2::UseUnifiedSchedulingEngine, taskschd/ITaskSettings2::get_UseUnifiedSchedulingEngine, taskschd/ITaskSettings2::put_UseUnifiedSchedulingEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- taskschd.h
-: 
-- ITaskSettings2.put_UseUnifiedSchedulingEngine
-: 
 ---
 
 # ITaskSettings2::put_UseUnifiedSchedulingEngine

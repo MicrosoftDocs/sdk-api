@@ -4,10 +4,10 @@ title: "_EAP_METHOD_PROPERTY_TYPE"
 author: windows-sdk-content
 description: Specifies the set of possible EAP method properties.
 old-location: eaphost\eap_method_property_type.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 49a62be4-5a8c-4e44-bdd1-aba37e3e7029
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EAP_METHOD_PROPERTY_TYPE, EAP_METHOD_PROPERTY_TYPE enumeration [EAPHost], _EAP_METHOD_PROPERTY_TYPE, eaphost.eap_method_property_type, eaptypes/EAP_METHOD_PROPERTY_TYPE, eaptypes/emptLegacyMethodPropertyFlag, eaptypes/emptPropCertifiedMethod, eaptypes/emptPropChannelBinding, eaptypes/emptPropCipherSuiteNegotiation, eaptypes/emptPropConfidentiality, eaptypes/emptPropCryptoBinding, eaptypes/emptPropDictionaryAttackResistance, eaptypes/emptPropFastReconnect, eaptypes/emptPropFragmentation, eaptypes/emptPropHiddenMethod, eaptypes/emptPropIdentityPrivacy, eaptypes/emptPropIntegrity, eaptypes/emptPropKeyDerivation, eaptypes/emptPropKeyStrength1024, eaptypes/emptPropKeyStrength128, eaptypes/emptPropKeyStrength256, eaptypes/emptPropKeyStrength512, eaptypes/emptPropKeyStrength64, eaptypes/emptPropMachineAuth, eaptypes/emptPropMethodChaining, eaptypes/emptPropMppeEncryption, eaptypes/emptPropMutualAuth, eaptypes/emptPropNap, eaptypes/emptPropReplayProtection, eaptypes/emptPropSessionIndependence, eaptypes/emptPropSharedStateEquivalence, eaptypes/emptPropStandalone, eaptypes/emptPropSupportsConfig, eaptypes/emptPropTunnelMethod, eaptypes/emptPropUserAuth, eaptypes/emptPropVendorSpecific, emptLegacyMethodPropertyFlag, emptPropCertifiedMethod, emptPropChannelBinding, emptPropCipherSuiteNegotiation, emptPropConfidentiality, emptPropCryptoBinding, emptPropDictionaryAttackResistance, emptPropFastReconnect, emptPropFragmentation, emptPropHiddenMethod, emptPropIdentityPrivacy, emptPropIntegrity, emptPropKeyDerivation, emptPropKeyStrength1024, emptPropKeyStrength128, emptPropKeyStrength256, emptPropKeyStrength512, emptPropKeyStrength64, emptPropMachineAuth, emptPropMethodChaining, emptPropMppeEncryption, emptPropMutualAuth, emptPropNap, emptPropReplayProtection, emptPropSessionIndependence, emptPropSharedStateEquivalence, emptPropStandalone, emptPropSupportsConfig, emptPropTunnelMethod, emptPropUserAuth, emptPropVendorSpecific
 ms.prod: windows-hardware
 ms.technology: windows-devices

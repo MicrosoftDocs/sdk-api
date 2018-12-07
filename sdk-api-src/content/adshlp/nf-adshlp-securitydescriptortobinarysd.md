@@ -4,10 +4,10 @@ title: SecurityDescriptorToBinarySD function
 author: windows-sdk-content
 description: Converts an IADsSecurityDescriptor object to the binary security descriptor format.
 old-location: adsi\securitydescriptortobinarysd.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: b1c814fd-df0f-406b-adfc-c356ce37d524
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SecurityDescriptorToBinarySD, SecurityDescriptorToBinarySD function [ADSI], adshlp/SecurityDescriptorToBinarySD, adsi.securitydescriptortobinarysd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SecurityDescriptorToBinarySD
-: 
 ---
 
 # SecurityDescriptorToBinarySD function

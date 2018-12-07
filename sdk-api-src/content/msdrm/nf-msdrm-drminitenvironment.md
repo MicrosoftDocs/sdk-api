@@ -7,7 +7,7 @@ old-location: rm\drminitenvironment.htm
 tech.root: AdRms_Sdk
 ms.assetid: b46277f4-e854-4590-847a-cf4f878bee70
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMInitEnvironment, DRMInitEnvironment function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMInitEnvironment, rm.drminitenvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DRMInitEnvironment
-: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

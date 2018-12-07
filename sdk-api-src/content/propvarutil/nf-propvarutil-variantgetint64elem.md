@@ -7,7 +7,7 @@ old-location: properties\VariantGetInt64Elem.htm
 tech.root: properties
 ms.assetid: 285705d3-3b8e-40ad-abf2-1adc5adda3d8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: VariantGetInt64Elem, VariantGetInt64Elem function [Windows Properties], _shell_VariantGetInt64Elem, properties.VariantGetInt64Elem, propvarutil/VariantGetInt64Elem, shell.VariantGetInt64Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
-- apiref
-: 
-- 
-: 
-- VariantGetInt64Elem
-: 
 ---
 
 # VariantGetInt64Elem function

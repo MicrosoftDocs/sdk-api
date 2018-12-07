@@ -4,10 +4,10 @@ title: IVdsIscsiInitiatorPortal::GetProperties
 author: windows-sdk-content
 description: Returns the properties of an initiator portal.
 old-location: base\ivdsiscsiinitiatorportal_getproperties.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 7bf00853-ca26-40b4-a09a-dcb5e7e08f49
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetProperties method, IVdsIscsiInitiatorPortal.GetProperties, IVdsIscsiInitiatorPortal::GetProperties, base.ivdsiscsiinitiatorportal_getproperties, vds/IVdsIscsiInitiatorPortal::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
-- apiref
-: 
-- COM
-: 
-- vds.h
-: 
-- IVdsIscsiInitiatorPortal.GetProperties
-: 
 ---
 
 # IVdsIscsiInitiatorPortal::GetProperties

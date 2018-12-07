@@ -4,10 +4,10 @@ title: IX509PolicyServerListManager
 author: windows-sdk-content
 description: The IX509PolicyServerListManager interface defines the following methods and properties that enable you to manage a collection of IX509PolicyServerUrl objects.
 old-location: security\ix509policyserverlistmanager.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a9fe4f4b-a35d-40e6-b99a-a89f58e79250
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509PolicyServerListManager, IX509PolicyServerListManager interface [Security], IX509PolicyServerListManager interface [Security],described, certenroll/IX509PolicyServerListManager, security.ix509policyserverlistmanager
 ms.prod: windows-hardware
 ms.technology: windows-devices

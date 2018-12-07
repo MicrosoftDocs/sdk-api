@@ -7,7 +7,7 @@ old-location: shell\SHDefExtractIcon.htm
 tech.root: shell
 ms.assetid: fbaa600a-5e5c-4948-81fb-d2c3993dcd47
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GIL_SIMULATEDOC, SHDefExtractIcon, SHDefExtractIcon function [Windows Shell], SHDefExtractIconA, SHDefExtractIconW, _win32_SHDefExtractIcon, shell.SHDefExtractIcon, shlobj_core/SHDefExtractIcon, shlobj_core/SHDefExtractIconA, shlobj_core/SHDefExtractIconW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHDefExtractIconW
-: 
 ---
 
 # SHDefExtractIconW function

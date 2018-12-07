@@ -4,10 +4,10 @@ title: RenderingControls function
 author: windows-sdk-content
 description: Returns a filled D2D1_RENDERING_CONTROLS structure.
 old-location: direct2d\renderingcontrols.htm
-tech.root: Direct2D
+tech.root: direct2d
 ms.assetid: 5004EA84-216C-4758-8AA1-7E823583871E
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RenderingControls, RenderingControls function [Direct2D], d2d1_1helper/RenderingControls, direct2d.renderingcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RenderingControls
-: 
 ---
 
 # RenderingControls function

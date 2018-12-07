@@ -7,7 +7,7 @@ old-location: fs\decryptfile.htm
 tech.root: fileio
 ms.assetid: 6b8f0ed0-8825-4c84-bf58-3a89cda882b4
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: DecryptFile, DecryptFile function [Files], DecryptFileA, DecryptFileW, _win32_decryptfile, base.decryptfile, fs.decryptfile, winbase/DecryptFile, winbase/DecryptFileA, winbase/DecryptFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,12 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DecryptFileA
-: 
 ---
 
 # DecryptFileA function

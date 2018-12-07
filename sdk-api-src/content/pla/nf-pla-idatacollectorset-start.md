@@ -4,10 +4,10 @@ title: IDataCollectorSet::Start
 author: windows-sdk-content
 description: Manually starts the data collector set.
 old-location: pla\idatacollectorset_start.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 63f0c7b7-0dc6-4491-a2f5-eaae9d22da61
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: IDataCollectorSet interface [PLA],Start method, IDataCollectorSet.Start, IDataCollectorSet::Start, Start, Start method [PLA], Start method [PLA],IDataCollectorSet interface, base.idatacollectorset_start, pla.idatacollectorset_start, pla/IDataCollectorSet::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollectorSet.Start
-: 
 ---
 
 # IDataCollectorSet::Start

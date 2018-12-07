@@ -7,7 +7,7 @@ old-location: iphlp\setipttl.htm
 tech.root: IpHlp
 ms.assetid: dfde8712-f68f-4fa4-b939-ea36e23b5b1e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetIpTTL, SetIpTTL function [IP Helper], _iphlp_setipttl, iphlp.setipttl, iphlpapi/SetIpTTL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetIpTTL
-: 
 ---
 
 # SetIpTTL function

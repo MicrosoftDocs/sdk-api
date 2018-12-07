@@ -4,10 +4,10 @@ title: "_EAP_CRED_EXPIRY_REQ"
 author: windows-sdk-content
 description: Contains both the old and new EAP credentials for credential expiry operations.
 old-location: eaphost\eap_cred_expiry_req.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: baa2a580-0bfc-450a-9a96-f32d00127fa4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EAP_CRED_EXPIRY_REQ, EAP_CRED_EXPIRY_REQ structure [EAPHost], EAP_CRED_EXPIRY_RESP, PEAP_CRED_EXPIRY_REQ, PEAP_CRED_EXPIRY_REQ structure pointer [EAPHost], _EAP_CRED_EXPIRY_REQ, eaphost.eap_cred_expiry_req, eaptypes/EAP_CRED_EXPIRY_REQ, eaptypes/PEAP_CRED_EXPIRY_REQ
 ms.prod: windows-hardware
 ms.technology: windows-devices

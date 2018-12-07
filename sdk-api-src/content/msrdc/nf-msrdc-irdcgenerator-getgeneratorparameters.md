@@ -4,10 +4,10 @@ title: IRdcGenerator::GetGeneratorParameters
 author: windows-sdk-content
 description: Returns a copy of the parameters used to create the generator.
 old-location: rdc\irdcgenerator_getgeneratorparameters.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: c2ee5aea-c186-4017-bc35-2f83f5c05824
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetGeneratorParameters, GetGeneratorParameters method [Remote Differential Compression], GetGeneratorParameters method [Remote Differential Compression],IRdcGenerator interface, IRdcGenerator interface [Remote Differential Compression],GetGeneratorParameters method, IRdcGenerator.GetGeneratorParameters, IRdcGenerator::GetGeneratorParameters, fs.irdcgenerator_getgeneratorparameters, msrdc/IRdcGenerator::GetGeneratorParameters, rdc.irdcgenerator_getgeneratorparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- IRdcGenerator.GetGeneratorParameters
-: 
 ---
 
 # IRdcGenerator::GetGeneratorParameters

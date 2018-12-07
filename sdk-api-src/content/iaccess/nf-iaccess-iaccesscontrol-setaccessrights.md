@@ -7,7 +7,7 @@ old-location: com\iaccesscontrol_setaccessrights.htm
 tech.root: com
 ms.assetid: 5f4224fe-255f-4eb7-88bb-47501718589b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAccessControl interface [COM],SetAccessRights method, IAccessControl.SetAccessRights, IAccessControl::SetAccessRights, SetAccessRights, SetAccessRights method [COM], SetAccessRights method [COM],IAccessControl interface, _com_iaccesscontrol_setaccessrights, com.iaccesscontrol_setaccessrights, iaccess/IAccessControl::SetAccessRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iaccess.h
-: 
-- IAccessControl.SetAccessRights
-: 
 ---
 
 # IAccessControl::SetAccessRights

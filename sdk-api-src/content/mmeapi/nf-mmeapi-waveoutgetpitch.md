@@ -7,7 +7,7 @@ old-location: multimedia\waveoutgetpitch.htm
 tech.root: Multimedia
 ms.assetid: e4adcf3d-2d9a-4cf3-81bc-3d109c90663f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_waveOutGetPitch, mmeapi/waveOutGetPitch, multimedia.waveoutgetpitch, waveOutGetPitch, waveOutGetPitch function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- waveOutGetPitch
-: 
 ---
 
 # waveOutGetPitch function

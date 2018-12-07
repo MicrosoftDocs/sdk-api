@@ -4,10 +4,10 @@ title: IBackgroundCopyJob2::SetNotifyCmdLine
 author: windows-sdk-content
 description: Specifies a program to execute if the job enters the BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSFERRED state. BITS executes the program in the context of the user who called this method.
 old-location: bits\ibackgroundcopyjob2_setnotifycmdline.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 61b99d01-ca0f-4a89-b7ca-77d23c21a9ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetNotifyCmdLine method, IBackgroundCopyJob2.SetNotifyCmdLine, IBackgroundCopyJob2::SetNotifyCmdLine, SetNotifyCmdLine, SetNotifyCmdLine method [BITS], SetNotifyCmdLine method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setnotifycmdline, bits.ibackgroundcopyjob2_setnotifycmdline, bits1_5/IBackgroundCopyJob2::SetNotifyCmdLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP
-- apiref
-: 
-- COM
-: 
-- bits1_5.h
-: 
-- IBackgroundCopyJob2.SetNotifyCmdLine
-: 
 ---
 
 # IBackgroundCopyJob2::SetNotifyCmdLine
@@ -66,24 +58,7 @@ Specifies a program to execute if the job enters the <b>BG_JOB_STATE_ERROR</b> o
 
 
 
-### -param Program
-
-TBD
-
-
-### -param Parameters
-
-TBD
-
-
-
-
-#### - pParameters [in]
-
-Null-terminated string that contains the parameters of the program in <i>pProgram</i>. The first parameter must be the program in <i>pProgram</i> (use quotes if the path uses long file names). The <i>pParameters</i> parameter is limited to 4,000 characters, not including the null terminator. This parameter can be <b>NULL</b>.
-
-
-#### - pProgram [in]
+### -param Program [in]
 
 Null-terminated string that contains the program to execute. The <i>pProgram</i> parameter is limited to MAX_PATH characters, not including the null terminator. You should specify a full path to the program; the method will not use the search path to locate the program. 
 
@@ -91,6 +66,11 @@ Null-terminated string that contains the program to execute. The <i>pProgram</i>
 
 
 To remove command line notification, set <i>pProgram</i> and <i>pParameters</i> to <b>NULL</b>. The method fails if <i>pProgram</i> is <b>NULL</b> and <i>pParameters</i> is non-<b>NULL</b>.
+
+
+### -param Parameters [in]
+
+Null-terminated string that contains the parameters of the program in <i>pProgram</i>. The first parameter must be the program in <i>pProgram</i> (use quotes if the path uses long file names). The <i>pParameters</i> parameter is limited to 4,000 characters, not including the null terminator. This parameter can be <b>NULL</b>.
 
 
 ## -returns

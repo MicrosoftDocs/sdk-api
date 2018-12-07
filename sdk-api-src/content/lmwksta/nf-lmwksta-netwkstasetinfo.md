@@ -4,10 +4,10 @@ title: NetWkstaSetInfo function
 author: windows-sdk-content
 description: The NetWkstaSetInfo function configures a workstation with information that remains in effect after the system has been reinitialized.
 old-location: netmgmt\netwkstasetinfo.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: d746b6c9-5ef1-4174-a84f-44e4e50200cd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 100, 101, 102, 502, NetWkstaSetInfo, NetWkstaSetInfo function [Network Management], _win32_netwkstasetinfo, lmwksta/NetWkstaSetInfo, netmgmt.netwkstasetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- NetWkstaSetInfo
-: 
 ---
 
 # NetWkstaSetInfo function

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_branding_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1v1j.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Branding property, IFaxServer.Branding, IFaxServer.get_Branding, IFaxServer.put_Branding, IFaxServer::Branding, IFaxServer::get_Branding, IFaxServer::put_Branding, _mfax_ifaxserver_get_branding, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_branding_cpp, fax._mfax_ifaxserver_get_branding, faxcom/IFaxServer::Branding, faxcom/IFaxServer::get_Branding, faxcom/IFaxServer::put_Branding, get_Branding
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,14 +46,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcom.h
-: 
-- IFaxServer.get_Branding
-: 
 ---
 
 # IFaxServer::get_Branding

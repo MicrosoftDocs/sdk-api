@@ -7,7 +7,7 @@ old-location: security\tokenbinding_result_data.htm
 tech.root: seccng
 ms.assetid: 6C34E174-CCC4-451D-82C3-C410C8C92C8C
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: TOKENBINDING_RESULT_DATA, TOKENBINDING_RESULT_DATA structure [Security], security.tokenbinding_result_data, tokenbinding/TOKENBINDING_RESULT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

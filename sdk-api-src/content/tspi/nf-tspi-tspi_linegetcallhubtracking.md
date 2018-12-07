@@ -4,10 +4,10 @@ title: TSPI_lineGetCallHubTracking function
 author: windows-sdk-content
 description: The TSPI_lineGetCallHubTracking function returns the current state of CallHub tracking for the service provider. This function requires TAPI 3.0 version negotiation.
 old-location: tspi\tspi_linegetcallhubtracking.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: c8fd8070-7393-4a59-9416-63acdd94f4ff
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_lineGetCallHubTracking, TSPI_lineGetCallHubTracking function [TAPI 2.2], _tspi_tspi_linegetcallhubtracking, tspi.tspi_linegetcallhubtracking, tspi/TSPI_lineGetCallHubTracking
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- TSPI_lineGetCallHubTracking
-: 
 ---
 
 # TSPI_lineGetCallHubTracking function

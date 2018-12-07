@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10V2::InitializeFromPrivateKeyTemplate
 author: windows-sdk-content
 description: Initializes the certificate request by using an IX509PrivateKey object and a certificate template.
 old-location: security\ix509certificaterequestpkcs10v2_initializefromprivatekeytemplate.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: c19d9754-e96d-4093-9095-82fa0a4baf37
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs10V2 interface [Security],InitializeFromPrivateKeyTemplate method, IX509CertificateRequestPkcs10V2.InitializeFromPrivateKeyTemplate, IX509CertificateRequestPkcs10V2::InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate method [Security], InitializeFromPrivateKeyTemplate method [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::InitializeFromPrivateKeyTemplate, security.ix509certificaterequestpkcs10v2_initializefromprivatekeytemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509CertificateRequestPkcs10V2.InitializeFromPrivateKeyTemplate
-: 
 ---
 
 # IX509CertificateRequestPkcs10V2::InitializeFromPrivateKeyTemplate

@@ -4,10 +4,10 @@ title: EapMethodAuthenticatorInitialize function
 author: windows-sdk-content
 description: Initializes an EAP authenticator method for the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorinitialize.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 19484962-01fa-4abe-a6b4-c05b8112b0aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EapMethodAuthenticatorInitialize, EapMethodAuthenticatorInitialize function [EAPHost], eaphost.eapmethodauthenticatorinitialize, eapmethodauthenticatorapis/EapMethodAuthenticatorInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- EapMethodAuthenticatorInitialize
-: 
 ---
 
 # EapMethodAuthenticatorInitialize function

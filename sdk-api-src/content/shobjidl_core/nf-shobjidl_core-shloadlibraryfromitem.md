@@ -7,7 +7,7 @@ old-location: shell\SHLoadLibraryFromItem.htm
 tech.root: shell
 ms.assetid: 9692f9d1-1504-43d0-9eb1-3759a8e2b42d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SHLoadLibraryFromItem, SHLoadLibraryFromItem function [Windows Shell], _shell_SHLoadLibraryFromItem, shell.SHLoadLibraryFromItem, shobjidl_core/SHLoadLibraryFromItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SHLoadLibraryFromItem
-: 
 ---
 
 # SHLoadLibraryFromItem function

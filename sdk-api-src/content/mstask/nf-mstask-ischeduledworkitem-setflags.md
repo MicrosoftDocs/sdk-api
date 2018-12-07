@@ -4,10 +4,10 @@ title: IScheduledWorkItem::SetFlags
 author: windows-sdk-content
 description: Sets the flags that modify the behavior of any type of work item.
 old-location: taskschd\ischeduledworkitem_setflags.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 640ba3c7-ed9d-4c4c-82fd-34fc777172c2
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetFlags method, IScheduledWorkItem.SetFlags, IScheduledWorkItem::SetFlags, SetFlags, SetFlags method [Task Scheduler], SetFlags method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setflags, mstask/IScheduledWorkItem::SetFlags, taskschd.ischeduledworkitem_setflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.SetFlags
-: 
 ---
 
 # IScheduledWorkItem::SetFlags

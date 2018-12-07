@@ -4,10 +4,10 @@ title: IMsmConfigureModule::ProvideIntegerData
 author: windows-sdk-content
 description: The ProvideIntegerData method retrieves integer data from the client tool. For more information, see the ProvideIntegerData method of the ConfigureModule object.
 old-location: setup\imsmconfiguremodule_provideintegerdata.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 2d03ce35-2ded-4f65-a73f-2546d67b0454
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmConfigureModule interface,ProvideIntegerData method, IMsmConfigureModule.ProvideIntegerData, IMsmConfigureModule::ProvideIntegerData, ProvideIntegerData, ProvideIntegerData method, ProvideIntegerData method,IMsmConfigureModule interface, _msi_provideintegerdata_function, mergemod/IMsmConfigureModule::ProvideIntegerData, setup.imsmconfiguremodule_provideintegerdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- mergemod.h
-: 
-- IMsmConfigureModule.ProvideIntegerData
-: 
 ---
 
 # IMsmConfigureModule::ProvideIntegerData

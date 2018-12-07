@@ -7,7 +7,7 @@ old-location: websock\websocketdeletehandle.htm
 tech.root: WebSock
 ms.assetid: 0ee21ee8-1375-4b42-8d04-64368e299b3e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WebSocketDeleteHandle, WebSocketDeleteHandle function [Websocket Protocol Component API], websock.websocketdeletehandle, websocket/WebSocketDeleteHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WebSocketDeleteHandle
-: 
 ---
 
 # WebSocketDeleteHandle function

@@ -4,10 +4,10 @@ title: ISimilarityReportProgress::ReportProgress
 author: windows-sdk-content
 description: Reports the current completion percentage of a similarity operation in progress.
 old-location: rdc\isimilarityreportprogress_reportprogress.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: e393290b-02d3-4265-9252-f5541e4054ce
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISimilarityReportProgress interface [Remote Differential Compression],ReportProgress method, ISimilarityReportProgress.ReportProgress, ISimilarityReportProgress::ReportProgress, ReportProgress, ReportProgress method [Remote Differential Compression], ReportProgress method [Remote Differential Compression],ISimilarityReportProgress interface, fs.isimilarityreportprogress_reportprogress, msrdc/ISimilarityReportProgress::ReportProgress, rdc.isimilarityreportprogress_reportprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msrdc.h
-: 
-- ISimilarityReportProgress.ReportProgress
-: 
 ---
 
 # ISimilarityReportProgress::ReportProgress

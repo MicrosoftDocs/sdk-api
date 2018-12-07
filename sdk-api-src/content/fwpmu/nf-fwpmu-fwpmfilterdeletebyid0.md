@@ -7,7 +7,7 @@ old-location: fwp\fwpmfilterdeletebyid0_func.htm
 tech.root: fwp
 ms.assetid: a1b10a05-27e9-49f3-8e1c-30650007a9ef
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmFilterDeleteById0, FwpmFilterDeleteById0 function [Filtering], fwp.fwpmfilterdeletebyid0_func, fwpmu/FwpmFilterDeleteById0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmFilterDeleteById0
-: 
 ---
 
 # FwpmFilterDeleteById0 function

@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingfunction.htm
 tech.root: tracelogging
 ms.assetid: 70382367-E0A0-4E5B-A14F-863BEC0615C5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: TraceLoggingFunction, TraceLoggingFunction macro, tracelogging.traceloggingfunction, traceloggingactivity/TraceLoggingFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- HeaderDef
-: 
-- traceloggingactivity.h
-: 
-- TraceLoggingFunction
-: 
 ---
 
 # TraceLoggingFunction macro

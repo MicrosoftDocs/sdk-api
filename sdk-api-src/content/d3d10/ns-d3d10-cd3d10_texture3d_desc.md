@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_texture3d_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texture3d_desc.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CD3D10_TEXTURE3D_DESC, D3D10_TEXTURE3D_DESC, D3D10_TEXTURE3D_DESC structure [Direct3D 10], abbd74e0-643f-c06c-689d-08361a07731d, d3d10/D3D10_TEXTURE3D_DESC, direct3d10.d3d10_texture3d_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,21 @@ Describes a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).
 ## -struct-fields
 
 
+
+
+### -field CD3D10_TEXTURE3D_DESC
+
+TBD 
+
+
+### -field ~CD3D10_TEXTURE3D_DESC
+
+TBD 
+
+
+### -field operator const D3D10_TEXTURE3D_DESC&
+
+TBD 
 
 
 ### -field D3D10_TEXTURE3D_DESC

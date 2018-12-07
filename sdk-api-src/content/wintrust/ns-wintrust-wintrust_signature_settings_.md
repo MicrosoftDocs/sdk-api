@@ -4,10 +4,10 @@ title: WINTRUST_SIGNATURE_SETTINGS_
 author: windows-sdk-content
 description: Can be used to specify the signatures on a file.
 old-location: security\wintrust_signature_settings.htm
-tech.root: SecCrypto
+tech.root: seccrypto
 ms.assetid: E0F526B4-AFDE-4481-B49F-EE7467F97A46
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/04/2018
 ms.keywords: "*PWINTRUST_SIGNATURE_SETTINGS, PWINTRUST_SIGNATURE_SETTINGS, PWINTRUST_SIGNATURE_SETTINGS structure pointer [Security], WINTRUST_SIGNATURE_SETTINGS, WINTRUST_SIGNATURE_SETTINGS structure [Security], WINTRUST_SIGNATURE_SETTINGS_, WSS_GET_SECONDARY_SIG_COUNT, WSS_VERIFY_SPECIFIC, security.wintrust_signature_settings, wintrust/PWINTRUST_SIGNATURE_SETTINGS, wintrust/WINTRUST_SIGNATURE_SETTINGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

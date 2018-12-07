@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediatype.htm
 tech.root: medfound
 ms.assetid: 05b0941e-03ce-4ced-9022-22b65d1c4b4c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 05b0941e-03ce-4ced-9022-22b65d1c4b4c, MFCreateMediaType, MFCreateMediaType function [Media Foundation], mf.mfcreatemediatype, mfapi/MFCreateMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateMediaType
-: 
 ---
 
 # MFCreateMediaType function

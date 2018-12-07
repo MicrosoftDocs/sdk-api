@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideomediatype.htm
 tech.root: medfound
 ms.assetid: 143aedec-d1ce-434a-8a1c-62a2c9d55e88
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 143aedec-d1ce-434a-8a1c-62a2c9d55e88, MFCreateVideoMediaType, MFCreateVideoMediaType function [Media Foundation], mf.mfcreatevideomediatype, mfapi/MFCreateVideoMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreateVideoMediaType
-: 
 ---
 
 # MFCreateVideoMediaType function

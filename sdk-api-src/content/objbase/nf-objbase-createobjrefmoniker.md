@@ -7,7 +7,7 @@ old-location: com\createobjrefmoniker.htm
 tech.root: com
 ms.assetid: 0a214a11-776c-4ef6-af68-a141398f853c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CreateObjrefMoniker, CreateObjrefMoniker function [COM], _com_CreateObjrefMoniker, com.createobjrefmoniker, objbase/CreateObjrefMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CreateObjrefMoniker
-: 
 ---
 
 # CreateObjrefMoniker function

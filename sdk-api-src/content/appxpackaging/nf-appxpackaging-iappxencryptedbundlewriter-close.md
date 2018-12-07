@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptedbundlewriter_close.htm
 tech.root: appxpkg
 ms.assetid: 0ED396CC-3CDA-440A-9FA7-3F3A85522778
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxEncryptedBundleWriter interface, IAppxEncryptedBundleWriter interface [App packaging and management],Close method, IAppxEncryptedBundleWriter.Close, IAppxEncryptedBundleWriter::Close, appxpackaging/IAppxEncryptedBundleWriter::Close, appxpkg.iappxencryptedbundlewriter_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- appxpackaging.h
-: 
-- IAppxEncryptedBundleWriter.Close
-: 
 ---
 
 # IAppxEncryptedBundleWriter::Close

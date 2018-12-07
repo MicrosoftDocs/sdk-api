@@ -7,7 +7,7 @@ old-location: gdi\polybezierto.htm
 tech.root: gdi
 ms.assetid: 0c8d6d6d-d0a3-4188-91ad-934e6f054862
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: PolyBezierTo, PolyBezierTo function [Windows GDI], _win32_PolyBezierTo, gdi.polybezierto, wingdi/PolyBezierTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- PolyBezierTo
-: 
 ---
 
 # PolyBezierTo function

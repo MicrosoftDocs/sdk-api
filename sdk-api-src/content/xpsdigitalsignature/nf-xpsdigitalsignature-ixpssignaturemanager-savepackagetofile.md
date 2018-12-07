@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturemanager_savepackagetofile.htm
 tech.root: printdocs
 ms.assetid: 954d8eb1-8680-410b-909b-da7a6572c0f3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],SavePackageToFile method, IXpsSignatureManager.SavePackageToFile, IXpsSignatureManager::SavePackageToFile, SavePackageToFile, SavePackageToFile method [XPS Documents and Packaging], SavePackageToFile method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_savepackagetofile, xpsdigitalsignature/IXpsSignatureManager::SavePackageToFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsdigitalsignature.h
-: 
-- IXpsSignatureManager.SavePackageToFile
-: 
 ---
 
 # IXpsSignatureManager::SavePackageToFile

@@ -7,7 +7,7 @@ old-location: wcn\wcn_value_type_connection_type.htm
 tech.root: wcn
 ms.assetid: bb3bfdff-f5eb-4417-bf79-13d79886d468
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WCN_VALUE_CT_ESS, WCN_VALUE_CT_IBSS, WCN_VALUE_TYPE_CONNECTION_TYPE, WCN_VALUE_TYPE_CONNECTION_TYPE enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_CONNECTION_TYPE, wcn.wcn_value_type_connection_type, wcntypes/WCN_VALUE_CT_ESS, wcntypes/WCN_VALUE_CT_IBSS, wcntypes/WCN_VALUE_TYPE_CONNECTION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

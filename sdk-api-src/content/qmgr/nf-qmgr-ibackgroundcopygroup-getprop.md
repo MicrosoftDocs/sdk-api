@@ -4,10 +4,10 @@ title: IBackgroundCopyGroup::GetProp
 author: windows-sdk-content
 description: Use the GetProp method to retrieve a property value from the group.
 old-location: bits\ibackgroundcopygroup_getprop.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: c27debdf-22eb-417e-b870-2891167f4498
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProp, GetProp method [BITS], GetProp method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetProp method, IBackgroundCopyGroup.GetProp, IBackgroundCopyGroup::GetProp, bits.ibackgroundcopygroup_getprop, qmgr/IBackgroundCopyGroup::GetProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- qmgr.h
-: 
-- IBackgroundCopyGroup.GetProp
-: 
 ---
 
 # IBackgroundCopyGroup::GetProp
@@ -68,24 +60,12 @@ Use the <b>GetProp</b> method to retrieve a property value from the group.
 
 
 
-### -param propID
-
-TBD
-
-
-### -param pvarVal
-
-TBD
-
-
-
-
-#### - PropId [in]
+### -param propID [in]
 
 Identifies the property to retrieve. For a list of properties, see the <a href="https://msdn.microsoft.com/8bd5d1df-237a-4c42-afe1-6540ab1ad8c1">GROUPPROP</a> enumeration.
 
 
-#### - pvarPropValue [out]
+### -param pvarVal [out]
 
 Property value.
 

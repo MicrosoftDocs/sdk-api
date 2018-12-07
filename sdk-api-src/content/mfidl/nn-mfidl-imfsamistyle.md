@@ -7,7 +7,7 @@ old-location: mf\imfsamistyle.htm
 tech.root: medfound
 ms.assetid: c4887c52-57af-4783-b853-11fe6ad3510e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMFSAMIStyle, IMFSAMIStyle interface [Media Foundation], IMFSAMIStyle interface [Media Foundation],described, c4887c52-57af-4783-b853-11fe6ad3510e, mf.imfsamistyle, mfidl/IMFSAMIStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

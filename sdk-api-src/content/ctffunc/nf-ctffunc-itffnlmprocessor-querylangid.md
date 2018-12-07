@@ -7,7 +7,7 @@ old-location: tsf\itffnlmprocessor_querylangid.htm
 tech.root: TSF
 ms.assetid: 2d645c1b-9ee6-47c4-8bbd-173e416f5688
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],QueryLangID method, ITfFnLMProcessor.QueryLangID, ITfFnLMProcessor::QueryLangID, QueryLangID, QueryLangID method [Text Services Framework], QueryLangID method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_querylangid_ref, ctffunc/ITfFnLMProcessor::QueryLangID, tsf.itffnlmprocessor_querylangid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- ctffunc.h
-: 
-- ITfFnLMProcessor.QueryLangID
-: 
 ---
 
 # ITfFnLMProcessor::QueryLangID

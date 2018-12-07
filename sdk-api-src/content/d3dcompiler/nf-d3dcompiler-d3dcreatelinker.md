@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dcreatelinker.htm
 tech.root: direct3dhlsl
 ms.assetid: 15BEFF31-9E08-462F-9F27-1CADB8367E4F
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3DCreateLinker, D3DCreateLinker function [HLSL], d3dcompiler/D3DCreateLinker, direct3dhlsl.d3dcreatelinker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- D3DCreateLinker
-: 
 ---
 
 # D3DCreateLinker function

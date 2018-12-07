@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_put_Password.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_password.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ISearchRoot interface [search],put_Password method, ISearchRoot.put_Password, ISearchRoot::put_Password, _search_ISearchRoot_put_Password, put_Password, put_Password method [search], put_Password method [search],ISearchRoot interface, search._search_ISearchRoot_put_Password, searchapi/ISearchRoot::put_Password
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- searchapi.h
-: 
-- ISearchRoot.put_Password
-: 
 ---
 
 # ISearchRoot::put_Password

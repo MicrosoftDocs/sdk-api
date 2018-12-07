@@ -4,10 +4,10 @@ title: "_SERVER_INFO_1529"
 author: windows-sdk-content
 description: The SERVER_INFO_1529 structure specifies the minimum number of free receive work items the server requires before it begins allocating more items.
 old-location: netmgmt\server_info_1529_str.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 575cb0fa-b011-42a9-9344-02088effeb9b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSERVER_INFO_1529, *PSERVER_INFO_1529, LPSERVER_INFO_1529, LPSERVER_INFO_1529 structure pointer [Network Management], PSERVER_INFO_1529, PSERVER_INFO_1529 structure pointer [Network Management], SERVER_INFO_1529, SERVER_INFO_1529 structure [Network Management], _SERVER_INFO_1529, _win32_server_info_1529_str, lmserver/LPSERVER_INFO_1529, lmserver/PSERVER_INFO_1529, lmserver/SERVER_INFO_1529, netmgmt.server_info_1529_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

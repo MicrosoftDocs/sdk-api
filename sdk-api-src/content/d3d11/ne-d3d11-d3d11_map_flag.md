@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_map_flag.htm
 tech.root: direct3d11
 ms.assetid: 986400c4-2a81-4d43-9564-d26eeaf7bd28
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 629d7d2f-642f-963f-2dce-b5f72d629978, D3D11_MAP_FLAG, D3D11_MAP_FLAG enumeration [Direct3D 11], D3D11_MAP_FLAG_DO_NOT_WAIT, d3d11/D3D11_MAP_FLAG, d3d11/D3D11_MAP_FLAG_DO_NOT_WAIT, direct3d11.d3d11_map_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices

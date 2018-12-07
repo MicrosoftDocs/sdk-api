@@ -7,7 +7,7 @@ old-location: mf\mfcreate2dmediabuffer.htm
 tech.root: medfound
 ms.assetid: 7D999070-87BD-46AF-A4F0-C0A23DC1C876
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MFCreate2DMediaBuffer, MFCreate2DMediaBuffer function [Media Foundation], mf.mfcreate2dmediabuffer, mfapi/MFCreate2DMediaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MFCreate2DMediaBuffer
-: 
 ---
 
 # MFCreate2DMediaBuffer function

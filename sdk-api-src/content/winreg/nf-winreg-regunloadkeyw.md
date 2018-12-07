@@ -4,10 +4,10 @@ title: RegUnLoadKeyW function
 author: windows-sdk-content
 description: Unloads the specified registry key and its subkeys from the registry.
 old-location: base\regunloadkey.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 73b4b6a9-4acb-4247-bd7f-82024ba3e14a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RegUnLoadKey, RegUnLoadKey function, RegUnLoadKeyA, RegUnLoadKeyW, _win32_regunloadkey, base.regunloadkey, winreg/RegUnLoadKey, winreg/RegUnLoadKeyA, winreg/RegUnLoadKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,12 +51,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- RegUnLoadKeyW
-: 
 ---
 
 # RegUnLoadKeyW function

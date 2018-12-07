@@ -2,13 +2,13 @@
 UID: NF:gdiplusmatrix.Matrix.Matrix(IN const Rect &,IN const Point)
 title: Matrix::Matrix(IN const Rect &,IN const Point)
 author: windows-sdk-content
-description: Creates and initializes a Matrix::Matrix object that represents the identity matrix.
-old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_.htm
+description: Creates a Matrix::Matrix object based on a rectangle and a point.
+old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_Rect_rect_Point_dstplg_.htm
 tech.root: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_53.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_44rectamprect_pointdstplg.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
-ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(), Matrix.Matrix(IN const Rect &,IN const Point), Matrix::Matrix, Matrix::Matrix(IN const Rect &,IN const Point), _gdiplus_CLASS_Matrix_Matrix_, gdiplus._gdiplus_CLASS_Matrix_Matrix_
+ms.date: 12/5/2018
+ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(IN const Rect &,IN const Point), Matrix.Matrix(const Rect&,const Point*), Matrix::Matrix, Matrix::Matrix(IN const Rect &,IN const Point), _gdiplus_CLASS_Matrix_Matrix_Rect_rect_Point_dstplg_, gdiplus._gdiplus_CLASS_Matrix_Matrix_Rect_rect_Point_dstplg_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gdiplusmatrix.h
-: 
-- Matrix.Matrix
-: 
 req.product: GDI+ 1.0
 ---
 
@@ -59,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates and initializes a <b>Matrix::Matrix</b> object that represents the identity matrix.
+Creates a <b>Matrix::Matrix</b> object based on a rectangle and a point.
 
 
 ## -parameters
@@ -67,16 +59,18 @@ Creates and initializes a <b>Matrix::Matrix</b> object that represents the ident
 
 
 
-### -param rect
+### -param rect [in, ref]
 
-TBD
+Type: <b>const <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a></b>
 
-
-### -param dstplg
-
-TBD
+Reference to a <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object. The <b>X</b> data member of the rectangle specifies the matrix element in row 1, column 1. The <b>Y</b> data member of the rectangle specifies the matrix element in row 1, column 2. The <b>Width</b> data member of the rectangle specifies the matrix element in row 2, column 1. The <b>Height</b> data member of the rectangle specifies the matrix element in row 2, column 2. 
 
 
+### -param dstplg [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>*</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object. The <b>X</b> data member of the point specifies the matrix element in row 3, column 1. The <b>Y</b> data member of the point specifies the matrix element in row 3, column 2. 
 
 
 ## -see-also
@@ -97,6 +91,14 @@ TBD
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
+
+
+
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+
+
+
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 

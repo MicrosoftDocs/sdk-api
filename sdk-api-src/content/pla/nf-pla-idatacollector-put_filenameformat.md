@@ -4,10 +4,10 @@ title: IDataCollector::put_FileNameFormat
 author: windows-sdk-content
 description: Retrieves or sets flags that describe how to decorate the file name.
 old-location: pla\idatacollector_filenameformat.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 3a7744a6-feb3-4aea-856d-8496aecc0176
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FileNameFormat property [PLA], FileNameFormat property [PLA],IDataCollector interface, IDataCollector interface [PLA],FileNameFormat property, IDataCollector.FileNameFormat, IDataCollector.put_FileNameFormat, IDataCollector::FileNameFormat, IDataCollector::get_FileNameFormat, IDataCollector::put_FileNameFormat, base.idatacollector_filenameformat, pla.idatacollector_filenameformat, pla/IDataCollector::FileNameFormat, pla/IDataCollector::get_FileNameFormat, pla/IDataCollector::put_FileNameFormat, put_FileNameFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IDataCollector.put_FileNameFormat
-: 
 ---
 
 # IDataCollector::put_FileNameFormat

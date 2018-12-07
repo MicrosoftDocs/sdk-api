@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_get_maxbitrate.htm
 tech.root: WMP
 ms.assetid: 42917ca3-07d3-4d32-a2f3-5f0ef9d387d7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_maxBitRate method, IWMPNetwork.get_maxBitRate, IWMPNetwork::get_maxBitRate, IWMPNetworkget_maxBitRate, get_maxBitRate, get_maxBitRate method [Windows Media Player], get_maxBitRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_maxbitrate, wmp/IWMPNetwork::get_maxBitRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wmp.h
-: 
-- IWMPNetwork.get_maxBitRate
-: 
 ---
 
 # IWMPNetwork::get_maxBitRate

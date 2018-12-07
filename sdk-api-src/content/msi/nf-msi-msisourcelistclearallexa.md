@@ -4,10 +4,10 @@ title: MsiSourceListClearAllExA function
 author: windows-sdk-content
 description: The MsiSourceListClearAllEx function removes all the existing sources of a given source type for the specified product or patch instance.
 old-location: setup\msisourcelistclearallex.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: 3caa16f0-da9e-44a9-82c3-79d881278b81
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_MEDIA, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListClearAllEx, MsiSourceListClearAllEx function, MsiSourceListClearAllExA, MsiSourceListClearAllExW, msi/MsiSourceListClearAllEx, msi/MsiSourceListClearAllExA, msi/MsiSourceListClearAllExW, setup.msisourcelistclearallex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiSourceListClearAllExA
-: 
 ---
 
 # MsiSourceListClearAllExA function

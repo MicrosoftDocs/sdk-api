@@ -4,10 +4,10 @@ title: MsiEnumRelatedProductsA function
 author: windows-sdk-content
 description: The MsiEnumRelatedProducts function enumerates products with a specified upgrade code. This function lists the currently installed and advertised products that have the specified UpgradeCode property in their Property table.
 old-location: setup\msienumrelatedproducts.htm
-tech.root: Msi
+tech.root: msi
 ms.assetid: cb0fbdce-0b20-4fb3-8b01-d5e81d7bf3a3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MsiEnumRelatedProducts, MsiEnumRelatedProducts function, MsiEnumRelatedProductsA, MsiEnumRelatedProductsW, _msi_msienumrelatedproducts, msi/MsiEnumRelatedProducts, msi/MsiEnumRelatedProductsA, msi/MsiEnumRelatedProductsW, setup.msienumrelatedproducts
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- MsiEnumRelatedProductsA
-: 
 ---
 
 # MsiEnumRelatedProductsA function

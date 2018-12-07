@@ -4,10 +4,10 @@ title: GetThreadId function
 author: windows-sdk-content
 description: Retrieves the thread identifier of the specified thread.
 old-location: base\getthreadid.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 198dfe9e-713f-46ce-90eb-24bfe42d2bf6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetThreadId, GetThreadId function, base.getthreadid, processthreadsapi/GetThreadId, winbase/GetThreadId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,12 +49,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetThreadId
-: 
 ---
 
 # GetThreadId function

@@ -4,10 +4,10 @@ title: IScheduledWorkItem::DeleteTrigger
 author: windows-sdk-content
 description: Deletes a trigger from a work item.
 old-location: taskschd\ischeduledworkitem_deletetrigger.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 418e16d3-67ee-4b77-a7a9-67e722619d80
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteTrigger, DeleteTrigger method [Task Scheduler], DeleteTrigger method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],DeleteTrigger method, IScheduledWorkItem.DeleteTrigger, IScheduledWorkItem::DeleteTrigger, _msb_ischeduledworkitem_deletetrigger, mstask/IScheduledWorkItem::DeleteTrigger, taskschd.ischeduledworkitem_deletetrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
-- apiref
-: 
-- COM
-: 
-- mstask.h
-: 
-- IScheduledWorkItem.DeleteTrigger
-: 
 ---
 
 # IScheduledWorkItem::DeleteTrigger

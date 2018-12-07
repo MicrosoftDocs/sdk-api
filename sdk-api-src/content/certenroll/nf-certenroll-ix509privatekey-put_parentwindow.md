@@ -4,10 +4,10 @@ title: IX509PrivateKey::put_ParentWindow
 author: windows-sdk-content
 description: Specifies or retrieves the ID of the window used to display key information.
 old-location: security\ix509privatekey_parentwindow_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 97243031-ef60-467d-ba65-6c7e6432d51f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IX509PrivateKey interface [Security],ParentWindow property, IX509PrivateKey.ParentWindow, IX509PrivateKey.put_ParentWindow, IX509PrivateKey::ParentWindow, IX509PrivateKey::get_ParentWindow, IX509PrivateKey::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ParentWindow, certenroll/IX509PrivateKey::get_ParentWindow, certenroll/IX509PrivateKey::put_ParentWindow, put_ParentWindow, security.ix509privatekey_parentwindow_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- certenroll.h
-: 
-- IX509PrivateKey.put_ParentWindow
-: 
 ---
 
 # IX509PrivateKey::put_ParentWindow

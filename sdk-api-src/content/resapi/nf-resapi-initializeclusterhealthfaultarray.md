@@ -4,10 +4,10 @@ title: InitializeClusterHealthFaultArray function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\initializeclusterhealthfaultarray.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: 9b2a2706-5641-46ba-a280-5a689ad50316
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: InitializeClusterHealthFaultArray, InitializeClusterHealthFaultArray function [Failover Cluster], mscs.initializeclusterhealthfaultarray, resapi/InitializeClusterHealthFaultArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,12 +41,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- InitializeClusterHealthFaultArray
-: 
 ---
 
 # InitializeClusterHealthFaultArray function

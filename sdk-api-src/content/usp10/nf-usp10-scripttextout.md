@@ -7,7 +7,7 @@ old-location: intl\scripttextout.htm
 tech.root: Intl
 ms.assetid: 8d69caeb-4c02-4a9f-9dd5-ac3c13561a57
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ScriptTextOut, ScriptTextOut function [Internationalization for Windows Applications], _win32_ScriptTextOut, intl.scripttextout, usp10/ScriptTextOut
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
-- apiref
-: 
-- 
-: 
-- ScriptTextOut
-: 
 ---
 
 # ScriptTextOut function

@@ -7,7 +7,7 @@ old-location: mstv\iattributeset_setattrib.htm
 tech.root: mstv
 ms.assetid: 5f2dc759-5545-4b4a-a2fc-fca65c0856cd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IAttributeSet interface [Microsoft TV Technologies],SetAttrib method, IAttributeSet.SetAttrib, IAttributeSet::SetAttrib, IAttributeSetSetAttrib, SetAttrib, SetAttrib method [Microsoft TV Technologies], SetAttrib method [Microsoft TV Technologies],IAttributeSet interface, dsattrib/IAttributeSet::SetAttrib, mstv.iattributeset_setattrib
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dsattrib.h
-: 
-- IAttributeSet.SetAttrib
-: 
 ---
 
 # IAttributeSet::SetAttrib

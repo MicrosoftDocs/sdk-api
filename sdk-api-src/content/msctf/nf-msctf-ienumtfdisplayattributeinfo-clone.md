@@ -7,7 +7,7 @@ old-location: tsf\ienumtfdisplayattributeinfo_clone.htm
 tech.root: TSF
 ms.assetid: 3cf57360-b07b-4a6c-850a-10c44895108d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, IEnumTfDisplayAttributeInfo interface [Text Services Framework],Clone method, IEnumTfDisplayAttributeInfo.Clone, IEnumTfDisplayAttributeInfo::Clone, _tsf_ienumtfdisplayattributeinfo_clone_ref, msctf/IEnumTfDisplayAttributeInfo::Clone, tsf.ienumtfdisplayattributeinfo_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
-- apiref
-: 
-- COM
-: 
-- msctf.h
-: 
-- IEnumTfDisplayAttributeInfo.Clone
-: 
 ---
 
 # IEnumTfDisplayAttributeInfo::Clone

@@ -7,7 +7,7 @@ old-location: dshow\dvd_subpicture_coding.htm
 tech.root: DirectShow
 ms.assetid: 46f45dfb-9be7-4222-b6fb-ea95b60323cd
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DVD_SPCoding_Extended, DVD_SPCoding_Other, DVD_SPCoding_RunLength, DVD_SUBPICTURE_CODING, DVD_SUBPICTURE_CODING , DVD_SUBPICTURE_CODING enumeration [DirectShow], DVD_SUBPICTURE_CODINGEnumeration, dshow.dvd_subpicture_coding, strmif/DVD_SPCoding_Extended, strmif/DVD_SPCoding_Other, strmif/DVD_SPCoding_RunLength, strmif/DVD_SUBPICTURE_CODING, tagDVD_SUBPICTURE_CODING
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId
 tech.root: WinAuto
 ms.assetid: 31b64e45-51dc-485a-8318-2e8db690f3c0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CachedChildId property [Windows Accessibility], CachedChildId property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedChildId property, IUIAutomationLegacyIAccessiblePattern.CachedChildId, IUIAutomationLegacyIAccessiblePattern.get_CachedChildId, IUIAutomationLegacyIAccessiblePattern::CachedChildId, IUIAutomationLegacyIAccessiblePattern::get_CachedChildId, get_CachedChildId, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedChildId, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- uiautomationclient.h
-: 
-- IUIAutomationLegacyIAccessiblePattern.get_CachedChildId
-: 
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CachedChildId

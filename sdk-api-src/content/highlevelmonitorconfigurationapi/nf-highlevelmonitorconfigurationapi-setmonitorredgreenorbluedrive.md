@@ -7,7 +7,7 @@ old-location: monitor\setmonitorredgreenorbluedrive.htm
 tech.root: Monitor
 ms.assetid: 9d000d86-02f8-442f-954c-c039c9dcc0cd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetMonitorRedGreenOrBlueDrive, SetMonitorRedGreenOrBlueDrive function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueDrive, monitor.setmonitorredgreenorbluedrive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SetMonitorRedGreenOrBlueDrive
-: 
 ---
 
 # SetMonitorRedGreenOrBlueDrive function

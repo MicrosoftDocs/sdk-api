@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_registerfornexttable.htm
 tech.root: mstv
 ms.assetid: 3e54a2bc-c112-4c06-96ff-37de9758df01
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IDVB_EIT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_EIT.RegisterForNextTable, IDVB_EIT::RegisterForNextTable, IDVB_EITRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_EIT interface, dvbsiparser/IDVB_EIT::RegisterForNextTable, mstv.idvb_eit_registerfornexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dvbsiparser.h
-: 
-- IDVB_EIT.RegisterForNextTable
-: 
 ---
 
 # IDVB_EIT::RegisterForNextTable

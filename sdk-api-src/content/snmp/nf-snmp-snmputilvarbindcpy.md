@@ -7,7 +7,7 @@ old-location: snmp\snmputilvarbindcpy.htm
 tech.root: SNMP
 ms.assetid: 0a3e1fb8-360d-4bfa-8fa3-8c114b9fd681
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpUtilVarBindCpy, SnmpUtilVarBindCpy function [SNMP], _snmp_snmputilvarbindcpy, snmp.snmputilvarbindcpy, snmp/SnmpUtilVarBindCpy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- SnmpUtilVarBindCpy
-: 
 ---
 
 # SnmpUtilVarBindCpy function

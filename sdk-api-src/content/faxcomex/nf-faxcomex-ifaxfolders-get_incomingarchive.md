@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxfolders_cpp_mfax_faxfolders_incomingarchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_904l.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxFolders interface [Fax Service],IncomingArchive property, IFaxFolders.IncomingArchive, IFaxFolders.get_IncomingArchive, IFaxFolders::IncomingArchive, IFaxFolders::get_IncomingArchive, IncomingArchive property [Fax Service], IncomingArchive property [Fax Service],IFaxFolders interface, _mfax_faxfolders.incomingarchive, fax._mfax_faxfolders_cpp_mfax_faxfolders_incomingarchive_cpp, fax._mfax_faxfolders_incomingarchive, faxcomex/IFaxFolders::IncomingArchive, faxcomex/IFaxFolders::get_IncomingArchive, get_IncomingArchive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- faxcomex.h
-: 
-- IFaxFolders.get_IncomingArchive
-: 
 ---
 
 # IFaxFolders::get_IncomingArchive

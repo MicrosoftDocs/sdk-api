@@ -7,7 +7,7 @@ old-location: com\cocreateinstance.htm
 tech.root: com
 ms.assetid: 7295a55b-12c7-4ed0-a7a4-9ecee16afdec
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CoCreateInstance, CoCreateInstance function [COM], _com_CoCreateInstance, com.cocreateinstance, combaseapi/CoCreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,12 +47,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CoCreateInstance
-: 
 ---
 
 # CoCreateInstance function

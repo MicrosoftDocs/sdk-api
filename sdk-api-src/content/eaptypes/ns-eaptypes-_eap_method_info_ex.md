@@ -4,10 +4,10 @@ title: "_EAP_METHOD_INFO_EX"
 author: windows-sdk-content
 description: Contains information about an EAP method.
 old-location: eaphost\eap_method_info_ex.htm
-tech.root: EAPHost
+tech.root: eaphost
 ms.assetid: 2d25f418-2130-4f9c-b3f4-f639dfba020a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EAP_METHOD_INFO_EX, EAP_METHOD_INFO_EX structure [EAPHost], _EAP_METHOD_INFO_EX, eaphost.eap_method_info_ex, eaptypes/EAP_METHOD_INFO_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices

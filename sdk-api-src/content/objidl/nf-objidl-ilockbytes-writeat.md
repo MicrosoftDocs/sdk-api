@@ -4,10 +4,10 @@ title: ILockBytes::WriteAt
 author: windows-sdk-content
 description: The WriteAt method writes the specified number of bytes starting at a specified offset from the beginning of the byte array.
 old-location: stg\ilockbytes_writeat.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: a27af4e1-293d-438a-8068-87275a51fd48
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ILockBytes interface [Structured Storage],WriteAt method, ILockBytes.WriteAt, ILockBytes::WriteAt, WriteAt, WriteAt method [Structured Storage], WriteAt method [Structured Storage],ILockBytes interface, _stg_ilockbytes_writeat, objidl/ILockBytes::WriteAt, stg.ilockbytes_writeat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- objidl.h
-: 
-- ILockBytes.WriteAt
-: 
 ---
 
 # ILockBytes::WriteAt

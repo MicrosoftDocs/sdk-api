@@ -7,7 +7,7 @@ old-location: winsync\sync_provider_role.htm
 tech.root: winsync
 ms.assetid: 2409c8bf-c4fc-4986-8dde-cc11f0d52ed4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SPR_DESTINATION, SPR_SOURCE, SYNC_PROVIDER_ROLE, SYNC_PROVIDER_ROLE enumeration [Windows Sync], __MIDL___MIDL_itf_winsync_0000_0000_0001, winsync.sync_provider_role, winsync/SPR_DESTINATION, winsync/SPR_SOURCE, winsync/SYNC_PROVIDER_ROLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

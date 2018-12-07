@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4getoptionvalue.htm
 tech.root: DHCP
 ms.assetid: eadb26ec-50d5-474f-b6fe-1a586889bd23
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpV4GetOptionValue, DhcpV4GetOptionValue function [DHCP], dhcp.dhcpv4getoptionvalue, dhcpsapi/DhcpV4GetOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- DhcpV4GetOptionValue
-: 
 ---
 
 # DhcpV4GetOptionValue function

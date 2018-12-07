@@ -7,7 +7,7 @@ old-location: fwp\fwpmengineopen0_func.htm
 tech.root: fwp
 ms.assetid: 5165f219-f3e0-4e84-915b-75912aab02b7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Filtering], fwp.fwpmengineopen0_func, fwpmu/FwpmEngineOpen0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FwpmEngineOpen0
-: 
 ---
 
 # FwpmEngineOpen0 function

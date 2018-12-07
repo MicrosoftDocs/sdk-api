@@ -7,7 +7,7 @@ old-location: fs\idiskquotacontrol_addusername.htm
 tech.root: fileio
 ms.assetid: 306120e8-642a-439d-839c-944cb7fd7ee2
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: AddUserName, AddUserName method [Files], AddUserName method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],AddUserName method, IDiskQuotaControl.AddUserName, IDiskQuotaControl::AddUserName, _win32_idiskquotacontrol_addusername, base.idiskquotacontrol_addusername, dskquota/IDiskQuotaControl::AddUserName, fs.idiskquotacontrol_addusername
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- dskquota.h
-: 
-- IDiskQuotaControl.AddUserName
-: 
 ---
 
 # IDiskQuotaControl::AddUserName

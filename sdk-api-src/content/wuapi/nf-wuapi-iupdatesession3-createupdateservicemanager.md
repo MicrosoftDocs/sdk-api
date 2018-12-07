@@ -4,10 +4,10 @@ title: IUpdateSession3::CreateUpdateServiceManager
 author: windows-sdk-content
 description: Returns a pointer to an IUpdateServiceManager2 interface for the session.
 old-location: wua\iupdatesession3_createupdateservicemanager.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 79d8f489-5375-48e2-a40d-d6f38f4843aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CreateUpdateServiceManager, CreateUpdateServiceManager method [Windows Update Agent], CreateUpdateServiceManager method [Windows Update Agent],IUpdateSession3 interface, IUpdateSession3 interface [Windows Update Agent],CreateUpdateServiceManager method, IUpdateSession3.CreateUpdateServiceManager, IUpdateSession3::CreateUpdateServiceManager, wua.iupdatesession3_createupdateservicemanager, wuapi/IUpdateSession3::CreateUpdateServiceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IUpdateSession3.CreateUpdateServiceManager
-: 
 ---
 
 # IUpdateSession3::CreateUpdateServiceManager

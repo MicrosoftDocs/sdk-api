@@ -7,7 +7,7 @@ old-location: wia\_wia_WIA_FORMAT_INFO.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_format_info.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWIA_FORMAT_INFO, PWIA_FORMAT_INFO, PWIA_FORMAT_INFO structure pointer [WIA], WIA_FORMAT_INFO, WIA_FORMAT_INFO structure [WIA], _WIA_FORMAT_INFO, _wia_WIA_FORMAT_INFO, wia._wia_WIA_FORMAT_INFO, wia_xp/PWIA_FORMAT_INFO, wia_xp/WIA_FORMAT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

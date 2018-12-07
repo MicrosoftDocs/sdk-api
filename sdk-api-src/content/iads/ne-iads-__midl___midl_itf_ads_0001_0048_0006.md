@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_ads_0001_0048_0006"
 author: windows-sdk-content
 description: Specifies the revision number of the access-control entry (ACE), or the access-control list (ACL), for Active Directory.
 old-location: adsi\ads_sd_revision_enum.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 3a8c7b5c-5846-4f50-88d2-5a9c86b15480
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADS_SD_REVISION_DS, ADS_SD_REVISION_ENUM, ADS_SD_REVISION_ENUM enumeration [ADSI], __MIDL___MIDL_itf_ads_0001_0048_0006, _ds_ads_sd_revision_enum, adsi.ads__sd__revision__enum, adsi.ads_sd_revision_enum, iads/ADS_SD_REVISION_DS, iads/ADS_SD_REVISION_ENUM
 ms.prod: windows-hardware
 ms.technology: windows-devices

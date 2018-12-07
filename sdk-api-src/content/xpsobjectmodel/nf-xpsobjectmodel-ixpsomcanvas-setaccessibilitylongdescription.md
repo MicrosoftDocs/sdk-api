@@ -7,7 +7,7 @@ old-location: xps\ixpsomcanvas_setaccessibilitylongdescription.htm
 tech.root: printdocs
 ms.assetid: 1b9da720-2823-4749-b881-3b9cd5c303a4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetAccessibilityLongDescription method, IXpsOMCanvas.SetAccessibilityLongDescription, IXpsOMCanvas::SetAccessibilityLongDescription, SetAccessibilityLongDescription, SetAccessibilityLongDescription method [XPS Documents and Packaging], SetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setaccessibilitylongdescription, xpsobjectmodel/IXpsOMCanvas::SetAccessibilityLongDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- xpsobjectmodel.h
-: 
-- IXpsOMCanvas.SetAccessibilityLongDescription
-: 
 ---
 
 # IXpsOMCanvas::SetAccessibilityLongDescription

@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorlogrecords_getlogrecordvariants.htm
 tech.root: cossdk
 ms.assetid: 4f020d2d-ea2d-48c2-ab79-7b412e77b39f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetLogRecordVariants, GetLogRecordVariants method [COM+], GetLogRecordVariants method [COM+],ICrmMonitorLogRecords interface, ICrmMonitorLogRecords interface [COM+],GetLogRecordVariants method, ICrmMonitorLogRecords.GetLogRecordVariants, ICrmMonitorLogRecords::GetLogRecordVariants, _dtc_ICrmMonitorLogRecords_GetLogRecordVariants, comsvcs/ICrmMonitorLogRecords::GetLogRecordVariants, cos.icrmmonitorlogrecords_getlogrecordvariants
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- ICrmMonitorLogRecords.GetLogRecordVariants
-: 
 ---
 
 # ICrmMonitorLogRecords::GetLogRecordVariants

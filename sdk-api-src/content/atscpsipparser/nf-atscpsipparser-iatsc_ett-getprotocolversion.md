@@ -7,7 +7,7 @@ old-location: mstv\iatsc_ett_getprotocolversion.htm
 tech.root: mstv
 ms.assetid: 2fc7673c-486a-48dc-a283-55fbef42a2b0
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetProtocolVersion method, IATSC_ETT.GetProtocolVersion, IATSC_ETT::GetProtocolVersion, IATSC_ETTGetProtocolVersion, atscpsipparser/IATSC_ETT::GetProtocolVersion, mstv.iatsc_ett_getprotocolversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- atscpsipparser.h
-: 
-- IATSC_ETT.GetProtocolVersion
-: 
 ---
 
 # IATSC_ETT::GetProtocolVersion

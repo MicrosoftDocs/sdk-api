@@ -4,10 +4,10 @@ title: IFsrmPipelineModuleDefinition::get_Name
 author: windows-sdk-content
 description: The name of the module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_name.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 486c659e-59af-4a82-bcb0-72d12c2d05df
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Name property, IFsrmPipelineModuleDefinition.Name, IFsrmPipelineModuleDefinition.get_Name, IFsrmPipelineModuleDefinition::Name, IFsrmPipelineModuleDefinition::get_Name, IFsrmPipelineModuleDefinition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_name, fsrm.ifsrmpipelinemoduledefinition_name, fsrmpipeline/IFsrmPipelineModuleDefinition::Name, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Name, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Name, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmpipeline.h
-: 
-- IFsrmPipelineModuleDefinition.get_Name
-: 
 ---
 
 # IFsrmPipelineModuleDefinition::get_Name

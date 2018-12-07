@@ -4,10 +4,10 @@ title: IAutomaticUpdatesResults::get_LastInstallationSuccessDate
 author: windows-sdk-content
 description: Gets the last time and Coordinated Universal Time (UTC) date when Automatic Updates successfully installed any updates, even if some failures occurred.
 old-location: wua\iautomaticupdatesresults_lastinstallationsuccessdate.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 31cd54fa-ad4a-4a60-a87e-7c915cf596d7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IAutomaticUpdatesResults interface [Windows Update Agent],LastInstallationSuccessDate property, IAutomaticUpdatesResults.LastInstallationSuccessDate, IAutomaticUpdatesResults.get_LastInstallationSuccessDate, IAutomaticUpdatesResults::LastInstallationSuccessDate, IAutomaticUpdatesResults::get_LastInstallationSuccessDate, LastInstallationSuccessDate property [Windows Update Agent], LastInstallationSuccessDate property [Windows Update Agent],IAutomaticUpdatesResults interface, get_LastInstallationSuccessDate, wua.iautomaticupdatesresults_lastinstallationsuccessdate, wuapi/IAutomaticUpdatesResults::LastInstallationSuccessDate, wuapi/IAutomaticUpdatesResults::get_LastInstallationSuccessDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- wuapi.h
-: 
-- IAutomaticUpdatesResults.get_LastInstallationSuccessDate
-: 
 ---
 
 # IAutomaticUpdatesResults::get_LastInstallationSuccessDate

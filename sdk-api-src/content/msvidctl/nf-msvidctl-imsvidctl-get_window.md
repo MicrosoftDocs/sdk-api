@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_window.htm
 tech.root: mstv
 ms.assetid: 88121bed-c626-4c1a-b415-8d162c43df9d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_Window method, IMSVidCtl.get_Window, IMSVidCtl::get_Window, IMSVidCtlget_Window, get_Window, get_Window method [Microsoft TV Technologies], get_Window method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_window, msvidctl/IMSVidCtl::get_Window
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- msvidctl.h
-: 
-- IMSVidCtl.get_Window
-: 
 ---
 
 # IMSVidCtl::get_Window

@@ -7,7 +7,7 @@ old-location: iphlp\getinvertedifstacktable.htm
 tech.root: IpHlp
 ms.assetid: d1808ded-2798-46cc-8021-fdbcd3da60ea
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetInvertedIfStackTable, GetInvertedIfStackTable function [IP Helper], iphlp.getinvertedifstacktable, netioapi/GetInvertedIfStackTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- GetInvertedIfStackTable
-: 
 ---
 
 # GetInvertedIfStackTable function

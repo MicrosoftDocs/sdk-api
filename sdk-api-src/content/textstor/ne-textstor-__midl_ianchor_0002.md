@@ -7,7 +7,7 @@ old-location: tsf\tsshiftdir.htm
 tech.root: TSF
 ms.assetid: e247b79d-354c-4211-9160-e705436d669c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TS_SD_BACKWARD, TS_SD_FORWARD, TsShiftDir, TsShiftDir enumeration [Text Services Framework], __MIDL_IAnchor_0002, _tsf_tsshiftdir_ref, textstor/TS_SD_BACKWARD, textstor/TS_SD_FORWARD, textstor/TsShiftDir, tsf.tsshiftdir
 ms.prod: windows-hardware
 ms.technology: windows-devices

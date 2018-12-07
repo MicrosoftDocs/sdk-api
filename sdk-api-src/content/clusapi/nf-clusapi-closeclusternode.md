@@ -4,10 +4,10 @@ title: CloseClusterNode function
 author: windows-sdk-content
 description: Closes a node handle.
 old-location: mscs\closeclusternode.htm
-tech.root: MsCS
+tech.root: mscs
 ms.assetid: e2d90b7e-d181-48b6-a891-b885c24a15ea
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CloseClusterNode, CloseClusterNode function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_NODE, PCLUSAPI_CLOSE_CLUSTER_NODE function [Failover Cluster], _wolf_closeclusternode, clusapi/CloseClusterNode, clusapi/PCLUSAPI_CLOSE_CLUSTER_NODE, mscs.closeclusternode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,12 +45,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- CloseClusterNode
-: 
 ---
 
 # CloseClusterNode function

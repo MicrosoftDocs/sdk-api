@@ -7,7 +7,7 @@ old-location: cos\imessagemover_put_destpath.htm
 tech.root: cossdk
 ms.assetid: 79ed8030-097d-4017-be8e-e812f4b14a46
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IMessageMover interface [COM+],put_DestPath method, IMessageMover.put_DestPath, IMessageMover::put_DestPath, comsvcs/IMessageMover::put_DestPath, cos.imessagemover_put_destpath, put_DestPath, put_DestPath method [COM+], put_DestPath method [COM+],IMessageMover interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- comsvcs.h
-: 
-- IMessageMover.put_DestPath
-: 
 ---
 
 # IMessageMover::put_DestPath

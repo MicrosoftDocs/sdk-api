@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetNotifyInterface
 author: windows-sdk-content
 description: Retrieves the interface pointer to your implementation of the IBackgroundCopyCallback interface.
 old-location: bits\ibackgroundcopyjob_getnotifyinterface.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 6a954fbc-baf6-4efa-bec0-dd86b4b7a916
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetNotifyInterface, GetNotifyInterface method [BITS], GetNotifyInterface method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNotifyInterface method, IBackgroundCopyJob.GetNotifyInterface, IBackgroundCopyJob::GetNotifyInterface, _drz_ibackgroundcopyjob_getnotifyinterface, bits.ibackgroundcopyjob_getnotifyinterface, bits/IBackgroundCopyJob::GetNotifyInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- bits.h
-: 
-- IBackgroundCopyJob.GetNotifyInterface
-: 
 ---
 
 # IBackgroundCopyJob::GetNotifyInterface
@@ -67,14 +59,7 @@ Retrieves the interface pointer to your implementation of the
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - ppNotifyInterface [out]
+### -param pVal [out]
 
 Interface pointer to your implementation of the 
 <a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface. When done, release <i>ppNotifyInterface</i>.

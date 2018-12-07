@@ -4,10 +4,10 @@ title: IUPnPDeviceFinder::FindByType
 author: windows-sdk-content
 description: The FindByType method searches synchronously for devices by device type or service type.
 old-location: upnp\iupnpdevicefinder_findbytype.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 5fc28829-8802-457b-a1cf-c74834b6651c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FindByType, FindByType method [UPnP APIs], FindByType method [UPnP APIs],IUPnPDeviceFinder interface, IUPnPDeviceFinder interface [UPnP APIs],FindByType method, IUPnPDeviceFinder.FindByType, IUPnPDeviceFinder::FindByType, _upnp_iupnpdevicefinder_findbytype, upnp.iupnpdevicefinder_findbytype, upnp/IUPnPDeviceFinder::FindByType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- upnp.h
-: 
-- IUPnPDeviceFinder.FindByType
-: 
 ---
 
 # IUPnPDeviceFinder::FindByType

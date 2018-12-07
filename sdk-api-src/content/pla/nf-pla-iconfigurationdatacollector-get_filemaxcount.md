@@ -4,10 +4,10 @@ title: IConfigurationDataCollector::get_FileMaxCount
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of files to collect.
 old-location: pla\iconfigurationdatacollector_filemaxcount.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 20089bc0-8af4-48b4-85aa-51ab2e4bf5be
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: FileMaxCount property [PLA], FileMaxCount property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxCount property, IConfigurationDataCollector.FileMaxCount, IConfigurationDataCollector.get_FileMaxCount, IConfigurationDataCollector::FileMaxCount, IConfigurationDataCollector::get_FileMaxCount, IConfigurationDataCollector::put_FileMaxCount, base.iconfigurationdatacollector_filemaxcount, get_FileMaxCount, pla.iconfigurationdatacollector_filemaxcount, pla/IConfigurationDataCollector::FileMaxCount, pla/IConfigurationDataCollector::get_FileMaxCount, pla/IConfigurationDataCollector::put_FileMaxCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- pla.h
-: 
-- IConfigurationDataCollector.get_FileMaxCount
-: 
 ---
 
 # IConfigurationDataCollector::get_FileMaxCount

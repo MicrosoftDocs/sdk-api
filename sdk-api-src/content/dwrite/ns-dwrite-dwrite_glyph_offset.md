@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_glyph_offset.htm
 tech.root: DirectWrite
 ms.assetid: f5a231c0-78df-4fe0-99a8-81fcad517cda
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DWRITE_GLYPH_OFFSET, DWRITE_GLYPH_OFFSET structure [Direct Write], directwrite.dwrite_glyph_offset, dwrite/DWRITE_GLYPH_OFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices

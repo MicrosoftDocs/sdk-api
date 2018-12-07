@@ -7,7 +7,7 @@ old-location: com\oledraw.htm
 tech.root: com
 ms.assetid: c45c6746-59ea-43bb-9f2b-2182d7a3fc7a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: OleDraw, OleDraw function [COM], _ole_OleDraw, com.oledraw, ole/OleDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,12 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- OleDraw
-: 
 ---
 
 # OleDraw function
@@ -66,44 +60,22 @@ Enables drawing objects more easily. You can use it instead of calling <a href="
 
 
 
-### -param pUnknown
-
-TBD
-
-
-### -param dwAspect
-
-TBD
-
-
-### -param hdcDraw
-
-TBD
-
-
-### -param lprcBounds
-
-TBD
-
-
-
-
-#### - arg1 [in]
+#### - pUnknown [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the view object that is to be drawn.
 
 
-#### - arg2 [in]
+#### - dwAspect [in]
 
 How the object is to be represented. Representations include content, an icon, a thumbnail, or a printed document. Possible values are taken from the <a href="https://msdn.microsoft.com/a2b729c8-7091-4520-93cd-c44468ba0274">DVASPECT</a> enumeration.
 
 
-#### - arg3 [in]
+#### - hdcDraw [in]
 
 Device context on which to draw. Cannot be a metafile device context.
 
 
-#### - arg4 [in]
+#### - lprcBounds [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure specifying the rectangle in which the object should be drawn. This parameter is converted to a <a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a> structure and passed to <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a>.
 

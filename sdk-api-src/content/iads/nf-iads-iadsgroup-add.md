@@ -4,10 +4,10 @@ title: IADsGroup::Add
 author: windows-sdk-content
 description: Adds an ADSI object to an existing group.
 old-location: adsi\iadsgroup_add.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 7b660c3b-f395-407e-bc84-7ef7117298bb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [ADSI], Add method [ADSI],IADsGroup interface, IADsGroup interface [ADSI],Add method, IADsGroup.Add, IADsGroup::Add, _ds_iadsgroup_add, adsi.iadsgroup__add, adsi.iadsgroup_add, iads/IADsGroup::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- iads.h
-: 
-- IADsGroup.Add
-: 
 ---
 
 # IADsGroup::Add

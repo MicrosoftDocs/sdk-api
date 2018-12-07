@@ -4,10 +4,10 @@ title: IGPEInformation::GetFileSysPath
 author: windows-sdk-content
 description: The GetFileSysPath method returns the file system path for the specified section of the GPO. The path is in UNC format.
 old-location: policy\igpeinformation_getfilesyspath.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: 6fcdc7f8-61bf-4d3e-b0aa-ff730d6730cb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 11/16/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetFileSysPath, GetFileSysPath method [Group Policy], GetFileSysPath method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetFileSysPath method, IGPEInformation.GetFileSysPath, IGPEInformation::GetFileSysPath, _win32_igpeinformation_getfilesyspath, gpedit/IGPEInformation::GetFileSysPath, policy.igpeinformation_getfilesyspath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- gpedit.h
-: 
-- IGPEInformation.GetFileSysPath
-: 
 ---
 
 # IGPEInformation::GetFileSysPath

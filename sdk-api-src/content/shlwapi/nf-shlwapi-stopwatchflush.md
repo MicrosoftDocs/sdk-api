@@ -7,7 +7,7 @@ old-location: shell\StopWatchFlush.htm
 tech.root: shell
 ms.assetid: 52b79602-6e24-4d66-a400-5745149e744b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: StopWatchFlush, StopWatchFlush function [Windows Shell], _win32_StopWatchFlush, shell.StopWatchFlush, shlwapi/StopWatchFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- StopWatchFlush
-: 
 ---
 
 # StopWatchFlush function

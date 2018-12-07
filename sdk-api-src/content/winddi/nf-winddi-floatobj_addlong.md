@@ -7,7 +7,7 @@ old-location: display\floatobj_addlong.htm
 tech.root: display
 ms.assetid: a6355e47-5373-4b03-bafc-308a64e8e0aa
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FLOATOBJ_AddLong, FLOATOBJ_AddLong function [Display Devices], display.floatobj_addlong, gdifncs_d669d0ec-1d1e-4e14-b259-cd7b8bfe5d85.xml, winddi/FLOATOBJ_AddLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- FLOATOBJ_AddLong
-: 
 ---
 
 # FLOATOBJ_AddLong function

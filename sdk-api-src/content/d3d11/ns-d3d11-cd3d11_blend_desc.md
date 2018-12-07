@@ -7,7 +7,7 @@ old-location: direct3d11\cd3d11_blend_desc.htm
 tech.root: direct3d11
 ms.assetid: EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CD3D11_BLEND_DESC, CD3D11_BLEND_DESC structure [Direct3D 11], d3d11/CD3D11_BLEND_DESC, direct3d11.cd3d11_blend_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,21 @@ Represents a blend-state structure and provides convenience methods for creating
 ## -struct-fields
 
 
+
+
+### -field CD3D11_BLEND_DESC
+
+TBD 
+
+
+### -field ~CD3D11_BLEND_DESC
+
+TBD 
+
+
+### -field operator const D3D11_BLEND_DESC&
+
+TBD 
 
 
 ### -field D3D11_BLEND_DESC

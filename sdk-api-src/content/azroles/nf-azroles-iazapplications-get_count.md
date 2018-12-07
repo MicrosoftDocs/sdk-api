@@ -4,10 +4,10 @@ title: IAzApplications::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzApplication objects in the collection.
 old-location: security\iazapplications_count.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 2f12fd9f-4632-4eef-8ac4-80e73a731539
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AzApplications object [Security],Count property, Count property [Security], Count property [Security],AzApplications object, Count property [Security],IAzApplications interface, IAzApplications interface [Security],Count property, IAzApplications.Count, IAzApplications.get_Count, IAzApplications::Count, IAzApplications::get_Count, azroles/IAzApplications::Count, azroles/IAzApplications::get_Count, get_Count, security.iazapplications_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,14 +44,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
-- apiref
-: 
-- COM
-: 
-- azroles.h
-: 
-- IAzApplications.get_Count
-: 
 ---
 
 # IAzApplications::get_Count

@@ -4,10 +4,10 @@ title: ITextRow::GetCellColorFore
 author: windows-sdk-content
 description: Gets the foreground color of the active cell.
 old-location: controls\itextrow_getcellcolorfore.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: 92c8bff3-a56b-4adc-9f49-728f22c1089b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: GetCellColorFore, GetCellColorFore method [Windows Controls], GetCellColorFore method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellColorFore method, ITextRow.GetCellColorFore, ITextRow::GetCellColorFore, controls.itextrow_getcellcolorfore, tom/ITextRow::GetCellColorFore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- tom.h
-: 
-- ITextRow.GetCellColorFore
-: 
 ---
 
 # ITextRow::GetCellColorFore

@@ -4,10 +4,10 @@ title: WinExec function
 author: windows-sdk-content
 description: Runs the specified application.
 old-location: base\winexec.htm
-tech.root: ProcThread
+tech.root: procthread
 ms.assetid: 00ac3bd8-59d3-4f7f-8720-e57d05cee056
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: WinExec, WinExec function, _win32_winexec, base.winexec, winbase/WinExec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,12 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- 
-: 
-- WinExec
-: 
 ---
 
 # WinExec function

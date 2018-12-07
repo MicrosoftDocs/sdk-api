@@ -4,10 +4,10 @@ title: IFsrmPropertyBag::get_VolumeIndex
 author: windows-sdk-content
 description: The index that the scanner uses to refer to the volume on which the file exists.
 old-location: fsrm\ifsrmpropertybag_volumeindex.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 08d4e052-710b-4f41-86b1-473760a6e9c6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],VolumeIndex property, IFsrmPropertyBag.VolumeIndex, IFsrmPropertyBag.get_VolumeIndex, IFsrmPropertyBag::VolumeIndex, IFsrmPropertyBag::get_VolumeIndex, VolumeIndex property [File Server Resource Manager], VolumeIndex property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_volumeindex, fsrm.ifsrmpropertybag_volumeindex, fsrmpipeline/IFsrmPropertyBag::VolumeIndex, fsrmpipeline/IFsrmPropertyBag::get_VolumeIndex, get_VolumeIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,14 +43,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- fsrmpipeline.h
-: 
-- IFsrmPropertyBag.get_VolumeIndex
-: 
 ---
 
 # IFsrmPropertyBag::get_VolumeIndex

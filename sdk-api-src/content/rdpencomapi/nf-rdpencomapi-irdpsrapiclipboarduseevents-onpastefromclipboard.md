@@ -4,10 +4,10 @@ title: IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
 author: windows-sdk-content
 description: This callback is issued when an attempt to copy data from the sharer computer is made.
 old-location: rdp\irdpsrapiclipboarduseevents_onpastefromclipboard.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: aa5fccb9-ca7b-4779-a454-f16be8bca72c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIClipboardUseEvents interface [RDP],OnPasteFromClipboard method, IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard, IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard, OnPasteFromClipboard, OnPasteFromClipboard method [RDP], OnPasteFromClipboard method [RDP],IRDPSRAPIClipboardUseEvents interface, rdp.irdpsrapiclipboarduseevents_onpastefromclipboard, rdpencomapi/IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,14 +42,6 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-- apiref
-: 
-- COM
-: 
-- rdpencomapi.h
-: 
-- IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
-: 
 ---
 
 # IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
